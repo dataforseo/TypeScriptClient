@@ -1,27 +1,21 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo
 
 # Interface: IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo
 
-## Implemented by
-
-- [`AppendixWhoisDomainAnalyticsLimitsRatesDataInfo`](../classes/AppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [overview](IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md#overview)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### overview
+### overview?
 
-• `Optional` **overview**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **overview**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:212812

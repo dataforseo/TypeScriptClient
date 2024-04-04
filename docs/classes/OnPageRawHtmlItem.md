@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageRawHtmlItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPageRawHtmlItem
 
 # Class: OnPageRawHtmlItem
 
@@ -8,116 +12,92 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPageRawHtmlItem.md#constructor)
-
-### Properties
-
-- [html](OnPageRawHtmlItem.md#html)
-
-### Methods
-
-- [init](OnPageRawHtmlItem.md#init)
-- [toJSON](OnPageRawHtmlItem.md#tojson)
-- [fromJS](OnPageRawHtmlItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPageRawHtmlItem(data)
 
-• **new OnPageRawHtmlItem**(`data?`): [`OnPageRawHtmlItem`](OnPageRawHtmlItem.md)
+> **new OnPageRawHtmlItem**(`data`?): [`OnPageRawHtmlItem`](OnPageRawHtmlItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPageRawHtmlItem`](../interfaces/IOnPageRawHtmlItem.md) |
+• **data?**: [`IOnPageRawHtmlItem`](../interfaces/IOnPageRawHtmlItem.md)
 
 #### Returns
 
 [`OnPageRawHtmlItem`](OnPageRawHtmlItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:156636
+main.ts:156644
 
 ## Properties
 
-### html
+### html?
 
-• `Optional` **html**: `string`
+> **`optional`** **html**: `string`
 
 HTML page
 
 #### Implementation of
 
-[IOnPageRawHtmlItem](../interfaces/IOnPageRawHtmlItem.md).[html](../interfaces/IOnPageRawHtmlItem.md#html)
+[`IOnPageRawHtmlItem`](../interfaces/IOnPageRawHtmlItem.md).[`html`](../interfaces/IOnPageRawHtmlItem.md#html)
 
-#### Defined in
+#### Source
 
-main.ts:156632
+main.ts:156640
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:156645
+main.ts:156653
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:156662
+main.ts:156670
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPageRawHtmlItem`](OnPageRawHtmlItem.md)
+> **`static`** **fromJS**(`data`): [`OnPageRawHtmlItem`](OnPageRawHtmlItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`OnPageRawHtmlItem`](OnPageRawHtmlItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:156655
+main.ts:156663

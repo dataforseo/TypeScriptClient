@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleSubdomainsLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsGoogleSubdomainsLiveResultInfo
 
 # Class: DataforseoLabsGoogleSubdomainsLiveResultInfo
 
@@ -8,218 +12,188 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsGoogleSubdomainsLiveResultInfo.md#constructor)
-
-### Properties
-
-- [items](DataforseoLabsGoogleSubdomainsLiveResultInfo.md#items)
-- [items\_count](DataforseoLabsGoogleSubdomainsLiveResultInfo.md#items_count)
-- [language\_code](DataforseoLabsGoogleSubdomainsLiveResultInfo.md#language_code)
-- [location\_code](DataforseoLabsGoogleSubdomainsLiveResultInfo.md#location_code)
-- [se\_type](DataforseoLabsGoogleSubdomainsLiveResultInfo.md#se_type)
-- [target](DataforseoLabsGoogleSubdomainsLiveResultInfo.md#target)
-- [total\_count](DataforseoLabsGoogleSubdomainsLiveResultInfo.md#total_count)
-
-### Methods
-
-- [init](DataforseoLabsGoogleSubdomainsLiveResultInfo.md#init)
-- [toJSON](DataforseoLabsGoogleSubdomainsLiveResultInfo.md#tojson)
-- [fromJS](DataforseoLabsGoogleSubdomainsLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsGoogleSubdomainsLiveResultInfo(data)
 
-• **new DataforseoLabsGoogleSubdomainsLiveResultInfo**(`data?`): [`DataforseoLabsGoogleSubdomainsLiveResultInfo`](DataforseoLabsGoogleSubdomainsLiveResultInfo.md)
+> **new DataforseoLabsGoogleSubdomainsLiveResultInfo**(`data`?): [`DataforseoLabsGoogleSubdomainsLiveResultInfo`](DataforseoLabsGoogleSubdomainsLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsGoogleSubdomainsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md) |
+• **data?**: [`IDataforseoLabsGoogleSubdomainsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleSubdomainsLiveResultInfo`](DataforseoLabsGoogleSubdomainsLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:92087
+main.ts:92095
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`DataforseoLabsSubdomainsLiveItem`](DataforseoLabsSubdomainsLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsSubdomainsLiveItem`](DataforseoLabsSubdomainsLiveItem.md)[]
 
 contains subdomains and related data
 
 #### Implementation of
 
-[IDataforseoLabsGoogleSubdomainsLiveResultInfo](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md).[items](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md#items)
+[`IDataforseoLabsGoogleSubdomainsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:92083
+main.ts:92091
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleSubdomainsLiveResultInfo](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md).[items_count](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md#items_count)
+[`IDataforseoLabsGoogleSubdomainsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:92081
+main.ts:92089
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleSubdomainsLiveResultInfo](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md).[language_code](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md#language_code)
+[`IDataforseoLabsGoogleSubdomainsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:92077
+main.ts:92085
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleSubdomainsLiveResultInfo](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md).[location_code](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md#location_code)
+[`IDataforseoLabsGoogleSubdomainsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:92075
+main.ts:92083
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IDataforseoLabsGoogleSubdomainsLiveResultInfo](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md).[se_type](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md#se_type)
+[`IDataforseoLabsGoogleSubdomainsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:92071
+main.ts:92079
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 domain in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleSubdomainsLiveResultInfo](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md).[target](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md#target)
+[`IDataforseoLabsGoogleSubdomainsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md).[`target`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md#target)
 
-#### Defined in
+#### Source
 
-main.ts:92073
+main.ts:92081
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
 #### Implementation of
 
-[IDataforseoLabsGoogleSubdomainsLiveResultInfo](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md).[total_count](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md#total_count)
+[`IDataforseoLabsGoogleSubdomainsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md#total_count)
 
-#### Defined in
+#### Source
 
-main.ts:92079
+main.ts:92087
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:92096
+main.ts:92104
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:92123
+main.ts:92131
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsGoogleSubdomainsLiveResultInfo`](DataforseoLabsGoogleSubdomainsLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleSubdomainsLiveResultInfo`](DataforseoLabsGoogleSubdomainsLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsGoogleSubdomainsLiveResultInfo`](DataforseoLabsGoogleSubdomainsLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:92116
+main.ts:92124

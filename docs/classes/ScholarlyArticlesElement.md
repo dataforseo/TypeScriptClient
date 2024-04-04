@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ScholarlyArticlesElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ScholarlyArticlesElement
 
 # Class: ScholarlyArticlesElement
 
@@ -8,184 +12,156 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ScholarlyArticlesElement.md#constructor)
-
-### Properties
-
-- [author](ScholarlyArticlesElement.md#author)
-- [description](ScholarlyArticlesElement.md#description)
-- [title](ScholarlyArticlesElement.md#title)
-- [type](ScholarlyArticlesElement.md#type)
-- [url](ScholarlyArticlesElement.md#url)
-
-### Methods
-
-- [init](ScholarlyArticlesElement.md#init)
-- [toJSON](ScholarlyArticlesElement.md#tojson)
-- [fromJS](ScholarlyArticlesElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ScholarlyArticlesElement(data)
 
-• **new ScholarlyArticlesElement**(`data?`): [`ScholarlyArticlesElement`](ScholarlyArticlesElement.md)
+> **new ScholarlyArticlesElement**(`data`?): [`ScholarlyArticlesElement`](ScholarlyArticlesElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IScholarlyArticlesElement`](../interfaces/IScholarlyArticlesElement.md) |
+• **data?**: [`IScholarlyArticlesElement`](../interfaces/IScholarlyArticlesElement.md)
 
 #### Returns
 
 [`ScholarlyArticlesElement`](ScholarlyArticlesElement.md)
 
-#### Defined in
+#### Source
 
 main.ts:32671
 
 ## Properties
 
-### author
+### author?
 
-• `Optional` **author**: `string`
+> **`optional`** **author**: `string`
 
 author
 
 #### Implementation of
 
-[IScholarlyArticlesElement](../interfaces/IScholarlyArticlesElement.md).[author](../interfaces/IScholarlyArticlesElement.md#author)
+[`IScholarlyArticlesElement`](../interfaces/IScholarlyArticlesElement.md).[`author`](../interfaces/IScholarlyArticlesElement.md#author)
 
-#### Defined in
+#### Source
 
 main.ts:32665
 
-___
+***
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description
 
 #### Implementation of
 
-[IScholarlyArticlesElement](../interfaces/IScholarlyArticlesElement.md).[description](../interfaces/IScholarlyArticlesElement.md#description)
+[`IScholarlyArticlesElement`](../interfaces/IScholarlyArticlesElement.md).[`description`](../interfaces/IScholarlyArticlesElement.md#description)
 
-#### Defined in
+#### Source
 
 main.ts:32667
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
 #### Implementation of
 
-[IScholarlyArticlesElement](../interfaces/IScholarlyArticlesElement.md).[title](../interfaces/IScholarlyArticlesElement.md#title)
+[`IScholarlyArticlesElement`](../interfaces/IScholarlyArticlesElement.md).[`title`](../interfaces/IScholarlyArticlesElement.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:32661
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IScholarlyArticlesElement](../interfaces/IScholarlyArticlesElement.md).[type](../interfaces/IScholarlyArticlesElement.md#type)
+[`IScholarlyArticlesElement`](../interfaces/IScholarlyArticlesElement.md).[`type`](../interfaces/IScholarlyArticlesElement.md#type)
 
-#### Defined in
+#### Source
 
 main.ts:32659
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL
 
 #### Implementation of
 
-[IScholarlyArticlesElement](../interfaces/IScholarlyArticlesElement.md).[url](../interfaces/IScholarlyArticlesElement.md#url)
+[`IScholarlyArticlesElement`](../interfaces/IScholarlyArticlesElement.md).[`url`](../interfaces/IScholarlyArticlesElement.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:32663
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:32680
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:32701
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ScholarlyArticlesElement`](ScholarlyArticlesElement.md)
+> **`static`** **fromJS**(`data`): [`ScholarlyArticlesElement`](ScholarlyArticlesElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ScholarlyArticlesElement`](ScholarlyArticlesElement.md)
 
-#### Defined in
+#### Source
 
 main.ts:32694

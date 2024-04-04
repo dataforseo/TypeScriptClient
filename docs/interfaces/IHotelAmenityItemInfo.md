@@ -1,68 +1,59 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IHotelAmenityItemInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IHotelAmenityItemInfo
 
 # Interface: IHotelAmenityItemInfo
 
-## Implemented by
-
-- [`HotelAmenityItemInfo`](../classes/HotelAmenityItemInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [amenity](IHotelAmenityItemInfo.md#amenity)
-- [amenity\_label](IHotelAmenityItemInfo.md#amenity_label)
-- [hint](IHotelAmenityItemInfo.md#hint)
-- [hint\_label](IHotelAmenityItemInfo.md#hint_label)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### amenity
+### amenity?
 
-• `Optional` **amenity**: `string`
+> **`optional`** **amenity**: `string`
 
 standardised amenity name
 
-#### Defined in
+#### Source
 
 main.ts:200795
 
-___
+***
 
-### amenity\_label
+### amenity\_label?
 
-• `Optional` **amenity\_label**: `string`
+> **`optional`** **amenity\_label**: `string`
 
 displayed amenity name
 
-#### Defined in
+#### Source
 
 main.ts:200797
 
-___
+***
 
-### hint
+### hint?
 
-• `Optional` **hint**: `string`
+> **`optional`** **hint**: `string`
 
 standardised details about the amenity
 
-#### Defined in
+#### Source
 
 main.ts:200799
 
-___
+***
 
-### hint\_label
+### hint\_label?
 
-• `Optional` **hint\_label**: `string`
+> **`optional`** **hint\_label**: `string`
 
 displayed details about the amenity
 
-#### Defined in
+#### Source
 
 main.ts:200801

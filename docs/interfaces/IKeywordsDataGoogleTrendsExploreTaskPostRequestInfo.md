@@ -1,54 +1,35 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo
 
 # Interface: IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo
 
-## Implemented by
-
-- [`KeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](../classes/KeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [category\_code](IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#category_code)
-- [date\_from](IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#date_from)
-- [date\_to](IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#date_to)
-- [item\_types](IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#item_types)
-- [keywords](IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#keywords)
-- [language\_code](IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#language_code)
-- [language\_name](IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#language_name)
-- [location\_code](IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#location_code)
-- [location\_name](IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#location_name)
-- [pingback\_url](IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#pingback_url)
-- [postback\_url](IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#postback_url)
-- [tag](IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#tag)
-- [time\_range](IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#time_range)
-- [type](IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### category\_code
+### category\_code?
 
-• `Optional` **category\_code**: `number`
+> **`optional`** **category\_code**: `number`
 
 google trends search category
 optional field
 if you don’t specify this field, the 0 value will be applied by default and the search will be carried out across all available categories
 you can receive the list of available categories with their category_code by making a separate request to the https://api.dataforseo.com/v3/keywords_data/google_trends/categories
 
-#### Defined in
+#### Source
 
-main.ts:122397
+main.ts:122405
 
-___
+***
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -59,15 +40,15 @@ date format: "yyyy-mm-dd"
 example:
 "2019-01-15"
 
-#### Defined in
+#### Source
 
-main.ts:122406
+main.ts:122414
 
-___
+***
 
-### date\_to
+### date\_to?
 
-• `Optional` **date\_to**: `string`
+> **`optional`** **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -76,15 +57,15 @@ date format: "yyyy-mm-dd"
 example:
 "2019-01-15"
 
-#### Defined in
+#### Source
 
-main.ts:122413
+main.ts:122421
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 types of items returned
 optional field
@@ -98,30 +79,30 @@ possible values:
 "google_trends_queries_list"
 ]
 
-#### Defined in
+#### Source
 
-main.ts:122435
+main.ts:122443
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 keywords
 required field
 The maximum number of keywords you can specify: 5
 Note: comma symbols (,) in the specified keywords will be unset and ignored
 
-#### Defined in
+#### Source
 
-main.ts:122358
+main.ts:122366
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 optional field
@@ -131,15 +112,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:122390
+main.ts:122398
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -149,15 +130,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:122382
+main.ts:122390
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 optional field
@@ -167,15 +148,15 @@ you can receive the list of available locations of the search engines with their
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:122374
+main.ts:122382
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 optional field
@@ -185,15 +166,15 @@ you can receive the list of available locations of the search engine with their 
 example:
 United Kingdom
 
-#### Defined in
+#### Source
 
-main.ts:122366
+main.ts:122374
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -205,15 +186,15 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special symbols in pingback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
-main.ts:122455
+main.ts:122463
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -225,15 +206,15 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special symbols in postback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
-main.ts:122445
+main.ts:122453
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -241,15 +222,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:122461
+main.ts:122469
 
-___
+***
 
-### time\_range
+### time\_range?
 
-• `Optional` **time\_range**: `string`
+> **`optional`** **time\_range**: `string`
 
 preset time ranges
 optional field
@@ -261,18 +242,18 @@ possible values for web only:
 possible values for news, youtube, images, froogle:
 2008_present
 
-#### Defined in
+#### Source
 
-main.ts:122423
+main.ts:122431
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:122392
+main.ts:122400

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleJobsTasksFixedResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleJobsTasksFixedResultInfo
 
 # Class: SerpGoogleJobsTasksFixedResultInfo
 
@@ -8,240 +12,209 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleJobsTasksFixedResultInfo.md#constructor)
-
-### Properties
-
-- [date\_fixed](SerpGoogleJobsTasksFixedResultInfo.md#date_fixed)
-- [endpoint\_advanced](SerpGoogleJobsTasksFixedResultInfo.md#endpoint_advanced)
-- [endpoint\_html](SerpGoogleJobsTasksFixedResultInfo.md#endpoint_html)
-- [endpoint\_regular](SerpGoogleJobsTasksFixedResultInfo.md#endpoint_regular)
-- [id](SerpGoogleJobsTasksFixedResultInfo.md#id)
-- [se](SerpGoogleJobsTasksFixedResultInfo.md#se)
-- [se\_type](SerpGoogleJobsTasksFixedResultInfo.md#se_type)
-- [tag](SerpGoogleJobsTasksFixedResultInfo.md#tag)
-
-### Methods
-
-- [init](SerpGoogleJobsTasksFixedResultInfo.md#init)
-- [toJSON](SerpGoogleJobsTasksFixedResultInfo.md#tojson)
-- [fromJS](SerpGoogleJobsTasksFixedResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleJobsTasksFixedResultInfo(data)
 
-• **new SerpGoogleJobsTasksFixedResultInfo**(`data?`): [`SerpGoogleJobsTasksFixedResultInfo`](SerpGoogleJobsTasksFixedResultInfo.md)
+> **new SerpGoogleJobsTasksFixedResultInfo**(`data`?): [`SerpGoogleJobsTasksFixedResultInfo`](SerpGoogleJobsTasksFixedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleJobsTasksFixedResultInfo`](../interfaces/ISerpGoogleJobsTasksFixedResultInfo.md) |
+• **data?**: [`ISerpGoogleJobsTasksFixedResultInfo`](../interfaces/ISerpGoogleJobsTasksFixedResultInfo.md)
 
 #### Returns
 
 [`SerpGoogleJobsTasksFixedResultInfo`](SerpGoogleJobsTasksFixedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:49670
+main.ts:49678
 
 ## Properties
 
-### date\_fixed
+### date\_fixed?
 
-• `Optional` **date\_fixed**: `string`
+> **`optional`** **date\_fixed**: `string`
 
 date when the task was fixed (in the UTC format)
 
 #### Implementation of
 
-[ISerpGoogleJobsTasksFixedResultInfo](../interfaces/ISerpGoogleJobsTasksFixedResultInfo.md).[date_fixed](../interfaces/ISerpGoogleJobsTasksFixedResultInfo.md#date_fixed)
+[`ISerpGoogleJobsTasksFixedResultInfo`](../interfaces/ISerpGoogleJobsTasksFixedResultInfo.md).[`date_fixed`](../interfaces/ISerpGoogleJobsTasksFixedResultInfo.md#date_fixed)
 
-#### Defined in
+#### Source
 
-main.ts:49655
+main.ts:49663
 
-___
+***
 
-### endpoint\_advanced
+### endpoint\_advanced?
 
-• `Optional` **endpoint\_advanced**: `string`
+> **`optional`** **endpoint\_advanced**: `string`
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpGoogleJobsTasksFixedResultInfo](../interfaces/ISerpGoogleJobsTasksFixedResultInfo.md).[endpoint_advanced](../interfaces/ISerpGoogleJobsTasksFixedResultInfo.md#endpoint_advanced)
+[`ISerpGoogleJobsTasksFixedResultInfo`](../interfaces/ISerpGoogleJobsTasksFixedResultInfo.md).[`endpoint_advanced`](../interfaces/ISerpGoogleJobsTasksFixedResultInfo.md#endpoint_advanced)
 
-#### Defined in
+#### Source
 
-main.ts:49663
+main.ts:49671
 
-___
+***
 
-### endpoint\_html
+### endpoint\_html?
 
-• `Optional` **endpoint\_html**: `string`
+> **`optional`** **endpoint\_html**: `string`
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpGoogleJobsTasksFixedResultInfo](../interfaces/ISerpGoogleJobsTasksFixedResultInfo.md).[endpoint_html](../interfaces/ISerpGoogleJobsTasksFixedResultInfo.md#endpoint_html)
+[`ISerpGoogleJobsTasksFixedResultInfo`](../interfaces/ISerpGoogleJobsTasksFixedResultInfo.md).[`endpoint_html`](../interfaces/ISerpGoogleJobsTasksFixedResultInfo.md#endpoint_html)
 
-#### Defined in
+#### Source
 
-main.ts:49666
+main.ts:49674
 
-___
+***
 
-### endpoint\_regular
+### endpoint\_regular?
 
-• `Optional` **endpoint\_regular**: `string`
+> **`optional`** **endpoint\_regular**: `string`
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpGoogleJobsTasksFixedResultInfo](../interfaces/ISerpGoogleJobsTasksFixedResultInfo.md).[endpoint_regular](../interfaces/ISerpGoogleJobsTasksFixedResultInfo.md#endpoint_regular)
+[`ISerpGoogleJobsTasksFixedResultInfo`](../interfaces/ISerpGoogleJobsTasksFixedResultInfo.md).[`endpoint_regular`](../interfaces/ISerpGoogleJobsTasksFixedResultInfo.md#endpoint_regular)
 
-#### Defined in
+#### Source
 
-main.ts:49660
+main.ts:49668
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[ISerpGoogleJobsTasksFixedResultInfo](../interfaces/ISerpGoogleJobsTasksFixedResultInfo.md).[id](../interfaces/ISerpGoogleJobsTasksFixedResultInfo.md#id)
+[`ISerpGoogleJobsTasksFixedResultInfo`](../interfaces/ISerpGoogleJobsTasksFixedResultInfo.md).[`id`](../interfaces/ISerpGoogleJobsTasksFixedResultInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:49648
+main.ts:49656
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 
 #### Implementation of
 
-[ISerpGoogleJobsTasksFixedResultInfo](../interfaces/ISerpGoogleJobsTasksFixedResultInfo.md).[se](../interfaces/ISerpGoogleJobsTasksFixedResultInfo.md#se)
+[`ISerpGoogleJobsTasksFixedResultInfo`](../interfaces/ISerpGoogleJobsTasksFixedResultInfo.md).[`se`](../interfaces/ISerpGoogleJobsTasksFixedResultInfo.md#se)
 
-#### Defined in
+#### Source
 
-main.ts:49650
+main.ts:49658
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 type of search engine
 can take the following values: jobs
 
 #### Implementation of
 
-[ISerpGoogleJobsTasksFixedResultInfo](../interfaces/ISerpGoogleJobsTasksFixedResultInfo.md).[se_type](../interfaces/ISerpGoogleJobsTasksFixedResultInfo.md#se_type)
+[`ISerpGoogleJobsTasksFixedResultInfo`](../interfaces/ISerpGoogleJobsTasksFixedResultInfo.md).[`se_type`](../interfaces/ISerpGoogleJobsTasksFixedResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:49653
+main.ts:49661
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
 #### Implementation of
 
-[ISerpGoogleJobsTasksFixedResultInfo](../interfaces/ISerpGoogleJobsTasksFixedResultInfo.md).[tag](../interfaces/ISerpGoogleJobsTasksFixedResultInfo.md#tag)
+[`ISerpGoogleJobsTasksFixedResultInfo`](../interfaces/ISerpGoogleJobsTasksFixedResultInfo.md).[`tag`](../interfaces/ISerpGoogleJobsTasksFixedResultInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:49657
+main.ts:49665
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:49679
+main.ts:49687
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:49703
+main.ts:49711
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleJobsTasksFixedResultInfo`](SerpGoogleJobsTasksFixedResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleJobsTasksFixedResultInfo`](SerpGoogleJobsTasksFixedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpGoogleJobsTasksFixedResultInfo`](SerpGoogleJobsTasksFixedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:49696
+main.ts:49704

@@ -1,82 +1,72 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppDataGoogleAppListingsSearchLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppDataGoogleAppListingsSearchLiveResultInfo
 
 # Interface: IAppDataGoogleAppListingsSearchLiveResultInfo
 
-## Implemented by
-
-- [`AppDataGoogleAppListingsSearchLiveResultInfo`](../classes/AppDataGoogleAppListingsSearchLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [count](IAppDataGoogleAppListingsSearchLiveResultInfo.md#count)
-- [items](IAppDataGoogleAppListingsSearchLiveResultInfo.md#items)
-- [offset](IAppDataGoogleAppListingsSearchLiveResultInfo.md#offset)
-- [offset\_token](IAppDataGoogleAppListingsSearchLiveResultInfo.md#offset_token)
-- [total\_count](IAppDataGoogleAppListingsSearchLiveResultInfo.md#total_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### count
+### count?
 
-• `Optional` **count**: `number`
+> **`optional`** **count**: `number`
 
 the number of items in the results array
 
-#### Defined in
+#### Source
 
 main.ts:187893
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`AppDataleAppListingsSearchLiveItem`](../classes/AppDataleAppListingsSearchLiveItem.md)[]
+> **`optional`** **items**: [`AppDataleAppListingsSearchLiveItem`](../classes/AppDataleAppListingsSearchLiveItem.md)[]
 
 array of apps and related data
 
-#### Defined in
+#### Source
 
 main.ts:187900
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned apps
 
-#### Defined in
+#### Source
 
 main.ts:187895
 
-___
+***
 
-### offset\_token
+### offset\_token?
 
-• `Optional` **offset\_token**: `string`
+> **`optional`** **offset\_token**: `string`
 
 token for subsequent requests
 you can use this parameter in the POST request to avoid timeouts while trying to obtain over 100,000 results in a single request
 
-#### Defined in
+#### Source
 
 main.ts:187898
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 the total number of relevant results in the database
 
-#### Defined in
+#### Source
 
 main.ts:187891

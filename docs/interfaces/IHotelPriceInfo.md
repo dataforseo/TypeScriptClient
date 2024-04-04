@@ -1,129 +1,116 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IHotelPriceInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IHotelPriceInfo
 
 # Interface: IHotelPriceInfo
 
-## Implemented by
-
-- [`HotelPriceInfo`](../classes/HotelPriceInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [check\_in](IHotelPriceInfo.md#check_in)
-- [check\_out](IHotelPriceInfo.md#check_out)
-- [currency](IHotelPriceInfo.md#currency)
-- [discount\_text](IHotelPriceInfo.md#discount_text)
-- [items](IHotelPriceInfo.md#items)
-- [price](IHotelPriceInfo.md#price)
-- [price\_without\_discount](IHotelPriceInfo.md#price_without_discount)
-- [visitors](IHotelPriceInfo.md#visitors)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### check\_in
+### check\_in?
 
-• `Optional` **check\_in**: `string`
+> **`optional`** **check\_in**: `string`
 
 check-in date and time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
 main.ts:199249
 
-___
+***
 
-### check\_out
+### check\_out?
 
-• `Optional` **check\_out**: `string`
+> **`optional`** **check\_out**: `string`
 
 check-out date and time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
 main.ts:199254
 
-___
+***
 
-### currency
+### currency?
 
-• `Optional` **currency**: `string`
+> **`optional`** **currency**: `string`
 
 price currency
 USD is applied by default, unless specified in the POST array
 
-#### Defined in
+#### Source
 
 main.ts:199242
 
-___
+***
 
-### discount\_text
+### discount\_text?
 
-• `Optional` **discount\_text**: `string`
+> **`optional`** **discount\_text**: `string`
 
 text about a discount applied
 
-#### Defined in
+#### Source
 
 main.ts:199244
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`HotelPriceItemInfo`](../classes/HotelPriceItemInfo.md)[]
+> **`optional`** **items**: [`HotelPriceItemInfo`](../classes/HotelPriceItemInfo.md)[]
 
 encountered item types
 types of search engine results encountered in the items array;
 possible item types: hotel_search_item
 
-#### Defined in
+#### Source
 
 main.ts:199260
 
-___
+***
 
-### price
+### price?
 
-• `Optional` **price**: `number`
+> **`optional`** **price**: `number`
 
 price per night
 
-#### Defined in
+#### Source
 
 main.ts:199237
 
-___
+***
 
-### price\_without\_discount
+### price\_without\_discount?
 
-• `Optional` **price\_without\_discount**: `number`
+> **`optional`** **price\_without\_discount**: `number`
 
 full price per night without a discount applied
 
-#### Defined in
+#### Source
 
 main.ts:199239
 
-___
+***
 
-### visitors
+### visitors?
 
-• `Optional` **visitors**: `number`
+> **`optional`** **visitors**: `number`
 
 number of hotel visitors for this price
 
-#### Defined in
+#### Source
 
 main.ts:199256

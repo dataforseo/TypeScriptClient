@@ -1,38 +1,31 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixNaverKeywordsDataDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppendixNaverKeywordsDataDataInfo
 
 # Interface: IAppendixNaverKeywordsDataDataInfo
 
-## Implemented by
-
-- [`AppendixNaverKeywordsDataDataInfo`](../classes/AppendixNaverKeywordsDataDataInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [keywords\_for\_category](IAppendixNaverKeywordsDataDataInfo.md#keywords_for_category)
-- [search\_volume](IAppendixNaverKeywordsDataDataInfo.md#search_volume)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### keywords\_for\_category
+### keywords\_for\_category?
 
-• `Optional` **keywords\_for\_category**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **keywords\_for\_category**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:214249
 
-___
+***
 
-### search\_volume
+### search\_volume?
 
-• `Optional` **search\_volume**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **search\_volume**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:214250

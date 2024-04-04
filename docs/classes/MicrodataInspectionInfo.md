@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MicrodataInspectionInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / MicrodataInspectionInfo
 
 # Class: MicrodataInspectionInfo
 
@@ -8,135 +12,110 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](MicrodataInspectionInfo.md#constructor)
-
-### Properties
-
-- [fields](MicrodataInspectionInfo.md#fields)
-- [types](MicrodataInspectionInfo.md#types)
-
-### Methods
-
-- [init](MicrodataInspectionInfo.md#init)
-- [toJSON](MicrodataInspectionInfo.md#tojson)
-- [fromJS](MicrodataInspectionInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new MicrodataInspectionInfo(data)
 
-• **new MicrodataInspectionInfo**(`data?`): [`MicrodataInspectionInfo`](MicrodataInspectionInfo.md)
+> **new MicrodataInspectionInfo**(`data`?): [`MicrodataInspectionInfo`](MicrodataInspectionInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IMicrodataInspectionInfo`](../interfaces/IMicrodataInspectionInfo.md) |
+• **data?**: [`IMicrodataInspectionInfo`](../interfaces/IMicrodataInspectionInfo.md)
 
 #### Returns
 
 [`MicrodataInspectionInfo`](MicrodataInspectionInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:156244
+main.ts:156252
 
 ## Properties
 
-### fields
+### fields?
 
-• `Optional` **fields**: [`MicrodataFieldsInfo`](MicrodataFieldsInfo.md)[]
+> **`optional`** **fields**: [`MicrodataFieldsInfo`](MicrodataFieldsInfo.md)[]
 
 microdata fields
 an array of objects containing data fields related to the certain microdata type
 
 #### Implementation of
 
-[IMicrodataInspectionInfo](../interfaces/IMicrodataInspectionInfo.md).[fields](../interfaces/IMicrodataInspectionInfo.md#fields)
+[`IMicrodataInspectionInfo`](../interfaces/IMicrodataInspectionInfo.md).[`fields`](../interfaces/IMicrodataInspectionInfo.md#fields)
 
-#### Defined in
+#### Source
 
-main.ts:156240
+main.ts:156248
 
-___
+***
 
-### types
+### types?
 
-• `Optional` **types**: `string`[]
+> **`optional`** **types**: `string`[]
 
 parent microdata types
 for a full list of available types, please visit schema.org
 
 #### Implementation of
 
-[IMicrodataInspectionInfo](../interfaces/IMicrodataInspectionInfo.md).[types](../interfaces/IMicrodataInspectionInfo.md#types)
+[`IMicrodataInspectionInfo`](../interfaces/IMicrodataInspectionInfo.md).[`types`](../interfaces/IMicrodataInspectionInfo.md#types)
 
-#### Defined in
+#### Source
 
-main.ts:156237
+main.ts:156245
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:156253
+main.ts:156261
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:156279
+main.ts:156287
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`MicrodataInspectionInfo`](MicrodataInspectionInfo.md)
+> **`static`** **fromJS**(`data`): [`MicrodataInspectionInfo`](MicrodataInspectionInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`MicrodataInspectionInfo`](MicrodataInspectionInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:156272
+main.ts:156280

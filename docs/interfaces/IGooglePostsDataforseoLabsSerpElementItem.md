@@ -1,117 +1,103 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IGooglePostsDataforseoLabsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IGooglePostsDataforseoLabsSerpElementItem
 
 # Interface: IGooglePostsDataforseoLabsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md)
 
-  ↳ **`IGooglePostsDataforseoLabsSerpElementItem`**
-
-## Implemented by
-
-- [`GooglePostsDataforseoLabsSerpElementItem`](../classes/GooglePostsDataforseoLabsSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [cid](IGooglePostsDataforseoLabsSerpElementItem.md#cid)
-- [feature](IGooglePostsDataforseoLabsSerpElementItem.md#feature)
-- [position](IGooglePostsDataforseoLabsSerpElementItem.md#position)
-- [posts\_id](IGooglePostsDataforseoLabsSerpElementItem.md#posts_id)
-- [rank\_absolute](IGooglePostsDataforseoLabsSerpElementItem.md#rank_absolute)
-- [rank\_group](IGooglePostsDataforseoLabsSerpElementItem.md#rank_group)
-- [xpath](IGooglePostsDataforseoLabsSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### cid
+### cid?
 
-• `Optional` **cid**: `string`
+> **`optional`** **cid**: `string`
 
 google-defined client id
 
-#### Defined in
+#### Source
 
-main.ts:96823
+main.ts:96831
 
-___
+***
 
-### feature
+### feature?
 
-• `Optional` **feature**: `string`
+> **`optional`** **feature**: `string`
 
 the additional feature of the review
 
-#### Defined in
+#### Source
 
-main.ts:96821
+main.ts:96829
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
-main.ts:96815
+main.ts:96823
 
-___
+***
 
-### posts\_id
+### posts\_id?
 
-• `Optional` **posts\_id**: `string`
+> **`optional`** **posts\_id**: `string`
 
 the identifier of the google_posts feature
 
-#### Defined in
+#### Source
 
-main.ts:96819
+main.ts:96827
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Defined in
+#### Source
 
-main.ts:96811
+main.ts:96819
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
-main.ts:96808
+main.ts:96816
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
-main.ts:96817
+main.ts:96825

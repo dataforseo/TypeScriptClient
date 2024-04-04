@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageContentParsingRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPageContentParsingRequestInfo
 
 # Class: OnPageContentParsingRequestInfo
 
@@ -8,50 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPageContentParsingRequestInfo.md#constructor)
-
-### Properties
-
-- [id](OnPageContentParsingRequestInfo.md#id)
-- [url](OnPageContentParsingRequestInfo.md#url)
-
-### Methods
-
-- [init](OnPageContentParsingRequestInfo.md#init)
-- [toJSON](OnPageContentParsingRequestInfo.md#tojson)
-- [fromJS](OnPageContentParsingRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPageContentParsingRequestInfo(data)
 
-• **new OnPageContentParsingRequestInfo**(`data?`): [`OnPageContentParsingRequestInfo`](OnPageContentParsingRequestInfo.md)
+> **new OnPageContentParsingRequestInfo**(`data`?): [`OnPageContentParsingRequestInfo`](OnPageContentParsingRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPageContentParsingRequestInfo`](../interfaces/IOnPageContentParsingRequestInfo.md) |
+• **data?**: [`IOnPageContentParsingRequestInfo`](../interfaces/IOnPageContentParsingRequestInfo.md)
 
 #### Returns
 
 [`OnPageContentParsingRequestInfo`](OnPageContentParsingRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:157323
+main.ts:157331
 
 ## Properties
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 ID of the task
 required field
@@ -62,17 +47,17 @@ example:
 
 #### Implementation of
 
-[IOnPageContentParsingRequestInfo](../interfaces/IOnPageContentParsingRequestInfo.md).[id](../interfaces/IOnPageContentParsingRequestInfo.md#id)
+[`IOnPageContentParsingRequestInfo`](../interfaces/IOnPageContentParsingRequestInfo.md).[`id`](../interfaces/IOnPageContentParsingRequestInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:157319
+main.ts:157327
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL of the content to parse
 required field
@@ -82,68 +67,62 @@ https://www.fujielectric.com/
 
 #### Implementation of
 
-[IOnPageContentParsingRequestInfo](../interfaces/IOnPageContentParsingRequestInfo.md).[url](../interfaces/IOnPageContentParsingRequestInfo.md#url)
+[`IOnPageContentParsingRequestInfo`](../interfaces/IOnPageContentParsingRequestInfo.md).[`url`](../interfaces/IOnPageContentParsingRequestInfo.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:157312
+main.ts:157320
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:157332
+main.ts:157340
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:157350
+main.ts:157358
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPageContentParsingRequestInfo`](OnPageContentParsingRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`OnPageContentParsingRequestInfo`](OnPageContentParsingRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`OnPageContentParsingRequestInfo`](OnPageContentParsingRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:157343
+main.ts:157351

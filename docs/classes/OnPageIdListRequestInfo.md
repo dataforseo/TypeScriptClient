@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageIdListRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPageIdListRequestInfo
 
 # Class: OnPageIdListRequestInfo
 
@@ -8,54 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPageIdListRequestInfo.md#constructor)
-
-### Properties
-
-- [datetime\_from](OnPageIdListRequestInfo.md#datetime_from)
-- [datetime\_to](OnPageIdListRequestInfo.md#datetime_to)
-- [include\_metadata](OnPageIdListRequestInfo.md#include_metadata)
-- [limit](OnPageIdListRequestInfo.md#limit)
-- [offset](OnPageIdListRequestInfo.md#offset)
-- [sort](OnPageIdListRequestInfo.md#sort)
-
-### Methods
-
-- [init](OnPageIdListRequestInfo.md#init)
-- [toJSON](OnPageIdListRequestInfo.md#tojson)
-- [fromJS](OnPageIdListRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPageIdListRequestInfo(data)
 
-• **new OnPageIdListRequestInfo**(`data?`): [`OnPageIdListRequestInfo`](OnPageIdListRequestInfo.md)
+> **new OnPageIdListRequestInfo**(`data`?): [`OnPageIdListRequestInfo`](OnPageIdListRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPageIdListRequestInfo`](../interfaces/IOnPageIdListRequestInfo.md) |
+• **data?**: [`IOnPageIdListRequestInfo`](../interfaces/IOnPageIdListRequestInfo.md)
 
 #### Returns
 
 [`OnPageIdListRequestInfo`](OnPageIdListRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:146900
+main.ts:146908
 
 ## Properties
 
-### datetime\_from
+### datetime\_from?
 
-• `Optional` **datetime\_from**: `string`
+> **`optional`** **datetime\_from**: `string`
 
 start time for filtering results
 required field
@@ -67,17 +48,17 @@ example:
 
 #### Implementation of
 
-[IOnPageIdListRequestInfo](../interfaces/IOnPageIdListRequestInfo.md).[datetime_from](../interfaces/IOnPageIdListRequestInfo.md#datetime_from)
+[`IOnPageIdListRequestInfo`](../interfaces/IOnPageIdListRequestInfo.md).[`datetime_from`](../interfaces/IOnPageIdListRequestInfo.md#datetime_from)
 
-#### Defined in
+#### Source
 
-main.ts:146870
+main.ts:146878
 
-___
+***
 
-### datetime\_to
+### datetime\_to?
 
-• `Optional` **datetime\_to**: `string`
+> **`optional`** **datetime\_to**: `string`
 
 finish time for filtering results
 required field
@@ -88,17 +69,17 @@ example:
 
 #### Implementation of
 
-[IOnPageIdListRequestInfo](../interfaces/IOnPageIdListRequestInfo.md).[datetime_to](../interfaces/IOnPageIdListRequestInfo.md#datetime_to)
+[`IOnPageIdListRequestInfo`](../interfaces/IOnPageIdListRequestInfo.md).[`datetime_to`](../interfaces/IOnPageIdListRequestInfo.md#datetime_to)
 
-#### Defined in
+#### Source
 
-main.ts:146877
+main.ts:146885
 
-___
+***
 
-### include\_metadata
+### include\_metadata?
 
-• `Optional` **include\_metadata**: `boolean`
+> **`optional`** **include\_metadata**: `boolean`
 
 include task metadata in the respond
 optional field
@@ -106,17 +87,17 @@ default value: false
 
 #### Implementation of
 
-[IOnPageIdListRequestInfo](../interfaces/IOnPageIdListRequestInfo.md).[include_metadata](../interfaces/IOnPageIdListRequestInfo.md#include_metadata)
+[`IOnPageIdListRequestInfo`](../interfaces/IOnPageIdListRequestInfo.md).[`include_metadata`](../interfaces/IOnPageIdListRequestInfo.md#include_metadata)
 
-#### Defined in
+#### Source
 
-main.ts:146896
+main.ts:146904
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned task IDs
 optional field
@@ -125,17 +106,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IOnPageIdListRequestInfo](../interfaces/IOnPageIdListRequestInfo.md).[limit](../interfaces/IOnPageIdListRequestInfo.md#limit)
+[`IOnPageIdListRequestInfo`](../interfaces/IOnPageIdListRequestInfo.md).[`limit`](../interfaces/IOnPageIdListRequestInfo.md#limit)
 
-#### Defined in
+#### Source
 
-main.ts:146882
+main.ts:146890
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned task IDs
 optional field
@@ -144,17 +125,17 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Implementation of
 
-[IOnPageIdListRequestInfo](../interfaces/IOnPageIdListRequestInfo.md).[offset](../interfaces/IOnPageIdListRequestInfo.md#offset)
+[`IOnPageIdListRequestInfo`](../interfaces/IOnPageIdListRequestInfo.md).[`offset`](../interfaces/IOnPageIdListRequestInfo.md#offset)
 
-#### Defined in
+#### Source
 
-main.ts:146887
+main.ts:146895
 
-___
+***
 
-### sort
+### sort?
 
-• `Optional` **sort**: `string`
+> **`optional`** **sort**: `string`
 
 sorting by task execution time
 optional field
@@ -163,68 +144,62 @@ default value: "asc"
 
 #### Implementation of
 
-[IOnPageIdListRequestInfo](../interfaces/IOnPageIdListRequestInfo.md).[sort](../interfaces/IOnPageIdListRequestInfo.md#sort)
+[`IOnPageIdListRequestInfo`](../interfaces/IOnPageIdListRequestInfo.md).[`sort`](../interfaces/IOnPageIdListRequestInfo.md#sort)
 
-#### Defined in
+#### Source
 
-main.ts:146892
+main.ts:146900
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:146909
+main.ts:146917
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:146931
+main.ts:146939
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPageIdListRequestInfo`](OnPageIdListRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`OnPageIdListRequestInfo`](OnPageIdListRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`OnPageIdListRequestInfo`](OnPageIdListRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:146924
+main.ts:146932

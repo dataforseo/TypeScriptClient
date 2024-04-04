@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AmazonKeywordInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AmazonKeywordInfo
 
 # Class: AmazonKeywordInfo
 
@@ -8,51 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AmazonKeywordInfo.md#constructor)
-
-### Properties
-
-- [last\_updated\_time](AmazonKeywordInfo.md#last_updated_time)
-- [se\_type](AmazonKeywordInfo.md#se_type)
-- [search\_volume](AmazonKeywordInfo.md#search_volume)
-
-### Methods
-
-- [init](AmazonKeywordInfo.md#init)
-- [toJSON](AmazonKeywordInfo.md#tojson)
-- [fromJS](AmazonKeywordInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AmazonKeywordInfo(data)
 
-• **new AmazonKeywordInfo**(`data?`): [`AmazonKeywordInfo`](AmazonKeywordInfo.md)
+> **new AmazonKeywordInfo**(`data`?): [`AmazonKeywordInfo`](AmazonKeywordInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAmazonKeywordInfo`](../interfaces/IAmazonKeywordInfo.md) |
+• **data?**: [`IAmazonKeywordInfo`](../interfaces/IAmazonKeywordInfo.md)
 
 #### Returns
 
 [`AmazonKeywordInfo`](AmazonKeywordInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:21915
 
 ## Properties
 
-### last\_updated\_time
+### last\_updated\_time?
 
-• `Optional` **last\_updated\_time**: `string`
+> **`optional`** **last\_updated\_time**: `string`
 
 date and time when keyword data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -60,101 +44,95 @@ example:    '2019-11-15 12:57:46 +00:00'
 
 #### Implementation of
 
-[IAmazonKeywordInfo](../interfaces/IAmazonKeywordInfo.md).[last_updated_time](../interfaces/IAmazonKeywordInfo.md#last_updated_time)
+[`IAmazonKeywordInfo`](../interfaces/IAmazonKeywordInfo.md).[`last_updated_time`](../interfaces/IAmazonKeywordInfo.md#last_updated_time)
 
-#### Defined in
+#### Source
 
 main.ts:21908
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IAmazonKeywordInfo](../interfaces/IAmazonKeywordInfo.md).[se_type](../interfaces/IAmazonKeywordInfo.md#se_type)
+[`IAmazonKeywordInfo`](../interfaces/IAmazonKeywordInfo.md).[`se_type`](../interfaces/IAmazonKeywordInfo.md#se_type)
 
-#### Defined in
+#### Source
 
 main.ts:21904
 
-___
+***
 
-### search\_volume
+### search\_volume?
 
-• `Optional` **search\_volume**: `number`
+> **`optional`** **search\_volume**: `number`
 
 average monthly search volume rate
 represents the (approximate) number of searches for the provided keyword idea on Amazon
 
 #### Implementation of
 
-[IAmazonKeywordInfo](../interfaces/IAmazonKeywordInfo.md).[search_volume](../interfaces/IAmazonKeywordInfo.md#search_volume)
+[`IAmazonKeywordInfo`](../interfaces/IAmazonKeywordInfo.md).[`search_volume`](../interfaces/IAmazonKeywordInfo.md#search_volume)
 
-#### Defined in
+#### Source
 
 main.ts:21911
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:21924
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:21943
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AmazonKeywordInfo`](AmazonKeywordInfo.md)
+> **`static`** **fromJS**(`data`): [`AmazonKeywordInfo`](AmazonKeywordInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AmazonKeywordInfo`](AmazonKeywordInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:21936

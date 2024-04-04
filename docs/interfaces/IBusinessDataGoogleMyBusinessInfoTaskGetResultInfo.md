@@ -1,101 +1,87 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo
 
 # Interface: IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo
 
-## Implemented by
-
-- [`BusinessDataGoogleMyBusinessInfoTaskGetResultInfo`](../classes/BusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [check\_url](IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md#check_url)
-- [datetime](IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md#datetime)
-- [item\_types](IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md#item_types)
-- [items](IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md#items)
-- [items\_count](IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md#items_count)
-- [keyword](IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md#keyword)
-- [language\_code](IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md#language_code)
-- [location\_code](IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md#location_code)
-- [se\_domain](IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md#se_domain)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### check\_url
+### check\_url?
 
-• `Optional` **check\_url**: `string`
+> **`optional`** **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
 
-#### Defined in
+#### Source
 
 main.ts:197330
 
-___
+***
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
 main.ts:197335
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 item types
 types of search engine results encountered in the items array;
 possible item types: google_business_info
 
-#### Defined in
+#### Source
 
 main.ts:197339
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseBusinessDataSerpElementItem`](../classes/BaseBusinessDataSerpElementItem.md)[]
+> **`optional`** **items**: [`BaseBusinessDataSerpElementItem`](../classes/BaseBusinessDataSerpElementItem.md)[]
 
 array of directory items
 
-#### Defined in
+#### Source
 
 main.ts:197344
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 item types
 the number of items in the items array
 
-#### Defined in
+#### Source
 
 main.ts:197342
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -104,42 +90,42 @@ example:
 cid:2946633002421908862
 learn more about the parameter in this help center article
 
-#### Defined in
+#### Source
 
 main.ts:197321
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
-#### Defined in
+#### Source
 
 main.ts:197327
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
-#### Defined in
+#### Source
 
 main.ts:197325
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain as specified in a POST array
 
-#### Defined in
+#### Source
 
 main.ts:197323

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpYahooLocationsCountryResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpYahooLocationsCountryResultInfo
 
 # Class: SerpYahooLocationsCountryResultInfo
 
@@ -8,85 +12,63 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpYahooLocationsCountryResultInfo.md#constructor)
-
-### Properties
-
-- [country\_iso\_code](SerpYahooLocationsCountryResultInfo.md#country_iso_code)
-- [location\_code](SerpYahooLocationsCountryResultInfo.md#location_code)
-- [location\_code\_parent](SerpYahooLocationsCountryResultInfo.md#location_code_parent)
-- [location\_name](SerpYahooLocationsCountryResultInfo.md#location_name)
-- [location\_type](SerpYahooLocationsCountryResultInfo.md#location_type)
-
-### Methods
-
-- [init](SerpYahooLocationsCountryResultInfo.md#init)
-- [toJSON](SerpYahooLocationsCountryResultInfo.md#tojson)
-- [fromJS](SerpYahooLocationsCountryResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpYahooLocationsCountryResultInfo(data)
 
-• **new SerpYahooLocationsCountryResultInfo**(`data?`): [`SerpYahooLocationsCountryResultInfo`](SerpYahooLocationsCountryResultInfo.md)
+> **new SerpYahooLocationsCountryResultInfo**(`data`?): [`SerpYahooLocationsCountryResultInfo`](SerpYahooLocationsCountryResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpYahooLocationsCountryResultInfo`](../interfaces/ISerpYahooLocationsCountryResultInfo.md) |
+• **data?**: [`ISerpYahooLocationsCountryResultInfo`](../interfaces/ISerpYahooLocationsCountryResultInfo.md)
 
 #### Returns
 
 [`SerpYahooLocationsCountryResultInfo`](SerpYahooLocationsCountryResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:65226
+main.ts:65234
 
 ## Properties
 
-### country\_iso\_code
+### country\_iso\_code?
 
-• `Optional` **country\_iso\_code**: `string`
+> **`optional`** **country\_iso\_code**: `string`
 
 ISO country code of the location
 
 #### Implementation of
 
-[ISerpYahooLocationsCountryResultInfo](../interfaces/ISerpYahooLocationsCountryResultInfo.md).[country_iso_code](../interfaces/ISerpYahooLocationsCountryResultInfo.md#country_iso_code)
+[`ISerpYahooLocationsCountryResultInfo`](../interfaces/ISerpYahooLocationsCountryResultInfo.md).[`country_iso_code`](../interfaces/ISerpYahooLocationsCountryResultInfo.md#country_iso_code)
 
-#### Defined in
+#### Source
 
-main.ts:65220
+main.ts:65228
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 
 #### Implementation of
 
-[ISerpYahooLocationsCountryResultInfo](../interfaces/ISerpYahooLocationsCountryResultInfo.md).[location_code](../interfaces/ISerpYahooLocationsCountryResultInfo.md#location_code)
+[`ISerpYahooLocationsCountryResultInfo`](../interfaces/ISerpYahooLocationsCountryResultInfo.md).[`location_code`](../interfaces/ISerpYahooLocationsCountryResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:65207
+main.ts:65215
 
-___
+***
 
-### location\_code\_parent
+### location\_code\_parent?
 
-• `Optional` **location\_code\_parent**: `number`
+> **`optional`** **location\_code\_parent**: `number`
 
 the code of the superordinate location
 example:
@@ -99,100 +81,94 @@ where location_code_parent corresponds to:
 
 #### Implementation of
 
-[ISerpYahooLocationsCountryResultInfo](../interfaces/ISerpYahooLocationsCountryResultInfo.md).[location_code_parent](../interfaces/ISerpYahooLocationsCountryResultInfo.md#location_code_parent)
+[`ISerpYahooLocationsCountryResultInfo`](../interfaces/ISerpYahooLocationsCountryResultInfo.md).[`location_code_parent`](../interfaces/ISerpYahooLocationsCountryResultInfo.md#location_code_parent)
 
-#### Defined in
+#### Source
 
-main.ts:65218
+main.ts:65226
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 
 #### Implementation of
 
-[ISerpYahooLocationsCountryResultInfo](../interfaces/ISerpYahooLocationsCountryResultInfo.md).[location_name](../interfaces/ISerpYahooLocationsCountryResultInfo.md#location_name)
+[`ISerpYahooLocationsCountryResultInfo`](../interfaces/ISerpYahooLocationsCountryResultInfo.md).[`location_name`](../interfaces/ISerpYahooLocationsCountryResultInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:65209
+main.ts:65217
 
-___
+***
 
-### location\_type
+### location\_type?
 
-• `Optional` **location\_type**: `string`
+> **`optional`** **location\_type**: `string`
 
 location type
 
 #### Implementation of
 
-[ISerpYahooLocationsCountryResultInfo](../interfaces/ISerpYahooLocationsCountryResultInfo.md).[location_type](../interfaces/ISerpYahooLocationsCountryResultInfo.md#location_type)
+[`ISerpYahooLocationsCountryResultInfo`](../interfaces/ISerpYahooLocationsCountryResultInfo.md).[`location_type`](../interfaces/ISerpYahooLocationsCountryResultInfo.md#location_type)
 
-#### Defined in
+#### Source
 
-main.ts:65222
+main.ts:65230
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:65235
+main.ts:65243
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:65256
+main.ts:65264
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpYahooLocationsCountryResultInfo`](SerpYahooLocationsCountryResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpYahooLocationsCountryResultInfo`](SerpYahooLocationsCountryResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpYahooLocationsCountryResultInfo`](SerpYahooLocationsCountryResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:65249
+main.ts:65257

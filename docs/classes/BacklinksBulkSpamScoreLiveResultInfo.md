@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksBulkSpamScoreLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BacklinksBulkSpamScoreLiveResultInfo
 
 # Class: BacklinksBulkSpamScoreLiveResultInfo
 
@@ -8,133 +12,108 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BacklinksBulkSpamScoreLiveResultInfo.md#constructor)
-
-### Properties
-
-- [items](BacklinksBulkSpamScoreLiveResultInfo.md#items)
-- [items\_count](BacklinksBulkSpamScoreLiveResultInfo.md#items_count)
-
-### Methods
-
-- [init](BacklinksBulkSpamScoreLiveResultInfo.md#init)
-- [toJSON](BacklinksBulkSpamScoreLiveResultInfo.md#tojson)
-- [fromJS](BacklinksBulkSpamScoreLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BacklinksBulkSpamScoreLiveResultInfo(data)
 
-• **new BacklinksBulkSpamScoreLiveResultInfo**(`data?`): [`BacklinksBulkSpamScoreLiveResultInfo`](BacklinksBulkSpamScoreLiveResultInfo.md)
+> **new BacklinksBulkSpamScoreLiveResultInfo**(`data`?): [`BacklinksBulkSpamScoreLiveResultInfo`](BacklinksBulkSpamScoreLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBacklinksBulkSpamScoreLiveResultInfo`](../interfaces/IBacklinksBulkSpamScoreLiveResultInfo.md) |
+• **data?**: [`IBacklinksBulkSpamScoreLiveResultInfo`](../interfaces/IBacklinksBulkSpamScoreLiveResultInfo.md)
 
 #### Returns
 
 [`BacklinksBulkSpamScoreLiveResultInfo`](BacklinksBulkSpamScoreLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:145578
+main.ts:145586
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`BacklinksBulkSpamScoreLiveItem`](BacklinksBulkSpamScoreLiveItem.md)[]
+> **`optional`** **items**: [`BacklinksBulkSpamScoreLiveItem`](BacklinksBulkSpamScoreLiveItem.md)[]
 
 contains relevant backlinks and referring domains data
 
 #### Implementation of
 
-[IBacklinksBulkSpamScoreLiveResultInfo](../interfaces/IBacklinksBulkSpamScoreLiveResultInfo.md).[items](../interfaces/IBacklinksBulkSpamScoreLiveResultInfo.md#items)
+[`IBacklinksBulkSpamScoreLiveResultInfo`](../interfaces/IBacklinksBulkSpamScoreLiveResultInfo.md).[`items`](../interfaces/IBacklinksBulkSpamScoreLiveResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:145574
+main.ts:145582
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[IBacklinksBulkSpamScoreLiveResultInfo](../interfaces/IBacklinksBulkSpamScoreLiveResultInfo.md).[items_count](../interfaces/IBacklinksBulkSpamScoreLiveResultInfo.md#items_count)
+[`IBacklinksBulkSpamScoreLiveResultInfo`](../interfaces/IBacklinksBulkSpamScoreLiveResultInfo.md).[`items_count`](../interfaces/IBacklinksBulkSpamScoreLiveResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:145572
+main.ts:145580
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:145587
+main.ts:145595
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:145609
+main.ts:145617
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BacklinksBulkSpamScoreLiveResultInfo`](BacklinksBulkSpamScoreLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`BacklinksBulkSpamScoreLiveResultInfo`](BacklinksBulkSpamScoreLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BacklinksBulkSpamScoreLiveResultInfo`](BacklinksBulkSpamScoreLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:145602
+main.ts:145610

@@ -1,42 +1,35 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleLanguagesResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBusinessDataGoogleLanguagesResultInfo
 
 # Interface: IBusinessDataGoogleLanguagesResultInfo
 
-## Implemented by
-
-- [`BusinessDataGoogleLanguagesResultInfo`](../classes/BusinessDataGoogleLanguagesResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [language\_code](IBusinessDataGoogleLanguagesResultInfo.md#language_code)
-- [language\_name](IBusinessDataGoogleLanguagesResultInfo.md#language_name)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code according to ISO 639-1
 
-#### Defined in
+#### Source
 
 main.ts:196056
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 language name
 
-#### Defined in
+#### Source
 
 main.ts:196054

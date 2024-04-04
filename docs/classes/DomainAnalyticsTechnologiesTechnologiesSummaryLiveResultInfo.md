@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo
 
 # Class: DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo
 
@@ -8,187 +12,160 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md#constructor)
-
-### Properties
-
-- [content\_languages](DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md#content_languages)
-- [countries](DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md#countries)
-- [keywords](DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md#keywords)
-- [languages](DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md#languages)
-
-### Methods
-
-- [init](DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md#init)
-- [toJSON](DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md#tojson)
-- [fromJS](DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo(data)
 
-• **new DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo**(`data?`): [`DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo`](DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md)
+> **new DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo**(`data`?): [`DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo`](DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md) |
+• **data?**: [`IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md)
 
 #### Returns
 
 [`DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo`](DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:75649
+main.ts:75657
 
 ## Properties
 
-### content\_languages
+### content\_languages?
 
-• `Optional` **content\_languages**: `Object`
+> **`optional`** **content\_languages**: `Object`
 
 distribution of websites by content language
 contains content language codes and number of websites per language
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md).[content_languages](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md#content_languages)
+[`IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md).[`content_languages`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md#content_languages)
 
-#### Defined in
+#### Source
 
-main.ts:75642
+main.ts:75650
 
-___
+***
 
-### countries
+### countries?
 
-• `Optional` **countries**: `Object`
+> **`optional`** **countries**: `Object`
 
 distribution of websites by country
 contains country codes and number of websites per country
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md).[countries](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md#countries)
+[`IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md).[`countries`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md#countries)
 
-#### Defined in
+#### Source
 
-main.ts:75636
+main.ts:75644
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `Object`
+> **`optional`** **keywords**: `Object`
 
 distribution of websites by keywords
 contains keywords found in the websites’ titles, descriptions or meta keywords, and number of websites using each keyword
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md).[keywords](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md#keywords)
+[`IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md).[`keywords`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md#keywords)
 
-#### Defined in
+#### Source
 
-main.ts:75645
+main.ts:75653
 
-___
+***
 
-### languages
+### languages?
 
-• `Optional` **languages**: `Object`
+> **`optional`** **languages**: `Object`
 
 distribution of websites by language
 contains language codes and number of websites per language
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md).[languages](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md#languages)
+[`IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md).[`languages`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md#languages)
 
-#### Defined in
+#### Source
 
-main.ts:75639
+main.ts:75647
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:75658
+main.ts:75666
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:75702
+main.ts:75710
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo`](DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo`](DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo`](DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:75695
+main.ts:75703

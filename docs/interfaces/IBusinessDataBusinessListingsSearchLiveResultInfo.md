@@ -1,86 +1,76 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataBusinessListingsSearchLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBusinessDataBusinessListingsSearchLiveResultInfo
 
 # Interface: IBusinessDataBusinessListingsSearchLiveResultInfo
 
-## Implemented by
-
-- [`BusinessDataBusinessListingsSearchLiveResultInfo`](../classes/BusinessDataBusinessListingsSearchLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [count](IBusinessDataBusinessListingsSearchLiveResultInfo.md#count)
-- [items](IBusinessDataBusinessListingsSearchLiveResultInfo.md#items)
-- [offset](IBusinessDataBusinessListingsSearchLiveResultInfo.md#offset)
-- [offset\_token](IBusinessDataBusinessListingsSearchLiveResultInfo.md#offset_token)
-- [total\_count](IBusinessDataBusinessListingsSearchLiveResultInfo.md#total_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### count
+### count?
 
-• `Optional` **count**: `number`
+> **`optional`** **count**: `number`
 
 item types
 the number of items in the items array
 
-#### Defined in
+#### Source
 
 main.ts:194890
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BusinessDataBusinessListingsSearchLiveItem`](../classes/BusinessDataBusinessListingsSearchLiveItem.md)[]
+> **`optional`** **items**: [`BusinessDataBusinessListingsSearchLiveItem`](../classes/BusinessDataBusinessListingsSearchLiveItem.md)[]
 
 encountered item types
 types of search engine results encountered in the items array;
 possible item types: business_listing
 
-#### Defined in
+#### Source
 
 main.ts:194900
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned businesses
 
-#### Defined in
+#### Source
 
 main.ts:194892
 
-___
+***
 
-### offset\_token
+### offset\_token?
 
-• `Optional` **offset\_token**: `string`
+> **`optional`** **offset\_token**: `string`
 
 token for subsequent requests
 by specifying the unique offset_token when setting a new task, you will get the subsequent results of the initial task;
 offset_token values are unique for each subsequent task
 
-#### Defined in
+#### Source
 
 main.ts:194896
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total number of results in our database relevant to your request
 
-#### Defined in
+#### Source
 
 main.ts:194887

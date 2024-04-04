@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataSocialMediaPinterestLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataSocialMediaPinterestLiveResultInfo
 
 # Class: BusinessDataSocialMediaPinterestLiveResultInfo
 
@@ -8,68 +12,48 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataSocialMediaPinterestLiveResultInfo.md#constructor)
-
-### Properties
-
-- [page\_url](BusinessDataSocialMediaPinterestLiveResultInfo.md#page_url)
-- [pins\_count](BusinessDataSocialMediaPinterestLiveResultInfo.md#pins_count)
-- [type](BusinessDataSocialMediaPinterestLiveResultInfo.md#type)
-
-### Methods
-
-- [init](BusinessDataSocialMediaPinterestLiveResultInfo.md#init)
-- [toJSON](BusinessDataSocialMediaPinterestLiveResultInfo.md#tojson)
-- [fromJS](BusinessDataSocialMediaPinterestLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataSocialMediaPinterestLiveResultInfo(data)
 
-• **new BusinessDataSocialMediaPinterestLiveResultInfo**(`data?`): [`BusinessDataSocialMediaPinterestLiveResultInfo`](BusinessDataSocialMediaPinterestLiveResultInfo.md)
+> **new BusinessDataSocialMediaPinterestLiveResultInfo**(`data`?): [`BusinessDataSocialMediaPinterestLiveResultInfo`](BusinessDataSocialMediaPinterestLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataSocialMediaPinterestLiveResultInfo`](../interfaces/IBusinessDataSocialMediaPinterestLiveResultInfo.md) |
+• **data?**: [`IBusinessDataSocialMediaPinterestLiveResultInfo`](../interfaces/IBusinessDataSocialMediaPinterestLiveResultInfo.md)
 
 #### Returns
 
 [`BusinessDataSocialMediaPinterestLiveResultInfo`](BusinessDataSocialMediaPinterestLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:211178
 
 ## Properties
 
-### page\_url
+### page\_url?
 
-• `Optional` **page\_url**: `string`
+> **`optional`** **page\_url**: `string`
 
 URL of the page the data is provided for
 corresponding URL you specified in the targets array when setting a task
 
 #### Implementation of
 
-[IBusinessDataSocialMediaPinterestLiveResultInfo](../interfaces/IBusinessDataSocialMediaPinterestLiveResultInfo.md).[page_url](../interfaces/IBusinessDataSocialMediaPinterestLiveResultInfo.md#page_url)
+[`IBusinessDataSocialMediaPinterestLiveResultInfo`](../interfaces/IBusinessDataSocialMediaPinterestLiveResultInfo.md).[`page_url`](../interfaces/IBusinessDataSocialMediaPinterestLiveResultInfo.md#page_url)
 
-#### Defined in
+#### Source
 
 main.ts:211170
 
-___
+***
 
-### pins\_count
+### pins\_count?
 
-• `Optional` **pins\_count**: `number`
+> **`optional`** **pins\_count**: `number`
 
 number of pins for the related page_url
 pins on Pinterest correspond to content saves;
@@ -77,84 +61,78 @@ this field shows the number of content saves made from the related page_url usin
 
 #### Implementation of
 
-[IBusinessDataSocialMediaPinterestLiveResultInfo](../interfaces/IBusinessDataSocialMediaPinterestLiveResultInfo.md).[pins_count](../interfaces/IBusinessDataSocialMediaPinterestLiveResultInfo.md#pins_count)
+[`IBusinessDataSocialMediaPinterestLiveResultInfo`](../interfaces/IBusinessDataSocialMediaPinterestLiveResultInfo.md).[`pins_count`](../interfaces/IBusinessDataSocialMediaPinterestLiveResultInfo.md#pins_count)
 
-#### Defined in
+#### Source
 
 main.ts:211174
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IBusinessDataSocialMediaPinterestLiveResultInfo](../interfaces/IBusinessDataSocialMediaPinterestLiveResultInfo.md).[type](../interfaces/IBusinessDataSocialMediaPinterestLiveResultInfo.md#type)
+[`IBusinessDataSocialMediaPinterestLiveResultInfo`](../interfaces/IBusinessDataSocialMediaPinterestLiveResultInfo.md).[`type`](../interfaces/IBusinessDataSocialMediaPinterestLiveResultInfo.md#type)
 
-#### Defined in
+#### Source
 
 main.ts:211167
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:211187
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:211206
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataSocialMediaPinterestLiveResultInfo`](BusinessDataSocialMediaPinterestLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataSocialMediaPinterestLiveResultInfo`](BusinessDataSocialMediaPinterestLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BusinessDataSocialMediaPinterestLiveResultInfo`](BusinessDataSocialMediaPinterestLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:211199

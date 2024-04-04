@@ -1,135 +1,120 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMathSolverDataforseoLabsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IMathSolverDataforseoLabsSerpElementItem
 
 # Interface: IMathSolverDataforseoLabsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md)
 
-  ↳ **`IMathSolverDataforseoLabsSerpElementItem`**
-
-## Implemented by
-
-- [`MathSolverDataforseoLabsSerpElementItem`](../classes/MathSolverDataforseoLabsSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IMathSolverDataforseoLabsSerpElementItem.md#items)
-- [links](IMathSolverDataforseoLabsSerpElementItem.md#links)
-- [position](IMathSolverDataforseoLabsSerpElementItem.md#position)
-- [rank\_absolute](IMathSolverDataforseoLabsSerpElementItem.md#rank_absolute)
-- [rank\_group](IMathSolverDataforseoLabsSerpElementItem.md#rank_group)
-- [result](IMathSolverDataforseoLabsSerpElementItem.md#result)
-- [title](IMathSolverDataforseoLabsSerpElementItem.md#title)
-- [xpath](IMathSolverDataforseoLabsSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`MathSolverElement`](../classes/MathSolverElement.md)[]
+> **`optional`** **items**: [`MathSolverElement`](../classes/MathSolverElement.md)[]
 
 additional items present in the element
 if there are none, equals null
 
-#### Defined in
+#### Source
 
-main.ts:95283
+main.ts:95291
 
-___
+***
 
-### links
+### links?
 
-• `Optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
+> **`optional`** **links**: [`LinkElement`](../classes/LinkElement.md)[]
 
 sitelinks
 the links shown below some of Google’s search results
 if there are none, equals null
 
-#### Defined in
+#### Source
 
-main.ts:95287
+main.ts:95295
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
-main.ts:95273
+main.ts:95281
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Defined in
+#### Source
 
-main.ts:95269
+main.ts:95277
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
-main.ts:95266
+main.ts:95274
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: `string`
+> **`optional`** **result**: `string`
 
 solution to the equation
 solution to the mathematical equation specified in the keyword field when setting a task
 
-#### Defined in
+#### Source
 
-main.ts:95280
+main.ts:95288
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the result in SERP
 
-#### Defined in
+#### Source
 
-main.ts:95277
+main.ts:95285
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
-main.ts:95275
+main.ts:95283

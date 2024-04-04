@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleSearchIntentLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsGoogleSearchIntentLiveItem
 
 # Class: DataforseoLabsGoogleSearchIntentLiveItem
 
@@ -8,150 +12,124 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsGoogleSearchIntentLiveItem.md#constructor)
-
-### Properties
-
-- [keyword](DataforseoLabsGoogleSearchIntentLiveItem.md#keyword)
-- [keyword\_intent](DataforseoLabsGoogleSearchIntentLiveItem.md#keyword_intent)
-- [secondary\_keyword\_intents](DataforseoLabsGoogleSearchIntentLiveItem.md#secondary_keyword_intents)
-
-### Methods
-
-- [init](DataforseoLabsGoogleSearchIntentLiveItem.md#init)
-- [toJSON](DataforseoLabsGoogleSearchIntentLiveItem.md#tojson)
-- [fromJS](DataforseoLabsGoogleSearchIntentLiveItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsGoogleSearchIntentLiveItem(data)
 
-• **new DataforseoLabsGoogleSearchIntentLiveItem**(`data?`): [`DataforseoLabsGoogleSearchIntentLiveItem`](DataforseoLabsGoogleSearchIntentLiveItem.md)
+> **new DataforseoLabsGoogleSearchIntentLiveItem**(`data`?): [`DataforseoLabsGoogleSearchIntentLiveItem`](DataforseoLabsGoogleSearchIntentLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsGoogleSearchIntentLiveItem`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveItem.md) |
+• **data?**: [`IDataforseoLabsGoogleSearchIntentLiveItem`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveItem.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleSearchIntentLiveItem`](DataforseoLabsGoogleSearchIntentLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:85239
+main.ts:85247
 
 ## Properties
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 target keyword in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleSearchIntentLiveItem](../interfaces/IDataforseoLabsGoogleSearchIntentLiveItem.md).[keyword](../interfaces/IDataforseoLabsGoogleSearchIntentLiveItem.md#keyword)
+[`IDataforseoLabsGoogleSearchIntentLiveItem`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveItem.md).[`keyword`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveItem.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:85231
+main.ts:85239
 
-___
+***
 
-### keyword\_intent
+### keyword\_intent?
 
-• `Optional` **keyword\_intent**: [`KeywordIntentInfo`](KeywordIntentInfo.md)
+> **`optional`** **keyword\_intent**: [`KeywordIntentInfo`](KeywordIntentInfo.md)
 
 search intent data relevant for the specified keyword
 
 #### Implementation of
 
-[IDataforseoLabsGoogleSearchIntentLiveItem](../interfaces/IDataforseoLabsGoogleSearchIntentLiveItem.md).[keyword_intent](../interfaces/IDataforseoLabsGoogleSearchIntentLiveItem.md#keyword_intent)
+[`IDataforseoLabsGoogleSearchIntentLiveItem`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveItem.md).[`keyword_intent`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveItem.md#keyword_intent)
 
-#### Defined in
+#### Source
 
-main.ts:85233
+main.ts:85241
 
-___
+***
 
-### secondary\_keyword\_intents
+### secondary\_keyword\_intents?
 
-• `Optional` **secondary\_keyword\_intents**: [`KeywordIntentInfo`](KeywordIntentInfo.md)[]
+> **`optional`** **secondary\_keyword\_intents**: [`KeywordIntentInfo`](KeywordIntentInfo.md)[]
 
 contains objects with other possible search intents for the specified keyword
 
 #### Implementation of
 
-[IDataforseoLabsGoogleSearchIntentLiveItem](../interfaces/IDataforseoLabsGoogleSearchIntentLiveItem.md).[secondary_keyword_intents](../interfaces/IDataforseoLabsGoogleSearchIntentLiveItem.md#secondary_keyword_intents)
+[`IDataforseoLabsGoogleSearchIntentLiveItem`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveItem.md).[`secondary_keyword_intents`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveItem.md#secondary_keyword_intents)
 
-#### Defined in
+#### Source
 
-main.ts:85235
+main.ts:85243
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:85248
+main.ts:85256
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:85271
+main.ts:85279
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsGoogleSearchIntentLiveItem`](DataforseoLabsGoogleSearchIntentLiveItem.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleSearchIntentLiveItem`](DataforseoLabsGoogleSearchIntentLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsGoogleSearchIntentLiveItem`](DataforseoLabsGoogleSearchIntentLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:85264
+main.ts:85272

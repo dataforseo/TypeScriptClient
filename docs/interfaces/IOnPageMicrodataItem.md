@@ -1,42 +1,35 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageMicrodataItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IOnPageMicrodataItem
 
 # Interface: IOnPageMicrodataItem
 
-## Implemented by
-
-- [`OnPageMicrodataItem`](../classes/OnPageMicrodataItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [inspection\_info](IOnPageMicrodataItem.md#inspection_info)
-- [type](IOnPageMicrodataItem.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### inspection\_info
+### inspection\_info?
 
-• `Optional` **inspection\_info**: [`MicrodataInspectionInfo`](../classes/MicrodataInspectionInfo.md)
+> **`optional`** **inspection\_info**: [`MicrodataInspectionInfo`](../classes/MicrodataInspectionInfo.md)
 
 information related to microdata validation
 
-#### Defined in
+#### Source
 
-main.ts:156361
+main.ts:156369
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:156359
+main.ts:156367

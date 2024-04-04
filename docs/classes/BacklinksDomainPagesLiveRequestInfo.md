@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksDomainPagesLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BacklinksDomainPagesLiveRequestInfo
 
 # Class: BacklinksDomainPagesLiveRequestInfo
 
@@ -8,58 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BacklinksDomainPagesLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [backlinks\_filters](BacklinksDomainPagesLiveRequestInfo.md#backlinks_filters)
-- [backlinks\_status\_type](BacklinksDomainPagesLiveRequestInfo.md#backlinks_status_type)
-- [filters](BacklinksDomainPagesLiveRequestInfo.md#filters)
-- [include\_subdomains](BacklinksDomainPagesLiveRequestInfo.md#include_subdomains)
-- [internal\_list\_limit](BacklinksDomainPagesLiveRequestInfo.md#internal_list_limit)
-- [limit](BacklinksDomainPagesLiveRequestInfo.md#limit)
-- [offset](BacklinksDomainPagesLiveRequestInfo.md#offset)
-- [order\_by](BacklinksDomainPagesLiveRequestInfo.md#order_by)
-- [tag](BacklinksDomainPagesLiveRequestInfo.md#tag)
-- [target](BacklinksDomainPagesLiveRequestInfo.md#target)
-
-### Methods
-
-- [init](BacklinksDomainPagesLiveRequestInfo.md#init)
-- [toJSON](BacklinksDomainPagesLiveRequestInfo.md#tojson)
-- [fromJS](BacklinksDomainPagesLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BacklinksDomainPagesLiveRequestInfo(data)
 
-• **new BacklinksDomainPagesLiveRequestInfo**(`data?`): [`BacklinksDomainPagesLiveRequestInfo`](BacklinksDomainPagesLiveRequestInfo.md)
+> **new BacklinksDomainPagesLiveRequestInfo**(`data`?): [`BacklinksDomainPagesLiveRequestInfo`](BacklinksDomainPagesLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBacklinksDomainPagesLiveRequestInfo`](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md) |
+• **data?**: [`IBacklinksDomainPagesLiveRequestInfo`](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md)
 
 #### Returns
 
 [`BacklinksDomainPagesLiveRequestInfo`](BacklinksDomainPagesLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:137934
+main.ts:137942
 
 ## Properties
 
-### backlinks\_filters
+### backlinks\_filters?
 
-• `Optional` **backlinks\_filters**: `any`[]
+> **`optional`** **backlinks\_filters**: `any`[]
 
 filter the backlinks of your target
 optional field
@@ -71,17 +48,17 @@ example:
 
 #### Implementation of
 
-[IBacklinksDomainPagesLiveRequestInfo](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md).[backlinks_filters](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md#backlinks_filters)
+[`IBacklinksDomainPagesLiveRequestInfo`](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md).[`backlinks_filters`](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md#backlinks_filters)
 
-#### Defined in
+#### Source
 
-main.ts:137919
+main.ts:137927
 
-___
+***
 
-### backlinks\_status\_type
+### backlinks\_status\_type?
 
-• `Optional` **backlinks\_status\_type**: `string`
+> **`optional`** **backlinks\_status\_type**: `string`
 
 set what backlinks to return and count
 optional field
@@ -94,27 +71,27 @@ default value: live
 
 #### Implementation of
 
-[IBacklinksDomainPagesLiveRequestInfo](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md).[backlinks_status_type](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md#backlinks_status_type)
+[`IBacklinksDomainPagesLiveRequestInfo`](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md).[`backlinks_status_type`](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md#backlinks_status_type)
 
-#### Defined in
+#### Source
 
-main.ts:137880
+main.ts:137888
 
-___
+***
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, =, <>, in, not_in, like, not_like, ilike, not_ilike
+regex, =, `<>`, in, not_in, like, not_like, ilike, not_ilike
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
-["meta.internal_links_count",">","1"]
+["meta.internal_links_count",">`","1"]
 [["meta.external_links_count",">","2"],
 "and",
 ["backlinks",">","10"]]
@@ -125,17 +102,17 @@ The full list of possible filters is available here.
 
 #### Implementation of
 
-[IBacklinksDomainPagesLiveRequestInfo](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md).[filters](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md#filters)
+[`IBacklinksDomainPagesLiveRequestInfo`](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md).[`filters`](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md#filters)
 
-#### Defined in
+#### Source
 
-main.ts:137897
+main.ts:137905
 
-___
+***
 
-### include\_subdomains
+### include\_subdomains?
 
-• `Optional` **include\_subdomains**: `boolean`
+> **`optional`** **include\_subdomains**: `boolean`
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -144,17 +121,17 @@ default value: true
 
 #### Implementation of
 
-[IBacklinksDomainPagesLiveRequestInfo](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md).[include_subdomains](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md#include_subdomains)
+[`IBacklinksDomainPagesLiveRequestInfo`](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md).[`include_subdomains`](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md#include_subdomains)
 
-#### Defined in
+#### Source
 
-main.ts:137924
+main.ts:137932
 
-___
+***
 
-### internal\_list\_limit
+### internal\_list\_limit?
 
-• `Optional` **internal\_list\_limit**: `number`
+> **`optional`** **internal\_list\_limit**: `number`
 
 maximum number of elements within internal arrays
 optional field
@@ -169,17 +146,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IBacklinksDomainPagesLiveRequestInfo](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md).[internal_list_limit](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md#internal_list_limit)
+[`IBacklinksDomainPagesLiveRequestInfo`](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md).[`internal_list_limit`](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md#internal_list_limit)
 
-#### Defined in
+#### Source
 
-main.ts:137871
+main.ts:137879
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned pages
 optional field
@@ -188,17 +165,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IBacklinksDomainPagesLiveRequestInfo](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md).[limit](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md#limit)
+[`IBacklinksDomainPagesLiveRequestInfo`](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md).[`limit`](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md#limit)
 
-#### Defined in
+#### Source
 
-main.ts:137855
+main.ts:137863
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned pages
 optional field
@@ -207,17 +184,17 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Implementation of
 
-[IBacklinksDomainPagesLiveRequestInfo](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md).[offset](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md#offset)
+[`IBacklinksDomainPagesLiveRequestInfo`](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md).[`offset`](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md#offset)
 
-#### Defined in
+#### Source
 
-main.ts:137860
+main.ts:137868
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -235,17 +212,17 @@ example:
 
 #### Implementation of
 
-[IBacklinksDomainPagesLiveRequestInfo](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md).[order_by](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md#order_by)
+[`IBacklinksDomainPagesLiveRequestInfo`](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md).[`order_by`](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md#order_by)
 
-#### Defined in
+#### Source
 
-main.ts:137911
+main.ts:137919
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -255,17 +232,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IBacklinksDomainPagesLiveRequestInfo](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md).[tag](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md#tag)
+[`IBacklinksDomainPagesLiveRequestInfo`](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md).[`tag`](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:137930
+main.ts:137938
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 domain or subdomain
 required field
@@ -275,68 +252,62 @@ forbes.com
 
 #### Implementation of
 
-[IBacklinksDomainPagesLiveRequestInfo](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md).[target](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md#target)
+[`IBacklinksDomainPagesLiveRequestInfo`](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md).[`target`](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md#target)
 
-#### Defined in
+#### Source
 
-main.ts:137850
+main.ts:137858
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:137943
+main.ts:137951
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:137981
+main.ts:137989
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BacklinksDomainPagesLiveRequestInfo`](BacklinksDomainPagesLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`BacklinksDomainPagesLiveRequestInfo`](BacklinksDomainPagesLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BacklinksDomainPagesLiveRequestInfo`](BacklinksDomainPagesLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:137974
+main.ts:137982

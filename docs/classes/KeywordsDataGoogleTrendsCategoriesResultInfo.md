@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleTrendsCategoriesResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataGoogleTrendsCategoriesResultInfo
 
 # Class: KeywordsDataGoogleTrendsCategoriesResultInfo
 
@@ -8,67 +12,47 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataGoogleTrendsCategoriesResultInfo.md#constructor)
-
-### Properties
-
-- [category\_code](KeywordsDataGoogleTrendsCategoriesResultInfo.md#category_code)
-- [category\_code\_parent](KeywordsDataGoogleTrendsCategoriesResultInfo.md#category_code_parent)
-- [category\_name](KeywordsDataGoogleTrendsCategoriesResultInfo.md#category_name)
-
-### Methods
-
-- [init](KeywordsDataGoogleTrendsCategoriesResultInfo.md#init)
-- [toJSON](KeywordsDataGoogleTrendsCategoriesResultInfo.md#tojson)
-- [fromJS](KeywordsDataGoogleTrendsCategoriesResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordsDataGoogleTrendsCategoriesResultInfo(data)
 
-• **new KeywordsDataGoogleTrendsCategoriesResultInfo**(`data?`): [`KeywordsDataGoogleTrendsCategoriesResultInfo`](KeywordsDataGoogleTrendsCategoriesResultInfo.md)
+> **new KeywordsDataGoogleTrendsCategoriesResultInfo**(`data`?): [`KeywordsDataGoogleTrendsCategoriesResultInfo`](KeywordsDataGoogleTrendsCategoriesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordsDataGoogleTrendsCategoriesResultInfo`](../interfaces/IKeywordsDataGoogleTrendsCategoriesResultInfo.md) |
+• **data?**: [`IKeywordsDataGoogleTrendsCategoriesResultInfo`](../interfaces/IKeywordsDataGoogleTrendsCategoriesResultInfo.md)
 
 #### Returns
 
 [`KeywordsDataGoogleTrendsCategoriesResultInfo`](KeywordsDataGoogleTrendsCategoriesResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:121993
+main.ts:122001
 
 ## Properties
 
-### category\_code
+### category\_code?
 
-• `Optional` **category\_code**: `number`
+> **`optional`** **category\_code**: `number`
 
 unique google trends category identifier
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsCategoriesResultInfo](../interfaces/IKeywordsDataGoogleTrendsCategoriesResultInfo.md).[category_code](../interfaces/IKeywordsDataGoogleTrendsCategoriesResultInfo.md#category_code)
+[`IKeywordsDataGoogleTrendsCategoriesResultInfo`](../interfaces/IKeywordsDataGoogleTrendsCategoriesResultInfo.md).[`category_code`](../interfaces/IKeywordsDataGoogleTrendsCategoriesResultInfo.md#category_code)
 
-#### Defined in
+#### Source
 
-main.ts:121978
+main.ts:121986
 
-___
+***
 
-### category\_code\_parent
+### category\_code\_parent?
 
-• `Optional` **category\_code\_parent**: `number`
+> **`optional`** **category\_code\_parent**: `number`
 
 the code of the superordinate category
 example:
@@ -81,84 +65,78 @@ where category_code_parent corresponds to:
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsCategoriesResultInfo](../interfaces/IKeywordsDataGoogleTrendsCategoriesResultInfo.md).[category_code_parent](../interfaces/IKeywordsDataGoogleTrendsCategoriesResultInfo.md#category_code_parent)
+[`IKeywordsDataGoogleTrendsCategoriesResultInfo`](../interfaces/IKeywordsDataGoogleTrendsCategoriesResultInfo.md).[`category_code_parent`](../interfaces/IKeywordsDataGoogleTrendsCategoriesResultInfo.md#category_code_parent)
 
-#### Defined in
+#### Source
 
-main.ts:121989
+main.ts:121997
 
-___
+***
 
-### category\_name
+### category\_name?
 
-• `Optional` **category\_name**: `string`
+> **`optional`** **category\_name**: `string`
 
 name of the google trends category
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsCategoriesResultInfo](../interfaces/IKeywordsDataGoogleTrendsCategoriesResultInfo.md).[category_name](../interfaces/IKeywordsDataGoogleTrendsCategoriesResultInfo.md#category_name)
+[`IKeywordsDataGoogleTrendsCategoriesResultInfo`](../interfaces/IKeywordsDataGoogleTrendsCategoriesResultInfo.md).[`category_name`](../interfaces/IKeywordsDataGoogleTrendsCategoriesResultInfo.md#category_name)
 
-#### Defined in
+#### Source
 
-main.ts:121980
+main.ts:121988
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:122002
+main.ts:122010
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:122021
+main.ts:122029
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordsDataGoogleTrendsCategoriesResultInfo`](KeywordsDataGoogleTrendsCategoriesResultInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordsDataGoogleTrendsCategoriesResultInfo`](KeywordsDataGoogleTrendsCategoriesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`KeywordsDataGoogleTrendsCategoriesResultInfo`](KeywordsDataGoogleTrendsCategoriesResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:122014
+main.ts:122022

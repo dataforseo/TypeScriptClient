@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OtherSitesReviewsInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OtherSitesReviewsInfo
 
 # Class: OtherSitesReviewsInfo
 
@@ -8,171 +12,144 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OtherSitesReviewsInfo.md#constructor)
-
-### Properties
-
-- [rating](OtherSitesReviewsInfo.md#rating)
-- [review\_text](OtherSitesReviewsInfo.md#review_text)
-- [title](OtherSitesReviewsInfo.md#title)
-- [url](OtherSitesReviewsInfo.md#url)
-
-### Methods
-
-- [init](OtherSitesReviewsInfo.md#init)
-- [toJSON](OtherSitesReviewsInfo.md#tojson)
-- [fromJS](OtherSitesReviewsInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OtherSitesReviewsInfo(data)
 
-• **new OtherSitesReviewsInfo**(`data?`): [`OtherSitesReviewsInfo`](OtherSitesReviewsInfo.md)
+> **new OtherSitesReviewsInfo**(`data`?): [`OtherSitesReviewsInfo`](OtherSitesReviewsInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOtherSitesReviewsInfo`](../interfaces/IOtherSitesReviewsInfo.md) |
+• **data?**: [`IOtherSitesReviewsInfo`](../interfaces/IOtherSitesReviewsInfo.md)
 
 #### Returns
 
 [`OtherSitesReviewsInfo`](OtherSitesReviewsInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:201320
 
 ## Properties
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](RatingInfo.md)
 
 rating in the review
 information about the rating enclosed in the review on a third-party site
 
 #### Implementation of
 
-[IOtherSitesReviewsInfo](../interfaces/IOtherSitesReviewsInfo.md).[rating](../interfaces/IOtherSitesReviewsInfo.md#rating)
+[`IOtherSitesReviewsInfo`](../interfaces/IOtherSitesReviewsInfo.md).[`rating`](../interfaces/IOtherSitesReviewsInfo.md#rating)
 
-#### Defined in
+#### Source
 
 main.ts:201316
 
-___
+***
 
-### review\_text
+### review\_text?
 
-• `Optional` **review\_text**: `string`
+> **`optional`** **review\_text**: `string`
 
 review text
 text of the review
 
 #### Implementation of
 
-[IOtherSitesReviewsInfo](../interfaces/IOtherSitesReviewsInfo.md).[review_text](../interfaces/IOtherSitesReviewsInfo.md#review_text)
+[`IOtherSitesReviewsInfo`](../interfaces/IOtherSitesReviewsInfo.md).[`review_text`](../interfaces/IOtherSitesReviewsInfo.md#review_text)
 
-#### Defined in
+#### Source
 
 main.ts:201313
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 review title
 contains a name of the third-party site where review initially appeared
 
 #### Implementation of
 
-[IOtherSitesReviewsInfo](../interfaces/IOtherSitesReviewsInfo.md).[title](../interfaces/IOtherSitesReviewsInfo.md#title)
+[`IOtherSitesReviewsInfo`](../interfaces/IOtherSitesReviewsInfo.md).[`title`](../interfaces/IOtherSitesReviewsInfo.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:201307
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 review url
 URL to the a third-party site where review initially appeared
 
 #### Implementation of
 
-[IOtherSitesReviewsInfo](../interfaces/IOtherSitesReviewsInfo.md).[url](../interfaces/IOtherSitesReviewsInfo.md#url)
+[`IOtherSitesReviewsInfo`](../interfaces/IOtherSitesReviewsInfo.md).[`url`](../interfaces/IOtherSitesReviewsInfo.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:201310
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:201329
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:201349
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OtherSitesReviewsInfo`](OtherSitesReviewsInfo.md)
+> **`static`** **fromJS**(`data`): [`OtherSitesReviewsInfo`](OtherSitesReviewsInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`OtherSitesReviewsInfo`](OtherSitesReviewsInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:201342

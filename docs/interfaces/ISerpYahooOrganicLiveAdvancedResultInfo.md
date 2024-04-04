@@ -1,182 +1,165 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpYahooOrganicLiveAdvancedResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ISerpYahooOrganicLiveAdvancedResultInfo
 
 # Interface: ISerpYahooOrganicLiveAdvancedResultInfo
 
-## Implemented by
-
-- [`SerpYahooOrganicLiveAdvancedResultInfo`](../classes/SerpYahooOrganicLiveAdvancedResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [check\_url](ISerpYahooOrganicLiveAdvancedResultInfo.md#check_url)
-- [datetime](ISerpYahooOrganicLiveAdvancedResultInfo.md#datetime)
-- [item\_types](ISerpYahooOrganicLiveAdvancedResultInfo.md#item_types)
-- [items](ISerpYahooOrganicLiveAdvancedResultInfo.md#items)
-- [items\_count](ISerpYahooOrganicLiveAdvancedResultInfo.md#items_count)
-- [keyword](ISerpYahooOrganicLiveAdvancedResultInfo.md#keyword)
-- [language\_code](ISerpYahooOrganicLiveAdvancedResultInfo.md#language_code)
-- [location\_code](ISerpYahooOrganicLiveAdvancedResultInfo.md#location_code)
-- [se\_domain](ISerpYahooOrganicLiveAdvancedResultInfo.md#se_domain)
-- [se\_results\_count](ISerpYahooOrganicLiveAdvancedResultInfo.md#se_results_count)
-- [spell](ISerpYahooOrganicLiveAdvancedResultInfo.md#spell)
-- [type](ISerpYahooOrganicLiveAdvancedResultInfo.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### check\_url
+### check\_url?
 
-• `Optional` **check\_url**: `string`
+> **`optional`** **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
 
-#### Defined in
+#### Source
 
-main.ts:67224
+main.ts:67232
 
-___
+***
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
-main.ts:67229
+main.ts:67237
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
 possible item types:
 featured_snippet, images, local_pack, hotels_pack, organic, paid, people_also_ask, related_searches, shopping, recipes, top_stories, video
 
-#### Defined in
+#### Source
 
-main.ts:67237
+main.ts:67245
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
+> **`optional`** **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
 
 additional items present in the element
 if there are none, equals null
 
-#### Defined in
+#### Source
 
-main.ts:67244
+main.ts:67252
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Defined in
+#### Source
 
-main.ts:67241
+main.ts:67249
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword received in a POST array
 the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
 
-#### Defined in
-
-main.ts:67213
-
-___
-
-### language\_code
-
-• `Optional` **language\_code**: `string`
-
-language code in a POST array
-
-#### Defined in
+#### Source
 
 main.ts:67221
 
-___
+***
 
-### location\_code
+### language\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **language\_code**: `string`
+
+language code in a POST array
+
+#### Source
+
+main.ts:67229
+
+***
+
+### location\_code?
+
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:67219
+main.ts:67227
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:67217
+main.ts:67225
 
-___
+***
 
-### se\_results\_count
+### se\_results\_count?
 
-• `Optional` **se\_results\_count**: `number`
+> **`optional`** **se\_results\_count**: `number`
 
 total number of results in SERP
 
-#### Defined in
+#### Source
 
-main.ts:67239
+main.ts:67247
 
-___
+***
 
-### spell
+### spell?
 
-• `Optional` **spell**: [`SpellInfo`](../classes/SpellInfo.md)
+> **`optional`** **spell**: [`SpellInfo`](../classes/SpellInfo.md)
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
 
-#### Defined in
+#### Source
 
-main.ts:67232
+main.ts:67240
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:67215
+main.ts:67223

@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / YelpSearchPaidBusinessDataSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / YelpSearchPaidBusinessDataSerpElementItem
 
 # Class: YelpSearchPaidBusinessDataSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)
-
-  ↳ **`YelpSearchPaidBusinessDataSerpElementItem`**
 
 ## Implements
 
@@ -14,52 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](YelpSearchPaidBusinessDataSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](YelpSearchPaidBusinessDataSerpElementItem.md#_discriminator)
-- [alias](YelpSearchPaidBusinessDataSerpElementItem.md#alias)
-- [business\_highlights](YelpSearchPaidBusinessDataSerpElementItem.md#business_highlights)
-- [business\_url](YelpSearchPaidBusinessDataSerpElementItem.md#business_url)
-- [categories](YelpSearchPaidBusinessDataSerpElementItem.md#categories)
-- [description](YelpSearchPaidBusinessDataSerpElementItem.md#description)
-- [is\_guaranteed](YelpSearchPaidBusinessDataSerpElementItem.md#is_guaranteed)
-- [location](YelpSearchPaidBusinessDataSerpElementItem.md#location)
-- [name](YelpSearchPaidBusinessDataSerpElementItem.md#name)
-- [phone](YelpSearchPaidBusinessDataSerpElementItem.md#phone)
-- [photos](YelpSearchPaidBusinessDataSerpElementItem.md#photos)
-- [price\_range](YelpSearchPaidBusinessDataSerpElementItem.md#price_range)
-- [rank\_absolute](YelpSearchPaidBusinessDataSerpElementItem.md#rank_absolute)
-- [rank\_group](YelpSearchPaidBusinessDataSerpElementItem.md#rank_group)
-- [rating](YelpSearchPaidBusinessDataSerpElementItem.md#rating)
-- [service\_offerings](YelpSearchPaidBusinessDataSerpElementItem.md#service_offerings)
-- [tags](YelpSearchPaidBusinessDataSerpElementItem.md#tags)
-- [yelp\_business\_id](YelpSearchPaidBusinessDataSerpElementItem.md#yelp_business_id)
-
-### Methods
-
-- [init](YelpSearchPaidBusinessDataSerpElementItem.md#init)
-- [toJSON](YelpSearchPaidBusinessDataSerpElementItem.md#tojson)
-- [fromJS](YelpSearchPaidBusinessDataSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new YelpSearchPaidBusinessDataSerpElementItem(data)
 
-• **new YelpSearchPaidBusinessDataSerpElementItem**(`data?`): [`YelpSearchPaidBusinessDataSerpElementItem`](YelpSearchPaidBusinessDataSerpElementItem.md)
+> **new YelpSearchPaidBusinessDataSerpElementItem**(`data`?): [`YelpSearchPaidBusinessDataSerpElementItem`](YelpSearchPaidBusinessDataSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IYelpSearchPaidBusinessDataSerpElementItem`](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md) |
+• **data?**: [`IYelpSearchPaidBusinessDataSerpElementItem`](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md)
 
 #### Returns
 
@@ -67,9 +34,9 @@
 
 #### Overrides
 
-[BaseBusinessDataSerpElementItem](BaseBusinessDataSerpElementItem.md).[constructor](BaseBusinessDataSerpElementItem.md#constructor)
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`constructor`](BaseBusinessDataSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:209727
 
@@ -77,38 +44,38 @@ main.ts:209727
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseBusinessDataSerpElementItem](BaseBusinessDataSerpElementItem.md).[_discriminator](BaseBusinessDataSerpElementItem.md#_discriminator)
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`_discriminator`](BaseBusinessDataSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:20532
 
-___
+***
 
-### alias
+### alias?
 
-• `Optional` **alias**: `string`
+> **`optional`** **alias**: `string`
 
 Yelp business identifier
 displayed only if the request contained the corresponding field
 
 #### Implementation of
 
-[IYelpSearchPaidBusinessDataSerpElementItem](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md).[alias](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md#alias)
+[`IYelpSearchPaidBusinessDataSerpElementItem`](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md).[`alias`](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md#alias)
 
-#### Defined in
+#### Source
 
 main.ts:209692
 
-___
+***
 
-### business\_highlights
+### business\_highlights?
 
-• `Optional` **business\_highlights**: `string`[]
+> **`optional`** **business\_highlights**: `string`[]
 
 highlights describing business offerings
 example:
@@ -116,113 +83,113 @@ example:
 
 #### Implementation of
 
-[IYelpSearchPaidBusinessDataSerpElementItem](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md).[business_highlights](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md#business_highlights)
+[`IYelpSearchPaidBusinessDataSerpElementItem`](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md).[`business_highlights`](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md#business_highlights)
 
-#### Defined in
+#### Source
 
 main.ts:209721
 
-___
+***
 
-### business\_url
+### business\_url?
 
-• `Optional` **business\_url**: `string`
+> **`optional`** **business\_url**: `string`
 
 link to the Yelp profile of the business entity
 
 #### Implementation of
 
-[IYelpSearchPaidBusinessDataSerpElementItem](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md).[business_url](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md#business_url)
+[`IYelpSearchPaidBusinessDataSerpElementItem`](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md).[`business_url`](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md#business_url)
 
-#### Defined in
+#### Source
 
 main.ts:209689
 
-___
+***
 
-### categories
+### categories?
 
-• `Optional` **categories**: `string`[]
+> **`optional`** **categories**: `string`[]
 
 categories related to the business entity
 
 #### Implementation of
 
-[IYelpSearchPaidBusinessDataSerpElementItem](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md).[categories](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md#categories)
+[`IYelpSearchPaidBusinessDataSerpElementItem`](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md).[`categories`](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md#categories)
 
-#### Defined in
+#### Source
 
 main.ts:209711
 
-___
+***
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description containing the featured review
 
 #### Implementation of
 
-[IYelpSearchPaidBusinessDataSerpElementItem](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md).[description](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md#description)
+[`IYelpSearchPaidBusinessDataSerpElementItem`](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md).[`description`](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md#description)
 
-#### Defined in
+#### Source
 
 main.ts:209696
 
-___
+***
 
-### is\_guaranteed
+### is\_guaranteed?
 
-• `Optional` **is\_guaranteed**: `boolean`
+> **`optional`** **is\_guaranteed**: `boolean`
 
 Yelp guaranteed label
 
 #### Implementation of
 
-[IYelpSearchPaidBusinessDataSerpElementItem](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md).[is_guaranteed](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md#is_guaranteed)
+[`IYelpSearchPaidBusinessDataSerpElementItem`](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md).[`is_guaranteed`](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md#is_guaranteed)
 
-#### Defined in
+#### Source
 
 main.ts:209707
 
-___
+***
 
-### location
+### location?
 
-• `Optional` **location**: [`BusinessAddressLocationInfo`](BusinessAddressLocationInfo.md)
+> **`optional`** **location**: [`BusinessAddressLocationInfo`](BusinessAddressLocationInfo.md)
 
 information about the location of the business entity
 
 #### Implementation of
 
-[IYelpSearchPaidBusinessDataSerpElementItem](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md).[location](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md#location)
+[`IYelpSearchPaidBusinessDataSerpElementItem`](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md).[`location`](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md#location)
 
-#### Defined in
+#### Source
 
 main.ts:209698
 
-___
+***
 
-### name
+### name?
 
-• `Optional` **name**: `string`
+> **`optional`** **name**: `string`
 
 name of the business entity
 
 #### Implementation of
 
-[IYelpSearchPaidBusinessDataSerpElementItem](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md).[name](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md#name)
+[`IYelpSearchPaidBusinessDataSerpElementItem`](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md).[`name`](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md#name)
 
-#### Defined in
+#### Source
 
 main.ts:209694
 
-___
+***
 
-### phone
+### phone?
 
-• `Optional` **phone**: `string`
+> **`optional`** **phone**: `string`
 
 contact phone number
 example:
@@ -230,116 +197,116 @@ example:
 
 #### Implementation of
 
-[IYelpSearchPaidBusinessDataSerpElementItem](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md).[phone](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md#phone)
+[`IYelpSearchPaidBusinessDataSerpElementItem`](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md).[`phone`](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md#phone)
 
-#### Defined in
+#### Source
 
 main.ts:209705
 
-___
+***
 
-### photos
+### photos?
 
-• `Optional` **photos**: `string`[]
+> **`optional`** **photos**: `string`[]
 
 links to photos appearing in the result
 
 #### Implementation of
 
-[IYelpSearchPaidBusinessDataSerpElementItem](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md).[photos](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md#photos)
+[`IYelpSearchPaidBusinessDataSerpElementItem`](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md).[`photos`](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md#photos)
 
-#### Defined in
+#### Source
 
 main.ts:209713
 
-___
+***
 
-### price\_range
+### price\_range?
 
-• `Optional` **price\_range**: `number`
+> **`optional`** **price\_range**: `number`
 
 price range of the business entity
 indicates the number of currency signs next to the business listing corresponding to its price score
 
 #### Implementation of
 
-[IYelpSearchPaidBusinessDataSerpElementItem](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md).[price_range](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md#price_range)
+[`IYelpSearchPaidBusinessDataSerpElementItem`](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md).[`price_range`](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md#price_range)
 
-#### Defined in
+#### Source
 
 main.ts:209701
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank among all the listed results
 absolute position among all reviews on the list
 
 #### Implementation of
 
-[IYelpSearchPaidBusinessDataSerpElementItem](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md).[rank_absolute](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md#rank_absolute)
+[`IYelpSearchPaidBusinessDataSerpElementItem`](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md).[`rank_absolute`](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
 main.ts:209683
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
-[IYelpSearchPaidBusinessDataSerpElementItem](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md).[rank_group](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md#rank_group)
+[`IYelpSearchPaidBusinessDataSerpElementItem`](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md).[`rank_group`](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
 main.ts:209680
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](RatingInfo.md)
 
 the rating score submitted by the reviewer
 
 #### Implementation of
 
-[IYelpSearchPaidBusinessDataSerpElementItem](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md).[rating](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md#rating)
+[`IYelpSearchPaidBusinessDataSerpElementItem`](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md).[`rating`](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md#rating)
 
-#### Defined in
+#### Source
 
 main.ts:209709
 
-___
+***
 
-### service\_offerings
+### service\_offerings?
 
-• `Optional` **service\_offerings**: [`ServiceOfferingsElement`](ServiceOfferingsElement.md)[]
+> **`optional`** **service\_offerings**: [`ServiceOfferingsElement`](ServiceOfferingsElement.md)[]
 
 tags corresponding to the availability of certain business offerings
 
 #### Implementation of
 
-[IYelpSearchPaidBusinessDataSerpElementItem](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md).[service_offerings](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md#service_offerings)
+[`IYelpSearchPaidBusinessDataSerpElementItem`](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md).[`service_offerings`](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md#service_offerings)
 
-#### Defined in
+#### Source
 
 main.ts:209723
 
-___
+***
 
-### tags
+### tags?
 
-• `Optional` **tags**: `string`[]
+> **`optional`** **tags**: `string`[]
 
 tags generated by Yelp
 example:
@@ -347,17 +314,17 @@ example:
 
 #### Implementation of
 
-[IYelpSearchPaidBusinessDataSerpElementItem](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md).[tags](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md#tags)
+[`IYelpSearchPaidBusinessDataSerpElementItem`](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md).[`tags`](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md#tags)
 
-#### Defined in
+#### Source
 
 main.ts:209717
 
-___
+***
 
-### yelp\_business\_id
+### yelp\_business\_id?
 
-• `Optional` **yelp\_business\_id**: `string`
+> **`optional`** **yelp\_business\_id**: `string`
 
 the unique identifier of a business identity on Yelp
 example:
@@ -365,23 +332,21 @@ example:
 
 #### Implementation of
 
-[IYelpSearchPaidBusinessDataSerpElementItem](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md).[yelp_business_id](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md#yelp_business_id)
+[`IYelpSearchPaidBusinessDataSerpElementItem`](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md).[`yelp_business_id`](../interfaces/IYelpSearchPaidBusinessDataSerpElementItem.md#yelp_business_id)
 
-#### Defined in
+#### Source
 
 main.ts:209687
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -389,23 +354,21 @@ main.ts:209687
 
 #### Overrides
 
-[BaseBusinessDataSerpElementItem](BaseBusinessDataSerpElementItem.md).[init](BaseBusinessDataSerpElementItem.md#init)
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`init`](BaseBusinessDataSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:209732
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -413,23 +376,21 @@ ___
 
 #### Overrides
 
-[BaseBusinessDataSerpElementItem](BaseBusinessDataSerpElementItem.md).[toJSON](BaseBusinessDataSerpElementItem.md#tojson)
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`toJSON`](BaseBusinessDataSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:209786
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`YelpSearchPaidBusinessDataSerpElementItem`](YelpSearchPaidBusinessDataSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`YelpSearchPaidBusinessDataSerpElementItem`](YelpSearchPaidBusinessDataSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -437,8 +398,8 @@ ___
 
 #### Overrides
 
-[BaseBusinessDataSerpElementItem](BaseBusinessDataSerpElementItem.md).[fromJS](BaseBusinessDataSerpElementItem.md#fromjs)
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`fromJS`](BaseBusinessDataSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:209779

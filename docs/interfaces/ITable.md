@@ -1,58 +1,50 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ITable
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ITable
 
 # Interface: ITable
 
-## Implemented by
-
-- [`Table`](../classes/Table.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [table\_content](ITable.md#table_content)
-- [table\_element](ITable.md#table_element)
-- [table\_header](ITable.md#table_header)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### table\_content
+### table\_content?
 
-• `Optional` **table\_content**: `string`[][]
+> **`optional`** **table\_content**: `string`[][]
 
 the content of the table
 one line of the table in this element of the array
 
-#### Defined in
+#### Source
 
 main.ts:21823
 
-___
+***
 
-### table\_element
+### table\_element?
 
-• `Optional` **table\_element**: `string`
+> **`optional`** **table\_element**: `string`
 
 name assigned to the table element
 possible values:
 table_element
 
-#### Defined in
+#### Source
 
 main.ts:21818
 
-___
+***
 
-### table\_header
+### table\_header?
 
-• `Optional` **table\_header**: `string`[]
+> **`optional`** **table\_header**: `string`[]
 
 column names
 
-#### Defined in
+#### Source
 
 main.ts:21820

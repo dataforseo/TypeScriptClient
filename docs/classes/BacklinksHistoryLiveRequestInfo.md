@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksHistoryLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BacklinksHistoryLiveRequestInfo
 
 # Class: BacklinksHistoryLiveRequestInfo
 
@@ -8,52 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BacklinksHistoryLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [date\_from](BacklinksHistoryLiveRequestInfo.md#date_from)
-- [date\_to](BacklinksHistoryLiveRequestInfo.md#date_to)
-- [tag](BacklinksHistoryLiveRequestInfo.md#tag)
-- [target](BacklinksHistoryLiveRequestInfo.md#target)
-
-### Methods
-
-- [init](BacklinksHistoryLiveRequestInfo.md#init)
-- [toJSON](BacklinksHistoryLiveRequestInfo.md#tojson)
-- [fromJS](BacklinksHistoryLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BacklinksHistoryLiveRequestInfo(data)
 
-• **new BacklinksHistoryLiveRequestInfo**(`data?`): [`BacklinksHistoryLiveRequestInfo`](BacklinksHistoryLiveRequestInfo.md)
+> **new BacklinksHistoryLiveRequestInfo**(`data`?): [`BacklinksHistoryLiveRequestInfo`](BacklinksHistoryLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBacklinksHistoryLiveRequestInfo`](../interfaces/IBacklinksHistoryLiveRequestInfo.md) |
+• **data?**: [`IBacklinksHistoryLiveRequestInfo`](../interfaces/IBacklinksHistoryLiveRequestInfo.md)
 
 #### Returns
 
 [`BacklinksHistoryLiveRequestInfo`](BacklinksHistoryLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:135311
+main.ts:135319
 
 ## Properties
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -65,17 +48,17 @@ example:
 
 #### Implementation of
 
-[IBacklinksHistoryLiveRequestInfo](../interfaces/IBacklinksHistoryLiveRequestInfo.md).[date_from](../interfaces/IBacklinksHistoryLiveRequestInfo.md#date_from)
+[`IBacklinksHistoryLiveRequestInfo`](../interfaces/IBacklinksHistoryLiveRequestInfo.md).[`date_from`](../interfaces/IBacklinksHistoryLiveRequestInfo.md#date_from)
 
-#### Defined in
+#### Source
 
-main.ts:135294
+main.ts:135302
 
-___
+***
 
-### date\_to
+### date\_to?
 
-• `Optional` **date\_to**: `string`
+> **`optional`** **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -86,17 +69,17 @@ example:
 
 #### Implementation of
 
-[IBacklinksHistoryLiveRequestInfo](../interfaces/IBacklinksHistoryLiveRequestInfo.md).[date_to](../interfaces/IBacklinksHistoryLiveRequestInfo.md#date_to)
+[`IBacklinksHistoryLiveRequestInfo`](../interfaces/IBacklinksHistoryLiveRequestInfo.md).[`date_to`](../interfaces/IBacklinksHistoryLiveRequestInfo.md#date_to)
 
-#### Defined in
+#### Source
 
-main.ts:135301
+main.ts:135309
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -106,17 +89,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IBacklinksHistoryLiveRequestInfo](../interfaces/IBacklinksHistoryLiveRequestInfo.md).[tag](../interfaces/IBacklinksHistoryLiveRequestInfo.md#tag)
+[`IBacklinksHistoryLiveRequestInfo`](../interfaces/IBacklinksHistoryLiveRequestInfo.md).[`tag`](../interfaces/IBacklinksHistoryLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:135307
+main.ts:135315
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 domain
 required field
@@ -124,68 +107,62 @@ a domain should be specified without https:// and www.
 
 #### Implementation of
 
-[IBacklinksHistoryLiveRequestInfo](../interfaces/IBacklinksHistoryLiveRequestInfo.md).[target](../interfaces/IBacklinksHistoryLiveRequestInfo.md#target)
+[`IBacklinksHistoryLiveRequestInfo`](../interfaces/IBacklinksHistoryLiveRequestInfo.md).[`target`](../interfaces/IBacklinksHistoryLiveRequestInfo.md#target)
 
-#### Defined in
+#### Source
 
-main.ts:135286
+main.ts:135294
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:135320
+main.ts:135328
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:135340
+main.ts:135348
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BacklinksHistoryLiveRequestInfo`](BacklinksHistoryLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`BacklinksHistoryLiveRequestInfo`](BacklinksHistoryLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BacklinksHistoryLiveRequestInfo`](BacklinksHistoryLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:135333
+main.ts:135341

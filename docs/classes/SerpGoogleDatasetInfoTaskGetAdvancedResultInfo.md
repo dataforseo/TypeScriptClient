@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleDatasetInfoTaskGetAdvancedResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleDatasetInfoTaskGetAdvancedResultInfo
 
 # Class: SerpGoogleDatasetInfoTaskGetAdvancedResultInfo
 
@@ -8,75 +12,48 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md#constructor)
-
-### Properties
-
-- [check\_url](SerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md#check_url)
-- [datetime](SerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md#datetime)
-- [item\_types](SerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md#item_types)
-- [items](SerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md#items)
-- [items\_count](SerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md#items_count)
-- [keyword](SerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md#keyword)
-- [language\_code](SerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md#language_code)
-- [se\_domain](SerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md#se_domain)
-- [se\_results\_count](SerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md#se_results_count)
-- [spell](SerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md#spell)
-
-### Methods
-
-- [init](SerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md#init)
-- [toJSON](SerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md#tojson)
-- [fromJS](SerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleDatasetInfoTaskGetAdvancedResultInfo(data)
 
-• **new SerpGoogleDatasetInfoTaskGetAdvancedResultInfo**(`data?`): [`SerpGoogleDatasetInfoTaskGetAdvancedResultInfo`](SerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md)
+> **new SerpGoogleDatasetInfoTaskGetAdvancedResultInfo**(`data`?): [`SerpGoogleDatasetInfoTaskGetAdvancedResultInfo`](SerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md) |
+• **data?**: [`ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
 [`SerpGoogleDatasetInfoTaskGetAdvancedResultInfo`](SerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:54911
+main.ts:54919
 
 ## Properties
 
-### check\_url
+### check\_url?
 
-• `Optional` **check\_url**: `string`
+> **`optional`** **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
 
 #### Implementation of
 
-[ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md).[check_url](../interfaces/ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md#check_url)
+[`ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md).[`check_url`](../interfaces/ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md#check_url)
 
-#### Defined in
+#### Source
 
-main.ts:54889
+main.ts:54897
 
-___
+***
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -85,17 +62,17 @@ example:
 
 #### Implementation of
 
-[ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md).[datetime](../interfaces/ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md#datetime)
+[`ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md).[`datetime`](../interfaces/ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
-main.ts:54894
+main.ts:54902
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -103,182 +80,176 @@ possible item type: dataset
 
 #### Implementation of
 
-[ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md).[item_types](../interfaces/ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md#item_types)
+[`ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md).[`item_types`](../interfaces/ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md#item_types)
 
-#### Defined in
+#### Source
 
-main.ts:54901
+main.ts:54909
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
+> **`optional`** **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
 elements of search results found in SERP
 
 #### Implementation of
 
-[ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md).[items](../interfaces/ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md#items)
+[`ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md).[`items`](../interfaces/ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:54907
+main.ts:54915
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md).[items_count](../interfaces/ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md#items_count)
+[`ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md).[`items_count`](../interfaces/ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:54905
+main.ts:54913
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword received in a POST array
 the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
-[ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md).[keyword](../interfaces/ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md#keyword)
+[`ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md).[`keyword`](../interfaces/ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:54882
+main.ts:54890
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md).[language_code](../interfaces/ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md#language_code)
+[`ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md).[`language_code`](../interfaces/ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:54886
+main.ts:54894
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
 #### Implementation of
 
-[ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md).[se_domain](../interfaces/ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md#se_domain)
+[`ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md).[`se_domain`](../interfaces/ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md#se_domain)
 
-#### Defined in
+#### Source
 
-main.ts:54884
+main.ts:54892
 
-___
+***
 
-### se\_results\_count
+### se\_results\_count?
 
-• `Optional` **se\_results\_count**: `number`
+> **`optional`** **se\_results\_count**: `number`
 
 total number of results in SERP
 
 #### Implementation of
 
-[ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md).[se_results_count](../interfaces/ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md#se_results_count)
+[`ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md).[`se_results_count`](../interfaces/ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md#se_results_count)
 
-#### Defined in
+#### Source
 
-main.ts:54903
+main.ts:54911
 
-___
+***
 
-### spell
+### spell?
 
-• `Optional` **spell**: [`SpellInfo`](SpellInfo.md)
+> **`optional`** **spell**: [`SpellInfo`](SpellInfo.md)
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
 
 #### Implementation of
 
-[ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md).[spell](../interfaces/ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md#spell)
+[`ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md).[`spell`](../interfaces/ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md#spell)
 
-#### Defined in
+#### Source
 
-main.ts:54897
+main.ts:54905
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:54920
+main.ts:54928
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:54954
+main.ts:54962
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleDatasetInfoTaskGetAdvancedResultInfo`](SerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleDatasetInfoTaskGetAdvancedResultInfo`](SerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpGoogleDatasetInfoTaskGetAdvancedResultInfo`](SerpGoogleDatasetInfoTaskGetAdvancedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:54947
+main.ts:54955

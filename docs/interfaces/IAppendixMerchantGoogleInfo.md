@@ -1,60 +1,51 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixMerchantGoogleInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppendixMerchantGoogleInfo
 
 # Interface: IAppendixMerchantGoogleInfo
 
-## Implemented by
-
-- [`AppendixMerchantGoogleInfo`](../classes/AppendixMerchantGoogleInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [product\_info](IAppendixMerchantGoogleInfo.md#product_info)
-- [product\_spec](IAppendixMerchantGoogleInfo.md#product_spec)
-- [products](IAppendixMerchantGoogleInfo.md#products)
-- [sellers](IAppendixMerchantGoogleInfo.md#sellers)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### product\_info
+### product\_info?
 
-• `Optional` **product\_info**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
+> **`optional`** **product\_info**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:213072
 
-___
+***
 
-### product\_spec
+### product\_spec?
 
-• `Optional` **product\_spec**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
+> **`optional`** **product\_spec**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:213071
 
-___
+***
 
-### products
+### products?
 
-• `Optional` **products**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
+> **`optional`** **products**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:213069
 
-___
+***
 
-### sellers
+### sellers?
 
-• `Optional` **sellers**: [`AppendixSellersGoogleMerchantLimitsRatesDataInfo`](../classes/AppendixSellersGoogleMerchantLimitsRatesDataInfo.md)
+> **`optional`** **sellers**: [`AppendixSellersGoogleMerchantLimitsRatesDataInfo`](../classes/AppendixSellersGoogleMerchantLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:213070

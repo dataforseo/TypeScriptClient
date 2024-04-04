@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsBulkTrafficEstimationLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsBulkTrafficEstimationLiveItem
 
 # Class: DataforseoLabsBulkTrafficEstimationLiveItem
 
@@ -8,154 +12,128 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsBulkTrafficEstimationLiveItem.md#constructor)
-
-### Properties
-
-- [metrics](DataforseoLabsBulkTrafficEstimationLiveItem.md#metrics)
-- [se\_type](DataforseoLabsBulkTrafficEstimationLiveItem.md#se_type)
-- [target](DataforseoLabsBulkTrafficEstimationLiveItem.md#target)
-
-### Methods
-
-- [init](DataforseoLabsBulkTrafficEstimationLiveItem.md#init)
-- [toJSON](DataforseoLabsBulkTrafficEstimationLiveItem.md#tojson)
-- [fromJS](DataforseoLabsBulkTrafficEstimationLiveItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsBulkTrafficEstimationLiveItem(data)
 
-• **new DataforseoLabsBulkTrafficEstimationLiveItem**(`data?`): [`DataforseoLabsBulkTrafficEstimationLiveItem`](DataforseoLabsBulkTrafficEstimationLiveItem.md)
+> **new DataforseoLabsBulkTrafficEstimationLiveItem**(`data`?): [`DataforseoLabsBulkTrafficEstimationLiveItem`](DataforseoLabsBulkTrafficEstimationLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsBulkTrafficEstimationLiveItem`](../interfaces/IDataforseoLabsBulkTrafficEstimationLiveItem.md) |
+• **data?**: [`IDataforseoLabsBulkTrafficEstimationLiveItem`](../interfaces/IDataforseoLabsBulkTrafficEstimationLiveItem.md)
 
 #### Returns
 
 [`DataforseoLabsBulkTrafficEstimationLiveItem`](DataforseoLabsBulkTrafficEstimationLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:100077
+main.ts:100085
 
 ## Properties
 
-### metrics
+### metrics?
 
-• `Optional` **metrics**: `Object`
+> **`optional`** **metrics**: `Object`
 
 traffic data relevant to the specified domain
 
 #### Index signature
 
-▪ [key: `string`]: [`BulkMetricsInfo`](BulkMetricsInfo.md)
+ \[`key`: `string`\]: [`BulkMetricsInfo`](BulkMetricsInfo.md)
 
 #### Implementation of
 
-[IDataforseoLabsBulkTrafficEstimationLiveItem](../interfaces/IDataforseoLabsBulkTrafficEstimationLiveItem.md).[metrics](../interfaces/IDataforseoLabsBulkTrafficEstimationLiveItem.md#metrics)
+[`IDataforseoLabsBulkTrafficEstimationLiveItem`](../interfaces/IDataforseoLabsBulkTrafficEstimationLiveItem.md).[`metrics`](../interfaces/IDataforseoLabsBulkTrafficEstimationLiveItem.md#metrics)
 
-#### Defined in
+#### Source
 
-main.ts:100073
+main.ts:100081
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IDataforseoLabsBulkTrafficEstimationLiveItem](../interfaces/IDataforseoLabsBulkTrafficEstimationLiveItem.md).[se_type](../interfaces/IDataforseoLabsBulkTrafficEstimationLiveItem.md#se_type)
+[`IDataforseoLabsBulkTrafficEstimationLiveItem`](../interfaces/IDataforseoLabsBulkTrafficEstimationLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsBulkTrafficEstimationLiveItem.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:100069
+main.ts:100077
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 target domain in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsBulkTrafficEstimationLiveItem](../interfaces/IDataforseoLabsBulkTrafficEstimationLiveItem.md).[target](../interfaces/IDataforseoLabsBulkTrafficEstimationLiveItem.md#target)
+[`IDataforseoLabsBulkTrafficEstimationLiveItem`](../interfaces/IDataforseoLabsBulkTrafficEstimationLiveItem.md).[`target`](../interfaces/IDataforseoLabsBulkTrafficEstimationLiveItem.md#target)
 
-#### Defined in
+#### Source
 
-main.ts:100071
+main.ts:100079
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:100086
+main.ts:100094
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:100111
+main.ts:100119
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsBulkTrafficEstimationLiveItem`](DataforseoLabsBulkTrafficEstimationLiveItem.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsBulkTrafficEstimationLiveItem`](DataforseoLabsBulkTrafficEstimationLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsBulkTrafficEstimationLiveItem`](DataforseoLabsBulkTrafficEstimationLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:100104
+main.ts:100112

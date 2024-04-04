@@ -1,144 +1,80 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BaseSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BaseSerpElementItem
 
 # Class: BaseSerpElementItem
 
-## Hierarchy
-
-- **`BaseSerpElementItem`**
-
-  ↳ [`PaidSerpElementItem`](PaidSerpElementItem.md)
-
-  ↳ [`OrganicSerpElementItem`](OrganicSerpElementItem.md)
-
-  ↳ [`FeaturedSnippetSerpElementItem`](FeaturedSnippetSerpElementItem.md)
-
-  ↳ [`KnowledgeGraphCarouselItemSerpElementItem`](KnowledgeGraphCarouselItemSerpElementItem.md)
-
-  ↳ [`KnowledgeGraphDescriptionItemSerpElementItem`](KnowledgeGraphDescriptionItemSerpElementItem.md)
-
-  ↳ [`KnowledgeGraphImagesItemSerpElementItem`](KnowledgeGraphImagesItemSerpElementItem.md)
-
-  ↳ [`KnowledgeGraphListItemSerpElementItem`](KnowledgeGraphListItemSerpElementItem.md)
-
-  ↳ [`KnowledgeGraphRowItemSerpElementItem`](KnowledgeGraphRowItemSerpElementItem.md)
-
-  ↳ [`KnowledgeGraphExpandedItemSerpElementItem`](KnowledgeGraphExpandedItemSerpElementItem.md)
-
-  ↳ [`KnowledgeGraphPartItemSerpElementItem`](KnowledgeGraphPartItemSerpElementItem.md)
-
-  ↳ [`KnowledgeGraphShoppingItemSerpElementItem`](KnowledgeGraphShoppingItemSerpElementItem.md)
-
-  ↳ [`KnowledgeGraphHotelsBookingItemSerpElementItem`](KnowledgeGraphHotelsBookingItemSerpElementItem.md)
-
-  ↳ [`KnowledgeGraphSerpElementItem`](KnowledgeGraphSerpElementItem.md)
-
-  ↳ [`TopStoriesSerpElementItem`](TopStoriesSerpElementItem.md)
-
-  ↳ [`PeopleAlsoAskSerpElementItem`](PeopleAlsoAskSerpElementItem.md)
-
-  ↳ [`PeopleAlsoSearchSerpElementItem`](PeopleAlsoSearchSerpElementItem.md)
-
-  ↳ [`ImagesSerpElementItem`](ImagesSerpElementItem.md)
-
-  ↳ [`TwitterSerpElementItem`](TwitterSerpElementItem.md)
-
-  ↳ [`GoogleReviewsSerpElementItem`](GoogleReviewsSerpElementItem.md)
-
-  ↳ [`JobsSerpElementItem`](JobsSerpElementItem.md)
-
-  ↳ [`MapSerpElementItem`](MapSerpElementItem.md)
-
-  ↳ [`AppSerpElementItem`](AppSerpElementItem.md)
-
-  ↳ [`LocalPackSerpElementItem`](LocalPackSerpElementItem.md)
-
-  ↳ [`CarouselSerpElementItem`](CarouselSerpElementItem.md)
-
-  ↳ [`VideoSerpElementItem`](VideoSerpElementItem.md)
-
-  ↳ [`AnswerBoxSerpElementItem`](AnswerBoxSerpElementItem.md)
-
-  ↳ [`ShoppingSerpElementItem`](ShoppingSerpElementItem.md)
-
-  ↳ [`GoogleFlightsSerpElementItem`](GoogleFlightsSerpElementItem.md)
-
-  ↳ [`MentionCarouselSerpElementItem`](MentionCarouselSerpElementItem.md)
-
-  ↳ [`EventsSerpElementItem`](EventsSerpElementItem.md)
-
-  ↳ [`RelatedSearchesSerpElementItem`](RelatedSearchesSerpElementItem.md)
-
-  ↳ [`MultiCarouselSerpElementItem`](MultiCarouselSerpElementItem.md)
-
-  ↳ [`RecipesSerpElementItem`](RecipesSerpElementItem.md)
-
-  ↳ [`TopSightsSerpElementItem`](TopSightsSerpElementItem.md)
-
-  ↳ [`ScholarlyArticlesSerpElementItem`](ScholarlyArticlesSerpElementItem.md)
-
-  ↳ [`PopularProductsSerpElementItem`](PopularProductsSerpElementItem.md)
-
-  ↳ [`PodcastsSerpElementItem`](PodcastsSerpElementItem.md)
-
-  ↳ [`StocksBoxSerpElementItem`](StocksBoxSerpElementItem.md)
-
-  ↳ [`FindResultsOnSerpElementItem`](FindResultsOnSerpElementItem.md)
-
-  ↳ [`QuestionsAndAnswersSerpElementItem`](QuestionsAndAnswersSerpElementItem.md)
-
-  ↳ [`HotelsPackSerpElementItem`](HotelsPackSerpElementItem.md)
-
-  ↳ [`VisualStoriesSerpElementItem`](VisualStoriesSerpElementItem.md)
-
-  ↳ [`CommercialUnitsSerpElementItem`](CommercialUnitsSerpElementItem.md)
-
-  ↳ [`LocalServicesSerpElementItem`](LocalServicesSerpElementItem.md)
-
-  ↳ [`GoogleHotelsSerpElementItem`](GoogleHotelsSerpElementItem.md)
-
-  ↳ [`MathSolverSerpElementItem`](MathSolverSerpElementItem.md)
-
-  ↳ [`CurrencyBoxSerpElementItem`](CurrencyBoxSerpElementItem.md)
-
-  ↳ [`GooglePostsSerpElementItem`](GooglePostsSerpElementItem.md)
-
-  ↳ [`ProductConsiderationsSerpElementItem`](ProductConsiderationsSerpElementItem.md)
-
-  ↳ [`FoundOnWebSerpElementItem`](FoundOnWebSerpElementItem.md)
-
-  ↳ [`ShortVideosSerpElementItem`](ShortVideosSerpElementItem.md)
-
-  ↳ [`RefineProductsSerpElementItem`](RefineProductsSerpElementItem.md)
-
-  ↳ [`ExploreBrandsSerpElementItem`](ExploreBrandsSerpElementItem.md)
-
-  ↳ [`PerspectivesSerpElementItem`](PerspectivesSerpElementItem.md)
-
-  ↳ [`DiscussionsAndForumsSerpElementItem`](DiscussionsAndForumsSerpElementItem.md)
-
-  ↳ [`MapsSearchSerpElementItem`](MapsSearchSerpElementItem.md)
-
-  ↳ [`MapsPaidItemSerpElementItem`](MapsPaidItemSerpElementItem.md)
-
-  ↳ [`NewsSearchSerpElementItem`](NewsSearchSerpElementItem.md)
-
-  ↳ [`EventItemSerpElementItem`](EventItemSerpElementItem.md)
-
-  ↳ [`ImagesSearchSerpElementItem`](ImagesSearchSerpElementItem.md)
-
-  ↳ [`GoogleJobsItemSerpElementItem`](GoogleJobsItemSerpElementItem.md)
-
-  ↳ [`AutocompleteSerpElementItem`](AutocompleteSerpElementItem.md)
-
-  ↳ [`DatasetSerpElementItem`](DatasetSerpElementItem.md)
-
-  ↳ [`YoutubeVideoInfoSerpElementItem`](YoutubeVideoInfoSerpElementItem.md)
-
-  ↳ [`YoutubeSubtitlesSerpElementItem`](YoutubeSubtitlesSerpElementItem.md)
-
-  ↳ [`YoutubeCommentSerpElementItem`](YoutubeCommentSerpElementItem.md)
-
-  ↳ [`DictionarySerpElementItem`](DictionarySerpElementItem.md)
+## Extended by
+
+- [`PaidSerpElementItem`](PaidSerpElementItem.md)
+- [`OrganicSerpElementItem`](OrganicSerpElementItem.md)
+- [`FeaturedSnippetSerpElementItem`](FeaturedSnippetSerpElementItem.md)
+- [`KnowledgeGraphCarouselItemSerpElementItem`](KnowledgeGraphCarouselItemSerpElementItem.md)
+- [`KnowledgeGraphDescriptionItemSerpElementItem`](KnowledgeGraphDescriptionItemSerpElementItem.md)
+- [`KnowledgeGraphImagesItemSerpElementItem`](KnowledgeGraphImagesItemSerpElementItem.md)
+- [`KnowledgeGraphListItemSerpElementItem`](KnowledgeGraphListItemSerpElementItem.md)
+- [`KnowledgeGraphRowItemSerpElementItem`](KnowledgeGraphRowItemSerpElementItem.md)
+- [`KnowledgeGraphExpandedItemSerpElementItem`](KnowledgeGraphExpandedItemSerpElementItem.md)
+- [`KnowledgeGraphPartItemSerpElementItem`](KnowledgeGraphPartItemSerpElementItem.md)
+- [`KnowledgeGraphShoppingItemSerpElementItem`](KnowledgeGraphShoppingItemSerpElementItem.md)
+- [`KnowledgeGraphHotelsBookingItemSerpElementItem`](KnowledgeGraphHotelsBookingItemSerpElementItem.md)
+- [`KnowledgeGraphSerpElementItem`](KnowledgeGraphSerpElementItem.md)
+- [`TopStoriesSerpElementItem`](TopStoriesSerpElementItem.md)
+- [`PeopleAlsoAskSerpElementItem`](PeopleAlsoAskSerpElementItem.md)
+- [`PeopleAlsoSearchSerpElementItem`](PeopleAlsoSearchSerpElementItem.md)
+- [`ImagesSerpElementItem`](ImagesSerpElementItem.md)
+- [`TwitterSerpElementItem`](TwitterSerpElementItem.md)
+- [`GoogleReviewsSerpElementItem`](GoogleReviewsSerpElementItem.md)
+- [`JobsSerpElementItem`](JobsSerpElementItem.md)
+- [`MapSerpElementItem`](MapSerpElementItem.md)
+- [`AppSerpElementItem`](AppSerpElementItem.md)
+- [`LocalPackSerpElementItem`](LocalPackSerpElementItem.md)
+- [`CarouselSerpElementItem`](CarouselSerpElementItem.md)
+- [`VideoSerpElementItem`](VideoSerpElementItem.md)
+- [`AnswerBoxSerpElementItem`](AnswerBoxSerpElementItem.md)
+- [`ShoppingSerpElementItem`](ShoppingSerpElementItem.md)
+- [`GoogleFlightsSerpElementItem`](GoogleFlightsSerpElementItem.md)
+- [`MentionCarouselSerpElementItem`](MentionCarouselSerpElementItem.md)
+- [`EventsSerpElementItem`](EventsSerpElementItem.md)
+- [`RelatedSearchesSerpElementItem`](RelatedSearchesSerpElementItem.md)
+- [`MultiCarouselSerpElementItem`](MultiCarouselSerpElementItem.md)
+- [`RecipesSerpElementItem`](RecipesSerpElementItem.md)
+- [`TopSightsSerpElementItem`](TopSightsSerpElementItem.md)
+- [`ScholarlyArticlesSerpElementItem`](ScholarlyArticlesSerpElementItem.md)
+- [`PopularProductsSerpElementItem`](PopularProductsSerpElementItem.md)
+- [`PodcastsSerpElementItem`](PodcastsSerpElementItem.md)
+- [`StocksBoxSerpElementItem`](StocksBoxSerpElementItem.md)
+- [`FindResultsOnSerpElementItem`](FindResultsOnSerpElementItem.md)
+- [`QuestionsAndAnswersSerpElementItem`](QuestionsAndAnswersSerpElementItem.md)
+- [`HotelsPackSerpElementItem`](HotelsPackSerpElementItem.md)
+- [`VisualStoriesSerpElementItem`](VisualStoriesSerpElementItem.md)
+- [`CommercialUnitsSerpElementItem`](CommercialUnitsSerpElementItem.md)
+- [`LocalServicesSerpElementItem`](LocalServicesSerpElementItem.md)
+- [`GoogleHotelsSerpElementItem`](GoogleHotelsSerpElementItem.md)
+- [`MathSolverSerpElementItem`](MathSolverSerpElementItem.md)
+- [`CurrencyBoxSerpElementItem`](CurrencyBoxSerpElementItem.md)
+- [`GooglePostsSerpElementItem`](GooglePostsSerpElementItem.md)
+- [`ProductConsiderationsSerpElementItem`](ProductConsiderationsSerpElementItem.md)
+- [`FoundOnWebSerpElementItem`](FoundOnWebSerpElementItem.md)
+- [`ShortVideosSerpElementItem`](ShortVideosSerpElementItem.md)
+- [`RefineProductsSerpElementItem`](RefineProductsSerpElementItem.md)
+- [`ExploreBrandsSerpElementItem`](ExploreBrandsSerpElementItem.md)
+- [`PerspectivesSerpElementItem`](PerspectivesSerpElementItem.md)
+- [`DiscussionsAndForumsSerpElementItem`](DiscussionsAndForumsSerpElementItem.md)
+- [`MapsSearchSerpElementItem`](MapsSearchSerpElementItem.md)
+- [`MapsPaidItemSerpElementItem`](MapsPaidItemSerpElementItem.md)
+- [`NewsSearchSerpElementItem`](NewsSearchSerpElementItem.md)
+- [`EventItemSerpElementItem`](EventItemSerpElementItem.md)
+- [`ImagesSearchSerpElementItem`](ImagesSearchSerpElementItem.md)
+- [`GoogleJobsItemSerpElementItem`](GoogleJobsItemSerpElementItem.md)
+- [`AutocompleteSerpElementItem`](AutocompleteSerpElementItem.md)
+- [`DatasetSerpElementItem`](DatasetSerpElementItem.md)
+- [`YoutubeVideoInfoSerpElementItem`](YoutubeVideoInfoSerpElementItem.md)
+- [`YoutubeSubtitlesSerpElementItem`](YoutubeSubtitlesSerpElementItem.md)
+- [`YoutubeCommentSerpElementItem`](YoutubeCommentSerpElementItem.md)
+- [`DictionarySerpElementItem`](DictionarySerpElementItem.md)
 
 ## Implements
 
@@ -146,41 +82,23 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BaseSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](BaseSerpElementItem.md#_discriminator)
-
-### Methods
-
-- [init](BaseSerpElementItem.md#init)
-- [toJSON](BaseSerpElementItem.md#tojson)
-- [fromJS](BaseSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BaseSerpElementItem(data)
 
-• **new BaseSerpElementItem**(`data?`): [`BaseSerpElementItem`](BaseSerpElementItem.md)
+> **new BaseSerpElementItem**(`data`?): [`BaseSerpElementItem`](BaseSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBaseSerpElementItem`](../interfaces/IBaseSerpElementItem.md) |
+• **data?**: [`IBaseSerpElementItem`](../interfaces/IBaseSerpElementItem.md)
 
 #### Returns
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md)
 
-#### Defined in
+#### Source
 
 main.ts:19790
 
@@ -188,68 +106,62 @@ main.ts:19790
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
-#### Defined in
+#### Source
 
 main.ts:19788
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:19800
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:20151
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BaseSerpElementItem`](BaseSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`BaseSerpElementItem`](BaseSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md)
 
-#### Defined in
+#### Source
 
 main.ts:19809

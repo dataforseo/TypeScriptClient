@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpYoutubeLanguagesResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpYoutubeLanguagesResultInfo
 
 # Class: SerpYoutubeLanguagesResultInfo
 
@@ -8,133 +12,108 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpYoutubeLanguagesResultInfo.md#constructor)
-
-### Properties
-
-- [language\_code](SerpYoutubeLanguagesResultInfo.md#language_code)
-- [language\_name](SerpYoutubeLanguagesResultInfo.md#language_name)
-
-### Methods
-
-- [init](SerpYoutubeLanguagesResultInfo.md#init)
-- [toJSON](SerpYoutubeLanguagesResultInfo.md#tojson)
-- [fromJS](SerpYoutubeLanguagesResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpYoutubeLanguagesResultInfo(data)
 
-• **new SerpYoutubeLanguagesResultInfo**(`data?`): [`SerpYoutubeLanguagesResultInfo`](SerpYoutubeLanguagesResultInfo.md)
+> **new SerpYoutubeLanguagesResultInfo**(`data`?): [`SerpYoutubeLanguagesResultInfo`](SerpYoutubeLanguagesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpYoutubeLanguagesResultInfo`](../interfaces/ISerpYoutubeLanguagesResultInfo.md) |
+• **data?**: [`ISerpYoutubeLanguagesResultInfo`](../interfaces/ISerpYoutubeLanguagesResultInfo.md)
 
 #### Returns
 
 [`SerpYoutubeLanguagesResultInfo`](SerpYoutubeLanguagesResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:59949
+main.ts:59957
 
 ## Properties
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code according to ISO 639-1
 
 #### Implementation of
 
-[ISerpYoutubeLanguagesResultInfo](../interfaces/ISerpYoutubeLanguagesResultInfo.md).[language_code](../interfaces/ISerpYoutubeLanguagesResultInfo.md#language_code)
+[`ISerpYoutubeLanguagesResultInfo`](../interfaces/ISerpYoutubeLanguagesResultInfo.md).[`language_code`](../interfaces/ISerpYoutubeLanguagesResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:59945
+main.ts:59953
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 language name
 
 #### Implementation of
 
-[ISerpYoutubeLanguagesResultInfo](../interfaces/ISerpYoutubeLanguagesResultInfo.md).[language_name](../interfaces/ISerpYoutubeLanguagesResultInfo.md#language_name)
+[`ISerpYoutubeLanguagesResultInfo`](../interfaces/ISerpYoutubeLanguagesResultInfo.md).[`language_name`](../interfaces/ISerpYoutubeLanguagesResultInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:59943
+main.ts:59951
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:59958
+main.ts:59966
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:59976
+main.ts:59984
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpYoutubeLanguagesResultInfo`](SerpYoutubeLanguagesResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpYoutubeLanguagesResultInfo`](SerpYoutubeLanguagesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpYoutubeLanguagesResultInfo`](SerpYoutubeLanguagesResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:59969
+main.ts:59977

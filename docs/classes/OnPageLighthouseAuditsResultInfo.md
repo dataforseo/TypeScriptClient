@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageLighthouseAuditsResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPageLighthouseAuditsResultInfo
 
 # Class: OnPageLighthouseAuditsResultInfo
 
@@ -8,49 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPageLighthouseAuditsResultInfo.md#constructor)
-
-### Properties
-
-- [audits](OnPageLighthouseAuditsResultInfo.md#audits)
-
-### Methods
-
-- [init](OnPageLighthouseAuditsResultInfo.md#init)
-- [toJSON](OnPageLighthouseAuditsResultInfo.md#tojson)
-- [fromJS](OnPageLighthouseAuditsResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPageLighthouseAuditsResultInfo(data)
 
-• **new OnPageLighthouseAuditsResultInfo**(`data?`): [`OnPageLighthouseAuditsResultInfo`](OnPageLighthouseAuditsResultInfo.md)
+> **new OnPageLighthouseAuditsResultInfo**(`data`?): [`OnPageLighthouseAuditsResultInfo`](OnPageLighthouseAuditsResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPageLighthouseAuditsResultInfo`](../interfaces/IOnPageLighthouseAuditsResultInfo.md) |
+• **data?**: [`IOnPageLighthouseAuditsResultInfo`](../interfaces/IOnPageLighthouseAuditsResultInfo.md)
 
 #### Returns
 
 [`OnPageLighthouseAuditsResultInfo`](OnPageLighthouseAuditsResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:159110
+main.ts:159118
 
 ## Properties
 
-### audits
+### audits?
 
-• `Optional` **audits**: `string`[]
+> **`optional`** **audits**: `string`[]
 
 the list of available lighthouse audits
 an array containing the titles of available audits
@@ -58,68 +44,62 @@ Note: the titles can change depending on if the audit passed or failed and may c
 
 #### Implementation of
 
-[IOnPageLighthouseAuditsResultInfo](../interfaces/IOnPageLighthouseAuditsResultInfo.md).[audits](../interfaces/IOnPageLighthouseAuditsResultInfo.md#audits)
+[`IOnPageLighthouseAuditsResultInfo`](../interfaces/IOnPageLighthouseAuditsResultInfo.md).[`audits`](../interfaces/IOnPageLighthouseAuditsResultInfo.md#audits)
 
-#### Defined in
+#### Source
 
-main.ts:159106
+main.ts:159114
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:159119
+main.ts:159127
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:159140
+main.ts:159148
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPageLighthouseAuditsResultInfo`](OnPageLighthouseAuditsResultInfo.md)
+> **`static`** **fromJS**(`data`): [`OnPageLighthouseAuditsResultInfo`](OnPageLighthouseAuditsResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`OnPageLighthouseAuditsResultInfo`](OnPageLighthouseAuditsResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:159133
+main.ts:159141

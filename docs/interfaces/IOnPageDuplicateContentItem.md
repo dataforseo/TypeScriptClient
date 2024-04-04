@@ -1,55 +1,47 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageDuplicateContentItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IOnPageDuplicateContentItem
 
 # Interface: IOnPageDuplicateContentItem
 
-## Implemented by
-
-- [`OnPageDuplicateContentItem`](../classes/OnPageDuplicateContentItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [pages](IOnPageDuplicateContentItem.md#pages)
-- [total\_count](IOnPageDuplicateContentItem.md#total_count)
-- [url](IOnPageDuplicateContentItem.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### pages
+### pages?
 
-• `Optional` **pages**: [`Pages`](../classes/Pages.md)[]
+> **`optional`** **pages**: [`Pages`](../classes/Pages.md)[]
 
 pages with duplicate content
 
-#### Defined in
+#### Source
 
-main.ts:153105
+main.ts:153113
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total count of duplicate pages
 
-#### Defined in
+#### Source
 
-main.ts:153103
+main.ts:153111
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL of the specified page
 
-#### Defined in
+#### Source
 
-main.ts:153101
+main.ts:153109

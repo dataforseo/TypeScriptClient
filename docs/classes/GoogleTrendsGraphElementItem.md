@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / GoogleTrendsGraphElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / GoogleTrendsGraphElementItem
 
 # Class: GoogleTrendsGraphElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md)
-
-  ↳ **`GoogleTrendsGraphElementItem`**
 
 ## Implements
 
@@ -14,40 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](GoogleTrendsGraphElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](GoogleTrendsGraphElementItem.md#_discriminator)
-- [averages](GoogleTrendsGraphElementItem.md#averages)
-- [data](GoogleTrendsGraphElementItem.md#data)
-- [keywords](GoogleTrendsGraphElementItem.md#keywords)
-- [position](GoogleTrendsGraphElementItem.md#position)
-- [title](GoogleTrendsGraphElementItem.md#title)
-
-### Methods
-
-- [init](GoogleTrendsGraphElementItem.md#init)
-- [toJSON](GoogleTrendsGraphElementItem.md#tojson)
-- [fromJS](GoogleTrendsGraphElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new GoogleTrendsGraphElementItem(data)
 
-• **new GoogleTrendsGraphElementItem**(`data?`): [`GoogleTrendsGraphElementItem`](GoogleTrendsGraphElementItem.md)
+> **new GoogleTrendsGraphElementItem**(`data`?): [`GoogleTrendsGraphElementItem`](GoogleTrendsGraphElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IGoogleTrendsGraphElementItem`](../interfaces/IGoogleTrendsGraphElementItem.md) |
+• **data?**: [`IGoogleTrendsGraphElementItem`](../interfaces/IGoogleTrendsGraphElementItem.md)
 
 #### Returns
 
@@ -55,119 +34,117 @@
 
 #### Overrides
 
-[BaseGoogleTrendsItem](BaseGoogleTrendsItem.md).[constructor](BaseGoogleTrendsItem.md#constructor)
+[`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`constructor`](BaseGoogleTrendsItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:122872
+main.ts:122880
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseGoogleTrendsItem](BaseGoogleTrendsItem.md).[_discriminator](BaseGoogleTrendsItem.md#_discriminator)
+[`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`_discriminator`](BaseGoogleTrendsItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:20838
 
-___
+***
 
-### averages
+### averages?
 
-• `Optional` **averages**: `number`[]
+> **`optional`** **averages**: `number`[]
 
 keyword popularity values averaged over the whole time range
 
 #### Implementation of
 
-[IGoogleTrendsGraphElementItem](../interfaces/IGoogleTrendsGraphElementItem.md).[averages](../interfaces/IGoogleTrendsGraphElementItem.md#averages)
+[`IGoogleTrendsGraphElementItem`](../interfaces/IGoogleTrendsGraphElementItem.md).[`averages`](../interfaces/IGoogleTrendsGraphElementItem.md#averages)
 
-#### Defined in
+#### Source
 
-main.ts:122868
+main.ts:122876
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: [`TrendsGraphDataInfo`](TrendsGraphDataInfo.md)[]
+> **`optional`** **data**: [`TrendsGraphDataInfo`](TrendsGraphDataInfo.md)[]
 
 Google Trends data for the specified parameters
 
 #### Implementation of
 
-[IGoogleTrendsGraphElementItem](../interfaces/IGoogleTrendsGraphElementItem.md).[data](../interfaces/IGoogleTrendsGraphElementItem.md#data)
+[`IGoogleTrendsGraphElementItem`](../interfaces/IGoogleTrendsGraphElementItem.md).[`data`](../interfaces/IGoogleTrendsGraphElementItem.md#data)
 
-#### Defined in
+#### Source
 
-main.ts:122866
+main.ts:122874
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 relevant keywords
 the data included in the google_trends_graph element is based on the keywords listed in this array
 
 #### Implementation of
 
-[IGoogleTrendsGraphElementItem](../interfaces/IGoogleTrendsGraphElementItem.md).[keywords](../interfaces/IGoogleTrendsGraphElementItem.md#keywords)
+[`IGoogleTrendsGraphElementItem`](../interfaces/IGoogleTrendsGraphElementItem.md).[`keywords`](../interfaces/IGoogleTrendsGraphElementItem.md#keywords)
 
-#### Defined in
+#### Source
 
-main.ts:122864
+main.ts:122872
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `number`
+> **`optional`** **position**: `number`
 
 the alignment of the element in Google Trends
 can take the following values: 1, 2, 3, 4, etc.
 
 #### Implementation of
 
-[IGoogleTrendsGraphElementItem](../interfaces/IGoogleTrendsGraphElementItem.md).[position](../interfaces/IGoogleTrendsGraphElementItem.md#position)
+[`IGoogleTrendsGraphElementItem`](../interfaces/IGoogleTrendsGraphElementItem.md).[`position`](../interfaces/IGoogleTrendsGraphElementItem.md#position)
 
-#### Defined in
+#### Source
 
-main.ts:122859
+main.ts:122867
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the element in Google Trends
 
 #### Implementation of
 
-[IGoogleTrendsGraphElementItem](../interfaces/IGoogleTrendsGraphElementItem.md).[title](../interfaces/IGoogleTrendsGraphElementItem.md#title)
+[`IGoogleTrendsGraphElementItem`](../interfaces/IGoogleTrendsGraphElementItem.md).[`title`](../interfaces/IGoogleTrendsGraphElementItem.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:122861
+main.ts:122869
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -175,23 +152,21 @@ main.ts:122861
 
 #### Overrides
 
-[BaseGoogleTrendsItem](BaseGoogleTrendsItem.md).[init](BaseGoogleTrendsItem.md#init)
+[`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`init`](BaseGoogleTrendsItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:122877
+main.ts:122885
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -199,23 +174,21 @@ ___
 
 #### Overrides
 
-[BaseGoogleTrendsItem](BaseGoogleTrendsItem.md).[toJSON](BaseGoogleTrendsItem.md#tojson)
+[`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`toJSON`](BaseGoogleTrendsItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:122911
+main.ts:122919
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`GoogleTrendsGraphElementItem`](GoogleTrendsGraphElementItem.md)
+> **`static`** **fromJS**(`data`): [`GoogleTrendsGraphElementItem`](GoogleTrendsGraphElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -223,8 +196,8 @@ ___
 
 #### Overrides
 
-[BaseGoogleTrendsItem](BaseGoogleTrendsItem.md).[fromJS](BaseGoogleTrendsItem.md#fromjs)
+[`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`fromJS`](BaseGoogleTrendsItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:122904
+main.ts:122912

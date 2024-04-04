@@ -1,284 +1,258 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IPaidSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IPaidSerpElementItem
 
 # Interface: IPaidSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
 
-  ↳ **`IPaidSerpElementItem`**
-
-## Implemented by
-
-- [`PaidSerpElementItem`](../classes/PaidSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [breadcrumb](IPaidSerpElementItem.md#breadcrumb)
-- [description](IPaidSerpElementItem.md#description)
-- [description\_rows](IPaidSerpElementItem.md#description_rows)
-- [domain](IPaidSerpElementItem.md#domain)
-- [extra](IPaidSerpElementItem.md#extra)
-- [highlighted](IPaidSerpElementItem.md#highlighted)
-- [images](IPaidSerpElementItem.md#images)
-- [is\_image](IPaidSerpElementItem.md#is_image)
-- [is\_video](IPaidSerpElementItem.md#is_video)
-- [links](IPaidSerpElementItem.md#links)
-- [position](IPaidSerpElementItem.md#position)
-- [price](IPaidSerpElementItem.md#price)
-- [rank\_absolute](IPaidSerpElementItem.md#rank_absolute)
-- [rank\_group](IPaidSerpElementItem.md#rank_group)
-- [rectangle](IPaidSerpElementItem.md#rectangle)
-- [title](IPaidSerpElementItem.md#title)
-- [url](IPaidSerpElementItem.md#url)
-- [website\_name](IPaidSerpElementItem.md#website_name)
-- [xpath](IPaidSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### breadcrumb
+### breadcrumb?
 
-• `Optional` **breadcrumb**: `string`
+> **`optional`** **breadcrumb**: `string`
 
 breadcrumb in SERP
 
-#### Defined in
+#### Source
 
 main.ts:25854
 
-___
+***
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description of the results element in SERP
 
-#### Defined in
+#### Source
 
 main.ts:25868
 
-___
+***
 
-### description\_rows
+### description\_rows?
 
-• `Optional` **description\_rows**: `string`[]
+> **`optional`** **description\_rows**: `string`[]
 
 extended description
 if there is none, equals null
 
-#### Defined in
+#### Source
 
 main.ts:25871
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 website domain
 
-#### Defined in
+#### Source
 
 main.ts:25852
 
-___
+***
 
-### extra
+### extra?
 
-• `Optional` **extra**: `Object`
+> **`optional`** **extra**: `Object`
 
 additional information about the result
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
-#### Defined in
+#### Source
 
 main.ts:25866
 
-___
+***
 
-### highlighted
+### highlighted?
 
-• `Optional` **highlighted**: `string`[]
+> **`optional`** **highlighted**: `string`[]
 
 words highlighted in bold within the results description
 
-#### Defined in
+#### Source
 
 main.ts:25864
 
-___
+***
 
-### images
+### images?
 
-• `Optional` **images**: [`ImagesElement`](../classes/ImagesElement.md)[]
+> **`optional`** **images**: [`ImagesElement`](../classes/ImagesElement.md)[]
 
 images of the element
 
-#### Defined in
+#### Source
 
 main.ts:25860
 
-___
+***
 
-### is\_image
+### is\_image?
 
-• `Optional` **is\_image**: `boolean`
+> **`optional`** **is\_image**: `boolean`
 
 indicates whether the element contains an image
 
-#### Defined in
+#### Source
 
 main.ts:25856
 
-___
+***
 
-### is\_video
+### is\_video?
 
-• `Optional` **is\_video**: `boolean`
+> **`optional`** **is\_video**: `boolean`
 
 indicates whether the element contains a video
 
-#### Defined in
+#### Source
 
 main.ts:25858
 
-___
+***
 
-### links
+### links?
 
-• `Optional` **links**: [`AdLinkElement`](../classes/AdLinkElement.md)[]
+> **`optional`** **links**: [`AdLinkElement`](../classes/AdLinkElement.md)[]
 
 sitelinks
 the links shown below some of Google’s search results
 if there are none, equals null
 
-#### Defined in
+#### Source
 
 main.ts:25875
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
 main.ts:25846
 
-___
+***
 
-### price
+### price?
 
-• `Optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
+> **`optional`** **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
 pricing details
 contains the pricing details of the product or service featured in the result
 
-#### Defined in
+#### Source
 
 main.ts:25878
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Defined in
+#### Source
 
 main.ts:25842
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
 main.ts:25839
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
 equals null if calculate_rectangles in the POST request is not set to true
 
-#### Defined in
+#### Source
 
 main.ts:25882
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the result in SERP
 
-#### Defined in
+#### Source
 
 main.ts:25850
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 relevant URL in SERP
 
-#### Defined in
+#### Source
 
 main.ts:25862
 
-___
+***
 
-### website\_name
+### website\_name?
 
-• `Optional` **website\_name**: `string`
+> **`optional`** **website\_name**: `string`
 
 website name in SERP
 
-#### Defined in
+#### Source
 
 main.ts:25884
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
 main.ts:25848

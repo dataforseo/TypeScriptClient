@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsLocationsAndLanguagesResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsLocationsAndLanguagesResponseInfo
 
 # Class: DataforseoLabsLocationsAndLanguagesResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`DataforseoLabsLocationsAndLanguagesResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsLocationsAndLanguagesResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](DataforseoLabsLocationsAndLanguagesResponseInfo.md#cost)
-- [status\_code](DataforseoLabsLocationsAndLanguagesResponseInfo.md#status_code)
-- [status\_message](DataforseoLabsLocationsAndLanguagesResponseInfo.md#status_message)
-- [tasks](DataforseoLabsLocationsAndLanguagesResponseInfo.md#tasks)
-- [tasks\_count](DataforseoLabsLocationsAndLanguagesResponseInfo.md#tasks_count)
-- [tasks\_error](DataforseoLabsLocationsAndLanguagesResponseInfo.md#tasks_error)
-- [time](DataforseoLabsLocationsAndLanguagesResponseInfo.md#time)
-- [version](DataforseoLabsLocationsAndLanguagesResponseInfo.md#version)
-
-### Methods
-
-- [init](DataforseoLabsLocationsAndLanguagesResponseInfo.md#init)
-- [toJSON](DataforseoLabsLocationsAndLanguagesResponseInfo.md#tojson)
-- [fromJS](DataforseoLabsLocationsAndLanguagesResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsLocationsAndLanguagesResponseInfo(data)
 
-• **new DataforseoLabsLocationsAndLanguagesResponseInfo**(`data?`): [`DataforseoLabsLocationsAndLanguagesResponseInfo`](DataforseoLabsLocationsAndLanguagesResponseInfo.md)
+> **new DataforseoLabsLocationsAndLanguagesResponseInfo**(`data`?): [`DataforseoLabsLocationsAndLanguagesResponseInfo`](DataforseoLabsLocationsAndLanguagesResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsLocationsAndLanguagesResponseInfo`](../interfaces/IDataforseoLabsLocationsAndLanguagesResponseInfo.md) |
+• **data?**: [`IDataforseoLabsLocationsAndLanguagesResponseInfo`](../interfaces/IDataforseoLabsLocationsAndLanguagesResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:80460
+main.ts:80468
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IDataforseoLabsLocationsAndLanguagesResponseInfo](../interfaces/IDataforseoLabsLocationsAndLanguagesResponseInfo.md).[cost](../interfaces/IDataforseoLabsLocationsAndLanguagesResponseInfo.md#cost)
+[`IDataforseoLabsLocationsAndLanguagesResponseInfo`](../interfaces/IDataforseoLabsLocationsAndLanguagesResponseInfo.md).[`cost`](../interfaces/IDataforseoLabsLocationsAndLanguagesResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[IDataforseoLabsLocationsAndLanguagesResponseInfo](../interfaces/IDataforseoLabsLocationsAndLanguagesResponseInfo.md).[status_code](../interfaces/IDataforseoLabsLocationsAndLanguagesResponseInfo.md#status_code)
+[`IDataforseoLabsLocationsAndLanguagesResponseInfo`](../interfaces/IDataforseoLabsLocationsAndLanguagesResponseInfo.md).[`status_code`](../interfaces/IDataforseoLabsLocationsAndLanguagesResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IDataforseoLabsLocationsAndLanguagesResponseInfo](../interfaces/IDataforseoLabsLocationsAndLanguagesResponseInfo.md).[status_message](../interfaces/IDataforseoLabsLocationsAndLanguagesResponseInfo.md#status_message)
+[`IDataforseoLabsLocationsAndLanguagesResponseInfo`](../interfaces/IDataforseoLabsLocationsAndLanguagesResponseInfo.md).[`status_message`](../interfaces/IDataforseoLabsLocationsAndLanguagesResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`DataforseoLabsLocationsAndLanguagesTaskInfo`](DataforseoLabsLocationsAndLanguagesTaskInfo.md)[]
+> **`optional`** **tasks**: [`DataforseoLabsLocationsAndLanguagesTaskInfo`](DataforseoLabsLocationsAndLanguagesTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[IDataforseoLabsLocationsAndLanguagesResponseInfo](../interfaces/IDataforseoLabsLocationsAndLanguagesResponseInfo.md).[tasks](../interfaces/IDataforseoLabsLocationsAndLanguagesResponseInfo.md#tasks)
+[`IDataforseoLabsLocationsAndLanguagesResponseInfo`](../interfaces/IDataforseoLabsLocationsAndLanguagesResponseInfo.md).[`tasks`](../interfaces/IDataforseoLabsLocationsAndLanguagesResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:80456
+main.ts:80464
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[IDataforseoLabsLocationsAndLanguagesResponseInfo](../interfaces/IDataforseoLabsLocationsAndLanguagesResponseInfo.md).[tasks_count](../interfaces/IDataforseoLabsLocationsAndLanguagesResponseInfo.md#tasks_count)
+[`IDataforseoLabsLocationsAndLanguagesResponseInfo`](../interfaces/IDataforseoLabsLocationsAndLanguagesResponseInfo.md).[`tasks_count`](../interfaces/IDataforseoLabsLocationsAndLanguagesResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[IDataforseoLabsLocationsAndLanguagesResponseInfo](../interfaces/IDataforseoLabsLocationsAndLanguagesResponseInfo.md).[tasks_error](../interfaces/IDataforseoLabsLocationsAndLanguagesResponseInfo.md#tasks_error)
+[`IDataforseoLabsLocationsAndLanguagesResponseInfo`](../interfaces/IDataforseoLabsLocationsAndLanguagesResponseInfo.md).[`tasks_error`](../interfaces/IDataforseoLabsLocationsAndLanguagesResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[IDataforseoLabsLocationsAndLanguagesResponseInfo](../interfaces/IDataforseoLabsLocationsAndLanguagesResponseInfo.md).[time](../interfaces/IDataforseoLabsLocationsAndLanguagesResponseInfo.md#time)
+[`IDataforseoLabsLocationsAndLanguagesResponseInfo`](../interfaces/IDataforseoLabsLocationsAndLanguagesResponseInfo.md).[`time`](../interfaces/IDataforseoLabsLocationsAndLanguagesResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[IDataforseoLabsLocationsAndLanguagesResponseInfo](../interfaces/IDataforseoLabsLocationsAndLanguagesResponseInfo.md).[version](../interfaces/IDataforseoLabsLocationsAndLanguagesResponseInfo.md#version)
+[`IDataforseoLabsLocationsAndLanguagesResponseInfo`](../interfaces/IDataforseoLabsLocationsAndLanguagesResponseInfo.md).[`version`](../interfaces/IDataforseoLabsLocationsAndLanguagesResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:80464
+main.ts:80472
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:80486
+main.ts:80494
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsLocationsAndLanguagesResponseInfo`](DataforseoLabsLocationsAndLanguagesResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsLocationsAndLanguagesResponseInfo`](DataforseoLabsLocationsAndLanguagesResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:80479
+main.ts:80487

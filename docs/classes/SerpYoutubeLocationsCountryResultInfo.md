@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpYoutubeLocationsCountryResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpYoutubeLocationsCountryResultInfo
 
 # Class: SerpYoutubeLocationsCountryResultInfo
 
@@ -8,85 +12,63 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpYoutubeLocationsCountryResultInfo.md#constructor)
-
-### Properties
-
-- [country\_iso\_code](SerpYoutubeLocationsCountryResultInfo.md#country_iso_code)
-- [location\_code](SerpYoutubeLocationsCountryResultInfo.md#location_code)
-- [location\_code\_parent](SerpYoutubeLocationsCountryResultInfo.md#location_code_parent)
-- [location\_name](SerpYoutubeLocationsCountryResultInfo.md#location_name)
-- [location\_type](SerpYoutubeLocationsCountryResultInfo.md#location_type)
-
-### Methods
-
-- [init](SerpYoutubeLocationsCountryResultInfo.md#init)
-- [toJSON](SerpYoutubeLocationsCountryResultInfo.md#tojson)
-- [fromJS](SerpYoutubeLocationsCountryResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpYoutubeLocationsCountryResultInfo(data)
 
-• **new SerpYoutubeLocationsCountryResultInfo**(`data?`): [`SerpYoutubeLocationsCountryResultInfo`](SerpYoutubeLocationsCountryResultInfo.md)
+> **new SerpYoutubeLocationsCountryResultInfo**(`data`?): [`SerpYoutubeLocationsCountryResultInfo`](SerpYoutubeLocationsCountryResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpYoutubeLocationsCountryResultInfo`](../interfaces/ISerpYoutubeLocationsCountryResultInfo.md) |
+• **data?**: [`ISerpYoutubeLocationsCountryResultInfo`](../interfaces/ISerpYoutubeLocationsCountryResultInfo.md)
 
 #### Returns
 
 [`SerpYoutubeLocationsCountryResultInfo`](SerpYoutubeLocationsCountryResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:59764
+main.ts:59772
 
 ## Properties
 
-### country\_iso\_code
+### country\_iso\_code?
 
-• `Optional` **country\_iso\_code**: `string`
+> **`optional`** **country\_iso\_code**: `string`
 
 ISO country code of the location
 
 #### Implementation of
 
-[ISerpYoutubeLocationsCountryResultInfo](../interfaces/ISerpYoutubeLocationsCountryResultInfo.md).[country_iso_code](../interfaces/ISerpYoutubeLocationsCountryResultInfo.md#country_iso_code)
+[`ISerpYoutubeLocationsCountryResultInfo`](../interfaces/ISerpYoutubeLocationsCountryResultInfo.md).[`country_iso_code`](../interfaces/ISerpYoutubeLocationsCountryResultInfo.md#country_iso_code)
 
-#### Defined in
+#### Source
 
-main.ts:59758
+main.ts:59766
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 
 #### Implementation of
 
-[ISerpYoutubeLocationsCountryResultInfo](../interfaces/ISerpYoutubeLocationsCountryResultInfo.md).[location_code](../interfaces/ISerpYoutubeLocationsCountryResultInfo.md#location_code)
+[`ISerpYoutubeLocationsCountryResultInfo`](../interfaces/ISerpYoutubeLocationsCountryResultInfo.md).[`location_code`](../interfaces/ISerpYoutubeLocationsCountryResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:59745
+main.ts:59753
 
-___
+***
 
-### location\_code\_parent
+### location\_code\_parent?
 
-• `Optional` **location\_code\_parent**: `number`
+> **`optional`** **location\_code\_parent**: `number`
 
 the code of the superordinate location
 example:
@@ -99,100 +81,94 @@ where location_code_parent corresponds to:
 
 #### Implementation of
 
-[ISerpYoutubeLocationsCountryResultInfo](../interfaces/ISerpYoutubeLocationsCountryResultInfo.md).[location_code_parent](../interfaces/ISerpYoutubeLocationsCountryResultInfo.md#location_code_parent)
+[`ISerpYoutubeLocationsCountryResultInfo`](../interfaces/ISerpYoutubeLocationsCountryResultInfo.md).[`location_code_parent`](../interfaces/ISerpYoutubeLocationsCountryResultInfo.md#location_code_parent)
 
-#### Defined in
+#### Source
 
-main.ts:59756
+main.ts:59764
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 
 #### Implementation of
 
-[ISerpYoutubeLocationsCountryResultInfo](../interfaces/ISerpYoutubeLocationsCountryResultInfo.md).[location_name](../interfaces/ISerpYoutubeLocationsCountryResultInfo.md#location_name)
+[`ISerpYoutubeLocationsCountryResultInfo`](../interfaces/ISerpYoutubeLocationsCountryResultInfo.md).[`location_name`](../interfaces/ISerpYoutubeLocationsCountryResultInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:59747
+main.ts:59755
 
-___
+***
 
-### location\_type
+### location\_type?
 
-• `Optional` **location\_type**: `string`
+> **`optional`** **location\_type**: `string`
 
 location type
 
 #### Implementation of
 
-[ISerpYoutubeLocationsCountryResultInfo](../interfaces/ISerpYoutubeLocationsCountryResultInfo.md).[location_type](../interfaces/ISerpYoutubeLocationsCountryResultInfo.md#location_type)
+[`ISerpYoutubeLocationsCountryResultInfo`](../interfaces/ISerpYoutubeLocationsCountryResultInfo.md).[`location_type`](../interfaces/ISerpYoutubeLocationsCountryResultInfo.md#location_type)
 
-#### Defined in
+#### Source
 
-main.ts:59760
+main.ts:59768
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:59773
+main.ts:59781
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:59794
+main.ts:59802
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpYoutubeLocationsCountryResultInfo`](SerpYoutubeLocationsCountryResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpYoutubeLocationsCountryResultInfo`](SerpYoutubeLocationsCountryResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpYoutubeLocationsCountryResultInfo`](SerpYoutubeLocationsCountryResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:59787
+main.ts:59795

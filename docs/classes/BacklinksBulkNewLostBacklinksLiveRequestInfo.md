@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksBulkNewLostBacklinksLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BacklinksBulkNewLostBacklinksLiveRequestInfo
 
 # Class: BacklinksBulkNewLostBacklinksLiveRequestInfo
 
@@ -8,51 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BacklinksBulkNewLostBacklinksLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [date\_from](BacklinksBulkNewLostBacklinksLiveRequestInfo.md#date_from)
-- [tag](BacklinksBulkNewLostBacklinksLiveRequestInfo.md#tag)
-- [targets](BacklinksBulkNewLostBacklinksLiveRequestInfo.md#targets)
-
-### Methods
-
-- [init](BacklinksBulkNewLostBacklinksLiveRequestInfo.md#init)
-- [toJSON](BacklinksBulkNewLostBacklinksLiveRequestInfo.md#tojson)
-- [fromJS](BacklinksBulkNewLostBacklinksLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BacklinksBulkNewLostBacklinksLiveRequestInfo(data)
 
-• **new BacklinksBulkNewLostBacklinksLiveRequestInfo**(`data?`): [`BacklinksBulkNewLostBacklinksLiveRequestInfo`](BacklinksBulkNewLostBacklinksLiveRequestInfo.md)
+> **new BacklinksBulkNewLostBacklinksLiveRequestInfo**(`data`?): [`BacklinksBulkNewLostBacklinksLiveRequestInfo`](BacklinksBulkNewLostBacklinksLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBacklinksBulkNewLostBacklinksLiveRequestInfo`](../interfaces/IBacklinksBulkNewLostBacklinksLiveRequestInfo.md) |
+• **data?**: [`IBacklinksBulkNewLostBacklinksLiveRequestInfo`](../interfaces/IBacklinksBulkNewLostBacklinksLiveRequestInfo.md)
 
 #### Returns
 
 [`BacklinksBulkNewLostBacklinksLiveRequestInfo`](BacklinksBulkNewLostBacklinksLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:146144
+main.ts:146152
 
 ## Properties
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -69,17 +53,17 @@ example:
 
 #### Implementation of
 
-[IBacklinksBulkNewLostBacklinksLiveRequestInfo](../interfaces/IBacklinksBulkNewLostBacklinksLiveRequestInfo.md).[date_from](../interfaces/IBacklinksBulkNewLostBacklinksLiveRequestInfo.md#date_from)
+[`IBacklinksBulkNewLostBacklinksLiveRequestInfo`](../interfaces/IBacklinksBulkNewLostBacklinksLiveRequestInfo.md).[`date_from`](../interfaces/IBacklinksBulkNewLostBacklinksLiveRequestInfo.md#date_from)
 
-#### Defined in
+#### Source
 
-main.ts:146134
+main.ts:146142
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -89,17 +73,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IBacklinksBulkNewLostBacklinksLiveRequestInfo](../interfaces/IBacklinksBulkNewLostBacklinksLiveRequestInfo.md).[tag](../interfaces/IBacklinksBulkNewLostBacklinksLiveRequestInfo.md#tag)
+[`IBacklinksBulkNewLostBacklinksLiveRequestInfo`](../interfaces/IBacklinksBulkNewLostBacklinksLiveRequestInfo.md).[`tag`](../interfaces/IBacklinksBulkNewLostBacklinksLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:146140
+main.ts:146148
 
-___
+***
 
-### targets
+### targets?
 
-• `Optional` **targets**: `string`[]
+> **`optional`** **targets**: `string`[]
 
 domains, subdomains or webpages to get new & lost backlinks for
 required field
@@ -122,68 +106,62 @@ example:
 
 #### Implementation of
 
-[IBacklinksBulkNewLostBacklinksLiveRequestInfo](../interfaces/IBacklinksBulkNewLostBacklinksLiveRequestInfo.md).[targets](../interfaces/IBacklinksBulkNewLostBacklinksLiveRequestInfo.md#targets)
+[`IBacklinksBulkNewLostBacklinksLiveRequestInfo`](../interfaces/IBacklinksBulkNewLostBacklinksLiveRequestInfo.md).[`targets`](../interfaces/IBacklinksBulkNewLostBacklinksLiveRequestInfo.md#targets)
 
-#### Defined in
+#### Source
 
-main.ts:146121
+main.ts:146129
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:146153
+main.ts:146161
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:146176
+main.ts:146184
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BacklinksBulkNewLostBacklinksLiveRequestInfo`](BacklinksBulkNewLostBacklinksLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`BacklinksBulkNewLostBacklinksLiveRequestInfo`](BacklinksBulkNewLostBacklinksLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BacklinksBulkNewLostBacklinksLiveRequestInfo`](BacklinksBulkNewLostBacklinksLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:146169
+main.ts:146177

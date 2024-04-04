@@ -1,55 +1,47 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonRankedKeywordsLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsAmazonRankedKeywordsLiveItem
 
 # Interface: IDataforseoLabsAmazonRankedKeywordsLiveItem
 
-## Implemented by
-
-- [`DataforseoLabsAmazonRankedKeywordsLiveItem`](../classes/DataforseoLabsAmazonRankedKeywordsLiveItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [keyword\_data](IDataforseoLabsAmazonRankedKeywordsLiveItem.md#keyword_data)
-- [ranked\_serp\_element](IDataforseoLabsAmazonRankedKeywordsLiveItem.md#ranked_serp_element)
-- [se\_type](IDataforseoLabsAmazonRankedKeywordsLiveItem.md#se_type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### keyword\_data
+### keyword\_data?
 
-• `Optional` **keyword\_data**: [`KeywordData`](../classes/KeywordData.md)
+> **`optional`** **keyword\_data**: [`KeywordData`](../classes/KeywordData.md)
 
 keyword data for the returned keyword
 
-#### Defined in
+#### Source
 
-main.ts:102582
+main.ts:102590
 
-___
+***
 
-### ranked\_serp\_element
+### ranked\_serp\_element?
 
-• `Optional` **ranked\_serp\_element**: [`AmazonRankedSerpElement`](../classes/AmazonRankedSerpElement.md)
+> **`optional`** **ranked\_serp\_element**: [`AmazonRankedSerpElement`](../classes/AmazonRankedSerpElement.md)
 
 contains data on the products’s SERP element found for the returned keyword
 
-#### Defined in
+#### Source
 
-main.ts:102584
+main.ts:102592
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:102580
+main.ts:102588

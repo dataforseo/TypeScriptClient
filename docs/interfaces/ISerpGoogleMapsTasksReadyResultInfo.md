@@ -1,125 +1,112 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpGoogleMapsTasksReadyResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ISerpGoogleMapsTasksReadyResultInfo
 
 # Interface: ISerpGoogleMapsTasksReadyResultInfo
 
-## Implemented by
-
-- [`SerpGoogleMapsTasksReadyResultInfo`](../classes/SerpGoogleMapsTasksReadyResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [date\_posted](ISerpGoogleMapsTasksReadyResultInfo.md#date_posted)
-- [endpoint\_advanced](ISerpGoogleMapsTasksReadyResultInfo.md#endpoint_advanced)
-- [endpoint\_html](ISerpGoogleMapsTasksReadyResultInfo.md#endpoint_html)
-- [endpoint\_regular](ISerpGoogleMapsTasksReadyResultInfo.md#endpoint_regular)
-- [id](ISerpGoogleMapsTasksReadyResultInfo.md#id)
-- [se](ISerpGoogleMapsTasksReadyResultInfo.md#se)
-- [se\_type](ISerpGoogleMapsTasksReadyResultInfo.md#se_type)
-- [tag](ISerpGoogleMapsTasksReadyResultInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### date\_posted
+### date\_posted?
 
-• `Optional` **date\_posted**: `string`
+> **`optional`** **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
-#### Defined in
+#### Source
 
-main.ts:38621
+main.ts:38627
 
-___
+***
 
-### endpoint\_advanced
+### endpoint\_advanced?
 
-• `Optional` **endpoint\_advanced**: `string`
+> **`optional`** **endpoint\_advanced**: `string`
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
 
-#### Defined in
+#### Source
 
-main.ts:38629
+main.ts:38635
 
-___
+***
 
-### endpoint\_html
+### endpoint\_html?
 
-• `Optional` **endpoint\_html**: `string`
+> **`optional`** **endpoint\_html**: `string`
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
 
-#### Defined in
+#### Source
 
-main.ts:38632
+main.ts:38638
 
-___
+***
 
-### endpoint\_regular
+### endpoint\_regular?
 
-• `Optional` **endpoint\_regular**: `string`
+> **`optional`** **endpoint\_regular**: `string`
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
 
-#### Defined in
+#### Source
 
-main.ts:38626
+main.ts:38632
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
-#### Defined in
+#### Source
 
-main.ts:38614
+main.ts:38620
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 
-#### Defined in
+#### Source
 
-main.ts:38616
+main.ts:38622
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 type of search engine
 can take the following values: maps
 
-#### Defined in
+#### Source
 
-main.ts:38619
+main.ts:38625
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
-#### Defined in
+#### Source
 
-main.ts:38623
+main.ts:38629

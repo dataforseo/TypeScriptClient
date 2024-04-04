@@ -1,153 +1,138 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo
 
-## Implemented by
-
-- [`DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo`](../classes/DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#items)
-- [items\_count](IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#items_count)
-- [language\_code](IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#language_code)
-- [location\_code](IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#location_code)
-- [offset](IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#offset)
-- [offset\_token](IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#offset_token)
-- [se\_type](IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#se_type)
-- [seed\_keyword](IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#seed_keyword)
-- [seed\_keyword\_data](IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#seed_keyword_data)
-- [total\_count](IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#total_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)[]
+> **`optional`** **items**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)[]
 
 contains keywords and related data
 
-#### Defined in
+#### Source
 
-main.ts:83436
+main.ts:83444
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Defined in
+#### Source
 
-main.ts:83428
+main.ts:83436
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:83424
+main.ts:83432
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
-#### Defined in
-
-main.ts:83422
-
-___
-
-### offset
-
-• `Optional` **offset**: `number`
-
-current offset value
-
-#### Defined in
+#### Source
 
 main.ts:83430
 
-___
+***
 
-### offset\_token
+### offset?
 
-• `Optional` **offset\_token**: `string`
+> **`optional`** **offset**: `number`
+
+current offset value
+
+#### Source
+
+main.ts:83438
+
+***
+
+### offset\_token?
+
+> **`optional`** **offset\_token**: `string`
 
 offset token for subsequent requests
 you can use the string provided in this field to get the subsequent results of the initial task;
 note: offset_token values are unique for each subsequent task
 
-#### Defined in
+#### Source
 
-main.ts:83434
+main.ts:83442
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:83415
+main.ts:83423
 
-___
+***
 
-### seed\_keyword
+### seed\_keyword?
 
-• `Optional` **seed\_keyword**: `string`
+> **`optional`** **seed\_keyword**: `string`
 
 keyword in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:83417
+main.ts:83425
 
-___
+***
 
-### seed\_keyword\_data
+### seed\_keyword\_data?
 
-• `Optional` **seed\_keyword\_data**: `Object`
+> **`optional`** **seed\_keyword\_data**: `Object`
 
 keyword data for the seed keyword
 fields in this object are identical to those of the items array
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
-#### Defined in
+#### Source
 
-main.ts:83420
+main.ts:83428
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
-#### Defined in
+#### Source
 
-main.ts:83426
+main.ts:83434

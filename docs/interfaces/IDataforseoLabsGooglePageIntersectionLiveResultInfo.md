@@ -1,124 +1,111 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGooglePageIntersectionLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsGooglePageIntersectionLiveResultInfo
 
 # Interface: IDataforseoLabsGooglePageIntersectionLiveResultInfo
 
-## Implemented by
-
-- [`DataforseoLabsGooglePageIntersectionLiveResultInfo`](../classes/DataforseoLabsGooglePageIntersectionLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [exclude\_pages](IDataforseoLabsGooglePageIntersectionLiveResultInfo.md#exclude_pages)
-- [items](IDataforseoLabsGooglePageIntersectionLiveResultInfo.md#items)
-- [items\_count](IDataforseoLabsGooglePageIntersectionLiveResultInfo.md#items_count)
-- [language\_code](IDataforseoLabsGooglePageIntersectionLiveResultInfo.md#language_code)
-- [location\_code](IDataforseoLabsGooglePageIntersectionLiveResultInfo.md#location_code)
-- [pages](IDataforseoLabsGooglePageIntersectionLiveResultInfo.md#pages)
-- [se\_type](IDataforseoLabsGooglePageIntersectionLiveResultInfo.md#se_type)
-- [total\_count](IDataforseoLabsGooglePageIntersectionLiveResultInfo.md#total_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### exclude\_pages
+### exclude\_pages?
 
-• `Optional` **exclude\_pages**: `string`[]
+> **`optional`** **exclude\_pages**: `string`[]
 
 URLs you specified in a POST array that will be excluded from the results
 
-#### Defined in
-
-main.ts:99698
-
-___
-
-### items
-
-• `Optional` **items**: [`DataforseoLabsPageIntersectionLiveItem`](../classes/DataforseoLabsPageIntersectionLiveItem.md)[]
-
-contains keywords, relevant SERP elements and related data
-
-#### Defined in
-
-main.ts:99708
-
-___
-
-### items\_count
-
-• `Optional` **items\_count**: `number`
-
-the number of results returned in the items array
-
-#### Defined in
+#### Source
 
 main.ts:99706
 
-___
+***
 
-### language\_code
+### items?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **items**: [`DataforseoLabsPageIntersectionLiveItem`](../classes/DataforseoLabsPageIntersectionLiveItem.md)[]
+
+contains keywords, relevant SERP elements and related data
+
+#### Source
+
+main.ts:99716
+
+***
+
+### items\_count?
+
+> **`optional`** **items\_count**: `number`
+
+the number of results returned in the items array
+
+#### Source
+
+main.ts:99714
+
+***
+
+### language\_code?
+
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:99702
+main.ts:99710
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:99700
+main.ts:99708
 
-___
+***
 
-### pages
+### pages?
 
-• `Optional` **pages**: `Object`
+> **`optional`** **pages**: `Object`
 
 URLs you specified a POST array
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
-#### Defined in
+#### Source
 
-main.ts:99696
+main.ts:99704
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:99694
+main.ts:99702
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
-#### Defined in
+#### Source
 
-main.ts:99704
+main.ts:99712

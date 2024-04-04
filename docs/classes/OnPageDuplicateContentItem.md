@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageDuplicateContentItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPageDuplicateContentItem
 
 # Class: OnPageDuplicateContentItem
 
@@ -8,150 +12,124 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPageDuplicateContentItem.md#constructor)
-
-### Properties
-
-- [pages](OnPageDuplicateContentItem.md#pages)
-- [total\_count](OnPageDuplicateContentItem.md#total_count)
-- [url](OnPageDuplicateContentItem.md#url)
-
-### Methods
-
-- [init](OnPageDuplicateContentItem.md#init)
-- [toJSON](OnPageDuplicateContentItem.md#tojson)
-- [fromJS](OnPageDuplicateContentItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPageDuplicateContentItem(data)
 
-• **new OnPageDuplicateContentItem**(`data?`): [`OnPageDuplicateContentItem`](OnPageDuplicateContentItem.md)
+> **new OnPageDuplicateContentItem**(`data`?): [`OnPageDuplicateContentItem`](OnPageDuplicateContentItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPageDuplicateContentItem`](../interfaces/IOnPageDuplicateContentItem.md) |
+• **data?**: [`IOnPageDuplicateContentItem`](../interfaces/IOnPageDuplicateContentItem.md)
 
 #### Returns
 
 [`OnPageDuplicateContentItem`](OnPageDuplicateContentItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:153050
+main.ts:153058
 
 ## Properties
 
-### pages
+### pages?
 
-• `Optional` **pages**: [`Pages`](Pages.md)[]
+> **`optional`** **pages**: [`Pages`](Pages.md)[]
 
 pages with duplicate content
 
 #### Implementation of
 
-[IOnPageDuplicateContentItem](../interfaces/IOnPageDuplicateContentItem.md).[pages](../interfaces/IOnPageDuplicateContentItem.md#pages)
+[`IOnPageDuplicateContentItem`](../interfaces/IOnPageDuplicateContentItem.md).[`pages`](../interfaces/IOnPageDuplicateContentItem.md#pages)
 
-#### Defined in
+#### Source
 
-main.ts:153046
+main.ts:153054
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total count of duplicate pages
 
 #### Implementation of
 
-[IOnPageDuplicateContentItem](../interfaces/IOnPageDuplicateContentItem.md).[total_count](../interfaces/IOnPageDuplicateContentItem.md#total_count)
+[`IOnPageDuplicateContentItem`](../interfaces/IOnPageDuplicateContentItem.md).[`total_count`](../interfaces/IOnPageDuplicateContentItem.md#total_count)
 
-#### Defined in
+#### Source
 
-main.ts:153044
+main.ts:153052
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL of the specified page
 
 #### Implementation of
 
-[IOnPageDuplicateContentItem](../interfaces/IOnPageDuplicateContentItem.md).[url](../interfaces/IOnPageDuplicateContentItem.md#url)
+[`IOnPageDuplicateContentItem`](../interfaces/IOnPageDuplicateContentItem.md).[`url`](../interfaces/IOnPageDuplicateContentItem.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:153042
+main.ts:153050
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:153059
+main.ts:153067
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:153082
+main.ts:153090
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPageDuplicateContentItem`](OnPageDuplicateContentItem.md)
+> **`static`** **fromJS**(`data`): [`OnPageDuplicateContentItem`](OnPageDuplicateContentItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`OnPageDuplicateContentItem`](OnPageDuplicateContentItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:153075
+main.ts:153083

@@ -1,48 +1,39 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IProductInformationTextItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IProductInformationTextItem
 
 # Interface: IProductInformationTextItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseProductInformationItem`](IBaseProductInformationItem.md)
 
-  ↳ **`IProductInformationTextItem`**
-
-## Implemented by
-
-- [`ProductInformationTextItem`](../classes/ProductInformationTextItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [section\_name](IProductInformationTextItem.md#section_name)
-- [text](IProductInformationTextItem.md#text)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### section\_name
+### section\_name?
 
-• `Optional` **section\_name**: `string`
+> **`optional`** **section\_name**: `string`
 
 name of the section related to product information specified in the contents
 
-#### Defined in
+#### Source
 
 main.ts:178000
 
-___
+***
 
-### text
+### text?
 
-• `Optional` **text**: `string`
+> **`optional`** **text**: `string`
 
 text specified under the given title within the section_name
 
-#### Defined in
+#### Source
 
 main.ts:178002

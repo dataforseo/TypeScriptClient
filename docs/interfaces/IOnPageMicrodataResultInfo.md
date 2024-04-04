@@ -1,82 +1,72 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageMicrodataResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IOnPageMicrodataResultInfo
 
 # Interface: IOnPageMicrodataResultInfo
 
-## Implemented by
-
-- [`OnPageMicrodataResultInfo`](../classes/OnPageMicrodataResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [crawl\_progress](IOnPageMicrodataResultInfo.md#crawl_progress)
-- [crawl\_status](IOnPageMicrodataResultInfo.md#crawl_status)
-- [items](IOnPageMicrodataResultInfo.md#items)
-- [items\_count](IOnPageMicrodataResultInfo.md#items_count)
-- [test\_summary](IOnPageMicrodataResultInfo.md#test_summary)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### crawl\_progress
+### crawl\_progress?
 
-• `Optional` **crawl\_progress**: `string`
+> **`optional`** **crawl\_progress**: `string`
 
 status of the crawling session
 possible values: in_progress, finished
 
-#### Defined in
-
-main.ts:156437
-
-___
-
-### crawl\_status
-
-• `Optional` **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
-
-details of the crawling session
-
-#### Defined in
-
-main.ts:156439
-
-___
-
-### items
-
-• `Optional` **items**: [`OnPageMicrodataItem`](../classes/OnPageMicrodataItem.md)[]
-
-items array
-
-#### Defined in
+#### Source
 
 main.ts:156445
 
-___
+***
 
-### items\_count
+### crawl\_status?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
+
+details of the crawling session
+
+#### Source
+
+main.ts:156447
+
+***
+
+### items?
+
+> **`optional`** **items**: [`OnPageMicrodataItem`](../classes/OnPageMicrodataItem.md)[]
+
+items array
+
+#### Source
+
+main.ts:156453
+
+***
+
+### items\_count?
+
+> **`optional`** **items\_count**: `number`
 
 number of items in the results array
 
-#### Defined in
+#### Source
 
-main.ts:156443
+main.ts:156451
 
-___
+***
 
-### test\_summary
+### test\_summary?
 
-• `Optional` **test\_summary**: [`TestSummary`](../classes/TestSummary.md)
+> **`optional`** **test\_summary**: [`TestSummary`](../classes/TestSummary.md)
 
 microdata validation test results
 
-#### Defined in
+#### Source
 
-main.ts:156441
+main.ts:156449

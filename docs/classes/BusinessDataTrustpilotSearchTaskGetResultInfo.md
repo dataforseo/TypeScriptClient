@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataTrustpilotSearchTaskGetResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataTrustpilotSearchTaskGetResultInfo
 
 # Class: BusinessDataTrustpilotSearchTaskGetResultInfo
 
@@ -8,71 +12,48 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataTrustpilotSearchTaskGetResultInfo.md#constructor)
-
-### Properties
-
-- [check\_url](BusinessDataTrustpilotSearchTaskGetResultInfo.md#check_url)
-- [datetime](BusinessDataTrustpilotSearchTaskGetResultInfo.md#datetime)
-- [items](BusinessDataTrustpilotSearchTaskGetResultInfo.md#items)
-- [items\_count](BusinessDataTrustpilotSearchTaskGetResultInfo.md#items_count)
-- [keyword](BusinessDataTrustpilotSearchTaskGetResultInfo.md#keyword)
-- [se\_domain](BusinessDataTrustpilotSearchTaskGetResultInfo.md#se_domain)
-
-### Methods
-
-- [init](BusinessDataTrustpilotSearchTaskGetResultInfo.md#init)
-- [toJSON](BusinessDataTrustpilotSearchTaskGetResultInfo.md#tojson)
-- [fromJS](BusinessDataTrustpilotSearchTaskGetResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataTrustpilotSearchTaskGetResultInfo(data)
 
-• **new BusinessDataTrustpilotSearchTaskGetResultInfo**(`data?`): [`BusinessDataTrustpilotSearchTaskGetResultInfo`](BusinessDataTrustpilotSearchTaskGetResultInfo.md)
+> **new BusinessDataTrustpilotSearchTaskGetResultInfo**(`data`?): [`BusinessDataTrustpilotSearchTaskGetResultInfo`](BusinessDataTrustpilotSearchTaskGetResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataTrustpilotSearchTaskGetResultInfo`](../interfaces/IBusinessDataTrustpilotSearchTaskGetResultInfo.md) |
+• **data?**: [`IBusinessDataTrustpilotSearchTaskGetResultInfo`](../interfaces/IBusinessDataTrustpilotSearchTaskGetResultInfo.md)
 
 #### Returns
 
 [`BusinessDataTrustpilotSearchTaskGetResultInfo`](BusinessDataTrustpilotSearchTaskGetResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:204681
 
 ## Properties
 
-### check\_url
+### check\_url?
 
-• `Optional` **check\_url**: `string`
+> **`optional`** **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
 
 #### Implementation of
 
-[IBusinessDataTrustpilotSearchTaskGetResultInfo](../interfaces/IBusinessDataTrustpilotSearchTaskGetResultInfo.md).[check_url](../interfaces/IBusinessDataTrustpilotSearchTaskGetResultInfo.md#check_url)
+[`IBusinessDataTrustpilotSearchTaskGetResultInfo`](../interfaces/IBusinessDataTrustpilotSearchTaskGetResultInfo.md).[`check_url`](../interfaces/IBusinessDataTrustpilotSearchTaskGetResultInfo.md#check_url)
 
-#### Defined in
+#### Source
 
 main.ts:204666
 
-___
+***
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -81,134 +62,128 @@ example:
 
 #### Implementation of
 
-[IBusinessDataTrustpilotSearchTaskGetResultInfo](../interfaces/IBusinessDataTrustpilotSearchTaskGetResultInfo.md).[datetime](../interfaces/IBusinessDataTrustpilotSearchTaskGetResultInfo.md#datetime)
+[`IBusinessDataTrustpilotSearchTaskGetResultInfo`](../interfaces/IBusinessDataTrustpilotSearchTaskGetResultInfo.md).[`datetime`](../interfaces/IBusinessDataTrustpilotSearchTaskGetResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
 main.ts:204671
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)[]
+> **`optional`** **items**: [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)[]
 
 found reviews
 you can get more results by using the depth parameter when setting a task
 
 #### Implementation of
 
-[IBusinessDataTrustpilotSearchTaskGetResultInfo](../interfaces/IBusinessDataTrustpilotSearchTaskGetResultInfo.md).[items](../interfaces/IBusinessDataTrustpilotSearchTaskGetResultInfo.md#items)
+[`IBusinessDataTrustpilotSearchTaskGetResultInfo`](../interfaces/IBusinessDataTrustpilotSearchTaskGetResultInfo.md).[`items`](../interfaces/IBusinessDataTrustpilotSearchTaskGetResultInfo.md#items)
 
-#### Defined in
+#### Source
 
 main.ts:204677
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of items in the results array
 you can get more results by using the depth parameter when setting a task
 
 #### Implementation of
 
-[IBusinessDataTrustpilotSearchTaskGetResultInfo](../interfaces/IBusinessDataTrustpilotSearchTaskGetResultInfo.md).[items_count](../interfaces/IBusinessDataTrustpilotSearchTaskGetResultInfo.md#items_count)
+[`IBusinessDataTrustpilotSearchTaskGetResultInfo`](../interfaces/IBusinessDataTrustpilotSearchTaskGetResultInfo.md).[`items_count`](../interfaces/IBusinessDataTrustpilotSearchTaskGetResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
 main.ts:204674
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword in a POST array
 
 #### Implementation of
 
-[IBusinessDataTrustpilotSearchTaskGetResultInfo](../interfaces/IBusinessDataTrustpilotSearchTaskGetResultInfo.md).[keyword](../interfaces/IBusinessDataTrustpilotSearchTaskGetResultInfo.md#keyword)
+[`IBusinessDataTrustpilotSearchTaskGetResultInfo`](../interfaces/IBusinessDataTrustpilotSearchTaskGetResultInfo.md).[`keyword`](../interfaces/IBusinessDataTrustpilotSearchTaskGetResultInfo.md#keyword)
 
-#### Defined in
+#### Source
 
 main.ts:204661
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
 #### Implementation of
 
-[IBusinessDataTrustpilotSearchTaskGetResultInfo](../interfaces/IBusinessDataTrustpilotSearchTaskGetResultInfo.md).[se_domain](../interfaces/IBusinessDataTrustpilotSearchTaskGetResultInfo.md#se_domain)
+[`IBusinessDataTrustpilotSearchTaskGetResultInfo`](../interfaces/IBusinessDataTrustpilotSearchTaskGetResultInfo.md).[`se_domain`](../interfaces/IBusinessDataTrustpilotSearchTaskGetResultInfo.md#se_domain)
 
-#### Defined in
+#### Source
 
 main.ts:204663
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:204690
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:204716
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataTrustpilotSearchTaskGetResultInfo`](BusinessDataTrustpilotSearchTaskGetResultInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataTrustpilotSearchTaskGetResultInfo`](BusinessDataTrustpilotSearchTaskGetResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BusinessDataTrustpilotSearchTaskGetResultInfo`](BusinessDataTrustpilotSearchTaskGetResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:204709

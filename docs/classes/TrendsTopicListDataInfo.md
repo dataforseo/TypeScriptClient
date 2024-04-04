@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / TrendsTopicListDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / TrendsTopicListDataInfo
 
 # Class: TrendsTopicListDataInfo
 
@@ -8,135 +12,110 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](TrendsTopicListDataInfo.md#constructor)
-
-### Properties
-
-- [rising](TrendsTopicListDataInfo.md#rising)
-- [top](TrendsTopicListDataInfo.md#top)
-
-### Methods
-
-- [init](TrendsTopicListDataInfo.md#init)
-- [toJSON](TrendsTopicListDataInfo.md#tojson)
-- [fromJS](TrendsTopicListDataInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new TrendsTopicListDataInfo(data)
 
-• **new TrendsTopicListDataInfo**(`data?`): [`TrendsTopicListDataInfo`](TrendsTopicListDataInfo.md)
+> **new TrendsTopicListDataInfo**(`data`?): [`TrendsTopicListDataInfo`](TrendsTopicListDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ITrendsTopicListDataInfo`](../interfaces/ITrendsTopicListDataInfo.md) |
+• **data?**: [`ITrendsTopicListDataInfo`](../interfaces/ITrendsTopicListDataInfo.md)
 
 #### Returns
 
 [`TrendsTopicListDataInfo`](TrendsTopicListDataInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:124101
+main.ts:124109
 
 ## Properties
 
-### rising
+### rising?
 
-• `Optional` **rising**: [`TopicListDataItemInfo`](TopicListDataItemInfo.md)[]
+> **`optional`** **rising**: [`TopicListDataItemInfo`](TopicListDataItemInfo.md)[]
 
 emerging related topics
 represents the list of related topics with the biggest increase in search frequency since the last time period
 
 #### Implementation of
 
-[ITrendsTopicListDataInfo](../interfaces/ITrendsTopicListDataInfo.md).[rising](../interfaces/ITrendsTopicListDataInfo.md#rising)
+[`ITrendsTopicListDataInfo`](../interfaces/ITrendsTopicListDataInfo.md).[`rising`](../interfaces/ITrendsTopicListDataInfo.md#rising)
 
-#### Defined in
+#### Source
 
-main.ts:124097
+main.ts:124105
 
-___
+***
 
-### top
+### top?
 
-• `Optional` **top**: [`TopicListDataItemInfo`](TopicListDataItemInfo.md)[]
+> **`optional`** **top**: [`TopicListDataItemInfo`](TopicListDataItemInfo.md)[]
 
 the most popular related topics
 represents the list of the most popular related topics
 
 #### Implementation of
 
-[ITrendsTopicListDataInfo](../interfaces/ITrendsTopicListDataInfo.md).[top](../interfaces/ITrendsTopicListDataInfo.md#top)
+[`ITrendsTopicListDataInfo`](../interfaces/ITrendsTopicListDataInfo.md).[`top`](../interfaces/ITrendsTopicListDataInfo.md#top)
 
-#### Defined in
+#### Source
 
-main.ts:124094
+main.ts:124102
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:124110
+main.ts:124118
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:124136
+main.ts:124144
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`TrendsTopicListDataInfo`](TrendsTopicListDataInfo.md)
+> **`static`** **fromJS**(`data`): [`TrendsTopicListDataInfo`](TrendsTopicListDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`TrendsTopicListDataInfo`](TrendsTopicListDataInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:124129
+main.ts:124137

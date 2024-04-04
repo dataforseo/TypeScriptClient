@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageMicrodataItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPageMicrodataItem
 
 # Class: OnPageMicrodataItem
 
@@ -8,133 +12,108 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPageMicrodataItem.md#constructor)
-
-### Properties
-
-- [inspection\_info](OnPageMicrodataItem.md#inspection_info)
-- [type](OnPageMicrodataItem.md#type)
-
-### Methods
-
-- [init](OnPageMicrodataItem.md#init)
-- [toJSON](OnPageMicrodataItem.md#tojson)
-- [fromJS](OnPageMicrodataItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPageMicrodataItem(data)
 
-• **new OnPageMicrodataItem**(`data?`): [`OnPageMicrodataItem`](OnPageMicrodataItem.md)
+> **new OnPageMicrodataItem**(`data`?): [`OnPageMicrodataItem`](OnPageMicrodataItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPageMicrodataItem`](../interfaces/IOnPageMicrodataItem.md) |
+• **data?**: [`IOnPageMicrodataItem`](../interfaces/IOnPageMicrodataItem.md)
 
 #### Returns
 
 [`OnPageMicrodataItem`](OnPageMicrodataItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:156318
+main.ts:156326
 
 ## Properties
 
-### inspection\_info
+### inspection\_info?
 
-• `Optional` **inspection\_info**: [`MicrodataInspectionInfo`](MicrodataInspectionInfo.md)
+> **`optional`** **inspection\_info**: [`MicrodataInspectionInfo`](MicrodataInspectionInfo.md)
 
 information related to microdata validation
 
 #### Implementation of
 
-[IOnPageMicrodataItem](../interfaces/IOnPageMicrodataItem.md).[inspection_info](../interfaces/IOnPageMicrodataItem.md#inspection_info)
+[`IOnPageMicrodataItem`](../interfaces/IOnPageMicrodataItem.md).[`inspection_info`](../interfaces/IOnPageMicrodataItem.md#inspection_info)
 
-#### Defined in
+#### Source
 
-main.ts:156314
+main.ts:156322
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IOnPageMicrodataItem](../interfaces/IOnPageMicrodataItem.md).[type](../interfaces/IOnPageMicrodataItem.md#type)
+[`IOnPageMicrodataItem`](../interfaces/IOnPageMicrodataItem.md).[`type`](../interfaces/IOnPageMicrodataItem.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:156312
+main.ts:156320
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:156327
+main.ts:156335
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:156345
+main.ts:156353
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPageMicrodataItem`](OnPageMicrodataItem.md)
+> **`static`** **fromJS**(`data`): [`OnPageMicrodataItem`](OnPageMicrodataItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`OnPageMicrodataItem`](OnPageMicrodataItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:156338
+main.ts:156346

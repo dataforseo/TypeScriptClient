@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo
 
 # Class: DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo
 
@@ -8,55 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [item\_types](DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md#item_types)
-- [language\_code](DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md#language_code)
-- [language\_name](DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md#language_name)
-- [location\_code](DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md#location_code)
-- [location\_name](DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md#location_name)
-- [tag](DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md#tag)
-- [targets](DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md#targets)
-
-### Methods
-
-- [init](DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md#init)
-- [toJSON](DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md#tojson)
-- [fromJS](DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo(data)
 
-• **new DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo**(`data?`): [`DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo`](DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md)
+> **new DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo**(`data`?): [`DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo`](DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md) |
+• **data?**: [`IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo`](DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:104873
+main.ts:104881
 
 ## Properties
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 display results by item type
 optional field
@@ -69,17 +49,17 @@ default value:
 
 #### Implementation of
 
-[IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo](../interfaces/IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md).[item_types](../interfaces/IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md#item_types)
+[`IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md).[`item_types`](../interfaces/IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md#item_types)
 
-#### Defined in
+#### Source
 
-main.ts:104863
+main.ts:104871
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 required field if don’t specify language_name
@@ -90,17 +70,17 @@ en
 
 #### Implementation of
 
-[IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo](../interfaces/IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md).[language_code](../interfaces/IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md#language_code)
+[`IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:104854
+main.ts:104862
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 required field if don’t specify language_code
@@ -111,17 +91,17 @@ English
 
 #### Implementation of
 
-[IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo](../interfaces/IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md).[language_name](../interfaces/IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md#language_name)
+[`IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:104847
+main.ts:104855
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 required field if don’t specify location_name
@@ -133,17 +113,17 @@ example:
 
 #### Implementation of
 
-[IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo](../interfaces/IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md).[location_code](../interfaces/IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md#location_code)
+[`IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:104840
+main.ts:104848
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 required field if don’t specify location_code
@@ -155,17 +135,17 @@ United States
 
 #### Implementation of
 
-[IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo](../interfaces/IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md).[location_name](../interfaces/IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md#location_name)
+[`IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:104832
+main.ts:104840
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -175,17 +155,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo](../interfaces/IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md).[tag](../interfaces/IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md#tag)
+[`IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:104869
+main.ts:104877
 
-___
+***
 
-### targets
+### targets?
 
-• `Optional` **targets**: `string`[]
+> **`optional`** **targets**: `string`[]
 
 target domains and websites
 required field
@@ -196,68 +176,62 @@ you can set up to 1000 domains, subdomains or webpages
 
 #### Implementation of
 
-[IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo](../interfaces/IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md).[targets](../interfaces/IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md#targets)
+[`IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md).[`targets`](../interfaces/IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md#targets)
 
-#### Defined in
+#### Source
 
-main.ts:104824
+main.ts:104832
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:104882
+main.ts:104890
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:104913
+main.ts:104921
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo`](DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo`](DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo`](DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:104906
+main.ts:104914

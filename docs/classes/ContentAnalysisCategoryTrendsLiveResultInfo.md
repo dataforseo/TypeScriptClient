@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentAnalysisCategoryTrendsLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ContentAnalysisCategoryTrendsLiveResultInfo
 
 # Class: ContentAnalysisCategoryTrendsLiveResultInfo
 
@@ -8,60 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ContentAnalysisCategoryTrendsLiveResultInfo.md#constructor)
-
-### Properties
-
-- [connotation\_types](ContentAnalysisCategoryTrendsLiveResultInfo.md#connotation_types)
-- [countries](ContentAnalysisCategoryTrendsLiveResultInfo.md#countries)
-- [date](ContentAnalysisCategoryTrendsLiveResultInfo.md#date)
-- [languages](ContentAnalysisCategoryTrendsLiveResultInfo.md#languages)
-- [page\_categories](ContentAnalysisCategoryTrendsLiveResultInfo.md#page_categories)
-- [page\_types](ContentAnalysisCategoryTrendsLiveResultInfo.md#page_types)
-- [rank](ContentAnalysisCategoryTrendsLiveResultInfo.md#rank)
-- [sentiment\_connotations](ContentAnalysisCategoryTrendsLiveResultInfo.md#sentiment_connotations)
-- [text\_categories](ContentAnalysisCategoryTrendsLiveResultInfo.md#text_categories)
-- [top\_domains](ContentAnalysisCategoryTrendsLiveResultInfo.md#top_domains)
-- [total\_count](ContentAnalysisCategoryTrendsLiveResultInfo.md#total_count)
-- [type](ContentAnalysisCategoryTrendsLiveResultInfo.md#type)
-
-### Methods
-
-- [init](ContentAnalysisCategoryTrendsLiveResultInfo.md#init)
-- [toJSON](ContentAnalysisCategoryTrendsLiveResultInfo.md#tojson)
-- [fromJS](ContentAnalysisCategoryTrendsLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ContentAnalysisCategoryTrendsLiveResultInfo(data)
 
-• **new ContentAnalysisCategoryTrendsLiveResultInfo**(`data?`): [`ContentAnalysisCategoryTrendsLiveResultInfo`](ContentAnalysisCategoryTrendsLiveResultInfo.md)
+> **new ContentAnalysisCategoryTrendsLiveResultInfo**(`data`?): [`ContentAnalysisCategoryTrendsLiveResultInfo`](ContentAnalysisCategoryTrendsLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IContentAnalysisCategoryTrendsLiveResultInfo`](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md) |
+• **data?**: [`IContentAnalysisCategoryTrendsLiveResultInfo`](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md)
 
 #### Returns
 
 [`ContentAnalysisCategoryTrendsLiveResultInfo`](ContentAnalysisCategoryTrendsLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:164873
+main.ts:164881
 
 ## Properties
 
-### connotation\_types
+### connotation\_types?
 
-• `Optional` **connotation\_types**: `Object`
+> **`optional`** **connotation\_types**: `Object`
 
 connotation types
 contains types of sentiments (sentiment polarity) related to the category citation and citation count per each sentiment type
@@ -69,21 +44,21 @@ possible connotation types: "positive", "negative", "neutral"
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
 #### Implementation of
 
-[IContentAnalysisCategoryTrendsLiveResultInfo](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md).[connotation_types](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md#connotation_types)
+[`IContentAnalysisCategoryTrendsLiveResultInfo`](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md).[`connotation_types`](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md#connotation_types)
 
-#### Defined in
+#### Source
 
-main.ts:164850
+main.ts:164858
 
-___
+***
 
-### countries
+### countries?
 
-• `Optional` **countries**: `Object`
+> **`optional`** **countries**: `Object`
 
 countries
 contains countries and citation count in each country
@@ -91,37 +66,37 @@ to obtain a full list of available countries, refer to the Locations endpoint
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
 #### Implementation of
 
-[IContentAnalysisCategoryTrendsLiveResultInfo](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md).[countries](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md#countries)
+[`IContentAnalysisCategoryTrendsLiveResultInfo`](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md).[`countries`](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md#countries)
 
-#### Defined in
+#### Source
 
-main.ts:164865
+main.ts:164873
 
-___
+***
 
-### date
+### date?
 
-• `Optional` **date**: `string`
+> **`optional`** **date**: `string`
 
 date for which the data is provided
 
 #### Implementation of
 
-[IContentAnalysisCategoryTrendsLiveResultInfo](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md).[date](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md#date)
+[`IContentAnalysisCategoryTrendsLiveResultInfo`](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md).[`date`](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md#date)
 
-#### Defined in
+#### Source
 
-main.ts:164834
+main.ts:164842
 
-___
+***
 
-### languages
+### languages?
 
-• `Optional` **languages**: `Object`
+> **`optional`** **languages**: `Object`
 
 languages
 contains languages and citation count in each language
@@ -129,21 +104,21 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
 #### Implementation of
 
-[IContentAnalysisCategoryTrendsLiveResultInfo](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md).[languages](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md#languages)
+[`IContentAnalysisCategoryTrendsLiveResultInfo`](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md).[`languages`](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md#languages)
 
-#### Defined in
+#### Source
 
-main.ts:164869
+main.ts:164877
 
-___
+***
 
-### page\_categories
+### page\_categories?
 
-• `Optional` **page\_categories**: [`ContentAnalysisCategoriesInfo`](ContentAnalysisCategoriesInfo.md)[]
+> **`optional`** **page\_categories**: [`ContentAnalysisCategoriesInfo`](ContentAnalysisCategoriesInfo.md)[]
 
 page categories
 contains objects with page categories and citation count in each page category
@@ -151,55 +126,55 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Implementation of
 
-[IContentAnalysisCategoryTrendsLiveResultInfo](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md).[page_categories](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md#page_categories)
+[`IContentAnalysisCategoryTrendsLiveResultInfo`](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md).[`page_categories`](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md#page_categories)
 
-#### Defined in
+#### Source
 
-main.ts:164858
+main.ts:164866
 
-___
+***
 
-### page\_types
+### page\_types?
 
-• `Optional` **page\_types**: `Object`
+> **`optional`** **page\_types**: `Object`
 
 page types
 contains page types and citation count per each page type
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
 #### Implementation of
 
-[IContentAnalysisCategoryTrendsLiveResultInfo](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md).[page_types](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md#page_types)
+[`IContentAnalysisCategoryTrendsLiveResultInfo`](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md).[`page_types`](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md#page_types)
 
-#### Defined in
+#### Source
 
-main.ts:164861
+main.ts:164869
 
-___
+***
 
-### rank
+### rank?
 
-• `Optional` **rank**: `number`
+> **`optional`** **rank**: `number`
 
 rank of all URLs citing the keyword
 normalized sum of ranks of all URLs citing the target keyword for the given date
 
 #### Implementation of
 
-[IContentAnalysisCategoryTrendsLiveResultInfo](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md).[rank](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md#rank)
+[`IContentAnalysisCategoryTrendsLiveResultInfo`](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md).[`rank`](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md#rank)
 
-#### Defined in
+#### Source
 
-main.ts:164839
+main.ts:164847
 
-___
+***
 
-### sentiment\_connotations
+### sentiment\_connotations?
 
-• `Optional` **sentiment\_connotations**: `Object`
+> **`optional`** **sentiment\_connotations**: `Object`
 
 sentiment connotations
 contains sentiments (emotional reactions) related to the target category citation and the number of citations per each sentiment
@@ -207,21 +182,21 @@ possible connotations: "anger", "fear", "happiness", "love", "sadness", "share",
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
 #### Implementation of
 
-[IContentAnalysisCategoryTrendsLiveResultInfo](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md).[sentiment_connotations](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md#sentiment_connotations)
+[`IContentAnalysisCategoryTrendsLiveResultInfo`](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md).[`sentiment_connotations`](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md#sentiment_connotations)
 
-#### Defined in
+#### Source
 
-main.ts:164846
+main.ts:164854
 
-___
+***
 
-### text\_categories
+### text\_categories?
 
-• `Optional` **text\_categories**: [`ContentAnalysisCategoriesInfo`](ContentAnalysisCategoriesInfo.md)[]
+> **`optional`** **text\_categories**: [`ContentAnalysisCategoriesInfo`](ContentAnalysisCategoriesInfo.md)[]
 
 text categories
 contains objects with text categories and citation count in each text category
@@ -229,117 +204,111 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Implementation of
 
-[IContentAnalysisCategoryTrendsLiveResultInfo](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md).[text_categories](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md#text_categories)
+[`IContentAnalysisCategoryTrendsLiveResultInfo`](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md).[`text_categories`](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md#text_categories)
 
-#### Defined in
+#### Source
 
-main.ts:164854
+main.ts:164862
 
-___
+***
 
-### top\_domains
+### top\_domains?
 
-• `Optional` **top\_domains**: [`TopDomainInfo`](TopDomainInfo.md)[]
+> **`optional`** **top\_domains**: [`TopDomainInfo`](TopDomainInfo.md)[]
 
 top domains citing the target keyword
 contains objects with top domains citing the target category and citation count per each domain
 
 #### Implementation of
 
-[IContentAnalysisCategoryTrendsLiveResultInfo](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md).[top_domains](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md#top_domains)
+[`IContentAnalysisCategoryTrendsLiveResultInfo`](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md).[`top_domains`](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md#top_domains)
 
-#### Defined in
+#### Source
 
-main.ts:164842
+main.ts:164850
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total number of results in our database relevant to your request
 
 #### Implementation of
 
-[IContentAnalysisCategoryTrendsLiveResultInfo](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md).[total_count](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md#total_count)
+[`IContentAnalysisCategoryTrendsLiveResultInfo`](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md).[`total_count`](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md#total_count)
 
-#### Defined in
+#### Source
 
-main.ts:164836
+main.ts:164844
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IContentAnalysisCategoryTrendsLiveResultInfo](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md).[type](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md#type)
+[`IContentAnalysisCategoryTrendsLiveResultInfo`](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md).[`type`](../interfaces/IContentAnalysisCategoryTrendsLiveResultInfo.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:164832
+main.ts:164840
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:164882
+main.ts:164890
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:164952
+main.ts:164960
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ContentAnalysisCategoryTrendsLiveResultInfo`](ContentAnalysisCategoryTrendsLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`ContentAnalysisCategoryTrendsLiveResultInfo`](ContentAnalysisCategoryTrendsLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ContentAnalysisCategoryTrendsLiveResultInfo`](ContentAnalysisCategoryTrendsLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:164945
+main.ts:164953

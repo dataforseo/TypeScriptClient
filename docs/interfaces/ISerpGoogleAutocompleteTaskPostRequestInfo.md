@@ -1,37 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpGoogleAutocompleteTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ISerpGoogleAutocompleteTaskPostRequestInfo
 
 # Interface: ISerpGoogleAutocompleteTaskPostRequestInfo
 
-## Implemented by
-
-- [`SerpGoogleAutocompleteTaskPostRequestInfo`](../classes/SerpGoogleAutocompleteTaskPostRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [client](ISerpGoogleAutocompleteTaskPostRequestInfo.md#client)
-- [cursor\_pointer](ISerpGoogleAutocompleteTaskPostRequestInfo.md#cursor_pointer)
-- [keyword](ISerpGoogleAutocompleteTaskPostRequestInfo.md#keyword)
-- [language\_code](ISerpGoogleAutocompleteTaskPostRequestInfo.md#language_code)
-- [language\_name](ISerpGoogleAutocompleteTaskPostRequestInfo.md#language_name)
-- [location\_code](ISerpGoogleAutocompleteTaskPostRequestInfo.md#location_code)
-- [location\_name](ISerpGoogleAutocompleteTaskPostRequestInfo.md#location_name)
-- [pingback\_url](ISerpGoogleAutocompleteTaskPostRequestInfo.md#pingback_url)
-- [postback\_data](ISerpGoogleAutocompleteTaskPostRequestInfo.md#postback_data)
-- [postback\_url](ISerpGoogleAutocompleteTaskPostRequestInfo.md#postback_url)
-- [priority](ISerpGoogleAutocompleteTaskPostRequestInfo.md#priority)
-- [tag](ISerpGoogleAutocompleteTaskPostRequestInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### client
+### client?
 
-• `Optional` **client**: `string`
+> **`optional`** **client**: `string`
 
 search client for autocomplete
 optional field
@@ -49,15 +32,15 @@ gws-wiz-local — used in google local;
 img — used in google’s image search;
 products-cc — used in google shopping search
 
-#### Defined in
+#### Source
 
-main.ts:50734
+main.ts:50742
 
-___
+***
 
-### cursor\_pointer
+### cursor\_pointer?
 
-• `Optional` **cursor\_pointer**: `number`
+> **`optional`** **cursor\_pointer**: `number`
 
 search bar cursor pointer
 optional field
@@ -70,15 +53,15 @@ example:
 which query is s| – "cursor_pointer": 16
 which que|ry is s – "cursor_pointer": 9
 
-#### Defined in
+#### Source
 
-main.ts:50718
+main.ts:50726
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword
 required field
@@ -87,15 +70,15 @@ all %## will be decoded (plus symbol ‘+’ will be decoded to a space characte
 if you need to use the “%” symbol for your keyword, please specify it as “%25”;
 if you need to use the “+” symbol for your keyword, please specify it as “%2B”;
 
-#### Defined in
+#### Source
 
-main.ts:50672
+main.ts:50680
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -104,15 +87,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:50707
+main.ts:50715
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -121,15 +104,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:50700
+main.ts:50708
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name;
@@ -137,15 +120,15 @@ you can receive the list of available locations of the search engines with their
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:50693
+main.ts:50701
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -154,15 +137,15 @@ you can receive the list of available locations of the search engine with their 
 example:
 London,England,United Kingdom
 
-#### Defined in
+#### Source
 
-main.ts:50687
+main.ts:50695
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -174,15 +157,15 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special symbols in pingback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
-main.ts:50766
+main.ts:50774
 
-___
+***
 
-### postback\_data
+### postback\_data?
 
-• `Optional` **postback\_data**: `string`
+> **`optional`** **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -190,15 +173,15 @@ corresponds to the datatype that will be sent to your server
 possible values:
 advanced
 
-#### Defined in
+#### Source
 
-main.ts:50756
+main.ts:50764
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -210,15 +193,15 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special symbols in postback_url will be url-encoded;
 i.e., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
-main.ts:50750
+main.ts:50758
 
-___
+***
 
-### priority
+### priority?
 
-• `Optional` **priority**: `number`
+> **`optional`** **priority**: `number`
 
 task priority
 optional field
@@ -228,15 +211,15 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority;
 The cost can be calculated on the Pricing page
 
-#### Defined in
+#### Source
 
-main.ts:50680
+main.ts:50688
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -244,6 +227,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:50740
+main.ts:50748

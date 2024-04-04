@@ -1,104 +1,91 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IGoogleShoppingSponsoredCarouselMerchantSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IGoogleShoppingSponsoredCarouselMerchantSerpElementItem
 
 # Interface: IGoogleShoppingSponsoredCarouselMerchantSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md)
 
-  ↳ **`IGoogleShoppingSponsoredCarouselMerchantSerpElementItem`**
-
-## Implemented by
-
-- [`GoogleShoppingSponsoredCarouselMerchantSerpElementItem`](../classes/GoogleShoppingSponsoredCarouselMerchantSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md#items)
-- [position](IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md#position)
-- [rank\_absolute](IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md#rank_absolute)
-- [rank\_group](IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md#rank_group)
-- [title](IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md#title)
-- [xpath](IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`GoogleShoppingSponsoredCarouselElement`](../classes/GoogleShoppingSponsoredCarouselElement.md)[]
+> **`optional`** **items**: [`GoogleShoppingSponsoredCarouselElement`](../classes/GoogleShoppingSponsoredCarouselElement.md)[]
 
 items in SERP
 
-#### Defined in
+#### Source
 
-main.ts:170701
+main.ts:170709
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 alignment of the element in Google Shopping SERP
 possible values:
 left, right
 
-#### Defined in
+#### Source
 
-main.ts:170695
+main.ts:170703
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
 
-#### Defined in
+#### Source
 
-main.ts:170691
+main.ts:170699
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
-main.ts:170688
+main.ts:170696
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 product title
 
-#### Defined in
+#### Source
 
-main.ts:170699
+main.ts:170707
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 XPath of the element
 
-#### Defined in
+#### Source
 
-main.ts:170697
+main.ts:170705

@@ -1,45 +1,24 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleReviewsTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBusinessDataGoogleReviewsTaskPostRequestInfo
 
 # Interface: IBusinessDataGoogleReviewsTaskPostRequestInfo
 
-## Hierarchy
+## Extends
 
 - [`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md)
 
-  ↳ **`IBusinessDataGoogleReviewsTaskPostRequestInfo`**
-
-## Implemented by
-
-- [`BusinessDataGoogleReviewsTaskPostRequestInfo`](../classes/BusinessDataGoogleReviewsTaskPostRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [cid](IBusinessDataGoogleReviewsTaskPostRequestInfo.md#cid)
-- [depth](IBusinessDataGoogleReviewsTaskPostRequestInfo.md#depth)
-- [keyword](IBusinessDataGoogleReviewsTaskPostRequestInfo.md#keyword)
-- [language\_code](IBusinessDataGoogleReviewsTaskPostRequestInfo.md#language_code)
-- [language\_name](IBusinessDataGoogleReviewsTaskPostRequestInfo.md#language_name)
-- [location\_code](IBusinessDataGoogleReviewsTaskPostRequestInfo.md#location_code)
-- [location\_coordinate](IBusinessDataGoogleReviewsTaskPostRequestInfo.md#location_coordinate)
-- [location\_name](IBusinessDataGoogleReviewsTaskPostRequestInfo.md#location_name)
-- [pingback\_url](IBusinessDataGoogleReviewsTaskPostRequestInfo.md#pingback_url)
-- [place\_id](IBusinessDataGoogleReviewsTaskPostRequestInfo.md#place_id)
-- [postback\_url](IBusinessDataGoogleReviewsTaskPostRequestInfo.md#postback_url)
-- [priority](IBusinessDataGoogleReviewsTaskPostRequestInfo.md#priority)
-- [sort\_by](IBusinessDataGoogleReviewsTaskPostRequestInfo.md#sort_by)
-- [tag](IBusinessDataGoogleReviewsTaskPostRequestInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### cid
+### cid?
 
-• `Optional` **cid**: `string`
+> **`optional`** **cid**: `string`
 
 unique, google-defined id of the business entity
 required field if you don’t specify keyword or place_id
@@ -47,15 +26,15 @@ example:
 194604053573767737
 learn more about the identifier in this help center article
 
-#### Defined in
+#### Source
 
 main.ts:203297
 
-___
+***
 
-### depth
+### depth?
 
-• `Optional` **depth**: `number`
+> **`optional`** **depth**: `number`
 
 parsing depth
 optional field
@@ -64,15 +43,15 @@ we strongly recommend setting the parsing depth in the multiples of ten, because
 default value: 10
 maximum value: 4490
 
-#### Defined in
+#### Source
 
 main.ts:203310
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword
 required field
@@ -92,17 +71,17 @@ learn more about the cid and place_id identifiers in this help center article
 
 #### Inherited from
 
-[IBusinessDataTaskRequestInfo](IBusinessDataTaskRequestInfo.md).[keyword](IBusinessDataTaskRequestInfo.md#keyword)
+[`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md).[`keyword`](IBusinessDataTaskRequestInfo.md#keyword)
 
-#### Defined in
+#### Source
 
 main.ts:188709
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -113,17 +92,17 @@ en
 
 #### Inherited from
 
-[IBusinessDataTaskRequestInfo](IBusinessDataTaskRequestInfo.md).[language_code](IBusinessDataTaskRequestInfo.md#language_code)
+[`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md).[`language_code`](IBusinessDataTaskRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
 main.ts:188754
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -134,17 +113,17 @@ English
 
 #### Inherited from
 
-[IBusinessDataTaskRequestInfo](IBusinessDataTaskRequestInfo.md).[language_name](IBusinessDataTaskRequestInfo.md#language_name)
+[`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md).[`language_name`](IBusinessDataTaskRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
 main.ts:188747
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -155,17 +134,17 @@ example:
 
 #### Inherited from
 
-[IBusinessDataTaskRequestInfo](IBusinessDataTaskRequestInfo.md).[location_code](IBusinessDataTaskRequestInfo.md#location_code)
+[`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md).[`location_code`](IBusinessDataTaskRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
 main.ts:188731
 
-___
+***
 
-### location\_coordinate
+### location\_coordinate?
 
-• `Optional` **location\_coordinate**: `string`
+> **`optional`** **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -178,17 +157,17 @@ example:
 
 #### Inherited from
 
-[IBusinessDataTaskRequestInfo](IBusinessDataTaskRequestInfo.md).[location_coordinate](IBusinessDataTaskRequestInfo.md#location_coordinate)
+[`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md).[`location_coordinate`](IBusinessDataTaskRequestInfo.md#location_coordinate)
 
-#### Defined in
+#### Source
 
 main.ts:188740
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -199,17 +178,17 @@ London,England,United Kingdom
 
 #### Inherited from
 
-[IBusinessDataTaskRequestInfo](IBusinessDataTaskRequestInfo.md).[location_name](IBusinessDataTaskRequestInfo.md#location_name)
+[`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md).[`location_name`](IBusinessDataTaskRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
 main.ts:188724
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -223,17 +202,17 @@ i.a., the # symbol will be encoded into %23
 
 #### Inherited from
 
-[IBusinessDataTaskRequestInfo](IBusinessDataTaskRequestInfo.md).[pingback_url](IBusinessDataTaskRequestInfo.md#pingback_url)
+[`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md).[`pingback_url`](IBusinessDataTaskRequestInfo.md#pingback_url)
 
-#### Defined in
+#### Source
 
 main.ts:188780
 
-___
+***
 
-### place\_id
+### place\_id?
 
-• `Optional` **place\_id**: `string`
+> **`optional`** **place\_id**: `string`
 
 identifier of the business entity in Google Maps
 required field if you don’t specify keyword or cid
@@ -241,15 +220,15 @@ example:
 GhIJQWDl0CIeQUARxks3icF8U8A
 learn more about the identifier in this help center article
 
-#### Defined in
+#### Source
 
 main.ts:203303
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -263,17 +242,17 @@ i.a., the # symbol will be encoded into %23
 
 #### Inherited from
 
-[IBusinessDataTaskRequestInfo](IBusinessDataTaskRequestInfo.md).[postback_url](IBusinessDataTaskRequestInfo.md#postback_url)
+[`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md).[`postback_url`](IBusinessDataTaskRequestInfo.md#postback_url)
 
-#### Defined in
+#### Source
 
 main.ts:188770
 
-___
+***
 
-### priority
+### priority?
 
-• `Optional` **priority**: `number`
+> **`optional`** **priority**: `number`
 
 task priority
 optional field
@@ -285,17 +264,17 @@ The cost can be calculated on the Pricing page.
 
 #### Inherited from
 
-[IBusinessDataTaskRequestInfo](IBusinessDataTaskRequestInfo.md).[priority](IBusinessDataTaskRequestInfo.md#priority)
+[`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md).[`priority`](IBusinessDataTaskRequestInfo.md#priority)
 
-#### Defined in
+#### Source
 
 main.ts:188717
 
-___
+***
 
-### sort\_by
+### sort\_by?
 
-• `Optional` **sort\_by**: `string`
+> **`optional`** **sort\_by**: `string`
 
 results sorting parameters
 optional field
@@ -307,15 +286,15 @@ lowest_rating – sort by lowest rating
 relevant – sort by relevance
 default value: relevant
 
-#### Defined in
+#### Source
 
 main.ts:203320
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -325,8 +304,8 @@ you will find the specified tag value in the data object of the response
 
 #### Inherited from
 
-[IBusinessDataTaskRequestInfo](IBusinessDataTaskRequestInfo.md).[tag](IBusinessDataTaskRequestInfo.md#tag)
+[`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md).[`tag`](IBusinessDataTaskRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
 main.ts:188760

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentGenerationGenerateTextLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ContentGenerationGenerateTextLiveRequestInfo
 
 # Class: ContentGenerationGenerateTextLiveRequestInfo
 
@@ -8,57 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ContentGenerationGenerateTextLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [creativity\_index](ContentGenerationGenerateTextLiveRequestInfo.md#creativity_index)
-- [description](ContentGenerationGenerateTextLiveRequestInfo.md#description)
-- [include\_conclusion](ContentGenerationGenerateTextLiveRequestInfo.md#include_conclusion)
-- [meta\_keywords](ContentGenerationGenerateTextLiveRequestInfo.md#meta_keywords)
-- [sub\_topics](ContentGenerationGenerateTextLiveRequestInfo.md#sub_topics)
-- [supplement\_token](ContentGenerationGenerateTextLiveRequestInfo.md#supplement_token)
-- [tag](ContentGenerationGenerateTextLiveRequestInfo.md#tag)
-- [topic](ContentGenerationGenerateTextLiveRequestInfo.md#topic)
-- [word\_count](ContentGenerationGenerateTextLiveRequestInfo.md#word_count)
-
-### Methods
-
-- [init](ContentGenerationGenerateTextLiveRequestInfo.md#init)
-- [toJSON](ContentGenerationGenerateTextLiveRequestInfo.md#tojson)
-- [fromJS](ContentGenerationGenerateTextLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ContentGenerationGenerateTextLiveRequestInfo(data)
 
-• **new ContentGenerationGenerateTextLiveRequestInfo**(`data?`): [`ContentGenerationGenerateTextLiveRequestInfo`](ContentGenerationGenerateTextLiveRequestInfo.md)
+> **new ContentGenerationGenerateTextLiveRequestInfo**(`data`?): [`ContentGenerationGenerateTextLiveRequestInfo`](ContentGenerationGenerateTextLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IContentGenerationGenerateTextLiveRequestInfo`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md) |
+• **data?**: [`IContentGenerationGenerateTextLiveRequestInfo`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md)
 
 #### Returns
 
 [`ContentGenerationGenerateTextLiveRequestInfo`](ContentGenerationGenerateTextLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:165684
+main.ts:165692
 
 ## Properties
 
-### creativity\_index
+### creativity\_index?
 
-• `Optional` **creativity\_index**: `number`
+> **`optional`** **creativity\_index**: `number`
 
 creativity of content generation
 optional field
@@ -69,17 +47,17 @@ learn more about this parameter on our help center
 
 #### Implementation of
 
-[IContentGenerationGenerateTextLiveRequestInfo](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md).[creativity_index](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md#creativity_index)
+[`IContentGenerationGenerateTextLiveRequestInfo`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md).[`creativity_index`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md#creativity_index)
 
-#### Defined in
+#### Source
 
-main.ts:165664
+main.ts:165672
 
-___
+***
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 meta description of the content to generate
 optional field
@@ -88,17 +66,17 @@ learn more about this parameter on our help center
 
 #### Implementation of
 
-[IContentGenerationGenerateTextLiveRequestInfo](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md).[description](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md#description)
+[`IContentGenerationGenerateTextLiveRequestInfo`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md).[`description`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md#description)
 
-#### Defined in
+#### Source
 
-main.ts:165651
+main.ts:165659
 
-___
+***
 
-### include\_conclusion
+### include\_conclusion?
 
-• `Optional` **include\_conclusion**: `boolean`
+> **`optional`** **include\_conclusion**: `boolean`
 
 include conclusion in generated text
 optional field
@@ -106,17 +84,17 @@ if set to true, generated content will include a logical conclusion
 
 #### Implementation of
 
-[IContentGenerationGenerateTextLiveRequestInfo](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md).[include_conclusion](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md#include_conclusion)
+[`IContentGenerationGenerateTextLiveRequestInfo`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md).[`include_conclusion`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md#include_conclusion)
 
-#### Defined in
+#### Source
 
-main.ts:165668
+main.ts:165676
 
-___
+***
 
-### meta\_keywords
+### meta\_keywords?
 
-• `Optional` **meta\_keywords**: `string`[]
+> **`optional`** **meta\_keywords**: `string`[]
 
 keywords for the content to generate
 optional field
@@ -126,17 +104,17 @@ example: "meta_keywords": ["iPhone","sell","CEO"]
 
 #### Implementation of
 
-[IContentGenerationGenerateTextLiveRequestInfo](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md).[meta_keywords](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md#meta_keywords)
+[`IContentGenerationGenerateTextLiveRequestInfo`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md).[`meta_keywords`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md#meta_keywords)
 
-#### Defined in
+#### Source
 
-main.ts:165657
+main.ts:165665
 
-___
+***
 
-### sub\_topics
+### sub\_topics?
 
-• `Optional` **sub\_topics**: `string`[]
+> **`optional`** **sub\_topics**: `string`[]
 
 secondary topics of the content to generate
 optional field
@@ -146,17 +124,17 @@ example: "sub_topics": ["Apple","Pixar","Amazing Products"]
 
 #### Implementation of
 
-[IContentGenerationGenerateTextLiveRequestInfo](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md).[sub_topics](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md#sub_topics)
+[`IContentGenerationGenerateTextLiveRequestInfo`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md).[`sub_topics`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md#sub_topics)
 
-#### Defined in
+#### Source
 
-main.ts:165646
+main.ts:165654
 
-___
+***
 
-### supplement\_token
+### supplement\_token?
 
-• `Optional` **supplement\_token**: `string`
+> **`optional`** **supplement\_token**: `string`
 
 token for generating subsequent results
 optional field
@@ -166,17 +144,17 @@ supplement_token values are unique for each subsequent task
 
 #### Implementation of
 
-[IContentGenerationGenerateTextLiveRequestInfo](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md).[supplement_token](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md#supplement_token)
+[`IContentGenerationGenerateTextLiveRequestInfo`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md).[`supplement_token`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md#supplement_token)
 
-#### Defined in
+#### Source
 
-main.ts:165674
+main.ts:165682
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -186,17 +164,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IContentGenerationGenerateTextLiveRequestInfo](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md).[tag](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md#tag)
+[`IContentGenerationGenerateTextLiveRequestInfo`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md).[`tag`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:165680
+main.ts:165688
 
-___
+***
 
-### topic
+### topic?
 
-• `Optional` **topic**: `string`
+> **`optional`** **topic**: `string`
 
 main topic of the content to generate
 required field
@@ -205,17 +183,17 @@ can contain from 1 to 50 tokens
 
 #### Implementation of
 
-[IContentGenerationGenerateTextLiveRequestInfo](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md).[topic](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md#topic)
+[`IContentGenerationGenerateTextLiveRequestInfo`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md).[`topic`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md#topic)
 
-#### Defined in
+#### Source
 
-main.ts:165635
+main.ts:165643
 
-___
+***
 
-### word\_count
+### word\_count?
 
-• `Optional` **word\_count**: `number`
+> **`optional`** **word\_count**: `number`
 
 number of words in content
 required field
@@ -224,68 +202,62 @@ can take values from 1 to 1000
 
 #### Implementation of
 
-[IContentGenerationGenerateTextLiveRequestInfo](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md).[word_count](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md#word_count)
+[`IContentGenerationGenerateTextLiveRequestInfo`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md).[`word_count`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md#word_count)
 
-#### Defined in
+#### Source
 
-main.ts:165640
+main.ts:165648
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:165693
+main.ts:165701
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:165726
+main.ts:165734
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ContentGenerationGenerateTextLiveRequestInfo`](ContentGenerationGenerateTextLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`ContentGenerationGenerateTextLiveRequestInfo`](ContentGenerationGenerateTextLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ContentGenerationGenerateTextLiveRequestInfo`](ContentGenerationGenerateTextLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:165719
+main.ts:165727

@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / GoogleShoppingSponsoredCarouselMerchantSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / GoogleShoppingSponsoredCarouselMerchantSerpElementItem
 
 # Class: GoogleShoppingSponsoredCarouselMerchantSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)
-
-  ↳ **`GoogleShoppingSponsoredCarouselMerchantSerpElementItem`**
 
 ## Implements
 
@@ -14,41 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](GoogleShoppingSponsoredCarouselMerchantSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](GoogleShoppingSponsoredCarouselMerchantSerpElementItem.md#_discriminator)
-- [items](GoogleShoppingSponsoredCarouselMerchantSerpElementItem.md#items)
-- [position](GoogleShoppingSponsoredCarouselMerchantSerpElementItem.md#position)
-- [rank\_absolute](GoogleShoppingSponsoredCarouselMerchantSerpElementItem.md#rank_absolute)
-- [rank\_group](GoogleShoppingSponsoredCarouselMerchantSerpElementItem.md#rank_group)
-- [title](GoogleShoppingSponsoredCarouselMerchantSerpElementItem.md#title)
-- [xpath](GoogleShoppingSponsoredCarouselMerchantSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](GoogleShoppingSponsoredCarouselMerchantSerpElementItem.md#init)
-- [toJSON](GoogleShoppingSponsoredCarouselMerchantSerpElementItem.md#tojson)
-- [fromJS](GoogleShoppingSponsoredCarouselMerchantSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new GoogleShoppingSponsoredCarouselMerchantSerpElementItem(data)
 
-• **new GoogleShoppingSponsoredCarouselMerchantSerpElementItem**(`data?`): [`GoogleShoppingSponsoredCarouselMerchantSerpElementItem`](GoogleShoppingSponsoredCarouselMerchantSerpElementItem.md)
+> **new GoogleShoppingSponsoredCarouselMerchantSerpElementItem**(`data`?): [`GoogleShoppingSponsoredCarouselMerchantSerpElementItem`](GoogleShoppingSponsoredCarouselMerchantSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IGoogleShoppingSponsoredCarouselMerchantSerpElementItem`](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md) |
+• **data?**: [`IGoogleShoppingSponsoredCarouselMerchantSerpElementItem`](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md)
 
 #### Returns
 
@@ -56,47 +34,47 @@
 
 #### Overrides
 
-[BaseMerchantSerpElementItem](BaseMerchantSerpElementItem.md).[constructor](BaseMerchantSerpElementItem.md#constructor)
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`constructor`](BaseMerchantSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:170632
+main.ts:170640
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseMerchantSerpElementItem](BaseMerchantSerpElementItem.md).[_discriminator](BaseMerchantSerpElementItem.md#_discriminator)
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`_discriminator`](BaseMerchantSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:20444
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`GoogleShoppingSponsoredCarouselElement`](GoogleShoppingSponsoredCarouselElement.md)[]
+> **`optional`** **items**: [`GoogleShoppingSponsoredCarouselElement`](GoogleShoppingSponsoredCarouselElement.md)[]
 
 items in SERP
 
 #### Implementation of
 
-[IGoogleShoppingSponsoredCarouselMerchantSerpElementItem](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md).[items](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md#items)
+[`IGoogleShoppingSponsoredCarouselMerchantSerpElementItem`](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md).[`items`](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:170628
+main.ts:170636
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 alignment of the element in Google Shopping SERP
 possible values:
@@ -104,89 +82,87 @@ left, right
 
 #### Implementation of
 
-[IGoogleShoppingSponsoredCarouselMerchantSerpElementItem](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md).[position](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md#position)
+[`IGoogleShoppingSponsoredCarouselMerchantSerpElementItem`](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md).[`position`](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
-main.ts:170622
+main.ts:170630
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
 
 #### Implementation of
 
-[IGoogleShoppingSponsoredCarouselMerchantSerpElementItem](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md).[rank_absolute](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md#rank_absolute)
+[`IGoogleShoppingSponsoredCarouselMerchantSerpElementItem`](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md).[`rank_absolute`](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:170618
+main.ts:170626
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
-[IGoogleShoppingSponsoredCarouselMerchantSerpElementItem](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md).[rank_group](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md#rank_group)
+[`IGoogleShoppingSponsoredCarouselMerchantSerpElementItem`](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md).[`rank_group`](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
-main.ts:170615
+main.ts:170623
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 product title
 
 #### Implementation of
 
-[IGoogleShoppingSponsoredCarouselMerchantSerpElementItem](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md).[title](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md#title)
+[`IGoogleShoppingSponsoredCarouselMerchantSerpElementItem`](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md).[`title`](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:170626
+main.ts:170634
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 XPath of the element
 
 #### Implementation of
 
-[IGoogleShoppingSponsoredCarouselMerchantSerpElementItem](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md).[xpath](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md#xpath)
+[`IGoogleShoppingSponsoredCarouselMerchantSerpElementItem`](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md).[`xpath`](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
-main.ts:170624
+main.ts:170632
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -194,23 +170,21 @@ main.ts:170624
 
 #### Overrides
 
-[BaseMerchantSerpElementItem](BaseMerchantSerpElementItem.md).[init](BaseMerchantSerpElementItem.md#init)
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`init`](BaseMerchantSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:170637
+main.ts:170645
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -218,23 +192,21 @@ ___
 
 #### Overrides
 
-[BaseMerchantSerpElementItem](BaseMerchantSerpElementItem.md).[toJSON](BaseMerchantSerpElementItem.md#tojson)
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`toJSON`](BaseMerchantSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:170664
+main.ts:170672
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`GoogleShoppingSponsoredCarouselMerchantSerpElementItem`](GoogleShoppingSponsoredCarouselMerchantSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`GoogleShoppingSponsoredCarouselMerchantSerpElementItem`](GoogleShoppingSponsoredCarouselMerchantSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -242,8 +214,8 @@ ___
 
 #### Overrides
 
-[BaseMerchantSerpElementItem](BaseMerchantSerpElementItem.md).[fromJS](BaseMerchantSerpElementItem.md#fromjs)
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`fromJS`](BaseMerchantSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:170657
+main.ts:170665

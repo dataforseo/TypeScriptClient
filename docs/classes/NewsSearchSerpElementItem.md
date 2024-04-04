@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / NewsSearchSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / NewsSearchSerpElementItem
 
 # Class: NewsSearchSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-  ↳ **`NewsSearchSerpElementItem`**
 
 ## Implements
 
@@ -14,46 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](NewsSearchSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](NewsSearchSerpElementItem.md#_discriminator)
-- [domain](NewsSearchSerpElementItem.md#domain)
-- [image\_url](NewsSearchSerpElementItem.md#image_url)
-- [rank\_absolute](NewsSearchSerpElementItem.md#rank_absolute)
-- [rank\_group](NewsSearchSerpElementItem.md#rank_group)
-- [rectangle](NewsSearchSerpElementItem.md#rectangle)
-- [snippet](NewsSearchSerpElementItem.md#snippet)
-- [time\_published](NewsSearchSerpElementItem.md#time_published)
-- [timestamp](NewsSearchSerpElementItem.md#timestamp)
-- [title](NewsSearchSerpElementItem.md#title)
-- [url](NewsSearchSerpElementItem.md#url)
-- [xpath](NewsSearchSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](NewsSearchSerpElementItem.md#init)
-- [toJSON](NewsSearchSerpElementItem.md#tojson)
-- [fromJS](NewsSearchSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new NewsSearchSerpElementItem(data)
 
-• **new NewsSearchSerpElementItem**(`data?`): [`NewsSearchSerpElementItem`](NewsSearchSerpElementItem.md)
+> **new NewsSearchSerpElementItem**(`data`?): [`NewsSearchSerpElementItem`](NewsSearchSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`INewsSearchSerpElementItem`](../interfaces/INewsSearchSerpElementItem.md) |
+• **data?**: [`INewsSearchSerpElementItem`](../interfaces/INewsSearchSerpElementItem.md)
 
 #### Returns
 
@@ -61,81 +34,81 @@
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[constructor](BaseSerpElementItem.md#constructor)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:43274
+main.ts:43280
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[_discriminator](BaseSerpElementItem.md#_discriminator)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:19788
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain name of the result in SERP
 
 #### Implementation of
 
-[INewsSearchSerpElementItem](../interfaces/INewsSearchSerpElementItem.md).[domain](../interfaces/INewsSearchSerpElementItem.md#domain)
+[`INewsSearchSerpElementItem`](../interfaces/INewsSearchSerpElementItem.md).[`domain`](../interfaces/INewsSearchSerpElementItem.md#domain)
 
-#### Defined in
+#### Source
 
-main.ts:43250
+main.ts:43256
 
-___
+***
 
-### image\_url
+### image\_url?
 
-• `Optional` **image\_url**: `string`
+> **`optional`** **image\_url**: `string`
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
 
 #### Implementation of
 
-[INewsSearchSerpElementItem](../interfaces/INewsSearchSerpElementItem.md).[image_url](../interfaces/INewsSearchSerpElementItem.md#image_url)
+[`INewsSearchSerpElementItem`](../interfaces/INewsSearchSerpElementItem.md).[`image_url`](../interfaces/INewsSearchSerpElementItem.md#image_url)
 
-#### Defined in
+#### Source
 
-main.ts:43257
+main.ts:43263
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
 #### Implementation of
 
-[INewsSearchSerpElementItem](../interfaces/INewsSearchSerpElementItem.md).[rank_absolute](../interfaces/INewsSearchSerpElementItem.md#rank_absolute)
+[`INewsSearchSerpElementItem`](../interfaces/INewsSearchSerpElementItem.md).[`rank_absolute`](../interfaces/INewsSearchSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:43246
+main.ts:43252
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -143,17 +116,17 @@ positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
-[INewsSearchSerpElementItem](../interfaces/INewsSearchSerpElementItem.md).[rank_group](../interfaces/INewsSearchSerpElementItem.md#rank_group)
+[`INewsSearchSerpElementItem`](../interfaces/INewsSearchSerpElementItem.md).[`rank_group`](../interfaces/INewsSearchSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
-main.ts:43243
+main.ts:43249
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -161,49 +134,49 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Implementation of
 
-[INewsSearchSerpElementItem](../interfaces/INewsSearchSerpElementItem.md).[rectangle](../interfaces/INewsSearchSerpElementItem.md#rectangle)
+[`INewsSearchSerpElementItem`](../interfaces/INewsSearchSerpElementItem.md).[`rectangle`](../interfaces/INewsSearchSerpElementItem.md#rectangle)
 
-#### Defined in
+#### Source
 
-main.ts:43270
+main.ts:43276
 
-___
+***
 
-### snippet
+### snippet?
 
-• `Optional` **snippet**: `string`
+> **`optional`** **snippet**: `string`
 
 snippet of the result in SERP
 
 #### Implementation of
 
-[INewsSearchSerpElementItem](../interfaces/INewsSearchSerpElementItem.md).[snippet](../interfaces/INewsSearchSerpElementItem.md#snippet)
+[`INewsSearchSerpElementItem`](../interfaces/INewsSearchSerpElementItem.md).[`snippet`](../interfaces/INewsSearchSerpElementItem.md#snippet)
 
-#### Defined in
+#### Source
 
-main.ts:43259
+main.ts:43265
 
-___
+***
 
-### time\_published
+### time\_published?
 
-• `Optional` **time\_published**: `string`
+> **`optional`** **time\_published**: `string`
 
 indicates the time the result was published
 
 #### Implementation of
 
-[INewsSearchSerpElementItem](../interfaces/INewsSearchSerpElementItem.md).[time_published](../interfaces/INewsSearchSerpElementItem.md#time_published)
+[`INewsSearchSerpElementItem`](../interfaces/INewsSearchSerpElementItem.md).[`time_published`](../interfaces/INewsSearchSerpElementItem.md#time_published)
 
-#### Defined in
+#### Source
 
-main.ts:43261
+main.ts:43267
 
-___
+***
 
-### timestamp
+### timestamp?
 
-• `Optional` **timestamp**: `string`
+> **`optional`** **timestamp**: `string`
 
 date and time when the news was published
 in the format “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”
@@ -212,71 +185,69 @@ example:
 
 #### Implementation of
 
-[INewsSearchSerpElementItem](../interfaces/INewsSearchSerpElementItem.md).[timestamp](../interfaces/INewsSearchSerpElementItem.md#timestamp)
+[`INewsSearchSerpElementItem`](../interfaces/INewsSearchSerpElementItem.md).[`timestamp`](../interfaces/INewsSearchSerpElementItem.md#timestamp)
 
-#### Defined in
+#### Source
 
-main.ts:43266
+main.ts:43272
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the result in SERP
 
 #### Implementation of
 
-[INewsSearchSerpElementItem](../interfaces/INewsSearchSerpElementItem.md).[title](../interfaces/INewsSearchSerpElementItem.md#title)
+[`INewsSearchSerpElementItem`](../interfaces/INewsSearchSerpElementItem.md).[`title`](../interfaces/INewsSearchSerpElementItem.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:43252
+main.ts:43258
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL of the result in SERP
 
 #### Implementation of
 
-[INewsSearchSerpElementItem](../interfaces/INewsSearchSerpElementItem.md).[url](../interfaces/INewsSearchSerpElementItem.md#url)
+[`INewsSearchSerpElementItem`](../interfaces/INewsSearchSerpElementItem.md).[`url`](../interfaces/INewsSearchSerpElementItem.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:43254
+main.ts:43260
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[INewsSearchSerpElementItem](../interfaces/INewsSearchSerpElementItem.md).[xpath](../interfaces/INewsSearchSerpElementItem.md#xpath)
+[`INewsSearchSerpElementItem`](../interfaces/INewsSearchSerpElementItem.md).[`xpath`](../interfaces/INewsSearchSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
-main.ts:43248
+main.ts:43254
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -284,23 +255,21 @@ main.ts:43248
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[init](BaseSerpElementItem.md#init)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:43279
+main.ts:43285
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -308,23 +277,21 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[toJSON](BaseSerpElementItem.md#tojson)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:43307
+main.ts:43313
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`NewsSearchSerpElementItem`](NewsSearchSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`NewsSearchSerpElementItem`](NewsSearchSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -332,8 +299,8 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[fromJS](BaseSerpElementItem.md#fromjs)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:43300
+main.ts:43306

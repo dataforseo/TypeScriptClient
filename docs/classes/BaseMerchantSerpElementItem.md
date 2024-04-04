@@ -1,26 +1,21 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BaseMerchantSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BaseMerchantSerpElementItem
 
 # Class: BaseMerchantSerpElementItem
 
-## Hierarchy
+## Extended by
 
-- **`BaseMerchantSerpElementItem`**
-
-  ↳ [`GoogleShoppingSerpMerchantSerpElementItem`](GoogleShoppingSerpMerchantSerpElementItem.md)
-
-  ↳ [`GoogleShoppingPaidMerchantSerpElementItem`](GoogleShoppingPaidMerchantSerpElementItem.md)
-
-  ↳ [`GoogleShoppingSponsoredCarouselMerchantSerpElementItem`](GoogleShoppingSponsoredCarouselMerchantSerpElementItem.md)
-
-  ↳ [`RelatedSearchesMerchantSerpElementItem`](RelatedSearchesMerchantSerpElementItem.md)
-
-  ↳ [`ShopsListMerchantSerpElementItem`](ShopsListMerchantSerpElementItem.md)
-
-  ↳ [`BuyOnGoogleMerchantSerpElementItem`](BuyOnGoogleMerchantSerpElementItem.md)
-
-  ↳ [`ShoppingSpecificationMerchantSerpElementItem`](ShoppingSpecificationMerchantSerpElementItem.md)
-
-  ↳ [`ProductInfoElementMerchantSerpElementItem`](ProductInfoElementMerchantSerpElementItem.md)
+- [`GoogleShoppingSerpMerchantSerpElementItem`](GoogleShoppingSerpMerchantSerpElementItem.md)
+- [`GoogleShoppingPaidMerchantSerpElementItem`](GoogleShoppingPaidMerchantSerpElementItem.md)
+- [`GoogleShoppingSponsoredCarouselMerchantSerpElementItem`](GoogleShoppingSponsoredCarouselMerchantSerpElementItem.md)
+- [`RelatedSearchesMerchantSerpElementItem`](RelatedSearchesMerchantSerpElementItem.md)
+- [`ShopsListMerchantSerpElementItem`](ShopsListMerchantSerpElementItem.md)
+- [`BuyOnGoogleMerchantSerpElementItem`](BuyOnGoogleMerchantSerpElementItem.md)
+- [`ShoppingSpecificationMerchantSerpElementItem`](ShoppingSpecificationMerchantSerpElementItem.md)
+- [`ProductInfoElementMerchantSerpElementItem`](ProductInfoElementMerchantSerpElementItem.md)
 
 ## Implements
 
@@ -28,41 +23,23 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BaseMerchantSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](BaseMerchantSerpElementItem.md#_discriminator)
-
-### Methods
-
-- [init](BaseMerchantSerpElementItem.md#init)
-- [toJSON](BaseMerchantSerpElementItem.md#tojson)
-- [fromJS](BaseMerchantSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BaseMerchantSerpElementItem(data)
 
-• **new BaseMerchantSerpElementItem**(`data?`): [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)
+> **new BaseMerchantSerpElementItem**(`data`?): [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBaseMerchantSerpElementItem`](../interfaces/IBaseMerchantSerpElementItem.md) |
+• **data?**: [`IBaseMerchantSerpElementItem`](../interfaces/IBaseMerchantSerpElementItem.md)
 
 #### Returns
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)
 
-#### Defined in
+#### Source
 
 main.ts:20446
 
@@ -70,68 +47,62 @@ main.ts:20446
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
-#### Defined in
+#### Source
 
 main.ts:20444
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:20456
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:20512
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)
 
-#### Defined in
+#### Source
 
 main.ts:20465

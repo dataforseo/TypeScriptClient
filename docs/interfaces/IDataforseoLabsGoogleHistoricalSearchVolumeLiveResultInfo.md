@@ -1,81 +1,71 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo
 
-## Implemented by
-
-- [`DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo`](../classes/DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md#items)
-- [items\_count](IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md#items_count)
-- [language\_code](IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md#language_code)
-- [location\_code](IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md#location_code)
-- [se\_type](IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md#se_type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`DataforseoLabsGoogleHistoricalSearchVolumeLiveItem`](../classes/DataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsGoogleHistoricalSearchVolumeLiveItem`](../classes/DataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md)[]
 
 contains keywords and related data
 
-#### Defined in
+#### Source
 
-main.ts:84476
+main.ts:84484
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Defined in
+#### Source
 
-main.ts:84474
+main.ts:84482
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:84472
+main.ts:84480
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:84470
+main.ts:84478
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:84468
+main.ts:84476

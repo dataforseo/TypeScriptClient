@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksBulkRanksLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BacklinksBulkRanksLiveResultInfo
 
 # Class: BacklinksBulkRanksLiveResultInfo
 
@@ -8,133 +12,108 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BacklinksBulkRanksLiveResultInfo.md#constructor)
-
-### Properties
-
-- [items](BacklinksBulkRanksLiveResultInfo.md#items)
-- [items\_count](BacklinksBulkRanksLiveResultInfo.md#items_count)
-
-### Methods
-
-- [init](BacklinksBulkRanksLiveResultInfo.md#init)
-- [toJSON](BacklinksBulkRanksLiveResultInfo.md#tojson)
-- [fromJS](BacklinksBulkRanksLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BacklinksBulkRanksLiveResultInfo(data)
 
-• **new BacklinksBulkRanksLiveResultInfo**(`data?`): [`BacklinksBulkRanksLiveResultInfo`](BacklinksBulkRanksLiveResultInfo.md)
+> **new BacklinksBulkRanksLiveResultInfo**(`data`?): [`BacklinksBulkRanksLiveResultInfo`](BacklinksBulkRanksLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBacklinksBulkRanksLiveResultInfo`](../interfaces/IBacklinksBulkRanksLiveResultInfo.md) |
+• **data?**: [`IBacklinksBulkRanksLiveResultInfo`](../interfaces/IBacklinksBulkRanksLiveResultInfo.md)
 
 #### Returns
 
 [`BacklinksBulkRanksLiveResultInfo`](BacklinksBulkRanksLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:144898
+main.ts:144906
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`BacklinksBulkRanksLiveItem`](BacklinksBulkRanksLiveItem.md)[]
+> **`optional`** **items**: [`BacklinksBulkRanksLiveItem`](BacklinksBulkRanksLiveItem.md)[]
 
 contains relevant backlinks and referring domains data
 
 #### Implementation of
 
-[IBacklinksBulkRanksLiveResultInfo](../interfaces/IBacklinksBulkRanksLiveResultInfo.md).[items](../interfaces/IBacklinksBulkRanksLiveResultInfo.md#items)
+[`IBacklinksBulkRanksLiveResultInfo`](../interfaces/IBacklinksBulkRanksLiveResultInfo.md).[`items`](../interfaces/IBacklinksBulkRanksLiveResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:144894
+main.ts:144902
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[IBacklinksBulkRanksLiveResultInfo](../interfaces/IBacklinksBulkRanksLiveResultInfo.md).[items_count](../interfaces/IBacklinksBulkRanksLiveResultInfo.md#items_count)
+[`IBacklinksBulkRanksLiveResultInfo`](../interfaces/IBacklinksBulkRanksLiveResultInfo.md).[`items_count`](../interfaces/IBacklinksBulkRanksLiveResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:144892
+main.ts:144900
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:144907
+main.ts:144915
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:144929
+main.ts:144937
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BacklinksBulkRanksLiveResultInfo`](BacklinksBulkRanksLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`BacklinksBulkRanksLiveResultInfo`](BacklinksBulkRanksLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BacklinksBulkRanksLiveResultInfo`](BacklinksBulkRanksLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:144922
+main.ts:144930

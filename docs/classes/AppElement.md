@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppElement
 
 # Class: AppElement
 
@@ -8,184 +12,156 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppElement.md#constructor)
-
-### Properties
-
-- [description](AppElement.md#description)
-- [price](AppElement.md#price)
-- [title](AppElement.md#title)
-- [type](AppElement.md#type)
-- [url](AppElement.md#url)
-
-### Methods
-
-- [init](AppElement.md#init)
-- [toJSON](AppElement.md#tojson)
-- [fromJS](AppElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppElement(data)
 
-• **new AppElement**(`data?`): [`AppElement`](AppElement.md)
+> **new AppElement**(`data`?): [`AppElement`](AppElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppElement`](../interfaces/IAppElement.md) |
+• **data?**: [`IAppElement`](../interfaces/IAppElement.md)
 
 #### Returns
 
 [`AppElement`](AppElement.md)
 
-#### Defined in
+#### Source
 
 main.ts:30409
 
 ## Properties
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description
 
 #### Implementation of
 
-[IAppElement](../interfaces/IAppElement.md).[description](../interfaces/IAppElement.md#description)
+[`IAppElement`](../interfaces/IAppElement.md).[`description`](../interfaces/IAppElement.md#description)
 
-#### Defined in
+#### Source
 
 main.ts:30401
 
-___
+***
 
-### price
+### price?
 
-• `Optional` **price**: [`PriceInfo`](PriceInfo.md)
+> **`optional`** **price**: [`PriceInfo`](PriceInfo.md)
 
 price indicated in the element
 
 #### Implementation of
 
-[IAppElement](../interfaces/IAppElement.md).[price](../interfaces/IAppElement.md#price)
+[`IAppElement`](../interfaces/IAppElement.md).[`price`](../interfaces/IAppElement.md#price)
 
-#### Defined in
+#### Source
 
 main.ts:30405
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
 #### Implementation of
 
-[IAppElement](../interfaces/IAppElement.md).[title](../interfaces/IAppElement.md#title)
+[`IAppElement`](../interfaces/IAppElement.md).[`title`](../interfaces/IAppElement.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:30399
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IAppElement](../interfaces/IAppElement.md).[type](../interfaces/IAppElement.md#type)
+[`IAppElement`](../interfaces/IAppElement.md).[`type`](../interfaces/IAppElement.md#type)
 
-#### Defined in
+#### Source
 
 main.ts:30397
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL
 
 #### Implementation of
 
-[IAppElement](../interfaces/IAppElement.md).[url](../interfaces/IAppElement.md#url)
+[`IAppElement`](../interfaces/IAppElement.md).[`url`](../interfaces/IAppElement.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:30403
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:30418
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:30439
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppElement`](AppElement.md)
+> **`static`** **fromJS**(`data`): [`AppElement`](AppElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppElement`](AppElement.md)
 
-#### Defined in
+#### Source
 
 main.ts:30432

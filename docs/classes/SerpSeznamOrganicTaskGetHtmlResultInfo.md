@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpSeznamOrganicTaskGetHtmlResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpSeznamOrganicTaskGetHtmlResultInfo
 
 # Class: SerpSeznamOrganicTaskGetHtmlResultInfo
 
@@ -8,56 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpSeznamOrganicTaskGetHtmlResultInfo.md#constructor)
-
-### Properties
-
-- [datetime](SerpSeznamOrganicTaskGetHtmlResultInfo.md#datetime)
-- [items](SerpSeznamOrganicTaskGetHtmlResultInfo.md#items)
-- [items\_count](SerpSeznamOrganicTaskGetHtmlResultInfo.md#items_count)
-- [keyword](SerpSeznamOrganicTaskGetHtmlResultInfo.md#keyword)
-- [language\_code](SerpSeznamOrganicTaskGetHtmlResultInfo.md#language_code)
-- [location\_code](SerpSeznamOrganicTaskGetHtmlResultInfo.md#location_code)
-- [se\_domain](SerpSeznamOrganicTaskGetHtmlResultInfo.md#se_domain)
-- [type](SerpSeznamOrganicTaskGetHtmlResultInfo.md#type)
-
-### Methods
-
-- [init](SerpSeznamOrganicTaskGetHtmlResultInfo.md#init)
-- [toJSON](SerpSeznamOrganicTaskGetHtmlResultInfo.md#tojson)
-- [fromJS](SerpSeznamOrganicTaskGetHtmlResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpSeznamOrganicTaskGetHtmlResultInfo(data)
 
-• **new SerpSeznamOrganicTaskGetHtmlResultInfo**(`data?`): [`SerpSeznamOrganicTaskGetHtmlResultInfo`](SerpSeznamOrganicTaskGetHtmlResultInfo.md)
+> **new SerpSeznamOrganicTaskGetHtmlResultInfo**(`data`?): [`SerpSeznamOrganicTaskGetHtmlResultInfo`](SerpSeznamOrganicTaskGetHtmlResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpSeznamOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpSeznamOrganicTaskGetHtmlResultInfo.md) |
+• **data?**: [`ISerpSeznamOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpSeznamOrganicTaskGetHtmlResultInfo.md)
 
 #### Returns
 
 [`SerpSeznamOrganicTaskGetHtmlResultInfo`](SerpSeznamOrganicTaskGetHtmlResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:73045
+main.ts:73053
 
 ## Properties
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -66,181 +45,175 @@ example:
 
 #### Implementation of
 
-[ISerpSeznamOrganicTaskGetHtmlResultInfo](../interfaces/ISerpSeznamOrganicTaskGetHtmlResultInfo.md).[datetime](../interfaces/ISerpSeznamOrganicTaskGetHtmlResultInfo.md#datetime)
+[`ISerpSeznamOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpSeznamOrganicTaskGetHtmlResultInfo.md).[`datetime`](../interfaces/ISerpSeznamOrganicTaskGetHtmlResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
-main.ts:73037
+main.ts:73045
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`HtmlItem`](HtmlItem.md)[]
+> **`optional`** **items**: [`HtmlItem`](HtmlItem.md)[]
 
 elements of search results found in SERP
 
 #### Implementation of
 
-[ISerpSeznamOrganicTaskGetHtmlResultInfo](../interfaces/ISerpSeznamOrganicTaskGetHtmlResultInfo.md).[items](../interfaces/ISerpSeznamOrganicTaskGetHtmlResultInfo.md#items)
+[`ISerpSeznamOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpSeznamOrganicTaskGetHtmlResultInfo.md).[`items`](../interfaces/ISerpSeznamOrganicTaskGetHtmlResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:73041
+main.ts:73049
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[ISerpSeznamOrganicTaskGetHtmlResultInfo](../interfaces/ISerpSeznamOrganicTaskGetHtmlResultInfo.md).[items_count](../interfaces/ISerpSeznamOrganicTaskGetHtmlResultInfo.md#items_count)
+[`ISerpSeznamOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpSeznamOrganicTaskGetHtmlResultInfo.md).[`items_count`](../interfaces/ISerpSeznamOrganicTaskGetHtmlResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:73039
+main.ts:73047
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
-[ISerpSeznamOrganicTaskGetHtmlResultInfo](../interfaces/ISerpSeznamOrganicTaskGetHtmlResultInfo.md).[keyword](../interfaces/ISerpSeznamOrganicTaskGetHtmlResultInfo.md#keyword)
+[`ISerpSeznamOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpSeznamOrganicTaskGetHtmlResultInfo.md).[`keyword`](../interfaces/ISerpSeznamOrganicTaskGetHtmlResultInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:73024
+main.ts:73032
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[ISerpSeznamOrganicTaskGetHtmlResultInfo](../interfaces/ISerpSeznamOrganicTaskGetHtmlResultInfo.md).[language_code](../interfaces/ISerpSeznamOrganicTaskGetHtmlResultInfo.md#language_code)
+[`ISerpSeznamOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpSeznamOrganicTaskGetHtmlResultInfo.md).[`language_code`](../interfaces/ISerpSeznamOrganicTaskGetHtmlResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:73032
+main.ts:73040
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[ISerpSeznamOrganicTaskGetHtmlResultInfo](../interfaces/ISerpSeznamOrganicTaskGetHtmlResultInfo.md).[location_code](../interfaces/ISerpSeznamOrganicTaskGetHtmlResultInfo.md#location_code)
+[`ISerpSeznamOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpSeznamOrganicTaskGetHtmlResultInfo.md).[`location_code`](../interfaces/ISerpSeznamOrganicTaskGetHtmlResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:73030
+main.ts:73038
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
 #### Implementation of
 
-[ISerpSeznamOrganicTaskGetHtmlResultInfo](../interfaces/ISerpSeznamOrganicTaskGetHtmlResultInfo.md).[se_domain](../interfaces/ISerpSeznamOrganicTaskGetHtmlResultInfo.md#se_domain)
+[`ISerpSeznamOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpSeznamOrganicTaskGetHtmlResultInfo.md).[`se_domain`](../interfaces/ISerpSeznamOrganicTaskGetHtmlResultInfo.md#se_domain)
 
-#### Defined in
+#### Source
 
-main.ts:73028
+main.ts:73036
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[ISerpSeznamOrganicTaskGetHtmlResultInfo](../interfaces/ISerpSeznamOrganicTaskGetHtmlResultInfo.md).[type](../interfaces/ISerpSeznamOrganicTaskGetHtmlResultInfo.md#type)
+[`ISerpSeznamOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpSeznamOrganicTaskGetHtmlResultInfo.md).[`type`](../interfaces/ISerpSeznamOrganicTaskGetHtmlResultInfo.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:73026
+main.ts:73034
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:73054
+main.ts:73062
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:73082
+main.ts:73090
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpSeznamOrganicTaskGetHtmlResultInfo`](SerpSeznamOrganicTaskGetHtmlResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpSeznamOrganicTaskGetHtmlResultInfo`](SerpSeznamOrganicTaskGetHtmlResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpSeznamOrganicTaskGetHtmlResultInfo`](SerpSeznamOrganicTaskGetHtmlResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:73075
+main.ts:73083

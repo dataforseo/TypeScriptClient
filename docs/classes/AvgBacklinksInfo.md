@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AvgBacklinksInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AvgBacklinksInfo
 
 # Class: AvgBacklinksInfo
 
@@ -8,89 +12,63 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AvgBacklinksInfo.md#constructor)
-
-### Properties
-
-- [backlinks](AvgBacklinksInfo.md#backlinks)
-- [dofollow](AvgBacklinksInfo.md#dofollow)
-- [last\_updated\_time](AvgBacklinksInfo.md#last_updated_time)
-- [main\_domain\_rank](AvgBacklinksInfo.md#main_domain_rank)
-- [rank](AvgBacklinksInfo.md#rank)
-- [referring\_domains](AvgBacklinksInfo.md#referring_domains)
-- [referring\_main\_domains](AvgBacklinksInfo.md#referring_main_domains)
-- [referring\_pages](AvgBacklinksInfo.md#referring_pages)
-- [se\_type](AvgBacklinksInfo.md#se_type)
-
-### Methods
-
-- [init](AvgBacklinksInfo.md#init)
-- [toJSON](AvgBacklinksInfo.md#tojson)
-- [fromJS](AvgBacklinksInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AvgBacklinksInfo(data)
 
-• **new AvgBacklinksInfo**(`data?`): [`AvgBacklinksInfo`](AvgBacklinksInfo.md)
+> **new AvgBacklinksInfo**(`data`?): [`AvgBacklinksInfo`](AvgBacklinksInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAvgBacklinksInfo`](../interfaces/IAvgBacklinksInfo.md) |
+• **data?**: [`IAvgBacklinksInfo`](../interfaces/IAvgBacklinksInfo.md)
 
 #### Returns
 
 [`AvgBacklinksInfo`](AvgBacklinksInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:81838
+main.ts:81846
 
 ## Properties
 
-### backlinks
+### backlinks?
 
-• `Optional` **backlinks**: `number`
+> **`optional`** **backlinks**: `number`
 
 average number of backlinks
 
 #### Implementation of
 
-[IAvgBacklinksInfo](../interfaces/IAvgBacklinksInfo.md).[backlinks](../interfaces/IAvgBacklinksInfo.md#backlinks)
+[`IAvgBacklinksInfo`](../interfaces/IAvgBacklinksInfo.md).[`backlinks`](../interfaces/IAvgBacklinksInfo.md#backlinks)
 
-#### Defined in
+#### Source
 
-main.ts:81815
+main.ts:81823
 
-___
+***
 
-### dofollow
+### dofollow?
 
-• `Optional` **dofollow**: `number`
+> **`optional`** **dofollow**: `number`
 
 average number of dofollow links
 
 #### Implementation of
 
-[IAvgBacklinksInfo](../interfaces/IAvgBacklinksInfo.md).[dofollow](../interfaces/IAvgBacklinksInfo.md#dofollow)
+[`IAvgBacklinksInfo`](../interfaces/IAvgBacklinksInfo.md).[`dofollow`](../interfaces/IAvgBacklinksInfo.md#dofollow)
 
-#### Defined in
+#### Source
 
-main.ts:81817
+main.ts:81825
 
-___
+***
 
-### last\_updated\_time
+### last\_updated\_time?
 
-• `Optional` **last\_updated\_time**: `string`
+> **`optional`** **last\_updated\_time**: `string`
 
 date and time when backlink data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -99,166 +77,160 @@ example:
 
 #### Implementation of
 
-[IAvgBacklinksInfo](../interfaces/IAvgBacklinksInfo.md).[last_updated_time](../interfaces/IAvgBacklinksInfo.md#last_updated_time)
+[`IAvgBacklinksInfo`](../interfaces/IAvgBacklinksInfo.md).[`last_updated_time`](../interfaces/IAvgBacklinksInfo.md#last_updated_time)
 
-#### Defined in
+#### Source
 
-main.ts:81834
+main.ts:81842
 
-___
+***
 
-### main\_domain\_rank
+### main\_domain\_rank?
 
-• `Optional` **main\_domain\_rank**: `number`
+> **`optional`** **main\_domain\_rank**: `number`
 
 average main domain rank
 learn more about the metric and its calculation formula in this help center article
 
 #### Implementation of
 
-[IAvgBacklinksInfo](../interfaces/IAvgBacklinksInfo.md).[main_domain_rank](../interfaces/IAvgBacklinksInfo.md#main_domain_rank)
+[`IAvgBacklinksInfo`](../interfaces/IAvgBacklinksInfo.md).[`main_domain_rank`](../interfaces/IAvgBacklinksInfo.md#main_domain_rank)
 
-#### Defined in
+#### Source
 
-main.ts:81829
+main.ts:81837
 
-___
+***
 
-### rank
+### rank?
 
-• `Optional` **rank**: `number`
+> **`optional`** **rank**: `number`
 
 average rank
 learn more about the metric and its calculation formula in this help center article
 
 #### Implementation of
 
-[IAvgBacklinksInfo](../interfaces/IAvgBacklinksInfo.md).[rank](../interfaces/IAvgBacklinksInfo.md#rank)
+[`IAvgBacklinksInfo`](../interfaces/IAvgBacklinksInfo.md).[`rank`](../interfaces/IAvgBacklinksInfo.md#rank)
 
-#### Defined in
+#### Source
 
-main.ts:81826
+main.ts:81834
 
-___
+***
 
-### referring\_domains
+### referring\_domains?
 
-• `Optional` **referring\_domains**: `number`
+> **`optional`** **referring\_domains**: `number`
 
 average number of referring domains
 
 #### Implementation of
 
-[IAvgBacklinksInfo](../interfaces/IAvgBacklinksInfo.md).[referring_domains](../interfaces/IAvgBacklinksInfo.md#referring_domains)
+[`IAvgBacklinksInfo`](../interfaces/IAvgBacklinksInfo.md).[`referring_domains`](../interfaces/IAvgBacklinksInfo.md#referring_domains)
 
-#### Defined in
+#### Source
 
-main.ts:81821
+main.ts:81829
 
-___
+***
 
-### referring\_main\_domains
+### referring\_main\_domains?
 
-• `Optional` **referring\_main\_domains**: `number`
+> **`optional`** **referring\_main\_domains**: `number`
 
 average number of referring main domains
 
 #### Implementation of
 
-[IAvgBacklinksInfo](../interfaces/IAvgBacklinksInfo.md).[referring_main_domains](../interfaces/IAvgBacklinksInfo.md#referring_main_domains)
+[`IAvgBacklinksInfo`](../interfaces/IAvgBacklinksInfo.md).[`referring_main_domains`](../interfaces/IAvgBacklinksInfo.md#referring_main_domains)
 
-#### Defined in
+#### Source
 
-main.ts:81823
+main.ts:81831
 
-___
+***
 
-### referring\_pages
+### referring\_pages?
 
-• `Optional` **referring\_pages**: `number`
+> **`optional`** **referring\_pages**: `number`
 
 average number of referring pages
 
 #### Implementation of
 
-[IAvgBacklinksInfo](../interfaces/IAvgBacklinksInfo.md).[referring_pages](../interfaces/IAvgBacklinksInfo.md#referring_pages)
+[`IAvgBacklinksInfo`](../interfaces/IAvgBacklinksInfo.md).[`referring_pages`](../interfaces/IAvgBacklinksInfo.md#referring_pages)
 
-#### Defined in
+#### Source
 
-main.ts:81819
+main.ts:81827
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IAvgBacklinksInfo](../interfaces/IAvgBacklinksInfo.md).[se_type](../interfaces/IAvgBacklinksInfo.md#se_type)
+[`IAvgBacklinksInfo`](../interfaces/IAvgBacklinksInfo.md).[`se_type`](../interfaces/IAvgBacklinksInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:81813
+main.ts:81821
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:81847
+main.ts:81855
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:81872
+main.ts:81880
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AvgBacklinksInfo`](AvgBacklinksInfo.md)
+> **`static`** **fromJS**(`data`): [`AvgBacklinksInfo`](AvgBacklinksInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AvgBacklinksInfo`](AvgBacklinksInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:81865
+main.ts:81873

@@ -1,125 +1,112 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpYoutubeVideoCommentsTasksFixedResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ISerpYoutubeVideoCommentsTasksFixedResultInfo
 
 # Interface: ISerpYoutubeVideoCommentsTasksFixedResultInfo
 
-## Implemented by
-
-- [`SerpYoutubeVideoCommentsTasksFixedResultInfo`](../classes/SerpYoutubeVideoCommentsTasksFixedResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [date\_fixed](ISerpYoutubeVideoCommentsTasksFixedResultInfo.md#date_fixed)
-- [endpoint\_advanced](ISerpYoutubeVideoCommentsTasksFixedResultInfo.md#endpoint_advanced)
-- [endpoint\_html](ISerpYoutubeVideoCommentsTasksFixedResultInfo.md#endpoint_html)
-- [endpoint\_regular](ISerpYoutubeVideoCommentsTasksFixedResultInfo.md#endpoint_regular)
-- [id](ISerpYoutubeVideoCommentsTasksFixedResultInfo.md#id)
-- [se](ISerpYoutubeVideoCommentsTasksFixedResultInfo.md#se)
-- [se\_type](ISerpYoutubeVideoCommentsTasksFixedResultInfo.md#se_type)
-- [tag](ISerpYoutubeVideoCommentsTasksFixedResultInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### date\_fixed
+### date\_fixed?
 
-• `Optional` **date\_fixed**: `string`
+> **`optional`** **date\_fixed**: `string`
 
 date when the task was fixed (in the UTC format)
 
-#### Defined in
+#### Source
 
-main.ts:64073
+main.ts:64081
 
-___
+***
 
-### endpoint\_advanced
+### endpoint\_advanced?
 
-• `Optional` **endpoint\_advanced**: `string`
+> **`optional`** **endpoint\_advanced**: `string`
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
 
-#### Defined in
+#### Source
 
-main.ts:64081
+main.ts:64089
 
-___
+***
 
-### endpoint\_html
+### endpoint\_html?
 
-• `Optional` **endpoint\_html**: `string`
+> **`optional`** **endpoint\_html**: `string`
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
 
-#### Defined in
+#### Source
 
-main.ts:64084
+main.ts:64092
 
-___
+***
 
-### endpoint\_regular
+### endpoint\_regular?
 
-• `Optional` **endpoint\_regular**: `string`
+> **`optional`** **endpoint\_regular**: `string`
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
 
-#### Defined in
+#### Source
 
-main.ts:64078
+main.ts:64086
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
-#### Defined in
+#### Source
 
-main.ts:64066
+main.ts:64074
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 
-#### Defined in
+#### Source
 
-main.ts:64068
+main.ts:64076
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 type of search engine
 can take the following values: video_comments
 
-#### Defined in
+#### Source
 
-main.ts:64071
+main.ts:64079
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
-#### Defined in
+#### Source
 
-main.ts:64075
+main.ts:64083

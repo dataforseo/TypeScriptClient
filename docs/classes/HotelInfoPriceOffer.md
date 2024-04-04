@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / HotelInfoPriceOffer
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / HotelInfoPriceOffer
 
 # Class: HotelInfoPriceOffer
 
@@ -10,73 +14,48 @@ featured price offers
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](HotelInfoPriceOffer.md#constructor)
-
-### Properties
-
-- [currency](HotelInfoPriceOffer.md#currency)
-- [free\_cancellation\_until](HotelInfoPriceOffer.md#free_cancellation_until)
-- [max\_visitors](HotelInfoPriceOffer.md#max_visitors)
-- [offer\_images](HotelInfoPriceOffer.md#offer_images)
-- [price](HotelInfoPriceOffer.md#price)
-- [title](HotelInfoPriceOffer.md#title)
-- [type](HotelInfoPriceOffer.md#type)
-- [url](HotelInfoPriceOffer.md#url)
-
-### Methods
-
-- [init](HotelInfoPriceOffer.md#init)
-- [toJSON](HotelInfoPriceOffer.md#tojson)
-- [fromJS](HotelInfoPriceOffer.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new HotelInfoPriceOffer(data)
 
-• **new HotelInfoPriceOffer**(`data?`): [`HotelInfoPriceOffer`](HotelInfoPriceOffer.md)
+> **new HotelInfoPriceOffer**(`data`?): [`HotelInfoPriceOffer`](HotelInfoPriceOffer.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IHotelInfoPriceOffer`](../interfaces/IHotelInfoPriceOffer.md) |
+• **data?**: [`IHotelInfoPriceOffer`](../interfaces/IHotelInfoPriceOffer.md)
 
 #### Returns
 
 [`HotelInfoPriceOffer`](HotelInfoPriceOffer.md)
 
-#### Defined in
+#### Source
 
 main.ts:198940
 
 ## Properties
 
-### currency
+### currency?
 
-• `Optional` **currency**: `string`
+> **`optional`** **currency**: `string`
 
 price currency
 USD is applied by default, unless specified in the POST array
 
 #### Implementation of
 
-[IHotelInfoPriceOffer](../interfaces/IHotelInfoPriceOffer.md).[currency](../interfaces/IHotelInfoPriceOffer.md#currency)
+[`IHotelInfoPriceOffer`](../interfaces/IHotelInfoPriceOffer.md).[`currency`](../interfaces/IHotelInfoPriceOffer.md#currency)
 
-#### Defined in
+#### Source
 
 main.ts:198923
 
-___
+***
 
-### free\_cancellation\_until
+### free\_cancellation\_until?
 
-• `Optional` **free\_cancellation\_until**: `string`
+> **`optional`** **free\_cancellation\_until**: `string`
 
 date until free cancellation is available
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -84,167 +63,161 @@ equals null if free cancellation is not available for the selected dates
 
 #### Implementation of
 
-[IHotelInfoPriceOffer](../interfaces/IHotelInfoPriceOffer.md).[free_cancellation_until](../interfaces/IHotelInfoPriceOffer.md#free_cancellation_until)
+[`IHotelInfoPriceOffer`](../interfaces/IHotelInfoPriceOffer.md).[`free_cancellation_until`](../interfaces/IHotelInfoPriceOffer.md#free_cancellation_until)
 
-#### Defined in
+#### Source
 
 main.ts:198936
 
-___
+***
 
-### max\_visitors
+### max\_visitors?
 
-• `Optional` **max\_visitors**: `number`
+> **`optional`** **max\_visitors**: `number`
 
 the maximal number of visitors
 the maximum number of visitors for which the price offer is valid
 
 #### Implementation of
 
-[IHotelInfoPriceOffer](../interfaces/IHotelInfoPriceOffer.md).[max_visitors](../interfaces/IHotelInfoPriceOffer.md#max_visitors)
+[`IHotelInfoPriceOffer`](../interfaces/IHotelInfoPriceOffer.md).[`max_visitors`](../interfaces/IHotelInfoPriceOffer.md#max_visitors)
 
-#### Defined in
+#### Source
 
 main.ts:198929
 
-___
+***
 
-### offer\_images
+### offer\_images?
 
-• `Optional` **offer\_images**: `string`[]
+> **`optional`** **offer\_images**: `string`[]
 
 price offer images
 URLs of the images featured in the price offer
 
 #### Implementation of
 
-[IHotelInfoPriceOffer](../interfaces/IHotelInfoPriceOffer.md).[offer_images](../interfaces/IHotelInfoPriceOffer.md#offer_images)
+[`IHotelInfoPriceOffer`](../interfaces/IHotelInfoPriceOffer.md).[`offer_images`](../interfaces/IHotelInfoPriceOffer.md#offer_images)
 
-#### Defined in
+#### Source
 
 main.ts:198932
 
-___
+***
 
-### price
+### price?
 
-• `Optional` **price**: `number`
+> **`optional`** **price**: `number`
 
 price per night
 
 #### Implementation of
 
-[IHotelInfoPriceOffer](../interfaces/IHotelInfoPriceOffer.md).[price](../interfaces/IHotelInfoPriceOffer.md#price)
+[`IHotelInfoPriceOffer`](../interfaces/IHotelInfoPriceOffer.md).[`price`](../interfaces/IHotelInfoPriceOffer.md#price)
 
-#### Defined in
+#### Source
 
 main.ts:198920
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the hotel
 
 #### Implementation of
 
-[IHotelInfoPriceOffer](../interfaces/IHotelInfoPriceOffer.md).[title](../interfaces/IHotelInfoPriceOffer.md#title)
+[`IHotelInfoPriceOffer`](../interfaces/IHotelInfoPriceOffer.md).[`title`](../interfaces/IHotelInfoPriceOffer.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:198918
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IHotelInfoPriceOffer](../interfaces/IHotelInfoPriceOffer.md).[type](../interfaces/IHotelInfoPriceOffer.md#type)
+[`IHotelInfoPriceOffer`](../interfaces/IHotelInfoPriceOffer.md).[`type`](../interfaces/IHotelInfoPriceOffer.md#type)
 
-#### Defined in
+#### Source
 
 main.ts:198916
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 url of the price offer
 URL to the page of the website where price offer appears
 
 #### Implementation of
 
-[IHotelInfoPriceOffer](../interfaces/IHotelInfoPriceOffer.md).[url](../interfaces/IHotelInfoPriceOffer.md#url)
+[`IHotelInfoPriceOffer`](../interfaces/IHotelInfoPriceOffer.md).[`url`](../interfaces/IHotelInfoPriceOffer.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:198926
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:198949
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:198977
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`HotelInfoPriceOffer`](HotelInfoPriceOffer.md)
+> **`static`** **fromJS**(`data`): [`HotelInfoPriceOffer`](HotelInfoPriceOffer.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`HotelInfoPriceOffer`](HotelInfoPriceOffer.md)
 
-#### Defined in
+#### Source
 
 main.ts:198970

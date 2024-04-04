@@ -1,83 +1,73 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleMyBusinessUpdatesTasksReadyResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBusinessDataGoogleMyBusinessUpdatesTasksReadyResultInfo
 
 # Interface: IBusinessDataGoogleMyBusinessUpdatesTasksReadyResultInfo
 
-## Implemented by
-
-- [`BusinessDataGoogleMyBusinessUpdatesTasksReadyResultInfo`](../classes/BusinessDataGoogleMyBusinessUpdatesTasksReadyResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [date\_posted](IBusinessDataGoogleMyBusinessUpdatesTasksReadyResultInfo.md#date_posted)
-- [endpoint](IBusinessDataGoogleMyBusinessUpdatesTasksReadyResultInfo.md#endpoint)
-- [id](IBusinessDataGoogleMyBusinessUpdatesTasksReadyResultInfo.md#id)
-- [se](IBusinessDataGoogleMyBusinessUpdatesTasksReadyResultInfo.md#se)
-- [tag](IBusinessDataGoogleMyBusinessUpdatesTasksReadyResultInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### date\_posted
+### date\_posted?
 
-• `Optional` **date\_posted**: `string`
+> **`optional`** **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
-#### Defined in
+#### Source
 
 main.ts:197689
 
-___
+***
 
-### endpoint
+### endpoint?
 
-• `Optional` **endpoint**: `string`
+> **`optional`** **endpoint**: `string`
 
 URL for collecting the results of the task
 
-#### Defined in
+#### Source
 
 main.ts:197693
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
-#### Defined in
+#### Source
 
 main.ts:197684
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 can take the following values: google
 
-#### Defined in
+#### Source
 
 main.ts:197687
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
-#### Defined in
+#### Source
 
 main.ts:197691

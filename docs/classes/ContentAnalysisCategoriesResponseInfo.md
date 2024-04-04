@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentAnalysisCategoriesResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ContentAnalysisCategoriesResponseInfo
 
 # Class: ContentAnalysisCategoriesResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`ContentAnalysisCategoriesResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ContentAnalysisCategoriesResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](ContentAnalysisCategoriesResponseInfo.md#cost)
-- [status\_code](ContentAnalysisCategoriesResponseInfo.md#status_code)
-- [status\_message](ContentAnalysisCategoriesResponseInfo.md#status_message)
-- [tasks](ContentAnalysisCategoriesResponseInfo.md#tasks)
-- [tasks\_count](ContentAnalysisCategoriesResponseInfo.md#tasks_count)
-- [tasks\_error](ContentAnalysisCategoriesResponseInfo.md#tasks_error)
-- [time](ContentAnalysisCategoriesResponseInfo.md#time)
-- [version](ContentAnalysisCategoriesResponseInfo.md#version)
-
-### Methods
-
-- [init](ContentAnalysisCategoriesResponseInfo.md#init)
-- [toJSON](ContentAnalysisCategoriesResponseInfo.md#tojson)
-- [fromJS](ContentAnalysisCategoriesResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ContentAnalysisCategoriesResponseInfo(data)
 
-• **new ContentAnalysisCategoriesResponseInfo**(`data?`): [`ContentAnalysisCategoriesResponseInfo`](ContentAnalysisCategoriesResponseInfo.md)
+> **new ContentAnalysisCategoriesResponseInfo**(`data`?): [`ContentAnalysisCategoriesResponseInfo`](ContentAnalysisCategoriesResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IContentAnalysisCategoriesResponseInfo`](../interfaces/IContentAnalysisCategoriesResponseInfo.md) |
+• **data?**: [`IContentAnalysisCategoriesResponseInfo`](../interfaces/IContentAnalysisCategoriesResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:161417
+main.ts:161425
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IContentAnalysisCategoriesResponseInfo](../interfaces/IContentAnalysisCategoriesResponseInfo.md).[cost](../interfaces/IContentAnalysisCategoriesResponseInfo.md#cost)
+[`IContentAnalysisCategoriesResponseInfo`](../interfaces/IContentAnalysisCategoriesResponseInfo.md).[`cost`](../interfaces/IContentAnalysisCategoriesResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[IContentAnalysisCategoriesResponseInfo](../interfaces/IContentAnalysisCategoriesResponseInfo.md).[status_code](../interfaces/IContentAnalysisCategoriesResponseInfo.md#status_code)
+[`IContentAnalysisCategoriesResponseInfo`](../interfaces/IContentAnalysisCategoriesResponseInfo.md).[`status_code`](../interfaces/IContentAnalysisCategoriesResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IContentAnalysisCategoriesResponseInfo](../interfaces/IContentAnalysisCategoriesResponseInfo.md).[status_message](../interfaces/IContentAnalysisCategoriesResponseInfo.md#status_message)
+[`IContentAnalysisCategoriesResponseInfo`](../interfaces/IContentAnalysisCategoriesResponseInfo.md).[`status_message`](../interfaces/IContentAnalysisCategoriesResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`ContentAnalysisCategoriesTaskInfo`](ContentAnalysisCategoriesTaskInfo.md)[]
+> **`optional`** **tasks**: [`ContentAnalysisCategoriesTaskInfo`](ContentAnalysisCategoriesTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[IContentAnalysisCategoriesResponseInfo](../interfaces/IContentAnalysisCategoriesResponseInfo.md).[tasks](../interfaces/IContentAnalysisCategoriesResponseInfo.md#tasks)
+[`IContentAnalysisCategoriesResponseInfo`](../interfaces/IContentAnalysisCategoriesResponseInfo.md).[`tasks`](../interfaces/IContentAnalysisCategoriesResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:161413
+main.ts:161421
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[IContentAnalysisCategoriesResponseInfo](../interfaces/IContentAnalysisCategoriesResponseInfo.md).[tasks_count](../interfaces/IContentAnalysisCategoriesResponseInfo.md#tasks_count)
+[`IContentAnalysisCategoriesResponseInfo`](../interfaces/IContentAnalysisCategoriesResponseInfo.md).[`tasks_count`](../interfaces/IContentAnalysisCategoriesResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[IContentAnalysisCategoriesResponseInfo](../interfaces/IContentAnalysisCategoriesResponseInfo.md).[tasks_error](../interfaces/IContentAnalysisCategoriesResponseInfo.md#tasks_error)
+[`IContentAnalysisCategoriesResponseInfo`](../interfaces/IContentAnalysisCategoriesResponseInfo.md).[`tasks_error`](../interfaces/IContentAnalysisCategoriesResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[IContentAnalysisCategoriesResponseInfo](../interfaces/IContentAnalysisCategoriesResponseInfo.md).[time](../interfaces/IContentAnalysisCategoriesResponseInfo.md#time)
+[`IContentAnalysisCategoriesResponseInfo`](../interfaces/IContentAnalysisCategoriesResponseInfo.md).[`time`](../interfaces/IContentAnalysisCategoriesResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[IContentAnalysisCategoriesResponseInfo](../interfaces/IContentAnalysisCategoriesResponseInfo.md).[version](../interfaces/IContentAnalysisCategoriesResponseInfo.md#version)
+[`IContentAnalysisCategoriesResponseInfo`](../interfaces/IContentAnalysisCategoriesResponseInfo.md).[`version`](../interfaces/IContentAnalysisCategoriesResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:161421
+main.ts:161429
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:161443
+main.ts:161451
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ContentAnalysisCategoriesResponseInfo`](ContentAnalysisCategoriesResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`ContentAnalysisCategoriesResponseInfo`](ContentAnalysisCategoriesResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:161436
+main.ts:161444

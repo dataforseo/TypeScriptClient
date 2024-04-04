@@ -1,69 +1,60 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageWaterfallResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IOnPageWaterfallResultInfo
 
 # Interface: IOnPageWaterfallResultInfo
 
-## Implemented by
-
-- [`OnPageWaterfallResultInfo`](../classes/OnPageWaterfallResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [crawl\_progress](IOnPageWaterfallResultInfo.md#crawl_progress)
-- [crawl\_status](IOnPageWaterfallResultInfo.md#crawl_status)
-- [items](IOnPageWaterfallResultInfo.md#items)
-- [items\_count](IOnPageWaterfallResultInfo.md#items_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### crawl\_progress
+### crawl\_progress?
 
-• `Optional` **crawl\_progress**: `string`
+> **`optional`** **crawl\_progress**: `string`
 
 status of the crawling session
 possible values: in_progress, finished
 
-#### Defined in
+#### Source
 
-main.ts:155345
+main.ts:155353
 
-___
+***
 
-### crawl\_status
+### crawl\_status?
 
-• `Optional` **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
+> **`optional`** **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
 
 details of the crawling session
 
-#### Defined in
+#### Source
 
-main.ts:155347
+main.ts:155355
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`OnPageWaterfallItem`](../classes/OnPageWaterfallItem.md)[]
+> **`optional`** **items**: [`OnPageWaterfallItem`](../classes/OnPageWaterfallItem.md)[]
 
 items array
 
-#### Defined in
+#### Source
 
-main.ts:155351
+main.ts:155359
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 number of items in the results array
 
-#### Defined in
+#### Source
 
-main.ts:155349
+main.ts:155357

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleCompetitorsDomainLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsGoogleCompetitorsDomainLiveResultInfo
 
 # Class: DataforseoLabsGoogleCompetitorsDomainLiveResultInfo
 
@@ -8,218 +12,188 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md#constructor)
-
-### Properties
-
-- [items](DataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md#items)
-- [items\_count](DataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md#items_count)
-- [language\_code](DataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md#language_code)
-- [location\_code](DataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md#location_code)
-- [se\_type](DataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md#se_type)
-- [target](DataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md#target)
-- [total\_count](DataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md#total_count)
-
-### Methods
-
-- [init](DataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md#init)
-- [toJSON](DataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md#tojson)
-- [fromJS](DataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsGoogleCompetitorsDomainLiveResultInfo(data)
 
-• **new DataforseoLabsGoogleCompetitorsDomainLiveResultInfo**(`data?`): [`DataforseoLabsGoogleCompetitorsDomainLiveResultInfo`](DataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md)
+> **new DataforseoLabsGoogleCompetitorsDomainLiveResultInfo**(`data`?): [`DataforseoLabsGoogleCompetitorsDomainLiveResultInfo`](DataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md) |
+• **data?**: [`IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleCompetitorsDomainLiveResultInfo`](DataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:90903
+main.ts:90911
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`DataforseoLabsCompetitorsDomainLiveItem`](DataforseoLabsCompetitorsDomainLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsCompetitorsDomainLiveItem`](DataforseoLabsCompetitorsDomainLiveItem.md)[]
 
 contains data related to the target and competitor domains
 
 #### Implementation of
 
-[IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md).[items](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md#items)
+[`IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:90899
+main.ts:90907
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md).[items_count](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md#items_count)
+[`IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:90897
+main.ts:90905
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md).[language_code](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md#language_code)
+[`IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:90893
+main.ts:90901
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md).[location_code](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md#location_code)
+[`IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:90891
+main.ts:90899
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md).[se_type](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md#se_type)
+[`IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:90887
+main.ts:90895
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 target domain in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md).[target](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md#target)
+[`IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md).[`target`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md#target)
 
-#### Defined in
+#### Source
 
-main.ts:90889
+main.ts:90897
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
 #### Implementation of
 
-[IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md).[total_count](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md#total_count)
+[`IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md#total_count)
 
-#### Defined in
+#### Source
 
-main.ts:90895
+main.ts:90903
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:90912
+main.ts:90920
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:90939
+main.ts:90947
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsGoogleCompetitorsDomainLiveResultInfo`](DataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleCompetitorsDomainLiveResultInfo`](DataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsGoogleCompetitorsDomainLiveResultInfo`](DataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:90932
+main.ts:90940

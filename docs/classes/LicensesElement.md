@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / LicensesElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / LicensesElement
 
 # Class: LicensesElement
 
@@ -8,167 +12,140 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](LicensesElement.md#constructor)
-
-### Properties
-
-- [domain](LicensesElement.md#domain)
-- [title](LicensesElement.md#title)
-- [type](LicensesElement.md#type)
-- [url](LicensesElement.md#url)
-
-### Methods
-
-- [init](LicensesElement.md#init)
-- [toJSON](LicensesElement.md#tojson)
-- [fromJS](LicensesElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new LicensesElement(data)
 
-• **new LicensesElement**(`data?`): [`LicensesElement`](LicensesElement.md)
+> **new LicensesElement**(`data`?): [`LicensesElement`](LicensesElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ILicensesElement`](../interfaces/ILicensesElement.md) |
+• **data?**: [`ILicensesElement`](../interfaces/ILicensesElement.md)
 
 #### Returns
 
 [`LicensesElement`](LicensesElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:34129
+main.ts:34135
 
 ## Properties
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 website domain
 
 #### Implementation of
 
-[ILicensesElement](../interfaces/ILicensesElement.md).[domain](../interfaces/ILicensesElement.md#domain)
+[`ILicensesElement`](../interfaces/ILicensesElement.md).[`domain`](../interfaces/ILicensesElement.md#domain)
 
-#### Defined in
+#### Source
 
-main.ts:34125
+main.ts:34131
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
 #### Implementation of
 
-[ILicensesElement](../interfaces/ILicensesElement.md).[title](../interfaces/ILicensesElement.md#title)
+[`ILicensesElement`](../interfaces/ILicensesElement.md).[`title`](../interfaces/ILicensesElement.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:34121
+main.ts:34127
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[ILicensesElement](../interfaces/ILicensesElement.md).[type](../interfaces/ILicensesElement.md#type)
+[`ILicensesElement`](../interfaces/ILicensesElement.md).[`type`](../interfaces/ILicensesElement.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:34119
+main.ts:34125
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL
 
 #### Implementation of
 
-[ILicensesElement](../interfaces/ILicensesElement.md).[url](../interfaces/ILicensesElement.md#url)
+[`ILicensesElement`](../interfaces/ILicensesElement.md).[`url`](../interfaces/ILicensesElement.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:34123
+main.ts:34129
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:34138
+main.ts:34144
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:34158
+main.ts:34164
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`LicensesElement`](LicensesElement.md)
+> **`static`** **fromJS**(`data`): [`LicensesElement`](LicensesElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`LicensesElement`](LicensesElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:34151
+main.ts:34157

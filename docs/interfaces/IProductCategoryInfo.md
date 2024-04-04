@@ -1,43 +1,36 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IProductCategoryInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IProductCategoryInfo
 
 # Interface: IProductCategoryInfo
 
-## Implemented by
-
-- [`ProductCategoryInfo`](../classes/ProductCategoryInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [category](IProductCategoryInfo.md#category)
-- [url](IProductCategoryInfo.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### category
+### category?
 
-• `Optional` **category**: `string`
+> **`optional`** **category**: `string`
 
 product category name
 
-#### Defined in
+#### Source
 
 main.ts:177879
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 product category URL
 indicates the browse path on Amazon with the unique browse node ID (product category ID on Amazon)
 
-#### Defined in
+#### Source
 
 main.ts:177882

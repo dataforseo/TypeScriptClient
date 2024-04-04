@@ -1,35 +1,27 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ILocalBusinessOrderLink
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ILocalBusinessOrderLink
 
 # Interface: ILocalBusinessOrderLink
 
-## Hierarchy
+## Extends
 
 - [`IBaseLocalBusinessLink`](IBaseLocalBusinessLink.md)
 
-  ↳ **`ILocalBusinessOrderLink`**
-
-## Implemented by
-
-- [`LocalBusinessOrderLink`](../classes/LocalBusinessOrderLink.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [delivery\_services](ILocalBusinessOrderLink.md#delivery_services)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### delivery\_services
+### delivery\_services?
 
-• `Optional` **delivery\_services**: [`LocalBusinessDeliveryServiceInfo`](../classes/LocalBusinessDeliveryServiceInfo.md)[]
+> **`optional`** **delivery\_services**: [`LocalBusinessDeliveryServiceInfo`](../classes/LocalBusinessDeliveryServiceInfo.md)[]
 
 lists available delivery services
 
-#### Defined in
+#### Source
 
 main.ts:22892

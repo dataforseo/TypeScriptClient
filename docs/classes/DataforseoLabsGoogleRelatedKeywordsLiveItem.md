@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleRelatedKeywordsLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsGoogleRelatedKeywordsLiveItem
 
 # Class: DataforseoLabsGoogleRelatedKeywordsLiveItem
 
@@ -8,168 +12,141 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsGoogleRelatedKeywordsLiveItem.md#constructor)
-
-### Properties
-
-- [depth](DataforseoLabsGoogleRelatedKeywordsLiveItem.md#depth)
-- [keyword\_data](DataforseoLabsGoogleRelatedKeywordsLiveItem.md#keyword_data)
-- [related\_keywords](DataforseoLabsGoogleRelatedKeywordsLiveItem.md#related_keywords)
-- [se\_type](DataforseoLabsGoogleRelatedKeywordsLiveItem.md#se_type)
-
-### Methods
-
-- [init](DataforseoLabsGoogleRelatedKeywordsLiveItem.md#init)
-- [toJSON](DataforseoLabsGoogleRelatedKeywordsLiveItem.md#tojson)
-- [fromJS](DataforseoLabsGoogleRelatedKeywordsLiveItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsGoogleRelatedKeywordsLiveItem(data)
 
-• **new DataforseoLabsGoogleRelatedKeywordsLiveItem**(`data?`): [`DataforseoLabsGoogleRelatedKeywordsLiveItem`](DataforseoLabsGoogleRelatedKeywordsLiveItem.md)
+> **new DataforseoLabsGoogleRelatedKeywordsLiveItem**(`data`?): [`DataforseoLabsGoogleRelatedKeywordsLiveItem`](DataforseoLabsGoogleRelatedKeywordsLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsGoogleRelatedKeywordsLiveItem`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveItem.md) |
+• **data?**: [`IDataforseoLabsGoogleRelatedKeywordsLiveItem`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveItem.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleRelatedKeywordsLiveItem`](DataforseoLabsGoogleRelatedKeywordsLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:82692
+main.ts:82700
 
 ## Properties
 
-### depth
+### depth?
 
-• `Optional` **depth**: `number`
+> **`optional`** **depth**: `number`
 
 keyword search depth
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRelatedKeywordsLiveItem](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveItem.md).[depth](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveItem.md#depth)
+[`IDataforseoLabsGoogleRelatedKeywordsLiveItem`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveItem.md).[`depth`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveItem.md#depth)
 
-#### Defined in
+#### Source
 
-main.ts:82685
+main.ts:82693
 
-___
+***
 
-### keyword\_data
+### keyword\_data?
 
-• `Optional` **keyword\_data**: [`KeywordDataInfo`](KeywordDataInfo.md)
+> **`optional`** **keyword\_data**: [`KeywordDataInfo`](KeywordDataInfo.md)
 
 keyword data for the returned keyword
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRelatedKeywordsLiveItem](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveItem.md).[keyword_data](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveItem.md#keyword_data)
+[`IDataforseoLabsGoogleRelatedKeywordsLiveItem`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveItem.md).[`keyword_data`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveItem.md#keyword_data)
 
-#### Defined in
+#### Source
 
-main.ts:82683
+main.ts:82691
 
-___
+***
 
-### related\_keywords
+### related\_keywords?
 
-• `Optional` **related\_keywords**: `string`[]
+> **`optional`** **related\_keywords**: `string`[]
 
 list of related keywords
 represents the list of search queries which are related to the keyword returned in the array above
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRelatedKeywordsLiveItem](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveItem.md).[related_keywords](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveItem.md#related_keywords)
+[`IDataforseoLabsGoogleRelatedKeywordsLiveItem`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveItem.md).[`related_keywords`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveItem.md#related_keywords)
 
-#### Defined in
+#### Source
 
-main.ts:82688
+main.ts:82696
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRelatedKeywordsLiveItem](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveItem.md).[se_type](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveItem.md#se_type)
+[`IDataforseoLabsGoogleRelatedKeywordsLiveItem`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveItem.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:82681
+main.ts:82689
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:82701
+main.ts:82709
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:82725
+main.ts:82733
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsGoogleRelatedKeywordsLiveItem`](DataforseoLabsGoogleRelatedKeywordsLiveItem.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleRelatedKeywordsLiveItem`](DataforseoLabsGoogleRelatedKeywordsLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsGoogleRelatedKeywordsLiveItem`](DataforseoLabsGoogleRelatedKeywordsLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:82718
+main.ts:82726

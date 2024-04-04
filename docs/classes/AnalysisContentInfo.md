@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AnalysisContentInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AnalysisContentInfo
 
 # Class: AnalysisContentInfo
 
@@ -8,83 +12,47 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AnalysisContentInfo.md#constructor)
-
-### Properties
-
-- [author](AnalysisContentInfo.md#author)
-- [connotation\_types](AnalysisContentInfo.md#connotation_types)
-- [content\_quality\_score](AnalysisContentInfo.md#content_quality_score)
-- [content\_type](AnalysisContentInfo.md#content_type)
-- [date\_published](AnalysisContentInfo.md#date_published)
-- [group\_date](AnalysisContentInfo.md#group_date)
-- [highlighted\_text](AnalysisContentInfo.md#highlighted_text)
-- [language](AnalysisContentInfo.md#language)
-- [level](AnalysisContentInfo.md#level)
-- [main\_title](AnalysisContentInfo.md#main_title)
-- [previous\_title](AnalysisContentInfo.md#previous_title)
-- [rating](AnalysisContentInfo.md#rating)
-- [semantic\_location](AnalysisContentInfo.md#semantic_location)
-- [sentiment\_connotations](AnalysisContentInfo.md#sentiment_connotations)
-- [snippet](AnalysisContentInfo.md#snippet)
-- [snippet\_length](AnalysisContentInfo.md#snippet_length)
-- [social\_metrics](AnalysisContentInfo.md#social_metrics)
-- [text\_category](AnalysisContentInfo.md#text_category)
-- [title](AnalysisContentInfo.md#title)
-
-### Methods
-
-- [init](AnalysisContentInfo.md#init)
-- [toJSON](AnalysisContentInfo.md#tojson)
-- [fromJS](AnalysisContentInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AnalysisContentInfo(data)
 
-• **new AnalysisContentInfo**(`data?`): [`AnalysisContentInfo`](AnalysisContentInfo.md)
+> **new AnalysisContentInfo**(`data`?): [`AnalysisContentInfo`](AnalysisContentInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md) |
+• **data?**: [`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md)
 
 #### Returns
 
 [`AnalysisContentInfo`](AnalysisContentInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:161891
+main.ts:161899
 
 ## Properties
 
-### author
+### author?
 
-• `Optional` **author**: `string`
+> **`optional`** **author**: `string`
 
 author of the content
 
 #### Implementation of
 
-[IAnalysisContentInfo](../interfaces/IAnalysisContentInfo.md).[author](../interfaces/IAnalysisContentInfo.md#author)
+[`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md).[`author`](../interfaces/IAnalysisContentInfo.md#author)
 
-#### Defined in
+#### Source
 
-main.ts:161841
+main.ts:161849
 
-___
+***
 
-### connotation\_types
+### connotation\_types?
 
-• `Optional` **connotation\_types**: `Object`
+> **`optional`** **connotation\_types**: `Object`
 
 connotation types
 contains types of sentiments (sentiment polarity) related to the given citation and probability index per each sentiment type
@@ -92,38 +60,38 @@ possible sentiment connotation types: positive, negative, neutral
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
 #### Implementation of
 
-[IAnalysisContentInfo](../interfaces/IAnalysisContentInfo.md).[connotation_types](../interfaces/IAnalysisContentInfo.md#connotation_types)
+[`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md).[`connotation_types`](../interfaces/IAnalysisContentInfo.md#connotation_types)
 
-#### Defined in
+#### Source
 
-main.ts:161861
+main.ts:161869
 
-___
+***
 
-### content\_quality\_score
+### content\_quality\_score?
 
-• `Optional` **content\_quality\_score**: `number`
+> **`optional`** **content\_quality\_score**: `number`
 
 content quality score
 this value is calculated based on the number of words, sentences and characters the content contains
 
 #### Implementation of
 
-[IAnalysisContentInfo](../interfaces/IAnalysisContentInfo.md).[content_quality_score](../interfaces/IAnalysisContentInfo.md#content_quality_score)
+[`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md).[`content_quality_score`](../interfaces/IAnalysisContentInfo.md#content_quality_score)
 
-#### Defined in
+#### Source
 
-main.ts:161872
+main.ts:161880
 
-___
+***
 
-### content\_type
+### content\_type?
 
-• `Optional` **content\_type**: `string`
+> **`optional`** **content\_type**: `string`
 
 type of content
 example:
@@ -131,17 +99,17 @@ page_content, comment
 
 #### Implementation of
 
-[IAnalysisContentInfo](../interfaces/IAnalysisContentInfo.md).[content_type](../interfaces/IAnalysisContentInfo.md#content_type)
+[`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md).[`content_type`](../interfaces/IAnalysisContentInfo.md#content_type)
 
-#### Defined in
+#### Source
 
-main.ts:161830
+main.ts:161838
 
-___
+***
 
-### date\_published
+### date\_published?
 
-• `Optional` **date\_published**: `string`
+> **`optional`** **date\_published**: `string`
 
 date and time when the content was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -150,17 +118,17 @@ example:
 
 #### Implementation of
 
-[IAnalysisContentInfo](../interfaces/IAnalysisContentInfo.md).[date_published](../interfaces/IAnalysisContentInfo.md#date_published)
+[`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md).[`date_published`](../interfaces/IAnalysisContentInfo.md#date_published)
 
-#### Defined in
+#### Source
 
-main.ts:161869
+main.ts:161877
 
-___
+***
 
-### group\_date
+### group\_date?
 
-• `Optional` **group\_date**: `string`
+> **`optional`** **group\_date**: `string`
 
 citation group date and time
 indicates content publication date or date and time when our crawler visited the page for the first time;
@@ -171,116 +139,116 @@ example:
 
 #### Implementation of
 
-[IAnalysisContentInfo](../interfaces/IAnalysisContentInfo.md).[group_date](../interfaces/IAnalysisContentInfo.md#group_date)
+[`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md).[`group_date`](../interfaces/IAnalysisContentInfo.md#group_date)
 
-#### Defined in
+#### Source
 
-main.ts:161887
+main.ts:161895
 
-___
+***
 
-### highlighted\_text
+### highlighted\_text?
 
-• `Optional` **highlighted\_text**: `string`
+> **`optional`** **highlighted\_text**: `string`
 
 highlighted text from the snippet
 
 #### Implementation of
 
-[IAnalysisContentInfo](../interfaces/IAnalysisContentInfo.md).[highlighted_text](../interfaces/IAnalysisContentInfo.md#highlighted_text)
+[`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md).[`highlighted_text`](../interfaces/IAnalysisContentInfo.md#highlighted_text)
 
-#### Defined in
+#### Source
 
-main.ts:161850
+main.ts:161858
 
-___
+***
 
-### language
+### language?
 
-• `Optional` **language**: `string`
+> **`optional`** **language**: `string`
 
 content language
 to obtain a full list of available languages, refer to the Languages endpoint
 
 #### Implementation of
 
-[IAnalysisContentInfo](../interfaces/IAnalysisContentInfo.md).[language](../interfaces/IAnalysisContentInfo.md#language)
+[`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md).[`language`](../interfaces/IAnalysisContentInfo.md#language)
 
-#### Defined in
+#### Source
 
-main.ts:161853
+main.ts:161861
 
-___
+***
 
-### level
+### level?
 
-• `Optional` **level**: `number`
+> **`optional`** **level**: `number`
 
 title heading level
 indicates h-tag level from 1 (top) to 6 (bottom)
 
 #### Implementation of
 
-[IAnalysisContentInfo](../interfaces/IAnalysisContentInfo.md).[level](../interfaces/IAnalysisContentInfo.md#level)
+[`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md).[`level`](../interfaces/IAnalysisContentInfo.md#level)
 
-#### Defined in
+#### Source
 
-main.ts:161839
+main.ts:161847
 
-___
+***
 
-### main\_title
+### main\_title?
 
-• `Optional` **main\_title**: `string`
+> **`optional`** **main\_title**: `string`
 
 page title
 
 #### Implementation of
 
-[IAnalysisContentInfo](../interfaces/IAnalysisContentInfo.md).[main_title](../interfaces/IAnalysisContentInfo.md#main_title)
+[`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md).[`main_title`](../interfaces/IAnalysisContentInfo.md#main_title)
 
-#### Defined in
+#### Source
 
-main.ts:161834
+main.ts:161842
 
-___
+***
 
-### previous\_title
+### previous\_title?
 
-• `Optional` **previous\_title**: `string`
+> **`optional`** **previous\_title**: `string`
 
 title of the previous content block
 
 #### Implementation of
 
-[IAnalysisContentInfo](../interfaces/IAnalysisContentInfo.md).[previous_title](../interfaces/IAnalysisContentInfo.md#previous_title)
+[`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md).[`previous_title`](../interfaces/IAnalysisContentInfo.md#previous_title)
 
-#### Defined in
+#### Source
 
-main.ts:161836
+main.ts:161844
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`ContentAnalysisRatingInfo`](ContentAnalysisRatingInfo.md)
+> **`optional`** **rating**: [`ContentAnalysisRatingInfo`](ContentAnalysisRatingInfo.md)
 
 content rating
 rating related to content_info
 
 #### Implementation of
 
-[IAnalysisContentInfo](../interfaces/IAnalysisContentInfo.md).[rating](../interfaces/IAnalysisContentInfo.md#rating)
+[`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md).[`rating`](../interfaces/IAnalysisContentInfo.md#rating)
 
-#### Defined in
+#### Source
 
-main.ts:161880
+main.ts:161888
 
-___
+***
 
-### semantic\_location
+### semantic\_location?
 
-• `Optional` **semantic\_location**: `string`
+> **`optional`** **semantic\_location**: `string`
 
 semantic location
 indicates semantic element in HTML where the target keyword citation is located
@@ -289,17 +257,17 @@ article, header
 
 #### Implementation of
 
-[IAnalysisContentInfo](../interfaces/IAnalysisContentInfo.md).[semantic_location](../interfaces/IAnalysisContentInfo.md#semantic_location)
+[`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md).[`semantic_location`](../interfaces/IAnalysisContentInfo.md#semantic_location)
 
-#### Defined in
+#### Source
 
-main.ts:161877
+main.ts:161885
 
-___
+***
 
-### sentiment\_connotations
+### sentiment\_connotations?
 
-• `Optional` **sentiment\_connotations**: `Object`
+> **`optional`** **sentiment\_connotations**: `Object`
 
 sentiment connotations
 contains sentiments (emotional reactions) related to the given citation and probability index per each sentiment
@@ -307,154 +275,148 @@ possible sentiment connotations: anger, happiness, love, sadness, share, fun
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
 #### Implementation of
 
-[IAnalysisContentInfo](../interfaces/IAnalysisContentInfo.md).[sentiment_connotations](../interfaces/IAnalysisContentInfo.md#sentiment_connotations)
+[`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md).[`sentiment_connotations`](../interfaces/IAnalysisContentInfo.md#sentiment_connotations)
 
-#### Defined in
+#### Source
 
-main.ts:161857
+main.ts:161865
 
-___
+***
 
-### snippet
+### snippet?
 
-• `Optional` **snippet**: `string`
+> **`optional`** **snippet**: `string`
 
 content snippet
 
 #### Implementation of
 
-[IAnalysisContentInfo](../interfaces/IAnalysisContentInfo.md).[snippet](../interfaces/IAnalysisContentInfo.md#snippet)
+[`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md).[`snippet`](../interfaces/IAnalysisContentInfo.md#snippet)
 
-#### Defined in
+#### Source
 
-main.ts:161843
+main.ts:161851
 
-___
+***
 
-### snippet\_length
+### snippet\_length?
 
-• `Optional` **snippet\_length**: `number`
+> **`optional`** **snippet\_length**: `number`
 
 character length of the snippet
 
 #### Implementation of
 
-[IAnalysisContentInfo](../interfaces/IAnalysisContentInfo.md).[snippet_length](../interfaces/IAnalysisContentInfo.md#snippet_length)
+[`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md).[`snippet_length`](../interfaces/IAnalysisContentInfo.md#snippet_length)
 
-#### Defined in
+#### Source
 
-main.ts:161845
+main.ts:161853
 
-___
+***
 
-### social\_metrics
+### social\_metrics?
 
-• `Optional` **social\_metrics**: [`SocialMetricsInfo`](SocialMetricsInfo.md)[]
+> **`optional`** **social\_metrics**: [`SocialMetricsInfo`](SocialMetricsInfo.md)[]
 
 social media engagement metrics
 data on social media interactions associated with the content based on website embeds developed and supported by social media platforms
 
 #### Implementation of
 
-[IAnalysisContentInfo](../interfaces/IAnalysisContentInfo.md).[social_metrics](../interfaces/IAnalysisContentInfo.md#social_metrics)
+[`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md).[`social_metrics`](../interfaces/IAnalysisContentInfo.md#social_metrics)
 
-#### Defined in
+#### Source
 
-main.ts:161848
+main.ts:161856
 
-___
+***
 
-### text\_category
+### text\_category?
 
-• `Optional` **text\_category**: `number`[]
+> **`optional`** **text\_category**: `number`[]
 
 text category
 to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Implementation of
 
-[IAnalysisContentInfo](../interfaces/IAnalysisContentInfo.md).[text_category](../interfaces/IAnalysisContentInfo.md#text_category)
+[`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md).[`text_category`](../interfaces/IAnalysisContentInfo.md#text_category)
 
-#### Defined in
+#### Source
 
-main.ts:161864
+main.ts:161872
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the result
 
 #### Implementation of
 
-[IAnalysisContentInfo](../interfaces/IAnalysisContentInfo.md).[title](../interfaces/IAnalysisContentInfo.md#title)
+[`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md).[`title`](../interfaces/IAnalysisContentInfo.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:161832
+main.ts:161840
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:161900
+main.ts:161908
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:161955
+main.ts:161963
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AnalysisContentInfo`](AnalysisContentInfo.md)
+> **`static`** **fromJS**(`data`): [`AnalysisContentInfo`](AnalysisContentInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AnalysisContentInfo`](AnalysisContentInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:161948
+main.ts:161956

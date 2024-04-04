@@ -1,49 +1,35 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataBingKeywordPerformanceLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IKeywordsDataBingKeywordPerformanceLiveRequestInfo
 
 # Interface: IKeywordsDataBingKeywordPerformanceLiveRequestInfo
 
-## Implemented by
-
-- [`KeywordsDataBingKeywordPerformanceLiveRequestInfo`](../classes/KeywordsDataBingKeywordPerformanceLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [device](IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md#device)
-- [keywords](IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md#keywords)
-- [language\_code](IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md#language_code)
-- [language\_name](IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md#language_name)
-- [location\_code](IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md#location_code)
-- [location\_coordinate](IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md#location_coordinate)
-- [location\_name](IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md#location_name)
-- [match](IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md#match)
-- [tag](IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### device
+### device?
 
-• `Optional` **device**: `string`
+> **`optional`** **device**: `string`
 
 device type
 optional field
 specify this field if you want to get the data for a particular device typepossible values: desktop, mobile, tablet, all
 default value: all
 
-#### Defined in
+#### Source
 
-main.ts:133048
+main.ts:133056
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 keywords
 required field
@@ -52,15 +38,15 @@ The maximum number of characters for each keyword: 80.
 The maximum number of words for each keyword phrase: 10.
 the specified keywords will be converted to lowercase, data will be provided in a separate array
 
-#### Defined in
+#### Source
 
-main.ts:133043
+main.ts:133051
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -68,15 +54,15 @@ you can receive the list of available locations and languages by making a separa
 example:
 "en"
 
-#### Defined in
+#### Source
 
-main.ts:133091
+main.ts:133099
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -85,15 +71,15 @@ you can receive the list of available locations and languages by making a separa
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:133085
+main.ts:133093
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -102,15 +88,15 @@ you can receive the list of available locations and languages by making a separa
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:133070
+main.ts:133078
 
-___
+***
 
-### location\_coordinate
+### location\_coordinate?
 
-• `Optional` **location\_coordinate**: `string`
+> **`optional`** **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -120,15 +106,15 @@ the data will be provided for the country the specified coordinates belong to
 example:
 52.6178549,-155.352142
 
-#### Defined in
+#### Source
 
-main.ts:133078
+main.ts:133086
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -137,15 +123,15 @@ you can receive the list of available locations and languages by making a separa
 example:
 "United States"
 
-#### Defined in
+#### Source
 
-main.ts:133063
+main.ts:133071
 
-___
+***
 
-### match
+### match?
 
-• `Optional` **match**: `string`
+> **`optional`** **match**: `string`
 
 keywords match type
 optional field
@@ -155,15 +141,15 @@ broad returns data for all user queries containing the specified keyword with va
 phrase returns data for all user queries containing the specified keyword with identical word order;
 exact returns data for user query that matches the specified keyword;Note: the aggregate match type is applied by default
 
-#### Defined in
+#### Source
 
-main.ts:133056
+main.ts:133064
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -171,6 +157,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:133097
+main.ts:133105

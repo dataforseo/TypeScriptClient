@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleAdsStatusResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataGoogleAdsStatusResultInfo
 
 # Class: KeywordsDataGoogleAdsStatusResultInfo
 
@@ -8,52 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataGoogleAdsStatusResultInfo.md#constructor)
-
-### Properties
-
-- [actual\_data](KeywordsDataGoogleAdsStatusResultInfo.md#actual_data)
-- [date\_update](KeywordsDataGoogleAdsStatusResultInfo.md#date_update)
-- [last\_month\_in\_monthly\_searches](KeywordsDataGoogleAdsStatusResultInfo.md#last_month_in_monthly_searches)
-- [last\_year\_in\_monthly\_searches](KeywordsDataGoogleAdsStatusResultInfo.md#last_year_in_monthly_searches)
-
-### Methods
-
-- [init](KeywordsDataGoogleAdsStatusResultInfo.md#init)
-- [toJSON](KeywordsDataGoogleAdsStatusResultInfo.md#tojson)
-- [fromJS](KeywordsDataGoogleAdsStatusResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordsDataGoogleAdsStatusResultInfo(data)
 
-• **new KeywordsDataGoogleAdsStatusResultInfo**(`data?`): [`KeywordsDataGoogleAdsStatusResultInfo`](KeywordsDataGoogleAdsStatusResultInfo.md)
+> **new KeywordsDataGoogleAdsStatusResultInfo**(`data`?): [`KeywordsDataGoogleAdsStatusResultInfo`](KeywordsDataGoogleAdsStatusResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordsDataGoogleAdsStatusResultInfo`](../interfaces/IKeywordsDataGoogleAdsStatusResultInfo.md) |
+• **data?**: [`IKeywordsDataGoogleAdsStatusResultInfo`](../interfaces/IKeywordsDataGoogleAdsStatusResultInfo.md)
 
 #### Returns
 
 [`KeywordsDataGoogleAdsStatusResultInfo`](KeywordsDataGoogleAdsStatusResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:115303
+main.ts:115311
 
 ## Properties
 
-### actual\_data
+### actual\_data?
 
-• `Optional` **actual\_data**: `boolean`
+> **`optional`** **actual\_data**: `boolean`
 
 indicates whether Google updated keyword data for the previous month
 generally, Google updates keyword data in the middle of the month
@@ -62,17 +45,17 @@ if the value is false, we are not able to provide data for the previous month
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsStatusResultInfo](../interfaces/IKeywordsDataGoogleAdsStatusResultInfo.md).[actual_data](../interfaces/IKeywordsDataGoogleAdsStatusResultInfo.md#actual_data)
+[`IKeywordsDataGoogleAdsStatusResultInfo`](../interfaces/IKeywordsDataGoogleAdsStatusResultInfo.md).[`actual_data`](../interfaces/IKeywordsDataGoogleAdsStatusResultInfo.md#actual_data)
 
-#### Defined in
+#### Source
 
-main.ts:115290
+main.ts:115298
 
-___
+***
 
-### date\_update
+### date\_update?
 
-• `Optional` **date\_update**: `string`
+> **`optional`** **date\_update**: `string`
 
 date of the latest update of Google Ads data
 indicates the latest date when Google updated search volume, CPC, and other keyword metrics
@@ -81,100 +64,94 @@ example:
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsStatusResultInfo](../interfaces/IKeywordsDataGoogleAdsStatusResultInfo.md).[date_update](../interfaces/IKeywordsDataGoogleAdsStatusResultInfo.md#date_update)
+[`IKeywordsDataGoogleAdsStatusResultInfo`](../interfaces/IKeywordsDataGoogleAdsStatusResultInfo.md).[`date_update`](../interfaces/IKeywordsDataGoogleAdsStatusResultInfo.md#date_update)
 
-#### Defined in
+#### Source
 
-main.ts:115295
+main.ts:115303
 
-___
+***
 
-### last\_month\_in\_monthly\_searches
+### last\_month\_in\_monthly\_searches?
 
-• `Optional` **last\_month\_in\_monthly\_searches**: `number`
+> **`optional`** **last\_month\_in\_monthly\_searches**: `number`
 
 the latest month for which search volume data is available
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsStatusResultInfo](../interfaces/IKeywordsDataGoogleAdsStatusResultInfo.md).[last_month_in_monthly_searches](../interfaces/IKeywordsDataGoogleAdsStatusResultInfo.md#last_month_in_monthly_searches)
+[`IKeywordsDataGoogleAdsStatusResultInfo`](../interfaces/IKeywordsDataGoogleAdsStatusResultInfo.md).[`last_month_in_monthly_searches`](../interfaces/IKeywordsDataGoogleAdsStatusResultInfo.md#last_month_in_monthly_searches)
 
-#### Defined in
+#### Source
 
-main.ts:115299
+main.ts:115307
 
-___
+***
 
-### last\_year\_in\_monthly\_searches
+### last\_year\_in\_monthly\_searches?
 
-• `Optional` **last\_year\_in\_monthly\_searches**: `number`
+> **`optional`** **last\_year\_in\_monthly\_searches**: `number`
 
 the latest year for which search volume data is available
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsStatusResultInfo](../interfaces/IKeywordsDataGoogleAdsStatusResultInfo.md).[last_year_in_monthly_searches](../interfaces/IKeywordsDataGoogleAdsStatusResultInfo.md#last_year_in_monthly_searches)
+[`IKeywordsDataGoogleAdsStatusResultInfo`](../interfaces/IKeywordsDataGoogleAdsStatusResultInfo.md).[`last_year_in_monthly_searches`](../interfaces/IKeywordsDataGoogleAdsStatusResultInfo.md#last_year_in_monthly_searches)
 
-#### Defined in
+#### Source
 
-main.ts:115297
+main.ts:115305
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:115312
+main.ts:115320
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:115332
+main.ts:115340
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordsDataGoogleAdsStatusResultInfo`](KeywordsDataGoogleAdsStatusResultInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordsDataGoogleAdsStatusResultInfo`](KeywordsDataGoogleAdsStatusResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`KeywordsDataGoogleAdsStatusResultInfo`](KeywordsDataGoogleAdsStatusResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:115325
+main.ts:115333

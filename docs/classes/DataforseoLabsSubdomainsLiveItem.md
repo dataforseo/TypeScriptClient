@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsSubdomainsLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsSubdomainsLiveItem
 
 # Class: DataforseoLabsSubdomainsLiveItem
 
@@ -8,154 +12,128 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsSubdomainsLiveItem.md#constructor)
-
-### Properties
-
-- [metrics](DataforseoLabsSubdomainsLiveItem.md#metrics)
-- [se\_type](DataforseoLabsSubdomainsLiveItem.md#se_type)
-- [subdomain](DataforseoLabsSubdomainsLiveItem.md#subdomain)
-
-### Methods
-
-- [init](DataforseoLabsSubdomainsLiveItem.md#init)
-- [toJSON](DataforseoLabsSubdomainsLiveItem.md#tojson)
-- [fromJS](DataforseoLabsSubdomainsLiveItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsSubdomainsLiveItem(data)
 
-• **new DataforseoLabsSubdomainsLiveItem**(`data?`): [`DataforseoLabsSubdomainsLiveItem`](DataforseoLabsSubdomainsLiveItem.md)
+> **new DataforseoLabsSubdomainsLiveItem**(`data`?): [`DataforseoLabsSubdomainsLiveItem`](DataforseoLabsSubdomainsLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsSubdomainsLiveItem`](../interfaces/IDataforseoLabsSubdomainsLiveItem.md) |
+• **data?**: [`IDataforseoLabsSubdomainsLiveItem`](../interfaces/IDataforseoLabsSubdomainsLiveItem.md)
 
 #### Returns
 
 [`DataforseoLabsSubdomainsLiveItem`](DataforseoLabsSubdomainsLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:92005
+main.ts:92013
 
 ## Properties
 
-### metrics
+### metrics?
 
-• `Optional` **metrics**: `Object`
+> **`optional`** **metrics**: `Object`
 
 ranking data relevant to subdomain
 
 #### Index signature
 
-▪ [key: `string`]: [`MetricsInfo`](MetricsInfo.md)
+ \[`key`: `string`\]: [`MetricsInfo`](MetricsInfo.md)
 
 #### Implementation of
 
-[IDataforseoLabsSubdomainsLiveItem](../interfaces/IDataforseoLabsSubdomainsLiveItem.md).[metrics](../interfaces/IDataforseoLabsSubdomainsLiveItem.md#metrics)
+[`IDataforseoLabsSubdomainsLiveItem`](../interfaces/IDataforseoLabsSubdomainsLiveItem.md).[`metrics`](../interfaces/IDataforseoLabsSubdomainsLiveItem.md#metrics)
 
-#### Defined in
+#### Source
 
-main.ts:92001
+main.ts:92009
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IDataforseoLabsSubdomainsLiveItem](../interfaces/IDataforseoLabsSubdomainsLiveItem.md).[se_type](../interfaces/IDataforseoLabsSubdomainsLiveItem.md#se_type)
+[`IDataforseoLabsSubdomainsLiveItem`](../interfaces/IDataforseoLabsSubdomainsLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsSubdomainsLiveItem.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:91997
+main.ts:92005
 
-___
+***
 
-### subdomain
+### subdomain?
 
-• `Optional` **subdomain**: `string`
+> **`optional`** **subdomain**: `string`
 
 returned subdomain
 
 #### Implementation of
 
-[IDataforseoLabsSubdomainsLiveItem](../interfaces/IDataforseoLabsSubdomainsLiveItem.md).[subdomain](../interfaces/IDataforseoLabsSubdomainsLiveItem.md#subdomain)
+[`IDataforseoLabsSubdomainsLiveItem`](../interfaces/IDataforseoLabsSubdomainsLiveItem.md).[`subdomain`](../interfaces/IDataforseoLabsSubdomainsLiveItem.md#subdomain)
 
-#### Defined in
+#### Source
 
-main.ts:91999
+main.ts:92007
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:92014
+main.ts:92022
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:92039
+main.ts:92047
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsSubdomainsLiveItem`](DataforseoLabsSubdomainsLiveItem.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsSubdomainsLiveItem`](DataforseoLabsSubdomainsLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsSubdomainsLiveItem`](DataforseoLabsSubdomainsLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:92032
+main.ts:92040

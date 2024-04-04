@@ -1,137 +1,122 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IGoogleHotelsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IGoogleHotelsSerpElementItem
 
 # Interface: IGoogleHotelsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
 
-  ↳ **`IGoogleHotelsSerpElementItem`**
-
-## Implemented by
-
-- [`GoogleHotelsSerpElementItem`](../classes/GoogleHotelsSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [cid](IGoogleHotelsSerpElementItem.md#cid)
-- [hotel\_identifier](IGoogleHotelsSerpElementItem.md#hotel_identifier)
-- [position](IGoogleHotelsSerpElementItem.md#position)
-- [rank\_absolute](IGoogleHotelsSerpElementItem.md#rank_absolute)
-- [rank\_group](IGoogleHotelsSerpElementItem.md#rank_group)
-- [rectangle](IGoogleHotelsSerpElementItem.md#rectangle)
-- [url](IGoogleHotelsSerpElementItem.md#url)
-- [xpath](IGoogleHotelsSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### cid
+### cid?
 
-• `Optional` **cid**: `string`
+> **`optional`** **cid**: `string`
 
 google-defined client id
 
-#### Defined in
+#### Source
 
-main.ts:34808
+main.ts:34814
 
-___
+***
 
-### hotel\_identifier
+### hotel\_identifier?
 
-• `Optional` **hotel\_identifier**: `string`
+> **`optional`** **hotel\_identifier**: `string`
 
 unique hotel identifier
 unique hotel identifier assigned by Google;
 example: "CgoIjaeSlI6CnNpVEAE"
 
-#### Defined in
+#### Source
 
-main.ts:34804
+main.ts:34810
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
-main.ts:34798
+main.ts:34804
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop
 
-#### Defined in
+#### Source
 
-main.ts:34794
+main.ts:34800
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
 positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop
 
-#### Defined in
+#### Source
 
-main.ts:34790
+main.ts:34796
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
 equals null if calculate_rectangles in the POST request is not set to true
 
-#### Defined in
+#### Source
 
-main.ts:34812
+main.ts:34818
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 source URL
 
-#### Defined in
+#### Source
 
-main.ts:34806
+main.ts:34812
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
-main.ts:34800
+main.ts:34806

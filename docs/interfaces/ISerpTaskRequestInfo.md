@@ -1,49 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpTaskRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ISerpTaskRequestInfo
 
 # Interface: ISerpTaskRequestInfo
 
-## Implemented by
-
-- [`SerpTaskRequestInfo`](../classes/SerpTaskRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [browser\_screen\_height](ISerpTaskRequestInfo.md#browser_screen_height)
-- [browser\_screen\_resolution\_ratio](ISerpTaskRequestInfo.md#browser_screen_resolution_ratio)
-- [browser\_screen\_width](ISerpTaskRequestInfo.md#browser_screen_width)
-- [calculate\_rectangles](ISerpTaskRequestInfo.md#calculate_rectangles)
-- [depth](ISerpTaskRequestInfo.md#depth)
-- [device](ISerpTaskRequestInfo.md#device)
-- [group\_organic\_results](ISerpTaskRequestInfo.md#group_organic_results)
-- [keyword](ISerpTaskRequestInfo.md#keyword)
-- [language\_code](ISerpTaskRequestInfo.md#language_code)
-- [language\_name](ISerpTaskRequestInfo.md#language_name)
-- [location\_code](ISerpTaskRequestInfo.md#location_code)
-- [location\_coordinate](ISerpTaskRequestInfo.md#location_coordinate)
-- [location\_name](ISerpTaskRequestInfo.md#location_name)
-- [max\_crawl\_pages](ISerpTaskRequestInfo.md#max_crawl_pages)
-- [os](ISerpTaskRequestInfo.md#os)
-- [people\_also\_ask\_click\_depth](ISerpTaskRequestInfo.md#people_also_ask_click_depth)
-- [pingback\_url](ISerpTaskRequestInfo.md#pingback_url)
-- [postback\_data](ISerpTaskRequestInfo.md#postback_data)
-- [postback\_url](ISerpTaskRequestInfo.md#postback_url)
-- [priority](ISerpTaskRequestInfo.md#priority)
-- [se\_domain](ISerpTaskRequestInfo.md#se_domain)
-- [search\_param](ISerpTaskRequestInfo.md#search_param)
-- [tag](ISerpTaskRequestInfo.md#tag)
-- [url](ISerpTaskRequestInfo.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### browser\_screen\_height
+### browser\_screen\_height?
 
-• `Optional` **browser\_screen\_height**: `number`
+> **`optional`** **browser\_screen\_height**: `number`
 
 browser screen height
 optional field
@@ -54,15 +25,15 @@ by default, the parameter is set to:
 812 for mobile on iOS;
 Note: to use this parameter, set calculate_rectangles to true
 
-#### Defined in
+#### Source
 
 main.ts:219026
 
-___
+***
 
-### browser\_screen\_resolution\_ratio
+### browser\_screen\_resolution\_ratio?
 
-• `Optional` **browser\_screen\_resolution\_ratio**: `number`
+> **`optional`** **browser\_screen\_resolution\_ratio**: `number`
 
 browser screen resolution ratio
 optional field
@@ -73,15 +44,15 @@ by default, the parameter is set to:
 3 for mobile on iOS;
 Note: to use this parameter, set calculate_rectangles to true
 
-#### Defined in
+#### Source
 
 main.ts:219035
 
-___
+***
 
-### browser\_screen\_width
+### browser\_screen\_width?
 
-• `Optional` **browser\_screen\_width**: `number`
+> **`optional`** **browser\_screen\_width**: `number`
 
 browser screen width
 optional field
@@ -92,15 +63,15 @@ by default, the parameter is set to:
 375 for mobile on iOS;
 Note: to use this parameter, set calculate_rectangles to true
 
-#### Defined in
+#### Source
 
 main.ts:219017
 
-___
+***
 
-### calculate\_rectangles
+### calculate\_rectangles?
 
-• `Optional` **calculate\_rectangles**: `boolean`
+> **`optional`** **calculate\_rectangles**: `boolean`
 
 calcualte pixel rankings for SERP elements in advanced results
 optional field
@@ -109,15 +80,15 @@ Visit Help Center to learn more>>
 by default, the parameter is set to false
 Note: if set to true, the charge per task will be multiplied by 2
 
-#### Defined in
+#### Source
 
 main.ts:219008
 
-___
+***
 
-### depth
+### depth?
 
-• `Optional` **depth**: `number`
+> **`optional`** **depth**: `number`
 
 parsing depth
 optional field
@@ -128,30 +99,30 @@ Note: your account will be billed per each SERP containing up to 100 results;
 thus, setting a depth above 100 may result in additional charges if the search engine returns more than 100 results;
 if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance
 
-#### Defined in
+#### Source
 
 main.ts:218931
 
-___
+***
 
-### device
+### device?
 
-• `Optional` **device**: `string`
+> **`optional`** **device**: `string`
 
 device type
 optional field
 can take the values:desktop, mobile
 default value: desktop
 
-#### Defined in
+#### Source
 
 main.ts:218988
 
-___
+***
 
-### group\_organic\_results
+### group\_organic\_results?
 
-• `Optional` **group\_organic\_results**: `boolean`
+> **`optional`** **group\_organic\_results**: `boolean`
 
 display related results
 optional field
@@ -159,15 +130,15 @@ if set to true, the related_result element in the response will be provided as a
 if set to false, the related_result element will be provided as a separate organic result;
 default value: true
 
-#### Defined in
+#### Source
 
 main.ts:219001
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword
 required field
@@ -178,15 +149,15 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘site:’, the charge per task will be multiplied by 5
 Note: queries containing the ‘cache:’ parameter are not supported and will return a validation error
 
-#### Defined in
+#### Source
 
 main.ts:218908
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -195,15 +166,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 en
 
-#### Defined in
+#### Source
 
 main.ts:218976
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -212,15 +183,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 English
 
-#### Defined in
+#### Source
 
 main.ts:218969
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -229,15 +200,15 @@ you can receive the list of available locations of the search engines with their
 example:
 2840
 
-#### Defined in
+#### Source
 
 main.ts:218952
 
-___
+***
 
-### location\_coordinate
+### location\_coordinate?
 
-• `Optional` **location\_coordinate**: `string`
+> **`optional`** **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -249,15 +220,15 @@ the maximum value for “radius”: 199999 (mm)
 example:
 53.476225,-2.243572,200
 
-#### Defined in
+#### Source
 
 main.ts:218962
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -266,15 +237,15 @@ you can receive the list of available locations of the search engine with their 
 example:
 London,England,United Kingdom
 
-#### Defined in
+#### Source
 
 main.ts:218945
 
-___
+***
 
-### max\_crawl\_pages
+### max\_crawl\_pages?
 
-• `Optional` **max\_crawl\_pages**: `number`
+> **`optional`** **max\_crawl\_pages**: `number`
 
 page crawl limit
 optional field
@@ -283,15 +254,15 @@ max value: 100
 Note: the max_crawl_pages and depth parameters complement each other;
 learn more at our help center
 
-#### Defined in
+#### Source
 
 main.ts:218938
 
-___
+***
 
-### os
+### os?
 
-• `Optional` **os**: `string`
+> **`optional`** **os**: `string`
 
 device operating system
 optional field
@@ -300,15 +271,15 @@ default value: windows
 if you specify mobile in the device field, choose from the following values: android, ios
 default value: android
 
-#### Defined in
+#### Source
 
 main.ts:218995
 
-___
+***
 
-### people\_also\_ask\_click\_depth
+### people\_also\_ask\_click\_depth?
 
-• `Optional` **people\_also\_ask\_click\_depth**: `number`
+> **`optional`** **people\_also\_ask\_click\_depth**: `number`
 
 clicks on the corresponding element
 optional field
@@ -317,15 +288,15 @@ Note your account will be billed $0.00015 extra for each click regardless of tas
 if the element is absent or we perform fewer clicks than you specified, all extra charges will be returned to your account balance
 possible values: from 1 to 4
 
-#### Defined in
+#### Source
 
 main.ts:219042
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -337,15 +308,15 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special symbols in pingback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
 main.ts:219078
 
-___
+***
 
-### postback\_data
+### postback\_data?
 
-• `Optional` **postback\_data**: `string`
+> **`optional`** **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -353,15 +324,15 @@ corresponds to the datatype that will be sent to your server
 possible values:
 regular, advanced, html
 
-#### Defined in
+#### Source
 
 main.ts:219068
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -373,15 +344,15 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special symbols in postback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
 main.ts:219062
 
-___
+***
 
-### priority
+### priority?
 
-• `Optional` **priority**: `number`
+> **`optional`** **priority**: `number`
 
 task priority
 optional field
@@ -391,15 +362,15 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority;
 The cost can be calculated on the Pricing page
 
-#### Defined in
+#### Source
 
 main.ts:218922
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain
 optional field
@@ -408,29 +379,29 @@ however, you can set a custom search engine domain in this field
 example:
 google.co.uk, google.com.au, google.de, etc.
 
-#### Defined in
+#### Source
 
 main.ts:218983
 
-___
+***
 
-### search\_param
+### search\_param?
 
-• `Optional` **search\_param**: `string`
+> **`optional`** **search\_param**: `string`
 
 additional parameters of the search query
 optional field
 get the list of available parameters and additional details here
 
-#### Defined in
+#### Source
 
 main.ts:219046
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -438,15 +409,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
 main.ts:219052
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 direct URL of the search query
 optional field
@@ -454,6 +425,6 @@ you can specify a direct URL and we will sort it out to the necessary fields. No
 example:
 https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAIQIFISCXXeIa8LoNhHEZkq1d1aOpZS
 
-#### Defined in
+#### Source
 
 main.ts:218914

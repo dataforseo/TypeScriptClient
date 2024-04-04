@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / FaqBox
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / FaqBox
 
 # Class: FaqBox
 
@@ -8,133 +12,108 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](FaqBox.md#constructor)
-
-### Properties
-
-- [items](FaqBox.md#items)
-- [type](FaqBox.md#type)
-
-### Methods
-
-- [init](FaqBox.md#init)
-- [toJSON](FaqBox.md#tojson)
-- [fromJS](FaqBox.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new FaqBox(data)
 
-• **new FaqBox**(`data?`): [`FaqBox`](FaqBox.md)
+> **new FaqBox**(`data`?): [`FaqBox`](FaqBox.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IFaqBox`](../interfaces/IFaqBox.md) |
+• **data?**: [`IFaqBox`](../interfaces/IFaqBox.md)
 
 #### Returns
 
 [`FaqBox`](FaqBox.md)
 
-#### Defined in
+#### Source
 
 main.ts:28655
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`FaqBoxElement`](FaqBoxElement.md)[]
+> **`optional`** **items**: [`FaqBoxElement`](FaqBoxElement.md)[]
 
 contains results featured in the ‘hotels_pack’ element of SERP
 
 #### Implementation of
 
-[IFaqBox](../interfaces/IFaqBox.md).[items](../interfaces/IFaqBox.md#items)
+[`IFaqBox`](../interfaces/IFaqBox.md).[`items`](../interfaces/IFaqBox.md#items)
 
-#### Defined in
+#### Source
 
 main.ts:28651
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IFaqBox](../interfaces/IFaqBox.md).[type](../interfaces/IFaqBox.md#type)
+[`IFaqBox`](../interfaces/IFaqBox.md).[`type`](../interfaces/IFaqBox.md#type)
 
-#### Defined in
+#### Source
 
 main.ts:28649
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:28664
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:28686
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`FaqBox`](FaqBox.md)
+> **`static`** **fromJS**(`data`): [`FaqBox`](FaqBox.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`FaqBox`](FaqBox.md)
 
-#### Defined in
+#### Source
 
 main.ts:28679

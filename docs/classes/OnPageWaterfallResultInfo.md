@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageWaterfallResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPageWaterfallResultInfo
 
 # Class: OnPageWaterfallResultInfo
 
@@ -8,168 +12,141 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPageWaterfallResultInfo.md#constructor)
-
-### Properties
-
-- [crawl\_progress](OnPageWaterfallResultInfo.md#crawl_progress)
-- [crawl\_status](OnPageWaterfallResultInfo.md#crawl_status)
-- [items](OnPageWaterfallResultInfo.md#items)
-- [items\_count](OnPageWaterfallResultInfo.md#items_count)
-
-### Methods
-
-- [init](OnPageWaterfallResultInfo.md#init)
-- [toJSON](OnPageWaterfallResultInfo.md#tojson)
-- [fromJS](OnPageWaterfallResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPageWaterfallResultInfo(data)
 
-• **new OnPageWaterfallResultInfo**(`data?`): [`OnPageWaterfallResultInfo`](OnPageWaterfallResultInfo.md)
+> **new OnPageWaterfallResultInfo**(`data`?): [`OnPageWaterfallResultInfo`](OnPageWaterfallResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPageWaterfallResultInfo`](../interfaces/IOnPageWaterfallResultInfo.md) |
+• **data?**: [`IOnPageWaterfallResultInfo`](../interfaces/IOnPageWaterfallResultInfo.md)
 
 #### Returns
 
 [`OnPageWaterfallResultInfo`](OnPageWaterfallResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:155291
+main.ts:155299
 
 ## Properties
 
-### crawl\_progress
+### crawl\_progress?
 
-• `Optional` **crawl\_progress**: `string`
+> **`optional`** **crawl\_progress**: `string`
 
 status of the crawling session
 possible values: in_progress, finished
 
 #### Implementation of
 
-[IOnPageWaterfallResultInfo](../interfaces/IOnPageWaterfallResultInfo.md).[crawl_progress](../interfaces/IOnPageWaterfallResultInfo.md#crawl_progress)
+[`IOnPageWaterfallResultInfo`](../interfaces/IOnPageWaterfallResultInfo.md).[`crawl_progress`](../interfaces/IOnPageWaterfallResultInfo.md#crawl_progress)
 
-#### Defined in
+#### Source
 
-main.ts:155281
+main.ts:155289
 
-___
+***
 
-### crawl\_status
+### crawl\_status?
 
-• `Optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
+> **`optional`** **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
 details of the crawling session
 
 #### Implementation of
 
-[IOnPageWaterfallResultInfo](../interfaces/IOnPageWaterfallResultInfo.md).[crawl_status](../interfaces/IOnPageWaterfallResultInfo.md#crawl_status)
+[`IOnPageWaterfallResultInfo`](../interfaces/IOnPageWaterfallResultInfo.md).[`crawl_status`](../interfaces/IOnPageWaterfallResultInfo.md#crawl_status)
 
-#### Defined in
+#### Source
 
-main.ts:155283
+main.ts:155291
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`OnPageWaterfallItem`](OnPageWaterfallItem.md)[]
+> **`optional`** **items**: [`OnPageWaterfallItem`](OnPageWaterfallItem.md)[]
 
 items array
 
 #### Implementation of
 
-[IOnPageWaterfallResultInfo](../interfaces/IOnPageWaterfallResultInfo.md).[items](../interfaces/IOnPageWaterfallResultInfo.md#items)
+[`IOnPageWaterfallResultInfo`](../interfaces/IOnPageWaterfallResultInfo.md).[`items`](../interfaces/IOnPageWaterfallResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:155287
+main.ts:155295
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 number of items in the results array
 
 #### Implementation of
 
-[IOnPageWaterfallResultInfo](../interfaces/IOnPageWaterfallResultInfo.md).[items_count](../interfaces/IOnPageWaterfallResultInfo.md#items_count)
+[`IOnPageWaterfallResultInfo`](../interfaces/IOnPageWaterfallResultInfo.md).[`items_count`](../interfaces/IOnPageWaterfallResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:155285
+main.ts:155293
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:155300
+main.ts:155308
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:155324
+main.ts:155332
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPageWaterfallResultInfo`](OnPageWaterfallResultInfo.md)
+> **`static`** **fromJS**(`data`): [`OnPageWaterfallResultInfo`](OnPageWaterfallResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`OnPageWaterfallResultInfo`](OnPageWaterfallResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:155317
+main.ts:155325

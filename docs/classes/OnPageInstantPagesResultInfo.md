@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageInstantPagesResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPageInstantPagesResultInfo
 
 # Class: OnPageInstantPagesResultInfo
 
@@ -8,53 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPageInstantPagesResultInfo.md#constructor)
-
-### Properties
-
-- [crawl\_gateway\_address](OnPageInstantPagesResultInfo.md#crawl_gateway_address)
-- [crawl\_progress](OnPageInstantPagesResultInfo.md#crawl_progress)
-- [crawl\_status](OnPageInstantPagesResultInfo.md#crawl_status)
-- [items](OnPageInstantPagesResultInfo.md#items)
-- [items\_count](OnPageInstantPagesResultInfo.md#items_count)
-
-### Methods
-
-- [init](OnPageInstantPagesResultInfo.md#init)
-- [toJSON](OnPageInstantPagesResultInfo.md#tojson)
-- [fromJS](OnPageInstantPagesResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPageInstantPagesResultInfo(data)
 
-• **new OnPageInstantPagesResultInfo**(`data?`): [`OnPageInstantPagesResultInfo`](OnPageInstantPagesResultInfo.md)
+> **new OnPageInstantPagesResultInfo**(`data`?): [`OnPageInstantPagesResultInfo`](OnPageInstantPagesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPageInstantPagesResultInfo`](../interfaces/IOnPageInstantPagesResultInfo.md) |
+• **data?**: [`IOnPageInstantPagesResultInfo`](../interfaces/IOnPageInstantPagesResultInfo.md)
 
 #### Returns
 
 [`OnPageInstantPagesResultInfo`](OnPageInstantPagesResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:158754
+main.ts:158762
 
 ## Properties
 
-### crawl\_gateway\_address
+### crawl\_gateway\_address?
 
-• `Optional` **crawl\_gateway\_address**: `string`
+> **`optional`** **crawl\_gateway\_address**: `string`
 
 crawler ip address
 displays the IP address used by the crawler to initiate the current crawling session
@@ -62,134 +44,128 @@ you can find the full list of IPs used by our crawler in the Overview section
 
 #### Implementation of
 
-[IOnPageInstantPagesResultInfo](../interfaces/IOnPageInstantPagesResultInfo.md).[crawl_gateway_address](../interfaces/IOnPageInstantPagesResultInfo.md#crawl_gateway_address)
+[`IOnPageInstantPagesResultInfo`](../interfaces/IOnPageInstantPagesResultInfo.md).[`crawl_gateway_address`](../interfaces/IOnPageInstantPagesResultInfo.md#crawl_gateway_address)
 
-#### Defined in
+#### Source
 
-main.ts:158746
+main.ts:158754
 
-___
+***
 
-### crawl\_progress
+### crawl\_progress?
 
-• `Optional` **crawl\_progress**: `string`
+> **`optional`** **crawl\_progress**: `string`
 
 status of the crawling session
 possible values: in_progress, finished
 
 #### Implementation of
 
-[IOnPageInstantPagesResultInfo](../interfaces/IOnPageInstantPagesResultInfo.md).[crawl_progress](../interfaces/IOnPageInstantPagesResultInfo.md#crawl_progress)
+[`IOnPageInstantPagesResultInfo`](../interfaces/IOnPageInstantPagesResultInfo.md).[`crawl_progress`](../interfaces/IOnPageInstantPagesResultInfo.md#crawl_progress)
 
-#### Defined in
+#### Source
 
-main.ts:158739
+main.ts:158747
 
-___
+***
 
-### crawl\_status
+### crawl\_status?
 
-• `Optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
+> **`optional`** **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
 details of the crawling session
 in this case the value will be null
 
 #### Implementation of
 
-[IOnPageInstantPagesResultInfo](../interfaces/IOnPageInstantPagesResultInfo.md).[crawl_status](../interfaces/IOnPageInstantPagesResultInfo.md#crawl_status)
+[`IOnPageInstantPagesResultInfo`](../interfaces/IOnPageInstantPagesResultInfo.md).[`crawl_status`](../interfaces/IOnPageInstantPagesResultInfo.md#crawl_status)
 
-#### Defined in
+#### Source
 
-main.ts:158742
+main.ts:158750
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)[]
+> **`optional`** **items**: [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)[]
 
 items array
 
 #### Implementation of
 
-[IOnPageInstantPagesResultInfo](../interfaces/IOnPageInstantPagesResultInfo.md).[items](../interfaces/IOnPageInstantPagesResultInfo.md#items)
+[`IOnPageInstantPagesResultInfo`](../interfaces/IOnPageInstantPagesResultInfo.md).[`items`](../interfaces/IOnPageInstantPagesResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:158750
+main.ts:158758
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 number of items in the results array
 
 #### Implementation of
 
-[IOnPageInstantPagesResultInfo](../interfaces/IOnPageInstantPagesResultInfo.md).[items_count](../interfaces/IOnPageInstantPagesResultInfo.md#items_count)
+[`IOnPageInstantPagesResultInfo`](../interfaces/IOnPageInstantPagesResultInfo.md).[`items_count`](../interfaces/IOnPageInstantPagesResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:158748
+main.ts:158756
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:158763
+main.ts:158771
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:158788
+main.ts:158796
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPageInstantPagesResultInfo`](OnPageInstantPagesResultInfo.md)
+> **`static`** **fromJS**(`data`): [`OnPageInstantPagesResultInfo`](OnPageInstantPagesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`OnPageInstantPagesResultInfo`](OnPageInstantPagesResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:158781
+main.ts:158789

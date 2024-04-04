@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / GoogleTrendsMapElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / GoogleTrendsMapElementItem
 
 # Class: GoogleTrendsMapElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md)
-
-  ↳ **`GoogleTrendsMapElementItem`**
 
 ## Implements
 
@@ -14,39 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](GoogleTrendsMapElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](GoogleTrendsMapElementItem.md#_discriminator)
-- [data](GoogleTrendsMapElementItem.md#data)
-- [keywords](GoogleTrendsMapElementItem.md#keywords)
-- [position](GoogleTrendsMapElementItem.md#position)
-- [title](GoogleTrendsMapElementItem.md#title)
-
-### Methods
-
-- [init](GoogleTrendsMapElementItem.md#init)
-- [toJSON](GoogleTrendsMapElementItem.md#tojson)
-- [fromJS](GoogleTrendsMapElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new GoogleTrendsMapElementItem(data)
 
-• **new GoogleTrendsMapElementItem**(`data?`): [`GoogleTrendsMapElementItem`](GoogleTrendsMapElementItem.md)
+> **new GoogleTrendsMapElementItem**(`data`?): [`GoogleTrendsMapElementItem`](GoogleTrendsMapElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IGoogleTrendsMapElementItem`](../interfaces/IGoogleTrendsMapElementItem.md) |
+• **data?**: [`IGoogleTrendsMapElementItem`](../interfaces/IGoogleTrendsMapElementItem.md)
 
 #### Returns
 
@@ -54,103 +34,101 @@
 
 #### Overrides
 
-[BaseGoogleTrendsItem](BaseGoogleTrendsItem.md).[constructor](BaseGoogleTrendsItem.md#constructor)
+[`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`constructor`](BaseGoogleTrendsItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:123243
+main.ts:123251
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseGoogleTrendsItem](BaseGoogleTrendsItem.md).[_discriminator](BaseGoogleTrendsItem.md#_discriminator)
+[`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`_discriminator`](BaseGoogleTrendsItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:20838
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: [`TrendsMapDataInfo`](TrendsMapDataInfo.md)[]
+> **`optional`** **data**: [`TrendsMapDataInfo`](TrendsMapDataInfo.md)[]
 
 Google Trends data from the corresponding item
 
 #### Implementation of
 
-[IGoogleTrendsMapElementItem](../interfaces/IGoogleTrendsMapElementItem.md).[data](../interfaces/IGoogleTrendsMapElementItem.md#data)
+[`IGoogleTrendsMapElementItem`](../interfaces/IGoogleTrendsMapElementItem.md).[`data`](../interfaces/IGoogleTrendsMapElementItem.md#data)
 
-#### Defined in
+#### Source
 
-main.ts:123239
+main.ts:123247
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 relevant keywords
 the data included in the google_trends_map element is based on the keywords listed in this array
 
 #### Implementation of
 
-[IGoogleTrendsMapElementItem](../interfaces/IGoogleTrendsMapElementItem.md).[keywords](../interfaces/IGoogleTrendsMapElementItem.md#keywords)
+[`IGoogleTrendsMapElementItem`](../interfaces/IGoogleTrendsMapElementItem.md).[`keywords`](../interfaces/IGoogleTrendsMapElementItem.md#keywords)
 
-#### Defined in
+#### Source
 
-main.ts:123237
+main.ts:123245
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `number`
+> **`optional`** **position**: `number`
 
 the alignment of the element in Google Trends
 can take the following values: 1, 2, 3, 4, etc.
 
 #### Implementation of
 
-[IGoogleTrendsMapElementItem](../interfaces/IGoogleTrendsMapElementItem.md).[position](../interfaces/IGoogleTrendsMapElementItem.md#position)
+[`IGoogleTrendsMapElementItem`](../interfaces/IGoogleTrendsMapElementItem.md).[`position`](../interfaces/IGoogleTrendsMapElementItem.md#position)
 
-#### Defined in
+#### Source
 
-main.ts:123232
+main.ts:123240
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the element in Google Trends
 
 #### Implementation of
 
-[IGoogleTrendsMapElementItem](../interfaces/IGoogleTrendsMapElementItem.md).[title](../interfaces/IGoogleTrendsMapElementItem.md#title)
+[`IGoogleTrendsMapElementItem`](../interfaces/IGoogleTrendsMapElementItem.md).[`title`](../interfaces/IGoogleTrendsMapElementItem.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:123234
+main.ts:123242
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -158,23 +136,21 @@ main.ts:123234
 
 #### Overrides
 
-[BaseGoogleTrendsItem](BaseGoogleTrendsItem.md).[init](BaseGoogleTrendsItem.md#init)
+[`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`init`](BaseGoogleTrendsItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:123248
+main.ts:123256
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -182,23 +158,21 @@ ___
 
 #### Overrides
 
-[BaseGoogleTrendsItem](BaseGoogleTrendsItem.md).[toJSON](BaseGoogleTrendsItem.md#tojson)
+[`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`toJSON`](BaseGoogleTrendsItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:123277
+main.ts:123285
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`GoogleTrendsMapElementItem`](GoogleTrendsMapElementItem.md)
+> **`static`** **fromJS**(`data`): [`GoogleTrendsMapElementItem`](GoogleTrendsMapElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -206,8 +180,8 @@ ___
 
 #### Overrides
 
-[BaseGoogleTrendsItem](BaseGoogleTrendsItem.md).[fromJS](BaseGoogleTrendsItem.md#fromjs)
+[`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`fromJS`](BaseGoogleTrendsItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:123270
+main.ts:123278

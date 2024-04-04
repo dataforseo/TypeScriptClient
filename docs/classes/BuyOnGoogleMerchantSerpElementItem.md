@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BuyOnGoogleMerchantSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BuyOnGoogleMerchantSerpElementItem
 
 # Class: BuyOnGoogleMerchantSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)
-
-  ↳ **`BuyOnGoogleMerchantSerpElementItem`**
 
 ## Implements
 
@@ -14,52 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BuyOnGoogleMerchantSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](BuyOnGoogleMerchantSerpElementItem.md#_discriminator)
-- [base\_price](BuyOnGoogleMerchantSerpElementItem.md#base_price)
-- [currency](BuyOnGoogleMerchantSerpElementItem.md#currency)
-- [details](BuyOnGoogleMerchantSerpElementItem.md#details)
-- [domain](BuyOnGoogleMerchantSerpElementItem.md#domain)
-- [position](BuyOnGoogleMerchantSerpElementItem.md#position)
-- [product\_condition](BuyOnGoogleMerchantSerpElementItem.md#product_condition)
-- [rank\_absolute](BuyOnGoogleMerchantSerpElementItem.md#rank_absolute)
-- [rank\_group](BuyOnGoogleMerchantSerpElementItem.md#rank_group)
-- [rating](BuyOnGoogleMerchantSerpElementItem.md#rating)
-- [seller\_name](BuyOnGoogleMerchantSerpElementItem.md#seller_name)
-- [shipping\_price](BuyOnGoogleMerchantSerpElementItem.md#shipping_price)
-- [shop\_ad\_aclk](BuyOnGoogleMerchantSerpElementItem.md#shop_ad_aclk)
-- [tax](BuyOnGoogleMerchantSerpElementItem.md#tax)
-- [title](BuyOnGoogleMerchantSerpElementItem.md#title)
-- [total\_price](BuyOnGoogleMerchantSerpElementItem.md#total_price)
-- [url](BuyOnGoogleMerchantSerpElementItem.md#url)
-- [xpath](BuyOnGoogleMerchantSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](BuyOnGoogleMerchantSerpElementItem.md#init)
-- [toJSON](BuyOnGoogleMerchantSerpElementItem.md#tojson)
-- [fromJS](BuyOnGoogleMerchantSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BuyOnGoogleMerchantSerpElementItem(data)
 
-• **new BuyOnGoogleMerchantSerpElementItem**(`data?`): [`BuyOnGoogleMerchantSerpElementItem`](BuyOnGoogleMerchantSerpElementItem.md)
+> **new BuyOnGoogleMerchantSerpElementItem**(`data`?): [`BuyOnGoogleMerchantSerpElementItem`](BuyOnGoogleMerchantSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBuyOnGoogleMerchantSerpElementItem`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md) |
+• **data?**: [`IBuyOnGoogleMerchantSerpElementItem`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md)
 
 #### Returns
 
@@ -67,47 +34,47 @@
 
 #### Overrides
 
-[BaseMerchantSerpElementItem](BaseMerchantSerpElementItem.md).[constructor](BaseMerchantSerpElementItem.md#constructor)
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`constructor`](BaseMerchantSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:172099
+main.ts:172104
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseMerchantSerpElementItem](BaseMerchantSerpElementItem.md).[_discriminator](BaseMerchantSerpElementItem.md#_discriminator)
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`_discriminator`](BaseMerchantSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:20444
 
-___
+***
 
-### base\_price
+### base\_price?
 
-• `Optional` **base\_price**: `number`
+> **`optional`** **base\_price**: `number`
 
 product price without tax and shipping
 
 #### Implementation of
 
-[IBuyOnGoogleMerchantSerpElementItem](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md).[base_price](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md#base_price)
+[`IBuyOnGoogleMerchantSerpElementItem`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md).[`base_price`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md#base_price)
 
-#### Defined in
+#### Source
 
-main.ts:172071
+main.ts:172079
 
-___
+***
 
-### currency
+### currency?
 
-• `Optional` **currency**: `string`
+> **`optional`** **currency**: `string`
 
 currency in the ISO format
 example:
@@ -115,169 +82,152 @@ USD
 
 #### Implementation of
 
-[IBuyOnGoogleMerchantSerpElementItem](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md).[currency](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md#currency)
+[`IBuyOnGoogleMerchantSerpElementItem`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md).[`currency`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md#currency)
 
-#### Defined in
+#### Source
 
-main.ts:172082
+main.ts:172090
 
-___
+***
 
-### details
+### details?
 
-• `Optional` **details**: `string`
+> **`optional`** **details**: `string`
 
 details and special offers
 if there are no details, the value will be null
 
 #### Implementation of
 
-[IBuyOnGoogleMerchantSerpElementItem](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md).[details](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md#details)
+[`IBuyOnGoogleMerchantSerpElementItem`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md).[`details`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md#details)
 
-#### Defined in
+#### Source
 
-main.ts:172069
+main.ts:172077
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain in SERP
 
 #### Implementation of
 
-[IBuyOnGoogleMerchantSerpElementItem](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md).[domain](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md#domain)
+[`IBuyOnGoogleMerchantSerpElementItem`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md).[`domain`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md#domain)
 
-#### Defined in
+#### Source
 
-main.ts:172062
+main.ts:172070
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
-the alignment of the element in Google Shopping SERP
-possible values:
+alignment of the element in SERP
+can take the following values:
 left, right
 
 #### Implementation of
 
-[IBuyOnGoogleMerchantSerpElementItem](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md).[position](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md#position)
+[`IBuyOnGoogleMerchantSerpElementItem`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md).[`position`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
-main.ts:172058
+main.ts:172066
 
-___
+***
 
-### product\_condition
+### rank\_absolute?
 
-• `Optional` **product\_condition**: `string`
-
-indicated condition of the product
-possible values: Used, Refurbished, New, null
-
-#### Implementation of
-
-[IBuyOnGoogleMerchantSerpElementItem](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md).[product_condition](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md#product_condition)
-
-#### Defined in
-
-main.ts:172095
-
-___
-
-### rank\_absolute
-
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
 
 #### Implementation of
 
-[IBuyOnGoogleMerchantSerpElementItem](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md).[rank_absolute](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md#rank_absolute)
+[`IBuyOnGoogleMerchantSerpElementItem`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md).[`rank_absolute`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:172054
+main.ts:172062
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
-[IBuyOnGoogleMerchantSerpElementItem](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md).[rank_group](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md#rank_group)
+[`IBuyOnGoogleMerchantSerpElementItem`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md).[`rank_group`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
-main.ts:172051
+main.ts:172059
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingElement`](RatingElement.md)
+> **`optional`** **rating**: [`RatingElement`](RatingElement.md)
 
 shop rating
 the shop popularity rate based on product reviews
 
 #### Implementation of
 
-[IBuyOnGoogleMerchantSerpElementItem](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md).[rating](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md#rating)
+[`IBuyOnGoogleMerchantSerpElementItem`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md).[`rating`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md#rating)
 
-#### Defined in
+#### Source
 
-main.ts:172088
+main.ts:172096
 
-___
+***
 
-### seller\_name
+### seller\_name?
 
-• `Optional` **seller\_name**: `string`
+> **`optional`** **seller\_name**: `string`
 
 name of the seller
 the name of the company that placed a corresponding product on Google Shopping
 
 #### Implementation of
 
-[IBuyOnGoogleMerchantSerpElementItem](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md).[seller_name](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md#seller_name)
+[`IBuyOnGoogleMerchantSerpElementItem`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md).[`seller_name`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md#seller_name)
 
-#### Defined in
+#### Source
 
-main.ts:172085
+main.ts:172093
 
-___
+***
 
-### shipping\_price
+### shipping\_price?
 
-• `Optional` **shipping\_price**: `number`
+> **`optional`** **shipping\_price**: `number`
 
 product shipping price
 
 #### Implementation of
 
-[IBuyOnGoogleMerchantSerpElementItem](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md).[shipping_price](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md#shipping_price)
+[`IBuyOnGoogleMerchantSerpElementItem`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md).[`shipping_price`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md#shipping_price)
 
-#### Defined in
+#### Source
 
-main.ts:172076
+main.ts:172084
 
-___
+***
 
-### shop\_ad\_aclk
+### shop\_ad\_aclk?
 
-• `Optional` **shop\_ad\_aclk**: `string`
+> **`optional`** **shop\_ad\_aclk**: `string`
 
 unique ad click referral parameter
 using this parameter you can get a URL of the advertisement in Google Shopping Sellers Ad URL
@@ -285,104 +235,102 @@ in this case, the value equals null
 
 #### Implementation of
 
-[IBuyOnGoogleMerchantSerpElementItem](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md).[shop_ad_aclk](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md#shop_ad_aclk)
+[`IBuyOnGoogleMerchantSerpElementItem`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md).[`shop_ad_aclk`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md#shop_ad_aclk)
 
-#### Defined in
+#### Source
 
-main.ts:172092
+main.ts:172100
 
-___
+***
 
-### tax
+### tax?
 
-• `Optional` **tax**: `number`
+> **`optional`** **tax**: `number`
 
 the amount of tax
 tax is specified as the actual amount of money, not as the percentage
 
 #### Implementation of
 
-[IBuyOnGoogleMerchantSerpElementItem](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md).[tax](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md#tax)
+[`IBuyOnGoogleMerchantSerpElementItem`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md).[`tax`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md#tax)
 
-#### Defined in
+#### Source
 
-main.ts:172074
+main.ts:172082
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 product title
 
 #### Implementation of
 
-[IBuyOnGoogleMerchantSerpElementItem](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md).[title](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md#title)
+[`IBuyOnGoogleMerchantSerpElementItem`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md).[`title`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:172064
+main.ts:172072
 
-___
+***
 
-### total\_price
+### total\_price?
 
-• `Optional` **total\_price**: `number`
+> **`optional`** **total\_price**: `number`
 
 product price including tax and shipping
 
 #### Implementation of
 
-[IBuyOnGoogleMerchantSerpElementItem](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md).[total_price](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md#total_price)
+[`IBuyOnGoogleMerchantSerpElementItem`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md).[`total_price`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md#total_price)
 
-#### Defined in
+#### Source
 
-main.ts:172078
+main.ts:172086
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 Google Shopping URL forwarding to the product page
 
 #### Implementation of
 
-[IBuyOnGoogleMerchantSerpElementItem](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md).[url](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md#url)
+[`IBuyOnGoogleMerchantSerpElementItem`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md).[`url`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:172066
+main.ts:172074
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 XPath of the element
 
 #### Implementation of
 
-[IBuyOnGoogleMerchantSerpElementItem](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md).[xpath](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md#xpath)
+[`IBuyOnGoogleMerchantSerpElementItem`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md).[`xpath`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
-main.ts:172060
+main.ts:172068
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -390,23 +338,21 @@ main.ts:172060
 
 #### Overrides
 
-[BaseMerchantSerpElementItem](BaseMerchantSerpElementItem.md).[init](BaseMerchantSerpElementItem.md#init)
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`init`](BaseMerchantSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:172104
+main.ts:172109
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -414,23 +360,21 @@ ___
 
 #### Overrides
 
-[BaseMerchantSerpElementItem](BaseMerchantSerpElementItem.md).[toJSON](BaseMerchantSerpElementItem.md#tojson)
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`toJSON`](BaseMerchantSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:172138
+main.ts:172142
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BuyOnGoogleMerchantSerpElementItem`](BuyOnGoogleMerchantSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`BuyOnGoogleMerchantSerpElementItem`](BuyOnGoogleMerchantSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -438,8 +382,8 @@ ___
 
 #### Overrides
 
-[BaseMerchantSerpElementItem](BaseMerchantSerpElementItem.md).[fromJS](BaseMerchantSerpElementItem.md#fromjs)
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`fromJS`](BaseMerchantSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:172131
+main.ts:172135

@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / QuestionsAndAnswersDataforseoLabsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / QuestionsAndAnswersDataforseoLabsSerpElementItem
 
 # Class: QuestionsAndAnswersDataforseoLabsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
-
-  ↳ **`QuestionsAndAnswersDataforseoLabsSerpElementItem`**
 
 ## Implements
 
@@ -14,40 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](QuestionsAndAnswersDataforseoLabsSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](QuestionsAndAnswersDataforseoLabsSerpElementItem.md#_discriminator)
-- [items](QuestionsAndAnswersDataforseoLabsSerpElementItem.md#items)
-- [position](QuestionsAndAnswersDataforseoLabsSerpElementItem.md#position)
-- [rank\_absolute](QuestionsAndAnswersDataforseoLabsSerpElementItem.md#rank_absolute)
-- [rank\_group](QuestionsAndAnswersDataforseoLabsSerpElementItem.md#rank_group)
-- [xpath](QuestionsAndAnswersDataforseoLabsSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](QuestionsAndAnswersDataforseoLabsSerpElementItem.md#init)
-- [toJSON](QuestionsAndAnswersDataforseoLabsSerpElementItem.md#tojson)
-- [fromJS](QuestionsAndAnswersDataforseoLabsSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new QuestionsAndAnswersDataforseoLabsSerpElementItem(data)
 
-• **new QuestionsAndAnswersDataforseoLabsSerpElementItem**(`data?`): [`QuestionsAndAnswersDataforseoLabsSerpElementItem`](QuestionsAndAnswersDataforseoLabsSerpElementItem.md)
+> **new QuestionsAndAnswersDataforseoLabsSerpElementItem**(`data`?): [`QuestionsAndAnswersDataforseoLabsSerpElementItem`](QuestionsAndAnswersDataforseoLabsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IQuestionsAndAnswersDataforseoLabsSerpElementItem`](../interfaces/IQuestionsAndAnswersDataforseoLabsSerpElementItem.md) |
+• **data?**: [`IQuestionsAndAnswersDataforseoLabsSerpElementItem`](../interfaces/IQuestionsAndAnswersDataforseoLabsSerpElementItem.md)
 
 #### Returns
 
@@ -55,47 +34,47 @@
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[constructor](BaseDataforseoLabsSerpElementItem.md#constructor)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:97908
+main.ts:97916
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[_discriminator](BaseDataforseoLabsSerpElementItem.md#_discriminator)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`_discriminator`](BaseDataforseoLabsSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:20171
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`QuestionsAndAnswersElement`](QuestionsAndAnswersElement.md)[]
+> **`optional`** **items**: [`QuestionsAndAnswersElement`](QuestionsAndAnswersElement.md)[]
 
 elements of search results found in SERP
 
 #### Implementation of
 
-[IQuestionsAndAnswersDataforseoLabsSerpElementItem](../interfaces/IQuestionsAndAnswersDataforseoLabsSerpElementItem.md).[items](../interfaces/IQuestionsAndAnswersDataforseoLabsSerpElementItem.md#items)
+[`IQuestionsAndAnswersDataforseoLabsSerpElementItem`](../interfaces/IQuestionsAndAnswersDataforseoLabsSerpElementItem.md).[`items`](../interfaces/IQuestionsAndAnswersDataforseoLabsSerpElementItem.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:97904
+main.ts:97912
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -103,73 +82,71 @@ left, right
 
 #### Implementation of
 
-[IQuestionsAndAnswersDataforseoLabsSerpElementItem](../interfaces/IQuestionsAndAnswersDataforseoLabsSerpElementItem.md).[position](../interfaces/IQuestionsAndAnswersDataforseoLabsSerpElementItem.md#position)
+[`IQuestionsAndAnswersDataforseoLabsSerpElementItem`](../interfaces/IQuestionsAndAnswersDataforseoLabsSerpElementItem.md).[`position`](../interfaces/IQuestionsAndAnswersDataforseoLabsSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
-main.ts:97900
+main.ts:97908
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
 #### Implementation of
 
-[IQuestionsAndAnswersDataforseoLabsSerpElementItem](../interfaces/IQuestionsAndAnswersDataforseoLabsSerpElementItem.md).[rank_absolute](../interfaces/IQuestionsAndAnswersDataforseoLabsSerpElementItem.md#rank_absolute)
+[`IQuestionsAndAnswersDataforseoLabsSerpElementItem`](../interfaces/IQuestionsAndAnswersDataforseoLabsSerpElementItem.md).[`rank_absolute`](../interfaces/IQuestionsAndAnswersDataforseoLabsSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:97896
+main.ts:97904
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
-[IQuestionsAndAnswersDataforseoLabsSerpElementItem](../interfaces/IQuestionsAndAnswersDataforseoLabsSerpElementItem.md).[rank_group](../interfaces/IQuestionsAndAnswersDataforseoLabsSerpElementItem.md#rank_group)
+[`IQuestionsAndAnswersDataforseoLabsSerpElementItem`](../interfaces/IQuestionsAndAnswersDataforseoLabsSerpElementItem.md).[`rank_group`](../interfaces/IQuestionsAndAnswersDataforseoLabsSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
-main.ts:97893
+main.ts:97901
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IQuestionsAndAnswersDataforseoLabsSerpElementItem](../interfaces/IQuestionsAndAnswersDataforseoLabsSerpElementItem.md).[xpath](../interfaces/IQuestionsAndAnswersDataforseoLabsSerpElementItem.md#xpath)
+[`IQuestionsAndAnswersDataforseoLabsSerpElementItem`](../interfaces/IQuestionsAndAnswersDataforseoLabsSerpElementItem.md).[`xpath`](../interfaces/IQuestionsAndAnswersDataforseoLabsSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
-main.ts:97902
+main.ts:97910
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -177,23 +154,21 @@ main.ts:97902
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[init](BaseDataforseoLabsSerpElementItem.md#init)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`init`](BaseDataforseoLabsSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:97913
+main.ts:97921
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -201,23 +176,21 @@ ___
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[toJSON](BaseDataforseoLabsSerpElementItem.md#tojson)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`toJSON`](BaseDataforseoLabsSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:97939
+main.ts:97947
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`QuestionsAndAnswersDataforseoLabsSerpElementItem`](QuestionsAndAnswersDataforseoLabsSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`QuestionsAndAnswersDataforseoLabsSerpElementItem`](QuestionsAndAnswersDataforseoLabsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -225,8 +198,8 @@ ___
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[fromJS](BaseDataforseoLabsSerpElementItem.md#fromjs)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`fromJS`](BaseDataforseoLabsSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:97932
+main.ts:97940

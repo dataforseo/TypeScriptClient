@@ -1,41 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpGoogleDatasetSearchTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ISerpGoogleDatasetSearchTaskPostRequestInfo
 
 # Interface: ISerpGoogleDatasetSearchTaskPostRequestInfo
 
-## Implemented by
-
-- [`SerpGoogleDatasetSearchTaskPostRequestInfo`](../classes/SerpGoogleDatasetSearchTaskPostRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [depth](ISerpGoogleDatasetSearchTaskPostRequestInfo.md#depth)
-- [device](ISerpGoogleDatasetSearchTaskPostRequestInfo.md#device)
-- [file\_formats](ISerpGoogleDatasetSearchTaskPostRequestInfo.md#file_formats)
-- [is\_free](ISerpGoogleDatasetSearchTaskPostRequestInfo.md#is_free)
-- [keyword](ISerpGoogleDatasetSearchTaskPostRequestInfo.md#keyword)
-- [language\_code](ISerpGoogleDatasetSearchTaskPostRequestInfo.md#language_code)
-- [language\_name](ISerpGoogleDatasetSearchTaskPostRequestInfo.md#language_name)
-- [last\_updated](ISerpGoogleDatasetSearchTaskPostRequestInfo.md#last_updated)
-- [os](ISerpGoogleDatasetSearchTaskPostRequestInfo.md#os)
-- [pingback\_url](ISerpGoogleDatasetSearchTaskPostRequestInfo.md#pingback_url)
-- [postback\_data](ISerpGoogleDatasetSearchTaskPostRequestInfo.md#postback_data)
-- [postback\_url](ISerpGoogleDatasetSearchTaskPostRequestInfo.md#postback_url)
-- [priority](ISerpGoogleDatasetSearchTaskPostRequestInfo.md#priority)
-- [tag](ISerpGoogleDatasetSearchTaskPostRequestInfo.md#tag)
-- [topics](ISerpGoogleDatasetSearchTaskPostRequestInfo.md#topics)
-- [usage\_rights](ISerpGoogleDatasetSearchTaskPostRequestInfo.md#usage_rights)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### depth
+### depth?
 
-• `Optional` **depth**: `number`
+> **`optional`** **depth**: `number`
 
 parsing depth
 optional field
@@ -46,57 +25,57 @@ Note: your account will be billed per each SERP containing up to 20 results;
 thus, setting a depth above 20 may result in additional charges if the search engine returns more than 20 results;
 if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance
 
-#### Defined in
+#### Source
 
-main.ts:52331
+main.ts:52339
 
-___
+***
 
-### device
+### device?
 
-• `Optional` **device**: `string`
+> **`optional`** **device**: `string`
 
 device type
 optional field
 possible value: desktop
 
-#### Defined in
+#### Source
 
-main.ts:52346
+main.ts:52354
 
-___
+***
 
-### file\_formats
+### file\_formats?
 
-• `Optional` **file\_formats**: `string`[]
+> **`optional`** **file\_formats**: `string`[]
 
 file formats of the dataset
 optional field
 possible values: other, archive, text, image, document, tabular
 
-#### Defined in
+#### Source
 
-main.ts:52359
+main.ts:52367
 
-___
+***
 
-### is\_free
+### is\_free?
 
-• `Optional` **is\_free**: `boolean`
+> **`optional`** **is\_free**: `boolean`
 
 indicates whether displayed datasets are free
 optional field
 possible values: true, false
 
-#### Defined in
+#### Source
 
-main.ts:52367
+main.ts:52375
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword
 required field
@@ -105,30 +84,30 @@ all %## will be decoded (plus symbol ‘+’ will be decoded to a space characte
 if you need to use the “%” symbol for your keyword, please specify it as “%25”;
 if you need to use the “+” symbol for your keyword, please specify it as “%2B”.
 
-#### Defined in
+#### Source
 
-main.ts:52314
+main.ts:52322
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 optional field
 possible value:
 en
 
-#### Defined in
+#### Source
 
-main.ts:52342
+main.ts:52350
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -136,44 +115,44 @@ if you use this field, you don’t need to specify language_code
 possible value:
 English
 
-#### Defined in
+#### Source
 
-main.ts:52337
+main.ts:52345
 
-___
+***
 
-### last\_updated
+### last\_updated?
 
-• `Optional` **last\_updated**: `string`
+> **`optional`** **last\_updated**: `string`
 
 last time the dataset was updated
 optional field
 possible values: 1m, 1y, 3y
 
-#### Defined in
+#### Source
 
-main.ts:52355
+main.ts:52363
 
-___
+***
 
-### os
+### os?
 
-• `Optional` **os**: `string`
+> **`optional`** **os**: `string`
 
 device operating system
 optional field
 possible values: windows, macos
 default value: windows
 
-#### Defined in
+#### Source
 
-main.ts:52351
+main.ts:52359
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -185,30 +164,30 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special symbols in pingback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
-main.ts:52402
+main.ts:52410
 
-___
+***
 
-### postback\_data
+### postback\_data?
 
-• `Optional` **postback\_data**: `string`
+> **`optional`** **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
 corresponds to the datatype that will be sent to your server
 only value: advanced
 
-#### Defined in
+#### Source
 
-main.ts:52392
+main.ts:52400
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -220,15 +199,15 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special symbols in postback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
-main.ts:52387
+main.ts:52395
 
-___
+***
 
-### priority
+### priority?
 
-• `Optional` **priority**: `number`
+> **`optional`** **priority**: `number`
 
 task priority
 optional field
@@ -238,15 +217,15 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page.
 
-#### Defined in
+#### Source
 
-main.ts:52322
+main.ts:52330
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -254,34 +233,34 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:52377
+main.ts:52385
 
-___
+***
 
-### topics
+### topics?
 
-• `Optional` **topics**: `string`[]
+> **`optional`** **topics**: `string`[]
 
 dataset topics
 optional field
 possible values: humanities, social_sciences, life_sciences, agriculture, natural_sciences, geo, computer, architecture_and_urban_planning, engineering
 
-#### Defined in
+#### Source
 
-main.ts:52371
+main.ts:52379
 
-___
+***
 
-### usage\_rights
+### usage\_rights?
 
-• `Optional` **usage\_rights**: `string`
+> **`optional`** **usage\_rights**: `string`
 
 usage rights of the dataset
 optional field
 possible values: commercial, noncommercial
 
-#### Defined in
+#### Source
 
-main.ts:52363
+main.ts:52371

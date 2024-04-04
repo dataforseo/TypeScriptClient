@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / FetchTiming
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / FetchTiming
 
 # Class: FetchTiming
 
@@ -8,152 +12,126 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](FetchTiming.md#constructor)
-
-### Properties
-
-- [duration\_time](FetchTiming.md#duration_time)
-- [fetch\_end](FetchTiming.md#fetch_end)
-- [fetch\_start](FetchTiming.md#fetch_start)
-
-### Methods
-
-- [init](FetchTiming.md#init)
-- [toJSON](FetchTiming.md#tojson)
-- [fromJS](FetchTiming.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new FetchTiming(data)
 
-• **new FetchTiming**(`data?`): [`FetchTiming`](FetchTiming.md)
+> **new FetchTiming**(`data`?): [`FetchTiming`](FetchTiming.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IFetchTiming`](../interfaces/IFetchTiming.md) |
+• **data?**: [`IFetchTiming`](../interfaces/IFetchTiming.md)
 
 #### Returns
 
 [`FetchTiming`](FetchTiming.md)
 
-#### Defined in
+#### Source
 
-main.ts:151450
+main.ts:151458
 
 ## Properties
 
-### duration\_time
+### duration\_time?
 
-• `Optional` **duration\_time**: `number`
+> **`optional`** **duration\_time**: `number`
 
 indicates how many milliseconds it took to fetch a resource
 
 #### Implementation of
 
-[IFetchTiming](../interfaces/IFetchTiming.md).[duration_time](../interfaces/IFetchTiming.md#duration_time)
+[`IFetchTiming`](../interfaces/IFetchTiming.md).[`duration_time`](../interfaces/IFetchTiming.md#duration_time)
 
-#### Defined in
+#### Source
 
-main.ts:151440
+main.ts:151448
 
-___
+***
 
-### fetch\_end
+### fetch\_end?
 
-• `Optional` **fetch\_end**: `number`
+> **`optional`** **fetch\_end**: `number`
 
 time to complete downloading the resource
 the amount of time a browser needs to complete downloading a resource
 
 #### Implementation of
 
-[IFetchTiming](../interfaces/IFetchTiming.md).[fetch_end](../interfaces/IFetchTiming.md#fetch_end)
+[`IFetchTiming`](../interfaces/IFetchTiming.md).[`fetch_end`](../interfaces/IFetchTiming.md#fetch_end)
 
-#### Defined in
+#### Source
 
-main.ts:151446
+main.ts:151454
 
-___
+***
 
-### fetch\_start
+### fetch\_start?
 
-• `Optional` **fetch\_start**: `number`
+> **`optional`** **fetch\_start**: `number`
 
 time to start downloading the resource
 the amount of time a browser needs to start downloading a resource
 
 #### Implementation of
 
-[IFetchTiming](../interfaces/IFetchTiming.md).[fetch_start](../interfaces/IFetchTiming.md#fetch_start)
+[`IFetchTiming`](../interfaces/IFetchTiming.md).[`fetch_start`](../interfaces/IFetchTiming.md#fetch_start)
 
-#### Defined in
+#### Source
 
-main.ts:151443
+main.ts:151451
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:151459
+main.ts:151467
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:151478
+main.ts:151486
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`FetchTiming`](FetchTiming.md)
+> **`static`** **fromJS**(`data`): [`FetchTiming`](FetchTiming.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`FetchTiming`](FetchTiming.md)
 
-#### Defined in
+#### Source
 
-main.ts:151471
+main.ts:151479

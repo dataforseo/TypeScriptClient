@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesTechnologiesResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DomainAnalyticsTechnologiesTechnologiesResponseInfo
 
 # Class: DomainAnalyticsTechnologiesTechnologiesResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`DomainAnalyticsTechnologiesTechnologiesResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DomainAnalyticsTechnologiesTechnologiesResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](DomainAnalyticsTechnologiesTechnologiesResponseInfo.md#cost)
-- [status\_code](DomainAnalyticsTechnologiesTechnologiesResponseInfo.md#status_code)
-- [status\_message](DomainAnalyticsTechnologiesTechnologiesResponseInfo.md#status_message)
-- [tasks](DomainAnalyticsTechnologiesTechnologiesResponseInfo.md#tasks)
-- [tasks\_count](DomainAnalyticsTechnologiesTechnologiesResponseInfo.md#tasks_count)
-- [tasks\_error](DomainAnalyticsTechnologiesTechnologiesResponseInfo.md#tasks_error)
-- [time](DomainAnalyticsTechnologiesTechnologiesResponseInfo.md#time)
-- [version](DomainAnalyticsTechnologiesTechnologiesResponseInfo.md#version)
-
-### Methods
-
-- [init](DomainAnalyticsTechnologiesTechnologiesResponseInfo.md#init)
-- [toJSON](DomainAnalyticsTechnologiesTechnologiesResponseInfo.md#tojson)
-- [fromJS](DomainAnalyticsTechnologiesTechnologiesResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DomainAnalyticsTechnologiesTechnologiesResponseInfo(data)
 
-• **new DomainAnalyticsTechnologiesTechnologiesResponseInfo**(`data?`): [`DomainAnalyticsTechnologiesTechnologiesResponseInfo`](DomainAnalyticsTechnologiesTechnologiesResponseInfo.md)
+> **new DomainAnalyticsTechnologiesTechnologiesResponseInfo**(`data`?): [`DomainAnalyticsTechnologiesTechnologiesResponseInfo`](DomainAnalyticsTechnologiesTechnologiesResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDomainAnalyticsTechnologiesTechnologiesResponseInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResponseInfo.md) |
+• **data?**: [`IDomainAnalyticsTechnologiesTechnologiesResponseInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:74756
+main.ts:74764
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesTechnologiesResponseInfo](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResponseInfo.md).[cost](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResponseInfo.md#cost)
+[`IDomainAnalyticsTechnologiesTechnologiesResponseInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResponseInfo.md).[`cost`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesTechnologiesResponseInfo](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResponseInfo.md).[status_code](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResponseInfo.md#status_code)
+[`IDomainAnalyticsTechnologiesTechnologiesResponseInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResponseInfo.md).[`status_code`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesTechnologiesResponseInfo](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResponseInfo.md).[status_message](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResponseInfo.md#status_message)
+[`IDomainAnalyticsTechnologiesTechnologiesResponseInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResponseInfo.md).[`status_message`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`DomainAnalyticsTechnologiesTechnologiesTaskInfo`](DomainAnalyticsTechnologiesTechnologiesTaskInfo.md)[]
+> **`optional`** **tasks**: [`DomainAnalyticsTechnologiesTechnologiesTaskInfo`](DomainAnalyticsTechnologiesTechnologiesTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesTechnologiesResponseInfo](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResponseInfo.md).[tasks](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResponseInfo.md#tasks)
+[`IDomainAnalyticsTechnologiesTechnologiesResponseInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResponseInfo.md).[`tasks`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:74752
+main.ts:74760
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesTechnologiesResponseInfo](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResponseInfo.md).[tasks_count](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResponseInfo.md#tasks_count)
+[`IDomainAnalyticsTechnologiesTechnologiesResponseInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResponseInfo.md).[`tasks_count`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesTechnologiesResponseInfo](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResponseInfo.md).[tasks_error](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResponseInfo.md#tasks_error)
+[`IDomainAnalyticsTechnologiesTechnologiesResponseInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResponseInfo.md).[`tasks_error`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesTechnologiesResponseInfo](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResponseInfo.md).[time](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResponseInfo.md#time)
+[`IDomainAnalyticsTechnologiesTechnologiesResponseInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResponseInfo.md).[`time`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesTechnologiesResponseInfo](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResponseInfo.md).[version](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResponseInfo.md#version)
+[`IDomainAnalyticsTechnologiesTechnologiesResponseInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResponseInfo.md).[`version`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:74760
+main.ts:74768
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:74782
+main.ts:74790
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologiesResponseInfo`](DomainAnalyticsTechnologiesTechnologiesResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologiesResponseInfo`](DomainAnalyticsTechnologiesTechnologiesResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:74775
+main.ts:74783

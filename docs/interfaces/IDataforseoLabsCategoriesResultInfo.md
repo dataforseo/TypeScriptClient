@@ -1,40 +1,32 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsCategoriesResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsCategoriesResultInfo
 
 # Interface: IDataforseoLabsCategoriesResultInfo
 
-## Implemented by
-
-- [`DataforseoLabsCategoriesResultInfo`](../classes/DataforseoLabsCategoriesResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [category\_code](IDataforseoLabsCategoriesResultInfo.md#category_code)
-- [category\_code\_parent](IDataforseoLabsCategoriesResultInfo.md#category_code_parent)
-- [category\_name](IDataforseoLabsCategoriesResultInfo.md#category_name)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### category\_code
+### category\_code?
 
-• `Optional` **category\_code**: `number`
+> **`optional`** **category\_code**: `number`
 
 category code
 
-#### Defined in
+#### Source
 
-main.ts:80571
+main.ts:80579
 
-___
+***
 
-### category\_code\_parent
+### category\_code\_parent?
 
-• `Optional` **category\_code\_parent**: `number`
+> **`optional`** **category\_code\_parent**: `number`
 
 the code of the superordinate category
 example:
@@ -47,18 +39,18 @@ corresponds to:
 "category_name": "Apparel"
 "category_code_parent": null
 
-#### Defined in
+#### Source
 
-main.ts:80584
+main.ts:80592
 
-___
+***
 
-### category\_name
+### category\_name?
 
-• `Optional` **category\_name**: `string`
+> **`optional`** **category\_name**: `string`
 
 full name of the category
 
-#### Defined in
+#### Source
 
-main.ts:80573
+main.ts:80581

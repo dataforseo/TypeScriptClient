@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsCategoriesResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsCategoriesResultInfo
 
 # Class: DataforseoLabsCategoriesResultInfo
 
@@ -8,67 +12,47 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsCategoriesResultInfo.md#constructor)
-
-### Properties
-
-- [category\_code](DataforseoLabsCategoriesResultInfo.md#category_code)
-- [category\_code\_parent](DataforseoLabsCategoriesResultInfo.md#category_code_parent)
-- [category\_name](DataforseoLabsCategoriesResultInfo.md#category_name)
-
-### Methods
-
-- [init](DataforseoLabsCategoriesResultInfo.md#init)
-- [toJSON](DataforseoLabsCategoriesResultInfo.md#tojson)
-- [fromJS](DataforseoLabsCategoriesResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsCategoriesResultInfo(data)
 
-• **new DataforseoLabsCategoriesResultInfo**(`data?`): [`DataforseoLabsCategoriesResultInfo`](DataforseoLabsCategoriesResultInfo.md)
+> **new DataforseoLabsCategoriesResultInfo**(`data`?): [`DataforseoLabsCategoriesResultInfo`](DataforseoLabsCategoriesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsCategoriesResultInfo`](../interfaces/IDataforseoLabsCategoriesResultInfo.md) |
+• **data?**: [`IDataforseoLabsCategoriesResultInfo`](../interfaces/IDataforseoLabsCategoriesResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsCategoriesResultInfo`](DataforseoLabsCategoriesResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:80528
+main.ts:80536
 
 ## Properties
 
-### category\_code
+### category\_code?
 
-• `Optional` **category\_code**: `number`
+> **`optional`** **category\_code**: `number`
 
 category code
 
 #### Implementation of
 
-[IDataforseoLabsCategoriesResultInfo](../interfaces/IDataforseoLabsCategoriesResultInfo.md).[category_code](../interfaces/IDataforseoLabsCategoriesResultInfo.md#category_code)
+[`IDataforseoLabsCategoriesResultInfo`](../interfaces/IDataforseoLabsCategoriesResultInfo.md).[`category_code`](../interfaces/IDataforseoLabsCategoriesResultInfo.md#category_code)
 
-#### Defined in
+#### Source
 
-main.ts:80511
+main.ts:80519
 
-___
+***
 
-### category\_code\_parent
+### category\_code\_parent?
 
-• `Optional` **category\_code\_parent**: `number`
+> **`optional`** **category\_code\_parent**: `number`
 
 the code of the superordinate category
 example:
@@ -83,84 +67,78 @@ corresponds to:
 
 #### Implementation of
 
-[IDataforseoLabsCategoriesResultInfo](../interfaces/IDataforseoLabsCategoriesResultInfo.md).[category_code_parent](../interfaces/IDataforseoLabsCategoriesResultInfo.md#category_code_parent)
+[`IDataforseoLabsCategoriesResultInfo`](../interfaces/IDataforseoLabsCategoriesResultInfo.md).[`category_code_parent`](../interfaces/IDataforseoLabsCategoriesResultInfo.md#category_code_parent)
 
-#### Defined in
+#### Source
 
-main.ts:80524
+main.ts:80532
 
-___
+***
 
-### category\_name
+### category\_name?
 
-• `Optional` **category\_name**: `string`
+> **`optional`** **category\_name**: `string`
 
 full name of the category
 
 #### Implementation of
 
-[IDataforseoLabsCategoriesResultInfo](../interfaces/IDataforseoLabsCategoriesResultInfo.md).[category_name](../interfaces/IDataforseoLabsCategoriesResultInfo.md#category_name)
+[`IDataforseoLabsCategoriesResultInfo`](../interfaces/IDataforseoLabsCategoriesResultInfo.md).[`category_name`](../interfaces/IDataforseoLabsCategoriesResultInfo.md#category_name)
 
-#### Defined in
+#### Source
 
-main.ts:80513
+main.ts:80521
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:80537
+main.ts:80545
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:80556
+main.ts:80564
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsCategoriesResultInfo`](DataforseoLabsCategoriesResultInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsCategoriesResultInfo`](DataforseoLabsCategoriesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsCategoriesResultInfo`](DataforseoLabsCategoriesResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:80549
+main.ts:80557

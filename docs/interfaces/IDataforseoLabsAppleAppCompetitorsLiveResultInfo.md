@@ -1,107 +1,95 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAppleAppCompetitorsLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsAppleAppCompetitorsLiveResultInfo
 
 # Interface: IDataforseoLabsAppleAppCompetitorsLiveResultInfo
 
-## Implemented by
-
-- [`DataforseoLabsAppleAppCompetitorsLiveResultInfo`](../classes/DataforseoLabsAppleAppCompetitorsLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [app\_id](IDataforseoLabsAppleAppCompetitorsLiveResultInfo.md#app_id)
-- [items](IDataforseoLabsAppleAppCompetitorsLiveResultInfo.md#items)
-- [items\_count](IDataforseoLabsAppleAppCompetitorsLiveResultInfo.md#items_count)
-- [language\_code](IDataforseoLabsAppleAppCompetitorsLiveResultInfo.md#language_code)
-- [location\_code](IDataforseoLabsAppleAppCompetitorsLiveResultInfo.md#location_code)
-- [se\_type](IDataforseoLabsAppleAppCompetitorsLiveResultInfo.md#se_type)
-- [total\_count](IDataforseoLabsAppleAppCompetitorsLiveResultInfo.md#total_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### app\_id
+### app\_id?
 
-• `Optional` **app\_id**: `string`
+> **`optional`** **app\_id**: `string`
 
 id of the app in a POST array
 
-#### Defined in
-
-main.ts:113972
-
-___
-
-### items
-
-• `Optional` **items**: [`DataforseoLabsAppleAppCompetitorsLiveItem`](../classes/DataforseoLabsAppleAppCompetitorsLiveItem.md)[]
-
-contains data related to the app_id and competitor applications
-
-#### Defined in
-
-main.ts:113982
-
-___
-
-### items\_count
-
-• `Optional` **items\_count**: `number`
-
-the number of results returned in the items array
-
-#### Defined in
+#### Source
 
 main.ts:113980
 
-___
+***
 
-### language\_code
+### items?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **items**: [`DataforseoLabsAppleAppCompetitorsLiveItem`](../classes/DataforseoLabsAppleAppCompetitorsLiveItem.md)[]
+
+contains data related to the app_id and competitor applications
+
+#### Source
+
+main.ts:113990
+
+***
+
+### items\_count?
+
+> **`optional`** **items\_count**: `number`
+
+the number of results returned in the items array
+
+#### Source
+
+main.ts:113988
+
+***
+
+### language\_code?
+
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:113976
+main.ts:113984
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:113974
+main.ts:113982
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:113970
+main.ts:113978
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
-#### Defined in
+#### Source
 
-main.ts:113978
+main.ts:113986

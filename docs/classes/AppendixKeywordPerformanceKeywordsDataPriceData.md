@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixKeywordPerformanceKeywordsDataPriceData
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppendixKeywordPerformanceKeywordsDataPriceData
 
 # Class: AppendixKeywordPerformanceKeywordsDataPriceData
 
@@ -8,144 +12,118 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixKeywordPerformanceKeywordsDataPriceData.md#constructor)
-
-### Properties
-
-- [locations\_and\_languages](AppendixKeywordPerformanceKeywordsDataPriceData.md#locations_and_languages)
-- [task\_get](AppendixKeywordPerformanceKeywordsDataPriceData.md#task_get)
-- [task\_post](AppendixKeywordPerformanceKeywordsDataPriceData.md#task_post)
-
-### Methods
-
-- [init](AppendixKeywordPerformanceKeywordsDataPriceData.md#init)
-- [toJSON](AppendixKeywordPerformanceKeywordsDataPriceData.md#tojson)
-- [fromJS](AppendixKeywordPerformanceKeywordsDataPriceData.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixKeywordPerformanceKeywordsDataPriceData(data)
 
-• **new AppendixKeywordPerformanceKeywordsDataPriceData**(`data?`): [`AppendixKeywordPerformanceKeywordsDataPriceData`](AppendixKeywordPerformanceKeywordsDataPriceData.md)
+> **new AppendixKeywordPerformanceKeywordsDataPriceData**(`data`?): [`AppendixKeywordPerformanceKeywordsDataPriceData`](AppendixKeywordPerformanceKeywordsDataPriceData.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixKeywordPerformanceKeywordsDataPriceData`](../interfaces/IAppendixKeywordPerformanceKeywordsDataPriceData.md) |
+• **data?**: [`IAppendixKeywordPerformanceKeywordsDataPriceData`](../interfaces/IAppendixKeywordPerformanceKeywordsDataPriceData.md)
 
 #### Returns
 
 [`AppendixKeywordPerformanceKeywordsDataPriceData`](AppendixKeywordPerformanceKeywordsDataPriceData.md)
 
-#### Defined in
+#### Source
 
 main.ts:215414
 
 ## Properties
 
-### locations\_and\_languages
+### locations\_and\_languages?
 
-• `Optional` **locations\_and\_languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **locations\_and\_languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixKeywordPerformanceKeywordsDataPriceData](../interfaces/IAppendixKeywordPerformanceKeywordsDataPriceData.md).[locations_and_languages](../interfaces/IAppendixKeywordPerformanceKeywordsDataPriceData.md#locations_and_languages)
+[`IAppendixKeywordPerformanceKeywordsDataPriceData`](../interfaces/IAppendixKeywordPerformanceKeywordsDataPriceData.md).[`locations_and_languages`](../interfaces/IAppendixKeywordPerformanceKeywordsDataPriceData.md#locations_and_languages)
 
-#### Defined in
+#### Source
 
 main.ts:215408
 
-___
+***
 
-### task\_get
+### task\_get?
 
-• `Optional` **task\_get**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **task\_get**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixKeywordPerformanceKeywordsDataPriceData](../interfaces/IAppendixKeywordPerformanceKeywordsDataPriceData.md).[task_get](../interfaces/IAppendixKeywordPerformanceKeywordsDataPriceData.md#task_get)
+[`IAppendixKeywordPerformanceKeywordsDataPriceData`](../interfaces/IAppendixKeywordPerformanceKeywordsDataPriceData.md).[`task_get`](../interfaces/IAppendixKeywordPerformanceKeywordsDataPriceData.md#task_get)
 
-#### Defined in
+#### Source
 
 main.ts:215409
 
-___
+***
 
-### task\_post
+### task\_post?
 
-• `Optional` **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixKeywordPerformanceKeywordsDataPriceData](../interfaces/IAppendixKeywordPerformanceKeywordsDataPriceData.md).[task_post](../interfaces/IAppendixKeywordPerformanceKeywordsDataPriceData.md#task_post)
+[`IAppendixKeywordPerformanceKeywordsDataPriceData`](../interfaces/IAppendixKeywordPerformanceKeywordsDataPriceData.md).[`task_post`](../interfaces/IAppendixKeywordPerformanceKeywordsDataPriceData.md#task_post)
 
-#### Defined in
+#### Source
 
 main.ts:215410
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:215423
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:215442
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppendixKeywordPerformanceKeywordsDataPriceData`](AppendixKeywordPerformanceKeywordsDataPriceData.md)
+> **`static`** **fromJS**(`data`): [`AppendixKeywordPerformanceKeywordsDataPriceData`](AppendixKeywordPerformanceKeywordsDataPriceData.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppendixKeywordPerformanceKeywordsDataPriceData`](AppendixKeywordPerformanceKeywordsDataPriceData.md)
 
-#### Defined in
+#### Source
 
 main.ts:215435

@@ -1,38 +1,31 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixBusinessDataDayLimitsRatesDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppendixBusinessDataDayLimitsRatesDataInfo
 
 # Interface: IAppendixBusinessDataDayLimitsRatesDataInfo
 
-## Implemented by
-
-- [`AppendixBusinessDataDayLimitsRatesDataInfo`](../classes/AppendixBusinessDataDayLimitsRatesDataInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [reviews](IAppendixBusinessDataDayLimitsRatesDataInfo.md#reviews)
-- [search](IAppendixBusinessDataDayLimitsRatesDataInfo.md#search)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### reviews
+### reviews?
 
-• `Optional` **reviews**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **reviews**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:213435
 
-___
+***
 
-### search
+### search?
 
-• `Optional` **search**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **search**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:213436

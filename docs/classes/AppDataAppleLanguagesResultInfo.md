@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataAppleLanguagesResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppDataAppleLanguagesResultInfo
 
 # Class: AppDataAppleLanguagesResultInfo
 
@@ -8,133 +12,108 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppDataAppleLanguagesResultInfo.md#constructor)
-
-### Properties
-
-- [language\_code](AppDataAppleLanguagesResultInfo.md#language_code)
-- [language\_name](AppDataAppleLanguagesResultInfo.md#language_name)
-
-### Methods
-
-- [init](AppDataAppleLanguagesResultInfo.md#init)
-- [toJSON](AppDataAppleLanguagesResultInfo.md#tojson)
-- [fromJS](AppDataAppleLanguagesResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppDataAppleLanguagesResultInfo(data)
 
-• **new AppDataAppleLanguagesResultInfo**(`data?`): [`AppDataAppleLanguagesResultInfo`](AppDataAppleLanguagesResultInfo.md)
+> **new AppDataAppleLanguagesResultInfo**(`data`?): [`AppDataAppleLanguagesResultInfo`](AppDataAppleLanguagesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppDataAppleLanguagesResultInfo`](../interfaces/IAppDataAppleLanguagesResultInfo.md) |
+• **data?**: [`IAppDataAppleLanguagesResultInfo`](../interfaces/IAppDataAppleLanguagesResultInfo.md)
 
 #### Returns
 
 [`AppDataAppleLanguagesResultInfo`](AppDataAppleLanguagesResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:188389
 
 ## Properties
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code according to ISO 639-1
 
 #### Implementation of
 
-[IAppDataAppleLanguagesResultInfo](../interfaces/IAppDataAppleLanguagesResultInfo.md).[language_code](../interfaces/IAppDataAppleLanguagesResultInfo.md#language_code)
+[`IAppDataAppleLanguagesResultInfo`](../interfaces/IAppDataAppleLanguagesResultInfo.md).[`language_code`](../interfaces/IAppDataAppleLanguagesResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
 main.ts:188385
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 language name
 
 #### Implementation of
 
-[IAppDataAppleLanguagesResultInfo](../interfaces/IAppDataAppleLanguagesResultInfo.md).[language_name](../interfaces/IAppDataAppleLanguagesResultInfo.md#language_name)
+[`IAppDataAppleLanguagesResultInfo`](../interfaces/IAppDataAppleLanguagesResultInfo.md).[`language_name`](../interfaces/IAppDataAppleLanguagesResultInfo.md#language_name)
 
-#### Defined in
+#### Source
 
 main.ts:188383
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:188398
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:188416
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppDataAppleLanguagesResultInfo`](AppDataAppleLanguagesResultInfo.md)
+> **`static`** **fromJS**(`data`): [`AppDataAppleLanguagesResultInfo`](AppDataAppleLanguagesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppDataAppleLanguagesResultInfo`](AppDataAppleLanguagesResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:188409

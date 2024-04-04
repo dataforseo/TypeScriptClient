@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGooglePageIntersectionLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsGooglePageIntersectionLiveRequestInfo
 
 # Class: DataforseoLabsGooglePageIntersectionLiveRequestInfo
 
@@ -8,64 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsGooglePageIntersectionLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [exclude\_pages](DataforseoLabsGooglePageIntersectionLiveRequestInfo.md#exclude_pages)
-- [filters](DataforseoLabsGooglePageIntersectionLiveRequestInfo.md#filters)
-- [ignore\_synonyms](DataforseoLabsGooglePageIntersectionLiveRequestInfo.md#ignore_synonyms)
-- [include\_serp\_info](DataforseoLabsGooglePageIntersectionLiveRequestInfo.md#include_serp_info)
-- [include\_subdomains](DataforseoLabsGooglePageIntersectionLiveRequestInfo.md#include_subdomains)
-- [intersection\_mode](DataforseoLabsGooglePageIntersectionLiveRequestInfo.md#intersection_mode)
-- [item\_types](DataforseoLabsGooglePageIntersectionLiveRequestInfo.md#item_types)
-- [language\_code](DataforseoLabsGooglePageIntersectionLiveRequestInfo.md#language_code)
-- [language\_name](DataforseoLabsGooglePageIntersectionLiveRequestInfo.md#language_name)
-- [limit](DataforseoLabsGooglePageIntersectionLiveRequestInfo.md#limit)
-- [location\_code](DataforseoLabsGooglePageIntersectionLiveRequestInfo.md#location_code)
-- [location\_name](DataforseoLabsGooglePageIntersectionLiveRequestInfo.md#location_name)
-- [offset](DataforseoLabsGooglePageIntersectionLiveRequestInfo.md#offset)
-- [order\_by](DataforseoLabsGooglePageIntersectionLiveRequestInfo.md#order_by)
-- [pages](DataforseoLabsGooglePageIntersectionLiveRequestInfo.md#pages)
-- [tag](DataforseoLabsGooglePageIntersectionLiveRequestInfo.md#tag)
-
-### Methods
-
-- [init](DataforseoLabsGooglePageIntersectionLiveRequestInfo.md#init)
-- [toJSON](DataforseoLabsGooglePageIntersectionLiveRequestInfo.md#tojson)
-- [fromJS](DataforseoLabsGooglePageIntersectionLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsGooglePageIntersectionLiveRequestInfo(data)
 
-• **new DataforseoLabsGooglePageIntersectionLiveRequestInfo**(`data?`): [`DataforseoLabsGooglePageIntersectionLiveRequestInfo`](DataforseoLabsGooglePageIntersectionLiveRequestInfo.md)
+> **new DataforseoLabsGooglePageIntersectionLiveRequestInfo**(`data`?): [`DataforseoLabsGooglePageIntersectionLiveRequestInfo`](DataforseoLabsGooglePageIntersectionLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsGooglePageIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md) |
+• **data?**: [`IDataforseoLabsGooglePageIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGooglePageIntersectionLiveRequestInfo`](DataforseoLabsGooglePageIntersectionLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:99250
+main.ts:99258
 
 ## Properties
 
-### exclude\_pages
+### exclude\_pages?
 
-• `Optional` **exclude\_pages**: `string`[]
+> **`optional`** **exclude\_pages**: `string`[]
 
 URLs of pages you want to exclude
 optional field
@@ -82,24 +53,24 @@ example:
 
 #### Implementation of
 
-[IDataforseoLabsGooglePageIntersectionLiveRequestInfo](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md).[exclude_pages](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#exclude_pages)
+[`IDataforseoLabsGooglePageIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md).[`exclude_pages`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#exclude_pages)
 
-#### Defined in
+#### Source
 
-main.ts:99131
+main.ts:99139
 
-___
+***
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, <=, >, >=, =, <>, in, not_in, like, not_like
+regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 note that if you want to filter by any field in the intersection_result array you need to specify the number of corresponding page
 for instance, if you want to filter results by the ranking of the first specified URL, you should set the following filter:
@@ -107,7 +78,7 @@ for instance, if you want to filter results by the ranking of the first specifie
 if you want to filter results and receive only organic listings for the third specified URL, you should set the following filter:
 [intersection_result.3.type,"=","organic"] , etc.example:
 ["keyword_data.keyword_info.search_volume","in",[100,1000]]
-[["intersection_result.1.etv",">",0],"and",["intersection_result.1.description","like","%goat%"]][["keyword_data.keyword_info.search_volume",">",100],
+[["intersection_result.1.etv",">`",0],"and",["intersection_result.1.description","like","%goat%"]][["keyword_data.keyword_info.search_volume",">",100],
 "and",
 [["intersection_result.2.description","like","%goat%"],
 "or",
@@ -116,17 +87,17 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Implementation of
 
-[IDataforseoLabsGooglePageIntersectionLiveRequestInfo](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md).[filters](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#filters)
+[`IDataforseoLabsGooglePageIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md).[`filters`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#filters)
 
-#### Defined in
+#### Source
 
-main.ts:99224
+main.ts:99232
 
-___
+***
 
-### ignore\_synonyms
+### ignore\_synonyms?
 
-• `Optional` **ignore\_synonyms**: `boolean`
+> **`optional`** **ignore\_synonyms**: `boolean`
 
 ignore highly similar keywords
 optional field
@@ -135,17 +106,17 @@ default value: false
 
 #### Implementation of
 
-[IDataforseoLabsGooglePageIntersectionLiveRequestInfo](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md).[ignore_synonyms](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#ignore_synonyms)
+[`IDataforseoLabsGooglePageIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md).[`ignore_synonyms`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#ignore_synonyms)
 
-#### Defined in
+#### Source
 
-main.ts:99204
+main.ts:99212
 
-___
+***
 
-### include\_serp\_info
+### include\_serp\_info?
 
-• `Optional` **include\_serp\_info**: `boolean`
+> **`optional`** **include\_serp\_info**: `boolean`
 
 include data from SERP for each keyword
 optional field
@@ -154,17 +125,17 @@ default value: false
 
 #### Implementation of
 
-[IDataforseoLabsGooglePageIntersectionLiveRequestInfo](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md).[include_serp_info](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#include_serp_info)
+[`IDataforseoLabsGooglePageIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md).[`include_serp_info`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#include_serp_info)
 
-#### Defined in
+#### Source
 
-main.ts:99199
+main.ts:99207
 
-___
+***
 
-### include\_subdomains
+### include\_subdomains?
 
-• `Optional` **include\_subdomains**: `boolean`
+> **`optional`** **include\_subdomains**: `boolean`
 
 indicates if the subdomains will be included in the search
 optional field
@@ -173,17 +144,17 @@ default value: true
 
 #### Implementation of
 
-[IDataforseoLabsGooglePageIntersectionLiveRequestInfo](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md).[include_subdomains](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#include_subdomains)
+[`IDataforseoLabsGooglePageIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md).[`include_subdomains`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#include_subdomains)
 
-#### Defined in
+#### Source
 
-main.ts:99186
+main.ts:99194
 
-___
+***
 
-### intersection\_mode
+### intersection\_mode?
 
-• `Optional` **intersection\_mode**: `string`
+> **`optional`** **intersection\_mode**: `string`
 
 indicates whether to intersect keywords
 optional field
@@ -195,17 +166,17 @@ by default, results are based on the intersect mode if you specify only pages ar
 
 #### Implementation of
 
-[IDataforseoLabsGooglePageIntersectionLiveRequestInfo](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md).[intersection_mode](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#intersection_mode)
+[`IDataforseoLabsGooglePageIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md).[`intersection_mode`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#intersection_mode)
 
-#### Defined in
+#### Source
 
-main.ts:99194
+main.ts:99202
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 search results type
 indicates type of search results included in the response
@@ -217,17 +188,17 @@ default value:
 
 #### Implementation of
 
-[IDataforseoLabsGooglePageIntersectionLiveRequestInfo](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md).[item_types](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#item_types)
+[`IDataforseoLabsGooglePageIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md).[`item_types`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#item_types)
 
-#### Defined in
+#### Source
 
-main.ts:99171
+main.ts:99179
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 required field if you don’t specify language_name
@@ -239,17 +210,17 @@ en
 
 #### Implementation of
 
-[IDataforseoLabsGooglePageIntersectionLiveRequestInfo](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md).[language_code](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#language_code)
+[`IDataforseoLabsGooglePageIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:99163
+main.ts:99171
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -261,17 +232,17 @@ English
 
 #### Implementation of
 
-[IDataforseoLabsGooglePageIntersectionLiveRequestInfo](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md).[language_name](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#language_name)
+[`IDataforseoLabsGooglePageIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:99155
+main.ts:99163
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned keywords
 optional field
@@ -280,17 +251,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IDataforseoLabsGooglePageIntersectionLiveRequestInfo](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md).[limit](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#limit)
+[`IDataforseoLabsGooglePageIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md).[`limit`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#limit)
 
-#### Defined in
+#### Source
 
-main.ts:99176
+main.ts:99184
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 required field if you don’t specify location_name
@@ -302,17 +273,17 @@ example:
 
 #### Implementation of
 
-[IDataforseoLabsGooglePageIntersectionLiveRequestInfo](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md).[location_code](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#location_code)
+[`IDataforseoLabsGooglePageIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:99147
+main.ts:99155
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code
@@ -324,17 +295,17 @@ United Kingdom
 
 #### Implementation of
 
-[IDataforseoLabsGooglePageIntersectionLiveRequestInfo](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md).[location_name](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#location_name)
+[`IDataforseoLabsGooglePageIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:99139
+main.ts:99147
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the items array of returned keywords
 optional field
@@ -343,17 +314,17 @@ if you specify 10 here, the first ten keywords in the results array will be omit
 
 #### Implementation of
 
-[IDataforseoLabsGooglePageIntersectionLiveRequestInfo](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md).[offset](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#offset)
+[`IDataforseoLabsGooglePageIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md).[`offset`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#offset)
 
-#### Defined in
+#### Source
 
-main.ts:99181
+main.ts:99189
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -373,28 +344,28 @@ example:
 
 #### Implementation of
 
-[IDataforseoLabsGooglePageIntersectionLiveRequestInfo](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md).[order_by](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#order_by)
+[`IDataforseoLabsGooglePageIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md).[`order_by`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#order_by)
 
-#### Defined in
+#### Source
 
-main.ts:99240
+main.ts:99248
 
-___
+***
 
-### pages
+### pages?
 
-• `Optional` **pages**: `Object`
+> **`optional`** **pages**: `Object`
 
 target URLs of pages
 required field
 you can set up to 20 pages in this object
 the pages should be specified with absolute URLs (including http:// or https://)
 example:
-"pages": {
+"pages": \{
 "1":"https://www.apple.com/mac/*",
 "2":"https://dataforseo.com/*",
 "3":"https://support.microsoft.com/"
-}if you specify a single page here, we will return results only for this page;
+\}if you specify a single page here, we will return results only for this page;
 you can also use a wildcard (‘*’) character to specify the search pattern
 example:
 "example.com"
@@ -408,21 +379,21 @@ Note: this endpoint will not provide results if the number of intersecting keywo
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
 #### Implementation of
 
-[IDataforseoLabsGooglePageIntersectionLiveRequestInfo](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md).[pages](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#pages)
+[`IDataforseoLabsGooglePageIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md).[`pages`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#pages)
 
-#### Defined in
+#### Source
 
-main.ts:99118
+main.ts:99126
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -432,68 +403,62 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IDataforseoLabsGooglePageIntersectionLiveRequestInfo](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md).[tag](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#tag)
+[`IDataforseoLabsGooglePageIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:99246
+main.ts:99254
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:99259
+main.ts:99267
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:99313
+main.ts:99321
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsGooglePageIntersectionLiveRequestInfo`](DataforseoLabsGooglePageIntersectionLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsGooglePageIntersectionLiveRequestInfo`](DataforseoLabsGooglePageIntersectionLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsGooglePageIntersectionLiveRequestInfo`](DataforseoLabsGooglePageIntersectionLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:99306
+main.ts:99314

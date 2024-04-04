@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleMapsTaskGetAdvancedResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleMapsTaskGetAdvancedResultInfo
 
 # Class: SerpGoogleMapsTaskGetAdvancedResultInfo
 
@@ -8,60 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleMapsTaskGetAdvancedResultInfo.md#constructor)
-
-### Properties
-
-- [check\_url](SerpGoogleMapsTaskGetAdvancedResultInfo.md#check_url)
-- [datetime](SerpGoogleMapsTaskGetAdvancedResultInfo.md#datetime)
-- [item\_types](SerpGoogleMapsTaskGetAdvancedResultInfo.md#item_types)
-- [items](SerpGoogleMapsTaskGetAdvancedResultInfo.md#items)
-- [items\_count](SerpGoogleMapsTaskGetAdvancedResultInfo.md#items_count)
-- [keyword](SerpGoogleMapsTaskGetAdvancedResultInfo.md#keyword)
-- [language\_code](SerpGoogleMapsTaskGetAdvancedResultInfo.md#language_code)
-- [location\_code](SerpGoogleMapsTaskGetAdvancedResultInfo.md#location_code)
-- [se\_domain](SerpGoogleMapsTaskGetAdvancedResultInfo.md#se_domain)
-- [se\_results\_count](SerpGoogleMapsTaskGetAdvancedResultInfo.md#se_results_count)
-- [spell](SerpGoogleMapsTaskGetAdvancedResultInfo.md#spell)
-- [type](SerpGoogleMapsTaskGetAdvancedResultInfo.md#type)
-
-### Methods
-
-- [init](SerpGoogleMapsTaskGetAdvancedResultInfo.md#init)
-- [toJSON](SerpGoogleMapsTaskGetAdvancedResultInfo.md#tojson)
-- [fromJS](SerpGoogleMapsTaskGetAdvancedResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleMapsTaskGetAdvancedResultInfo(data)
 
-• **new SerpGoogleMapsTaskGetAdvancedResultInfo**(`data?`): [`SerpGoogleMapsTaskGetAdvancedResultInfo`](SerpGoogleMapsTaskGetAdvancedResultInfo.md)
+> **new SerpGoogleMapsTaskGetAdvancedResultInfo**(`data`?): [`SerpGoogleMapsTaskGetAdvancedResultInfo`](SerpGoogleMapsTaskGetAdvancedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleMapsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md) |
+• **data?**: [`ISerpGoogleMapsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
 [`SerpGoogleMapsTaskGetAdvancedResultInfo`](SerpGoogleMapsTaskGetAdvancedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:39603
+main.ts:39609
 
 ## Properties
 
-### check\_url
+### check\_url?
 
-• `Optional` **check\_url**: `string`
+> **`optional`** **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided exact results
@@ -69,17 +44,17 @@ Note: to check location-specific results, follow the provided check url, scroll 
 
 #### Implementation of
 
-[ISerpGoogleMapsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md).[check_url](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md#check_url)
+[`ISerpGoogleMapsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md).[`check_url`](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md#check_url)
 
-#### Defined in
+#### Source
 
-main.ts:39580
+main.ts:39586
 
-___
+***
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -88,17 +63,17 @@ example:
 
 #### Implementation of
 
-[ISerpGoogleMapsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md).[datetime](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md#datetime)
+[`ISerpGoogleMapsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md).[`datetime`](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
-main.ts:39585
+main.ts:39591
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -107,214 +82,208 @@ maps_search, maps_paid_item
 
 #### Implementation of
 
-[ISerpGoogleMapsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md).[item_types](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md#item_types)
+[`ISerpGoogleMapsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md).[`item_types`](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md#item_types)
 
-#### Defined in
+#### Source
 
-main.ts:39593
+main.ts:39599
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
+> **`optional`** **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
 elements of search results found in SERP
 
 #### Implementation of
 
-[ISerpGoogleMapsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md).[items](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md#items)
+[`ISerpGoogleMapsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md).[`items`](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:39599
+main.ts:39605
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[ISerpGoogleMapsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md).[items_count](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md#items_count)
+[`ISerpGoogleMapsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md).[`items_count`](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:39597
+main.ts:39603
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword received in a POST array
 the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
-[ISerpGoogleMapsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md).[keyword](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md#keyword)
+[`ISerpGoogleMapsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md).[`keyword`](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:39568
+main.ts:39574
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[ISerpGoogleMapsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md).[language_code](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md#language_code)
+[`ISerpGoogleMapsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md).[`language_code`](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:39576
+main.ts:39582
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[ISerpGoogleMapsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md).[location_code](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md#location_code)
+[`ISerpGoogleMapsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md).[`location_code`](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:39574
+main.ts:39580
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
 #### Implementation of
 
-[ISerpGoogleMapsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md).[se_domain](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md#se_domain)
+[`ISerpGoogleMapsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md).[`se_domain`](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md#se_domain)
 
-#### Defined in
+#### Source
 
-main.ts:39572
+main.ts:39578
 
-___
+***
 
-### se\_results\_count
+### se\_results\_count?
 
-• `Optional` **se\_results\_count**: `number`
+> **`optional`** **se\_results\_count**: `number`
 
 total number of results in SERP
 
 #### Implementation of
 
-[ISerpGoogleMapsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md).[se_results_count](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md#se_results_count)
+[`ISerpGoogleMapsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md).[`se_results_count`](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md#se_results_count)
 
-#### Defined in
+#### Source
 
-main.ts:39595
+main.ts:39601
 
-___
+***
 
-### spell
+### spell?
 
-• `Optional` **spell**: [`SpellInfo`](SpellInfo.md)
+> **`optional`** **spell**: [`SpellInfo`](SpellInfo.md)
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
 
 #### Implementation of
 
-[ISerpGoogleMapsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md).[spell](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md#spell)
+[`ISerpGoogleMapsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md).[`spell`](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md#spell)
 
-#### Defined in
+#### Source
 
-main.ts:39588
+main.ts:39594
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[ISerpGoogleMapsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md).[type](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md#type)
+[`ISerpGoogleMapsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md).[`type`](../interfaces/ISerpGoogleMapsTaskGetAdvancedResultInfo.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:39570
+main.ts:39576
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:39612
+main.ts:39618
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:39648
+main.ts:39654
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleMapsTaskGetAdvancedResultInfo`](SerpGoogleMapsTaskGetAdvancedResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleMapsTaskGetAdvancedResultInfo`](SerpGoogleMapsTaskGetAdvancedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpGoogleMapsTaskGetAdvancedResultInfo`](SerpGoogleMapsTaskGetAdvancedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:39641
+main.ts:39647

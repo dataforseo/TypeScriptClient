@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataYelpSearchTasksReadyTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataYelpSearchTasksReadyTaskInfo
 
 # Class: BusinessDataYelpSearchTasksReadyTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`BusinessDataYelpSearchTasksReadyTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataYelpSearchTasksReadyTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](BusinessDataYelpSearchTasksReadyTaskInfo.md#cost)
-- [data](BusinessDataYelpSearchTasksReadyTaskInfo.md#data)
-- [id](BusinessDataYelpSearchTasksReadyTaskInfo.md#id)
-- [path](BusinessDataYelpSearchTasksReadyTaskInfo.md#path)
-- [result](BusinessDataYelpSearchTasksReadyTaskInfo.md#result)
-- [result\_count](BusinessDataYelpSearchTasksReadyTaskInfo.md#result_count)
-- [status\_code](BusinessDataYelpSearchTasksReadyTaskInfo.md#status_code)
-- [status\_message](BusinessDataYelpSearchTasksReadyTaskInfo.md#status_message)
-- [time](BusinessDataYelpSearchTasksReadyTaskInfo.md#time)
-
-### Methods
-
-- [init](BusinessDataYelpSearchTasksReadyTaskInfo.md#init)
-- [toJSON](BusinessDataYelpSearchTasksReadyTaskInfo.md#tojson)
-- [fromJS](BusinessDataYelpSearchTasksReadyTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataYelpSearchTasksReadyTaskInfo(data)
 
-• **new BusinessDataYelpSearchTasksReadyTaskInfo**(`data?`): [`BusinessDataYelpSearchTasksReadyTaskInfo`](BusinessDataYelpSearchTasksReadyTaskInfo.md)
+> **new BusinessDataYelpSearchTasksReadyTaskInfo**(`data`?): [`BusinessDataYelpSearchTasksReadyTaskInfo`](BusinessDataYelpSearchTasksReadyTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataYelpSearchTasksReadyTaskInfo`](../interfaces/IBusinessDataYelpSearchTasksReadyTaskInfo.md) |
+• **data?**: [`IBusinessDataYelpSearchTasksReadyTaskInfo`](../interfaces/IBusinessDataYelpSearchTasksReadyTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:209227
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IBusinessDataYelpSearchTasksReadyTaskInfo](../interfaces/IBusinessDataYelpSearchTasksReadyTaskInfo.md).[cost](../interfaces/IBusinessDataYelpSearchTasksReadyTaskInfo.md#cost)
+[`IBusinessDataYelpSearchTasksReadyTaskInfo`](../interfaces/IBusinessDataYelpSearchTasksReadyTaskInfo.md).[`cost`](../interfaces/IBusinessDataYelpSearchTasksReadyTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[IBusinessDataYelpSearchTasksReadyTaskInfo](../interfaces/IBusinessDataYelpSearchTasksReadyTaskInfo.md).[data](../interfaces/IBusinessDataYelpSearchTasksReadyTaskInfo.md#data)
+[`IBusinessDataYelpSearchTasksReadyTaskInfo`](../interfaces/IBusinessDataYelpSearchTasksReadyTaskInfo.md).[`data`](../interfaces/IBusinessDataYelpSearchTasksReadyTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IBusinessDataYelpSearchTasksReadyTaskInfo](../interfaces/IBusinessDataYelpSearchTasksReadyTaskInfo.md).[id](../interfaces/IBusinessDataYelpSearchTasksReadyTaskInfo.md#id)
+[`IBusinessDataYelpSearchTasksReadyTaskInfo`](../interfaces/IBusinessDataYelpSearchTasksReadyTaskInfo.md).[`id`](../interfaces/IBusinessDataYelpSearchTasksReadyTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[IBusinessDataYelpSearchTasksReadyTaskInfo](../interfaces/IBusinessDataYelpSearchTasksReadyTaskInfo.md).[path](../interfaces/IBusinessDataYelpSearchTasksReadyTaskInfo.md#path)
+[`IBusinessDataYelpSearchTasksReadyTaskInfo`](../interfaces/IBusinessDataYelpSearchTasksReadyTaskInfo.md).[`path`](../interfaces/IBusinessDataYelpSearchTasksReadyTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`BusinessDataYelpSearchTasksReadyResultInfo`](BusinessDataYelpSearchTasksReadyResultInfo.md)[]
+> **`optional`** **result**: [`BusinessDataYelpSearchTasksReadyResultInfo`](BusinessDataYelpSearchTasksReadyResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[IBusinessDataYelpSearchTasksReadyTaskInfo](../interfaces/IBusinessDataYelpSearchTasksReadyTaskInfo.md).[result](../interfaces/IBusinessDataYelpSearchTasksReadyTaskInfo.md#result)
+[`IBusinessDataYelpSearchTasksReadyTaskInfo`](../interfaces/IBusinessDataYelpSearchTasksReadyTaskInfo.md).[`result`](../interfaces/IBusinessDataYelpSearchTasksReadyTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
 main.ts:209223
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[IBusinessDataYelpSearchTasksReadyTaskInfo](../interfaces/IBusinessDataYelpSearchTasksReadyTaskInfo.md).[result_count](../interfaces/IBusinessDataYelpSearchTasksReadyTaskInfo.md#result_count)
+[`IBusinessDataYelpSearchTasksReadyTaskInfo`](../interfaces/IBusinessDataYelpSearchTasksReadyTaskInfo.md).[`result_count`](../interfaces/IBusinessDataYelpSearchTasksReadyTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[IBusinessDataYelpSearchTasksReadyTaskInfo](../interfaces/IBusinessDataYelpSearchTasksReadyTaskInfo.md).[status_code](../interfaces/IBusinessDataYelpSearchTasksReadyTaskInfo.md#status_code)
+[`IBusinessDataYelpSearchTasksReadyTaskInfo`](../interfaces/IBusinessDataYelpSearchTasksReadyTaskInfo.md).[`status_code`](../interfaces/IBusinessDataYelpSearchTasksReadyTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IBusinessDataYelpSearchTasksReadyTaskInfo](../interfaces/IBusinessDataYelpSearchTasksReadyTaskInfo.md).[status_message](../interfaces/IBusinessDataYelpSearchTasksReadyTaskInfo.md#status_message)
+[`IBusinessDataYelpSearchTasksReadyTaskInfo`](../interfaces/IBusinessDataYelpSearchTasksReadyTaskInfo.md).[`status_message`](../interfaces/IBusinessDataYelpSearchTasksReadyTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[IBusinessDataYelpSearchTasksReadyTaskInfo](../interfaces/IBusinessDataYelpSearchTasksReadyTaskInfo.md).[time](../interfaces/IBusinessDataYelpSearchTasksReadyTaskInfo.md#time)
+[`IBusinessDataYelpSearchTasksReadyTaskInfo`](../interfaces/IBusinessDataYelpSearchTasksReadyTaskInfo.md).[`time`](../interfaces/IBusinessDataYelpSearchTasksReadyTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:209231
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:209253
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataYelpSearchTasksReadyTaskInfo`](BusinessDataYelpSearchTasksReadyTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataYelpSearchTasksReadyTaskInfo`](BusinessDataYelpSearchTasksReadyTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:209246

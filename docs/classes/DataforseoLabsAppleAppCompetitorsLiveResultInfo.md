@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAppleAppCompetitorsLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsAppleAppCompetitorsLiveResultInfo
 
 # Class: DataforseoLabsAppleAppCompetitorsLiveResultInfo
 
@@ -8,218 +12,188 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsAppleAppCompetitorsLiveResultInfo.md#constructor)
-
-### Properties
-
-- [app\_id](DataforseoLabsAppleAppCompetitorsLiveResultInfo.md#app_id)
-- [items](DataforseoLabsAppleAppCompetitorsLiveResultInfo.md#items)
-- [items\_count](DataforseoLabsAppleAppCompetitorsLiveResultInfo.md#items_count)
-- [language\_code](DataforseoLabsAppleAppCompetitorsLiveResultInfo.md#language_code)
-- [location\_code](DataforseoLabsAppleAppCompetitorsLiveResultInfo.md#location_code)
-- [se\_type](DataforseoLabsAppleAppCompetitorsLiveResultInfo.md#se_type)
-- [total\_count](DataforseoLabsAppleAppCompetitorsLiveResultInfo.md#total_count)
-
-### Methods
-
-- [init](DataforseoLabsAppleAppCompetitorsLiveResultInfo.md#init)
-- [toJSON](DataforseoLabsAppleAppCompetitorsLiveResultInfo.md#tojson)
-- [fromJS](DataforseoLabsAppleAppCompetitorsLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsAppleAppCompetitorsLiveResultInfo(data)
 
-• **new DataforseoLabsAppleAppCompetitorsLiveResultInfo**(`data?`): [`DataforseoLabsAppleAppCompetitorsLiveResultInfo`](DataforseoLabsAppleAppCompetitorsLiveResultInfo.md)
+> **new DataforseoLabsAppleAppCompetitorsLiveResultInfo**(`data`?): [`DataforseoLabsAppleAppCompetitorsLiveResultInfo`](DataforseoLabsAppleAppCompetitorsLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsAppleAppCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveResultInfo.md) |
+• **data?**: [`IDataforseoLabsAppleAppCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsAppleAppCompetitorsLiveResultInfo`](DataforseoLabsAppleAppCompetitorsLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:113911
+main.ts:113919
 
 ## Properties
 
-### app\_id
+### app\_id?
 
-• `Optional` **app\_id**: `string`
+> **`optional`** **app\_id**: `string`
 
 id of the app in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsAppleAppCompetitorsLiveResultInfo](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveResultInfo.md).[app_id](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveResultInfo.md#app_id)
+[`IDataforseoLabsAppleAppCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveResultInfo.md).[`app_id`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveResultInfo.md#app_id)
 
-#### Defined in
+#### Source
 
-main.ts:113897
+main.ts:113905
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`DataforseoLabsAppleAppCompetitorsLiveItem`](DataforseoLabsAppleAppCompetitorsLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsAppleAppCompetitorsLiveItem`](DataforseoLabsAppleAppCompetitorsLiveItem.md)[]
 
 contains data related to the app_id and competitor applications
 
 #### Implementation of
 
-[IDataforseoLabsAppleAppCompetitorsLiveResultInfo](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveResultInfo.md).[items](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveResultInfo.md#items)
+[`IDataforseoLabsAppleAppCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:113907
+main.ts:113915
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[IDataforseoLabsAppleAppCompetitorsLiveResultInfo](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveResultInfo.md).[items_count](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveResultInfo.md#items_count)
+[`IDataforseoLabsAppleAppCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:113905
+main.ts:113913
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsAppleAppCompetitorsLiveResultInfo](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveResultInfo.md).[language_code](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveResultInfo.md#language_code)
+[`IDataforseoLabsAppleAppCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:113901
+main.ts:113909
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsAppleAppCompetitorsLiveResultInfo](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveResultInfo.md).[location_code](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveResultInfo.md#location_code)
+[`IDataforseoLabsAppleAppCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:113899
+main.ts:113907
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IDataforseoLabsAppleAppCompetitorsLiveResultInfo](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveResultInfo.md).[se_type](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveResultInfo.md#se_type)
+[`IDataforseoLabsAppleAppCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:113895
+main.ts:113903
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
 #### Implementation of
 
-[IDataforseoLabsAppleAppCompetitorsLiveResultInfo](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveResultInfo.md).[total_count](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveResultInfo.md#total_count)
+[`IDataforseoLabsAppleAppCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveResultInfo.md#total_count)
 
-#### Defined in
+#### Source
 
-main.ts:113903
+main.ts:113911
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:113920
+main.ts:113928
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:113947
+main.ts:113955
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsAppleAppCompetitorsLiveResultInfo`](DataforseoLabsAppleAppCompetitorsLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsAppleAppCompetitorsLiveResultInfo`](DataforseoLabsAppleAppCompetitorsLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsAppleAppCompetitorsLiveResultInfo`](DataforseoLabsAppleAppCompetitorsLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:113940
+main.ts:113948

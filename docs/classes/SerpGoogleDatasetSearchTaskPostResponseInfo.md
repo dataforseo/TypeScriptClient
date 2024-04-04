@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleDatasetSearchTaskPostResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleDatasetSearchTaskPostResponseInfo
 
 # Class: SerpGoogleDatasetSearchTaskPostResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`SerpGoogleDatasetSearchTaskPostResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleDatasetSearchTaskPostResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](SerpGoogleDatasetSearchTaskPostResponseInfo.md#cost)
-- [status\_code](SerpGoogleDatasetSearchTaskPostResponseInfo.md#status_code)
-- [status\_message](SerpGoogleDatasetSearchTaskPostResponseInfo.md#status_message)
-- [tasks](SerpGoogleDatasetSearchTaskPostResponseInfo.md#tasks)
-- [tasks\_count](SerpGoogleDatasetSearchTaskPostResponseInfo.md#tasks_count)
-- [tasks\_error](SerpGoogleDatasetSearchTaskPostResponseInfo.md#tasks_error)
-- [time](SerpGoogleDatasetSearchTaskPostResponseInfo.md#time)
-- [version](SerpGoogleDatasetSearchTaskPostResponseInfo.md#version)
-
-### Methods
-
-- [init](SerpGoogleDatasetSearchTaskPostResponseInfo.md#init)
-- [toJSON](SerpGoogleDatasetSearchTaskPostResponseInfo.md#tojson)
-- [fromJS](SerpGoogleDatasetSearchTaskPostResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleDatasetSearchTaskPostResponseInfo(data)
 
-• **new SerpGoogleDatasetSearchTaskPostResponseInfo**(`data?`): [`SerpGoogleDatasetSearchTaskPostResponseInfo`](SerpGoogleDatasetSearchTaskPostResponseInfo.md)
+> **new SerpGoogleDatasetSearchTaskPostResponseInfo**(`data`?): [`SerpGoogleDatasetSearchTaskPostResponseInfo`](SerpGoogleDatasetSearchTaskPostResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleDatasetSearchTaskPostResponseInfo`](../interfaces/ISerpGoogleDatasetSearchTaskPostResponseInfo.md) |
+• **data?**: [`ISerpGoogleDatasetSearchTaskPostResponseInfo`](../interfaces/ISerpGoogleDatasetSearchTaskPostResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:52462
+main.ts:52470
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[ISerpGoogleDatasetSearchTaskPostResponseInfo](../interfaces/ISerpGoogleDatasetSearchTaskPostResponseInfo.md).[cost](../interfaces/ISerpGoogleDatasetSearchTaskPostResponseInfo.md#cost)
+[`ISerpGoogleDatasetSearchTaskPostResponseInfo`](../interfaces/ISerpGoogleDatasetSearchTaskPostResponseInfo.md).[`cost`](../interfaces/ISerpGoogleDatasetSearchTaskPostResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[ISerpGoogleDatasetSearchTaskPostResponseInfo](../interfaces/ISerpGoogleDatasetSearchTaskPostResponseInfo.md).[status_code](../interfaces/ISerpGoogleDatasetSearchTaskPostResponseInfo.md#status_code)
+[`ISerpGoogleDatasetSearchTaskPostResponseInfo`](../interfaces/ISerpGoogleDatasetSearchTaskPostResponseInfo.md).[`status_code`](../interfaces/ISerpGoogleDatasetSearchTaskPostResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[ISerpGoogleDatasetSearchTaskPostResponseInfo](../interfaces/ISerpGoogleDatasetSearchTaskPostResponseInfo.md).[status_message](../interfaces/ISerpGoogleDatasetSearchTaskPostResponseInfo.md#status_message)
+[`ISerpGoogleDatasetSearchTaskPostResponseInfo`](../interfaces/ISerpGoogleDatasetSearchTaskPostResponseInfo.md).[`status_message`](../interfaces/ISerpGoogleDatasetSearchTaskPostResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`SerpGoogleDatasetSearchTaskPostTaskInfo`](SerpGoogleDatasetSearchTaskPostTaskInfo.md)[]
+> **`optional`** **tasks**: [`SerpGoogleDatasetSearchTaskPostTaskInfo`](SerpGoogleDatasetSearchTaskPostTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[ISerpGoogleDatasetSearchTaskPostResponseInfo](../interfaces/ISerpGoogleDatasetSearchTaskPostResponseInfo.md).[tasks](../interfaces/ISerpGoogleDatasetSearchTaskPostResponseInfo.md#tasks)
+[`ISerpGoogleDatasetSearchTaskPostResponseInfo`](../interfaces/ISerpGoogleDatasetSearchTaskPostResponseInfo.md).[`tasks`](../interfaces/ISerpGoogleDatasetSearchTaskPostResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:52458
+main.ts:52466
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[ISerpGoogleDatasetSearchTaskPostResponseInfo](../interfaces/ISerpGoogleDatasetSearchTaskPostResponseInfo.md).[tasks_count](../interfaces/ISerpGoogleDatasetSearchTaskPostResponseInfo.md#tasks_count)
+[`ISerpGoogleDatasetSearchTaskPostResponseInfo`](../interfaces/ISerpGoogleDatasetSearchTaskPostResponseInfo.md).[`tasks_count`](../interfaces/ISerpGoogleDatasetSearchTaskPostResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[ISerpGoogleDatasetSearchTaskPostResponseInfo](../interfaces/ISerpGoogleDatasetSearchTaskPostResponseInfo.md).[tasks_error](../interfaces/ISerpGoogleDatasetSearchTaskPostResponseInfo.md#tasks_error)
+[`ISerpGoogleDatasetSearchTaskPostResponseInfo`](../interfaces/ISerpGoogleDatasetSearchTaskPostResponseInfo.md).[`tasks_error`](../interfaces/ISerpGoogleDatasetSearchTaskPostResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[ISerpGoogleDatasetSearchTaskPostResponseInfo](../interfaces/ISerpGoogleDatasetSearchTaskPostResponseInfo.md).[time](../interfaces/ISerpGoogleDatasetSearchTaskPostResponseInfo.md#time)
+[`ISerpGoogleDatasetSearchTaskPostResponseInfo`](../interfaces/ISerpGoogleDatasetSearchTaskPostResponseInfo.md).[`time`](../interfaces/ISerpGoogleDatasetSearchTaskPostResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[ISerpGoogleDatasetSearchTaskPostResponseInfo](../interfaces/ISerpGoogleDatasetSearchTaskPostResponseInfo.md).[version](../interfaces/ISerpGoogleDatasetSearchTaskPostResponseInfo.md#version)
+[`ISerpGoogleDatasetSearchTaskPostResponseInfo`](../interfaces/ISerpGoogleDatasetSearchTaskPostResponseInfo.md).[`version`](../interfaces/ISerpGoogleDatasetSearchTaskPostResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:52466
+main.ts:52474
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:52488
+main.ts:52496
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleDatasetSearchTaskPostResponseInfo`](SerpGoogleDatasetSearchTaskPostResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleDatasetSearchTaskPostResponseInfo`](SerpGoogleDatasetSearchTaskPostResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:52481
+main.ts:52489

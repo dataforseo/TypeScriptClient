@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / RefineProductsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / RefineProductsSerpElementItem
 
 # Class: RefineProductsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-  ↳ **`RefineProductsSerpElementItem`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](RefineProductsSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](RefineProductsSerpElementItem.md#_discriminator)
-- [items](RefineProductsSerpElementItem.md#items)
-- [position](RefineProductsSerpElementItem.md#position)
-- [rank\_absolute](RefineProductsSerpElementItem.md#rank_absolute)
-- [rank\_group](RefineProductsSerpElementItem.md#rank_group)
-- [rectangle](RefineProductsSerpElementItem.md#rectangle)
-- [title](RefineProductsSerpElementItem.md#title)
-- [xpath](RefineProductsSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](RefineProductsSerpElementItem.md#init)
-- [toJSON](RefineProductsSerpElementItem.md#tojson)
-- [fromJS](RefineProductsSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new RefineProductsSerpElementItem(data)
 
-• **new RefineProductsSerpElementItem**(`data?`): [`RefineProductsSerpElementItem`](RefineProductsSerpElementItem.md)
+> **new RefineProductsSerpElementItem**(`data`?): [`RefineProductsSerpElementItem`](RefineProductsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IRefineProductsSerpElementItem`](../interfaces/IRefineProductsSerpElementItem.md) |
+• **data?**: [`IRefineProductsSerpElementItem`](../interfaces/IRefineProductsSerpElementItem.md)
 
 #### Returns
 
@@ -57,48 +34,48 @@
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[constructor](BaseSerpElementItem.md#constructor)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:36065
+main.ts:36071
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[_discriminator](BaseSerpElementItem.md#_discriminator)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:19788
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`RefineProductsElement`](RefineProductsElement.md)[]
+> **`optional`** **items**: [`RefineProductsElement`](RefineProductsElement.md)[]
 
 additional items present in the element
 if there are none, equals null
 
 #### Implementation of
 
-[IRefineProductsSerpElementItem](../interfaces/IRefineProductsSerpElementItem.md).[items](../interfaces/IRefineProductsSerpElementItem.md#items)
+[`IRefineProductsSerpElementItem`](../interfaces/IRefineProductsSerpElementItem.md).[`items`](../interfaces/IRefineProductsSerpElementItem.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:36057
+main.ts:36063
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -106,17 +83,17 @@ left, right
 
 #### Implementation of
 
-[IRefineProductsSerpElementItem](../interfaces/IRefineProductsSerpElementItem.md).[position](../interfaces/IRefineProductsSerpElementItem.md#position)
+[`IRefineProductsSerpElementItem`](../interfaces/IRefineProductsSerpElementItem.md).[`position`](../interfaces/IRefineProductsSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
-main.ts:36050
+main.ts:36056
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -124,17 +101,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IRefineProductsSerpElementItem](../interfaces/IRefineProductsSerpElementItem.md).[rank_absolute](../interfaces/IRefineProductsSerpElementItem.md#rank_absolute)
+[`IRefineProductsSerpElementItem`](../interfaces/IRefineProductsSerpElementItem.md).[`rank_absolute`](../interfaces/IRefineProductsSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:36046
+main.ts:36052
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
@@ -143,17 +120,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IRefineProductsSerpElementItem](../interfaces/IRefineProductsSerpElementItem.md).[rank_group](../interfaces/IRefineProductsSerpElementItem.md#rank_group)
+[`IRefineProductsSerpElementItem`](../interfaces/IRefineProductsSerpElementItem.md).[`rank_group`](../interfaces/IRefineProductsSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
-main.ts:36042
+main.ts:36048
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -161,55 +138,53 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Implementation of
 
-[IRefineProductsSerpElementItem](../interfaces/IRefineProductsSerpElementItem.md).[rectangle](../interfaces/IRefineProductsSerpElementItem.md#rectangle)
+[`IRefineProductsSerpElementItem`](../interfaces/IRefineProductsSerpElementItem.md).[`rectangle`](../interfaces/IRefineProductsSerpElementItem.md#rectangle)
 
-#### Defined in
+#### Source
 
-main.ts:36061
+main.ts:36067
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the row
 
 #### Implementation of
 
-[IRefineProductsSerpElementItem](../interfaces/IRefineProductsSerpElementItem.md).[title](../interfaces/IRefineProductsSerpElementItem.md#title)
+[`IRefineProductsSerpElementItem`](../interfaces/IRefineProductsSerpElementItem.md).[`title`](../interfaces/IRefineProductsSerpElementItem.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:36054
+main.ts:36060
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IRefineProductsSerpElementItem](../interfaces/IRefineProductsSerpElementItem.md).[xpath](../interfaces/IRefineProductsSerpElementItem.md#xpath)
+[`IRefineProductsSerpElementItem`](../interfaces/IRefineProductsSerpElementItem.md).[`xpath`](../interfaces/IRefineProductsSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
-main.ts:36052
+main.ts:36058
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -217,23 +192,21 @@ main.ts:36052
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[init](BaseSerpElementItem.md#init)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:36070
+main.ts:36076
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -241,23 +214,21 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[toJSON](BaseSerpElementItem.md#tojson)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:36098
+main.ts:36104
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`RefineProductsSerpElementItem`](RefineProductsSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`RefineProductsSerpElementItem`](RefineProductsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -265,8 +236,8 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[fromJS](BaseSerpElementItem.md#fromjs)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:36091
+main.ts:36097

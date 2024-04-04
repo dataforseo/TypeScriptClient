@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / PodcastsElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / PodcastsElement
 
 # Class: PodcastsElement
 
@@ -8,86 +12,63 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](PodcastsElement.md#constructor)
-
-### Properties
-
-- [description](PodcastsElement.md#description)
-- [time\_to\_play](PodcastsElement.md#time_to_play)
-- [timestamp](PodcastsElement.md#timestamp)
-- [title](PodcastsElement.md#title)
-- [type](PodcastsElement.md#type)
-- [url](PodcastsElement.md#url)
-
-### Methods
-
-- [init](PodcastsElement.md#init)
-- [toJSON](PodcastsElement.md#tojson)
-- [fromJS](PodcastsElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new PodcastsElement(data)
 
-• **new PodcastsElement**(`data?`): [`PodcastsElement`](PodcastsElement.md)
+> **new PodcastsElement**(`data`?): [`PodcastsElement`](PodcastsElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IPodcastsElement`](../interfaces/IPodcastsElement.md) |
+• **data?**: [`IPodcastsElement`](../interfaces/IPodcastsElement.md)
 
 #### Returns
 
 [`PodcastsElement`](PodcastsElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:33050
+main.ts:33056
 
 ## Properties
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description
 
 #### Implementation of
 
-[IPodcastsElement](../interfaces/IPodcastsElement.md).[description](../interfaces/IPodcastsElement.md#description)
+[`IPodcastsElement`](../interfaces/IPodcastsElement.md).[`description`](../interfaces/IPodcastsElement.md#description)
 
-#### Defined in
+#### Source
 
-main.ts:33039
+main.ts:33045
 
-___
+***
 
-### time\_to\_play
+### time\_to\_play?
 
-• `Optional` **time\_to\_play**: `string`
+> **`optional`** **time\_to\_play**: `string`
 
 the total time it will take to play an episode
 
 #### Implementation of
 
-[IPodcastsElement](../interfaces/IPodcastsElement.md).[time_to_play](../interfaces/IPodcastsElement.md#time_to_play)
+[`IPodcastsElement`](../interfaces/IPodcastsElement.md).[`time_to_play`](../interfaces/IPodcastsElement.md#time_to_play)
 
-#### Defined in
+#### Source
 
-main.ts:33046
+main.ts:33052
 
-___
+***
 
-### timestamp
+### timestamp?
 
-• `Optional` **timestamp**: `string`
+> **`optional`** **timestamp**: `string`
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -96,116 +77,110 @@ example:
 
 #### Implementation of
 
-[IPodcastsElement](../interfaces/IPodcastsElement.md).[timestamp](../interfaces/IPodcastsElement.md#timestamp)
+[`IPodcastsElement`](../interfaces/IPodcastsElement.md).[`timestamp`](../interfaces/IPodcastsElement.md#timestamp)
 
-#### Defined in
+#### Source
 
-main.ts:33044
+main.ts:33050
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
 #### Implementation of
 
-[IPodcastsElement](../interfaces/IPodcastsElement.md).[title](../interfaces/IPodcastsElement.md#title)
+[`IPodcastsElement`](../interfaces/IPodcastsElement.md).[`title`](../interfaces/IPodcastsElement.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:33035
+main.ts:33041
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IPodcastsElement](../interfaces/IPodcastsElement.md).[type](../interfaces/IPodcastsElement.md#type)
+[`IPodcastsElement`](../interfaces/IPodcastsElement.md).[`type`](../interfaces/IPodcastsElement.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:33033
+main.ts:33039
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL
 
 #### Implementation of
 
-[IPodcastsElement](../interfaces/IPodcastsElement.md).[url](../interfaces/IPodcastsElement.md#url)
+[`IPodcastsElement`](../interfaces/IPodcastsElement.md).[`url`](../interfaces/IPodcastsElement.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:33037
+main.ts:33043
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:33059
+main.ts:33065
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:33081
+main.ts:33087
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`PodcastsElement`](PodcastsElement.md)
+> **`static`** **fromJS**(`data`): [`PodcastsElement`](PodcastsElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`PodcastsElement`](PodcastsElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:33074
+main.ts:33080

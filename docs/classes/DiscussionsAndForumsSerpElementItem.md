@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DiscussionsAndForumsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DiscussionsAndForumsSerpElementItem
 
 # Class: DiscussionsAndForumsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-  ↳ **`DiscussionsAndForumsSerpElementItem`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DiscussionsAndForumsSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](DiscussionsAndForumsSerpElementItem.md#_discriminator)
-- [items](DiscussionsAndForumsSerpElementItem.md#items)
-- [position](DiscussionsAndForumsSerpElementItem.md#position)
-- [rank\_absolute](DiscussionsAndForumsSerpElementItem.md#rank_absolute)
-- [rank\_group](DiscussionsAndForumsSerpElementItem.md#rank_group)
-- [rectangle](DiscussionsAndForumsSerpElementItem.md#rectangle)
-- [title](DiscussionsAndForumsSerpElementItem.md#title)
-- [xpath](DiscussionsAndForumsSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](DiscussionsAndForumsSerpElementItem.md#init)
-- [toJSON](DiscussionsAndForumsSerpElementItem.md#tojson)
-- [fromJS](DiscussionsAndForumsSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DiscussionsAndForumsSerpElementItem(data)
 
-• **new DiscussionsAndForumsSerpElementItem**(`data?`): [`DiscussionsAndForumsSerpElementItem`](DiscussionsAndForumsSerpElementItem.md)
+> **new DiscussionsAndForumsSerpElementItem**(`data`?): [`DiscussionsAndForumsSerpElementItem`](DiscussionsAndForumsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDiscussionsAndForumsSerpElementItem`](../interfaces/IDiscussionsAndForumsSerpElementItem.md) |
+• **data?**: [`IDiscussionsAndForumsSerpElementItem`](../interfaces/IDiscussionsAndForumsSerpElementItem.md)
 
 #### Returns
 
@@ -57,48 +34,48 @@
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[constructor](BaseSerpElementItem.md#constructor)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:36687
+main.ts:36693
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[_discriminator](BaseSerpElementItem.md#_discriminator)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:19788
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`DiscussionsAndForumsElement`](DiscussionsAndForumsElement.md)[]
+> **`optional`** **items**: [`DiscussionsAndForumsElement`](DiscussionsAndForumsElement.md)[]
 
 additional items present in the element
 if there are none, equals null
 
 #### Implementation of
 
-[IDiscussionsAndForumsSerpElementItem](../interfaces/IDiscussionsAndForumsSerpElementItem.md).[items](../interfaces/IDiscussionsAndForumsSerpElementItem.md#items)
+[`IDiscussionsAndForumsSerpElementItem`](../interfaces/IDiscussionsAndForumsSerpElementItem.md).[`items`](../interfaces/IDiscussionsAndForumsSerpElementItem.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:36679
+main.ts:36685
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -106,17 +83,17 @@ left, right
 
 #### Implementation of
 
-[IDiscussionsAndForumsSerpElementItem](../interfaces/IDiscussionsAndForumsSerpElementItem.md).[position](../interfaces/IDiscussionsAndForumsSerpElementItem.md#position)
+[`IDiscussionsAndForumsSerpElementItem`](../interfaces/IDiscussionsAndForumsSerpElementItem.md).[`position`](../interfaces/IDiscussionsAndForumsSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
-main.ts:36672
+main.ts:36678
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -124,17 +101,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IDiscussionsAndForumsSerpElementItem](../interfaces/IDiscussionsAndForumsSerpElementItem.md).[rank_absolute](../interfaces/IDiscussionsAndForumsSerpElementItem.md#rank_absolute)
+[`IDiscussionsAndForumsSerpElementItem`](../interfaces/IDiscussionsAndForumsSerpElementItem.md).[`rank_absolute`](../interfaces/IDiscussionsAndForumsSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:36668
+main.ts:36674
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
@@ -143,17 +120,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IDiscussionsAndForumsSerpElementItem](../interfaces/IDiscussionsAndForumsSerpElementItem.md).[rank_group](../interfaces/IDiscussionsAndForumsSerpElementItem.md#rank_group)
+[`IDiscussionsAndForumsSerpElementItem`](../interfaces/IDiscussionsAndForumsSerpElementItem.md).[`rank_group`](../interfaces/IDiscussionsAndForumsSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
-main.ts:36664
+main.ts:36670
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -161,55 +138,53 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Implementation of
 
-[IDiscussionsAndForumsSerpElementItem](../interfaces/IDiscussionsAndForumsSerpElementItem.md).[rectangle](../interfaces/IDiscussionsAndForumsSerpElementItem.md#rectangle)
+[`IDiscussionsAndForumsSerpElementItem`](../interfaces/IDiscussionsAndForumsSerpElementItem.md).[`rectangle`](../interfaces/IDiscussionsAndForumsSerpElementItem.md#rectangle)
 
-#### Defined in
+#### Source
 
-main.ts:36683
+main.ts:36689
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the row
 
 #### Implementation of
 
-[IDiscussionsAndForumsSerpElementItem](../interfaces/IDiscussionsAndForumsSerpElementItem.md).[title](../interfaces/IDiscussionsAndForumsSerpElementItem.md#title)
+[`IDiscussionsAndForumsSerpElementItem`](../interfaces/IDiscussionsAndForumsSerpElementItem.md).[`title`](../interfaces/IDiscussionsAndForumsSerpElementItem.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:36676
+main.ts:36682
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IDiscussionsAndForumsSerpElementItem](../interfaces/IDiscussionsAndForumsSerpElementItem.md).[xpath](../interfaces/IDiscussionsAndForumsSerpElementItem.md#xpath)
+[`IDiscussionsAndForumsSerpElementItem`](../interfaces/IDiscussionsAndForumsSerpElementItem.md).[`xpath`](../interfaces/IDiscussionsAndForumsSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
-main.ts:36674
+main.ts:36680
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -217,23 +192,21 @@ main.ts:36674
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[init](BaseSerpElementItem.md#init)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:36692
+main.ts:36698
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -241,23 +214,21 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[toJSON](BaseSerpElementItem.md#tojson)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:36720
+main.ts:36726
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DiscussionsAndForumsSerpElementItem`](DiscussionsAndForumsSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`DiscussionsAndForumsSerpElementItem`](DiscussionsAndForumsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -265,8 +236,8 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[fromJS](BaseSerpElementItem.md#fromjs)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:36713
+main.ts:36719

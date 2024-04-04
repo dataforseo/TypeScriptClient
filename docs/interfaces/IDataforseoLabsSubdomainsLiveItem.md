@@ -1,59 +1,51 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsSubdomainsLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsSubdomainsLiveItem
 
 # Interface: IDataforseoLabsSubdomainsLiveItem
 
-## Implemented by
-
-- [`DataforseoLabsSubdomainsLiveItem`](../classes/DataforseoLabsSubdomainsLiveItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [metrics](IDataforseoLabsSubdomainsLiveItem.md#metrics)
-- [se\_type](IDataforseoLabsSubdomainsLiveItem.md#se_type)
-- [subdomain](IDataforseoLabsSubdomainsLiveItem.md#subdomain)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### metrics
+### metrics?
 
-• `Optional` **metrics**: `Object`
+> **`optional`** **metrics**: `Object`
 
 ranking data relevant to subdomain
 
 #### Index signature
 
-▪ [key: `string`]: [`MetricsInfo`](../classes/MetricsInfo.md)
+ \[`key`: `string`\]: [`MetricsInfo`](../classes/MetricsInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:92064
+main.ts:92072
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:92060
+main.ts:92068
 
-___
+***
 
-### subdomain
+### subdomain?
 
-• `Optional` **subdomain**: `string`
+> **`optional`** **subdomain**: `string`
 
 returned subdomain
 
-#### Defined in
+#### Source
 
-main.ts:92062
+main.ts:92070

@@ -1,32 +1,26 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsStatusInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsStatusInfo
 
 # Interface: IDataforseoLabsStatusInfo
 
-## Implemented by
-
-- [`DataforseoLabsStatusInfo`](../classes/DataforseoLabsStatusInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [date\_update](IDataforseoLabsStatusInfo.md#date_update)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### date\_update
+### date\_update?
 
-• `Optional` **date\_update**: `string`
+> **`optional`** **date\_update**: `string`
 
 update date of the Google endpoints
 indicates the last date when the Google endpoints of DataForSEO Labs API were updated;
 example:
 2022-05-16
 
-#### Defined in
+#### Source
 
-main.ts:79198
+main.ts:79206

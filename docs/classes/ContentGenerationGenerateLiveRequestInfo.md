@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentGenerationGenerateLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ContentGenerationGenerateLiveRequestInfo
 
 # Class: ContentGenerationGenerateLiveRequestInfo
 
@@ -8,61 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ContentGenerationGenerateLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [avoid\_starting\_words](ContentGenerationGenerateLiveRequestInfo.md#avoid_starting_words)
-- [avoid\_words](ContentGenerationGenerateLiveRequestInfo.md#avoid_words)
-- [creativity\_index](ContentGenerationGenerateLiveRequestInfo.md#creativity_index)
-- [max\_new\_tokens](ContentGenerationGenerateLiveRequestInfo.md#max_new_tokens)
-- [max\_tokens](ContentGenerationGenerateLiveRequestInfo.md#max_tokens)
-- [stop\_words](ContentGenerationGenerateLiveRequestInfo.md#stop_words)
-- [supplement\_token](ContentGenerationGenerateLiveRequestInfo.md#supplement_token)
-- [tag](ContentGenerationGenerateLiveRequestInfo.md#tag)
-- [temperature](ContentGenerationGenerateLiveRequestInfo.md#temperature)
-- [text](ContentGenerationGenerateLiveRequestInfo.md#text)
-- [token\_repetition\_penalty](ContentGenerationGenerateLiveRequestInfo.md#token_repetition_penalty)
-- [top\_k](ContentGenerationGenerateLiveRequestInfo.md#top_k)
-- [top\_p](ContentGenerationGenerateLiveRequestInfo.md#top_p)
-
-### Methods
-
-- [init](ContentGenerationGenerateLiveRequestInfo.md#init)
-- [toJSON](ContentGenerationGenerateLiveRequestInfo.md#tojson)
-- [fromJS](ContentGenerationGenerateLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ContentGenerationGenerateLiveRequestInfo(data)
 
-• **new ContentGenerationGenerateLiveRequestInfo**(`data?`): [`ContentGenerationGenerateLiveRequestInfo`](ContentGenerationGenerateLiveRequestInfo.md)
+> **new ContentGenerationGenerateLiveRequestInfo**(`data`?): [`ContentGenerationGenerateLiveRequestInfo`](ContentGenerationGenerateLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IContentGenerationGenerateLiveRequestInfo`](../interfaces/IContentGenerationGenerateLiveRequestInfo.md) |
+• **data?**: [`IContentGenerationGenerateLiveRequestInfo`](../interfaces/IContentGenerationGenerateLiveRequestInfo.md)
 
 #### Returns
 
 [`ContentGenerationGenerateLiveRequestInfo`](ContentGenerationGenerateLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:165263
+main.ts:165271
 
 ## Properties
 
-### avoid\_starting\_words
+### avoid\_starting\_words?
 
-• `Optional` **avoid\_starting\_words**: `string`[]
+> **`optional`** **avoid\_starting\_words**: `string`[]
 
 words or phrases to avoid in the beginning of the generated text
 optional field
@@ -72,17 +46,17 @@ example:
 
 #### Implementation of
 
-[IContentGenerationGenerateLiveRequestInfo](../interfaces/IContentGenerationGenerateLiveRequestInfo.md).[avoid_starting_words](../interfaces/IContentGenerationGenerateLiveRequestInfo.md#avoid_starting_words)
+[`IContentGenerationGenerateLiveRequestInfo`](../interfaces/IContentGenerationGenerateLiveRequestInfo.md).[`avoid_starting_words`](../interfaces/IContentGenerationGenerateLiveRequestInfo.md#avoid_starting_words)
 
-#### Defined in
+#### Source
 
-main.ts:165241
+main.ts:165249
 
-___
+***
 
-### avoid\_words
+### avoid\_words?
 
-• `Optional` **avoid\_words**: `string`[]
+> **`optional`** **avoid\_words**: `string`[]
 
 words or phrases to avoid when generating a text
 optional field
@@ -92,17 +66,17 @@ example:
 
 #### Implementation of
 
-[IContentGenerationGenerateLiveRequestInfo](../interfaces/IContentGenerationGenerateLiveRequestInfo.md).[avoid_words](../interfaces/IContentGenerationGenerateLiveRequestInfo.md#avoid_words)
+[`IContentGenerationGenerateLiveRequestInfo`](../interfaces/IContentGenerationGenerateLiveRequestInfo.md).[`avoid_words`](../interfaces/IContentGenerationGenerateLiveRequestInfo.md#avoid_words)
 
-#### Defined in
+#### Source
 
-main.ts:165235
+main.ts:165243
 
-___
+***
 
-### creativity\_index
+### creativity\_index?
 
-• `Optional` **creativity\_index**: `number`
+> **`optional`** **creativity\_index**: `number`
 
 creativity of content generation
 optional field
@@ -114,17 +88,17 @@ learn more about this parameter on our help center
 
 #### Implementation of
 
-[IContentGenerationGenerateLiveRequestInfo](../interfaces/IContentGenerationGenerateLiveRequestInfo.md).[creativity_index](../interfaces/IContentGenerationGenerateLiveRequestInfo.md#creativity_index)
+[`IContentGenerationGenerateLiveRequestInfo`](../interfaces/IContentGenerationGenerateLiveRequestInfo.md).[`creativity_index`](../interfaces/IContentGenerationGenerateLiveRequestInfo.md#creativity_index)
 
-#### Defined in
+#### Source
 
-main.ts:165198
+main.ts:165206
 
-___
+***
 
-### max\_new\_tokens
+### max\_new\_tokens?
 
-• `Optional` **max\_new\_tokens**: `number`
+> **`optional`** **max\_new\_tokens**: `number`
 
 generation limit for new tokens
 required field if max_tokens is not specified
@@ -135,17 +109,17 @@ learn more about this parameter on our help center
 
 #### Implementation of
 
-[IContentGenerationGenerateLiveRequestInfo](../interfaces/IContentGenerationGenerateLiveRequestInfo.md).[max_new_tokens](../interfaces/IContentGenerationGenerateLiveRequestInfo.md#max_new_tokens)
+[`IContentGenerationGenerateLiveRequestInfo`](../interfaces/IContentGenerationGenerateLiveRequestInfo.md).[`max_new_tokens`](../interfaces/IContentGenerationGenerateLiveRequestInfo.md#max_new_tokens)
 
-#### Defined in
+#### Source
 
-main.ts:165183
+main.ts:165191
 
-___
+***
 
-### max\_tokens
+### max\_tokens?
 
-• `Optional` **max\_tokens**: `number`
+> **`optional`** **max\_tokens**: `number`
 
 generation limit for all tokens
 required field if max_new_tokens is not specified
@@ -156,17 +130,17 @@ learn more about this parameter on our help center
 
 #### Implementation of
 
-[IContentGenerationGenerateLiveRequestInfo](../interfaces/IContentGenerationGenerateLiveRequestInfo.md).[max_tokens](../interfaces/IContentGenerationGenerateLiveRequestInfo.md#max_tokens)
+[`IContentGenerationGenerateLiveRequestInfo`](../interfaces/IContentGenerationGenerateLiveRequestInfo.md).[`max_tokens`](../interfaces/IContentGenerationGenerateLiveRequestInfo.md#max_tokens)
 
-#### Defined in
+#### Source
 
-main.ts:165190
+main.ts:165198
 
-___
+***
 
-### stop\_words
+### stop\_words?
 
-• `Optional` **stop\_words**: `string`[]
+> **`optional`** **stop\_words**: `string`[]
 
 words or phrases to end the text
 optional field
@@ -176,17 +150,17 @@ example:
 
 #### Implementation of
 
-[IContentGenerationGenerateLiveRequestInfo](../interfaces/IContentGenerationGenerateLiveRequestInfo.md).[stop_words](../interfaces/IContentGenerationGenerateLiveRequestInfo.md#stop_words)
+[`IContentGenerationGenerateLiveRequestInfo`](../interfaces/IContentGenerationGenerateLiveRequestInfo.md).[`stop_words`](../interfaces/IContentGenerationGenerateLiveRequestInfo.md#stop_words)
 
-#### Defined in
+#### Source
 
-main.ts:165247
+main.ts:165255
 
-___
+***
 
-### supplement\_token
+### supplement\_token?
 
-• `Optional` **supplement\_token**: `string`
+> **`optional`** **supplement\_token**: `string`
 
 token for generating subsequent results
 optional field
@@ -196,17 +170,17 @@ supplement_token values are unique for each subsequent task
 
 #### Implementation of
 
-[IContentGenerationGenerateLiveRequestInfo](../interfaces/IContentGenerationGenerateLiveRequestInfo.md).[supplement_token](../interfaces/IContentGenerationGenerateLiveRequestInfo.md#supplement_token)
+[`IContentGenerationGenerateLiveRequestInfo`](../interfaces/IContentGenerationGenerateLiveRequestInfo.md).[`supplement_token`](../interfaces/IContentGenerationGenerateLiveRequestInfo.md#supplement_token)
 
-#### Defined in
+#### Source
 
-main.ts:165253
+main.ts:165261
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -216,17 +190,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IContentGenerationGenerateLiveRequestInfo](../interfaces/IContentGenerationGenerateLiveRequestInfo.md).[tag](../interfaces/IContentGenerationGenerateLiveRequestInfo.md#tag)
+[`IContentGenerationGenerateLiveRequestInfo`](../interfaces/IContentGenerationGenerateLiveRequestInfo.md).[`tag`](../interfaces/IContentGenerationGenerateLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:165259
+main.ts:165267
 
-___
+***
 
-### temperature
+### temperature?
 
-• `Optional` **temperature**: `number`
+> **`optional`** **temperature**: `number`
 
 controls the randomness in the output
 optional field
@@ -238,17 +212,17 @@ learn more about this parameter on our help center
 
 #### Implementation of
 
-[IContentGenerationGenerateLiveRequestInfo](../interfaces/IContentGenerationGenerateLiveRequestInfo.md).[temperature](../interfaces/IContentGenerationGenerateLiveRequestInfo.md#temperature)
+[`IContentGenerationGenerateLiveRequestInfo`](../interfaces/IContentGenerationGenerateLiveRequestInfo.md).[`temperature`](../interfaces/IContentGenerationGenerateLiveRequestInfo.md#temperature)
 
-#### Defined in
+#### Source
 
-main.ts:165229
+main.ts:165237
 
-___
+***
 
-### text
+### text?
 
-• `Optional` **text**: `string`
+> **`optional`** **text**: `string`
 
 initial target text
 required field
@@ -258,17 +232,17 @@ learn more about tokens on our help center
 
 #### Implementation of
 
-[IContentGenerationGenerateLiveRequestInfo](../interfaces/IContentGenerationGenerateLiveRequestInfo.md).[text](../interfaces/IContentGenerationGenerateLiveRequestInfo.md#text)
+[`IContentGenerationGenerateLiveRequestInfo`](../interfaces/IContentGenerationGenerateLiveRequestInfo.md).[`text`](../interfaces/IContentGenerationGenerateLiveRequestInfo.md#text)
 
-#### Defined in
+#### Source
 
-main.ts:165176
+main.ts:165184
 
-___
+***
 
-### token\_repetition\_penalty
+### token\_repetition\_penalty?
 
-• `Optional` **token\_repetition\_penalty**: `number`
+> **`optional`** **token\_repetition\_penalty**: `number`
 
 token repetition
 optional field
@@ -278,17 +252,17 @@ default value: 1
 
 #### Implementation of
 
-[IContentGenerationGenerateLiveRequestInfo](../interfaces/IContentGenerationGenerateLiveRequestInfo.md).[token_repetition_penalty](../interfaces/IContentGenerationGenerateLiveRequestInfo.md#token_repetition_penalty)
+[`IContentGenerationGenerateLiveRequestInfo`](../interfaces/IContentGenerationGenerateLiveRequestInfo.md).[`token_repetition_penalty`](../interfaces/IContentGenerationGenerateLiveRequestInfo.md#token_repetition_penalty)
 
-#### Defined in
+#### Source
 
-main.ts:165204
+main.ts:165212
 
-___
+***
 
-### top\_k
+### top\_k?
 
-• `Optional` **top\_k**: `number`
+> **`optional`** **top\_k**: `number`
 
 the number of initial tokens in each iteration for choosing a subsequent word
 optional field
@@ -300,17 +274,17 @@ learn more about this parameter on our help center
 
 #### Implementation of
 
-[IContentGenerationGenerateLiveRequestInfo](../interfaces/IContentGenerationGenerateLiveRequestInfo.md).[top_k](../interfaces/IContentGenerationGenerateLiveRequestInfo.md#top_k)
+[`IContentGenerationGenerateLiveRequestInfo`](../interfaces/IContentGenerationGenerateLiveRequestInfo.md).[`top_k`](../interfaces/IContentGenerationGenerateLiveRequestInfo.md#top_k)
 
-#### Defined in
+#### Source
 
-main.ts:165212
+main.ts:165220
 
-___
+***
 
-### top\_p
+### top\_p?
 
-• `Optional` **top\_p**: `number`
+> **`optional`** **top\_p**: `number`
 
 excludes initial tokens with probability lower than one
 optional field
@@ -323,68 +297,62 @@ learn more about this parameter on our help center
 
 #### Implementation of
 
-[IContentGenerationGenerateLiveRequestInfo](../interfaces/IContentGenerationGenerateLiveRequestInfo.md).[top_p](../interfaces/IContentGenerationGenerateLiveRequestInfo.md#top_p)
+[`IContentGenerationGenerateLiveRequestInfo`](../interfaces/IContentGenerationGenerateLiveRequestInfo.md).[`top_p`](../interfaces/IContentGenerationGenerateLiveRequestInfo.md#top_p)
 
-#### Defined in
+#### Source
 
-main.ts:165221
+main.ts:165229
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:165272
+main.ts:165280
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:165313
+main.ts:165321
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ContentGenerationGenerateLiveRequestInfo`](ContentGenerationGenerateLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`ContentGenerationGenerateLiveRequestInfo`](ContentGenerationGenerateLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ContentGenerationGenerateLiveRequestInfo`](ContentGenerationGenerateLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:165306
+main.ts:165314

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsBingRelevantPagesLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsBingRelevantPagesLiveRequestInfo
 
 # Class: DataforseoLabsBingRelevantPagesLiveRequestInfo
 
@@ -8,88 +12,59 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsBingRelevantPagesLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [filters](DataforseoLabsBingRelevantPagesLiveRequestInfo.md#filters)
-- [historical\_serp\_mode](DataforseoLabsBingRelevantPagesLiveRequestInfo.md#historical_serp_mode)
-- [item\_types](DataforseoLabsBingRelevantPagesLiveRequestInfo.md#item_types)
-- [language\_code](DataforseoLabsBingRelevantPagesLiveRequestInfo.md#language_code)
-- [language\_name](DataforseoLabsBingRelevantPagesLiveRequestInfo.md#language_name)
-- [limit](DataforseoLabsBingRelevantPagesLiveRequestInfo.md#limit)
-- [location\_code](DataforseoLabsBingRelevantPagesLiveRequestInfo.md#location_code)
-- [location\_name](DataforseoLabsBingRelevantPagesLiveRequestInfo.md#location_name)
-- [offset](DataforseoLabsBingRelevantPagesLiveRequestInfo.md#offset)
-- [order\_by](DataforseoLabsBingRelevantPagesLiveRequestInfo.md#order_by)
-- [tag](DataforseoLabsBingRelevantPagesLiveRequestInfo.md#tag)
-- [target](DataforseoLabsBingRelevantPagesLiveRequestInfo.md#target)
-
-### Methods
-
-- [init](DataforseoLabsBingRelevantPagesLiveRequestInfo.md#init)
-- [toJSON](DataforseoLabsBingRelevantPagesLiveRequestInfo.md#tojson)
-- [fromJS](DataforseoLabsBingRelevantPagesLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsBingRelevantPagesLiveRequestInfo(data)
 
-• **new DataforseoLabsBingRelevantPagesLiveRequestInfo**(`data?`): [`DataforseoLabsBingRelevantPagesLiveRequestInfo`](DataforseoLabsBingRelevantPagesLiveRequestInfo.md)
+> **new DataforseoLabsBingRelevantPagesLiveRequestInfo**(`data`?): [`DataforseoLabsBingRelevantPagesLiveRequestInfo`](DataforseoLabsBingRelevantPagesLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsBingRelevantPagesLiveRequestInfo`](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md) |
+• **data?**: [`IDataforseoLabsBingRelevantPagesLiveRequestInfo`](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsBingRelevantPagesLiveRequestInfo`](DataforseoLabsBingRelevantPagesLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:108723
+main.ts:108731
 
 ## Properties
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, <=, >, >=, =, <>, in, not_in
+regex, <, `<=, >`, >=, =, `<>`, in, not_in
 example:
-["metrics.paid.count",">",0]
-[["metrics.organic.count",">",50],"and",["metrics.organic.pos_1","<>",0]]
-[[""metrics.organic.count",">",50"],
+["metrics.paid.count",">`",0]
+[["metrics.organic.count",">",50],"and",["metrics.organic.pos_1","`<>`",0]]
+[[""metrics.organic.count",">`",50"],
 "and",
 [["metrics.organic.pos_1","<>",0],"or",["metrics.organic.pos_2_3","<>",0]]]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide
 
 #### Implementation of
 
-[IDataforseoLabsBingRelevantPagesLiveRequestInfo](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md).[filters](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md#filters)
+[`IDataforseoLabsBingRelevantPagesLiveRequestInfo`](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md).[`filters`](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md#filters)
 
-#### Defined in
+#### Source
 
-main.ts:108696
+main.ts:108704
 
-___
+***
 
-### historical\_serp\_mode
+### historical\_serp\_mode?
 
-• `Optional` **historical\_serp\_mode**: `string`
+> **`optional`** **historical\_serp\_mode**: `string`
 
 data collection mode
 optional field
@@ -102,17 +77,17 @@ default value: live
 
 #### Implementation of
 
-[IDataforseoLabsBingRelevantPagesLiveRequestInfo](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md).[historical_serp_mode](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md#historical_serp_mode)
+[`IDataforseoLabsBingRelevantPagesLiveRequestInfo`](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md).[`historical_serp_mode`](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md#historical_serp_mode)
 
-#### Defined in
+#### Source
 
-main.ts:108682
+main.ts:108690
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 display results by item type
 optional field
@@ -125,17 +100,17 @@ default value:
 
 #### Implementation of
 
-[IDataforseoLabsBingRelevantPagesLiveRequestInfo](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md).[item_types](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md#item_types)
+[`IDataforseoLabsBingRelevantPagesLiveRequestInfo`](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md).[`item_types`](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md#item_types)
 
-#### Defined in
+#### Source
 
-main.ts:108663
+main.ts:108671
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 optional field
@@ -148,17 +123,17 @@ en
 
 #### Implementation of
 
-[IDataforseoLabsBingRelevantPagesLiveRequestInfo](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md).[language_code](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md#language_code)
+[`IDataforseoLabsBingRelevantPagesLiveRequestInfo`](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:108654
+main.ts:108662
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 optional field
@@ -171,17 +146,17 @@ English
 
 #### Implementation of
 
-[IDataforseoLabsBingRelevantPagesLiveRequestInfo](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md).[language_name](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md#language_name)
+[`IDataforseoLabsBingRelevantPagesLiveRequestInfo`](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:108645
+main.ts:108653
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned pages
 optional field
@@ -190,17 +165,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IDataforseoLabsBingRelevantPagesLiveRequestInfo](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md).[limit](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md#limit)
+[`IDataforseoLabsBingRelevantPagesLiveRequestInfo`](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md).[`limit`](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md#limit)
 
-#### Defined in
+#### Source
 
-main.ts:108668
+main.ts:108676
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 optional field
@@ -214,17 +189,17 @@ example:
 
 #### Implementation of
 
-[IDataforseoLabsBingRelevantPagesLiveRequestInfo](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md).[location_code](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md#location_code)
+[`IDataforseoLabsBingRelevantPagesLiveRequestInfo`](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:108636
+main.ts:108644
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 optional field
@@ -238,17 +213,17 @@ United States
 
 #### Implementation of
 
-[IDataforseoLabsBingRelevantPagesLiveRequestInfo](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md).[location_name](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md#location_name)
+[`IDataforseoLabsBingRelevantPagesLiveRequestInfo`](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:108626
+main.ts:108634
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned pages
 optional field
@@ -257,17 +232,17 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Implementation of
 
-[IDataforseoLabsBingRelevantPagesLiveRequestInfo](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md).[offset](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md#offset)
+[`IDataforseoLabsBingRelevantPagesLiveRequestInfo`](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md).[`offset`](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md#offset)
 
-#### Defined in
+#### Source
 
-main.ts:108673
+main.ts:108681
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -288,17 +263,17 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Implementation of
 
-[IDataforseoLabsBingRelevantPagesLiveRequestInfo](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md).[order_by](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md#order_by)
+[`IDataforseoLabsBingRelevantPagesLiveRequestInfo`](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md).[`order_by`](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md#order_by)
 
-#### Defined in
+#### Source
 
-main.ts:108713
+main.ts:108721
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -308,17 +283,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IDataforseoLabsBingRelevantPagesLiveRequestInfo](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md).[tag](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md#tag)
+[`IDataforseoLabsBingRelevantPagesLiveRequestInfo`](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:108719
+main.ts:108727
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 domain
 required field
@@ -327,68 +302,62 @@ the domain should be specified without https:// and www.
 
 #### Implementation of
 
-[IDataforseoLabsBingRelevantPagesLiveRequestInfo](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md).[target](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md#target)
+[`IDataforseoLabsBingRelevantPagesLiveRequestInfo`](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md).[`target`](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md#target)
 
-#### Defined in
+#### Source
 
-main.ts:108616
+main.ts:108624
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:108732
+main.ts:108740
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:108772
+main.ts:108780
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsBingRelevantPagesLiveRequestInfo`](DataforseoLabsBingRelevantPagesLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsBingRelevantPagesLiveRequestInfo`](DataforseoLabsBingRelevantPagesLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsBingRelevantPagesLiveRequestInfo`](DataforseoLabsBingRelevantPagesLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:108765
+main.ts:108773

@@ -1,55 +1,47 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IHotelAmenityInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IHotelAmenityInfo
 
 # Interface: IHotelAmenityInfo
 
-## Implemented by
-
-- [`HotelAmenityInfo`](../classes/HotelAmenityInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [category](IHotelAmenityInfo.md#category)
-- [category\_label](IHotelAmenityInfo.md#category_label)
-- [items](IHotelAmenityInfo.md#items)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### category
+### category?
 
-• `Optional` **category**: `string`
+> **`optional`** **category**: `string`
 
 standardised category of the ammenity
 
-#### Defined in
+#### Source
 
 main.ts:200867
 
-___
+***
 
-### category\_label
+### category\_label?
 
-• `Optional` **category\_label**: `string`
+> **`optional`** **category\_label**: `string`
 
 label of the category
 
-#### Defined in
+#### Source
 
 main.ts:200869
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`HotelAmenityItemInfo`](../classes/HotelAmenityItemInfo.md)[]
+> **`optional`** **items**: [`HotelAmenityItemInfo`](../classes/HotelAmenityItemInfo.md)[]
 
 specific amenities and details
 
-#### Defined in
+#### Source
 
 main.ts:200871

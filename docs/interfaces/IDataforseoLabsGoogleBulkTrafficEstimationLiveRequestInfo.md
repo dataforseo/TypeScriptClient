@@ -1,32 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo
 
-## Implemented by
-
-- [`DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo`](../classes/DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [item\_types](IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md#item_types)
-- [language\_code](IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md#language_code)
-- [language\_name](IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md#language_name)
-- [location\_code](IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md#location_code)
-- [location\_name](IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md#location_name)
-- [tag](IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md#tag)
-- [targets](IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md#targets)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 display results by item type
 optional field
@@ -37,15 +25,15 @@ possible values:
 default value:
 ["organic", "paid"]
 
-#### Defined in
+#### Source
 
-main.ts:99994
+main.ts:100002
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 if you use this field, you don’t need to specify language_name
@@ -55,15 +43,15 @@ ignore this field to get the results for all available languages
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:99985
+main.ts:99993
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 if you use this field, you don’t need to specify language_code
@@ -73,15 +61,15 @@ ignore this field to get the results for all available languages
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:99977
+main.ts:99985
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 if you use this field, you don’t have to specify location_name
@@ -91,15 +79,15 @@ ignore this field to get the results for all available locations
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:99969
+main.ts:99977
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 if you use this field, you don’t have to specify location_code
@@ -109,15 +97,15 @@ ignore this field to get the results for all available locations
 example:
 United Kingdom
 
-#### Defined in
+#### Source
 
-main.ts:99961
+main.ts:99969
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -125,15 +113,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:100000
+main.ts:100008
 
-___
+***
 
-### targets
+### targets?
 
-• `Optional` **targets**: `string`[]
+> **`optional`** **targets**: `string`[]
 
 target domains and websites
 required field
@@ -142,6 +130,6 @@ domains and subdomains should be specified without https:// and www.;
 pages should be specified with absolute URL, including https:// and www.;
 you can set up to 1000 domains, subdomains or webpages
 
-#### Defined in
+#### Source
 
-main.ts:99953
+main.ts:99961

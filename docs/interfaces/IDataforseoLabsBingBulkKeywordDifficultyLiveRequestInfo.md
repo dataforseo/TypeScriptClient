@@ -1,31 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo
 
 # Interface: IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo
 
-## Implemented by
-
-- [`DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo`](../classes/DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [keywords](IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo.md#keywords)
-- [language\_code](IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo.md#language_code)
-- [language\_name](IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo.md#language_name)
-- [location\_code](IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo.md#location_code)
-- [location\_name](IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo.md#location_name)
-- [tag](IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 target keywords
 required field
@@ -34,15 +23,15 @@ maximum number of keywords you can specify in this array: 1000
 each keyword should be at least 3 characters long;
 the keywords will be converted to lowercase format
 
-#### Defined in
+#### Source
 
-main.ts:104574
+main.ts:104582
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 required field if don’t specify language_name
@@ -51,15 +40,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:104604
+main.ts:104612
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 required field if don’t specify language_code
@@ -68,15 +57,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:104597
+main.ts:104605
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 required field if don’t specify location_name
@@ -86,15 +75,15 @@ Note: this endpoint currently supports the US location only;
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:104590
+main.ts:104598
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 required field if don’t specify location_code
@@ -104,15 +93,15 @@ Note: this endpoint currently supports the US location only;
 example:
 United States
 
-#### Defined in
+#### Source
 
-main.ts:104582
+main.ts:104590
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -120,6 +109,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:104610
+main.ts:104618

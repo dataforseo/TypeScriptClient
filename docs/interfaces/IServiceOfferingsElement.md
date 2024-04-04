@@ -1,57 +1,49 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IServiceOfferingsElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IServiceOfferingsElement
 
 # Interface: IServiceOfferingsElement
 
-## Implemented by
-
-- [`ServiceOfferingsElement`](../classes/ServiceOfferingsElement.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [is\_available](IServiceOfferingsElement.md#is_available)
-- [name](IServiceOfferingsElement.md#name)
-- [type](IServiceOfferingsElement.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### is\_available
+### is\_available?
 
-• `Optional` **is\_available**: `boolean`
+> **`optional`** **is\_available**: `boolean`
 
 availability of the offering
 if the value is false, the offering is not available
 
-#### Defined in
+#### Source
 
 main.ts:209464
 
-___
+***
 
-### name
+### name?
 
-• `Optional` **name**: `string`
+> **`optional`** **name**: `string`
 
 name of the label
 example: Delivery
 
-#### Defined in
+#### Source
 
 main.ts:209461
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
 main.ts:209458

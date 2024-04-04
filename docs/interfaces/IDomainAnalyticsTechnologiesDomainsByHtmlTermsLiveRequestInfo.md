@@ -1,60 +1,47 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo
 
 # Interface: IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo
 
-## Implemented by
-
-- [`DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo`](../classes/DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [filters](IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md#filters)
-- [keywords](IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md#keywords)
-- [limit](IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md#limit)
-- [mode](IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md#mode)
-- [offset](IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md#offset)
-- [offset\_token](IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md#offset_token)
-- [order\_by](IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md#order_by)
-- [search\_terms](IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md#search_terms)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-<, <=, >, >=, =, <>, in, not_in, like, not_like
+<, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["domain","like","%seo%"]
 [["country_iso_code","=","US"],
 "and",
-["domain_rank",">",100]]
+["domain_rank",">`",100]]
 [["domain_rank",">",100],
 "and",
 [["country_iso_code","=","US"],"or",["country_iso_code","=","CA"]]]
 for more information about filters, please refer to Domain Analytics Technologies API – Filters
 
-#### Defined in
+#### Source
 
-main.ts:77197
+main.ts:77205
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 target keywords in the domain’s title, description or meta keywords
 optional field
@@ -64,30 +51,30 @@ maximum number of keywords you can specify: 10
 example:
 ["seo","software"]
 
-#### Defined in
+#### Source
 
-main.ts:77173
+main.ts:77181
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned domains
 optional field
 default value: 100
 maximum value: 10000
 
-#### Defined in
+#### Source
 
-main.ts:77219
+main.ts:77227
 
-___
+***
 
-### mode
+### mode?
 
-• `Optional` **mode**: `string`
+> **`optional`** **mode**: `string`
 
 search mode
 optional field
@@ -96,15 +83,15 @@ strict_entry – search for results exactly matching the order, intervals and se
 entry – search for results ignoring the order, intervals and separators in the specified search terms
 default value: entry
 
-#### Defined in
+#### Source
 
-main.ts:77180
+main.ts:77188
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned domains
 optional field
@@ -113,15 +100,15 @@ if you specify the 10 value, the first ten domains in the results array will be 
 Note: the maximum value is 9999, the sum of limit and offset must not exceed 10000;
 use the offset_token if you would like to offset more results
 
-#### Defined in
+#### Source
 
-main.ts:77226
+main.ts:77234
 
-___
+***
 
-### offset\_token
+### offset\_token?
 
-• `Optional` **offset\_token**: `string`
+> **`optional`** **offset\_token**: `string`
 
 token for subsequent requests
 optional field
@@ -131,15 +118,15 @@ by specifying the unique offset_token value from the response array, you will ge
 offset_token values are unique for each subsequent task
 Note: if the offset_token is specified in the request, all other parameters should be identical to the previous request
 
-#### Defined in
+#### Source
 
-main.ts:77234
+main.ts:77242
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -158,15 +145,15 @@ you should use a comma to separate several sorting rules
 example:
 ["last_visited,desc","domain_rank,desc"]
 
-#### Defined in
+#### Source
 
-main.ts:77214
+main.ts:77222
 
-___
+***
 
-### search\_terms
+### search\_terms?
 
-• `Optional` **search\_terms**: `string`[]
+> **`optional`** **search\_terms**: `string`[]
 
 target search terms
 required field
@@ -176,6 +163,6 @@ maximum number of search terms you can specify: 10
 example:
 ["data-attrid"]
 
-#### Defined in
+#### Source
 
-main.ts:77165
+main.ts:77173

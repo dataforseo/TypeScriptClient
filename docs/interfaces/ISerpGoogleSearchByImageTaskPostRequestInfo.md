@@ -1,43 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpGoogleSearchByImageTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ISerpGoogleSearchByImageTaskPostRequestInfo
 
 # Interface: ISerpGoogleSearchByImageTaskPostRequestInfo
 
-## Implemented by
-
-- [`SerpGoogleSearchByImageTaskPostRequestInfo`](../classes/SerpGoogleSearchByImageTaskPostRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [browser\_screen\_height](ISerpGoogleSearchByImageTaskPostRequestInfo.md#browser_screen_height)
-- [browser\_screen\_resolution\_ratio](ISerpGoogleSearchByImageTaskPostRequestInfo.md#browser_screen_resolution_ratio)
-- [browser\_screen\_width](ISerpGoogleSearchByImageTaskPostRequestInfo.md#browser_screen_width)
-- [calculate\_rectangles](ISerpGoogleSearchByImageTaskPostRequestInfo.md#calculate_rectangles)
-- [image\_url](ISerpGoogleSearchByImageTaskPostRequestInfo.md#image_url)
-- [language\_code](ISerpGoogleSearchByImageTaskPostRequestInfo.md#language_code)
-- [language\_name](ISerpGoogleSearchByImageTaskPostRequestInfo.md#language_name)
-- [location\_code](ISerpGoogleSearchByImageTaskPostRequestInfo.md#location_code)
-- [location\_coordinate](ISerpGoogleSearchByImageTaskPostRequestInfo.md#location_coordinate)
-- [location\_name](ISerpGoogleSearchByImageTaskPostRequestInfo.md#location_name)
-- [max\_crawl\_pages](ISerpGoogleSearchByImageTaskPostRequestInfo.md#max_crawl_pages)
-- [pingback\_url](ISerpGoogleSearchByImageTaskPostRequestInfo.md#pingback_url)
-- [postback\_data](ISerpGoogleSearchByImageTaskPostRequestInfo.md#postback_data)
-- [postback\_url](ISerpGoogleSearchByImageTaskPostRequestInfo.md#postback_url)
-- [priority](ISerpGoogleSearchByImageTaskPostRequestInfo.md#priority)
-- [se\_domain](ISerpGoogleSearchByImageTaskPostRequestInfo.md#se_domain)
-- [search\_param](ISerpGoogleSearchByImageTaskPostRequestInfo.md#search_param)
-- [tag](ISerpGoogleSearchByImageTaskPostRequestInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### browser\_screen\_height
+### browser\_screen\_height?
 
-• `Optional` **browser\_screen\_height**: `number`
+> **`optional`** **browser\_screen\_height**: `number`
 
 browser screen height
 optional field
@@ -45,15 +22,15 @@ you can set a custom browser screen height to calculate pixel rankings for a par
 by default, the parameter is set to 1080;
 Note: to use this parameter, set calculate_rectangles to true
 
-#### Defined in
+#### Source
 
-main.ts:48190
+main.ts:48198
 
-___
+***
 
-### browser\_screen\_resolution\_ratio
+### browser\_screen\_resolution\_ratio?
 
-• `Optional` **browser\_screen\_resolution\_ratio**: `number`
+> **`optional`** **browser\_screen\_resolution\_ratio**: `number`
 
 browser screen resolution ratio
 optional field
@@ -61,15 +38,15 @@ you can set a custom browser screen resolution ratio to calculate pixel rankings
 by default, the parameter is set to 1;
 Note: to use this parameter, set calculate_rectangles to true
 
-#### Defined in
+#### Source
 
-main.ts:48196
+main.ts:48204
 
-___
+***
 
-### browser\_screen\_width
+### browser\_screen\_width?
 
-• `Optional` **browser\_screen\_width**: `number`
+> **`optional`** **browser\_screen\_width**: `number`
 
 browser screen width
 optional field
@@ -77,15 +54,15 @@ you can set a custom browser screen width to calculate pixel rankings for a part
 by default, the parameter is set to 1920;
 Note: to use this parameter, set calculate_rectangles to true
 
-#### Defined in
+#### Source
 
-main.ts:48184
+main.ts:48192
 
-___
+***
 
-### calculate\_rectangles
+### calculate\_rectangles?
 
-• `Optional` **calculate\_rectangles**: `boolean`
+> **`optional`** **calculate\_rectangles**: `boolean`
 
 calcualte pixel rankings for SERP elements in advanced results
 optional field
@@ -94,15 +71,15 @@ Visit Help Center to learn more>>
 by default, the parameter is set to false
 Note: if set to true, the charge per task will be multiplied by 2
 
-#### Defined in
+#### Source
 
-main.ts:48178
+main.ts:48186
 
-___
+***
 
-### image\_url
+### image\_url?
 
-• `Optional` **image\_url**: `string`
+> **`optional`** **image\_url**: `string`
 
 URL of the image
 required field
@@ -110,15 +87,15 @@ the results will be based on the image you specified in this field
 example:
 https://upload.wikimedia.org/wikipedia/commons/e/ed/Elon_Musk_Royal_Society.jpg
 
-#### Defined in
+#### Source
 
-main.ts:48111
+main.ts:48119
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -127,15 +104,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:48164
+main.ts:48172
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -144,15 +121,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:48157
+main.ts:48165
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -161,15 +138,15 @@ you can receive the list of available locations of the search engines with their
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:48140
+main.ts:48148
 
-___
+***
 
-### location\_coordinate
+### location\_coordinate?
 
-• `Optional` **location\_coordinate**: `string`
+> **`optional`** **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -181,15 +158,15 @@ the maximum value for “radius”: 199999 (mm)
 example:
 53.476225,-2.243572,200
 
-#### Defined in
+#### Source
 
-main.ts:48150
+main.ts:48158
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -198,15 +175,15 @@ you can receive the list of available locations of the search engine with their 
 example:
 London,England,United Kingdom
 
-#### Defined in
+#### Source
 
-main.ts:48133
+main.ts:48141
 
-___
+***
 
-### max\_crawl\_pages
+### max\_crawl\_pages?
 
-• `Optional` **max\_crawl\_pages**: `number`
+> **`optional`** **max\_crawl\_pages**: `number`
 
 page crawl limit
 optional field
@@ -215,15 +192,15 @@ max value: 100
 Note: the max_crawl_pages and depth parameters complement each other;
 learn more at our help center
 
-#### Defined in
+#### Source
 
-main.ts:48126
+main.ts:48134
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -235,15 +212,15 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special symbols in pingback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
-main.ts:48232
+main.ts:48240
 
-___
+***
 
-### postback\_data
+### postback\_data?
 
-• `Optional` **postback\_data**: `string`
+> **`optional`** **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -251,15 +228,15 @@ corresponds to the datatype that will be sent to your server
 possible values:
 advanced
 
-#### Defined in
+#### Source
 
-main.ts:48222
+main.ts:48230
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -271,15 +248,15 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special symbols in postback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
-main.ts:48216
+main.ts:48224
 
-___
+***
 
-### priority
+### priority?
 
-• `Optional` **priority**: `number`
+> **`optional`** **priority**: `number`
 
 task priority
 optional field
@@ -289,15 +266,15 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page.
 
-#### Defined in
+#### Source
 
-main.ts:48119
+main.ts:48127
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain
 optional field
@@ -306,29 +283,29 @@ however, you can set a custom search engine domain in this field
 example:
 google.co.uk, google.com.au, google.de, etc.
 
-#### Defined in
+#### Source
 
-main.ts:48171
+main.ts:48179
 
-___
+***
 
-### search\_param
+### search\_param?
 
-• `Optional` **search\_param**: `string`
+> **`optional`** **search\_param**: `string`
 
 additional parameters of the search query
 optional field
 get the list of available parameters and additional details here
 
-#### Defined in
+#### Source
 
-main.ts:48200
+main.ts:48208
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -336,6 +313,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:48206
+main.ts:48214

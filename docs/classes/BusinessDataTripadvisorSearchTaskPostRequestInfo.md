@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataTripadvisorSearchTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataTripadvisorSearchTaskPostRequestInfo
 
 # Class: BusinessDataTripadvisorSearchTaskPostRequestInfo
 
@@ -8,56 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataTripadvisorSearchTaskPostRequestInfo.md#constructor)
-
-### Properties
-
-- [depth](BusinessDataTripadvisorSearchTaskPostRequestInfo.md#depth)
-- [keyword](BusinessDataTripadvisorSearchTaskPostRequestInfo.md#keyword)
-- [location\_code](BusinessDataTripadvisorSearchTaskPostRequestInfo.md#location_code)
-- [location\_name](BusinessDataTripadvisorSearchTaskPostRequestInfo.md#location_name)
-- [pingback\_url](BusinessDataTripadvisorSearchTaskPostRequestInfo.md#pingback_url)
-- [postback\_url](BusinessDataTripadvisorSearchTaskPostRequestInfo.md#postback_url)
-- [priority](BusinessDataTripadvisorSearchTaskPostRequestInfo.md#priority)
-- [tag](BusinessDataTripadvisorSearchTaskPostRequestInfo.md#tag)
-
-### Methods
-
-- [init](BusinessDataTripadvisorSearchTaskPostRequestInfo.md#init)
-- [toJSON](BusinessDataTripadvisorSearchTaskPostRequestInfo.md#tojson)
-- [fromJS](BusinessDataTripadvisorSearchTaskPostRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataTripadvisorSearchTaskPostRequestInfo(data)
 
-• **new BusinessDataTripadvisorSearchTaskPostRequestInfo**(`data?`): [`BusinessDataTripadvisorSearchTaskPostRequestInfo`](BusinessDataTripadvisorSearchTaskPostRequestInfo.md)
+> **new BusinessDataTripadvisorSearchTaskPostRequestInfo**(`data`?): [`BusinessDataTripadvisorSearchTaskPostRequestInfo`](BusinessDataTripadvisorSearchTaskPostRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataTripadvisorSearchTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorSearchTaskPostRequestInfo.md) |
+• **data?**: [`IBusinessDataTripadvisorSearchTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorSearchTaskPostRequestInfo.md)
 
 #### Returns
 
 [`BusinessDataTripadvisorSearchTaskPostRequestInfo`](BusinessDataTripadvisorSearchTaskPostRequestInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:206419
 
 ## Properties
 
-### depth
+### depth?
 
-• `Optional` **depth**: `number`
+> **`optional`** **depth**: `number`
 
 parsing depth
 optional field
@@ -68,17 +47,17 @@ maximum value: 210
 
 #### Implementation of
 
-[IBusinessDataTripadvisorSearchTaskPostRequestInfo](../interfaces/IBusinessDataTripadvisorSearchTaskPostRequestInfo.md).[depth](../interfaces/IBusinessDataTripadvisorSearchTaskPostRequestInfo.md#depth)
+[`IBusinessDataTripadvisorSearchTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorSearchTaskPostRequestInfo.md).[`depth`](../interfaces/IBusinessDataTripadvisorSearchTaskPostRequestInfo.md#depth)
 
-#### Defined in
+#### Source
 
 main.ts:206389
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword
 required field
@@ -89,17 +68,17 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Implementation of
 
-[IBusinessDataTripadvisorSearchTaskPostRequestInfo](../interfaces/IBusinessDataTripadvisorSearchTaskPostRequestInfo.md).[keyword](../interfaces/IBusinessDataTripadvisorSearchTaskPostRequestInfo.md#keyword)
+[`IBusinessDataTripadvisorSearchTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorSearchTaskPostRequestInfo.md).[`keyword`](../interfaces/IBusinessDataTripadvisorSearchTaskPostRequestInfo.md#keyword)
 
-#### Defined in
+#### Source
 
 main.ts:206362
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name
@@ -109,17 +88,17 @@ example:
 
 #### Implementation of
 
-[IBusinessDataTripadvisorSearchTaskPostRequestInfo](../interfaces/IBusinessDataTripadvisorSearchTaskPostRequestInfo.md).[location_code](../interfaces/IBusinessDataTripadvisorSearchTaskPostRequestInfo.md#location_code)
+[`IBusinessDataTripadvisorSearchTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorSearchTaskPostRequestInfo.md).[`location_code`](../interfaces/IBusinessDataTripadvisorSearchTaskPostRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
 main.ts:206374
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -129,17 +108,17 @@ London,England,United Kingdom
 
 #### Implementation of
 
-[IBusinessDataTripadvisorSearchTaskPostRequestInfo](../interfaces/IBusinessDataTripadvisorSearchTaskPostRequestInfo.md).[location_name](../interfaces/IBusinessDataTripadvisorSearchTaskPostRequestInfo.md#location_name)
+[`IBusinessDataTripadvisorSearchTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorSearchTaskPostRequestInfo.md).[`location_name`](../interfaces/IBusinessDataTripadvisorSearchTaskPostRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
 main.ts:206368
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -153,17 +132,17 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[IBusinessDataTripadvisorSearchTaskPostRequestInfo](../interfaces/IBusinessDataTripadvisorSearchTaskPostRequestInfo.md).[pingback_url](../interfaces/IBusinessDataTripadvisorSearchTaskPostRequestInfo.md#pingback_url)
+[`IBusinessDataTripadvisorSearchTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorSearchTaskPostRequestInfo.md).[`pingback_url`](../interfaces/IBusinessDataTripadvisorSearchTaskPostRequestInfo.md#pingback_url)
 
-#### Defined in
+#### Source
 
 main.ts:206415
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -177,17 +156,17 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[IBusinessDataTripadvisorSearchTaskPostRequestInfo](../interfaces/IBusinessDataTripadvisorSearchTaskPostRequestInfo.md).[postback_url](../interfaces/IBusinessDataTripadvisorSearchTaskPostRequestInfo.md#postback_url)
+[`IBusinessDataTripadvisorSearchTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorSearchTaskPostRequestInfo.md).[`postback_url`](../interfaces/IBusinessDataTripadvisorSearchTaskPostRequestInfo.md#postback_url)
 
-#### Defined in
+#### Source
 
 main.ts:206405
 
-___
+***
 
-### priority
+### priority?
 
-• `Optional` **priority**: `number`
+> **`optional`** **priority**: `number`
 
 task priority
 optional field
@@ -199,17 +178,17 @@ The cost can be calculated on the Pricing page.
 
 #### Implementation of
 
-[IBusinessDataTripadvisorSearchTaskPostRequestInfo](../interfaces/IBusinessDataTripadvisorSearchTaskPostRequestInfo.md).[priority](../interfaces/IBusinessDataTripadvisorSearchTaskPostRequestInfo.md#priority)
+[`IBusinessDataTripadvisorSearchTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorSearchTaskPostRequestInfo.md).[`priority`](../interfaces/IBusinessDataTripadvisorSearchTaskPostRequestInfo.md#priority)
 
-#### Defined in
+#### Source
 
 main.ts:206382
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -219,68 +198,62 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IBusinessDataTripadvisorSearchTaskPostRequestInfo](../interfaces/IBusinessDataTripadvisorSearchTaskPostRequestInfo.md).[tag](../interfaces/IBusinessDataTripadvisorSearchTaskPostRequestInfo.md#tag)
+[`IBusinessDataTripadvisorSearchTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorSearchTaskPostRequestInfo.md).[`tag`](../interfaces/IBusinessDataTripadvisorSearchTaskPostRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
 main.ts:206395
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:206428
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:206452
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataTripadvisorSearchTaskPostRequestInfo`](BusinessDataTripadvisorSearchTaskPostRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataTripadvisorSearchTaskPostRequestInfo`](BusinessDataTripadvisorSearchTaskPostRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BusinessDataTripadvisorSearchTaskPostRequestInfo`](BusinessDataTripadvisorSearchTaskPostRequestInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:206445

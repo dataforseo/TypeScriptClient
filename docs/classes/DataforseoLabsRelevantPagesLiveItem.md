@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsRelevantPagesLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsRelevantPagesLiveItem
 
 # Class: DataforseoLabsRelevantPagesLiveItem
 
@@ -8,154 +12,128 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsRelevantPagesLiveItem.md#constructor)
-
-### Properties
-
-- [metrics](DataforseoLabsRelevantPagesLiveItem.md#metrics)
-- [page\_address](DataforseoLabsRelevantPagesLiveItem.md#page_address)
-- [se\_type](DataforseoLabsRelevantPagesLiveItem.md#se_type)
-
-### Methods
-
-- [init](DataforseoLabsRelevantPagesLiveItem.md#init)
-- [toJSON](DataforseoLabsRelevantPagesLiveItem.md#tojson)
-- [fromJS](DataforseoLabsRelevantPagesLiveItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsRelevantPagesLiveItem(data)
 
-• **new DataforseoLabsRelevantPagesLiveItem**(`data?`): [`DataforseoLabsRelevantPagesLiveItem`](DataforseoLabsRelevantPagesLiveItem.md)
+> **new DataforseoLabsRelevantPagesLiveItem**(`data`?): [`DataforseoLabsRelevantPagesLiveItem`](DataforseoLabsRelevantPagesLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsRelevantPagesLiveItem`](../interfaces/IDataforseoLabsRelevantPagesLiveItem.md) |
+• **data?**: [`IDataforseoLabsRelevantPagesLiveItem`](../interfaces/IDataforseoLabsRelevantPagesLiveItem.md)
 
 #### Returns
 
 [`DataforseoLabsRelevantPagesLiveItem`](DataforseoLabsRelevantPagesLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:92587
+main.ts:92595
 
 ## Properties
 
-### metrics
+### metrics?
 
-• `Optional` **metrics**: `Object`
+> **`optional`** **metrics**: `Object`
 
 rankings and traffic metrics for the relevant page
 
 #### Index signature
 
-▪ [key: `string`]: [`MetricsInfo`](MetricsInfo.md)
+ \[`key`: `string`\]: [`MetricsInfo`](MetricsInfo.md)
 
 #### Implementation of
 
-[IDataforseoLabsRelevantPagesLiveItem](../interfaces/IDataforseoLabsRelevantPagesLiveItem.md).[metrics](../interfaces/IDataforseoLabsRelevantPagesLiveItem.md#metrics)
+[`IDataforseoLabsRelevantPagesLiveItem`](../interfaces/IDataforseoLabsRelevantPagesLiveItem.md).[`metrics`](../interfaces/IDataforseoLabsRelevantPagesLiveItem.md#metrics)
 
-#### Defined in
+#### Source
 
-main.ts:92583
+main.ts:92591
 
-___
+***
 
-### page\_address
+### page\_address?
 
-• `Optional` **page\_address**: `string`
+> **`optional`** **page\_address**: `string`
 
 absolute URL of the relevant page
 
 #### Implementation of
 
-[IDataforseoLabsRelevantPagesLiveItem](../interfaces/IDataforseoLabsRelevantPagesLiveItem.md).[page_address](../interfaces/IDataforseoLabsRelevantPagesLiveItem.md#page_address)
+[`IDataforseoLabsRelevantPagesLiveItem`](../interfaces/IDataforseoLabsRelevantPagesLiveItem.md).[`page_address`](../interfaces/IDataforseoLabsRelevantPagesLiveItem.md#page_address)
 
-#### Defined in
+#### Source
 
-main.ts:92581
+main.ts:92589
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IDataforseoLabsRelevantPagesLiveItem](../interfaces/IDataforseoLabsRelevantPagesLiveItem.md).[se_type](../interfaces/IDataforseoLabsRelevantPagesLiveItem.md#se_type)
+[`IDataforseoLabsRelevantPagesLiveItem`](../interfaces/IDataforseoLabsRelevantPagesLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsRelevantPagesLiveItem.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:92579
+main.ts:92587
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:92596
+main.ts:92604
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:92621
+main.ts:92629
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsRelevantPagesLiveItem`](DataforseoLabsRelevantPagesLiveItem.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsRelevantPagesLiveItem`](DataforseoLabsRelevantPagesLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsRelevantPagesLiveItem`](DataforseoLabsRelevantPagesLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:92614
+main.ts:92622

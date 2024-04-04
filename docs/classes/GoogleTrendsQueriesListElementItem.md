@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / GoogleTrendsQueriesListElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / GoogleTrendsQueriesListElementItem
 
 # Class: GoogleTrendsQueriesListElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md)
-
-  ↳ **`GoogleTrendsQueriesListElementItem`**
 
 ## Implements
 
@@ -14,39 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](GoogleTrendsQueriesListElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](GoogleTrendsQueriesListElementItem.md#_discriminator)
-- [data](GoogleTrendsQueriesListElementItem.md#data)
-- [keywords](GoogleTrendsQueriesListElementItem.md#keywords)
-- [position](GoogleTrendsQueriesListElementItem.md#position)
-- [title](GoogleTrendsQueriesListElementItem.md#title)
-
-### Methods
-
-- [init](GoogleTrendsQueriesListElementItem.md#init)
-- [toJSON](GoogleTrendsQueriesListElementItem.md#tojson)
-- [fromJS](GoogleTrendsQueriesListElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new GoogleTrendsQueriesListElementItem(data)
 
-• **new GoogleTrendsQueriesListElementItem**(`data?`): [`GoogleTrendsQueriesListElementItem`](GoogleTrendsQueriesListElementItem.md)
+> **new GoogleTrendsQueriesListElementItem**(`data`?): [`GoogleTrendsQueriesListElementItem`](GoogleTrendsQueriesListElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IGoogleTrendsQueriesListElementItem`](../interfaces/IGoogleTrendsQueriesListElementItem.md) |
+• **data?**: [`IGoogleTrendsQueriesListElementItem`](../interfaces/IGoogleTrendsQueriesListElementItem.md)
 
 #### Returns
 
@@ -54,103 +34,101 @@
 
 #### Overrides
 
-[BaseGoogleTrendsItem](BaseGoogleTrendsItem.md).[constructor](BaseGoogleTrendsItem.md#constructor)
+[`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`constructor`](BaseGoogleTrendsItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:123463
+main.ts:123471
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseGoogleTrendsItem](BaseGoogleTrendsItem.md).[_discriminator](BaseGoogleTrendsItem.md#_discriminator)
+[`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`_discriminator`](BaseGoogleTrendsItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:20838
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: [`QueriesListDataInfo`](QueriesListDataInfo.md)
+> **`optional`** **data**: [`QueriesListDataInfo`](QueriesListDataInfo.md)
 
 Google Trends data from the corresponding item
 
 #### Implementation of
 
-[IGoogleTrendsQueriesListElementItem](../interfaces/IGoogleTrendsQueriesListElementItem.md).[data](../interfaces/IGoogleTrendsQueriesListElementItem.md#data)
+[`IGoogleTrendsQueriesListElementItem`](../interfaces/IGoogleTrendsQueriesListElementItem.md).[`data`](../interfaces/IGoogleTrendsQueriesListElementItem.md#data)
 
-#### Defined in
+#### Source
 
-main.ts:123459
+main.ts:123467
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 relevant keywords
 the data included in the google_trends_topics_list element is based on the keywords listed in this array
 
 #### Implementation of
 
-[IGoogleTrendsQueriesListElementItem](../interfaces/IGoogleTrendsQueriesListElementItem.md).[keywords](../interfaces/IGoogleTrendsQueriesListElementItem.md#keywords)
+[`IGoogleTrendsQueriesListElementItem`](../interfaces/IGoogleTrendsQueriesListElementItem.md).[`keywords`](../interfaces/IGoogleTrendsQueriesListElementItem.md#keywords)
 
-#### Defined in
+#### Source
 
-main.ts:123457
+main.ts:123465
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `number`
+> **`optional`** **position**: `number`
 
 the alignment of the element in Google Trends
 can take the following values: 1, 2, 3, 4, etc.
 
 #### Implementation of
 
-[IGoogleTrendsQueriesListElementItem](../interfaces/IGoogleTrendsQueriesListElementItem.md).[position](../interfaces/IGoogleTrendsQueriesListElementItem.md#position)
+[`IGoogleTrendsQueriesListElementItem`](../interfaces/IGoogleTrendsQueriesListElementItem.md).[`position`](../interfaces/IGoogleTrendsQueriesListElementItem.md#position)
 
-#### Defined in
+#### Source
 
-main.ts:123452
+main.ts:123460
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the element in Google Trends
 
 #### Implementation of
 
-[IGoogleTrendsQueriesListElementItem](../interfaces/IGoogleTrendsQueriesListElementItem.md).[title](../interfaces/IGoogleTrendsQueriesListElementItem.md#title)
+[`IGoogleTrendsQueriesListElementItem`](../interfaces/IGoogleTrendsQueriesListElementItem.md).[`title`](../interfaces/IGoogleTrendsQueriesListElementItem.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:123454
+main.ts:123462
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -158,23 +136,21 @@ main.ts:123454
 
 #### Overrides
 
-[BaseGoogleTrendsItem](BaseGoogleTrendsItem.md).[init](BaseGoogleTrendsItem.md#init)
+[`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`init`](BaseGoogleTrendsItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:123468
+main.ts:123476
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -182,23 +158,21 @@ ___
 
 #### Overrides
 
-[BaseGoogleTrendsItem](BaseGoogleTrendsItem.md).[toJSON](BaseGoogleTrendsItem.md#tojson)
+[`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`toJSON`](BaseGoogleTrendsItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:123493
+main.ts:123501
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`GoogleTrendsQueriesListElementItem`](GoogleTrendsQueriesListElementItem.md)
+> **`static`** **fromJS**(`data`): [`GoogleTrendsQueriesListElementItem`](GoogleTrendsQueriesListElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -206,8 +180,8 @@ ___
 
 #### Overrides
 
-[BaseGoogleTrendsItem](BaseGoogleTrendsItem.md).[fromJS](BaseGoogleTrendsItem.md#fromjs)
+[`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`fromJS`](BaseGoogleTrendsItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:123486
+main.ts:123494

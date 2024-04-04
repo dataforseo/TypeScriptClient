@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo
 
 # Class: DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo
 
@@ -8,55 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [include\_serp\_info](DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md#include_serp_info)
-- [keywords](DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md#keywords)
-- [language\_code](DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md#language_code)
-- [language\_name](DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md#language_name)
-- [location\_code](DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md#location_code)
-- [location\_name](DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md#location_name)
-- [tag](DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md#tag)
-
-### Methods
-
-- [init](DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md#init)
-- [toJSON](DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md#tojson)
-- [fromJS](DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo(data)
 
-• **new DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo**(`data?`): [`DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo`](DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md)
+> **new DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo`](DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md) |
+• **data?**: [`IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo`](DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:84169
+main.ts:84177
 
 ## Properties
 
-### include\_serp\_info
+### include\_serp\_info?
 
-• `Optional` **include\_serp\_info**: `boolean`
+> **`optional`** **include\_serp\_info**: `boolean`
 
 include data from SERP for each keyword
 optional field
@@ -65,17 +45,17 @@ default value: false
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md).[include_serp_info](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md#include_serp_info)
+[`IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md).[`include_serp_info`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md#include_serp_info)
 
-#### Defined in
+#### Source
 
-main.ts:84159
+main.ts:84167
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 keywords
 required field
@@ -88,17 +68,17 @@ you will not be charged for the keywords omitted in the results
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md).[keywords](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md#keywords)
+[`IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md).[`keywords`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md#keywords)
 
-#### Defined in
+#### Source
 
-main.ts:84122
+main.ts:84130
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 required field if you don’t specify language_name
@@ -110,17 +90,17 @@ en
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md).[language_code](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md#language_code)
+[`IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:84154
+main.ts:84162
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -132,17 +112,17 @@ English
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md).[language_name](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md#language_name)
+[`IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:84146
+main.ts:84154
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 required field if you don’t specify location_name
@@ -154,17 +134,17 @@ example:
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md).[location_code](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md#location_code)
+[`IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:84138
+main.ts:84146
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code
@@ -176,17 +156,17 @@ United Kingdom
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md).[location_name](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md#location_name)
+[`IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:84130
+main.ts:84138
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -196,68 +176,62 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md).[tag](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md#tag)
+[`IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:84165
+main.ts:84173
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:84178
+main.ts:84186
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:84205
+main.ts:84213
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo`](DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo`](DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo`](DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:84198
+main.ts:84206

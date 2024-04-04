@@ -1,37 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppDataAppleAppReviewsTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppDataAppleAppReviewsTaskPostRequestInfo
 
 # Interface: IAppDataAppleAppReviewsTaskPostRequestInfo
 
-## Implemented by
-
-- [`AppDataAppleAppReviewsTaskPostRequestInfo`](../classes/AppDataAppleAppReviewsTaskPostRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [app\_id](IAppDataAppleAppReviewsTaskPostRequestInfo.md#app_id)
-- [depth](IAppDataAppleAppReviewsTaskPostRequestInfo.md#depth)
-- [language\_code](IAppDataAppleAppReviewsTaskPostRequestInfo.md#language_code)
-- [language\_name](IAppDataAppleAppReviewsTaskPostRequestInfo.md#language_name)
-- [location\_code](IAppDataAppleAppReviewsTaskPostRequestInfo.md#location_code)
-- [location\_name](IAppDataAppleAppReviewsTaskPostRequestInfo.md#location_name)
-- [pingback\_url](IAppDataAppleAppReviewsTaskPostRequestInfo.md#pingback_url)
-- [postback\_data](IAppDataAppleAppReviewsTaskPostRequestInfo.md#postback_data)
-- [postback\_url](IAppDataAppleAppReviewsTaskPostRequestInfo.md#postback_url)
-- [priority](IAppDataAppleAppReviewsTaskPostRequestInfo.md#priority)
-- [sort\_by](IAppDataAppleAppReviewsTaskPostRequestInfo.md#sort_by)
-- [tag](IAppDataAppleAppReviewsTaskPostRequestInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### app\_id
+### app\_id?
 
-• `Optional` **app\_id**: `string`
+> **`optional`** **app\_id**: `string`
 
 id of the app
 required field
@@ -41,15 +24,15 @@ example:
 in the URL https://apps.apple.com/us/app/id835599320
 the id is 835599320
 
-#### Defined in
+#### Source
 
 main.ts:191267
 
-___
+***
 
-### depth
+### depth?
 
-• `Optional` **depth**: `number`
+> **`optional`** **depth**: `number`
 
 parsing depth
 optional field
@@ -58,15 +41,15 @@ we strongly recommend setting the parsing depth in the multiples of 50, because 
 default value: 50;
 maximum value: 500
 
-#### Defined in
+#### Source
 
 main.ts:191310
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 optional field
@@ -75,15 +58,15 @@ you can receive the list of available languages with their language_code by mak
 example:
 en
 
-#### Defined in
+#### Source
 
 main.ts:191295
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -92,15 +75,15 @@ you can receive the list of available languages with language_name by making a s
 example:
 English
 
-#### Defined in
+#### Source
 
 main.ts:191288
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name
@@ -109,15 +92,15 @@ you can receive the list of available locations of the search engine with their 
 example:
 9061121
 
-#### Defined in
+#### Source
 
 main.ts:191281
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -126,15 +109,15 @@ you can receive the list of available locations of the search engine with their 
 example:
 West Los Angeles,California,United States
 
-#### Defined in
+#### Source
 
 main.ts:191274
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -146,15 +129,15 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special symbols in pingback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
 main.ts:191350
 
-___
+***
 
-### postback\_data
+### postback\_data?
 
-• `Optional` **postback\_data**: `string`
+> **`optional`** **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -162,15 +145,15 @@ corresponds to the datatype that will be sent to your server
 possible values:
 advanced
 
-#### Defined in
+#### Source
 
 main.ts:191340
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -182,15 +165,15 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special symbols in postback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
 main.ts:191334
 
-___
+***
 
-### priority
+### priority?
 
-• `Optional` **priority**: `number`
+> **`optional`** **priority**: `number`
 
 task priority
 optional field
@@ -200,15 +183,15 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page.
 
-#### Defined in
+#### Source
 
 main.ts:191303
 
-___
+***
 
-### sort\_by
+### sort\_by?
 
-• `Optional` **sort\_by**: `string`
+> **`optional`** **sort\_by**: `string`
 
 results sorting parameters
 optional field
@@ -218,15 +201,15 @@ most_recent — sort by the most recent reviews;
 most_helpful — sort by the most relevant reviews;
 default rule: most_helpful
 
-#### Defined in
+#### Source
 
 main.ts:191318
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -234,6 +217,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
 main.ts:191324

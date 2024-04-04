@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MerchantGoogleSellersTaskPostResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / MerchantGoogleSellersTaskPostResponseInfo
 
 # Class: MerchantGoogleSellersTaskPostResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`MerchantGoogleSellersTaskPostResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](MerchantGoogleSellersTaskPostResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](MerchantGoogleSellersTaskPostResponseInfo.md#cost)
-- [status\_code](MerchantGoogleSellersTaskPostResponseInfo.md#status_code)
-- [status\_message](MerchantGoogleSellersTaskPostResponseInfo.md#status_message)
-- [tasks](MerchantGoogleSellersTaskPostResponseInfo.md#tasks)
-- [tasks\_count](MerchantGoogleSellersTaskPostResponseInfo.md#tasks_count)
-- [tasks\_error](MerchantGoogleSellersTaskPostResponseInfo.md#tasks_error)
-- [time](MerchantGoogleSellersTaskPostResponseInfo.md#time)
-- [version](MerchantGoogleSellersTaskPostResponseInfo.md#version)
-
-### Methods
-
-- [init](MerchantGoogleSellersTaskPostResponseInfo.md#init)
-- [toJSON](MerchantGoogleSellersTaskPostResponseInfo.md#tojson)
-- [fromJS](MerchantGoogleSellersTaskPostResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new MerchantGoogleSellersTaskPostResponseInfo(data)
 
-• **new MerchantGoogleSellersTaskPostResponseInfo**(`data?`): [`MerchantGoogleSellersTaskPostResponseInfo`](MerchantGoogleSellersTaskPostResponseInfo.md)
+> **new MerchantGoogleSellersTaskPostResponseInfo**(`data`?): [`MerchantGoogleSellersTaskPostResponseInfo`](MerchantGoogleSellersTaskPostResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IMerchantGoogleSellersTaskPostResponseInfo`](../interfaces/IMerchantGoogleSellersTaskPostResponseInfo.md) |
+• **data?**: [`IMerchantGoogleSellersTaskPostResponseInfo`](../interfaces/IMerchantGoogleSellersTaskPostResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:171619
+main.ts:171627
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IMerchantGoogleSellersTaskPostResponseInfo](../interfaces/IMerchantGoogleSellersTaskPostResponseInfo.md).[cost](../interfaces/IMerchantGoogleSellersTaskPostResponseInfo.md#cost)
+[`IMerchantGoogleSellersTaskPostResponseInfo`](../interfaces/IMerchantGoogleSellersTaskPostResponseInfo.md).[`cost`](../interfaces/IMerchantGoogleSellersTaskPostResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[IMerchantGoogleSellersTaskPostResponseInfo](../interfaces/IMerchantGoogleSellersTaskPostResponseInfo.md).[status_code](../interfaces/IMerchantGoogleSellersTaskPostResponseInfo.md#status_code)
+[`IMerchantGoogleSellersTaskPostResponseInfo`](../interfaces/IMerchantGoogleSellersTaskPostResponseInfo.md).[`status_code`](../interfaces/IMerchantGoogleSellersTaskPostResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IMerchantGoogleSellersTaskPostResponseInfo](../interfaces/IMerchantGoogleSellersTaskPostResponseInfo.md).[status_message](../interfaces/IMerchantGoogleSellersTaskPostResponseInfo.md#status_message)
+[`IMerchantGoogleSellersTaskPostResponseInfo`](../interfaces/IMerchantGoogleSellersTaskPostResponseInfo.md).[`status_message`](../interfaces/IMerchantGoogleSellersTaskPostResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`MerchantGoogleSellersTaskPostTaskInfo`](MerchantGoogleSellersTaskPostTaskInfo.md)[]
+> **`optional`** **tasks**: [`MerchantGoogleSellersTaskPostTaskInfo`](MerchantGoogleSellersTaskPostTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[IMerchantGoogleSellersTaskPostResponseInfo](../interfaces/IMerchantGoogleSellersTaskPostResponseInfo.md).[tasks](../interfaces/IMerchantGoogleSellersTaskPostResponseInfo.md#tasks)
+[`IMerchantGoogleSellersTaskPostResponseInfo`](../interfaces/IMerchantGoogleSellersTaskPostResponseInfo.md).[`tasks`](../interfaces/IMerchantGoogleSellersTaskPostResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:171615
+main.ts:171623
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[IMerchantGoogleSellersTaskPostResponseInfo](../interfaces/IMerchantGoogleSellersTaskPostResponseInfo.md).[tasks_count](../interfaces/IMerchantGoogleSellersTaskPostResponseInfo.md#tasks_count)
+[`IMerchantGoogleSellersTaskPostResponseInfo`](../interfaces/IMerchantGoogleSellersTaskPostResponseInfo.md).[`tasks_count`](../interfaces/IMerchantGoogleSellersTaskPostResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[IMerchantGoogleSellersTaskPostResponseInfo](../interfaces/IMerchantGoogleSellersTaskPostResponseInfo.md).[tasks_error](../interfaces/IMerchantGoogleSellersTaskPostResponseInfo.md#tasks_error)
+[`IMerchantGoogleSellersTaskPostResponseInfo`](../interfaces/IMerchantGoogleSellersTaskPostResponseInfo.md).[`tasks_error`](../interfaces/IMerchantGoogleSellersTaskPostResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[IMerchantGoogleSellersTaskPostResponseInfo](../interfaces/IMerchantGoogleSellersTaskPostResponseInfo.md).[time](../interfaces/IMerchantGoogleSellersTaskPostResponseInfo.md#time)
+[`IMerchantGoogleSellersTaskPostResponseInfo`](../interfaces/IMerchantGoogleSellersTaskPostResponseInfo.md).[`time`](../interfaces/IMerchantGoogleSellersTaskPostResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[IMerchantGoogleSellersTaskPostResponseInfo](../interfaces/IMerchantGoogleSellersTaskPostResponseInfo.md).[version](../interfaces/IMerchantGoogleSellersTaskPostResponseInfo.md#version)
+[`IMerchantGoogleSellersTaskPostResponseInfo`](../interfaces/IMerchantGoogleSellersTaskPostResponseInfo.md).[`version`](../interfaces/IMerchantGoogleSellersTaskPostResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:171623
+main.ts:171631
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:171645
+main.ts:171653
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`MerchantGoogleSellersTaskPostResponseInfo`](MerchantGoogleSellersTaskPostResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`MerchantGoogleSellersTaskPostResponseInfo`](MerchantGoogleSellersTaskPostResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:171638
+main.ts:171646

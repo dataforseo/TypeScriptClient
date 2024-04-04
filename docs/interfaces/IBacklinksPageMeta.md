@@ -1,206 +1,184 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksPageMeta
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBacklinksPageMeta
 
 # Interface: IBacklinksPageMeta
 
-## Implemented by
-
-- [`BacklinksPageMeta`](../classes/BacklinksPageMeta.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [canonical](IBacklinksPageMeta.md#canonical)
-- [charset](IBacklinksPageMeta.md#charset)
-- [external\_links\_count](IBacklinksPageMeta.md#external_links_count)
-- [h1](IBacklinksPageMeta.md#h1)
-- [h2](IBacklinksPageMeta.md#h2)
-- [h3](IBacklinksPageMeta.md#h3)
-- [images\_alt](IBacklinksPageMeta.md#images_alt)
-- [images\_count](IBacklinksPageMeta.md#images_count)
-- [internal\_links\_count](IBacklinksPageMeta.md#internal_links_count)
-- [language](IBacklinksPageMeta.md#language)
-- [page\_spam\_score](IBacklinksPageMeta.md#page_spam_score)
-- [platform\_type](IBacklinksPageMeta.md#platform_type)
-- [powered\_by](IBacklinksPageMeta.md#powered_by)
-- [social\_media\_tags](IBacklinksPageMeta.md#social_media_tags)
-- [technologies](IBacklinksPageMeta.md#technologies)
-- [title](IBacklinksPageMeta.md#title)
-- [words\_count](IBacklinksPageMeta.md#words_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### canonical
+### canonical?
 
-• `Optional` **canonical**: `string`
+> **`optional`** **canonical**: `string`
 
 canonical page
 
-#### Defined in
+#### Source
 
-main.ts:138297
+main.ts:138305
 
-___
+***
 
-### charset
+### charset?
 
-• `Optional` **charset**: `string`
+> **`optional`** **charset**: `string`
 
 character encoding
 examples:
 utf-8
 
-#### Defined in
+#### Source
 
-main.ts:138333
+main.ts:138341
 
-___
+***
 
-### external\_links\_count
+### external\_links\_count?
 
-• `Optional` **external\_links\_count**: `number`
+> **`optional`** **external\_links\_count**: `number`
 
 number of external links on the page
 
-#### Defined in
+#### Source
 
-main.ts:138301
+main.ts:138309
 
-___
+***
 
-### h1
+### h1?
 
-• `Optional` **h1**: `string`[]
+> **`optional`** **h1**: `string`[]
 
 h1 tag
 content of h1 tags
 
-#### Defined in
+#### Source
 
-main.ts:138315
+main.ts:138323
 
-___
+***
 
-### h2
+### h2?
 
-• `Optional` **h2**: `string`[]
+> **`optional`** **h2**: `string`[]
 
 h2 tag
 content of h2 tags
 
-#### Defined in
+#### Source
 
-main.ts:138318
+main.ts:138326
 
-___
+***
 
-### h3
+### h3?
 
-• `Optional` **h3**: `string`[]
+> **`optional`** **h3**: `string`[]
 
 h3 tag
 content of h3 tags
 
-#### Defined in
+#### Source
 
-main.ts:138321
+main.ts:138329
 
-___
+***
 
-### images\_alt
+### images\_alt?
 
-• `Optional` **images\_alt**: `string`[]
+> **`optional`** **images\_alt**: `string`[]
 
 content of alt tags
 
-#### Defined in
+#### Source
 
-main.ts:138323
+main.ts:138331
 
-___
+***
 
-### images\_count
+### images\_count?
 
-• `Optional` **images\_count**: `number`
+> **`optional`** **images\_count**: `number`
 
 number of images on the page
 
-#### Defined in
+#### Source
 
-main.ts:138303
+main.ts:138311
 
-___
+***
 
-### internal\_links\_count
+### internal\_links\_count?
 
-• `Optional` **internal\_links\_count**: `number`
+> **`optional`** **internal\_links\_count**: `number`
 
 number of internal links on the page
 
-#### Defined in
+#### Source
 
-main.ts:138299
+main.ts:138307
 
-___
+***
 
-### language
+### language?
 
-• `Optional` **language**: `string`
+> **`optional`** **language**: `string`
 
 page content language
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:138329
+main.ts:138337
 
-___
+***
 
-### page\_spam\_score
+### page\_spam\_score?
 
-• `Optional` **page\_spam\_score**: `number`
+> **`optional`** **page\_spam\_score**: `number`
 
 spam score of the page
 learn more about how the metric is calculated on this help center page
 
-#### Defined in
+#### Source
 
-main.ts:138308
+main.ts:138316
 
-___
+***
 
-### platform\_type
+### platform\_type?
 
-• `Optional` **platform\_type**: `string`[]
+> **`optional`** **platform\_type**: `string`[]
 
 type of a platform
 
-#### Defined in
+#### Source
 
-main.ts:138335
+main.ts:138343
 
-___
+***
 
-### powered\_by
+### powered\_by?
 
-• `Optional` **powered\_by**: `string`[]
+> **`optional`** **powered\_by**: `string`[]
 
 CMS details
 
-#### Defined in
+#### Source
 
-main.ts:138325
+main.ts:138333
 
-___
+***
 
-### social\_media\_tags
+### social\_media\_tags?
 
-• `Optional` **social\_media\_tags**: `Object`
+> **`optional`** **social\_media\_tags**: `Object`
 
 array of social media tags found on the page
 contains social media tags and their content
@@ -208,48 +186,48 @@ supported tags include but are not limited to Open Graph and Twitter card
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
-#### Defined in
+#### Source
 
-main.ts:138312
+main.ts:138320
 
-___
+***
 
-### technologies
+### technologies?
 
-• `Optional` **technologies**: `Object`
+> **`optional`** **technologies**: `Object`
 
 website technologies
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
-#### Defined in
+#### Source
 
-main.ts:138337
+main.ts:138345
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 page title
 
-#### Defined in
+#### Source
 
-main.ts:138295
+main.ts:138303
 
-___
+***
 
-### words\_count
+### words\_count?
 
-• `Optional` **words\_count**: `number`
+> **`optional`** **words\_count**: `number`
 
 number of words on the page
 
-#### Defined in
+#### Source
 
-main.ts:138305
+main.ts:138313

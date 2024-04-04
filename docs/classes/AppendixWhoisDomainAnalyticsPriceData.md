@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixWhoisDomainAnalyticsPriceData
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppendixWhoisDomainAnalyticsPriceData
 
 # Class: AppendixWhoisDomainAnalyticsPriceData
 
@@ -8,114 +12,90 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixWhoisDomainAnalyticsPriceData.md#constructor)
-
-### Properties
-
-- [overview](AppendixWhoisDomainAnalyticsPriceData.md#overview)
-
-### Methods
-
-- [init](AppendixWhoisDomainAnalyticsPriceData.md#init)
-- [toJSON](AppendixWhoisDomainAnalyticsPriceData.md#tojson)
-- [fromJS](AppendixWhoisDomainAnalyticsPriceData.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixWhoisDomainAnalyticsPriceData(data)
 
-• **new AppendixWhoisDomainAnalyticsPriceData**(`data?`): [`AppendixWhoisDomainAnalyticsPriceData`](AppendixWhoisDomainAnalyticsPriceData.md)
+> **new AppendixWhoisDomainAnalyticsPriceData**(`data`?): [`AppendixWhoisDomainAnalyticsPriceData`](AppendixWhoisDomainAnalyticsPriceData.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixWhoisDomainAnalyticsPriceData`](../interfaces/IAppendixWhoisDomainAnalyticsPriceData.md) |
+• **data?**: [`IAppendixWhoisDomainAnalyticsPriceData`](../interfaces/IAppendixWhoisDomainAnalyticsPriceData.md)
 
 #### Returns
 
 [`AppendixWhoisDomainAnalyticsPriceData`](AppendixWhoisDomainAnalyticsPriceData.md)
 
-#### Defined in
+#### Source
 
 main.ts:217356
 
 ## Properties
 
-### overview
+### overview?
 
-• `Optional` **overview**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **overview**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixWhoisDomainAnalyticsPriceData](../interfaces/IAppendixWhoisDomainAnalyticsPriceData.md).[overview](../interfaces/IAppendixWhoisDomainAnalyticsPriceData.md#overview)
+[`IAppendixWhoisDomainAnalyticsPriceData`](../interfaces/IAppendixWhoisDomainAnalyticsPriceData.md).[`overview`](../interfaces/IAppendixWhoisDomainAnalyticsPriceData.md#overview)
 
-#### Defined in
+#### Source
 
 main.ts:217352
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:217365
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:217382
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppendixWhoisDomainAnalyticsPriceData`](AppendixWhoisDomainAnalyticsPriceData.md)
+> **`static`** **fromJS**(`data`): [`AppendixWhoisDomainAnalyticsPriceData`](AppendixWhoisDomainAnalyticsPriceData.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppendixWhoisDomainAnalyticsPriceData`](AppendixWhoisDomainAnalyticsPriceData.md)
 
-#### Defined in
+#### Source
 
 main.ts:217375

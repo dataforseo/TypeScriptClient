@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoInfoTaskPostResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpYoutubeVideoInfoTaskPostResponseInfo
 
 # Class: SerpYoutubeVideoInfoTaskPostResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`SerpYoutubeVideoInfoTaskPostResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpYoutubeVideoInfoTaskPostResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](SerpYoutubeVideoInfoTaskPostResponseInfo.md#cost)
-- [status\_code](SerpYoutubeVideoInfoTaskPostResponseInfo.md#status_code)
-- [status\_message](SerpYoutubeVideoInfoTaskPostResponseInfo.md#status_message)
-- [tasks](SerpYoutubeVideoInfoTaskPostResponseInfo.md#tasks)
-- [tasks\_count](SerpYoutubeVideoInfoTaskPostResponseInfo.md#tasks_count)
-- [tasks\_error](SerpYoutubeVideoInfoTaskPostResponseInfo.md#tasks_error)
-- [time](SerpYoutubeVideoInfoTaskPostResponseInfo.md#time)
-- [version](SerpYoutubeVideoInfoTaskPostResponseInfo.md#version)
-
-### Methods
-
-- [init](SerpYoutubeVideoInfoTaskPostResponseInfo.md#init)
-- [toJSON](SerpYoutubeVideoInfoTaskPostResponseInfo.md#tojson)
-- [fromJS](SerpYoutubeVideoInfoTaskPostResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpYoutubeVideoInfoTaskPostResponseInfo(data)
 
-• **new SerpYoutubeVideoInfoTaskPostResponseInfo**(`data?`): [`SerpYoutubeVideoInfoTaskPostResponseInfo`](SerpYoutubeVideoInfoTaskPostResponseInfo.md)
+> **new SerpYoutubeVideoInfoTaskPostResponseInfo**(`data`?): [`SerpYoutubeVideoInfoTaskPostResponseInfo`](SerpYoutubeVideoInfoTaskPostResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpYoutubeVideoInfoTaskPostResponseInfo`](../interfaces/ISerpYoutubeVideoInfoTaskPostResponseInfo.md) |
+• **data?**: [`ISerpYoutubeVideoInfoTaskPostResponseInfo`](../interfaces/ISerpYoutubeVideoInfoTaskPostResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:60396
+main.ts:60404
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[ISerpYoutubeVideoInfoTaskPostResponseInfo](../interfaces/ISerpYoutubeVideoInfoTaskPostResponseInfo.md).[cost](../interfaces/ISerpYoutubeVideoInfoTaskPostResponseInfo.md#cost)
+[`ISerpYoutubeVideoInfoTaskPostResponseInfo`](../interfaces/ISerpYoutubeVideoInfoTaskPostResponseInfo.md).[`cost`](../interfaces/ISerpYoutubeVideoInfoTaskPostResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[ISerpYoutubeVideoInfoTaskPostResponseInfo](../interfaces/ISerpYoutubeVideoInfoTaskPostResponseInfo.md).[status_code](../interfaces/ISerpYoutubeVideoInfoTaskPostResponseInfo.md#status_code)
+[`ISerpYoutubeVideoInfoTaskPostResponseInfo`](../interfaces/ISerpYoutubeVideoInfoTaskPostResponseInfo.md).[`status_code`](../interfaces/ISerpYoutubeVideoInfoTaskPostResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[ISerpYoutubeVideoInfoTaskPostResponseInfo](../interfaces/ISerpYoutubeVideoInfoTaskPostResponseInfo.md).[status_message](../interfaces/ISerpYoutubeVideoInfoTaskPostResponseInfo.md#status_message)
+[`ISerpYoutubeVideoInfoTaskPostResponseInfo`](../interfaces/ISerpYoutubeVideoInfoTaskPostResponseInfo.md).[`status_message`](../interfaces/ISerpYoutubeVideoInfoTaskPostResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`SerpYoutubeVideoInfoTaskPostTaskInfo`](SerpYoutubeVideoInfoTaskPostTaskInfo.md)[]
+> **`optional`** **tasks**: [`SerpYoutubeVideoInfoTaskPostTaskInfo`](SerpYoutubeVideoInfoTaskPostTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[ISerpYoutubeVideoInfoTaskPostResponseInfo](../interfaces/ISerpYoutubeVideoInfoTaskPostResponseInfo.md).[tasks](../interfaces/ISerpYoutubeVideoInfoTaskPostResponseInfo.md#tasks)
+[`ISerpYoutubeVideoInfoTaskPostResponseInfo`](../interfaces/ISerpYoutubeVideoInfoTaskPostResponseInfo.md).[`tasks`](../interfaces/ISerpYoutubeVideoInfoTaskPostResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:60392
+main.ts:60400
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[ISerpYoutubeVideoInfoTaskPostResponseInfo](../interfaces/ISerpYoutubeVideoInfoTaskPostResponseInfo.md).[tasks_count](../interfaces/ISerpYoutubeVideoInfoTaskPostResponseInfo.md#tasks_count)
+[`ISerpYoutubeVideoInfoTaskPostResponseInfo`](../interfaces/ISerpYoutubeVideoInfoTaskPostResponseInfo.md).[`tasks_count`](../interfaces/ISerpYoutubeVideoInfoTaskPostResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[ISerpYoutubeVideoInfoTaskPostResponseInfo](../interfaces/ISerpYoutubeVideoInfoTaskPostResponseInfo.md).[tasks_error](../interfaces/ISerpYoutubeVideoInfoTaskPostResponseInfo.md#tasks_error)
+[`ISerpYoutubeVideoInfoTaskPostResponseInfo`](../interfaces/ISerpYoutubeVideoInfoTaskPostResponseInfo.md).[`tasks_error`](../interfaces/ISerpYoutubeVideoInfoTaskPostResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[ISerpYoutubeVideoInfoTaskPostResponseInfo](../interfaces/ISerpYoutubeVideoInfoTaskPostResponseInfo.md).[time](../interfaces/ISerpYoutubeVideoInfoTaskPostResponseInfo.md#time)
+[`ISerpYoutubeVideoInfoTaskPostResponseInfo`](../interfaces/ISerpYoutubeVideoInfoTaskPostResponseInfo.md).[`time`](../interfaces/ISerpYoutubeVideoInfoTaskPostResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[ISerpYoutubeVideoInfoTaskPostResponseInfo](../interfaces/ISerpYoutubeVideoInfoTaskPostResponseInfo.md).[version](../interfaces/ISerpYoutubeVideoInfoTaskPostResponseInfo.md#version)
+[`ISerpYoutubeVideoInfoTaskPostResponseInfo`](../interfaces/ISerpYoutubeVideoInfoTaskPostResponseInfo.md).[`version`](../interfaces/ISerpYoutubeVideoInfoTaskPostResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:60400
+main.ts:60408
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:60422
+main.ts:60430
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpYoutubeVideoInfoTaskPostResponseInfo`](SerpYoutubeVideoInfoTaskPostResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpYoutubeVideoInfoTaskPostResponseInfo`](SerpYoutubeVideoInfoTaskPostResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:60415
+main.ts:60423

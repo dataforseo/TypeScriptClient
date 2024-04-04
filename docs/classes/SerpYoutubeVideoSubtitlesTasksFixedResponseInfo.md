@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoSubtitlesTasksFixedResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpYoutubeVideoSubtitlesTasksFixedResponseInfo
 
 # Class: SerpYoutubeVideoSubtitlesTasksFixedResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`SerpYoutubeVideoSubtitlesTasksFixedResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](SerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md#cost)
-- [status\_code](SerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md#status_code)
-- [status\_message](SerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md#status_message)
-- [tasks](SerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md#tasks)
-- [tasks\_count](SerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md#tasks_count)
-- [tasks\_error](SerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md#tasks_error)
-- [time](SerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md#time)
-- [version](SerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md#version)
-
-### Methods
-
-- [init](SerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md#init)
-- [toJSON](SerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md#tojson)
-- [fromJS](SerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpYoutubeVideoSubtitlesTasksFixedResponseInfo(data)
 
-• **new SerpYoutubeVideoSubtitlesTasksFixedResponseInfo**(`data?`): [`SerpYoutubeVideoSubtitlesTasksFixedResponseInfo`](SerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md)
+> **new SerpYoutubeVideoSubtitlesTasksFixedResponseInfo**(`data`?): [`SerpYoutubeVideoSubtitlesTasksFixedResponseInfo`](SerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md) |
+• **data?**: [`ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:62544
+main.ts:62552
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md).[cost](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md#cost)
+[`ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md).[`cost`](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md).[status_code](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md#status_code)
+[`ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md).[`status_code`](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md).[status_message](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md#status_message)
+[`ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md).[`status_message`](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`SerpYoutubeVideoSubtitlesTasksFixedTaskInfo`](SerpYoutubeVideoSubtitlesTasksFixedTaskInfo.md)[]
+> **`optional`** **tasks**: [`SerpYoutubeVideoSubtitlesTasksFixedTaskInfo`](SerpYoutubeVideoSubtitlesTasksFixedTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md).[tasks](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md#tasks)
+[`ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md).[`tasks`](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:62540
+main.ts:62548
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md).[tasks_count](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md#tasks_count)
+[`ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md).[`tasks_count`](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md).[tasks_error](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md#tasks_error)
+[`ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md).[`tasks_error`](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md).[time](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md#time)
+[`ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md).[`time`](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md).[version](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md#version)
+[`ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md).[`version`](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:62548
+main.ts:62556
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:62570
+main.ts:62578
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpYoutubeVideoSubtitlesTasksFixedResponseInfo`](SerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpYoutubeVideoSubtitlesTasksFixedResponseInfo`](SerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:62563
+main.ts:62571

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MicrodataTestResultsInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / MicrodataTestResultsInfo
 
 # Class: MicrodataTestResultsInfo
 
@@ -8,135 +12,110 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](MicrodataTestResultsInfo.md#constructor)
-
-### Properties
-
-- [level](MicrodataTestResultsInfo.md#level)
-- [message](MicrodataTestResultsInfo.md#message)
-
-### Methods
-
-- [init](MicrodataTestResultsInfo.md#init)
-- [toJSON](MicrodataTestResultsInfo.md#tojson)
-- [fromJS](MicrodataTestResultsInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new MicrodataTestResultsInfo(data)
 
-• **new MicrodataTestResultsInfo**(`data?`): [`MicrodataTestResultsInfo`](MicrodataTestResultsInfo.md)
+> **new MicrodataTestResultsInfo**(`data`?): [`MicrodataTestResultsInfo`](MicrodataTestResultsInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IMicrodataTestResultsInfo`](../interfaces/IMicrodataTestResultsInfo.md) |
+• **data?**: [`IMicrodataTestResultsInfo`](../interfaces/IMicrodataTestResultsInfo.md)
 
 #### Returns
 
 [`MicrodataTestResultsInfo`](MicrodataTestResultsInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:156084
+main.ts:156092
 
 ## Properties
 
-### level
+### level?
 
-• `Optional` **level**: `string`
+> **`optional`** **level**: `string`
 
 level of microdata error
 can take the following values: fatal, error, warning, info
 
 #### Implementation of
 
-[IMicrodataTestResultsInfo](../interfaces/IMicrodataTestResultsInfo.md).[level](../interfaces/IMicrodataTestResultsInfo.md#level)
+[`IMicrodataTestResultsInfo`](../interfaces/IMicrodataTestResultsInfo.md).[`level`](../interfaces/IMicrodataTestResultsInfo.md#level)
 
-#### Defined in
+#### Source
 
-main.ts:156077
+main.ts:156085
 
-___
+***
 
-### message
+### message?
 
-• `Optional` **message**: `string`
+> **`optional`** **message**: `string`
 
 message associated with an error
 message providing the details of the detected error
 
 #### Implementation of
 
-[IMicrodataTestResultsInfo](../interfaces/IMicrodataTestResultsInfo.md).[message](../interfaces/IMicrodataTestResultsInfo.md#message)
+[`IMicrodataTestResultsInfo`](../interfaces/IMicrodataTestResultsInfo.md).[`message`](../interfaces/IMicrodataTestResultsInfo.md#message)
 
-#### Defined in
+#### Source
 
-main.ts:156080
+main.ts:156088
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:156093
+main.ts:156101
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:156111
+main.ts:156119
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`MicrodataTestResultsInfo`](MicrodataTestResultsInfo.md)
+> **`static`** **fromJS**(`data`): [`MicrodataTestResultsInfo`](MicrodataTestResultsInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`MicrodataTestResultsInfo`](MicrodataTestResultsInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:156104
+main.ts:156112

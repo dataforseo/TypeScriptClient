@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AvailableLocations
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AvailableLocations
 
 # Class: AvailableLocations
 
@@ -8,100 +12,79 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AvailableLocations.md#constructor)
-
-### Properties
-
-- [country\_iso\_code](AvailableLocations.md#country_iso_code)
-- [location\_code](AvailableLocations.md#location_code)
-- [location\_name](AvailableLocations.md#location_name)
-- [location\_type](AvailableLocations.md#location_type)
-
-### Methods
-
-- [init](AvailableLocations.md#init)
-- [toJSON](AvailableLocations.md#tojson)
-- [fromJS](AvailableLocations.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AvailableLocations(data)
 
-• **new AvailableLocations**(`data?`): [`AvailableLocations`](AvailableLocations.md)
+> **new AvailableLocations**(`data`?): [`AvailableLocations`](AvailableLocations.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAvailableLocations`](../interfaces/IAvailableLocations.md) |
+• **data?**: [`IAvailableLocations`](../interfaces/IAvailableLocations.md)
 
 #### Returns
 
 [`AvailableLocations`](AvailableLocations.md)
 
-#### Defined in
+#### Source
 
-main.ts:131716
+main.ts:131724
 
 ## Properties
 
-### country\_iso\_code
+### country\_iso\_code?
 
-• `Optional` **country\_iso\_code**: `string`
+> **`optional`** **country\_iso\_code**: `string`
 
 ISO country code of the location
 
 #### Implementation of
 
-[IAvailableLocations](../interfaces/IAvailableLocations.md).[country_iso_code](../interfaces/IAvailableLocations.md#country_iso_code)
+[`IAvailableLocations`](../interfaces/IAvailableLocations.md).[`country_iso_code`](../interfaces/IAvailableLocations.md#country_iso_code)
 
-#### Defined in
+#### Source
 
-main.ts:131708
+main.ts:131716
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `string`
+> **`optional`** **location\_code**: `string`
 
 location code
 
 #### Implementation of
 
-[IAvailableLocations](../interfaces/IAvailableLocations.md).[location_code](../interfaces/IAvailableLocations.md#location_code)
+[`IAvailableLocations`](../interfaces/IAvailableLocations.md).[`location_code`](../interfaces/IAvailableLocations.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:131704
+main.ts:131712
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 location name
 
 #### Implementation of
 
-[IAvailableLocations](../interfaces/IAvailableLocations.md).[location_name](../interfaces/IAvailableLocations.md#location_name)
+[`IAvailableLocations`](../interfaces/IAvailableLocations.md).[`location_name`](../interfaces/IAvailableLocations.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:131706
+main.ts:131714
 
-___
+***
 
-### location\_type
+### location\_type?
 
-• `Optional` **location\_type**: `string`
+> **`optional`** **location\_type**: `string`
 
 location type
 possible values:
@@ -109,68 +92,62 @@ Country, Region
 
 #### Implementation of
 
-[IAvailableLocations](../interfaces/IAvailableLocations.md).[location_type](../interfaces/IAvailableLocations.md#location_type)
+[`IAvailableLocations`](../interfaces/IAvailableLocations.md).[`location_type`](../interfaces/IAvailableLocations.md#location_type)
 
-#### Defined in
+#### Source
 
-main.ts:131712
+main.ts:131720
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:131725
+main.ts:131733
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:131745
+main.ts:131753
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AvailableLocations`](AvailableLocations.md)
+> **`static`** **fromJS**(`data`): [`AvailableLocations`](AvailableLocations.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AvailableLocations`](AvailableLocations.md)
 
-#### Defined in
+#### Source
 
-main.ts:131738
+main.ts:131746

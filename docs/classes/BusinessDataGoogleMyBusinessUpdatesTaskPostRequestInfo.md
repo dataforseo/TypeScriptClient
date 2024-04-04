@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo
 
 # Class: BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo
 
-## Hierarchy
+## Extends
 
 - [`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md)
-
-  ↳ **`BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo`**
 
 ## Implements
 
@@ -14,45 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#constructor)
-
-### Properties
-
-- [depth](BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#depth)
-- [keyword](BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#keyword)
-- [language\_code](BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#language_code)
-- [language\_name](BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#language_name)
-- [location\_code](BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#location_code)
-- [location\_coordinate](BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#location_coordinate)
-- [location\_name](BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#location_name)
-- [pingback\_url](BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#pingback_url)
-- [postback\_url](BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#postback_url)
-- [priority](BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#priority)
-- [tag](BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#tag)
-
-### Methods
-
-- [init](BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#init)
-- [toJSON](BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#tojson)
-- [fromJS](BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo(data)
 
-• **new BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo**(`data?`): [`BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo`](BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md)
+> **new BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo**(`data`?): [`BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo`](BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md) |
+• **data?**: [`IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md)
 
 #### Returns
 
@@ -60,17 +34,17 @@
 
 #### Overrides
 
-[BusinessDataTaskRequestInfo](BusinessDataTaskRequestInfo.md).[constructor](BusinessDataTaskRequestInfo.md#constructor)
+[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`constructor`](BusinessDataTaskRequestInfo.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:197470
 
 ## Properties
 
-### depth
+### depth?
 
-• `Optional` **depth**: `number`
+> **`optional`** **depth**: `number`
 
 parsing depth
 optional field
@@ -81,17 +55,17 @@ default value: 10
 
 #### Implementation of
 
-[IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md).[depth](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#depth)
+[`IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md).[`depth`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#depth)
 
-#### Defined in
+#### Source
 
 main.ts:197466
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword
 required field
@@ -111,21 +85,21 @@ learn more about the cid and place_id identifiers in this help center article
 
 #### Implementation of
 
-[IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md).[keyword](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#keyword)
+[`IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md).[`keyword`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#keyword)
 
 #### Inherited from
 
-[BusinessDataTaskRequestInfo](BusinessDataTaskRequestInfo.md).[keyword](BusinessDataTaskRequestInfo.md#keyword)
+[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`keyword`](BusinessDataTaskRequestInfo.md#keyword)
 
-#### Defined in
+#### Source
 
 main.ts:188563
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -136,21 +110,21 @@ en
 
 #### Implementation of
 
-[IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md).[language_code](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#language_code)
+[`IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md).[`language_code`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#language_code)
 
 #### Inherited from
 
-[BusinessDataTaskRequestInfo](BusinessDataTaskRequestInfo.md).[language_code](BusinessDataTaskRequestInfo.md#language_code)
+[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`language_code`](BusinessDataTaskRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
 main.ts:188608
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -161,21 +135,21 @@ English
 
 #### Implementation of
 
-[IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md).[language_name](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#language_name)
+[`IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md).[`language_name`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#language_name)
 
 #### Inherited from
 
-[BusinessDataTaskRequestInfo](BusinessDataTaskRequestInfo.md).[language_name](BusinessDataTaskRequestInfo.md#language_name)
+[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`language_name`](BusinessDataTaskRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
 main.ts:188601
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -186,21 +160,21 @@ example:
 
 #### Implementation of
 
-[IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md).[location_code](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#location_code)
+[`IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md).[`location_code`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#location_code)
 
 #### Inherited from
 
-[BusinessDataTaskRequestInfo](BusinessDataTaskRequestInfo.md).[location_code](BusinessDataTaskRequestInfo.md#location_code)
+[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`location_code`](BusinessDataTaskRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
 main.ts:188585
 
-___
+***
 
-### location\_coordinate
+### location\_coordinate?
 
-• `Optional` **location\_coordinate**: `string`
+> **`optional`** **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -213,21 +187,21 @@ example:
 
 #### Implementation of
 
-[IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md).[location_coordinate](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#location_coordinate)
+[`IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md).[`location_coordinate`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#location_coordinate)
 
 #### Inherited from
 
-[BusinessDataTaskRequestInfo](BusinessDataTaskRequestInfo.md).[location_coordinate](BusinessDataTaskRequestInfo.md#location_coordinate)
+[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`location_coordinate`](BusinessDataTaskRequestInfo.md#location_coordinate)
 
-#### Defined in
+#### Source
 
 main.ts:188594
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -238,21 +212,21 @@ London,England,United Kingdom
 
 #### Implementation of
 
-[IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md).[location_name](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#location_name)
+[`IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md).[`location_name`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#location_name)
 
 #### Inherited from
 
-[BusinessDataTaskRequestInfo](BusinessDataTaskRequestInfo.md).[location_name](BusinessDataTaskRequestInfo.md#location_name)
+[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`location_name`](BusinessDataTaskRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
 main.ts:188578
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -266,21 +240,21 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md).[pingback_url](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#pingback_url)
+[`IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md).[`pingback_url`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#pingback_url)
 
 #### Inherited from
 
-[BusinessDataTaskRequestInfo](BusinessDataTaskRequestInfo.md).[pingback_url](BusinessDataTaskRequestInfo.md#pingback_url)
+[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`pingback_url`](BusinessDataTaskRequestInfo.md#pingback_url)
 
-#### Defined in
+#### Source
 
 main.ts:188634
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -294,21 +268,21 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md).[postback_url](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#postback_url)
+[`IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md).[`postback_url`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#postback_url)
 
 #### Inherited from
 
-[BusinessDataTaskRequestInfo](BusinessDataTaskRequestInfo.md).[postback_url](BusinessDataTaskRequestInfo.md#postback_url)
+[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`postback_url`](BusinessDataTaskRequestInfo.md#postback_url)
 
-#### Defined in
+#### Source
 
 main.ts:188624
 
-___
+***
 
-### priority
+### priority?
 
-• `Optional` **priority**: `number`
+> **`optional`** **priority**: `number`
 
 task priority
 optional field
@@ -320,21 +294,21 @@ The cost can be calculated on the Pricing page.
 
 #### Implementation of
 
-[IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md).[priority](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#priority)
+[`IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md).[`priority`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#priority)
 
 #### Inherited from
 
-[BusinessDataTaskRequestInfo](BusinessDataTaskRequestInfo.md).[priority](BusinessDataTaskRequestInfo.md#priority)
+[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`priority`](BusinessDataTaskRequestInfo.md#priority)
 
-#### Defined in
+#### Source
 
 main.ts:188571
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -344,27 +318,25 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md).[tag](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#tag)
+[`IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md).[`tag`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#tag)
 
 #### Inherited from
 
-[BusinessDataTaskRequestInfo](BusinessDataTaskRequestInfo.md).[tag](BusinessDataTaskRequestInfo.md#tag)
+[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`tag`](BusinessDataTaskRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
 main.ts:188614
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -372,23 +344,21 @@ main.ts:188614
 
 #### Overrides
 
-[BusinessDataTaskRequestInfo](BusinessDataTaskRequestInfo.md).[init](BusinessDataTaskRequestInfo.md#init)
+[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`init`](BusinessDataTaskRequestInfo.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:197474
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -396,23 +366,21 @@ ___
 
 #### Overrides
 
-[BusinessDataTaskRequestInfo](BusinessDataTaskRequestInfo.md).[toJSON](BusinessDataTaskRequestInfo.md#tojson)
+[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`toJSON`](BusinessDataTaskRequestInfo.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:197492
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo`](BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo`](BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -420,8 +388,8 @@ ___
 
 #### Overrides
 
-[BusinessDataTaskRequestInfo](BusinessDataTaskRequestInfo.md).[fromJS](BusinessDataTaskRequestInfo.md#fromjs)
+[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`fromJS`](BusinessDataTaskRequestInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:197485

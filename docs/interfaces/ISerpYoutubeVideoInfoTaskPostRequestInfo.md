@@ -1,51 +1,34 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpYoutubeVideoInfoTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ISerpYoutubeVideoInfoTaskPostRequestInfo
 
 # Interface: ISerpYoutubeVideoInfoTaskPostRequestInfo
 
-## Implemented by
-
-- [`SerpYoutubeVideoInfoTaskPostRequestInfo`](../classes/SerpYoutubeVideoInfoTaskPostRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [device](ISerpYoutubeVideoInfoTaskPostRequestInfo.md#device)
-- [language\_code](ISerpYoutubeVideoInfoTaskPostRequestInfo.md#language_code)
-- [language\_name](ISerpYoutubeVideoInfoTaskPostRequestInfo.md#language_name)
-- [location\_code](ISerpYoutubeVideoInfoTaskPostRequestInfo.md#location_code)
-- [location\_name](ISerpYoutubeVideoInfoTaskPostRequestInfo.md#location_name)
-- [os](ISerpYoutubeVideoInfoTaskPostRequestInfo.md#os)
-- [pingback\_url](ISerpYoutubeVideoInfoTaskPostRequestInfo.md#pingback_url)
-- [postback\_data](ISerpYoutubeVideoInfoTaskPostRequestInfo.md#postback_data)
-- [postback\_url](ISerpYoutubeVideoInfoTaskPostRequestInfo.md#postback_url)
-- [priority](ISerpYoutubeVideoInfoTaskPostRequestInfo.md#priority)
-- [tag](ISerpYoutubeVideoInfoTaskPostRequestInfo.md#tag)
-- [video\_id](ISerpYoutubeVideoInfoTaskPostRequestInfo.md#video_id)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### device
+### device?
 
-• `Optional` **device**: `string`
+> **`optional`** **device**: `string`
 
 device type
 optional field
 only value: desktop
 
-#### Defined in
+#### Source
 
-main.ts:60299
+main.ts:60307
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -54,15 +37,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:60295
+main.ts:60303
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -71,15 +54,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:60288
+main.ts:60296
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name
@@ -88,15 +71,15 @@ you can receive the list of available locations of the search engines with their
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:60281
+main.ts:60289
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -105,30 +88,30 @@ you can receive the list of available locations of the search engine with their 
 example:
 United States
 
-#### Defined in
+#### Source
 
-main.ts:60274
+main.ts:60282
 
-___
+***
 
-### os
+### os?
 
-• `Optional` **os**: `string`
+> **`optional`** **os**: `string`
 
 device operating system
 optional field
 choose from the following values: windows, macos
 default value: windows
 
-#### Defined in
+#### Source
 
-main.ts:60304
+main.ts:60312
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -140,15 +123,15 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special symbols in pingback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
-main.ts:60336
+main.ts:60344
 
-___
+***
 
-### postback\_data
+### postback\_data?
 
-• `Optional` **postback\_data**: `string`
+> **`optional`** **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -156,15 +139,15 @@ corresponds to the datatype that will be sent to your server
 possible value:
 advanced
 
-#### Defined in
+#### Source
 
-main.ts:60326
+main.ts:60334
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -176,15 +159,15 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special symbols in postback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
-main.ts:60320
+main.ts:60328
 
-___
+***
 
-### priority
+### priority?
 
-• `Optional` **priority**: `number`
+> **`optional`** **priority**: `number`
 
 task priority
 optional field
@@ -194,15 +177,15 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page.
 
-#### Defined in
+#### Source
 
-main.ts:60267
+main.ts:60275
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -210,15 +193,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:60310
+main.ts:60318
 
-___
+***
 
-### video\_id
+### video\_id?
 
-• `Optional` **video\_id**: `string`
+> **`optional`** **video\_id**: `string`
 
 ID of the video
 required field
@@ -226,6 +209,6 @@ you can find video ID in the URL or ‘youtube_video’ item of YouTube Organic 
 example:
 vQXvyV0zIP4
 
-#### Defined in
+#### Source
 
-main.ts:60259
+main.ts:60267

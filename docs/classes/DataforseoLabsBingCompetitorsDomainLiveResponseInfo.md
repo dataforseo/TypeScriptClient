@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsBingCompetitorsDomainLiveResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsBingCompetitorsDomainLiveResponseInfo
 
 # Class: DataforseoLabsBingCompetitorsDomainLiveResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`DataforseoLabsBingCompetitorsDomainLiveResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsBingCompetitorsDomainLiveResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](DataforseoLabsBingCompetitorsDomainLiveResponseInfo.md#cost)
-- [status\_code](DataforseoLabsBingCompetitorsDomainLiveResponseInfo.md#status_code)
-- [status\_message](DataforseoLabsBingCompetitorsDomainLiveResponseInfo.md#status_message)
-- [tasks](DataforseoLabsBingCompetitorsDomainLiveResponseInfo.md#tasks)
-- [tasks\_count](DataforseoLabsBingCompetitorsDomainLiveResponseInfo.md#tasks_count)
-- [tasks\_error](DataforseoLabsBingCompetitorsDomainLiveResponseInfo.md#tasks_error)
-- [time](DataforseoLabsBingCompetitorsDomainLiveResponseInfo.md#time)
-- [version](DataforseoLabsBingCompetitorsDomainLiveResponseInfo.md#version)
-
-### Methods
-
-- [init](DataforseoLabsBingCompetitorsDomainLiveResponseInfo.md#init)
-- [toJSON](DataforseoLabsBingCompetitorsDomainLiveResponseInfo.md#tojson)
-- [fromJS](DataforseoLabsBingCompetitorsDomainLiveResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsBingCompetitorsDomainLiveResponseInfo(data)
 
-• **new DataforseoLabsBingCompetitorsDomainLiveResponseInfo**(`data?`): [`DataforseoLabsBingCompetitorsDomainLiveResponseInfo`](DataforseoLabsBingCompetitorsDomainLiveResponseInfo.md)
+> **new DataforseoLabsBingCompetitorsDomainLiveResponseInfo**(`data`?): [`DataforseoLabsBingCompetitorsDomainLiveResponseInfo`](DataforseoLabsBingCompetitorsDomainLiveResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsBingCompetitorsDomainLiveResponseInfo`](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResponseInfo.md) |
+• **data?**: [`IDataforseoLabsBingCompetitorsDomainLiveResponseInfo`](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:105712
+main.ts:105720
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IDataforseoLabsBingCompetitorsDomainLiveResponseInfo](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResponseInfo.md).[cost](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResponseInfo.md#cost)
+[`IDataforseoLabsBingCompetitorsDomainLiveResponseInfo`](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResponseInfo.md).[`cost`](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[IDataforseoLabsBingCompetitorsDomainLiveResponseInfo](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResponseInfo.md).[status_code](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResponseInfo.md#status_code)
+[`IDataforseoLabsBingCompetitorsDomainLiveResponseInfo`](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResponseInfo.md).[`status_code`](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IDataforseoLabsBingCompetitorsDomainLiveResponseInfo](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResponseInfo.md).[status_message](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResponseInfo.md#status_message)
+[`IDataforseoLabsBingCompetitorsDomainLiveResponseInfo`](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResponseInfo.md).[`status_message`](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`DataforseoLabsBingCompetitorsDomainLiveTaskInfo`](DataforseoLabsBingCompetitorsDomainLiveTaskInfo.md)[]
+> **`optional`** **tasks**: [`DataforseoLabsBingCompetitorsDomainLiveTaskInfo`](DataforseoLabsBingCompetitorsDomainLiveTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[IDataforseoLabsBingCompetitorsDomainLiveResponseInfo](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResponseInfo.md).[tasks](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResponseInfo.md#tasks)
+[`IDataforseoLabsBingCompetitorsDomainLiveResponseInfo`](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResponseInfo.md).[`tasks`](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:105708
+main.ts:105716
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[IDataforseoLabsBingCompetitorsDomainLiveResponseInfo](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResponseInfo.md).[tasks_count](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResponseInfo.md#tasks_count)
+[`IDataforseoLabsBingCompetitorsDomainLiveResponseInfo`](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResponseInfo.md).[`tasks_count`](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[IDataforseoLabsBingCompetitorsDomainLiveResponseInfo](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResponseInfo.md).[tasks_error](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResponseInfo.md#tasks_error)
+[`IDataforseoLabsBingCompetitorsDomainLiveResponseInfo`](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResponseInfo.md).[`tasks_error`](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[IDataforseoLabsBingCompetitorsDomainLiveResponseInfo](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResponseInfo.md).[time](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResponseInfo.md#time)
+[`IDataforseoLabsBingCompetitorsDomainLiveResponseInfo`](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResponseInfo.md).[`time`](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[IDataforseoLabsBingCompetitorsDomainLiveResponseInfo](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResponseInfo.md).[version](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResponseInfo.md#version)
+[`IDataforseoLabsBingCompetitorsDomainLiveResponseInfo`](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResponseInfo.md).[`version`](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:105716
+main.ts:105724
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:105738
+main.ts:105746
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsBingCompetitorsDomainLiveResponseInfo`](DataforseoLabsBingCompetitorsDomainLiveResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsBingCompetitorsDomainLiveResponseInfo`](DataforseoLabsBingCompetitorsDomainLiveResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:105731
+main.ts:105739

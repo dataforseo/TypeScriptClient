@@ -1,55 +1,47 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IGraphElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IGraphElement
 
 # Interface: IGraphElement
 
-## Implemented by
-
-- [`GraphElement`](../classes/GraphElement.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [date](IGraphElement.md#date)
-- [type](IGraphElement.md#type)
-- [value](IGraphElement.md#value)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### date
+### date?
 
-• `Optional` **date**: `string`
+> **`optional`** **date**: `string`
 
 the posting date
 
-#### Defined in
+#### Source
 
-main.ts:33278
+main.ts:33284
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:33276
+main.ts:33282
 
-___
+***
 
-### value
+### value?
 
-• `Optional` **value**: `number`
+> **`optional`** **value**: `number`
 
 the value of the rating
 
-#### Defined in
+#### Source
 
-main.ts:33280
+main.ts:33286

@@ -1,73 +1,63 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentGenerationTextSummaryLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IContentGenerationTextSummaryLiveRequestInfo
 
 # Interface: IContentGenerationTextSummaryLiveRequestInfo
 
-## Implemented by
-
-- [`ContentGenerationTextSummaryLiveRequestInfo`](../classes/ContentGenerationTextSummaryLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [internal\_list\_limit](IContentGenerationTextSummaryLiveRequestInfo.md#internal_list_limit)
-- [language\_code](IContentGenerationTextSummaryLiveRequestInfo.md#language_code)
-- [language\_name](IContentGenerationTextSummaryLiveRequestInfo.md#language_name)
-- [tag](IContentGenerationTextSummaryLiveRequestInfo.md#tag)
-- [text](IContentGenerationTextSummaryLiveRequestInfo.md#text)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### internal\_list\_limit
+### internal\_list\_limit?
 
-• `Optional` **internal\_list\_limit**: `number`
+> **`optional`** **internal\_list\_limit**: `number`
 
 maximum number of elements within internal arrays
 optional field
 you can use this field to limit the number of elements within the keyword_density array
 default value: 10
 
-#### Defined in
+#### Source
 
-main.ts:167643
+main.ts:167651
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 code of the text language
 required field if you do not specify language_name
 see the List of Languages for Content Generation Text Summary API
 
-#### Defined in
+#### Source
 
-main.ts:167638
+main.ts:167646
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 name of the text language
 required field if you do not specify language_code
 see the List of Languages for Content Generation Text Summary API
 
-#### Defined in
+#### Source
 
-main.ts:167634
+main.ts:167642
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -75,21 +65,21 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:167649
+main.ts:167657
 
-___
+***
 
-### text
+### text?
 
-• `Optional` **text**: `string`
+> **`optional`** **text**: `string`
 
 target text
 required field
 can contain from 1 to 10000 tokens
 learn more about tokens on our help center
 
-#### Defined in
+#### Source
 
-main.ts:167630
+main.ts:167638

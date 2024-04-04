@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataGoogleReviewsTaskGetResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataGoogleReviewsTaskGetResponseInfo
 
 # Class: BusinessDataGoogleReviewsTaskGetResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`BusinessDataGoogleReviewsTaskGetResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataGoogleReviewsTaskGetResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](BusinessDataGoogleReviewsTaskGetResponseInfo.md#cost)
-- [status\_code](BusinessDataGoogleReviewsTaskGetResponseInfo.md#status_code)
-- [status\_message](BusinessDataGoogleReviewsTaskGetResponseInfo.md#status_message)
-- [tasks](BusinessDataGoogleReviewsTaskGetResponseInfo.md#tasks)
-- [tasks\_count](BusinessDataGoogleReviewsTaskGetResponseInfo.md#tasks_count)
-- [tasks\_error](BusinessDataGoogleReviewsTaskGetResponseInfo.md#tasks_error)
-- [time](BusinessDataGoogleReviewsTaskGetResponseInfo.md#time)
-- [version](BusinessDataGoogleReviewsTaskGetResponseInfo.md#version)
-
-### Methods
-
-- [init](BusinessDataGoogleReviewsTaskGetResponseInfo.md#init)
-- [toJSON](BusinessDataGoogleReviewsTaskGetResponseInfo.md#tojson)
-- [fromJS](BusinessDataGoogleReviewsTaskGetResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataGoogleReviewsTaskGetResponseInfo(data)
 
-• **new BusinessDataGoogleReviewsTaskGetResponseInfo**(`data?`): [`BusinessDataGoogleReviewsTaskGetResponseInfo`](BusinessDataGoogleReviewsTaskGetResponseInfo.md)
+> **new BusinessDataGoogleReviewsTaskGetResponseInfo**(`data`?): [`BusinessDataGoogleReviewsTaskGetResponseInfo`](BusinessDataGoogleReviewsTaskGetResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataGoogleReviewsTaskGetResponseInfo`](../interfaces/IBusinessDataGoogleReviewsTaskGetResponseInfo.md) |
+• **data?**: [`IBusinessDataGoogleReviewsTaskGetResponseInfo`](../interfaces/IBusinessDataGoogleReviewsTaskGetResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:204076
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTaskGetResponseInfo](../interfaces/IBusinessDataGoogleReviewsTaskGetResponseInfo.md).[cost](../interfaces/IBusinessDataGoogleReviewsTaskGetResponseInfo.md#cost)
+[`IBusinessDataGoogleReviewsTaskGetResponseInfo`](../interfaces/IBusinessDataGoogleReviewsTaskGetResponseInfo.md).[`cost`](../interfaces/IBusinessDataGoogleReviewsTaskGetResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTaskGetResponseInfo](../interfaces/IBusinessDataGoogleReviewsTaskGetResponseInfo.md).[status_code](../interfaces/IBusinessDataGoogleReviewsTaskGetResponseInfo.md#status_code)
+[`IBusinessDataGoogleReviewsTaskGetResponseInfo`](../interfaces/IBusinessDataGoogleReviewsTaskGetResponseInfo.md).[`status_code`](../interfaces/IBusinessDataGoogleReviewsTaskGetResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTaskGetResponseInfo](../interfaces/IBusinessDataGoogleReviewsTaskGetResponseInfo.md).[status_message](../interfaces/IBusinessDataGoogleReviewsTaskGetResponseInfo.md#status_message)
+[`IBusinessDataGoogleReviewsTaskGetResponseInfo`](../interfaces/IBusinessDataGoogleReviewsTaskGetResponseInfo.md).[`status_message`](../interfaces/IBusinessDataGoogleReviewsTaskGetResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`BusinessDataGoogleReviewsTaskGetTaskInfo`](BusinessDataGoogleReviewsTaskGetTaskInfo.md)[]
+> **`optional`** **tasks**: [`BusinessDataGoogleReviewsTaskGetTaskInfo`](BusinessDataGoogleReviewsTaskGetTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTaskGetResponseInfo](../interfaces/IBusinessDataGoogleReviewsTaskGetResponseInfo.md).[tasks](../interfaces/IBusinessDataGoogleReviewsTaskGetResponseInfo.md#tasks)
+[`IBusinessDataGoogleReviewsTaskGetResponseInfo`](../interfaces/IBusinessDataGoogleReviewsTaskGetResponseInfo.md).[`tasks`](../interfaces/IBusinessDataGoogleReviewsTaskGetResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
 main.ts:204072
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTaskGetResponseInfo](../interfaces/IBusinessDataGoogleReviewsTaskGetResponseInfo.md).[tasks_count](../interfaces/IBusinessDataGoogleReviewsTaskGetResponseInfo.md#tasks_count)
+[`IBusinessDataGoogleReviewsTaskGetResponseInfo`](../interfaces/IBusinessDataGoogleReviewsTaskGetResponseInfo.md).[`tasks_count`](../interfaces/IBusinessDataGoogleReviewsTaskGetResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTaskGetResponseInfo](../interfaces/IBusinessDataGoogleReviewsTaskGetResponseInfo.md).[tasks_error](../interfaces/IBusinessDataGoogleReviewsTaskGetResponseInfo.md#tasks_error)
+[`IBusinessDataGoogleReviewsTaskGetResponseInfo`](../interfaces/IBusinessDataGoogleReviewsTaskGetResponseInfo.md).[`tasks_error`](../interfaces/IBusinessDataGoogleReviewsTaskGetResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTaskGetResponseInfo](../interfaces/IBusinessDataGoogleReviewsTaskGetResponseInfo.md).[time](../interfaces/IBusinessDataGoogleReviewsTaskGetResponseInfo.md#time)
+[`IBusinessDataGoogleReviewsTaskGetResponseInfo`](../interfaces/IBusinessDataGoogleReviewsTaskGetResponseInfo.md).[`time`](../interfaces/IBusinessDataGoogleReviewsTaskGetResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTaskGetResponseInfo](../interfaces/IBusinessDataGoogleReviewsTaskGetResponseInfo.md).[version](../interfaces/IBusinessDataGoogleReviewsTaskGetResponseInfo.md#version)
+[`IBusinessDataGoogleReviewsTaskGetResponseInfo`](../interfaces/IBusinessDataGoogleReviewsTaskGetResponseInfo.md).[`version`](../interfaces/IBusinessDataGoogleReviewsTaskGetResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:204080
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:204102
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataGoogleReviewsTaskGetResponseInfo`](BusinessDataGoogleReviewsTaskGetResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataGoogleReviewsTaskGetResponseInfo`](BusinessDataGoogleReviewsTaskGetResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:204095

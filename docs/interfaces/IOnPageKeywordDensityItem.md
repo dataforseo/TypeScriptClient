@@ -1,57 +1,49 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageKeywordDensityItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IOnPageKeywordDensityItem
 
 # Interface: IOnPageKeywordDensityItem
 
-## Implemented by
-
-- [`OnPageKeywordDensityItem`](../classes/OnPageKeywordDensityItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [density](IOnPageKeywordDensityItem.md#density)
-- [frequency](IOnPageKeywordDensityItem.md#frequency)
-- [keyword](IOnPageKeywordDensityItem.md#keyword)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### density
+### density?
 
-• `Optional` **density**: `number`
+> **`optional`** **density**: `number`
 
 keyword density
 calculated as a ratio of frequency to the total count of keywords with the set keyword_length on the web page or website
 
-#### Defined in
+#### Source
 
-main.ts:155719
+main.ts:155727
 
-___
+***
 
-### frequency
+### frequency?
 
-• `Optional` **frequency**: `number`
+> **`optional`** **frequency**: `number`
 
 keyword frequency
 number of times the keyword appears on the website (or webpage if you specified a url)
 
-#### Defined in
+#### Source
 
-main.ts:155716
+main.ts:155724
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 returned keyword
 
-#### Defined in
+#### Source
 
-main.ts:155713
+main.ts:155721

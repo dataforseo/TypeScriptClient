@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MultiCarouselDataforseoLabsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / MultiCarouselDataforseoLabsSerpElementItem
 
 # Class: MultiCarouselDataforseoLabsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
-
-  ↳ **`MultiCarouselDataforseoLabsSerpElementItem`**
 
 ## Implements
 
@@ -14,40 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](MultiCarouselDataforseoLabsSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](MultiCarouselDataforseoLabsSerpElementItem.md#_discriminator)
-- [items](MultiCarouselDataforseoLabsSerpElementItem.md#items)
-- [position](MultiCarouselDataforseoLabsSerpElementItem.md#position)
-- [rank\_absolute](MultiCarouselDataforseoLabsSerpElementItem.md#rank_absolute)
-- [rank\_group](MultiCarouselDataforseoLabsSerpElementItem.md#rank_group)
-- [xpath](MultiCarouselDataforseoLabsSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](MultiCarouselDataforseoLabsSerpElementItem.md#init)
-- [toJSON](MultiCarouselDataforseoLabsSerpElementItem.md#tojson)
-- [fromJS](MultiCarouselDataforseoLabsSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new MultiCarouselDataforseoLabsSerpElementItem(data)
 
-• **new MultiCarouselDataforseoLabsSerpElementItem**(`data?`): [`MultiCarouselDataforseoLabsSerpElementItem`](MultiCarouselDataforseoLabsSerpElementItem.md)
+> **new MultiCarouselDataforseoLabsSerpElementItem**(`data`?): [`MultiCarouselDataforseoLabsSerpElementItem`](MultiCarouselDataforseoLabsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IMultiCarouselDataforseoLabsSerpElementItem`](../interfaces/IMultiCarouselDataforseoLabsSerpElementItem.md) |
+• **data?**: [`IMultiCarouselDataforseoLabsSerpElementItem`](../interfaces/IMultiCarouselDataforseoLabsSerpElementItem.md)
 
 #### Returns
 
@@ -55,48 +34,48 @@
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[constructor](BaseDataforseoLabsSerpElementItem.md#constructor)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:94894
+main.ts:94902
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[_discriminator](BaseDataforseoLabsSerpElementItem.md#_discriminator)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`_discriminator`](BaseDataforseoLabsSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:20171
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`MultiCarouselElement`](MultiCarouselElement.md)[]
+> **`optional`** **items**: [`MultiCarouselElement`](MultiCarouselElement.md)[]
 
 additional items present in the element
 if there are none, equals null
 
 #### Implementation of
 
-[IMultiCarouselDataforseoLabsSerpElementItem](../interfaces/IMultiCarouselDataforseoLabsSerpElementItem.md).[items](../interfaces/IMultiCarouselDataforseoLabsSerpElementItem.md#items)
+[`IMultiCarouselDataforseoLabsSerpElementItem`](../interfaces/IMultiCarouselDataforseoLabsSerpElementItem.md).[`items`](../interfaces/IMultiCarouselDataforseoLabsSerpElementItem.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:94890
+main.ts:94898
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -104,34 +83,34 @@ left, right
 
 #### Implementation of
 
-[IMultiCarouselDataforseoLabsSerpElementItem](../interfaces/IMultiCarouselDataforseoLabsSerpElementItem.md).[position](../interfaces/IMultiCarouselDataforseoLabsSerpElementItem.md#position)
+[`IMultiCarouselDataforseoLabsSerpElementItem`](../interfaces/IMultiCarouselDataforseoLabsSerpElementItem.md).[`position`](../interfaces/IMultiCarouselDataforseoLabsSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
-main.ts:94885
+main.ts:94893
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
 #### Implementation of
 
-[IMultiCarouselDataforseoLabsSerpElementItem](../interfaces/IMultiCarouselDataforseoLabsSerpElementItem.md).[rank_absolute](../interfaces/IMultiCarouselDataforseoLabsSerpElementItem.md#rank_absolute)
+[`IMultiCarouselDataforseoLabsSerpElementItem`](../interfaces/IMultiCarouselDataforseoLabsSerpElementItem.md).[`rank_absolute`](../interfaces/IMultiCarouselDataforseoLabsSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:94881
+main.ts:94889
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -139,39 +118,37 @@ positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
-[IMultiCarouselDataforseoLabsSerpElementItem](../interfaces/IMultiCarouselDataforseoLabsSerpElementItem.md).[rank_group](../interfaces/IMultiCarouselDataforseoLabsSerpElementItem.md#rank_group)
+[`IMultiCarouselDataforseoLabsSerpElementItem`](../interfaces/IMultiCarouselDataforseoLabsSerpElementItem.md).[`rank_group`](../interfaces/IMultiCarouselDataforseoLabsSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
-main.ts:94878
+main.ts:94886
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IMultiCarouselDataforseoLabsSerpElementItem](../interfaces/IMultiCarouselDataforseoLabsSerpElementItem.md).[xpath](../interfaces/IMultiCarouselDataforseoLabsSerpElementItem.md#xpath)
+[`IMultiCarouselDataforseoLabsSerpElementItem`](../interfaces/IMultiCarouselDataforseoLabsSerpElementItem.md).[`xpath`](../interfaces/IMultiCarouselDataforseoLabsSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
-main.ts:94887
+main.ts:94895
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -179,23 +156,21 @@ main.ts:94887
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[init](BaseDataforseoLabsSerpElementItem.md#init)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`init`](BaseDataforseoLabsSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:94899
+main.ts:94907
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -203,23 +178,21 @@ ___
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[toJSON](BaseDataforseoLabsSerpElementItem.md#tojson)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`toJSON`](BaseDataforseoLabsSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:94925
+main.ts:94933
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`MultiCarouselDataforseoLabsSerpElementItem`](MultiCarouselDataforseoLabsSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`MultiCarouselDataforseoLabsSerpElementItem`](MultiCarouselDataforseoLabsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -227,8 +200,8 @@ ___
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[fromJS](BaseDataforseoLabsSerpElementItem.md#fromjs)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`fromJS`](BaseDataforseoLabsSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:94918
+main.ts:94926

@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataGoogleHotelSearchesTaskPostTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataGoogleHotelSearchesTaskPostTaskInfo
 
 # Class: BusinessDataGoogleHotelSearchesTaskPostTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`BusinessDataGoogleHotelSearchesTaskPostTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataGoogleHotelSearchesTaskPostTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](BusinessDataGoogleHotelSearchesTaskPostTaskInfo.md#cost)
-- [data](BusinessDataGoogleHotelSearchesTaskPostTaskInfo.md#data)
-- [id](BusinessDataGoogleHotelSearchesTaskPostTaskInfo.md#id)
-- [path](BusinessDataGoogleHotelSearchesTaskPostTaskInfo.md#path)
-- [result](BusinessDataGoogleHotelSearchesTaskPostTaskInfo.md#result)
-- [result\_count](BusinessDataGoogleHotelSearchesTaskPostTaskInfo.md#result_count)
-- [status\_code](BusinessDataGoogleHotelSearchesTaskPostTaskInfo.md#status_code)
-- [status\_message](BusinessDataGoogleHotelSearchesTaskPostTaskInfo.md#status_message)
-- [time](BusinessDataGoogleHotelSearchesTaskPostTaskInfo.md#time)
-
-### Methods
-
-- [init](BusinessDataGoogleHotelSearchesTaskPostTaskInfo.md#init)
-- [toJSON](BusinessDataGoogleHotelSearchesTaskPostTaskInfo.md#tojson)
-- [fromJS](BusinessDataGoogleHotelSearchesTaskPostTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataGoogleHotelSearchesTaskPostTaskInfo(data)
 
-• **new BusinessDataGoogleHotelSearchesTaskPostTaskInfo**(`data?`): [`BusinessDataGoogleHotelSearchesTaskPostTaskInfo`](BusinessDataGoogleHotelSearchesTaskPostTaskInfo.md)
+> **new BusinessDataGoogleHotelSearchesTaskPostTaskInfo**(`data`?): [`BusinessDataGoogleHotelSearchesTaskPostTaskInfo`](BusinessDataGoogleHotelSearchesTaskPostTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataGoogleHotelSearchesTaskPostTaskInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostTaskInfo.md) |
+• **data?**: [`IBusinessDataGoogleHotelSearchesTaskPostTaskInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostTaskInfo.md)
 
 #### Returns
 
@@ -58,139 +34,139 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:198564
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelSearchesTaskPostTaskInfo](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostTaskInfo.md).[cost](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostTaskInfo.md#cost)
+[`IBusinessDataGoogleHotelSearchesTaskPostTaskInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostTaskInfo.md).[`cost`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelSearchesTaskPostTaskInfo](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostTaskInfo.md).[data](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostTaskInfo.md#data)
+[`IBusinessDataGoogleHotelSearchesTaskPostTaskInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostTaskInfo.md).[`data`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelSearchesTaskPostTaskInfo](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostTaskInfo.md).[id](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostTaskInfo.md#id)
+[`IBusinessDataGoogleHotelSearchesTaskPostTaskInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostTaskInfo.md).[`id`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelSearchesTaskPostTaskInfo](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostTaskInfo.md).[path](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostTaskInfo.md#path)
+[`IBusinessDataGoogleHotelSearchesTaskPostTaskInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostTaskInfo.md).[`path`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: `any`
+> **`optional`** **result**: `any`
 
 array of results
 in this case, the value will be null
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelSearchesTaskPostTaskInfo](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostTaskInfo.md).[result](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostTaskInfo.md#result)
+[`IBusinessDataGoogleHotelSearchesTaskPostTaskInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostTaskInfo.md).[`result`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
 main.ts:198560
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelSearchesTaskPostTaskInfo](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostTaskInfo.md).[result_count](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostTaskInfo.md#result_count)
+[`IBusinessDataGoogleHotelSearchesTaskPostTaskInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostTaskInfo.md).[`result_count`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -198,68 +174,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelSearchesTaskPostTaskInfo](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostTaskInfo.md).[status_code](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostTaskInfo.md#status_code)
+[`IBusinessDataGoogleHotelSearchesTaskPostTaskInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostTaskInfo.md).[`status_code`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelSearchesTaskPostTaskInfo](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostTaskInfo.md).[status_message](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostTaskInfo.md#status_message)
+[`IBusinessDataGoogleHotelSearchesTaskPostTaskInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostTaskInfo.md).[`status_message`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelSearchesTaskPostTaskInfo](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostTaskInfo.md).[time](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostTaskInfo.md#time)
+[`IBusinessDataGoogleHotelSearchesTaskPostTaskInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostTaskInfo.md).[`time`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -267,23 +241,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:198568
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -291,23 +263,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:198586
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataGoogleHotelSearchesTaskPostTaskInfo`](BusinessDataGoogleHotelSearchesTaskPostTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataGoogleHotelSearchesTaskPostTaskInfo`](BusinessDataGoogleHotelSearchesTaskPostTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -315,8 +285,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:198579

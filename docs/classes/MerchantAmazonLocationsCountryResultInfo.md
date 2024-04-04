@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MerchantAmazonLocationsCountryResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / MerchantAmazonLocationsCountryResultInfo
 
 # Class: MerchantAmazonLocationsCountryResultInfo
 
@@ -8,101 +12,79 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](MerchantAmazonLocationsCountryResultInfo.md#constructor)
-
-### Properties
-
-- [country\_iso\_code](MerchantAmazonLocationsCountryResultInfo.md#country_iso_code)
-- [location\_code](MerchantAmazonLocationsCountryResultInfo.md#location_code)
-- [location\_name](MerchantAmazonLocationsCountryResultInfo.md#location_name)
-- [location\_name\_parent](MerchantAmazonLocationsCountryResultInfo.md#location_name_parent)
-- [location\_type](MerchantAmazonLocationsCountryResultInfo.md#location_type)
-
-### Methods
-
-- [init](MerchantAmazonLocationsCountryResultInfo.md#init)
-- [toJSON](MerchantAmazonLocationsCountryResultInfo.md#tojson)
-- [fromJS](MerchantAmazonLocationsCountryResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new MerchantAmazonLocationsCountryResultInfo(data)
 
-• **new MerchantAmazonLocationsCountryResultInfo**(`data?`): [`MerchantAmazonLocationsCountryResultInfo`](MerchantAmazonLocationsCountryResultInfo.md)
+> **new MerchantAmazonLocationsCountryResultInfo**(`data`?): [`MerchantAmazonLocationsCountryResultInfo`](MerchantAmazonLocationsCountryResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IMerchantAmazonLocationsCountryResultInfo`](../interfaces/IMerchantAmazonLocationsCountryResultInfo.md) |
+• **data?**: [`IMerchantAmazonLocationsCountryResultInfo`](../interfaces/IMerchantAmazonLocationsCountryResultInfo.md)
 
 #### Returns
 
 [`MerchantAmazonLocationsCountryResultInfo`](MerchantAmazonLocationsCountryResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:175410
 
 ## Properties
 
-### country\_iso\_code
+### country\_iso\_code?
 
-• `Optional` **country\_iso\_code**: `string`
+> **`optional`** **country\_iso\_code**: `string`
 
 ISO country code of the location
 
 #### Implementation of
 
-[IMerchantAmazonLocationsCountryResultInfo](../interfaces/IMerchantAmazonLocationsCountryResultInfo.md).[country_iso_code](../interfaces/IMerchantAmazonLocationsCountryResultInfo.md#country_iso_code)
+[`IMerchantAmazonLocationsCountryResultInfo`](../interfaces/IMerchantAmazonLocationsCountryResultInfo.md).[`country_iso_code`](../interfaces/IMerchantAmazonLocationsCountryResultInfo.md#country_iso_code)
 
-#### Defined in
+#### Source
 
 main.ts:175404
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 
 #### Implementation of
 
-[IMerchantAmazonLocationsCountryResultInfo](../interfaces/IMerchantAmazonLocationsCountryResultInfo.md).[location_code](../interfaces/IMerchantAmazonLocationsCountryResultInfo.md#location_code)
+[`IMerchantAmazonLocationsCountryResultInfo`](../interfaces/IMerchantAmazonLocationsCountryResultInfo.md).[`location_code`](../interfaces/IMerchantAmazonLocationsCountryResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
 main.ts:175394
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 
 #### Implementation of
 
-[IMerchantAmazonLocationsCountryResultInfo](../interfaces/IMerchantAmazonLocationsCountryResultInfo.md).[location_name](../interfaces/IMerchantAmazonLocationsCountryResultInfo.md#location_name)
+[`IMerchantAmazonLocationsCountryResultInfo`](../interfaces/IMerchantAmazonLocationsCountryResultInfo.md).[`location_name`](../interfaces/IMerchantAmazonLocationsCountryResultInfo.md#location_name)
 
-#### Defined in
+#### Source
 
 main.ts:175396
 
-___
+***
 
-### location\_name\_parent
+### location\_name\_parent?
 
-• `Optional` **location\_name\_parent**: `string`
+> **`optional`** **location\_name\_parent**: `string`
 
 the name of the superordinate location
 example:
@@ -112,84 +94,78 @@ example:
 
 #### Implementation of
 
-[IMerchantAmazonLocationsCountryResultInfo](../interfaces/IMerchantAmazonLocationsCountryResultInfo.md).[location_name_parent](../interfaces/IMerchantAmazonLocationsCountryResultInfo.md#location_name_parent)
+[`IMerchantAmazonLocationsCountryResultInfo`](../interfaces/IMerchantAmazonLocationsCountryResultInfo.md).[`location_name_parent`](../interfaces/IMerchantAmazonLocationsCountryResultInfo.md#location_name_parent)
 
-#### Defined in
+#### Source
 
 main.ts:175402
 
-___
+***
 
-### location\_type
+### location\_type?
 
-• `Optional` **location\_type**: `string`
+> **`optional`** **location\_type**: `string`
 
 location type
 
 #### Implementation of
 
-[IMerchantAmazonLocationsCountryResultInfo](../interfaces/IMerchantAmazonLocationsCountryResultInfo.md).[location_type](../interfaces/IMerchantAmazonLocationsCountryResultInfo.md#location_type)
+[`IMerchantAmazonLocationsCountryResultInfo`](../interfaces/IMerchantAmazonLocationsCountryResultInfo.md).[`location_type`](../interfaces/IMerchantAmazonLocationsCountryResultInfo.md#location_type)
 
-#### Defined in
+#### Source
 
 main.ts:175406
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:175419
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:175440
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`MerchantAmazonLocationsCountryResultInfo`](MerchantAmazonLocationsCountryResultInfo.md)
+> **`static`** **fromJS**(`data`): [`MerchantAmazonLocationsCountryResultInfo`](MerchantAmazonLocationsCountryResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`MerchantAmazonLocationsCountryResultInfo`](MerchantAmazonLocationsCountryResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:175433

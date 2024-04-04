@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpErrorsRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpErrorsRequestInfo
 
 # Class: SerpErrorsRequestInfo
 
@@ -8,53 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpErrorsRequestInfo.md#constructor)
-
-### Properties
-
-- [datetime\_from](SerpErrorsRequestInfo.md#datetime_from)
-- [datetime\_to](SerpErrorsRequestInfo.md#datetime_to)
-- [filtered\_function](SerpErrorsRequestInfo.md#filtered_function)
-- [limit](SerpErrorsRequestInfo.md#limit)
-- [offset](SerpErrorsRequestInfo.md#offset)
-
-### Methods
-
-- [init](SerpErrorsRequestInfo.md#init)
-- [toJSON](SerpErrorsRequestInfo.md#tojson)
-- [fromJS](SerpErrorsRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpErrorsRequestInfo(data)
 
-• **new SerpErrorsRequestInfo**(`data?`): [`SerpErrorsRequestInfo`](SerpErrorsRequestInfo.md)
+> **new SerpErrorsRequestInfo**(`data`?): [`SerpErrorsRequestInfo`](SerpErrorsRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpErrorsRequestInfo`](../interfaces/ISerpErrorsRequestInfo.md) |
+• **data?**: [`ISerpErrorsRequestInfo`](../interfaces/ISerpErrorsRequestInfo.md)
 
 #### Returns
 
 [`SerpErrorsRequestInfo`](SerpErrorsRequestInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:23609
 
 ## Properties
 
-### datetime\_from
+### datetime\_from?
 
-• `Optional` **datetime\_from**: `string`
+> **`optional`** **datetime\_from**: `string`
 
 start time for filtering results
 optional field
@@ -65,17 +47,17 @@ example:
 
 #### Implementation of
 
-[ISerpErrorsRequestInfo](../interfaces/ISerpErrorsRequestInfo.md).[datetime_from](../interfaces/ISerpErrorsRequestInfo.md#datetime_from)
+[`ISerpErrorsRequestInfo`](../interfaces/ISerpErrorsRequestInfo.md).[`datetime_from`](../interfaces/ISerpErrorsRequestInfo.md#datetime_from)
 
-#### Defined in
+#### Source
 
 main.ts:23598
 
-___
+***
 
-### datetime\_to
+### datetime\_to?
 
-• `Optional` **datetime\_to**: `string`
+> **`optional`** **datetime\_to**: `string`
 
 finish time for filtering results
 optional field
@@ -86,17 +68,17 @@ example:
 
 #### Implementation of
 
-[ISerpErrorsRequestInfo](../interfaces/ISerpErrorsRequestInfo.md).[datetime_to](../interfaces/ISerpErrorsRequestInfo.md#datetime_to)
+[`ISerpErrorsRequestInfo`](../interfaces/ISerpErrorsRequestInfo.md).[`datetime_to`](../interfaces/ISerpErrorsRequestInfo.md#datetime_to)
 
-#### Defined in
+#### Source
 
 main.ts:23605
 
-___
+***
 
-### filtered\_function
+### filtered\_function?
 
-• `Optional` **filtered\_function**: `string`
+> **`optional`** **filtered\_function**: `string`
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -106,17 +88,17 @@ example: serp/task_get/advanced, postback_url, pingback_url
 
 #### Implementation of
 
-[ISerpErrorsRequestInfo](../interfaces/ISerpErrorsRequestInfo.md).[filtered_function](../interfaces/ISerpErrorsRequestInfo.md#filtered_function)
+[`ISerpErrorsRequestInfo`](../interfaces/ISerpErrorsRequestInfo.md).[`filtered_function`](../interfaces/ISerpErrorsRequestInfo.md#filtered_function)
 
-#### Defined in
+#### Source
 
 main.ts:23591
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -125,17 +107,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[ISerpErrorsRequestInfo](../interfaces/ISerpErrorsRequestInfo.md).[limit](../interfaces/ISerpErrorsRequestInfo.md#limit)
+[`ISerpErrorsRequestInfo`](../interfaces/ISerpErrorsRequestInfo.md).[`limit`](../interfaces/ISerpErrorsRequestInfo.md#limit)
 
-#### Defined in
+#### Source
 
 main.ts:23580
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned tasks
 optional field
@@ -144,68 +126,62 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Implementation of
 
-[ISerpErrorsRequestInfo](../interfaces/ISerpErrorsRequestInfo.md).[offset](../interfaces/ISerpErrorsRequestInfo.md#offset)
+[`ISerpErrorsRequestInfo`](../interfaces/ISerpErrorsRequestInfo.md).[`offset`](../interfaces/ISerpErrorsRequestInfo.md#offset)
 
-#### Defined in
+#### Source
 
 main.ts:23585
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:23618
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:23639
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpErrorsRequestInfo`](SerpErrorsRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpErrorsRequestInfo`](SerpErrorsRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpErrorsRequestInfo`](SerpErrorsRequestInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:23632

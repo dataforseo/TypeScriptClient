@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / FoundOnWebSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / FoundOnWebSerpElementItem
 
 # Class: FoundOnWebSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-  ↳ **`FoundOnWebSerpElementItem`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](FoundOnWebSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](FoundOnWebSerpElementItem.md#_discriminator)
-- [items](FoundOnWebSerpElementItem.md#items)
-- [position](FoundOnWebSerpElementItem.md#position)
-- [rank\_absolute](FoundOnWebSerpElementItem.md#rank_absolute)
-- [rank\_group](FoundOnWebSerpElementItem.md#rank_group)
-- [rectangle](FoundOnWebSerpElementItem.md#rectangle)
-- [related\_searches](FoundOnWebSerpElementItem.md#related_searches)
-- [title](FoundOnWebSerpElementItem.md#title)
-- [xpath](FoundOnWebSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](FoundOnWebSerpElementItem.md#init)
-- [toJSON](FoundOnWebSerpElementItem.md#tojson)
-- [fromJS](FoundOnWebSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new FoundOnWebSerpElementItem(data)
 
-• **new FoundOnWebSerpElementItem**(`data?`): [`FoundOnWebSerpElementItem`](FoundOnWebSerpElementItem.md)
+> **new FoundOnWebSerpElementItem**(`data`?): [`FoundOnWebSerpElementItem`](FoundOnWebSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IFoundOnWebSerpElementItem`](../interfaces/IFoundOnWebSerpElementItem.md) |
+• **data?**: [`IFoundOnWebSerpElementItem`](../interfaces/IFoundOnWebSerpElementItem.md)
 
 #### Returns
 
@@ -58,48 +34,48 @@
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[constructor](BaseSerpElementItem.md#constructor)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:35749
+main.ts:35755
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[_discriminator](BaseSerpElementItem.md#_discriminator)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:19788
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`FoundOnWebElement`](FoundOnWebElement.md)[]
+> **`optional`** **items**: [`FoundOnWebElement`](FoundOnWebElement.md)[]
 
 additional items present in the element
 if there are none, equals null
 
 #### Implementation of
 
-[IFoundOnWebSerpElementItem](../interfaces/IFoundOnWebSerpElementItem.md).[items](../interfaces/IFoundOnWebSerpElementItem.md#items)
+[`IFoundOnWebSerpElementItem`](../interfaces/IFoundOnWebSerpElementItem.md).[`items`](../interfaces/IFoundOnWebSerpElementItem.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:35741
+main.ts:35747
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -107,17 +83,17 @@ left, right
 
 #### Implementation of
 
-[IFoundOnWebSerpElementItem](../interfaces/IFoundOnWebSerpElementItem.md).[position](../interfaces/IFoundOnWebSerpElementItem.md#position)
+[`IFoundOnWebSerpElementItem`](../interfaces/IFoundOnWebSerpElementItem.md).[`position`](../interfaces/IFoundOnWebSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
-main.ts:35732
+main.ts:35738
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -125,17 +101,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IFoundOnWebSerpElementItem](../interfaces/IFoundOnWebSerpElementItem.md).[rank_absolute](../interfaces/IFoundOnWebSerpElementItem.md#rank_absolute)
+[`IFoundOnWebSerpElementItem`](../interfaces/IFoundOnWebSerpElementItem.md).[`rank_absolute`](../interfaces/IFoundOnWebSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:35728
+main.ts:35734
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
@@ -144,17 +120,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IFoundOnWebSerpElementItem](../interfaces/IFoundOnWebSerpElementItem.md).[rank_group](../interfaces/IFoundOnWebSerpElementItem.md#rank_group)
+[`IFoundOnWebSerpElementItem`](../interfaces/IFoundOnWebSerpElementItem.md).[`rank_group`](../interfaces/IFoundOnWebSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
-main.ts:35724
+main.ts:35730
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -162,71 +138,69 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Implementation of
 
-[IFoundOnWebSerpElementItem](../interfaces/IFoundOnWebSerpElementItem.md).[rectangle](../interfaces/IFoundOnWebSerpElementItem.md#rectangle)
+[`IFoundOnWebSerpElementItem`](../interfaces/IFoundOnWebSerpElementItem.md).[`rectangle`](../interfaces/IFoundOnWebSerpElementItem.md#rectangle)
 
-#### Defined in
+#### Source
 
-main.ts:35745
+main.ts:35751
 
-___
+***
 
-### related\_searches
+### related\_searches?
 
-• `Optional` **related\_searches**: `string`[]
+> **`optional`** **related\_searches**: `string`[]
 
 search queries related to the elment
 
 #### Implementation of
 
-[IFoundOnWebSerpElementItem](../interfaces/IFoundOnWebSerpElementItem.md).[related_searches](../interfaces/IFoundOnWebSerpElementItem.md#related_searches)
+[`IFoundOnWebSerpElementItem`](../interfaces/IFoundOnWebSerpElementItem.md).[`related_searches`](../interfaces/IFoundOnWebSerpElementItem.md#related_searches)
 
-#### Defined in
+#### Source
 
-main.ts:35738
+main.ts:35744
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the row
 
 #### Implementation of
 
-[IFoundOnWebSerpElementItem](../interfaces/IFoundOnWebSerpElementItem.md).[title](../interfaces/IFoundOnWebSerpElementItem.md#title)
+[`IFoundOnWebSerpElementItem`](../interfaces/IFoundOnWebSerpElementItem.md).[`title`](../interfaces/IFoundOnWebSerpElementItem.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:35736
+main.ts:35742
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IFoundOnWebSerpElementItem](../interfaces/IFoundOnWebSerpElementItem.md).[xpath](../interfaces/IFoundOnWebSerpElementItem.md#xpath)
+[`IFoundOnWebSerpElementItem`](../interfaces/IFoundOnWebSerpElementItem.md).[`xpath`](../interfaces/IFoundOnWebSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
-main.ts:35734
+main.ts:35740
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -234,23 +208,21 @@ main.ts:35734
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[init](BaseSerpElementItem.md#init)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:35754
+main.ts:35760
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -258,23 +230,21 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[toJSON](BaseSerpElementItem.md#tojson)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:35787
+main.ts:35793
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`FoundOnWebSerpElementItem`](FoundOnWebSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`FoundOnWebSerpElementItem`](FoundOnWebSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -282,8 +252,8 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[fromJS](BaseSerpElementItem.md#fromjs)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:35780
+main.ts:35786

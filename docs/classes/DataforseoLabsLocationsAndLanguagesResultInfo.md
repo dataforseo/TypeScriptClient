@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsLocationsAndLanguagesResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsLocationsAndLanguagesResultInfo
 
 # Class: DataforseoLabsLocationsAndLanguagesResultInfo
 
@@ -8,136 +12,113 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsLocationsAndLanguagesResultInfo.md#constructor)
-
-### Properties
-
-- [available\_languages](DataforseoLabsLocationsAndLanguagesResultInfo.md#available_languages)
-- [country\_iso\_code](DataforseoLabsLocationsAndLanguagesResultInfo.md#country_iso_code)
-- [location\_code](DataforseoLabsLocationsAndLanguagesResultInfo.md#location_code)
-- [location\_code\_parent](DataforseoLabsLocationsAndLanguagesResultInfo.md#location_code_parent)
-- [location\_name](DataforseoLabsLocationsAndLanguagesResultInfo.md#location_name)
-- [location\_type](DataforseoLabsLocationsAndLanguagesResultInfo.md#location_type)
-
-### Methods
-
-- [init](DataforseoLabsLocationsAndLanguagesResultInfo.md#init)
-- [toJSON](DataforseoLabsLocationsAndLanguagesResultInfo.md#tojson)
-- [fromJS](DataforseoLabsLocationsAndLanguagesResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsLocationsAndLanguagesResultInfo(data)
 
-• **new DataforseoLabsLocationsAndLanguagesResultInfo**(`data?`): [`DataforseoLabsLocationsAndLanguagesResultInfo`](DataforseoLabsLocationsAndLanguagesResultInfo.md)
+> **new DataforseoLabsLocationsAndLanguagesResultInfo**(`data`?): [`DataforseoLabsLocationsAndLanguagesResultInfo`](DataforseoLabsLocationsAndLanguagesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsLocationsAndLanguagesResultInfo`](../interfaces/IDataforseoLabsLocationsAndLanguagesResultInfo.md) |
+• **data?**: [`IDataforseoLabsLocationsAndLanguagesResultInfo`](../interfaces/IDataforseoLabsLocationsAndLanguagesResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsLocationsAndLanguagesResultInfo`](DataforseoLabsLocationsAndLanguagesResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:80323
+main.ts:80331
 
 ## Properties
 
-### available\_languages
+### available\_languages?
 
-• `Optional` **available\_languages**: [`AvailableLanguages`](AvailableLanguages.md)[]
+> **`optional`** **available\_languages**: [`AvailableLanguages`](AvailableLanguages.md)[]
 
 supported languages
 contains the languages which are supported for a specific location
 
 #### Implementation of
 
-[IDataforseoLabsLocationsAndLanguagesResultInfo](../interfaces/IDataforseoLabsLocationsAndLanguagesResultInfo.md).[available_languages](../interfaces/IDataforseoLabsLocationsAndLanguagesResultInfo.md#available_languages)
+[`IDataforseoLabsLocationsAndLanguagesResultInfo`](../interfaces/IDataforseoLabsLocationsAndLanguagesResultInfo.md).[`available_languages`](../interfaces/IDataforseoLabsLocationsAndLanguagesResultInfo.md#available_languages)
 
-#### Defined in
+#### Source
 
-main.ts:80319
+main.ts:80327
 
-___
+***
 
-### country\_iso\_code
+### country\_iso\_code?
 
-• `Optional` **country\_iso\_code**: `string`
+> **`optional`** **country\_iso\_code**: `string`
 
 ISO country code of the location
 
 #### Implementation of
 
-[IDataforseoLabsLocationsAndLanguagesResultInfo](../interfaces/IDataforseoLabsLocationsAndLanguagesResultInfo.md).[country_iso_code](../interfaces/IDataforseoLabsLocationsAndLanguagesResultInfo.md#country_iso_code)
+[`IDataforseoLabsLocationsAndLanguagesResultInfo`](../interfaces/IDataforseoLabsLocationsAndLanguagesResultInfo.md).[`country_iso_code`](../interfaces/IDataforseoLabsLocationsAndLanguagesResultInfo.md#country_iso_code)
 
-#### Defined in
+#### Source
 
-main.ts:80312
+main.ts:80320
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 
 #### Implementation of
 
-[IDataforseoLabsLocationsAndLanguagesResultInfo](../interfaces/IDataforseoLabsLocationsAndLanguagesResultInfo.md).[location_code](../interfaces/IDataforseoLabsLocationsAndLanguagesResultInfo.md#location_code)
+[`IDataforseoLabsLocationsAndLanguagesResultInfo`](../interfaces/IDataforseoLabsLocationsAndLanguagesResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsLocationsAndLanguagesResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:80305
+main.ts:80313
 
-___
+***
 
-### location\_code\_parent
+### location\_code\_parent?
 
-• `Optional` **location\_code\_parent**: `number`
+> **`optional`** **location\_code\_parent**: `number`
 
 the code of the superordinate location
 the value will be null as Country is the only supported location_type for this API
 
 #### Implementation of
 
-[IDataforseoLabsLocationsAndLanguagesResultInfo](../interfaces/IDataforseoLabsLocationsAndLanguagesResultInfo.md).[location_code_parent](../interfaces/IDataforseoLabsLocationsAndLanguagesResultInfo.md#location_code_parent)
+[`IDataforseoLabsLocationsAndLanguagesResultInfo`](../interfaces/IDataforseoLabsLocationsAndLanguagesResultInfo.md).[`location_code_parent`](../interfaces/IDataforseoLabsLocationsAndLanguagesResultInfo.md#location_code_parent)
 
-#### Defined in
+#### Source
 
-main.ts:80310
+main.ts:80318
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 
 #### Implementation of
 
-[IDataforseoLabsLocationsAndLanguagesResultInfo](../interfaces/IDataforseoLabsLocationsAndLanguagesResultInfo.md).[location_name](../interfaces/IDataforseoLabsLocationsAndLanguagesResultInfo.md#location_name)
+[`IDataforseoLabsLocationsAndLanguagesResultInfo`](../interfaces/IDataforseoLabsLocationsAndLanguagesResultInfo.md).[`location_name`](../interfaces/IDataforseoLabsLocationsAndLanguagesResultInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:80307
+main.ts:80315
 
-___
+***
 
-### location\_type
+### location\_type?
 
-• `Optional` **location\_type**: `string`
+> **`optional`** **location\_type**: `string`
 
 location type
 possible values:
@@ -145,68 +126,62 @@ Country
 
 #### Implementation of
 
-[IDataforseoLabsLocationsAndLanguagesResultInfo](../interfaces/IDataforseoLabsLocationsAndLanguagesResultInfo.md).[location_type](../interfaces/IDataforseoLabsLocationsAndLanguagesResultInfo.md#location_type)
+[`IDataforseoLabsLocationsAndLanguagesResultInfo`](../interfaces/IDataforseoLabsLocationsAndLanguagesResultInfo.md).[`location_type`](../interfaces/IDataforseoLabsLocationsAndLanguagesResultInfo.md#location_type)
 
-#### Defined in
+#### Source
 
-main.ts:80316
+main.ts:80324
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:80332
+main.ts:80340
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:80358
+main.ts:80366
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsLocationsAndLanguagesResultInfo`](DataforseoLabsLocationsAndLanguagesResultInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsLocationsAndLanguagesResultInfo`](DataforseoLabsLocationsAndLanguagesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsLocationsAndLanguagesResultInfo`](DataforseoLabsLocationsAndLanguagesResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:80351
+main.ts:80359

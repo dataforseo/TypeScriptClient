@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleAvailableHistoryResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsGoogleAvailableHistoryResponseInfo
 
 # Class: DataforseoLabsGoogleAvailableHistoryResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`DataforseoLabsGoogleAvailableHistoryResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsGoogleAvailableHistoryResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](DataforseoLabsGoogleAvailableHistoryResponseInfo.md#cost)
-- [status\_code](DataforseoLabsGoogleAvailableHistoryResponseInfo.md#status_code)
-- [status\_message](DataforseoLabsGoogleAvailableHistoryResponseInfo.md#status_message)
-- [tasks](DataforseoLabsGoogleAvailableHistoryResponseInfo.md#tasks)
-- [tasks\_count](DataforseoLabsGoogleAvailableHistoryResponseInfo.md#tasks_count)
-- [tasks\_error](DataforseoLabsGoogleAvailableHistoryResponseInfo.md#tasks_error)
-- [time](DataforseoLabsGoogleAvailableHistoryResponseInfo.md#time)
-- [version](DataforseoLabsGoogleAvailableHistoryResponseInfo.md#version)
-
-### Methods
-
-- [init](DataforseoLabsGoogleAvailableHistoryResponseInfo.md#init)
-- [toJSON](DataforseoLabsGoogleAvailableHistoryResponseInfo.md#tojson)
-- [fromJS](DataforseoLabsGoogleAvailableHistoryResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsGoogleAvailableHistoryResponseInfo(data)
 
-• **new DataforseoLabsGoogleAvailableHistoryResponseInfo**(`data?`): [`DataforseoLabsGoogleAvailableHistoryResponseInfo`](DataforseoLabsGoogleAvailableHistoryResponseInfo.md)
+> **new DataforseoLabsGoogleAvailableHistoryResponseInfo**(`data`?): [`DataforseoLabsGoogleAvailableHistoryResponseInfo`](DataforseoLabsGoogleAvailableHistoryResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsGoogleAvailableHistoryResponseInfo`](../interfaces/IDataforseoLabsGoogleAvailableHistoryResponseInfo.md) |
+• **data?**: [`IDataforseoLabsGoogleAvailableHistoryResponseInfo`](../interfaces/IDataforseoLabsGoogleAvailableHistoryResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:80816
+main.ts:80824
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IDataforseoLabsGoogleAvailableHistoryResponseInfo](../interfaces/IDataforseoLabsGoogleAvailableHistoryResponseInfo.md).[cost](../interfaces/IDataforseoLabsGoogleAvailableHistoryResponseInfo.md#cost)
+[`IDataforseoLabsGoogleAvailableHistoryResponseInfo`](../interfaces/IDataforseoLabsGoogleAvailableHistoryResponseInfo.md).[`cost`](../interfaces/IDataforseoLabsGoogleAvailableHistoryResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[IDataforseoLabsGoogleAvailableHistoryResponseInfo](../interfaces/IDataforseoLabsGoogleAvailableHistoryResponseInfo.md).[status_code](../interfaces/IDataforseoLabsGoogleAvailableHistoryResponseInfo.md#status_code)
+[`IDataforseoLabsGoogleAvailableHistoryResponseInfo`](../interfaces/IDataforseoLabsGoogleAvailableHistoryResponseInfo.md).[`status_code`](../interfaces/IDataforseoLabsGoogleAvailableHistoryResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IDataforseoLabsGoogleAvailableHistoryResponseInfo](../interfaces/IDataforseoLabsGoogleAvailableHistoryResponseInfo.md).[status_message](../interfaces/IDataforseoLabsGoogleAvailableHistoryResponseInfo.md#status_message)
+[`IDataforseoLabsGoogleAvailableHistoryResponseInfo`](../interfaces/IDataforseoLabsGoogleAvailableHistoryResponseInfo.md).[`status_message`](../interfaces/IDataforseoLabsGoogleAvailableHistoryResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`DataforseoLabsGoogleAvailableHistoryTaskInfo`](DataforseoLabsGoogleAvailableHistoryTaskInfo.md)[]
+> **`optional`** **tasks**: [`DataforseoLabsGoogleAvailableHistoryTaskInfo`](DataforseoLabsGoogleAvailableHistoryTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[IDataforseoLabsGoogleAvailableHistoryResponseInfo](../interfaces/IDataforseoLabsGoogleAvailableHistoryResponseInfo.md).[tasks](../interfaces/IDataforseoLabsGoogleAvailableHistoryResponseInfo.md#tasks)
+[`IDataforseoLabsGoogleAvailableHistoryResponseInfo`](../interfaces/IDataforseoLabsGoogleAvailableHistoryResponseInfo.md).[`tasks`](../interfaces/IDataforseoLabsGoogleAvailableHistoryResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:80812
+main.ts:80820
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleAvailableHistoryResponseInfo](../interfaces/IDataforseoLabsGoogleAvailableHistoryResponseInfo.md).[tasks_count](../interfaces/IDataforseoLabsGoogleAvailableHistoryResponseInfo.md#tasks_count)
+[`IDataforseoLabsGoogleAvailableHistoryResponseInfo`](../interfaces/IDataforseoLabsGoogleAvailableHistoryResponseInfo.md).[`tasks_count`](../interfaces/IDataforseoLabsGoogleAvailableHistoryResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[IDataforseoLabsGoogleAvailableHistoryResponseInfo](../interfaces/IDataforseoLabsGoogleAvailableHistoryResponseInfo.md).[tasks_error](../interfaces/IDataforseoLabsGoogleAvailableHistoryResponseInfo.md#tasks_error)
+[`IDataforseoLabsGoogleAvailableHistoryResponseInfo`](../interfaces/IDataforseoLabsGoogleAvailableHistoryResponseInfo.md).[`tasks_error`](../interfaces/IDataforseoLabsGoogleAvailableHistoryResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[IDataforseoLabsGoogleAvailableHistoryResponseInfo](../interfaces/IDataforseoLabsGoogleAvailableHistoryResponseInfo.md).[time](../interfaces/IDataforseoLabsGoogleAvailableHistoryResponseInfo.md#time)
+[`IDataforseoLabsGoogleAvailableHistoryResponseInfo`](../interfaces/IDataforseoLabsGoogleAvailableHistoryResponseInfo.md).[`time`](../interfaces/IDataforseoLabsGoogleAvailableHistoryResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[IDataforseoLabsGoogleAvailableHistoryResponseInfo](../interfaces/IDataforseoLabsGoogleAvailableHistoryResponseInfo.md).[version](../interfaces/IDataforseoLabsGoogleAvailableHistoryResponseInfo.md#version)
+[`IDataforseoLabsGoogleAvailableHistoryResponseInfo`](../interfaces/IDataforseoLabsGoogleAvailableHistoryResponseInfo.md).[`version`](../interfaces/IDataforseoLabsGoogleAvailableHistoryResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:80820
+main.ts:80828
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:80842
+main.ts:80850
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsGoogleAvailableHistoryResponseInfo`](DataforseoLabsGoogleAvailableHistoryResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleAvailableHistoryResponseInfo`](DataforseoLabsGoogleAvailableHistoryResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:80835
+main.ts:80843

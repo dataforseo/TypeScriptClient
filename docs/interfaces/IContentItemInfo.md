@@ -1,43 +1,36 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentItemInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IContentItemInfo
 
 # Interface: IContentItemInfo
 
-## Implemented by
-
-- [`ContentItemInfo`](../classes/ContentItemInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [text](IContentItemInfo.md#text)
-- [url](IContentItemInfo.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### text
+### text?
 
-• `Optional` **text**: `string`
+> **`optional`** **text**: `string`
 
 content text
 
-#### Defined in
+#### Source
 
-main.ts:157430
+main.ts:157438
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 page URL
 displayed in case the text is a link anchor
 
-#### Defined in
+#### Source
 
-main.ts:157433
+main.ts:157441

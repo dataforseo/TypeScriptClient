@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksDomainIntersectionLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BacklinksDomainIntersectionLiveRequestInfo
 
 # Class: BacklinksDomainIntersectionLiveRequestInfo
 
@@ -8,62 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BacklinksDomainIntersectionLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [backlinks\_filters](BacklinksDomainIntersectionLiveRequestInfo.md#backlinks_filters)
-- [backlinks\_status\_type](BacklinksDomainIntersectionLiveRequestInfo.md#backlinks_status_type)
-- [exclude\_internal\_backlinks](BacklinksDomainIntersectionLiveRequestInfo.md#exclude_internal_backlinks)
-- [exclude\_targets](BacklinksDomainIntersectionLiveRequestInfo.md#exclude_targets)
-- [filters](BacklinksDomainIntersectionLiveRequestInfo.md#filters)
-- [include\_indirect\_links](BacklinksDomainIntersectionLiveRequestInfo.md#include_indirect_links)
-- [include\_subdomains](BacklinksDomainIntersectionLiveRequestInfo.md#include_subdomains)
-- [internal\_list\_limit](BacklinksDomainIntersectionLiveRequestInfo.md#internal_list_limit)
-- [intersection\_mode](BacklinksDomainIntersectionLiveRequestInfo.md#intersection_mode)
-- [limit](BacklinksDomainIntersectionLiveRequestInfo.md#limit)
-- [offset](BacklinksDomainIntersectionLiveRequestInfo.md#offset)
-- [order\_by](BacklinksDomainIntersectionLiveRequestInfo.md#order_by)
-- [tag](BacklinksDomainIntersectionLiveRequestInfo.md#tag)
-- [targets](BacklinksDomainIntersectionLiveRequestInfo.md#targets)
-
-### Methods
-
-- [init](BacklinksDomainIntersectionLiveRequestInfo.md#init)
-- [toJSON](BacklinksDomainIntersectionLiveRequestInfo.md#tojson)
-- [fromJS](BacklinksDomainIntersectionLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BacklinksDomainIntersectionLiveRequestInfo(data)
 
-• **new BacklinksDomainIntersectionLiveRequestInfo**(`data?`): [`BacklinksDomainIntersectionLiveRequestInfo`](BacklinksDomainIntersectionLiveRequestInfo.md)
+> **new BacklinksDomainIntersectionLiveRequestInfo**(`data`?): [`BacklinksDomainIntersectionLiveRequestInfo`](BacklinksDomainIntersectionLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBacklinksDomainIntersectionLiveRequestInfo`](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md) |
+• **data?**: [`IBacklinksDomainIntersectionLiveRequestInfo`](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md)
 
 #### Returns
 
 [`BacklinksDomainIntersectionLiveRequestInfo`](BacklinksDomainIntersectionLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:141912
+main.ts:141920
 
 ## Properties
 
-### backlinks\_filters
+### backlinks\_filters?
 
-• `Optional` **backlinks\_filters**: `any`[]
+> **`optional`** **backlinks\_filters**: `any`[]
 
 filter the backlinks of your target
 optional field
@@ -75,17 +48,17 @@ example:
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionLiveRequestInfo](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md).[backlinks_filters](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md#backlinks_filters)
+[`IBacklinksDomainIntersectionLiveRequestInfo`](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md).[`backlinks_filters`](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md#backlinks_filters)
 
-#### Defined in
+#### Source
 
-main.ts:141878
+main.ts:141886
 
-___
+***
 
-### backlinks\_status\_type
+### backlinks\_status\_type?
 
-• `Optional` **backlinks\_status\_type**: `string`
+> **`optional`** **backlinks\_status\_type**: `string`
 
 set what backlinks to return and count
 optional field
@@ -98,17 +71,17 @@ default value: live
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionLiveRequestInfo](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md).[backlinks_status_type](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md#backlinks_status_type)
+[`IBacklinksDomainIntersectionLiveRequestInfo`](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md).[`backlinks_status_type`](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md#backlinks_status_type)
 
-#### Defined in
+#### Source
 
-main.ts:141870
+main.ts:141878
 
-___
+***
 
-### exclude\_internal\_backlinks
+### exclude\_internal\_backlinks?
 
-• `Optional` **exclude\_internal\_backlinks**: `boolean`
+> **`optional`** **exclude\_internal\_backlinks**: `boolean`
 
 indicates whether the backlinks from subdomains of the target are excluded
 optional field
@@ -117,17 +90,17 @@ default value: true
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionLiveRequestInfo](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md).[exclude_internal_backlinks](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md#exclude_internal_backlinks)
+[`IBacklinksDomainIntersectionLiveRequestInfo`](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md).[`exclude_internal_backlinks`](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md#exclude_internal_backlinks)
 
-#### Defined in
+#### Source
 
-main.ts:141894
+main.ts:141902
 
-___
+***
 
-### exclude\_targets
+### exclude\_targets?
 
-• `Optional` **exclude\_targets**: `string`[]
+> **`optional`** **exclude\_targets**: `string`[]
 
 domains, subdomains or webpages you want to exclude
 optional field
@@ -141,27 +114,27 @@ example:
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionLiveRequestInfo](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md).[exclude_targets](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md#exclude_targets)
+[`IBacklinksDomainIntersectionLiveRequestInfo`](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md).[`exclude_targets`](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md#exclude_targets)
 
-#### Defined in
+#### Source
 
-main.ts:141809
+main.ts:141817
 
-___
+***
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, =, <>, in, not_in, like, not_like, ilike, not_ilike
+regex, =, `<>`, in, not_in, like, not_like, ilike, not_ilike
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
-["1.internal_links_count",">","1"]
+["1.internal_links_count",">`","1"]
 [["2.referring_pages",">","2"],
 "and",
 ["1.backlinks",">","10"]]
@@ -172,17 +145,17 @@ The full list of possible filters is available here.
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionLiveRequestInfo](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md).[filters](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md#filters)
+[`IBacklinksDomainIntersectionLiveRequestInfo`](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md).[`filters`](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md#filters)
 
-#### Defined in
+#### Source
 
-main.ts:141826
+main.ts:141834
 
-___
+***
 
-### include\_indirect\_links
+### include\_indirect\_links?
 
-• `Optional` **include\_indirect\_links**: `boolean`
+> **`optional`** **include\_indirect\_links**: `boolean`
 
 indicates if indirect links to the targets will be included in the results
 optional field
@@ -192,17 +165,17 @@ default value: true
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionLiveRequestInfo](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md).[include_indirect_links](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md#include_indirect_links)
+[`IBacklinksDomainIntersectionLiveRequestInfo`](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md).[`include_indirect_links`](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md#include_indirect_links)
 
-#### Defined in
+#### Source
 
-main.ts:141889
+main.ts:141897
 
-___
+***
 
-### include\_subdomains
+### include\_subdomains?
 
-• `Optional` **include\_subdomains**: `boolean`
+> **`optional`** **include\_subdomains**: `boolean`
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -211,17 +184,17 @@ default value: true
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionLiveRequestInfo](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md).[include_subdomains](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md#include_subdomains)
+[`IBacklinksDomainIntersectionLiveRequestInfo`](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md).[`include_subdomains`](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md#include_subdomains)
 
-#### Defined in
+#### Source
 
-main.ts:141883
+main.ts:141891
 
-___
+***
 
-### internal\_list\_limit
+### internal\_list\_limit?
 
-• `Optional` **internal\_list\_limit**: `number`
+> **`optional`** **internal\_list\_limit**: `number`
 
 maximum number of elements within internal arrays
 optional field
@@ -236,17 +209,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionLiveRequestInfo](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md).[internal_list_limit](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md#internal_list_limit)
+[`IBacklinksDomainIntersectionLiveRequestInfo`](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md).[`internal_list_limit`](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md#internal_list_limit)
 
-#### Defined in
+#### Source
 
-main.ts:141861
+main.ts:141869
 
-___
+***
 
-### intersection\_mode
+### intersection\_mode?
 
-• `Optional` **intersection\_mode**: `string`
+> **`optional`** **intersection\_mode**: `string`
 
 indicates whether to intersect backlinks
 optional field
@@ -258,17 +231,17 @@ default value: all
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionLiveRequestInfo](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md).[intersection_mode](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md#intersection_mode)
+[`IBacklinksDomainIntersectionLiveRequestInfo`](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md).[`intersection_mode`](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md#intersection_mode)
 
-#### Defined in
+#### Source
 
-main.ts:141902
+main.ts:141910
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned results
 optional field
@@ -277,17 +250,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionLiveRequestInfo](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md).[limit](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md#limit)
+[`IBacklinksDomainIntersectionLiveRequestInfo`](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md).[`limit`](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md#limit)
 
-#### Defined in
+#### Source
 
-main.ts:141850
+main.ts:141858
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the array of returned results
 optional field
@@ -296,17 +269,17 @@ if you specify the 10 value, the first ten backlinks in the results array will b
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionLiveRequestInfo](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md).[offset](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md#offset)
+[`IBacklinksDomainIntersectionLiveRequestInfo`](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md).[`offset`](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md#offset)
 
-#### Defined in
+#### Source
 
-main.ts:141845
+main.ts:141853
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -324,17 +297,17 @@ example:
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionLiveRequestInfo](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md).[order_by](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md#order_by)
+[`IBacklinksDomainIntersectionLiveRequestInfo`](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md).[`order_by`](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md#order_by)
 
-#### Defined in
+#### Source
 
-main.ts:141840
+main.ts:141848
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -344,17 +317,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionLiveRequestInfo](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md).[tag](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md#tag)
+[`IBacklinksDomainIntersectionLiveRequestInfo`](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md).[`tag`](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:141908
+main.ts:141916
 
-___
+***
 
-### targets
+### targets?
 
-• `Optional` **targets**: `Object`
+> **`optional`** **targets**: `Object`
 
 domains, subdomains or webpages to get links for
 required field
@@ -362,79 +335,73 @@ you can set up to 20 domains, subdomains or webpages
 a domain or a subdomain should be specified without https:// and www.
 a page should be specified with absolute URL (including http:// or https://)
 example:
-"targets": {
+"targets": \{
 "1": "http://planet.postgresql.org/",
 "2": "http://gborg.postgresql.org/"
-}
+\}
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionLiveRequestInfo](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md).[targets](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md#targets)
+[`IBacklinksDomainIntersectionLiveRequestInfo`](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md).[`targets`](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md#targets)
 
-#### Defined in
+#### Source
 
-main.ts:141799
+main.ts:141807
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:141921
+main.ts:141929
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:141973
+main.ts:141981
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BacklinksDomainIntersectionLiveRequestInfo`](BacklinksDomainIntersectionLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`BacklinksDomainIntersectionLiveRequestInfo`](BacklinksDomainIntersectionLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BacklinksDomainIntersectionLiveRequestInfo`](BacklinksDomainIntersectionLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:141966
+main.ts:141974

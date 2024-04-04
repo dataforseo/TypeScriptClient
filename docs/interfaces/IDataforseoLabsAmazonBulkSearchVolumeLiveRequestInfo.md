@@ -1,31 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo
 
 # Interface: IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo
 
-## Implemented by
-
-- [`DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo`](../classes/DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [keywords](IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md#keywords)
-- [language\_code](IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md#language_code)
-- [language\_name](IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md#language_name)
-- [location\_code](IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md#location_code)
-- [location\_name](IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md#location_name)
-- [tag](IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 target keywords
 required field
@@ -34,15 +23,15 @@ maximum number of keywords you can specify in this array: 1000;
 each keyword should be at least 3 characters long;
 the keywords will be converted to lowercase format
 
-#### Defined in
+#### Source
 
-main.ts:101117
+main.ts:101125
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 required field if don’t specify language_name
@@ -51,15 +40,15 @@ Note: this endpoint currently supports these locations and languages only;
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:101164
+main.ts:101172
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 required field if don’t specify language_code
@@ -68,15 +57,15 @@ Note: this endpoint currently supports these locations and languages only;
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:101157
+main.ts:101165
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 required field if don’t specify location_name
@@ -86,15 +75,15 @@ Note: this endpoint currently supports these locations and languages only;
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:101150
+main.ts:101158
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 required field if don’t specify location_code
@@ -121,15 +110,15 @@ United States – 2840, en
 example:
 United States
 
-#### Defined in
+#### Source
 
-main.ts:101142
+main.ts:101150
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -137,6 +126,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:101170
+main.ts:101178

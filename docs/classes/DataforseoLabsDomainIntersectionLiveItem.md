@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsDomainIntersectionLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsDomainIntersectionLiveItem
 
 # Class: DataforseoLabsDomainIntersectionLiveItem
 
@@ -8,169 +12,142 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsDomainIntersectionLiveItem.md#constructor)
-
-### Properties
-
-- [first\_domain\_serp\_element](DataforseoLabsDomainIntersectionLiveItem.md#first_domain_serp_element)
-- [keyword\_data](DataforseoLabsDomainIntersectionLiveItem.md#keyword_data)
-- [se\_type](DataforseoLabsDomainIntersectionLiveItem.md#se_type)
-- [second\_domain\_serp\_element](DataforseoLabsDomainIntersectionLiveItem.md#second_domain_serp_element)
-
-### Methods
-
-- [init](DataforseoLabsDomainIntersectionLiveItem.md#init)
-- [toJSON](DataforseoLabsDomainIntersectionLiveItem.md#tojson)
-- [fromJS](DataforseoLabsDomainIntersectionLiveItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsDomainIntersectionLiveItem(data)
 
-• **new DataforseoLabsDomainIntersectionLiveItem**(`data?`): [`DataforseoLabsDomainIntersectionLiveItem`](DataforseoLabsDomainIntersectionLiveItem.md)
+> **new DataforseoLabsDomainIntersectionLiveItem**(`data`?): [`DataforseoLabsDomainIntersectionLiveItem`](DataforseoLabsDomainIntersectionLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsDomainIntersectionLiveItem`](../interfaces/IDataforseoLabsDomainIntersectionLiveItem.md) |
+• **data?**: [`IDataforseoLabsDomainIntersectionLiveItem`](../interfaces/IDataforseoLabsDomainIntersectionLiveItem.md)
 
 #### Returns
 
 [`DataforseoLabsDomainIntersectionLiveItem`](DataforseoLabsDomainIntersectionLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:91423
+main.ts:91431
 
 ## Properties
 
-### first\_domain\_serp\_element
+### first\_domain\_serp\_element?
 
-• `Optional` **first\_domain\_serp\_element**: [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
+> **`optional`** **first\_domain\_serp\_element**: [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
 
 contains data on the first domain’s SERP element found for the returned keyword
 the list of supported SERP elements can be found below
 
 #### Implementation of
 
-[IDataforseoLabsDomainIntersectionLiveItem](../interfaces/IDataforseoLabsDomainIntersectionLiveItem.md).[first_domain_serp_element](../interfaces/IDataforseoLabsDomainIntersectionLiveItem.md#first_domain_serp_element)
+[`IDataforseoLabsDomainIntersectionLiveItem`](../interfaces/IDataforseoLabsDomainIntersectionLiveItem.md).[`first_domain_serp_element`](../interfaces/IDataforseoLabsDomainIntersectionLiveItem.md#first_domain_serp_element)
 
-#### Defined in
+#### Source
 
-main.ts:91416
+main.ts:91424
 
-___
+***
 
-### keyword\_data
+### keyword\_data?
 
-• `Optional` **keyword\_data**: [`KeywordData`](KeywordData.md)
+> **`optional`** **keyword\_data**: [`KeywordData`](KeywordData.md)
 
 keyword data for the returned keyword
 
 #### Implementation of
 
-[IDataforseoLabsDomainIntersectionLiveItem](../interfaces/IDataforseoLabsDomainIntersectionLiveItem.md).[keyword_data](../interfaces/IDataforseoLabsDomainIntersectionLiveItem.md#keyword_data)
+[`IDataforseoLabsDomainIntersectionLiveItem`](../interfaces/IDataforseoLabsDomainIntersectionLiveItem.md).[`keyword_data`](../interfaces/IDataforseoLabsDomainIntersectionLiveItem.md#keyword_data)
 
-#### Defined in
+#### Source
 
-main.ts:91413
+main.ts:91421
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IDataforseoLabsDomainIntersectionLiveItem](../interfaces/IDataforseoLabsDomainIntersectionLiveItem.md).[se_type](../interfaces/IDataforseoLabsDomainIntersectionLiveItem.md#se_type)
+[`IDataforseoLabsDomainIntersectionLiveItem`](../interfaces/IDataforseoLabsDomainIntersectionLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsDomainIntersectionLiveItem.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:91411
+main.ts:91419
 
-___
+***
 
-### second\_domain\_serp\_element
+### second\_domain\_serp\_element?
 
-• `Optional` **second\_domain\_serp\_element**: [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
+> **`optional`** **second\_domain\_serp\_element**: [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
 
 contains data on the second domain’s SERP element found for the returned keyword
 the list of supported SERP elements can be found below
 
 #### Implementation of
 
-[IDataforseoLabsDomainIntersectionLiveItem](../interfaces/IDataforseoLabsDomainIntersectionLiveItem.md).[second_domain_serp_element](../interfaces/IDataforseoLabsDomainIntersectionLiveItem.md#second_domain_serp_element)
+[`IDataforseoLabsDomainIntersectionLiveItem`](../interfaces/IDataforseoLabsDomainIntersectionLiveItem.md).[`second_domain_serp_element`](../interfaces/IDataforseoLabsDomainIntersectionLiveItem.md#second_domain_serp_element)
 
-#### Defined in
+#### Source
 
-main.ts:91419
+main.ts:91427
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:91432
+main.ts:91440
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:91452
+main.ts:91460
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsDomainIntersectionLiveItem`](DataforseoLabsDomainIntersectionLiveItem.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsDomainIntersectionLiveItem`](DataforseoLabsDomainIntersectionLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsDomainIntersectionLiveItem`](DataforseoLabsDomainIntersectionLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:91445
+main.ts:91453

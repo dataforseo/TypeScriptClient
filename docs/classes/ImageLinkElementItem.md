@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ImageLinkElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ImageLinkElementItem
 
 # Class: ImageLinkElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md)
-
-  ↳ **`ImageLinkElementItem`**
 
 ## Implements
 
@@ -14,52 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ImageLinkElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](ImageLinkElementItem.md#_discriminator)
-- [direction](ImageLinkElementItem.md#direction)
-- [dofollow](ImageLinkElementItem.md#dofollow)
-- [domain\_from](ImageLinkElementItem.md#domain_from)
-- [domain\_to](ImageLinkElementItem.md#domain_to)
-- [image\_alt](ImageLinkElementItem.md#image_alt)
-- [image\_src](ImageLinkElementItem.md#image_src)
-- [is\_broken](ImageLinkElementItem.md#is_broken)
-- [is\_link\_relation\_conflict](ImageLinkElementItem.md#is_link_relation_conflict)
-- [link\_attribute](ImageLinkElementItem.md#link_attribute)
-- [link\_from](ImageLinkElementItem.md#link_from)
-- [link\_to](ImageLinkElementItem.md#link_to)
-- [page\_from](ImageLinkElementItem.md#page_from)
-- [page\_from\_scheme](ImageLinkElementItem.md#page_from_scheme)
-- [page\_to](ImageLinkElementItem.md#page_to)
-- [page\_to\_scheme](ImageLinkElementItem.md#page_to_scheme)
-- [page\_to\_status\_code](ImageLinkElementItem.md#page_to_status_code)
-- [text](ImageLinkElementItem.md#text)
-
-### Methods
-
-- [init](ImageLinkElementItem.md#init)
-- [toJSON](ImageLinkElementItem.md#tojson)
-- [fromJS](ImageLinkElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ImageLinkElementItem(data)
 
-• **new ImageLinkElementItem**(`data?`): [`ImageLinkElementItem`](ImageLinkElementItem.md)
+> **new ImageLinkElementItem**(`data`?): [`ImageLinkElementItem`](ImageLinkElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IImageLinkElementItem`](../interfaces/IImageLinkElementItem.md) |
+• **data?**: [`IImageLinkElementItem`](../interfaces/IImageLinkElementItem.md)
 
 #### Returns
 
@@ -67,165 +34,165 @@
 
 #### Overrides
 
-[BaseOnPageLinkItemInfo](BaseOnPageLinkItemInfo.md).[constructor](BaseOnPageLinkItemInfo.md#constructor)
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`constructor`](BaseOnPageLinkItemInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:153821
+main.ts:153829
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseOnPageLinkItemInfo](BaseOnPageLinkItemInfo.md).[_discriminator](BaseOnPageLinkItemInfo.md#_discriminator)
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`_discriminator`](BaseOnPageLinkItemInfo.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:20770
 
-___
+***
 
-### direction
+### direction?
 
-• `Optional` **direction**: `string`
+> **`optional`** **direction**: `string`
 
 direction of the link
 possible values: internal, external
 
 #### Implementation of
 
-[IImageLinkElementItem](../interfaces/IImageLinkElementItem.md).[direction](../interfaces/IImageLinkElementItem.md#direction)
+[`IImageLinkElementItem`](../interfaces/IImageLinkElementItem.md).[`direction`](../interfaces/IImageLinkElementItem.md#direction)
 
-#### Defined in
+#### Source
 
-main.ts:153802
+main.ts:153810
 
-___
+***
 
-### dofollow
+### dofollow?
 
-• `Optional` **dofollow**: `boolean`
+> **`optional`** **dofollow**: `boolean`
 
 indicates whether the link is dofollow
 if the value is true, the link doesn’t have a rel="nofollow" attribute
 
 #### Implementation of
 
-[IImageLinkElementItem](../interfaces/IImageLinkElementItem.md).[dofollow](../interfaces/IImageLinkElementItem.md#dofollow)
+[`IImageLinkElementItem`](../interfaces/IImageLinkElementItem.md).[`dofollow`](../interfaces/IImageLinkElementItem.md#dofollow)
 
-#### Defined in
+#### Source
 
-main.ts:153795
+main.ts:153803
 
-___
+***
 
-### domain\_from
+### domain\_from?
 
-• `Optional` **domain\_from**: `string`
+> **`optional`** **domain\_from**: `string`
 
 referring domain
 the link was found on this domain
 
 #### Implementation of
 
-[IImageLinkElementItem](../interfaces/IImageLinkElementItem.md).[domain_from](../interfaces/IImageLinkElementItem.md#domain_from)
+[`IImageLinkElementItem`](../interfaces/IImageLinkElementItem.md).[`domain_from`](../interfaces/IImageLinkElementItem.md#domain_from)
 
-#### Defined in
+#### Source
 
-main.ts:153772
+main.ts:153780
 
-___
+***
 
-### domain\_to
+### domain\_to?
 
-• `Optional` **domain\_to**: `string`
+> **`optional`** **domain\_to**: `string`
 
 referenced domain
 the link is pointing to this domain
 
 #### Implementation of
 
-[IImageLinkElementItem](../interfaces/IImageLinkElementItem.md).[domain_to](../interfaces/IImageLinkElementItem.md#domain_to)
+[`IImageLinkElementItem`](../interfaces/IImageLinkElementItem.md).[`domain_to`](../interfaces/IImageLinkElementItem.md#domain_to)
 
-#### Defined in
+#### Source
 
-main.ts:153775
+main.ts:153783
 
-___
+***
 
-### image\_alt
+### image\_alt?
 
-• `Optional` **image\_alt**: `string`
+> **`optional`** **image\_alt**: `string`
 
 alternative text for the image
 
 #### Implementation of
 
-[IImageLinkElementItem](../interfaces/IImageLinkElementItem.md).[image_alt](../interfaces/IImageLinkElementItem.md#image_alt)
+[`IImageLinkElementItem`](../interfaces/IImageLinkElementItem.md).[`image_alt`](../interfaces/IImageLinkElementItem.md#image_alt)
 
-#### Defined in
+#### Source
 
-main.ts:153809
+main.ts:153817
 
-___
+***
 
-### image\_src
+### image\_src?
 
-• `Optional` **image\_src**: `string`
+> **`optional`** **image\_src**: `string`
 
 url of the image
 
 #### Implementation of
 
-[IImageLinkElementItem](../interfaces/IImageLinkElementItem.md).[image_src](../interfaces/IImageLinkElementItem.md#image_src)
+[`IImageLinkElementItem`](../interfaces/IImageLinkElementItem.md).[`image_src`](../interfaces/IImageLinkElementItem.md#image_src)
 
-#### Defined in
+#### Source
 
-main.ts:153811
+main.ts:153819
 
-___
+***
 
-### is\_broken
+### is\_broken?
 
-• `Optional` **is\_broken**: `boolean`
+> **`optional`** **is\_broken**: `boolean`
 
 link is broken
 indicates whether a link is directing to a broken page or resource
 
 #### Implementation of
 
-[IImageLinkElementItem](../interfaces/IImageLinkElementItem.md).[is_broken](../interfaces/IImageLinkElementItem.md#is_broken)
+[`IImageLinkElementItem`](../interfaces/IImageLinkElementItem.md).[`is_broken`](../interfaces/IImageLinkElementItem.md#is_broken)
 
-#### Defined in
+#### Source
 
-main.ts:153805
+main.ts:153813
 
-___
+***
 
-### is\_link\_relation\_conflict
+### is\_link\_relation\_conflict?
 
-• `Optional` **is\_link\_relation\_conflict**: `boolean`
+> **`optional`** **is\_link\_relation\_conflict**: `boolean`
 
 indicates that the link may have a conflict with another link
 if true, at least one link pointing to link_to has a rel="nofollow" attribute and at least one is dofollow
 
 #### Implementation of
 
-[IImageLinkElementItem](../interfaces/IImageLinkElementItem.md).[is_link_relation_conflict](../interfaces/IImageLinkElementItem.md#is_link_relation_conflict)
+[`IImageLinkElementItem`](../interfaces/IImageLinkElementItem.md).[`is_link_relation_conflict`](../interfaces/IImageLinkElementItem.md#is_link_relation_conflict)
 
-#### Defined in
+#### Source
 
-main.ts:153814
+main.ts:153822
 
-___
+***
 
-### link\_attribute
+### link\_attribute?
 
-• `Optional` **link\_attribute**: `string`[]
+> **`optional`** **link\_attribute**: `string`[]
 
 link attribute added to external link
 indicates link attributes added to the link_to on the page_from
@@ -234,156 +201,154 @@ example:
 
 #### Implementation of
 
-[IImageLinkElementItem](../interfaces/IImageLinkElementItem.md).[link_attribute](../interfaces/IImageLinkElementItem.md#link_attribute)
+[`IImageLinkElementItem`](../interfaces/IImageLinkElementItem.md).[`link_attribute`](../interfaces/IImageLinkElementItem.md#link_attribute)
 
-#### Defined in
+#### Source
 
-main.ts:153792
+main.ts:153800
 
-___
+***
 
-### link\_from
+### link\_from?
 
-• `Optional` **link\_from**: `string`
+> **`optional`** **link\_from**: `string`
 
 referring page
 absolute URL of the page on which the link was found
 
 #### Implementation of
 
-[IImageLinkElementItem](../interfaces/IImageLinkElementItem.md).[link_from](../interfaces/IImageLinkElementItem.md#link_from)
+[`IImageLinkElementItem`](../interfaces/IImageLinkElementItem.md).[`link_from`](../interfaces/IImageLinkElementItem.md#link_from)
 
-#### Defined in
+#### Source
 
-main.ts:153784
+main.ts:153792
 
-___
+***
 
-### link\_to
+### link\_to?
 
-• `Optional` **link\_to**: `string`
+> **`optional`** **link\_to**: `string`
 
 referenced page
 absolute URL of the page to which the link is pointing
 
 #### Implementation of
 
-[IImageLinkElementItem](../interfaces/IImageLinkElementItem.md).[link_to](../interfaces/IImageLinkElementItem.md#link_to)
+[`IImageLinkElementItem`](../interfaces/IImageLinkElementItem.md).[`link_to`](../interfaces/IImageLinkElementItem.md#link_to)
 
-#### Defined in
+#### Source
 
-main.ts:153787
+main.ts:153795
 
-___
+***
 
-### page\_from
+### page\_from?
 
-• `Optional` **page\_from**: `string`
+> **`optional`** **page\_from**: `string`
 
 referring page
 relative URL of the page on which the link was found
 
 #### Implementation of
 
-[IImageLinkElementItem](../interfaces/IImageLinkElementItem.md).[page_from](../interfaces/IImageLinkElementItem.md#page_from)
+[`IImageLinkElementItem`](../interfaces/IImageLinkElementItem.md).[`page_from`](../interfaces/IImageLinkElementItem.md#page_from)
 
-#### Defined in
+#### Source
 
-main.ts:153778
+main.ts:153786
 
-___
+***
 
-### page\_from\_scheme
+### page\_from\_scheme?
 
-• `Optional` **page\_from\_scheme**: `string`
+> **`optional`** **page\_from\_scheme**: `string`
 
 url scheme of the referring page
 
 #### Implementation of
 
-[IImageLinkElementItem](../interfaces/IImageLinkElementItem.md).[page_from_scheme](../interfaces/IImageLinkElementItem.md#page_from_scheme)
+[`IImageLinkElementItem`](../interfaces/IImageLinkElementItem.md).[`page_from_scheme`](../interfaces/IImageLinkElementItem.md#page_from_scheme)
 
-#### Defined in
+#### Source
 
-main.ts:153797
+main.ts:153805
 
-___
+***
 
-### page\_to
+### page\_to?
 
-• `Optional` **page\_to**: `string`
+> **`optional`** **page\_to**: `string`
 
 referenced page
 relative URL of the page to which the link is pointing
 
 #### Implementation of
 
-[IImageLinkElementItem](../interfaces/IImageLinkElementItem.md).[page_to](../interfaces/IImageLinkElementItem.md#page_to)
+[`IImageLinkElementItem`](../interfaces/IImageLinkElementItem.md).[`page_to`](../interfaces/IImageLinkElementItem.md#page_to)
 
-#### Defined in
+#### Source
 
-main.ts:153781
+main.ts:153789
 
-___
+***
 
-### page\_to\_scheme
+### page\_to\_scheme?
 
-• `Optional` **page\_to\_scheme**: `string`
+> **`optional`** **page\_to\_scheme**: `string`
 
 url scheme of the referenced page
 
 #### Implementation of
 
-[IImageLinkElementItem](../interfaces/IImageLinkElementItem.md).[page_to_scheme](../interfaces/IImageLinkElementItem.md#page_to_scheme)
+[`IImageLinkElementItem`](../interfaces/IImageLinkElementItem.md).[`page_to_scheme`](../interfaces/IImageLinkElementItem.md#page_to_scheme)
 
-#### Defined in
+#### Source
 
-main.ts:153799
+main.ts:153807
 
-___
+***
 
-### page\_to\_status\_code
+### page\_to\_status\_code?
 
-• `Optional` **page\_to\_status\_code**: `number`
+> **`optional`** **page\_to\_status\_code**: `number`
 
 status code of the referenced page
 status code of the page to which the link is pointing
 
 #### Implementation of
 
-[IImageLinkElementItem](../interfaces/IImageLinkElementItem.md).[page_to_status_code](../interfaces/IImageLinkElementItem.md#page_to_status_code)
+[`IImageLinkElementItem`](../interfaces/IImageLinkElementItem.md).[`page_to_status_code`](../interfaces/IImageLinkElementItem.md#page_to_status_code)
 
-#### Defined in
+#### Source
 
-main.ts:153817
+main.ts:153825
 
-___
+***
 
-### text
+### text?
 
-• `Optional` **text**: `string`
+> **`optional`** **text**: `string`
 
 anchor text
 
 #### Implementation of
 
-[IImageLinkElementItem](../interfaces/IImageLinkElementItem.md).[text](../interfaces/IImageLinkElementItem.md#text)
+[`IImageLinkElementItem`](../interfaces/IImageLinkElementItem.md).[`text`](../interfaces/IImageLinkElementItem.md#text)
 
-#### Defined in
+#### Source
 
-main.ts:153807
+main.ts:153815
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -391,23 +356,21 @@ main.ts:153807
 
 #### Overrides
 
-[BaseOnPageLinkItemInfo](BaseOnPageLinkItemInfo.md).[init](BaseOnPageLinkItemInfo.md#init)
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`init`](BaseOnPageLinkItemInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:153826
+main.ts:153834
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -415,23 +378,21 @@ ___
 
 #### Overrides
 
-[BaseOnPageLinkItemInfo](BaseOnPageLinkItemInfo.md).[toJSON](BaseOnPageLinkItemInfo.md#tojson)
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`toJSON`](BaseOnPageLinkItemInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:153864
+main.ts:153872
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ImageLinkElementItem`](ImageLinkElementItem.md)
+> **`static`** **fromJS**(`data`): [`ImageLinkElementItem`](ImageLinkElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -439,8 +400,8 @@ ___
 
 #### Overrides
 
-[BaseOnPageLinkItemInfo](BaseOnPageLinkItemInfo.md).[fromJS](BaseOnPageLinkItemInfo.md#fromjs)
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`fromJS`](BaseOnPageLinkItemInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:153857
+main.ts:153865

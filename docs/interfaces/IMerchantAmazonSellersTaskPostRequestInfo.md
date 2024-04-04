@@ -1,37 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMerchantAmazonSellersTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IMerchantAmazonSellersTaskPostRequestInfo
 
 # Interface: IMerchantAmazonSellersTaskPostRequestInfo
 
-## Implemented by
-
-- [`MerchantAmazonSellersTaskPostRequestInfo`](../classes/MerchantAmazonSellersTaskPostRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [asin](IMerchantAmazonSellersTaskPostRequestInfo.md#asin)
-- [language\_code](IMerchantAmazonSellersTaskPostRequestInfo.md#language_code)
-- [language\_name](IMerchantAmazonSellersTaskPostRequestInfo.md#language_name)
-- [location\_code](IMerchantAmazonSellersTaskPostRequestInfo.md#location_code)
-- [location\_coordinate](IMerchantAmazonSellersTaskPostRequestInfo.md#location_coordinate)
-- [location\_name](IMerchantAmazonSellersTaskPostRequestInfo.md#location_name)
-- [pingback\_url](IMerchantAmazonSellersTaskPostRequestInfo.md#pingback_url)
-- [postback\_data](IMerchantAmazonSellersTaskPostRequestInfo.md#postback_data)
-- [postback\_url](IMerchantAmazonSellersTaskPostRequestInfo.md#postback_url)
-- [priority](IMerchantAmazonSellersTaskPostRequestInfo.md#priority)
-- [se\_domain](IMerchantAmazonSellersTaskPostRequestInfo.md#se_domain)
-- [tag](IMerchantAmazonSellersTaskPostRequestInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### asin
+### asin?
 
-• `Optional` **asin**: `string`
+> **`optional`** **asin**: `string`
 
 unique product identifier on Amazon
 required field
@@ -41,15 +24,15 @@ example:
 B085RFFC9Q
 learn more about the identifier in this help center guide
 
-#### Defined in
+#### Source
 
 main.ts:179172
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 required field if you don’t specify language_name
@@ -58,15 +41,15 @@ you can receive the list of available Amazon languages with their language_code�
 example:
 en
 
-#### Defined in
+#### Source
 
 main.ts:179217
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -75,15 +58,15 @@ you can receive the list of available Amazon languages with their language_name 
 example:
 English
 
-#### Defined in
+#### Source
 
 main.ts:179210
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 required field if you don’t specify location_name or location_coordinate
@@ -92,15 +75,15 @@ you can receive the list of available Amazon locations with their location_code 
 example:
 2840
 
-#### Defined in
+#### Source
 
 main.ts:179194
 
-___
+***
 
-### location\_coordinate
+### location\_coordinate?
 
-• `Optional` **location\_coordinate**: `string`
+> **`optional`** **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -111,15 +94,15 @@ the minimum value for “radius”: 199.9
 example:
 53.476225,-2.243572,200
 
-#### Defined in
+#### Source
 
 main.ts:179203
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code or location_coordinate
@@ -128,15 +111,15 @@ you can receive the list of available Amazon locations with their location_name 
 example:
 London,England,United Kingdom
 
-#### Defined in
+#### Source
 
 main.ts:179187
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -148,15 +131,15 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special symbols in pingback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
 main.ts:179256
 
-___
+***
 
-### postback\_data
+### postback\_data?
 
-• `Optional` **postback\_data**: `string`
+> **`optional`** **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -164,15 +147,15 @@ corresponds to the datatype that will be sent to your server
 possible values:
 advanced, html
 
-#### Defined in
+#### Source
 
 main.ts:179246
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -184,15 +167,15 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special symbols in postback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
 main.ts:179240
 
-___
+***
 
-### priority
+### priority?
 
-• `Optional` **priority**: `number`
+> **`optional`** **priority**: `number`
 
 task priority
 optional field
@@ -202,15 +185,15 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page.
 
-#### Defined in
+#### Source
 
 main.ts:179180
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain
 optional field
@@ -219,15 +202,15 @@ however, you can set a custom search engine domain in this field
 example:
 amazon.co.uk, amazon.com.au, amazon.de, etc.
 
-#### Defined in
+#### Source
 
 main.ts:179224
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -235,6 +218,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
 main.ts:179230

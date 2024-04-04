@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppRankedSerpElementInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppRankedSerpElementInfo
 
 # Class: AppRankedSerpElementInfo
 
@@ -8,71 +12,48 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppRankedSerpElementInfo.md#constructor)
-
-### Properties
-
-- [check\_url](AppRankedSerpElementInfo.md#check_url)
-- [last\_updated\_time](AppRankedSerpElementInfo.md#last_updated_time)
-- [previous\_updated\_time](AppRankedSerpElementInfo.md#previous_updated_time)
-- [se\_results\_count](AppRankedSerpElementInfo.md#se_results_count)
-- [se\_type](AppRankedSerpElementInfo.md#se_type)
-- [serp\_item](AppRankedSerpElementInfo.md#serp_item)
-
-### Methods
-
-- [init](AppRankedSerpElementInfo.md#init)
-- [toJSON](AppRankedSerpElementInfo.md#tojson)
-- [fromJS](AppRankedSerpElementInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppRankedSerpElementInfo(data)
 
-• **new AppRankedSerpElementInfo**(`data?`): [`AppRankedSerpElementInfo`](AppRankedSerpElementInfo.md)
+> **new AppRankedSerpElementInfo**(`data`?): [`AppRankedSerpElementInfo`](AppRankedSerpElementInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppRankedSerpElementInfo`](../interfaces/IAppRankedSerpElementInfo.md) |
+• **data?**: [`IAppRankedSerpElementInfo`](../interfaces/IAppRankedSerpElementInfo.md)
 
 #### Returns
 
 [`AppRankedSerpElementInfo`](AppRankedSerpElementInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:111010
+main.ts:111018
 
 ## Properties
 
-### check\_url
+### check\_url?
 
-• `Optional` **check\_url**: `string`
+> **`optional`** **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
 
 #### Implementation of
 
-[IAppRankedSerpElementInfo](../interfaces/IAppRankedSerpElementInfo.md).[check_url](../interfaces/IAppRankedSerpElementInfo.md#check_url)
+[`IAppRankedSerpElementInfo`](../interfaces/IAppRankedSerpElementInfo.md).[`check_url`](../interfaces/IAppRankedSerpElementInfo.md#check_url)
 
-#### Defined in
+#### Source
 
-main.ts:110993
+main.ts:111001
 
-___
+***
 
-### last\_updated\_time
+### last\_updated\_time?
 
-• `Optional` **last\_updated\_time**: `string`
+> **`optional`** **last\_updated\_time**: `string`
 
 date and time when SERP data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -81,17 +62,17 @@ example:
 
 #### Implementation of
 
-[IAppRankedSerpElementInfo](../interfaces/IAppRankedSerpElementInfo.md).[last_updated_time](../interfaces/IAppRankedSerpElementInfo.md#last_updated_time)
+[`IAppRankedSerpElementInfo`](../interfaces/IAppRankedSerpElementInfo.md).[`last_updated_time`](../interfaces/IAppRankedSerpElementInfo.md#last_updated_time)
 
-#### Defined in
+#### Source
 
-main.ts:111000
+main.ts:111008
 
-___
+***
 
-### previous\_updated\_time
+### previous\_updated\_time?
 
-• `Optional` **previous\_updated\_time**: `string`
+> **`optional`** **previous\_updated\_time**: `string`
 
 previous to the most recent date and time when SERP data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -101,117 +82,111 @@ in this case, will equal null
 
 #### Implementation of
 
-[IAppRankedSerpElementInfo](../interfaces/IAppRankedSerpElementInfo.md).[previous_updated_time](../interfaces/IAppRankedSerpElementInfo.md#previous_updated_time)
+[`IAppRankedSerpElementInfo`](../interfaces/IAppRankedSerpElementInfo.md).[`previous_updated_time`](../interfaces/IAppRankedSerpElementInfo.md#previous_updated_time)
 
-#### Defined in
+#### Source
 
-main.ts:111006
+main.ts:111014
 
-___
+***
 
-### se\_results\_count
+### se\_results\_count?
 
-• `Optional` **se\_results\_count**: `string`
+> **`optional`** **se\_results\_count**: `string`
 
 number of search results for the returned keyword
 
 #### Implementation of
 
-[IAppRankedSerpElementInfo](../interfaces/IAppRankedSerpElementInfo.md).[se_results_count](../interfaces/IAppRankedSerpElementInfo.md#se_results_count)
+[`IAppRankedSerpElementInfo`](../interfaces/IAppRankedSerpElementInfo.md).[`se_results_count`](../interfaces/IAppRankedSerpElementInfo.md#se_results_count)
 
-#### Defined in
+#### Source
 
-main.ts:110995
+main.ts:111003
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IAppRankedSerpElementInfo](../interfaces/IAppRankedSerpElementInfo.md).[se_type](../interfaces/IAppRankedSerpElementInfo.md#se_type)
+[`IAppRankedSerpElementInfo`](../interfaces/IAppRankedSerpElementInfo.md).[`se_type`](../interfaces/IAppRankedSerpElementInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:110987
+main.ts:110995
 
-___
+***
 
-### serp\_item
+### serp\_item?
 
-• `Optional` **serp\_item**: [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)
+> **`optional`** **serp\_item**: [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)
 
 contains data on the SERP element
 the list of supported SERP elements can be found below
 
 #### Implementation of
 
-[IAppRankedSerpElementInfo](../interfaces/IAppRankedSerpElementInfo.md).[serp_item](../interfaces/IAppRankedSerpElementInfo.md#serp_item)
+[`IAppRankedSerpElementInfo`](../interfaces/IAppRankedSerpElementInfo.md).[`serp_item`](../interfaces/IAppRankedSerpElementInfo.md#serp_item)
 
-#### Defined in
+#### Source
 
-main.ts:110990
+main.ts:110998
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:111019
+main.ts:111027
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:111041
+main.ts:111049
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppRankedSerpElementInfo`](AppRankedSerpElementInfo.md)
+> **`static`** **fromJS**(`data`): [`AppRankedSerpElementInfo`](AppRankedSerpElementInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppRankedSerpElementInfo`](AppRankedSerpElementInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:111034
+main.ts:111042

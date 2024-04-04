@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksDomainPagesSummaryLiveResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BacklinksDomainPagesSummaryLiveResponseInfo
 
 # Class: BacklinksDomainPagesSummaryLiveResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`BacklinksDomainPagesSummaryLiveResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BacklinksDomainPagesSummaryLiveResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](BacklinksDomainPagesSummaryLiveResponseInfo.md#cost)
-- [status\_code](BacklinksDomainPagesSummaryLiveResponseInfo.md#status_code)
-- [status\_message](BacklinksDomainPagesSummaryLiveResponseInfo.md#status_message)
-- [tasks](BacklinksDomainPagesSummaryLiveResponseInfo.md#tasks)
-- [tasks\_count](BacklinksDomainPagesSummaryLiveResponseInfo.md#tasks_count)
-- [tasks\_error](BacklinksDomainPagesSummaryLiveResponseInfo.md#tasks_error)
-- [time](BacklinksDomainPagesSummaryLiveResponseInfo.md#time)
-- [version](BacklinksDomainPagesSummaryLiveResponseInfo.md#version)
-
-### Methods
-
-- [init](BacklinksDomainPagesSummaryLiveResponseInfo.md#init)
-- [toJSON](BacklinksDomainPagesSummaryLiveResponseInfo.md#tojson)
-- [fromJS](BacklinksDomainPagesSummaryLiveResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BacklinksDomainPagesSummaryLiveResponseInfo(data)
 
-• **new BacklinksDomainPagesSummaryLiveResponseInfo**(`data?`): [`BacklinksDomainPagesSummaryLiveResponseInfo`](BacklinksDomainPagesSummaryLiveResponseInfo.md)
+> **new BacklinksDomainPagesSummaryLiveResponseInfo**(`data`?): [`BacklinksDomainPagesSummaryLiveResponseInfo`](BacklinksDomainPagesSummaryLiveResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBacklinksDomainPagesSummaryLiveResponseInfo`](../interfaces/IBacklinksDomainPagesSummaryLiveResponseInfo.md) |
+• **data?**: [`IBacklinksDomainPagesSummaryLiveResponseInfo`](../interfaces/IBacklinksDomainPagesSummaryLiveResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:139729
+main.ts:139737
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IBacklinksDomainPagesSummaryLiveResponseInfo](../interfaces/IBacklinksDomainPagesSummaryLiveResponseInfo.md).[cost](../interfaces/IBacklinksDomainPagesSummaryLiveResponseInfo.md#cost)
+[`IBacklinksDomainPagesSummaryLiveResponseInfo`](../interfaces/IBacklinksDomainPagesSummaryLiveResponseInfo.md).[`cost`](../interfaces/IBacklinksDomainPagesSummaryLiveResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[IBacklinksDomainPagesSummaryLiveResponseInfo](../interfaces/IBacklinksDomainPagesSummaryLiveResponseInfo.md).[status_code](../interfaces/IBacklinksDomainPagesSummaryLiveResponseInfo.md#status_code)
+[`IBacklinksDomainPagesSummaryLiveResponseInfo`](../interfaces/IBacklinksDomainPagesSummaryLiveResponseInfo.md).[`status_code`](../interfaces/IBacklinksDomainPagesSummaryLiveResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IBacklinksDomainPagesSummaryLiveResponseInfo](../interfaces/IBacklinksDomainPagesSummaryLiveResponseInfo.md).[status_message](../interfaces/IBacklinksDomainPagesSummaryLiveResponseInfo.md#status_message)
+[`IBacklinksDomainPagesSummaryLiveResponseInfo`](../interfaces/IBacklinksDomainPagesSummaryLiveResponseInfo.md).[`status_message`](../interfaces/IBacklinksDomainPagesSummaryLiveResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`BacklinksDomainPagesSummaryLiveTaskInfo`](BacklinksDomainPagesSummaryLiveTaskInfo.md)[]
+> **`optional`** **tasks**: [`BacklinksDomainPagesSummaryLiveTaskInfo`](BacklinksDomainPagesSummaryLiveTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[IBacklinksDomainPagesSummaryLiveResponseInfo](../interfaces/IBacklinksDomainPagesSummaryLiveResponseInfo.md).[tasks](../interfaces/IBacklinksDomainPagesSummaryLiveResponseInfo.md#tasks)
+[`IBacklinksDomainPagesSummaryLiveResponseInfo`](../interfaces/IBacklinksDomainPagesSummaryLiveResponseInfo.md).[`tasks`](../interfaces/IBacklinksDomainPagesSummaryLiveResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:139725
+main.ts:139733
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[IBacklinksDomainPagesSummaryLiveResponseInfo](../interfaces/IBacklinksDomainPagesSummaryLiveResponseInfo.md).[tasks_count](../interfaces/IBacklinksDomainPagesSummaryLiveResponseInfo.md#tasks_count)
+[`IBacklinksDomainPagesSummaryLiveResponseInfo`](../interfaces/IBacklinksDomainPagesSummaryLiveResponseInfo.md).[`tasks_count`](../interfaces/IBacklinksDomainPagesSummaryLiveResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[IBacklinksDomainPagesSummaryLiveResponseInfo](../interfaces/IBacklinksDomainPagesSummaryLiveResponseInfo.md).[tasks_error](../interfaces/IBacklinksDomainPagesSummaryLiveResponseInfo.md#tasks_error)
+[`IBacklinksDomainPagesSummaryLiveResponseInfo`](../interfaces/IBacklinksDomainPagesSummaryLiveResponseInfo.md).[`tasks_error`](../interfaces/IBacklinksDomainPagesSummaryLiveResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[IBacklinksDomainPagesSummaryLiveResponseInfo](../interfaces/IBacklinksDomainPagesSummaryLiveResponseInfo.md).[time](../interfaces/IBacklinksDomainPagesSummaryLiveResponseInfo.md#time)
+[`IBacklinksDomainPagesSummaryLiveResponseInfo`](../interfaces/IBacklinksDomainPagesSummaryLiveResponseInfo.md).[`time`](../interfaces/IBacklinksDomainPagesSummaryLiveResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[IBacklinksDomainPagesSummaryLiveResponseInfo](../interfaces/IBacklinksDomainPagesSummaryLiveResponseInfo.md).[version](../interfaces/IBacklinksDomainPagesSummaryLiveResponseInfo.md#version)
+[`IBacklinksDomainPagesSummaryLiveResponseInfo`](../interfaces/IBacklinksDomainPagesSummaryLiveResponseInfo.md).[`version`](../interfaces/IBacklinksDomainPagesSummaryLiveResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:139733
+main.ts:139741
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:139755
+main.ts:139763
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BacklinksDomainPagesSummaryLiveResponseInfo`](BacklinksDomainPagesSummaryLiveResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`BacklinksDomainPagesSummaryLiveResponseInfo`](BacklinksDomainPagesSummaryLiveResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:139748
+main.ts:139756

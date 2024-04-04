@@ -1,144 +1,128 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IGoogleReviewsDataforseoLabsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IGoogleReviewsDataforseoLabsSerpElementItem
 
 # Interface: IGoogleReviewsDataforseoLabsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md)
 
-  ↳ **`IGoogleReviewsDataforseoLabsSerpElementItem`**
-
-## Implemented by
-
-- [`GoogleReviewsDataforseoLabsSerpElementItem`](../classes/GoogleReviewsDataforseoLabsSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [cid](IGoogleReviewsDataforseoLabsSerpElementItem.md#cid)
-- [feature](IGoogleReviewsDataforseoLabsSerpElementItem.md#feature)
-- [place\_id](IGoogleReviewsDataforseoLabsSerpElementItem.md#place_id)
-- [position](IGoogleReviewsDataforseoLabsSerpElementItem.md#position)
-- [rank\_absolute](IGoogleReviewsDataforseoLabsSerpElementItem.md#rank_absolute)
-- [rank\_group](IGoogleReviewsDataforseoLabsSerpElementItem.md#rank_group)
-- [rating](IGoogleReviewsDataforseoLabsSerpElementItem.md#rating)
-- [reviews\_count](IGoogleReviewsDataforseoLabsSerpElementItem.md#reviews_count)
-- [xpath](IGoogleReviewsDataforseoLabsSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### cid
+### cid?
 
-• `Optional` **cid**: `string`
+> **`optional`** **cid**: `string`
 
 google-defined client id
 
-#### Defined in
+#### Source
 
-main.ts:96731
+main.ts:96739
 
-___
+***
 
-### feature
+### feature?
 
-• `Optional` **feature**: `string`
+> **`optional`** **feature**: `string`
 
 the additional feature of the review
 
-#### Defined in
+#### Source
 
-main.ts:96729
+main.ts:96737
 
-___
+***
 
-### place\_id
+### place\_id?
 
-• `Optional` **place\_id**: `string`
+> **`optional`** **place\_id**: `string`
 
 the identifier of a place
 
-#### Defined in
+#### Source
 
-main.ts:96727
+main.ts:96735
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
-main.ts:96718
+main.ts:96726
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Defined in
+#### Source
 
-main.ts:96714
+main.ts:96722
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
-main.ts:96711
+main.ts:96719
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
-#### Defined in
+#### Source
 
-main.ts:96725
+main.ts:96733
 
-___
+***
 
-### reviews\_count
+### reviews\_count?
 
-• `Optional` **reviews\_count**: `number`
+> **`optional`** **reviews\_count**: `number`
 
 the number of reviews
 
-#### Defined in
+#### Source
 
-main.ts:96722
+main.ts:96730
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
-main.ts:96720
+main.ts:96728

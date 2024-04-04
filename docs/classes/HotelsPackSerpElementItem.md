@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / HotelsPackSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / HotelsPackSerpElementItem
 
 # Class: HotelsPackSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-  ↳ **`HotelsPackSerpElementItem`**
 
 ## Implements
 
@@ -14,44 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](HotelsPackSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](HotelsPackSerpElementItem.md#_discriminator)
-- [date\_from](HotelsPackSerpElementItem.md#date_from)
-- [date\_to](HotelsPackSerpElementItem.md#date_to)
-- [items](HotelsPackSerpElementItem.md#items)
-- [position](HotelsPackSerpElementItem.md#position)
-- [rank\_absolute](HotelsPackSerpElementItem.md#rank_absolute)
-- [rank\_group](HotelsPackSerpElementItem.md#rank_group)
-- [rectangle](HotelsPackSerpElementItem.md#rectangle)
-- [title](HotelsPackSerpElementItem.md#title)
-- [xpath](HotelsPackSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](HotelsPackSerpElementItem.md#init)
-- [toJSON](HotelsPackSerpElementItem.md#tojson)
-- [fromJS](HotelsPackSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new HotelsPackSerpElementItem(data)
 
-• **new HotelsPackSerpElementItem**(`data?`): [`HotelsPackSerpElementItem`](HotelsPackSerpElementItem.md)
+> **new HotelsPackSerpElementItem**(`data`?): [`HotelsPackSerpElementItem`](HotelsPackSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IHotelsPackSerpElementItem`](../interfaces/IHotelsPackSerpElementItem.md) |
+• **data?**: [`IHotelsPackSerpElementItem`](../interfaces/IHotelsPackSerpElementItem.md)
 
 #### Returns
 
@@ -59,31 +34,31 @@
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[constructor](BaseSerpElementItem.md#constructor)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:34019
+main.ts:34025
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[_discriminator](BaseSerpElementItem.md#_discriminator)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:19788
 
-___
+***
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of stay
 in the format “year-month-date”
@@ -92,17 +67,17 @@ example:
 
 #### Implementation of
 
-[IHotelsPackSerpElementItem](../interfaces/IHotelsPackSerpElementItem.md).[date_from](../interfaces/IHotelsPackSerpElementItem.md#date_from)
+[`IHotelsPackSerpElementItem`](../interfaces/IHotelsPackSerpElementItem.md).[`date_from`](../interfaces/IHotelsPackSerpElementItem.md#date_from)
 
-#### Defined in
+#### Source
 
-main.ts:34003
+main.ts:34009
 
-___
+***
 
-### date\_to
+### date\_to?
 
-• `Optional` **date\_to**: `string`
+> **`optional`** **date\_to**: `string`
 
 ending date of stay
 in the format “year-month-date”
@@ -111,34 +86,34 @@ example:
 
 #### Implementation of
 
-[IHotelsPackSerpElementItem](../interfaces/IHotelsPackSerpElementItem.md).[date_to](../interfaces/IHotelsPackSerpElementItem.md#date_to)
+[`IHotelsPackSerpElementItem`](../interfaces/IHotelsPackSerpElementItem.md).[`date_to`](../interfaces/IHotelsPackSerpElementItem.md#date_to)
 
-#### Defined in
+#### Source
 
-main.ts:34008
+main.ts:34014
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`HotelsPackElement`](HotelsPackElement.md)[]
+> **`optional`** **items**: [`HotelsPackElement`](HotelsPackElement.md)[]
 
 additional items present in the element
 if there are none, equals null
 
 #### Implementation of
 
-[IHotelsPackSerpElementItem](../interfaces/IHotelsPackSerpElementItem.md).[items](../interfaces/IHotelsPackSerpElementItem.md#items)
+[`IHotelsPackSerpElementItem`](../interfaces/IHotelsPackSerpElementItem.md).[`items`](../interfaces/IHotelsPackSerpElementItem.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:34011
+main.ts:34017
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -146,17 +121,17 @@ left, right
 
 #### Implementation of
 
-[IHotelsPackSerpElementItem](../interfaces/IHotelsPackSerpElementItem.md).[position](../interfaces/IHotelsPackSerpElementItem.md#position)
+[`IHotelsPackSerpElementItem`](../interfaces/IHotelsPackSerpElementItem.md).[`position`](../interfaces/IHotelsPackSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
-main.ts:33994
+main.ts:34000
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -164,17 +139,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IHotelsPackSerpElementItem](../interfaces/IHotelsPackSerpElementItem.md).[rank_absolute](../interfaces/IHotelsPackSerpElementItem.md#rank_absolute)
+[`IHotelsPackSerpElementItem`](../interfaces/IHotelsPackSerpElementItem.md).[`rank_absolute`](../interfaces/IHotelsPackSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:33990
+main.ts:33996
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
@@ -183,17 +158,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IHotelsPackSerpElementItem](../interfaces/IHotelsPackSerpElementItem.md).[rank_group](../interfaces/IHotelsPackSerpElementItem.md#rank_group)
+[`IHotelsPackSerpElementItem`](../interfaces/IHotelsPackSerpElementItem.md).[`rank_group`](../interfaces/IHotelsPackSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
-main.ts:33986
+main.ts:33992
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -201,55 +176,53 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Implementation of
 
-[IHotelsPackSerpElementItem](../interfaces/IHotelsPackSerpElementItem.md).[rectangle](../interfaces/IHotelsPackSerpElementItem.md#rectangle)
+[`IHotelsPackSerpElementItem`](../interfaces/IHotelsPackSerpElementItem.md).[`rectangle`](../interfaces/IHotelsPackSerpElementItem.md#rectangle)
 
-#### Defined in
+#### Source
 
-main.ts:34015
+main.ts:34021
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the row
 
 #### Implementation of
 
-[IHotelsPackSerpElementItem](../interfaces/IHotelsPackSerpElementItem.md).[title](../interfaces/IHotelsPackSerpElementItem.md#title)
+[`IHotelsPackSerpElementItem`](../interfaces/IHotelsPackSerpElementItem.md).[`title`](../interfaces/IHotelsPackSerpElementItem.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:33998
+main.ts:34004
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IHotelsPackSerpElementItem](../interfaces/IHotelsPackSerpElementItem.md).[xpath](../interfaces/IHotelsPackSerpElementItem.md#xpath)
+[`IHotelsPackSerpElementItem`](../interfaces/IHotelsPackSerpElementItem.md).[`xpath`](../interfaces/IHotelsPackSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
-main.ts:33996
+main.ts:34002
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -257,23 +230,21 @@ main.ts:33996
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[init](BaseSerpElementItem.md#init)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:34024
+main.ts:34030
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -281,23 +252,21 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[toJSON](BaseSerpElementItem.md#tojson)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:34054
+main.ts:34060
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`HotelsPackSerpElementItem`](HotelsPackSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`HotelsPackSerpElementItem`](HotelsPackSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -305,8 +274,8 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[fromJS](BaseSerpElementItem.md#fromjs)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:34047
+main.ts:34053

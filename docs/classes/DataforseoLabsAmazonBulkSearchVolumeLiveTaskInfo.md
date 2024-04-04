@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo
 
 # Class: DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md#cost)
-- [data](DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md#data)
-- [id](DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md#id)
-- [path](DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md#path)
-- [result](DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md#result)
-- [result\_count](DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md#result_count)
-- [status\_code](DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md#status_code)
-- [status\_message](DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md#status_message)
-- [time](DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md#time)
-
-### Methods
-
-- [init](DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md#init)
-- [toJSON](DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md#tojson)
-- [fromJS](DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo(data)
 
-• **new DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo**(`data?`): [`DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo`](DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md)
+> **new DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo**(`data`?): [`DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo`](DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md) |
+• **data?**: [`IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:101337
+main.ts:101345
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md).[cost](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md#cost)
+[`IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md).[`cost`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md).[data](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md#data)
+[`IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md).[`data`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md).[id](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md#id)
+[`IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md).[`id`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md).[path](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md#path)
+[`IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md).[`path`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo`](DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo.md)[]
+> **`optional`** **result**: [`DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo`](DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md).[result](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md#result)
+[`IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md).[`result`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:101333
+main.ts:101341
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md).[result_count](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md#result_count)
+[`IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md).[`result_count`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md).[status_code](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md#status_code)
+[`IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md).[`status_code`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md).[status_message](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md#status_message)
+[`IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md).[`status_message`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md).[time](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md#time)
+[`IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md).[`time`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:101341
+main.ts:101349
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:101363
+main.ts:101371
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo`](DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo`](DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:101356
+main.ts:101364

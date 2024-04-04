@@ -1,41 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGooglePageIntersectionLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsGooglePageIntersectionLiveRequestInfo
 
 # Interface: IDataforseoLabsGooglePageIntersectionLiveRequestInfo
 
-## Implemented by
-
-- [`DataforseoLabsGooglePageIntersectionLiveRequestInfo`](../classes/DataforseoLabsGooglePageIntersectionLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [exclude\_pages](IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#exclude_pages)
-- [filters](IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#filters)
-- [ignore\_synonyms](IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#ignore_synonyms)
-- [include\_serp\_info](IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#include_serp_info)
-- [include\_subdomains](IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#include_subdomains)
-- [intersection\_mode](IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#intersection_mode)
-- [item\_types](IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#item_types)
-- [language\_code](IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#language_code)
-- [language\_name](IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#language_name)
-- [limit](IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#limit)
-- [location\_code](IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#location_code)
-- [location\_name](IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#location_name)
-- [offset](IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#offset)
-- [order\_by](IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#order_by)
-- [pages](IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#pages)
-- [tag](IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### exclude\_pages
+### exclude\_pages?
 
-• `Optional` **exclude\_pages**: `string`[]
+> **`optional`** **exclude\_pages**: `string`[]
 
 URLs of pages you want to exclude
 optional field
@@ -50,22 +29,22 @@ example:
 "https://www.microsoft.com/en-us/industry/services/"
 ]
 
-#### Defined in
+#### Source
 
-main.ts:99395
+main.ts:99403
 
-___
+***
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, <=, >, >=, =, <>, in, not_in, like, not_like
+regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 note that if you want to filter by any field in the intersection_result array you need to specify the number of corresponding page
 for instance, if you want to filter results by the ranking of the first specified URL, you should set the following filter:
@@ -73,67 +52,67 @@ for instance, if you want to filter results by the ranking of the first specifie
 if you want to filter results and receive only organic listings for the third specified URL, you should set the following filter:
 [intersection_result.3.type,"=","organic"] , etc.example:
 ["keyword_data.keyword_info.search_volume","in",[100,1000]]
-[["intersection_result.1.etv",">",0],"and",["intersection_result.1.description","like","%goat%"]][["keyword_data.keyword_info.search_volume",">",100],
+[["intersection_result.1.etv",">`",0],"and",["intersection_result.1.description","like","%goat%"]][["keyword_data.keyword_info.search_volume",">",100],
 "and",
 [["intersection_result.2.description","like","%goat%"],
 "or",
 ["intersection_result.2.type","=","organic"]]]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide
 
-#### Defined in
+#### Source
 
-main.ts:99488
+main.ts:99496
 
-___
+***
 
-### ignore\_synonyms
+### ignore\_synonyms?
 
-• `Optional` **ignore\_synonyms**: `boolean`
+> **`optional`** **ignore\_synonyms**: `boolean`
 
 ignore highly similar keywords
 optional field
 if set to true only core keywords will be returned, all highly similar keywords will be excluded;
 default value: false
 
-#### Defined in
+#### Source
 
-main.ts:99468
+main.ts:99476
 
-___
+***
 
-### include\_serp\_info
+### include\_serp\_info?
 
-• `Optional` **include\_serp\_info**: `boolean`
+> **`optional`** **include\_serp\_info**: `boolean`
 
 include data from SERP for each keyword
 optional field
 if set to true, we will return a serp_info array containing SERP data (number of search results, relevant URL, and SERP features) for every keyword in the response
 default value: false
 
-#### Defined in
+#### Source
 
-main.ts:99463
+main.ts:99471
 
-___
+***
 
-### include\_subdomains
+### include\_subdomains?
 
-• `Optional` **include\_subdomains**: `boolean`
+> **`optional`** **include\_subdomains**: `boolean`
 
 indicates if the subdomains will be included in the search
 optional field
 if set to false, the subdomains will be ignored
 default value: true
 
-#### Defined in
+#### Source
 
-main.ts:99450
+main.ts:99458
 
-___
+***
 
-### intersection\_mode
+### intersection\_mode?
 
-• `Optional` **intersection\_mode**: `string`
+> **`optional`** **intersection\_mode**: `string`
 
 indicates whether to intersect keywords
 optional field
@@ -143,15 +122,15 @@ union – results are based on all keywords any URL from pages rank for;
 intersect – results are based on the keywords all URLs from pages rank for in the same SERP:
 by default, results are based on the intersect mode if you specify only pages array. If you specify exclude_pages as well, results are based on the union mode
 
-#### Defined in
+#### Source
 
-main.ts:99458
+main.ts:99466
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 search results type
 indicates type of search results included in the response
@@ -161,15 +140,15 @@ possible values:
 default value:
 ["organic", "paid", "featured_snippet", "local_pack"]
 
-#### Defined in
+#### Source
 
-main.ts:99435
+main.ts:99443
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 required field if you don’t specify language_name
@@ -179,15 +158,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:99427
+main.ts:99435
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -197,30 +176,30 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:99419
+main.ts:99427
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned keywords
 optional field
 default value: 100
 maximum value: 1000
 
-#### Defined in
+#### Source
 
-main.ts:99440
+main.ts:99448
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 required field if you don’t specify location_name
@@ -230,15 +209,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:99411
+main.ts:99419
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code
@@ -248,30 +227,30 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 United Kingdom
 
-#### Defined in
+#### Source
 
-main.ts:99403
+main.ts:99411
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the items array of returned keywords
 optional field
 default value: 0
 if you specify 10 here, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords
 
-#### Defined in
+#### Source
 
-main.ts:99445
+main.ts:99453
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -289,26 +268,26 @@ you should use a comma to separate several sorting rules
 example:
 ["intersection_result.1.rank_group,asc","intersection_result.2.rank_absolute,asc"]
 
-#### Defined in
+#### Source
 
-main.ts:99504
+main.ts:99512
 
-___
+***
 
-### pages
+### pages?
 
-• `Optional` **pages**: `Object`
+> **`optional`** **pages**: `Object`
 
 target URLs of pages
 required field
 you can set up to 20 pages in this object
 the pages should be specified with absolute URLs (including http:// or https://)
 example:
-"pages": {
+"pages": \{
 "1":"https://www.apple.com/mac/*",
 "2":"https://dataforseo.com/*",
 "3":"https://support.microsoft.com/"
-}if you specify a single page here, we will return results only for this page;
+\}if you specify a single page here, we will return results only for this page;
 you can also use a wildcard (‘*’) character to specify the search pattern
 example:
 "example.com"
@@ -322,17 +301,17 @@ Note: this endpoint will not provide results if the number of intersecting keywo
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
-#### Defined in
+#### Source
 
-main.ts:99382
+main.ts:99390
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -340,6 +319,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:99510
+main.ts:99518

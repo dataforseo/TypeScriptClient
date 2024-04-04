@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataErrorsResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppDataErrorsResultInfo
 
 # Class: AppDataErrorsResultInfo
 
@@ -8,58 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppDataErrorsResultInfo.md#constructor)
-
-### Properties
-
-- [datetime](AppDataErrorsResultInfo.md#datetime)
-- [error\_code](AppDataErrorsResultInfo.md#error_code)
-- [error\_message](AppDataErrorsResultInfo.md#error_message)
-- [function](AppDataErrorsResultInfo.md#function)
-- [http\_code](AppDataErrorsResultInfo.md#http_code)
-- [http\_method](AppDataErrorsResultInfo.md#http_method)
-- [http\_response](AppDataErrorsResultInfo.md#http_response)
-- [http\_time](AppDataErrorsResultInfo.md#http_time)
-- [http\_url](AppDataErrorsResultInfo.md#http_url)
-- [id](AppDataErrorsResultInfo.md#id)
-
-### Methods
-
-- [init](AppDataErrorsResultInfo.md#init)
-- [toJSON](AppDataErrorsResultInfo.md#tojson)
-- [fromJS](AppDataErrorsResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppDataErrorsResultInfo(data)
 
-• **new AppDataErrorsResultInfo**(`data?`): [`AppDataErrorsResultInfo`](AppDataErrorsResultInfo.md)
+> **new AppDataErrorsResultInfo**(`data`?): [`AppDataErrorsResultInfo`](AppDataErrorsResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppDataErrorsResultInfo`](../interfaces/IAppDataErrorsResultInfo.md) |
+• **data?**: [`IAppDataErrorsResultInfo`](../interfaces/IAppDataErrorsResultInfo.md)
 
 #### Returns
 
 [`AppDataErrorsResultInfo`](AppDataErrorsResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:182222
 
 ## Properties
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when an error occurred
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -68,216 +45,210 @@ example:
 
 #### Implementation of
 
-[IAppDataErrorsResultInfo](../interfaces/IAppDataErrorsResultInfo.md).[datetime](../interfaces/IAppDataErrorsResultInfo.md#datetime)
+[`IAppDataErrorsResultInfo`](../interfaces/IAppDataErrorsResultInfo.md).[`datetime`](../interfaces/IAppDataErrorsResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
 main.ts:182198
 
-___
+***
 
-### error\_code
+### error\_code?
 
-• `Optional` **error\_code**: `number`
+> **`optional`** **error\_code**: `number`
 
 error code
 
 #### Implementation of
 
-[IAppDataErrorsResultInfo](../interfaces/IAppDataErrorsResultInfo.md).[error_code](../interfaces/IAppDataErrorsResultInfo.md#error_code)
+[`IAppDataErrorsResultInfo`](../interfaces/IAppDataErrorsResultInfo.md).[`error_code`](../interfaces/IAppDataErrorsResultInfo.md#error_code)
 
-#### Defined in
+#### Source
 
 main.ts:182202
 
-___
+***
 
-### error\_message
+### error\_message?
 
-• `Optional` **error\_message**: `string`
+> **`optional`** **error\_message**: `string`
 
 error message or error URL
 error message (see full list) or URL that caused an error
 
 #### Implementation of
 
-[IAppDataErrorsResultInfo](../interfaces/IAppDataErrorsResultInfo.md).[error_message](../interfaces/IAppDataErrorsResultInfo.md#error_message)
+[`IAppDataErrorsResultInfo`](../interfaces/IAppDataErrorsResultInfo.md).[`error_message`](../interfaces/IAppDataErrorsResultInfo.md#error_message)
 
-#### Defined in
+#### Source
 
 main.ts:182205
 
-___
+***
 
-### function
+### function?
 
-• `Optional` **function**: `string`
+> **`optional`** **function**: `string`
 
 corresponding API function
 
 #### Implementation of
 
-[IAppDataErrorsResultInfo](../interfaces/IAppDataErrorsResultInfo.md).[function](../interfaces/IAppDataErrorsResultInfo.md#function)
+[`IAppDataErrorsResultInfo`](../interfaces/IAppDataErrorsResultInfo.md).[`function`](../interfaces/IAppDataErrorsResultInfo.md#function)
 
-#### Defined in
+#### Source
 
 main.ts:182200
 
-___
+***
 
-### http\_code
+### http\_code?
 
-• `Optional` **http\_code**: `number`
+> **`optional`** **http\_code**: `number`
 
 HTTP status code
 
 #### Implementation of
 
-[IAppDataErrorsResultInfo](../interfaces/IAppDataErrorsResultInfo.md).[http_code](../interfaces/IAppDataErrorsResultInfo.md#http_code)
+[`IAppDataErrorsResultInfo`](../interfaces/IAppDataErrorsResultInfo.md).[`http_code`](../interfaces/IAppDataErrorsResultInfo.md#http_code)
 
-#### Defined in
+#### Source
 
 main.ts:182212
 
-___
+***
 
-### http\_method
+### http\_method?
 
-• `Optional` **http\_method**: `string`
+> **`optional`** **http\_method**: `string`
 
 HTTP method
 
 #### Implementation of
 
-[IAppDataErrorsResultInfo](../interfaces/IAppDataErrorsResultInfo.md).[http_method](../interfaces/IAppDataErrorsResultInfo.md#http_method)
+[`IAppDataErrorsResultInfo`](../interfaces/IAppDataErrorsResultInfo.md).[`http_method`](../interfaces/IAppDataErrorsResultInfo.md#http_method)
 
-#### Defined in
+#### Source
 
 main.ts:182210
 
-___
+***
 
-### http\_response
+### http\_response?
 
-• `Optional` **http\_response**: `string`
+> **`optional`** **http\_response**: `string`
 
 HTTP response
 server response
 
 #### Implementation of
 
-[IAppDataErrorsResultInfo](../interfaces/IAppDataErrorsResultInfo.md).[http_response](../interfaces/IAppDataErrorsResultInfo.md#http_response)
+[`IAppDataErrorsResultInfo`](../interfaces/IAppDataErrorsResultInfo.md).[`http_response`](../interfaces/IAppDataErrorsResultInfo.md#http_response)
 
-#### Defined in
+#### Source
 
 main.ts:182218
 
-___
+***
 
-### http\_time
+### http\_time?
 
-• `Optional` **http\_time**: `number`
+> **`optional`** **http\_time**: `number`
 
 time taken by HTTP request
 for tasks set with a pingback/postback, this field will show the time it took your server to respond
 
 #### Implementation of
 
-[IAppDataErrorsResultInfo](../interfaces/IAppDataErrorsResultInfo.md).[http_time](../interfaces/IAppDataErrorsResultInfo.md#http_time)
+[`IAppDataErrorsResultInfo`](../interfaces/IAppDataErrorsResultInfo.md).[`http_time`](../interfaces/IAppDataErrorsResultInfo.md#http_time)
 
-#### Defined in
+#### Source
 
 main.ts:182215
 
-___
+***
 
-### http\_url
+### http\_url?
 
-• `Optional` **http\_url**: `string`
+> **`optional`** **http\_url**: `string`
 
 URL that caused an error
 URL you used for making an API call or pingback/postback URL
 
 #### Implementation of
 
-[IAppDataErrorsResultInfo](../interfaces/IAppDataErrorsResultInfo.md).[http_url](../interfaces/IAppDataErrorsResultInfo.md#http_url)
+[`IAppDataErrorsResultInfo`](../interfaces/IAppDataErrorsResultInfo.md).[`http_url`](../interfaces/IAppDataErrorsResultInfo.md#http_url)
 
-#### Defined in
+#### Source
 
 main.ts:182208
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 id of the task
 
 #### Implementation of
 
-[IAppDataErrorsResultInfo](../interfaces/IAppDataErrorsResultInfo.md).[id](../interfaces/IAppDataErrorsResultInfo.md#id)
+[`IAppDataErrorsResultInfo`](../interfaces/IAppDataErrorsResultInfo.md).[`id`](../interfaces/IAppDataErrorsResultInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:182193
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:182231
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:182257
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppDataErrorsResultInfo`](AppDataErrorsResultInfo.md)
+> **`static`** **fromJS**(`data`): [`AppDataErrorsResultInfo`](AppDataErrorsResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppDataErrorsResultInfo`](AppDataErrorsResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:182250

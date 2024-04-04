@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / Groups
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / Groups
 
 # Class: Groups
 
@@ -8,67 +12,47 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](Groups.md#constructor)
-
-### Properties
-
-- [categories](Groups.md#categories)
-- [id](Groups.md#id)
-- [title](Groups.md#title)
-
-### Methods
-
-- [init](Groups.md#init)
-- [toJSON](Groups.md#tojson)
-- [fromJS](Groups.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new Groups(data)
 
-• **new Groups**(`data?`): [`Groups`](Groups.md)
+> **new Groups**(`data`?): [`Groups`](Groups.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IGroups`](../interfaces/IGroups.md) |
+• **data?**: [`IGroups`](../interfaces/IGroups.md)
 
 #### Returns
 
 [`Groups`](Groups.md)
 
-#### Defined in
+#### Source
 
-main.ts:74575
+main.ts:74583
 
 ## Properties
 
-### categories
+### categories?
 
-• `Optional` **categories**: [`TechnologyCategoryInfo`](TechnologyCategoryInfo.md)[]
+> **`optional`** **categories**: [`TechnologyCategoryInfo`](TechnologyCategoryInfo.md)[]
 
 technology categories in this group
 
 #### Implementation of
 
-[IGroups](../interfaces/IGroups.md).[categories](../interfaces/IGroups.md#categories)
+[`IGroups`](../interfaces/IGroups.md).[`categories`](../interfaces/IGroups.md#categories)
 
-#### Defined in
+#### Source
 
-main.ts:74571
+main.ts:74579
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 id of the technology group
 example:
@@ -76,84 +60,78 @@ marketing, sales
 
 #### Implementation of
 
-[IGroups](../interfaces/IGroups.md).[id](../interfaces/IGroups.md#id)
+[`IGroups`](../interfaces/IGroups.md).[`id`](../interfaces/IGroups.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:74567
+main.ts:74575
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the technology group
 
 #### Implementation of
 
-[IGroups](../interfaces/IGroups.md).[title](../interfaces/IGroups.md#title)
+[`IGroups`](../interfaces/IGroups.md).[`title`](../interfaces/IGroups.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:74569
+main.ts:74577
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:74584
+main.ts:74592
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:74607
+main.ts:74615
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`Groups`](Groups.md)
+> **`static`** **fromJS**(`data`): [`Groups`](Groups.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`Groups`](Groups.md)
 
-#### Defined in
+#### Source
 
-main.ts:74600
+main.ts:74608

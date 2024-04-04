@@ -1,110 +1,98 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ITargetInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ITargetInfo
 
 # Interface: ITargetInfo
 
-## Implemented by
-
-- [`TargetInfo`](../classes/TargetInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [cms](ITargetInfo.md#cms)
-- [country](ITargetInfo.md#country)
-- [ip\_address](ITargetInfo.md#ip_address)
-- [is\_ip](ITargetInfo.md#is_ip)
-- [platform\_type](ITargetInfo.md#platform_type)
-- [server](ITargetInfo.md#server)
-- [target\_spam\_score](ITargetInfo.md#target_spam_score)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### cms
+### cms?
 
-• `Optional` **cms**: `string`
+> **`optional`** **cms**: `string`
 
 content management system
 
-#### Defined in
+#### Source
 
-main.ts:134812
+main.ts:134820
 
-___
+***
 
-### country
+### country?
 
-• `Optional` **country**: `string`
+> **`optional`** **country**: `string`
 
 country code that the target domain is determined to belong to
 
-#### Defined in
+#### Source
 
-main.ts:134818
+main.ts:134826
 
-___
+***
 
-### ip\_address
+### ip\_address?
 
-• `Optional` **ip\_address**: `string`
+> **`optional`** **ip\_address**: `string`
 
 IP address of the target
 
-#### Defined in
+#### Source
 
-main.ts:134816
+main.ts:134824
 
-___
+***
 
-### is\_ip
+### is\_ip?
 
-• `Optional` **is\_ip**: `boolean`
+> **`optional`** **is\_ip**: `boolean`
 
 indicates if the target is IP
 if true, the domain, subdomain or webpage functions as an IP address and does not have a domain name
 
-#### Defined in
+#### Source
 
-main.ts:134821
+main.ts:134829
 
-___
+***
 
-### platform\_type
+### platform\_type?
 
-• `Optional` **platform\_type**: `string`[]
+> **`optional`** **platform\_type**: `string`[]
 
 platform type
 
-#### Defined in
+#### Source
 
-main.ts:134814
+main.ts:134822
 
-___
+***
 
-### server
+### server?
 
-• `Optional` **server**: `string`
+> **`optional`** **server**: `string`
 
 server
 
-#### Defined in
+#### Source
 
-main.ts:134810
+main.ts:134818
 
-___
+***
 
-### target\_spam\_score
+### target\_spam\_score?
 
-• `Optional` **target\_spam\_score**: `number`
+> **`optional`** **target\_spam\_score**: `number`
 
 spam score of the target
 if the target is a domain/subdomain, this fields indicates the average spam score of all pages of that domain/subdomain;
 learn more about how the metric is calculated on this help center page
 
-#### Defined in
+#### Source
 
-main.ts:134825
+main.ts:134833

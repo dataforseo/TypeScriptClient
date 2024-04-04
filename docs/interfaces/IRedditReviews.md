@@ -1,82 +1,72 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IRedditReviews
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IRedditReviews
 
 # Interface: IRedditReviews
 
-## Implemented by
-
-- [`RedditReviews`](../classes/RedditReviews.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [author\_name](IRedditReviews.md#author_name)
-- [permalink](IRedditReviews.md#permalink)
-- [subreddit](IRedditReviews.md#subreddit)
-- [subreddit\_members](IRedditReviews.md#subreddit_members)
-- [title](IRedditReviews.md#title)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### author\_name
+### author\_name?
 
-• `Optional` **author\_name**: `string`
+> **`optional`** **author\_name**: `string`
 
 nickname of the author
 nicknname of the user who published the post in the subreddit and shared the URL
 
-#### Defined in
+#### Source
 
 main.ts:211748
 
-___
+***
 
-### permalink
+### permalink?
 
-• `Optional` **permalink**: `string`
+> **`optional`** **permalink**: `string`
 
 URL to the subreddit post
 
-#### Defined in
+#### Source
 
 main.ts:211752
 
-___
+***
 
-### subreddit
+### subreddit?
 
-• `Optional` **subreddit**: `string`
+> **`optional`** **subreddit**: `string`
 
 the name of the subreddit
 
-#### Defined in
+#### Source
 
 main.ts:211745
 
-___
+***
 
-### subreddit\_members
+### subreddit\_members?
 
-• `Optional` **subreddit\_members**: `number`
+> **`optional`** **subreddit\_members**: `number`
 
 number of subreddit members
 
-#### Defined in
+#### Source
 
 main.ts:211754
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the subreddit post
 
-#### Defined in
+#### Source
 
 main.ts:211750

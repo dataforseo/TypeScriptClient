@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / VisualStoriesDataforseoLabsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / VisualStoriesDataforseoLabsSerpElementItem
 
 # Class: VisualStoriesDataforseoLabsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
-
-  ↳ **`VisualStoriesDataforseoLabsSerpElementItem`**
 
 ## Implements
 
@@ -14,40 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](VisualStoriesDataforseoLabsSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](VisualStoriesDataforseoLabsSerpElementItem.md#_discriminator)
-- [items](VisualStoriesDataforseoLabsSerpElementItem.md#items)
-- [position](VisualStoriesDataforseoLabsSerpElementItem.md#position)
-- [rank\_absolute](VisualStoriesDataforseoLabsSerpElementItem.md#rank_absolute)
-- [rank\_group](VisualStoriesDataforseoLabsSerpElementItem.md#rank_group)
-- [xpath](VisualStoriesDataforseoLabsSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](VisualStoriesDataforseoLabsSerpElementItem.md#init)
-- [toJSON](VisualStoriesDataforseoLabsSerpElementItem.md#tojson)
-- [fromJS](VisualStoriesDataforseoLabsSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new VisualStoriesDataforseoLabsSerpElementItem(data)
 
-• **new VisualStoriesDataforseoLabsSerpElementItem**(`data?`): [`VisualStoriesDataforseoLabsSerpElementItem`](VisualStoriesDataforseoLabsSerpElementItem.md)
+> **new VisualStoriesDataforseoLabsSerpElementItem**(`data`?): [`VisualStoriesDataforseoLabsSerpElementItem`](VisualStoriesDataforseoLabsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IVisualStoriesDataforseoLabsSerpElementItem`](../interfaces/IVisualStoriesDataforseoLabsSerpElementItem.md) |
+• **data?**: [`IVisualStoriesDataforseoLabsSerpElementItem`](../interfaces/IVisualStoriesDataforseoLabsSerpElementItem.md)
 
 #### Returns
 
@@ -55,47 +34,47 @@
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[constructor](BaseDataforseoLabsSerpElementItem.md#constructor)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:98210
+main.ts:98218
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[_discriminator](BaseDataforseoLabsSerpElementItem.md#_discriminator)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`_discriminator`](BaseDataforseoLabsSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:20171
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`LicensesElement`](LicensesElement.md)[]
+> **`optional`** **items**: [`LicensesElement`](LicensesElement.md)[]
 
 elements of search results found in SERP
 
 #### Implementation of
 
-[IVisualStoriesDataforseoLabsSerpElementItem](../interfaces/IVisualStoriesDataforseoLabsSerpElementItem.md).[items](../interfaces/IVisualStoriesDataforseoLabsSerpElementItem.md#items)
+[`IVisualStoriesDataforseoLabsSerpElementItem`](../interfaces/IVisualStoriesDataforseoLabsSerpElementItem.md).[`items`](../interfaces/IVisualStoriesDataforseoLabsSerpElementItem.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:98206
+main.ts:98214
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -103,73 +82,71 @@ left, right
 
 #### Implementation of
 
-[IVisualStoriesDataforseoLabsSerpElementItem](../interfaces/IVisualStoriesDataforseoLabsSerpElementItem.md).[position](../interfaces/IVisualStoriesDataforseoLabsSerpElementItem.md#position)
+[`IVisualStoriesDataforseoLabsSerpElementItem`](../interfaces/IVisualStoriesDataforseoLabsSerpElementItem.md).[`position`](../interfaces/IVisualStoriesDataforseoLabsSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
-main.ts:98202
+main.ts:98210
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
 #### Implementation of
 
-[IVisualStoriesDataforseoLabsSerpElementItem](../interfaces/IVisualStoriesDataforseoLabsSerpElementItem.md).[rank_absolute](../interfaces/IVisualStoriesDataforseoLabsSerpElementItem.md#rank_absolute)
+[`IVisualStoriesDataforseoLabsSerpElementItem`](../interfaces/IVisualStoriesDataforseoLabsSerpElementItem.md).[`rank_absolute`](../interfaces/IVisualStoriesDataforseoLabsSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:98198
+main.ts:98206
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
-[IVisualStoriesDataforseoLabsSerpElementItem](../interfaces/IVisualStoriesDataforseoLabsSerpElementItem.md).[rank_group](../interfaces/IVisualStoriesDataforseoLabsSerpElementItem.md#rank_group)
+[`IVisualStoriesDataforseoLabsSerpElementItem`](../interfaces/IVisualStoriesDataforseoLabsSerpElementItem.md).[`rank_group`](../interfaces/IVisualStoriesDataforseoLabsSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
-main.ts:98195
+main.ts:98203
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IVisualStoriesDataforseoLabsSerpElementItem](../interfaces/IVisualStoriesDataforseoLabsSerpElementItem.md).[xpath](../interfaces/IVisualStoriesDataforseoLabsSerpElementItem.md#xpath)
+[`IVisualStoriesDataforseoLabsSerpElementItem`](../interfaces/IVisualStoriesDataforseoLabsSerpElementItem.md).[`xpath`](../interfaces/IVisualStoriesDataforseoLabsSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
-main.ts:98204
+main.ts:98212
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -177,23 +154,21 @@ main.ts:98204
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[init](BaseDataforseoLabsSerpElementItem.md#init)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`init`](BaseDataforseoLabsSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:98215
+main.ts:98223
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -201,23 +176,21 @@ ___
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[toJSON](BaseDataforseoLabsSerpElementItem.md#tojson)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`toJSON`](BaseDataforseoLabsSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:98241
+main.ts:98249
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`VisualStoriesDataforseoLabsSerpElementItem`](VisualStoriesDataforseoLabsSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`VisualStoriesDataforseoLabsSerpElementItem`](VisualStoriesDataforseoLabsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -225,8 +198,8 @@ ___
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[fromJS](BaseDataforseoLabsSerpElementItem.md#fromjs)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`fromJS`](BaseDataforseoLabsSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:98234
+main.ts:98242

@@ -1,52 +1,35 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleTrendsExploreLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IKeywordsDataGoogleTrendsExploreLiveRequestInfo
 
 # Interface: IKeywordsDataGoogleTrendsExploreLiveRequestInfo
 
-## Implemented by
-
-- [`KeywordsDataGoogleTrendsExploreLiveRequestInfo`](../classes/KeywordsDataGoogleTrendsExploreLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [category\_code](IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md#category_code)
-- [date\_from](IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md#date_from)
-- [date\_to](IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md#date_to)
-- [item\_types](IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md#item_types)
-- [keywords](IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md#keywords)
-- [language\_code](IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md#language_code)
-- [language\_name](IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md#language_name)
-- [location\_code](IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md#location_code)
-- [location\_name](IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md#location_name)
-- [tag](IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md#tag)
-- [time\_range](IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md#time_range)
-- [type](IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### category\_code
+### category\_code?
 
-• `Optional` **category\_code**: `number`
+> **`optional`** **category\_code**: `number`
 
 google trends search category
 optional field
 if you don’t specify this field, the 0 value will be applied by default and the search will be carried out across all available categories
 you can receive the list of available categories with their category_code by making a separate request to the https://api.dataforseo.com/v3/keywords_data/google_trends/categories
 
-#### Defined in
+#### Source
 
-main.ts:123795
+main.ts:123803
 
-___
+***
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -57,15 +40,15 @@ date format: "yyyy-mm-dd"
 example:
 "2019-01-15"
 
-#### Defined in
+#### Source
 
-main.ts:123804
+main.ts:123812
 
-___
+***
 
-### date\_to
+### date\_to?
 
-• `Optional` **date\_to**: `string`
+> **`optional`** **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -74,15 +57,15 @@ date format: "yyyy-mm-dd"
 example:
 "2019-01-15"
 
-#### Defined in
+#### Source
 
-main.ts:123811
+main.ts:123819
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 types of items returned
 optional field
@@ -96,15 +79,15 @@ possible values:
 "google_trends_queries_list"
 ]
 
-#### Defined in
+#### Source
 
-main.ts:123833
+main.ts:123841
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 keywords
 optional field
@@ -112,15 +95,15 @@ if keywords are not specified, the results will not contain keyword-related data
 The maximum number of keywords you can specify: 5
 Note: comma symbols (,) in the specified keywords will be unset and ignored
 
-#### Defined in
+#### Source
 
-main.ts:123756
+main.ts:123764
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 optional field
@@ -130,15 +113,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:123788
+main.ts:123796
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -148,15 +131,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:123780
+main.ts:123788
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 optional field
@@ -166,15 +149,15 @@ you can receive the list of available locations of the search engines with their
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:123772
+main.ts:123780
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 optional field
@@ -184,15 +167,15 @@ you can receive the list of available locations of the search engine with their 
 example:
 United Kingdom
 
-#### Defined in
+#### Source
 
-main.ts:123764
+main.ts:123772
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -200,15 +183,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:123839
+main.ts:123847
 
-___
+***
 
-### time\_range
+### time\_range?
 
-• `Optional` **time\_range**: `string`
+> **`optional`** **time\_range**: `string`
 
 preset time ranges
 optional field
@@ -220,18 +203,18 @@ possible values for web only:
 possible values for news, youtube, images, froogle:
 2008_present
 
-#### Defined in
+#### Source
 
-main.ts:123821
+main.ts:123829
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:123790
+main.ts:123798

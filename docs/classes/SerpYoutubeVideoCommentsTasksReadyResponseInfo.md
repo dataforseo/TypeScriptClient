@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoCommentsTasksReadyResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpYoutubeVideoCommentsTasksReadyResponseInfo
 
 # Class: SerpYoutubeVideoCommentsTasksReadyResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`SerpYoutubeVideoCommentsTasksReadyResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpYoutubeVideoCommentsTasksReadyResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](SerpYoutubeVideoCommentsTasksReadyResponseInfo.md#cost)
-- [status\_code](SerpYoutubeVideoCommentsTasksReadyResponseInfo.md#status_code)
-- [status\_message](SerpYoutubeVideoCommentsTasksReadyResponseInfo.md#status_message)
-- [tasks](SerpYoutubeVideoCommentsTasksReadyResponseInfo.md#tasks)
-- [tasks\_count](SerpYoutubeVideoCommentsTasksReadyResponseInfo.md#tasks_count)
-- [tasks\_error](SerpYoutubeVideoCommentsTasksReadyResponseInfo.md#tasks_error)
-- [time](SerpYoutubeVideoCommentsTasksReadyResponseInfo.md#time)
-- [version](SerpYoutubeVideoCommentsTasksReadyResponseInfo.md#version)
-
-### Methods
-
-- [init](SerpYoutubeVideoCommentsTasksReadyResponseInfo.md#init)
-- [toJSON](SerpYoutubeVideoCommentsTasksReadyResponseInfo.md#tojson)
-- [fromJS](SerpYoutubeVideoCommentsTasksReadyResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpYoutubeVideoCommentsTasksReadyResponseInfo(data)
 
-• **new SerpYoutubeVideoCommentsTasksReadyResponseInfo**(`data?`): [`SerpYoutubeVideoCommentsTasksReadyResponseInfo`](SerpYoutubeVideoCommentsTasksReadyResponseInfo.md)
+> **new SerpYoutubeVideoCommentsTasksReadyResponseInfo**(`data`?): [`SerpYoutubeVideoCommentsTasksReadyResponseInfo`](SerpYoutubeVideoCommentsTasksReadyResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpYoutubeVideoCommentsTasksReadyResponseInfo`](../interfaces/ISerpYoutubeVideoCommentsTasksReadyResponseInfo.md) |
+• **data?**: [`ISerpYoutubeVideoCommentsTasksReadyResponseInfo`](../interfaces/ISerpYoutubeVideoCommentsTasksReadyResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:63938
+main.ts:63946
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[ISerpYoutubeVideoCommentsTasksReadyResponseInfo](../interfaces/ISerpYoutubeVideoCommentsTasksReadyResponseInfo.md).[cost](../interfaces/ISerpYoutubeVideoCommentsTasksReadyResponseInfo.md#cost)
+[`ISerpYoutubeVideoCommentsTasksReadyResponseInfo`](../interfaces/ISerpYoutubeVideoCommentsTasksReadyResponseInfo.md).[`cost`](../interfaces/ISerpYoutubeVideoCommentsTasksReadyResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[ISerpYoutubeVideoCommentsTasksReadyResponseInfo](../interfaces/ISerpYoutubeVideoCommentsTasksReadyResponseInfo.md).[status_code](../interfaces/ISerpYoutubeVideoCommentsTasksReadyResponseInfo.md#status_code)
+[`ISerpYoutubeVideoCommentsTasksReadyResponseInfo`](../interfaces/ISerpYoutubeVideoCommentsTasksReadyResponseInfo.md).[`status_code`](../interfaces/ISerpYoutubeVideoCommentsTasksReadyResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[ISerpYoutubeVideoCommentsTasksReadyResponseInfo](../interfaces/ISerpYoutubeVideoCommentsTasksReadyResponseInfo.md).[status_message](../interfaces/ISerpYoutubeVideoCommentsTasksReadyResponseInfo.md#status_message)
+[`ISerpYoutubeVideoCommentsTasksReadyResponseInfo`](../interfaces/ISerpYoutubeVideoCommentsTasksReadyResponseInfo.md).[`status_message`](../interfaces/ISerpYoutubeVideoCommentsTasksReadyResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`SerpYoutubeVideoCommentsTasksReadyTaskInfo`](SerpYoutubeVideoCommentsTasksReadyTaskInfo.md)[]
+> **`optional`** **tasks**: [`SerpYoutubeVideoCommentsTasksReadyTaskInfo`](SerpYoutubeVideoCommentsTasksReadyTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[ISerpYoutubeVideoCommentsTasksReadyResponseInfo](../interfaces/ISerpYoutubeVideoCommentsTasksReadyResponseInfo.md).[tasks](../interfaces/ISerpYoutubeVideoCommentsTasksReadyResponseInfo.md#tasks)
+[`ISerpYoutubeVideoCommentsTasksReadyResponseInfo`](../interfaces/ISerpYoutubeVideoCommentsTasksReadyResponseInfo.md).[`tasks`](../interfaces/ISerpYoutubeVideoCommentsTasksReadyResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:63934
+main.ts:63942
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[ISerpYoutubeVideoCommentsTasksReadyResponseInfo](../interfaces/ISerpYoutubeVideoCommentsTasksReadyResponseInfo.md).[tasks_count](../interfaces/ISerpYoutubeVideoCommentsTasksReadyResponseInfo.md#tasks_count)
+[`ISerpYoutubeVideoCommentsTasksReadyResponseInfo`](../interfaces/ISerpYoutubeVideoCommentsTasksReadyResponseInfo.md).[`tasks_count`](../interfaces/ISerpYoutubeVideoCommentsTasksReadyResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[ISerpYoutubeVideoCommentsTasksReadyResponseInfo](../interfaces/ISerpYoutubeVideoCommentsTasksReadyResponseInfo.md).[tasks_error](../interfaces/ISerpYoutubeVideoCommentsTasksReadyResponseInfo.md#tasks_error)
+[`ISerpYoutubeVideoCommentsTasksReadyResponseInfo`](../interfaces/ISerpYoutubeVideoCommentsTasksReadyResponseInfo.md).[`tasks_error`](../interfaces/ISerpYoutubeVideoCommentsTasksReadyResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[ISerpYoutubeVideoCommentsTasksReadyResponseInfo](../interfaces/ISerpYoutubeVideoCommentsTasksReadyResponseInfo.md).[time](../interfaces/ISerpYoutubeVideoCommentsTasksReadyResponseInfo.md#time)
+[`ISerpYoutubeVideoCommentsTasksReadyResponseInfo`](../interfaces/ISerpYoutubeVideoCommentsTasksReadyResponseInfo.md).[`time`](../interfaces/ISerpYoutubeVideoCommentsTasksReadyResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[ISerpYoutubeVideoCommentsTasksReadyResponseInfo](../interfaces/ISerpYoutubeVideoCommentsTasksReadyResponseInfo.md).[version](../interfaces/ISerpYoutubeVideoCommentsTasksReadyResponseInfo.md#version)
+[`ISerpYoutubeVideoCommentsTasksReadyResponseInfo`](../interfaces/ISerpYoutubeVideoCommentsTasksReadyResponseInfo.md).[`version`](../interfaces/ISerpYoutubeVideoCommentsTasksReadyResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:63942
+main.ts:63950
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:63964
+main.ts:63972
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpYoutubeVideoCommentsTasksReadyResponseInfo`](SerpYoutubeVideoCommentsTasksReadyResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpYoutubeVideoCommentsTasksReadyResponseInfo`](SerpYoutubeVideoCommentsTasksReadyResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:63957
+main.ts:63965

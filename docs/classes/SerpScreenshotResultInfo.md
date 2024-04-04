@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpScreenshotResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpScreenshotResultInfo
 
 # Class: SerpScreenshotResultInfo
 
@@ -8,133 +12,108 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpScreenshotResultInfo.md#constructor)
-
-### Properties
-
-- [items](SerpScreenshotResultInfo.md#items)
-- [items\_count](SerpScreenshotResultInfo.md#items_count)
-
-### Methods
-
-- [init](SerpScreenshotResultInfo.md#init)
-- [toJSON](SerpScreenshotResultInfo.md#tojson)
-- [fromJS](SerpScreenshotResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpScreenshotResultInfo(data)
 
-• **new SerpScreenshotResultInfo**(`data?`): [`SerpScreenshotResultInfo`](SerpScreenshotResultInfo.md)
+> **new SerpScreenshotResultInfo**(`data`?): [`SerpScreenshotResultInfo`](SerpScreenshotResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpScreenshotResultInfo`](../interfaces/ISerpScreenshotResultInfo.md) |
+• **data?**: [`ISerpScreenshotResultInfo`](../interfaces/ISerpScreenshotResultInfo.md)
 
 #### Returns
 
 [`SerpScreenshotResultInfo`](SerpScreenshotResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:24079
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`ScreenshotItem`](ScreenshotItem.md)[]
+> **`optional`** **items**: [`ScreenshotItem`](ScreenshotItem.md)[]
 
 items array
 
 #### Implementation of
 
-[ISerpScreenshotResultInfo](../interfaces/ISerpScreenshotResultInfo.md).[items](../interfaces/ISerpScreenshotResultInfo.md#items)
+[`ISerpScreenshotResultInfo`](../interfaces/ISerpScreenshotResultInfo.md).[`items`](../interfaces/ISerpScreenshotResultInfo.md#items)
 
-#### Defined in
+#### Source
 
 main.ts:24075
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 number of items in the results array
 
 #### Implementation of
 
-[ISerpScreenshotResultInfo](../interfaces/ISerpScreenshotResultInfo.md).[items_count](../interfaces/ISerpScreenshotResultInfo.md#items_count)
+[`ISerpScreenshotResultInfo`](../interfaces/ISerpScreenshotResultInfo.md).[`items_count`](../interfaces/ISerpScreenshotResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
 main.ts:24073
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:24088
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:24110
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpScreenshotResultInfo`](SerpScreenshotResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpScreenshotResultInfo`](SerpScreenshotResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpScreenshotResultInfo`](SerpScreenshotResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:24103

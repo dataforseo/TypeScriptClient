@@ -1,76 +1,65 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IGoogleTrendsTopicsListElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IGoogleTrendsTopicsListElementItem
 
 # Interface: IGoogleTrendsTopicsListElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseGoogleTrendsItem`](IBaseGoogleTrendsItem.md)
 
-  ↳ **`IGoogleTrendsTopicsListElementItem`**
-
-## Implemented by
-
-- [`GoogleTrendsTopicsListElementItem`](../classes/GoogleTrendsTopicsListElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [data](IGoogleTrendsTopicsListElementItem.md#data)
-- [keywords](IGoogleTrendsTopicsListElementItem.md#keywords)
-- [position](IGoogleTrendsTopicsListElementItem.md#position)
-- [title](IGoogleTrendsTopicsListElementItem.md#title)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### data
+### data?
 
-• `Optional` **data**: [`TrendsTopicListDataInfo`](../classes/TrendsTopicListDataInfo.md)
+> **`optional`** **data**: [`TrendsTopicListDataInfo`](../classes/TrendsTopicListDataInfo.md)
 
 Google Trends data from the corresponding item
 
-#### Defined in
+#### Source
 
-main.ts:124240
+main.ts:124248
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 relevant keywords
 the data included in the google_trends_topics_list element is based on the keywords listed in this array
 
-#### Defined in
+#### Source
 
-main.ts:124238
+main.ts:124246
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `number`
+> **`optional`** **position**: `number`
 
 the alignment of the element in Google Trends
 can take the following values: 1, 2, 3, 4, etc.
 
-#### Defined in
+#### Source
 
-main.ts:124233
+main.ts:124241
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the element in Google Trends
 
-#### Defined in
+#### Source
 
-main.ts:124235
+main.ts:124243

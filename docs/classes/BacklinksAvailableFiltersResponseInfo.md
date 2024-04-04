@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksAvailableFiltersResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BacklinksAvailableFiltersResponseInfo
 
 # Class: BacklinksAvailableFiltersResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`BacklinksAvailableFiltersResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BacklinksAvailableFiltersResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](BacklinksAvailableFiltersResponseInfo.md#cost)
-- [status\_code](BacklinksAvailableFiltersResponseInfo.md#status_code)
-- [status\_message](BacklinksAvailableFiltersResponseInfo.md#status_message)
-- [tasks](BacklinksAvailableFiltersResponseInfo.md#tasks)
-- [tasks\_count](BacklinksAvailableFiltersResponseInfo.md#tasks_count)
-- [tasks\_error](BacklinksAvailableFiltersResponseInfo.md#tasks_error)
-- [time](BacklinksAvailableFiltersResponseInfo.md#time)
-- [version](BacklinksAvailableFiltersResponseInfo.md#version)
-
-### Methods
-
-- [init](BacklinksAvailableFiltersResponseInfo.md#init)
-- [toJSON](BacklinksAvailableFiltersResponseInfo.md#tojson)
-- [fromJS](BacklinksAvailableFiltersResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BacklinksAvailableFiltersResponseInfo(data)
 
-• **new BacklinksAvailableFiltersResponseInfo**(`data?`): [`BacklinksAvailableFiltersResponseInfo`](BacklinksAvailableFiltersResponseInfo.md)
+> **new BacklinksAvailableFiltersResponseInfo**(`data`?): [`BacklinksAvailableFiltersResponseInfo`](BacklinksAvailableFiltersResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBacklinksAvailableFiltersResponseInfo`](../interfaces/IBacklinksAvailableFiltersResponseInfo.md) |
+• **data?**: [`IBacklinksAvailableFiltersResponseInfo`](../interfaces/IBacklinksAvailableFiltersResponseInfo.md)
 
 #### Returns
 
@@ -57,179 +34,177 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:134256
+main.ts:134264
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IBacklinksAvailableFiltersResponseInfo](../interfaces/IBacklinksAvailableFiltersResponseInfo.md).[cost](../interfaces/IBacklinksAvailableFiltersResponseInfo.md#cost)
+[`IBacklinksAvailableFiltersResponseInfo`](../interfaces/IBacklinksAvailableFiltersResponseInfo.md).[`cost`](../interfaces/IBacklinksAvailableFiltersResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[IBacklinksAvailableFiltersResponseInfo](../interfaces/IBacklinksAvailableFiltersResponseInfo.md).[status_code](../interfaces/IBacklinksAvailableFiltersResponseInfo.md#status_code)
+[`IBacklinksAvailableFiltersResponseInfo`](../interfaces/IBacklinksAvailableFiltersResponseInfo.md).[`status_code`](../interfaces/IBacklinksAvailableFiltersResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IBacklinksAvailableFiltersResponseInfo](../interfaces/IBacklinksAvailableFiltersResponseInfo.md).[status_message](../interfaces/IBacklinksAvailableFiltersResponseInfo.md#status_message)
+[`IBacklinksAvailableFiltersResponseInfo`](../interfaces/IBacklinksAvailableFiltersResponseInfo.md).[`status_message`](../interfaces/IBacklinksAvailableFiltersResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`BacklinksAvailableFiltersTaskInfo`](BacklinksAvailableFiltersTaskInfo.md)[]
+> **`optional`** **tasks**: [`BacklinksAvailableFiltersTaskInfo`](BacklinksAvailableFiltersTaskInfo.md)[]
 
 #### Implementation of
 
-[IBacklinksAvailableFiltersResponseInfo](../interfaces/IBacklinksAvailableFiltersResponseInfo.md).[tasks](../interfaces/IBacklinksAvailableFiltersResponseInfo.md#tasks)
+[`IBacklinksAvailableFiltersResponseInfo`](../interfaces/IBacklinksAvailableFiltersResponseInfo.md).[`tasks`](../interfaces/IBacklinksAvailableFiltersResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:134252
+main.ts:134260
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[IBacklinksAvailableFiltersResponseInfo](../interfaces/IBacklinksAvailableFiltersResponseInfo.md).[tasks_count](../interfaces/IBacklinksAvailableFiltersResponseInfo.md#tasks_count)
+[`IBacklinksAvailableFiltersResponseInfo`](../interfaces/IBacklinksAvailableFiltersResponseInfo.md).[`tasks_count`](../interfaces/IBacklinksAvailableFiltersResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[IBacklinksAvailableFiltersResponseInfo](../interfaces/IBacklinksAvailableFiltersResponseInfo.md).[tasks_error](../interfaces/IBacklinksAvailableFiltersResponseInfo.md#tasks_error)
+[`IBacklinksAvailableFiltersResponseInfo`](../interfaces/IBacklinksAvailableFiltersResponseInfo.md).[`tasks_error`](../interfaces/IBacklinksAvailableFiltersResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[IBacklinksAvailableFiltersResponseInfo](../interfaces/IBacklinksAvailableFiltersResponseInfo.md).[time](../interfaces/IBacklinksAvailableFiltersResponseInfo.md#time)
+[`IBacklinksAvailableFiltersResponseInfo`](../interfaces/IBacklinksAvailableFiltersResponseInfo.md).[`time`](../interfaces/IBacklinksAvailableFiltersResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[IBacklinksAvailableFiltersResponseInfo](../interfaces/IBacklinksAvailableFiltersResponseInfo.md).[version](../interfaces/IBacklinksAvailableFiltersResponseInfo.md#version)
+[`IBacklinksAvailableFiltersResponseInfo`](../interfaces/IBacklinksAvailableFiltersResponseInfo.md).[`version`](../interfaces/IBacklinksAvailableFiltersResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -237,23 +212,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:134260
+main.ts:134268
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -261,23 +234,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:134282
+main.ts:134290
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BacklinksAvailableFiltersResponseInfo`](BacklinksAvailableFiltersResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`BacklinksAvailableFiltersResponseInfo`](BacklinksAvailableFiltersResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -285,8 +256,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:134275
+main.ts:134283

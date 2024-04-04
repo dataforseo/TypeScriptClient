@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpSeznamOrganicTasksReadyTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpSeznamOrganicTasksReadyTaskInfo
 
 # Class: SerpSeznamOrganicTasksReadyTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`SerpSeznamOrganicTasksReadyTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpSeznamOrganicTasksReadyTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](SerpSeznamOrganicTasksReadyTaskInfo.md#cost)
-- [data](SerpSeznamOrganicTasksReadyTaskInfo.md#data)
-- [id](SerpSeznamOrganicTasksReadyTaskInfo.md#id)
-- [path](SerpSeznamOrganicTasksReadyTaskInfo.md#path)
-- [result](SerpSeznamOrganicTasksReadyTaskInfo.md#result)
-- [result\_count](SerpSeznamOrganicTasksReadyTaskInfo.md#result_count)
-- [status\_code](SerpSeznamOrganicTasksReadyTaskInfo.md#status_code)
-- [status\_message](SerpSeznamOrganicTasksReadyTaskInfo.md#status_message)
-- [time](SerpSeznamOrganicTasksReadyTaskInfo.md#time)
-
-### Methods
-
-- [init](SerpSeznamOrganicTasksReadyTaskInfo.md#init)
-- [toJSON](SerpSeznamOrganicTasksReadyTaskInfo.md#tojson)
-- [fromJS](SerpSeznamOrganicTasksReadyTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpSeznamOrganicTasksReadyTaskInfo(data)
 
-• **new SerpSeznamOrganicTasksReadyTaskInfo**(`data?`): [`SerpSeznamOrganicTasksReadyTaskInfo`](SerpSeznamOrganicTasksReadyTaskInfo.md)
+> **new SerpSeznamOrganicTasksReadyTaskInfo**(`data`?): [`SerpSeznamOrganicTasksReadyTaskInfo`](SerpSeznamOrganicTasksReadyTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpSeznamOrganicTasksReadyTaskInfo`](../interfaces/ISerpSeznamOrganicTasksReadyTaskInfo.md) |
+• **data?**: [`ISerpSeznamOrganicTasksReadyTaskInfo`](../interfaces/ISerpSeznamOrganicTasksReadyTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:72177
+main.ts:72185
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[ISerpSeznamOrganicTasksReadyTaskInfo](../interfaces/ISerpSeznamOrganicTasksReadyTaskInfo.md).[cost](../interfaces/ISerpSeznamOrganicTasksReadyTaskInfo.md#cost)
+[`ISerpSeznamOrganicTasksReadyTaskInfo`](../interfaces/ISerpSeznamOrganicTasksReadyTaskInfo.md).[`cost`](../interfaces/ISerpSeznamOrganicTasksReadyTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[ISerpSeznamOrganicTasksReadyTaskInfo](../interfaces/ISerpSeznamOrganicTasksReadyTaskInfo.md).[data](../interfaces/ISerpSeznamOrganicTasksReadyTaskInfo.md#data)
+[`ISerpSeznamOrganicTasksReadyTaskInfo`](../interfaces/ISerpSeznamOrganicTasksReadyTaskInfo.md).[`data`](../interfaces/ISerpSeznamOrganicTasksReadyTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[ISerpSeznamOrganicTasksReadyTaskInfo](../interfaces/ISerpSeznamOrganicTasksReadyTaskInfo.md).[id](../interfaces/ISerpSeznamOrganicTasksReadyTaskInfo.md#id)
+[`ISerpSeznamOrganicTasksReadyTaskInfo`](../interfaces/ISerpSeznamOrganicTasksReadyTaskInfo.md).[`id`](../interfaces/ISerpSeznamOrganicTasksReadyTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[ISerpSeznamOrganicTasksReadyTaskInfo](../interfaces/ISerpSeznamOrganicTasksReadyTaskInfo.md).[path](../interfaces/ISerpSeznamOrganicTasksReadyTaskInfo.md#path)
+[`ISerpSeznamOrganicTasksReadyTaskInfo`](../interfaces/ISerpSeznamOrganicTasksReadyTaskInfo.md).[`path`](../interfaces/ISerpSeznamOrganicTasksReadyTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`SerpSeznamOrganicTasksReadyResultInfo`](SerpSeznamOrganicTasksReadyResultInfo.md)[]
+> **`optional`** **result**: [`SerpSeznamOrganicTasksReadyResultInfo`](SerpSeznamOrganicTasksReadyResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[ISerpSeznamOrganicTasksReadyTaskInfo](../interfaces/ISerpSeznamOrganicTasksReadyTaskInfo.md).[result](../interfaces/ISerpSeznamOrganicTasksReadyTaskInfo.md#result)
+[`ISerpSeznamOrganicTasksReadyTaskInfo`](../interfaces/ISerpSeznamOrganicTasksReadyTaskInfo.md).[`result`](../interfaces/ISerpSeznamOrganicTasksReadyTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:72173
+main.ts:72181
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[ISerpSeznamOrganicTasksReadyTaskInfo](../interfaces/ISerpSeznamOrganicTasksReadyTaskInfo.md).[result_count](../interfaces/ISerpSeznamOrganicTasksReadyTaskInfo.md#result_count)
+[`ISerpSeznamOrganicTasksReadyTaskInfo`](../interfaces/ISerpSeznamOrganicTasksReadyTaskInfo.md).[`result_count`](../interfaces/ISerpSeznamOrganicTasksReadyTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[ISerpSeznamOrganicTasksReadyTaskInfo](../interfaces/ISerpSeznamOrganicTasksReadyTaskInfo.md).[status_code](../interfaces/ISerpSeznamOrganicTasksReadyTaskInfo.md#status_code)
+[`ISerpSeznamOrganicTasksReadyTaskInfo`](../interfaces/ISerpSeznamOrganicTasksReadyTaskInfo.md).[`status_code`](../interfaces/ISerpSeznamOrganicTasksReadyTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[ISerpSeznamOrganicTasksReadyTaskInfo](../interfaces/ISerpSeznamOrganicTasksReadyTaskInfo.md).[status_message](../interfaces/ISerpSeznamOrganicTasksReadyTaskInfo.md#status_message)
+[`ISerpSeznamOrganicTasksReadyTaskInfo`](../interfaces/ISerpSeznamOrganicTasksReadyTaskInfo.md).[`status_message`](../interfaces/ISerpSeznamOrganicTasksReadyTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[ISerpSeznamOrganicTasksReadyTaskInfo](../interfaces/ISerpSeznamOrganicTasksReadyTaskInfo.md).[time](../interfaces/ISerpSeznamOrganicTasksReadyTaskInfo.md#time)
+[`ISerpSeznamOrganicTasksReadyTaskInfo`](../interfaces/ISerpSeznamOrganicTasksReadyTaskInfo.md).[`time`](../interfaces/ISerpSeznamOrganicTasksReadyTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:72181
+main.ts:72189
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:72203
+main.ts:72211
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpSeznamOrganicTasksReadyTaskInfo`](SerpSeznamOrganicTasksReadyTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpSeznamOrganicTasksReadyTaskInfo`](SerpSeznamOrganicTasksReadyTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:72196
+main.ts:72204

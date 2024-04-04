@@ -1,55 +1,47 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingRankedKeywordsLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsBingRankedKeywordsLiveItem
 
 # Interface: IDataforseoLabsBingRankedKeywordsLiveItem
 
-## Implemented by
-
-- [`DataforseoLabsBingRankedKeywordsLiveItem`](../classes/DataforseoLabsBingRankedKeywordsLiveItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [keyword\_data](IDataforseoLabsBingRankedKeywordsLiveItem.md#keyword_data)
-- [ranked\_serp\_element](IDataforseoLabsBingRankedKeywordsLiveItem.md#ranked_serp_element)
-- [se\_type](IDataforseoLabsBingRankedKeywordsLiveItem.md#se_type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### keyword\_data
+### keyword\_data?
 
-• `Optional` **keyword\_data**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)
+> **`optional`** **keyword\_data**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)
 
 keyword data for the returned keyword
 
-#### Defined in
+#### Source
 
-main.ts:107742
+main.ts:107750
 
-___
+***
 
-### ranked\_serp\_element
+### ranked\_serp\_element?
 
-• `Optional` **ranked\_serp\_element**: [`RankedSerpElement`](../classes/RankedSerpElement.md)
+> **`optional`** **ranked\_serp\_element**: [`RankedSerpElement`](../classes/RankedSerpElement.md)
 
 contains data on the domain’s SERP element found for the returned keyword
 
-#### Defined in
+#### Source
 
-main.ts:107744
+main.ts:107752
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:107740
+main.ts:107748

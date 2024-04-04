@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleDatasetSearchLiveAdvancedRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleDatasetSearchLiveAdvancedRequestInfo
 
 # Class: SerpGoogleDatasetSearchLiveAdvancedRequestInfo
 
@@ -8,60 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#constructor)
-
-### Properties
-
-- [depth](SerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#depth)
-- [device](SerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#device)
-- [file\_formats](SerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#file_formats)
-- [is\_free](SerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#is_free)
-- [keyword](SerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#keyword)
-- [language\_code](SerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#language_code)
-- [language\_name](SerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#language_name)
-- [last\_updated](SerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#last_updated)
-- [os](SerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#os)
-- [tag](SerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#tag)
-- [topics](SerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#topics)
-- [usage\_rights](SerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#usage_rights)
-
-### Methods
-
-- [init](SerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#init)
-- [toJSON](SerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#tojson)
-- [fromJS](SerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleDatasetSearchLiveAdvancedRequestInfo(data)
 
-• **new SerpGoogleDatasetSearchLiveAdvancedRequestInfo**(`data?`): [`SerpGoogleDatasetSearchLiveAdvancedRequestInfo`](SerpGoogleDatasetSearchLiveAdvancedRequestInfo.md)
+> **new SerpGoogleDatasetSearchLiveAdvancedRequestInfo**(`data`?): [`SerpGoogleDatasetSearchLiveAdvancedRequestInfo`](SerpGoogleDatasetSearchLiveAdvancedRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md) |
+• **data?**: [`ISerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md)
 
 #### Returns
 
 [`SerpGoogleDatasetSearchLiveAdvancedRequestInfo`](SerpGoogleDatasetSearchLiveAdvancedRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:53766
+main.ts:53774
 
 ## Properties
 
-### depth
+### depth?
 
-• `Optional` **depth**: `number`
+> **`optional`** **depth**: `number`
 
 parsing depth
 optional field
@@ -74,17 +49,17 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Implementation of
 
-[ISerpGoogleDatasetSearchLiveAdvancedRequestInfo](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[depth](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#depth)
+[`ISerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[`depth`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#depth)
 
-#### Defined in
+#### Source
 
-main.ts:53736
+main.ts:53744
 
-___
+***
 
-### device
+### device?
 
-• `Optional` **device**: `string`
+> **`optional`** **device**: `string`
 
 device type
 optional field
@@ -92,17 +67,17 @@ possible value: desktop
 
 #### Implementation of
 
-[ISerpGoogleDatasetSearchLiveAdvancedRequestInfo](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[device](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#device)
+[`ISerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[`device`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#device)
 
-#### Defined in
+#### Source
 
-main.ts:53722
+main.ts:53730
 
-___
+***
 
-### file\_formats
+### file\_formats?
 
-• `Optional` **file\_formats**: `string`[]
+> **`optional`** **file\_formats**: `string`[]
 
 file formats of the dataset
 optional field
@@ -110,17 +85,17 @@ possible values: other, archive, text, image, document, tabular
 
 #### Implementation of
 
-[ISerpGoogleDatasetSearchLiveAdvancedRequestInfo](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[file_formats](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#file_formats)
+[`ISerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[`file_formats`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#file_formats)
 
-#### Defined in
+#### Source
 
-main.ts:53744
+main.ts:53752
 
-___
+***
 
-### is\_free
+### is\_free?
 
-• `Optional` **is\_free**: `boolean`
+> **`optional`** **is\_free**: `boolean`
 
 indicates whether displayed datasets are free
 optional field
@@ -128,17 +103,17 @@ possible values: true, false
 
 #### Implementation of
 
-[ISerpGoogleDatasetSearchLiveAdvancedRequestInfo](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[is_free](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#is_free)
+[`ISerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[`is_free`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#is_free)
 
-#### Defined in
+#### Source
 
-main.ts:53752
+main.ts:53760
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword
 required field
@@ -149,17 +124,17 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Implementation of
 
-[ISerpGoogleDatasetSearchLiveAdvancedRequestInfo](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[keyword](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#keyword)
+[`ISerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[`keyword`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:53706
+main.ts:53714
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 optional field if you don’t specify language_name
@@ -169,17 +144,17 @@ en
 
 #### Implementation of
 
-[ISerpGoogleDatasetSearchLiveAdvancedRequestInfo](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[language_code](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#language_code)
+[`ISerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[`language_code`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:53718
+main.ts:53726
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -189,17 +164,17 @@ English
 
 #### Implementation of
 
-[ISerpGoogleDatasetSearchLiveAdvancedRequestInfo](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[language_name](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#language_name)
+[`ISerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[`language_name`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:53712
+main.ts:53720
 
-___
+***
 
-### last\_updated
+### last\_updated?
 
-• `Optional` **last\_updated**: `string`
+> **`optional`** **last\_updated**: `string`
 
 last time the dataset was updated
 optional field
@@ -207,17 +182,17 @@ possible values: 1m, 1y, 3y
 
 #### Implementation of
 
-[ISerpGoogleDatasetSearchLiveAdvancedRequestInfo](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[last_updated](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#last_updated)
+[`ISerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[`last_updated`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#last_updated)
 
-#### Defined in
+#### Source
 
-main.ts:53740
+main.ts:53748
 
-___
+***
 
-### os
+### os?
 
-• `Optional` **os**: `string`
+> **`optional`** **os**: `string`
 
 device operating system
 optional field
@@ -226,17 +201,17 @@ default value: windows
 
 #### Implementation of
 
-[ISerpGoogleDatasetSearchLiveAdvancedRequestInfo](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[os](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#os)
+[`ISerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[`os`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#os)
 
-#### Defined in
+#### Source
 
-main.ts:53727
+main.ts:53735
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -246,17 +221,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[ISerpGoogleDatasetSearchLiveAdvancedRequestInfo](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[tag](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#tag)
+[`ISerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[`tag`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:53762
+main.ts:53770
 
-___
+***
 
-### topics
+### topics?
 
-• `Optional` **topics**: `string`[]
+> **`optional`** **topics**: `string`[]
 
 dataset topics
 optional field
@@ -264,17 +239,17 @@ possible values: humanities, social_sciences, life_sciences, agriculture, natura
 
 #### Implementation of
 
-[ISerpGoogleDatasetSearchLiveAdvancedRequestInfo](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[topics](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#topics)
+[`ISerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[`topics`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#topics)
 
-#### Defined in
+#### Source
 
-main.ts:53756
+main.ts:53764
 
-___
+***
 
-### usage\_rights
+### usage\_rights?
 
-• `Optional` **usage\_rights**: `string`
+> **`optional`** **usage\_rights**: `string`
 
 usage rights of the dataset
 optional field
@@ -282,68 +257,62 @@ possible values: commercial, noncommercial
 
 #### Implementation of
 
-[ISerpGoogleDatasetSearchLiveAdvancedRequestInfo](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[usage_rights](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#usage_rights)
+[`ISerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[`usage_rights`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#usage_rights)
 
-#### Defined in
+#### Source
 
-main.ts:53748
+main.ts:53756
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:53775
+main.ts:53783
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:53811
+main.ts:53819
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleDatasetSearchLiveAdvancedRequestInfo`](SerpGoogleDatasetSearchLiveAdvancedRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleDatasetSearchLiveAdvancedRequestInfo`](SerpGoogleDatasetSearchLiveAdvancedRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpGoogleDatasetSearchLiveAdvancedRequestInfo`](SerpGoogleDatasetSearchLiveAdvancedRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:53804
+main.ts:53812

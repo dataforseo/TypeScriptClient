@@ -1,81 +1,71 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IScholarlyArticlesElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IScholarlyArticlesElement
 
 # Interface: IScholarlyArticlesElement
 
-## Implemented by
-
-- [`ScholarlyArticlesElement`](../classes/ScholarlyArticlesElement.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [author](IScholarlyArticlesElement.md#author)
-- [description](IScholarlyArticlesElement.md#description)
-- [title](IScholarlyArticlesElement.md#title)
-- [type](IScholarlyArticlesElement.md#type)
-- [url](IScholarlyArticlesElement.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### author
+### author?
 
-• `Optional` **author**: `string`
+> **`optional`** **author**: `string`
 
 author
 
-#### Defined in
+#### Source
 
 main.ts:32724
 
-___
+***
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description
 
-#### Defined in
+#### Source
 
 main.ts:32726
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
-#### Defined in
+#### Source
 
 main.ts:32720
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
 main.ts:32718
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL
 
-#### Defined in
+#### Source
 
 main.ts:32722

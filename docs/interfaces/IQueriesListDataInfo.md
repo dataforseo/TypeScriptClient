@@ -1,44 +1,37 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IQueriesListDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IQueriesListDataInfo
 
 # Interface: IQueriesListDataInfo
 
-## Implemented by
-
-- [`QueriesListDataInfo`](../classes/QueriesListDataInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [rising](IQueriesListDataInfo.md#rising)
-- [top](IQueriesListDataInfo.md#top)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### rising
+### rising?
 
-• `Optional` **rising**: [`QueriesListDataItemInfo`](../classes/QueriesListDataItemInfo.md)[]
+> **`optional`** **rising**: [`QueriesListDataItemInfo`](../classes/QueriesListDataItemInfo.md)[]
 
 emerging related topics
 represents the list of related topics with the biggest increase in search frequency since the last time period
 
-#### Defined in
+#### Source
 
-main.ts:123444
+main.ts:123452
 
-___
+***
 
-### top
+### top?
 
-• `Optional` **top**: [`QueriesListDataItemInfo`](../classes/QueriesListDataItemInfo.md)[]
+> **`optional`** **top**: [`QueriesListDataItemInfo`](../classes/QueriesListDataItemInfo.md)[]
 
 the most popular related topics
 represents the list of the most popular related topics
 
-#### Defined in
+#### Source
 
-main.ts:123441
+main.ts:123449

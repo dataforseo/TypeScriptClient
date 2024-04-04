@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksDomainIntersectionLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BacklinksDomainIntersectionLiveItem
 
 # Class: BacklinksDomainIntersectionLiveItem
 
@@ -8,138 +12,113 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BacklinksDomainIntersectionLiveItem.md#constructor)
-
-### Properties
-
-- [domain\_intersection](BacklinksDomainIntersectionLiveItem.md#domain_intersection)
-- [summary](BacklinksDomainIntersectionLiveItem.md#summary)
-
-### Methods
-
-- [init](BacklinksDomainIntersectionLiveItem.md#init)
-- [toJSON](BacklinksDomainIntersectionLiveItem.md#tojson)
-- [fromJS](BacklinksDomainIntersectionLiveItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BacklinksDomainIntersectionLiveItem(data)
 
-• **new BacklinksDomainIntersectionLiveItem**(`data?`): [`BacklinksDomainIntersectionLiveItem`](BacklinksDomainIntersectionLiveItem.md)
+> **new BacklinksDomainIntersectionLiveItem**(`data`?): [`BacklinksDomainIntersectionLiveItem`](BacklinksDomainIntersectionLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBacklinksDomainIntersectionLiveItem`](../interfaces/IBacklinksDomainIntersectionLiveItem.md) |
+• **data?**: [`IBacklinksDomainIntersectionLiveItem`](../interfaces/IBacklinksDomainIntersectionLiveItem.md)
 
 #### Returns
 
 [`BacklinksDomainIntersectionLiveItem`](BacklinksDomainIntersectionLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:142495
+main.ts:142503
 
 ## Properties
 
-### domain\_intersection
+### domain\_intersection?
 
-• `Optional` **domain\_intersection**: `Object`
+> **`optional`** **domain\_intersection**: `Object`
 
 contains data on domains that link to the corresponding targets specified in the POST array
 data is provided in separate objects corresponding to domains, subdomains or pages specified in the targets object
 
 #### Index signature
 
-▪ [key: `string`]: [`BacklinksDomainIntersectionInfo`](BacklinksDomainIntersectionInfo.md)
+ \[`key`: `string`\]: [`BacklinksDomainIntersectionInfo`](BacklinksDomainIntersectionInfo.md)
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionLiveItem](../interfaces/IBacklinksDomainIntersectionLiveItem.md).[domain_intersection](../interfaces/IBacklinksDomainIntersectionLiveItem.md#domain_intersection)
+[`IBacklinksDomainIntersectionLiveItem`](../interfaces/IBacklinksDomainIntersectionLiveItem.md).[`domain_intersection`](../interfaces/IBacklinksDomainIntersectionLiveItem.md#domain_intersection)
 
-#### Defined in
+#### Source
 
-main.ts:142489
+main.ts:142497
 
-___
+***
 
-### summary
+### summary?
 
-• `Optional` **summary**: [`IntersectionSummaryInfo`](IntersectionSummaryInfo.md)
+> **`optional`** **summary**: [`IntersectionSummaryInfo`](IntersectionSummaryInfo.md)
 
 contains the domain intersections summary
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionLiveItem](../interfaces/IBacklinksDomainIntersectionLiveItem.md).[summary](../interfaces/IBacklinksDomainIntersectionLiveItem.md#summary)
+[`IBacklinksDomainIntersectionLiveItem`](../interfaces/IBacklinksDomainIntersectionLiveItem.md).[`summary`](../interfaces/IBacklinksDomainIntersectionLiveItem.md#summary)
 
-#### Defined in
+#### Source
 
-main.ts:142491
+main.ts:142499
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:142504
+main.ts:142512
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:142528
+main.ts:142536
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BacklinksDomainIntersectionLiveItem`](BacklinksDomainIntersectionLiveItem.md)
+> **`static`** **fromJS**(`data`): [`BacklinksDomainIntersectionLiveItem`](BacklinksDomainIntersectionLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BacklinksDomainIntersectionLiveItem`](BacklinksDomainIntersectionLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:142521
+main.ts:142529

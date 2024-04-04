@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleJobsTaskGetHtmlResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleJobsTaskGetHtmlResultInfo
 
 # Class: SerpGoogleJobsTaskGetHtmlResultInfo
 
@@ -8,56 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleJobsTaskGetHtmlResultInfo.md#constructor)
-
-### Properties
-
-- [datetime](SerpGoogleJobsTaskGetHtmlResultInfo.md#datetime)
-- [items](SerpGoogleJobsTaskGetHtmlResultInfo.md#items)
-- [items\_count](SerpGoogleJobsTaskGetHtmlResultInfo.md#items_count)
-- [keyword](SerpGoogleJobsTaskGetHtmlResultInfo.md#keyword)
-- [language\_code](SerpGoogleJobsTaskGetHtmlResultInfo.md#language_code)
-- [location\_code](SerpGoogleJobsTaskGetHtmlResultInfo.md#location_code)
-- [se\_domain](SerpGoogleJobsTaskGetHtmlResultInfo.md#se_domain)
-- [type](SerpGoogleJobsTaskGetHtmlResultInfo.md#type)
-
-### Methods
-
-- [init](SerpGoogleJobsTaskGetHtmlResultInfo.md#init)
-- [toJSON](SerpGoogleJobsTaskGetHtmlResultInfo.md#tojson)
-- [fromJS](SerpGoogleJobsTaskGetHtmlResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleJobsTaskGetHtmlResultInfo(data)
 
-• **new SerpGoogleJobsTaskGetHtmlResultInfo**(`data?`): [`SerpGoogleJobsTaskGetHtmlResultInfo`](SerpGoogleJobsTaskGetHtmlResultInfo.md)
+> **new SerpGoogleJobsTaskGetHtmlResultInfo**(`data`?): [`SerpGoogleJobsTaskGetHtmlResultInfo`](SerpGoogleJobsTaskGetHtmlResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleJobsTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleJobsTaskGetHtmlResultInfo.md) |
+• **data?**: [`ISerpGoogleJobsTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleJobsTaskGetHtmlResultInfo.md)
 
 #### Returns
 
 [`SerpGoogleJobsTaskGetHtmlResultInfo`](SerpGoogleJobsTaskGetHtmlResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:50307
+main.ts:50315
 
 ## Properties
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -66,181 +45,175 @@ example:
 
 #### Implementation of
 
-[ISerpGoogleJobsTaskGetHtmlResultInfo](../interfaces/ISerpGoogleJobsTaskGetHtmlResultInfo.md).[datetime](../interfaces/ISerpGoogleJobsTaskGetHtmlResultInfo.md#datetime)
+[`ISerpGoogleJobsTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleJobsTaskGetHtmlResultInfo.md).[`datetime`](../interfaces/ISerpGoogleJobsTaskGetHtmlResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
-main.ts:50299
+main.ts:50307
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`HtmlItem`](HtmlItem.md)[]
+> **`optional`** **items**: [`HtmlItem`](HtmlItem.md)[]
 
 elements of search results found in SERP
 
 #### Implementation of
 
-[ISerpGoogleJobsTaskGetHtmlResultInfo](../interfaces/ISerpGoogleJobsTaskGetHtmlResultInfo.md).[items](../interfaces/ISerpGoogleJobsTaskGetHtmlResultInfo.md#items)
+[`ISerpGoogleJobsTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleJobsTaskGetHtmlResultInfo.md).[`items`](../interfaces/ISerpGoogleJobsTaskGetHtmlResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:50303
+main.ts:50311
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[ISerpGoogleJobsTaskGetHtmlResultInfo](../interfaces/ISerpGoogleJobsTaskGetHtmlResultInfo.md).[items_count](../interfaces/ISerpGoogleJobsTaskGetHtmlResultInfo.md#items_count)
+[`ISerpGoogleJobsTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleJobsTaskGetHtmlResultInfo.md).[`items_count`](../interfaces/ISerpGoogleJobsTaskGetHtmlResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:50301
+main.ts:50309
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
-[ISerpGoogleJobsTaskGetHtmlResultInfo](../interfaces/ISerpGoogleJobsTaskGetHtmlResultInfo.md).[keyword](../interfaces/ISerpGoogleJobsTaskGetHtmlResultInfo.md#keyword)
+[`ISerpGoogleJobsTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleJobsTaskGetHtmlResultInfo.md).[`keyword`](../interfaces/ISerpGoogleJobsTaskGetHtmlResultInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:50286
+main.ts:50294
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[ISerpGoogleJobsTaskGetHtmlResultInfo](../interfaces/ISerpGoogleJobsTaskGetHtmlResultInfo.md).[language_code](../interfaces/ISerpGoogleJobsTaskGetHtmlResultInfo.md#language_code)
+[`ISerpGoogleJobsTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleJobsTaskGetHtmlResultInfo.md).[`language_code`](../interfaces/ISerpGoogleJobsTaskGetHtmlResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:50294
+main.ts:50302
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[ISerpGoogleJobsTaskGetHtmlResultInfo](../interfaces/ISerpGoogleJobsTaskGetHtmlResultInfo.md).[location_code](../interfaces/ISerpGoogleJobsTaskGetHtmlResultInfo.md#location_code)
+[`ISerpGoogleJobsTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleJobsTaskGetHtmlResultInfo.md).[`location_code`](../interfaces/ISerpGoogleJobsTaskGetHtmlResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:50292
+main.ts:50300
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
 #### Implementation of
 
-[ISerpGoogleJobsTaskGetHtmlResultInfo](../interfaces/ISerpGoogleJobsTaskGetHtmlResultInfo.md).[se_domain](../interfaces/ISerpGoogleJobsTaskGetHtmlResultInfo.md#se_domain)
+[`ISerpGoogleJobsTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleJobsTaskGetHtmlResultInfo.md).[`se_domain`](../interfaces/ISerpGoogleJobsTaskGetHtmlResultInfo.md#se_domain)
 
-#### Defined in
+#### Source
 
-main.ts:50290
+main.ts:50298
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[ISerpGoogleJobsTaskGetHtmlResultInfo](../interfaces/ISerpGoogleJobsTaskGetHtmlResultInfo.md).[type](../interfaces/ISerpGoogleJobsTaskGetHtmlResultInfo.md#type)
+[`ISerpGoogleJobsTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleJobsTaskGetHtmlResultInfo.md).[`type`](../interfaces/ISerpGoogleJobsTaskGetHtmlResultInfo.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:50288
+main.ts:50296
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:50316
+main.ts:50324
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:50344
+main.ts:50352
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleJobsTaskGetHtmlResultInfo`](SerpGoogleJobsTaskGetHtmlResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleJobsTaskGetHtmlResultInfo`](SerpGoogleJobsTaskGetHtmlResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpGoogleJobsTaskGetHtmlResultInfo`](SerpGoogleJobsTaskGetHtmlResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:50337
+main.ts:50345

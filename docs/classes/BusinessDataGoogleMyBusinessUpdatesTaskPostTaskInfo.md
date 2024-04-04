@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo
 
 # Class: BusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`BusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](BusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md#cost)
-- [data](BusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md#data)
-- [id](BusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md#id)
-- [path](BusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md#path)
-- [result](BusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md#result)
-- [result\_count](BusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md#result_count)
-- [status\_code](BusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md#status_code)
-- [status\_message](BusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md#status_message)
-- [time](BusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md#time)
-
-### Methods
-
-- [init](BusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md#init)
-- [toJSON](BusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md#tojson)
-- [fromJS](BusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo(data)
 
-• **new BusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo**(`data?`): [`BusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo`](BusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md)
+> **new BusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo**(`data`?): [`BusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo`](BusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md) |
+• **data?**: [`IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md)
 
 #### Returns
 
@@ -58,139 +34,139 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:197523
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md).[cost](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md#cost)
+[`IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md).[`cost`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md).[data](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md#data)
+[`IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md).[`data`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md).[id](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md#id)
+[`IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md).[`id`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md).[path](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md#path)
+[`IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md).[`path`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: `any`
+> **`optional`** **result**: `any`
 
 array of results
 in this case, the value will be null
 
 #### Implementation of
 
-[IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md).[result](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md#result)
+[`IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md).[`result`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
 main.ts:197519
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md).[result_count](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md#result_count)
+[`IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md).[`result_count`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -198,68 +174,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md).[status_code](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md#status_code)
+[`IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md).[`status_code`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md).[status_message](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md#status_message)
+[`IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md).[`status_message`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md).[time](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md#time)
+[`IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md).[`time`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -267,23 +241,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:197527
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -291,23 +263,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:197545
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo`](BusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo`](BusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -315,8 +285,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:197538

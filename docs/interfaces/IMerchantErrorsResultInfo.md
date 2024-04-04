@@ -1,153 +1,138 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMerchantErrorsResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IMerchantErrorsResultInfo
 
 # Interface: IMerchantErrorsResultInfo
 
-## Implemented by
-
-- [`MerchantErrorsResultInfo`](../classes/MerchantErrorsResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [datetime](IMerchantErrorsResultInfo.md#datetime)
-- [error\_code](IMerchantErrorsResultInfo.md#error_code)
-- [error\_message](IMerchantErrorsResultInfo.md#error_message)
-- [function](IMerchantErrorsResultInfo.md#function)
-- [http\_code](IMerchantErrorsResultInfo.md#http_code)
-- [http\_method](IMerchantErrorsResultInfo.md#http_method)
-- [http\_response](IMerchantErrorsResultInfo.md#http_response)
-- [http\_time](IMerchantErrorsResultInfo.md#http_time)
-- [http\_url](IMerchantErrorsResultInfo.md#http_url)
-- [id](IMerchantErrorsResultInfo.md#id)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when an error occurred
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
-main.ts:168633
+main.ts:168641
 
-___
+***
 
-### error\_code
+### error\_code?
 
-• `Optional` **error\_code**: `number`
+> **`optional`** **error\_code**: `number`
 
 error code
 
-#### Defined in
+#### Source
 
-main.ts:168637
+main.ts:168645
 
-___
+***
 
-### error\_message
+### error\_message?
 
-• `Optional` **error\_message**: `string`
+> **`optional`** **error\_message**: `string`
 
 error message or error URL
 error message (see full list) or URL that caused an error
 
-#### Defined in
+#### Source
 
-main.ts:168640
+main.ts:168648
 
-___
+***
 
-### function
+### function?
 
-• `Optional` **function**: `string`
+> **`optional`** **function**: `string`
 
 corresponding API function
 
-#### Defined in
+#### Source
 
-main.ts:168635
+main.ts:168643
 
-___
+***
 
-### http\_code
+### http\_code?
 
-• `Optional` **http\_code**: `number`
+> **`optional`** **http\_code**: `number`
 
 HTTP status code
 
-#### Defined in
+#### Source
 
-main.ts:168647
+main.ts:168655
 
-___
+***
 
-### http\_method
+### http\_method?
 
-• `Optional` **http\_method**: `string`
+> **`optional`** **http\_method**: `string`
 
 HTTP method
 
-#### Defined in
+#### Source
 
-main.ts:168645
+main.ts:168653
 
-___
+***
 
-### http\_response
+### http\_response?
 
-• `Optional` **http\_response**: `string`
+> **`optional`** **http\_response**: `string`
 
 HTTP response
 server response
 
-#### Defined in
+#### Source
 
-main.ts:168653
+main.ts:168661
 
-___
+***
 
-### http\_time
+### http\_time?
 
-• `Optional` **http\_time**: `number`
+> **`optional`** **http\_time**: `number`
 
 time taken by HTTP request
 for tasks set with a pingback/postback, this field will show the time it took your server to respond
 
-#### Defined in
+#### Source
 
-main.ts:168650
+main.ts:168658
 
-___
+***
 
-### http\_url
+### http\_url?
 
-• `Optional` **http\_url**: `string`
+> **`optional`** **http\_url**: `string`
 
 URL that caused an error
 URL you used for making an API call or pingback/postback URL
 
-#### Defined in
+#### Source
 
-main.ts:168643
+main.ts:168651
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 id of the task
 
-#### Defined in
+#### Source
 
-main.ts:168628
+main.ts:168636

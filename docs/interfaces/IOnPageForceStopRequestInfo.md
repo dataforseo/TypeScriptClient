@@ -1,26 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageForceStopRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IOnPageForceStopRequestInfo
 
 # Interface: IOnPageForceStopRequestInfo
 
-## Implemented by
-
-- [`OnPageForceStopRequestInfo`](../classes/OnPageForceStopRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [id](IOnPageForceStopRequestInfo.md#id)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 ID of the task
 required field
@@ -29,6 +23,6 @@ example:
 “07131248-1535-0216-1000-17384017ad04”
 note: you can set up to 1000 id values as separate objects in the POST array
 
-#### Defined in
+#### Source
 
-main.ts:147607
+main.ts:147615

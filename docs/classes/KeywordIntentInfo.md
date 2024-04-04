@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordIntentInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordIntentInfo
 
 # Class: KeywordIntentInfo
 
@@ -8,135 +12,110 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordIntentInfo.md#constructor)
-
-### Properties
-
-- [label](KeywordIntentInfo.md#label)
-- [probability](KeywordIntentInfo.md#probability)
-
-### Methods
-
-- [init](KeywordIntentInfo.md#init)
-- [toJSON](KeywordIntentInfo.md#tojson)
-- [fromJS](KeywordIntentInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordIntentInfo(data)
 
-• **new KeywordIntentInfo**(`data?`): [`KeywordIntentInfo`](KeywordIntentInfo.md)
+> **new KeywordIntentInfo**(`data`?): [`KeywordIntentInfo`](KeywordIntentInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordIntentInfo`](../interfaces/IKeywordIntentInfo.md) |
+• **data?**: [`IKeywordIntentInfo`](../interfaces/IKeywordIntentInfo.md)
 
 #### Returns
 
 [`KeywordIntentInfo`](KeywordIntentInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:85179
+main.ts:85187
 
 ## Properties
 
-### label
+### label?
 
-• `Optional` **label**: `string`
+> **`optional`** **label**: `string`
 
 search intent name
 possible values: informational, navigational, commercial, transactional
 
 #### Implementation of
 
-[IKeywordIntentInfo](../interfaces/IKeywordIntentInfo.md).[label](../interfaces/IKeywordIntentInfo.md#label)
+[`IKeywordIntentInfo`](../interfaces/IKeywordIntentInfo.md).[`label`](../interfaces/IKeywordIntentInfo.md#label)
 
-#### Defined in
+#### Source
 
-main.ts:85172
+main.ts:85180
 
-___
+***
 
-### probability
+### probability?
 
-• `Optional` **probability**: `number`
+> **`optional`** **probability**: `number`
 
 search intent probability
 1 indicates the highest probability
 
 #### Implementation of
 
-[IKeywordIntentInfo](../interfaces/IKeywordIntentInfo.md).[probability](../interfaces/IKeywordIntentInfo.md#probability)
+[`IKeywordIntentInfo`](../interfaces/IKeywordIntentInfo.md).[`probability`](../interfaces/IKeywordIntentInfo.md#probability)
 
-#### Defined in
+#### Source
 
-main.ts:85175
+main.ts:85183
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:85188
+main.ts:85196
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:85206
+main.ts:85214
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordIntentInfo`](KeywordIntentInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordIntentInfo`](KeywordIntentInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`KeywordIntentInfo`](KeywordIntentInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:85199
+main.ts:85207

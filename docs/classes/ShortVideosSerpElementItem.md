@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ShortVideosSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ShortVideosSerpElementItem
 
 # Class: ShortVideosSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-  ↳ **`ShortVideosSerpElementItem`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ShortVideosSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](ShortVideosSerpElementItem.md#_discriminator)
-- [items](ShortVideosSerpElementItem.md#items)
-- [position](ShortVideosSerpElementItem.md#position)
-- [rank\_absolute](ShortVideosSerpElementItem.md#rank_absolute)
-- [rank\_group](ShortVideosSerpElementItem.md#rank_group)
-- [rectangle](ShortVideosSerpElementItem.md#rectangle)
-- [title](ShortVideosSerpElementItem.md#title)
-- [xpath](ShortVideosSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](ShortVideosSerpElementItem.md#init)
-- [toJSON](ShortVideosSerpElementItem.md#tojson)
-- [fromJS](ShortVideosSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ShortVideosSerpElementItem(data)
 
-• **new ShortVideosSerpElementItem**(`data?`): [`ShortVideosSerpElementItem`](ShortVideosSerpElementItem.md)
+> **new ShortVideosSerpElementItem**(`data`?): [`ShortVideosSerpElementItem`](ShortVideosSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IShortVideosSerpElementItem`](../interfaces/IShortVideosSerpElementItem.md) |
+• **data?**: [`IShortVideosSerpElementItem`](../interfaces/IShortVideosSerpElementItem.md)
 
 #### Returns
 
@@ -57,48 +34,48 @@
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[constructor](BaseSerpElementItem.md#constructor)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:35873
+main.ts:35879
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[_discriminator](BaseSerpElementItem.md#_discriminator)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:19788
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`ShortVideosElement`](ShortVideosElement.md)[]
+> **`optional`** **items**: [`ShortVideosElement`](ShortVideosElement.md)[]
 
 additional items present in the element
 if there are none, equals null
 
 #### Implementation of
 
-[IShortVideosSerpElementItem](../interfaces/IShortVideosSerpElementItem.md).[items](../interfaces/IShortVideosSerpElementItem.md#items)
+[`IShortVideosSerpElementItem`](../interfaces/IShortVideosSerpElementItem.md).[`items`](../interfaces/IShortVideosSerpElementItem.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:35865
+main.ts:35871
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -106,17 +83,17 @@ left, right
 
 #### Implementation of
 
-[IShortVideosSerpElementItem](../interfaces/IShortVideosSerpElementItem.md).[position](../interfaces/IShortVideosSerpElementItem.md#position)
+[`IShortVideosSerpElementItem`](../interfaces/IShortVideosSerpElementItem.md).[`position`](../interfaces/IShortVideosSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
-main.ts:35858
+main.ts:35864
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -124,17 +101,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IShortVideosSerpElementItem](../interfaces/IShortVideosSerpElementItem.md).[rank_absolute](../interfaces/IShortVideosSerpElementItem.md#rank_absolute)
+[`IShortVideosSerpElementItem`](../interfaces/IShortVideosSerpElementItem.md).[`rank_absolute`](../interfaces/IShortVideosSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:35854
+main.ts:35860
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
@@ -143,17 +120,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IShortVideosSerpElementItem](../interfaces/IShortVideosSerpElementItem.md).[rank_group](../interfaces/IShortVideosSerpElementItem.md#rank_group)
+[`IShortVideosSerpElementItem`](../interfaces/IShortVideosSerpElementItem.md).[`rank_group`](../interfaces/IShortVideosSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
-main.ts:35850
+main.ts:35856
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -161,55 +138,53 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Implementation of
 
-[IShortVideosSerpElementItem](../interfaces/IShortVideosSerpElementItem.md).[rectangle](../interfaces/IShortVideosSerpElementItem.md#rectangle)
+[`IShortVideosSerpElementItem`](../interfaces/IShortVideosSerpElementItem.md).[`rectangle`](../interfaces/IShortVideosSerpElementItem.md#rectangle)
 
-#### Defined in
+#### Source
 
-main.ts:35869
+main.ts:35875
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the row
 
 #### Implementation of
 
-[IShortVideosSerpElementItem](../interfaces/IShortVideosSerpElementItem.md).[title](../interfaces/IShortVideosSerpElementItem.md#title)
+[`IShortVideosSerpElementItem`](../interfaces/IShortVideosSerpElementItem.md).[`title`](../interfaces/IShortVideosSerpElementItem.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:35862
+main.ts:35868
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IShortVideosSerpElementItem](../interfaces/IShortVideosSerpElementItem.md).[xpath](../interfaces/IShortVideosSerpElementItem.md#xpath)
+[`IShortVideosSerpElementItem`](../interfaces/IShortVideosSerpElementItem.md).[`xpath`](../interfaces/IShortVideosSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
-main.ts:35860
+main.ts:35866
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -217,23 +192,21 @@ main.ts:35860
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[init](BaseSerpElementItem.md#init)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:35878
+main.ts:35884
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -241,23 +214,21 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[toJSON](BaseSerpElementItem.md#tojson)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:35906
+main.ts:35912
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ShortVideosSerpElementItem`](ShortVideosSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`ShortVideosSerpElementItem`](ShortVideosSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -265,8 +236,8 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[fromJS](BaseSerpElementItem.md#fromjs)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:35899
+main.ts:35905

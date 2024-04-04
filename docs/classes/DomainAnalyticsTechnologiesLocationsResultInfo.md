@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesLocationsResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DomainAnalyticsTechnologiesLocationsResultInfo
 
 # Class: DomainAnalyticsTechnologiesLocationsResultInfo
 
@@ -8,133 +12,108 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DomainAnalyticsTechnologiesLocationsResultInfo.md#constructor)
-
-### Properties
-
-- [country\_iso\_code](DomainAnalyticsTechnologiesLocationsResultInfo.md#country_iso_code)
-- [location\_name](DomainAnalyticsTechnologiesLocationsResultInfo.md#location_name)
-
-### Methods
-
-- [init](DomainAnalyticsTechnologiesLocationsResultInfo.md#init)
-- [toJSON](DomainAnalyticsTechnologiesLocationsResultInfo.md#tojson)
-- [fromJS](DomainAnalyticsTechnologiesLocationsResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DomainAnalyticsTechnologiesLocationsResultInfo(data)
 
-• **new DomainAnalyticsTechnologiesLocationsResultInfo**(`data?`): [`DomainAnalyticsTechnologiesLocationsResultInfo`](DomainAnalyticsTechnologiesLocationsResultInfo.md)
+> **new DomainAnalyticsTechnologiesLocationsResultInfo**(`data`?): [`DomainAnalyticsTechnologiesLocationsResultInfo`](DomainAnalyticsTechnologiesLocationsResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDomainAnalyticsTechnologiesLocationsResultInfo`](../interfaces/IDomainAnalyticsTechnologiesLocationsResultInfo.md) |
+• **data?**: [`IDomainAnalyticsTechnologiesLocationsResultInfo`](../interfaces/IDomainAnalyticsTechnologiesLocationsResultInfo.md)
 
 #### Returns
 
 [`DomainAnalyticsTechnologiesLocationsResultInfo`](DomainAnalyticsTechnologiesLocationsResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:74151
+main.ts:74159
 
 ## Properties
 
-### country\_iso\_code
+### country\_iso\_code?
 
-• `Optional` **country\_iso\_code**: `string`
+> **`optional`** **country\_iso\_code**: `string`
 
 ISO country code of the location
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesLocationsResultInfo](../interfaces/IDomainAnalyticsTechnologiesLocationsResultInfo.md).[country_iso_code](../interfaces/IDomainAnalyticsTechnologiesLocationsResultInfo.md#country_iso_code)
+[`IDomainAnalyticsTechnologiesLocationsResultInfo`](../interfaces/IDomainAnalyticsTechnologiesLocationsResultInfo.md).[`country_iso_code`](../interfaces/IDomainAnalyticsTechnologiesLocationsResultInfo.md#country_iso_code)
 
-#### Defined in
+#### Source
 
-main.ts:74147
+main.ts:74155
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesLocationsResultInfo](../interfaces/IDomainAnalyticsTechnologiesLocationsResultInfo.md).[location_name](../interfaces/IDomainAnalyticsTechnologiesLocationsResultInfo.md#location_name)
+[`IDomainAnalyticsTechnologiesLocationsResultInfo`](../interfaces/IDomainAnalyticsTechnologiesLocationsResultInfo.md).[`location_name`](../interfaces/IDomainAnalyticsTechnologiesLocationsResultInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:74145
+main.ts:74153
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:74160
+main.ts:74168
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:74178
+main.ts:74186
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DomainAnalyticsTechnologiesLocationsResultInfo`](DomainAnalyticsTechnologiesLocationsResultInfo.md)
+> **`static`** **fromJS**(`data`): [`DomainAnalyticsTechnologiesLocationsResultInfo`](DomainAnalyticsTechnologiesLocationsResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DomainAnalyticsTechnologiesLocationsResultInfo`](DomainAnalyticsTechnologiesLocationsResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:74171
+main.ts:74179

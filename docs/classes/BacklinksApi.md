@@ -1,87 +1,30 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksApi
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BacklinksApi
 
 # Class: BacklinksApi
 
-## Table of contents
-
-### Constructors
-
-- [constructor](BacklinksApi.md#constructor)
-
-### Properties
-
-- [baseUrl](BacklinksApi.md#baseurl)
-- [http](BacklinksApi.md#http)
-- [jsonParseReviver](BacklinksApi.md#jsonparsereviver)
-
-### Methods
-
-- [anchorsLive](BacklinksApi.md#anchorslive)
-- [backlinksAvailableFilters](BacklinksApi.md#backlinksavailablefilters)
-- [backlinksErrors](BacklinksApi.md#backlinkserrors)
-- [backlinksIdList](BacklinksApi.md#backlinksidlist)
-- [backlinksLive](BacklinksApi.md#backlinkslive)
-- [bulkBacklinksLive](BacklinksApi.md#bulkbacklinkslive)
-- [bulkNewLostBacklinksLive](BacklinksApi.md#bulknewlostbacklinkslive)
-- [bulkNewLostReferringDomainsLive](BacklinksApi.md#bulknewlostreferringdomainslive)
-- [bulkRanksLive](BacklinksApi.md#bulkrankslive)
-- [bulkReferringDomainsLive](BacklinksApi.md#bulkreferringdomainslive)
-- [bulkSpamScoreLive](BacklinksApi.md#bulkspamscorelive)
-- [competitorsLive](BacklinksApi.md#competitorslive)
-- [domainIntersectionLive](BacklinksApi.md#domainintersectionlive)
-- [domainPagesLive](BacklinksApi.md#domainpageslive)
-- [domainPagesSummaryLive](BacklinksApi.md#domainpagessummarylive)
-- [historyLive](BacklinksApi.md#historylive)
-- [index](BacklinksApi.md#index)
-- [pageIntersectionLive](BacklinksApi.md#pageintersectionlive)
-- [processAnchorsLive](BacklinksApi.md#processanchorslive)
-- [processBacklinksAvailableFilters](BacklinksApi.md#processbacklinksavailablefilters)
-- [processBacklinksErrors](BacklinksApi.md#processbacklinkserrors)
-- [processBacklinksIdList](BacklinksApi.md#processbacklinksidlist)
-- [processBacklinksLive](BacklinksApi.md#processbacklinkslive)
-- [processBulkBacklinksLive](BacklinksApi.md#processbulkbacklinkslive)
-- [processBulkNewLostBacklinksLive](BacklinksApi.md#processbulknewlostbacklinkslive)
-- [processBulkNewLostReferringDomainsLive](BacklinksApi.md#processbulknewlostreferringdomainslive)
-- [processBulkRanksLive](BacklinksApi.md#processbulkrankslive)
-- [processBulkReferringDomainsLive](BacklinksApi.md#processbulkreferringdomainslive)
-- [processBulkSpamScoreLive](BacklinksApi.md#processbulkspamscorelive)
-- [processCompetitorsLive](BacklinksApi.md#processcompetitorslive)
-- [processDomainIntersectionLive](BacklinksApi.md#processdomainintersectionlive)
-- [processDomainPagesLive](BacklinksApi.md#processdomainpageslive)
-- [processDomainPagesSummaryLive](BacklinksApi.md#processdomainpagessummarylive)
-- [processHistoryLive](BacklinksApi.md#processhistorylive)
-- [processIndex](BacklinksApi.md#processindex)
-- [processPageIntersectionLive](BacklinksApi.md#processpageintersectionlive)
-- [processReferringDomainsLive](BacklinksApi.md#processreferringdomainslive)
-- [processReferringNetworksLive](BacklinksApi.md#processreferringnetworkslive)
-- [processSummaryLive](BacklinksApi.md#processsummarylive)
-- [processTimeseriesNewLostSummaryLive](BacklinksApi.md#processtimeseriesnewlostsummarylive)
-- [processTimeseriesSummaryLive](BacklinksApi.md#processtimeseriessummarylive)
-- [referringDomainsLive](BacklinksApi.md#referringdomainslive)
-- [referringNetworksLive](BacklinksApi.md#referringnetworkslive)
-- [summaryLive](BacklinksApi.md#summarylive)
-- [timeseriesNewLostSummaryLive](BacklinksApi.md#timeseriesnewlostsummarylive)
-- [timeseriesSummaryLive](BacklinksApi.md#timeseriessummarylive)
-
 ## Constructors
 
-### constructor
+### new BacklinksApi(baseUrl, http)
 
-• **new BacklinksApi**(`baseUrl?`, `http?`): [`BacklinksApi`](BacklinksApi.md)
+> **new BacklinksApi**(`baseUrl`?, `http`?): [`BacklinksApi`](BacklinksApi.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `baseUrl?` | `string` |
-| `http?` | `Object` |
-| `http.fetch` | (`url`: `RequestInfo`, `init?`: `RequestInit`) => `Promise`\<`Response`\> |
+• **baseUrl?**: `string`
+
+• **http?**
+
+• **http\.fetch?**
 
 #### Returns
 
 [`BacklinksApi`](BacklinksApi.md)
 
-#### Defined in
+#### Source
 
 main.ts:10983
 
@@ -89,64 +32,65 @@ main.ts:10983
 
 ### baseUrl
 
-• `Private` **baseUrl**: `string`
+> **`private`** **baseUrl**: `string`
 
-#### Defined in
+#### Source
 
 main.ts:10980
 
-___
+***
 
 ### http
 
-• `Private` **http**: `Object`
+> **`private`** **http**: `Object`
 
-#### Type declaration
-
-| Name | Type |
-| :------ | :------ |
-| `fetch` | (`url`: `RequestInfo`, `init?`: `RequestInit`) => `Promise`\<`Response`\> |
-
-#### Defined in
-
-main.ts:10979
-
-___
-
-### jsonParseReviver
-
-• `Protected` **jsonParseReviver**: (`key`: `string`, `value`: `any`) => `any` = `undefined`
-
-#### Type declaration
-
-▸ (`key`, `value`): `any`
+#### http.fetch()
 
 ##### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `key` | `string` |
-| `value` | `any` |
+• **url**: `RequestInfo`
+
+• **init?**: `RequestInit`
 
 ##### Returns
 
+`Promise`\<`Response`\>
+
+#### Source
+
+main.ts:10979
+
+***
+
+### jsonParseReviver
+
+> **`protected`** **jsonParseReviver**: (`key`, `value`) => `any` = `undefined`
+
+#### Parameters
+
+• **key**: `string`
+
+• **value**: `any`
+
+#### Returns
+
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:10981
 
 ## Methods
 
-### anchorsLive
+### anchorsLive()
 
-▸ **anchorsLive**(`body`): `Promise`\<[`BacklinksAnchorsLiveResponseInfo`](BacklinksAnchorsLiveResponseInfo.md)\>
+> **anchorsLive**(`body`): `Promise`\<[`BacklinksAnchorsLiveResponseInfo`](BacklinksAnchorsLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`BacklinksAnchorsLiveRequestInfo`](BacklinksAnchorsLiveRequestInfo.md)[] | (optional) |
+• **body**: [`BacklinksAnchorsLiveRequestInfo`](BacklinksAnchorsLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -154,15 +98,15 @@ main.ts:10981
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:11276
 
-___
+***
 
-### backlinksAvailableFilters
+### backlinksAvailableFilters()
 
-▸ **backlinksAvailableFilters**(): `Promise`\<[`BacklinksAvailableFiltersResponseInfo`](BacklinksAvailableFiltersResponseInfo.md)\>
+> **backlinksAvailableFilters**(): `Promise`\<[`BacklinksAvailableFiltersResponseInfo`](BacklinksAvailableFiltersResponseInfo.md)\>
 
 #### Returns
 
@@ -170,21 +114,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:11075
 
-___
+***
 
-### backlinksErrors
+### backlinksErrors()
 
-▸ **backlinksErrors**(`body`): `Promise`\<[`BacklinksErrorsResponseInfo`](BacklinksErrorsResponseInfo.md)\>
+> **backlinksErrors**(`body`): `Promise`\<[`BacklinksErrorsResponseInfo`](BacklinksErrorsResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`BacklinksErrorsRequestInfo`](BacklinksErrorsRequestInfo.md)[] | (optional) |
+• **body**: [`BacklinksErrorsRequestInfo`](BacklinksErrorsRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -192,21 +136,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:11034
 
-___
+***
 
-### backlinksIdList
+### backlinksIdList()
 
-▸ **backlinksIdList**(`body`): `Promise`\<[`BacklinksIdListResponseInfo`](BacklinksIdListResponseInfo.md)\>
+> **backlinksIdList**(`body`): `Promise`\<[`BacklinksIdListResponseInfo`](BacklinksIdListResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`BacklinksIdListRequestInfo`](BacklinksIdListRequestInfo.md)[] | (optional) |
+• **body**: [`BacklinksIdListRequestInfo`](BacklinksIdListRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -214,21 +158,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:10992
 
-___
+***
 
-### backlinksLive
+### backlinksLive()
 
-▸ **backlinksLive**(`body`): `Promise`\<[`BacklinksBacklinksLiveResponseInfo`](BacklinksBacklinksLiveResponseInfo.md)\>
+> **backlinksLive**(`body`): `Promise`\<[`BacklinksBacklinksLiveResponseInfo`](BacklinksBacklinksLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`BacklinksBacklinksLiveRequestInfo`](BacklinksBacklinksLiveRequestInfo.md)[] | (optional) |
+• **body**: [`BacklinksBacklinksLiveRequestInfo`](BacklinksBacklinksLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -236,21 +180,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:11234
 
-___
+***
 
-### bulkBacklinksLive
+### bulkBacklinksLive()
 
-▸ **bulkBacklinksLive**(`body`): `Promise`\<[`BacklinksBulkBacklinksLiveResponseInfo`](BacklinksBulkBacklinksLiveResponseInfo.md)\>
+> **bulkBacklinksLive**(`body`): `Promise`\<[`BacklinksBulkBacklinksLiveResponseInfo`](BacklinksBulkBacklinksLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`BacklinksBulkBacklinksLiveRequestInfo`](BacklinksBulkBacklinksLiveRequestInfo.md)[] | (optional) |
+• **body**: [`BacklinksBulkBacklinksLiveRequestInfo`](BacklinksBulkBacklinksLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -258,21 +202,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:11738
 
-___
+***
 
-### bulkNewLostBacklinksLive
+### bulkNewLostBacklinksLive()
 
-▸ **bulkNewLostBacklinksLive**(`body`): `Promise`\<[`BacklinksBulkNewLostBacklinksLiveResponseInfo`](BacklinksBulkNewLostBacklinksLiveResponseInfo.md)\>
+> **bulkNewLostBacklinksLive**(`body`): `Promise`\<[`BacklinksBulkNewLostBacklinksLiveResponseInfo`](BacklinksBulkNewLostBacklinksLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`BacklinksBulkNewLostBacklinksLiveRequestInfo`](BacklinksBulkNewLostBacklinksLiveRequestInfo.md)[] | (optional) |
+• **body**: [`BacklinksBulkNewLostBacklinksLiveRequestInfo`](BacklinksBulkNewLostBacklinksLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -280,21 +224,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:11864
 
-___
+***
 
-### bulkNewLostReferringDomainsLive
+### bulkNewLostReferringDomainsLive()
 
-▸ **bulkNewLostReferringDomainsLive**(`body`): `Promise`\<[`BacklinksBulkNewLostReferringDomainsLiveResponseInfo`](BacklinksBulkNewLostReferringDomainsLiveResponseInfo.md)\>
+> **bulkNewLostReferringDomainsLive**(`body`): `Promise`\<[`BacklinksBulkNewLostReferringDomainsLiveResponseInfo`](BacklinksBulkNewLostReferringDomainsLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`BacklinksBulkNewLostReferringDomainsLiveRequestInfo`](BacklinksBulkNewLostReferringDomainsLiveRequestInfo.md)[] | (optional) |
+• **body**: [`BacklinksBulkNewLostReferringDomainsLiveRequestInfo`](BacklinksBulkNewLostReferringDomainsLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -302,21 +246,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:11906
 
-___
+***
 
-### bulkRanksLive
+### bulkRanksLive()
 
-▸ **bulkRanksLive**(`body`): `Promise`\<[`BacklinksBulkRanksLiveResponseInfo`](BacklinksBulkRanksLiveResponseInfo.md)\>
+> **bulkRanksLive**(`body`): `Promise`\<[`BacklinksBulkRanksLiveResponseInfo`](BacklinksBulkRanksLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`BacklinksBulkRanksLiveRequestInfo`](BacklinksBulkRanksLiveRequestInfo.md)[] | (optional) |
+• **body**: [`BacklinksBulkRanksLiveRequestInfo`](BacklinksBulkRanksLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -324,21 +268,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:11696
 
-___
+***
 
-### bulkReferringDomainsLive
+### bulkReferringDomainsLive()
 
-▸ **bulkReferringDomainsLive**(`body`): `Promise`\<[`BacklinksBulkReferringDomainsLiveResponseInfo`](BacklinksBulkReferringDomainsLiveResponseInfo.md)\>
+> **bulkReferringDomainsLive**(`body`): `Promise`\<[`BacklinksBulkReferringDomainsLiveResponseInfo`](BacklinksBulkReferringDomainsLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`BacklinksBulkReferringDomainsLiveRequestInfo`](BacklinksBulkReferringDomainsLiveRequestInfo.md)[] | (optional) |
+• **body**: [`BacklinksBulkReferringDomainsLiveRequestInfo`](BacklinksBulkReferringDomainsLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -346,21 +290,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:11822
 
-___
+***
 
-### bulkSpamScoreLive
+### bulkSpamScoreLive()
 
-▸ **bulkSpamScoreLive**(`body`): `Promise`\<[`BacklinksBulkSpamScoreLiveResponseInfo`](BacklinksBulkSpamScoreLiveResponseInfo.md)\>
+> **bulkSpamScoreLive**(`body`): `Promise`\<[`BacklinksBulkSpamScoreLiveResponseInfo`](BacklinksBulkSpamScoreLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`BacklinksBulkSpamScoreLiveRequestInfo`](BacklinksBulkSpamScoreLiveRequestInfo.md)[] | (optional) |
+• **body**: [`BacklinksBulkSpamScoreLiveRequestInfo`](BacklinksBulkSpamScoreLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -368,21 +312,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:11780
 
-___
+***
 
-### competitorsLive
+### competitorsLive()
 
-▸ **competitorsLive**(`body`): `Promise`\<[`BacklinksCompetitorsLiveResponseInfo`](BacklinksCompetitorsLiveResponseInfo.md)\>
+> **competitorsLive**(`body`): `Promise`\<[`BacklinksCompetitorsLiveResponseInfo`](BacklinksCompetitorsLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`BacklinksCompetitorsLiveRequestInfo`](BacklinksCompetitorsLiveRequestInfo.md)[] | (optional) |
+• **body**: [`BacklinksCompetitorsLiveRequestInfo`](BacklinksCompetitorsLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -390,21 +334,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:11486
 
-___
+***
 
-### domainIntersectionLive
+### domainIntersectionLive()
 
-▸ **domainIntersectionLive**(`body`): `Promise`\<[`BacklinksDomainIntersectionLiveResponseInfo`](BacklinksDomainIntersectionLiveResponseInfo.md)\>
+> **domainIntersectionLive**(`body`): `Promise`\<[`BacklinksDomainIntersectionLiveResponseInfo`](BacklinksDomainIntersectionLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`BacklinksDomainIntersectionLiveRequestInfo`](BacklinksDomainIntersectionLiveRequestInfo.md)[] | (optional) |
+• **body**: [`BacklinksDomainIntersectionLiveRequestInfo`](BacklinksDomainIntersectionLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -412,21 +356,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:11528
 
-___
+***
 
-### domainPagesLive
+### domainPagesLive()
 
-▸ **domainPagesLive**(`body`): `Promise`\<[`BacklinksDomainPagesLiveResponseInfo`](BacklinksDomainPagesLiveResponseInfo.md)\>
+> **domainPagesLive**(`body`): `Promise`\<[`BacklinksDomainPagesLiveResponseInfo`](BacklinksDomainPagesLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`BacklinksDomainPagesLiveRequestInfo`](BacklinksDomainPagesLiveRequestInfo.md)[] | (optional) |
+• **body**: [`BacklinksDomainPagesLiveRequestInfo`](BacklinksDomainPagesLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -434,21 +378,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:11318
 
-___
+***
 
-### domainPagesSummaryLive
+### domainPagesSummaryLive()
 
-▸ **domainPagesSummaryLive**(`body`): `Promise`\<[`BacklinksDomainPagesSummaryLiveResponseInfo`](BacklinksDomainPagesSummaryLiveResponseInfo.md)\>
+> **domainPagesSummaryLive**(`body`): `Promise`\<[`BacklinksDomainPagesSummaryLiveResponseInfo`](BacklinksDomainPagesSummaryLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`BacklinksDomainPagesSummaryLiveRequestInfo`](BacklinksDomainPagesSummaryLiveRequestInfo.md)[] | (optional) |
+• **body**: [`BacklinksDomainPagesSummaryLiveRequestInfo`](BacklinksDomainPagesSummaryLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -456,21 +400,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:11360
 
-___
+***
 
-### historyLive
+### historyLive()
 
-▸ **historyLive**(`body`): `Promise`\<[`BacklinksHistoryLiveResponseInfo`](BacklinksHistoryLiveResponseInfo.md)\>
+> **historyLive**(`body`): `Promise`\<[`BacklinksHistoryLiveResponseInfo`](BacklinksHistoryLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`BacklinksHistoryLiveRequestInfo`](BacklinksHistoryLiveRequestInfo.md)[] | (optional) |
+• **body**: [`BacklinksHistoryLiveRequestInfo`](BacklinksHistoryLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -478,15 +422,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:11192
 
-___
+***
 
-### index
+### index()
 
-▸ **index**(): `Promise`\<[`BacklinksIndexResponseInfo`](BacklinksIndexResponseInfo.md)\>
+> **index**(): `Promise`\<[`BacklinksIndexResponseInfo`](BacklinksIndexResponseInfo.md)\>
 
 #### Returns
 
@@ -494,21 +438,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:11112
 
-___
+***
 
-### pageIntersectionLive
+### pageIntersectionLive()
 
-▸ **pageIntersectionLive**(`body`): `Promise`\<[`BacklinksPageIntersectionLiveResponseInfo`](BacklinksPageIntersectionLiveResponseInfo.md)\>
+> **pageIntersectionLive**(`body`): `Promise`\<[`BacklinksPageIntersectionLiveResponseInfo`](BacklinksPageIntersectionLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`BacklinksPageIntersectionLiveRequestInfo`](BacklinksPageIntersectionLiveRequestInfo.md)[] | (optional) |
+• **body**: [`BacklinksPageIntersectionLiveRequestInfo`](BacklinksPageIntersectionLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -516,481 +460,435 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:11570
 
-___
+***
 
-### processAnchorsLive
+### processAnchorsLive()
 
-▸ **processAnchorsLive**(`response`): `Promise`\<[`BacklinksAnchorsLiveResponseInfo`](BacklinksAnchorsLiveResponseInfo.md)\>
+> **`protected`** **processAnchorsLive**(`response`): `Promise`\<[`BacklinksAnchorsLiveResponseInfo`](BacklinksAnchorsLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BacklinksAnchorsLiveResponseInfo`](BacklinksAnchorsLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:11296
 
-___
+***
 
-### processBacklinksAvailableFilters
+### processBacklinksAvailableFilters()
 
-▸ **processBacklinksAvailableFilters**(`response`): `Promise`\<[`BacklinksAvailableFiltersResponseInfo`](BacklinksAvailableFiltersResponseInfo.md)\>
+> **`protected`** **processBacklinksAvailableFilters**(`response`): `Promise`\<[`BacklinksAvailableFiltersResponseInfo`](BacklinksAvailableFiltersResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BacklinksAvailableFiltersResponseInfo`](BacklinksAvailableFiltersResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:11091
 
-___
+***
 
-### processBacklinksErrors
+### processBacklinksErrors()
 
-▸ **processBacklinksErrors**(`response`): `Promise`\<[`BacklinksErrorsResponseInfo`](BacklinksErrorsResponseInfo.md)\>
+> **`protected`** **processBacklinksErrors**(`response`): `Promise`\<[`BacklinksErrorsResponseInfo`](BacklinksErrorsResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BacklinksErrorsResponseInfo`](BacklinksErrorsResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:11054
 
-___
+***
 
-### processBacklinksIdList
+### processBacklinksIdList()
 
-▸ **processBacklinksIdList**(`response`): `Promise`\<[`BacklinksIdListResponseInfo`](BacklinksIdListResponseInfo.md)\>
+> **`protected`** **processBacklinksIdList**(`response`): `Promise`\<[`BacklinksIdListResponseInfo`](BacklinksIdListResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BacklinksIdListResponseInfo`](BacklinksIdListResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:11012
 
-___
+***
 
-### processBacklinksLive
+### processBacklinksLive()
 
-▸ **processBacklinksLive**(`response`): `Promise`\<[`BacklinksBacklinksLiveResponseInfo`](BacklinksBacklinksLiveResponseInfo.md)\>
+> **`protected`** **processBacklinksLive**(`response`): `Promise`\<[`BacklinksBacklinksLiveResponseInfo`](BacklinksBacklinksLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BacklinksBacklinksLiveResponseInfo`](BacklinksBacklinksLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:11254
 
-___
+***
 
-### processBulkBacklinksLive
+### processBulkBacklinksLive()
 
-▸ **processBulkBacklinksLive**(`response`): `Promise`\<[`BacklinksBulkBacklinksLiveResponseInfo`](BacklinksBulkBacklinksLiveResponseInfo.md)\>
+> **`protected`** **processBulkBacklinksLive**(`response`): `Promise`\<[`BacklinksBulkBacklinksLiveResponseInfo`](BacklinksBulkBacklinksLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BacklinksBulkBacklinksLiveResponseInfo`](BacklinksBulkBacklinksLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:11758
 
-___
+***
 
-### processBulkNewLostBacklinksLive
+### processBulkNewLostBacklinksLive()
 
-▸ **processBulkNewLostBacklinksLive**(`response`): `Promise`\<[`BacklinksBulkNewLostBacklinksLiveResponseInfo`](BacklinksBulkNewLostBacklinksLiveResponseInfo.md)\>
+> **`protected`** **processBulkNewLostBacklinksLive**(`response`): `Promise`\<[`BacklinksBulkNewLostBacklinksLiveResponseInfo`](BacklinksBulkNewLostBacklinksLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BacklinksBulkNewLostBacklinksLiveResponseInfo`](BacklinksBulkNewLostBacklinksLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:11884
 
-___
+***
 
-### processBulkNewLostReferringDomainsLive
+### processBulkNewLostReferringDomainsLive()
 
-▸ **processBulkNewLostReferringDomainsLive**(`response`): `Promise`\<[`BacklinksBulkNewLostReferringDomainsLiveResponseInfo`](BacklinksBulkNewLostReferringDomainsLiveResponseInfo.md)\>
+> **`protected`** **processBulkNewLostReferringDomainsLive**(`response`): `Promise`\<[`BacklinksBulkNewLostReferringDomainsLiveResponseInfo`](BacklinksBulkNewLostReferringDomainsLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BacklinksBulkNewLostReferringDomainsLiveResponseInfo`](BacklinksBulkNewLostReferringDomainsLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:11926
 
-___
+***
 
-### processBulkRanksLive
+### processBulkRanksLive()
 
-▸ **processBulkRanksLive**(`response`): `Promise`\<[`BacklinksBulkRanksLiveResponseInfo`](BacklinksBulkRanksLiveResponseInfo.md)\>
+> **`protected`** **processBulkRanksLive**(`response`): `Promise`\<[`BacklinksBulkRanksLiveResponseInfo`](BacklinksBulkRanksLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BacklinksBulkRanksLiveResponseInfo`](BacklinksBulkRanksLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:11716
 
-___
+***
 
-### processBulkReferringDomainsLive
+### processBulkReferringDomainsLive()
 
-▸ **processBulkReferringDomainsLive**(`response`): `Promise`\<[`BacklinksBulkReferringDomainsLiveResponseInfo`](BacklinksBulkReferringDomainsLiveResponseInfo.md)\>
+> **`protected`** **processBulkReferringDomainsLive**(`response`): `Promise`\<[`BacklinksBulkReferringDomainsLiveResponseInfo`](BacklinksBulkReferringDomainsLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BacklinksBulkReferringDomainsLiveResponseInfo`](BacklinksBulkReferringDomainsLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:11842
 
-___
+***
 
-### processBulkSpamScoreLive
+### processBulkSpamScoreLive()
 
-▸ **processBulkSpamScoreLive**(`response`): `Promise`\<[`BacklinksBulkSpamScoreLiveResponseInfo`](BacklinksBulkSpamScoreLiveResponseInfo.md)\>
+> **`protected`** **processBulkSpamScoreLive**(`response`): `Promise`\<[`BacklinksBulkSpamScoreLiveResponseInfo`](BacklinksBulkSpamScoreLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BacklinksBulkSpamScoreLiveResponseInfo`](BacklinksBulkSpamScoreLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:11800
 
-___
+***
 
-### processCompetitorsLive
+### processCompetitorsLive()
 
-▸ **processCompetitorsLive**(`response`): `Promise`\<[`BacklinksCompetitorsLiveResponseInfo`](BacklinksCompetitorsLiveResponseInfo.md)\>
+> **`protected`** **processCompetitorsLive**(`response`): `Promise`\<[`BacklinksCompetitorsLiveResponseInfo`](BacklinksCompetitorsLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BacklinksCompetitorsLiveResponseInfo`](BacklinksCompetitorsLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:11506
 
-___
+***
 
-### processDomainIntersectionLive
+### processDomainIntersectionLive()
 
-▸ **processDomainIntersectionLive**(`response`): `Promise`\<[`BacklinksDomainIntersectionLiveResponseInfo`](BacklinksDomainIntersectionLiveResponseInfo.md)\>
+> **`protected`** **processDomainIntersectionLive**(`response`): `Promise`\<[`BacklinksDomainIntersectionLiveResponseInfo`](BacklinksDomainIntersectionLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BacklinksDomainIntersectionLiveResponseInfo`](BacklinksDomainIntersectionLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:11548
 
-___
+***
 
-### processDomainPagesLive
+### processDomainPagesLive()
 
-▸ **processDomainPagesLive**(`response`): `Promise`\<[`BacklinksDomainPagesLiveResponseInfo`](BacklinksDomainPagesLiveResponseInfo.md)\>
+> **`protected`** **processDomainPagesLive**(`response`): `Promise`\<[`BacklinksDomainPagesLiveResponseInfo`](BacklinksDomainPagesLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BacklinksDomainPagesLiveResponseInfo`](BacklinksDomainPagesLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:11338
 
-___
+***
 
-### processDomainPagesSummaryLive
+### processDomainPagesSummaryLive()
 
-▸ **processDomainPagesSummaryLive**(`response`): `Promise`\<[`BacklinksDomainPagesSummaryLiveResponseInfo`](BacklinksDomainPagesSummaryLiveResponseInfo.md)\>
+> **`protected`** **processDomainPagesSummaryLive**(`response`): `Promise`\<[`BacklinksDomainPagesSummaryLiveResponseInfo`](BacklinksDomainPagesSummaryLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BacklinksDomainPagesSummaryLiveResponseInfo`](BacklinksDomainPagesSummaryLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:11380
 
-___
+***
 
-### processHistoryLive
+### processHistoryLive()
 
-▸ **processHistoryLive**(`response`): `Promise`\<[`BacklinksHistoryLiveResponseInfo`](BacklinksHistoryLiveResponseInfo.md)\>
+> **`protected`** **processHistoryLive**(`response`): `Promise`\<[`BacklinksHistoryLiveResponseInfo`](BacklinksHistoryLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BacklinksHistoryLiveResponseInfo`](BacklinksHistoryLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:11212
 
-___
+***
 
-### processIndex
+### processIndex()
 
-▸ **processIndex**(`response`): `Promise`\<[`BacklinksIndexResponseInfo`](BacklinksIndexResponseInfo.md)\>
+> **`protected`** **processIndex**(`response`): `Promise`\<[`BacklinksIndexResponseInfo`](BacklinksIndexResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BacklinksIndexResponseInfo`](BacklinksIndexResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:11128
 
-___
+***
 
-### processPageIntersectionLive
+### processPageIntersectionLive()
 
-▸ **processPageIntersectionLive**(`response`): `Promise`\<[`BacklinksPageIntersectionLiveResponseInfo`](BacklinksPageIntersectionLiveResponseInfo.md)\>
+> **`protected`** **processPageIntersectionLive**(`response`): `Promise`\<[`BacklinksPageIntersectionLiveResponseInfo`](BacklinksPageIntersectionLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BacklinksPageIntersectionLiveResponseInfo`](BacklinksPageIntersectionLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:11590
 
-___
+***
 
-### processReferringDomainsLive
+### processReferringDomainsLive()
 
-▸ **processReferringDomainsLive**(`response`): `Promise`\<[`BacklinksReferringDomainsLiveResponseInfo`](BacklinksReferringDomainsLiveResponseInfo.md)\>
+> **`protected`** **processReferringDomainsLive**(`response`): `Promise`\<[`BacklinksReferringDomainsLiveResponseInfo`](BacklinksReferringDomainsLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BacklinksReferringDomainsLiveResponseInfo`](BacklinksReferringDomainsLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:11422
 
-___
+***
 
-### processReferringNetworksLive
+### processReferringNetworksLive()
 
-▸ **processReferringNetworksLive**(`response`): `Promise`\<[`BacklinksReferringNetworksLiveResponseInfo`](BacklinksReferringNetworksLiveResponseInfo.md)\>
+> **`protected`** **processReferringNetworksLive**(`response`): `Promise`\<[`BacklinksReferringNetworksLiveResponseInfo`](BacklinksReferringNetworksLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BacklinksReferringNetworksLiveResponseInfo`](BacklinksReferringNetworksLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:11464
 
-___
+***
 
-### processSummaryLive
+### processSummaryLive()
 
-▸ **processSummaryLive**(`response`): `Promise`\<[`BacklinksSummaryLiveResponseInfo`](BacklinksSummaryLiveResponseInfo.md)\>
+> **`protected`** **processSummaryLive**(`response`): `Promise`\<[`BacklinksSummaryLiveResponseInfo`](BacklinksSummaryLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BacklinksSummaryLiveResponseInfo`](BacklinksSummaryLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:11170
 
-___
+***
 
-### processTimeseriesNewLostSummaryLive
+### processTimeseriesNewLostSummaryLive()
 
-▸ **processTimeseriesNewLostSummaryLive**(`response`): `Promise`\<[`BacklinksTimeseriesNewLostSummaryLiveResponseInfo`](BacklinksTimeseriesNewLostSummaryLiveResponseInfo.md)\>
+> **`protected`** **processTimeseriesNewLostSummaryLive**(`response`): `Promise`\<[`BacklinksTimeseriesNewLostSummaryLiveResponseInfo`](BacklinksTimeseriesNewLostSummaryLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BacklinksTimeseriesNewLostSummaryLiveResponseInfo`](BacklinksTimeseriesNewLostSummaryLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:11674
 
-___
+***
 
-### processTimeseriesSummaryLive
+### processTimeseriesSummaryLive()
 
-▸ **processTimeseriesSummaryLive**(`response`): `Promise`\<[`BacklinksTimeseriesSummaryLiveResponseInfo`](BacklinksTimeseriesSummaryLiveResponseInfo.md)\>
+> **`protected`** **processTimeseriesSummaryLive**(`response`): `Promise`\<[`BacklinksTimeseriesSummaryLiveResponseInfo`](BacklinksTimeseriesSummaryLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BacklinksTimeseriesSummaryLiveResponseInfo`](BacklinksTimeseriesSummaryLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:11632
 
-___
+***
 
-### referringDomainsLive
+### referringDomainsLive()
 
-▸ **referringDomainsLive**(`body`): `Promise`\<[`BacklinksReferringDomainsLiveResponseInfo`](BacklinksReferringDomainsLiveResponseInfo.md)\>
+> **referringDomainsLive**(`body`): `Promise`\<[`BacklinksReferringDomainsLiveResponseInfo`](BacklinksReferringDomainsLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`BacklinksReferringDomainsLiveRequestInfo`](BacklinksReferringDomainsLiveRequestInfo.md)[] | (optional) |
+• **body**: [`BacklinksReferringDomainsLiveRequestInfo`](BacklinksReferringDomainsLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -998,21 +896,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:11402
 
-___
+***
 
-### referringNetworksLive
+### referringNetworksLive()
 
-▸ **referringNetworksLive**(`body`): `Promise`\<[`BacklinksReferringNetworksLiveResponseInfo`](BacklinksReferringNetworksLiveResponseInfo.md)\>
+> **referringNetworksLive**(`body`): `Promise`\<[`BacklinksReferringNetworksLiveResponseInfo`](BacklinksReferringNetworksLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`BacklinksReferringNetworksLiveRequestInfo`](BacklinksReferringNetworksLiveRequestInfo.md)[] | (optional) |
+• **body**: [`BacklinksReferringNetworksLiveRequestInfo`](BacklinksReferringNetworksLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -1020,21 +918,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:11444
 
-___
+***
 
-### summaryLive
+### summaryLive()
 
-▸ **summaryLive**(`body`): `Promise`\<[`BacklinksSummaryLiveResponseInfo`](BacklinksSummaryLiveResponseInfo.md)\>
+> **summaryLive**(`body`): `Promise`\<[`BacklinksSummaryLiveResponseInfo`](BacklinksSummaryLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`BacklinksSummaryLiveRequestInfo`](BacklinksSummaryLiveRequestInfo.md)[] | (optional) |
+• **body**: [`BacklinksSummaryLiveRequestInfo`](BacklinksSummaryLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -1042,21 +940,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:11150
 
-___
+***
 
-### timeseriesNewLostSummaryLive
+### timeseriesNewLostSummaryLive()
 
-▸ **timeseriesNewLostSummaryLive**(`body`): `Promise`\<[`BacklinksTimeseriesNewLostSummaryLiveResponseInfo`](BacklinksTimeseriesNewLostSummaryLiveResponseInfo.md)\>
+> **timeseriesNewLostSummaryLive**(`body`): `Promise`\<[`BacklinksTimeseriesNewLostSummaryLiveResponseInfo`](BacklinksTimeseriesNewLostSummaryLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`BacklinksTimeseriesNewLostSummaryLiveRequestInfo`](BacklinksTimeseriesNewLostSummaryLiveRequestInfo.md)[] | (optional) |
+• **body**: [`BacklinksTimeseriesNewLostSummaryLiveRequestInfo`](BacklinksTimeseriesNewLostSummaryLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -1064,21 +962,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:11654
 
-___
+***
 
-### timeseriesSummaryLive
+### timeseriesSummaryLive()
 
-▸ **timeseriesSummaryLive**(`body`): `Promise`\<[`BacklinksTimeseriesSummaryLiveResponseInfo`](BacklinksTimeseriesSummaryLiveResponseInfo.md)\>
+> **timeseriesSummaryLive**(`body`): `Promise`\<[`BacklinksTimeseriesSummaryLiveResponseInfo`](BacklinksTimeseriesSummaryLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`BacklinksTimeseriesSummaryLiveRequestInfo`](BacklinksTimeseriesSummaryLiveRequestInfo.md)[] | (optional) |
+• **body**: [`BacklinksTimeseriesSummaryLiveRequestInfo`](BacklinksTimeseriesSummaryLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -1086,6 +984,6 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:11612

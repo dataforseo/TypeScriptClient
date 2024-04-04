@@ -1,29 +1,23 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IIntersectionSummaryInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IIntersectionSummaryInfo
 
 # Interface: IIntersectionSummaryInfo
 
-## Implemented by
-
-- [`IntersectionSummaryInfo`](../classes/IntersectionSummaryInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [intersections\_count](IIntersectionSummaryInfo.md#intersections_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### intersections\_count
+### intersections\_count?
 
-• `Optional` **intersections\_count**: `number`
+> **`optional`** **intersections\_count**: `number`
 
 total number of intersections
 
-#### Defined in
+#### Source
 
-main.ts:142481
+main.ts:142489

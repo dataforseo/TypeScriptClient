@@ -1,38 +1,31 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixStatisticsDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppendixStatisticsDataInfo
 
 # Interface: IAppendixStatisticsDataInfo
 
-## Implemented by
-
-- [`AppendixStatisticsDataInfo`](../classes/AppendixStatisticsDataInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [day](IAppendixStatisticsDataInfo.md#day)
-- [minute](IAppendixStatisticsDataInfo.md#minute)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### day
+### day?
 
-• `Optional` **day**: [`AppendixStatisticsRatesDataInfo`](../classes/AppendixStatisticsRatesDataInfo.md)
+> **`optional`** **day**: [`AppendixStatisticsRatesDataInfo`](../classes/AppendixStatisticsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:214855
 
-___
+***
 
-### minute
+### minute?
 
-• `Optional` **minute**: [`AppendixStatisticsRatesDataInfo`](../classes/AppendixStatisticsRatesDataInfo.md)
+> **`optional`** **minute**: [`AppendixStatisticsRatesDataInfo`](../classes/AppendixStatisticsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:214856

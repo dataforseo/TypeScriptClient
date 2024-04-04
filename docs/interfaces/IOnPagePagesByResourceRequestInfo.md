@@ -1,39 +1,27 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPagePagesByResourceRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IOnPagePagesByResourceRequestInfo
 
 # Interface: IOnPagePagesByResourceRequestInfo
 
-## Implemented by
-
-- [`OnPagePagesByResourceRequestInfo`](../classes/OnPagePagesByResourceRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [filters](IOnPagePagesByResourceRequestInfo.md#filters)
-- [id](IOnPagePagesByResourceRequestInfo.md#id)
-- [limit](IOnPagePagesByResourceRequestInfo.md#limit)
-- [offset](IOnPagePagesByResourceRequestInfo.md#offset)
-- [order\_by](IOnPagePagesByResourceRequestInfo.md#order_by)
-- [tag](IOnPagePagesByResourceRequestInfo.md#tag)
-- [url](IOnPagePagesByResourceRequestInfo.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, <=, >, >=, =, <>, in, not_in, like, not_like
+regex, <, `<=, >`, >=, =, <>, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["meta.external_links_count","<=",50]["url","like","https://dataforseo.com/apis/dataforseo-labs-api"]
@@ -42,15 +30,15 @@ example:
 [["page_timing.duration_time","<",100],"and",[["checks.large_page_size","=",false],"or",["checks.high_waiting_time","=",false]]]
 The full list of possible filters is available by this link.
 
-#### Defined in
+#### Source
 
-main.ts:150917
+main.ts:150925
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 ID of the task
 required field
@@ -58,45 +46,45 @@ you can get this ID in the response of the Task POST endpoint
 example:
 “07131248-1535-0216-1000-17384017ad04”
 
-#### Defined in
+#### Source
 
-main.ts:150887
+main.ts:150895
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned pages
 optional field
 default value: 100
 maximum value: 1000
 
-#### Defined in
+#### Source
 
-main.ts:150898
+main.ts:150906
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned pages
 optional field
 default value: 0
 if you specify the 10 value, the first ten pages in the results array will be omitted and the data will be provided for the successive pages
 
-#### Defined in
+#### Source
 
-main.ts:150903
+main.ts:150911
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -112,15 +100,15 @@ you should use a comma to separate several sorting rules
 example:
 ["page_timing.dom_complete,asc","size,desc"]
 
-#### Defined in
+#### Source
 
-main.ts:150931
+main.ts:150939
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -128,15 +116,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:150937
+main.ts:150945
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 resource URL
 required field
@@ -144,6 +132,6 @@ you can get this URL in the response of the Resources endpoint
 example:
 https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js
 
-#### Defined in
+#### Source
 
-main.ts:150893
+main.ts:150901

@@ -1,43 +1,36 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IInterestsComparison
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IInterestsComparison
 
 # Interface: IInterestsComparison
 
-## Implemented by
-
-- [`InterestsComparison`](../classes/InterestsComparison.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [absolute\_items](IInterestsComparison.md#absolute_items)
-- [items](IInterestsComparison.md#items)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### absolute\_items
+### absolute\_items?
 
-• `Optional` **absolute\_items**: [`AbsoluteItems`](../classes/AbsoluteItems.md)[]
+> **`optional`** **absolute\_items**: [`AbsoluteItems`](../classes/AbsoluteItems.md)[]
 
 keyword popularity rates across all locations
 values in this array represent percentages relative to the maximum value across all locations
 
-#### Defined in
+#### Source
 
-main.ts:125721
+main.ts:125729
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`AbsoluteItems`](../classes/AbsoluteItems.md)[]
+> **`optional`** **items**: [`AbsoluteItems`](../classes/AbsoluteItems.md)[]
 
 contains keyword popularity and related data
 
-#### Defined in
+#### Source
 
-main.ts:125718
+main.ts:125726

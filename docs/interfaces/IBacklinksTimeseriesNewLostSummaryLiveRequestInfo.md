@@ -1,30 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksTimeseriesNewLostSummaryLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBacklinksTimeseriesNewLostSummaryLiveRequestInfo
 
 # Interface: IBacklinksTimeseriesNewLostSummaryLiveRequestInfo
 
-## Implemented by
-
-- [`BacklinksTimeseriesNewLostSummaryLiveRequestInfo`](../classes/BacklinksTimeseriesNewLostSummaryLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [date\_from](IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md#date_from)
-- [date\_to](IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md#date_to)
-- [group\_range](IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md#group_range)
-- [tag](IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md#tag)
-- [target](IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md#target)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -37,15 +27,15 @@ date format: "yyyy-mm-dd"
 example:
 "2021-01-01"
 
-#### Defined in
+#### Source
 
-main.ts:144371
+main.ts:144379
 
-___
+***
 
-### date\_to
+### date\_to?
 
-• `Optional` **date\_to**: `string`
+> **`optional`** **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -56,15 +46,15 @@ date format: "yyyy-mm-dd"
 example:
 "2021-01-15"
 
-#### Defined in
+#### Source
 
-main.ts:144380
+main.ts:144388
 
-___
+***
 
-### group\_range
+### group\_range?
 
-• `Optional` **group\_range**: `string`
+> **`optional`** **group\_range**: `string`
 
 time range which will be used to group the results
 optional field
@@ -79,15 +69,15 @@ for example, if you specify:
 we will return items falling between 2022-03-01 and 2022-05-31, namely, three items corresponding to the following dates: 2022-03-31, 2022-04-30, 2022-05-31
 if there is no data for a certain  day/week/month/year, we will return 0
 
-#### Defined in
+#### Source
 
-main.ts:144393
+main.ts:144401
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -95,15 +85,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:144399
+main.ts:144407
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 domain to get data for
 required field
@@ -111,6 +101,6 @@ a domain should be specified without https:// and www.
 example:
 "forbes.com"
 
-#### Defined in
+#### Source
 
-main.ts:144360
+main.ts:144368

@@ -1,44 +1,37 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IPages
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IPages
 
 # Interface: IPages
 
-## Implemented by
-
-- [`Pages`](../classes/Pages.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [page](IPages.md#page)
-- [similarity](IPages.md#similarity)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### page
+### page?
 
-• `Optional` **page**: [`BaseOnPageResourceItemInfo`](../classes/BaseOnPageResourceItemInfo.md)[]
+> **`optional`** **page**: [`BaseOnPageResourceItemInfo`](../classes/BaseOnPageResourceItemInfo.md)[]
 
 information about the page with duplicate content
 
-#### Defined in
+#### Source
 
-main.ts:153035
+main.ts:153043
 
-___
+***
 
-### similarity
+### similarity?
 
-• `Optional` **similarity**: `number`
+> **`optional`** **similarity**: `number`
 
 content similarity score
 by default, the content is considered duplicate if the value is greater than or equals 6
 can take values from 0 to 10
 
-#### Defined in
+#### Source
 
-main.ts:153033
+main.ts:153041

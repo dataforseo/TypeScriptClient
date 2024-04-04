@@ -1,69 +1,60 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageRawHtmlResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IOnPageRawHtmlResultInfo
 
 # Interface: IOnPageRawHtmlResultInfo
 
-## Implemented by
-
-- [`OnPageRawHtmlResultInfo`](../classes/OnPageRawHtmlResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [crawl\_progress](IOnPageRawHtmlResultInfo.md#crawl_progress)
-- [crawl\_status](IOnPageRawHtmlResultInfo.md#crawl_status)
-- [items](IOnPageRawHtmlResultInfo.md#items)
-- [items\_count](IOnPageRawHtmlResultInfo.md#items_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### crawl\_progress
+### crawl\_progress?
 
-• `Optional` **crawl\_progress**: `string`
+> **`optional`** **crawl\_progress**: `string`
 
 status of the crawling session
 possible values: in_progress, finished
 
-#### Defined in
+#### Source
 
-main.ts:156739
+main.ts:156747
 
-___
+***
 
-### crawl\_status
+### crawl\_status?
 
-• `Optional` **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
+> **`optional`** **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
 
 details of the crawling session
 
-#### Defined in
+#### Source
 
-main.ts:156741
+main.ts:156749
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`OnPageRawHtmlItem`](../classes/OnPageRawHtmlItem.md)
+> **`optional`** **items**: [`OnPageRawHtmlItem`](../classes/OnPageRawHtmlItem.md)
 
 items array
 
-#### Defined in
+#### Source
 
-main.ts:156745
+main.ts:156753
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 number of items in the results array
 
-#### Defined in
+#### Source
 
-main.ts:156743
+main.ts:156751

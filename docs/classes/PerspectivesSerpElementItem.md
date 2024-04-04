@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / PerspectivesSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / PerspectivesSerpElementItem
 
 # Class: PerspectivesSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-  ↳ **`PerspectivesSerpElementItem`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](PerspectivesSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](PerspectivesSerpElementItem.md#_discriminator)
-- [items](PerspectivesSerpElementItem.md#items)
-- [position](PerspectivesSerpElementItem.md#position)
-- [rank\_absolute](PerspectivesSerpElementItem.md#rank_absolute)
-- [rank\_group](PerspectivesSerpElementItem.md#rank_group)
-- [rectangle](PerspectivesSerpElementItem.md#rectangle)
-- [title](PerspectivesSerpElementItem.md#title)
-- [xpath](PerspectivesSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](PerspectivesSerpElementItem.md#init)
-- [toJSON](PerspectivesSerpElementItem.md#tojson)
-- [fromJS](PerspectivesSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new PerspectivesSerpElementItem(data)
 
-• **new PerspectivesSerpElementItem**(`data?`): [`PerspectivesSerpElementItem`](PerspectivesSerpElementItem.md)
+> **new PerspectivesSerpElementItem**(`data`?): [`PerspectivesSerpElementItem`](PerspectivesSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IPerspectivesSerpElementItem`](../interfaces/IPerspectivesSerpElementItem.md) |
+• **data?**: [`IPerspectivesSerpElementItem`](../interfaces/IPerspectivesSerpElementItem.md)
 
 #### Returns
 
@@ -57,48 +34,48 @@
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[constructor](BaseSerpElementItem.md#constructor)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:36475
+main.ts:36481
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[_discriminator](BaseSerpElementItem.md#_discriminator)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:19788
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`PerspectivesElement`](PerspectivesElement.md)[]
+> **`optional`** **items**: [`PerspectivesElement`](PerspectivesElement.md)[]
 
 additional items present in the element
 if there are none, equals null
 
 #### Implementation of
 
-[IPerspectivesSerpElementItem](../interfaces/IPerspectivesSerpElementItem.md).[items](../interfaces/IPerspectivesSerpElementItem.md#items)
+[`IPerspectivesSerpElementItem`](../interfaces/IPerspectivesSerpElementItem.md).[`items`](../interfaces/IPerspectivesSerpElementItem.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:36467
+main.ts:36473
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -106,17 +83,17 @@ left, right
 
 #### Implementation of
 
-[IPerspectivesSerpElementItem](../interfaces/IPerspectivesSerpElementItem.md).[position](../interfaces/IPerspectivesSerpElementItem.md#position)
+[`IPerspectivesSerpElementItem`](../interfaces/IPerspectivesSerpElementItem.md).[`position`](../interfaces/IPerspectivesSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
-main.ts:36460
+main.ts:36466
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -124,17 +101,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IPerspectivesSerpElementItem](../interfaces/IPerspectivesSerpElementItem.md).[rank_absolute](../interfaces/IPerspectivesSerpElementItem.md#rank_absolute)
+[`IPerspectivesSerpElementItem`](../interfaces/IPerspectivesSerpElementItem.md).[`rank_absolute`](../interfaces/IPerspectivesSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:36456
+main.ts:36462
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
@@ -143,17 +120,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IPerspectivesSerpElementItem](../interfaces/IPerspectivesSerpElementItem.md).[rank_group](../interfaces/IPerspectivesSerpElementItem.md#rank_group)
+[`IPerspectivesSerpElementItem`](../interfaces/IPerspectivesSerpElementItem.md).[`rank_group`](../interfaces/IPerspectivesSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
-main.ts:36452
+main.ts:36458
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -161,55 +138,53 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Implementation of
 
-[IPerspectivesSerpElementItem](../interfaces/IPerspectivesSerpElementItem.md).[rectangle](../interfaces/IPerspectivesSerpElementItem.md#rectangle)
+[`IPerspectivesSerpElementItem`](../interfaces/IPerspectivesSerpElementItem.md).[`rectangle`](../interfaces/IPerspectivesSerpElementItem.md#rectangle)
 
-#### Defined in
+#### Source
 
-main.ts:36471
+main.ts:36477
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the row
 
 #### Implementation of
 
-[IPerspectivesSerpElementItem](../interfaces/IPerspectivesSerpElementItem.md).[title](../interfaces/IPerspectivesSerpElementItem.md#title)
+[`IPerspectivesSerpElementItem`](../interfaces/IPerspectivesSerpElementItem.md).[`title`](../interfaces/IPerspectivesSerpElementItem.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:36464
+main.ts:36470
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IPerspectivesSerpElementItem](../interfaces/IPerspectivesSerpElementItem.md).[xpath](../interfaces/IPerspectivesSerpElementItem.md#xpath)
+[`IPerspectivesSerpElementItem`](../interfaces/IPerspectivesSerpElementItem.md).[`xpath`](../interfaces/IPerspectivesSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
-main.ts:36462
+main.ts:36468
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -217,23 +192,21 @@ main.ts:36462
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[init](BaseSerpElementItem.md#init)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:36480
+main.ts:36486
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -241,23 +214,21 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[toJSON](BaseSerpElementItem.md#tojson)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:36508
+main.ts:36514
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`PerspectivesSerpElementItem`](PerspectivesSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`PerspectivesSerpElementItem`](PerspectivesSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -265,8 +236,8 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[fromJS](BaseSerpElementItem.md#fromjs)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:36501
+main.ts:36507

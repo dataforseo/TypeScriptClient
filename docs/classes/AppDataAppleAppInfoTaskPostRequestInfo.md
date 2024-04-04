@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataAppleAppInfoTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppDataAppleAppInfoTaskPostRequestInfo
 
 # Class: AppDataAppleAppInfoTaskPostRequestInfo
 
@@ -8,58 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppDataAppleAppInfoTaskPostRequestInfo.md#constructor)
-
-### Properties
-
-- [app\_id](AppDataAppleAppInfoTaskPostRequestInfo.md#app_id)
-- [language\_code](AppDataAppleAppInfoTaskPostRequestInfo.md#language_code)
-- [language\_name](AppDataAppleAppInfoTaskPostRequestInfo.md#language_name)
-- [location\_code](AppDataAppleAppInfoTaskPostRequestInfo.md#location_code)
-- [location\_name](AppDataAppleAppInfoTaskPostRequestInfo.md#location_name)
-- [pingback\_url](AppDataAppleAppInfoTaskPostRequestInfo.md#pingback_url)
-- [postback\_data](AppDataAppleAppInfoTaskPostRequestInfo.md#postback_data)
-- [postback\_url](AppDataAppleAppInfoTaskPostRequestInfo.md#postback_url)
-- [priority](AppDataAppleAppInfoTaskPostRequestInfo.md#priority)
-- [tag](AppDataAppleAppInfoTaskPostRequestInfo.md#tag)
-
-### Methods
-
-- [init](AppDataAppleAppInfoTaskPostRequestInfo.md#init)
-- [toJSON](AppDataAppleAppInfoTaskPostRequestInfo.md#tojson)
-- [fromJS](AppDataAppleAppInfoTaskPostRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppDataAppleAppInfoTaskPostRequestInfo(data)
 
-• **new AppDataAppleAppInfoTaskPostRequestInfo**(`data?`): [`AppDataAppleAppInfoTaskPostRequestInfo`](AppDataAppleAppInfoTaskPostRequestInfo.md)
+> **new AppDataAppleAppInfoTaskPostRequestInfo**(`data`?): [`AppDataAppleAppInfoTaskPostRequestInfo`](AppDataAppleAppInfoTaskPostRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppDataAppleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md) |
+• **data?**: [`IAppDataAppleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md)
 
 #### Returns
 
 [`AppDataAppleAppInfoTaskPostRequestInfo`](AppDataAppleAppInfoTaskPostRequestInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:189387
 
 ## Properties
 
-### app\_id
+### app\_id?
 
-• `Optional` **app\_id**: `string`
+> **`optional`** **app\_id**: `string`
 
 id of the app
 required field
@@ -71,17 +48,17 @@ the id is 835599320
 
 #### Implementation of
 
-[IAppDataAppleAppInfoTaskPostRequestInfo](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md).[app_id](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md#app_id)
+[`IAppDataAppleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md).[`app_id`](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md#app_id)
 
-#### Defined in
+#### Source
 
 main.ts:189315
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 optional field
@@ -92,17 +69,17 @@ en
 
 #### Implementation of
 
-[IAppDataAppleAppInfoTaskPostRequestInfo](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md).[language_code](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md#language_code)
+[`IAppDataAppleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md).[`language_code`](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
 main.ts:189343
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -113,17 +90,17 @@ English
 
 #### Implementation of
 
-[IAppDataAppleAppInfoTaskPostRequestInfo](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md).[language_name](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md#language_name)
+[`IAppDataAppleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md).[`language_name`](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
 main.ts:189336
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name
@@ -134,17 +111,17 @@ example:
 
 #### Implementation of
 
-[IAppDataAppleAppInfoTaskPostRequestInfo](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md).[location_code](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md#location_code)
+[`IAppDataAppleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md).[`location_code`](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
 main.ts:189329
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -155,17 +132,17 @@ West Los Angeles,California,United States
 
 #### Implementation of
 
-[IAppDataAppleAppInfoTaskPostRequestInfo](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md).[location_name](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md#location_name)
+[`IAppDataAppleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md).[`location_name`](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
 main.ts:189322
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -179,17 +156,17 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[IAppDataAppleAppInfoTaskPostRequestInfo](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md).[pingback_url](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md#pingback_url)
+[`IAppDataAppleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md).[`pingback_url`](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md#pingback_url)
 
-#### Defined in
+#### Source
 
 main.ts:189383
 
-___
+***
 
-### postback\_data
+### postback\_data?
 
-• `Optional` **postback\_data**: `string`
+> **`optional`** **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -199,17 +176,17 @@ advanced
 
 #### Implementation of
 
-[IAppDataAppleAppInfoTaskPostRequestInfo](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md).[postback_data](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md#postback_data)
+[`IAppDataAppleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md).[`postback_data`](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md#postback_data)
 
-#### Defined in
+#### Source
 
 main.ts:189373
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -223,17 +200,17 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[IAppDataAppleAppInfoTaskPostRequestInfo](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md).[postback_url](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md#postback_url)
+[`IAppDataAppleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md).[`postback_url`](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md#postback_url)
 
-#### Defined in
+#### Source
 
 main.ts:189367
 
-___
+***
 
-### priority
+### priority?
 
-• `Optional` **priority**: `number`
+> **`optional`** **priority**: `number`
 
 task priority
 optional field
@@ -245,17 +222,17 @@ The cost can be calculated on the Pricing page.
 
 #### Implementation of
 
-[IAppDataAppleAppInfoTaskPostRequestInfo](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md).[priority](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md#priority)
+[`IAppDataAppleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md).[`priority`](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md#priority)
 
-#### Defined in
+#### Source
 
 main.ts:189351
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -265,68 +242,62 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IAppDataAppleAppInfoTaskPostRequestInfo](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md).[tag](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md#tag)
+[`IAppDataAppleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md).[`tag`](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
 main.ts:189357
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:189396
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:189422
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppDataAppleAppInfoTaskPostRequestInfo`](AppDataAppleAppInfoTaskPostRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`AppDataAppleAppInfoTaskPostRequestInfo`](AppDataAppleAppInfoTaskPostRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppDataAppleAppInfoTaskPostRequestInfo`](AppDataAppleAppInfoTaskPostRequestInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:189415

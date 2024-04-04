@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataIdListRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataIdListRequestInfo
 
 # Class: BusinessDataIdListRequestInfo
 
@@ -8,54 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataIdListRequestInfo.md#constructor)
-
-### Properties
-
-- [datetime\_from](BusinessDataIdListRequestInfo.md#datetime_from)
-- [datetime\_to](BusinessDataIdListRequestInfo.md#datetime_to)
-- [include\_metadata](BusinessDataIdListRequestInfo.md#include_metadata)
-- [limit](BusinessDataIdListRequestInfo.md#limit)
-- [offset](BusinessDataIdListRequestInfo.md#offset)
-- [sort](BusinessDataIdListRequestInfo.md#sort)
-
-### Methods
-
-- [init](BusinessDataIdListRequestInfo.md#init)
-- [toJSON](BusinessDataIdListRequestInfo.md#tojson)
-- [fromJS](BusinessDataIdListRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataIdListRequestInfo(data)
 
-• **new BusinessDataIdListRequestInfo**(`data?`): [`BusinessDataIdListRequestInfo`](BusinessDataIdListRequestInfo.md)
+> **new BusinessDataIdListRequestInfo**(`data`?): [`BusinessDataIdListRequestInfo`](BusinessDataIdListRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataIdListRequestInfo`](../interfaces/IBusinessDataIdListRequestInfo.md) |
+• **data?**: [`IBusinessDataIdListRequestInfo`](../interfaces/IBusinessDataIdListRequestInfo.md)
 
 #### Returns
 
 [`BusinessDataIdListRequestInfo`](BusinessDataIdListRequestInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:192633
 
 ## Properties
 
-### datetime\_from
+### datetime\_from?
 
-• `Optional` **datetime\_from**: `string`
+> **`optional`** **datetime\_from**: `string`
 
 start time for filtering results
 required field
@@ -67,17 +48,17 @@ example:
 
 #### Implementation of
 
-[IBusinessDataIdListRequestInfo](../interfaces/IBusinessDataIdListRequestInfo.md).[datetime_from](../interfaces/IBusinessDataIdListRequestInfo.md#datetime_from)
+[`IBusinessDataIdListRequestInfo`](../interfaces/IBusinessDataIdListRequestInfo.md).[`datetime_from`](../interfaces/IBusinessDataIdListRequestInfo.md#datetime_from)
 
-#### Defined in
+#### Source
 
 main.ts:192603
 
-___
+***
 
-### datetime\_to
+### datetime\_to?
 
-• `Optional` **datetime\_to**: `string`
+> **`optional`** **datetime\_to**: `string`
 
 finish time for filtering results
 required field
@@ -88,17 +69,17 @@ example:
 
 #### Implementation of
 
-[IBusinessDataIdListRequestInfo](../interfaces/IBusinessDataIdListRequestInfo.md).[datetime_to](../interfaces/IBusinessDataIdListRequestInfo.md#datetime_to)
+[`IBusinessDataIdListRequestInfo`](../interfaces/IBusinessDataIdListRequestInfo.md).[`datetime_to`](../interfaces/IBusinessDataIdListRequestInfo.md#datetime_to)
 
-#### Defined in
+#### Source
 
 main.ts:192610
 
-___
+***
 
-### include\_metadata
+### include\_metadata?
 
-• `Optional` **include\_metadata**: `boolean`
+> **`optional`** **include\_metadata**: `boolean`
 
 include task metadata in the respond
 optional field
@@ -106,17 +87,17 @@ default value: false
 
 #### Implementation of
 
-[IBusinessDataIdListRequestInfo](../interfaces/IBusinessDataIdListRequestInfo.md).[include_metadata](../interfaces/IBusinessDataIdListRequestInfo.md#include_metadata)
+[`IBusinessDataIdListRequestInfo`](../interfaces/IBusinessDataIdListRequestInfo.md).[`include_metadata`](../interfaces/IBusinessDataIdListRequestInfo.md#include_metadata)
 
-#### Defined in
+#### Source
 
 main.ts:192629
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned task IDs
 optional field
@@ -125,17 +106,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IBusinessDataIdListRequestInfo](../interfaces/IBusinessDataIdListRequestInfo.md).[limit](../interfaces/IBusinessDataIdListRequestInfo.md#limit)
+[`IBusinessDataIdListRequestInfo`](../interfaces/IBusinessDataIdListRequestInfo.md).[`limit`](../interfaces/IBusinessDataIdListRequestInfo.md#limit)
 
-#### Defined in
+#### Source
 
 main.ts:192615
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned task IDs
 optional field
@@ -144,17 +125,17 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Implementation of
 
-[IBusinessDataIdListRequestInfo](../interfaces/IBusinessDataIdListRequestInfo.md).[offset](../interfaces/IBusinessDataIdListRequestInfo.md#offset)
+[`IBusinessDataIdListRequestInfo`](../interfaces/IBusinessDataIdListRequestInfo.md).[`offset`](../interfaces/IBusinessDataIdListRequestInfo.md#offset)
 
-#### Defined in
+#### Source
 
 main.ts:192620
 
-___
+***
 
-### sort
+### sort?
 
-• `Optional` **sort**: `string`
+> **`optional`** **sort**: `string`
 
 sorting by task execution time
 optional field
@@ -163,68 +144,62 @@ default value: "asc"
 
 #### Implementation of
 
-[IBusinessDataIdListRequestInfo](../interfaces/IBusinessDataIdListRequestInfo.md).[sort](../interfaces/IBusinessDataIdListRequestInfo.md#sort)
+[`IBusinessDataIdListRequestInfo`](../interfaces/IBusinessDataIdListRequestInfo.md).[`sort`](../interfaces/IBusinessDataIdListRequestInfo.md#sort)
 
-#### Defined in
+#### Source
 
 main.ts:192625
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:192642
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:192664
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataIdListRequestInfo`](BusinessDataIdListRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataIdListRequestInfo`](BusinessDataIdListRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BusinessDataIdListRequestInfo`](BusinessDataIdListRequestInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:192657

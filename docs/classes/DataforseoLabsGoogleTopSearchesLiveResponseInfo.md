@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleTopSearchesLiveResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsGoogleTopSearchesLiveResponseInfo
 
 # Class: DataforseoLabsGoogleTopSearchesLiveResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`DataforseoLabsGoogleTopSearchesLiveResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsGoogleTopSearchesLiveResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](DataforseoLabsGoogleTopSearchesLiveResponseInfo.md#cost)
-- [status\_code](DataforseoLabsGoogleTopSearchesLiveResponseInfo.md#status_code)
-- [status\_message](DataforseoLabsGoogleTopSearchesLiveResponseInfo.md#status_message)
-- [tasks](DataforseoLabsGoogleTopSearchesLiveResponseInfo.md#tasks)
-- [tasks\_count](DataforseoLabsGoogleTopSearchesLiveResponseInfo.md#tasks_count)
-- [tasks\_error](DataforseoLabsGoogleTopSearchesLiveResponseInfo.md#tasks_error)
-- [time](DataforseoLabsGoogleTopSearchesLiveResponseInfo.md#time)
-- [version](DataforseoLabsGoogleTopSearchesLiveResponseInfo.md#version)
-
-### Methods
-
-- [init](DataforseoLabsGoogleTopSearchesLiveResponseInfo.md#init)
-- [toJSON](DataforseoLabsGoogleTopSearchesLiveResponseInfo.md#tojson)
-- [fromJS](DataforseoLabsGoogleTopSearchesLiveResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsGoogleTopSearchesLiveResponseInfo(data)
 
-• **new DataforseoLabsGoogleTopSearchesLiveResponseInfo**(`data?`): [`DataforseoLabsGoogleTopSearchesLiveResponseInfo`](DataforseoLabsGoogleTopSearchesLiveResponseInfo.md)
+> **new DataforseoLabsGoogleTopSearchesLiveResponseInfo**(`data`?): [`DataforseoLabsGoogleTopSearchesLiveResponseInfo`](DataforseoLabsGoogleTopSearchesLiveResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsGoogleTopSearchesLiveResponseInfo`](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResponseInfo.md) |
+• **data?**: [`IDataforseoLabsGoogleTopSearchesLiveResponseInfo`](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:87806
+main.ts:87814
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IDataforseoLabsGoogleTopSearchesLiveResponseInfo](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResponseInfo.md).[cost](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResponseInfo.md#cost)
+[`IDataforseoLabsGoogleTopSearchesLiveResponseInfo`](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResponseInfo.md).[`cost`](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[IDataforseoLabsGoogleTopSearchesLiveResponseInfo](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResponseInfo.md).[status_code](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResponseInfo.md#status_code)
+[`IDataforseoLabsGoogleTopSearchesLiveResponseInfo`](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResponseInfo.md).[`status_code`](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IDataforseoLabsGoogleTopSearchesLiveResponseInfo](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResponseInfo.md).[status_message](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResponseInfo.md#status_message)
+[`IDataforseoLabsGoogleTopSearchesLiveResponseInfo`](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResponseInfo.md).[`status_message`](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`DataforseoLabsGoogleTopSearchesLiveTaskInfo`](DataforseoLabsGoogleTopSearchesLiveTaskInfo.md)[]
+> **`optional`** **tasks**: [`DataforseoLabsGoogleTopSearchesLiveTaskInfo`](DataforseoLabsGoogleTopSearchesLiveTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[IDataforseoLabsGoogleTopSearchesLiveResponseInfo](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResponseInfo.md).[tasks](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResponseInfo.md#tasks)
+[`IDataforseoLabsGoogleTopSearchesLiveResponseInfo`](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResponseInfo.md).[`tasks`](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:87802
+main.ts:87810
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleTopSearchesLiveResponseInfo](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResponseInfo.md).[tasks_count](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResponseInfo.md#tasks_count)
+[`IDataforseoLabsGoogleTopSearchesLiveResponseInfo`](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResponseInfo.md).[`tasks_count`](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[IDataforseoLabsGoogleTopSearchesLiveResponseInfo](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResponseInfo.md).[tasks_error](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResponseInfo.md#tasks_error)
+[`IDataforseoLabsGoogleTopSearchesLiveResponseInfo`](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResponseInfo.md).[`tasks_error`](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[IDataforseoLabsGoogleTopSearchesLiveResponseInfo](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResponseInfo.md).[time](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResponseInfo.md#time)
+[`IDataforseoLabsGoogleTopSearchesLiveResponseInfo`](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResponseInfo.md).[`time`](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[IDataforseoLabsGoogleTopSearchesLiveResponseInfo](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResponseInfo.md).[version](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResponseInfo.md#version)
+[`IDataforseoLabsGoogleTopSearchesLiveResponseInfo`](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResponseInfo.md).[`version`](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:87810
+main.ts:87818
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:87832
+main.ts:87840
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsGoogleTopSearchesLiveResponseInfo`](DataforseoLabsGoogleTopSearchesLiveResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleTopSearchesLiveResponseInfo`](DataforseoLabsGoogleTopSearchesLiveResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:87825
+main.ts:87833

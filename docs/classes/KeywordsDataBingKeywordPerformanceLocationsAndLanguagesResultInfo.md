@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo
 
 # Class: KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo
 
@@ -8,151 +12,125 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md#constructor)
-
-### Properties
-
-- [available\_locations](KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md#available_locations)
-- [language\_code](KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md#language_code)
-- [language\_name](KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md#language_name)
-
-### Methods
-
-- [init](KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md#init)
-- [toJSON](KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md#tojson)
-- [fromJS](KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo(data)
 
-• **new KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo**(`data?`): [`KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo`](KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md)
+> **new KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo**(`data`?): [`KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo`](KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md) |
+• **data?**: [`IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md)
 
 #### Returns
 
 [`KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo`](KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:131785
+main.ts:131793
 
 ## Properties
 
-### available\_locations
+### available\_locations?
 
-• `Optional` **available\_locations**: [`AvailableLocations`](AvailableLocations.md)[]
+> **`optional`** **available\_locations**: [`AvailableLocations`](AvailableLocations.md)[]
 
 supported locations
 contains locations supported in combination with a specific language
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo](../interfaces/IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md).[available_locations](../interfaces/IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md#available_locations)
+[`IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md).[`available_locations`](../interfaces/IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md#available_locations)
 
-#### Defined in
+#### Source
 
-main.ts:131781
+main.ts:131789
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo](../interfaces/IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md).[language_code](../interfaces/IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md#language_code)
+[`IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md).[`language_code`](../interfaces/IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:131778
+main.ts:131786
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `number`
+> **`optional`** **language\_name**: `number`
 
 language name
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo](../interfaces/IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md).[language_name](../interfaces/IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md#language_name)
+[`IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md).[`language_name`](../interfaces/IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:131776
+main.ts:131784
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:131794
+main.ts:131802
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:131817
+main.ts:131825
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo`](KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo`](KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo`](KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:131810
+main.ts:131818

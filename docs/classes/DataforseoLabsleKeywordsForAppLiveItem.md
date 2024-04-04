@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsleKeywordsForAppLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsleKeywordsForAppLiveItem
 
 # Class: DataforseoLabsleKeywordsForAppLiveItem
 
@@ -8,150 +12,124 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsleKeywordsForAppLiveItem.md#constructor)
-
-### Properties
-
-- [keyword\_data](DataforseoLabsleKeywordsForAppLiveItem.md#keyword_data)
-- [ranked\_serp\_element](DataforseoLabsleKeywordsForAppLiveItem.md#ranked_serp_element)
-- [se\_type](DataforseoLabsleKeywordsForAppLiveItem.md#se_type)
-
-### Methods
-
-- [init](DataforseoLabsleKeywordsForAppLiveItem.md#init)
-- [toJSON](DataforseoLabsleKeywordsForAppLiveItem.md#tojson)
-- [fromJS](DataforseoLabsleKeywordsForAppLiveItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsleKeywordsForAppLiveItem(data)
 
-• **new DataforseoLabsleKeywordsForAppLiveItem**(`data?`): [`DataforseoLabsleKeywordsForAppLiveItem`](DataforseoLabsleKeywordsForAppLiveItem.md)
+> **new DataforseoLabsleKeywordsForAppLiveItem**(`data`?): [`DataforseoLabsleKeywordsForAppLiveItem`](DataforseoLabsleKeywordsForAppLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsleKeywordsForAppLiveItem`](../interfaces/IDataforseoLabsleKeywordsForAppLiveItem.md) |
+• **data?**: [`IDataforseoLabsleKeywordsForAppLiveItem`](../interfaces/IDataforseoLabsleKeywordsForAppLiveItem.md)
 
 #### Returns
 
 [`DataforseoLabsleKeywordsForAppLiveItem`](DataforseoLabsleKeywordsForAppLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:111093
+main.ts:111101
 
 ## Properties
 
-### keyword\_data
+### keyword\_data?
 
-• `Optional` **keyword\_data**: [`KeywordData`](KeywordData.md)
+> **`optional`** **keyword\_data**: [`KeywordData`](KeywordData.md)
 
 keyword data for the returned keyword
 
 #### Implementation of
 
-[IDataforseoLabsleKeywordsForAppLiveItem](../interfaces/IDataforseoLabsleKeywordsForAppLiveItem.md).[keyword_data](../interfaces/IDataforseoLabsleKeywordsForAppLiveItem.md#keyword_data)
+[`IDataforseoLabsleKeywordsForAppLiveItem`](../interfaces/IDataforseoLabsleKeywordsForAppLiveItem.md).[`keyword_data`](../interfaces/IDataforseoLabsleKeywordsForAppLiveItem.md#keyword_data)
 
-#### Defined in
+#### Source
 
-main.ts:111087
+main.ts:111095
 
-___
+***
 
-### ranked\_serp\_element
+### ranked\_serp\_element?
 
-• `Optional` **ranked\_serp\_element**: [`AppRankedSerpElementInfo`](AppRankedSerpElementInfo.md)
+> **`optional`** **ranked\_serp\_element**: [`AppRankedSerpElementInfo`](AppRankedSerpElementInfo.md)
 
 contains data on the domain’s SERP element found for the returned keyword
 
 #### Implementation of
 
-[IDataforseoLabsleKeywordsForAppLiveItem](../interfaces/IDataforseoLabsleKeywordsForAppLiveItem.md).[ranked_serp_element](../interfaces/IDataforseoLabsleKeywordsForAppLiveItem.md#ranked_serp_element)
+[`IDataforseoLabsleKeywordsForAppLiveItem`](../interfaces/IDataforseoLabsleKeywordsForAppLiveItem.md).[`ranked_serp_element`](../interfaces/IDataforseoLabsleKeywordsForAppLiveItem.md#ranked_serp_element)
 
-#### Defined in
+#### Source
 
-main.ts:111089
+main.ts:111097
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IDataforseoLabsleKeywordsForAppLiveItem](../interfaces/IDataforseoLabsleKeywordsForAppLiveItem.md).[se_type](../interfaces/IDataforseoLabsleKeywordsForAppLiveItem.md#se_type)
+[`IDataforseoLabsleKeywordsForAppLiveItem`](../interfaces/IDataforseoLabsleKeywordsForAppLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsleKeywordsForAppLiveItem.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:111085
+main.ts:111093
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:111102
+main.ts:111110
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:111121
+main.ts:111129
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsleKeywordsForAppLiveItem`](DataforseoLabsleKeywordsForAppLiveItem.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsleKeywordsForAppLiveItem`](DataforseoLabsleKeywordsForAppLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsleKeywordsForAppLiveItem`](DataforseoLabsleKeywordsForAppLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:111114
+main.ts:111122

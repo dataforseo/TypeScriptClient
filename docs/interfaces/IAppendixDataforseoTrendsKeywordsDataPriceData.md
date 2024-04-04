@@ -1,60 +1,51 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixDataforseoTrendsKeywordsDataPriceData
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppendixDataforseoTrendsKeywordsDataPriceData
 
 # Interface: IAppendixDataforseoTrendsKeywordsDataPriceData
 
-## Implemented by
-
-- [`AppendixDataforseoTrendsKeywordsDataPriceData`](../classes/AppendixDataforseoTrendsKeywordsDataPriceData.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [demography](IAppendixDataforseoTrendsKeywordsDataPriceData.md#demography)
-- [explore](IAppendixDataforseoTrendsKeywordsDataPriceData.md#explore)
-- [merged\_data](IAppendixDataforseoTrendsKeywordsDataPriceData.md#merged_data)
-- [subregion\_interests](IAppendixDataforseoTrendsKeywordsDataPriceData.md#subregion_interests)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### demography
+### demography?
 
-• `Optional` **demography**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **demography**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:215515
 
-___
+***
 
-### explore
+### explore?
 
-• `Optional` **explore**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **explore**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:215516
 
-___
+***
 
-### merged\_data
+### merged\_data?
 
-• `Optional` **merged\_data**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **merged\_data**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:215517
 
-___
+***
 
-### subregion\_interests
+### subregion\_interests?
 
-• `Optional` **subregion\_interests**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **subregion\_interests**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:215518

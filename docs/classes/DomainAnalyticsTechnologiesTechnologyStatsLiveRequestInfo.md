@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo
 
 # Class: DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo
 
@@ -8,52 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [date\_from](DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md#date_from)
-- [date\_to](DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md#date_to)
-- [tag](DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md#tag)
-- [technology](DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md#technology)
-
-### Methods
-
-- [init](DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md#init)
-- [toJSON](DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md#tojson)
-- [fromJS](DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo(data)
 
-• **new DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo**(`data?`): [`DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md)
+> **new DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo**(`data`?): [`DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md) |
+• **data?**: [`IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md)
 
 #### Returns
 
 [`DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:75898
+main.ts:75906
 
 ## Properties
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -65,17 +48,17 @@ example:
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md).[date_from](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md#date_from)
+[`IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md).[`date_from`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md#date_from)
 
-#### Defined in
+#### Source
 
-main.ts:75881
+main.ts:75889
 
-___
+***
 
-### date\_to
+### date\_to?
 
-• `Optional` **date\_to**: `string`
+> **`optional`** **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -86,17 +69,17 @@ example:
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md).[date_to](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md#date_to)
+[`IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md).[`date_to`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md#date_to)
 
-#### Defined in
+#### Source
 
-main.ts:75888
+main.ts:75896
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -106,17 +89,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md).[tag](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md#tag)
+[`IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md).[`tag`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:75894
+main.ts:75902
 
-___
+***
 
-### technology
+### technology?
 
-• `Optional` **technology**: `string`
+> **`optional`** **technology**: `string`
 
 target technology
 required field
@@ -126,68 +109,62 @@ example:
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md).[technology](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md#technology)
+[`IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md).[`technology`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md#technology)
 
-#### Defined in
+#### Source
 
-main.ts:75873
+main.ts:75881
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:75907
+main.ts:75915
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:75927
+main.ts:75935
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:75920
+main.ts:75928

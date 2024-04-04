@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MathSolverDataforseoLabsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / MathSolverDataforseoLabsSerpElementItem
 
 # Class: MathSolverDataforseoLabsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
-
-  ↳ **`MathSolverDataforseoLabsSerpElementItem`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](MathSolverDataforseoLabsSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](MathSolverDataforseoLabsSerpElementItem.md#_discriminator)
-- [items](MathSolverDataforseoLabsSerpElementItem.md#items)
-- [links](MathSolverDataforseoLabsSerpElementItem.md#links)
-- [position](MathSolverDataforseoLabsSerpElementItem.md#position)
-- [rank\_absolute](MathSolverDataforseoLabsSerpElementItem.md#rank_absolute)
-- [rank\_group](MathSolverDataforseoLabsSerpElementItem.md#rank_group)
-- [result](MathSolverDataforseoLabsSerpElementItem.md#result)
-- [title](MathSolverDataforseoLabsSerpElementItem.md#title)
-- [xpath](MathSolverDataforseoLabsSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](MathSolverDataforseoLabsSerpElementItem.md#init)
-- [toJSON](MathSolverDataforseoLabsSerpElementItem.md#tojson)
-- [fromJS](MathSolverDataforseoLabsSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new MathSolverDataforseoLabsSerpElementItem(data)
 
-• **new MathSolverDataforseoLabsSerpElementItem**(`data?`): [`MathSolverDataforseoLabsSerpElementItem`](MathSolverDataforseoLabsSerpElementItem.md)
+> **new MathSolverDataforseoLabsSerpElementItem**(`data`?): [`MathSolverDataforseoLabsSerpElementItem`](MathSolverDataforseoLabsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IMathSolverDataforseoLabsSerpElementItem`](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md) |
+• **data?**: [`IMathSolverDataforseoLabsSerpElementItem`](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md)
 
 #### Returns
 
@@ -58,48 +34,48 @@
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[constructor](BaseDataforseoLabsSerpElementItem.md#constructor)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:95197
+main.ts:95205
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[_discriminator](BaseDataforseoLabsSerpElementItem.md#_discriminator)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`_discriminator`](BaseDataforseoLabsSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:20171
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`MathSolverElement`](MathSolverElement.md)[]
+> **`optional`** **items**: [`MathSolverElement`](MathSolverElement.md)[]
 
 additional items present in the element
 if there are none, equals null
 
 #### Implementation of
 
-[IMathSolverDataforseoLabsSerpElementItem](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md).[items](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md#items)
+[`IMathSolverDataforseoLabsSerpElementItem`](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md).[`items`](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:95189
+main.ts:95197
 
-___
+***
 
-### links
+### links?
 
-• `Optional` **links**: [`LinkElement`](LinkElement.md)[]
+> **`optional`** **links**: [`LinkElement`](LinkElement.md)[]
 
 sitelinks
 the links shown below some of Google’s search results
@@ -107,17 +83,17 @@ if there are none, equals null
 
 #### Implementation of
 
-[IMathSolverDataforseoLabsSerpElementItem](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md).[links](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md#links)
+[`IMathSolverDataforseoLabsSerpElementItem`](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md).[`links`](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md#links)
 
-#### Defined in
+#### Source
 
-main.ts:95193
+main.ts:95201
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -125,34 +101,34 @@ left, right
 
 #### Implementation of
 
-[IMathSolverDataforseoLabsSerpElementItem](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md).[position](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md#position)
+[`IMathSolverDataforseoLabsSerpElementItem`](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md).[`position`](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
-main.ts:95179
+main.ts:95187
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
 #### Implementation of
 
-[IMathSolverDataforseoLabsSerpElementItem](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md).[rank_absolute](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md#rank_absolute)
+[`IMathSolverDataforseoLabsSerpElementItem`](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md).[`rank_absolute`](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:95175
+main.ts:95183
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -160,72 +136,70 @@ positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
-[IMathSolverDataforseoLabsSerpElementItem](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md).[rank_group](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md#rank_group)
+[`IMathSolverDataforseoLabsSerpElementItem`](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md).[`rank_group`](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
-main.ts:95172
+main.ts:95180
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: `string`
+> **`optional`** **result**: `string`
 
 solution to the equation
 solution to the mathematical equation specified in the keyword field when setting a task
 
 #### Implementation of
 
-[IMathSolverDataforseoLabsSerpElementItem](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md).[result](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md#result)
+[`IMathSolverDataforseoLabsSerpElementItem`](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md).[`result`](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:95186
+main.ts:95194
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the result in SERP
 
 #### Implementation of
 
-[IMathSolverDataforseoLabsSerpElementItem](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md).[title](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md#title)
+[`IMathSolverDataforseoLabsSerpElementItem`](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md).[`title`](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:95183
+main.ts:95191
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IMathSolverDataforseoLabsSerpElementItem](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md).[xpath](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md#xpath)
+[`IMathSolverDataforseoLabsSerpElementItem`](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md).[`xpath`](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
-main.ts:95181
+main.ts:95189
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -233,23 +207,21 @@ main.ts:95181
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[init](BaseDataforseoLabsSerpElementItem.md#init)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`init`](BaseDataforseoLabsSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:95202
+main.ts:95210
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -257,23 +229,21 @@ ___
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[toJSON](BaseDataforseoLabsSerpElementItem.md#tojson)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`toJSON`](BaseDataforseoLabsSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:95235
+main.ts:95243
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`MathSolverDataforseoLabsSerpElementItem`](MathSolverDataforseoLabsSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`MathSolverDataforseoLabsSerpElementItem`](MathSolverDataforseoLabsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -281,8 +251,8 @@ ___
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[fromJS](BaseDataforseoLabsSerpElementItem.md#fromjs)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`fromJS`](BaseDataforseoLabsSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:95228
+main.ts:95236

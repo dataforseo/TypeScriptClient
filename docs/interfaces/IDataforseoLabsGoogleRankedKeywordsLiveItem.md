@@ -1,55 +1,47 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleRankedKeywordsLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsGoogleRankedKeywordsLiveItem
 
 # Interface: IDataforseoLabsGoogleRankedKeywordsLiveItem
 
-## Implemented by
-
-- [`DataforseoLabsGoogleRankedKeywordsLiveItem`](../classes/DataforseoLabsGoogleRankedKeywordsLiveItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [keyword\_data](IDataforseoLabsGoogleRankedKeywordsLiveItem.md#keyword_data)
-- [ranked\_serp\_element](IDataforseoLabsGoogleRankedKeywordsLiveItem.md#ranked_serp_element)
-- [se\_type](IDataforseoLabsGoogleRankedKeywordsLiveItem.md#se_type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### keyword\_data
+### keyword\_data?
 
-• `Optional` **keyword\_data**: [`KeywordData`](../classes/KeywordData.md)
+> **`optional`** **keyword\_data**: [`KeywordData`](../classes/KeywordData.md)
 
 keyword data for the returned keyword
 
-#### Defined in
+#### Source
 
-main.ts:89468
+main.ts:89476
 
-___
+***
 
-### ranked\_serp\_element
+### ranked\_serp\_element?
 
-• `Optional` **ranked\_serp\_element**: [`RankedSerpElement`](../classes/RankedSerpElement.md)
+> **`optional`** **ranked\_serp\_element**: [`RankedSerpElement`](../classes/RankedSerpElement.md)
 
 contains data on the domain’s SERP element found for the returned keyword
 
-#### Defined in
+#### Source
 
-main.ts:89470
+main.ts:89478
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:89466
+main.ts:89474

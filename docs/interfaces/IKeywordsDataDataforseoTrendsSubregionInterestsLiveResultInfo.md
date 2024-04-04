@@ -1,113 +1,101 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo
 
 # Interface: IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo
 
-## Implemented by
-
-- [`KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo`](../classes/KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [datetime](IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md#datetime)
-- [items](IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md#items)
-- [items\_count](IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md#items_count)
-- [keywords](IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md#keywords)
-- [language\_code](IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md#language_code)
-- [location\_code](IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md#location_code)
-- [type](IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
-main.ts:125918
+main.ts:125926
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseDataforseoTrendsItem`](../classes/BaseDataforseoTrendsItem.md)[]
+> **`optional`** **items**: [`BaseDataforseoTrendsItem`](../classes/BaseDataforseoTrendsItem.md)[]
 
 keyword popularity values per location
 values in this array represent percentages relative to the maximum value within each region
 
-#### Defined in
+#### Source
 
-main.ts:125923
+main.ts:125931
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Defined in
+#### Source
 
-main.ts:125920
+main.ts:125928
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 keywords in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:125905
+main.ts:125913
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 if there is no data, then the value is null
 
-#### Defined in
+#### Source
 
-main.ts:125913
+main.ts:125921
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 if there is no data, then the value is null
 
-#### Defined in
+#### Source
 
-main.ts:125910
+main.ts:125918
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:125907
+main.ts:125915

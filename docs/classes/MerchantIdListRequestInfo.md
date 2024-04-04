@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MerchantIdListRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / MerchantIdListRequestInfo
 
 # Class: MerchantIdListRequestInfo
 
@@ -8,54 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](MerchantIdListRequestInfo.md#constructor)
-
-### Properties
-
-- [datetime\_from](MerchantIdListRequestInfo.md#datetime_from)
-- [datetime\_to](MerchantIdListRequestInfo.md#datetime_to)
-- [include\_metadata](MerchantIdListRequestInfo.md#include_metadata)
-- [limit](MerchantIdListRequestInfo.md#limit)
-- [offset](MerchantIdListRequestInfo.md#offset)
-- [sort](MerchantIdListRequestInfo.md#sort)
-
-### Methods
-
-- [init](MerchantIdListRequestInfo.md#init)
-- [toJSON](MerchantIdListRequestInfo.md#tojson)
-- [fromJS](MerchantIdListRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new MerchantIdListRequestInfo(data)
 
-• **new MerchantIdListRequestInfo**(`data?`): [`MerchantIdListRequestInfo`](MerchantIdListRequestInfo.md)
+> **new MerchantIdListRequestInfo**(`data`?): [`MerchantIdListRequestInfo`](MerchantIdListRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IMerchantIdListRequestInfo`](../interfaces/IMerchantIdListRequestInfo.md) |
+• **data?**: [`IMerchantIdListRequestInfo`](../interfaces/IMerchantIdListRequestInfo.md)
 
 #### Returns
 
 [`MerchantIdListRequestInfo`](MerchantIdListRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:168116
+main.ts:168124
 
 ## Properties
 
-### datetime\_from
+### datetime\_from?
 
-• `Optional` **datetime\_from**: `string`
+> **`optional`** **datetime\_from**: `string`
 
 start time for filtering results
 required field
@@ -67,17 +48,17 @@ example:
 
 #### Implementation of
 
-[IMerchantIdListRequestInfo](../interfaces/IMerchantIdListRequestInfo.md).[datetime_from](../interfaces/IMerchantIdListRequestInfo.md#datetime_from)
+[`IMerchantIdListRequestInfo`](../interfaces/IMerchantIdListRequestInfo.md).[`datetime_from`](../interfaces/IMerchantIdListRequestInfo.md#datetime_from)
 
-#### Defined in
+#### Source
 
-main.ts:168086
+main.ts:168094
 
-___
+***
 
-### datetime\_to
+### datetime\_to?
 
-• `Optional` **datetime\_to**: `string`
+> **`optional`** **datetime\_to**: `string`
 
 finish time for filtering results
 required field
@@ -88,17 +69,17 @@ example:
 
 #### Implementation of
 
-[IMerchantIdListRequestInfo](../interfaces/IMerchantIdListRequestInfo.md).[datetime_to](../interfaces/IMerchantIdListRequestInfo.md#datetime_to)
+[`IMerchantIdListRequestInfo`](../interfaces/IMerchantIdListRequestInfo.md).[`datetime_to`](../interfaces/IMerchantIdListRequestInfo.md#datetime_to)
 
-#### Defined in
+#### Source
 
-main.ts:168093
+main.ts:168101
 
-___
+***
 
-### include\_metadata
+### include\_metadata?
 
-• `Optional` **include\_metadata**: `boolean`
+> **`optional`** **include\_metadata**: `boolean`
 
 include task metadata in the respond
 optional field
@@ -106,17 +87,17 @@ default value: false
 
 #### Implementation of
 
-[IMerchantIdListRequestInfo](../interfaces/IMerchantIdListRequestInfo.md).[include_metadata](../interfaces/IMerchantIdListRequestInfo.md#include_metadata)
+[`IMerchantIdListRequestInfo`](../interfaces/IMerchantIdListRequestInfo.md).[`include_metadata`](../interfaces/IMerchantIdListRequestInfo.md#include_metadata)
 
-#### Defined in
+#### Source
 
-main.ts:168112
+main.ts:168120
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned task IDs
 optional field
@@ -125,17 +106,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IMerchantIdListRequestInfo](../interfaces/IMerchantIdListRequestInfo.md).[limit](../interfaces/IMerchantIdListRequestInfo.md#limit)
+[`IMerchantIdListRequestInfo`](../interfaces/IMerchantIdListRequestInfo.md).[`limit`](../interfaces/IMerchantIdListRequestInfo.md#limit)
 
-#### Defined in
+#### Source
 
-main.ts:168098
+main.ts:168106
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned task IDs
 optional field
@@ -144,17 +125,17 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Implementation of
 
-[IMerchantIdListRequestInfo](../interfaces/IMerchantIdListRequestInfo.md).[offset](../interfaces/IMerchantIdListRequestInfo.md#offset)
+[`IMerchantIdListRequestInfo`](../interfaces/IMerchantIdListRequestInfo.md).[`offset`](../interfaces/IMerchantIdListRequestInfo.md#offset)
 
-#### Defined in
+#### Source
 
-main.ts:168103
+main.ts:168111
 
-___
+***
 
-### sort
+### sort?
 
-• `Optional` **sort**: `string`
+> **`optional`** **sort**: `string`
 
 sorting by task execution time
 optional field
@@ -163,68 +144,62 @@ default value: "asc"
 
 #### Implementation of
 
-[IMerchantIdListRequestInfo](../interfaces/IMerchantIdListRequestInfo.md).[sort](../interfaces/IMerchantIdListRequestInfo.md#sort)
+[`IMerchantIdListRequestInfo`](../interfaces/IMerchantIdListRequestInfo.md).[`sort`](../interfaces/IMerchantIdListRequestInfo.md#sort)
 
-#### Defined in
+#### Source
 
-main.ts:168108
+main.ts:168116
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:168125
+main.ts:168133
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:168147
+main.ts:168155
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`MerchantIdListRequestInfo`](MerchantIdListRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`MerchantIdListRequestInfo`](MerchantIdListRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`MerchantIdListRequestInfo`](MerchantIdListRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:168140
+main.ts:168148

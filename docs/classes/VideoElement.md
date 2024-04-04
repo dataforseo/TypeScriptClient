@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / VideoElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / VideoElement
 
 # Class: VideoElement
 
@@ -8,87 +12,64 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](VideoElement.md#constructor)
-
-### Properties
-
-- [preview](VideoElement.md#preview)
-- [source](VideoElement.md#source)
-- [timestamp](VideoElement.md#timestamp)
-- [title](VideoElement.md#title)
-- [type](VideoElement.md#type)
-- [url](VideoElement.md#url)
-
-### Methods
-
-- [init](VideoElement.md#init)
-- [toJSON](VideoElement.md#tojson)
-- [fromJS](VideoElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new VideoElement(data)
 
-• **new VideoElement**(`data?`): [`VideoElement`](VideoElement.md)
+> **new VideoElement**(`data`?): [`VideoElement`](VideoElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IVideoElement`](../interfaces/IVideoElement.md) |
+• **data?**: [`IVideoElement`](../interfaces/IVideoElement.md)
 
 #### Returns
 
 [`VideoElement`](VideoElement.md)
 
-#### Defined in
+#### Source
 
 main.ts:30915
 
 ## Properties
 
-### preview
+### preview?
 
-• `Optional` **preview**: `string`
+> **`optional`** **preview**: `string`
 
 URL to the video preview image
 
 #### Implementation of
 
-[IVideoElement](../interfaces/IVideoElement.md).[preview](../interfaces/IVideoElement.md#preview)
+[`IVideoElement`](../interfaces/IVideoElement.md).[`preview`](../interfaces/IVideoElement.md#preview)
 
-#### Defined in
+#### Source
 
 main.ts:30911
 
-___
+***
 
-### source
+### source?
 
-• `Optional` **source**: `string`
+> **`optional`** **source**: `string`
 
 source of the element
 indicates the source of information included in the top_stories_element
 
 #### Implementation of
 
-[IVideoElement](../interfaces/IVideoElement.md).[source](../interfaces/IVideoElement.md#source)
+[`IVideoElement`](../interfaces/IVideoElement.md).[`source`](../interfaces/IVideoElement.md#source)
 
-#### Defined in
+#### Source
 
 main.ts:30900
 
-___
+***
 
-### timestamp
+### timestamp?
 
-• `Optional` **timestamp**: `string`
+> **`optional`** **timestamp**: `string`
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -97,116 +78,110 @@ example:
 
 #### Implementation of
 
-[IVideoElement](../interfaces/IVideoElement.md).[timestamp](../interfaces/IVideoElement.md#timestamp)
+[`IVideoElement`](../interfaces/IVideoElement.md).[`timestamp`](../interfaces/IVideoElement.md#timestamp)
 
-#### Defined in
+#### Source
 
 main.ts:30907
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
 #### Implementation of
 
-[IVideoElement](../interfaces/IVideoElement.md).[title](../interfaces/IVideoElement.md#title)
+[`IVideoElement`](../interfaces/IVideoElement.md).[`title`](../interfaces/IVideoElement.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:30902
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IVideoElement](../interfaces/IVideoElement.md).[type](../interfaces/IVideoElement.md#type)
+[`IVideoElement`](../interfaces/IVideoElement.md).[`type`](../interfaces/IVideoElement.md#type)
 
-#### Defined in
+#### Source
 
 main.ts:30897
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL
 
 #### Implementation of
 
-[IVideoElement](../interfaces/IVideoElement.md).[url](../interfaces/IVideoElement.md#url)
+[`IVideoElement`](../interfaces/IVideoElement.md).[`url`](../interfaces/IVideoElement.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:30909
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:30924
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:30946
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`VideoElement`](VideoElement.md)
+> **`static`** **fromJS**(`data`): [`VideoElement`](VideoElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`VideoElement`](VideoElement.md)
 
-#### Defined in
+#### Source
 
 main.ts:30939

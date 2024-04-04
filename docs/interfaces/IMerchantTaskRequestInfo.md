@@ -1,50 +1,24 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMerchantTaskRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IMerchantTaskRequestInfo
 
 # Interface: IMerchantTaskRequestInfo
 
-## Hierarchy
+## Extended by
 
-- **`IMerchantTaskRequestInfo`**
-
-  ↳ [`IMerchantAmazonProductsTaskPostRequestInfo`](IMerchantAmazonProductsTaskPostRequestInfo.md)
-
-## Implemented by
-
-- [`MerchantTaskRequestInfo`](../classes/MerchantTaskRequestInfo.md)
+- [`IMerchantAmazonProductsTaskPostRequestInfo`](IMerchantAmazonProductsTaskPostRequestInfo.md)
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [depth](IMerchantTaskRequestInfo.md#depth)
-- [keyword](IMerchantTaskRequestInfo.md#keyword)
-- [language\_code](IMerchantTaskRequestInfo.md#language_code)
-- [language\_name](IMerchantTaskRequestInfo.md#language_name)
-- [location\_code](IMerchantTaskRequestInfo.md#location_code)
-- [location\_coordinate](IMerchantTaskRequestInfo.md#location_coordinate)
-- [location\_name](IMerchantTaskRequestInfo.md#location_name)
-- [max\_crawl\_pages](IMerchantTaskRequestInfo.md#max_crawl_pages)
-- [pingback\_url](IMerchantTaskRequestInfo.md#pingback_url)
-- [postback\_data](IMerchantTaskRequestInfo.md#postback_data)
-- [postback\_url](IMerchantTaskRequestInfo.md#postback_url)
-- [price\_max](IMerchantTaskRequestInfo.md#price_max)
-- [price\_min](IMerchantTaskRequestInfo.md#price_min)
-- [priority](IMerchantTaskRequestInfo.md#priority)
-- [se\_domain](IMerchantTaskRequestInfo.md#se_domain)
-- [search\_param](IMerchantTaskRequestInfo.md#search_param)
-- [sort\_by](IMerchantTaskRequestInfo.md#sort_by)
-- [tag](IMerchantTaskRequestInfo.md#tag)
-- [url](IMerchantTaskRequestInfo.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### depth
+### depth?
 
-• `Optional` **depth**: `number`
+> **`optional`** **depth**: `number`
 
 parsing depth
 optional field
@@ -55,15 +29,15 @@ Note: your account will be billed per each results page containing up to 100 res
 thus, setting a depth above 100 may result in additional charges if the search engine returns more than 100 results;
 if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance
 
-#### Defined in
+#### Source
 
-main.ts:148270
+main.ts:148278
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword
 required field
@@ -72,15 +46,15 @@ you can specify up to 700 symbols in the keyword filed
 all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
 if you need to use the “%” symbol for your keyword, please specify it as “%25”;
 
-#### Defined in
+#### Source
 
-main.ts:148203
+main.ts:148211
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 required field if you don’t specify language_name
@@ -89,15 +63,15 @@ you can receive the list of available Google Shopping languages with their langu
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:148254
+main.ts:148262
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -106,15 +80,15 @@ you can receive the list of available Google Shopping languages with their langu
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:148247
+main.ts:148255
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 required field if you don’t specify location_name or location_coordinate
@@ -123,15 +97,15 @@ you can receive the list of available Google Shopping locations with their locat
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:148231
+main.ts:148239
 
-___
+***
 
-### location\_coordinate
+### location\_coordinate?
 
-• `Optional` **location\_coordinate**: `string`
+> **`optional`** **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -142,15 +116,15 @@ the minimum value for “radius”: 199.9
 example:
 53.476225,-2.243572,200
 
-#### Defined in
+#### Source
 
-main.ts:148240
+main.ts:148248
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code or location_coordinate
@@ -159,15 +133,15 @@ you can receive the list of available Google Shopping locations with their locat
 example:
 London,England,United Kingdom
 
-#### Defined in
+#### Source
 
-main.ts:148224
+main.ts:148232
 
-___
+***
 
-### max\_crawl\_pages
+### max\_crawl\_pages?
 
-• `Optional` **max\_crawl\_pages**: `number`
+> **`optional`** **max\_crawl\_pages**: `number`
 
 page crawl limit
 optional field
@@ -176,15 +150,15 @@ max value: 7
 Note: the max_crawl_pages and depth parameters complement each other;
 learn more at our help center
 
-#### Defined in
+#### Source
 
-main.ts:148277
+main.ts:148285
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -196,15 +170,15 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special symbols in pingback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
-main.ts:148339
+main.ts:148347
 
-___
+***
 
-### postback\_data
+### postback\_data?
 
-• `Optional` **postback\_data**: `string`
+> **`optional`** **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -212,15 +186,15 @@ corresponds to the datatype that will be sent to your server
 possible values:
 advanced, html
 
-#### Defined in
+#### Source
 
-main.ts:148329
+main.ts:148337
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -232,15 +206,15 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special symbols in postback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
-main.ts:148323
+main.ts:148331
 
-___
+***
 
-### price\_max
+### price\_max?
 
-• `Optional` **price\_max**: `number`
+> **`optional`** **price\_max**: `number`
 
 maximum product price
 optional field
@@ -248,15 +222,15 @@ maximum price of the returned products listed on Google Shopping for the specifi
 example:
 100
 
-#### Defined in
+#### Source
 
-main.ts:148300
+main.ts:148308
 
-___
+***
 
-### price\_min
+### price\_min?
 
-• `Optional` **price\_min**: `number`
+> **`optional`** **price\_min**: `number`
 
 minimum product price
 optional field
@@ -264,15 +238,15 @@ minimum price of the returned products listed on Google Shopping for the specifi
 example:
 5
 
-#### Defined in
+#### Source
 
-main.ts:148294
+main.ts:148302
 
-___
+***
 
-### priority
+### priority?
 
-• `Optional` **priority**: `number`
+> **`optional`** **priority**: `number`
 
 task priority
 optional field
@@ -282,15 +256,15 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page.
 
-#### Defined in
+#### Source
 
-main.ts:148217
+main.ts:148225
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain
 optional field
@@ -299,15 +273,15 @@ however, you can set a custom search engine domain in this field
 example:
 google.co.uk, google.com.au, google.de, etc.
 
-#### Defined in
+#### Source
 
-main.ts:148261
+main.ts:148269
 
-___
+***
 
-### search\_param
+### search\_param?
 
-• `Optional` **search\_param**: `string`
+> **`optional`** **search\_param**: `string`
 
 additional parameters of the search query
 optional field
@@ -320,15 +294,15 @@ example:
 &tbs=p_ord:rv – sort by review score;
 &tbs=ppr_max:50,p_ord:rv – sort by review score with the maximum price of 50 USD
 
-#### Defined in
+#### Source
 
-main.ts:148288
+main.ts:148296
 
-___
+***
 
-### sort\_by
+### sort\_by?
 
-• `Optional` **sort\_by**: `string`
+> **`optional`** **sort\_by**: `string`
 
 results sorting rules
 optional field
@@ -337,15 +311,15 @@ review_score, price_low_to_high, price_high_to_low
 example:
 sort_by:"review_score"
 
-#### Defined in
+#### Source
 
-main.ts:148307
+main.ts:148315
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -353,15 +327,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:148313
+main.ts:148321
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 direct URL of the search query
 optional field
@@ -369,6 +343,6 @@ you can specify a direct URL and we will sort it out to the necessary fields. No
 example:
 https://www.google.com/search?q=iphone&num=100&tbm=shop&ie=UTF-8&oe=UTF-8&tbs=vw%3A1%2Cmr%3A1%2Cprice%3A1%2Cppr_min%3A5&hl=en&gl=US&gws_rd=cr&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc
 
-#### Defined in
+#### Source
 
-main.ts:148209
+main.ts:148217

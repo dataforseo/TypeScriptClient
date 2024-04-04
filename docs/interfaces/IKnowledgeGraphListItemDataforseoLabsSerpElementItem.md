@@ -1,134 +1,119 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKnowledgeGraphListItemDataforseoLabsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IKnowledgeGraphListItemDataforseoLabsSerpElementItem
 
 # Interface: IKnowledgeGraphListItemDataforseoLabsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md)
 
-  ↳ **`IKnowledgeGraphListItemDataforseoLabsSerpElementItem`**
-
-## Implemented by
-
-- [`KnowledgeGraphListItemDataforseoLabsSerpElementItem`](../classes/KnowledgeGraphListItemDataforseoLabsSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [data\_attrid](IKnowledgeGraphListItemDataforseoLabsSerpElementItem.md#data_attrid)
-- [items](IKnowledgeGraphListItemDataforseoLabsSerpElementItem.md#items)
-- [link](IKnowledgeGraphListItemDataforseoLabsSerpElementItem.md#link)
-- [position](IKnowledgeGraphListItemDataforseoLabsSerpElementItem.md#position)
-- [rank\_absolute](IKnowledgeGraphListItemDataforseoLabsSerpElementItem.md#rank_absolute)
-- [rank\_group](IKnowledgeGraphListItemDataforseoLabsSerpElementItem.md#rank_group)
-- [title](IKnowledgeGraphListItemDataforseoLabsSerpElementItem.md#title)
-- [xpath](IKnowledgeGraphListItemDataforseoLabsSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### data\_attrid
+### data\_attrid?
 
-• `Optional` **data\_attrid**: `string`
+> **`optional`** **data\_attrid**: `string`
 
 google defined data attribute ID
 example:
 kc:/common/topic:social media presence
 
-#### Defined in
+#### Source
 
-main.ts:96058
+main.ts:96066
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`KnowledgeGraphListElement`](../classes/KnowledgeGraphListElement.md)[]
+> **`optional`** **items**: [`KnowledgeGraphListElement`](../classes/KnowledgeGraphListElement.md)[]
 
 additional items present in the element
 if there are none, equals null
 
-#### Defined in
+#### Source
 
-main.ts:96063
+main.ts:96071
 
-___
+***
 
-### link
+### link?
 
-• `Optional` **link**: [`LinkElement`](../classes/LinkElement.md)
+> **`optional`** **link**: [`LinkElement`](../classes/LinkElement.md)
 
 link of the element
 
-#### Defined in
+#### Source
 
-main.ts:96060
+main.ts:96068
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
-main.ts:96050
+main.ts:96058
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Defined in
+#### Source
 
-main.ts:96046
+main.ts:96054
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
-main.ts:96043
+main.ts:96051
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
-#### Defined in
+#### Source
 
-main.ts:96054
+main.ts:96062
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
-main.ts:96052
+main.ts:96060

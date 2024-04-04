@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpBaiduOrganicTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpBaiduOrganicTaskPostRequestInfo
 
 # Class: SerpBaiduOrganicTaskPostRequestInfo
 
@@ -8,64 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpBaiduOrganicTaskPostRequestInfo.md#constructor)
-
-### Properties
-
-- [depth](SerpBaiduOrganicTaskPostRequestInfo.md#depth)
-- [device](SerpBaiduOrganicTaskPostRequestInfo.md#device)
-- [get\_website\_url](SerpBaiduOrganicTaskPostRequestInfo.md#get_website_url)
-- [keyword](SerpBaiduOrganicTaskPostRequestInfo.md#keyword)
-- [language\_code](SerpBaiduOrganicTaskPostRequestInfo.md#language_code)
-- [language\_name](SerpBaiduOrganicTaskPostRequestInfo.md#language_name)
-- [location\_code](SerpBaiduOrganicTaskPostRequestInfo.md#location_code)
-- [location\_coordinate](SerpBaiduOrganicTaskPostRequestInfo.md#location_coordinate)
-- [location\_name](SerpBaiduOrganicTaskPostRequestInfo.md#location_name)
-- [max\_crawl\_pages](SerpBaiduOrganicTaskPostRequestInfo.md#max_crawl_pages)
-- [os](SerpBaiduOrganicTaskPostRequestInfo.md#os)
-- [pingback\_url](SerpBaiduOrganicTaskPostRequestInfo.md#pingback_url)
-- [postback\_data](SerpBaiduOrganicTaskPostRequestInfo.md#postback_data)
-- [postback\_url](SerpBaiduOrganicTaskPostRequestInfo.md#postback_url)
-- [priority](SerpBaiduOrganicTaskPostRequestInfo.md#priority)
-- [tag](SerpBaiduOrganicTaskPostRequestInfo.md#tag)
-
-### Methods
-
-- [init](SerpBaiduOrganicTaskPostRequestInfo.md#init)
-- [toJSON](SerpBaiduOrganicTaskPostRequestInfo.md#tojson)
-- [fromJS](SerpBaiduOrganicTaskPostRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpBaiduOrganicTaskPostRequestInfo(data)
 
-• **new SerpBaiduOrganicTaskPostRequestInfo**(`data?`): [`SerpBaiduOrganicTaskPostRequestInfo`](SerpBaiduOrganicTaskPostRequestInfo.md)
+> **new SerpBaiduOrganicTaskPostRequestInfo**(`data`?): [`SerpBaiduOrganicTaskPostRequestInfo`](SerpBaiduOrganicTaskPostRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpBaiduOrganicTaskPostRequestInfo`](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md) |
+• **data?**: [`ISerpBaiduOrganicTaskPostRequestInfo`](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md)
 
 #### Returns
 
 [`SerpBaiduOrganicTaskPostRequestInfo`](SerpBaiduOrganicTaskPostRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:68248
+main.ts:68256
 
 ## Properties
 
-### depth
+### depth?
 
-• `Optional` **depth**: `number`
+> **`optional`** **depth**: `number`
 
 parsing depth
 optional field
@@ -78,17 +49,17 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskPostRequestInfo](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md).[depth](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md#depth)
+[`ISerpBaiduOrganicTaskPostRequestInfo`](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md).[`depth`](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md#depth)
 
-#### Defined in
+#### Source
 
-main.ts:68147
+main.ts:68155
 
-___
+***
 
-### device
+### device?
 
-• `Optional` **device**: `string`
+> **`optional`** **device**: `string`
 
 device type
 optional field
@@ -97,17 +68,17 @@ default value: desktop
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskPostRequestInfo](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md).[device](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md#device)
+[`ISerpBaiduOrganicTaskPostRequestInfo`](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md).[`device`](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md#device)
 
-#### Defined in
+#### Source
 
-main.ts:68195
+main.ts:68203
 
-___
+***
 
-### get\_website\_url
+### get\_website\_url?
 
-• `Optional` **get\_website\_url**: `boolean`
+> **`optional`** **get\_website\_url**: `boolean`
 
 include direct URL for each ranked result
 optional field
@@ -119,17 +90,17 @@ Note: if set to true, the charge per task will be multiplied by 10 as our system
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskPostRequestInfo](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md).[get_website_url](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md#get_website_url)
+[`ISerpBaiduOrganicTaskPostRequestInfo`](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md).[`get_website_url`](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md#get_website_url)
 
-#### Defined in
+#### Source
 
-main.ts:68212
+main.ts:68220
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword
 required field
@@ -140,17 +111,17 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskPostRequestInfo](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md).[keyword](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md#keyword)
+[`ISerpBaiduOrganicTaskPostRequestInfo`](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md).[`keyword`](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:68130
+main.ts:68138
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -160,17 +131,17 @@ zh_CN
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskPostRequestInfo](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md).[language_code](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md#language_code)
+[`ISerpBaiduOrganicTaskPostRequestInfo`](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md).[`language_code`](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:68166
+main.ts:68174
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -180,17 +151,17 @@ Chinese (Simplified)
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskPostRequestInfo](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md).[language_name](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md#language_name)
+[`ISerpBaiduOrganicTaskPostRequestInfo`](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md).[`language_name`](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:68160
+main.ts:68168
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -201,17 +172,17 @@ example:
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskPostRequestInfo](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md).[location_code](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md#location_code)
+[`ISerpBaiduOrganicTaskPostRequestInfo`](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md).[`location_code`](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:68180
+main.ts:68188
 
-___
+***
 
-### location\_coordinate
+### location\_coordinate?
 
-• `Optional` **location\_coordinate**: `string`
+> **`optional`** **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -225,17 +196,17 @@ example:
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskPostRequestInfo](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md).[location_coordinate](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md#location_coordinate)
+[`ISerpBaiduOrganicTaskPostRequestInfo`](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md).[`location_coordinate`](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md#location_coordinate)
 
-#### Defined in
+#### Source
 
-main.ts:68190
+main.ts:68198
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -246,17 +217,17 @@ New York,New York,United States
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskPostRequestInfo](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md).[location_name](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md#location_name)
+[`ISerpBaiduOrganicTaskPostRequestInfo`](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md).[`location_name`](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:68173
+main.ts:68181
 
-___
+***
 
-### max\_crawl\_pages
+### max\_crawl\_pages?
 
-• `Optional` **max\_crawl\_pages**: `number`
+> **`optional`** **max\_crawl\_pages**: `number`
 
 page crawl limit
 optional field
@@ -267,17 +238,17 @@ learn more at our help center
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskPostRequestInfo](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md).[max_crawl_pages](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md#max_crawl_pages)
+[`ISerpBaiduOrganicTaskPostRequestInfo`](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md).[`max_crawl_pages`](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md#max_crawl_pages)
 
-#### Defined in
+#### Source
 
-main.ts:68154
+main.ts:68162
 
-___
+***
 
-### os
+### os?
 
-• `Optional` **os**: `string`
+> **`optional`** **os**: `string`
 
 device operating system
 optional field
@@ -290,17 +261,17 @@ default value: android
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskPostRequestInfo](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md).[os](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md#os)
+[`ISerpBaiduOrganicTaskPostRequestInfo`](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md).[`os`](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md#os)
 
-#### Defined in
+#### Source
 
-main.ts:68204
+main.ts:68212
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -314,17 +285,17 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskPostRequestInfo](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md).[pingback_url](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md#pingback_url)
+[`ISerpBaiduOrganicTaskPostRequestInfo`](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md).[`pingback_url`](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md#pingback_url)
 
-#### Defined in
+#### Source
 
-main.ts:68244
+main.ts:68252
 
-___
+***
 
-### postback\_data
+### postback\_data?
 
-• `Optional` **postback\_data**: `string`
+> **`optional`** **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -334,17 +305,17 @@ regular, html
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskPostRequestInfo](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md).[postback_data](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md#postback_data)
+[`ISerpBaiduOrganicTaskPostRequestInfo`](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md).[`postback_data`](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md#postback_data)
 
-#### Defined in
+#### Source
 
-main.ts:68234
+main.ts:68242
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -358,17 +329,17 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskPostRequestInfo](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md).[postback_url](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md#postback_url)
+[`ISerpBaiduOrganicTaskPostRequestInfo`](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md).[`postback_url`](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md#postback_url)
 
-#### Defined in
+#### Source
 
-main.ts:68228
+main.ts:68236
 
-___
+***
 
-### priority
+### priority?
 
-• `Optional` **priority**: `number`
+> **`optional`** **priority**: `number`
 
 task priority
 optional field
@@ -380,17 +351,17 @@ The cost can be calculated on the Pricing page.
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskPostRequestInfo](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md).[priority](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md#priority)
+[`ISerpBaiduOrganicTaskPostRequestInfo`](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md).[`priority`](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md#priority)
 
-#### Defined in
+#### Source
 
-main.ts:68138
+main.ts:68146
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -400,68 +371,62 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskPostRequestInfo](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md).[tag](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md#tag)
+[`ISerpBaiduOrganicTaskPostRequestInfo`](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md).[`tag`](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:68218
+main.ts:68226
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:68257
+main.ts:68265
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:68289
+main.ts:68297
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpBaiduOrganicTaskPostRequestInfo`](SerpBaiduOrganicTaskPostRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpBaiduOrganicTaskPostRequestInfo`](SerpBaiduOrganicTaskPostRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpBaiduOrganicTaskPostRequestInfo`](SerpBaiduOrganicTaskPostRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:68282
+main.ts:68290

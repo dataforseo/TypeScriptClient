@@ -1,154 +1,139 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMerchantGoogleProductInfoTaskGetAdvancedResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IMerchantGoogleProductInfoTaskGetAdvancedResultInfo
 
 # Interface: IMerchantGoogleProductInfoTaskGetAdvancedResultInfo
 
-## Implemented by
-
-- [`MerchantGoogleProductInfoTaskGetAdvancedResultInfo`](../classes/MerchantGoogleProductInfoTaskGetAdvancedResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [check\_url](IMerchantGoogleProductInfoTaskGetAdvancedResultInfo.md#check_url)
-- [datetime](IMerchantGoogleProductInfoTaskGetAdvancedResultInfo.md#datetime)
-- [item\_types](IMerchantGoogleProductInfoTaskGetAdvancedResultInfo.md#item_types)
-- [items](IMerchantGoogleProductInfoTaskGetAdvancedResultInfo.md#items)
-- [items\_count](IMerchantGoogleProductInfoTaskGetAdvancedResultInfo.md#items_count)
-- [language\_code](IMerchantGoogleProductInfoTaskGetAdvancedResultInfo.md#language_code)
-- [location\_code](IMerchantGoogleProductInfoTaskGetAdvancedResultInfo.md#location_code)
-- [product\_id](IMerchantGoogleProductInfoTaskGetAdvancedResultInfo.md#product_id)
-- [se\_domain](IMerchantGoogleProductInfoTaskGetAdvancedResultInfo.md#se_domain)
-- [type](IMerchantGoogleProductInfoTaskGetAdvancedResultInfo.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### check\_url
+### check\_url?
 
-• `Optional` **check\_url**: `string`
+> **`optional`** **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
 
-#### Defined in
+#### Source
 
 main.ts:174889
 
-___
+***
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the format: “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
 main.ts:174894
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 types of items found on the product specification page
 possible item types:
 product_info_element
 
-#### Defined in
+#### Source
 
 main.ts:174898
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseMerchantSerpElementItem`](../classes/BaseMerchantSerpElementItem.md)[]
+> **`optional`** **items**: [`BaseMerchantSerpElementItem`](../classes/BaseMerchantSerpElementItem.md)[]
 
 items on the product page
 contains all product attributes and related data listed on the product page
 
-#### Defined in
+#### Source
 
 main.ts:174903
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Defined in
+#### Source
 
 main.ts:174900
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
-#### Defined in
+#### Source
 
 main.ts:174886
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
-#### Defined in
+#### Source
 
 main.ts:174884
 
-___
+***
 
-### product\_id
+### product\_id?
 
-• `Optional` **product\_id**: `string`
+> **`optional`** **product\_id**: `string`
 
 product ID in a POST array
 learn more about the parameter in this help center guide
 
-#### Defined in
+#### Source
 
 main.ts:174878
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
-#### Defined in
+#### Source
 
 main.ts:174882
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
 main.ts:174880

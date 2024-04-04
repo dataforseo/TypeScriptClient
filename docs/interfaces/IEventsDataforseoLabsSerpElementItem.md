@@ -1,117 +1,103 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IEventsDataforseoLabsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IEventsDataforseoLabsSerpElementItem
 
 # Interface: IEventsDataforseoLabsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md)
 
-  ↳ **`IEventsDataforseoLabsSerpElementItem`**
-
-## Implemented by
-
-- [`EventsDataforseoLabsSerpElementItem`](../classes/EventsDataforseoLabsSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IEventsDataforseoLabsSerpElementItem.md#items)
-- [position](IEventsDataforseoLabsSerpElementItem.md#position)
-- [rank\_absolute](IEventsDataforseoLabsSerpElementItem.md#rank_absolute)
-- [rank\_group](IEventsDataforseoLabsSerpElementItem.md#rank_group)
-- [title](IEventsDataforseoLabsSerpElementItem.md#title)
-- [url](IEventsDataforseoLabsSerpElementItem.md#url)
-- [xpath](IEventsDataforseoLabsSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`EventsElement`](../classes/EventsElement.md)[]
+> **`optional`** **items**: [`EventsElement`](../classes/EventsElement.md)[]
 
 elements of search results found in SERP
 
-#### Defined in
+#### Source
 
-main.ts:97333
+main.ts:97341
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
-main.ts:97325
+main.ts:97333
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Defined in
+#### Source
 
-main.ts:97321
+main.ts:97329
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
-main.ts:97318
+main.ts:97326
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the result in SERP
 
-#### Defined in
+#### Source
 
-main.ts:97329
+main.ts:97337
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 relevant URL of the Ad element in SERP
 
-#### Defined in
+#### Source
 
-main.ts:97331
+main.ts:97339
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
-main.ts:97327
+main.ts:97335

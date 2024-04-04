@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataIdListResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataIdListResultInfo
 
 # Class: KeywordsDataIdListResultInfo
 
@@ -8,71 +12,47 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataIdListResultInfo.md#constructor)
-
-### Properties
-
-- [cost](KeywordsDataIdListResultInfo.md#cost)
-- [datetime\_done](KeywordsDataIdListResultInfo.md#datetime_done)
-- [datetime\_posted](KeywordsDataIdListResultInfo.md#datetime_posted)
-- [id](KeywordsDataIdListResultInfo.md#id)
-- [metadata](KeywordsDataIdListResultInfo.md#metadata)
-- [status](KeywordsDataIdListResultInfo.md#status)
-- [url](KeywordsDataIdListResultInfo.md#url)
-
-### Methods
-
-- [init](KeywordsDataIdListResultInfo.md#init)
-- [toJSON](KeywordsDataIdListResultInfo.md#tojson)
-- [fromJS](KeywordsDataIdListResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordsDataIdListResultInfo(data)
 
-• **new KeywordsDataIdListResultInfo**(`data?`): [`KeywordsDataIdListResultInfo`](KeywordsDataIdListResultInfo.md)
+> **new KeywordsDataIdListResultInfo**(`data`?): [`KeywordsDataIdListResultInfo`](KeywordsDataIdListResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordsDataIdListResultInfo`](../interfaces/IKeywordsDataIdListResultInfo.md) |
+• **data?**: [`IKeywordsDataIdListResultInfo`](../interfaces/IKeywordsDataIdListResultInfo.md)
 
 #### Returns
 
 [`KeywordsDataIdListResultInfo`](KeywordsDataIdListResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:114745
+main.ts:114753
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 cost of the task, USD
 
 #### Implementation of
 
-[IKeywordsDataIdListResultInfo](../interfaces/IKeywordsDataIdListResultInfo.md).[cost](../interfaces/IKeywordsDataIdListResultInfo.md#cost)
+[`IKeywordsDataIdListResultInfo`](../interfaces/IKeywordsDataIdListResultInfo.md).[`cost`](../interfaces/IKeywordsDataIdListResultInfo.md#cost)
 
-#### Defined in
+#### Source
 
-main.ts:114739
+main.ts:114747
 
-___
+***
 
-### datetime\_done
+### datetime\_done?
 
-• `Optional` **datetime\_done**: `string`
+> **`optional`** **datetime\_done**: `string`
 
 date and time when the task was completed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -81,17 +61,17 @@ example:
 
 #### Implementation of
 
-[IKeywordsDataIdListResultInfo](../interfaces/IKeywordsDataIdListResultInfo.md).[datetime_done](../interfaces/IKeywordsDataIdListResultInfo.md#datetime_done)
+[`IKeywordsDataIdListResultInfo`](../interfaces/IKeywordsDataIdListResultInfo.md).[`datetime_done`](../interfaces/IKeywordsDataIdListResultInfo.md#datetime_done)
 
-#### Defined in
+#### Source
 
-main.ts:114734
+main.ts:114742
 
-___
+***
 
-### datetime\_posted
+### datetime\_posted?
 
-• `Optional` **datetime\_posted**: `string`
+> **`optional`** **datetime\_posted**: `string`
 
 date and time when the task was made
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -100,138 +80,132 @@ example:
 
 #### Implementation of
 
-[IKeywordsDataIdListResultInfo](../interfaces/IKeywordsDataIdListResultInfo.md).[datetime_posted](../interfaces/IKeywordsDataIdListResultInfo.md#datetime_posted)
+[`IKeywordsDataIdListResultInfo`](../interfaces/IKeywordsDataIdListResultInfo.md).[`datetime_posted`](../interfaces/IKeywordsDataIdListResultInfo.md#datetime_posted)
 
-#### Defined in
+#### Source
 
-main.ts:114729
+main.ts:114737
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 id of the task
 
 #### Implementation of
 
-[IKeywordsDataIdListResultInfo](../interfaces/IKeywordsDataIdListResultInfo.md).[id](../interfaces/IKeywordsDataIdListResultInfo.md#id)
+[`IKeywordsDataIdListResultInfo`](../interfaces/IKeywordsDataIdListResultInfo.md).[`id`](../interfaces/IKeywordsDataIdListResultInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:114721
+main.ts:114729
 
-___
+***
 
-### metadata
+### metadata?
 
-• `Optional` **metadata**: `Object`
+> **`optional`** **metadata**: `Object`
 
 contains parameters you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[IKeywordsDataIdListResultInfo](../interfaces/IKeywordsDataIdListResultInfo.md).[metadata](../interfaces/IKeywordsDataIdListResultInfo.md#metadata)
+[`IKeywordsDataIdListResultInfo`](../interfaces/IKeywordsDataIdListResultInfo.md).[`metadata`](../interfaces/IKeywordsDataIdListResultInfo.md#metadata)
 
-#### Defined in
+#### Source
 
-main.ts:114741
+main.ts:114749
 
-___
+***
 
-### status
+### status?
 
-• `Optional` **status**: `string`
+> **`optional`** **status**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IKeywordsDataIdListResultInfo](../interfaces/IKeywordsDataIdListResultInfo.md).[status](../interfaces/IKeywordsDataIdListResultInfo.md#status)
+[`IKeywordsDataIdListResultInfo`](../interfaces/IKeywordsDataIdListResultInfo.md).[`status`](../interfaces/IKeywordsDataIdListResultInfo.md#status)
 
-#### Defined in
+#### Source
 
-main.ts:114737
+main.ts:114745
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL of the task
 URL you used for making an API call
 
 #### Implementation of
 
-[IKeywordsDataIdListResultInfo](../interfaces/IKeywordsDataIdListResultInfo.md).[url](../interfaces/IKeywordsDataIdListResultInfo.md#url)
+[`IKeywordsDataIdListResultInfo`](../interfaces/IKeywordsDataIdListResultInfo.md).[`url`](../interfaces/IKeywordsDataIdListResultInfo.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:114724
+main.ts:114732
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:114754
+main.ts:114762
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:114783
+main.ts:114791
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordsDataIdListResultInfo`](KeywordsDataIdListResultInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordsDataIdListResultInfo`](KeywordsDataIdListResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`KeywordsDataIdListResultInfo`](KeywordsDataIdListResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:114776
+main.ts:114784

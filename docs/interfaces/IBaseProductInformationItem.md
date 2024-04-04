@@ -1,21 +1,17 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBaseProductInformationItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBaseProductInformationItem
 
 # Interface: IBaseProductInformationItem
 
-## Hierarchy
+## Extended by
 
-- **`IBaseProductInformationItem`**
-
-  ↳ [`IProductInformationDetailsItem`](IProductInformationDetailsItem.md)
-
-  ↳ [`IProductInformationTextItem`](IProductInformationTextItem.md)
-
-  ↳ [`IProductInformationExtendedItem`](IProductInformationExtendedItem.md)
-
-## Implemented by
-
-- [`BaseProductInformationItem`](../classes/BaseProductInformationItem.md)
+- [`IProductInformationDetailsItem`](IProductInformationDetailsItem.md)
+- [`IProductInformationTextItem`](IProductInformationTextItem.md)
+- [`IProductInformationExtendedItem`](IProductInformationExtendedItem.md)
 
 ## Indexable
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`

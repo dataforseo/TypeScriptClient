@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ReviewResponseItemInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ReviewResponseItemInfo
 
 # Class: ReviewResponseItemInfo
 
@@ -8,150 +12,124 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ReviewResponseItemInfo.md#constructor)
-
-### Properties
-
-- [text](ReviewResponseItemInfo.md#text)
-- [timestamp](ReviewResponseItemInfo.md#timestamp)
-- [title](ReviewResponseItemInfo.md#title)
-
-### Methods
-
-- [init](ReviewResponseItemInfo.md#init)
-- [toJSON](ReviewResponseItemInfo.md#tojson)
-- [fromJS](ReviewResponseItemInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ReviewResponseItemInfo(data)
 
-• **new ReviewResponseItemInfo**(`data?`): [`ReviewResponseItemInfo`](ReviewResponseItemInfo.md)
+> **new ReviewResponseItemInfo**(`data`?): [`ReviewResponseItemInfo`](ReviewResponseItemInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IReviewResponseItemInfo`](../interfaces/IReviewResponseItemInfo.md) |
+• **data?**: [`IReviewResponseItemInfo`](../interfaces/IReviewResponseItemInfo.md)
 
 #### Returns
 
 [`ReviewResponseItemInfo`](ReviewResponseItemInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:20714
 
 ## Properties
 
-### text
+### text?
 
-• `Optional` **text**: `string`
+> **`optional`** **text**: `string`
 
 the content of response
 
 #### Implementation of
 
-[IReviewResponseItemInfo](../interfaces/IReviewResponseItemInfo.md).[text](../interfaces/IReviewResponseItemInfo.md#text)
+[`IReviewResponseItemInfo`](../interfaces/IReviewResponseItemInfo.md).[`text`](../interfaces/IReviewResponseItemInfo.md#text)
 
-#### Defined in
+#### Source
 
 main.ts:20708
 
-___
+***
 
-### timestamp
+### timestamp?
 
-• `Optional` **timestamp**: `string`
+> **`optional`** **timestamp**: `string`
 
 the time of publication
 
 #### Implementation of
 
-[IReviewResponseItemInfo](../interfaces/IReviewResponseItemInfo.md).[timestamp](../interfaces/IReviewResponseItemInfo.md#timestamp)
+[`IReviewResponseItemInfo`](../interfaces/IReviewResponseItemInfo.md).[`timestamp`](../interfaces/IReviewResponseItemInfo.md#timestamp)
 
-#### Defined in
+#### Source
 
 main.ts:20710
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 the title of response
 
 #### Implementation of
 
-[IReviewResponseItemInfo](../interfaces/IReviewResponseItemInfo.md).[title](../interfaces/IReviewResponseItemInfo.md#title)
+[`IReviewResponseItemInfo`](../interfaces/IReviewResponseItemInfo.md).[`title`](../interfaces/IReviewResponseItemInfo.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:20706
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:20723
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:20742
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ReviewResponseItemInfo`](ReviewResponseItemInfo.md)
+> **`static`** **fromJS**(`data`): [`ReviewResponseItemInfo`](ReviewResponseItemInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ReviewResponseItemInfo`](ReviewResponseItemInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:20735

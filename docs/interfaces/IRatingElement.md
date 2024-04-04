@@ -1,97 +1,86 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IRatingElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IRatingElement
 
 # Interface: IRatingElement
 
-## Implemented by
-
-- [`RatingElement`](../classes/RatingElement.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [position](IRatingElement.md#position)
-- [rating\_max](IRatingElement.md#rating_max)
-- [rating\_type](IRatingElement.md#rating_type)
-- [type](IRatingElement.md#type)
-- [value](IRatingElement.md#value)
-- [votes\_count](IRatingElement.md#votes_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in Google Shopping SERP
 possible values:
 left, right
 
-#### Defined in
+#### Source
 
-main.ts:169926
+main.ts:169934
 
-___
+***
 
-### rating\_max
+### rating\_max?
 
-• `Optional` **rating\_max**: `number`
+> **`optional`** **rating\_max**: `number`
 
 the maximum value for a rating_type
 
-#### Defined in
+#### Source
 
-main.ts:169935
+main.ts:169943
 
-___
+***
 
-### rating\_type
+### rating\_type?
 
-• `Optional` **rating\_type**: `string`
+> **`optional`** **rating\_type**: `string`
 
 the type of rating
 here you can find the following elements: Max5, Percents, CustomMax
 
-#### Defined in
+#### Source
 
-main.ts:169929
+main.ts:169937
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:169922
+main.ts:169930
 
-___
+***
 
-### value
+### value?
 
-• `Optional` **value**: `string`
+> **`optional`** **value**: `string`
 
 value of the rating
 
-#### Defined in
+#### Source
 
-main.ts:169931
+main.ts:169939
 
-___
+***
 
-### votes\_count
+### votes\_count?
 
-• `Optional` **votes\_count**: `number`
+> **`optional`** **votes\_count**: `number`
 
 the amount of feedback
 
-#### Defined in
+#### Source
 
-main.ts:169933
+main.ts:169941

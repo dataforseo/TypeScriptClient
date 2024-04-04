@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpScreenshotRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpScreenshotRequestInfo
 
 # Class: SerpScreenshotRequestInfo
 
@@ -8,53 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpScreenshotRequestInfo.md#constructor)
-
-### Properties
-
-- [browser\_preset](SerpScreenshotRequestInfo.md#browser_preset)
-- [browser\_screen\_height](SerpScreenshotRequestInfo.md#browser_screen_height)
-- [browser\_screen\_scale\_factor](SerpScreenshotRequestInfo.md#browser_screen_scale_factor)
-- [browser\_screen\_width](SerpScreenshotRequestInfo.md#browser_screen_width)
-- [task\_id](SerpScreenshotRequestInfo.md#task_id)
-
-### Methods
-
-- [init](SerpScreenshotRequestInfo.md#init)
-- [toJSON](SerpScreenshotRequestInfo.md#tojson)
-- [fromJS](SerpScreenshotRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpScreenshotRequestInfo(data)
 
-• **new SerpScreenshotRequestInfo**(`data?`): [`SerpScreenshotRequestInfo`](SerpScreenshotRequestInfo.md)
+> **new SerpScreenshotRequestInfo**(`data`?): [`SerpScreenshotRequestInfo`](SerpScreenshotRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpScreenshotRequestInfo`](../interfaces/ISerpScreenshotRequestInfo.md) |
+• **data?**: [`ISerpScreenshotRequestInfo`](../interfaces/ISerpScreenshotRequestInfo.md)
 
 #### Returns
 
 [`SerpScreenshotRequestInfo`](SerpScreenshotRequestInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:23944
 
 ## Properties
 
-### browser\_preset
+### browser\_preset?
 
-• `Optional` **browser\_preset**: `string`
+> **`optional`** **browser\_preset**: `string`
 
 browser resolution preset
 optional field
@@ -64,17 +46,17 @@ note: by default, browser preset corresponds to the device type specified in the
 
 #### Implementation of
 
-[ISerpScreenshotRequestInfo](../interfaces/ISerpScreenshotRequestInfo.md).[browser_preset](../interfaces/ISerpScreenshotRequestInfo.md#browser_preset)
+[`ISerpScreenshotRequestInfo`](../interfaces/ISerpScreenshotRequestInfo.md).[`browser_preset`](../interfaces/ISerpScreenshotRequestInfo.md#browser_preset)
 
-#### Defined in
+#### Source
 
 main.ts:23928
 
-___
+***
 
-### browser\_screen\_height
+### browser\_screen\_height?
 
-• `Optional` **browser\_screen\_height**: `number`
+> **`optional`** **browser\_screen\_height**: `number`
 
 height of the browser resolution
 optional field
@@ -82,17 +64,17 @@ can be specified in the following range: 240-9999
 
 #### Implementation of
 
-[ISerpScreenshotRequestInfo](../interfaces/ISerpScreenshotRequestInfo.md).[browser_screen_height](../interfaces/ISerpScreenshotRequestInfo.md#browser_screen_height)
+[`ISerpScreenshotRequestInfo`](../interfaces/ISerpScreenshotRequestInfo.md).[`browser_screen_height`](../interfaces/ISerpScreenshotRequestInfo.md#browser_screen_height)
 
-#### Defined in
+#### Source
 
 main.ts:23936
 
-___
+***
 
-### browser\_screen\_scale\_factor
+### browser\_screen\_scale\_factor?
 
-• `Optional` **browser\_screen\_scale\_factor**: `number`
+> **`optional`** **browser\_screen\_scale\_factor**: `number`
 
 browser scale factor
 optional field
@@ -100,17 +82,17 @@ can be specified in the following range: 0.5-3
 
 #### Implementation of
 
-[ISerpScreenshotRequestInfo](../interfaces/ISerpScreenshotRequestInfo.md).[browser_screen_scale_factor](../interfaces/ISerpScreenshotRequestInfo.md#browser_screen_scale_factor)
+[`ISerpScreenshotRequestInfo`](../interfaces/ISerpScreenshotRequestInfo.md).[`browser_screen_scale_factor`](../interfaces/ISerpScreenshotRequestInfo.md#browser_screen_scale_factor)
 
-#### Defined in
+#### Source
 
 main.ts:23940
 
-___
+***
 
-### browser\_screen\_width
+### browser\_screen\_width?
 
-• `Optional` **browser\_screen\_width**: `number`
+> **`optional`** **browser\_screen\_width**: `number`
 
 width of the browser resolution
 optional field
@@ -118,17 +100,17 @@ can be specified in the following range: 240-9999
 
 #### Implementation of
 
-[ISerpScreenshotRequestInfo](../interfaces/ISerpScreenshotRequestInfo.md).[browser_screen_width](../interfaces/ISerpScreenshotRequestInfo.md#browser_screen_width)
+[`ISerpScreenshotRequestInfo`](../interfaces/ISerpScreenshotRequestInfo.md).[`browser_screen_width`](../interfaces/ISerpScreenshotRequestInfo.md#browser_screen_width)
 
-#### Defined in
+#### Source
 
 main.ts:23932
 
-___
+***
 
-### task\_id
+### task\_id?
 
-• `Optional` **task\_id**: `string`
+> **`optional`** **task\_id**: `string`
 
 task identifier
 required field
@@ -137,68 +119,62 @@ you will be able to use it within 7 days to request the results of the task at a
 
 #### Implementation of
 
-[ISerpScreenshotRequestInfo](../interfaces/ISerpScreenshotRequestInfo.md).[task_id](../interfaces/ISerpScreenshotRequestInfo.md#task_id)
+[`ISerpScreenshotRequestInfo`](../interfaces/ISerpScreenshotRequestInfo.md).[`task_id`](../interfaces/ISerpScreenshotRequestInfo.md#task_id)
 
-#### Defined in
+#### Source
 
 main.ts:23922
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:23953
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:23974
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpScreenshotRequestInfo`](SerpScreenshotRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpScreenshotRequestInfo`](SerpScreenshotRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpScreenshotRequestInfo`](SerpScreenshotRequestInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:23967

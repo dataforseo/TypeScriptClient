@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixStatusEndpointsInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppendixStatusEndpointsInfo
 
 # Class: AppendixStatusEndpointsInfo
 
@@ -8,50 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixStatusEndpointsInfo.md#constructor)
-
-### Properties
-
-- [endpoint](AppendixStatusEndpointsInfo.md#endpoint)
-- [status](AppendixStatusEndpointsInfo.md#status)
-
-### Methods
-
-- [init](AppendixStatusEndpointsInfo.md#init)
-- [toJSON](AppendixStatusEndpointsInfo.md#tojson)
-- [fromJS](AppendixStatusEndpointsInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixStatusEndpointsInfo(data)
 
-• **new AppendixStatusEndpointsInfo**(`data?`): [`AppendixStatusEndpointsInfo`](AppendixStatusEndpointsInfo.md)
+> **new AppendixStatusEndpointsInfo**(`data`?): [`AppendixStatusEndpointsInfo`](AppendixStatusEndpointsInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixStatusEndpointsInfo`](../interfaces/IAppendixStatusEndpointsInfo.md) |
+• **data?**: [`IAppendixStatusEndpointsInfo`](../interfaces/IAppendixStatusEndpointsInfo.md)
 
 #### Returns
 
 [`AppendixStatusEndpointsInfo`](AppendixStatusEndpointsInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:218350
 
 ## Properties
 
-### endpoint
+### endpoint?
 
-• `Optional` **endpoint**: `string`
+> **`optional`** **endpoint**: `string`
 
 name of the endpoint
 the list of possible endpoints:
@@ -62,17 +47,17 @@ postback/pingback
 
 #### Implementation of
 
-[IAppendixStatusEndpointsInfo](../interfaces/IAppendixStatusEndpointsInfo.md).[endpoint](../interfaces/IAppendixStatusEndpointsInfo.md#endpoint)
+[`IAppendixStatusEndpointsInfo`](../interfaces/IAppendixStatusEndpointsInfo.md).[`endpoint`](../interfaces/IAppendixStatusEndpointsInfo.md#endpoint)
 
-#### Defined in
+#### Source
 
 main.ts:218336
 
-___
+***
 
-### status
+### status?
 
-• `Optional` **status**: `string`
+> **`optional`** **status**: `string`
 
 current status
 you can find all information about the statuses of our endpoints for the last 60 days here
@@ -86,68 +71,62 @@ send_delay
 
 #### Implementation of
 
-[IAppendixStatusEndpointsInfo](../interfaces/IAppendixStatusEndpointsInfo.md).[status](../interfaces/IAppendixStatusEndpointsInfo.md#status)
+[`IAppendixStatusEndpointsInfo`](../interfaces/IAppendixStatusEndpointsInfo.md).[`status`](../interfaces/IAppendixStatusEndpointsInfo.md#status)
 
-#### Defined in
+#### Source
 
 main.ts:218346
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:218359
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:218377
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppendixStatusEndpointsInfo`](AppendixStatusEndpointsInfo.md)
+> **`static`** **fromJS**(`data`): [`AppendixStatusEndpointsInfo`](AppendixStatusEndpointsInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppendixStatusEndpointsInfo`](AppendixStatusEndpointsInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:218370

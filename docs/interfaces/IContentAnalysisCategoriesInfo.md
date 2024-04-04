@@ -1,38 +1,31 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentAnalysisCategoriesInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IContentAnalysisCategoriesInfo
 
 # Interface: IContentAnalysisCategoriesInfo
 
-## Implemented by
-
-- [`ContentAnalysisCategoriesInfo`](../classes/ContentAnalysisCategoriesInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [category](IContentAnalysisCategoriesInfo.md#category)
-- [count](IContentAnalysisCategoriesInfo.md#count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### category
+### category?
 
-• `Optional` **category**: `number`[]
+> **`optional`** **category**: `number`[]
 
-#### Defined in
+#### Source
 
 main.ts:22224
 
-___
+***
 
-### count
+### count?
 
-• `Optional` **count**: `number`
+> **`optional`** **count**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:22225

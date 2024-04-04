@@ -1,70 +1,61 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsDomainIntersectionLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsDomainIntersectionLiveItem
 
 # Interface: IDataforseoLabsDomainIntersectionLiveItem
 
-## Implemented by
-
-- [`DataforseoLabsDomainIntersectionLiveItem`](../classes/DataforseoLabsDomainIntersectionLiveItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [first\_domain\_serp\_element](IDataforseoLabsDomainIntersectionLiveItem.md#first_domain_serp_element)
-- [keyword\_data](IDataforseoLabsDomainIntersectionLiveItem.md#keyword_data)
-- [se\_type](IDataforseoLabsDomainIntersectionLiveItem.md#se_type)
-- [second\_domain\_serp\_element](IDataforseoLabsDomainIntersectionLiveItem.md#second_domain_serp_element)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### first\_domain\_serp\_element
+### first\_domain\_serp\_element?
 
-• `Optional` **first\_domain\_serp\_element**: [`BaseDataforseoLabsSerpElementItem`](../classes/BaseDataforseoLabsSerpElementItem.md)
+> **`optional`** **first\_domain\_serp\_element**: [`BaseDataforseoLabsSerpElementItem`](../classes/BaseDataforseoLabsSerpElementItem.md)
 
 contains data on the first domain’s SERP element found for the returned keyword
 the list of supported SERP elements can be found below
 
-#### Defined in
+#### Source
 
-main.ts:91473
+main.ts:91481
 
-___
+***
 
-### keyword\_data
+### keyword\_data?
 
-• `Optional` **keyword\_data**: [`KeywordData`](../classes/KeywordData.md)
+> **`optional`** **keyword\_data**: [`KeywordData`](../classes/KeywordData.md)
 
 keyword data for the returned keyword
 
-#### Defined in
+#### Source
 
-main.ts:91470
+main.ts:91478
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:91468
+main.ts:91476
 
-___
+***
 
-### second\_domain\_serp\_element
+### second\_domain\_serp\_element?
 
-• `Optional` **second\_domain\_serp\_element**: [`BaseDataforseoLabsSerpElementItem`](../classes/BaseDataforseoLabsSerpElementItem.md)
+> **`optional`** **second\_domain\_serp\_element**: [`BaseDataforseoLabsSerpElementItem`](../classes/BaseDataforseoLabsSerpElementItem.md)
 
 contains data on the second domain’s SERP element found for the returned keyword
 the list of supported SERP elements can be found below
 
-#### Defined in
+#### Source
 
-main.ts:91476
+main.ts:91484

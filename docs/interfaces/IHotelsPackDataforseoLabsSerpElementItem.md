@@ -1,136 +1,121 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IHotelsPackDataforseoLabsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IHotelsPackDataforseoLabsSerpElementItem
 
 # Interface: IHotelsPackDataforseoLabsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md)
 
-  ↳ **`IHotelsPackDataforseoLabsSerpElementItem`**
-
-## Implemented by
-
-- [`HotelsPackDataforseoLabsSerpElementItem`](../classes/HotelsPackDataforseoLabsSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [date\_from](IHotelsPackDataforseoLabsSerpElementItem.md#date_from)
-- [date\_to](IHotelsPackDataforseoLabsSerpElementItem.md#date_to)
-- [items](IHotelsPackDataforseoLabsSerpElementItem.md#items)
-- [position](IHotelsPackDataforseoLabsSerpElementItem.md#position)
-- [rank\_absolute](IHotelsPackDataforseoLabsSerpElementItem.md#rank_absolute)
-- [rank\_group](IHotelsPackDataforseoLabsSerpElementItem.md#rank_group)
-- [title](IHotelsPackDataforseoLabsSerpElementItem.md#title)
-- [xpath](IHotelsPackDataforseoLabsSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of stay
 in the format “year-month-date”
 example:
 2019-11-15
 
-#### Defined in
+#### Source
 
-main.ts:95942
+main.ts:95950
 
-___
+***
 
-### date\_to
+### date\_to?
 
-• `Optional` **date\_to**: `string`
+> **`optional`** **date\_to**: `string`
 
 ending date of stay
 in the format “year-month-date”
 example:
 2019-11-17
 
-#### Defined in
+#### Source
 
-main.ts:95947
+main.ts:95955
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`HotelsPackElement`](../classes/HotelsPackElement.md)[]
+> **`optional`** **items**: [`HotelsPackElement`](../classes/HotelsPackElement.md)[]
 
 elements of search results found in SERP
 
-#### Defined in
+#### Source
 
-main.ts:95949
+main.ts:95957
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
-main.ts:95933
+main.ts:95941
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Defined in
+#### Source
 
-main.ts:95929
+main.ts:95937
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
-main.ts:95926
+main.ts:95934
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the result in SERP
 
-#### Defined in
+#### Source
 
-main.ts:95937
+main.ts:95945
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
-main.ts:95935
+main.ts:95943

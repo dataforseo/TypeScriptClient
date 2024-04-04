@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SpellInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SpellInfo
 
 # Class: SpellInfo
 
@@ -8,67 +12,48 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SpellInfo.md#constructor)
-
-### Properties
-
-- [keyword](SpellInfo.md#keyword)
-- [type](SpellInfo.md#type)
-
-### Methods
-
-- [init](SpellInfo.md#init)
-- [toJSON](SpellInfo.md#tojson)
-- [fromJS](SpellInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SpellInfo(data)
 
-• **new SpellInfo**(`data?`): [`SpellInfo`](SpellInfo.md)
+> **new SpellInfo**(`data`?): [`SpellInfo`](SpellInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISpellInfo`](../interfaces/ISpellInfo.md) |
+• **data?**: [`ISpellInfo`](../interfaces/ISpellInfo.md)
 
 #### Returns
 
 [`SpellInfo`](SpellInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:22369
 
 ## Properties
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword obtained as a result of search engine autocorrection
 the results will be provided for the corrected keyword
 
 #### Implementation of
 
-[ISpellInfo](../interfaces/ISpellInfo.md).[keyword](../interfaces/ISpellInfo.md#keyword)
+[`ISpellInfo`](../interfaces/ISpellInfo.md).[`keyword`](../interfaces/ISpellInfo.md#keyword)
 
-#### Defined in
+#### Source
 
 main.ts:22359
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of autocorrection
 possible values:
@@ -78,68 +63,62 @@ including_results_for
 
 #### Implementation of
 
-[ISpellInfo](../interfaces/ISpellInfo.md).[type](../interfaces/ISpellInfo.md#type)
+[`ISpellInfo`](../interfaces/ISpellInfo.md).[`type`](../interfaces/ISpellInfo.md#type)
 
-#### Defined in
+#### Source
 
 main.ts:22365
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:22378
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:22396
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SpellInfo`](SpellInfo.md)
+> **`static`** **fromJS**(`data`): [`SpellInfo`](SpellInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SpellInfo`](SpellInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:22389

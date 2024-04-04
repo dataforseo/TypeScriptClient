@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpYahooOrganicTasksFixedResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpYahooOrganicTasksFixedResultInfo
 
 # Class: SerpYahooOrganicTasksFixedResultInfo
 
@@ -8,240 +12,209 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpYahooOrganicTasksFixedResultInfo.md#constructor)
-
-### Properties
-
-- [date\_fixed](SerpYahooOrganicTasksFixedResultInfo.md#date_fixed)
-- [endpoint\_advanced](SerpYahooOrganicTasksFixedResultInfo.md#endpoint_advanced)
-- [endpoint\_html](SerpYahooOrganicTasksFixedResultInfo.md#endpoint_html)
-- [endpoint\_regular](SerpYahooOrganicTasksFixedResultInfo.md#endpoint_regular)
-- [id](SerpYahooOrganicTasksFixedResultInfo.md#id)
-- [se](SerpYahooOrganicTasksFixedResultInfo.md#se)
-- [se\_type](SerpYahooOrganicTasksFixedResultInfo.md#se_type)
-- [tag](SerpYahooOrganicTasksFixedResultInfo.md#tag)
-
-### Methods
-
-- [init](SerpYahooOrganicTasksFixedResultInfo.md#init)
-- [toJSON](SerpYahooOrganicTasksFixedResultInfo.md#tojson)
-- [fromJS](SerpYahooOrganicTasksFixedResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpYahooOrganicTasksFixedResultInfo(data)
 
-• **new SerpYahooOrganicTasksFixedResultInfo**(`data?`): [`SerpYahooOrganicTasksFixedResultInfo`](SerpYahooOrganicTasksFixedResultInfo.md)
+> **new SerpYahooOrganicTasksFixedResultInfo**(`data`?): [`SerpYahooOrganicTasksFixedResultInfo`](SerpYahooOrganicTasksFixedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpYahooOrganicTasksFixedResultInfo`](../interfaces/ISerpYahooOrganicTasksFixedResultInfo.md) |
+• **data?**: [`ISerpYahooOrganicTasksFixedResultInfo`](../interfaces/ISerpYahooOrganicTasksFixedResultInfo.md)
 
 #### Returns
 
 [`SerpYahooOrganicTasksFixedResultInfo`](SerpYahooOrganicTasksFixedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:65910
+main.ts:65918
 
 ## Properties
 
-### date\_fixed
+### date\_fixed?
 
-• `Optional` **date\_fixed**: `string`
+> **`optional`** **date\_fixed**: `string`
 
 date when the task was fixed (in the UTC format)
 
 #### Implementation of
 
-[ISerpYahooOrganicTasksFixedResultInfo](../interfaces/ISerpYahooOrganicTasksFixedResultInfo.md).[date_fixed](../interfaces/ISerpYahooOrganicTasksFixedResultInfo.md#date_fixed)
+[`ISerpYahooOrganicTasksFixedResultInfo`](../interfaces/ISerpYahooOrganicTasksFixedResultInfo.md).[`date_fixed`](../interfaces/ISerpYahooOrganicTasksFixedResultInfo.md#date_fixed)
 
-#### Defined in
+#### Source
 
-main.ts:65895
+main.ts:65903
 
-___
+***
 
-### endpoint\_advanced
+### endpoint\_advanced?
 
-• `Optional` **endpoint\_advanced**: `string`
+> **`optional`** **endpoint\_advanced**: `string`
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpYahooOrganicTasksFixedResultInfo](../interfaces/ISerpYahooOrganicTasksFixedResultInfo.md).[endpoint_advanced](../interfaces/ISerpYahooOrganicTasksFixedResultInfo.md#endpoint_advanced)
+[`ISerpYahooOrganicTasksFixedResultInfo`](../interfaces/ISerpYahooOrganicTasksFixedResultInfo.md).[`endpoint_advanced`](../interfaces/ISerpYahooOrganicTasksFixedResultInfo.md#endpoint_advanced)
 
-#### Defined in
+#### Source
 
-main.ts:65903
+main.ts:65911
 
-___
+***
 
-### endpoint\_html
+### endpoint\_html?
 
-• `Optional` **endpoint\_html**: `string`
+> **`optional`** **endpoint\_html**: `string`
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpYahooOrganicTasksFixedResultInfo](../interfaces/ISerpYahooOrganicTasksFixedResultInfo.md).[endpoint_html](../interfaces/ISerpYahooOrganicTasksFixedResultInfo.md#endpoint_html)
+[`ISerpYahooOrganicTasksFixedResultInfo`](../interfaces/ISerpYahooOrganicTasksFixedResultInfo.md).[`endpoint_html`](../interfaces/ISerpYahooOrganicTasksFixedResultInfo.md#endpoint_html)
 
-#### Defined in
+#### Source
 
-main.ts:65906
+main.ts:65914
 
-___
+***
 
-### endpoint\_regular
+### endpoint\_regular?
 
-• `Optional` **endpoint\_regular**: `string`
+> **`optional`** **endpoint\_regular**: `string`
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpYahooOrganicTasksFixedResultInfo](../interfaces/ISerpYahooOrganicTasksFixedResultInfo.md).[endpoint_regular](../interfaces/ISerpYahooOrganicTasksFixedResultInfo.md#endpoint_regular)
+[`ISerpYahooOrganicTasksFixedResultInfo`](../interfaces/ISerpYahooOrganicTasksFixedResultInfo.md).[`endpoint_regular`](../interfaces/ISerpYahooOrganicTasksFixedResultInfo.md#endpoint_regular)
 
-#### Defined in
+#### Source
 
-main.ts:65900
+main.ts:65908
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[ISerpYahooOrganicTasksFixedResultInfo](../interfaces/ISerpYahooOrganicTasksFixedResultInfo.md).[id](../interfaces/ISerpYahooOrganicTasksFixedResultInfo.md#id)
+[`ISerpYahooOrganicTasksFixedResultInfo`](../interfaces/ISerpYahooOrganicTasksFixedResultInfo.md).[`id`](../interfaces/ISerpYahooOrganicTasksFixedResultInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:65888
+main.ts:65896
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 
 #### Implementation of
 
-[ISerpYahooOrganicTasksFixedResultInfo](../interfaces/ISerpYahooOrganicTasksFixedResultInfo.md).[se](../interfaces/ISerpYahooOrganicTasksFixedResultInfo.md#se)
+[`ISerpYahooOrganicTasksFixedResultInfo`](../interfaces/ISerpYahooOrganicTasksFixedResultInfo.md).[`se`](../interfaces/ISerpYahooOrganicTasksFixedResultInfo.md#se)
 
-#### Defined in
+#### Source
 
-main.ts:65890
+main.ts:65898
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 type of search engine
 can take the following values: organic
 
 #### Implementation of
 
-[ISerpYahooOrganicTasksFixedResultInfo](../interfaces/ISerpYahooOrganicTasksFixedResultInfo.md).[se_type](../interfaces/ISerpYahooOrganicTasksFixedResultInfo.md#se_type)
+[`ISerpYahooOrganicTasksFixedResultInfo`](../interfaces/ISerpYahooOrganicTasksFixedResultInfo.md).[`se_type`](../interfaces/ISerpYahooOrganicTasksFixedResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:65893
+main.ts:65901
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
 #### Implementation of
 
-[ISerpYahooOrganicTasksFixedResultInfo](../interfaces/ISerpYahooOrganicTasksFixedResultInfo.md).[tag](../interfaces/ISerpYahooOrganicTasksFixedResultInfo.md#tag)
+[`ISerpYahooOrganicTasksFixedResultInfo`](../interfaces/ISerpYahooOrganicTasksFixedResultInfo.md).[`tag`](../interfaces/ISerpYahooOrganicTasksFixedResultInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:65897
+main.ts:65905
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:65919
+main.ts:65927
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:65943
+main.ts:65951
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpYahooOrganicTasksFixedResultInfo`](SerpYahooOrganicTasksFixedResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpYahooOrganicTasksFixedResultInfo`](SerpYahooOrganicTasksFixedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpYahooOrganicTasksFixedResultInfo`](SerpYahooOrganicTasksFixedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:65936
+main.ts:65944

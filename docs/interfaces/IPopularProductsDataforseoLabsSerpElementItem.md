@@ -1,91 +1,79 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IPopularProductsDataforseoLabsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IPopularProductsDataforseoLabsSerpElementItem
 
 # Interface: IPopularProductsDataforseoLabsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md)
 
-  ↳ **`IPopularProductsDataforseoLabsSerpElementItem`**
-
-## Implemented by
-
-- [`PopularProductsDataforseoLabsSerpElementItem`](../classes/PopularProductsDataforseoLabsSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IPopularProductsDataforseoLabsSerpElementItem.md#items)
-- [position](IPopularProductsDataforseoLabsSerpElementItem.md#position)
-- [rank\_absolute](IPopularProductsDataforseoLabsSerpElementItem.md#rank_absolute)
-- [rank\_group](IPopularProductsDataforseoLabsSerpElementItem.md#rank_group)
-- [xpath](IPopularProductsDataforseoLabsSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`PopularProductsElement`](../classes/PopularProductsElement.md)[]
+> **`optional`** **items**: [`PopularProductsElement`](../classes/PopularProductsElement.md)[]
 
 elements of search results found in SERP
 
-#### Defined in
+#### Source
 
-main.ts:97797
+main.ts:97805
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
-main.ts:97793
+main.ts:97801
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Defined in
+#### Source
 
-main.ts:97789
+main.ts:97797
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
-main.ts:97786
+main.ts:97794
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
-main.ts:97795
+main.ts:97803

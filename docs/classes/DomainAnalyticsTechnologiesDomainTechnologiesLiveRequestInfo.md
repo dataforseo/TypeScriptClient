@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo
 
 # Class: DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo
 
@@ -8,49 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [target](DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md#target)
-
-### Methods
-
-- [init](DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md#init)
-- [toJSON](DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md#tojson)
-- [fromJS](DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo(data)
 
-• **new DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo**(`data?`): [`DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo`](DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md)
+> **new DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo**(`data`?): [`DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo`](DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md) |
+• **data?**: [`IDomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md)
 
 #### Returns
 
 [`DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo`](DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:77444
+main.ts:77452
 
 ## Properties
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 target domain
 required field
@@ -59,68 +45,62 @@ Note: results will be returned for the specified domain only
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo](../interfaces/IDomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md).[target](../interfaces/IDomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md#target)
+[`IDomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md).[`target`](../interfaces/IDomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md#target)
 
-#### Defined in
+#### Source
 
-main.ts:77440
+main.ts:77448
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:77453
+main.ts:77461
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:77470
+main.ts:77478
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo`](DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo`](DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo`](DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:77463
+main.ts:77471

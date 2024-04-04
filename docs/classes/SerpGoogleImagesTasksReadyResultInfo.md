@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleImagesTasksReadyResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleImagesTasksReadyResultInfo
 
 # Class: SerpGoogleImagesTasksReadyResultInfo
 
@@ -8,240 +12,209 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleImagesTasksReadyResultInfo.md#constructor)
-
-### Properties
-
-- [date\_posted](SerpGoogleImagesTasksReadyResultInfo.md#date_posted)
-- [endpoint\_advanced](SerpGoogleImagesTasksReadyResultInfo.md#endpoint_advanced)
-- [endpoint\_html](SerpGoogleImagesTasksReadyResultInfo.md#endpoint_html)
-- [endpoint\_regular](SerpGoogleImagesTasksReadyResultInfo.md#endpoint_regular)
-- [id](SerpGoogleImagesTasksReadyResultInfo.md#id)
-- [se](SerpGoogleImagesTasksReadyResultInfo.md#se)
-- [se\_type](SerpGoogleImagesTasksReadyResultInfo.md#se_type)
-- [tag](SerpGoogleImagesTasksReadyResultInfo.md#tag)
-
-### Methods
-
-- [init](SerpGoogleImagesTasksReadyResultInfo.md#init)
-- [toJSON](SerpGoogleImagesTasksReadyResultInfo.md#tojson)
-- [fromJS](SerpGoogleImagesTasksReadyResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleImagesTasksReadyResultInfo(data)
 
-• **new SerpGoogleImagesTasksReadyResultInfo**(`data?`): [`SerpGoogleImagesTasksReadyResultInfo`](SerpGoogleImagesTasksReadyResultInfo.md)
+> **new SerpGoogleImagesTasksReadyResultInfo**(`data`?): [`SerpGoogleImagesTasksReadyResultInfo`](SerpGoogleImagesTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleImagesTasksReadyResultInfo`](../interfaces/ISerpGoogleImagesTasksReadyResultInfo.md) |
+• **data?**: [`ISerpGoogleImagesTasksReadyResultInfo`](../interfaces/ISerpGoogleImagesTasksReadyResultInfo.md)
 
 #### Returns
 
 [`SerpGoogleImagesTasksReadyResultInfo`](SerpGoogleImagesTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:46446
+main.ts:46454
 
 ## Properties
 
-### date\_posted
+### date\_posted?
 
-• `Optional` **date\_posted**: `string`
+> **`optional`** **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
 #### Implementation of
 
-[ISerpGoogleImagesTasksReadyResultInfo](../interfaces/ISerpGoogleImagesTasksReadyResultInfo.md).[date_posted](../interfaces/ISerpGoogleImagesTasksReadyResultInfo.md#date_posted)
+[`ISerpGoogleImagesTasksReadyResultInfo`](../interfaces/ISerpGoogleImagesTasksReadyResultInfo.md).[`date_posted`](../interfaces/ISerpGoogleImagesTasksReadyResultInfo.md#date_posted)
 
-#### Defined in
+#### Source
 
-main.ts:46431
+main.ts:46439
 
-___
+***
 
-### endpoint\_advanced
+### endpoint\_advanced?
 
-• `Optional` **endpoint\_advanced**: `string`
+> **`optional`** **endpoint\_advanced**: `string`
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpGoogleImagesTasksReadyResultInfo](../interfaces/ISerpGoogleImagesTasksReadyResultInfo.md).[endpoint_advanced](../interfaces/ISerpGoogleImagesTasksReadyResultInfo.md#endpoint_advanced)
+[`ISerpGoogleImagesTasksReadyResultInfo`](../interfaces/ISerpGoogleImagesTasksReadyResultInfo.md).[`endpoint_advanced`](../interfaces/ISerpGoogleImagesTasksReadyResultInfo.md#endpoint_advanced)
 
-#### Defined in
+#### Source
 
-main.ts:46439
+main.ts:46447
 
-___
+***
 
-### endpoint\_html
+### endpoint\_html?
 
-• `Optional` **endpoint\_html**: `string`
+> **`optional`** **endpoint\_html**: `string`
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpGoogleImagesTasksReadyResultInfo](../interfaces/ISerpGoogleImagesTasksReadyResultInfo.md).[endpoint_html](../interfaces/ISerpGoogleImagesTasksReadyResultInfo.md#endpoint_html)
+[`ISerpGoogleImagesTasksReadyResultInfo`](../interfaces/ISerpGoogleImagesTasksReadyResultInfo.md).[`endpoint_html`](../interfaces/ISerpGoogleImagesTasksReadyResultInfo.md#endpoint_html)
 
-#### Defined in
+#### Source
 
-main.ts:46442
+main.ts:46450
 
-___
+***
 
-### endpoint\_regular
+### endpoint\_regular?
 
-• `Optional` **endpoint\_regular**: `string`
+> **`optional`** **endpoint\_regular**: `string`
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpGoogleImagesTasksReadyResultInfo](../interfaces/ISerpGoogleImagesTasksReadyResultInfo.md).[endpoint_regular](../interfaces/ISerpGoogleImagesTasksReadyResultInfo.md#endpoint_regular)
+[`ISerpGoogleImagesTasksReadyResultInfo`](../interfaces/ISerpGoogleImagesTasksReadyResultInfo.md).[`endpoint_regular`](../interfaces/ISerpGoogleImagesTasksReadyResultInfo.md#endpoint_regular)
 
-#### Defined in
+#### Source
 
-main.ts:46436
+main.ts:46444
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[ISerpGoogleImagesTasksReadyResultInfo](../interfaces/ISerpGoogleImagesTasksReadyResultInfo.md).[id](../interfaces/ISerpGoogleImagesTasksReadyResultInfo.md#id)
+[`ISerpGoogleImagesTasksReadyResultInfo`](../interfaces/ISerpGoogleImagesTasksReadyResultInfo.md).[`id`](../interfaces/ISerpGoogleImagesTasksReadyResultInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:46424
+main.ts:46432
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 
 #### Implementation of
 
-[ISerpGoogleImagesTasksReadyResultInfo](../interfaces/ISerpGoogleImagesTasksReadyResultInfo.md).[se](../interfaces/ISerpGoogleImagesTasksReadyResultInfo.md#se)
+[`ISerpGoogleImagesTasksReadyResultInfo`](../interfaces/ISerpGoogleImagesTasksReadyResultInfo.md).[`se`](../interfaces/ISerpGoogleImagesTasksReadyResultInfo.md#se)
 
-#### Defined in
+#### Source
 
-main.ts:46426
+main.ts:46434
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 type of search engine
 can take the following values: images
 
 #### Implementation of
 
-[ISerpGoogleImagesTasksReadyResultInfo](../interfaces/ISerpGoogleImagesTasksReadyResultInfo.md).[se_type](../interfaces/ISerpGoogleImagesTasksReadyResultInfo.md#se_type)
+[`ISerpGoogleImagesTasksReadyResultInfo`](../interfaces/ISerpGoogleImagesTasksReadyResultInfo.md).[`se_type`](../interfaces/ISerpGoogleImagesTasksReadyResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:46429
+main.ts:46437
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
 #### Implementation of
 
-[ISerpGoogleImagesTasksReadyResultInfo](../interfaces/ISerpGoogleImagesTasksReadyResultInfo.md).[tag](../interfaces/ISerpGoogleImagesTasksReadyResultInfo.md#tag)
+[`ISerpGoogleImagesTasksReadyResultInfo`](../interfaces/ISerpGoogleImagesTasksReadyResultInfo.md).[`tag`](../interfaces/ISerpGoogleImagesTasksReadyResultInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:46433
+main.ts:46441
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:46455
+main.ts:46463
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:46479
+main.ts:46487
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleImagesTasksReadyResultInfo`](SerpGoogleImagesTasksReadyResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleImagesTasksReadyResultInfo`](SerpGoogleImagesTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpGoogleImagesTasksReadyResultInfo`](SerpGoogleImagesTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:46472
+main.ts:46480

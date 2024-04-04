@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonBulkSearchVolumeLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsAmazonBulkSearchVolumeLiveItem
 
 # Class: DataforseoLabsAmazonBulkSearchVolumeLiveItem
 
@@ -8,151 +12,125 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsAmazonBulkSearchVolumeLiveItem.md#constructor)
-
-### Properties
-
-- [keyword](DataforseoLabsAmazonBulkSearchVolumeLiveItem.md#keyword)
-- [se\_type](DataforseoLabsAmazonBulkSearchVolumeLiveItem.md#se_type)
-- [search\_volume](DataforseoLabsAmazonBulkSearchVolumeLiveItem.md#search_volume)
-
-### Methods
-
-- [init](DataforseoLabsAmazonBulkSearchVolumeLiveItem.md#init)
-- [toJSON](DataforseoLabsAmazonBulkSearchVolumeLiveItem.md#tojson)
-- [fromJS](DataforseoLabsAmazonBulkSearchVolumeLiveItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsAmazonBulkSearchVolumeLiveItem(data)
 
-• **new DataforseoLabsAmazonBulkSearchVolumeLiveItem**(`data?`): [`DataforseoLabsAmazonBulkSearchVolumeLiveItem`](DataforseoLabsAmazonBulkSearchVolumeLiveItem.md)
+> **new DataforseoLabsAmazonBulkSearchVolumeLiveItem**(`data`?): [`DataforseoLabsAmazonBulkSearchVolumeLiveItem`](DataforseoLabsAmazonBulkSearchVolumeLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsAmazonBulkSearchVolumeLiveItem`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveItem.md) |
+• **data?**: [`IDataforseoLabsAmazonBulkSearchVolumeLiveItem`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveItem.md)
 
 #### Returns
 
 [`DataforseoLabsAmazonBulkSearchVolumeLiveItem`](DataforseoLabsAmazonBulkSearchVolumeLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:101186
+main.ts:101194
 
 ## Properties
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsAmazonBulkSearchVolumeLiveItem](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveItem.md).[keyword](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveItem.md#keyword)
+[`IDataforseoLabsAmazonBulkSearchVolumeLiveItem`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveItem.md).[`keyword`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveItem.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:101179
+main.ts:101187
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IDataforseoLabsAmazonBulkSearchVolumeLiveItem](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveItem.md).[se_type](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveItem.md#se_type)
+[`IDataforseoLabsAmazonBulkSearchVolumeLiveItem`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveItem.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:101177
+main.ts:101185
 
-___
+***
 
-### search\_volume
+### search\_volume?
 
-• `Optional` **search\_volume**: `number`
+> **`optional`** **search\_volume**: `number`
 
 average monthly search volume rate
 represents the (approximate) number of searches for the returned keyword on Amazon
 
 #### Implementation of
 
-[IDataforseoLabsAmazonBulkSearchVolumeLiveItem](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveItem.md).[search_volume](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveItem.md#search_volume)
+[`IDataforseoLabsAmazonBulkSearchVolumeLiveItem`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveItem.md).[`search_volume`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveItem.md#search_volume)
 
-#### Defined in
+#### Source
 
-main.ts:101182
+main.ts:101190
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:101195
+main.ts:101203
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:101214
+main.ts:101222
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsAmazonBulkSearchVolumeLiveItem`](DataforseoLabsAmazonBulkSearchVolumeLiveItem.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsAmazonBulkSearchVolumeLiveItem`](DataforseoLabsAmazonBulkSearchVolumeLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsAmazonBulkSearchVolumeLiveItem`](DataforseoLabsAmazonBulkSearchVolumeLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:101207
+main.ts:101215

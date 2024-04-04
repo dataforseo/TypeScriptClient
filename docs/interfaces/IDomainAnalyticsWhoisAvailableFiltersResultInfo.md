@@ -1,31 +1,25 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDomainAnalyticsWhoisAvailableFiltersResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDomainAnalyticsWhoisAvailableFiltersResultInfo
 
 # Interface: IDomainAnalyticsWhoisAvailableFiltersResultInfo
 
-## Implemented by
-
-- [`DomainAnalyticsWhoisAvailableFiltersResultInfo`](../classes/DomainAnalyticsWhoisAvailableFiltersResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [overview](IDomainAnalyticsWhoisAvailableFiltersResultInfo.md#overview)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### overview
+### overview?
 
-• `Optional` **overview**: `Object`
+> **`optional`** **overview**: `Object`
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
-#### Defined in
+#### Source
 
-main.ts:77840
+main.ts:77848

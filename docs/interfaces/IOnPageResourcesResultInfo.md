@@ -1,82 +1,72 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageResourcesResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IOnPageResourcesResultInfo
 
 # Interface: IOnPageResourcesResultInfo
 
-## Implemented by
-
-- [`OnPageResourcesResultInfo`](../classes/OnPageResourcesResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [crawl\_progress](IOnPageResourcesResultInfo.md#crawl_progress)
-- [crawl\_status](IOnPageResourcesResultInfo.md#crawl_status)
-- [items](IOnPageResourcesResultInfo.md#items)
-- [items\_count](IOnPageResourcesResultInfo.md#items_count)
-- [total\_items\_count](IOnPageResourcesResultInfo.md#total_items_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### crawl\_progress
+### crawl\_progress?
 
-• `Optional` **crawl\_progress**: `string`
+> **`optional`** **crawl\_progress**: `string`
 
 status of the crawling session
 possible values: in_progress, finished
 
-#### Defined in
+#### Source
 
-main.ts:151795
+main.ts:151989
 
-___
+***
 
-### crawl\_status
+### crawl\_status?
 
-• `Optional` **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
+> **`optional`** **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
 
 details of the crawling session
 
-#### Defined in
+#### Source
 
-main.ts:151797
+main.ts:151991
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseOnPageResourceItemInfo`](../classes/BaseOnPageResourceItemInfo.md)[]
+> **`optional`** **items**: [`BaseOnPageResourceItemInfo`](../classes/BaseOnPageResourceItemInfo.md)[]
 
 items array
 
-#### Defined in
+#### Source
 
-main.ts:151803
+main.ts:151997
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 number of items in the results array
 
-#### Defined in
+#### Source
 
-main.ts:151801
+main.ts:151995
 
-___
+***
 
-### total\_items\_count
+### total\_items\_count?
 
-• `Optional` **total\_items\_count**: `number`
+> **`optional`** **total\_items\_count**: `number`
 
 total number of relevant items crawled
 
-#### Defined in
+#### Source
 
-main.ts:151799
+main.ts:151993

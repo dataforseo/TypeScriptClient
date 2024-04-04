@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo
 
 # Class: DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo
 
@@ -8,184 +12,156 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md#constructor)
-
-### Properties
-
-- [date\_from](DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md#date_from)
-- [date\_to](DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md#date_to)
-- [items](DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md#items)
-- [items\_count](DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md#items_count)
-- [technology](DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md#technology)
-
-### Methods
-
-- [init](DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md#init)
-- [toJSON](DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md#tojson)
-- [fromJS](DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo(data)
 
-• **new DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo**(`data?`): [`DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md)
+> **new DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo**(`data`?): [`DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md) |
+• **data?**: [`IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md)
 
 #### Returns
 
 [`DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:76113
+main.ts:76121
 
 ## Properties
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of the time range
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md).[date_from](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md#date_from)
+[`IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md).[`date_from`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md#date_from)
 
-#### Defined in
+#### Source
 
-main.ts:76103
+main.ts:76111
 
-___
+***
 
-### date\_to
+### date\_to?
 
-• `Optional` **date\_to**: `string`
+> **`optional`** **date\_to**: `string`
 
 ending date of the time range
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md).[date_to](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md#date_to)
+[`IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md).[`date_to`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md#date_to)
 
-#### Defined in
+#### Source
 
-main.ts:76105
+main.ts:76113
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`DomainAnalyticsTechnologiesTechnologyStatsLiveItem`](DomainAnalyticsTechnologiesTechnologyStatsLiveItem.md)[]
+> **`optional`** **items**: [`DomainAnalyticsTechnologiesTechnologyStatsLiveItem`](DomainAnalyticsTechnologiesTechnologyStatsLiveItem.md)[]
 
 items array
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md).[items](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md#items)
+[`IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md).[`items`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:76109
+main.ts:76117
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 number of items in the results array
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md).[items_count](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md#items_count)
+[`IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md).[`items_count`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:76107
+main.ts:76115
 
-___
+***
 
-### technology
+### technology?
 
-• `Optional` **technology**: `string`
+> **`optional`** **technology**: `string`
 
 target technology
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md).[technology](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md#technology)
+[`IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md).[`technology`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md#technology)
 
-#### Defined in
+#### Source
 
-main.ts:76101
+main.ts:76109
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:76122
+main.ts:76130
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:76147
+main.ts:76155
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:76140
+main.ts:76148

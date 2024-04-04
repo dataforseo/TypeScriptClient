@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MerchantAmazonLanguagesResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / MerchantAmazonLanguagesResultInfo
 
 # Class: MerchantAmazonLanguagesResultInfo
 
@@ -8,133 +12,108 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](MerchantAmazonLanguagesResultInfo.md#constructor)
-
-### Properties
-
-- [language\_code](MerchantAmazonLanguagesResultInfo.md#language_code)
-- [language\_name](MerchantAmazonLanguagesResultInfo.md#language_name)
-
-### Methods
-
-- [init](MerchantAmazonLanguagesResultInfo.md#init)
-- [toJSON](MerchantAmazonLanguagesResultInfo.md#tojson)
-- [fromJS](MerchantAmazonLanguagesResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new MerchantAmazonLanguagesResultInfo(data)
 
-• **new MerchantAmazonLanguagesResultInfo**(`data?`): [`MerchantAmazonLanguagesResultInfo`](MerchantAmazonLanguagesResultInfo.md)
+> **new MerchantAmazonLanguagesResultInfo**(`data`?): [`MerchantAmazonLanguagesResultInfo`](MerchantAmazonLanguagesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IMerchantAmazonLanguagesResultInfo`](../interfaces/IMerchantAmazonLanguagesResultInfo.md) |
+• **data?**: [`IMerchantAmazonLanguagesResultInfo`](../interfaces/IMerchantAmazonLanguagesResultInfo.md)
 
 #### Returns
 
 [`MerchantAmazonLanguagesResultInfo`](MerchantAmazonLanguagesResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:175592
 
 ## Properties
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code according to ISO 639-1
 
 #### Implementation of
 
-[IMerchantAmazonLanguagesResultInfo](../interfaces/IMerchantAmazonLanguagesResultInfo.md).[language_code](../interfaces/IMerchantAmazonLanguagesResultInfo.md#language_code)
+[`IMerchantAmazonLanguagesResultInfo`](../interfaces/IMerchantAmazonLanguagesResultInfo.md).[`language_code`](../interfaces/IMerchantAmazonLanguagesResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
 main.ts:175588
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 language name
 
 #### Implementation of
 
-[IMerchantAmazonLanguagesResultInfo](../interfaces/IMerchantAmazonLanguagesResultInfo.md).[language_name](../interfaces/IMerchantAmazonLanguagesResultInfo.md#language_name)
+[`IMerchantAmazonLanguagesResultInfo`](../interfaces/IMerchantAmazonLanguagesResultInfo.md).[`language_name`](../interfaces/IMerchantAmazonLanguagesResultInfo.md#language_name)
 
-#### Defined in
+#### Source
 
 main.ts:175586
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:175601
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:175619
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`MerchantAmazonLanguagesResultInfo`](MerchantAmazonLanguagesResultInfo.md)
+> **`static`** **fromJS**(`data`): [`MerchantAmazonLanguagesResultInfo`](MerchantAmazonLanguagesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`MerchantAmazonLanguagesResultInfo`](MerchantAmazonLanguagesResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:175612

@@ -1,95 +1,84 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataBingSearchVolumeTasksReadyResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IKeywordsDataBingSearchVolumeTasksReadyResultInfo
 
 # Interface: IKeywordsDataBingSearchVolumeTasksReadyResultInfo
 
-## Implemented by
-
-- [`KeywordsDataBingSearchVolumeTasksReadyResultInfo`](../classes/KeywordsDataBingSearchVolumeTasksReadyResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [date\_posted](IKeywordsDataBingSearchVolumeTasksReadyResultInfo.md#date_posted)
-- [endpoint](IKeywordsDataBingSearchVolumeTasksReadyResultInfo.md#endpoint)
-- [function](IKeywordsDataBingSearchVolumeTasksReadyResultInfo.md#function)
-- [id](IKeywordsDataBingSearchVolumeTasksReadyResultInfo.md#id)
-- [se](IKeywordsDataBingSearchVolumeTasksReadyResultInfo.md#se)
-- [tag](IKeywordsDataBingSearchVolumeTasksReadyResultInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### date\_posted
+### date\_posted?
 
-• `Optional` **date\_posted**: `string`
+> **`optional`** **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
-#### Defined in
+#### Source
 
-main.ts:128107
+main.ts:128115
 
-___
+***
 
-### endpoint
+### endpoint?
 
-• `Optional` **endpoint**: `string`
+> **`optional`** **endpoint**: `string`
 
 URL for collecting the results of the task
 
-#### Defined in
+#### Source
 
-main.ts:128111
+main.ts:128119
 
-___
+***
 
-### function
+### function?
 
-• `Optional` **function**: `string`
+> **`optional`** **function**: `string`
 
 type of the task
 
-#### Defined in
+#### Source
 
-main.ts:128105
+main.ts:128113
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
-#### Defined in
+#### Source
 
-main.ts:128101
+main.ts:128109
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 
-#### Defined in
+#### Source
 
-main.ts:128103
+main.ts:128111
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
-#### Defined in
+#### Source
 
-main.ts:128109
+main.ts:128117

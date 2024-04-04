@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesAvailableFiltersResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DomainAnalyticsTechnologiesAvailableFiltersResultInfo
 
 # Class: DomainAnalyticsTechnologiesAvailableFiltersResultInfo
 
@@ -8,175 +12,148 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DomainAnalyticsTechnologiesAvailableFiltersResultInfo.md#constructor)
-
-### Properties
-
-- [aggregation\_technologies](DomainAnalyticsTechnologiesAvailableFiltersResultInfo.md#aggregation_technologies)
-- [domains\_by\_html\_terms](DomainAnalyticsTechnologiesAvailableFiltersResultInfo.md#domains_by_html_terms)
-- [domains\_by\_technology](DomainAnalyticsTechnologiesAvailableFiltersResultInfo.md#domains_by_technology)
-- [technologies\_summary](DomainAnalyticsTechnologiesAvailableFiltersResultInfo.md#technologies_summary)
-
-### Methods
-
-- [init](DomainAnalyticsTechnologiesAvailableFiltersResultInfo.md#init)
-- [toJSON](DomainAnalyticsTechnologiesAvailableFiltersResultInfo.md#tojson)
-- [fromJS](DomainAnalyticsTechnologiesAvailableFiltersResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DomainAnalyticsTechnologiesAvailableFiltersResultInfo(data)
 
-• **new DomainAnalyticsTechnologiesAvailableFiltersResultInfo**(`data?`): [`DomainAnalyticsTechnologiesAvailableFiltersResultInfo`](DomainAnalyticsTechnologiesAvailableFiltersResultInfo.md)
+> **new DomainAnalyticsTechnologiesAvailableFiltersResultInfo**(`data`?): [`DomainAnalyticsTechnologiesAvailableFiltersResultInfo`](DomainAnalyticsTechnologiesAvailableFiltersResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDomainAnalyticsTechnologiesAvailableFiltersResultInfo`](../interfaces/IDomainAnalyticsTechnologiesAvailableFiltersResultInfo.md) |
+• **data?**: [`IDomainAnalyticsTechnologiesAvailableFiltersResultInfo`](../interfaces/IDomainAnalyticsTechnologiesAvailableFiltersResultInfo.md)
 
 #### Returns
 
 [`DomainAnalyticsTechnologiesAvailableFiltersResultInfo`](DomainAnalyticsTechnologiesAvailableFiltersResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:73937
+main.ts:73945
 
 ## Properties
 
-### aggregation\_technologies
+### aggregation\_technologies?
 
-• `Optional` **aggregation\_technologies**: `Object`
-
-#### Index signature
-
-▪ [key: `string`]: `string`
-
-#### Implementation of
-
-[IDomainAnalyticsTechnologiesAvailableFiltersResultInfo](../interfaces/IDomainAnalyticsTechnologiesAvailableFiltersResultInfo.md).[aggregation_technologies](../interfaces/IDomainAnalyticsTechnologiesAvailableFiltersResultInfo.md#aggregation_technologies)
-
-#### Defined in
-
-main.ts:73931
-
-___
-
-### domains\_by\_html\_terms
-
-• `Optional` **domains\_by\_html\_terms**: `Object`
+> **`optional`** **aggregation\_technologies**: `Object`
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesAvailableFiltersResultInfo](../interfaces/IDomainAnalyticsTechnologiesAvailableFiltersResultInfo.md).[domains_by_html_terms](../interfaces/IDomainAnalyticsTechnologiesAvailableFiltersResultInfo.md#domains_by_html_terms)
+[`IDomainAnalyticsTechnologiesAvailableFiltersResultInfo`](../interfaces/IDomainAnalyticsTechnologiesAvailableFiltersResultInfo.md).[`aggregation_technologies`](../interfaces/IDomainAnalyticsTechnologiesAvailableFiltersResultInfo.md#aggregation_technologies)
 
-#### Defined in
+#### Source
 
-main.ts:73933
+main.ts:73939
 
-___
+***
 
-### domains\_by\_technology
+### domains\_by\_html\_terms?
 
-• `Optional` **domains\_by\_technology**: `Object`
+> **`optional`** **domains\_by\_html\_terms**: `Object`
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesAvailableFiltersResultInfo](../interfaces/IDomainAnalyticsTechnologiesAvailableFiltersResultInfo.md).[domains_by_technology](../interfaces/IDomainAnalyticsTechnologiesAvailableFiltersResultInfo.md#domains_by_technology)
+[`IDomainAnalyticsTechnologiesAvailableFiltersResultInfo`](../interfaces/IDomainAnalyticsTechnologiesAvailableFiltersResultInfo.md).[`domains_by_html_terms`](../interfaces/IDomainAnalyticsTechnologiesAvailableFiltersResultInfo.md#domains_by_html_terms)
 
-#### Defined in
+#### Source
 
-main.ts:73930
+main.ts:73941
 
-___
+***
 
-### technologies\_summary
+### domains\_by\_technology?
 
-• `Optional` **technologies\_summary**: `Object`
+> **`optional`** **domains\_by\_technology**: `Object`
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesAvailableFiltersResultInfo](../interfaces/IDomainAnalyticsTechnologiesAvailableFiltersResultInfo.md).[technologies_summary](../interfaces/IDomainAnalyticsTechnologiesAvailableFiltersResultInfo.md#technologies_summary)
+[`IDomainAnalyticsTechnologiesAvailableFiltersResultInfo`](../interfaces/IDomainAnalyticsTechnologiesAvailableFiltersResultInfo.md).[`domains_by_technology`](../interfaces/IDomainAnalyticsTechnologiesAvailableFiltersResultInfo.md#domains_by_technology)
 
-#### Defined in
+#### Source
 
-main.ts:73932
+main.ts:73938
+
+***
+
+### technologies\_summary?
+
+> **`optional`** **technologies\_summary**: `Object`
+
+#### Index signature
+
+ \[`key`: `string`\]: `string`
+
+#### Implementation of
+
+[`IDomainAnalyticsTechnologiesAvailableFiltersResultInfo`](../interfaces/IDomainAnalyticsTechnologiesAvailableFiltersResultInfo.md).[`technologies_summary`](../interfaces/IDomainAnalyticsTechnologiesAvailableFiltersResultInfo.md#technologies_summary)
+
+#### Source
+
+main.ts:73940
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:73946
+main.ts:73954
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:73990
+main.ts:73998
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DomainAnalyticsTechnologiesAvailableFiltersResultInfo`](DomainAnalyticsTechnologiesAvailableFiltersResultInfo.md)
+> **`static`** **fromJS**(`data`): [`DomainAnalyticsTechnologiesAvailableFiltersResultInfo`](DomainAnalyticsTechnologiesAvailableFiltersResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DomainAnalyticsTechnologiesAvailableFiltersResultInfo`](DomainAnalyticsTechnologiesAvailableFiltersResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:73983
+main.ts:73991

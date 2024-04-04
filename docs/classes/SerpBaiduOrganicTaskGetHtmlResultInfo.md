@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpBaiduOrganicTaskGetHtmlResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpBaiduOrganicTaskGetHtmlResultInfo
 
 # Class: SerpBaiduOrganicTaskGetHtmlResultInfo
 
@@ -8,56 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpBaiduOrganicTaskGetHtmlResultInfo.md#constructor)
-
-### Properties
-
-- [datetime](SerpBaiduOrganicTaskGetHtmlResultInfo.md#datetime)
-- [items](SerpBaiduOrganicTaskGetHtmlResultInfo.md#items)
-- [items\_count](SerpBaiduOrganicTaskGetHtmlResultInfo.md#items_count)
-- [keyword](SerpBaiduOrganicTaskGetHtmlResultInfo.md#keyword)
-- [language\_code](SerpBaiduOrganicTaskGetHtmlResultInfo.md#language_code)
-- [location\_code](SerpBaiduOrganicTaskGetHtmlResultInfo.md#location_code)
-- [se\_domain](SerpBaiduOrganicTaskGetHtmlResultInfo.md#se_domain)
-- [type](SerpBaiduOrganicTaskGetHtmlResultInfo.md#type)
-
-### Methods
-
-- [init](SerpBaiduOrganicTaskGetHtmlResultInfo.md#init)
-- [toJSON](SerpBaiduOrganicTaskGetHtmlResultInfo.md#tojson)
-- [fromJS](SerpBaiduOrganicTaskGetHtmlResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpBaiduOrganicTaskGetHtmlResultInfo(data)
 
-• **new SerpBaiduOrganicTaskGetHtmlResultInfo**(`data?`): [`SerpBaiduOrganicTaskGetHtmlResultInfo`](SerpBaiduOrganicTaskGetHtmlResultInfo.md)
+> **new SerpBaiduOrganicTaskGetHtmlResultInfo**(`data`?): [`SerpBaiduOrganicTaskGetHtmlResultInfo`](SerpBaiduOrganicTaskGetHtmlResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpBaiduOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpBaiduOrganicTaskGetHtmlResultInfo.md) |
+• **data?**: [`ISerpBaiduOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpBaiduOrganicTaskGetHtmlResultInfo.md)
 
 #### Returns
 
 [`SerpBaiduOrganicTaskGetHtmlResultInfo`](SerpBaiduOrganicTaskGetHtmlResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:69661
+main.ts:69669
 
 ## Properties
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -66,181 +45,175 @@ example:
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskGetHtmlResultInfo](../interfaces/ISerpBaiduOrganicTaskGetHtmlResultInfo.md).[datetime](../interfaces/ISerpBaiduOrganicTaskGetHtmlResultInfo.md#datetime)
+[`ISerpBaiduOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpBaiduOrganicTaskGetHtmlResultInfo.md).[`datetime`](../interfaces/ISerpBaiduOrganicTaskGetHtmlResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
-main.ts:69653
+main.ts:69661
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`HtmlItem`](HtmlItem.md)[]
+> **`optional`** **items**: [`HtmlItem`](HtmlItem.md)[]
 
 elements of search results found in SERP
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskGetHtmlResultInfo](../interfaces/ISerpBaiduOrganicTaskGetHtmlResultInfo.md).[items](../interfaces/ISerpBaiduOrganicTaskGetHtmlResultInfo.md#items)
+[`ISerpBaiduOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpBaiduOrganicTaskGetHtmlResultInfo.md).[`items`](../interfaces/ISerpBaiduOrganicTaskGetHtmlResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:69657
+main.ts:69665
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskGetHtmlResultInfo](../interfaces/ISerpBaiduOrganicTaskGetHtmlResultInfo.md).[items_count](../interfaces/ISerpBaiduOrganicTaskGetHtmlResultInfo.md#items_count)
+[`ISerpBaiduOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpBaiduOrganicTaskGetHtmlResultInfo.md).[`items_count`](../interfaces/ISerpBaiduOrganicTaskGetHtmlResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:69655
+main.ts:69663
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskGetHtmlResultInfo](../interfaces/ISerpBaiduOrganicTaskGetHtmlResultInfo.md).[keyword](../interfaces/ISerpBaiduOrganicTaskGetHtmlResultInfo.md#keyword)
+[`ISerpBaiduOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpBaiduOrganicTaskGetHtmlResultInfo.md).[`keyword`](../interfaces/ISerpBaiduOrganicTaskGetHtmlResultInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:69640
+main.ts:69648
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskGetHtmlResultInfo](../interfaces/ISerpBaiduOrganicTaskGetHtmlResultInfo.md).[language_code](../interfaces/ISerpBaiduOrganicTaskGetHtmlResultInfo.md#language_code)
+[`ISerpBaiduOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpBaiduOrganicTaskGetHtmlResultInfo.md).[`language_code`](../interfaces/ISerpBaiduOrganicTaskGetHtmlResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:69648
+main.ts:69656
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskGetHtmlResultInfo](../interfaces/ISerpBaiduOrganicTaskGetHtmlResultInfo.md).[location_code](../interfaces/ISerpBaiduOrganicTaskGetHtmlResultInfo.md#location_code)
+[`ISerpBaiduOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpBaiduOrganicTaskGetHtmlResultInfo.md).[`location_code`](../interfaces/ISerpBaiduOrganicTaskGetHtmlResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:69646
+main.ts:69654
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskGetHtmlResultInfo](../interfaces/ISerpBaiduOrganicTaskGetHtmlResultInfo.md).[se_domain](../interfaces/ISerpBaiduOrganicTaskGetHtmlResultInfo.md#se_domain)
+[`ISerpBaiduOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpBaiduOrganicTaskGetHtmlResultInfo.md).[`se_domain`](../interfaces/ISerpBaiduOrganicTaskGetHtmlResultInfo.md#se_domain)
 
-#### Defined in
+#### Source
 
-main.ts:69644
+main.ts:69652
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskGetHtmlResultInfo](../interfaces/ISerpBaiduOrganicTaskGetHtmlResultInfo.md).[type](../interfaces/ISerpBaiduOrganicTaskGetHtmlResultInfo.md#type)
+[`ISerpBaiduOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpBaiduOrganicTaskGetHtmlResultInfo.md).[`type`](../interfaces/ISerpBaiduOrganicTaskGetHtmlResultInfo.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:69642
+main.ts:69650
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:69670
+main.ts:69678
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:69698
+main.ts:69706
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpBaiduOrganicTaskGetHtmlResultInfo`](SerpBaiduOrganicTaskGetHtmlResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpBaiduOrganicTaskGetHtmlResultInfo`](SerpBaiduOrganicTaskGetHtmlResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpBaiduOrganicTaskGetHtmlResultInfo`](SerpBaiduOrganicTaskGetHtmlResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:69691
+main.ts:69699

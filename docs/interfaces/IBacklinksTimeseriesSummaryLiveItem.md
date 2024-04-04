@@ -1,191 +1,173 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksTimeseriesSummaryLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBacklinksTimeseriesSummaryLiveItem
 
 # Interface: IBacklinksTimeseriesSummaryLiveItem
 
-## Implemented by
-
-- [`BacklinksTimeseriesSummaryLiveItem`](../classes/BacklinksTimeseriesSummaryLiveItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [backlinks](IBacklinksTimeseriesSummaryLiveItem.md#backlinks)
-- [backlinks\_nofollow](IBacklinksTimeseriesSummaryLiveItem.md#backlinks_nofollow)
-- [date](IBacklinksTimeseriesSummaryLiveItem.md#date)
-- [rank](IBacklinksTimeseriesSummaryLiveItem.md#rank)
-- [referring\_domains](IBacklinksTimeseriesSummaryLiveItem.md#referring_domains)
-- [referring\_domains\_nofollow](IBacklinksTimeseriesSummaryLiveItem.md#referring_domains_nofollow)
-- [referring\_ips](IBacklinksTimeseriesSummaryLiveItem.md#referring_ips)
-- [referring\_main\_domains](IBacklinksTimeseriesSummaryLiveItem.md#referring_main_domains)
-- [referring\_main\_domains\_nofollow](IBacklinksTimeseriesSummaryLiveItem.md#referring_main_domains_nofollow)
-- [referring\_pages](IBacklinksTimeseriesSummaryLiveItem.md#referring_pages)
-- [referring\_pages\_nofollow](IBacklinksTimeseriesSummaryLiveItem.md#referring_pages_nofollow)
-- [referring\_subnets](IBacklinksTimeseriesSummaryLiveItem.md#referring_subnets)
-- [type](IBacklinksTimeseriesSummaryLiveItem.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### backlinks
+### backlinks?
 
-• `Optional` **backlinks**: `number`
+> **`optional`** **backlinks**: `number`
 
 number of backlinks for the given date
 
-#### Defined in
+#### Source
 
-main.ts:144025
+main.ts:144033
 
-___
+***
 
-### backlinks\_nofollow
+### backlinks\_nofollow?
 
-• `Optional` **backlinks\_nofollow**: `number`
+> **`optional`** **backlinks\_nofollow**: `number`
 
 number of nofollow backlinks for the given date
 
-#### Defined in
+#### Source
 
-main.ts:144027
+main.ts:144035
 
-___
+***
 
-### date
+### date?
 
-• `Optional` **date**: `string`
+> **`optional`** **date**: `string`
 
 date and time when the data for the target was stored
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
-main.ts:144020
+main.ts:144028
 
-___
+***
 
-### rank
+### rank?
 
-• `Optional` **rank**: `number`
+> **`optional`** **rank**: `number`
 
 target rank for the given date
 learn more about the metric and how it is calculated in this help center article
 
-#### Defined in
+#### Source
 
-main.ts:144023
+main.ts:144031
 
-___
+***
 
-### referring\_domains
+### referring\_domains?
 
-• `Optional` **referring\_domains**: `number`
+> **`optional`** **referring\_domains**: `number`
 
 number of referring domains for the given date
 referring domains include subdomains that are counted as separate domains for this metric
 
-#### Defined in
+#### Source
 
-main.ts:144034
+main.ts:144042
 
-___
+***
 
-### referring\_domains\_nofollow
+### referring\_domains\_nofollow?
 
-• `Optional` **referring\_domains\_nofollow**: `number`
+> **`optional`** **referring\_domains\_nofollow**: `number`
 
 number of domains pointing at least one nofollow link to the target for the given date
 
-#### Defined in
+#### Source
 
-main.ts:144036
+main.ts:144044
 
-___
+***
 
-### referring\_ips
+### referring\_ips?
 
-• `Optional` **referring\_ips**: `number`
+> **`optional`** **referring\_ips**: `number`
 
 number of referring IP addresses for the given date
 number of IP addresses pointing to this page
 
-#### Defined in
+#### Source
 
-main.ts:144043
+main.ts:144051
 
-___
+***
 
-### referring\_main\_domains
+### referring\_main\_domains?
 
-• `Optional` **referring\_main\_domains**: `number`
+> **`optional`** **referring\_main\_domains**: `number`
 
 number of referring main domains for the given date
 
-#### Defined in
+#### Source
 
-main.ts:144038
+main.ts:144046
 
-___
+***
 
-### referring\_main\_domains\_nofollow
+### referring\_main\_domains\_nofollow?
 
-• `Optional` **referring\_main\_domains\_nofollow**: `number`
+> **`optional`** **referring\_main\_domains\_nofollow**: `number`
 
 number of main domains pointing at least one nofollow link to the target for the given date
 
-#### Defined in
+#### Source
 
-main.ts:144040
+main.ts:144048
 
-___
+***
 
-### referring\_pages
+### referring\_pages?
 
-• `Optional` **referring\_pages**: `number`
+> **`optional`** **referring\_pages**: `number`
 
 number of pages pointing to target for the given date
 
-#### Defined in
+#### Source
 
-main.ts:144029
+main.ts:144037
 
-___
+***
 
-### referring\_pages\_nofollow
+### referring\_pages\_nofollow?
 
-• `Optional` **referring\_pages\_nofollow**: `number`
+> **`optional`** **referring\_pages\_nofollow**: `number`
 
 number of referring pages pointing at least one nofollow link to the target for the given date
 
-#### Defined in
+#### Source
 
-main.ts:144031
+main.ts:144039
 
-___
+***
 
-### referring\_subnets
+### referring\_subnets?
 
-• `Optional` **referring\_subnets**: `number`
+> **`optional`** **referring\_subnets**: `number`
 
 number of referring subnetworks for the given date
 
-#### Defined in
+#### Source
 
-main.ts:144045
+main.ts:144053
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:144015
+main.ts:144023

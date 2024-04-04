@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / PeopleAlsoAskDataforseoLabsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / PeopleAlsoAskDataforseoLabsSerpElementItem
 
 # Class: PeopleAlsoAskDataforseoLabsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
-
-  ↳ **`PeopleAlsoAskDataforseoLabsSerpElementItem`**
 
 ## Implements
 
@@ -14,41 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](PeopleAlsoAskDataforseoLabsSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](PeopleAlsoAskDataforseoLabsSerpElementItem.md#_discriminator)
-- [items](PeopleAlsoAskDataforseoLabsSerpElementItem.md#items)
-- [position](PeopleAlsoAskDataforseoLabsSerpElementItem.md#position)
-- [rank\_absolute](PeopleAlsoAskDataforseoLabsSerpElementItem.md#rank_absolute)
-- [rank\_group](PeopleAlsoAskDataforseoLabsSerpElementItem.md#rank_group)
-- [se\_type](PeopleAlsoAskDataforseoLabsSerpElementItem.md#se_type)
-- [xpath](PeopleAlsoAskDataforseoLabsSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](PeopleAlsoAskDataforseoLabsSerpElementItem.md#init)
-- [toJSON](PeopleAlsoAskDataforseoLabsSerpElementItem.md#tojson)
-- [fromJS](PeopleAlsoAskDataforseoLabsSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new PeopleAlsoAskDataforseoLabsSerpElementItem(data)
 
-• **new PeopleAlsoAskDataforseoLabsSerpElementItem**(`data?`): [`PeopleAlsoAskDataforseoLabsSerpElementItem`](PeopleAlsoAskDataforseoLabsSerpElementItem.md)
+> **new PeopleAlsoAskDataforseoLabsSerpElementItem**(`data`?): [`PeopleAlsoAskDataforseoLabsSerpElementItem`](PeopleAlsoAskDataforseoLabsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IPeopleAlsoAskDataforseoLabsSerpElementItem`](../interfaces/IPeopleAlsoAskDataforseoLabsSerpElementItem.md) |
+• **data?**: [`IPeopleAlsoAskDataforseoLabsSerpElementItem`](../interfaces/IPeopleAlsoAskDataforseoLabsSerpElementItem.md)
 
 #### Returns
 
@@ -56,47 +34,47 @@
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[constructor](BaseDataforseoLabsSerpElementItem.md#constructor)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:93521
+main.ts:93529
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[_discriminator](BaseDataforseoLabsSerpElementItem.md#_discriminator)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`_discriminator`](BaseDataforseoLabsSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:20171
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`PeopleAlsoAskElement`](PeopleAlsoAskElement.md)[]
+> **`optional`** **items**: [`PeopleAlsoAskElement`](PeopleAlsoAskElement.md)[]
 
 elements of search results found in SERP
 
 #### Implementation of
 
-[IPeopleAlsoAskDataforseoLabsSerpElementItem](../interfaces/IPeopleAlsoAskDataforseoLabsSerpElementItem.md).[items](../interfaces/IPeopleAlsoAskDataforseoLabsSerpElementItem.md#items)
+[`IPeopleAlsoAskDataforseoLabsSerpElementItem`](../interfaces/IPeopleAlsoAskDataforseoLabsSerpElementItem.md).[`items`](../interfaces/IPeopleAlsoAskDataforseoLabsSerpElementItem.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:93517
+main.ts:93525
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -104,89 +82,87 @@ left, right
 
 #### Implementation of
 
-[IPeopleAlsoAskDataforseoLabsSerpElementItem](../interfaces/IPeopleAlsoAskDataforseoLabsSerpElementItem.md).[position](../interfaces/IPeopleAlsoAskDataforseoLabsSerpElementItem.md#position)
+[`IPeopleAlsoAskDataforseoLabsSerpElementItem`](../interfaces/IPeopleAlsoAskDataforseoLabsSerpElementItem.md).[`position`](../interfaces/IPeopleAlsoAskDataforseoLabsSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
-main.ts:93513
+main.ts:93521
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
 #### Implementation of
 
-[IPeopleAlsoAskDataforseoLabsSerpElementItem](../interfaces/IPeopleAlsoAskDataforseoLabsSerpElementItem.md).[rank_absolute](../interfaces/IPeopleAlsoAskDataforseoLabsSerpElementItem.md#rank_absolute)
+[`IPeopleAlsoAskDataforseoLabsSerpElementItem`](../interfaces/IPeopleAlsoAskDataforseoLabsSerpElementItem.md).[`rank_absolute`](../interfaces/IPeopleAlsoAskDataforseoLabsSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:93509
+main.ts:93517
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
-[IPeopleAlsoAskDataforseoLabsSerpElementItem](../interfaces/IPeopleAlsoAskDataforseoLabsSerpElementItem.md).[rank_group](../interfaces/IPeopleAlsoAskDataforseoLabsSerpElementItem.md#rank_group)
+[`IPeopleAlsoAskDataforseoLabsSerpElementItem`](../interfaces/IPeopleAlsoAskDataforseoLabsSerpElementItem.md).[`rank_group`](../interfaces/IPeopleAlsoAskDataforseoLabsSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
-main.ts:93506
+main.ts:93514
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IPeopleAlsoAskDataforseoLabsSerpElementItem](../interfaces/IPeopleAlsoAskDataforseoLabsSerpElementItem.md).[se_type](../interfaces/IPeopleAlsoAskDataforseoLabsSerpElementItem.md#se_type)
+[`IPeopleAlsoAskDataforseoLabsSerpElementItem`](../interfaces/IPeopleAlsoAskDataforseoLabsSerpElementItem.md).[`se_type`](../interfaces/IPeopleAlsoAskDataforseoLabsSerpElementItem.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:93503
+main.ts:93511
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IPeopleAlsoAskDataforseoLabsSerpElementItem](../interfaces/IPeopleAlsoAskDataforseoLabsSerpElementItem.md).[xpath](../interfaces/IPeopleAlsoAskDataforseoLabsSerpElementItem.md#xpath)
+[`IPeopleAlsoAskDataforseoLabsSerpElementItem`](../interfaces/IPeopleAlsoAskDataforseoLabsSerpElementItem.md).[`xpath`](../interfaces/IPeopleAlsoAskDataforseoLabsSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
-main.ts:93515
+main.ts:93523
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -194,23 +170,21 @@ main.ts:93515
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[init](BaseDataforseoLabsSerpElementItem.md#init)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`init`](BaseDataforseoLabsSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:93526
+main.ts:93534
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -218,23 +192,21 @@ ___
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[toJSON](BaseDataforseoLabsSerpElementItem.md#tojson)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`toJSON`](BaseDataforseoLabsSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:93553
+main.ts:93561
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`PeopleAlsoAskDataforseoLabsSerpElementItem`](PeopleAlsoAskDataforseoLabsSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`PeopleAlsoAskDataforseoLabsSerpElementItem`](PeopleAlsoAskDataforseoLabsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -242,8 +214,8 @@ ___
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[fromJS](BaseDataforseoLabsSerpElementItem.md#fromjs)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`fromJS`](BaseDataforseoLabsSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:93546
+main.ts:93554

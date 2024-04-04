@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MapsSearchSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / MapsSearchSerpElementItem
 
 # Class: MapsSearchSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-  ↳ **`MapsSearchSerpElementItem`**
 
 ## Implements
 
@@ -14,63 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](MapsSearchSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](MapsSearchSerpElementItem.md#_discriminator)
-- [additional\_categories](MapsSearchSerpElementItem.md#additional_categories)
-- [address](MapsSearchSerpElementItem.md#address)
-- [address\_info](MapsSearchSerpElementItem.md#address_info)
-- [category](MapsSearchSerpElementItem.md#category)
-- [category\_ids](MapsSearchSerpElementItem.md#category_ids)
-- [cid](MapsSearchSerpElementItem.md#cid)
-- [contact\_url](MapsSearchSerpElementItem.md#contact_url)
-- [domain](MapsSearchSerpElementItem.md#domain)
-- [feature\_id](MapsSearchSerpElementItem.md#feature_id)
-- [hotel\_rating](MapsSearchSerpElementItem.md#hotel_rating)
-- [is\_claimed](MapsSearchSerpElementItem.md#is_claimed)
-- [is\_directory\_item](MapsSearchSerpElementItem.md#is_directory_item)
-- [latitude](MapsSearchSerpElementItem.md#latitude)
-- [local\_justifications](MapsSearchSerpElementItem.md#local_justifications)
-- [longitude](MapsSearchSerpElementItem.md#longitude)
-- [main\_image](MapsSearchSerpElementItem.md#main_image)
-- [phone](MapsSearchSerpElementItem.md#phone)
-- [place\_id](MapsSearchSerpElementItem.md#place_id)
-- [price\_level](MapsSearchSerpElementItem.md#price_level)
-- [rank\_absolute](MapsSearchSerpElementItem.md#rank_absolute)
-- [rank\_group](MapsSearchSerpElementItem.md#rank_group)
-- [rating](MapsSearchSerpElementItem.md#rating)
-- [rating\_distribution](MapsSearchSerpElementItem.md#rating_distribution)
-- [snippet](MapsSearchSerpElementItem.md#snippet)
-- [title](MapsSearchSerpElementItem.md#title)
-- [total\_photos](MapsSearchSerpElementItem.md#total_photos)
-- [url](MapsSearchSerpElementItem.md#url)
-- [work\_hours](MapsSearchSerpElementItem.md#work_hours)
-
-### Methods
-
-- [init](MapsSearchSerpElementItem.md#init)
-- [toJSON](MapsSearchSerpElementItem.md#tojson)
-- [fromJS](MapsSearchSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new MapsSearchSerpElementItem(data)
 
-• **new MapsSearchSerpElementItem**(`data?`): [`MapsSearchSerpElementItem`](MapsSearchSerpElementItem.md)
+> **new MapsSearchSerpElementItem**(`data`?): [`MapsSearchSerpElementItem`](MapsSearchSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IMapsSearchSerpElementItem`](../interfaces/IMapsSearchSerpElementItem.md) |
+• **data?**: [`IMapsSearchSerpElementItem`](../interfaces/IMapsSearchSerpElementItem.md)
 
 #### Returns
 
@@ -78,115 +34,115 @@
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[constructor](BaseSerpElementItem.md#constructor)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:39249
+main.ts:39255
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[_discriminator](BaseSerpElementItem.md#_discriminator)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:19788
 
-___
+***
 
-### additional\_categories
+### additional\_categories?
 
-• `Optional` **additional\_categories**: `string`[]
+> **`optional`** **additional\_categories**: `string`[]
 
 additional business categories
 additional Google My Business categories that describe the services provided by the business entity in more detail
 
 #### Implementation of
 
-[IMapsSearchSerpElementItem](../interfaces/IMapsSearchSerpElementItem.md).[additional_categories](../interfaces/IMapsSearchSerpElementItem.md#additional_categories)
+[`IMapsSearchSerpElementItem`](../interfaces/IMapsSearchSerpElementItem.md).[`additional_categories`](../interfaces/IMapsSearchSerpElementItem.md#additional_categories)
 
-#### Defined in
+#### Source
 
-main.ts:39218
+main.ts:39224
 
-___
+***
 
-### address
+### address?
 
-• `Optional` **address**: `string`
+> **`optional`** **address**: `string`
 
 address line
 address of the local establishment featured in the element
 
 #### Implementation of
 
-[IMapsSearchSerpElementItem](../interfaces/IMapsSearchSerpElementItem.md).[address](../interfaces/IMapsSearchSerpElementItem.md#address)
+[`IMapsSearchSerpElementItem`](../interfaces/IMapsSearchSerpElementItem.md).[`address`](../interfaces/IMapsSearchSerpElementItem.md#address)
 
-#### Defined in
+#### Source
 
-main.ts:39200
+main.ts:39206
 
-___
+***
 
-### address\_info
+### address\_info?
 
-• `Optional` **address\_info**: [`AddressInfo`](AddressInfo.md)
+> **`optional`** **address\_info**: [`AddressInfo`](AddressInfo.md)
 
 object containing address components of the local establishment
 
 #### Implementation of
 
-[IMapsSearchSerpElementItem](../interfaces/IMapsSearchSerpElementItem.md).[address_info](../interfaces/IMapsSearchSerpElementItem.md#address_info)
+[`IMapsSearchSerpElementItem`](../interfaces/IMapsSearchSerpElementItem.md).[`address_info`](../interfaces/IMapsSearchSerpElementItem.md#address_info)
 
-#### Defined in
+#### Source
 
-main.ts:39202
+main.ts:39208
 
-___
+***
 
-### category
+### category?
 
-• `Optional` **category**: `string`
+> **`optional`** **category**: `string`
 
 business category
 Google My Business general category that best describes the services provided by the business entity
 
 #### Implementation of
 
-[IMapsSearchSerpElementItem](../interfaces/IMapsSearchSerpElementItem.md).[category](../interfaces/IMapsSearchSerpElementItem.md#category)
+[`IMapsSearchSerpElementItem`](../interfaces/IMapsSearchSerpElementItem.md).[`category`](../interfaces/IMapsSearchSerpElementItem.md#category)
 
-#### Defined in
+#### Source
 
-main.ts:39215
+main.ts:39221
 
-___
+***
 
-### category\_ids
+### category\_ids?
 
-• `Optional` **category\_ids**: `string`[]
+> **`optional`** **category\_ids**: `string`[]
 
 global category IDs
 universal category IDs that do not change based on the selected country
 
 #### Implementation of
 
-[IMapsSearchSerpElementItem](../interfaces/IMapsSearchSerpElementItem.md).[category_ids](../interfaces/IMapsSearchSerpElementItem.md#category_ids)
+[`IMapsSearchSerpElementItem`](../interfaces/IMapsSearchSerpElementItem.md).[`category_ids`](../interfaces/IMapsSearchSerpElementItem.md#category_ids)
 
-#### Defined in
+#### Source
 
-main.ts:39221
+main.ts:39227
 
-___
+***
 
-### cid
+### cid?
 
-• `Optional` **cid**: `string`
+> **`optional`** **cid**: `string`
 
 google-defined client id
 unique id of a local establishment;
@@ -194,65 +150,65 @@ can be used with Google Reviews API to get a full list of reviews
 
 #### Implementation of
 
-[IMapsSearchSerpElementItem](../interfaces/IMapsSearchSerpElementItem.md).[cid](../interfaces/IMapsSearchSerpElementItem.md#cid)
+[`IMapsSearchSerpElementItem`](../interfaces/IMapsSearchSerpElementItem.md).[`cid`](../interfaces/IMapsSearchSerpElementItem.md#cid)
 
-#### Defined in
+#### Source
 
-main.ts:39230
+main.ts:39236
 
-___
+***
 
-### contact\_url
+### contact\_url?
 
-• `Optional` **contact\_url**: `string`
+> **`optional`** **contact\_url**: `string`
 
 URL of the preferred contact page
 
 #### Implementation of
 
-[IMapsSearchSerpElementItem](../interfaces/IMapsSearchSerpElementItem.md).[contact_url](../interfaces/IMapsSearchSerpElementItem.md#contact_url)
+[`IMapsSearchSerpElementItem`](../interfaces/IMapsSearchSerpElementItem.md).[`contact_url`](../interfaces/IMapsSearchSerpElementItem.md#contact_url)
 
-#### Defined in
+#### Source
 
-main.ts:39180
+main.ts:39186
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain in the SERP element
 
 #### Implementation of
 
-[IMapsSearchSerpElementItem](../interfaces/IMapsSearchSerpElementItem.md).[domain](../interfaces/IMapsSearchSerpElementItem.md#domain)
+[`IMapsSearchSerpElementItem`](../interfaces/IMapsSearchSerpElementItem.md).[`domain`](../interfaces/IMapsSearchSerpElementItem.md#domain)
 
-#### Defined in
+#### Source
 
-main.ts:39174
+main.ts:39180
 
-___
+***
 
-### feature\_id
+### feature\_id?
 
-• `Optional` **feature\_id**: `string`
+> **`optional`** **feature\_id**: `string`
 
 the unique identifier of the element in SERP
 
 #### Implementation of
 
-[IMapsSearchSerpElementItem](../interfaces/IMapsSearchSerpElementItem.md).[feature_id](../interfaces/IMapsSearchSerpElementItem.md#feature_id)
+[`IMapsSearchSerpElementItem`](../interfaces/IMapsSearchSerpElementItem.md).[`feature_id`](../interfaces/IMapsSearchSerpElementItem.md#feature_id)
 
-#### Defined in
+#### Source
 
-main.ts:39226
+main.ts:39232
 
-___
+***
 
-### hotel\_rating
+### hotel\_rating?
 
-• `Optional` **hotel\_rating**: `number`
+> **`optional`** **hotel\_rating**: `number`
 
 hotel class rating
 class ratings range between 1-5 stars, learn more
@@ -260,49 +216,49 @@ if there is no hotel class rating information, the value will be null
 
 #### Implementation of
 
-[IMapsSearchSerpElementItem](../interfaces/IMapsSearchSerpElementItem.md).[hotel_rating](../interfaces/IMapsSearchSerpElementItem.md#hotel_rating)
+[`IMapsSearchSerpElementItem`](../interfaces/IMapsSearchSerpElementItem.md).[`hotel_rating`](../interfaces/IMapsSearchSerpElementItem.md#hotel_rating)
 
-#### Defined in
+#### Source
 
-main.ts:39187
+main.ts:39193
 
-___
+***
 
-### is\_claimed
+### is\_claimed?
 
-• `Optional` **is\_claimed**: `boolean`
+> **`optional`** **is\_claimed**: `boolean`
 
 indicates whether ownership of this local establishment is claimed
 
 #### Implementation of
 
-[IMapsSearchSerpElementItem](../interfaces/IMapsSearchSerpElementItem.md).[is_claimed](../interfaces/IMapsSearchSerpElementItem.md#is_claimed)
+[`IMapsSearchSerpElementItem`](../interfaces/IMapsSearchSerpElementItem.md).[`is_claimed`](../interfaces/IMapsSearchSerpElementItem.md#is_claimed)
 
-#### Defined in
+#### Source
 
-main.ts:39240
+main.ts:39246
 
-___
+***
 
-### is\_directory\_item
+### is\_directory\_item?
 
-• `Optional` **is\_directory\_item**: `boolean`
+> **`optional`** **is\_directory\_item**: `boolean`
 
 indicates whether this local establishment is a directory
 
 #### Implementation of
 
-[IMapsSearchSerpElementItem](../interfaces/IMapsSearchSerpElementItem.md).[is_directory_item](../interfaces/IMapsSearchSerpElementItem.md#is_directory_item)
+[`IMapsSearchSerpElementItem`](../interfaces/IMapsSearchSerpElementItem.md).[`is_directory_item`](../interfaces/IMapsSearchSerpElementItem.md#is_directory_item)
 
-#### Defined in
+#### Source
 
-main.ts:39245
+main.ts:39251
 
-___
+***
 
-### latitude
+### latitude?
 
-• `Optional` **latitude**: `number`
+> **`optional`** **latitude**: `number`
 
 latitude coordinate of the local establishments in google maps
 example:
@@ -310,34 +266,34 @@ example:
 
 #### Implementation of
 
-[IMapsSearchSerpElementItem](../interfaces/IMapsSearchSerpElementItem.md).[latitude](../interfaces/IMapsSearchSerpElementItem.md#latitude)
+[`IMapsSearchSerpElementItem`](../interfaces/IMapsSearchSerpElementItem.md).[`latitude`](../interfaces/IMapsSearchSerpElementItem.md#latitude)
 
-#### Defined in
+#### Source
 
-main.ts:39234
+main.ts:39240
 
-___
+***
 
-### local\_justifications
+### local\_justifications?
 
-• `Optional` **local\_justifications**: [`LocalJustificationInfo`](LocalJustificationInfo.md)[]
+> **`optional`** **local\_justifications**: [`LocalJustificationInfo`](LocalJustificationInfo.md)[]
 
 Google local justifications
 snippets of text that “justify” why the business is showing up for search query
 
 #### Implementation of
 
-[IMapsSearchSerpElementItem](../interfaces/IMapsSearchSerpElementItem.md).[local_justifications](../interfaces/IMapsSearchSerpElementItem.md#local_justifications)
+[`IMapsSearchSerpElementItem`](../interfaces/IMapsSearchSerpElementItem.md).[`local_justifications`](../interfaces/IMapsSearchSerpElementItem.md#local_justifications)
 
-#### Defined in
+#### Source
 
-main.ts:39243
+main.ts:39249
 
-___
+***
 
-### longitude
+### longitude?
 
-• `Optional` **longitude**: `number`
+> **`optional`** **longitude**: `number`
 
 longitude coordinate of the local establishment in google maps
 example:
@@ -345,67 +301,67 @@ example:
 
 #### Implementation of
 
-[IMapsSearchSerpElementItem](../interfaces/IMapsSearchSerpElementItem.md).[longitude](../interfaces/IMapsSearchSerpElementItem.md#longitude)
+[`IMapsSearchSerpElementItem`](../interfaces/IMapsSearchSerpElementItem.md).[`longitude`](../interfaces/IMapsSearchSerpElementItem.md#longitude)
 
-#### Defined in
+#### Source
 
-main.ts:39238
+main.ts:39244
 
-___
+***
 
-### main\_image
+### main\_image?
 
-• `Optional` **main\_image**: `string`
+> **`optional`** **main\_image**: `string`
 
 URL of the main image featured in Google My Business profile
 
 #### Implementation of
 
-[IMapsSearchSerpElementItem](../interfaces/IMapsSearchSerpElementItem.md).[main_image](../interfaces/IMapsSearchSerpElementItem.md#main_image)
+[`IMapsSearchSerpElementItem`](../interfaces/IMapsSearchSerpElementItem.md).[`main_image`](../interfaces/IMapsSearchSerpElementItem.md#main_image)
 
-#### Defined in
+#### Source
 
-main.ts:39210
+main.ts:39216
 
-___
+***
 
-### phone
+### phone?
 
-• `Optional` **phone**: `string`
+> **`optional`** **phone**: `string`
 
 phone number
 phone number of the local establishment featured in the element
 
 #### Implementation of
 
-[IMapsSearchSerpElementItem](../interfaces/IMapsSearchSerpElementItem.md).[phone](../interfaces/IMapsSearchSerpElementItem.md#phone)
+[`IMapsSearchSerpElementItem`](../interfaces/IMapsSearchSerpElementItem.md).[`phone`](../interfaces/IMapsSearchSerpElementItem.md#phone)
 
-#### Defined in
+#### Source
 
-main.ts:39208
+main.ts:39214
 
-___
+***
 
-### place\_id
+### place\_id?
 
-• `Optional` **place\_id**: `string`
+> **`optional`** **place\_id**: `string`
 
 unique place identifier
 place id of the local establishment featured in the element
 
 #### Implementation of
 
-[IMapsSearchSerpElementItem](../interfaces/IMapsSearchSerpElementItem.md).[place_id](../interfaces/IMapsSearchSerpElementItem.md#place_id)
+[`IMapsSearchSerpElementItem`](../interfaces/IMapsSearchSerpElementItem.md).[`place_id`](../interfaces/IMapsSearchSerpElementItem.md#place_id)
 
-#### Defined in
+#### Source
 
-main.ts:39205
+main.ts:39211
 
-___
+***
 
-### price\_level
+### price\_level?
 
-• `Optional` **price\_level**: `string`
+> **`optional`** **price\_level**: `string`
 
 property price level
 can take values: inexpensive, moderate, expensive, very_expensive
@@ -413,34 +369,34 @@ if there is no price level information, the value will be null
 
 #### Implementation of
 
-[IMapsSearchSerpElementItem](../interfaces/IMapsSearchSerpElementItem.md).[price_level](../interfaces/IMapsSearchSerpElementItem.md#price_level)
+[`IMapsSearchSerpElementItem`](../interfaces/IMapsSearchSerpElementItem.md).[`price_level`](../interfaces/IMapsSearchSerpElementItem.md#price_level)
 
-#### Defined in
+#### Source
 
-main.ts:39191
+main.ts:39197
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
 #### Implementation of
 
-[IMapsSearchSerpElementItem](../interfaces/IMapsSearchSerpElementItem.md).[rank_absolute](../interfaces/IMapsSearchSerpElementItem.md#rank_absolute)
+[`IMapsSearchSerpElementItem`](../interfaces/IMapsSearchSerpElementItem.md).[`rank_absolute`](../interfaces/IMapsSearchSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:39172
+main.ts:39178
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -448,143 +404,141 @@ positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
-[IMapsSearchSerpElementItem](../interfaces/IMapsSearchSerpElementItem.md).[rank_group](../interfaces/IMapsSearchSerpElementItem.md#rank_group)
+[`IMapsSearchSerpElementItem`](../interfaces/IMapsSearchSerpElementItem.md).[`rank_group`](../interfaces/IMapsSearchSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
-main.ts:39169
+main.ts:39175
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](RatingInfo.md)
 
 the element’s rating 
 the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
 
-[IMapsSearchSerpElementItem](../interfaces/IMapsSearchSerpElementItem.md).[rating](../interfaces/IMapsSearchSerpElementItem.md#rating)
+[`IMapsSearchSerpElementItem`](../interfaces/IMapsSearchSerpElementItem.md).[`rating`](../interfaces/IMapsSearchSerpElementItem.md#rating)
 
-#### Defined in
+#### Source
 
-main.ts:39183
+main.ts:39189
 
-___
+***
 
-### rating\_distribution
+### rating\_distribution?
 
-• `Optional` **rating\_distribution**: `Object`
+> **`optional`** **rating\_distribution**: `Object`
 
 the distribution of ratings of the business entity
 the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
 #### Implementation of
 
-[IMapsSearchSerpElementItem](../interfaces/IMapsSearchSerpElementItem.md).[rating_distribution](../interfaces/IMapsSearchSerpElementItem.md#rating_distribution)
+[`IMapsSearchSerpElementItem`](../interfaces/IMapsSearchSerpElementItem.md).[`rating_distribution`](../interfaces/IMapsSearchSerpElementItem.md#rating_distribution)
 
-#### Defined in
+#### Source
 
-main.ts:39194
+main.ts:39200
 
-___
+***
 
-### snippet
+### snippet?
 
-• `Optional` **snippet**: `string`
+> **`optional`** **snippet**: `string`
 
 element snippet
 contains the address and other information about the local establishment featured in the element
 
 #### Implementation of
 
-[IMapsSearchSerpElementItem](../interfaces/IMapsSearchSerpElementItem.md).[snippet](../interfaces/IMapsSearchSerpElementItem.md#snippet)
+[`IMapsSearchSerpElementItem`](../interfaces/IMapsSearchSerpElementItem.md).[`snippet`](../interfaces/IMapsSearchSerpElementItem.md#snippet)
 
-#### Defined in
+#### Source
 
-main.ts:39197
+main.ts:39203
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the result in SERP
 
 #### Implementation of
 
-[IMapsSearchSerpElementItem](../interfaces/IMapsSearchSerpElementItem.md).[title](../interfaces/IMapsSearchSerpElementItem.md#title)
+[`IMapsSearchSerpElementItem`](../interfaces/IMapsSearchSerpElementItem.md).[`title`](../interfaces/IMapsSearchSerpElementItem.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:39176
+main.ts:39182
 
-___
+***
 
-### total\_photos
+### total\_photos?
 
-• `Optional` **total\_photos**: `number`
+> **`optional`** **total\_photos**: `number`
 
 total count of images featured in Google My Business profile
 
 #### Implementation of
 
-[IMapsSearchSerpElementItem](../interfaces/IMapsSearchSerpElementItem.md).[total_photos](../interfaces/IMapsSearchSerpElementItem.md#total_photos)
+[`IMapsSearchSerpElementItem`](../interfaces/IMapsSearchSerpElementItem.md).[`total_photos`](../interfaces/IMapsSearchSerpElementItem.md#total_photos)
 
-#### Defined in
+#### Source
 
-main.ts:39212
+main.ts:39218
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 relevant URL in SERP
 
 #### Implementation of
 
-[IMapsSearchSerpElementItem](../interfaces/IMapsSearchSerpElementItem.md).[url](../interfaces/IMapsSearchSerpElementItem.md#url)
+[`IMapsSearchSerpElementItem`](../interfaces/IMapsSearchSerpElementItem.md).[`url`](../interfaces/IMapsSearchSerpElementItem.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:39178
+main.ts:39184
 
-___
+***
 
-### work\_hours
+### work\_hours?
 
-• `Optional` **work\_hours**: [`WorkHours`](WorkHours.md)
+> **`optional`** **work\_hours**: [`WorkHours`](WorkHours.md)
 
 open hours
 information about work hours of the local establishment
 
 #### Implementation of
 
-[IMapsSearchSerpElementItem](../interfaces/IMapsSearchSerpElementItem.md).[work_hours](../interfaces/IMapsSearchSerpElementItem.md#work_hours)
+[`IMapsSearchSerpElementItem`](../interfaces/IMapsSearchSerpElementItem.md).[`work_hours`](../interfaces/IMapsSearchSerpElementItem.md#work_hours)
 
-#### Defined in
+#### Source
 
-main.ts:39224
+main.ts:39230
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -592,23 +546,21 @@ main.ts:39224
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[init](BaseSerpElementItem.md#init)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:39254
+main.ts:39260
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -616,23 +568,21 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[toJSON](BaseSerpElementItem.md#tojson)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:39317
+main.ts:39323
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`MapsSearchSerpElementItem`](MapsSearchSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`MapsSearchSerpElementItem`](MapsSearchSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -640,8 +590,8 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[fromJS](BaseSerpElementItem.md#fromjs)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:39310
+main.ts:39316

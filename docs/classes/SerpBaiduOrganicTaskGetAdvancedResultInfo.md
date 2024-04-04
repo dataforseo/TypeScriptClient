@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpBaiduOrganicTaskGetAdvancedResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpBaiduOrganicTaskGetAdvancedResultInfo
 
 # Class: SerpBaiduOrganicTaskGetAdvancedResultInfo
 
@@ -8,77 +12,48 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpBaiduOrganicTaskGetAdvancedResultInfo.md#constructor)
-
-### Properties
-
-- [check\_url](SerpBaiduOrganicTaskGetAdvancedResultInfo.md#check_url)
-- [datetime](SerpBaiduOrganicTaskGetAdvancedResultInfo.md#datetime)
-- [item\_types](SerpBaiduOrganicTaskGetAdvancedResultInfo.md#item_types)
-- [items](SerpBaiduOrganicTaskGetAdvancedResultInfo.md#items)
-- [items\_count](SerpBaiduOrganicTaskGetAdvancedResultInfo.md#items_count)
-- [keyword](SerpBaiduOrganicTaskGetAdvancedResultInfo.md#keyword)
-- [language\_code](SerpBaiduOrganicTaskGetAdvancedResultInfo.md#language_code)
-- [location\_code](SerpBaiduOrganicTaskGetAdvancedResultInfo.md#location_code)
-- [se\_domain](SerpBaiduOrganicTaskGetAdvancedResultInfo.md#se_domain)
-- [se\_results\_count](SerpBaiduOrganicTaskGetAdvancedResultInfo.md#se_results_count)
-- [spell](SerpBaiduOrganicTaskGetAdvancedResultInfo.md#spell)
-- [type](SerpBaiduOrganicTaskGetAdvancedResultInfo.md#type)
-
-### Methods
-
-- [init](SerpBaiduOrganicTaskGetAdvancedResultInfo.md#init)
-- [toJSON](SerpBaiduOrganicTaskGetAdvancedResultInfo.md#tojson)
-- [fromJS](SerpBaiduOrganicTaskGetAdvancedResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpBaiduOrganicTaskGetAdvancedResultInfo(data)
 
-• **new SerpBaiduOrganicTaskGetAdvancedResultInfo**(`data?`): [`SerpBaiduOrganicTaskGetAdvancedResultInfo`](SerpBaiduOrganicTaskGetAdvancedResultInfo.md)
+> **new SerpBaiduOrganicTaskGetAdvancedResultInfo**(`data`?): [`SerpBaiduOrganicTaskGetAdvancedResultInfo`](SerpBaiduOrganicTaskGetAdvancedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpBaiduOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md) |
+• **data?**: [`ISerpBaiduOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
 [`SerpBaiduOrganicTaskGetAdvancedResultInfo`](SerpBaiduOrganicTaskGetAdvancedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:69413
+main.ts:69421
 
 ## Properties
 
-### check\_url
+### check\_url?
 
-• `Optional` **check\_url**: `string`
+> **`optional`** **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskGetAdvancedResultInfo](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md).[check_url](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md#check_url)
+[`ISerpBaiduOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md).[`check_url`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md#check_url)
 
-#### Defined in
+#### Source
 
-main.ts:69389
+main.ts:69397
 
-___
+***
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -87,17 +62,17 @@ example:
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskGetAdvancedResultInfo](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md).[datetime](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md#datetime)
+[`ISerpBaiduOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md).[`datetime`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
-main.ts:69394
+main.ts:69402
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -106,215 +81,209 @@ images, local_pack, map, organic, paid, related_searches, video, stocks_box, dic
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskGetAdvancedResultInfo](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md).[item_types](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md#item_types)
+[`ISerpBaiduOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md).[`item_types`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md#item_types)
 
-#### Defined in
+#### Source
 
-main.ts:69402
+main.ts:69410
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
+> **`optional`** **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
 additional items present in the element
 if there are none, equals null
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskGetAdvancedResultInfo](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md).[items](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md#items)
+[`ISerpBaiduOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md).[`items`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:69409
+main.ts:69417
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskGetAdvancedResultInfo](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md).[items_count](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md#items_count)
+[`ISerpBaiduOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md).[`items_count`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:69406
+main.ts:69414
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword received in a POST array
 the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskGetAdvancedResultInfo](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md).[keyword](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md#keyword)
+[`ISerpBaiduOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md).[`keyword`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:69378
+main.ts:69386
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskGetAdvancedResultInfo](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md).[language_code](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md#language_code)
+[`ISerpBaiduOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md).[`language_code`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:69386
+main.ts:69394
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskGetAdvancedResultInfo](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md).[location_code](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md#location_code)
+[`ISerpBaiduOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md).[`location_code`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:69384
+main.ts:69392
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskGetAdvancedResultInfo](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md).[se_domain](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md#se_domain)
+[`ISerpBaiduOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md).[`se_domain`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md#se_domain)
 
-#### Defined in
+#### Source
 
-main.ts:69382
+main.ts:69390
 
-___
+***
 
-### se\_results\_count
+### se\_results\_count?
 
-• `Optional` **se\_results\_count**: `number`
+> **`optional`** **se\_results\_count**: `number`
 
 total number of results in SERP
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskGetAdvancedResultInfo](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md).[se_results_count](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md#se_results_count)
+[`ISerpBaiduOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md).[`se_results_count`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md#se_results_count)
 
-#### Defined in
+#### Source
 
-main.ts:69404
+main.ts:69412
 
-___
+***
 
-### spell
+### spell?
 
-• `Optional` **spell**: [`SpellInfo`](SpellInfo.md)
+> **`optional`** **spell**: [`SpellInfo`](SpellInfo.md)
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskGetAdvancedResultInfo](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md).[spell](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md#spell)
+[`ISerpBaiduOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md).[`spell`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md#spell)
 
-#### Defined in
+#### Source
 
-main.ts:69397
+main.ts:69405
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskGetAdvancedResultInfo](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md).[type](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md#type)
+[`ISerpBaiduOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md).[`type`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedResultInfo.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:69380
+main.ts:69388
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:69422
+main.ts:69430
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:69458
+main.ts:69466
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpBaiduOrganicTaskGetAdvancedResultInfo`](SerpBaiduOrganicTaskGetAdvancedResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpBaiduOrganicTaskGetAdvancedResultInfo`](SerpBaiduOrganicTaskGetAdvancedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpBaiduOrganicTaskGetAdvancedResultInfo`](SerpBaiduOrganicTaskGetAdvancedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:69451
+main.ts:69459

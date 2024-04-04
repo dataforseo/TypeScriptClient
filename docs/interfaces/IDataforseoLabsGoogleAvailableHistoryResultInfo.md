@@ -1,32 +1,26 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleAvailableHistoryResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsGoogleAvailableHistoryResultInfo
 
 # Interface: IDataforseoLabsGoogleAvailableHistoryResultInfo
 
-## Implemented by
-
-- [`DataforseoLabsGoogleAvailableHistoryResultInfo`](../classes/DataforseoLabsGoogleAvailableHistoryResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [date](IDataforseoLabsGoogleAvailableHistoryResultInfo.md#date)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### date
+### date?
 
-• `Optional` **date**: `string`
+> **`optional`** **date**: `string`
 
 available date
 indicates the date of the range available for setting in the Domain Metrics by Categories endpoint
 example:
 2022-05-16
 
-#### Defined in
+#### Source
 
-main.ts:80750
+main.ts:80758

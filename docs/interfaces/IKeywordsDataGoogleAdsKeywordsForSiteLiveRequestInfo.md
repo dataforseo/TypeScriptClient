@@ -1,38 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo
 
 # Interface: IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo
 
-## Implemented by
-
-- [`KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo`](../classes/KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [date\_from](IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#date_from)
-- [date\_to](IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#date_to)
-- [include\_adult\_keywords](IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#include_adult_keywords)
-- [language\_code](IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#language_code)
-- [language\_name](IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#language_name)
-- [location\_code](IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#location_code)
-- [location\_coordinate](IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#location_coordinate)
-- [location\_name](IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#location_name)
-- [search\_partners](IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#search_partners)
-- [sort\_by](IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#sort_by)
-- [tag](IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#tag)
-- [target](IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#target)
-- [target\_type](IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#target_type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -42,15 +24,15 @@ by default, data is returned for the past 12 months;
 Note: the indicated date cannot be greater than that specified in date_to and/or yesterday’s date;if Status endpoint returns false in the actual_data field, date_from can be set to the month before last and prior;
 if Status endpoint returns true in the actual_data field, date_from can be set to the last month and prior
 
-#### Defined in
+#### Source
 
-main.ts:117937
+main.ts:117945
 
-___
+***
 
-### date\_to
+### date\_to?
 
-• `Optional` **date\_to**: `string`
+> **`optional`** **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -60,15 +42,15 @@ date format: "yyyy-mm-dd"
 example:
 "2022-11-30"
 
-#### Defined in
+#### Source
 
-main.ts:117945
+main.ts:117953
 
-___
+***
 
-### include\_adult\_keywords
+### include\_adult\_keywords?
 
-• `Optional` **include\_adult\_keywords**: `boolean`
+> **`optional`** **include\_adult\_keywords**: `boolean`
 
 include keywords associated with adult content
 optional field
@@ -76,15 +58,15 @@ if set to true, adult keywords will be included in the response
 default value: false
 note that the API may return no data for such keywords due to Google Ads restrictions
 
-#### Defined in
+#### Source
 
-main.ts:117951
+main.ts:117959
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 optional field
@@ -92,15 +74,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:117924
+main.ts:117932
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -108,15 +90,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:117918
+main.ts:117926
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 optional field
@@ -126,15 +108,15 @@ you can receive the list of available locations of the search engines with their
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:117903
+main.ts:117911
 
-___
+***
 
-### location\_coordinate
+### location\_coordinate?
 
-• `Optional` **location\_coordinate**: `string`
+> **`optional`** **location\_coordinate**: `string`
 
 GPS coordinates of a location
 optional field
@@ -145,15 +127,15 @@ the data will be provided for the country the specified coordinates belong to;
 example:
 52.6178549,-155.352142
 
-#### Defined in
+#### Source
 
-main.ts:117912
+main.ts:117920
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 optional field
@@ -163,45 +145,45 @@ you can receive the list of available locations of the search engine with their 
 example:
 London,England,United Kingdom
 
-#### Defined in
+#### Source
 
-main.ts:117895
+main.ts:117903
 
-___
+***
 
-### search\_partners
+### search\_partners?
 
-• `Optional` **search\_partners**: `boolean`
+> **`optional`** **search\_partners**: `boolean`
 
 include Google search partners
 optional field
 if you specify true, the results will be delivered for owned, operated, and syndicated networks across Google and partner sites that host Google search;
 default value: false – results are returned for Google search sites
 
-#### Defined in
+#### Source
 
-main.ts:117929
+main.ts:117937
 
-___
+***
 
-### sort\_by
+### sort\_by?
 
-• `Optional` **sort\_by**: `string`
+> **`optional`** **sort\_by**: `string`
 
 results sorting parameters
 optional field
 Use these parameters to sort the results by relevance, search_volume, competition_index, low_top_of_page_bid, or high_top_of_page_bid in descending order
 default value: relevance
 
-#### Defined in
+#### Source
 
-main.ts:117956
+main.ts:117964
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -209,30 +191,30 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:117962
+main.ts:117970
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 domain or page
 required field
 the domain name of the target website or the url of the target page;
 note: to obtain keywords for the target website, use the target_type parameter
 
-#### Defined in
+#### Source
 
-main.ts:117880
+main.ts:117888
 
-___
+***
 
-### target\_type
+### target\_type?
 
-• `Optional` **target\_type**: `string`
+> **`optional`** **target\_type**: `string`
 
 search keywords for site or for url
 optional field
@@ -241,6 +223,6 @@ default value: page;
 if set to site, keywords will be provided for the entire site;
 if set to page, keywords will be provided for the specified webpage
 
-#### Defined in
+#### Source
 
-main.ts:117887
+main.ts:117895

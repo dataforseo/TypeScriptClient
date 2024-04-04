@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MerchantAmazonAsinTaskGetHtmlResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / MerchantAmazonAsinTaskGetHtmlResultInfo
 
 # Class: MerchantAmazonAsinTaskGetHtmlResultInfo
 
@@ -8,56 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](MerchantAmazonAsinTaskGetHtmlResultInfo.md#constructor)
-
-### Properties
-
-- [datetime](MerchantAmazonAsinTaskGetHtmlResultInfo.md#datetime)
-- [items](MerchantAmazonAsinTaskGetHtmlResultInfo.md#items)
-- [items\_count](MerchantAmazonAsinTaskGetHtmlResultInfo.md#items_count)
-- [language\_code](MerchantAmazonAsinTaskGetHtmlResultInfo.md#language_code)
-- [location\_code](MerchantAmazonAsinTaskGetHtmlResultInfo.md#location_code)
-- [product\_id](MerchantAmazonAsinTaskGetHtmlResultInfo.md#product_id)
-- [se\_domain](MerchantAmazonAsinTaskGetHtmlResultInfo.md#se_domain)
-- [type](MerchantAmazonAsinTaskGetHtmlResultInfo.md#type)
-
-### Methods
-
-- [init](MerchantAmazonAsinTaskGetHtmlResultInfo.md#init)
-- [toJSON](MerchantAmazonAsinTaskGetHtmlResultInfo.md#tojson)
-- [fromJS](MerchantAmazonAsinTaskGetHtmlResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new MerchantAmazonAsinTaskGetHtmlResultInfo(data)
 
-• **new MerchantAmazonAsinTaskGetHtmlResultInfo**(`data?`): [`MerchantAmazonAsinTaskGetHtmlResultInfo`](MerchantAmazonAsinTaskGetHtmlResultInfo.md)
+> **new MerchantAmazonAsinTaskGetHtmlResultInfo**(`data`?): [`MerchantAmazonAsinTaskGetHtmlResultInfo`](MerchantAmazonAsinTaskGetHtmlResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IMerchantAmazonAsinTaskGetHtmlResultInfo`](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md) |
+• **data?**: [`IMerchantAmazonAsinTaskGetHtmlResultInfo`](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md)
 
 #### Returns
 
 [`MerchantAmazonAsinTaskGetHtmlResultInfo`](MerchantAmazonAsinTaskGetHtmlResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:178816
 
 ## Properties
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -66,180 +45,174 @@ example:
 
 #### Implementation of
 
-[IMerchantAmazonAsinTaskGetHtmlResultInfo](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md).[datetime](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md#datetime)
+[`IMerchantAmazonAsinTaskGetHtmlResultInfo`](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md).[`datetime`](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
 main.ts:178808
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`HtmlItem`](HtmlItem.md)[]
+> **`optional`** **items**: [`HtmlItem`](HtmlItem.md)[]
 
 HTML pages and related data
 
 #### Implementation of
 
-[IMerchantAmazonAsinTaskGetHtmlResultInfo](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md).[items](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md#items)
+[`IMerchantAmazonAsinTaskGetHtmlResultInfo`](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md).[`items`](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md#items)
 
-#### Defined in
+#### Source
 
 main.ts:178812
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[IMerchantAmazonAsinTaskGetHtmlResultInfo](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md).[items_count](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md#items_count)
+[`IMerchantAmazonAsinTaskGetHtmlResultInfo`](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md).[`items_count`](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
 main.ts:178810
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[IMerchantAmazonAsinTaskGetHtmlResultInfo](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md).[language_code](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md#language_code)
+[`IMerchantAmazonAsinTaskGetHtmlResultInfo`](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md).[`language_code`](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
 main.ts:178803
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[IMerchantAmazonAsinTaskGetHtmlResultInfo](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md).[location_code](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md#location_code)
+[`IMerchantAmazonAsinTaskGetHtmlResultInfo`](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md).[`location_code`](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
 main.ts:178801
 
-___
+***
 
-### product\_id
+### product\_id?
 
-• `Optional` **product\_id**: `string`
+> **`optional`** **product\_id**: `string`
 
 ASIN received in a POST array
 
 #### Implementation of
 
-[IMerchantAmazonAsinTaskGetHtmlResultInfo](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md).[product_id](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md#product_id)
+[`IMerchantAmazonAsinTaskGetHtmlResultInfo`](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md).[`product_id`](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md#product_id)
 
-#### Defined in
+#### Source
 
 main.ts:178795
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
 #### Implementation of
 
-[IMerchantAmazonAsinTaskGetHtmlResultInfo](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md).[se_domain](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md#se_domain)
+[`IMerchantAmazonAsinTaskGetHtmlResultInfo`](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md).[`se_domain`](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md#se_domain)
 
-#### Defined in
+#### Source
 
 main.ts:178799
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IMerchantAmazonAsinTaskGetHtmlResultInfo](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md).[type](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md#type)
+[`IMerchantAmazonAsinTaskGetHtmlResultInfo`](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md).[`type`](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md#type)
 
-#### Defined in
+#### Source
 
 main.ts:178797
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:178825
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:178853
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`MerchantAmazonAsinTaskGetHtmlResultInfo`](MerchantAmazonAsinTaskGetHtmlResultInfo.md)
+> **`static`** **fromJS**(`data`): [`MerchantAmazonAsinTaskGetHtmlResultInfo`](MerchantAmazonAsinTaskGetHtmlResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`MerchantAmazonAsinTaskGetHtmlResultInfo`](MerchantAmazonAsinTaskGetHtmlResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:178846

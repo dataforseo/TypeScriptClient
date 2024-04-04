@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataYelpSearchTasksReadyResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataYelpSearchTasksReadyResultInfo
 
 # Class: BusinessDataYelpSearchTasksReadyResultInfo
 
@@ -8,204 +12,175 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataYelpSearchTasksReadyResultInfo.md#constructor)
-
-### Properties
-
-- [date\_posted](BusinessDataYelpSearchTasksReadyResultInfo.md#date_posted)
-- [endpoint](BusinessDataYelpSearchTasksReadyResultInfo.md#endpoint)
-- [id](BusinessDataYelpSearchTasksReadyResultInfo.md#id)
-- [se](BusinessDataYelpSearchTasksReadyResultInfo.md#se)
-- [se\_type](BusinessDataYelpSearchTasksReadyResultInfo.md#se_type)
-- [tag](BusinessDataYelpSearchTasksReadyResultInfo.md#tag)
-
-### Methods
-
-- [init](BusinessDataYelpSearchTasksReadyResultInfo.md#init)
-- [toJSON](BusinessDataYelpSearchTasksReadyResultInfo.md#tojson)
-- [fromJS](BusinessDataYelpSearchTasksReadyResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataYelpSearchTasksReadyResultInfo(data)
 
-• **new BusinessDataYelpSearchTasksReadyResultInfo**(`data?`): [`BusinessDataYelpSearchTasksReadyResultInfo`](BusinessDataYelpSearchTasksReadyResultInfo.md)
+> **new BusinessDataYelpSearchTasksReadyResultInfo**(`data`?): [`BusinessDataYelpSearchTasksReadyResultInfo`](BusinessDataYelpSearchTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataYelpSearchTasksReadyResultInfo`](../interfaces/IBusinessDataYelpSearchTasksReadyResultInfo.md) |
+• **data?**: [`IBusinessDataYelpSearchTasksReadyResultInfo`](../interfaces/IBusinessDataYelpSearchTasksReadyResultInfo.md)
 
 #### Returns
 
 [`BusinessDataYelpSearchTasksReadyResultInfo`](BusinessDataYelpSearchTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:209154
 
 ## Properties
 
-### date\_posted
+### date\_posted?
 
-• `Optional` **date\_posted**: `string`
+> **`optional`** **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
 #### Implementation of
 
-[IBusinessDataYelpSearchTasksReadyResultInfo](../interfaces/IBusinessDataYelpSearchTasksReadyResultInfo.md).[date_posted](../interfaces/IBusinessDataYelpSearchTasksReadyResultInfo.md#date_posted)
+[`IBusinessDataYelpSearchTasksReadyResultInfo`](../interfaces/IBusinessDataYelpSearchTasksReadyResultInfo.md).[`date_posted`](../interfaces/IBusinessDataYelpSearchTasksReadyResultInfo.md#date_posted)
 
-#### Defined in
+#### Source
 
 main.ts:209146
 
-___
+***
 
-### endpoint
+### endpoint?
 
-• `Optional` **endpoint**: `string`
+> **`optional`** **endpoint**: `string`
 
 URL for collecting the results of the task
 
 #### Implementation of
 
-[IBusinessDataYelpSearchTasksReadyResultInfo](../interfaces/IBusinessDataYelpSearchTasksReadyResultInfo.md).[endpoint](../interfaces/IBusinessDataYelpSearchTasksReadyResultInfo.md#endpoint)
+[`IBusinessDataYelpSearchTasksReadyResultInfo`](../interfaces/IBusinessDataYelpSearchTasksReadyResultInfo.md).[`endpoint`](../interfaces/IBusinessDataYelpSearchTasksReadyResultInfo.md#endpoint)
 
-#### Defined in
+#### Source
 
 main.ts:209150
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IBusinessDataYelpSearchTasksReadyResultInfo](../interfaces/IBusinessDataYelpSearchTasksReadyResultInfo.md).[id](../interfaces/IBusinessDataYelpSearchTasksReadyResultInfo.md#id)
+[`IBusinessDataYelpSearchTasksReadyResultInfo`](../interfaces/IBusinessDataYelpSearchTasksReadyResultInfo.md).[`id`](../interfaces/IBusinessDataYelpSearchTasksReadyResultInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:209138
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 can take the following values: yelp
 
 #### Implementation of
 
-[IBusinessDataYelpSearchTasksReadyResultInfo](../interfaces/IBusinessDataYelpSearchTasksReadyResultInfo.md).[se](../interfaces/IBusinessDataYelpSearchTasksReadyResultInfo.md#se)
+[`IBusinessDataYelpSearchTasksReadyResultInfo`](../interfaces/IBusinessDataYelpSearchTasksReadyResultInfo.md).[`se`](../interfaces/IBusinessDataYelpSearchTasksReadyResultInfo.md#se)
 
-#### Defined in
+#### Source
 
 main.ts:209141
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 type of search engine
 can take the following values: search
 
 #### Implementation of
 
-[IBusinessDataYelpSearchTasksReadyResultInfo](../interfaces/IBusinessDataYelpSearchTasksReadyResultInfo.md).[se_type](../interfaces/IBusinessDataYelpSearchTasksReadyResultInfo.md#se_type)
+[`IBusinessDataYelpSearchTasksReadyResultInfo`](../interfaces/IBusinessDataYelpSearchTasksReadyResultInfo.md).[`se_type`](../interfaces/IBusinessDataYelpSearchTasksReadyResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
 main.ts:209144
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
 #### Implementation of
 
-[IBusinessDataYelpSearchTasksReadyResultInfo](../interfaces/IBusinessDataYelpSearchTasksReadyResultInfo.md).[tag](../interfaces/IBusinessDataYelpSearchTasksReadyResultInfo.md#tag)
+[`IBusinessDataYelpSearchTasksReadyResultInfo`](../interfaces/IBusinessDataYelpSearchTasksReadyResultInfo.md).[`tag`](../interfaces/IBusinessDataYelpSearchTasksReadyResultInfo.md#tag)
 
-#### Defined in
+#### Source
 
 main.ts:209148
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:209163
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:209185
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataYelpSearchTasksReadyResultInfo`](BusinessDataYelpSearchTasksReadyResultInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataYelpSearchTasksReadyResultInfo`](BusinessDataYelpSearchTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BusinessDataYelpSearchTasksReadyResultInfo`](BusinessDataYelpSearchTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:209178

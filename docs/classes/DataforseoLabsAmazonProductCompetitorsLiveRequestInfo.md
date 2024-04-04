@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonProductCompetitorsLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsAmazonProductCompetitorsLiveRequestInfo
 
 # Class: DataforseoLabsAmazonProductCompetitorsLiveRequestInfo
 
@@ -8,58 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [asin](DataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#asin)
-- [filters](DataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#filters)
-- [language\_code](DataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#language_code)
-- [language\_name](DataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#language_name)
-- [limit](DataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#limit)
-- [location\_code](DataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#location_code)
-- [location\_name](DataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#location_name)
-- [offset](DataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#offset)
-- [order\_by](DataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#order_by)
-- [tag](DataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#tag)
-
-### Methods
-
-- [init](DataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#init)
-- [toJSON](DataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#tojson)
-- [fromJS](DataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsAmazonProductCompetitorsLiveRequestInfo(data)
 
-• **new DataforseoLabsAmazonProductCompetitorsLiveRequestInfo**(`data?`): [`DataforseoLabsAmazonProductCompetitorsLiveRequestInfo`](DataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md)
+> **new DataforseoLabsAmazonProductCompetitorsLiveRequestInfo**(`data`?): [`DataforseoLabsAmazonProductCompetitorsLiveRequestInfo`](DataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md) |
+• **data?**: [`IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsAmazonProductCompetitorsLiveRequestInfo`](DataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:103431
+main.ts:103439
 
 ## Properties
 
-### asin
+### asin?
 
-• `Optional` **asin**: `string`
+> **`optional`** **asin**: `string`
 
 product ID
 required field
@@ -68,42 +45,42 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md).[asin](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#asin)
+[`IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md).[`asin`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#asin)
 
-#### Defined in
+#### Source
 
-main.ts:103354
+main.ts:103362
 
-___
+***
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, <=, >, >=, =, <>, in, not_in, like, not_like
+regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
-["full_metrics.amazon_serp.pos_1",">", 20]
+["full_metrics.amazon_serp.pos_1",">`", 20]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md).[filters](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#filters)
+[`IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md).[`filters`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#filters)
 
-#### Defined in
+#### Source
 
-main.ts:103400
+main.ts:103408
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 required field if don’t specify language_name
@@ -114,17 +91,17 @@ en
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md).[language_code](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#language_code)
+[`IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:103384
+main.ts:103392
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 required field if don’t specify language_code
@@ -135,17 +112,17 @@ English
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md).[language_name](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#language_name)
+[`IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:103377
+main.ts:103385
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of products in the results array
 optional field
@@ -154,17 +131,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md).[limit](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#limit)
+[`IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md).[`limit`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#limit)
 
-#### Defined in
+#### Source
 
-main.ts:103389
+main.ts:103397
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 required field if don’t specify location_name
@@ -176,17 +153,17 @@ example:
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md).[location_code](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#location_code)
+[`IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:103370
+main.ts:103378
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 required field if don’t specify location_code
@@ -198,17 +175,17 @@ United States
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md).[location_name](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#location_name)
+[`IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:103362
+main.ts:103370
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned product competitors
 optional field
@@ -217,17 +194,17 @@ if you specify the 10 value, the first ten product competitors in the results ar
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md).[offset](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#offset)
+[`IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md).[`offset`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#offset)
 
-#### Defined in
+#### Source
 
-main.ts:103421
+main.ts:103429
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -247,17 +224,17 @@ default rule:
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md).[order_by](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#order_by)
+[`IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md).[`order_by`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#order_by)
 
-#### Defined in
+#### Source
 
-main.ts:103416
+main.ts:103424
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -267,68 +244,62 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md).[tag](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#tag)
+[`IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:103427
+main.ts:103435
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:103440
+main.ts:103448
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:103474
+main.ts:103482
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsAmazonProductCompetitorsLiveRequestInfo`](DataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsAmazonProductCompetitorsLiveRequestInfo`](DataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsAmazonProductCompetitorsLiveRequestInfo`](DataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:103467
+main.ts:103475

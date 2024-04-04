@@ -1,81 +1,71 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppElement
 
 # Interface: IAppElement
 
-## Implemented by
-
-- [`AppElement`](../classes/AppElement.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [description](IAppElement.md#description)
-- [price](IAppElement.md#price)
-- [title](IAppElement.md#title)
-- [type](IAppElement.md#type)
-- [url](IAppElement.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description
 
-#### Defined in
+#### Source
 
 main.ts:30460
 
-___
+***
 
-### price
+### price?
 
-• `Optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
+> **`optional`** **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
 price indicated in the element
 
-#### Defined in
+#### Source
 
 main.ts:30464
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
-#### Defined in
+#### Source
 
 main.ts:30458
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
 main.ts:30456
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL
 
-#### Defined in
+#### Source
 
 main.ts:30462

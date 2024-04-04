@@ -1,35 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAppleAppCompetitorsLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsAppleAppCompetitorsLiveRequestInfo
 
 # Interface: IDataforseoLabsAppleAppCompetitorsLiveRequestInfo
 
-## Implemented by
-
-- [`DataforseoLabsAppleAppCompetitorsLiveRequestInfo`](../classes/DataforseoLabsAppleAppCompetitorsLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [app\_id](IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#app_id)
-- [filters](IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#filters)
-- [language\_code](IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#language_code)
-- [language\_name](IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#language_name)
-- [limit](IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#limit)
-- [location\_code](IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#location_code)
-- [location\_name](IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#location_name)
-- [offset](IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#offset)
-- [order\_by](IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#order_by)
-- [tag](IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### app\_id
+### app\_id?
 
-• `Optional` **app\_id**: `string`
+> **`optional`** **app\_id**: `string`
 
 id of the app
 required field
@@ -39,39 +24,39 @@ example:
 in the URL https://apps.apple.com/us/app/id835599320
 the id is 835599320
 
-#### Defined in
+#### Source
 
-main.ts:113655
+main.ts:113663
 
-___
+***
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-<, <=, >, >=, =, <>, in, not_in
+<, `<=, >`, >=, =, `<>`, in, not_in
 example:
-["intersections",">",500]
-[["competitor_metrics.app_store_search_organic.pos_1","<>",10],"and",["avg_position",">=","10"]]
+["intersections",">`",500]
+[["competitor_metrics.app_store_search_organic.pos_1","`<>`",10],"and",["avg_position",">`=","10"]]
 [[["intersections",">=",50],"and",["competitor_metrics.app_store_search_organic.pos_1","in",[1,5]]],
 "or",
 ["sum_position",">=","10000"]]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide
 
-#### Defined in
+#### Source
 
-main.ts:113705
+main.ts:113713
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 required field if you don’t specify language_name
@@ -82,15 +67,15 @@ Note: this endpoint currently supports the English language only
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:113691
+main.ts:113699
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -101,30 +86,30 @@ Note: this endpoint currently supports the English language only;
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:113682
+main.ts:113690
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned apps
 optional field
 default value: 100
 maximum value: 1000
 
-#### Defined in
+#### Source
 
-main.ts:113727
+main.ts:113735
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 required field if you don’t specify location_name
@@ -135,15 +120,15 @@ Note: this endpoint currently supports the US location only;
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:113673
+main.ts:113681
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code
@@ -154,30 +139,30 @@ Note: this endpoint currently supports the US location only;
 example:
 United States
 
-#### Defined in
+#### Source
 
-main.ts:113664
+main.ts:113672
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned apps
 optional field
 default value: 0
 if you specify the 10 value, the first ten apps in the results array will be omitted and the data will be provided for the successive keywords
 
-#### Defined in
+#### Source
 
-main.ts:113732
+main.ts:113740
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -196,15 +181,15 @@ default rule:
 ["intersections,desc"]
 Note: if the item_types array contains item types that are different from organic, the results will be ordered by the first item type in the array
 
-#### Defined in
+#### Source
 
-main.ts:113722
+main.ts:113730
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -212,6 +197,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:113738
+main.ts:113746

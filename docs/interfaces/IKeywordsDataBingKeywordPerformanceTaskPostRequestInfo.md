@@ -1,51 +1,35 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo
 
 # Interface: IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo
 
-## Implemented by
-
-- [`KeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](../classes/KeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [device](IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#device)
-- [keywords](IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#keywords)
-- [language\_code](IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#language_code)
-- [language\_name](IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#language_name)
-- [location\_code](IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#location_code)
-- [location\_coordinate](IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#location_coordinate)
-- [location\_name](IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#location_name)
-- [match](IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#match)
-- [pingback\_url](IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#pingback_url)
-- [postback\_url](IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#postback_url)
-- [tag](IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### device
+### device?
 
-• `Optional` **device**: `string`
+> **`optional`** **device**: `string`
 
 device type
 optional field
 specify this field if you want to get the data for a particular device typepossible values: desktop, mobile, tablet, all
 default value: all
 
-#### Defined in
+#### Source
 
-main.ts:132118
+main.ts:132126
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 keywords
 required field
@@ -54,15 +38,15 @@ The maximum number of characters for each keyword: 80.
 The maximum number of words for each keyword phrase: 10.
 the specified keywords will be converted to lowercase, data will be provided in a separate array
 
-#### Defined in
+#### Source
 
-main.ts:132113
+main.ts:132121
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -70,15 +54,15 @@ you can receive the list of available locations and languages by making a separa
 example:
 "en"
 
-#### Defined in
+#### Source
 
-main.ts:132161
+main.ts:132169
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -87,15 +71,15 @@ you can receive the list of available locations and languages by making a separa
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:132155
+main.ts:132163
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -104,15 +88,15 @@ you can receive the list of available locations and languages by making a separa
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:132140
+main.ts:132148
 
-___
+***
 
-### location\_coordinate
+### location\_coordinate?
 
-• `Optional` **location\_coordinate**: `string`
+> **`optional`** **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -122,15 +106,15 @@ the data will be provided for the country the specified coordinates belong to
 example:
 52.6178549,-155.352142
 
-#### Defined in
+#### Source
 
-main.ts:132148
+main.ts:132156
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -139,15 +123,15 @@ you can receive the list of available locations and languages by making a separa
 example:
 "United States"
 
-#### Defined in
+#### Source
 
-main.ts:132133
+main.ts:132141
 
-___
+***
 
-### match
+### match?
 
-• `Optional` **match**: `string`
+> **`optional`** **match**: `string`
 
 keywords match type
 optional field
@@ -157,15 +141,15 @@ broad returns data for all user queries containing the specified keyword with va
 phrase returns data for all user queries containing the specified keyword with identical word order;
 exact returns data for user query that matches the specified keyword;Note: the aggregate match type is applied by default
 
-#### Defined in
+#### Source
 
-main.ts:132126
+main.ts:132134
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -177,15 +161,15 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special symbols in pingback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
-main.ts:132181
+main.ts:132189
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -197,15 +181,15 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special symbols in postback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
-main.ts:132171
+main.ts:132179
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -213,6 +197,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:132187
+main.ts:132195

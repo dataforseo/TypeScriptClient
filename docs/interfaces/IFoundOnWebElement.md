@@ -1,68 +1,59 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IFoundOnWebElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IFoundOnWebElement
 
 # Interface: IFoundOnWebElement
 
-## Implemented by
-
-- [`FoundOnWebElement`](../classes/FoundOnWebElement.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [image](IFoundOnWebElement.md#image)
-- [subtitle](IFoundOnWebElement.md#subtitle)
-- [title](IFoundOnWebElement.md#title)
-- [type](IFoundOnWebElement.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### image
+### image?
 
-• `Optional` **image**: [`ImagesElement`](../classes/ImagesElement.md)
+> **`optional`** **image**: [`ImagesElement`](../classes/ImagesElement.md)
 
 image of the element
 
-#### Defined in
+#### Source
 
-main.ts:35714
+main.ts:35720
 
-___
+***
 
-### subtitle
+### subtitle?
 
-• `Optional` **subtitle**: `string`
+> **`optional`** **subtitle**: `string`
 
 subtitle of the element
 
-#### Defined in
+#### Source
 
-main.ts:35712
+main.ts:35718
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
-#### Defined in
+#### Source
 
-main.ts:35710
+main.ts:35716
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:35708
+main.ts:35714

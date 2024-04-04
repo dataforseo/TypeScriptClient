@@ -1,59 +1,51 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentAnalysisSentimentAnalysisLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IContentAnalysisSentimentAnalysisLiveResultInfo
 
 # Interface: IContentAnalysisSentimentAnalysisLiveResultInfo
 
-## Implemented by
-
-- [`ContentAnalysisSentimentAnalysisLiveResultInfo`](../classes/ContentAnalysisSentimentAnalysisLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [positive\_connotation\_distribution](IContentAnalysisSentimentAnalysisLiveResultInfo.md#positive_connotation_distribution)
-- [sentiment\_connotation\_distribution](IContentAnalysisSentimentAnalysisLiveResultInfo.md#sentiment_connotation_distribution)
-- [type](IContentAnalysisSentimentAnalysisLiveResultInfo.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### positive\_connotation\_distribution
+### positive\_connotation\_distribution?
 
-• `Optional` **positive\_connotation\_distribution**: [`PositiveConnotationDistribution`](../classes/PositiveConnotationDistribution.md)
+> **`optional`** **positive\_connotation\_distribution**: [`PositiveConnotationDistribution`](../classes/PositiveConnotationDistribution.md)
 
 citation distribution by sentiment connotation types
 contains objects with citation counts and relevant data distributed by types of sentiments (sentiment polarity);
 possible sentiment connotation types: positive, negative, neutral
 
-#### Defined in
+#### Source
 
-main.ts:163459
+main.ts:163467
 
-___
+***
 
-### sentiment\_connotation\_distribution
+### sentiment\_connotation\_distribution?
 
-• `Optional` **sentiment\_connotation\_distribution**: [`SentimentConnotationDistribution`](../classes/SentimentConnotationDistribution.md)
+> **`optional`** **sentiment\_connotation\_distribution**: [`SentimentConnotationDistribution`](../classes/SentimentConnotationDistribution.md)
 
 citation distribution by sentiment connotations
 contains objects with citation counts and relevant data distributed by sentiments (emotional reactions);
 possible sentiment connotation types: anger, happiness, love, sadness, share, fun
 
-#### Defined in
+#### Source
 
-main.ts:163463
+main.ts:163471
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:163455
+main.ts:163463

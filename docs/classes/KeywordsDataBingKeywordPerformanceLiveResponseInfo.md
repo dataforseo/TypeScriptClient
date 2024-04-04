@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataBingKeywordPerformanceLiveResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataBingKeywordPerformanceLiveResponseInfo
 
 # Class: KeywordsDataBingKeywordPerformanceLiveResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`KeywordsDataBingKeywordPerformanceLiveResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataBingKeywordPerformanceLiveResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](KeywordsDataBingKeywordPerformanceLiveResponseInfo.md#cost)
-- [status\_code](KeywordsDataBingKeywordPerformanceLiveResponseInfo.md#status_code)
-- [status\_message](KeywordsDataBingKeywordPerformanceLiveResponseInfo.md#status_message)
-- [tasks](KeywordsDataBingKeywordPerformanceLiveResponseInfo.md#tasks)
-- [tasks\_count](KeywordsDataBingKeywordPerformanceLiveResponseInfo.md#tasks_count)
-- [tasks\_error](KeywordsDataBingKeywordPerformanceLiveResponseInfo.md#tasks_error)
-- [time](KeywordsDataBingKeywordPerformanceLiveResponseInfo.md#time)
-- [version](KeywordsDataBingKeywordPerformanceLiveResponseInfo.md#version)
-
-### Methods
-
-- [init](KeywordsDataBingKeywordPerformanceLiveResponseInfo.md#init)
-- [toJSON](KeywordsDataBingKeywordPerformanceLiveResponseInfo.md#tojson)
-- [fromJS](KeywordsDataBingKeywordPerformanceLiveResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordsDataBingKeywordPerformanceLiveResponseInfo(data)
 
-• **new KeywordsDataBingKeywordPerformanceLiveResponseInfo**(`data?`): [`KeywordsDataBingKeywordPerformanceLiveResponseInfo`](KeywordsDataBingKeywordPerformanceLiveResponseInfo.md)
+> **new KeywordsDataBingKeywordPerformanceLiveResponseInfo**(`data`?): [`KeywordsDataBingKeywordPerformanceLiveResponseInfo`](KeywordsDataBingKeywordPerformanceLiveResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordsDataBingKeywordPerformanceLiveResponseInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResponseInfo.md) |
+• **data?**: [`IKeywordsDataBingKeywordPerformanceLiveResponseInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:133257
+main.ts:133265
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordPerformanceLiveResponseInfo](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResponseInfo.md).[cost](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResponseInfo.md#cost)
+[`IKeywordsDataBingKeywordPerformanceLiveResponseInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResponseInfo.md).[`cost`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordPerformanceLiveResponseInfo](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResponseInfo.md).[status_code](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResponseInfo.md#status_code)
+[`IKeywordsDataBingKeywordPerformanceLiveResponseInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResponseInfo.md).[`status_code`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordPerformanceLiveResponseInfo](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResponseInfo.md).[status_message](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResponseInfo.md#status_message)
+[`IKeywordsDataBingKeywordPerformanceLiveResponseInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResponseInfo.md).[`status_message`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`KeywordsDataBingKeywordPerformanceLiveTaskInfo`](KeywordsDataBingKeywordPerformanceLiveTaskInfo.md)[]
+> **`optional`** **tasks**: [`KeywordsDataBingKeywordPerformanceLiveTaskInfo`](KeywordsDataBingKeywordPerformanceLiveTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordPerformanceLiveResponseInfo](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResponseInfo.md).[tasks](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResponseInfo.md#tasks)
+[`IKeywordsDataBingKeywordPerformanceLiveResponseInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResponseInfo.md).[`tasks`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:133253
+main.ts:133261
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordPerformanceLiveResponseInfo](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResponseInfo.md).[tasks_count](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResponseInfo.md#tasks_count)
+[`IKeywordsDataBingKeywordPerformanceLiveResponseInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResponseInfo.md).[`tasks_count`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordPerformanceLiveResponseInfo](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResponseInfo.md).[tasks_error](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResponseInfo.md#tasks_error)
+[`IKeywordsDataBingKeywordPerformanceLiveResponseInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResponseInfo.md).[`tasks_error`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordPerformanceLiveResponseInfo](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResponseInfo.md).[time](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResponseInfo.md#time)
+[`IKeywordsDataBingKeywordPerformanceLiveResponseInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResponseInfo.md).[`time`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordPerformanceLiveResponseInfo](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResponseInfo.md).[version](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResponseInfo.md#version)
+[`IKeywordsDataBingKeywordPerformanceLiveResponseInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResponseInfo.md).[`version`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:133261
+main.ts:133269
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:133283
+main.ts:133291
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordsDataBingKeywordPerformanceLiveResponseInfo`](KeywordsDataBingKeywordPerformanceLiveResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordsDataBingKeywordPerformanceLiveResponseInfo`](KeywordsDataBingKeywordPerformanceLiveResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:133276
+main.ts:133284

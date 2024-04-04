@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesTechnologiesResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DomainAnalyticsTechnologiesTechnologiesResultInfo
 
 # Class: DomainAnalyticsTechnologiesTechnologiesResultInfo
 
@@ -8,116 +12,92 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DomainAnalyticsTechnologiesTechnologiesResultInfo.md#constructor)
-
-### Properties
-
-- [groups](DomainAnalyticsTechnologiesTechnologiesResultInfo.md#groups)
-
-### Methods
-
-- [init](DomainAnalyticsTechnologiesTechnologiesResultInfo.md#init)
-- [toJSON](DomainAnalyticsTechnologiesTechnologiesResultInfo.md#tojson)
-- [fromJS](DomainAnalyticsTechnologiesTechnologiesResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DomainAnalyticsTechnologiesTechnologiesResultInfo(data)
 
-• **new DomainAnalyticsTechnologiesTechnologiesResultInfo**(`data?`): [`DomainAnalyticsTechnologiesTechnologiesResultInfo`](DomainAnalyticsTechnologiesTechnologiesResultInfo.md)
+> **new DomainAnalyticsTechnologiesTechnologiesResultInfo**(`data`?): [`DomainAnalyticsTechnologiesTechnologiesResultInfo`](DomainAnalyticsTechnologiesTechnologiesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDomainAnalyticsTechnologiesTechnologiesResultInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResultInfo.md) |
+• **data?**: [`IDomainAnalyticsTechnologiesTechnologiesResultInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResultInfo.md)
 
 #### Returns
 
 [`DomainAnalyticsTechnologiesTechnologiesResultInfo`](DomainAnalyticsTechnologiesTechnologiesResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:74643
+main.ts:74651
 
 ## Properties
 
-### groups
+### groups?
 
-• `Optional` **groups**: [`Groups`](Groups.md)[]
+> **`optional`** **groups**: [`Groups`](Groups.md)[]
 
 array of technology groups
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesTechnologiesResultInfo](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResultInfo.md).[groups](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResultInfo.md#groups)
+[`IDomainAnalyticsTechnologiesTechnologiesResultInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResultInfo.md).[`groups`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResultInfo.md#groups)
 
-#### Defined in
+#### Source
 
-main.ts:74639
+main.ts:74647
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:74652
+main.ts:74660
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:74673
+main.ts:74681
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologiesResultInfo`](DomainAnalyticsTechnologiesTechnologiesResultInfo.md)
+> **`static`** **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologiesResultInfo`](DomainAnalyticsTechnologiesTechnologiesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DomainAnalyticsTechnologiesTechnologiesResultInfo`](DomainAnalyticsTechnologiesTechnologiesResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:74666
+main.ts:74674

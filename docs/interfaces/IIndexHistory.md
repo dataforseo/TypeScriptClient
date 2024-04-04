@@ -1,71 +1,62 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IIndexHistory
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IIndexHistory
 
 # Interface: IIndexHistory
 
-## Implemented by
-
-- [`IndexHistory`](../classes/IndexHistory.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [date](IIndexHistory.md#date)
-- [total\_backlinks](IIndexHistory.md#total_backlinks)
-- [total\_domains](IIndexHistory.md#total_domains)
-- [total\_pages](IIndexHistory.md#total_pages)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### date
+### date?
 
-• `Optional` **date**: `string`
+> **`optional`** **date**: `string`
 
 date for which index volume data is provided
 in the UTC format: “yyyy-mm-dd”
 example:
 2021-10-01
 
-#### Defined in
+#### Source
 
-main.ts:134367
+main.ts:134375
 
-___
+***
 
-### total\_backlinks
+### total\_backlinks?
 
-• `Optional` **total\_backlinks**: `number`
+> **`optional`** **total\_backlinks**: `number`
 
 total number of backlinks our database contained on the given date
 
-#### Defined in
+#### Source
 
-main.ts:134369
+main.ts:134377
 
-___
+***
 
-### total\_domains
+### total\_domains?
 
-• `Optional` **total\_domains**: `number`
+> **`optional`** **total\_domains**: `number`
 
 total number of domains our database contained on the given date
 
-#### Defined in
+#### Source
 
-main.ts:134373
+main.ts:134381
 
-___
+***
 
-### total\_pages
+### total\_pages?
 
-• `Optional` **total\_pages**: `number`
+> **`optional`** **total\_pages**: `number`
 
 total number of pages our database contained on the given date
 
-#### Defined in
+#### Source
 
-main.ts:134371
+main.ts:134379

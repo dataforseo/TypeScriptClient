@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppsInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppsInfo
 
 # Class: AppsInfo
 
@@ -8,150 +12,124 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppsInfo.md#constructor)
-
-### Properties
-
-- [app\_id](AppsInfo.md#app_id)
-- [title](AppsInfo.md#title)
-- [url](AppsInfo.md#url)
-
-### Methods
-
-- [init](AppsInfo.md#init)
-- [toJSON](AppsInfo.md#tojson)
-- [fromJS](AppsInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppsInfo(data)
 
-• **new AppsInfo**(`data?`): [`AppsInfo`](AppsInfo.md)
+> **new AppsInfo**(`data`?): [`AppsInfo`](AppsInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppsInfo`](../interfaces/IAppsInfo.md) |
+• **data?**: [`IAppsInfo`](../interfaces/IAppsInfo.md)
 
 #### Returns
 
 [`AppsInfo`](AppsInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:185221
 
 ## Properties
 
-### app\_id
+### app\_id?
 
-• `Optional` **app\_id**: `string`
+> **`optional`** **app\_id**: `string`
 
 ID of the app
 
 #### Implementation of
 
-[IAppsInfo](../interfaces/IAppsInfo.md).[app_id](../interfaces/IAppsInfo.md#app_id)
+[`IAppsInfo`](../interfaces/IAppsInfo.md).[`app_id`](../interfaces/IAppsInfo.md#app_id)
 
-#### Defined in
+#### Source
 
 main.ts:185213
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the app
 
 #### Implementation of
 
-[IAppsInfo](../interfaces/IAppsInfo.md).[title](../interfaces/IAppsInfo.md#title)
+[`IAppsInfo`](../interfaces/IAppsInfo.md).[`title`](../interfaces/IAppsInfo.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:185215
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL to the app page on Google Play
 
 #### Implementation of
 
-[IAppsInfo](../interfaces/IAppsInfo.md).[url](../interfaces/IAppsInfo.md#url)
+[`IAppsInfo`](../interfaces/IAppsInfo.md).[`url`](../interfaces/IAppsInfo.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:185217
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:185230
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:185249
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppsInfo`](AppsInfo.md)
+> **`static`** **fromJS**(`data`): [`AppsInfo`](AppsInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppsInfo`](AppsInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:185242

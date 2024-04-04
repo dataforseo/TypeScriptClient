@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataGoogleHotelInfoTasksReadyResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataGoogleHotelInfoTasksReadyResultInfo
 
 # Class: BusinessDataGoogleHotelInfoTasksReadyResultInfo
 
@@ -8,203 +12,174 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataGoogleHotelInfoTasksReadyResultInfo.md#constructor)
-
-### Properties
-
-- [date\_posted](BusinessDataGoogleHotelInfoTasksReadyResultInfo.md#date_posted)
-- [endpoint\_advanced](BusinessDataGoogleHotelInfoTasksReadyResultInfo.md#endpoint_advanced)
-- [endpoint\_html](BusinessDataGoogleHotelInfoTasksReadyResultInfo.md#endpoint_html)
-- [id](BusinessDataGoogleHotelInfoTasksReadyResultInfo.md#id)
-- [se](BusinessDataGoogleHotelInfoTasksReadyResultInfo.md#se)
-- [tag](BusinessDataGoogleHotelInfoTasksReadyResultInfo.md#tag)
-
-### Methods
-
-- [init](BusinessDataGoogleHotelInfoTasksReadyResultInfo.md#init)
-- [toJSON](BusinessDataGoogleHotelInfoTasksReadyResultInfo.md#tojson)
-- [fromJS](BusinessDataGoogleHotelInfoTasksReadyResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataGoogleHotelInfoTasksReadyResultInfo(data)
 
-• **new BusinessDataGoogleHotelInfoTasksReadyResultInfo**(`data?`): [`BusinessDataGoogleHotelInfoTasksReadyResultInfo`](BusinessDataGoogleHotelInfoTasksReadyResultInfo.md)
+> **new BusinessDataGoogleHotelInfoTasksReadyResultInfo**(`data`?): [`BusinessDataGoogleHotelInfoTasksReadyResultInfo`](BusinessDataGoogleHotelInfoTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataGoogleHotelInfoTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleHotelInfoTasksReadyResultInfo.md) |
+• **data?**: [`IBusinessDataGoogleHotelInfoTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleHotelInfoTasksReadyResultInfo.md)
 
 #### Returns
 
 [`BusinessDataGoogleHotelInfoTasksReadyResultInfo`](BusinessDataGoogleHotelInfoTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:200562
 
 ## Properties
 
-### date\_posted
+### date\_posted?
 
-• `Optional` **date\_posted**: `string`
+> **`optional`** **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelInfoTasksReadyResultInfo](../interfaces/IBusinessDataGoogleHotelInfoTasksReadyResultInfo.md).[date_posted](../interfaces/IBusinessDataGoogleHotelInfoTasksReadyResultInfo.md#date_posted)
+[`IBusinessDataGoogleHotelInfoTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleHotelInfoTasksReadyResultInfo.md).[`date_posted`](../interfaces/IBusinessDataGoogleHotelInfoTasksReadyResultInfo.md#date_posted)
 
-#### Defined in
+#### Source
 
 main.ts:200552
 
-___
+***
 
-### endpoint\_advanced
+### endpoint\_advanced?
 
-• `Optional` **endpoint\_advanced**: `string`
+> **`optional`** **endpoint\_advanced**: `string`
 
 URL for collecting the results of the task
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelInfoTasksReadyResultInfo](../interfaces/IBusinessDataGoogleHotelInfoTasksReadyResultInfo.md).[endpoint_advanced](../interfaces/IBusinessDataGoogleHotelInfoTasksReadyResultInfo.md#endpoint_advanced)
+[`IBusinessDataGoogleHotelInfoTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleHotelInfoTasksReadyResultInfo.md).[`endpoint_advanced`](../interfaces/IBusinessDataGoogleHotelInfoTasksReadyResultInfo.md#endpoint_advanced)
 
-#### Defined in
+#### Source
 
 main.ts:200556
 
-___
+***
 
-### endpoint\_html
+### endpoint\_html?
 
-• `Optional` **endpoint\_html**: `string`
+> **`optional`** **endpoint\_html**: `string`
 
 URL for collecting the results of the task
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelInfoTasksReadyResultInfo](../interfaces/IBusinessDataGoogleHotelInfoTasksReadyResultInfo.md).[endpoint_html](../interfaces/IBusinessDataGoogleHotelInfoTasksReadyResultInfo.md#endpoint_html)
+[`IBusinessDataGoogleHotelInfoTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleHotelInfoTasksReadyResultInfo.md).[`endpoint_html`](../interfaces/IBusinessDataGoogleHotelInfoTasksReadyResultInfo.md#endpoint_html)
 
-#### Defined in
+#### Source
 
 main.ts:200558
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelInfoTasksReadyResultInfo](../interfaces/IBusinessDataGoogleHotelInfoTasksReadyResultInfo.md).[id](../interfaces/IBusinessDataGoogleHotelInfoTasksReadyResultInfo.md#id)
+[`IBusinessDataGoogleHotelInfoTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleHotelInfoTasksReadyResultInfo.md).[`id`](../interfaces/IBusinessDataGoogleHotelInfoTasksReadyResultInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:200547
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 can take the following values: google
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelInfoTasksReadyResultInfo](../interfaces/IBusinessDataGoogleHotelInfoTasksReadyResultInfo.md).[se](../interfaces/IBusinessDataGoogleHotelInfoTasksReadyResultInfo.md#se)
+[`IBusinessDataGoogleHotelInfoTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleHotelInfoTasksReadyResultInfo.md).[`se`](../interfaces/IBusinessDataGoogleHotelInfoTasksReadyResultInfo.md#se)
 
-#### Defined in
+#### Source
 
 main.ts:200550
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelInfoTasksReadyResultInfo](../interfaces/IBusinessDataGoogleHotelInfoTasksReadyResultInfo.md).[tag](../interfaces/IBusinessDataGoogleHotelInfoTasksReadyResultInfo.md#tag)
+[`IBusinessDataGoogleHotelInfoTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleHotelInfoTasksReadyResultInfo.md).[`tag`](../interfaces/IBusinessDataGoogleHotelInfoTasksReadyResultInfo.md#tag)
 
-#### Defined in
+#### Source
 
 main.ts:200554
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:200571
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:200593
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataGoogleHotelInfoTasksReadyResultInfo`](BusinessDataGoogleHotelInfoTasksReadyResultInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataGoogleHotelInfoTasksReadyResultInfo`](BusinessDataGoogleHotelInfoTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BusinessDataGoogleHotelInfoTasksReadyResultInfo`](BusinessDataGoogleHotelInfoTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:200586

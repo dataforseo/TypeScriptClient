@@ -1,86 +1,76 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoTrendsDemographyInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoTrendsDemographyInfo
 
 # Interface: IDataforseoTrendsDemographyInfo
 
-## Implemented by
-
-- [`DataforseoTrendsDemographyInfo`](../classes/DataforseoTrendsDemographyInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [demography](IDataforseoTrendsDemographyInfo.md#demography)
-- [demography\_comparison](IDataforseoTrendsDemographyInfo.md#demography_comparison)
-- [keywords](IDataforseoTrendsDemographyInfo.md#keywords)
-- [position](IDataforseoTrendsDemographyInfo.md#position)
-- [type](IDataforseoTrendsDemographyInfo.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### demography
+### demography?
 
-• `Optional` **demography**: [`Demography`](../classes/Demography.md)
+> **`optional`** **demography**: [`Demography`](../classes/Demography.md)
 
 demographic breakdown of keyword popularity data per each specified term
 conains keyword popularity data by age and gender
 
-#### Defined in
+#### Source
 
-main.ts:126577
+main.ts:126585
 
-___
+***
 
-### demography\_comparison
+### demography\_comparison?
 
-• `Optional` **demography\_comparison**: [`DemographyComparison`](../classes/DemographyComparison.md)
+> **`optional`** **demography\_comparison**: [`DemographyComparison`](../classes/DemographyComparison.md)
 
 comparison of demographic data on keyword popularity for the specified parameters
 conains keyword popularity data by age and gender
 if you specified a single keyword, the value will be null
 
-#### Defined in
+#### Source
 
-main.ts:126581
+main.ts:126589
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 relevant keywords
 the data included in the demography and demography_comparison is based on the keywords listed in this array
 
-#### Defined in
+#### Source
 
-main.ts:126574
+main.ts:126582
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `number`
+> **`optional`** **position**: `number`
 
 the alignment of the element
 can take the following values: 1, 2, 3, 4, etc.
 
-#### Defined in
+#### Source
 
-main.ts:126569
+main.ts:126577
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:126571
+main.ts:126579

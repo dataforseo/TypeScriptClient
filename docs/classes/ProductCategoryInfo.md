@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ProductCategoryInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ProductCategoryInfo
 
 # Class: ProductCategoryInfo
 
@@ -8,134 +12,109 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ProductCategoryInfo.md#constructor)
-
-### Properties
-
-- [category](ProductCategoryInfo.md#category)
-- [url](ProductCategoryInfo.md#url)
-
-### Methods
-
-- [init](ProductCategoryInfo.md#init)
-- [toJSON](ProductCategoryInfo.md#tojson)
-- [fromJS](ProductCategoryInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ProductCategoryInfo(data)
 
-• **new ProductCategoryInfo**(`data?`): [`ProductCategoryInfo`](ProductCategoryInfo.md)
+> **new ProductCategoryInfo**(`data`?): [`ProductCategoryInfo`](ProductCategoryInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IProductCategoryInfo`](../interfaces/IProductCategoryInfo.md) |
+• **data?**: [`IProductCategoryInfo`](../interfaces/IProductCategoryInfo.md)
 
 #### Returns
 
 [`ProductCategoryInfo`](ProductCategoryInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:177838
 
 ## Properties
 
-### category
+### category?
 
-• `Optional` **category**: `string`
+> **`optional`** **category**: `string`
 
 product category name
 
 #### Implementation of
 
-[IProductCategoryInfo](../interfaces/IProductCategoryInfo.md).[category](../interfaces/IProductCategoryInfo.md#category)
+[`IProductCategoryInfo`](../interfaces/IProductCategoryInfo.md).[`category`](../interfaces/IProductCategoryInfo.md#category)
 
-#### Defined in
+#### Source
 
 main.ts:177831
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 product category URL
 indicates the browse path on Amazon with the unique browse node ID (product category ID on Amazon)
 
 #### Implementation of
 
-[IProductCategoryInfo](../interfaces/IProductCategoryInfo.md).[url](../interfaces/IProductCategoryInfo.md#url)
+[`IProductCategoryInfo`](../interfaces/IProductCategoryInfo.md).[`url`](../interfaces/IProductCategoryInfo.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:177834
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:177847
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:177865
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ProductCategoryInfo`](ProductCategoryInfo.md)
+> **`static`** **fromJS**(`data`): [`ProductCategoryInfo`](ProductCategoryInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ProductCategoryInfo`](ProductCategoryInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:177858

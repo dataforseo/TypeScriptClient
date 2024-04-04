@@ -1,299 +1,272 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDatasetSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDatasetSerpElementItem
 
 # Interface: IDatasetSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
 
-  ↳ **`IDatasetSerpElementItem`**
-
-## Implemented by
-
-- [`DatasetSerpElementItem`](../classes/DatasetSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [area\_covered](IDatasetSerpElementItem.md#area_covered)
-- [authors](IDatasetSerpElementItem.md#authors)
-- [dataset\_description](IDatasetSerpElementItem.md#dataset_description)
-- [dataset\_id](IDatasetSerpElementItem.md#dataset_id)
-- [dataset\_providers](IDatasetSerpElementItem.md#dataset_providers)
-- [formats](IDatasetSerpElementItem.md#formats)
-- [image\_url](IDatasetSerpElementItem.md#image_url)
-- [licenses](IDatasetSerpElementItem.md#licenses)
-- [links](IDatasetSerpElementItem.md#links)
-- [period\_covered](IDatasetSerpElementItem.md#period_covered)
-- [position](IDatasetSerpElementItem.md#position)
-- [rank\_absolute](IDatasetSerpElementItem.md#rank_absolute)
-- [rank\_group](IDatasetSerpElementItem.md#rank_group)
-- [related\_article](IDatasetSerpElementItem.md#related_article)
-- [scholarly\_articles\_url](IDatasetSerpElementItem.md#scholarly_articles_url)
-- [scholarly\_citations\_count](IDatasetSerpElementItem.md#scholarly_citations_count)
-- [title](IDatasetSerpElementItem.md#title)
-- [unique\_identifier](IDatasetSerpElementItem.md#unique_identifier)
-- [updated\_date](IDatasetSerpElementItem.md#updated_date)
-- [xpath](IDatasetSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### area\_covered
+### area\_covered?
 
-• `Optional` **area\_covered**: `string`[]
+> **`optional`** **area\_covered**: `string`[]
 
 the list of areas covered in the dataset
 for example: Africa, Global
 
-#### Defined in
+#### Source
 
-main.ts:53444
+main.ts:53452
 
-___
+***
 
-### authors
+### authors?
 
-• `Optional` **authors**: [`AuthorsElement`](../classes/AuthorsElement.md)[]
+> **`optional`** **authors**: [`AuthorsElement`](../classes/AuthorsElement.md)[]
 
 the list of authors of the dataset
 
-#### Defined in
+#### Source
 
-main.ts:53434
+main.ts:53442
 
-___
+***
 
-### dataset\_description
+### dataset\_description?
 
-• `Optional` **dataset\_description**: [`DatasetDescription`](../classes/DatasetDescription.md)
+> **`optional`** **dataset\_description**: [`DatasetDescription`](../classes/DatasetDescription.md)
 
 description of the dataset
 
-#### Defined in
+#### Source
 
-main.ts:53448
+main.ts:53456
 
-___
+***
 
-### dataset\_id
+### dataset\_id?
 
-• `Optional` **dataset\_id**: `string`
+> **`optional`** **dataset\_id**: `string`
 
 ID of the dataset
 
-#### Defined in
+#### Source
 
-main.ts:53406
+main.ts:53414
 
-___
+***
 
-### dataset\_providers
+### dataset\_providers?
 
-• `Optional` **dataset\_providers**: [`LicensesElement`](../classes/LicensesElement.md)[]
+> **`optional`** **dataset\_providers**: [`LicensesElement`](../classes/LicensesElement.md)[]
 
 the list of institutions that provided the dataset
 
-#### Defined in
+#### Source
 
-main.ts:53430
+main.ts:53438
 
-___
+***
 
-### formats
+### formats?
 
-• `Optional` **formats**: [`FormatsElement`](../classes/FormatsElement.md)[]
+> **`optional`** **formats**: [`FormatsElement`](../classes/FormatsElement.md)[]
 
 the list of file formats of the dataset
 
-#### Defined in
+#### Source
 
-main.ts:53432
+main.ts:53440
 
-___
+***
 
-### image\_url
+### image\_url?
 
-• `Optional` **image\_url**: `string`
+> **`optional`** **image\_url**: `string`
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
 
-#### Defined in
+#### Source
 
-main.ts:53411
+main.ts:53419
 
-___
+***
 
-### licenses
+### licenses?
 
-• `Optional` **licenses**: [`LicensesElement`](../classes/LicensesElement.md)[]
+> **`optional`** **licenses**: [`LicensesElement`](../classes/LicensesElement.md)[]
 
 the list of licenses issued to the dataset
 
-#### Defined in
+#### Source
 
-main.ts:53436
+main.ts:53444
 
-___
+***
 
-### links
+### links?
 
-• `Optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
+> **`optional`** **links**: [`LinkElement`](../classes/LinkElement.md)[]
 
 sitelinks
 the links shown below some of Google Dataset’s search results
 if there are none, equals null
 
-#### Defined in
+#### Source
 
-main.ts:53428
+main.ts:53436
 
-___
+***
 
-### period\_covered
+### period\_covered?
 
-• `Optional` **period\_covered**: [`PeriodCovered`](../classes/PeriodCovered.md)
+> **`optional`** **period\_covered**: [`PeriodCovered`](../classes/PeriodCovered.md)
 
 period covered in the dataset
 
-#### Defined in
+#### Source
 
-main.ts:53446
+main.ts:53454
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
-main.ts:53402
+main.ts:53410
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Defined in
+#### Source
 
-main.ts:53398
+main.ts:53406
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
-main.ts:53395
+main.ts:53403
 
-___
+***
 
-### related\_article
+### related\_article?
 
-• `Optional` **related\_article**: `string`
+> **`optional`** **related\_article**: `string`
 
 link to related article
 link to the published article that is related to the dataset
 
-#### Defined in
+#### Source
 
-main.ts:53424
+main.ts:53432
 
-___
+***
 
-### scholarly\_articles\_url
+### scholarly\_articles\_url?
 
-• `Optional` **scholarly\_articles\_url**: `string`
+> **`optional`** **scholarly\_articles\_url**: `string`
 
 url of scholarly articles
 link to the list of scholarly articles on Google Scholar
 example: https://scholar.google.com/scholar?q=%2210.6084%20m9%20figshare%207427933%20v1%22
 
-#### Defined in
+#### Source
 
-main.ts:53417
+main.ts:53425
 
-___
+***
 
-### scholarly\_citations\_count
+### scholarly\_citations\_count?
 
-• `Optional` **scholarly\_citations\_count**: `number`
+> **`optional`** **scholarly\_citations\_count**: `number`
 
 count of articles that refer to the dataset
 
-#### Defined in
+#### Source
 
-main.ts:53413
+main.ts:53421
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the result in SERP
 
-#### Defined in
+#### Source
 
-main.ts:53408
+main.ts:53416
 
-___
+***
 
-### unique\_identifier
+### unique\_identifier?
 
-• `Optional` **unique\_identifier**: `string`
+> **`optional`** **unique\_identifier**: `string`
 
 digital identifier of an object
 unique digital identifier of the dataset
 example: https://doi.org/10.5061/dryad.hmgqnk9m3
 
-#### Defined in
+#### Source
 
-main.ts:53421
+main.ts:53429
 
-___
+***
 
-### updated\_date
+### updated\_date?
 
-• `Optional` **updated\_date**: `string`
+> **`optional`** **updated\_date**: `string`
 
 date and time when the result was last updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2022-11-27 02:00:00 +00:00
 
-#### Defined in
+#### Source
 
-main.ts:53441
+main.ts:53449
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
-main.ts:53404
+main.ts:53412

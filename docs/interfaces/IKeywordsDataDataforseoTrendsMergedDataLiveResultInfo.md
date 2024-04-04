@@ -1,112 +1,100 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo
 
 # Interface: IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo
 
-## Implemented by
-
-- [`KeywordsDataDataforseoTrendsMergedDataLiveResultInfo`](../classes/KeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [datetime](IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md#datetime)
-- [items](IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md#items)
-- [items\_count](IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md#items_count)
-- [keywords](IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md#keywords)
-- [language\_code](IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md#language_code)
-- [location\_code](IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md#location_code)
-- [type](IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
-main.ts:127171
+main.ts:127179
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseDataforseoTrendsItem`](../classes/BaseDataforseoTrendsItem.md)[]
+> **`optional`** **items**: [`BaseDataforseoTrendsItem`](../classes/BaseDataforseoTrendsItem.md)[]
 
 contains keyword popularity and related data
 
-#### Defined in
+#### Source
 
-main.ts:127175
+main.ts:127183
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Defined in
+#### Source
 
-main.ts:127173
+main.ts:127181
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 keywords in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:127158
+main.ts:127166
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 if there is no data, then the value is null
 
-#### Defined in
+#### Source
 
-main.ts:127166
+main.ts:127174
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 if there is no data, then the value is null
 
-#### Defined in
+#### Source
 
-main.ts:127163
+main.ts:127171
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:127160
+main.ts:127168

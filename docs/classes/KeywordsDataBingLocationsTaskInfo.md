@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataBingLocationsTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataBingLocationsTaskInfo
 
 # Class: KeywordsDataBingLocationsTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`KeywordsDataBingLocationsTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataBingLocationsTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](KeywordsDataBingLocationsTaskInfo.md#cost)
-- [data](KeywordsDataBingLocationsTaskInfo.md#data)
-- [id](KeywordsDataBingLocationsTaskInfo.md#id)
-- [path](KeywordsDataBingLocationsTaskInfo.md#path)
-- [result](KeywordsDataBingLocationsTaskInfo.md#result)
-- [result\_count](KeywordsDataBingLocationsTaskInfo.md#result_count)
-- [status\_code](KeywordsDataBingLocationsTaskInfo.md#status_code)
-- [status\_message](KeywordsDataBingLocationsTaskInfo.md#status_message)
-- [time](KeywordsDataBingLocationsTaskInfo.md#time)
-
-### Methods
-
-- [init](KeywordsDataBingLocationsTaskInfo.md#init)
-- [toJSON](KeywordsDataBingLocationsTaskInfo.md#tojson)
-- [fromJS](KeywordsDataBingLocationsTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordsDataBingLocationsTaskInfo(data)
 
-• **new KeywordsDataBingLocationsTaskInfo**(`data?`): [`KeywordsDataBingLocationsTaskInfo`](KeywordsDataBingLocationsTaskInfo.md)
+> **new KeywordsDataBingLocationsTaskInfo**(`data`?): [`KeywordsDataBingLocationsTaskInfo`](KeywordsDataBingLocationsTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordsDataBingLocationsTaskInfo`](../interfaces/IKeywordsDataBingLocationsTaskInfo.md) |
+• **data?**: [`IKeywordsDataBingLocationsTaskInfo`](../interfaces/IKeywordsDataBingLocationsTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:127382
+main.ts:127390
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IKeywordsDataBingLocationsTaskInfo](../interfaces/IKeywordsDataBingLocationsTaskInfo.md).[cost](../interfaces/IKeywordsDataBingLocationsTaskInfo.md#cost)
+[`IKeywordsDataBingLocationsTaskInfo`](../interfaces/IKeywordsDataBingLocationsTaskInfo.md).[`cost`](../interfaces/IKeywordsDataBingLocationsTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[IKeywordsDataBingLocationsTaskInfo](../interfaces/IKeywordsDataBingLocationsTaskInfo.md).[data](../interfaces/IKeywordsDataBingLocationsTaskInfo.md#data)
+[`IKeywordsDataBingLocationsTaskInfo`](../interfaces/IKeywordsDataBingLocationsTaskInfo.md).[`data`](../interfaces/IKeywordsDataBingLocationsTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IKeywordsDataBingLocationsTaskInfo](../interfaces/IKeywordsDataBingLocationsTaskInfo.md).[id](../interfaces/IKeywordsDataBingLocationsTaskInfo.md#id)
+[`IKeywordsDataBingLocationsTaskInfo`](../interfaces/IKeywordsDataBingLocationsTaskInfo.md).[`id`](../interfaces/IKeywordsDataBingLocationsTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[IKeywordsDataBingLocationsTaskInfo](../interfaces/IKeywordsDataBingLocationsTaskInfo.md).[path](../interfaces/IKeywordsDataBingLocationsTaskInfo.md#path)
+[`IKeywordsDataBingLocationsTaskInfo`](../interfaces/IKeywordsDataBingLocationsTaskInfo.md).[`path`](../interfaces/IKeywordsDataBingLocationsTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`KeywordsDataBingLocationsResultInfo`](KeywordsDataBingLocationsResultInfo.md)[]
+> **`optional`** **result**: [`KeywordsDataBingLocationsResultInfo`](KeywordsDataBingLocationsResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[IKeywordsDataBingLocationsTaskInfo](../interfaces/IKeywordsDataBingLocationsTaskInfo.md).[result](../interfaces/IKeywordsDataBingLocationsTaskInfo.md#result)
+[`IKeywordsDataBingLocationsTaskInfo`](../interfaces/IKeywordsDataBingLocationsTaskInfo.md).[`result`](../interfaces/IKeywordsDataBingLocationsTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:127378
+main.ts:127386
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[IKeywordsDataBingLocationsTaskInfo](../interfaces/IKeywordsDataBingLocationsTaskInfo.md).[result_count](../interfaces/IKeywordsDataBingLocationsTaskInfo.md#result_count)
+[`IKeywordsDataBingLocationsTaskInfo`](../interfaces/IKeywordsDataBingLocationsTaskInfo.md).[`result_count`](../interfaces/IKeywordsDataBingLocationsTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[IKeywordsDataBingLocationsTaskInfo](../interfaces/IKeywordsDataBingLocationsTaskInfo.md).[status_code](../interfaces/IKeywordsDataBingLocationsTaskInfo.md#status_code)
+[`IKeywordsDataBingLocationsTaskInfo`](../interfaces/IKeywordsDataBingLocationsTaskInfo.md).[`status_code`](../interfaces/IKeywordsDataBingLocationsTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IKeywordsDataBingLocationsTaskInfo](../interfaces/IKeywordsDataBingLocationsTaskInfo.md).[status_message](../interfaces/IKeywordsDataBingLocationsTaskInfo.md#status_message)
+[`IKeywordsDataBingLocationsTaskInfo`](../interfaces/IKeywordsDataBingLocationsTaskInfo.md).[`status_message`](../interfaces/IKeywordsDataBingLocationsTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[IKeywordsDataBingLocationsTaskInfo](../interfaces/IKeywordsDataBingLocationsTaskInfo.md).[time](../interfaces/IKeywordsDataBingLocationsTaskInfo.md#time)
+[`IKeywordsDataBingLocationsTaskInfo`](../interfaces/IKeywordsDataBingLocationsTaskInfo.md).[`time`](../interfaces/IKeywordsDataBingLocationsTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:127386
+main.ts:127394
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:127408
+main.ts:127416
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordsDataBingLocationsTaskInfo`](KeywordsDataBingLocationsTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordsDataBingLocationsTaskInfo`](KeywordsDataBingLocationsTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:127401
+main.ts:127409

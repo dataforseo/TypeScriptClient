@@ -1,232 +1,211 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo
 
 # Interface: ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo
 
-## Implemented by
-
-- [`SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo`](../classes/SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [category](ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#category)
-- [check\_url](ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#check_url)
-- [datetime](ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#datetime)
-- [item\_types](ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#item_types)
-- [items](ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#items)
-- [items\_count](ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#items_count)
-- [language\_code](ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#language_code)
-- [location\_code](ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#location_code)
-- [origin\_language](ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#origin_language)
-- [se\_domain](ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#se_domain)
-- [spell](ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#spell)
-- [subtitles\_count](ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#subtitles_count)
-- [title](ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#title)
-- [translate\_language](ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#translate_language)
-- [unsupported\_language](ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#unsupported_language)
-- [video\_id](ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#video_id)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### category
+### category?
 
-• `Optional` **category**: `string`
+> **`optional`** **category**: `string`
 
 the category the video belongs to
 
-#### Defined in
+#### Source
 
-main.ts:62836
+main.ts:62844
 
-___
+***
 
-### check\_url
+### check\_url?
 
-• `Optional` **check\_url**: `string`
+> **`optional`** **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
 
-#### Defined in
+#### Source
 
-main.ts:62815
+main.ts:62823
 
-___
+***
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
-main.ts:62820
+main.ts:62828
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
 possible item:
 youtube_subtitles
 
-#### Defined in
+#### Source
 
-main.ts:62828
+main.ts:62836
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
+> **`optional`** **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
 
 elements of search results found in SERP
 
-#### Defined in
+#### Source
 
-main.ts:62844
+main.ts:62852
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Defined in
+#### Source
 
-main.ts:62842
+main.ts:62850
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:62812
+main.ts:62820
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:62810
+main.ts:62818
 
-___
+***
 
-### origin\_language
+### origin\_language?
 
-• `Optional` **origin\_language**: `string`
+> **`optional`** **origin\_language**: `string`
 
 language code of original text
 
-#### Defined in
+#### Source
 
-main.ts:62834
+main.ts:62842
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:62808
+main.ts:62816
 
-___
+***
 
-### spell
+### spell?
 
-• `Optional` **spell**: [`SpellInfo`](../classes/SpellInfo.md)
+> **`optional`** **spell**: [`SpellInfo`](../classes/SpellInfo.md)
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
 
-#### Defined in
+#### Source
 
-main.ts:62823
+main.ts:62831
 
-___
+***
 
-### subtitles\_count
+### subtitles\_count?
 
-• `Optional` **subtitles\_count**: `number`
+> **`optional`** **subtitles\_count**: `number`
 
 number of subtitles in the video
 
-#### Defined in
+#### Source
 
-main.ts:62838
+main.ts:62846
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the video
 
-#### Defined in
+#### Source
 
-main.ts:62840
+main.ts:62848
 
-___
+***
 
-### translate\_language
+### translate\_language?
 
-• `Optional` **translate\_language**: `string`
+> **`optional`** **translate\_language**: `string`
 
 language code of translated text
 
-#### Defined in
+#### Source
 
-main.ts:62832
+main.ts:62840
 
-___
+***
 
-### unsupported\_language
+### unsupported\_language?
 
-• `Optional` **unsupported\_language**: `boolean`
+> **`optional`** **unsupported\_language**: `boolean`
 
 indicates whether the language is unsupported by the system
 
-#### Defined in
+#### Source
 
-main.ts:62830
+main.ts:62838
 
-___
+***
 
-### video\_id
+### video\_id?
 
-• `Optional` **video\_id**: `string`
+> **`optional`** **video\_id**: `string`
 
 ID of the video received in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:62806
+main.ts:62814

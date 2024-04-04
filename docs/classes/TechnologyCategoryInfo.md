@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / TechnologyCategoryInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / TechnologyCategoryInfo
 
 # Class: TechnologyCategoryInfo
 
@@ -8,52 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](TechnologyCategoryInfo.md#constructor)
-
-### Properties
-
-- [id](TechnologyCategoryInfo.md#id)
-- [path](TechnologyCategoryInfo.md#path)
-- [technologies](TechnologyCategoryInfo.md#technologies)
-- [title](TechnologyCategoryInfo.md#title)
-
-### Methods
-
-- [init](TechnologyCategoryInfo.md#init)
-- [toJSON](TechnologyCategoryInfo.md#tojson)
-- [fromJS](TechnologyCategoryInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new TechnologyCategoryInfo(data)
 
-• **new TechnologyCategoryInfo**(`data?`): [`TechnologyCategoryInfo`](TechnologyCategoryInfo.md)
+> **new TechnologyCategoryInfo**(`data`?): [`TechnologyCategoryInfo`](TechnologyCategoryInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ITechnologyCategoryInfo`](../interfaces/ITechnologyCategoryInfo.md) |
+• **data?**: [`ITechnologyCategoryInfo`](../interfaces/ITechnologyCategoryInfo.md)
 
 #### Returns
 
 [`TechnologyCategoryInfo`](TechnologyCategoryInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:74493
+main.ts:74501
 
 ## Properties
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 id of the technology category
 example:
@@ -61,17 +44,17 @@ crm, cart_abandonment
 
 #### Implementation of
 
-[ITechnologyCategoryInfo](../interfaces/ITechnologyCategoryInfo.md).[id](../interfaces/ITechnologyCategoryInfo.md#id)
+[`ITechnologyCategoryInfo`](../interfaces/ITechnologyCategoryInfo.md).[`id`](../interfaces/ITechnologyCategoryInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:74479
+main.ts:74487
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`
+> **`optional`** **path**: `string`
 
 path to the technology category
 example:
@@ -79,17 +62,17 @@ user_generated_content.content_curation
 
 #### Implementation of
 
-[ITechnologyCategoryInfo](../interfaces/ITechnologyCategoryInfo.md).[path](../interfaces/ITechnologyCategoryInfo.md#path)
+[`ITechnologyCategoryInfo`](../interfaces/ITechnologyCategoryInfo.md).[`path`](../interfaces/ITechnologyCategoryInfo.md#path)
 
-#### Defined in
+#### Source
 
-main.ts:74483
+main.ts:74491
 
-___
+***
 
-### technologies
+### technologies?
 
-• `Optional` **technologies**: `string`[]
+> **`optional`** **technologies**: `string`[]
 
 list of technologies in this category
 example:
@@ -97,84 +80,78 @@ example:
 
 #### Implementation of
 
-[ITechnologyCategoryInfo](../interfaces/ITechnologyCategoryInfo.md).[technologies](../interfaces/ITechnologyCategoryInfo.md#technologies)
+[`ITechnologyCategoryInfo`](../interfaces/ITechnologyCategoryInfo.md).[`technologies`](../interfaces/ITechnologyCategoryInfo.md#technologies)
 
-#### Defined in
+#### Source
 
-main.ts:74489
+main.ts:74497
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the technology category
 
 #### Implementation of
 
-[ITechnologyCategoryInfo](../interfaces/ITechnologyCategoryInfo.md).[title](../interfaces/ITechnologyCategoryInfo.md#title)
+[`ITechnologyCategoryInfo`](../interfaces/ITechnologyCategoryInfo.md).[`title`](../interfaces/ITechnologyCategoryInfo.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:74485
+main.ts:74493
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:74502
+main.ts:74510
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:74526
+main.ts:74534
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`TechnologyCategoryInfo`](TechnologyCategoryInfo.md)
+> **`static`** **fromJS**(`data`): [`TechnologyCategoryInfo`](TechnologyCategoryInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`TechnologyCategoryInfo`](TechnologyCategoryInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:74519
+main.ts:74527

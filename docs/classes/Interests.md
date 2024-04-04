@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / Interests
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / Interests
 
 # Class: Interests
 
@@ -8,134 +12,109 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](Interests.md#constructor)
-
-### Properties
-
-- [keyword](Interests.md#keyword)
-- [values](Interests.md#values)
-
-### Methods
-
-- [init](Interests.md#init)
-- [toJSON](Interests.md#tojson)
-- [fromJS](Interests.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new Interests(data)
 
-• **new Interests**(`data?`): [`Interests`](Interests.md)
+> **new Interests**(`data`?): [`Interests`](Interests.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IInterests`](../interfaces/IInterests.md) |
+• **data?**: [`IInterests`](../interfaces/IInterests.md)
 
 #### Returns
 
 [`Interests`](Interests.md)
 
-#### Defined in
+#### Source
 
-main.ts:125495
+main.ts:125503
 
 ## Properties
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 relevant keyword
 the data included in the values element is based on this keyword
 
 #### Implementation of
 
-[IInterests](../interfaces/IInterests.md).[keyword](../interfaces/IInterests.md#keyword)
+[`IInterests`](../interfaces/IInterests.md).[`keyword`](../interfaces/IInterests.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:125489
+main.ts:125497
 
-___
+***
 
-### values
+### values?
 
-• `Optional` **values**: [`Values`](Values.md)[]
+> **`optional`** **values**: [`Values`](Values.md)[]
 
 contains data on relative keyword popularity by country or region
 
 #### Implementation of
 
-[IInterests](../interfaces/IInterests.md).[values](../interfaces/IInterests.md#values)
+[`IInterests`](../interfaces/IInterests.md).[`values`](../interfaces/IInterests.md#values)
 
-#### Defined in
+#### Source
 
-main.ts:125491
+main.ts:125499
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:125504
+main.ts:125512
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:125526
+main.ts:125534
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`Interests`](Interests.md)
+> **`static`** **fromJS**(`data`): [`Interests`](Interests.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`Interests`](Interests.md)
 
-#### Defined in
+#### Source
 
-main.ts:125519
+main.ts:125527

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / Table
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / Table
 
 # Class: Table
 
@@ -8,68 +12,48 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](Table.md#constructor)
-
-### Properties
-
-- [table\_content](Table.md#table_content)
-- [table\_element](Table.md#table_element)
-- [table\_header](Table.md#table_header)
-
-### Methods
-
-- [init](Table.md#init)
-- [toJSON](Table.md#tojson)
-- [fromJS](Table.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new Table(data)
 
-• **new Table**(`data?`): [`Table`](Table.md)
+> **new Table**(`data`?): [`Table`](Table.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ITable`](../interfaces/ITable.md) |
+• **data?**: [`ITable`](../interfaces/ITable.md)
 
 #### Returns
 
 [`Table`](Table.md)
 
-#### Defined in
+#### Source
 
 main.ts:21757
 
 ## Properties
 
-### table\_content
+### table\_content?
 
-• `Optional` **table\_content**: `string`[][]
+> **`optional`** **table\_content**: `string`[][]
 
 the content of the table
 one line of the table in this element of the array
 
 #### Implementation of
 
-[ITable](../interfaces/ITable.md).[table_content](../interfaces/ITable.md#table_content)
+[`ITable`](../interfaces/ITable.md).[`table_content`](../interfaces/ITable.md#table_content)
 
-#### Defined in
+#### Source
 
 main.ts:21753
 
-___
+***
 
-### table\_element
+### table\_element?
 
-• `Optional` **table\_element**: `string`
+> **`optional`** **table\_element**: `string`
 
 name assigned to the table element
 possible values:
@@ -77,84 +61,78 @@ table_element
 
 #### Implementation of
 
-[ITable](../interfaces/ITable.md).[table_element](../interfaces/ITable.md#table_element)
+[`ITable`](../interfaces/ITable.md).[`table_element`](../interfaces/ITable.md#table_element)
 
-#### Defined in
+#### Source
 
 main.ts:21748
 
-___
+***
 
-### table\_header
+### table\_header?
 
-• `Optional` **table\_header**: `string`[]
+> **`optional`** **table\_header**: `string`[]
 
 column names
 
 #### Implementation of
 
-[ITable](../interfaces/ITable.md).[table_header](../interfaces/ITable.md#table_header)
+[`ITable`](../interfaces/ITable.md).[`table_header`](../interfaces/ITable.md#table_header)
 
-#### Defined in
+#### Source
 
 main.ts:21750
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:21766
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:21793
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`Table`](Table.md)
+> **`static`** **fromJS**(`data`): [`Table`](Table.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`Table`](Table.md)
 
-#### Defined in
+#### Source
 
 main.ts:21786

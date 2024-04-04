@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MapsSearchBusinessDataSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / MapsSearchBusinessDataSerpElementItem
 
 # Class: MapsSearchBusinessDataSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)
-
-  ↳ **`MapsSearchBusinessDataSerpElementItem`**
 
 ## Implements
 
@@ -14,62 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](MapsSearchBusinessDataSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](MapsSearchBusinessDataSerpElementItem.md#_discriminator)
-- [additional\_categories](MapsSearchBusinessDataSerpElementItem.md#additional_categories)
-- [address](MapsSearchBusinessDataSerpElementItem.md#address)
-- [address\_info](MapsSearchBusinessDataSerpElementItem.md#address_info)
-- [category](MapsSearchBusinessDataSerpElementItem.md#category)
-- [category\_ids](MapsSearchBusinessDataSerpElementItem.md#category_ids)
-- [cid](MapsSearchBusinessDataSerpElementItem.md#cid)
-- [domain](MapsSearchBusinessDataSerpElementItem.md#domain)
-- [feature\_id](MapsSearchBusinessDataSerpElementItem.md#feature_id)
-- [hotel\_rating](MapsSearchBusinessDataSerpElementItem.md#hotel_rating)
-- [is\_claimed](MapsSearchBusinessDataSerpElementItem.md#is_claimed)
-- [is\_directory\_item](MapsSearchBusinessDataSerpElementItem.md#is_directory_item)
-- [latitude](MapsSearchBusinessDataSerpElementItem.md#latitude)
-- [local\_justifications](MapsSearchBusinessDataSerpElementItem.md#local_justifications)
-- [longitude](MapsSearchBusinessDataSerpElementItem.md#longitude)
-- [main\_image](MapsSearchBusinessDataSerpElementItem.md#main_image)
-- [phone](MapsSearchBusinessDataSerpElementItem.md#phone)
-- [place\_id](MapsSearchBusinessDataSerpElementItem.md#place_id)
-- [price\_level](MapsSearchBusinessDataSerpElementItem.md#price_level)
-- [rank\_absolute](MapsSearchBusinessDataSerpElementItem.md#rank_absolute)
-- [rank\_group](MapsSearchBusinessDataSerpElementItem.md#rank_group)
-- [rating](MapsSearchBusinessDataSerpElementItem.md#rating)
-- [rating\_distribution](MapsSearchBusinessDataSerpElementItem.md#rating_distribution)
-- [snippet](MapsSearchBusinessDataSerpElementItem.md#snippet)
-- [title](MapsSearchBusinessDataSerpElementItem.md#title)
-- [total\_photos](MapsSearchBusinessDataSerpElementItem.md#total_photos)
-- [url](MapsSearchBusinessDataSerpElementItem.md#url)
-- [work\_hours](MapsSearchBusinessDataSerpElementItem.md#work_hours)
-
-### Methods
-
-- [init](MapsSearchBusinessDataSerpElementItem.md#init)
-- [toJSON](MapsSearchBusinessDataSerpElementItem.md#tojson)
-- [fromJS](MapsSearchBusinessDataSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new MapsSearchBusinessDataSerpElementItem(data)
 
-• **new MapsSearchBusinessDataSerpElementItem**(`data?`): [`MapsSearchBusinessDataSerpElementItem`](MapsSearchBusinessDataSerpElementItem.md)
+> **new MapsSearchBusinessDataSerpElementItem**(`data`?): [`MapsSearchBusinessDataSerpElementItem`](MapsSearchBusinessDataSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IMapsSearchBusinessDataSerpElementItem`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md) |
+• **data?**: [`IMapsSearchBusinessDataSerpElementItem`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md)
 
 #### Returns
 
@@ -77,9 +34,9 @@
 
 #### Overrides
 
-[BaseBusinessDataSerpElementItem](BaseBusinessDataSerpElementItem.md).[constructor](BaseBusinessDataSerpElementItem.md#constructor)
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`constructor`](BaseBusinessDataSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:196547
 
@@ -87,104 +44,104 @@ main.ts:196547
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseBusinessDataSerpElementItem](BaseBusinessDataSerpElementItem.md).[_discriminator](BaseBusinessDataSerpElementItem.md#_discriminator)
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`_discriminator`](BaseBusinessDataSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:20532
 
-___
+***
 
-### additional\_categories
+### additional\_categories?
 
-• `Optional` **additional\_categories**: `string`[]
+> **`optional`** **additional\_categories**: `string`[]
 
 additional business categories
 additional Google My Business categories that describe the services provided by the business entity in more detail
 
 #### Implementation of
 
-[IMapsSearchBusinessDataSerpElementItem](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[additional_categories](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#additional_categories)
+[`IMapsSearchBusinessDataSerpElementItem`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[`additional_categories`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#additional_categories)
 
-#### Defined in
+#### Source
 
 main.ts:196503
 
-___
+***
 
-### address
+### address?
 
-• `Optional` **address**: `string`
+> **`optional`** **address**: `string`
 
 address of the business entity
 
 #### Implementation of
 
-[IMapsSearchBusinessDataSerpElementItem](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[address](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#address)
+[`IMapsSearchBusinessDataSerpElementItem`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[`address`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#address)
 
-#### Defined in
+#### Source
 
 main.ts:196485
 
-___
+***
 
-### address\_info
+### address\_info?
 
-• `Optional` **address\_info**: [`AddressInfo`](AddressInfo.md)
+> **`optional`** **address\_info**: [`AddressInfo`](AddressInfo.md)
 
 object containing address components of the business entity
 
 #### Implementation of
 
-[IMapsSearchBusinessDataSerpElementItem](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[address_info](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#address_info)
+[`IMapsSearchBusinessDataSerpElementItem`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[`address_info`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#address_info)
 
-#### Defined in
+#### Source
 
 main.ts:196487
 
-___
+***
 
-### category
+### category?
 
-• `Optional` **category**: `string`
+> **`optional`** **category**: `string`
 
 business category
 Google My Business general category that best describes the services provided by the business entity
 
 #### Implementation of
 
-[IMapsSearchBusinessDataSerpElementItem](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[category](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#category)
+[`IMapsSearchBusinessDataSerpElementItem`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[`category`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#category)
 
-#### Defined in
+#### Source
 
 main.ts:196500
 
-___
+***
 
-### category\_ids
+### category\_ids?
 
-• `Optional` **category\_ids**: `string`[]
+> **`optional`** **category\_ids**: `string`[]
 
 global category IDs
 universal category IDs that do not change based on the selected country
 
 #### Implementation of
 
-[IMapsSearchBusinessDataSerpElementItem](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[category_ids](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#category_ids)
+[`IMapsSearchBusinessDataSerpElementItem`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[`category_ids`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#category_ids)
 
-#### Defined in
+#### Source
 
 main.ts:196514
 
-___
+***
 
-### cid
+### cid?
 
-• `Optional` **cid**: `string`
+> **`optional`** **cid**: `string`
 
 google-defined client id
 unique id of a local establishment;
@@ -193,50 +150,50 @@ learn more about the identifier in this help center article
 
 #### Implementation of
 
-[IMapsSearchBusinessDataSerpElementItem](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[cid](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#cid)
+[`IMapsSearchBusinessDataSerpElementItem`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[`cid`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#cid)
 
-#### Defined in
+#### Source
 
 main.ts:196525
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain of the business entity
 
 #### Implementation of
 
-[IMapsSearchBusinessDataSerpElementItem](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[domain](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#domain)
+[`IMapsSearchBusinessDataSerpElementItem`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[`domain`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#domain)
 
-#### Defined in
+#### Source
 
 main.ts:196470
 
-___
+***
 
-### feature\_id
+### feature\_id?
 
-• `Optional` **feature\_id**: `string`
+> **`optional`** **feature\_id**: `string`
 
 the unique identifier of the element in SERP
 learn more about the identifier in this help center article
 
 #### Implementation of
 
-[IMapsSearchBusinessDataSerpElementItem](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[feature_id](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#feature_id)
+[`IMapsSearchBusinessDataSerpElementItem`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[`feature_id`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#feature_id)
 
-#### Defined in
+#### Source
 
 main.ts:196520
 
-___
+***
 
-### hotel\_rating
+### hotel\_rating?
 
-• `Optional` **hotel\_rating**: `number`
+> **`optional`** **hotel\_rating**: `number`
 
 hotel class rating
 class ratings range between 1-5 stars, learn more
@@ -244,33 +201,33 @@ if there is no hotel class rating information, the value will be null
 
 #### Implementation of
 
-[IMapsSearchBusinessDataSerpElementItem](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[hotel_rating](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#hotel_rating)
+[`IMapsSearchBusinessDataSerpElementItem`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[`hotel_rating`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#hotel_rating)
 
-#### Defined in
+#### Source
 
 main.ts:196511
 
-___
+***
 
-### is\_claimed
+### is\_claimed?
 
-• `Optional` **is\_claimed**: `boolean`
+> **`optional`** **is\_claimed**: `boolean`
 
 shows whether the entity is verified by its owner on Google Maps
 
 #### Implementation of
 
-[IMapsSearchBusinessDataSerpElementItem](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[is_claimed](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#is_claimed)
+[`IMapsSearchBusinessDataSerpElementItem`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[`is_claimed`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#is_claimed)
 
-#### Defined in
+#### Source
 
 main.ts:196535
 
-___
+***
 
-### is\_directory\_item
+### is\_directory\_item?
 
-• `Optional` **is\_directory\_item**: `boolean`
+> **`optional`** **is\_directory\_item**: `boolean`
 
 business establishment is a part of the directory
 indicates whether the business establishment is a part of the directory;
@@ -279,17 +236,17 @@ note: if the business establishment is a parent item in the directory, the value
 
 #### Implementation of
 
-[IMapsSearchBusinessDataSerpElementItem](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[is_directory_item](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#is_directory_item)
+[`IMapsSearchBusinessDataSerpElementItem`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[`is_directory_item`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#is_directory_item)
 
-#### Defined in
+#### Source
 
 main.ts:196543
 
-___
+***
 
-### latitude
+### latitude?
 
-• `Optional` **latitude**: `number`
+> **`optional`** **latitude**: `number`
 
 latitude coordinate of the local establishments in google maps
 example:
@@ -297,34 +254,34 @@ example:
 
 #### Implementation of
 
-[IMapsSearchBusinessDataSerpElementItem](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[latitude](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#latitude)
+[`IMapsSearchBusinessDataSerpElementItem`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[`latitude`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#latitude)
 
-#### Defined in
+#### Source
 
 main.ts:196529
 
-___
+***
 
-### local\_justifications
+### local\_justifications?
 
-• `Optional` **local\_justifications**: `string`[]
+> **`optional`** **local\_justifications**: `string`[]
 
 Google local justifications
 snippets of text that “justify” why the business is showing up for search query
 
 #### Implementation of
 
-[IMapsSearchBusinessDataSerpElementItem](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[local_justifications](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#local_justifications)
+[`IMapsSearchBusinessDataSerpElementItem`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[`local_justifications`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#local_justifications)
 
-#### Defined in
+#### Source
 
 main.ts:196538
 
-___
+***
 
-### longitude
+### longitude?
 
-• `Optional` **longitude**: `number`
+> **`optional`** **longitude**: `number`
 
 longitude coordinate of the local establishment in google maps
 example:
@@ -332,49 +289,49 @@ example:
 
 #### Implementation of
 
-[IMapsSearchBusinessDataSerpElementItem](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[longitude](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#longitude)
+[`IMapsSearchBusinessDataSerpElementItem`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[`longitude`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#longitude)
 
-#### Defined in
+#### Source
 
 main.ts:196533
 
-___
+***
 
-### main\_image
+### main\_image?
 
-• `Optional` **main\_image**: `string`
+> **`optional`** **main\_image**: `string`
 
 URL of the main image featured in Google My Business profile
 
 #### Implementation of
 
-[IMapsSearchBusinessDataSerpElementItem](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[main_image](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#main_image)
+[`IMapsSearchBusinessDataSerpElementItem`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[`main_image`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#main_image)
 
-#### Defined in
+#### Source
 
 main.ts:196495
 
-___
+***
 
-### phone
+### phone?
 
-• `Optional` **phone**: `string`
+> **`optional`** **phone**: `string`
 
 phone number of the business entity
 
 #### Implementation of
 
-[IMapsSearchBusinessDataSerpElementItem](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[phone](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#phone)
+[`IMapsSearchBusinessDataSerpElementItem`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[`phone`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#phone)
 
-#### Defined in
+#### Source
 
 main.ts:196493
 
-___
+***
 
-### place\_id
+### place\_id?
 
-• `Optional` **place\_id**: `string`
+> **`optional`** **place\_id**: `string`
 
 unique place identifier
 place id of the local establishment featured in the element
@@ -382,17 +339,17 @@ learn more about the identifier in this help center article
 
 #### Implementation of
 
-[IMapsSearchBusinessDataSerpElementItem](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[place_id](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#place_id)
+[`IMapsSearchBusinessDataSerpElementItem`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[`place_id`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#place_id)
 
-#### Defined in
+#### Source
 
 main.ts:196491
 
-___
+***
 
-### price\_level
+### price\_level?
 
-• `Optional` **price\_level**: `string`
+> **`optional`** **price\_level**: `string`
 
 property price level
 can take values: inexpensive, moderate, expensive, very_expensive
@@ -400,176 +357,174 @@ if there is no price level information, the value will be null
 
 #### Implementation of
 
-[IMapsSearchBusinessDataSerpElementItem](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[price_level](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#price_level)
+[`IMapsSearchBusinessDataSerpElementItem`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[`price_level`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#price_level)
 
-#### Defined in
+#### Source
 
 main.ts:196507
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank among all the elements
 
 #### Implementation of
 
-[IMapsSearchBusinessDataSerpElementItem](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[rank_absolute](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#rank_absolute)
+[`IMapsSearchBusinessDataSerpElementItem`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[`rank_absolute`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
 main.ts:196468
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from the rank_group
 
 #### Implementation of
 
-[IMapsSearchBusinessDataSerpElementItem](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[rank_group](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#rank_group)
+[`IMapsSearchBusinessDataSerpElementItem`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[`rank_group`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
 main.ts:196466
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](RatingInfo.md)
 
 the element’s rating 
 the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
 
-[IMapsSearchBusinessDataSerpElementItem](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[rating](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#rating)
+[`IMapsSearchBusinessDataSerpElementItem`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[`rating`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#rating)
 
-#### Defined in
+#### Source
 
 main.ts:196478
 
-___
+***
 
-### rating\_distribution
+### rating\_distribution?
 
-• `Optional` **rating\_distribution**: `Object`
+> **`optional`** **rating\_distribution**: `Object`
 
 the distribution of ratings of the business entity
 the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
 #### Implementation of
 
-[IMapsSearchBusinessDataSerpElementItem](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[rating_distribution](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#rating_distribution)
+[`IMapsSearchBusinessDataSerpElementItem`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[`rating_distribution`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#rating_distribution)
 
-#### Defined in
+#### Source
 
 main.ts:196481
 
-___
+***
 
-### snippet
+### snippet?
 
-• `Optional` **snippet**: `string`
+> **`optional`** **snippet**: `string`
 
 additional information about the business entity
 
 #### Implementation of
 
-[IMapsSearchBusinessDataSerpElementItem](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[snippet](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#snippet)
+[`IMapsSearchBusinessDataSerpElementItem`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[`snippet`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#snippet)
 
-#### Defined in
+#### Source
 
 main.ts:196483
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 directory title
 can take the following values: At this place, Directory
 
 #### Implementation of
 
-[IMapsSearchBusinessDataSerpElementItem](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[title](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#title)
+[`IMapsSearchBusinessDataSerpElementItem`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[`title`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:196473
 
-___
+***
 
-### total\_photos
+### total\_photos?
 
-• `Optional` **total\_photos**: `number`
+> **`optional`** **total\_photos**: `number`
 
 total count of images featured in Google My Business profile
 
 #### Implementation of
 
-[IMapsSearchBusinessDataSerpElementItem](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[total_photos](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#total_photos)
+[`IMapsSearchBusinessDataSerpElementItem`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[`total_photos`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#total_photos)
 
-#### Defined in
+#### Source
 
 main.ts:196497
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL to view the menu
 
 #### Implementation of
 
-[IMapsSearchBusinessDataSerpElementItem](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[url](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#url)
+[`IMapsSearchBusinessDataSerpElementItem`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[`url`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:196475
 
-___
+***
 
-### work\_hours
+### work\_hours?
 
-• `Optional` **work\_hours**: [`WorkInfo`](WorkInfo.md)
+> **`optional`** **work\_hours**: [`WorkInfo`](WorkInfo.md)
 
 open hours
 information about work hours of the local establishment
 
 #### Implementation of
 
-[IMapsSearchBusinessDataSerpElementItem](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[work_hours](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#work_hours)
+[`IMapsSearchBusinessDataSerpElementItem`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md).[`work_hours`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md#work_hours)
 
-#### Defined in
+#### Source
 
 main.ts:196517
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -577,23 +532,21 @@ main.ts:196517
 
 #### Overrides
 
-[BaseBusinessDataSerpElementItem](BaseBusinessDataSerpElementItem.md).[init](BaseBusinessDataSerpElementItem.md#init)
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`init`](BaseBusinessDataSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:196552
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -601,23 +554,21 @@ ___
 
 #### Overrides
 
-[BaseBusinessDataSerpElementItem](BaseBusinessDataSerpElementItem.md).[toJSON](BaseBusinessDataSerpElementItem.md#tojson)
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`toJSON`](BaseBusinessDataSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:196614
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`MapsSearchBusinessDataSerpElementItem`](MapsSearchBusinessDataSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`MapsSearchBusinessDataSerpElementItem`](MapsSearchBusinessDataSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -625,8 +576,8 @@ ___
 
 #### Overrides
 
-[BaseBusinessDataSerpElementItem](BaseBusinessDataSerpElementItem.md).[fromJS](BaseBusinessDataSerpElementItem.md#fromjs)
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`fromJS`](BaseBusinessDataSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:196607

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixBusinessDataLimitsRatesDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppendixBusinessDataLimitsRatesDataInfo
 
 # Class: AppendixBusinessDataLimitsRatesDataInfo
 
@@ -8,234 +12,202 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixBusinessDataLimitsRatesDataInfo.md#constructor)
-
-### Properties
-
-- [business\_listings](AppendixBusinessDataLimitsRatesDataInfo.md#business_listings)
-- [errors](AppendixBusinessDataLimitsRatesDataInfo.md#errors)
-- [google](AppendixBusinessDataLimitsRatesDataInfo.md#google)
-- [languages](AppendixBusinessDataLimitsRatesDataInfo.md#languages)
-- [locations](AppendixBusinessDataLimitsRatesDataInfo.md#locations)
-- [social\_media](AppendixBusinessDataLimitsRatesDataInfo.md#social_media)
-- [tripadvisor](AppendixBusinessDataLimitsRatesDataInfo.md#tripadvisor)
-- [trustpilot](AppendixBusinessDataLimitsRatesDataInfo.md#trustpilot)
-- [yelp](AppendixBusinessDataLimitsRatesDataInfo.md#yelp)
-
-### Methods
-
-- [init](AppendixBusinessDataLimitsRatesDataInfo.md#init)
-- [toJSON](AppendixBusinessDataLimitsRatesDataInfo.md#tojson)
-- [fromJS](AppendixBusinessDataLimitsRatesDataInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixBusinessDataLimitsRatesDataInfo(data)
 
-• **new AppendixBusinessDataLimitsRatesDataInfo**(`data?`): [`AppendixBusinessDataLimitsRatesDataInfo`](AppendixBusinessDataLimitsRatesDataInfo.md)
+> **new AppendixBusinessDataLimitsRatesDataInfo**(`data`?): [`AppendixBusinessDataLimitsRatesDataInfo`](AppendixBusinessDataLimitsRatesDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md) |
+• **data?**: [`IAppendixBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md)
 
 #### Returns
 
 [`AppendixBusinessDataLimitsRatesDataInfo`](AppendixBusinessDataLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:213570
 
 ## Properties
 
-### business\_listings
+### business\_listings?
 
-• `Optional` **business\_listings**: [`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
+> **`optional`** **business\_listings**: [`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
 
 #### Implementation of
 
-[IAppendixBusinessDataLimitsRatesDataInfo](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md).[business_listings](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md#business_listings)
+[`IAppendixBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md).[`business_listings`](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md#business_listings)
 
-#### Defined in
+#### Source
 
 main.ts:213566
 
-___
+***
 
-### errors
+### errors?
 
-• `Optional` **errors**: `number`
+> **`optional`** **errors**: `number`
 
 #### Implementation of
 
-[IAppendixBusinessDataLimitsRatesDataInfo](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md).[errors](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md#errors)
+[`IAppendixBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md).[`errors`](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md#errors)
 
-#### Defined in
+#### Source
 
 main.ts:213561
 
-___
+***
 
-### google
+### google?
 
-• `Optional` **google**: [`AppendixBusinessDataGoogleInfo`](AppendixBusinessDataGoogleInfo.md)
+> **`optional`** **google**: [`AppendixBusinessDataGoogleInfo`](AppendixBusinessDataGoogleInfo.md)
 
 #### Implementation of
 
-[IAppendixBusinessDataLimitsRatesDataInfo](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md).[google](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md#google)
+[`IAppendixBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md).[`google`](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md#google)
 
-#### Defined in
+#### Source
 
 main.ts:213558
 
-___
+***
 
-### languages
+### languages?
 
-• `Optional` **languages**: `number`
+> **`optional`** **languages**: `number`
 
 #### Implementation of
 
-[IAppendixBusinessDataLimitsRatesDataInfo](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md).[languages](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md#languages)
+[`IAppendixBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md).[`languages`](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md#languages)
 
-#### Defined in
+#### Source
 
 main.ts:213560
 
-___
+***
 
-### locations
+### locations?
 
-• `Optional` **locations**: `number`
+> **`optional`** **locations**: `number`
 
 #### Implementation of
 
-[IAppendixBusinessDataLimitsRatesDataInfo](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md).[locations](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md#locations)
+[`IAppendixBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md).[`locations`](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md#locations)
 
-#### Defined in
+#### Source
 
 main.ts:213559
 
-___
+***
 
-### social\_media
+### social\_media?
 
-• `Optional` **social\_media**: [`AppendixSocialMediaBusinessDataLimitsRatesDataInfo`](AppendixSocialMediaBusinessDataLimitsRatesDataInfo.md)
+> **`optional`** **social\_media**: [`AppendixSocialMediaBusinessDataLimitsRatesDataInfo`](AppendixSocialMediaBusinessDataLimitsRatesDataInfo.md)
 
 #### Implementation of
 
-[IAppendixBusinessDataLimitsRatesDataInfo](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md).[social_media](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md#social_media)
+[`IAppendixBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md).[`social_media`](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md#social_media)
 
-#### Defined in
+#### Source
 
 main.ts:213563
 
-___
+***
 
-### tripadvisor
+### tripadvisor?
 
-• `Optional` **tripadvisor**: [`AppendixBusinessDataDayLimitsRatesDataInfo`](AppendixBusinessDataDayLimitsRatesDataInfo.md)
+> **`optional`** **tripadvisor**: [`AppendixBusinessDataDayLimitsRatesDataInfo`](AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
 #### Implementation of
 
-[IAppendixBusinessDataLimitsRatesDataInfo](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md).[tripadvisor](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md#tripadvisor)
+[`IAppendixBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md).[`tripadvisor`](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md#tripadvisor)
 
-#### Defined in
+#### Source
 
 main.ts:213564
 
-___
+***
 
-### trustpilot
+### trustpilot?
 
-• `Optional` **trustpilot**: [`AppendixBusinessDataDayLimitsRatesDataInfo`](AppendixBusinessDataDayLimitsRatesDataInfo.md)
+> **`optional`** **trustpilot**: [`AppendixBusinessDataDayLimitsRatesDataInfo`](AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
 #### Implementation of
 
-[IAppendixBusinessDataLimitsRatesDataInfo](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md).[trustpilot](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md#trustpilot)
+[`IAppendixBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md).[`trustpilot`](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md#trustpilot)
 
-#### Defined in
+#### Source
 
 main.ts:213565
 
-___
+***
 
-### yelp
+### yelp?
 
-• `Optional` **yelp**: [`AppendixBusinessDataDayLimitsRatesDataInfo`](AppendixBusinessDataDayLimitsRatesDataInfo.md)
+> **`optional`** **yelp**: [`AppendixBusinessDataDayLimitsRatesDataInfo`](AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
 #### Implementation of
 
-[IAppendixBusinessDataLimitsRatesDataInfo](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md).[yelp](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md#yelp)
+[`IAppendixBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md).[`yelp`](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md#yelp)
 
-#### Defined in
+#### Source
 
 main.ts:213562
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:213579
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:213604
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppendixBusinessDataLimitsRatesDataInfo`](AppendixBusinessDataLimitsRatesDataInfo.md)
+> **`static`** **fromJS**(`data`): [`AppendixBusinessDataLimitsRatesDataInfo`](AppendixBusinessDataLimitsRatesDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppendixBusinessDataLimitsRatesDataInfo`](AppendixBusinessDataLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:213597

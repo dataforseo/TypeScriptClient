@@ -1,56 +1,48 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksBulkSpamScoreLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBacklinksBulkSpamScoreLiveItem
 
 # Interface: IBacklinksBulkSpamScoreLiveItem
 
-## Implemented by
-
-- [`BacklinksBulkSpamScoreLiveItem`](../classes/BacklinksBulkSpamScoreLiveItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [spam\_score](IBacklinksBulkSpamScoreLiveItem.md#spam_score)
-- [target](IBacklinksBulkSpamScoreLiveItem.md#target)
-- [type](IBacklinksBulkSpamScoreLiveItem.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### spam\_score
+### spam\_score?
 
-• `Optional` **spam\_score**: `number`
+> **`optional`** **spam\_score**: `number`
 
 average spam score the target
 learn more about how the metric is calculated
 
-#### Defined in
+#### Source
 
-main.ts:145565
+main.ts:145573
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 domain, subdomain or webpage from a POST array
 
-#### Defined in
+#### Source
 
-main.ts:145562
+main.ts:145570
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:145560
+main.ts:145568

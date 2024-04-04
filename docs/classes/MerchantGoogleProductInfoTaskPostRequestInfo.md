@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MerchantGoogleProductInfoTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / MerchantGoogleProductInfoTaskPostRequestInfo
 
 # Class: MerchantGoogleProductInfoTaskPostRequestInfo
 
@@ -8,60 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](MerchantGoogleProductInfoTaskPostRequestInfo.md#constructor)
-
-### Properties
-
-- [language\_code](MerchantGoogleProductInfoTaskPostRequestInfo.md#language_code)
-- [language\_name](MerchantGoogleProductInfoTaskPostRequestInfo.md#language_name)
-- [location\_code](MerchantGoogleProductInfoTaskPostRequestInfo.md#location_code)
-- [location\_coordinate](MerchantGoogleProductInfoTaskPostRequestInfo.md#location_coordinate)
-- [location\_name](MerchantGoogleProductInfoTaskPostRequestInfo.md#location_name)
-- [pingback\_url](MerchantGoogleProductInfoTaskPostRequestInfo.md#pingback_url)
-- [postback\_data](MerchantGoogleProductInfoTaskPostRequestInfo.md#postback_data)
-- [postback\_url](MerchantGoogleProductInfoTaskPostRequestInfo.md#postback_url)
-- [priority](MerchantGoogleProductInfoTaskPostRequestInfo.md#priority)
-- [product\_id](MerchantGoogleProductInfoTaskPostRequestInfo.md#product_id)
-- [se\_domain](MerchantGoogleProductInfoTaskPostRequestInfo.md#se_domain)
-- [tag](MerchantGoogleProductInfoTaskPostRequestInfo.md#tag)
-
-### Methods
-
-- [init](MerchantGoogleProductInfoTaskPostRequestInfo.md#init)
-- [toJSON](MerchantGoogleProductInfoTaskPostRequestInfo.md#tojson)
-- [fromJS](MerchantGoogleProductInfoTaskPostRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new MerchantGoogleProductInfoTaskPostRequestInfo(data)
 
-• **new MerchantGoogleProductInfoTaskPostRequestInfo**(`data?`): [`MerchantGoogleProductInfoTaskPostRequestInfo`](MerchantGoogleProductInfoTaskPostRequestInfo.md)
+> **new MerchantGoogleProductInfoTaskPostRequestInfo**(`data`?): [`MerchantGoogleProductInfoTaskPostRequestInfo`](MerchantGoogleProductInfoTaskPostRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IMerchantGoogleProductInfoTaskPostRequestInfo`](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md) |
+• **data?**: [`IMerchantGoogleProductInfoTaskPostRequestInfo`](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md)
 
 #### Returns
 
 [`MerchantGoogleProductInfoTaskPostRequestInfo`](MerchantGoogleProductInfoTaskPostRequestInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:173970
 
 ## Properties
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 required field if you don’t specify language_name
@@ -72,17 +47,17 @@ en
 
 #### Implementation of
 
-[IMerchantGoogleProductInfoTaskPostRequestInfo](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md).[language_code](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md#language_code)
+[`IMerchantGoogleProductInfoTaskPostRequestInfo`](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md).[`language_code`](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
 main.ts:173927
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -93,17 +68,17 @@ English
 
 #### Implementation of
 
-[IMerchantGoogleProductInfoTaskPostRequestInfo](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md).[language_name](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md#language_name)
+[`IMerchantGoogleProductInfoTaskPostRequestInfo`](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md).[`language_name`](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
 main.ts:173920
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 required field if you don’t specify location_name or location_coordinate
@@ -114,17 +89,17 @@ example:
 
 #### Implementation of
 
-[IMerchantGoogleProductInfoTaskPostRequestInfo](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md).[location_code](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md#location_code)
+[`IMerchantGoogleProductInfoTaskPostRequestInfo`](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md).[`location_code`](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
 main.ts:173904
 
-___
+***
 
-### location\_coordinate
+### location\_coordinate?
 
-• `Optional` **location\_coordinate**: `string`
+> **`optional`** **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -137,17 +112,17 @@ example:
 
 #### Implementation of
 
-[IMerchantGoogleProductInfoTaskPostRequestInfo](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md).[location_coordinate](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md#location_coordinate)
+[`IMerchantGoogleProductInfoTaskPostRequestInfo`](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md).[`location_coordinate`](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md#location_coordinate)
 
-#### Defined in
+#### Source
 
 main.ts:173913
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code or location_coordinate
@@ -158,17 +133,17 @@ London,England,United Kingdom
 
 #### Implementation of
 
-[IMerchantGoogleProductInfoTaskPostRequestInfo](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md).[location_name](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md#location_name)
+[`IMerchantGoogleProductInfoTaskPostRequestInfo`](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md).[`location_name`](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
 main.ts:173897
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -182,17 +157,17 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[IMerchantGoogleProductInfoTaskPostRequestInfo](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md).[pingback_url](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md#pingback_url)
+[`IMerchantGoogleProductInfoTaskPostRequestInfo`](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md).[`pingback_url`](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md#pingback_url)
 
-#### Defined in
+#### Source
 
 main.ts:173966
 
-___
+***
 
-### postback\_data
+### postback\_data?
 
-• `Optional` **postback\_data**: `string`
+> **`optional`** **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -202,17 +177,17 @@ advanced, html
 
 #### Implementation of
 
-[IMerchantGoogleProductInfoTaskPostRequestInfo](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md).[postback_data](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md#postback_data)
+[`IMerchantGoogleProductInfoTaskPostRequestInfo`](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md).[`postback_data`](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md#postback_data)
 
-#### Defined in
+#### Source
 
 main.ts:173956
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -226,17 +201,17 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[IMerchantGoogleProductInfoTaskPostRequestInfo](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md).[postback_url](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md#postback_url)
+[`IMerchantGoogleProductInfoTaskPostRequestInfo`](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md).[`postback_url`](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md#postback_url)
 
-#### Defined in
+#### Source
 
 main.ts:173950
 
-___
+***
 
-### priority
+### priority?
 
-• `Optional` **priority**: `number`
+> **`optional`** **priority**: `number`
 
 task priority
 optional field
@@ -248,17 +223,17 @@ The cost can be calculated on the Pricing page.
 
 #### Implementation of
 
-[IMerchantGoogleProductInfoTaskPostRequestInfo](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md).[priority](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md#priority)
+[`IMerchantGoogleProductInfoTaskPostRequestInfo`](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md).[`priority`](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md#priority)
 
-#### Defined in
+#### Source
 
 main.ts:173890
 
-___
+***
 
-### product\_id
+### product\_id?
 
-• `Optional` **product\_id**: `string`
+> **`optional`** **product\_id**: `string`
 
 product ID
 required field
@@ -268,17 +243,17 @@ learn more about the parameter in this help center guide
 
 #### Implementation of
 
-[IMerchantGoogleProductInfoTaskPostRequestInfo](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md).[product_id](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md#product_id)
+[`IMerchantGoogleProductInfoTaskPostRequestInfo`](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md).[`product_id`](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md#product_id)
 
-#### Defined in
+#### Source
 
 main.ts:173882
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain
 optional field
@@ -289,17 +264,17 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Implementation of
 
-[IMerchantGoogleProductInfoTaskPostRequestInfo](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md).[se_domain](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md#se_domain)
+[`IMerchantGoogleProductInfoTaskPostRequestInfo`](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md).[`se_domain`](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md#se_domain)
 
-#### Defined in
+#### Source
 
 main.ts:173934
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -309,68 +284,62 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IMerchantGoogleProductInfoTaskPostRequestInfo](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md).[tag](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md#tag)
+[`IMerchantGoogleProductInfoTaskPostRequestInfo`](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md).[`tag`](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
 main.ts:173940
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:173979
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:174007
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`MerchantGoogleProductInfoTaskPostRequestInfo`](MerchantGoogleProductInfoTaskPostRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`MerchantGoogleProductInfoTaskPostRequestInfo`](MerchantGoogleProductInfoTaskPostRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`MerchantGoogleProductInfoTaskPostRequestInfo`](MerchantGoogleProductInfoTaskPostRequestInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:174000

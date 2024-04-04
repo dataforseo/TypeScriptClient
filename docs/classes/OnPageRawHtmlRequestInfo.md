@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageRawHtmlRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPageRawHtmlRequestInfo
 
 # Class: OnPageRawHtmlRequestInfo
 
@@ -8,50 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPageRawHtmlRequestInfo.md#constructor)
-
-### Properties
-
-- [id](OnPageRawHtmlRequestInfo.md#id)
-- [url](OnPageRawHtmlRequestInfo.md#url)
-
-### Methods
-
-- [init](OnPageRawHtmlRequestInfo.md#init)
-- [toJSON](OnPageRawHtmlRequestInfo.md#tojson)
-- [fromJS](OnPageRawHtmlRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPageRawHtmlRequestInfo(data)
 
-• **new OnPageRawHtmlRequestInfo**(`data?`): [`OnPageRawHtmlRequestInfo`](OnPageRawHtmlRequestInfo.md)
+> **new OnPageRawHtmlRequestInfo**(`data`?): [`OnPageRawHtmlRequestInfo`](OnPageRawHtmlRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPageRawHtmlRequestInfo`](../interfaces/IOnPageRawHtmlRequestInfo.md) |
+• **data?**: [`IOnPageRawHtmlRequestInfo`](../interfaces/IOnPageRawHtmlRequestInfo.md)
 
 #### Returns
 
 [`OnPageRawHtmlRequestInfo`](OnPageRawHtmlRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:156575
+main.ts:156583
 
 ## Properties
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 ID of the task
 required field
@@ -61,17 +46,17 @@ example:
 
 #### Implementation of
 
-[IOnPageRawHtmlRequestInfo](../interfaces/IOnPageRawHtmlRequestInfo.md).[id](../interfaces/IOnPageRawHtmlRequestInfo.md#id)
+[`IOnPageRawHtmlRequestInfo`](../interfaces/IOnPageRawHtmlRequestInfo.md).[`id`](../interfaces/IOnPageRawHtmlRequestInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:156566
+main.ts:156574
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 page url
 required field
@@ -80,68 +65,62 @@ Note: this field is optional if the task was set using the Instant Pages endpoin
 
 #### Implementation of
 
-[IOnPageRawHtmlRequestInfo](../interfaces/IOnPageRawHtmlRequestInfo.md).[url](../interfaces/IOnPageRawHtmlRequestInfo.md#url)
+[`IOnPageRawHtmlRequestInfo`](../interfaces/IOnPageRawHtmlRequestInfo.md).[`url`](../interfaces/IOnPageRawHtmlRequestInfo.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:156571
+main.ts:156579
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:156584
+main.ts:156592
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:156602
+main.ts:156610
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPageRawHtmlRequestInfo`](OnPageRawHtmlRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`OnPageRawHtmlRequestInfo`](OnPageRawHtmlRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`OnPageRawHtmlRequestInfo`](OnPageRawHtmlRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:156595
+main.ts:156603

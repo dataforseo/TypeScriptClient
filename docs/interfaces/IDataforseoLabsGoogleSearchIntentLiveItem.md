@@ -1,55 +1,47 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleSearchIntentLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsGoogleSearchIntentLiveItem
 
 # Interface: IDataforseoLabsGoogleSearchIntentLiveItem
 
-## Implemented by
-
-- [`DataforseoLabsGoogleSearchIntentLiveItem`](../classes/DataforseoLabsGoogleSearchIntentLiveItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [keyword](IDataforseoLabsGoogleSearchIntentLiveItem.md#keyword)
-- [keyword\_intent](IDataforseoLabsGoogleSearchIntentLiveItem.md#keyword_intent)
-- [secondary\_keyword\_intents](IDataforseoLabsGoogleSearchIntentLiveItem.md#secondary_keyword_intents)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 target keyword in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:85290
+main.ts:85298
 
-___
+***
 
-### keyword\_intent
+### keyword\_intent?
 
-• `Optional` **keyword\_intent**: [`KeywordIntentInfo`](../classes/KeywordIntentInfo.md)
+> **`optional`** **keyword\_intent**: [`KeywordIntentInfo`](../classes/KeywordIntentInfo.md)
 
 search intent data relevant for the specified keyword
 
-#### Defined in
+#### Source
 
-main.ts:85292
+main.ts:85300
 
-___
+***
 
-### secondary\_keyword\_intents
+### secondary\_keyword\_intents?
 
-• `Optional` **secondary\_keyword\_intents**: [`KeywordIntentInfo`](../classes/KeywordIntentInfo.md)[]
+> **`optional`** **secondary\_keyword\_intents**: [`KeywordIntentInfo`](../classes/KeywordIntentInfo.md)[]
 
 contains objects with other possible search intents for the specified keyword
 
-#### Defined in
+#### Source
 
-main.ts:85294
+main.ts:85302

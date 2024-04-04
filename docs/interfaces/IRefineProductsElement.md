@@ -1,94 +1,83 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IRefineProductsElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IRefineProductsElement
 
 # Interface: IRefineProductsElement
 
-## Implemented by
-
-- [`RefineProductsElement`](../classes/RefineProductsElement.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [image\_url](IRefineProductsElement.md#image_url)
-- [keyword](IRefineProductsElement.md#keyword)
-- [refine\_type](IRefineProductsElement.md#refine_type)
-- [title](IRefineProductsElement.md#title)
-- [type](IRefineProductsElement.md#type)
-- [xpath](IRefineProductsElement.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### image\_url
+### image\_url?
 
-• `Optional` **image\_url**: `string`
+> **`optional`** **image\_url**: `string`
 
 URL of the image
 
-#### Defined in
+#### Source
 
-main.ts:36026
+main.ts:36032
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword for the related refined search
 
-#### Defined in
+#### Source
 
-main.ts:36028
+main.ts:36034
 
-___
+***
 
-### refine\_type
+### refine\_type?
 
-• `Optional` **refine\_type**: `string`
+> **`optional`** **refine\_type**: `string`
 
 type of search refinement
 
-#### Defined in
+#### Source
 
-main.ts:36030
+main.ts:36036
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
-#### Defined in
+#### Source
 
-main.ts:36024
+main.ts:36030
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:36022
+main.ts:36028
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
-main.ts:36032
+main.ts:36038

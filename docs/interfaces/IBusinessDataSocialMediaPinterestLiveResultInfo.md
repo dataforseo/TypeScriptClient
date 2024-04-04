@@ -1,58 +1,50 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataSocialMediaPinterestLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBusinessDataSocialMediaPinterestLiveResultInfo
 
 # Interface: IBusinessDataSocialMediaPinterestLiveResultInfo
 
-## Implemented by
-
-- [`BusinessDataSocialMediaPinterestLiveResultInfo`](../classes/BusinessDataSocialMediaPinterestLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [page\_url](IBusinessDataSocialMediaPinterestLiveResultInfo.md#page_url)
-- [pins\_count](IBusinessDataSocialMediaPinterestLiveResultInfo.md#pins_count)
-- [type](IBusinessDataSocialMediaPinterestLiveResultInfo.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### page\_url
+### page\_url?
 
-• `Optional` **page\_url**: `string`
+> **`optional`** **page\_url**: `string`
 
 URL of the page the data is provided for
 corresponding URL you specified in the targets array when setting a task
 
-#### Defined in
+#### Source
 
 main.ts:211224
 
-___
+***
 
-### pins\_count
+### pins\_count?
 
-• `Optional` **pins\_count**: `number`
+> **`optional`** **pins\_count**: `number`
 
 number of pins for the related page_url
 pins on Pinterest correspond to content saves;
 this field shows the number of content saves made from the related page_url using the Pinterest Save Button
 
-#### Defined in
+#### Source
 
 main.ts:211228
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
 main.ts:211221

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksBulkReferringDomainsLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BacklinksBulkReferringDomainsLiveRequestInfo
 
 # Class: BacklinksBulkReferringDomainsLiveRequestInfo
 
@@ -8,50 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BacklinksBulkReferringDomainsLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [tag](BacklinksBulkReferringDomainsLiveRequestInfo.md#tag)
-- [targets](BacklinksBulkReferringDomainsLiveRequestInfo.md#targets)
-
-### Methods
-
-- [init](BacklinksBulkReferringDomainsLiveRequestInfo.md#init)
-- [toJSON](BacklinksBulkReferringDomainsLiveRequestInfo.md#tojson)
-- [fromJS](BacklinksBulkReferringDomainsLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BacklinksBulkReferringDomainsLiveRequestInfo(data)
 
-• **new BacklinksBulkReferringDomainsLiveRequestInfo**(`data?`): [`BacklinksBulkReferringDomainsLiveRequestInfo`](BacklinksBulkReferringDomainsLiveRequestInfo.md)
+> **new BacklinksBulkReferringDomainsLiveRequestInfo**(`data`?): [`BacklinksBulkReferringDomainsLiveRequestInfo`](BacklinksBulkReferringDomainsLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBacklinksBulkReferringDomainsLiveRequestInfo`](../interfaces/IBacklinksBulkReferringDomainsLiveRequestInfo.md) |
+• **data?**: [`IBacklinksBulkReferringDomainsLiveRequestInfo`](../interfaces/IBacklinksBulkReferringDomainsLiveRequestInfo.md)
 
 #### Returns
 
 [`BacklinksBulkReferringDomainsLiveRequestInfo`](BacklinksBulkReferringDomainsLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:145773
+main.ts:145781
 
 ## Properties
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -61,17 +46,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IBacklinksBulkReferringDomainsLiveRequestInfo](../interfaces/IBacklinksBulkReferringDomainsLiveRequestInfo.md).[tag](../interfaces/IBacklinksBulkReferringDomainsLiveRequestInfo.md#tag)
+[`IBacklinksBulkReferringDomainsLiveRequestInfo`](../interfaces/IBacklinksBulkReferringDomainsLiveRequestInfo.md).[`tag`](../interfaces/IBacklinksBulkReferringDomainsLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:145769
+main.ts:145777
 
-___
+***
 
-### targets
+### targets?
 
-• `Optional` **targets**: `string`[]
+> **`optional`** **targets**: `string`[]
 
 domains, subdomains or webpages to get the number of referring domains for
 required field
@@ -94,68 +79,62 @@ example:
 
 #### Implementation of
 
-[IBacklinksBulkReferringDomainsLiveRequestInfo](../interfaces/IBacklinksBulkReferringDomainsLiveRequestInfo.md).[targets](../interfaces/IBacklinksBulkReferringDomainsLiveRequestInfo.md#targets)
+[`IBacklinksBulkReferringDomainsLiveRequestInfo`](../interfaces/IBacklinksBulkReferringDomainsLiveRequestInfo.md).[`targets`](../interfaces/IBacklinksBulkReferringDomainsLiveRequestInfo.md#targets)
 
-#### Defined in
+#### Source
 
-main.ts:145763
+main.ts:145771
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:145782
+main.ts:145790
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:145804
+main.ts:145812
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BacklinksBulkReferringDomainsLiveRequestInfo`](BacklinksBulkReferringDomainsLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`BacklinksBulkReferringDomainsLiveRequestInfo`](BacklinksBulkReferringDomainsLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BacklinksBulkReferringDomainsLiveRequestInfo`](BacklinksBulkReferringDomainsLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:145797
+main.ts:145805

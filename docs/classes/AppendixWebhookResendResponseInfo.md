@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixWebhookResendResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppendixWebhookResendResponseInfo
 
 # Class: AppendixWebhookResendResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`AppendixWebhookResendResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixWebhookResendResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](AppendixWebhookResendResponseInfo.md#cost)
-- [status\_code](AppendixWebhookResendResponseInfo.md#status_code)
-- [status\_message](AppendixWebhookResendResponseInfo.md#status_message)
-- [tasks](AppendixWebhookResendResponseInfo.md#tasks)
-- [tasks\_count](AppendixWebhookResendResponseInfo.md#tasks_count)
-- [tasks\_error](AppendixWebhookResendResponseInfo.md#tasks_error)
-- [time](AppendixWebhookResendResponseInfo.md#time)
-- [version](AppendixWebhookResendResponseInfo.md#version)
-
-### Methods
-
-- [init](AppendixWebhookResendResponseInfo.md#init)
-- [toJSON](AppendixWebhookResendResponseInfo.md#tojson)
-- [fromJS](AppendixWebhookResendResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixWebhookResendResponseInfo(data)
 
-• **new AppendixWebhookResendResponseInfo**(`data?`): [`AppendixWebhookResendResponseInfo`](AppendixWebhookResendResponseInfo.md)
+> **new AppendixWebhookResendResponseInfo**(`data`?): [`AppendixWebhookResendResponseInfo`](AppendixWebhookResendResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixWebhookResendResponseInfo`](../interfaces/IAppendixWebhookResendResponseInfo.md) |
+• **data?**: [`IAppendixWebhookResendResponseInfo`](../interfaces/IAppendixWebhookResendResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:218280
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IAppendixWebhookResendResponseInfo](../interfaces/IAppendixWebhookResendResponseInfo.md).[cost](../interfaces/IAppendixWebhookResendResponseInfo.md#cost)
+[`IAppendixWebhookResendResponseInfo`](../interfaces/IAppendixWebhookResendResponseInfo.md).[`cost`](../interfaces/IAppendixWebhookResendResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[IAppendixWebhookResendResponseInfo](../interfaces/IAppendixWebhookResendResponseInfo.md).[status_code](../interfaces/IAppendixWebhookResendResponseInfo.md#status_code)
+[`IAppendixWebhookResendResponseInfo`](../interfaces/IAppendixWebhookResendResponseInfo.md).[`status_code`](../interfaces/IAppendixWebhookResendResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IAppendixWebhookResendResponseInfo](../interfaces/IAppendixWebhookResendResponseInfo.md).[status_message](../interfaces/IAppendixWebhookResendResponseInfo.md#status_message)
+[`IAppendixWebhookResendResponseInfo`](../interfaces/IAppendixWebhookResendResponseInfo.md).[`status_message`](../interfaces/IAppendixWebhookResendResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`AppendixWebhookResendTaskInfo`](AppendixWebhookResendTaskInfo.md)[]
+> **`optional`** **tasks**: [`AppendixWebhookResendTaskInfo`](AppendixWebhookResendTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[IAppendixWebhookResendResponseInfo](../interfaces/IAppendixWebhookResendResponseInfo.md).[tasks](../interfaces/IAppendixWebhookResendResponseInfo.md#tasks)
+[`IAppendixWebhookResendResponseInfo`](../interfaces/IAppendixWebhookResendResponseInfo.md).[`tasks`](../interfaces/IAppendixWebhookResendResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
 main.ts:218276
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[IAppendixWebhookResendResponseInfo](../interfaces/IAppendixWebhookResendResponseInfo.md).[tasks_count](../interfaces/IAppendixWebhookResendResponseInfo.md#tasks_count)
+[`IAppendixWebhookResendResponseInfo`](../interfaces/IAppendixWebhookResendResponseInfo.md).[`tasks_count`](../interfaces/IAppendixWebhookResendResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[IAppendixWebhookResendResponseInfo](../interfaces/IAppendixWebhookResendResponseInfo.md).[tasks_error](../interfaces/IAppendixWebhookResendResponseInfo.md#tasks_error)
+[`IAppendixWebhookResendResponseInfo`](../interfaces/IAppendixWebhookResendResponseInfo.md).[`tasks_error`](../interfaces/IAppendixWebhookResendResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[IAppendixWebhookResendResponseInfo](../interfaces/IAppendixWebhookResendResponseInfo.md).[time](../interfaces/IAppendixWebhookResendResponseInfo.md#time)
+[`IAppendixWebhookResendResponseInfo`](../interfaces/IAppendixWebhookResendResponseInfo.md).[`time`](../interfaces/IAppendixWebhookResendResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[IAppendixWebhookResendResponseInfo](../interfaces/IAppendixWebhookResendResponseInfo.md).[version](../interfaces/IAppendixWebhookResendResponseInfo.md#version)
+[`IAppendixWebhookResendResponseInfo`](../interfaces/IAppendixWebhookResendResponseInfo.md).[`version`](../interfaces/IAppendixWebhookResendResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:218284
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:218306
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppendixWebhookResendResponseInfo`](AppendixWebhookResendResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`AppendixWebhookResendResponseInfo`](AppendixWebhookResendResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:218299

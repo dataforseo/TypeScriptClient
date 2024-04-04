@@ -1,27 +1,21 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixJobsSerpLimitsRatesDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppendixJobsSerpLimitsRatesDataInfo
 
 # Interface: IAppendixJobsSerpLimitsRatesDataInfo
 
-## Implemented by
-
-- [`AppendixJobsSerpLimitsRatesDataInfo`](../classes/AppendixJobsSerpLimitsRatesDataInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [task\_post](IAppendixJobsSerpLimitsRatesDataInfo.md#task_post)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### task\_post
+### task\_post?
 
-• `Optional` **task\_post**: `number`
+> **`optional`** **task\_post**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:212040

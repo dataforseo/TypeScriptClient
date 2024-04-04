@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageRedirectChainsTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPageRedirectChainsTaskInfo
 
 # Class: OnPageRedirectChainsTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`OnPageRedirectChainsTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPageRedirectChainsTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](OnPageRedirectChainsTaskInfo.md#cost)
-- [data](OnPageRedirectChainsTaskInfo.md#data)
-- [id](OnPageRedirectChainsTaskInfo.md#id)
-- [path](OnPageRedirectChainsTaskInfo.md#path)
-- [result](OnPageRedirectChainsTaskInfo.md#result)
-- [result\_count](OnPageRedirectChainsTaskInfo.md#result_count)
-- [status\_code](OnPageRedirectChainsTaskInfo.md#status_code)
-- [status\_message](OnPageRedirectChainsTaskInfo.md#status_message)
-- [time](OnPageRedirectChainsTaskInfo.md#time)
-
-### Methods
-
-- [init](OnPageRedirectChainsTaskInfo.md#init)
-- [toJSON](OnPageRedirectChainsTaskInfo.md#tojson)
-- [fromJS](OnPageRedirectChainsTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPageRedirectChainsTaskInfo(data)
 
-• **new OnPageRedirectChainsTaskInfo**(`data?`): [`OnPageRedirectChainsTaskInfo`](OnPageRedirectChainsTaskInfo.md)
+> **new OnPageRedirectChainsTaskInfo**(`data`?): [`OnPageRedirectChainsTaskInfo`](OnPageRedirectChainsTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPageRedirectChainsTaskInfo`](../interfaces/IOnPageRedirectChainsTaskInfo.md) |
+• **data?**: [`IOnPageRedirectChainsTaskInfo`](../interfaces/IOnPageRedirectChainsTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:154576
+main.ts:154584
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IOnPageRedirectChainsTaskInfo](../interfaces/IOnPageRedirectChainsTaskInfo.md).[cost](../interfaces/IOnPageRedirectChainsTaskInfo.md#cost)
+[`IOnPageRedirectChainsTaskInfo`](../interfaces/IOnPageRedirectChainsTaskInfo.md).[`cost`](../interfaces/IOnPageRedirectChainsTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[IOnPageRedirectChainsTaskInfo](../interfaces/IOnPageRedirectChainsTaskInfo.md).[data](../interfaces/IOnPageRedirectChainsTaskInfo.md#data)
+[`IOnPageRedirectChainsTaskInfo`](../interfaces/IOnPageRedirectChainsTaskInfo.md).[`data`](../interfaces/IOnPageRedirectChainsTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IOnPageRedirectChainsTaskInfo](../interfaces/IOnPageRedirectChainsTaskInfo.md).[id](../interfaces/IOnPageRedirectChainsTaskInfo.md#id)
+[`IOnPageRedirectChainsTaskInfo`](../interfaces/IOnPageRedirectChainsTaskInfo.md).[`id`](../interfaces/IOnPageRedirectChainsTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[IOnPageRedirectChainsTaskInfo](../interfaces/IOnPageRedirectChainsTaskInfo.md).[path](../interfaces/IOnPageRedirectChainsTaskInfo.md#path)
+[`IOnPageRedirectChainsTaskInfo`](../interfaces/IOnPageRedirectChainsTaskInfo.md).[`path`](../interfaces/IOnPageRedirectChainsTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`OnPageRedirectChainsResultInfo`](OnPageRedirectChainsResultInfo.md)[]
+> **`optional`** **result**: [`OnPageRedirectChainsResultInfo`](OnPageRedirectChainsResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[IOnPageRedirectChainsTaskInfo](../interfaces/IOnPageRedirectChainsTaskInfo.md).[result](../interfaces/IOnPageRedirectChainsTaskInfo.md#result)
+[`IOnPageRedirectChainsTaskInfo`](../interfaces/IOnPageRedirectChainsTaskInfo.md).[`result`](../interfaces/IOnPageRedirectChainsTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:154572
+main.ts:154580
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[IOnPageRedirectChainsTaskInfo](../interfaces/IOnPageRedirectChainsTaskInfo.md).[result_count](../interfaces/IOnPageRedirectChainsTaskInfo.md#result_count)
+[`IOnPageRedirectChainsTaskInfo`](../interfaces/IOnPageRedirectChainsTaskInfo.md).[`result_count`](../interfaces/IOnPageRedirectChainsTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[IOnPageRedirectChainsTaskInfo](../interfaces/IOnPageRedirectChainsTaskInfo.md).[status_code](../interfaces/IOnPageRedirectChainsTaskInfo.md#status_code)
+[`IOnPageRedirectChainsTaskInfo`](../interfaces/IOnPageRedirectChainsTaskInfo.md).[`status_code`](../interfaces/IOnPageRedirectChainsTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IOnPageRedirectChainsTaskInfo](../interfaces/IOnPageRedirectChainsTaskInfo.md).[status_message](../interfaces/IOnPageRedirectChainsTaskInfo.md#status_message)
+[`IOnPageRedirectChainsTaskInfo`](../interfaces/IOnPageRedirectChainsTaskInfo.md).[`status_message`](../interfaces/IOnPageRedirectChainsTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[IOnPageRedirectChainsTaskInfo](../interfaces/IOnPageRedirectChainsTaskInfo.md).[time](../interfaces/IOnPageRedirectChainsTaskInfo.md#time)
+[`IOnPageRedirectChainsTaskInfo`](../interfaces/IOnPageRedirectChainsTaskInfo.md).[`time`](../interfaces/IOnPageRedirectChainsTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:154580
+main.ts:154588
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:154602
+main.ts:154610
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPageRedirectChainsTaskInfo`](OnPageRedirectChainsTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`OnPageRedirectChainsTaskInfo`](OnPageRedirectChainsTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:154595
+main.ts:154603

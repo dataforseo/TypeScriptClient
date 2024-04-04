@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageTasksReadyResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPageTasksReadyResponseInfo
 
 # Class: OnPageTasksReadyResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`OnPageTasksReadyResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPageTasksReadyResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](OnPageTasksReadyResponseInfo.md#cost)
-- [status\_code](OnPageTasksReadyResponseInfo.md#status_code)
-- [status\_message](OnPageTasksReadyResponseInfo.md#status_message)
-- [tasks](OnPageTasksReadyResponseInfo.md#tasks)
-- [tasks\_count](OnPageTasksReadyResponseInfo.md#tasks_count)
-- [tasks\_error](OnPageTasksReadyResponseInfo.md#tasks_error)
-- [time](OnPageTasksReadyResponseInfo.md#time)
-- [version](OnPageTasksReadyResponseInfo.md#version)
-
-### Methods
-
-- [init](OnPageTasksReadyResponseInfo.md#init)
-- [toJSON](OnPageTasksReadyResponseInfo.md#tojson)
-- [fromJS](OnPageTasksReadyResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPageTasksReadyResponseInfo(data)
 
-• **new OnPageTasksReadyResponseInfo**(`data?`): [`OnPageTasksReadyResponseInfo`](OnPageTasksReadyResponseInfo.md)
+> **new OnPageTasksReadyResponseInfo**(`data`?): [`OnPageTasksReadyResponseInfo`](OnPageTasksReadyResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPageTasksReadyResponseInfo`](../interfaces/IOnPageTasksReadyResponseInfo.md) |
+• **data?**: [`IOnPageTasksReadyResponseInfo`](../interfaces/IOnPageTasksReadyResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:148579
+main.ts:148587
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IOnPageTasksReadyResponseInfo](../interfaces/IOnPageTasksReadyResponseInfo.md).[cost](../interfaces/IOnPageTasksReadyResponseInfo.md#cost)
+[`IOnPageTasksReadyResponseInfo`](../interfaces/IOnPageTasksReadyResponseInfo.md).[`cost`](../interfaces/IOnPageTasksReadyResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[IOnPageTasksReadyResponseInfo](../interfaces/IOnPageTasksReadyResponseInfo.md).[status_code](../interfaces/IOnPageTasksReadyResponseInfo.md#status_code)
+[`IOnPageTasksReadyResponseInfo`](../interfaces/IOnPageTasksReadyResponseInfo.md).[`status_code`](../interfaces/IOnPageTasksReadyResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IOnPageTasksReadyResponseInfo](../interfaces/IOnPageTasksReadyResponseInfo.md).[status_message](../interfaces/IOnPageTasksReadyResponseInfo.md#status_message)
+[`IOnPageTasksReadyResponseInfo`](../interfaces/IOnPageTasksReadyResponseInfo.md).[`status_message`](../interfaces/IOnPageTasksReadyResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`OnPageTasksReadyTaskInfo`](OnPageTasksReadyTaskInfo.md)[]
+> **`optional`** **tasks**: [`OnPageTasksReadyTaskInfo`](OnPageTasksReadyTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[IOnPageTasksReadyResponseInfo](../interfaces/IOnPageTasksReadyResponseInfo.md).[tasks](../interfaces/IOnPageTasksReadyResponseInfo.md#tasks)
+[`IOnPageTasksReadyResponseInfo`](../interfaces/IOnPageTasksReadyResponseInfo.md).[`tasks`](../interfaces/IOnPageTasksReadyResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:148575
+main.ts:148583
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[IOnPageTasksReadyResponseInfo](../interfaces/IOnPageTasksReadyResponseInfo.md).[tasks_count](../interfaces/IOnPageTasksReadyResponseInfo.md#tasks_count)
+[`IOnPageTasksReadyResponseInfo`](../interfaces/IOnPageTasksReadyResponseInfo.md).[`tasks_count`](../interfaces/IOnPageTasksReadyResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[IOnPageTasksReadyResponseInfo](../interfaces/IOnPageTasksReadyResponseInfo.md).[tasks_error](../interfaces/IOnPageTasksReadyResponseInfo.md#tasks_error)
+[`IOnPageTasksReadyResponseInfo`](../interfaces/IOnPageTasksReadyResponseInfo.md).[`tasks_error`](../interfaces/IOnPageTasksReadyResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[IOnPageTasksReadyResponseInfo](../interfaces/IOnPageTasksReadyResponseInfo.md).[time](../interfaces/IOnPageTasksReadyResponseInfo.md#time)
+[`IOnPageTasksReadyResponseInfo`](../interfaces/IOnPageTasksReadyResponseInfo.md).[`time`](../interfaces/IOnPageTasksReadyResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[IOnPageTasksReadyResponseInfo](../interfaces/IOnPageTasksReadyResponseInfo.md).[version](../interfaces/IOnPageTasksReadyResponseInfo.md#version)
+[`IOnPageTasksReadyResponseInfo`](../interfaces/IOnPageTasksReadyResponseInfo.md).[`version`](../interfaces/IOnPageTasksReadyResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:148583
+main.ts:148591
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:148605
+main.ts:148613
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPageTasksReadyResponseInfo`](OnPageTasksReadyResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`OnPageTasksReadyResponseInfo`](OnPageTasksReadyResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:148598
+main.ts:148606

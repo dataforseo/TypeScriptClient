@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixSocialMediaBusinessDataLimitsRatesDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppendixSocialMediaBusinessDataLimitsRatesDataInfo
 
 # Class: AppendixSocialMediaBusinessDataLimitsRatesDataInfo
 
@@ -8,144 +12,118 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixSocialMediaBusinessDataLimitsRatesDataInfo.md#constructor)
-
-### Properties
-
-- [facebook](AppendixSocialMediaBusinessDataLimitsRatesDataInfo.md#facebook)
-- [pinterest](AppendixSocialMediaBusinessDataLimitsRatesDataInfo.md#pinterest)
-- [reddit](AppendixSocialMediaBusinessDataLimitsRatesDataInfo.md#reddit)
-
-### Methods
-
-- [init](AppendixSocialMediaBusinessDataLimitsRatesDataInfo.md#init)
-- [toJSON](AppendixSocialMediaBusinessDataLimitsRatesDataInfo.md#tojson)
-- [fromJS](AppendixSocialMediaBusinessDataLimitsRatesDataInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixSocialMediaBusinessDataLimitsRatesDataInfo(data)
 
-• **new AppendixSocialMediaBusinessDataLimitsRatesDataInfo**(`data?`): [`AppendixSocialMediaBusinessDataLimitsRatesDataInfo`](AppendixSocialMediaBusinessDataLimitsRatesDataInfo.md)
+> **new AppendixSocialMediaBusinessDataLimitsRatesDataInfo**(`data`?): [`AppendixSocialMediaBusinessDataLimitsRatesDataInfo`](AppendixSocialMediaBusinessDataLimitsRatesDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixSocialMediaBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixSocialMediaBusinessDataLimitsRatesDataInfo.md) |
+• **data?**: [`IAppendixSocialMediaBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixSocialMediaBusinessDataLimitsRatesDataInfo.md)
 
 #### Returns
 
 [`AppendixSocialMediaBusinessDataLimitsRatesDataInfo`](AppendixSocialMediaBusinessDataLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:213448
 
 ## Properties
 
-### facebook
+### facebook?
 
-• `Optional` **facebook**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **facebook**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
-[IAppendixSocialMediaBusinessDataLimitsRatesDataInfo](../interfaces/IAppendixSocialMediaBusinessDataLimitsRatesDataInfo.md).[facebook](../interfaces/IAppendixSocialMediaBusinessDataLimitsRatesDataInfo.md#facebook)
+[`IAppendixSocialMediaBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixSocialMediaBusinessDataLimitsRatesDataInfo.md).[`facebook`](../interfaces/IAppendixSocialMediaBusinessDataLimitsRatesDataInfo.md#facebook)
 
-#### Defined in
+#### Source
 
 main.ts:213442
 
-___
+***
 
-### pinterest
+### pinterest?
 
-• `Optional` **pinterest**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **pinterest**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
-[IAppendixSocialMediaBusinessDataLimitsRatesDataInfo](../interfaces/IAppendixSocialMediaBusinessDataLimitsRatesDataInfo.md).[pinterest](../interfaces/IAppendixSocialMediaBusinessDataLimitsRatesDataInfo.md#pinterest)
+[`IAppendixSocialMediaBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixSocialMediaBusinessDataLimitsRatesDataInfo.md).[`pinterest`](../interfaces/IAppendixSocialMediaBusinessDataLimitsRatesDataInfo.md#pinterest)
 
-#### Defined in
+#### Source
 
 main.ts:213443
 
-___
+***
 
-### reddit
+### reddit?
 
-• `Optional` **reddit**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **reddit**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
-[IAppendixSocialMediaBusinessDataLimitsRatesDataInfo](../interfaces/IAppendixSocialMediaBusinessDataLimitsRatesDataInfo.md).[reddit](../interfaces/IAppendixSocialMediaBusinessDataLimitsRatesDataInfo.md#reddit)
+[`IAppendixSocialMediaBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixSocialMediaBusinessDataLimitsRatesDataInfo.md).[`reddit`](../interfaces/IAppendixSocialMediaBusinessDataLimitsRatesDataInfo.md#reddit)
 
-#### Defined in
+#### Source
 
 main.ts:213444
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:213457
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:213476
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppendixSocialMediaBusinessDataLimitsRatesDataInfo`](AppendixSocialMediaBusinessDataLimitsRatesDataInfo.md)
+> **`static`** **fromJS**(`data`): [`AppendixSocialMediaBusinessDataLimitsRatesDataInfo`](AppendixSocialMediaBusinessDataLimitsRatesDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppendixSocialMediaBusinessDataLimitsRatesDataInfo`](AppendixSocialMediaBusinessDataLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:213469

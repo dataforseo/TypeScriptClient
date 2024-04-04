@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / PeopleAlsoSearchSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / PeopleAlsoSearchSerpElementItem
 
 # Class: PeopleAlsoSearchSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-  ↳ **`PeopleAlsoSearchSerpElementItem`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](PeopleAlsoSearchSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](PeopleAlsoSearchSerpElementItem.md#_discriminator)
-- [items](PeopleAlsoSearchSerpElementItem.md#items)
-- [position](PeopleAlsoSearchSerpElementItem.md#position)
-- [rank\_absolute](PeopleAlsoSearchSerpElementItem.md#rank_absolute)
-- [rank\_group](PeopleAlsoSearchSerpElementItem.md#rank_group)
-- [rectangle](PeopleAlsoSearchSerpElementItem.md#rectangle)
-- [title](PeopleAlsoSearchSerpElementItem.md#title)
-- [xpath](PeopleAlsoSearchSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](PeopleAlsoSearchSerpElementItem.md#init)
-- [toJSON](PeopleAlsoSearchSerpElementItem.md#tojson)
-- [fromJS](PeopleAlsoSearchSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new PeopleAlsoSearchSerpElementItem(data)
 
-• **new PeopleAlsoSearchSerpElementItem**(`data?`): [`PeopleAlsoSearchSerpElementItem`](PeopleAlsoSearchSerpElementItem.md)
+> **new PeopleAlsoSearchSerpElementItem**(`data`?): [`PeopleAlsoSearchSerpElementItem`](PeopleAlsoSearchSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IPeopleAlsoSearchSerpElementItem`](../interfaces/IPeopleAlsoSearchSerpElementItem.md) |
+• **data?**: [`IPeopleAlsoSearchSerpElementItem`](../interfaces/IPeopleAlsoSearchSerpElementItem.md)
 
 #### Returns
 
@@ -57,9 +34,9 @@
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[constructor](BaseSerpElementItem.md#constructor)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:29457
 
@@ -67,38 +44,38 @@ main.ts:29457
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[_discriminator](BaseSerpElementItem.md#_discriminator)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:19788
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: `string`[]
+> **`optional`** **items**: `string`[]
 
 additional items present in the element
 if there are none, equals null
 
 #### Implementation of
 
-[IPeopleAlsoSearchSerpElementItem](../interfaces/IPeopleAlsoSearchSerpElementItem.md).[items](../interfaces/IPeopleAlsoSearchSerpElementItem.md#items)
+[`IPeopleAlsoSearchSerpElementItem`](../interfaces/IPeopleAlsoSearchSerpElementItem.md).[`items`](../interfaces/IPeopleAlsoSearchSerpElementItem.md#items)
 
-#### Defined in
+#### Source
 
 main.ts:29449
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -106,17 +83,17 @@ left, right
 
 #### Implementation of
 
-[IPeopleAlsoSearchSerpElementItem](../interfaces/IPeopleAlsoSearchSerpElementItem.md).[position](../interfaces/IPeopleAlsoSearchSerpElementItem.md#position)
+[`IPeopleAlsoSearchSerpElementItem`](../interfaces/IPeopleAlsoSearchSerpElementItem.md).[`position`](../interfaces/IPeopleAlsoSearchSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
 main.ts:29442
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -124,17 +101,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IPeopleAlsoSearchSerpElementItem](../interfaces/IPeopleAlsoSearchSerpElementItem.md).[rank_absolute](../interfaces/IPeopleAlsoSearchSerpElementItem.md#rank_absolute)
+[`IPeopleAlsoSearchSerpElementItem`](../interfaces/IPeopleAlsoSearchSerpElementItem.md).[`rank_absolute`](../interfaces/IPeopleAlsoSearchSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
 main.ts:29438
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
@@ -143,17 +120,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IPeopleAlsoSearchSerpElementItem](../interfaces/IPeopleAlsoSearchSerpElementItem.md).[rank_group](../interfaces/IPeopleAlsoSearchSerpElementItem.md#rank_group)
+[`IPeopleAlsoSearchSerpElementItem`](../interfaces/IPeopleAlsoSearchSerpElementItem.md).[`rank_group`](../interfaces/IPeopleAlsoSearchSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
 main.ts:29434
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -161,55 +138,53 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Implementation of
 
-[IPeopleAlsoSearchSerpElementItem](../interfaces/IPeopleAlsoSearchSerpElementItem.md).[rectangle](../interfaces/IPeopleAlsoSearchSerpElementItem.md#rectangle)
+[`IPeopleAlsoSearchSerpElementItem`](../interfaces/IPeopleAlsoSearchSerpElementItem.md).[`rectangle`](../interfaces/IPeopleAlsoSearchSerpElementItem.md#rectangle)
 
-#### Defined in
+#### Source
 
 main.ts:29453
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the row
 
 #### Implementation of
 
-[IPeopleAlsoSearchSerpElementItem](../interfaces/IPeopleAlsoSearchSerpElementItem.md).[title](../interfaces/IPeopleAlsoSearchSerpElementItem.md#title)
+[`IPeopleAlsoSearchSerpElementItem`](../interfaces/IPeopleAlsoSearchSerpElementItem.md).[`title`](../interfaces/IPeopleAlsoSearchSerpElementItem.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:29446
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IPeopleAlsoSearchSerpElementItem](../interfaces/IPeopleAlsoSearchSerpElementItem.md).[xpath](../interfaces/IPeopleAlsoSearchSerpElementItem.md#xpath)
+[`IPeopleAlsoSearchSerpElementItem`](../interfaces/IPeopleAlsoSearchSerpElementItem.md).[`xpath`](../interfaces/IPeopleAlsoSearchSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
 main.ts:29444
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -217,23 +192,21 @@ main.ts:29444
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[init](BaseSerpElementItem.md#init)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:29462
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -241,23 +214,21 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[toJSON](BaseSerpElementItem.md#tojson)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:29490
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`PeopleAlsoSearchSerpElementItem`](PeopleAlsoSearchSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`PeopleAlsoSearchSerpElementItem`](PeopleAlsoSearchSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -265,8 +236,8 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[fromJS](BaseSerpElementItem.md#fromjs)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:29483

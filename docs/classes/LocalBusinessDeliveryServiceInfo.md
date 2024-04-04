@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / LocalBusinessDeliveryServiceInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / LocalBusinessDeliveryServiceInfo
 
 # Class: LocalBusinessDeliveryServiceInfo
 
@@ -8,151 +12,125 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](LocalBusinessDeliveryServiceInfo.md#constructor)
-
-### Properties
-
-- [title](LocalBusinessDeliveryServiceInfo.md#title)
-- [type](LocalBusinessDeliveryServiceInfo.md#type)
-- [url](LocalBusinessDeliveryServiceInfo.md#url)
-
-### Methods
-
-- [init](LocalBusinessDeliveryServiceInfo.md#init)
-- [toJSON](LocalBusinessDeliveryServiceInfo.md#tojson)
-- [fromJS](LocalBusinessDeliveryServiceInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new LocalBusinessDeliveryServiceInfo(data)
 
-• **new LocalBusinessDeliveryServiceInfo**(`data?`): [`LocalBusinessDeliveryServiceInfo`](LocalBusinessDeliveryServiceInfo.md)
+> **new LocalBusinessDeliveryServiceInfo**(`data`?): [`LocalBusinessDeliveryServiceInfo`](LocalBusinessDeliveryServiceInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ILocalBusinessDeliveryServiceInfo`](../interfaces/ILocalBusinessDeliveryServiceInfo.md) |
+• **data?**: [`ILocalBusinessDeliveryServiceInfo`](../interfaces/ILocalBusinessDeliveryServiceInfo.md)
 
 #### Returns
 
 [`LocalBusinessDeliveryServiceInfo`](LocalBusinessDeliveryServiceInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:22908
 
 ## Properties
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the element
 domain of the online food ordering system
 
 #### Implementation of
 
-[ILocalBusinessDeliveryServiceInfo](../interfaces/ILocalBusinessDeliveryServiceInfo.md).[title](../interfaces/ILocalBusinessDeliveryServiceInfo.md#title)
+[`ILocalBusinessDeliveryServiceInfo`](../interfaces/ILocalBusinessDeliveryServiceInfo.md).[`title`](../interfaces/ILocalBusinessDeliveryServiceInfo.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:22902
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[ILocalBusinessDeliveryServiceInfo](../interfaces/ILocalBusinessDeliveryServiceInfo.md).[type](../interfaces/ILocalBusinessDeliveryServiceInfo.md#type)
+[`ILocalBusinessDeliveryServiceInfo`](../interfaces/ILocalBusinessDeliveryServiceInfo.md).[`type`](../interfaces/ILocalBusinessDeliveryServiceInfo.md#type)
 
-#### Defined in
+#### Source
 
 main.ts:22899
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL to place an order
 
 #### Implementation of
 
-[ILocalBusinessDeliveryServiceInfo](../interfaces/ILocalBusinessDeliveryServiceInfo.md).[url](../interfaces/ILocalBusinessDeliveryServiceInfo.md#url)
+[`ILocalBusinessDeliveryServiceInfo`](../interfaces/ILocalBusinessDeliveryServiceInfo.md).[`url`](../interfaces/ILocalBusinessDeliveryServiceInfo.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:22904
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:22917
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:22936
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`LocalBusinessDeliveryServiceInfo`](LocalBusinessDeliveryServiceInfo.md)
+> **`static`** **fromJS**(`data`): [`LocalBusinessDeliveryServiceInfo`](LocalBusinessDeliveryServiceInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`LocalBusinessDeliveryServiceInfo`](LocalBusinessDeliveryServiceInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:22929

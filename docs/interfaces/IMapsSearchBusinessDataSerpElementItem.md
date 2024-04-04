@@ -1,403 +1,369 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMapsSearchBusinessDataSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IMapsSearchBusinessDataSerpElementItem
 
 # Interface: IMapsSearchBusinessDataSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md)
 
-  ↳ **`IMapsSearchBusinessDataSerpElementItem`**
-
-## Implemented by
-
-- [`MapsSearchBusinessDataSerpElementItem`](../classes/MapsSearchBusinessDataSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [additional\_categories](IMapsSearchBusinessDataSerpElementItem.md#additional_categories)
-- [address](IMapsSearchBusinessDataSerpElementItem.md#address)
-- [address\_info](IMapsSearchBusinessDataSerpElementItem.md#address_info)
-- [category](IMapsSearchBusinessDataSerpElementItem.md#category)
-- [category\_ids](IMapsSearchBusinessDataSerpElementItem.md#category_ids)
-- [cid](IMapsSearchBusinessDataSerpElementItem.md#cid)
-- [domain](IMapsSearchBusinessDataSerpElementItem.md#domain)
-- [feature\_id](IMapsSearchBusinessDataSerpElementItem.md#feature_id)
-- [hotel\_rating](IMapsSearchBusinessDataSerpElementItem.md#hotel_rating)
-- [is\_claimed](IMapsSearchBusinessDataSerpElementItem.md#is_claimed)
-- [is\_directory\_item](IMapsSearchBusinessDataSerpElementItem.md#is_directory_item)
-- [latitude](IMapsSearchBusinessDataSerpElementItem.md#latitude)
-- [local\_justifications](IMapsSearchBusinessDataSerpElementItem.md#local_justifications)
-- [longitude](IMapsSearchBusinessDataSerpElementItem.md#longitude)
-- [main\_image](IMapsSearchBusinessDataSerpElementItem.md#main_image)
-- [phone](IMapsSearchBusinessDataSerpElementItem.md#phone)
-- [place\_id](IMapsSearchBusinessDataSerpElementItem.md#place_id)
-- [price\_level](IMapsSearchBusinessDataSerpElementItem.md#price_level)
-- [rank\_absolute](IMapsSearchBusinessDataSerpElementItem.md#rank_absolute)
-- [rank\_group](IMapsSearchBusinessDataSerpElementItem.md#rank_group)
-- [rating](IMapsSearchBusinessDataSerpElementItem.md#rating)
-- [rating\_distribution](IMapsSearchBusinessDataSerpElementItem.md#rating_distribution)
-- [snippet](IMapsSearchBusinessDataSerpElementItem.md#snippet)
-- [title](IMapsSearchBusinessDataSerpElementItem.md#title)
-- [total\_photos](IMapsSearchBusinessDataSerpElementItem.md#total_photos)
-- [url](IMapsSearchBusinessDataSerpElementItem.md#url)
-- [work\_hours](IMapsSearchBusinessDataSerpElementItem.md#work_hours)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### additional\_categories
+### additional\_categories?
 
-• `Optional` **additional\_categories**: `string`[]
+> **`optional`** **additional\_categories**: `string`[]
 
 additional business categories
 additional Google My Business categories that describe the services provided by the business entity in more detail
 
-#### Defined in
+#### Source
 
 main.ts:196710
 
-___
+***
 
-### address
+### address?
 
-• `Optional` **address**: `string`
+> **`optional`** **address**: `string`
 
 address of the business entity
 
-#### Defined in
+#### Source
 
 main.ts:196692
 
-___
+***
 
-### address\_info
+### address\_info?
 
-• `Optional` **address\_info**: [`AddressInfo`](../classes/AddressInfo.md)
+> **`optional`** **address\_info**: [`AddressInfo`](../classes/AddressInfo.md)
 
 object containing address components of the business entity
 
-#### Defined in
+#### Source
 
 main.ts:196694
 
-___
+***
 
-### category
+### category?
 
-• `Optional` **category**: `string`
+> **`optional`** **category**: `string`
 
 business category
 Google My Business general category that best describes the services provided by the business entity
 
-#### Defined in
+#### Source
 
 main.ts:196707
 
-___
+***
 
-### category\_ids
+### category\_ids?
 
-• `Optional` **category\_ids**: `string`[]
+> **`optional`** **category\_ids**: `string`[]
 
 global category IDs
 universal category IDs that do not change based on the selected country
 
-#### Defined in
+#### Source
 
 main.ts:196721
 
-___
+***
 
-### cid
+### cid?
 
-• `Optional` **cid**: `string`
+> **`optional`** **cid**: `string`
 
 google-defined client id
 unique id of a local establishment;
 can be used with Google Reviews API to get a full list of reviews
 learn more about the identifier in this help center article
 
-#### Defined in
+#### Source
 
 main.ts:196732
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain of the business entity
 
-#### Defined in
+#### Source
 
 main.ts:196677
 
-___
+***
 
-### feature\_id
+### feature\_id?
 
-• `Optional` **feature\_id**: `string`
+> **`optional`** **feature\_id**: `string`
 
 the unique identifier of the element in SERP
 learn more about the identifier in this help center article
 
-#### Defined in
+#### Source
 
 main.ts:196727
 
-___
+***
 
-### hotel\_rating
+### hotel\_rating?
 
-• `Optional` **hotel\_rating**: `number`
+> **`optional`** **hotel\_rating**: `number`
 
 hotel class rating
 class ratings range between 1-5 stars, learn more
 if there is no hotel class rating information, the value will be null
 
-#### Defined in
+#### Source
 
 main.ts:196718
 
-___
+***
 
-### is\_claimed
+### is\_claimed?
 
-• `Optional` **is\_claimed**: `boolean`
+> **`optional`** **is\_claimed**: `boolean`
 
 shows whether the entity is verified by its owner on Google Maps
 
-#### Defined in
+#### Source
 
 main.ts:196742
 
-___
+***
 
-### is\_directory\_item
+### is\_directory\_item?
 
-• `Optional` **is\_directory\_item**: `boolean`
+> **`optional`** **is\_directory\_item**: `boolean`
 
 business establishment is a part of the directory
 indicates whether the business establishment is a part of the directory;
 if true, the item is a part of the larger directory of businesses with the same address (e.g., a mall or a business centre);
 note: if the business establishment is a parent item in the directory, the value will be null
 
-#### Defined in
+#### Source
 
 main.ts:196750
 
-___
+***
 
-### latitude
+### latitude?
 
-• `Optional` **latitude**: `number`
+> **`optional`** **latitude**: `number`
 
 latitude coordinate of the local establishments in google maps
 example:
 "latitude": 51.584091
 
-#### Defined in
+#### Source
 
 main.ts:196736
 
-___
+***
 
-### local\_justifications
+### local\_justifications?
 
-• `Optional` **local\_justifications**: `string`[]
+> **`optional`** **local\_justifications**: `string`[]
 
 Google local justifications
 snippets of text that “justify” why the business is showing up for search query
 
-#### Defined in
+#### Source
 
 main.ts:196745
 
-___
+***
 
-### longitude
+### longitude?
 
-• `Optional` **longitude**: `number`
+> **`optional`** **longitude**: `number`
 
 longitude coordinate of the local establishment in google maps
 example:
 "longitude": -0.31365919999999997
 
-#### Defined in
+#### Source
 
 main.ts:196740
 
-___
+***
 
-### main\_image
+### main\_image?
 
-• `Optional` **main\_image**: `string`
+> **`optional`** **main\_image**: `string`
 
 URL of the main image featured in Google My Business profile
 
-#### Defined in
+#### Source
 
 main.ts:196702
 
-___
+***
 
-### phone
+### phone?
 
-• `Optional` **phone**: `string`
+> **`optional`** **phone**: `string`
 
 phone number of the business entity
 
-#### Defined in
+#### Source
 
 main.ts:196700
 
-___
+***
 
-### place\_id
+### place\_id?
 
-• `Optional` **place\_id**: `string`
+> **`optional`** **place\_id**: `string`
 
 unique place identifier
 place id of the local establishment featured in the element
 learn more about the identifier in this help center article
 
-#### Defined in
+#### Source
 
 main.ts:196698
 
-___
+***
 
-### price\_level
+### price\_level?
 
-• `Optional` **price\_level**: `string`
+> **`optional`** **price\_level**: `string`
 
 property price level
 can take values: inexpensive, moderate, expensive, very_expensive
 if there is no price level information, the value will be null
 
-#### Defined in
+#### Source
 
 main.ts:196714
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank among all the elements
 
-#### Defined in
+#### Source
 
 main.ts:196675
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from the rank_group
 
-#### Defined in
+#### Source
 
 main.ts:196673
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
 the element’s rating 
 the popularity rate based on reviews and displayed in SERP
 
-#### Defined in
+#### Source
 
 main.ts:196685
 
-___
+***
 
-### rating\_distribution
+### rating\_distribution?
 
-• `Optional` **rating\_distribution**: `Object`
+> **`optional`** **rating\_distribution**: `Object`
 
 the distribution of ratings of the business entity
 the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
-#### Defined in
+#### Source
 
 main.ts:196688
 
-___
+***
 
-### snippet
+### snippet?
 
-• `Optional` **snippet**: `string`
+> **`optional`** **snippet**: `string`
 
 additional information about the business entity
 
-#### Defined in
+#### Source
 
 main.ts:196690
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 directory title
 can take the following values: At this place, Directory
 
-#### Defined in
+#### Source
 
 main.ts:196680
 
-___
+***
 
-### total\_photos
+### total\_photos?
 
-• `Optional` **total\_photos**: `number`
+> **`optional`** **total\_photos**: `number`
 
 total count of images featured in Google My Business profile
 
-#### Defined in
+#### Source
 
 main.ts:196704
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL to view the menu
 
-#### Defined in
+#### Source
 
 main.ts:196682
 
-___
+***
 
-### work\_hours
+### work\_hours?
 
-• `Optional` **work\_hours**: [`WorkInfo`](../classes/WorkInfo.md)
+> **`optional`** **work\_hours**: [`WorkInfo`](../classes/WorkInfo.md)
 
 open hours
 information about work hours of the local establishment
 
-#### Defined in
+#### Source
 
 main.ts:196724

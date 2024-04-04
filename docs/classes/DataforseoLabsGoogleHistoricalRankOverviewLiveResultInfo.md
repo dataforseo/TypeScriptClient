@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo
 
 # Class: DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo
 
@@ -8,218 +12,188 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md#constructor)
-
-### Properties
-
-- [items](DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md#items)
-- [items\_count](DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md#items_count)
-- [language\_code](DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md#language_code)
-- [location\_code](DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md#location_code)
-- [se\_type](DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md#se_type)
-- [target](DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md#target)
-- [total\_count](DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md#total_count)
-
-### Methods
-
-- [init](DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md#init)
-- [toJSON](DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md#tojson)
-- [fromJS](DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo(data)
 
-• **new DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo**(`data?`): [`DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo`](DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md)
+> **new DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo**(`data`?): [`DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo`](DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md) |
+• **data?**: [`IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo`](DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:98911
+main.ts:98919
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`DataforseoLabsGoogleHistoricalRankOverviewLiveItem`](DataforseoLabsGoogleHistoricalRankOverviewLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsGoogleHistoricalRankOverviewLiveItem`](DataforseoLabsGoogleHistoricalRankOverviewLiveItem.md)[]
 
 contains historical ranking and traffic data
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md).[items](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md#items)
+[`IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:98907
+main.ts:98915
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md).[items_count](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md#items_count)
+[`IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:98905
+main.ts:98913
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md).[language_code](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md#language_code)
+[`IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:98901
+main.ts:98909
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md).[location_code](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md#location_code)
+[`IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:98899
+main.ts:98907
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md).[se_type](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md#se_type)
+[`IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:98895
+main.ts:98903
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 target domain in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md).[target](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md#target)
+[`IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md).[`target`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md#target)
 
-#### Defined in
+#### Source
 
-main.ts:98897
+main.ts:98905
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md).[total_count](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md#total_count)
+[`IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md#total_count)
 
-#### Defined in
+#### Source
 
-main.ts:98903
+main.ts:98911
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:98920
+main.ts:98928
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:98947
+main.ts:98955
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo`](DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo`](DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo`](DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:98940
+main.ts:98948

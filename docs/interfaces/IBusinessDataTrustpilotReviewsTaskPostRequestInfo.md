@@ -1,32 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataTrustpilotReviewsTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBusinessDataTrustpilotReviewsTaskPostRequestInfo
 
 # Interface: IBusinessDataTrustpilotReviewsTaskPostRequestInfo
 
-## Implemented by
-
-- [`BusinessDataTrustpilotReviewsTaskPostRequestInfo`](../classes/BusinessDataTrustpilotReviewsTaskPostRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [depth](IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md#depth)
-- [domain](IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md#domain)
-- [pingback\_url](IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md#pingback_url)
-- [postback\_url](IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md#postback_url)
-- [priority](IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md#priority)
-- [sort\_by](IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md#sort_by)
-- [tag](IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### depth
+### depth?
 
-• `Optional` **depth**: `number`
+> **`optional`** **depth**: `number`
 
 parsing depth
 optional field
@@ -35,15 +23,15 @@ we strongly recommend setting the parsing depth in the multiples of twenty, beca
 default value: 20
 maximum value: 25000
 
-#### Defined in
+#### Source
 
 main.ts:205010
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain of the local establishment
 required field
@@ -53,15 +41,15 @@ example:
 www.thepearlsource.com
 https://www.trustpilot.com/review/www.thepearlsource.com
 
-#### Defined in
+#### Source
 
 main.ts:204987
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -73,15 +61,15 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special symbols in pingback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
 main.ts:205036
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -93,15 +81,15 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special symbols in postback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
 main.ts:205026
 
-___
+***
 
-### priority
+### priority?
 
-• `Optional` **priority**: `number`
+> **`optional`** **priority**: `number`
 
 task priority
 optional field
@@ -111,15 +99,15 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page.
 
-#### Defined in
+#### Source
 
 main.ts:205003
 
-___
+***
 
-### sort\_by
+### sort\_by?
 
-• `Optional` **sort\_by**: `string`
+> **`optional`** **sort\_by**: `string`
 
 results sorting parameter
 optional field
@@ -129,15 +117,15 @@ recency — most recent reviews first;
 relevance — most relevant reviews first;
 default value: relevance
 
-#### Defined in
+#### Source
 
 main.ts:204995
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -145,6 +133,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
 main.ts:205016

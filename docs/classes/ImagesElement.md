@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ImagesElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ImagesElement
 
 # Class: ImagesElement
 
@@ -8,168 +12,141 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ImagesElement.md#constructor)
-
-### Properties
-
-- [alt](ImagesElement.md#alt)
-- [image\_url](ImagesElement.md#image_url)
-- [type](ImagesElement.md#type)
-- [url](ImagesElement.md#url)
-
-### Methods
-
-- [init](ImagesElement.md#init)
-- [toJSON](ImagesElement.md#tojson)
-- [fromJS](ImagesElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ImagesElement(data)
 
-• **new ImagesElement**(`data?`): [`ImagesElement`](ImagesElement.md)
+> **new ImagesElement**(`data`?): [`ImagesElement`](ImagesElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IImagesElement`](../interfaces/IImagesElement.md) |
+• **data?**: [`IImagesElement`](../interfaces/IImagesElement.md)
 
 #### Returns
 
 [`ImagesElement`](ImagesElement.md)
 
-#### Defined in
+#### Source
 
 main.ts:27398
 
 ## Properties
 
-### alt
+### alt?
 
-• `Optional` **alt**: `string`
+> **`optional`** **alt**: `string`
 
 alt tag of the image
 
 #### Implementation of
 
-[IImagesElement](../interfaces/IImagesElement.md).[alt](../interfaces/IImagesElement.md#alt)
+[`IImagesElement`](../interfaces/IImagesElement.md).[`alt`](../interfaces/IImagesElement.md#alt)
 
-#### Defined in
+#### Source
 
 main.ts:27389
 
-___
+***
 
-### image\_url
+### image\_url?
 
-• `Optional` **image\_url**: `string`
+> **`optional`** **image\_url**: `string`
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
 
 #### Implementation of
 
-[IImagesElement](../interfaces/IImagesElement.md).[image_url](../interfaces/IImagesElement.md#image_url)
+[`IImagesElement`](../interfaces/IImagesElement.md).[`image_url`](../interfaces/IImagesElement.md#image_url)
 
-#### Defined in
+#### Source
 
 main.ts:27394
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IImagesElement](../interfaces/IImagesElement.md).[type](../interfaces/IImagesElement.md#type)
+[`IImagesElement`](../interfaces/IImagesElement.md).[`type`](../interfaces/IImagesElement.md#type)
 
-#### Defined in
+#### Source
 
 main.ts:27387
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL link
 
 #### Implementation of
 
-[IImagesElement](../interfaces/IImagesElement.md).[url](../interfaces/IImagesElement.md#url)
+[`IImagesElement`](../interfaces/IImagesElement.md).[`url`](../interfaces/IImagesElement.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:27391
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:27407
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:27427
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ImagesElement`](ImagesElement.md)
+> **`static`** **fromJS**(`data`): [`ImagesElement`](ImagesElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ImagesElement`](ImagesElement.md)
 
-#### Defined in
+#### Source
 
 main.ts:27420

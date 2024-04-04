@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageWaterfallItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPageWaterfallItem
 
 # Class: OnPageWaterfallItem
 
@@ -8,311 +12,276 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPageWaterfallItem.md#constructor)
-
-### Properties
-
-- [connection\_time](OnPageWaterfallItem.md#connection_time)
-- [dom\_complete](OnPageWaterfallItem.md#dom_complete)
-- [download\_time](OnPageWaterfallItem.md#download_time)
-- [duration\_time](OnPageWaterfallItem.md#duration_time)
-- [fetch\_end](OnPageWaterfallItem.md#fetch_end)
-- [fetch\_start](OnPageWaterfallItem.md#fetch_start)
-- [page\_url](OnPageWaterfallItem.md#page_url)
-- [request\_sent\_time](OnPageWaterfallItem.md#request_sent_time)
-- [resources](OnPageWaterfallItem.md#resources)
-- [time\_to\_interactive](OnPageWaterfallItem.md#time_to_interactive)
-- [time\_to\_secure\_connection](OnPageWaterfallItem.md#time_to_secure_connection)
-- [waiting\_time](OnPageWaterfallItem.md#waiting_time)
-
-### Methods
-
-- [init](OnPageWaterfallItem.md#init)
-- [toJSON](OnPageWaterfallItem.md#tojson)
-- [fromJS](OnPageWaterfallItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPageWaterfallItem(data)
 
-• **new OnPageWaterfallItem**(`data?`): [`OnPageWaterfallItem`](OnPageWaterfallItem.md)
+> **new OnPageWaterfallItem**(`data`?): [`OnPageWaterfallItem`](OnPageWaterfallItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPageWaterfallItem`](../interfaces/IOnPageWaterfallItem.md) |
+• **data?**: [`IOnPageWaterfallItem`](../interfaces/IOnPageWaterfallItem.md)
 
 #### Returns
 
 [`OnPageWaterfallItem`](OnPageWaterfallItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:155174
+main.ts:155182
 
 ## Properties
 
-### connection\_time
+### connection\_time?
 
-• `Optional` **connection\_time**: `number`
+> **`optional`** **connection\_time**: `number`
 
 time to connect to a server
 the time it takes until the connection with a server is established (in milliseconds)
 
 #### Implementation of
 
-[IOnPageWaterfallItem](../interfaces/IOnPageWaterfallItem.md).[connection_time](../interfaces/IOnPageWaterfallItem.md#connection_time)
+[`IOnPageWaterfallItem`](../interfaces/IOnPageWaterfallItem.md).[`connection_time`](../interfaces/IOnPageWaterfallItem.md#connection_time)
 
-#### Defined in
+#### Source
 
-main.ts:155149
+main.ts:155157
 
-___
+***
 
-### dom\_complete
+### dom\_complete?
 
-• `Optional` **dom\_complete**: `number`
+> **`optional`** **dom\_complete**: `number`
 
 time to load resources
 the time it takes until the page and all of its subresources are downloaded (in milliseconds)
 
 #### Implementation of
 
-[IOnPageWaterfallItem](../interfaces/IOnPageWaterfallItem.md).[dom_complete](../interfaces/IOnPageWaterfallItem.md#dom_complete)
+[`IOnPageWaterfallItem`](../interfaces/IOnPageWaterfallItem.md).[`dom_complete`](../interfaces/IOnPageWaterfallItem.md#dom_complete)
 
-#### Defined in
+#### Source
 
-main.ts:155146
+main.ts:155154
 
-___
+***
 
-### download\_time
+### download\_time?
 
-• `Optional` **download\_time**: `number`
+> **`optional`** **download\_time**: `number`
 
 time it takes for a browser to receive a response (in milliseconds)
 
 #### Implementation of
 
-[IOnPageWaterfallItem](../interfaces/IOnPageWaterfallItem.md).[download_time](../interfaces/IOnPageWaterfallItem.md#download_time)
+[`IOnPageWaterfallItem`](../interfaces/IOnPageWaterfallItem.md).[`download_time`](../interfaces/IOnPageWaterfallItem.md#download_time)
 
-#### Defined in
+#### Source
 
-main.ts:155159
+main.ts:155167
 
-___
+***
 
-### duration\_time
+### duration\_time?
 
-• `Optional` **duration\_time**: `number`
+> **`optional`** **duration\_time**: `number`
 
 total time it takes until a browser receives a complete response from a server (in milliseconds)
 
 #### Implementation of
 
-[IOnPageWaterfallItem](../interfaces/IOnPageWaterfallItem.md).[duration_time](../interfaces/IOnPageWaterfallItem.md#duration_time)
+[`IOnPageWaterfallItem`](../interfaces/IOnPageWaterfallItem.md).[`duration_time`](../interfaces/IOnPageWaterfallItem.md#duration_time)
 
-#### Defined in
+#### Source
 
-main.ts:155161
+main.ts:155169
 
-___
+***
 
-### fetch\_end
+### fetch\_end?
 
-• `Optional` **fetch\_end**: `number`
+> **`optional`** **fetch\_end**: `number`
 
 time to complete downloading the HTML resource
 the amount of time the browser needs to complete downloading a page
 
 #### Implementation of
 
-[IOnPageWaterfallItem](../interfaces/IOnPageWaterfallItem.md).[fetch_end](../interfaces/IOnPageWaterfallItem.md#fetch_end)
+[`IOnPageWaterfallItem`](../interfaces/IOnPageWaterfallItem.md).[`fetch_end`](../interfaces/IOnPageWaterfallItem.md#fetch_end)
 
-#### Defined in
+#### Source
 
-main.ts:155167
+main.ts:155175
 
-___
+***
 
-### fetch\_start
+### fetch\_start?
 
-• `Optional` **fetch\_start**: `number`
+> **`optional`** **fetch\_start**: `number`
 
 time to start downloading the HTML resource
 the amount of time the browser needs to start downloading a page
 
 #### Implementation of
 
-[IOnPageWaterfallItem](../interfaces/IOnPageWaterfallItem.md).[fetch_start](../interfaces/IOnPageWaterfallItem.md#fetch_start)
+[`IOnPageWaterfallItem`](../interfaces/IOnPageWaterfallItem.md).[`fetch_start`](../interfaces/IOnPageWaterfallItem.md#fetch_start)
 
-#### Defined in
+#### Source
 
-main.ts:155164
+main.ts:155172
 
-___
+***
 
-### page\_url
+### page\_url?
 
-• `Optional` **page\_url**: `string`
+> **`optional`** **page\_url**: `string`
 
 URL of the page
 
 #### Implementation of
 
-[IOnPageWaterfallItem](../interfaces/IOnPageWaterfallItem.md).[page_url](../interfaces/IOnPageWaterfallItem.md#page_url)
+[`IOnPageWaterfallItem`](../interfaces/IOnPageWaterfallItem.md).[`page_url`](../interfaces/IOnPageWaterfallItem.md#page_url)
 
-#### Defined in
+#### Source
 
-main.ts:155140
+main.ts:155148
 
-___
+***
 
-### request\_sent\_time
+### request\_sent\_time?
 
-• `Optional` **request\_sent\_time**: `number`
+> **`optional`** **request\_sent\_time**: `number`
 
 time to send a request to a server
 the time it takes until the request to a server is sent (in milliseconds)
 
 #### Implementation of
 
-[IOnPageWaterfallItem](../interfaces/IOnPageWaterfallItem.md).[request_sent_time](../interfaces/IOnPageWaterfallItem.md#request_sent_time)
+[`IOnPageWaterfallItem`](../interfaces/IOnPageWaterfallItem.md).[`request_sent_time`](../interfaces/IOnPageWaterfallItem.md#request_sent_time)
 
-#### Defined in
+#### Source
 
-main.ts:155155
+main.ts:155163
 
-___
+***
 
-### resources
+### resources?
 
-• `Optional` **resources**: [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)[]
+> **`optional`** **resources**: [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)[]
 
 resource-specific timing
 contains separate arrays with timing for each resource found on the page
 
 #### Implementation of
 
-[IOnPageWaterfallItem](../interfaces/IOnPageWaterfallItem.md).[resources](../interfaces/IOnPageWaterfallItem.md#resources)
+[`IOnPageWaterfallItem`](../interfaces/IOnPageWaterfallItem.md).[`resources`](../interfaces/IOnPageWaterfallItem.md#resources)
 
-#### Defined in
+#### Source
 
-main.ts:155170
+main.ts:155178
 
-___
+***
 
-### time\_to\_interactive
+### time\_to\_interactive?
 
-• `Optional` **time\_to\_interactive**: `number`
+> **`optional`** **time\_to\_interactive**: `number`
 
 Time To Interactive (TTI) metric
 the time it takes until the user can interact with a page (in milliseconds)
 
 #### Implementation of
 
-[IOnPageWaterfallItem](../interfaces/IOnPageWaterfallItem.md).[time_to_interactive](../interfaces/IOnPageWaterfallItem.md#time_to_interactive)
+[`IOnPageWaterfallItem`](../interfaces/IOnPageWaterfallItem.md).[`time_to_interactive`](../interfaces/IOnPageWaterfallItem.md#time_to_interactive)
 
-#### Defined in
+#### Source
 
-main.ts:155143
+main.ts:155151
 
-___
+***
 
-### time\_to\_secure\_connection
+### time\_to\_secure\_connection?
 
-• `Optional` **time\_to\_secure\_connection**: `number`
+> **`optional`** **time\_to\_secure\_connection**: `number`
 
 time to establish a secure connection
 the time it takes until the secure connection with a server is established (in milliseconds)
 
 #### Implementation of
 
-[IOnPageWaterfallItem](../interfaces/IOnPageWaterfallItem.md).[time_to_secure_connection](../interfaces/IOnPageWaterfallItem.md#time_to_secure_connection)
+[`IOnPageWaterfallItem`](../interfaces/IOnPageWaterfallItem.md).[`time_to_secure_connection`](../interfaces/IOnPageWaterfallItem.md#time_to_secure_connection)
 
-#### Defined in
+#### Source
 
-main.ts:155152
+main.ts:155160
 
-___
+***
 
-### waiting\_time
+### waiting\_time?
 
-• `Optional` **waiting\_time**: `number`
+> **`optional`** **waiting\_time**: `number`
 
 time to first byte (TTFB) in milliseconds
 
 #### Implementation of
 
-[IOnPageWaterfallItem](../interfaces/IOnPageWaterfallItem.md).[waiting_time](../interfaces/IOnPageWaterfallItem.md#waiting_time)
+[`IOnPageWaterfallItem`](../interfaces/IOnPageWaterfallItem.md).[`waiting_time`](../interfaces/IOnPageWaterfallItem.md#waiting_time)
 
-#### Defined in
+#### Source
 
-main.ts:155157
+main.ts:155165
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:155183
+main.ts:155191
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:155215
+main.ts:155223
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPageWaterfallItem`](OnPageWaterfallItem.md)
+> **`static`** **fromJS**(`data`): [`OnPageWaterfallItem`](OnPageWaterfallItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`OnPageWaterfallItem`](OnPageWaterfallItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:155208
+main.ts:155216

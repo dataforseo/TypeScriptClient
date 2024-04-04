@@ -1,95 +1,84 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IResourceMetaInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IResourceMetaInfo
 
 # Interface: IResourceMetaInfo
 
-## Implemented by
-
-- [`ResourceMetaInfo`](../classes/ResourceMetaInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [alternative\_text](IResourceMetaInfo.md#alternative_text)
-- [height](IResourceMetaInfo.md#height)
-- [original\_height](IResourceMetaInfo.md#original_height)
-- [original\_width](IResourceMetaInfo.md#original_width)
-- [title](IResourceMetaInfo.md#title)
-- [width](IResourceMetaInfo.md#width)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### alternative\_text
+### alternative\_text?
 
-• `Optional` **alternative\_text**: `string`
+> **`optional`** **alternative\_text**: `string`
 
 content of the image alt attribute
 the value depends on the resource_type
 
-#### Defined in
+#### Source
 
-main.ts:151423
+main.ts:151431
 
-___
+***
 
-### height
+### height?
 
-• `Optional` **height**: `number`
+> **`optional`** **height**: `number`
 
 image height in px
 
-#### Defined in
+#### Source
 
-main.ts:151433
+main.ts:151441
 
-___
+***
 
-### original\_height
+### original\_height?
 
-• `Optional` **original\_height**: `number`
+> **`optional`** **original\_height**: `number`
 
 original image height in px
 
-#### Defined in
+#### Source
 
-main.ts:151429
+main.ts:151437
 
-___
+***
 
-### original\_width
+### original\_width?
 
-• `Optional` **original\_width**: `number`
+> **`optional`** **original\_width**: `number`
 
 original image width in px
 
-#### Defined in
+#### Source
 
-main.ts:151427
+main.ts:151435
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title
 
-#### Defined in
+#### Source
 
-main.ts:151425
+main.ts:151433
 
-___
+***
 
-### width
+### width?
 
-• `Optional` **width**: `number`
+> **`optional`** **width**: `number`
 
 image width in px
 
-#### Defined in
+#### Source
 
-main.ts:151431
+main.ts:151439

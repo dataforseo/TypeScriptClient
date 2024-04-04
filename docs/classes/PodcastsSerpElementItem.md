@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / PodcastsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / PodcastsSerpElementItem
 
 # Class: PodcastsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-  ↳ **`PodcastsSerpElementItem`**
 
 ## Implements
 
@@ -14,41 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](PodcastsSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](PodcastsSerpElementItem.md#_discriminator)
-- [items](PodcastsSerpElementItem.md#items)
-- [position](PodcastsSerpElementItem.md#position)
-- [rank\_absolute](PodcastsSerpElementItem.md#rank_absolute)
-- [rank\_group](PodcastsSerpElementItem.md#rank_group)
-- [rectangle](PodcastsSerpElementItem.md#rectangle)
-- [xpath](PodcastsSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](PodcastsSerpElementItem.md#init)
-- [toJSON](PodcastsSerpElementItem.md#tojson)
-- [fromJS](PodcastsSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new PodcastsSerpElementItem(data)
 
-• **new PodcastsSerpElementItem**(`data?`): [`PodcastsSerpElementItem`](PodcastsSerpElementItem.md)
+> **new PodcastsSerpElementItem**(`data`?): [`PodcastsSerpElementItem`](PodcastsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IPodcastsSerpElementItem`](../interfaces/IPodcastsSerpElementItem.md) |
+• **data?**: [`IPodcastsSerpElementItem`](../interfaces/IPodcastsSerpElementItem.md)
 
 #### Returns
 
@@ -56,48 +34,48 @@
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[constructor](BaseSerpElementItem.md#constructor)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:33143
+main.ts:33149
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[_discriminator](BaseSerpElementItem.md#_discriminator)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:19788
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`PodcastsElement`](PodcastsElement.md)[]
+> **`optional`** **items**: [`PodcastsElement`](PodcastsElement.md)[]
 
 additional items present in the element
 if there are none, equals null
 
 #### Implementation of
 
-[IPodcastsSerpElementItem](../interfaces/IPodcastsSerpElementItem.md).[items](../interfaces/IPodcastsSerpElementItem.md#items)
+[`IPodcastsSerpElementItem`](../interfaces/IPodcastsSerpElementItem.md).[`items`](../interfaces/IPodcastsSerpElementItem.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:33135
+main.ts:33141
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -105,17 +83,17 @@ left, right
 
 #### Implementation of
 
-[IPodcastsSerpElementItem](../interfaces/IPodcastsSerpElementItem.md).[position](../interfaces/IPodcastsSerpElementItem.md#position)
+[`IPodcastsSerpElementItem`](../interfaces/IPodcastsSerpElementItem.md).[`position`](../interfaces/IPodcastsSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
-main.ts:33130
+main.ts:33136
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -123,17 +101,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IPodcastsSerpElementItem](../interfaces/IPodcastsSerpElementItem.md).[rank_absolute](../interfaces/IPodcastsSerpElementItem.md#rank_absolute)
+[`IPodcastsSerpElementItem`](../interfaces/IPodcastsSerpElementItem.md).[`rank_absolute`](../interfaces/IPodcastsSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:33126
+main.ts:33132
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
@@ -142,17 +120,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IPodcastsSerpElementItem](../interfaces/IPodcastsSerpElementItem.md).[rank_group](../interfaces/IPodcastsSerpElementItem.md#rank_group)
+[`IPodcastsSerpElementItem`](../interfaces/IPodcastsSerpElementItem.md).[`rank_group`](../interfaces/IPodcastsSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
-main.ts:33122
+main.ts:33128
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -160,39 +138,37 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Implementation of
 
-[IPodcastsSerpElementItem](../interfaces/IPodcastsSerpElementItem.md).[rectangle](../interfaces/IPodcastsSerpElementItem.md#rectangle)
+[`IPodcastsSerpElementItem`](../interfaces/IPodcastsSerpElementItem.md).[`rectangle`](../interfaces/IPodcastsSerpElementItem.md#rectangle)
 
-#### Defined in
+#### Source
 
-main.ts:33139
+main.ts:33145
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IPodcastsSerpElementItem](../interfaces/IPodcastsSerpElementItem.md).[xpath](../interfaces/IPodcastsSerpElementItem.md#xpath)
+[`IPodcastsSerpElementItem`](../interfaces/IPodcastsSerpElementItem.md).[`xpath`](../interfaces/IPodcastsSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
-main.ts:33132
+main.ts:33138
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -200,23 +176,21 @@ main.ts:33132
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[init](BaseSerpElementItem.md#init)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:33148
+main.ts:33154
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -224,23 +198,21 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[toJSON](BaseSerpElementItem.md#tojson)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:33175
+main.ts:33181
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`PodcastsSerpElementItem`](PodcastsSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`PodcastsSerpElementItem`](PodcastsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -248,8 +220,8 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[fromJS](BaseSerpElementItem.md#fromjs)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:33168
+main.ts:33174

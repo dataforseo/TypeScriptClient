@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixSocialMediaBusinessDataPriceData
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppendixSocialMediaBusinessDataPriceData
 
 # Class: AppendixSocialMediaBusinessDataPriceData
 
@@ -8,144 +12,118 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixSocialMediaBusinessDataPriceData.md#constructor)
-
-### Properties
-
-- [facebook](AppendixSocialMediaBusinessDataPriceData.md#facebook)
-- [pinterest](AppendixSocialMediaBusinessDataPriceData.md#pinterest)
-- [reddit](AppendixSocialMediaBusinessDataPriceData.md#reddit)
-
-### Methods
-
-- [init](AppendixSocialMediaBusinessDataPriceData.md#init)
-- [toJSON](AppendixSocialMediaBusinessDataPriceData.md#tojson)
-- [fromJS](AppendixSocialMediaBusinessDataPriceData.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixSocialMediaBusinessDataPriceData(data)
 
-• **new AppendixSocialMediaBusinessDataPriceData**(`data?`): [`AppendixSocialMediaBusinessDataPriceData`](AppendixSocialMediaBusinessDataPriceData.md)
+> **new AppendixSocialMediaBusinessDataPriceData**(`data`?): [`AppendixSocialMediaBusinessDataPriceData`](AppendixSocialMediaBusinessDataPriceData.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixSocialMediaBusinessDataPriceData`](../interfaces/IAppendixSocialMediaBusinessDataPriceData.md) |
+• **data?**: [`IAppendixSocialMediaBusinessDataPriceData`](../interfaces/IAppendixSocialMediaBusinessDataPriceData.md)
 
 #### Returns
 
 [`AppendixSocialMediaBusinessDataPriceData`](AppendixSocialMediaBusinessDataPriceData.md)
 
-#### Defined in
+#### Source
 
 main.ts:216598
 
 ## Properties
 
-### facebook
+### facebook?
 
-• `Optional` **facebook**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **facebook**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixSocialMediaBusinessDataPriceData](../interfaces/IAppendixSocialMediaBusinessDataPriceData.md).[facebook](../interfaces/IAppendixSocialMediaBusinessDataPriceData.md#facebook)
+[`IAppendixSocialMediaBusinessDataPriceData`](../interfaces/IAppendixSocialMediaBusinessDataPriceData.md).[`facebook`](../interfaces/IAppendixSocialMediaBusinessDataPriceData.md#facebook)
 
-#### Defined in
+#### Source
 
 main.ts:216592
 
-___
+***
 
-### pinterest
+### pinterest?
 
-• `Optional` **pinterest**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **pinterest**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixSocialMediaBusinessDataPriceData](../interfaces/IAppendixSocialMediaBusinessDataPriceData.md).[pinterest](../interfaces/IAppendixSocialMediaBusinessDataPriceData.md#pinterest)
+[`IAppendixSocialMediaBusinessDataPriceData`](../interfaces/IAppendixSocialMediaBusinessDataPriceData.md).[`pinterest`](../interfaces/IAppendixSocialMediaBusinessDataPriceData.md#pinterest)
 
-#### Defined in
+#### Source
 
 main.ts:216593
 
-___
+***
 
-### reddit
+### reddit?
 
-• `Optional` **reddit**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **reddit**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixSocialMediaBusinessDataPriceData](../interfaces/IAppendixSocialMediaBusinessDataPriceData.md).[reddit](../interfaces/IAppendixSocialMediaBusinessDataPriceData.md#reddit)
+[`IAppendixSocialMediaBusinessDataPriceData`](../interfaces/IAppendixSocialMediaBusinessDataPriceData.md).[`reddit`](../interfaces/IAppendixSocialMediaBusinessDataPriceData.md#reddit)
 
-#### Defined in
+#### Source
 
 main.ts:216594
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:216607
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:216626
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppendixSocialMediaBusinessDataPriceData`](AppendixSocialMediaBusinessDataPriceData.md)
+> **`static`** **fromJS**(`data`): [`AppendixSocialMediaBusinessDataPriceData`](AppendixSocialMediaBusinessDataPriceData.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppendixSocialMediaBusinessDataPriceData`](AppendixSocialMediaBusinessDataPriceData.md)
 
-#### Defined in
+#### Source
 
 main.ts:216619

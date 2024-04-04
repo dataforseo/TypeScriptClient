@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonProductKeywordIntersectionsLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsAmazonProductKeywordIntersectionsLiveItem
 
 # Class: DataforseoLabsAmazonProductKeywordIntersectionsLiveItem
 
@@ -8,154 +12,128 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md#constructor)
-
-### Properties
-
-- [intersection\_result](DataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md#intersection_result)
-- [keyword\_data](DataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md#keyword_data)
-- [se\_type](DataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md#se_type)
-
-### Methods
-
-- [init](DataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md#init)
-- [toJSON](DataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md#tojson)
-- [fromJS](DataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsAmazonProductKeywordIntersectionsLiveItem(data)
 
-• **new DataforseoLabsAmazonProductKeywordIntersectionsLiveItem**(`data?`): [`DataforseoLabsAmazonProductKeywordIntersectionsLiveItem`](DataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md)
+> **new DataforseoLabsAmazonProductKeywordIntersectionsLiveItem**(`data`?): [`DataforseoLabsAmazonProductKeywordIntersectionsLiveItem`](DataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md) |
+• **data?**: [`IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md)
 
 #### Returns
 
 [`DataforseoLabsAmazonProductKeywordIntersectionsLiveItem`](DataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:104181
+main.ts:104189
 
 ## Properties
 
-### intersection\_result
+### intersection\_result?
 
-• `Optional` **intersection\_result**: `Object`
+> **`optional`** **intersection\_result**: `Object`
 
 data on the intersection
 
 #### Index signature
 
-▪ [key: `string`]: [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)
+ \[`key`: `string`\]: [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md).[intersection_result](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md#intersection_result)
+[`IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md).[`intersection_result`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md#intersection_result)
 
-#### Defined in
+#### Source
 
-main.ts:104177
+main.ts:104185
 
-___
+***
 
-### keyword\_data
+### keyword\_data?
 
-• `Optional` **keyword\_data**: [`AmazonKeywordData`](AmazonKeywordData.md)
+> **`optional`** **keyword\_data**: [`AmazonKeywordData`](AmazonKeywordData.md)
 
 keyword data for the returned keyword
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md).[keyword_data](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md#keyword_data)
+[`IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md).[`keyword_data`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md#keyword_data)
 
-#### Defined in
+#### Source
 
-main.ts:104175
+main.ts:104183
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md).[se_type](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md#se_type)
+[`IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:104173
+main.ts:104181
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:104190
+main.ts:104198
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:104215
+main.ts:104223
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsAmazonProductKeywordIntersectionsLiveItem`](DataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsAmazonProductKeywordIntersectionsLiveItem`](DataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsAmazonProductKeywordIntersectionsLiveItem`](DataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:104208
+main.ts:104216

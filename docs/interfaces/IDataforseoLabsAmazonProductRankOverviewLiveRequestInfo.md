@@ -1,31 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo
 
 # Interface: IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo
 
-## Implemented by
-
-- [`DataforseoLabsAmazonProductRankOverviewLiveRequestInfo`](../classes/DataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [asins](IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md#asins)
-- [language\_code](IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md#language_code)
-- [language\_name](IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md#language_name)
-- [location\_code](IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md#location_code)
-- [location\_name](IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md#location_name)
-- [tag](IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### asins
+### asins?
 
-• `Optional` **asins**: `string`[]
+> **`optional`** **asins**: `string`[]
 
 product IDs to compare
 required field
@@ -33,15 +22,15 @@ product IDs to receive ranking data for;
 the maximum number of ASINs you can specify in this array is 1000;
 you can receive the asin parameter by making a separate request to the Amazon Products endpoint
 
-#### Defined in
+#### Source
 
-main.ts:102904
+main.ts:102912
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 required field if don’t specify language_name
@@ -50,15 +39,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:102934
+main.ts:102942
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 required field if don’t specify language_code
@@ -67,15 +56,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:102927
+main.ts:102935
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 required field if don’t specify location_name
@@ -85,15 +74,15 @@ Note: this endpoint currently supports the US, Egypt, Saudi Arabia, and the Unit
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:102920
+main.ts:102928
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 required field if don’t specify location_code
@@ -103,15 +92,15 @@ Note: this endpoint currently supports the US, Egypt, Saudi Arabia, and the Unit
 example:
 United States
 
-#### Defined in
+#### Source
 
-main.ts:102912
+main.ts:102920
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -119,6 +108,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:102940
+main.ts:102948

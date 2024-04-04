@@ -1,68 +1,59 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentGenerationGenerateSubTopicsLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IContentGenerationGenerateSubTopicsLiveResultInfo
 
 # Interface: IContentGenerationGenerateSubTopicsLiveResultInfo
 
-## Implemented by
-
-- [`ContentGenerationGenerateSubTopicsLiveResultInfo`](../classes/ContentGenerationGenerateSubTopicsLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [input\_tokens](IContentGenerationGenerateSubTopicsLiveResultInfo.md#input_tokens)
-- [new\_tokens](IContentGenerationGenerateSubTopicsLiveResultInfo.md#new_tokens)
-- [output\_tokens](IContentGenerationGenerateSubTopicsLiveResultInfo.md#output_tokens)
-- [sub\_topics](IContentGenerationGenerateSubTopicsLiveResultInfo.md#sub_topics)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### input\_tokens
+### input\_tokens?
 
-• `Optional` **input\_tokens**: `number`
+> **`optional`** **input\_tokens**: `number`
 
 number of input tokens
 
-#### Defined in
+#### Source
 
-main.ts:166419
+main.ts:166427
 
-___
+***
 
-### new\_tokens
+### new\_tokens?
 
-• `Optional` **new\_tokens**: `number`
+> **`optional`** **new\_tokens**: `number`
 
 number of new tokens
 
-#### Defined in
+#### Source
 
-main.ts:166423
+main.ts:166431
 
-___
+***
 
-### output\_tokens
+### output\_tokens?
 
-• `Optional` **output\_tokens**: `number`
+> **`optional`** **output\_tokens**: `number`
 
 number of output tokens
 
-#### Defined in
+#### Source
 
-main.ts:166421
+main.ts:166429
 
-___
+***
 
-### sub\_topics
+### sub\_topics?
 
-• `Optional` **sub\_topics**: `string`[]
+> **`optional`** **sub\_topics**: `string`[]
 
 resulting subtopics
 
-#### Defined in
+#### Source
 
-main.ts:166425
+main.ts:166433

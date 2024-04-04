@@ -1,49 +1,40 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ILocalBusinessReservationLink
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ILocalBusinessReservationLink
 
 # Interface: ILocalBusinessReservationLink
 
-## Hierarchy
+## Extends
 
 - [`IBaseLocalBusinessLink`](IBaseLocalBusinessLink.md)
 
-  ↳ **`ILocalBusinessReservationLink`**
-
-## Implemented by
-
-- [`LocalBusinessReservationLink`](../classes/LocalBusinessReservationLink.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [title](ILocalBusinessReservationLink.md#title)
-- [url](ILocalBusinessReservationLink.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the element
 domain of the reservation software
 
-#### Defined in
+#### Source
 
 main.ts:22834
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL to make a reservation
 
-#### Defined in
+#### Source
 
 main.ts:22836

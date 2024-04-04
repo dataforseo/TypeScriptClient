@@ -1,51 +1,34 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo
 
 # Interface: IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo
 
-## Implemented by
-
-- [`KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](../classes/KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [average\_cpc](IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#average_cpc)
-- [bid](IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#bid)
-- [clicks](IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#clicks)
-- [cost](IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#cost)
-- [ctr](IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#ctr)
-- [date\_interval](IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#date_interval)
-- [impressions](IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#impressions)
-- [keyword](IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#keyword)
-- [language\_code](IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#language_code)
-- [location\_code](IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#location_code)
-- [match](IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#match)
-- [search\_partners](IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#search_partners)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### average\_cpc
+### average\_cpc?
 
-• `Optional` **average\_cpc**: `number`
+> **`optional`** **average\_cpc**: `number`
 
 the average cost-per-click value
 represents the cost-per-click (USD) estimated for a keyword based on the specified time period and historical data;
 if there is no data, then the value is null
 
-#### Defined in
+#### Source
 
-main.ts:121255
+main.ts:121263
 
-___
+***
 
-### bid
+### bid?
 
-• `Optional` **bid**: `number`
+> **`optional`** **bid**: `number`
 
 the maximum custom bid
 the bid you have specified when setting the task
@@ -53,141 +36,141 @@ represents the price you are willing to pay for an ad
 the higher value you have specified, the higher metrics and cost you receive in response
 learn more in this help center article
 
-#### Defined in
+#### Source
 
-main.ts:121239
+main.ts:121247
 
-___
+***
 
-### clicks
+### clicks?
 
-• `Optional` **clicks**: `number`
+> **`optional`** **clicks**: `number`
 
 number of clicks on an ad
 number of clicks an ad is projected to get within the specified time period
 if there is no data, then the value is null
 
-#### Defined in
+#### Source
 
-main.ts:121263
+main.ts:121271
 
-___
+***
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 charge for an ad
 amount that will be charged for running an ad within the specified time period
 if there is no data, then the value is null
 
-#### Defined in
+#### Source
 
-main.ts:121259
+main.ts:121267
 
-___
+***
 
-### ctr
+### ctr?
 
-• `Optional` **ctr**: `number`
+> **`optional`** **ctr**: `number`
 
 projected click through rate (CTR) of the advertisement
 number of clicks an ad is projected to receive divided by the number of ad impressions; the CTR is projected for the specified time period
 if there is no data, then the value is null
 
-#### Defined in
+#### Source
 
-main.ts:121251
+main.ts:121259
 
-___
+***
 
-### date\_interval
+### date\_interval?
 
-• `Optional` **date\_interval**: `string`
+> **`optional`** **date\_interval**: `string`
 
 forecasting date interval in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:121228
+main.ts:121236
 
-___
+***
 
-### impressions
+### impressions?
 
-• `Optional` **impressions**: `number`
+> **`optional`** **impressions**: `number`
 
 projected number of ad impressions
 number of impressions an ad is projected to get within the specified time period
 if there is no data, then the value is null
 learn more about impressions in this help center article
 
-#### Defined in
+#### Source
 
-main.ts:121247
+main.ts:121255
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:121220
+main.ts:121228
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 if there is no data, then the value is null
 
-#### Defined in
+#### Source
 
-main.ts:121226
+main.ts:121234
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 if there is no data, then the value is null
 
-#### Defined in
+#### Source
 
-main.ts:121223
+main.ts:121231
 
-___
+***
 
-### match
+### match?
 
-• `Optional` **match**: `string`
+> **`optional`** **match**: `string`
 
 keywords match-type
 can take the following values: exact, broad, phrase
 
-#### Defined in
+#### Source
 
-main.ts:121242
+main.ts:121250
 
-___
+***
 
-### search\_partners
+### search\_partners?
 
-• `Optional` **search\_partners**: `boolean`
+> **`optional`** **search\_partners**: `boolean`
 
 include Google search partners
 the value you specified when setting the task
 if true, the results are returned for owned, operated, and syndicated networks across Google and partner sites that host Google search;
 if false, the results are returned for Google search sites only
 
-#### Defined in
+#### Source
 
-main.ts:121233
+main.ts:121241

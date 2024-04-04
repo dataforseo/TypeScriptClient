@@ -1,83 +1,73 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleHotelSearchesTasksReadyResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBusinessDataGoogleHotelSearchesTasksReadyResultInfo
 
 # Interface: IBusinessDataGoogleHotelSearchesTasksReadyResultInfo
 
-## Implemented by
-
-- [`BusinessDataGoogleHotelSearchesTasksReadyResultInfo`](../classes/BusinessDataGoogleHotelSearchesTasksReadyResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [date\_posted](IBusinessDataGoogleHotelSearchesTasksReadyResultInfo.md#date_posted)
-- [endpoint](IBusinessDataGoogleHotelSearchesTasksReadyResultInfo.md#endpoint)
-- [id](IBusinessDataGoogleHotelSearchesTasksReadyResultInfo.md#id)
-- [se](IBusinessDataGoogleHotelSearchesTasksReadyResultInfo.md#se)
-- [tag](IBusinessDataGoogleHotelSearchesTasksReadyResultInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### date\_posted
+### date\_posted?
 
-• `Optional` **date\_posted**: `string`
+> **`optional`** **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
-#### Defined in
+#### Source
 
 main.ts:198730
 
-___
+***
 
-### endpoint
+### endpoint?
 
-• `Optional` **endpoint**: `string`
+> **`optional`** **endpoint**: `string`
 
 URL for collecting the results of the task
 
-#### Defined in
+#### Source
 
 main.ts:198734
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
-#### Defined in
+#### Source
 
 main.ts:198725
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 can take the following values: google
 
-#### Defined in
+#### Source
 
 main.ts:198728
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
-#### Defined in
+#### Source
 
 main.ts:198732

@@ -1,43 +1,36 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageRedirectChainsItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IOnPageRedirectChainsItem
 
 # Interface: IOnPageRedirectChainsItem
 
-## Implemented by
-
-- [`OnPageRedirectChainsItem`](../classes/OnPageRedirectChainsItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [chain](IOnPageRedirectChainsItem.md#chain)
-- [is\_redirect\_loop](IOnPageRedirectChainsItem.md#is_redirect_loop)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### chain
+### chain?
 
-• `Optional` **chain**: [`BaseOnPageLinkItemInfo`](../classes/BaseOnPageLinkItemInfo.md)[]
+> **`optional`** **chain**: [`BaseOnPageLinkItemInfo`](../classes/BaseOnPageLinkItemInfo.md)[]
 
 contains links that form a chain
 
-#### Defined in
+#### Source
 
-main.ts:154481
+main.ts:154489
 
-___
+***
 
-### is\_redirect\_loop
+### is\_redirect\_loop?
 
-• `Optional` **is\_redirect\_loop**: `boolean`
+> **`optional`** **is\_redirect\_loop**: `boolean`
 
 indicates if redirects in chain start and end at the same URL
 if true, the last URL from the chain redirects back to the original URL
 
-#### Defined in
+#### Source
 
-main.ts:154479
+main.ts:154487

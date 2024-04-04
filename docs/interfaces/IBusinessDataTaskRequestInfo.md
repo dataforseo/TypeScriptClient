@@ -1,47 +1,27 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataTaskRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBusinessDataTaskRequestInfo
 
 # Interface: IBusinessDataTaskRequestInfo
 
-## Hierarchy
+## Extended by
 
-- **`IBusinessDataTaskRequestInfo`**
-
-  ↳ [`IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo`](IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md)
-
-  ↳ [`IBusinessDataGoogleHotelSearchesTaskPostRequestInfo`](IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md)
-
-  ↳ [`IBusinessDataGoogleHotelInfoTaskPostRequestInfo`](IBusinessDataGoogleHotelInfoTaskPostRequestInfo.md)
-
-  ↳ [`IBusinessDataGoogleReviewsTaskPostRequestInfo`](IBusinessDataGoogleReviewsTaskPostRequestInfo.md)
-
-## Implemented by
-
-- [`BusinessDataTaskRequestInfo`](../classes/BusinessDataTaskRequestInfo.md)
+- [`IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo`](IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md)
+- [`IBusinessDataGoogleHotelSearchesTaskPostRequestInfo`](IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md)
+- [`IBusinessDataGoogleHotelInfoTaskPostRequestInfo`](IBusinessDataGoogleHotelInfoTaskPostRequestInfo.md)
+- [`IBusinessDataGoogleReviewsTaskPostRequestInfo`](IBusinessDataGoogleReviewsTaskPostRequestInfo.md)
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [keyword](IBusinessDataTaskRequestInfo.md#keyword)
-- [language\_code](IBusinessDataTaskRequestInfo.md#language_code)
-- [language\_name](IBusinessDataTaskRequestInfo.md#language_name)
-- [location\_code](IBusinessDataTaskRequestInfo.md#location_code)
-- [location\_coordinate](IBusinessDataTaskRequestInfo.md#location_coordinate)
-- [location\_name](IBusinessDataTaskRequestInfo.md#location_name)
-- [pingback\_url](IBusinessDataTaskRequestInfo.md#pingback_url)
-- [postback\_url](IBusinessDataTaskRequestInfo.md#postback_url)
-- [priority](IBusinessDataTaskRequestInfo.md#priority)
-- [tag](IBusinessDataTaskRequestInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword
 required field
@@ -59,15 +39,15 @@ place_id:GhIJQWDl0CIeQUARxks3icF8U8A
 spp:CgsvZy8xdGN4cWRraBoUChIJPZDrEzLsZIgRoNrpodC5P30
 learn more about the cid and place_id identifiers in this help center article
 
-#### Defined in
+#### Source
 
 main.ts:188709
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -76,15 +56,15 @@ you can receive the list of available languages with their language_code by mak
 example:
 en
 
-#### Defined in
+#### Source
 
 main.ts:188754
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -93,15 +73,15 @@ you can receive the list of available languages with language_name by making a s
 example:
 English
 
-#### Defined in
+#### Source
 
 main.ts:188747
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -110,15 +90,15 @@ you can receive the list of available locations with location_code by making a s
 example:
 2840
 
-#### Defined in
+#### Source
 
 main.ts:188731
 
-___
+***
 
-### location\_coordinate
+### location\_coordinate?
 
-• `Optional` **location\_coordinate**: `string`
+> **`optional`** **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -129,15 +109,15 @@ the minimum value for “radius”: 199.9
 example:
 53.476225,-2.243572,200
 
-#### Defined in
+#### Source
 
 main.ts:188740
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -146,15 +126,15 @@ you can receive the list of available locations with location_name by making a s
 example:
 London,England,United Kingdom
 
-#### Defined in
+#### Source
 
 main.ts:188724
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -166,15 +146,15 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special symbols in pingback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
 main.ts:188780
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -186,15 +166,15 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special symbols in postback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
 main.ts:188770
 
-___
+***
 
-### priority
+### priority?
 
-• `Optional` **priority**: `number`
+> **`optional`** **priority**: `number`
 
 task priority
 optional field
@@ -204,15 +184,15 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page.
 
-#### Defined in
+#### Source
 
 main.ts:188717
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -220,6 +200,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
 main.ts:188760

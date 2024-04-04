@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / LinkElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / LinkElement
 
 # Class: LinkElement
 
@@ -8,218 +12,188 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](LinkElement.md#constructor)
-
-### Properties
-
-- [description](LinkElement.md#description)
-- [domain](LinkElement.md#domain)
-- [snippet](LinkElement.md#snippet)
-- [title](LinkElement.md#title)
-- [type](LinkElement.md#type)
-- [url](LinkElement.md#url)
-- [xpath](LinkElement.md#xpath)
-
-### Methods
-
-- [init](LinkElement.md#init)
-- [toJSON](LinkElement.md#tojson)
-- [fromJS](LinkElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new LinkElement(data)
 
-• **new LinkElement**(`data?`): [`LinkElement`](LinkElement.md)
+> **new LinkElement**(`data`?): [`LinkElement`](LinkElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ILinkElement`](../interfaces/ILinkElement.md) |
+• **data?**: [`ILinkElement`](../interfaces/ILinkElement.md)
 
 #### Returns
 
 [`LinkElement`](LinkElement.md)
 
-#### Defined in
+#### Source
 
 main.ts:21592
 
 ## Properties
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description of the results element
 
 #### Implementation of
 
-[ILinkElement](../interfaces/ILinkElement.md).[description](../interfaces/ILinkElement.md#description)
+[`ILinkElement`](../interfaces/ILinkElement.md).[`description`](../interfaces/ILinkElement.md#description)
 
-#### Defined in
+#### Source
 
 main.ts:21582
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain where a link points
 
 #### Implementation of
 
-[ILinkElement](../interfaces/ILinkElement.md).[domain](../interfaces/ILinkElement.md#domain)
+[`ILinkElement`](../interfaces/ILinkElement.md).[`domain`](../interfaces/ILinkElement.md#domain)
 
-#### Defined in
+#### Source
 
 main.ts:21586
 
-___
+***
 
-### snippet
+### snippet?
 
-• `Optional` **snippet**: `string`
+> **`optional`** **snippet**: `string`
 
 text alongside the link title
 
 #### Implementation of
 
-[ILinkElement](../interfaces/ILinkElement.md).[snippet](../interfaces/ILinkElement.md#snippet)
+[`ILinkElement`](../interfaces/ILinkElement.md).[`snippet`](../interfaces/ILinkElement.md#snippet)
 
-#### Defined in
+#### Source
 
 main.ts:21580
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
 #### Implementation of
 
-[ILinkElement](../interfaces/ILinkElement.md).[title](../interfaces/ILinkElement.md#title)
+[`ILinkElement`](../interfaces/ILinkElement.md).[`title`](../interfaces/ILinkElement.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:21578
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[ILinkElement](../interfaces/ILinkElement.md).[type](../interfaces/ILinkElement.md#type)
+[`ILinkElement`](../interfaces/ILinkElement.md).[`type`](../interfaces/ILinkElement.md#type)
 
-#### Defined in
+#### Source
 
 main.ts:21576
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL
 
 #### Implementation of
 
-[ILinkElement](../interfaces/ILinkElement.md).[url](../interfaces/ILinkElement.md#url)
+[`ILinkElement`](../interfaces/ILinkElement.md).[`url`](../interfaces/ILinkElement.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:21584
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[ILinkElement](../interfaces/ILinkElement.md).[xpath](../interfaces/ILinkElement.md#xpath)
+[`ILinkElement`](../interfaces/ILinkElement.md).[`xpath`](../interfaces/ILinkElement.md#xpath)
 
-#### Defined in
+#### Source
 
 main.ts:21588
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:21601
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:21624
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`LinkElement`](LinkElement.md)
+> **`static`** **fromJS**(`data`): [`LinkElement`](LinkElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`LinkElement`](LinkElement.md)
 
-#### Defined in
+#### Source
 
 main.ts:21617

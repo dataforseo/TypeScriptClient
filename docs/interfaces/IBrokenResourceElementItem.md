@@ -1,249 +1,226 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBrokenResourceElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBrokenResourceElementItem
 
 # Interface: IBrokenResourceElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseOnPageResourceItemInfo`](IBaseOnPageResourceItemInfo.md)
 
-  ↳ **`IBrokenResourceElementItem`**
-
-## Implemented by
-
-- [`BrokenResourceElementItem`](../classes/BrokenResourceElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [accept\_type](IBrokenResourceElementItem.md#accept_type)
-- [cache\_control](IBrokenResourceElementItem.md#cache_control)
-- [checks](IBrokenResourceElementItem.md#checks)
-- [content\_encoding](IBrokenResourceElementItem.md#content_encoding)
-- [encoded\_size](IBrokenResourceElementItem.md#encoded_size)
-- [fetch\_time](IBrokenResourceElementItem.md#fetch_time)
-- [fetch\_timing](IBrokenResourceElementItem.md#fetch_timing)
-- [last\_modified](IBrokenResourceElementItem.md#last_modified)
-- [location](IBrokenResourceElementItem.md#location)
-- [media\_type](IBrokenResourceElementItem.md#media_type)
-- [meta](IBrokenResourceElementItem.md#meta)
-- [server](IBrokenResourceElementItem.md#server)
-- [size](IBrokenResourceElementItem.md#size)
-- [status\_code](IBrokenResourceElementItem.md#status_code)
-- [total\_transfer\_size](IBrokenResourceElementItem.md#total_transfer_size)
-- [url](IBrokenResourceElementItem.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### accept\_type
+### accept\_type?
 
-• `Optional` **accept\_type**: `string`
+> **`optional`** **accept\_type**: `string`
 
 indicates the expected type of resource
 for example, if "resource_type": "broken", accept_type will indicate the type of the broken resource
 possible values:
 any, none, image, sitemap, robots, script, stylesheet, redirect, html, text, other, font
 
-#### Defined in
+#### Source
 
-main.ts:152405
+main.ts:152413
 
-___
+***
 
-### cache\_control
+### cache\_control?
 
-• `Optional` **cache\_control**: [`CacheControl`](../classes/CacheControl.md)
+> **`optional`** **cache\_control**: [`CacheControl`](../classes/CacheControl.md)
 
 instructions for caching
 
-#### Defined in
+#### Source
 
-main.ts:152393
+main.ts:152401
 
-___
+***
 
-### checks
+### checks?
 
-• `Optional` **checks**: `Object`
+> **`optional`** **checks**: `Object`
 
 resource check-ups
 contents of the array depend on the resource_type
 
 #### Index signature
 
-▪ [key: `string`]: `boolean`
+ \[`key`: `string`\]: `boolean`
 
-#### Defined in
+#### Source
 
-main.ts:152396
+main.ts:152404
 
-___
+***
 
-### content\_encoding
+### content\_encoding?
 
-• `Optional` **content\_encoding**: `string`
+> **`optional`** **content\_encoding**: `string`
 
 type of encoding
 
-#### Defined in
+#### Source
 
-main.ts:152398
+main.ts:152406
 
-___
+***
 
-### encoded\_size
+### encoded\_size?
 
-• `Optional` **encoded\_size**: `number`
+> **`optional`** **encoded\_size**: `number`
 
 resource size after encoding
 indicates the size of the encoded resource measured in bytes
 
-#### Defined in
+#### Source
 
-main.ts:152381
+main.ts:152389
 
-___
+***
 
-### fetch\_time
+### fetch\_time?
 
-• `Optional` **fetch\_time**: `string`
+> **`optional`** **fetch\_time**: `string`
 
 date and time when a resource was fetched
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2021-02-17 13:54:15 +00:00
 
-#### Defined in
+#### Source
 
-main.ts:152389
+main.ts:152397
 
-___
+***
 
-### fetch\_timing
+### fetch\_timing?
 
-• `Optional` **fetch\_timing**: [`FetchTiming`](../classes/FetchTiming.md)
+> **`optional`** **fetch\_timing**: [`FetchTiming`](../classes/FetchTiming.md)
 
 resource fething time range
 
-#### Defined in
+#### Source
 
-main.ts:152391
+main.ts:152399
 
-___
+***
 
-### last\_modified
+### last\_modified?
 
-• `Optional` **last\_modified**: [`LastModified`](../classes/LastModified.md)
+> **`optional`** **last\_modified**: [`LastModified`](../classes/LastModified.md)
 
 contains data on changes related to the resource
 if there is no data, the value will be null
 
-#### Defined in
+#### Source
 
-main.ts:152410
+main.ts:152418
 
-___
+***
 
-### location
+### location?
 
-• `Optional` **location**: `string`
+> **`optional`** **location**: `string`
 
 location header
 indicates the URL to redirect a page to
 
-#### Defined in
+#### Source
 
-main.ts:152373
+main.ts:152381
 
-___
+***
 
-### media\_type
+### media\_type?
 
-• `Optional` **media\_type**: `string`
+> **`optional`** **media\_type**: `string`
 
 types of media used to display a resource
 
-#### Defined in
+#### Source
 
-main.ts:152400
+main.ts:152408
 
-___
+***
 
-### meta
+### meta?
 
-• `Optional` **meta**: [`PageMetaInfo`](../classes/PageMetaInfo.md)
+> **`optional`** **meta**: [`PageMetaInfo`](../classes/PageMetaInfo.md)
 
 resource properties
 the value depends on the resource_type
 note that if you do not indicate a url when setting a task, resource’s meta is returned based on the data from the page where our crawler first saw the resource;
 to obtain resource’s meta from a particular url, specify that URL when setting a task
 
-#### Defined in
+#### Source
 
-main.ts:152368
+main.ts:152376
 
-___
+***
 
-### server
+### server?
 
-• `Optional` **server**: `string`
+> **`optional`** **server**: `string`
 
 server version
 
-#### Defined in
+#### Source
 
-main.ts:152407
+main.ts:152415
 
-___
+***
 
-### size
+### size?
 
-• `Optional` **size**: `number`
+> **`optional`** **size**: `number`
 
 resource size
 indicates the size of a given resource measured in bytes
 
-#### Defined in
+#### Source
 
-main.ts:152378
+main.ts:152386
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the page where a given resource is located
 
-#### Defined in
+#### Source
 
-main.ts:152370
+main.ts:152378
 
-___
+***
 
-### total\_transfer\_size
+### total\_transfer\_size?
 
-• `Optional` **total\_transfer\_size**: `number`
+> **`optional`** **total\_transfer\_size**: `number`
 
 compressed resource size
 indicates the compressed size of a given resource in bytes
 
-#### Defined in
+#### Source
 
-main.ts:152384
+main.ts:152392
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 resource URL
 
-#### Defined in
+#### Source
 
-main.ts:152375
+main.ts:152383

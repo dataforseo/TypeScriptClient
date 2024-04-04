@@ -1,83 +1,73 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataTrustpilotReviewsTasksReadyResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBusinessDataTrustpilotReviewsTasksReadyResultInfo
 
 # Interface: IBusinessDataTrustpilotReviewsTasksReadyResultInfo
 
-## Implemented by
-
-- [`BusinessDataTrustpilotReviewsTasksReadyResultInfo`](../classes/BusinessDataTrustpilotReviewsTasksReadyResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [date\_posted](IBusinessDataTrustpilotReviewsTasksReadyResultInfo.md#date_posted)
-- [endpoint](IBusinessDataTrustpilotReviewsTasksReadyResultInfo.md#endpoint)
-- [id](IBusinessDataTrustpilotReviewsTasksReadyResultInfo.md#id)
-- [se](IBusinessDataTrustpilotReviewsTasksReadyResultInfo.md#se)
-- [tag](IBusinessDataTrustpilotReviewsTasksReadyResultInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### date\_posted
+### date\_posted?
 
-• `Optional` **date\_posted**: `string`
+> **`optional`** **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
-#### Defined in
+#### Source
 
 main.ts:205214
 
-___
+***
 
-### endpoint
+### endpoint?
 
-• `Optional` **endpoint**: `string`
+> **`optional`** **endpoint**: `string`
 
 URL for collecting the results of the task
 
-#### Defined in
+#### Source
 
 main.ts:205218
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
-#### Defined in
+#### Source
 
 main.ts:205209
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 can take the following values: trustpilot
 
-#### Defined in
+#### Source
 
 main.ts:205212
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
-#### Defined in
+#### Source
 
 main.ts:205216

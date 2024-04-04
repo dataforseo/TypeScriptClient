@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentGenerationGenerateTextLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ContentGenerationGenerateTextLiveResultInfo
 
 # Class: ContentGenerationGenerateTextLiveResultInfo
 
@@ -8,117 +12,95 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ContentGenerationGenerateTextLiveResultInfo.md#constructor)
-
-### Properties
-
-- [generated\_text](ContentGenerationGenerateTextLiveResultInfo.md#generated_text)
-- [input\_tokens](ContentGenerationGenerateTextLiveResultInfo.md#input_tokens)
-- [new\_tokens](ContentGenerationGenerateTextLiveResultInfo.md#new_tokens)
-- [output\_tokens](ContentGenerationGenerateTextLiveResultInfo.md#output_tokens)
-- [supplement\_token](ContentGenerationGenerateTextLiveResultInfo.md#supplement_token)
-
-### Methods
-
-- [init](ContentGenerationGenerateTextLiveResultInfo.md#init)
-- [toJSON](ContentGenerationGenerateTextLiveResultInfo.md#tojson)
-- [fromJS](ContentGenerationGenerateTextLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ContentGenerationGenerateTextLiveResultInfo(data)
 
-• **new ContentGenerationGenerateTextLiveResultInfo**(`data?`): [`ContentGenerationGenerateTextLiveResultInfo`](ContentGenerationGenerateTextLiveResultInfo.md)
+> **new ContentGenerationGenerateTextLiveResultInfo**(`data`?): [`ContentGenerationGenerateTextLiveResultInfo`](ContentGenerationGenerateTextLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IContentGenerationGenerateTextLiveResultInfo`](../interfaces/IContentGenerationGenerateTextLiveResultInfo.md) |
+• **data?**: [`IContentGenerationGenerateTextLiveResultInfo`](../interfaces/IContentGenerationGenerateTextLiveResultInfo.md)
 
 #### Returns
 
 [`ContentGenerationGenerateTextLiveResultInfo`](ContentGenerationGenerateTextLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:165824
+main.ts:165832
 
 ## Properties
 
-### generated\_text
+### generated\_text?
 
-• `Optional` **generated\_text**: `string`
+> **`optional`** **generated\_text**: `string`
 
 resulting text
 
 #### Implementation of
 
-[IContentGenerationGenerateTextLiveResultInfo](../interfaces/IContentGenerationGenerateTextLiveResultInfo.md).[generated_text](../interfaces/IContentGenerationGenerateTextLiveResultInfo.md#generated_text)
+[`IContentGenerationGenerateTextLiveResultInfo`](../interfaces/IContentGenerationGenerateTextLiveResultInfo.md).[`generated_text`](../interfaces/IContentGenerationGenerateTextLiveResultInfo.md#generated_text)
 
-#### Defined in
+#### Source
 
-main.ts:165816
+main.ts:165824
 
-___
+***
 
-### input\_tokens
+### input\_tokens?
 
-• `Optional` **input\_tokens**: `number`
+> **`optional`** **input\_tokens**: `number`
 
 number of input tokens
 
 #### Implementation of
 
-[IContentGenerationGenerateTextLiveResultInfo](../interfaces/IContentGenerationGenerateTextLiveResultInfo.md).[input_tokens](../interfaces/IContentGenerationGenerateTextLiveResultInfo.md#input_tokens)
+[`IContentGenerationGenerateTextLiveResultInfo`](../interfaces/IContentGenerationGenerateTextLiveResultInfo.md).[`input_tokens`](../interfaces/IContentGenerationGenerateTextLiveResultInfo.md#input_tokens)
 
-#### Defined in
+#### Source
 
-main.ts:165810
+main.ts:165818
 
-___
+***
 
-### new\_tokens
+### new\_tokens?
 
-• `Optional` **new\_tokens**: `number`
+> **`optional`** **new\_tokens**: `number`
 
 number of new tokens
 
 #### Implementation of
 
-[IContentGenerationGenerateTextLiveResultInfo](../interfaces/IContentGenerationGenerateTextLiveResultInfo.md).[new_tokens](../interfaces/IContentGenerationGenerateTextLiveResultInfo.md#new_tokens)
+[`IContentGenerationGenerateTextLiveResultInfo`](../interfaces/IContentGenerationGenerateTextLiveResultInfo.md).[`new_tokens`](../interfaces/IContentGenerationGenerateTextLiveResultInfo.md#new_tokens)
 
-#### Defined in
+#### Source
 
-main.ts:165814
+main.ts:165822
 
-___
+***
 
-### output\_tokens
+### output\_tokens?
 
-• `Optional` **output\_tokens**: `number`
+> **`optional`** **output\_tokens**: `number`
 
 number of output tokens
 
 #### Implementation of
 
-[IContentGenerationGenerateTextLiveResultInfo](../interfaces/IContentGenerationGenerateTextLiveResultInfo.md).[output_tokens](../interfaces/IContentGenerationGenerateTextLiveResultInfo.md#output_tokens)
+[`IContentGenerationGenerateTextLiveResultInfo`](../interfaces/IContentGenerationGenerateTextLiveResultInfo.md).[`output_tokens`](../interfaces/IContentGenerationGenerateTextLiveResultInfo.md#output_tokens)
 
-#### Defined in
+#### Source
 
-main.ts:165812
+main.ts:165820
 
-___
+***
 
-### supplement\_token
+### supplement\_token?
 
-• `Optional` **supplement\_token**: `string`
+> **`optional`** **supplement\_token**: `string`
 
 token for generating subsequent results
 you can use this parameter to continue the generation from the end of the current result;
@@ -126,68 +108,62 @@ supplement_token values are unique for each subsequent task
 
 #### Implementation of
 
-[IContentGenerationGenerateTextLiveResultInfo](../interfaces/IContentGenerationGenerateTextLiveResultInfo.md).[supplement_token](../interfaces/IContentGenerationGenerateTextLiveResultInfo.md#supplement_token)
+[`IContentGenerationGenerateTextLiveResultInfo`](../interfaces/IContentGenerationGenerateTextLiveResultInfo.md).[`supplement_token`](../interfaces/IContentGenerationGenerateTextLiveResultInfo.md#supplement_token)
 
-#### Defined in
+#### Source
 
-main.ts:165820
+main.ts:165828
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:165833
+main.ts:165841
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:165854
+main.ts:165862
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ContentGenerationGenerateTextLiveResultInfo`](ContentGenerationGenerateTextLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`ContentGenerationGenerateTextLiveResultInfo`](ContentGenerationGenerateTextLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ContentGenerationGenerateTextLiveResultInfo`](ContentGenerationGenerateTextLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:165847
+main.ts:165855

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpSeznamOrganicTasksReadyResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpSeznamOrganicTasksReadyResultInfo
 
 # Class: SerpSeznamOrganicTasksReadyResultInfo
 
@@ -8,240 +12,209 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpSeznamOrganicTasksReadyResultInfo.md#constructor)
-
-### Properties
-
-- [date\_posted](SerpSeznamOrganicTasksReadyResultInfo.md#date_posted)
-- [endpoint\_advanced](SerpSeznamOrganicTasksReadyResultInfo.md#endpoint_advanced)
-- [endpoint\_html](SerpSeznamOrganicTasksReadyResultInfo.md#endpoint_html)
-- [endpoint\_regular](SerpSeznamOrganicTasksReadyResultInfo.md#endpoint_regular)
-- [id](SerpSeznamOrganicTasksReadyResultInfo.md#id)
-- [se](SerpSeznamOrganicTasksReadyResultInfo.md#se)
-- [se\_type](SerpSeznamOrganicTasksReadyResultInfo.md#se_type)
-- [tag](SerpSeznamOrganicTasksReadyResultInfo.md#tag)
-
-### Methods
-
-- [init](SerpSeznamOrganicTasksReadyResultInfo.md#init)
-- [toJSON](SerpSeznamOrganicTasksReadyResultInfo.md#tojson)
-- [fromJS](SerpSeznamOrganicTasksReadyResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpSeznamOrganicTasksReadyResultInfo(data)
 
-• **new SerpSeznamOrganicTasksReadyResultInfo**(`data?`): [`SerpSeznamOrganicTasksReadyResultInfo`](SerpSeznamOrganicTasksReadyResultInfo.md)
+> **new SerpSeznamOrganicTasksReadyResultInfo**(`data`?): [`SerpSeznamOrganicTasksReadyResultInfo`](SerpSeznamOrganicTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpSeznamOrganicTasksReadyResultInfo`](../interfaces/ISerpSeznamOrganicTasksReadyResultInfo.md) |
+• **data?**: [`ISerpSeznamOrganicTasksReadyResultInfo`](../interfaces/ISerpSeznamOrganicTasksReadyResultInfo.md)
 
 #### Returns
 
 [`SerpSeznamOrganicTasksReadyResultInfo`](SerpSeznamOrganicTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:72094
+main.ts:72102
 
 ## Properties
 
-### date\_posted
+### date\_posted?
 
-• `Optional` **date\_posted**: `string`
+> **`optional`** **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
 #### Implementation of
 
-[ISerpSeznamOrganicTasksReadyResultInfo](../interfaces/ISerpSeznamOrganicTasksReadyResultInfo.md).[date_posted](../interfaces/ISerpSeznamOrganicTasksReadyResultInfo.md#date_posted)
+[`ISerpSeznamOrganicTasksReadyResultInfo`](../interfaces/ISerpSeznamOrganicTasksReadyResultInfo.md).[`date_posted`](../interfaces/ISerpSeznamOrganicTasksReadyResultInfo.md#date_posted)
 
-#### Defined in
+#### Source
 
-main.ts:72079
+main.ts:72087
 
-___
+***
 
-### endpoint\_advanced
+### endpoint\_advanced?
 
-• `Optional` **endpoint\_advanced**: `string`
+> **`optional`** **endpoint\_advanced**: `string`
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpSeznamOrganicTasksReadyResultInfo](../interfaces/ISerpSeznamOrganicTasksReadyResultInfo.md).[endpoint_advanced](../interfaces/ISerpSeznamOrganicTasksReadyResultInfo.md#endpoint_advanced)
+[`ISerpSeznamOrganicTasksReadyResultInfo`](../interfaces/ISerpSeznamOrganicTasksReadyResultInfo.md).[`endpoint_advanced`](../interfaces/ISerpSeznamOrganicTasksReadyResultInfo.md#endpoint_advanced)
 
-#### Defined in
+#### Source
 
-main.ts:72087
+main.ts:72095
 
-___
+***
 
-### endpoint\_html
+### endpoint\_html?
 
-• `Optional` **endpoint\_html**: `string`
+> **`optional`** **endpoint\_html**: `string`
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpSeznamOrganicTasksReadyResultInfo](../interfaces/ISerpSeznamOrganicTasksReadyResultInfo.md).[endpoint_html](../interfaces/ISerpSeznamOrganicTasksReadyResultInfo.md#endpoint_html)
+[`ISerpSeznamOrganicTasksReadyResultInfo`](../interfaces/ISerpSeznamOrganicTasksReadyResultInfo.md).[`endpoint_html`](../interfaces/ISerpSeznamOrganicTasksReadyResultInfo.md#endpoint_html)
 
-#### Defined in
+#### Source
 
-main.ts:72090
+main.ts:72098
 
-___
+***
 
-### endpoint\_regular
+### endpoint\_regular?
 
-• `Optional` **endpoint\_regular**: `string`
+> **`optional`** **endpoint\_regular**: `string`
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpSeznamOrganicTasksReadyResultInfo](../interfaces/ISerpSeznamOrganicTasksReadyResultInfo.md).[endpoint_regular](../interfaces/ISerpSeznamOrganicTasksReadyResultInfo.md#endpoint_regular)
+[`ISerpSeznamOrganicTasksReadyResultInfo`](../interfaces/ISerpSeznamOrganicTasksReadyResultInfo.md).[`endpoint_regular`](../interfaces/ISerpSeznamOrganicTasksReadyResultInfo.md#endpoint_regular)
 
-#### Defined in
+#### Source
 
-main.ts:72084
+main.ts:72092
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[ISerpSeznamOrganicTasksReadyResultInfo](../interfaces/ISerpSeznamOrganicTasksReadyResultInfo.md).[id](../interfaces/ISerpSeznamOrganicTasksReadyResultInfo.md#id)
+[`ISerpSeznamOrganicTasksReadyResultInfo`](../interfaces/ISerpSeznamOrganicTasksReadyResultInfo.md).[`id`](../interfaces/ISerpSeznamOrganicTasksReadyResultInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:72072
+main.ts:72080
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 
 #### Implementation of
 
-[ISerpSeznamOrganicTasksReadyResultInfo](../interfaces/ISerpSeznamOrganicTasksReadyResultInfo.md).[se](../interfaces/ISerpSeznamOrganicTasksReadyResultInfo.md#se)
+[`ISerpSeznamOrganicTasksReadyResultInfo`](../interfaces/ISerpSeznamOrganicTasksReadyResultInfo.md).[`se`](../interfaces/ISerpSeznamOrganicTasksReadyResultInfo.md#se)
 
-#### Defined in
+#### Source
 
-main.ts:72074
+main.ts:72082
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 type of search engine
 can take the following values: organic
 
 #### Implementation of
 
-[ISerpSeznamOrganicTasksReadyResultInfo](../interfaces/ISerpSeznamOrganicTasksReadyResultInfo.md).[se_type](../interfaces/ISerpSeznamOrganicTasksReadyResultInfo.md#se_type)
+[`ISerpSeznamOrganicTasksReadyResultInfo`](../interfaces/ISerpSeznamOrganicTasksReadyResultInfo.md).[`se_type`](../interfaces/ISerpSeznamOrganicTasksReadyResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:72077
+main.ts:72085
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
 #### Implementation of
 
-[ISerpSeznamOrganicTasksReadyResultInfo](../interfaces/ISerpSeznamOrganicTasksReadyResultInfo.md).[tag](../interfaces/ISerpSeznamOrganicTasksReadyResultInfo.md#tag)
+[`ISerpSeznamOrganicTasksReadyResultInfo`](../interfaces/ISerpSeznamOrganicTasksReadyResultInfo.md).[`tag`](../interfaces/ISerpSeznamOrganicTasksReadyResultInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:72081
+main.ts:72089
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:72103
+main.ts:72111
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:72127
+main.ts:72135
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpSeznamOrganicTasksReadyResultInfo`](SerpSeznamOrganicTasksReadyResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpSeznamOrganicTasksReadyResultInfo`](SerpSeznamOrganicTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpSeznamOrganicTasksReadyResultInfo`](SerpSeznamOrganicTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:72120
+main.ts:72128

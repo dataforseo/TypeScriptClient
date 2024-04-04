@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MathSolverElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / MathSolverElement
 
 # Class: MathSolverElement
 
@@ -8,150 +12,124 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](MathSolverElement.md#constructor)
-
-### Properties
-
-- [expanded\_element](MathSolverElement.md#expanded_element)
-- [title](MathSolverElement.md#title)
-- [type](MathSolverElement.md#type)
-
-### Methods
-
-- [init](MathSolverElement.md#init)
-- [toJSON](MathSolverElement.md#tojson)
-- [fromJS](MathSolverElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new MathSolverElement(data)
 
-• **new MathSolverElement**(`data?`): [`MathSolverElement`](MathSolverElement.md)
+> **new MathSolverElement**(`data`?): [`MathSolverElement`](MathSolverElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IMathSolverElement`](../interfaces/IMathSolverElement.md) |
+• **data?**: [`IMathSolverElement`](../interfaces/IMathSolverElement.md)
 
 #### Returns
 
 [`MathSolverElement`](MathSolverElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:34899
+main.ts:34905
 
 ## Properties
 
-### expanded\_element
+### expanded\_element?
 
-• `Optional` **expanded\_element**: [`MathSolverExpandedElement`](MathSolverExpandedElement.md)[]
+> **`optional`** **expanded\_element**: [`MathSolverExpandedElement`](MathSolverExpandedElement.md)[]
 
 expanded element
 
 #### Implementation of
 
-[IMathSolverElement](../interfaces/IMathSolverElement.md).[expanded_element](../interfaces/IMathSolverElement.md#expanded_element)
+[`IMathSolverElement`](../interfaces/IMathSolverElement.md).[`expanded_element`](../interfaces/IMathSolverElement.md#expanded_element)
 
-#### Defined in
+#### Source
 
-main.ts:34895
+main.ts:34901
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
 #### Implementation of
 
-[IMathSolverElement](../interfaces/IMathSolverElement.md).[title](../interfaces/IMathSolverElement.md#title)
+[`IMathSolverElement`](../interfaces/IMathSolverElement.md).[`title`](../interfaces/IMathSolverElement.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:34893
+main.ts:34899
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IMathSolverElement](../interfaces/IMathSolverElement.md).[type](../interfaces/IMathSolverElement.md#type)
+[`IMathSolverElement`](../interfaces/IMathSolverElement.md).[`type`](../interfaces/IMathSolverElement.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:34891
+main.ts:34897
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:34908
+main.ts:34914
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:34931
+main.ts:34937
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`MathSolverElement`](MathSolverElement.md)
+> **`static`** **fromJS**(`data`): [`MathSolverElement`](MathSolverElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`MathSolverElement`](MathSolverElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:34924
+main.ts:34930

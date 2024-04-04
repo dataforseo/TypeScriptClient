@@ -1,46 +1,39 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IGpsCoordinatesLocationInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IGpsCoordinatesLocationInfo
 
 # Interface: IGpsCoordinatesLocationInfo
 
-## Implemented by
-
-- [`GpsCoordinatesLocationInfo`](../classes/GpsCoordinatesLocationInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [latitude](IGpsCoordinatesLocationInfo.md#latitude)
-- [longitude](IGpsCoordinatesLocationInfo.md#longitude)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### latitude
+### latitude?
 
-• `Optional` **latitude**: `number`
+> **`optional`** **latitude**: `number`
 
 latitude coordinate of the hotel in google maps
 example:
 "latitude": 51.584091
 
-#### Defined in
+#### Source
 
 main.ts:198904
 
-___
+***
 
-### longitude
+### longitude?
 
-• `Optional` **longitude**: `number`
+> **`optional`** **longitude**: `number`
 
 longitude coordinate of the hotel in google maps
 example:
 "longitude": -0.31365919999999997
 
-#### Defined in
+#### Source
 
 main.ts:198908

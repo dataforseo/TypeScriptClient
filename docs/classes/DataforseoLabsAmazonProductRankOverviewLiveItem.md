@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonProductRankOverviewLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsAmazonProductRankOverviewLiveItem
 
 # Class: DataforseoLabsAmazonProductRankOverviewLiveItem
 
@@ -8,51 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsAmazonProductRankOverviewLiveItem.md#constructor)
-
-### Properties
-
-- [asin](DataforseoLabsAmazonProductRankOverviewLiveItem.md#asin)
-- [metrics](DataforseoLabsAmazonProductRankOverviewLiveItem.md#metrics)
-- [se\_type](DataforseoLabsAmazonProductRankOverviewLiveItem.md#se_type)
-
-### Methods
-
-- [init](DataforseoLabsAmazonProductRankOverviewLiveItem.md#init)
-- [toJSON](DataforseoLabsAmazonProductRankOverviewLiveItem.md#tojson)
-- [fromJS](DataforseoLabsAmazonProductRankOverviewLiveItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsAmazonProductRankOverviewLiveItem(data)
 
-• **new DataforseoLabsAmazonProductRankOverviewLiveItem**(`data?`): [`DataforseoLabsAmazonProductRankOverviewLiveItem`](DataforseoLabsAmazonProductRankOverviewLiveItem.md)
+> **new DataforseoLabsAmazonProductRankOverviewLiveItem**(`data`?): [`DataforseoLabsAmazonProductRankOverviewLiveItem`](DataforseoLabsAmazonProductRankOverviewLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsAmazonProductRankOverviewLiveItem`](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveItem.md) |
+• **data?**: [`IDataforseoLabsAmazonProductRankOverviewLiveItem`](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveItem.md)
 
 #### Returns
 
 [`DataforseoLabsAmazonProductRankOverviewLiveItem`](DataforseoLabsAmazonProductRankOverviewLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:103093
+main.ts:103101
 
 ## Properties
 
-### asin
+### asin?
 
-• `Optional` **asin**: `string`
+> **`optional`** **asin**: `string`
 
 ASIN of the product
 unique product identifier on Amazon;
@@ -60,100 +44,94 @@ for more information, refer to this help center guide
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductRankOverviewLiveItem](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveItem.md).[asin](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveItem.md#asin)
+[`IDataforseoLabsAmazonProductRankOverviewLiveItem`](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveItem.md).[`asin`](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveItem.md#asin)
 
-#### Defined in
+#### Source
 
-main.ts:103087
+main.ts:103095
 
-___
+***
 
-### metrics
+### metrics?
 
-• `Optional` **metrics**: [`AmazonMetricsBundleInfo`](AmazonMetricsBundleInfo.md)
+> **`optional`** **metrics**: [`AmazonMetricsBundleInfo`](AmazonMetricsBundleInfo.md)
 
 average keyword position of the product
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductRankOverviewLiveItem](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveItem.md).[metrics](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveItem.md#metrics)
+[`IDataforseoLabsAmazonProductRankOverviewLiveItem`](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveItem.md).[`metrics`](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveItem.md#metrics)
 
-#### Defined in
+#### Source
 
-main.ts:103089
+main.ts:103097
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductRankOverviewLiveItem](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveItem.md).[se_type](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveItem.md#se_type)
+[`IDataforseoLabsAmazonProductRankOverviewLiveItem`](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveItem.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:103083
+main.ts:103091
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:103102
+main.ts:103110
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:103121
+main.ts:103129
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsAmazonProductRankOverviewLiveItem`](DataforseoLabsAmazonProductRankOverviewLiveItem.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsAmazonProductRankOverviewLiveItem`](DataforseoLabsAmazonProductRankOverviewLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsAmazonProductRankOverviewLiveItem`](DataforseoLabsAmazonProductRankOverviewLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:103114
+main.ts:103122

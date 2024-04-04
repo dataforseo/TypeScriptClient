@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksDomainPagesLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BacklinksDomainPagesLiveItem
 
 # Class: BacklinksDomainPagesLiveItem
 
@@ -8,116 +12,81 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BacklinksDomainPagesLiveItem.md#constructor)
-
-### Properties
-
-- [content\_encoding](BacklinksDomainPagesLiveItem.md#content_encoding)
-- [domain](BacklinksDomainPagesLiveItem.md#domain)
-- [encoded\_size](BacklinksDomainPagesLiveItem.md#encoded_size)
-- [fetch\_time](BacklinksDomainPagesLiveItem.md#fetch_time)
-- [first\_visited](BacklinksDomainPagesLiveItem.md#first_visited)
-- [ip](BacklinksDomainPagesLiveItem.md#ip)
-- [location](BacklinksDomainPagesLiveItem.md#location)
-- [main\_domain](BacklinksDomainPagesLiveItem.md#main_domain)
-- [media\_type](BacklinksDomainPagesLiveItem.md#media_type)
-- [meta](BacklinksDomainPagesLiveItem.md#meta)
-- [page](BacklinksDomainPagesLiveItem.md#page)
-- [page\_summary](BacklinksDomainPagesLiveItem.md#page_summary)
-- [prev\_visited](BacklinksDomainPagesLiveItem.md#prev_visited)
-- [server](BacklinksDomainPagesLiveItem.md#server)
-- [size](BacklinksDomainPagesLiveItem.md#size)
-- [status\_code](BacklinksDomainPagesLiveItem.md#status_code)
-- [tld](BacklinksDomainPagesLiveItem.md#tld)
-- [type](BacklinksDomainPagesLiveItem.md#type)
-
-### Methods
-
-- [init](BacklinksDomainPagesLiveItem.md#init)
-- [toJSON](BacklinksDomainPagesLiveItem.md#tojson)
-- [fromJS](BacklinksDomainPagesLiveItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BacklinksDomainPagesLiveItem(data)
 
-• **new BacklinksDomainPagesLiveItem**(`data?`): [`BacklinksDomainPagesLiveItem`](BacklinksDomainPagesLiveItem.md)
+> **new BacklinksDomainPagesLiveItem**(`data`?): [`BacklinksDomainPagesLiveItem`](BacklinksDomainPagesLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBacklinksDomainPagesLiveItem`](../interfaces/IBacklinksDomainPagesLiveItem.md) |
+• **data?**: [`IBacklinksDomainPagesLiveItem`](../interfaces/IBacklinksDomainPagesLiveItem.md)
 
 #### Returns
 
 [`BacklinksDomainPagesLiveItem`](BacklinksDomainPagesLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:138690
+main.ts:138698
 
 ## Properties
 
-### content\_encoding
+### content\_encoding?
 
-• `Optional` **content\_encoding**: `string`
+> **`optional`** **content\_encoding**: `string`
 
 type of encoding
 
 #### Implementation of
 
-[IBacklinksDomainPagesLiveItem](../interfaces/IBacklinksDomainPagesLiveItem.md).[content_encoding](../interfaces/IBacklinksDomainPagesLiveItem.md#content_encoding)
+[`IBacklinksDomainPagesLiveItem`](../interfaces/IBacklinksDomainPagesLiveItem.md).[`content_encoding`](../interfaces/IBacklinksDomainPagesLiveItem.md#content_encoding)
 
-#### Defined in
+#### Source
 
-main.ts:138678
+main.ts:138686
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain
 domain where the page was found
 
 #### Implementation of
 
-[IBacklinksDomainPagesLiveItem](../interfaces/IBacklinksDomainPagesLiveItem.md).[domain](../interfaces/IBacklinksDomainPagesLiveItem.md#domain)
+[`IBacklinksDomainPagesLiveItem`](../interfaces/IBacklinksDomainPagesLiveItem.md).[`domain`](../interfaces/IBacklinksDomainPagesLiveItem.md#domain)
 
-#### Defined in
+#### Source
 
-main.ts:138642
+main.ts:138650
 
-___
+***
 
-### encoded\_size
+### encoded\_size?
 
-• `Optional` **encoded\_size**: `number`
+> **`optional`** **encoded\_size**: `number`
 
 page size after encoding
 indicates the size of the encoded page, in bytes
 
 #### Implementation of
 
-[IBacklinksDomainPagesLiveItem](../interfaces/IBacklinksDomainPagesLiveItem.md).[encoded_size](../interfaces/IBacklinksDomainPagesLiveItem.md#encoded_size)
+[`IBacklinksDomainPagesLiveItem`](../interfaces/IBacklinksDomainPagesLiveItem.md).[`encoded_size`](../interfaces/IBacklinksDomainPagesLiveItem.md#encoded_size)
 
-#### Defined in
+#### Source
 
-main.ts:138676
+main.ts:138684
 
-___
+***
 
-### fetch\_time
+### fetch\_time?
 
-• `Optional` **fetch\_time**: `string`
+> **`optional`** **fetch\_time**: `string`
 
 most recent date and time when our crawler visited the page
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -126,17 +95,17 @@ example:
 
 #### Implementation of
 
-[IBacklinksDomainPagesLiveItem](../interfaces/IBacklinksDomainPagesLiveItem.md).[fetch_time](../interfaces/IBacklinksDomainPagesLiveItem.md#fetch_time)
+[`IBacklinksDomainPagesLiveItem`](../interfaces/IBacklinksDomainPagesLiveItem.md).[`fetch_time`](../interfaces/IBacklinksDomainPagesLiveItem.md#fetch_time)
 
-#### Defined in
+#### Source
 
-main.ts:138666
+main.ts:138674
 
-___
+***
 
-### first\_visited
+### first\_visited?
 
-• `Optional` **first\_visited**: `string`
+> **`optional`** **first\_visited**: `string`
 
 date and time of the first page visit
 date and time when our crawler visited this page for the first time
@@ -146,132 +115,132 @@ example:
 
 #### Implementation of
 
-[IBacklinksDomainPagesLiveItem](../interfaces/IBacklinksDomainPagesLiveItem.md).[first_visited](../interfaces/IBacklinksDomainPagesLiveItem.md#first_visited)
+[`IBacklinksDomainPagesLiveItem`](../interfaces/IBacklinksDomainPagesLiveItem.md).[`first_visited`](../interfaces/IBacklinksDomainPagesLiveItem.md#first_visited)
 
-#### Defined in
+#### Source
 
-main.ts:138656
+main.ts:138664
 
-___
+***
 
-### ip
+### ip?
 
-• `Optional` **ip**: `string`
+> **`optional`** **ip**: `string`
 
 Internet Protocol address
 
 #### Implementation of
 
-[IBacklinksDomainPagesLiveItem](../interfaces/IBacklinksDomainPagesLiveItem.md).[ip](../interfaces/IBacklinksDomainPagesLiveItem.md#ip)
+[`IBacklinksDomainPagesLiveItem`](../interfaces/IBacklinksDomainPagesLiveItem.md).[`ip`](../interfaces/IBacklinksDomainPagesLiveItem.md#ip)
 
-#### Defined in
+#### Source
 
-main.ts:138650
+main.ts:138658
 
-___
+***
 
-### location
+### location?
 
-• `Optional` **location**: `string`
+> **`optional`** **location**: `string`
 
 location header
 indicates the URL to redirect a page to if exists
 
 #### Implementation of
 
-[IBacklinksDomainPagesLiveItem](../interfaces/IBacklinksDomainPagesLiveItem.md).[location](../interfaces/IBacklinksDomainPagesLiveItem.md#location)
+[`IBacklinksDomainPagesLiveItem`](../interfaces/IBacklinksDomainPagesLiveItem.md).[`location`](../interfaces/IBacklinksDomainPagesLiveItem.md#location)
 
-#### Defined in
+#### Source
 
-main.ts:138671
+main.ts:138679
 
-___
+***
 
-### main\_domain
+### main\_domain?
 
-• `Optional` **main\_domain**: `string`
+> **`optional`** **main\_domain**: `string`
 
 main website domain
 main website domain does not include subdomains
 
 #### Implementation of
 
-[IBacklinksDomainPagesLiveItem](../interfaces/IBacklinksDomainPagesLiveItem.md).[main_domain](../interfaces/IBacklinksDomainPagesLiveItem.md#main_domain)
+[`IBacklinksDomainPagesLiveItem`](../interfaces/IBacklinksDomainPagesLiveItem.md).[`main_domain`](../interfaces/IBacklinksDomainPagesLiveItem.md#main_domain)
 
-#### Defined in
+#### Source
 
-main.ts:138639
+main.ts:138647
 
-___
+***
 
-### media\_type
+### media\_type?
 
-• `Optional` **media\_type**: `string`
+> **`optional`** **media\_type**: `string`
 
 types of media used to display a page
 
 #### Implementation of
 
-[IBacklinksDomainPagesLiveItem](../interfaces/IBacklinksDomainPagesLiveItem.md).[media_type](../interfaces/IBacklinksDomainPagesLiveItem.md#media_type)
+[`IBacklinksDomainPagesLiveItem`](../interfaces/IBacklinksDomainPagesLiveItem.md).[`media_type`](../interfaces/IBacklinksDomainPagesLiveItem.md#media_type)
 
-#### Defined in
+#### Source
 
-main.ts:138680
+main.ts:138688
 
-___
+***
 
-### meta
+### meta?
 
-• `Optional` **meta**: [`BacklinksPageMeta`](BacklinksPageMeta.md)
+> **`optional`** **meta**: [`BacklinksPageMeta`](BacklinksPageMeta.md)
 
 page meta data
 
 #### Implementation of
 
-[IBacklinksDomainPagesLiveItem](../interfaces/IBacklinksDomainPagesLiveItem.md).[meta](../interfaces/IBacklinksDomainPagesLiveItem.md#meta)
+[`IBacklinksDomainPagesLiveItem`](../interfaces/IBacklinksDomainPagesLiveItem.md).[`meta`](../interfaces/IBacklinksDomainPagesLiveItem.md#meta)
 
-#### Defined in
+#### Source
 
-main.ts:138684
+main.ts:138692
 
-___
+***
 
-### page
+### page?
 
-• `Optional` **page**: `string`
+> **`optional`** **page**: `string`
 
 page URL
 relevant page URL
 
 #### Implementation of
 
-[IBacklinksDomainPagesLiveItem](../interfaces/IBacklinksDomainPagesLiveItem.md).[page](../interfaces/IBacklinksDomainPagesLiveItem.md#page)
+[`IBacklinksDomainPagesLiveItem`](../interfaces/IBacklinksDomainPagesLiveItem.md).[`page`](../interfaces/IBacklinksDomainPagesLiveItem.md#page)
 
-#### Defined in
+#### Source
 
-main.ts:138648
+main.ts:138656
 
-___
+***
 
-### page\_summary
+### page\_summary?
 
-• `Optional` **page\_summary**: [`PageSummary`](PageSummary.md)
+> **`optional`** **page\_summary**: [`PageSummary`](PageSummary.md)
 
 contains backlink data for this page
 
 #### Implementation of
 
-[IBacklinksDomainPagesLiveItem](../interfaces/IBacklinksDomainPagesLiveItem.md).[page_summary](../interfaces/IBacklinksDomainPagesLiveItem.md#page_summary)
+[`IBacklinksDomainPagesLiveItem`](../interfaces/IBacklinksDomainPagesLiveItem.md).[`page_summary`](../interfaces/IBacklinksDomainPagesLiveItem.md#page_summary)
 
-#### Defined in
+#### Source
 
-main.ts:138686
+main.ts:138694
 
-___
+***
 
-### prev\_visited
+### prev\_visited?
 
-• `Optional` **prev\_visited**: `string`
+> **`optional`** **prev\_visited**: `string`
 
 previous to the most recent date when our crawler visited the page
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -280,149 +249,143 @@ example:
 
 #### Implementation of
 
-[IBacklinksDomainPagesLiveItem](../interfaces/IBacklinksDomainPagesLiveItem.md).[prev_visited](../interfaces/IBacklinksDomainPagesLiveItem.md#prev_visited)
+[`IBacklinksDomainPagesLiveItem`](../interfaces/IBacklinksDomainPagesLiveItem.md).[`prev_visited`](../interfaces/IBacklinksDomainPagesLiveItem.md#prev_visited)
 
-#### Defined in
+#### Source
 
-main.ts:138661
+main.ts:138669
 
-___
+***
 
-### server
+### server?
 
-• `Optional` **server**: `string`
+> **`optional`** **server**: `string`
 
 server version
 
 #### Implementation of
 
-[IBacklinksDomainPagesLiveItem](../interfaces/IBacklinksDomainPagesLiveItem.md).[server](../interfaces/IBacklinksDomainPagesLiveItem.md#server)
+[`IBacklinksDomainPagesLiveItem`](../interfaces/IBacklinksDomainPagesLiveItem.md).[`server`](../interfaces/IBacklinksDomainPagesLiveItem.md#server)
 
-#### Defined in
+#### Source
 
-main.ts:138682
+main.ts:138690
 
-___
+***
 
-### size
+### size?
 
-• `Optional` **size**: `number`
+> **`optional`** **size**: `number`
 
 indicates the page size, in bytes
 
 #### Implementation of
 
-[IBacklinksDomainPagesLiveItem](../interfaces/IBacklinksDomainPagesLiveItem.md).[size](../interfaces/IBacklinksDomainPagesLiveItem.md#size)
+[`IBacklinksDomainPagesLiveItem`](../interfaces/IBacklinksDomainPagesLiveItem.md).[`size`](../interfaces/IBacklinksDomainPagesLiveItem.md#size)
 
-#### Defined in
+#### Source
 
-main.ts:138673
+main.ts:138681
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 HTTP status code of the page
 
 #### Implementation of
 
-[IBacklinksDomainPagesLiveItem](../interfaces/IBacklinksDomainPagesLiveItem.md).[status_code](../interfaces/IBacklinksDomainPagesLiveItem.md#status_code)
+[`IBacklinksDomainPagesLiveItem`](../interfaces/IBacklinksDomainPagesLiveItem.md).[`status_code`](../interfaces/IBacklinksDomainPagesLiveItem.md#status_code)
 
-#### Defined in
+#### Source
 
-main.ts:138668
+main.ts:138676
 
-___
+***
 
-### tld
+### tld?
 
-• `Optional` **tld**: `string`
+> **`optional`** **tld**: `string`
 
 top-level domain
 top-level domain in the DNS root zone
 
 #### Implementation of
 
-[IBacklinksDomainPagesLiveItem](../interfaces/IBacklinksDomainPagesLiveItem.md).[tld](../interfaces/IBacklinksDomainPagesLiveItem.md#tld)
+[`IBacklinksDomainPagesLiveItem`](../interfaces/IBacklinksDomainPagesLiveItem.md).[`tld`](../interfaces/IBacklinksDomainPagesLiveItem.md#tld)
 
-#### Defined in
+#### Source
 
-main.ts:138645
+main.ts:138653
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IBacklinksDomainPagesLiveItem](../interfaces/IBacklinksDomainPagesLiveItem.md).[type](../interfaces/IBacklinksDomainPagesLiveItem.md#type)
+[`IBacklinksDomainPagesLiveItem`](../interfaces/IBacklinksDomainPagesLiveItem.md).[`type`](../interfaces/IBacklinksDomainPagesLiveItem.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:138636
+main.ts:138644
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:138699
+main.ts:138707
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:138733
+main.ts:138741
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BacklinksDomainPagesLiveItem`](BacklinksDomainPagesLiveItem.md)
+> **`static`** **fromJS**(`data`): [`BacklinksDomainPagesLiveItem`](BacklinksDomainPagesLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BacklinksDomainPagesLiveItem`](BacklinksDomainPagesLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:138726
+main.ts:138734

@@ -1,35 +1,27 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IProductInformationTextRow
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IProductInformationTextRow
 
 # Interface: IProductInformationTextRow
 
-## Hierarchy
+## Extends
 
 - [`IBaseProductInformationRowItem`](IBaseProductInformationRowItem.md)
 
-  ↳ **`IProductInformationTextRow`**
-
-## Implemented by
-
-- [`ProductInformationTextRow`](../classes/ProductInformationTextRow.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [text](IProductInformationTextRow.md#text)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### text
+### text?
 
-• `Optional` **text**: `string`
+> **`optional`** **text**: `string`
 
 text specified under the given title within the section_name
 
-#### Defined in
+#### Source
 
 main.ts:178104

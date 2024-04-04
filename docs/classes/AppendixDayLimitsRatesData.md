@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixDayLimitsRatesData
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppendixDayLimitsRatesData
 
 # Class: AppendixDayLimitsRatesData
 
@@ -8,521 +12,470 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixDayLimitsRatesData.md#constructor)
-
-### Properties
-
-- [app\_data](AppendixDayLimitsRatesData.md#app_data)
-- [appendix](AppendixDayLimitsRatesData.md#appendix)
-- [backlinks](AppendixDayLimitsRatesData.md#backlinks)
-- [business\_data](AppendixDayLimitsRatesData.md#business_data)
-- [content\_analysis](AppendixDayLimitsRatesData.md#content_analysis)
-- [content\_generation](AppendixDayLimitsRatesData.md#content_generation)
-- [dataforseo\_labs](AppendixDayLimitsRatesData.md#dataforseo_labs)
-- [domain\_analytics](AppendixDayLimitsRatesData.md#domain_analytics)
-- [keywords\_data](AppendixDayLimitsRatesData.md#keywords_data)
-- [merchant](AppendixDayLimitsRatesData.md#merchant)
-- [on\_page](AppendixDayLimitsRatesData.md#on_page)
-- [serp](AppendixDayLimitsRatesData.md#serp)
-- [total](AppendixDayLimitsRatesData.md#total)
-- [total\_app\_data](AppendixDayLimitsRatesData.md#total_app_data)
-- [total\_appendix](AppendixDayLimitsRatesData.md#total_appendix)
-- [total\_backlinks](AppendixDayLimitsRatesData.md#total_backlinks)
-- [total\_business\_data](AppendixDayLimitsRatesData.md#total_business_data)
-- [total\_content\_analysis](AppendixDayLimitsRatesData.md#total_content_analysis)
-- [total\_content\_generation](AppendixDayLimitsRatesData.md#total_content_generation)
-- [total\_dataforseo\_labs](AppendixDayLimitsRatesData.md#total_dataforseo_labs)
-- [total\_domain\_analytics](AppendixDayLimitsRatesData.md#total_domain_analytics)
-- [total\_keywords\_data](AppendixDayLimitsRatesData.md#total_keywords_data)
-- [total\_merchant](AppendixDayLimitsRatesData.md#total_merchant)
-- [total\_on\_page](AppendixDayLimitsRatesData.md#total_on_page)
-- [total\_reviews](AppendixDayLimitsRatesData.md#total_reviews)
-- [total\_serp](AppendixDayLimitsRatesData.md#total_serp)
-- [total\_social](AppendixDayLimitsRatesData.md#total_social)
-- [total\_traffic\_analytics](AppendixDayLimitsRatesData.md#total_traffic_analytics)
-
-### Methods
-
-- [init](AppendixDayLimitsRatesData.md#init)
-- [toJSON](AppendixDayLimitsRatesData.md#tojson)
-- [fromJS](AppendixDayLimitsRatesData.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixDayLimitsRatesData(data)
 
-• **new AppendixDayLimitsRatesData**(`data?`): [`AppendixDayLimitsRatesData`](AppendixDayLimitsRatesData.md)
+> **new AppendixDayLimitsRatesData**(`data`?): [`AppendixDayLimitsRatesData`](AppendixDayLimitsRatesData.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixDayLimitsRatesData`](../interfaces/IAppendixDayLimitsRatesData.md) |
+• **data?**: [`IAppendixDayLimitsRatesData`](../interfaces/IAppendixDayLimitsRatesData.md)
 
 #### Returns
 
 [`AppendixDayLimitsRatesData`](AppendixDayLimitsRatesData.md)
 
-#### Defined in
+#### Source
 
 main.ts:214078
 
 ## Properties
 
-### app\_data
+### app\_data?
 
-• `Optional` **app\_data**: [`AppendixAppDataLimitsRatesDataInfo`](AppendixAppDataLimitsRatesDataInfo.md)
+> **`optional`** **app\_data**: [`AppendixAppDataLimitsRatesDataInfo`](AppendixAppDataLimitsRatesDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDayLimitsRatesData](../interfaces/IAppendixDayLimitsRatesData.md).[app_data](../interfaces/IAppendixDayLimitsRatesData.md#app_data)
+[`IAppendixDayLimitsRatesData`](../interfaces/IAppendixDayLimitsRatesData.md).[`app_data`](../interfaces/IAppendixDayLimitsRatesData.md#app_data)
 
-#### Defined in
+#### Source
 
 main.ts:214066
 
-___
+***
 
-### appendix
+### appendix?
 
-• `Optional` **appendix**: [`AppendixAppendixDaysRatesDataInfo`](AppendixAppendixDaysRatesDataInfo.md)
+> **`optional`** **appendix**: [`AppendixAppendixDaysRatesDataInfo`](AppendixAppendixDaysRatesDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDayLimitsRatesData](../interfaces/IAppendixDayLimitsRatesData.md).[appendix](../interfaces/IAppendixDayLimitsRatesData.md#appendix)
+[`IAppendixDayLimitsRatesData`](../interfaces/IAppendixDayLimitsRatesData.md).[`appendix`](../interfaces/IAppendixDayLimitsRatesData.md#appendix)
 
-#### Defined in
+#### Source
 
 main.ts:214052
 
-___
+***
 
-### backlinks
+### backlinks?
 
-• `Optional` **backlinks**: [`AppendixBacklinksLimitsRatesDataInfo`](AppendixBacklinksLimitsRatesDataInfo.md)
+> **`optional`** **backlinks**: [`AppendixBacklinksLimitsRatesDataInfo`](AppendixBacklinksLimitsRatesDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDayLimitsRatesData](../interfaces/IAppendixDayLimitsRatesData.md).[backlinks](../interfaces/IAppendixDayLimitsRatesData.md#backlinks)
+[`IAppendixDayLimitsRatesData`](../interfaces/IAppendixDayLimitsRatesData.md).[`backlinks`](../interfaces/IAppendixDayLimitsRatesData.md#backlinks)
 
-#### Defined in
+#### Source
 
 main.ts:214064
 
-___
+***
 
-### business\_data
+### business\_data?
 
-• `Optional` **business\_data**: [`AppendixBusinessDataLimitsRatesDataInfo`](AppendixBusinessDataLimitsRatesDataInfo.md)
+> **`optional`** **business\_data**: [`AppendixBusinessDataLimitsRatesDataInfo`](AppendixBusinessDataLimitsRatesDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDayLimitsRatesData](../interfaces/IAppendixDayLimitsRatesData.md).[business_data](../interfaces/IAppendixDayLimitsRatesData.md#business_data)
+[`IAppendixDayLimitsRatesData`](../interfaces/IAppendixDayLimitsRatesData.md).[`business_data`](../interfaces/IAppendixDayLimitsRatesData.md#business_data)
 
-#### Defined in
+#### Source
 
 main.ts:214062
 
-___
+***
 
-### content\_analysis
+### content\_analysis?
 
-• `Optional` **content\_analysis**: [`AppendixContentAnalysisLimitsRatesDataInfo`](AppendixContentAnalysisLimitsRatesDataInfo.md)
+> **`optional`** **content\_analysis**: [`AppendixContentAnalysisLimitsRatesDataInfo`](AppendixContentAnalysisLimitsRatesDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDayLimitsRatesData](../interfaces/IAppendixDayLimitsRatesData.md).[content_analysis](../interfaces/IAppendixDayLimitsRatesData.md#content_analysis)
+[`IAppendixDayLimitsRatesData`](../interfaces/IAppendixDayLimitsRatesData.md).[`content_analysis`](../interfaces/IAppendixDayLimitsRatesData.md#content_analysis)
 
-#### Defined in
+#### Source
 
 main.ts:214068
 
-___
+***
 
-### content\_generation
+### content\_generation?
 
-• `Optional` **content\_generation**: [`AppendixContentGenerationLimitsRatesDataInfo`](AppendixContentGenerationLimitsRatesDataInfo.md)
+> **`optional`** **content\_generation**: [`AppendixContentGenerationLimitsRatesDataInfo`](AppendixContentGenerationLimitsRatesDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDayLimitsRatesData](../interfaces/IAppendixDayLimitsRatesData.md).[content_generation](../interfaces/IAppendixDayLimitsRatesData.md#content_generation)
+[`IAppendixDayLimitsRatesData`](../interfaces/IAppendixDayLimitsRatesData.md).[`content_generation`](../interfaces/IAppendixDayLimitsRatesData.md#content_generation)
 
-#### Defined in
+#### Source
 
 main.ts:214070
 
-___
+***
 
-### dataforseo\_labs
+### dataforseo\_labs?
 
-• `Optional` **dataforseo\_labs**: [`AppendixDataforseoLabsLimitsRatesDataInfo`](AppendixDataforseoLabsLimitsRatesDataInfo.md)
+> **`optional`** **dataforseo\_labs**: [`AppendixDataforseoLabsLimitsRatesDataInfo`](AppendixDataforseoLabsLimitsRatesDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDayLimitsRatesData](../interfaces/IAppendixDayLimitsRatesData.md).[dataforseo_labs](../interfaces/IAppendixDayLimitsRatesData.md#dataforseo_labs)
+[`IAppendixDayLimitsRatesData`](../interfaces/IAppendixDayLimitsRatesData.md).[`dataforseo_labs`](../interfaces/IAppendixDayLimitsRatesData.md#dataforseo_labs)
 
-#### Defined in
+#### Source
 
 main.ts:214054
 
-___
+***
 
-### domain\_analytics
+### domain\_analytics?
 
-• `Optional` **domain\_analytics**: [`AppendixDomainAnalyticsLimitsRatesDataInfo`](AppendixDomainAnalyticsLimitsRatesDataInfo.md)
+> **`optional`** **domain\_analytics**: [`AppendixDomainAnalyticsLimitsRatesDataInfo`](AppendixDomainAnalyticsLimitsRatesDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDayLimitsRatesData](../interfaces/IAppendixDayLimitsRatesData.md).[domain_analytics](../interfaces/IAppendixDayLimitsRatesData.md#domain_analytics)
+[`IAppendixDayLimitsRatesData`](../interfaces/IAppendixDayLimitsRatesData.md).[`domain_analytics`](../interfaces/IAppendixDayLimitsRatesData.md#domain_analytics)
 
-#### Defined in
+#### Source
 
 main.ts:214056
 
-___
+***
 
-### keywords\_data
+### keywords\_data?
 
-• `Optional` **keywords\_data**: [`AppendixKeywordsDataDaysRatesDataInfo`](AppendixKeywordsDataDaysRatesDataInfo.md)
+> **`optional`** **keywords\_data**: [`AppendixKeywordsDataDaysRatesDataInfo`](AppendixKeywordsDataDaysRatesDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDayLimitsRatesData](../interfaces/IAppendixDayLimitsRatesData.md).[keywords_data](../interfaces/IAppendixDayLimitsRatesData.md#keywords_data)
+[`IAppendixDayLimitsRatesData`](../interfaces/IAppendixDayLimitsRatesData.md).[`keywords_data`](../interfaces/IAppendixDayLimitsRatesData.md#keywords_data)
 
-#### Defined in
+#### Source
 
 main.ts:214050
 
-___
+***
 
-### merchant
+### merchant?
 
-• `Optional` **merchant**: [`AppendixMerchantLimitsRatesDataInfo`](AppendixMerchantLimitsRatesDataInfo.md)
+> **`optional`** **merchant**: [`AppendixMerchantLimitsRatesDataInfo`](AppendixMerchantLimitsRatesDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDayLimitsRatesData](../interfaces/IAppendixDayLimitsRatesData.md).[merchant](../interfaces/IAppendixDayLimitsRatesData.md#merchant)
+[`IAppendixDayLimitsRatesData`](../interfaces/IAppendixDayLimitsRatesData.md).[`merchant`](../interfaces/IAppendixDayLimitsRatesData.md#merchant)
 
-#### Defined in
+#### Source
 
 main.ts:214058
 
-___
+***
 
-### on\_page
+### on\_page?
 
-• `Optional` **on\_page**: [`AppendixOnPageLimitsRatesDataInfo`](AppendixOnPageLimitsRatesDataInfo.md)
+> **`optional`** **on\_page**: [`AppendixOnPageLimitsRatesDataInfo`](AppendixOnPageLimitsRatesDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDayLimitsRatesData](../interfaces/IAppendixDayLimitsRatesData.md).[on_page](../interfaces/IAppendixDayLimitsRatesData.md#on_page)
+[`IAppendixDayLimitsRatesData`](../interfaces/IAppendixDayLimitsRatesData.md).[`on_page`](../interfaces/IAppendixDayLimitsRatesData.md#on_page)
 
-#### Defined in
+#### Source
 
 main.ts:214060
 
-___
+***
 
-### serp
+### serp?
 
-• `Optional` **serp**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
+> **`optional`** **serp**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDayLimitsRatesData](../interfaces/IAppendixDayLimitsRatesData.md).[serp](../interfaces/IAppendixDayLimitsRatesData.md#serp)
+[`IAppendixDayLimitsRatesData`](../interfaces/IAppendixDayLimitsRatesData.md).[`serp`](../interfaces/IAppendixDayLimitsRatesData.md#serp)
 
-#### Defined in
+#### Source
 
 main.ts:214046
 
-___
+***
 
-### total
+### total?
 
-• `Optional` **total**: `number`
+> **`optional`** **total**: `number`
 
 total amount of money deposited to your account
 
 #### Implementation of
 
-[IAppendixDayLimitsRatesData](../interfaces/IAppendixDayLimitsRatesData.md).[total](../interfaces/IAppendixDayLimitsRatesData.md#total)
+[`IAppendixDayLimitsRatesData`](../interfaces/IAppendixDayLimitsRatesData.md).[`total`](../interfaces/IAppendixDayLimitsRatesData.md#total)
 
-#### Defined in
+#### Source
 
 main.ts:214048
 
-___
+***
 
-### total\_app\_data
+### total\_app\_data?
 
-• `Optional` **total\_app\_data**: `number`
+> **`optional`** **total\_app\_data**: `number`
 
 #### Implementation of
 
-[IAppendixDayLimitsRatesData](../interfaces/IAppendixDayLimitsRatesData.md).[total_app_data](../interfaces/IAppendixDayLimitsRatesData.md#total_app_data)
+[`IAppendixDayLimitsRatesData`](../interfaces/IAppendixDayLimitsRatesData.md).[`total_app_data`](../interfaces/IAppendixDayLimitsRatesData.md#total_app_data)
 
-#### Defined in
+#### Source
 
 main.ts:214067
 
-___
+***
 
-### total\_appendix
+### total\_appendix?
 
-• `Optional` **total\_appendix**: `number`
+> **`optional`** **total\_appendix**: `number`
 
 #### Implementation of
 
-[IAppendixDayLimitsRatesData](../interfaces/IAppendixDayLimitsRatesData.md).[total_appendix](../interfaces/IAppendixDayLimitsRatesData.md#total_appendix)
+[`IAppendixDayLimitsRatesData`](../interfaces/IAppendixDayLimitsRatesData.md).[`total_appendix`](../interfaces/IAppendixDayLimitsRatesData.md#total_appendix)
 
-#### Defined in
+#### Source
 
 main.ts:214053
 
-___
+***
 
-### total\_backlinks
+### total\_backlinks?
 
-• `Optional` **total\_backlinks**: `number`
+> **`optional`** **total\_backlinks**: `number`
 
 #### Implementation of
 
-[IAppendixDayLimitsRatesData](../interfaces/IAppendixDayLimitsRatesData.md).[total_backlinks](../interfaces/IAppendixDayLimitsRatesData.md#total_backlinks)
+[`IAppendixDayLimitsRatesData`](../interfaces/IAppendixDayLimitsRatesData.md).[`total_backlinks`](../interfaces/IAppendixDayLimitsRatesData.md#total_backlinks)
 
-#### Defined in
+#### Source
 
 main.ts:214065
 
-___
+***
 
-### total\_business\_data
+### total\_business\_data?
 
-• `Optional` **total\_business\_data**: `number`
+> **`optional`** **total\_business\_data**: `number`
 
 #### Implementation of
 
-[IAppendixDayLimitsRatesData](../interfaces/IAppendixDayLimitsRatesData.md).[total_business_data](../interfaces/IAppendixDayLimitsRatesData.md#total_business_data)
+[`IAppendixDayLimitsRatesData`](../interfaces/IAppendixDayLimitsRatesData.md).[`total_business_data`](../interfaces/IAppendixDayLimitsRatesData.md#total_business_data)
 
-#### Defined in
+#### Source
 
 main.ts:214063
 
-___
+***
 
-### total\_content\_analysis
+### total\_content\_analysis?
 
-• `Optional` **total\_content\_analysis**: `number`
+> **`optional`** **total\_content\_analysis**: `number`
 
 #### Implementation of
 
-[IAppendixDayLimitsRatesData](../interfaces/IAppendixDayLimitsRatesData.md).[total_content_analysis](../interfaces/IAppendixDayLimitsRatesData.md#total_content_analysis)
+[`IAppendixDayLimitsRatesData`](../interfaces/IAppendixDayLimitsRatesData.md).[`total_content_analysis`](../interfaces/IAppendixDayLimitsRatesData.md#total_content_analysis)
 
-#### Defined in
+#### Source
 
 main.ts:214069
 
-___
+***
 
-### total\_content\_generation
+### total\_content\_generation?
 
-• `Optional` **total\_content\_generation**: `number`
+> **`optional`** **total\_content\_generation**: `number`
 
 #### Implementation of
 
-[IAppendixDayLimitsRatesData](../interfaces/IAppendixDayLimitsRatesData.md).[total_content_generation](../interfaces/IAppendixDayLimitsRatesData.md#total_content_generation)
+[`IAppendixDayLimitsRatesData`](../interfaces/IAppendixDayLimitsRatesData.md).[`total_content_generation`](../interfaces/IAppendixDayLimitsRatesData.md#total_content_generation)
 
-#### Defined in
+#### Source
 
 main.ts:214071
 
-___
+***
 
-### total\_dataforseo\_labs
+### total\_dataforseo\_labs?
 
-• `Optional` **total\_dataforseo\_labs**: `number`
+> **`optional`** **total\_dataforseo\_labs**: `number`
 
 #### Implementation of
 
-[IAppendixDayLimitsRatesData](../interfaces/IAppendixDayLimitsRatesData.md).[total_dataforseo_labs](../interfaces/IAppendixDayLimitsRatesData.md#total_dataforseo_labs)
+[`IAppendixDayLimitsRatesData`](../interfaces/IAppendixDayLimitsRatesData.md).[`total_dataforseo_labs`](../interfaces/IAppendixDayLimitsRatesData.md#total_dataforseo_labs)
 
-#### Defined in
+#### Source
 
 main.ts:214055
 
-___
+***
 
-### total\_domain\_analytics
+### total\_domain\_analytics?
 
-• `Optional` **total\_domain\_analytics**: `number`
+> **`optional`** **total\_domain\_analytics**: `number`
 
 #### Implementation of
 
-[IAppendixDayLimitsRatesData](../interfaces/IAppendixDayLimitsRatesData.md).[total_domain_analytics](../interfaces/IAppendixDayLimitsRatesData.md#total_domain_analytics)
+[`IAppendixDayLimitsRatesData`](../interfaces/IAppendixDayLimitsRatesData.md).[`total_domain_analytics`](../interfaces/IAppendixDayLimitsRatesData.md#total_domain_analytics)
 
-#### Defined in
+#### Source
 
 main.ts:214057
 
-___
+***
 
-### total\_keywords\_data
+### total\_keywords\_data?
 
-• `Optional` **total\_keywords\_data**: `number`
+> **`optional`** **total\_keywords\_data**: `number`
 
 #### Implementation of
 
-[IAppendixDayLimitsRatesData](../interfaces/IAppendixDayLimitsRatesData.md).[total_keywords_data](../interfaces/IAppendixDayLimitsRatesData.md#total_keywords_data)
+[`IAppendixDayLimitsRatesData`](../interfaces/IAppendixDayLimitsRatesData.md).[`total_keywords_data`](../interfaces/IAppendixDayLimitsRatesData.md#total_keywords_data)
 
-#### Defined in
+#### Source
 
 main.ts:214051
 
-___
+***
 
-### total\_merchant
+### total\_merchant?
 
-• `Optional` **total\_merchant**: `number`
+> **`optional`** **total\_merchant**: `number`
 
 #### Implementation of
 
-[IAppendixDayLimitsRatesData](../interfaces/IAppendixDayLimitsRatesData.md).[total_merchant](../interfaces/IAppendixDayLimitsRatesData.md#total_merchant)
+[`IAppendixDayLimitsRatesData`](../interfaces/IAppendixDayLimitsRatesData.md).[`total_merchant`](../interfaces/IAppendixDayLimitsRatesData.md#total_merchant)
 
-#### Defined in
+#### Source
 
 main.ts:214059
 
-___
+***
 
-### total\_on\_page
+### total\_on\_page?
 
-• `Optional` **total\_on\_page**: `number`
+> **`optional`** **total\_on\_page**: `number`
 
 #### Implementation of
 
-[IAppendixDayLimitsRatesData](../interfaces/IAppendixDayLimitsRatesData.md).[total_on_page](../interfaces/IAppendixDayLimitsRatesData.md#total_on_page)
+[`IAppendixDayLimitsRatesData`](../interfaces/IAppendixDayLimitsRatesData.md).[`total_on_page`](../interfaces/IAppendixDayLimitsRatesData.md#total_on_page)
 
-#### Defined in
+#### Source
 
 main.ts:214061
 
-___
+***
 
-### total\_reviews
+### total\_reviews?
 
-• `Optional` **total\_reviews**: `number`
+> **`optional`** **total\_reviews**: `number`
 
 #### Implementation of
 
-[IAppendixDayLimitsRatesData](../interfaces/IAppendixDayLimitsRatesData.md).[total_reviews](../interfaces/IAppendixDayLimitsRatesData.md#total_reviews)
+[`IAppendixDayLimitsRatesData`](../interfaces/IAppendixDayLimitsRatesData.md).[`total_reviews`](../interfaces/IAppendixDayLimitsRatesData.md#total_reviews)
 
-#### Defined in
+#### Source
 
 main.ts:214073
 
-___
+***
 
-### total\_serp
+### total\_serp?
 
-• `Optional` **total\_serp**: `number`
+> **`optional`** **total\_serp**: `number`
 
 #### Implementation of
 
-[IAppendixDayLimitsRatesData](../interfaces/IAppendixDayLimitsRatesData.md).[total_serp](../interfaces/IAppendixDayLimitsRatesData.md#total_serp)
+[`IAppendixDayLimitsRatesData`](../interfaces/IAppendixDayLimitsRatesData.md).[`total_serp`](../interfaces/IAppendixDayLimitsRatesData.md#total_serp)
 
-#### Defined in
+#### Source
 
 main.ts:214049
 
-___
+***
 
-### total\_social
+### total\_social?
 
-• `Optional` **total\_social**: `number`
+> **`optional`** **total\_social**: `number`
 
 #### Implementation of
 
-[IAppendixDayLimitsRatesData](../interfaces/IAppendixDayLimitsRatesData.md).[total_social](../interfaces/IAppendixDayLimitsRatesData.md#total_social)
+[`IAppendixDayLimitsRatesData`](../interfaces/IAppendixDayLimitsRatesData.md).[`total_social`](../interfaces/IAppendixDayLimitsRatesData.md#total_social)
 
-#### Defined in
+#### Source
 
 main.ts:214074
 
-___
+***
 
-### total\_traffic\_analytics
+### total\_traffic\_analytics?
 
-• `Optional` **total\_traffic\_analytics**: `number`
+> **`optional`** **total\_traffic\_analytics**: `number`
 
 #### Implementation of
 
-[IAppendixDayLimitsRatesData](../interfaces/IAppendixDayLimitsRatesData.md).[total_traffic_analytics](../interfaces/IAppendixDayLimitsRatesData.md#total_traffic_analytics)
+[`IAppendixDayLimitsRatesData`](../interfaces/IAppendixDayLimitsRatesData.md).[`total_traffic_analytics`](../interfaces/IAppendixDayLimitsRatesData.md#total_traffic_analytics)
 
-#### Defined in
+#### Source
 
 main.ts:214072
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:214087
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:214131
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppendixDayLimitsRatesData`](AppendixDayLimitsRatesData.md)
+> **`static`** **fromJS**(`data`): [`AppendixDayLimitsRatesData`](AppendixDayLimitsRatesData.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppendixDayLimitsRatesData`](AppendixDayLimitsRatesData.md)
 
-#### Defined in
+#### Source
 
 main.ts:214124

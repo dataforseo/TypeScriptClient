@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MerchantAmazonAsinTasksReadyResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / MerchantAmazonAsinTasksReadyResultInfo
 
 # Class: MerchantAmazonAsinTasksReadyResultInfo
 
@@ -8,220 +12,190 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](MerchantAmazonAsinTasksReadyResultInfo.md#constructor)
-
-### Properties
-
-- [date\_posted](MerchantAmazonAsinTasksReadyResultInfo.md#date_posted)
-- [endpoint\_advanced](MerchantAmazonAsinTasksReadyResultInfo.md#endpoint_advanced)
-- [endpoint\_html](MerchantAmazonAsinTasksReadyResultInfo.md#endpoint_html)
-- [id](MerchantAmazonAsinTasksReadyResultInfo.md#id)
-- [se](MerchantAmazonAsinTasksReadyResultInfo.md#se)
-- [se\_type](MerchantAmazonAsinTasksReadyResultInfo.md#se_type)
-- [tag](MerchantAmazonAsinTasksReadyResultInfo.md#tag)
-
-### Methods
-
-- [init](MerchantAmazonAsinTasksReadyResultInfo.md#init)
-- [toJSON](MerchantAmazonAsinTasksReadyResultInfo.md#tojson)
-- [fromJS](MerchantAmazonAsinTasksReadyResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new MerchantAmazonAsinTasksReadyResultInfo(data)
 
-• **new MerchantAmazonAsinTasksReadyResultInfo**(`data?`): [`MerchantAmazonAsinTasksReadyResultInfo`](MerchantAmazonAsinTasksReadyResultInfo.md)
+> **new MerchantAmazonAsinTasksReadyResultInfo**(`data`?): [`MerchantAmazonAsinTasksReadyResultInfo`](MerchantAmazonAsinTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IMerchantAmazonAsinTasksReadyResultInfo`](../interfaces/IMerchantAmazonAsinTasksReadyResultInfo.md) |
+• **data?**: [`IMerchantAmazonAsinTasksReadyResultInfo`](../interfaces/IMerchantAmazonAsinTasksReadyResultInfo.md)
 
 #### Returns
 
 [`MerchantAmazonAsinTasksReadyResultInfo`](MerchantAmazonAsinTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:177593
 
 ## Properties
 
-### date\_posted
+### date\_posted?
 
-• `Optional` **date\_posted**: `string`
+> **`optional`** **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
 #### Implementation of
 
-[IMerchantAmazonAsinTasksReadyResultInfo](../interfaces/IMerchantAmazonAsinTasksReadyResultInfo.md).[date_posted](../interfaces/IMerchantAmazonAsinTasksReadyResultInfo.md#date_posted)
+[`IMerchantAmazonAsinTasksReadyResultInfo`](../interfaces/IMerchantAmazonAsinTasksReadyResultInfo.md).[`date_posted`](../interfaces/IMerchantAmazonAsinTasksReadyResultInfo.md#date_posted)
 
-#### Defined in
+#### Source
 
 main.ts:177583
 
-___
+***
 
-### endpoint\_advanced
+### endpoint\_advanced?
 
-• `Optional` **endpoint\_advanced**: `string`
+> **`optional`** **endpoint\_advanced**: `string`
 
 URL for collecting the results of the Amazon ASIN Advanced task
 
 #### Implementation of
 
-[IMerchantAmazonAsinTasksReadyResultInfo](../interfaces/IMerchantAmazonAsinTasksReadyResultInfo.md).[endpoint_advanced](../interfaces/IMerchantAmazonAsinTasksReadyResultInfo.md#endpoint_advanced)
+[`IMerchantAmazonAsinTasksReadyResultInfo`](../interfaces/IMerchantAmazonAsinTasksReadyResultInfo.md).[`endpoint_advanced`](../interfaces/IMerchantAmazonAsinTasksReadyResultInfo.md#endpoint_advanced)
 
-#### Defined in
+#### Source
 
 main.ts:177587
 
-___
+***
 
-### endpoint\_html
+### endpoint\_html?
 
-• `Optional` **endpoint\_html**: `string`
+> **`optional`** **endpoint\_html**: `string`
 
 URL for collecting the results of the Amazon ASIN HTML task
 
 #### Implementation of
 
-[IMerchantAmazonAsinTasksReadyResultInfo](../interfaces/IMerchantAmazonAsinTasksReadyResultInfo.md).[endpoint_html](../interfaces/IMerchantAmazonAsinTasksReadyResultInfo.md#endpoint_html)
+[`IMerchantAmazonAsinTasksReadyResultInfo`](../interfaces/IMerchantAmazonAsinTasksReadyResultInfo.md).[`endpoint_html`](../interfaces/IMerchantAmazonAsinTasksReadyResultInfo.md#endpoint_html)
 
-#### Defined in
+#### Source
 
 main.ts:177589
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IMerchantAmazonAsinTasksReadyResultInfo](../interfaces/IMerchantAmazonAsinTasksReadyResultInfo.md).[id](../interfaces/IMerchantAmazonAsinTasksReadyResultInfo.md#id)
+[`IMerchantAmazonAsinTasksReadyResultInfo`](../interfaces/IMerchantAmazonAsinTasksReadyResultInfo.md).[`id`](../interfaces/IMerchantAmazonAsinTasksReadyResultInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:177576
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 
 #### Implementation of
 
-[IMerchantAmazonAsinTasksReadyResultInfo](../interfaces/IMerchantAmazonAsinTasksReadyResultInfo.md).[se](../interfaces/IMerchantAmazonAsinTasksReadyResultInfo.md#se)
+[`IMerchantAmazonAsinTasksReadyResultInfo`](../interfaces/IMerchantAmazonAsinTasksReadyResultInfo.md).[`se`](../interfaces/IMerchantAmazonAsinTasksReadyResultInfo.md#se)
 
-#### Defined in
+#### Source
 
 main.ts:177578
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 type of search engine
 can take the following values: shopping
 
 #### Implementation of
 
-[IMerchantAmazonAsinTasksReadyResultInfo](../interfaces/IMerchantAmazonAsinTasksReadyResultInfo.md).[se_type](../interfaces/IMerchantAmazonAsinTasksReadyResultInfo.md#se_type)
+[`IMerchantAmazonAsinTasksReadyResultInfo`](../interfaces/IMerchantAmazonAsinTasksReadyResultInfo.md).[`se_type`](../interfaces/IMerchantAmazonAsinTasksReadyResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
 main.ts:177581
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
 #### Implementation of
 
-[IMerchantAmazonAsinTasksReadyResultInfo](../interfaces/IMerchantAmazonAsinTasksReadyResultInfo.md).[tag](../interfaces/IMerchantAmazonAsinTasksReadyResultInfo.md#tag)
+[`IMerchantAmazonAsinTasksReadyResultInfo`](../interfaces/IMerchantAmazonAsinTasksReadyResultInfo.md).[`tag`](../interfaces/IMerchantAmazonAsinTasksReadyResultInfo.md#tag)
 
-#### Defined in
+#### Source
 
 main.ts:177585
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:177602
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:177625
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`MerchantAmazonAsinTasksReadyResultInfo`](MerchantAmazonAsinTasksReadyResultInfo.md)
+> **`static`** **fromJS**(`data`): [`MerchantAmazonAsinTasksReadyResultInfo`](MerchantAmazonAsinTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`MerchantAmazonAsinTasksReadyResultInfo`](MerchantAmazonAsinTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:177618

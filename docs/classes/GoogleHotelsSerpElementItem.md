@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / GoogleHotelsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / GoogleHotelsSerpElementItem
 
 # Class: GoogleHotelsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-  ↳ **`GoogleHotelsSerpElementItem`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](GoogleHotelsSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](GoogleHotelsSerpElementItem.md#_discriminator)
-- [cid](GoogleHotelsSerpElementItem.md#cid)
-- [hotel\_identifier](GoogleHotelsSerpElementItem.md#hotel_identifier)
-- [position](GoogleHotelsSerpElementItem.md#position)
-- [rank\_absolute](GoogleHotelsSerpElementItem.md#rank_absolute)
-- [rank\_group](GoogleHotelsSerpElementItem.md#rank_group)
-- [rectangle](GoogleHotelsSerpElementItem.md#rectangle)
-- [url](GoogleHotelsSerpElementItem.md#url)
-- [xpath](GoogleHotelsSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](GoogleHotelsSerpElementItem.md#init)
-- [toJSON](GoogleHotelsSerpElementItem.md#tojson)
-- [fromJS](GoogleHotelsSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new GoogleHotelsSerpElementItem(data)
 
-• **new GoogleHotelsSerpElementItem**(`data?`): [`GoogleHotelsSerpElementItem`](GoogleHotelsSerpElementItem.md)
+> **new GoogleHotelsSerpElementItem**(`data`?): [`GoogleHotelsSerpElementItem`](GoogleHotelsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IGoogleHotelsSerpElementItem`](../interfaces/IGoogleHotelsSerpElementItem.md) |
+• **data?**: [`IGoogleHotelsSerpElementItem`](../interfaces/IGoogleHotelsSerpElementItem.md)
 
 #### Returns
 
@@ -58,47 +34,47 @@
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[constructor](BaseSerpElementItem.md#constructor)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:34736
+main.ts:34742
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[_discriminator](BaseSerpElementItem.md#_discriminator)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:19788
 
-___
+***
 
-### cid
+### cid?
 
-• `Optional` **cid**: `string`
+> **`optional`** **cid**: `string`
 
 google-defined client id
 
 #### Implementation of
 
-[IGoogleHotelsSerpElementItem](../interfaces/IGoogleHotelsSerpElementItem.md).[cid](../interfaces/IGoogleHotelsSerpElementItem.md#cid)
+[`IGoogleHotelsSerpElementItem`](../interfaces/IGoogleHotelsSerpElementItem.md).[`cid`](../interfaces/IGoogleHotelsSerpElementItem.md#cid)
 
-#### Defined in
+#### Source
 
-main.ts:34728
+main.ts:34734
 
-___
+***
 
-### hotel\_identifier
+### hotel\_identifier?
 
-• `Optional` **hotel\_identifier**: `string`
+> **`optional`** **hotel\_identifier**: `string`
 
 unique hotel identifier
 unique hotel identifier assigned by Google;
@@ -106,17 +82,17 @@ example: "CgoIjaeSlI6CnNpVEAE"
 
 #### Implementation of
 
-[IGoogleHotelsSerpElementItem](../interfaces/IGoogleHotelsSerpElementItem.md).[hotel_identifier](../interfaces/IGoogleHotelsSerpElementItem.md#hotel_identifier)
+[`IGoogleHotelsSerpElementItem`](../interfaces/IGoogleHotelsSerpElementItem.md).[`hotel_identifier`](../interfaces/IGoogleHotelsSerpElementItem.md#hotel_identifier)
 
-#### Defined in
+#### Source
 
-main.ts:34724
+main.ts:34730
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -124,17 +100,17 @@ left, right
 
 #### Implementation of
 
-[IGoogleHotelsSerpElementItem](../interfaces/IGoogleHotelsSerpElementItem.md).[position](../interfaces/IGoogleHotelsSerpElementItem.md#position)
+[`IGoogleHotelsSerpElementItem`](../interfaces/IGoogleHotelsSerpElementItem.md).[`position`](../interfaces/IGoogleHotelsSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
-main.ts:34718
+main.ts:34724
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -142,17 +118,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IGoogleHotelsSerpElementItem](../interfaces/IGoogleHotelsSerpElementItem.md).[rank_absolute](../interfaces/IGoogleHotelsSerpElementItem.md#rank_absolute)
+[`IGoogleHotelsSerpElementItem`](../interfaces/IGoogleHotelsSerpElementItem.md).[`rank_absolute`](../interfaces/IGoogleHotelsSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:34714
+main.ts:34720
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
@@ -161,17 +137,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IGoogleHotelsSerpElementItem](../interfaces/IGoogleHotelsSerpElementItem.md).[rank_group](../interfaces/IGoogleHotelsSerpElementItem.md#rank_group)
+[`IGoogleHotelsSerpElementItem`](../interfaces/IGoogleHotelsSerpElementItem.md).[`rank_group`](../interfaces/IGoogleHotelsSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
-main.ts:34710
+main.ts:34716
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -179,55 +155,53 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Implementation of
 
-[IGoogleHotelsSerpElementItem](../interfaces/IGoogleHotelsSerpElementItem.md).[rectangle](../interfaces/IGoogleHotelsSerpElementItem.md#rectangle)
+[`IGoogleHotelsSerpElementItem`](../interfaces/IGoogleHotelsSerpElementItem.md).[`rectangle`](../interfaces/IGoogleHotelsSerpElementItem.md#rectangle)
 
-#### Defined in
+#### Source
 
-main.ts:34732
+main.ts:34738
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 source URL
 
 #### Implementation of
 
-[IGoogleHotelsSerpElementItem](../interfaces/IGoogleHotelsSerpElementItem.md).[url](../interfaces/IGoogleHotelsSerpElementItem.md#url)
+[`IGoogleHotelsSerpElementItem`](../interfaces/IGoogleHotelsSerpElementItem.md).[`url`](../interfaces/IGoogleHotelsSerpElementItem.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:34726
+main.ts:34732
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IGoogleHotelsSerpElementItem](../interfaces/IGoogleHotelsSerpElementItem.md).[xpath](../interfaces/IGoogleHotelsSerpElementItem.md#xpath)
+[`IGoogleHotelsSerpElementItem`](../interfaces/IGoogleHotelsSerpElementItem.md).[`xpath`](../interfaces/IGoogleHotelsSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
-main.ts:34720
+main.ts:34726
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -235,23 +209,21 @@ main.ts:34720
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[init](BaseSerpElementItem.md#init)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:34741
+main.ts:34747
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -259,23 +231,21 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[toJSON](BaseSerpElementItem.md#tojson)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:34766
+main.ts:34772
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`GoogleHotelsSerpElementItem`](GoogleHotelsSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`GoogleHotelsSerpElementItem`](GoogleHotelsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -283,8 +253,8 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[fromJS](BaseSerpElementItem.md#fromjs)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:34759
+main.ts:34765

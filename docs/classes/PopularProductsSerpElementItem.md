@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / PopularProductsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / PopularProductsSerpElementItem
 
 # Class: PopularProductsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-  ↳ **`PopularProductsSerpElementItem`**
 
 ## Implements
 
@@ -14,41 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](PopularProductsSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](PopularProductsSerpElementItem.md#_discriminator)
-- [items](PopularProductsSerpElementItem.md#items)
-- [position](PopularProductsSerpElementItem.md#position)
-- [rank\_absolute](PopularProductsSerpElementItem.md#rank_absolute)
-- [rank\_group](PopularProductsSerpElementItem.md#rank_group)
-- [rectangle](PopularProductsSerpElementItem.md#rectangle)
-- [xpath](PopularProductsSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](PopularProductsSerpElementItem.md#init)
-- [toJSON](PopularProductsSerpElementItem.md#tojson)
-- [fromJS](PopularProductsSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new PopularProductsSerpElementItem(data)
 
-• **new PopularProductsSerpElementItem**(`data?`): [`PopularProductsSerpElementItem`](PopularProductsSerpElementItem.md)
+> **new PopularProductsSerpElementItem**(`data`?): [`PopularProductsSerpElementItem`](PopularProductsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IPopularProductsSerpElementItem`](../interfaces/IPopularProductsSerpElementItem.md) |
+• **data?**: [`IPopularProductsSerpElementItem`](../interfaces/IPopularProductsSerpElementItem.md)
 
 #### Returns
 
@@ -56,48 +34,48 @@
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[constructor](BaseSerpElementItem.md#constructor)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:32951
+main.ts:32957
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[_discriminator](BaseSerpElementItem.md#_discriminator)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:19788
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`PopularProductsElement`](PopularProductsElement.md)[]
+> **`optional`** **items**: [`PopularProductsElement`](PopularProductsElement.md)[]
 
 additional items present in the element
 if there are none, equals null
 
 #### Implementation of
 
-[IPopularProductsSerpElementItem](../interfaces/IPopularProductsSerpElementItem.md).[items](../interfaces/IPopularProductsSerpElementItem.md#items)
+[`IPopularProductsSerpElementItem`](../interfaces/IPopularProductsSerpElementItem.md).[`items`](../interfaces/IPopularProductsSerpElementItem.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:32943
+main.ts:32949
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -105,17 +83,17 @@ left, right
 
 #### Implementation of
 
-[IPopularProductsSerpElementItem](../interfaces/IPopularProductsSerpElementItem.md).[position](../interfaces/IPopularProductsSerpElementItem.md#position)
+[`IPopularProductsSerpElementItem`](../interfaces/IPopularProductsSerpElementItem.md).[`position`](../interfaces/IPopularProductsSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
-main.ts:32938
+main.ts:32944
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -123,17 +101,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IPopularProductsSerpElementItem](../interfaces/IPopularProductsSerpElementItem.md).[rank_absolute](../interfaces/IPopularProductsSerpElementItem.md#rank_absolute)
+[`IPopularProductsSerpElementItem`](../interfaces/IPopularProductsSerpElementItem.md).[`rank_absolute`](../interfaces/IPopularProductsSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:32934
+main.ts:32940
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
@@ -142,17 +120,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IPopularProductsSerpElementItem](../interfaces/IPopularProductsSerpElementItem.md).[rank_group](../interfaces/IPopularProductsSerpElementItem.md#rank_group)
+[`IPopularProductsSerpElementItem`](../interfaces/IPopularProductsSerpElementItem.md).[`rank_group`](../interfaces/IPopularProductsSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
-main.ts:32930
+main.ts:32936
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -160,39 +138,37 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Implementation of
 
-[IPopularProductsSerpElementItem](../interfaces/IPopularProductsSerpElementItem.md).[rectangle](../interfaces/IPopularProductsSerpElementItem.md#rectangle)
+[`IPopularProductsSerpElementItem`](../interfaces/IPopularProductsSerpElementItem.md).[`rectangle`](../interfaces/IPopularProductsSerpElementItem.md#rectangle)
 
-#### Defined in
+#### Source
 
-main.ts:32947
+main.ts:32953
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IPopularProductsSerpElementItem](../interfaces/IPopularProductsSerpElementItem.md).[xpath](../interfaces/IPopularProductsSerpElementItem.md#xpath)
+[`IPopularProductsSerpElementItem`](../interfaces/IPopularProductsSerpElementItem.md).[`xpath`](../interfaces/IPopularProductsSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
-main.ts:32940
+main.ts:32946
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -200,23 +176,21 @@ main.ts:32940
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[init](BaseSerpElementItem.md#init)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:32956
+main.ts:32962
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -224,23 +198,21 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[toJSON](BaseSerpElementItem.md#tojson)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:32983
+main.ts:32989
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`PopularProductsSerpElementItem`](PopularProductsSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`PopularProductsSerpElementItem`](PopularProductsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -248,8 +220,8 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[fromJS](BaseSerpElementItem.md#fromjs)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:32976
+main.ts:32982

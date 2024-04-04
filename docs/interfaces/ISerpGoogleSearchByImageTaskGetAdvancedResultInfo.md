@@ -1,78 +1,60 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpGoogleSearchByImageTaskGetAdvancedResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ISerpGoogleSearchByImageTaskGetAdvancedResultInfo
 
 # Interface: ISerpGoogleSearchByImageTaskGetAdvancedResultInfo
 
-## Implemented by
-
-- [`SerpGoogleSearchByImageTaskGetAdvancedResultInfo`](../classes/SerpGoogleSearchByImageTaskGetAdvancedResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [check\_url](ISerpGoogleSearchByImageTaskGetAdvancedResultInfo.md#check_url)
-- [datetime](ISerpGoogleSearchByImageTaskGetAdvancedResultInfo.md#datetime)
-- [image\_url](ISerpGoogleSearchByImageTaskGetAdvancedResultInfo.md#image_url)
-- [item\_types](ISerpGoogleSearchByImageTaskGetAdvancedResultInfo.md#item_types)
-- [items](ISerpGoogleSearchByImageTaskGetAdvancedResultInfo.md#items)
-- [items\_count](ISerpGoogleSearchByImageTaskGetAdvancedResultInfo.md#items_count)
-- [keyword](ISerpGoogleSearchByImageTaskGetAdvancedResultInfo.md#keyword)
-- [language\_code](ISerpGoogleSearchByImageTaskGetAdvancedResultInfo.md#language_code)
-- [location\_code](ISerpGoogleSearchByImageTaskGetAdvancedResultInfo.md#location_code)
-- [se\_domain](ISerpGoogleSearchByImageTaskGetAdvancedResultInfo.md#se_domain)
-- [se\_results\_count](ISerpGoogleSearchByImageTaskGetAdvancedResultInfo.md#se_results_count)
-- [spell](ISerpGoogleSearchByImageTaskGetAdvancedResultInfo.md#spell)
-- [type](ISerpGoogleSearchByImageTaskGetAdvancedResultInfo.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### check\_url
+### check\_url?
 
-• `Optional` **check\_url**: `string`
+> **`optional`** **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
 
-#### Defined in
+#### Source
 
-main.ts:48897
+main.ts:48905
 
-___
+***
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
-main.ts:48902
+main.ts:48910
 
-___
+***
 
-### image\_url
+### image\_url?
 
-• `Optional` **image\_url**: `string`
+> **`optional`** **image\_url**: `string`
 
 URL specified in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:48884
+main.ts:48892
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -80,116 +62,116 @@ possible item types:
 organic,
 images
 
-#### Defined in
+#### Source
 
-main.ts:48911
+main.ts:48919
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
+> **`optional`** **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
 
 additional items present in the element
 if there are none, equals null
 
-#### Defined in
+#### Source
 
-main.ts:48918
+main.ts:48926
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Defined in
+#### Source
 
-main.ts:48915
+main.ts:48923
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword Google associated with the specified image
 
-#### Defined in
-
-main.ts:48886
-
-___
-
-### language\_code
-
-• `Optional` **language\_code**: `string`
-
-language code in a POST array
-
-#### Defined in
+#### Source
 
 main.ts:48894
 
-___
+***
 
-### location\_code
+### language\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **language\_code**: `string`
+
+language code in a POST array
+
+#### Source
+
+main.ts:48902
+
+***
+
+### location\_code?
+
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:48892
+main.ts:48900
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:48890
+main.ts:48898
 
-___
+***
 
-### se\_results\_count
+### se\_results\_count?
 
-• `Optional` **se\_results\_count**: `number`
+> **`optional`** **se\_results\_count**: `number`
 
 total number of results in SERP
 
-#### Defined in
+#### Source
 
-main.ts:48913
+main.ts:48921
 
-___
+***
 
-### spell
+### spell?
 
-• `Optional` **spell**: [`SpellInfo`](../classes/SpellInfo.md)
+> **`optional`** **spell**: [`SpellInfo`](../classes/SpellInfo.md)
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
 
-#### Defined in
+#### Source
 
-main.ts:48905
+main.ts:48913
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:48888
+main.ts:48896

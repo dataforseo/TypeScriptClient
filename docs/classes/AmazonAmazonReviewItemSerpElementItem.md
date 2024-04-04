@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AmazonAmazonReviewItemSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AmazonAmazonReviewItemSerpElementItem
 
 # Class: AmazonAmazonReviewItemSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)
-
-  ↳ **`AmazonAmazonReviewItemSerpElementItem`**
 
 ## Implements
 
@@ -14,50 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AmazonAmazonReviewItemSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](AmazonAmazonReviewItemSerpElementItem.md#_discriminator)
-- [helpful\_votes](AmazonAmazonReviewItemSerpElementItem.md#helpful_votes)
-- [images](AmazonAmazonReviewItemSerpElementItem.md#images)
-- [position](AmazonAmazonReviewItemSerpElementItem.md#position)
-- [publication\_date](AmazonAmazonReviewItemSerpElementItem.md#publication_date)
-- [rank\_absolute](AmazonAmazonReviewItemSerpElementItem.md#rank_absolute)
-- [rank\_group](AmazonAmazonReviewItemSerpElementItem.md#rank_group)
-- [rating](AmazonAmazonReviewItemSerpElementItem.md#rating)
-- [review\_text](AmazonAmazonReviewItemSerpElementItem.md#review_text)
-- [subtitle](AmazonAmazonReviewItemSerpElementItem.md#subtitle)
-- [title](AmazonAmazonReviewItemSerpElementItem.md#title)
-- [url](AmazonAmazonReviewItemSerpElementItem.md#url)
-- [user\_profile](AmazonAmazonReviewItemSerpElementItem.md#user_profile)
-- [verified](AmazonAmazonReviewItemSerpElementItem.md#verified)
-- [videos](AmazonAmazonReviewItemSerpElementItem.md#videos)
-- [xpath](AmazonAmazonReviewItemSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](AmazonAmazonReviewItemSerpElementItem.md#init)
-- [toJSON](AmazonAmazonReviewItemSerpElementItem.md#tojson)
-- [fromJS](AmazonAmazonReviewItemSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AmazonAmazonReviewItemSerpElementItem(data)
 
-• **new AmazonAmazonReviewItemSerpElementItem**(`data?`): [`AmazonAmazonReviewItemSerpElementItem`](AmazonAmazonReviewItemSerpElementItem.md)
+> **new AmazonAmazonReviewItemSerpElementItem**(`data`?): [`AmazonAmazonReviewItemSerpElementItem`](AmazonAmazonReviewItemSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAmazonAmazonReviewItemSerpElementItem`](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md) |
+• **data?**: [`IAmazonAmazonReviewItemSerpElementItem`](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md)
 
 #### Returns
 
@@ -65,9 +34,9 @@
 
 #### Overrides
 
-[BaseAmazonSerpElementItem](BaseAmazonSerpElementItem.md).[constructor](BaseAmazonSerpElementItem.md#constructor)
+[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`constructor`](BaseAmazonSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:181108
 
@@ -75,71 +44,71 @@ main.ts:181108
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseAmazonSerpElementItem](BaseAmazonSerpElementItem.md).[_discriminator](BaseAmazonSerpElementItem.md#_discriminator)
+[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`_discriminator`](BaseAmazonSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:21275
 
-___
+***
 
-### helpful\_votes
+### helpful\_votes?
 
-• `Optional` **helpful\_votes**: `number`
+> **`optional`** **helpful\_votes**: `number`
 
 helpful votes count
 number of users who clicked on the ‘Helpful” button under the review text
 
 #### Implementation of
 
-[IAmazonAmazonReviewItemSerpElementItem](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md).[helpful_votes](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md#helpful_votes)
+[`IAmazonAmazonReviewItemSerpElementItem`](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md).[`helpful_votes`](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md#helpful_votes)
 
-#### Defined in
+#### Source
 
 main.ts:181085
 
-___
+***
 
-### images
+### images?
 
-• `Optional` **images**: [`ImagesElement`](ImagesElement.md)[]
+> **`optional`** **images**: [`ImagesElement`](ImagesElement.md)[]
 
 images of the product submitted by the reviewer
 
 #### Implementation of
 
-[IAmazonAmazonReviewItemSerpElementItem](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md).[images](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md#images)
+[`IAmazonAmazonReviewItemSerpElementItem`](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md).[`images`](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md#images)
 
-#### Defined in
+#### Source
 
 main.ts:181087
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the review in SERP
 can take the following values: right
 
 #### Implementation of
 
-[IAmazonAmazonReviewItemSerpElementItem](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md).[position](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md#position)
+[`IAmazonAmazonReviewItemSerpElementItem`](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md).[`position`](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
 main.ts:181076
 
-___
+***
 
-### publication\_date
+### publication\_date?
 
-• `Optional` **publication\_date**: `string`
+> **`optional`** **publication\_date**: `string`
 
 date and time when the review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
@@ -148,201 +117,199 @@ example:
 
 #### Implementation of
 
-[IAmazonAmazonReviewItemSerpElementItem](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md).[publication_date](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md#publication_date)
+[`IAmazonAmazonReviewItemSerpElementItem`](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md).[`publication_date`](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md#publication_date)
 
-#### Defined in
+#### Source
 
 main.ts:181102
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank among all the listed reviews
 absolute position among all reviews on the list
 
 #### Implementation of
 
-[IAmazonAmazonReviewItemSerpElementItem](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md).[rank_absolute](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md#rank_absolute)
+[`IAmazonAmazonReviewItemSerpElementItem`](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md).[`rank_absolute`](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
 main.ts:181073
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
-[IAmazonAmazonReviewItemSerpElementItem](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md).[rank_group](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md#rank_group)
+[`IAmazonAmazonReviewItemSerpElementItem`](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md).[`rank_group`](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
 main.ts:181070
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](RatingInfo.md)
 
 the rating score submitted by the reviewer
 
 #### Implementation of
 
-[IAmazonAmazonReviewItemSerpElementItem](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md).[rating](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md#rating)
+[`IAmazonAmazonReviewItemSerpElementItem`](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md).[`rating`](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md#rating)
 
-#### Defined in
+#### Source
 
 main.ts:181104
 
-___
+***
 
-### review\_text
+### review\_text?
 
-• `Optional` **review\_text**: `string`
+> **`optional`** **review\_text**: `string`
 
 content of the review
 
 #### Implementation of
 
-[IAmazonAmazonReviewItemSerpElementItem](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md).[review_text](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md#review_text)
+[`IAmazonAmazonReviewItemSerpElementItem`](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md).[`review_text`](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md#review_text)
 
-#### Defined in
+#### Source
 
 main.ts:181097
 
-___
+***
 
-### subtitle
+### subtitle?
 
-• `Optional` **subtitle**: `string`
+> **`optional`** **subtitle**: `string`
 
 subtitle of the review
 
 #### Implementation of
 
-[IAmazonAmazonReviewItemSerpElementItem](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md).[subtitle](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md#subtitle)
+[`IAmazonAmazonReviewItemSerpElementItem`](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md).[`subtitle`](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md#subtitle)
 
-#### Defined in
+#### Source
 
 main.ts:181082
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the review
 
 #### Implementation of
 
-[IAmazonAmazonReviewItemSerpElementItem](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md).[title](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md#title)
+[`IAmazonAmazonReviewItemSerpElementItem`](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md).[`title`](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:181093
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL to the review
 
 #### Implementation of
 
-[IAmazonAmazonReviewItemSerpElementItem](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md).[url](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md#url)
+[`IAmazonAmazonReviewItemSerpElementItem`](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md).[`url`](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:181095
 
-___
+***
 
-### user\_profile
+### user\_profile?
 
-• `Optional` **user\_profile**: [`UserProfileInfo`](UserProfileInfo.md)
+> **`optional`** **user\_profile**: [`UserProfileInfo`](UserProfileInfo.md)
 
 user profile of the reviewer
 
 #### Implementation of
 
-[IAmazonAmazonReviewItemSerpElementItem](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md).[user_profile](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md#user_profile)
+[`IAmazonAmazonReviewItemSerpElementItem`](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md).[`user_profile`](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md#user_profile)
 
-#### Defined in
+#### Source
 
 main.ts:181091
 
-___
+***
 
-### verified
+### verified?
 
-• `Optional` **verified**: `boolean`
+> **`optional`** **verified**: `boolean`
 
 indicates whether the review has the “Verified Purchase” mark
 
 #### Implementation of
 
-[IAmazonAmazonReviewItemSerpElementItem](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md).[verified](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md#verified)
+[`IAmazonAmazonReviewItemSerpElementItem`](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md).[`verified`](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md#verified)
 
-#### Defined in
+#### Source
 
 main.ts:181080
 
-___
+***
 
-### videos
+### videos?
 
-• `Optional` **videos**: [`VideoElement`](VideoElement.md)[]
+> **`optional`** **videos**: [`VideoElement`](VideoElement.md)[]
 
 videos of the product submitted by the reviewer
 
 #### Implementation of
 
-[IAmazonAmazonReviewItemSerpElementItem](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md).[videos](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md#videos)
+[`IAmazonAmazonReviewItemSerpElementItem`](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md).[`videos`](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md#videos)
 
-#### Defined in
+#### Source
 
 main.ts:181089
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IAmazonAmazonReviewItemSerpElementItem](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md).[xpath](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md#xpath)
+[`IAmazonAmazonReviewItemSerpElementItem`](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md).[`xpath`](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
 main.ts:181078
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -350,23 +317,21 @@ main.ts:181078
 
 #### Overrides
 
-[BaseAmazonSerpElementItem](BaseAmazonSerpElementItem.md).[init](BaseAmazonSerpElementItem.md#init)
+[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`init`](BaseAmazonSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:181113
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -374,23 +339,21 @@ ___
 
 #### Overrides
 
-[BaseAmazonSerpElementItem](BaseAmazonSerpElementItem.md).[toJSON](BaseAmazonSerpElementItem.md#tojson)
+[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`toJSON`](BaseAmazonSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:181153
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AmazonAmazonReviewItemSerpElementItem`](AmazonAmazonReviewItemSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`AmazonAmazonReviewItemSerpElementItem`](AmazonAmazonReviewItemSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -398,8 +361,8 @@ ___
 
 #### Overrides
 
-[BaseAmazonSerpElementItem](BaseAmazonSerpElementItem.md).[fromJS](BaseAmazonSerpElementItem.md#fromjs)
+[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`fromJS`](BaseAmazonSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:181146

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SearchIntentInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SearchIntentInfo
 
 # Class: SearchIntentInfo
 
@@ -8,69 +12,48 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SearchIntentInfo.md#constructor)
-
-### Properties
-
-- [foreign\_intent](SearchIntentInfo.md#foreign_intent)
-- [last\_updated\_time](SearchIntentInfo.md#last_updated_time)
-- [main\_intent](SearchIntentInfo.md#main_intent)
-- [se\_type](SearchIntentInfo.md#se_type)
-
-### Methods
-
-- [init](SearchIntentInfo.md#init)
-- [toJSON](SearchIntentInfo.md#tojson)
-- [fromJS](SearchIntentInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SearchIntentInfo(data)
 
-• **new SearchIntentInfo**(`data?`): [`SearchIntentInfo`](SearchIntentInfo.md)
+> **new SearchIntentInfo**(`data`?): [`SearchIntentInfo`](SearchIntentInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISearchIntentInfo`](../interfaces/ISearchIntentInfo.md) |
+• **data?**: [`ISearchIntentInfo`](../interfaces/ISearchIntentInfo.md)
 
 #### Returns
 
 [`SearchIntentInfo`](SearchIntentInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:81937
+main.ts:81945
 
 ## Properties
 
-### foreign\_intent
+### foreign\_intent?
 
-• `Optional` **foreign\_intent**: `string`[]
+> **`optional`** **foreign\_intent**: `string`[]
 
 supplementary search intents
 possible values: informational, navigational, commercial, transactional
 
 #### Implementation of
 
-[ISearchIntentInfo](../interfaces/ISearchIntentInfo.md).[foreign_intent](../interfaces/ISearchIntentInfo.md#foreign_intent)
+[`ISearchIntentInfo`](../interfaces/ISearchIntentInfo.md).[`foreign_intent`](../interfaces/ISearchIntentInfo.md#foreign_intent)
 
-#### Defined in
+#### Source
 
-main.ts:81928
+main.ts:81936
 
-___
+***
 
-### last\_updated\_time
+### last\_updated\_time?
 
-• `Optional` **last\_updated\_time**: `string`
+> **`optional`** **last\_updated\_time**: `string`
 
 date and time when search intent data was last updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -79,102 +62,96 @@ example:
 
 #### Implementation of
 
-[ISearchIntentInfo](../interfaces/ISearchIntentInfo.md).[last_updated_time](../interfaces/ISearchIntentInfo.md#last_updated_time)
+[`ISearchIntentInfo`](../interfaces/ISearchIntentInfo.md).[`last_updated_time`](../interfaces/ISearchIntentInfo.md#last_updated_time)
 
-#### Defined in
+#### Source
 
-main.ts:81933
+main.ts:81941
 
-___
+***
 
-### main\_intent
+### main\_intent?
 
-• `Optional` **main\_intent**: `string`
+> **`optional`** **main\_intent**: `string`
 
 main search intent
 possible values: informational, navigational, commercial, transactional
 
 #### Implementation of
 
-[ISearchIntentInfo](../interfaces/ISearchIntentInfo.md).[main_intent](../interfaces/ISearchIntentInfo.md#main_intent)
+[`ISearchIntentInfo`](../interfaces/ISearchIntentInfo.md).[`main_intent`](../interfaces/ISearchIntentInfo.md#main_intent)
 
-#### Defined in
+#### Source
 
-main.ts:81925
+main.ts:81933
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 possible values: google
 
 #### Implementation of
 
-[ISearchIntentInfo](../interfaces/ISearchIntentInfo.md).[se_type](../interfaces/ISearchIntentInfo.md#se_type)
+[`ISearchIntentInfo`](../interfaces/ISearchIntentInfo.md).[`se_type`](../interfaces/ISearchIntentInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:81922
+main.ts:81930
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:81946
+main.ts:81954
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:81970
+main.ts:81978
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SearchIntentInfo`](SearchIntentInfo.md)
+> **`static`** **fromJS**(`data`): [`SearchIntentInfo`](SearchIntentInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SearchIntentInfo`](SearchIntentInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:81963
+main.ts:81971

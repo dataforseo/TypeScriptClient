@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / RefineProductsElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / RefineProductsElement
 
 # Class: RefineProductsElement
 
@@ -8,201 +12,172 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](RefineProductsElement.md#constructor)
-
-### Properties
-
-- [image\_url](RefineProductsElement.md#image_url)
-- [keyword](RefineProductsElement.md#keyword)
-- [refine\_type](RefineProductsElement.md#refine_type)
-- [title](RefineProductsElement.md#title)
-- [type](RefineProductsElement.md#type)
-- [xpath](RefineProductsElement.md#xpath)
-
-### Methods
-
-- [init](RefineProductsElement.md#init)
-- [toJSON](RefineProductsElement.md#tojson)
-- [fromJS](RefineProductsElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new RefineProductsElement(data)
 
-• **new RefineProductsElement**(`data?`): [`RefineProductsElement`](RefineProductsElement.md)
+> **new RefineProductsElement**(`data`?): [`RefineProductsElement`](RefineProductsElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IRefineProductsElement`](../interfaces/IRefineProductsElement.md) |
+• **data?**: [`IRefineProductsElement`](../interfaces/IRefineProductsElement.md)
 
 #### Returns
 
 [`RefineProductsElement`](RefineProductsElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:35973
+main.ts:35979
 
 ## Properties
 
-### image\_url
+### image\_url?
 
-• `Optional` **image\_url**: `string`
+> **`optional`** **image\_url**: `string`
 
 URL of the image
 
 #### Implementation of
 
-[IRefineProductsElement](../interfaces/IRefineProductsElement.md).[image_url](../interfaces/IRefineProductsElement.md#image_url)
+[`IRefineProductsElement`](../interfaces/IRefineProductsElement.md).[`image_url`](../interfaces/IRefineProductsElement.md#image_url)
 
-#### Defined in
+#### Source
 
-main.ts:35963
+main.ts:35969
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword for the related refined search
 
 #### Implementation of
 
-[IRefineProductsElement](../interfaces/IRefineProductsElement.md).[keyword](../interfaces/IRefineProductsElement.md#keyword)
+[`IRefineProductsElement`](../interfaces/IRefineProductsElement.md).[`keyword`](../interfaces/IRefineProductsElement.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:35965
+main.ts:35971
 
-___
+***
 
-### refine\_type
+### refine\_type?
 
-• `Optional` **refine\_type**: `string`
+> **`optional`** **refine\_type**: `string`
 
 type of search refinement
 
 #### Implementation of
 
-[IRefineProductsElement](../interfaces/IRefineProductsElement.md).[refine_type](../interfaces/IRefineProductsElement.md#refine_type)
+[`IRefineProductsElement`](../interfaces/IRefineProductsElement.md).[`refine_type`](../interfaces/IRefineProductsElement.md#refine_type)
 
-#### Defined in
+#### Source
 
-main.ts:35967
+main.ts:35973
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
 #### Implementation of
 
-[IRefineProductsElement](../interfaces/IRefineProductsElement.md).[title](../interfaces/IRefineProductsElement.md#title)
+[`IRefineProductsElement`](../interfaces/IRefineProductsElement.md).[`title`](../interfaces/IRefineProductsElement.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:35961
+main.ts:35967
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IRefineProductsElement](../interfaces/IRefineProductsElement.md).[type](../interfaces/IRefineProductsElement.md#type)
+[`IRefineProductsElement`](../interfaces/IRefineProductsElement.md).[`type`](../interfaces/IRefineProductsElement.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:35959
+main.ts:35965
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IRefineProductsElement](../interfaces/IRefineProductsElement.md).[xpath](../interfaces/IRefineProductsElement.md#xpath)
+[`IRefineProductsElement`](../interfaces/IRefineProductsElement.md).[`xpath`](../interfaces/IRefineProductsElement.md#xpath)
 
-#### Defined in
+#### Source
 
-main.ts:35969
+main.ts:35975
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:35982
+main.ts:35988
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:36004
+main.ts:36010
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`RefineProductsElement`](RefineProductsElement.md)
+> **`static`** **fromJS**(`data`): [`RefineProductsElement`](RefineProductsElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`RefineProductsElement`](RefineProductsElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:35997
+main.ts:36003

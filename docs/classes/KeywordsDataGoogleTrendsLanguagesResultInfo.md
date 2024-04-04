@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleTrendsLanguagesResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataGoogleTrendsLanguagesResultInfo
 
 # Class: KeywordsDataGoogleTrendsLanguagesResultInfo
 
@@ -8,133 +12,108 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataGoogleTrendsLanguagesResultInfo.md#constructor)
-
-### Properties
-
-- [language\_code](KeywordsDataGoogleTrendsLanguagesResultInfo.md#language_code)
-- [language\_name](KeywordsDataGoogleTrendsLanguagesResultInfo.md#language_name)
-
-### Methods
-
-- [init](KeywordsDataGoogleTrendsLanguagesResultInfo.md#init)
-- [toJSON](KeywordsDataGoogleTrendsLanguagesResultInfo.md#tojson)
-- [fromJS](KeywordsDataGoogleTrendsLanguagesResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordsDataGoogleTrendsLanguagesResultInfo(data)
 
-• **new KeywordsDataGoogleTrendsLanguagesResultInfo**(`data?`): [`KeywordsDataGoogleTrendsLanguagesResultInfo`](KeywordsDataGoogleTrendsLanguagesResultInfo.md)
+> **new KeywordsDataGoogleTrendsLanguagesResultInfo**(`data`?): [`KeywordsDataGoogleTrendsLanguagesResultInfo`](KeywordsDataGoogleTrendsLanguagesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordsDataGoogleTrendsLanguagesResultInfo`](../interfaces/IKeywordsDataGoogleTrendsLanguagesResultInfo.md) |
+• **data?**: [`IKeywordsDataGoogleTrendsLanguagesResultInfo`](../interfaces/IKeywordsDataGoogleTrendsLanguagesResultInfo.md)
 
 #### Returns
 
 [`KeywordsDataGoogleTrendsLanguagesResultInfo`](KeywordsDataGoogleTrendsLanguagesResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:121818
+main.ts:121826
 
 ## Properties
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code according to ISO 639-1
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsLanguagesResultInfo](../interfaces/IKeywordsDataGoogleTrendsLanguagesResultInfo.md).[language_code](../interfaces/IKeywordsDataGoogleTrendsLanguagesResultInfo.md#language_code)
+[`IKeywordsDataGoogleTrendsLanguagesResultInfo`](../interfaces/IKeywordsDataGoogleTrendsLanguagesResultInfo.md).[`language_code`](../interfaces/IKeywordsDataGoogleTrendsLanguagesResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:121814
+main.ts:121822
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 language name
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsLanguagesResultInfo](../interfaces/IKeywordsDataGoogleTrendsLanguagesResultInfo.md).[language_name](../interfaces/IKeywordsDataGoogleTrendsLanguagesResultInfo.md#language_name)
+[`IKeywordsDataGoogleTrendsLanguagesResultInfo`](../interfaces/IKeywordsDataGoogleTrendsLanguagesResultInfo.md).[`language_name`](../interfaces/IKeywordsDataGoogleTrendsLanguagesResultInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:121812
+main.ts:121820
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:121827
+main.ts:121835
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:121845
+main.ts:121853
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordsDataGoogleTrendsLanguagesResultInfo`](KeywordsDataGoogleTrendsLanguagesResultInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordsDataGoogleTrendsLanguagesResultInfo`](KeywordsDataGoogleTrendsLanguagesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`KeywordsDataGoogleTrendsLanguagesResultInfo`](KeywordsDataGoogleTrendsLanguagesResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:121838
+main.ts:121846

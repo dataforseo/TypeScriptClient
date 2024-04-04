@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataGoogleAppListingsSearchLiveTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppDataGoogleAppListingsSearchLiveTaskInfo
 
 # Class: AppDataGoogleAppListingsSearchLiveTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`AppDataGoogleAppListingsSearchLiveTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppDataGoogleAppListingsSearchLiveTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](AppDataGoogleAppListingsSearchLiveTaskInfo.md#cost)
-- [data](AppDataGoogleAppListingsSearchLiveTaskInfo.md#data)
-- [id](AppDataGoogleAppListingsSearchLiveTaskInfo.md#id)
-- [path](AppDataGoogleAppListingsSearchLiveTaskInfo.md#path)
-- [result](AppDataGoogleAppListingsSearchLiveTaskInfo.md#result)
-- [result\_count](AppDataGoogleAppListingsSearchLiveTaskInfo.md#result_count)
-- [status\_code](AppDataGoogleAppListingsSearchLiveTaskInfo.md#status_code)
-- [status\_message](AppDataGoogleAppListingsSearchLiveTaskInfo.md#status_message)
-- [time](AppDataGoogleAppListingsSearchLiveTaskInfo.md#time)
-
-### Methods
-
-- [init](AppDataGoogleAppListingsSearchLiveTaskInfo.md#init)
-- [toJSON](AppDataGoogleAppListingsSearchLiveTaskInfo.md#tojson)
-- [fromJS](AppDataGoogleAppListingsSearchLiveTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppDataGoogleAppListingsSearchLiveTaskInfo(data)
 
-• **new AppDataGoogleAppListingsSearchLiveTaskInfo**(`data?`): [`AppDataGoogleAppListingsSearchLiveTaskInfo`](AppDataGoogleAppListingsSearchLiveTaskInfo.md)
+> **new AppDataGoogleAppListingsSearchLiveTaskInfo**(`data`?): [`AppDataGoogleAppListingsSearchLiveTaskInfo`](AppDataGoogleAppListingsSearchLiveTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppDataGoogleAppListingsSearchLiveTaskInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveTaskInfo.md) |
+• **data?**: [`IAppDataGoogleAppListingsSearchLiveTaskInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:187911
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IAppDataGoogleAppListingsSearchLiveTaskInfo](../interfaces/IAppDataGoogleAppListingsSearchLiveTaskInfo.md).[cost](../interfaces/IAppDataGoogleAppListingsSearchLiveTaskInfo.md#cost)
+[`IAppDataGoogleAppListingsSearchLiveTaskInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveTaskInfo.md).[`cost`](../interfaces/IAppDataGoogleAppListingsSearchLiveTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[IAppDataGoogleAppListingsSearchLiveTaskInfo](../interfaces/IAppDataGoogleAppListingsSearchLiveTaskInfo.md).[data](../interfaces/IAppDataGoogleAppListingsSearchLiveTaskInfo.md#data)
+[`IAppDataGoogleAppListingsSearchLiveTaskInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveTaskInfo.md).[`data`](../interfaces/IAppDataGoogleAppListingsSearchLiveTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IAppDataGoogleAppListingsSearchLiveTaskInfo](../interfaces/IAppDataGoogleAppListingsSearchLiveTaskInfo.md).[id](../interfaces/IAppDataGoogleAppListingsSearchLiveTaskInfo.md#id)
+[`IAppDataGoogleAppListingsSearchLiveTaskInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveTaskInfo.md).[`id`](../interfaces/IAppDataGoogleAppListingsSearchLiveTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[IAppDataGoogleAppListingsSearchLiveTaskInfo](../interfaces/IAppDataGoogleAppListingsSearchLiveTaskInfo.md).[path](../interfaces/IAppDataGoogleAppListingsSearchLiveTaskInfo.md#path)
+[`IAppDataGoogleAppListingsSearchLiveTaskInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveTaskInfo.md).[`path`](../interfaces/IAppDataGoogleAppListingsSearchLiveTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`AppDataGoogleAppListingsSearchLiveResultInfo`](AppDataGoogleAppListingsSearchLiveResultInfo.md)[]
+> **`optional`** **result**: [`AppDataGoogleAppListingsSearchLiveResultInfo`](AppDataGoogleAppListingsSearchLiveResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[IAppDataGoogleAppListingsSearchLiveTaskInfo](../interfaces/IAppDataGoogleAppListingsSearchLiveTaskInfo.md).[result](../interfaces/IAppDataGoogleAppListingsSearchLiveTaskInfo.md#result)
+[`IAppDataGoogleAppListingsSearchLiveTaskInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveTaskInfo.md).[`result`](../interfaces/IAppDataGoogleAppListingsSearchLiveTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
 main.ts:187907
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[IAppDataGoogleAppListingsSearchLiveTaskInfo](../interfaces/IAppDataGoogleAppListingsSearchLiveTaskInfo.md).[result_count](../interfaces/IAppDataGoogleAppListingsSearchLiveTaskInfo.md#result_count)
+[`IAppDataGoogleAppListingsSearchLiveTaskInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveTaskInfo.md).[`result_count`](../interfaces/IAppDataGoogleAppListingsSearchLiveTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[IAppDataGoogleAppListingsSearchLiveTaskInfo](../interfaces/IAppDataGoogleAppListingsSearchLiveTaskInfo.md).[status_code](../interfaces/IAppDataGoogleAppListingsSearchLiveTaskInfo.md#status_code)
+[`IAppDataGoogleAppListingsSearchLiveTaskInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveTaskInfo.md).[`status_code`](../interfaces/IAppDataGoogleAppListingsSearchLiveTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IAppDataGoogleAppListingsSearchLiveTaskInfo](../interfaces/IAppDataGoogleAppListingsSearchLiveTaskInfo.md).[status_message](../interfaces/IAppDataGoogleAppListingsSearchLiveTaskInfo.md#status_message)
+[`IAppDataGoogleAppListingsSearchLiveTaskInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveTaskInfo.md).[`status_message`](../interfaces/IAppDataGoogleAppListingsSearchLiveTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[IAppDataGoogleAppListingsSearchLiveTaskInfo](../interfaces/IAppDataGoogleAppListingsSearchLiveTaskInfo.md).[time](../interfaces/IAppDataGoogleAppListingsSearchLiveTaskInfo.md#time)
+[`IAppDataGoogleAppListingsSearchLiveTaskInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveTaskInfo.md).[`time`](../interfaces/IAppDataGoogleAppListingsSearchLiveTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:187915
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:187937
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppDataGoogleAppListingsSearchLiveTaskInfo`](AppDataGoogleAppListingsSearchLiveTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`AppDataGoogleAppListingsSearchLiveTaskInfo`](AppDataGoogleAppListingsSearchLiveTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:187930

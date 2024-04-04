@@ -1,152 +1,137 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksErrorsResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBacklinksErrorsResultInfo
 
 # Interface: IBacklinksErrorsResultInfo
 
-## Implemented by
-
-- [`BacklinksErrorsResultInfo`](../classes/BacklinksErrorsResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [datetime](IBacklinksErrorsResultInfo.md#datetime)
-- [error\_code](IBacklinksErrorsResultInfo.md#error_code)
-- [error\_message](IBacklinksErrorsResultInfo.md#error_message)
-- [function](IBacklinksErrorsResultInfo.md#function)
-- [http\_code](IBacklinksErrorsResultInfo.md#http_code)
-- [http\_method](IBacklinksErrorsResultInfo.md#http_method)
-- [http\_response](IBacklinksErrorsResultInfo.md#http_response)
-- [http\_time](IBacklinksErrorsResultInfo.md#http_time)
-- [http\_url](IBacklinksErrorsResultInfo.md#http_url)
-- [id](IBacklinksErrorsResultInfo.md#id)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when an error occurred
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
-main.ts:133860
+main.ts:133868
 
-___
+***
 
-### error\_code
+### error\_code?
 
-• `Optional` **error\_code**: `number`
+> **`optional`** **error\_code**: `number`
 
 error code
 
-#### Defined in
+#### Source
 
-main.ts:133864
+main.ts:133872
 
-___
+***
 
-### error\_message
+### error\_message?
 
-• `Optional` **error\_message**: `string`
+> **`optional`** **error\_message**: `string`
 
 error message or error URL
 error message (see full list) or URL that caused an error
 
-#### Defined in
+#### Source
 
-main.ts:133867
+main.ts:133875
 
-___
+***
 
-### function
+### function?
 
-• `Optional` **function**: `string`
+> **`optional`** **function**: `string`
 
 corresponding API function
 
-#### Defined in
+#### Source
 
-main.ts:133862
+main.ts:133870
 
-___
+***
 
-### http\_code
+### http\_code?
 
-• `Optional` **http\_code**: `number`
+> **`optional`** **http\_code**: `number`
 
 HTTP status code
 
-#### Defined in
+#### Source
 
-main.ts:133874
+main.ts:133882
 
-___
+***
 
-### http\_method
+### http\_method?
 
-• `Optional` **http\_method**: `string`
+> **`optional`** **http\_method**: `string`
 
 HTTP method
 
-#### Defined in
+#### Source
 
-main.ts:133872
+main.ts:133880
 
-___
+***
 
-### http\_response
+### http\_response?
 
-• `Optional` **http\_response**: `string`
+> **`optional`** **http\_response**: `string`
 
 HTTP response
 server response
 
-#### Defined in
+#### Source
 
-main.ts:133879
+main.ts:133887
 
-___
+***
 
-### http\_time
+### http\_time?
 
-• `Optional` **http\_time**: `number`
+> **`optional`** **http\_time**: `number`
 
 time taken by HTTP request
 
-#### Defined in
+#### Source
 
-main.ts:133876
+main.ts:133884
 
-___
+***
 
-### http\_url
+### http\_url?
 
-• `Optional` **http\_url**: `string`
+> **`optional`** **http\_url**: `string`
 
 URL that caused an error
 URL you used for making an API call
 
-#### Defined in
+#### Source
 
-main.ts:133870
+main.ts:133878
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 id of the task
 
-#### Defined in
+#### Source
 
-main.ts:133855
+main.ts:133863

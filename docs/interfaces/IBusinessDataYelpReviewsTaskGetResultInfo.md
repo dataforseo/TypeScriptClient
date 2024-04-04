@@ -1,194 +1,176 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataYelpReviewsTaskGetResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBusinessDataYelpReviewsTaskGetResultInfo
 
 # Interface: IBusinessDataYelpReviewsTaskGetResultInfo
 
-## Implemented by
-
-- [`BusinessDataYelpReviewsTaskGetResultInfo`](../classes/BusinessDataYelpReviewsTaskGetResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [alias](IBusinessDataYelpReviewsTaskGetResultInfo.md#alias)
-- [check\_url](IBusinessDataYelpReviewsTaskGetResultInfo.md#check_url)
-- [datetime](IBusinessDataYelpReviewsTaskGetResultInfo.md#datetime)
-- [items](IBusinessDataYelpReviewsTaskGetResultInfo.md#items)
-- [items\_count](IBusinessDataYelpReviewsTaskGetResultInfo.md#items_count)
-- [keyword](IBusinessDataYelpReviewsTaskGetResultInfo.md#keyword)
-- [language\_code](IBusinessDataYelpReviewsTaskGetResultInfo.md#language_code)
-- [location\_code](IBusinessDataYelpReviewsTaskGetResultInfo.md#location_code)
-- [rating](IBusinessDataYelpReviewsTaskGetResultInfo.md#rating)
-- [reviews\_count](IBusinessDataYelpReviewsTaskGetResultInfo.md#reviews_count)
-- [se\_domain](IBusinessDataYelpReviewsTaskGetResultInfo.md#se_domain)
-- [title](IBusinessDataYelpReviewsTaskGetResultInfo.md#title)
-- [type](IBusinessDataYelpReviewsTaskGetResultInfo.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### alias
+### alias?
 
-• `Optional` **alias**: `string`
+> **`optional`** **alias**: `string`
 
 Yelp business identifier
 
-#### Defined in
+#### Source
 
 main.ts:210938
 
-___
+***
 
-### check\_url
+### check\_url?
 
-• `Optional` **check\_url**: `string`
+> **`optional`** **check\_url**: `string`
 
 direct URL to Yelp results
 you can use it to make sure that we provided accurate results
 
-#### Defined in
+#### Source
 
 main.ts:210950
 
-___
+***
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
 main.ts:210955
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseBusinessDataSerpElementItem`](../classes/BaseBusinessDataSerpElementItem.md)[]
+> **`optional`** **items**: [`BaseBusinessDataSerpElementItem`](../classes/BaseBusinessDataSerpElementItem.md)[]
 
 found reviews
 you can get more results by using the depth parameter when setting a task
 
-#### Defined in
+#### Source
 
 main.ts:210968
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of reviews items in the results array
 you can get more results by using the depth parameter when setting a task
 
-#### Defined in
+#### Source
 
 main.ts:210965
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword received in a POST array
 this field will contain the alias parameter if it was specified in a POST array
 
-#### Defined in
+#### Source
 
 main.ts:210936
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
-#### Defined in
+#### Source
 
 main.ts:210947
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `string`
+> **`optional`** **location\_code**: `string`
 
 location code in a POST array
 if location_code was not specified in a POST array, the value equals null
 
-#### Defined in
+#### Source
 
 main.ts:210945
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
 the rating score submitted by the reviewer
 
-#### Defined in
+#### Source
 
 main.ts:210960
 
-___
+***
 
-### reviews\_count
+### reviews\_count?
 
-• `Optional` **reviews\_count**: `number`
+> **`optional`** **reviews\_count**: `number`
 
 the total number of reviews
 
-#### Defined in
+#### Source
 
 main.ts:210962
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
-#### Defined in
+#### Source
 
 main.ts:210942
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the reviews from Yelp
 the name of the local establishment for which the reviews are collected
 
-#### Defined in
+#### Source
 
 main.ts:210958
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
 main.ts:210940

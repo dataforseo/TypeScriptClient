@@ -1,83 +1,73 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataTripadvisorSearchTasksReadyResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBusinessDataTripadvisorSearchTasksReadyResultInfo
 
 # Interface: IBusinessDataTripadvisorSearchTasksReadyResultInfo
 
-## Implemented by
-
-- [`BusinessDataTripadvisorSearchTasksReadyResultInfo`](../classes/BusinessDataTripadvisorSearchTasksReadyResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [date\_posted](IBusinessDataTripadvisorSearchTasksReadyResultInfo.md#date_posted)
-- [endpoint](IBusinessDataTripadvisorSearchTasksReadyResultInfo.md#endpoint)
-- [id](IBusinessDataTripadvisorSearchTasksReadyResultInfo.md#id)
-- [se](IBusinessDataTripadvisorSearchTasksReadyResultInfo.md#se)
-- [tag](IBusinessDataTripadvisorSearchTasksReadyResultInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### date\_posted
+### date\_posted?
 
-• `Optional` **date\_posted**: `string`
+> **`optional`** **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
-#### Defined in
+#### Source
 
 main.ts:206708
 
-___
+***
 
-### endpoint
+### endpoint?
 
-• `Optional` **endpoint**: `string`
+> **`optional`** **endpoint**: `string`
 
 URL for collecting the results of the task
 
-#### Defined in
+#### Source
 
 main.ts:206712
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
-#### Defined in
+#### Source
 
 main.ts:206703
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 can take the following values: tripadvisor
 
-#### Defined in
+#### Source
 
 main.ts:206706
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
-#### Defined in
+#### Source
 
 main.ts:206710

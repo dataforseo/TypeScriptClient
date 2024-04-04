@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpAiSummaryResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpAiSummaryResultInfo
 
 # Class: SerpAiSummaryResultInfo
 
@@ -8,133 +12,108 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpAiSummaryResultInfo.md#constructor)
-
-### Properties
-
-- [items](SerpAiSummaryResultInfo.md#items)
-- [items\_count](SerpAiSummaryResultInfo.md#items_count)
-
-### Methods
-
-- [init](SerpAiSummaryResultInfo.md#init)
-- [toJSON](SerpAiSummaryResultInfo.md#tojson)
-- [fromJS](SerpAiSummaryResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpAiSummaryResultInfo(data)
 
-• **new SerpAiSummaryResultInfo**(`data?`): [`SerpAiSummaryResultInfo`](SerpAiSummaryResultInfo.md)
+> **new SerpAiSummaryResultInfo**(`data`?): [`SerpAiSummaryResultInfo`](SerpAiSummaryResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpAiSummaryResultInfo`](../interfaces/ISerpAiSummaryResultInfo.md) |
+• **data?**: [`ISerpAiSummaryResultInfo`](../interfaces/ISerpAiSummaryResultInfo.md)
 
 #### Returns
 
 [`SerpAiSummaryResultInfo`](SerpAiSummaryResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:24411
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`SerpAiSummaryItem`](SerpAiSummaryItem.md)[]
+> **`optional`** **items**: [`SerpAiSummaryItem`](SerpAiSummaryItem.md)[]
 
 items array
 
 #### Implementation of
 
-[ISerpAiSummaryResultInfo](../interfaces/ISerpAiSummaryResultInfo.md).[items](../interfaces/ISerpAiSummaryResultInfo.md#items)
+[`ISerpAiSummaryResultInfo`](../interfaces/ISerpAiSummaryResultInfo.md).[`items`](../interfaces/ISerpAiSummaryResultInfo.md#items)
 
-#### Defined in
+#### Source
 
 main.ts:24407
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 number of items in the results array
 
 #### Implementation of
 
-[ISerpAiSummaryResultInfo](../interfaces/ISerpAiSummaryResultInfo.md).[items_count](../interfaces/ISerpAiSummaryResultInfo.md#items_count)
+[`ISerpAiSummaryResultInfo`](../interfaces/ISerpAiSummaryResultInfo.md).[`items_count`](../interfaces/ISerpAiSummaryResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
 main.ts:24405
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:24420
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:24442
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpAiSummaryResultInfo`](SerpAiSummaryResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpAiSummaryResultInfo`](SerpAiSummaryResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpAiSummaryResultInfo`](SerpAiSummaryResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:24435

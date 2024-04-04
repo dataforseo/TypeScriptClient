@@ -1,29 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksHistoryLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBacklinksHistoryLiveRequestInfo
 
 # Interface: IBacklinksHistoryLiveRequestInfo
 
-## Implemented by
-
-- [`BacklinksHistoryLiveRequestInfo`](../classes/BacklinksHistoryLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [date\_from](IBacklinksHistoryLiveRequestInfo.md#date_from)
-- [date\_to](IBacklinksHistoryLiveRequestInfo.md#date_to)
-- [tag](IBacklinksHistoryLiveRequestInfo.md#tag)
-- [target](IBacklinksHistoryLiveRequestInfo.md#target)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -33,15 +24,15 @@ date format: "yyyy-mm-dd"
 example:
 "2019-01-15"
 
-#### Defined in
+#### Source
 
-main.ts:135366
+main.ts:135374
 
-___
+***
 
-### date\_to
+### date\_to?
 
-• `Optional` **date\_to**: `string`
+> **`optional`** **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -50,15 +41,15 @@ date format: "yyyy-mm-dd"
 example:
 "2019-01-15"
 
-#### Defined in
+#### Source
 
-main.ts:135373
+main.ts:135381
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -66,20 +57,20 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:135379
+main.ts:135387
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 domain
 required field
 a domain should be specified without https:// and www.
 
-#### Defined in
+#### Source
 
-main.ts:135358
+main.ts:135366

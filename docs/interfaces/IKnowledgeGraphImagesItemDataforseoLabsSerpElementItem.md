@@ -1,106 +1,93 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKnowledgeGraphImagesItemDataforseoLabsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IKnowledgeGraphImagesItemDataforseoLabsSerpElementItem
 
 # Interface: IKnowledgeGraphImagesItemDataforseoLabsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md)
 
-  ↳ **`IKnowledgeGraphImagesItemDataforseoLabsSerpElementItem`**
-
-## Implemented by
-
-- [`KnowledgeGraphImagesItemDataforseoLabsSerpElementItem`](../classes/KnowledgeGraphImagesItemDataforseoLabsSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IKnowledgeGraphImagesItemDataforseoLabsSerpElementItem.md#items)
-- [link](IKnowledgeGraphImagesItemDataforseoLabsSerpElementItem.md#link)
-- [position](IKnowledgeGraphImagesItemDataforseoLabsSerpElementItem.md#position)
-- [rank\_absolute](IKnowledgeGraphImagesItemDataforseoLabsSerpElementItem.md#rank_absolute)
-- [rank\_group](IKnowledgeGraphImagesItemDataforseoLabsSerpElementItem.md#rank_group)
-- [xpath](IKnowledgeGraphImagesItemDataforseoLabsSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`KnowledgeGraphImagesElement`](../classes/KnowledgeGraphImagesElement.md)[]
+> **`optional`** **items**: [`KnowledgeGraphImagesElement`](../classes/KnowledgeGraphImagesElement.md)[]
 
 additional items present in the element
 if there are none, equals null
 
-#### Defined in
+#### Source
 
-main.ts:94088
+main.ts:94096
 
-___
+***
 
-### link
+### link?
 
-• `Optional` **link**: `any`
+> **`optional`** **link**: `any`
 
 link of the element
 
-#### Defined in
+#### Source
 
-main.ts:94085
+main.ts:94093
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
-main.ts:94081
+main.ts:94089
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Defined in
+#### Source
 
-main.ts:94077
+main.ts:94085
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
-main.ts:94074
+main.ts:94082
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
-main.ts:94083
+main.ts:94091

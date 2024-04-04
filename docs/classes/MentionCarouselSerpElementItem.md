@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MentionCarouselSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / MentionCarouselSerpElementItem
 
 # Class: MentionCarouselSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-  ↳ **`MentionCarouselSerpElementItem`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](MentionCarouselSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](MentionCarouselSerpElementItem.md#_discriminator)
-- [items](MentionCarouselSerpElementItem.md#items)
-- [position](MentionCarouselSerpElementItem.md#position)
-- [rank\_absolute](MentionCarouselSerpElementItem.md#rank_absolute)
-- [rank\_group](MentionCarouselSerpElementItem.md#rank_group)
-- [rectangle](MentionCarouselSerpElementItem.md#rectangle)
-- [title](MentionCarouselSerpElementItem.md#title)
-- [xpath](MentionCarouselSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](MentionCarouselSerpElementItem.md#init)
-- [toJSON](MentionCarouselSerpElementItem.md#tojson)
-- [fromJS](MentionCarouselSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new MentionCarouselSerpElementItem(data)
 
-• **new MentionCarouselSerpElementItem**(`data?`): [`MentionCarouselSerpElementItem`](MentionCarouselSerpElementItem.md)
+> **new MentionCarouselSerpElementItem**(`data`?): [`MentionCarouselSerpElementItem`](MentionCarouselSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IMentionCarouselSerpElementItem`](../interfaces/IMentionCarouselSerpElementItem.md) |
+• **data?**: [`IMentionCarouselSerpElementItem`](../interfaces/IMentionCarouselSerpElementItem.md)
 
 #### Returns
 
@@ -57,9 +34,9 @@
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[constructor](BaseSerpElementItem.md#constructor)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:31715
 
@@ -67,38 +44,38 @@ main.ts:31715
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[_discriminator](BaseSerpElementItem.md#_discriminator)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:19788
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`MentionCarouselElement`](MentionCarouselElement.md)[]
+> **`optional`** **items**: [`MentionCarouselElement`](MentionCarouselElement.md)[]
 
 additional items present in the element
 if there are none, equals null
 
 #### Implementation of
 
-[IMentionCarouselSerpElementItem](../interfaces/IMentionCarouselSerpElementItem.md).[items](../interfaces/IMentionCarouselSerpElementItem.md#items)
+[`IMentionCarouselSerpElementItem`](../interfaces/IMentionCarouselSerpElementItem.md).[`items`](../interfaces/IMentionCarouselSerpElementItem.md#items)
 
-#### Defined in
+#### Source
 
 main.ts:31707
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -106,17 +83,17 @@ left, right
 
 #### Implementation of
 
-[IMentionCarouselSerpElementItem](../interfaces/IMentionCarouselSerpElementItem.md).[position](../interfaces/IMentionCarouselSerpElementItem.md#position)
+[`IMentionCarouselSerpElementItem`](../interfaces/IMentionCarouselSerpElementItem.md).[`position`](../interfaces/IMentionCarouselSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
 main.ts:31700
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -124,17 +101,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IMentionCarouselSerpElementItem](../interfaces/IMentionCarouselSerpElementItem.md).[rank_absolute](../interfaces/IMentionCarouselSerpElementItem.md#rank_absolute)
+[`IMentionCarouselSerpElementItem`](../interfaces/IMentionCarouselSerpElementItem.md).[`rank_absolute`](../interfaces/IMentionCarouselSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
 main.ts:31696
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
@@ -143,17 +120,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IMentionCarouselSerpElementItem](../interfaces/IMentionCarouselSerpElementItem.md).[rank_group](../interfaces/IMentionCarouselSerpElementItem.md#rank_group)
+[`IMentionCarouselSerpElementItem`](../interfaces/IMentionCarouselSerpElementItem.md).[`rank_group`](../interfaces/IMentionCarouselSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
 main.ts:31692
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -161,55 +138,53 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Implementation of
 
-[IMentionCarouselSerpElementItem](../interfaces/IMentionCarouselSerpElementItem.md).[rectangle](../interfaces/IMentionCarouselSerpElementItem.md#rectangle)
+[`IMentionCarouselSerpElementItem`](../interfaces/IMentionCarouselSerpElementItem.md).[`rectangle`](../interfaces/IMentionCarouselSerpElementItem.md#rectangle)
 
-#### Defined in
+#### Source
 
 main.ts:31711
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the row
 
 #### Implementation of
 
-[IMentionCarouselSerpElementItem](../interfaces/IMentionCarouselSerpElementItem.md).[title](../interfaces/IMentionCarouselSerpElementItem.md#title)
+[`IMentionCarouselSerpElementItem`](../interfaces/IMentionCarouselSerpElementItem.md).[`title`](../interfaces/IMentionCarouselSerpElementItem.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:31704
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IMentionCarouselSerpElementItem](../interfaces/IMentionCarouselSerpElementItem.md).[xpath](../interfaces/IMentionCarouselSerpElementItem.md#xpath)
+[`IMentionCarouselSerpElementItem`](../interfaces/IMentionCarouselSerpElementItem.md).[`xpath`](../interfaces/IMentionCarouselSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
 main.ts:31702
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -217,23 +192,21 @@ main.ts:31702
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[init](BaseSerpElementItem.md#init)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:31720
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -241,23 +214,21 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[toJSON](BaseSerpElementItem.md#tojson)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:31748
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`MentionCarouselSerpElementItem`](MentionCarouselSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`MentionCarouselSerpElementItem`](MentionCarouselSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -265,8 +236,8 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[fromJS](BaseSerpElementItem.md#fromjs)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:31741

@@ -1,86 +1,76 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMicrodataFieldsInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IMicrodataFieldsInfo
 
 # Interface: IMicrodataFieldsInfo
 
-## Implemented by
-
-- [`MicrodataFieldsInfo`](../classes/MicrodataFieldsInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [fields](IMicrodataFieldsInfo.md#fields)
-- [name](IMicrodataFieldsInfo.md#name)
-- [test\_results](IMicrodataFieldsInfo.md#test_results)
-- [types](IMicrodataFieldsInfo.md#types)
-- [value](IMicrodataFieldsInfo.md#value)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### fields
+### fields?
 
-• `Optional` **fields**: [`MicrodataFieldsInfo`](../classes/MicrodataFieldsInfo.md)[]
+> **`optional`** **fields**: [`MicrodataFieldsInfo`](../classes/MicrodataFieldsInfo.md)[]
 
 microdata fields
 an array of objects containing data fields related to the certain microdata type
 
-#### Defined in
+#### Source
 
-main.ts:156229
+main.ts:156237
 
-___
+***
 
-### name
+### name?
 
-• `Optional` **name**: `string`
+> **`optional`** **name**: `string`
 
 field name
 name of the data field
 
-#### Defined in
+#### Source
 
-main.ts:156217
+main.ts:156225
 
-___
+***
 
-### test\_results
+### test\_results?
 
-• `Optional` **test\_results**: [`MicrodataTestResultsInfo`](../classes/MicrodataTestResultsInfo.md)
+> **`optional`** **test\_results**: [`MicrodataTestResultsInfo`](../classes/MicrodataTestResultsInfo.md)
 
 microdata validation test results
 sub-type microdata test results that contain detected errors and related messages
 
-#### Defined in
+#### Source
 
-main.ts:156226
+main.ts:156234
 
-___
+***
 
-### types
+### types?
 
-• `Optional` **types**: `string`[]
+> **`optional`** **types**: `string`[]
 
 parent microdata types
 for a full list of available types, please visit schema.org
 
-#### Defined in
+#### Source
 
-main.ts:156220
+main.ts:156228
 
-___
+***
 
-### value
+### value?
 
-• `Optional` **value**: `string`
+> **`optional`** **value**: `string`
 
 microdata value
 microdata value specified on a target web page
 
-#### Defined in
+#### Source
 
-main.ts:156223
+main.ts:156231

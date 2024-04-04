@@ -1,100 +1,89 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksTimeseriesSummaryLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBacklinksTimeseriesSummaryLiveResultInfo
 
 # Interface: IBacklinksTimeseriesSummaryLiveResultInfo
 
-## Implemented by
-
-- [`BacklinksTimeseriesSummaryLiveResultInfo`](../classes/BacklinksTimeseriesSummaryLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [date\_from](IBacklinksTimeseriesSummaryLiveResultInfo.md#date_from)
-- [date\_to](IBacklinksTimeseriesSummaryLiveResultInfo.md#date_to)
-- [group\_range](IBacklinksTimeseriesSummaryLiveResultInfo.md#group_range)
-- [items](IBacklinksTimeseriesSummaryLiveResultInfo.md#items)
-- [items\_count](IBacklinksTimeseriesSummaryLiveResultInfo.md#items_count)
-- [target](IBacklinksTimeseriesSummaryLiveResultInfo.md#target)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of the time range
 in the UTC format: “yyyy-mm-dd”
 example:
 2019-01-01
 
-#### Defined in
+#### Source
 
-main.ts:144134
+main.ts:144142
 
-___
+***
 
-### date\_to
+### date\_to?
 
-• `Optional` **date\_to**: `string`
+> **`optional`** **date\_to**: `string`
 
 ending date of the time range
 in the UTC format: "yyyy-mm-dd"
 example:
 "2019-01-15"
 
-#### Defined in
+#### Source
 
-main.ts:144139
+main.ts:144147
 
-___
+***
 
-### group\_range
+### group\_range?
 
-• `Optional` **group\_range**: `string`
+> **`optional`** **group\_range**: `string`
 
 group_range from a POST array
 
-#### Defined in
+#### Source
 
-main.ts:144141
+main.ts:144149
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BacklinksTimeseriesSummaryLiveItem`](../classes/BacklinksTimeseriesSummaryLiveItem.md)[]
+> **`optional`** **items**: [`BacklinksTimeseriesSummaryLiveItem`](../classes/BacklinksTimeseriesSummaryLiveItem.md)[]
 
 contains relevant summary data
 
-#### Defined in
+#### Source
 
-main.ts:144145
+main.ts:144153
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Defined in
+#### Source
 
-main.ts:144143
+main.ts:144151
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 target from a POST array
 
-#### Defined in
+#### Source
 
-main.ts:144129
+main.ts:144137

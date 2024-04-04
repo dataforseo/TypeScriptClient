@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / HotelsPackElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / HotelsPackElement
 
 # Class: HotelsPackElement
 
@@ -8,89 +12,63 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](HotelsPackElement.md#constructor)
-
-### Properties
-
-- [description](HotelsPackElement.md#description)
-- [domain](HotelsPackElement.md#domain)
-- [hotel\_identifier](HotelsPackElement.md#hotel_identifier)
-- [is\_paid](HotelsPackElement.md#is_paid)
-- [price](HotelsPackElement.md#price)
-- [rating](HotelsPackElement.md#rating)
-- [title](HotelsPackElement.md#title)
-- [type](HotelsPackElement.md#type)
-- [url](HotelsPackElement.md#url)
-
-### Methods
-
-- [init](HotelsPackElement.md#init)
-- [toJSON](HotelsPackElement.md#tojson)
-- [fromJS](HotelsPackElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new HotelsPackElement(data)
 
-• **new HotelsPackElement**(`data?`): [`HotelsPackElement`](HotelsPackElement.md)
+> **new HotelsPackElement**(`data`?): [`HotelsPackElement`](HotelsPackElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IHotelsPackElement`](../interfaces/IHotelsPackElement.md) |
+• **data?**: [`IHotelsPackElement`](../interfaces/IHotelsPackElement.md)
 
 #### Returns
 
 [`HotelsPackElement`](HotelsPackElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:33902
+main.ts:33908
 
 ## Properties
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description
 
 #### Implementation of
 
-[IHotelsPackElement](../interfaces/IHotelsPackElement.md).[description](../interfaces/IHotelsPackElement.md#description)
+[`IHotelsPackElement`](../interfaces/IHotelsPackElement.md).[`description`](../interfaces/IHotelsPackElement.md#description)
 
-#### Defined in
+#### Source
 
-main.ts:33885
+main.ts:33891
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 website domain
 
 #### Implementation of
 
-[IHotelsPackElement](../interfaces/IHotelsPackElement.md).[domain](../interfaces/IHotelsPackElement.md#domain)
+[`IHotelsPackElement`](../interfaces/IHotelsPackElement.md).[`domain`](../interfaces/IHotelsPackElement.md#domain)
 
-#### Defined in
+#### Source
 
-main.ts:33891
+main.ts:33897
 
-___
+***
 
-### hotel\_identifier
+### hotel\_identifier?
 
-• `Optional` **hotel\_identifier**: `string`
+> **`optional`** **hotel\_identifier**: `string`
 
 unique hotel identifier
 unique hotel identifier assigned by Google;
@@ -98,165 +76,159 @@ example: "CgoIjaeSlI6CnNpVEAE"
 
 #### Implementation of
 
-[IHotelsPackElement](../interfaces/IHotelsPackElement.md).[hotel_identifier](../interfaces/IHotelsPackElement.md#hotel_identifier)
+[`IHotelsPackElement`](../interfaces/IHotelsPackElement.md).[`hotel_identifier`](../interfaces/IHotelsPackElement.md#hotel_identifier)
 
-#### Defined in
+#### Source
 
-main.ts:33889
+main.ts:33895
 
-___
+***
 
-### is\_paid
+### is\_paid?
 
-• `Optional` **is\_paid**: `boolean`
+> **`optional`** **is\_paid**: `boolean`
 
 indicates whether the element is an ad
 
 #### Implementation of
 
-[IHotelsPackElement](../interfaces/IHotelsPackElement.md).[is_paid](../interfaces/IHotelsPackElement.md#is_paid)
+[`IHotelsPackElement`](../interfaces/IHotelsPackElement.md).[`is_paid`](../interfaces/IHotelsPackElement.md#is_paid)
 
-#### Defined in
+#### Source
 
-main.ts:33895
+main.ts:33901
 
-___
+***
 
-### price
+### price?
 
-• `Optional` **price**: [`PriceInfo`](PriceInfo.md)
+> **`optional`** **price**: [`PriceInfo`](PriceInfo.md)
 
 price indicated in the element
 
 #### Implementation of
 
-[IHotelsPackElement](../interfaces/IHotelsPackElement.md).[price](../interfaces/IHotelsPackElement.md#price)
+[`IHotelsPackElement`](../interfaces/IHotelsPackElement.md).[`price`](../interfaces/IHotelsPackElement.md#price)
 
-#### Defined in
+#### Source
 
-main.ts:33881
+main.ts:33887
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](RatingInfo.md)
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
 
-[IHotelsPackElement](../interfaces/IHotelsPackElement.md).[rating](../interfaces/IHotelsPackElement.md#rating)
+[`IHotelsPackElement`](../interfaces/IHotelsPackElement.md).[`rating`](../interfaces/IHotelsPackElement.md#rating)
 
-#### Defined in
+#### Source
 
-main.ts:33898
+main.ts:33904
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
 #### Implementation of
 
-[IHotelsPackElement](../interfaces/IHotelsPackElement.md).[title](../interfaces/IHotelsPackElement.md#title)
+[`IHotelsPackElement`](../interfaces/IHotelsPackElement.md).[`title`](../interfaces/IHotelsPackElement.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:33883
+main.ts:33889
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IHotelsPackElement](../interfaces/IHotelsPackElement.md).[type](../interfaces/IHotelsPackElement.md#type)
+[`IHotelsPackElement`](../interfaces/IHotelsPackElement.md).[`type`](../interfaces/IHotelsPackElement.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:33879
+main.ts:33885
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL
 
 #### Implementation of
 
-[IHotelsPackElement](../interfaces/IHotelsPackElement.md).[url](../interfaces/IHotelsPackElement.md#url)
+[`IHotelsPackElement`](../interfaces/IHotelsPackElement.md).[`url`](../interfaces/IHotelsPackElement.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:33893
+main.ts:33899
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:33911
+main.ts:33917
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:33936
+main.ts:33942
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`HotelsPackElement`](HotelsPackElement.md)
+> **`static`** **fromJS**(`data`): [`HotelsPackElement`](HotelsPackElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`HotelsPackElement`](HotelsPackElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:33929
+main.ts:33935

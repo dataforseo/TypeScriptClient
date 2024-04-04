@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleNewsTaskGetAdvancedResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleNewsTaskGetAdvancedResponseInfo
 
 # Class: SerpGoogleNewsTaskGetAdvancedResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`SerpGoogleNewsTaskGetAdvancedResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleNewsTaskGetAdvancedResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](SerpGoogleNewsTaskGetAdvancedResponseInfo.md#cost)
-- [status\_code](SerpGoogleNewsTaskGetAdvancedResponseInfo.md#status_code)
-- [status\_message](SerpGoogleNewsTaskGetAdvancedResponseInfo.md#status_message)
-- [tasks](SerpGoogleNewsTaskGetAdvancedResponseInfo.md#tasks)
-- [tasks\_count](SerpGoogleNewsTaskGetAdvancedResponseInfo.md#tasks_count)
-- [tasks\_error](SerpGoogleNewsTaskGetAdvancedResponseInfo.md#tasks_error)
-- [time](SerpGoogleNewsTaskGetAdvancedResponseInfo.md#time)
-- [version](SerpGoogleNewsTaskGetAdvancedResponseInfo.md#version)
-
-### Methods
-
-- [init](SerpGoogleNewsTaskGetAdvancedResponseInfo.md#init)
-- [toJSON](SerpGoogleNewsTaskGetAdvancedResponseInfo.md#tojson)
-- [fromJS](SerpGoogleNewsTaskGetAdvancedResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleNewsTaskGetAdvancedResponseInfo(data)
 
-• **new SerpGoogleNewsTaskGetAdvancedResponseInfo**(`data?`): [`SerpGoogleNewsTaskGetAdvancedResponseInfo`](SerpGoogleNewsTaskGetAdvancedResponseInfo.md)
+> **new SerpGoogleNewsTaskGetAdvancedResponseInfo**(`data`?): [`SerpGoogleNewsTaskGetAdvancedResponseInfo`](SerpGoogleNewsTaskGetAdvancedResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleNewsTaskGetAdvancedResponseInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResponseInfo.md) |
+• **data?**: [`ISerpGoogleNewsTaskGetAdvancedResponseInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:43578
+main.ts:43584
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[ISerpGoogleNewsTaskGetAdvancedResponseInfo](../interfaces/ISerpGoogleNewsTaskGetAdvancedResponseInfo.md).[cost](../interfaces/ISerpGoogleNewsTaskGetAdvancedResponseInfo.md#cost)
+[`ISerpGoogleNewsTaskGetAdvancedResponseInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResponseInfo.md).[`cost`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[ISerpGoogleNewsTaskGetAdvancedResponseInfo](../interfaces/ISerpGoogleNewsTaskGetAdvancedResponseInfo.md).[status_code](../interfaces/ISerpGoogleNewsTaskGetAdvancedResponseInfo.md#status_code)
+[`ISerpGoogleNewsTaskGetAdvancedResponseInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResponseInfo.md).[`status_code`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[ISerpGoogleNewsTaskGetAdvancedResponseInfo](../interfaces/ISerpGoogleNewsTaskGetAdvancedResponseInfo.md).[status_message](../interfaces/ISerpGoogleNewsTaskGetAdvancedResponseInfo.md#status_message)
+[`ISerpGoogleNewsTaskGetAdvancedResponseInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResponseInfo.md).[`status_message`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`SerpGoogleNewsTaskGetAdvancedTaskInfo`](SerpGoogleNewsTaskGetAdvancedTaskInfo.md)[]
+> **`optional`** **tasks**: [`SerpGoogleNewsTaskGetAdvancedTaskInfo`](SerpGoogleNewsTaskGetAdvancedTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[ISerpGoogleNewsTaskGetAdvancedResponseInfo](../interfaces/ISerpGoogleNewsTaskGetAdvancedResponseInfo.md).[tasks](../interfaces/ISerpGoogleNewsTaskGetAdvancedResponseInfo.md#tasks)
+[`ISerpGoogleNewsTaskGetAdvancedResponseInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResponseInfo.md).[`tasks`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:43574
+main.ts:43580
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[ISerpGoogleNewsTaskGetAdvancedResponseInfo](../interfaces/ISerpGoogleNewsTaskGetAdvancedResponseInfo.md).[tasks_count](../interfaces/ISerpGoogleNewsTaskGetAdvancedResponseInfo.md#tasks_count)
+[`ISerpGoogleNewsTaskGetAdvancedResponseInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResponseInfo.md).[`tasks_count`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[ISerpGoogleNewsTaskGetAdvancedResponseInfo](../interfaces/ISerpGoogleNewsTaskGetAdvancedResponseInfo.md).[tasks_error](../interfaces/ISerpGoogleNewsTaskGetAdvancedResponseInfo.md#tasks_error)
+[`ISerpGoogleNewsTaskGetAdvancedResponseInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResponseInfo.md).[`tasks_error`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[ISerpGoogleNewsTaskGetAdvancedResponseInfo](../interfaces/ISerpGoogleNewsTaskGetAdvancedResponseInfo.md).[time](../interfaces/ISerpGoogleNewsTaskGetAdvancedResponseInfo.md#time)
+[`ISerpGoogleNewsTaskGetAdvancedResponseInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResponseInfo.md).[`time`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[ISerpGoogleNewsTaskGetAdvancedResponseInfo](../interfaces/ISerpGoogleNewsTaskGetAdvancedResponseInfo.md).[version](../interfaces/ISerpGoogleNewsTaskGetAdvancedResponseInfo.md#version)
+[`ISerpGoogleNewsTaskGetAdvancedResponseInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResponseInfo.md).[`version`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:43582
+main.ts:43588
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:43604
+main.ts:43610
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleNewsTaskGetAdvancedResponseInfo`](SerpGoogleNewsTaskGetAdvancedResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleNewsTaskGetAdvancedResponseInfo`](SerpGoogleNewsTaskGetAdvancedResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:43597
+main.ts:43603

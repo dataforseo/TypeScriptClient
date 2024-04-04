@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataBusinessListingsAvailableFiltersResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataBusinessListingsAvailableFiltersResultInfo
 
 # Class: BusinessDataBusinessListingsAvailableFiltersResultInfo
 
@@ -8,137 +12,112 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataBusinessListingsAvailableFiltersResultInfo.md#constructor)
-
-### Properties
-
-- [categories\_aggregation](BusinessDataBusinessListingsAvailableFiltersResultInfo.md#categories_aggregation)
-- [search](BusinessDataBusinessListingsAvailableFiltersResultInfo.md#search)
-
-### Methods
-
-- [init](BusinessDataBusinessListingsAvailableFiltersResultInfo.md#init)
-- [toJSON](BusinessDataBusinessListingsAvailableFiltersResultInfo.md#tojson)
-- [fromJS](BusinessDataBusinessListingsAvailableFiltersResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataBusinessListingsAvailableFiltersResultInfo(data)
 
-• **new BusinessDataBusinessListingsAvailableFiltersResultInfo**(`data?`): [`BusinessDataBusinessListingsAvailableFiltersResultInfo`](BusinessDataBusinessListingsAvailableFiltersResultInfo.md)
+> **new BusinessDataBusinessListingsAvailableFiltersResultInfo**(`data`?): [`BusinessDataBusinessListingsAvailableFiltersResultInfo`](BusinessDataBusinessListingsAvailableFiltersResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataBusinessListingsAvailableFiltersResultInfo`](../interfaces/IBusinessDataBusinessListingsAvailableFiltersResultInfo.md) |
+• **data?**: [`IBusinessDataBusinessListingsAvailableFiltersResultInfo`](../interfaces/IBusinessDataBusinessListingsAvailableFiltersResultInfo.md)
 
 #### Returns
 
 [`BusinessDataBusinessListingsAvailableFiltersResultInfo`](BusinessDataBusinessListingsAvailableFiltersResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:193629
 
 ## Properties
 
-### categories\_aggregation
+### categories\_aggregation?
 
-• `Optional` **categories\_aggregation**: `Object`
+> **`optional`** **categories\_aggregation**: `Object`
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
 #### Implementation of
 
-[IBusinessDataBusinessListingsAvailableFiltersResultInfo](../interfaces/IBusinessDataBusinessListingsAvailableFiltersResultInfo.md).[categories_aggregation](../interfaces/IBusinessDataBusinessListingsAvailableFiltersResultInfo.md#categories_aggregation)
+[`IBusinessDataBusinessListingsAvailableFiltersResultInfo`](../interfaces/IBusinessDataBusinessListingsAvailableFiltersResultInfo.md).[`categories_aggregation`](../interfaces/IBusinessDataBusinessListingsAvailableFiltersResultInfo.md#categories_aggregation)
 
-#### Defined in
+#### Source
 
 main.ts:193625
 
-___
+***
 
-### search
+### search?
 
-• `Optional` **search**: `Object`
+> **`optional`** **search**: `Object`
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
 #### Implementation of
 
-[IBusinessDataBusinessListingsAvailableFiltersResultInfo](../interfaces/IBusinessDataBusinessListingsAvailableFiltersResultInfo.md).[search](../interfaces/IBusinessDataBusinessListingsAvailableFiltersResultInfo.md#search)
+[`IBusinessDataBusinessListingsAvailableFiltersResultInfo`](../interfaces/IBusinessDataBusinessListingsAvailableFiltersResultInfo.md).[`search`](../interfaces/IBusinessDataBusinessListingsAvailableFiltersResultInfo.md#search)
 
-#### Defined in
+#### Source
 
 main.ts:193624
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:193638
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:193668
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataBusinessListingsAvailableFiltersResultInfo`](BusinessDataBusinessListingsAvailableFiltersResultInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataBusinessListingsAvailableFiltersResultInfo`](BusinessDataBusinessListingsAvailableFiltersResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BusinessDataBusinessListingsAvailableFiltersResultInfo`](BusinessDataBusinessListingsAvailableFiltersResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:193661

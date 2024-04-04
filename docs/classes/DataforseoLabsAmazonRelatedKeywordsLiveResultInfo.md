@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonRelatedKeywordsLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsAmazonRelatedKeywordsLiveResultInfo
 
 # Class: DataforseoLabsAmazonRelatedKeywordsLiveResultInfo
 
@@ -8,236 +12,205 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#constructor)
-
-### Properties
-
-- [items](DataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#items)
-- [items\_count](DataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#items_count)
-- [language\_code](DataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#language_code)
-- [location\_code](DataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#location_code)
-- [se\_type](DataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#se_type)
-- [seed\_keyword](DataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#seed_keyword)
-- [seed\_keyword\_data](DataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#seed_keyword_data)
-- [total\_count](DataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#total_count)
-
-### Methods
-
-- [init](DataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#init)
-- [toJSON](DataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#tojson)
-- [fromJS](DataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsAmazonRelatedKeywordsLiveResultInfo(data)
 
-• **new DataforseoLabsAmazonRelatedKeywordsLiveResultInfo**(`data?`): [`DataforseoLabsAmazonRelatedKeywordsLiveResultInfo`](DataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md)
+> **new DataforseoLabsAmazonRelatedKeywordsLiveResultInfo**(`data`?): [`DataforseoLabsAmazonRelatedKeywordsLiveResultInfo`](DataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md) |
+• **data?**: [`IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsAmazonRelatedKeywordsLiveResultInfo`](DataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:101758
+main.ts:101766
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`DataforseoLabsAmazonRelatedKeywordsLiveItem`](DataforseoLabsAmazonRelatedKeywordsLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsAmazonRelatedKeywordsLiveItem`](DataforseoLabsAmazonRelatedKeywordsLiveItem.md)[]
 
 contains objects with keywords and related data
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md).[items](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#items)
+[`IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:101754
+main.ts:101762
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md).[items_count](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#items_count)
+[`IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:101752
+main.ts:101760
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md).[language_code](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#language_code)
+[`IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:101748
+main.ts:101756
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md).[location_code](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#location_code)
+[`IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:101746
+main.ts:101754
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md).[se_type](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#se_type)
+[`IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:101739
+main.ts:101747
 
-___
+***
 
-### seed\_keyword
+### seed\_keyword?
 
-• `Optional` **seed\_keyword**: `string`
+> **`optional`** **seed\_keyword**: `string`
 
 keyword in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md).[seed_keyword](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#seed_keyword)
+[`IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md).[`seed_keyword`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#seed_keyword)
 
-#### Defined in
+#### Source
 
-main.ts:101741
+main.ts:101749
 
-___
+***
 
-### seed\_keyword\_data
+### seed\_keyword\_data?
 
-• `Optional` **seed\_keyword\_data**: [`AmazonKeywordData`](AmazonKeywordData.md)
+> **`optional`** **seed\_keyword\_data**: [`AmazonKeywordData`](AmazonKeywordData.md)
 
 keyword data for the seed keyword
 fields in the object are identical to that of keyword_data
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md).[seed_keyword_data](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#seed_keyword_data)
+[`IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md).[`seed_keyword_data`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#seed_keyword_data)
 
-#### Defined in
+#### Source
 
-main.ts:101744
+main.ts:101752
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md).[total_count](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#total_count)
+[`IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#total_count)
 
-#### Defined in
+#### Source
 
-main.ts:101750
+main.ts:101758
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:101767
+main.ts:101775
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:101795
+main.ts:101803
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsAmazonRelatedKeywordsLiveResultInfo`](DataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsAmazonRelatedKeywordsLiveResultInfo`](DataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsAmazonRelatedKeywordsLiveResultInfo`](DataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:101788
+main.ts:101796

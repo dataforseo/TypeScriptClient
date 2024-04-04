@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixBusinessDataDayLimitsRatesDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppendixBusinessDataDayLimitsRatesDataInfo
 
 # Class: AppendixBusinessDataDayLimitsRatesDataInfo
 
@@ -8,129 +12,104 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixBusinessDataDayLimitsRatesDataInfo.md#constructor)
-
-### Properties
-
-- [reviews](AppendixBusinessDataDayLimitsRatesDataInfo.md#reviews)
-- [search](AppendixBusinessDataDayLimitsRatesDataInfo.md#search)
-
-### Methods
-
-- [init](AppendixBusinessDataDayLimitsRatesDataInfo.md#init)
-- [toJSON](AppendixBusinessDataDayLimitsRatesDataInfo.md#tojson)
-- [fromJS](AppendixBusinessDataDayLimitsRatesDataInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixBusinessDataDayLimitsRatesDataInfo(data)
 
-• **new AppendixBusinessDataDayLimitsRatesDataInfo**(`data?`): [`AppendixBusinessDataDayLimitsRatesDataInfo`](AppendixBusinessDataDayLimitsRatesDataInfo.md)
+> **new AppendixBusinessDataDayLimitsRatesDataInfo**(`data`?): [`AppendixBusinessDataDayLimitsRatesDataInfo`](AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixBusinessDataDayLimitsRatesDataInfo`](../interfaces/IAppendixBusinessDataDayLimitsRatesDataInfo.md) |
+• **data?**: [`IAppendixBusinessDataDayLimitsRatesDataInfo`](../interfaces/IAppendixBusinessDataDayLimitsRatesDataInfo.md)
 
 #### Returns
 
 [`AppendixBusinessDataDayLimitsRatesDataInfo`](AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:213395
 
 ## Properties
 
-### reviews
+### reviews?
 
-• `Optional` **reviews**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **reviews**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
-[IAppendixBusinessDataDayLimitsRatesDataInfo](../interfaces/IAppendixBusinessDataDayLimitsRatesDataInfo.md).[reviews](../interfaces/IAppendixBusinessDataDayLimitsRatesDataInfo.md#reviews)
+[`IAppendixBusinessDataDayLimitsRatesDataInfo`](../interfaces/IAppendixBusinessDataDayLimitsRatesDataInfo.md).[`reviews`](../interfaces/IAppendixBusinessDataDayLimitsRatesDataInfo.md#reviews)
 
-#### Defined in
+#### Source
 
 main.ts:213390
 
-___
+***
 
-### search
+### search?
 
-• `Optional` **search**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **search**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
-[IAppendixBusinessDataDayLimitsRatesDataInfo](../interfaces/IAppendixBusinessDataDayLimitsRatesDataInfo.md).[search](../interfaces/IAppendixBusinessDataDayLimitsRatesDataInfo.md#search)
+[`IAppendixBusinessDataDayLimitsRatesDataInfo`](../interfaces/IAppendixBusinessDataDayLimitsRatesDataInfo.md).[`search`](../interfaces/IAppendixBusinessDataDayLimitsRatesDataInfo.md#search)
 
-#### Defined in
+#### Source
 
 main.ts:213391
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:213404
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:213422
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppendixBusinessDataDayLimitsRatesDataInfo`](AppendixBusinessDataDayLimitsRatesDataInfo.md)
+> **`static`** **fromJS**(`data`): [`AppendixBusinessDataDayLimitsRatesDataInfo`](AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppendixBusinessDataDayLimitsRatesDataInfo`](AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:213415

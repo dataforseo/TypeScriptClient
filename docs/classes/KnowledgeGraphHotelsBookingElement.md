@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KnowledgeGraphHotelsBookingElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KnowledgeGraphHotelsBookingElement
 
 # Class: KnowledgeGraphHotelsBookingElement
 
@@ -8,219 +12,189 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KnowledgeGraphHotelsBookingElement.md#constructor)
-
-### Properties
-
-- [description](KnowledgeGraphHotelsBookingElement.md#description)
-- [domain](KnowledgeGraphHotelsBookingElement.md#domain)
-- [is\_paid](KnowledgeGraphHotelsBookingElement.md#is_paid)
-- [price](KnowledgeGraphHotelsBookingElement.md#price)
-- [source](KnowledgeGraphHotelsBookingElement.md#source)
-- [type](KnowledgeGraphHotelsBookingElement.md#type)
-- [url](KnowledgeGraphHotelsBookingElement.md#url)
-
-### Methods
-
-- [init](KnowledgeGraphHotelsBookingElement.md#init)
-- [toJSON](KnowledgeGraphHotelsBookingElement.md#tojson)
-- [fromJS](KnowledgeGraphHotelsBookingElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KnowledgeGraphHotelsBookingElement(data)
 
-• **new KnowledgeGraphHotelsBookingElement**(`data?`): [`KnowledgeGraphHotelsBookingElement`](KnowledgeGraphHotelsBookingElement.md)
+> **new KnowledgeGraphHotelsBookingElement**(`data`?): [`KnowledgeGraphHotelsBookingElement`](KnowledgeGraphHotelsBookingElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKnowledgeGraphHotelsBookingElement`](../interfaces/IKnowledgeGraphHotelsBookingElement.md) |
+• **data?**: [`IKnowledgeGraphHotelsBookingElement`](../interfaces/IKnowledgeGraphHotelsBookingElement.md)
 
 #### Returns
 
 [`KnowledgeGraphHotelsBookingElement`](KnowledgeGraphHotelsBookingElement.md)
 
-#### Defined in
+#### Source
 
 main.ts:28054
 
 ## Properties
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description of the results element in SERP
 
 #### Implementation of
 
-[IKnowledgeGraphHotelsBookingElement](../interfaces/IKnowledgeGraphHotelsBookingElement.md).[description](../interfaces/IKnowledgeGraphHotelsBookingElement.md#description)
+[`IKnowledgeGraphHotelsBookingElement`](../interfaces/IKnowledgeGraphHotelsBookingElement.md).[`description`](../interfaces/IKnowledgeGraphHotelsBookingElement.md#description)
 
-#### Defined in
+#### Source
 
 main.ts:28041
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain where a link points
 
 #### Implementation of
 
-[IKnowledgeGraphHotelsBookingElement](../interfaces/IKnowledgeGraphHotelsBookingElement.md).[domain](../interfaces/IKnowledgeGraphHotelsBookingElement.md#domain)
+[`IKnowledgeGraphHotelsBookingElement`](../interfaces/IKnowledgeGraphHotelsBookingElement.md).[`domain`](../interfaces/IKnowledgeGraphHotelsBookingElement.md#domain)
 
-#### Defined in
+#### Source
 
 main.ts:28045
 
-___
+***
 
-### is\_paid
+### is\_paid?
 
-• `Optional` **is\_paid**: `boolean`
+> **`optional`** **is\_paid**: `boolean`
 
 indicates whether the element is an ad
 
 #### Implementation of
 
-[IKnowledgeGraphHotelsBookingElement](../interfaces/IKnowledgeGraphHotelsBookingElement.md).[is_paid](../interfaces/IKnowledgeGraphHotelsBookingElement.md#is_paid)
+[`IKnowledgeGraphHotelsBookingElement`](../interfaces/IKnowledgeGraphHotelsBookingElement.md).[`is_paid`](../interfaces/IKnowledgeGraphHotelsBookingElement.md#is_paid)
 
-#### Defined in
+#### Source
 
 main.ts:28050
 
-___
+***
 
-### price
+### price?
 
-• `Optional` **price**: [`PriceInfo`](PriceInfo.md)
+> **`optional`** **price**: [`PriceInfo`](PriceInfo.md)
 
 pricing details
 contains the pricing details of the product or service featured in the result
 
 #### Implementation of
 
-[IKnowledgeGraphHotelsBookingElement](../interfaces/IKnowledgeGraphHotelsBookingElement.md).[price](../interfaces/IKnowledgeGraphHotelsBookingElement.md#price)
+[`IKnowledgeGraphHotelsBookingElement`](../interfaces/IKnowledgeGraphHotelsBookingElement.md).[`price`](../interfaces/IKnowledgeGraphHotelsBookingElement.md#price)
 
-#### Defined in
+#### Source
 
 main.ts:28048
 
-___
+***
 
-### source
+### source?
 
-• `Optional` **source**: `string`
+> **`optional`** **source**: `string`
 
 source of additional information about the result
 
 #### Implementation of
 
-[IKnowledgeGraphHotelsBookingElement](../interfaces/IKnowledgeGraphHotelsBookingElement.md).[source](../interfaces/IKnowledgeGraphHotelsBookingElement.md#source)
+[`IKnowledgeGraphHotelsBookingElement`](../interfaces/IKnowledgeGraphHotelsBookingElement.md).[`source`](../interfaces/IKnowledgeGraphHotelsBookingElement.md#source)
 
-#### Defined in
+#### Source
 
 main.ts:28039
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IKnowledgeGraphHotelsBookingElement](../interfaces/IKnowledgeGraphHotelsBookingElement.md).[type](../interfaces/IKnowledgeGraphHotelsBookingElement.md#type)
+[`IKnowledgeGraphHotelsBookingElement`](../interfaces/IKnowledgeGraphHotelsBookingElement.md).[`type`](../interfaces/IKnowledgeGraphHotelsBookingElement.md#type)
 
-#### Defined in
+#### Source
 
 main.ts:28037
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 relevant URL
 
 #### Implementation of
 
-[IKnowledgeGraphHotelsBookingElement](../interfaces/IKnowledgeGraphHotelsBookingElement.md).[url](../interfaces/IKnowledgeGraphHotelsBookingElement.md#url)
+[`IKnowledgeGraphHotelsBookingElement`](../interfaces/IKnowledgeGraphHotelsBookingElement.md).[`url`](../interfaces/IKnowledgeGraphHotelsBookingElement.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:28043
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:28063
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:28086
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KnowledgeGraphHotelsBookingElement`](KnowledgeGraphHotelsBookingElement.md)
+> **`static`** **fromJS**(`data`): [`KnowledgeGraphHotelsBookingElement`](KnowledgeGraphHotelsBookingElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`KnowledgeGraphHotelsBookingElement`](KnowledgeGraphHotelsBookingElement.md)
 
-#### Defined in
+#### Source
 
 main.ts:28079

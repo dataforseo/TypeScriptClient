@@ -1,56 +1,48 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IFormatsElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IFormatsElement
 
 # Interface: IFormatsElement
 
-## Implemented by
-
-- [`FormatsElement`](../classes/FormatsElement.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [format](IFormatsElement.md#format)
-- [size](IFormatsElement.md#size)
-- [type](IFormatsElement.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### format
+### format?
 
-• `Optional` **format**: `string`
+> **`optional`** **format**: `string`
 
 type of file format of the dataset
 for example: zip, html, csv
 
-#### Defined in
+#### Source
 
-main.ts:52992
+main.ts:53000
 
-___
+***
 
-### size
+### size?
 
-• `Optional` **size**: `string`
+> **`optional`** **size**: `string`
 
 file size in bytes
 
-#### Defined in
+#### Source
 
-main.ts:52994
+main.ts:53002
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:52989
+main.ts:52997

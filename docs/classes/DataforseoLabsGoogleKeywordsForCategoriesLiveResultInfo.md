@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo
 
 # Class: DataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo
 
@@ -8,137 +12,111 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md#constructor)
-
-### Properties
-
-- [items](DataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md#items)
-- [items\_count](DataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md#items_count)
-- [language\_code](DataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md#language_code)
-- [location\_code](DataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md#location_code)
-- [offset](DataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md#offset)
-- [offset\_token](DataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md#offset_token)
-- [se\_type](DataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md#se_type)
-- [seed\_categories](DataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md#seed_categories)
-- [total\_count](DataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md#total_count)
-
-### Methods
-
-- [init](DataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md#init)
-- [toJSON](DataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md#tojson)
-- [fromJS](DataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo(data)
 
-• **new DataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo**(`data?`): [`DataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo`](DataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md)
+> **new DataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo**(`data`?): [`DataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo`](DataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md) |
+• **data?**: [`IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo`](DataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:86407
+main.ts:86415
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`KeywordDataInfo`](KeywordDataInfo.md)[]
+> **`optional`** **items**: [`KeywordDataInfo`](KeywordDataInfo.md)[]
 
 contains keyword ideas and related data
 
 #### Implementation of
 
-[IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md).[items](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md#items)
+[`IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:86403
+main.ts:86411
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md).[items_count](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md#items_count)
+[`IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:86395
+main.ts:86403
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md).[language_code](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md#language_code)
+[`IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:86391
+main.ts:86399
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md).[location_code](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md#location_code)
+[`IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:86389
+main.ts:86397
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 current offset value
 
 #### Implementation of
 
-[IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md).[offset](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md#offset)
+[`IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md).[`offset`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md#offset)
 
-#### Defined in
+#### Source
 
-main.ts:86397
+main.ts:86405
 
-___
+***
 
-### offset\_token
+### offset\_token?
 
-• `Optional` **offset\_token**: `string`
+> **`optional`** **offset\_token**: `string`
 
 offset token for subsequent requests
 you can use the string provided in this field to get the subsequent results of the initial task;
@@ -146,116 +124,110 @@ note: offset_token values are unique for each subsequent task
 
 #### Implementation of
 
-[IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md).[offset_token](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md#offset_token)
+[`IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md).[`offset_token`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md#offset_token)
 
-#### Defined in
+#### Source
 
-main.ts:86401
+main.ts:86409
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md).[se_type](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md#se_type)
+[`IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:86385
+main.ts:86393
 
-___
+***
 
-### seed\_categories
+### seed\_categories?
 
-• `Optional` **seed\_categories**: `number`[]
+> **`optional`** **seed\_categories**: `number`[]
 
 categories in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md).[seed_categories](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md#seed_categories)
+[`IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md).[`seed_categories`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md#seed_categories)
 
-#### Defined in
+#### Source
 
-main.ts:86387
+main.ts:86395
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 the total amount of results in our database relevant to your request
 
 #### Implementation of
 
-[IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md).[total_count](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md#total_count)
+[`IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md#total_count)
 
-#### Defined in
+#### Source
 
-main.ts:86393
+main.ts:86401
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:86416
+main.ts:86424
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:86449
+main.ts:86457
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo`](DataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo`](DataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo`](DataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:86442
+main.ts:86450

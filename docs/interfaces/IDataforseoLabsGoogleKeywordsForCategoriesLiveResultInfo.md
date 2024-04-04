@@ -1,135 +1,121 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo
 
-## Implemented by
-
-- [`DataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo`](../classes/DataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md#items)
-- [items\_count](IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md#items_count)
-- [language\_code](IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md#language_code)
-- [location\_code](IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md#location_code)
-- [offset](IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md#offset)
-- [offset\_token](IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md#offset_token)
-- [se\_type](IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md#se_type)
-- [seed\_categories](IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md#seed_categories)
-- [total\_count](IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md#total_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)[]
+> **`optional`** **items**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)[]
 
 contains keyword ideas and related data
 
-#### Defined in
+#### Source
 
-main.ts:86496
+main.ts:86504
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Defined in
+#### Source
 
-main.ts:86488
+main.ts:86496
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:86484
+main.ts:86492
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
-#### Defined in
-
-main.ts:86482
-
-___
-
-### offset
-
-• `Optional` **offset**: `number`
-
-current offset value
-
-#### Defined in
+#### Source
 
 main.ts:86490
 
-___
+***
 
-### offset\_token
+### offset?
 
-• `Optional` **offset\_token**: `string`
+> **`optional`** **offset**: `number`
+
+current offset value
+
+#### Source
+
+main.ts:86498
+
+***
+
+### offset\_token?
+
+> **`optional`** **offset\_token**: `string`
 
 offset token for subsequent requests
 you can use the string provided in this field to get the subsequent results of the initial task;
 note: offset_token values are unique for each subsequent task
 
-#### Defined in
+#### Source
 
-main.ts:86494
+main.ts:86502
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:86478
+main.ts:86486
 
-___
+***
 
-### seed\_categories
+### seed\_categories?
 
-• `Optional` **seed\_categories**: `number`[]
+> **`optional`** **seed\_categories**: `number`[]
 
 categories in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:86480
+main.ts:86488
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 the total amount of results in our database relevant to your request
 
-#### Defined in
+#### Source
 
-main.ts:86486
+main.ts:86494

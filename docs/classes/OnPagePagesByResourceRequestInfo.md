@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPagePagesByResourceRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPagePagesByResourceRequestInfo
 
 # Class: OnPagePagesByResourceRequestInfo
 
@@ -8,62 +12,38 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPagePagesByResourceRequestInfo.md#constructor)
-
-### Properties
-
-- [filters](OnPagePagesByResourceRequestInfo.md#filters)
-- [id](OnPagePagesByResourceRequestInfo.md#id)
-- [limit](OnPagePagesByResourceRequestInfo.md#limit)
-- [offset](OnPagePagesByResourceRequestInfo.md#offset)
-- [order\_by](OnPagePagesByResourceRequestInfo.md#order_by)
-- [tag](OnPagePagesByResourceRequestInfo.md#tag)
-- [url](OnPagePagesByResourceRequestInfo.md#url)
-
-### Methods
-
-- [init](OnPagePagesByResourceRequestInfo.md#init)
-- [toJSON](OnPagePagesByResourceRequestInfo.md#tojson)
-- [fromJS](OnPagePagesByResourceRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPagePagesByResourceRequestInfo(data)
 
-• **new OnPagePagesByResourceRequestInfo**(`data?`): [`OnPagePagesByResourceRequestInfo`](OnPagePagesByResourceRequestInfo.md)
+> **new OnPagePagesByResourceRequestInfo**(`data`?): [`OnPagePagesByResourceRequestInfo`](OnPagePagesByResourceRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPagePagesByResourceRequestInfo`](../interfaces/IOnPagePagesByResourceRequestInfo.md) |
+• **data?**: [`IOnPagePagesByResourceRequestInfo`](../interfaces/IOnPagePagesByResourceRequestInfo.md)
 
 #### Returns
 
 [`OnPagePagesByResourceRequestInfo`](OnPagePagesByResourceRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:150816
+main.ts:150824
 
 ## Properties
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, <=, >, >=, =, <>, in, not_in, like, not_like
+regex, <, `<=, >`, >=, =, <>, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["meta.external_links_count","<=",50]["url","like","https://dataforseo.com/apis/dataforseo-labs-api"]
@@ -74,17 +54,17 @@ The full list of possible filters is available by this link.
 
 #### Implementation of
 
-[IOnPagePagesByResourceRequestInfo](../interfaces/IOnPagePagesByResourceRequestInfo.md).[filters](../interfaces/IOnPagePagesByResourceRequestInfo.md#filters)
+[`IOnPagePagesByResourceRequestInfo`](../interfaces/IOnPagePagesByResourceRequestInfo.md).[`filters`](../interfaces/IOnPagePagesByResourceRequestInfo.md#filters)
 
-#### Defined in
+#### Source
 
-main.ts:150792
+main.ts:150800
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 ID of the task
 required field
@@ -94,17 +74,17 @@ example:
 
 #### Implementation of
 
-[IOnPagePagesByResourceRequestInfo](../interfaces/IOnPagePagesByResourceRequestInfo.md).[id](../interfaces/IOnPagePagesByResourceRequestInfo.md#id)
+[`IOnPagePagesByResourceRequestInfo`](../interfaces/IOnPagePagesByResourceRequestInfo.md).[`id`](../interfaces/IOnPagePagesByResourceRequestInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:150762
+main.ts:150770
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned pages
 optional field
@@ -113,17 +93,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IOnPagePagesByResourceRequestInfo](../interfaces/IOnPagePagesByResourceRequestInfo.md).[limit](../interfaces/IOnPagePagesByResourceRequestInfo.md#limit)
+[`IOnPagePagesByResourceRequestInfo`](../interfaces/IOnPagePagesByResourceRequestInfo.md).[`limit`](../interfaces/IOnPagePagesByResourceRequestInfo.md#limit)
 
-#### Defined in
+#### Source
 
-main.ts:150773
+main.ts:150781
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned pages
 optional field
@@ -132,17 +112,17 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Implementation of
 
-[IOnPagePagesByResourceRequestInfo](../interfaces/IOnPagePagesByResourceRequestInfo.md).[offset](../interfaces/IOnPagePagesByResourceRequestInfo.md#offset)
+[`IOnPagePagesByResourceRequestInfo`](../interfaces/IOnPagePagesByResourceRequestInfo.md).[`offset`](../interfaces/IOnPagePagesByResourceRequestInfo.md#offset)
 
-#### Defined in
+#### Source
 
-main.ts:150778
+main.ts:150786
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -160,17 +140,17 @@ example:
 
 #### Implementation of
 
-[IOnPagePagesByResourceRequestInfo](../interfaces/IOnPagePagesByResourceRequestInfo.md).[order_by](../interfaces/IOnPagePagesByResourceRequestInfo.md#order_by)
+[`IOnPagePagesByResourceRequestInfo`](../interfaces/IOnPagePagesByResourceRequestInfo.md).[`order_by`](../interfaces/IOnPagePagesByResourceRequestInfo.md#order_by)
 
-#### Defined in
+#### Source
 
-main.ts:150806
+main.ts:150814
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -180,17 +160,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IOnPagePagesByResourceRequestInfo](../interfaces/IOnPagePagesByResourceRequestInfo.md).[tag](../interfaces/IOnPagePagesByResourceRequestInfo.md#tag)
+[`IOnPagePagesByResourceRequestInfo`](../interfaces/IOnPagePagesByResourceRequestInfo.md).[`tag`](../interfaces/IOnPagePagesByResourceRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:150812
+main.ts:150820
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 resource URL
 required field
@@ -200,68 +180,62 @@ https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js
 
 #### Implementation of
 
-[IOnPagePagesByResourceRequestInfo](../interfaces/IOnPagePagesByResourceRequestInfo.md).[url](../interfaces/IOnPagePagesByResourceRequestInfo.md#url)
+[`IOnPagePagesByResourceRequestInfo`](../interfaces/IOnPagePagesByResourceRequestInfo.md).[`url`](../interfaces/IOnPagePagesByResourceRequestInfo.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:150768
+main.ts:150776
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:150825
+main.ts:150833
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:150856
+main.ts:150864
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPagePagesByResourceRequestInfo`](OnPagePagesByResourceRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`OnPagePagesByResourceRequestInfo`](OnPagePagesByResourceRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`OnPagePagesByResourceRequestInfo`](OnPagePagesByResourceRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:150849
+main.ts:150857

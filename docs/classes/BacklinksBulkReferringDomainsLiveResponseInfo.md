@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksBulkReferringDomainsLiveResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BacklinksBulkReferringDomainsLiveResponseInfo
 
 # Class: BacklinksBulkReferringDomainsLiveResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`BacklinksBulkReferringDomainsLiveResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BacklinksBulkReferringDomainsLiveResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](BacklinksBulkReferringDomainsLiveResponseInfo.md#cost)
-- [status\_code](BacklinksBulkReferringDomainsLiveResponseInfo.md#status_code)
-- [status\_message](BacklinksBulkReferringDomainsLiveResponseInfo.md#status_message)
-- [tasks](BacklinksBulkReferringDomainsLiveResponseInfo.md#tasks)
-- [tasks\_count](BacklinksBulkReferringDomainsLiveResponseInfo.md#tasks_count)
-- [tasks\_error](BacklinksBulkReferringDomainsLiveResponseInfo.md#tasks_error)
-- [time](BacklinksBulkReferringDomainsLiveResponseInfo.md#time)
-- [version](BacklinksBulkReferringDomainsLiveResponseInfo.md#version)
-
-### Methods
-
-- [init](BacklinksBulkReferringDomainsLiveResponseInfo.md#init)
-- [toJSON](BacklinksBulkReferringDomainsLiveResponseInfo.md#tojson)
-- [fromJS](BacklinksBulkReferringDomainsLiveResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BacklinksBulkReferringDomainsLiveResponseInfo(data)
 
-• **new BacklinksBulkReferringDomainsLiveResponseInfo**(`data?`): [`BacklinksBulkReferringDomainsLiveResponseInfo`](BacklinksBulkReferringDomainsLiveResponseInfo.md)
+> **new BacklinksBulkReferringDomainsLiveResponseInfo**(`data`?): [`BacklinksBulkReferringDomainsLiveResponseInfo`](BacklinksBulkReferringDomainsLiveResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBacklinksBulkReferringDomainsLiveResponseInfo`](../interfaces/IBacklinksBulkReferringDomainsLiveResponseInfo.md) |
+• **data?**: [`IBacklinksBulkReferringDomainsLiveResponseInfo`](../interfaces/IBacklinksBulkReferringDomainsLiveResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:146053
+main.ts:146061
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IBacklinksBulkReferringDomainsLiveResponseInfo](../interfaces/IBacklinksBulkReferringDomainsLiveResponseInfo.md).[cost](../interfaces/IBacklinksBulkReferringDomainsLiveResponseInfo.md#cost)
+[`IBacklinksBulkReferringDomainsLiveResponseInfo`](../interfaces/IBacklinksBulkReferringDomainsLiveResponseInfo.md).[`cost`](../interfaces/IBacklinksBulkReferringDomainsLiveResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[IBacklinksBulkReferringDomainsLiveResponseInfo](../interfaces/IBacklinksBulkReferringDomainsLiveResponseInfo.md).[status_code](../interfaces/IBacklinksBulkReferringDomainsLiveResponseInfo.md#status_code)
+[`IBacklinksBulkReferringDomainsLiveResponseInfo`](../interfaces/IBacklinksBulkReferringDomainsLiveResponseInfo.md).[`status_code`](../interfaces/IBacklinksBulkReferringDomainsLiveResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IBacklinksBulkReferringDomainsLiveResponseInfo](../interfaces/IBacklinksBulkReferringDomainsLiveResponseInfo.md).[status_message](../interfaces/IBacklinksBulkReferringDomainsLiveResponseInfo.md#status_message)
+[`IBacklinksBulkReferringDomainsLiveResponseInfo`](../interfaces/IBacklinksBulkReferringDomainsLiveResponseInfo.md).[`status_message`](../interfaces/IBacklinksBulkReferringDomainsLiveResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`BacklinksBulkReferringDomainsLiveTaskInfo`](BacklinksBulkReferringDomainsLiveTaskInfo.md)[]
+> **`optional`** **tasks**: [`BacklinksBulkReferringDomainsLiveTaskInfo`](BacklinksBulkReferringDomainsLiveTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[IBacklinksBulkReferringDomainsLiveResponseInfo](../interfaces/IBacklinksBulkReferringDomainsLiveResponseInfo.md).[tasks](../interfaces/IBacklinksBulkReferringDomainsLiveResponseInfo.md#tasks)
+[`IBacklinksBulkReferringDomainsLiveResponseInfo`](../interfaces/IBacklinksBulkReferringDomainsLiveResponseInfo.md).[`tasks`](../interfaces/IBacklinksBulkReferringDomainsLiveResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:146049
+main.ts:146057
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[IBacklinksBulkReferringDomainsLiveResponseInfo](../interfaces/IBacklinksBulkReferringDomainsLiveResponseInfo.md).[tasks_count](../interfaces/IBacklinksBulkReferringDomainsLiveResponseInfo.md#tasks_count)
+[`IBacklinksBulkReferringDomainsLiveResponseInfo`](../interfaces/IBacklinksBulkReferringDomainsLiveResponseInfo.md).[`tasks_count`](../interfaces/IBacklinksBulkReferringDomainsLiveResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[IBacklinksBulkReferringDomainsLiveResponseInfo](../interfaces/IBacklinksBulkReferringDomainsLiveResponseInfo.md).[tasks_error](../interfaces/IBacklinksBulkReferringDomainsLiveResponseInfo.md#tasks_error)
+[`IBacklinksBulkReferringDomainsLiveResponseInfo`](../interfaces/IBacklinksBulkReferringDomainsLiveResponseInfo.md).[`tasks_error`](../interfaces/IBacklinksBulkReferringDomainsLiveResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[IBacklinksBulkReferringDomainsLiveResponseInfo](../interfaces/IBacklinksBulkReferringDomainsLiveResponseInfo.md).[time](../interfaces/IBacklinksBulkReferringDomainsLiveResponseInfo.md#time)
+[`IBacklinksBulkReferringDomainsLiveResponseInfo`](../interfaces/IBacklinksBulkReferringDomainsLiveResponseInfo.md).[`time`](../interfaces/IBacklinksBulkReferringDomainsLiveResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[IBacklinksBulkReferringDomainsLiveResponseInfo](../interfaces/IBacklinksBulkReferringDomainsLiveResponseInfo.md).[version](../interfaces/IBacklinksBulkReferringDomainsLiveResponseInfo.md#version)
+[`IBacklinksBulkReferringDomainsLiveResponseInfo`](../interfaces/IBacklinksBulkReferringDomainsLiveResponseInfo.md).[`version`](../interfaces/IBacklinksBulkReferringDomainsLiveResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:146057
+main.ts:146065
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:146079
+main.ts:146087
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BacklinksBulkReferringDomainsLiveResponseInfo`](BacklinksBulkReferringDomainsLiveResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`BacklinksBulkReferringDomainsLiveResponseInfo`](BacklinksBulkReferringDomainsLiveResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:146072
+main.ts:146080

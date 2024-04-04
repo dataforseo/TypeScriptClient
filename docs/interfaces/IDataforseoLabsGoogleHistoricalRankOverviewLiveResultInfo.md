@@ -1,107 +1,95 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo
 
-## Implemented by
-
-- [`DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo`](../classes/DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md#items)
-- [items\_count](IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md#items_count)
-- [language\_code](IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md#language_code)
-- [location\_code](IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md#location_code)
-- [se\_type](IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md#se_type)
-- [target](IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md#target)
-- [total\_count](IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md#total_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`DataforseoLabsGoogleHistoricalRankOverviewLiveItem`](../classes/DataforseoLabsGoogleHistoricalRankOverviewLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsGoogleHistoricalRankOverviewLiveItem`](../classes/DataforseoLabsGoogleHistoricalRankOverviewLiveItem.md)[]
 
 contains historical ranking and traffic data
 
-#### Defined in
+#### Source
 
-main.ts:98982
+main.ts:98990
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Defined in
+#### Source
 
-main.ts:98980
+main.ts:98988
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:98976
+main.ts:98984
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:98974
+main.ts:98982
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:98970
+main.ts:98978
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 target domain in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:98972
+main.ts:98980
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
-#### Defined in
+#### Source
 
-main.ts:98978
+main.ts:98986

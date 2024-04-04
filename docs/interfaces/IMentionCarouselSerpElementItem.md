@@ -1,123 +1,109 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMentionCarouselSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IMentionCarouselSerpElementItem
 
 # Interface: IMentionCarouselSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
 
-  ↳ **`IMentionCarouselSerpElementItem`**
-
-## Implemented by
-
-- [`MentionCarouselSerpElementItem`](../classes/MentionCarouselSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IMentionCarouselSerpElementItem.md#items)
-- [position](IMentionCarouselSerpElementItem.md#position)
-- [rank\_absolute](IMentionCarouselSerpElementItem.md#rank_absolute)
-- [rank\_group](IMentionCarouselSerpElementItem.md#rank_group)
-- [rectangle](IMentionCarouselSerpElementItem.md#rectangle)
-- [title](IMentionCarouselSerpElementItem.md#title)
-- [xpath](IMentionCarouselSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`MentionCarouselElement`](../classes/MentionCarouselElement.md)[]
+> **`optional`** **items**: [`MentionCarouselElement`](../classes/MentionCarouselElement.md)[]
 
 additional items present in the element
 if there are none, equals null
 
-#### Defined in
+#### Source
 
 main.ts:31790
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
 main.ts:31783
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop
 
-#### Defined in
+#### Source
 
 main.ts:31779
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
 positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop
 
-#### Defined in
+#### Source
 
 main.ts:31775
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
 equals null if calculate_rectangles in the POST request is not set to true
 
-#### Defined in
+#### Source
 
 main.ts:31794
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the row
 
-#### Defined in
+#### Source
 
 main.ts:31787
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
 main.ts:31785

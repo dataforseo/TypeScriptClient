@@ -1,255 +1,231 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IYelpSearchOrganicBusinessDataSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IYelpSearchOrganicBusinessDataSerpElementItem
 
 # Interface: IYelpSearchOrganicBusinessDataSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md)
 
-  ↳ **`IYelpSearchOrganicBusinessDataSerpElementItem`**
-
-## Implemented by
-
-- [`YelpSearchOrganicBusinessDataSerpElementItem`](../classes/YelpSearchOrganicBusinessDataSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [alias](IYelpSearchOrganicBusinessDataSerpElementItem.md#alias)
-- [business\_highlights](IYelpSearchOrganicBusinessDataSerpElementItem.md#business_highlights)
-- [business\_url](IYelpSearchOrganicBusinessDataSerpElementItem.md#business_url)
-- [categories](IYelpSearchOrganicBusinessDataSerpElementItem.md#categories)
-- [description](IYelpSearchOrganicBusinessDataSerpElementItem.md#description)
-- [is\_guaranteed](IYelpSearchOrganicBusinessDataSerpElementItem.md#is_guaranteed)
-- [location](IYelpSearchOrganicBusinessDataSerpElementItem.md#location)
-- [name](IYelpSearchOrganicBusinessDataSerpElementItem.md#name)
-- [phone](IYelpSearchOrganicBusinessDataSerpElementItem.md#phone)
-- [photos](IYelpSearchOrganicBusinessDataSerpElementItem.md#photos)
-- [price\_range](IYelpSearchOrganicBusinessDataSerpElementItem.md#price_range)
-- [rank\_absolute](IYelpSearchOrganicBusinessDataSerpElementItem.md#rank_absolute)
-- [rank\_group](IYelpSearchOrganicBusinessDataSerpElementItem.md#rank_group)
-- [rating](IYelpSearchOrganicBusinessDataSerpElementItem.md#rating)
-- [service\_offerings](IYelpSearchOrganicBusinessDataSerpElementItem.md#service_offerings)
-- [tags](IYelpSearchOrganicBusinessDataSerpElementItem.md#tags)
-- [yelp\_business\_id](IYelpSearchOrganicBusinessDataSerpElementItem.md#yelp_business_id)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### alias
+### alias?
 
-• `Optional` **alias**: `string`
+> **`optional`** **alias**: `string`
 
 Yelp business identifier
 displayed only if the request contained the corresponding field
 
-#### Defined in
+#### Source
 
 main.ts:209641
 
-___
+***
 
-### business\_highlights
+### business\_highlights?
 
-• `Optional` **business\_highlights**: `string`[]
+> **`optional`** **business\_highlights**: `string`[]
 
 highlights describing business offerings
 example:
 "casual_dining"
 
-#### Defined in
+#### Source
 
 main.ts:209670
 
-___
+***
 
-### business\_url
+### business\_url?
 
-• `Optional` **business\_url**: `string`
+> **`optional`** **business\_url**: `string`
 
 link to the Yelp profile of the business entity
 
-#### Defined in
+#### Source
 
 main.ts:209638
 
-___
+***
 
-### categories
+### categories?
 
-• `Optional` **categories**: `string`[]
+> **`optional`** **categories**: `string`[]
 
 categories related to the business entity
 
-#### Defined in
+#### Source
 
 main.ts:209660
 
-___
+***
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description containing the featured review
 
-#### Defined in
+#### Source
 
 main.ts:209645
 
-___
+***
 
-### is\_guaranteed
+### is\_guaranteed?
 
-• `Optional` **is\_guaranteed**: `boolean`
+> **`optional`** **is\_guaranteed**: `boolean`
 
 Yelp guaranteed label
 
-#### Defined in
+#### Source
 
 main.ts:209656
 
-___
+***
 
-### location
+### location?
 
-• `Optional` **location**: [`BusinessAddressLocationInfo`](../classes/BusinessAddressLocationInfo.md)
+> **`optional`** **location**: [`BusinessAddressLocationInfo`](../classes/BusinessAddressLocationInfo.md)
 
 information about the location of the business entity
 
-#### Defined in
+#### Source
 
 main.ts:209647
 
-___
+***
 
-### name
+### name?
 
-• `Optional` **name**: `string`
+> **`optional`** **name**: `string`
 
 name of the business entity
 
-#### Defined in
+#### Source
 
 main.ts:209643
 
-___
+***
 
-### phone
+### phone?
 
-• `Optional` **phone**: `string`
+> **`optional`** **phone**: `string`
 
 contact phone number
 example:
 (804) 342-1981
 
-#### Defined in
+#### Source
 
 main.ts:209654
 
-___
+***
 
-### photos
+### photos?
 
-• `Optional` **photos**: `string`[]
+> **`optional`** **photos**: `string`[]
 
 links to photos appearing in the result
 
-#### Defined in
+#### Source
 
 main.ts:209662
 
-___
+***
 
-### price\_range
+### price\_range?
 
-• `Optional` **price\_range**: `number`
+> **`optional`** **price\_range**: `number`
 
 price range of the business entity
 indicates the number of currency signs next to the business listing corresponding to its price score
 
-#### Defined in
+#### Source
 
 main.ts:209650
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank among all the listed results
 absolute position among all reviews on the list
 
-#### Defined in
+#### Source
 
 main.ts:209632
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
 main.ts:209629
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
 the rating score submitted by the reviewer
 
-#### Defined in
+#### Source
 
 main.ts:209658
 
-___
+***
 
-### service\_offerings
+### service\_offerings?
 
-• `Optional` **service\_offerings**: [`ServiceOfferingsElement`](../classes/ServiceOfferingsElement.md)[]
+> **`optional`** **service\_offerings**: [`ServiceOfferingsElement`](../classes/ServiceOfferingsElement.md)[]
 
 tags corresponding to the availability of certain business offerings
 
-#### Defined in
+#### Source
 
 main.ts:209672
 
-___
+***
 
-### tags
+### tags?
 
-• `Optional` **tags**: `string`[]
+> **`optional`** **tags**: `string`[]
 
 tags generated by Yelp
 example:
 "New on Yelp"
 
-#### Defined in
+#### Source
 
 main.ts:209666
 
-___
+***
 
-### yelp\_business\_id
+### yelp\_business\_id?
 
-• `Optional` **yelp\_business\_id**: `string`
+> **`optional`** **yelp\_business\_id**: `string`
 
 the unique identifier of a business identity on Yelp
 example:
 2sWZ17vpEF2vuM_7ic721w
 
-#### Defined in
+#### Source
 
 main.ts:209636

@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpBaiduOrganicTasksFixedResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpBaiduOrganicTasksFixedResponseInfo
 
 # Class: SerpBaiduOrganicTasksFixedResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`SerpBaiduOrganicTasksFixedResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpBaiduOrganicTasksFixedResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](SerpBaiduOrganicTasksFixedResponseInfo.md#cost)
-- [status\_code](SerpBaiduOrganicTasksFixedResponseInfo.md#status_code)
-- [status\_message](SerpBaiduOrganicTasksFixedResponseInfo.md#status_message)
-- [tasks](SerpBaiduOrganicTasksFixedResponseInfo.md#tasks)
-- [tasks\_count](SerpBaiduOrganicTasksFixedResponseInfo.md#tasks_count)
-- [tasks\_error](SerpBaiduOrganicTasksFixedResponseInfo.md#tasks_error)
-- [time](SerpBaiduOrganicTasksFixedResponseInfo.md#time)
-- [version](SerpBaiduOrganicTasksFixedResponseInfo.md#version)
-
-### Methods
-
-- [init](SerpBaiduOrganicTasksFixedResponseInfo.md#init)
-- [toJSON](SerpBaiduOrganicTasksFixedResponseInfo.md#tojson)
-- [fromJS](SerpBaiduOrganicTasksFixedResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpBaiduOrganicTasksFixedResponseInfo(data)
 
-• **new SerpBaiduOrganicTasksFixedResponseInfo**(`data?`): [`SerpBaiduOrganicTasksFixedResponseInfo`](SerpBaiduOrganicTasksFixedResponseInfo.md)
+> **new SerpBaiduOrganicTasksFixedResponseInfo**(`data`?): [`SerpBaiduOrganicTasksFixedResponseInfo`](SerpBaiduOrganicTasksFixedResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpBaiduOrganicTasksFixedResponseInfo`](../interfaces/ISerpBaiduOrganicTasksFixedResponseInfo.md) |
+• **data?**: [`ISerpBaiduOrganicTasksFixedResponseInfo`](../interfaces/ISerpBaiduOrganicTasksFixedResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:68920
+main.ts:68928
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[ISerpBaiduOrganicTasksFixedResponseInfo](../interfaces/ISerpBaiduOrganicTasksFixedResponseInfo.md).[cost](../interfaces/ISerpBaiduOrganicTasksFixedResponseInfo.md#cost)
+[`ISerpBaiduOrganicTasksFixedResponseInfo`](../interfaces/ISerpBaiduOrganicTasksFixedResponseInfo.md).[`cost`](../interfaces/ISerpBaiduOrganicTasksFixedResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[ISerpBaiduOrganicTasksFixedResponseInfo](../interfaces/ISerpBaiduOrganicTasksFixedResponseInfo.md).[status_code](../interfaces/ISerpBaiduOrganicTasksFixedResponseInfo.md#status_code)
+[`ISerpBaiduOrganicTasksFixedResponseInfo`](../interfaces/ISerpBaiduOrganicTasksFixedResponseInfo.md).[`status_code`](../interfaces/ISerpBaiduOrganicTasksFixedResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[ISerpBaiduOrganicTasksFixedResponseInfo](../interfaces/ISerpBaiduOrganicTasksFixedResponseInfo.md).[status_message](../interfaces/ISerpBaiduOrganicTasksFixedResponseInfo.md#status_message)
+[`ISerpBaiduOrganicTasksFixedResponseInfo`](../interfaces/ISerpBaiduOrganicTasksFixedResponseInfo.md).[`status_message`](../interfaces/ISerpBaiduOrganicTasksFixedResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`SerpBaiduOrganicTasksFixedTaskInfo`](SerpBaiduOrganicTasksFixedTaskInfo.md)[]
+> **`optional`** **tasks**: [`SerpBaiduOrganicTasksFixedTaskInfo`](SerpBaiduOrganicTasksFixedTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[ISerpBaiduOrganicTasksFixedResponseInfo](../interfaces/ISerpBaiduOrganicTasksFixedResponseInfo.md).[tasks](../interfaces/ISerpBaiduOrganicTasksFixedResponseInfo.md#tasks)
+[`ISerpBaiduOrganicTasksFixedResponseInfo`](../interfaces/ISerpBaiduOrganicTasksFixedResponseInfo.md).[`tasks`](../interfaces/ISerpBaiduOrganicTasksFixedResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:68916
+main.ts:68924
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[ISerpBaiduOrganicTasksFixedResponseInfo](../interfaces/ISerpBaiduOrganicTasksFixedResponseInfo.md).[tasks_count](../interfaces/ISerpBaiduOrganicTasksFixedResponseInfo.md#tasks_count)
+[`ISerpBaiduOrganicTasksFixedResponseInfo`](../interfaces/ISerpBaiduOrganicTasksFixedResponseInfo.md).[`tasks_count`](../interfaces/ISerpBaiduOrganicTasksFixedResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[ISerpBaiduOrganicTasksFixedResponseInfo](../interfaces/ISerpBaiduOrganicTasksFixedResponseInfo.md).[tasks_error](../interfaces/ISerpBaiduOrganicTasksFixedResponseInfo.md#tasks_error)
+[`ISerpBaiduOrganicTasksFixedResponseInfo`](../interfaces/ISerpBaiduOrganicTasksFixedResponseInfo.md).[`tasks_error`](../interfaces/ISerpBaiduOrganicTasksFixedResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[ISerpBaiduOrganicTasksFixedResponseInfo](../interfaces/ISerpBaiduOrganicTasksFixedResponseInfo.md).[time](../interfaces/ISerpBaiduOrganicTasksFixedResponseInfo.md#time)
+[`ISerpBaiduOrganicTasksFixedResponseInfo`](../interfaces/ISerpBaiduOrganicTasksFixedResponseInfo.md).[`time`](../interfaces/ISerpBaiduOrganicTasksFixedResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[ISerpBaiduOrganicTasksFixedResponseInfo](../interfaces/ISerpBaiduOrganicTasksFixedResponseInfo.md).[version](../interfaces/ISerpBaiduOrganicTasksFixedResponseInfo.md#version)
+[`ISerpBaiduOrganicTasksFixedResponseInfo`](../interfaces/ISerpBaiduOrganicTasksFixedResponseInfo.md).[`version`](../interfaces/ISerpBaiduOrganicTasksFixedResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:68924
+main.ts:68932
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:68946
+main.ts:68954
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpBaiduOrganicTasksFixedResponseInfo`](SerpBaiduOrganicTasksFixedResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpBaiduOrganicTasksFixedResponseInfo`](SerpBaiduOrganicTasksFixedResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:68939
+main.ts:68947

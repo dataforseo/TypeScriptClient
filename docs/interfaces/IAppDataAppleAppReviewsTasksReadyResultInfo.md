@@ -1,96 +1,85 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppDataAppleAppReviewsTasksReadyResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppDataAppleAppReviewsTasksReadyResultInfo
 
 # Interface: IAppDataAppleAppReviewsTasksReadyResultInfo
 
-## Implemented by
-
-- [`AppDataAppleAppReviewsTasksReadyResultInfo`](../classes/AppDataAppleAppReviewsTasksReadyResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [date\_posted](IAppDataAppleAppReviewsTasksReadyResultInfo.md#date_posted)
-- [endpoint\_advanced](IAppDataAppleAppReviewsTasksReadyResultInfo.md#endpoint_advanced)
-- [endpoint\_html](IAppDataAppleAppReviewsTasksReadyResultInfo.md#endpoint_html)
-- [id](IAppDataAppleAppReviewsTasksReadyResultInfo.md#id)
-- [se](IAppDataAppleAppReviewsTasksReadyResultInfo.md#se)
-- [tag](IAppDataAppleAppReviewsTasksReadyResultInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### date\_posted
+### date\_posted?
 
-• `Optional` **date\_posted**: `string`
+> **`optional`** **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
-#### Defined in
+#### Source
 
 main.ts:191531
 
-___
+***
 
-### endpoint\_advanced
+### endpoint\_advanced?
 
-• `Optional` **endpoint\_advanced**: `string`
+> **`optional`** **endpoint\_advanced**: `string`
 
 URL for collecting the results of the Apple App Reviews task
 
-#### Defined in
+#### Source
 
 main.ts:191535
 
-___
+***
 
-### endpoint\_html
+### endpoint\_html?
 
-• `Optional` **endpoint\_html**: `string`
+> **`optional`** **endpoint\_html**: `string`
 
 URL for collecting the results of the Apple App Reviews HTML task
 if HTML tasks are not supported in the specified endpoint, the value will be null
 
-#### Defined in
+#### Source
 
 main.ts:191538
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
-#### Defined in
+#### Source
 
 main.ts:191527
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 
-#### Defined in
+#### Source
 
 main.ts:191529
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
-#### Defined in
+#### Source
 
 main.ts:191533

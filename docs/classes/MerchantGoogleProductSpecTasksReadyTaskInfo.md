@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MerchantGoogleProductSpecTasksReadyTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / MerchantGoogleProductSpecTasksReadyTaskInfo
 
 # Class: MerchantGoogleProductSpecTasksReadyTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`MerchantGoogleProductSpecTasksReadyTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](MerchantGoogleProductSpecTasksReadyTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](MerchantGoogleProductSpecTasksReadyTaskInfo.md#cost)
-- [data](MerchantGoogleProductSpecTasksReadyTaskInfo.md#data)
-- [id](MerchantGoogleProductSpecTasksReadyTaskInfo.md#id)
-- [path](MerchantGoogleProductSpecTasksReadyTaskInfo.md#path)
-- [result](MerchantGoogleProductSpecTasksReadyTaskInfo.md#result)
-- [result\_count](MerchantGoogleProductSpecTasksReadyTaskInfo.md#result_count)
-- [status\_code](MerchantGoogleProductSpecTasksReadyTaskInfo.md#status_code)
-- [status\_message](MerchantGoogleProductSpecTasksReadyTaskInfo.md#status_message)
-- [time](MerchantGoogleProductSpecTasksReadyTaskInfo.md#time)
-
-### Methods
-
-- [init](MerchantGoogleProductSpecTasksReadyTaskInfo.md#init)
-- [toJSON](MerchantGoogleProductSpecTasksReadyTaskInfo.md#tojson)
-- [fromJS](MerchantGoogleProductSpecTasksReadyTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new MerchantGoogleProductSpecTasksReadyTaskInfo(data)
 
-• **new MerchantGoogleProductSpecTasksReadyTaskInfo**(`data?`): [`MerchantGoogleProductSpecTasksReadyTaskInfo`](MerchantGoogleProductSpecTasksReadyTaskInfo.md)
+> **new MerchantGoogleProductSpecTasksReadyTaskInfo**(`data`?): [`MerchantGoogleProductSpecTasksReadyTaskInfo`](MerchantGoogleProductSpecTasksReadyTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IMerchantGoogleProductSpecTasksReadyTaskInfo`](../interfaces/IMerchantGoogleProductSpecTasksReadyTaskInfo.md) |
+• **data?**: [`IMerchantGoogleProductSpecTasksReadyTaskInfo`](../interfaces/IMerchantGoogleProductSpecTasksReadyTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:173182
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IMerchantGoogleProductSpecTasksReadyTaskInfo](../interfaces/IMerchantGoogleProductSpecTasksReadyTaskInfo.md).[cost](../interfaces/IMerchantGoogleProductSpecTasksReadyTaskInfo.md#cost)
+[`IMerchantGoogleProductSpecTasksReadyTaskInfo`](../interfaces/IMerchantGoogleProductSpecTasksReadyTaskInfo.md).[`cost`](../interfaces/IMerchantGoogleProductSpecTasksReadyTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[IMerchantGoogleProductSpecTasksReadyTaskInfo](../interfaces/IMerchantGoogleProductSpecTasksReadyTaskInfo.md).[data](../interfaces/IMerchantGoogleProductSpecTasksReadyTaskInfo.md#data)
+[`IMerchantGoogleProductSpecTasksReadyTaskInfo`](../interfaces/IMerchantGoogleProductSpecTasksReadyTaskInfo.md).[`data`](../interfaces/IMerchantGoogleProductSpecTasksReadyTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IMerchantGoogleProductSpecTasksReadyTaskInfo](../interfaces/IMerchantGoogleProductSpecTasksReadyTaskInfo.md).[id](../interfaces/IMerchantGoogleProductSpecTasksReadyTaskInfo.md#id)
+[`IMerchantGoogleProductSpecTasksReadyTaskInfo`](../interfaces/IMerchantGoogleProductSpecTasksReadyTaskInfo.md).[`id`](../interfaces/IMerchantGoogleProductSpecTasksReadyTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[IMerchantGoogleProductSpecTasksReadyTaskInfo](../interfaces/IMerchantGoogleProductSpecTasksReadyTaskInfo.md).[path](../interfaces/IMerchantGoogleProductSpecTasksReadyTaskInfo.md#path)
+[`IMerchantGoogleProductSpecTasksReadyTaskInfo`](../interfaces/IMerchantGoogleProductSpecTasksReadyTaskInfo.md).[`path`](../interfaces/IMerchantGoogleProductSpecTasksReadyTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`MerchantGoogleProductSpecTasksReadyResultInfo`](MerchantGoogleProductSpecTasksReadyResultInfo.md)[]
+> **`optional`** **result**: [`MerchantGoogleProductSpecTasksReadyResultInfo`](MerchantGoogleProductSpecTasksReadyResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[IMerchantGoogleProductSpecTasksReadyTaskInfo](../interfaces/IMerchantGoogleProductSpecTasksReadyTaskInfo.md).[result](../interfaces/IMerchantGoogleProductSpecTasksReadyTaskInfo.md#result)
+[`IMerchantGoogleProductSpecTasksReadyTaskInfo`](../interfaces/IMerchantGoogleProductSpecTasksReadyTaskInfo.md).[`result`](../interfaces/IMerchantGoogleProductSpecTasksReadyTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
 main.ts:173178
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[IMerchantGoogleProductSpecTasksReadyTaskInfo](../interfaces/IMerchantGoogleProductSpecTasksReadyTaskInfo.md).[result_count](../interfaces/IMerchantGoogleProductSpecTasksReadyTaskInfo.md#result_count)
+[`IMerchantGoogleProductSpecTasksReadyTaskInfo`](../interfaces/IMerchantGoogleProductSpecTasksReadyTaskInfo.md).[`result_count`](../interfaces/IMerchantGoogleProductSpecTasksReadyTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[IMerchantGoogleProductSpecTasksReadyTaskInfo](../interfaces/IMerchantGoogleProductSpecTasksReadyTaskInfo.md).[status_code](../interfaces/IMerchantGoogleProductSpecTasksReadyTaskInfo.md#status_code)
+[`IMerchantGoogleProductSpecTasksReadyTaskInfo`](../interfaces/IMerchantGoogleProductSpecTasksReadyTaskInfo.md).[`status_code`](../interfaces/IMerchantGoogleProductSpecTasksReadyTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IMerchantGoogleProductSpecTasksReadyTaskInfo](../interfaces/IMerchantGoogleProductSpecTasksReadyTaskInfo.md).[status_message](../interfaces/IMerchantGoogleProductSpecTasksReadyTaskInfo.md#status_message)
+[`IMerchantGoogleProductSpecTasksReadyTaskInfo`](../interfaces/IMerchantGoogleProductSpecTasksReadyTaskInfo.md).[`status_message`](../interfaces/IMerchantGoogleProductSpecTasksReadyTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[IMerchantGoogleProductSpecTasksReadyTaskInfo](../interfaces/IMerchantGoogleProductSpecTasksReadyTaskInfo.md).[time](../interfaces/IMerchantGoogleProductSpecTasksReadyTaskInfo.md#time)
+[`IMerchantGoogleProductSpecTasksReadyTaskInfo`](../interfaces/IMerchantGoogleProductSpecTasksReadyTaskInfo.md).[`time`](../interfaces/IMerchantGoogleProductSpecTasksReadyTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:173186
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:173208
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`MerchantGoogleProductSpecTasksReadyTaskInfo`](MerchantGoogleProductSpecTasksReadyTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`MerchantGoogleProductSpecTasksReadyTaskInfo`](MerchantGoogleProductSpecTasksReadyTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:173201

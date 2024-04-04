@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / GooglePlayMetricsBundleInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / GooglePlayMetricsBundleInfo
 
 # Class: GooglePlayMetricsBundleInfo
 
@@ -8,116 +12,92 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](GooglePlayMetricsBundleInfo.md#constructor)
-
-### Properties
-
-- [google\_play\_search\_organic](GooglePlayMetricsBundleInfo.md#google_play_search_organic)
-
-### Methods
-
-- [init](GooglePlayMetricsBundleInfo.md#init)
-- [toJSON](GooglePlayMetricsBundleInfo.md#tojson)
-- [fromJS](GooglePlayMetricsBundleInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new GooglePlayMetricsBundleInfo(data)
 
-• **new GooglePlayMetricsBundleInfo**(`data?`): [`GooglePlayMetricsBundleInfo`](GooglePlayMetricsBundleInfo.md)
+> **new GooglePlayMetricsBundleInfo**(`data`?): [`GooglePlayMetricsBundleInfo`](GooglePlayMetricsBundleInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IGooglePlayMetricsBundleInfo`](../interfaces/IGooglePlayMetricsBundleInfo.md) |
+• **data?**: [`IGooglePlayMetricsBundleInfo`](../interfaces/IGooglePlayMetricsBundleInfo.md)
 
 #### Returns
 
 [`GooglePlayMetricsBundleInfo`](GooglePlayMetricsBundleInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:111617
+main.ts:111625
 
 ## Properties
 
-### google\_play\_search\_organic
+### google\_play\_search\_organic?
 
-• `Optional` **google\_play\_search\_organic**: [`AppMetricsInfo`](AppMetricsInfo.md)
+> **`optional`** **google\_play\_search\_organic**: [`AppMetricsInfo`](AppMetricsInfo.md)
 
 ranking data from Google Play organic search
 
 #### Implementation of
 
-[IGooglePlayMetricsBundleInfo](../interfaces/IGooglePlayMetricsBundleInfo.md).[google_play_search_organic](../interfaces/IGooglePlayMetricsBundleInfo.md#google_play_search_organic)
+[`IGooglePlayMetricsBundleInfo`](../interfaces/IGooglePlayMetricsBundleInfo.md).[`google_play_search_organic`](../interfaces/IGooglePlayMetricsBundleInfo.md#google_play_search_organic)
 
-#### Defined in
+#### Source
 
-main.ts:111613
+main.ts:111621
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:111626
+main.ts:111634
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:111643
+main.ts:111651
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`GooglePlayMetricsBundleInfo`](GooglePlayMetricsBundleInfo.md)
+> **`static`** **fromJS**(`data`): [`GooglePlayMetricsBundleInfo`](GooglePlayMetricsBundleInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`GooglePlayMetricsBundleInfo`](GooglePlayMetricsBundleInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:111636
+main.ts:111644

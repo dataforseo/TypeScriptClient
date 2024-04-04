@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpBingLocalPackLiveRegularTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpBingLocalPackLiveRegularTaskInfo
 
 # Class: SerpBingLocalPackLiveRegularTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`SerpBingLocalPackLiveRegularTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpBingLocalPackLiveRegularTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](SerpBingLocalPackLiveRegularTaskInfo.md#cost)
-- [data](SerpBingLocalPackLiveRegularTaskInfo.md#data)
-- [id](SerpBingLocalPackLiveRegularTaskInfo.md#id)
-- [path](SerpBingLocalPackLiveRegularTaskInfo.md#path)
-- [result](SerpBingLocalPackLiveRegularTaskInfo.md#result)
-- [result\_count](SerpBingLocalPackLiveRegularTaskInfo.md#result_count)
-- [status\_code](SerpBingLocalPackLiveRegularTaskInfo.md#status_code)
-- [status\_message](SerpBingLocalPackLiveRegularTaskInfo.md#status_message)
-- [time](SerpBingLocalPackLiveRegularTaskInfo.md#time)
-
-### Methods
-
-- [init](SerpBingLocalPackLiveRegularTaskInfo.md#init)
-- [toJSON](SerpBingLocalPackLiveRegularTaskInfo.md#tojson)
-- [fromJS](SerpBingLocalPackLiveRegularTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpBingLocalPackLiveRegularTaskInfo(data)
 
-• **new SerpBingLocalPackLiveRegularTaskInfo**(`data?`): [`SerpBingLocalPackLiveRegularTaskInfo`](SerpBingLocalPackLiveRegularTaskInfo.md)
+> **new SerpBingLocalPackLiveRegularTaskInfo**(`data`?): [`SerpBingLocalPackLiveRegularTaskInfo`](SerpBingLocalPackLiveRegularTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpBingLocalPackLiveRegularTaskInfo`](../interfaces/ISerpBingLocalPackLiveRegularTaskInfo.md) |
+• **data?**: [`ISerpBingLocalPackLiveRegularTaskInfo`](../interfaces/ISerpBingLocalPackLiveRegularTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:59223
+main.ts:59231
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[ISerpBingLocalPackLiveRegularTaskInfo](../interfaces/ISerpBingLocalPackLiveRegularTaskInfo.md).[cost](../interfaces/ISerpBingLocalPackLiveRegularTaskInfo.md#cost)
+[`ISerpBingLocalPackLiveRegularTaskInfo`](../interfaces/ISerpBingLocalPackLiveRegularTaskInfo.md).[`cost`](../interfaces/ISerpBingLocalPackLiveRegularTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[ISerpBingLocalPackLiveRegularTaskInfo](../interfaces/ISerpBingLocalPackLiveRegularTaskInfo.md).[data](../interfaces/ISerpBingLocalPackLiveRegularTaskInfo.md#data)
+[`ISerpBingLocalPackLiveRegularTaskInfo`](../interfaces/ISerpBingLocalPackLiveRegularTaskInfo.md).[`data`](../interfaces/ISerpBingLocalPackLiveRegularTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[ISerpBingLocalPackLiveRegularTaskInfo](../interfaces/ISerpBingLocalPackLiveRegularTaskInfo.md).[id](../interfaces/ISerpBingLocalPackLiveRegularTaskInfo.md#id)
+[`ISerpBingLocalPackLiveRegularTaskInfo`](../interfaces/ISerpBingLocalPackLiveRegularTaskInfo.md).[`id`](../interfaces/ISerpBingLocalPackLiveRegularTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[ISerpBingLocalPackLiveRegularTaskInfo](../interfaces/ISerpBingLocalPackLiveRegularTaskInfo.md).[path](../interfaces/ISerpBingLocalPackLiveRegularTaskInfo.md#path)
+[`ISerpBingLocalPackLiveRegularTaskInfo`](../interfaces/ISerpBingLocalPackLiveRegularTaskInfo.md).[`path`](../interfaces/ISerpBingLocalPackLiveRegularTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`SerpBingLocalPackLiveRegularResultInfo`](SerpBingLocalPackLiveRegularResultInfo.md)[]
+> **`optional`** **result**: [`SerpBingLocalPackLiveRegularResultInfo`](SerpBingLocalPackLiveRegularResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[ISerpBingLocalPackLiveRegularTaskInfo](../interfaces/ISerpBingLocalPackLiveRegularTaskInfo.md).[result](../interfaces/ISerpBingLocalPackLiveRegularTaskInfo.md#result)
+[`ISerpBingLocalPackLiveRegularTaskInfo`](../interfaces/ISerpBingLocalPackLiveRegularTaskInfo.md).[`result`](../interfaces/ISerpBingLocalPackLiveRegularTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:59219
+main.ts:59227
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[ISerpBingLocalPackLiveRegularTaskInfo](../interfaces/ISerpBingLocalPackLiveRegularTaskInfo.md).[result_count](../interfaces/ISerpBingLocalPackLiveRegularTaskInfo.md#result_count)
+[`ISerpBingLocalPackLiveRegularTaskInfo`](../interfaces/ISerpBingLocalPackLiveRegularTaskInfo.md).[`result_count`](../interfaces/ISerpBingLocalPackLiveRegularTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[ISerpBingLocalPackLiveRegularTaskInfo](../interfaces/ISerpBingLocalPackLiveRegularTaskInfo.md).[status_code](../interfaces/ISerpBingLocalPackLiveRegularTaskInfo.md#status_code)
+[`ISerpBingLocalPackLiveRegularTaskInfo`](../interfaces/ISerpBingLocalPackLiveRegularTaskInfo.md).[`status_code`](../interfaces/ISerpBingLocalPackLiveRegularTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[ISerpBingLocalPackLiveRegularTaskInfo](../interfaces/ISerpBingLocalPackLiveRegularTaskInfo.md).[status_message](../interfaces/ISerpBingLocalPackLiveRegularTaskInfo.md#status_message)
+[`ISerpBingLocalPackLiveRegularTaskInfo`](../interfaces/ISerpBingLocalPackLiveRegularTaskInfo.md).[`status_message`](../interfaces/ISerpBingLocalPackLiveRegularTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[ISerpBingLocalPackLiveRegularTaskInfo](../interfaces/ISerpBingLocalPackLiveRegularTaskInfo.md).[time](../interfaces/ISerpBingLocalPackLiveRegularTaskInfo.md#time)
+[`ISerpBingLocalPackLiveRegularTaskInfo`](../interfaces/ISerpBingLocalPackLiveRegularTaskInfo.md).[`time`](../interfaces/ISerpBingLocalPackLiveRegularTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:59227
+main.ts:59235
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:59249
+main.ts:59257
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpBingLocalPackLiveRegularTaskInfo`](SerpBingLocalPackLiveRegularTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpBingLocalPackLiveRegularTaskInfo`](SerpBingLocalPackLiveRegularTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:59242
+main.ts:59250

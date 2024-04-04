@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataAppleCategoriesResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppDataAppleCategoriesResultInfo
 
 # Class: AppDataAppleCategoriesResultInfo
 
@@ -8,116 +12,92 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppDataAppleCategoriesResultInfo.md#constructor)
-
-### Properties
-
-- [categories](AppDataAppleCategoriesResultInfo.md#categories)
-
-### Methods
-
-- [init](AppDataAppleCategoriesResultInfo.md#init)
-- [toJSON](AppDataAppleCategoriesResultInfo.md#tojson)
-- [fromJS](AppDataAppleCategoriesResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppDataAppleCategoriesResultInfo(data)
 
-• **new AppDataAppleCategoriesResultInfo**(`data?`): [`AppDataAppleCategoriesResultInfo`](AppDataAppleCategoriesResultInfo.md)
+> **new AppDataAppleCategoriesResultInfo**(`data`?): [`AppDataAppleCategoriesResultInfo`](AppDataAppleCategoriesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppDataAppleCategoriesResultInfo`](../interfaces/IAppDataAppleCategoriesResultInfo.md) |
+• **data?**: [`IAppDataAppleCategoriesResultInfo`](../interfaces/IAppDataAppleCategoriesResultInfo.md)
 
 #### Returns
 
 [`AppDataAppleCategoriesResultInfo`](AppDataAppleCategoriesResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:188021
 
 ## Properties
 
-### categories
+### categories?
 
-• `Optional` **categories**: `string`[]
+> **`optional`** **categories**: `string`[]
 
 contains full list of supported app categories
 
 #### Implementation of
 
-[IAppDataAppleCategoriesResultInfo](../interfaces/IAppDataAppleCategoriesResultInfo.md).[categories](../interfaces/IAppDataAppleCategoriesResultInfo.md#categories)
+[`IAppDataAppleCategoriesResultInfo`](../interfaces/IAppDataAppleCategoriesResultInfo.md).[`categories`](../interfaces/IAppDataAppleCategoriesResultInfo.md#categories)
 
-#### Defined in
+#### Source
 
 main.ts:188017
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:188030
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:188051
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppDataAppleCategoriesResultInfo`](AppDataAppleCategoriesResultInfo.md)
+> **`static`** **fromJS**(`data`): [`AppDataAppleCategoriesResultInfo`](AppDataAppleCategoriesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppDataAppleCategoriesResultInfo`](AppDataAppleCategoriesResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:188044

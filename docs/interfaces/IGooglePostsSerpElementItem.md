@@ -1,135 +1,120 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IGooglePostsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IGooglePostsSerpElementItem
 
 # Interface: IGooglePostsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
 
-  ↳ **`IGooglePostsSerpElementItem`**
-
-## Implemented by
-
-- [`GooglePostsSerpElementItem`](../classes/GooglePostsSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [cid](IGooglePostsSerpElementItem.md#cid)
-- [feature](IGooglePostsSerpElementItem.md#feature)
-- [position](IGooglePostsSerpElementItem.md#position)
-- [posts\_id](IGooglePostsSerpElementItem.md#posts_id)
-- [rank\_absolute](IGooglePostsSerpElementItem.md#rank_absolute)
-- [rank\_group](IGooglePostsSerpElementItem.md#rank_group)
-- [rectangle](IGooglePostsSerpElementItem.md#rectangle)
-- [xpath](IGooglePostsSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### cid
+### cid?
 
-• `Optional` **cid**: `string`
+> **`optional`** **cid**: `string`
 
 google-defined client id
 
-#### Defined in
+#### Source
 
-main.ts:35338
+main.ts:35344
 
-___
+***
 
-### feature
+### feature?
 
-• `Optional` **feature**: `string`
+> **`optional`** **feature**: `string`
 
 the additional feature of the review
 
-#### Defined in
+#### Source
 
-main.ts:35336
+main.ts:35342
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
-main.ts:35330
+main.ts:35336
 
-___
+***
 
-### posts\_id
+### posts\_id?
 
-• `Optional` **posts\_id**: `string`
+> **`optional`** **posts\_id**: `string`
 
 the identifier of the google_posts feature
 
-#### Defined in
+#### Source
 
-main.ts:35334
+main.ts:35340
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop
 
-#### Defined in
+#### Source
 
-main.ts:35326
+main.ts:35332
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
 positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop
 
-#### Defined in
+#### Source
 
-main.ts:35322
+main.ts:35328
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
 equals null if calculate_rectangles in the POST request is not set to true
 
-#### Defined in
+#### Source
 
-main.ts:35342
+main.ts:35348
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
-main.ts:35332
+main.ts:35338

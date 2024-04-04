@@ -1,56 +1,48 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ICrawlStatusInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ICrawlStatusInfo
 
 # Interface: ICrawlStatusInfo
 
-## Implemented by
-
-- [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [max\_crawl\_pages](ICrawlStatusInfo.md#max_crawl_pages)
-- [pages\_crawled](ICrawlStatusInfo.md#pages_crawled)
-- [pages\_in\_queue](ICrawlStatusInfo.md#pages_in_queue)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### max\_crawl\_pages
+### max\_crawl\_pages?
 
-• `Optional` **max\_crawl\_pages**: `number`
+> **`optional`** **max\_crawl\_pages**: `number`
 
 maximum number of pages to crawl
 indicates the max_crawl_pages limit you specified when setting a task
 
-#### Defined in
+#### Source
 
 main.ts:21491
 
-___
+***
 
-### pages\_crawled
+### pages\_crawled?
 
-• `Optional` **pages\_crawled**: `number`
+> **`optional`** **pages\_crawled**: `number`
 
 number of crawled pages
 
-#### Defined in
+#### Source
 
 main.ts:21495
 
-___
+***
 
-### pages\_in\_queue
+### pages\_in\_queue?
 
-• `Optional` **pages\_in\_queue**: `number`
+> **`optional`** **pages\_in\_queue**: `number`
 
 number of pages that are currently in the crawling queue
 
-#### Defined in
+#### Source
 
 main.ts:21493

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixTaskGetPriceDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppendixTaskGetPriceDataInfo
 
 # Class: AppendixTaskGetPriceDataInfo
 
@@ -8,114 +12,90 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixTaskGetPriceDataInfo.md#constructor)
-
-### Properties
-
-- [advanced](AppendixTaskGetPriceDataInfo.md#advanced)
-
-### Methods
-
-- [init](AppendixTaskGetPriceDataInfo.md#init)
-- [toJSON](AppendixTaskGetPriceDataInfo.md#tojson)
-- [fromJS](AppendixTaskGetPriceDataInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixTaskGetPriceDataInfo(data)
 
-• **new AppendixTaskGetPriceDataInfo**(`data?`): [`AppendixTaskGetPriceDataInfo`](AppendixTaskGetPriceDataInfo.md)
+> **new AppendixTaskGetPriceDataInfo**(`data`?): [`AppendixTaskGetPriceDataInfo`](AppendixTaskGetPriceDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixTaskGetPriceDataInfo`](../interfaces/IAppendixTaskGetPriceDataInfo.md) |
+• **data?**: [`IAppendixTaskGetPriceDataInfo`](../interfaces/IAppendixTaskGetPriceDataInfo.md)
 
 #### Returns
 
 [`AppendixTaskGetPriceDataInfo`](AppendixTaskGetPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:215688
 
 ## Properties
 
-### advanced
+### advanced?
 
-• `Optional` **advanced**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **advanced**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixTaskGetPriceDataInfo](../interfaces/IAppendixTaskGetPriceDataInfo.md).[advanced](../interfaces/IAppendixTaskGetPriceDataInfo.md#advanced)
+[`IAppendixTaskGetPriceDataInfo`](../interfaces/IAppendixTaskGetPriceDataInfo.md).[`advanced`](../interfaces/IAppendixTaskGetPriceDataInfo.md#advanced)
 
-#### Defined in
+#### Source
 
 main.ts:215684
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:215697
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:215714
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppendixTaskGetPriceDataInfo`](AppendixTaskGetPriceDataInfo.md)
+> **`static`** **fromJS**(`data`): [`AppendixTaskGetPriceDataInfo`](AppendixTaskGetPriceDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppendixTaskGetPriceDataInfo`](AppendixTaskGetPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:215707

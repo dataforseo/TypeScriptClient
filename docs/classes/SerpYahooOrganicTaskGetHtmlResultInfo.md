@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpYahooOrganicTaskGetHtmlResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpYahooOrganicTaskGetHtmlResultInfo
 
 # Class: SerpYahooOrganicTaskGetHtmlResultInfo
 
@@ -8,56 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpYahooOrganicTaskGetHtmlResultInfo.md#constructor)
-
-### Properties
-
-- [datetime](SerpYahooOrganicTaskGetHtmlResultInfo.md#datetime)
-- [items](SerpYahooOrganicTaskGetHtmlResultInfo.md#items)
-- [items\_count](SerpYahooOrganicTaskGetHtmlResultInfo.md#items_count)
-- [keyword](SerpYahooOrganicTaskGetHtmlResultInfo.md#keyword)
-- [language\_code](SerpYahooOrganicTaskGetHtmlResultInfo.md#language_code)
-- [location\_code](SerpYahooOrganicTaskGetHtmlResultInfo.md#location_code)
-- [se\_domain](SerpYahooOrganicTaskGetHtmlResultInfo.md#se_domain)
-- [type](SerpYahooOrganicTaskGetHtmlResultInfo.md#type)
-
-### Methods
-
-- [init](SerpYahooOrganicTaskGetHtmlResultInfo.md#init)
-- [toJSON](SerpYahooOrganicTaskGetHtmlResultInfo.md#tojson)
-- [fromJS](SerpYahooOrganicTaskGetHtmlResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpYahooOrganicTaskGetHtmlResultInfo(data)
 
-• **new SerpYahooOrganicTaskGetHtmlResultInfo**(`data?`): [`SerpYahooOrganicTaskGetHtmlResultInfo`](SerpYahooOrganicTaskGetHtmlResultInfo.md)
+> **new SerpYahooOrganicTaskGetHtmlResultInfo**(`data`?): [`SerpYahooOrganicTaskGetHtmlResultInfo`](SerpYahooOrganicTaskGetHtmlResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpYahooOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpYahooOrganicTaskGetHtmlResultInfo.md) |
+• **data?**: [`ISerpYahooOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpYahooOrganicTaskGetHtmlResultInfo.md)
 
 #### Returns
 
 [`SerpYahooOrganicTaskGetHtmlResultInfo`](SerpYahooOrganicTaskGetHtmlResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:66645
+main.ts:66653
 
 ## Properties
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -66,181 +45,175 @@ example:
 
 #### Implementation of
 
-[ISerpYahooOrganicTaskGetHtmlResultInfo](../interfaces/ISerpYahooOrganicTaskGetHtmlResultInfo.md).[datetime](../interfaces/ISerpYahooOrganicTaskGetHtmlResultInfo.md#datetime)
+[`ISerpYahooOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpYahooOrganicTaskGetHtmlResultInfo.md).[`datetime`](../interfaces/ISerpYahooOrganicTaskGetHtmlResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
-main.ts:66637
+main.ts:66645
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`HtmlItem`](HtmlItem.md)[]
+> **`optional`** **items**: [`HtmlItem`](HtmlItem.md)[]
 
 elements of search results found in SERP
 
 #### Implementation of
 
-[ISerpYahooOrganicTaskGetHtmlResultInfo](../interfaces/ISerpYahooOrganicTaskGetHtmlResultInfo.md).[items](../interfaces/ISerpYahooOrganicTaskGetHtmlResultInfo.md#items)
+[`ISerpYahooOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpYahooOrganicTaskGetHtmlResultInfo.md).[`items`](../interfaces/ISerpYahooOrganicTaskGetHtmlResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:66641
+main.ts:66649
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[ISerpYahooOrganicTaskGetHtmlResultInfo](../interfaces/ISerpYahooOrganicTaskGetHtmlResultInfo.md).[items_count](../interfaces/ISerpYahooOrganicTaskGetHtmlResultInfo.md#items_count)
+[`ISerpYahooOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpYahooOrganicTaskGetHtmlResultInfo.md).[`items_count`](../interfaces/ISerpYahooOrganicTaskGetHtmlResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:66639
+main.ts:66647
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
-[ISerpYahooOrganicTaskGetHtmlResultInfo](../interfaces/ISerpYahooOrganicTaskGetHtmlResultInfo.md).[keyword](../interfaces/ISerpYahooOrganicTaskGetHtmlResultInfo.md#keyword)
+[`ISerpYahooOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpYahooOrganicTaskGetHtmlResultInfo.md).[`keyword`](../interfaces/ISerpYahooOrganicTaskGetHtmlResultInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:66624
+main.ts:66632
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[ISerpYahooOrganicTaskGetHtmlResultInfo](../interfaces/ISerpYahooOrganicTaskGetHtmlResultInfo.md).[language_code](../interfaces/ISerpYahooOrganicTaskGetHtmlResultInfo.md#language_code)
+[`ISerpYahooOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpYahooOrganicTaskGetHtmlResultInfo.md).[`language_code`](../interfaces/ISerpYahooOrganicTaskGetHtmlResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:66632
+main.ts:66640
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[ISerpYahooOrganicTaskGetHtmlResultInfo](../interfaces/ISerpYahooOrganicTaskGetHtmlResultInfo.md).[location_code](../interfaces/ISerpYahooOrganicTaskGetHtmlResultInfo.md#location_code)
+[`ISerpYahooOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpYahooOrganicTaskGetHtmlResultInfo.md).[`location_code`](../interfaces/ISerpYahooOrganicTaskGetHtmlResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:66630
+main.ts:66638
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
 #### Implementation of
 
-[ISerpYahooOrganicTaskGetHtmlResultInfo](../interfaces/ISerpYahooOrganicTaskGetHtmlResultInfo.md).[se_domain](../interfaces/ISerpYahooOrganicTaskGetHtmlResultInfo.md#se_domain)
+[`ISerpYahooOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpYahooOrganicTaskGetHtmlResultInfo.md).[`se_domain`](../interfaces/ISerpYahooOrganicTaskGetHtmlResultInfo.md#se_domain)
 
-#### Defined in
+#### Source
 
-main.ts:66628
+main.ts:66636
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[ISerpYahooOrganicTaskGetHtmlResultInfo](../interfaces/ISerpYahooOrganicTaskGetHtmlResultInfo.md).[type](../interfaces/ISerpYahooOrganicTaskGetHtmlResultInfo.md#type)
+[`ISerpYahooOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpYahooOrganicTaskGetHtmlResultInfo.md).[`type`](../interfaces/ISerpYahooOrganicTaskGetHtmlResultInfo.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:66626
+main.ts:66634
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:66654
+main.ts:66662
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:66682
+main.ts:66690
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpYahooOrganicTaskGetHtmlResultInfo`](SerpYahooOrganicTaskGetHtmlResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpYahooOrganicTaskGetHtmlResultInfo`](SerpYahooOrganicTaskGetHtmlResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpYahooOrganicTaskGetHtmlResultInfo`](SerpYahooOrganicTaskGetHtmlResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:66675
+main.ts:66683

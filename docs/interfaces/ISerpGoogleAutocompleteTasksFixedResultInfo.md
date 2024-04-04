@@ -1,125 +1,112 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpGoogleAutocompleteTasksFixedResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ISerpGoogleAutocompleteTasksFixedResultInfo
 
 # Interface: ISerpGoogleAutocompleteTasksFixedResultInfo
 
-## Implemented by
-
-- [`SerpGoogleAutocompleteTasksFixedResultInfo`](../classes/SerpGoogleAutocompleteTasksFixedResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [date\_fixed](ISerpGoogleAutocompleteTasksFixedResultInfo.md#date_fixed)
-- [endpoint\_advanced](ISerpGoogleAutocompleteTasksFixedResultInfo.md#endpoint_advanced)
-- [endpoint\_html](ISerpGoogleAutocompleteTasksFixedResultInfo.md#endpoint_html)
-- [endpoint\_regular](ISerpGoogleAutocompleteTasksFixedResultInfo.md#endpoint_regular)
-- [id](ISerpGoogleAutocompleteTasksFixedResultInfo.md#id)
-- [se](ISerpGoogleAutocompleteTasksFixedResultInfo.md#se)
-- [se\_type](ISerpGoogleAutocompleteTasksFixedResultInfo.md#se_type)
-- [tag](ISerpGoogleAutocompleteTasksFixedResultInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### date\_fixed
+### date\_fixed?
 
-• `Optional` **date\_fixed**: `string`
+> **`optional`** **date\_fixed**: `string`
 
 date when the task was fixed (in the UTC format)
 
-#### Defined in
+#### Source
 
-main.ts:51173
+main.ts:51181
 
-___
+***
 
-### endpoint\_advanced
+### endpoint\_advanced?
 
-• `Optional` **endpoint\_advanced**: `string`
+> **`optional`** **endpoint\_advanced**: `string`
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
 
-#### Defined in
+#### Source
 
-main.ts:51181
+main.ts:51189
 
-___
+***
 
-### endpoint\_html
+### endpoint\_html?
 
-• `Optional` **endpoint\_html**: `string`
+> **`optional`** **endpoint\_html**: `string`
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
 
-#### Defined in
+#### Source
 
-main.ts:51184
+main.ts:51192
 
-___
+***
 
-### endpoint\_regular
+### endpoint\_regular?
 
-• `Optional` **endpoint\_regular**: `string`
+> **`optional`** **endpoint\_regular**: `string`
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
 
-#### Defined in
+#### Source
 
-main.ts:51178
+main.ts:51186
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
-#### Defined in
+#### Source
 
-main.ts:51166
+main.ts:51174
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 
-#### Defined in
+#### Source
 
-main.ts:51168
+main.ts:51176
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 type of search engine
 can take the following values: autocomplete
 
-#### Defined in
+#### Source
 
-main.ts:51171
+main.ts:51179
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
-#### Defined in
+#### Source
 
-main.ts:51175
+main.ts:51183

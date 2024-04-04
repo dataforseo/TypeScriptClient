@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / PageSectionContentInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / PageSectionContentInfo
 
 # Class: PageSectionContentInfo
 
@@ -8,135 +12,110 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](PageSectionContentInfo.md#constructor)
-
-### Properties
-
-- [primary\_content](PageSectionContentInfo.md#primary_content)
-- [secondary\_content](PageSectionContentInfo.md#secondary_content)
-
-### Methods
-
-- [init](PageSectionContentInfo.md#init)
-- [toJSON](PageSectionContentInfo.md#tojson)
-- [fromJS](PageSectionContentInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new PageSectionContentInfo(data)
 
-• **new PageSectionContentInfo**(`data?`): [`PageSectionContentInfo`](PageSectionContentInfo.md)
+> **new PageSectionContentInfo**(`data`?): [`PageSectionContentInfo`](PageSectionContentInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IPageSectionContentInfo`](../interfaces/IPageSectionContentInfo.md) |
+• **data?**: [`IPageSectionContentInfo`](../interfaces/IPageSectionContentInfo.md)
 
 #### Returns
 
 [`PageSectionContentInfo`](PageSectionContentInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:157448
+main.ts:157456
 
 ## Properties
 
-### primary\_content
+### primary\_content?
 
-• `Optional` **primary\_content**: [`ContentItemInfo`](ContentItemInfo.md)[]
+> **`optional`** **primary\_content**: [`ContentItemInfo`](ContentItemInfo.md)[]
 
 primary content on the page
 you can find more information about content priority calculation in this help center article
 
 #### Implementation of
 
-[IPageSectionContentInfo](../interfaces/IPageSectionContentInfo.md).[primary_content](../interfaces/IPageSectionContentInfo.md#primary_content)
+[`IPageSectionContentInfo`](../interfaces/IPageSectionContentInfo.md).[`primary_content`](../interfaces/IPageSectionContentInfo.md#primary_content)
 
-#### Defined in
+#### Source
 
-main.ts:157441
+main.ts:157449
 
-___
+***
 
-### secondary\_content
+### secondary\_content?
 
-• `Optional` **secondary\_content**: [`ContentItemInfo`](ContentItemInfo.md)[]
+> **`optional`** **secondary\_content**: [`ContentItemInfo`](ContentItemInfo.md)[]
 
 secondary content on the page
 you can find more information about content priority calculation in this help center article
 
 #### Implementation of
 
-[IPageSectionContentInfo](../interfaces/IPageSectionContentInfo.md).[secondary_content](../interfaces/IPageSectionContentInfo.md#secondary_content)
+[`IPageSectionContentInfo`](../interfaces/IPageSectionContentInfo.md).[`secondary_content`](../interfaces/IPageSectionContentInfo.md#secondary_content)
 
-#### Defined in
+#### Source
 
-main.ts:157444
+main.ts:157452
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:157457
+main.ts:157465
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:157483
+main.ts:157491
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`PageSectionContentInfo`](PageSectionContentInfo.md)
+> **`static`** **fromJS**(`data`): [`PageSectionContentInfo`](PageSectionContentInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`PageSectionContentInfo`](PageSectionContentInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:157476
+main.ts:157484

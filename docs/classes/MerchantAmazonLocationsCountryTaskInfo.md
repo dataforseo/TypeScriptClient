@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MerchantAmazonLocationsCountryTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / MerchantAmazonLocationsCountryTaskInfo
 
 # Class: MerchantAmazonLocationsCountryTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`MerchantAmazonLocationsCountryTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](MerchantAmazonLocationsCountryTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](MerchantAmazonLocationsCountryTaskInfo.md#cost)
-- [data](MerchantAmazonLocationsCountryTaskInfo.md#data)
-- [id](MerchantAmazonLocationsCountryTaskInfo.md#id)
-- [path](MerchantAmazonLocationsCountryTaskInfo.md#path)
-- [result](MerchantAmazonLocationsCountryTaskInfo.md#result)
-- [result\_count](MerchantAmazonLocationsCountryTaskInfo.md#result_count)
-- [status\_code](MerchantAmazonLocationsCountryTaskInfo.md#status_code)
-- [status\_message](MerchantAmazonLocationsCountryTaskInfo.md#status_message)
-- [time](MerchantAmazonLocationsCountryTaskInfo.md#time)
-
-### Methods
-
-- [init](MerchantAmazonLocationsCountryTaskInfo.md#init)
-- [toJSON](MerchantAmazonLocationsCountryTaskInfo.md#tojson)
-- [fromJS](MerchantAmazonLocationsCountryTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new MerchantAmazonLocationsCountryTaskInfo(data)
 
-• **new MerchantAmazonLocationsCountryTaskInfo**(`data?`): [`MerchantAmazonLocationsCountryTaskInfo`](MerchantAmazonLocationsCountryTaskInfo.md)
+> **new MerchantAmazonLocationsCountryTaskInfo**(`data`?): [`MerchantAmazonLocationsCountryTaskInfo`](MerchantAmazonLocationsCountryTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IMerchantAmazonLocationsCountryTaskInfo`](../interfaces/IMerchantAmazonLocationsCountryTaskInfo.md) |
+• **data?**: [`IMerchantAmazonLocationsCountryTaskInfo`](../interfaces/IMerchantAmazonLocationsCountryTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:175480
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IMerchantAmazonLocationsCountryTaskInfo](../interfaces/IMerchantAmazonLocationsCountryTaskInfo.md).[cost](../interfaces/IMerchantAmazonLocationsCountryTaskInfo.md#cost)
+[`IMerchantAmazonLocationsCountryTaskInfo`](../interfaces/IMerchantAmazonLocationsCountryTaskInfo.md).[`cost`](../interfaces/IMerchantAmazonLocationsCountryTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[IMerchantAmazonLocationsCountryTaskInfo](../interfaces/IMerchantAmazonLocationsCountryTaskInfo.md).[data](../interfaces/IMerchantAmazonLocationsCountryTaskInfo.md#data)
+[`IMerchantAmazonLocationsCountryTaskInfo`](../interfaces/IMerchantAmazonLocationsCountryTaskInfo.md).[`data`](../interfaces/IMerchantAmazonLocationsCountryTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IMerchantAmazonLocationsCountryTaskInfo](../interfaces/IMerchantAmazonLocationsCountryTaskInfo.md).[id](../interfaces/IMerchantAmazonLocationsCountryTaskInfo.md#id)
+[`IMerchantAmazonLocationsCountryTaskInfo`](../interfaces/IMerchantAmazonLocationsCountryTaskInfo.md).[`id`](../interfaces/IMerchantAmazonLocationsCountryTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[IMerchantAmazonLocationsCountryTaskInfo](../interfaces/IMerchantAmazonLocationsCountryTaskInfo.md).[path](../interfaces/IMerchantAmazonLocationsCountryTaskInfo.md#path)
+[`IMerchantAmazonLocationsCountryTaskInfo`](../interfaces/IMerchantAmazonLocationsCountryTaskInfo.md).[`path`](../interfaces/IMerchantAmazonLocationsCountryTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`MerchantAmazonLocationsCountryResultInfo`](MerchantAmazonLocationsCountryResultInfo.md)[]
+> **`optional`** **result**: [`MerchantAmazonLocationsCountryResultInfo`](MerchantAmazonLocationsCountryResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[IMerchantAmazonLocationsCountryTaskInfo](../interfaces/IMerchantAmazonLocationsCountryTaskInfo.md).[result](../interfaces/IMerchantAmazonLocationsCountryTaskInfo.md#result)
+[`IMerchantAmazonLocationsCountryTaskInfo`](../interfaces/IMerchantAmazonLocationsCountryTaskInfo.md).[`result`](../interfaces/IMerchantAmazonLocationsCountryTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
 main.ts:175476
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[IMerchantAmazonLocationsCountryTaskInfo](../interfaces/IMerchantAmazonLocationsCountryTaskInfo.md).[result_count](../interfaces/IMerchantAmazonLocationsCountryTaskInfo.md#result_count)
+[`IMerchantAmazonLocationsCountryTaskInfo`](../interfaces/IMerchantAmazonLocationsCountryTaskInfo.md).[`result_count`](../interfaces/IMerchantAmazonLocationsCountryTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[IMerchantAmazonLocationsCountryTaskInfo](../interfaces/IMerchantAmazonLocationsCountryTaskInfo.md).[status_code](../interfaces/IMerchantAmazonLocationsCountryTaskInfo.md#status_code)
+[`IMerchantAmazonLocationsCountryTaskInfo`](../interfaces/IMerchantAmazonLocationsCountryTaskInfo.md).[`status_code`](../interfaces/IMerchantAmazonLocationsCountryTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IMerchantAmazonLocationsCountryTaskInfo](../interfaces/IMerchantAmazonLocationsCountryTaskInfo.md).[status_message](../interfaces/IMerchantAmazonLocationsCountryTaskInfo.md#status_message)
+[`IMerchantAmazonLocationsCountryTaskInfo`](../interfaces/IMerchantAmazonLocationsCountryTaskInfo.md).[`status_message`](../interfaces/IMerchantAmazonLocationsCountryTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[IMerchantAmazonLocationsCountryTaskInfo](../interfaces/IMerchantAmazonLocationsCountryTaskInfo.md).[time](../interfaces/IMerchantAmazonLocationsCountryTaskInfo.md#time)
+[`IMerchantAmazonLocationsCountryTaskInfo`](../interfaces/IMerchantAmazonLocationsCountryTaskInfo.md).[`time`](../interfaces/IMerchantAmazonLocationsCountryTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:175484
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:175506
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`MerchantAmazonLocationsCountryTaskInfo`](MerchantAmazonLocationsCountryTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`MerchantAmazonLocationsCountryTaskInfo`](MerchantAmazonLocationsCountryTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:175499

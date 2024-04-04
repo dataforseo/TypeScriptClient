@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixBusinessListingsBusinessDataPriceData
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppendixBusinessListingsBusinessDataPriceData
 
 # Class: AppendixBusinessListingsBusinessDataPriceData
 
@@ -8,159 +12,132 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixBusinessListingsBusinessDataPriceData.md#constructor)
-
-### Properties
-
-- [categories](AppendixBusinessListingsBusinessDataPriceData.md#categories)
-- [categories\_aggregation](AppendixBusinessListingsBusinessDataPriceData.md#categories_aggregation)
-- [locations](AppendixBusinessListingsBusinessDataPriceData.md#locations)
-- [search](AppendixBusinessListingsBusinessDataPriceData.md#search)
-
-### Methods
-
-- [init](AppendixBusinessListingsBusinessDataPriceData.md#init)
-- [toJSON](AppendixBusinessListingsBusinessDataPriceData.md#tojson)
-- [fromJS](AppendixBusinessListingsBusinessDataPriceData.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixBusinessListingsBusinessDataPriceData(data)
 
-• **new AppendixBusinessListingsBusinessDataPriceData**(`data?`): [`AppendixBusinessListingsBusinessDataPriceData`](AppendixBusinessListingsBusinessDataPriceData.md)
+> **new AppendixBusinessListingsBusinessDataPriceData**(`data`?): [`AppendixBusinessListingsBusinessDataPriceData`](AppendixBusinessListingsBusinessDataPriceData.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixBusinessListingsBusinessDataPriceData`](../interfaces/IAppendixBusinessListingsBusinessDataPriceData.md) |
+• **data?**: [`IAppendixBusinessListingsBusinessDataPriceData`](../interfaces/IAppendixBusinessListingsBusinessDataPriceData.md)
 
 #### Returns
 
 [`AppendixBusinessListingsBusinessDataPriceData`](AppendixBusinessListingsBusinessDataPriceData.md)
 
-#### Defined in
+#### Source
 
 main.ts:216539
 
 ## Properties
 
-### categories
+### categories?
 
-• `Optional` **categories**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **categories**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixBusinessListingsBusinessDataPriceData](../interfaces/IAppendixBusinessListingsBusinessDataPriceData.md).[categories](../interfaces/IAppendixBusinessListingsBusinessDataPriceData.md#categories)
+[`IAppendixBusinessListingsBusinessDataPriceData`](../interfaces/IAppendixBusinessListingsBusinessDataPriceData.md).[`categories`](../interfaces/IAppendixBusinessListingsBusinessDataPriceData.md#categories)
 
-#### Defined in
+#### Source
 
 main.ts:216532
 
-___
+***
 
-### categories\_aggregation
+### categories\_aggregation?
 
-• `Optional` **categories\_aggregation**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **categories\_aggregation**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixBusinessListingsBusinessDataPriceData](../interfaces/IAppendixBusinessListingsBusinessDataPriceData.md).[categories_aggregation](../interfaces/IAppendixBusinessListingsBusinessDataPriceData.md#categories_aggregation)
+[`IAppendixBusinessListingsBusinessDataPriceData`](../interfaces/IAppendixBusinessListingsBusinessDataPriceData.md).[`categories_aggregation`](../interfaces/IAppendixBusinessListingsBusinessDataPriceData.md#categories_aggregation)
 
-#### Defined in
+#### Source
 
 main.ts:216533
 
-___
+***
 
-### locations
+### locations?
 
-• `Optional` **locations**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **locations**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixBusinessListingsBusinessDataPriceData](../interfaces/IAppendixBusinessListingsBusinessDataPriceData.md).[locations](../interfaces/IAppendixBusinessListingsBusinessDataPriceData.md#locations)
+[`IAppendixBusinessListingsBusinessDataPriceData`](../interfaces/IAppendixBusinessListingsBusinessDataPriceData.md).[`locations`](../interfaces/IAppendixBusinessListingsBusinessDataPriceData.md#locations)
 
-#### Defined in
+#### Source
 
 main.ts:216534
 
-___
+***
 
-### search
+### search?
 
-• `Optional` **search**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **search**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixBusinessListingsBusinessDataPriceData](../interfaces/IAppendixBusinessListingsBusinessDataPriceData.md).[search](../interfaces/IAppendixBusinessListingsBusinessDataPriceData.md#search)
+[`IAppendixBusinessListingsBusinessDataPriceData`](../interfaces/IAppendixBusinessListingsBusinessDataPriceData.md).[`search`](../interfaces/IAppendixBusinessListingsBusinessDataPriceData.md#search)
 
-#### Defined in
+#### Source
 
 main.ts:216535
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:216548
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:216568
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppendixBusinessListingsBusinessDataPriceData`](AppendixBusinessListingsBusinessDataPriceData.md)
+> **`static`** **fromJS**(`data`): [`AppendixBusinessListingsBusinessDataPriceData`](AppendixBusinessListingsBusinessDataPriceData.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppendixBusinessListingsBusinessDataPriceData`](AppendixBusinessListingsBusinessDataPriceData.md)
 
-#### Defined in
+#### Source
 
 main.ts:216561

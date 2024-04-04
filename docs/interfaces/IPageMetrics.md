@@ -1,168 +1,151 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IPageMetrics
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IPageMetrics
 
 # Interface: IPageMetrics
 
-## Implemented by
-
-- [`PageMetrics`](../classes/PageMetrics.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [broken\_links](IPageMetrics.md#broken_links)
-- [broken\_resources](IPageMetrics.md#broken_resources)
-- [checks](IPageMetrics.md#checks)
-- [duplicate\_content](IPageMetrics.md#duplicate_content)
-- [duplicate\_description](IPageMetrics.md#duplicate_description)
-- [duplicate\_title](IPageMetrics.md#duplicate_title)
-- [links\_external](IPageMetrics.md#links_external)
-- [links\_internal](IPageMetrics.md#links_internal)
-- [links\_relation\_conflict](IPageMetrics.md#links_relation_conflict)
-- [non\_indexable](IPageMetrics.md#non_indexable)
-- [onpage\_score](IPageMetrics.md#onpage_score)
-- [redirect\_loop](IPageMetrics.md#redirect_loop)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### broken\_links
+### broken\_links?
 
-• `Optional` **broken\_links**: `number`
+> **`optional`** **broken\_links**: `number`
 
 number of broken links
 number of broken links across all crawled pages on a target website
 
-#### Defined in
+#### Source
 
-main.ts:149068
+main.ts:149076
 
-___
+***
 
-### broken\_resources
+### broken\_resources?
 
-• `Optional` **broken\_resources**: `number`
+> **`optional`** **broken\_resources**: `number`
 
 number of broken resources
 the number of images and other resources with broken links
 
-#### Defined in
+#### Source
 
-main.ts:149071
+main.ts:149079
 
-___
+***
 
-### checks
+### checks?
 
-• `Optional` **checks**: `Object`
+> **`optional`** **checks**: `Object`
 
 page-specific on-page check-ups
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
-#### Defined in
+#### Source
 
-main.ts:149089
+main.ts:149097
 
-___
+***
 
-### duplicate\_content
+### duplicate\_content?
 
-• `Optional` **duplicate\_content**: `number`
+> **`optional`** **duplicate\_content**: `number`
 
 number of pages with duplicate content
 
-#### Defined in
+#### Source
 
-main.ts:149065
+main.ts:149073
 
-___
+***
 
-### duplicate\_description
+### duplicate\_description?
 
-• `Optional` **duplicate\_description**: `number`
+> **`optional`** **duplicate\_description**: `number`
 
 number of pages with duplicate descriptions
 
-#### Defined in
+#### Source
 
-main.ts:149063
+main.ts:149071
 
-___
+***
 
-### duplicate\_title
+### duplicate\_title?
 
-• `Optional` **duplicate\_title**: `number`
+> **`optional`** **duplicate\_title**: `number`
 
 number of pages with duplicate titles
 
-#### Defined in
+#### Source
 
-main.ts:149061
+main.ts:149069
 
-___
+***
 
-### links\_external
+### links\_external?
 
-• `Optional` **links\_external**: `number`
+> **`optional`** **links\_external**: `number`
 
 number of external links
 the number of links pointing to other websites
 
-#### Defined in
+#### Source
 
-main.ts:149056
+main.ts:149064
 
-___
+***
 
-### links\_internal
+### links\_internal?
 
-• `Optional` **links\_internal**: `number`
+> **`optional`** **links\_internal**: `number`
 
 number of internal links
 the number of links pointing to other pages within the target website
 
-#### Defined in
+#### Source
 
-main.ts:149059
+main.ts:149067
 
-___
+***
 
-### links\_relation\_conflict
+### links\_relation\_conflict?
 
-• `Optional` **links\_relation\_conflict**: `number`
+> **`optional`** **links\_relation\_conflict**: `number`
 
 number of links present on the target website that may have a conflict
 for example, if "links_relation_conflict": 2, the target website is referring to the same source by at least one internal link with the rel="nofollow" attribute and by at least one dofollow link
 
-#### Defined in
+#### Source
 
-main.ts:149074
+main.ts:149082
 
-___
+***
 
-### non\_indexable
+### non\_indexable?
 
-• `Optional` **non\_indexable**: `number`
+> **`optional`** **non\_indexable**: `number`
 
 number of non-indexable pages
 number of pages that are blocked from being indexed by Google and other search engines by robots.txt, HTTP headers, or meta tags settings;
 you can receive a list of non-indexable URLs using this endpoint
 
-#### Defined in
+#### Source
 
-main.ts:149087
+main.ts:149095
 
-___
+***
 
-### onpage\_score
+### onpage\_score?
 
-• `Optional` **onpage\_score**: `number`
+> **`optional`** **onpage\_score**: `number`
 
 shows how website is optimized on a 100-point scale
 this field shows how website is optimized considering critical on-page issues and warnings detected;
@@ -170,19 +153,19 @@ this field shows how website is optimized considering critical on-page issues an
 note that this value depends on the number of crawled pages;
 learn more about how the metric is calculated in this help center article
 
-#### Defined in
+#### Source
 
-main.ts:149083
+main.ts:149091
 
-___
+***
 
-### redirect\_loop
+### redirect\_loop?
 
-• `Optional` **redirect\_loop**: `number`
+> **`optional`** **redirect\_loop**: `number`
 
 number of redirect chains that start and end at the same URL
 number of redirect chains where the destination URL redirects back to the original URL
 
-#### Defined in
+#### Source
 
-main.ts:149077
+main.ts:149085

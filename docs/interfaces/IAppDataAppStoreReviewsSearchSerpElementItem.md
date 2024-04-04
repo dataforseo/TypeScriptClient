@@ -1,159 +1,142 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppDataAppStoreReviewsSearchSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppDataAppStoreReviewsSearchSerpElementItem
 
 # Interface: IAppDataAppStoreReviewsSearchSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md)
 
-  ↳ **`IAppDataAppStoreReviewsSearchSerpElementItem`**
-
-## Implemented by
-
-- [`AppDataAppStoreReviewsSearchSerpElementItem`](../classes/AppDataAppStoreReviewsSearchSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [id](IAppDataAppStoreReviewsSearchSerpElementItem.md#id)
-- [position](IAppDataAppStoreReviewsSearchSerpElementItem.md#position)
-- [rank\_absolute](IAppDataAppStoreReviewsSearchSerpElementItem.md#rank_absolute)
-- [rank\_group](IAppDataAppStoreReviewsSearchSerpElementItem.md#rank_group)
-- [rating](IAppDataAppStoreReviewsSearchSerpElementItem.md#rating)
-- [review\_text](IAppDataAppStoreReviewsSearchSerpElementItem.md#review_text)
-- [timestamp](IAppDataAppStoreReviewsSearchSerpElementItem.md#timestamp)
-- [title](IAppDataAppStoreReviewsSearchSerpElementItem.md#title)
-- [user\_profile](IAppDataAppStoreReviewsSearchSerpElementItem.md#user_profile)
-- [version](IAppDataAppStoreReviewsSearchSerpElementItem.md#version)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 id of the review
 
-#### Defined in
+#### Source
 
 main.ts:191758
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the review in SERP
 can take the following values: left
 
-#### Defined in
+#### Source
 
 main.ts:191746
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank among all the listed reviews
 absolute position among all reviews on the list
 
-#### Defined in
+#### Source
 
 main.ts:191743
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
 main.ts:191740
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
 the rating score submitted by the reviewer
 
-#### Defined in
+#### Source
 
 main.ts:191751
 
-___
+***
 
-### review\_text
+### review\_text?
 
-• `Optional` **review\_text**: `string`
+> **`optional`** **review\_text**: `string`
 
 content of the review
 
-#### Defined in
+#### Source
 
 main.ts:191762
 
-___
+***
 
-### timestamp
+### timestamp?
 
-• `Optional` **timestamp**: `string`
+> **`optional`** **timestamp**: `string`
 
 date and time when the review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
 main.ts:191756
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the review
 
-#### Defined in
+#### Source
 
 main.ts:191760
 
-___
+***
 
-### user\_profile
+### user\_profile?
 
-• `Optional` **user\_profile**: [`AppUserProfileInfo`](../classes/AppUserProfileInfo.md)
+> **`optional`** **user\_profile**: [`AppUserProfileInfo`](../classes/AppUserProfileInfo.md)
 
 user profile of the reviewer
 
-#### Defined in
+#### Source
 
 main.ts:191764
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 version of the app
 version of the app for which the review is submitted
 
-#### Defined in
+#### Source
 
 main.ts:191749

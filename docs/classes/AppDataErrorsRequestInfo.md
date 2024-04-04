@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataErrorsRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppDataErrorsRequestInfo
 
 # Class: AppDataErrorsRequestInfo
 
@@ -8,53 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppDataErrorsRequestInfo.md#constructor)
-
-### Properties
-
-- [datetime\_from](AppDataErrorsRequestInfo.md#datetime_from)
-- [datetime\_to](AppDataErrorsRequestInfo.md#datetime_to)
-- [filtered\_function](AppDataErrorsRequestInfo.md#filtered_function)
-- [limit](AppDataErrorsRequestInfo.md#limit)
-- [offset](AppDataErrorsRequestInfo.md#offset)
-
-### Methods
-
-- [init](AppDataErrorsRequestInfo.md#init)
-- [toJSON](AppDataErrorsRequestInfo.md#tojson)
-- [fromJS](AppDataErrorsRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppDataErrorsRequestInfo(data)
 
-• **new AppDataErrorsRequestInfo**(`data?`): [`AppDataErrorsRequestInfo`](AppDataErrorsRequestInfo.md)
+> **new AppDataErrorsRequestInfo**(`data`?): [`AppDataErrorsRequestInfo`](AppDataErrorsRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppDataErrorsRequestInfo`](../interfaces/IAppDataErrorsRequestInfo.md) |
+• **data?**: [`IAppDataErrorsRequestInfo`](../interfaces/IAppDataErrorsRequestInfo.md)
 
 #### Returns
 
 [`AppDataErrorsRequestInfo`](AppDataErrorsRequestInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:182111
 
 ## Properties
 
-### datetime\_from
+### datetime\_from?
 
-• `Optional` **datetime\_from**: `string`
+> **`optional`** **datetime\_from**: `string`
 
 start time for filtering results
 optional field
@@ -65,17 +47,17 @@ example:
 
 #### Implementation of
 
-[IAppDataErrorsRequestInfo](../interfaces/IAppDataErrorsRequestInfo.md).[datetime_from](../interfaces/IAppDataErrorsRequestInfo.md#datetime_from)
+[`IAppDataErrorsRequestInfo`](../interfaces/IAppDataErrorsRequestInfo.md).[`datetime_from`](../interfaces/IAppDataErrorsRequestInfo.md#datetime_from)
 
-#### Defined in
+#### Source
 
 main.ts:182100
 
-___
+***
 
-### datetime\_to
+### datetime\_to?
 
-• `Optional` **datetime\_to**: `string`
+> **`optional`** **datetime\_to**: `string`
 
 finish time for filtering results
 optional field
@@ -86,17 +68,17 @@ example:
 
 #### Implementation of
 
-[IAppDataErrorsRequestInfo](../interfaces/IAppDataErrorsRequestInfo.md).[datetime_to](../interfaces/IAppDataErrorsRequestInfo.md#datetime_to)
+[`IAppDataErrorsRequestInfo`](../interfaces/IAppDataErrorsRequestInfo.md).[`datetime_to`](../interfaces/IAppDataErrorsRequestInfo.md#datetime_to)
 
-#### Defined in
+#### Source
 
 main.ts:182107
 
-___
+***
 
-### filtered\_function
+### filtered\_function?
 
-• `Optional` **filtered\_function**: `string`
+> **`optional`** **filtered\_function**: `string`
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -106,17 +88,17 @@ example: app_data/task_get/advanced, postback_url, pingback_url
 
 #### Implementation of
 
-[IAppDataErrorsRequestInfo](../interfaces/IAppDataErrorsRequestInfo.md).[filtered_function](../interfaces/IAppDataErrorsRequestInfo.md#filtered_function)
+[`IAppDataErrorsRequestInfo`](../interfaces/IAppDataErrorsRequestInfo.md).[`filtered_function`](../interfaces/IAppDataErrorsRequestInfo.md#filtered_function)
 
-#### Defined in
+#### Source
 
 main.ts:182093
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -125,17 +107,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IAppDataErrorsRequestInfo](../interfaces/IAppDataErrorsRequestInfo.md).[limit](../interfaces/IAppDataErrorsRequestInfo.md#limit)
+[`IAppDataErrorsRequestInfo`](../interfaces/IAppDataErrorsRequestInfo.md).[`limit`](../interfaces/IAppDataErrorsRequestInfo.md#limit)
 
-#### Defined in
+#### Source
 
 main.ts:182082
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned tasks
 optional field
@@ -144,68 +126,62 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Implementation of
 
-[IAppDataErrorsRequestInfo](../interfaces/IAppDataErrorsRequestInfo.md).[offset](../interfaces/IAppDataErrorsRequestInfo.md#offset)
+[`IAppDataErrorsRequestInfo`](../interfaces/IAppDataErrorsRequestInfo.md).[`offset`](../interfaces/IAppDataErrorsRequestInfo.md#offset)
 
-#### Defined in
+#### Source
 
 main.ts:182087
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:182120
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:182141
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppDataErrorsRequestInfo`](AppDataErrorsRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`AppDataErrorsRequestInfo`](AppDataErrorsRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppDataErrorsRequestInfo`](AppDataErrorsRequestInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:182134

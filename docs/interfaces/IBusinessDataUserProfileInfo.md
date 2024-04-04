@@ -1,81 +1,71 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataUserProfileInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBusinessDataUserProfileInfo
 
 # Interface: IBusinessDataUserProfileInfo
 
-## Implemented by
-
-- [`BusinessDataUserProfileInfo`](../classes/BusinessDataUserProfileInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [image\_url](IBusinessDataUserProfileInfo.md#image_url)
-- [location](IBusinessDataUserProfileInfo.md#location)
-- [name](IBusinessDataUserProfileInfo.md#name)
-- [reviews\_count](IBusinessDataUserProfileInfo.md#reviews_count)
-- [url](IBusinessDataUserProfileInfo.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### image\_url
+### image\_url?
 
-• `Optional` **image\_url**: `string`
+> **`optional`** **image\_url**: `string`
 
 URL to the reviewer’s profile picture
 
-#### Defined in
+#### Source
 
 main.ts:205398
 
-___
+***
 
-### location
+### location?
 
-• `Optional` **location**: `string`
+> **`optional`** **location**: `string`
 
 country of the reviewer
 
-#### Defined in
+#### Source
 
 main.ts:205400
 
-___
+***
 
-### name
+### name?
 
-• `Optional` **name**: `string`
+> **`optional`** **name**: `string`
 
 the name of the reviewer
 
-#### Defined in
+#### Source
 
 main.ts:205394
 
-___
+***
 
-### reviews\_count
+### reviews\_count?
 
-• `Optional` **reviews\_count**: `number`
+> **`optional`** **reviews\_count**: `number`
 
 total number of reviews submitted by the reviewer
 
-#### Defined in
+#### Source
 
 main.ts:205402
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL to the reviewer’s profile
 
-#### Defined in
+#### Source
 
 main.ts:205396

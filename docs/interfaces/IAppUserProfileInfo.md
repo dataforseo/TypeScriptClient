@@ -1,42 +1,35 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppUserProfileInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppUserProfileInfo
 
 # Interface: IAppUserProfileInfo
 
-## Implemented by
-
-- [`AppUserProfileInfo`](../classes/AppUserProfileInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [profile\_image\_url](IAppUserProfileInfo.md#profile_image_url)
-- [profile\_name](IAppUserProfileInfo.md#profile_name)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### profile\_image\_url
+### profile\_image\_url?
 
-• `Optional` **profile\_image\_url**: `string`
+> **`optional`** **profile\_image\_url**: `string`
 
 URL to the reviewer’s profile image
 
-#### Defined in
+#### Source
 
 main.ts:186658
 
-___
+***
 
-### profile\_name
+### profile\_name?
 
-• `Optional` **profile\_name**: `string`
+> **`optional`** **profile\_name**: `string`
 
 profile name of the reviewer
 
-#### Defined in
+#### Source
 
 main.ts:186656

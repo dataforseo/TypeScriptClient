@@ -1,121 +1,109 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageAvailableFiltersResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IOnPageAvailableFiltersResultInfo
 
 # Interface: IOnPageAvailableFiltersResultInfo
 
-## Implemented by
-
-- [`OnPageAvailableFiltersResultInfo`](../classes/OnPageAvailableFiltersResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [keyword\_density](IOnPageAvailableFiltersResultInfo.md#keyword_density)
-- [links](IOnPageAvailableFiltersResultInfo.md#links)
-- [non\_indexable](IOnPageAvailableFiltersResultInfo.md#non_indexable)
-- [pages](IOnPageAvailableFiltersResultInfo.md#pages)
-- [pages\_by\_resource](IOnPageAvailableFiltersResultInfo.md#pages_by_resource)
-- [redirect\_chains](IOnPageAvailableFiltersResultInfo.md#redirect_chains)
-- [resources](IOnPageAvailableFiltersResultInfo.md#resources)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### keyword\_density
+### keyword\_density?
 
-• `Optional` **keyword\_density**: `Object`
-
-#### Index signature
-
-▪ [key: `string`]: `string`
-
-#### Defined in
-
-main.ts:147865
-
-___
-
-### links
-
-• `Optional` **links**: `Object`
+> **`optional`** **keyword\_density**: `Object`
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
-#### Defined in
+#### Source
 
-main.ts:147862
+main.ts:147873
 
-___
+***
 
-### non\_indexable
+### links?
 
-• `Optional` **non\_indexable**: `Object`
-
-#### Index signature
-
-▪ [key: `string`]: `string`
-
-#### Defined in
-
-main.ts:147861
-
-___
-
-### pages
-
-• `Optional` **pages**: `Object`
+> **`optional`** **links**: `Object`
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
-#### Defined in
+#### Source
 
-main.ts:147860
+main.ts:147870
 
-___
+***
 
-### pages\_by\_resource
+### non\_indexable?
 
-• `Optional` **pages\_by\_resource**: `Object`
-
-#### Index signature
-
-▪ [key: `string`]: `string`
-
-#### Defined in
-
-main.ts:147863
-
-___
-
-### redirect\_chains
-
-• `Optional` **redirect\_chains**: `Object`
+> **`optional`** **non\_indexable**: `Object`
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
-#### Defined in
+#### Source
 
-main.ts:147864
+main.ts:147869
 
-___
+***
 
-### resources
+### pages?
 
-• `Optional` **resources**: `Object`
+> **`optional`** **pages**: `Object`
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
-#### Defined in
+#### Source
 
-main.ts:147859
+main.ts:147868
+
+***
+
+### pages\_by\_resource?
+
+> **`optional`** **pages\_by\_resource**: `Object`
+
+#### Index signature
+
+ \[`key`: `string`\]: `string`
+
+#### Source
+
+main.ts:147871
+
+***
+
+### redirect\_chains?
+
+> **`optional`** **redirect\_chains**: `Object`
+
+#### Index signature
+
+ \[`key`: `string`\]: `string`
+
+#### Source
+
+main.ts:147872
+
+***
+
+### resources?
+
+> **`optional`** **resources**: `Object`
+
+#### Index signature
+
+ \[`key`: `string`\]: `string`
+
+#### Source
+
+main.ts:147867

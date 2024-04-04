@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoCommentsLiveAdvancedRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpYoutubeVideoCommentsLiveAdvancedRequestInfo
 
 # Class: SerpYoutubeVideoCommentsLiveAdvancedRequestInfo
 
@@ -8,57 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md#constructor)
-
-### Properties
-
-- [depth](SerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md#depth)
-- [device](SerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md#device)
-- [language\_code](SerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md#language_code)
-- [language\_name](SerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md#language_name)
-- [location\_code](SerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md#location_code)
-- [location\_name](SerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md#location_name)
-- [os](SerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md#os)
-- [tag](SerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md#tag)
-- [video\_id](SerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md#video_id)
-
-### Methods
-
-- [init](SerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md#init)
-- [toJSON](SerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md#tojson)
-- [fromJS](SerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpYoutubeVideoCommentsLiveAdvancedRequestInfo(data)
 
-• **new SerpYoutubeVideoCommentsLiveAdvancedRequestInfo**(`data?`): [`SerpYoutubeVideoCommentsLiveAdvancedRequestInfo`](SerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md)
+> **new SerpYoutubeVideoCommentsLiveAdvancedRequestInfo**(`data`?): [`SerpYoutubeVideoCommentsLiveAdvancedRequestInfo`](SerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md) |
+• **data?**: [`ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md)
 
 #### Returns
 
 [`SerpYoutubeVideoCommentsLiveAdvancedRequestInfo`](SerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:64633
+main.ts:64641
 
 ## Properties
 
-### depth
+### depth?
 
-• `Optional` **depth**: `number`
+> **`optional`** **depth**: `number`
 
 parsing depth
 optional field
@@ -71,17 +49,17 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Implementation of
 
-[ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md).[depth](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md#depth)
+[`ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md).[`depth`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md#depth)
 
-#### Defined in
+#### Source
 
-main.ts:64623
+main.ts:64631
 
-___
+***
 
-### device
+### device?
 
-• `Optional` **device**: `string`
+> **`optional`** **device**: `string`
 
 device type
 optional field
@@ -89,17 +67,17 @@ only value: desktop
 
 #### Implementation of
 
-[ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md).[device](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md#device)
+[`ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md).[`device`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md#device)
 
-#### Defined in
+#### Source
 
-main.ts:64609
+main.ts:64617
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -110,17 +88,17 @@ en
 
 #### Implementation of
 
-[ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md).[language_code](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md#language_code)
+[`ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md).[`language_code`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:64605
+main.ts:64613
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -131,17 +109,17 @@ English
 
 #### Implementation of
 
-[ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md).[language_name](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md#language_name)
+[`ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md).[`language_name`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:64598
+main.ts:64606
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name 
@@ -152,17 +130,17 @@ example:
 
 #### Implementation of
 
-[ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md).[location_code](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md#location_code)
+[`ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md).[`location_code`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:64591
+main.ts:64599
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -173,17 +151,17 @@ United States
 
 #### Implementation of
 
-[ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md).[location_name](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md#location_name)
+[`ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md).[`location_name`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:64584
+main.ts:64592
 
-___
+***
 
-### os
+### os?
 
-• `Optional` **os**: `string`
+> **`optional`** **os**: `string`
 
 device operating system
 optional field
@@ -192,17 +170,17 @@ default value: windows
 
 #### Implementation of
 
-[ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md).[os](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md#os)
+[`ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md).[`os`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md#os)
 
-#### Defined in
+#### Source
 
-main.ts:64614
+main.ts:64622
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -212,17 +190,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md).[tag](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md#tag)
+[`ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md).[`tag`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:64629
+main.ts:64637
 
-___
+***
 
-### video\_id
+### video\_id?
 
-• `Optional` **video\_id**: `string`
+> **`optional`** **video\_id**: `string`
 
 ID of the video
 required field
@@ -232,68 +210,62 @@ vQXvyV0zIP4
 
 #### Implementation of
 
-[ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md).[video_id](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md#video_id)
+[`ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md).[`video_id`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md#video_id)
 
-#### Defined in
+#### Source
 
-main.ts:64577
+main.ts:64585
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:64642
+main.ts:64650
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:64667
+main.ts:64675
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpYoutubeVideoCommentsLiveAdvancedRequestInfo`](SerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpYoutubeVideoCommentsLiveAdvancedRequestInfo`](SerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpYoutubeVideoCommentsLiveAdvancedRequestInfo`](SerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:64660
+main.ts:64668

@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OrganicDataforseoLabsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OrganicDataforseoLabsSerpElementItem
 
 # Class: OrganicDataforseoLabsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
-
-  ↳ **`OrganicDataforseoLabsSerpElementItem`**
 
 ## Implements
 
@@ -14,65 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OrganicDataforseoLabsSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](OrganicDataforseoLabsSerpElementItem.md#_discriminator)
-- [about\_this\_result](OrganicDataforseoLabsSerpElementItem.md#about_this_result)
-- [amp\_version](OrganicDataforseoLabsSerpElementItem.md#amp_version)
-- [backlinks\_info](OrganicDataforseoLabsSerpElementItem.md#backlinks_info)
-- [breadcrumb](OrganicDataforseoLabsSerpElementItem.md#breadcrumb)
-- [description](OrganicDataforseoLabsSerpElementItem.md#description)
-- [domain](OrganicDataforseoLabsSerpElementItem.md#domain)
-- [estimated\_paid\_traffic\_cost](OrganicDataforseoLabsSerpElementItem.md#estimated_paid_traffic_cost)
-- [etv](OrganicDataforseoLabsSerpElementItem.md#etv)
-- [extended\_snippet](OrganicDataforseoLabsSerpElementItem.md#extended_snippet)
-- [highlighted](OrganicDataforseoLabsSerpElementItem.md#highlighted)
-- [impressions\_etv](OrganicDataforseoLabsSerpElementItem.md#impressions_etv)
-- [is\_featured\_snippet](OrganicDataforseoLabsSerpElementItem.md#is_featured_snippet)
-- [is\_image](OrganicDataforseoLabsSerpElementItem.md#is_image)
-- [is\_malicious](OrganicDataforseoLabsSerpElementItem.md#is_malicious)
-- [is\_video](OrganicDataforseoLabsSerpElementItem.md#is_video)
-- [links](OrganicDataforseoLabsSerpElementItem.md#links)
-- [main\_domain](OrganicDataforseoLabsSerpElementItem.md#main_domain)
-- [position](OrganicDataforseoLabsSerpElementItem.md#position)
-- [pre\_snippet](OrganicDataforseoLabsSerpElementItem.md#pre_snippet)
-- [rank\_absolute](OrganicDataforseoLabsSerpElementItem.md#rank_absolute)
-- [rank\_changes](OrganicDataforseoLabsSerpElementItem.md#rank_changes)
-- [rank\_group](OrganicDataforseoLabsSerpElementItem.md#rank_group)
-- [rank\_info](OrganicDataforseoLabsSerpElementItem.md#rank_info)
-- [rating](OrganicDataforseoLabsSerpElementItem.md#rating)
-- [relative\_url](OrganicDataforseoLabsSerpElementItem.md#relative_url)
-- [se\_type](OrganicDataforseoLabsSerpElementItem.md#se_type)
-- [title](OrganicDataforseoLabsSerpElementItem.md#title)
-- [url](OrganicDataforseoLabsSerpElementItem.md#url)
-- [website\_name](OrganicDataforseoLabsSerpElementItem.md#website_name)
-- [xpath](OrganicDataforseoLabsSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](OrganicDataforseoLabsSerpElementItem.md#init)
-- [toJSON](OrganicDataforseoLabsSerpElementItem.md#tojson)
-- [fromJS](OrganicDataforseoLabsSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OrganicDataforseoLabsSerpElementItem(data)
 
-• **new OrganicDataforseoLabsSerpElementItem**(`data?`): [`OrganicDataforseoLabsSerpElementItem`](OrganicDataforseoLabsSerpElementItem.md)
+> **new OrganicDataforseoLabsSerpElementItem**(`data`?): [`OrganicDataforseoLabsSerpElementItem`](OrganicDataforseoLabsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOrganicDataforseoLabsSerpElementItem`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md) |
+• **data?**: [`IOrganicDataforseoLabsSerpElementItem`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md)
 
 #### Returns
 
@@ -80,31 +34,31 @@
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[constructor](BaseDataforseoLabsSerpElementItem.md#constructor)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:89082
+main.ts:89090
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[_discriminator](BaseDataforseoLabsSerpElementItem.md#_discriminator)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`_discriminator`](BaseDataforseoLabsSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:20171
 
-___
+***
 
-### about\_this\_result
+### about\_this\_result?
 
-• `Optional` **about\_this\_result**: [`AboutThisResultElement`](AboutThisResultElement.md)
+> **`optional`** **about\_this\_result**: [`AboutThisResultElement`](AboutThisResultElement.md)
 
 contains information from the ‘About this result’ panel
 ‘About this result’ panel provides additional context about why Google returned this result for the given query;
@@ -112,98 +66,98 @@ this feature appears after clicking on the three dots next to most results
 
 #### Implementation of
 
-[IOrganicDataforseoLabsSerpElementItem](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[about_this_result](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#about_this_result)
+[`IOrganicDataforseoLabsSerpElementItem`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[`about_this_result`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#about_this_result)
 
-#### Defined in
+#### Source
 
-main.ts:89053
+main.ts:89061
 
-___
+***
 
-### amp\_version
+### amp\_version?
 
-• `Optional` **amp\_version**: `boolean`
+> **`optional`** **amp\_version**: `boolean`
 
 Accelerated Mobile Pages
 indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 #### Implementation of
 
-[IOrganicDataforseoLabsSerpElementItem](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[amp_version](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#amp_version)
+[`IOrganicDataforseoLabsSerpElementItem`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[`amp_version`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#amp_version)
 
-#### Defined in
+#### Source
 
-main.ts:89040
+main.ts:89048
 
-___
+***
 
-### backlinks\_info
+### backlinks\_info?
 
-• `Optional` **backlinks\_info**: [`BacklinksInfo`](BacklinksInfo.md)
+> **`optional`** **backlinks\_info**: [`BacklinksInfo`](BacklinksInfo.md)
 
 backlinks information for the target website
 
 #### Implementation of
 
-[IOrganicDataforseoLabsSerpElementItem](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[backlinks_info](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#backlinks_info)
+[`IOrganicDataforseoLabsSerpElementItem`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[`backlinks_info`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#backlinks_info)
 
-#### Defined in
+#### Source
 
-main.ts:89076
+main.ts:89084
 
-___
+***
 
-### breadcrumb
+### breadcrumb?
 
-• `Optional` **breadcrumb**: `string`
+> **`optional`** **breadcrumb**: `string`
 
 breadcrumb in SERP
 
 #### Implementation of
 
-[IOrganicDataforseoLabsSerpElementItem](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[breadcrumb](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#breadcrumb)
+[`IOrganicDataforseoLabsSerpElementItem`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[`breadcrumb`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#breadcrumb)
 
-#### Defined in
+#### Source
 
-main.ts:89021
+main.ts:89029
 
-___
+***
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description of the results element in SERP
 
 #### Implementation of
 
-[IOrganicDataforseoLabsSerpElementItem](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[description](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#description)
+[`IOrganicDataforseoLabsSerpElementItem`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[`description`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#description)
 
-#### Defined in
+#### Source
 
-main.ts:89033
+main.ts:89041
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 subdomain in SERP
 
 #### Implementation of
 
-[IOrganicDataforseoLabsSerpElementItem](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[domain](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#domain)
+[`IOrganicDataforseoLabsSerpElementItem`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[`domain`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#domain)
 
-#### Defined in
+#### Source
 
-main.ts:89015
+main.ts:89023
 
-___
+***
 
-### estimated\_paid\_traffic\_cost
+### estimated\_paid\_traffic\_cost?
 
-• `Optional` **estimated\_paid\_traffic\_cost**: `number`
+> **`optional`** **estimated\_paid\_traffic\_cost**: `number`
 
 estimated cost of monthly search traffic
 represents the estimated cost of paid monthly traffic (USD) based on etv and cpc values of all keywords in the category that the domain ranks for
@@ -211,17 +165,17 @@ learn more about how the metric is calculated in this help center article
 
 #### Implementation of
 
-[IOrganicDataforseoLabsSerpElementItem](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[estimated_paid_traffic_cost](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#estimated_paid_traffic_cost)
+[`IOrganicDataforseoLabsSerpElementItem`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[`estimated_paid_traffic_cost`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#estimated_paid_traffic_cost)
 
-#### Defined in
+#### Source
 
-main.ts:89071
+main.ts:89079
 
-___
+***
 
-### etv
+### etv?
 
-• `Optional` **etv**: `number`
+> **`optional`** **etv**: `number`
 
 estimated traffic volume
 estimated paid monthly traffic to the domain
@@ -230,49 +184,49 @@ learn more about how the metric is calculated in this help center article
 
 #### Implementation of
 
-[IOrganicDataforseoLabsSerpElementItem](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[etv](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#etv)
+[`IOrganicDataforseoLabsSerpElementItem`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[`etv`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#etv)
 
-#### Defined in
+#### Source
 
-main.ts:89062
+main.ts:89070
 
-___
+***
 
-### extended\_snippet
+### extended\_snippet?
 
-• `Optional` **extended\_snippet**: `string`
+> **`optional`** **extended\_snippet**: `string`
 
 includes additional information appended after the result description in SERP
 
 #### Implementation of
 
-[IOrganicDataforseoLabsSerpElementItem](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[extended_snippet](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#extended_snippet)
+[`IOrganicDataforseoLabsSerpElementItem`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[`extended_snippet`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#extended_snippet)
 
-#### Defined in
+#### Source
 
-main.ts:89037
+main.ts:89045
 
-___
+***
 
-### highlighted
+### highlighted?
 
-• `Optional` **highlighted**: `string`[]
+> **`optional`** **highlighted**: `string`[]
 
 words highlighted in bold within the results description
 
 #### Implementation of
 
-[IOrganicDataforseoLabsSerpElementItem](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[highlighted](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#highlighted)
+[`IOrganicDataforseoLabsSerpElementItem`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[`highlighted`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#highlighted)
 
-#### Defined in
+#### Source
 
-main.ts:89045
+main.ts:89053
 
-___
+***
 
-### impressions\_etv
+### impressions\_etv?
 
-• `Optional` **impressions\_etv**: `number`
+> **`optional`** **impressions\_etv**: `number`
 
 estimated traffic volume based on impressions
 estimated paid monthly traffic to the domain
@@ -281,81 +235,81 @@ learn more about how the metric is calculated in this help center article
 
 #### Implementation of
 
-[IOrganicDataforseoLabsSerpElementItem](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[impressions_etv](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#impressions_etv)
+[`IOrganicDataforseoLabsSerpElementItem`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[`impressions_etv`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#impressions_etv)
 
-#### Defined in
+#### Source
 
-main.ts:89067
+main.ts:89075
 
-___
+***
 
-### is\_featured\_snippet
+### is\_featured\_snippet?
 
-• `Optional` **is\_featured\_snippet**: `boolean`
+> **`optional`** **is\_featured\_snippet**: `boolean`
 
 indicates whether the element is a featured_snippet
 
 #### Implementation of
 
-[IOrganicDataforseoLabsSerpElementItem](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[is_featured_snippet](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#is_featured_snippet)
+[`IOrganicDataforseoLabsSerpElementItem`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[`is_featured_snippet`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#is_featured_snippet)
 
-#### Defined in
+#### Source
 
-main.ts:89029
+main.ts:89037
 
-___
+***
 
-### is\_image
+### is\_image?
 
-• `Optional` **is\_image**: `boolean`
+> **`optional`** **is\_image**: `boolean`
 
 indicates whether the element contains an image
 
 #### Implementation of
 
-[IOrganicDataforseoLabsSerpElementItem](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[is_image](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#is_image)
+[`IOrganicDataforseoLabsSerpElementItem`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[`is_image`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#is_image)
 
-#### Defined in
+#### Source
 
-main.ts:89025
+main.ts:89033
 
-___
+***
 
-### is\_malicious
+### is\_malicious?
 
-• `Optional` **is\_malicious**: `boolean`
+> **`optional`** **is\_malicious**: `boolean`
 
 indicates whether the element is marked as malicious
 
 #### Implementation of
 
-[IOrganicDataforseoLabsSerpElementItem](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[is_malicious](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#is_malicious)
+[`IOrganicDataforseoLabsSerpElementItem`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[`is_malicious`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#is_malicious)
 
-#### Defined in
+#### Source
 
-main.ts:89031
+main.ts:89039
 
-___
+***
 
-### is\_video
+### is\_video?
 
-• `Optional` **is\_video**: `boolean`
+> **`optional`** **is\_video**: `boolean`
 
 indicates whether the element contains a video
 
 #### Implementation of
 
-[IOrganicDataforseoLabsSerpElementItem](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[is_video](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#is_video)
+[`IOrganicDataforseoLabsSerpElementItem`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[`is_video`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#is_video)
 
-#### Defined in
+#### Source
 
-main.ts:89027
+main.ts:89035
 
-___
+***
 
-### links
+### links?
 
-• `Optional` **links**: [`LinkElement`](LinkElement.md)[]
+> **`optional`** **links**: [`LinkElement`](LinkElement.md)[]
 
 sitelinks
 the links shown below some of Google’s search results
@@ -363,33 +317,33 @@ if there are none, equals null
 
 #### Implementation of
 
-[IOrganicDataforseoLabsSerpElementItem](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[links](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#links)
+[`IOrganicDataforseoLabsSerpElementItem`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[`links`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#links)
 
-#### Defined in
+#### Source
 
-main.ts:89049
+main.ts:89057
 
-___
+***
 
-### main\_domain
+### main\_domain?
 
-• `Optional` **main\_domain**: `string`
+> **`optional`** **main\_domain**: `string`
 
 primary domain name in SERP
 
 #### Implementation of
 
-[IOrganicDataforseoLabsSerpElementItem](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[main_domain](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#main_domain)
+[`IOrganicDataforseoLabsSerpElementItem`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[`main_domain`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#main_domain)
 
-#### Defined in
+#### Source
 
-main.ts:89055
+main.ts:89063
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -397,219 +351,217 @@ left, right
 
 #### Implementation of
 
-[IOrganicDataforseoLabsSerpElementItem](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[position](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#position)
+[`IOrganicDataforseoLabsSerpElementItem`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[`position`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
-main.ts:89011
+main.ts:89019
 
-___
+***
 
-### pre\_snippet
+### pre\_snippet?
 
-• `Optional` **pre\_snippet**: `string`
+> **`optional`** **pre\_snippet**: `string`
 
 includes additional information appended before the result description in SERP
 
 #### Implementation of
 
-[IOrganicDataforseoLabsSerpElementItem](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[pre_snippet](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#pre_snippet)
+[`IOrganicDataforseoLabsSerpElementItem`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[`pre_snippet`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#pre_snippet)
 
-#### Defined in
+#### Source
 
-main.ts:89035
+main.ts:89043
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
 #### Implementation of
 
-[IOrganicDataforseoLabsSerpElementItem](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[rank_absolute](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#rank_absolute)
+[`IOrganicDataforseoLabsSerpElementItem`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[`rank_absolute`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:89007
+main.ts:89015
 
-___
+***
 
-### rank\_changes
+### rank\_changes?
 
-• `Optional` **rank\_changes**: [`RankChanges`](RankChanges.md)
+> **`optional`** **rank\_changes**: [`RankChanges`](RankChanges.md)
 
 changes in rankings
 contains information about the ranking changes of the SERP element since the previous_updated_time
 
 #### Implementation of
 
-[IOrganicDataforseoLabsSerpElementItem](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[rank_changes](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#rank_changes)
+[`IOrganicDataforseoLabsSerpElementItem`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[`rank_changes`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#rank_changes)
 
-#### Defined in
+#### Source
 
-main.ts:89074
+main.ts:89082
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
-[IOrganicDataforseoLabsSerpElementItem](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[rank_group](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#rank_group)
+[`IOrganicDataforseoLabsSerpElementItem`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[`rank_group`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
-main.ts:89004
+main.ts:89012
 
-___
+***
 
-### rank\_info
+### rank\_info?
 
-• `Optional` **rank\_info**: [`RankInfo`](RankInfo.md)
+> **`optional`** **rank\_info**: [`RankInfo`](RankInfo.md)
 
 page and domain rank information
 
 #### Implementation of
 
-[IOrganicDataforseoLabsSerpElementItem](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[rank_info](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#rank_info)
+[`IOrganicDataforseoLabsSerpElementItem`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[`rank_info`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#rank_info)
 
-#### Defined in
+#### Source
 
-main.ts:89078
+main.ts:89086
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](RatingInfo.md)
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
 
-[IOrganicDataforseoLabsSerpElementItem](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[rating](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#rating)
+[`IOrganicDataforseoLabsSerpElementItem`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[`rating`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#rating)
 
-#### Defined in
+#### Source
 
-main.ts:89043
+main.ts:89051
 
-___
+***
 
-### relative\_url
+### relative\_url?
 
-• `Optional` **relative\_url**: `string`
+> **`optional`** **relative\_url**: `string`
 
 URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Implementation of
 
-[IOrganicDataforseoLabsSerpElementItem](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[relative_url](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#relative_url)
+[`IOrganicDataforseoLabsSerpElementItem`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[`relative_url`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#relative_url)
 
-#### Defined in
+#### Source
 
-main.ts:89057
+main.ts:89065
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IOrganicDataforseoLabsSerpElementItem](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[se_type](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#se_type)
+[`IOrganicDataforseoLabsSerpElementItem`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[`se_type`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:89001
+main.ts:89009
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the result in SERP
 
 #### Implementation of
 
-[IOrganicDataforseoLabsSerpElementItem](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[title](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#title)
+[`IOrganicDataforseoLabsSerpElementItem`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[`title`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:89017
+main.ts:89025
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 relevant URL in SERP
 
 #### Implementation of
 
-[IOrganicDataforseoLabsSerpElementItem](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[url](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#url)
+[`IOrganicDataforseoLabsSerpElementItem`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[`url`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:89019
+main.ts:89027
 
-___
+***
 
-### website\_name
+### website\_name?
 
-• `Optional` **website\_name**: `string`
+> **`optional`** **website\_name**: `string`
 
 relevant website name in SERP
 
 #### Implementation of
 
-[IOrganicDataforseoLabsSerpElementItem](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[website_name](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#website_name)
+[`IOrganicDataforseoLabsSerpElementItem`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[`website_name`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#website_name)
 
-#### Defined in
+#### Source
 
-main.ts:89023
+main.ts:89031
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IOrganicDataforseoLabsSerpElementItem](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[xpath](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#xpath)
+[`IOrganicDataforseoLabsSerpElementItem`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[`xpath`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
-main.ts:89013
+main.ts:89021
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -617,23 +569,21 @@ main.ts:89013
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[init](BaseDataforseoLabsSerpElementItem.md#init)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`init`](BaseDataforseoLabsSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:89087
+main.ts:89095
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -641,23 +591,21 @@ ___
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[toJSON](BaseDataforseoLabsSerpElementItem.md#tojson)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`toJSON`](BaseDataforseoLabsSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:89142
+main.ts:89150
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OrganicDataforseoLabsSerpElementItem`](OrganicDataforseoLabsSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`OrganicDataforseoLabsSerpElementItem`](OrganicDataforseoLabsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -665,8 +613,8 @@ ___
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[fromJS](BaseDataforseoLabsSerpElementItem.md#fromjs)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`fromJS`](BaseDataforseoLabsSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:89135
+main.ts:89143

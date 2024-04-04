@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataIdListTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataIdListTaskInfo
 
 # Class: KeywordsDataIdListTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`KeywordsDataIdListTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataIdListTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](KeywordsDataIdListTaskInfo.md#cost)
-- [data](KeywordsDataIdListTaskInfo.md#data)
-- [id](KeywordsDataIdListTaskInfo.md#id)
-- [path](KeywordsDataIdListTaskInfo.md#path)
-- [result](KeywordsDataIdListTaskInfo.md#result)
-- [result\_count](KeywordsDataIdListTaskInfo.md#result_count)
-- [status\_code](KeywordsDataIdListTaskInfo.md#status_code)
-- [status\_message](KeywordsDataIdListTaskInfo.md#status_message)
-- [time](KeywordsDataIdListTaskInfo.md#time)
-
-### Methods
-
-- [init](KeywordsDataIdListTaskInfo.md#init)
-- [toJSON](KeywordsDataIdListTaskInfo.md#tojson)
-- [fromJS](KeywordsDataIdListTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordsDataIdListTaskInfo(data)
 
-• **new KeywordsDataIdListTaskInfo**(`data?`): [`KeywordsDataIdListTaskInfo`](KeywordsDataIdListTaskInfo.md)
+> **new KeywordsDataIdListTaskInfo**(`data`?): [`KeywordsDataIdListTaskInfo`](KeywordsDataIdListTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordsDataIdListTaskInfo`](../interfaces/IKeywordsDataIdListTaskInfo.md) |
+• **data?**: [`IKeywordsDataIdListTaskInfo`](../interfaces/IKeywordsDataIdListTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:114839
+main.ts:114847
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IKeywordsDataIdListTaskInfo](../interfaces/IKeywordsDataIdListTaskInfo.md).[cost](../interfaces/IKeywordsDataIdListTaskInfo.md#cost)
+[`IKeywordsDataIdListTaskInfo`](../interfaces/IKeywordsDataIdListTaskInfo.md).[`cost`](../interfaces/IKeywordsDataIdListTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[IKeywordsDataIdListTaskInfo](../interfaces/IKeywordsDataIdListTaskInfo.md).[data](../interfaces/IKeywordsDataIdListTaskInfo.md#data)
+[`IKeywordsDataIdListTaskInfo`](../interfaces/IKeywordsDataIdListTaskInfo.md).[`data`](../interfaces/IKeywordsDataIdListTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IKeywordsDataIdListTaskInfo](../interfaces/IKeywordsDataIdListTaskInfo.md).[id](../interfaces/IKeywordsDataIdListTaskInfo.md#id)
+[`IKeywordsDataIdListTaskInfo`](../interfaces/IKeywordsDataIdListTaskInfo.md).[`id`](../interfaces/IKeywordsDataIdListTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[IKeywordsDataIdListTaskInfo](../interfaces/IKeywordsDataIdListTaskInfo.md).[path](../interfaces/IKeywordsDataIdListTaskInfo.md#path)
+[`IKeywordsDataIdListTaskInfo`](../interfaces/IKeywordsDataIdListTaskInfo.md).[`path`](../interfaces/IKeywordsDataIdListTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`KeywordsDataIdListResultInfo`](KeywordsDataIdListResultInfo.md)[]
+> **`optional`** **result**: [`KeywordsDataIdListResultInfo`](KeywordsDataIdListResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[IKeywordsDataIdListTaskInfo](../interfaces/IKeywordsDataIdListTaskInfo.md).[result](../interfaces/IKeywordsDataIdListTaskInfo.md#result)
+[`IKeywordsDataIdListTaskInfo`](../interfaces/IKeywordsDataIdListTaskInfo.md).[`result`](../interfaces/IKeywordsDataIdListTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:114835
+main.ts:114843
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[IKeywordsDataIdListTaskInfo](../interfaces/IKeywordsDataIdListTaskInfo.md).[result_count](../interfaces/IKeywordsDataIdListTaskInfo.md#result_count)
+[`IKeywordsDataIdListTaskInfo`](../interfaces/IKeywordsDataIdListTaskInfo.md).[`result_count`](../interfaces/IKeywordsDataIdListTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[IKeywordsDataIdListTaskInfo](../interfaces/IKeywordsDataIdListTaskInfo.md).[status_code](../interfaces/IKeywordsDataIdListTaskInfo.md#status_code)
+[`IKeywordsDataIdListTaskInfo`](../interfaces/IKeywordsDataIdListTaskInfo.md).[`status_code`](../interfaces/IKeywordsDataIdListTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IKeywordsDataIdListTaskInfo](../interfaces/IKeywordsDataIdListTaskInfo.md).[status_message](../interfaces/IKeywordsDataIdListTaskInfo.md#status_message)
+[`IKeywordsDataIdListTaskInfo`](../interfaces/IKeywordsDataIdListTaskInfo.md).[`status_message`](../interfaces/IKeywordsDataIdListTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[IKeywordsDataIdListTaskInfo](../interfaces/IKeywordsDataIdListTaskInfo.md).[time](../interfaces/IKeywordsDataIdListTaskInfo.md#time)
+[`IKeywordsDataIdListTaskInfo`](../interfaces/IKeywordsDataIdListTaskInfo.md).[`time`](../interfaces/IKeywordsDataIdListTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:114843
+main.ts:114851
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:114865
+main.ts:114873
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordsDataIdListTaskInfo`](KeywordsDataIdListTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordsDataIdListTaskInfo`](KeywordsDataIdListTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:114858
+main.ts:114866

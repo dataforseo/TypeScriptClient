@@ -1,29 +1,23 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IGooglePlayMetricsBundleInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IGooglePlayMetricsBundleInfo
 
 # Interface: IGooglePlayMetricsBundleInfo
 
-## Implemented by
-
-- [`GooglePlayMetricsBundleInfo`](../classes/GooglePlayMetricsBundleInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [google\_play\_search\_organic](IGooglePlayMetricsBundleInfo.md#google_play_search_organic)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### google\_play\_search\_organic
+### google\_play\_search\_organic?
 
-• `Optional` **google\_play\_search\_organic**: [`AppMetricsInfo`](../classes/AppMetricsInfo.md)
+> **`optional`** **google\_play\_search\_organic**: [`AppMetricsInfo`](../classes/AppMetricsInfo.md)
 
 ranking data from Google Play organic search
 
-#### Defined in
+#### Source
 
-main.ts:111656
+main.ts:111664

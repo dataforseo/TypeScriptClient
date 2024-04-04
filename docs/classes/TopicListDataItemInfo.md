@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / TopicListDataItemInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / TopicListDataItemInfo
 
 # Class: TopicListDataItemInfo
 
@@ -8,169 +12,142 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](TopicListDataItemInfo.md#constructor)
-
-### Properties
-
-- [topic\_id](TopicListDataItemInfo.md#topic_id)
-- [topic\_title](TopicListDataItemInfo.md#topic_title)
-- [topic\_type](TopicListDataItemInfo.md#topic_type)
-- [value](TopicListDataItemInfo.md#value)
-
-### Methods
-
-- [init](TopicListDataItemInfo.md#init)
-- [toJSON](TopicListDataItemInfo.md#tojson)
-- [fromJS](TopicListDataItemInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new TopicListDataItemInfo(data)
 
-• **new TopicListDataItemInfo**(`data?`): [`TopicListDataItemInfo`](TopicListDataItemInfo.md)
+> **new TopicListDataItemInfo**(`data`?): [`TopicListDataItemInfo`](TopicListDataItemInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ITopicListDataItemInfo`](../interfaces/ITopicListDataItemInfo.md) |
+• **data?**: [`ITopicListDataItemInfo`](../interfaces/ITopicListDataItemInfo.md)
 
 #### Returns
 
 [`TopicListDataItemInfo`](TopicListDataItemInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:124033
+main.ts:124041
 
 ## Properties
 
-### topic\_id
+### topic\_id?
 
-• `Optional` **topic\_id**: `string`
+> **`optional`** **topic\_id**: `string`
 
 unique topic identifier in Google Trends
 
 #### Implementation of
 
-[ITopicListDataItemInfo](../interfaces/ITopicListDataItemInfo.md).[topic_id](../interfaces/ITopicListDataItemInfo.md#topic_id)
+[`ITopicListDataItemInfo`](../interfaces/ITopicListDataItemInfo.md).[`topic_id`](../interfaces/ITopicListDataItemInfo.md#topic_id)
 
-#### Defined in
+#### Source
 
-main.ts:124021
+main.ts:124029
 
-___
+***
 
-### topic\_title
+### topic\_title?
 
-• `Optional` **topic\_title**: `string`
+> **`optional`** **topic\_title**: `string`
 
 title of the topic
 
 #### Implementation of
 
-[ITopicListDataItemInfo](../interfaces/ITopicListDataItemInfo.md).[topic_title](../interfaces/ITopicListDataItemInfo.md#topic_title)
+[`ITopicListDataItemInfo`](../interfaces/ITopicListDataItemInfo.md).[`topic_title`](../interfaces/ITopicListDataItemInfo.md#topic_title)
 
-#### Defined in
+#### Source
 
-main.ts:124023
+main.ts:124031
 
-___
+***
 
-### topic\_type
+### topic\_type?
 
-• `Optional` **topic\_type**: `string`
+> **`optional`** **topic\_type**: `string`
 
 type of the topic
 represents the general type of the topic
 
 #### Implementation of
 
-[ITopicListDataItemInfo](../interfaces/ITopicListDataItemInfo.md).[topic_type](../interfaces/ITopicListDataItemInfo.md#topic_type)
+[`ITopicListDataItemInfo`](../interfaces/ITopicListDataItemInfo.md).[`topic_type`](../interfaces/ITopicListDataItemInfo.md#topic_type)
 
-#### Defined in
+#### Source
 
-main.ts:124026
+main.ts:124034
 
-___
+***
 
-### value
+### value?
 
-• `Optional` **value**: `string`
+> **`optional`** **value**: `string`
 
 search term popularity
 represents the popularity of the topic. Scoring is on a relative scale where a value of 100 is the most commonly searched topic and a value of 50 is a topic searched half as often as the most popular term, and so on.
 
 #### Implementation of
 
-[ITopicListDataItemInfo](../interfaces/ITopicListDataItemInfo.md).[value](../interfaces/ITopicListDataItemInfo.md#value)
+[`ITopicListDataItemInfo`](../interfaces/ITopicListDataItemInfo.md).[`value`](../interfaces/ITopicListDataItemInfo.md#value)
 
-#### Defined in
+#### Source
 
-main.ts:124029
+main.ts:124037
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:124042
+main.ts:124050
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:124062
+main.ts:124070
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`TopicListDataItemInfo`](TopicListDataItemInfo.md)
+> **`static`** **fromJS**(`data`): [`TopicListDataItemInfo`](TopicListDataItemInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`TopicListDataItemInfo`](TopicListDataItemInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:124055
+main.ts:124063

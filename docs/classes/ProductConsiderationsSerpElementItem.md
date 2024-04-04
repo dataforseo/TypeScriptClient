@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ProductConsiderationsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ProductConsiderationsSerpElementItem
 
 # Class: ProductConsiderationsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-  ↳ **`ProductConsiderationsSerpElementItem`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ProductConsiderationsSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](ProductConsiderationsSerpElementItem.md#_discriminator)
-- [items](ProductConsiderationsSerpElementItem.md#items)
-- [position](ProductConsiderationsSerpElementItem.md#position)
-- [rank\_absolute](ProductConsiderationsSerpElementItem.md#rank_absolute)
-- [rank\_group](ProductConsiderationsSerpElementItem.md#rank_group)
-- [rectangle](ProductConsiderationsSerpElementItem.md#rectangle)
-- [title](ProductConsiderationsSerpElementItem.md#title)
-- [xpath](ProductConsiderationsSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](ProductConsiderationsSerpElementItem.md#init)
-- [toJSON](ProductConsiderationsSerpElementItem.md#tojson)
-- [fromJS](ProductConsiderationsSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ProductConsiderationsSerpElementItem(data)
 
-• **new ProductConsiderationsSerpElementItem**(`data?`): [`ProductConsiderationsSerpElementItem`](ProductConsiderationsSerpElementItem.md)
+> **new ProductConsiderationsSerpElementItem**(`data`?): [`ProductConsiderationsSerpElementItem`](ProductConsiderationsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IProductConsiderationsSerpElementItem`](../interfaces/IProductConsiderationsSerpElementItem.md) |
+• **data?**: [`IProductConsiderationsSerpElementItem`](../interfaces/IProductConsiderationsSerpElementItem.md)
 
 #### Returns
 
@@ -57,48 +34,48 @@
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[constructor](BaseSerpElementItem.md#constructor)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:35567
+main.ts:35573
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[_discriminator](BaseSerpElementItem.md#_discriminator)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:19788
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`ProductConsiderationsElement`](ProductConsiderationsElement.md)[]
+> **`optional`** **items**: [`ProductConsiderationsElement`](ProductConsiderationsElement.md)[]
 
 additional items present in the element
 if there are none, equals null
 
 #### Implementation of
 
-[IProductConsiderationsSerpElementItem](../interfaces/IProductConsiderationsSerpElementItem.md).[items](../interfaces/IProductConsiderationsSerpElementItem.md#items)
+[`IProductConsiderationsSerpElementItem`](../interfaces/IProductConsiderationsSerpElementItem.md).[`items`](../interfaces/IProductConsiderationsSerpElementItem.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:35559
+main.ts:35565
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -106,17 +83,17 @@ left, right
 
 #### Implementation of
 
-[IProductConsiderationsSerpElementItem](../interfaces/IProductConsiderationsSerpElementItem.md).[position](../interfaces/IProductConsiderationsSerpElementItem.md#position)
+[`IProductConsiderationsSerpElementItem`](../interfaces/IProductConsiderationsSerpElementItem.md).[`position`](../interfaces/IProductConsiderationsSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
-main.ts:35552
+main.ts:35558
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -124,17 +101,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IProductConsiderationsSerpElementItem](../interfaces/IProductConsiderationsSerpElementItem.md).[rank_absolute](../interfaces/IProductConsiderationsSerpElementItem.md#rank_absolute)
+[`IProductConsiderationsSerpElementItem`](../interfaces/IProductConsiderationsSerpElementItem.md).[`rank_absolute`](../interfaces/IProductConsiderationsSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:35548
+main.ts:35554
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
@@ -143,17 +120,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IProductConsiderationsSerpElementItem](../interfaces/IProductConsiderationsSerpElementItem.md).[rank_group](../interfaces/IProductConsiderationsSerpElementItem.md#rank_group)
+[`IProductConsiderationsSerpElementItem`](../interfaces/IProductConsiderationsSerpElementItem.md).[`rank_group`](../interfaces/IProductConsiderationsSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
-main.ts:35544
+main.ts:35550
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -161,55 +138,53 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Implementation of
 
-[IProductConsiderationsSerpElementItem](../interfaces/IProductConsiderationsSerpElementItem.md).[rectangle](../interfaces/IProductConsiderationsSerpElementItem.md#rectangle)
+[`IProductConsiderationsSerpElementItem`](../interfaces/IProductConsiderationsSerpElementItem.md).[`rectangle`](../interfaces/IProductConsiderationsSerpElementItem.md#rectangle)
 
-#### Defined in
+#### Source
 
-main.ts:35563
+main.ts:35569
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the row
 
 #### Implementation of
 
-[IProductConsiderationsSerpElementItem](../interfaces/IProductConsiderationsSerpElementItem.md).[title](../interfaces/IProductConsiderationsSerpElementItem.md#title)
+[`IProductConsiderationsSerpElementItem`](../interfaces/IProductConsiderationsSerpElementItem.md).[`title`](../interfaces/IProductConsiderationsSerpElementItem.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:35556
+main.ts:35562
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IProductConsiderationsSerpElementItem](../interfaces/IProductConsiderationsSerpElementItem.md).[xpath](../interfaces/IProductConsiderationsSerpElementItem.md#xpath)
+[`IProductConsiderationsSerpElementItem`](../interfaces/IProductConsiderationsSerpElementItem.md).[`xpath`](../interfaces/IProductConsiderationsSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
-main.ts:35554
+main.ts:35560
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -217,23 +192,21 @@ main.ts:35554
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[init](BaseSerpElementItem.md#init)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:35572
+main.ts:35578
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -241,23 +214,21 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[toJSON](BaseSerpElementItem.md#tojson)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:35600
+main.ts:35606
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ProductConsiderationsSerpElementItem`](ProductConsiderationsSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`ProductConsiderationsSerpElementItem`](ProductConsiderationsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -265,8 +236,8 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[fromJS](BaseSerpElementItem.md#fromjs)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:35593
+main.ts:35599

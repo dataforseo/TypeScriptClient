@@ -1,156 +1,141 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpYahooOrganicTasksFixedResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ISerpYahooOrganicTasksFixedResponseInfo
 
 # Interface: ISerpYahooOrganicTasksFixedResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`IBaseResponseInfo`](IBaseResponseInfo.md)
 
-  ↳ **`ISerpYahooOrganicTasksFixedResponseInfo`**
-
-## Implemented by
-
-- [`SerpYahooOrganicTasksFixedResponseInfo`](../classes/SerpYahooOrganicTasksFixedResponseInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [cost](ISerpYahooOrganicTasksFixedResponseInfo.md#cost)
-- [status\_code](ISerpYahooOrganicTasksFixedResponseInfo.md#status_code)
-- [status\_message](ISerpYahooOrganicTasksFixedResponseInfo.md#status_message)
-- [tasks](ISerpYahooOrganicTasksFixedResponseInfo.md#tasks)
-- [tasks\_count](ISerpYahooOrganicTasksFixedResponseInfo.md#tasks_count)
-- [tasks\_error](ISerpYahooOrganicTasksFixedResponseInfo.md#tasks_error)
-- [time](ISerpYahooOrganicTasksFixedResponseInfo.md#time)
-- [version](ISerpYahooOrganicTasksFixedResponseInfo.md#version)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Inherited from
 
-[IBaseResponseInfo](IBaseResponseInfo.md).[cost](IBaseResponseInfo.md#cost)
+[`IBaseResponseInfo`](IBaseResponseInfo.md).[`cost`](IBaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23098
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Inherited from
 
-[IBaseResponseInfo](IBaseResponseInfo.md).[status_code](IBaseResponseInfo.md#status_code)
+[`IBaseResponseInfo`](IBaseResponseInfo.md).[`status_code`](IBaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23091
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Inherited from
 
-[IBaseResponseInfo](IBaseResponseInfo.md).[status_message](IBaseResponseInfo.md#status_message)
+[`IBaseResponseInfo`](IBaseResponseInfo.md).[`status_message`](IBaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23094
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`SerpYahooOrganicTasksFixedTaskInfo`](../classes/SerpYahooOrganicTasksFixedTaskInfo.md)[]
+> **`optional`** **tasks**: [`SerpYahooOrganicTasksFixedTaskInfo`](../classes/SerpYahooOrganicTasksFixedTaskInfo.md)[]
 
 array of tasks
 
-#### Defined in
+#### Source
 
-main.ts:66092
+main.ts:66100
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Inherited from
 
-[IBaseResponseInfo](IBaseResponseInfo.md).[tasks_count](IBaseResponseInfo.md#tasks_count)
+[`IBaseResponseInfo`](IBaseResponseInfo.md).[`tasks_count`](IBaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23100
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Inherited from
 
-[IBaseResponseInfo](IBaseResponseInfo.md).[tasks_error](IBaseResponseInfo.md#tasks_error)
+[`IBaseResponseInfo`](IBaseResponseInfo.md).[`tasks_error`](IBaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23102
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Inherited from
 
-[IBaseResponseInfo](IBaseResponseInfo.md).[time](IBaseResponseInfo.md#time)
+[`IBaseResponseInfo`](IBaseResponseInfo.md).[`time`](IBaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23096
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Inherited from
 
-[IBaseResponseInfo](IBaseResponseInfo.md).[version](IBaseResponseInfo.md#version)
+[`IBaseResponseInfo`](IBaseResponseInfo.md).[`version`](IBaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23088

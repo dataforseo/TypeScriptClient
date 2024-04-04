@@ -1,42 +1,35 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksBulkNewLostReferringDomainsLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBacklinksBulkNewLostReferringDomainsLiveResultInfo
 
 # Interface: IBacklinksBulkNewLostReferringDomainsLiveResultInfo
 
-## Implemented by
-
-- [`BacklinksBulkNewLostReferringDomainsLiveResultInfo`](../classes/BacklinksBulkNewLostReferringDomainsLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IBacklinksBulkNewLostReferringDomainsLiveResultInfo.md#items)
-- [items\_count](IBacklinksBulkNewLostReferringDomainsLiveResultInfo.md#items_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`BacklinksBulkNewLostReferringDomainsLiveItem`](../classes/BacklinksBulkNewLostReferringDomainsLiveItem.md)[]
+> **`optional`** **items**: [`BacklinksBulkNewLostReferringDomainsLiveItem`](../classes/BacklinksBulkNewLostReferringDomainsLiveItem.md)[]
 
 contains relevant backlinks and referring domains data
 
-#### Defined in
+#### Source
 
-main.ts:146747
+main.ts:146755
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Defined in
+#### Source
 
-main.ts:146745
+main.ts:146753

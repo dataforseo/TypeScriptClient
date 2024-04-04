@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ImagesSearchSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ImagesSearchSerpElementItem
 
 # Class: ImagesSearchSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-  ↳ **`ImagesSearchSerpElementItem`**
 
 ## Implements
 
@@ -14,44 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ImagesSearchSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](ImagesSearchSerpElementItem.md#_discriminator)
-- [alt](ImagesSearchSerpElementItem.md#alt)
-- [encoded\_url](ImagesSearchSerpElementItem.md#encoded_url)
-- [rank\_absolute](ImagesSearchSerpElementItem.md#rank_absolute)
-- [rank\_group](ImagesSearchSerpElementItem.md#rank_group)
-- [source\_url](ImagesSearchSerpElementItem.md#source_url)
-- [subtitle](ImagesSearchSerpElementItem.md#subtitle)
-- [title](ImagesSearchSerpElementItem.md#title)
-- [url](ImagesSearchSerpElementItem.md#url)
-- [xpath](ImagesSearchSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](ImagesSearchSerpElementItem.md#init)
-- [toJSON](ImagesSearchSerpElementItem.md#tojson)
-- [fromJS](ImagesSearchSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ImagesSearchSerpElementItem(data)
 
-• **new ImagesSearchSerpElementItem**(`data?`): [`ImagesSearchSerpElementItem`](ImagesSearchSerpElementItem.md)
+> **new ImagesSearchSerpElementItem**(`data`?): [`ImagesSearchSerpElementItem`](ImagesSearchSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IImagesSearchSerpElementItem`](../interfaces/IImagesSearchSerpElementItem.md) |
+• **data?**: [`IImagesSearchSerpElementItem`](../interfaces/IImagesSearchSerpElementItem.md)
 
 #### Returns
 
@@ -59,80 +34,80 @@
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[constructor](BaseSerpElementItem.md#constructor)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:46870
+main.ts:46878
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[_discriminator](BaseSerpElementItem.md#_discriminator)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:19788
 
-___
+***
 
-### alt
+### alt?
 
-• `Optional` **alt**: `string`
+> **`optional`** **alt**: `string`
 
 the alt tag of the image
 
 #### Implementation of
 
-[IImagesSearchSerpElementItem](../interfaces/IImagesSearchSerpElementItem.md).[alt](../interfaces/IImagesSearchSerpElementItem.md#alt)
+[`IImagesSearchSerpElementItem`](../interfaces/IImagesSearchSerpElementItem.md).[`alt`](../interfaces/IImagesSearchSerpElementItem.md#alt)
 
-#### Defined in
+#### Source
 
-main.ts:46860
+main.ts:46868
 
-___
+***
 
-### encoded\_url
+### encoded\_url?
 
-• `Optional` **encoded\_url**: `string`
+> **`optional`** **encoded\_url**: `string`
 
 the URL of the cached version of the image stored on Google’s servers
 
 #### Implementation of
 
-[IImagesSearchSerpElementItem](../interfaces/IImagesSearchSerpElementItem.md).[encoded_url](../interfaces/IImagesSearchSerpElementItem.md#encoded_url)
+[`IImagesSearchSerpElementItem`](../interfaces/IImagesSearchSerpElementItem.md).[`encoded_url`](../interfaces/IImagesSearchSerpElementItem.md#encoded_url)
 
-#### Defined in
+#### Source
 
-main.ts:46866
+main.ts:46874
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP for the target domain
 absolute position among all the elements in SERP
 
 #### Implementation of
 
-[IImagesSearchSerpElementItem](../interfaces/IImagesSearchSerpElementItem.md).[rank_absolute](../interfaces/IImagesSearchSerpElementItem.md#rank_absolute)
+[`IImagesSearchSerpElementItem`](../interfaces/IImagesSearchSerpElementItem.md).[`rank_absolute`](../interfaces/IImagesSearchSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:46852
+main.ts:46860
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -140,103 +115,101 @@ positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
-[IImagesSearchSerpElementItem](../interfaces/IImagesSearchSerpElementItem.md).[rank_group](../interfaces/IImagesSearchSerpElementItem.md#rank_group)
+[`IImagesSearchSerpElementItem`](../interfaces/IImagesSearchSerpElementItem.md).[`rank_group`](../interfaces/IImagesSearchSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
-main.ts:46849
+main.ts:46857
 
-___
+***
 
-### source\_url
+### source\_url?
 
-• `Optional` **source\_url**: `string`
+> **`optional`** **source\_url**: `string`
 
 the URL of the source image
 
 #### Implementation of
 
-[IImagesSearchSerpElementItem](../interfaces/IImagesSearchSerpElementItem.md).[source_url](../interfaces/IImagesSearchSerpElementItem.md#source_url)
+[`IImagesSearchSerpElementItem`](../interfaces/IImagesSearchSerpElementItem.md).[`source_url`](../interfaces/IImagesSearchSerpElementItem.md#source_url)
 
-#### Defined in
+#### Source
 
-main.ts:46864
+main.ts:46872
 
-___
+***
 
-### subtitle
+### subtitle?
 
-• `Optional` **subtitle**: `string`
+> **`optional`** **subtitle**: `string`
 
 subtitle of the result in SERP
 
 #### Implementation of
 
-[IImagesSearchSerpElementItem](../interfaces/IImagesSearchSerpElementItem.md).[subtitle](../interfaces/IImagesSearchSerpElementItem.md#subtitle)
+[`IImagesSearchSerpElementItem`](../interfaces/IImagesSearchSerpElementItem.md).[`subtitle`](../interfaces/IImagesSearchSerpElementItem.md#subtitle)
 
-#### Defined in
+#### Source
 
-main.ts:46858
+main.ts:46866
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the result in SERP
 
 #### Implementation of
 
-[IImagesSearchSerpElementItem](../interfaces/IImagesSearchSerpElementItem.md).[title](../interfaces/IImagesSearchSerpElementItem.md#title)
+[`IImagesSearchSerpElementItem`](../interfaces/IImagesSearchSerpElementItem.md).[`title`](../interfaces/IImagesSearchSerpElementItem.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:46856
+main.ts:46864
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 the URL of the page where the image is hosted
 
 #### Implementation of
 
-[IImagesSearchSerpElementItem](../interfaces/IImagesSearchSerpElementItem.md).[url](../interfaces/IImagesSearchSerpElementItem.md#url)
+[`IImagesSearchSerpElementItem`](../interfaces/IImagesSearchSerpElementItem.md).[`url`](../interfaces/IImagesSearchSerpElementItem.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:46862
+main.ts:46870
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IImagesSearchSerpElementItem](../interfaces/IImagesSearchSerpElementItem.md).[xpath](../interfaces/IImagesSearchSerpElementItem.md#xpath)
+[`IImagesSearchSerpElementItem`](../interfaces/IImagesSearchSerpElementItem.md).[`xpath`](../interfaces/IImagesSearchSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
-main.ts:46854
+main.ts:46862
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -244,23 +217,21 @@ main.ts:46854
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[init](BaseSerpElementItem.md#init)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:46875
+main.ts:46883
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -268,23 +239,21 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[toJSON](BaseSerpElementItem.md#tojson)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:46901
+main.ts:46909
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ImagesSearchSerpElementItem`](ImagesSearchSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`ImagesSearchSerpElementItem`](ImagesSearchSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -292,8 +261,8 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[fromJS](BaseSerpElementItem.md#fromjs)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:46894
+main.ts:46902

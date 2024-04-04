@@ -1,28 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAbsoluteItems
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAbsoluteItems
 
 # Interface: IAbsoluteItems
 
-## Implemented by
-
-- [`AbsoluteItems`](../classes/AbsoluteItems.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [geo\_id](IAbsoluteItems.md#geo_id)
-- [geo\_name](IAbsoluteItems.md#geo_name)
-- [values](IAbsoluteItems.md#values)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### geo\_id
+### geo\_id?
 
-• `Optional` **geo\_id**: `string`
+> **`optional`** **geo\_id**: `string`
 
 location identifier
 you can use this field for matching obtained results with location parameters specified in the request
@@ -30,15 +22,15 @@ see the full list of available locations with their geo_id here or by making a s
 example:
 US-NY
 
-#### Defined in
+#### Source
 
-main.ts:125632
+main.ts:125640
 
-___
+***
 
-### geo\_name
+### geo\_name?
 
-• `Optional` **geo\_name**: `string`
+> **`optional`** **geo\_name**: `string`
 
 location name
 you can use this field for matching obtained results with location parameters specified in the request
@@ -46,15 +38,15 @@ see the full list of available locations with their geo_name here or by making a
 example:
 Andorra
 
-#### Defined in
+#### Source
 
-main.ts:125638
+main.ts:125646
 
-___
+***
 
-### values
+### values?
 
-• `Optional` **values**: `number`[]
+> **`optional`** **values**: `number`[]
 
 keyword popularity rates within a given location
 represents location-specific keyword popularity rate over the specified time range;
@@ -65,6 +57,6 @@ a value of 100 is the peak popularity for the term
 a value of 50 means that the term is half as popular
 a value of 0 means there was not enough data for this term
 
-#### Defined in
+#### Source
 
-main.ts:125647
+main.ts:125655

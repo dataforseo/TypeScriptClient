@@ -1,72 +1,63 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalRankOverviewLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsGoogleHistoricalRankOverviewLiveItem
 
 # Interface: IDataforseoLabsGoogleHistoricalRankOverviewLiveItem
 
-## Implemented by
-
-- [`DataforseoLabsGoogleHistoricalRankOverviewLiveItem`](../classes/DataforseoLabsGoogleHistoricalRankOverviewLiveItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [metrics](IDataforseoLabsGoogleHistoricalRankOverviewLiveItem.md#metrics)
-- [month](IDataforseoLabsGoogleHistoricalRankOverviewLiveItem.md#month)
-- [se\_type](IDataforseoLabsGoogleHistoricalRankOverviewLiveItem.md#se_type)
-- [year](IDataforseoLabsGoogleHistoricalRankOverviewLiveItem.md#year)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### metrics
+### metrics?
 
-• `Optional` **metrics**: `Object`
+> **`optional`** **metrics**: `Object`
 
 ranking data relevant to the specified domain
 
 #### Index signature
 
-▪ [key: `string`]: [`MetricsInfo`](../classes/MetricsInfo.md)
+ \[`key`: `string`\]: [`MetricsInfo`](../classes/MetricsInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:98888
+main.ts:98896
 
-___
+***
 
-### month
+### month?
 
-• `Optional` **month**: `number`
+> **`optional`** **month**: `number`
 
 month for which the data is provided
 
-#### Defined in
+#### Source
 
-main.ts:98886
+main.ts:98894
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:98882
+main.ts:98890
 
-___
+***
 
-### year
+### year?
 
-• `Optional` **year**: `number`
+> **`optional`** **year**: `number`
 
 year for which the data is provided
 
-#### Defined in
+#### Source
 
-main.ts:98884
+main.ts:98892

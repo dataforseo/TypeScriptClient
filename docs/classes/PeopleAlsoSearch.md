@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / PeopleAlsoSearch
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / PeopleAlsoSearch
 
 # Class: PeopleAlsoSearch
 
@@ -8,52 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](PeopleAlsoSearch.md#constructor)
-
-### Properties
-
-- [cid](PeopleAlsoSearch.md#cid)
-- [feature\_id](PeopleAlsoSearch.md#feature_id)
-- [rating](PeopleAlsoSearch.md#rating)
-- [title](PeopleAlsoSearch.md#title)
-
-### Methods
-
-- [init](PeopleAlsoSearch.md#init)
-- [toJSON](PeopleAlsoSearch.md#tojson)
-- [fromJS](PeopleAlsoSearch.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new PeopleAlsoSearch(data)
 
-• **new PeopleAlsoSearch**(`data?`): [`PeopleAlsoSearch`](PeopleAlsoSearch.md)
+> **new PeopleAlsoSearch**(`data`?): [`PeopleAlsoSearch`](PeopleAlsoSearch.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IPeopleAlsoSearch`](../interfaces/IPeopleAlsoSearch.md) |
+• **data?**: [`IPeopleAlsoSearch`](../interfaces/IPeopleAlsoSearch.md)
 
 #### Returns
 
 [`PeopleAlsoSearch`](PeopleAlsoSearch.md)
 
-#### Defined in
+#### Source
 
 main.ts:194148
 
 ## Properties
 
-### cid
+### cid?
 
-• `Optional` **cid**: `string`
+> **`optional`** **cid**: `string`
 
 google-defined client id
 unique id of a local establishment
@@ -61,119 +44,113 @@ learn more about the identifier in this help center article
 
 #### Implementation of
 
-[IPeopleAlsoSearch](../interfaces/IPeopleAlsoSearch.md).[cid](../interfaces/IPeopleAlsoSearch.md#cid)
+[`IPeopleAlsoSearch`](../interfaces/IPeopleAlsoSearch.md).[`cid`](../interfaces/IPeopleAlsoSearch.md#cid)
 
-#### Defined in
+#### Source
 
 main.ts:194135
 
-___
+***
 
-### feature\_id
+### feature\_id?
 
-• `Optional` **feature\_id**: `string`
+> **`optional`** **feature\_id**: `string`
 
 the unique identifier of the element in SERP
 learn more about the identifier in this help center article
 
 #### Implementation of
 
-[IPeopleAlsoSearch](../interfaces/IPeopleAlsoSearch.md).[feature_id](../interfaces/IPeopleAlsoSearch.md#feature_id)
+[`IPeopleAlsoSearch`](../interfaces/IPeopleAlsoSearch.md).[`feature_id`](../interfaces/IPeopleAlsoSearch.md#feature_id)
 
-#### Defined in
+#### Source
 
 main.ts:194138
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](RatingInfo.md)
 
 the element’s rating 
 the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
 
-[IPeopleAlsoSearch](../interfaces/IPeopleAlsoSearch.md).[rating](../interfaces/IPeopleAlsoSearch.md#rating)
+[`IPeopleAlsoSearch`](../interfaces/IPeopleAlsoSearch.md).[`rating`](../interfaces/IPeopleAlsoSearch.md#rating)
 
-#### Defined in
+#### Source
 
 main.ts:194144
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the element in SERP
 the name of the business entity for which the results are collected
 
 #### Implementation of
 
-[IPeopleAlsoSearch](../interfaces/IPeopleAlsoSearch.md).[title](../interfaces/IPeopleAlsoSearch.md#title)
+[`IPeopleAlsoSearch`](../interfaces/IPeopleAlsoSearch.md).[`title`](../interfaces/IPeopleAlsoSearch.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:194141
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:194157
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:194177
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`PeopleAlsoSearch`](PeopleAlsoSearch.md)
+> **`static`** **fromJS**(`data`): [`PeopleAlsoSearch`](PeopleAlsoSearch.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`PeopleAlsoSearch`](PeopleAlsoSearch.md)
 
-#### Defined in
+#### Source
 
 main.ts:194170

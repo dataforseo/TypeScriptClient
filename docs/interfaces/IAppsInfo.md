@@ -1,55 +1,47 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppsInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppsInfo
 
 # Interface: IAppsInfo
 
-## Implemented by
-
-- [`AppsInfo`](../classes/AppsInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [app\_id](IAppsInfo.md#app_id)
-- [title](IAppsInfo.md#title)
-- [url](IAppsInfo.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### app\_id
+### app\_id?
 
-• `Optional` **app\_id**: `string`
+> **`optional`** **app\_id**: `string`
 
 ID of the app
 
-#### Defined in
+#### Source
 
 main.ts:185264
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the app
 
-#### Defined in
+#### Source
 
 main.ts:185266
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL to the app page on Google Play
 
-#### Defined in
+#### Source
 
 main.ts:185268

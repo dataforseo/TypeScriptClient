@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpBingLocalPackTaskGetHtmlResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpBingLocalPackTaskGetHtmlResponseInfo
 
 # Class: SerpBingLocalPackTaskGetHtmlResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`SerpBingLocalPackTaskGetHtmlResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpBingLocalPackTaskGetHtmlResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](SerpBingLocalPackTaskGetHtmlResponseInfo.md#cost)
-- [status\_code](SerpBingLocalPackTaskGetHtmlResponseInfo.md#status_code)
-- [status\_message](SerpBingLocalPackTaskGetHtmlResponseInfo.md#status_message)
-- [tasks](SerpBingLocalPackTaskGetHtmlResponseInfo.md#tasks)
-- [tasks\_count](SerpBingLocalPackTaskGetHtmlResponseInfo.md#tasks_count)
-- [tasks\_error](SerpBingLocalPackTaskGetHtmlResponseInfo.md#tasks_error)
-- [time](SerpBingLocalPackTaskGetHtmlResponseInfo.md#time)
-- [version](SerpBingLocalPackTaskGetHtmlResponseInfo.md#version)
-
-### Methods
-
-- [init](SerpBingLocalPackTaskGetHtmlResponseInfo.md#init)
-- [toJSON](SerpBingLocalPackTaskGetHtmlResponseInfo.md#tojson)
-- [fromJS](SerpBingLocalPackTaskGetHtmlResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpBingLocalPackTaskGetHtmlResponseInfo(data)
 
-• **new SerpBingLocalPackTaskGetHtmlResponseInfo**(`data?`): [`SerpBingLocalPackTaskGetHtmlResponseInfo`](SerpBingLocalPackTaskGetHtmlResponseInfo.md)
+> **new SerpBingLocalPackTaskGetHtmlResponseInfo**(`data`?): [`SerpBingLocalPackTaskGetHtmlResponseInfo`](SerpBingLocalPackTaskGetHtmlResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpBingLocalPackTaskGetHtmlResponseInfo`](../interfaces/ISerpBingLocalPackTaskGetHtmlResponseInfo.md) |
+• **data?**: [`ISerpBingLocalPackTaskGetHtmlResponseInfo`](../interfaces/ISerpBingLocalPackTaskGetHtmlResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:59018
+main.ts:59026
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[ISerpBingLocalPackTaskGetHtmlResponseInfo](../interfaces/ISerpBingLocalPackTaskGetHtmlResponseInfo.md).[cost](../interfaces/ISerpBingLocalPackTaskGetHtmlResponseInfo.md#cost)
+[`ISerpBingLocalPackTaskGetHtmlResponseInfo`](../interfaces/ISerpBingLocalPackTaskGetHtmlResponseInfo.md).[`cost`](../interfaces/ISerpBingLocalPackTaskGetHtmlResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[ISerpBingLocalPackTaskGetHtmlResponseInfo](../interfaces/ISerpBingLocalPackTaskGetHtmlResponseInfo.md).[status_code](../interfaces/ISerpBingLocalPackTaskGetHtmlResponseInfo.md#status_code)
+[`ISerpBingLocalPackTaskGetHtmlResponseInfo`](../interfaces/ISerpBingLocalPackTaskGetHtmlResponseInfo.md).[`status_code`](../interfaces/ISerpBingLocalPackTaskGetHtmlResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[ISerpBingLocalPackTaskGetHtmlResponseInfo](../interfaces/ISerpBingLocalPackTaskGetHtmlResponseInfo.md).[status_message](../interfaces/ISerpBingLocalPackTaskGetHtmlResponseInfo.md#status_message)
+[`ISerpBingLocalPackTaskGetHtmlResponseInfo`](../interfaces/ISerpBingLocalPackTaskGetHtmlResponseInfo.md).[`status_message`](../interfaces/ISerpBingLocalPackTaskGetHtmlResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`SerpBingLocalPackTaskGetHtmlTaskInfo`](SerpBingLocalPackTaskGetHtmlTaskInfo.md)[]
+> **`optional`** **tasks**: [`SerpBingLocalPackTaskGetHtmlTaskInfo`](SerpBingLocalPackTaskGetHtmlTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[ISerpBingLocalPackTaskGetHtmlResponseInfo](../interfaces/ISerpBingLocalPackTaskGetHtmlResponseInfo.md).[tasks](../interfaces/ISerpBingLocalPackTaskGetHtmlResponseInfo.md#tasks)
+[`ISerpBingLocalPackTaskGetHtmlResponseInfo`](../interfaces/ISerpBingLocalPackTaskGetHtmlResponseInfo.md).[`tasks`](../interfaces/ISerpBingLocalPackTaskGetHtmlResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:59014
+main.ts:59022
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[ISerpBingLocalPackTaskGetHtmlResponseInfo](../interfaces/ISerpBingLocalPackTaskGetHtmlResponseInfo.md).[tasks_count](../interfaces/ISerpBingLocalPackTaskGetHtmlResponseInfo.md#tasks_count)
+[`ISerpBingLocalPackTaskGetHtmlResponseInfo`](../interfaces/ISerpBingLocalPackTaskGetHtmlResponseInfo.md).[`tasks_count`](../interfaces/ISerpBingLocalPackTaskGetHtmlResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[ISerpBingLocalPackTaskGetHtmlResponseInfo](../interfaces/ISerpBingLocalPackTaskGetHtmlResponseInfo.md).[tasks_error](../interfaces/ISerpBingLocalPackTaskGetHtmlResponseInfo.md#tasks_error)
+[`ISerpBingLocalPackTaskGetHtmlResponseInfo`](../interfaces/ISerpBingLocalPackTaskGetHtmlResponseInfo.md).[`tasks_error`](../interfaces/ISerpBingLocalPackTaskGetHtmlResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[ISerpBingLocalPackTaskGetHtmlResponseInfo](../interfaces/ISerpBingLocalPackTaskGetHtmlResponseInfo.md).[time](../interfaces/ISerpBingLocalPackTaskGetHtmlResponseInfo.md#time)
+[`ISerpBingLocalPackTaskGetHtmlResponseInfo`](../interfaces/ISerpBingLocalPackTaskGetHtmlResponseInfo.md).[`time`](../interfaces/ISerpBingLocalPackTaskGetHtmlResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[ISerpBingLocalPackTaskGetHtmlResponseInfo](../interfaces/ISerpBingLocalPackTaskGetHtmlResponseInfo.md).[version](../interfaces/ISerpBingLocalPackTaskGetHtmlResponseInfo.md#version)
+[`ISerpBingLocalPackTaskGetHtmlResponseInfo`](../interfaces/ISerpBingLocalPackTaskGetHtmlResponseInfo.md).[`version`](../interfaces/ISerpBingLocalPackTaskGetHtmlResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:59022
+main.ts:59030
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:59044
+main.ts:59052
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpBingLocalPackTaskGetHtmlResponseInfo`](SerpBingLocalPackTaskGetHtmlResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpBingLocalPackTaskGetHtmlResponseInfo`](SerpBingLocalPackTaskGetHtmlResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:59037
+main.ts:59045

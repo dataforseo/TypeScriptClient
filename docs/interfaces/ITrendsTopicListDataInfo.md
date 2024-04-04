@@ -1,44 +1,37 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ITrendsTopicListDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ITrendsTopicListDataInfo
 
 # Interface: ITrendsTopicListDataInfo
 
-## Implemented by
-
-- [`TrendsTopicListDataInfo`](../classes/TrendsTopicListDataInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [rising](ITrendsTopicListDataInfo.md#rising)
-- [top](ITrendsTopicListDataInfo.md#top)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### rising
+### rising?
 
-• `Optional` **rising**: [`TopicListDataItemInfo`](../classes/TopicListDataItemInfo.md)[]
+> **`optional`** **rising**: [`TopicListDataItemInfo`](../classes/TopicListDataItemInfo.md)[]
 
 emerging related topics
 represents the list of related topics with the biggest increase in search frequency since the last time period
 
-#### Defined in
+#### Source
 
-main.ts:124162
+main.ts:124170
 
-___
+***
 
-### top
+### top?
 
-• `Optional` **top**: [`TopicListDataItemInfo`](../classes/TopicListDataItemInfo.md)[]
+> **`optional`** **top**: [`TopicListDataItemInfo`](../classes/TopicListDataItemInfo.md)[]
 
 the most popular related topics
 represents the list of the most popular related topics
 
-#### Defined in
+#### Source
 
-main.ts:124159
+main.ts:124167

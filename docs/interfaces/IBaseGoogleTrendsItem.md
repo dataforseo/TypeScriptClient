@@ -1,23 +1,18 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBaseGoogleTrendsItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBaseGoogleTrendsItem
 
 # Interface: IBaseGoogleTrendsItem
 
-## Hierarchy
+## Extended by
 
-- **`IBaseGoogleTrendsItem`**
-
-  ↳ [`IGoogleTrendsGraphElementItem`](IGoogleTrendsGraphElementItem.md)
-
-  ↳ [`IGoogleTrendsMapElementItem`](IGoogleTrendsMapElementItem.md)
-
-  ↳ [`IGoogleTrendsQueriesListElementItem`](IGoogleTrendsQueriesListElementItem.md)
-
-  ↳ [`IGoogleTrendsTopicsListElementItem`](IGoogleTrendsTopicsListElementItem.md)
-
-## Implemented by
-
-- [`BaseGoogleTrendsItem`](../classes/BaseGoogleTrendsItem.md)
+- [`IGoogleTrendsGraphElementItem`](IGoogleTrendsGraphElementItem.md)
+- [`IGoogleTrendsMapElementItem`](IGoogleTrendsMapElementItem.md)
+- [`IGoogleTrendsQueriesListElementItem`](IGoogleTrendsQueriesListElementItem.md)
+- [`IGoogleTrendsTopicsListElementItem`](IGoogleTrendsTopicsListElementItem.md)
 
 ## Indexable
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`

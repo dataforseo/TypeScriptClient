@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageDuplicateContentRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPageDuplicateContentRequestInfo
 
 # Class: OnPageDuplicateContentRequestInfo
 
@@ -8,54 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPageDuplicateContentRequestInfo.md#constructor)
-
-### Properties
-
-- [id](OnPageDuplicateContentRequestInfo.md#id)
-- [limit](OnPageDuplicateContentRequestInfo.md#limit)
-- [offset](OnPageDuplicateContentRequestInfo.md#offset)
-- [similarity](OnPageDuplicateContentRequestInfo.md#similarity)
-- [tag](OnPageDuplicateContentRequestInfo.md#tag)
-- [url](OnPageDuplicateContentRequestInfo.md#url)
-
-### Methods
-
-- [init](OnPageDuplicateContentRequestInfo.md#init)
-- [toJSON](OnPageDuplicateContentRequestInfo.md#tojson)
-- [fromJS](OnPageDuplicateContentRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPageDuplicateContentRequestInfo(data)
 
-• **new OnPageDuplicateContentRequestInfo**(`data?`): [`OnPageDuplicateContentRequestInfo`](OnPageDuplicateContentRequestInfo.md)
+> **new OnPageDuplicateContentRequestInfo**(`data`?): [`OnPageDuplicateContentRequestInfo`](OnPageDuplicateContentRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPageDuplicateContentRequestInfo`](../interfaces/IOnPageDuplicateContentRequestInfo.md) |
+• **data?**: [`IOnPageDuplicateContentRequestInfo`](../interfaces/IOnPageDuplicateContentRequestInfo.md)
 
 #### Returns
 
 [`OnPageDuplicateContentRequestInfo`](OnPageDuplicateContentRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:152890
+main.ts:152898
 
 ## Properties
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 ID of the task
 required field
@@ -65,17 +46,17 @@ example:
 
 #### Implementation of
 
-[IOnPageDuplicateContentRequestInfo](../interfaces/IOnPageDuplicateContentRequestInfo.md).[id](../interfaces/IOnPageDuplicateContentRequestInfo.md#id)
+[`IOnPageDuplicateContentRequestInfo`](../interfaces/IOnPageDuplicateContentRequestInfo.md).[`id`](../interfaces/IOnPageDuplicateContentRequestInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:152862
+main.ts:152870
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned pages
 optional field
@@ -84,17 +65,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IOnPageDuplicateContentRequestInfo](../interfaces/IOnPageDuplicateContentRequestInfo.md).[limit](../interfaces/IOnPageDuplicateContentRequestInfo.md#limit)
+[`IOnPageDuplicateContentRequestInfo`](../interfaces/IOnPageDuplicateContentRequestInfo.md).[`limit`](../interfaces/IOnPageDuplicateContentRequestInfo.md#limit)
 
-#### Defined in
+#### Source
 
-main.ts:152875
+main.ts:152883
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned pages
 optional field
@@ -103,17 +84,17 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Implementation of
 
-[IOnPageDuplicateContentRequestInfo](../interfaces/IOnPageDuplicateContentRequestInfo.md).[offset](../interfaces/IOnPageDuplicateContentRequestInfo.md#offset)
+[`IOnPageDuplicateContentRequestInfo`](../interfaces/IOnPageDuplicateContentRequestInfo.md).[`offset`](../interfaces/IOnPageDuplicateContentRequestInfo.md#offset)
 
-#### Defined in
+#### Source
 
-main.ts:152880
+main.ts:152888
 
-___
+***
 
-### similarity
+### similarity?
 
-• `Optional` **similarity**: `number`
+> **`optional`** **similarity**: `number`
 
 content similarity score
 by default, the content is considered duplicate if the value is greater than or equals 6
@@ -121,17 +102,17 @@ you can specify any similarity score in the 0-to-10 range
 
 #### Implementation of
 
-[IOnPageDuplicateContentRequestInfo](../interfaces/IOnPageDuplicateContentRequestInfo.md).[similarity](../interfaces/IOnPageDuplicateContentRequestInfo.md#similarity)
+[`IOnPageDuplicateContentRequestInfo`](../interfaces/IOnPageDuplicateContentRequestInfo.md).[`similarity`](../interfaces/IOnPageDuplicateContentRequestInfo.md#similarity)
 
-#### Defined in
+#### Source
 
-main.ts:152870
+main.ts:152878
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -141,17 +122,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IOnPageDuplicateContentRequestInfo](../interfaces/IOnPageDuplicateContentRequestInfo.md).[tag](../interfaces/IOnPageDuplicateContentRequestInfo.md#tag)
+[`IOnPageDuplicateContentRequestInfo`](../interfaces/IOnPageDuplicateContentRequestInfo.md).[`tag`](../interfaces/IOnPageDuplicateContentRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:152886
+main.ts:152894
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 page URL
 required field
@@ -159,68 +140,62 @@ specify the initial page you want to receive duplicate content for
 
 #### Implementation of
 
-[IOnPageDuplicateContentRequestInfo](../interfaces/IOnPageDuplicateContentRequestInfo.md).[url](../interfaces/IOnPageDuplicateContentRequestInfo.md#url)
+[`IOnPageDuplicateContentRequestInfo`](../interfaces/IOnPageDuplicateContentRequestInfo.md).[`url`](../interfaces/IOnPageDuplicateContentRequestInfo.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:152866
+main.ts:152874
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:152899
+main.ts:152907
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:152921
+main.ts:152929
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPageDuplicateContentRequestInfo`](OnPageDuplicateContentRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`OnPageDuplicateContentRequestInfo`](OnPageDuplicateContentRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`OnPageDuplicateContentRequestInfo`](OnPageDuplicateContentRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:152914
+main.ts:152922

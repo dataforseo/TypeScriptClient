@@ -1,68 +1,59 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo
 
 # Interface: IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo
 
-## Implemented by
-
-- [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo`](../classes/DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo.md#items)
-- [items\_count](IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo.md#items_count)
-- [offset](IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo.md#offset)
-- [total\_count](IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo.md#total_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem`](../classes/DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md)[]
+> **`optional`** **items**: [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem`](../classes/DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md)[]
 
 items array
 
-#### Defined in
+#### Source
 
-main.ts:75264
+main.ts:75272
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Defined in
+#### Source
 
-main.ts:75260
+main.ts:75268
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned domains
 
-#### Defined in
+#### Source
 
-main.ts:75262
+main.ts:75270
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
-#### Defined in
+#### Source
 
-main.ts:75258
+main.ts:75266

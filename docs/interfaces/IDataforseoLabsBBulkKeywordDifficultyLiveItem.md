@@ -1,58 +1,50 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsBBulkKeywordDifficultyLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsBBulkKeywordDifficultyLiveItem
 
 # Interface: IDataforseoLabsBBulkKeywordDifficultyLiveItem
 
-## Implemented by
-
-- [`DataforseoLabsBBulkKeywordDifficultyLiveItem`](../classes/DataforseoLabsBBulkKeywordDifficultyLiveItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [keyword](IDataforseoLabsBBulkKeywordDifficultyLiveItem.md#keyword)
-- [keyword\_difficulty](IDataforseoLabsBBulkKeywordDifficultyLiveItem.md#keyword_difficulty)
-- [se\_type](IDataforseoLabsBBulkKeywordDifficultyLiveItem.md#se_type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:84795
+main.ts:84803
 
-___
+***
 
-### keyword\_difficulty
+### keyword\_difficulty?
 
-• `Optional` **keyword\_difficulty**: `number`
+> **`optional`** **keyword\_difficulty**: `number`
 
 difficulty of ranking in the first top-10 organic results for a keyword
 indicates the chance of getting in top-10 organic results for a keyword on a logarithmic scale from 0 to 100;
 calculated by analysing, among other parameters, link profiles of the first 10 pages in SERP;
 learn more about the metric in this help center guide
 
-#### Defined in
+#### Source
 
-main.ts:84800
+main.ts:84808
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:84793
+main.ts:84801

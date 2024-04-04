@@ -1,31 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpGoogleDatasetInfoLiveAdvancedRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ISerpGoogleDatasetInfoLiveAdvancedRequestInfo
 
 # Interface: ISerpGoogleDatasetInfoLiveAdvancedRequestInfo
 
-## Implemented by
-
-- [`SerpGoogleDatasetInfoLiveAdvancedRequestInfo`](../classes/SerpGoogleDatasetInfoLiveAdvancedRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [dataset\_id](ISerpGoogleDatasetInfoLiveAdvancedRequestInfo.md#dataset_id)
-- [device](ISerpGoogleDatasetInfoLiveAdvancedRequestInfo.md#device)
-- [language\_code](ISerpGoogleDatasetInfoLiveAdvancedRequestInfo.md#language_code)
-- [language\_name](ISerpGoogleDatasetInfoLiveAdvancedRequestInfo.md#language_name)
-- [os](ISerpGoogleDatasetInfoLiveAdvancedRequestInfo.md#os)
-- [tag](ISerpGoogleDatasetInfoLiveAdvancedRequestInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### dataset\_id
+### dataset\_id?
 
-• `Optional` **dataset\_id**: `string`
+> **`optional`** **dataset\_id**: `string`
 
 ID of the dataset
 required field
@@ -33,29 +22,29 @@ you can find dataset ID in the dataset URL or dataset item of Google Dataset Sea
 example:
 L2cvMTFqbl85ZHN6MQ==
 
-#### Defined in
+#### Source
 
-main.ts:55215
+main.ts:55223
 
-___
+***
 
-### device
+### device?
 
-• `Optional` **device**: `string`
+> **`optional`** **device**: `string`
 
 device type
 optional field
 possible value: desktop
 
-#### Defined in
+#### Source
 
-main.ts:55231
+main.ts:55239
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 optional field
@@ -63,15 +52,15 @@ if you use this field, you don’t need to specify language_name
 possible value:
 en
 
-#### Defined in
+#### Source
 
-main.ts:55227
+main.ts:55235
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -79,30 +68,30 @@ if you use this field, you don’t need to specify language_code
 possible value:
 English
 
-#### Defined in
+#### Source
 
-main.ts:55221
+main.ts:55229
 
-___
+***
 
-### os
+### os?
 
-• `Optional` **os**: `string`
+> **`optional`** **os**: `string`
 
 device operating system
 optional field
 possible values: windows, macos
 default value: windows
 
-#### Defined in
+#### Source
 
-main.ts:55236
+main.ts:55244
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -110,6 +99,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:55242
+main.ts:55250

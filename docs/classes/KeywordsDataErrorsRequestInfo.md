@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataErrorsRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataErrorsRequestInfo
 
 # Class: KeywordsDataErrorsRequestInfo
 
@@ -8,53 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataErrorsRequestInfo.md#constructor)
-
-### Properties
-
-- [datetime\_from](KeywordsDataErrorsRequestInfo.md#datetime_from)
-- [datetime\_to](KeywordsDataErrorsRequestInfo.md#datetime_to)
-- [filtered\_function](KeywordsDataErrorsRequestInfo.md#filtered_function)
-- [limit](KeywordsDataErrorsRequestInfo.md#limit)
-- [offset](KeywordsDataErrorsRequestInfo.md#offset)
-
-### Methods
-
-- [init](KeywordsDataErrorsRequestInfo.md#init)
-- [toJSON](KeywordsDataErrorsRequestInfo.md#tojson)
-- [fromJS](KeywordsDataErrorsRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordsDataErrorsRequestInfo(data)
 
-• **new KeywordsDataErrorsRequestInfo**(`data?`): [`KeywordsDataErrorsRequestInfo`](KeywordsDataErrorsRequestInfo.md)
+> **new KeywordsDataErrorsRequestInfo**(`data`?): [`KeywordsDataErrorsRequestInfo`](KeywordsDataErrorsRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordsDataErrorsRequestInfo`](../interfaces/IKeywordsDataErrorsRequestInfo.md) |
+• **data?**: [`IKeywordsDataErrorsRequestInfo`](../interfaces/IKeywordsDataErrorsRequestInfo.md)
 
 #### Returns
 
 [`KeywordsDataErrorsRequestInfo`](KeywordsDataErrorsRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:114977
+main.ts:114985
 
 ## Properties
 
-### datetime\_from
+### datetime\_from?
 
-• `Optional` **datetime\_from**: `string`
+> **`optional`** **datetime\_from**: `string`
 
 start time for filtering results
 optional field
@@ -65,17 +47,17 @@ example:
 
 #### Implementation of
 
-[IKeywordsDataErrorsRequestInfo](../interfaces/IKeywordsDataErrorsRequestInfo.md).[datetime_from](../interfaces/IKeywordsDataErrorsRequestInfo.md#datetime_from)
+[`IKeywordsDataErrorsRequestInfo`](../interfaces/IKeywordsDataErrorsRequestInfo.md).[`datetime_from`](../interfaces/IKeywordsDataErrorsRequestInfo.md#datetime_from)
 
-#### Defined in
+#### Source
 
-main.ts:114966
+main.ts:114974
 
-___
+***
 
-### datetime\_to
+### datetime\_to?
 
-• `Optional` **datetime\_to**: `string`
+> **`optional`** **datetime\_to**: `string`
 
 finish time for filtering results
 optional field
@@ -86,17 +68,17 @@ example:
 
 #### Implementation of
 
-[IKeywordsDataErrorsRequestInfo](../interfaces/IKeywordsDataErrorsRequestInfo.md).[datetime_to](../interfaces/IKeywordsDataErrorsRequestInfo.md#datetime_to)
+[`IKeywordsDataErrorsRequestInfo`](../interfaces/IKeywordsDataErrorsRequestInfo.md).[`datetime_to`](../interfaces/IKeywordsDataErrorsRequestInfo.md#datetime_to)
 
-#### Defined in
+#### Source
 
-main.ts:114973
+main.ts:114981
 
-___
+***
 
-### filtered\_function
+### filtered\_function?
 
-• `Optional` **filtered\_function**: `string`
+> **`optional`** **filtered\_function**: `string`
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -106,17 +88,17 @@ example: keywords_data/keywords_for_site/task_post, postback_url, pingback_url
 
 #### Implementation of
 
-[IKeywordsDataErrorsRequestInfo](../interfaces/IKeywordsDataErrorsRequestInfo.md).[filtered_function](../interfaces/IKeywordsDataErrorsRequestInfo.md#filtered_function)
+[`IKeywordsDataErrorsRequestInfo`](../interfaces/IKeywordsDataErrorsRequestInfo.md).[`filtered_function`](../interfaces/IKeywordsDataErrorsRequestInfo.md#filtered_function)
 
-#### Defined in
+#### Source
 
-main.ts:114959
+main.ts:114967
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -125,17 +107,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IKeywordsDataErrorsRequestInfo](../interfaces/IKeywordsDataErrorsRequestInfo.md).[limit](../interfaces/IKeywordsDataErrorsRequestInfo.md#limit)
+[`IKeywordsDataErrorsRequestInfo`](../interfaces/IKeywordsDataErrorsRequestInfo.md).[`limit`](../interfaces/IKeywordsDataErrorsRequestInfo.md#limit)
 
-#### Defined in
+#### Source
 
-main.ts:114948
+main.ts:114956
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned tasks
 optional field
@@ -144,68 +126,62 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Implementation of
 
-[IKeywordsDataErrorsRequestInfo](../interfaces/IKeywordsDataErrorsRequestInfo.md).[offset](../interfaces/IKeywordsDataErrorsRequestInfo.md#offset)
+[`IKeywordsDataErrorsRequestInfo`](../interfaces/IKeywordsDataErrorsRequestInfo.md).[`offset`](../interfaces/IKeywordsDataErrorsRequestInfo.md#offset)
 
-#### Defined in
+#### Source
 
-main.ts:114953
+main.ts:114961
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:114986
+main.ts:114994
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:115007
+main.ts:115015
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordsDataErrorsRequestInfo`](KeywordsDataErrorsRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordsDataErrorsRequestInfo`](KeywordsDataErrorsRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`KeywordsDataErrorsRequestInfo`](KeywordsDataErrorsRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:115000
+main.ts:115008

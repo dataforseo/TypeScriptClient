@@ -1,55 +1,47 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageDuplicateTagsItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IOnPageDuplicateTagsItem
 
 # Interface: IOnPageDuplicateTagsItem
 
-## Implemented by
-
-- [`OnPageDuplicateTagsItem`](../classes/OnPageDuplicateTagsItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [accumulator](IOnPageDuplicateTagsItem.md#accumulator)
-- [pages](IOnPageDuplicateTagsItem.md#pages)
-- [total\_count](IOnPageDuplicateTagsItem.md#total_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### accumulator
+### accumulator?
 
-• `Optional` **accumulator**: `string`
+> **`optional`** **accumulator**: `string`
 
 contains the value of duplicated tag
 
-#### Defined in
+#### Source
 
-main.ts:152643
+main.ts:152651
 
-___
+***
 
-### pages
+### pages?
 
-• `Optional` **pages**: [`BaseOnPageResourceItemInfo`](../classes/BaseOnPageResourceItemInfo.md)[]
+> **`optional`** **pages**: [`BaseOnPageResourceItemInfo`](../classes/BaseOnPageResourceItemInfo.md)[]
 
 pages with duplicate tags
 
-#### Defined in
+#### Source
 
-main.ts:152647
+main.ts:152655
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total count of duplicate pages
 
-#### Defined in
+#### Source
 
-main.ts:152645
+main.ts:152653

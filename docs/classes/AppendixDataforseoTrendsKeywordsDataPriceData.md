@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixDataforseoTrendsKeywordsDataPriceData
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppendixDataforseoTrendsKeywordsDataPriceData
 
 # Class: AppendixDataforseoTrendsKeywordsDataPriceData
 
@@ -8,159 +12,132 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixDataforseoTrendsKeywordsDataPriceData.md#constructor)
-
-### Properties
-
-- [demography](AppendixDataforseoTrendsKeywordsDataPriceData.md#demography)
-- [explore](AppendixDataforseoTrendsKeywordsDataPriceData.md#explore)
-- [merged\_data](AppendixDataforseoTrendsKeywordsDataPriceData.md#merged_data)
-- [subregion\_interests](AppendixDataforseoTrendsKeywordsDataPriceData.md#subregion_interests)
-
-### Methods
-
-- [init](AppendixDataforseoTrendsKeywordsDataPriceData.md#init)
-- [toJSON](AppendixDataforseoTrendsKeywordsDataPriceData.md#tojson)
-- [fromJS](AppendixDataforseoTrendsKeywordsDataPriceData.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixDataforseoTrendsKeywordsDataPriceData(data)
 
-• **new AppendixDataforseoTrendsKeywordsDataPriceData**(`data?`): [`AppendixDataforseoTrendsKeywordsDataPriceData`](AppendixDataforseoTrendsKeywordsDataPriceData.md)
+> **new AppendixDataforseoTrendsKeywordsDataPriceData**(`data`?): [`AppendixDataforseoTrendsKeywordsDataPriceData`](AppendixDataforseoTrendsKeywordsDataPriceData.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixDataforseoTrendsKeywordsDataPriceData`](../interfaces/IAppendixDataforseoTrendsKeywordsDataPriceData.md) |
+• **data?**: [`IAppendixDataforseoTrendsKeywordsDataPriceData`](../interfaces/IAppendixDataforseoTrendsKeywordsDataPriceData.md)
 
 #### Returns
 
 [`AppendixDataforseoTrendsKeywordsDataPriceData`](AppendixDataforseoTrendsKeywordsDataPriceData.md)
 
-#### Defined in
+#### Source
 
 main.ts:215471
 
 ## Properties
 
-### demography
+### demography?
 
-• `Optional` **demography**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **demography**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDataforseoTrendsKeywordsDataPriceData](../interfaces/IAppendixDataforseoTrendsKeywordsDataPriceData.md).[demography](../interfaces/IAppendixDataforseoTrendsKeywordsDataPriceData.md#demography)
+[`IAppendixDataforseoTrendsKeywordsDataPriceData`](../interfaces/IAppendixDataforseoTrendsKeywordsDataPriceData.md).[`demography`](../interfaces/IAppendixDataforseoTrendsKeywordsDataPriceData.md#demography)
 
-#### Defined in
+#### Source
 
 main.ts:215464
 
-___
+***
 
-### explore
+### explore?
 
-• `Optional` **explore**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **explore**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDataforseoTrendsKeywordsDataPriceData](../interfaces/IAppendixDataforseoTrendsKeywordsDataPriceData.md).[explore](../interfaces/IAppendixDataforseoTrendsKeywordsDataPriceData.md#explore)
+[`IAppendixDataforseoTrendsKeywordsDataPriceData`](../interfaces/IAppendixDataforseoTrendsKeywordsDataPriceData.md).[`explore`](../interfaces/IAppendixDataforseoTrendsKeywordsDataPriceData.md#explore)
 
-#### Defined in
+#### Source
 
 main.ts:215465
 
-___
+***
 
-### merged\_data
+### merged\_data?
 
-• `Optional` **merged\_data**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **merged\_data**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDataforseoTrendsKeywordsDataPriceData](../interfaces/IAppendixDataforseoTrendsKeywordsDataPriceData.md).[merged_data](../interfaces/IAppendixDataforseoTrendsKeywordsDataPriceData.md#merged_data)
+[`IAppendixDataforseoTrendsKeywordsDataPriceData`](../interfaces/IAppendixDataforseoTrendsKeywordsDataPriceData.md).[`merged_data`](../interfaces/IAppendixDataforseoTrendsKeywordsDataPriceData.md#merged_data)
 
-#### Defined in
+#### Source
 
 main.ts:215466
 
-___
+***
 
-### subregion\_interests
+### subregion\_interests?
 
-• `Optional` **subregion\_interests**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **subregion\_interests**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDataforseoTrendsKeywordsDataPriceData](../interfaces/IAppendixDataforseoTrendsKeywordsDataPriceData.md).[subregion_interests](../interfaces/IAppendixDataforseoTrendsKeywordsDataPriceData.md#subregion_interests)
+[`IAppendixDataforseoTrendsKeywordsDataPriceData`](../interfaces/IAppendixDataforseoTrendsKeywordsDataPriceData.md).[`subregion_interests`](../interfaces/IAppendixDataforseoTrendsKeywordsDataPriceData.md#subregion_interests)
 
-#### Defined in
+#### Source
 
 main.ts:215467
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:215480
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:215500
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppendixDataforseoTrendsKeywordsDataPriceData`](AppendixDataforseoTrendsKeywordsDataPriceData.md)
+> **`static`** **fromJS**(`data`): [`AppendixDataforseoTrendsKeywordsDataPriceData`](AppendixDataforseoTrendsKeywordsDataPriceData.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppendixDataforseoTrendsKeywordsDataPriceData`](AppendixDataforseoTrendsKeywordsDataPriceData.md)
 
-#### Defined in
+#### Source
 
 main.ts:215493

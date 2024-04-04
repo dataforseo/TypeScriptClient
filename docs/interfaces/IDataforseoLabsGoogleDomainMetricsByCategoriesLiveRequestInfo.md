@@ -1,58 +1,35 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo
 
-## Implemented by
-
-- [`DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](../classes/DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [category\_codes](IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#category_codes)
-- [correlate](IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#correlate)
-- [etv\_max](IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#etv_max)
-- [etv\_min](IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#etv_min)
-- [filters](IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#filters)
-- [first\_date](IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#first_date)
-- [include\_subdomains](IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#include_subdomains)
-- [item\_types](IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#item_types)
-- [language\_code](IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#language_code)
-- [language\_name](IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#language_name)
-- [limit](IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#limit)
-- [location\_code](IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#location_code)
-- [location\_name](IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#location_name)
-- [offset](IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#offset)
-- [order\_by](IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#order_by)
-- [second\_date](IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#second_date)
-- [tag](IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#tag)
-- [top\_categories\_count](IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#top_categories_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### category\_codes
+### category\_codes?
 
-• `Optional` **category\_codes**: `string`[]
+> **`optional`** **category\_codes**: `string`[]
 
 product and service categories
 required field
 The maximum number of categories you can specify: 5
 you can download the full list of possible categories
 
-#### Defined in
+#### Source
 
-main.ts:86861
+main.ts:86869
 
-___
+***
 
-### correlate
+### correlate?
 
-• `Optional` **correlate**: `boolean`
+> **`optional`** **correlate**: `boolean`
 
 correlate data with previously obtained datasets
 optional field
@@ -61,64 +38,64 @@ if you use this parameter, our system will correlate data you obtain now with pr
 this parameter is intended to mitigate any inconsistencies that may result from changes to our database;
 Note: we do not recommend setting correlate to false
 
-#### Defined in
+#### Source
 
-main.ts:86952
+main.ts:86960
 
-___
+***
 
-### etv\_max
+### etv\_max?
 
-• `Optional` **etv\_max**: `number`
+> **`optional`** **etv\_max**: `number`
 
 maximum current organic ETV of the domain
 optional field
 if specified, the API will return only domains with organic_etv lesser than the specified value
 
-#### Defined in
+#### Source
 
-main.ts:86945
+main.ts:86953
 
-___
+***
 
-### etv\_min
+### etv\_min?
 
-• `Optional` **etv\_min**: `number`
+> **`optional`** **etv\_min**: `number`
 
 minimum current organic ETV of the domain
 optional field
 if specified, the API will return only domains with organic_etv greater than the specified value
 
-#### Defined in
+#### Source
 
-main.ts:86941
+main.ts:86949
 
-___
+***
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum);
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, <=, >, >=, =, <>, in, not_in, like, not_like;
+regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like;
 you can use the % operator with like and not_like to match any string of zero or more characters;
 example:
-["metrics_history.202110.organic.pos_1", ">", 15];
+["metrics_history.202110.organic.pos_1", ">`", 15];
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide
 
-#### Defined in
+#### Source
 
-main.ts:86973
+main.ts:86981
 
-___
+***
 
-### first\_date
+### first\_date?
 
-• `Optional` **first\_date**: `string`
+> **`optional`** **first\_date**: `string`
 
 first date of comparison period
 required field
@@ -131,15 +108,15 @@ Also note: the dates specified in first_date and second_date cannot point to the
 you can specify the dates in any order: first_date can be greater than second_date and vice versa;
 minimum date: "2020-10-01"
 
-#### Defined in
+#### Source
 
-main.ts:86872
+main.ts:86880
 
-___
+***
 
-### include\_subdomains
+### include\_subdomains?
 
-• `Optional` **include\_subdomains**: `boolean`
+> **`optional`** **include\_subdomains**: `boolean`
 
 return subdomains in the API response
 optional field
@@ -147,15 +124,15 @@ if false, the API response will contain main_domain only;
 if true, the API will return main_domain plus its subdomains (if available);
 default value: true
 
-#### Defined in
+#### Source
 
-main.ts:86937
+main.ts:86945
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 display results by item type
 optional field
@@ -166,15 +143,15 @@ possible values:
 default value:
 ["organic", "paid"]
 
-#### Defined in
+#### Source
 
-main.ts:86923
+main.ts:86931
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 unique language identifier
 required field if you don’t specify language_name
@@ -183,15 +160,15 @@ you can receive the list of available languages with their language_code by maki
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:86914
+main.ts:86922
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -201,30 +178,30 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages;
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:86907
+main.ts:86915
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of domains in the results array
 optional field
 default value: 100;
 maximum value: 1000
 
-#### Defined in
+#### Source
 
-main.ts:86957
+main.ts:86965
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 unique location identifier
 required field if you don’t specify location_name
@@ -234,15 +211,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages;
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:86899
+main.ts:86907
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code
@@ -252,30 +229,30 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages;
 example:
 United Kingdom
 
-#### Defined in
+#### Source
 
-main.ts:86891
+main.ts:86899
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned domains
 optional field
 default value: 0;
 if you specify the 10 value, the first ten domains in the results array will be omitted and the data will be provided for the successive domains
 
-#### Defined in
+#### Source
 
-main.ts:86962
+main.ts:86970
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -292,15 +269,15 @@ you should use a comma to separate several sorting rules;
 example:
 ["organic_etv,desc","organic_count,asc"]
 
-#### Defined in
+#### Source
 
-main.ts:86988
+main.ts:86996
 
-___
+***
 
-### second\_date
+### second\_date?
 
-• `Optional` **second\_date**: `string`
+> **`optional`** **second\_date**: `string`
 
 second date of comparison period
 required field
@@ -313,15 +290,15 @@ Also note: the dates specified in first_date and second_date cannot point to the
 you can specify the dates in any order: second_date can be greater than first_date and vice versa;
 minimum date: "2020-10-01"
 
-#### Defined in
+#### Source
 
-main.ts:86883
+main.ts:86891
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -329,15 +306,15 @@ the character limit is 255;
 you can use this parameter to identify the task and match it with the result;
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:86994
+main.ts:87002
 
-___
+***
 
-### top\_categories\_count
+### top\_categories\_count?
 
-• `Optional` **top\_categories\_count**: `number`
+> **`optional`** **top\_categories\_count**: `number`
 
 number of additional domain categories
 optional field
@@ -347,6 +324,6 @@ by default, top_categories_count is equal to the number of categories specified 
 Note: top_categories_count cannot be less than the number of categories in the category_codes array;
 maximum value: 5
 
-#### Defined in
+#### Source
 
-main.ts:86931
+main.ts:86939

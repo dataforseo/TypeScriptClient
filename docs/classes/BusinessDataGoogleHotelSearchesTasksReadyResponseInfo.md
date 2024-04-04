@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataGoogleHotelSearchesTasksReadyResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataGoogleHotelSearchesTasksReadyResponseInfo
 
 # Class: BusinessDataGoogleHotelSearchesTasksReadyResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`BusinessDataGoogleHotelSearchesTasksReadyResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](BusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md#cost)
-- [status\_code](BusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md#status_code)
-- [status\_message](BusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md#status_message)
-- [tasks](BusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md#tasks)
-- [tasks\_count](BusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md#tasks_count)
-- [tasks\_error](BusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md#tasks_error)
-- [time](BusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md#time)
-- [version](BusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md#version)
-
-### Methods
-
-- [init](BusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md#init)
-- [toJSON](BusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md#tojson)
-- [fromJS](BusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataGoogleHotelSearchesTasksReadyResponseInfo(data)
 
-• **new BusinessDataGoogleHotelSearchesTasksReadyResponseInfo**(`data?`): [`BusinessDataGoogleHotelSearchesTasksReadyResponseInfo`](BusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md)
+> **new BusinessDataGoogleHotelSearchesTasksReadyResponseInfo**(`data`?): [`BusinessDataGoogleHotelSearchesTasksReadyResponseInfo`](BusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md) |
+• **data?**: [`IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:198800
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md).[cost](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md#cost)
+[`IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md).[`cost`](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md).[status_code](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md#status_code)
+[`IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md).[`status_code`](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md).[status_message](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md#status_message)
+[`IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md).[`status_message`](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`BusinessDataGoogleHotelSearchesTasksReadyTaskInfo`](BusinessDataGoogleHotelSearchesTasksReadyTaskInfo.md)[]
+> **`optional`** **tasks**: [`BusinessDataGoogleHotelSearchesTasksReadyTaskInfo`](BusinessDataGoogleHotelSearchesTasksReadyTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md).[tasks](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md#tasks)
+[`IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md).[`tasks`](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
 main.ts:198796
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md).[tasks_count](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md#tasks_count)
+[`IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md).[`tasks_count`](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md).[tasks_error](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md#tasks_error)
+[`IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md).[`tasks_error`](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md).[time](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md#time)
+[`IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md).[`time`](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md).[version](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md#version)
+[`IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md).[`version`](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:198804
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:198826
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataGoogleHotelSearchesTasksReadyResponseInfo`](BusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataGoogleHotelSearchesTasksReadyResponseInfo`](BusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:198819

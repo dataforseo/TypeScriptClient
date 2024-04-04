@@ -1,42 +1,35 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixErrorsResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppendixErrorsResultInfo
 
 # Interface: IAppendixErrorsResultInfo
 
-## Implemented by
-
-- [`AppendixErrorsResultInfo`](../classes/AppendixErrorsResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [code](IAppendixErrorsResultInfo.md#code)
-- [message](IAppendixErrorsResultInfo.md#message)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### code
+### code?
 
-• `Optional` **code**: `number`
+> **`optional`** **code**: `number`
 
 code
 
-#### Defined in
+#### Source
 
 main.ts:218050
 
-___
+***
 
-### message
+### message?
 
-• `Optional` **message**: `string`
+> **`optional`** **message**: `string`
 
 message
 
-#### Defined in
+#### Source
 
 main.ts:218052

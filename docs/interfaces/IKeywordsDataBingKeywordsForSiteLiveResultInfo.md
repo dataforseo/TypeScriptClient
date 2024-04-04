@@ -1,48 +1,33 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataBingKeywordsForSiteLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IKeywordsDataBingKeywordsForSiteLiveResultInfo
 
 # Interface: IKeywordsDataBingKeywordsForSiteLiveResultInfo
 
-## Implemented by
-
-- [`KeywordsDataBingKeywordsForSiteLiveResultInfo`](../classes/KeywordsDataBingKeywordsForSiteLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [categories](IKeywordsDataBingKeywordsForSiteLiveResultInfo.md#categories)
-- [competition](IKeywordsDataBingKeywordsForSiteLiveResultInfo.md#competition)
-- [cpc](IKeywordsDataBingKeywordsForSiteLiveResultInfo.md#cpc)
-- [device](IKeywordsDataBingKeywordsForSiteLiveResultInfo.md#device)
-- [keyword](IKeywordsDataBingKeywordsForSiteLiveResultInfo.md#keyword)
-- [language\_code](IKeywordsDataBingKeywordsForSiteLiveResultInfo.md#language_code)
-- [location\_code](IKeywordsDataBingKeywordsForSiteLiveResultInfo.md#location_code)
-- [monthly\_searches](IKeywordsDataBingKeywordsForSiteLiveResultInfo.md#monthly_searches)
-- [search\_partners](IKeywordsDataBingKeywordsForSiteLiveResultInfo.md#search_partners)
-- [search\_volume](IKeywordsDataBingKeywordsForSiteLiveResultInfo.md#search_volume)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### categories
+### categories?
 
-• `Optional` **categories**: `string`[]
+> **`optional`** **categories**: `string`[]
 
 product and service categories
 legacy field, the value will always be null
 
-#### Defined in
+#### Source
 
-main.ts:130207
+main.ts:130215
 
-___
+***
 
-### competition
+### competition?
 
-• `Optional` **competition**: `number`
+> **`optional`** **competition**: `number`
 
 competition
 represents the relative amount of competition associated with the given keyword in paid SERP only. This value is based on Bing Ads data.
@@ -51,108 +36,108 @@ Possible values: 0.1, 0.5,0.90.1 – low competition,
 0.9 – high competition;
 if there is no data the value is null
 
-#### Defined in
+#### Source
 
-main.ts:130197
+main.ts:130205
 
-___
+***
 
-### cpc
+### cpc?
 
-• `Optional` **cpc**: `number`
+> **`optional`** **cpc**: `number`
 
 cost-per-click
 represents the average cost per click (USD) historically paid for the keyword.
 if there is no data, then the value is null
 
-#### Defined in
+#### Source
 
-main.ts:130201
+main.ts:130209
 
-___
+***
 
-### device
+### device?
 
-• `Optional` **device**: `string`
+> **`optional`** **device**: `string`
 
 device type in a POST array
 if there is no data, then the value is null
 
-#### Defined in
+#### Source
 
-main.ts:130190
+main.ts:130198
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:130181
+main.ts:130189
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:130185
+main.ts:130193
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:130183
+main.ts:130191
 
-___
+***
 
-### monthly\_searches
+### monthly\_searches?
 
-• `Optional` **monthly\_searches**: [`MonthlySearches`](../classes/MonthlySearches.md)[]
+> **`optional`** **monthly\_searches**: [`MonthlySearches`](../classes/MonthlySearches.md)[]
 
 monthly searches
 represents the (approximate) number of searches on this keyword (as available for the past twelve months), targeted to the specified geographic locations.
 if there is no data, then the value is null
 
-#### Defined in
+#### Source
 
-main.ts:130211
+main.ts:130219
 
-___
+***
 
-### search\_partners
+### search\_partners?
 
-• `Optional` **search\_partners**: `boolean`
+> **`optional`** **search\_partners**: `boolean`
 
 indicates whether data from partner networks included in the response
 
-#### Defined in
+#### Source
 
-main.ts:130187
+main.ts:130195
 
-___
+***
 
-### search\_volume
+### search\_volume?
 
-• `Optional` **search\_volume**: `number`
+> **`optional`** **search\_volume**: `number`
 
 monthly average search volume rate
 represents the (approximate) number of searches for the keyword on the Bing search engine, depending on the user’s targetingsearch volume is rounded to the closest decimal valuesif there is no data, then the value is null
 
-#### Defined in
+#### Source
 
-main.ts:130204
+main.ts:130212

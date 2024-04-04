@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentAnalysisLocationsResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ContentAnalysisLocationsResultInfo
 
 # Class: ContentAnalysisLocationsResultInfo
 
@@ -8,133 +12,108 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ContentAnalysisLocationsResultInfo.md#constructor)
-
-### Properties
-
-- [country\_iso\_code](ContentAnalysisLocationsResultInfo.md#country_iso_code)
-- [location\_name](ContentAnalysisLocationsResultInfo.md#location_name)
-
-### Methods
-
-- [init](ContentAnalysisLocationsResultInfo.md#init)
-- [toJSON](ContentAnalysisLocationsResultInfo.md#tojson)
-- [fromJS](ContentAnalysisLocationsResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ContentAnalysisLocationsResultInfo(data)
 
-• **new ContentAnalysisLocationsResultInfo**(`data?`): [`ContentAnalysisLocationsResultInfo`](ContentAnalysisLocationsResultInfo.md)
+> **new ContentAnalysisLocationsResultInfo**(`data`?): [`ContentAnalysisLocationsResultInfo`](ContentAnalysisLocationsResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IContentAnalysisLocationsResultInfo`](../interfaces/IContentAnalysisLocationsResultInfo.md) |
+• **data?**: [`IContentAnalysisLocationsResultInfo`](../interfaces/IContentAnalysisLocationsResultInfo.md)
 
 #### Returns
 
 [`ContentAnalysisLocationsResultInfo`](ContentAnalysisLocationsResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:160954
+main.ts:160962
 
 ## Properties
 
-### country\_iso\_code
+### country\_iso\_code?
 
-• `Optional` **country\_iso\_code**: `string`
+> **`optional`** **country\_iso\_code**: `string`
 
 ISO country code of the location
 
 #### Implementation of
 
-[IContentAnalysisLocationsResultInfo](../interfaces/IContentAnalysisLocationsResultInfo.md).[country_iso_code](../interfaces/IContentAnalysisLocationsResultInfo.md#country_iso_code)
+[`IContentAnalysisLocationsResultInfo`](../interfaces/IContentAnalysisLocationsResultInfo.md).[`country_iso_code`](../interfaces/IContentAnalysisLocationsResultInfo.md#country_iso_code)
 
-#### Defined in
+#### Source
 
-main.ts:160950
+main.ts:160958
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 
 #### Implementation of
 
-[IContentAnalysisLocationsResultInfo](../interfaces/IContentAnalysisLocationsResultInfo.md).[location_name](../interfaces/IContentAnalysisLocationsResultInfo.md#location_name)
+[`IContentAnalysisLocationsResultInfo`](../interfaces/IContentAnalysisLocationsResultInfo.md).[`location_name`](../interfaces/IContentAnalysisLocationsResultInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:160948
+main.ts:160956
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:160963
+main.ts:160971
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:160981
+main.ts:160989
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ContentAnalysisLocationsResultInfo`](ContentAnalysisLocationsResultInfo.md)
+> **`static`** **fromJS**(`data`): [`ContentAnalysisLocationsResultInfo`](ContentAnalysisLocationsResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ContentAnalysisLocationsResultInfo`](ContentAnalysisLocationsResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:160974
+main.ts:160982

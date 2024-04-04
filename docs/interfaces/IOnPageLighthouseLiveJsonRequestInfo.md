@@ -1,33 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageLighthouseLiveJsonRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IOnPageLighthouseLiveJsonRequestInfo
 
 # Interface: IOnPageLighthouseLiveJsonRequestInfo
 
-## Implemented by
-
-- [`OnPageLighthouseLiveJsonRequestInfo`](../classes/OnPageLighthouseLiveJsonRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [audits](IOnPageLighthouseLiveJsonRequestInfo.md#audits)
-- [categories](IOnPageLighthouseLiveJsonRequestInfo.md#categories)
-- [for\_mobile](IOnPageLighthouseLiveJsonRequestInfo.md#for_mobile)
-- [language\_code](IOnPageLighthouseLiveJsonRequestInfo.md#language_code)
-- [language\_name](IOnPageLighthouseLiveJsonRequestInfo.md#language_name)
-- [tag](IOnPageLighthouseLiveJsonRequestInfo.md#tag)
-- [url](IOnPageLighthouseLiveJsonRequestInfo.md#url)
-- [version](IOnPageLighthouseLiveJsonRequestInfo.md#version)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### audits
+### audits?
 
-• `Optional` **audits**: `string`[]
+> **`optional`** **audits**: `string`[]
 
 Lighthouse audits
 optional field
@@ -42,15 +29,15 @@ for example, if you ignore "categories" and specify "audits": ["metrics/cumulati
 for example, if you specify "categories": ["seo"] and "audits": ["metrics/cumulative-layout-shift","metrics/largest-contentful-paint","metrics/total-blocking-time"], you will get only these audits under “performance” and all audits under “seo”
 you can get the full list of possible audits here
 
-#### Defined in
+#### Source
 
-main.ts:160290
+main.ts:160298
 
-___
+***
 
-### categories
+### categories?
 
-• `Optional` **categories**: `string`[]
+> **`optional`** **categories**: `string`[]
 
 categories of Lighthouse audits
 optional field
@@ -60,15 +47,15 @@ use this field to get data for specific categories you indicate here
 possible values:
 seo, pwa, performance, best_practices, accessibility
 
-#### Defined in
+#### Source
 
-main.ts:160277
+main.ts:160285
 
-___
+***
 
-### for\_mobile
+### for\_mobile?
 
-• `Optional` **for\_mobile**: `boolean`
+> **`optional`** **for\_mobile**: `boolean`
 
 applies mobile emulation
 optional field
@@ -76,15 +63,15 @@ if set to true, Lighthouse will use mobile device and screen emulation to test t
 if set to false, the results will be provided for desktop
 default value: false
 
-#### Defined in
+#### Source
 
-main.ts:160269
+main.ts:160277
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 lighthouse language code
 optional field
@@ -92,15 +79,15 @@ you can receive the list of available languages of the search engine with their 
 default value:
 en
 
-#### Defined in
+#### Source
 
-main.ts:160307
+main.ts:160315
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 lighthouse language name
 optional field
@@ -108,15 +95,15 @@ you can receive the list of available languages of the search engine with their 
 default value:
 English
 
-#### Defined in
+#### Source
 
-main.ts:160301
+main.ts:160309
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -124,15 +111,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:160313
+main.ts:160321
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 target URL
 required field
@@ -140,21 +127,21 @@ target page should be specified with its absolute URL (including http:// or http
 example:
 https://dataforseo.com/
 
-#### Defined in
+#### Source
 
-main.ts:160263
+main.ts:160271
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 lighthouse version
 optional field
 you can obtain the results specific to a certain Lighthouse version by specifying its number
 the list of available versions is available through the Lighthouse Versions endpoint
 
-#### Defined in
+#### Source
 
-main.ts:160295
+main.ts:160303

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsBingRankedKeywordsLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsBingRankedKeywordsLiveRequestInfo
 
 # Class: DataforseoLabsBingRankedKeywordsLiveRequestInfo
 
@@ -8,69 +12,38 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsBingRankedKeywordsLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [filters](DataforseoLabsBingRankedKeywordsLiveRequestInfo.md#filters)
-- [historical\_serp\_mode](DataforseoLabsBingRankedKeywordsLiveRequestInfo.md#historical_serp_mode)
-- [ignore\_synonyms](DataforseoLabsBingRankedKeywordsLiveRequestInfo.md#ignore_synonyms)
-- [item\_types](DataforseoLabsBingRankedKeywordsLiveRequestInfo.md#item_types)
-- [language\_code](DataforseoLabsBingRankedKeywordsLiveRequestInfo.md#language_code)
-- [language\_name](DataforseoLabsBingRankedKeywordsLiveRequestInfo.md#language_name)
-- [limit](DataforseoLabsBingRankedKeywordsLiveRequestInfo.md#limit)
-- [load\_rank\_absolute](DataforseoLabsBingRankedKeywordsLiveRequestInfo.md#load_rank_absolute)
-- [location\_code](DataforseoLabsBingRankedKeywordsLiveRequestInfo.md#location_code)
-- [location\_name](DataforseoLabsBingRankedKeywordsLiveRequestInfo.md#location_name)
-- [offset](DataforseoLabsBingRankedKeywordsLiveRequestInfo.md#offset)
-- [order\_by](DataforseoLabsBingRankedKeywordsLiveRequestInfo.md#order_by)
-- [tag](DataforseoLabsBingRankedKeywordsLiveRequestInfo.md#tag)
-- [target](DataforseoLabsBingRankedKeywordsLiveRequestInfo.md#target)
-
-### Methods
-
-- [init](DataforseoLabsBingRankedKeywordsLiveRequestInfo.md#init)
-- [toJSON](DataforseoLabsBingRankedKeywordsLiveRequestInfo.md#tojson)
-- [fromJS](DataforseoLabsBingRankedKeywordsLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsBingRankedKeywordsLiveRequestInfo(data)
 
-• **new DataforseoLabsBingRankedKeywordsLiveRequestInfo**(`data?`): [`DataforseoLabsBingRankedKeywordsLiveRequestInfo`](DataforseoLabsBingRankedKeywordsLiveRequestInfo.md)
+> **new DataforseoLabsBingRankedKeywordsLiveRequestInfo**(`data`?): [`DataforseoLabsBingRankedKeywordsLiveRequestInfo`](DataforseoLabsBingRankedKeywordsLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsBingRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md) |
+• **data?**: [`IDataforseoLabsBingRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsBingRankedKeywordsLiveRequestInfo`](DataforseoLabsBingRankedKeywordsLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:107467
+main.ts:107475
 
 ## Properties
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, <=, >, >=, =, <>, in, not_in, like, not_like
+regex, <, `<=, >`, >=, =, <>, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["ranked_serp_element.serp_item.rank_group","<=",10]
@@ -87,17 +60,17 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Implementation of
 
-[IDataforseoLabsBingRankedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md).[filters](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md#filters)
+[`IDataforseoLabsBingRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md).[`filters`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md#filters)
 
-#### Defined in
+#### Source
 
-main.ts:107441
+main.ts:107449
 
-___
+***
 
-### historical\_serp\_mode
+### historical\_serp\_mode?
 
-• `Optional` **historical\_serp\_mode**: `string`
+> **`optional`** **historical\_serp\_mode**: `string`
 
 data collection mode
 optional field
@@ -110,17 +83,17 @@ default value: live
 
 #### Implementation of
 
-[IDataforseoLabsBingRankedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md).[historical_serp_mode](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md#historical_serp_mode)
+[`IDataforseoLabsBingRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md).[`historical_serp_mode`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md#historical_serp_mode)
 
-#### Defined in
+#### Source
 
-main.ts:107421
+main.ts:107429
 
-___
+***
 
-### ignore\_synonyms
+### ignore\_synonyms?
 
-• `Optional` **ignore\_synonyms**: `boolean`
+> **`optional`** **ignore\_synonyms**: `boolean`
 
 ignore highly similar keywords
 optional field
@@ -129,17 +102,17 @@ default value: false
 
 #### Implementation of
 
-[IDataforseoLabsBingRankedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md).[ignore_synonyms](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md#ignore_synonyms)
+[`IDataforseoLabsBingRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md).[`ignore_synonyms`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md#ignore_synonyms)
 
-#### Defined in
+#### Source
 
-main.ts:107397
+main.ts:107405
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 display results by item type
 optional field
@@ -152,17 +125,17 @@ default value:
 
 #### Implementation of
 
-[IDataforseoLabsBingRankedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md).[item_types](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md#item_types)
+[`IDataforseoLabsBingRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md).[`item_types`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md#item_types)
 
-#### Defined in
+#### Source
 
-main.ts:107392
+main.ts:107400
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 optional field
@@ -175,17 +148,17 @@ en
 
 #### Implementation of
 
-[IDataforseoLabsBingRankedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md).[language_code](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md#language_code)
+[`IDataforseoLabsBingRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:107383
+main.ts:107391
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 optional field
@@ -198,17 +171,17 @@ English
 
 #### Implementation of
 
-[IDataforseoLabsBingRankedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md).[language_name](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md#language_name)
+[`IDataforseoLabsBingRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:107374
+main.ts:107382
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned keywords
 optional field
@@ -217,17 +190,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IDataforseoLabsBingRankedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md).[limit](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md#limit)
+[`IDataforseoLabsBingRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md).[`limit`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md#limit)
 
-#### Defined in
+#### Source
 
-main.ts:107402
+main.ts:107410
 
-___
+***
 
-### load\_rank\_absolute
+### load\_rank\_absolute?
 
-• `Optional` **load\_rank\_absolute**: `boolean`
+> **`optional`** **load\_rank\_absolute**: `boolean`
 
 return rankings distribution by rank_absolute
 optional field
@@ -236,17 +209,17 @@ if set to true, we will return the field metrics_absolute containing rankings di
 
 #### Implementation of
 
-[IDataforseoLabsBingRankedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md).[load_rank_absolute](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md#load_rank_absolute)
+[`IDataforseoLabsBingRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md).[`load_rank_absolute`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md#load_rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:107412
+main.ts:107420
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 optional field
@@ -260,17 +233,17 @@ example:
 
 #### Implementation of
 
-[IDataforseoLabsBingRankedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md).[location_code](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md#location_code)
+[`IDataforseoLabsBingRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:107365
+main.ts:107373
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 optional field
@@ -284,17 +257,17 @@ United States
 
 #### Implementation of
 
-[IDataforseoLabsBingRankedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md).[location_name](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md#location_name)
+[`IDataforseoLabsBingRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:107355
+main.ts:107363
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned keywords
 optional field
@@ -303,17 +276,17 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Implementation of
 
-[IDataforseoLabsBingRankedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md).[offset](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md#offset)
+[`IDataforseoLabsBingRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md).[`offset`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md#offset)
 
-#### Defined in
+#### Source
 
-main.ts:107407
+main.ts:107415
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -333,17 +306,17 @@ example:
 
 #### Implementation of
 
-[IDataforseoLabsBingRankedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md).[order_by](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md#order_by)
+[`IDataforseoLabsBingRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md).[`order_by`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md#order_by)
 
-#### Defined in
+#### Source
 
-main.ts:107457
+main.ts:107465
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -353,17 +326,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IDataforseoLabsBingRankedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md).[tag](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md#tag)
+[`IDataforseoLabsBingRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:107463
+main.ts:107471
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 domain
 required field
@@ -377,68 +350,62 @@ example:
 
 #### Implementation of
 
-[IDataforseoLabsBingRankedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md).[target](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md#target)
+[`IDataforseoLabsBingRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md).[`target`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md#target)
 
-#### Defined in
+#### Source
 
-main.ts:107345
+main.ts:107353
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:107476
+main.ts:107484
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:107518
+main.ts:107526
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsBingRankedKeywordsLiveRequestInfo`](DataforseoLabsBingRankedKeywordsLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsBingRankedKeywordsLiveRequestInfo`](DataforseoLabsBingRankedKeywordsLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsBingRankedKeywordsLiveRequestInfo`](DataforseoLabsBingRankedKeywordsLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:107511
+main.ts:107519

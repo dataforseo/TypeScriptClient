@@ -1,41 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpGoogleLocalFinderTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ISerpGoogleLocalFinderTaskPostRequestInfo
 
 # Interface: ISerpGoogleLocalFinderTaskPostRequestInfo
 
-## Implemented by
-
-- [`SerpGoogleLocalFinderTaskPostRequestInfo`](../classes/SerpGoogleLocalFinderTaskPostRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [depth](ISerpGoogleLocalFinderTaskPostRequestInfo.md#depth)
-- [device](ISerpGoogleLocalFinderTaskPostRequestInfo.md#device)
-- [keyword](ISerpGoogleLocalFinderTaskPostRequestInfo.md#keyword)
-- [language\_code](ISerpGoogleLocalFinderTaskPostRequestInfo.md#language_code)
-- [language\_name](ISerpGoogleLocalFinderTaskPostRequestInfo.md#language_name)
-- [location\_code](ISerpGoogleLocalFinderTaskPostRequestInfo.md#location_code)
-- [location\_coordinate](ISerpGoogleLocalFinderTaskPostRequestInfo.md#location_coordinate)
-- [location\_name](ISerpGoogleLocalFinderTaskPostRequestInfo.md#location_name)
-- [min\_rating](ISerpGoogleLocalFinderTaskPostRequestInfo.md#min_rating)
-- [os](ISerpGoogleLocalFinderTaskPostRequestInfo.md#os)
-- [pingback\_url](ISerpGoogleLocalFinderTaskPostRequestInfo.md#pingback_url)
-- [postback\_data](ISerpGoogleLocalFinderTaskPostRequestInfo.md#postback_data)
-- [postback\_url](ISerpGoogleLocalFinderTaskPostRequestInfo.md#postback_url)
-- [priority](ISerpGoogleLocalFinderTaskPostRequestInfo.md#priority)
-- [tag](ISerpGoogleLocalFinderTaskPostRequestInfo.md#tag)
-- [time\_filter](ISerpGoogleLocalFinderTaskPostRequestInfo.md#time_filter)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### depth
+### depth?
 
-• `Optional` **depth**: `number`
+> **`optional`** **depth**: `number`
 
 parsing depth
 optional field
@@ -47,30 +26,30 @@ Note: your account will be billed per each SERP containing up to 20 results for 
 thus, setting a depth above 20 for desktop or above 10 for mobile may result in additional charges if the search engine returns more than 20 or 10 results respectively;
 if the specified depth is higher than the number of results in the response, the difference will be refunded to your account balance automatically
 
-#### Defined in
+#### Source
 
-main.ts:40652
+main.ts:40658
 
-___
+***
 
-### device
+### device?
 
-• `Optional` **device**: `string`
+> **`optional`** **device**: `string`
 
 device type
 optional field
 can take the values:desktop, mobile
 default value: desktop
 
-#### Defined in
+#### Source
 
-main.ts:40635
+main.ts:40641
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword
 required field
@@ -79,15 +58,15 @@ all %## will be decoded (plus symbol ‘+’ will be decoded to a space characte
 if you need to use the “%” symbol for your keyword, please specify it as “%25”;
 if you need to use the “+” symbol for your keyword, please specify it as “%2B”
 
-#### Defined in
+#### Source
 
-main.ts:40584
+main.ts:40590
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -95,15 +74,15 @@ if you use this field, you don’t need to specify language_name
 you can receive the list of available languages of the search engine with their language_code by making a separate request to the https://api.dataforseo.com/v3/serp/google/languages
 example:en
 
-#### Defined in
+#### Source
 
-main.ts:40630
+main.ts:40636
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -112,15 +91,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:40624
+main.ts:40630
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -129,15 +108,15 @@ you can receive the list of available locations of the search engines with their
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:40606
+main.ts:40612
 
-___
+***
 
-### location\_coordinate
+### location\_coordinate?
 
-• `Optional` **location\_coordinate**: `string`
+> **`optional`** **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -150,15 +129,15 @@ the maximum value for “zoom”: 18z
 example:
 52.6178549,-155.352142,20z
 
-#### Defined in
+#### Source
 
-main.ts:40617
+main.ts:40623
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -167,30 +146,30 @@ you can receive the list of available locations of the search engine with their 
 example:
 London,England,United Kingdom
 
-#### Defined in
+#### Source
 
-main.ts:40599
+main.ts:40605
 
-___
+***
 
-### min\_rating
+### min\_rating?
 
-• `Optional` **min\_rating**: `number`
+> **`optional`** **min\_rating**: `number`
 
 filter results by minimum rating
 optional field
 possible values for desktop: 3.5, 4, 4.5;
 possible values for mobile: 2, 2.5, 3, 3.5, 4, 4.5
 
-#### Defined in
+#### Source
 
-main.ts:40657
+main.ts:40663
 
-___
+***
 
-### os
+### os?
 
-• `Optional` **os**: `string`
+> **`optional`** **os**: `string`
 
 device operating system
 optional field
@@ -199,15 +178,15 @@ default value: windows
 if you specify mobile in the device field, choose from the following values: android, ios
 default value: android
 
-#### Defined in
+#### Source
 
-main.ts:40642
+main.ts:40648
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -219,15 +198,15 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special symbols in pingback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
-main.ts:40698
+main.ts:40704
 
-___
+***
 
-### postback\_data
+### postback\_data?
 
-• `Optional` **postback\_data**: `string`
+> **`optional`** **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -235,15 +214,15 @@ corresponds to the function you used for setting a task
 possible values:
 advanced, html
 
-#### Defined in
+#### Source
 
-main.ts:40688
+main.ts:40694
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -255,15 +234,15 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special symbols in postback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
-main.ts:40682
+main.ts:40688
 
-___
+***
 
-### priority
+### priority?
 
-• `Optional` **priority**: `number`
+> **`optional`** **priority**: `number`
 
 task priority
 optional field
@@ -273,15 +252,15 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page.
 
-#### Defined in
+#### Source
 
-main.ts:40592
+main.ts:40598
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -289,15 +268,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:40672
+main.ts:40678
 
-___
+***
 
-### time\_filter
+### time\_filter?
 
-• `Optional` **time\_filter**: `string`
+> **`optional`** **time\_filter**: `string`
 
 filter results by open hours
 optional field
@@ -308,6 +287,6 @@ instead of $day_value use one of these values: "monday", "tuesday", "wednesday",
 instead of $time_value use one of these values: "00", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23"
 example: "tuesday;18"
 
-#### Defined in
+#### Source
 
-main.ts:40666
+main.ts:40672

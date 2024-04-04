@@ -1,42 +1,35 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IWorkTimeInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IWorkTimeInfo
 
 # Interface: IWorkTimeInfo
 
-## Implemented by
-
-- [`WorkTimeInfo`](../classes/WorkTimeInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [hour](IWorkTimeInfo.md#hour)
-- [minute](IWorkTimeInfo.md#minute)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### hour
+### hour?
 
-• `Optional` **hour**: `number`
+> **`optional`** **hour**: `number`
 
 hours in the 24-hour format
 
-#### Defined in
+#### Source
 
 main.ts:21148
 
-___
+***
 
-### minute
+### minute?
 
-• `Optional` **minute**: `number`
+> **`optional`** **minute**: `number`
 
 minutes
 
-#### Defined in
+#### Source
 
 main.ts:21150

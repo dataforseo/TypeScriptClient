@@ -1,37 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppDataAppleAppListTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppDataAppleAppListTaskPostRequestInfo
 
 # Interface: IAppDataAppleAppListTaskPostRequestInfo
 
-## Implemented by
-
-- [`AppDataAppleAppListTaskPostRequestInfo`](../classes/AppDataAppleAppListTaskPostRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [app\_category](IAppDataAppleAppListTaskPostRequestInfo.md#app_category)
-- [app\_collection](IAppDataAppleAppListTaskPostRequestInfo.md#app_collection)
-- [depth](IAppDataAppleAppListTaskPostRequestInfo.md#depth)
-- [language\_code](IAppDataAppleAppListTaskPostRequestInfo.md#language_code)
-- [language\_name](IAppDataAppleAppListTaskPostRequestInfo.md#language_name)
-- [location\_code](IAppDataAppleAppListTaskPostRequestInfo.md#location_code)
-- [location\_name](IAppDataAppleAppListTaskPostRequestInfo.md#location_name)
-- [pingback\_url](IAppDataAppleAppListTaskPostRequestInfo.md#pingback_url)
-- [postback\_data](IAppDataAppleAppListTaskPostRequestInfo.md#postback_data)
-- [postback\_url](IAppDataAppleAppListTaskPostRequestInfo.md#postback_url)
-- [priority](IAppDataAppleAppListTaskPostRequestInfo.md#priority)
-- [tag](IAppDataAppleAppListTaskPostRequestInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### app\_category
+### app\_category?
 
-• `Optional` **app\_category**: `string`
+> **`optional`** **app\_category**: `string`
 
 application category on the App Store
 optional field
@@ -40,15 +23,15 @@ example:
 lifestyle;
 you can review the full list of available categories here or by making a separate request to https://api.dataforseo.com/v3/app_data/apple/categories
 
-#### Defined in
+#### Source
 
 main.ts:190542
 
-___
+***
 
-### app\_collection
+### app\_collection?
 
-• `Optional` **app\_collection**: `string`
+> **`optional`** **app\_collection**: `string`
 
 app collection
 required field
@@ -56,15 +39,15 @@ app collection on App Store from which apps will be collected;
 you can specify the following values:
 top_free_ios, top_paid_ios, top_grossing_ios, new_ios, new_free_ios, new_paid_ios
 
-#### Defined in
+#### Source
 
 main.ts:190489
 
-___
+***
 
-### depth
+### depth?
 
-• `Optional` **depth**: `number`
+> **`optional`** **depth**: `number`
 
 parsing depth
 optional field
@@ -76,15 +59,15 @@ if the specified depth is higher than the number of results in the response, the
 default value: 100
 maximum value: 1000
 
-#### Defined in
+#### Source
 
 main.ts:190535
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 optional field
@@ -93,15 +76,15 @@ you can receive the list of available languages with their language_code by mak
 example:
 en
 
-#### Defined in
+#### Source
 
 main.ts:190517
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -110,15 +93,15 @@ you can receive the list of available languages with language_name by making a s
 example:
 English
 
-#### Defined in
+#### Source
 
 main.ts:190510
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name
@@ -127,15 +110,15 @@ you can receive the list of available locations of the search engine with their 
 example:
 9061121
 
-#### Defined in
+#### Source
 
 main.ts:190503
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -144,15 +127,15 @@ you can receive the list of available locations of the search engine with their 
 example:
 West Los Angeles,California,United States
 
-#### Defined in
+#### Source
 
 main.ts:190496
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -164,15 +147,15 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special symbols in pingback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
 main.ts:190574
 
-___
+***
 
-### postback\_data
+### postback\_data?
 
-• `Optional` **postback\_data**: `string`
+> **`optional`** **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -180,15 +163,15 @@ corresponds to the datatype that will be sent to your server
 possible values:
 advanced
 
-#### Defined in
+#### Source
 
 main.ts:190564
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -200,15 +183,15 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special symbols in postback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
 main.ts:190558
 
-___
+***
 
-### priority
+### priority?
 
-• `Optional` **priority**: `number`
+> **`optional`** **priority**: `number`
 
 task priority
 optional field
@@ -218,15 +201,15 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page.
 
-#### Defined in
+#### Source
 
 main.ts:190525
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -234,6 +217,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
 main.ts:190548

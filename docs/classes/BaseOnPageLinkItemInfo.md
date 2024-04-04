@@ -1,18 +1,17 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BaseOnPageLinkItemInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BaseOnPageLinkItemInfo
 
 # Class: BaseOnPageLinkItemInfo
 
-## Hierarchy
+## Extended by
 
-- **`BaseOnPageLinkItemInfo`**
-
-  ↳ [`AnchorLinkElementItem`](AnchorLinkElementItem.md)
-
-  ↳ [`ImageLinkElementItem`](ImageLinkElementItem.md)
-
-  ↳ [`AlternateLinkElementItem`](AlternateLinkElementItem.md)
-
-  ↳ [`RedirectLinkElementItem`](RedirectLinkElementItem.md)
+- [`AnchorLinkElementItem`](AnchorLinkElementItem.md)
+- [`ImageLinkElementItem`](ImageLinkElementItem.md)
+- [`AlternateLinkElementItem`](AlternateLinkElementItem.md)
+- [`RedirectLinkElementItem`](RedirectLinkElementItem.md)
 
 ## Implements
 
@@ -20,41 +19,23 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BaseOnPageLinkItemInfo.md#constructor)
-
-### Properties
-
-- [\_discriminator](BaseOnPageLinkItemInfo.md#_discriminator)
-
-### Methods
-
-- [init](BaseOnPageLinkItemInfo.md#init)
-- [toJSON](BaseOnPageLinkItemInfo.md#tojson)
-- [fromJS](BaseOnPageLinkItemInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BaseOnPageLinkItemInfo(data)
 
-• **new BaseOnPageLinkItemInfo**(`data?`): [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md)
+> **new BaseOnPageLinkItemInfo**(`data`?): [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBaseOnPageLinkItemInfo`](../interfaces/IBaseOnPageLinkItemInfo.md) |
+• **data?**: [`IBaseOnPageLinkItemInfo`](../interfaces/IBaseOnPageLinkItemInfo.md)
 
 #### Returns
 
 [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:20772
 
@@ -62,68 +43,62 @@ main.ts:20772
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
-#### Defined in
+#### Source
 
 main.ts:20770
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:20782
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:20818
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md)
+> **`static`** **fromJS**(`data`): [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:20791

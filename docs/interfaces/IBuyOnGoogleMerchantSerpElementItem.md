@@ -1,256 +1,219 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBuyOnGoogleMerchantSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBuyOnGoogleMerchantSerpElementItem
 
 # Interface: IBuyOnGoogleMerchantSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md)
 
-  ↳ **`IBuyOnGoogleMerchantSerpElementItem`**
-
-## Implemented by
-
-- [`BuyOnGoogleMerchantSerpElementItem`](../classes/BuyOnGoogleMerchantSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [base\_price](IBuyOnGoogleMerchantSerpElementItem.md#base_price)
-- [currency](IBuyOnGoogleMerchantSerpElementItem.md#currency)
-- [details](IBuyOnGoogleMerchantSerpElementItem.md#details)
-- [domain](IBuyOnGoogleMerchantSerpElementItem.md#domain)
-- [position](IBuyOnGoogleMerchantSerpElementItem.md#position)
-- [product\_condition](IBuyOnGoogleMerchantSerpElementItem.md#product_condition)
-- [rank\_absolute](IBuyOnGoogleMerchantSerpElementItem.md#rank_absolute)
-- [rank\_group](IBuyOnGoogleMerchantSerpElementItem.md#rank_group)
-- [rating](IBuyOnGoogleMerchantSerpElementItem.md#rating)
-- [seller\_name](IBuyOnGoogleMerchantSerpElementItem.md#seller_name)
-- [shipping\_price](IBuyOnGoogleMerchantSerpElementItem.md#shipping_price)
-- [shop\_ad\_aclk](IBuyOnGoogleMerchantSerpElementItem.md#shop_ad_aclk)
-- [tax](IBuyOnGoogleMerchantSerpElementItem.md#tax)
-- [title](IBuyOnGoogleMerchantSerpElementItem.md#title)
-- [total\_price](IBuyOnGoogleMerchantSerpElementItem.md#total_price)
-- [url](IBuyOnGoogleMerchantSerpElementItem.md#url)
-- [xpath](IBuyOnGoogleMerchantSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### base\_price
+### base\_price?
 
-• `Optional` **base\_price**: `number`
+> **`optional`** **base\_price**: `number`
 
 product price without tax and shipping
 
-#### Defined in
+#### Source
 
-main.ts:172189
+main.ts:172192
 
-___
+***
 
-### currency
+### currency?
 
-• `Optional` **currency**: `string`
+> **`optional`** **currency**: `string`
 
 currency in the ISO format
 example:
 USD
 
-#### Defined in
+#### Source
 
-main.ts:172200
+main.ts:172203
 
-___
+***
 
-### details
+### details?
 
-• `Optional` **details**: `string`
+> **`optional`** **details**: `string`
 
 details and special offers
 if there are no details, the value will be null
 
-#### Defined in
+#### Source
 
-main.ts:172187
+main.ts:172190
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain in SERP
 
-#### Defined in
+#### Source
 
-main.ts:172180
+main.ts:172183
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
-the alignment of the element in Google Shopping SERP
-possible values:
+alignment of the element in SERP
+can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
-main.ts:172176
+main.ts:172179
 
-___
+***
 
-### product\_condition
+### rank\_absolute?
 
-• `Optional` **product\_condition**: `string`
-
-indicated condition of the product
-possible values: Used, Refurbished, New, null
-
-#### Defined in
-
-main.ts:172213
-
-___
-
-### rank\_absolute
-
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
 
-#### Defined in
+#### Source
 
-main.ts:172172
+main.ts:172175
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
-main.ts:172169
+main.ts:172172
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingElement`](../classes/RatingElement.md)
+> **`optional`** **rating**: [`RatingElement`](../classes/RatingElement.md)
 
 shop rating
 the shop popularity rate based on product reviews
 
-#### Defined in
+#### Source
 
-main.ts:172206
+main.ts:172209
 
-___
+***
 
-### seller\_name
+### seller\_name?
 
-• `Optional` **seller\_name**: `string`
+> **`optional`** **seller\_name**: `string`
 
 name of the seller
 the name of the company that placed a corresponding product on Google Shopping
 
-#### Defined in
+#### Source
 
-main.ts:172203
+main.ts:172206
 
-___
+***
 
-### shipping\_price
+### shipping\_price?
 
-• `Optional` **shipping\_price**: `number`
+> **`optional`** **shipping\_price**: `number`
 
 product shipping price
 
-#### Defined in
+#### Source
 
-main.ts:172194
+main.ts:172197
 
-___
+***
 
-### shop\_ad\_aclk
+### shop\_ad\_aclk?
 
-• `Optional` **shop\_ad\_aclk**: `string`
+> **`optional`** **shop\_ad\_aclk**: `string`
 
 unique ad click referral parameter
 using this parameter you can get a URL of the advertisement in Google Shopping Sellers Ad URL
 in this case, the value equals null
 
-#### Defined in
+#### Source
 
-main.ts:172210
+main.ts:172213
 
-___
+***
 
-### tax
+### tax?
 
-• `Optional` **tax**: `number`
+> **`optional`** **tax**: `number`
 
 the amount of tax
 tax is specified as the actual amount of money, not as the percentage
 
-#### Defined in
+#### Source
 
-main.ts:172192
+main.ts:172195
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 product title
 
-#### Defined in
+#### Source
 
-main.ts:172182
+main.ts:172185
 
-___
+***
 
-### total\_price
+### total\_price?
 
-• `Optional` **total\_price**: `number`
+> **`optional`** **total\_price**: `number`
 
 product price including tax and shipping
 
-#### Defined in
+#### Source
 
-main.ts:172196
+main.ts:172199
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 Google Shopping URL forwarding to the product page
 
-#### Defined in
+#### Source
 
-main.ts:172184
+main.ts:172187
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 XPath of the element
 
-#### Defined in
+#### Source
 
-main.ts:172178
+main.ts:172181

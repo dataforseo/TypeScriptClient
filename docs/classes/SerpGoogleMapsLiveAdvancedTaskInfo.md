@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleMapsLiveAdvancedTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleMapsLiveAdvancedTaskInfo
 
 # Class: SerpGoogleMapsLiveAdvancedTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`SerpGoogleMapsLiveAdvancedTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleMapsLiveAdvancedTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](SerpGoogleMapsLiveAdvancedTaskInfo.md#cost)
-- [data](SerpGoogleMapsLiveAdvancedTaskInfo.md#data)
-- [id](SerpGoogleMapsLiveAdvancedTaskInfo.md#id)
-- [path](SerpGoogleMapsLiveAdvancedTaskInfo.md#path)
-- [result](SerpGoogleMapsLiveAdvancedTaskInfo.md#result)
-- [result\_count](SerpGoogleMapsLiveAdvancedTaskInfo.md#result_count)
-- [status\_code](SerpGoogleMapsLiveAdvancedTaskInfo.md#status_code)
-- [status\_message](SerpGoogleMapsLiveAdvancedTaskInfo.md#status_message)
-- [time](SerpGoogleMapsLiveAdvancedTaskInfo.md#time)
-
-### Methods
-
-- [init](SerpGoogleMapsLiveAdvancedTaskInfo.md#init)
-- [toJSON](SerpGoogleMapsLiveAdvancedTaskInfo.md#tojson)
-- [fromJS](SerpGoogleMapsLiveAdvancedTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleMapsLiveAdvancedTaskInfo(data)
 
-• **new SerpGoogleMapsLiveAdvancedTaskInfo**(`data?`): [`SerpGoogleMapsLiveAdvancedTaskInfo`](SerpGoogleMapsLiveAdvancedTaskInfo.md)
+> **new SerpGoogleMapsLiveAdvancedTaskInfo**(`data`?): [`SerpGoogleMapsLiveAdvancedTaskInfo`](SerpGoogleMapsLiveAdvancedTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleMapsLiveAdvancedTaskInfo`](../interfaces/ISerpGoogleMapsLiveAdvancedTaskInfo.md) |
+• **data?**: [`ISerpGoogleMapsLiveAdvancedTaskInfo`](../interfaces/ISerpGoogleMapsLiveAdvancedTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:40281
+main.ts:40287
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[ISerpGoogleMapsLiveAdvancedTaskInfo](../interfaces/ISerpGoogleMapsLiveAdvancedTaskInfo.md).[cost](../interfaces/ISerpGoogleMapsLiveAdvancedTaskInfo.md#cost)
+[`ISerpGoogleMapsLiveAdvancedTaskInfo`](../interfaces/ISerpGoogleMapsLiveAdvancedTaskInfo.md).[`cost`](../interfaces/ISerpGoogleMapsLiveAdvancedTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[ISerpGoogleMapsLiveAdvancedTaskInfo](../interfaces/ISerpGoogleMapsLiveAdvancedTaskInfo.md).[data](../interfaces/ISerpGoogleMapsLiveAdvancedTaskInfo.md#data)
+[`ISerpGoogleMapsLiveAdvancedTaskInfo`](../interfaces/ISerpGoogleMapsLiveAdvancedTaskInfo.md).[`data`](../interfaces/ISerpGoogleMapsLiveAdvancedTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[ISerpGoogleMapsLiveAdvancedTaskInfo](../interfaces/ISerpGoogleMapsLiveAdvancedTaskInfo.md).[id](../interfaces/ISerpGoogleMapsLiveAdvancedTaskInfo.md#id)
+[`ISerpGoogleMapsLiveAdvancedTaskInfo`](../interfaces/ISerpGoogleMapsLiveAdvancedTaskInfo.md).[`id`](../interfaces/ISerpGoogleMapsLiveAdvancedTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[ISerpGoogleMapsLiveAdvancedTaskInfo](../interfaces/ISerpGoogleMapsLiveAdvancedTaskInfo.md).[path](../interfaces/ISerpGoogleMapsLiveAdvancedTaskInfo.md#path)
+[`ISerpGoogleMapsLiveAdvancedTaskInfo`](../interfaces/ISerpGoogleMapsLiveAdvancedTaskInfo.md).[`path`](../interfaces/ISerpGoogleMapsLiveAdvancedTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`SerpGoogleMapsLiveAdvancedResultInfo`](SerpGoogleMapsLiveAdvancedResultInfo.md)[]
+> **`optional`** **result**: [`SerpGoogleMapsLiveAdvancedResultInfo`](SerpGoogleMapsLiveAdvancedResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[ISerpGoogleMapsLiveAdvancedTaskInfo](../interfaces/ISerpGoogleMapsLiveAdvancedTaskInfo.md).[result](../interfaces/ISerpGoogleMapsLiveAdvancedTaskInfo.md#result)
+[`ISerpGoogleMapsLiveAdvancedTaskInfo`](../interfaces/ISerpGoogleMapsLiveAdvancedTaskInfo.md).[`result`](../interfaces/ISerpGoogleMapsLiveAdvancedTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:40277
+main.ts:40283
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[ISerpGoogleMapsLiveAdvancedTaskInfo](../interfaces/ISerpGoogleMapsLiveAdvancedTaskInfo.md).[result_count](../interfaces/ISerpGoogleMapsLiveAdvancedTaskInfo.md#result_count)
+[`ISerpGoogleMapsLiveAdvancedTaskInfo`](../interfaces/ISerpGoogleMapsLiveAdvancedTaskInfo.md).[`result_count`](../interfaces/ISerpGoogleMapsLiveAdvancedTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[ISerpGoogleMapsLiveAdvancedTaskInfo](../interfaces/ISerpGoogleMapsLiveAdvancedTaskInfo.md).[status_code](../interfaces/ISerpGoogleMapsLiveAdvancedTaskInfo.md#status_code)
+[`ISerpGoogleMapsLiveAdvancedTaskInfo`](../interfaces/ISerpGoogleMapsLiveAdvancedTaskInfo.md).[`status_code`](../interfaces/ISerpGoogleMapsLiveAdvancedTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[ISerpGoogleMapsLiveAdvancedTaskInfo](../interfaces/ISerpGoogleMapsLiveAdvancedTaskInfo.md).[status_message](../interfaces/ISerpGoogleMapsLiveAdvancedTaskInfo.md#status_message)
+[`ISerpGoogleMapsLiveAdvancedTaskInfo`](../interfaces/ISerpGoogleMapsLiveAdvancedTaskInfo.md).[`status_message`](../interfaces/ISerpGoogleMapsLiveAdvancedTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[ISerpGoogleMapsLiveAdvancedTaskInfo](../interfaces/ISerpGoogleMapsLiveAdvancedTaskInfo.md).[time](../interfaces/ISerpGoogleMapsLiveAdvancedTaskInfo.md#time)
+[`ISerpGoogleMapsLiveAdvancedTaskInfo`](../interfaces/ISerpGoogleMapsLiveAdvancedTaskInfo.md).[`time`](../interfaces/ISerpGoogleMapsLiveAdvancedTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:40285
+main.ts:40291
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:40307
+main.ts:40313
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleMapsLiveAdvancedTaskInfo`](SerpGoogleMapsLiveAdvancedTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleMapsLiveAdvancedTaskInfo`](SerpGoogleMapsLiveAdvancedTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:40300
+main.ts:40306

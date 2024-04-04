@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppSerpElementItem
 
 # Class: AppSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-  ↳ **`AppSerpElementItem`**
 
 ## Implements
 
@@ -14,41 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](AppSerpElementItem.md#_discriminator)
-- [items](AppSerpElementItem.md#items)
-- [position](AppSerpElementItem.md#position)
-- [rank\_absolute](AppSerpElementItem.md#rank_absolute)
-- [rank\_group](AppSerpElementItem.md#rank_group)
-- [rectangle](AppSerpElementItem.md#rectangle)
-- [xpath](AppSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](AppSerpElementItem.md#init)
-- [toJSON](AppSerpElementItem.md#tojson)
-- [fromJS](AppSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppSerpElementItem(data)
 
-• **new AppSerpElementItem**(`data?`): [`AppSerpElementItem`](AppSerpElementItem.md)
+> **new AppSerpElementItem**(`data`?): [`AppSerpElementItem`](AppSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppSerpElementItem`](../interfaces/IAppSerpElementItem.md) |
+• **data?**: [`IAppSerpElementItem`](../interfaces/IAppSerpElementItem.md)
 
 #### Returns
 
@@ -56,9 +34,9 @@
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[constructor](BaseSerpElementItem.md#constructor)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:30495
 
@@ -66,38 +44,38 @@ main.ts:30495
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[_discriminator](BaseSerpElementItem.md#_discriminator)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:19788
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`AppElement`](AppElement.md)[]
+> **`optional`** **items**: [`AppElement`](AppElement.md)[]
 
 additional items present in the element
 if there are none, equals null
 
 #### Implementation of
 
-[IAppSerpElementItem](../interfaces/IAppSerpElementItem.md).[items](../interfaces/IAppSerpElementItem.md#items)
+[`IAppSerpElementItem`](../interfaces/IAppSerpElementItem.md).[`items`](../interfaces/IAppSerpElementItem.md#items)
 
-#### Defined in
+#### Source
 
 main.ts:30487
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -105,17 +83,17 @@ left, right
 
 #### Implementation of
 
-[IAppSerpElementItem](../interfaces/IAppSerpElementItem.md).[position](../interfaces/IAppSerpElementItem.md#position)
+[`IAppSerpElementItem`](../interfaces/IAppSerpElementItem.md).[`position`](../interfaces/IAppSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
 main.ts:30482
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -123,17 +101,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IAppSerpElementItem](../interfaces/IAppSerpElementItem.md).[rank_absolute](../interfaces/IAppSerpElementItem.md#rank_absolute)
+[`IAppSerpElementItem`](../interfaces/IAppSerpElementItem.md).[`rank_absolute`](../interfaces/IAppSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
 main.ts:30478
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
@@ -142,17 +120,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IAppSerpElementItem](../interfaces/IAppSerpElementItem.md).[rank_group](../interfaces/IAppSerpElementItem.md#rank_group)
+[`IAppSerpElementItem`](../interfaces/IAppSerpElementItem.md).[`rank_group`](../interfaces/IAppSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
 main.ts:30474
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -160,39 +138,37 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Implementation of
 
-[IAppSerpElementItem](../interfaces/IAppSerpElementItem.md).[rectangle](../interfaces/IAppSerpElementItem.md#rectangle)
+[`IAppSerpElementItem`](../interfaces/IAppSerpElementItem.md).[`rectangle`](../interfaces/IAppSerpElementItem.md#rectangle)
 
-#### Defined in
+#### Source
 
 main.ts:30491
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IAppSerpElementItem](../interfaces/IAppSerpElementItem.md).[xpath](../interfaces/IAppSerpElementItem.md#xpath)
+[`IAppSerpElementItem`](../interfaces/IAppSerpElementItem.md).[`xpath`](../interfaces/IAppSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
 main.ts:30484
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -200,23 +176,21 @@ main.ts:30484
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[init](BaseSerpElementItem.md#init)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:30500
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -224,23 +198,21 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[toJSON](BaseSerpElementItem.md#tojson)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:30527
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppSerpElementItem`](AppSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`AppSerpElementItem`](AppSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -248,8 +220,8 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[fromJS](BaseSerpElementItem.md#fromjs)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:30520

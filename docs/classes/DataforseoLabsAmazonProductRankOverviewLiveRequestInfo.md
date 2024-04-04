@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonProductRankOverviewLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsAmazonProductRankOverviewLiveRequestInfo
 
 # Class: DataforseoLabsAmazonProductRankOverviewLiveRequestInfo
 
@@ -8,54 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [asins](DataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md#asins)
-- [language\_code](DataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md#language_code)
-- [language\_name](DataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md#language_name)
-- [location\_code](DataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md#location_code)
-- [location\_name](DataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md#location_name)
-- [tag](DataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md#tag)
-
-### Methods
-
-- [init](DataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md#init)
-- [toJSON](DataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md#tojson)
-- [fromJS](DataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsAmazonProductRankOverviewLiveRequestInfo(data)
 
-• **new DataforseoLabsAmazonProductRankOverviewLiveRequestInfo**(`data?`): [`DataforseoLabsAmazonProductRankOverviewLiveRequestInfo`](DataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md)
+> **new DataforseoLabsAmazonProductRankOverviewLiveRequestInfo**(`data`?): [`DataforseoLabsAmazonProductRankOverviewLiveRequestInfo`](DataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md) |
+• **data?**: [`IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsAmazonProductRankOverviewLiveRequestInfo`](DataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:102843
+main.ts:102851
 
 ## Properties
 
-### asins
+### asins?
 
-• `Optional` **asins**: `string`[]
+> **`optional`** **asins**: `string`[]
 
 product IDs to compare
 required field
@@ -65,17 +46,17 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md).[asins](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md#asins)
+[`IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md).[`asins`](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md#asins)
 
-#### Defined in
+#### Source
 
-main.ts:102803
+main.ts:102811
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 required field if don’t specify language_name
@@ -86,17 +67,17 @@ en
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md).[language_code](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md#language_code)
+[`IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:102833
+main.ts:102841
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 required field if don’t specify language_code
@@ -107,17 +88,17 @@ English
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md).[language_name](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md#language_name)
+[`IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:102826
+main.ts:102834
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 required field if don’t specify location_name
@@ -129,17 +110,17 @@ example:
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md).[location_code](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md#location_code)
+[`IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:102819
+main.ts:102827
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 required field if don’t specify location_code
@@ -151,17 +132,17 @@ United States
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md).[location_name](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md#location_name)
+[`IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:102811
+main.ts:102819
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -171,68 +152,62 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md).[tag](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md#tag)
+[`IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:102839
+main.ts:102847
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:102852
+main.ts:102860
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:102878
+main.ts:102886
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsAmazonProductRankOverviewLiveRequestInfo`](DataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsAmazonProductRankOverviewLiveRequestInfo`](DataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsAmazonProductRankOverviewLiveRequestInfo`](DataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:102871
+main.ts:102879

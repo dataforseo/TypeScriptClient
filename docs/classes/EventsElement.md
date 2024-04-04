@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / EventsElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / EventsElement
 
 # Class: EventsElement
 
@@ -8,167 +12,140 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](EventsElement.md#constructor)
-
-### Properties
-
-- [snippet](EventsElement.md#snippet)
-- [title](EventsElement.md#title)
-- [type](EventsElement.md#type)
-- [url](EventsElement.md#url)
-
-### Methods
-
-- [init](EventsElement.md#init)
-- [toJSON](EventsElement.md#tojson)
-- [fromJS](EventsElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new EventsElement(data)
 
-• **new EventsElement**(`data?`): [`EventsElement`](EventsElement.md)
+> **new EventsElement**(`data`?): [`EventsElement`](EventsElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IEventsElement`](../interfaces/IEventsElement.md) |
+• **data?**: [`IEventsElement`](../interfaces/IEventsElement.md)
 
 #### Returns
 
 [`EventsElement`](EventsElement.md)
 
-#### Defined in
+#### Source
 
 main.ts:31811
 
 ## Properties
 
-### snippet
+### snippet?
 
-• `Optional` **snippet**: `string`
+> **`optional`** **snippet**: `string`
 
 text alongside the link title
 
 #### Implementation of
 
-[IEventsElement](../interfaces/IEventsElement.md).[snippet](../interfaces/IEventsElement.md#snippet)
+[`IEventsElement`](../interfaces/IEventsElement.md).[`snippet`](../interfaces/IEventsElement.md#snippet)
 
-#### Defined in
+#### Source
 
 main.ts:31805
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
 #### Implementation of
 
-[IEventsElement](../interfaces/IEventsElement.md).[title](../interfaces/IEventsElement.md#title)
+[`IEventsElement`](../interfaces/IEventsElement.md).[`title`](../interfaces/IEventsElement.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:31803
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IEventsElement](../interfaces/IEventsElement.md).[type](../interfaces/IEventsElement.md#type)
+[`IEventsElement`](../interfaces/IEventsElement.md).[`type`](../interfaces/IEventsElement.md#type)
 
-#### Defined in
+#### Source
 
 main.ts:31801
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL
 
 #### Implementation of
 
-[IEventsElement](../interfaces/IEventsElement.md).[url](../interfaces/IEventsElement.md#url)
+[`IEventsElement`](../interfaces/IEventsElement.md).[`url`](../interfaces/IEventsElement.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:31807
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:31820
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:31840
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`EventsElement`](EventsElement.md)
+> **`static`** **fromJS**(`data`): [`EventsElement`](EventsElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`EventsElement`](EventsElement.md)
 
-#### Defined in
+#### Source
 
 main.ts:31833

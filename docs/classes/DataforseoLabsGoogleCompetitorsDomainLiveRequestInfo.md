@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo
 
 # Class: DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo
 
@@ -8,62 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [exclude\_top\_domains](DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#exclude_top_domains)
-- [filters](DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#filters)
-- [intersecting\_domains](DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#intersecting_domains)
-- [item\_types](DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#item_types)
-- [language\_code](DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#language_code)
-- [language\_name](DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#language_name)
-- [limit](DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#limit)
-- [location\_code](DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#location_code)
-- [location\_name](DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#location_name)
-- [max\_rank\_group](DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#max_rank_group)
-- [offset](DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#offset)
-- [order\_by](DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#order_by)
-- [tag](DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#tag)
-- [target](DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#target)
-
-### Methods
-
-- [init](DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#init)
-- [toJSON](DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#tojson)
-- [fromJS](DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo(data)
 
-• **new DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo**(`data?`): [`DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo`](DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md)
+> **new DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo`](DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md) |
+• **data?**: [`IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo`](DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:90513
+main.ts:90521
 
 ## Properties
 
-### exclude\_top\_domains
+### exclude\_top\_domains?
 
-• `Optional` **exclude\_top\_domains**: `boolean`
+> **`optional`** **exclude\_top\_domains**: `boolean`
 
 indicates whether to exclude world’s largest websites
 optional field
@@ -89,27 +62,27 @@ slideshare.net
 
 #### Implementation of
 
-[IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md).[exclude_top_domains](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#exclude_top_domains)
+[`IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md).[`exclude_top_domains`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#exclude_top_domains)
 
-#### Defined in
+#### Source
 
-main.ts:90497
+main.ts:90505
 
-___
+***
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, <=, >, >=, =, <>, in, not_in
+regex, <, `<=, >`, >=, =, `<>`, in, not_in
 example:
-["metrics.organic.count",">",50]
-[["metrics.organic.pos_1","<>",0],"and",["metrics.organic.impressions_etv",">=","10"]]
+["metrics.organic.count",">`",50]
+[["metrics.organic.pos_1","`<>`",0],"and",["metrics.organic.impressions_etv",">`=","10"]]
 [[["metrics.organic.count",">=",50],"and",["metrics.organic.pos_1","in",[1,5]]],
 "or",
 ["metrics.organic.etv",">=","100"]]
@@ -117,17 +90,17 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Implementation of
 
-[IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md).[filters](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#filters)
+[`IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md).[`filters`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#filters)
 
-#### Defined in
+#### Source
 
-main.ts:90443
+main.ts:90451
 
-___
+***
 
-### intersecting\_domains
+### intersecting\_domains?
 
-• `Optional` **intersecting\_domains**: `string`[]
+> **`optional`** **intersecting\_domains**: `string`[]
 
 additional domains for improving results accuracy
 optional field
@@ -137,17 +110,17 @@ Note: you can specify up to 20 domains in this array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md).[intersecting_domains](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#intersecting_domains)
+[`IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md).[`intersecting_domains`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#intersecting_domains)
 
-#### Defined in
+#### Source
 
-main.ts:90503
+main.ts:90511
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 display results by item type
 optional field
@@ -160,17 +133,17 @@ default value:
 
 #### Implementation of
 
-[IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md).[item_types](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#item_types)
+[`IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md).[`item_types`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#item_types)
 
-#### Defined in
+#### Source
 
-main.ts:90429
+main.ts:90437
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 required field if you don’t specify language_name
@@ -182,17 +155,17 @@ en
 
 #### Implementation of
 
-[IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md).[language_code](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#language_code)
+[`IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:90420
+main.ts:90428
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -204,17 +177,17 @@ English
 
 #### Implementation of
 
-[IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md).[language_name](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#language_name)
+[`IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:90412
+main.ts:90420
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned domains
 optional field
@@ -223,17 +196,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md).[limit](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#limit)
+[`IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md).[`limit`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#limit)
 
-#### Defined in
+#### Source
 
-main.ts:90465
+main.ts:90473
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 required field if you don’t specify location_name
@@ -245,17 +218,17 @@ example:
 
 #### Implementation of
 
-[IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md).[location_code](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#location_code)
+[`IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:90404
+main.ts:90412
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code
@@ -267,17 +240,17 @@ United Kingdom
 
 #### Implementation of
 
-[IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md).[location_name](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#location_name)
+[`IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:90396
+main.ts:90404
 
-___
+***
 
-### max\_rank\_group
+### max\_rank\_group?
 
-• `Optional` **max\_rank\_group**: `number`
+> **`optional`** **max\_rank\_group**: `number`
 
 maximum rank up to which competitors will be considered
 optional field
@@ -286,17 +259,17 @@ if you specify 10 here, we will extract competitors from the top 10 Google searc
 
 #### Implementation of
 
-[IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md).[max_rank_group](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#max_rank_group)
+[`IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md).[`max_rank_group`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#max_rank_group)
 
-#### Defined in
+#### Source
 
-main.ts:90475
+main.ts:90483
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned domains
 optional field
@@ -305,17 +278,17 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Implementation of
 
-[IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md).[offset](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#offset)
+[`IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md).[`offset`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#offset)
 
-#### Defined in
+#### Source
 
-main.ts:90470
+main.ts:90478
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -336,17 +309,17 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Implementation of
 
-[IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md).[order_by](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#order_by)
+[`IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md).[`order_by`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#order_by)
 
-#### Defined in
+#### Source
 
-main.ts:90460
+main.ts:90468
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -356,17 +329,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md).[tag](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#tag)
+[`IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:90509
+main.ts:90517
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 domain
 required field
@@ -375,68 +348,62 @@ the domain should be specified without https:// and www.
 
 #### Implementation of
 
-[IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md).[target](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#target)
+[`IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md).[`target`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#target)
 
-#### Defined in
+#### Source
 
-main.ts:90388
+main.ts:90396
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:90522
+main.ts:90530
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:90568
+main.ts:90576
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo`](DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo`](DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo`](DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:90561
+main.ts:90569

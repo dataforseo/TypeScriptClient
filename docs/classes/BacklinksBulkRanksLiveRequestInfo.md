@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksBulkRanksLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BacklinksBulkRanksLiveRequestInfo
 
 # Class: BacklinksBulkRanksLiveRequestInfo
 
@@ -8,50 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BacklinksBulkRanksLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [tag](BacklinksBulkRanksLiveRequestInfo.md#tag)
-- [targets](BacklinksBulkRanksLiveRequestInfo.md#targets)
-
-### Methods
-
-- [init](BacklinksBulkRanksLiveRequestInfo.md#init)
-- [toJSON](BacklinksBulkRanksLiveRequestInfo.md#tojson)
-- [fromJS](BacklinksBulkRanksLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BacklinksBulkRanksLiveRequestInfo(data)
 
-• **new BacklinksBulkRanksLiveRequestInfo**(`data?`): [`BacklinksBulkRanksLiveRequestInfo`](BacklinksBulkRanksLiveRequestInfo.md)
+> **new BacklinksBulkRanksLiveRequestInfo**(`data`?): [`BacklinksBulkRanksLiveRequestInfo`](BacklinksBulkRanksLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBacklinksBulkRanksLiveRequestInfo`](../interfaces/IBacklinksBulkRanksLiveRequestInfo.md) |
+• **data?**: [`IBacklinksBulkRanksLiveRequestInfo`](../interfaces/IBacklinksBulkRanksLiveRequestInfo.md)
 
 #### Returns
 
 [`BacklinksBulkRanksLiveRequestInfo`](BacklinksBulkRanksLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:144753
+main.ts:144761
 
 ## Properties
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -61,17 +46,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IBacklinksBulkRanksLiveRequestInfo](../interfaces/IBacklinksBulkRanksLiveRequestInfo.md).[tag](../interfaces/IBacklinksBulkRanksLiveRequestInfo.md#tag)
+[`IBacklinksBulkRanksLiveRequestInfo`](../interfaces/IBacklinksBulkRanksLiveRequestInfo.md).[`tag`](../interfaces/IBacklinksBulkRanksLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:144749
+main.ts:144757
 
-___
+***
 
-### targets
+### targets?
 
-• `Optional` **targets**: `string`[]
+> **`optional`** **targets**: `string`[]
 
 domains, subdomains or webpages to get rank for
 required field
@@ -94,68 +79,62 @@ example:
 
 #### Implementation of
 
-[IBacklinksBulkRanksLiveRequestInfo](../interfaces/IBacklinksBulkRanksLiveRequestInfo.md).[targets](../interfaces/IBacklinksBulkRanksLiveRequestInfo.md#targets)
+[`IBacklinksBulkRanksLiveRequestInfo`](../interfaces/IBacklinksBulkRanksLiveRequestInfo.md).[`targets`](../interfaces/IBacklinksBulkRanksLiveRequestInfo.md#targets)
 
-#### Defined in
+#### Source
 
-main.ts:144743
+main.ts:144751
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:144762
+main.ts:144770
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:144784
+main.ts:144792
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BacklinksBulkRanksLiveRequestInfo`](BacklinksBulkRanksLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`BacklinksBulkRanksLiveRequestInfo`](BacklinksBulkRanksLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BacklinksBulkRanksLiveRequestInfo`](BacklinksBulkRanksLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:144777
+main.ts:144785

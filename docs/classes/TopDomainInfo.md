@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / TopDomainInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / TopDomainInfo
 
 # Class: TopDomainInfo
 
@@ -8,129 +12,104 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](TopDomainInfo.md#constructor)
-
-### Properties
-
-- [count](TopDomainInfo.md#count)
-- [domain](TopDomainInfo.md#domain)
-
-### Methods
-
-- [init](TopDomainInfo.md#init)
-- [toJSON](TopDomainInfo.md#tojson)
-- [fromJS](TopDomainInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new TopDomainInfo(data)
 
-• **new TopDomainInfo**(`data?`): [`TopDomainInfo`](TopDomainInfo.md)
+> **new TopDomainInfo**(`data`?): [`TopDomainInfo`](TopDomainInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ITopDomainInfo`](../interfaces/ITopDomainInfo.md) |
+• **data?**: [`ITopDomainInfo`](../interfaces/ITopDomainInfo.md)
 
 #### Returns
 
 [`TopDomainInfo`](TopDomainInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:22124
 
 ## Properties
 
-### count
+### count?
 
-• `Optional` **count**: `number`
+> **`optional`** **count**: `number`
 
 #### Implementation of
 
-[ITopDomainInfo](../interfaces/ITopDomainInfo.md).[count](../interfaces/ITopDomainInfo.md#count)
+[`ITopDomainInfo`](../interfaces/ITopDomainInfo.md).[`count`](../interfaces/ITopDomainInfo.md#count)
 
-#### Defined in
+#### Source
 
 main.ts:22120
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 #### Implementation of
 
-[ITopDomainInfo](../interfaces/ITopDomainInfo.md).[domain](../interfaces/ITopDomainInfo.md#domain)
+[`ITopDomainInfo`](../interfaces/ITopDomainInfo.md).[`domain`](../interfaces/ITopDomainInfo.md#domain)
 
-#### Defined in
+#### Source
 
 main.ts:22119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:22133
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:22151
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`TopDomainInfo`](TopDomainInfo.md)
+> **`static`** **fromJS**(`data`): [`TopDomainInfo`](TopDomainInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`TopDomainInfo`](TopDomainInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:22144

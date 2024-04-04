@@ -1,44 +1,37 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageResourceIssueInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IOnPageResourceIssueInfo
 
 # Interface: IOnPageResourceIssueInfo
 
 resource errors and warnings
 
-## Implemented by
-
-- [`OnPageResourceIssueInfo`](../classes/OnPageResourceIssueInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [errors](IOnPageResourceIssueInfo.md#errors)
-- [warnings](IOnPageResourceIssueInfo.md#warnings)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### errors
+### errors?
 
-• `Optional` **errors**: [`OnPageResourceIssueItemInfo`](../classes/OnPageResourceIssueItemInfo.md)[]
+> **`optional`** **errors**: [`OnPageResourceIssueItemInfo`](../classes/OnPageResourceIssueItemInfo.md)[]
 
 resource errors
 
-#### Defined in
+#### Source
 
-main.ts:150157
+main.ts:150165
 
-___
+***
 
-### warnings
+### warnings?
 
-• `Optional` **warnings**: [`OnPageResourceIssueItemInfo`](../classes/OnPageResourceIssueItemInfo.md)[]
+> **`optional`** **warnings**: [`OnPageResourceIssueItemInfo`](../classes/OnPageResourceIssueItemInfo.md)[]
 
 resource warnings
 
-#### Defined in
+#### Source
 
-main.ts:150159
+main.ts:150167

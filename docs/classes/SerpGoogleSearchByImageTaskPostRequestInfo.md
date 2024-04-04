@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleSearchByImageTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleSearchByImageTaskPostRequestInfo
 
 # Class: SerpGoogleSearchByImageTaskPostRequestInfo
 
@@ -8,66 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleSearchByImageTaskPostRequestInfo.md#constructor)
-
-### Properties
-
-- [browser\_screen\_height](SerpGoogleSearchByImageTaskPostRequestInfo.md#browser_screen_height)
-- [browser\_screen\_resolution\_ratio](SerpGoogleSearchByImageTaskPostRequestInfo.md#browser_screen_resolution_ratio)
-- [browser\_screen\_width](SerpGoogleSearchByImageTaskPostRequestInfo.md#browser_screen_width)
-- [calculate\_rectangles](SerpGoogleSearchByImageTaskPostRequestInfo.md#calculate_rectangles)
-- [image\_url](SerpGoogleSearchByImageTaskPostRequestInfo.md#image_url)
-- [language\_code](SerpGoogleSearchByImageTaskPostRequestInfo.md#language_code)
-- [language\_name](SerpGoogleSearchByImageTaskPostRequestInfo.md#language_name)
-- [location\_code](SerpGoogleSearchByImageTaskPostRequestInfo.md#location_code)
-- [location\_coordinate](SerpGoogleSearchByImageTaskPostRequestInfo.md#location_coordinate)
-- [location\_name](SerpGoogleSearchByImageTaskPostRequestInfo.md#location_name)
-- [max\_crawl\_pages](SerpGoogleSearchByImageTaskPostRequestInfo.md#max_crawl_pages)
-- [pingback\_url](SerpGoogleSearchByImageTaskPostRequestInfo.md#pingback_url)
-- [postback\_data](SerpGoogleSearchByImageTaskPostRequestInfo.md#postback_data)
-- [postback\_url](SerpGoogleSearchByImageTaskPostRequestInfo.md#postback_url)
-- [priority](SerpGoogleSearchByImageTaskPostRequestInfo.md#priority)
-- [se\_domain](SerpGoogleSearchByImageTaskPostRequestInfo.md#se_domain)
-- [search\_param](SerpGoogleSearchByImageTaskPostRequestInfo.md#search_param)
-- [tag](SerpGoogleSearchByImageTaskPostRequestInfo.md#tag)
-
-### Methods
-
-- [init](SerpGoogleSearchByImageTaskPostRequestInfo.md#init)
-- [toJSON](SerpGoogleSearchByImageTaskPostRequestInfo.md#tojson)
-- [fromJS](SerpGoogleSearchByImageTaskPostRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleSearchByImageTaskPostRequestInfo(data)
 
-• **new SerpGoogleSearchByImageTaskPostRequestInfo**(`data?`): [`SerpGoogleSearchByImageTaskPostRequestInfo`](SerpGoogleSearchByImageTaskPostRequestInfo.md)
+> **new SerpGoogleSearchByImageTaskPostRequestInfo**(`data`?): [`SerpGoogleSearchByImageTaskPostRequestInfo`](SerpGoogleSearchByImageTaskPostRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleSearchByImageTaskPostRequestInfo`](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md) |
+• **data?**: [`ISerpGoogleSearchByImageTaskPostRequestInfo`](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md)
 
 #### Returns
 
 [`SerpGoogleSearchByImageTaskPostRequestInfo`](SerpGoogleSearchByImageTaskPostRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:48034
+main.ts:48042
 
 ## Properties
 
-### browser\_screen\_height
+### browser\_screen\_height?
 
-• `Optional` **browser\_screen\_height**: `number`
+> **`optional`** **browser\_screen\_height**: `number`
 
 browser screen height
 optional field
@@ -77,17 +46,17 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Implementation of
 
-[ISerpGoogleSearchByImageTaskPostRequestInfo](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md).[browser_screen_height](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md#browser_screen_height)
+[`ISerpGoogleSearchByImageTaskPostRequestInfo`](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md).[`browser_screen_height`](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md#browser_screen_height)
 
-#### Defined in
+#### Source
 
-main.ts:47988
+main.ts:47996
 
-___
+***
 
-### browser\_screen\_resolution\_ratio
+### browser\_screen\_resolution\_ratio?
 
-• `Optional` **browser\_screen\_resolution\_ratio**: `number`
+> **`optional`** **browser\_screen\_resolution\_ratio**: `number`
 
 browser screen resolution ratio
 optional field
@@ -97,17 +66,17 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Implementation of
 
-[ISerpGoogleSearchByImageTaskPostRequestInfo](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md).[browser_screen_resolution_ratio](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md#browser_screen_resolution_ratio)
+[`ISerpGoogleSearchByImageTaskPostRequestInfo`](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md).[`browser_screen_resolution_ratio`](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md#browser_screen_resolution_ratio)
 
-#### Defined in
+#### Source
 
-main.ts:47994
+main.ts:48002
 
-___
+***
 
-### browser\_screen\_width
+### browser\_screen\_width?
 
-• `Optional` **browser\_screen\_width**: `number`
+> **`optional`** **browser\_screen\_width**: `number`
 
 browser screen width
 optional field
@@ -117,17 +86,17 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Implementation of
 
-[ISerpGoogleSearchByImageTaskPostRequestInfo](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md).[browser_screen_width](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md#browser_screen_width)
+[`ISerpGoogleSearchByImageTaskPostRequestInfo`](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md).[`browser_screen_width`](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md#browser_screen_width)
 
-#### Defined in
+#### Source
 
-main.ts:47982
+main.ts:47990
 
-___
+***
 
-### calculate\_rectangles
+### calculate\_rectangles?
 
-• `Optional` **calculate\_rectangles**: `boolean`
+> **`optional`** **calculate\_rectangles**: `boolean`
 
 calcualte pixel rankings for SERP elements in advanced results
 optional field
@@ -138,17 +107,17 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 #### Implementation of
 
-[ISerpGoogleSearchByImageTaskPostRequestInfo](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md).[calculate_rectangles](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md#calculate_rectangles)
+[`ISerpGoogleSearchByImageTaskPostRequestInfo`](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md).[`calculate_rectangles`](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md#calculate_rectangles)
 
-#### Defined in
+#### Source
 
-main.ts:47976
+main.ts:47984
 
-___
+***
 
-### image\_url
+### image\_url?
 
-• `Optional` **image\_url**: `string`
+> **`optional`** **image\_url**: `string`
 
 URL of the image
 required field
@@ -158,17 +127,17 @@ https://upload.wikimedia.org/wikipedia/commons/e/ed/Elon_Musk_Royal_Society.jpg
 
 #### Implementation of
 
-[ISerpGoogleSearchByImageTaskPostRequestInfo](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md).[image_url](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md#image_url)
+[`ISerpGoogleSearchByImageTaskPostRequestInfo`](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md).[`image_url`](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md#image_url)
 
-#### Defined in
+#### Source
 
-main.ts:47909
+main.ts:47917
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -179,17 +148,17 @@ en
 
 #### Implementation of
 
-[ISerpGoogleSearchByImageTaskPostRequestInfo](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md).[language_code](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md#language_code)
+[`ISerpGoogleSearchByImageTaskPostRequestInfo`](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md).[`language_code`](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:47962
+main.ts:47970
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -200,17 +169,17 @@ English
 
 #### Implementation of
 
-[ISerpGoogleSearchByImageTaskPostRequestInfo](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md).[language_name](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md#language_name)
+[`ISerpGoogleSearchByImageTaskPostRequestInfo`](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md).[`language_name`](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:47955
+main.ts:47963
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -221,17 +190,17 @@ example:
 
 #### Implementation of
 
-[ISerpGoogleSearchByImageTaskPostRequestInfo](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md).[location_code](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md#location_code)
+[`ISerpGoogleSearchByImageTaskPostRequestInfo`](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md).[`location_code`](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:47938
+main.ts:47946
 
-___
+***
 
-### location\_coordinate
+### location\_coordinate?
 
-• `Optional` **location\_coordinate**: `string`
+> **`optional`** **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -245,17 +214,17 @@ example:
 
 #### Implementation of
 
-[ISerpGoogleSearchByImageTaskPostRequestInfo](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md).[location_coordinate](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md#location_coordinate)
+[`ISerpGoogleSearchByImageTaskPostRequestInfo`](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md).[`location_coordinate`](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md#location_coordinate)
 
-#### Defined in
+#### Source
 
-main.ts:47948
+main.ts:47956
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -266,17 +235,17 @@ London,England,United Kingdom
 
 #### Implementation of
 
-[ISerpGoogleSearchByImageTaskPostRequestInfo](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md).[location_name](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md#location_name)
+[`ISerpGoogleSearchByImageTaskPostRequestInfo`](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md).[`location_name`](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:47931
+main.ts:47939
 
-___
+***
 
-### max\_crawl\_pages
+### max\_crawl\_pages?
 
-• `Optional` **max\_crawl\_pages**: `number`
+> **`optional`** **max\_crawl\_pages**: `number`
 
 page crawl limit
 optional field
@@ -287,17 +256,17 @@ learn more at our help center
 
 #### Implementation of
 
-[ISerpGoogleSearchByImageTaskPostRequestInfo](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md).[max_crawl_pages](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md#max_crawl_pages)
+[`ISerpGoogleSearchByImageTaskPostRequestInfo`](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md).[`max_crawl_pages`](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md#max_crawl_pages)
 
-#### Defined in
+#### Source
 
-main.ts:47924
+main.ts:47932
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -311,17 +280,17 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[ISerpGoogleSearchByImageTaskPostRequestInfo](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md).[pingback_url](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md#pingback_url)
+[`ISerpGoogleSearchByImageTaskPostRequestInfo`](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md).[`pingback_url`](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md#pingback_url)
 
-#### Defined in
+#### Source
 
-main.ts:48030
+main.ts:48038
 
-___
+***
 
-### postback\_data
+### postback\_data?
 
-• `Optional` **postback\_data**: `string`
+> **`optional`** **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -331,17 +300,17 @@ advanced
 
 #### Implementation of
 
-[ISerpGoogleSearchByImageTaskPostRequestInfo](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md).[postback_data](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md#postback_data)
+[`ISerpGoogleSearchByImageTaskPostRequestInfo`](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md).[`postback_data`](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md#postback_data)
 
-#### Defined in
+#### Source
 
-main.ts:48020
+main.ts:48028
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -355,17 +324,17 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[ISerpGoogleSearchByImageTaskPostRequestInfo](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md).[postback_url](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md#postback_url)
+[`ISerpGoogleSearchByImageTaskPostRequestInfo`](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md).[`postback_url`](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md#postback_url)
 
-#### Defined in
+#### Source
 
-main.ts:48014
+main.ts:48022
 
-___
+***
 
-### priority
+### priority?
 
-• `Optional` **priority**: `number`
+> **`optional`** **priority**: `number`
 
 task priority
 optional field
@@ -377,17 +346,17 @@ The cost can be calculated on the Pricing page.
 
 #### Implementation of
 
-[ISerpGoogleSearchByImageTaskPostRequestInfo](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md).[priority](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md#priority)
+[`ISerpGoogleSearchByImageTaskPostRequestInfo`](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md).[`priority`](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md#priority)
 
-#### Defined in
+#### Source
 
-main.ts:47917
+main.ts:47925
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain
 optional field
@@ -398,17 +367,17 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Implementation of
 
-[ISerpGoogleSearchByImageTaskPostRequestInfo](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md).[se_domain](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md#se_domain)
+[`ISerpGoogleSearchByImageTaskPostRequestInfo`](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md).[`se_domain`](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md#se_domain)
 
-#### Defined in
+#### Source
 
-main.ts:47969
+main.ts:47977
 
-___
+***
 
-### search\_param
+### search\_param?
 
-• `Optional` **search\_param**: `string`
+> **`optional`** **search\_param**: `string`
 
 additional parameters of the search query
 optional field
@@ -416,17 +385,17 @@ get the list of available parameters and additional details here
 
 #### Implementation of
 
-[ISerpGoogleSearchByImageTaskPostRequestInfo](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md).[search_param](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md#search_param)
+[`ISerpGoogleSearchByImageTaskPostRequestInfo`](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md).[`search_param`](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md#search_param)
 
-#### Defined in
+#### Source
 
-main.ts:47998
+main.ts:48006
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -436,68 +405,62 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[ISerpGoogleSearchByImageTaskPostRequestInfo](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md).[tag](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md#tag)
+[`ISerpGoogleSearchByImageTaskPostRequestInfo`](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md).[`tag`](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:48004
+main.ts:48012
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:48043
+main.ts:48051
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:48077
+main.ts:48085
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleSearchByImageTaskPostRequestInfo`](SerpGoogleSearchByImageTaskPostRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleSearchByImageTaskPostRequestInfo`](SerpGoogleSearchByImageTaskPostRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpGoogleSearchByImageTaskPostRequestInfo`](SerpGoogleSearchByImageTaskPostRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:48070
+main.ts:48078

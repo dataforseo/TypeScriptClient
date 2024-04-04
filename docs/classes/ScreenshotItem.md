@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ScreenshotItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ScreenshotItem
 
 # Class: ScreenshotItem
 
@@ -8,49 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ScreenshotItem.md#constructor)
-
-### Properties
-
-- [image](ScreenshotItem.md#image)
-
-### Methods
-
-- [init](ScreenshotItem.md#init)
-- [toJSON](ScreenshotItem.md#tojson)
-- [fromJS](ScreenshotItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ScreenshotItem(data)
 
-• **new ScreenshotItem**(`data?`): [`ScreenshotItem`](ScreenshotItem.md)
+> **new ScreenshotItem**(`data`?): [`ScreenshotItem`](ScreenshotItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IScreenshotItem`](../interfaces/IScreenshotItem.md) |
+• **data?**: [`IScreenshotItem`](../interfaces/IScreenshotItem.md)
 
 #### Returns
 
 [`ScreenshotItem`](ScreenshotItem.md)
 
-#### Defined in
+#### Source
 
 main.ts:24025
 
 ## Properties
 
-### image
+### image?
 
-• `Optional` **image**: `string`
+> **`optional`** **image**: `string`
 
 screenshot of the requested page
 URL of the page screenshot on the DataForSEO storage
@@ -58,68 +44,62 @@ note: the page screenshot saved on the DataForSEO storage only remains accessibl
 
 #### Implementation of
 
-[IScreenshotItem](../interfaces/IScreenshotItem.md).[image](../interfaces/IScreenshotItem.md#image)
+[`IScreenshotItem`](../interfaces/IScreenshotItem.md).[`image`](../interfaces/IScreenshotItem.md#image)
 
-#### Defined in
+#### Source
 
 main.ts:24021
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:24034
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:24051
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ScreenshotItem`](ScreenshotItem.md)
+> **`static`** **fromJS**(`data`): [`ScreenshotItem`](ScreenshotItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ScreenshotItem`](ScreenshotItem.md)
 
-#### Defined in
+#### Source
 
 main.ts:24044

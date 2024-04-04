@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataAttributesInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataAttributesInfo
 
 # Class: BusinessDataAttributesInfo
 
@@ -8,143 +12,118 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataAttributesInfo.md#constructor)
-
-### Properties
-
-- [available\_attributes](BusinessDataAttributesInfo.md#available_attributes)
-- [unavailable\_attributes](BusinessDataAttributesInfo.md#unavailable_attributes)
-
-### Methods
-
-- [init](BusinessDataAttributesInfo.md#init)
-- [toJSON](BusinessDataAttributesInfo.md#tojson)
-- [fromJS](BusinessDataAttributesInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataAttributesInfo(data)
 
-• **new BusinessDataAttributesInfo**(`data?`): [`BusinessDataAttributesInfo`](BusinessDataAttributesInfo.md)
+> **new BusinessDataAttributesInfo**(`data`?): [`BusinessDataAttributesInfo`](BusinessDataAttributesInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataAttributesInfo`](../interfaces/IBusinessDataAttributesInfo.md) |
+• **data?**: [`IBusinessDataAttributesInfo`](../interfaces/IBusinessDataAttributesInfo.md)
 
 #### Returns
 
 [`BusinessDataAttributesInfo`](BusinessDataAttributesInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:194057
 
 ## Properties
 
-### available\_attributes
+### available\_attributes?
 
-• `Optional` **available\_attributes**: `Object`
+> **`optional`** **available\_attributes**: `Object`
 
 available attributes
 indicates attributes a business entity can offer
 
 #### Index signature
 
-▪ [key: `string`]: (`string` \| `undefined`)[]
+ \[`key`: `string`\]: (`string` \| `undefined`)[]
 
 #### Implementation of
 
-[IBusinessDataAttributesInfo](../interfaces/IBusinessDataAttributesInfo.md).[available_attributes](../interfaces/IBusinessDataAttributesInfo.md#available_attributes)
+[`IBusinessDataAttributesInfo`](../interfaces/IBusinessDataAttributesInfo.md).[`available_attributes`](../interfaces/IBusinessDataAttributesInfo.md#available_attributes)
 
-#### Defined in
+#### Source
 
 main.ts:194050
 
-___
+***
 
-### unavailable\_attributes
+### unavailable\_attributes?
 
-• `Optional` **unavailable\_attributes**: `Object`
+> **`optional`** **unavailable\_attributes**: `Object`
 
 unavailable attributes
 indicates attributes a business entity cannot offer
 
 #### Index signature
 
-▪ [key: `string`]: (`string` \| `undefined`)[]
+ \[`key`: `string`\]: (`string` \| `undefined`)[]
 
 #### Implementation of
 
-[IBusinessDataAttributesInfo](../interfaces/IBusinessDataAttributesInfo.md).[unavailable_attributes](../interfaces/IBusinessDataAttributesInfo.md#unavailable_attributes)
+[`IBusinessDataAttributesInfo`](../interfaces/IBusinessDataAttributesInfo.md).[`unavailable_attributes`](../interfaces/IBusinessDataAttributesInfo.md#unavailable_attributes)
 
-#### Defined in
+#### Source
 
 main.ts:194053
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:194066
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:194096
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataAttributesInfo`](BusinessDataAttributesInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataAttributesInfo`](BusinessDataAttributesInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BusinessDataAttributesInfo`](BusinessDataAttributesInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:194089

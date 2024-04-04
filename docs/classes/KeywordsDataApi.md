@@ -1,149 +1,30 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataApi
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataApi
 
 # Class: KeywordsDataApi
 
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataApi.md#constructor)
-
-### Properties
-
-- [baseUrl](KeywordsDataApi.md#baseurl)
-- [http](KeywordsDataApi.md#http)
-- [jsonParseReviver](KeywordsDataApi.md#jsonparsereviver)
-
-### Methods
-
-- [bingKeywordPerformanceLive](KeywordsDataApi.md#bingkeywordperformancelive)
-- [bingKeywordPerformanceTaskGet](KeywordsDataApi.md#bingkeywordperformancetaskget)
-- [bingKeywordPerformanceTaskPost](KeywordsDataApi.md#bingkeywordperformancetaskpost)
-- [bingKeywordPerformanceTasksReady](KeywordsDataApi.md#bingkeywordperformancetasksready)
-- [bingKeywordsForKeywordsLive](KeywordsDataApi.md#bingkeywordsforkeywordslive)
-- [bingKeywordsForKeywordsTaskGet](KeywordsDataApi.md#bingkeywordsforkeywordstaskget)
-- [bingKeywordsForKeywordsTaskPost](KeywordsDataApi.md#bingkeywordsforkeywordstaskpost)
-- [bingKeywordsForKeywordsTasksReady](KeywordsDataApi.md#bingkeywordsforkeywordstasksready)
-- [bingKeywordsForSiteLive](KeywordsDataApi.md#bingkeywordsforsitelive)
-- [bingKeywordsForSiteTaskGet](KeywordsDataApi.md#bingkeywordsforsitetaskget)
-- [bingKeywordsForSiteTaskPost](KeywordsDataApi.md#bingkeywordsforsitetaskpost)
-- [bingKeywordsForSiteTasksReady](KeywordsDataApi.md#bingkeywordsforsitetasksready)
-- [bingSearchVolumeLive](KeywordsDataApi.md#bingsearchvolumelive)
-- [bingSearchVolumeTaskGet](KeywordsDataApi.md#bingsearchvolumetaskget)
-- [bingSearchVolumeTaskPost](KeywordsDataApi.md#bingsearchvolumetaskpost)
-- [bingSearchVolumeTasksReady](KeywordsDataApi.md#bingsearchvolumetasksready)
-- [dataforseoTrendsDemographyLive](KeywordsDataApi.md#dataforseotrendsdemographylive)
-- [dataforseoTrendsExploreLive](KeywordsDataApi.md#dataforseotrendsexplorelive)
-- [dataforseoTrendsMergedDataLive](KeywordsDataApi.md#dataforseotrendsmergeddatalive)
-- [dataforseoTrendsSubregionInterestsLive](KeywordsDataApi.md#dataforseotrendssubregioninterestslive)
-- [googleAdsAdTrafficByKeywordsLive](KeywordsDataApi.md#googleadsadtrafficbykeywordslive)
-- [googleAdsAdTrafficByKeywordsTaskGet](KeywordsDataApi.md#googleadsadtrafficbykeywordstaskget)
-- [googleAdsAdTrafficByKeywordsTaskPost](KeywordsDataApi.md#googleadsadtrafficbykeywordstaskpost)
-- [googleAdsAdTrafficByKeywordsTasksReady](KeywordsDataApi.md#googleadsadtrafficbykeywordstasksready)
-- [googleAdsKeywordsForKeywordsLive](KeywordsDataApi.md#googleadskeywordsforkeywordslive)
-- [googleAdsKeywordsForKeywordsTaskGet](KeywordsDataApi.md#googleadskeywordsforkeywordstaskget)
-- [googleAdsKeywordsForKeywordsTaskPost](KeywordsDataApi.md#googleadskeywordsforkeywordstaskpost)
-- [googleAdsKeywordsForKeywordsTasksReady](KeywordsDataApi.md#googleadskeywordsforkeywordstasksready)
-- [googleAdsKeywordsForSiteLive](KeywordsDataApi.md#googleadskeywordsforsitelive)
-- [googleAdsKeywordsForSiteTaskGet](KeywordsDataApi.md#googleadskeywordsforsitetaskget)
-- [googleAdsKeywordsForSiteTaskPost](KeywordsDataApi.md#googleadskeywordsforsitetaskpost)
-- [googleAdsKeywordsForSiteTasksReady](KeywordsDataApi.md#googleadskeywordsforsitetasksready)
-- [googleAdsSearchVolumeLive](KeywordsDataApi.md#googleadssearchvolumelive)
-- [googleAdsSearchVolumeTaskGet](KeywordsDataApi.md#googleadssearchvolumetaskget)
-- [googleAdsSearchVolumeTaskPost](KeywordsDataApi.md#googleadssearchvolumetaskpost)
-- [googleAdsSearchVolumeTasksReady](KeywordsDataApi.md#googleadssearchvolumetasksready)
-- [googleAdsStatus](KeywordsDataApi.md#googleadsstatus)
-- [googleTrendsCategories](KeywordsDataApi.md#googletrendscategories)
-- [googleTrendsExploreLive](KeywordsDataApi.md#googletrendsexplorelive)
-- [googleTrendsExploreTaskGet](KeywordsDataApi.md#googletrendsexploretaskget)
-- [googleTrendsExploreTaskPost](KeywordsDataApi.md#googletrendsexploretaskpost)
-- [googleTrendsExploreTasksReady](KeywordsDataApi.md#googletrendsexploretasksready)
-- [keywordsDataBingKeywordPerformanceLocationsAndLanguages](KeywordsDataApi.md#keywordsdatabingkeywordperformancelocationsandlanguages)
-- [keywordsDataBingLanguages](KeywordsDataApi.md#keywordsdatabinglanguages)
-- [keywordsDataBingLocations](KeywordsDataApi.md#keywordsdatabinglocations)
-- [keywordsDataDataforseoTrendsLocations](KeywordsDataApi.md#keywordsdatadataforseotrendslocations)
-- [keywordsDataDataforseoTrendsLocationsCountry](KeywordsDataApi.md#keywordsdatadataforseotrendslocationscountry)
-- [keywordsDataErrors](KeywordsDataApi.md#keywordsdataerrors)
-- [keywordsDataGoogleAdsLanguages](KeywordsDataApi.md#keywordsdatagoogleadslanguages)
-- [keywordsDataGoogleAdsLocations](KeywordsDataApi.md#keywordsdatagoogleadslocations)
-- [keywordsDataGoogleTrendsLanguages](KeywordsDataApi.md#keywordsdatagoogletrendslanguages)
-- [keywordsDataGoogleTrendsLocations](KeywordsDataApi.md#keywordsdatagoogletrendslocations)
-- [keywordsDataGoogleTrendsLocationsCountry](KeywordsDataApi.md#keywordsdatagoogletrendslocationscountry)
-- [keywordsDataIdList](KeywordsDataApi.md#keywordsdataidlist)
-- [processBingKeywordPerformanceLive](KeywordsDataApi.md#processbingkeywordperformancelive)
-- [processBingKeywordPerformanceTaskGet](KeywordsDataApi.md#processbingkeywordperformancetaskget)
-- [processBingKeywordPerformanceTaskPost](KeywordsDataApi.md#processbingkeywordperformancetaskpost)
-- [processBingKeywordPerformanceTasksReady](KeywordsDataApi.md#processbingkeywordperformancetasksready)
-- [processBingKeywordsForKeywordsLive](KeywordsDataApi.md#processbingkeywordsforkeywordslive)
-- [processBingKeywordsForKeywordsTaskGet](KeywordsDataApi.md#processbingkeywordsforkeywordstaskget)
-- [processBingKeywordsForKeywordsTaskPost](KeywordsDataApi.md#processbingkeywordsforkeywordstaskpost)
-- [processBingKeywordsForKeywordsTasksReady](KeywordsDataApi.md#processbingkeywordsforkeywordstasksready)
-- [processBingKeywordsForSiteLive](KeywordsDataApi.md#processbingkeywordsforsitelive)
-- [processBingKeywordsForSiteTaskGet](KeywordsDataApi.md#processbingkeywordsforsitetaskget)
-- [processBingKeywordsForSiteTaskPost](KeywordsDataApi.md#processbingkeywordsforsitetaskpost)
-- [processBingKeywordsForSiteTasksReady](KeywordsDataApi.md#processbingkeywordsforsitetasksready)
-- [processBingSearchVolumeLive](KeywordsDataApi.md#processbingsearchvolumelive)
-- [processBingSearchVolumeTaskGet](KeywordsDataApi.md#processbingsearchvolumetaskget)
-- [processBingSearchVolumeTaskPost](KeywordsDataApi.md#processbingsearchvolumetaskpost)
-- [processBingSearchVolumeTasksReady](KeywordsDataApi.md#processbingsearchvolumetasksready)
-- [processDataforseoTrendsDemographyLive](KeywordsDataApi.md#processdataforseotrendsdemographylive)
-- [processDataforseoTrendsExploreLive](KeywordsDataApi.md#processdataforseotrendsexplorelive)
-- [processDataforseoTrendsMergedDataLive](KeywordsDataApi.md#processdataforseotrendsmergeddatalive)
-- [processDataforseoTrendsSubregionInterestsLive](KeywordsDataApi.md#processdataforseotrendssubregioninterestslive)
-- [processGoogleAdsAdTrafficByKeywordsLive](KeywordsDataApi.md#processgoogleadsadtrafficbykeywordslive)
-- [processGoogleAdsAdTrafficByKeywordsTaskGet](KeywordsDataApi.md#processgoogleadsadtrafficbykeywordstaskget)
-- [processGoogleAdsAdTrafficByKeywordsTaskPost](KeywordsDataApi.md#processgoogleadsadtrafficbykeywordstaskpost)
-- [processGoogleAdsAdTrafficByKeywordsTasksReady](KeywordsDataApi.md#processgoogleadsadtrafficbykeywordstasksready)
-- [processGoogleAdsKeywordsForKeywordsLive](KeywordsDataApi.md#processgoogleadskeywordsforkeywordslive)
-- [processGoogleAdsKeywordsForKeywordsTaskGet](KeywordsDataApi.md#processgoogleadskeywordsforkeywordstaskget)
-- [processGoogleAdsKeywordsForKeywordsTaskPost](KeywordsDataApi.md#processgoogleadskeywordsforkeywordstaskpost)
-- [processGoogleAdsKeywordsForKeywordsTasksReady](KeywordsDataApi.md#processgoogleadskeywordsforkeywordstasksready)
-- [processGoogleAdsKeywordsForSiteLive](KeywordsDataApi.md#processgoogleadskeywordsforsitelive)
-- [processGoogleAdsKeywordsForSiteTaskGet](KeywordsDataApi.md#processgoogleadskeywordsforsitetaskget)
-- [processGoogleAdsKeywordsForSiteTaskPost](KeywordsDataApi.md#processgoogleadskeywordsforsitetaskpost)
-- [processGoogleAdsKeywordsForSiteTasksReady](KeywordsDataApi.md#processgoogleadskeywordsforsitetasksready)
-- [processGoogleAdsSearchVolumeLive](KeywordsDataApi.md#processgoogleadssearchvolumelive)
-- [processGoogleAdsSearchVolumeTaskGet](KeywordsDataApi.md#processgoogleadssearchvolumetaskget)
-- [processGoogleAdsSearchVolumeTaskPost](KeywordsDataApi.md#processgoogleadssearchvolumetaskpost)
-- [processGoogleAdsSearchVolumeTasksReady](KeywordsDataApi.md#processgoogleadssearchvolumetasksready)
-- [processGoogleAdsStatus](KeywordsDataApi.md#processgoogleadsstatus)
-- [processGoogleTrendsCategories](KeywordsDataApi.md#processgoogletrendscategories)
-- [processGoogleTrendsExploreLive](KeywordsDataApi.md#processgoogletrendsexplorelive)
-- [processGoogleTrendsExploreTaskGet](KeywordsDataApi.md#processgoogletrendsexploretaskget)
-- [processGoogleTrendsExploreTaskPost](KeywordsDataApi.md#processgoogletrendsexploretaskpost)
-- [processGoogleTrendsExploreTasksReady](KeywordsDataApi.md#processgoogletrendsexploretasksready)
-- [processKeywordsDataBingKeywordPerformanceLocationsAndLanguages](KeywordsDataApi.md#processkeywordsdatabingkeywordperformancelocationsandlanguages)
-- [processKeywordsDataBingLanguages](KeywordsDataApi.md#processkeywordsdatabinglanguages)
-- [processKeywordsDataBingLocations](KeywordsDataApi.md#processkeywordsdatabinglocations)
-- [processKeywordsDataDataforseoTrendsLocations](KeywordsDataApi.md#processkeywordsdatadataforseotrendslocations)
-- [processKeywordsDataDataforseoTrendsLocationsCountry](KeywordsDataApi.md#processkeywordsdatadataforseotrendslocationscountry)
-- [processKeywordsDataErrors](KeywordsDataApi.md#processkeywordsdataerrors)
-- [processKeywordsDataGoogleAdsLanguages](KeywordsDataApi.md#processkeywordsdatagoogleadslanguages)
-- [processKeywordsDataGoogleAdsLocations](KeywordsDataApi.md#processkeywordsdatagoogleadslocations)
-- [processKeywordsDataGoogleTrendsLanguages](KeywordsDataApi.md#processkeywordsdatagoogletrendslanguages)
-- [processKeywordsDataGoogleTrendsLocations](KeywordsDataApi.md#processkeywordsdatagoogletrendslocations)
-- [processKeywordsDataGoogleTrendsLocationsCountry](KeywordsDataApi.md#processkeywordsdatagoogletrendslocationscountry)
-- [processKeywordsDataIdList](KeywordsDataApi.md#processkeywordsdataidlist)
-
 ## Constructors
 
-### constructor
+### new KeywordsDataApi(baseUrl, http)
 
-• **new KeywordsDataApi**(`baseUrl?`, `http?`): [`KeywordsDataApi`](KeywordsDataApi.md)
+> **new KeywordsDataApi**(`baseUrl`?, `http`?): [`KeywordsDataApi`](KeywordsDataApi.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `baseUrl?` | `string` |
-| `http?` | `Object` |
-| `http.fetch` | (`url`: `RequestInfo`, `init?`: `RequestInit`) => `Promise`\<`Response`\> |
+• **baseUrl?**: `string`
+
+• **http?**
+
+• **http\.fetch?**
 
 #### Returns
 
 [`KeywordsDataApi`](KeywordsDataApi.md)
 
-#### Defined in
+#### Source
 
 main.ts:8784
 
@@ -151,64 +32,65 @@ main.ts:8784
 
 ### baseUrl
 
-• `Private` **baseUrl**: `string`
+> **`private`** **baseUrl**: `string`
 
-#### Defined in
+#### Source
 
 main.ts:8781
 
-___
+***
 
 ### http
 
-• `Private` **http**: `Object`
+> **`private`** **http**: `Object`
 
-#### Type declaration
-
-| Name | Type |
-| :------ | :------ |
-| `fetch` | (`url`: `RequestInfo`, `init?`: `RequestInit`) => `Promise`\<`Response`\> |
-
-#### Defined in
-
-main.ts:8780
-
-___
-
-### jsonParseReviver
-
-• `Protected` **jsonParseReviver**: (`key`: `string`, `value`: `any`) => `any` = `undefined`
-
-#### Type declaration
-
-▸ (`key`, `value`): `any`
+#### http.fetch()
 
 ##### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `key` | `string` |
-| `value` | `any` |
+• **url**: `RequestInfo`
+
+• **init?**: `RequestInit`
 
 ##### Returns
 
+`Promise`\<`Response`\>
+
+#### Source
+
+main.ts:8780
+
+***
+
+### jsonParseReviver
+
+> **`protected`** **jsonParseReviver**: (`key`, `value`) => `any` = `undefined`
+
+#### Parameters
+
+• **key**: `string`
+
+• **value**: `any`
+
+#### Returns
+
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:8782
 
 ## Methods
 
-### bingKeywordPerformanceLive
+### bingKeywordPerformanceLive()
 
-▸ **bingKeywordPerformanceLive**(`body`): `Promise`\<[`KeywordsDataBingKeywordPerformanceLiveResponseInfo`](KeywordsDataBingKeywordPerformanceLiveResponseInfo.md)\>
+> **bingKeywordPerformanceLive**(`body`): `Promise`\<[`KeywordsDataBingKeywordPerformanceLiveResponseInfo`](KeywordsDataBingKeywordPerformanceLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`KeywordsDataBingKeywordPerformanceLiveRequestInfo`](KeywordsDataBingKeywordPerformanceLiveRequestInfo.md)[] | (optional) |
+• **body**: [`KeywordsDataBingKeywordPerformanceLiveRequestInfo`](KeywordsDataBingKeywordPerformanceLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -216,21 +98,23 @@ main.ts:8782
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:10939
 
-___
+***
 
-### bingKeywordPerformanceTaskGet
+### bingKeywordPerformanceTaskGet()
 
-▸ **bingKeywordPerformanceTaskGet**(`id`): `Promise`\<[`KeywordsDataBingKeywordPerformanceTaskGetResponseInfo`](KeywordsDataBingKeywordPerformanceTaskGetResponseInfo.md)\>
+> **bingKeywordPerformanceTaskGet**(`id`): `Promise`\<[`KeywordsDataBingKeywordPerformanceTaskGetResponseInfo`](KeywordsDataBingKeywordPerformanceTaskGetResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -238,21 +122,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:10898
 
-___
+***
 
-### bingKeywordPerformanceTaskPost
+### bingKeywordPerformanceTaskPost()
 
-▸ **bingKeywordPerformanceTaskPost**(`body`): `Promise`\<[`KeywordsDataBingKeywordPerformanceTaskPostResponseInfo`](KeywordsDataBingKeywordPerformanceTaskPostResponseInfo.md)\>
+> **bingKeywordPerformanceTaskPost**(`body`): `Promise`\<[`KeywordsDataBingKeywordPerformanceTaskPostResponseInfo`](KeywordsDataBingKeywordPerformanceTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`KeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](KeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md)[] | (optional) |
+• **body**: [`KeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](KeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -260,15 +144,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:10817
 
-___
+***
 
-### bingKeywordPerformanceTasksReady
+### bingKeywordPerformanceTasksReady()
 
-▸ **bingKeywordPerformanceTasksReady**(): `Promise`\<[`KeywordsDataBingKeywordPerformanceTasksReadyResponseInfo`](KeywordsDataBingKeywordPerformanceTasksReadyResponseInfo.md)\>
+> **bingKeywordPerformanceTasksReady**(): `Promise`\<[`KeywordsDataBingKeywordPerformanceTasksReadyResponseInfo`](KeywordsDataBingKeywordPerformanceTasksReadyResponseInfo.md)\>
 
 #### Returns
 
@@ -276,21 +160,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:10858
 
-___
+***
 
-### bingKeywordsForKeywordsLive
+### bingKeywordsForKeywordsLive()
 
-▸ **bingKeywordsForKeywordsLive**(`body`): `Promise`\<[`KeywordsDataBingKeywordsForKeywordsLiveResponseInfo`](KeywordsDataBingKeywordsForKeywordsLiveResponseInfo.md)\>
+> **bingKeywordsForKeywordsLive**(`body`): `Promise`\<[`KeywordsDataBingKeywordsForKeywordsLiveResponseInfo`](KeywordsDataBingKeywordsForKeywordsLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`KeywordsDataBingKeywordsForKeywordsLiveRequestInfo`](KeywordsDataBingKeywordsForKeywordsLiveRequestInfo.md)[] | (optional) |
+• **body**: [`KeywordsDataBingKeywordsForKeywordsLiveRequestInfo`](KeywordsDataBingKeywordsForKeywordsLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -298,21 +182,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:10738
 
-___
+***
 
-### bingKeywordsForKeywordsTaskGet
+### bingKeywordsForKeywordsTaskGet()
 
-▸ **bingKeywordsForKeywordsTaskGet**(`id`): `Promise`\<[`KeywordsDataBingKeywordsForKeywordsTaskGetResponseInfo`](KeywordsDataBingKeywordsForKeywordsTaskGetResponseInfo.md)\>
+> **bingKeywordsForKeywordsTaskGet**(`id`): `Promise`\<[`KeywordsDataBingKeywordsForKeywordsTaskGetResponseInfo`](KeywordsDataBingKeywordsForKeywordsTaskGetResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -320,21 +206,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:10697
 
-___
+***
 
-### bingKeywordsForKeywordsTaskPost
+### bingKeywordsForKeywordsTaskPost()
 
-▸ **bingKeywordsForKeywordsTaskPost**(`body`): `Promise`\<[`KeywordsDataBingKeywordsForKeywordsTaskPostResponseInfo`](KeywordsDataBingKeywordsForKeywordsTaskPostResponseInfo.md)\>
+> **bingKeywordsForKeywordsTaskPost**(`body`): `Promise`\<[`KeywordsDataBingKeywordsForKeywordsTaskPostResponseInfo`](KeywordsDataBingKeywordsForKeywordsTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`KeywordsDataBingKeywordsForKeywordsTaskPostRequestInfo`](KeywordsDataBingKeywordsForKeywordsTaskPostRequestInfo.md)[] | (optional) |
+• **body**: [`KeywordsDataBingKeywordsForKeywordsTaskPostRequestInfo`](KeywordsDataBingKeywordsForKeywordsTaskPostRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -342,15 +228,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:10616
 
-___
+***
 
-### bingKeywordsForKeywordsTasksReady
+### bingKeywordsForKeywordsTasksReady()
 
-▸ **bingKeywordsForKeywordsTasksReady**(): `Promise`\<[`KeywordsDataBingKeywordsForKeywordsTasksReadyResponseInfo`](KeywordsDataBingKeywordsForKeywordsTasksReadyResponseInfo.md)\>
+> **bingKeywordsForKeywordsTasksReady**(): `Promise`\<[`KeywordsDataBingKeywordsForKeywordsTasksReadyResponseInfo`](KeywordsDataBingKeywordsForKeywordsTasksReadyResponseInfo.md)\>
 
 #### Returns
 
@@ -358,21 +244,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:10657
 
-___
+***
 
-### bingKeywordsForSiteLive
+### bingKeywordsForSiteLive()
 
-▸ **bingKeywordsForSiteLive**(`body`): `Promise`\<[`KeywordsDataBingKeywordsForSiteLiveResponseInfo`](KeywordsDataBingKeywordsForSiteLiveResponseInfo.md)\>
+> **bingKeywordsForSiteLive**(`body`): `Promise`\<[`KeywordsDataBingKeywordsForSiteLiveResponseInfo`](KeywordsDataBingKeywordsForSiteLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`KeywordsDataBingKeywordsForSiteLiveRequestInfo`](KeywordsDataBingKeywordsForSiteLiveRequestInfo.md)[] | (optional) |
+• **body**: [`KeywordsDataBingKeywordsForSiteLiveRequestInfo`](KeywordsDataBingKeywordsForSiteLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -380,21 +266,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:10574
 
-___
+***
 
-### bingKeywordsForSiteTaskGet
+### bingKeywordsForSiteTaskGet()
 
-▸ **bingKeywordsForSiteTaskGet**(`id`): `Promise`\<[`KeywordsDataBingKeywordsForSiteTaskGetResponseInfo`](KeywordsDataBingKeywordsForSiteTaskGetResponseInfo.md)\>
+> **bingKeywordsForSiteTaskGet**(`id`): `Promise`\<[`KeywordsDataBingKeywordsForSiteTaskGetResponseInfo`](KeywordsDataBingKeywordsForSiteTaskGetResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -402,21 +290,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:10533
 
-___
+***
 
-### bingKeywordsForSiteTaskPost
+### bingKeywordsForSiteTaskPost()
 
-▸ **bingKeywordsForSiteTaskPost**(`body`): `Promise`\<[`KeywordsDataBingKeywordsForSiteTaskPostResponseInfo`](KeywordsDataBingKeywordsForSiteTaskPostResponseInfo.md)\>
+> **bingKeywordsForSiteTaskPost**(`body`): `Promise`\<[`KeywordsDataBingKeywordsForSiteTaskPostResponseInfo`](KeywordsDataBingKeywordsForSiteTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`KeywordsDataBingKeywordsForSiteTaskPostRequestInfo`](KeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md)[] | (optional) |
+• **body**: [`KeywordsDataBingKeywordsForSiteTaskPostRequestInfo`](KeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -424,15 +312,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:10452
 
-___
+***
 
-### bingKeywordsForSiteTasksReady
+### bingKeywordsForSiteTasksReady()
 
-▸ **bingKeywordsForSiteTasksReady**(): `Promise`\<[`KeywordsDataBingKeywordsForSiteTasksReadyResponseInfo`](KeywordsDataBingKeywordsForSiteTasksReadyResponseInfo.md)\>
+> **bingKeywordsForSiteTasksReady**(): `Promise`\<[`KeywordsDataBingKeywordsForSiteTasksReadyResponseInfo`](KeywordsDataBingKeywordsForSiteTasksReadyResponseInfo.md)\>
 
 #### Returns
 
@@ -440,21 +328,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:10493
 
-___
+***
 
-### bingSearchVolumeLive
+### bingSearchVolumeLive()
 
-▸ **bingSearchVolumeLive**(`body`): `Promise`\<[`KeywordsDataBingSearchVolumeLiveResponseInfo`](KeywordsDataBingSearchVolumeLiveResponseInfo.md)\>
+> **bingSearchVolumeLive**(`body`): `Promise`\<[`KeywordsDataBingSearchVolumeLiveResponseInfo`](KeywordsDataBingSearchVolumeLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`KeywordsDataBingSearchVolumeLiveRequestInfo`](KeywordsDataBingSearchVolumeLiveRequestInfo.md)[] | (optional) |
+• **body**: [`KeywordsDataBingSearchVolumeLiveRequestInfo`](KeywordsDataBingSearchVolumeLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -462,21 +350,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:10410
 
-___
+***
 
-### bingSearchVolumeTaskGet
+### bingSearchVolumeTaskGet()
 
-▸ **bingSearchVolumeTaskGet**(`id`): `Promise`\<[`KeywordsDataBingSearchVolumeTaskGetResponseInfo`](KeywordsDataBingSearchVolumeTaskGetResponseInfo.md)\>
+> **bingSearchVolumeTaskGet**(`id`): `Promise`\<[`KeywordsDataBingSearchVolumeTaskGetResponseInfo`](KeywordsDataBingSearchVolumeTaskGetResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -484,21 +374,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:10369
 
-___
+***
 
-### bingSearchVolumeTaskPost
+### bingSearchVolumeTaskPost()
 
-▸ **bingSearchVolumeTaskPost**(`body`): `Promise`\<[`KeywordsDataBingSearchVolumeTaskPostResponseInfo`](KeywordsDataBingSearchVolumeTaskPostResponseInfo.md)\>
+> **bingSearchVolumeTaskPost**(`body`): `Promise`\<[`KeywordsDataBingSearchVolumeTaskPostResponseInfo`](KeywordsDataBingSearchVolumeTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`KeywordsDataBingSearchVolumeTaskPostRequestInfo`](KeywordsDataBingSearchVolumeTaskPostRequestInfo.md)[] | (optional) |
+• **body**: [`KeywordsDataBingSearchVolumeTaskPostRequestInfo`](KeywordsDataBingSearchVolumeTaskPostRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -506,15 +396,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:10288
 
-___
+***
 
-### bingSearchVolumeTasksReady
+### bingSearchVolumeTasksReady()
 
-▸ **bingSearchVolumeTasksReady**(): `Promise`\<[`KeywordsDataBingSearchVolumeTasksReadyResponseInfo`](KeywordsDataBingSearchVolumeTasksReadyResponseInfo.md)\>
+> **bingSearchVolumeTasksReady**(): `Promise`\<[`KeywordsDataBingSearchVolumeTasksReadyResponseInfo`](KeywordsDataBingSearchVolumeTasksReadyResponseInfo.md)\>
 
 #### Returns
 
@@ -522,21 +412,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:10329
 
-___
+***
 
-### dataforseoTrendsDemographyLive
+### dataforseoTrendsDemographyLive()
 
-▸ **dataforseoTrendsDemographyLive**(`body`): `Promise`\<[`KeywordsDataDataforseoTrendsDemographyLiveResponseInfo`](KeywordsDataDataforseoTrendsDemographyLiveResponseInfo.md)\>
+> **dataforseoTrendsDemographyLive**(`body`): `Promise`\<[`KeywordsDataDataforseoTrendsDemographyLiveResponseInfo`](KeywordsDataDataforseoTrendsDemographyLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`KeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](KeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md)[] | (optional) |
+• **body**: [`KeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](KeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -544,21 +434,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:10130
 
-___
+***
 
-### dataforseoTrendsExploreLive
+### dataforseoTrendsExploreLive()
 
-▸ **dataforseoTrendsExploreLive**(`body`): `Promise`\<[`KeywordsDataDataforseoTrendsExploreLiveResponseInfo`](KeywordsDataDataforseoTrendsExploreLiveResponseInfo.md)\>
+> **dataforseoTrendsExploreLive**(`body`): `Promise`\<[`KeywordsDataDataforseoTrendsExploreLiveResponseInfo`](KeywordsDataDataforseoTrendsExploreLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`KeywordsDataDataforseoTrendsExploreLiveRequestInfo`](KeywordsDataDataforseoTrendsExploreLiveRequestInfo.md)[] | (optional) |
+• **body**: [`KeywordsDataDataforseoTrendsExploreLiveRequestInfo`](KeywordsDataDataforseoTrendsExploreLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -566,21 +456,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:10046
 
-___
+***
 
-### dataforseoTrendsMergedDataLive
+### dataforseoTrendsMergedDataLive()
 
-▸ **dataforseoTrendsMergedDataLive**(`body`): `Promise`\<[`KeywordsDataDataforseoTrendsMergedDataLiveResponseInfo`](KeywordsDataDataforseoTrendsMergedDataLiveResponseInfo.md)\>
+> **dataforseoTrendsMergedDataLive**(`body`): `Promise`\<[`KeywordsDataDataforseoTrendsMergedDataLiveResponseInfo`](KeywordsDataDataforseoTrendsMergedDataLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo`](KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo.md)[] | (optional) |
+• **body**: [`KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo`](KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -588,21 +478,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:10172
 
-___
+***
 
-### dataforseoTrendsSubregionInterestsLive
+### dataforseoTrendsSubregionInterestsLive()
 
-▸ **dataforseoTrendsSubregionInterestsLive**(`body`): `Promise`\<[`KeywordsDataDataforseoTrendsSubregionInterestsLiveResponseInfo`](KeywordsDataDataforseoTrendsSubregionInterestsLiveResponseInfo.md)\>
+> **dataforseoTrendsSubregionInterestsLive**(`body`): `Promise`\<[`KeywordsDataDataforseoTrendsSubregionInterestsLiveResponseInfo`](KeywordsDataDataforseoTrendsSubregionInterestsLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`KeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo`](KeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo.md)[] | (optional) |
+• **body**: [`KeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo`](KeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -610,21 +500,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:10088
 
-___
+***
 
-### googleAdsAdTrafficByKeywordsLive
+### googleAdsAdTrafficByKeywordsLive()
 
-▸ **googleAdsAdTrafficByKeywordsLive**(`body`): `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResponseInfo.md)\>
+> **googleAdsAdTrafficByKeywordsLive**(`body`): `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`KeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md)[] | (optional) |
+• **body**: [`KeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -632,21 +522,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:9602
 
-___
+***
 
-### googleAdsAdTrafficByKeywordsTaskGet
+### googleAdsAdTrafficByKeywordsTaskGet()
 
-▸ **googleAdsAdTrafficByKeywordsTaskGet**(`id`): `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResponseInfo.md)\>
+> **googleAdsAdTrafficByKeywordsTaskGet**(`id`): `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -654,21 +546,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:9561
 
-___
+***
 
-### googleAdsAdTrafficByKeywordsTaskPost
+### googleAdsAdTrafficByKeywordsTaskPost()
 
-▸ **googleAdsAdTrafficByKeywordsTaskPost**(`body`): `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostResponseInfo.md)\>
+> **googleAdsAdTrafficByKeywordsTaskPost**(`body`): `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md)[] | (optional) |
+• **body**: [`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -676,15 +568,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:9480
 
-___
+***
 
-### googleAdsAdTrafficByKeywordsTasksReady
+### googleAdsAdTrafficByKeywordsTasksReady()
 
-▸ **googleAdsAdTrafficByKeywordsTasksReady**(): `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResponseInfo.md)\>
+> **googleAdsAdTrafficByKeywordsTasksReady**(): `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResponseInfo.md)\>
 
 #### Returns
 
@@ -692,21 +584,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:9521
 
-___
+***
 
-### googleAdsKeywordsForKeywordsLive
+### googleAdsKeywordsForKeywordsLive()
 
-▸ **googleAdsKeywordsForKeywordsLive**(`body`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsLiveResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsLiveResponseInfo.md)\>
+> **googleAdsKeywordsForKeywordsLive**(`body`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsLiveResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`KeywordsDataTaskRequestInfo`](KeywordsDataTaskRequestInfo.md)[] | (optional) |
+• **body**: [`KeywordsDataTaskRequestInfo`](KeywordsDataTaskRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -714,21 +606,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:9438
 
-___
+***
 
-### googleAdsKeywordsForKeywordsTaskGet
+### googleAdsKeywordsForKeywordsTaskGet()
 
-▸ **googleAdsKeywordsForKeywordsTaskGet**(`id`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResponseInfo.md)\>
+> **googleAdsKeywordsForKeywordsTaskGet**(`id`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -736,21 +630,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:9397
 
-___
+***
 
-### googleAdsKeywordsForKeywordsTaskPost
+### googleAdsKeywordsForKeywordsTaskPost()
 
-▸ **googleAdsKeywordsForKeywordsTaskPost**(`body`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostResponseInfo.md)\>
+> **googleAdsKeywordsForKeywordsTaskPost**(`body`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo.md)[] | (optional) |
+• **body**: [`KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -758,15 +652,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:9316
 
-___
+***
 
-### googleAdsKeywordsForKeywordsTasksReady
+### googleAdsKeywordsForKeywordsTasksReady()
 
-▸ **googleAdsKeywordsForKeywordsTasksReady**(): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResponseInfo.md)\>
+> **googleAdsKeywordsForKeywordsTasksReady**(): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResponseInfo.md)\>
 
 #### Returns
 
@@ -774,21 +668,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:9357
 
-___
+***
 
-### googleAdsKeywordsForSiteLive
+### googleAdsKeywordsForSiteLive()
 
-▸ **googleAdsKeywordsForSiteLive**(`body`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteLiveResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteLiveResponseInfo.md)\>
+> **googleAdsKeywordsForSiteLive**(`body`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteLiveResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo`](KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md)[] | (optional) |
+• **body**: [`KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo`](KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -796,21 +690,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:9274
 
-___
+***
 
-### googleAdsKeywordsForSiteTaskGet
+### googleAdsKeywordsForSiteTaskGet()
 
-▸ **googleAdsKeywordsForSiteTaskGet**(`id`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteTaskGetResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteTaskGetResponseInfo.md)\>
+> **googleAdsKeywordsForSiteTaskGet**(`id`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteTaskGetResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteTaskGetResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -818,21 +714,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:9233
 
-___
+***
 
-### googleAdsKeywordsForSiteTaskPost
+### googleAdsKeywordsForSiteTaskPost()
 
-▸ **googleAdsKeywordsForSiteTaskPost**(`body`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteTaskPostResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteTaskPostResponseInfo.md)\>
+> **googleAdsKeywordsForSiteTaskPost**(`body`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteTaskPostResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`KeywordsDataGoogleAdsKeywordsForSiteTaskPostRequestInfo`](KeywordsDataGoogleAdsKeywordsForSiteTaskPostRequestInfo.md)[] | (optional) |
+• **body**: [`KeywordsDataGoogleAdsKeywordsForSiteTaskPostRequestInfo`](KeywordsDataGoogleAdsKeywordsForSiteTaskPostRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -840,15 +736,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:9152
 
-___
+***
 
-### googleAdsKeywordsForSiteTasksReady
+### googleAdsKeywordsForSiteTasksReady()
 
-▸ **googleAdsKeywordsForSiteTasksReady**(): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteTasksReadyResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteTasksReadyResponseInfo.md)\>
+> **googleAdsKeywordsForSiteTasksReady**(): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteTasksReadyResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteTasksReadyResponseInfo.md)\>
 
 #### Returns
 
@@ -856,21 +752,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:9193
 
-___
+***
 
-### googleAdsSearchVolumeLive
+### googleAdsSearchVolumeLive()
 
-▸ **googleAdsSearchVolumeLive**(`body`): `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeLiveResponseInfo`](KeywordsDataGoogleAdsSearchVolumeLiveResponseInfo.md)\>
+> **googleAdsSearchVolumeLive**(`body`): `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeLiveResponseInfo`](KeywordsDataGoogleAdsSearchVolumeLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`KeywordsDataTaskRequestInfo`](KeywordsDataTaskRequestInfo.md)[] | (optional) |
+• **body**: [`KeywordsDataTaskRequestInfo`](KeywordsDataTaskRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -878,21 +774,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:9110
 
-___
+***
 
-### googleAdsSearchVolumeTaskGet
+### googleAdsSearchVolumeTaskGet()
 
-▸ **googleAdsSearchVolumeTaskGet**(`id`): `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeTaskGetResponseInfo`](KeywordsDataGoogleAdsSearchVolumeTaskGetResponseInfo.md)\>
+> **googleAdsSearchVolumeTaskGet**(`id`): `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeTaskGetResponseInfo`](KeywordsDataGoogleAdsSearchVolumeTaskGetResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -900,21 +798,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:9069
 
-___
+***
 
-### googleAdsSearchVolumeTaskPost
+### googleAdsSearchVolumeTaskPost()
 
-▸ **googleAdsSearchVolumeTaskPost**(`body`): `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo`](KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md)\>
+> **googleAdsSearchVolumeTaskPost**(`body`): `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo`](KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`KeywordsDataTaskRequestInfo`](KeywordsDataTaskRequestInfo.md)[] | (optional) |
+• **body**: [`KeywordsDataTaskRequestInfo`](KeywordsDataTaskRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -922,15 +820,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:8988
 
-___
+***
 
-### googleAdsSearchVolumeTasksReady
+### googleAdsSearchVolumeTasksReady()
 
-▸ **googleAdsSearchVolumeTasksReady**(): `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeTasksReadyResponseInfo`](KeywordsDataGoogleAdsSearchVolumeTasksReadyResponseInfo.md)\>
+> **googleAdsSearchVolumeTasksReady**(): `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeTasksReadyResponseInfo`](KeywordsDataGoogleAdsSearchVolumeTasksReadyResponseInfo.md)\>
 
 #### Returns
 
@@ -938,15 +836,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:9029
 
-___
+***
 
-### googleAdsStatus
+### googleAdsStatus()
 
-▸ **googleAdsStatus**(): `Promise`\<[`KeywordsDataGoogleAdsStatusResponseInfo`](KeywordsDataGoogleAdsStatusResponseInfo.md)\>
+> **googleAdsStatus**(): `Promise`\<[`KeywordsDataGoogleAdsStatusResponseInfo`](KeywordsDataGoogleAdsStatusResponseInfo.md)\>
 
 #### Returns
 
@@ -954,15 +852,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:8876
 
-___
+***
 
-### googleTrendsCategories
+### googleTrendsCategories()
 
-▸ **googleTrendsCategories**(): `Promise`\<[`KeywordsDataGoogleTrendsCategoriesResponseInfo`](KeywordsDataGoogleTrendsCategoriesResponseInfo.md)\>
+> **googleTrendsCategories**(): `Promise`\<[`KeywordsDataGoogleTrendsCategoriesResponseInfo`](KeywordsDataGoogleTrendsCategoriesResponseInfo.md)\>
 
 #### Returns
 
@@ -970,21 +868,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:9762
 
-___
+***
 
-### googleTrendsExploreLive
+### googleTrendsExploreLive()
 
-▸ **googleTrendsExploreLive**(`body`): `Promise`\<[`KeywordsDataGoogleTrendsExploreLiveResponseInfo`](KeywordsDataGoogleTrendsExploreLiveResponseInfo.md)\>
+> **googleTrendsExploreLive**(`body`): `Promise`\<[`KeywordsDataGoogleTrendsExploreLiveResponseInfo`](KeywordsDataGoogleTrendsExploreLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`KeywordsDataGoogleTrendsExploreLiveRequestInfo`](KeywordsDataGoogleTrendsExploreLiveRequestInfo.md)[] | (optional) |
+• **body**: [`KeywordsDataGoogleTrendsExploreLiveRequestInfo`](KeywordsDataGoogleTrendsExploreLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -992,21 +890,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:9922
 
-___
+***
 
-### googleTrendsExploreTaskGet
+### googleTrendsExploreTaskGet()
 
-▸ **googleTrendsExploreTaskGet**(`id`): `Promise`\<[`KeywordsDataGoogleTrendsExploreTaskGetResponseInfo`](KeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md)\>
+> **googleTrendsExploreTaskGet**(`id`): `Promise`\<[`KeywordsDataGoogleTrendsExploreTaskGetResponseInfo`](KeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -1014,21 +914,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:9881
 
-___
+***
 
-### googleTrendsExploreTaskPost
+### googleTrendsExploreTaskPost()
 
-▸ **googleTrendsExploreTaskPost**(`body`): `Promise`\<[`KeywordsDataGoogleTrendsExploreTaskPostResponseInfo`](KeywordsDataGoogleTrendsExploreTaskPostResponseInfo.md)\>
+> **googleTrendsExploreTaskPost**(`body`): `Promise`\<[`KeywordsDataGoogleTrendsExploreTaskPostResponseInfo`](KeywordsDataGoogleTrendsExploreTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`KeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](KeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md)[] | (optional) |
+• **body**: [`KeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](KeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -1036,15 +936,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:9800
 
-___
+***
 
-### googleTrendsExploreTasksReady
+### googleTrendsExploreTasksReady()
 
-▸ **googleTrendsExploreTasksReady**(): `Promise`\<[`KeywordsDataGoogleTrendsExploreTasksReadyResponseInfo`](KeywordsDataGoogleTrendsExploreTasksReadyResponseInfo.md)\>
+> **googleTrendsExploreTasksReady**(): `Promise`\<[`KeywordsDataGoogleTrendsExploreTasksReadyResponseInfo`](KeywordsDataGoogleTrendsExploreTasksReadyResponseInfo.md)\>
 
 #### Returns
 
@@ -1052,15 +952,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:9841
 
-___
+***
 
-### keywordsDataBingKeywordPerformanceLocationsAndLanguages
+### keywordsDataBingKeywordPerformanceLocationsAndLanguages()
 
-▸ **keywordsDataBingKeywordPerformanceLocationsAndLanguages**(): `Promise`\<[`KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResponseInfo`](KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResponseInfo.md)\>
+> **keywordsDataBingKeywordPerformanceLocationsAndLanguages**(): `Promise`\<[`KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResponseInfo`](KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResponseInfo.md)\>
 
 #### Returns
 
@@ -1068,15 +968,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:10779
 
-___
+***
 
-### keywordsDataBingLanguages
+### keywordsDataBingLanguages()
 
-▸ **keywordsDataBingLanguages**(): `Promise`\<[`KeywordsDataBingLanguagesResponseInfo`](KeywordsDataBingLanguagesResponseInfo.md)\>
+> **keywordsDataBingLanguages**(): `Promise`\<[`KeywordsDataBingLanguagesResponseInfo`](KeywordsDataBingLanguagesResponseInfo.md)\>
 
 #### Returns
 
@@ -1084,15 +984,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:10250
 
-___
+***
 
-### keywordsDataBingLocations
+### keywordsDataBingLocations()
 
-▸ **keywordsDataBingLocations**(): `Promise`\<[`KeywordsDataBingLocationsResponseInfo`](KeywordsDataBingLocationsResponseInfo.md)\>
+> **keywordsDataBingLocations**(): `Promise`\<[`KeywordsDataBingLocationsResponseInfo`](KeywordsDataBingLocationsResponseInfo.md)\>
 
 #### Returns
 
@@ -1100,15 +1000,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:10213
 
-___
+***
 
-### keywordsDataDataforseoTrendsLocations
+### keywordsDataDataforseoTrendsLocations()
 
-▸ **keywordsDataDataforseoTrendsLocations**(): `Promise`\<[`KeywordsDataDataforseoTrendsLocationsResponseInfo`](KeywordsDataDataforseoTrendsLocationsResponseInfo.md)\>
+> **keywordsDataDataforseoTrendsLocations**(): `Promise`\<[`KeywordsDataDataforseoTrendsLocationsResponseInfo`](KeywordsDataDataforseoTrendsLocationsResponseInfo.md)\>
 
 #### Returns
 
@@ -1116,21 +1016,25 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:9963
 
-___
+***
 
-### keywordsDataDataforseoTrendsLocationsCountry
+### keywordsDataDataforseoTrendsLocationsCountry()
 
-▸ **keywordsDataDataforseoTrendsLocationsCountry**(`country`): `Promise`\<[`KeywordsDataDataforseoTrendsLocationsCountryResponseInfo`](KeywordsDataDataforseoTrendsLocationsCountryResponseInfo.md)\>
+> **keywordsDataDataforseoTrendsLocationsCountry**(`country`): `Promise`\<[`KeywordsDataDataforseoTrendsLocationsCountryResponseInfo`](KeywordsDataDataforseoTrendsLocationsCountryResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `country` | `string` | country ISO code optional field specify the ISO code if you want to filter the list of locations by country example: us |
+• **country**: `string`
+
+country ISO code
+optional field
+specify the ISO code if you want to filter the list of locations by country
+example:
+us
 
 #### Returns
 
@@ -1138,21 +1042,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:10005
 
-___
+***
 
-### keywordsDataErrors
+### keywordsDataErrors()
 
-▸ **keywordsDataErrors**(`body`): `Promise`\<[`KeywordsDataErrorsResponseInfo`](KeywordsDataErrorsResponseInfo.md)\>
+> **keywordsDataErrors**(`body`): `Promise`\<[`KeywordsDataErrorsResponseInfo`](KeywordsDataErrorsResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`KeywordsDataErrorsRequestInfo`](KeywordsDataErrorsRequestInfo.md)[] | (optional) |
+• **body**: [`KeywordsDataErrorsRequestInfo`](KeywordsDataErrorsRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -1160,15 +1064,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:8835
 
-___
+***
 
-### keywordsDataGoogleAdsLanguages
+### keywordsDataGoogleAdsLanguages()
 
-▸ **keywordsDataGoogleAdsLanguages**(): `Promise`\<[`KeywordsDataGoogleAdsLanguagesResponseInfo`](KeywordsDataGoogleAdsLanguagesResponseInfo.md)\>
+> **keywordsDataGoogleAdsLanguages**(): `Promise`\<[`KeywordsDataGoogleAdsLanguagesResponseInfo`](KeywordsDataGoogleAdsLanguagesResponseInfo.md)\>
 
 #### Returns
 
@@ -1176,15 +1080,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:8950
 
-___
+***
 
-### keywordsDataGoogleAdsLocations
+### keywordsDataGoogleAdsLocations()
 
-▸ **keywordsDataGoogleAdsLocations**(): `Promise`\<[`KeywordsDataGoogleAdsLocationsResponseInfo`](KeywordsDataGoogleAdsLocationsResponseInfo.md)\>
+> **keywordsDataGoogleAdsLocations**(): `Promise`\<[`KeywordsDataGoogleAdsLocationsResponseInfo`](KeywordsDataGoogleAdsLocationsResponseInfo.md)\>
 
 #### Returns
 
@@ -1192,15 +1096,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:8913
 
-___
+***
 
-### keywordsDataGoogleTrendsLanguages
+### keywordsDataGoogleTrendsLanguages()
 
-▸ **keywordsDataGoogleTrendsLanguages**(): `Promise`\<[`KeywordsDataGoogleTrendsLanguagesResponseInfo`](KeywordsDataGoogleTrendsLanguagesResponseInfo.md)\>
+> **keywordsDataGoogleTrendsLanguages**(): `Promise`\<[`KeywordsDataGoogleTrendsLanguagesResponseInfo`](KeywordsDataGoogleTrendsLanguagesResponseInfo.md)\>
 
 #### Returns
 
@@ -1208,15 +1112,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:9725
 
-___
+***
 
-### keywordsDataGoogleTrendsLocations
+### keywordsDataGoogleTrendsLocations()
 
-▸ **keywordsDataGoogleTrendsLocations**(): `Promise`\<[`KeywordsDataGoogleTrendsLocationsResponseInfo`](KeywordsDataGoogleTrendsLocationsResponseInfo.md)\>
+> **keywordsDataGoogleTrendsLocations**(): `Promise`\<[`KeywordsDataGoogleTrendsLocationsResponseInfo`](KeywordsDataGoogleTrendsLocationsResponseInfo.md)\>
 
 #### Returns
 
@@ -1224,21 +1128,25 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:9643
 
-___
+***
 
-### keywordsDataGoogleTrendsLocationsCountry
+### keywordsDataGoogleTrendsLocationsCountry()
 
-▸ **keywordsDataGoogleTrendsLocationsCountry**(`country`): `Promise`\<[`KeywordsDataGoogleTrendsLocationsCountryResponseInfo`](KeywordsDataGoogleTrendsLocationsCountryResponseInfo.md)\>
+> **keywordsDataGoogleTrendsLocationsCountry**(`country`): `Promise`\<[`KeywordsDataGoogleTrendsLocationsCountryResponseInfo`](KeywordsDataGoogleTrendsLocationsCountryResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `country` | `string` | country ISO code optional field specify the ISO code if you want to filter the list of locations by country example: us |
+• **country**: `string`
+
+country ISO code
+optional field
+specify the ISO code if you want to filter the list of locations by country
+example:
+us
 
 #### Returns
 
@@ -1246,21 +1154,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:9685
 
-___
+***
 
-### keywordsDataIdList
+### keywordsDataIdList()
 
-▸ **keywordsDataIdList**(`body`): `Promise`\<[`KeywordsDataIdListResponseInfo`](KeywordsDataIdListResponseInfo.md)\>
+> **keywordsDataIdList**(`body`): `Promise`\<[`KeywordsDataIdListResponseInfo`](KeywordsDataIdListResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`KeywordsDataIdListRequestInfo`](KeywordsDataIdListRequestInfo.md)[] | (optional) |
+• **body**: [`KeywordsDataIdListRequestInfo`](KeywordsDataIdListRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -1268,1086 +1176,978 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:8793
 
-___
+***
 
-### processBingKeywordPerformanceLive
+### processBingKeywordPerformanceLive()
 
-▸ **processBingKeywordPerformanceLive**(`response`): `Promise`\<[`KeywordsDataBingKeywordPerformanceLiveResponseInfo`](KeywordsDataBingKeywordPerformanceLiveResponseInfo.md)\>
+> **`protected`** **processBingKeywordPerformanceLive**(`response`): `Promise`\<[`KeywordsDataBingKeywordPerformanceLiveResponseInfo`](KeywordsDataBingKeywordPerformanceLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataBingKeywordPerformanceLiveResponseInfo`](KeywordsDataBingKeywordPerformanceLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:10959
 
-___
+***
 
-### processBingKeywordPerformanceTaskGet
+### processBingKeywordPerformanceTaskGet()
 
-▸ **processBingKeywordPerformanceTaskGet**(`response`): `Promise`\<[`KeywordsDataBingKeywordPerformanceTaskGetResponseInfo`](KeywordsDataBingKeywordPerformanceTaskGetResponseInfo.md)\>
+> **`protected`** **processBingKeywordPerformanceTaskGet**(`response`): `Promise`\<[`KeywordsDataBingKeywordPerformanceTaskGetResponseInfo`](KeywordsDataBingKeywordPerformanceTaskGetResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataBingKeywordPerformanceTaskGetResponseInfo`](KeywordsDataBingKeywordPerformanceTaskGetResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:10917
 
-___
+***
 
-### processBingKeywordPerformanceTaskPost
+### processBingKeywordPerformanceTaskPost()
 
-▸ **processBingKeywordPerformanceTaskPost**(`response`): `Promise`\<[`KeywordsDataBingKeywordPerformanceTaskPostResponseInfo`](KeywordsDataBingKeywordPerformanceTaskPostResponseInfo.md)\>
+> **`protected`** **processBingKeywordPerformanceTaskPost**(`response`): `Promise`\<[`KeywordsDataBingKeywordPerformanceTaskPostResponseInfo`](KeywordsDataBingKeywordPerformanceTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataBingKeywordPerformanceTaskPostResponseInfo`](KeywordsDataBingKeywordPerformanceTaskPostResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:10837
 
-___
+***
 
-### processBingKeywordPerformanceTasksReady
+### processBingKeywordPerformanceTasksReady()
 
-▸ **processBingKeywordPerformanceTasksReady**(`response`): `Promise`\<[`KeywordsDataBingKeywordPerformanceTasksReadyResponseInfo`](KeywordsDataBingKeywordPerformanceTasksReadyResponseInfo.md)\>
+> **`protected`** **processBingKeywordPerformanceTasksReady**(`response`): `Promise`\<[`KeywordsDataBingKeywordPerformanceTasksReadyResponseInfo`](KeywordsDataBingKeywordPerformanceTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataBingKeywordPerformanceTasksReadyResponseInfo`](KeywordsDataBingKeywordPerformanceTasksReadyResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:10874
 
-___
+***
 
-### processBingKeywordsForKeywordsLive
+### processBingKeywordsForKeywordsLive()
 
-▸ **processBingKeywordsForKeywordsLive**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForKeywordsLiveResponseInfo`](KeywordsDataBingKeywordsForKeywordsLiveResponseInfo.md)\>
+> **`protected`** **processBingKeywordsForKeywordsLive**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForKeywordsLiveResponseInfo`](KeywordsDataBingKeywordsForKeywordsLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataBingKeywordsForKeywordsLiveResponseInfo`](KeywordsDataBingKeywordsForKeywordsLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:10758
 
-___
+***
 
-### processBingKeywordsForKeywordsTaskGet
+### processBingKeywordsForKeywordsTaskGet()
 
-▸ **processBingKeywordsForKeywordsTaskGet**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForKeywordsTaskGetResponseInfo`](KeywordsDataBingKeywordsForKeywordsTaskGetResponseInfo.md)\>
+> **`protected`** **processBingKeywordsForKeywordsTaskGet**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForKeywordsTaskGetResponseInfo`](KeywordsDataBingKeywordsForKeywordsTaskGetResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataBingKeywordsForKeywordsTaskGetResponseInfo`](KeywordsDataBingKeywordsForKeywordsTaskGetResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:10716
 
-___
+***
 
-### processBingKeywordsForKeywordsTaskPost
+### processBingKeywordsForKeywordsTaskPost()
 
-▸ **processBingKeywordsForKeywordsTaskPost**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForKeywordsTaskPostResponseInfo`](KeywordsDataBingKeywordsForKeywordsTaskPostResponseInfo.md)\>
+> **`protected`** **processBingKeywordsForKeywordsTaskPost**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForKeywordsTaskPostResponseInfo`](KeywordsDataBingKeywordsForKeywordsTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataBingKeywordsForKeywordsTaskPostResponseInfo`](KeywordsDataBingKeywordsForKeywordsTaskPostResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:10636
 
-___
+***
 
-### processBingKeywordsForKeywordsTasksReady
+### processBingKeywordsForKeywordsTasksReady()
 
-▸ **processBingKeywordsForKeywordsTasksReady**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForKeywordsTasksReadyResponseInfo`](KeywordsDataBingKeywordsForKeywordsTasksReadyResponseInfo.md)\>
+> **`protected`** **processBingKeywordsForKeywordsTasksReady**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForKeywordsTasksReadyResponseInfo`](KeywordsDataBingKeywordsForKeywordsTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataBingKeywordsForKeywordsTasksReadyResponseInfo`](KeywordsDataBingKeywordsForKeywordsTasksReadyResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:10673
 
-___
+***
 
-### processBingKeywordsForSiteLive
+### processBingKeywordsForSiteLive()
 
-▸ **processBingKeywordsForSiteLive**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForSiteLiveResponseInfo`](KeywordsDataBingKeywordsForSiteLiveResponseInfo.md)\>
+> **`protected`** **processBingKeywordsForSiteLive**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForSiteLiveResponseInfo`](KeywordsDataBingKeywordsForSiteLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataBingKeywordsForSiteLiveResponseInfo`](KeywordsDataBingKeywordsForSiteLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:10594
 
-___
+***
 
-### processBingKeywordsForSiteTaskGet
+### processBingKeywordsForSiteTaskGet()
 
-▸ **processBingKeywordsForSiteTaskGet**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForSiteTaskGetResponseInfo`](KeywordsDataBingKeywordsForSiteTaskGetResponseInfo.md)\>
+> **`protected`** **processBingKeywordsForSiteTaskGet**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForSiteTaskGetResponseInfo`](KeywordsDataBingKeywordsForSiteTaskGetResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataBingKeywordsForSiteTaskGetResponseInfo`](KeywordsDataBingKeywordsForSiteTaskGetResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:10552
 
-___
+***
 
-### processBingKeywordsForSiteTaskPost
+### processBingKeywordsForSiteTaskPost()
 
-▸ **processBingKeywordsForSiteTaskPost**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForSiteTaskPostResponseInfo`](KeywordsDataBingKeywordsForSiteTaskPostResponseInfo.md)\>
+> **`protected`** **processBingKeywordsForSiteTaskPost**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForSiteTaskPostResponseInfo`](KeywordsDataBingKeywordsForSiteTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataBingKeywordsForSiteTaskPostResponseInfo`](KeywordsDataBingKeywordsForSiteTaskPostResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:10472
 
-___
+***
 
-### processBingKeywordsForSiteTasksReady
+### processBingKeywordsForSiteTasksReady()
 
-▸ **processBingKeywordsForSiteTasksReady**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForSiteTasksReadyResponseInfo`](KeywordsDataBingKeywordsForSiteTasksReadyResponseInfo.md)\>
+> **`protected`** **processBingKeywordsForSiteTasksReady**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForSiteTasksReadyResponseInfo`](KeywordsDataBingKeywordsForSiteTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataBingKeywordsForSiteTasksReadyResponseInfo`](KeywordsDataBingKeywordsForSiteTasksReadyResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:10509
 
-___
+***
 
-### processBingSearchVolumeLive
+### processBingSearchVolumeLive()
 
-▸ **processBingSearchVolumeLive**(`response`): `Promise`\<[`KeywordsDataBingSearchVolumeLiveResponseInfo`](KeywordsDataBingSearchVolumeLiveResponseInfo.md)\>
+> **`protected`** **processBingSearchVolumeLive**(`response`): `Promise`\<[`KeywordsDataBingSearchVolumeLiveResponseInfo`](KeywordsDataBingSearchVolumeLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataBingSearchVolumeLiveResponseInfo`](KeywordsDataBingSearchVolumeLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:10430
 
-___
+***
 
-### processBingSearchVolumeTaskGet
+### processBingSearchVolumeTaskGet()
 
-▸ **processBingSearchVolumeTaskGet**(`response`): `Promise`\<[`KeywordsDataBingSearchVolumeTaskGetResponseInfo`](KeywordsDataBingSearchVolumeTaskGetResponseInfo.md)\>
+> **`protected`** **processBingSearchVolumeTaskGet**(`response`): `Promise`\<[`KeywordsDataBingSearchVolumeTaskGetResponseInfo`](KeywordsDataBingSearchVolumeTaskGetResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataBingSearchVolumeTaskGetResponseInfo`](KeywordsDataBingSearchVolumeTaskGetResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:10388
 
-___
+***
 
-### processBingSearchVolumeTaskPost
+### processBingSearchVolumeTaskPost()
 
-▸ **processBingSearchVolumeTaskPost**(`response`): `Promise`\<[`KeywordsDataBingSearchVolumeTaskPostResponseInfo`](KeywordsDataBingSearchVolumeTaskPostResponseInfo.md)\>
+> **`protected`** **processBingSearchVolumeTaskPost**(`response`): `Promise`\<[`KeywordsDataBingSearchVolumeTaskPostResponseInfo`](KeywordsDataBingSearchVolumeTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataBingSearchVolumeTaskPostResponseInfo`](KeywordsDataBingSearchVolumeTaskPostResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:10308
 
-___
+***
 
-### processBingSearchVolumeTasksReady
+### processBingSearchVolumeTasksReady()
 
-▸ **processBingSearchVolumeTasksReady**(`response`): `Promise`\<[`KeywordsDataBingSearchVolumeTasksReadyResponseInfo`](KeywordsDataBingSearchVolumeTasksReadyResponseInfo.md)\>
+> **`protected`** **processBingSearchVolumeTasksReady**(`response`): `Promise`\<[`KeywordsDataBingSearchVolumeTasksReadyResponseInfo`](KeywordsDataBingSearchVolumeTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataBingSearchVolumeTasksReadyResponseInfo`](KeywordsDataBingSearchVolumeTasksReadyResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:10345
 
-___
+***
 
-### processDataforseoTrendsDemographyLive
+### processDataforseoTrendsDemographyLive()
 
-▸ **processDataforseoTrendsDemographyLive**(`response`): `Promise`\<[`KeywordsDataDataforseoTrendsDemographyLiveResponseInfo`](KeywordsDataDataforseoTrendsDemographyLiveResponseInfo.md)\>
+> **`protected`** **processDataforseoTrendsDemographyLive**(`response`): `Promise`\<[`KeywordsDataDataforseoTrendsDemographyLiveResponseInfo`](KeywordsDataDataforseoTrendsDemographyLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataDataforseoTrendsDemographyLiveResponseInfo`](KeywordsDataDataforseoTrendsDemographyLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:10150
 
-___
+***
 
-### processDataforseoTrendsExploreLive
+### processDataforseoTrendsExploreLive()
 
-▸ **processDataforseoTrendsExploreLive**(`response`): `Promise`\<[`KeywordsDataDataforseoTrendsExploreLiveResponseInfo`](KeywordsDataDataforseoTrendsExploreLiveResponseInfo.md)\>
+> **`protected`** **processDataforseoTrendsExploreLive**(`response`): `Promise`\<[`KeywordsDataDataforseoTrendsExploreLiveResponseInfo`](KeywordsDataDataforseoTrendsExploreLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataDataforseoTrendsExploreLiveResponseInfo`](KeywordsDataDataforseoTrendsExploreLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:10066
 
-___
+***
 
-### processDataforseoTrendsMergedDataLive
+### processDataforseoTrendsMergedDataLive()
 
-▸ **processDataforseoTrendsMergedDataLive**(`response`): `Promise`\<[`KeywordsDataDataforseoTrendsMergedDataLiveResponseInfo`](KeywordsDataDataforseoTrendsMergedDataLiveResponseInfo.md)\>
+> **`protected`** **processDataforseoTrendsMergedDataLive**(`response`): `Promise`\<[`KeywordsDataDataforseoTrendsMergedDataLiveResponseInfo`](KeywordsDataDataforseoTrendsMergedDataLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataDataforseoTrendsMergedDataLiveResponseInfo`](KeywordsDataDataforseoTrendsMergedDataLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:10192
 
-___
+***
 
-### processDataforseoTrendsSubregionInterestsLive
+### processDataforseoTrendsSubregionInterestsLive()
 
-▸ **processDataforseoTrendsSubregionInterestsLive**(`response`): `Promise`\<[`KeywordsDataDataforseoTrendsSubregionInterestsLiveResponseInfo`](KeywordsDataDataforseoTrendsSubregionInterestsLiveResponseInfo.md)\>
+> **`protected`** **processDataforseoTrendsSubregionInterestsLive**(`response`): `Promise`\<[`KeywordsDataDataforseoTrendsSubregionInterestsLiveResponseInfo`](KeywordsDataDataforseoTrendsSubregionInterestsLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataDataforseoTrendsSubregionInterestsLiveResponseInfo`](KeywordsDataDataforseoTrendsSubregionInterestsLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:10108
 
-___
+***
 
-### processGoogleAdsAdTrafficByKeywordsLive
+### processGoogleAdsAdTrafficByKeywordsLive()
 
-▸ **processGoogleAdsAdTrafficByKeywordsLive**(`response`): `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResponseInfo.md)\>
+> **`protected`** **processGoogleAdsAdTrafficByKeywordsLive**(`response`): `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:9622
 
-___
+***
 
-### processGoogleAdsAdTrafficByKeywordsTaskGet
+### processGoogleAdsAdTrafficByKeywordsTaskGet()
 
-▸ **processGoogleAdsAdTrafficByKeywordsTaskGet**(`response`): `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResponseInfo.md)\>
+> **`protected`** **processGoogleAdsAdTrafficByKeywordsTaskGet**(`response`): `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:9580
 
-___
+***
 
-### processGoogleAdsAdTrafficByKeywordsTaskPost
+### processGoogleAdsAdTrafficByKeywordsTaskPost()
 
-▸ **processGoogleAdsAdTrafficByKeywordsTaskPost**(`response`): `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostResponseInfo.md)\>
+> **`protected`** **processGoogleAdsAdTrafficByKeywordsTaskPost**(`response`): `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:9500
 
-___
+***
 
-### processGoogleAdsAdTrafficByKeywordsTasksReady
+### processGoogleAdsAdTrafficByKeywordsTasksReady()
 
-▸ **processGoogleAdsAdTrafficByKeywordsTasksReady**(`response`): `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResponseInfo.md)\>
+> **`protected`** **processGoogleAdsAdTrafficByKeywordsTasksReady**(`response`): `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:9537
 
-___
+***
 
-### processGoogleAdsKeywordsForKeywordsLive
+### processGoogleAdsKeywordsForKeywordsLive()
 
-▸ **processGoogleAdsKeywordsForKeywordsLive**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsLiveResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsLiveResponseInfo.md)\>
+> **`protected`** **processGoogleAdsKeywordsForKeywordsLive**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsLiveResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsLiveResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:9458
 
-___
+***
 
-### processGoogleAdsKeywordsForKeywordsTaskGet
+### processGoogleAdsKeywordsForKeywordsTaskGet()
 
-▸ **processGoogleAdsKeywordsForKeywordsTaskGet**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResponseInfo.md)\>
+> **`protected`** **processGoogleAdsKeywordsForKeywordsTaskGet**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:9416
 
-___
+***
 
-### processGoogleAdsKeywordsForKeywordsTaskPost
+### processGoogleAdsKeywordsForKeywordsTaskPost()
 
-▸ **processGoogleAdsKeywordsForKeywordsTaskPost**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostResponseInfo.md)\>
+> **`protected`** **processGoogleAdsKeywordsForKeywordsTaskPost**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:9336
 
-___
+***
 
-### processGoogleAdsKeywordsForKeywordsTasksReady
+### processGoogleAdsKeywordsForKeywordsTasksReady()
 
-▸ **processGoogleAdsKeywordsForKeywordsTasksReady**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResponseInfo.md)\>
+> **`protected`** **processGoogleAdsKeywordsForKeywordsTasksReady**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:9373
 
-___
+***
 
-### processGoogleAdsKeywordsForSiteLive
+### processGoogleAdsKeywordsForSiteLive()
 
-▸ **processGoogleAdsKeywordsForSiteLive**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteLiveResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteLiveResponseInfo.md)\>
+> **`protected`** **processGoogleAdsKeywordsForSiteLive**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteLiveResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteLiveResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:9294
 
-___
+***
 
-### processGoogleAdsKeywordsForSiteTaskGet
+### processGoogleAdsKeywordsForSiteTaskGet()
 
-▸ **processGoogleAdsKeywordsForSiteTaskGet**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteTaskGetResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteTaskGetResponseInfo.md)\>
+> **`protected`** **processGoogleAdsKeywordsForSiteTaskGet**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteTaskGetResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteTaskGetResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteTaskGetResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteTaskGetResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:9252
 
-___
+***
 
-### processGoogleAdsKeywordsForSiteTaskPost
+### processGoogleAdsKeywordsForSiteTaskPost()
 
-▸ **processGoogleAdsKeywordsForSiteTaskPost**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteTaskPostResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteTaskPostResponseInfo.md)\>
+> **`protected`** **processGoogleAdsKeywordsForSiteTaskPost**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteTaskPostResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteTaskPostResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteTaskPostResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:9172
 
-___
+***
 
-### processGoogleAdsKeywordsForSiteTasksReady
+### processGoogleAdsKeywordsForSiteTasksReady()
 
-▸ **processGoogleAdsKeywordsForSiteTasksReady**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteTasksReadyResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteTasksReadyResponseInfo.md)\>
+> **`protected`** **processGoogleAdsKeywordsForSiteTasksReady**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteTasksReadyResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteTasksReadyResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteTasksReadyResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:9209
 
-___
+***
 
-### processGoogleAdsSearchVolumeLive
+### processGoogleAdsSearchVolumeLive()
 
-▸ **processGoogleAdsSearchVolumeLive**(`response`): `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeLiveResponseInfo`](KeywordsDataGoogleAdsSearchVolumeLiveResponseInfo.md)\>
+> **`protected`** **processGoogleAdsSearchVolumeLive**(`response`): `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeLiveResponseInfo`](KeywordsDataGoogleAdsSearchVolumeLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeLiveResponseInfo`](KeywordsDataGoogleAdsSearchVolumeLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:9130
 
-___
+***
 
-### processGoogleAdsSearchVolumeTaskGet
+### processGoogleAdsSearchVolumeTaskGet()
 
-▸ **processGoogleAdsSearchVolumeTaskGet**(`response`): `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeTaskGetResponseInfo`](KeywordsDataGoogleAdsSearchVolumeTaskGetResponseInfo.md)\>
+> **`protected`** **processGoogleAdsSearchVolumeTaskGet**(`response`): `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeTaskGetResponseInfo`](KeywordsDataGoogleAdsSearchVolumeTaskGetResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeTaskGetResponseInfo`](KeywordsDataGoogleAdsSearchVolumeTaskGetResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:9088
 
-___
+***
 
-### processGoogleAdsSearchVolumeTaskPost
+### processGoogleAdsSearchVolumeTaskPost()
 
-▸ **processGoogleAdsSearchVolumeTaskPost**(`response`): `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo`](KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md)\>
+> **`protected`** **processGoogleAdsSearchVolumeTaskPost**(`response`): `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo`](KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo`](KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:9008
 
-___
+***
 
-### processGoogleAdsSearchVolumeTasksReady
+### processGoogleAdsSearchVolumeTasksReady()
 
-▸ **processGoogleAdsSearchVolumeTasksReady**(`response`): `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeTasksReadyResponseInfo`](KeywordsDataGoogleAdsSearchVolumeTasksReadyResponseInfo.md)\>
+> **`protected`** **processGoogleAdsSearchVolumeTasksReady**(`response`): `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeTasksReadyResponseInfo`](KeywordsDataGoogleAdsSearchVolumeTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeTasksReadyResponseInfo`](KeywordsDataGoogleAdsSearchVolumeTasksReadyResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:9045
 
-___
+***
 
-### processGoogleAdsStatus
+### processGoogleAdsStatus()
 
-▸ **processGoogleAdsStatus**(`response`): `Promise`\<[`KeywordsDataGoogleAdsStatusResponseInfo`](KeywordsDataGoogleAdsStatusResponseInfo.md)\>
+> **`protected`** **processGoogleAdsStatus**(`response`): `Promise`\<[`KeywordsDataGoogleAdsStatusResponseInfo`](KeywordsDataGoogleAdsStatusResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataGoogleAdsStatusResponseInfo`](KeywordsDataGoogleAdsStatusResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:8892
 
-___
+***
 
-### processGoogleTrendsCategories
+### processGoogleTrendsCategories()
 
-▸ **processGoogleTrendsCategories**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsCategoriesResponseInfo`](KeywordsDataGoogleTrendsCategoriesResponseInfo.md)\>
+> **`protected`** **processGoogleTrendsCategories**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsCategoriesResponseInfo`](KeywordsDataGoogleTrendsCategoriesResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataGoogleTrendsCategoriesResponseInfo`](KeywordsDataGoogleTrendsCategoriesResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:9778
 
-___
+***
 
-### processGoogleTrendsExploreLive
+### processGoogleTrendsExploreLive()
 
-▸ **processGoogleTrendsExploreLive**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsExploreLiveResponseInfo`](KeywordsDataGoogleTrendsExploreLiveResponseInfo.md)\>
+> **`protected`** **processGoogleTrendsExploreLive**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsExploreLiveResponseInfo`](KeywordsDataGoogleTrendsExploreLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataGoogleTrendsExploreLiveResponseInfo`](KeywordsDataGoogleTrendsExploreLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:9942
 
-___
+***
 
-### processGoogleTrendsExploreTaskGet
+### processGoogleTrendsExploreTaskGet()
 
-▸ **processGoogleTrendsExploreTaskGet**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsExploreTaskGetResponseInfo`](KeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md)\>
+> **`protected`** **processGoogleTrendsExploreTaskGet**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsExploreTaskGetResponseInfo`](KeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataGoogleTrendsExploreTaskGetResponseInfo`](KeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:9900
 
-___
+***
 
-### processGoogleTrendsExploreTaskPost
+### processGoogleTrendsExploreTaskPost()
 
-▸ **processGoogleTrendsExploreTaskPost**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsExploreTaskPostResponseInfo`](KeywordsDataGoogleTrendsExploreTaskPostResponseInfo.md)\>
+> **`protected`** **processGoogleTrendsExploreTaskPost**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsExploreTaskPostResponseInfo`](KeywordsDataGoogleTrendsExploreTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataGoogleTrendsExploreTaskPostResponseInfo`](KeywordsDataGoogleTrendsExploreTaskPostResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:9820
 
-___
+***
 
-### processGoogleTrendsExploreTasksReady
+### processGoogleTrendsExploreTasksReady()
 
-▸ **processGoogleTrendsExploreTasksReady**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsExploreTasksReadyResponseInfo`](KeywordsDataGoogleTrendsExploreTasksReadyResponseInfo.md)\>
+> **`protected`** **processGoogleTrendsExploreTasksReady**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsExploreTasksReadyResponseInfo`](KeywordsDataGoogleTrendsExploreTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataGoogleTrendsExploreTasksReadyResponseInfo`](KeywordsDataGoogleTrendsExploreTasksReadyResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:9857
 
-___
+***
 
-### processKeywordsDataBingKeywordPerformanceLocationsAndLanguages
+### processKeywordsDataBingKeywordPerformanceLocationsAndLanguages()
 
-▸ **processKeywordsDataBingKeywordPerformanceLocationsAndLanguages**(`response`): `Promise`\<[`KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResponseInfo`](KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResponseInfo.md)\>
+> **`protected`** **processKeywordsDataBingKeywordPerformanceLocationsAndLanguages**(`response`): `Promise`\<[`KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResponseInfo`](KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResponseInfo`](KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:10795
 
-___
+***
 
-### processKeywordsDataBingLanguages
+### processKeywordsDataBingLanguages()
 
-▸ **processKeywordsDataBingLanguages**(`response`): `Promise`\<[`KeywordsDataBingLanguagesResponseInfo`](KeywordsDataBingLanguagesResponseInfo.md)\>
+> **`protected`** **processKeywordsDataBingLanguages**(`response`): `Promise`\<[`KeywordsDataBingLanguagesResponseInfo`](KeywordsDataBingLanguagesResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataBingLanguagesResponseInfo`](KeywordsDataBingLanguagesResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:10266
 
-___
+***
 
-### processKeywordsDataBingLocations
+### processKeywordsDataBingLocations()
 
-▸ **processKeywordsDataBingLocations**(`response`): `Promise`\<[`KeywordsDataBingLocationsResponseInfo`](KeywordsDataBingLocationsResponseInfo.md)\>
+> **`protected`** **processKeywordsDataBingLocations**(`response`): `Promise`\<[`KeywordsDataBingLocationsResponseInfo`](KeywordsDataBingLocationsResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataBingLocationsResponseInfo`](KeywordsDataBingLocationsResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:10229
 
-___
+***
 
-### processKeywordsDataDataforseoTrendsLocations
+### processKeywordsDataDataforseoTrendsLocations()
 
-▸ **processKeywordsDataDataforseoTrendsLocations**(`response`): `Promise`\<[`KeywordsDataDataforseoTrendsLocationsResponseInfo`](KeywordsDataDataforseoTrendsLocationsResponseInfo.md)\>
+> **`protected`** **processKeywordsDataDataforseoTrendsLocations**(`response`): `Promise`\<[`KeywordsDataDataforseoTrendsLocationsResponseInfo`](KeywordsDataDataforseoTrendsLocationsResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataDataforseoTrendsLocationsResponseInfo`](KeywordsDataDataforseoTrendsLocationsResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:9979
 
-___
+***
 
-### processKeywordsDataDataforseoTrendsLocationsCountry
+### processKeywordsDataDataforseoTrendsLocationsCountry()
 
-▸ **processKeywordsDataDataforseoTrendsLocationsCountry**(`response`): `Promise`\<[`KeywordsDataDataforseoTrendsLocationsCountryResponseInfo`](KeywordsDataDataforseoTrendsLocationsCountryResponseInfo.md)\>
+> **`protected`** **processKeywordsDataDataforseoTrendsLocationsCountry**(`response`): `Promise`\<[`KeywordsDataDataforseoTrendsLocationsCountryResponseInfo`](KeywordsDataDataforseoTrendsLocationsCountryResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataDataforseoTrendsLocationsCountryResponseInfo`](KeywordsDataDataforseoTrendsLocationsCountryResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:10024
 
-___
+***
 
-### processKeywordsDataErrors
+### processKeywordsDataErrors()
 
-▸ **processKeywordsDataErrors**(`response`): `Promise`\<[`KeywordsDataErrorsResponseInfo`](KeywordsDataErrorsResponseInfo.md)\>
+> **`protected`** **processKeywordsDataErrors**(`response`): `Promise`\<[`KeywordsDataErrorsResponseInfo`](KeywordsDataErrorsResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataErrorsResponseInfo`](KeywordsDataErrorsResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:8855
 
-___
+***
 
-### processKeywordsDataGoogleAdsLanguages
+### processKeywordsDataGoogleAdsLanguages()
 
-▸ **processKeywordsDataGoogleAdsLanguages**(`response`): `Promise`\<[`KeywordsDataGoogleAdsLanguagesResponseInfo`](KeywordsDataGoogleAdsLanguagesResponseInfo.md)\>
+> **`protected`** **processKeywordsDataGoogleAdsLanguages**(`response`): `Promise`\<[`KeywordsDataGoogleAdsLanguagesResponseInfo`](KeywordsDataGoogleAdsLanguagesResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataGoogleAdsLanguagesResponseInfo`](KeywordsDataGoogleAdsLanguagesResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:8966
 
-___
+***
 
-### processKeywordsDataGoogleAdsLocations
+### processKeywordsDataGoogleAdsLocations()
 
-▸ **processKeywordsDataGoogleAdsLocations**(`response`): `Promise`\<[`KeywordsDataGoogleAdsLocationsResponseInfo`](KeywordsDataGoogleAdsLocationsResponseInfo.md)\>
+> **`protected`** **processKeywordsDataGoogleAdsLocations**(`response`): `Promise`\<[`KeywordsDataGoogleAdsLocationsResponseInfo`](KeywordsDataGoogleAdsLocationsResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataGoogleAdsLocationsResponseInfo`](KeywordsDataGoogleAdsLocationsResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:8929
 
-___
+***
 
-### processKeywordsDataGoogleTrendsLanguages
+### processKeywordsDataGoogleTrendsLanguages()
 
-▸ **processKeywordsDataGoogleTrendsLanguages**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsLanguagesResponseInfo`](KeywordsDataGoogleTrendsLanguagesResponseInfo.md)\>
+> **`protected`** **processKeywordsDataGoogleTrendsLanguages**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsLanguagesResponseInfo`](KeywordsDataGoogleTrendsLanguagesResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataGoogleTrendsLanguagesResponseInfo`](KeywordsDataGoogleTrendsLanguagesResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:9741
 
-___
+***
 
-### processKeywordsDataGoogleTrendsLocations
+### processKeywordsDataGoogleTrendsLocations()
 
-▸ **processKeywordsDataGoogleTrendsLocations**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsLocationsResponseInfo`](KeywordsDataGoogleTrendsLocationsResponseInfo.md)\>
+> **`protected`** **processKeywordsDataGoogleTrendsLocations**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsLocationsResponseInfo`](KeywordsDataGoogleTrendsLocationsResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataGoogleTrendsLocationsResponseInfo`](KeywordsDataGoogleTrendsLocationsResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:9659
 
-___
+***
 
-### processKeywordsDataGoogleTrendsLocationsCountry
+### processKeywordsDataGoogleTrendsLocationsCountry()
 
-▸ **processKeywordsDataGoogleTrendsLocationsCountry**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsLocationsCountryResponseInfo`](KeywordsDataGoogleTrendsLocationsCountryResponseInfo.md)\>
+> **`protected`** **processKeywordsDataGoogleTrendsLocationsCountry**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsLocationsCountryResponseInfo`](KeywordsDataGoogleTrendsLocationsCountryResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataGoogleTrendsLocationsCountryResponseInfo`](KeywordsDataGoogleTrendsLocationsCountryResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:9704
 
-___
+***
 
-### processKeywordsDataIdList
+### processKeywordsDataIdList()
 
-▸ **processKeywordsDataIdList**(`response`): `Promise`\<[`KeywordsDataIdListResponseInfo`](KeywordsDataIdListResponseInfo.md)\>
+> **`protected`** **processKeywordsDataIdList**(`response`): `Promise`\<[`KeywordsDataIdListResponseInfo`](KeywordsDataIdListResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`KeywordsDataIdListResponseInfo`](KeywordsDataIdListResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:8813

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo
 
 # Class: DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo
 
@@ -8,62 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [category\_codes](DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#category_codes)
-- [category\_intersection](DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#category_intersection)
-- [filters](DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#filters)
-- [ignore\_synonyms](DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#ignore_synonyms)
-- [include\_serp\_info](DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#include_serp_info)
-- [language\_code](DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#language_code)
-- [language\_name](DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#language_name)
-- [limit](DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#limit)
-- [location\_code](DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#location_code)
-- [location\_name](DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#location_name)
-- [offset](DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#offset)
-- [offset\_token](DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#offset_token)
-- [order\_by](DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#order_by)
-- [tag](DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#tag)
-
-### Methods
-
-- [init](DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#init)
-- [toJSON](DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#tojson)
-- [fromJS](DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo(data)
 
-• **new DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo**(`data?`): [`DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo`](DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md)
+> **new DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo`](DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md) |
+• **data?**: [`IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo`](DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:86179
+main.ts:86187
 
 ## Properties
 
-### category\_codes
+### category\_codes?
 
-• `Optional` **category\_codes**: `string`[]
+> **`optional`** **category\_codes**: `string`[]
 
 product and service categories
 required field
@@ -72,17 +45,17 @@ you can download the full list of possible categories
 
 #### Implementation of
 
-[IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md).[category_codes](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#category_codes)
+[`IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md).[`category_codes`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#category_codes)
 
-#### Defined in
+#### Source
 
-main.ts:86068
+main.ts:86076
 
-___
+***
 
-### category\_intersection
+### category\_intersection?
 
-• `Optional` **category\_intersection**: `boolean`
+> **`optional`** **category\_intersection**: `boolean`
 
 category intersections
 optional field
@@ -92,27 +65,27 @@ default value: true
 
 #### Implementation of
 
-[IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md).[category_intersection](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#category_intersection)
+[`IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md).[`category_intersection`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#category_intersection)
 
-#### Defined in
+#### Source
 
-main.ts:86106
+main.ts:86114
 
-___
+***
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, <=, >, >=, =, <>, in, not_in, like, not_like
+regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
-["keyword_info.search_volume",">",0]
+["keyword_info.search_volume",">`",0]
 [["keyword_info.search_volume","in",[0,1000]],
 "and",
 ["keyword_info.competition_level","=","LOW"]]
@@ -125,17 +98,17 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Implementation of
 
-[IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md).[filters](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#filters)
+[`IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md).[`filters`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#filters)
 
-#### Defined in
+#### Source
 
-main.ts:86153
+main.ts:86161
 
-___
+***
 
-### ignore\_synonyms
+### ignore\_synonyms?
 
-• `Optional` **ignore\_synonyms**: `boolean`
+> **`optional`** **ignore\_synonyms**: `boolean`
 
 ignore highly similar keywords
 optional field
@@ -144,17 +117,17 @@ default value: false
 
 #### Implementation of
 
-[IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md).[ignore_synonyms](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#ignore_synonyms)
+[`IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md).[`ignore_synonyms`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#ignore_synonyms)
 
-#### Defined in
+#### Source
 
-main.ts:86116
+main.ts:86124
 
-___
+***
 
-### include\_serp\_info
+### include\_serp\_info?
 
-• `Optional` **include\_serp\_info**: `boolean`
+> **`optional`** **include\_serp\_info**: `boolean`
 
 include data from SERP for each keyword
 optional field
@@ -163,17 +136,17 @@ default value: false
 
 #### Implementation of
 
-[IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md).[include_serp_info](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#include_serp_info)
+[`IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md).[`include_serp_info`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#include_serp_info)
 
-#### Defined in
+#### Source
 
-main.ts:86111
+main.ts:86119
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 unique language identifier
 required field if you don’t specify language_name
@@ -185,17 +158,17 @@ en
 
 #### Implementation of
 
-[IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md).[language_code](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#language_code)
+[`IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:86100
+main.ts:86108
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -207,17 +180,17 @@ English
 
 #### Implementation of
 
-[IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md).[language_name](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#language_name)
+[`IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:86092
+main.ts:86100
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of keywords in the results array
 optional field
@@ -226,17 +199,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md).[limit](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#limit)
+[`IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md).[`limit`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#limit)
 
-#### Defined in
+#### Source
 
-main.ts:86121
+main.ts:86129
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 unique location identifier
 required field if you don’t specify location_name
@@ -248,17 +221,17 @@ example:
 
 #### Implementation of
 
-[IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md).[location_code](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#location_code)
+[`IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:86084
+main.ts:86092
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code
@@ -270,17 +243,17 @@ United Kingdom
 
 #### Implementation of
 
-[IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md).[location_name](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#location_name)
+[`IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:86076
+main.ts:86084
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned keywords
 optional field
@@ -289,17 +262,17 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Implementation of
 
-[IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md).[offset](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#offset)
+[`IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md).[`offset`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#offset)
 
-#### Defined in
+#### Source
 
-main.ts:86126
+main.ts:86134
 
-___
+***
 
-### offset\_token
+### offset\_token?
 
-• `Optional` **offset\_token**: `string`
+> **`optional`** **offset\_token**: `string`
 
 offset token for subsequent requests
 optional field
@@ -311,17 +284,17 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Implementation of
 
-[IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md).[offset_token](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#offset_token)
+[`IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md).[`offset_token`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#offset_token)
 
-#### Defined in
+#### Source
 
-main.ts:86134
+main.ts:86142
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -341,17 +314,17 @@ example:
 
 #### Implementation of
 
-[IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md).[order_by](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#order_by)
+[`IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md).[`order_by`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#order_by)
 
-#### Defined in
+#### Source
 
-main.ts:86169
+main.ts:86177
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -361,68 +334,62 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md).[tag](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#tag)
+[`IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:86175
+main.ts:86183
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:86188
+main.ts:86196
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:86230
+main.ts:86238
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo`](DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo`](DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo`](DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:86223
+main.ts:86231

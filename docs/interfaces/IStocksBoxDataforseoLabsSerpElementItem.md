@@ -1,184 +1,165 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IStocksBoxDataforseoLabsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IStocksBoxDataforseoLabsSerpElementItem
 
 # Interface: IStocksBoxDataforseoLabsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md)
 
-  ↳ **`IStocksBoxDataforseoLabsSerpElementItem`**
-
-## Implemented by
-
-- [`StocksBoxDataforseoLabsSerpElementItem`](../classes/StocksBoxDataforseoLabsSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [domain](IStocksBoxDataforseoLabsSerpElementItem.md#domain)
-- [graph](IStocksBoxDataforseoLabsSerpElementItem.md#graph)
-- [position](IStocksBoxDataforseoLabsSerpElementItem.md#position)
-- [price](IStocksBoxDataforseoLabsSerpElementItem.md#price)
-- [rank\_absolute](IStocksBoxDataforseoLabsSerpElementItem.md#rank_absolute)
-- [rank\_group](IStocksBoxDataforseoLabsSerpElementItem.md#rank_group)
-- [snippet](IStocksBoxDataforseoLabsSerpElementItem.md#snippet)
-- [source](IStocksBoxDataforseoLabsSerpElementItem.md#source)
-- [table](IStocksBoxDataforseoLabsSerpElementItem.md#table)
-- [title](IStocksBoxDataforseoLabsSerpElementItem.md#title)
-- [url](IStocksBoxDataforseoLabsSerpElementItem.md#url)
-- [xpath](IStocksBoxDataforseoLabsSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain where a link points
 
-#### Defined in
+#### Source
 
-main.ts:98182
+main.ts:98190
 
-___
+***
 
-### graph
+### graph?
 
-• `Optional` **graph**: [`Graph`](../classes/Graph.md)
+> **`optional`** **graph**: [`Graph`](../classes/Graph.md)
 
 contains data provided in the graph of the element
 
-#### Defined in
+#### Source
 
-main.ts:98187
+main.ts:98195
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
-main.ts:98167
+main.ts:98175
 
-___
+***
 
-### price
+### price?
 
-• `Optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
+> **`optional`** **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
 price of the shopping element
 
-#### Defined in
+#### Source
 
-main.ts:98178
+main.ts:98186
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Defined in
+#### Source
 
-main.ts:98163
+main.ts:98171
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
-main.ts:98160
+main.ts:98168
 
-___
+***
 
-### snippet
+### snippet?
 
-• `Optional` **snippet**: `string`
+> **`optional`** **snippet**: `string`
 
 text alongside the link title
 
-#### Defined in
+#### Source
 
-main.ts:98176
+main.ts:98184
 
-___
+***
 
-### source
+### source?
 
-• `Optional` **source**: `string`
+> **`optional`** **source**: `string`
 
 source of the element
 indicates the source of information included in the shopping_element
 
-#### Defined in
+#### Source
 
-main.ts:98174
+main.ts:98182
 
-___
+***
 
-### table
+### table?
 
-• `Optional` **table**: [`Table`](../classes/Table.md)
+> **`optional`** **table**: [`Table`](../classes/Table.md)
 
 results table
 if there are none, equals null
 
-#### Defined in
+#### Source
 
-main.ts:98185
+main.ts:98193
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the result in SERP
 
-#### Defined in
+#### Source
 
-main.ts:98171
+main.ts:98179
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 relevant URL of the Ad element in SERP
 
-#### Defined in
+#### Source
 
-main.ts:98180
+main.ts:98188
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
-main.ts:98169
+main.ts:98177

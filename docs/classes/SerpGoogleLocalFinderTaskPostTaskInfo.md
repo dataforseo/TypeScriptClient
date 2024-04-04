@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleLocalFinderTaskPostTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleLocalFinderTaskPostTaskInfo
 
 # Class: SerpGoogleLocalFinderTaskPostTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`SerpGoogleLocalFinderTaskPostTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleLocalFinderTaskPostTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](SerpGoogleLocalFinderTaskPostTaskInfo.md#cost)
-- [data](SerpGoogleLocalFinderTaskPostTaskInfo.md#data)
-- [id](SerpGoogleLocalFinderTaskPostTaskInfo.md#id)
-- [path](SerpGoogleLocalFinderTaskPostTaskInfo.md#path)
-- [result](SerpGoogleLocalFinderTaskPostTaskInfo.md#result)
-- [result\_count](SerpGoogleLocalFinderTaskPostTaskInfo.md#result_count)
-- [status\_code](SerpGoogleLocalFinderTaskPostTaskInfo.md#status_code)
-- [status\_message](SerpGoogleLocalFinderTaskPostTaskInfo.md#status_message)
-- [time](SerpGoogleLocalFinderTaskPostTaskInfo.md#time)
-
-### Methods
-
-- [init](SerpGoogleLocalFinderTaskPostTaskInfo.md#init)
-- [toJSON](SerpGoogleLocalFinderTaskPostTaskInfo.md#tojson)
-- [fromJS](SerpGoogleLocalFinderTaskPostTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleLocalFinderTaskPostTaskInfo(data)
 
-• **new SerpGoogleLocalFinderTaskPostTaskInfo**(`data?`): [`SerpGoogleLocalFinderTaskPostTaskInfo`](SerpGoogleLocalFinderTaskPostTaskInfo.md)
+> **new SerpGoogleLocalFinderTaskPostTaskInfo**(`data`?): [`SerpGoogleLocalFinderTaskPostTaskInfo`](SerpGoogleLocalFinderTaskPostTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleLocalFinderTaskPostTaskInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostTaskInfo.md) |
+• **data?**: [`ISerpGoogleLocalFinderTaskPostTaskInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostTaskInfo.md)
 
 #### Returns
 
@@ -58,139 +34,139 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:40710
+main.ts:40716
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderTaskPostTaskInfo](../interfaces/ISerpGoogleLocalFinderTaskPostTaskInfo.md).[cost](../interfaces/ISerpGoogleLocalFinderTaskPostTaskInfo.md#cost)
+[`ISerpGoogleLocalFinderTaskPostTaskInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostTaskInfo.md).[`cost`](../interfaces/ISerpGoogleLocalFinderTaskPostTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderTaskPostTaskInfo](../interfaces/ISerpGoogleLocalFinderTaskPostTaskInfo.md).[data](../interfaces/ISerpGoogleLocalFinderTaskPostTaskInfo.md#data)
+[`ISerpGoogleLocalFinderTaskPostTaskInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostTaskInfo.md).[`data`](../interfaces/ISerpGoogleLocalFinderTaskPostTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderTaskPostTaskInfo](../interfaces/ISerpGoogleLocalFinderTaskPostTaskInfo.md).[id](../interfaces/ISerpGoogleLocalFinderTaskPostTaskInfo.md#id)
+[`ISerpGoogleLocalFinderTaskPostTaskInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostTaskInfo.md).[`id`](../interfaces/ISerpGoogleLocalFinderTaskPostTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderTaskPostTaskInfo](../interfaces/ISerpGoogleLocalFinderTaskPostTaskInfo.md).[path](../interfaces/ISerpGoogleLocalFinderTaskPostTaskInfo.md#path)
+[`ISerpGoogleLocalFinderTaskPostTaskInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostTaskInfo.md).[`path`](../interfaces/ISerpGoogleLocalFinderTaskPostTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: `any`
+> **`optional`** **result**: `any`
 
 array of results
 in this case, the value will be null
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderTaskPostTaskInfo](../interfaces/ISerpGoogleLocalFinderTaskPostTaskInfo.md).[result](../interfaces/ISerpGoogleLocalFinderTaskPostTaskInfo.md#result)
+[`ISerpGoogleLocalFinderTaskPostTaskInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostTaskInfo.md).[`result`](../interfaces/ISerpGoogleLocalFinderTaskPostTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:40706
+main.ts:40712
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderTaskPostTaskInfo](../interfaces/ISerpGoogleLocalFinderTaskPostTaskInfo.md).[result_count](../interfaces/ISerpGoogleLocalFinderTaskPostTaskInfo.md#result_count)
+[`ISerpGoogleLocalFinderTaskPostTaskInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostTaskInfo.md).[`result_count`](../interfaces/ISerpGoogleLocalFinderTaskPostTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -198,68 +174,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderTaskPostTaskInfo](../interfaces/ISerpGoogleLocalFinderTaskPostTaskInfo.md).[status_code](../interfaces/ISerpGoogleLocalFinderTaskPostTaskInfo.md#status_code)
+[`ISerpGoogleLocalFinderTaskPostTaskInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostTaskInfo.md).[`status_code`](../interfaces/ISerpGoogleLocalFinderTaskPostTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderTaskPostTaskInfo](../interfaces/ISerpGoogleLocalFinderTaskPostTaskInfo.md).[status_message](../interfaces/ISerpGoogleLocalFinderTaskPostTaskInfo.md#status_message)
+[`ISerpGoogleLocalFinderTaskPostTaskInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostTaskInfo.md).[`status_message`](../interfaces/ISerpGoogleLocalFinderTaskPostTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderTaskPostTaskInfo](../interfaces/ISerpGoogleLocalFinderTaskPostTaskInfo.md).[time](../interfaces/ISerpGoogleLocalFinderTaskPostTaskInfo.md#time)
+[`ISerpGoogleLocalFinderTaskPostTaskInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostTaskInfo.md).[`time`](../interfaces/ISerpGoogleLocalFinderTaskPostTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -267,23 +241,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:40714
+main.ts:40720
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -291,23 +263,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:40732
+main.ts:40738
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleLocalFinderTaskPostTaskInfo`](SerpGoogleLocalFinderTaskPostTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleLocalFinderTaskPostTaskInfo`](SerpGoogleLocalFinderTaskPostTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -315,8 +285,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:40725
+main.ts:40731

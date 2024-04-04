@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataGoogleReviewsTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataGoogleReviewsTaskPostRequestInfo
 
 # Class: BusinessDataGoogleReviewsTaskPostRequestInfo
 
-## Hierarchy
+## Extends
 
 - [`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md)
-
-  ↳ **`BusinessDataGoogleReviewsTaskPostRequestInfo`**
 
 ## Implements
 
@@ -14,48 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataGoogleReviewsTaskPostRequestInfo.md#constructor)
-
-### Properties
-
-- [cid](BusinessDataGoogleReviewsTaskPostRequestInfo.md#cid)
-- [depth](BusinessDataGoogleReviewsTaskPostRequestInfo.md#depth)
-- [keyword](BusinessDataGoogleReviewsTaskPostRequestInfo.md#keyword)
-- [language\_code](BusinessDataGoogleReviewsTaskPostRequestInfo.md#language_code)
-- [language\_name](BusinessDataGoogleReviewsTaskPostRequestInfo.md#language_name)
-- [location\_code](BusinessDataGoogleReviewsTaskPostRequestInfo.md#location_code)
-- [location\_coordinate](BusinessDataGoogleReviewsTaskPostRequestInfo.md#location_coordinate)
-- [location\_name](BusinessDataGoogleReviewsTaskPostRequestInfo.md#location_name)
-- [pingback\_url](BusinessDataGoogleReviewsTaskPostRequestInfo.md#pingback_url)
-- [place\_id](BusinessDataGoogleReviewsTaskPostRequestInfo.md#place_id)
-- [postback\_url](BusinessDataGoogleReviewsTaskPostRequestInfo.md#postback_url)
-- [priority](BusinessDataGoogleReviewsTaskPostRequestInfo.md#priority)
-- [sort\_by](BusinessDataGoogleReviewsTaskPostRequestInfo.md#sort_by)
-- [tag](BusinessDataGoogleReviewsTaskPostRequestInfo.md#tag)
-
-### Methods
-
-- [init](BusinessDataGoogleReviewsTaskPostRequestInfo.md#init)
-- [toJSON](BusinessDataGoogleReviewsTaskPostRequestInfo.md#tojson)
-- [fromJS](BusinessDataGoogleReviewsTaskPostRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataGoogleReviewsTaskPostRequestInfo(data)
 
-• **new BusinessDataGoogleReviewsTaskPostRequestInfo**(`data?`): [`BusinessDataGoogleReviewsTaskPostRequestInfo`](BusinessDataGoogleReviewsTaskPostRequestInfo.md)
+> **new BusinessDataGoogleReviewsTaskPostRequestInfo**(`data`?): [`BusinessDataGoogleReviewsTaskPostRequestInfo`](BusinessDataGoogleReviewsTaskPostRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataGoogleReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md) |
+• **data?**: [`IBusinessDataGoogleReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md)
 
 #### Returns
 
@@ -63,17 +34,17 @@
 
 #### Overrides
 
-[BusinessDataTaskRequestInfo](BusinessDataTaskRequestInfo.md).[constructor](BusinessDataTaskRequestInfo.md#constructor)
+[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`constructor`](BusinessDataTaskRequestInfo.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:203251
 
 ## Properties
 
-### cid
+### cid?
 
-• `Optional` **cid**: `string`
+> **`optional`** **cid**: `string`
 
 unique, google-defined id of the business entity
 required field if you don’t specify keyword or place_id
@@ -83,17 +54,17 @@ learn more about the identifier in this help center article
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTaskPostRequestInfo](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md).[cid](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md#cid)
+[`IBusinessDataGoogleReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md).[`cid`](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md#cid)
 
-#### Defined in
+#### Source
 
 main.ts:203224
 
-___
+***
 
-### depth
+### depth?
 
-• `Optional` **depth**: `number`
+> **`optional`** **depth**: `number`
 
 parsing depth
 optional field
@@ -104,17 +75,17 @@ maximum value: 4490
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTaskPostRequestInfo](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md).[depth](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md#depth)
+[`IBusinessDataGoogleReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md).[`depth`](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md#depth)
 
-#### Defined in
+#### Source
 
 main.ts:203237
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword
 required field
@@ -134,21 +105,21 @@ learn more about the cid and place_id identifiers in this help center article
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTaskPostRequestInfo](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md).[keyword](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md#keyword)
+[`IBusinessDataGoogleReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md).[`keyword`](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md#keyword)
 
 #### Inherited from
 
-[BusinessDataTaskRequestInfo](BusinessDataTaskRequestInfo.md).[keyword](BusinessDataTaskRequestInfo.md#keyword)
+[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`keyword`](BusinessDataTaskRequestInfo.md#keyword)
 
-#### Defined in
+#### Source
 
 main.ts:188563
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -159,21 +130,21 @@ en
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTaskPostRequestInfo](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md).[language_code](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md#language_code)
+[`IBusinessDataGoogleReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md).[`language_code`](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md#language_code)
 
 #### Inherited from
 
-[BusinessDataTaskRequestInfo](BusinessDataTaskRequestInfo.md).[language_code](BusinessDataTaskRequestInfo.md#language_code)
+[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`language_code`](BusinessDataTaskRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
 main.ts:188608
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -184,21 +155,21 @@ English
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTaskPostRequestInfo](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md).[language_name](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md#language_name)
+[`IBusinessDataGoogleReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md).[`language_name`](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md#language_name)
 
 #### Inherited from
 
-[BusinessDataTaskRequestInfo](BusinessDataTaskRequestInfo.md).[language_name](BusinessDataTaskRequestInfo.md#language_name)
+[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`language_name`](BusinessDataTaskRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
 main.ts:188601
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -209,21 +180,21 @@ example:
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTaskPostRequestInfo](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md).[location_code](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md#location_code)
+[`IBusinessDataGoogleReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md).[`location_code`](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md#location_code)
 
 #### Inherited from
 
-[BusinessDataTaskRequestInfo](BusinessDataTaskRequestInfo.md).[location_code](BusinessDataTaskRequestInfo.md#location_code)
+[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`location_code`](BusinessDataTaskRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
 main.ts:188585
 
-___
+***
 
-### location\_coordinate
+### location\_coordinate?
 
-• `Optional` **location\_coordinate**: `string`
+> **`optional`** **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -236,21 +207,21 @@ example:
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTaskPostRequestInfo](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md).[location_coordinate](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md#location_coordinate)
+[`IBusinessDataGoogleReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md).[`location_coordinate`](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md#location_coordinate)
 
 #### Inherited from
 
-[BusinessDataTaskRequestInfo](BusinessDataTaskRequestInfo.md).[location_coordinate](BusinessDataTaskRequestInfo.md#location_coordinate)
+[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`location_coordinate`](BusinessDataTaskRequestInfo.md#location_coordinate)
 
-#### Defined in
+#### Source
 
 main.ts:188594
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -261,21 +232,21 @@ London,England,United Kingdom
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTaskPostRequestInfo](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md).[location_name](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md#location_name)
+[`IBusinessDataGoogleReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md).[`location_name`](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md#location_name)
 
 #### Inherited from
 
-[BusinessDataTaskRequestInfo](BusinessDataTaskRequestInfo.md).[location_name](BusinessDataTaskRequestInfo.md#location_name)
+[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`location_name`](BusinessDataTaskRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
 main.ts:188578
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -289,21 +260,21 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTaskPostRequestInfo](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md).[pingback_url](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md#pingback_url)
+[`IBusinessDataGoogleReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md).[`pingback_url`](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md#pingback_url)
 
 #### Inherited from
 
-[BusinessDataTaskRequestInfo](BusinessDataTaskRequestInfo.md).[pingback_url](BusinessDataTaskRequestInfo.md#pingback_url)
+[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`pingback_url`](BusinessDataTaskRequestInfo.md#pingback_url)
 
-#### Defined in
+#### Source
 
 main.ts:188634
 
-___
+***
 
-### place\_id
+### place\_id?
 
-• `Optional` **place\_id**: `string`
+> **`optional`** **place\_id**: `string`
 
 identifier of the business entity in Google Maps
 required field if you don’t specify keyword or cid
@@ -313,17 +284,17 @@ learn more about the identifier in this help center article
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTaskPostRequestInfo](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md).[place_id](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md#place_id)
+[`IBusinessDataGoogleReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md).[`place_id`](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md#place_id)
 
-#### Defined in
+#### Source
 
 main.ts:203230
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -337,21 +308,21 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTaskPostRequestInfo](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md).[postback_url](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md#postback_url)
+[`IBusinessDataGoogleReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md).[`postback_url`](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md#postback_url)
 
 #### Inherited from
 
-[BusinessDataTaskRequestInfo](BusinessDataTaskRequestInfo.md).[postback_url](BusinessDataTaskRequestInfo.md#postback_url)
+[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`postback_url`](BusinessDataTaskRequestInfo.md#postback_url)
 
-#### Defined in
+#### Source
 
 main.ts:188624
 
-___
+***
 
-### priority
+### priority?
 
-• `Optional` **priority**: `number`
+> **`optional`** **priority**: `number`
 
 task priority
 optional field
@@ -363,21 +334,21 @@ The cost can be calculated on the Pricing page.
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTaskPostRequestInfo](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md).[priority](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md#priority)
+[`IBusinessDataGoogleReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md).[`priority`](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md#priority)
 
 #### Inherited from
 
-[BusinessDataTaskRequestInfo](BusinessDataTaskRequestInfo.md).[priority](BusinessDataTaskRequestInfo.md#priority)
+[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`priority`](BusinessDataTaskRequestInfo.md#priority)
 
-#### Defined in
+#### Source
 
 main.ts:188571
 
-___
+***
 
-### sort\_by
+### sort\_by?
 
-• `Optional` **sort\_by**: `string`
+> **`optional`** **sort\_by**: `string`
 
 results sorting parameters
 optional field
@@ -391,17 +362,17 @@ default value: relevant
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTaskPostRequestInfo](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md).[sort_by](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md#sort_by)
+[`IBusinessDataGoogleReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md).[`sort_by`](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md#sort_by)
 
-#### Defined in
+#### Source
 
 main.ts:203247
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -411,27 +382,25 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTaskPostRequestInfo](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md).[tag](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md#tag)
+[`IBusinessDataGoogleReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md).[`tag`](../interfaces/IBusinessDataGoogleReviewsTaskPostRequestInfo.md#tag)
 
 #### Inherited from
 
-[BusinessDataTaskRequestInfo](BusinessDataTaskRequestInfo.md).[tag](BusinessDataTaskRequestInfo.md#tag)
+[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`tag`](BusinessDataTaskRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
 main.ts:188614
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -439,23 +408,21 @@ main.ts:188614
 
 #### Overrides
 
-[BusinessDataTaskRequestInfo](BusinessDataTaskRequestInfo.md).[init](BusinessDataTaskRequestInfo.md#init)
+[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`init`](BusinessDataTaskRequestInfo.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:203255
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -463,23 +430,21 @@ ___
 
 #### Overrides
 
-[BusinessDataTaskRequestInfo](BusinessDataTaskRequestInfo.md).[toJSON](BusinessDataTaskRequestInfo.md#tojson)
+[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`toJSON`](BusinessDataTaskRequestInfo.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:203276
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataGoogleReviewsTaskPostRequestInfo`](BusinessDataGoogleReviewsTaskPostRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataGoogleReviewsTaskPostRequestInfo`](BusinessDataGoogleReviewsTaskPostRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -487,8 +452,8 @@ ___
 
 #### Overrides
 
-[BusinessDataTaskRequestInfo](BusinessDataTaskRequestInfo.md).[fromJS](BusinessDataTaskRequestInfo.md#fromjs)
+[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`fromJS`](BusinessDataTaskRequestInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:203269

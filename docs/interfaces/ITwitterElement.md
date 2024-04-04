@@ -1,84 +1,74 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ITwitterElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ITwitterElement
 
 # Interface: ITwitterElement
 
-## Implemented by
-
-- [`TwitterElement`](../classes/TwitterElement.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [date](ITwitterElement.md#date)
-- [timestamp](ITwitterElement.md#timestamp)
-- [tweet](ITwitterElement.md#tweet)
-- [type](ITwitterElement.md#type)
-- [url](ITwitterElement.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### date
+### date?
 
-• `Optional` **date**: `string`
+> **`optional`** **date**: `string`
 
 the date when the page source of the element was published
 
-#### Defined in
+#### Source
 
 main.ts:29819
 
-___
+***
 
-### timestamp
+### timestamp?
 
-• `Optional` **timestamp**: `string`
+> **`optional`** **timestamp**: `string`
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
 main.ts:29824
 
-___
+***
 
-### tweet
+### tweet?
 
-• `Optional` **tweet**: `string`
+> **`optional`** **tweet**: `string`
 
 tweet message
 
-#### Defined in
+#### Source
 
 main.ts:29817
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
 main.ts:29815
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL
 
-#### Defined in
+#### Source
 
 main.ts:29826

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataTrustpilotReviewsTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataTrustpilotReviewsTaskPostRequestInfo
 
 # Class: BusinessDataTrustpilotReviewsTaskPostRequestInfo
 
@@ -8,55 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataTrustpilotReviewsTaskPostRequestInfo.md#constructor)
-
-### Properties
-
-- [depth](BusinessDataTrustpilotReviewsTaskPostRequestInfo.md#depth)
-- [domain](BusinessDataTrustpilotReviewsTaskPostRequestInfo.md#domain)
-- [pingback\_url](BusinessDataTrustpilotReviewsTaskPostRequestInfo.md#pingback_url)
-- [postback\_url](BusinessDataTrustpilotReviewsTaskPostRequestInfo.md#postback_url)
-- [priority](BusinessDataTrustpilotReviewsTaskPostRequestInfo.md#priority)
-- [sort\_by](BusinessDataTrustpilotReviewsTaskPostRequestInfo.md#sort_by)
-- [tag](BusinessDataTrustpilotReviewsTaskPostRequestInfo.md#tag)
-
-### Methods
-
-- [init](BusinessDataTrustpilotReviewsTaskPostRequestInfo.md#init)
-- [toJSON](BusinessDataTrustpilotReviewsTaskPostRequestInfo.md#tojson)
-- [fromJS](BusinessDataTrustpilotReviewsTaskPostRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataTrustpilotReviewsTaskPostRequestInfo(data)
 
-• **new BusinessDataTrustpilotReviewsTaskPostRequestInfo**(`data?`): [`BusinessDataTrustpilotReviewsTaskPostRequestInfo`](BusinessDataTrustpilotReviewsTaskPostRequestInfo.md)
+> **new BusinessDataTrustpilotReviewsTaskPostRequestInfo**(`data`?): [`BusinessDataTrustpilotReviewsTaskPostRequestInfo`](BusinessDataTrustpilotReviewsTaskPostRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataTrustpilotReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md) |
+• **data?**: [`IBusinessDataTrustpilotReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md)
 
 #### Returns
 
 [`BusinessDataTrustpilotReviewsTaskPostRequestInfo`](BusinessDataTrustpilotReviewsTaskPostRequestInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:204930
 
 ## Properties
 
-### depth
+### depth?
 
-• `Optional` **depth**: `number`
+> **`optional`** **depth**: `number`
 
 parsing depth
 optional field
@@ -67,17 +47,17 @@ maximum value: 25000
 
 #### Implementation of
 
-[IBusinessDataTrustpilotReviewsTaskPostRequestInfo](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md).[depth](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md#depth)
+[`IBusinessDataTrustpilotReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md).[`depth`](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md#depth)
 
-#### Defined in
+#### Source
 
 main.ts:204900
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain of the local establishment
 required field
@@ -89,17 +69,17 @@ https://www.trustpilot.com/review/www.thepearlsource.com
 
 #### Implementation of
 
-[IBusinessDataTrustpilotReviewsTaskPostRequestInfo](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md).[domain](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md#domain)
+[`IBusinessDataTrustpilotReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md).[`domain`](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md#domain)
 
-#### Defined in
+#### Source
 
 main.ts:204877
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -113,17 +93,17 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[IBusinessDataTrustpilotReviewsTaskPostRequestInfo](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md).[pingback_url](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md#pingback_url)
+[`IBusinessDataTrustpilotReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md).[`pingback_url`](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md#pingback_url)
 
-#### Defined in
+#### Source
 
 main.ts:204926
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -137,17 +117,17 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[IBusinessDataTrustpilotReviewsTaskPostRequestInfo](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md).[postback_url](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md#postback_url)
+[`IBusinessDataTrustpilotReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md).[`postback_url`](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md#postback_url)
 
-#### Defined in
+#### Source
 
 main.ts:204916
 
-___
+***
 
-### priority
+### priority?
 
-• `Optional` **priority**: `number`
+> **`optional`** **priority**: `number`
 
 task priority
 optional field
@@ -159,17 +139,17 @@ The cost can be calculated on the Pricing page.
 
 #### Implementation of
 
-[IBusinessDataTrustpilotReviewsTaskPostRequestInfo](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md).[priority](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md#priority)
+[`IBusinessDataTrustpilotReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md).[`priority`](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md#priority)
 
-#### Defined in
+#### Source
 
 main.ts:204893
 
-___
+***
 
-### sort\_by
+### sort\_by?
 
-• `Optional` **sort\_by**: `string`
+> **`optional`** **sort\_by**: `string`
 
 results sorting parameter
 optional field
@@ -181,17 +161,17 @@ default value: relevance
 
 #### Implementation of
 
-[IBusinessDataTrustpilotReviewsTaskPostRequestInfo](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md).[sort_by](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md#sort_by)
+[`IBusinessDataTrustpilotReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md).[`sort_by`](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md#sort_by)
 
-#### Defined in
+#### Source
 
 main.ts:204885
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -201,68 +181,62 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IBusinessDataTrustpilotReviewsTaskPostRequestInfo](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md).[tag](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md#tag)
+[`IBusinessDataTrustpilotReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md).[`tag`](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
 main.ts:204906
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:204939
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:204962
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataTrustpilotReviewsTaskPostRequestInfo`](BusinessDataTrustpilotReviewsTaskPostRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataTrustpilotReviewsTaskPostRequestInfo`](BusinessDataTrustpilotReviewsTaskPostRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BusinessDataTrustpilotReviewsTaskPostRequestInfo`](BusinessDataTrustpilotReviewsTaskPostRequestInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:204955

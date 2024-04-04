@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MerchantAmazonProductsTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / MerchantAmazonProductsTaskPostRequestInfo
 
 # Class: MerchantAmazonProductsTaskPostRequestInfo
 
-## Hierarchy
+## Extends
 
 - [`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md)
-
-  ↳ **`MerchantAmazonProductsTaskPostRequestInfo`**
 
 ## Implements
 
@@ -14,54 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](MerchantAmazonProductsTaskPostRequestInfo.md#constructor)
-
-### Properties
-
-- [department](MerchantAmazonProductsTaskPostRequestInfo.md#department)
-- [depth](MerchantAmazonProductsTaskPostRequestInfo.md#depth)
-- [keyword](MerchantAmazonProductsTaskPostRequestInfo.md#keyword)
-- [language\_code](MerchantAmazonProductsTaskPostRequestInfo.md#language_code)
-- [language\_name](MerchantAmazonProductsTaskPostRequestInfo.md#language_name)
-- [location\_code](MerchantAmazonProductsTaskPostRequestInfo.md#location_code)
-- [location\_coordinate](MerchantAmazonProductsTaskPostRequestInfo.md#location_coordinate)
-- [location\_name](MerchantAmazonProductsTaskPostRequestInfo.md#location_name)
-- [max\_crawl\_pages](MerchantAmazonProductsTaskPostRequestInfo.md#max_crawl_pages)
-- [pingback\_url](MerchantAmazonProductsTaskPostRequestInfo.md#pingback_url)
-- [postback\_data](MerchantAmazonProductsTaskPostRequestInfo.md#postback_data)
-- [postback\_url](MerchantAmazonProductsTaskPostRequestInfo.md#postback_url)
-- [price\_max](MerchantAmazonProductsTaskPostRequestInfo.md#price_max)
-- [price\_min](MerchantAmazonProductsTaskPostRequestInfo.md#price_min)
-- [priority](MerchantAmazonProductsTaskPostRequestInfo.md#priority)
-- [se\_domain](MerchantAmazonProductsTaskPostRequestInfo.md#se_domain)
-- [search\_param](MerchantAmazonProductsTaskPostRequestInfo.md#search_param)
-- [sort\_by](MerchantAmazonProductsTaskPostRequestInfo.md#sort_by)
-- [tag](MerchantAmazonProductsTaskPostRequestInfo.md#tag)
-- [url](MerchantAmazonProductsTaskPostRequestInfo.md#url)
-
-### Methods
-
-- [init](MerchantAmazonProductsTaskPostRequestInfo.md#init)
-- [toJSON](MerchantAmazonProductsTaskPostRequestInfo.md#tojson)
-- [fromJS](MerchantAmazonProductsTaskPostRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new MerchantAmazonProductsTaskPostRequestInfo(data)
 
-• **new MerchantAmazonProductsTaskPostRequestInfo**(`data?`): [`MerchantAmazonProductsTaskPostRequestInfo`](MerchantAmazonProductsTaskPostRequestInfo.md)
+> **new MerchantAmazonProductsTaskPostRequestInfo**(`data`?): [`MerchantAmazonProductsTaskPostRequestInfo`](MerchantAmazonProductsTaskPostRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md) |
+• **data?**: [`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md)
 
 #### Returns
 
@@ -69,17 +34,17 @@
 
 #### Overrides
 
-[MerchantTaskRequestInfo](MerchantTaskRequestInfo.md).[constructor](MerchantTaskRequestInfo.md#constructor)
+[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`constructor`](MerchantTaskRequestInfo.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:175759
 
 ## Properties
 
-### department
+### department?
 
-• `Optional` **department**: `string`
+> **`optional`** **department**: `string`
 
 amazon product department
 optional field
@@ -88,17 +53,17 @@ specify one of the following amazon departments for extracting product listings:
 
 #### Implementation of
 
-[IMerchantAmazonProductsTaskPostRequestInfo](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[department](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#department)
+[`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[`department`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#department)
 
-#### Defined in
+#### Source
 
 main.ts:175755
 
-___
+***
 
-### depth
+### depth?
 
-• `Optional` **depth**: `number`
+> **`optional`** **depth**: `number`
 
 parsing depth
 optional field
@@ -111,21 +76,21 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Implementation of
 
-[IMerchantAmazonProductsTaskPostRequestInfo](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[depth](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#depth)
+[`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[`depth`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#depth)
 
 #### Inherited from
 
-[MerchantTaskRequestInfo](MerchantTaskRequestInfo.md).[depth](MerchantTaskRequestInfo.md#depth)
+[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`depth`](MerchantTaskRequestInfo.md#depth)
 
-#### Defined in
+#### Source
 
-main.ts:148050
+main.ts:148058
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword
 required field
@@ -136,21 +101,21 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Implementation of
 
-[IMerchantAmazonProductsTaskPostRequestInfo](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[keyword](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#keyword)
+[`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[`keyword`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#keyword)
 
 #### Inherited from
 
-[MerchantTaskRequestInfo](MerchantTaskRequestInfo.md).[keyword](MerchantTaskRequestInfo.md#keyword)
+[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`keyword`](MerchantTaskRequestInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:147983
+main.ts:147991
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 required field if you don’t specify language_name
@@ -161,21 +126,21 @@ en
 
 #### Implementation of
 
-[IMerchantAmazonProductsTaskPostRequestInfo](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[language_code](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#language_code)
+[`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[`language_code`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#language_code)
 
 #### Inherited from
 
-[MerchantTaskRequestInfo](MerchantTaskRequestInfo.md).[language_code](MerchantTaskRequestInfo.md#language_code)
+[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`language_code`](MerchantTaskRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:148034
+main.ts:148042
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -186,21 +151,21 @@ English
 
 #### Implementation of
 
-[IMerchantAmazonProductsTaskPostRequestInfo](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[language_name](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#language_name)
+[`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[`language_name`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#language_name)
 
 #### Inherited from
 
-[MerchantTaskRequestInfo](MerchantTaskRequestInfo.md).[language_name](MerchantTaskRequestInfo.md#language_name)
+[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`language_name`](MerchantTaskRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:148027
+main.ts:148035
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 required field if you don’t specify location_name or location_coordinate
@@ -211,21 +176,21 @@ example:
 
 #### Implementation of
 
-[IMerchantAmazonProductsTaskPostRequestInfo](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[location_code](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#location_code)
+[`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[`location_code`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#location_code)
 
 #### Inherited from
 
-[MerchantTaskRequestInfo](MerchantTaskRequestInfo.md).[location_code](MerchantTaskRequestInfo.md#location_code)
+[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`location_code`](MerchantTaskRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:148011
+main.ts:148019
 
-___
+***
 
-### location\_coordinate
+### location\_coordinate?
 
-• `Optional` **location\_coordinate**: `string`
+> **`optional`** **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -238,21 +203,21 @@ example:
 
 #### Implementation of
 
-[IMerchantAmazonProductsTaskPostRequestInfo](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[location_coordinate](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#location_coordinate)
+[`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[`location_coordinate`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#location_coordinate)
 
 #### Inherited from
 
-[MerchantTaskRequestInfo](MerchantTaskRequestInfo.md).[location_coordinate](MerchantTaskRequestInfo.md#location_coordinate)
+[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`location_coordinate`](MerchantTaskRequestInfo.md#location_coordinate)
 
-#### Defined in
+#### Source
 
-main.ts:148020
+main.ts:148028
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code or location_coordinate
@@ -263,21 +228,21 @@ London,England,United Kingdom
 
 #### Implementation of
 
-[IMerchantAmazonProductsTaskPostRequestInfo](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[location_name](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#location_name)
+[`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[`location_name`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#location_name)
 
 #### Inherited from
 
-[MerchantTaskRequestInfo](MerchantTaskRequestInfo.md).[location_name](MerchantTaskRequestInfo.md#location_name)
+[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`location_name`](MerchantTaskRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:148004
+main.ts:148012
 
-___
+***
 
-### max\_crawl\_pages
+### max\_crawl\_pages?
 
-• `Optional` **max\_crawl\_pages**: `number`
+> **`optional`** **max\_crawl\_pages**: `number`
 
 page crawl limit
 optional field
@@ -288,21 +253,21 @@ learn more at our help center
 
 #### Implementation of
 
-[IMerchantAmazonProductsTaskPostRequestInfo](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[max_crawl_pages](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#max_crawl_pages)
+[`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[`max_crawl_pages`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#max_crawl_pages)
 
 #### Inherited from
 
-[MerchantTaskRequestInfo](MerchantTaskRequestInfo.md).[max_crawl_pages](MerchantTaskRequestInfo.md#max_crawl_pages)
+[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`max_crawl_pages`](MerchantTaskRequestInfo.md#max_crawl_pages)
 
-#### Defined in
+#### Source
 
-main.ts:148057
+main.ts:148065
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -316,21 +281,21 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[IMerchantAmazonProductsTaskPostRequestInfo](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[pingback_url](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#pingback_url)
+[`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[`pingback_url`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#pingback_url)
 
 #### Inherited from
 
-[MerchantTaskRequestInfo](MerchantTaskRequestInfo.md).[pingback_url](MerchantTaskRequestInfo.md#pingback_url)
+[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`pingback_url`](MerchantTaskRequestInfo.md#pingback_url)
 
-#### Defined in
+#### Source
 
-main.ts:148119
+main.ts:148127
 
-___
+***
 
-### postback\_data
+### postback\_data?
 
-• `Optional` **postback\_data**: `string`
+> **`optional`** **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -340,21 +305,21 @@ advanced, html
 
 #### Implementation of
 
-[IMerchantAmazonProductsTaskPostRequestInfo](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[postback_data](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#postback_data)
+[`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[`postback_data`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#postback_data)
 
 #### Inherited from
 
-[MerchantTaskRequestInfo](MerchantTaskRequestInfo.md).[postback_data](MerchantTaskRequestInfo.md#postback_data)
+[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`postback_data`](MerchantTaskRequestInfo.md#postback_data)
 
-#### Defined in
+#### Source
 
-main.ts:148109
+main.ts:148117
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -368,21 +333,21 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[IMerchantAmazonProductsTaskPostRequestInfo](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[postback_url](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#postback_url)
+[`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[`postback_url`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#postback_url)
 
 #### Inherited from
 
-[MerchantTaskRequestInfo](MerchantTaskRequestInfo.md).[postback_url](MerchantTaskRequestInfo.md#postback_url)
+[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`postback_url`](MerchantTaskRequestInfo.md#postback_url)
 
-#### Defined in
+#### Source
 
-main.ts:148103
+main.ts:148111
 
-___
+***
 
-### price\_max
+### price\_max?
 
-• `Optional` **price\_max**: `number`
+> **`optional`** **price\_max**: `number`
 
 maximum product price
 optional field
@@ -392,21 +357,21 @@ example:
 
 #### Implementation of
 
-[IMerchantAmazonProductsTaskPostRequestInfo](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[price_max](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#price_max)
+[`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[`price_max`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#price_max)
 
 #### Inherited from
 
-[MerchantTaskRequestInfo](MerchantTaskRequestInfo.md).[price_max](MerchantTaskRequestInfo.md#price_max)
+[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`price_max`](MerchantTaskRequestInfo.md#price_max)
 
-#### Defined in
+#### Source
 
-main.ts:148080
+main.ts:148088
 
-___
+***
 
-### price\_min
+### price\_min?
 
-• `Optional` **price\_min**: `number`
+> **`optional`** **price\_min**: `number`
 
 minimum product price
 optional field
@@ -416,21 +381,21 @@ example:
 
 #### Implementation of
 
-[IMerchantAmazonProductsTaskPostRequestInfo](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[price_min](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#price_min)
+[`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[`price_min`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#price_min)
 
 #### Inherited from
 
-[MerchantTaskRequestInfo](MerchantTaskRequestInfo.md).[price_min](MerchantTaskRequestInfo.md#price_min)
+[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`price_min`](MerchantTaskRequestInfo.md#price_min)
 
-#### Defined in
+#### Source
 
-main.ts:148074
+main.ts:148082
 
-___
+***
 
-### priority
+### priority?
 
-• `Optional` **priority**: `number`
+> **`optional`** **priority**: `number`
 
 task priority
 optional field
@@ -442,21 +407,21 @@ The cost can be calculated on the Pricing page.
 
 #### Implementation of
 
-[IMerchantAmazonProductsTaskPostRequestInfo](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[priority](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#priority)
+[`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[`priority`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#priority)
 
 #### Inherited from
 
-[MerchantTaskRequestInfo](MerchantTaskRequestInfo.md).[priority](MerchantTaskRequestInfo.md#priority)
+[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`priority`](MerchantTaskRequestInfo.md#priority)
 
-#### Defined in
+#### Source
 
-main.ts:147997
+main.ts:148005
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain
 optional field
@@ -467,21 +432,21 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Implementation of
 
-[IMerchantAmazonProductsTaskPostRequestInfo](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[se_domain](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#se_domain)
+[`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[`se_domain`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#se_domain)
 
 #### Inherited from
 
-[MerchantTaskRequestInfo](MerchantTaskRequestInfo.md).[se_domain](MerchantTaskRequestInfo.md#se_domain)
+[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`se_domain`](MerchantTaskRequestInfo.md#se_domain)
 
-#### Defined in
+#### Source
 
-main.ts:148041
+main.ts:148049
 
-___
+***
 
-### search\_param
+### search\_param?
 
-• `Optional` **search\_param**: `string`
+> **`optional`** **search\_param**: `string`
 
 additional parameters of the search query
 optional field
@@ -496,21 +461,21 @@ example:
 
 #### Implementation of
 
-[IMerchantAmazonProductsTaskPostRequestInfo](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[search_param](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#search_param)
+[`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[`search_param`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#search_param)
 
 #### Inherited from
 
-[MerchantTaskRequestInfo](MerchantTaskRequestInfo.md).[search_param](MerchantTaskRequestInfo.md#search_param)
+[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`search_param`](MerchantTaskRequestInfo.md#search_param)
 
-#### Defined in
+#### Source
 
-main.ts:148068
+main.ts:148076
 
-___
+***
 
-### sort\_by
+### sort\_by?
 
-• `Optional` **sort\_by**: `string`
+> **`optional`** **sort\_by**: `string`
 
 results sorting rules
 optional field
@@ -521,21 +486,21 @@ sort_by:"review_score"
 
 #### Implementation of
 
-[IMerchantAmazonProductsTaskPostRequestInfo](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[sort_by](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#sort_by)
+[`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[`sort_by`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#sort_by)
 
 #### Inherited from
 
-[MerchantTaskRequestInfo](MerchantTaskRequestInfo.md).[sort_by](MerchantTaskRequestInfo.md#sort_by)
+[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`sort_by`](MerchantTaskRequestInfo.md#sort_by)
 
-#### Defined in
+#### Source
 
-main.ts:148087
+main.ts:148095
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -545,21 +510,21 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IMerchantAmazonProductsTaskPostRequestInfo](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[tag](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#tag)
+[`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[`tag`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#tag)
 
 #### Inherited from
 
-[MerchantTaskRequestInfo](MerchantTaskRequestInfo.md).[tag](MerchantTaskRequestInfo.md#tag)
+[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`tag`](MerchantTaskRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:148093
+main.ts:148101
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 direct URL of the search query
 optional field
@@ -569,27 +534,25 @@ https://www.google.com/search?q=iphone&num=100&tbm=shop&ie=UTF-8&oe=UTF-8&tbs=vw
 
 #### Implementation of
 
-[IMerchantAmazonProductsTaskPostRequestInfo](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[url](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#url)
+[`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[`url`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#url)
 
 #### Inherited from
 
-[MerchantTaskRequestInfo](MerchantTaskRequestInfo.md).[url](MerchantTaskRequestInfo.md#url)
+[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`url`](MerchantTaskRequestInfo.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:147989
+main.ts:147997
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -597,23 +560,21 @@ main.ts:147989
 
 #### Overrides
 
-[MerchantTaskRequestInfo](MerchantTaskRequestInfo.md).[init](MerchantTaskRequestInfo.md#init)
+[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`init`](MerchantTaskRequestInfo.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:175763
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -621,23 +582,21 @@ ___
 
 #### Overrides
 
-[MerchantTaskRequestInfo](MerchantTaskRequestInfo.md).[toJSON](MerchantTaskRequestInfo.md#tojson)
+[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`toJSON`](MerchantTaskRequestInfo.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:175781
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`MerchantAmazonProductsTaskPostRequestInfo`](MerchantAmazonProductsTaskPostRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`MerchantAmazonProductsTaskPostRequestInfo`](MerchantAmazonProductsTaskPostRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -645,8 +604,8 @@ ___
 
 #### Overrides
 
-[MerchantTaskRequestInfo](MerchantTaskRequestInfo.md).[fromJS](MerchantTaskRequestInfo.md#fromjs)
+[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`fromJS`](MerchantTaskRequestInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:175774

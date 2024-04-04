@@ -1,122 +1,108 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKnowledgeGraphDescriptionItemSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IKnowledgeGraphDescriptionItemSerpElementItem
 
 # Interface: IKnowledgeGraphDescriptionItemSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
 
-  ↳ **`IKnowledgeGraphDescriptionItemSerpElementItem`**
-
-## Implemented by
-
-- [`KnowledgeGraphDescriptionItemSerpElementItem`](../classes/KnowledgeGraphDescriptionItemSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [links](IKnowledgeGraphDescriptionItemSerpElementItem.md#links)
-- [position](IKnowledgeGraphDescriptionItemSerpElementItem.md#position)
-- [rank\_absolute](IKnowledgeGraphDescriptionItemSerpElementItem.md#rank_absolute)
-- [rank\_group](IKnowledgeGraphDescriptionItemSerpElementItem.md#rank_group)
-- [rectangle](IKnowledgeGraphDescriptionItemSerpElementItem.md#rectangle)
-- [text](IKnowledgeGraphDescriptionItemSerpElementItem.md#text)
-- [xpath](IKnowledgeGraphDescriptionItemSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### links
+### links?
 
-• `Optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
+> **`optional`** **links**: [`LinkElement`](../classes/LinkElement.md)[]
 
 sitelinks
 the links shown below some of Google’s search results
 if there are none, equals null
 
-#### Defined in
+#### Source
 
 main.ts:26942
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
 main.ts:26934
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Defined in
+#### Source
 
 main.ts:26930
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
 main.ts:26927
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
 equals null if calculate_rectangles in the POST request is not set to true
 
-#### Defined in
+#### Source
 
 main.ts:26946
 
-___
+***
 
-### text
+### text?
 
-• `Optional` **text**: `string`
+> **`optional`** **text**: `string`
 
 description content
 
-#### Defined in
+#### Source
 
 main.ts:26938
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
 main.ts:26936

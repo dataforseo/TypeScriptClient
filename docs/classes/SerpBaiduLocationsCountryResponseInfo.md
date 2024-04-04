@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpBaiduLocationsCountryResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpBaiduLocationsCountryResponseInfo
 
 # Class: SerpBaiduLocationsCountryResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`SerpBaiduLocationsCountryResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpBaiduLocationsCountryResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](SerpBaiduLocationsCountryResponseInfo.md#cost)
-- [status\_code](SerpBaiduLocationsCountryResponseInfo.md#status_code)
-- [status\_message](SerpBaiduLocationsCountryResponseInfo.md#status_message)
-- [tasks](SerpBaiduLocationsCountryResponseInfo.md#tasks)
-- [tasks\_count](SerpBaiduLocationsCountryResponseInfo.md#tasks_count)
-- [tasks\_error](SerpBaiduLocationsCountryResponseInfo.md#tasks_error)
-- [time](SerpBaiduLocationsCountryResponseInfo.md#time)
-- [version](SerpBaiduLocationsCountryResponseInfo.md#version)
-
-### Methods
-
-- [init](SerpBaiduLocationsCountryResponseInfo.md#init)
-- [toJSON](SerpBaiduLocationsCountryResponseInfo.md#tojson)
-- [fromJS](SerpBaiduLocationsCountryResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpBaiduLocationsCountryResponseInfo(data)
 
-• **new SerpBaiduLocationsCountryResponseInfo**(`data?`): [`SerpBaiduLocationsCountryResponseInfo`](SerpBaiduLocationsCountryResponseInfo.md)
+> **new SerpBaiduLocationsCountryResponseInfo**(`data`?): [`SerpBaiduLocationsCountryResponseInfo`](SerpBaiduLocationsCountryResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpBaiduLocationsCountryResponseInfo`](../interfaces/ISerpBaiduLocationsCountryResponseInfo.md) |
+• **data?**: [`ISerpBaiduLocationsCountryResponseInfo`](../interfaces/ISerpBaiduLocationsCountryResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:67908
+main.ts:67916
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[ISerpBaiduLocationsCountryResponseInfo](../interfaces/ISerpBaiduLocationsCountryResponseInfo.md).[cost](../interfaces/ISerpBaiduLocationsCountryResponseInfo.md#cost)
+[`ISerpBaiduLocationsCountryResponseInfo`](../interfaces/ISerpBaiduLocationsCountryResponseInfo.md).[`cost`](../interfaces/ISerpBaiduLocationsCountryResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[ISerpBaiduLocationsCountryResponseInfo](../interfaces/ISerpBaiduLocationsCountryResponseInfo.md).[status_code](../interfaces/ISerpBaiduLocationsCountryResponseInfo.md#status_code)
+[`ISerpBaiduLocationsCountryResponseInfo`](../interfaces/ISerpBaiduLocationsCountryResponseInfo.md).[`status_code`](../interfaces/ISerpBaiduLocationsCountryResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[ISerpBaiduLocationsCountryResponseInfo](../interfaces/ISerpBaiduLocationsCountryResponseInfo.md).[status_message](../interfaces/ISerpBaiduLocationsCountryResponseInfo.md#status_message)
+[`ISerpBaiduLocationsCountryResponseInfo`](../interfaces/ISerpBaiduLocationsCountryResponseInfo.md).[`status_message`](../interfaces/ISerpBaiduLocationsCountryResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`SerpBaiduLocationsCountryTaskInfo`](SerpBaiduLocationsCountryTaskInfo.md)[]
+> **`optional`** **tasks**: [`SerpBaiduLocationsCountryTaskInfo`](SerpBaiduLocationsCountryTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[ISerpBaiduLocationsCountryResponseInfo](../interfaces/ISerpBaiduLocationsCountryResponseInfo.md).[tasks](../interfaces/ISerpBaiduLocationsCountryResponseInfo.md#tasks)
+[`ISerpBaiduLocationsCountryResponseInfo`](../interfaces/ISerpBaiduLocationsCountryResponseInfo.md).[`tasks`](../interfaces/ISerpBaiduLocationsCountryResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:67904
+main.ts:67912
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[ISerpBaiduLocationsCountryResponseInfo](../interfaces/ISerpBaiduLocationsCountryResponseInfo.md).[tasks_count](../interfaces/ISerpBaiduLocationsCountryResponseInfo.md#tasks_count)
+[`ISerpBaiduLocationsCountryResponseInfo`](../interfaces/ISerpBaiduLocationsCountryResponseInfo.md).[`tasks_count`](../interfaces/ISerpBaiduLocationsCountryResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[ISerpBaiduLocationsCountryResponseInfo](../interfaces/ISerpBaiduLocationsCountryResponseInfo.md).[tasks_error](../interfaces/ISerpBaiduLocationsCountryResponseInfo.md#tasks_error)
+[`ISerpBaiduLocationsCountryResponseInfo`](../interfaces/ISerpBaiduLocationsCountryResponseInfo.md).[`tasks_error`](../interfaces/ISerpBaiduLocationsCountryResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[ISerpBaiduLocationsCountryResponseInfo](../interfaces/ISerpBaiduLocationsCountryResponseInfo.md).[time](../interfaces/ISerpBaiduLocationsCountryResponseInfo.md#time)
+[`ISerpBaiduLocationsCountryResponseInfo`](../interfaces/ISerpBaiduLocationsCountryResponseInfo.md).[`time`](../interfaces/ISerpBaiduLocationsCountryResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[ISerpBaiduLocationsCountryResponseInfo](../interfaces/ISerpBaiduLocationsCountryResponseInfo.md).[version](../interfaces/ISerpBaiduLocationsCountryResponseInfo.md#version)
+[`ISerpBaiduLocationsCountryResponseInfo`](../interfaces/ISerpBaiduLocationsCountryResponseInfo.md).[`version`](../interfaces/ISerpBaiduLocationsCountryResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:67912
+main.ts:67920
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:67934
+main.ts:67942
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpBaiduLocationsCountryResponseInfo`](SerpBaiduLocationsCountryResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpBaiduLocationsCountryResponseInfo`](SerpBaiduLocationsCountryResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:67927
+main.ts:67935

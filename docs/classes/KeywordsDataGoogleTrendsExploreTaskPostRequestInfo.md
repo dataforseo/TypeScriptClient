@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleTrendsExploreTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataGoogleTrendsExploreTaskPostRequestInfo
 
 # Class: KeywordsDataGoogleTrendsExploreTaskPostRequestInfo
 
@@ -8,62 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#constructor)
-
-### Properties
-
-- [category\_code](KeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#category_code)
-- [date\_from](KeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#date_from)
-- [date\_to](KeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#date_to)
-- [item\_types](KeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#item_types)
-- [keywords](KeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#keywords)
-- [language\_code](KeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#language_code)
-- [language\_name](KeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#language_name)
-- [location\_code](KeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#location_code)
-- [location\_name](KeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#location_name)
-- [pingback\_url](KeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#pingback_url)
-- [postback\_url](KeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#postback_url)
-- [tag](KeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#tag)
-- [time\_range](KeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#time_range)
-- [type](KeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#type)
-
-### Methods
-
-- [init](KeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#init)
-- [toJSON](KeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#tojson)
-- [fromJS](KeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordsDataGoogleTrendsExploreTaskPostRequestInfo(data)
 
-• **new KeywordsDataGoogleTrendsExploreTaskPostRequestInfo**(`data?`): [`KeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](KeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md)
+> **new KeywordsDataGoogleTrendsExploreTaskPostRequestInfo**(`data`?): [`KeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](KeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md) |
+• **data?**: [`IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md)
 
 #### Returns
 
 [`KeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](KeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:122274
+main.ts:122282
 
 ## Properties
 
-### category\_code
+### category\_code?
 
-• `Optional` **category\_code**: `number`
+> **`optional`** **category\_code**: `number`
 
 google trends search category
 optional field
@@ -72,17 +45,17 @@ you can receive the list of available categories with their category_code by mak
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md).[category_code](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#category_code)
+[`IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md).[`category_code`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#category_code)
 
-#### Defined in
+#### Source
 
-main.ts:122206
+main.ts:122214
 
-___
+***
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -95,17 +68,17 @@ example:
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md).[date_from](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#date_from)
+[`IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md).[`date_from`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#date_from)
 
-#### Defined in
+#### Source
 
-main.ts:122215
+main.ts:122223
 
-___
+***
 
-### date\_to
+### date\_to?
 
-• `Optional` **date\_to**: `string`
+> **`optional`** **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -116,17 +89,17 @@ example:
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md).[date_to](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#date_to)
+[`IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md).[`date_to`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#date_to)
 
-#### Defined in
+#### Source
 
-main.ts:122222
+main.ts:122230
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 types of items returned
 optional field
@@ -142,17 +115,17 @@ possible values:
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md).[item_types](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#item_types)
+[`IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md).[`item_types`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#item_types)
 
-#### Defined in
+#### Source
 
-main.ts:122244
+main.ts:122252
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 keywords
 required field
@@ -161,17 +134,17 @@ Note: comma symbols (,) in the specified keywords will be unset and ignored
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md).[keywords](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#keywords)
+[`IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md).[`keywords`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#keywords)
 
-#### Defined in
+#### Source
 
-main.ts:122167
+main.ts:122175
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 optional field
@@ -183,17 +156,17 @@ en
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md).[language_code](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#language_code)
+[`IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md).[`language_code`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:122199
+main.ts:122207
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -205,17 +178,17 @@ English
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md).[language_name](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#language_name)
+[`IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md).[`language_name`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:122191
+main.ts:122199
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 optional field
@@ -227,17 +200,17 @@ example:
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md).[location_code](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#location_code)
+[`IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md).[`location_code`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:122183
+main.ts:122191
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 optional field
@@ -249,17 +222,17 @@ United Kingdom
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md).[location_name](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#location_name)
+[`IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md).[`location_name`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:122175
+main.ts:122183
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -273,17 +246,17 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md).[pingback_url](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#pingback_url)
+[`IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md).[`pingback_url`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#pingback_url)
 
-#### Defined in
+#### Source
 
-main.ts:122264
+main.ts:122272
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -297,17 +270,17 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md).[postback_url](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#postback_url)
+[`IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md).[`postback_url`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#postback_url)
 
-#### Defined in
+#### Source
 
-main.ts:122254
+main.ts:122262
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -317,17 +290,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md).[tag](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#tag)
+[`IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md).[`tag`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:122270
+main.ts:122278
 
-___
+***
 
-### time\_range
+### time\_range?
 
-• `Optional` **time\_range**: `string`
+> **`optional`** **time\_range**: `string`
 
 preset time ranges
 optional field
@@ -341,84 +314,78 @@ possible values for news, youtube, images, froogle:
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md).[time_range](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#time_range)
+[`IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md).[`time_range`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#time_range)
 
-#### Defined in
+#### Source
 
-main.ts:122232
+main.ts:122240
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md).[type](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#type)
+[`IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md).[`type`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:122201
+main.ts:122209
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:122283
+main.ts:122291
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:122321
+main.ts:122329
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](KeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](KeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`KeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](KeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:122314
+main.ts:122322

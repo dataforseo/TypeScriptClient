@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpNaverOrganicTasksFixedTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpNaverOrganicTasksFixedTaskInfo
 
 # Class: SerpNaverOrganicTasksFixedTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`SerpNaverOrganicTasksFixedTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpNaverOrganicTasksFixedTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](SerpNaverOrganicTasksFixedTaskInfo.md#cost)
-- [data](SerpNaverOrganicTasksFixedTaskInfo.md#data)
-- [id](SerpNaverOrganicTasksFixedTaskInfo.md#id)
-- [path](SerpNaverOrganicTasksFixedTaskInfo.md#path)
-- [result](SerpNaverOrganicTasksFixedTaskInfo.md#result)
-- [result\_count](SerpNaverOrganicTasksFixedTaskInfo.md#result_count)
-- [status\_code](SerpNaverOrganicTasksFixedTaskInfo.md#status_code)
-- [status\_message](SerpNaverOrganicTasksFixedTaskInfo.md#status_message)
-- [time](SerpNaverOrganicTasksFixedTaskInfo.md#time)
-
-### Methods
-
-- [init](SerpNaverOrganicTasksFixedTaskInfo.md#init)
-- [toJSON](SerpNaverOrganicTasksFixedTaskInfo.md#tojson)
-- [fromJS](SerpNaverOrganicTasksFixedTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpNaverOrganicTasksFixedTaskInfo(data)
 
-• **new SerpNaverOrganicTasksFixedTaskInfo**(`data?`): [`SerpNaverOrganicTasksFixedTaskInfo`](SerpNaverOrganicTasksFixedTaskInfo.md)
+> **new SerpNaverOrganicTasksFixedTaskInfo**(`data`?): [`SerpNaverOrganicTasksFixedTaskInfo`](SerpNaverOrganicTasksFixedTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpNaverOrganicTasksFixedTaskInfo`](../interfaces/ISerpNaverOrganicTasksFixedTaskInfo.md) |
+• **data?**: [`ISerpNaverOrganicTasksFixedTaskInfo`](../interfaces/ISerpNaverOrganicTasksFixedTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:70279
+main.ts:70287
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[ISerpNaverOrganicTasksFixedTaskInfo](../interfaces/ISerpNaverOrganicTasksFixedTaskInfo.md).[cost](../interfaces/ISerpNaverOrganicTasksFixedTaskInfo.md#cost)
+[`ISerpNaverOrganicTasksFixedTaskInfo`](../interfaces/ISerpNaverOrganicTasksFixedTaskInfo.md).[`cost`](../interfaces/ISerpNaverOrganicTasksFixedTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[ISerpNaverOrganicTasksFixedTaskInfo](../interfaces/ISerpNaverOrganicTasksFixedTaskInfo.md).[data](../interfaces/ISerpNaverOrganicTasksFixedTaskInfo.md#data)
+[`ISerpNaverOrganicTasksFixedTaskInfo`](../interfaces/ISerpNaverOrganicTasksFixedTaskInfo.md).[`data`](../interfaces/ISerpNaverOrganicTasksFixedTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[ISerpNaverOrganicTasksFixedTaskInfo](../interfaces/ISerpNaverOrganicTasksFixedTaskInfo.md).[id](../interfaces/ISerpNaverOrganicTasksFixedTaskInfo.md#id)
+[`ISerpNaverOrganicTasksFixedTaskInfo`](../interfaces/ISerpNaverOrganicTasksFixedTaskInfo.md).[`id`](../interfaces/ISerpNaverOrganicTasksFixedTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[ISerpNaverOrganicTasksFixedTaskInfo](../interfaces/ISerpNaverOrganicTasksFixedTaskInfo.md).[path](../interfaces/ISerpNaverOrganicTasksFixedTaskInfo.md#path)
+[`ISerpNaverOrganicTasksFixedTaskInfo`](../interfaces/ISerpNaverOrganicTasksFixedTaskInfo.md).[`path`](../interfaces/ISerpNaverOrganicTasksFixedTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`SerpNaverOrganicTasksFixedResultInfo`](SerpNaverOrganicTasksFixedResultInfo.md)[]
+> **`optional`** **result**: [`SerpNaverOrganicTasksFixedResultInfo`](SerpNaverOrganicTasksFixedResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[ISerpNaverOrganicTasksFixedTaskInfo](../interfaces/ISerpNaverOrganicTasksFixedTaskInfo.md).[result](../interfaces/ISerpNaverOrganicTasksFixedTaskInfo.md#result)
+[`ISerpNaverOrganicTasksFixedTaskInfo`](../interfaces/ISerpNaverOrganicTasksFixedTaskInfo.md).[`result`](../interfaces/ISerpNaverOrganicTasksFixedTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:70275
+main.ts:70283
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[ISerpNaverOrganicTasksFixedTaskInfo](../interfaces/ISerpNaverOrganicTasksFixedTaskInfo.md).[result_count](../interfaces/ISerpNaverOrganicTasksFixedTaskInfo.md#result_count)
+[`ISerpNaverOrganicTasksFixedTaskInfo`](../interfaces/ISerpNaverOrganicTasksFixedTaskInfo.md).[`result_count`](../interfaces/ISerpNaverOrganicTasksFixedTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[ISerpNaverOrganicTasksFixedTaskInfo](../interfaces/ISerpNaverOrganicTasksFixedTaskInfo.md).[status_code](../interfaces/ISerpNaverOrganicTasksFixedTaskInfo.md#status_code)
+[`ISerpNaverOrganicTasksFixedTaskInfo`](../interfaces/ISerpNaverOrganicTasksFixedTaskInfo.md).[`status_code`](../interfaces/ISerpNaverOrganicTasksFixedTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[ISerpNaverOrganicTasksFixedTaskInfo](../interfaces/ISerpNaverOrganicTasksFixedTaskInfo.md).[status_message](../interfaces/ISerpNaverOrganicTasksFixedTaskInfo.md#status_message)
+[`ISerpNaverOrganicTasksFixedTaskInfo`](../interfaces/ISerpNaverOrganicTasksFixedTaskInfo.md).[`status_message`](../interfaces/ISerpNaverOrganicTasksFixedTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[ISerpNaverOrganicTasksFixedTaskInfo](../interfaces/ISerpNaverOrganicTasksFixedTaskInfo.md).[time](../interfaces/ISerpNaverOrganicTasksFixedTaskInfo.md#time)
+[`ISerpNaverOrganicTasksFixedTaskInfo`](../interfaces/ISerpNaverOrganicTasksFixedTaskInfo.md).[`time`](../interfaces/ISerpNaverOrganicTasksFixedTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:70283
+main.ts:70291
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:70305
+main.ts:70313
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpNaverOrganicTasksFixedTaskInfo`](SerpNaverOrganicTasksFixedTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpNaverOrganicTasksFixedTaskInfo`](SerpNaverOrganicTasksFixedTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:70298
+main.ts:70306

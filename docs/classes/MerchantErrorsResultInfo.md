@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MerchantErrorsResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / MerchantErrorsResultInfo
 
 # Class: MerchantErrorsResultInfo
 
@@ -8,58 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](MerchantErrorsResultInfo.md#constructor)
-
-### Properties
-
-- [datetime](MerchantErrorsResultInfo.md#datetime)
-- [error\_code](MerchantErrorsResultInfo.md#error_code)
-- [error\_message](MerchantErrorsResultInfo.md#error_message)
-- [function](MerchantErrorsResultInfo.md#function)
-- [http\_code](MerchantErrorsResultInfo.md#http_code)
-- [http\_method](MerchantErrorsResultInfo.md#http_method)
-- [http\_response](MerchantErrorsResultInfo.md#http_response)
-- [http\_time](MerchantErrorsResultInfo.md#http_time)
-- [http\_url](MerchantErrorsResultInfo.md#http_url)
-- [id](MerchantErrorsResultInfo.md#id)
-
-### Methods
-
-- [init](MerchantErrorsResultInfo.md#init)
-- [toJSON](MerchantErrorsResultInfo.md#tojson)
-- [fromJS](MerchantErrorsResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new MerchantErrorsResultInfo(data)
 
-• **new MerchantErrorsResultInfo**(`data?`): [`MerchantErrorsResultInfo`](MerchantErrorsResultInfo.md)
+> **new MerchantErrorsResultInfo**(`data`?): [`MerchantErrorsResultInfo`](MerchantErrorsResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IMerchantErrorsResultInfo`](../interfaces/IMerchantErrorsResultInfo.md) |
+• **data?**: [`IMerchantErrorsResultInfo`](../interfaces/IMerchantErrorsResultInfo.md)
 
 #### Returns
 
 [`MerchantErrorsResultInfo`](MerchantErrorsResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:168571
+main.ts:168579
 
 ## Properties
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when an error occurred
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -68,216 +45,210 @@ example:
 
 #### Implementation of
 
-[IMerchantErrorsResultInfo](../interfaces/IMerchantErrorsResultInfo.md).[datetime](../interfaces/IMerchantErrorsResultInfo.md#datetime)
+[`IMerchantErrorsResultInfo`](../interfaces/IMerchantErrorsResultInfo.md).[`datetime`](../interfaces/IMerchantErrorsResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
-main.ts:168547
+main.ts:168555
 
-___
+***
 
-### error\_code
+### error\_code?
 
-• `Optional` **error\_code**: `number`
+> **`optional`** **error\_code**: `number`
 
 error code
 
 #### Implementation of
 
-[IMerchantErrorsResultInfo](../interfaces/IMerchantErrorsResultInfo.md).[error_code](../interfaces/IMerchantErrorsResultInfo.md#error_code)
+[`IMerchantErrorsResultInfo`](../interfaces/IMerchantErrorsResultInfo.md).[`error_code`](../interfaces/IMerchantErrorsResultInfo.md#error_code)
 
-#### Defined in
+#### Source
 
-main.ts:168551
+main.ts:168559
 
-___
+***
 
-### error\_message
+### error\_message?
 
-• `Optional` **error\_message**: `string`
+> **`optional`** **error\_message**: `string`
 
 error message or error URL
 error message (see full list) or URL that caused an error
 
 #### Implementation of
 
-[IMerchantErrorsResultInfo](../interfaces/IMerchantErrorsResultInfo.md).[error_message](../interfaces/IMerchantErrorsResultInfo.md#error_message)
+[`IMerchantErrorsResultInfo`](../interfaces/IMerchantErrorsResultInfo.md).[`error_message`](../interfaces/IMerchantErrorsResultInfo.md#error_message)
 
-#### Defined in
+#### Source
 
-main.ts:168554
+main.ts:168562
 
-___
+***
 
-### function
+### function?
 
-• `Optional` **function**: `string`
+> **`optional`** **function**: `string`
 
 corresponding API function
 
 #### Implementation of
 
-[IMerchantErrorsResultInfo](../interfaces/IMerchantErrorsResultInfo.md).[function](../interfaces/IMerchantErrorsResultInfo.md#function)
+[`IMerchantErrorsResultInfo`](../interfaces/IMerchantErrorsResultInfo.md).[`function`](../interfaces/IMerchantErrorsResultInfo.md#function)
 
-#### Defined in
+#### Source
 
-main.ts:168549
+main.ts:168557
 
-___
+***
 
-### http\_code
+### http\_code?
 
-• `Optional` **http\_code**: `number`
+> **`optional`** **http\_code**: `number`
 
 HTTP status code
 
 #### Implementation of
 
-[IMerchantErrorsResultInfo](../interfaces/IMerchantErrorsResultInfo.md).[http_code](../interfaces/IMerchantErrorsResultInfo.md#http_code)
+[`IMerchantErrorsResultInfo`](../interfaces/IMerchantErrorsResultInfo.md).[`http_code`](../interfaces/IMerchantErrorsResultInfo.md#http_code)
 
-#### Defined in
+#### Source
 
-main.ts:168561
+main.ts:168569
 
-___
+***
 
-### http\_method
+### http\_method?
 
-• `Optional` **http\_method**: `string`
+> **`optional`** **http\_method**: `string`
 
 HTTP method
 
 #### Implementation of
 
-[IMerchantErrorsResultInfo](../interfaces/IMerchantErrorsResultInfo.md).[http_method](../interfaces/IMerchantErrorsResultInfo.md#http_method)
+[`IMerchantErrorsResultInfo`](../interfaces/IMerchantErrorsResultInfo.md).[`http_method`](../interfaces/IMerchantErrorsResultInfo.md#http_method)
 
-#### Defined in
+#### Source
 
-main.ts:168559
+main.ts:168567
 
-___
+***
 
-### http\_response
+### http\_response?
 
-• `Optional` **http\_response**: `string`
+> **`optional`** **http\_response**: `string`
 
 HTTP response
 server response
 
 #### Implementation of
 
-[IMerchantErrorsResultInfo](../interfaces/IMerchantErrorsResultInfo.md).[http_response](../interfaces/IMerchantErrorsResultInfo.md#http_response)
+[`IMerchantErrorsResultInfo`](../interfaces/IMerchantErrorsResultInfo.md).[`http_response`](../interfaces/IMerchantErrorsResultInfo.md#http_response)
 
-#### Defined in
+#### Source
 
-main.ts:168567
+main.ts:168575
 
-___
+***
 
-### http\_time
+### http\_time?
 
-• `Optional` **http\_time**: `number`
+> **`optional`** **http\_time**: `number`
 
 time taken by HTTP request
 for tasks set with a pingback/postback, this field will show the time it took your server to respond
 
 #### Implementation of
 
-[IMerchantErrorsResultInfo](../interfaces/IMerchantErrorsResultInfo.md).[http_time](../interfaces/IMerchantErrorsResultInfo.md#http_time)
+[`IMerchantErrorsResultInfo`](../interfaces/IMerchantErrorsResultInfo.md).[`http_time`](../interfaces/IMerchantErrorsResultInfo.md#http_time)
 
-#### Defined in
+#### Source
 
-main.ts:168564
+main.ts:168572
 
-___
+***
 
-### http\_url
+### http\_url?
 
-• `Optional` **http\_url**: `string`
+> **`optional`** **http\_url**: `string`
 
 URL that caused an error
 URL you used for making an API call or pingback/postback URL
 
 #### Implementation of
 
-[IMerchantErrorsResultInfo](../interfaces/IMerchantErrorsResultInfo.md).[http_url](../interfaces/IMerchantErrorsResultInfo.md#http_url)
+[`IMerchantErrorsResultInfo`](../interfaces/IMerchantErrorsResultInfo.md).[`http_url`](../interfaces/IMerchantErrorsResultInfo.md#http_url)
 
-#### Defined in
+#### Source
 
-main.ts:168557
+main.ts:168565
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 id of the task
 
 #### Implementation of
 
-[IMerchantErrorsResultInfo](../interfaces/IMerchantErrorsResultInfo.md).[id](../interfaces/IMerchantErrorsResultInfo.md#id)
+[`IMerchantErrorsResultInfo`](../interfaces/IMerchantErrorsResultInfo.md).[`id`](../interfaces/IMerchantErrorsResultInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:168542
+main.ts:168550
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:168580
+main.ts:168588
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:168606
+main.ts:168614
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`MerchantErrorsResultInfo`](MerchantErrorsResultInfo.md)
+> **`static`** **fromJS**(`data`): [`MerchantErrorsResultInfo`](MerchantErrorsResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`MerchantErrorsResultInfo`](MerchantErrorsResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:168599
+main.ts:168607

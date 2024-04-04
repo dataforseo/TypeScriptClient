@@ -1,38 +1,31 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ITopDomainInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ITopDomainInfo
 
 # Interface: ITopDomainInfo
 
-## Implemented by
-
-- [`TopDomainInfo`](../classes/TopDomainInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [count](ITopDomainInfo.md#count)
-- [domain](ITopDomainInfo.md#domain)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### count
+### count?
 
-• `Optional` **count**: `number`
+> **`optional`** **count**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:22165
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
-#### Defined in
+#### Source
 
 main.ts:22164

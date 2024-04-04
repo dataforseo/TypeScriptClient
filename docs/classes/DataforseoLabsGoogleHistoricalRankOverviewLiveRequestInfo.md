@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo
 
 # Class: DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo
 
@@ -8,57 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [correlate](DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md#correlate)
-- [date\_from](DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md#date_from)
-- [date\_to](DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md#date_to)
-- [language\_code](DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md#language_code)
-- [language\_name](DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md#language_name)
-- [location\_code](DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md#location_code)
-- [location\_name](DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md#location_name)
-- [tag](DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md#tag)
-- [target](DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md#target)
-
-### Methods
-
-- [init](DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md#init)
-- [toJSON](DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md#tojson)
-- [fromJS](DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo(data)
 
-• **new DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo**(`data?`): [`DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo`](DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md)
+> **new DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo`](DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md) |
+• **data?**: [`IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo`](DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:98692
+main.ts:98700
 
 ## Properties
 
-### correlate
+### correlate?
 
-• `Optional` **correlate**: `boolean`
+> **`optional`** **correlate**: `boolean`
 
 correlate data with previously obtained datasets
 optional field
@@ -69,17 +47,17 @@ we recommend always setting correlate to true
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md).[correlate](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md#correlate)
+[`IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md).[`correlate`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md#correlate)
 
-#### Defined in
+#### Source
 
-main.ts:98682
+main.ts:98690
 
-___
+***
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -89,17 +67,17 @@ date format: "yyyy-mm-dd"
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md).[date_from](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md#date_from)
+[`IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md).[`date_from`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md#date_from)
 
-#### Defined in
+#### Source
 
-main.ts:98668
+main.ts:98676
 
-___
+***
 
-### date\_to
+### date\_to?
 
-• `Optional` **date\_to**: `string`
+> **`optional`** **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -110,17 +88,17 @@ example:
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md).[date_to](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md#date_to)
+[`IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md).[`date_to`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md#date_to)
 
-#### Defined in
+#### Source
 
-main.ts:98675
+main.ts:98683
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 required field if you don’t specify language_name
@@ -132,17 +110,17 @@ en
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md).[language_code](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md#language_code)
+[`IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:98662
+main.ts:98670
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -154,17 +132,17 @@ English
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md).[language_name](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md#language_name)
+[`IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:98654
+main.ts:98662
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 required field if you don’t specify location_name
@@ -176,17 +154,17 @@ example:
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md).[location_code](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md#location_code)
+[`IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:98646
+main.ts:98654
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code
@@ -198,17 +176,17 @@ United Kingdom
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md).[location_name](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md#location_name)
+[`IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:98638
+main.ts:98646
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -218,17 +196,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md).[tag](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md#tag)
+[`IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:98688
+main.ts:98696
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 domain
 required field
@@ -237,68 +215,62 @@ the domain should be specified without https:// and www.
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md).[target](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md#target)
+[`IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md).[`target`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md#target)
 
-#### Defined in
+#### Source
 
-main.ts:98630
+main.ts:98638
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:98701
+main.ts:98709
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:98726
+main.ts:98734
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo`](DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo`](DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo`](DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:98719
+main.ts:98727

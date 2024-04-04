@@ -1,200 +1,180 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDictionarySerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDictionarySerpElementItem
 
 # Interface: IDictionarySerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
 
-  ↳ **`IDictionarySerpElementItem`**
-
-## Implemented by
-
-- [`DictionarySerpElementItem`](../classes/DictionarySerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [breadcrumb](IDictionarySerpElementItem.md#breadcrumb)
-- [domain](IDictionarySerpElementItem.md#domain)
-- [keyword](IDictionarySerpElementItem.md#keyword)
-- [links](IDictionarySerpElementItem.md#links)
-- [position](IDictionarySerpElementItem.md#position)
-- [rank\_absolute](IDictionarySerpElementItem.md#rank_absolute)
-- [rank\_group](IDictionarySerpElementItem.md#rank_group)
-- [rectangle](IDictionarySerpElementItem.md#rectangle)
-- [snippet](IDictionarySerpElementItem.md#snippet)
-- [text](IDictionarySerpElementItem.md#text)
-- [title](IDictionarySerpElementItem.md#title)
-- [url](IDictionarySerpElementItem.md#url)
-- [xpath](IDictionarySerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### breadcrumb
+### breadcrumb?
 
-• `Optional` **breadcrumb**: `string`
+> **`optional`** **breadcrumb**: `string`
 
 breadcrumb of the Ad element in SERP
 
-#### Defined in
+#### Source
 
-main.ts:69356
+main.ts:69364
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain in SERP
 
-#### Defined in
+#### Source
 
-main.ts:69354
+main.ts:69362
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword highlighted in the result
 
-#### Defined in
+#### Source
 
-main.ts:69358
+main.ts:69366
 
-___
+***
 
-### links
+### links?
 
-• `Optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
+> **`optional`** **links**: [`LinkElement`](../classes/LinkElement.md)[]
 
 sitelinks
 the links shown below some of search results
 if there are none, equals null
 
-#### Defined in
+#### Source
 
-main.ts:69366
+main.ts:69374
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
-main.ts:69346
+main.ts:69354
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Defined in
+#### Source
 
-main.ts:69342
+main.ts:69350
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
-main.ts:69339
+main.ts:69347
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
 note: calculate_rectangles parameter is not yet available when setting tasks for Baidu search engine, that’s why rectangle always equals null
 
-#### Defined in
+#### Source
 
-main.ts:69370
+main.ts:69378
 
-___
+***
 
-### snippet
+### snippet?
 
-• `Optional` **snippet**: `string`
+> **`optional`** **snippet**: `string`
 
 snippet of the element
 
-#### Defined in
+#### Source
 
-main.ts:69360
+main.ts:69368
 
-___
+***
 
-### text
+### text?
 
-• `Optional` **text**: `boolean`
+> **`optional`** **text**: `boolean`
 
 description of the results element in SERP
 
-#### Defined in
+#### Source
 
-main.ts:69362
+main.ts:69370
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the result in SERP
 
-#### Defined in
+#### Source
 
-main.ts:69350
+main.ts:69358
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 relevant URL of the Ad element in SERP
 
-#### Defined in
+#### Source
 
-main.ts:69352
+main.ts:69360
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
-main.ts:69348
+main.ts:69356

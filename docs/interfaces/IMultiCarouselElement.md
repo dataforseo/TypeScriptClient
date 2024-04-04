@@ -1,55 +1,47 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMultiCarouselElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IMultiCarouselElement
 
 # Interface: IMultiCarouselElement
 
-## Implemented by
-
-- [`MultiCarouselElement`](../classes/MultiCarouselElement.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [multi\_carousel\_snippets](IMultiCarouselElement.md#multi_carousel_snippets)
-- [title](IMultiCarouselElement.md#title)
-- [type](IMultiCarouselElement.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### multi\_carousel\_snippets
+### multi\_carousel\_snippets?
 
-• `Optional` **multi\_carousel\_snippets**: [`CarouselElement`](../classes/CarouselElement.md)[]
+> **`optional`** **multi\_carousel\_snippets**: [`CarouselElement`](../classes/CarouselElement.md)[]
 
 multi_carousel_snippet results
 
-#### Defined in
+#### Source
 
 main.ts:32156
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
-#### Defined in
+#### Source
 
 main.ts:32154
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
 main.ts:32152

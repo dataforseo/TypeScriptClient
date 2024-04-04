@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentGenerationGenerateSubTopicsLiveResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ContentGenerationGenerateSubTopicsLiveResponseInfo
 
 # Class: ContentGenerationGenerateSubTopicsLiveResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`ContentGenerationGenerateSubTopicsLiveResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ContentGenerationGenerateSubTopicsLiveResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](ContentGenerationGenerateSubTopicsLiveResponseInfo.md#cost)
-- [status\_code](ContentGenerationGenerateSubTopicsLiveResponseInfo.md#status_code)
-- [status\_message](ContentGenerationGenerateSubTopicsLiveResponseInfo.md#status_message)
-- [tasks](ContentGenerationGenerateSubTopicsLiveResponseInfo.md#tasks)
-- [tasks\_count](ContentGenerationGenerateSubTopicsLiveResponseInfo.md#tasks_count)
-- [tasks\_error](ContentGenerationGenerateSubTopicsLiveResponseInfo.md#tasks_error)
-- [time](ContentGenerationGenerateSubTopicsLiveResponseInfo.md#time)
-- [version](ContentGenerationGenerateSubTopicsLiveResponseInfo.md#version)
-
-### Methods
-
-- [init](ContentGenerationGenerateSubTopicsLiveResponseInfo.md#init)
-- [toJSON](ContentGenerationGenerateSubTopicsLiveResponseInfo.md#tojson)
-- [fromJS](ContentGenerationGenerateSubTopicsLiveResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ContentGenerationGenerateSubTopicsLiveResponseInfo(data)
 
-• **new ContentGenerationGenerateSubTopicsLiveResponseInfo**(`data?`): [`ContentGenerationGenerateSubTopicsLiveResponseInfo`](ContentGenerationGenerateSubTopicsLiveResponseInfo.md)
+> **new ContentGenerationGenerateSubTopicsLiveResponseInfo**(`data`?): [`ContentGenerationGenerateSubTopicsLiveResponseInfo`](ContentGenerationGenerateSubTopicsLiveResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IContentGenerationGenerateSubTopicsLiveResponseInfo`](../interfaces/IContentGenerationGenerateSubTopicsLiveResponseInfo.md) |
+• **data?**: [`IContentGenerationGenerateSubTopicsLiveResponseInfo`](../interfaces/IContentGenerationGenerateSubTopicsLiveResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:166491
+main.ts:166499
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IContentGenerationGenerateSubTopicsLiveResponseInfo](../interfaces/IContentGenerationGenerateSubTopicsLiveResponseInfo.md).[cost](../interfaces/IContentGenerationGenerateSubTopicsLiveResponseInfo.md#cost)
+[`IContentGenerationGenerateSubTopicsLiveResponseInfo`](../interfaces/IContentGenerationGenerateSubTopicsLiveResponseInfo.md).[`cost`](../interfaces/IContentGenerationGenerateSubTopicsLiveResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[IContentGenerationGenerateSubTopicsLiveResponseInfo](../interfaces/IContentGenerationGenerateSubTopicsLiveResponseInfo.md).[status_code](../interfaces/IContentGenerationGenerateSubTopicsLiveResponseInfo.md#status_code)
+[`IContentGenerationGenerateSubTopicsLiveResponseInfo`](../interfaces/IContentGenerationGenerateSubTopicsLiveResponseInfo.md).[`status_code`](../interfaces/IContentGenerationGenerateSubTopicsLiveResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IContentGenerationGenerateSubTopicsLiveResponseInfo](../interfaces/IContentGenerationGenerateSubTopicsLiveResponseInfo.md).[status_message](../interfaces/IContentGenerationGenerateSubTopicsLiveResponseInfo.md#status_message)
+[`IContentGenerationGenerateSubTopicsLiveResponseInfo`](../interfaces/IContentGenerationGenerateSubTopicsLiveResponseInfo.md).[`status_message`](../interfaces/IContentGenerationGenerateSubTopicsLiveResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`ContentGenerationGenerateSubTopicsLiveTaskInfo`](ContentGenerationGenerateSubTopicsLiveTaskInfo.md)[]
+> **`optional`** **tasks**: [`ContentGenerationGenerateSubTopicsLiveTaskInfo`](ContentGenerationGenerateSubTopicsLiveTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[IContentGenerationGenerateSubTopicsLiveResponseInfo](../interfaces/IContentGenerationGenerateSubTopicsLiveResponseInfo.md).[tasks](../interfaces/IContentGenerationGenerateSubTopicsLiveResponseInfo.md#tasks)
+[`IContentGenerationGenerateSubTopicsLiveResponseInfo`](../interfaces/IContentGenerationGenerateSubTopicsLiveResponseInfo.md).[`tasks`](../interfaces/IContentGenerationGenerateSubTopicsLiveResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:166487
+main.ts:166495
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[IContentGenerationGenerateSubTopicsLiveResponseInfo](../interfaces/IContentGenerationGenerateSubTopicsLiveResponseInfo.md).[tasks_count](../interfaces/IContentGenerationGenerateSubTopicsLiveResponseInfo.md#tasks_count)
+[`IContentGenerationGenerateSubTopicsLiveResponseInfo`](../interfaces/IContentGenerationGenerateSubTopicsLiveResponseInfo.md).[`tasks_count`](../interfaces/IContentGenerationGenerateSubTopicsLiveResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[IContentGenerationGenerateSubTopicsLiveResponseInfo](../interfaces/IContentGenerationGenerateSubTopicsLiveResponseInfo.md).[tasks_error](../interfaces/IContentGenerationGenerateSubTopicsLiveResponseInfo.md#tasks_error)
+[`IContentGenerationGenerateSubTopicsLiveResponseInfo`](../interfaces/IContentGenerationGenerateSubTopicsLiveResponseInfo.md).[`tasks_error`](../interfaces/IContentGenerationGenerateSubTopicsLiveResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[IContentGenerationGenerateSubTopicsLiveResponseInfo](../interfaces/IContentGenerationGenerateSubTopicsLiveResponseInfo.md).[time](../interfaces/IContentGenerationGenerateSubTopicsLiveResponseInfo.md#time)
+[`IContentGenerationGenerateSubTopicsLiveResponseInfo`](../interfaces/IContentGenerationGenerateSubTopicsLiveResponseInfo.md).[`time`](../interfaces/IContentGenerationGenerateSubTopicsLiveResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[IContentGenerationGenerateSubTopicsLiveResponseInfo](../interfaces/IContentGenerationGenerateSubTopicsLiveResponseInfo.md).[version](../interfaces/IContentGenerationGenerateSubTopicsLiveResponseInfo.md#version)
+[`IContentGenerationGenerateSubTopicsLiveResponseInfo`](../interfaces/IContentGenerationGenerateSubTopicsLiveResponseInfo.md).[`version`](../interfaces/IContentGenerationGenerateSubTopicsLiveResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:166495
+main.ts:166503
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:166517
+main.ts:166525
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ContentGenerationGenerateSubTopicsLiveResponseInfo`](ContentGenerationGenerateSubTopicsLiveResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`ContentGenerationGenerateSubTopicsLiveResponseInfo`](ContentGenerationGenerateSubTopicsLiveResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:166510
+main.ts:166518

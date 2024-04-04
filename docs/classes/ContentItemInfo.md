@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentItemInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ContentItemInfo
 
 # Class: ContentItemInfo
 
@@ -8,134 +12,109 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ContentItemInfo.md#constructor)
-
-### Properties
-
-- [text](ContentItemInfo.md#text)
-- [url](ContentItemInfo.md#url)
-
-### Methods
-
-- [init](ContentItemInfo.md#init)
-- [toJSON](ContentItemInfo.md#tojson)
-- [fromJS](ContentItemInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ContentItemInfo(data)
 
-• **new ContentItemInfo**(`data?`): [`ContentItemInfo`](ContentItemInfo.md)
+> **new ContentItemInfo**(`data`?): [`ContentItemInfo`](ContentItemInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IContentItemInfo`](../interfaces/IContentItemInfo.md) |
+• **data?**: [`IContentItemInfo`](../interfaces/IContentItemInfo.md)
 
 #### Returns
 
 [`ContentItemInfo`](ContentItemInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:157389
+main.ts:157397
 
 ## Properties
 
-### text
+### text?
 
-• `Optional` **text**: `string`
+> **`optional`** **text**: `string`
 
 content text
 
 #### Implementation of
 
-[IContentItemInfo](../interfaces/IContentItemInfo.md).[text](../interfaces/IContentItemInfo.md#text)
+[`IContentItemInfo`](../interfaces/IContentItemInfo.md).[`text`](../interfaces/IContentItemInfo.md#text)
 
-#### Defined in
+#### Source
 
-main.ts:157382
+main.ts:157390
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 page URL
 displayed in case the text is a link anchor
 
 #### Implementation of
 
-[IContentItemInfo](../interfaces/IContentItemInfo.md).[url](../interfaces/IContentItemInfo.md#url)
+[`IContentItemInfo`](../interfaces/IContentItemInfo.md).[`url`](../interfaces/IContentItemInfo.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:157385
+main.ts:157393
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:157398
+main.ts:157406
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:157416
+main.ts:157424
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ContentItemInfo`](ContentItemInfo.md)
+> **`static`** **fromJS**(`data`): [`ContentItemInfo`](ContentItemInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ContentItemInfo`](ContentItemInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:157409
+main.ts:157417

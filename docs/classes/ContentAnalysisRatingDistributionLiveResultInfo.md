@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentAnalysisRatingDistributionLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ContentAnalysisRatingDistributionLiveResultInfo
 
 # Class: ContentAnalysisRatingDistributionLiveResultInfo
 
@@ -8,167 +12,140 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ContentAnalysisRatingDistributionLiveResultInfo.md#constructor)
-
-### Properties
-
-- [max](ContentAnalysisRatingDistributionLiveResultInfo.md#max)
-- [metrics](ContentAnalysisRatingDistributionLiveResultInfo.md#metrics)
-- [min](ContentAnalysisRatingDistributionLiveResultInfo.md#min)
-- [type](ContentAnalysisRatingDistributionLiveResultInfo.md#type)
-
-### Methods
-
-- [init](ContentAnalysisRatingDistributionLiveResultInfo.md#init)
-- [toJSON](ContentAnalysisRatingDistributionLiveResultInfo.md#tojson)
-- [fromJS](ContentAnalysisRatingDistributionLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ContentAnalysisRatingDistributionLiveResultInfo(data)
 
-• **new ContentAnalysisRatingDistributionLiveResultInfo**(`data?`): [`ContentAnalysisRatingDistributionLiveResultInfo`](ContentAnalysisRatingDistributionLiveResultInfo.md)
+> **new ContentAnalysisRatingDistributionLiveResultInfo**(`data`?): [`ContentAnalysisRatingDistributionLiveResultInfo`](ContentAnalysisRatingDistributionLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IContentAnalysisRatingDistributionLiveResultInfo`](../interfaces/IContentAnalysisRatingDistributionLiveResultInfo.md) |
+• **data?**: [`IContentAnalysisRatingDistributionLiveResultInfo`](../interfaces/IContentAnalysisRatingDistributionLiveResultInfo.md)
 
 #### Returns
 
 [`ContentAnalysisRatingDistributionLiveResultInfo`](ContentAnalysisRatingDistributionLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:163844
+main.ts:163852
 
 ## Properties
 
-### max
+### max?
 
-• `Optional` **max**: `number`
+> **`optional`** **max**: `number`
 
 max rating on a distribution scale
 
 #### Implementation of
 
-[IContentAnalysisRatingDistributionLiveResultInfo](../interfaces/IContentAnalysisRatingDistributionLiveResultInfo.md).[max](../interfaces/IContentAnalysisRatingDistributionLiveResultInfo.md#max)
+[`IContentAnalysisRatingDistributionLiveResultInfo`](../interfaces/IContentAnalysisRatingDistributionLiveResultInfo.md).[`max`](../interfaces/IContentAnalysisRatingDistributionLiveResultInfo.md#max)
 
-#### Defined in
+#### Source
 
-main.ts:163838
+main.ts:163846
 
-___
+***
 
-### metrics
+### metrics?
 
-• `Optional` **metrics**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
+> **`optional`** **metrics**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
 contains rating distribution metrics
 
 #### Implementation of
 
-[IContentAnalysisRatingDistributionLiveResultInfo](../interfaces/IContentAnalysisRatingDistributionLiveResultInfo.md).[metrics](../interfaces/IContentAnalysisRatingDistributionLiveResultInfo.md#metrics)
+[`IContentAnalysisRatingDistributionLiveResultInfo`](../interfaces/IContentAnalysisRatingDistributionLiveResultInfo.md).[`metrics`](../interfaces/IContentAnalysisRatingDistributionLiveResultInfo.md#metrics)
 
-#### Defined in
+#### Source
 
-main.ts:163840
+main.ts:163848
 
-___
+***
 
-### min
+### min?
 
-• `Optional` **min**: `number`
+> **`optional`** **min**: `number`
 
 min rating on a distribution scale
 
 #### Implementation of
 
-[IContentAnalysisRatingDistributionLiveResultInfo](../interfaces/IContentAnalysisRatingDistributionLiveResultInfo.md).[min](../interfaces/IContentAnalysisRatingDistributionLiveResultInfo.md#min)
+[`IContentAnalysisRatingDistributionLiveResultInfo`](../interfaces/IContentAnalysisRatingDistributionLiveResultInfo.md).[`min`](../interfaces/IContentAnalysisRatingDistributionLiveResultInfo.md#min)
 
-#### Defined in
+#### Source
 
-main.ts:163836
+main.ts:163844
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IContentAnalysisRatingDistributionLiveResultInfo](../interfaces/IContentAnalysisRatingDistributionLiveResultInfo.md).[type](../interfaces/IContentAnalysisRatingDistributionLiveResultInfo.md#type)
+[`IContentAnalysisRatingDistributionLiveResultInfo`](../interfaces/IContentAnalysisRatingDistributionLiveResultInfo.md).[`type`](../interfaces/IContentAnalysisRatingDistributionLiveResultInfo.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:163834
+main.ts:163842
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:163853
+main.ts:163861
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:163873
+main.ts:163881
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ContentAnalysisRatingDistributionLiveResultInfo`](ContentAnalysisRatingDistributionLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`ContentAnalysisRatingDistributionLiveResultInfo`](ContentAnalysisRatingDistributionLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ContentAnalysisRatingDistributionLiveResultInfo`](ContentAnalysisRatingDistributionLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:163866
+main.ts:163874

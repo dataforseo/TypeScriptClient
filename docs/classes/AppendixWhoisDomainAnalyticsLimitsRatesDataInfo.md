@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixWhoisDomainAnalyticsLimitsRatesDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppendixWhoisDomainAnalyticsLimitsRatesDataInfo
 
 # Class: AppendixWhoisDomainAnalyticsLimitsRatesDataInfo
 
@@ -8,114 +12,90 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md#constructor)
-
-### Properties
-
-- [overview](AppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md#overview)
-
-### Methods
-
-- [init](AppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md#init)
-- [toJSON](AppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md#tojson)
-- [fromJS](AppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixWhoisDomainAnalyticsLimitsRatesDataInfo(data)
 
-• **new AppendixWhoisDomainAnalyticsLimitsRatesDataInfo**(`data?`): [`AppendixWhoisDomainAnalyticsLimitsRatesDataInfo`](AppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md)
+> **new AppendixWhoisDomainAnalyticsLimitsRatesDataInfo**(`data`?): [`AppendixWhoisDomainAnalyticsLimitsRatesDataInfo`](AppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md) |
+• **data?**: [`IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md)
 
 #### Returns
 
 [`AppendixWhoisDomainAnalyticsLimitsRatesDataInfo`](AppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:212774
 
 ## Properties
 
-### overview
+### overview?
 
-• `Optional` **overview**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **overview**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
-[IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo](../interfaces/IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md).[overview](../interfaces/IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md#overview)
+[`IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md).[`overview`](../interfaces/IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md#overview)
 
-#### Defined in
+#### Source
 
 main.ts:212770
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:212783
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:212800
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppendixWhoisDomainAnalyticsLimitsRatesDataInfo`](AppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md)
+> **`static`** **fromJS**(`data`): [`AppendixWhoisDomainAnalyticsLimitsRatesDataInfo`](AppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppendixWhoisDomainAnalyticsLimitsRatesDataInfo`](AppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:212793

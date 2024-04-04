@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixNaverKeywordsDataDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppendixNaverKeywordsDataDataInfo
 
 # Class: AppendixNaverKeywordsDataDataInfo
 
@@ -8,129 +12,104 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixNaverKeywordsDataDataInfo.md#constructor)
-
-### Properties
-
-- [keywords\_for\_category](AppendixNaverKeywordsDataDataInfo.md#keywords_for_category)
-- [search\_volume](AppendixNaverKeywordsDataDataInfo.md#search_volume)
-
-### Methods
-
-- [init](AppendixNaverKeywordsDataDataInfo.md#init)
-- [toJSON](AppendixNaverKeywordsDataDataInfo.md#tojson)
-- [fromJS](AppendixNaverKeywordsDataDataInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixNaverKeywordsDataDataInfo(data)
 
-• **new AppendixNaverKeywordsDataDataInfo**(`data?`): [`AppendixNaverKeywordsDataDataInfo`](AppendixNaverKeywordsDataDataInfo.md)
+> **new AppendixNaverKeywordsDataDataInfo**(`data`?): [`AppendixNaverKeywordsDataDataInfo`](AppendixNaverKeywordsDataDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixNaverKeywordsDataDataInfo`](../interfaces/IAppendixNaverKeywordsDataDataInfo.md) |
+• **data?**: [`IAppendixNaverKeywordsDataDataInfo`](../interfaces/IAppendixNaverKeywordsDataDataInfo.md)
 
 #### Returns
 
 [`AppendixNaverKeywordsDataDataInfo`](AppendixNaverKeywordsDataDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:214209
 
 ## Properties
 
-### keywords\_for\_category
+### keywords\_for\_category?
 
-• `Optional` **keywords\_for\_category**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **keywords\_for\_category**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
-[IAppendixNaverKeywordsDataDataInfo](../interfaces/IAppendixNaverKeywordsDataDataInfo.md).[keywords_for_category](../interfaces/IAppendixNaverKeywordsDataDataInfo.md#keywords_for_category)
+[`IAppendixNaverKeywordsDataDataInfo`](../interfaces/IAppendixNaverKeywordsDataDataInfo.md).[`keywords_for_category`](../interfaces/IAppendixNaverKeywordsDataDataInfo.md#keywords_for_category)
 
-#### Defined in
+#### Source
 
 main.ts:214204
 
-___
+***
 
-### search\_volume
+### search\_volume?
 
-• `Optional` **search\_volume**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **search\_volume**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
-[IAppendixNaverKeywordsDataDataInfo](../interfaces/IAppendixNaverKeywordsDataDataInfo.md).[search_volume](../interfaces/IAppendixNaverKeywordsDataDataInfo.md#search_volume)
+[`IAppendixNaverKeywordsDataDataInfo`](../interfaces/IAppendixNaverKeywordsDataDataInfo.md).[`search_volume`](../interfaces/IAppendixNaverKeywordsDataDataInfo.md#search_volume)
 
-#### Defined in
+#### Source
 
 main.ts:214205
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:214218
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:214236
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppendixNaverKeywordsDataDataInfo`](AppendixNaverKeywordsDataDataInfo.md)
+> **`static`** **fromJS**(`data`): [`AppendixNaverKeywordsDataDataInfo`](AppendixNaverKeywordsDataDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppendixNaverKeywordsDataDataInfo`](AppendixNaverKeywordsDataDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:214229

@@ -1,56 +1,48 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataSocialMediaRedditLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBusinessDataSocialMediaRedditLiveResultInfo
 
 # Interface: IBusinessDataSocialMediaRedditLiveResultInfo
 
-## Implemented by
-
-- [`BusinessDataSocialMediaRedditLiveResultInfo`](../classes/BusinessDataSocialMediaRedditLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [page\_url](IBusinessDataSocialMediaRedditLiveResultInfo.md#page_url)
-- [reddit\_reviews](IBusinessDataSocialMediaRedditLiveResultInfo.md#reddit_reviews)
-- [type](IBusinessDataSocialMediaRedditLiveResultInfo.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### page\_url
+### page\_url?
 
-• `Optional` **page\_url**: `string`
+> **`optional`** **page\_url**: `string`
 
 URL of the page the data is provided for
 corresponding URL you specified in the targets array when setting a task
 
-#### Defined in
+#### Source
 
 main.ts:211824
 
-___
+***
 
-### reddit\_reviews
+### reddit\_reviews?
 
-• `Optional` **reddit\_reviews**: [`RedditReviews`](../classes/RedditReviews.md)[]
+> **`optional`** **reddit\_reviews**: [`RedditReviews`](../classes/RedditReviews.md)[]
 
 reddit reviews for the page_url
 
-#### Defined in
+#### Source
 
 main.ts:211826
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
 main.ts:211821

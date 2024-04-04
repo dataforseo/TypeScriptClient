@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixLimitsRatesData
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppendixLimitsRatesData
 
 # Class: AppendixLimitsRatesData
 
@@ -8,129 +12,104 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixLimitsRatesData.md#constructor)
-
-### Properties
-
-- [day](AppendixLimitsRatesData.md#day)
-- [minute](AppendixLimitsRatesData.md#minute)
-
-### Methods
-
-- [init](AppendixLimitsRatesData.md#init)
-- [toJSON](AppendixLimitsRatesData.md#tojson)
-- [fromJS](AppendixLimitsRatesData.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixLimitsRatesData(data)
 
-• **new AppendixLimitsRatesData**(`data?`): [`AppendixLimitsRatesData`](AppendixLimitsRatesData.md)
+> **new AppendixLimitsRatesData**(`data`?): [`AppendixLimitsRatesData`](AppendixLimitsRatesData.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixLimitsRatesData`](../interfaces/IAppendixLimitsRatesData.md) |
+• **data?**: [`IAppendixLimitsRatesData`](../interfaces/IAppendixLimitsRatesData.md)
 
 #### Returns
 
 [`AppendixLimitsRatesData`](AppendixLimitsRatesData.md)
 
-#### Defined in
+#### Source
 
 main.ts:214607
 
 ## Properties
 
-### day
+### day?
 
-• `Optional` **day**: [`AppendixDayLimitsRatesData`](AppendixDayLimitsRatesData.md)
+> **`optional`** **day**: [`AppendixDayLimitsRatesData`](AppendixDayLimitsRatesData.md)
 
 #### Implementation of
 
-[IAppendixLimitsRatesData](../interfaces/IAppendixLimitsRatesData.md).[day](../interfaces/IAppendixLimitsRatesData.md#day)
+[`IAppendixLimitsRatesData`](../interfaces/IAppendixLimitsRatesData.md).[`day`](../interfaces/IAppendixLimitsRatesData.md#day)
 
-#### Defined in
+#### Source
 
 main.ts:214602
 
-___
+***
 
-### minute
+### minute?
 
-• `Optional` **minute**: [`AppendixDataInfo`](AppendixDataInfo.md)
+> **`optional`** **minute**: [`AppendixDataInfo`](AppendixDataInfo.md)
 
 #### Implementation of
 
-[IAppendixLimitsRatesData](../interfaces/IAppendixLimitsRatesData.md).[minute](../interfaces/IAppendixLimitsRatesData.md#minute)
+[`IAppendixLimitsRatesData`](../interfaces/IAppendixLimitsRatesData.md).[`minute`](../interfaces/IAppendixLimitsRatesData.md#minute)
 
-#### Defined in
+#### Source
 
 main.ts:214603
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:214616
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:214634
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppendixLimitsRatesData`](AppendixLimitsRatesData.md)
+> **`static`** **fromJS**(`data`): [`AppendixLimitsRatesData`](AppendixLimitsRatesData.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppendixLimitsRatesData`](AppendixLimitsRatesData.md)
 
-#### Defined in
+#### Source
 
 main.ts:214627

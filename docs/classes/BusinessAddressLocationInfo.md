@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessAddressLocationInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessAddressLocationInfo
 
 # Class: BusinessAddressLocationInfo
 
@@ -8,151 +12,125 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessAddressLocationInfo.md#constructor)
-
-### Properties
-
-- [address\_lines](BusinessAddressLocationInfo.md#address_lines)
-- [latitude](BusinessAddressLocationInfo.md#latitude)
-- [longitude](BusinessAddressLocationInfo.md#longitude)
-
-### Methods
-
-- [init](BusinessAddressLocationInfo.md#init)
-- [toJSON](BusinessAddressLocationInfo.md#tojson)
-- [fromJS](BusinessAddressLocationInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessAddressLocationInfo(data)
 
-• **new BusinessAddressLocationInfo**(`data?`): [`BusinessAddressLocationInfo`](BusinessAddressLocationInfo.md)
+> **new BusinessAddressLocationInfo**(`data`?): [`BusinessAddressLocationInfo`](BusinessAddressLocationInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessAddressLocationInfo`](../interfaces/IBusinessAddressLocationInfo.md) |
+• **data?**: [`IBusinessAddressLocationInfo`](../interfaces/IBusinessAddressLocationInfo.md)
 
 #### Returns
 
 [`BusinessAddressLocationInfo`](BusinessAddressLocationInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:209342
 
 ## Properties
 
-### address\_lines
+### address\_lines?
 
-• `Optional` **address\_lines**: `string`[]
+> **`optional`** **address\_lines**: `string`[]
 
 business address
 contains few address lines specified by the business entity
 
 #### Implementation of
 
-[IBusinessAddressLocationInfo](../interfaces/IBusinessAddressLocationInfo.md).[address_lines](../interfaces/IBusinessAddressLocationInfo.md#address_lines)
+[`IBusinessAddressLocationInfo`](../interfaces/IBusinessAddressLocationInfo.md).[`address_lines`](../interfaces/IBusinessAddressLocationInfo.md#address_lines)
 
-#### Defined in
+#### Source
 
 main.ts:209334
 
-___
+***
 
-### latitude
+### latitude?
 
-• `Optional` **latitude**: `string`
+> **`optional`** **latitude**: `string`
 
 latitude in GPS coordinates
 
 #### Implementation of
 
-[IBusinessAddressLocationInfo](../interfaces/IBusinessAddressLocationInfo.md).[latitude](../interfaces/IBusinessAddressLocationInfo.md#latitude)
+[`IBusinessAddressLocationInfo`](../interfaces/IBusinessAddressLocationInfo.md).[`latitude`](../interfaces/IBusinessAddressLocationInfo.md#latitude)
 
-#### Defined in
+#### Source
 
 main.ts:209336
 
-___
+***
 
-### longitude
+### longitude?
 
-• `Optional` **longitude**: `string`
+> **`optional`** **longitude**: `string`
 
 longitude in GPS coordinates
 
 #### Implementation of
 
-[IBusinessAddressLocationInfo](../interfaces/IBusinessAddressLocationInfo.md).[longitude](../interfaces/IBusinessAddressLocationInfo.md#longitude)
+[`IBusinessAddressLocationInfo`](../interfaces/IBusinessAddressLocationInfo.md).[`longitude`](../interfaces/IBusinessAddressLocationInfo.md#longitude)
 
-#### Defined in
+#### Source
 
 main.ts:209338
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:209351
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:209374
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessAddressLocationInfo`](BusinessAddressLocationInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessAddressLocationInfo`](BusinessAddressLocationInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BusinessAddressLocationInfo`](BusinessAddressLocationInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:209367

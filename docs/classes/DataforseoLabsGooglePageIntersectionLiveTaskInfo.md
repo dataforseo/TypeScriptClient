@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGooglePageIntersectionLiveTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsGooglePageIntersectionLiveTaskInfo
 
 # Class: DataforseoLabsGooglePageIntersectionLiveTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`DataforseoLabsGooglePageIntersectionLiveTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsGooglePageIntersectionLiveTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](DataforseoLabsGooglePageIntersectionLiveTaskInfo.md#cost)
-- [data](DataforseoLabsGooglePageIntersectionLiveTaskInfo.md#data)
-- [id](DataforseoLabsGooglePageIntersectionLiveTaskInfo.md#id)
-- [path](DataforseoLabsGooglePageIntersectionLiveTaskInfo.md#path)
-- [result](DataforseoLabsGooglePageIntersectionLiveTaskInfo.md#result)
-- [result\_count](DataforseoLabsGooglePageIntersectionLiveTaskInfo.md#result_count)
-- [status\_code](DataforseoLabsGooglePageIntersectionLiveTaskInfo.md#status_code)
-- [status\_message](DataforseoLabsGooglePageIntersectionLiveTaskInfo.md#status_message)
-- [time](DataforseoLabsGooglePageIntersectionLiveTaskInfo.md#time)
-
-### Methods
-
-- [init](DataforseoLabsGooglePageIntersectionLiveTaskInfo.md#init)
-- [toJSON](DataforseoLabsGooglePageIntersectionLiveTaskInfo.md#tojson)
-- [fromJS](DataforseoLabsGooglePageIntersectionLiveTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsGooglePageIntersectionLiveTaskInfo(data)
 
-• **new DataforseoLabsGooglePageIntersectionLiveTaskInfo**(`data?`): [`DataforseoLabsGooglePageIntersectionLiveTaskInfo`](DataforseoLabsGooglePageIntersectionLiveTaskInfo.md)
+> **new DataforseoLabsGooglePageIntersectionLiveTaskInfo**(`data`?): [`DataforseoLabsGooglePageIntersectionLiveTaskInfo`](DataforseoLabsGooglePageIntersectionLiveTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsGooglePageIntersectionLiveTaskInfo`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveTaskInfo.md) |
+• **data?**: [`IDataforseoLabsGooglePageIntersectionLiveTaskInfo`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:99719
+main.ts:99727
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IDataforseoLabsGooglePageIntersectionLiveTaskInfo](../interfaces/IDataforseoLabsGooglePageIntersectionLiveTaskInfo.md).[cost](../interfaces/IDataforseoLabsGooglePageIntersectionLiveTaskInfo.md#cost)
+[`IDataforseoLabsGooglePageIntersectionLiveTaskInfo`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveTaskInfo.md).[`cost`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[IDataforseoLabsGooglePageIntersectionLiveTaskInfo](../interfaces/IDataforseoLabsGooglePageIntersectionLiveTaskInfo.md).[data](../interfaces/IDataforseoLabsGooglePageIntersectionLiveTaskInfo.md#data)
+[`IDataforseoLabsGooglePageIntersectionLiveTaskInfo`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveTaskInfo.md).[`data`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IDataforseoLabsGooglePageIntersectionLiveTaskInfo](../interfaces/IDataforseoLabsGooglePageIntersectionLiveTaskInfo.md).[id](../interfaces/IDataforseoLabsGooglePageIntersectionLiveTaskInfo.md#id)
+[`IDataforseoLabsGooglePageIntersectionLiveTaskInfo`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveTaskInfo.md).[`id`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[IDataforseoLabsGooglePageIntersectionLiveTaskInfo](../interfaces/IDataforseoLabsGooglePageIntersectionLiveTaskInfo.md).[path](../interfaces/IDataforseoLabsGooglePageIntersectionLiveTaskInfo.md#path)
+[`IDataforseoLabsGooglePageIntersectionLiveTaskInfo`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveTaskInfo.md).[`path`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`DataforseoLabsGooglePageIntersectionLiveResultInfo`](DataforseoLabsGooglePageIntersectionLiveResultInfo.md)[]
+> **`optional`** **result**: [`DataforseoLabsGooglePageIntersectionLiveResultInfo`](DataforseoLabsGooglePageIntersectionLiveResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[IDataforseoLabsGooglePageIntersectionLiveTaskInfo](../interfaces/IDataforseoLabsGooglePageIntersectionLiveTaskInfo.md).[result](../interfaces/IDataforseoLabsGooglePageIntersectionLiveTaskInfo.md#result)
+[`IDataforseoLabsGooglePageIntersectionLiveTaskInfo`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveTaskInfo.md).[`result`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:99715
+main.ts:99723
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[IDataforseoLabsGooglePageIntersectionLiveTaskInfo](../interfaces/IDataforseoLabsGooglePageIntersectionLiveTaskInfo.md).[result_count](../interfaces/IDataforseoLabsGooglePageIntersectionLiveTaskInfo.md#result_count)
+[`IDataforseoLabsGooglePageIntersectionLiveTaskInfo`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveTaskInfo.md).[`result_count`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[IDataforseoLabsGooglePageIntersectionLiveTaskInfo](../interfaces/IDataforseoLabsGooglePageIntersectionLiveTaskInfo.md).[status_code](../interfaces/IDataforseoLabsGooglePageIntersectionLiveTaskInfo.md#status_code)
+[`IDataforseoLabsGooglePageIntersectionLiveTaskInfo`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveTaskInfo.md).[`status_code`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IDataforseoLabsGooglePageIntersectionLiveTaskInfo](../interfaces/IDataforseoLabsGooglePageIntersectionLiveTaskInfo.md).[status_message](../interfaces/IDataforseoLabsGooglePageIntersectionLiveTaskInfo.md#status_message)
+[`IDataforseoLabsGooglePageIntersectionLiveTaskInfo`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveTaskInfo.md).[`status_message`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[IDataforseoLabsGooglePageIntersectionLiveTaskInfo](../interfaces/IDataforseoLabsGooglePageIntersectionLiveTaskInfo.md).[time](../interfaces/IDataforseoLabsGooglePageIntersectionLiveTaskInfo.md#time)
+[`IDataforseoLabsGooglePageIntersectionLiveTaskInfo`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveTaskInfo.md).[`time`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:99723
+main.ts:99731
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:99745
+main.ts:99753
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsGooglePageIntersectionLiveTaskInfo`](DataforseoLabsGooglePageIntersectionLiveTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsGooglePageIntersectionLiveTaskInfo`](DataforseoLabsGooglePageIntersectionLiveTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:99738
+main.ts:99746

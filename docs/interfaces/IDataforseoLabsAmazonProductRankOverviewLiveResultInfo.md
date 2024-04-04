@@ -1,96 +1,85 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonProductRankOverviewLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsAmazonProductRankOverviewLiveResultInfo
 
 # Interface: IDataforseoLabsAmazonProductRankOverviewLiveResultInfo
 
-## Implemented by
-
-- [`DataforseoLabsAmazonProductRankOverviewLiveResultInfo`](../classes/DataforseoLabsAmazonProductRankOverviewLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IDataforseoLabsAmazonProductRankOverviewLiveResultInfo.md#items)
-- [items\_count](IDataforseoLabsAmazonProductRankOverviewLiveResultInfo.md#items_count)
-- [language\_code](IDataforseoLabsAmazonProductRankOverviewLiveResultInfo.md#language_code)
-- [location\_code](IDataforseoLabsAmazonProductRankOverviewLiveResultInfo.md#location_code)
-- [se\_type](IDataforseoLabsAmazonProductRankOverviewLiveResultInfo.md#se_type)
-- [total\_count](IDataforseoLabsAmazonProductRankOverviewLiveResultInfo.md#total_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`DataforseoLabsAmazonProductRankOverviewLiveItem`](../classes/DataforseoLabsAmazonProductRankOverviewLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsAmazonProductRankOverviewLiveItem`](../classes/DataforseoLabsAmazonProductRankOverviewLiveItem.md)[]
 
 contains detected Amazon product competitors and related data
 
-#### Defined in
+#### Source
 
-main.ts:103234
+main.ts:103242
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Defined in
+#### Source
 
-main.ts:103232
+main.ts:103240
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 if there is no data, then the value is null
 
-#### Defined in
+#### Source
 
-main.ts:103228
+main.ts:103236
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 if there is no data, then the value is null
 
-#### Defined in
+#### Source
 
-main.ts:103225
+main.ts:103233
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:103222
+main.ts:103230
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
-#### Defined in
+#### Source
 
-main.ts:103230
+main.ts:103238

@@ -1,109 +1,97 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleRelevantPagesLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsGoogleRelevantPagesLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleRelevantPagesLiveResultInfo
 
-## Implemented by
-
-- [`DataforseoLabsGoogleRelevantPagesLiveResultInfo`](../classes/DataforseoLabsGoogleRelevantPagesLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md#items)
-- [items\_count](IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md#items_count)
-- [language\_code](IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md#language_code)
-- [location\_code](IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md#location_code)
-- [se\_type](IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md#se_type)
-- [target](IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md#target)
-- [total\_count](IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md#total_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`DataforseoLabsRelevantPagesLiveItem`](../classes/DataforseoLabsRelevantPagesLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsRelevantPagesLiveItem`](../classes/DataforseoLabsRelevantPagesLiveItem.md)[]
 
 relevant pages and related data
 
-#### Defined in
+#### Source
 
-main.ts:92744
+main.ts:92752
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Defined in
+#### Source
 
-main.ts:92742
+main.ts:92750
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 if there is no data, then the value is null
 
-#### Defined in
+#### Source
 
-main.ts:92738
+main.ts:92746
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 if there is no data, then the value is null
 
-#### Defined in
+#### Source
 
-main.ts:92735
+main.ts:92743
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:92730
+main.ts:92738
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 target domain in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:92732
+main.ts:92740
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
-#### Defined in
+#### Source
 
-main.ts:92740
+main.ts:92748

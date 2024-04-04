@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataGoogleMyBusinessInfoTaskGetResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataGoogleMyBusinessInfoTaskGetResultInfo
 
 # Class: BusinessDataGoogleMyBusinessInfoTaskGetResultInfo
 
@@ -8,74 +12,48 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md#constructor)
-
-### Properties
-
-- [check\_url](BusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md#check_url)
-- [datetime](BusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md#datetime)
-- [item\_types](BusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md#item_types)
-- [items](BusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md#items)
-- [items\_count](BusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md#items_count)
-- [keyword](BusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md#keyword)
-- [language\_code](BusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md#language_code)
-- [location\_code](BusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md#location_code)
-- [se\_domain](BusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md#se_domain)
-
-### Methods
-
-- [init](BusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md#init)
-- [toJSON](BusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md#tojson)
-- [fromJS](BusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataGoogleMyBusinessInfoTaskGetResultInfo(data)
 
-• **new BusinessDataGoogleMyBusinessInfoTaskGetResultInfo**(`data?`): [`BusinessDataGoogleMyBusinessInfoTaskGetResultInfo`](BusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md)
+> **new BusinessDataGoogleMyBusinessInfoTaskGetResultInfo**(`data`?): [`BusinessDataGoogleMyBusinessInfoTaskGetResultInfo`](BusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md) |
+• **data?**: [`IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md)
 
 #### Returns
 
 [`BusinessDataGoogleMyBusinessInfoTaskGetResultInfo`](BusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:197245
 
 ## Properties
 
-### check\_url
+### check\_url?
 
-• `Optional` **check\_url**: `string`
+> **`optional`** **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
 
 #### Implementation of
 
-[IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo](../interfaces/IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md).[check_url](../interfaces/IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md#check_url)
+[`IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md).[`check_url`](../interfaces/IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md#check_url)
 
-#### Defined in
+#### Source
 
 main.ts:197227
 
-___
+***
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -84,17 +62,17 @@ example:
 
 #### Implementation of
 
-[IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo](../interfaces/IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md).[datetime](../interfaces/IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md#datetime)
+[`IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md).[`datetime`](../interfaces/IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
 main.ts:197232
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 item types
 types of search engine results encountered in the items array;
@@ -102,50 +80,50 @@ possible item types: google_business_info
 
 #### Implementation of
 
-[IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo](../interfaces/IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md).[item_types](../interfaces/IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md#item_types)
+[`IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md).[`item_types`](../interfaces/IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md#item_types)
 
-#### Defined in
+#### Source
 
 main.ts:197236
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)[]
+> **`optional`** **items**: [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)[]
 
 array of directory items
 
 #### Implementation of
 
-[IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo](../interfaces/IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md).[items](../interfaces/IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md#items)
+[`IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md).[`items`](../interfaces/IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md#items)
 
-#### Defined in
+#### Source
 
 main.ts:197241
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 item types
 the number of items in the items array
 
 #### Implementation of
 
-[IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo](../interfaces/IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md).[items_count](../interfaces/IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md#items_count)
+[`IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md).[`items_count`](../interfaces/IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
 main.ts:197239
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -156,116 +134,110 @@ learn more about the parameter in this help center article
 
 #### Implementation of
 
-[IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo](../interfaces/IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md).[keyword](../interfaces/IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md#keyword)
+[`IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md).[`keyword`](../interfaces/IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md#keyword)
 
-#### Defined in
+#### Source
 
 main.ts:197218
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo](../interfaces/IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md).[language_code](../interfaces/IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md#language_code)
+[`IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md).[`language_code`](../interfaces/IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
 main.ts:197224
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo](../interfaces/IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md).[location_code](../interfaces/IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md#location_code)
+[`IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md).[`location_code`](../interfaces/IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
 main.ts:197222
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain as specified in a POST array
 
 #### Implementation of
 
-[IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo](../interfaces/IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md).[se_domain](../interfaces/IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md#se_domain)
+[`IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md).[`se_domain`](../interfaces/IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md#se_domain)
 
-#### Defined in
+#### Source
 
 main.ts:197220
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:197254
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:197287
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataGoogleMyBusinessInfoTaskGetResultInfo`](BusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataGoogleMyBusinessInfoTaskGetResultInfo`](BusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BusinessDataGoogleMyBusinessInfoTaskGetResultInfo`](BusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:197280

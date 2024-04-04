@@ -1,28 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksBulkNewLostReferringDomainsLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBacklinksBulkNewLostReferringDomainsLiveRequestInfo
 
 # Interface: IBacklinksBulkNewLostReferringDomainsLiveRequestInfo
 
-## Implemented by
-
-- [`BacklinksBulkNewLostReferringDomainsLiveRequestInfo`](../classes/BacklinksBulkNewLostReferringDomainsLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [date\_from](IBacklinksBulkNewLostReferringDomainsLiveRequestInfo.md#date_from)
-- [tag](IBacklinksBulkNewLostReferringDomainsLiveRequestInfo.md#tag)
-- [targets](IBacklinksBulkNewLostReferringDomainsLiveRequestInfo.md#targets)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -37,15 +29,15 @@ date format: "yyyy-mm-dd"
 example:
 "2021-01-01"
 
-#### Defined in
+#### Source
 
-main.ts:146599
+main.ts:146607
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -53,15 +45,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:146605
+main.ts:146613
 
-___
+***
 
-### targets
+### targets?
 
-• `Optional` **targets**: `string`[]
+> **`optional`** **targets**: `string`[]
 
 domains, subdomains or webpages to get  new & lost referring domains for
 required field
@@ -82,6 +74,6 @@ example:
   "www.trustpilot.com"
 ]
 
-#### Defined in
+#### Source
 
-main.ts:146586
+main.ts:146594

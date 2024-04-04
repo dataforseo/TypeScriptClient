@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleNewsTaskGetAdvancedResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleNewsTaskGetAdvancedResultInfo
 
 # Class: SerpGoogleNewsTaskGetAdvancedResultInfo
 
@@ -8,77 +12,48 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleNewsTaskGetAdvancedResultInfo.md#constructor)
-
-### Properties
-
-- [check\_url](SerpGoogleNewsTaskGetAdvancedResultInfo.md#check_url)
-- [datetime](SerpGoogleNewsTaskGetAdvancedResultInfo.md#datetime)
-- [item\_types](SerpGoogleNewsTaskGetAdvancedResultInfo.md#item_types)
-- [items](SerpGoogleNewsTaskGetAdvancedResultInfo.md#items)
-- [items\_count](SerpGoogleNewsTaskGetAdvancedResultInfo.md#items_count)
-- [keyword](SerpGoogleNewsTaskGetAdvancedResultInfo.md#keyword)
-- [language\_code](SerpGoogleNewsTaskGetAdvancedResultInfo.md#language_code)
-- [location\_code](SerpGoogleNewsTaskGetAdvancedResultInfo.md#location_code)
-- [se\_domain](SerpGoogleNewsTaskGetAdvancedResultInfo.md#se_domain)
-- [se\_results\_count](SerpGoogleNewsTaskGetAdvancedResultInfo.md#se_results_count)
-- [spell](SerpGoogleNewsTaskGetAdvancedResultInfo.md#spell)
-- [type](SerpGoogleNewsTaskGetAdvancedResultInfo.md#type)
-
-### Methods
-
-- [init](SerpGoogleNewsTaskGetAdvancedResultInfo.md#init)
-- [toJSON](SerpGoogleNewsTaskGetAdvancedResultInfo.md#tojson)
-- [fromJS](SerpGoogleNewsTaskGetAdvancedResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleNewsTaskGetAdvancedResultInfo(data)
 
-• **new SerpGoogleNewsTaskGetAdvancedResultInfo**(`data?`): [`SerpGoogleNewsTaskGetAdvancedResultInfo`](SerpGoogleNewsTaskGetAdvancedResultInfo.md)
+> **new SerpGoogleNewsTaskGetAdvancedResultInfo**(`data`?): [`SerpGoogleNewsTaskGetAdvancedResultInfo`](SerpGoogleNewsTaskGetAdvancedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleNewsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md) |
+• **data?**: [`ISerpGoogleNewsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
 [`SerpGoogleNewsTaskGetAdvancedResultInfo`](SerpGoogleNewsTaskGetAdvancedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:43403
+main.ts:43409
 
 ## Properties
 
-### check\_url
+### check\_url?
 
-• `Optional` **check\_url**: `string`
+> **`optional`** **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
 
 #### Implementation of
 
-[ISerpGoogleNewsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md).[check_url](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md#check_url)
+[`ISerpGoogleNewsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md).[`check_url`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md#check_url)
 
-#### Defined in
+#### Source
 
-main.ts:43379
+main.ts:43385
 
-___
+***
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -87,17 +62,17 @@ example:
 
 #### Implementation of
 
-[ISerpGoogleNewsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md).[datetime](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md#datetime)
+[`ISerpGoogleNewsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md).[`datetime`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
-main.ts:43384
+main.ts:43390
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -106,215 +81,209 @@ top_stories, news_search
 
 #### Implementation of
 
-[ISerpGoogleNewsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md).[item_types](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md#item_types)
+[`ISerpGoogleNewsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md).[`item_types`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md#item_types)
 
-#### Defined in
+#### Source
 
-main.ts:43392
+main.ts:43398
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
+> **`optional`** **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
 additional items present in the element
 if there are none, equals null
 
 #### Implementation of
 
-[ISerpGoogleNewsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md).[items](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md#items)
+[`ISerpGoogleNewsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md).[`items`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:43399
+main.ts:43405
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[ISerpGoogleNewsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md).[items_count](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md#items_count)
+[`ISerpGoogleNewsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md).[`items_count`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:43396
+main.ts:43402
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword received in a POST array
 the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
-[ISerpGoogleNewsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md).[keyword](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md#keyword)
+[`ISerpGoogleNewsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md).[`keyword`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:43368
+main.ts:43374
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[ISerpGoogleNewsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md).[language_code](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md#language_code)
+[`ISerpGoogleNewsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md).[`language_code`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:43376
+main.ts:43382
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[ISerpGoogleNewsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md).[location_code](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md#location_code)
+[`ISerpGoogleNewsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md).[`location_code`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:43374
+main.ts:43380
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
 #### Implementation of
 
-[ISerpGoogleNewsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md).[se_domain](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md#se_domain)
+[`ISerpGoogleNewsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md).[`se_domain`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md#se_domain)
 
-#### Defined in
+#### Source
 
-main.ts:43372
+main.ts:43378
 
-___
+***
 
-### se\_results\_count
+### se\_results\_count?
 
-• `Optional` **se\_results\_count**: `number`
+> **`optional`** **se\_results\_count**: `number`
 
 total number of results in SERP
 
 #### Implementation of
 
-[ISerpGoogleNewsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md).[se_results_count](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md#se_results_count)
+[`ISerpGoogleNewsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md).[`se_results_count`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md#se_results_count)
 
-#### Defined in
+#### Source
 
-main.ts:43394
+main.ts:43400
 
-___
+***
 
-### spell
+### spell?
 
-• `Optional` **spell**: [`SpellInfo`](SpellInfo.md)
+> **`optional`** **spell**: [`SpellInfo`](SpellInfo.md)
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
 
 #### Implementation of
 
-[ISerpGoogleNewsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md).[spell](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md#spell)
+[`ISerpGoogleNewsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md).[`spell`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md#spell)
 
-#### Defined in
+#### Source
 
-main.ts:43387
+main.ts:43393
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[ISerpGoogleNewsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md).[type](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md#type)
+[`ISerpGoogleNewsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md).[`type`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:43370
+main.ts:43376
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:43412
+main.ts:43418
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:43448
+main.ts:43454
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleNewsTaskGetAdvancedResultInfo`](SerpGoogleNewsTaskGetAdvancedResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleNewsTaskGetAdvancedResultInfo`](SerpGoogleNewsTaskGetAdvancedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpGoogleNewsTaskGetAdvancedResultInfo`](SerpGoogleNewsTaskGetAdvancedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:43441
+main.ts:43447

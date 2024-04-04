@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleSearchByImageTasksFixedResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleSearchByImageTasksFixedResultInfo
 
 # Class: SerpGoogleSearchByImageTasksFixedResultInfo
 
@@ -8,240 +12,209 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleSearchByImageTasksFixedResultInfo.md#constructor)
-
-### Properties
-
-- [date\_fixed](SerpGoogleSearchByImageTasksFixedResultInfo.md#date_fixed)
-- [endpoint\_advanced](SerpGoogleSearchByImageTasksFixedResultInfo.md#endpoint_advanced)
-- [endpoint\_html](SerpGoogleSearchByImageTasksFixedResultInfo.md#endpoint_html)
-- [endpoint\_regular](SerpGoogleSearchByImageTasksFixedResultInfo.md#endpoint_regular)
-- [id](SerpGoogleSearchByImageTasksFixedResultInfo.md#id)
-- [se](SerpGoogleSearchByImageTasksFixedResultInfo.md#se)
-- [se\_type](SerpGoogleSearchByImageTasksFixedResultInfo.md#se_type)
-- [tag](SerpGoogleSearchByImageTasksFixedResultInfo.md#tag)
-
-### Methods
-
-- [init](SerpGoogleSearchByImageTasksFixedResultInfo.md#init)
-- [toJSON](SerpGoogleSearchByImageTasksFixedResultInfo.md#tojson)
-- [fromJS](SerpGoogleSearchByImageTasksFixedResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleSearchByImageTasksFixedResultInfo(data)
 
-• **new SerpGoogleSearchByImageTasksFixedResultInfo**(`data?`): [`SerpGoogleSearchByImageTasksFixedResultInfo`](SerpGoogleSearchByImageTasksFixedResultInfo.md)
+> **new SerpGoogleSearchByImageTasksFixedResultInfo**(`data`?): [`SerpGoogleSearchByImageTasksFixedResultInfo`](SerpGoogleSearchByImageTasksFixedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleSearchByImageTasksFixedResultInfo`](../interfaces/ISerpGoogleSearchByImageTasksFixedResultInfo.md) |
+• **data?**: [`ISerpGoogleSearchByImageTasksFixedResultInfo`](../interfaces/ISerpGoogleSearchByImageTasksFixedResultInfo.md)
 
 #### Returns
 
 [`SerpGoogleSearchByImageTasksFixedResultInfo`](SerpGoogleSearchByImageTasksFixedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:48578
+main.ts:48586
 
 ## Properties
 
-### date\_fixed
+### date\_fixed?
 
-• `Optional` **date\_fixed**: `string`
+> **`optional`** **date\_fixed**: `string`
 
 date when the task was fixed (in the UTC format)
 
 #### Implementation of
 
-[ISerpGoogleSearchByImageTasksFixedResultInfo](../interfaces/ISerpGoogleSearchByImageTasksFixedResultInfo.md).[date_fixed](../interfaces/ISerpGoogleSearchByImageTasksFixedResultInfo.md#date_fixed)
+[`ISerpGoogleSearchByImageTasksFixedResultInfo`](../interfaces/ISerpGoogleSearchByImageTasksFixedResultInfo.md).[`date_fixed`](../interfaces/ISerpGoogleSearchByImageTasksFixedResultInfo.md#date_fixed)
 
-#### Defined in
+#### Source
 
-main.ts:48563
+main.ts:48571
 
-___
+***
 
-### endpoint\_advanced
+### endpoint\_advanced?
 
-• `Optional` **endpoint\_advanced**: `string`
+> **`optional`** **endpoint\_advanced**: `string`
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpGoogleSearchByImageTasksFixedResultInfo](../interfaces/ISerpGoogleSearchByImageTasksFixedResultInfo.md).[endpoint_advanced](../interfaces/ISerpGoogleSearchByImageTasksFixedResultInfo.md#endpoint_advanced)
+[`ISerpGoogleSearchByImageTasksFixedResultInfo`](../interfaces/ISerpGoogleSearchByImageTasksFixedResultInfo.md).[`endpoint_advanced`](../interfaces/ISerpGoogleSearchByImageTasksFixedResultInfo.md#endpoint_advanced)
 
-#### Defined in
+#### Source
 
-main.ts:48571
+main.ts:48579
 
-___
+***
 
-### endpoint\_html
+### endpoint\_html?
 
-• `Optional` **endpoint\_html**: `string`
+> **`optional`** **endpoint\_html**: `string`
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpGoogleSearchByImageTasksFixedResultInfo](../interfaces/ISerpGoogleSearchByImageTasksFixedResultInfo.md).[endpoint_html](../interfaces/ISerpGoogleSearchByImageTasksFixedResultInfo.md#endpoint_html)
+[`ISerpGoogleSearchByImageTasksFixedResultInfo`](../interfaces/ISerpGoogleSearchByImageTasksFixedResultInfo.md).[`endpoint_html`](../interfaces/ISerpGoogleSearchByImageTasksFixedResultInfo.md#endpoint_html)
 
-#### Defined in
+#### Source
 
-main.ts:48574
+main.ts:48582
 
-___
+***
 
-### endpoint\_regular
+### endpoint\_regular?
 
-• `Optional` **endpoint\_regular**: `string`
+> **`optional`** **endpoint\_regular**: `string`
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpGoogleSearchByImageTasksFixedResultInfo](../interfaces/ISerpGoogleSearchByImageTasksFixedResultInfo.md).[endpoint_regular](../interfaces/ISerpGoogleSearchByImageTasksFixedResultInfo.md#endpoint_regular)
+[`ISerpGoogleSearchByImageTasksFixedResultInfo`](../interfaces/ISerpGoogleSearchByImageTasksFixedResultInfo.md).[`endpoint_regular`](../interfaces/ISerpGoogleSearchByImageTasksFixedResultInfo.md#endpoint_regular)
 
-#### Defined in
+#### Source
 
-main.ts:48568
+main.ts:48576
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[ISerpGoogleSearchByImageTasksFixedResultInfo](../interfaces/ISerpGoogleSearchByImageTasksFixedResultInfo.md).[id](../interfaces/ISerpGoogleSearchByImageTasksFixedResultInfo.md#id)
+[`ISerpGoogleSearchByImageTasksFixedResultInfo`](../interfaces/ISerpGoogleSearchByImageTasksFixedResultInfo.md).[`id`](../interfaces/ISerpGoogleSearchByImageTasksFixedResultInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:48556
+main.ts:48564
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 
 #### Implementation of
 
-[ISerpGoogleSearchByImageTasksFixedResultInfo](../interfaces/ISerpGoogleSearchByImageTasksFixedResultInfo.md).[se](../interfaces/ISerpGoogleSearchByImageTasksFixedResultInfo.md#se)
+[`ISerpGoogleSearchByImageTasksFixedResultInfo`](../interfaces/ISerpGoogleSearchByImageTasksFixedResultInfo.md).[`se`](../interfaces/ISerpGoogleSearchByImageTasksFixedResultInfo.md#se)
 
-#### Defined in
+#### Source
 
-main.ts:48558
+main.ts:48566
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 type of search engine
 can take the following values: search_by_image
 
 #### Implementation of
 
-[ISerpGoogleSearchByImageTasksFixedResultInfo](../interfaces/ISerpGoogleSearchByImageTasksFixedResultInfo.md).[se_type](../interfaces/ISerpGoogleSearchByImageTasksFixedResultInfo.md#se_type)
+[`ISerpGoogleSearchByImageTasksFixedResultInfo`](../interfaces/ISerpGoogleSearchByImageTasksFixedResultInfo.md).[`se_type`](../interfaces/ISerpGoogleSearchByImageTasksFixedResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:48561
+main.ts:48569
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
 #### Implementation of
 
-[ISerpGoogleSearchByImageTasksFixedResultInfo](../interfaces/ISerpGoogleSearchByImageTasksFixedResultInfo.md).[tag](../interfaces/ISerpGoogleSearchByImageTasksFixedResultInfo.md#tag)
+[`ISerpGoogleSearchByImageTasksFixedResultInfo`](../interfaces/ISerpGoogleSearchByImageTasksFixedResultInfo.md).[`tag`](../interfaces/ISerpGoogleSearchByImageTasksFixedResultInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:48565
+main.ts:48573
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:48587
+main.ts:48595
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:48611
+main.ts:48619
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleSearchByImageTasksFixedResultInfo`](SerpGoogleSearchByImageTasksFixedResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleSearchByImageTasksFixedResultInfo`](SerpGoogleSearchByImageTasksFixedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpGoogleSearchByImageTasksFixedResultInfo`](SerpGoogleSearchByImageTasksFixedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:48604
+main.ts:48612

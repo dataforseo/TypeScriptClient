@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo
 
 # Class: KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md#cost)
-- [data](KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md#data)
-- [id](KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md#id)
-- [path](KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md#path)
-- [result](KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md#result)
-- [result\_count](KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md#result_count)
-- [status\_code](KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md#status_code)
-- [status\_message](KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md#status_message)
-- [time](KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md#time)
-
-### Methods
-
-- [init](KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md#init)
-- [toJSON](KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md#tojson)
-- [fromJS](KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo(data)
 
-• **new KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo**(`data?`): [`KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo`](KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md)
+> **new KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo**(`data`?): [`KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo`](KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md) |
+• **data?**: [`IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:127186
+main.ts:127194
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md).[cost](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md#cost)
+[`IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md).[`cost`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md).[data](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md#data)
+[`IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md).[`data`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md).[id](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md#id)
+[`IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md).[`id`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md).[path](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md#path)
+[`IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md).[`path`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`KeywordsDataDataforseoTrendsMergedDataLiveResultInfo`](KeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md)[]
+> **`optional`** **result**: [`KeywordsDataDataforseoTrendsMergedDataLiveResultInfo`](KeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md).[result](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md#result)
+[`IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md).[`result`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:127182
+main.ts:127190
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md).[result_count](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md#result_count)
+[`IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md).[`result_count`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md).[status_code](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md#status_code)
+[`IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md).[`status_code`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md).[status_message](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md#status_message)
+[`IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md).[`status_message`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md).[time](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md#time)
+[`IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md).[`time`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:127190
+main.ts:127198
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:127212
+main.ts:127220
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo`](KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo`](KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:127205
+main.ts:127213

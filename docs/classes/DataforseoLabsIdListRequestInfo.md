@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsIdListRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsIdListRequestInfo
 
 # Class: DataforseoLabsIdListRequestInfo
 
@@ -8,54 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsIdListRequestInfo.md#constructor)
-
-### Properties
-
-- [datetime\_from](DataforseoLabsIdListRequestInfo.md#datetime_from)
-- [datetime\_to](DataforseoLabsIdListRequestInfo.md#datetime_to)
-- [include\_metadata](DataforseoLabsIdListRequestInfo.md#include_metadata)
-- [limit](DataforseoLabsIdListRequestInfo.md#limit)
-- [offset](DataforseoLabsIdListRequestInfo.md#offset)
-- [sort](DataforseoLabsIdListRequestInfo.md#sort)
-
-### Methods
-
-- [init](DataforseoLabsIdListRequestInfo.md#init)
-- [toJSON](DataforseoLabsIdListRequestInfo.md#tojson)
-- [fromJS](DataforseoLabsIdListRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsIdListRequestInfo(data)
 
-• **new DataforseoLabsIdListRequestInfo**(`data?`): [`DataforseoLabsIdListRequestInfo`](DataforseoLabsIdListRequestInfo.md)
+> **new DataforseoLabsIdListRequestInfo**(`data`?): [`DataforseoLabsIdListRequestInfo`](DataforseoLabsIdListRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsIdListRequestInfo`](../interfaces/IDataforseoLabsIdListRequestInfo.md) |
+• **data?**: [`IDataforseoLabsIdListRequestInfo`](../interfaces/IDataforseoLabsIdListRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsIdListRequestInfo`](DataforseoLabsIdListRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:78837
+main.ts:78845
 
 ## Properties
 
-### datetime\_from
+### datetime\_from?
 
-• `Optional` **datetime\_from**: `string`
+> **`optional`** **datetime\_from**: `string`
 
 start time for filtering results
 required field
@@ -67,17 +48,17 @@ example:
 
 #### Implementation of
 
-[IDataforseoLabsIdListRequestInfo](../interfaces/IDataforseoLabsIdListRequestInfo.md).[datetime_from](../interfaces/IDataforseoLabsIdListRequestInfo.md#datetime_from)
+[`IDataforseoLabsIdListRequestInfo`](../interfaces/IDataforseoLabsIdListRequestInfo.md).[`datetime_from`](../interfaces/IDataforseoLabsIdListRequestInfo.md#datetime_from)
 
-#### Defined in
+#### Source
 
-main.ts:78807
+main.ts:78815
 
-___
+***
 
-### datetime\_to
+### datetime\_to?
 
-• `Optional` **datetime\_to**: `string`
+> **`optional`** **datetime\_to**: `string`
 
 finish time for filtering results
 required field
@@ -88,17 +69,17 @@ example:
 
 #### Implementation of
 
-[IDataforseoLabsIdListRequestInfo](../interfaces/IDataforseoLabsIdListRequestInfo.md).[datetime_to](../interfaces/IDataforseoLabsIdListRequestInfo.md#datetime_to)
+[`IDataforseoLabsIdListRequestInfo`](../interfaces/IDataforseoLabsIdListRequestInfo.md).[`datetime_to`](../interfaces/IDataforseoLabsIdListRequestInfo.md#datetime_to)
 
-#### Defined in
+#### Source
 
-main.ts:78814
+main.ts:78822
 
-___
+***
 
-### include\_metadata
+### include\_metadata?
 
-• `Optional` **include\_metadata**: `boolean`
+> **`optional`** **include\_metadata**: `boolean`
 
 include task metadata in the respond
 optional field
@@ -106,17 +87,17 @@ default value: false
 
 #### Implementation of
 
-[IDataforseoLabsIdListRequestInfo](../interfaces/IDataforseoLabsIdListRequestInfo.md).[include_metadata](../interfaces/IDataforseoLabsIdListRequestInfo.md#include_metadata)
+[`IDataforseoLabsIdListRequestInfo`](../interfaces/IDataforseoLabsIdListRequestInfo.md).[`include_metadata`](../interfaces/IDataforseoLabsIdListRequestInfo.md#include_metadata)
 
-#### Defined in
+#### Source
 
-main.ts:78833
+main.ts:78841
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned task IDs
 optional field
@@ -125,17 +106,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IDataforseoLabsIdListRequestInfo](../interfaces/IDataforseoLabsIdListRequestInfo.md).[limit](../interfaces/IDataforseoLabsIdListRequestInfo.md#limit)
+[`IDataforseoLabsIdListRequestInfo`](../interfaces/IDataforseoLabsIdListRequestInfo.md).[`limit`](../interfaces/IDataforseoLabsIdListRequestInfo.md#limit)
 
-#### Defined in
+#### Source
 
-main.ts:78819
+main.ts:78827
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned task IDs
 optional field
@@ -144,17 +125,17 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Implementation of
 
-[IDataforseoLabsIdListRequestInfo](../interfaces/IDataforseoLabsIdListRequestInfo.md).[offset](../interfaces/IDataforseoLabsIdListRequestInfo.md#offset)
+[`IDataforseoLabsIdListRequestInfo`](../interfaces/IDataforseoLabsIdListRequestInfo.md).[`offset`](../interfaces/IDataforseoLabsIdListRequestInfo.md#offset)
 
-#### Defined in
+#### Source
 
-main.ts:78824
+main.ts:78832
 
-___
+***
 
-### sort
+### sort?
 
-• `Optional` **sort**: `string`
+> **`optional`** **sort**: `string`
 
 sorting by task execution time
 optional field
@@ -163,68 +144,62 @@ default value: "asc"
 
 #### Implementation of
 
-[IDataforseoLabsIdListRequestInfo](../interfaces/IDataforseoLabsIdListRequestInfo.md).[sort](../interfaces/IDataforseoLabsIdListRequestInfo.md#sort)
+[`IDataforseoLabsIdListRequestInfo`](../interfaces/IDataforseoLabsIdListRequestInfo.md).[`sort`](../interfaces/IDataforseoLabsIdListRequestInfo.md#sort)
 
-#### Defined in
+#### Source
 
-main.ts:78829
+main.ts:78837
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:78846
+main.ts:78854
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:78868
+main.ts:78876
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsIdListRequestInfo`](DataforseoLabsIdListRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsIdListRequestInfo`](DataforseoLabsIdListRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsIdListRequestInfo`](DataforseoLabsIdListRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:78861
+main.ts:78869

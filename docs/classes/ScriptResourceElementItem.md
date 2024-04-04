@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ScriptResourceElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ScriptResourceElementItem
 
 # Class: ScriptResourceElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)
-
-  ↳ **`ScriptResourceElementItem`**
 
 ## Implements
 
@@ -14,52 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ScriptResourceElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](ScriptResourceElementItem.md#_discriminator)
-- [accept\_type](ScriptResourceElementItem.md#accept_type)
-- [cache\_control](ScriptResourceElementItem.md#cache_control)
-- [checks](ScriptResourceElementItem.md#checks)
-- [content\_encoding](ScriptResourceElementItem.md#content_encoding)
-- [encoded\_size](ScriptResourceElementItem.md#encoded_size)
-- [fetch\_time](ScriptResourceElementItem.md#fetch_time)
-- [fetch\_timing](ScriptResourceElementItem.md#fetch_timing)
-- [last\_modified](ScriptResourceElementItem.md#last_modified)
-- [location](ScriptResourceElementItem.md#location)
-- [media\_type](ScriptResourceElementItem.md#media_type)
-- [meta](ScriptResourceElementItem.md#meta)
-- [resource\_errors](ScriptResourceElementItem.md#resource_errors)
-- [server](ScriptResourceElementItem.md#server)
-- [size](ScriptResourceElementItem.md#size)
-- [status\_code](ScriptResourceElementItem.md#status_code)
-- [total\_transfer\_size](ScriptResourceElementItem.md#total_transfer_size)
-- [url](ScriptResourceElementItem.md#url)
-
-### Methods
-
-- [init](ScriptResourceElementItem.md#init)
-- [toJSON](ScriptResourceElementItem.md#tojson)
-- [fromJS](ScriptResourceElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ScriptResourceElementItem(data)
 
-• **new ScriptResourceElementItem**(`data?`): [`ScriptResourceElementItem`](ScriptResourceElementItem.md)
+> **new ScriptResourceElementItem**(`data`?): [`ScriptResourceElementItem`](ScriptResourceElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IScriptResourceElementItem`](../interfaces/IScriptResourceElementItem.md) |
+• **data?**: [`IScriptResourceElementItem`](../interfaces/IScriptResourceElementItem.md)
 
 #### Returns
 
@@ -67,31 +34,31 @@
 
 #### Overrides
 
-[BaseOnPageResourceItemInfo](BaseOnPageResourceItemInfo.md).[constructor](BaseOnPageResourceItemInfo.md#constructor)
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`constructor`](BaseOnPageResourceItemInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:151916
+main.ts:151565
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseOnPageResourceItemInfo](BaseOnPageResourceItemInfo.md).[_discriminator](BaseOnPageResourceItemInfo.md#_discriminator)
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`_discriminator`](BaseOnPageResourceItemInfo.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:20635
 
-___
+***
 
-### accept\_type
+### accept\_type?
 
-• `Optional` **accept\_type**: `string`
+> **`optional`** **accept\_type**: `string`
 
 indicates the expected type of resource
 for example, if "resource_type": "broken", accept_type will indicate the type of the broken resource
@@ -100,87 +67,87 @@ any, none, image, sitemap, robots, script, stylesheet, redirect, html, text, oth
 
 #### Implementation of
 
-[IScriptResourceElementItem](../interfaces/IScriptResourceElementItem.md).[accept_type](../interfaces/IScriptResourceElementItem.md#accept_type)
+[`IScriptResourceElementItem`](../interfaces/IScriptResourceElementItem.md).[`accept_type`](../interfaces/IScriptResourceElementItem.md#accept_type)
 
-#### Defined in
+#### Source
 
-main.ts:151905
+main.ts:151556
 
-___
+***
 
-### cache\_control
+### cache\_control?
 
-• `Optional` **cache\_control**: [`CacheControl`](CacheControl.md)
+> **`optional`** **cache\_control**: [`CacheControl`](CacheControl.md)
 
 instructions for caching
 
 #### Implementation of
 
-[IScriptResourceElementItem](../interfaces/IScriptResourceElementItem.md).[cache_control](../interfaces/IScriptResourceElementItem.md#cache_control)
+[`IScriptResourceElementItem`](../interfaces/IScriptResourceElementItem.md).[`cache_control`](../interfaces/IScriptResourceElementItem.md#cache_control)
 
-#### Defined in
+#### Source
 
-main.ts:151893
+main.ts:151542
 
-___
+***
 
-### checks
+### checks?
 
-• `Optional` **checks**: `Object`
+> **`optional`** **checks**: `Object`
 
 resource check-ups
 contents of the array depend on the resource_type
 
 #### Index signature
 
-▪ [key: `string`]: `boolean`
+ \[`key`: `string`\]: `boolean`
 
 #### Implementation of
 
-[IScriptResourceElementItem](../interfaces/IScriptResourceElementItem.md).[checks](../interfaces/IScriptResourceElementItem.md#checks)
+[`IScriptResourceElementItem`](../interfaces/IScriptResourceElementItem.md).[`checks`](../interfaces/IScriptResourceElementItem.md#checks)
 
-#### Defined in
+#### Source
 
-main.ts:151896
+main.ts:151545
 
-___
+***
 
-### content\_encoding
+### content\_encoding?
 
-• `Optional` **content\_encoding**: `string`
+> **`optional`** **content\_encoding**: `string`
 
 type of encoding
 
 #### Implementation of
 
-[IScriptResourceElementItem](../interfaces/IScriptResourceElementItem.md).[content_encoding](../interfaces/IScriptResourceElementItem.md#content_encoding)
+[`IScriptResourceElementItem`](../interfaces/IScriptResourceElementItem.md).[`content_encoding`](../interfaces/IScriptResourceElementItem.md#content_encoding)
 
-#### Defined in
+#### Source
 
-main.ts:151898
+main.ts:151549
 
-___
+***
 
-### encoded\_size
+### encoded\_size?
 
-• `Optional` **encoded\_size**: `number`
+> **`optional`** **encoded\_size**: `number`
 
 resource size after encoding
 indicates the size of the encoded resource measured in bytes
 
 #### Implementation of
 
-[IScriptResourceElementItem](../interfaces/IScriptResourceElementItem.md).[encoded_size](../interfaces/IScriptResourceElementItem.md#encoded_size)
+[`IScriptResourceElementItem`](../interfaces/IScriptResourceElementItem.md).[`encoded_size`](../interfaces/IScriptResourceElementItem.md#encoded_size)
 
-#### Defined in
+#### Source
 
-main.ts:151881
+main.ts:151530
 
-___
+***
 
-### fetch\_time
+### fetch\_time?
 
-• `Optional` **fetch\_time**: `string`
+> **`optional`** **fetch\_time**: `string`
 
 date and time when a resource was fetched
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -189,83 +156,83 @@ example:
 
 #### Implementation of
 
-[IScriptResourceElementItem](../interfaces/IScriptResourceElementItem.md).[fetch_time](../interfaces/IScriptResourceElementItem.md#fetch_time)
+[`IScriptResourceElementItem`](../interfaces/IScriptResourceElementItem.md).[`fetch_time`](../interfaces/IScriptResourceElementItem.md#fetch_time)
 
-#### Defined in
+#### Source
 
-main.ts:151889
+main.ts:151538
 
-___
+***
 
-### fetch\_timing
+### fetch\_timing?
 
-• `Optional` **fetch\_timing**: [`FetchTiming`](FetchTiming.md)
+> **`optional`** **fetch\_timing**: [`FetchTiming`](FetchTiming.md)
 
 resource fething time range
 
 #### Implementation of
 
-[IScriptResourceElementItem](../interfaces/IScriptResourceElementItem.md).[fetch_timing](../interfaces/IScriptResourceElementItem.md#fetch_timing)
+[`IScriptResourceElementItem`](../interfaces/IScriptResourceElementItem.md).[`fetch_timing`](../interfaces/IScriptResourceElementItem.md#fetch_timing)
 
-#### Defined in
+#### Source
 
-main.ts:151891
+main.ts:151540
 
-___
+***
 
-### last\_modified
+### last\_modified?
 
-• `Optional` **last\_modified**: [`LastModified`](LastModified.md)
+> **`optional`** **last\_modified**: [`LastModified`](LastModified.md)
 
 contains data on changes related to the resource
 if there is no data, the value will be null
 
 #### Implementation of
 
-[IScriptResourceElementItem](../interfaces/IScriptResourceElementItem.md).[last_modified](../interfaces/IScriptResourceElementItem.md#last_modified)
+[`IScriptResourceElementItem`](../interfaces/IScriptResourceElementItem.md).[`last_modified`](../interfaces/IScriptResourceElementItem.md#last_modified)
 
-#### Defined in
+#### Source
 
-main.ts:151910
+main.ts:151561
 
-___
+***
 
-### location
+### location?
 
-• `Optional` **location**: `string`
+> **`optional`** **location**: `string`
 
 location header
 indicates the URL to redirect a page to
 
 #### Implementation of
 
-[IScriptResourceElementItem](../interfaces/IScriptResourceElementItem.md).[location](../interfaces/IScriptResourceElementItem.md#location)
+[`IScriptResourceElementItem`](../interfaces/IScriptResourceElementItem.md).[`location`](../interfaces/IScriptResourceElementItem.md#location)
 
-#### Defined in
+#### Source
 
-main.ts:151873
+main.ts:151522
 
-___
+***
 
-### media\_type
+### media\_type?
 
-• `Optional` **media\_type**: `string`
+> **`optional`** **media\_type**: `string`
 
 types of media used to display a resource
 
 #### Implementation of
 
-[IScriptResourceElementItem](../interfaces/IScriptResourceElementItem.md).[media_type](../interfaces/IScriptResourceElementItem.md#media_type)
+[`IScriptResourceElementItem`](../interfaces/IScriptResourceElementItem.md).[`media_type`](../interfaces/IScriptResourceElementItem.md#media_type)
 
-#### Defined in
+#### Source
 
-main.ts:151900
+main.ts:151551
 
-___
+***
 
-### meta
+### meta?
 
-• `Optional` **meta**: [`ResourceMetaInfo`](ResourceMetaInfo.md)
+> **`optional`** **meta**: [`ResourceMetaInfo`](ResourceMetaInfo.md)
 
 resource properties
 the value depends on the resource_type
@@ -274,121 +241,119 @@ to obtain resource’s meta from a particular url, specify that URL when setting
 
 #### Implementation of
 
-[IScriptResourceElementItem](../interfaces/IScriptResourceElementItem.md).[meta](../interfaces/IScriptResourceElementItem.md#meta)
+[`IScriptResourceElementItem`](../interfaces/IScriptResourceElementItem.md).[`meta`](../interfaces/IScriptResourceElementItem.md#meta)
 
-#### Defined in
+#### Source
 
-main.ts:151868
+main.ts:151517
 
-___
+***
 
-### resource\_errors
+### resource\_errors?
 
-• `Optional` **resource\_errors**: [`OnPageResourceIssueInfo`](OnPageResourceIssueInfo.md)
+> **`optional`** **resource\_errors**: [`OnPageResourceIssueInfo`](OnPageResourceIssueInfo.md)
 
 resource errors and warnings
 
 #### Implementation of
 
-[IScriptResourceElementItem](../interfaces/IScriptResourceElementItem.md).[resource_errors](../interfaces/IScriptResourceElementItem.md#resource_errors)
+[`IScriptResourceElementItem`](../interfaces/IScriptResourceElementItem.md).[`resource_errors`](../interfaces/IScriptResourceElementItem.md#resource_errors)
 
-#### Defined in
+#### Source
 
-main.ts:151912
+main.ts:151547
 
-___
+***
 
-### server
+### server?
 
-• `Optional` **server**: `string`
+> **`optional`** **server**: `string`
 
 server version
 
 #### Implementation of
 
-[IScriptResourceElementItem](../interfaces/IScriptResourceElementItem.md).[server](../interfaces/IScriptResourceElementItem.md#server)
+[`IScriptResourceElementItem`](../interfaces/IScriptResourceElementItem.md).[`server`](../interfaces/IScriptResourceElementItem.md#server)
 
-#### Defined in
+#### Source
 
-main.ts:151907
+main.ts:151558
 
-___
+***
 
-### size
+### size?
 
-• `Optional` **size**: `number`
+> **`optional`** **size**: `number`
 
 resource size
 indicates the size of a given resource measured in bytes
 
 #### Implementation of
 
-[IScriptResourceElementItem](../interfaces/IScriptResourceElementItem.md).[size](../interfaces/IScriptResourceElementItem.md#size)
+[`IScriptResourceElementItem`](../interfaces/IScriptResourceElementItem.md).[`size`](../interfaces/IScriptResourceElementItem.md#size)
 
-#### Defined in
+#### Source
 
-main.ts:151878
+main.ts:151527
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the page where a given resource is located
 
 #### Implementation of
 
-[IScriptResourceElementItem](../interfaces/IScriptResourceElementItem.md).[status_code](../interfaces/IScriptResourceElementItem.md#status_code)
+[`IScriptResourceElementItem`](../interfaces/IScriptResourceElementItem.md).[`status_code`](../interfaces/IScriptResourceElementItem.md#status_code)
 
-#### Defined in
+#### Source
 
-main.ts:151870
+main.ts:151519
 
-___
+***
 
-### total\_transfer\_size
+### total\_transfer\_size?
 
-• `Optional` **total\_transfer\_size**: `number`
+> **`optional`** **total\_transfer\_size**: `number`
 
 compressed resource size
 indicates the compressed size of a given resource in bytes
 
 #### Implementation of
 
-[IScriptResourceElementItem](../interfaces/IScriptResourceElementItem.md).[total_transfer_size](../interfaces/IScriptResourceElementItem.md#total_transfer_size)
+[`IScriptResourceElementItem`](../interfaces/IScriptResourceElementItem.md).[`total_transfer_size`](../interfaces/IScriptResourceElementItem.md#total_transfer_size)
 
-#### Defined in
+#### Source
 
-main.ts:151884
+main.ts:151533
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 resource URL
 
 #### Implementation of
 
-[IScriptResourceElementItem](../interfaces/IScriptResourceElementItem.md).[url](../interfaces/IScriptResourceElementItem.md#url)
+[`IScriptResourceElementItem`](../interfaces/IScriptResourceElementItem.md).[`url`](../interfaces/IScriptResourceElementItem.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:151875
+main.ts:151524
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -396,23 +361,21 @@ main.ts:151875
 
 #### Overrides
 
-[BaseOnPageResourceItemInfo](BaseOnPageResourceItemInfo.md).[init](BaseOnPageResourceItemInfo.md#init)
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`init`](BaseOnPageResourceItemInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:151921
+main.ts:151570
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -420,23 +383,21 @@ ___
 
 #### Overrides
 
-[BaseOnPageResourceItemInfo](BaseOnPageResourceItemInfo.md).[toJSON](BaseOnPageResourceItemInfo.md#tojson)
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`toJSON`](BaseOnPageResourceItemInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:151961
+main.ts:151610
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ScriptResourceElementItem`](ScriptResourceElementItem.md)
+> **`static`** **fromJS**(`data`): [`ScriptResourceElementItem`](ScriptResourceElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -444,8 +405,8 @@ ___
 
 #### Overrides
 
-[BaseOnPageResourceItemInfo](BaseOnPageResourceItemInfo.md).[fromJS](BaseOnPageResourceItemInfo.md#fromjs)
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`fromJS`](BaseOnPageResourceItemInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:151954
+main.ts:151603

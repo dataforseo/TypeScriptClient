@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / FormatsElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / FormatsElement
 
 # Class: FormatsElement
 
@@ -8,151 +12,125 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](FormatsElement.md#constructor)
-
-### Properties
-
-- [format](FormatsElement.md#format)
-- [size](FormatsElement.md#size)
-- [type](FormatsElement.md#type)
-
-### Methods
-
-- [init](FormatsElement.md#init)
-- [toJSON](FormatsElement.md#tojson)
-- [fromJS](FormatsElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new FormatsElement(data)
 
-• **new FormatsElement**(`data?`): [`FormatsElement`](FormatsElement.md)
+> **new FormatsElement**(`data`?): [`FormatsElement`](FormatsElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IFormatsElement`](../interfaces/IFormatsElement.md) |
+• **data?**: [`IFormatsElement`](../interfaces/IFormatsElement.md)
 
 #### Returns
 
 [`FormatsElement`](FormatsElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:52946
+main.ts:52954
 
 ## Properties
 
-### format
+### format?
 
-• `Optional` **format**: `string`
+> **`optional`** **format**: `string`
 
 type of file format of the dataset
 for example: zip, html, csv
 
 #### Implementation of
 
-[IFormatsElement](../interfaces/IFormatsElement.md).[format](../interfaces/IFormatsElement.md#format)
+[`IFormatsElement`](../interfaces/IFormatsElement.md).[`format`](../interfaces/IFormatsElement.md#format)
 
-#### Defined in
+#### Source
 
-main.ts:52940
+main.ts:52948
 
-___
+***
 
-### size
+### size?
 
-• `Optional` **size**: `string`
+> **`optional`** **size**: `string`
 
 file size in bytes
 
 #### Implementation of
 
-[IFormatsElement](../interfaces/IFormatsElement.md).[size](../interfaces/IFormatsElement.md#size)
+[`IFormatsElement`](../interfaces/IFormatsElement.md).[`size`](../interfaces/IFormatsElement.md#size)
 
-#### Defined in
+#### Source
 
-main.ts:52942
+main.ts:52950
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IFormatsElement](../interfaces/IFormatsElement.md).[type](../interfaces/IFormatsElement.md#type)
+[`IFormatsElement`](../interfaces/IFormatsElement.md).[`type`](../interfaces/IFormatsElement.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:52937
+main.ts:52945
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:52955
+main.ts:52963
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:52974
+main.ts:52982
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`FormatsElement`](FormatsElement.md)
+> **`static`** **fromJS**(`data`): [`FormatsElement`](FormatsElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`FormatsElement`](FormatsElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:52967
+main.ts:52975

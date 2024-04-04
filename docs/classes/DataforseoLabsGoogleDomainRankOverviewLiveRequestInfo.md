@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo
 
 # Class: DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo
 
@@ -8,57 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [ignore\_synonyms](DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md#ignore_synonyms)
-- [language\_code](DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md#language_code)
-- [language\_name](DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md#language_name)
-- [limit](DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md#limit)
-- [location\_code](DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md#location_code)
-- [location\_name](DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md#location_name)
-- [offset](DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md#offset)
-- [tag](DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md#tag)
-- [target](DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md#target)
-
-### Methods
-
-- [init](DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md#init)
-- [toJSON](DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md#tojson)
-- [fromJS](DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo(data)
 
-• **new DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo**(`data?`): [`DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo`](DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md)
+> **new DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo`](DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md) |
+• **data?**: [`IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo`](DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:92925
+main.ts:92933
 
 ## Properties
 
-### ignore\_synonyms
+### ignore\_synonyms?
 
-• `Optional` **ignore\_synonyms**: `boolean`
+> **`optional`** **ignore\_synonyms**: `boolean`
 
 ignore highly similar keywords
 optional field
@@ -67,17 +45,17 @@ default value: false
 
 #### Implementation of
 
-[IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md).[ignore_synonyms](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md#ignore_synonyms)
+[`IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md).[`ignore_synonyms`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md#ignore_synonyms)
 
-#### Defined in
+#### Source
 
-main.ts:92905
+main.ts:92913
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 optional field
@@ -90,17 +68,17 @@ en
 
 #### Implementation of
 
-[IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md).[language_code](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md#language_code)
+[`IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:92900
+main.ts:92908
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 optional field
@@ -113,17 +91,17 @@ English
 
 #### Implementation of
 
-[IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md).[language_name](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md#language_name)
+[`IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:92891
+main.ts:92899
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned results for domain
 optional field
@@ -132,17 +110,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md).[limit](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md#limit)
+[`IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md).[`limit`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md#limit)
 
-#### Defined in
+#### Source
 
-main.ts:92910
+main.ts:92918
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 optional field
@@ -155,17 +133,17 @@ example:
 
 #### Implementation of
 
-[IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md).[location_code](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md#location_code)
+[`IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:92882
+main.ts:92890
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 optional field
@@ -178,17 +156,17 @@ United Kingdom
 
 #### Implementation of
 
-[IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md).[location_name](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md#location_name)
+[`IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:92873
+main.ts:92881
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned items
 optional field
@@ -197,17 +175,17 @@ if you specify the 10 value, the first ten items in the results array will be om
 
 #### Implementation of
 
-[IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md).[offset](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md#offset)
+[`IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md).[`offset`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md#offset)
 
-#### Defined in
+#### Source
 
-main.ts:92915
+main.ts:92923
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -217,17 +195,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md).[tag](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md#tag)
+[`IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:92921
+main.ts:92929
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 domain
 required field
@@ -236,68 +214,62 @@ the domain should be specified without https:// and www.
 
 #### Implementation of
 
-[IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md).[target](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md#target)
+[`IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md).[`target`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md#target)
 
-#### Defined in
+#### Source
 
-main.ts:92864
+main.ts:92872
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:92934
+main.ts:92942
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:92959
+main.ts:92967
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo`](DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo`](DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo`](DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:92952
+main.ts:92960

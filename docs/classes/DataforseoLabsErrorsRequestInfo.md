@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsErrorsRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsErrorsRequestInfo
 
 # Class: DataforseoLabsErrorsRequestInfo
 
@@ -8,53 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsErrorsRequestInfo.md#constructor)
-
-### Properties
-
-- [datetime\_from](DataforseoLabsErrorsRequestInfo.md#datetime_from)
-- [datetime\_to](DataforseoLabsErrorsRequestInfo.md#datetime_to)
-- [filtered\_function](DataforseoLabsErrorsRequestInfo.md#filtered_function)
-- [limit](DataforseoLabsErrorsRequestInfo.md#limit)
-- [offset](DataforseoLabsErrorsRequestInfo.md#offset)
-
-### Methods
-
-- [init](DataforseoLabsErrorsRequestInfo.md#init)
-- [toJSON](DataforseoLabsErrorsRequestInfo.md#tojson)
-- [fromJS](DataforseoLabsErrorsRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsErrorsRequestInfo(data)
 
-• **new DataforseoLabsErrorsRequestInfo**(`data?`): [`DataforseoLabsErrorsRequestInfo`](DataforseoLabsErrorsRequestInfo.md)
+> **new DataforseoLabsErrorsRequestInfo**(`data`?): [`DataforseoLabsErrorsRequestInfo`](DataforseoLabsErrorsRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsErrorsRequestInfo`](../interfaces/IDataforseoLabsErrorsRequestInfo.md) |
+• **data?**: [`IDataforseoLabsErrorsRequestInfo`](../interfaces/IDataforseoLabsErrorsRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsErrorsRequestInfo`](DataforseoLabsErrorsRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:79409
+main.ts:79417
 
 ## Properties
 
-### datetime\_from
+### datetime\_from?
 
-• `Optional` **datetime\_from**: `string`
+> **`optional`** **datetime\_from**: `string`
 
 start time for filtering results
 optional field
@@ -65,17 +47,17 @@ example:
 
 #### Implementation of
 
-[IDataforseoLabsErrorsRequestInfo](../interfaces/IDataforseoLabsErrorsRequestInfo.md).[datetime_from](../interfaces/IDataforseoLabsErrorsRequestInfo.md#datetime_from)
+[`IDataforseoLabsErrorsRequestInfo`](../interfaces/IDataforseoLabsErrorsRequestInfo.md).[`datetime_from`](../interfaces/IDataforseoLabsErrorsRequestInfo.md#datetime_from)
 
-#### Defined in
+#### Source
 
-main.ts:79398
+main.ts:79406
 
-___
+***
 
-### datetime\_to
+### datetime\_to?
 
-• `Optional` **datetime\_to**: `string`
+> **`optional`** **datetime\_to**: `string`
 
 finish time for filtering results
 optional field
@@ -86,17 +68,17 @@ example:
 
 #### Implementation of
 
-[IDataforseoLabsErrorsRequestInfo](../interfaces/IDataforseoLabsErrorsRequestInfo.md).[datetime_to](../interfaces/IDataforseoLabsErrorsRequestInfo.md#datetime_to)
+[`IDataforseoLabsErrorsRequestInfo`](../interfaces/IDataforseoLabsErrorsRequestInfo.md).[`datetime_to`](../interfaces/IDataforseoLabsErrorsRequestInfo.md#datetime_to)
 
-#### Defined in
+#### Source
 
-main.ts:79405
+main.ts:79413
 
-___
+***
 
-### filtered\_function
+### filtered\_function?
 
-• `Optional` **filtered\_function**: `string`
+> **`optional`** **filtered\_function**: `string`
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -106,17 +88,17 @@ example: dataforseo_labs/related_keywords/live
 
 #### Implementation of
 
-[IDataforseoLabsErrorsRequestInfo](../interfaces/IDataforseoLabsErrorsRequestInfo.md).[filtered_function](../interfaces/IDataforseoLabsErrorsRequestInfo.md#filtered_function)
+[`IDataforseoLabsErrorsRequestInfo`](../interfaces/IDataforseoLabsErrorsRequestInfo.md).[`filtered_function`](../interfaces/IDataforseoLabsErrorsRequestInfo.md#filtered_function)
 
-#### Defined in
+#### Source
 
-main.ts:79391
+main.ts:79399
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -125,17 +107,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IDataforseoLabsErrorsRequestInfo](../interfaces/IDataforseoLabsErrorsRequestInfo.md).[limit](../interfaces/IDataforseoLabsErrorsRequestInfo.md#limit)
+[`IDataforseoLabsErrorsRequestInfo`](../interfaces/IDataforseoLabsErrorsRequestInfo.md).[`limit`](../interfaces/IDataforseoLabsErrorsRequestInfo.md#limit)
 
-#### Defined in
+#### Source
 
-main.ts:79380
+main.ts:79388
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned tasks
 optional field
@@ -144,68 +126,62 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Implementation of
 
-[IDataforseoLabsErrorsRequestInfo](../interfaces/IDataforseoLabsErrorsRequestInfo.md).[offset](../interfaces/IDataforseoLabsErrorsRequestInfo.md#offset)
+[`IDataforseoLabsErrorsRequestInfo`](../interfaces/IDataforseoLabsErrorsRequestInfo.md).[`offset`](../interfaces/IDataforseoLabsErrorsRequestInfo.md#offset)
 
-#### Defined in
+#### Source
 
-main.ts:79385
+main.ts:79393
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:79418
+main.ts:79426
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:79439
+main.ts:79447
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsErrorsRequestInfo`](DataforseoLabsErrorsRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsErrorsRequestInfo`](DataforseoLabsErrorsRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsErrorsRequestInfo`](DataforseoLabsErrorsRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:79432
+main.ts:79440

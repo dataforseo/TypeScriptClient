@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BacklinksInfo
 
 # Class: BacklinksInfo
 
@@ -8,135 +12,112 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BacklinksInfo.md#constructor)
-
-### Properties
-
-- [backlinks](BacklinksInfo.md#backlinks)
-- [dofollow](BacklinksInfo.md#dofollow)
-- [referring\_domains](BacklinksInfo.md#referring_domains)
-- [referring\_main\_domains](BacklinksInfo.md#referring_main_domains)
-- [referring\_pages](BacklinksInfo.md#referring_pages)
-- [time\_update](BacklinksInfo.md#time_update)
-
-### Methods
-
-- [init](BacklinksInfo.md#init)
-- [toJSON](BacklinksInfo.md#tojson)
-- [fromJS](BacklinksInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BacklinksInfo(data)
 
-• **new BacklinksInfo**(`data?`): [`BacklinksInfo`](BacklinksInfo.md)
+> **new BacklinksInfo**(`data`?): [`BacklinksInfo`](BacklinksInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBacklinksInfo`](../interfaces/IBacklinksInfo.md) |
+• **data?**: [`IBacklinksInfo`](../interfaces/IBacklinksInfo.md)
 
 #### Returns
 
 [`BacklinksInfo`](BacklinksInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:78381
+main.ts:78389
 
 ## Properties
 
-### backlinks
+### backlinks?
 
-• `Optional` **backlinks**: `number`
+> **`optional`** **backlinks**: `number`
 
 total number of backlinks
 the total number of backlinks, including dofollow and nofollow links
 
 #### Implementation of
 
-[IBacklinksInfo](../interfaces/IBacklinksInfo.md).[backlinks](../interfaces/IBacklinksInfo.md#backlinks)
+[`IBacklinksInfo`](../interfaces/IBacklinksInfo.md).[`backlinks`](../interfaces/IBacklinksInfo.md#backlinks)
 
-#### Defined in
+#### Source
 
-main.ts:78372
+main.ts:78380
 
-___
+***
 
-### dofollow
+### dofollow?
 
-• `Optional` **dofollow**: `number`
+> **`optional`** **dofollow**: `number`
 
 number of dofollow links
 
 #### Implementation of
 
-[IBacklinksInfo](../interfaces/IBacklinksInfo.md).[dofollow](../interfaces/IBacklinksInfo.md#dofollow)
+[`IBacklinksInfo`](../interfaces/IBacklinksInfo.md).[`dofollow`](../interfaces/IBacklinksInfo.md#dofollow)
 
-#### Defined in
+#### Source
 
-main.ts:78369
+main.ts:78377
 
-___
+***
 
-### referring\_domains
+### referring\_domains?
 
-• `Optional` **referring\_domains**: `number`
+> **`optional`** **referring\_domains**: `number`
 
 number of referring domains
 
 #### Implementation of
 
-[IBacklinksInfo](../interfaces/IBacklinksInfo.md).[referring_domains](../interfaces/IBacklinksInfo.md#referring_domains)
+[`IBacklinksInfo`](../interfaces/IBacklinksInfo.md).[`referring_domains`](../interfaces/IBacklinksInfo.md#referring_domains)
 
-#### Defined in
+#### Source
 
-main.ts:78363
+main.ts:78371
 
-___
+***
 
-### referring\_main\_domains
+### referring\_main\_domains?
 
-• `Optional` **referring\_main\_domains**: `number`
+> **`optional`** **referring\_main\_domains**: `number`
 
 number of referring main domains
 
 #### Implementation of
 
-[IBacklinksInfo](../interfaces/IBacklinksInfo.md).[referring_main_domains](../interfaces/IBacklinksInfo.md#referring_main_domains)
+[`IBacklinksInfo`](../interfaces/IBacklinksInfo.md).[`referring_main_domains`](../interfaces/IBacklinksInfo.md#referring_main_domains)
 
-#### Defined in
+#### Source
 
-main.ts:78365
+main.ts:78373
 
-___
+***
 
-### referring\_pages
+### referring\_pages?
 
-• `Optional` **referring\_pages**: `number`
+> **`optional`** **referring\_pages**: `number`
 
 number of referring pages
 
 #### Implementation of
 
-[IBacklinksInfo](../interfaces/IBacklinksInfo.md).[referring_pages](../interfaces/IBacklinksInfo.md#referring_pages)
+[`IBacklinksInfo`](../interfaces/IBacklinksInfo.md).[`referring_pages`](../interfaces/IBacklinksInfo.md#referring_pages)
 
-#### Defined in
+#### Source
 
-main.ts:78367
+main.ts:78375
 
-___
+***
 
-### time\_update
+### time\_update?
 
-• `Optional` **time\_update**: `string`
+> **`optional`** **time\_update**: `string`
 
 date and time when backlink data was updated
 in the UTC format: "yyyy-mm-dd hh-mm-ss +00:00"
@@ -145,68 +126,62 @@ example:
 
 #### Implementation of
 
-[IBacklinksInfo](../interfaces/IBacklinksInfo.md).[time_update](../interfaces/IBacklinksInfo.md#time_update)
+[`IBacklinksInfo`](../interfaces/IBacklinksInfo.md).[`time_update`](../interfaces/IBacklinksInfo.md#time_update)
 
-#### Defined in
+#### Source
 
-main.ts:78377
+main.ts:78385
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:78390
+main.ts:78398
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:78412
+main.ts:78420
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BacklinksInfo`](BacklinksInfo.md)
+> **`static`** **fromJS**(`data`): [`BacklinksInfo`](BacklinksInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BacklinksInfo`](BacklinksInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:78405
+main.ts:78413

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleOrganicTaskGetHtmlResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleOrganicTaskGetHtmlResultInfo
 
 # Class: SerpGoogleOrganicTaskGetHtmlResultInfo
 
@@ -8,56 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleOrganicTaskGetHtmlResultInfo.md#constructor)
-
-### Properties
-
-- [datetime](SerpGoogleOrganicTaskGetHtmlResultInfo.md#datetime)
-- [items](SerpGoogleOrganicTaskGetHtmlResultInfo.md#items)
-- [items\_count](SerpGoogleOrganicTaskGetHtmlResultInfo.md#items_count)
-- [keyword](SerpGoogleOrganicTaskGetHtmlResultInfo.md#keyword)
-- [language\_code](SerpGoogleOrganicTaskGetHtmlResultInfo.md#language_code)
-- [location\_code](SerpGoogleOrganicTaskGetHtmlResultInfo.md#location_code)
-- [se\_domain](SerpGoogleOrganicTaskGetHtmlResultInfo.md#se_domain)
-- [type](SerpGoogleOrganicTaskGetHtmlResultInfo.md#type)
-
-### Methods
-
-- [init](SerpGoogleOrganicTaskGetHtmlResultInfo.md#init)
-- [toJSON](SerpGoogleOrganicTaskGetHtmlResultInfo.md#tojson)
-- [fromJS](SerpGoogleOrganicTaskGetHtmlResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleOrganicTaskGetHtmlResultInfo(data)
 
-• **new SerpGoogleOrganicTaskGetHtmlResultInfo**(`data?`): [`SerpGoogleOrganicTaskGetHtmlResultInfo`](SerpGoogleOrganicTaskGetHtmlResultInfo.md)
+> **new SerpGoogleOrganicTaskGetHtmlResultInfo**(`data`?): [`SerpGoogleOrganicTaskGetHtmlResultInfo`](SerpGoogleOrganicTaskGetHtmlResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md) |
+• **data?**: [`ISerpGoogleOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md)
 
 #### Returns
 
 [`SerpGoogleOrganicTaskGetHtmlResultInfo`](SerpGoogleOrganicTaskGetHtmlResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:37123
+main.ts:37129
 
 ## Properties
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -66,181 +45,175 @@ example:
 
 #### Implementation of
 
-[ISerpGoogleOrganicTaskGetHtmlResultInfo](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md).[datetime](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md#datetime)
+[`ISerpGoogleOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md).[`datetime`](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
-main.ts:37115
+main.ts:37121
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`HtmlItem`](HtmlItem.md)[]
+> **`optional`** **items**: [`HtmlItem`](HtmlItem.md)[]
 
 elements of search results found in SERP
 
 #### Implementation of
 
-[ISerpGoogleOrganicTaskGetHtmlResultInfo](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md).[items](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md#items)
+[`ISerpGoogleOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md).[`items`](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:37119
+main.ts:37125
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[ISerpGoogleOrganicTaskGetHtmlResultInfo](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md).[items_count](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md#items_count)
+[`ISerpGoogleOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md).[`items_count`](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:37117
+main.ts:37123
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
-[ISerpGoogleOrganicTaskGetHtmlResultInfo](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md).[keyword](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md#keyword)
+[`ISerpGoogleOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md).[`keyword`](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:37102
+main.ts:37108
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[ISerpGoogleOrganicTaskGetHtmlResultInfo](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md).[language_code](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md#language_code)
+[`ISerpGoogleOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md).[`language_code`](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:37110
+main.ts:37116
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[ISerpGoogleOrganicTaskGetHtmlResultInfo](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md).[location_code](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md#location_code)
+[`ISerpGoogleOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md).[`location_code`](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:37108
+main.ts:37114
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
 #### Implementation of
 
-[ISerpGoogleOrganicTaskGetHtmlResultInfo](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md).[se_domain](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md#se_domain)
+[`ISerpGoogleOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md).[`se_domain`](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md#se_domain)
 
-#### Defined in
+#### Source
 
-main.ts:37106
+main.ts:37112
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[ISerpGoogleOrganicTaskGetHtmlResultInfo](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md).[type](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md#type)
+[`ISerpGoogleOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md).[`type`](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:37104
+main.ts:37110
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:37132
+main.ts:37138
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:37160
+main.ts:37166
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleOrganicTaskGetHtmlResultInfo`](SerpGoogleOrganicTaskGetHtmlResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleOrganicTaskGetHtmlResultInfo`](SerpGoogleOrganicTaskGetHtmlResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpGoogleOrganicTaskGetHtmlResultInfo`](SerpGoogleOrganicTaskGetHtmlResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:37153
+main.ts:37159

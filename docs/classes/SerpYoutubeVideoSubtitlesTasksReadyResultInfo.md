@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoSubtitlesTasksReadyResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpYoutubeVideoSubtitlesTasksReadyResultInfo
 
 # Class: SerpYoutubeVideoSubtitlesTasksReadyResultInfo
 
@@ -8,240 +12,209 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpYoutubeVideoSubtitlesTasksReadyResultInfo.md#constructor)
-
-### Properties
-
-- [date\_posted](SerpYoutubeVideoSubtitlesTasksReadyResultInfo.md#date_posted)
-- [endpoint\_advanced](SerpYoutubeVideoSubtitlesTasksReadyResultInfo.md#endpoint_advanced)
-- [endpoint\_html](SerpYoutubeVideoSubtitlesTasksReadyResultInfo.md#endpoint_html)
-- [endpoint\_regular](SerpYoutubeVideoSubtitlesTasksReadyResultInfo.md#endpoint_regular)
-- [id](SerpYoutubeVideoSubtitlesTasksReadyResultInfo.md#id)
-- [se](SerpYoutubeVideoSubtitlesTasksReadyResultInfo.md#se)
-- [se\_type](SerpYoutubeVideoSubtitlesTasksReadyResultInfo.md#se_type)
-- [tag](SerpYoutubeVideoSubtitlesTasksReadyResultInfo.md#tag)
-
-### Methods
-
-- [init](SerpYoutubeVideoSubtitlesTasksReadyResultInfo.md#init)
-- [toJSON](SerpYoutubeVideoSubtitlesTasksReadyResultInfo.md#tojson)
-- [fromJS](SerpYoutubeVideoSubtitlesTasksReadyResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpYoutubeVideoSubtitlesTasksReadyResultInfo(data)
 
-• **new SerpYoutubeVideoSubtitlesTasksReadyResultInfo**(`data?`): [`SerpYoutubeVideoSubtitlesTasksReadyResultInfo`](SerpYoutubeVideoSubtitlesTasksReadyResultInfo.md)
+> **new SerpYoutubeVideoSubtitlesTasksReadyResultInfo**(`data`?): [`SerpYoutubeVideoSubtitlesTasksReadyResultInfo`](SerpYoutubeVideoSubtitlesTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpYoutubeVideoSubtitlesTasksReadyResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTasksReadyResultInfo.md) |
+• **data?**: [`ISerpYoutubeVideoSubtitlesTasksReadyResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTasksReadyResultInfo.md)
 
 #### Returns
 
 [`SerpYoutubeVideoSubtitlesTasksReadyResultInfo`](SerpYoutubeVideoSubtitlesTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:62194
+main.ts:62202
 
 ## Properties
 
-### date\_posted
+### date\_posted?
 
-• `Optional` **date\_posted**: `string`
+> **`optional`** **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTasksReadyResultInfo](../interfaces/ISerpYoutubeVideoSubtitlesTasksReadyResultInfo.md).[date_posted](../interfaces/ISerpYoutubeVideoSubtitlesTasksReadyResultInfo.md#date_posted)
+[`ISerpYoutubeVideoSubtitlesTasksReadyResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTasksReadyResultInfo.md).[`date_posted`](../interfaces/ISerpYoutubeVideoSubtitlesTasksReadyResultInfo.md#date_posted)
 
-#### Defined in
+#### Source
 
-main.ts:62179
+main.ts:62187
 
-___
+***
 
-### endpoint\_advanced
+### endpoint\_advanced?
 
-• `Optional` **endpoint\_advanced**: `string`
+> **`optional`** **endpoint\_advanced**: `string`
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTasksReadyResultInfo](../interfaces/ISerpYoutubeVideoSubtitlesTasksReadyResultInfo.md).[endpoint_advanced](../interfaces/ISerpYoutubeVideoSubtitlesTasksReadyResultInfo.md#endpoint_advanced)
+[`ISerpYoutubeVideoSubtitlesTasksReadyResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTasksReadyResultInfo.md).[`endpoint_advanced`](../interfaces/ISerpYoutubeVideoSubtitlesTasksReadyResultInfo.md#endpoint_advanced)
 
-#### Defined in
+#### Source
 
-main.ts:62187
+main.ts:62195
 
-___
+***
 
-### endpoint\_html
+### endpoint\_html?
 
-• `Optional` **endpoint\_html**: `string`
+> **`optional`** **endpoint\_html**: `string`
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTasksReadyResultInfo](../interfaces/ISerpYoutubeVideoSubtitlesTasksReadyResultInfo.md).[endpoint_html](../interfaces/ISerpYoutubeVideoSubtitlesTasksReadyResultInfo.md#endpoint_html)
+[`ISerpYoutubeVideoSubtitlesTasksReadyResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTasksReadyResultInfo.md).[`endpoint_html`](../interfaces/ISerpYoutubeVideoSubtitlesTasksReadyResultInfo.md#endpoint_html)
 
-#### Defined in
+#### Source
 
-main.ts:62190
+main.ts:62198
 
-___
+***
 
-### endpoint\_regular
+### endpoint\_regular?
 
-• `Optional` **endpoint\_regular**: `string`
+> **`optional`** **endpoint\_regular**: `string`
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTasksReadyResultInfo](../interfaces/ISerpYoutubeVideoSubtitlesTasksReadyResultInfo.md).[endpoint_regular](../interfaces/ISerpYoutubeVideoSubtitlesTasksReadyResultInfo.md#endpoint_regular)
+[`ISerpYoutubeVideoSubtitlesTasksReadyResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTasksReadyResultInfo.md).[`endpoint_regular`](../interfaces/ISerpYoutubeVideoSubtitlesTasksReadyResultInfo.md#endpoint_regular)
 
-#### Defined in
+#### Source
 
-main.ts:62184
+main.ts:62192
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTasksReadyResultInfo](../interfaces/ISerpYoutubeVideoSubtitlesTasksReadyResultInfo.md).[id](../interfaces/ISerpYoutubeVideoSubtitlesTasksReadyResultInfo.md#id)
+[`ISerpYoutubeVideoSubtitlesTasksReadyResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTasksReadyResultInfo.md).[`id`](../interfaces/ISerpYoutubeVideoSubtitlesTasksReadyResultInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:62172
+main.ts:62180
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTasksReadyResultInfo](../interfaces/ISerpYoutubeVideoSubtitlesTasksReadyResultInfo.md).[se](../interfaces/ISerpYoutubeVideoSubtitlesTasksReadyResultInfo.md#se)
+[`ISerpYoutubeVideoSubtitlesTasksReadyResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTasksReadyResultInfo.md).[`se`](../interfaces/ISerpYoutubeVideoSubtitlesTasksReadyResultInfo.md#se)
 
-#### Defined in
+#### Source
 
-main.ts:62174
+main.ts:62182
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 type of search engine
 can take the following values: video_subtitles
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTasksReadyResultInfo](../interfaces/ISerpYoutubeVideoSubtitlesTasksReadyResultInfo.md).[se_type](../interfaces/ISerpYoutubeVideoSubtitlesTasksReadyResultInfo.md#se_type)
+[`ISerpYoutubeVideoSubtitlesTasksReadyResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTasksReadyResultInfo.md).[`se_type`](../interfaces/ISerpYoutubeVideoSubtitlesTasksReadyResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:62177
+main.ts:62185
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTasksReadyResultInfo](../interfaces/ISerpYoutubeVideoSubtitlesTasksReadyResultInfo.md).[tag](../interfaces/ISerpYoutubeVideoSubtitlesTasksReadyResultInfo.md#tag)
+[`ISerpYoutubeVideoSubtitlesTasksReadyResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTasksReadyResultInfo.md).[`tag`](../interfaces/ISerpYoutubeVideoSubtitlesTasksReadyResultInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:62181
+main.ts:62189
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:62203
+main.ts:62211
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:62227
+main.ts:62235
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpYoutubeVideoSubtitlesTasksReadyResultInfo`](SerpYoutubeVideoSubtitlesTasksReadyResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpYoutubeVideoSubtitlesTasksReadyResultInfo`](SerpYoutubeVideoSubtitlesTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpYoutubeVideoSubtitlesTasksReadyResultInfo`](SerpYoutubeVideoSubtitlesTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:62220
+main.ts:62228

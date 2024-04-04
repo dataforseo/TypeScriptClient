@@ -1,41 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataTripadvisorReviewsTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBusinessDataTripadvisorReviewsTaskPostRequestInfo
 
 # Interface: IBusinessDataTripadvisorReviewsTaskPostRequestInfo
 
-## Implemented by
-
-- [`BusinessDataTripadvisorReviewsTaskPostRequestInfo`](../classes/BusinessDataTripadvisorReviewsTaskPostRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [depth](IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#depth)
-- [keyword](IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#keyword)
-- [language\_code](IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#language_code)
-- [language\_name](IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#language_name)
-- [location\_code](IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#location_code)
-- [location\_name](IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#location_name)
-- [months](IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#months)
-- [pingback\_url](IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#pingback_url)
-- [postback\_url](IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#postback_url)
-- [priority](IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#priority)
-- [ratings](IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#ratings)
-- [search\_reviews\_keyword](IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#search_reviews_keyword)
-- [sort\_by](IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#sort_by)
-- [tag](IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#tag)
-- [url\_path](IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#url_path)
-- [visit\_type](IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#visit_type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### depth
+### depth?
 
-• `Optional` **depth**: `number`
+> **`optional`** **depth**: `number`
 
 parsing depth
 optional field
@@ -43,15 +22,15 @@ number of reviews in SERP
 we strongly recommend setting the parsing depth in the multiples of ten, because our systems processes ten reviews in a row
 default value: 10
 
-#### Defined in
+#### Source
 
 main.ts:207445
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword
 required field if you do not specify url_path
@@ -60,15 +39,15 @@ you can specify up to 700 symbols in the keyword filed;
 all %## will be decoded (plus symbol ‘+’ will be decoded to a space character);
 if you need to use the “%” symbol for your keyword, please specify it as “%25”
 
-#### Defined in
+#### Source
 
 main.ts:207401
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 optional field
@@ -79,15 +58,15 @@ en
 You will be additionally charged for setting a language parameter in this endpoint.
 The cost can be calculated on the Pricing page.
 
-#### Defined in
+#### Source
 
 main.ts:207439
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -98,15 +77,15 @@ English
 You will be additionally charged for setting a language parameter in this endpoint.
 The cost can be calculated on the Pricing page.
 
-#### Defined in
+#### Source
 
 main.ts:207430
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name or url_path
@@ -114,15 +93,15 @@ you can receive the list of available locations with location_code by making a s
 example:
 1003854
 
-#### Defined in
+#### Source
 
 main.ts:207413
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code or url_path
@@ -130,30 +109,30 @@ you can receive the list of available locations with location_name by making a s
 example:
 London,England,United Kingdom
 
-#### Defined in
+#### Source
 
 main.ts:207407
 
-___
+***
 
-### months
+### months?
 
-• `Optional` **months**: `string`[]
+> **`optional`** **months**: `string`[]
 
 filter by months when a traveler made a visit
 optional field
 possible values: january, february, march, april, may, april, june, july, august, september, october, november, december
 you can specify several values at once
 
-#### Defined in
+#### Source
 
 main.ts:207461
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -165,15 +144,15 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special symbols in pingback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
 main.ts:207498
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -185,15 +164,15 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special symbols in postback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
 main.ts:207488
 
-___
+***
 
-### priority
+### priority?
 
-• `Optional` **priority**: `number`
+> **`optional`** **priority**: `number`
 
 task priority
 optional field
@@ -203,15 +182,15 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page.
 
-#### Defined in
+#### Source
 
 main.ts:207421
 
-___
+***
 
-### ratings
+### ratings?
 
-• `Optional` **ratings**: `string`[]
+> **`optional`** **ratings**: `string`[]
 
 Tripadvisor traveler rating for a place of interest
 optional field
@@ -219,29 +198,29 @@ rating based on the written reviews by a traveler after they visited a place.
 possible values: excellent, very_good, average, poor, terrible
 you can specify several values at once
 
-#### Defined in
+#### Source
 
 main.ts:207451
 
-___
+***
 
-### search\_reviews\_keyword
+### search\_reviews\_keyword?
 
-• `Optional` **search\_reviews\_keyword**: `string`
+> **`optional`** **search\_reviews\_keyword**: `string`
 
 search reviews containing a specified keyword
 example:
 dessert
 
-#### Defined in
+#### Source
 
 main.ts:207465
 
-___
+***
 
-### sort\_by
+### sort\_by?
 
-• `Optional` **sort\_by**: `string`
+> **`optional`** **sort\_by**: `string`
 
 results sorting parameters
 optional field
@@ -250,15 +229,15 @@ possible types of sorting:
 most_recent
 detailed_reviews
 
-#### Defined in
+#### Source
 
 main.ts:207472
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -266,15 +245,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
 main.ts:207478
 
-___
+***
 
-### url\_path
+### url\_path?
 
-• `Optional` **url\_path**: `string`
+> **`optional`** **url\_path**: `string`
 
 URL path of the business entity
 required field if you do not specify keyword
@@ -284,21 +263,21 @@ example:
 Hotel_Review-g60763-d23462501-Reviews-Margaritaville_Times_Square-New_York_City_New_York.html
 https://www.tripadvisor.com/Hotel_Review-g60763-d23462501-Reviews-Margaritaville_Times_Square-New_York_City_New_York.html
 
-#### Defined in
+#### Source
 
 main.ts:207394
 
-___
+***
 
-### visit\_type
+### visit\_type?
 
-• `Optional` **visit\_type**: `string`[]
+> **`optional`** **visit\_type**: `string`[]
 
 filter by type of travelers who left a review
 optional field
 possible values: families, couples, solo, business, friends
 you can specify several values at once
 
-#### Defined in
+#### Source
 
 main.ts:207456

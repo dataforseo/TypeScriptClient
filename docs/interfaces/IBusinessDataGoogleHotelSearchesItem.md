@@ -1,138 +1,124 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleHotelSearchesItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBusinessDataGoogleHotelSearchesItem
 
 # Interface: IBusinessDataGoogleHotelSearchesItem
 
-## Implemented by
-
-- [`BusinessDataGoogleHotelSearchesItem`](../classes/BusinessDataGoogleHotelSearchesItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [hotel\_identifier](IBusinessDataGoogleHotelSearchesItem.md#hotel_identifier)
-- [is\_paid](IBusinessDataGoogleHotelSearchesItem.md#is_paid)
-- [location](IBusinessDataGoogleHotelSearchesItem.md#location)
-- [overview\_images](IBusinessDataGoogleHotelSearchesItem.md#overview_images)
-- [prices](IBusinessDataGoogleHotelSearchesItem.md#prices)
-- [reviews](IBusinessDataGoogleHotelSearchesItem.md#reviews)
-- [stars](IBusinessDataGoogleHotelSearchesItem.md#stars)
-- [title](IBusinessDataGoogleHotelSearchesItem.md#title)
-- [type](IBusinessDataGoogleHotelSearchesItem.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### hotel\_identifier
+### hotel\_identifier?
 
-• `Optional` **hotel\_identifier**: `string`
+> **`optional`** **hotel\_identifier**: `string`
 
 unique identifier of a hotel entity in Google search
 example:
 CgoI-KWyzenM_MV3EAE
 
-#### Defined in
+#### Source
 
 main.ts:199359
 
-___
+***
 
-### is\_paid
+### is\_paid?
 
-• `Optional` **is\_paid**: `boolean`
+> **`optional`** **is\_paid**: `boolean`
 
 indicates a paid hotel listing
 if true, related hotel_search_item is a paid ad
 if false, related hotel_search_item is an organic hotel listing
 
-#### Defined in
+#### Source
 
 main.ts:199368
 
-___
+***
 
-### location
+### location?
 
-• `Optional` **location**: [`GpsCoordinatesLocationInfo`](../classes/GpsCoordinatesLocationInfo.md)
+> **`optional`** **location**: [`GpsCoordinatesLocationInfo`](../classes/GpsCoordinatesLocationInfo.md)
 
 GPS coordinates of the hotel’s location
 
-#### Defined in
+#### Source
 
 main.ts:199370
 
-___
+***
 
-### overview\_images
+### overview\_images?
 
-• `Optional` **overview\_images**: `string`[]
+> **`optional`** **overview\_images**: `string`[]
 
 featured images for a hotel
 
-#### Defined in
+#### Source
 
 main.ts:199374
 
-___
+***
 
-### prices
+### prices?
 
-• `Optional` **prices**: [`HotelPriceInfo`](../classes/HotelPriceInfo.md)
+> **`optional`** **prices**: [`HotelPriceInfo`](../classes/HotelPriceInfo.md)
 
 hotel price
 
-#### Defined in
+#### Source
 
 main.ts:199376
 
-___
+***
 
-### reviews
+### reviews?
 
-• `Optional` **reviews**: [`HotelReviewInfo`](../classes/HotelReviewInfo.md)
+> **`optional`** **reviews**: [`HotelReviewInfo`](../classes/HotelReviewInfo.md)
 
 hotel reviews and rating information
 
-#### Defined in
+#### Source
 
 main.ts:199372
 
-___
+***
 
-### stars
+### stars?
 
-• `Optional` **stars**: `number`
+> **`optional`** **stars**: `number`
 
 hotel class rating
 class rating that ranges between 1-5 stars
 
-#### Defined in
+#### Source
 
 main.ts:199364
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the hotel
 
-#### Defined in
+#### Source
 
 main.ts:199361
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
 main.ts:199355

@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MerchantGoogleProductInfoTasksReadyResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / MerchantGoogleProductInfoTasksReadyResponseInfo
 
 # Class: MerchantGoogleProductInfoTasksReadyResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`MerchantGoogleProductInfoTasksReadyResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](MerchantGoogleProductInfoTasksReadyResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](MerchantGoogleProductInfoTasksReadyResponseInfo.md#cost)
-- [status\_code](MerchantGoogleProductInfoTasksReadyResponseInfo.md#status_code)
-- [status\_message](MerchantGoogleProductInfoTasksReadyResponseInfo.md#status_message)
-- [tasks](MerchantGoogleProductInfoTasksReadyResponseInfo.md#tasks)
-- [tasks\_count](MerchantGoogleProductInfoTasksReadyResponseInfo.md#tasks_count)
-- [tasks\_error](MerchantGoogleProductInfoTasksReadyResponseInfo.md#tasks_error)
-- [time](MerchantGoogleProductInfoTasksReadyResponseInfo.md#time)
-- [version](MerchantGoogleProductInfoTasksReadyResponseInfo.md#version)
-
-### Methods
-
-- [init](MerchantGoogleProductInfoTasksReadyResponseInfo.md#init)
-- [toJSON](MerchantGoogleProductInfoTasksReadyResponseInfo.md#tojson)
-- [fromJS](MerchantGoogleProductInfoTasksReadyResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new MerchantGoogleProductInfoTasksReadyResponseInfo(data)
 
-• **new MerchantGoogleProductInfoTasksReadyResponseInfo**(`data?`): [`MerchantGoogleProductInfoTasksReadyResponseInfo`](MerchantGoogleProductInfoTasksReadyResponseInfo.md)
+> **new MerchantGoogleProductInfoTasksReadyResponseInfo**(`data`?): [`MerchantGoogleProductInfoTasksReadyResponseInfo`](MerchantGoogleProductInfoTasksReadyResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IMerchantGoogleProductInfoTasksReadyResponseInfo`](../interfaces/IMerchantGoogleProductInfoTasksReadyResponseInfo.md) |
+• **data?**: [`IMerchantGoogleProductInfoTasksReadyResponseInfo`](../interfaces/IMerchantGoogleProductInfoTasksReadyResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:174381
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IMerchantGoogleProductInfoTasksReadyResponseInfo](../interfaces/IMerchantGoogleProductInfoTasksReadyResponseInfo.md).[cost](../interfaces/IMerchantGoogleProductInfoTasksReadyResponseInfo.md#cost)
+[`IMerchantGoogleProductInfoTasksReadyResponseInfo`](../interfaces/IMerchantGoogleProductInfoTasksReadyResponseInfo.md).[`cost`](../interfaces/IMerchantGoogleProductInfoTasksReadyResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[IMerchantGoogleProductInfoTasksReadyResponseInfo](../interfaces/IMerchantGoogleProductInfoTasksReadyResponseInfo.md).[status_code](../interfaces/IMerchantGoogleProductInfoTasksReadyResponseInfo.md#status_code)
+[`IMerchantGoogleProductInfoTasksReadyResponseInfo`](../interfaces/IMerchantGoogleProductInfoTasksReadyResponseInfo.md).[`status_code`](../interfaces/IMerchantGoogleProductInfoTasksReadyResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IMerchantGoogleProductInfoTasksReadyResponseInfo](../interfaces/IMerchantGoogleProductInfoTasksReadyResponseInfo.md).[status_message](../interfaces/IMerchantGoogleProductInfoTasksReadyResponseInfo.md#status_message)
+[`IMerchantGoogleProductInfoTasksReadyResponseInfo`](../interfaces/IMerchantGoogleProductInfoTasksReadyResponseInfo.md).[`status_message`](../interfaces/IMerchantGoogleProductInfoTasksReadyResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`MerchantGoogleProductInfoTasksReadyTaskInfo`](MerchantGoogleProductInfoTasksReadyTaskInfo.md)[]
+> **`optional`** **tasks**: [`MerchantGoogleProductInfoTasksReadyTaskInfo`](MerchantGoogleProductInfoTasksReadyTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[IMerchantGoogleProductInfoTasksReadyResponseInfo](../interfaces/IMerchantGoogleProductInfoTasksReadyResponseInfo.md).[tasks](../interfaces/IMerchantGoogleProductInfoTasksReadyResponseInfo.md#tasks)
+[`IMerchantGoogleProductInfoTasksReadyResponseInfo`](../interfaces/IMerchantGoogleProductInfoTasksReadyResponseInfo.md).[`tasks`](../interfaces/IMerchantGoogleProductInfoTasksReadyResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
 main.ts:174377
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[IMerchantGoogleProductInfoTasksReadyResponseInfo](../interfaces/IMerchantGoogleProductInfoTasksReadyResponseInfo.md).[tasks_count](../interfaces/IMerchantGoogleProductInfoTasksReadyResponseInfo.md#tasks_count)
+[`IMerchantGoogleProductInfoTasksReadyResponseInfo`](../interfaces/IMerchantGoogleProductInfoTasksReadyResponseInfo.md).[`tasks_count`](../interfaces/IMerchantGoogleProductInfoTasksReadyResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[IMerchantGoogleProductInfoTasksReadyResponseInfo](../interfaces/IMerchantGoogleProductInfoTasksReadyResponseInfo.md).[tasks_error](../interfaces/IMerchantGoogleProductInfoTasksReadyResponseInfo.md#tasks_error)
+[`IMerchantGoogleProductInfoTasksReadyResponseInfo`](../interfaces/IMerchantGoogleProductInfoTasksReadyResponseInfo.md).[`tasks_error`](../interfaces/IMerchantGoogleProductInfoTasksReadyResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[IMerchantGoogleProductInfoTasksReadyResponseInfo](../interfaces/IMerchantGoogleProductInfoTasksReadyResponseInfo.md).[time](../interfaces/IMerchantGoogleProductInfoTasksReadyResponseInfo.md#time)
+[`IMerchantGoogleProductInfoTasksReadyResponseInfo`](../interfaces/IMerchantGoogleProductInfoTasksReadyResponseInfo.md).[`time`](../interfaces/IMerchantGoogleProductInfoTasksReadyResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[IMerchantGoogleProductInfoTasksReadyResponseInfo](../interfaces/IMerchantGoogleProductInfoTasksReadyResponseInfo.md).[version](../interfaces/IMerchantGoogleProductInfoTasksReadyResponseInfo.md#version)
+[`IMerchantGoogleProductInfoTasksReadyResponseInfo`](../interfaces/IMerchantGoogleProductInfoTasksReadyResponseInfo.md).[`version`](../interfaces/IMerchantGoogleProductInfoTasksReadyResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:174385
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:174407
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`MerchantGoogleProductInfoTasksReadyResponseInfo`](MerchantGoogleProductInfoTasksReadyResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`MerchantGoogleProductInfoTasksReadyResponseInfo`](MerchantGoogleProductInfoTasksReadyResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:174400

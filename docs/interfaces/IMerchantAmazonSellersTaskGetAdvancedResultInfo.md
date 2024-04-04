@@ -1,182 +1,165 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMerchantAmazonSellersTaskGetAdvancedResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IMerchantAmazonSellersTaskGetAdvancedResultInfo
 
 # Interface: IMerchantAmazonSellersTaskGetAdvancedResultInfo
 
-## Implemented by
-
-- [`MerchantAmazonSellersTaskGetAdvancedResultInfo`](../classes/MerchantAmazonSellersTaskGetAdvancedResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [asin](IMerchantAmazonSellersTaskGetAdvancedResultInfo.md#asin)
-- [check\_url](IMerchantAmazonSellersTaskGetAdvancedResultInfo.md#check_url)
-- [datetime](IMerchantAmazonSellersTaskGetAdvancedResultInfo.md#datetime)
-- [image](IMerchantAmazonSellersTaskGetAdvancedResultInfo.md#image)
-- [item\_types](IMerchantAmazonSellersTaskGetAdvancedResultInfo.md#item_types)
-- [items](IMerchantAmazonSellersTaskGetAdvancedResultInfo.md#items)
-- [items\_count](IMerchantAmazonSellersTaskGetAdvancedResultInfo.md#items_count)
-- [language\_code](IMerchantAmazonSellersTaskGetAdvancedResultInfo.md#language_code)
-- [location\_code](IMerchantAmazonSellersTaskGetAdvancedResultInfo.md#location_code)
-- [se\_domain](IMerchantAmazonSellersTaskGetAdvancedResultInfo.md#se_domain)
-- [title](IMerchantAmazonSellersTaskGetAdvancedResultInfo.md#title)
-- [type](IMerchantAmazonSellersTaskGetAdvancedResultInfo.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### asin
+### asin?
 
-• `Optional` **asin**: `string`
+> **`optional`** **asin**: `string`
 
 asin received in a POST array
 learn more about ASINs in this help center guide
 
-#### Defined in
+#### Source
 
 main.ts:179945
 
-___
+***
 
-### check\_url
+### check\_url?
 
-• `Optional` **check\_url**: `string`
+> **`optional`** **check\_url**: `string`
 
 direct URL to Amazon results
 you can use it to make sure the provided results are accurate
 
-#### Defined in
+#### Source
 
 main.ts:179956
 
-___
+***
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
 main.ts:179961
 
-___
+***
 
-### image
+### image?
 
-• `Optional` **image**: `string`
+> **`optional`** **image**: `string`
 
 product image url
 image URL of the product relevant to the asin received in a POST array
 
-#### Defined in
+#### Source
 
 main.ts:179967
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 types of search results found in Amazon Sellers SERP
 contains types of all search results (items) found in the returned SERP
 possible item types:
 amazon_seller_main_item, amazon_seller_item
 
-#### Defined in
+#### Source
 
 main.ts:179972
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseAmazonSerpElementItem`](../classes/BaseAmazonSerpElementItem.md)[]
+> **`optional`** **items**: [`BaseAmazonSerpElementItem`](../classes/BaseAmazonSerpElementItem.md)[]
 
 items in SERP
 
-#### Defined in
+#### Source
 
 main.ts:179976
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Defined in
+#### Source
 
 main.ts:179974
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code received in a POST array
 
-#### Defined in
+#### Source
 
 main.ts:179953
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code received in a POST array
 
-#### Defined in
+#### Source
 
 main.ts:179951
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain received in a POST array
 
-#### Defined in
+#### Source
 
 main.ts:179949
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 product title
 title of the product relevant to the asin received in a POST array
 
-#### Defined in
+#### Source
 
 main.ts:179964
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
 main.ts:179947

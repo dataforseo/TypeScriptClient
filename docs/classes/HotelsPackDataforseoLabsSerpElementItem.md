@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / HotelsPackDataforseoLabsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / HotelsPackDataforseoLabsSerpElementItem
 
 # Class: HotelsPackDataforseoLabsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
-
-  ↳ **`HotelsPackDataforseoLabsSerpElementItem`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](HotelsPackDataforseoLabsSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](HotelsPackDataforseoLabsSerpElementItem.md#_discriminator)
-- [date\_from](HotelsPackDataforseoLabsSerpElementItem.md#date_from)
-- [date\_to](HotelsPackDataforseoLabsSerpElementItem.md#date_to)
-- [items](HotelsPackDataforseoLabsSerpElementItem.md#items)
-- [position](HotelsPackDataforseoLabsSerpElementItem.md#position)
-- [rank\_absolute](HotelsPackDataforseoLabsSerpElementItem.md#rank_absolute)
-- [rank\_group](HotelsPackDataforseoLabsSerpElementItem.md#rank_group)
-- [title](HotelsPackDataforseoLabsSerpElementItem.md#title)
-- [xpath](HotelsPackDataforseoLabsSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](HotelsPackDataforseoLabsSerpElementItem.md#init)
-- [toJSON](HotelsPackDataforseoLabsSerpElementItem.md#tojson)
-- [fromJS](HotelsPackDataforseoLabsSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new HotelsPackDataforseoLabsSerpElementItem(data)
 
-• **new HotelsPackDataforseoLabsSerpElementItem**(`data?`): [`HotelsPackDataforseoLabsSerpElementItem`](HotelsPackDataforseoLabsSerpElementItem.md)
+> **new HotelsPackDataforseoLabsSerpElementItem**(`data`?): [`HotelsPackDataforseoLabsSerpElementItem`](HotelsPackDataforseoLabsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IHotelsPackDataforseoLabsSerpElementItem`](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md) |
+• **data?**: [`IHotelsPackDataforseoLabsSerpElementItem`](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md)
 
 #### Returns
 
@@ -58,31 +34,31 @@
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[constructor](BaseDataforseoLabsSerpElementItem.md#constructor)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:95866
+main.ts:95874
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[_discriminator](BaseDataforseoLabsSerpElementItem.md#_discriminator)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`_discriminator`](BaseDataforseoLabsSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:20171
 
-___
+***
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of stay
 in the format “year-month-date”
@@ -91,17 +67,17 @@ example:
 
 #### Implementation of
 
-[IHotelsPackDataforseoLabsSerpElementItem](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md).[date_from](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md#date_from)
+[`IHotelsPackDataforseoLabsSerpElementItem`](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md).[`date_from`](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md#date_from)
 
-#### Defined in
+#### Source
 
-main.ts:95855
+main.ts:95863
 
-___
+***
 
-### date\_to
+### date\_to?
 
-• `Optional` **date\_to**: `string`
+> **`optional`** **date\_to**: `string`
 
 ending date of stay
 in the format “year-month-date”
@@ -110,33 +86,33 @@ example:
 
 #### Implementation of
 
-[IHotelsPackDataforseoLabsSerpElementItem](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md).[date_to](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md#date_to)
+[`IHotelsPackDataforseoLabsSerpElementItem`](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md).[`date_to`](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md#date_to)
 
-#### Defined in
+#### Source
 
-main.ts:95860
+main.ts:95868
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`HotelsPackElement`](HotelsPackElement.md)[]
+> **`optional`** **items**: [`HotelsPackElement`](HotelsPackElement.md)[]
 
 elements of search results found in SERP
 
 #### Implementation of
 
-[IHotelsPackDataforseoLabsSerpElementItem](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md).[items](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md#items)
+[`IHotelsPackDataforseoLabsSerpElementItem`](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md).[`items`](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:95862
+main.ts:95870
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -144,89 +120,87 @@ left, right
 
 #### Implementation of
 
-[IHotelsPackDataforseoLabsSerpElementItem](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md).[position](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md#position)
+[`IHotelsPackDataforseoLabsSerpElementItem`](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md).[`position`](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
-main.ts:95846
+main.ts:95854
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
 #### Implementation of
 
-[IHotelsPackDataforseoLabsSerpElementItem](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md).[rank_absolute](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md#rank_absolute)
+[`IHotelsPackDataforseoLabsSerpElementItem`](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md).[`rank_absolute`](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:95842
+main.ts:95850
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
-[IHotelsPackDataforseoLabsSerpElementItem](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md).[rank_group](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md#rank_group)
+[`IHotelsPackDataforseoLabsSerpElementItem`](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md).[`rank_group`](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
-main.ts:95839
+main.ts:95847
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the result in SERP
 
 #### Implementation of
 
-[IHotelsPackDataforseoLabsSerpElementItem](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md).[title](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md#title)
+[`IHotelsPackDataforseoLabsSerpElementItem`](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md).[`title`](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:95850
+main.ts:95858
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IHotelsPackDataforseoLabsSerpElementItem](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md).[xpath](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md#xpath)
+[`IHotelsPackDataforseoLabsSerpElementItem`](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md).[`xpath`](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
-main.ts:95848
+main.ts:95856
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -234,23 +208,21 @@ main.ts:95848
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[init](BaseDataforseoLabsSerpElementItem.md#init)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`init`](BaseDataforseoLabsSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:95871
+main.ts:95879
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -258,23 +230,21 @@ ___
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[toJSON](BaseDataforseoLabsSerpElementItem.md#tojson)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`toJSON`](BaseDataforseoLabsSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:95900
+main.ts:95908
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`HotelsPackDataforseoLabsSerpElementItem`](HotelsPackDataforseoLabsSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`HotelsPackDataforseoLabsSerpElementItem`](HotelsPackDataforseoLabsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -282,8 +252,8 @@ ___
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[fromJS](BaseDataforseoLabsSerpElementItem.md#fromjs)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`fromJS`](BaseDataforseoLabsSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:95893
+main.ts:95901

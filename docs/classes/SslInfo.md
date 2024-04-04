@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SslInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SslInfo
 
 # Class: SslInfo
 
@@ -8,54 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SslInfo.md#constructor)
-
-### Properties
-
-- [certificate\_expiration\_date](SslInfo.md#certificate_expiration_date)
-- [certificate\_hash](SslInfo.md#certificate_hash)
-- [certificate\_issuer](SslInfo.md#certificate_issuer)
-- [certificate\_subject](SslInfo.md#certificate_subject)
-- [certificate\_version](SslInfo.md#certificate_version)
-- [valid\_certificate](SslInfo.md#valid_certificate)
-
-### Methods
-
-- [init](SslInfo.md#init)
-- [toJSON](SslInfo.md#tojson)
-- [fromJS](SslInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SslInfo(data)
 
-• **new SslInfo**(`data?`): [`SslInfo`](SslInfo.md)
+> **new SslInfo**(`data`?): [`SslInfo`](SslInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISslInfo`](../interfaces/ISslInfo.md) |
+• **data?**: [`ISslInfo`](../interfaces/ISslInfo.md)
 
 #### Returns
 
 [`SslInfo`](SslInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:148653
+main.ts:148661
 
 ## Properties
 
-### certificate\_expiration\_date
+### certificate\_expiration\_date?
 
-• `Optional` **certificate\_expiration\_date**: `string`
+> **`optional`** **certificate\_expiration\_date**: `string`
 
 ssl certificate expiration date
 the date and time when the ssl certificate expires
@@ -65,153 +46,147 @@ example:
 
 #### Implementation of
 
-[ISslInfo](../interfaces/ISslInfo.md).[certificate_expiration_date](../interfaces/ISslInfo.md#certificate_expiration_date)
+[`ISslInfo`](../interfaces/ISslInfo.md).[`certificate_expiration_date`](../interfaces/ISslInfo.md#certificate_expiration_date)
 
-#### Defined in
+#### Source
 
-main.ts:148649
+main.ts:148657
 
-___
+***
 
-### certificate\_hash
+### certificate\_hash?
 
-• `Optional` **certificate\_hash**: `string`
+> **`optional`** **certificate\_hash**: `string`
 
 ssl certificate hash
 the version of the ssl certificate’s hash function
 
 #### Implementation of
 
-[ISslInfo](../interfaces/ISslInfo.md).[certificate_hash](../interfaces/ISslInfo.md#certificate_hash)
+[`ISslInfo`](../interfaces/ISslInfo.md).[`certificate_hash`](../interfaces/ISslInfo.md#certificate_hash)
 
-#### Defined in
+#### Source
 
-main.ts:148643
+main.ts:148651
 
-___
+***
 
-### certificate\_issuer
+### certificate\_issuer?
 
-• `Optional` **certificate\_issuer**: `string`
+> **`optional`** **certificate\_issuer**: `string`
 
 ssl certificate authority
 the entity that issued the detected ssl certificate
 
 #### Implementation of
 
-[ISslInfo](../interfaces/ISslInfo.md).[certificate_issuer](../interfaces/ISslInfo.md#certificate_issuer)
+[`ISslInfo`](../interfaces/ISslInfo.md).[`certificate_issuer`](../interfaces/ISslInfo.md#certificate_issuer)
 
-#### Defined in
+#### Source
 
-main.ts:148634
+main.ts:148642
 
-___
+***
 
-### certificate\_subject
+### certificate\_subject?
 
-• `Optional` **certificate\_subject**: `string`
+> **`optional`** **certificate\_subject**: `string`
 
 ssl certificate subject
 the entity associated with the public key
 
 #### Implementation of
 
-[ISslInfo](../interfaces/ISslInfo.md).[certificate_subject](../interfaces/ISslInfo.md#certificate_subject)
+[`ISslInfo`](../interfaces/ISslInfo.md).[`certificate_subject`](../interfaces/ISslInfo.md#certificate_subject)
 
-#### Defined in
+#### Source
 
-main.ts:148637
+main.ts:148645
 
-___
+***
 
-### certificate\_version
+### certificate\_version?
 
-• `Optional` **certificate\_version**: `string`
+> **`optional`** **certificate\_version**: `string`
 
 ssl certificate version
 indicates the version of X.509 used by an ssl certificate
 
 #### Implementation of
 
-[ISslInfo](../interfaces/ISslInfo.md).[certificate_version](../interfaces/ISslInfo.md#certificate_version)
+[`ISslInfo`](../interfaces/ISslInfo.md).[`certificate_version`](../interfaces/ISslInfo.md#certificate_version)
 
-#### Defined in
+#### Source
 
-main.ts:148640
+main.ts:148648
 
-___
+***
 
-### valid\_certificate
+### valid\_certificate?
 
-• `Optional` **valid\_certificate**: `boolean`
+> **`optional`** **valid\_certificate**: `boolean`
 
 ssl certificate validity
 indicates whether the ssl certificate detected on a website is not expired, suspended, revoked or invalid
 
 #### Implementation of
 
-[ISslInfo](../interfaces/ISslInfo.md).[valid_certificate](../interfaces/ISslInfo.md#valid_certificate)
+[`ISslInfo`](../interfaces/ISslInfo.md).[`valid_certificate`](../interfaces/ISslInfo.md#valid_certificate)
 
-#### Defined in
+#### Source
 
-main.ts:148631
+main.ts:148639
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:148662
+main.ts:148670
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:148684
+main.ts:148692
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SslInfo`](SslInfo.md)
+> **`static`** **fromJS**(`data`): [`SslInfo`](SslInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SslInfo`](SslInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:148677
+main.ts:148685

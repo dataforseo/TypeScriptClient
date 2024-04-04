@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleEventsTaskGetAdvancedTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleEventsTaskGetAdvancedTaskInfo
 
 # Class: SerpGoogleEventsTaskGetAdvancedTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`SerpGoogleEventsTaskGetAdvancedTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleEventsTaskGetAdvancedTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](SerpGoogleEventsTaskGetAdvancedTaskInfo.md#cost)
-- [data](SerpGoogleEventsTaskGetAdvancedTaskInfo.md#data)
-- [id](SerpGoogleEventsTaskGetAdvancedTaskInfo.md#id)
-- [path](SerpGoogleEventsTaskGetAdvancedTaskInfo.md#path)
-- [result](SerpGoogleEventsTaskGetAdvancedTaskInfo.md#result)
-- [result\_count](SerpGoogleEventsTaskGetAdvancedTaskInfo.md#result_count)
-- [status\_code](SerpGoogleEventsTaskGetAdvancedTaskInfo.md#status_code)
-- [status\_message](SerpGoogleEventsTaskGetAdvancedTaskInfo.md#status_message)
-- [time](SerpGoogleEventsTaskGetAdvancedTaskInfo.md#time)
-
-### Methods
-
-- [init](SerpGoogleEventsTaskGetAdvancedTaskInfo.md#init)
-- [toJSON](SerpGoogleEventsTaskGetAdvancedTaskInfo.md#tojson)
-- [fromJS](SerpGoogleEventsTaskGetAdvancedTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleEventsTaskGetAdvancedTaskInfo(data)
 
-• **new SerpGoogleEventsTaskGetAdvancedTaskInfo**(`data?`): [`SerpGoogleEventsTaskGetAdvancedTaskInfo`](SerpGoogleEventsTaskGetAdvancedTaskInfo.md)
+> **new SerpGoogleEventsTaskGetAdvancedTaskInfo**(`data`?): [`SerpGoogleEventsTaskGetAdvancedTaskInfo`](SerpGoogleEventsTaskGetAdvancedTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleEventsTaskGetAdvancedTaskInfo`](../interfaces/ISerpGoogleEventsTaskGetAdvancedTaskInfo.md) |
+• **data?**: [`ISerpGoogleEventsTaskGetAdvancedTaskInfo`](../interfaces/ISerpGoogleEventsTaskGetAdvancedTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:45707
+main.ts:45715
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[ISerpGoogleEventsTaskGetAdvancedTaskInfo](../interfaces/ISerpGoogleEventsTaskGetAdvancedTaskInfo.md).[cost](../interfaces/ISerpGoogleEventsTaskGetAdvancedTaskInfo.md#cost)
+[`ISerpGoogleEventsTaskGetAdvancedTaskInfo`](../interfaces/ISerpGoogleEventsTaskGetAdvancedTaskInfo.md).[`cost`](../interfaces/ISerpGoogleEventsTaskGetAdvancedTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[ISerpGoogleEventsTaskGetAdvancedTaskInfo](../interfaces/ISerpGoogleEventsTaskGetAdvancedTaskInfo.md).[data](../interfaces/ISerpGoogleEventsTaskGetAdvancedTaskInfo.md#data)
+[`ISerpGoogleEventsTaskGetAdvancedTaskInfo`](../interfaces/ISerpGoogleEventsTaskGetAdvancedTaskInfo.md).[`data`](../interfaces/ISerpGoogleEventsTaskGetAdvancedTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[ISerpGoogleEventsTaskGetAdvancedTaskInfo](../interfaces/ISerpGoogleEventsTaskGetAdvancedTaskInfo.md).[id](../interfaces/ISerpGoogleEventsTaskGetAdvancedTaskInfo.md#id)
+[`ISerpGoogleEventsTaskGetAdvancedTaskInfo`](../interfaces/ISerpGoogleEventsTaskGetAdvancedTaskInfo.md).[`id`](../interfaces/ISerpGoogleEventsTaskGetAdvancedTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[ISerpGoogleEventsTaskGetAdvancedTaskInfo](../interfaces/ISerpGoogleEventsTaskGetAdvancedTaskInfo.md).[path](../interfaces/ISerpGoogleEventsTaskGetAdvancedTaskInfo.md#path)
+[`ISerpGoogleEventsTaskGetAdvancedTaskInfo`](../interfaces/ISerpGoogleEventsTaskGetAdvancedTaskInfo.md).[`path`](../interfaces/ISerpGoogleEventsTaskGetAdvancedTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`SerpGoogleEventsTaskGetAdvancedResultInfo`](SerpGoogleEventsTaskGetAdvancedResultInfo.md)[]
+> **`optional`** **result**: [`SerpGoogleEventsTaskGetAdvancedResultInfo`](SerpGoogleEventsTaskGetAdvancedResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[ISerpGoogleEventsTaskGetAdvancedTaskInfo](../interfaces/ISerpGoogleEventsTaskGetAdvancedTaskInfo.md).[result](../interfaces/ISerpGoogleEventsTaskGetAdvancedTaskInfo.md#result)
+[`ISerpGoogleEventsTaskGetAdvancedTaskInfo`](../interfaces/ISerpGoogleEventsTaskGetAdvancedTaskInfo.md).[`result`](../interfaces/ISerpGoogleEventsTaskGetAdvancedTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:45703
+main.ts:45711
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[ISerpGoogleEventsTaskGetAdvancedTaskInfo](../interfaces/ISerpGoogleEventsTaskGetAdvancedTaskInfo.md).[result_count](../interfaces/ISerpGoogleEventsTaskGetAdvancedTaskInfo.md#result_count)
+[`ISerpGoogleEventsTaskGetAdvancedTaskInfo`](../interfaces/ISerpGoogleEventsTaskGetAdvancedTaskInfo.md).[`result_count`](../interfaces/ISerpGoogleEventsTaskGetAdvancedTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[ISerpGoogleEventsTaskGetAdvancedTaskInfo](../interfaces/ISerpGoogleEventsTaskGetAdvancedTaskInfo.md).[status_code](../interfaces/ISerpGoogleEventsTaskGetAdvancedTaskInfo.md#status_code)
+[`ISerpGoogleEventsTaskGetAdvancedTaskInfo`](../interfaces/ISerpGoogleEventsTaskGetAdvancedTaskInfo.md).[`status_code`](../interfaces/ISerpGoogleEventsTaskGetAdvancedTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[ISerpGoogleEventsTaskGetAdvancedTaskInfo](../interfaces/ISerpGoogleEventsTaskGetAdvancedTaskInfo.md).[status_message](../interfaces/ISerpGoogleEventsTaskGetAdvancedTaskInfo.md#status_message)
+[`ISerpGoogleEventsTaskGetAdvancedTaskInfo`](../interfaces/ISerpGoogleEventsTaskGetAdvancedTaskInfo.md).[`status_message`](../interfaces/ISerpGoogleEventsTaskGetAdvancedTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[ISerpGoogleEventsTaskGetAdvancedTaskInfo](../interfaces/ISerpGoogleEventsTaskGetAdvancedTaskInfo.md).[time](../interfaces/ISerpGoogleEventsTaskGetAdvancedTaskInfo.md#time)
+[`ISerpGoogleEventsTaskGetAdvancedTaskInfo`](../interfaces/ISerpGoogleEventsTaskGetAdvancedTaskInfo.md).[`time`](../interfaces/ISerpGoogleEventsTaskGetAdvancedTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:45711
+main.ts:45719
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:45733
+main.ts:45741
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleEventsTaskGetAdvancedTaskInfo`](SerpGoogleEventsTaskGetAdvancedTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleEventsTaskGetAdvancedTaskInfo`](SerpGoogleEventsTaskGetAdvancedTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:45726
+main.ts:45734

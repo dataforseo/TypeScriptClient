@@ -1,42 +1,35 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpScreenshotResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ISerpScreenshotResultInfo
 
 # Interface: ISerpScreenshotResultInfo
 
-## Implemented by
-
-- [`SerpScreenshotResultInfo`](../classes/SerpScreenshotResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](ISerpScreenshotResultInfo.md#items)
-- [items\_count](ISerpScreenshotResultInfo.md#items_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`ScreenshotItem`](../classes/ScreenshotItem.md)[]
+> **`optional`** **items**: [`ScreenshotItem`](../classes/ScreenshotItem.md)[]
 
 items array
 
-#### Defined in
+#### Source
 
 main.ts:24130
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 number of items in the results array
 
-#### Defined in
+#### Source
 
 main.ts:24128

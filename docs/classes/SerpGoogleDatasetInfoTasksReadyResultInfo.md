@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleDatasetInfoTasksReadyResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleDatasetInfoTasksReadyResultInfo
 
 # Class: SerpGoogleDatasetInfoTasksReadyResultInfo
 
@@ -8,240 +12,209 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleDatasetInfoTasksReadyResultInfo.md#constructor)
-
-### Properties
-
-- [date\_posted](SerpGoogleDatasetInfoTasksReadyResultInfo.md#date_posted)
-- [endpoint\_advanced](SerpGoogleDatasetInfoTasksReadyResultInfo.md#endpoint_advanced)
-- [endpoint\_html](SerpGoogleDatasetInfoTasksReadyResultInfo.md#endpoint_html)
-- [endpoint\_regular](SerpGoogleDatasetInfoTasksReadyResultInfo.md#endpoint_regular)
-- [id](SerpGoogleDatasetInfoTasksReadyResultInfo.md#id)
-- [se](SerpGoogleDatasetInfoTasksReadyResultInfo.md#se)
-- [se\_type](SerpGoogleDatasetInfoTasksReadyResultInfo.md#se_type)
-- [tag](SerpGoogleDatasetInfoTasksReadyResultInfo.md#tag)
-
-### Methods
-
-- [init](SerpGoogleDatasetInfoTasksReadyResultInfo.md#init)
-- [toJSON](SerpGoogleDatasetInfoTasksReadyResultInfo.md#tojson)
-- [fromJS](SerpGoogleDatasetInfoTasksReadyResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleDatasetInfoTasksReadyResultInfo(data)
 
-• **new SerpGoogleDatasetInfoTasksReadyResultInfo**(`data?`): [`SerpGoogleDatasetInfoTasksReadyResultInfo`](SerpGoogleDatasetInfoTasksReadyResultInfo.md)
+> **new SerpGoogleDatasetInfoTasksReadyResultInfo**(`data`?): [`SerpGoogleDatasetInfoTasksReadyResultInfo`](SerpGoogleDatasetInfoTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleDatasetInfoTasksReadyResultInfo`](../interfaces/ISerpGoogleDatasetInfoTasksReadyResultInfo.md) |
+• **data?**: [`ISerpGoogleDatasetInfoTasksReadyResultInfo`](../interfaces/ISerpGoogleDatasetInfoTasksReadyResultInfo.md)
 
 #### Returns
 
 [`SerpGoogleDatasetInfoTasksReadyResultInfo`](SerpGoogleDatasetInfoTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:54480
+main.ts:54488
 
 ## Properties
 
-### date\_posted
+### date\_posted?
 
-• `Optional` **date\_posted**: `string`
+> **`optional`** **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
 #### Implementation of
 
-[ISerpGoogleDatasetInfoTasksReadyResultInfo](../interfaces/ISerpGoogleDatasetInfoTasksReadyResultInfo.md).[date_posted](../interfaces/ISerpGoogleDatasetInfoTasksReadyResultInfo.md#date_posted)
+[`ISerpGoogleDatasetInfoTasksReadyResultInfo`](../interfaces/ISerpGoogleDatasetInfoTasksReadyResultInfo.md).[`date_posted`](../interfaces/ISerpGoogleDatasetInfoTasksReadyResultInfo.md#date_posted)
 
-#### Defined in
+#### Source
 
-main.ts:54465
+main.ts:54473
 
-___
+***
 
-### endpoint\_advanced
+### endpoint\_advanced?
 
-• `Optional` **endpoint\_advanced**: `string`
+> **`optional`** **endpoint\_advanced**: `string`
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpGoogleDatasetInfoTasksReadyResultInfo](../interfaces/ISerpGoogleDatasetInfoTasksReadyResultInfo.md).[endpoint_advanced](../interfaces/ISerpGoogleDatasetInfoTasksReadyResultInfo.md#endpoint_advanced)
+[`ISerpGoogleDatasetInfoTasksReadyResultInfo`](../interfaces/ISerpGoogleDatasetInfoTasksReadyResultInfo.md).[`endpoint_advanced`](../interfaces/ISerpGoogleDatasetInfoTasksReadyResultInfo.md#endpoint_advanced)
 
-#### Defined in
+#### Source
 
-main.ts:54473
+main.ts:54481
 
-___
+***
 
-### endpoint\_html
+### endpoint\_html?
 
-• `Optional` **endpoint\_html**: `string`
+> **`optional`** **endpoint\_html**: `string`
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpGoogleDatasetInfoTasksReadyResultInfo](../interfaces/ISerpGoogleDatasetInfoTasksReadyResultInfo.md).[endpoint_html](../interfaces/ISerpGoogleDatasetInfoTasksReadyResultInfo.md#endpoint_html)
+[`ISerpGoogleDatasetInfoTasksReadyResultInfo`](../interfaces/ISerpGoogleDatasetInfoTasksReadyResultInfo.md).[`endpoint_html`](../interfaces/ISerpGoogleDatasetInfoTasksReadyResultInfo.md#endpoint_html)
 
-#### Defined in
+#### Source
 
-main.ts:54476
+main.ts:54484
 
-___
+***
 
-### endpoint\_regular
+### endpoint\_regular?
 
-• `Optional` **endpoint\_regular**: `string`
+> **`optional`** **endpoint\_regular**: `string`
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpGoogleDatasetInfoTasksReadyResultInfo](../interfaces/ISerpGoogleDatasetInfoTasksReadyResultInfo.md).[endpoint_regular](../interfaces/ISerpGoogleDatasetInfoTasksReadyResultInfo.md#endpoint_regular)
+[`ISerpGoogleDatasetInfoTasksReadyResultInfo`](../interfaces/ISerpGoogleDatasetInfoTasksReadyResultInfo.md).[`endpoint_regular`](../interfaces/ISerpGoogleDatasetInfoTasksReadyResultInfo.md#endpoint_regular)
 
-#### Defined in
+#### Source
 
-main.ts:54470
+main.ts:54478
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[ISerpGoogleDatasetInfoTasksReadyResultInfo](../interfaces/ISerpGoogleDatasetInfoTasksReadyResultInfo.md).[id](../interfaces/ISerpGoogleDatasetInfoTasksReadyResultInfo.md#id)
+[`ISerpGoogleDatasetInfoTasksReadyResultInfo`](../interfaces/ISerpGoogleDatasetInfoTasksReadyResultInfo.md).[`id`](../interfaces/ISerpGoogleDatasetInfoTasksReadyResultInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:54458
+main.ts:54466
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 
 #### Implementation of
 
-[ISerpGoogleDatasetInfoTasksReadyResultInfo](../interfaces/ISerpGoogleDatasetInfoTasksReadyResultInfo.md).[se](../interfaces/ISerpGoogleDatasetInfoTasksReadyResultInfo.md#se)
+[`ISerpGoogleDatasetInfoTasksReadyResultInfo`](../interfaces/ISerpGoogleDatasetInfoTasksReadyResultInfo.md).[`se`](../interfaces/ISerpGoogleDatasetInfoTasksReadyResultInfo.md#se)
 
-#### Defined in
+#### Source
 
-main.ts:54460
+main.ts:54468
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 type of search engine
 can take the following values: dataset_info
 
 #### Implementation of
 
-[ISerpGoogleDatasetInfoTasksReadyResultInfo](../interfaces/ISerpGoogleDatasetInfoTasksReadyResultInfo.md).[se_type](../interfaces/ISerpGoogleDatasetInfoTasksReadyResultInfo.md#se_type)
+[`ISerpGoogleDatasetInfoTasksReadyResultInfo`](../interfaces/ISerpGoogleDatasetInfoTasksReadyResultInfo.md).[`se_type`](../interfaces/ISerpGoogleDatasetInfoTasksReadyResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:54463
+main.ts:54471
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
 #### Implementation of
 
-[ISerpGoogleDatasetInfoTasksReadyResultInfo](../interfaces/ISerpGoogleDatasetInfoTasksReadyResultInfo.md).[tag](../interfaces/ISerpGoogleDatasetInfoTasksReadyResultInfo.md#tag)
+[`ISerpGoogleDatasetInfoTasksReadyResultInfo`](../interfaces/ISerpGoogleDatasetInfoTasksReadyResultInfo.md).[`tag`](../interfaces/ISerpGoogleDatasetInfoTasksReadyResultInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:54467
+main.ts:54475
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:54489
+main.ts:54497
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:54513
+main.ts:54521
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleDatasetInfoTasksReadyResultInfo`](SerpGoogleDatasetInfoTasksReadyResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleDatasetInfoTasksReadyResultInfo`](SerpGoogleDatasetInfoTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpGoogleDatasetInfoTasksReadyResultInfo`](SerpGoogleDatasetInfoTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:54506
+main.ts:54514

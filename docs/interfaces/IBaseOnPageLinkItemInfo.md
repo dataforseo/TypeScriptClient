@@ -1,23 +1,18 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBaseOnPageLinkItemInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBaseOnPageLinkItemInfo
 
 # Interface: IBaseOnPageLinkItemInfo
 
-## Hierarchy
+## Extended by
 
-- **`IBaseOnPageLinkItemInfo`**
-
-  ↳ [`IAnchorLinkElementItem`](IAnchorLinkElementItem.md)
-
-  ↳ [`IImageLinkElementItem`](IImageLinkElementItem.md)
-
-  ↳ [`IAlternateLinkElementItem`](IAlternateLinkElementItem.md)
-
-  ↳ [`IRedirectLinkElementItem`](IRedirectLinkElementItem.md)
-
-## Implemented by
-
-- [`BaseOnPageLinkItemInfo`](../classes/BaseOnPageLinkItemInfo.md)
+- [`IAnchorLinkElementItem`](IAnchorLinkElementItem.md)
+- [`IImageLinkElementItem`](IImageLinkElementItem.md)
+- [`IAlternateLinkElementItem`](IAlternateLinkElementItem.md)
+- [`IRedirectLinkElementItem`](IRedirectLinkElementItem.md)
 
 ## Indexable
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`

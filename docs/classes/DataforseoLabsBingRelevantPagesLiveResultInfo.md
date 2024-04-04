@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsBingRelevantPagesLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsBingRelevantPagesLiveResultInfo
 
 # Class: DataforseoLabsBingRelevantPagesLiveResultInfo
 
@@ -8,220 +12,190 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsBingRelevantPagesLiveResultInfo.md#constructor)
-
-### Properties
-
-- [items](DataforseoLabsBingRelevantPagesLiveResultInfo.md#items)
-- [items\_count](DataforseoLabsBingRelevantPagesLiveResultInfo.md#items_count)
-- [language\_code](DataforseoLabsBingRelevantPagesLiveResultInfo.md#language_code)
-- [location\_code](DataforseoLabsBingRelevantPagesLiveResultInfo.md#location_code)
-- [se\_type](DataforseoLabsBingRelevantPagesLiveResultInfo.md#se_type)
-- [target](DataforseoLabsBingRelevantPagesLiveResultInfo.md#target)
-- [total\_count](DataforseoLabsBingRelevantPagesLiveResultInfo.md#total_count)
-
-### Methods
-
-- [init](DataforseoLabsBingRelevantPagesLiveResultInfo.md#init)
-- [toJSON](DataforseoLabsBingRelevantPagesLiveResultInfo.md#tojson)
-- [fromJS](DataforseoLabsBingRelevantPagesLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsBingRelevantPagesLiveResultInfo(data)
 
-• **new DataforseoLabsBingRelevantPagesLiveResultInfo**(`data?`): [`DataforseoLabsBingRelevantPagesLiveResultInfo`](DataforseoLabsBingRelevantPagesLiveResultInfo.md)
+> **new DataforseoLabsBingRelevantPagesLiveResultInfo**(`data`?): [`DataforseoLabsBingRelevantPagesLiveResultInfo`](DataforseoLabsBingRelevantPagesLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsBingRelevantPagesLiveResultInfo`](../interfaces/IDataforseoLabsBingRelevantPagesLiveResultInfo.md) |
+• **data?**: [`IDataforseoLabsBingRelevantPagesLiveResultInfo`](../interfaces/IDataforseoLabsBingRelevantPagesLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsBingRelevantPagesLiveResultInfo`](DataforseoLabsBingRelevantPagesLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:108939
+main.ts:108947
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`DataforseoLabsRelevantPagesLiveItem`](DataforseoLabsRelevantPagesLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsRelevantPagesLiveItem`](DataforseoLabsRelevantPagesLiveItem.md)[]
 
 relevant pages and related data
 
 #### Implementation of
 
-[IDataforseoLabsBingRelevantPagesLiveResultInfo](../interfaces/IDataforseoLabsBingRelevantPagesLiveResultInfo.md).[items](../interfaces/IDataforseoLabsBingRelevantPagesLiveResultInfo.md#items)
+[`IDataforseoLabsBingRelevantPagesLiveResultInfo`](../interfaces/IDataforseoLabsBingRelevantPagesLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsBingRelevantPagesLiveResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:108935
+main.ts:108943
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[IDataforseoLabsBingRelevantPagesLiveResultInfo](../interfaces/IDataforseoLabsBingRelevantPagesLiveResultInfo.md).[items_count](../interfaces/IDataforseoLabsBingRelevantPagesLiveResultInfo.md#items_count)
+[`IDataforseoLabsBingRelevantPagesLiveResultInfo`](../interfaces/IDataforseoLabsBingRelevantPagesLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsBingRelevantPagesLiveResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:108933
+main.ts:108941
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 if there is no data, then the value is null
 
 #### Implementation of
 
-[IDataforseoLabsBingRelevantPagesLiveResultInfo](../interfaces/IDataforseoLabsBingRelevantPagesLiveResultInfo.md).[language_code](../interfaces/IDataforseoLabsBingRelevantPagesLiveResultInfo.md#language_code)
+[`IDataforseoLabsBingRelevantPagesLiveResultInfo`](../interfaces/IDataforseoLabsBingRelevantPagesLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsBingRelevantPagesLiveResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:108929
+main.ts:108937
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 if there is no data, then the value is null
 
 #### Implementation of
 
-[IDataforseoLabsBingRelevantPagesLiveResultInfo](../interfaces/IDataforseoLabsBingRelevantPagesLiveResultInfo.md).[location_code](../interfaces/IDataforseoLabsBingRelevantPagesLiveResultInfo.md#location_code)
+[`IDataforseoLabsBingRelevantPagesLiveResultInfo`](../interfaces/IDataforseoLabsBingRelevantPagesLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsBingRelevantPagesLiveResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:108926
+main.ts:108934
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IDataforseoLabsBingRelevantPagesLiveResultInfo](../interfaces/IDataforseoLabsBingRelevantPagesLiveResultInfo.md).[se_type](../interfaces/IDataforseoLabsBingRelevantPagesLiveResultInfo.md#se_type)
+[`IDataforseoLabsBingRelevantPagesLiveResultInfo`](../interfaces/IDataforseoLabsBingRelevantPagesLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsBingRelevantPagesLiveResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:108921
+main.ts:108929
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 target domain in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsBingRelevantPagesLiveResultInfo](../interfaces/IDataforseoLabsBingRelevantPagesLiveResultInfo.md).[target](../interfaces/IDataforseoLabsBingRelevantPagesLiveResultInfo.md#target)
+[`IDataforseoLabsBingRelevantPagesLiveResultInfo`](../interfaces/IDataforseoLabsBingRelevantPagesLiveResultInfo.md).[`target`](../interfaces/IDataforseoLabsBingRelevantPagesLiveResultInfo.md#target)
 
-#### Defined in
+#### Source
 
-main.ts:108923
+main.ts:108931
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
 #### Implementation of
 
-[IDataforseoLabsBingRelevantPagesLiveResultInfo](../interfaces/IDataforseoLabsBingRelevantPagesLiveResultInfo.md).[total_count](../interfaces/IDataforseoLabsBingRelevantPagesLiveResultInfo.md#total_count)
+[`IDataforseoLabsBingRelevantPagesLiveResultInfo`](../interfaces/IDataforseoLabsBingRelevantPagesLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsBingRelevantPagesLiveResultInfo.md#total_count)
 
-#### Defined in
+#### Source
 
-main.ts:108931
+main.ts:108939
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:108948
+main.ts:108956
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:108975
+main.ts:108983
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsBingRelevantPagesLiveResultInfo`](DataforseoLabsBingRelevantPagesLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsBingRelevantPagesLiveResultInfo`](DataforseoLabsBingRelevantPagesLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsBingRelevantPagesLiveResultInfo`](DataforseoLabsBingRelevantPagesLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:108968
+main.ts:108976

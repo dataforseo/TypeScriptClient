@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / GoogleFlightsElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / GoogleFlightsElement
 
 # Class: GoogleFlightsElement
 
@@ -8,150 +12,124 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](GoogleFlightsElement.md#constructor)
-
-### Properties
-
-- [description](GoogleFlightsElement.md#description)
-- [type](GoogleFlightsElement.md#type)
-- [url](GoogleFlightsElement.md#url)
-
-### Methods
-
-- [init](GoogleFlightsElement.md#init)
-- [toJSON](GoogleFlightsElement.md#tojson)
-- [fromJS](GoogleFlightsElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new GoogleFlightsElement(data)
 
-• **new GoogleFlightsElement**(`data?`): [`GoogleFlightsElement`](GoogleFlightsElement.md)
+> **new GoogleFlightsElement**(`data`?): [`GoogleFlightsElement`](GoogleFlightsElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IGoogleFlightsElement`](../interfaces/IGoogleFlightsElement.md) |
+• **data?**: [`IGoogleFlightsElement`](../interfaces/IGoogleFlightsElement.md)
 
 #### Returns
 
 [`GoogleFlightsElement`](GoogleFlightsElement.md)
 
-#### Defined in
+#### Source
 
 main.ts:31433
 
 ## Properties
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description
 
 #### Implementation of
 
-[IGoogleFlightsElement](../interfaces/IGoogleFlightsElement.md).[description](../interfaces/IGoogleFlightsElement.md#description)
+[`IGoogleFlightsElement`](../interfaces/IGoogleFlightsElement.md).[`description`](../interfaces/IGoogleFlightsElement.md#description)
 
-#### Defined in
+#### Source
 
 main.ts:31427
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IGoogleFlightsElement](../interfaces/IGoogleFlightsElement.md).[type](../interfaces/IGoogleFlightsElement.md#type)
+[`IGoogleFlightsElement`](../interfaces/IGoogleFlightsElement.md).[`type`](../interfaces/IGoogleFlightsElement.md#type)
 
-#### Defined in
+#### Source
 
 main.ts:31425
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL
 
 #### Implementation of
 
-[IGoogleFlightsElement](../interfaces/IGoogleFlightsElement.md).[url](../interfaces/IGoogleFlightsElement.md#url)
+[`IGoogleFlightsElement`](../interfaces/IGoogleFlightsElement.md).[`url`](../interfaces/IGoogleFlightsElement.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:31429
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:31442
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:31461
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`GoogleFlightsElement`](GoogleFlightsElement.md)
+> **`static`** **fromJS**(`data`): [`GoogleFlightsElement`](GoogleFlightsElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`GoogleFlightsElement`](GoogleFlightsElement.md)
 
-#### Defined in
+#### Source
 
 main.ts:31454

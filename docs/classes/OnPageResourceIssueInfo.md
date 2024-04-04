@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageResourceIssueInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPageResourceIssueInfo
 
 # Class: OnPageResourceIssueInfo
 
@@ -10,133 +14,108 @@ resource errors and warnings
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPageResourceIssueInfo.md#constructor)
-
-### Properties
-
-- [errors](OnPageResourceIssueInfo.md#errors)
-- [warnings](OnPageResourceIssueInfo.md#warnings)
-
-### Methods
-
-- [init](OnPageResourceIssueInfo.md#init)
-- [toJSON](OnPageResourceIssueInfo.md#tojson)
-- [fromJS](OnPageResourceIssueInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPageResourceIssueInfo(data)
 
-• **new OnPageResourceIssueInfo**(`data?`): [`OnPageResourceIssueInfo`](OnPageResourceIssueInfo.md)
+> **new OnPageResourceIssueInfo**(`data`?): [`OnPageResourceIssueInfo`](OnPageResourceIssueInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPageResourceIssueInfo`](../interfaces/IOnPageResourceIssueInfo.md) |
+• **data?**: [`IOnPageResourceIssueInfo`](../interfaces/IOnPageResourceIssueInfo.md)
 
 #### Returns
 
 [`OnPageResourceIssueInfo`](OnPageResourceIssueInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:150099
+main.ts:150107
 
 ## Properties
 
-### errors
+### errors?
 
-• `Optional` **errors**: [`OnPageResourceIssueItemInfo`](OnPageResourceIssueItemInfo.md)[]
+> **`optional`** **errors**: [`OnPageResourceIssueItemInfo`](OnPageResourceIssueItemInfo.md)[]
 
 resource errors
 
 #### Implementation of
 
-[IOnPageResourceIssueInfo](../interfaces/IOnPageResourceIssueInfo.md).[errors](../interfaces/IOnPageResourceIssueInfo.md#errors)
+[`IOnPageResourceIssueInfo`](../interfaces/IOnPageResourceIssueInfo.md).[`errors`](../interfaces/IOnPageResourceIssueInfo.md#errors)
 
-#### Defined in
+#### Source
 
-main.ts:150093
+main.ts:150101
 
-___
+***
 
-### warnings
+### warnings?
 
-• `Optional` **warnings**: [`OnPageResourceIssueItemInfo`](OnPageResourceIssueItemInfo.md)[]
+> **`optional`** **warnings**: [`OnPageResourceIssueItemInfo`](OnPageResourceIssueItemInfo.md)[]
 
 resource warnings
 
 #### Implementation of
 
-[IOnPageResourceIssueInfo](../interfaces/IOnPageResourceIssueInfo.md).[warnings](../interfaces/IOnPageResourceIssueInfo.md#warnings)
+[`IOnPageResourceIssueInfo`](../interfaces/IOnPageResourceIssueInfo.md).[`warnings`](../interfaces/IOnPageResourceIssueInfo.md#warnings)
 
-#### Defined in
+#### Source
 
-main.ts:150095
+main.ts:150103
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:150108
+main.ts:150116
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:150134
+main.ts:150142
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPageResourceIssueInfo`](OnPageResourceIssueInfo.md)
+> **`static`** **fromJS**(`data`): [`OnPageResourceIssueInfo`](OnPageResourceIssueInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`OnPageResourceIssueInfo`](OnPageResourceIssueInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:150127
+main.ts:150135

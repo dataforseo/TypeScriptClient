@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentAnalysisIdListRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ContentAnalysisIdListRequestInfo
 
 # Class: ContentAnalysisIdListRequestInfo
 
@@ -8,54 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ContentAnalysisIdListRequestInfo.md#constructor)
-
-### Properties
-
-- [datetime\_from](ContentAnalysisIdListRequestInfo.md#datetime_from)
-- [datetime\_to](ContentAnalysisIdListRequestInfo.md#datetime_to)
-- [include\_metadata](ContentAnalysisIdListRequestInfo.md#include_metadata)
-- [limit](ContentAnalysisIdListRequestInfo.md#limit)
-- [offset](ContentAnalysisIdListRequestInfo.md#offset)
-- [sort](ContentAnalysisIdListRequestInfo.md#sort)
-
-### Methods
-
-- [init](ContentAnalysisIdListRequestInfo.md#init)
-- [toJSON](ContentAnalysisIdListRequestInfo.md#tojson)
-- [fromJS](ContentAnalysisIdListRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ContentAnalysisIdListRequestInfo(data)
 
-• **new ContentAnalysisIdListRequestInfo**(`data?`): [`ContentAnalysisIdListRequestInfo`](ContentAnalysisIdListRequestInfo.md)
+> **new ContentAnalysisIdListRequestInfo**(`data`?): [`ContentAnalysisIdListRequestInfo`](ContentAnalysisIdListRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IContentAnalysisIdListRequestInfo`](../interfaces/IContentAnalysisIdListRequestInfo.md) |
+• **data?**: [`IContentAnalysisIdListRequestInfo`](../interfaces/IContentAnalysisIdListRequestInfo.md)
 
 #### Returns
 
 [`ContentAnalysisIdListRequestInfo`](ContentAnalysisIdListRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:160470
+main.ts:160478
 
 ## Properties
 
-### datetime\_from
+### datetime\_from?
 
-• `Optional` **datetime\_from**: `string`
+> **`optional`** **datetime\_from**: `string`
 
 start time for filtering results
 required field
@@ -67,17 +48,17 @@ example:
 
 #### Implementation of
 
-[IContentAnalysisIdListRequestInfo](../interfaces/IContentAnalysisIdListRequestInfo.md).[datetime_from](../interfaces/IContentAnalysisIdListRequestInfo.md#datetime_from)
+[`IContentAnalysisIdListRequestInfo`](../interfaces/IContentAnalysisIdListRequestInfo.md).[`datetime_from`](../interfaces/IContentAnalysisIdListRequestInfo.md#datetime_from)
 
-#### Defined in
+#### Source
 
-main.ts:160440
+main.ts:160448
 
-___
+***
 
-### datetime\_to
+### datetime\_to?
 
-• `Optional` **datetime\_to**: `string`
+> **`optional`** **datetime\_to**: `string`
 
 finish time for filtering results
 required field
@@ -88,17 +69,17 @@ example:
 
 #### Implementation of
 
-[IContentAnalysisIdListRequestInfo](../interfaces/IContentAnalysisIdListRequestInfo.md).[datetime_to](../interfaces/IContentAnalysisIdListRequestInfo.md#datetime_to)
+[`IContentAnalysisIdListRequestInfo`](../interfaces/IContentAnalysisIdListRequestInfo.md).[`datetime_to`](../interfaces/IContentAnalysisIdListRequestInfo.md#datetime_to)
 
-#### Defined in
+#### Source
 
-main.ts:160447
+main.ts:160455
 
-___
+***
 
-### include\_metadata
+### include\_metadata?
 
-• `Optional` **include\_metadata**: `boolean`
+> **`optional`** **include\_metadata**: `boolean`
 
 include task metadata in the respond
 optional field
@@ -106,17 +87,17 @@ default value: false
 
 #### Implementation of
 
-[IContentAnalysisIdListRequestInfo](../interfaces/IContentAnalysisIdListRequestInfo.md).[include_metadata](../interfaces/IContentAnalysisIdListRequestInfo.md#include_metadata)
+[`IContentAnalysisIdListRequestInfo`](../interfaces/IContentAnalysisIdListRequestInfo.md).[`include_metadata`](../interfaces/IContentAnalysisIdListRequestInfo.md#include_metadata)
 
-#### Defined in
+#### Source
 
-main.ts:160466
+main.ts:160474
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned task IDs
 optional field
@@ -125,17 +106,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IContentAnalysisIdListRequestInfo](../interfaces/IContentAnalysisIdListRequestInfo.md).[limit](../interfaces/IContentAnalysisIdListRequestInfo.md#limit)
+[`IContentAnalysisIdListRequestInfo`](../interfaces/IContentAnalysisIdListRequestInfo.md).[`limit`](../interfaces/IContentAnalysisIdListRequestInfo.md#limit)
 
-#### Defined in
+#### Source
 
-main.ts:160452
+main.ts:160460
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned task IDs
 optional field
@@ -144,17 +125,17 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Implementation of
 
-[IContentAnalysisIdListRequestInfo](../interfaces/IContentAnalysisIdListRequestInfo.md).[offset](../interfaces/IContentAnalysisIdListRequestInfo.md#offset)
+[`IContentAnalysisIdListRequestInfo`](../interfaces/IContentAnalysisIdListRequestInfo.md).[`offset`](../interfaces/IContentAnalysisIdListRequestInfo.md#offset)
 
-#### Defined in
+#### Source
 
-main.ts:160457
+main.ts:160465
 
-___
+***
 
-### sort
+### sort?
 
-• `Optional` **sort**: `string`
+> **`optional`** **sort**: `string`
 
 sorting by task execution time
 optional field
@@ -163,68 +144,62 @@ default value: "asc"
 
 #### Implementation of
 
-[IContentAnalysisIdListRequestInfo](../interfaces/IContentAnalysisIdListRequestInfo.md).[sort](../interfaces/IContentAnalysisIdListRequestInfo.md#sort)
+[`IContentAnalysisIdListRequestInfo`](../interfaces/IContentAnalysisIdListRequestInfo.md).[`sort`](../interfaces/IContentAnalysisIdListRequestInfo.md#sort)
 
-#### Defined in
+#### Source
 
-main.ts:160462
+main.ts:160470
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:160479
+main.ts:160487
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:160501
+main.ts:160509
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ContentAnalysisIdListRequestInfo`](ContentAnalysisIdListRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`ContentAnalysisIdListRequestInfo`](ContentAnalysisIdListRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ContentAnalysisIdListRequestInfo`](ContentAnalysisIdListRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:160494
+main.ts:160502

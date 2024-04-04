@@ -1,112 +1,100 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem
 
 # Interface: IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem
 
 items array
 
-## Implemented by
-
-- [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem`](../classes/DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [categories\_count](IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md#categories_count)
-- [category](IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md#category)
-- [group](IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md#group)
-- [groups\_count](IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md#groups_count)
-- [technologies\_count](IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md#technologies_count)
-- [technology](IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md#technology)
-- [type](IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### categories\_count
+### categories\_count?
 
-• `Optional` **categories\_count**: `number`
+> **`optional`** **categories\_count**: `number`
 
 technology categories count
 number of domains that match the parameters you specified and are using technologies from the indicated category
 
-#### Defined in
+#### Source
 
-main.ts:75185
+main.ts:75193
 
-___
+***
 
-### category
+### category?
 
-• `Optional` **category**: `string`
+> **`optional`** **category**: `string`
 
 technology category id
 
-#### Defined in
+#### Source
 
-main.ts:75177
+main.ts:75185
 
-___
+***
 
-### group
+### group?
 
-• `Optional` **group**: `string`
+> **`optional`** **group**: `string`
 
 technology group id
 
-#### Defined in
+#### Source
 
-main.ts:75175
+main.ts:75183
 
-___
+***
 
-### groups\_count
+### groups\_count?
 
-• `Optional` **groups\_count**: `number`
+> **`optional`** **groups\_count**: `number`
 
 technology groups count
 number of domains that match the parameters you specified and are using technologies from the indicated group
 
-#### Defined in
+#### Source
 
-main.ts:75182
+main.ts:75190
 
-___
+***
 
-### technologies\_count
+### technologies\_count?
 
-• `Optional` **technologies\_count**: `number`
+> **`optional`** **technologies\_count**: `number`
 
 technologies count
 number of domains that match the parameters you specified and are using the indicated technology
 
-#### Defined in
+#### Source
 
-main.ts:75188
+main.ts:75196
 
-___
+***
 
-### technology
+### technology?
 
-• `Optional` **technology**: `string`
+> **`optional`** **technology**: `string`
 
 technology name
 
-#### Defined in
+#### Source
 
-main.ts:75179
+main.ts:75187
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:75173
+main.ts:75181

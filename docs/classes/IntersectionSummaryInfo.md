@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IntersectionSummaryInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IntersectionSummaryInfo
 
 # Class: IntersectionSummaryInfo
 
@@ -8,116 +12,92 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](IntersectionSummaryInfo.md#constructor)
-
-### Properties
-
-- [intersections\_count](IntersectionSummaryInfo.md#intersections_count)
-
-### Methods
-
-- [init](IntersectionSummaryInfo.md#init)
-- [toJSON](IntersectionSummaryInfo.md#tojson)
-- [fromJS](IntersectionSummaryInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new IntersectionSummaryInfo(data)
 
-• **new IntersectionSummaryInfo**(`data?`): [`IntersectionSummaryInfo`](IntersectionSummaryInfo.md)
+> **new IntersectionSummaryInfo**(`data`?): [`IntersectionSummaryInfo`](IntersectionSummaryInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IIntersectionSummaryInfo`](../interfaces/IIntersectionSummaryInfo.md) |
+• **data?**: [`IIntersectionSummaryInfo`](../interfaces/IIntersectionSummaryInfo.md)
 
 #### Returns
 
 [`IntersectionSummaryInfo`](IntersectionSummaryInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:142442
+main.ts:142450
 
 ## Properties
 
-### intersections\_count
+### intersections\_count?
 
-• `Optional` **intersections\_count**: `number`
+> **`optional`** **intersections\_count**: `number`
 
 total number of intersections
 
 #### Implementation of
 
-[IIntersectionSummaryInfo](../interfaces/IIntersectionSummaryInfo.md).[intersections_count](../interfaces/IIntersectionSummaryInfo.md#intersections_count)
+[`IIntersectionSummaryInfo`](../interfaces/IIntersectionSummaryInfo.md).[`intersections_count`](../interfaces/IIntersectionSummaryInfo.md#intersections_count)
 
-#### Defined in
+#### Source
 
-main.ts:142438
+main.ts:142446
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:142451
+main.ts:142459
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:142468
+main.ts:142476
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`IntersectionSummaryInfo`](IntersectionSummaryInfo.md)
+> **`static`** **fromJS**(`data`): [`IntersectionSummaryInfo`](IntersectionSummaryInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`IntersectionSummaryInfo`](IntersectionSummaryInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:142461
+main.ts:142469

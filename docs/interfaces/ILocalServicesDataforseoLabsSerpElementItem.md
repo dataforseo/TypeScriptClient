@@ -1,130 +1,115 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ILocalServicesDataforseoLabsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ILocalServicesDataforseoLabsSerpElementItem
 
 # Interface: ILocalServicesDataforseoLabsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md)
 
-  ↳ **`ILocalServicesDataforseoLabsSerpElementItem`**
-
-## Implemented by
-
-- [`LocalServicesDataforseoLabsSerpElementItem`](../classes/LocalServicesDataforseoLabsSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [domain](ILocalServicesDataforseoLabsSerpElementItem.md#domain)
-- [items](ILocalServicesDataforseoLabsSerpElementItem.md#items)
-- [position](ILocalServicesDataforseoLabsSerpElementItem.md#position)
-- [rank\_absolute](ILocalServicesDataforseoLabsSerpElementItem.md#rank_absolute)
-- [rank\_group](ILocalServicesDataforseoLabsSerpElementItem.md#rank_group)
-- [title](ILocalServicesDataforseoLabsSerpElementItem.md#title)
-- [url](ILocalServicesDataforseoLabsSerpElementItem.md#url)
-- [xpath](ILocalServicesDataforseoLabsSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain where a link points
 
-#### Defined in
+#### Source
 
-main.ts:98473
+main.ts:98481
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`LocalServicesElement`](../classes/LocalServicesElement.md)[]
+> **`optional`** **items**: [`LocalServicesElement`](../classes/LocalServicesElement.md)[]
 
 elements of search results found in SERP
 
-#### Defined in
+#### Source
 
-main.ts:98475
+main.ts:98483
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
-main.ts:98465
+main.ts:98473
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Defined in
+#### Source
 
-main.ts:98461
+main.ts:98469
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
-main.ts:98458
+main.ts:98466
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the result in SERP
 
-#### Defined in
+#### Source
 
-main.ts:98469
+main.ts:98477
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 relevant URL of the Ad element in SERP
 
-#### Defined in
+#### Source
 
-main.ts:98471
+main.ts:98479
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
-main.ts:98467
+main.ts:98475

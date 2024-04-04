@@ -1,42 +1,35 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksBulkSpamScoreLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBacklinksBulkSpamScoreLiveResultInfo
 
 # Interface: IBacklinksBulkSpamScoreLiveResultInfo
 
-## Implemented by
-
-- [`BacklinksBulkSpamScoreLiveResultInfo`](../classes/BacklinksBulkSpamScoreLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IBacklinksBulkSpamScoreLiveResultInfo.md#items)
-- [items\_count](IBacklinksBulkSpamScoreLiveResultInfo.md#items_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`BacklinksBulkSpamScoreLiveItem`](../classes/BacklinksBulkSpamScoreLiveItem.md)[]
+> **`optional`** **items**: [`BacklinksBulkSpamScoreLiveItem`](../classes/BacklinksBulkSpamScoreLiveItem.md)[]
 
 contains relevant backlinks and referring domains data
 
-#### Defined in
+#### Source
 
-main.ts:145629
+main.ts:145637
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Defined in
+#### Source
 
-main.ts:145627
+main.ts:145635

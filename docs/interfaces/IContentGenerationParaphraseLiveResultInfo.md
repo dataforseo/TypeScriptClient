@@ -1,68 +1,59 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentGenerationParaphraseLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IContentGenerationParaphraseLiveResultInfo
 
 # Interface: IContentGenerationParaphraseLiveResultInfo
 
-## Implemented by
-
-- [`ContentGenerationParaphraseLiveResultInfo`](../classes/ContentGenerationParaphraseLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [generated\_text](IContentGenerationParaphraseLiveResultInfo.md#generated_text)
-- [input\_tokens](IContentGenerationParaphraseLiveResultInfo.md#input_tokens)
-- [new\_tokens](IContentGenerationParaphraseLiveResultInfo.md#new_tokens)
-- [output\_tokens](IContentGenerationParaphraseLiveResultInfo.md#output_tokens)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### generated\_text
+### generated\_text?
 
-• `Optional` **generated\_text**: `string`
+> **`optional`** **generated\_text**: `string`
 
 paraphrased version of the given text
 
-#### Defined in
+#### Source
 
-main.ts:166689
+main.ts:166697
 
-___
+***
 
-### input\_tokens
+### input\_tokens?
 
-• `Optional` **input\_tokens**: `number`
+> **`optional`** **input\_tokens**: `number`
 
 number of input tokens in the POST request
 
-#### Defined in
+#### Source
 
-main.ts:166683
+main.ts:166691
 
-___
+***
 
-### new\_tokens
+### new\_tokens?
 
-• `Optional` **new\_tokens**: `number`
+> **`optional`** **new\_tokens**: `number`
 
 number of new tokens in the response
 
-#### Defined in
+#### Source
 
-main.ts:166687
+main.ts:166695
 
-___
+***
 
-### output\_tokens
+### output\_tokens?
 
-• `Optional` **output\_tokens**: `number`
+> **`optional`** **output\_tokens**: `number`
 
 number of output tokens in the response
 
-#### Defined in
+#### Source
 
-main.ts:166685
+main.ts:166693

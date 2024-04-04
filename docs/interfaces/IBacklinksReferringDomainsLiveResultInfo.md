@@ -1,70 +1,61 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksReferringDomainsLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBacklinksReferringDomainsLiveResultInfo
 
 # Interface: IBacklinksReferringDomainsLiveResultInfo
 
-## Implemented by
-
-- [`BacklinksReferringDomainsLiveResultInfo`](../classes/BacklinksReferringDomainsLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IBacklinksReferringDomainsLiveResultInfo.md#items)
-- [items\_count](IBacklinksReferringDomainsLiveResultInfo.md#items_count)
-- [target](IBacklinksReferringDomainsLiveResultInfo.md#target)
-- [total\_count](IBacklinksReferringDomainsLiveResultInfo.md#total_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`BacklinksReferringDomainsLiveItem`](../classes/BacklinksReferringDomainsLiveItem.md)[]
+> **`optional`** **items**: [`BacklinksReferringDomainsLiveItem`](../classes/BacklinksReferringDomainsLiveItem.md)[]
 
 items array
 
-#### Defined in
+#### Source
 
-main.ts:140445
+main.ts:140453
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 number of items in the items array
 
-#### Defined in
+#### Source
 
-main.ts:140443
+main.ts:140451
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 target in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:140437
+main.ts:140445
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total number of relevant items in the database
 total number of main domains referring to your target;
 example.com and blog.example.com are counted as one referring domain
 
-#### Defined in
+#### Source
 
-main.ts:140441
+main.ts:140449

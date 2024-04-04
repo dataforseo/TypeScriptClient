@@ -1,66 +1,57 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageResourceIssueItemInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IOnPageResourceIssueItemInfo
 
 # Interface: IOnPageResourceIssueItemInfo
 
-## Implemented by
-
-- [`OnPageResourceIssueItemInfo`](../classes/OnPageResourceIssueItemInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [column](IOnPageResourceIssueItemInfo.md#column)
-- [line](IOnPageResourceIssueItemInfo.md#line)
-- [message](IOnPageResourceIssueItemInfo.md#message)
-- [status\_code](IOnPageResourceIssueItemInfo.md#status_code)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### column
+### column?
 
-• `Optional` **column**: `number`
+> **`optional`** **column**: `number`
 
 column where the error was found
 
-#### Defined in
+#### Source
 
-main.ts:150071
+main.ts:150079
 
-___
+***
 
-### line
+### line?
 
-• `Optional` **line**: `number`
+> **`optional`** **line**: `number`
 
 line where the error was found
 
-#### Defined in
+#### Source
 
-main.ts:150069
+main.ts:150077
 
-___
+***
 
-### message
+### message?
 
-• `Optional` **message**: `string`
+> **`optional`** **message**: `string`
 
 text message of the error
 the full list of possible HTML errors can be found here
 
-#### Defined in
+#### Source
 
-main.ts:150074
+main.ts:150082
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the error
 possible values:
@@ -73,6 +64,6 @@ possible values:
 3503 — Image Size Is Zero;
 3504 — Image Format Invalid
 
-#### Defined in
+#### Source
 
-main.ts:150085
+main.ts:150093

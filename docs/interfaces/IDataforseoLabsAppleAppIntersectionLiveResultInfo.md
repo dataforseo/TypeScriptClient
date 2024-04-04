@@ -1,111 +1,99 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAppleAppIntersectionLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsAppleAppIntersectionLiveResultInfo
 
 # Interface: IDataforseoLabsAppleAppIntersectionLiveResultInfo
 
-## Implemented by
-
-- [`DataforseoLabsAppleAppIntersectionLiveResultInfo`](../classes/DataforseoLabsAppleAppIntersectionLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [app\_ids](IDataforseoLabsAppleAppIntersectionLiveResultInfo.md#app_ids)
-- [items](IDataforseoLabsAppleAppIntersectionLiveResultInfo.md#items)
-- [items\_count](IDataforseoLabsAppleAppIntersectionLiveResultInfo.md#items_count)
-- [language\_code](IDataforseoLabsAppleAppIntersectionLiveResultInfo.md#language_code)
-- [location\_code](IDataforseoLabsAppleAppIntersectionLiveResultInfo.md#location_code)
-- [se\_type](IDataforseoLabsAppleAppIntersectionLiveResultInfo.md#se_type)
-- [total\_count](IDataforseoLabsAppleAppIntersectionLiveResultInfo.md#total_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### app\_ids
+### app\_ids?
 
-• `Optional` **app\_ids**: `Object`
+> **`optional`** **app\_ids**: `Object`
 
 ids of the apps in a POST array
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
-#### Defined in
-
-main.ts:114470
-
-___
-
-### items
-
-• `Optional` **items**: [`DataforseoLabsleAppIntersectionLiveItem`](../classes/DataforseoLabsleAppIntersectionLiveItem.md)[]
-
-contains data related to the ranking keywords for the app specified in the app_id field
-
-#### Defined in
-
-main.ts:114480
-
-___
-
-### items\_count
-
-• `Optional` **items\_count**: `number`
-
-the number of results returned in the items array
-
-#### Defined in
+#### Source
 
 main.ts:114478
 
-___
+***
 
-### language\_code
+### items?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **items**: [`DataforseoLabsleAppIntersectionLiveItem`](../classes/DataforseoLabsleAppIntersectionLiveItem.md)[]
+
+contains data related to the ranking keywords for the app specified in the app_id field
+
+#### Source
+
+main.ts:114488
+
+***
+
+### items\_count?
+
+> **`optional`** **items\_count**: `number`
+
+the number of results returned in the items array
+
+#### Source
+
+main.ts:114486
+
+***
+
+### language\_code?
+
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:114474
+main.ts:114482
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:114472
+main.ts:114480
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:114468
+main.ts:114476
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
-#### Defined in
+#### Source
 
-main.ts:114476
+main.ts:114484

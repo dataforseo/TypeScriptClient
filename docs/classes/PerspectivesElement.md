@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / PerspectivesElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / PerspectivesElement
 
 # Class: PerspectivesElement
 
@@ -8,121 +12,96 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](PerspectivesElement.md#constructor)
-
-### Properties
-
-- [date](PerspectivesElement.md#date)
-- [description](PerspectivesElement.md#description)
-- [domain](PerspectivesElement.md#domain)
-- [source](PerspectivesElement.md#source)
-- [timestamp](PerspectivesElement.md#timestamp)
-- [title](PerspectivesElement.md#title)
-- [type](PerspectivesElement.md#type)
-- [url](PerspectivesElement.md#url)
-
-### Methods
-
-- [init](PerspectivesElement.md#init)
-- [toJSON](PerspectivesElement.md#tojson)
-- [fromJS](PerspectivesElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new PerspectivesElement(data)
 
-• **new PerspectivesElement**(`data?`): [`PerspectivesElement`](PerspectivesElement.md)
+> **new PerspectivesElement**(`data`?): [`PerspectivesElement`](PerspectivesElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IPerspectivesElement`](../interfaces/IPerspectivesElement.md) |
+• **data?**: [`IPerspectivesElement`](../interfaces/IPerspectivesElement.md)
 
 #### Returns
 
 [`PerspectivesElement`](PerspectivesElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:36371
+main.ts:36377
 
 ## Properties
 
-### date
+### date?
 
-• `Optional` **date**: `string`
+> **`optional`** **date**: `string`
 
 the date when the page source of the element was published
 
 #### Implementation of
 
-[IPerspectivesElement](../interfaces/IPerspectivesElement.md).[date](../interfaces/IPerspectivesElement.md#date)
+[`IPerspectivesElement`](../interfaces/IPerspectivesElement.md).[`date`](../interfaces/IPerspectivesElement.md#date)
 
-#### Defined in
+#### Source
 
-main.ts:36359
+main.ts:36365
 
-___
+***
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description
 
 #### Implementation of
 
-[IPerspectivesElement](../interfaces/IPerspectivesElement.md).[description](../interfaces/IPerspectivesElement.md#description)
+[`IPerspectivesElement`](../interfaces/IPerspectivesElement.md).[`description`](../interfaces/IPerspectivesElement.md#description)
 
-#### Defined in
+#### Source
 
-main.ts:36353
+main.ts:36359
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 website domain
 
 #### Implementation of
 
-[IPerspectivesElement](../interfaces/IPerspectivesElement.md).[domain](../interfaces/IPerspectivesElement.md#domain)
+[`IPerspectivesElement`](../interfaces/IPerspectivesElement.md).[`domain`](../interfaces/IPerspectivesElement.md#domain)
 
-#### Defined in
+#### Source
 
-main.ts:36357
+main.ts:36363
 
-___
+***
 
-### source
+### source?
 
-• `Optional` **source**: `string`
+> **`optional`** **source**: `string`
 
 source of the element
 indicates the source of information included in the top_stories_element
 
 #### Implementation of
 
-[IPerspectivesElement](../interfaces/IPerspectivesElement.md).[source](../interfaces/IPerspectivesElement.md#source)
+[`IPerspectivesElement`](../interfaces/IPerspectivesElement.md).[`source`](../interfaces/IPerspectivesElement.md#source)
 
-#### Defined in
+#### Source
 
-main.ts:36362
+main.ts:36368
 
-___
+***
 
-### timestamp
+### timestamp?
 
-• `Optional` **timestamp**: `string`
+> **`optional`** **timestamp**: `string`
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -131,116 +110,110 @@ example:
 
 #### Implementation of
 
-[IPerspectivesElement](../interfaces/IPerspectivesElement.md).[timestamp](../interfaces/IPerspectivesElement.md#timestamp)
+[`IPerspectivesElement`](../interfaces/IPerspectivesElement.md).[`timestamp`](../interfaces/IPerspectivesElement.md#timestamp)
 
-#### Defined in
+#### Source
 
-main.ts:36367
+main.ts:36373
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
 #### Implementation of
 
-[IPerspectivesElement](../interfaces/IPerspectivesElement.md).[title](../interfaces/IPerspectivesElement.md#title)
+[`IPerspectivesElement`](../interfaces/IPerspectivesElement.md).[`title`](../interfaces/IPerspectivesElement.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:36351
+main.ts:36357
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IPerspectivesElement](../interfaces/IPerspectivesElement.md).[type](../interfaces/IPerspectivesElement.md#type)
+[`IPerspectivesElement`](../interfaces/IPerspectivesElement.md).[`type`](../interfaces/IPerspectivesElement.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:36349
+main.ts:36355
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL
 
 #### Implementation of
 
-[IPerspectivesElement](../interfaces/IPerspectivesElement.md).[url](../interfaces/IPerspectivesElement.md#url)
+[`IPerspectivesElement`](../interfaces/IPerspectivesElement.md).[`url`](../interfaces/IPerspectivesElement.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:36355
+main.ts:36361
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:36380
+main.ts:36386
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:36404
+main.ts:36410
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`PerspectivesElement`](PerspectivesElement.md)
+> **`static`** **fromJS**(`data`): [`PerspectivesElement`](PerspectivesElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`PerspectivesElement`](PerspectivesElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:36397
+main.ts:36403

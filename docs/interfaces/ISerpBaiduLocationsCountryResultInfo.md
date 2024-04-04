@@ -1,84 +1,74 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpBaiduLocationsCountryResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ISerpBaiduLocationsCountryResultInfo
 
 # Interface: ISerpBaiduLocationsCountryResultInfo
 
-## Implemented by
-
-- [`SerpBaiduLocationsCountryResultInfo`](../classes/SerpBaiduLocationsCountryResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [country\_iso\_code](ISerpBaiduLocationsCountryResultInfo.md#country_iso_code)
-- [location\_code](ISerpBaiduLocationsCountryResultInfo.md#location_code)
-- [location\_code\_parent](ISerpBaiduLocationsCountryResultInfo.md#location_code_parent)
-- [location\_name](ISerpBaiduLocationsCountryResultInfo.md#location_name)
-- [location\_type](ISerpBaiduLocationsCountryResultInfo.md#location_type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### country\_iso\_code
+### country\_iso\_code?
 
-• `Optional` **country\_iso\_code**: `string`
+> **`optional`** **country\_iso\_code**: `string`
 
 ISO country code of the location
 
-#### Defined in
+#### Source
 
-main.ts:67839
+main.ts:67847
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 
-#### Defined in
+#### Source
 
-main.ts:67831
+main.ts:67839
 
-___
+***
 
-### location\_code\_parent
+### location\_code\_parent?
 
-• `Optional` **location\_code\_parent**: `number`
+> **`optional`** **location\_code\_parent**: `number`
 
 the code of the superordinate location
 only City location_type is supported for all countries except China (where Country is also supported);
 don’t match locations by location_code_parent because the results for Region and Country-level results for most countries are not supported by Baidu SERP API
 
-#### Defined in
+#### Source
 
-main.ts:67837
+main.ts:67845
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 
-#### Defined in
+#### Source
 
-main.ts:67833
+main.ts:67841
 
-___
+***
 
-### location\_type
+### location\_type?
 
-• `Optional` **location\_type**: `string`
+> **`optional`** **location\_type**: `string`
 
 location type
 only City is supported for all countries except China (where Country is also supported)
 
-#### Defined in
+#### Source
 
-main.ts:67842
+main.ts:67850

@@ -1,31 +1,25 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentAnalysisAvailableFiltersResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IContentAnalysisAvailableFiltersResultInfo
 
 # Interface: IContentAnalysisAvailableFiltersResultInfo
 
-## Implemented by
-
-- [`ContentAnalysisAvailableFiltersResultInfo`](../classes/ContentAnalysisAvailableFiltersResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [search](IContentAnalysisAvailableFiltersResultInfo.md#search)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### search
+### search?
 
-• `Optional` **search**: `Object`
+> **`optional`** **search**: `Object`
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
-#### Defined in
+#### Source
 
-main.ts:160835
+main.ts:160843

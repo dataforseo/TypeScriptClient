@@ -1,154 +1,139 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpGoogleDatasetSearchLiveAdvancedResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ISerpGoogleDatasetSearchLiveAdvancedResultInfo
 
 # Interface: ISerpGoogleDatasetSearchLiveAdvancedResultInfo
 
-## Implemented by
-
-- [`SerpGoogleDatasetSearchLiveAdvancedResultInfo`](../classes/SerpGoogleDatasetSearchLiveAdvancedResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [check\_url](ISerpGoogleDatasetSearchLiveAdvancedResultInfo.md#check_url)
-- [datetime](ISerpGoogleDatasetSearchLiveAdvancedResultInfo.md#datetime)
-- [item\_types](ISerpGoogleDatasetSearchLiveAdvancedResultInfo.md#item_types)
-- [items](ISerpGoogleDatasetSearchLiveAdvancedResultInfo.md#items)
-- [items\_count](ISerpGoogleDatasetSearchLiveAdvancedResultInfo.md#items_count)
-- [keyword](ISerpGoogleDatasetSearchLiveAdvancedResultInfo.md#keyword)
-- [language\_code](ISerpGoogleDatasetSearchLiveAdvancedResultInfo.md#language_code)
-- [se\_domain](ISerpGoogleDatasetSearchLiveAdvancedResultInfo.md#se_domain)
-- [se\_results\_count](ISerpGoogleDatasetSearchLiveAdvancedResultInfo.md#se_results_count)
-- [spell](ISerpGoogleDatasetSearchLiveAdvancedResultInfo.md#spell)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### check\_url
+### check\_url?
 
-• `Optional` **check\_url**: `string`
+> **`optional`** **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
 
-#### Defined in
+#### Source
 
-main.ts:54022
+main.ts:54030
 
-___
+***
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
-main.ts:54027
+main.ts:54035
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
 possible item type: dataset
 
-#### Defined in
+#### Source
 
-main.ts:54034
+main.ts:54042
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
+> **`optional`** **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
 
 elements of search results found in SERP
 
-#### Defined in
+#### Source
 
-main.ts:54040
+main.ts:54048
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Defined in
+#### Source
 
-main.ts:54038
+main.ts:54046
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword received in a POST array
 the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
 
-#### Defined in
+#### Source
 
-main.ts:54015
+main.ts:54023
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:54019
+main.ts:54027
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:54017
+main.ts:54025
 
-___
+***
 
-### se\_results\_count
+### se\_results\_count?
 
-• `Optional` **se\_results\_count**: `number`
+> **`optional`** **se\_results\_count**: `number`
 
 total number of results in SERP
 
-#### Defined in
+#### Source
 
-main.ts:54036
+main.ts:54044
 
-___
+***
 
-### spell
+### spell?
 
-• `Optional` **spell**: [`SpellInfo`](../classes/SpellInfo.md)
+> **`optional`** **spell**: [`SpellInfo`](../classes/SpellInfo.md)
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
 
-#### Defined in
+#### Source
 
-main.ts:54030
+main.ts:54038

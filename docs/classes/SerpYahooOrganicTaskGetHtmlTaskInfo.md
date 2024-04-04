@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpYahooOrganicTaskGetHtmlTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpYahooOrganicTaskGetHtmlTaskInfo
 
 # Class: SerpYahooOrganicTaskGetHtmlTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`SerpYahooOrganicTaskGetHtmlTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpYahooOrganicTaskGetHtmlTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](SerpYahooOrganicTaskGetHtmlTaskInfo.md#cost)
-- [data](SerpYahooOrganicTaskGetHtmlTaskInfo.md#data)
-- [id](SerpYahooOrganicTaskGetHtmlTaskInfo.md#id)
-- [path](SerpYahooOrganicTaskGetHtmlTaskInfo.md#path)
-- [result](SerpYahooOrganicTaskGetHtmlTaskInfo.md#result)
-- [result\_count](SerpYahooOrganicTaskGetHtmlTaskInfo.md#result_count)
-- [status\_code](SerpYahooOrganicTaskGetHtmlTaskInfo.md#status_code)
-- [status\_message](SerpYahooOrganicTaskGetHtmlTaskInfo.md#status_message)
-- [time](SerpYahooOrganicTaskGetHtmlTaskInfo.md#time)
-
-### Methods
-
-- [init](SerpYahooOrganicTaskGetHtmlTaskInfo.md#init)
-- [toJSON](SerpYahooOrganicTaskGetHtmlTaskInfo.md#tojson)
-- [fromJS](SerpYahooOrganicTaskGetHtmlTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpYahooOrganicTaskGetHtmlTaskInfo(data)
 
-• **new SerpYahooOrganicTaskGetHtmlTaskInfo**(`data?`): [`SerpYahooOrganicTaskGetHtmlTaskInfo`](SerpYahooOrganicTaskGetHtmlTaskInfo.md)
+> **new SerpYahooOrganicTaskGetHtmlTaskInfo**(`data`?): [`SerpYahooOrganicTaskGetHtmlTaskInfo`](SerpYahooOrganicTaskGetHtmlTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpYahooOrganicTaskGetHtmlTaskInfo`](../interfaces/ISerpYahooOrganicTaskGetHtmlTaskInfo.md) |
+• **data?**: [`ISerpYahooOrganicTaskGetHtmlTaskInfo`](../interfaces/ISerpYahooOrganicTaskGetHtmlTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:66735
+main.ts:66743
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[ISerpYahooOrganicTaskGetHtmlTaskInfo](../interfaces/ISerpYahooOrganicTaskGetHtmlTaskInfo.md).[cost](../interfaces/ISerpYahooOrganicTaskGetHtmlTaskInfo.md#cost)
+[`ISerpYahooOrganicTaskGetHtmlTaskInfo`](../interfaces/ISerpYahooOrganicTaskGetHtmlTaskInfo.md).[`cost`](../interfaces/ISerpYahooOrganicTaskGetHtmlTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[ISerpYahooOrganicTaskGetHtmlTaskInfo](../interfaces/ISerpYahooOrganicTaskGetHtmlTaskInfo.md).[data](../interfaces/ISerpYahooOrganicTaskGetHtmlTaskInfo.md#data)
+[`ISerpYahooOrganicTaskGetHtmlTaskInfo`](../interfaces/ISerpYahooOrganicTaskGetHtmlTaskInfo.md).[`data`](../interfaces/ISerpYahooOrganicTaskGetHtmlTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[ISerpYahooOrganicTaskGetHtmlTaskInfo](../interfaces/ISerpYahooOrganicTaskGetHtmlTaskInfo.md).[id](../interfaces/ISerpYahooOrganicTaskGetHtmlTaskInfo.md#id)
+[`ISerpYahooOrganicTaskGetHtmlTaskInfo`](../interfaces/ISerpYahooOrganicTaskGetHtmlTaskInfo.md).[`id`](../interfaces/ISerpYahooOrganicTaskGetHtmlTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[ISerpYahooOrganicTaskGetHtmlTaskInfo](../interfaces/ISerpYahooOrganicTaskGetHtmlTaskInfo.md).[path](../interfaces/ISerpYahooOrganicTaskGetHtmlTaskInfo.md#path)
+[`ISerpYahooOrganicTaskGetHtmlTaskInfo`](../interfaces/ISerpYahooOrganicTaskGetHtmlTaskInfo.md).[`path`](../interfaces/ISerpYahooOrganicTaskGetHtmlTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`SerpYahooOrganicTaskGetHtmlResultInfo`](SerpYahooOrganicTaskGetHtmlResultInfo.md)[]
+> **`optional`** **result**: [`SerpYahooOrganicTaskGetHtmlResultInfo`](SerpYahooOrganicTaskGetHtmlResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[ISerpYahooOrganicTaskGetHtmlTaskInfo](../interfaces/ISerpYahooOrganicTaskGetHtmlTaskInfo.md).[result](../interfaces/ISerpYahooOrganicTaskGetHtmlTaskInfo.md#result)
+[`ISerpYahooOrganicTaskGetHtmlTaskInfo`](../interfaces/ISerpYahooOrganicTaskGetHtmlTaskInfo.md).[`result`](../interfaces/ISerpYahooOrganicTaskGetHtmlTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:66731
+main.ts:66739
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[ISerpYahooOrganicTaskGetHtmlTaskInfo](../interfaces/ISerpYahooOrganicTaskGetHtmlTaskInfo.md).[result_count](../interfaces/ISerpYahooOrganicTaskGetHtmlTaskInfo.md#result_count)
+[`ISerpYahooOrganicTaskGetHtmlTaskInfo`](../interfaces/ISerpYahooOrganicTaskGetHtmlTaskInfo.md).[`result_count`](../interfaces/ISerpYahooOrganicTaskGetHtmlTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[ISerpYahooOrganicTaskGetHtmlTaskInfo](../interfaces/ISerpYahooOrganicTaskGetHtmlTaskInfo.md).[status_code](../interfaces/ISerpYahooOrganicTaskGetHtmlTaskInfo.md#status_code)
+[`ISerpYahooOrganicTaskGetHtmlTaskInfo`](../interfaces/ISerpYahooOrganicTaskGetHtmlTaskInfo.md).[`status_code`](../interfaces/ISerpYahooOrganicTaskGetHtmlTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[ISerpYahooOrganicTaskGetHtmlTaskInfo](../interfaces/ISerpYahooOrganicTaskGetHtmlTaskInfo.md).[status_message](../interfaces/ISerpYahooOrganicTaskGetHtmlTaskInfo.md#status_message)
+[`ISerpYahooOrganicTaskGetHtmlTaskInfo`](../interfaces/ISerpYahooOrganicTaskGetHtmlTaskInfo.md).[`status_message`](../interfaces/ISerpYahooOrganicTaskGetHtmlTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[ISerpYahooOrganicTaskGetHtmlTaskInfo](../interfaces/ISerpYahooOrganicTaskGetHtmlTaskInfo.md).[time](../interfaces/ISerpYahooOrganicTaskGetHtmlTaskInfo.md#time)
+[`ISerpYahooOrganicTaskGetHtmlTaskInfo`](../interfaces/ISerpYahooOrganicTaskGetHtmlTaskInfo.md).[`time`](../interfaces/ISerpYahooOrganicTaskGetHtmlTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:66739
+main.ts:66747
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:66761
+main.ts:66769
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpYahooOrganicTaskGetHtmlTaskInfo`](SerpYahooOrganicTaskGetHtmlTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpYahooOrganicTaskGetHtmlTaskInfo`](SerpYahooOrganicTaskGetHtmlTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:66754
+main.ts:66762

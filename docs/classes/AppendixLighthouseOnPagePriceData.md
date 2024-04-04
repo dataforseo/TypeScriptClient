@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixLighthouseOnPagePriceData
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppendixLighthouseOnPagePriceData
 
 # Class: AppendixLighthouseOnPagePriceData
 
@@ -8,159 +12,132 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixLighthouseOnPagePriceData.md#constructor)
-
-### Properties
-
-- [live](AppendixLighthouseOnPagePriceData.md#live)
-- [task\_get](AppendixLighthouseOnPagePriceData.md#task_get)
-- [task\_post](AppendixLighthouseOnPagePriceData.md#task_post)
-- [tasks\_ready](AppendixLighthouseOnPagePriceData.md#tasks_ready)
-
-### Methods
-
-- [init](AppendixLighthouseOnPagePriceData.md#init)
-- [toJSON](AppendixLighthouseOnPagePriceData.md#tojson)
-- [fromJS](AppendixLighthouseOnPagePriceData.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixLighthouseOnPagePriceData(data)
 
-• **new AppendixLighthouseOnPagePriceData**(`data?`): [`AppendixLighthouseOnPagePriceData`](AppendixLighthouseOnPagePriceData.md)
+> **new AppendixLighthouseOnPagePriceData**(`data`?): [`AppendixLighthouseOnPagePriceData`](AppendixLighthouseOnPagePriceData.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixLighthouseOnPagePriceData`](../interfaces/IAppendixLighthouseOnPagePriceData.md) |
+• **data?**: [`IAppendixLighthouseOnPagePriceData`](../interfaces/IAppendixLighthouseOnPagePriceData.md)
 
 #### Returns
 
 [`AppendixLighthouseOnPagePriceData`](AppendixLighthouseOnPagePriceData.md)
 
-#### Defined in
+#### Source
 
 main.ts:217547
 
 ## Properties
 
-### live
+### live?
 
-• `Optional` **live**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **live**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixLighthouseOnPagePriceData](../interfaces/IAppendixLighthouseOnPagePriceData.md).[live](../interfaces/IAppendixLighthouseOnPagePriceData.md#live)
+[`IAppendixLighthouseOnPagePriceData`](../interfaces/IAppendixLighthouseOnPagePriceData.md).[`live`](../interfaces/IAppendixLighthouseOnPagePriceData.md#live)
 
-#### Defined in
+#### Source
 
 main.ts:217540
 
-___
+***
 
-### task\_get
+### task\_get?
 
-• `Optional` **task\_get**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **task\_get**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixLighthouseOnPagePriceData](../interfaces/IAppendixLighthouseOnPagePriceData.md).[task_get](../interfaces/IAppendixLighthouseOnPagePriceData.md#task_get)
+[`IAppendixLighthouseOnPagePriceData`](../interfaces/IAppendixLighthouseOnPagePriceData.md).[`task_get`](../interfaces/IAppendixLighthouseOnPagePriceData.md#task_get)
 
-#### Defined in
+#### Source
 
 main.ts:217541
 
-___
+***
 
-### task\_post
+### task\_post?
 
-• `Optional` **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixLighthouseOnPagePriceData](../interfaces/IAppendixLighthouseOnPagePriceData.md).[task_post](../interfaces/IAppendixLighthouseOnPagePriceData.md#task_post)
+[`IAppendixLighthouseOnPagePriceData`](../interfaces/IAppendixLighthouseOnPagePriceData.md).[`task_post`](../interfaces/IAppendixLighthouseOnPagePriceData.md#task_post)
 
-#### Defined in
+#### Source
 
 main.ts:217542
 
-___
+***
 
-### tasks\_ready
+### tasks\_ready?
 
-• `Optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixLighthouseOnPagePriceData](../interfaces/IAppendixLighthouseOnPagePriceData.md).[tasks_ready](../interfaces/IAppendixLighthouseOnPagePriceData.md#tasks_ready)
+[`IAppendixLighthouseOnPagePriceData`](../interfaces/IAppendixLighthouseOnPagePriceData.md).[`tasks_ready`](../interfaces/IAppendixLighthouseOnPagePriceData.md#tasks_ready)
 
-#### Defined in
+#### Source
 
 main.ts:217543
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:217556
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:217576
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppendixLighthouseOnPagePriceData`](AppendixLighthouseOnPagePriceData.md)
+> **`static`** **fromJS**(`data`): [`AppendixLighthouseOnPagePriceData`](AppendixLighthouseOnPagePriceData.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppendixLighthouseOnPagePriceData`](AppendixLighthouseOnPagePriceData.md)
 
-#### Defined in
+#### Source
 
 main.ts:217569

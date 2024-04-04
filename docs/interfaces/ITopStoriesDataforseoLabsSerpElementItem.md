@@ -1,93 +1,81 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ITopStoriesDataforseoLabsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ITopStoriesDataforseoLabsSerpElementItem
 
 # Interface: ITopStoriesDataforseoLabsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md)
 
-  ↳ **`ITopStoriesDataforseoLabsSerpElementItem`**
-
-## Implemented by
-
-- [`TopStoriesDataforseoLabsSerpElementItem`](../classes/TopStoriesDataforseoLabsSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](ITopStoriesDataforseoLabsSerpElementItem.md#items)
-- [position](ITopStoriesDataforseoLabsSerpElementItem.md#position)
-- [rank\_absolute](ITopStoriesDataforseoLabsSerpElementItem.md#rank_absolute)
-- [rank\_group](ITopStoriesDataforseoLabsSerpElementItem.md#rank_group)
-- [xpath](ITopStoriesDataforseoLabsSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`TopStoriesElement`](../classes/TopStoriesElement.md)[]
+> **`optional`** **items**: [`TopStoriesElement`](../classes/TopStoriesElement.md)[]
 
 additional items present in the element
 if there are none, equals null
 
-#### Defined in
+#### Source
 
-main.ts:95053
+main.ts:95061
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
-main.ts:95048
+main.ts:95056
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Defined in
+#### Source
 
-main.ts:95044
+main.ts:95052
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
-main.ts:95041
+main.ts:95049
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
-main.ts:95050
+main.ts:95058

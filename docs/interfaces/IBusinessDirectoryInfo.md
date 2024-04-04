@@ -1,45 +1,38 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDirectoryInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBusinessDirectoryInfo
 
 # Interface: IBusinessDirectoryInfo
 
-## Implemented by
-
-- [`BusinessDirectoryInfo`](../classes/BusinessDirectoryInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IBusinessDirectoryInfo.md#items)
-- [title](IBusinessDirectoryInfo.md#title)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseBusinessDataSerpElementItem`](../classes/BaseBusinessDataSerpElementItem.md)[]
+> **`optional`** **items**: [`BaseBusinessDataSerpElementItem`](../classes/BaseBusinessDataSerpElementItem.md)[]
 
 encountered item types
 types of search engine results encountered in the items array;
 possible item types: google_business_info
 
-#### Defined in
+#### Source
 
 main.ts:196820
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the element
 domain of the online menu system
 
-#### Defined in
+#### Source
 
 main.ts:196816

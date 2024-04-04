@@ -1,399 +1,364 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppDataAppStoreInfoOrganicSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppDataAppStoreInfoOrganicSerpElementItem
 
 # Interface: IAppDataAppStoreInfoOrganicSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md)
 
-  ↳ **`IAppDataAppStoreInfoOrganicSerpElementItem`**
-
-## Implemented by
-
-- [`AppDataAppStoreInfoOrganicSerpElementItem`](../classes/AppDataAppStoreInfoOrganicSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [advisories](IAppDataAppStoreInfoOrganicSerpElementItem.md#advisories)
-- [app\_id](IAppDataAppStoreInfoOrganicSerpElementItem.md#app_id)
-- [categories](IAppDataAppStoreInfoOrganicSerpElementItem.md#categories)
-- [description](IAppDataAppStoreInfoOrganicSerpElementItem.md#description)
-- [developer](IAppDataAppStoreInfoOrganicSerpElementItem.md#developer)
-- [developer\_id](IAppDataAppStoreInfoOrganicSerpElementItem.md#developer_id)
-- [developer\_url](IAppDataAppStoreInfoOrganicSerpElementItem.md#developer_url)
-- [icon](IAppDataAppStoreInfoOrganicSerpElementItem.md#icon)
-- [images](IAppDataAppStoreInfoOrganicSerpElementItem.md#images)
-- [is\_free](IAppDataAppStoreInfoOrganicSerpElementItem.md#is_free)
-- [languages](IAppDataAppStoreInfoOrganicSerpElementItem.md#languages)
-- [last\_update\_date](IAppDataAppStoreInfoOrganicSerpElementItem.md#last_update_date)
-- [main\_category](IAppDataAppStoreInfoOrganicSerpElementItem.md#main_category)
-- [minimum\_os\_version](IAppDataAppStoreInfoOrganicSerpElementItem.md#minimum_os_version)
-- [more\_apps\_by\_developer](IAppDataAppStoreInfoOrganicSerpElementItem.md#more_apps_by_developer)
-- [position](IAppDataAppStoreInfoOrganicSerpElementItem.md#position)
-- [price](IAppDataAppStoreInfoOrganicSerpElementItem.md#price)
-- [rank\_absolute](IAppDataAppStoreInfoOrganicSerpElementItem.md#rank_absolute)
-- [rank\_group](IAppDataAppStoreInfoOrganicSerpElementItem.md#rank_group)
-- [rating](IAppDataAppStoreInfoOrganicSerpElementItem.md#rating)
-- [released\_date](IAppDataAppStoreInfoOrganicSerpElementItem.md#released_date)
-- [reviews\_count](IAppDataAppStoreInfoOrganicSerpElementItem.md#reviews_count)
-- [similar\_apps](IAppDataAppStoreInfoOrganicSerpElementItem.md#similar_apps)
-- [size](IAppDataAppStoreInfoOrganicSerpElementItem.md#size)
-- [title](IAppDataAppStoreInfoOrganicSerpElementItem.md#title)
-- [update\_notes](IAppDataAppStoreInfoOrganicSerpElementItem.md#update_notes)
-- [url](IAppDataAppStoreInfoOrganicSerpElementItem.md#url)
-- [version](IAppDataAppStoreInfoOrganicSerpElementItem.md#version)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### advisories
+### advisories?
 
-• `Optional` **advisories**: `string`[]
+> **`optional`** **advisories**: `string`[]
 
 age rating and age-based content advisories
 
-#### Defined in
+#### Source
 
 main.ts:190066
 
-___
+***
 
-### app\_id
+### app\_id?
 
-• `Optional` **app\_id**: `string`
+> **`optional`** **app\_id**: `string`
 
 ID of the app
 
-#### Defined in
+#### Source
 
 main.ts:190042
 
-___
+***
 
-### categories
+### categories?
 
-• `Optional` **categories**: `string`[]
+> **`optional`** **categories**: `string`[]
 
 all relevant categories/genres of the app
 
-#### Defined in
+#### Source
 
 main.ts:190062
 
-___
+***
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description of the app
 
-#### Defined in
+#### Source
 
 main.ts:190050
 
-___
+***
 
-### developer
+### developer?
 
-• `Optional` **developer**: `string`
+> **`optional`** **developer**: `string`
 
 name of the app developer
 
-#### Defined in
+#### Source
 
 main.ts:190068
 
-___
+***
 
-### developer\_id
+### developer\_id?
 
-• `Optional` **developer\_id**: `string`
+> **`optional`** **developer\_id**: `string`
 
 ID of the app developer
 
-#### Defined in
+#### Source
 
 main.ts:190070
 
-___
+***
 
-### developer\_url
+### developer\_url?
 
-• `Optional` **developer\_url**: `string`
+> **`optional`** **developer\_url**: `string`
 
 URL to the developer page on App Store
 
-#### Defined in
+#### Source
 
 main.ts:190072
 
-___
+***
 
-### icon
+### icon?
 
-• `Optional` **icon**: `string`
+> **`optional`** **icon**: `string`
 
 URL to the app icon
 
-#### Defined in
+#### Source
 
 main.ts:190048
 
-___
+***
 
-### images
+### images?
 
-• `Optional` **images**: `string`[]
+> **`optional`** **images**: `string`[]
 
 app images
 contains URLs to the images used on the app page on App Store
 
-#### Defined in
+#### Source
 
 main.ts:190094
 
-___
+***
 
-### is\_free
+### is\_free?
 
-• `Optional` **is\_free**: `boolean`
+> **`optional`** **is\_free**: `boolean`
 
 indicates whether the app is free
 
-#### Defined in
+#### Source
 
 main.ts:190058
 
-___
+***
 
-### languages
+### languages?
 
-• `Optional` **languages**: `string`[]
+> **`optional`** **languages**: `string`[]
 
 languages supported in the app
 
-#### Defined in
+#### Source
 
 main.ts:190064
 
-___
+***
 
-### last\_update\_date
+### last\_update\_date?
 
-• `Optional` **last\_update\_date**: `string`
+> **`optional`** **last\_update\_date**: `string`
 
 date and time when the app was last updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
 main.ts:190088
 
-___
+***
 
-### main\_category
+### main\_category?
 
-• `Optional` **main\_category**: `string`
+> **`optional`** **main\_category**: `string`
 
 main category/genre of the app
 
-#### Defined in
+#### Source
 
 main.ts:190060
 
-___
+***
 
-### minimum\_os\_version
+### minimum\_os\_version?
 
-• `Optional` **minimum\_os\_version**: `string`
+> **`optional`** **minimum\_os\_version**: `string`
 
 minimum OS version required to install the app
 
-#### Defined in
+#### Source
 
 main.ts:190076
 
-___
+***
 
-### more\_apps\_by\_developer
+### more\_apps\_by\_developer?
 
-• `Optional` **more\_apps\_by\_developer**: [`AppsInfo`](../classes/AppsInfo.md)[]
+> **`optional`** **more\_apps\_by\_developer**: [`AppsInfo`](../classes/AppsInfo.md)[]
 
 similar apps
 information about apps built by the same developer
 
-#### Defined in
+#### Source
 
 main.ts:190100
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values: left
 
-#### Defined in
+#### Source
 
 main.ts:190040
 
-___
+***
 
-### price
+### price?
 
-• `Optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
+> **`optional`** **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
 price of the app
 
-#### Defined in
+#### Source
 
 main.ts:190056
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank among all the listed apps
 absolute position among all apps on the list
 
-#### Defined in
+#### Source
 
 main.ts:190037
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
 main.ts:190034
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
 average rating of the app
 
-#### Defined in
+#### Source
 
 main.ts:190054
 
-___
+***
 
-### released\_date
+### released\_date?
 
-• `Optional` **released\_date**: `string`
+> **`optional`** **released\_date**: `string`
 
 date and time when the app was released
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
 main.ts:190083
 
-___
+***
 
-### reviews\_count
+### reviews\_count?
 
-• `Optional` **reviews\_count**: `number`
+> **`optional`** **reviews\_count**: `number`
 
 the total number of reviews of the app
 
-#### Defined in
+#### Source
 
 main.ts:190052
 
-___
+***
 
-### similar\_apps
+### similar\_apps?
 
-• `Optional` **similar\_apps**: [`AppsInfo`](../classes/AppsInfo.md)[]
+> **`optional`** **similar\_apps**: [`AppsInfo`](../classes/AppsInfo.md)[]
 
 similar apps
 displays apps similar to the app in a POST request
 
-#### Defined in
+#### Source
 
 main.ts:190097
 
-___
+***
 
-### size
+### size?
 
-• `Optional` **size**: `string`
+> **`optional`** **size**: `string`
 
 size of the app
 
-#### Defined in
+#### Source
 
 main.ts:190078
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the app
 
-#### Defined in
+#### Source
 
 main.ts:190044
 
-___
+***
 
-### update\_notes
+### update\_notes?
 
-• `Optional` **update\_notes**: `string`
+> **`optional`** **update\_notes**: `string`
 
 update notes
 contains the latest update notes from the developer
 
-#### Defined in
+#### Source
 
 main.ts:190091
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL to the app page on App Store
 
-#### Defined in
+#### Source
 
 main.ts:190046
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 current version of the app
 
-#### Defined in
+#### Source
 
 main.ts:190074

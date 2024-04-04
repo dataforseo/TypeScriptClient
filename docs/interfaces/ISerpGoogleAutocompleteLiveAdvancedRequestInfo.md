@@ -1,33 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpGoogleAutocompleteLiveAdvancedRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ISerpGoogleAutocompleteLiveAdvancedRequestInfo
 
 # Interface: ISerpGoogleAutocompleteLiveAdvancedRequestInfo
 
-## Implemented by
-
-- [`SerpGoogleAutocompleteLiveAdvancedRequestInfo`](../classes/SerpGoogleAutocompleteLiveAdvancedRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [client](ISerpGoogleAutocompleteLiveAdvancedRequestInfo.md#client)
-- [cursor\_pointer](ISerpGoogleAutocompleteLiveAdvancedRequestInfo.md#cursor_pointer)
-- [keyword](ISerpGoogleAutocompleteLiveAdvancedRequestInfo.md#keyword)
-- [language\_code](ISerpGoogleAutocompleteLiveAdvancedRequestInfo.md#language_code)
-- [language\_name](ISerpGoogleAutocompleteLiveAdvancedRequestInfo.md#language_name)
-- [location\_code](ISerpGoogleAutocompleteLiveAdvancedRequestInfo.md#location_code)
-- [location\_name](ISerpGoogleAutocompleteLiveAdvancedRequestInfo.md#location_name)
-- [tag](ISerpGoogleAutocompleteLiveAdvancedRequestInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### client
+### client?
 
-• `Optional` **client**: `string`
+> **`optional`** **client**: `string`
 
 search client for autocomplete
 optional field
@@ -45,15 +32,15 @@ gws-wiz-local — used in google local;
 img — used in google’s image search;
 products-cc — used in google shopping search
 
-#### Defined in
+#### Source
 
-main.ts:51854
+main.ts:51862
 
-___
+***
 
-### cursor\_pointer
+### cursor\_pointer?
 
-• `Optional` **cursor\_pointer**: `number`
+> **`optional`** **cursor\_pointer**: `number`
 
 search bar cursor pointer
 optional field
@@ -66,15 +53,15 @@ example:
 which query is s| – "cursor_pointer": 16
 which que|ry is s – "cursor_pointer": 9
 
-#### Defined in
+#### Source
 
-main.ts:51838
+main.ts:51846
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword
 required field
@@ -83,15 +70,15 @@ all %## will be decoded (plus symbol ‘+’ will be decoded to a space characte
 if you need to use the “%” symbol for your keyword, please specify it as “%25”;
 if you need to use the “+” symbol for your keyword, please specify it as “%2B”;
 
-#### Defined in
+#### Source
 
-main.ts:51800
+main.ts:51808
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -100,15 +87,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:51827
+main.ts:51835
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -117,15 +104,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:51820
+main.ts:51828
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name;
@@ -133,15 +120,15 @@ you can receive the list of available locations of the search engines with their
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:51813
+main.ts:51821
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -150,15 +137,15 @@ you can receive the list of available locations of the search engine with their 
 example:
 London,England,United Kingdom
 
-#### Defined in
+#### Source
 
-main.ts:51807
+main.ts:51815
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -166,6 +153,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:51860
+main.ts:51868

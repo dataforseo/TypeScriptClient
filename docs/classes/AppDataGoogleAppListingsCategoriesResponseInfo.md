@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataGoogleAppListingsCategoriesResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppDataGoogleAppListingsCategoriesResponseInfo
 
 # Class: AppDataGoogleAppListingsCategoriesResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`AppDataGoogleAppListingsCategoriesResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppDataGoogleAppListingsCategoriesResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](AppDataGoogleAppListingsCategoriesResponseInfo.md#cost)
-- [status\_code](AppDataGoogleAppListingsCategoriesResponseInfo.md#status_code)
-- [status\_message](AppDataGoogleAppListingsCategoriesResponseInfo.md#status_message)
-- [tasks](AppDataGoogleAppListingsCategoriesResponseInfo.md#tasks)
-- [tasks\_count](AppDataGoogleAppListingsCategoriesResponseInfo.md#tasks_count)
-- [tasks\_error](AppDataGoogleAppListingsCategoriesResponseInfo.md#tasks_error)
-- [time](AppDataGoogleAppListingsCategoriesResponseInfo.md#time)
-- [version](AppDataGoogleAppListingsCategoriesResponseInfo.md#version)
-
-### Methods
-
-- [init](AppDataGoogleAppListingsCategoriesResponseInfo.md#init)
-- [toJSON](AppDataGoogleAppListingsCategoriesResponseInfo.md#tojson)
-- [fromJS](AppDataGoogleAppListingsCategoriesResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppDataGoogleAppListingsCategoriesResponseInfo(data)
 
-• **new AppDataGoogleAppListingsCategoriesResponseInfo**(`data?`): [`AppDataGoogleAppListingsCategoriesResponseInfo`](AppDataGoogleAppListingsCategoriesResponseInfo.md)
+> **new AppDataGoogleAppListingsCategoriesResponseInfo**(`data`?): [`AppDataGoogleAppListingsCategoriesResponseInfo`](AppDataGoogleAppListingsCategoriesResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppDataGoogleAppListingsCategoriesResponseInfo`](../interfaces/IAppDataGoogleAppListingsCategoriesResponseInfo.md) |
+• **data?**: [`IAppDataGoogleAppListingsCategoriesResponseInfo`](../interfaces/IAppDataGoogleAppListingsCategoriesResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:187462
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IAppDataGoogleAppListingsCategoriesResponseInfo](../interfaces/IAppDataGoogleAppListingsCategoriesResponseInfo.md).[cost](../interfaces/IAppDataGoogleAppListingsCategoriesResponseInfo.md#cost)
+[`IAppDataGoogleAppListingsCategoriesResponseInfo`](../interfaces/IAppDataGoogleAppListingsCategoriesResponseInfo.md).[`cost`](../interfaces/IAppDataGoogleAppListingsCategoriesResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[IAppDataGoogleAppListingsCategoriesResponseInfo](../interfaces/IAppDataGoogleAppListingsCategoriesResponseInfo.md).[status_code](../interfaces/IAppDataGoogleAppListingsCategoriesResponseInfo.md#status_code)
+[`IAppDataGoogleAppListingsCategoriesResponseInfo`](../interfaces/IAppDataGoogleAppListingsCategoriesResponseInfo.md).[`status_code`](../interfaces/IAppDataGoogleAppListingsCategoriesResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IAppDataGoogleAppListingsCategoriesResponseInfo](../interfaces/IAppDataGoogleAppListingsCategoriesResponseInfo.md).[status_message](../interfaces/IAppDataGoogleAppListingsCategoriesResponseInfo.md#status_message)
+[`IAppDataGoogleAppListingsCategoriesResponseInfo`](../interfaces/IAppDataGoogleAppListingsCategoriesResponseInfo.md).[`status_message`](../interfaces/IAppDataGoogleAppListingsCategoriesResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`AppDataGoogleAppListingsCategoriesTaskInfo`](AppDataGoogleAppListingsCategoriesTaskInfo.md)[]
+> **`optional`** **tasks**: [`AppDataGoogleAppListingsCategoriesTaskInfo`](AppDataGoogleAppListingsCategoriesTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[IAppDataGoogleAppListingsCategoriesResponseInfo](../interfaces/IAppDataGoogleAppListingsCategoriesResponseInfo.md).[tasks](../interfaces/IAppDataGoogleAppListingsCategoriesResponseInfo.md#tasks)
+[`IAppDataGoogleAppListingsCategoriesResponseInfo`](../interfaces/IAppDataGoogleAppListingsCategoriesResponseInfo.md).[`tasks`](../interfaces/IAppDataGoogleAppListingsCategoriesResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
 main.ts:187458
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[IAppDataGoogleAppListingsCategoriesResponseInfo](../interfaces/IAppDataGoogleAppListingsCategoriesResponseInfo.md).[tasks_count](../interfaces/IAppDataGoogleAppListingsCategoriesResponseInfo.md#tasks_count)
+[`IAppDataGoogleAppListingsCategoriesResponseInfo`](../interfaces/IAppDataGoogleAppListingsCategoriesResponseInfo.md).[`tasks_count`](../interfaces/IAppDataGoogleAppListingsCategoriesResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[IAppDataGoogleAppListingsCategoriesResponseInfo](../interfaces/IAppDataGoogleAppListingsCategoriesResponseInfo.md).[tasks_error](../interfaces/IAppDataGoogleAppListingsCategoriesResponseInfo.md#tasks_error)
+[`IAppDataGoogleAppListingsCategoriesResponseInfo`](../interfaces/IAppDataGoogleAppListingsCategoriesResponseInfo.md).[`tasks_error`](../interfaces/IAppDataGoogleAppListingsCategoriesResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[IAppDataGoogleAppListingsCategoriesResponseInfo](../interfaces/IAppDataGoogleAppListingsCategoriesResponseInfo.md).[time](../interfaces/IAppDataGoogleAppListingsCategoriesResponseInfo.md#time)
+[`IAppDataGoogleAppListingsCategoriesResponseInfo`](../interfaces/IAppDataGoogleAppListingsCategoriesResponseInfo.md).[`time`](../interfaces/IAppDataGoogleAppListingsCategoriesResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[IAppDataGoogleAppListingsCategoriesResponseInfo](../interfaces/IAppDataGoogleAppListingsCategoriesResponseInfo.md).[version](../interfaces/IAppDataGoogleAppListingsCategoriesResponseInfo.md#version)
+[`IAppDataGoogleAppListingsCategoriesResponseInfo`](../interfaces/IAppDataGoogleAppListingsCategoriesResponseInfo.md).[`version`](../interfaces/IAppDataGoogleAppListingsCategoriesResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:187466
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:187488
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppDataGoogleAppListingsCategoriesResponseInfo`](AppDataGoogleAppListingsCategoriesResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`AppDataGoogleAppListingsCategoriesResponseInfo`](AppDataGoogleAppListingsCategoriesResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:187481

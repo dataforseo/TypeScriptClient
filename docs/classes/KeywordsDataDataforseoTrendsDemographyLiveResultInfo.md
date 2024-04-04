@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataDataforseoTrendsDemographyLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataDataforseoTrendsDemographyLiveResultInfo
 
 # Class: KeywordsDataDataforseoTrendsDemographyLiveResultInfo
 
@@ -8,55 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataDataforseoTrendsDemographyLiveResultInfo.md#constructor)
-
-### Properties
-
-- [datetime](KeywordsDataDataforseoTrendsDemographyLiveResultInfo.md#datetime)
-- [items](KeywordsDataDataforseoTrendsDemographyLiveResultInfo.md#items)
-- [items\_count](KeywordsDataDataforseoTrendsDemographyLiveResultInfo.md#items_count)
-- [keywords](KeywordsDataDataforseoTrendsDemographyLiveResultInfo.md#keywords)
-- [language\_code](KeywordsDataDataforseoTrendsDemographyLiveResultInfo.md#language_code)
-- [location\_code](KeywordsDataDataforseoTrendsDemographyLiveResultInfo.md#location_code)
-- [type](KeywordsDataDataforseoTrendsDemographyLiveResultInfo.md#type)
-
-### Methods
-
-- [init](KeywordsDataDataforseoTrendsDemographyLiveResultInfo.md#init)
-- [toJSON](KeywordsDataDataforseoTrendsDemographyLiveResultInfo.md#tojson)
-- [fromJS](KeywordsDataDataforseoTrendsDemographyLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordsDataDataforseoTrendsDemographyLiveResultInfo(data)
 
-• **new KeywordsDataDataforseoTrendsDemographyLiveResultInfo**(`data?`): [`KeywordsDataDataforseoTrendsDemographyLiveResultInfo`](KeywordsDataDataforseoTrendsDemographyLiveResultInfo.md)
+> **new KeywordsDataDataforseoTrendsDemographyLiveResultInfo**(`data`?): [`KeywordsDataDataforseoTrendsDemographyLiveResultInfo`](KeywordsDataDataforseoTrendsDemographyLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordsDataDataforseoTrendsDemographyLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md) |
+• **data?**: [`IKeywordsDataDataforseoTrendsDemographyLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md)
 
 #### Returns
 
 [`KeywordsDataDataforseoTrendsDemographyLiveResultInfo`](KeywordsDataDataforseoTrendsDemographyLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:126609
+main.ts:126617
 
 ## Properties
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -65,166 +45,160 @@ example:
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsDemographyLiveResultInfo](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md).[datetime](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md#datetime)
+[`IKeywordsDataDataforseoTrendsDemographyLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md).[`datetime`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
-main.ts:126601
+main.ts:126609
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`DataforseoTrendsDemographyInfo`](DataforseoTrendsDemographyInfo.md)[]
+> **`optional`** **items**: [`DataforseoTrendsDemographyInfo`](DataforseoTrendsDemographyInfo.md)[]
 
 contains keyword popularity and related data
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsDemographyLiveResultInfo](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md).[items](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md#items)
+[`IKeywordsDataDataforseoTrendsDemographyLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md).[`items`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:126605
+main.ts:126613
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsDemographyLiveResultInfo](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md).[items_count](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md#items_count)
+[`IKeywordsDataDataforseoTrendsDemographyLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md).[`items_count`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:126603
+main.ts:126611
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 keywords in a POST array
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsDemographyLiveResultInfo](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md).[keywords](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md#keywords)
+[`IKeywordsDataDataforseoTrendsDemographyLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md).[`keywords`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md#keywords)
 
-#### Defined in
+#### Source
 
-main.ts:126588
+main.ts:126596
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 if there is no data, then the value is null
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsDemographyLiveResultInfo](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md).[language_code](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md#language_code)
+[`IKeywordsDataDataforseoTrendsDemographyLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md).[`language_code`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:126596
+main.ts:126604
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 if there is no data, then the value is null
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsDemographyLiveResultInfo](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md).[location_code](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md#location_code)
+[`IKeywordsDataDataforseoTrendsDemographyLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md).[`location_code`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:126593
+main.ts:126601
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsDemographyLiveResultInfo](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md).[type](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md#type)
+[`IKeywordsDataDataforseoTrendsDemographyLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md).[`type`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:126590
+main.ts:126598
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:126618
+main.ts:126626
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:126649
+main.ts:126657
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordsDataDataforseoTrendsDemographyLiveResultInfo`](KeywordsDataDataforseoTrendsDemographyLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordsDataDataforseoTrendsDemographyLiveResultInfo`](KeywordsDataDataforseoTrendsDemographyLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`KeywordsDataDataforseoTrendsDemographyLiveResultInfo`](KeywordsDataDataforseoTrendsDemographyLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:126642
+main.ts:126650

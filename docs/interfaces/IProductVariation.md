@@ -1,70 +1,61 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IProductVariation
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IProductVariation
 
 # Interface: IProductVariation
 
-## Implemented by
-
-- [`ProductVariation`](../classes/ProductVariation.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [product\_id](IProductVariation.md#product_id)
-- [title](IProductVariation.md#title)
-- [type](IProductVariation.md#type)
-- [url](IProductVariation.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### product\_id
+### product\_id?
 
-• `Optional` **product\_id**: `string`
+> **`optional`** **product\_id**: `string`
 
 product ID in a POST array
 learn more about the parameter in this help center guide
 
-#### Defined in
+#### Source
 
 main.ts:174586
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 name of the product seller
 
-#### Defined in
+#### Source
 
 main.ts:174588
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
 main.ts:174583
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 seller url
 url of the webpage on the seller’s website where the product is sold
 
-#### Defined in
+#### Source
 
 main.ts:174591

@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MerchantGoogleLocationsCountryResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / MerchantGoogleLocationsCountryResponseInfo
 
 # Class: MerchantGoogleLocationsCountryResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`MerchantGoogleLocationsCountryResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](MerchantGoogleLocationsCountryResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](MerchantGoogleLocationsCountryResponseInfo.md#cost)
-- [status\_code](MerchantGoogleLocationsCountryResponseInfo.md#status_code)
-- [status\_message](MerchantGoogleLocationsCountryResponseInfo.md#status_message)
-- [tasks](MerchantGoogleLocationsCountryResponseInfo.md#tasks)
-- [tasks\_count](MerchantGoogleLocationsCountryResponseInfo.md#tasks_count)
-- [tasks\_error](MerchantGoogleLocationsCountryResponseInfo.md#tasks_error)
-- [time](MerchantGoogleLocationsCountryResponseInfo.md#time)
-- [version](MerchantGoogleLocationsCountryResponseInfo.md#version)
-
-### Methods
-
-- [init](MerchantGoogleLocationsCountryResponseInfo.md#init)
-- [toJSON](MerchantGoogleLocationsCountryResponseInfo.md#tojson)
-- [fromJS](MerchantGoogleLocationsCountryResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new MerchantGoogleLocationsCountryResponseInfo(data)
 
-• **new MerchantGoogleLocationsCountryResponseInfo**(`data?`): [`MerchantGoogleLocationsCountryResponseInfo`](MerchantGoogleLocationsCountryResponseInfo.md)
+> **new MerchantGoogleLocationsCountryResponseInfo**(`data`?): [`MerchantGoogleLocationsCountryResponseInfo`](MerchantGoogleLocationsCountryResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IMerchantGoogleLocationsCountryResponseInfo`](../interfaces/IMerchantGoogleLocationsCountryResponseInfo.md) |
+• **data?**: [`IMerchantGoogleLocationsCountryResponseInfo`](../interfaces/IMerchantGoogleLocationsCountryResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:169265
+main.ts:169273
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IMerchantGoogleLocationsCountryResponseInfo](../interfaces/IMerchantGoogleLocationsCountryResponseInfo.md).[cost](../interfaces/IMerchantGoogleLocationsCountryResponseInfo.md#cost)
+[`IMerchantGoogleLocationsCountryResponseInfo`](../interfaces/IMerchantGoogleLocationsCountryResponseInfo.md).[`cost`](../interfaces/IMerchantGoogleLocationsCountryResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[IMerchantGoogleLocationsCountryResponseInfo](../interfaces/IMerchantGoogleLocationsCountryResponseInfo.md).[status_code](../interfaces/IMerchantGoogleLocationsCountryResponseInfo.md#status_code)
+[`IMerchantGoogleLocationsCountryResponseInfo`](../interfaces/IMerchantGoogleLocationsCountryResponseInfo.md).[`status_code`](../interfaces/IMerchantGoogleLocationsCountryResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IMerchantGoogleLocationsCountryResponseInfo](../interfaces/IMerchantGoogleLocationsCountryResponseInfo.md).[status_message](../interfaces/IMerchantGoogleLocationsCountryResponseInfo.md#status_message)
+[`IMerchantGoogleLocationsCountryResponseInfo`](../interfaces/IMerchantGoogleLocationsCountryResponseInfo.md).[`status_message`](../interfaces/IMerchantGoogleLocationsCountryResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`MerchantGoogleLocationsCountryTaskInfo`](MerchantGoogleLocationsCountryTaskInfo.md)[]
+> **`optional`** **tasks**: [`MerchantGoogleLocationsCountryTaskInfo`](MerchantGoogleLocationsCountryTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[IMerchantGoogleLocationsCountryResponseInfo](../interfaces/IMerchantGoogleLocationsCountryResponseInfo.md).[tasks](../interfaces/IMerchantGoogleLocationsCountryResponseInfo.md#tasks)
+[`IMerchantGoogleLocationsCountryResponseInfo`](../interfaces/IMerchantGoogleLocationsCountryResponseInfo.md).[`tasks`](../interfaces/IMerchantGoogleLocationsCountryResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:169261
+main.ts:169269
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[IMerchantGoogleLocationsCountryResponseInfo](../interfaces/IMerchantGoogleLocationsCountryResponseInfo.md).[tasks_count](../interfaces/IMerchantGoogleLocationsCountryResponseInfo.md#tasks_count)
+[`IMerchantGoogleLocationsCountryResponseInfo`](../interfaces/IMerchantGoogleLocationsCountryResponseInfo.md).[`tasks_count`](../interfaces/IMerchantGoogleLocationsCountryResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[IMerchantGoogleLocationsCountryResponseInfo](../interfaces/IMerchantGoogleLocationsCountryResponseInfo.md).[tasks_error](../interfaces/IMerchantGoogleLocationsCountryResponseInfo.md#tasks_error)
+[`IMerchantGoogleLocationsCountryResponseInfo`](../interfaces/IMerchantGoogleLocationsCountryResponseInfo.md).[`tasks_error`](../interfaces/IMerchantGoogleLocationsCountryResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[IMerchantGoogleLocationsCountryResponseInfo](../interfaces/IMerchantGoogleLocationsCountryResponseInfo.md).[time](../interfaces/IMerchantGoogleLocationsCountryResponseInfo.md#time)
+[`IMerchantGoogleLocationsCountryResponseInfo`](../interfaces/IMerchantGoogleLocationsCountryResponseInfo.md).[`time`](../interfaces/IMerchantGoogleLocationsCountryResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[IMerchantGoogleLocationsCountryResponseInfo](../interfaces/IMerchantGoogleLocationsCountryResponseInfo.md).[version](../interfaces/IMerchantGoogleLocationsCountryResponseInfo.md#version)
+[`IMerchantGoogleLocationsCountryResponseInfo`](../interfaces/IMerchantGoogleLocationsCountryResponseInfo.md).[`version`](../interfaces/IMerchantGoogleLocationsCountryResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:169269
+main.ts:169277
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:169291
+main.ts:169299
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`MerchantGoogleLocationsCountryResponseInfo`](MerchantGoogleLocationsCountryResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`MerchantGoogleLocationsCountryResponseInfo`](MerchantGoogleLocationsCountryResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:169284
+main.ts:169292

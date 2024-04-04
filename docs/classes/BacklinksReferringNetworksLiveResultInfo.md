@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksReferringNetworksLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BacklinksReferringNetworksLiveResultInfo
 
 # Class: BacklinksReferringNetworksLiveResultInfo
 
@@ -8,167 +12,140 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BacklinksReferringNetworksLiveResultInfo.md#constructor)
-
-### Properties
-
-- [items](BacklinksReferringNetworksLiveResultInfo.md#items)
-- [items\_count](BacklinksReferringNetworksLiveResultInfo.md#items_count)
-- [target](BacklinksReferringNetworksLiveResultInfo.md#target)
-- [total\_count](BacklinksReferringNetworksLiveResultInfo.md#total_count)
-
-### Methods
-
-- [init](BacklinksReferringNetworksLiveResultInfo.md#init)
-- [toJSON](BacklinksReferringNetworksLiveResultInfo.md#tojson)
-- [fromJS](BacklinksReferringNetworksLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BacklinksReferringNetworksLiveResultInfo(data)
 
-• **new BacklinksReferringNetworksLiveResultInfo**(`data?`): [`BacklinksReferringNetworksLiveResultInfo`](BacklinksReferringNetworksLiveResultInfo.md)
+> **new BacklinksReferringNetworksLiveResultInfo**(`data`?): [`BacklinksReferringNetworksLiveResultInfo`](BacklinksReferringNetworksLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBacklinksReferringNetworksLiveResultInfo`](../interfaces/IBacklinksReferringNetworksLiveResultInfo.md) |
+• **data?**: [`IBacklinksReferringNetworksLiveResultInfo`](../interfaces/IBacklinksReferringNetworksLiveResultInfo.md)
 
 #### Returns
 
 [`BacklinksReferringNetworksLiveResultInfo`](BacklinksReferringNetworksLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:141166
+main.ts:141174
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`BacklinksReferringNetworksLiveItem`](BacklinksReferringNetworksLiveItem.md)[]
+> **`optional`** **items**: [`BacklinksReferringNetworksLiveItem`](BacklinksReferringNetworksLiveItem.md)[]
 
 items array
 
 #### Implementation of
 
-[IBacklinksReferringNetworksLiveResultInfo](../interfaces/IBacklinksReferringNetworksLiveResultInfo.md).[items](../interfaces/IBacklinksReferringNetworksLiveResultInfo.md#items)
+[`IBacklinksReferringNetworksLiveResultInfo`](../interfaces/IBacklinksReferringNetworksLiveResultInfo.md).[`items`](../interfaces/IBacklinksReferringNetworksLiveResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:141162
+main.ts:141170
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 number of items in the items array
 
 #### Implementation of
 
-[IBacklinksReferringNetworksLiveResultInfo](../interfaces/IBacklinksReferringNetworksLiveResultInfo.md).[items_count](../interfaces/IBacklinksReferringNetworksLiveResultInfo.md#items_count)
+[`IBacklinksReferringNetworksLiveResultInfo`](../interfaces/IBacklinksReferringNetworksLiveResultInfo.md).[`items_count`](../interfaces/IBacklinksReferringNetworksLiveResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:141160
+main.ts:141168
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 target in a POST array
 
 #### Implementation of
 
-[IBacklinksReferringNetworksLiveResultInfo](../interfaces/IBacklinksReferringNetworksLiveResultInfo.md).[target](../interfaces/IBacklinksReferringNetworksLiveResultInfo.md#target)
+[`IBacklinksReferringNetworksLiveResultInfo`](../interfaces/IBacklinksReferringNetworksLiveResultInfo.md).[`target`](../interfaces/IBacklinksReferringNetworksLiveResultInfo.md#target)
 
-#### Defined in
+#### Source
 
-main.ts:141156
+main.ts:141164
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total number of relevant items in the database
 
 #### Implementation of
 
-[IBacklinksReferringNetworksLiveResultInfo](../interfaces/IBacklinksReferringNetworksLiveResultInfo.md).[total_count](../interfaces/IBacklinksReferringNetworksLiveResultInfo.md#total_count)
+[`IBacklinksReferringNetworksLiveResultInfo`](../interfaces/IBacklinksReferringNetworksLiveResultInfo.md).[`total_count`](../interfaces/IBacklinksReferringNetworksLiveResultInfo.md#total_count)
 
-#### Defined in
+#### Source
 
-main.ts:141158
+main.ts:141166
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:141175
+main.ts:141183
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:141199
+main.ts:141207
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BacklinksReferringNetworksLiveResultInfo`](BacklinksReferringNetworksLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`BacklinksReferringNetworksLiveResultInfo`](BacklinksReferringNetworksLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BacklinksReferringNetworksLiveResultInfo`](BacklinksReferringNetworksLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:141192
+main.ts:141200

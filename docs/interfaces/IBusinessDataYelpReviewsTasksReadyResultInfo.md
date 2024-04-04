@@ -1,97 +1,86 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataYelpReviewsTasksReadyResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBusinessDataYelpReviewsTasksReadyResultInfo
 
 # Interface: IBusinessDataYelpReviewsTasksReadyResultInfo
 
-## Implemented by
-
-- [`BusinessDataYelpReviewsTasksReadyResultInfo`](../classes/BusinessDataYelpReviewsTasksReadyResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [date\_posted](IBusinessDataYelpReviewsTasksReadyResultInfo.md#date_posted)
-- [endpoint](IBusinessDataYelpReviewsTasksReadyResultInfo.md#endpoint)
-- [id](IBusinessDataYelpReviewsTasksReadyResultInfo.md#id)
-- [se](IBusinessDataYelpReviewsTasksReadyResultInfo.md#se)
-- [se\_type](IBusinessDataYelpReviewsTasksReadyResultInfo.md#se_type)
-- [tag](IBusinessDataYelpReviewsTasksReadyResultInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### date\_posted
+### date\_posted?
 
-• `Optional` **date\_posted**: `string`
+> **`optional`** **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
-#### Defined in
+#### Source
 
 main.ts:210574
 
-___
+***
 
-### endpoint
+### endpoint?
 
-• `Optional` **endpoint**: `string`
+> **`optional`** **endpoint**: `string`
 
 URL for collecting the results of the task
 
-#### Defined in
+#### Source
 
 main.ts:210578
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
-#### Defined in
+#### Source
 
 main.ts:210566
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 can take the following values: yelp
 
-#### Defined in
+#### Source
 
 main.ts:210569
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 type of search engine
 can take the following values: reviews
 
-#### Defined in
+#### Source
 
 main.ts:210572
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
-#### Defined in
+#### Source
 
 main.ts:210576

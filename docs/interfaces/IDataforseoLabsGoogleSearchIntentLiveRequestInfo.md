@@ -1,29 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleSearchIntentLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsGoogleSearchIntentLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleSearchIntentLiveRequestInfo
 
-## Implemented by
-
-- [`DataforseoLabsGoogleSearchIntentLiveRequestInfo`](../classes/DataforseoLabsGoogleSearchIntentLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [keywords](IDataforseoLabsGoogleSearchIntentLiveRequestInfo.md#keywords)
-- [language\_code](IDataforseoLabsGoogleSearchIntentLiveRequestInfo.md#language_code)
-- [language\_name](IDataforseoLabsGoogleSearchIntentLiveRequestInfo.md#language_name)
-- [tag](IDataforseoLabsGoogleSearchIntentLiveRequestInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 target keywords
 required field
@@ -31,15 +22,15 @@ UTF-8 encoding
 maximum number of keywords you can specify in this array: 1000;
 the keywords will be converted to lowercase format
 
-#### Defined in
+#### Source
 
-main.ts:85119
+main.ts:85127
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 required field if don’t specify language_name
@@ -48,15 +39,15 @@ Note: this endpoint currently supports these languages only;
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:85158
+main.ts:85166
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 required field if don’t specify language_code
@@ -90,15 +81,15 @@ Vietnamese, vi
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:85151
+main.ts:85159
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -106,6 +97,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:85164
+main.ts:85172

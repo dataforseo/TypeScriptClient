@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / CarouselSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / CarouselSerpElementItem
 
 # Class: CarouselSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-  ↳ **`CarouselSerpElementItem`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](CarouselSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](CarouselSerpElementItem.md#_discriminator)
-- [items](CarouselSerpElementItem.md#items)
-- [position](CarouselSerpElementItem.md#position)
-- [rank\_absolute](CarouselSerpElementItem.md#rank_absolute)
-- [rank\_group](CarouselSerpElementItem.md#rank_group)
-- [rectangle](CarouselSerpElementItem.md#rectangle)
-- [title](CarouselSerpElementItem.md#title)
-- [xpath](CarouselSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](CarouselSerpElementItem.md#init)
-- [toJSON](CarouselSerpElementItem.md#tojson)
-- [fromJS](CarouselSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new CarouselSerpElementItem(data)
 
-• **new CarouselSerpElementItem**(`data?`): [`CarouselSerpElementItem`](CarouselSerpElementItem.md)
+> **new CarouselSerpElementItem**(`data`?): [`CarouselSerpElementItem`](CarouselSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ICarouselSerpElementItem`](../interfaces/ICarouselSerpElementItem.md) |
+• **data?**: [`ICarouselSerpElementItem`](../interfaces/ICarouselSerpElementItem.md)
 
 #### Returns
 
@@ -57,9 +34,9 @@
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[constructor](BaseSerpElementItem.md#constructor)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:30811
 
@@ -67,38 +44,38 @@ main.ts:30811
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[_discriminator](BaseSerpElementItem.md#_discriminator)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:19788
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`CarouselElement`](CarouselElement.md)[]
+> **`optional`** **items**: [`CarouselElement`](CarouselElement.md)[]
 
 additional items present in the element
 if there are none, equals null
 
 #### Implementation of
 
-[ICarouselSerpElementItem](../interfaces/ICarouselSerpElementItem.md).[items](../interfaces/ICarouselSerpElementItem.md#items)
+[`ICarouselSerpElementItem`](../interfaces/ICarouselSerpElementItem.md).[`items`](../interfaces/ICarouselSerpElementItem.md#items)
 
-#### Defined in
+#### Source
 
 main.ts:30803
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -106,17 +83,17 @@ left, right
 
 #### Implementation of
 
-[ICarouselSerpElementItem](../interfaces/ICarouselSerpElementItem.md).[position](../interfaces/ICarouselSerpElementItem.md#position)
+[`ICarouselSerpElementItem`](../interfaces/ICarouselSerpElementItem.md).[`position`](../interfaces/ICarouselSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
 main.ts:30796
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -124,17 +101,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[ICarouselSerpElementItem](../interfaces/ICarouselSerpElementItem.md).[rank_absolute](../interfaces/ICarouselSerpElementItem.md#rank_absolute)
+[`ICarouselSerpElementItem`](../interfaces/ICarouselSerpElementItem.md).[`rank_absolute`](../interfaces/ICarouselSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
 main.ts:30792
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
@@ -143,17 +120,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[ICarouselSerpElementItem](../interfaces/ICarouselSerpElementItem.md).[rank_group](../interfaces/ICarouselSerpElementItem.md#rank_group)
+[`ICarouselSerpElementItem`](../interfaces/ICarouselSerpElementItem.md).[`rank_group`](../interfaces/ICarouselSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
 main.ts:30788
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -161,55 +138,53 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Implementation of
 
-[ICarouselSerpElementItem](../interfaces/ICarouselSerpElementItem.md).[rectangle](../interfaces/ICarouselSerpElementItem.md#rectangle)
+[`ICarouselSerpElementItem`](../interfaces/ICarouselSerpElementItem.md).[`rectangle`](../interfaces/ICarouselSerpElementItem.md#rectangle)
 
-#### Defined in
+#### Source
 
 main.ts:30807
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the row
 
 #### Implementation of
 
-[ICarouselSerpElementItem](../interfaces/ICarouselSerpElementItem.md).[title](../interfaces/ICarouselSerpElementItem.md#title)
+[`ICarouselSerpElementItem`](../interfaces/ICarouselSerpElementItem.md).[`title`](../interfaces/ICarouselSerpElementItem.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:30800
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[ICarouselSerpElementItem](../interfaces/ICarouselSerpElementItem.md).[xpath](../interfaces/ICarouselSerpElementItem.md#xpath)
+[`ICarouselSerpElementItem`](../interfaces/ICarouselSerpElementItem.md).[`xpath`](../interfaces/ICarouselSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
 main.ts:30798
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -217,23 +192,21 @@ main.ts:30798
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[init](BaseSerpElementItem.md#init)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:30816
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -241,23 +214,21 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[toJSON](BaseSerpElementItem.md#tojson)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:30844
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`CarouselSerpElementItem`](CarouselSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`CarouselSerpElementItem`](CarouselSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -265,8 +236,8 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[fromJS](BaseSerpElementItem.md#fromjs)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:30837

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataGoogleAppSearchesTasksReadyResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppDataGoogleAppSearchesTasksReadyResultInfo
 
 # Class: AppDataGoogleAppSearchesTasksReadyResultInfo
 
@@ -8,203 +12,174 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppDataGoogleAppSearchesTasksReadyResultInfo.md#constructor)
-
-### Properties
-
-- [date\_posted](AppDataGoogleAppSearchesTasksReadyResultInfo.md#date_posted)
-- [endpoint\_advanced](AppDataGoogleAppSearchesTasksReadyResultInfo.md#endpoint_advanced)
-- [endpoint\_html](AppDataGoogleAppSearchesTasksReadyResultInfo.md#endpoint_html)
-- [id](AppDataGoogleAppSearchesTasksReadyResultInfo.md#id)
-- [se](AppDataGoogleAppSearchesTasksReadyResultInfo.md#se)
-- [tag](AppDataGoogleAppSearchesTasksReadyResultInfo.md#tag)
-
-### Methods
-
-- [init](AppDataGoogleAppSearchesTasksReadyResultInfo.md#init)
-- [toJSON](AppDataGoogleAppSearchesTasksReadyResultInfo.md#tojson)
-- [fromJS](AppDataGoogleAppSearchesTasksReadyResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppDataGoogleAppSearchesTasksReadyResultInfo(data)
 
-• **new AppDataGoogleAppSearchesTasksReadyResultInfo**(`data?`): [`AppDataGoogleAppSearchesTasksReadyResultInfo`](AppDataGoogleAppSearchesTasksReadyResultInfo.md)
+> **new AppDataGoogleAppSearchesTasksReadyResultInfo**(`data`?): [`AppDataGoogleAppSearchesTasksReadyResultInfo`](AppDataGoogleAppSearchesTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppDataGoogleAppSearchesTasksReadyResultInfo`](../interfaces/IAppDataGoogleAppSearchesTasksReadyResultInfo.md) |
+• **data?**: [`IAppDataGoogleAppSearchesTasksReadyResultInfo`](../interfaces/IAppDataGoogleAppSearchesTasksReadyResultInfo.md)
 
 #### Returns
 
 [`AppDataGoogleAppSearchesTasksReadyResultInfo`](AppDataGoogleAppSearchesTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:183071
 
 ## Properties
 
-### date\_posted
+### date\_posted?
 
-• `Optional` **date\_posted**: `string`
+> **`optional`** **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
 #### Implementation of
 
-[IAppDataGoogleAppSearchesTasksReadyResultInfo](../interfaces/IAppDataGoogleAppSearchesTasksReadyResultInfo.md).[date_posted](../interfaces/IAppDataGoogleAppSearchesTasksReadyResultInfo.md#date_posted)
+[`IAppDataGoogleAppSearchesTasksReadyResultInfo`](../interfaces/IAppDataGoogleAppSearchesTasksReadyResultInfo.md).[`date_posted`](../interfaces/IAppDataGoogleAppSearchesTasksReadyResultInfo.md#date_posted)
 
-#### Defined in
+#### Source
 
 main.ts:183060
 
-___
+***
 
-### endpoint\_advanced
+### endpoint\_advanced?
 
-• `Optional` **endpoint\_advanced**: `string`
+> **`optional`** **endpoint\_advanced**: `string`
 
 URL for collecting the results of the Google App Searches task
 
 #### Implementation of
 
-[IAppDataGoogleAppSearchesTasksReadyResultInfo](../interfaces/IAppDataGoogleAppSearchesTasksReadyResultInfo.md).[endpoint_advanced](../interfaces/IAppDataGoogleAppSearchesTasksReadyResultInfo.md#endpoint_advanced)
+[`IAppDataGoogleAppSearchesTasksReadyResultInfo`](../interfaces/IAppDataGoogleAppSearchesTasksReadyResultInfo.md).[`endpoint_advanced`](../interfaces/IAppDataGoogleAppSearchesTasksReadyResultInfo.md#endpoint_advanced)
 
-#### Defined in
+#### Source
 
 main.ts:183064
 
-___
+***
 
-### endpoint\_html
+### endpoint\_html?
 
-• `Optional` **endpoint\_html**: `string`
+> **`optional`** **endpoint\_html**: `string`
 
 URL for collecting the results of the Google App Searches HTML task
 if HTML tasks are not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[IAppDataGoogleAppSearchesTasksReadyResultInfo](../interfaces/IAppDataGoogleAppSearchesTasksReadyResultInfo.md).[endpoint_html](../interfaces/IAppDataGoogleAppSearchesTasksReadyResultInfo.md#endpoint_html)
+[`IAppDataGoogleAppSearchesTasksReadyResultInfo`](../interfaces/IAppDataGoogleAppSearchesTasksReadyResultInfo.md).[`endpoint_html`](../interfaces/IAppDataGoogleAppSearchesTasksReadyResultInfo.md#endpoint_html)
 
-#### Defined in
+#### Source
 
 main.ts:183067
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IAppDataGoogleAppSearchesTasksReadyResultInfo](../interfaces/IAppDataGoogleAppSearchesTasksReadyResultInfo.md).[id](../interfaces/IAppDataGoogleAppSearchesTasksReadyResultInfo.md#id)
+[`IAppDataGoogleAppSearchesTasksReadyResultInfo`](../interfaces/IAppDataGoogleAppSearchesTasksReadyResultInfo.md).[`id`](../interfaces/IAppDataGoogleAppSearchesTasksReadyResultInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:183056
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 
 #### Implementation of
 
-[IAppDataGoogleAppSearchesTasksReadyResultInfo](../interfaces/IAppDataGoogleAppSearchesTasksReadyResultInfo.md).[se](../interfaces/IAppDataGoogleAppSearchesTasksReadyResultInfo.md#se)
+[`IAppDataGoogleAppSearchesTasksReadyResultInfo`](../interfaces/IAppDataGoogleAppSearchesTasksReadyResultInfo.md).[`se`](../interfaces/IAppDataGoogleAppSearchesTasksReadyResultInfo.md#se)
 
-#### Defined in
+#### Source
 
 main.ts:183058
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
 #### Implementation of
 
-[IAppDataGoogleAppSearchesTasksReadyResultInfo](../interfaces/IAppDataGoogleAppSearchesTasksReadyResultInfo.md).[tag](../interfaces/IAppDataGoogleAppSearchesTasksReadyResultInfo.md#tag)
+[`IAppDataGoogleAppSearchesTasksReadyResultInfo`](../interfaces/IAppDataGoogleAppSearchesTasksReadyResultInfo.md).[`tag`](../interfaces/IAppDataGoogleAppSearchesTasksReadyResultInfo.md#tag)
 
-#### Defined in
+#### Source
 
 main.ts:183062
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:183080
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:183102
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppDataGoogleAppSearchesTasksReadyResultInfo`](AppDataGoogleAppSearchesTasksReadyResultInfo.md)
+> **`static`** **fromJS**(`data`): [`AppDataGoogleAppSearchesTasksReadyResultInfo`](AppDataGoogleAppSearchesTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppDataGoogleAppSearchesTasksReadyResultInfo`](AppDataGoogleAppSearchesTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:183095

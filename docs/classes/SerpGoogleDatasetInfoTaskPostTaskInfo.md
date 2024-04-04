@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleDatasetInfoTaskPostTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleDatasetInfoTaskPostTaskInfo
 
 # Class: SerpGoogleDatasetInfoTaskPostTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`SerpGoogleDatasetInfoTaskPostTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleDatasetInfoTaskPostTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](SerpGoogleDatasetInfoTaskPostTaskInfo.md#cost)
-- [data](SerpGoogleDatasetInfoTaskPostTaskInfo.md#data)
-- [id](SerpGoogleDatasetInfoTaskPostTaskInfo.md#id)
-- [path](SerpGoogleDatasetInfoTaskPostTaskInfo.md#path)
-- [result](SerpGoogleDatasetInfoTaskPostTaskInfo.md#result)
-- [result\_count](SerpGoogleDatasetInfoTaskPostTaskInfo.md#result_count)
-- [status\_code](SerpGoogleDatasetInfoTaskPostTaskInfo.md#status_code)
-- [status\_message](SerpGoogleDatasetInfoTaskPostTaskInfo.md#status_message)
-- [time](SerpGoogleDatasetInfoTaskPostTaskInfo.md#time)
-
-### Methods
-
-- [init](SerpGoogleDatasetInfoTaskPostTaskInfo.md#init)
-- [toJSON](SerpGoogleDatasetInfoTaskPostTaskInfo.md#tojson)
-- [fromJS](SerpGoogleDatasetInfoTaskPostTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleDatasetInfoTaskPostTaskInfo(data)
 
-• **new SerpGoogleDatasetInfoTaskPostTaskInfo**(`data?`): [`SerpGoogleDatasetInfoTaskPostTaskInfo`](SerpGoogleDatasetInfoTaskPostTaskInfo.md)
+> **new SerpGoogleDatasetInfoTaskPostTaskInfo**(`data`?): [`SerpGoogleDatasetInfoTaskPostTaskInfo`](SerpGoogleDatasetInfoTaskPostTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleDatasetInfoTaskPostTaskInfo`](../interfaces/ISerpGoogleDatasetInfoTaskPostTaskInfo.md) |
+• **data?**: [`ISerpGoogleDatasetInfoTaskPostTaskInfo`](../interfaces/ISerpGoogleDatasetInfoTaskPostTaskInfo.md)
 
 #### Returns
 
@@ -58,139 +34,139 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:54358
+main.ts:54366
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[ISerpGoogleDatasetInfoTaskPostTaskInfo](../interfaces/ISerpGoogleDatasetInfoTaskPostTaskInfo.md).[cost](../interfaces/ISerpGoogleDatasetInfoTaskPostTaskInfo.md#cost)
+[`ISerpGoogleDatasetInfoTaskPostTaskInfo`](../interfaces/ISerpGoogleDatasetInfoTaskPostTaskInfo.md).[`cost`](../interfaces/ISerpGoogleDatasetInfoTaskPostTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[ISerpGoogleDatasetInfoTaskPostTaskInfo](../interfaces/ISerpGoogleDatasetInfoTaskPostTaskInfo.md).[data](../interfaces/ISerpGoogleDatasetInfoTaskPostTaskInfo.md#data)
+[`ISerpGoogleDatasetInfoTaskPostTaskInfo`](../interfaces/ISerpGoogleDatasetInfoTaskPostTaskInfo.md).[`data`](../interfaces/ISerpGoogleDatasetInfoTaskPostTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[ISerpGoogleDatasetInfoTaskPostTaskInfo](../interfaces/ISerpGoogleDatasetInfoTaskPostTaskInfo.md).[id](../interfaces/ISerpGoogleDatasetInfoTaskPostTaskInfo.md#id)
+[`ISerpGoogleDatasetInfoTaskPostTaskInfo`](../interfaces/ISerpGoogleDatasetInfoTaskPostTaskInfo.md).[`id`](../interfaces/ISerpGoogleDatasetInfoTaskPostTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[ISerpGoogleDatasetInfoTaskPostTaskInfo](../interfaces/ISerpGoogleDatasetInfoTaskPostTaskInfo.md).[path](../interfaces/ISerpGoogleDatasetInfoTaskPostTaskInfo.md#path)
+[`ISerpGoogleDatasetInfoTaskPostTaskInfo`](../interfaces/ISerpGoogleDatasetInfoTaskPostTaskInfo.md).[`path`](../interfaces/ISerpGoogleDatasetInfoTaskPostTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: `any`
+> **`optional`** **result**: `any`
 
 array of results
 in this case, the value will be null
 
 #### Implementation of
 
-[ISerpGoogleDatasetInfoTaskPostTaskInfo](../interfaces/ISerpGoogleDatasetInfoTaskPostTaskInfo.md).[result](../interfaces/ISerpGoogleDatasetInfoTaskPostTaskInfo.md#result)
+[`ISerpGoogleDatasetInfoTaskPostTaskInfo`](../interfaces/ISerpGoogleDatasetInfoTaskPostTaskInfo.md).[`result`](../interfaces/ISerpGoogleDatasetInfoTaskPostTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:54354
+main.ts:54362
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[ISerpGoogleDatasetInfoTaskPostTaskInfo](../interfaces/ISerpGoogleDatasetInfoTaskPostTaskInfo.md).[result_count](../interfaces/ISerpGoogleDatasetInfoTaskPostTaskInfo.md#result_count)
+[`ISerpGoogleDatasetInfoTaskPostTaskInfo`](../interfaces/ISerpGoogleDatasetInfoTaskPostTaskInfo.md).[`result_count`](../interfaces/ISerpGoogleDatasetInfoTaskPostTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -198,68 +174,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[ISerpGoogleDatasetInfoTaskPostTaskInfo](../interfaces/ISerpGoogleDatasetInfoTaskPostTaskInfo.md).[status_code](../interfaces/ISerpGoogleDatasetInfoTaskPostTaskInfo.md#status_code)
+[`ISerpGoogleDatasetInfoTaskPostTaskInfo`](../interfaces/ISerpGoogleDatasetInfoTaskPostTaskInfo.md).[`status_code`](../interfaces/ISerpGoogleDatasetInfoTaskPostTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[ISerpGoogleDatasetInfoTaskPostTaskInfo](../interfaces/ISerpGoogleDatasetInfoTaskPostTaskInfo.md).[status_message](../interfaces/ISerpGoogleDatasetInfoTaskPostTaskInfo.md#status_message)
+[`ISerpGoogleDatasetInfoTaskPostTaskInfo`](../interfaces/ISerpGoogleDatasetInfoTaskPostTaskInfo.md).[`status_message`](../interfaces/ISerpGoogleDatasetInfoTaskPostTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[ISerpGoogleDatasetInfoTaskPostTaskInfo](../interfaces/ISerpGoogleDatasetInfoTaskPostTaskInfo.md).[time](../interfaces/ISerpGoogleDatasetInfoTaskPostTaskInfo.md#time)
+[`ISerpGoogleDatasetInfoTaskPostTaskInfo`](../interfaces/ISerpGoogleDatasetInfoTaskPostTaskInfo.md).[`time`](../interfaces/ISerpGoogleDatasetInfoTaskPostTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -267,23 +241,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:54362
+main.ts:54370
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -291,23 +263,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:54380
+main.ts:54388
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleDatasetInfoTaskPostTaskInfo`](SerpGoogleDatasetInfoTaskPostTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleDatasetInfoTaskPostTaskInfo`](SerpGoogleDatasetInfoTaskPostTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -315,8 +285,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:54373
+main.ts:54381

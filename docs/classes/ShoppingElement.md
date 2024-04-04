@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ShoppingElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ShoppingElement
 
 # Class: ShoppingElement
 
@@ -8,72 +12,47 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ShoppingElement.md#constructor)
-
-### Properties
-
-- [description](ShoppingElement.md#description)
-- [marketplace](ShoppingElement.md#marketplace)
-- [marketplace\_url](ShoppingElement.md#marketplace_url)
-- [price](ShoppingElement.md#price)
-- [source](ShoppingElement.md#source)
-- [title](ShoppingElement.md#title)
-- [type](ShoppingElement.md#type)
-- [url](ShoppingElement.md#url)
-
-### Methods
-
-- [init](ShoppingElement.md#init)
-- [toJSON](ShoppingElement.md#tojson)
-- [fromJS](ShoppingElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ShoppingElement(data)
 
-• **new ShoppingElement**(`data?`): [`ShoppingElement`](ShoppingElement.md)
+> **new ShoppingElement**(`data`?): [`ShoppingElement`](ShoppingElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IShoppingElement`](../interfaces/IShoppingElement.md) |
+• **data?**: [`IShoppingElement`](../interfaces/IShoppingElement.md)
 
 #### Returns
 
 [`ShoppingElement`](ShoppingElement.md)
 
-#### Defined in
+#### Source
 
 main.ts:31234
 
 ## Properties
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description
 
 #### Implementation of
 
-[IShoppingElement](../interfaces/IShoppingElement.md).[description](../interfaces/IShoppingElement.md#description)
+[`IShoppingElement`](../interfaces/IShoppingElement.md).[`description`](../interfaces/IShoppingElement.md#description)
 
-#### Defined in
+#### Source
 
 main.ts:31220
 
-___
+***
 
-### marketplace
+### marketplace?
 
-• `Optional` **marketplace**: `string`
+> **`optional`** **marketplace**: `string`
 
 merchant account provider
 commerce site that hosts products or websites of individual sellers under the same merchant account
@@ -82,166 +61,160 @@ by Google
 
 #### Implementation of
 
-[IShoppingElement](../interfaces/IShoppingElement.md).[marketplace](../interfaces/IShoppingElement.md#marketplace)
+[`IShoppingElement`](../interfaces/IShoppingElement.md).[`marketplace`](../interfaces/IShoppingElement.md#marketplace)
 
-#### Defined in
+#### Source
 
 main.ts:31225
 
-___
+***
 
-### marketplace\_url
+### marketplace\_url?
 
-• `Optional` **marketplace\_url**: `string`
+> **`optional`** **marketplace\_url**: `string`
 
 relevant marketplace URL
 URL of the page on the marketplace website where the product is hosted
 
 #### Implementation of
 
-[IShoppingElement](../interfaces/IShoppingElement.md).[marketplace_url](../interfaces/IShoppingElement.md#marketplace_url)
+[`IShoppingElement`](../interfaces/IShoppingElement.md).[`marketplace_url`](../interfaces/IShoppingElement.md#marketplace_url)
 
-#### Defined in
+#### Source
 
 main.ts:31228
 
-___
+***
 
-### price
+### price?
 
-• `Optional` **price**: [`PriceInfo`](PriceInfo.md)
+> **`optional`** **price**: [`PriceInfo`](PriceInfo.md)
 
 price indicated in the element
 
 #### Implementation of
 
-[IShoppingElement](../interfaces/IShoppingElement.md).[price](../interfaces/IShoppingElement.md#price)
+[`IShoppingElement`](../interfaces/IShoppingElement.md).[`price`](../interfaces/IShoppingElement.md#price)
 
-#### Defined in
+#### Source
 
 main.ts:31215
 
-___
+***
 
-### source
+### source?
 
-• `Optional` **source**: `string`
+> **`optional`** **source**: `string`
 
 source of the element
 indicates the source of information included in the top_stories_element
 
 #### Implementation of
 
-[IShoppingElement](../interfaces/IShoppingElement.md).[source](../interfaces/IShoppingElement.md#source)
+[`IShoppingElement`](../interfaces/IShoppingElement.md).[`source`](../interfaces/IShoppingElement.md#source)
 
-#### Defined in
+#### Source
 
 main.ts:31218
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
 #### Implementation of
 
-[IShoppingElement](../interfaces/IShoppingElement.md).[title](../interfaces/IShoppingElement.md#title)
+[`IShoppingElement`](../interfaces/IShoppingElement.md).[`title`](../interfaces/IShoppingElement.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:31213
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IShoppingElement](../interfaces/IShoppingElement.md).[type](../interfaces/IShoppingElement.md#type)
+[`IShoppingElement`](../interfaces/IShoppingElement.md).[`type`](../interfaces/IShoppingElement.md#type)
 
-#### Defined in
+#### Source
 
 main.ts:31211
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL
 
 #### Implementation of
 
-[IShoppingElement](../interfaces/IShoppingElement.md).[url](../interfaces/IShoppingElement.md#url)
+[`IShoppingElement`](../interfaces/IShoppingElement.md).[`url`](../interfaces/IShoppingElement.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:31230
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:31243
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:31267
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ShoppingElement`](ShoppingElement.md)
+> **`static`** **fromJS**(`data`): [`ShoppingElement`](ShoppingElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ShoppingElement`](ShoppingElement.md)
 
-#### Defined in
+#### Source
 
 main.ts:31260

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / TargetInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / TargetInfo
 
 # Class: TargetInfo
 
@@ -8,152 +12,128 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](TargetInfo.md#constructor)
-
-### Properties
-
-- [cms](TargetInfo.md#cms)
-- [country](TargetInfo.md#country)
-- [ip\_address](TargetInfo.md#ip_address)
-- [is\_ip](TargetInfo.md#is_ip)
-- [platform\_type](TargetInfo.md#platform_type)
-- [server](TargetInfo.md#server)
-- [target\_spam\_score](TargetInfo.md#target_spam_score)
-
-### Methods
-
-- [init](TargetInfo.md#init)
-- [toJSON](TargetInfo.md#tojson)
-- [fromJS](TargetInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new TargetInfo(data)
 
-• **new TargetInfo**(`data?`): [`TargetInfo`](TargetInfo.md)
+> **new TargetInfo**(`data`?): [`TargetInfo`](TargetInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ITargetInfo`](../interfaces/ITargetInfo.md) |
+• **data?**: [`ITargetInfo`](../interfaces/ITargetInfo.md)
 
 #### Returns
 
 [`TargetInfo`](TargetInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:134751
+main.ts:134759
 
 ## Properties
 
-### cms
+### cms?
 
-• `Optional` **cms**: `string`
+> **`optional`** **cms**: `string`
 
 content management system
 
 #### Implementation of
 
-[ITargetInfo](../interfaces/ITargetInfo.md).[cms](../interfaces/ITargetInfo.md#cms)
+[`ITargetInfo`](../interfaces/ITargetInfo.md).[`cms`](../interfaces/ITargetInfo.md#cms)
 
-#### Defined in
+#### Source
 
-main.ts:134734
+main.ts:134742
 
-___
+***
 
-### country
+### country?
 
-• `Optional` **country**: `string`
+> **`optional`** **country**: `string`
 
 country code that the target domain is determined to belong to
 
 #### Implementation of
 
-[ITargetInfo](../interfaces/ITargetInfo.md).[country](../interfaces/ITargetInfo.md#country)
+[`ITargetInfo`](../interfaces/ITargetInfo.md).[`country`](../interfaces/ITargetInfo.md#country)
 
-#### Defined in
+#### Source
 
-main.ts:134740
+main.ts:134748
 
-___
+***
 
-### ip\_address
+### ip\_address?
 
-• `Optional` **ip\_address**: `string`
+> **`optional`** **ip\_address**: `string`
 
 IP address of the target
 
 #### Implementation of
 
-[ITargetInfo](../interfaces/ITargetInfo.md).[ip_address](../interfaces/ITargetInfo.md#ip_address)
+[`ITargetInfo`](../interfaces/ITargetInfo.md).[`ip_address`](../interfaces/ITargetInfo.md#ip_address)
 
-#### Defined in
+#### Source
 
-main.ts:134738
+main.ts:134746
 
-___
+***
 
-### is\_ip
+### is\_ip?
 
-• `Optional` **is\_ip**: `boolean`
+> **`optional`** **is\_ip**: `boolean`
 
 indicates if the target is IP
 if true, the domain, subdomain or webpage functions as an IP address and does not have a domain name
 
 #### Implementation of
 
-[ITargetInfo](../interfaces/ITargetInfo.md).[is_ip](../interfaces/ITargetInfo.md#is_ip)
+[`ITargetInfo`](../interfaces/ITargetInfo.md).[`is_ip`](../interfaces/ITargetInfo.md#is_ip)
 
-#### Defined in
+#### Source
 
-main.ts:134743
+main.ts:134751
 
-___
+***
 
-### platform\_type
+### platform\_type?
 
-• `Optional` **platform\_type**: `string`[]
+> **`optional`** **platform\_type**: `string`[]
 
 platform type
 
 #### Implementation of
 
-[ITargetInfo](../interfaces/ITargetInfo.md).[platform_type](../interfaces/ITargetInfo.md#platform_type)
+[`ITargetInfo`](../interfaces/ITargetInfo.md).[`platform_type`](../interfaces/ITargetInfo.md#platform_type)
 
-#### Defined in
+#### Source
 
-main.ts:134736
+main.ts:134744
 
-___
+***
 
-### server
+### server?
 
-• `Optional` **server**: `string`
+> **`optional`** **server**: `string`
 
 server
 
 #### Implementation of
 
-[ITargetInfo](../interfaces/ITargetInfo.md).[server](../interfaces/ITargetInfo.md#server)
+[`ITargetInfo`](../interfaces/ITargetInfo.md).[`server`](../interfaces/ITargetInfo.md#server)
 
-#### Defined in
+#### Source
 
-main.ts:134732
+main.ts:134740
 
-___
+***
 
-### target\_spam\_score
+### target\_spam\_score?
 
-• `Optional` **target\_spam\_score**: `number`
+> **`optional`** **target\_spam\_score**: `number`
 
 spam score of the target
 if the target is a domain/subdomain, this fields indicates the average spam score of all pages of that domain/subdomain;
@@ -161,68 +141,62 @@ learn more about how the metric is calculated on this help center page
 
 #### Implementation of
 
-[ITargetInfo](../interfaces/ITargetInfo.md).[target_spam_score](../interfaces/ITargetInfo.md#target_spam_score)
+[`ITargetInfo`](../interfaces/ITargetInfo.md).[`target_spam_score`](../interfaces/ITargetInfo.md#target_spam_score)
 
-#### Defined in
+#### Source
 
-main.ts:134747
+main.ts:134755
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:134760
+main.ts:134768
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:134787
+main.ts:134795
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`TargetInfo`](TargetInfo.md)
+> **`static`** **fromJS**(`data`): [`TargetInfo`](TargetInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`TargetInfo`](TargetInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:134780
+main.ts:134788

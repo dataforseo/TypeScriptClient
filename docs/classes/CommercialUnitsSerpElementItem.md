@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / CommercialUnitsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / CommercialUnitsSerpElementItem
 
 # Class: CommercialUnitsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-  ↳ **`CommercialUnitsSerpElementItem`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](CommercialUnitsSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](CommercialUnitsSerpElementItem.md#_discriminator)
-- [items](CommercialUnitsSerpElementItem.md#items)
-- [position](CommercialUnitsSerpElementItem.md#position)
-- [rank\_absolute](CommercialUnitsSerpElementItem.md#rank_absolute)
-- [rank\_group](CommercialUnitsSerpElementItem.md#rank_group)
-- [rectangle](CommercialUnitsSerpElementItem.md#rectangle)
-- [title](CommercialUnitsSerpElementItem.md#title)
-- [xpath](CommercialUnitsSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](CommercialUnitsSerpElementItem.md#init)
-- [toJSON](CommercialUnitsSerpElementItem.md#tojson)
-- [fromJS](CommercialUnitsSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new CommercialUnitsSerpElementItem(data)
 
-• **new CommercialUnitsSerpElementItem**(`data?`): [`CommercialUnitsSerpElementItem`](CommercialUnitsSerpElementItem.md)
+> **new CommercialUnitsSerpElementItem**(`data`?): [`CommercialUnitsSerpElementItem`](CommercialUnitsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ICommercialUnitsSerpElementItem`](../interfaces/ICommercialUnitsSerpElementItem.md) |
+• **data?**: [`ICommercialUnitsSerpElementItem`](../interfaces/ICommercialUnitsSerpElementItem.md)
 
 #### Returns
 
@@ -57,48 +34,48 @@
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[constructor](BaseSerpElementItem.md#constructor)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:34409
+main.ts:34415
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[_discriminator](BaseSerpElementItem.md#_discriminator)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:19788
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`CommercialUnitsElement`](CommercialUnitsElement.md)[]
+> **`optional`** **items**: [`CommercialUnitsElement`](CommercialUnitsElement.md)[]
 
 additional items present in the element
 if there are none, equals null
 
 #### Implementation of
 
-[ICommercialUnitsSerpElementItem](../interfaces/ICommercialUnitsSerpElementItem.md).[items](../interfaces/ICommercialUnitsSerpElementItem.md#items)
+[`ICommercialUnitsSerpElementItem`](../interfaces/ICommercialUnitsSerpElementItem.md).[`items`](../interfaces/ICommercialUnitsSerpElementItem.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:34401
+main.ts:34407
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -106,17 +83,17 @@ left, right
 
 #### Implementation of
 
-[ICommercialUnitsSerpElementItem](../interfaces/ICommercialUnitsSerpElementItem.md).[position](../interfaces/ICommercialUnitsSerpElementItem.md#position)
+[`ICommercialUnitsSerpElementItem`](../interfaces/ICommercialUnitsSerpElementItem.md).[`position`](../interfaces/ICommercialUnitsSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
-main.ts:34394
+main.ts:34400
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -124,17 +101,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[ICommercialUnitsSerpElementItem](../interfaces/ICommercialUnitsSerpElementItem.md).[rank_absolute](../interfaces/ICommercialUnitsSerpElementItem.md#rank_absolute)
+[`ICommercialUnitsSerpElementItem`](../interfaces/ICommercialUnitsSerpElementItem.md).[`rank_absolute`](../interfaces/ICommercialUnitsSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:34390
+main.ts:34396
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
@@ -143,17 +120,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[ICommercialUnitsSerpElementItem](../interfaces/ICommercialUnitsSerpElementItem.md).[rank_group](../interfaces/ICommercialUnitsSerpElementItem.md#rank_group)
+[`ICommercialUnitsSerpElementItem`](../interfaces/ICommercialUnitsSerpElementItem.md).[`rank_group`](../interfaces/ICommercialUnitsSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
-main.ts:34386
+main.ts:34392
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -161,55 +138,53 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Implementation of
 
-[ICommercialUnitsSerpElementItem](../interfaces/ICommercialUnitsSerpElementItem.md).[rectangle](../interfaces/ICommercialUnitsSerpElementItem.md#rectangle)
+[`ICommercialUnitsSerpElementItem`](../interfaces/ICommercialUnitsSerpElementItem.md).[`rectangle`](../interfaces/ICommercialUnitsSerpElementItem.md#rectangle)
 
-#### Defined in
+#### Source
 
-main.ts:34405
+main.ts:34411
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the row
 
 #### Implementation of
 
-[ICommercialUnitsSerpElementItem](../interfaces/ICommercialUnitsSerpElementItem.md).[title](../interfaces/ICommercialUnitsSerpElementItem.md#title)
+[`ICommercialUnitsSerpElementItem`](../interfaces/ICommercialUnitsSerpElementItem.md).[`title`](../interfaces/ICommercialUnitsSerpElementItem.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:34398
+main.ts:34404
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[ICommercialUnitsSerpElementItem](../interfaces/ICommercialUnitsSerpElementItem.md).[xpath](../interfaces/ICommercialUnitsSerpElementItem.md#xpath)
+[`ICommercialUnitsSerpElementItem`](../interfaces/ICommercialUnitsSerpElementItem.md).[`xpath`](../interfaces/ICommercialUnitsSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
-main.ts:34396
+main.ts:34402
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -217,23 +192,21 @@ main.ts:34396
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[init](BaseSerpElementItem.md#init)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:34414
+main.ts:34420
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -241,23 +214,21 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[toJSON](BaseSerpElementItem.md#tojson)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:34442
+main.ts:34448
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`CommercialUnitsSerpElementItem`](CommercialUnitsSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`CommercialUnitsSerpElementItem`](CommercialUnitsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -265,8 +236,8 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[fromJS](BaseSerpElementItem.md#fromjs)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:34435
+main.ts:34441

@@ -1,125 +1,112 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpGoogleSearchByImageTasksReadyResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ISerpGoogleSearchByImageTasksReadyResultInfo
 
 # Interface: ISerpGoogleSearchByImageTasksReadyResultInfo
 
-## Implemented by
-
-- [`SerpGoogleSearchByImageTasksReadyResultInfo`](../classes/SerpGoogleSearchByImageTasksReadyResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [date\_posted](ISerpGoogleSearchByImageTasksReadyResultInfo.md#date_posted)
-- [endpoint\_advanced](ISerpGoogleSearchByImageTasksReadyResultInfo.md#endpoint_advanced)
-- [endpoint\_html](ISerpGoogleSearchByImageTasksReadyResultInfo.md#endpoint_html)
-- [endpoint\_regular](ISerpGoogleSearchByImageTasksReadyResultInfo.md#endpoint_regular)
-- [id](ISerpGoogleSearchByImageTasksReadyResultInfo.md#id)
-- [se](ISerpGoogleSearchByImageTasksReadyResultInfo.md#se)
-- [se\_type](ISerpGoogleSearchByImageTasksReadyResultInfo.md#se_type)
-- [tag](ISerpGoogleSearchByImageTasksReadyResultInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### date\_posted
+### date\_posted?
 
-• `Optional` **date\_posted**: `string`
+> **`optional`** **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
-#### Defined in
+#### Source
 
-main.ts:48427
+main.ts:48435
 
-___
+***
 
-### endpoint\_advanced
+### endpoint\_advanced?
 
-• `Optional` **endpoint\_advanced**: `string`
+> **`optional`** **endpoint\_advanced**: `string`
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
 
-#### Defined in
+#### Source
 
-main.ts:48435
+main.ts:48443
 
-___
+***
 
-### endpoint\_html
+### endpoint\_html?
 
-• `Optional` **endpoint\_html**: `string`
+> **`optional`** **endpoint\_html**: `string`
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
 
-#### Defined in
+#### Source
 
-main.ts:48438
+main.ts:48446
 
-___
+***
 
-### endpoint\_regular
+### endpoint\_regular?
 
-• `Optional` **endpoint\_regular**: `string`
+> **`optional`** **endpoint\_regular**: `string`
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
 
-#### Defined in
+#### Source
 
-main.ts:48432
+main.ts:48440
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
-#### Defined in
+#### Source
 
-main.ts:48420
+main.ts:48428
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 
-#### Defined in
+#### Source
 
-main.ts:48422
+main.ts:48430
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 type of search engine
 can take the following values: search_by_image
 
-#### Defined in
+#### Source
 
-main.ts:48425
+main.ts:48433
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
-#### Defined in
+#### Source
 
-main.ts:48429
+main.ts:48437

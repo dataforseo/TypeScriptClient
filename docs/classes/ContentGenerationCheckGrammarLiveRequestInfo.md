@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentGenerationCheckGrammarLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ContentGenerationCheckGrammarLiveRequestInfo
 
 # Class: ContentGenerationCheckGrammarLiveRequestInfo
 
@@ -8,52 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ContentGenerationCheckGrammarLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [language\_code](ContentGenerationCheckGrammarLiveRequestInfo.md#language_code)
-- [language\_name](ContentGenerationCheckGrammarLiveRequestInfo.md#language_name)
-- [tag](ContentGenerationCheckGrammarLiveRequestInfo.md#tag)
-- [text](ContentGenerationCheckGrammarLiveRequestInfo.md#text)
-
-### Methods
-
-- [init](ContentGenerationCheckGrammarLiveRequestInfo.md#init)
-- [toJSON](ContentGenerationCheckGrammarLiveRequestInfo.md#tojson)
-- [fromJS](ContentGenerationCheckGrammarLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ContentGenerationCheckGrammarLiveRequestInfo(data)
 
-• **new ContentGenerationCheckGrammarLiveRequestInfo**(`data?`): [`ContentGenerationCheckGrammarLiveRequestInfo`](ContentGenerationCheckGrammarLiveRequestInfo.md)
+> **new ContentGenerationCheckGrammarLiveRequestInfo**(`data`?): [`ContentGenerationCheckGrammarLiveRequestInfo`](ContentGenerationCheckGrammarLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IContentGenerationCheckGrammarLiveRequestInfo`](../interfaces/IContentGenerationCheckGrammarLiveRequestInfo.md) |
+• **data?**: [`IContentGenerationCheckGrammarLiveRequestInfo`](../interfaces/IContentGenerationCheckGrammarLiveRequestInfo.md)
 
 #### Returns
 
 [`ContentGenerationCheckGrammarLiveRequestInfo`](ContentGenerationCheckGrammarLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:166827
+main.ts:166835
 
 ## Properties
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 code of the text language
 required field if you do not specify language_name
@@ -61,17 +44,17 @@ see the List of Languages for Content Generation Check Grammar API
 
 #### Implementation of
 
-[IContentGenerationCheckGrammarLiveRequestInfo](../interfaces/IContentGenerationCheckGrammarLiveRequestInfo.md).[language_code](../interfaces/IContentGenerationCheckGrammarLiveRequestInfo.md#language_code)
+[`IContentGenerationCheckGrammarLiveRequestInfo`](../interfaces/IContentGenerationCheckGrammarLiveRequestInfo.md).[`language_code`](../interfaces/IContentGenerationCheckGrammarLiveRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:166813
+main.ts:166821
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 name of the text language
 required field if you do not specify language_code
@@ -79,17 +62,17 @@ see the List of Languages for Content Generation Check Grammar API
 
 #### Implementation of
 
-[IContentGenerationCheckGrammarLiveRequestInfo](../interfaces/IContentGenerationCheckGrammarLiveRequestInfo.md).[language_name](../interfaces/IContentGenerationCheckGrammarLiveRequestInfo.md#language_name)
+[`IContentGenerationCheckGrammarLiveRequestInfo`](../interfaces/IContentGenerationCheckGrammarLiveRequestInfo.md).[`language_name`](../interfaces/IContentGenerationCheckGrammarLiveRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:166817
+main.ts:166825
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -99,17 +82,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IContentGenerationCheckGrammarLiveRequestInfo](../interfaces/IContentGenerationCheckGrammarLiveRequestInfo.md).[tag](../interfaces/IContentGenerationCheckGrammarLiveRequestInfo.md#tag)
+[`IContentGenerationCheckGrammarLiveRequestInfo`](../interfaces/IContentGenerationCheckGrammarLiveRequestInfo.md).[`tag`](../interfaces/IContentGenerationCheckGrammarLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:166823
+main.ts:166831
 
-___
+***
 
-### text
+### text?
 
-• `Optional` **text**: `string`
+> **`optional`** **text**: `string`
 
 target text
 required field
@@ -118,68 +101,62 @@ learn more about tokens on our help center
 
 #### Implementation of
 
-[IContentGenerationCheckGrammarLiveRequestInfo](../interfaces/IContentGenerationCheckGrammarLiveRequestInfo.md).[text](../interfaces/IContentGenerationCheckGrammarLiveRequestInfo.md#text)
+[`IContentGenerationCheckGrammarLiveRequestInfo`](../interfaces/IContentGenerationCheckGrammarLiveRequestInfo.md).[`text`](../interfaces/IContentGenerationCheckGrammarLiveRequestInfo.md#text)
 
-#### Defined in
+#### Source
 
-main.ts:166809
+main.ts:166817
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:166836
+main.ts:166844
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:166856
+main.ts:166864
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ContentGenerationCheckGrammarLiveRequestInfo`](ContentGenerationCheckGrammarLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`ContentGenerationCheckGrammarLiveRequestInfo`](ContentGenerationCheckGrammarLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ContentGenerationCheckGrammarLiveRequestInfo`](ContentGenerationCheckGrammarLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:166849
+main.ts:166857

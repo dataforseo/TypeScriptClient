@@ -1,70 +1,61 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAvailableLocations
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAvailableLocations
 
 # Interface: IAvailableLocations
 
-## Implemented by
-
-- [`AvailableLocations`](../classes/AvailableLocations.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [country\_iso\_code](IAvailableLocations.md#country_iso_code)
-- [location\_code](IAvailableLocations.md#location_code)
-- [location\_name](IAvailableLocations.md#location_name)
-- [location\_type](IAvailableLocations.md#location_type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### country\_iso\_code
+### country\_iso\_code?
 
-• `Optional` **country\_iso\_code**: `string`
+> **`optional`** **country\_iso\_code**: `string`
 
 ISO country code of the location
 
-#### Defined in
+#### Source
 
-main.ts:131765
+main.ts:131773
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `string`
+> **`optional`** **location\_code**: `string`
 
 location code
 
-#### Defined in
+#### Source
 
-main.ts:131761
+main.ts:131769
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 location name
 
-#### Defined in
+#### Source
 
-main.ts:131763
+main.ts:131771
 
-___
+***
 
-### location\_type
+### location\_type?
 
-• `Optional` **location\_type**: `string`
+> **`optional`** **location\_type**: `string`
 
 location type
 possible values:
 Country, Region
 
-#### Defined in
+#### Source
 
-main.ts:131769
+main.ts:131777

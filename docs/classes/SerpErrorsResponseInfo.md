@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpErrorsResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpErrorsResponseInfo
 
 # Class: SerpErrorsResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`SerpErrorsResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpErrorsResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](SerpErrorsResponseInfo.md#cost)
-- [status\_code](SerpErrorsResponseInfo.md#status_code)
-- [status\_message](SerpErrorsResponseInfo.md#status_message)
-- [tasks](SerpErrorsResponseInfo.md#tasks)
-- [tasks\_count](SerpErrorsResponseInfo.md#tasks_count)
-- [tasks\_error](SerpErrorsResponseInfo.md#tasks_error)
-- [time](SerpErrorsResponseInfo.md#time)
-- [version](SerpErrorsResponseInfo.md#version)
-
-### Methods
-
-- [init](SerpErrorsResponseInfo.md#init)
-- [toJSON](SerpErrorsResponseInfo.md#tojson)
-- [fromJS](SerpErrorsResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpErrorsResponseInfo(data)
 
-• **new SerpErrorsResponseInfo**(`data?`): [`SerpErrorsResponseInfo`](SerpErrorsResponseInfo.md)
+> **new SerpErrorsResponseInfo**(`data`?): [`SerpErrorsResponseInfo`](SerpErrorsResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpErrorsResponseInfo`](../interfaces/ISerpErrorsResponseInfo.md) |
+• **data?**: [`ISerpErrorsResponseInfo`](../interfaces/ISerpErrorsResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:23868
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[ISerpErrorsResponseInfo](../interfaces/ISerpErrorsResponseInfo.md).[cost](../interfaces/ISerpErrorsResponseInfo.md#cost)
+[`ISerpErrorsResponseInfo`](../interfaces/ISerpErrorsResponseInfo.md).[`cost`](../interfaces/ISerpErrorsResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[ISerpErrorsResponseInfo](../interfaces/ISerpErrorsResponseInfo.md).[status_code](../interfaces/ISerpErrorsResponseInfo.md#status_code)
+[`ISerpErrorsResponseInfo`](../interfaces/ISerpErrorsResponseInfo.md).[`status_code`](../interfaces/ISerpErrorsResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[ISerpErrorsResponseInfo](../interfaces/ISerpErrorsResponseInfo.md).[status_message](../interfaces/ISerpErrorsResponseInfo.md#status_message)
+[`ISerpErrorsResponseInfo`](../interfaces/ISerpErrorsResponseInfo.md).[`status_message`](../interfaces/ISerpErrorsResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`SerpErrorsTaskInfo`](SerpErrorsTaskInfo.md)[]
+> **`optional`** **tasks**: [`SerpErrorsTaskInfo`](SerpErrorsTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[ISerpErrorsResponseInfo](../interfaces/ISerpErrorsResponseInfo.md).[tasks](../interfaces/ISerpErrorsResponseInfo.md#tasks)
+[`ISerpErrorsResponseInfo`](../interfaces/ISerpErrorsResponseInfo.md).[`tasks`](../interfaces/ISerpErrorsResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
 main.ts:23864
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[ISerpErrorsResponseInfo](../interfaces/ISerpErrorsResponseInfo.md).[tasks_count](../interfaces/ISerpErrorsResponseInfo.md#tasks_count)
+[`ISerpErrorsResponseInfo`](../interfaces/ISerpErrorsResponseInfo.md).[`tasks_count`](../interfaces/ISerpErrorsResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[ISerpErrorsResponseInfo](../interfaces/ISerpErrorsResponseInfo.md).[tasks_error](../interfaces/ISerpErrorsResponseInfo.md#tasks_error)
+[`ISerpErrorsResponseInfo`](../interfaces/ISerpErrorsResponseInfo.md).[`tasks_error`](../interfaces/ISerpErrorsResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[ISerpErrorsResponseInfo](../interfaces/ISerpErrorsResponseInfo.md).[time](../interfaces/ISerpErrorsResponseInfo.md#time)
+[`ISerpErrorsResponseInfo`](../interfaces/ISerpErrorsResponseInfo.md).[`time`](../interfaces/ISerpErrorsResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[ISerpErrorsResponseInfo](../interfaces/ISerpErrorsResponseInfo.md).[version](../interfaces/ISerpErrorsResponseInfo.md#version)
+[`ISerpErrorsResponseInfo`](../interfaces/ISerpErrorsResponseInfo.md).[`version`](../interfaces/ISerpErrorsResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:23872
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:23894
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpErrorsResponseInfo`](SerpErrorsResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpErrorsResponseInfo`](SerpErrorsResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:23887

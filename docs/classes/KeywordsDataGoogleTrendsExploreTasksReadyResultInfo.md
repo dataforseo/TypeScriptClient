@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleTrendsExploreTasksReadyResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataGoogleTrendsExploreTasksReadyResultInfo
 
 # Class: KeywordsDataGoogleTrendsExploreTasksReadyResultInfo
 
@@ -8,202 +12,173 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md#constructor)
-
-### Properties
-
-- [date\_posted](KeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md#date_posted)
-- [endpoint](KeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md#endpoint)
-- [function](KeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md#function)
-- [id](KeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md#id)
-- [se](KeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md#se)
-- [tag](KeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md#tag)
-
-### Methods
-
-- [init](KeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md#init)
-- [toJSON](KeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md#tojson)
-- [fromJS](KeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordsDataGoogleTrendsExploreTasksReadyResultInfo(data)
 
-• **new KeywordsDataGoogleTrendsExploreTasksReadyResultInfo**(`data?`): [`KeywordsDataGoogleTrendsExploreTasksReadyResultInfo`](KeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md)
+> **new KeywordsDataGoogleTrendsExploreTasksReadyResultInfo**(`data`?): [`KeywordsDataGoogleTrendsExploreTasksReadyResultInfo`](KeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md) |
+• **data?**: [`IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md)
 
 #### Returns
 
 [`KeywordsDataGoogleTrendsExploreTasksReadyResultInfo`](KeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:122587
+main.ts:122595
 
 ## Properties
 
-### date\_posted
+### date\_posted?
 
-• `Optional` **date\_posted**: `string`
+> **`optional`** **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo](../interfaces/IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md).[date_posted](../interfaces/IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md#date_posted)
+[`IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md).[`date_posted`](../interfaces/IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md#date_posted)
 
-#### Defined in
+#### Source
 
-main.ts:122579
+main.ts:122587
 
-___
+***
 
-### endpoint
+### endpoint?
 
-• `Optional` **endpoint**: `string`
+> **`optional`** **endpoint**: `string`
 
 URL for collecting the results of the task
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo](../interfaces/IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md).[endpoint](../interfaces/IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md#endpoint)
+[`IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md).[`endpoint`](../interfaces/IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md#endpoint)
 
-#### Defined in
+#### Source
 
-main.ts:122583
+main.ts:122591
 
-___
+***
 
-### function
+### function?
 
-• `Optional` **function**: `string`
+> **`optional`** **function**: `string`
 
 type of the task
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo](../interfaces/IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md).[function](../interfaces/IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md#function)
+[`IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md).[`function`](../interfaces/IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md#function)
 
-#### Defined in
+#### Source
 
-main.ts:122577
+main.ts:122585
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo](../interfaces/IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md).[id](../interfaces/IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md#id)
+[`IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md).[`id`](../interfaces/IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:122573
+main.ts:122581
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo](../interfaces/IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md).[se](../interfaces/IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md#se)
+[`IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md).[`se`](../interfaces/IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md#se)
 
-#### Defined in
+#### Source
 
-main.ts:122575
+main.ts:122583
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo](../interfaces/IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md).[tag](../interfaces/IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md#tag)
+[`IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md).[`tag`](../interfaces/IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:122581
+main.ts:122589
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:122596
+main.ts:122604
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:122618
+main.ts:122626
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordsDataGoogleTrendsExploreTasksReadyResultInfo`](KeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordsDataGoogleTrendsExploreTasksReadyResultInfo`](KeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`KeywordsDataGoogleTrendsExploreTasksReadyResultInfo`](KeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:122611
+main.ts:122619

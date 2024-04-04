@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataDataforseoTrendsLocationsCountryResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataDataforseoTrendsLocationsCountryResultInfo
 
 # Class: KeywordsDataDataforseoTrendsLocationsCountryResultInfo
 
@@ -8,121 +12,97 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataDataforseoTrendsLocationsCountryResultInfo.md#constructor)
-
-### Properties
-
-- [country\_iso\_code](KeywordsDataDataforseoTrendsLocationsCountryResultInfo.md#country_iso_code)
-- [geo\_id](KeywordsDataDataforseoTrendsLocationsCountryResultInfo.md#geo_id)
-- [geo\_name](KeywordsDataDataforseoTrendsLocationsCountryResultInfo.md#geo_name)
-- [location\_code](KeywordsDataDataforseoTrendsLocationsCountryResultInfo.md#location_code)
-- [location\_code\_parent](KeywordsDataDataforseoTrendsLocationsCountryResultInfo.md#location_code_parent)
-- [location\_name](KeywordsDataDataforseoTrendsLocationsCountryResultInfo.md#location_name)
-- [location\_type](KeywordsDataDataforseoTrendsLocationsCountryResultInfo.md#location_type)
-
-### Methods
-
-- [init](KeywordsDataDataforseoTrendsLocationsCountryResultInfo.md#init)
-- [toJSON](KeywordsDataDataforseoTrendsLocationsCountryResultInfo.md#tojson)
-- [fromJS](KeywordsDataDataforseoTrendsLocationsCountryResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordsDataDataforseoTrendsLocationsCountryResultInfo(data)
 
-• **new KeywordsDataDataforseoTrendsLocationsCountryResultInfo**(`data?`): [`KeywordsDataDataforseoTrendsLocationsCountryResultInfo`](KeywordsDataDataforseoTrendsLocationsCountryResultInfo.md)
+> **new KeywordsDataDataforseoTrendsLocationsCountryResultInfo**(`data`?): [`KeywordsDataDataforseoTrendsLocationsCountryResultInfo`](KeywordsDataDataforseoTrendsLocationsCountryResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordsDataDataforseoTrendsLocationsCountryResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsLocationsCountryResultInfo.md) |
+• **data?**: [`IKeywordsDataDataforseoTrendsLocationsCountryResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsLocationsCountryResultInfo.md)
 
 #### Returns
 
 [`KeywordsDataDataforseoTrendsLocationsCountryResultInfo`](KeywordsDataDataforseoTrendsLocationsCountryResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:124544
+main.ts:124552
 
 ## Properties
 
-### country\_iso\_code
+### country\_iso\_code?
 
-• `Optional` **country\_iso\_code**: `string`
+> **`optional`** **country\_iso\_code**: `string`
 
 ISO country code of the location
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsLocationsCountryResultInfo](../interfaces/IKeywordsDataDataforseoTrendsLocationsCountryResultInfo.md).[country_iso_code](../interfaces/IKeywordsDataDataforseoTrendsLocationsCountryResultInfo.md#country_iso_code)
+[`IKeywordsDataDataforseoTrendsLocationsCountryResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsLocationsCountryResultInfo.md).[`country_iso_code`](../interfaces/IKeywordsDataDataforseoTrendsLocationsCountryResultInfo.md#country_iso_code)
 
-#### Defined in
+#### Source
 
-main.ts:124531
+main.ts:124539
 
-___
+***
 
-### geo\_id
+### geo\_id?
 
-• `Optional` **geo\_id**: `string`
+> **`optional`** **geo\_id**: `string`
 
 DataForSEO trends location identifier
 you can use this field for matching obtained results with the location_code parameter specified in the request
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsLocationsCountryResultInfo](../interfaces/IKeywordsDataDataforseoTrendsLocationsCountryResultInfo.md).[geo_id](../interfaces/IKeywordsDataDataforseoTrendsLocationsCountryResultInfo.md#geo_id)
+[`IKeywordsDataDataforseoTrendsLocationsCountryResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsLocationsCountryResultInfo.md).[`geo_id`](../interfaces/IKeywordsDataDataforseoTrendsLocationsCountryResultInfo.md#geo_id)
 
-#### Defined in
+#### Source
 
-main.ts:124540
+main.ts:124548
 
-___
+***
 
-### geo\_name
+### geo\_name?
 
-• `Optional` **geo\_name**: `string`
+> **`optional`** **geo\_name**: `string`
 
 DataForSEO trends location name
 you can use this field for matching obtained results with the location_name parameter specified in the request
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsLocationsCountryResultInfo](../interfaces/IKeywordsDataDataforseoTrendsLocationsCountryResultInfo.md).[geo_name](../interfaces/IKeywordsDataDataforseoTrendsLocationsCountryResultInfo.md#geo_name)
+[`IKeywordsDataDataforseoTrendsLocationsCountryResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsLocationsCountryResultInfo.md).[`geo_name`](../interfaces/IKeywordsDataDataforseoTrendsLocationsCountryResultInfo.md#geo_name)
 
-#### Defined in
+#### Source
 
-main.ts:124537
+main.ts:124545
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsLocationsCountryResultInfo](../interfaces/IKeywordsDataDataforseoTrendsLocationsCountryResultInfo.md).[location_code](../interfaces/IKeywordsDataDataforseoTrendsLocationsCountryResultInfo.md#location_code)
+[`IKeywordsDataDataforseoTrendsLocationsCountryResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsLocationsCountryResultInfo.md).[`location_code`](../interfaces/IKeywordsDataDataforseoTrendsLocationsCountryResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:124518
+main.ts:124526
 
-___
+***
 
-### location\_code\_parent
+### location\_code\_parent?
 
-• `Optional` **location\_code\_parent**: `number`
+> **`optional`** **location\_code\_parent**: `number`
 
 the code of the superordinate location
 example:
@@ -135,101 +115,95 @@ where location_code_parent corresponds to:
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsLocationsCountryResultInfo](../interfaces/IKeywordsDataDataforseoTrendsLocationsCountryResultInfo.md).[location_code_parent](../interfaces/IKeywordsDataDataforseoTrendsLocationsCountryResultInfo.md#location_code_parent)
+[`IKeywordsDataDataforseoTrendsLocationsCountryResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsLocationsCountryResultInfo.md).[`location_code_parent`](../interfaces/IKeywordsDataDataforseoTrendsLocationsCountryResultInfo.md#location_code_parent)
 
-#### Defined in
+#### Source
 
-main.ts:124529
+main.ts:124537
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsLocationsCountryResultInfo](../interfaces/IKeywordsDataDataforseoTrendsLocationsCountryResultInfo.md).[location_name](../interfaces/IKeywordsDataDataforseoTrendsLocationsCountryResultInfo.md#location_name)
+[`IKeywordsDataDataforseoTrendsLocationsCountryResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsLocationsCountryResultInfo.md).[`location_name`](../interfaces/IKeywordsDataDataforseoTrendsLocationsCountryResultInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:124520
+main.ts:124528
 
-___
+***
 
-### location\_type
+### location\_type?
 
-• `Optional` **location\_type**: `string`
+> **`optional`** **location\_type**: `string`
 
 location type
 possible values according to Google’s target types
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsLocationsCountryResultInfo](../interfaces/IKeywordsDataDataforseoTrendsLocationsCountryResultInfo.md).[location_type](../interfaces/IKeywordsDataDataforseoTrendsLocationsCountryResultInfo.md#location_type)
+[`IKeywordsDataDataforseoTrendsLocationsCountryResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsLocationsCountryResultInfo.md).[`location_type`](../interfaces/IKeywordsDataDataforseoTrendsLocationsCountryResultInfo.md#location_type)
 
-#### Defined in
+#### Source
 
-main.ts:124534
+main.ts:124542
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:124553
+main.ts:124561
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:124576
+main.ts:124584
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordsDataDataforseoTrendsLocationsCountryResultInfo`](KeywordsDataDataforseoTrendsLocationsCountryResultInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordsDataDataforseoTrendsLocationsCountryResultInfo`](KeywordsDataDataforseoTrendsLocationsCountryResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`KeywordsDataDataforseoTrendsLocationsCountryResultInfo`](KeywordsDataDataforseoTrendsLocationsCountryResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:124569
+main.ts:124577

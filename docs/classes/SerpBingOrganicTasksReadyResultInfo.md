@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpBingOrganicTasksReadyResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpBingOrganicTasksReadyResultInfo
 
 # Class: SerpBingOrganicTasksReadyResultInfo
 
@@ -8,240 +12,209 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpBingOrganicTasksReadyResultInfo.md#constructor)
-
-### Properties
-
-- [date\_posted](SerpBingOrganicTasksReadyResultInfo.md#date_posted)
-- [endpoint\_advanced](SerpBingOrganicTasksReadyResultInfo.md#endpoint_advanced)
-- [endpoint\_html](SerpBingOrganicTasksReadyResultInfo.md#endpoint_html)
-- [endpoint\_regular](SerpBingOrganicTasksReadyResultInfo.md#endpoint_regular)
-- [id](SerpBingOrganicTasksReadyResultInfo.md#id)
-- [se](SerpBingOrganicTasksReadyResultInfo.md#se)
-- [se\_type](SerpBingOrganicTasksReadyResultInfo.md#se_type)
-- [tag](SerpBingOrganicTasksReadyResultInfo.md#tag)
-
-### Methods
-
-- [init](SerpBingOrganicTasksReadyResultInfo.md#init)
-- [toJSON](SerpBingOrganicTasksReadyResultInfo.md#tojson)
-- [fromJS](SerpBingOrganicTasksReadyResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpBingOrganicTasksReadyResultInfo(data)
 
-• **new SerpBingOrganicTasksReadyResultInfo**(`data?`): [`SerpBingOrganicTasksReadyResultInfo`](SerpBingOrganicTasksReadyResultInfo.md)
+> **new SerpBingOrganicTasksReadyResultInfo**(`data`?): [`SerpBingOrganicTasksReadyResultInfo`](SerpBingOrganicTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpBingOrganicTasksReadyResultInfo`](../interfaces/ISerpBingOrganicTasksReadyResultInfo.md) |
+• **data?**: [`ISerpBingOrganicTasksReadyResultInfo`](../interfaces/ISerpBingOrganicTasksReadyResultInfo.md)
 
 #### Returns
 
 [`SerpBingOrganicTasksReadyResultInfo`](SerpBingOrganicTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:56184
+main.ts:56192
 
 ## Properties
 
-### date\_posted
+### date\_posted?
 
-• `Optional` **date\_posted**: `string`
+> **`optional`** **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
 #### Implementation of
 
-[ISerpBingOrganicTasksReadyResultInfo](../interfaces/ISerpBingOrganicTasksReadyResultInfo.md).[date_posted](../interfaces/ISerpBingOrganicTasksReadyResultInfo.md#date_posted)
+[`ISerpBingOrganicTasksReadyResultInfo`](../interfaces/ISerpBingOrganicTasksReadyResultInfo.md).[`date_posted`](../interfaces/ISerpBingOrganicTasksReadyResultInfo.md#date_posted)
 
-#### Defined in
+#### Source
 
-main.ts:56169
+main.ts:56177
 
-___
+***
 
-### endpoint\_advanced
+### endpoint\_advanced?
 
-• `Optional` **endpoint\_advanced**: `string`
+> **`optional`** **endpoint\_advanced**: `string`
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpBingOrganicTasksReadyResultInfo](../interfaces/ISerpBingOrganicTasksReadyResultInfo.md).[endpoint_advanced](../interfaces/ISerpBingOrganicTasksReadyResultInfo.md#endpoint_advanced)
+[`ISerpBingOrganicTasksReadyResultInfo`](../interfaces/ISerpBingOrganicTasksReadyResultInfo.md).[`endpoint_advanced`](../interfaces/ISerpBingOrganicTasksReadyResultInfo.md#endpoint_advanced)
 
-#### Defined in
+#### Source
 
-main.ts:56177
+main.ts:56185
 
-___
+***
 
-### endpoint\_html
+### endpoint\_html?
 
-• `Optional` **endpoint\_html**: `string`
+> **`optional`** **endpoint\_html**: `string`
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpBingOrganicTasksReadyResultInfo](../interfaces/ISerpBingOrganicTasksReadyResultInfo.md).[endpoint_html](../interfaces/ISerpBingOrganicTasksReadyResultInfo.md#endpoint_html)
+[`ISerpBingOrganicTasksReadyResultInfo`](../interfaces/ISerpBingOrganicTasksReadyResultInfo.md).[`endpoint_html`](../interfaces/ISerpBingOrganicTasksReadyResultInfo.md#endpoint_html)
 
-#### Defined in
+#### Source
 
-main.ts:56180
+main.ts:56188
 
-___
+***
 
-### endpoint\_regular
+### endpoint\_regular?
 
-• `Optional` **endpoint\_regular**: `string`
+> **`optional`** **endpoint\_regular**: `string`
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpBingOrganicTasksReadyResultInfo](../interfaces/ISerpBingOrganicTasksReadyResultInfo.md).[endpoint_regular](../interfaces/ISerpBingOrganicTasksReadyResultInfo.md#endpoint_regular)
+[`ISerpBingOrganicTasksReadyResultInfo`](../interfaces/ISerpBingOrganicTasksReadyResultInfo.md).[`endpoint_regular`](../interfaces/ISerpBingOrganicTasksReadyResultInfo.md#endpoint_regular)
 
-#### Defined in
+#### Source
 
-main.ts:56174
+main.ts:56182
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[ISerpBingOrganicTasksReadyResultInfo](../interfaces/ISerpBingOrganicTasksReadyResultInfo.md).[id](../interfaces/ISerpBingOrganicTasksReadyResultInfo.md#id)
+[`ISerpBingOrganicTasksReadyResultInfo`](../interfaces/ISerpBingOrganicTasksReadyResultInfo.md).[`id`](../interfaces/ISerpBingOrganicTasksReadyResultInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:56162
+main.ts:56170
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 
 #### Implementation of
 
-[ISerpBingOrganicTasksReadyResultInfo](../interfaces/ISerpBingOrganicTasksReadyResultInfo.md).[se](../interfaces/ISerpBingOrganicTasksReadyResultInfo.md#se)
+[`ISerpBingOrganicTasksReadyResultInfo`](../interfaces/ISerpBingOrganicTasksReadyResultInfo.md).[`se`](../interfaces/ISerpBingOrganicTasksReadyResultInfo.md#se)
 
-#### Defined in
+#### Source
 
-main.ts:56164
+main.ts:56172
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 type of search engine
 can take the following values: organic
 
 #### Implementation of
 
-[ISerpBingOrganicTasksReadyResultInfo](../interfaces/ISerpBingOrganicTasksReadyResultInfo.md).[se_type](../interfaces/ISerpBingOrganicTasksReadyResultInfo.md#se_type)
+[`ISerpBingOrganicTasksReadyResultInfo`](../interfaces/ISerpBingOrganicTasksReadyResultInfo.md).[`se_type`](../interfaces/ISerpBingOrganicTasksReadyResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:56167
+main.ts:56175
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
 #### Implementation of
 
-[ISerpBingOrganicTasksReadyResultInfo](../interfaces/ISerpBingOrganicTasksReadyResultInfo.md).[tag](../interfaces/ISerpBingOrganicTasksReadyResultInfo.md#tag)
+[`ISerpBingOrganicTasksReadyResultInfo`](../interfaces/ISerpBingOrganicTasksReadyResultInfo.md).[`tag`](../interfaces/ISerpBingOrganicTasksReadyResultInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:56171
+main.ts:56179
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:56193
+main.ts:56201
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:56217
+main.ts:56225
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpBingOrganicTasksReadyResultInfo`](SerpBingOrganicTasksReadyResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpBingOrganicTasksReadyResultInfo`](SerpBingOrganicTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpBingOrganicTasksReadyResultInfo`](SerpBingOrganicTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:56210
+main.ts:56218

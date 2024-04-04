@@ -1,107 +1,95 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo
 
-## Implemented by
-
-- [`DataforseoLabsGoogleCompetitorsDomainLiveResultInfo`](../classes/DataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md#items)
-- [items\_count](IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md#items_count)
-- [language\_code](IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md#language_code)
-- [location\_code](IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md#location_code)
-- [se\_type](IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md#se_type)
-- [target](IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md#target)
-- [total\_count](IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md#total_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`DataforseoLabsCompetitorsDomainLiveItem`](../classes/DataforseoLabsCompetitorsDomainLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsCompetitorsDomainLiveItem`](../classes/DataforseoLabsCompetitorsDomainLiveItem.md)[]
 
 contains data related to the target and competitor domains
 
-#### Defined in
+#### Source
 
-main.ts:90974
+main.ts:90982
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Defined in
+#### Source
 
-main.ts:90972
+main.ts:90980
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:90968
+main.ts:90976
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:90966
+main.ts:90974
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:90962
+main.ts:90970
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 target domain in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:90964
+main.ts:90972
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
-#### Defined in
+#### Source
 
-main.ts:90970
+main.ts:90978

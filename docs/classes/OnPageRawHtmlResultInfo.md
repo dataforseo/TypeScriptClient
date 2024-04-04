@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageRawHtmlResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPageRawHtmlResultInfo
 
 # Class: OnPageRawHtmlResultInfo
 
@@ -8,168 +12,141 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPageRawHtmlResultInfo.md#constructor)
-
-### Properties
-
-- [crawl\_progress](OnPageRawHtmlResultInfo.md#crawl_progress)
-- [crawl\_status](OnPageRawHtmlResultInfo.md#crawl_status)
-- [items](OnPageRawHtmlResultInfo.md#items)
-- [items\_count](OnPageRawHtmlResultInfo.md#items_count)
-
-### Methods
-
-- [init](OnPageRawHtmlResultInfo.md#init)
-- [toJSON](OnPageRawHtmlResultInfo.md#tojson)
-- [fromJS](OnPageRawHtmlResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPageRawHtmlResultInfo(data)
 
-• **new OnPageRawHtmlResultInfo**(`data?`): [`OnPageRawHtmlResultInfo`](OnPageRawHtmlResultInfo.md)
+> **new OnPageRawHtmlResultInfo**(`data`?): [`OnPageRawHtmlResultInfo`](OnPageRawHtmlResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPageRawHtmlResultInfo`](../interfaces/IOnPageRawHtmlResultInfo.md) |
+• **data?**: [`IOnPageRawHtmlResultInfo`](../interfaces/IOnPageRawHtmlResultInfo.md)
 
 #### Returns
 
 [`OnPageRawHtmlResultInfo`](OnPageRawHtmlResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:156693
+main.ts:156701
 
 ## Properties
 
-### crawl\_progress
+### crawl\_progress?
 
-• `Optional` **crawl\_progress**: `string`
+> **`optional`** **crawl\_progress**: `string`
 
 status of the crawling session
 possible values: in_progress, finished
 
 #### Implementation of
 
-[IOnPageRawHtmlResultInfo](../interfaces/IOnPageRawHtmlResultInfo.md).[crawl_progress](../interfaces/IOnPageRawHtmlResultInfo.md#crawl_progress)
+[`IOnPageRawHtmlResultInfo`](../interfaces/IOnPageRawHtmlResultInfo.md).[`crawl_progress`](../interfaces/IOnPageRawHtmlResultInfo.md#crawl_progress)
 
-#### Defined in
+#### Source
 
-main.ts:156683
+main.ts:156691
 
-___
+***
 
-### crawl\_status
+### crawl\_status?
 
-• `Optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
+> **`optional`** **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
 details of the crawling session
 
 #### Implementation of
 
-[IOnPageRawHtmlResultInfo](../interfaces/IOnPageRawHtmlResultInfo.md).[crawl_status](../interfaces/IOnPageRawHtmlResultInfo.md#crawl_status)
+[`IOnPageRawHtmlResultInfo`](../interfaces/IOnPageRawHtmlResultInfo.md).[`crawl_status`](../interfaces/IOnPageRawHtmlResultInfo.md#crawl_status)
 
-#### Defined in
+#### Source
 
-main.ts:156685
+main.ts:156693
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`OnPageRawHtmlItem`](OnPageRawHtmlItem.md)
+> **`optional`** **items**: [`OnPageRawHtmlItem`](OnPageRawHtmlItem.md)
 
 items array
 
 #### Implementation of
 
-[IOnPageRawHtmlResultInfo](../interfaces/IOnPageRawHtmlResultInfo.md).[items](../interfaces/IOnPageRawHtmlResultInfo.md#items)
+[`IOnPageRawHtmlResultInfo`](../interfaces/IOnPageRawHtmlResultInfo.md).[`items`](../interfaces/IOnPageRawHtmlResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:156689
+main.ts:156697
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 number of items in the results array
 
 #### Implementation of
 
-[IOnPageRawHtmlResultInfo](../interfaces/IOnPageRawHtmlResultInfo.md).[items_count](../interfaces/IOnPageRawHtmlResultInfo.md#items_count)
+[`IOnPageRawHtmlResultInfo`](../interfaces/IOnPageRawHtmlResultInfo.md).[`items_count`](../interfaces/IOnPageRawHtmlResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:156687
+main.ts:156695
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:156702
+main.ts:156710
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:156722
+main.ts:156730
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPageRawHtmlResultInfo`](OnPageRawHtmlResultInfo.md)
+> **`static`** **fromJS**(`data`): [`OnPageRawHtmlResultInfo`](OnPageRawHtmlResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`OnPageRawHtmlResultInfo`](OnPageRawHtmlResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:156715
+main.ts:156723

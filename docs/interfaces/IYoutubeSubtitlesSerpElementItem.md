@@ -1,103 +1,90 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IYoutubeSubtitlesSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IYoutubeSubtitlesSerpElementItem
 
 # Interface: IYoutubeSubtitlesSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
 
-  ↳ **`IYoutubeSubtitlesSerpElementItem`**
-
-## Implemented by
-
-- [`YoutubeSubtitlesSerpElementItem`](../classes/YoutubeSubtitlesSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [duration\_time](IYoutubeSubtitlesSerpElementItem.md#duration_time)
-- [end\_time](IYoutubeSubtitlesSerpElementItem.md#end_time)
-- [rank\_absolute](IYoutubeSubtitlesSerpElementItem.md#rank_absolute)
-- [rank\_group](IYoutubeSubtitlesSerpElementItem.md#rank_group)
-- [start\_time](IYoutubeSubtitlesSerpElementItem.md#start_time)
-- [text](IYoutubeSubtitlesSerpElementItem.md#text)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### duration\_time
+### duration\_time?
 
-• `Optional` **duration\_time**: `number`
+> **`optional`** **duration\_time**: `number`
 
 duration of subtitles in seconds
 
-#### Defined in
+#### Source
 
-main.ts:62672
+main.ts:62680
 
-___
+***
 
-### end\_time
+### end\_time?
 
-• `Optional` **end\_time**: `number`
+> **`optional`** **end\_time**: `number`
 
 the second subtitled text ends
 
-#### Defined in
+#### Source
 
-main.ts:62670
+main.ts:62678
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP for the target domain
 absolute position among all the elements in SERP
 
-#### Defined in
+#### Source
 
-main.ts:62664
+main.ts:62672
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
-main.ts:62661
+main.ts:62669
 
-___
+***
 
-### start\_time
+### start\_time?
 
-• `Optional` **start\_time**: `number`
+> **`optional`** **start\_time**: `number`
 
 the second subtitled text starts
 
-#### Defined in
+#### Source
 
-main.ts:62668
+main.ts:62676
 
-___
+***
 
-### text
+### text?
 
-• `Optional` **text**: `string`
+> **`optional`** **text**: `string`
 
 text translated in subtitles
 
-#### Defined in
+#### Source
 
-main.ts:62666
+main.ts:62674

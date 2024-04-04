@@ -1,48 +1,34 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentAnalysisCategoryTrendsLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IContentAnalysisCategoryTrendsLiveRequestInfo
 
 # Interface: IContentAnalysisCategoryTrendsLiveRequestInfo
 
-## Implemented by
-
-- [`ContentAnalysisCategoryTrendsLiveRequestInfo`](../classes/ContentAnalysisCategoryTrendsLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [category\_code](IContentAnalysisCategoryTrendsLiveRequestInfo.md#category_code)
-- [date\_from](IContentAnalysisCategoryTrendsLiveRequestInfo.md#date_from)
-- [date\_group](IContentAnalysisCategoryTrendsLiveRequestInfo.md#date_group)
-- [date\_to](IContentAnalysisCategoryTrendsLiveRequestInfo.md#date_to)
-- [initial\_dataset\_filters](IContentAnalysisCategoryTrendsLiveRequestInfo.md#initial_dataset_filters)
-- [internal\_list\_limit](IContentAnalysisCategoryTrendsLiveRequestInfo.md#internal_list_limit)
-- [page\_type](IContentAnalysisCategoryTrendsLiveRequestInfo.md#page_type)
-- [search\_mode](IContentAnalysisCategoryTrendsLiveRequestInfo.md#search_mode)
-- [tag](IContentAnalysisCategoryTrendsLiveRequestInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### category\_code
+### category\_code?
 
-• `Optional` **category\_code**: `string`
+> **`optional`** **category\_code**: `string`
 
 target category code
 required field
 to obtain a full list of available categories, refer to the Categories endpoint
 
-#### Defined in
+#### Source
 
-main.ts:164760
+main.ts:164768
 
-___
+***
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of the time range
 required field
@@ -50,30 +36,30 @@ date format: "yyyy-mm-dd"
 example:
 "2019-01-15"
 
-#### Defined in
+#### Source
 
-main.ts:164790
+main.ts:164798
 
-___
+***
 
-### date\_group
+### date\_group?
 
-• `Optional` **date\_group**: `string`
+> **`optional`** **date\_group**: `string`
 
 time range which will be used to group the results
 optional field
 default value: month
 possible values: day, week, month
 
-#### Defined in
+#### Source
 
-main.ts:164802
+main.ts:164810
 
-___
+***
 
-### date\_to
+### date\_to?
 
-• `Optional` **date\_to**: `string`
+> **`optional`** **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -82,42 +68,42 @@ date format: "yyyy-mm-dd"
 example:
 "2019-01-15"
 
-#### Defined in
+#### Source
 
-main.ts:164797
+main.ts:164805
 
-___
+***
 
-### initial\_dataset\_filters
+### initial\_dataset\_filters?
 
-• `Optional` **initial\_dataset\_filters**: `any`[]
+> **`optional`** **initial\_dataset\_filters**: `any`[]
 
 initial dataset filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, <=, >, >=, =, <>, in, not_in, like,not_like, has, has_not
+regex, <, `<=, >`, >=, =, <>, in, not_in, like,not_like, has, has_not
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["domain","<>", "logitech.com"]
-[["domain","<>","logitech.com"],"and",["content_info.connotation_types.negative",">",1000]]
-[["domain","<>","logitech.com"]],
+[["domain","`<>`","logitech.com"],"and",["content_info.connotation_types.negative",">`",1000]]
+[["domain","`<>`","logitech.com"]],
 "and",
-[["content_info.connotation_types.negative",">",1000],
+[["content_info.connotation_types.negative",">`",1000],
 "or",
 ["content_info.text_category","has",10994]]]
 for more information about filters, please refer to Content Analysis API – Filters
 
-#### Defined in
+#### Source
 
-main.ts:164819
+main.ts:164827
 
-___
+***
 
-### internal\_list\_limit
+### internal\_list\_limit?
 
-• `Optional` **internal\_list\_limit**: `number`
+> **`optional`** **internal\_list\_limit**: `number`
 
 maximum number of elements within internal arrays
 optional field
@@ -130,15 +116,15 @@ languages
 default value: 1
 maximum value: 20
 
-#### Defined in
+#### Source
 
-main.ts:164784
+main.ts:164792
 
-___
+***
 
-### page\_type
+### page\_type?
 
-• `Optional` **page\_type**: `string`[]
+> **`optional`** **page\_type**: `string`[]
 
 target page types
 optional field
@@ -146,15 +132,15 @@ use this parameter to filter the dataset by page types
 possible values:
 "ecommerce", "news", "blogs", "message-boards", "organization"
 
-#### Defined in
+#### Source
 
-main.ts:164766
+main.ts:164774
 
-___
+***
 
-### search\_mode
+### search\_mode?
 
-• `Optional` **search\_mode**: `string`
+> **`optional`** **search\_mode**: `string`
 
 results grouping type
 optional field
@@ -163,15 +149,15 @@ as_is – returns data on all citations for the target category_code
 one_per_domain – returns data on one citation of the category_code per domain
 default value: as_is
 
-#### Defined in
+#### Source
 
-main.ts:164773
+main.ts:164781
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -179,6 +165,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:164825
+main.ts:164833

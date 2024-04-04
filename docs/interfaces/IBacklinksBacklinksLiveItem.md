@@ -1,681 +1,629 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksBacklinksLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBacklinksBacklinksLiveItem
 
 # Interface: IBacklinksBacklinksLiveItem
 
-## Implemented by
-
-- [`BacklinksBacklinksLiveItem`](../classes/BacklinksBacklinksLiveItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [alt](IBacklinksBacklinksLiveItem.md#alt)
-- [anchor](IBacklinksBacklinksLiveItem.md#anchor)
-- [attributes](IBacklinksBacklinksLiveItem.md#attributes)
-- [backlink\_spam\_score](IBacklinksBacklinksLiveItem.md#backlink_spam_score)
-- [dofollow](IBacklinksBacklinksLiveItem.md#dofollow)
-- [domain\_from](IBacklinksBacklinksLiveItem.md#domain_from)
-- [domain\_from\_country](IBacklinksBacklinksLiveItem.md#domain_from_country)
-- [domain\_from\_ip](IBacklinksBacklinksLiveItem.md#domain_from_ip)
-- [domain\_from\_is\_ip](IBacklinksBacklinksLiveItem.md#domain_from_is_ip)
-- [domain\_from\_platform\_type](IBacklinksBacklinksLiveItem.md#domain_from_platform_type)
-- [domain\_from\_rank](IBacklinksBacklinksLiveItem.md#domain_from_rank)
-- [domain\_to](IBacklinksBacklinksLiveItem.md#domain_to)
-- [first\_seen](IBacklinksBacklinksLiveItem.md#first_seen)
-- [group\_count](IBacklinksBacklinksLiveItem.md#group_count)
-- [image\_url](IBacklinksBacklinksLiveItem.md#image_url)
-- [indirect\_link\_path](IBacklinksBacklinksLiveItem.md#indirect_link_path)
-- [is\_broken](IBacklinksBacklinksLiveItem.md#is_broken)
-- [is\_indirect\_link](IBacklinksBacklinksLiveItem.md#is_indirect_link)
-- [is\_lost](IBacklinksBacklinksLiveItem.md#is_lost)
-- [is\_new](IBacklinksBacklinksLiveItem.md#is_new)
-- [item\_type](IBacklinksBacklinksLiveItem.md#item_type)
-- [last\_seen](IBacklinksBacklinksLiveItem.md#last_seen)
-- [links\_count](IBacklinksBacklinksLiveItem.md#links_count)
-- [original](IBacklinksBacklinksLiveItem.md#original)
-- [page\_from\_encoding](IBacklinksBacklinksLiveItem.md#page_from_encoding)
-- [page\_from\_external\_links](IBacklinksBacklinksLiveItem.md#page_from_external_links)
-- [page\_from\_internal\_links](IBacklinksBacklinksLiveItem.md#page_from_internal_links)
-- [page\_from\_language](IBacklinksBacklinksLiveItem.md#page_from_language)
-- [page\_from\_rank](IBacklinksBacklinksLiveItem.md#page_from_rank)
-- [page\_from\_size](IBacklinksBacklinksLiveItem.md#page_from_size)
-- [page\_from\_status\_code](IBacklinksBacklinksLiveItem.md#page_from_status_code)
-- [page\_from\_title](IBacklinksBacklinksLiveItem.md#page_from_title)
-- [prev\_seen](IBacklinksBacklinksLiveItem.md#prev_seen)
-- [rank](IBacklinksBacklinksLiveItem.md#rank)
-- [ranked\_keywords\_info](IBacklinksBacklinksLiveItem.md#ranked_keywords_info)
-- [semantic\_location](IBacklinksBacklinksLiveItem.md#semantic_location)
-- [text\_post](IBacklinksBacklinksLiveItem.md#text_post)
-- [text\_pre](IBacklinksBacklinksLiveItem.md#text_pre)
-- [tld\_from](IBacklinksBacklinksLiveItem.md#tld_from)
-- [type](IBacklinksBacklinksLiveItem.md#type)
-- [url\_from](IBacklinksBacklinksLiveItem.md#url_from)
-- [url\_from\_https](IBacklinksBacklinksLiveItem.md#url_from_https)
-- [url\_to](IBacklinksBacklinksLiveItem.md#url_to)
-- [url\_to\_https](IBacklinksBacklinksLiveItem.md#url_to_https)
-- [url\_to\_redirect\_target](IBacklinksBacklinksLiveItem.md#url_to_redirect_target)
-- [url\_to\_spam\_score](IBacklinksBacklinksLiveItem.md#url_to_spam_score)
-- [url\_to\_status\_code](IBacklinksBacklinksLiveItem.md#url_to_status_code)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### alt
+### alt?
 
-• `Optional` **alt**: `string`
+> **`optional`** **alt**: `string`
 
 alternative text of the image
 this field will be null if backlink type is not image
 
-#### Defined in
+#### Source
 
-main.ts:136803
+main.ts:136811
 
-___
+***
 
-### anchor
+### anchor?
 
-• `Optional` **anchor**: `string`
+> **`optional`** **anchor**: `string`
 
 anchor text of the backlink
 
-#### Defined in
+#### Source
 
-main.ts:136808
+main.ts:136816
 
-___
+***
 
-### attributes
+### attributes?
 
-• `Optional` **attributes**: `string`[]
+> **`optional`** **attributes**: `string`[]
 
 link attributes of the referring links
 example:
 nofollow
 
-#### Defined in
+#### Source
 
-main.ts:136795
+main.ts:136803
 
-___
+***
 
-### backlink\_spam\_score
+### backlink\_spam\_score?
 
-• `Optional` **backlink\_spam\_score**: `number`
+> **`optional`** **backlink\_spam\_score**: `number`
 
 spam score of the backlink
 learn more about how the metric is calculated on this help center page
 
-#### Defined in
+#### Source
 
-main.ts:136724
+main.ts:136732
 
-___
+***
 
-### dofollow
+### dofollow?
 
-• `Optional` **dofollow**: `boolean`
+> **`optional`** **dofollow**: `boolean`
 
 indicates whether the backlink is dofollow
 if false, the backlink is nofollow
 
-#### Defined in
+#### Source
 
-main.ts:136798
+main.ts:136806
 
-___
+***
 
-### domain\_from
+### domain\_from?
 
-• `Optional` **domain\_from**: `string`
+> **`optional`** **domain\_from**: `string`
 
 domain referring to the target domain or webpage
 
-#### Defined in
+#### Source
 
-main.ts:136701
+main.ts:136709
 
-___
+***
 
-### domain\_from\_country
+### domain\_from\_country?
 
-• `Optional` **domain\_from\_country**: `string`
+> **`optional`** **domain\_from\_country**: `string`
 
 ISO country code of the referring domain
 
-#### Defined in
+#### Source
 
-main.ts:136749
+main.ts:136757
 
-___
+***
 
-### domain\_from\_ip
+### domain\_from\_ip?
 
-• `Optional` **domain\_from\_ip**: `string`
+> **`optional`** **domain\_from\_ip**: `string`
 
 IP address of the referring domain
 
-#### Defined in
+#### Source
 
-main.ts:136747
+main.ts:136755
 
-___
+***
 
-### domain\_from\_is\_ip
+### domain\_from\_is\_ip?
 
-• `Optional` **domain\_from\_is\_ip**: `boolean`
+> **`optional`** **domain\_from\_is\_ip**: `boolean`
 
 indicates if the domain is IP
 if true, the domain functions as an IP address and does not have a domain name
 
-#### Defined in
+#### Source
 
-main.ts:136745
+main.ts:136753
 
-___
+***
 
-### domain\_from\_platform\_type
+### domain\_from\_platform\_type?
 
-• `Optional` **domain\_from\_platform\_type**: `string`[]
+> **`optional`** **domain\_from\_platform\_type**: `string`[]
 
 platform types of the referring domain
 example:
 "cms",
 "blogs"
 
-#### Defined in
+#### Source
 
-main.ts:136742
+main.ts:136750
 
-___
+***
 
-### domain\_from\_rank
+### domain\_from\_rank?
 
-• `Optional` **domain\_from\_rank**: `number`
+> **`optional`** **domain\_from\_rank**: `number`
 
 domain rank of the referring domain
 domain_from_rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm
 learn more about the metric and how it is calculated in this help center article
 
-#### Defined in
+#### Source
 
-main.ts:136737
+main.ts:136745
 
-___
+***
 
-### domain\_to
+### domain\_to?
 
-• `Optional` **domain\_to**: `string`
+> **`optional`** **domain\_to**: `string`
 
 domain the backlink is pointing to
 
-#### Defined in
+#### Source
 
-main.ts:136708
+main.ts:136716
 
-___
+***
 
-### first\_seen
+### first\_seen?
 
-• `Optional` **first\_seen**: `string`
+> **`optional`** **first\_seen**: `string`
 
 date and time when our crawler found the backlink for the first time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
-main.ts:136777
+main.ts:136785
 
-___
+***
 
-### group\_count
+### group\_count?
 
-• `Optional` **group\_count**: `number`
+> **`optional`** **group\_count**: `number`
 
 indicates total number of backlinks from this domain
 for example, if mode is set to one_per_domain, this field will indicate the total number of backlinks coming from this domain
 
-#### Defined in
+#### Source
 
-main.ts:136822
+main.ts:136830
 
-___
+***
 
-### image\_url
+### image\_url?
 
-• `Optional` **image\_url**: `string`
+> **`optional`** **image\_url**: `string`
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
 
-#### Defined in
+#### Source
 
-main.ts:136806
+main.ts:136814
 
-___
+***
 
-### indirect\_link\_path
+### indirect\_link\_path?
 
-• `Optional` **indirect\_link\_path**: [`Redirect`](../classes/Redirect.md)[]
+> **`optional`** **indirect\_link\_path**: [`Redirect`](../classes/Redirect.md)[]
 
 indirect link path
 indicates a URL or a sequence of URLs that lead to url_to
 
-#### Defined in
+#### Source
 
-main.ts:136845
+main.ts:136853
 
-___
+***
 
-### is\_broken
+### is\_broken?
 
-• `Optional` **is\_broken**: `boolean`
+> **`optional`** **is\_broken**: `boolean`
 
 indicates whether the backlink is broken
 if true, the backlink is pointing to a page responding with a 4xx or 5xx status code
 
-#### Defined in
+#### Source
 
-main.ts:136825
+main.ts:136833
 
-___
+***
 
-### is\_indirect\_link
+### is\_indirect\_link?
 
-• `Optional` **is\_indirect\_link**: `boolean`
+> **`optional`** **is\_indirect\_link**: `boolean`
 
 indicates whether the backlink is an indirect link
 if true, the backlink is an indirect link pointing to a page that either redirects to url_to, or points to a canonical page
 
-#### Defined in
+#### Source
 
-main.ts:136842
+main.ts:136850
 
-___
+***
 
-### is\_lost
+### is\_lost?
 
-• `Optional` **is\_lost**: `boolean`
+> **`optional`** **is\_lost**: `boolean`
 
 indicates whether the backlink was removed
 if true, the backlink or the entire page was removed
 
-#### Defined in
+#### Source
 
-main.ts:136721
+main.ts:136729
 
-___
+***
 
-### is\_new
+### is\_new?
 
-• `Optional` **is\_new**: `boolean`
+> **`optional`** **is\_new**: `boolean`
 
 indicates whether the backlink is new
 if true, the backlink was found on the page last time our crawler visited it
 
-#### Defined in
+#### Source
 
-main.ts:136718
+main.ts:136726
 
-___
+***
 
-### item\_type
+### item\_type?
 
-• `Optional` **item\_type**: `string`
+> **`optional`** **item\_type**: `string`
 
 link type
 possible values:
 anchor, image, meta, canonical, alternate, redirect
 
-#### Defined in
+#### Source
 
-main.ts:136791
+main.ts:136799
 
-___
+***
 
-### last\_seen
+### last\_seen?
 
-• `Optional` **last\_seen**: `string`
+> **`optional`** **last\_seen**: `string`
 
 most recent date when our crawler visited the backlink
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
-main.ts:136787
+main.ts:136795
 
-___
+***
 
-### links\_count
+### links\_count?
 
-• `Optional` **links\_count**: `number`
+> **`optional`** **links\_count**: `number`
 
 number of identical backlinks found on the referring page
 
-#### Defined in
+#### Source
 
-main.ts:136819
+main.ts:136827
 
-___
+***
 
-### original
+### original?
 
-• `Optional` **original**: `boolean`
+> **`optional`** **original**: `boolean`
 
 indicates whether the backlink was present on the referring page when our crawler first visited it
 
-#### Defined in
+#### Source
 
-main.ts:136800
+main.ts:136808
 
-___
+***
 
-### page\_from\_encoding
+### page\_from\_encoding?
 
-• `Optional` **page\_from\_encoding**: `string`
+> **`optional`** **page\_from\_encoding**: `string`
 
 character encoding of the referring page
 example:
 utf-8
 
-#### Defined in
+#### Source
 
-main.ts:136761
+main.ts:136769
 
-___
+***
 
-### page\_from\_external\_links
+### page\_from\_external\_links?
 
-• `Optional` **page\_from\_external\_links**: `number`
+> **`optional`** **page\_from\_external\_links**: `number`
 
 number of external links found on the referring page
 
-#### Defined in
+#### Source
 
-main.ts:136751
+main.ts:136759
 
-___
+***
 
-### page\_from\_internal\_links
+### page\_from\_internal\_links?
 
-• `Optional` **page\_from\_internal\_links**: `number`
+> **`optional`** **page\_from\_internal\_links**: `number`
 
 number of internal links found on the referring page
 
-#### Defined in
+#### Source
 
-main.ts:136753
+main.ts:136761
 
-___
+***
 
-### page\_from\_language
+### page\_from\_language?
 
-• `Optional` **page\_from\_language**: `string`
+> **`optional`** **page\_from\_language**: `string`
 
 language of the referring page
 in ISO 639-1 format
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:136766
+main.ts:136774
 
-___
+***
 
-### page\_from\_rank
+### page\_from\_rank?
 
-• `Optional` **page\_from\_rank**: `number`
+> **`optional`** **page\_from\_rank**: `number`
 
 page rank of the referring page
 page_from_rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm
 learn more about the metric and how it is calculated in this help center article
 
-#### Defined in
+#### Source
 
-main.ts:136733
+main.ts:136741
 
-___
+***
 
-### page\_from\_size
+### page\_from\_size?
 
-• `Optional` **page\_from\_size**: `number`
+> **`optional`** **page\_from\_size**: `number`
 
 size of the referring page, in bytes
 example:
 63357
 
-#### Defined in
+#### Source
 
-main.ts:136757
+main.ts:136765
 
-___
+***
 
-### page\_from\_status\_code
+### page\_from\_status\_code?
 
-• `Optional` **page\_from\_status\_code**: `number`
+> **`optional`** **page\_from\_status\_code**: `number`
 
 HTTP status code returned by the referring page
 example:
 200
 
-#### Defined in
+#### Source
 
-main.ts:136772
+main.ts:136780
 
-___
+***
 
-### page\_from\_title
+### page\_from\_title?
 
-• `Optional` **page\_from\_title**: `string`
+> **`optional`** **page\_from\_title**: `string`
 
 title of the referring page
 
-#### Defined in
+#### Source
 
-main.ts:136768
+main.ts:136776
 
-___
+***
 
-### prev\_seen
+### prev\_seen?
 
-• `Optional` **prev\_seen**: `string`
+> **`optional`** **prev\_seen**: `string`
 
 previous to the most recent date when our crawler visited the backlink
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
-main.ts:136782
+main.ts:136790
 
-___
+***
 
-### rank
+### rank?
 
-• `Optional` **rank**: `number`
+> **`optional`** **rank**: `number`
 
 backlink rank
 rank that the given backlink passes to the target
 rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm
 learn more about the metric and how it is calculated in this help center article
 
-#### Defined in
+#### Source
 
-main.ts:136729
+main.ts:136737
 
-___
+***
 
-### ranked\_keywords\_info
+### ranked\_keywords\_info?
 
-• `Optional` **ranked\_keywords\_info**: [`RankedKeywordsInfo`](../classes/RankedKeywordsInfo.md)
+> **`optional`** **ranked\_keywords\_info**: [`RankedKeywordsInfo`](../classes/RankedKeywordsInfo.md)
 
 number of keywords for which the page is ranked in top search results
 
-#### Defined in
+#### Source
 
-main.ts:136839
+main.ts:136847
 
-___
+***
 
-### semantic\_location
+### semantic\_location?
 
-• `Optional` **semantic\_location**: `string`
+> **`optional`** **semantic\_location**: `string`
 
 indicates semantic element in HTML where the backlink is found
 you can get the full list of semantic elements here
 examples:
 article, section, summary
 
-#### Defined in
+#### Source
 
-main.ts:136817
+main.ts:136825
 
-___
+***
 
-### text\_post
+### text\_post?
 
-• `Optional` **text\_post**: `string`
+> **`optional`** **text\_post**: `string`
 
 snippet after the anchor text
 
-#### Defined in
+#### Source
 
-main.ts:136812
+main.ts:136820
 
-___
+***
 
-### text\_pre
+### text\_pre?
 
-• `Optional` **text\_pre**: `string`
+> **`optional`** **text\_pre**: `string`
 
 snippet before the anchor text
 
-#### Defined in
+#### Source
 
-main.ts:136810
+main.ts:136818
 
-___
+***
 
-### tld\_from
+### tld\_from?
 
-• `Optional` **tld\_from**: `string`
+> **`optional`** **tld\_from**: `string`
 
 top-level domain of the referring URL
 
-#### Defined in
+#### Source
 
-main.ts:136715
+main.ts:136723
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:136699
+main.ts:136707
 
-___
+***
 
-### url\_from
+### url\_from?
 
-• `Optional` **url\_from**: `string`
+> **`optional`** **url\_from**: `string`
 
 URL of the page where the backlink is found
 
-#### Defined in
+#### Source
 
-main.ts:136703
+main.ts:136711
 
-___
+***
 
-### url\_from\_https
+### url\_from\_https?
 
-• `Optional` **url\_from\_https**: `boolean`
+> **`optional`** **url\_from\_https**: `boolean`
 
 indicates whether the referring URL is secured with HTTPS
 if true, the referring URL is secured with HTTPS
 
-#### Defined in
+#### Source
 
-main.ts:136706
+main.ts:136714
 
-___
+***
 
-### url\_to
+### url\_to?
 
-• `Optional` **url\_to**: `string`
+> **`optional`** **url\_to**: `string`
 
 URL the backlink is pointing to
 
-#### Defined in
+#### Source
 
-main.ts:136710
+main.ts:136718
 
-___
+***
 
-### url\_to\_https
+### url\_to\_https?
 
-• `Optional` **url\_to\_https**: `boolean`
+> **`optional`** **url\_to\_https**: `boolean`
 
 indicates if the URL the backlink is pointing to is secured with HTTPS
 if true, the URL is secured with HTTPS
 
-#### Defined in
+#### Source
 
-main.ts:136713
+main.ts:136721
 
-___
+***
 
-### url\_to\_redirect\_target
+### url\_to\_redirect\_target?
 
-• `Optional` **url\_to\_redirect\_target**: `string`
+> **`optional`** **url\_to\_redirect\_target**: `string`
 
 target url of the redirect
 target page the redirect is pointing to
 
-#### Defined in
+#### Source
 
-main.ts:136837
+main.ts:136845
 
-___
+***
 
-### url\_to\_spam\_score
+### url\_to\_spam\_score?
 
-• `Optional` **url\_to\_spam\_score**: `number`
+> **`optional`** **url\_to\_spam\_score**: `number`
 
 spam score of the referenced page
 if the value is null, our crawler hasn’t yet visited the webpage the link is pointing to;
 learn more about how the metric is calculated on this help center page
 
-#### Defined in
+#### Source
 
-main.ts:136834
+main.ts:136842
 
-___
+***
 
-### url\_to\_status\_code
+### url\_to\_status\_code?
 
-• `Optional` **url\_to\_status\_code**: `number`
+> **`optional`** **url\_to\_status\_code**: `number`
 
 status code of the referenced page
 if the value is null, our crawler hasn’t yet visited the webpage the link is pointing to
 example:
 200
 
-#### Defined in
+#### Source
 
-main.ts:136830
+main.ts:136838

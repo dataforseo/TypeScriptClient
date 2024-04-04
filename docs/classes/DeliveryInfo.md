@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DeliveryInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DeliveryInfo
 
 # Class: DeliveryInfo
 
@@ -8,68 +12,48 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DeliveryInfo.md#constructor)
-
-### Properties
-
-- [delivery\_message](DeliveryInfo.md#delivery_message)
-- [delivery\_price](DeliveryInfo.md#delivery_price)
-- [stores\_count\_info](DeliveryInfo.md#stores_count_info)
-
-### Methods
-
-- [init](DeliveryInfo.md#init)
-- [toJSON](DeliveryInfo.md#tojson)
-- [fromJS](DeliveryInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DeliveryInfo(data)
 
-• **new DeliveryInfo**(`data?`): [`DeliveryInfo`](DeliveryInfo.md)
+> **new DeliveryInfo**(`data`?): [`DeliveryInfo`](DeliveryInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDeliveryInfo`](../interfaces/IDeliveryInfo.md) |
+• **data?**: [`IDeliveryInfo`](../interfaces/IDeliveryInfo.md)
 
 #### Returns
 
 [`DeliveryInfo`](DeliveryInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:169954
+main.ts:169962
 
 ## Properties
 
-### delivery\_message
+### delivery\_message?
 
-• `Optional` **delivery\_message**: `string`
+> **`optional`** **delivery\_message**: `string`
 
 delivery information
 message accompanying the delivery information as posted by the seller
 
 #### Implementation of
 
-[IDeliveryInfo](../interfaces/IDeliveryInfo.md).[delivery_message](../interfaces/IDeliveryInfo.md#delivery_message)
+[`IDeliveryInfo`](../interfaces/IDeliveryInfo.md).[`delivery_message`](../interfaces/IDeliveryInfo.md#delivery_message)
 
-#### Defined in
+#### Source
 
-main.ts:169943
+main.ts:169951
 
-___
+***
 
-### delivery\_price
+### delivery\_price?
 
-• `Optional` **delivery\_price**: [`PriceInfo`](PriceInfo.md)
+> **`optional`** **delivery\_price**: [`PriceInfo`](PriceInfo.md)
 
 price for the delivery
 price of the delivery based on the location you specified in the POST request;
@@ -77,85 +61,79 @@ if free delivery is available, the value is null
 
 #### Implementation of
 
-[IDeliveryInfo](../interfaces/IDeliveryInfo.md).[delivery_price](../interfaces/IDeliveryInfo.md#delivery_price)
+[`IDeliveryInfo`](../interfaces/IDeliveryInfo.md).[`delivery_price`](../interfaces/IDeliveryInfo.md#delivery_price)
 
-#### Defined in
+#### Source
 
-main.ts:169947
+main.ts:169955
 
-___
+***
 
-### stores\_count\_info
+### stores\_count\_info?
 
-• `Optional` **stores\_count\_info**: [`StoresCountInfo`](StoresCountInfo.md)
+> **`optional`** **stores\_count\_info**: [`StoresCountInfo`](StoresCountInfo.md)
 
 stores count information
 contains information about the number of stores that offer the same product
 
 #### Implementation of
 
-[IDeliveryInfo](../interfaces/IDeliveryInfo.md).[stores_count_info](../interfaces/IDeliveryInfo.md#stores_count_info)
+[`IDeliveryInfo`](../interfaces/IDeliveryInfo.md).[`stores_count_info`](../interfaces/IDeliveryInfo.md#stores_count_info)
 
-#### Defined in
+#### Source
 
-main.ts:169950
+main.ts:169958
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:169963
+main.ts:169971
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:169982
+main.ts:169990
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DeliveryInfo`](DeliveryInfo.md)
+> **`static`** **fromJS**(`data`): [`DeliveryInfo`](DeliveryInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DeliveryInfo`](DeliveryInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:169975
+main.ts:169983

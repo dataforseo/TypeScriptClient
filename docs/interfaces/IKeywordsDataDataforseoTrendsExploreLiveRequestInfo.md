@@ -1,33 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataDataforseoTrendsExploreLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IKeywordsDataDataforseoTrendsExploreLiveRequestInfo
 
 # Interface: IKeywordsDataDataforseoTrendsExploreLiveRequestInfo
 
-## Implemented by
-
-- [`KeywordsDataDataforseoTrendsExploreLiveRequestInfo`](../classes/KeywordsDataDataforseoTrendsExploreLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [date\_from](IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md#date_from)
-- [date\_to](IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md#date_to)
-- [keywords](IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md#keywords)
-- [location\_code](IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md#location_code)
-- [location\_name](IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md#location_name)
-- [tag](IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md#tag)
-- [time\_range](IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md#time_range)
-- [type](IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -38,15 +25,15 @@ date format: "yyyy-mm-dd"
 example:
 "2019-01-15"
 
-#### Defined in
+#### Source
 
-main.ts:124880
+main.ts:124888
 
-___
+***
 
-### date\_to
+### date\_to?
 
-• `Optional` **date\_to**: `string`
+> **`optional`** **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -55,29 +42,29 @@ date format: "yyyy-mm-dd"
 example:
 "2019-01-15"
 
-#### Defined in
+#### Source
 
-main.ts:124887
+main.ts:124895
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 keywords
 required field
 the maximum number of keywords you can specify: 5
 
-#### Defined in
+#### Source
 
-main.ts:124851
+main.ts:124859
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 optional field
@@ -88,15 +75,15 @@ note that the data will be provided for the country the specified location_code 
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:124869
+main.ts:124877
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 optional field
@@ -107,15 +94,15 @@ note that the data will be provided for the country the specified location_name 
 example:
 United Kingdom
 
-#### Defined in
+#### Source
 
-main.ts:124860
+main.ts:124868
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -123,15 +110,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:124899
+main.ts:124907
 
-___
+***
 
-### time\_range
+### time\_range?
 
-• `Optional` **time\_range**: `string`
+> **`optional`** **time\_range**: `string`
 
 preset time ranges
 optional field
@@ -139,18 +126,18 @@ if you specify date_from or date_to parameters, this field will be ignored when 
 possible values for all type parameters:
 past_4_hours, past_day, past_7_days, past_30_days, past_90_days, past_12_months, past_5_years
 
-#### Defined in
+#### Source
 
-main.ts:124893
+main.ts:124901
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:124871
+main.ts:124879

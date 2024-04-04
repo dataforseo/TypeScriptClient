@@ -1,37 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentAnalysisPhraseTrendsLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IContentAnalysisPhraseTrendsLiveResultInfo
 
 # Interface: IContentAnalysisPhraseTrendsLiveResultInfo
 
-## Implemented by
-
-- [`ContentAnalysisPhraseTrendsLiveResultInfo`](../classes/ContentAnalysisPhraseTrendsLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [connotation\_types](IContentAnalysisPhraseTrendsLiveResultInfo.md#connotation_types)
-- [countries](IContentAnalysisPhraseTrendsLiveResultInfo.md#countries)
-- [date](IContentAnalysisPhraseTrendsLiveResultInfo.md#date)
-- [languages](IContentAnalysisPhraseTrendsLiveResultInfo.md#languages)
-- [page\_categories](IContentAnalysisPhraseTrendsLiveResultInfo.md#page_categories)
-- [page\_types](IContentAnalysisPhraseTrendsLiveResultInfo.md#page_types)
-- [rank](IContentAnalysisPhraseTrendsLiveResultInfo.md#rank)
-- [sentiment\_connotations](IContentAnalysisPhraseTrendsLiveResultInfo.md#sentiment_connotations)
-- [text\_categories](IContentAnalysisPhraseTrendsLiveResultInfo.md#text_categories)
-- [top\_domains](IContentAnalysisPhraseTrendsLiveResultInfo.md#top_domains)
-- [total\_count](IContentAnalysisPhraseTrendsLiveResultInfo.md#total_count)
-- [type](IContentAnalysisPhraseTrendsLiveResultInfo.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### connotation\_types
+### connotation\_types?
 
-• `Optional` **connotation\_types**: `Object`
+> **`optional`** **connotation\_types**: `Object`
 
 connotation types
 contains types of sentiments (sentiment polarity) related to the keyword citation and citation count per each sentiment type
@@ -39,17 +22,17 @@ possible connotation types: "positive", "negative", "neutral"
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
-#### Defined in
+#### Source
 
-main.ts:164480
+main.ts:164488
 
-___
+***
 
-### countries
+### countries?
 
-• `Optional` **countries**: `Object`
+> **`optional`** **countries**: `Object`
 
 countries
 contains countries and citation count in each country
@@ -57,29 +40,29 @@ to obtain a full list of available countries, refer to the Locations endpoint
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
-#### Defined in
+#### Source
 
-main.ts:164495
+main.ts:164503
 
-___
+***
 
-### date
+### date?
 
-• `Optional` **date**: `string`
+> **`optional`** **date**: `string`
 
 date for which the data is provided
 
-#### Defined in
+#### Source
 
-main.ts:164464
+main.ts:164472
 
-___
+***
 
-### languages
+### languages?
 
-• `Optional` **languages**: `Object`
+> **`optional`** **languages**: `Object`
 
 languages
 contains languages and citation count in each language
@@ -87,61 +70,61 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
-#### Defined in
+#### Source
 
-main.ts:164499
+main.ts:164507
 
-___
+***
 
-### page\_categories
+### page\_categories?
 
-• `Optional` **page\_categories**: [`ContentAnalysisCategoriesInfo`](../classes/ContentAnalysisCategoriesInfo.md)[]
+> **`optional`** **page\_categories**: [`ContentAnalysisCategoriesInfo`](../classes/ContentAnalysisCategoriesInfo.md)[]
 
 page categories
 contains objects with page categories and citation count in each page category
 to obtain a full list of available categories, refer to the Categories endpoint
 
-#### Defined in
+#### Source
 
-main.ts:164488
+main.ts:164496
 
-___
+***
 
-### page\_types
+### page\_types?
 
-• `Optional` **page\_types**: `Object`
+> **`optional`** **page\_types**: `Object`
 
 page types
 contains page types and citation count per each page type
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
-#### Defined in
+#### Source
 
-main.ts:164491
+main.ts:164499
 
-___
+***
 
-### rank
+### rank?
 
-• `Optional` **rank**: `number`
+> **`optional`** **rank**: `number`
 
 rank of all URLs citing the keyword
 normalized sum of ranks of all URLs citing the target keyword for the given date
 
-#### Defined in
+#### Source
 
-main.ts:164469
+main.ts:164477
 
-___
+***
 
-### sentiment\_connotations
+### sentiment\_connotations?
 
-• `Optional` **sentiment\_connotations**: `Object`
+> **`optional`** **sentiment\_connotations**: `Object`
 
 sentiment connotations
 contains sentiments (emotional reactions) related to the target keyword citation and the number of citations per each sentiment
@@ -149,59 +132,59 @@ possible connotations: "anger", "happiness", "love", "sadness", "share", "fun"
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
-#### Defined in
+#### Source
 
-main.ts:164476
+main.ts:164484
 
-___
+***
 
-### text\_categories
+### text\_categories?
 
-• `Optional` **text\_categories**: [`ContentAnalysisCategoriesInfo`](../classes/ContentAnalysisCategoriesInfo.md)[]
+> **`optional`** **text\_categories**: [`ContentAnalysisCategoriesInfo`](../classes/ContentAnalysisCategoriesInfo.md)[]
 
 text categories
 contains objects with text categories and citation count in each text category
 to obtain a full list of available categories, refer to the Categories endpoint
 
-#### Defined in
+#### Source
 
-main.ts:164484
+main.ts:164492
 
-___
+***
 
-### top\_domains
+### top\_domains?
 
-• `Optional` **top\_domains**: [`TopDomainInfo`](../classes/TopDomainInfo.md)[]
+> **`optional`** **top\_domains**: [`TopDomainInfo`](../classes/TopDomainInfo.md)[]
 
 top domains citing the target keyword
 contains objects with top domains citing the target keyword and citation count per each domain
 
-#### Defined in
+#### Source
 
-main.ts:164472
+main.ts:164480
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total number of results in our database relevant to your request
 
-#### Defined in
+#### Source
 
-main.ts:164466
+main.ts:164474
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:164462
+main.ts:164470

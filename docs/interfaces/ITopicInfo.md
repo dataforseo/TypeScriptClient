@@ -1,109 +1,97 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ITopicInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ITopicInfo
 
 # Interface: ITopicInfo
 
-## Implemented by
-
-- [`TopicInfo`](../classes/TopicInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [author](ITopicInfo.md#author)
-- [h\_title](ITopicInfo.md#h_title)
-- [language](ITopicInfo.md#language)
-- [level](ITopicInfo.md#level)
-- [main\_title](ITopicInfo.md#main_title)
-- [primary\_content](ITopicInfo.md#primary_content)
-- [secondary\_content](ITopicInfo.md#secondary_content)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### author
+### author?
 
-• `Optional` **author**: `string`
+> **`optional`** **author**: `string`
 
 content author name
 
-#### Defined in
+#### Source
 
-main.ts:157605
+main.ts:157613
 
-___
+***
 
-### h\_title
+### h\_title?
 
-• `Optional` **h\_title**: `string`
+> **`optional`** **h\_title**: `string`
 
 meta title
 
-#### Defined in
-
-main.ts:157601
-
-___
-
-### language
-
-• `Optional` **language**: `string`
-
-content language
-
-#### Defined in
-
-main.ts:157607
-
-___
-
-### level
-
-• `Optional` **level**: `string`
-
-HTML level
-
-#### Defined in
+#### Source
 
 main.ts:157609
 
-___
+***
 
-### main\_title
+### language?
 
-• `Optional` **main\_title**: `string`
+> **`optional`** **language**: `string`
+
+content language
+
+#### Source
+
+main.ts:157615
+
+***
+
+### level?
+
+> **`optional`** **level**: `string`
+
+HTML level
+
+#### Source
+
+main.ts:157617
+
+***
+
+### main\_title?
+
+> **`optional`** **main\_title**: `string`
 
 main title of the block
 
-#### Defined in
+#### Source
 
-main.ts:157603
+main.ts:157611
 
-___
+***
 
-### primary\_content
+### primary\_content?
 
-• `Optional` **primary\_content**: [`ContentItemInfo`](../classes/ContentItemInfo.md)[]
+> **`optional`** **primary\_content**: [`ContentItemInfo`](../classes/ContentItemInfo.md)[]
 
 primary content on the page
 you can find more information about content priority calculation in this help center article
 
-#### Defined in
+#### Source
 
-main.ts:157612
+main.ts:157620
 
-___
+***
 
-### secondary\_content
+### secondary\_content?
 
-• `Optional` **secondary\_content**: [`ContentItemInfo`](../classes/ContentItemInfo.md)[]
+> **`optional`** **secondary\_content**: [`ContentItemInfo`](../classes/ContentItemInfo.md)[]
 
 secondary content on the page
 you can find more information about content priority calculation in this help center article
 
-#### Defined in
+#### Source
 
-main.ts:157615
+main.ts:157623

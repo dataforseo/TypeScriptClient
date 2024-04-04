@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo
 
 # Class: DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo
 
@@ -8,57 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [categories](DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md#categories)
-- [filters](DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md#filters)
-- [groups](DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md#groups)
-- [internal\_list\_limit](DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md#internal_list_limit)
-- [keywords](DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md#keywords)
-- [mode](DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md#mode)
-- [tag](DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md#tag)
-- [technologies](DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md#technologies)
-- [technology\_paths](DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md#technology_paths)
-
-### Methods
-
-- [init](DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md#init)
-- [toJSON](DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md#tojson)
-- [fromJS](DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo(data)
 
-• **new DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo**(`data?`): [`DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`](DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md)
+> **new DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo**(`data`?): [`DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`](DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md) |
+• **data?**: [`IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md)
 
 #### Returns
 
 [`DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`](DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:75455
+main.ts:75463
 
 ## Properties
 
-### categories
+### categories?
 
-• `Optional` **categories**: `string`[]
+> **`optional`** **categories**: `string`[]
 
 ids of the target technology categories
 required field if you don’t specify groups or technologies
@@ -69,45 +47,45 @@ example:
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md).[categories](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md#categories)
+[`IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md).[`categories`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md#categories)
 
-#### Defined in
+#### Source
 
-main.ts:75403
+main.ts:75411
 
-___
+***
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-<, <=, >, >=, =, <>, in, not_in, like,not_like
+<, `<=, >`, >=, =, `<>`, in, not_in, like,not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 you can use the following parameters to filter the results: domain_rank, last_visited, country_iso_code, language_code, content_language_code
 example:
 [["country_iso_code","=","US"],
 "and",
-["domain_rank",">",800]]
+["domain_rank",">`",800]]
 for more information about filters, please refer to Domain Analytics Technologies API – Filters
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md).[filters](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md#filters)
+[`IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md).[`filters`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md#filters)
 
-#### Defined in
+#### Source
 
-main.ts:75438
+main.ts:75446
 
-___
+***
 
-### groups
+### groups?
 
-• `Optional` **groups**: `string`[]
+> **`optional`** **groups**: `string`[]
 
 ids of the target technology groups
 required field if you don’t specify technologies or categories
@@ -118,17 +96,17 @@ example:
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md).[groups](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md#groups)
+[`IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md).[`groups`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md#groups)
 
-#### Defined in
+#### Source
 
-main.ts:75396
+main.ts:75404
 
-___
+***
 
-### internal\_list\_limit
+### internal\_list\_limit?
 
-• `Optional` **internal\_list\_limit**: `number`
+> **`optional`** **internal\_list\_limit**: `number`
 
 maximum number of elements within internal arrays
 optional field
@@ -139,17 +117,17 @@ maximum value: 10000
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md).[internal_list_limit](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md#internal_list_limit)
+[`IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md).[`internal_list_limit`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md#internal_list_limit)
 
-#### Defined in
+#### Source
 
-main.ts:75445
+main.ts:75453
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 target keywords in the domain’s title, description or meta keywords
 optional field
@@ -160,17 +138,17 @@ example:
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md).[keywords](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md#keywords)
+[`IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md).[`keywords`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md#keywords)
 
-#### Defined in
+#### Source
 
-main.ts:75417
+main.ts:75425
 
-___
+***
 
-### mode
+### mode?
 
-• `Optional` **mode**: `string`
+> **`optional`** **mode**: `string`
 
 search mode
 optional field
@@ -181,17 +159,17 @@ default value: as_is
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md).[mode](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md#mode)
+[`IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md).[`mode`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md#mode)
 
-#### Defined in
+#### Source
 
-main.ts:75424
+main.ts:75432
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -201,17 +179,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md).[tag](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md#tag)
+[`IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md).[`tag`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:75451
+main.ts:75459
 
-___
+***
 
-### technologies
+### technologies?
 
-• `Optional` **technologies**: `string`[]
+> **`optional`** **technologies**: `string`[]
 
 target technologies
 required field if you don’t specify groups or categories
@@ -222,17 +200,17 @@ example:
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md).[technologies](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md#technologies)
+[`IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md).[`technologies`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md#technologies)
 
-#### Defined in
+#### Source
 
-main.ts:75410
+main.ts:75418
 
-___
+***
 
-### technology\_paths
+### technology\_paths?
 
-• `Optional` **technology\_paths**: `string`[]
+> **`optional`** **technology\_paths**: `string`[]
 
 target technology paths
 required field if you don’t specify groups, technologies and categories
@@ -242,72 +220,66 @@ each object with a technology path should be separated with a comma
 you can find the full list of technology group ids, category ids and technology names on this page
 note: you can specify up to 10 technology paths in this array
 example:
-[{"path": "content.cms","name": "wordpress"}, {"path": "marketing.crm","name": "salesforce"}]
+[\{"path": "content.cms","name": "wordpress"\}, \{"path": "marketing.crm","name": "salesforce"\}]
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md).[technology_paths](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md#technology_paths)
+[`IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md).[`technology_paths`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md#technology_paths)
 
-#### Defined in
+#### Source
 
-main.ts:75389
+main.ts:75397
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:75464
+main.ts:75472
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:75513
+main.ts:75521
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`](DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`](DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`](DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:75506
+main.ts:75514

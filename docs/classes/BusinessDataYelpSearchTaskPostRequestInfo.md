@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataYelpSearchTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataYelpSearchTaskPostRequestInfo
 
 # Class: BusinessDataYelpSearchTaskPostRequestInfo
 
@@ -8,59 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataYelpSearchTaskPostRequestInfo.md#constructor)
-
-### Properties
-
-- [depth](BusinessDataYelpSearchTaskPostRequestInfo.md#depth)
-- [keyword](BusinessDataYelpSearchTaskPostRequestInfo.md#keyword)
-- [language\_code](BusinessDataYelpSearchTaskPostRequestInfo.md#language_code)
-- [language\_name](BusinessDataYelpSearchTaskPostRequestInfo.md#language_name)
-- [location\_code](BusinessDataYelpSearchTaskPostRequestInfo.md#location_code)
-- [location\_name](BusinessDataYelpSearchTaskPostRequestInfo.md#location_name)
-- [pingback\_url](BusinessDataYelpSearchTaskPostRequestInfo.md#pingback_url)
-- [postback\_url](BusinessDataYelpSearchTaskPostRequestInfo.md#postback_url)
-- [priority](BusinessDataYelpSearchTaskPostRequestInfo.md#priority)
-- [sort\_by](BusinessDataYelpSearchTaskPostRequestInfo.md#sort_by)
-- [tag](BusinessDataYelpSearchTaskPostRequestInfo.md#tag)
-
-### Methods
-
-- [init](BusinessDataYelpSearchTaskPostRequestInfo.md#init)
-- [toJSON](BusinessDataYelpSearchTaskPostRequestInfo.md#tojson)
-- [fromJS](BusinessDataYelpSearchTaskPostRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataYelpSearchTaskPostRequestInfo(data)
 
-• **new BusinessDataYelpSearchTaskPostRequestInfo**(`data?`): [`BusinessDataYelpSearchTaskPostRequestInfo`](BusinessDataYelpSearchTaskPostRequestInfo.md)
+> **new BusinessDataYelpSearchTaskPostRequestInfo**(`data`?): [`BusinessDataYelpSearchTaskPostRequestInfo`](BusinessDataYelpSearchTaskPostRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataYelpSearchTaskPostRequestInfo`](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md) |
+• **data?**: [`IBusinessDataYelpSearchTaskPostRequestInfo`](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md)
 
 #### Returns
 
 [`BusinessDataYelpSearchTaskPostRequestInfo`](BusinessDataYelpSearchTaskPostRequestInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:208884
 
 ## Properties
 
-### depth
+### depth?
 
-• `Optional` **depth**: `number`
+> **`optional`** **depth**: `number`
 
 parsing depth
 optional field
@@ -71,17 +47,17 @@ maximal value: 70
 
 #### Implementation of
 
-[IBusinessDataYelpSearchTaskPostRequestInfo](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md).[depth](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md#depth)
+[`IBusinessDataYelpSearchTaskPostRequestInfo`](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md).[`depth`](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md#depth)
 
-#### Defined in
+#### Source
 
 main.ts:208845
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 search query
 optional field
@@ -92,17 +68,17 @@ Note: if the keyword is not specified, the results will be returned based on the
 
 #### Implementation of
 
-[IBusinessDataYelpSearchTaskPostRequestInfo](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md).[keyword](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md#keyword)
+[`IBusinessDataYelpSearchTaskPostRequestInfo`](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md).[`keyword`](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md#keyword)
 
-#### Defined in
+#### Source
 
 main.ts:208802
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 optional field
@@ -113,17 +89,17 @@ en
 
 #### Implementation of
 
-[IBusinessDataYelpSearchTaskPostRequestInfo](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md).[language_code](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md#language_code)
+[`IBusinessDataYelpSearchTaskPostRequestInfo`](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md).[`language_code`](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
 main.ts:208838
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -134,17 +110,17 @@ English
 
 #### Implementation of
 
-[IBusinessDataYelpSearchTaskPostRequestInfo](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md).[language_name](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md#language_name)
+[`IBusinessDataYelpSearchTaskPostRequestInfo`](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md).[`language_name`](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
 main.ts:208831
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name
@@ -155,17 +131,17 @@ example:
 
 #### Implementation of
 
-[IBusinessDataYelpSearchTaskPostRequestInfo](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md).[location_code](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md#location_code)
+[`IBusinessDataYelpSearchTaskPostRequestInfo`](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md).[`location_code`](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
 main.ts:208824
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -176,17 +152,17 @@ West Los Angeles,California,United States
 
 #### Implementation of
 
-[IBusinessDataYelpSearchTaskPostRequestInfo](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md).[location_name](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md#location_name)
+[`IBusinessDataYelpSearchTaskPostRequestInfo`](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md).[`location_name`](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
 main.ts:208817
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -200,17 +176,17 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[IBusinessDataYelpSearchTaskPostRequestInfo](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md).[pingback_url](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md#pingback_url)
+[`IBusinessDataYelpSearchTaskPostRequestInfo`](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md).[`pingback_url`](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md#pingback_url)
 
-#### Defined in
+#### Source
 
 main.ts:208880
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -224,17 +200,17 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[IBusinessDataYelpSearchTaskPostRequestInfo](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md).[postback_url](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md#postback_url)
+[`IBusinessDataYelpSearchTaskPostRequestInfo`](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md).[`postback_url`](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md#postback_url)
 
-#### Defined in
+#### Source
 
 main.ts:208870
 
-___
+***
 
-### priority
+### priority?
 
-• `Optional` **priority**: `number`
+> **`optional`** **priority**: `number`
 
 task priority
 optional field
@@ -246,17 +222,17 @@ The cost can be calculated on the Pricing page.
 
 #### Implementation of
 
-[IBusinessDataYelpSearchTaskPostRequestInfo](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md).[priority](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md#priority)
+[`IBusinessDataYelpSearchTaskPostRequestInfo`](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md).[`priority`](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md#priority)
 
-#### Defined in
+#### Source
 
 main.ts:208810
 
-___
+***
 
-### sort\_by
+### sort\_by?
 
-• `Optional` **sort\_by**: `string`
+> **`optional`** **sort\_by**: `string`
 
 results sorting parameters
 optional field
@@ -269,17 +245,17 @@ default value: recommended
 
 #### Implementation of
 
-[IBusinessDataYelpSearchTaskPostRequestInfo](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md).[sort_by](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md#sort_by)
+[`IBusinessDataYelpSearchTaskPostRequestInfo`](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md).[`sort_by`](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md#sort_by)
 
-#### Defined in
+#### Source
 
 main.ts:208854
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -289,68 +265,62 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IBusinessDataYelpSearchTaskPostRequestInfo](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md).[tag](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md#tag)
+[`IBusinessDataYelpSearchTaskPostRequestInfo`](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md).[`tag`](../interfaces/IBusinessDataYelpSearchTaskPostRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
 main.ts:208860
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:208893
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:208920
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataYelpSearchTaskPostRequestInfo`](BusinessDataYelpSearchTaskPostRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataYelpSearchTaskPostRequestInfo`](BusinessDataYelpSearchTaskPostRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BusinessDataYelpSearchTaskPostRequestInfo`](BusinessDataYelpSearchTaskPostRequestInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:208913

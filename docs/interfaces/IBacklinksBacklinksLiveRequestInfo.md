@@ -1,39 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksBacklinksLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBacklinksBacklinksLiveRequestInfo
 
 # Interface: IBacklinksBacklinksLiveRequestInfo
 
-## Implemented by
-
-- [`BacklinksBacklinksLiveRequestInfo`](../classes/BacklinksBacklinksLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [backlinks\_status\_type](IBacklinksBacklinksLiveRequestInfo.md#backlinks_status_type)
-- [custom\_mode](IBacklinksBacklinksLiveRequestInfo.md#custom_mode)
-- [field](IBacklinksBacklinksLiveRequestInfo.md#field)
-- [filters](IBacklinksBacklinksLiveRequestInfo.md#filters)
-- [include\_indirect\_links](IBacklinksBacklinksLiveRequestInfo.md#include_indirect_links)
-- [include\_subdomains](IBacklinksBacklinksLiveRequestInfo.md#include_subdomains)
-- [limit](IBacklinksBacklinksLiveRequestInfo.md#limit)
-- [mode](IBacklinksBacklinksLiveRequestInfo.md#mode)
-- [offset](IBacklinksBacklinksLiveRequestInfo.md#offset)
-- [order\_by](IBacklinksBacklinksLiveRequestInfo.md#order_by)
-- [search\_after\_token](IBacklinksBacklinksLiveRequestInfo.md#search_after_token)
-- [tag](IBacklinksBacklinksLiveRequestInfo.md#tag)
-- [target](IBacklinksBacklinksLiveRequestInfo.md#target)
-- [value](IBacklinksBacklinksLiveRequestInfo.md#value)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### backlinks\_status\_type
+### backlinks\_status\_type?
 
-• `Optional` **backlinks\_status\_type**: `string`
+> **`optional`** **backlinks\_status\_type**: `string`
 
 set what backlinks to return and count
 optional field
@@ -44,36 +25,36 @@ live – backlinks found during the last check will be returned and counted;
 lost – lost backlinks will be returned and counted;
 default value: live
 
-#### Defined in
+#### Source
 
-main.ts:136246
+main.ts:136254
 
-___
+***
 
-### custom\_mode
+### custom\_mode?
 
-• `Optional` **custom\_mode**: `Object`
+> **`optional`** **custom\_mode**: `Object`
 
 detailed results grouping type
 optional field
 use this object to get a specific number of backlinks per field
 if you use custom_mode, then mode will be ignored
 example:
-"custom_mode": {"field": "domain", "value": 100}
+"custom_mode": \{"field": "domain", "value": 100\}
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
-#### Defined in
+#### Source
 
-main.ts:136170
+main.ts:136178
 
-___
+***
 
-### field
+### field?
 
-• `Optional` **field**: `string`
+> **`optional`** **field**: `string`
 
 response field
 required field if you choose to specify custom_mode
@@ -88,25 +69,25 @@ item_type
 page_from_status_code
 semantic_location
 
-#### Defined in
+#### Source
 
-main.ts:136183
+main.ts:136191
 
-___
+***
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, =, <>, in, not_in, like, not_like, ilike, not_ilike
+regex, =, `<>`, in, not_in, like, not_like, ilike, not_ilike
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
-["rank",">","80"]
+["rank",">`","80"]
 [["page_from_rank",">","55"],
 "and",
 ["dofollow","=",true]]
@@ -115,15 +96,15 @@ example:
 [["anchor","like","%seo%"],"or",["text_pre","like","%seo%"]]]
 The full list of possible filters is available here.
 
-#### Defined in
+#### Source
 
-main.ts:136204
+main.ts:136212
 
-___
+***
 
-### include\_indirect\_links
+### include\_indirect\_links?
 
-• `Optional` **include\_indirect\_links**: `boolean`
+> **`optional`** **include\_indirect\_links**: `boolean`
 
 indicates if indirect links to the target will be included in the results
 optional field
@@ -131,45 +112,45 @@ if set to true, the results will include data on indirect links pointing to a pa
 if set to false, indirect links will be ignored
 default value: true
 
-#### Defined in
+#### Source
 
-main.ts:136257
+main.ts:136265
 
-___
+***
 
-### include\_subdomains
+### include\_subdomains?
 
-• `Optional` **include\_subdomains**: `boolean`
+> **`optional`** **include\_subdomains**: `boolean`
 
 indicates if the subdomains of the target will be included in the search
 optional field
 if set to false, the subdomains will be ignored
 default value: true
 
-#### Defined in
+#### Source
 
-main.ts:136251
+main.ts:136259
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned backlinks
 optional field
 default value: 100
 maximum value: 1000
 
-#### Defined in
+#### Source
 
-main.ts:136237
+main.ts:136245
 
-___
+***
 
-### mode
+### mode?
 
-• `Optional` **mode**: `string`
+> **`optional`** **mode**: `string`
 
 results grouping type
 optional field
@@ -179,15 +160,15 @@ one_per_domain – returns one backlink per domain
 one_per_anchor – returns one backlink per anchor
 default value: as_is
 
-#### Defined in
+#### Source
 
-main.ts:136163
+main.ts:136171
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of the returned backlinks
 optional field
@@ -195,15 +176,15 @@ default value: 0
 if you specify the 10 value, the first ten backlinks in the results array will be omitted and the data will be provided for the successive backlinks;
 Note: the maximum value is 20,000, use the search_after_token if you would like to offset more results
 
-#### Defined in
+#### Source
 
-main.ts:136224
+main.ts:136232
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -219,15 +200,15 @@ you should use a comma to separate several sorting rules
 example:
 ["domain_from_rank,desc","page_from_rank,asc"]
 
-#### Defined in
+#### Source
 
-main.ts:136218
+main.ts:136226
 
-___
+***
 
-### search\_after\_token
+### search\_after\_token?
 
-• `Optional` **search\_after\_token**: `string`
+> **`optional`** **search\_after\_token**: `string`
 
 token for subsequent requests
 optional field
@@ -237,15 +218,15 @@ by specifying the unique search_after_token value from the response array, you w
 search_after_token values are unique for each subsequent task
 Note: if the search_after_token is specified in the request, all other parameters should be identical to the previous request
 
-#### Defined in
+#### Source
 
-main.ts:136232
+main.ts:136240
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -253,35 +234,35 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:136263
+main.ts:136271
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 domain, subdomain or webpage to get backlinks for
 required field
 a domain or a subdomain should be specified without https:// and www.
 a page should be specified with absolute URL (including http:// or https://)
 
-#### Defined in
+#### Source
 
-main.ts:136155
+main.ts:136163
 
-___
+***
 
-### value
+### value?
 
-• `Optional` **value**: `number`
+> **`optional`** **value**: `number`
 
 number of backlinks to return per field
 required field if you choose to specify custom_mode
 can be set from 1 to 1000
 
-#### Defined in
+#### Source
 
-main.ts:136187
+main.ts:136195

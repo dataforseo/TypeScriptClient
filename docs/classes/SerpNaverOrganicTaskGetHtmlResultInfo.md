@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpNaverOrganicTaskGetHtmlResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpNaverOrganicTaskGetHtmlResultInfo
 
 # Class: SerpNaverOrganicTaskGetHtmlResultInfo
 
@@ -8,56 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpNaverOrganicTaskGetHtmlResultInfo.md#constructor)
-
-### Properties
-
-- [datetime](SerpNaverOrganicTaskGetHtmlResultInfo.md#datetime)
-- [items](SerpNaverOrganicTaskGetHtmlResultInfo.md#items)
-- [items\_count](SerpNaverOrganicTaskGetHtmlResultInfo.md#items_count)
-- [keyword](SerpNaverOrganicTaskGetHtmlResultInfo.md#keyword)
-- [language\_code](SerpNaverOrganicTaskGetHtmlResultInfo.md#language_code)
-- [location\_code](SerpNaverOrganicTaskGetHtmlResultInfo.md#location_code)
-- [se\_domain](SerpNaverOrganicTaskGetHtmlResultInfo.md#se_domain)
-- [type](SerpNaverOrganicTaskGetHtmlResultInfo.md#type)
-
-### Methods
-
-- [init](SerpNaverOrganicTaskGetHtmlResultInfo.md#init)
-- [toJSON](SerpNaverOrganicTaskGetHtmlResultInfo.md#tojson)
-- [fromJS](SerpNaverOrganicTaskGetHtmlResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpNaverOrganicTaskGetHtmlResultInfo(data)
 
-• **new SerpNaverOrganicTaskGetHtmlResultInfo**(`data?`): [`SerpNaverOrganicTaskGetHtmlResultInfo`](SerpNaverOrganicTaskGetHtmlResultInfo.md)
+> **new SerpNaverOrganicTaskGetHtmlResultInfo**(`data`?): [`SerpNaverOrganicTaskGetHtmlResultInfo`](SerpNaverOrganicTaskGetHtmlResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpNaverOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpNaverOrganicTaskGetHtmlResultInfo.md) |
+• **data?**: [`ISerpNaverOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpNaverOrganicTaskGetHtmlResultInfo.md)
 
 #### Returns
 
 [`SerpNaverOrganicTaskGetHtmlResultInfo`](SerpNaverOrganicTaskGetHtmlResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:70935
+main.ts:70943
 
 ## Properties
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -66,181 +45,175 @@ example:
 
 #### Implementation of
 
-[ISerpNaverOrganicTaskGetHtmlResultInfo](../interfaces/ISerpNaverOrganicTaskGetHtmlResultInfo.md).[datetime](../interfaces/ISerpNaverOrganicTaskGetHtmlResultInfo.md#datetime)
+[`ISerpNaverOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpNaverOrganicTaskGetHtmlResultInfo.md).[`datetime`](../interfaces/ISerpNaverOrganicTaskGetHtmlResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
-main.ts:70927
+main.ts:70935
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`HtmlItem`](HtmlItem.md)[]
+> **`optional`** **items**: [`HtmlItem`](HtmlItem.md)[]
 
 elements of search results found in SERP
 
 #### Implementation of
 
-[ISerpNaverOrganicTaskGetHtmlResultInfo](../interfaces/ISerpNaverOrganicTaskGetHtmlResultInfo.md).[items](../interfaces/ISerpNaverOrganicTaskGetHtmlResultInfo.md#items)
+[`ISerpNaverOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpNaverOrganicTaskGetHtmlResultInfo.md).[`items`](../interfaces/ISerpNaverOrganicTaskGetHtmlResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:70931
+main.ts:70939
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[ISerpNaverOrganicTaskGetHtmlResultInfo](../interfaces/ISerpNaverOrganicTaskGetHtmlResultInfo.md).[items_count](../interfaces/ISerpNaverOrganicTaskGetHtmlResultInfo.md#items_count)
+[`ISerpNaverOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpNaverOrganicTaskGetHtmlResultInfo.md).[`items_count`](../interfaces/ISerpNaverOrganicTaskGetHtmlResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:70929
+main.ts:70937
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
-[ISerpNaverOrganicTaskGetHtmlResultInfo](../interfaces/ISerpNaverOrganicTaskGetHtmlResultInfo.md).[keyword](../interfaces/ISerpNaverOrganicTaskGetHtmlResultInfo.md#keyword)
+[`ISerpNaverOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpNaverOrganicTaskGetHtmlResultInfo.md).[`keyword`](../interfaces/ISerpNaverOrganicTaskGetHtmlResultInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:70914
+main.ts:70922
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[ISerpNaverOrganicTaskGetHtmlResultInfo](../interfaces/ISerpNaverOrganicTaskGetHtmlResultInfo.md).[language_code](../interfaces/ISerpNaverOrganicTaskGetHtmlResultInfo.md#language_code)
+[`ISerpNaverOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpNaverOrganicTaskGetHtmlResultInfo.md).[`language_code`](../interfaces/ISerpNaverOrganicTaskGetHtmlResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:70922
+main.ts:70930
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[ISerpNaverOrganicTaskGetHtmlResultInfo](../interfaces/ISerpNaverOrganicTaskGetHtmlResultInfo.md).[location_code](../interfaces/ISerpNaverOrganicTaskGetHtmlResultInfo.md#location_code)
+[`ISerpNaverOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpNaverOrganicTaskGetHtmlResultInfo.md).[`location_code`](../interfaces/ISerpNaverOrganicTaskGetHtmlResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:70920
+main.ts:70928
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
 #### Implementation of
 
-[ISerpNaverOrganicTaskGetHtmlResultInfo](../interfaces/ISerpNaverOrganicTaskGetHtmlResultInfo.md).[se_domain](../interfaces/ISerpNaverOrganicTaskGetHtmlResultInfo.md#se_domain)
+[`ISerpNaverOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpNaverOrganicTaskGetHtmlResultInfo.md).[`se_domain`](../interfaces/ISerpNaverOrganicTaskGetHtmlResultInfo.md#se_domain)
 
-#### Defined in
+#### Source
 
-main.ts:70918
+main.ts:70926
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[ISerpNaverOrganicTaskGetHtmlResultInfo](../interfaces/ISerpNaverOrganicTaskGetHtmlResultInfo.md).[type](../interfaces/ISerpNaverOrganicTaskGetHtmlResultInfo.md#type)
+[`ISerpNaverOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpNaverOrganicTaskGetHtmlResultInfo.md).[`type`](../interfaces/ISerpNaverOrganicTaskGetHtmlResultInfo.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:70916
+main.ts:70924
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:70944
+main.ts:70952
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:70972
+main.ts:70980
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpNaverOrganicTaskGetHtmlResultInfo`](SerpNaverOrganicTaskGetHtmlResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpNaverOrganicTaskGetHtmlResultInfo`](SerpNaverOrganicTaskGetHtmlResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpNaverOrganicTaskGetHtmlResultInfo`](SerpNaverOrganicTaskGetHtmlResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:70965
+main.ts:70973

@@ -1,40 +1,32 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentAnalysisCategoriesResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IContentAnalysisCategoriesResultInfo
 
 # Interface: IContentAnalysisCategoriesResultInfo
 
-## Implemented by
-
-- [`ContentAnalysisCategoriesResultInfo`](../classes/ContentAnalysisCategoriesResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [category\_code](IContentAnalysisCategoriesResultInfo.md#category_code)
-- [category\_code\_parent](IContentAnalysisCategoriesResultInfo.md#category_code_parent)
-- [category\_name](IContentAnalysisCategoriesResultInfo.md#category_name)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### category\_code
+### category\_code?
 
-• `Optional` **category\_code**: `number`
+> **`optional`** **category\_code**: `number`
 
 category code
 
-#### Defined in
+#### Source
 
-main.ts:161339
+main.ts:161347
 
-___
+***
 
-### category\_code\_parent
+### category\_code\_parent?
 
-• `Optional` **category\_code\_parent**: `number`
+> **`optional`** **category\_code\_parent**: `number`
 
 the code of the superordinate category
 example:
@@ -46,18 +38,18 @@ corresponds to:
 "category_code": 10178,
 "category_name": "Apparel Accessories"
 
-#### Defined in
+#### Source
 
-main.ts:161351
+main.ts:161359
 
-___
+***
 
-### category\_name
+### category\_name?
 
-• `Optional` **category\_name**: `string`
+> **`optional`** **category\_name**: `string`
 
 full name of the category
 
-#### Defined in
+#### Source
 
-main.ts:161341
+main.ts:161349

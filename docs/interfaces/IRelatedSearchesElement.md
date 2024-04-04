@@ -1,81 +1,71 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IRelatedSearchesElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IRelatedSearchesElement
 
 # Interface: IRelatedSearchesElement
 
-## Implemented by
-
-- [`RelatedSearchesElement`](../classes/RelatedSearchesElement.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [image\_alt](IRelatedSearchesElement.md#image_alt)
-- [image\_url](IRelatedSearchesElement.md#image_url)
-- [title](IRelatedSearchesElement.md#title)
-- [type](IRelatedSearchesElement.md#type)
-- [url](IRelatedSearchesElement.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### image\_alt
+### image\_alt?
 
-• `Optional` **image\_alt**: `string`
+> **`optional`** **image\_alt**: `string`
 
 the alt tag of the product image featured in the results
 
-#### Defined in
+#### Source
 
 main.ts:21567
 
-___
+***
 
-### image\_url
+### image\_url?
 
-• `Optional` **image\_url**: `string`
+> **`optional`** **image\_url**: `string`
 
 URL of the product image featured in the results
 
-#### Defined in
+#### Source
 
 main.ts:21569
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 product title
 
-#### Defined in
+#### Source
 
 main.ts:21563
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
 main.ts:21561
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 the URL of the product page
 
-#### Defined in
+#### Source
 
 main.ts:21565

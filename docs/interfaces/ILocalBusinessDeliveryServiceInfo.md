@@ -1,56 +1,48 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ILocalBusinessDeliveryServiceInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ILocalBusinessDeliveryServiceInfo
 
 # Interface: ILocalBusinessDeliveryServiceInfo
 
-## Implemented by
-
-- [`LocalBusinessDeliveryServiceInfo`](../classes/LocalBusinessDeliveryServiceInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [title](ILocalBusinessDeliveryServiceInfo.md#title)
-- [type](ILocalBusinessDeliveryServiceInfo.md#type)
-- [url](ILocalBusinessDeliveryServiceInfo.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the element
 domain of the online food ordering system
 
-#### Defined in
+#### Source
 
 main.ts:22954
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
 main.ts:22951
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL to place an order
 
-#### Defined in
+#### Source
 
 main.ts:22956

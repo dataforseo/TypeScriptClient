@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo
 
 # Class: DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo
 
@@ -8,184 +12,156 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md#constructor)
-
-### Properties
-
-- [items](DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md#items)
-- [items\_count](DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md#items_count)
-- [language\_code](DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md#language_code)
-- [location\_code](DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md#location_code)
-- [se\_type](DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md#se_type)
-
-### Methods
-
-- [init](DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md#init)
-- [toJSON](DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md#tojson)
-- [fromJS](DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo(data)
 
-• **new DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo**(`data?`): [`DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo`](DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md)
+> **new DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo**(`data`?): [`DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo`](DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md) |
+• **data?**: [`IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo`](DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:84413
+main.ts:84421
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`DataforseoLabsGoogleHistoricalSearchVolumeLiveItem`](DataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsGoogleHistoricalSearchVolumeLiveItem`](DataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md)[]
 
 contains keywords and related data
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md).[items](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md#items)
+[`IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:84409
+main.ts:84417
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md).[items_count](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md#items_count)
+[`IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:84407
+main.ts:84415
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md).[language_code](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md#language_code)
+[`IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:84405
+main.ts:84413
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md).[location_code](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md#location_code)
+[`IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:84403
+main.ts:84411
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md).[se_type](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md#se_type)
+[`IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:84401
+main.ts:84409
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:84422
+main.ts:84430
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:84447
+main.ts:84455
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo`](DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo`](DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo`](DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:84440
+main.ts:84448

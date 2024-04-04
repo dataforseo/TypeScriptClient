@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataIdListRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataIdListRequestInfo
 
 # Class: KeywordsDataIdListRequestInfo
 
@@ -8,54 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataIdListRequestInfo.md#constructor)
-
-### Properties
-
-- [datetime\_from](KeywordsDataIdListRequestInfo.md#datetime_from)
-- [datetime\_to](KeywordsDataIdListRequestInfo.md#datetime_to)
-- [include\_metadata](KeywordsDataIdListRequestInfo.md#include_metadata)
-- [limit](KeywordsDataIdListRequestInfo.md#limit)
-- [offset](KeywordsDataIdListRequestInfo.md#offset)
-- [sort](KeywordsDataIdListRequestInfo.md#sort)
-
-### Methods
-
-- [init](KeywordsDataIdListRequestInfo.md#init)
-- [toJSON](KeywordsDataIdListRequestInfo.md#tojson)
-- [fromJS](KeywordsDataIdListRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordsDataIdListRequestInfo(data)
 
-• **new KeywordsDataIdListRequestInfo**(`data?`): [`KeywordsDataIdListRequestInfo`](KeywordsDataIdListRequestInfo.md)
+> **new KeywordsDataIdListRequestInfo**(`data`?): [`KeywordsDataIdListRequestInfo`](KeywordsDataIdListRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordsDataIdListRequestInfo`](../interfaces/IKeywordsDataIdListRequestInfo.md) |
+• **data?**: [`IKeywordsDataIdListRequestInfo`](../interfaces/IKeywordsDataIdListRequestInfo.md)
 
 #### Returns
 
 [`KeywordsDataIdListRequestInfo`](KeywordsDataIdListRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:114633
+main.ts:114641
 
 ## Properties
 
-### datetime\_from
+### datetime\_from?
 
-• `Optional` **datetime\_from**: `string`
+> **`optional`** **datetime\_from**: `string`
 
 start time for filtering results
 required field
@@ -67,17 +48,17 @@ example:
 
 #### Implementation of
 
-[IKeywordsDataIdListRequestInfo](../interfaces/IKeywordsDataIdListRequestInfo.md).[datetime_from](../interfaces/IKeywordsDataIdListRequestInfo.md#datetime_from)
+[`IKeywordsDataIdListRequestInfo`](../interfaces/IKeywordsDataIdListRequestInfo.md).[`datetime_from`](../interfaces/IKeywordsDataIdListRequestInfo.md#datetime_from)
 
-#### Defined in
+#### Source
 
-main.ts:114603
+main.ts:114611
 
-___
+***
 
-### datetime\_to
+### datetime\_to?
 
-• `Optional` **datetime\_to**: `string`
+> **`optional`** **datetime\_to**: `string`
 
 finish time for filtering results
 required field
@@ -88,17 +69,17 @@ example:
 
 #### Implementation of
 
-[IKeywordsDataIdListRequestInfo](../interfaces/IKeywordsDataIdListRequestInfo.md).[datetime_to](../interfaces/IKeywordsDataIdListRequestInfo.md#datetime_to)
+[`IKeywordsDataIdListRequestInfo`](../interfaces/IKeywordsDataIdListRequestInfo.md).[`datetime_to`](../interfaces/IKeywordsDataIdListRequestInfo.md#datetime_to)
 
-#### Defined in
+#### Source
 
-main.ts:114610
+main.ts:114618
 
-___
+***
 
-### include\_metadata
+### include\_metadata?
 
-• `Optional` **include\_metadata**: `boolean`
+> **`optional`** **include\_metadata**: `boolean`
 
 include task metadata in the respond
 optional field
@@ -106,17 +87,17 @@ default value: false
 
 #### Implementation of
 
-[IKeywordsDataIdListRequestInfo](../interfaces/IKeywordsDataIdListRequestInfo.md).[include_metadata](../interfaces/IKeywordsDataIdListRequestInfo.md#include_metadata)
+[`IKeywordsDataIdListRequestInfo`](../interfaces/IKeywordsDataIdListRequestInfo.md).[`include_metadata`](../interfaces/IKeywordsDataIdListRequestInfo.md#include_metadata)
 
-#### Defined in
+#### Source
 
-main.ts:114629
+main.ts:114637
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned task IDs
 optional field
@@ -125,17 +106,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IKeywordsDataIdListRequestInfo](../interfaces/IKeywordsDataIdListRequestInfo.md).[limit](../interfaces/IKeywordsDataIdListRequestInfo.md#limit)
+[`IKeywordsDataIdListRequestInfo`](../interfaces/IKeywordsDataIdListRequestInfo.md).[`limit`](../interfaces/IKeywordsDataIdListRequestInfo.md#limit)
 
-#### Defined in
+#### Source
 
-main.ts:114615
+main.ts:114623
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned task IDs
 optional field
@@ -144,17 +125,17 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Implementation of
 
-[IKeywordsDataIdListRequestInfo](../interfaces/IKeywordsDataIdListRequestInfo.md).[offset](../interfaces/IKeywordsDataIdListRequestInfo.md#offset)
+[`IKeywordsDataIdListRequestInfo`](../interfaces/IKeywordsDataIdListRequestInfo.md).[`offset`](../interfaces/IKeywordsDataIdListRequestInfo.md#offset)
 
-#### Defined in
+#### Source
 
-main.ts:114620
+main.ts:114628
 
-___
+***
 
-### sort
+### sort?
 
-• `Optional` **sort**: `string`
+> **`optional`** **sort**: `string`
 
 sorting by task execution time
 optional field
@@ -163,68 +144,62 @@ default value: "asc"
 
 #### Implementation of
 
-[IKeywordsDataIdListRequestInfo](../interfaces/IKeywordsDataIdListRequestInfo.md).[sort](../interfaces/IKeywordsDataIdListRequestInfo.md#sort)
+[`IKeywordsDataIdListRequestInfo`](../interfaces/IKeywordsDataIdListRequestInfo.md).[`sort`](../interfaces/IKeywordsDataIdListRequestInfo.md#sort)
 
-#### Defined in
+#### Source
 
-main.ts:114625
+main.ts:114633
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:114642
+main.ts:114650
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:114664
+main.ts:114672
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordsDataIdListRequestInfo`](KeywordsDataIdListRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordsDataIdListRequestInfo`](KeywordsDataIdListRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`KeywordsDataIdListRequestInfo`](KeywordsDataIdListRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:114657
+main.ts:114665

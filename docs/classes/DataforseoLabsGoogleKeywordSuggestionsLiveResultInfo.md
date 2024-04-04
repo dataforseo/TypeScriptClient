@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo
 
 # Class: DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo
 
@@ -8,138 +12,111 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#constructor)
-
-### Properties
-
-- [items](DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#items)
-- [items\_count](DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#items_count)
-- [language\_code](DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#language_code)
-- [location\_code](DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#location_code)
-- [offset](DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#offset)
-- [offset\_token](DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#offset_token)
-- [se\_type](DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#se_type)
-- [seed\_keyword](DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#seed_keyword)
-- [seed\_keyword\_data](DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#seed_keyword_data)
-- [total\_count](DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#total_count)
-
-### Methods
-
-- [init](DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#init)
-- [toJSON](DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#tojson)
-- [fromJS](DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo(data)
 
-• **new DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo**(`data?`): [`DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo`](DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md)
+> **new DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo**(`data`?): [`DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo`](DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md) |
+• **data?**: [`IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo`](DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:83338
+main.ts:83346
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`KeywordDataInfo`](KeywordDataInfo.md)[]
+> **`optional`** **items**: [`KeywordDataInfo`](KeywordDataInfo.md)[]
 
 contains keywords and related data
 
 #### Implementation of
 
-[IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md).[items](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#items)
+[`IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:83334
+main.ts:83342
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md).[items_count](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#items_count)
+[`IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:83326
+main.ts:83334
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md).[language_code](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#language_code)
+[`IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:83322
+main.ts:83330
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md).[location_code](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#location_code)
+[`IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:83320
+main.ts:83328
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 current offset value
 
 #### Implementation of
 
-[IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md).[offset](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#offset)
+[`IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md).[`offset`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#offset)
 
-#### Defined in
+#### Source
 
-main.ts:83328
+main.ts:83336
 
-___
+***
 
-### offset\_token
+### offset\_token?
 
-• `Optional` **offset\_token**: `string`
+> **`optional`** **offset\_token**: `string`
 
 offset token for subsequent requests
 you can use the string provided in this field to get the subsequent results of the initial task;
@@ -147,137 +124,131 @@ note: offset_token values are unique for each subsequent task
 
 #### Implementation of
 
-[IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md).[offset_token](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#offset_token)
+[`IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md).[`offset_token`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#offset_token)
 
-#### Defined in
+#### Source
 
-main.ts:83332
+main.ts:83340
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md).[se_type](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#se_type)
+[`IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:83313
+main.ts:83321
 
-___
+***
 
-### seed\_keyword
+### seed\_keyword?
 
-• `Optional` **seed\_keyword**: `string`
+> **`optional`** **seed\_keyword**: `string`
 
 keyword in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md).[seed_keyword](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#seed_keyword)
+[`IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md).[`seed_keyword`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#seed_keyword)
 
-#### Defined in
+#### Source
 
-main.ts:83315
+main.ts:83323
 
-___
+***
 
-### seed\_keyword\_data
+### seed\_keyword\_data?
 
-• `Optional` **seed\_keyword\_data**: `Object`
+> **`optional`** **seed\_keyword\_data**: `Object`
 
 keyword data for the seed keyword
 fields in this object are identical to those of the items array
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
 #### Implementation of
 
-[IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md).[seed_keyword_data](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#seed_keyword_data)
+[`IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md).[`seed_keyword_data`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#seed_keyword_data)
 
-#### Defined in
+#### Source
 
-main.ts:83318
+main.ts:83326
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
 #### Implementation of
 
-[IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md).[total_count](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#total_count)
+[`IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md#total_count)
 
-#### Defined in
+#### Source
 
-main.ts:83324
+main.ts:83332
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:83347
+main.ts:83355
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:83383
+main.ts:83391
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo`](DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo`](DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo`](DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:83376
+main.ts:83384

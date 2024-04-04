@@ -1,107 +1,95 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IExploreBrandsElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IExploreBrandsElement
 
 # Interface: IExploreBrandsElement
 
-## Implemented by
-
-- [`ExploreBrandsElement`](../classes/ExploreBrandsElement.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [description](IExploreBrandsElement.md#description)
-- [domain](IExploreBrandsElement.md#domain)
-- [image\_url](IExploreBrandsElement.md#image_url)
-- [title](IExploreBrandsElement.md#title)
-- [type](IExploreBrandsElement.md#type)
-- [url](IExploreBrandsElement.md#url)
-- [xpath](IExploreBrandsElement.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description
 
-#### Defined in
+#### Source
 
-main.ts:36226
+main.ts:36232
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 website domain
 
-#### Defined in
+#### Source
 
-main.ts:36224
+main.ts:36230
 
-___
+***
 
-### image\_url
+### image\_url?
 
-• `Optional` **image\_url**: `string`
+> **`optional`** **image\_url**: `string`
 
 URL of the image
 
-#### Defined in
+#### Source
 
-main.ts:36228
+main.ts:36234
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
-#### Defined in
+#### Source
 
-main.ts:36220
+main.ts:36226
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:36218
+main.ts:36224
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL
 
-#### Defined in
+#### Source
 
-main.ts:36222
+main.ts:36228
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
-main.ts:36230
+main.ts:36236

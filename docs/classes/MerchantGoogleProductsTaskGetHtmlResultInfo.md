@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MerchantGoogleProductsTaskGetHtmlResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / MerchantGoogleProductsTaskGetHtmlResultInfo
 
 # Class: MerchantGoogleProductsTaskGetHtmlResultInfo
 
@@ -8,56 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](MerchantGoogleProductsTaskGetHtmlResultInfo.md#constructor)
-
-### Properties
-
-- [datetime](MerchantGoogleProductsTaskGetHtmlResultInfo.md#datetime)
-- [items](MerchantGoogleProductsTaskGetHtmlResultInfo.md#items)
-- [items\_count](MerchantGoogleProductsTaskGetHtmlResultInfo.md#items_count)
-- [keyword](MerchantGoogleProductsTaskGetHtmlResultInfo.md#keyword)
-- [language\_code](MerchantGoogleProductsTaskGetHtmlResultInfo.md#language_code)
-- [location\_code](MerchantGoogleProductsTaskGetHtmlResultInfo.md#location_code)
-- [se\_domain](MerchantGoogleProductsTaskGetHtmlResultInfo.md#se_domain)
-- [type](MerchantGoogleProductsTaskGetHtmlResultInfo.md#type)
-
-### Methods
-
-- [init](MerchantGoogleProductsTaskGetHtmlResultInfo.md#init)
-- [toJSON](MerchantGoogleProductsTaskGetHtmlResultInfo.md#tojson)
-- [fromJS](MerchantGoogleProductsTaskGetHtmlResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new MerchantGoogleProductsTaskGetHtmlResultInfo(data)
 
-• **new MerchantGoogleProductsTaskGetHtmlResultInfo**(`data?`): [`MerchantGoogleProductsTaskGetHtmlResultInfo`](MerchantGoogleProductsTaskGetHtmlResultInfo.md)
+> **new MerchantGoogleProductsTaskGetHtmlResultInfo**(`data`?): [`MerchantGoogleProductsTaskGetHtmlResultInfo`](MerchantGoogleProductsTaskGetHtmlResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IMerchantGoogleProductsTaskGetHtmlResultInfo`](../interfaces/IMerchantGoogleProductsTaskGetHtmlResultInfo.md) |
+• **data?**: [`IMerchantGoogleProductsTaskGetHtmlResultInfo`](../interfaces/IMerchantGoogleProductsTaskGetHtmlResultInfo.md)
 
 #### Returns
 
 [`MerchantGoogleProductsTaskGetHtmlResultInfo`](MerchantGoogleProductsTaskGetHtmlResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:171078
+main.ts:171086
 
 ## Properties
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -66,181 +45,175 @@ example:
 
 #### Implementation of
 
-[IMerchantGoogleProductsTaskGetHtmlResultInfo](../interfaces/IMerchantGoogleProductsTaskGetHtmlResultInfo.md).[datetime](../interfaces/IMerchantGoogleProductsTaskGetHtmlResultInfo.md#datetime)
+[`IMerchantGoogleProductsTaskGetHtmlResultInfo`](../interfaces/IMerchantGoogleProductsTaskGetHtmlResultInfo.md).[`datetime`](../interfaces/IMerchantGoogleProductsTaskGetHtmlResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
-main.ts:171070
+main.ts:171078
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`HtmlItem`](HtmlItem.md)[]
+> **`optional`** **items**: [`HtmlItem`](HtmlItem.md)[]
 
 elements of search results found on Google Shopping
 
 #### Implementation of
 
-[IMerchantGoogleProductsTaskGetHtmlResultInfo](../interfaces/IMerchantGoogleProductsTaskGetHtmlResultInfo.md).[items](../interfaces/IMerchantGoogleProductsTaskGetHtmlResultInfo.md#items)
+[`IMerchantGoogleProductsTaskGetHtmlResultInfo`](../interfaces/IMerchantGoogleProductsTaskGetHtmlResultInfo.md).[`items`](../interfaces/IMerchantGoogleProductsTaskGetHtmlResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:171074
+main.ts:171082
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[IMerchantGoogleProductsTaskGetHtmlResultInfo](../interfaces/IMerchantGoogleProductsTaskGetHtmlResultInfo.md).[items_count](../interfaces/IMerchantGoogleProductsTaskGetHtmlResultInfo.md#items_count)
+[`IMerchantGoogleProductsTaskGetHtmlResultInfo`](../interfaces/IMerchantGoogleProductsTaskGetHtmlResultInfo.md).[`items_count`](../interfaces/IMerchantGoogleProductsTaskGetHtmlResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:171072
+main.ts:171080
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
-[IMerchantGoogleProductsTaskGetHtmlResultInfo](../interfaces/IMerchantGoogleProductsTaskGetHtmlResultInfo.md).[keyword](../interfaces/IMerchantGoogleProductsTaskGetHtmlResultInfo.md#keyword)
+[`IMerchantGoogleProductsTaskGetHtmlResultInfo`](../interfaces/IMerchantGoogleProductsTaskGetHtmlResultInfo.md).[`keyword`](../interfaces/IMerchantGoogleProductsTaskGetHtmlResultInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:171057
+main.ts:171065
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[IMerchantGoogleProductsTaskGetHtmlResultInfo](../interfaces/IMerchantGoogleProductsTaskGetHtmlResultInfo.md).[language_code](../interfaces/IMerchantGoogleProductsTaskGetHtmlResultInfo.md#language_code)
+[`IMerchantGoogleProductsTaskGetHtmlResultInfo`](../interfaces/IMerchantGoogleProductsTaskGetHtmlResultInfo.md).[`language_code`](../interfaces/IMerchantGoogleProductsTaskGetHtmlResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:171065
+main.ts:171073
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[IMerchantGoogleProductsTaskGetHtmlResultInfo](../interfaces/IMerchantGoogleProductsTaskGetHtmlResultInfo.md).[location_code](../interfaces/IMerchantGoogleProductsTaskGetHtmlResultInfo.md#location_code)
+[`IMerchantGoogleProductsTaskGetHtmlResultInfo`](../interfaces/IMerchantGoogleProductsTaskGetHtmlResultInfo.md).[`location_code`](../interfaces/IMerchantGoogleProductsTaskGetHtmlResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:171063
+main.ts:171071
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
 #### Implementation of
 
-[IMerchantGoogleProductsTaskGetHtmlResultInfo](../interfaces/IMerchantGoogleProductsTaskGetHtmlResultInfo.md).[se_domain](../interfaces/IMerchantGoogleProductsTaskGetHtmlResultInfo.md#se_domain)
+[`IMerchantGoogleProductsTaskGetHtmlResultInfo`](../interfaces/IMerchantGoogleProductsTaskGetHtmlResultInfo.md).[`se_domain`](../interfaces/IMerchantGoogleProductsTaskGetHtmlResultInfo.md#se_domain)
 
-#### Defined in
+#### Source
 
-main.ts:171061
+main.ts:171069
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IMerchantGoogleProductsTaskGetHtmlResultInfo](../interfaces/IMerchantGoogleProductsTaskGetHtmlResultInfo.md).[type](../interfaces/IMerchantGoogleProductsTaskGetHtmlResultInfo.md#type)
+[`IMerchantGoogleProductsTaskGetHtmlResultInfo`](../interfaces/IMerchantGoogleProductsTaskGetHtmlResultInfo.md).[`type`](../interfaces/IMerchantGoogleProductsTaskGetHtmlResultInfo.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:171059
+main.ts:171067
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:171087
+main.ts:171095
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:171115
+main.ts:171123
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`MerchantGoogleProductsTaskGetHtmlResultInfo`](MerchantGoogleProductsTaskGetHtmlResultInfo.md)
+> **`static`** **fromJS**(`data`): [`MerchantGoogleProductsTaskGetHtmlResultInfo`](MerchantGoogleProductsTaskGetHtmlResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`MerchantGoogleProductsTaskGetHtmlResultInfo`](MerchantGoogleProductsTaskGetHtmlResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:171108
+main.ts:171116

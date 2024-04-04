@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataAppleAppReviewsTasksReadyTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppDataAppleAppReviewsTasksReadyTaskInfo
 
 # Class: AppDataAppleAppReviewsTasksReadyTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`AppDataAppleAppReviewsTasksReadyTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppDataAppleAppReviewsTasksReadyTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](AppDataAppleAppReviewsTasksReadyTaskInfo.md#cost)
-- [data](AppDataAppleAppReviewsTasksReadyTaskInfo.md#data)
-- [id](AppDataAppleAppReviewsTasksReadyTaskInfo.md#id)
-- [path](AppDataAppleAppReviewsTasksReadyTaskInfo.md#path)
-- [result](AppDataAppleAppReviewsTasksReadyTaskInfo.md#result)
-- [result\_count](AppDataAppleAppReviewsTasksReadyTaskInfo.md#result_count)
-- [status\_code](AppDataAppleAppReviewsTasksReadyTaskInfo.md#status_code)
-- [status\_message](AppDataAppleAppReviewsTasksReadyTaskInfo.md#status_message)
-- [time](AppDataAppleAppReviewsTasksReadyTaskInfo.md#time)
-
-### Methods
-
-- [init](AppDataAppleAppReviewsTasksReadyTaskInfo.md#init)
-- [toJSON](AppDataAppleAppReviewsTasksReadyTaskInfo.md#tojson)
-- [fromJS](AppDataAppleAppReviewsTasksReadyTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppDataAppleAppReviewsTasksReadyTaskInfo(data)
 
-• **new AppDataAppleAppReviewsTasksReadyTaskInfo**(`data?`): [`AppDataAppleAppReviewsTasksReadyTaskInfo`](AppDataAppleAppReviewsTasksReadyTaskInfo.md)
+> **new AppDataAppleAppReviewsTasksReadyTaskInfo**(`data`?): [`AppDataAppleAppReviewsTasksReadyTaskInfo`](AppDataAppleAppReviewsTasksReadyTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppDataAppleAppReviewsTasksReadyTaskInfo`](../interfaces/IAppDataAppleAppReviewsTasksReadyTaskInfo.md) |
+• **data?**: [`IAppDataAppleAppReviewsTasksReadyTaskInfo`](../interfaces/IAppDataAppleAppReviewsTasksReadyTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:191549
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IAppDataAppleAppReviewsTasksReadyTaskInfo](../interfaces/IAppDataAppleAppReviewsTasksReadyTaskInfo.md).[cost](../interfaces/IAppDataAppleAppReviewsTasksReadyTaskInfo.md#cost)
+[`IAppDataAppleAppReviewsTasksReadyTaskInfo`](../interfaces/IAppDataAppleAppReviewsTasksReadyTaskInfo.md).[`cost`](../interfaces/IAppDataAppleAppReviewsTasksReadyTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[IAppDataAppleAppReviewsTasksReadyTaskInfo](../interfaces/IAppDataAppleAppReviewsTasksReadyTaskInfo.md).[data](../interfaces/IAppDataAppleAppReviewsTasksReadyTaskInfo.md#data)
+[`IAppDataAppleAppReviewsTasksReadyTaskInfo`](../interfaces/IAppDataAppleAppReviewsTasksReadyTaskInfo.md).[`data`](../interfaces/IAppDataAppleAppReviewsTasksReadyTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IAppDataAppleAppReviewsTasksReadyTaskInfo](../interfaces/IAppDataAppleAppReviewsTasksReadyTaskInfo.md).[id](../interfaces/IAppDataAppleAppReviewsTasksReadyTaskInfo.md#id)
+[`IAppDataAppleAppReviewsTasksReadyTaskInfo`](../interfaces/IAppDataAppleAppReviewsTasksReadyTaskInfo.md).[`id`](../interfaces/IAppDataAppleAppReviewsTasksReadyTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[IAppDataAppleAppReviewsTasksReadyTaskInfo](../interfaces/IAppDataAppleAppReviewsTasksReadyTaskInfo.md).[path](../interfaces/IAppDataAppleAppReviewsTasksReadyTaskInfo.md#path)
+[`IAppDataAppleAppReviewsTasksReadyTaskInfo`](../interfaces/IAppDataAppleAppReviewsTasksReadyTaskInfo.md).[`path`](../interfaces/IAppDataAppleAppReviewsTasksReadyTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`AppDataAppleAppReviewsTasksReadyResultInfo`](AppDataAppleAppReviewsTasksReadyResultInfo.md)[]
+> **`optional`** **result**: [`AppDataAppleAppReviewsTasksReadyResultInfo`](AppDataAppleAppReviewsTasksReadyResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[IAppDataAppleAppReviewsTasksReadyTaskInfo](../interfaces/IAppDataAppleAppReviewsTasksReadyTaskInfo.md).[result](../interfaces/IAppDataAppleAppReviewsTasksReadyTaskInfo.md#result)
+[`IAppDataAppleAppReviewsTasksReadyTaskInfo`](../interfaces/IAppDataAppleAppReviewsTasksReadyTaskInfo.md).[`result`](../interfaces/IAppDataAppleAppReviewsTasksReadyTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
 main.ts:191545
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[IAppDataAppleAppReviewsTasksReadyTaskInfo](../interfaces/IAppDataAppleAppReviewsTasksReadyTaskInfo.md).[result_count](../interfaces/IAppDataAppleAppReviewsTasksReadyTaskInfo.md#result_count)
+[`IAppDataAppleAppReviewsTasksReadyTaskInfo`](../interfaces/IAppDataAppleAppReviewsTasksReadyTaskInfo.md).[`result_count`](../interfaces/IAppDataAppleAppReviewsTasksReadyTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[IAppDataAppleAppReviewsTasksReadyTaskInfo](../interfaces/IAppDataAppleAppReviewsTasksReadyTaskInfo.md).[status_code](../interfaces/IAppDataAppleAppReviewsTasksReadyTaskInfo.md#status_code)
+[`IAppDataAppleAppReviewsTasksReadyTaskInfo`](../interfaces/IAppDataAppleAppReviewsTasksReadyTaskInfo.md).[`status_code`](../interfaces/IAppDataAppleAppReviewsTasksReadyTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IAppDataAppleAppReviewsTasksReadyTaskInfo](../interfaces/IAppDataAppleAppReviewsTasksReadyTaskInfo.md).[status_message](../interfaces/IAppDataAppleAppReviewsTasksReadyTaskInfo.md#status_message)
+[`IAppDataAppleAppReviewsTasksReadyTaskInfo`](../interfaces/IAppDataAppleAppReviewsTasksReadyTaskInfo.md).[`status_message`](../interfaces/IAppDataAppleAppReviewsTasksReadyTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[IAppDataAppleAppReviewsTasksReadyTaskInfo](../interfaces/IAppDataAppleAppReviewsTasksReadyTaskInfo.md).[time](../interfaces/IAppDataAppleAppReviewsTasksReadyTaskInfo.md#time)
+[`IAppDataAppleAppReviewsTasksReadyTaskInfo`](../interfaces/IAppDataAppleAppReviewsTasksReadyTaskInfo.md).[`time`](../interfaces/IAppDataAppleAppReviewsTasksReadyTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:191553
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:191575
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppDataAppleAppReviewsTasksReadyTaskInfo`](AppDataAppleAppReviewsTasksReadyTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`AppDataAppleAppReviewsTasksReadyTaskInfo`](AppDataAppleAppReviewsTasksReadyTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:191568

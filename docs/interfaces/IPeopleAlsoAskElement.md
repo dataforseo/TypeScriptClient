@@ -1,81 +1,71 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IPeopleAlsoAskElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IPeopleAlsoAskElement
 
 # Interface: IPeopleAlsoAskElement
 
-## Implemented by
-
-- [`PeopleAlsoAskElement`](../classes/PeopleAlsoAskElement.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [expanded\_element](IPeopleAlsoAskElement.md#expanded_element)
-- [seed\_question](IPeopleAlsoAskElement.md#seed_question)
-- [title](IPeopleAlsoAskElement.md#title)
-- [type](IPeopleAlsoAskElement.md#type)
-- [xpath](IPeopleAlsoAskElement.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### expanded\_element
+### expanded\_element?
 
-• `Optional` **expanded\_element**: [`PeopleAlsoAskExpandedElement`](../classes/PeopleAlsoAskExpandedElement.md)[]
+> **`optional`** **expanded\_element**: [`PeopleAlsoAskExpandedElement`](../classes/PeopleAlsoAskExpandedElement.md)[]
 
 expanded element
 
-#### Defined in
+#### Source
 
 main.ts:29318
 
-___
+***
 
-### seed\_question
+### seed\_question?
 
-• `Optional` **seed\_question**: `string`
+> **`optional`** **seed\_question**: `string`
 
 question that triggered additional expanded elements
 
-#### Defined in
+#### Source
 
 main.ts:29314
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
-#### Defined in
+#### Source
 
 main.ts:29312
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
 main.ts:29310
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
 main.ts:29316

@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataGoogleAppSearchesTaskPostResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppDataGoogleAppSearchesTaskPostResponseInfo
 
 # Class: AppDataGoogleAppSearchesTaskPostResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`AppDataGoogleAppSearchesTaskPostResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppDataGoogleAppSearchesTaskPostResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](AppDataGoogleAppSearchesTaskPostResponseInfo.md#cost)
-- [status\_code](AppDataGoogleAppSearchesTaskPostResponseInfo.md#status_code)
-- [status\_message](AppDataGoogleAppSearchesTaskPostResponseInfo.md#status_message)
-- [tasks](AppDataGoogleAppSearchesTaskPostResponseInfo.md#tasks)
-- [tasks\_count](AppDataGoogleAppSearchesTaskPostResponseInfo.md#tasks_count)
-- [tasks\_error](AppDataGoogleAppSearchesTaskPostResponseInfo.md#tasks_error)
-- [time](AppDataGoogleAppSearchesTaskPostResponseInfo.md#time)
-- [version](AppDataGoogleAppSearchesTaskPostResponseInfo.md#version)
-
-### Methods
-
-- [init](AppDataGoogleAppSearchesTaskPostResponseInfo.md#init)
-- [toJSON](AppDataGoogleAppSearchesTaskPostResponseInfo.md#tojson)
-- [fromJS](AppDataGoogleAppSearchesTaskPostResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppDataGoogleAppSearchesTaskPostResponseInfo(data)
 
-• **new AppDataGoogleAppSearchesTaskPostResponseInfo**(`data?`): [`AppDataGoogleAppSearchesTaskPostResponseInfo`](AppDataGoogleAppSearchesTaskPostResponseInfo.md)
+> **new AppDataGoogleAppSearchesTaskPostResponseInfo**(`data`?): [`AppDataGoogleAppSearchesTaskPostResponseInfo`](AppDataGoogleAppSearchesTaskPostResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppDataGoogleAppSearchesTaskPostResponseInfo`](../interfaces/IAppDataGoogleAppSearchesTaskPostResponseInfo.md) |
+• **data?**: [`IAppDataGoogleAppSearchesTaskPostResponseInfo`](../interfaces/IAppDataGoogleAppSearchesTaskPostResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:183004
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IAppDataGoogleAppSearchesTaskPostResponseInfo](../interfaces/IAppDataGoogleAppSearchesTaskPostResponseInfo.md).[cost](../interfaces/IAppDataGoogleAppSearchesTaskPostResponseInfo.md#cost)
+[`IAppDataGoogleAppSearchesTaskPostResponseInfo`](../interfaces/IAppDataGoogleAppSearchesTaskPostResponseInfo.md).[`cost`](../interfaces/IAppDataGoogleAppSearchesTaskPostResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[IAppDataGoogleAppSearchesTaskPostResponseInfo](../interfaces/IAppDataGoogleAppSearchesTaskPostResponseInfo.md).[status_code](../interfaces/IAppDataGoogleAppSearchesTaskPostResponseInfo.md#status_code)
+[`IAppDataGoogleAppSearchesTaskPostResponseInfo`](../interfaces/IAppDataGoogleAppSearchesTaskPostResponseInfo.md).[`status_code`](../interfaces/IAppDataGoogleAppSearchesTaskPostResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IAppDataGoogleAppSearchesTaskPostResponseInfo](../interfaces/IAppDataGoogleAppSearchesTaskPostResponseInfo.md).[status_message](../interfaces/IAppDataGoogleAppSearchesTaskPostResponseInfo.md#status_message)
+[`IAppDataGoogleAppSearchesTaskPostResponseInfo`](../interfaces/IAppDataGoogleAppSearchesTaskPostResponseInfo.md).[`status_message`](../interfaces/IAppDataGoogleAppSearchesTaskPostResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`AppDataGoogleAppSearchesTaskPostTaskInfo`](AppDataGoogleAppSearchesTaskPostTaskInfo.md)[]
+> **`optional`** **tasks**: [`AppDataGoogleAppSearchesTaskPostTaskInfo`](AppDataGoogleAppSearchesTaskPostTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[IAppDataGoogleAppSearchesTaskPostResponseInfo](../interfaces/IAppDataGoogleAppSearchesTaskPostResponseInfo.md).[tasks](../interfaces/IAppDataGoogleAppSearchesTaskPostResponseInfo.md#tasks)
+[`IAppDataGoogleAppSearchesTaskPostResponseInfo`](../interfaces/IAppDataGoogleAppSearchesTaskPostResponseInfo.md).[`tasks`](../interfaces/IAppDataGoogleAppSearchesTaskPostResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
 main.ts:183000
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[IAppDataGoogleAppSearchesTaskPostResponseInfo](../interfaces/IAppDataGoogleAppSearchesTaskPostResponseInfo.md).[tasks_count](../interfaces/IAppDataGoogleAppSearchesTaskPostResponseInfo.md#tasks_count)
+[`IAppDataGoogleAppSearchesTaskPostResponseInfo`](../interfaces/IAppDataGoogleAppSearchesTaskPostResponseInfo.md).[`tasks_count`](../interfaces/IAppDataGoogleAppSearchesTaskPostResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[IAppDataGoogleAppSearchesTaskPostResponseInfo](../interfaces/IAppDataGoogleAppSearchesTaskPostResponseInfo.md).[tasks_error](../interfaces/IAppDataGoogleAppSearchesTaskPostResponseInfo.md#tasks_error)
+[`IAppDataGoogleAppSearchesTaskPostResponseInfo`](../interfaces/IAppDataGoogleAppSearchesTaskPostResponseInfo.md).[`tasks_error`](../interfaces/IAppDataGoogleAppSearchesTaskPostResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[IAppDataGoogleAppSearchesTaskPostResponseInfo](../interfaces/IAppDataGoogleAppSearchesTaskPostResponseInfo.md).[time](../interfaces/IAppDataGoogleAppSearchesTaskPostResponseInfo.md#time)
+[`IAppDataGoogleAppSearchesTaskPostResponseInfo`](../interfaces/IAppDataGoogleAppSearchesTaskPostResponseInfo.md).[`time`](../interfaces/IAppDataGoogleAppSearchesTaskPostResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[IAppDataGoogleAppSearchesTaskPostResponseInfo](../interfaces/IAppDataGoogleAppSearchesTaskPostResponseInfo.md).[version](../interfaces/IAppDataGoogleAppSearchesTaskPostResponseInfo.md#version)
+[`IAppDataGoogleAppSearchesTaskPostResponseInfo`](../interfaces/IAppDataGoogleAppSearchesTaskPostResponseInfo.md).[`version`](../interfaces/IAppDataGoogleAppSearchesTaskPostResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:183008
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:183030
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppDataGoogleAppSearchesTaskPostResponseInfo`](AppDataGoogleAppSearchesTaskPostResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`AppDataGoogleAppSearchesTaskPostResponseInfo`](AppDataGoogleAppSearchesTaskPostResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:183023

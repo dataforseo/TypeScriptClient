@@ -1,130 +1,115 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ITwitterDataforseoLabsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ITwitterDataforseoLabsSerpElementItem
 
 # Interface: ITwitterDataforseoLabsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md)
 
-  ↳ **`ITwitterDataforseoLabsSerpElementItem`**
-
-## Implemented by
-
-- [`TwitterDataforseoLabsSerpElementItem`](../classes/TwitterDataforseoLabsSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](ITwitterDataforseoLabsSerpElementItem.md#items)
-- [position](ITwitterDataforseoLabsSerpElementItem.md#position)
-- [rank\_absolute](ITwitterDataforseoLabsSerpElementItem.md#rank_absolute)
-- [rank\_group](ITwitterDataforseoLabsSerpElementItem.md#rank_group)
-- [se\_type](ITwitterDataforseoLabsSerpElementItem.md#se_type)
-- [title](ITwitterDataforseoLabsSerpElementItem.md#title)
-- [url](ITwitterDataforseoLabsSerpElementItem.md#url)
-- [xpath](ITwitterDataforseoLabsSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`TwitterElement`](../classes/TwitterElement.md)[]
+> **`optional`** **items**: [`TwitterElement`](../classes/TwitterElement.md)[]
 
 elements of search results found in SERP
 
-#### Defined in
+#### Source
 
-main.ts:93696
+main.ts:93704
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
-main.ts:93688
+main.ts:93696
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Defined in
+#### Source
 
-main.ts:93684
+main.ts:93692
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
-main.ts:93681
+main.ts:93689
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:93678
+main.ts:93686
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the result in SERP
 
-#### Defined in
+#### Source
 
-main.ts:93692
+main.ts:93700
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 relevant URL of the Ad element in SERP
 
-#### Defined in
+#### Source
 
-main.ts:93694
+main.ts:93702
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
-main.ts:93690
+main.ts:93698

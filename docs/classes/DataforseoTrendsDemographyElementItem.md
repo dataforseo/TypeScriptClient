@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoTrendsDemographyElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoTrendsDemographyElementItem
 
 # Class: DataforseoTrendsDemographyElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md)
-
-  ↳ **`DataforseoTrendsDemographyElementItem`**
 
 ## Implements
 
@@ -14,39 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoTrendsDemographyElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](DataforseoTrendsDemographyElementItem.md#_discriminator)
-- [demography](DataforseoTrendsDemographyElementItem.md#demography)
-- [demography\_comparison](DataforseoTrendsDemographyElementItem.md#demography_comparison)
-- [keywords](DataforseoTrendsDemographyElementItem.md#keywords)
-- [position](DataforseoTrendsDemographyElementItem.md#position)
-
-### Methods
-
-- [init](DataforseoTrendsDemographyElementItem.md#init)
-- [toJSON](DataforseoTrendsDemographyElementItem.md#tojson)
-- [fromJS](DataforseoTrendsDemographyElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoTrendsDemographyElementItem(data)
 
-• **new DataforseoTrendsDemographyElementItem**(`data?`): [`DataforseoTrendsDemographyElementItem`](DataforseoTrendsDemographyElementItem.md)
+> **new DataforseoTrendsDemographyElementItem**(`data`?): [`DataforseoTrendsDemographyElementItem`](DataforseoTrendsDemographyElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoTrendsDemographyElementItem`](../interfaces/IDataforseoTrendsDemographyElementItem.md) |
+• **data?**: [`IDataforseoTrendsDemographyElementItem`](../interfaces/IDataforseoTrendsDemographyElementItem.md)
 
 #### Returns
 
@@ -54,48 +34,48 @@
 
 #### Overrides
 
-[BaseDataforseoTrendsItem](BaseDataforseoTrendsItem.md).[constructor](BaseDataforseoTrendsItem.md#constructor)
+[`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`constructor`](BaseDataforseoTrendsItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:127001
+main.ts:127009
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseDataforseoTrendsItem](BaseDataforseoTrendsItem.md).[_discriminator](BaseDataforseoTrendsItem.md#_discriminator)
+[`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`_discriminator`](BaseDataforseoTrendsItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:20906
 
-___
+***
 
-### demography
+### demography?
 
-• `Optional` **demography**: [`Demography`](Demography.md)
+> **`optional`** **demography**: [`Demography`](Demography.md)
 
 demographic breakdown of keyword popularity data per each specified term
 conains keyword popularity data by age and gender
 
 #### Implementation of
 
-[IDataforseoTrendsDemographyElementItem](../interfaces/IDataforseoTrendsDemographyElementItem.md).[demography](../interfaces/IDataforseoTrendsDemographyElementItem.md#demography)
+[`IDataforseoTrendsDemographyElementItem`](../interfaces/IDataforseoTrendsDemographyElementItem.md).[`demography`](../interfaces/IDataforseoTrendsDemographyElementItem.md#demography)
 
-#### Defined in
+#### Source
 
-main.ts:126993
+main.ts:127001
 
-___
+***
 
-### demography\_comparison
+### demography\_comparison?
 
-• `Optional` **demography\_comparison**: `any`
+> **`optional`** **demography\_comparison**: `any`
 
 comparison of demographic data on keyword popularity for the specified parameters
 conains keyword popularity data by age and gender
@@ -103,57 +83,55 @@ if you specified a single keyword, the value will be null
 
 #### Implementation of
 
-[IDataforseoTrendsDemographyElementItem](../interfaces/IDataforseoTrendsDemographyElementItem.md).[demography_comparison](../interfaces/IDataforseoTrendsDemographyElementItem.md#demography_comparison)
+[`IDataforseoTrendsDemographyElementItem`](../interfaces/IDataforseoTrendsDemographyElementItem.md).[`demography_comparison`](../interfaces/IDataforseoTrendsDemographyElementItem.md#demography_comparison)
 
-#### Defined in
+#### Source
 
-main.ts:126997
+main.ts:127005
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 relevant keywords
 the data included in the interests and interests_comparison is based on the keywords listed in this array
 
 #### Implementation of
 
-[IDataforseoTrendsDemographyElementItem](../interfaces/IDataforseoTrendsDemographyElementItem.md).[keywords](../interfaces/IDataforseoTrendsDemographyElementItem.md#keywords)
+[`IDataforseoTrendsDemographyElementItem`](../interfaces/IDataforseoTrendsDemographyElementItem.md).[`keywords`](../interfaces/IDataforseoTrendsDemographyElementItem.md#keywords)
 
-#### Defined in
+#### Source
 
-main.ts:126990
+main.ts:126998
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `number`
+> **`optional`** **position**: `number`
 
 the alignment of the element
 can take the following values: 1, 2, 3, 4, etc.
 
 #### Implementation of
 
-[IDataforseoTrendsDemographyElementItem](../interfaces/IDataforseoTrendsDemographyElementItem.md).[position](../interfaces/IDataforseoTrendsDemographyElementItem.md#position)
+[`IDataforseoTrendsDemographyElementItem`](../interfaces/IDataforseoTrendsDemographyElementItem.md).[`position`](../interfaces/IDataforseoTrendsDemographyElementItem.md#position)
 
-#### Defined in
+#### Source
 
-main.ts:126987
+main.ts:126995
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -161,23 +139,21 @@ main.ts:126987
 
 #### Overrides
 
-[BaseDataforseoTrendsItem](BaseDataforseoTrendsItem.md).[init](BaseDataforseoTrendsItem.md#init)
+[`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`init`](BaseDataforseoTrendsItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:127006
+main.ts:127014
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -185,23 +161,21 @@ ___
 
 #### Overrides
 
-[BaseDataforseoTrendsItem](BaseDataforseoTrendsItem.md).[toJSON](BaseDataforseoTrendsItem.md#tojson)
+[`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`toJSON`](BaseDataforseoTrendsItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:127031
+main.ts:127039
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoTrendsDemographyElementItem`](DataforseoTrendsDemographyElementItem.md)
+> **`static`** **fromJS**(`data`): [`DataforseoTrendsDemographyElementItem`](DataforseoTrendsDemographyElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -209,8 +183,8 @@ ___
 
 #### Overrides
 
-[BaseDataforseoTrendsItem](BaseDataforseoTrendsItem.md).[fromJS](BaseDataforseoTrendsItem.md#fromjs)
+[`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`fromJS`](BaseDataforseoTrendsItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:127024
+main.ts:127032

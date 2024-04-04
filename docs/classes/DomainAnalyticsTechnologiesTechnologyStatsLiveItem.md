@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesTechnologyStatsLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DomainAnalyticsTechnologiesTechnologyStatsLiveItem
 
 # Class: DomainAnalyticsTechnologiesTechnologyStatsLiveItem
 
@@ -10,107 +14,84 @@ items array
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DomainAnalyticsTechnologiesTechnologyStatsLiveItem.md#constructor)
-
-### Properties
-
-- [countries](DomainAnalyticsTechnologiesTechnologyStatsLiveItem.md#countries)
-- [date](DomainAnalyticsTechnologiesTechnologyStatsLiveItem.md#date)
-- [domains\_count](DomainAnalyticsTechnologiesTechnologyStatsLiveItem.md#domains_count)
-- [domains\_rank](DomainAnalyticsTechnologiesTechnologyStatsLiveItem.md#domains_rank)
-- [languages](DomainAnalyticsTechnologiesTechnologyStatsLiveItem.md#languages)
-- [type](DomainAnalyticsTechnologiesTechnologyStatsLiveItem.md#type)
-
-### Methods
-
-- [init](DomainAnalyticsTechnologiesTechnologyStatsLiveItem.md#init)
-- [toJSON](DomainAnalyticsTechnologiesTechnologyStatsLiveItem.md#tojson)
-- [fromJS](DomainAnalyticsTechnologiesTechnologyStatsLiveItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DomainAnalyticsTechnologiesTechnologyStatsLiveItem(data)
 
-• **new DomainAnalyticsTechnologiesTechnologyStatsLiveItem**(`data?`): [`DomainAnalyticsTechnologiesTechnologyStatsLiveItem`](DomainAnalyticsTechnologiesTechnologyStatsLiveItem.md)
+> **new DomainAnalyticsTechnologiesTechnologyStatsLiveItem**(`data`?): [`DomainAnalyticsTechnologiesTechnologyStatsLiveItem`](DomainAnalyticsTechnologiesTechnologyStatsLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDomainAnalyticsTechnologiesTechnologyStatsLiveItem`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md) |
+• **data?**: [`IDomainAnalyticsTechnologiesTechnologyStatsLiveItem`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md)
 
 #### Returns
 
 [`DomainAnalyticsTechnologiesTechnologyStatsLiveItem`](DomainAnalyticsTechnologiesTechnologyStatsLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:75994
+main.ts:76002
 
 ## Properties
 
-### countries
+### countries?
 
-• `Optional` **countries**: `Object`
+> **`optional`** **countries**: `Object`
 
 distribution of websites by country
 contains country codes and number of websites per country
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesTechnologyStatsLiveItem](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md).[countries](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md#countries)
+[`IDomainAnalyticsTechnologiesTechnologyStatsLiveItem`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md).[`countries`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md#countries)
 
-#### Defined in
+#### Source
 
-main.ts:75983
+main.ts:75991
 
-___
+***
 
-### date
+### date?
 
-• `Optional` **date**: `string`
+> **`optional`** **date**: `string`
 
 date for which the data is provided
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesTechnologyStatsLiveItem](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md).[date](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md#date)
+[`IDomainAnalyticsTechnologiesTechnologyStatsLiveItem`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md).[`date`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md#date)
 
-#### Defined in
+#### Source
 
-main.ts:75978
+main.ts:75986
 
-___
+***
 
-### domains\_count
+### domains\_count?
 
-• `Optional` **domains\_count**: `number`
+> **`optional`** **domains\_count**: `number`
 
 number of domains that use the specified technology
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesTechnologyStatsLiveItem](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md).[domains_count](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md#domains_count)
+[`IDomainAnalyticsTechnologiesTechnologyStatsLiveItem`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md).[`domains_count`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md#domains_count)
 
-#### Defined in
+#### Source
 
-main.ts:75980
+main.ts:75988
 
-___
+***
 
-### domains\_rank
+### domains\_rank?
 
-• `Optional` **domains\_rank**: `Object`
+> **`optional`** **domains\_rank**: `Object`
 
 distribution of websites by backlink rank
 contains domain rank ranges and number of websites per range
@@ -118,109 +99,103 @@ learn more about rank and how it is calculated in this help center article
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesTechnologyStatsLiveItem](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md).[domains_rank](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md#domains_rank)
+[`IDomainAnalyticsTechnologiesTechnologyStatsLiveItem`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md).[`domains_rank`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md#domains_rank)
 
-#### Defined in
+#### Source
 
-main.ts:75990
+main.ts:75998
 
-___
+***
 
-### languages
+### languages?
 
-• `Optional` **languages**: `Object`
+> **`optional`** **languages**: `Object`
 
 distribution of websites by language
 contains language codes and number of websites per language
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesTechnologyStatsLiveItem](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md).[languages](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md#languages)
+[`IDomainAnalyticsTechnologiesTechnologyStatsLiveItem`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md).[`languages`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md#languages)
 
-#### Defined in
+#### Source
 
-main.ts:75986
+main.ts:75994
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesTechnologyStatsLiveItem](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md).[type](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md#type)
+[`IDomainAnalyticsTechnologiesTechnologyStatsLiveItem`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md).[`type`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:75976
+main.ts:75984
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:76003
+main.ts:76011
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:76043
+main.ts:76051
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologyStatsLiveItem`](DomainAnalyticsTechnologiesTechnologyStatsLiveItem.md)
+> **`static`** **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologyStatsLiveItem`](DomainAnalyticsTechnologiesTechnologyStatsLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DomainAnalyticsTechnologiesTechnologyStatsLiveItem`](DomainAnalyticsTechnologiesTechnologyStatsLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:76036
+main.ts:76044

@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleDatasetSearchLiveAdvancedTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleDatasetSearchLiveAdvancedTaskInfo
 
 # Class: SerpGoogleDatasetSearchLiveAdvancedTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`SerpGoogleDatasetSearchLiveAdvancedTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleDatasetSearchLiveAdvancedTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](SerpGoogleDatasetSearchLiveAdvancedTaskInfo.md#cost)
-- [data](SerpGoogleDatasetSearchLiveAdvancedTaskInfo.md#data)
-- [id](SerpGoogleDatasetSearchLiveAdvancedTaskInfo.md#id)
-- [path](SerpGoogleDatasetSearchLiveAdvancedTaskInfo.md#path)
-- [result](SerpGoogleDatasetSearchLiveAdvancedTaskInfo.md#result)
-- [result\_count](SerpGoogleDatasetSearchLiveAdvancedTaskInfo.md#result_count)
-- [status\_code](SerpGoogleDatasetSearchLiveAdvancedTaskInfo.md#status_code)
-- [status\_message](SerpGoogleDatasetSearchLiveAdvancedTaskInfo.md#status_message)
-- [time](SerpGoogleDatasetSearchLiveAdvancedTaskInfo.md#time)
-
-### Methods
-
-- [init](SerpGoogleDatasetSearchLiveAdvancedTaskInfo.md#init)
-- [toJSON](SerpGoogleDatasetSearchLiveAdvancedTaskInfo.md#tojson)
-- [fromJS](SerpGoogleDatasetSearchLiveAdvancedTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleDatasetSearchLiveAdvancedTaskInfo(data)
 
-• **new SerpGoogleDatasetSearchLiveAdvancedTaskInfo**(`data?`): [`SerpGoogleDatasetSearchLiveAdvancedTaskInfo`](SerpGoogleDatasetSearchLiveAdvancedTaskInfo.md)
+> **new SerpGoogleDatasetSearchLiveAdvancedTaskInfo**(`data`?): [`SerpGoogleDatasetSearchLiveAdvancedTaskInfo`](SerpGoogleDatasetSearchLiveAdvancedTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleDatasetSearchLiveAdvancedTaskInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedTaskInfo.md) |
+• **data?**: [`ISerpGoogleDatasetSearchLiveAdvancedTaskInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:54051
+main.ts:54059
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[ISerpGoogleDatasetSearchLiveAdvancedTaskInfo](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedTaskInfo.md).[cost](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedTaskInfo.md#cost)
+[`ISerpGoogleDatasetSearchLiveAdvancedTaskInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedTaskInfo.md).[`cost`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[ISerpGoogleDatasetSearchLiveAdvancedTaskInfo](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedTaskInfo.md).[data](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedTaskInfo.md#data)
+[`ISerpGoogleDatasetSearchLiveAdvancedTaskInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedTaskInfo.md).[`data`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[ISerpGoogleDatasetSearchLiveAdvancedTaskInfo](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedTaskInfo.md).[id](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedTaskInfo.md#id)
+[`ISerpGoogleDatasetSearchLiveAdvancedTaskInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedTaskInfo.md).[`id`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[ISerpGoogleDatasetSearchLiveAdvancedTaskInfo](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedTaskInfo.md).[path](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedTaskInfo.md#path)
+[`ISerpGoogleDatasetSearchLiveAdvancedTaskInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedTaskInfo.md).[`path`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`SerpGoogleDatasetSearchLiveAdvancedResultInfo`](SerpGoogleDatasetSearchLiveAdvancedResultInfo.md)[]
+> **`optional`** **result**: [`SerpGoogleDatasetSearchLiveAdvancedResultInfo`](SerpGoogleDatasetSearchLiveAdvancedResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[ISerpGoogleDatasetSearchLiveAdvancedTaskInfo](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedTaskInfo.md).[result](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedTaskInfo.md#result)
+[`ISerpGoogleDatasetSearchLiveAdvancedTaskInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedTaskInfo.md).[`result`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:54047
+main.ts:54055
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[ISerpGoogleDatasetSearchLiveAdvancedTaskInfo](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedTaskInfo.md).[result_count](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedTaskInfo.md#result_count)
+[`ISerpGoogleDatasetSearchLiveAdvancedTaskInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedTaskInfo.md).[`result_count`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[ISerpGoogleDatasetSearchLiveAdvancedTaskInfo](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedTaskInfo.md).[status_code](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedTaskInfo.md#status_code)
+[`ISerpGoogleDatasetSearchLiveAdvancedTaskInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedTaskInfo.md).[`status_code`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[ISerpGoogleDatasetSearchLiveAdvancedTaskInfo](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedTaskInfo.md).[status_message](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedTaskInfo.md#status_message)
+[`ISerpGoogleDatasetSearchLiveAdvancedTaskInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedTaskInfo.md).[`status_message`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[ISerpGoogleDatasetSearchLiveAdvancedTaskInfo](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedTaskInfo.md).[time](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedTaskInfo.md#time)
+[`ISerpGoogleDatasetSearchLiveAdvancedTaskInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedTaskInfo.md).[`time`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:54055
+main.ts:54063
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:54077
+main.ts:54085
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleDatasetSearchLiveAdvancedTaskInfo`](SerpGoogleDatasetSearchLiveAdvancedTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleDatasetSearchLiveAdvancedTaskInfo`](SerpGoogleDatasetSearchLiveAdvancedTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:54070
+main.ts:54078

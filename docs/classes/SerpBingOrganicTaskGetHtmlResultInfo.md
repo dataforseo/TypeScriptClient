@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpBingOrganicTaskGetHtmlResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpBingOrganicTaskGetHtmlResultInfo
 
 # Class: SerpBingOrganicTaskGetHtmlResultInfo
 
@@ -8,56 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpBingOrganicTaskGetHtmlResultInfo.md#constructor)
-
-### Properties
-
-- [datetime](SerpBingOrganicTaskGetHtmlResultInfo.md#datetime)
-- [items](SerpBingOrganicTaskGetHtmlResultInfo.md#items)
-- [items\_count](SerpBingOrganicTaskGetHtmlResultInfo.md#items_count)
-- [keyword](SerpBingOrganicTaskGetHtmlResultInfo.md#keyword)
-- [language\_code](SerpBingOrganicTaskGetHtmlResultInfo.md#language_code)
-- [location\_code](SerpBingOrganicTaskGetHtmlResultInfo.md#location_code)
-- [se\_domain](SerpBingOrganicTaskGetHtmlResultInfo.md#se_domain)
-- [type](SerpBingOrganicTaskGetHtmlResultInfo.md#type)
-
-### Methods
-
-- [init](SerpBingOrganicTaskGetHtmlResultInfo.md#init)
-- [toJSON](SerpBingOrganicTaskGetHtmlResultInfo.md#tojson)
-- [fromJS](SerpBingOrganicTaskGetHtmlResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpBingOrganicTaskGetHtmlResultInfo(data)
 
-• **new SerpBingOrganicTaskGetHtmlResultInfo**(`data?`): [`SerpBingOrganicTaskGetHtmlResultInfo`](SerpBingOrganicTaskGetHtmlResultInfo.md)
+> **new SerpBingOrganicTaskGetHtmlResultInfo**(`data`?): [`SerpBingOrganicTaskGetHtmlResultInfo`](SerpBingOrganicTaskGetHtmlResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpBingOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpBingOrganicTaskGetHtmlResultInfo.md) |
+• **data?**: [`ISerpBingOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpBingOrganicTaskGetHtmlResultInfo.md)
 
 #### Returns
 
 [`SerpBingOrganicTaskGetHtmlResultInfo`](SerpBingOrganicTaskGetHtmlResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:57129
+main.ts:57137
 
 ## Properties
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -66,181 +45,175 @@ example:
 
 #### Implementation of
 
-[ISerpBingOrganicTaskGetHtmlResultInfo](../interfaces/ISerpBingOrganicTaskGetHtmlResultInfo.md).[datetime](../interfaces/ISerpBingOrganicTaskGetHtmlResultInfo.md#datetime)
+[`ISerpBingOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpBingOrganicTaskGetHtmlResultInfo.md).[`datetime`](../interfaces/ISerpBingOrganicTaskGetHtmlResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
-main.ts:57121
+main.ts:57129
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`HtmlItem`](HtmlItem.md)[]
+> **`optional`** **items**: [`HtmlItem`](HtmlItem.md)[]
 
 elements of search results found in SERP
 
 #### Implementation of
 
-[ISerpBingOrganicTaskGetHtmlResultInfo](../interfaces/ISerpBingOrganicTaskGetHtmlResultInfo.md).[items](../interfaces/ISerpBingOrganicTaskGetHtmlResultInfo.md#items)
+[`ISerpBingOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpBingOrganicTaskGetHtmlResultInfo.md).[`items`](../interfaces/ISerpBingOrganicTaskGetHtmlResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:57125
+main.ts:57133
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[ISerpBingOrganicTaskGetHtmlResultInfo](../interfaces/ISerpBingOrganicTaskGetHtmlResultInfo.md).[items_count](../interfaces/ISerpBingOrganicTaskGetHtmlResultInfo.md#items_count)
+[`ISerpBingOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpBingOrganicTaskGetHtmlResultInfo.md).[`items_count`](../interfaces/ISerpBingOrganicTaskGetHtmlResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:57123
+main.ts:57131
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
-[ISerpBingOrganicTaskGetHtmlResultInfo](../interfaces/ISerpBingOrganicTaskGetHtmlResultInfo.md).[keyword](../interfaces/ISerpBingOrganicTaskGetHtmlResultInfo.md#keyword)
+[`ISerpBingOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpBingOrganicTaskGetHtmlResultInfo.md).[`keyword`](../interfaces/ISerpBingOrganicTaskGetHtmlResultInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:57108
+main.ts:57116
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[ISerpBingOrganicTaskGetHtmlResultInfo](../interfaces/ISerpBingOrganicTaskGetHtmlResultInfo.md).[language_code](../interfaces/ISerpBingOrganicTaskGetHtmlResultInfo.md#language_code)
+[`ISerpBingOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpBingOrganicTaskGetHtmlResultInfo.md).[`language_code`](../interfaces/ISerpBingOrganicTaskGetHtmlResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:57116
+main.ts:57124
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[ISerpBingOrganicTaskGetHtmlResultInfo](../interfaces/ISerpBingOrganicTaskGetHtmlResultInfo.md).[location_code](../interfaces/ISerpBingOrganicTaskGetHtmlResultInfo.md#location_code)
+[`ISerpBingOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpBingOrganicTaskGetHtmlResultInfo.md).[`location_code`](../interfaces/ISerpBingOrganicTaskGetHtmlResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:57114
+main.ts:57122
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
 #### Implementation of
 
-[ISerpBingOrganicTaskGetHtmlResultInfo](../interfaces/ISerpBingOrganicTaskGetHtmlResultInfo.md).[se_domain](../interfaces/ISerpBingOrganicTaskGetHtmlResultInfo.md#se_domain)
+[`ISerpBingOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpBingOrganicTaskGetHtmlResultInfo.md).[`se_domain`](../interfaces/ISerpBingOrganicTaskGetHtmlResultInfo.md#se_domain)
 
-#### Defined in
+#### Source
 
-main.ts:57112
+main.ts:57120
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[ISerpBingOrganicTaskGetHtmlResultInfo](../interfaces/ISerpBingOrganicTaskGetHtmlResultInfo.md).[type](../interfaces/ISerpBingOrganicTaskGetHtmlResultInfo.md#type)
+[`ISerpBingOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpBingOrganicTaskGetHtmlResultInfo.md).[`type`](../interfaces/ISerpBingOrganicTaskGetHtmlResultInfo.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:57110
+main.ts:57118
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:57138
+main.ts:57146
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:57166
+main.ts:57174
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpBingOrganicTaskGetHtmlResultInfo`](SerpBingOrganicTaskGetHtmlResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpBingOrganicTaskGetHtmlResultInfo`](SerpBingOrganicTaskGetHtmlResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpBingOrganicTaskGetHtmlResultInfo`](SerpBingOrganicTaskGetHtmlResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:57159
+main.ts:57167

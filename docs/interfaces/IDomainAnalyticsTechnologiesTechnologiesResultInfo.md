@@ -1,29 +1,23 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesTechnologiesResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDomainAnalyticsTechnologiesTechnologiesResultInfo
 
 # Interface: IDomainAnalyticsTechnologiesTechnologiesResultInfo
 
-## Implemented by
-
-- [`DomainAnalyticsTechnologiesTechnologiesResultInfo`](../classes/DomainAnalyticsTechnologiesTechnologiesResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [groups](IDomainAnalyticsTechnologiesTechnologiesResultInfo.md#groups)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### groups
+### groups?
 
-• `Optional` **groups**: [`Groups`](../classes/Groups.md)[]
+> **`optional`** **groups**: [`Groups`](../classes/Groups.md)[]
 
 array of technology groups
 
-#### Defined in
+#### Source
 
-main.ts:74690
+main.ts:74698

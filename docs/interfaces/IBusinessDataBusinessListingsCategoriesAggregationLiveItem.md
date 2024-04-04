@@ -1,56 +1,48 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataBusinessListingsCategoriesAggregationLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBusinessDataBusinessListingsCategoriesAggregationLiveItem
 
 # Interface: IBusinessDataBusinessListingsCategoriesAggregationLiveItem
 
-## Implemented by
-
-- [`BusinessDataBusinessListingsCategoriesAggregationLiveItem`](../classes/BusinessDataBusinessListingsCategoriesAggregationLiveItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [aggregation](IBusinessDataBusinessListingsCategoriesAggregationLiveItem.md#aggregation)
-- [categories](IBusinessDataBusinessListingsCategoriesAggregationLiveItem.md#categories)
-- [type](IBusinessDataBusinessListingsCategoriesAggregationLiveItem.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### aggregation
+### aggregation?
 
-• `Optional` **aggregation**: [`BusinessListingAggregationInfo`](../classes/BusinessListingAggregationInfo.md)
+> **`optional`** **aggregation**: [`BusinessListingAggregationInfo`](../classes/BusinessListingAggregationInfo.md)
 
 aggregation of the category
 
-#### Defined in
+#### Source
 
 main.ts:195414
 
-___
+***
 
-### categories
+### categories?
 
-• `Optional` **categories**: `string`[]
+> **`optional`** **categories**: `string`[]
 
 business categories
 Google My Business general category that best describes the cluster of related categories
 
-#### Defined in
+#### Source
 
 main.ts:195412
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
 main.ts:195409

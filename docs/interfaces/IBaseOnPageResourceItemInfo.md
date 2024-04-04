@@ -1,25 +1,19 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBaseOnPageResourceItemInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBaseOnPageResourceItemInfo
 
 # Interface: IBaseOnPageResourceItemInfo
 
-## Hierarchy
+## Extended by
 
-- **`IBaseOnPageResourceItemInfo`**
-
-  ↳ [`IHtmlResourceElementItem`](IHtmlResourceElementItem.md)
-
-  ↳ [`IStylesheetResourceElementItem`](IStylesheetResourceElementItem.md)
-
-  ↳ [`IScriptResourceElementItem`](IScriptResourceElementItem.md)
-
-  ↳ [`IImageResourceElementItem`](IImageResourceElementItem.md)
-
-  ↳ [`IBrokenResourceElementItem`](IBrokenResourceElementItem.md)
-
-## Implemented by
-
-- [`BaseOnPageResourceItemInfo`](../classes/BaseOnPageResourceItemInfo.md)
+- [`IHtmlResourceElementItem`](IHtmlResourceElementItem.md)
+- [`IScriptResourceElementItem`](IScriptResourceElementItem.md)
+- [`IStylesheetResourceElementItem`](IStylesheetResourceElementItem.md)
+- [`IImageResourceElementItem`](IImageResourceElementItem.md)
+- [`IBrokenResourceElementItem`](IBrokenResourceElementItem.md)
 
 ## Indexable
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`

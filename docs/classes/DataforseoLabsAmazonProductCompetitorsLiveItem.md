@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonProductCompetitorsLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsAmazonProductCompetitorsLiveItem
 
 # Class: DataforseoLabsAmazonProductCompetitorsLiveItem
 
@@ -8,55 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsAmazonProductCompetitorsLiveItem.md#constructor)
-
-### Properties
-
-- [asin](DataforseoLabsAmazonProductCompetitorsLiveItem.md#asin)
-- [avg\_position](DataforseoLabsAmazonProductCompetitorsLiveItem.md#avg_position)
-- [competitor\_metrics](DataforseoLabsAmazonProductCompetitorsLiveItem.md#competitor_metrics)
-- [full\_metrics](DataforseoLabsAmazonProductCompetitorsLiveItem.md#full_metrics)
-- [intersections](DataforseoLabsAmazonProductCompetitorsLiveItem.md#intersections)
-- [se\_type](DataforseoLabsAmazonProductCompetitorsLiveItem.md#se_type)
-- [sum\_position](DataforseoLabsAmazonProductCompetitorsLiveItem.md#sum_position)
-
-### Methods
-
-- [init](DataforseoLabsAmazonProductCompetitorsLiveItem.md#init)
-- [toJSON](DataforseoLabsAmazonProductCompetitorsLiveItem.md#tojson)
-- [fromJS](DataforseoLabsAmazonProductCompetitorsLiveItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsAmazonProductCompetitorsLiveItem(data)
 
-• **new DataforseoLabsAmazonProductCompetitorsLiveItem**(`data?`): [`DataforseoLabsAmazonProductCompetitorsLiveItem`](DataforseoLabsAmazonProductCompetitorsLiveItem.md)
+> **new DataforseoLabsAmazonProductCompetitorsLiveItem**(`data`?): [`DataforseoLabsAmazonProductCompetitorsLiveItem`](DataforseoLabsAmazonProductCompetitorsLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsAmazonProductCompetitorsLiveItem`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveItem.md) |
+• **data?**: [`IDataforseoLabsAmazonProductCompetitorsLiveItem`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveItem.md)
 
 #### Returns
 
 [`DataforseoLabsAmazonProductCompetitorsLiveItem`](DataforseoLabsAmazonProductCompetitorsLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:103612
+main.ts:103620
 
 ## Properties
 
-### asin
+### asin?
 
-• `Optional` **asin**: `string`
+> **`optional`** **asin**: `string`
 
 ASIN of the product
 unique product identifier on Amazon;
@@ -64,17 +44,17 @@ for more information, refer to this help center guide
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductCompetitorsLiveItem](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveItem.md).[asin](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveItem.md#asin)
+[`IDataforseoLabsAmazonProductCompetitorsLiveItem`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveItem.md).[`asin`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveItem.md#asin)
 
-#### Defined in
+#### Source
 
-main.ts:103591
+main.ts:103599
 
-___
+***
 
-### avg\_position
+### avg\_position?
 
-• `Optional` **avg\_position**: `number`
+> **`optional`** **avg\_position**: `number`
 
 average position of the product in Amazon SERP
 Note: average position is calculated for intersected keywords only;
@@ -82,17 +62,17 @@ the value for a given product may differ when combined with different target pro
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductCompetitorsLiveItem](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveItem.md).[avg_position](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveItem.md#avg_position)
+[`IDataforseoLabsAmazonProductCompetitorsLiveItem`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveItem.md).[`avg_position`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveItem.md#avg_position)
 
-#### Defined in
+#### Source
 
-main.ts:103595
+main.ts:103603
 
-___
+***
 
-### competitor\_metrics
+### competitor\_metrics?
 
-• `Optional` **competitor\_metrics**: [`AmazonMetricsBundleInfo`](AmazonMetricsBundleInfo.md)
+> **`optional`** **competitor\_metrics**: [`AmazonMetricsBundleInfo`](AmazonMetricsBundleInfo.md)
 
 metrics for intersecting keywords
 ranking data relevant to the keywords that the provided asin shares with the target asin;
@@ -100,66 +80,66 @@ Note: in this object ranking data is provided for the returned competitor’s as
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductCompetitorsLiveItem](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveItem.md).[competitor_metrics](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveItem.md#competitor_metrics)
+[`IDataforseoLabsAmazonProductCompetitorsLiveItem`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveItem.md).[`competitor_metrics`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveItem.md#competitor_metrics)
 
-#### Defined in
+#### Source
 
-main.ts:103605
+main.ts:103613
 
-___
+***
 
-### full\_metrics
+### full\_metrics?
 
-• `Optional` **full\_metrics**: [`AmazonMetricsBundleInfo`](AmazonMetricsBundleInfo.md)
+> **`optional`** **full\_metrics**: [`AmazonMetricsBundleInfo`](AmazonMetricsBundleInfo.md)
 
 metrics for all keywords of the product
 full overview of ranking data relevant to all keywords that the provided asin is ranking for
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductCompetitorsLiveItem](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveItem.md).[full_metrics](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveItem.md#full_metrics)
+[`IDataforseoLabsAmazonProductCompetitorsLiveItem`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveItem.md).[`full_metrics`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveItem.md#full_metrics)
 
-#### Defined in
+#### Source
 
-main.ts:103608
+main.ts:103616
 
-___
+***
 
-### intersections
+### intersections?
 
-• `Optional` **intersections**: `number`
+> **`optional`** **intersections**: `number`
 
 number of intersecting keywords
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductCompetitorsLiveItem](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveItem.md).[intersections](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveItem.md#intersections)
+[`IDataforseoLabsAmazonProductCompetitorsLiveItem`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveItem.md).[`intersections`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveItem.md#intersections)
 
-#### Defined in
+#### Source
 
-main.ts:103601
+main.ts:103609
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductCompetitorsLiveItem](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveItem.md).[se_type](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveItem.md#se_type)
+[`IDataforseoLabsAmazonProductCompetitorsLiveItem`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveItem.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:103587
+main.ts:103595
 
-___
+***
 
-### sum\_position
+### sum\_position?
 
-• `Optional` **sum\_position**: `number`
+> **`optional`** **sum\_position**: `number`
 
 sum of all product positions in Amazon SERP
 Note: average position is calculated for intersected keywords only;
@@ -167,68 +147,62 @@ the value for a given product may differ when combined with different target pro
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductCompetitorsLiveItem](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveItem.md).[sum_position](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveItem.md#sum_position)
+[`IDataforseoLabsAmazonProductCompetitorsLiveItem`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveItem.md).[`sum_position`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveItem.md#sum_position)
 
-#### Defined in
+#### Source
 
-main.ts:103599
+main.ts:103607
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:103621
+main.ts:103629
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:103644
+main.ts:103652
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsAmazonProductCompetitorsLiveItem`](DataforseoLabsAmazonProductCompetitorsLiveItem.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsAmazonProductCompetitorsLiveItem`](DataforseoLabsAmazonProductCompetitorsLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsAmazonProductCompetitorsLiveItem`](DataforseoLabsAmazonProductCompetitorsLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:103637
+main.ts:103645

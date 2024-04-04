@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentAnalysisSummaryLiveTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ContentAnalysisSummaryLiveTaskInfo
 
 # Class: ContentAnalysisSummaryLiveTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`ContentAnalysisSummaryLiveTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ContentAnalysisSummaryLiveTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](ContentAnalysisSummaryLiveTaskInfo.md#cost)
-- [data](ContentAnalysisSummaryLiveTaskInfo.md#data)
-- [id](ContentAnalysisSummaryLiveTaskInfo.md#id)
-- [path](ContentAnalysisSummaryLiveTaskInfo.md#path)
-- [result](ContentAnalysisSummaryLiveTaskInfo.md#result)
-- [result\_count](ContentAnalysisSummaryLiveTaskInfo.md#result_count)
-- [status\_code](ContentAnalysisSummaryLiveTaskInfo.md#status_code)
-- [status\_message](ContentAnalysisSummaryLiveTaskInfo.md#status_message)
-- [time](ContentAnalysisSummaryLiveTaskInfo.md#time)
-
-### Methods
-
-- [init](ContentAnalysisSummaryLiveTaskInfo.md#init)
-- [toJSON](ContentAnalysisSummaryLiveTaskInfo.md#tojson)
-- [fromJS](ContentAnalysisSummaryLiveTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ContentAnalysisSummaryLiveTaskInfo(data)
 
-• **new ContentAnalysisSummaryLiveTaskInfo**(`data?`): [`ContentAnalysisSummaryLiveTaskInfo`](ContentAnalysisSummaryLiveTaskInfo.md)
+> **new ContentAnalysisSummaryLiveTaskInfo**(`data`?): [`ContentAnalysisSummaryLiveTaskInfo`](ContentAnalysisSummaryLiveTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IContentAnalysisSummaryLiveTaskInfo`](../interfaces/IContentAnalysisSummaryLiveTaskInfo.md) |
+• **data?**: [`IContentAnalysisSummaryLiveTaskInfo`](../interfaces/IContentAnalysisSummaryLiveTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:162932
+main.ts:162940
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IContentAnalysisSummaryLiveTaskInfo](../interfaces/IContentAnalysisSummaryLiveTaskInfo.md).[cost](../interfaces/IContentAnalysisSummaryLiveTaskInfo.md#cost)
+[`IContentAnalysisSummaryLiveTaskInfo`](../interfaces/IContentAnalysisSummaryLiveTaskInfo.md).[`cost`](../interfaces/IContentAnalysisSummaryLiveTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[IContentAnalysisSummaryLiveTaskInfo](../interfaces/IContentAnalysisSummaryLiveTaskInfo.md).[data](../interfaces/IContentAnalysisSummaryLiveTaskInfo.md#data)
+[`IContentAnalysisSummaryLiveTaskInfo`](../interfaces/IContentAnalysisSummaryLiveTaskInfo.md).[`data`](../interfaces/IContentAnalysisSummaryLiveTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IContentAnalysisSummaryLiveTaskInfo](../interfaces/IContentAnalysisSummaryLiveTaskInfo.md).[id](../interfaces/IContentAnalysisSummaryLiveTaskInfo.md#id)
+[`IContentAnalysisSummaryLiveTaskInfo`](../interfaces/IContentAnalysisSummaryLiveTaskInfo.md).[`id`](../interfaces/IContentAnalysisSummaryLiveTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[IContentAnalysisSummaryLiveTaskInfo](../interfaces/IContentAnalysisSummaryLiveTaskInfo.md).[path](../interfaces/IContentAnalysisSummaryLiveTaskInfo.md#path)
+[`IContentAnalysisSummaryLiveTaskInfo`](../interfaces/IContentAnalysisSummaryLiveTaskInfo.md).[`path`](../interfaces/IContentAnalysisSummaryLiveTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)[]
+> **`optional`** **result**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[IContentAnalysisSummaryLiveTaskInfo](../interfaces/IContentAnalysisSummaryLiveTaskInfo.md).[result](../interfaces/IContentAnalysisSummaryLiveTaskInfo.md#result)
+[`IContentAnalysisSummaryLiveTaskInfo`](../interfaces/IContentAnalysisSummaryLiveTaskInfo.md).[`result`](../interfaces/IContentAnalysisSummaryLiveTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:162928
+main.ts:162936
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[IContentAnalysisSummaryLiveTaskInfo](../interfaces/IContentAnalysisSummaryLiveTaskInfo.md).[result_count](../interfaces/IContentAnalysisSummaryLiveTaskInfo.md#result_count)
+[`IContentAnalysisSummaryLiveTaskInfo`](../interfaces/IContentAnalysisSummaryLiveTaskInfo.md).[`result_count`](../interfaces/IContentAnalysisSummaryLiveTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[IContentAnalysisSummaryLiveTaskInfo](../interfaces/IContentAnalysisSummaryLiveTaskInfo.md).[status_code](../interfaces/IContentAnalysisSummaryLiveTaskInfo.md#status_code)
+[`IContentAnalysisSummaryLiveTaskInfo`](../interfaces/IContentAnalysisSummaryLiveTaskInfo.md).[`status_code`](../interfaces/IContentAnalysisSummaryLiveTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IContentAnalysisSummaryLiveTaskInfo](../interfaces/IContentAnalysisSummaryLiveTaskInfo.md).[status_message](../interfaces/IContentAnalysisSummaryLiveTaskInfo.md#status_message)
+[`IContentAnalysisSummaryLiveTaskInfo`](../interfaces/IContentAnalysisSummaryLiveTaskInfo.md).[`status_message`](../interfaces/IContentAnalysisSummaryLiveTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[IContentAnalysisSummaryLiveTaskInfo](../interfaces/IContentAnalysisSummaryLiveTaskInfo.md).[time](../interfaces/IContentAnalysisSummaryLiveTaskInfo.md#time)
+[`IContentAnalysisSummaryLiveTaskInfo`](../interfaces/IContentAnalysisSummaryLiveTaskInfo.md).[`time`](../interfaces/IContentAnalysisSummaryLiveTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:162936
+main.ts:162944
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:162958
+main.ts:162966
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ContentAnalysisSummaryLiveTaskInfo`](ContentAnalysisSummaryLiveTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`ContentAnalysisSummaryLiveTaskInfo`](ContentAnalysisSummaryLiveTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:162951
+main.ts:162959

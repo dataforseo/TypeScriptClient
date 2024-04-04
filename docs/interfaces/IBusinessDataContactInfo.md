@@ -1,57 +1,49 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataContactInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBusinessDataContactInfo
 
 # Interface: IBusinessDataContactInfo
 
-## Implemented by
-
-- [`BusinessDataContactInfo`](../classes/BusinessDataContactInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [source](IBusinessDataContactInfo.md#source)
-- [type](IBusinessDataContactInfo.md#type)
-- [value](IBusinessDataContactInfo.md#value)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### source
+### source?
 
-• `Optional` **source**: `string`
+> **`optional`** **source**: `string`
 
 data source
 
-#### Defined in
+#### Source
 
 main.ts:194446
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
 main.ts:194440
 
-___
+***
 
-### value
+### value?
 
-• `Optional` **value**: `string`
+> **`optional`** **value**: `string`
 
 contact displayed in SERP 
 example:
 "+119797979736"
 
-#### Defined in
+#### Source
 
 main.ts:194444

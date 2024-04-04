@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / GoogleShoppingPaidMerchantSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / GoogleShoppingPaidMerchantSerpElementItem
 
 # Class: GoogleShoppingPaidMerchantSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)
-
-  ↳ **`GoogleShoppingPaidMerchantSerpElementItem`**
 
 ## Implements
 
@@ -14,44 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](GoogleShoppingPaidMerchantSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](GoogleShoppingPaidMerchantSerpElementItem.md#_discriminator)
-- [description](GoogleShoppingPaidMerchantSerpElementItem.md#description)
-- [domain](GoogleShoppingPaidMerchantSerpElementItem.md#domain)
-- [position](GoogleShoppingPaidMerchantSerpElementItem.md#position)
-- [rank\_absolute](GoogleShoppingPaidMerchantSerpElementItem.md#rank_absolute)
-- [rank\_group](GoogleShoppingPaidMerchantSerpElementItem.md#rank_group)
-- [shop\_ad\_aclk](GoogleShoppingPaidMerchantSerpElementItem.md#shop_ad_aclk)
-- [title](GoogleShoppingPaidMerchantSerpElementItem.md#title)
-- [url](GoogleShoppingPaidMerchantSerpElementItem.md#url)
-- [xpath](GoogleShoppingPaidMerchantSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](GoogleShoppingPaidMerchantSerpElementItem.md#init)
-- [toJSON](GoogleShoppingPaidMerchantSerpElementItem.md#tojson)
-- [fromJS](GoogleShoppingPaidMerchantSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new GoogleShoppingPaidMerchantSerpElementItem(data)
 
-• **new GoogleShoppingPaidMerchantSerpElementItem**(`data?`): [`GoogleShoppingPaidMerchantSerpElementItem`](GoogleShoppingPaidMerchantSerpElementItem.md)
+> **new GoogleShoppingPaidMerchantSerpElementItem**(`data`?): [`GoogleShoppingPaidMerchantSerpElementItem`](GoogleShoppingPaidMerchantSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IGoogleShoppingPaidMerchantSerpElementItem`](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md) |
+• **data?**: [`IGoogleShoppingPaidMerchantSerpElementItem`](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md)
 
 #### Returns
 
@@ -59,63 +34,63 @@
 
 #### Overrides
 
-[BaseMerchantSerpElementItem](BaseMerchantSerpElementItem.md).[constructor](BaseMerchantSerpElementItem.md#constructor)
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`constructor`](BaseMerchantSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:170389
+main.ts:170397
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseMerchantSerpElementItem](BaseMerchantSerpElementItem.md).[_discriminator](BaseMerchantSerpElementItem.md#_discriminator)
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`_discriminator`](BaseMerchantSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:20444
 
-___
+***
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description of the product in Google Shopping SERP
 
 #### Implementation of
 
-[IGoogleShoppingPaidMerchantSerpElementItem](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md).[description](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md#description)
+[`IGoogleShoppingPaidMerchantSerpElementItem`](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md).[`description`](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md#description)
 
-#### Defined in
+#### Source
 
-main.ts:170380
+main.ts:170388
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain in SERP
 
 #### Implementation of
 
-[IGoogleShoppingPaidMerchantSerpElementItem](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md).[domain](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md#domain)
+[`IGoogleShoppingPaidMerchantSerpElementItem`](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md).[`domain`](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md#domain)
 
-#### Defined in
+#### Source
 
-main.ts:170376
+main.ts:170384
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 alignment of the element in SERP
 can take the following values:
@@ -123,122 +98,120 @@ left, right
 
 #### Implementation of
 
-[IGoogleShoppingPaidMerchantSerpElementItem](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md).[position](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md#position)
+[`IGoogleShoppingPaidMerchantSerpElementItem`](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md).[`position`](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
-main.ts:170372
+main.ts:170380
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
 
 #### Implementation of
 
-[IGoogleShoppingPaidMerchantSerpElementItem](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md).[rank_absolute](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md#rank_absolute)
+[`IGoogleShoppingPaidMerchantSerpElementItem`](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md).[`rank_absolute`](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:170368
+main.ts:170376
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
-[IGoogleShoppingPaidMerchantSerpElementItem](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md).[rank_group](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md#rank_group)
+[`IGoogleShoppingPaidMerchantSerpElementItem`](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md).[`rank_group`](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
-main.ts:170365
+main.ts:170373
 
-___
+***
 
-### shop\_ad\_aclk
+### shop\_ad\_aclk?
 
-• `Optional` **shop\_ad\_aclk**: `string`
+> **`optional`** **shop\_ad\_aclk**: `string`
 
 unique ad click referral parameter
 using this parameter you can get a URL of the advertisement in Google Shopping Sellers Ad URL
 
 #### Implementation of
 
-[IGoogleShoppingPaidMerchantSerpElementItem](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md).[shop_ad_aclk](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md#shop_ad_aclk)
+[`IGoogleShoppingPaidMerchantSerpElementItem`](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md).[`shop_ad_aclk`](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md#shop_ad_aclk)
 
-#### Defined in
+#### Source
 
-main.ts:170385
+main.ts:170393
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 product title
 
 #### Implementation of
 
-[IGoogleShoppingPaidMerchantSerpElementItem](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md).[title](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md#title)
+[`IGoogleShoppingPaidMerchantSerpElementItem`](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md).[`title`](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:170378
+main.ts:170386
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL to the product page on the seller’s website
 
 #### Implementation of
 
-[IGoogleShoppingPaidMerchantSerpElementItem](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md).[url](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md#url)
+[`IGoogleShoppingPaidMerchantSerpElementItem`](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md).[`url`](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:170382
+main.ts:170390
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 XPath of the element
 
 #### Implementation of
 
-[IGoogleShoppingPaidMerchantSerpElementItem](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md).[xpath](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md#xpath)
+[`IGoogleShoppingPaidMerchantSerpElementItem`](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md).[`xpath`](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
-main.ts:170374
+main.ts:170382
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -246,23 +219,21 @@ main.ts:170374
 
 #### Overrides
 
-[BaseMerchantSerpElementItem](BaseMerchantSerpElementItem.md).[init](BaseMerchantSerpElementItem.md#init)
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`init`](BaseMerchantSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:170394
+main.ts:170402
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -270,23 +241,21 @@ ___
 
 #### Overrides
 
-[BaseMerchantSerpElementItem](BaseMerchantSerpElementItem.md).[toJSON](BaseMerchantSerpElementItem.md#tojson)
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`toJSON`](BaseMerchantSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:170420
+main.ts:170428
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`GoogleShoppingPaidMerchantSerpElementItem`](GoogleShoppingPaidMerchantSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`GoogleShoppingPaidMerchantSerpElementItem`](GoogleShoppingPaidMerchantSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -294,8 +263,8 @@ ___
 
 #### Overrides
 
-[BaseMerchantSerpElementItem](BaseMerchantSerpElementItem.md).[fromJS](BaseMerchantSerpElementItem.md#fromjs)
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`fromJS`](BaseMerchantSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:170413
+main.ts:170421

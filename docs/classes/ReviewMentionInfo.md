@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ReviewMentionInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ReviewMentionInfo
 
 # Class: ReviewMentionInfo
 
@@ -8,202 +12,173 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ReviewMentionInfo.md#constructor)
-
-### Properties
-
-- [negative\_count](ReviewMentionInfo.md#negative_count)
-- [positive\_count](ReviewMentionInfo.md#positive_count)
-- [positive\_score](ReviewMentionInfo.md#positive_score)
-- [title](ReviewMentionInfo.md#title)
-- [total\_count](ReviewMentionInfo.md#total_count)
-- [visible\_by\_default](ReviewMentionInfo.md#visible_by_default)
-
-### Methods
-
-- [init](ReviewMentionInfo.md#init)
-- [toJSON](ReviewMentionInfo.md#tojson)
-- [fromJS](ReviewMentionInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ReviewMentionInfo(data)
 
-• **new ReviewMentionInfo**(`data?`): [`ReviewMentionInfo`](ReviewMentionInfo.md)
+> **new ReviewMentionInfo**(`data`?): [`ReviewMentionInfo`](ReviewMentionInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IReviewMentionInfo`](../interfaces/IReviewMentionInfo.md) |
+• **data?**: [`IReviewMentionInfo`](../interfaces/IReviewMentionInfo.md)
 
 #### Returns
 
 [`ReviewMentionInfo`](ReviewMentionInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:201239
 
 ## Properties
 
-### negative\_count
+### negative\_count?
 
-• `Optional` **negative\_count**: `number`
+> **`optional`** **negative\_count**: `number`
 
 count of negative reviews by criterion
 
 #### Implementation of
 
-[IReviewMentionInfo](../interfaces/IReviewMentionInfo.md).[negative_count](../interfaces/IReviewMentionInfo.md#negative_count)
+[`IReviewMentionInfo`](../interfaces/IReviewMentionInfo.md).[`negative_count`](../interfaces/IReviewMentionInfo.md#negative_count)
 
-#### Defined in
+#### Source
 
 main.ts:201230
 
-___
+***
 
-### positive\_count
+### positive\_count?
 
-• `Optional` **positive\_count**: `number`
+> **`optional`** **positive\_count**: `number`
 
 count of positive reviews by criterion
 
 #### Implementation of
 
-[IReviewMentionInfo](../interfaces/IReviewMentionInfo.md).[positive_count](../interfaces/IReviewMentionInfo.md#positive_count)
+[`IReviewMentionInfo`](../interfaces/IReviewMentionInfo.md).[`positive_count`](../interfaces/IReviewMentionInfo.md#positive_count)
 
-#### Defined in
+#### Source
 
 main.ts:201228
 
-___
+***
 
-### positive\_score
+### positive\_score?
 
-• `Optional` **positive\_score**: `number`
+> **`optional`** **positive\_score**: `number`
 
 positive score by criterion
 
 #### Implementation of
 
-[IReviewMentionInfo](../interfaces/IReviewMentionInfo.md).[positive_score](../interfaces/IReviewMentionInfo.md#positive_score)
+[`IReviewMentionInfo`](../interfaces/IReviewMentionInfo.md).[`positive_score`](../interfaces/IReviewMentionInfo.md#positive_score)
 
-#### Defined in
+#### Source
 
 main.ts:201226
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the evaluated criterion
 
 #### Implementation of
 
-[IReviewMentionInfo](../interfaces/IReviewMentionInfo.md).[title](../interfaces/IReviewMentionInfo.md#title)
+[`IReviewMentionInfo`](../interfaces/IReviewMentionInfo.md).[`title`](../interfaces/IReviewMentionInfo.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:201224
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 count of all reviews by criterion
 
 #### Implementation of
 
-[IReviewMentionInfo](../interfaces/IReviewMentionInfo.md).[total_count](../interfaces/IReviewMentionInfo.md#total_count)
+[`IReviewMentionInfo`](../interfaces/IReviewMentionInfo.md).[`total_count`](../interfaces/IReviewMentionInfo.md#total_count)
 
-#### Defined in
+#### Source
 
 main.ts:201232
 
-___
+***
 
-### visible\_by\_default
+### visible\_by\_default?
 
-• `Optional` **visible\_by\_default**: `boolean`
+> **`optional`** **visible\_by\_default**: `boolean`
 
 element is visible by default
 indicates whether the review element is visible by default
 
 #### Implementation of
 
-[IReviewMentionInfo](../interfaces/IReviewMentionInfo.md).[visible_by_default](../interfaces/IReviewMentionInfo.md#visible_by_default)
+[`IReviewMentionInfo`](../interfaces/IReviewMentionInfo.md).[`visible_by_default`](../interfaces/IReviewMentionInfo.md#visible_by_default)
 
-#### Defined in
+#### Source
 
 main.ts:201235
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:201248
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:201270
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ReviewMentionInfo`](ReviewMentionInfo.md)
+> **`static`** **fromJS**(`data`): [`ReviewMentionInfo`](ReviewMentionInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ReviewMentionInfo`](ReviewMentionInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:201263

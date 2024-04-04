@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataBusinessListingsCategoriesResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataBusinessListingsCategoriesResultInfo
 
 # Class: BusinessDataBusinessListingsCategoriesResultInfo
 
@@ -8,133 +12,108 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataBusinessListingsCategoriesResultInfo.md#constructor)
-
-### Properties
-
-- [business\_count](BusinessDataBusinessListingsCategoriesResultInfo.md#business_count)
-- [category\_name](BusinessDataBusinessListingsCategoriesResultInfo.md#category_name)
-
-### Methods
-
-- [init](BusinessDataBusinessListingsCategoriesResultInfo.md#init)
-- [toJSON](BusinessDataBusinessListingsCategoriesResultInfo.md#tojson)
-- [fromJS](BusinessDataBusinessListingsCategoriesResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataBusinessListingsCategoriesResultInfo(data)
 
-• **new BusinessDataBusinessListingsCategoriesResultInfo**(`data?`): [`BusinessDataBusinessListingsCategoriesResultInfo`](BusinessDataBusinessListingsCategoriesResultInfo.md)
+> **new BusinessDataBusinessListingsCategoriesResultInfo**(`data`?): [`BusinessDataBusinessListingsCategoriesResultInfo`](BusinessDataBusinessListingsCategoriesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataBusinessListingsCategoriesResultInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesResultInfo.md) |
+• **data?**: [`IBusinessDataBusinessListingsCategoriesResultInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesResultInfo.md)
 
 #### Returns
 
 [`BusinessDataBusinessListingsCategoriesResultInfo`](BusinessDataBusinessListingsCategoriesResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:193465
 
 ## Properties
 
-### business\_count
+### business\_count?
 
-• `Optional` **business\_count**: `number`
+> **`optional`** **business\_count**: `number`
 
 number of businesses in the category
 
 #### Implementation of
 
-[IBusinessDataBusinessListingsCategoriesResultInfo](../interfaces/IBusinessDataBusinessListingsCategoriesResultInfo.md).[business_count](../interfaces/IBusinessDataBusinessListingsCategoriesResultInfo.md#business_count)
+[`IBusinessDataBusinessListingsCategoriesResultInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesResultInfo.md).[`business_count`](../interfaces/IBusinessDataBusinessListingsCategoriesResultInfo.md#business_count)
 
-#### Defined in
+#### Source
 
 main.ts:193461
 
-___
+***
 
-### category\_name
+### category\_name?
 
-• `Optional` **category\_name**: `string`
+> **`optional`** **category\_name**: `string`
 
 full name of the category
 
 #### Implementation of
 
-[IBusinessDataBusinessListingsCategoriesResultInfo](../interfaces/IBusinessDataBusinessListingsCategoriesResultInfo.md).[category_name](../interfaces/IBusinessDataBusinessListingsCategoriesResultInfo.md#category_name)
+[`IBusinessDataBusinessListingsCategoriesResultInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesResultInfo.md).[`category_name`](../interfaces/IBusinessDataBusinessListingsCategoriesResultInfo.md#category_name)
 
-#### Defined in
+#### Source
 
 main.ts:193459
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:193474
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:193492
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataBusinessListingsCategoriesResultInfo`](BusinessDataBusinessListingsCategoriesResultInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataBusinessListingsCategoriesResultInfo`](BusinessDataBusinessListingsCategoriesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BusinessDataBusinessListingsCategoriesResultInfo`](BusinessDataBusinessListingsCategoriesResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:193485

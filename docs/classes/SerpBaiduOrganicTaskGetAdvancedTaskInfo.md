@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpBaiduOrganicTaskGetAdvancedTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpBaiduOrganicTaskGetAdvancedTaskInfo
 
 # Class: SerpBaiduOrganicTaskGetAdvancedTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`SerpBaiduOrganicTaskGetAdvancedTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpBaiduOrganicTaskGetAdvancedTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](SerpBaiduOrganicTaskGetAdvancedTaskInfo.md#cost)
-- [data](SerpBaiduOrganicTaskGetAdvancedTaskInfo.md#data)
-- [id](SerpBaiduOrganicTaskGetAdvancedTaskInfo.md#id)
-- [path](SerpBaiduOrganicTaskGetAdvancedTaskInfo.md#path)
-- [result](SerpBaiduOrganicTaskGetAdvancedTaskInfo.md#result)
-- [result\_count](SerpBaiduOrganicTaskGetAdvancedTaskInfo.md#result_count)
-- [status\_code](SerpBaiduOrganicTaskGetAdvancedTaskInfo.md#status_code)
-- [status\_message](SerpBaiduOrganicTaskGetAdvancedTaskInfo.md#status_message)
-- [time](SerpBaiduOrganicTaskGetAdvancedTaskInfo.md#time)
-
-### Methods
-
-- [init](SerpBaiduOrganicTaskGetAdvancedTaskInfo.md#init)
-- [toJSON](SerpBaiduOrganicTaskGetAdvancedTaskInfo.md#tojson)
-- [fromJS](SerpBaiduOrganicTaskGetAdvancedTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpBaiduOrganicTaskGetAdvancedTaskInfo(data)
 
-• **new SerpBaiduOrganicTaskGetAdvancedTaskInfo**(`data?`): [`SerpBaiduOrganicTaskGetAdvancedTaskInfo`](SerpBaiduOrganicTaskGetAdvancedTaskInfo.md)
+> **new SerpBaiduOrganicTaskGetAdvancedTaskInfo**(`data`?): [`SerpBaiduOrganicTaskGetAdvancedTaskInfo`](SerpBaiduOrganicTaskGetAdvancedTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpBaiduOrganicTaskGetAdvancedTaskInfo`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedTaskInfo.md) |
+• **data?**: [`ISerpBaiduOrganicTaskGetAdvancedTaskInfo`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:69533
+main.ts:69541
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskGetAdvancedTaskInfo](../interfaces/ISerpBaiduOrganicTaskGetAdvancedTaskInfo.md).[cost](../interfaces/ISerpBaiduOrganicTaskGetAdvancedTaskInfo.md#cost)
+[`ISerpBaiduOrganicTaskGetAdvancedTaskInfo`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedTaskInfo.md).[`cost`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskGetAdvancedTaskInfo](../interfaces/ISerpBaiduOrganicTaskGetAdvancedTaskInfo.md).[data](../interfaces/ISerpBaiduOrganicTaskGetAdvancedTaskInfo.md#data)
+[`ISerpBaiduOrganicTaskGetAdvancedTaskInfo`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedTaskInfo.md).[`data`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskGetAdvancedTaskInfo](../interfaces/ISerpBaiduOrganicTaskGetAdvancedTaskInfo.md).[id](../interfaces/ISerpBaiduOrganicTaskGetAdvancedTaskInfo.md#id)
+[`ISerpBaiduOrganicTaskGetAdvancedTaskInfo`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedTaskInfo.md).[`id`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskGetAdvancedTaskInfo](../interfaces/ISerpBaiduOrganicTaskGetAdvancedTaskInfo.md).[path](../interfaces/ISerpBaiduOrganicTaskGetAdvancedTaskInfo.md#path)
+[`ISerpBaiduOrganicTaskGetAdvancedTaskInfo`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedTaskInfo.md).[`path`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`SerpBaiduOrganicTaskGetAdvancedResultInfo`](SerpBaiduOrganicTaskGetAdvancedResultInfo.md)[]
+> **`optional`** **result**: [`SerpBaiduOrganicTaskGetAdvancedResultInfo`](SerpBaiduOrganicTaskGetAdvancedResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskGetAdvancedTaskInfo](../interfaces/ISerpBaiduOrganicTaskGetAdvancedTaskInfo.md).[result](../interfaces/ISerpBaiduOrganicTaskGetAdvancedTaskInfo.md#result)
+[`ISerpBaiduOrganicTaskGetAdvancedTaskInfo`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedTaskInfo.md).[`result`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:69529
+main.ts:69537
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskGetAdvancedTaskInfo](../interfaces/ISerpBaiduOrganicTaskGetAdvancedTaskInfo.md).[result_count](../interfaces/ISerpBaiduOrganicTaskGetAdvancedTaskInfo.md#result_count)
+[`ISerpBaiduOrganicTaskGetAdvancedTaskInfo`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedTaskInfo.md).[`result_count`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskGetAdvancedTaskInfo](../interfaces/ISerpBaiduOrganicTaskGetAdvancedTaskInfo.md).[status_code](../interfaces/ISerpBaiduOrganicTaskGetAdvancedTaskInfo.md#status_code)
+[`ISerpBaiduOrganicTaskGetAdvancedTaskInfo`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedTaskInfo.md).[`status_code`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskGetAdvancedTaskInfo](../interfaces/ISerpBaiduOrganicTaskGetAdvancedTaskInfo.md).[status_message](../interfaces/ISerpBaiduOrganicTaskGetAdvancedTaskInfo.md#status_message)
+[`ISerpBaiduOrganicTaskGetAdvancedTaskInfo`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedTaskInfo.md).[`status_message`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[ISerpBaiduOrganicTaskGetAdvancedTaskInfo](../interfaces/ISerpBaiduOrganicTaskGetAdvancedTaskInfo.md).[time](../interfaces/ISerpBaiduOrganicTaskGetAdvancedTaskInfo.md#time)
+[`ISerpBaiduOrganicTaskGetAdvancedTaskInfo`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedTaskInfo.md).[`time`](../interfaces/ISerpBaiduOrganicTaskGetAdvancedTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:69537
+main.ts:69545
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:69559
+main.ts:69567
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpBaiduOrganicTaskGetAdvancedTaskInfo`](SerpBaiduOrganicTaskGetAdvancedTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpBaiduOrganicTaskGetAdvancedTaskInfo`](SerpBaiduOrganicTaskGetAdvancedTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:69552
+main.ts:69560

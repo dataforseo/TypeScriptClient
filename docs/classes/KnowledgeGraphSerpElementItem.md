@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KnowledgeGraphSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KnowledgeGraphSerpElementItem
 
 # Class: KnowledgeGraphSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-  ↳ **`KnowledgeGraphSerpElementItem`**
 
 ## Implements
 
@@ -14,49 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KnowledgeGraphSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](KnowledgeGraphSerpElementItem.md#_discriminator)
-- [card\_id](KnowledgeGraphSerpElementItem.md#card_id)
-- [cid](KnowledgeGraphSerpElementItem.md#cid)
-- [description](KnowledgeGraphSerpElementItem.md#description)
-- [image\_url](KnowledgeGraphSerpElementItem.md#image_url)
-- [items](KnowledgeGraphSerpElementItem.md#items)
-- [logo\_url](KnowledgeGraphSerpElementItem.md#logo_url)
-- [position](KnowledgeGraphSerpElementItem.md#position)
-- [rank\_absolute](KnowledgeGraphSerpElementItem.md#rank_absolute)
-- [rank\_group](KnowledgeGraphSerpElementItem.md#rank_group)
-- [rectangle](KnowledgeGraphSerpElementItem.md#rectangle)
-- [subtitle](KnowledgeGraphSerpElementItem.md#subtitle)
-- [title](KnowledgeGraphSerpElementItem.md#title)
-- [url](KnowledgeGraphSerpElementItem.md#url)
-- [xpath](KnowledgeGraphSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](KnowledgeGraphSerpElementItem.md#init)
-- [toJSON](KnowledgeGraphSerpElementItem.md#tojson)
-- [fromJS](KnowledgeGraphSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KnowledgeGraphSerpElementItem(data)
 
-• **new KnowledgeGraphSerpElementItem**(`data?`): [`KnowledgeGraphSerpElementItem`](KnowledgeGraphSerpElementItem.md)
+> **new KnowledgeGraphSerpElementItem**(`data`?): [`KnowledgeGraphSerpElementItem`](KnowledgeGraphSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKnowledgeGraphSerpElementItem`](../interfaces/IKnowledgeGraphSerpElementItem.md) |
+• **data?**: [`IKnowledgeGraphSerpElementItem`](../interfaces/IKnowledgeGraphSerpElementItem.md)
 
 #### Returns
 
@@ -64,9 +34,9 @@
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[constructor](BaseSerpElementItem.md#constructor)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:28308
 
@@ -74,37 +44,37 @@ main.ts:28308
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[_discriminator](BaseSerpElementItem.md#_discriminator)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:19788
 
-___
+***
 
-### card\_id
+### card\_id?
 
-• `Optional` **card\_id**: `string`
+> **`optional`** **card\_id**: `string`
 
 card id
 
 #### Implementation of
 
-[IKnowledgeGraphSerpElementItem](../interfaces/IKnowledgeGraphSerpElementItem.md).[card_id](../interfaces/IKnowledgeGraphSerpElementItem.md#card_id)
+[`IKnowledgeGraphSerpElementItem`](../interfaces/IKnowledgeGraphSerpElementItem.md).[`card_id`](../interfaces/IKnowledgeGraphSerpElementItem.md#card_id)
 
-#### Defined in
+#### Source
 
 main.ts:28286
 
-___
+***
 
-### cid
+### cid?
 
-• `Optional` **cid**: `string`
+> **`optional`** **cid**: `string`
 
 google-defined client id
 unique id of a local establishment;
@@ -112,83 +82,83 @@ can be used with Google Reviews API to get a full list of reviews
 
 #### Implementation of
 
-[IKnowledgeGraphSerpElementItem](../interfaces/IKnowledgeGraphSerpElementItem.md).[cid](../interfaces/IKnowledgeGraphSerpElementItem.md#cid)
+[`IKnowledgeGraphSerpElementItem`](../interfaces/IKnowledgeGraphSerpElementItem.md).[`cid`](../interfaces/IKnowledgeGraphSerpElementItem.md#cid)
 
-#### Defined in
+#### Source
 
 main.ts:28297
 
-___
+***
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description of the results element in SERP
 
 #### Implementation of
 
-[IKnowledgeGraphSerpElementItem](../interfaces/IKnowledgeGraphSerpElementItem.md).[description](../interfaces/IKnowledgeGraphSerpElementItem.md#description)
+[`IKnowledgeGraphSerpElementItem`](../interfaces/IKnowledgeGraphSerpElementItem.md).[`description`](../interfaces/IKnowledgeGraphSerpElementItem.md#description)
 
-#### Defined in
+#### Source
 
 main.ts:28284
 
-___
+***
 
-### image\_url
+### image\_url?
 
-• `Optional` **image\_url**: `string`
+> **`optional`** **image\_url**: `string`
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
 
 #### Implementation of
 
-[IKnowledgeGraphSerpElementItem](../interfaces/IKnowledgeGraphSerpElementItem.md).[image_url](../interfaces/IKnowledgeGraphSerpElementItem.md#image_url)
+[`IKnowledgeGraphSerpElementItem`](../interfaces/IKnowledgeGraphSerpElementItem.md).[`image_url`](../interfaces/IKnowledgeGraphSerpElementItem.md#image_url)
 
-#### Defined in
+#### Source
 
 main.ts:28291
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
+> **`optional`** **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
 additional items present in the element
 if there are none, equals null
 
 #### Implementation of
 
-[IKnowledgeGraphSerpElementItem](../interfaces/IKnowledgeGraphSerpElementItem.md).[items](../interfaces/IKnowledgeGraphSerpElementItem.md#items)
+[`IKnowledgeGraphSerpElementItem`](../interfaces/IKnowledgeGraphSerpElementItem.md).[`items`](../interfaces/IKnowledgeGraphSerpElementItem.md#items)
 
-#### Defined in
+#### Source
 
 main.ts:28300
 
-___
+***
 
-### logo\_url
+### logo\_url?
 
-• `Optional` **logo\_url**: `string`
+> **`optional`** **logo\_url**: `string`
 
 URL of the logo from knowledge graph
 
 #### Implementation of
 
-[IKnowledgeGraphSerpElementItem](../interfaces/IKnowledgeGraphSerpElementItem.md).[logo_url](../interfaces/IKnowledgeGraphSerpElementItem.md#logo_url)
+[`IKnowledgeGraphSerpElementItem`](../interfaces/IKnowledgeGraphSerpElementItem.md).[`logo_url`](../interfaces/IKnowledgeGraphSerpElementItem.md#logo_url)
 
-#### Defined in
+#### Source
 
 main.ts:28293
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -196,34 +166,34 @@ left, right
 
 #### Implementation of
 
-[IKnowledgeGraphSerpElementItem](../interfaces/IKnowledgeGraphSerpElementItem.md).[position](../interfaces/IKnowledgeGraphSerpElementItem.md#position)
+[`IKnowledgeGraphSerpElementItem`](../interfaces/IKnowledgeGraphSerpElementItem.md).[`position`](../interfaces/IKnowledgeGraphSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
 main.ts:28276
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
 #### Implementation of
 
-[IKnowledgeGraphSerpElementItem](../interfaces/IKnowledgeGraphSerpElementItem.md).[rank_absolute](../interfaces/IKnowledgeGraphSerpElementItem.md#rank_absolute)
+[`IKnowledgeGraphSerpElementItem`](../interfaces/IKnowledgeGraphSerpElementItem.md).[`rank_absolute`](../interfaces/IKnowledgeGraphSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
 main.ts:28272
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -231,17 +201,17 @@ positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
-[IKnowledgeGraphSerpElementItem](../interfaces/IKnowledgeGraphSerpElementItem.md).[rank_group](../interfaces/IKnowledgeGraphSerpElementItem.md#rank_group)
+[`IKnowledgeGraphSerpElementItem`](../interfaces/IKnowledgeGraphSerpElementItem.md).[`rank_group`](../interfaces/IKnowledgeGraphSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
 main.ts:28269
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -249,87 +219,85 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Implementation of
 
-[IKnowledgeGraphSerpElementItem](../interfaces/IKnowledgeGraphSerpElementItem.md).[rectangle](../interfaces/IKnowledgeGraphSerpElementItem.md#rectangle)
+[`IKnowledgeGraphSerpElementItem`](../interfaces/IKnowledgeGraphSerpElementItem.md).[`rectangle`](../interfaces/IKnowledgeGraphSerpElementItem.md#rectangle)
 
-#### Defined in
+#### Source
 
 main.ts:28304
 
-___
+***
 
-### subtitle
+### subtitle?
 
-• `Optional` **subtitle**: `string`
+> **`optional`** **subtitle**: `string`
 
 subtitle of the item
 
 #### Implementation of
 
-[IKnowledgeGraphSerpElementItem](../interfaces/IKnowledgeGraphSerpElementItem.md).[subtitle](../interfaces/IKnowledgeGraphSerpElementItem.md#subtitle)
+[`IKnowledgeGraphSerpElementItem`](../interfaces/IKnowledgeGraphSerpElementItem.md).[`subtitle`](../interfaces/IKnowledgeGraphSerpElementItem.md#subtitle)
 
-#### Defined in
+#### Source
 
 main.ts:28282
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the result in SERP
 
 #### Implementation of
 
-[IKnowledgeGraphSerpElementItem](../interfaces/IKnowledgeGraphSerpElementItem.md).[title](../interfaces/IKnowledgeGraphSerpElementItem.md#title)
+[`IKnowledgeGraphSerpElementItem`](../interfaces/IKnowledgeGraphSerpElementItem.md).[`title`](../interfaces/IKnowledgeGraphSerpElementItem.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:28280
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 relevant URL in SERP
 
 #### Implementation of
 
-[IKnowledgeGraphSerpElementItem](../interfaces/IKnowledgeGraphSerpElementItem.md).[url](../interfaces/IKnowledgeGraphSerpElementItem.md#url)
+[`IKnowledgeGraphSerpElementItem`](../interfaces/IKnowledgeGraphSerpElementItem.md).[`url`](../interfaces/IKnowledgeGraphSerpElementItem.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:28288
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IKnowledgeGraphSerpElementItem](../interfaces/IKnowledgeGraphSerpElementItem.md).[xpath](../interfaces/IKnowledgeGraphSerpElementItem.md#xpath)
+[`IKnowledgeGraphSerpElementItem`](../interfaces/IKnowledgeGraphSerpElementItem.md).[`xpath`](../interfaces/IKnowledgeGraphSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
 main.ts:28278
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -337,23 +305,21 @@ main.ts:28278
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[init](BaseSerpElementItem.md#init)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:28313
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -361,23 +327,21 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[toJSON](BaseSerpElementItem.md#tojson)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:28348
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KnowledgeGraphSerpElementItem`](KnowledgeGraphSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`KnowledgeGraphSerpElementItem`](KnowledgeGraphSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -385,8 +349,8 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[fromJS](BaseSerpElementItem.md#fromjs)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:28341

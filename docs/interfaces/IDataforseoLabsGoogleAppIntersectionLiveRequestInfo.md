@@ -1,35 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleAppIntersectionLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsGoogleAppIntersectionLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleAppIntersectionLiveRequestInfo
 
-## Implemented by
-
-- [`DataforseoLabsGoogleAppIntersectionLiveRequestInfo`](../classes/DataforseoLabsGoogleAppIntersectionLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [app\_ids](IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md#app_ids)
-- [filters](IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md#filters)
-- [language\_code](IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md#language_code)
-- [language\_name](IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md#language_name)
-- [limit](IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md#limit)
-- [location\_code](IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md#location_code)
-- [location\_name](IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md#location_name)
-- [offset](IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md#offset)
-- [order\_by](IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md#order_by)
-- [tag](IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### app\_ids
+### app\_ids?
 
-• `Optional` **app\_ids**: `Object`
+> **`optional`** **app\_ids**: `Object`
 
 ids of the target apps
 required field
@@ -39,47 +24,47 @@ example:
 in the URL https://play.google.com/store/apps/details?id=org.telegram.messenger
 the id is org.telegram.messenger;;
 the ids should be specified the following way:
-"app_ids": {
+"app_ids": \{
 "1": "org.telegram.messenger",
 "2": "com.zhiliaoapp.musically"
-}
+\}
 if you specify a single ID here, the API will return results only for one application;
 the maximum number of app IDs you can specify in this object is 20
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
-#### Defined in
+#### Source
 
-main.ts:112162
+main.ts:112170
 
-___
+***
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-<, <=, >, >=, =, <>, in, not_in
+<, `<=, >`, >=, =, `<>`, in, not_in
 example:
-["keyword_data.keyword_info.search_volume",">",500]
-[["keyword_data.keyword_info.search_volume","<>",500],"and",[intersection_result.382617920.rank_group",">=","10"]]
+["keyword_data.keyword_info.search_volume",">`",500]
+[["keyword_data.keyword_info.search_volume","`<>`",500],"and",[intersection_result.382617920.rank_group",">`=","10"]]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide
 
-#### Defined in
+#### Source
 
-main.ts:112209
+main.ts:112217
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 required field if you don’t specify language_name
@@ -90,15 +75,15 @@ Note: this endpoint currently supports the English language only
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:112198
+main.ts:112206
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -109,30 +94,30 @@ Note: this endpoint currently supports the English language only;
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:112189
+main.ts:112197
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned keywords
 optional field
 default value: 100
 maximum value: 1000
 
-#### Defined in
+#### Source
 
-main.ts:112231
+main.ts:112239
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 required field if you don’t specify location_name
@@ -143,15 +128,15 @@ Note: this endpoint currently supports the US location only;
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:112180
+main.ts:112188
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code
@@ -162,30 +147,30 @@ Note: this endpoint currently supports the US location only;
 example:
 United States
 
-#### Defined in
+#### Source
 
-main.ts:112171
+main.ts:112179
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned keywords
 optional field
 default value: 0
 if you specify the 10 value, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords
 
-#### Defined in
+#### Source
 
-main.ts:112236
+main.ts:112244
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -204,15 +189,15 @@ default rule:
 ["keyword_data.keyword_info.search_volume,desc"]
 Note: if the item_types array contains item types that are different from organic, the results will be ordered by the first item type in the array
 
-#### Defined in
+#### Source
 
-main.ts:112226
+main.ts:112234
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -220,6 +205,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:112242
+main.ts:112250

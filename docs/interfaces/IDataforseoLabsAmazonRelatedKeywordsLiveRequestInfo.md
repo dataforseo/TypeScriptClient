@@ -1,36 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo
 
 # Interface: IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo
 
-## Implemented by
-
-- [`DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo`](../classes/DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [depth](IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#depth)
-- [ignore\_synonyms](IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#ignore_synonyms)
-- [include\_seed\_keyword](IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#include_seed_keyword)
-- [keyword](IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#keyword)
-- [language\_code](IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#language_code)
-- [language\_name](IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#language_name)
-- [limit](IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#limit)
-- [location\_code](IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#location_code)
-- [location\_name](IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#location_name)
-- [offset](IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#offset)
-- [tag](IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### depth
+### depth?
 
-• `Optional` **depth**: `number`
+> **`optional`** **depth**: `number`
 
 keyword search depth
 optional field
@@ -44,45 +28,45 @@ estimated number of keywords for each level (maximum):
 3 – 258 keywords
 4 – 1554 keywords
 
-#### Defined in
+#### Source
 
-main.ts:101628
+main.ts:101636
 
-___
+***
 
-### ignore\_synonyms
+### ignore\_synonyms?
 
-• `Optional` **ignore\_synonyms**: `boolean`
+> **`optional`** **ignore\_synonyms**: `boolean`
 
 ignore highly similar keywords
 optional field
 if set to true only core keywords will be returned, all highly similar keywords will be excluded;
 default value: false
 
-#### Defined in
+#### Source
 
-main.ts:101638
+main.ts:101646
 
-___
+***
 
-### include\_seed\_keyword
+### include\_seed\_keyword?
 
-• `Optional` **include\_seed\_keyword**: `boolean`
+> **`optional`** **include\_seed\_keyword**: `boolean`
 
 include data for the seed keyword
 optional field
 if set to true, data for the seed keyword specified in the keyword field will be provided in the seed_keyword_data array of the response
 default value: false
 
-#### Defined in
+#### Source
 
-main.ts:101633
+main.ts:101641
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword
 required field
@@ -90,15 +74,15 @@ UTF-8 encoding
 a keyword should be at least 3 characters long;
 the keywords should be specified in the lowercase format
 
-#### Defined in
+#### Source
 
-main.ts:101584
+main.ts:101592
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 required field if you don’t specify language_name
@@ -107,15 +91,15 @@ you can receive the list of available locations with their language_code by maki
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:101616
+main.ts:101624
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -124,30 +108,30 @@ you can receive the list of available locations with their language_name by maki
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:101609
+main.ts:101617
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned keywords
 optional field
 default value: 100
 maximum value: 1000
 
-#### Defined in
+#### Source
 
-main.ts:101643
+main.ts:101651
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 required field if you don’t specify location_name
@@ -158,15 +142,15 @@ Note: this endpoint currently supports the US, Egypt, Saudi Arabia, and the Unit
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:101602
+main.ts:101610
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code
@@ -177,30 +161,30 @@ Note: this endpoint currently supports the US, Egypt, Saudi Arabia, and the Unit
 example:
 United States
 
-#### Defined in
+#### Source
 
-main.ts:101593
+main.ts:101601
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned keywords
 optional field
 default value: 0
 if you specify the 10 value, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords
 
-#### Defined in
+#### Source
 
-main.ts:101648
+main.ts:101656
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -208,6 +192,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:101654
+main.ts:101662

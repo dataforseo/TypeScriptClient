@@ -1,29 +1,23 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentGenerationGrammarRulesResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IContentGenerationGrammarRulesResultInfo
 
 # Interface: IContentGenerationGrammarRulesResultInfo
 
-## Implemented by
-
-- [`ContentGenerationGrammarRulesResultInfo`](../classes/ContentGenerationGrammarRulesResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [rules](IContentGenerationGrammarRulesResultInfo.md#rules)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### rules
+### rules?
 
-• `Optional` **rules**: `string`[]
+> **`optional`** **rules**: `string`[]
 
 array of rules
 
-#### Defined in
+#### Source
 
-main.ts:167437
+main.ts:167445

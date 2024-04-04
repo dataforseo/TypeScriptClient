@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAppleAppCompetitorsLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsAppleAppCompetitorsLiveRequestInfo
 
 # Class: DataforseoLabsAppleAppCompetitorsLiveRequestInfo
 
@@ -8,58 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [app\_id](DataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#app_id)
-- [filters](DataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#filters)
-- [language\_code](DataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#language_code)
-- [language\_name](DataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#language_name)
-- [limit](DataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#limit)
-- [location\_code](DataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#location_code)
-- [location\_name](DataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#location_name)
-- [offset](DataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#offset)
-- [order\_by](DataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#order_by)
-- [tag](DataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#tag)
-
-### Methods
-
-- [init](DataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#init)
-- [toJSON](DataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#tojson)
-- [fromJS](DataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsAppleAppCompetitorsLiveRequestInfo(data)
 
-• **new DataforseoLabsAppleAppCompetitorsLiveRequestInfo**(`data?`): [`DataforseoLabsAppleAppCompetitorsLiveRequestInfo`](DataforseoLabsAppleAppCompetitorsLiveRequestInfo.md)
+> **new DataforseoLabsAppleAppCompetitorsLiveRequestInfo**(`data`?): [`DataforseoLabsAppleAppCompetitorsLiveRequestInfo`](DataforseoLabsAppleAppCompetitorsLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsAppleAppCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md) |
+• **data?**: [`IDataforseoLabsAppleAppCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsAppleAppCompetitorsLiveRequestInfo`](DataforseoLabsAppleAppCompetitorsLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:113576
+main.ts:113584
 
 ## Properties
 
-### app\_id
+### app\_id?
 
-• `Optional` **app\_id**: `string`
+> **`optional`** **app\_id**: `string`
 
 id of the app
 required field
@@ -71,27 +48,27 @@ the id is 835599320
 
 #### Implementation of
 
-[IDataforseoLabsAppleAppCompetitorsLiveRequestInfo](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md).[app_id](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#app_id)
+[`IDataforseoLabsAppleAppCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md).[`app_id`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#app_id)
 
-#### Defined in
+#### Source
 
-main.ts:113489
+main.ts:113497
 
-___
+***
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-<, <=, >, >=, =, <>, in, not_in
+<, `<=, >`, >=, =, `<>`, in, not_in
 example:
-["intersections",">",500]
-[["competitor_metrics.app_store_search_organic.pos_1","<>",10],"and",["avg_position",">=","10"]]
+["intersections",">`",500]
+[["competitor_metrics.app_store_search_organic.pos_1","`<>`",10],"and",["avg_position",">`=","10"]]
 [[["intersections",">=",50],"and",["competitor_metrics.app_store_search_organic.pos_1","in",[1,5]]],
 "or",
 ["sum_position",">=","10000"]]
@@ -99,17 +76,17 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Implementation of
 
-[IDataforseoLabsAppleAppCompetitorsLiveRequestInfo](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md).[filters](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#filters)
+[`IDataforseoLabsAppleAppCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md).[`filters`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#filters)
 
-#### Defined in
+#### Source
 
-main.ts:113539
+main.ts:113547
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 required field if you don’t specify language_name
@@ -122,17 +99,17 @@ en
 
 #### Implementation of
 
-[IDataforseoLabsAppleAppCompetitorsLiveRequestInfo](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md).[language_code](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#language_code)
+[`IDataforseoLabsAppleAppCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:113525
+main.ts:113533
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -145,17 +122,17 @@ English
 
 #### Implementation of
 
-[IDataforseoLabsAppleAppCompetitorsLiveRequestInfo](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md).[language_name](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#language_name)
+[`IDataforseoLabsAppleAppCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:113516
+main.ts:113524
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned apps
 optional field
@@ -164,17 +141,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IDataforseoLabsAppleAppCompetitorsLiveRequestInfo](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md).[limit](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#limit)
+[`IDataforseoLabsAppleAppCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md).[`limit`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#limit)
 
-#### Defined in
+#### Source
 
-main.ts:113561
+main.ts:113569
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 required field if you don’t specify location_name
@@ -187,17 +164,17 @@ example:
 
 #### Implementation of
 
-[IDataforseoLabsAppleAppCompetitorsLiveRequestInfo](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md).[location_code](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#location_code)
+[`IDataforseoLabsAppleAppCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:113507
+main.ts:113515
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code
@@ -210,17 +187,17 @@ United States
 
 #### Implementation of
 
-[IDataforseoLabsAppleAppCompetitorsLiveRequestInfo](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md).[location_name](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#location_name)
+[`IDataforseoLabsAppleAppCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:113498
+main.ts:113506
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned apps
 optional field
@@ -229,17 +206,17 @@ if you specify the 10 value, the first ten apps in the results array will be omi
 
 #### Implementation of
 
-[IDataforseoLabsAppleAppCompetitorsLiveRequestInfo](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md).[offset](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#offset)
+[`IDataforseoLabsAppleAppCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md).[`offset`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#offset)
 
-#### Defined in
+#### Source
 
-main.ts:113566
+main.ts:113574
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -260,17 +237,17 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Implementation of
 
-[IDataforseoLabsAppleAppCompetitorsLiveRequestInfo](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md).[order_by](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#order_by)
+[`IDataforseoLabsAppleAppCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md).[`order_by`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#order_by)
 
-#### Defined in
+#### Source
 
-main.ts:113556
+main.ts:113564
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -280,68 +257,62 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IDataforseoLabsAppleAppCompetitorsLiveRequestInfo](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md).[tag](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#tag)
+[`IDataforseoLabsAppleAppCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:113572
+main.ts:113580
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:113585
+main.ts:113593
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:113619
+main.ts:113627
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsAppleAppCompetitorsLiveRequestInfo`](DataforseoLabsAppleAppCompetitorsLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsAppleAppCompetitorsLiveRequestInfo`](DataforseoLabsAppleAppCompetitorsLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsAppleAppCompetitorsLiveRequestInfo`](DataforseoLabsAppleAppCompetitorsLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:113612
+main.ts:113620

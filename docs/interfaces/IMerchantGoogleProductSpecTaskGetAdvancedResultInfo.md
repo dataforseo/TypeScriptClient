@@ -1,206 +1,187 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMerchantGoogleProductSpecTaskGetAdvancedResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IMerchantGoogleProductSpecTaskGetAdvancedResultInfo
 
 # Interface: IMerchantGoogleProductSpecTaskGetAdvancedResultInfo
 
-## Implemented by
-
-- [`MerchantGoogleProductSpecTaskGetAdvancedResultInfo`](../classes/MerchantGoogleProductSpecTaskGetAdvancedResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [check\_url](IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#check_url)
-- [datetime](IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#datetime)
-- [description](IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#description)
-- [image\_url](IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#image_url)
-- [item\_types](IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#item_types)
-- [items](IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#items)
-- [items\_count](IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#items_count)
-- [language\_code](IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#language_code)
-- [location\_code](IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#location_code)
-- [product\_id](IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#product_id)
-- [se\_domain](IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#se_domain)
-- [tags](IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#tags)
-- [title](IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#title)
-- [type](IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### check\_url
+### check\_url?
 
-• `Optional` **check\_url**: `string`
+> **`optional`** **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
 
-#### Defined in
+#### Source
 
 main.ts:173531
 
-___
+***
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the format: “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
 main.ts:173536
 
-___
+***
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description of the product
 
-#### Defined in
+#### Source
 
 main.ts:173524
 
-___
+***
 
-### image\_url
+### image\_url?
 
-• `Optional` **image\_url**: `string`
+> **`optional`** **image\_url**: `string`
 
 URL of the product image
 
-#### Defined in
+#### Source
 
 main.ts:173526
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 types of items found on the product specification page
 possible item types:
 shopping_specification
 
-#### Defined in
+#### Source
 
 main.ts:173540
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseMerchantSerpElementItem`](../classes/BaseMerchantSerpElementItem.md)[]
+> **`optional`** **items**: [`BaseMerchantSerpElementItem`](../classes/BaseMerchantSerpElementItem.md)[]
 
 items on the product specification page
 contains all product attributes and related data listed on the product specification page
 
-#### Defined in
+#### Source
 
 main.ts:173545
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Defined in
+#### Source
 
 main.ts:173542
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
-#### Defined in
+#### Source
 
 main.ts:173520
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
-#### Defined in
+#### Source
 
 main.ts:173518
 
-___
+***
 
-### product\_id
+### product\_id?
 
-• `Optional` **product\_id**: `string`
+> **`optional`** **product\_id**: `string`
 
 product ID in a POST array
 learn more about the parameter in this help center guide
 
-#### Defined in
+#### Source
 
 main.ts:173512
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
-#### Defined in
+#### Source
 
 main.ts:173516
 
-___
+***
 
-### tags
+### tags?
 
-• `Optional` **tags**: `string`[]
+> **`optional`** **tags**: `string`[]
 
 tags of the product
 
-#### Defined in
+#### Source
 
 main.ts:173528
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the product
 
-#### Defined in
+#### Source
 
 main.ts:173522
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
 main.ts:173514

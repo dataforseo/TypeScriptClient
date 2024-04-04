@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsBingRankedKeywordsLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsBingRankedKeywordsLiveResultInfo
 
 # Class: DataforseoLabsBingRankedKeywordsLiveResultInfo
 
@@ -8,264 +12,232 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsBingRankedKeywordsLiveResultInfo.md#constructor)
-
-### Properties
-
-- [items](DataforseoLabsBingRankedKeywordsLiveResultInfo.md#items)
-- [items\_count](DataforseoLabsBingRankedKeywordsLiveResultInfo.md#items_count)
-- [language\_code](DataforseoLabsBingRankedKeywordsLiveResultInfo.md#language_code)
-- [location\_code](DataforseoLabsBingRankedKeywordsLiveResultInfo.md#location_code)
-- [metrics](DataforseoLabsBingRankedKeywordsLiveResultInfo.md#metrics)
-- [metrics\_absolute](DataforseoLabsBingRankedKeywordsLiveResultInfo.md#metrics_absolute)
-- [se\_type](DataforseoLabsBingRankedKeywordsLiveResultInfo.md#se_type)
-- [target](DataforseoLabsBingRankedKeywordsLiveResultInfo.md#target)
-- [total\_count](DataforseoLabsBingRankedKeywordsLiveResultInfo.md#total_count)
-
-### Methods
-
-- [init](DataforseoLabsBingRankedKeywordsLiveResultInfo.md#init)
-- [toJSON](DataforseoLabsBingRankedKeywordsLiveResultInfo.md#tojson)
-- [fromJS](DataforseoLabsBingRankedKeywordsLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsBingRankedKeywordsLiveResultInfo(data)
 
-• **new DataforseoLabsBingRankedKeywordsLiveResultInfo**(`data?`): [`DataforseoLabsBingRankedKeywordsLiveResultInfo`](DataforseoLabsBingRankedKeywordsLiveResultInfo.md)
+> **new DataforseoLabsBingRankedKeywordsLiveResultInfo**(`data`?): [`DataforseoLabsBingRankedKeywordsLiveResultInfo`](DataforseoLabsBingRankedKeywordsLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsBingRankedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveResultInfo.md) |
+• **data?**: [`IDataforseoLabsBingRankedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsBingRankedKeywordsLiveResultInfo`](DataforseoLabsBingRankedKeywordsLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:107775
+main.ts:107783
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`DataforseoLabsBingRankedKeywordsLiveItem`](DataforseoLabsBingRankedKeywordsLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsBingRankedKeywordsLiveItem`](DataforseoLabsBingRankedKeywordsLiveItem.md)[]
 
 contains ranked keywords and related data
 
 #### Implementation of
 
-[IDataforseoLabsBingRankedKeywordsLiveResultInfo](../interfaces/IDataforseoLabsBingRankedKeywordsLiveResultInfo.md).[items](../interfaces/IDataforseoLabsBingRankedKeywordsLiveResultInfo.md#items)
+[`IDataforseoLabsBingRankedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:107771
+main.ts:107779
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[IDataforseoLabsBingRankedKeywordsLiveResultInfo](../interfaces/IDataforseoLabsBingRankedKeywordsLiveResultInfo.md).[items_count](../interfaces/IDataforseoLabsBingRankedKeywordsLiveResultInfo.md#items_count)
+[`IDataforseoLabsBingRankedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:107763
+main.ts:107771
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 if there is no data, then the value is null
 
 #### Implementation of
 
-[IDataforseoLabsBingRankedKeywordsLiveResultInfo](../interfaces/IDataforseoLabsBingRankedKeywordsLiveResultInfo.md).[language_code](../interfaces/IDataforseoLabsBingRankedKeywordsLiveResultInfo.md#language_code)
+[`IDataforseoLabsBingRankedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:107759
+main.ts:107767
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 if there is no data, then the value is null
 
 #### Implementation of
 
-[IDataforseoLabsBingRankedKeywordsLiveResultInfo](../interfaces/IDataforseoLabsBingRankedKeywordsLiveResultInfo.md).[location_code](../interfaces/IDataforseoLabsBingRankedKeywordsLiveResultInfo.md#location_code)
+[`IDataforseoLabsBingRankedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:107756
+main.ts:107764
 
-___
+***
 
-### metrics
+### metrics?
 
-• `Optional` **metrics**: `Object`
+> **`optional`** **metrics**: `Object`
 
 ranking data relevant to the specified domain
 ranking data is provided by the rank_group parameters that show the result’s rank considering only equivalent SERP elements
 
 #### Index signature
 
-▪ [key: `string`]: [`MetricsInfo`](MetricsInfo.md)
+ \[`key`: `string`\]: [`MetricsInfo`](MetricsInfo.md)
 
 #### Implementation of
 
-[IDataforseoLabsBingRankedKeywordsLiveResultInfo](../interfaces/IDataforseoLabsBingRankedKeywordsLiveResultInfo.md).[metrics](../interfaces/IDataforseoLabsBingRankedKeywordsLiveResultInfo.md#metrics)
+[`IDataforseoLabsBingRankedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveResultInfo.md).[`metrics`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveResultInfo.md#metrics)
 
-#### Defined in
+#### Source
 
-main.ts:107766
+main.ts:107774
 
-___
+***
 
-### metrics\_absolute
+### metrics\_absolute?
 
-• `Optional` **metrics\_absolute**: `Object`
+> **`optional`** **metrics\_absolute**: `Object`
 
 ranking data relevant to the specified domain
 ranking data is provided by the rank_absolute parameters that indicate the result’s position among all SERP elements
 
 #### Index signature
 
-▪ [key: `string`]: [`MetricsInfo`](MetricsInfo.md)
+ \[`key`: `string`\]: [`MetricsInfo`](MetricsInfo.md)
 
 #### Implementation of
 
-[IDataforseoLabsBingRankedKeywordsLiveResultInfo](../interfaces/IDataforseoLabsBingRankedKeywordsLiveResultInfo.md).[metrics_absolute](../interfaces/IDataforseoLabsBingRankedKeywordsLiveResultInfo.md#metrics_absolute)
+[`IDataforseoLabsBingRankedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveResultInfo.md).[`metrics_absolute`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveResultInfo.md#metrics_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:107769
+main.ts:107777
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IDataforseoLabsBingRankedKeywordsLiveResultInfo](../interfaces/IDataforseoLabsBingRankedKeywordsLiveResultInfo.md).[se_type](../interfaces/IDataforseoLabsBingRankedKeywordsLiveResultInfo.md#se_type)
+[`IDataforseoLabsBingRankedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:107751
+main.ts:107759
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 target domain in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsBingRankedKeywordsLiveResultInfo](../interfaces/IDataforseoLabsBingRankedKeywordsLiveResultInfo.md).[target](../interfaces/IDataforseoLabsBingRankedKeywordsLiveResultInfo.md#target)
+[`IDataforseoLabsBingRankedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveResultInfo.md).[`target`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveResultInfo.md#target)
 
-#### Defined in
+#### Source
 
-main.ts:107753
+main.ts:107761
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total number of results in our database relevant to your request
 
 #### Implementation of
 
-[IDataforseoLabsBingRankedKeywordsLiveResultInfo](../interfaces/IDataforseoLabsBingRankedKeywordsLiveResultInfo.md).[total_count](../interfaces/IDataforseoLabsBingRankedKeywordsLiveResultInfo.md#total_count)
+[`IDataforseoLabsBingRankedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveResultInfo.md#total_count)
 
-#### Defined in
+#### Source
 
-main.ts:107761
+main.ts:107769
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:107784
+main.ts:107792
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:107825
+main.ts:107833
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsBingRankedKeywordsLiveResultInfo`](DataforseoLabsBingRankedKeywordsLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsBingRankedKeywordsLiveResultInfo`](DataforseoLabsBingRankedKeywordsLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsBingRankedKeywordsLiveResultInfo`](DataforseoLabsBingRankedKeywordsLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:107818
+main.ts:107826

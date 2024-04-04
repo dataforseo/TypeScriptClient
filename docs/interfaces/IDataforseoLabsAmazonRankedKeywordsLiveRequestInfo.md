@@ -1,87 +1,71 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo
 
 # Interface: IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo
 
-## Implemented by
-
-- [`DataforseoLabsAmazonRankedKeywordsLiveRequestInfo`](../classes/DataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [asin](IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#asin)
-- [filters](IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#filters)
-- [ignore\_synonyms](IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#ignore_synonyms)
-- [language\_code](IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#language_code)
-- [language\_name](IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#language_name)
-- [limit](IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#limit)
-- [location\_code](IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#location_code)
-- [location\_name](IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#location_name)
-- [offset](IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#offset)
-- [order\_by](IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#order_by)
-- [tag](IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### asin
+### asin?
 
-• `Optional` **asin**: `string`
+> **`optional`** **asin**: `string`
 
 product ID
 required field
 unique product identifier (ASIN) on Amazon;
 you can receive the asin parameter by making a separate request to the Amazon Products endpoint
 
-#### Defined in
+#### Source
 
-main.ts:102114
+main.ts:102122
 
-___
+***
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, <=, >, >=, =, <>, in, not_in, like, not_like
+regex, <, `<=, >`, >=, =, <>, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["keyword_data.keyword_info.search_volume","in",[100,1000]];
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide
 
-#### Defined in
+#### Source
 
-main.ts:102165
+main.ts:102173
 
-___
+***
 
-### ignore\_synonyms
+### ignore\_synonyms?
 
-• `Optional` **ignore\_synonyms**: `boolean`
+> **`optional`** **ignore\_synonyms**: `boolean`
 
 ignore highly similar keywords
 optional field
 if set to true only core keywords will be returned, all highly similar keywords will be excluded;
 default value: false
 
-#### Defined in
+#### Source
 
-main.ts:102154
+main.ts:102162
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 required field if don’t specify language_name
@@ -90,15 +74,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:102144
+main.ts:102152
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 required field if don’t specify language_code
@@ -107,30 +91,30 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:102137
+main.ts:102145
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of products in the results array
 optional field
 default value: 100;
 maximum value: 1000
 
-#### Defined in
+#### Source
 
-main.ts:102149
+main.ts:102157
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 required field if don’t specify location_name
@@ -140,15 +124,15 @@ Note: this endpoint currently supports the US, Egypt, Saudi Arabia, and the Unit
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:102130
+main.ts:102138
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 required field if don’t specify location_code
@@ -158,30 +142,30 @@ Note: this endpoint currently supports the US, Egypt, Saudi Arabia, and the Unit
 example:
 United States
 
-#### Defined in
+#### Source
 
-main.ts:102122
+main.ts:102130
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned keywords
 optional field
 default value: 0
 if you specify the 10 value, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords
 
-#### Defined in
+#### Source
 
-main.ts:102186
+main.ts:102194
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -199,15 +183,15 @@ you should use a comma to separate several sorting rules
 example:
 ["keyword_data.keyword_info.search_volume,desc","keyword_data.keyword_info.cpc,desc"]
 
-#### Defined in
+#### Source
 
-main.ts:102181
+main.ts:102189
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -215,6 +199,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:102192
+main.ts:102200

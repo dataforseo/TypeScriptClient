@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / WorkHours
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / WorkHours
 
 # Class: WorkHours
 
@@ -8,138 +12,113 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](WorkHours.md#constructor)
-
-### Properties
-
-- [current\_status](WorkHours.md#current_status)
-- [timetable](WorkHours.md#timetable)
-
-### Methods
-
-- [init](WorkHours.md#init)
-- [toJSON](WorkHours.md#tojson)
-- [fromJS](WorkHours.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new WorkHours(data)
 
-• **new WorkHours**(`data?`): [`WorkHours`](WorkHours.md)
+> **new WorkHours**(`data`?): [`WorkHours`](WorkHours.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IWorkHours`](../interfaces/IWorkHours.md) |
+• **data?**: [`IWorkHours`](../interfaces/IWorkHours.md)
 
 #### Returns
 
 [`WorkHours`](WorkHours.md)
 
-#### Defined in
+#### Source
 
-main.ts:39048
+main.ts:39054
 
 ## Properties
 
-### current\_status
+### current\_status?
 
-• `Optional` **current\_status**: `string`
+> **`optional`** **current\_status**: `string`
 
 current status of the establishment
 indicates whether the establishment is opened or closed
 
 #### Implementation of
 
-[IWorkHours](../interfaces/IWorkHours.md).[current_status](../interfaces/IWorkHours.md#current_status)
+[`IWorkHours`](../interfaces/IWorkHours.md).[`current_status`](../interfaces/IWorkHours.md#current_status)
 
-#### Defined in
+#### Source
 
-main.ts:39044
+main.ts:39050
 
-___
+***
 
-### timetable
+### timetable?
 
-• `Optional` **timetable**: `Object`
+> **`optional`** **timetable**: `Object`
 
 work hours timetable
 
 #### Index signature
 
-▪ [key: `string`]: ([`WorkDayInfo`](WorkDayInfo.md) \| `undefined`)[]
+ \[`key`: `string`\]: ([`WorkDayInfo`](WorkDayInfo.md) \| `undefined`)[]
 
 #### Implementation of
 
-[IWorkHours](../interfaces/IWorkHours.md).[timetable](../interfaces/IWorkHours.md#timetable)
+[`IWorkHours`](../interfaces/IWorkHours.md).[`timetable`](../interfaces/IWorkHours.md#timetable)
 
-#### Defined in
+#### Source
 
-main.ts:39041
+main.ts:39047
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:39057
+main.ts:39063
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:39081
+main.ts:39087
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`WorkHours`](WorkHours.md)
+> **`static`** **fromJS**(`data`): [`WorkHours`](WorkHours.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`WorkHours`](WorkHours.md)
 
-#### Defined in
+#### Source
 
-main.ts:39074
+main.ts:39080

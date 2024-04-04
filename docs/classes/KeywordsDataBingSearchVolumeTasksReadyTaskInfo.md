@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataBingSearchVolumeTasksReadyTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataBingSearchVolumeTasksReadyTaskInfo
 
 # Class: KeywordsDataBingSearchVolumeTasksReadyTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`KeywordsDataBingSearchVolumeTasksReadyTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataBingSearchVolumeTasksReadyTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](KeywordsDataBingSearchVolumeTasksReadyTaskInfo.md#cost)
-- [data](KeywordsDataBingSearchVolumeTasksReadyTaskInfo.md#data)
-- [id](KeywordsDataBingSearchVolumeTasksReadyTaskInfo.md#id)
-- [path](KeywordsDataBingSearchVolumeTasksReadyTaskInfo.md#path)
-- [result](KeywordsDataBingSearchVolumeTasksReadyTaskInfo.md#result)
-- [result\_count](KeywordsDataBingSearchVolumeTasksReadyTaskInfo.md#result_count)
-- [status\_code](KeywordsDataBingSearchVolumeTasksReadyTaskInfo.md#status_code)
-- [status\_message](KeywordsDataBingSearchVolumeTasksReadyTaskInfo.md#status_message)
-- [time](KeywordsDataBingSearchVolumeTasksReadyTaskInfo.md#time)
-
-### Methods
-
-- [init](KeywordsDataBingSearchVolumeTasksReadyTaskInfo.md#init)
-- [toJSON](KeywordsDataBingSearchVolumeTasksReadyTaskInfo.md#tojson)
-- [fromJS](KeywordsDataBingSearchVolumeTasksReadyTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordsDataBingSearchVolumeTasksReadyTaskInfo(data)
 
-• **new KeywordsDataBingSearchVolumeTasksReadyTaskInfo**(`data?`): [`KeywordsDataBingSearchVolumeTasksReadyTaskInfo`](KeywordsDataBingSearchVolumeTasksReadyTaskInfo.md)
+> **new KeywordsDataBingSearchVolumeTasksReadyTaskInfo**(`data`?): [`KeywordsDataBingSearchVolumeTasksReadyTaskInfo`](KeywordsDataBingSearchVolumeTasksReadyTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordsDataBingSearchVolumeTasksReadyTaskInfo`](../interfaces/IKeywordsDataBingSearchVolumeTasksReadyTaskInfo.md) |
+• **data?**: [`IKeywordsDataBingSearchVolumeTasksReadyTaskInfo`](../interfaces/IKeywordsDataBingSearchVolumeTasksReadyTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:128122
+main.ts:128130
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IKeywordsDataBingSearchVolumeTasksReadyTaskInfo](../interfaces/IKeywordsDataBingSearchVolumeTasksReadyTaskInfo.md).[cost](../interfaces/IKeywordsDataBingSearchVolumeTasksReadyTaskInfo.md#cost)
+[`IKeywordsDataBingSearchVolumeTasksReadyTaskInfo`](../interfaces/IKeywordsDataBingSearchVolumeTasksReadyTaskInfo.md).[`cost`](../interfaces/IKeywordsDataBingSearchVolumeTasksReadyTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[IKeywordsDataBingSearchVolumeTasksReadyTaskInfo](../interfaces/IKeywordsDataBingSearchVolumeTasksReadyTaskInfo.md).[data](../interfaces/IKeywordsDataBingSearchVolumeTasksReadyTaskInfo.md#data)
+[`IKeywordsDataBingSearchVolumeTasksReadyTaskInfo`](../interfaces/IKeywordsDataBingSearchVolumeTasksReadyTaskInfo.md).[`data`](../interfaces/IKeywordsDataBingSearchVolumeTasksReadyTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IKeywordsDataBingSearchVolumeTasksReadyTaskInfo](../interfaces/IKeywordsDataBingSearchVolumeTasksReadyTaskInfo.md).[id](../interfaces/IKeywordsDataBingSearchVolumeTasksReadyTaskInfo.md#id)
+[`IKeywordsDataBingSearchVolumeTasksReadyTaskInfo`](../interfaces/IKeywordsDataBingSearchVolumeTasksReadyTaskInfo.md).[`id`](../interfaces/IKeywordsDataBingSearchVolumeTasksReadyTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[IKeywordsDataBingSearchVolumeTasksReadyTaskInfo](../interfaces/IKeywordsDataBingSearchVolumeTasksReadyTaskInfo.md).[path](../interfaces/IKeywordsDataBingSearchVolumeTasksReadyTaskInfo.md#path)
+[`IKeywordsDataBingSearchVolumeTasksReadyTaskInfo`](../interfaces/IKeywordsDataBingSearchVolumeTasksReadyTaskInfo.md).[`path`](../interfaces/IKeywordsDataBingSearchVolumeTasksReadyTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`KeywordsDataBingSearchVolumeTasksReadyResultInfo`](KeywordsDataBingSearchVolumeTasksReadyResultInfo.md)[]
+> **`optional`** **result**: [`KeywordsDataBingSearchVolumeTasksReadyResultInfo`](KeywordsDataBingSearchVolumeTasksReadyResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[IKeywordsDataBingSearchVolumeTasksReadyTaskInfo](../interfaces/IKeywordsDataBingSearchVolumeTasksReadyTaskInfo.md).[result](../interfaces/IKeywordsDataBingSearchVolumeTasksReadyTaskInfo.md#result)
+[`IKeywordsDataBingSearchVolumeTasksReadyTaskInfo`](../interfaces/IKeywordsDataBingSearchVolumeTasksReadyTaskInfo.md).[`result`](../interfaces/IKeywordsDataBingSearchVolumeTasksReadyTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:128118
+main.ts:128126
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[IKeywordsDataBingSearchVolumeTasksReadyTaskInfo](../interfaces/IKeywordsDataBingSearchVolumeTasksReadyTaskInfo.md).[result_count](../interfaces/IKeywordsDataBingSearchVolumeTasksReadyTaskInfo.md#result_count)
+[`IKeywordsDataBingSearchVolumeTasksReadyTaskInfo`](../interfaces/IKeywordsDataBingSearchVolumeTasksReadyTaskInfo.md).[`result_count`](../interfaces/IKeywordsDataBingSearchVolumeTasksReadyTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[IKeywordsDataBingSearchVolumeTasksReadyTaskInfo](../interfaces/IKeywordsDataBingSearchVolumeTasksReadyTaskInfo.md).[status_code](../interfaces/IKeywordsDataBingSearchVolumeTasksReadyTaskInfo.md#status_code)
+[`IKeywordsDataBingSearchVolumeTasksReadyTaskInfo`](../interfaces/IKeywordsDataBingSearchVolumeTasksReadyTaskInfo.md).[`status_code`](../interfaces/IKeywordsDataBingSearchVolumeTasksReadyTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IKeywordsDataBingSearchVolumeTasksReadyTaskInfo](../interfaces/IKeywordsDataBingSearchVolumeTasksReadyTaskInfo.md).[status_message](../interfaces/IKeywordsDataBingSearchVolumeTasksReadyTaskInfo.md#status_message)
+[`IKeywordsDataBingSearchVolumeTasksReadyTaskInfo`](../interfaces/IKeywordsDataBingSearchVolumeTasksReadyTaskInfo.md).[`status_message`](../interfaces/IKeywordsDataBingSearchVolumeTasksReadyTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[IKeywordsDataBingSearchVolumeTasksReadyTaskInfo](../interfaces/IKeywordsDataBingSearchVolumeTasksReadyTaskInfo.md).[time](../interfaces/IKeywordsDataBingSearchVolumeTasksReadyTaskInfo.md#time)
+[`IKeywordsDataBingSearchVolumeTasksReadyTaskInfo`](../interfaces/IKeywordsDataBingSearchVolumeTasksReadyTaskInfo.md).[`time`](../interfaces/IKeywordsDataBingSearchVolumeTasksReadyTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:128126
+main.ts:128134
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:128148
+main.ts:128156
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordsDataBingSearchVolumeTasksReadyTaskInfo`](KeywordsDataBingSearchVolumeTasksReadyTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordsDataBingSearchVolumeTasksReadyTaskInfo`](KeywordsDataBingSearchVolumeTasksReadyTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:128141
+main.ts:128149

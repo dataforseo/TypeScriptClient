@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoSubtitlesTasksFixedResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpYoutubeVideoSubtitlesTasksFixedResultInfo
 
 # Class: SerpYoutubeVideoSubtitlesTasksFixedResultInfo
 
@@ -8,240 +12,209 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpYoutubeVideoSubtitlesTasksFixedResultInfo.md#constructor)
-
-### Properties
-
-- [date\_fixed](SerpYoutubeVideoSubtitlesTasksFixedResultInfo.md#date_fixed)
-- [endpoint\_advanced](SerpYoutubeVideoSubtitlesTasksFixedResultInfo.md#endpoint_advanced)
-- [endpoint\_html](SerpYoutubeVideoSubtitlesTasksFixedResultInfo.md#endpoint_html)
-- [endpoint\_regular](SerpYoutubeVideoSubtitlesTasksFixedResultInfo.md#endpoint_regular)
-- [id](SerpYoutubeVideoSubtitlesTasksFixedResultInfo.md#id)
-- [se](SerpYoutubeVideoSubtitlesTasksFixedResultInfo.md#se)
-- [se\_type](SerpYoutubeVideoSubtitlesTasksFixedResultInfo.md#se_type)
-- [tag](SerpYoutubeVideoSubtitlesTasksFixedResultInfo.md#tag)
-
-### Methods
-
-- [init](SerpYoutubeVideoSubtitlesTasksFixedResultInfo.md#init)
-- [toJSON](SerpYoutubeVideoSubtitlesTasksFixedResultInfo.md#tojson)
-- [fromJS](SerpYoutubeVideoSubtitlesTasksFixedResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpYoutubeVideoSubtitlesTasksFixedResultInfo(data)
 
-• **new SerpYoutubeVideoSubtitlesTasksFixedResultInfo**(`data?`): [`SerpYoutubeVideoSubtitlesTasksFixedResultInfo`](SerpYoutubeVideoSubtitlesTasksFixedResultInfo.md)
+> **new SerpYoutubeVideoSubtitlesTasksFixedResultInfo**(`data`?): [`SerpYoutubeVideoSubtitlesTasksFixedResultInfo`](SerpYoutubeVideoSubtitlesTasksFixedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpYoutubeVideoSubtitlesTasksFixedResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResultInfo.md) |
+• **data?**: [`ISerpYoutubeVideoSubtitlesTasksFixedResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResultInfo.md)
 
 #### Returns
 
 [`SerpYoutubeVideoSubtitlesTasksFixedResultInfo`](SerpYoutubeVideoSubtitlesTasksFixedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:62406
+main.ts:62414
 
 ## Properties
 
-### date\_fixed
+### date\_fixed?
 
-• `Optional` **date\_fixed**: `string`
+> **`optional`** **date\_fixed**: `string`
 
 date when the task was fixed (in the UTC format)
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTasksFixedResultInfo](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResultInfo.md).[date_fixed](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResultInfo.md#date_fixed)
+[`ISerpYoutubeVideoSubtitlesTasksFixedResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResultInfo.md).[`date_fixed`](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResultInfo.md#date_fixed)
 
-#### Defined in
+#### Source
 
-main.ts:62391
+main.ts:62399
 
-___
+***
 
-### endpoint\_advanced
+### endpoint\_advanced?
 
-• `Optional` **endpoint\_advanced**: `string`
+> **`optional`** **endpoint\_advanced**: `string`
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTasksFixedResultInfo](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResultInfo.md).[endpoint_advanced](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResultInfo.md#endpoint_advanced)
+[`ISerpYoutubeVideoSubtitlesTasksFixedResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResultInfo.md).[`endpoint_advanced`](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResultInfo.md#endpoint_advanced)
 
-#### Defined in
+#### Source
 
-main.ts:62399
+main.ts:62407
 
-___
+***
 
-### endpoint\_html
+### endpoint\_html?
 
-• `Optional` **endpoint\_html**: `string`
+> **`optional`** **endpoint\_html**: `string`
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTasksFixedResultInfo](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResultInfo.md).[endpoint_html](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResultInfo.md#endpoint_html)
+[`ISerpYoutubeVideoSubtitlesTasksFixedResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResultInfo.md).[`endpoint_html`](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResultInfo.md#endpoint_html)
 
-#### Defined in
+#### Source
 
-main.ts:62402
+main.ts:62410
 
-___
+***
 
-### endpoint\_regular
+### endpoint\_regular?
 
-• `Optional` **endpoint\_regular**: `string`
+> **`optional`** **endpoint\_regular**: `string`
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTasksFixedResultInfo](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResultInfo.md).[endpoint_regular](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResultInfo.md#endpoint_regular)
+[`ISerpYoutubeVideoSubtitlesTasksFixedResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResultInfo.md).[`endpoint_regular`](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResultInfo.md#endpoint_regular)
 
-#### Defined in
+#### Source
 
-main.ts:62396
+main.ts:62404
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTasksFixedResultInfo](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResultInfo.md).[id](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResultInfo.md#id)
+[`ISerpYoutubeVideoSubtitlesTasksFixedResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResultInfo.md).[`id`](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResultInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:62384
+main.ts:62392
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTasksFixedResultInfo](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResultInfo.md).[se](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResultInfo.md#se)
+[`ISerpYoutubeVideoSubtitlesTasksFixedResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResultInfo.md).[`se`](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResultInfo.md#se)
 
-#### Defined in
+#### Source
 
-main.ts:62386
+main.ts:62394
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 type of search engine
 can take the following values: video_subtitles
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTasksFixedResultInfo](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResultInfo.md).[se_type](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResultInfo.md#se_type)
+[`ISerpYoutubeVideoSubtitlesTasksFixedResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResultInfo.md).[`se_type`](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:62389
+main.ts:62397
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTasksFixedResultInfo](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResultInfo.md).[tag](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResultInfo.md#tag)
+[`ISerpYoutubeVideoSubtitlesTasksFixedResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResultInfo.md).[`tag`](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResultInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:62393
+main.ts:62401
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:62415
+main.ts:62423
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:62439
+main.ts:62447
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpYoutubeVideoSubtitlesTasksFixedResultInfo`](SerpYoutubeVideoSubtitlesTasksFixedResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpYoutubeVideoSubtitlesTasksFixedResultInfo`](SerpYoutubeVideoSubtitlesTasksFixedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpYoutubeVideoSubtitlesTasksFixedResultInfo`](SerpYoutubeVideoSubtitlesTasksFixedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:62432
+main.ts:62440

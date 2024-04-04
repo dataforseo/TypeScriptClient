@@ -1,48 +1,39 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IProductInformationVideoRow
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IProductInformationVideoRow
 
 # Interface: IProductInformationVideoRow
 
-## Hierarchy
+## Extends
 
 - [`IBaseProductInformationRowItem`](IBaseProductInformationRowItem.md)
 
-  ↳ **`IProductInformationVideoRow`**
-
-## Implemented by
-
-- [`ProductInformationVideoRow`](../classes/ProductInformationVideoRow.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [preview](IProductInformationVideoRow.md#preview)
-- [url](IProductInformationVideoRow.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### preview
+### preview?
 
-• `Optional` **preview**: `string`
+> **`optional`** **preview**: `string`
 
 URL of the preview image for the related video
 
-#### Defined in
+#### Source
 
 main.ts:178731
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL of the image
 
-#### Defined in
+#### Source
 
 main.ts:178733

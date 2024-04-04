@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageNonIndexableItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPageNonIndexableItem
 
 # Class: OnPageNonIndexableItem
 
@@ -8,134 +12,109 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPageNonIndexableItem.md#constructor)
-
-### Properties
-
-- [reason](OnPageNonIndexableItem.md#reason)
-- [url](OnPageNonIndexableItem.md#url)
-
-### Methods
-
-- [init](OnPageNonIndexableItem.md#init)
-- [toJSON](OnPageNonIndexableItem.md#tojson)
-- [fromJS](OnPageNonIndexableItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPageNonIndexableItem(data)
 
-• **new OnPageNonIndexableItem**(`data?`): [`OnPageNonIndexableItem`](OnPageNonIndexableItem.md)
+> **new OnPageNonIndexableItem**(`data`?): [`OnPageNonIndexableItem`](OnPageNonIndexableItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPageNonIndexableItem`](../interfaces/IOnPageNonIndexableItem.md) |
+• **data?**: [`IOnPageNonIndexableItem`](../interfaces/IOnPageNonIndexableItem.md)
 
 #### Returns
 
 [`OnPageNonIndexableItem`](OnPageNonIndexableItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:154813
+main.ts:154821
 
 ## Properties
 
-### reason
+### reason?
 
-• `Optional` **reason**: `string`
+> **`optional`** **reason**: `string`
 
 the reason why the page is non-indexable
 can take the following values: robots_txt, meta_tag, http_header, attribute, too_many_redirects
 
 #### Implementation of
 
-[IOnPageNonIndexableItem](../interfaces/IOnPageNonIndexableItem.md).[reason](../interfaces/IOnPageNonIndexableItem.md#reason)
+[`IOnPageNonIndexableItem`](../interfaces/IOnPageNonIndexableItem.md).[`reason`](../interfaces/IOnPageNonIndexableItem.md#reason)
 
-#### Defined in
+#### Source
 
-main.ts:154807
+main.ts:154815
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 url of the non-indexable page
 
 #### Implementation of
 
-[IOnPageNonIndexableItem](../interfaces/IOnPageNonIndexableItem.md).[url](../interfaces/IOnPageNonIndexableItem.md#url)
+[`IOnPageNonIndexableItem`](../interfaces/IOnPageNonIndexableItem.md).[`url`](../interfaces/IOnPageNonIndexableItem.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:154809
+main.ts:154817
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:154822
+main.ts:154830
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:154840
+main.ts:154848
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPageNonIndexableItem`](OnPageNonIndexableItem.md)
+> **`static`** **fromJS**(`data`): [`OnPageNonIndexableItem`](OnPageNonIndexableItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`OnPageNonIndexableItem`](OnPageNonIndexableItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:154833
+main.ts:154841

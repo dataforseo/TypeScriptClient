@@ -1,257 +1,233 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IImageLinkElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IImageLinkElementItem
 
 # Interface: IImageLinkElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseOnPageLinkItemInfo`](IBaseOnPageLinkItemInfo.md)
 
-  ↳ **`IImageLinkElementItem`**
-
-## Implemented by
-
-- [`ImageLinkElementItem`](../classes/ImageLinkElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [direction](IImageLinkElementItem.md#direction)
-- [dofollow](IImageLinkElementItem.md#dofollow)
-- [domain\_from](IImageLinkElementItem.md#domain_from)
-- [domain\_to](IImageLinkElementItem.md#domain_to)
-- [image\_alt](IImageLinkElementItem.md#image_alt)
-- [image\_src](IImageLinkElementItem.md#image_src)
-- [is\_broken](IImageLinkElementItem.md#is_broken)
-- [is\_link\_relation\_conflict](IImageLinkElementItem.md#is_link_relation_conflict)
-- [link\_attribute](IImageLinkElementItem.md#link_attribute)
-- [link\_from](IImageLinkElementItem.md#link_from)
-- [link\_to](IImageLinkElementItem.md#link_to)
-- [page\_from](IImageLinkElementItem.md#page_from)
-- [page\_from\_scheme](IImageLinkElementItem.md#page_from_scheme)
-- [page\_to](IImageLinkElementItem.md#page_to)
-- [page\_to\_scheme](IImageLinkElementItem.md#page_to_scheme)
-- [page\_to\_status\_code](IImageLinkElementItem.md#page_to_status_code)
-- [text](IImageLinkElementItem.md#text)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### direction
+### direction?
 
-• `Optional` **direction**: `string`
+> **`optional`** **direction**: `string`
 
 direction of the link
 possible values: internal, external
 
-#### Defined in
+#### Source
 
-main.ts:153929
+main.ts:153937
 
-___
+***
 
-### dofollow
+### dofollow?
 
-• `Optional` **dofollow**: `boolean`
+> **`optional`** **dofollow**: `boolean`
 
 indicates whether the link is dofollow
 if the value is true, the link doesn’t have a rel="nofollow" attribute
 
-#### Defined in
+#### Source
 
-main.ts:153922
+main.ts:153930
 
-___
+***
 
-### domain\_from
+### domain\_from?
 
-• `Optional` **domain\_from**: `string`
+> **`optional`** **domain\_from**: `string`
 
 referring domain
 the link was found on this domain
 
-#### Defined in
+#### Source
 
-main.ts:153899
+main.ts:153907
 
-___
+***
 
-### domain\_to
+### domain\_to?
 
-• `Optional` **domain\_to**: `string`
+> **`optional`** **domain\_to**: `string`
 
 referenced domain
 the link is pointing to this domain
 
-#### Defined in
+#### Source
 
-main.ts:153902
+main.ts:153910
 
-___
+***
 
-### image\_alt
+### image\_alt?
 
-• `Optional` **image\_alt**: `string`
+> **`optional`** **image\_alt**: `string`
 
 alternative text for the image
 
-#### Defined in
+#### Source
 
-main.ts:153936
+main.ts:153944
 
-___
+***
 
-### image\_src
+### image\_src?
 
-• `Optional` **image\_src**: `string`
+> **`optional`** **image\_src**: `string`
 
 url of the image
 
-#### Defined in
+#### Source
 
-main.ts:153938
+main.ts:153946
 
-___
+***
 
-### is\_broken
+### is\_broken?
 
-• `Optional` **is\_broken**: `boolean`
+> **`optional`** **is\_broken**: `boolean`
 
 link is broken
 indicates whether a link is directing to a broken page or resource
 
-#### Defined in
+#### Source
 
-main.ts:153932
+main.ts:153940
 
-___
+***
 
-### is\_link\_relation\_conflict
+### is\_link\_relation\_conflict?
 
-• `Optional` **is\_link\_relation\_conflict**: `boolean`
+> **`optional`** **is\_link\_relation\_conflict**: `boolean`
 
 indicates that the link may have a conflict with another link
 if true, at least one link pointing to link_to has a rel="nofollow" attribute and at least one is dofollow
 
-#### Defined in
+#### Source
 
-main.ts:153941
+main.ts:153949
 
-___
+***
 
-### link\_attribute
+### link\_attribute?
 
-• `Optional` **link\_attribute**: `string`[]
+> **`optional`** **link\_attribute**: `string`[]
 
 link attribute added to external link
 indicates link attributes added to the link_to on the page_from
 example:
 ["ugc","noopener"]
 
-#### Defined in
+#### Source
 
-main.ts:153919
+main.ts:153927
 
-___
+***
 
-### link\_from
+### link\_from?
 
-• `Optional` **link\_from**: `string`
+> **`optional`** **link\_from**: `string`
 
 referring page
 absolute URL of the page on which the link was found
 
-#### Defined in
+#### Source
 
-main.ts:153911
+main.ts:153919
 
-___
+***
 
-### link\_to
+### link\_to?
 
-• `Optional` **link\_to**: `string`
+> **`optional`** **link\_to**: `string`
 
 referenced page
 absolute URL of the page to which the link is pointing
 
-#### Defined in
+#### Source
 
-main.ts:153914
+main.ts:153922
 
-___
+***
 
-### page\_from
+### page\_from?
 
-• `Optional` **page\_from**: `string`
+> **`optional`** **page\_from**: `string`
 
 referring page
 relative URL of the page on which the link was found
 
-#### Defined in
+#### Source
 
-main.ts:153905
+main.ts:153913
 
-___
+***
 
-### page\_from\_scheme
+### page\_from\_scheme?
 
-• `Optional` **page\_from\_scheme**: `string`
+> **`optional`** **page\_from\_scheme**: `string`
 
 url scheme of the referring page
 
-#### Defined in
+#### Source
 
-main.ts:153924
+main.ts:153932
 
-___
+***
 
-### page\_to
+### page\_to?
 
-• `Optional` **page\_to**: `string`
+> **`optional`** **page\_to**: `string`
 
 referenced page
 relative URL of the page to which the link is pointing
 
-#### Defined in
+#### Source
 
-main.ts:153908
+main.ts:153916
 
-___
+***
 
-### page\_to\_scheme
+### page\_to\_scheme?
 
-• `Optional` **page\_to\_scheme**: `string`
+> **`optional`** **page\_to\_scheme**: `string`
 
 url scheme of the referenced page
 
-#### Defined in
+#### Source
 
-main.ts:153926
+main.ts:153934
 
-___
+***
 
-### page\_to\_status\_code
+### page\_to\_status\_code?
 
-• `Optional` **page\_to\_status\_code**: `number`
+> **`optional`** **page\_to\_status\_code**: `number`
 
 status code of the referenced page
 status code of the page to which the link is pointing
 
-#### Defined in
+#### Source
 
-main.ts:153944
+main.ts:153952
 
-___
+***
 
-### text
+### text?
 
-• `Optional` **text**: `string`
+> **`optional`** **text**: `string`
 
 anchor text
 
-#### Defined in
+#### Source
 
-main.ts:153934
+main.ts:153942

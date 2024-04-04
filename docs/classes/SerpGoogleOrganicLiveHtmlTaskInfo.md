@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleOrganicLiveHtmlTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleOrganicLiveHtmlTaskInfo
 
 # Class: SerpGoogleOrganicLiveHtmlTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`SerpGoogleOrganicLiveHtmlTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleOrganicLiveHtmlTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](SerpGoogleOrganicLiveHtmlTaskInfo.md#cost)
-- [data](SerpGoogleOrganicLiveHtmlTaskInfo.md#data)
-- [id](SerpGoogleOrganicLiveHtmlTaskInfo.md#id)
-- [path](SerpGoogleOrganicLiveHtmlTaskInfo.md#path)
-- [result](SerpGoogleOrganicLiveHtmlTaskInfo.md#result)
-- [result\_count](SerpGoogleOrganicLiveHtmlTaskInfo.md#result_count)
-- [status\_code](SerpGoogleOrganicLiveHtmlTaskInfo.md#status_code)
-- [status\_message](SerpGoogleOrganicLiveHtmlTaskInfo.md#status_message)
-- [time](SerpGoogleOrganicLiveHtmlTaskInfo.md#time)
-
-### Methods
-
-- [init](SerpGoogleOrganicLiveHtmlTaskInfo.md#init)
-- [toJSON](SerpGoogleOrganicLiveHtmlTaskInfo.md#tojson)
-- [fromJS](SerpGoogleOrganicLiveHtmlTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleOrganicLiveHtmlTaskInfo(data)
 
-• **new SerpGoogleOrganicLiveHtmlTaskInfo**(`data?`): [`SerpGoogleOrganicLiveHtmlTaskInfo`](SerpGoogleOrganicLiveHtmlTaskInfo.md)
+> **new SerpGoogleOrganicLiveHtmlTaskInfo**(`data`?): [`SerpGoogleOrganicLiveHtmlTaskInfo`](SerpGoogleOrganicLiveHtmlTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleOrganicLiveHtmlTaskInfo`](../interfaces/ISerpGoogleOrganicLiveHtmlTaskInfo.md) |
+• **data?**: [`ISerpGoogleOrganicLiveHtmlTaskInfo`](../interfaces/ISerpGoogleOrganicLiveHtmlTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:37959
+main.ts:37965
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[ISerpGoogleOrganicLiveHtmlTaskInfo](../interfaces/ISerpGoogleOrganicLiveHtmlTaskInfo.md).[cost](../interfaces/ISerpGoogleOrganicLiveHtmlTaskInfo.md#cost)
+[`ISerpGoogleOrganicLiveHtmlTaskInfo`](../interfaces/ISerpGoogleOrganicLiveHtmlTaskInfo.md).[`cost`](../interfaces/ISerpGoogleOrganicLiveHtmlTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[ISerpGoogleOrganicLiveHtmlTaskInfo](../interfaces/ISerpGoogleOrganicLiveHtmlTaskInfo.md).[data](../interfaces/ISerpGoogleOrganicLiveHtmlTaskInfo.md#data)
+[`ISerpGoogleOrganicLiveHtmlTaskInfo`](../interfaces/ISerpGoogleOrganicLiveHtmlTaskInfo.md).[`data`](../interfaces/ISerpGoogleOrganicLiveHtmlTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[ISerpGoogleOrganicLiveHtmlTaskInfo](../interfaces/ISerpGoogleOrganicLiveHtmlTaskInfo.md).[id](../interfaces/ISerpGoogleOrganicLiveHtmlTaskInfo.md#id)
+[`ISerpGoogleOrganicLiveHtmlTaskInfo`](../interfaces/ISerpGoogleOrganicLiveHtmlTaskInfo.md).[`id`](../interfaces/ISerpGoogleOrganicLiveHtmlTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[ISerpGoogleOrganicLiveHtmlTaskInfo](../interfaces/ISerpGoogleOrganicLiveHtmlTaskInfo.md).[path](../interfaces/ISerpGoogleOrganicLiveHtmlTaskInfo.md#path)
+[`ISerpGoogleOrganicLiveHtmlTaskInfo`](../interfaces/ISerpGoogleOrganicLiveHtmlTaskInfo.md).[`path`](../interfaces/ISerpGoogleOrganicLiveHtmlTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`SerpGoogleOrganicLiveHtmlResultInfo`](SerpGoogleOrganicLiveHtmlResultInfo.md)[]
+> **`optional`** **result**: [`SerpGoogleOrganicLiveHtmlResultInfo`](SerpGoogleOrganicLiveHtmlResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[ISerpGoogleOrganicLiveHtmlTaskInfo](../interfaces/ISerpGoogleOrganicLiveHtmlTaskInfo.md).[result](../interfaces/ISerpGoogleOrganicLiveHtmlTaskInfo.md#result)
+[`ISerpGoogleOrganicLiveHtmlTaskInfo`](../interfaces/ISerpGoogleOrganicLiveHtmlTaskInfo.md).[`result`](../interfaces/ISerpGoogleOrganicLiveHtmlTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:37955
+main.ts:37961
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[ISerpGoogleOrganicLiveHtmlTaskInfo](../interfaces/ISerpGoogleOrganicLiveHtmlTaskInfo.md).[result_count](../interfaces/ISerpGoogleOrganicLiveHtmlTaskInfo.md#result_count)
+[`ISerpGoogleOrganicLiveHtmlTaskInfo`](../interfaces/ISerpGoogleOrganicLiveHtmlTaskInfo.md).[`result_count`](../interfaces/ISerpGoogleOrganicLiveHtmlTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[ISerpGoogleOrganicLiveHtmlTaskInfo](../interfaces/ISerpGoogleOrganicLiveHtmlTaskInfo.md).[status_code](../interfaces/ISerpGoogleOrganicLiveHtmlTaskInfo.md#status_code)
+[`ISerpGoogleOrganicLiveHtmlTaskInfo`](../interfaces/ISerpGoogleOrganicLiveHtmlTaskInfo.md).[`status_code`](../interfaces/ISerpGoogleOrganicLiveHtmlTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[ISerpGoogleOrganicLiveHtmlTaskInfo](../interfaces/ISerpGoogleOrganicLiveHtmlTaskInfo.md).[status_message](../interfaces/ISerpGoogleOrganicLiveHtmlTaskInfo.md#status_message)
+[`ISerpGoogleOrganicLiveHtmlTaskInfo`](../interfaces/ISerpGoogleOrganicLiveHtmlTaskInfo.md).[`status_message`](../interfaces/ISerpGoogleOrganicLiveHtmlTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[ISerpGoogleOrganicLiveHtmlTaskInfo](../interfaces/ISerpGoogleOrganicLiveHtmlTaskInfo.md).[time](../interfaces/ISerpGoogleOrganicLiveHtmlTaskInfo.md#time)
+[`ISerpGoogleOrganicLiveHtmlTaskInfo`](../interfaces/ISerpGoogleOrganicLiveHtmlTaskInfo.md).[`time`](../interfaces/ISerpGoogleOrganicLiveHtmlTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:37963
+main.ts:37969
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:37985
+main.ts:37991
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleOrganicLiveHtmlTaskInfo`](SerpGoogleOrganicLiveHtmlTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleOrganicLiveHtmlTaskInfo`](SerpGoogleOrganicLiveHtmlTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:37978
+main.ts:37984

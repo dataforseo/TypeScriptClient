@@ -1,43 +1,36 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IInterests
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IInterests
 
 # Interface: IInterests
 
-## Implemented by
-
-- [`Interests`](../classes/Interests.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [keyword](IInterests.md#keyword)
-- [values](IInterests.md#values)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 relevant keyword
 the data included in the values element is based on this keyword
 
-#### Defined in
+#### Source
 
-main.ts:125545
+main.ts:125553
 
-___
+***
 
-### values
+### values?
 
-• `Optional` **values**: [`Values`](../classes/Values.md)[]
+> **`optional`** **values**: [`Values`](../classes/Values.md)[]
 
 contains data on relative keyword popularity by country or region
 
-#### Defined in
+#### Source
 
-main.ts:125547
+main.ts:125555

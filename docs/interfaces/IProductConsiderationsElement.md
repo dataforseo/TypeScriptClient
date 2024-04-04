@@ -1,69 +1,60 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IProductConsiderationsElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IProductConsiderationsElement
 
 # Interface: IProductConsiderationsElement
 
-## Implemented by
-
-- [`ProductConsiderationsElement`](../classes/ProductConsiderationsElement.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [consideration\_category](IProductConsiderationsElement.md#consideration_category)
-- [expanded\_element](IProductConsiderationsElement.md#expanded_element)
-- [title](IProductConsiderationsElement.md#title)
-- [type](IProductConsiderationsElement.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### consideration\_category
+### consideration\_category?
 
-• `Optional` **consideration\_category**: `string`
+> **`optional`** **consideration\_category**: `string`
 
 category of the consideration element
 the category is indicated just above the title fo the consideration element
 
-#### Defined in
+#### Source
 
-main.ts:35532
+main.ts:35538
 
-___
+***
 
-### expanded\_element
+### expanded\_element?
 
-• `Optional` **expanded\_element**: [`ProductConsiderationsExpandedElement`](../classes/ProductConsiderationsExpandedElement.md)
+> **`optional`** **expanded\_element**: [`ProductConsiderationsExpandedElement`](../classes/ProductConsiderationsExpandedElement.md)
 
 expanded element
 
-#### Defined in
+#### Source
 
-main.ts:35534
+main.ts:35540
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
-#### Defined in
+#### Source
 
-main.ts:35529
+main.ts:35535
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:35527
+main.ts:35533

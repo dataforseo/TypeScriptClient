@@ -1,96 +1,73 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksDomainPagesLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBacklinksDomainPagesLiveItem
 
 # Interface: IBacklinksDomainPagesLiveItem
 
-## Implemented by
-
-- [`BacklinksDomainPagesLiveItem`](../classes/BacklinksDomainPagesLiveItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [content\_encoding](IBacklinksDomainPagesLiveItem.md#content_encoding)
-- [domain](IBacklinksDomainPagesLiveItem.md#domain)
-- [encoded\_size](IBacklinksDomainPagesLiveItem.md#encoded_size)
-- [fetch\_time](IBacklinksDomainPagesLiveItem.md#fetch_time)
-- [first\_visited](IBacklinksDomainPagesLiveItem.md#first_visited)
-- [ip](IBacklinksDomainPagesLiveItem.md#ip)
-- [location](IBacklinksDomainPagesLiveItem.md#location)
-- [main\_domain](IBacklinksDomainPagesLiveItem.md#main_domain)
-- [media\_type](IBacklinksDomainPagesLiveItem.md#media_type)
-- [meta](IBacklinksDomainPagesLiveItem.md#meta)
-- [page](IBacklinksDomainPagesLiveItem.md#page)
-- [page\_summary](IBacklinksDomainPagesLiveItem.md#page_summary)
-- [prev\_visited](IBacklinksDomainPagesLiveItem.md#prev_visited)
-- [server](IBacklinksDomainPagesLiveItem.md#server)
-- [size](IBacklinksDomainPagesLiveItem.md#size)
-- [status\_code](IBacklinksDomainPagesLiveItem.md#status_code)
-- [tld](IBacklinksDomainPagesLiveItem.md#tld)
-- [type](IBacklinksDomainPagesLiveItem.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### content\_encoding
+### content\_encoding?
 
-• `Optional` **content\_encoding**: `string`
+> **`optional`** **content\_encoding**: `string`
 
 type of encoding
 
-#### Defined in
+#### Source
 
-main.ts:138805
+main.ts:138813
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain
 domain where the page was found
 
-#### Defined in
+#### Source
 
-main.ts:138769
+main.ts:138777
 
-___
+***
 
-### encoded\_size
+### encoded\_size?
 
-• `Optional` **encoded\_size**: `number`
+> **`optional`** **encoded\_size**: `number`
 
 page size after encoding
 indicates the size of the encoded page, in bytes
 
-#### Defined in
+#### Source
 
-main.ts:138803
+main.ts:138811
 
-___
+***
 
-### fetch\_time
+### fetch\_time?
 
-• `Optional` **fetch\_time**: `string`
+> **`optional`** **fetch\_time**: `string`
 
 most recent date and time when our crawler visited the page
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2017-01-24 13:20:59 +00:00
 
-#### Defined in
+#### Source
 
-main.ts:138793
+main.ts:138801
 
-___
+***
 
-### first\_visited
+### first\_visited?
 
-• `Optional` **first\_visited**: `string`
+> **`optional`** **first\_visited**: `string`
 
 date and time of the first page visit
 date and time when our crawler visited this page for the first time
@@ -98,169 +75,169 @@ in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2017-01-24 13:20:59 +00:00
 
-#### Defined in
+#### Source
 
-main.ts:138783
+main.ts:138791
 
-___
+***
 
-### ip
+### ip?
 
-• `Optional` **ip**: `string`
+> **`optional`** **ip**: `string`
 
 Internet Protocol address
 
-#### Defined in
+#### Source
 
-main.ts:138777
+main.ts:138785
 
-___
+***
 
-### location
+### location?
 
-• `Optional` **location**: `string`
+> **`optional`** **location**: `string`
 
 location header
 indicates the URL to redirect a page to if exists
 
-#### Defined in
+#### Source
 
-main.ts:138798
+main.ts:138806
 
-___
+***
 
-### main\_domain
+### main\_domain?
 
-• `Optional` **main\_domain**: `string`
+> **`optional`** **main\_domain**: `string`
 
 main website domain
 main website domain does not include subdomains
 
-#### Defined in
+#### Source
 
-main.ts:138766
+main.ts:138774
 
-___
+***
 
-### media\_type
+### media\_type?
 
-• `Optional` **media\_type**: `string`
+> **`optional`** **media\_type**: `string`
 
 types of media used to display a page
 
-#### Defined in
+#### Source
 
-main.ts:138807
+main.ts:138815
 
-___
+***
 
-### meta
+### meta?
 
-• `Optional` **meta**: [`BacklinksPageMeta`](../classes/BacklinksPageMeta.md)
+> **`optional`** **meta**: [`BacklinksPageMeta`](../classes/BacklinksPageMeta.md)
 
 page meta data
 
-#### Defined in
+#### Source
 
-main.ts:138811
+main.ts:138819
 
-___
+***
 
-### page
+### page?
 
-• `Optional` **page**: `string`
+> **`optional`** **page**: `string`
 
 page URL
 relevant page URL
 
-#### Defined in
+#### Source
 
-main.ts:138775
+main.ts:138783
 
-___
+***
 
-### page\_summary
+### page\_summary?
 
-• `Optional` **page\_summary**: [`PageSummary`](../classes/PageSummary.md)
+> **`optional`** **page\_summary**: [`PageSummary`](../classes/PageSummary.md)
 
 contains backlink data for this page
 
-#### Defined in
+#### Source
 
-main.ts:138813
+main.ts:138821
 
-___
+***
 
-### prev\_visited
+### prev\_visited?
 
-• `Optional` **prev\_visited**: `string`
+> **`optional`** **prev\_visited**: `string`
 
 previous to the most recent date when our crawler visited the page
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2017-01-24 13:20:59 +00:00
 
-#### Defined in
+#### Source
 
-main.ts:138788
+main.ts:138796
 
-___
+***
 
-### server
+### server?
 
-• `Optional` **server**: `string`
+> **`optional`** **server**: `string`
 
 server version
 
-#### Defined in
+#### Source
 
-main.ts:138809
+main.ts:138817
 
-___
+***
 
-### size
+### size?
 
-• `Optional` **size**: `number`
+> **`optional`** **size**: `number`
 
 indicates the page size, in bytes
 
-#### Defined in
+#### Source
 
-main.ts:138800
+main.ts:138808
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 HTTP status code of the page
 
-#### Defined in
+#### Source
 
-main.ts:138795
+main.ts:138803
 
-___
+***
 
-### tld
+### tld?
 
-• `Optional` **tld**: `string`
+> **`optional`** **tld**: `string`
 
 top-level domain
 top-level domain in the DNS root zone
 
-#### Defined in
+#### Source
 
-main.ts:138772
+main.ts:138780
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:138763
+main.ts:138771

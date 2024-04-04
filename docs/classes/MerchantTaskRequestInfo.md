@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MerchantTaskRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / MerchantTaskRequestInfo
 
 # Class: MerchantTaskRequestInfo
 
-## Hierarchy
+## Extended by
 
-- **`MerchantTaskRequestInfo`**
-
-  ↳ [`MerchantAmazonProductsTaskPostRequestInfo`](MerchantAmazonProductsTaskPostRequestInfo.md)
+- [`MerchantAmazonProductsTaskPostRequestInfo`](MerchantAmazonProductsTaskPostRequestInfo.md)
 
 ## Implements
 
@@ -14,67 +16,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](MerchantTaskRequestInfo.md#constructor)
-
-### Properties
-
-- [depth](MerchantTaskRequestInfo.md#depth)
-- [keyword](MerchantTaskRequestInfo.md#keyword)
-- [language\_code](MerchantTaskRequestInfo.md#language_code)
-- [language\_name](MerchantTaskRequestInfo.md#language_name)
-- [location\_code](MerchantTaskRequestInfo.md#location_code)
-- [location\_coordinate](MerchantTaskRequestInfo.md#location_coordinate)
-- [location\_name](MerchantTaskRequestInfo.md#location_name)
-- [max\_crawl\_pages](MerchantTaskRequestInfo.md#max_crawl_pages)
-- [pingback\_url](MerchantTaskRequestInfo.md#pingback_url)
-- [postback\_data](MerchantTaskRequestInfo.md#postback_data)
-- [postback\_url](MerchantTaskRequestInfo.md#postback_url)
-- [price\_max](MerchantTaskRequestInfo.md#price_max)
-- [price\_min](MerchantTaskRequestInfo.md#price_min)
-- [priority](MerchantTaskRequestInfo.md#priority)
-- [se\_domain](MerchantTaskRequestInfo.md#se_domain)
-- [search\_param](MerchantTaskRequestInfo.md#search_param)
-- [sort\_by](MerchantTaskRequestInfo.md#sort_by)
-- [tag](MerchantTaskRequestInfo.md#tag)
-- [url](MerchantTaskRequestInfo.md#url)
-
-### Methods
-
-- [init](MerchantTaskRequestInfo.md#init)
-- [toJSON](MerchantTaskRequestInfo.md#tojson)
-- [fromJS](MerchantTaskRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new MerchantTaskRequestInfo(data)
 
-• **new MerchantTaskRequestInfo**(`data?`): [`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md)
+> **new MerchantTaskRequestInfo**(`data`?): [`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IMerchantTaskRequestInfo`](../interfaces/IMerchantTaskRequestInfo.md) |
+• **data?**: [`IMerchantTaskRequestInfo`](../interfaces/IMerchantTaskRequestInfo.md)
 
 #### Returns
 
 [`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:148123
+main.ts:148131
 
 ## Properties
 
-### depth
+### depth?
 
-• `Optional` **depth**: `number`
+> **`optional`** **depth**: `number`
 
 parsing depth
 optional field
@@ -87,17 +53,17 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Implementation of
 
-[IMerchantTaskRequestInfo](../interfaces/IMerchantTaskRequestInfo.md).[depth](../interfaces/IMerchantTaskRequestInfo.md#depth)
+[`IMerchantTaskRequestInfo`](../interfaces/IMerchantTaskRequestInfo.md).[`depth`](../interfaces/IMerchantTaskRequestInfo.md#depth)
 
-#### Defined in
+#### Source
 
-main.ts:148050
+main.ts:148058
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword
 required field
@@ -108,17 +74,17 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Implementation of
 
-[IMerchantTaskRequestInfo](../interfaces/IMerchantTaskRequestInfo.md).[keyword](../interfaces/IMerchantTaskRequestInfo.md#keyword)
+[`IMerchantTaskRequestInfo`](../interfaces/IMerchantTaskRequestInfo.md).[`keyword`](../interfaces/IMerchantTaskRequestInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:147983
+main.ts:147991
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 required field if you don’t specify language_name
@@ -129,17 +95,17 @@ en
 
 #### Implementation of
 
-[IMerchantTaskRequestInfo](../interfaces/IMerchantTaskRequestInfo.md).[language_code](../interfaces/IMerchantTaskRequestInfo.md#language_code)
+[`IMerchantTaskRequestInfo`](../interfaces/IMerchantTaskRequestInfo.md).[`language_code`](../interfaces/IMerchantTaskRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:148034
+main.ts:148042
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -150,17 +116,17 @@ English
 
 #### Implementation of
 
-[IMerchantTaskRequestInfo](../interfaces/IMerchantTaskRequestInfo.md).[language_name](../interfaces/IMerchantTaskRequestInfo.md#language_name)
+[`IMerchantTaskRequestInfo`](../interfaces/IMerchantTaskRequestInfo.md).[`language_name`](../interfaces/IMerchantTaskRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:148027
+main.ts:148035
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 required field if you don’t specify location_name or location_coordinate
@@ -171,17 +137,17 @@ example:
 
 #### Implementation of
 
-[IMerchantTaskRequestInfo](../interfaces/IMerchantTaskRequestInfo.md).[location_code](../interfaces/IMerchantTaskRequestInfo.md#location_code)
+[`IMerchantTaskRequestInfo`](../interfaces/IMerchantTaskRequestInfo.md).[`location_code`](../interfaces/IMerchantTaskRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:148011
+main.ts:148019
 
-___
+***
 
-### location\_coordinate
+### location\_coordinate?
 
-• `Optional` **location\_coordinate**: `string`
+> **`optional`** **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -194,17 +160,17 @@ example:
 
 #### Implementation of
 
-[IMerchantTaskRequestInfo](../interfaces/IMerchantTaskRequestInfo.md).[location_coordinate](../interfaces/IMerchantTaskRequestInfo.md#location_coordinate)
+[`IMerchantTaskRequestInfo`](../interfaces/IMerchantTaskRequestInfo.md).[`location_coordinate`](../interfaces/IMerchantTaskRequestInfo.md#location_coordinate)
 
-#### Defined in
+#### Source
 
-main.ts:148020
+main.ts:148028
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code or location_coordinate
@@ -215,17 +181,17 @@ London,England,United Kingdom
 
 #### Implementation of
 
-[IMerchantTaskRequestInfo](../interfaces/IMerchantTaskRequestInfo.md).[location_name](../interfaces/IMerchantTaskRequestInfo.md#location_name)
+[`IMerchantTaskRequestInfo`](../interfaces/IMerchantTaskRequestInfo.md).[`location_name`](../interfaces/IMerchantTaskRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:148004
+main.ts:148012
 
-___
+***
 
-### max\_crawl\_pages
+### max\_crawl\_pages?
 
-• `Optional` **max\_crawl\_pages**: `number`
+> **`optional`** **max\_crawl\_pages**: `number`
 
 page crawl limit
 optional field
@@ -236,17 +202,17 @@ learn more at our help center
 
 #### Implementation of
 
-[IMerchantTaskRequestInfo](../interfaces/IMerchantTaskRequestInfo.md).[max_crawl_pages](../interfaces/IMerchantTaskRequestInfo.md#max_crawl_pages)
+[`IMerchantTaskRequestInfo`](../interfaces/IMerchantTaskRequestInfo.md).[`max_crawl_pages`](../interfaces/IMerchantTaskRequestInfo.md#max_crawl_pages)
 
-#### Defined in
+#### Source
 
-main.ts:148057
+main.ts:148065
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -260,17 +226,17 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[IMerchantTaskRequestInfo](../interfaces/IMerchantTaskRequestInfo.md).[pingback_url](../interfaces/IMerchantTaskRequestInfo.md#pingback_url)
+[`IMerchantTaskRequestInfo`](../interfaces/IMerchantTaskRequestInfo.md).[`pingback_url`](../interfaces/IMerchantTaskRequestInfo.md#pingback_url)
 
-#### Defined in
+#### Source
 
-main.ts:148119
+main.ts:148127
 
-___
+***
 
-### postback\_data
+### postback\_data?
 
-• `Optional` **postback\_data**: `string`
+> **`optional`** **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -280,17 +246,17 @@ advanced, html
 
 #### Implementation of
 
-[IMerchantTaskRequestInfo](../interfaces/IMerchantTaskRequestInfo.md).[postback_data](../interfaces/IMerchantTaskRequestInfo.md#postback_data)
+[`IMerchantTaskRequestInfo`](../interfaces/IMerchantTaskRequestInfo.md).[`postback_data`](../interfaces/IMerchantTaskRequestInfo.md#postback_data)
 
-#### Defined in
+#### Source
 
-main.ts:148109
+main.ts:148117
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -304,17 +270,17 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[IMerchantTaskRequestInfo](../interfaces/IMerchantTaskRequestInfo.md).[postback_url](../interfaces/IMerchantTaskRequestInfo.md#postback_url)
+[`IMerchantTaskRequestInfo`](../interfaces/IMerchantTaskRequestInfo.md).[`postback_url`](../interfaces/IMerchantTaskRequestInfo.md#postback_url)
 
-#### Defined in
+#### Source
 
-main.ts:148103
+main.ts:148111
 
-___
+***
 
-### price\_max
+### price\_max?
 
-• `Optional` **price\_max**: `number`
+> **`optional`** **price\_max**: `number`
 
 maximum product price
 optional field
@@ -324,17 +290,17 @@ example:
 
 #### Implementation of
 
-[IMerchantTaskRequestInfo](../interfaces/IMerchantTaskRequestInfo.md).[price_max](../interfaces/IMerchantTaskRequestInfo.md#price_max)
+[`IMerchantTaskRequestInfo`](../interfaces/IMerchantTaskRequestInfo.md).[`price_max`](../interfaces/IMerchantTaskRequestInfo.md#price_max)
 
-#### Defined in
+#### Source
 
-main.ts:148080
+main.ts:148088
 
-___
+***
 
-### price\_min
+### price\_min?
 
-• `Optional` **price\_min**: `number`
+> **`optional`** **price\_min**: `number`
 
 minimum product price
 optional field
@@ -344,17 +310,17 @@ example:
 
 #### Implementation of
 
-[IMerchantTaskRequestInfo](../interfaces/IMerchantTaskRequestInfo.md).[price_min](../interfaces/IMerchantTaskRequestInfo.md#price_min)
+[`IMerchantTaskRequestInfo`](../interfaces/IMerchantTaskRequestInfo.md).[`price_min`](../interfaces/IMerchantTaskRequestInfo.md#price_min)
 
-#### Defined in
+#### Source
 
-main.ts:148074
+main.ts:148082
 
-___
+***
 
-### priority
+### priority?
 
-• `Optional` **priority**: `number`
+> **`optional`** **priority**: `number`
 
 task priority
 optional field
@@ -366,17 +332,17 @@ The cost can be calculated on the Pricing page.
 
 #### Implementation of
 
-[IMerchantTaskRequestInfo](../interfaces/IMerchantTaskRequestInfo.md).[priority](../interfaces/IMerchantTaskRequestInfo.md#priority)
+[`IMerchantTaskRequestInfo`](../interfaces/IMerchantTaskRequestInfo.md).[`priority`](../interfaces/IMerchantTaskRequestInfo.md#priority)
 
-#### Defined in
+#### Source
 
-main.ts:147997
+main.ts:148005
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain
 optional field
@@ -387,17 +353,17 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Implementation of
 
-[IMerchantTaskRequestInfo](../interfaces/IMerchantTaskRequestInfo.md).[se_domain](../interfaces/IMerchantTaskRequestInfo.md#se_domain)
+[`IMerchantTaskRequestInfo`](../interfaces/IMerchantTaskRequestInfo.md).[`se_domain`](../interfaces/IMerchantTaskRequestInfo.md#se_domain)
 
-#### Defined in
+#### Source
 
-main.ts:148041
+main.ts:148049
 
-___
+***
 
-### search\_param
+### search\_param?
 
-• `Optional` **search\_param**: `string`
+> **`optional`** **search\_param**: `string`
 
 additional parameters of the search query
 optional field
@@ -412,17 +378,17 @@ example:
 
 #### Implementation of
 
-[IMerchantTaskRequestInfo](../interfaces/IMerchantTaskRequestInfo.md).[search_param](../interfaces/IMerchantTaskRequestInfo.md#search_param)
+[`IMerchantTaskRequestInfo`](../interfaces/IMerchantTaskRequestInfo.md).[`search_param`](../interfaces/IMerchantTaskRequestInfo.md#search_param)
 
-#### Defined in
+#### Source
 
-main.ts:148068
+main.ts:148076
 
-___
+***
 
-### sort\_by
+### sort\_by?
 
-• `Optional` **sort\_by**: `string`
+> **`optional`** **sort\_by**: `string`
 
 results sorting rules
 optional field
@@ -433,17 +399,17 @@ sort_by:"review_score"
 
 #### Implementation of
 
-[IMerchantTaskRequestInfo](../interfaces/IMerchantTaskRequestInfo.md).[sort_by](../interfaces/IMerchantTaskRequestInfo.md#sort_by)
+[`IMerchantTaskRequestInfo`](../interfaces/IMerchantTaskRequestInfo.md).[`sort_by`](../interfaces/IMerchantTaskRequestInfo.md#sort_by)
 
-#### Defined in
+#### Source
 
-main.ts:148087
+main.ts:148095
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -453,17 +419,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IMerchantTaskRequestInfo](../interfaces/IMerchantTaskRequestInfo.md).[tag](../interfaces/IMerchantTaskRequestInfo.md#tag)
+[`IMerchantTaskRequestInfo`](../interfaces/IMerchantTaskRequestInfo.md).[`tag`](../interfaces/IMerchantTaskRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:148093
+main.ts:148101
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 direct URL of the search query
 optional field
@@ -473,68 +439,62 @@ https://www.google.com/search?q=iphone&num=100&tbm=shop&ie=UTF-8&oe=UTF-8&tbs=vw
 
 #### Implementation of
 
-[IMerchantTaskRequestInfo](../interfaces/IMerchantTaskRequestInfo.md).[url](../interfaces/IMerchantTaskRequestInfo.md#url)
+[`IMerchantTaskRequestInfo`](../interfaces/IMerchantTaskRequestInfo.md).[`url`](../interfaces/IMerchantTaskRequestInfo.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:147989
+main.ts:147997
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:148132
+main.ts:148140
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:148167
+main.ts:148175
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:148160
+main.ts:148168

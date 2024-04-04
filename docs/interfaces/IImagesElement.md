@@ -1,69 +1,60 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IImagesElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IImagesElement
 
 # Interface: IImagesElement
 
-## Implemented by
-
-- [`ImagesElement`](../classes/ImagesElement.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [alt](IImagesElement.md#alt)
-- [image\_url](IImagesElement.md#image_url)
-- [type](IImagesElement.md#type)
-- [url](IImagesElement.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### alt
+### alt?
 
-• `Optional` **alt**: `string`
+> **`optional`** **alt**: `string`
 
 alt tag of the image
 
-#### Defined in
+#### Source
 
 main.ts:27445
 
-___
+***
 
-### image\_url
+### image\_url?
 
-• `Optional` **image\_url**: `string`
+> **`optional`** **image\_url**: `string`
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
 
-#### Defined in
+#### Source
 
 main.ts:27450
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
 main.ts:27443
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL link
 
-#### Defined in
+#### Source
 
 main.ts:27447

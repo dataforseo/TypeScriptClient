@@ -1,157 +1,142 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem
 
 # Interface: IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem
 
-## Implemented by
-
-- [`DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem`](../classes/DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [domain](IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#domain)
-- [main\_domain](IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#main_domain)
-- [metrics\_difference](IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#metrics_difference)
-- [metrics\_history](IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#metrics_history)
-- [organic\_count](IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#organic_count)
-- [organic\_etv](IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#organic_etv)
-- [organic\_is\_lost](IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#organic_is_lost)
-- [organic\_is\_new](IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#organic_is_new)
-- [se\_type](IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#se_type)
-- [top\_categories](IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#top_categories)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain found for the specified category
 
-#### Defined in
+#### Source
 
-main.ts:87129
+main.ts:87137
 
-___
+***
 
-### main\_domain
+### main\_domain?
 
-• `Optional` **main\_domain**: `string`
+> **`optional`** **main\_domain**: `string`
 
 primary domain
 
-#### Defined in
+#### Source
 
-main.ts:87131
+main.ts:87139
 
-___
+***
 
-### metrics\_difference
+### metrics\_difference?
 
-• `Optional` **metrics\_difference**: `Object`
+> **`optional`** **metrics\_difference**: `Object`
 
 metrics difference between first_date and second_date
 calculated by subtracting domain metrics as of the greater date from domain metrics as of the smaller date
 
 #### Index signature
 
-▪ [key: `string`]: [`MetricsInfo`](../classes/MetricsInfo.md)
+ \[`key`: `string`\]: [`MetricsInfo`](../classes/MetricsInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:87136
+main.ts:87144
 
-___
+***
 
-### metrics\_history
+### metrics\_history?
 
-• `Optional` **metrics\_history**: `Object`
+> **`optional`** **metrics\_history**: `Object`
 
 historical ranking and traffic data of the domain
 
 #### Index signature
 
-▪ [key: `string`]: \{ `[key: string]`: [`MetricsInfo`](../classes/MetricsInfo.md);  }
+ \[`key`: `string`\]: `Object`
 
-#### Defined in
+#### Source
 
-main.ts:87133
+main.ts:87141
 
-___
+***
 
-### organic\_count
+### organic\_count?
 
-• `Optional` **organic\_count**: `number`
+> **`optional`** **organic\_count**: `number`
 
 current total count of organic SERPs that contain the domain
 
-#### Defined in
+#### Source
 
-main.ts:87121
+main.ts:87129
 
-___
+***
 
-### organic\_etv
+### organic\_etv?
 
-• `Optional` **organic\_etv**: `number`
+> **`optional`** **organic\_etv**: `number`
 
 current organic ETV of the domain
 
-#### Defined in
+#### Source
 
-main.ts:87119
+main.ts:87127
 
-___
+***
 
-### organic\_is\_lost
+### organic\_is\_lost?
 
-• `Optional` **organic\_is\_lost**: `number`
+> **`optional`** **organic\_is\_lost**: `number`
 
 current number of lost ranked elements
 indicates how many ranked elements of the domain were previously presented in SERPs, but weren’t found during the last check
 
-#### Defined in
+#### Source
 
-main.ts:87124
+main.ts:87132
 
-___
+***
 
-### organic\_is\_new
+### organic\_is\_new?
 
-• `Optional` **organic\_is\_new**: `number`
+> **`optional`** **organic\_is\_new**: `number`
 
 current number of new ranked elements
 indicates how many new ranked elements were found for the domain
 
-#### Defined in
+#### Source
 
-main.ts:87127
+main.ts:87135
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:87115
+main.ts:87123
 
-___
+***
 
-### top\_categories
+### top\_categories?
 
-• `Optional` **top\_categories**: `number`[]
+> **`optional`** **top\_categories**: `number`[]
 
 categories for which domains are collected
 
-#### Defined in
+#### Source
 
-main.ts:87117
+main.ts:87125

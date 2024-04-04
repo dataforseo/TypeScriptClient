@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo
 
 # Class: DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo
 
@@ -8,56 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [date\_from](DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md#date_from)
-- [date\_to](DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md#date_to)
-- [keyword](DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md#keyword)
-- [language\_code](DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md#language_code)
-- [language\_name](DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md#language_name)
-- [location\_code](DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md#location_code)
-- [location\_name](DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md#location_name)
-- [tag](DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md#tag)
-
-### Methods
-
-- [init](DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md#init)
-- [toJSON](DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md#tojson)
-- [fromJS](DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo(data)
 
-• **new DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo**(`data?`): [`DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo`](DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md)
+> **new DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo`](DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md) |
+• **data?**: [`IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo`](DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:93389
+main.ts:93397
 
 ## Properties
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -67,17 +46,17 @@ date format: "yyyy-mm-dd"
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md).[date_from](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md#date_from)
+[`IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md).[`date_from`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md#date_from)
 
-#### Defined in
+#### Source
 
-main.ts:93342
+main.ts:93350
 
-___
+***
 
-### date\_to
+### date\_to?
 
-• `Optional` **date\_to**: `string`
+> **`optional`** **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -88,17 +67,17 @@ example:
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md).[date_to](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md#date_to)
+[`IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md).[`date_to`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md#date_to)
 
-#### Defined in
+#### Source
 
-main.ts:93349
+main.ts:93357
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword
 required field
@@ -109,17 +88,17 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md).[keyword](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md#keyword)
+[`IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md).[`keyword`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:93336
+main.ts:93344
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 optional field
@@ -131,17 +110,17 @@ en
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md).[language_code](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md#language_code)
+[`IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:93379
+main.ts:93387
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 optional field
@@ -153,17 +132,17 @@ English
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md).[language_name](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md#language_name)
+[`IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:93371
+main.ts:93379
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 unique location identifier
 required field if you don’t specify location_name
@@ -174,17 +153,17 @@ example:
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md).[location_code](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md#location_code)
+[`IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:93363
+main.ts:93371
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code
@@ -195,17 +174,17 @@ United Kingdom
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md).[location_name](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md#location_name)
+[`IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:93356
+main.ts:93364
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -215,68 +194,62 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md).[tag](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md#tag)
+[`IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:93385
+main.ts:93393
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:93398
+main.ts:93406
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:93422
+main.ts:93430
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo`](DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo`](DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo`](DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:93415
+main.ts:93423

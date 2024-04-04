@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAppleBulkAppMetricsLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsAppleBulkAppMetricsLiveResultInfo
 
 # Class: DataforseoLabsAppleBulkAppMetricsLiveResultInfo
 
@@ -8,201 +12,172 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsAppleBulkAppMetricsLiveResultInfo.md#constructor)
-
-### Properties
-
-- [items](DataforseoLabsAppleBulkAppMetricsLiveResultInfo.md#items)
-- [items\_count](DataforseoLabsAppleBulkAppMetricsLiveResultInfo.md#items_count)
-- [language\_code](DataforseoLabsAppleBulkAppMetricsLiveResultInfo.md#language_code)
-- [location\_code](DataforseoLabsAppleBulkAppMetricsLiveResultInfo.md#location_code)
-- [se\_type](DataforseoLabsAppleBulkAppMetricsLiveResultInfo.md#se_type)
-- [total\_count](DataforseoLabsAppleBulkAppMetricsLiveResultInfo.md#total_count)
-
-### Methods
-
-- [init](DataforseoLabsAppleBulkAppMetricsLiveResultInfo.md#init)
-- [toJSON](DataforseoLabsAppleBulkAppMetricsLiveResultInfo.md#tojson)
-- [fromJS](DataforseoLabsAppleBulkAppMetricsLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsAppleBulkAppMetricsLiveResultInfo(data)
 
-• **new DataforseoLabsAppleBulkAppMetricsLiveResultInfo**(`data?`): [`DataforseoLabsAppleBulkAppMetricsLiveResultInfo`](DataforseoLabsAppleBulkAppMetricsLiveResultInfo.md)
+> **new DataforseoLabsAppleBulkAppMetricsLiveResultInfo**(`data`?): [`DataforseoLabsAppleBulkAppMetricsLiveResultInfo`](DataforseoLabsAppleBulkAppMetricsLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsAppleBulkAppMetricsLiveResultInfo`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResultInfo.md) |
+• **data?**: [`IDataforseoLabsAppleBulkAppMetricsLiveResultInfo`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsAppleBulkAppMetricsLiveResultInfo`](DataforseoLabsAppleBulkAppMetricsLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:112723
+main.ts:112731
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`DataforseoLabsleBulkAppMetricsLiveItem`](DataforseoLabsleBulkAppMetricsLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsleBulkAppMetricsLiveItem`](DataforseoLabsleBulkAppMetricsLiveItem.md)[]
 
 contains data related to the ranking app metrics of the specified application
 
 #### Implementation of
 
-[IDataforseoLabsAppleBulkAppMetricsLiveResultInfo](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResultInfo.md).[items](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResultInfo.md#items)
+[`IDataforseoLabsAppleBulkAppMetricsLiveResultInfo`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:112719
+main.ts:112727
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[IDataforseoLabsAppleBulkAppMetricsLiveResultInfo](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResultInfo.md).[items_count](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResultInfo.md#items_count)
+[`IDataforseoLabsAppleBulkAppMetricsLiveResultInfo`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:112717
+main.ts:112725
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsAppleBulkAppMetricsLiveResultInfo](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResultInfo.md).[language_code](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResultInfo.md#language_code)
+[`IDataforseoLabsAppleBulkAppMetricsLiveResultInfo`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:112713
+main.ts:112721
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsAppleBulkAppMetricsLiveResultInfo](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResultInfo.md).[location_code](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResultInfo.md#location_code)
+[`IDataforseoLabsAppleBulkAppMetricsLiveResultInfo`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:112711
+main.ts:112719
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IDataforseoLabsAppleBulkAppMetricsLiveResultInfo](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResultInfo.md).[se_type](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResultInfo.md#se_type)
+[`IDataforseoLabsAppleBulkAppMetricsLiveResultInfo`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:112709
+main.ts:112717
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
 #### Implementation of
 
-[IDataforseoLabsAppleBulkAppMetricsLiveResultInfo](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResultInfo.md).[total_count](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResultInfo.md#total_count)
+[`IDataforseoLabsAppleBulkAppMetricsLiveResultInfo`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResultInfo.md#total_count)
 
-#### Defined in
+#### Source
 
-main.ts:112715
+main.ts:112723
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:112732
+main.ts:112740
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:112758
+main.ts:112766
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsAppleBulkAppMetricsLiveResultInfo`](DataforseoLabsAppleBulkAppMetricsLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsAppleBulkAppMetricsLiveResultInfo`](DataforseoLabsAppleBulkAppMetricsLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsAppleBulkAppMetricsLiveResultInfo`](DataforseoLabsAppleBulkAppMetricsLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:112751
+main.ts:112759

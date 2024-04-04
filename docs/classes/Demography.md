@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / Demography
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / Demography
 
 # Class: Demography
 
@@ -8,133 +12,108 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](Demography.md#constructor)
-
-### Properties
-
-- [age](Demography.md#age)
-- [gender](Demography.md#gender)
-
-### Methods
-
-- [init](Demography.md#init)
-- [toJSON](Demography.md#tojson)
-- [fromJS](Demography.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new Demography(data)
 
-• **new Demography**(`data?`): [`Demography`](Demography.md)
+> **new Demography**(`data`?): [`Demography`](Demography.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDemography`](../interfaces/IDemography.md) |
+• **data?**: [`IDemography`](../interfaces/IDemography.md)
 
 #### Returns
 
 [`Demography`](Demography.md)
 
-#### Defined in
+#### Source
 
-main.ts:126350
+main.ts:126358
 
 ## Properties
 
-### age
+### age?
 
-• `Optional` **age**: [`DataforseoTrendsDataInfo`](DataforseoTrendsDataInfo.md)[]
+> **`optional`** **age**: [`DataforseoTrendsDataInfo`](DataforseoTrendsDataInfo.md)[]
 
 distribution of keyword popularity by age
 
 #### Implementation of
 
-[IDemography](../interfaces/IDemography.md).[age](../interfaces/IDemography.md#age)
+[`IDemography`](../interfaces/IDemography.md).[`age`](../interfaces/IDemography.md#age)
 
-#### Defined in
+#### Source
 
-main.ts:126344
+main.ts:126352
 
-___
+***
 
-### gender
+### gender?
 
-• `Optional` **gender**: [`DataforseoTrendsDataInfo`](DataforseoTrendsDataInfo.md)[]
+> **`optional`** **gender**: [`DataforseoTrendsDataInfo`](DataforseoTrendsDataInfo.md)[]
 
 distribution of keyword popularity by gender
 
 #### Implementation of
 
-[IDemography](../interfaces/IDemography.md).[gender](../interfaces/IDemography.md#gender)
+[`IDemography`](../interfaces/IDemography.md).[`gender`](../interfaces/IDemography.md#gender)
 
-#### Defined in
+#### Source
 
-main.ts:126346
+main.ts:126354
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:126359
+main.ts:126367
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:126385
+main.ts:126393
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`Demography`](Demography.md)
+> **`static`** **fromJS**(`data`): [`Demography`](Demography.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`Demography`](Demography.md)
 
-#### Defined in
+#### Source
 
-main.ts:126378
+main.ts:126386

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageRedirectChainsRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPageRedirectChainsRequestInfo
 
 # Class: OnPageRedirectChainsRequestInfo
 
@@ -8,54 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPageRedirectChainsRequestInfo.md#constructor)
-
-### Properties
-
-- [filters](OnPageRedirectChainsRequestInfo.md#filters)
-- [id](OnPageRedirectChainsRequestInfo.md#id)
-- [limit](OnPageRedirectChainsRequestInfo.md#limit)
-- [offset](OnPageRedirectChainsRequestInfo.md#offset)
-- [tag](OnPageRedirectChainsRequestInfo.md#tag)
-- [url](OnPageRedirectChainsRequestInfo.md#url)
-
-### Methods
-
-- [init](OnPageRedirectChainsRequestInfo.md#init)
-- [toJSON](OnPageRedirectChainsRequestInfo.md#tojson)
-- [fromJS](OnPageRedirectChainsRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPageRedirectChainsRequestInfo(data)
 
-• **new OnPageRedirectChainsRequestInfo**(`data?`): [`OnPageRedirectChainsRequestInfo`](OnPageRedirectChainsRequestInfo.md)
+> **new OnPageRedirectChainsRequestInfo**(`data`?): [`OnPageRedirectChainsRequestInfo`](OnPageRedirectChainsRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPageRedirectChainsRequestInfo`](../interfaces/IOnPageRedirectChainsRequestInfo.md) |
+• **data?**: [`IOnPageRedirectChainsRequestInfo`](../interfaces/IOnPageRedirectChainsRequestInfo.md)
 
 #### Returns
 
 [`OnPageRedirectChainsRequestInfo`](OnPageRedirectChainsRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:154188
+main.ts:154196
 
 ## Properties
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
@@ -70,17 +51,17 @@ examples:
 
 #### Implementation of
 
-[IOnPageRedirectChainsRequestInfo](../interfaces/IOnPageRedirectChainsRequestInfo.md).[filters](../interfaces/IOnPageRedirectChainsRequestInfo.md#filters)
+[`IOnPageRedirectChainsRequestInfo`](../interfaces/IOnPageRedirectChainsRequestInfo.md).[`filters`](../interfaces/IOnPageRedirectChainsRequestInfo.md#filters)
 
-#### Defined in
+#### Source
 
-main.ts:154178
+main.ts:154186
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 ID of the task
 required field
@@ -90,17 +71,17 @@ example:
 
 #### Implementation of
 
-[IOnPageRedirectChainsRequestInfo](../interfaces/IOnPageRedirectChainsRequestInfo.md).[id](../interfaces/IOnPageRedirectChainsRequestInfo.md#id)
+[`IOnPageRedirectChainsRequestInfo`](../interfaces/IOnPageRedirectChainsRequestInfo.md).[`id`](../interfaces/IOnPageRedirectChainsRequestInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:154152
+main.ts:154160
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned redirect chains
 optional field
@@ -109,17 +90,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IOnPageRedirectChainsRequestInfo](../interfaces/IOnPageRedirectChainsRequestInfo.md).[limit](../interfaces/IOnPageRedirectChainsRequestInfo.md#limit)
+[`IOnPageRedirectChainsRequestInfo`](../interfaces/IOnPageRedirectChainsRequestInfo.md).[`limit`](../interfaces/IOnPageRedirectChainsRequestInfo.md#limit)
 
-#### Defined in
+#### Source
 
-main.ts:154162
+main.ts:154170
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned redirect chains
 optional field
@@ -128,17 +109,17 @@ if you specify the 10 value, the first ten redirect chains in the results array 
 
 #### Implementation of
 
-[IOnPageRedirectChainsRequestInfo](../interfaces/IOnPageRedirectChainsRequestInfo.md).[offset](../interfaces/IOnPageRedirectChainsRequestInfo.md#offset)
+[`IOnPageRedirectChainsRequestInfo`](../interfaces/IOnPageRedirectChainsRequestInfo.md).[`offset`](../interfaces/IOnPageRedirectChainsRequestInfo.md#offset)
 
-#### Defined in
+#### Source
 
-main.ts:154167
+main.ts:154175
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -148,17 +129,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IOnPageRedirectChainsRequestInfo](../interfaces/IOnPageRedirectChainsRequestInfo.md).[tag](../interfaces/IOnPageRedirectChainsRequestInfo.md#tag)
+[`IOnPageRedirectChainsRequestInfo`](../interfaces/IOnPageRedirectChainsRequestInfo.md).[`tag`](../interfaces/IOnPageRedirectChainsRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:154184
+main.ts:154192
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 page URL
 optional field
@@ -167,68 +148,62 @@ if you use this field, the API response will return only redirect chains which c
 
 #### Implementation of
 
-[IOnPageRedirectChainsRequestInfo](../interfaces/IOnPageRedirectChainsRequestInfo.md).[url](../interfaces/IOnPageRedirectChainsRequestInfo.md#url)
+[`IOnPageRedirectChainsRequestInfo`](../interfaces/IOnPageRedirectChainsRequestInfo.md).[`url`](../interfaces/IOnPageRedirectChainsRequestInfo.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:154157
+main.ts:154165
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:154197
+main.ts:154205
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:154223
+main.ts:154231
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPageRedirectChainsRequestInfo`](OnPageRedirectChainsRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`OnPageRedirectChainsRequestInfo`](OnPageRedirectChainsRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`OnPageRedirectChainsRequestInfo`](OnPageRedirectChainsRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:154216
+main.ts:154224

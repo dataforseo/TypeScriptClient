@@ -1,54 +1,44 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpYoutubeLocationsCountryResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ISerpYoutubeLocationsCountryResultInfo
 
 # Interface: ISerpYoutubeLocationsCountryResultInfo
 
-## Implemented by
-
-- [`SerpYoutubeLocationsCountryResultInfo`](../classes/SerpYoutubeLocationsCountryResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [country\_iso\_code](ISerpYoutubeLocationsCountryResultInfo.md#country_iso_code)
-- [location\_code](ISerpYoutubeLocationsCountryResultInfo.md#location_code)
-- [location\_code\_parent](ISerpYoutubeLocationsCountryResultInfo.md#location_code_parent)
-- [location\_name](ISerpYoutubeLocationsCountryResultInfo.md#location_name)
-- [location\_type](ISerpYoutubeLocationsCountryResultInfo.md#location_type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### country\_iso\_code
+### country\_iso\_code?
 
-• `Optional` **country\_iso\_code**: `string`
+> **`optional`** **country\_iso\_code**: `string`
 
 ISO country code of the location
 
-#### Defined in
+#### Source
 
-main.ts:59824
+main.ts:59832
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 
-#### Defined in
+#### Source
 
-main.ts:59811
+main.ts:59819
 
-___
+***
 
-### location\_code\_parent
+### location\_code\_parent?
 
-• `Optional` **location\_code\_parent**: `number`
+> **`optional`** **location\_code\_parent**: `number`
 
 the code of the superordinate location
 example:
@@ -59,30 +49,30 @@ where location_code_parent corresponds to:
 "location_code": 20044,
 "location_name": "Lower Austria,Austria"
 
-#### Defined in
+#### Source
 
-main.ts:59822
+main.ts:59830
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 
-#### Defined in
+#### Source
 
-main.ts:59813
+main.ts:59821
 
-___
+***
 
-### location\_type
+### location\_type?
 
-• `Optional` **location\_type**: `string`
+> **`optional`** **location\_type**: `string`
 
 location type
 
-#### Defined in
+#### Source
 
-main.ts:59826
+main.ts:59834

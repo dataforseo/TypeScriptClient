@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataDataforseoTrendsExploreLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataDataforseoTrendsExploreLiveRequestInfo
 
 # Class: KeywordsDataDataforseoTrendsExploreLiveRequestInfo
 
@@ -8,56 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataDataforseoTrendsExploreLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [date\_from](KeywordsDataDataforseoTrendsExploreLiveRequestInfo.md#date_from)
-- [date\_to](KeywordsDataDataforseoTrendsExploreLiveRequestInfo.md#date_to)
-- [keywords](KeywordsDataDataforseoTrendsExploreLiveRequestInfo.md#keywords)
-- [location\_code](KeywordsDataDataforseoTrendsExploreLiveRequestInfo.md#location_code)
-- [location\_name](KeywordsDataDataforseoTrendsExploreLiveRequestInfo.md#location_name)
-- [tag](KeywordsDataDataforseoTrendsExploreLiveRequestInfo.md#tag)
-- [time\_range](KeywordsDataDataforseoTrendsExploreLiveRequestInfo.md#time_range)
-- [type](KeywordsDataDataforseoTrendsExploreLiveRequestInfo.md#type)
-
-### Methods
-
-- [init](KeywordsDataDataforseoTrendsExploreLiveRequestInfo.md#init)
-- [toJSON](KeywordsDataDataforseoTrendsExploreLiveRequestInfo.md#tojson)
-- [fromJS](KeywordsDataDataforseoTrendsExploreLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordsDataDataforseoTrendsExploreLiveRequestInfo(data)
 
-• **new KeywordsDataDataforseoTrendsExploreLiveRequestInfo**(`data?`): [`KeywordsDataDataforseoTrendsExploreLiveRequestInfo`](KeywordsDataDataforseoTrendsExploreLiveRequestInfo.md)
+> **new KeywordsDataDataforseoTrendsExploreLiveRequestInfo**(`data`?): [`KeywordsDataDataforseoTrendsExploreLiveRequestInfo`](KeywordsDataDataforseoTrendsExploreLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordsDataDataforseoTrendsExploreLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md) |
+• **data?**: [`IKeywordsDataDataforseoTrendsExploreLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md)
 
 #### Returns
 
 [`KeywordsDataDataforseoTrendsExploreLiveRequestInfo`](KeywordsDataDataforseoTrendsExploreLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:124788
+main.ts:124796
 
 ## Properties
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -70,17 +49,17 @@ example:
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsExploreLiveRequestInfo](../interfaces/IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md).[date_from](../interfaces/IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md#date_from)
+[`IKeywordsDataDataforseoTrendsExploreLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md).[`date_from`](../interfaces/IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md#date_from)
 
-#### Defined in
+#### Source
 
-main.ts:124765
+main.ts:124773
 
-___
+***
 
-### date\_to
+### date\_to?
 
-• `Optional` **date\_to**: `string`
+> **`optional`** **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -91,17 +70,17 @@ example:
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsExploreLiveRequestInfo](../interfaces/IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md).[date_to](../interfaces/IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md#date_to)
+[`IKeywordsDataDataforseoTrendsExploreLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md).[`date_to`](../interfaces/IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md#date_to)
 
-#### Defined in
+#### Source
 
-main.ts:124772
+main.ts:124780
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 keywords
 required field
@@ -109,17 +88,17 @@ the maximum number of keywords you can specify: 5
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsExploreLiveRequestInfo](../interfaces/IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md).[keywords](../interfaces/IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md#keywords)
+[`IKeywordsDataDataforseoTrendsExploreLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md).[`keywords`](../interfaces/IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md#keywords)
 
-#### Defined in
+#### Source
 
-main.ts:124736
+main.ts:124744
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 optional field
@@ -132,17 +111,17 @@ example:
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsExploreLiveRequestInfo](../interfaces/IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md).[location_code](../interfaces/IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md#location_code)
+[`IKeywordsDataDataforseoTrendsExploreLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md).[`location_code`](../interfaces/IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:124754
+main.ts:124762
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 optional field
@@ -155,17 +134,17 @@ United Kingdom
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsExploreLiveRequestInfo](../interfaces/IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md).[location_name](../interfaces/IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md#location_name)
+[`IKeywordsDataDataforseoTrendsExploreLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md).[`location_name`](../interfaces/IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:124745
+main.ts:124753
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -175,17 +154,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsExploreLiveRequestInfo](../interfaces/IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md).[tag](../interfaces/IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md#tag)
+[`IKeywordsDataDataforseoTrendsExploreLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md).[`tag`](../interfaces/IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:124784
+main.ts:124792
 
-___
+***
 
-### time\_range
+### time\_range?
 
-• `Optional` **time\_range**: `string`
+> **`optional`** **time\_range**: `string`
 
 preset time ranges
 optional field
@@ -195,84 +174,78 @@ past_4_hours, past_day, past_7_days, past_30_days, past_90_days, past_12_months,
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsExploreLiveRequestInfo](../interfaces/IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md).[time_range](../interfaces/IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md#time_range)
+[`IKeywordsDataDataforseoTrendsExploreLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md).[`time_range`](../interfaces/IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md#time_range)
 
-#### Defined in
+#### Source
 
-main.ts:124778
+main.ts:124786
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsExploreLiveRequestInfo](../interfaces/IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md).[type](../interfaces/IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md#type)
+[`IKeywordsDataDataforseoTrendsExploreLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md).[`type`](../interfaces/IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:124756
+main.ts:124764
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:124797
+main.ts:124805
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:124825
+main.ts:124833
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordsDataDataforseoTrendsExploreLiveRequestInfo`](KeywordsDataDataforseoTrendsExploreLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordsDataDataforseoTrendsExploreLiveRequestInfo`](KeywordsDataDataforseoTrendsExploreLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`KeywordsDataDataforseoTrendsExploreLiveRequestInfo`](KeywordsDataDataforseoTrendsExploreLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:124818
+main.ts:124826

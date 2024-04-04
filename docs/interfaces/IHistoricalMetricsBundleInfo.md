@@ -1,68 +1,59 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IHistoricalMetricsBundleInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IHistoricalMetricsBundleInfo
 
 # Interface: IHistoricalMetricsBundleInfo
 
-## Implemented by
-
-- [`HistoricalMetricsBundleInfo`](../classes/HistoricalMetricsBundleInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [featured\_snippet](IHistoricalMetricsBundleInfo.md#featured_snippet)
-- [local\_pack](IHistoricalMetricsBundleInfo.md#local_pack)
-- [organic](IHistoricalMetricsBundleInfo.md#organic)
-- [paid](IHistoricalMetricsBundleInfo.md#paid)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### featured\_snippet
+### featured\_snippet?
 
-• `Optional` **featured\_snippet**: [`HistoricalMetricsInfo`](../classes/HistoricalMetricsInfo.md)[]
+> **`optional`** **featured\_snippet**: [`HistoricalMetricsInfo`](../classes/HistoricalMetricsInfo.md)[]
 
 traffic data from the local pack results in SERP
 
-#### Defined in
+#### Source
 
-main.ts:100722
+main.ts:100730
 
-___
+***
 
-### local\_pack
+### local\_pack?
 
-• `Optional` **local\_pack**: [`HistoricalMetricsInfo`](../classes/HistoricalMetricsInfo.md)[]
+> **`optional`** **local\_pack**: [`HistoricalMetricsInfo`](../classes/HistoricalMetricsInfo.md)[]
 
 traffic data from the featured snippet results in Google SERP
 
-#### Defined in
+#### Source
 
-main.ts:100720
+main.ts:100728
 
-___
+***
 
-### organic
+### organic?
 
-• `Optional` **organic**: [`HistoricalMetricsInfo`](../classes/HistoricalMetricsInfo.md)[]
+> **`optional`** **organic**: [`HistoricalMetricsInfo`](../classes/HistoricalMetricsInfo.md)[]
 
 traffic data from organic search
 
-#### Defined in
+#### Source
 
-main.ts:100716
+main.ts:100724
 
-___
+***
 
-### paid
+### paid?
 
-• `Optional` **paid**: [`HistoricalMetricsInfo`](../classes/HistoricalMetricsInfo.md)[]
+> **`optional`** **paid**: [`HistoricalMetricsInfo`](../classes/HistoricalMetricsInfo.md)[]
 
 traffic data from paid search
 
-#### Defined in
+#### Source
 
-main.ts:100718
+main.ts:100726

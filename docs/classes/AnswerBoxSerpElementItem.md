@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AnswerBoxSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AnswerBoxSerpElementItem
 
 # Class: AnswerBoxSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-  ↳ **`AnswerBoxSerpElementItem`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AnswerBoxSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](AnswerBoxSerpElementItem.md#_discriminator)
-- [links](AnswerBoxSerpElementItem.md#links)
-- [position](AnswerBoxSerpElementItem.md#position)
-- [rank\_absolute](AnswerBoxSerpElementItem.md#rank_absolute)
-- [rank\_group](AnswerBoxSerpElementItem.md#rank_group)
-- [rectangle](AnswerBoxSerpElementItem.md#rectangle)
-- [text](AnswerBoxSerpElementItem.md#text)
-- [xpath](AnswerBoxSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](AnswerBoxSerpElementItem.md#init)
-- [toJSON](AnswerBoxSerpElementItem.md#tojson)
-- [fromJS](AnswerBoxSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AnswerBoxSerpElementItem(data)
 
-• **new AnswerBoxSerpElementItem**(`data?`): [`AnswerBoxSerpElementItem`](AnswerBoxSerpElementItem.md)
+> **new AnswerBoxSerpElementItem**(`data`?): [`AnswerBoxSerpElementItem`](AnswerBoxSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAnswerBoxSerpElementItem`](../interfaces/IAnswerBoxSerpElementItem.md) |
+• **data?**: [`IAnswerBoxSerpElementItem`](../interfaces/IAnswerBoxSerpElementItem.md)
 
 #### Returns
 
@@ -57,9 +34,9 @@
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[constructor](BaseSerpElementItem.md#constructor)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:31117
 
@@ -67,37 +44,37 @@ main.ts:31117
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[_discriminator](BaseSerpElementItem.md#_discriminator)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:19788
 
-___
+***
 
-### links
+### links?
 
-• `Optional` **links**: [`LinkElement`](LinkElement.md)[]
+> **`optional`** **links**: [`LinkElement`](LinkElement.md)[]
 
 link of the element
 
 #### Implementation of
 
-[IAnswerBoxSerpElementItem](../interfaces/IAnswerBoxSerpElementItem.md).[links](../interfaces/IAnswerBoxSerpElementItem.md#links)
+[`IAnswerBoxSerpElementItem`](../interfaces/IAnswerBoxSerpElementItem.md).[`links`](../interfaces/IAnswerBoxSerpElementItem.md#links)
 
-#### Defined in
+#### Source
 
 main.ts:31109
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -105,17 +82,17 @@ left, right
 
 #### Implementation of
 
-[IAnswerBoxSerpElementItem](../interfaces/IAnswerBoxSerpElementItem.md).[position](../interfaces/IAnswerBoxSerpElementItem.md#position)
+[`IAnswerBoxSerpElementItem`](../interfaces/IAnswerBoxSerpElementItem.md).[`position`](../interfaces/IAnswerBoxSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
 main.ts:31102
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -123,17 +100,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IAnswerBoxSerpElementItem](../interfaces/IAnswerBoxSerpElementItem.md).[rank_absolute](../interfaces/IAnswerBoxSerpElementItem.md#rank_absolute)
+[`IAnswerBoxSerpElementItem`](../interfaces/IAnswerBoxSerpElementItem.md).[`rank_absolute`](../interfaces/IAnswerBoxSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
 main.ts:31098
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
@@ -142,17 +119,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IAnswerBoxSerpElementItem](../interfaces/IAnswerBoxSerpElementItem.md).[rank_group](../interfaces/IAnswerBoxSerpElementItem.md#rank_group)
+[`IAnswerBoxSerpElementItem`](../interfaces/IAnswerBoxSerpElementItem.md).[`rank_group`](../interfaces/IAnswerBoxSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
 main.ts:31094
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -160,56 +137,54 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Implementation of
 
-[IAnswerBoxSerpElementItem](../interfaces/IAnswerBoxSerpElementItem.md).[rectangle](../interfaces/IAnswerBoxSerpElementItem.md#rectangle)
+[`IAnswerBoxSerpElementItem`](../interfaces/IAnswerBoxSerpElementItem.md).[`rectangle`](../interfaces/IAnswerBoxSerpElementItem.md#rectangle)
 
-#### Defined in
+#### Source
 
 main.ts:31113
 
-___
+***
 
-### text
+### text?
 
-• `Optional` **text**: `string`[]
+> **`optional`** **text**: `string`[]
 
 text
 if there is none, equals null
 
 #### Implementation of
 
-[IAnswerBoxSerpElementItem](../interfaces/IAnswerBoxSerpElementItem.md).[text](../interfaces/IAnswerBoxSerpElementItem.md#text)
+[`IAnswerBoxSerpElementItem`](../interfaces/IAnswerBoxSerpElementItem.md).[`text`](../interfaces/IAnswerBoxSerpElementItem.md#text)
 
-#### Defined in
+#### Source
 
 main.ts:31107
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IAnswerBoxSerpElementItem](../interfaces/IAnswerBoxSerpElementItem.md).[xpath](../interfaces/IAnswerBoxSerpElementItem.md#xpath)
+[`IAnswerBoxSerpElementItem`](../interfaces/IAnswerBoxSerpElementItem.md).[`xpath`](../interfaces/IAnswerBoxSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
 main.ts:31104
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -217,23 +192,21 @@ main.ts:31104
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[init](BaseSerpElementItem.md#init)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:31122
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -241,23 +214,21 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[toJSON](BaseSerpElementItem.md#tojson)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:31154
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AnswerBoxSerpElementItem`](AnswerBoxSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`AnswerBoxSerpElementItem`](AnswerBoxSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -265,8 +236,8 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[fromJS](BaseSerpElementItem.md#fromjs)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:31147

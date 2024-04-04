@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo
 
 # Class: SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo
 
@@ -8,97 +12,64 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#constructor)
-
-### Properties
-
-- [category](SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#category)
-- [check\_url](SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#check_url)
-- [datetime](SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#datetime)
-- [item\_types](SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#item_types)
-- [items](SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#items)
-- [items\_count](SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#items_count)
-- [language\_code](SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#language_code)
-- [location\_code](SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#location_code)
-- [origin\_language](SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#origin_language)
-- [se\_domain](SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#se_domain)
-- [spell](SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#spell)
-- [subtitles\_count](SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#subtitles_count)
-- [title](SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#title)
-- [translate\_language](SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#translate_language)
-- [unsupported\_language](SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#unsupported_language)
-- [video\_id](SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#video_id)
-
-### Methods
-
-- [init](SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#init)
-- [toJSON](SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#tojson)
-- [fromJS](SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo(data)
 
-• **new SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo**(`data?`): [`SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo`](SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md)
+> **new SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo**(`data`?): [`SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo`](SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md) |
+• **data?**: [`ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
 [`SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo`](SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:62721
+main.ts:62729
 
 ## Properties
 
-### category
+### category?
 
-• `Optional` **category**: `string`
+> **`optional`** **category**: `string`
 
 the category the video belongs to
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md).[category](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#category)
+[`ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md).[`category`](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#category)
 
-#### Defined in
+#### Source
 
-main.ts:62709
+main.ts:62717
 
-___
+***
 
-### check\_url
+### check\_url?
 
-• `Optional` **check\_url**: `string`
+> **`optional`** **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md).[check_url](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#check_url)
+[`ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md).[`check_url`](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#check_url)
 
-#### Defined in
+#### Source
 
-main.ts:62688
+main.ts:62696
 
-___
+***
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -107,17 +78,17 @@ example:
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md).[datetime](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#datetime)
+[`ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md).[`datetime`](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
-main.ts:62693
+main.ts:62701
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -126,261 +97,255 @@ youtube_subtitles
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md).[item_types](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#item_types)
+[`ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md).[`item_types`](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#item_types)
 
-#### Defined in
+#### Source
 
-main.ts:62701
+main.ts:62709
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
+> **`optional`** **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
 elements of search results found in SERP
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md).[items](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#items)
+[`ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md).[`items`](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:62717
+main.ts:62725
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md).[items_count](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#items_count)
+[`ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md).[`items_count`](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:62715
+main.ts:62723
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md).[language_code](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#language_code)
+[`ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md).[`language_code`](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:62685
+main.ts:62693
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md).[location_code](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#location_code)
+[`ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md).[`location_code`](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:62683
+main.ts:62691
 
-___
+***
 
-### origin\_language
+### origin\_language?
 
-• `Optional` **origin\_language**: `string`
+> **`optional`** **origin\_language**: `string`
 
 language code of original text
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md).[origin_language](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#origin_language)
+[`ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md).[`origin_language`](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#origin_language)
 
-#### Defined in
+#### Source
 
-main.ts:62707
+main.ts:62715
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md).[se_domain](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#se_domain)
+[`ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md).[`se_domain`](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#se_domain)
 
-#### Defined in
+#### Source
 
-main.ts:62681
+main.ts:62689
 
-___
+***
 
-### spell
+### spell?
 
-• `Optional` **spell**: [`SpellInfo`](SpellInfo.md)
+> **`optional`** **spell**: [`SpellInfo`](SpellInfo.md)
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md).[spell](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#spell)
+[`ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md).[`spell`](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#spell)
 
-#### Defined in
+#### Source
 
-main.ts:62696
+main.ts:62704
 
-___
+***
 
-### subtitles\_count
+### subtitles\_count?
 
-• `Optional` **subtitles\_count**: `number`
+> **`optional`** **subtitles\_count**: `number`
 
 number of subtitles in the video
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md).[subtitles_count](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#subtitles_count)
+[`ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md).[`subtitles_count`](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#subtitles_count)
 
-#### Defined in
+#### Source
 
-main.ts:62711
+main.ts:62719
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the video
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md).[title](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#title)
+[`ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md).[`title`](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:62713
+main.ts:62721
 
-___
+***
 
-### translate\_language
+### translate\_language?
 
-• `Optional` **translate\_language**: `string`
+> **`optional`** **translate\_language**: `string`
 
 language code of translated text
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md).[translate_language](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#translate_language)
+[`ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md).[`translate_language`](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#translate_language)
 
-#### Defined in
+#### Source
 
-main.ts:62705
+main.ts:62713
 
-___
+***
 
-### unsupported\_language
+### unsupported\_language?
 
-• `Optional` **unsupported\_language**: `boolean`
+> **`optional`** **unsupported\_language**: `boolean`
 
 indicates whether the language is unsupported by the system
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md).[unsupported_language](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#unsupported_language)
+[`ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md).[`unsupported_language`](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#unsupported_language)
 
-#### Defined in
+#### Source
 
-main.ts:62703
+main.ts:62711
 
-___
+***
 
-### video\_id
+### video\_id?
 
-• `Optional` **video\_id**: `string`
+> **`optional`** **video\_id**: `string`
 
 ID of the video received in a POST array
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md).[video_id](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#video_id)
+[`ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md).[`video_id`](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#video_id)
 
-#### Defined in
+#### Source
 
-main.ts:62679
+main.ts:62687
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:62730
+main.ts:62738
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:62770
+main.ts:62778
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo`](SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo`](SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo`](SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:62763
+main.ts:62771

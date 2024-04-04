@@ -1,119 +1,107 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpIdListResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ISerpIdListResultInfo
 
 # Interface: ISerpIdListResultInfo
 
-## Implemented by
-
-- [`SerpIdListResultInfo`](../classes/SerpIdListResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [cost](ISerpIdListResultInfo.md#cost)
-- [datetime\_done](ISerpIdListResultInfo.md#datetime_done)
-- [datetime\_posted](ISerpIdListResultInfo.md#datetime_posted)
-- [id](ISerpIdListResultInfo.md#id)
-- [metadata](ISerpIdListResultInfo.md#metadata)
-- [status](ISerpIdListResultInfo.md#status)
-- [url](ISerpIdListResultInfo.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 cost of the task, USD
 
-#### Defined in
+#### Source
 
 main.ts:23458
 
-___
+***
 
-### datetime\_done
+### datetime\_done?
 
-• `Optional` **datetime\_done**: `string`
+> **`optional`** **datetime\_done**: `string`
 
 date and time when the task was completed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2023-01-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
 main.ts:23453
 
-___
+***
 
-### datetime\_posted
+### datetime\_posted?
 
-• `Optional` **datetime\_posted**: `string`
+> **`optional`** **datetime\_posted**: `string`
 
 date and time when the task was made
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2023-01-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
 main.ts:23448
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 id of the task
 
-#### Defined in
+#### Source
 
 main.ts:23440
 
-___
+***
 
-### metadata
+### metadata?
 
-• `Optional` **metadata**: `Object`
+> **`optional`** **metadata**: `Object`
 
 contains parameters you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
-#### Defined in
+#### Source
 
 main.ts:23460
 
-___
+***
 
-### status
+### status?
 
-• `Optional` **status**: `string`
+> **`optional`** **status**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
-#### Defined in
+#### Source
 
 main.ts:23456
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL of the task
 URL you used for making an API call
 
-#### Defined in
+#### Source
 
 main.ts:23443

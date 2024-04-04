@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / YoutubeSubtitlesSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / YoutubeSubtitlesSerpElementItem
 
 # Class: YoutubeSubtitlesSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-  ↳ **`YoutubeSubtitlesSerpElementItem`**
 
 ## Implements
 
@@ -14,41 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](YoutubeSubtitlesSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](YoutubeSubtitlesSerpElementItem.md#_discriminator)
-- [duration\_time](YoutubeSubtitlesSerpElementItem.md#duration_time)
-- [end\_time](YoutubeSubtitlesSerpElementItem.md#end_time)
-- [rank\_absolute](YoutubeSubtitlesSerpElementItem.md#rank_absolute)
-- [rank\_group](YoutubeSubtitlesSerpElementItem.md#rank_group)
-- [start\_time](YoutubeSubtitlesSerpElementItem.md#start_time)
-- [text](YoutubeSubtitlesSerpElementItem.md#text)
-
-### Methods
-
-- [init](YoutubeSubtitlesSerpElementItem.md#init)
-- [toJSON](YoutubeSubtitlesSerpElementItem.md#tojson)
-- [fromJS](YoutubeSubtitlesSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new YoutubeSubtitlesSerpElementItem(data)
 
-• **new YoutubeSubtitlesSerpElementItem**(`data?`): [`YoutubeSubtitlesSerpElementItem`](YoutubeSubtitlesSerpElementItem.md)
+> **new YoutubeSubtitlesSerpElementItem**(`data`?): [`YoutubeSubtitlesSerpElementItem`](YoutubeSubtitlesSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IYoutubeSubtitlesSerpElementItem`](../interfaces/IYoutubeSubtitlesSerpElementItem.md) |
+• **data?**: [`IYoutubeSubtitlesSerpElementItem`](../interfaces/IYoutubeSubtitlesSerpElementItem.md)
 
 #### Returns
 
@@ -56,80 +34,80 @@
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[constructor](BaseSerpElementItem.md#constructor)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:62612
+main.ts:62620
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[_discriminator](BaseSerpElementItem.md#_discriminator)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:19788
 
-___
+***
 
-### duration\_time
+### duration\_time?
 
-• `Optional` **duration\_time**: `number`
+> **`optional`** **duration\_time**: `number`
 
 duration of subtitles in seconds
 
 #### Implementation of
 
-[IYoutubeSubtitlesSerpElementItem](../interfaces/IYoutubeSubtitlesSerpElementItem.md).[duration_time](../interfaces/IYoutubeSubtitlesSerpElementItem.md#duration_time)
+[`IYoutubeSubtitlesSerpElementItem`](../interfaces/IYoutubeSubtitlesSerpElementItem.md).[`duration_time`](../interfaces/IYoutubeSubtitlesSerpElementItem.md#duration_time)
 
-#### Defined in
+#### Source
 
-main.ts:62608
+main.ts:62616
 
-___
+***
 
-### end\_time
+### end\_time?
 
-• `Optional` **end\_time**: `number`
+> **`optional`** **end\_time**: `number`
 
 the second subtitled text ends
 
 #### Implementation of
 
-[IYoutubeSubtitlesSerpElementItem](../interfaces/IYoutubeSubtitlesSerpElementItem.md).[end_time](../interfaces/IYoutubeSubtitlesSerpElementItem.md#end_time)
+[`IYoutubeSubtitlesSerpElementItem`](../interfaces/IYoutubeSubtitlesSerpElementItem.md).[`end_time`](../interfaces/IYoutubeSubtitlesSerpElementItem.md#end_time)
 
-#### Defined in
+#### Source
 
-main.ts:62606
+main.ts:62614
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP for the target domain
 absolute position among all the elements in SERP
 
 #### Implementation of
 
-[IYoutubeSubtitlesSerpElementItem](../interfaces/IYoutubeSubtitlesSerpElementItem.md).[rank_absolute](../interfaces/IYoutubeSubtitlesSerpElementItem.md#rank_absolute)
+[`IYoutubeSubtitlesSerpElementItem`](../interfaces/IYoutubeSubtitlesSerpElementItem.md).[`rank_absolute`](../interfaces/IYoutubeSubtitlesSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:62600
+main.ts:62608
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -137,55 +115,53 @@ positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
-[IYoutubeSubtitlesSerpElementItem](../interfaces/IYoutubeSubtitlesSerpElementItem.md).[rank_group](../interfaces/IYoutubeSubtitlesSerpElementItem.md#rank_group)
+[`IYoutubeSubtitlesSerpElementItem`](../interfaces/IYoutubeSubtitlesSerpElementItem.md).[`rank_group`](../interfaces/IYoutubeSubtitlesSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
-main.ts:62597
+main.ts:62605
 
-___
+***
 
-### start\_time
+### start\_time?
 
-• `Optional` **start\_time**: `number`
+> **`optional`** **start\_time**: `number`
 
 the second subtitled text starts
 
 #### Implementation of
 
-[IYoutubeSubtitlesSerpElementItem](../interfaces/IYoutubeSubtitlesSerpElementItem.md).[start_time](../interfaces/IYoutubeSubtitlesSerpElementItem.md#start_time)
+[`IYoutubeSubtitlesSerpElementItem`](../interfaces/IYoutubeSubtitlesSerpElementItem.md).[`start_time`](../interfaces/IYoutubeSubtitlesSerpElementItem.md#start_time)
 
-#### Defined in
+#### Source
 
-main.ts:62604
+main.ts:62612
 
-___
+***
 
-### text
+### text?
 
-• `Optional` **text**: `string`
+> **`optional`** **text**: `string`
 
 text translated in subtitles
 
 #### Implementation of
 
-[IYoutubeSubtitlesSerpElementItem](../interfaces/IYoutubeSubtitlesSerpElementItem.md).[text](../interfaces/IYoutubeSubtitlesSerpElementItem.md#text)
+[`IYoutubeSubtitlesSerpElementItem`](../interfaces/IYoutubeSubtitlesSerpElementItem.md).[`text`](../interfaces/IYoutubeSubtitlesSerpElementItem.md#text)
 
-#### Defined in
+#### Source
 
-main.ts:62602
+main.ts:62610
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -193,23 +169,21 @@ main.ts:62602
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[init](BaseSerpElementItem.md#init)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:62617
+main.ts:62625
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -217,23 +191,21 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[toJSON](BaseSerpElementItem.md#tojson)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:62640
+main.ts:62648
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`YoutubeSubtitlesSerpElementItem`](YoutubeSubtitlesSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`YoutubeSubtitlesSerpElementItem`](YoutubeSubtitlesSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -241,8 +213,8 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[fromJS](BaseSerpElementItem.md#fromjs)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:62633
+main.ts:62641

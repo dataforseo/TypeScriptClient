@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksTimeseriesSummaryLiveResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BacklinksTimeseriesSummaryLiveResponseInfo
 
 # Class: BacklinksTimeseriesSummaryLiveResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`BacklinksTimeseriesSummaryLiveResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BacklinksTimeseriesSummaryLiveResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](BacklinksTimeseriesSummaryLiveResponseInfo.md#cost)
-- [status\_code](BacklinksTimeseriesSummaryLiveResponseInfo.md#status_code)
-- [status\_message](BacklinksTimeseriesSummaryLiveResponseInfo.md#status_message)
-- [tasks](BacklinksTimeseriesSummaryLiveResponseInfo.md#tasks)
-- [tasks\_count](BacklinksTimeseriesSummaryLiveResponseInfo.md#tasks_count)
-- [tasks\_error](BacklinksTimeseriesSummaryLiveResponseInfo.md#tasks_error)
-- [time](BacklinksTimeseriesSummaryLiveResponseInfo.md#time)
-- [version](BacklinksTimeseriesSummaryLiveResponseInfo.md#version)
-
-### Methods
-
-- [init](BacklinksTimeseriesSummaryLiveResponseInfo.md#init)
-- [toJSON](BacklinksTimeseriesSummaryLiveResponseInfo.md#tojson)
-- [fromJS](BacklinksTimeseriesSummaryLiveResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BacklinksTimeseriesSummaryLiveResponseInfo(data)
 
-• **new BacklinksTimeseriesSummaryLiveResponseInfo**(`data?`): [`BacklinksTimeseriesSummaryLiveResponseInfo`](BacklinksTimeseriesSummaryLiveResponseInfo.md)
+> **new BacklinksTimeseriesSummaryLiveResponseInfo**(`data`?): [`BacklinksTimeseriesSummaryLiveResponseInfo`](BacklinksTimeseriesSummaryLiveResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBacklinksTimeseriesSummaryLiveResponseInfo`](../interfaces/IBacklinksTimeseriesSummaryLiveResponseInfo.md) |
+• **data?**: [`IBacklinksTimeseriesSummaryLiveResponseInfo`](../interfaces/IBacklinksTimeseriesSummaryLiveResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:144211
+main.ts:144219
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IBacklinksTimeseriesSummaryLiveResponseInfo](../interfaces/IBacklinksTimeseriesSummaryLiveResponseInfo.md).[cost](../interfaces/IBacklinksTimeseriesSummaryLiveResponseInfo.md#cost)
+[`IBacklinksTimeseriesSummaryLiveResponseInfo`](../interfaces/IBacklinksTimeseriesSummaryLiveResponseInfo.md).[`cost`](../interfaces/IBacklinksTimeseriesSummaryLiveResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[IBacklinksTimeseriesSummaryLiveResponseInfo](../interfaces/IBacklinksTimeseriesSummaryLiveResponseInfo.md).[status_code](../interfaces/IBacklinksTimeseriesSummaryLiveResponseInfo.md#status_code)
+[`IBacklinksTimeseriesSummaryLiveResponseInfo`](../interfaces/IBacklinksTimeseriesSummaryLiveResponseInfo.md).[`status_code`](../interfaces/IBacklinksTimeseriesSummaryLiveResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IBacklinksTimeseriesSummaryLiveResponseInfo](../interfaces/IBacklinksTimeseriesSummaryLiveResponseInfo.md).[status_message](../interfaces/IBacklinksTimeseriesSummaryLiveResponseInfo.md#status_message)
+[`IBacklinksTimeseriesSummaryLiveResponseInfo`](../interfaces/IBacklinksTimeseriesSummaryLiveResponseInfo.md).[`status_message`](../interfaces/IBacklinksTimeseriesSummaryLiveResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`BacklinksTimeseriesSummaryLiveTaskInfo`](BacklinksTimeseriesSummaryLiveTaskInfo.md)[]
+> **`optional`** **tasks**: [`BacklinksTimeseriesSummaryLiveTaskInfo`](BacklinksTimeseriesSummaryLiveTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[IBacklinksTimeseriesSummaryLiveResponseInfo](../interfaces/IBacklinksTimeseriesSummaryLiveResponseInfo.md).[tasks](../interfaces/IBacklinksTimeseriesSummaryLiveResponseInfo.md#tasks)
+[`IBacklinksTimeseriesSummaryLiveResponseInfo`](../interfaces/IBacklinksTimeseriesSummaryLiveResponseInfo.md).[`tasks`](../interfaces/IBacklinksTimeseriesSummaryLiveResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:144207
+main.ts:144215
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[IBacklinksTimeseriesSummaryLiveResponseInfo](../interfaces/IBacklinksTimeseriesSummaryLiveResponseInfo.md).[tasks_count](../interfaces/IBacklinksTimeseriesSummaryLiveResponseInfo.md#tasks_count)
+[`IBacklinksTimeseriesSummaryLiveResponseInfo`](../interfaces/IBacklinksTimeseriesSummaryLiveResponseInfo.md).[`tasks_count`](../interfaces/IBacklinksTimeseriesSummaryLiveResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[IBacklinksTimeseriesSummaryLiveResponseInfo](../interfaces/IBacklinksTimeseriesSummaryLiveResponseInfo.md).[tasks_error](../interfaces/IBacklinksTimeseriesSummaryLiveResponseInfo.md#tasks_error)
+[`IBacklinksTimeseriesSummaryLiveResponseInfo`](../interfaces/IBacklinksTimeseriesSummaryLiveResponseInfo.md).[`tasks_error`](../interfaces/IBacklinksTimeseriesSummaryLiveResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[IBacklinksTimeseriesSummaryLiveResponseInfo](../interfaces/IBacklinksTimeseriesSummaryLiveResponseInfo.md).[time](../interfaces/IBacklinksTimeseriesSummaryLiveResponseInfo.md#time)
+[`IBacklinksTimeseriesSummaryLiveResponseInfo`](../interfaces/IBacklinksTimeseriesSummaryLiveResponseInfo.md).[`time`](../interfaces/IBacklinksTimeseriesSummaryLiveResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[IBacklinksTimeseriesSummaryLiveResponseInfo](../interfaces/IBacklinksTimeseriesSummaryLiveResponseInfo.md).[version](../interfaces/IBacklinksTimeseriesSummaryLiveResponseInfo.md#version)
+[`IBacklinksTimeseriesSummaryLiveResponseInfo`](../interfaces/IBacklinksTimeseriesSummaryLiveResponseInfo.md).[`version`](../interfaces/IBacklinksTimeseriesSummaryLiveResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:144215
+main.ts:144223
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:144237
+main.ts:144245
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BacklinksTimeseriesSummaryLiveResponseInfo`](BacklinksTimeseriesSummaryLiveResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`BacklinksTimeseriesSummaryLiveResponseInfo`](BacklinksTimeseriesSummaryLiveResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:144230
+main.ts:144238

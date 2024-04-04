@@ -1,55 +1,47 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IProductInformationRows
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IProductInformationRows
 
 # Interface: IProductInformationRows
 
-## Implemented by
-
-- [`ProductInformationRows`](../classes/ProductInformationRows.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [rows](IProductInformationRows.md#rows)
-- [title](IProductInformationRows.md#title)
-- [type](IProductInformationRows.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### rows
+### rows?
 
-• `Optional` **rows**: [`BaseProductInformationRowItem`](../classes/BaseProductInformationRowItem.md)[]
+> **`optional`** **rows**: [`BaseProductInformationRowItem`](../classes/BaseProductInformationRowItem.md)[]
 
 rows containing related product information
 
-#### Defined in
+#### Source
 
 main.ts:178174
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title under which related product information appears on the Amazon product page
 
-#### Defined in
+#### Source
 
 main.ts:178172
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
 main.ts:178170

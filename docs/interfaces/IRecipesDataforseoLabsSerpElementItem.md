@@ -1,91 +1,79 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IRecipesDataforseoLabsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IRecipesDataforseoLabsSerpElementItem
 
 # Interface: IRecipesDataforseoLabsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md)
 
-  ↳ **`IRecipesDataforseoLabsSerpElementItem`**
-
-## Implemented by
-
-- [`RecipesDataforseoLabsSerpElementItem`](../classes/RecipesDataforseoLabsSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IRecipesDataforseoLabsSerpElementItem.md#items)
-- [position](IRecipesDataforseoLabsSerpElementItem.md#position)
-- [rank\_absolute](IRecipesDataforseoLabsSerpElementItem.md#rank_absolute)
-- [rank\_group](IRecipesDataforseoLabsSerpElementItem.md#rank_group)
-- [xpath](IRecipesDataforseoLabsSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`RecipesElement`](../classes/RecipesElement.md)[]
+> **`optional`** **items**: [`RecipesElement`](../classes/RecipesElement.md)[]
 
 elements of search results found in SERP
 
-#### Defined in
+#### Source
 
-main.ts:97515
+main.ts:97523
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
-main.ts:97511
+main.ts:97519
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Defined in
+#### Source
 
-main.ts:97507
+main.ts:97515
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
-main.ts:97504
+main.ts:97512
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
-main.ts:97513
+main.ts:97521

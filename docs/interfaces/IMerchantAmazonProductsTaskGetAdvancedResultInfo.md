@@ -1,194 +1,176 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMerchantAmazonProductsTaskGetAdvancedResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IMerchantAmazonProductsTaskGetAdvancedResultInfo
 
 # Interface: IMerchantAmazonProductsTaskGetAdvancedResultInfo
 
-## Implemented by
-
-- [`MerchantAmazonProductsTaskGetAdvancedResultInfo`](../classes/MerchantAmazonProductsTaskGetAdvancedResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [categories](IMerchantAmazonProductsTaskGetAdvancedResultInfo.md#categories)
-- [check\_url](IMerchantAmazonProductsTaskGetAdvancedResultInfo.md#check_url)
-- [datetime](IMerchantAmazonProductsTaskGetAdvancedResultInfo.md#datetime)
-- [item\_types](IMerchantAmazonProductsTaskGetAdvancedResultInfo.md#item_types)
-- [items](IMerchantAmazonProductsTaskGetAdvancedResultInfo.md#items)
-- [items\_count](IMerchantAmazonProductsTaskGetAdvancedResultInfo.md#items_count)
-- [keyword](IMerchantAmazonProductsTaskGetAdvancedResultInfo.md#keyword)
-- [language\_code](IMerchantAmazonProductsTaskGetAdvancedResultInfo.md#language_code)
-- [location\_code](IMerchantAmazonProductsTaskGetAdvancedResultInfo.md#location_code)
-- [se\_domain](IMerchantAmazonProductsTaskGetAdvancedResultInfo.md#se_domain)
-- [se\_results\_count](IMerchantAmazonProductsTaskGetAdvancedResultInfo.md#se_results_count)
-- [spell](IMerchantAmazonProductsTaskGetAdvancedResultInfo.md#spell)
-- [type](IMerchantAmazonProductsTaskGetAdvancedResultInfo.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### categories
+### categories?
 
-• `Optional` **categories**: `string`[]
+> **`optional`** **categories**: `string`[]
 
 amazon product departments and subcategories
 
-#### Defined in
+#### Source
 
 main.ts:176882
 
-___
+***
 
-### check\_url
+### check\_url?
 
-• `Optional` **check\_url**: `string`
+> **`optional`** **check\_url**: `string`
 
 direct URL to Amazon results
 you can use it to make sure that we provided accurate results
 
-#### Defined in
+#### Source
 
 main.ts:176865
 
-___
+***
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
 main.ts:176870
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 types of search results found in Amazon SERP
 contains types of all search results (items) found in the returned SERP
 possible item types:
 amazon_serp, amazon_paid, editorial_recommendations, top_rated_from_our_brands, related_searches
 
-#### Defined in
+#### Source
 
 main.ts:176878
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseAmazonSerpElementItem`](../classes/BaseAmazonSerpElementItem.md)[]
+> **`optional`** **items**: [`BaseAmazonSerpElementItem`](../classes/BaseAmazonSerpElementItem.md)[]
 
 Amazon product items within the editorial_recommendations element
 
-#### Defined in
+#### Source
 
 main.ts:176886
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Defined in
+#### Source
 
 main.ts:176884
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
 
-#### Defined in
+#### Source
 
 main.ts:176854
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
-#### Defined in
+#### Source
 
 main.ts:176862
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
-#### Defined in
+#### Source
 
 main.ts:176860
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
-#### Defined in
+#### Source
 
 main.ts:176858
 
-___
+***
 
-### se\_results\_count
+### se\_results\_count?
 
-• `Optional` **se\_results\_count**: `number`
+> **`optional`** **se\_results\_count**: `number`
 
 search engine results count
 
-#### Defined in
+#### Source
 
 main.ts:176880
 
-___
+***
 
-### spell
+### spell?
 
-• `Optional` **spell**: [`SpellInfo`](../classes/SpellInfo.md)
+> **`optional`** **spell**: [`SpellInfo`](../classes/SpellInfo.md)
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
 
-#### Defined in
+#### Source
 
 main.ts:176873
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
 main.ts:176856

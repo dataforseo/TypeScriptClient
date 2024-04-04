@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordData
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordData
 
 # Class: KeywordData
 
@@ -8,75 +12,48 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordData.md#constructor)
-
-### Properties
-
-- [avg\_backlinks\_info](KeywordData.md#avg_backlinks_info)
-- [impressions\_info](KeywordData.md#impressions_info)
-- [keyword](KeywordData.md#keyword)
-- [keyword\_info](KeywordData.md#keyword_info)
-- [keyword\_properties](KeywordData.md#keyword_properties)
-- [language\_code](KeywordData.md#language_code)
-- [location\_code](KeywordData.md#location_code)
-- [se\_type](KeywordData.md#se_type)
-- [search\_intent\_info](KeywordData.md#search_intent_info)
-- [serp\_info](KeywordData.md#serp_info)
-
-### Methods
-
-- [init](KeywordData.md#init)
-- [toJSON](KeywordData.md#tojson)
-- [fromJS](KeywordData.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordData(data)
 
-• **new KeywordData**(`data?`): [`KeywordData`](KeywordData.md)
+> **new KeywordData**(`data`?): [`KeywordData`](KeywordData.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordData`](../interfaces/IKeywordData.md) |
+• **data?**: [`IKeywordData`](../interfaces/IKeywordData.md)
 
 #### Returns
 
 [`KeywordData`](KeywordData.md)
 
-#### Defined in
+#### Source
 
-main.ts:88770
+main.ts:88778
 
 ## Properties
 
-### avg\_backlinks\_info
+### avg\_backlinks\_info?
 
-• `Optional` **avg\_backlinks\_info**: [`AvgBacklinksInfo`](AvgBacklinksInfo.md)
+> **`optional`** **avg\_backlinks\_info**: [`AvgBacklinksInfo`](AvgBacklinksInfo.md)
 
 backlink data for the returned keyword
 this object provides the average number of backlinks, referring pages and domains, as well as the average rank values among the top-10 websites ranking organically for the keyword
 
 #### Implementation of
 
-[IKeywordData](../interfaces/IKeywordData.md).[avg_backlinks_info](../interfaces/IKeywordData.md#avg_backlinks_info)
+[`IKeywordData`](../interfaces/IKeywordData.md).[`avg_backlinks_info`](../interfaces/IKeywordData.md#avg_backlinks_info)
 
-#### Defined in
+#### Source
 
-main.ts:88763
+main.ts:88771
 
-___
+***
 
-### impressions\_info
+### impressions\_info?
 
-• `Optional` **impressions\_info**: [`ImpressionsInfo`](ImpressionsInfo.md)
+> **`optional`** **impressions\_info**: [`ImpressionsInfo`](ImpressionsInfo.md)
 
 impressions data for the returned keyword idea
 Note that all data in the impressions_info object is deprecated and provided only as legacy to avoid maintenance issues
@@ -86,198 +63,192 @@ learn more about impressions in this help center article
 
 #### Implementation of
 
-[IKeywordData](../interfaces/IKeywordData.md).[impressions_info](../interfaces/IKeywordData.md#impressions_info)
+[`IKeywordData`](../interfaces/IKeywordData.md).[`impressions_info`](../interfaces/IKeywordData.md#impressions_info)
 
-#### Defined in
+#### Source
 
-main.ts:88757
+main.ts:88765
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 returned keyword
 
 #### Implementation of
 
-[IKeywordData](../interfaces/IKeywordData.md).[keyword](../interfaces/IKeywordData.md#keyword)
+[`IKeywordData`](../interfaces/IKeywordData.md).[`keyword`](../interfaces/IKeywordData.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:88743
+main.ts:88751
 
-___
+***
 
-### keyword\_info
+### keyword\_info?
 
-• `Optional` **keyword\_info**: [`KeywordInfo`](KeywordInfo.md)
+> **`optional`** **keyword\_info**: [`KeywordInfo`](KeywordInfo.md)
 
 keyword data for the returned keyword
 
 #### Implementation of
 
-[IKeywordData](../interfaces/IKeywordData.md).[keyword_info](../interfaces/IKeywordData.md#keyword_info)
+[`IKeywordData`](../interfaces/IKeywordData.md).[`keyword_info`](../interfaces/IKeywordData.md#keyword_info)
 
-#### Defined in
+#### Source
 
-main.ts:88749
+main.ts:88757
 
-___
+***
 
-### keyword\_properties
+### keyword\_properties?
 
-• `Optional` **keyword\_properties**: [`KeywordProperties`](KeywordProperties.md)
+> **`optional`** **keyword\_properties**: [`KeywordProperties`](KeywordProperties.md)
 
 additional information about the keyword
 
 #### Implementation of
 
-[IKeywordData](../interfaces/IKeywordData.md).[keyword_properties](../interfaces/IKeywordData.md#keyword_properties)
+[`IKeywordData`](../interfaces/IKeywordData.md).[`keyword_properties`](../interfaces/IKeywordData.md#keyword_properties)
 
-#### Defined in
+#### Source
 
-main.ts:88751
+main.ts:88759
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[IKeywordData](../interfaces/IKeywordData.md).[language_code](../interfaces/IKeywordData.md#language_code)
+[`IKeywordData`](../interfaces/IKeywordData.md).[`language_code`](../interfaces/IKeywordData.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:88747
+main.ts:88755
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[IKeywordData](../interfaces/IKeywordData.md).[location_code](../interfaces/IKeywordData.md#location_code)
+[`IKeywordData`](../interfaces/IKeywordData.md).[`location_code`](../interfaces/IKeywordData.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:88745
+main.ts:88753
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IKeywordData](../interfaces/IKeywordData.md).[se_type](../interfaces/IKeywordData.md#se_type)
+[`IKeywordData`](../interfaces/IKeywordData.md).[`se_type`](../interfaces/IKeywordData.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:88741
+main.ts:88749
 
-___
+***
 
-### search\_intent\_info
+### search\_intent\_info?
 
-• `Optional` **search\_intent\_info**: [`SearchIntentInfo`](SearchIntentInfo.md)
+> **`optional`** **search\_intent\_info**: [`SearchIntentInfo`](SearchIntentInfo.md)
 
 search intent info for the returned keyword
 learn about search intent in this help center article
 
 #### Implementation of
 
-[IKeywordData](../interfaces/IKeywordData.md).[search_intent_info](../interfaces/IKeywordData.md#search_intent_info)
+[`IKeywordData`](../interfaces/IKeywordData.md).[`search_intent_info`](../interfaces/IKeywordData.md#search_intent_info)
 
-#### Defined in
+#### Source
 
-main.ts:88766
+main.ts:88774
 
-___
+***
 
-### serp\_info
+### serp\_info?
 
-• `Optional` **serp\_info**: [`SerpInfo`](SerpInfo.md)
+> **`optional`** **serp\_info**: [`SerpInfo`](SerpInfo.md)
 
 SERP data
 the value will be null if you didn’t set the field include_serp_info to true in the POST array or if there is no SERP data for this keyword in our database
 
 #### Implementation of
 
-[IKeywordData](../interfaces/IKeywordData.md).[serp_info](../interfaces/IKeywordData.md#serp_info)
+[`IKeywordData`](../interfaces/IKeywordData.md).[`serp_info`](../interfaces/IKeywordData.md#serp_info)
 
-#### Defined in
+#### Source
 
-main.ts:88760
+main.ts:88768
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:88779
+main.ts:88787
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:88805
+main.ts:88813
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordData`](KeywordData.md)
+> **`static`** **fromJS**(`data`): [`KeywordData`](KeywordData.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`KeywordData`](KeywordData.md)
 
-#### Defined in
+#### Source
 
-main.ts:88798
+main.ts:88806

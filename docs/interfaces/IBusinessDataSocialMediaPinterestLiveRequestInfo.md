@@ -1,27 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataSocialMediaPinterestLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBusinessDataSocialMediaPinterestLiveRequestInfo
 
 # Interface: IBusinessDataSocialMediaPinterestLiveRequestInfo
 
-## Implemented by
-
-- [`BusinessDataSocialMediaPinterestLiveRequestInfo`](../classes/BusinessDataSocialMediaPinterestLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [tag](IBusinessDataSocialMediaPinterestLiveRequestInfo.md#tag)
-- [targets](IBusinessDataSocialMediaPinterestLiveRequestInfo.md#targets)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -29,15 +22,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
 main.ts:211160
 
-___
+***
 
-### targets
+### targets?
 
-• `Optional` **targets**: `string`[]
+> **`optional`** **targets**: `string`[]
 
 target URLs
 required field
@@ -46,6 +39,6 @@ example:
 https://dataforseo.com/
 Note: you can specify 10 targets maximum. You will be charged per earch URL you specify in this array
 
-#### Defined in
+#### Source
 
 main.ts:211154

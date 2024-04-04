@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo
 
 # Class: KeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo
 
@@ -8,60 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md#constructor)
-
-### Properties
-
-- [competition](KeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md#competition)
-- [competition\_index](KeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md#competition_index)
-- [cpc](KeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md#cpc)
-- [high\_top\_of\_page\_bid](KeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md#high_top_of_page_bid)
-- [keyword](KeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md#keyword)
-- [language\_code](KeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md#language_code)
-- [location\_code](KeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md#location_code)
-- [low\_top\_of\_page\_bid](KeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md#low_top_of_page_bid)
-- [monthly\_searches](KeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md#monthly_searches)
-- [search\_partners](KeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md#search_partners)
-- [search\_volume](KeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md#search_volume)
-- [spell](KeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md#spell)
-
-### Methods
-
-- [init](KeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md#init)
-- [toJSON](KeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md#tojson)
-- [fromJS](KeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo(data)
 
-• **new KeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo**(`data?`): [`KeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo`](KeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md)
+> **new KeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo**(`data`?): [`KeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo`](KeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md) |
+• **data?**: [`IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md)
 
 #### Returns
 
 [`KeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo`](KeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:116186
+main.ts:116194
 
 ## Properties
 
-### competition
+### competition?
 
-• `Optional` **competition**: `string`
+> **`optional`** **competition**: `string`
 
 competition
 represents the relative amount of competition associated with the given keyword in paid SERP only;
@@ -71,17 +46,17 @@ learn more about the metric in this help center article
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md).[competition](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md#competition)
+[`IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md).[`competition`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md#competition)
 
-#### Defined in
+#### Source
 
-main.ts:116157
+main.ts:116165
 
-___
+***
 
-### competition\_index
+### competition\_index?
 
-• `Optional` **competition\_index**: `number`
+> **`optional`** **competition\_index**: `number`
 
 competition
 represents the relative amount of competition associated with the given keyword in paid SERP only;
@@ -91,34 +66,34 @@ learn more about the metric in this help center article
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md).[competition_index](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md#competition_index)
+[`IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md).[`competition_index`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md#competition_index)
 
-#### Defined in
+#### Source
 
-main.ts:116163
+main.ts:116171
 
-___
+***
 
-### cpc
+### cpc?
 
-• `Optional` **cpc**: `number`
+> **`optional`** **cpc**: `number`
 
 cost per click
 indicates the amount paid for each click on the ad displayed for a given keyword
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md).[cpc](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md#cpc)
+[`IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md).[`cpc`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md#cpc)
 
-#### Defined in
+#### Source
 
-main.ts:116178
+main.ts:116186
 
-___
+***
 
-### high\_top\_of\_page\_bid
+### high\_top\_of\_page\_bid?
 
-• `Optional` **high\_top\_of\_page\_bid**: `number`
+> **`optional`** **high\_top\_of\_page\_bid**: `number`
 
 maximum bid for the ad to be displayed at the top of the first page
 indicates the value greater than about 80% of the lowest bids for which ads were displayed (based on Google Ads statistics for advertisers);
@@ -126,68 +101,68 @@ the value may differ depending on the location specified in a POST request
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md).[high_top_of_page_bid](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md#high_top_of_page_bid)
+[`IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md).[`high_top_of_page_bid`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md#high_top_of_page_bid)
 
-#### Defined in
+#### Source
 
-main.ts:116175
+main.ts:116183
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md).[keyword](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md#keyword)
+[`IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md).[`keyword`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:116140
+main.ts:116148
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 if there is no data, then the value is null
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md).[language_code](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md#language_code)
+[`IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md).[`language_code`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:116149
+main.ts:116157
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 if there is no data, then the value is null
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md).[location_code](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md#location_code)
+[`IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md).[`location_code`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:116146
+main.ts:116154
 
-___
+***
 
-### low\_top\_of\_page\_bid
+### low\_top\_of\_page\_bid?
 
-• `Optional` **low\_top\_of\_page\_bid**: `number`
+> **`optional`** **low\_top\_of\_page\_bid**: `number`
 
 minimum bid for the ad to be displayed at the top of the first page
 indicates the value greater than about 20% of the lowest bids for which ads were displayed (based on Google Ads statistics for advertisers);
@@ -195,17 +170,17 @@ the value may differ depending on the location specified in a POST request
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md).[low_top_of_page_bid](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md#low_top_of_page_bid)
+[`IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md).[`low_top_of_page_bid`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md#low_top_of_page_bid)
 
-#### Defined in
+#### Source
 
-main.ts:116171
+main.ts:116179
 
-___
+***
 
-### monthly\_searches
+### monthly\_searches?
 
-• `Optional` **monthly\_searches**: [`MonthlySearches`](MonthlySearches.md)[]
+> **`optional`** **monthly\_searches**: [`MonthlySearches`](MonthlySearches.md)[]
 
 monthly searches
 represents the (approximate) number of searches on this keyword idea (as available for the past twelve months by default), targeted to the specified geographic locations;
@@ -213,33 +188,33 @@ if there is no data then the value is null
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md).[monthly_searches](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md#monthly_searches)
+[`IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md).[`monthly_searches`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md#monthly_searches)
 
-#### Defined in
+#### Source
 
-main.ts:116182
+main.ts:116190
 
-___
+***
 
-### search\_partners
+### search\_partners?
 
-• `Optional` **search\_partners**: `boolean`
+> **`optional`** **search\_partners**: `boolean`
 
 indicates whether data from partner networks included in the response
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md).[search_partners](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md#search_partners)
+[`IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md).[`search_partners`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md#search_partners)
 
-#### Defined in
+#### Source
 
-main.ts:116151
+main.ts:116159
 
-___
+***
 
-### search\_volume
+### search\_volume?
 
-• `Optional` **search\_volume**: `number`
+> **`optional`** **search\_volume**: `number`
 
 monthly average search volume rate;
 represents either the (approximate) number of searches for the given keyword idea on google.com or google.com and partners, depending on the user’s targeting;
@@ -247,85 +222,79 @@ if there is no data then the value is null
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md).[search_volume](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md#search_volume)
+[`IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md).[`search_volume`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md#search_volume)
 
-#### Defined in
+#### Source
 
-main.ts:116167
+main.ts:116175
 
-___
+***
 
-### spell
+### spell?
 
-• `Optional` **spell**: [`SpellInfo`](SpellInfo.md)
+> **`optional`** **spell**: [`SpellInfo`](SpellInfo.md)
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md).[spell](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md#spell)
+[`IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md).[`spell`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md#spell)
 
-#### Defined in
+#### Source
 
-main.ts:116143
+main.ts:116151
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:116195
+main.ts:116203
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:116227
+main.ts:116235
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo`](KeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo`](KeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`KeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo`](KeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:116220
+main.ts:116228

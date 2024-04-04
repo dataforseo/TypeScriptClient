@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MentionCarouselElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / MentionCarouselElement
 
 # Class: MentionCarouselElement
 
@@ -8,185 +12,157 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](MentionCarouselElement.md#constructor)
-
-### Properties
-
-- [mentioned\_in](MentionCarouselElement.md#mentioned_in)
-- [price](MentionCarouselElement.md#price)
-- [rating](MentionCarouselElement.md#rating)
-- [title](MentionCarouselElement.md#title)
-- [type](MentionCarouselElement.md#type)
-
-### Methods
-
-- [init](MentionCarouselElement.md#init)
-- [toJSON](MentionCarouselElement.md#tojson)
-- [fromJS](MentionCarouselElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new MentionCarouselElement(data)
 
-• **new MentionCarouselElement**(`data?`): [`MentionCarouselElement`](MentionCarouselElement.md)
+> **new MentionCarouselElement**(`data`?): [`MentionCarouselElement`](MentionCarouselElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IMentionCarouselElement`](../interfaces/IMentionCarouselElement.md) |
+• **data?**: [`IMentionCarouselElement`](../interfaces/IMentionCarouselElement.md)
 
 #### Returns
 
 [`MentionCarouselElement`](MentionCarouselElement.md)
 
-#### Defined in
+#### Source
 
 main.ts:31618
 
 ## Properties
 
-### mentioned\_in
+### mentioned\_in?
 
-• `Optional` **mentioned\_in**: [`LinkElement`](LinkElement.md)[]
+> **`optional`** **mentioned\_in**: [`LinkElement`](LinkElement.md)[]
 
 additional elements in the mention_carousel item
 
 #### Implementation of
 
-[IMentionCarouselElement](../interfaces/IMentionCarouselElement.md).[mentioned_in](../interfaces/IMentionCarouselElement.md#mentioned_in)
+[`IMentionCarouselElement`](../interfaces/IMentionCarouselElement.md).[`mentioned_in`](../interfaces/IMentionCarouselElement.md#mentioned_in)
 
-#### Defined in
+#### Source
 
 main.ts:31614
 
-___
+***
 
-### price
+### price?
 
-• `Optional` **price**: [`PriceInfo`](PriceInfo.md)
+> **`optional`** **price**: [`PriceInfo`](PriceInfo.md)
 
 price indicated in the element
 
 #### Implementation of
 
-[IMentionCarouselElement](../interfaces/IMentionCarouselElement.md).[price](../interfaces/IMentionCarouselElement.md#price)
+[`IMentionCarouselElement`](../interfaces/IMentionCarouselElement.md).[`price`](../interfaces/IMentionCarouselElement.md#price)
 
-#### Defined in
+#### Source
 
 main.ts:31609
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](RatingInfo.md)
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
 
-[IMentionCarouselElement](../interfaces/IMentionCarouselElement.md).[rating](../interfaces/IMentionCarouselElement.md#rating)
+[`IMentionCarouselElement`](../interfaces/IMentionCarouselElement.md).[`rating`](../interfaces/IMentionCarouselElement.md#rating)
 
-#### Defined in
+#### Source
 
 main.ts:31612
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
 #### Implementation of
 
-[IMentionCarouselElement](../interfaces/IMentionCarouselElement.md).[title](../interfaces/IMentionCarouselElement.md#title)
+[`IMentionCarouselElement`](../interfaces/IMentionCarouselElement.md).[`title`](../interfaces/IMentionCarouselElement.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:31607
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IMentionCarouselElement](../interfaces/IMentionCarouselElement.md).[type](../interfaces/IMentionCarouselElement.md#type)
+[`IMentionCarouselElement`](../interfaces/IMentionCarouselElement.md).[`type`](../interfaces/IMentionCarouselElement.md#type)
 
-#### Defined in
+#### Source
 
 main.ts:31605
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:31627
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:31652
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`MentionCarouselElement`](MentionCarouselElement.md)
+> **`static`** **fromJS**(`data`): [`MentionCarouselElement`](MentionCarouselElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`MentionCarouselElement`](MentionCarouselElement.md)
 
-#### Defined in
+#### Source
 
 main.ts:31645

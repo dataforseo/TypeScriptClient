@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpNaverOrganicTasksFixedResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpNaverOrganicTasksFixedResultInfo
 
 # Class: SerpNaverOrganicTasksFixedResultInfo
 
@@ -8,240 +12,209 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpNaverOrganicTasksFixedResultInfo.md#constructor)
-
-### Properties
-
-- [date\_fixed](SerpNaverOrganicTasksFixedResultInfo.md#date_fixed)
-- [endpoint\_advanced](SerpNaverOrganicTasksFixedResultInfo.md#endpoint_advanced)
-- [endpoint\_html](SerpNaverOrganicTasksFixedResultInfo.md#endpoint_html)
-- [endpoint\_regular](SerpNaverOrganicTasksFixedResultInfo.md#endpoint_regular)
-- [id](SerpNaverOrganicTasksFixedResultInfo.md#id)
-- [se](SerpNaverOrganicTasksFixedResultInfo.md#se)
-- [se\_type](SerpNaverOrganicTasksFixedResultInfo.md#se_type)
-- [tag](SerpNaverOrganicTasksFixedResultInfo.md#tag)
-
-### Methods
-
-- [init](SerpNaverOrganicTasksFixedResultInfo.md#init)
-- [toJSON](SerpNaverOrganicTasksFixedResultInfo.md#tojson)
-- [fromJS](SerpNaverOrganicTasksFixedResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpNaverOrganicTasksFixedResultInfo(data)
 
-• **new SerpNaverOrganicTasksFixedResultInfo**(`data?`): [`SerpNaverOrganicTasksFixedResultInfo`](SerpNaverOrganicTasksFixedResultInfo.md)
+> **new SerpNaverOrganicTasksFixedResultInfo**(`data`?): [`SerpNaverOrganicTasksFixedResultInfo`](SerpNaverOrganicTasksFixedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpNaverOrganicTasksFixedResultInfo`](../interfaces/ISerpNaverOrganicTasksFixedResultInfo.md) |
+• **data?**: [`ISerpNaverOrganicTasksFixedResultInfo`](../interfaces/ISerpNaverOrganicTasksFixedResultInfo.md)
 
 #### Returns
 
 [`SerpNaverOrganicTasksFixedResultInfo`](SerpNaverOrganicTasksFixedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:70196
+main.ts:70204
 
 ## Properties
 
-### date\_fixed
+### date\_fixed?
 
-• `Optional` **date\_fixed**: `string`
+> **`optional`** **date\_fixed**: `string`
 
 date when the task was fixed (in the UTC format)
 
 #### Implementation of
 
-[ISerpNaverOrganicTasksFixedResultInfo](../interfaces/ISerpNaverOrganicTasksFixedResultInfo.md).[date_fixed](../interfaces/ISerpNaverOrganicTasksFixedResultInfo.md#date_fixed)
+[`ISerpNaverOrganicTasksFixedResultInfo`](../interfaces/ISerpNaverOrganicTasksFixedResultInfo.md).[`date_fixed`](../interfaces/ISerpNaverOrganicTasksFixedResultInfo.md#date_fixed)
 
-#### Defined in
+#### Source
 
-main.ts:70181
+main.ts:70189
 
-___
+***
 
-### endpoint\_advanced
+### endpoint\_advanced?
 
-• `Optional` **endpoint\_advanced**: `string`
+> **`optional`** **endpoint\_advanced**: `string`
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpNaverOrganicTasksFixedResultInfo](../interfaces/ISerpNaverOrganicTasksFixedResultInfo.md).[endpoint_advanced](../interfaces/ISerpNaverOrganicTasksFixedResultInfo.md#endpoint_advanced)
+[`ISerpNaverOrganicTasksFixedResultInfo`](../interfaces/ISerpNaverOrganicTasksFixedResultInfo.md).[`endpoint_advanced`](../interfaces/ISerpNaverOrganicTasksFixedResultInfo.md#endpoint_advanced)
 
-#### Defined in
+#### Source
 
-main.ts:70189
+main.ts:70197
 
-___
+***
 
-### endpoint\_html
+### endpoint\_html?
 
-• `Optional` **endpoint\_html**: `string`
+> **`optional`** **endpoint\_html**: `string`
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpNaverOrganicTasksFixedResultInfo](../interfaces/ISerpNaverOrganicTasksFixedResultInfo.md).[endpoint_html](../interfaces/ISerpNaverOrganicTasksFixedResultInfo.md#endpoint_html)
+[`ISerpNaverOrganicTasksFixedResultInfo`](../interfaces/ISerpNaverOrganicTasksFixedResultInfo.md).[`endpoint_html`](../interfaces/ISerpNaverOrganicTasksFixedResultInfo.md#endpoint_html)
 
-#### Defined in
+#### Source
 
-main.ts:70192
+main.ts:70200
 
-___
+***
 
-### endpoint\_regular
+### endpoint\_regular?
 
-• `Optional` **endpoint\_regular**: `string`
+> **`optional`** **endpoint\_regular**: `string`
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpNaverOrganicTasksFixedResultInfo](../interfaces/ISerpNaverOrganicTasksFixedResultInfo.md).[endpoint_regular](../interfaces/ISerpNaverOrganicTasksFixedResultInfo.md#endpoint_regular)
+[`ISerpNaverOrganicTasksFixedResultInfo`](../interfaces/ISerpNaverOrganicTasksFixedResultInfo.md).[`endpoint_regular`](../interfaces/ISerpNaverOrganicTasksFixedResultInfo.md#endpoint_regular)
 
-#### Defined in
+#### Source
 
-main.ts:70186
+main.ts:70194
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[ISerpNaverOrganicTasksFixedResultInfo](../interfaces/ISerpNaverOrganicTasksFixedResultInfo.md).[id](../interfaces/ISerpNaverOrganicTasksFixedResultInfo.md#id)
+[`ISerpNaverOrganicTasksFixedResultInfo`](../interfaces/ISerpNaverOrganicTasksFixedResultInfo.md).[`id`](../interfaces/ISerpNaverOrganicTasksFixedResultInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:70174
+main.ts:70182
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 
 #### Implementation of
 
-[ISerpNaverOrganicTasksFixedResultInfo](../interfaces/ISerpNaverOrganicTasksFixedResultInfo.md).[se](../interfaces/ISerpNaverOrganicTasksFixedResultInfo.md#se)
+[`ISerpNaverOrganicTasksFixedResultInfo`](../interfaces/ISerpNaverOrganicTasksFixedResultInfo.md).[`se`](../interfaces/ISerpNaverOrganicTasksFixedResultInfo.md#se)
 
-#### Defined in
+#### Source
 
-main.ts:70176
+main.ts:70184
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 type of search engine
 can take the following values: organic
 
 #### Implementation of
 
-[ISerpNaverOrganicTasksFixedResultInfo](../interfaces/ISerpNaverOrganicTasksFixedResultInfo.md).[se_type](../interfaces/ISerpNaverOrganicTasksFixedResultInfo.md#se_type)
+[`ISerpNaverOrganicTasksFixedResultInfo`](../interfaces/ISerpNaverOrganicTasksFixedResultInfo.md).[`se_type`](../interfaces/ISerpNaverOrganicTasksFixedResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:70179
+main.ts:70187
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
 #### Implementation of
 
-[ISerpNaverOrganicTasksFixedResultInfo](../interfaces/ISerpNaverOrganicTasksFixedResultInfo.md).[tag](../interfaces/ISerpNaverOrganicTasksFixedResultInfo.md#tag)
+[`ISerpNaverOrganicTasksFixedResultInfo`](../interfaces/ISerpNaverOrganicTasksFixedResultInfo.md).[`tag`](../interfaces/ISerpNaverOrganicTasksFixedResultInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:70183
+main.ts:70191
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:70205
+main.ts:70213
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:70229
+main.ts:70237
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpNaverOrganicTasksFixedResultInfo`](SerpNaverOrganicTasksFixedResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpNaverOrganicTasksFixedResultInfo`](SerpNaverOrganicTasksFixedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpNaverOrganicTasksFixedResultInfo`](SerpNaverOrganicTasksFixedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:70222
+main.ts:70230

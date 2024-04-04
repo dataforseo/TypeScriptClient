@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksIdListRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BacklinksIdListRequestInfo
 
 # Class: BacklinksIdListRequestInfo
 
@@ -8,54 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BacklinksIdListRequestInfo.md#constructor)
-
-### Properties
-
-- [datetime\_from](BacklinksIdListRequestInfo.md#datetime_from)
-- [datetime\_to](BacklinksIdListRequestInfo.md#datetime_to)
-- [include\_metadata](BacklinksIdListRequestInfo.md#include_metadata)
-- [limit](BacklinksIdListRequestInfo.md#limit)
-- [offset](BacklinksIdListRequestInfo.md#offset)
-- [sort](BacklinksIdListRequestInfo.md#sort)
-
-### Methods
-
-- [init](BacklinksIdListRequestInfo.md#init)
-- [toJSON](BacklinksIdListRequestInfo.md#tojson)
-- [fromJS](BacklinksIdListRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BacklinksIdListRequestInfo(data)
 
-• **new BacklinksIdListRequestInfo**(`data?`): [`BacklinksIdListRequestInfo`](BacklinksIdListRequestInfo.md)
+> **new BacklinksIdListRequestInfo**(`data`?): [`BacklinksIdListRequestInfo`](BacklinksIdListRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBacklinksIdListRequestInfo`](../interfaces/IBacklinksIdListRequestInfo.md) |
+• **data?**: [`IBacklinksIdListRequestInfo`](../interfaces/IBacklinksIdListRequestInfo.md)
 
 #### Returns
 
 [`BacklinksIdListRequestInfo`](BacklinksIdListRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:133344
+main.ts:133352
 
 ## Properties
 
-### datetime\_from
+### datetime\_from?
 
-• `Optional` **datetime\_from**: `string`
+> **`optional`** **datetime\_from**: `string`
 
 start time for filtering results
 required field
@@ -67,17 +48,17 @@ example:
 
 #### Implementation of
 
-[IBacklinksIdListRequestInfo](../interfaces/IBacklinksIdListRequestInfo.md).[datetime_from](../interfaces/IBacklinksIdListRequestInfo.md#datetime_from)
+[`IBacklinksIdListRequestInfo`](../interfaces/IBacklinksIdListRequestInfo.md).[`datetime_from`](../interfaces/IBacklinksIdListRequestInfo.md#datetime_from)
 
-#### Defined in
+#### Source
 
-main.ts:133314
+main.ts:133322
 
-___
+***
 
-### datetime\_to
+### datetime\_to?
 
-• `Optional` **datetime\_to**: `string`
+> **`optional`** **datetime\_to**: `string`
 
 finish time for filtering results
 required field
@@ -88,17 +69,17 @@ example:
 
 #### Implementation of
 
-[IBacklinksIdListRequestInfo](../interfaces/IBacklinksIdListRequestInfo.md).[datetime_to](../interfaces/IBacklinksIdListRequestInfo.md#datetime_to)
+[`IBacklinksIdListRequestInfo`](../interfaces/IBacklinksIdListRequestInfo.md).[`datetime_to`](../interfaces/IBacklinksIdListRequestInfo.md#datetime_to)
 
-#### Defined in
+#### Source
 
-main.ts:133321
+main.ts:133329
 
-___
+***
 
-### include\_metadata
+### include\_metadata?
 
-• `Optional` **include\_metadata**: `boolean`
+> **`optional`** **include\_metadata**: `boolean`
 
 include task metadata in the respond
 optional field
@@ -106,17 +87,17 @@ default value: false
 
 #### Implementation of
 
-[IBacklinksIdListRequestInfo](../interfaces/IBacklinksIdListRequestInfo.md).[include_metadata](../interfaces/IBacklinksIdListRequestInfo.md#include_metadata)
+[`IBacklinksIdListRequestInfo`](../interfaces/IBacklinksIdListRequestInfo.md).[`include_metadata`](../interfaces/IBacklinksIdListRequestInfo.md#include_metadata)
 
-#### Defined in
+#### Source
 
-main.ts:133340
+main.ts:133348
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned task IDs
 optional field
@@ -125,17 +106,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IBacklinksIdListRequestInfo](../interfaces/IBacklinksIdListRequestInfo.md).[limit](../interfaces/IBacklinksIdListRequestInfo.md#limit)
+[`IBacklinksIdListRequestInfo`](../interfaces/IBacklinksIdListRequestInfo.md).[`limit`](../interfaces/IBacklinksIdListRequestInfo.md#limit)
 
-#### Defined in
+#### Source
 
-main.ts:133326
+main.ts:133334
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned task IDs
 optional field
@@ -144,17 +125,17 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Implementation of
 
-[IBacklinksIdListRequestInfo](../interfaces/IBacklinksIdListRequestInfo.md).[offset](../interfaces/IBacklinksIdListRequestInfo.md#offset)
+[`IBacklinksIdListRequestInfo`](../interfaces/IBacklinksIdListRequestInfo.md).[`offset`](../interfaces/IBacklinksIdListRequestInfo.md#offset)
 
-#### Defined in
+#### Source
 
-main.ts:133331
+main.ts:133339
 
-___
+***
 
-### sort
+### sort?
 
-• `Optional` **sort**: `string`
+> **`optional`** **sort**: `string`
 
 sorting by task execution time
 optional field
@@ -163,68 +144,62 @@ default value: "asc"
 
 #### Implementation of
 
-[IBacklinksIdListRequestInfo](../interfaces/IBacklinksIdListRequestInfo.md).[sort](../interfaces/IBacklinksIdListRequestInfo.md#sort)
+[`IBacklinksIdListRequestInfo`](../interfaces/IBacklinksIdListRequestInfo.md).[`sort`](../interfaces/IBacklinksIdListRequestInfo.md#sort)
 
-#### Defined in
+#### Source
 
-main.ts:133336
+main.ts:133344
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:133353
+main.ts:133361
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:133375
+main.ts:133383
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BacklinksIdListRequestInfo`](BacklinksIdListRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`BacklinksIdListRequestInfo`](BacklinksIdListRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BacklinksIdListRequestInfo`](BacklinksIdListRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:133368
+main.ts:133376

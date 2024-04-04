@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataBusinessListingsCategoriesAggregationLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataBusinessListingsCategoriesAggregationLiveItem
 
 # Class: BusinessDataBusinessListingsCategoriesAggregationLiveItem
 
@@ -8,151 +12,125 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataBusinessListingsCategoriesAggregationLiveItem.md#constructor)
-
-### Properties
-
-- [aggregation](BusinessDataBusinessListingsCategoriesAggregationLiveItem.md#aggregation)
-- [categories](BusinessDataBusinessListingsCategoriesAggregationLiveItem.md#categories)
-- [type](BusinessDataBusinessListingsCategoriesAggregationLiveItem.md#type)
-
-### Methods
-
-- [init](BusinessDataBusinessListingsCategoriesAggregationLiveItem.md#init)
-- [toJSON](BusinessDataBusinessListingsCategoriesAggregationLiveItem.md#tojson)
-- [fromJS](BusinessDataBusinessListingsCategoriesAggregationLiveItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataBusinessListingsCategoriesAggregationLiveItem(data)
 
-• **new BusinessDataBusinessListingsCategoriesAggregationLiveItem**(`data?`): [`BusinessDataBusinessListingsCategoriesAggregationLiveItem`](BusinessDataBusinessListingsCategoriesAggregationLiveItem.md)
+> **new BusinessDataBusinessListingsCategoriesAggregationLiveItem**(`data`?): [`BusinessDataBusinessListingsCategoriesAggregationLiveItem`](BusinessDataBusinessListingsCategoriesAggregationLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataBusinessListingsCategoriesAggregationLiveItem`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveItem.md) |
+• **data?**: [`IBusinessDataBusinessListingsCategoriesAggregationLiveItem`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveItem.md)
 
 #### Returns
 
 [`BusinessDataBusinessListingsCategoriesAggregationLiveItem`](BusinessDataBusinessListingsCategoriesAggregationLiveItem.md)
 
-#### Defined in
+#### Source
 
 main.ts:195358
 
 ## Properties
 
-### aggregation
+### aggregation?
 
-• `Optional` **aggregation**: [`BusinessListingAggregationInfo`](BusinessListingAggregationInfo.md)
+> **`optional`** **aggregation**: [`BusinessListingAggregationInfo`](BusinessListingAggregationInfo.md)
 
 aggregation of the category
 
 #### Implementation of
 
-[IBusinessDataBusinessListingsCategoriesAggregationLiveItem](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveItem.md).[aggregation](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveItem.md#aggregation)
+[`IBusinessDataBusinessListingsCategoriesAggregationLiveItem`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveItem.md).[`aggregation`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveItem.md#aggregation)
 
-#### Defined in
+#### Source
 
 main.ts:195354
 
-___
+***
 
-### categories
+### categories?
 
-• `Optional` **categories**: `string`[]
+> **`optional`** **categories**: `string`[]
 
 business categories
 Google My Business general category that best describes the cluster of related categories
 
 #### Implementation of
 
-[IBusinessDataBusinessListingsCategoriesAggregationLiveItem](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveItem.md).[categories](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveItem.md#categories)
+[`IBusinessDataBusinessListingsCategoriesAggregationLiveItem`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveItem.md).[`categories`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveItem.md#categories)
 
-#### Defined in
+#### Source
 
 main.ts:195352
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IBusinessDataBusinessListingsCategoriesAggregationLiveItem](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveItem.md).[type](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveItem.md#type)
+[`IBusinessDataBusinessListingsCategoriesAggregationLiveItem`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveItem.md).[`type`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveItem.md#type)
 
-#### Defined in
+#### Source
 
 main.ts:195349
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:195367
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:195390
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataBusinessListingsCategoriesAggregationLiveItem`](BusinessDataBusinessListingsCategoriesAggregationLiveItem.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataBusinessListingsCategoriesAggregationLiveItem`](BusinessDataBusinessListingsCategoriesAggregationLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BusinessDataBusinessListingsCategoriesAggregationLiveItem`](BusinessDataBusinessListingsCategoriesAggregationLiveItem.md)
 
-#### Defined in
+#### Source
 
 main.ts:195383

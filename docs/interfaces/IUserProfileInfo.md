@@ -1,81 +1,71 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IUserProfileInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IUserProfileInfo
 
 # Interface: IUserProfileInfo
 
-## Implemented by
-
-- [`UserProfileInfo`](../classes/UserProfileInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [avatar](IUserProfileInfo.md#avatar)
-- [locations](IUserProfileInfo.md#locations)
-- [name](IUserProfileInfo.md#name)
-- [reviews\_count](IUserProfileInfo.md#reviews_count)
-- [url](IUserProfileInfo.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### avatar
+### avatar?
 
-• `Optional` **avatar**: `string`
+> **`optional`** **avatar**: `string`
 
 URL to the profile picture of the reviewer
 
-#### Defined in
+#### Source
 
 main.ts:181056
 
-___
+***
 
-### locations
+### locations?
 
-• `Optional` **locations**: `string`
+> **`optional`** **locations**: `string`
 
 country of the reviewer
 
-#### Defined in
+#### Source
 
 main.ts:181062
 
-___
+***
 
-### name
+### name?
 
-• `Optional` **name**: `string`
+> **`optional`** **name**: `string`
 
 the name of the reviewer
 
-#### Defined in
+#### Source
 
 main.ts:181054
 
-___
+***
 
-### reviews\_count
+### reviews\_count?
 
-• `Optional` **reviews\_count**: `number`
+> **`optional`** **reviews\_count**: `number`
 
 total number of reviews submitted by the reviewer
 
-#### Defined in
+#### Source
 
 main.ts:181060
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL to the reviewer’s profile
 
-#### Defined in
+#### Source
 
 main.ts:181058

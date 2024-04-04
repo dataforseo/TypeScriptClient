@@ -1,28 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ILastModified
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ILastModified
 
 # Interface: ILastModified
 
-## Implemented by
-
-- [`LastModified`](../classes/LastModified.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [header](ILastModified.md#header)
-- [meta\_tag](ILastModified.md#meta_tag)
-- [sitemap](ILastModified.md#sitemap)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### header
+### header?
 
-• `Optional` **header**: `string`
+> **`optional`** **header**: `string`
 
 date and time when the header was last modified
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -30,15 +22,15 @@ example:
 2019-11-15 12:57:46 +00:00
 if there is no data, the value will be null
 
-#### Defined in
+#### Source
 
-main.ts:150291
+main.ts:150299
 
-___
+***
 
-### meta\_tag
+### meta\_tag?
 
-• `Optional` **meta\_tag**: `string`
+> **`optional`** **meta\_tag**: `string`
 
 date and time when the meta tag was last modified
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -46,15 +38,15 @@ example:
 2019-11-15 12:57:46 +00:00
 if there is no data, the value will be null
 
-#### Defined in
+#### Source
 
-main.ts:150303
+main.ts:150311
 
-___
+***
 
-### sitemap
+### sitemap?
 
-• `Optional` **sitemap**: `string`
+> **`optional`** **sitemap**: `string`
 
 date and time when the sitemap was last modified
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -62,6 +54,6 @@ example:
 2019-11-15 12:57:46 +00:00
 if there is no data, the value will be null
 
-#### Defined in
+#### Source
 
-main.ts:150297
+main.ts:150305

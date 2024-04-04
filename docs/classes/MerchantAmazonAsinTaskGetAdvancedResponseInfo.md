@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MerchantAmazonAsinTaskGetAdvancedResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / MerchantAmazonAsinTaskGetAdvancedResponseInfo
 
 # Class: MerchantAmazonAsinTaskGetAdvancedResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`MerchantAmazonAsinTaskGetAdvancedResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](MerchantAmazonAsinTaskGetAdvancedResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](MerchantAmazonAsinTaskGetAdvancedResponseInfo.md#cost)
-- [status\_code](MerchantAmazonAsinTaskGetAdvancedResponseInfo.md#status_code)
-- [status\_message](MerchantAmazonAsinTaskGetAdvancedResponseInfo.md#status_message)
-- [tasks](MerchantAmazonAsinTaskGetAdvancedResponseInfo.md#tasks)
-- [tasks\_count](MerchantAmazonAsinTaskGetAdvancedResponseInfo.md#tasks_count)
-- [tasks\_error](MerchantAmazonAsinTaskGetAdvancedResponseInfo.md#tasks_error)
-- [time](MerchantAmazonAsinTaskGetAdvancedResponseInfo.md#time)
-- [version](MerchantAmazonAsinTaskGetAdvancedResponseInfo.md#version)
-
-### Methods
-
-- [init](MerchantAmazonAsinTaskGetAdvancedResponseInfo.md#init)
-- [toJSON](MerchantAmazonAsinTaskGetAdvancedResponseInfo.md#tojson)
-- [fromJS](MerchantAmazonAsinTaskGetAdvancedResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new MerchantAmazonAsinTaskGetAdvancedResponseInfo(data)
 
-• **new MerchantAmazonAsinTaskGetAdvancedResponseInfo**(`data?`): [`MerchantAmazonAsinTaskGetAdvancedResponseInfo`](MerchantAmazonAsinTaskGetAdvancedResponseInfo.md)
+> **new MerchantAmazonAsinTaskGetAdvancedResponseInfo**(`data`?): [`MerchantAmazonAsinTaskGetAdvancedResponseInfo`](MerchantAmazonAsinTaskGetAdvancedResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IMerchantAmazonAsinTaskGetAdvancedResponseInfo`](../interfaces/IMerchantAmazonAsinTaskGetAdvancedResponseInfo.md) |
+• **data?**: [`IMerchantAmazonAsinTaskGetAdvancedResponseInfo`](../interfaces/IMerchantAmazonAsinTaskGetAdvancedResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:178744
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IMerchantAmazonAsinTaskGetAdvancedResponseInfo](../interfaces/IMerchantAmazonAsinTaskGetAdvancedResponseInfo.md).[cost](../interfaces/IMerchantAmazonAsinTaskGetAdvancedResponseInfo.md#cost)
+[`IMerchantAmazonAsinTaskGetAdvancedResponseInfo`](../interfaces/IMerchantAmazonAsinTaskGetAdvancedResponseInfo.md).[`cost`](../interfaces/IMerchantAmazonAsinTaskGetAdvancedResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[IMerchantAmazonAsinTaskGetAdvancedResponseInfo](../interfaces/IMerchantAmazonAsinTaskGetAdvancedResponseInfo.md).[status_code](../interfaces/IMerchantAmazonAsinTaskGetAdvancedResponseInfo.md#status_code)
+[`IMerchantAmazonAsinTaskGetAdvancedResponseInfo`](../interfaces/IMerchantAmazonAsinTaskGetAdvancedResponseInfo.md).[`status_code`](../interfaces/IMerchantAmazonAsinTaskGetAdvancedResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IMerchantAmazonAsinTaskGetAdvancedResponseInfo](../interfaces/IMerchantAmazonAsinTaskGetAdvancedResponseInfo.md).[status_message](../interfaces/IMerchantAmazonAsinTaskGetAdvancedResponseInfo.md#status_message)
+[`IMerchantAmazonAsinTaskGetAdvancedResponseInfo`](../interfaces/IMerchantAmazonAsinTaskGetAdvancedResponseInfo.md).[`status_message`](../interfaces/IMerchantAmazonAsinTaskGetAdvancedResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`MerchantAmazonAsinTaskGetAdvancedTaskInfo`](MerchantAmazonAsinTaskGetAdvancedTaskInfo.md)[]
+> **`optional`** **tasks**: [`MerchantAmazonAsinTaskGetAdvancedTaskInfo`](MerchantAmazonAsinTaskGetAdvancedTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[IMerchantAmazonAsinTaskGetAdvancedResponseInfo](../interfaces/IMerchantAmazonAsinTaskGetAdvancedResponseInfo.md).[tasks](../interfaces/IMerchantAmazonAsinTaskGetAdvancedResponseInfo.md#tasks)
+[`IMerchantAmazonAsinTaskGetAdvancedResponseInfo`](../interfaces/IMerchantAmazonAsinTaskGetAdvancedResponseInfo.md).[`tasks`](../interfaces/IMerchantAmazonAsinTaskGetAdvancedResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
 main.ts:178740
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[IMerchantAmazonAsinTaskGetAdvancedResponseInfo](../interfaces/IMerchantAmazonAsinTaskGetAdvancedResponseInfo.md).[tasks_count](../interfaces/IMerchantAmazonAsinTaskGetAdvancedResponseInfo.md#tasks_count)
+[`IMerchantAmazonAsinTaskGetAdvancedResponseInfo`](../interfaces/IMerchantAmazonAsinTaskGetAdvancedResponseInfo.md).[`tasks_count`](../interfaces/IMerchantAmazonAsinTaskGetAdvancedResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[IMerchantAmazonAsinTaskGetAdvancedResponseInfo](../interfaces/IMerchantAmazonAsinTaskGetAdvancedResponseInfo.md).[tasks_error](../interfaces/IMerchantAmazonAsinTaskGetAdvancedResponseInfo.md#tasks_error)
+[`IMerchantAmazonAsinTaskGetAdvancedResponseInfo`](../interfaces/IMerchantAmazonAsinTaskGetAdvancedResponseInfo.md).[`tasks_error`](../interfaces/IMerchantAmazonAsinTaskGetAdvancedResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[IMerchantAmazonAsinTaskGetAdvancedResponseInfo](../interfaces/IMerchantAmazonAsinTaskGetAdvancedResponseInfo.md).[time](../interfaces/IMerchantAmazonAsinTaskGetAdvancedResponseInfo.md#time)
+[`IMerchantAmazonAsinTaskGetAdvancedResponseInfo`](../interfaces/IMerchantAmazonAsinTaskGetAdvancedResponseInfo.md).[`time`](../interfaces/IMerchantAmazonAsinTaskGetAdvancedResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[IMerchantAmazonAsinTaskGetAdvancedResponseInfo](../interfaces/IMerchantAmazonAsinTaskGetAdvancedResponseInfo.md).[version](../interfaces/IMerchantAmazonAsinTaskGetAdvancedResponseInfo.md#version)
+[`IMerchantAmazonAsinTaskGetAdvancedResponseInfo`](../interfaces/IMerchantAmazonAsinTaskGetAdvancedResponseInfo.md).[`version`](../interfaces/IMerchantAmazonAsinTaskGetAdvancedResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:178748
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:178770
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`MerchantAmazonAsinTaskGetAdvancedResponseInfo`](MerchantAmazonAsinTaskGetAdvancedResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`MerchantAmazonAsinTaskGetAdvancedResponseInfo`](MerchantAmazonAsinTaskGetAdvancedResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:178763

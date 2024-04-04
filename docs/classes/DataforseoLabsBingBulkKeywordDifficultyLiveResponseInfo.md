@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo
 
 # Class: DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md#cost)
-- [status\_code](DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md#status_code)
-- [status\_message](DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md#status_message)
-- [tasks](DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md#tasks)
-- [tasks\_count](DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md#tasks_count)
-- [tasks\_error](DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md#tasks_error)
-- [time](DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md#time)
-- [version](DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md#version)
-
-### Methods
-
-- [init](DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md#init)
-- [toJSON](DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md#tojson)
-- [fromJS](DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo(data)
 
-• **new DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo**(`data?`): [`DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo`](DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md)
+> **new DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo**(`data`?): [`DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo`](DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md) |
+• **data?**: [`IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:104768
+main.ts:104776
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md).[cost](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md#cost)
+[`IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md).[`cost`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md).[status_code](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md#status_code)
+[`IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md).[`status_code`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md).[status_message](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md#status_message)
+[`IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md).[`status_message`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`DataforseoLabsBingBulkKeywordDifficultyLiveTaskInfo`](DataforseoLabsBingBulkKeywordDifficultyLiveTaskInfo.md)[]
+> **`optional`** **tasks**: [`DataforseoLabsBingBulkKeywordDifficultyLiveTaskInfo`](DataforseoLabsBingBulkKeywordDifficultyLiveTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md).[tasks](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md#tasks)
+[`IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md).[`tasks`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:104764
+main.ts:104772
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md).[tasks_count](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md#tasks_count)
+[`IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md).[`tasks_count`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md).[tasks_error](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md#tasks_error)
+[`IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md).[`tasks_error`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md).[time](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md#time)
+[`IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md).[`time`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md).[version](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md#version)
+[`IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md).[`version`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:104772
+main.ts:104780
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:104794
+main.ts:104802
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo`](DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo`](DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:104787
+main.ts:104795

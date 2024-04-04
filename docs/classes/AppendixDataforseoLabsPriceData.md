@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixDataforseoLabsPriceData
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppendixDataforseoLabsPriceData
 
 # Class: AppendixDataforseoLabsPriceData
 
@@ -8,609 +12,552 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixDataforseoLabsPriceData.md#constructor)
-
-### Properties
-
-- [app\_competitors](AppendixDataforseoLabsPriceData.md#app_competitors)
-- [app\_intersection](AppendixDataforseoLabsPriceData.md#app_intersection)
-- [bulk\_app\_metrics](AppendixDataforseoLabsPriceData.md#bulk_app_metrics)
-- [bulk\_keyword\_difficulty](AppendixDataforseoLabsPriceData.md#bulk_keyword_difficulty)
-- [bulk\_search\_volume](AppendixDataforseoLabsPriceData.md#bulk_search_volume)
-- [bulk\_traffic\_estimation](AppendixDataforseoLabsPriceData.md#bulk_traffic_estimation)
-- [categories](AppendixDataforseoLabsPriceData.md#categories)
-- [categories\_for\_domain](AppendixDataforseoLabsPriceData.md#categories_for_domain)
-- [competitors\_domain](AppendixDataforseoLabsPriceData.md#competitors_domain)
-- [domain\_intersection](AppendixDataforseoLabsPriceData.md#domain_intersection)
-- [domain\_metrics\_by\_categories](AppendixDataforseoLabsPriceData.md#domain_metrics_by_categories)
-- [domain\_rank\_overview](AppendixDataforseoLabsPriceData.md#domain_rank_overview)
-- [domain\_whois\_overview](AppendixDataforseoLabsPriceData.md#domain_whois_overview)
-- [errors](AppendixDataforseoLabsPriceData.md#errors)
-- [historical\_rank\_overview](AppendixDataforseoLabsPriceData.md#historical_rank_overview)
-- [historical\_search\_volume](AppendixDataforseoLabsPriceData.md#historical_search_volume)
-- [historical\_serps](AppendixDataforseoLabsPriceData.md#historical_serps)
-- [keyword\_ideas](AppendixDataforseoLabsPriceData.md#keyword_ideas)
-- [keyword\_suggestions](AppendixDataforseoLabsPriceData.md#keyword_suggestions)
-- [keywords\_for\_app](AppendixDataforseoLabsPriceData.md#keywords_for_app)
-- [keywords\_for\_categories](AppendixDataforseoLabsPriceData.md#keywords_for_categories)
-- [keywords\_for\_site](AppendixDataforseoLabsPriceData.md#keywords_for_site)
-- [locations\_and\_languages](AppendixDataforseoLabsPriceData.md#locations_and_languages)
-- [page\_intersection](AppendixDataforseoLabsPriceData.md#page_intersection)
-- [product\_competitors](AppendixDataforseoLabsPriceData.md#product_competitors)
-- [product\_keyword\_intersections](AppendixDataforseoLabsPriceData.md#product_keyword_intersections)
-- [product\_rank\_overview](AppendixDataforseoLabsPriceData.md#product_rank_overview)
-- [ranked\_keywords](AppendixDataforseoLabsPriceData.md#ranked_keywords)
-- [related\_keywords](AppendixDataforseoLabsPriceData.md#related_keywords)
-- [relevant\_pages](AppendixDataforseoLabsPriceData.md#relevant_pages)
-- [search\_intent](AppendixDataforseoLabsPriceData.md#search_intent)
-- [serp\_competitors](AppendixDataforseoLabsPriceData.md#serp_competitors)
-- [subdomains](AppendixDataforseoLabsPriceData.md#subdomains)
-- [top\_searches](AppendixDataforseoLabsPriceData.md#top_searches)
-
-### Methods
-
-- [init](AppendixDataforseoLabsPriceData.md#init)
-- [toJSON](AppendixDataforseoLabsPriceData.md#tojson)
-- [fromJS](AppendixDataforseoLabsPriceData.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixDataforseoLabsPriceData(data)
 
-• **new AppendixDataforseoLabsPriceData**(`data?`): [`AppendixDataforseoLabsPriceData`](AppendixDataforseoLabsPriceData.md)
+> **new AppendixDataforseoLabsPriceData**(`data`?): [`AppendixDataforseoLabsPriceData`](AppendixDataforseoLabsPriceData.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixDataforseoLabsPriceData`](../interfaces/IAppendixDataforseoLabsPriceData.md) |
+• **data?**: [`IAppendixDataforseoLabsPriceData`](../interfaces/IAppendixDataforseoLabsPriceData.md)
 
 #### Returns
 
 [`AppendixDataforseoLabsPriceData`](AppendixDataforseoLabsPriceData.md)
 
-#### Defined in
+#### Source
 
 main.ts:217209
 
 ## Properties
 
-### app\_competitors
+### app\_competitors?
 
-• `Optional` **app\_competitors**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **app\_competitors**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDataforseoLabsPriceData](../interfaces/IAppendixDataforseoLabsPriceData.md).[app_competitors](../interfaces/IAppendixDataforseoLabsPriceData.md#app_competitors)
+[`IAppendixDataforseoLabsPriceData`](../interfaces/IAppendixDataforseoLabsPriceData.md).[`app_competitors`](../interfaces/IAppendixDataforseoLabsPriceData.md#app_competitors)
 
-#### Defined in
+#### Source
 
 main.ts:217172
 
-___
+***
 
-### app\_intersection
+### app\_intersection?
 
-• `Optional` **app\_intersection**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **app\_intersection**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDataforseoLabsPriceData](../interfaces/IAppendixDataforseoLabsPriceData.md).[app_intersection](../interfaces/IAppendixDataforseoLabsPriceData.md#app_intersection)
+[`IAppendixDataforseoLabsPriceData`](../interfaces/IAppendixDataforseoLabsPriceData.md).[`app_intersection`](../interfaces/IAppendixDataforseoLabsPriceData.md#app_intersection)
 
-#### Defined in
+#### Source
 
 main.ts:217173
 
-___
+***
 
-### bulk\_app\_metrics
+### bulk\_app\_metrics?
 
-• `Optional` **bulk\_app\_metrics**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **bulk\_app\_metrics**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDataforseoLabsPriceData](../interfaces/IAppendixDataforseoLabsPriceData.md).[bulk_app_metrics](../interfaces/IAppendixDataforseoLabsPriceData.md#bulk_app_metrics)
+[`IAppendixDataforseoLabsPriceData`](../interfaces/IAppendixDataforseoLabsPriceData.md).[`bulk_app_metrics`](../interfaces/IAppendixDataforseoLabsPriceData.md#bulk_app_metrics)
 
-#### Defined in
+#### Source
 
 main.ts:217174
 
-___
+***
 
-### bulk\_keyword\_difficulty
+### bulk\_keyword\_difficulty?
 
-• `Optional` **bulk\_keyword\_difficulty**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **bulk\_keyword\_difficulty**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDataforseoLabsPriceData](../interfaces/IAppendixDataforseoLabsPriceData.md).[bulk_keyword_difficulty](../interfaces/IAppendixDataforseoLabsPriceData.md#bulk_keyword_difficulty)
+[`IAppendixDataforseoLabsPriceData`](../interfaces/IAppendixDataforseoLabsPriceData.md).[`bulk_keyword_difficulty`](../interfaces/IAppendixDataforseoLabsPriceData.md#bulk_keyword_difficulty)
 
-#### Defined in
+#### Source
 
 main.ts:217175
 
-___
+***
 
-### bulk\_search\_volume
+### bulk\_search\_volume?
 
-• `Optional` **bulk\_search\_volume**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **bulk\_search\_volume**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDataforseoLabsPriceData](../interfaces/IAppendixDataforseoLabsPriceData.md).[bulk_search_volume](../interfaces/IAppendixDataforseoLabsPriceData.md#bulk_search_volume)
+[`IAppendixDataforseoLabsPriceData`](../interfaces/IAppendixDataforseoLabsPriceData.md).[`bulk_search_volume`](../interfaces/IAppendixDataforseoLabsPriceData.md#bulk_search_volume)
 
-#### Defined in
+#### Source
 
 main.ts:217176
 
-___
+***
 
-### bulk\_traffic\_estimation
+### bulk\_traffic\_estimation?
 
-• `Optional` **bulk\_traffic\_estimation**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **bulk\_traffic\_estimation**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDataforseoLabsPriceData](../interfaces/IAppendixDataforseoLabsPriceData.md).[bulk_traffic_estimation](../interfaces/IAppendixDataforseoLabsPriceData.md#bulk_traffic_estimation)
+[`IAppendixDataforseoLabsPriceData`](../interfaces/IAppendixDataforseoLabsPriceData.md).[`bulk_traffic_estimation`](../interfaces/IAppendixDataforseoLabsPriceData.md#bulk_traffic_estimation)
 
-#### Defined in
+#### Source
 
 main.ts:217177
 
-___
+***
 
-### categories
+### categories?
 
-• `Optional` **categories**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **categories**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDataforseoLabsPriceData](../interfaces/IAppendixDataforseoLabsPriceData.md).[categories](../interfaces/IAppendixDataforseoLabsPriceData.md#categories)
+[`IAppendixDataforseoLabsPriceData`](../interfaces/IAppendixDataforseoLabsPriceData.md).[`categories`](../interfaces/IAppendixDataforseoLabsPriceData.md#categories)
 
-#### Defined in
+#### Source
 
 main.ts:217178
 
-___
+***
 
-### categories\_for\_domain
+### categories\_for\_domain?
 
-• `Optional` **categories\_for\_domain**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **categories\_for\_domain**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDataforseoLabsPriceData](../interfaces/IAppendixDataforseoLabsPriceData.md).[categories_for_domain](../interfaces/IAppendixDataforseoLabsPriceData.md#categories_for_domain)
+[`IAppendixDataforseoLabsPriceData`](../interfaces/IAppendixDataforseoLabsPriceData.md).[`categories_for_domain`](../interfaces/IAppendixDataforseoLabsPriceData.md#categories_for_domain)
 
-#### Defined in
+#### Source
 
 main.ts:217179
 
-___
+***
 
-### competitors\_domain
+### competitors\_domain?
 
-• `Optional` **competitors\_domain**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **competitors\_domain**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDataforseoLabsPriceData](../interfaces/IAppendixDataforseoLabsPriceData.md).[competitors_domain](../interfaces/IAppendixDataforseoLabsPriceData.md#competitors_domain)
+[`IAppendixDataforseoLabsPriceData`](../interfaces/IAppendixDataforseoLabsPriceData.md).[`competitors_domain`](../interfaces/IAppendixDataforseoLabsPriceData.md#competitors_domain)
 
-#### Defined in
+#### Source
 
 main.ts:217180
 
-___
+***
 
-### domain\_intersection
+### domain\_intersection?
 
-• `Optional` **domain\_intersection**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **domain\_intersection**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDataforseoLabsPriceData](../interfaces/IAppendixDataforseoLabsPriceData.md).[domain_intersection](../interfaces/IAppendixDataforseoLabsPriceData.md#domain_intersection)
+[`IAppendixDataforseoLabsPriceData`](../interfaces/IAppendixDataforseoLabsPriceData.md).[`domain_intersection`](../interfaces/IAppendixDataforseoLabsPriceData.md#domain_intersection)
 
-#### Defined in
+#### Source
 
 main.ts:217181
 
-___
+***
 
-### domain\_metrics\_by\_categories
+### domain\_metrics\_by\_categories?
 
-• `Optional` **domain\_metrics\_by\_categories**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **domain\_metrics\_by\_categories**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDataforseoLabsPriceData](../interfaces/IAppendixDataforseoLabsPriceData.md).[domain_metrics_by_categories](../interfaces/IAppendixDataforseoLabsPriceData.md#domain_metrics_by_categories)
+[`IAppendixDataforseoLabsPriceData`](../interfaces/IAppendixDataforseoLabsPriceData.md).[`domain_metrics_by_categories`](../interfaces/IAppendixDataforseoLabsPriceData.md#domain_metrics_by_categories)
 
-#### Defined in
+#### Source
 
 main.ts:217182
 
-___
+***
 
-### domain\_rank\_overview
+### domain\_rank\_overview?
 
-• `Optional` **domain\_rank\_overview**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **domain\_rank\_overview**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDataforseoLabsPriceData](../interfaces/IAppendixDataforseoLabsPriceData.md).[domain_rank_overview](../interfaces/IAppendixDataforseoLabsPriceData.md#domain_rank_overview)
+[`IAppendixDataforseoLabsPriceData`](../interfaces/IAppendixDataforseoLabsPriceData.md).[`domain_rank_overview`](../interfaces/IAppendixDataforseoLabsPriceData.md#domain_rank_overview)
 
-#### Defined in
+#### Source
 
 main.ts:217183
 
-___
+***
 
-### domain\_whois\_overview
+### domain\_whois\_overview?
 
-• `Optional` **domain\_whois\_overview**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **domain\_whois\_overview**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDataforseoLabsPriceData](../interfaces/IAppendixDataforseoLabsPriceData.md).[domain_whois_overview](../interfaces/IAppendixDataforseoLabsPriceData.md#domain_whois_overview)
+[`IAppendixDataforseoLabsPriceData`](../interfaces/IAppendixDataforseoLabsPriceData.md).[`domain_whois_overview`](../interfaces/IAppendixDataforseoLabsPriceData.md#domain_whois_overview)
 
-#### Defined in
+#### Source
 
 main.ts:217184
 
-___
+***
 
-### errors
+### errors?
 
-• `Optional` **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDataforseoLabsPriceData](../interfaces/IAppendixDataforseoLabsPriceData.md).[errors](../interfaces/IAppendixDataforseoLabsPriceData.md#errors)
+[`IAppendixDataforseoLabsPriceData`](../interfaces/IAppendixDataforseoLabsPriceData.md).[`errors`](../interfaces/IAppendixDataforseoLabsPriceData.md#errors)
 
-#### Defined in
+#### Source
 
 main.ts:217185
 
-___
+***
 
-### historical\_rank\_overview
+### historical\_rank\_overview?
 
-• `Optional` **historical\_rank\_overview**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **historical\_rank\_overview**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDataforseoLabsPriceData](../interfaces/IAppendixDataforseoLabsPriceData.md).[historical_rank_overview](../interfaces/IAppendixDataforseoLabsPriceData.md#historical_rank_overview)
+[`IAppendixDataforseoLabsPriceData`](../interfaces/IAppendixDataforseoLabsPriceData.md).[`historical_rank_overview`](../interfaces/IAppendixDataforseoLabsPriceData.md#historical_rank_overview)
 
-#### Defined in
+#### Source
 
 main.ts:217186
 
-___
+***
 
-### historical\_search\_volume
+### historical\_search\_volume?
 
-• `Optional` **historical\_search\_volume**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **historical\_search\_volume**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDataforseoLabsPriceData](../interfaces/IAppendixDataforseoLabsPriceData.md).[historical_search_volume](../interfaces/IAppendixDataforseoLabsPriceData.md#historical_search_volume)
+[`IAppendixDataforseoLabsPriceData`](../interfaces/IAppendixDataforseoLabsPriceData.md).[`historical_search_volume`](../interfaces/IAppendixDataforseoLabsPriceData.md#historical_search_volume)
 
-#### Defined in
+#### Source
 
 main.ts:217187
 
-___
+***
 
-### historical\_serps
+### historical\_serps?
 
-• `Optional` **historical\_serps**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **historical\_serps**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDataforseoLabsPriceData](../interfaces/IAppendixDataforseoLabsPriceData.md).[historical_serps](../interfaces/IAppendixDataforseoLabsPriceData.md#historical_serps)
+[`IAppendixDataforseoLabsPriceData`](../interfaces/IAppendixDataforseoLabsPriceData.md).[`historical_serps`](../interfaces/IAppendixDataforseoLabsPriceData.md#historical_serps)
 
-#### Defined in
+#### Source
 
 main.ts:217188
 
-___
+***
 
-### keyword\_ideas
+### keyword\_ideas?
 
-• `Optional` **keyword\_ideas**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **keyword\_ideas**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDataforseoLabsPriceData](../interfaces/IAppendixDataforseoLabsPriceData.md).[keyword_ideas](../interfaces/IAppendixDataforseoLabsPriceData.md#keyword_ideas)
+[`IAppendixDataforseoLabsPriceData`](../interfaces/IAppendixDataforseoLabsPriceData.md).[`keyword_ideas`](../interfaces/IAppendixDataforseoLabsPriceData.md#keyword_ideas)
 
-#### Defined in
+#### Source
 
 main.ts:217189
 
-___
+***
 
-### keyword\_suggestions
+### keyword\_suggestions?
 
-• `Optional` **keyword\_suggestions**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **keyword\_suggestions**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDataforseoLabsPriceData](../interfaces/IAppendixDataforseoLabsPriceData.md).[keyword_suggestions](../interfaces/IAppendixDataforseoLabsPriceData.md#keyword_suggestions)
+[`IAppendixDataforseoLabsPriceData`](../interfaces/IAppendixDataforseoLabsPriceData.md).[`keyword_suggestions`](../interfaces/IAppendixDataforseoLabsPriceData.md#keyword_suggestions)
 
-#### Defined in
+#### Source
 
 main.ts:217193
 
-___
+***
 
-### keywords\_for\_app
+### keywords\_for\_app?
 
-• `Optional` **keywords\_for\_app**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **keywords\_for\_app**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDataforseoLabsPriceData](../interfaces/IAppendixDataforseoLabsPriceData.md).[keywords_for_app](../interfaces/IAppendixDataforseoLabsPriceData.md#keywords_for_app)
+[`IAppendixDataforseoLabsPriceData`](../interfaces/IAppendixDataforseoLabsPriceData.md).[`keywords_for_app`](../interfaces/IAppendixDataforseoLabsPriceData.md#keywords_for_app)
 
-#### Defined in
+#### Source
 
 main.ts:217190
 
-___
+***
 
-### keywords\_for\_categories
+### keywords\_for\_categories?
 
-• `Optional` **keywords\_for\_categories**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **keywords\_for\_categories**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDataforseoLabsPriceData](../interfaces/IAppendixDataforseoLabsPriceData.md).[keywords_for_categories](../interfaces/IAppendixDataforseoLabsPriceData.md#keywords_for_categories)
+[`IAppendixDataforseoLabsPriceData`](../interfaces/IAppendixDataforseoLabsPriceData.md).[`keywords_for_categories`](../interfaces/IAppendixDataforseoLabsPriceData.md#keywords_for_categories)
 
-#### Defined in
+#### Source
 
 main.ts:217191
 
-___
+***
 
-### keywords\_for\_site
+### keywords\_for\_site?
 
-• `Optional` **keywords\_for\_site**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **keywords\_for\_site**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDataforseoLabsPriceData](../interfaces/IAppendixDataforseoLabsPriceData.md).[keywords_for_site](../interfaces/IAppendixDataforseoLabsPriceData.md#keywords_for_site)
+[`IAppendixDataforseoLabsPriceData`](../interfaces/IAppendixDataforseoLabsPriceData.md).[`keywords_for_site`](../interfaces/IAppendixDataforseoLabsPriceData.md#keywords_for_site)
 
-#### Defined in
+#### Source
 
 main.ts:217192
 
-___
+***
 
-### locations\_and\_languages
+### locations\_and\_languages?
 
-• `Optional` **locations\_and\_languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **locations\_and\_languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDataforseoLabsPriceData](../interfaces/IAppendixDataforseoLabsPriceData.md).[locations_and_languages](../interfaces/IAppendixDataforseoLabsPriceData.md#locations_and_languages)
+[`IAppendixDataforseoLabsPriceData`](../interfaces/IAppendixDataforseoLabsPriceData.md).[`locations_and_languages`](../interfaces/IAppendixDataforseoLabsPriceData.md#locations_and_languages)
 
-#### Defined in
+#### Source
 
 main.ts:217194
 
-___
+***
 
-### page\_intersection
+### page\_intersection?
 
-• `Optional` **page\_intersection**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **page\_intersection**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDataforseoLabsPriceData](../interfaces/IAppendixDataforseoLabsPriceData.md).[page_intersection](../interfaces/IAppendixDataforseoLabsPriceData.md#page_intersection)
+[`IAppendixDataforseoLabsPriceData`](../interfaces/IAppendixDataforseoLabsPriceData.md).[`page_intersection`](../interfaces/IAppendixDataforseoLabsPriceData.md#page_intersection)
 
-#### Defined in
+#### Source
 
 main.ts:217195
 
-___
+***
 
-### product\_competitors
+### product\_competitors?
 
-• `Optional` **product\_competitors**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **product\_competitors**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDataforseoLabsPriceData](../interfaces/IAppendixDataforseoLabsPriceData.md).[product_competitors](../interfaces/IAppendixDataforseoLabsPriceData.md#product_competitors)
+[`IAppendixDataforseoLabsPriceData`](../interfaces/IAppendixDataforseoLabsPriceData.md).[`product_competitors`](../interfaces/IAppendixDataforseoLabsPriceData.md#product_competitors)
 
-#### Defined in
+#### Source
 
 main.ts:217196
 
-___
+***
 
-### product\_keyword\_intersections
+### product\_keyword\_intersections?
 
-• `Optional` **product\_keyword\_intersections**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **product\_keyword\_intersections**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDataforseoLabsPriceData](../interfaces/IAppendixDataforseoLabsPriceData.md).[product_keyword_intersections](../interfaces/IAppendixDataforseoLabsPriceData.md#product_keyword_intersections)
+[`IAppendixDataforseoLabsPriceData`](../interfaces/IAppendixDataforseoLabsPriceData.md).[`product_keyword_intersections`](../interfaces/IAppendixDataforseoLabsPriceData.md#product_keyword_intersections)
 
-#### Defined in
+#### Source
 
 main.ts:217197
 
-___
+***
 
-### product\_rank\_overview
+### product\_rank\_overview?
 
-• `Optional` **product\_rank\_overview**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **product\_rank\_overview**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDataforseoLabsPriceData](../interfaces/IAppendixDataforseoLabsPriceData.md).[product_rank_overview](../interfaces/IAppendixDataforseoLabsPriceData.md#product_rank_overview)
+[`IAppendixDataforseoLabsPriceData`](../interfaces/IAppendixDataforseoLabsPriceData.md).[`product_rank_overview`](../interfaces/IAppendixDataforseoLabsPriceData.md#product_rank_overview)
 
-#### Defined in
+#### Source
 
 main.ts:217198
 
-___
+***
 
-### ranked\_keywords
+### ranked\_keywords?
 
-• `Optional` **ranked\_keywords**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **ranked\_keywords**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDataforseoLabsPriceData](../interfaces/IAppendixDataforseoLabsPriceData.md).[ranked_keywords](../interfaces/IAppendixDataforseoLabsPriceData.md#ranked_keywords)
+[`IAppendixDataforseoLabsPriceData`](../interfaces/IAppendixDataforseoLabsPriceData.md).[`ranked_keywords`](../interfaces/IAppendixDataforseoLabsPriceData.md#ranked_keywords)
 
-#### Defined in
+#### Source
 
 main.ts:217199
 
-___
+***
 
-### related\_keywords
+### related\_keywords?
 
-• `Optional` **related\_keywords**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **related\_keywords**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDataforseoLabsPriceData](../interfaces/IAppendixDataforseoLabsPriceData.md).[related_keywords](../interfaces/IAppendixDataforseoLabsPriceData.md#related_keywords)
+[`IAppendixDataforseoLabsPriceData`](../interfaces/IAppendixDataforseoLabsPriceData.md).[`related_keywords`](../interfaces/IAppendixDataforseoLabsPriceData.md#related_keywords)
 
-#### Defined in
+#### Source
 
 main.ts:217200
 
-___
+***
 
-### relevant\_pages
+### relevant\_pages?
 
-• `Optional` **relevant\_pages**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **relevant\_pages**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDataforseoLabsPriceData](../interfaces/IAppendixDataforseoLabsPriceData.md).[relevant_pages](../interfaces/IAppendixDataforseoLabsPriceData.md#relevant_pages)
+[`IAppendixDataforseoLabsPriceData`](../interfaces/IAppendixDataforseoLabsPriceData.md).[`relevant_pages`](../interfaces/IAppendixDataforseoLabsPriceData.md#relevant_pages)
 
-#### Defined in
+#### Source
 
 main.ts:217201
 
-___
+***
 
-### search\_intent
+### search\_intent?
 
-• `Optional` **search\_intent**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **search\_intent**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDataforseoLabsPriceData](../interfaces/IAppendixDataforseoLabsPriceData.md).[search_intent](../interfaces/IAppendixDataforseoLabsPriceData.md#search_intent)
+[`IAppendixDataforseoLabsPriceData`](../interfaces/IAppendixDataforseoLabsPriceData.md).[`search_intent`](../interfaces/IAppendixDataforseoLabsPriceData.md#search_intent)
 
-#### Defined in
+#### Source
 
 main.ts:217202
 
-___
+***
 
-### serp\_competitors
+### serp\_competitors?
 
-• `Optional` **serp\_competitors**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **serp\_competitors**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDataforseoLabsPriceData](../interfaces/IAppendixDataforseoLabsPriceData.md).[serp_competitors](../interfaces/IAppendixDataforseoLabsPriceData.md#serp_competitors)
+[`IAppendixDataforseoLabsPriceData`](../interfaces/IAppendixDataforseoLabsPriceData.md).[`serp_competitors`](../interfaces/IAppendixDataforseoLabsPriceData.md#serp_competitors)
 
-#### Defined in
+#### Source
 
 main.ts:217203
 
-___
+***
 
-### subdomains
+### subdomains?
 
-• `Optional` **subdomains**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **subdomains**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDataforseoLabsPriceData](../interfaces/IAppendixDataforseoLabsPriceData.md).[subdomains](../interfaces/IAppendixDataforseoLabsPriceData.md#subdomains)
+[`IAppendixDataforseoLabsPriceData`](../interfaces/IAppendixDataforseoLabsPriceData.md).[`subdomains`](../interfaces/IAppendixDataforseoLabsPriceData.md#subdomains)
 
-#### Defined in
+#### Source
 
 main.ts:217204
 
-___
+***
 
-### top\_searches
+### top\_searches?
 
-• `Optional` **top\_searches**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **top\_searches**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDataforseoLabsPriceData](../interfaces/IAppendixDataforseoLabsPriceData.md).[top_searches](../interfaces/IAppendixDataforseoLabsPriceData.md#top_searches)
+[`IAppendixDataforseoLabsPriceData`](../interfaces/IAppendixDataforseoLabsPriceData.md).[`top_searches`](../interfaces/IAppendixDataforseoLabsPriceData.md#top_searches)
 
-#### Defined in
+#### Source
 
 main.ts:217205
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:217218
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:217268
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppendixDataforseoLabsPriceData`](AppendixDataforseoLabsPriceData.md)
+> **`static`** **fromJS**(`data`): [`AppendixDataforseoLabsPriceData`](AppendixDataforseoLabsPriceData.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppendixDataforseoLabsPriceData`](AppendixDataforseoLabsPriceData.md)
 
-#### Defined in
+#### Source
 
 main.ts:217261

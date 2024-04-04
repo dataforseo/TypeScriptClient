@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleAvailableHistoryResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsGoogleAvailableHistoryResultInfo
 
 # Class: DataforseoLabsGoogleAvailableHistoryResultInfo
 
@@ -8,49 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsGoogleAvailableHistoryResultInfo.md#constructor)
-
-### Properties
-
-- [date](DataforseoLabsGoogleAvailableHistoryResultInfo.md#date)
-
-### Methods
-
-- [init](DataforseoLabsGoogleAvailableHistoryResultInfo.md#init)
-- [toJSON](DataforseoLabsGoogleAvailableHistoryResultInfo.md#tojson)
-- [fromJS](DataforseoLabsGoogleAvailableHistoryResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsGoogleAvailableHistoryResultInfo(data)
 
-• **new DataforseoLabsGoogleAvailableHistoryResultInfo**(`data?`): [`DataforseoLabsGoogleAvailableHistoryResultInfo`](DataforseoLabsGoogleAvailableHistoryResultInfo.md)
+> **new DataforseoLabsGoogleAvailableHistoryResultInfo**(`data`?): [`DataforseoLabsGoogleAvailableHistoryResultInfo`](DataforseoLabsGoogleAvailableHistoryResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsGoogleAvailableHistoryResultInfo`](../interfaces/IDataforseoLabsGoogleAvailableHistoryResultInfo.md) |
+• **data?**: [`IDataforseoLabsGoogleAvailableHistoryResultInfo`](../interfaces/IDataforseoLabsGoogleAvailableHistoryResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleAvailableHistoryResultInfo`](DataforseoLabsGoogleAvailableHistoryResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:80708
+main.ts:80716
 
 ## Properties
 
-### date
+### date?
 
-• `Optional` **date**: `string`
+> **`optional`** **date**: `string`
 
 available date
 indicates the date of the range available for setting in the Domain Metrics by Categories endpoint
@@ -59,68 +45,62 @@ example:
 
 #### Implementation of
 
-[IDataforseoLabsGoogleAvailableHistoryResultInfo](../interfaces/IDataforseoLabsGoogleAvailableHistoryResultInfo.md).[date](../interfaces/IDataforseoLabsGoogleAvailableHistoryResultInfo.md#date)
+[`IDataforseoLabsGoogleAvailableHistoryResultInfo`](../interfaces/IDataforseoLabsGoogleAvailableHistoryResultInfo.md).[`date`](../interfaces/IDataforseoLabsGoogleAvailableHistoryResultInfo.md#date)
 
-#### Defined in
+#### Source
 
-main.ts:80704
+main.ts:80712
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:80717
+main.ts:80725
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:80734
+main.ts:80742
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsGoogleAvailableHistoryResultInfo`](DataforseoLabsGoogleAvailableHistoryResultInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleAvailableHistoryResultInfo`](DataforseoLabsGoogleAvailableHistoryResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsGoogleAvailableHistoryResultInfo`](DataforseoLabsGoogleAvailableHistoryResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:80727
+main.ts:80735

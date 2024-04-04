@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpBingOrganicTaskGetRegularResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpBingOrganicTaskGetRegularResultInfo
 
 # Class: SerpBingOrganicTaskGetRegularResultInfo
 
@@ -8,77 +12,48 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpBingOrganicTaskGetRegularResultInfo.md#constructor)
-
-### Properties
-
-- [check\_url](SerpBingOrganicTaskGetRegularResultInfo.md#check_url)
-- [datetime](SerpBingOrganicTaskGetRegularResultInfo.md#datetime)
-- [item\_types](SerpBingOrganicTaskGetRegularResultInfo.md#item_types)
-- [items](SerpBingOrganicTaskGetRegularResultInfo.md#items)
-- [items\_count](SerpBingOrganicTaskGetRegularResultInfo.md#items_count)
-- [keyword](SerpBingOrganicTaskGetRegularResultInfo.md#keyword)
-- [language\_code](SerpBingOrganicTaskGetRegularResultInfo.md#language_code)
-- [location\_code](SerpBingOrganicTaskGetRegularResultInfo.md#location_code)
-- [se\_domain](SerpBingOrganicTaskGetRegularResultInfo.md#se_domain)
-- [se\_results\_count](SerpBingOrganicTaskGetRegularResultInfo.md#se_results_count)
-- [spell](SerpBingOrganicTaskGetRegularResultInfo.md#spell)
-- [type](SerpBingOrganicTaskGetRegularResultInfo.md#type)
-
-### Methods
-
-- [init](SerpBingOrganicTaskGetRegularResultInfo.md#init)
-- [toJSON](SerpBingOrganicTaskGetRegularResultInfo.md#tojson)
-- [fromJS](SerpBingOrganicTaskGetRegularResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpBingOrganicTaskGetRegularResultInfo(data)
 
-• **new SerpBingOrganicTaskGetRegularResultInfo**(`data?`): [`SerpBingOrganicTaskGetRegularResultInfo`](SerpBingOrganicTaskGetRegularResultInfo.md)
+> **new SerpBingOrganicTaskGetRegularResultInfo**(`data`?): [`SerpBingOrganicTaskGetRegularResultInfo`](SerpBingOrganicTaskGetRegularResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpBingOrganicTaskGetRegularResultInfo`](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md) |
+• **data?**: [`ISerpBingOrganicTaskGetRegularResultInfo`](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md)
 
 #### Returns
 
 [`SerpBingOrganicTaskGetRegularResultInfo`](SerpBingOrganicTaskGetRegularResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:56620
+main.ts:56628
 
 ## Properties
 
-### check\_url
+### check\_url?
 
-• `Optional` **check\_url**: `string`
+> **`optional`** **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
 
 #### Implementation of
 
-[ISerpBingOrganicTaskGetRegularResultInfo](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md).[check_url](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md#check_url)
+[`ISerpBingOrganicTaskGetRegularResultInfo`](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md).[`check_url`](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md#check_url)
 
-#### Defined in
+#### Source
 
-main.ts:56597
+main.ts:56605
 
-___
+***
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -87,17 +62,17 @@ example:
 
 #### Implementation of
 
-[ISerpBingOrganicTaskGetRegularResultInfo](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md).[datetime](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md#datetime)
+[`ISerpBingOrganicTaskGetRegularResultInfo`](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md).[`datetime`](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
-main.ts:56602
+main.ts:56610
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -105,215 +80,209 @@ possible item types: organic, paid
 
 #### Implementation of
 
-[ISerpBingOrganicTaskGetRegularResultInfo](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md).[item_types](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md#item_types)
+[`ISerpBingOrganicTaskGetRegularResultInfo`](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md).[`item_types`](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md#item_types)
 
-#### Defined in
+#### Source
 
-main.ts:56609
+main.ts:56617
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
+> **`optional`** **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
 items inside the element
 array of 8 search queries related to the keyword
 
 #### Implementation of
 
-[ISerpBingOrganicTaskGetRegularResultInfo](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md).[items](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md#items)
+[`ISerpBingOrganicTaskGetRegularResultInfo`](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md).[`items`](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:56616
+main.ts:56624
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[ISerpBingOrganicTaskGetRegularResultInfo](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md).[items_count](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md#items_count)
+[`ISerpBingOrganicTaskGetRegularResultInfo`](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md).[`items_count`](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:56613
+main.ts:56621
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
-[ISerpBingOrganicTaskGetRegularResultInfo](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md).[keyword](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md#keyword)
+[`ISerpBingOrganicTaskGetRegularResultInfo`](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md).[`keyword`](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:56586
+main.ts:56594
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[ISerpBingOrganicTaskGetRegularResultInfo](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md).[language_code](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md#language_code)
+[`ISerpBingOrganicTaskGetRegularResultInfo`](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md).[`language_code`](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:56594
+main.ts:56602
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[ISerpBingOrganicTaskGetRegularResultInfo](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md).[location_code](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md#location_code)
+[`ISerpBingOrganicTaskGetRegularResultInfo`](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md).[`location_code`](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:56592
+main.ts:56600
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
 #### Implementation of
 
-[ISerpBingOrganicTaskGetRegularResultInfo](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md).[se_domain](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md#se_domain)
+[`ISerpBingOrganicTaskGetRegularResultInfo`](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md).[`se_domain`](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md#se_domain)
 
-#### Defined in
+#### Source
 
-main.ts:56590
+main.ts:56598
 
-___
+***
 
-### se\_results\_count
+### se\_results\_count?
 
-• `Optional` **se\_results\_count**: `number`
+> **`optional`** **se\_results\_count**: `number`
 
 total number of results in SERP
 
 #### Implementation of
 
-[ISerpBingOrganicTaskGetRegularResultInfo](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md).[se_results_count](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md#se_results_count)
+[`ISerpBingOrganicTaskGetRegularResultInfo`](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md).[`se_results_count`](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md#se_results_count)
 
-#### Defined in
+#### Source
 
-main.ts:56611
+main.ts:56619
 
-___
+***
 
-### spell
+### spell?
 
-• `Optional` **spell**: [`SpellInfo`](SpellInfo.md)
+> **`optional`** **spell**: [`SpellInfo`](SpellInfo.md)
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
 
 #### Implementation of
 
-[ISerpBingOrganicTaskGetRegularResultInfo](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md).[spell](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md#spell)
+[`ISerpBingOrganicTaskGetRegularResultInfo`](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md).[`spell`](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md#spell)
 
-#### Defined in
+#### Source
 
-main.ts:56605
+main.ts:56613
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[ISerpBingOrganicTaskGetRegularResultInfo](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md).[type](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md#type)
+[`ISerpBingOrganicTaskGetRegularResultInfo`](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md).[`type`](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:56588
+main.ts:56596
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:56629
+main.ts:56637
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:56665
+main.ts:56673
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpBingOrganicTaskGetRegularResultInfo`](SerpBingOrganicTaskGetRegularResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpBingOrganicTaskGetRegularResultInfo`](SerpBingOrganicTaskGetRegularResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpBingOrganicTaskGetRegularResultInfo`](SerpBingOrganicTaskGetRegularResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:56658
+main.ts:56666

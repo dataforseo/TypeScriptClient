@@ -1,39 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataBingSearchVolumeTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IKeywordsDataBingSearchVolumeTaskPostRequestInfo
 
 # Interface: IKeywordsDataBingSearchVolumeTaskPostRequestInfo
 
-## Implemented by
-
-- [`KeywordsDataBingSearchVolumeTaskPostRequestInfo`](../classes/KeywordsDataBingSearchVolumeTaskPostRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [date\_from](IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md#date_from)
-- [date\_to](IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md#date_to)
-- [device](IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md#device)
-- [keywords](IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md#keywords)
-- [language\_code](IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md#language_code)
-- [language\_name](IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md#language_name)
-- [location\_code](IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md#location_code)
-- [location\_coordinate](IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md#location_coordinate)
-- [location\_name](IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md#location_name)
-- [pingback\_url](IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md#pingback_url)
-- [postback\_url](IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md#postback_url)
-- [search\_partners](IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md#search_partners)
-- [sort\_by](IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md#sort_by)
-- [tag](IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -43,15 +24,15 @@ date format: "yyyy-mm-dd"
 example:
 "2020-01-01"
 
-#### Defined in
+#### Source
 
-main.ts:127884
+main.ts:127892
 
-___
+***
 
-### date\_to
+### date\_to?
 
-• `Optional` **date\_to**: `string`
+> **`optional`** **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -63,30 +44,30 @@ date format: "yyyy-mm-dd"
 example:
 "2020-03-15"
 
-#### Defined in
+#### Source
 
-main.ts:127894
+main.ts:127902
 
-___
+***
 
-### device
+### device?
 
-• `Optional` **device**: `string`
+> **`optional`** **device**: `string`
 
 device type
 optional field
 specify this field if you want to get the data for a particular device typepossible values: all, mobile, desktop, tablet
 default value: all
 
-#### Defined in
+#### Source
 
-main.ts:127871
+main.ts:127879
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 keywords
 required field
@@ -94,15 +75,15 @@ The maximum number of keywords you can specify: 200
 The maximum number of characters for each keyword: 100
 the specified keywords will be converted to lowercase, data will be provided in a separate array
 
-#### Defined in
+#### Source
 
-main.ts:127832
+main.ts:127840
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -110,15 +91,15 @@ if you use this field, you don’t need to specify language_name
 supported languages:
 en, fr, de
 
-#### Defined in
+#### Source
 
-main.ts:127866
+main.ts:127874
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -126,15 +107,15 @@ if you use this field, you don’t need to specify language_code
 supported languages:
 English, French, German
 
-#### Defined in
+#### Source
 
-main.ts:127860
+main.ts:127868
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -143,15 +124,15 @@ you can receive the list of available locations of the search engines with their
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:127846
+main.ts:127854
 
-___
+***
 
-### location\_coordinate
+### location\_coordinate?
 
-• `Optional` **location\_coordinate**: `string`
+> **`optional`** **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -161,15 +142,15 @@ the data will be provided for the country the specified coordinates belong to
 example:
 52.6178549,-155.352142
 
-#### Defined in
+#### Source
 
-main.ts:127854
+main.ts:127862
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -178,15 +159,15 @@ you can receive the list of available locations of the search engine with their 
 example:
 London,England,United Kingdom
 
-#### Defined in
+#### Source
 
-main.ts:127839
+main.ts:127847
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -198,15 +179,15 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special symbols in pingback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
-main.ts:127914
+main.ts:127922
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -218,45 +199,45 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special symbols in postback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
-main.ts:127904
+main.ts:127912
 
-___
+***
 
-### search\_partners
+### search\_partners?
 
-• `Optional` **search\_partners**: `boolean`
+> **`optional`** **search\_partners**: `boolean`
 
 Bing search partners type
 optional field
 if you specify true, the results will be delivered for owned, operated, and syndicated networks across Bing, Yahoo, AOL and partner sites that host Bing, AOL, and Yahoo search.
 default value: false – results are returned for Bing, AOL, and Yahoo search networks
 
-#### Defined in
+#### Source
 
-main.ts:127919
+main.ts:127927
 
-___
+***
 
-### sort\_by
+### sort\_by?
 
-• `Optional` **sort\_by**: `string`
+> **`optional`** **sort\_by**: `string`
 
 results sorting parameters
 optional field
 Use these parameters to sort the results by search_volume, cpc, competition or relevance in the descending order
 default value: relevance
 
-#### Defined in
+#### Source
 
-main.ts:127876
+main.ts:127884
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -264,6 +245,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:127925
+main.ts:127933

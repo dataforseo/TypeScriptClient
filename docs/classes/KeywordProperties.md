@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordProperties
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordProperties
 
 # Class: KeywordProperties
 
@@ -8,54 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordProperties.md#constructor)
-
-### Properties
-
-- [core\_keyword](KeywordProperties.md#core_keyword)
-- [detected\_language](KeywordProperties.md#detected_language)
-- [is\_another\_language](KeywordProperties.md#is_another_language)
-- [keyword\_difficulty](KeywordProperties.md#keyword_difficulty)
-- [se\_type](KeywordProperties.md#se_type)
-- [synonym\_clustering\_algorithm](KeywordProperties.md#synonym_clustering_algorithm)
-
-### Methods
-
-- [init](KeywordProperties.md#init)
-- [toJSON](KeywordProperties.md#tojson)
-- [fromJS](KeywordProperties.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordProperties(data)
 
-• **new KeywordProperties**(`data?`): [`KeywordProperties`](KeywordProperties.md)
+> **new KeywordProperties**(`data`?): [`KeywordProperties`](KeywordProperties.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordProperties`](../interfaces/IKeywordProperties.md) |
+• **data?**: [`IKeywordProperties`](../interfaces/IKeywordProperties.md)
 
 #### Returns
 
 [`KeywordProperties`](KeywordProperties.md)
 
-#### Defined in
+#### Source
 
-main.ts:81416
+main.ts:81424
 
 ## Properties
 
-### core\_keyword
+### core\_keyword?
 
-• `Optional` **core\_keyword**: `string`
+> **`optional`** **core\_keyword**: `string`
 
 main keyword in a group
 contains the main keyword in a group determined by the synonym clustering algorithm
@@ -63,51 +44,51 @@ if the value is null, our database does not contain any keywords the correspondi
 
 #### Implementation of
 
-[IKeywordProperties](../interfaces/IKeywordProperties.md).[core_keyword](../interfaces/IKeywordProperties.md#core_keyword)
+[`IKeywordProperties`](../interfaces/IKeywordProperties.md).[`core_keyword`](../interfaces/IKeywordProperties.md#core_keyword)
 
-#### Defined in
+#### Source
 
-main.ts:81395
+main.ts:81403
 
-___
+***
 
-### detected\_language
+### detected\_language?
 
-• `Optional` **detected\_language**: `string`
+> **`optional`** **detected\_language**: `string`
 
 detected language of the keyword
 indicates the language of the keyword as identified by our system
 
 #### Implementation of
 
-[IKeywordProperties](../interfaces/IKeywordProperties.md).[detected_language](../interfaces/IKeywordProperties.md#detected_language)
+[`IKeywordProperties`](../interfaces/IKeywordProperties.md).[`detected_language`](../interfaces/IKeywordProperties.md#detected_language)
 
-#### Defined in
+#### Source
 
-main.ts:81409
+main.ts:81417
 
-___
+***
 
-### is\_another\_language
+### is\_another\_language?
 
-• `Optional` **is\_another\_language**: `boolean`
+> **`optional`** **is\_another\_language**: `boolean`
 
 detected language of the keyword is different from the set language
 if true, the language set in the request does not match the language determined by our system for a given keyword
 
 #### Implementation of
 
-[IKeywordProperties](../interfaces/IKeywordProperties.md).[is_another_language](../interfaces/IKeywordProperties.md#is_another_language)
+[`IKeywordProperties`](../interfaces/IKeywordProperties.md).[`is_another_language`](../interfaces/IKeywordProperties.md#is_another_language)
 
-#### Defined in
+#### Source
 
-main.ts:81412
+main.ts:81420
 
-___
+***
 
-### keyword\_difficulty
+### keyword\_difficulty?
 
-• `Optional` **keyword\_difficulty**: `number`
+> **`optional`** **keyword\_difficulty**: `number`
 
 difficulty of ranking in the first top-10 organic results for a keyword
 indicates the chance of getting in top-10 organic results for a keyword on a logarithmic scale from 0 to 100;
@@ -116,33 +97,33 @@ learn more about the metric in this help center guide
 
 #### Implementation of
 
-[IKeywordProperties](../interfaces/IKeywordProperties.md).[keyword_difficulty](../interfaces/IKeywordProperties.md#keyword_difficulty)
+[`IKeywordProperties`](../interfaces/IKeywordProperties.md).[`keyword_difficulty`](../interfaces/IKeywordProperties.md#keyword_difficulty)
 
-#### Defined in
+#### Source
 
-main.ts:81406
+main.ts:81414
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IKeywordProperties](../interfaces/IKeywordProperties.md).[se_type](../interfaces/IKeywordProperties.md#se_type)
+[`IKeywordProperties`](../interfaces/IKeywordProperties.md).[`se_type`](../interfaces/IKeywordProperties.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:81391
+main.ts:81399
 
-___
+***
 
-### synonym\_clustering\_algorithm
+### synonym\_clustering\_algorithm?
 
-• `Optional` **synonym\_clustering\_algorithm**: `string`
+> **`optional`** **synonym\_clustering\_algorithm**: `string`
 
 the algorithm used to identify synonyms
 possible values:
@@ -152,68 +133,62 @@ if the value is null, our database does not contain any keywords the correspondi
 
 #### Implementation of
 
-[IKeywordProperties](../interfaces/IKeywordProperties.md).[synonym_clustering_algorithm](../interfaces/IKeywordProperties.md#synonym_clustering_algorithm)
+[`IKeywordProperties`](../interfaces/IKeywordProperties.md).[`synonym_clustering_algorithm`](../interfaces/IKeywordProperties.md#synonym_clustering_algorithm)
 
-#### Defined in
+#### Source
 
-main.ts:81401
+main.ts:81409
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:81425
+main.ts:81433
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:81447
+main.ts:81455
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordProperties`](KeywordProperties.md)
+> **`static`** **fromJS**(`data`): [`KeywordProperties`](KeywordProperties.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`KeywordProperties`](KeywordProperties.md)
 
-#### Defined in
+#### Source
 
-main.ts:81440
+main.ts:81448

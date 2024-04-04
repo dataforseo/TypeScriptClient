@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MonthlySearches
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / MonthlySearches
 
 # Class: MonthlySearches
 
@@ -8,150 +12,124 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](MonthlySearches.md#constructor)
-
-### Properties
-
-- [month](MonthlySearches.md#month)
-- [search\_volume](MonthlySearches.md#search_volume)
-- [year](MonthlySearches.md#year)
-
-### Methods
-
-- [init](MonthlySearches.md#init)
-- [toJSON](MonthlySearches.md#tojson)
-- [fromJS](MonthlySearches.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new MonthlySearches(data)
 
-• **new MonthlySearches**(`data?`): [`MonthlySearches`](MonthlySearches.md)
+> **new MonthlySearches**(`data`?): [`MonthlySearches`](MonthlySearches.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IMonthlySearches`](../interfaces/IMonthlySearches.md) |
+• **data?**: [`IMonthlySearches`](../interfaces/IMonthlySearches.md)
 
 #### Returns
 
 [`MonthlySearches`](MonthlySearches.md)
 
-#### Defined in
+#### Source
 
-main.ts:81185
+main.ts:81193
 
 ## Properties
 
-### month
+### month?
 
-• `Optional` **month**: `number`
+> **`optional`** **month**: `number`
 
 month
 
 #### Implementation of
 
-[IMonthlySearches](../interfaces/IMonthlySearches.md).[month](../interfaces/IMonthlySearches.md#month)
+[`IMonthlySearches`](../interfaces/IMonthlySearches.md).[`month`](../interfaces/IMonthlySearches.md#month)
 
-#### Defined in
+#### Source
 
-main.ts:81179
+main.ts:81187
 
-___
+***
 
-### search\_volume
+### search\_volume?
 
-• `Optional` **search\_volume**: `number`
+> **`optional`** **search\_volume**: `number`
 
 monthly average search volume rate
 
 #### Implementation of
 
-[IMonthlySearches](../interfaces/IMonthlySearches.md).[search_volume](../interfaces/IMonthlySearches.md#search_volume)
+[`IMonthlySearches`](../interfaces/IMonthlySearches.md).[`search_volume`](../interfaces/IMonthlySearches.md#search_volume)
 
-#### Defined in
+#### Source
 
-main.ts:81181
+main.ts:81189
 
-___
+***
 
-### year
+### year?
 
-• `Optional` **year**: `number`
+> **`optional`** **year**: `number`
 
 year
 
 #### Implementation of
 
-[IMonthlySearches](../interfaces/IMonthlySearches.md).[year](../interfaces/IMonthlySearches.md#year)
+[`IMonthlySearches`](../interfaces/IMonthlySearches.md).[`year`](../interfaces/IMonthlySearches.md#year)
 
-#### Defined in
+#### Source
 
-main.ts:81177
+main.ts:81185
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:81194
+main.ts:81202
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:81213
+main.ts:81221
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`MonthlySearches`](MonthlySearches.md)
+> **`static`** **fromJS**(`data`): [`MonthlySearches`](MonthlySearches.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`MonthlySearches`](MonthlySearches.md)
 
-#### Defined in
+#### Source
 
-main.ts:81206
+main.ts:81214

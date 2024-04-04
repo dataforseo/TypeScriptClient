@@ -1,107 +1,95 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentGenerationCheckGrammarLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IContentGenerationCheckGrammarLiveResultInfo
 
 # Interface: IContentGenerationCheckGrammarLiveResultInfo
 
-## Implemented by
-
-- [`ContentGenerationCheckGrammarLiveResultInfo`](../classes/ContentGenerationCheckGrammarLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [initial\_text](IContentGenerationCheckGrammarLiveResultInfo.md#initial_text)
-- [input\_tokens](IContentGenerationCheckGrammarLiveResultInfo.md#input_tokens)
-- [items](IContentGenerationCheckGrammarLiveResultInfo.md#items)
-- [items\_count](IContentGenerationCheckGrammarLiveResultInfo.md#items_count)
-- [language\_code](IContentGenerationCheckGrammarLiveResultInfo.md#language_code)
-- [new\_tokens](IContentGenerationCheckGrammarLiveResultInfo.md#new_tokens)
-- [output\_tokens](IContentGenerationCheckGrammarLiveResultInfo.md#output_tokens)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### initial\_text
+### initial\_text?
 
-• `Optional` **initial\_text**: `string`
+> **`optional`** **initial\_text**: `string`
 
 initial text in the POST request
 
-#### Defined in
+#### Source
 
-main.ts:167097
+main.ts:167105
 
-___
+***
 
-### input\_tokens
+### input\_tokens?
 
-• `Optional` **input\_tokens**: `number`
+> **`optional`** **input\_tokens**: `number`
 
 number of input tokens in the POST request
 
-#### Defined in
-
-main.ts:167091
-
-___
-
-### items
-
-• `Optional` **items**: [`ContentGenerationCheckGrammarLiveItem`](../classes/ContentGenerationCheckGrammarLiveItem.md)[]
-
-contains grammar or spelling errors and related data
-
-#### Defined in
-
-main.ts:167103
-
-___
-
-### items\_count
-
-• `Optional` **items\_count**: `number`
-
-the number of results returned in the items array
-
-#### Defined in
-
-main.ts:167101
-
-___
-
-### language\_code
-
-• `Optional` **language\_code**: `string`
-
-language code in the POST request
-
-#### Defined in
+#### Source
 
 main.ts:167099
 
-___
+***
 
-### new\_tokens
+### items?
 
-• `Optional` **new\_tokens**: `number`
+> **`optional`** **items**: [`ContentGenerationCheckGrammarLiveItem`](../classes/ContentGenerationCheckGrammarLiveItem.md)[]
+
+contains grammar or spelling errors and related data
+
+#### Source
+
+main.ts:167111
+
+***
+
+### items\_count?
+
+> **`optional`** **items\_count**: `number`
+
+the number of results returned in the items array
+
+#### Source
+
+main.ts:167109
+
+***
+
+### language\_code?
+
+> **`optional`** **language\_code**: `string`
+
+language code in the POST request
+
+#### Source
+
+main.ts:167107
+
+***
+
+### new\_tokens?
+
+> **`optional`** **new\_tokens**: `number`
 
 number of new tokens in the response
 
-#### Defined in
+#### Source
 
-main.ts:167095
+main.ts:167103
 
-___
+***
 
-### output\_tokens
+### output\_tokens?
 
-• `Optional` **output\_tokens**: `number`
+> **`optional`** **output\_tokens**: `number`
 
 number of output tokens in the response
 
-#### Defined in
+#### Source
 
-main.ts:167093
+main.ts:167101

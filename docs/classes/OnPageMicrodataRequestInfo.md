@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageMicrodataRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPageMicrodataRequestInfo
 
 # Class: OnPageMicrodataRequestInfo
 
@@ -8,51 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPageMicrodataRequestInfo.md#constructor)
-
-### Properties
-
-- [id](OnPageMicrodataRequestInfo.md#id)
-- [tag](OnPageMicrodataRequestInfo.md#tag)
-- [url](OnPageMicrodataRequestInfo.md#url)
-
-### Methods
-
-- [init](OnPageMicrodataRequestInfo.md#init)
-- [toJSON](OnPageMicrodataRequestInfo.md#tojson)
-- [fromJS](OnPageMicrodataRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPageMicrodataRequestInfo(data)
 
-• **new OnPageMicrodataRequestInfo**(`data?`): [`OnPageMicrodataRequestInfo`](OnPageMicrodataRequestInfo.md)
+> **new OnPageMicrodataRequestInfo**(`data`?): [`OnPageMicrodataRequestInfo`](OnPageMicrodataRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPageMicrodataRequestInfo`](../interfaces/IOnPageMicrodataRequestInfo.md) |
+• **data?**: [`IOnPageMicrodataRequestInfo`](../interfaces/IOnPageMicrodataRequestInfo.md)
 
 #### Returns
 
 [`OnPageMicrodataRequestInfo`](OnPageMicrodataRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:155942
+main.ts:155950
 
 ## Properties
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 ID of the task
 required field
@@ -62,17 +46,17 @@ example:
 
 #### Implementation of
 
-[IOnPageMicrodataRequestInfo](../interfaces/IOnPageMicrodataRequestInfo.md).[id](../interfaces/IOnPageMicrodataRequestInfo.md#id)
+[`IOnPageMicrodataRequestInfo`](../interfaces/IOnPageMicrodataRequestInfo.md).[`id`](../interfaces/IOnPageMicrodataRequestInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:155926
+main.ts:155934
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -82,17 +66,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IOnPageMicrodataRequestInfo](../interfaces/IOnPageMicrodataRequestInfo.md).[tag](../interfaces/IOnPageMicrodataRequestInfo.md#tag)
+[`IOnPageMicrodataRequestInfo`](../interfaces/IOnPageMicrodataRequestInfo.md).[`tag`](../interfaces/IOnPageMicrodataRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:155938
+main.ts:155946
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 resource URL
 required field
@@ -102,68 +86,62 @@ https://dataforseo.com/apis
 
 #### Implementation of
 
-[IOnPageMicrodataRequestInfo](../interfaces/IOnPageMicrodataRequestInfo.md).[url](../interfaces/IOnPageMicrodataRequestInfo.md#url)
+[`IOnPageMicrodataRequestInfo`](../interfaces/IOnPageMicrodataRequestInfo.md).[`url`](../interfaces/IOnPageMicrodataRequestInfo.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:155932
+main.ts:155940
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:155951
+main.ts:155959
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:155970
+main.ts:155978
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPageMicrodataRequestInfo`](OnPageMicrodataRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`OnPageMicrodataRequestInfo`](OnPageMicrodataRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`OnPageMicrodataRequestInfo`](OnPageMicrodataRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:155963
+main.ts:155971

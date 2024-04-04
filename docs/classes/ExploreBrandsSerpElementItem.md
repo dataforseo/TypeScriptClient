@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ExploreBrandsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ExploreBrandsSerpElementItem
 
 # Class: ExploreBrandsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-  ↳ **`ExploreBrandsSerpElementItem`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ExploreBrandsSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](ExploreBrandsSerpElementItem.md#_discriminator)
-- [items](ExploreBrandsSerpElementItem.md#items)
-- [position](ExploreBrandsSerpElementItem.md#position)
-- [rank\_absolute](ExploreBrandsSerpElementItem.md#rank_absolute)
-- [rank\_group](ExploreBrandsSerpElementItem.md#rank_group)
-- [rectangle](ExploreBrandsSerpElementItem.md#rectangle)
-- [title](ExploreBrandsSerpElementItem.md#title)
-- [xpath](ExploreBrandsSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](ExploreBrandsSerpElementItem.md#init)
-- [toJSON](ExploreBrandsSerpElementItem.md#tojson)
-- [fromJS](ExploreBrandsSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ExploreBrandsSerpElementItem(data)
 
-• **new ExploreBrandsSerpElementItem**(`data?`): [`ExploreBrandsSerpElementItem`](ExploreBrandsSerpElementItem.md)
+> **new ExploreBrandsSerpElementItem**(`data`?): [`ExploreBrandsSerpElementItem`](ExploreBrandsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IExploreBrandsSerpElementItem`](../interfaces/IExploreBrandsSerpElementItem.md) |
+• **data?**: [`IExploreBrandsSerpElementItem`](../interfaces/IExploreBrandsSerpElementItem.md)
 
 #### Returns
 
@@ -57,48 +34,48 @@
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[constructor](BaseSerpElementItem.md#constructor)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:36263
+main.ts:36269
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[_discriminator](BaseSerpElementItem.md#_discriminator)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:19788
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`ExploreBrandsElement`](ExploreBrandsElement.md)[]
+> **`optional`** **items**: [`ExploreBrandsElement`](ExploreBrandsElement.md)[]
 
 additional items present in the element
 if there are none, equals null
 
 #### Implementation of
 
-[IExploreBrandsSerpElementItem](../interfaces/IExploreBrandsSerpElementItem.md).[items](../interfaces/IExploreBrandsSerpElementItem.md#items)
+[`IExploreBrandsSerpElementItem`](../interfaces/IExploreBrandsSerpElementItem.md).[`items`](../interfaces/IExploreBrandsSerpElementItem.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:36255
+main.ts:36261
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -106,17 +83,17 @@ left, right
 
 #### Implementation of
 
-[IExploreBrandsSerpElementItem](../interfaces/IExploreBrandsSerpElementItem.md).[position](../interfaces/IExploreBrandsSerpElementItem.md#position)
+[`IExploreBrandsSerpElementItem`](../interfaces/IExploreBrandsSerpElementItem.md).[`position`](../interfaces/IExploreBrandsSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
-main.ts:36248
+main.ts:36254
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -124,17 +101,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IExploreBrandsSerpElementItem](../interfaces/IExploreBrandsSerpElementItem.md).[rank_absolute](../interfaces/IExploreBrandsSerpElementItem.md#rank_absolute)
+[`IExploreBrandsSerpElementItem`](../interfaces/IExploreBrandsSerpElementItem.md).[`rank_absolute`](../interfaces/IExploreBrandsSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:36244
+main.ts:36250
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
@@ -143,17 +120,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IExploreBrandsSerpElementItem](../interfaces/IExploreBrandsSerpElementItem.md).[rank_group](../interfaces/IExploreBrandsSerpElementItem.md#rank_group)
+[`IExploreBrandsSerpElementItem`](../interfaces/IExploreBrandsSerpElementItem.md).[`rank_group`](../interfaces/IExploreBrandsSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
-main.ts:36240
+main.ts:36246
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -161,55 +138,53 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Implementation of
 
-[IExploreBrandsSerpElementItem](../interfaces/IExploreBrandsSerpElementItem.md).[rectangle](../interfaces/IExploreBrandsSerpElementItem.md#rectangle)
+[`IExploreBrandsSerpElementItem`](../interfaces/IExploreBrandsSerpElementItem.md).[`rectangle`](../interfaces/IExploreBrandsSerpElementItem.md#rectangle)
 
-#### Defined in
+#### Source
 
-main.ts:36259
+main.ts:36265
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the row
 
 #### Implementation of
 
-[IExploreBrandsSerpElementItem](../interfaces/IExploreBrandsSerpElementItem.md).[title](../interfaces/IExploreBrandsSerpElementItem.md#title)
+[`IExploreBrandsSerpElementItem`](../interfaces/IExploreBrandsSerpElementItem.md).[`title`](../interfaces/IExploreBrandsSerpElementItem.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:36252
+main.ts:36258
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IExploreBrandsSerpElementItem](../interfaces/IExploreBrandsSerpElementItem.md).[xpath](../interfaces/IExploreBrandsSerpElementItem.md#xpath)
+[`IExploreBrandsSerpElementItem`](../interfaces/IExploreBrandsSerpElementItem.md).[`xpath`](../interfaces/IExploreBrandsSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
-main.ts:36250
+main.ts:36256
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -217,23 +192,21 @@ main.ts:36250
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[init](BaseSerpElementItem.md#init)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:36268
+main.ts:36274
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -241,23 +214,21 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[toJSON](BaseSerpElementItem.md#tojson)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:36296
+main.ts:36302
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ExploreBrandsSerpElementItem`](ExploreBrandsSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`ExploreBrandsSerpElementItem`](ExploreBrandsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -265,8 +236,8 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[fromJS](BaseSerpElementItem.md#fromjs)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:36289
+main.ts:36295

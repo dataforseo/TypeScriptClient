@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / GoogleJobsItemSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / GoogleJobsItemSerpElementItem
 
 # Class: GoogleJobsItemSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-  ↳ **`GoogleJobsItemSerpElementItem`**
 
 ## Implements
 
@@ -14,52 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](GoogleJobsItemSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](GoogleJobsItemSerpElementItem.md#_discriminator)
-- [contract\_type](GoogleJobsItemSerpElementItem.md#contract_type)
-- [employer\_image\_url](GoogleJobsItemSerpElementItem.md#employer_image_url)
-- [employer\_name](GoogleJobsItemSerpElementItem.md#employer_name)
-- [employer\_url](GoogleJobsItemSerpElementItem.md#employer_url)
-- [job\_id](GoogleJobsItemSerpElementItem.md#job_id)
-- [location](GoogleJobsItemSerpElementItem.md#location)
-- [position](GoogleJobsItemSerpElementItem.md#position)
-- [rank\_absolute](GoogleJobsItemSerpElementItem.md#rank_absolute)
-- [rank\_group](GoogleJobsItemSerpElementItem.md#rank_group)
-- [rectangle](GoogleJobsItemSerpElementItem.md#rectangle)
-- [salary](GoogleJobsItemSerpElementItem.md#salary)
-- [source\_name](GoogleJobsItemSerpElementItem.md#source_name)
-- [source\_url](GoogleJobsItemSerpElementItem.md#source_url)
-- [time\_ago](GoogleJobsItemSerpElementItem.md#time_ago)
-- [timestamp](GoogleJobsItemSerpElementItem.md#timestamp)
-- [title](GoogleJobsItemSerpElementItem.md#title)
-- [xpath](GoogleJobsItemSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](GoogleJobsItemSerpElementItem.md#init)
-- [toJSON](GoogleJobsItemSerpElementItem.md#tojson)
-- [fromJS](GoogleJobsItemSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new GoogleJobsItemSerpElementItem(data)
 
-• **new GoogleJobsItemSerpElementItem**(`data?`): [`GoogleJobsItemSerpElementItem`](GoogleJobsItemSerpElementItem.md)
+> **new GoogleJobsItemSerpElementItem**(`data`?): [`GoogleJobsItemSerpElementItem`](GoogleJobsItemSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IGoogleJobsItemSerpElementItem`](../interfaces/IGoogleJobsItemSerpElementItem.md) |
+• **data?**: [`IGoogleJobsItemSerpElementItem`](../interfaces/IGoogleJobsItemSerpElementItem.md)
 
 #### Returns
 
@@ -67,127 +34,127 @@
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[constructor](BaseSerpElementItem.md#constructor)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:49906
+main.ts:49914
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[_discriminator](BaseSerpElementItem.md#_discriminator)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:19788
 
-___
+***
 
-### contract\_type
+### contract\_type?
 
-• `Optional` **contract\_type**: `string`
+> **`optional`** **contract\_type**: `string`
 
 employment contract type
 
 #### Implementation of
 
-[IGoogleJobsItemSerpElementItem](../interfaces/IGoogleJobsItemSerpElementItem.md).[contract_type](../interfaces/IGoogleJobsItemSerpElementItem.md#contract_type)
+[`IGoogleJobsItemSerpElementItem`](../interfaces/IGoogleJobsItemSerpElementItem.md).[`contract_type`](../interfaces/IGoogleJobsItemSerpElementItem.md#contract_type)
 
-#### Defined in
+#### Source
 
-main.ts:49891
+main.ts:49899
 
-___
+***
 
-### employer\_image\_url
+### employer\_image\_url?
 
-• `Optional` **employer\_image\_url**: `string`
+> **`optional`** **employer\_image\_url**: `string`
 
 URL to the image used in the job posting
 
 #### Implementation of
 
-[IGoogleJobsItemSerpElementItem](../interfaces/IGoogleJobsItemSerpElementItem.md).[employer_image_url](../interfaces/IGoogleJobsItemSerpElementItem.md#employer_image_url)
+[`IGoogleJobsItemSerpElementItem`](../interfaces/IGoogleJobsItemSerpElementItem.md).[`employer_image_url`](../interfaces/IGoogleJobsItemSerpElementItem.md#employer_image_url)
 
-#### Defined in
+#### Source
 
-main.ts:49880
+main.ts:49888
 
-___
+***
 
-### employer\_name
+### employer\_name?
 
-• `Optional` **employer\_name**: `string`
+> **`optional`** **employer\_name**: `string`
 
 name of the employer
 
 #### Implementation of
 
-[IGoogleJobsItemSerpElementItem](../interfaces/IGoogleJobsItemSerpElementItem.md).[employer_name](../interfaces/IGoogleJobsItemSerpElementItem.md#employer_name)
+[`IGoogleJobsItemSerpElementItem`](../interfaces/IGoogleJobsItemSerpElementItem.md).[`employer_name`](../interfaces/IGoogleJobsItemSerpElementItem.md#employer_name)
 
-#### Defined in
+#### Source
 
-main.ts:49876
+main.ts:49884
 
-___
+***
 
-### employer\_url
+### employer\_url?
 
-• `Optional` **employer\_url**: `string`
+> **`optional`** **employer\_url**: `string`
 
 URL to the employer’s website
 
 #### Implementation of
 
-[IGoogleJobsItemSerpElementItem](../interfaces/IGoogleJobsItemSerpElementItem.md).[employer_url](../interfaces/IGoogleJobsItemSerpElementItem.md#employer_url)
+[`IGoogleJobsItemSerpElementItem`](../interfaces/IGoogleJobsItemSerpElementItem.md).[`employer_url`](../interfaces/IGoogleJobsItemSerpElementItem.md#employer_url)
 
-#### Defined in
+#### Source
 
-main.ts:49878
+main.ts:49886
 
-___
+***
 
-### job\_id
+### job\_id?
 
-• `Optional` **job\_id**: `string`
+> **`optional`** **job\_id**: `string`
 
 ID of the job on Google Jobs
 
 #### Implementation of
 
-[IGoogleJobsItemSerpElementItem](../interfaces/IGoogleJobsItemSerpElementItem.md).[job_id](../interfaces/IGoogleJobsItemSerpElementItem.md#job_id)
+[`IGoogleJobsItemSerpElementItem`](../interfaces/IGoogleJobsItemSerpElementItem.md).[`job_id`](../interfaces/IGoogleJobsItemSerpElementItem.md#job_id)
 
-#### Defined in
+#### Source
 
-main.ts:49872
+main.ts:49880
 
-___
+***
 
-### location
+### location?
 
-• `Optional` **location**: `string`
+> **`optional`** **location**: `string`
 
 location for which the job vacancy is posted
 
 #### Implementation of
 
-[IGoogleJobsItemSerpElementItem](../interfaces/IGoogleJobsItemSerpElementItem.md).[location](../interfaces/IGoogleJobsItemSerpElementItem.md#location)
+[`IGoogleJobsItemSerpElementItem`](../interfaces/IGoogleJobsItemSerpElementItem.md).[`location`](../interfaces/IGoogleJobsItemSerpElementItem.md#location)
 
-#### Defined in
+#### Source
 
-main.ts:49882
+main.ts:49890
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -195,34 +162,34 @@ left, right
 
 #### Implementation of
 
-[IGoogleJobsItemSerpElementItem](../interfaces/IGoogleJobsItemSerpElementItem.md).[position](../interfaces/IGoogleJobsItemSerpElementItem.md#position)
+[`IGoogleJobsItemSerpElementItem`](../interfaces/IGoogleJobsItemSerpElementItem.md).[`position`](../interfaces/IGoogleJobsItemSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
-main.ts:49868
+main.ts:49876
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
 #### Implementation of
 
-[IGoogleJobsItemSerpElementItem](../interfaces/IGoogleJobsItemSerpElementItem.md).[rank_absolute](../interfaces/IGoogleJobsItemSerpElementItem.md#rank_absolute)
+[`IGoogleJobsItemSerpElementItem`](../interfaces/IGoogleJobsItemSerpElementItem.md).[`rank_absolute`](../interfaces/IGoogleJobsItemSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:49864
+main.ts:49872
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -230,17 +197,17 @@ positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
-[IGoogleJobsItemSerpElementItem](../interfaces/IGoogleJobsItemSerpElementItem.md).[rank_group](../interfaces/IGoogleJobsItemSerpElementItem.md#rank_group)
+[`IGoogleJobsItemSerpElementItem`](../interfaces/IGoogleJobsItemSerpElementItem.md).[`rank_group`](../interfaces/IGoogleJobsItemSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
-main.ts:49861
+main.ts:49869
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP;
@@ -248,82 +215,82 @@ in this case, will equal null
 
 #### Implementation of
 
-[IGoogleJobsItemSerpElementItem](../interfaces/IGoogleJobsItemSerpElementItem.md).[rectangle](../interfaces/IGoogleJobsItemSerpElementItem.md#rectangle)
+[`IGoogleJobsItemSerpElementItem`](../interfaces/IGoogleJobsItemSerpElementItem.md).[`rectangle`](../interfaces/IGoogleJobsItemSerpElementItem.md#rectangle)
 
-#### Defined in
+#### Source
 
-main.ts:49902
+main.ts:49910
 
-___
+***
 
-### salary
+### salary?
 
-• `Optional` **salary**: `string`
+> **`optional`** **salary**: `string`
 
 the salary indicated in the job vacancy
 if the salary isn’t indicated, this field will equal null
 
 #### Implementation of
 
-[IGoogleJobsItemSerpElementItem](../interfaces/IGoogleJobsItemSerpElementItem.md).[salary](../interfaces/IGoogleJobsItemSerpElementItem.md#salary)
+[`IGoogleJobsItemSerpElementItem`](../interfaces/IGoogleJobsItemSerpElementItem.md).[`salary`](../interfaces/IGoogleJobsItemSerpElementItem.md#salary)
 
-#### Defined in
+#### Source
 
-main.ts:49889
+main.ts:49897
 
-___
+***
 
-### source\_name
+### source\_name?
 
-• `Optional` **source\_name**: `string`
+> **`optional`** **source\_name**: `string`
 
 original source of the job vacancy
 
 #### Implementation of
 
-[IGoogleJobsItemSerpElementItem](../interfaces/IGoogleJobsItemSerpElementItem.md).[source_name](../interfaces/IGoogleJobsItemSerpElementItem.md#source_name)
+[`IGoogleJobsItemSerpElementItem`](../interfaces/IGoogleJobsItemSerpElementItem.md).[`source_name`](../interfaces/IGoogleJobsItemSerpElementItem.md#source_name)
 
-#### Defined in
+#### Source
 
-main.ts:49884
+main.ts:49892
 
-___
+***
 
-### source\_url
+### source\_url?
 
-• `Optional` **source\_url**: `string`
+> **`optional`** **source\_url**: `string`
 
 URL to the original source of the job vacancy
 
 #### Implementation of
 
-[IGoogleJobsItemSerpElementItem](../interfaces/IGoogleJobsItemSerpElementItem.md).[source_url](../interfaces/IGoogleJobsItemSerpElementItem.md#source_url)
+[`IGoogleJobsItemSerpElementItem`](../interfaces/IGoogleJobsItemSerpElementItem.md).[`source_url`](../interfaces/IGoogleJobsItemSerpElementItem.md#source_url)
 
-#### Defined in
+#### Source
 
-main.ts:49886
+main.ts:49894
 
-___
+***
 
-### time\_ago
+### time\_ago?
 
-• `Optional` **time\_ago**: `string`
+> **`optional`** **time\_ago**: `string`
 
 indicates how long ago the job vacancy was posted
 
 #### Implementation of
 
-[IGoogleJobsItemSerpElementItem](../interfaces/IGoogleJobsItemSerpElementItem.md).[time_ago](../interfaces/IGoogleJobsItemSerpElementItem.md#time_ago)
+[`IGoogleJobsItemSerpElementItem`](../interfaces/IGoogleJobsItemSerpElementItem.md).[`time_ago`](../interfaces/IGoogleJobsItemSerpElementItem.md#time_ago)
 
-#### Defined in
+#### Source
 
-main.ts:49898
+main.ts:49906
 
-___
+***
 
-### timestamp
+### timestamp?
 
-• `Optional` **timestamp**: `string`
+> **`optional`** **timestamp**: `string`
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -332,55 +299,53 @@ example:
 
 #### Implementation of
 
-[IGoogleJobsItemSerpElementItem](../interfaces/IGoogleJobsItemSerpElementItem.md).[timestamp](../interfaces/IGoogleJobsItemSerpElementItem.md#timestamp)
+[`IGoogleJobsItemSerpElementItem`](../interfaces/IGoogleJobsItemSerpElementItem.md).[`timestamp`](../interfaces/IGoogleJobsItemSerpElementItem.md#timestamp)
 
-#### Defined in
+#### Source
 
-main.ts:49896
+main.ts:49904
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the job
 
 #### Implementation of
 
-[IGoogleJobsItemSerpElementItem](../interfaces/IGoogleJobsItemSerpElementItem.md).[title](../interfaces/IGoogleJobsItemSerpElementItem.md#title)
+[`IGoogleJobsItemSerpElementItem`](../interfaces/IGoogleJobsItemSerpElementItem.md).[`title`](../interfaces/IGoogleJobsItemSerpElementItem.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:49874
+main.ts:49882
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IGoogleJobsItemSerpElementItem](../interfaces/IGoogleJobsItemSerpElementItem.md).[xpath](../interfaces/IGoogleJobsItemSerpElementItem.md#xpath)
+[`IGoogleJobsItemSerpElementItem`](../interfaces/IGoogleJobsItemSerpElementItem.md).[`xpath`](../interfaces/IGoogleJobsItemSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
-main.ts:49870
+main.ts:49878
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -388,23 +353,21 @@ main.ts:49870
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[init](BaseSerpElementItem.md#init)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:49911
+main.ts:49919
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -412,23 +375,21 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[toJSON](BaseSerpElementItem.md#tojson)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:49945
+main.ts:49953
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`GoogleJobsItemSerpElementItem`](GoogleJobsItemSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`GoogleJobsItemSerpElementItem`](GoogleJobsItemSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -436,8 +397,8 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[fromJS](BaseSerpElementItem.md#fromjs)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:49938
+main.ts:49946

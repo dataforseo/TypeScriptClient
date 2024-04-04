@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleSearchIntentLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsGoogleSearchIntentLiveResultInfo
 
 # Class: DataforseoLabsGoogleSearchIntentLiveResultInfo
 
@@ -8,151 +12,125 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsGoogleSearchIntentLiveResultInfo.md#constructor)
-
-### Properties
-
-- [items](DataforseoLabsGoogleSearchIntentLiveResultInfo.md#items)
-- [items\_count](DataforseoLabsGoogleSearchIntentLiveResultInfo.md#items_count)
-- [language\_code](DataforseoLabsGoogleSearchIntentLiveResultInfo.md#language_code)
-
-### Methods
-
-- [init](DataforseoLabsGoogleSearchIntentLiveResultInfo.md#init)
-- [toJSON](DataforseoLabsGoogleSearchIntentLiveResultInfo.md#tojson)
-- [fromJS](DataforseoLabsGoogleSearchIntentLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsGoogleSearchIntentLiveResultInfo(data)
 
-• **new DataforseoLabsGoogleSearchIntentLiveResultInfo**(`data?`): [`DataforseoLabsGoogleSearchIntentLiveResultInfo`](DataforseoLabsGoogleSearchIntentLiveResultInfo.md)
+> **new DataforseoLabsGoogleSearchIntentLiveResultInfo**(`data`?): [`DataforseoLabsGoogleSearchIntentLiveResultInfo`](DataforseoLabsGoogleSearchIntentLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsGoogleSearchIntentLiveResultInfo`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveResultInfo.md) |
+• **data?**: [`IDataforseoLabsGoogleSearchIntentLiveResultInfo`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleSearchIntentLiveResultInfo`](DataforseoLabsGoogleSearchIntentLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:85310
+main.ts:85318
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`DataforseoLabsGoogleSearchIntentLiveItem`](DataforseoLabsGoogleSearchIntentLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsGoogleSearchIntentLiveItem`](DataforseoLabsGoogleSearchIntentLiveItem.md)[]
 
 array of items with relevant traffic estimation data
 
 #### Implementation of
 
-[IDataforseoLabsGoogleSearchIntentLiveResultInfo](../interfaces/IDataforseoLabsGoogleSearchIntentLiveResultInfo.md).[items](../interfaces/IDataforseoLabsGoogleSearchIntentLiveResultInfo.md#items)
+[`IDataforseoLabsGoogleSearchIntentLiveResultInfo`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:85306
+main.ts:85314
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleSearchIntentLiveResultInfo](../interfaces/IDataforseoLabsGoogleSearchIntentLiveResultInfo.md).[items_count](../interfaces/IDataforseoLabsGoogleSearchIntentLiveResultInfo.md#items_count)
+[`IDataforseoLabsGoogleSearchIntentLiveResultInfo`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:85304
+main.ts:85312
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 if there is no data, then the value is null
 
 #### Implementation of
 
-[IDataforseoLabsGoogleSearchIntentLiveResultInfo](../interfaces/IDataforseoLabsGoogleSearchIntentLiveResultInfo.md).[language_code](../interfaces/IDataforseoLabsGoogleSearchIntentLiveResultInfo.md#language_code)
+[`IDataforseoLabsGoogleSearchIntentLiveResultInfo`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:85302
+main.ts:85310
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:85319
+main.ts:85327
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:85342
+main.ts:85350
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsGoogleSearchIntentLiveResultInfo`](DataforseoLabsGoogleSearchIntentLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleSearchIntentLiveResultInfo`](DataforseoLabsGoogleSearchIntentLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsGoogleSearchIntentLiveResultInfo`](DataforseoLabsGoogleSearchIntentLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:85335
+main.ts:85343

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ProductConsiderationsExpandedElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ProductConsiderationsExpandedElement
 
 # Class: ProductConsiderationsExpandedElement
 
@@ -8,58 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ProductConsiderationsExpandedElement.md#constructor)
-
-### Properties
-
-- [about\_this\_result](ProductConsiderationsExpandedElement.md#about_this_result)
-- [breadcrumb](ProductConsiderationsExpandedElement.md#breadcrumb)
-- [domain](ProductConsiderationsExpandedElement.md#domain)
-- [featured\_title](ProductConsiderationsExpandedElement.md#featured_title)
-- [related\_searches](ProductConsiderationsExpandedElement.md#related_searches)
-- [snippet](ProductConsiderationsExpandedElement.md#snippet)
-- [timestamp](ProductConsiderationsExpandedElement.md#timestamp)
-- [title](ProductConsiderationsExpandedElement.md#title)
-- [type](ProductConsiderationsExpandedElement.md#type)
-- [url](ProductConsiderationsExpandedElement.md#url)
-
-### Methods
-
-- [init](ProductConsiderationsExpandedElement.md#init)
-- [toJSON](ProductConsiderationsExpandedElement.md#tojson)
-- [fromJS](ProductConsiderationsExpandedElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ProductConsiderationsExpandedElement(data)
 
-• **new ProductConsiderationsExpandedElement**(`data?`): [`ProductConsiderationsExpandedElement`](ProductConsiderationsExpandedElement.md)
+> **new ProductConsiderationsExpandedElement**(`data`?): [`ProductConsiderationsExpandedElement`](ProductConsiderationsExpandedElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IProductConsiderationsExpandedElement`](../interfaces/IProductConsiderationsExpandedElement.md) |
+• **data?**: [`IProductConsiderationsExpandedElement`](../interfaces/IProductConsiderationsExpandedElement.md)
 
 #### Returns
 
 [`ProductConsiderationsExpandedElement`](ProductConsiderationsExpandedElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:35376
+main.ts:35382
 
 ## Properties
 
-### about\_this\_result
+### about\_this\_result?
 
-• `Optional` **about\_this\_result**: [`AboutThisResultElement`](AboutThisResultElement.md)
+> **`optional`** **about\_this\_result**: [`AboutThisResultElement`](AboutThisResultElement.md)
 
 contains information from the ‘About this result’ panel
 ‘About this result’ panel provides additional context about why Google returned this result for the given query;
@@ -67,97 +44,97 @@ this feature appears after clicking on the three dots next to most results
 
 #### Implementation of
 
-[IProductConsiderationsExpandedElement](../interfaces/IProductConsiderationsExpandedElement.md).[about_this_result](../interfaces/IProductConsiderationsExpandedElement.md#about_this_result)
+[`IProductConsiderationsExpandedElement`](../interfaces/IProductConsiderationsExpandedElement.md).[`about_this_result`](../interfaces/IProductConsiderationsExpandedElement.md#about_this_result)
 
-#### Defined in
+#### Source
 
-main.ts:35372
+main.ts:35378
 
-___
+***
 
-### breadcrumb
+### breadcrumb?
 
-• `Optional` **breadcrumb**: `string`
+> **`optional`** **breadcrumb**: `string`
 
 breadcrumb of the Ad element in SERP
 
 #### Implementation of
 
-[IProductConsiderationsExpandedElement](../interfaces/IProductConsiderationsExpandedElement.md).[breadcrumb](../interfaces/IProductConsiderationsExpandedElement.md#breadcrumb)
+[`IProductConsiderationsExpandedElement`](../interfaces/IProductConsiderationsExpandedElement.md).[`breadcrumb`](../interfaces/IProductConsiderationsExpandedElement.md#breadcrumb)
 
-#### Defined in
+#### Source
 
-main.ts:35355
+main.ts:35361
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain where a link points
 
 #### Implementation of
 
-[IProductConsiderationsExpandedElement](../interfaces/IProductConsiderationsExpandedElement.md).[domain](../interfaces/IProductConsiderationsExpandedElement.md#domain)
+[`IProductConsiderationsExpandedElement`](../interfaces/IProductConsiderationsExpandedElement.md).[`domain`](../interfaces/IProductConsiderationsExpandedElement.md#domain)
 
-#### Defined in
+#### Source
 
-main.ts:35359
+main.ts:35365
 
-___
+***
 
-### featured\_title
+### featured\_title?
 
-• `Optional` **featured\_title**: `string`
+> **`optional`** **featured\_title**: `string`
 
 the title of the featured snippets source page
 
 #### Implementation of
 
-[IProductConsiderationsExpandedElement](../interfaces/IProductConsiderationsExpandedElement.md).[featured_title](../interfaces/IProductConsiderationsExpandedElement.md#featured_title)
+[`IProductConsiderationsExpandedElement`](../interfaces/IProductConsiderationsExpandedElement.md).[`featured_title`](../interfaces/IProductConsiderationsExpandedElement.md#featured_title)
 
-#### Defined in
+#### Source
 
-main.ts:35353
+main.ts:35359
 
-___
+***
 
-### related\_searches
+### related\_searches?
 
-• `Optional` **related\_searches**: `string`[]
+> **`optional`** **related\_searches**: `string`[]
 
 search queries related to the elment
 
 #### Implementation of
 
-[IProductConsiderationsExpandedElement](../interfaces/IProductConsiderationsExpandedElement.md).[related_searches](../interfaces/IProductConsiderationsExpandedElement.md#related_searches)
+[`IProductConsiderationsExpandedElement`](../interfaces/IProductConsiderationsExpandedElement.md).[`related_searches`](../interfaces/IProductConsiderationsExpandedElement.md#related_searches)
 
-#### Defined in
+#### Source
 
-main.ts:35368
+main.ts:35374
 
-___
+***
 
-### snippet
+### snippet?
 
-• `Optional` **snippet**: `string`
+> **`optional`** **snippet**: `string`
 
 text alongside the link title
 
 #### Implementation of
 
-[IProductConsiderationsExpandedElement](../interfaces/IProductConsiderationsExpandedElement.md).[snippet](../interfaces/IProductConsiderationsExpandedElement.md#snippet)
+[`IProductConsiderationsExpandedElement`](../interfaces/IProductConsiderationsExpandedElement.md).[`snippet`](../interfaces/IProductConsiderationsExpandedElement.md#snippet)
 
-#### Defined in
+#### Source
 
-main.ts:35357
+main.ts:35363
 
-___
+***
 
-### timestamp
+### timestamp?
 
-• `Optional` **timestamp**: `string`
+> **`optional`** **timestamp**: `string`
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -166,116 +143,110 @@ example:
 
 #### Implementation of
 
-[IProductConsiderationsExpandedElement](../interfaces/IProductConsiderationsExpandedElement.md).[timestamp](../interfaces/IProductConsiderationsExpandedElement.md#timestamp)
+[`IProductConsiderationsExpandedElement`](../interfaces/IProductConsiderationsExpandedElement.md).[`timestamp`](../interfaces/IProductConsiderationsExpandedElement.md#timestamp)
 
-#### Defined in
+#### Source
 
-main.ts:35366
+main.ts:35372
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the carousel item
 
 #### Implementation of
 
-[IProductConsiderationsExpandedElement](../interfaces/IProductConsiderationsExpandedElement.md).[title](../interfaces/IProductConsiderationsExpandedElement.md#title)
+[`IProductConsiderationsExpandedElement`](../interfaces/IProductConsiderationsExpandedElement.md).[`title`](../interfaces/IProductConsiderationsExpandedElement.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:35351
+main.ts:35357
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IProductConsiderationsExpandedElement](../interfaces/IProductConsiderationsExpandedElement.md).[type](../interfaces/IProductConsiderationsExpandedElement.md#type)
+[`IProductConsiderationsExpandedElement`](../interfaces/IProductConsiderationsExpandedElement.md).[`type`](../interfaces/IProductConsiderationsExpandedElement.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:35349
+main.ts:35355
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL of element
 
 #### Implementation of
 
-[IProductConsiderationsExpandedElement](../interfaces/IProductConsiderationsExpandedElement.md).[url](../interfaces/IProductConsiderationsExpandedElement.md#url)
+[`IProductConsiderationsExpandedElement`](../interfaces/IProductConsiderationsExpandedElement.md).[`url`](../interfaces/IProductConsiderationsExpandedElement.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:35361
+main.ts:35367
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:35385
+main.ts:35391
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:35415
+main.ts:35421
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ProductConsiderationsExpandedElement`](ProductConsiderationsExpandedElement.md)
+> **`static`** **fromJS**(`data`): [`ProductConsiderationsExpandedElement`](ProductConsiderationsExpandedElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ProductConsiderationsExpandedElement`](ProductConsiderationsExpandedElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:35408
+main.ts:35414

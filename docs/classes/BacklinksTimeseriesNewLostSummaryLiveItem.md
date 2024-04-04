@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksTimeseriesNewLostSummaryLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BacklinksTimeseriesNewLostSummaryLiveItem
 
 # Class: BacklinksTimeseriesNewLostSummaryLiveItem
 
@@ -8,56 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BacklinksTimeseriesNewLostSummaryLiveItem.md#constructor)
-
-### Properties
-
-- [date](BacklinksTimeseriesNewLostSummaryLiveItem.md#date)
-- [lost\_backlinks](BacklinksTimeseriesNewLostSummaryLiveItem.md#lost_backlinks)
-- [lost\_referring\_domains](BacklinksTimeseriesNewLostSummaryLiveItem.md#lost_referring_domains)
-- [lost\_referring\_main\_domains](BacklinksTimeseriesNewLostSummaryLiveItem.md#lost_referring_main_domains)
-- [new\_backlinks](BacklinksTimeseriesNewLostSummaryLiveItem.md#new_backlinks)
-- [new\_referring\_domains](BacklinksTimeseriesNewLostSummaryLiveItem.md#new_referring_domains)
-- [new\_referring\_main\_domains](BacklinksTimeseriesNewLostSummaryLiveItem.md#new_referring_main_domains)
-- [type](BacklinksTimeseriesNewLostSummaryLiveItem.md#type)
-
-### Methods
-
-- [init](BacklinksTimeseriesNewLostSummaryLiveItem.md#init)
-- [toJSON](BacklinksTimeseriesNewLostSummaryLiveItem.md#tojson)
-- [fromJS](BacklinksTimeseriesNewLostSummaryLiveItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BacklinksTimeseriesNewLostSummaryLiveItem(data)
 
-• **new BacklinksTimeseriesNewLostSummaryLiveItem**(`data?`): [`BacklinksTimeseriesNewLostSummaryLiveItem`](BacklinksTimeseriesNewLostSummaryLiveItem.md)
+> **new BacklinksTimeseriesNewLostSummaryLiveItem**(`data`?): [`BacklinksTimeseriesNewLostSummaryLiveItem`](BacklinksTimeseriesNewLostSummaryLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBacklinksTimeseriesNewLostSummaryLiveItem`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveItem.md) |
+• **data?**: [`IBacklinksTimeseriesNewLostSummaryLiveItem`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveItem.md)
 
 #### Returns
 
 [`BacklinksTimeseriesNewLostSummaryLiveItem`](BacklinksTimeseriesNewLostSummaryLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:144433
+main.ts:144441
 
 ## Properties
 
-### date
+### date?
 
-• `Optional` **date**: `string`
+> **`optional`** **date**: `string`
 
 date and time when the data for the target was stored
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -66,186 +45,180 @@ example:
 
 #### Implementation of
 
-[IBacklinksTimeseriesNewLostSummaryLiveItem](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveItem.md).[date](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveItem.md#date)
+[`IBacklinksTimeseriesNewLostSummaryLiveItem`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveItem.md).[`date`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveItem.md#date)
 
-#### Defined in
+#### Source
 
-main.ts:144411
+main.ts:144419
 
-___
+***
 
-### lost\_backlinks
+### lost\_backlinks?
 
-• `Optional` **lost\_backlinks**: `number`
+> **`optional`** **lost\_backlinks**: `number`
 
 number of lost backlinks
 number of lost backlinks of the target
 
 #### Implementation of
 
-[IBacklinksTimeseriesNewLostSummaryLiveItem](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveItem.md).[lost_backlinks](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveItem.md#lost_backlinks)
+[`IBacklinksTimeseriesNewLostSummaryLiveItem`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveItem.md).[`lost_backlinks`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveItem.md#lost_backlinks)
 
-#### Defined in
+#### Source
 
-main.ts:144417
+main.ts:144425
 
-___
+***
 
-### lost\_referring\_domains
+### lost\_referring\_domains?
 
-• `Optional` **lost\_referring\_domains**: `number`
+> **`optional`** **lost\_referring\_domains**: `number`
 
 number of lost referring domains
 number of lost referring domains of the target
 
 #### Implementation of
 
-[IBacklinksTimeseriesNewLostSummaryLiveItem](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveItem.md).[lost_referring_domains](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveItem.md#lost_referring_domains)
+[`IBacklinksTimeseriesNewLostSummaryLiveItem`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveItem.md).[`lost_referring_domains`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveItem.md#lost_referring_domains)
 
-#### Defined in
+#### Source
 
-main.ts:144423
+main.ts:144431
 
-___
+***
 
-### lost\_referring\_main\_domains
+### lost\_referring\_main\_domains?
 
-• `Optional` **lost\_referring\_main\_domains**: `number`
+> **`optional`** **lost\_referring\_main\_domains**: `number`
 
 number of lost referring main domains
 number of lost referring main domains of the target
 
 #### Implementation of
 
-[IBacklinksTimeseriesNewLostSummaryLiveItem](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveItem.md).[lost_referring_main_domains](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveItem.md#lost_referring_main_domains)
+[`IBacklinksTimeseriesNewLostSummaryLiveItem`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveItem.md).[`lost_referring_main_domains`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveItem.md#lost_referring_main_domains)
 
-#### Defined in
+#### Source
 
-main.ts:144429
+main.ts:144437
 
-___
+***
 
-### new\_backlinks
+### new\_backlinks?
 
-• `Optional` **new\_backlinks**: `number`
+> **`optional`** **new\_backlinks**: `number`
 
 number of new backlinks
 number of new backlinks pointing to the target
 
 #### Implementation of
 
-[IBacklinksTimeseriesNewLostSummaryLiveItem](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveItem.md).[new_backlinks](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveItem.md#new_backlinks)
+[`IBacklinksTimeseriesNewLostSummaryLiveItem`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveItem.md).[`new_backlinks`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveItem.md#new_backlinks)
 
-#### Defined in
+#### Source
 
-main.ts:144414
+main.ts:144422
 
-___
+***
 
-### new\_referring\_domains
+### new\_referring\_domains?
 
-• `Optional` **new\_referring\_domains**: `number`
+> **`optional`** **new\_referring\_domains**: `number`
 
 number of new referring domains
 number of new referring domains pointing to the target
 
 #### Implementation of
 
-[IBacklinksTimeseriesNewLostSummaryLiveItem](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveItem.md).[new_referring_domains](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveItem.md#new_referring_domains)
+[`IBacklinksTimeseriesNewLostSummaryLiveItem`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveItem.md).[`new_referring_domains`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveItem.md#new_referring_domains)
 
-#### Defined in
+#### Source
 
-main.ts:144420
+main.ts:144428
 
-___
+***
 
-### new\_referring\_main\_domains
+### new\_referring\_main\_domains?
 
-• `Optional` **new\_referring\_main\_domains**: `number`
+> **`optional`** **new\_referring\_main\_domains**: `number`
 
 number of new referring main domains
 number of new referring main domains pointing to the target
 
 #### Implementation of
 
-[IBacklinksTimeseriesNewLostSummaryLiveItem](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveItem.md).[new_referring_main_domains](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveItem.md#new_referring_main_domains)
+[`IBacklinksTimeseriesNewLostSummaryLiveItem`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveItem.md).[`new_referring_main_domains`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveItem.md#new_referring_main_domains)
 
-#### Defined in
+#### Source
 
-main.ts:144426
+main.ts:144434
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IBacklinksTimeseriesNewLostSummaryLiveItem](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveItem.md).[type](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveItem.md#type)
+[`IBacklinksTimeseriesNewLostSummaryLiveItem`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveItem.md).[`type`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveItem.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:144406
+main.ts:144414
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:144442
+main.ts:144450
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:144466
+main.ts:144474
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BacklinksTimeseriesNewLostSummaryLiveItem`](BacklinksTimeseriesNewLostSummaryLiveItem.md)
+> **`static`** **fromJS**(`data`): [`BacklinksTimeseriesNewLostSummaryLiveItem`](BacklinksTimeseriesNewLostSummaryLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BacklinksTimeseriesNewLostSummaryLiveItem`](BacklinksTimeseriesNewLostSummaryLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:144459
+main.ts:144467

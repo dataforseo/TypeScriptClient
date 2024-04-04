@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksBulkBacklinksLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BacklinksBulkBacklinksLiveResultInfo
 
 # Class: BacklinksBulkBacklinksLiveResultInfo
 
@@ -8,133 +12,108 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BacklinksBulkBacklinksLiveResultInfo.md#constructor)
-
-### Properties
-
-- [items](BacklinksBulkBacklinksLiveResultInfo.md#items)
-- [items\_count](BacklinksBulkBacklinksLiveResultInfo.md#items_count)
-
-### Methods
-
-- [init](BacklinksBulkBacklinksLiveResultInfo.md#init)
-- [toJSON](BacklinksBulkBacklinksLiveResultInfo.md#tojson)
-- [fromJS](BacklinksBulkBacklinksLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BacklinksBulkBacklinksLiveResultInfo(data)
 
-• **new BacklinksBulkBacklinksLiveResultInfo**(`data?`): [`BacklinksBulkBacklinksLiveResultInfo`](BacklinksBulkBacklinksLiveResultInfo.md)
+> **new BacklinksBulkBacklinksLiveResultInfo**(`data`?): [`BacklinksBulkBacklinksLiveResultInfo`](BacklinksBulkBacklinksLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBacklinksBulkBacklinksLiveResultInfo`](../interfaces/IBacklinksBulkBacklinksLiveResultInfo.md) |
+• **data?**: [`IBacklinksBulkBacklinksLiveResultInfo`](../interfaces/IBacklinksBulkBacklinksLiveResultInfo.md)
 
 #### Returns
 
 [`BacklinksBulkBacklinksLiveResultInfo`](BacklinksBulkBacklinksLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:145234
+main.ts:145242
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`BacklinksBulkBacklinksLiveItem`](BacklinksBulkBacklinksLiveItem.md)[]
+> **`optional`** **items**: [`BacklinksBulkBacklinksLiveItem`](BacklinksBulkBacklinksLiveItem.md)[]
 
 contains relevant backlink data
 
 #### Implementation of
 
-[IBacklinksBulkBacklinksLiveResultInfo](../interfaces/IBacklinksBulkBacklinksLiveResultInfo.md).[items](../interfaces/IBacklinksBulkBacklinksLiveResultInfo.md#items)
+[`IBacklinksBulkBacklinksLiveResultInfo`](../interfaces/IBacklinksBulkBacklinksLiveResultInfo.md).[`items`](../interfaces/IBacklinksBulkBacklinksLiveResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:145230
+main.ts:145238
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[IBacklinksBulkBacklinksLiveResultInfo](../interfaces/IBacklinksBulkBacklinksLiveResultInfo.md).[items_count](../interfaces/IBacklinksBulkBacklinksLiveResultInfo.md#items_count)
+[`IBacklinksBulkBacklinksLiveResultInfo`](../interfaces/IBacklinksBulkBacklinksLiveResultInfo.md).[`items_count`](../interfaces/IBacklinksBulkBacklinksLiveResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:145228
+main.ts:145236
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:145243
+main.ts:145251
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:145265
+main.ts:145273
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BacklinksBulkBacklinksLiveResultInfo`](BacklinksBulkBacklinksLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`BacklinksBulkBacklinksLiveResultInfo`](BacklinksBulkBacklinksLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BacklinksBulkBacklinksLiveResultInfo`](BacklinksBulkBacklinksLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:145258
+main.ts:145266

@@ -1,60 +1,51 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixSellersGoogleMerchantPriceData
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppendixSellersGoogleMerchantPriceData
 
 # Interface: IAppendixSellersGoogleMerchantPriceData
 
-## Implemented by
-
-- [`AppendixSellersGoogleMerchantPriceData`](../classes/AppendixSellersGoogleMerchantPriceData.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [ad\_url](IAppendixSellersGoogleMerchantPriceData.md#ad_url)
-- [task\_get](IAppendixSellersGoogleMerchantPriceData.md#task_get)
-- [task\_post](IAppendixSellersGoogleMerchantPriceData.md#task_post)
-- [tasks\_ready](IAppendixSellersGoogleMerchantPriceData.md#tasks_ready)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### ad\_url
+### ad\_url?
 
-• `Optional` **ad\_url**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **ad\_url**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:215947
 
-___
+***
 
-### task\_get
+### task\_get?
 
-• `Optional` **task\_get**: [`AppendixTaskGetProductGoogleMerchantPriceDataInfo`](../classes/AppendixTaskGetProductGoogleMerchantPriceDataInfo.md)
+> **`optional`** **task\_get**: [`AppendixTaskGetProductGoogleMerchantPriceDataInfo`](../classes/AppendixTaskGetProductGoogleMerchantPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:215948
 
-___
+***
 
-### task\_post
+### task\_post?
 
-• `Optional` **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:215949
 
-___
+***
 
-### tasks\_ready
+### tasks\_ready?
 
-• `Optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:215950

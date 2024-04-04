@@ -1,70 +1,61 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentAnalysisSearchLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IContentAnalysisSearchLiveResultInfo
 
 # Interface: IContentAnalysisSearchLiveResultInfo
 
-## Implemented by
-
-- [`ContentAnalysisSearchLiveResultInfo`](../classes/ContentAnalysisSearchLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IContentAnalysisSearchLiveResultInfo.md#items)
-- [items\_count](IContentAnalysisSearchLiveResultInfo.md#items_count)
-- [offset\_token](IContentAnalysisSearchLiveResultInfo.md#offset_token)
-- [total\_count](IContentAnalysisSearchLiveResultInfo.md#total_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`ContentAnalysisSearchLiveItem`](../classes/ContentAnalysisSearchLiveItem.md)[]
+> **`optional`** **items**: [`ContentAnalysisSearchLiveItem`](../classes/ContentAnalysisSearchLiveItem.md)[]
 
 contains citations and related data
 
-#### Defined in
+#### Source
 
-main.ts:162347
+main.ts:162355
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Defined in
+#### Source
 
-main.ts:162345
+main.ts:162353
 
-___
+***
 
-### offset\_token
+### offset\_token?
 
-• `Optional` **offset\_token**: `string`
+> **`optional`** **offset\_token**: `string`
 
 offset token for subsequent requests
 you can use the string provided in this field to get the subsequent results of the initial task;
 note: offset_token values are unique for each subsequent task
 
-#### Defined in
+#### Source
 
-main.ts:162341
+main.ts:162349
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
-#### Defined in
+#### Source
 
-main.ts:162343
+main.ts:162351

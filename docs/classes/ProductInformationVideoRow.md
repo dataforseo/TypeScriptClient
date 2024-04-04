@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ProductInformationVideoRow
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ProductInformationVideoRow
 
 # Class: ProductInformationVideoRow
 
-## Hierarchy
+## Extends
 
 - [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md)
-
-  ↳ **`ProductInformationVideoRow`**
 
 ## Implements
 
@@ -14,37 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ProductInformationVideoRow.md#constructor)
-
-### Properties
-
-- [\_discriminator](ProductInformationVideoRow.md#_discriminator)
-- [preview](ProductInformationVideoRow.md#preview)
-- [url](ProductInformationVideoRow.md#url)
-
-### Methods
-
-- [init](ProductInformationVideoRow.md#init)
-- [toJSON](ProductInformationVideoRow.md#tojson)
-- [fromJS](ProductInformationVideoRow.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ProductInformationVideoRow(data)
 
-• **new ProductInformationVideoRow**(`data?`): [`ProductInformationVideoRow`](ProductInformationVideoRow.md)
+> **new ProductInformationVideoRow**(`data`?): [`ProductInformationVideoRow`](ProductInformationVideoRow.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IProductInformationVideoRow`](../interfaces/IProductInformationVideoRow.md) |
+• **data?**: [`IProductInformationVideoRow`](../interfaces/IProductInformationVideoRow.md)
 
 #### Returns
 
@@ -52,9 +34,9 @@
 
 #### Overrides
 
-[BaseProductInformationRowItem](BaseProductInformationRowItem.md).[constructor](BaseProductInformationRowItem.md#constructor)
+[`BaseProductInformationRowItem`](BaseProductInformationRowItem.md).[`constructor`](BaseProductInformationRowItem.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:178692
 
@@ -62,59 +44,57 @@ main.ts:178692
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseProductInformationRowItem](BaseProductInformationRowItem.md).[_discriminator](BaseProductInformationRowItem.md#_discriminator)
+[`BaseProductInformationRowItem`](BaseProductInformationRowItem.md).[`_discriminator`](BaseProductInformationRowItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:22297
 
-___
+***
 
-### preview
+### preview?
 
-• `Optional` **preview**: `string`
+> **`optional`** **preview**: `string`
 
 URL of the preview image for the related video
 
 #### Implementation of
 
-[IProductInformationVideoRow](../interfaces/IProductInformationVideoRow.md).[preview](../interfaces/IProductInformationVideoRow.md#preview)
+[`IProductInformationVideoRow`](../interfaces/IProductInformationVideoRow.md).[`preview`](../interfaces/IProductInformationVideoRow.md#preview)
 
-#### Defined in
+#### Source
 
 main.ts:178686
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL of the image
 
 #### Implementation of
 
-[IProductInformationVideoRow](../interfaces/IProductInformationVideoRow.md).[url](../interfaces/IProductInformationVideoRow.md#url)
+[`IProductInformationVideoRow`](../interfaces/IProductInformationVideoRow.md).[`url`](../interfaces/IProductInformationVideoRow.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:178688
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -122,23 +102,21 @@ main.ts:178688
 
 #### Overrides
 
-[BaseProductInformationRowItem](BaseProductInformationRowItem.md).[init](BaseProductInformationRowItem.md#init)
+[`BaseProductInformationRowItem`](BaseProductInformationRowItem.md).[`init`](BaseProductInformationRowItem.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:178697
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -146,23 +124,21 @@ ___
 
 #### Overrides
 
-[BaseProductInformationRowItem](BaseProductInformationRowItem.md).[toJSON](BaseProductInformationRowItem.md#tojson)
+[`BaseProductInformationRowItem`](BaseProductInformationRowItem.md).[`toJSON`](BaseProductInformationRowItem.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:178716
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ProductInformationVideoRow`](ProductInformationVideoRow.md)
+> **`static`** **fromJS**(`data`): [`ProductInformationVideoRow`](ProductInformationVideoRow.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -170,8 +146,8 @@ ___
 
 #### Overrides
 
-[BaseProductInformationRowItem](BaseProductInformationRowItem.md).[fromJS](BaseProductInformationRowItem.md#fromjs)
+[`BaseProductInformationRowItem`](BaseProductInformationRowItem.md).[`fromJS`](BaseProductInformationRowItem.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:178709

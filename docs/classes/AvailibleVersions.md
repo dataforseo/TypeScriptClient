@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AvailibleVersions
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AvailibleVersions
 
 # Class: AvailibleVersions
 
@@ -8,134 +12,109 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AvailibleVersions.md#constructor)
-
-### Properties
-
-- [default](AvailibleVersions.md#default)
-- [version](AvailibleVersions.md#version)
-
-### Methods
-
-- [init](AvailibleVersions.md#init)
-- [toJSON](AvailibleVersions.md#tojson)
-- [fromJS](AvailibleVersions.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AvailibleVersions(data)
 
-• **new AvailibleVersions**(`data?`): [`AvailibleVersions`](AvailibleVersions.md)
+> **new AvailibleVersions**(`data`?): [`AvailibleVersions`](AvailibleVersions.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAvailibleVersions`](../interfaces/IAvailibleVersions.md) |
+• **data?**: [`IAvailibleVersions`](../interfaces/IAvailibleVersions.md)
 
 #### Returns
 
 [`AvailibleVersions`](AvailibleVersions.md)
 
-#### Defined in
+#### Source
 
-main.ts:159283
+main.ts:159291
 
 ## Properties
 
-### default
+### default?
 
-• `Optional` **default**: `boolean`
+> **`optional`** **default**: `boolean`
 
 the version is used by default
 if false, the version is not used by default and should be specified in the corresponding field of the POST request if necessary
 
 #### Implementation of
 
-[IAvailibleVersions](../interfaces/IAvailibleVersions.md).[default](../interfaces/IAvailibleVersions.md#default)
+[`IAvailibleVersions`](../interfaces/IAvailibleVersions.md).[`default`](../interfaces/IAvailibleVersions.md#default)
 
-#### Defined in
+#### Source
 
-main.ts:159279
+main.ts:159287
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 lighthouse version
 
 #### Implementation of
 
-[IAvailibleVersions](../interfaces/IAvailibleVersions.md).[version](../interfaces/IAvailibleVersions.md#version)
+[`IAvailibleVersions`](../interfaces/IAvailibleVersions.md).[`version`](../interfaces/IAvailibleVersions.md#version)
 
-#### Defined in
+#### Source
 
-main.ts:159276
+main.ts:159284
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:159292
+main.ts:159300
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:159310
+main.ts:159318
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AvailibleVersions`](AvailibleVersions.md)
+> **`static`** **fromJS**(`data`): [`AvailibleVersions`](AvailibleVersions.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AvailibleVersions`](AvailibleVersions.md)
 
-#### Defined in
+#### Source
 
-main.ts:159303
+main.ts:159311

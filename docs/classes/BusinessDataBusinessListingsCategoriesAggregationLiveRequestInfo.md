@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo
 
 # Class: BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo
 
@@ -8,58 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [categories](BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#categories)
-- [description](BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#description)
-- [initial\_dataset\_filters](BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#initial_dataset_filters)
-- [internal\_list\_limit](BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#internal_list_limit)
-- [is\_claimed](BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#is_claimed)
-- [limit](BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#limit)
-- [location\_coordinate](BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#location_coordinate)
-- [offset](BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#offset)
-- [tag](BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#tag)
-- [title](BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#title)
-
-### Methods
-
-- [init](BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#init)
-- [toJSON](BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#tojson)
-- [fromJS](BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo(data)
 
-• **new BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo**(`data?`): [`BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md)
+> **new BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo**(`data`?): [`BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md) |
+• **data?**: [`IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md)
 
 #### Returns
 
 [`BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:195077
 
 ## Properties
 
-### categories
+### categories?
 
-• `Optional` **categories**: `string`[]
+> **`optional`** **categories**: `string`[]
 
 business categories
 optional field
@@ -69,17 +46,17 @@ you can specify up to 10 categories
 
 #### Implementation of
 
-[IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md).[categories](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#categories)
+[`IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md).[`categories`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#categories)
 
-#### Defined in
+#### Source
 
 main.ts:195021
 
-___
+***
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description of the element in SERP
 optional field
@@ -88,42 +65,42 @@ can contain up to 200 symbols
 
 #### Implementation of
 
-[IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md).[description](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#description)
+[`IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md).[`description`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#description)
 
-#### Defined in
+#### Source
 
 main.ts:195026
 
-___
+***
 
-### initial\_dataset\_filters
+### initial\_dataset\_filters?
 
-• `Optional` **initial\_dataset\_filters**: `any`[]
+> **`optional`** **initial\_dataset\_filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, <=, >, >=, =, <>, in, not_in, like, not_like
+regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
-["rating.value",">",3]
+["rating.value",">`",3]
 you can receive the list of available filters by making a separate request to https://api.dataforseo.com/v3/business_data/business_listings/available_filters
 
 #### Implementation of
 
-[IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md).[initial_dataset_filters](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#initial_dataset_filters)
+[`IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md).[`initial_dataset_filters`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#initial_dataset_filters)
 
-#### Defined in
+#### Source
 
 main.ts:195054
 
-___
+***
 
-### internal\_list\_limit
+### internal\_list\_limit?
 
-• `Optional` **internal\_list\_limit**: `number`
+> **`optional`** **internal\_list\_limit**: `number`
 
 maximum number of elements within internal arrays
 optional field
@@ -132,34 +109,34 @@ default value: 10
 
 #### Implementation of
 
-[IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md).[internal_list_limit](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#internal_list_limit)
+[`IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md).[`internal_list_limit`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#internal_list_limit)
 
-#### Defined in
+#### Source
 
 main.ts:195059
 
-___
+***
 
-### is\_claimed
+### is\_claimed?
 
-• `Optional` **is\_claimed**: `boolean`
+> **`optional`** **is\_claimed**: `boolean`
 
 indicates whether the business is verified by its owner on Google Maps
 optional field
 
 #### Implementation of
 
-[IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md).[is_claimed](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#is_claimed)
+[`IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md).[`is_claimed`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#is_claimed)
 
-#### Defined in
+#### Source
 
 main.ts:195034
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned businesses
 optional field
@@ -168,17 +145,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md).[limit](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#limit)
+[`IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md).[`limit`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#limit)
 
-#### Defined in
+#### Source
 
 main.ts:195064
 
-___
+***
 
-### location\_coordinate
+### location\_coordinate?
 
-• `Optional` **location\_coordinate**: `string`
+> **`optional`** **location\_coordinate**: `string`
 
 GPS coordinates of a location
 optional field
@@ -191,34 +168,34 @@ example:
 
 #### Implementation of
 
-[IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md).[location_coordinate](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#location_coordinate)
+[`IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md).[`location_coordinate`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#location_coordinate)
 
-#### Defined in
+#### Source
 
 main.ts:195043
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 the maximum number of returned businesses
 optional field
 
 #### Implementation of
 
-[IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md).[offset](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#offset)
+[`IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md).[`offset`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#offset)
 
-#### Defined in
+#### Source
 
 main.ts:195067
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -228,17 +205,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md).[tag](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#tag)
+[`IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md).[`tag`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
 main.ts:195073
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the element in SERP
 optional field
@@ -247,68 +224,62 @@ can contain up to 200 symbols
 
 #### Implementation of
 
-[IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md).[title](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#title)
+[`IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md).[`title`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:195031
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:195086
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:195120
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:195113

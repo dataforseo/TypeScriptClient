@@ -1,122 +1,108 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMapsPaidItemSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IMapsPaidItemSerpElementItem
 
 # Interface: IMapsPaidItemSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
 
-  ↳ **`IMapsPaidItemSerpElementItem`**
-
-## Implemented by
-
-- [`MapsPaidItemSerpElementItem`](../classes/MapsPaidItemSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [domain](IMapsPaidItemSerpElementItem.md#domain)
-- [rank\_absolute](IMapsPaidItemSerpElementItem.md#rank_absolute)
-- [rank\_group](IMapsPaidItemSerpElementItem.md#rank_group)
-- [rating](IMapsPaidItemSerpElementItem.md#rating)
-- [rating\_distribution](IMapsPaidItemSerpElementItem.md#rating_distribution)
-- [title](IMapsPaidItemSerpElementItem.md#title)
-- [url](IMapsPaidItemSerpElementItem.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain in the SERP element
 
-#### Defined in
+#### Source
 
-main.ts:39550
+main.ts:39556
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Defined in
+#### Source
 
-main.ts:39548
+main.ts:39554
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
-main.ts:39545
+main.ts:39551
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
 the element’s rating 
 the popularity rate based on reviews and displayed in SERP
 
-#### Defined in
+#### Source
 
-main.ts:39557
+main.ts:39563
 
-___
+***
 
-### rating\_distribution
+### rating\_distribution?
 
-• `Optional` **rating\_distribution**: `Object`
+> **`optional`** **rating\_distribution**: `Object`
 
 the distribution of ratings of the business entity
 the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
-#### Defined in
+#### Source
 
-main.ts:39560
+main.ts:39566
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the result in SERP
 
-#### Defined in
+#### Source
 
-main.ts:39552
+main.ts:39558
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 relevant URL in SERP
 
-#### Defined in
+#### Source
 
-main.ts:39554
+main.ts:39560

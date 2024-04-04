@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleAutocompleteTaskGetAdvancedResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleAutocompleteTaskGetAdvancedResultInfo
 
 # Class: SerpGoogleAutocompleteTaskGetAdvancedResultInfo
 
@@ -8,77 +12,48 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleAutocompleteTaskGetAdvancedResultInfo.md#constructor)
-
-### Properties
-
-- [check\_url](SerpGoogleAutocompleteTaskGetAdvancedResultInfo.md#check_url)
-- [datetime](SerpGoogleAutocompleteTaskGetAdvancedResultInfo.md#datetime)
-- [item\_types](SerpGoogleAutocompleteTaskGetAdvancedResultInfo.md#item_types)
-- [items](SerpGoogleAutocompleteTaskGetAdvancedResultInfo.md#items)
-- [items\_count](SerpGoogleAutocompleteTaskGetAdvancedResultInfo.md#items_count)
-- [keyword](SerpGoogleAutocompleteTaskGetAdvancedResultInfo.md#keyword)
-- [language\_code](SerpGoogleAutocompleteTaskGetAdvancedResultInfo.md#language_code)
-- [location\_code](SerpGoogleAutocompleteTaskGetAdvancedResultInfo.md#location_code)
-- [se\_domain](SerpGoogleAutocompleteTaskGetAdvancedResultInfo.md#se_domain)
-- [se\_results\_count](SerpGoogleAutocompleteTaskGetAdvancedResultInfo.md#se_results_count)
-- [spell](SerpGoogleAutocompleteTaskGetAdvancedResultInfo.md#spell)
-- [type](SerpGoogleAutocompleteTaskGetAdvancedResultInfo.md#type)
-
-### Methods
-
-- [init](SerpGoogleAutocompleteTaskGetAdvancedResultInfo.md#init)
-- [toJSON](SerpGoogleAutocompleteTaskGetAdvancedResultInfo.md#tojson)
-- [fromJS](SerpGoogleAutocompleteTaskGetAdvancedResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleAutocompleteTaskGetAdvancedResultInfo(data)
 
-• **new SerpGoogleAutocompleteTaskGetAdvancedResultInfo**(`data?`): [`SerpGoogleAutocompleteTaskGetAdvancedResultInfo`](SerpGoogleAutocompleteTaskGetAdvancedResultInfo.md)
+> **new SerpGoogleAutocompleteTaskGetAdvancedResultInfo**(`data`?): [`SerpGoogleAutocompleteTaskGetAdvancedResultInfo`](SerpGoogleAutocompleteTaskGetAdvancedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleAutocompleteTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md) |
+• **data?**: [`ISerpGoogleAutocompleteTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
 [`SerpGoogleAutocompleteTaskGetAdvancedResultInfo`](SerpGoogleAutocompleteTaskGetAdvancedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:51448
+main.ts:51456
 
 ## Properties
 
-### check\_url
+### check\_url?
 
-• `Optional` **check\_url**: `string`
+> **`optional`** **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
 
 #### Implementation of
 
-[ISerpGoogleAutocompleteTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md).[check_url](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md#check_url)
+[`ISerpGoogleAutocompleteTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md).[`check_url`](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md#check_url)
 
-#### Defined in
+#### Source
 
-main.ts:51425
+main.ts:51433
 
-___
+***
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -87,17 +62,17 @@ example:
 
 #### Implementation of
 
-[ISerpGoogleAutocompleteTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md).[datetime](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md#datetime)
+[`ISerpGoogleAutocompleteTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md).[`datetime`](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
-main.ts:51430
+main.ts:51438
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -106,214 +81,208 @@ autocomplete
 
 #### Implementation of
 
-[ISerpGoogleAutocompleteTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md).[item_types](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md#item_types)
+[`ISerpGoogleAutocompleteTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md).[`item_types`](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md#item_types)
 
-#### Defined in
+#### Source
 
-main.ts:51438
+main.ts:51446
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
+> **`optional`** **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
 elements of search results found in SERP
 
 #### Implementation of
 
-[ISerpGoogleAutocompleteTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md).[items](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md#items)
+[`ISerpGoogleAutocompleteTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md).[`items`](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:51444
+main.ts:51452
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[ISerpGoogleAutocompleteTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md).[items_count](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md#items_count)
+[`ISerpGoogleAutocompleteTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md).[`items_count`](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:51442
+main.ts:51450
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword received in a POST array
 the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
-[ISerpGoogleAutocompleteTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md).[keyword](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md#keyword)
+[`ISerpGoogleAutocompleteTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md).[`keyword`](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:51414
+main.ts:51422
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[ISerpGoogleAutocompleteTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md).[language_code](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md#language_code)
+[`ISerpGoogleAutocompleteTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md).[`language_code`](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:51422
+main.ts:51430
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[ISerpGoogleAutocompleteTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md).[location_code](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md#location_code)
+[`ISerpGoogleAutocompleteTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md).[`location_code`](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:51420
+main.ts:51428
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
 #### Implementation of
 
-[ISerpGoogleAutocompleteTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md).[se_domain](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md#se_domain)
+[`ISerpGoogleAutocompleteTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md).[`se_domain`](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md#se_domain)
 
-#### Defined in
+#### Source
 
-main.ts:51418
+main.ts:51426
 
-___
+***
 
-### se\_results\_count
+### se\_results\_count?
 
-• `Optional` **se\_results\_count**: `number`
+> **`optional`** **se\_results\_count**: `number`
 
 total number of results in SERP
 
 #### Implementation of
 
-[ISerpGoogleAutocompleteTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md).[se_results_count](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md#se_results_count)
+[`ISerpGoogleAutocompleteTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md).[`se_results_count`](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md#se_results_count)
 
-#### Defined in
+#### Source
 
-main.ts:51440
+main.ts:51448
 
-___
+***
 
-### spell
+### spell?
 
-• `Optional` **spell**: [`SpellInfo`](SpellInfo.md)
+> **`optional`** **spell**: [`SpellInfo`](SpellInfo.md)
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
 
 #### Implementation of
 
-[ISerpGoogleAutocompleteTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md).[spell](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md#spell)
+[`ISerpGoogleAutocompleteTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md).[`spell`](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md#spell)
 
-#### Defined in
+#### Source
 
-main.ts:51433
+main.ts:51441
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[ISerpGoogleAutocompleteTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md).[type](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md#type)
+[`ISerpGoogleAutocompleteTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md).[`type`](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedResultInfo.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:51416
+main.ts:51424
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:51457
+main.ts:51465
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:51493
+main.ts:51501
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleAutocompleteTaskGetAdvancedResultInfo`](SerpGoogleAutocompleteTaskGetAdvancedResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleAutocompleteTaskGetAdvancedResultInfo`](SerpGoogleAutocompleteTaskGetAdvancedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpGoogleAutocompleteTaskGetAdvancedResultInfo`](SerpGoogleAutocompleteTaskGetAdvancedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:51486
+main.ts:51494

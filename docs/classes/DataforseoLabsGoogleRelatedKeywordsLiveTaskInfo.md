@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleRelatedKeywordsLiveTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsGoogleRelatedKeywordsLiveTaskInfo
 
 # Class: DataforseoLabsGoogleRelatedKeywordsLiveTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`DataforseoLabsGoogleRelatedKeywordsLiveTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](DataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md#cost)
-- [data](DataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md#data)
-- [id](DataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md#id)
-- [path](DataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md#path)
-- [result](DataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md#result)
-- [result\_count](DataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md#result_count)
-- [status\_code](DataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md#status_code)
-- [status\_message](DataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md#status_message)
-- [time](DataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md#time)
-
-### Methods
-
-- [init](DataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md#init)
-- [toJSON](DataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md#tojson)
-- [fromJS](DataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsGoogleRelatedKeywordsLiveTaskInfo(data)
 
-• **new DataforseoLabsGoogleRelatedKeywordsLiveTaskInfo**(`data?`): [`DataforseoLabsGoogleRelatedKeywordsLiveTaskInfo`](DataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md)
+> **new DataforseoLabsGoogleRelatedKeywordsLiveTaskInfo**(`data`?): [`DataforseoLabsGoogleRelatedKeywordsLiveTaskInfo`](DataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md) |
+• **data?**: [`IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:82877
+main.ts:82885
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md).[cost](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md#cost)
+[`IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md).[`cost`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md).[data](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md#data)
+[`IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md).[`data`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md).[id](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md#id)
+[`IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md).[`id`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md).[path](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md#path)
+[`IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md).[`path`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`DataforseoLabsGoogleRelatedKeywordsLiveResultInfo`](DataforseoLabsGoogleRelatedKeywordsLiveResultInfo.md)[]
+> **`optional`** **result**: [`DataforseoLabsGoogleRelatedKeywordsLiveResultInfo`](DataforseoLabsGoogleRelatedKeywordsLiveResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md).[result](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md#result)
+[`IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md).[`result`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:82873
+main.ts:82881
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md).[result_count](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md#result_count)
+[`IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md).[`result_count`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md).[status_code](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md#status_code)
+[`IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md).[`status_code`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md).[status_message](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md#status_message)
+[`IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md).[`status_message`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md).[time](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md#time)
+[`IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md).[`time`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:82881
+main.ts:82889
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:82903
+main.ts:82911
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsGoogleRelatedKeywordsLiveTaskInfo`](DataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleRelatedKeywordsLiveTaskInfo`](DataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:82896
+main.ts:82904

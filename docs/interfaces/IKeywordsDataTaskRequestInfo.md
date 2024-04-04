@@ -1,45 +1,24 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataTaskRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IKeywordsDataTaskRequestInfo
 
 # Interface: IKeywordsDataTaskRequestInfo
 
-## Hierarchy
+## Extended by
 
-- **`IKeywordsDataTaskRequestInfo`**
-
-  ↳ [`IKeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo`](IKeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo.md)
-
-## Implemented by
-
-- [`KeywordsDataTaskRequestInfo`](../classes/KeywordsDataTaskRequestInfo.md)
+- [`IKeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo`](IKeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo.md)
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [date\_from](IKeywordsDataTaskRequestInfo.md#date_from)
-- [date\_to](IKeywordsDataTaskRequestInfo.md#date_to)
-- [include\_adult\_keywords](IKeywordsDataTaskRequestInfo.md#include_adult_keywords)
-- [keywords](IKeywordsDataTaskRequestInfo.md#keywords)
-- [language\_code](IKeywordsDataTaskRequestInfo.md#language_code)
-- [language\_name](IKeywordsDataTaskRequestInfo.md#language_name)
-- [location\_code](IKeywordsDataTaskRequestInfo.md#location_code)
-- [location\_coordinate](IKeywordsDataTaskRequestInfo.md#location_coordinate)
-- [location\_name](IKeywordsDataTaskRequestInfo.md#location_name)
-- [pingback\_url](IKeywordsDataTaskRequestInfo.md#pingback_url)
-- [postback\_url](IKeywordsDataTaskRequestInfo.md#postback_url)
-- [search\_partners](IKeywordsDataTaskRequestInfo.md#search_partners)
-- [sort\_by](IKeywordsDataTaskRequestInfo.md#sort_by)
-- [tag](IKeywordsDataTaskRequestInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -49,15 +28,15 @@ by default, data is returned for the past 12 months;
 Note: the indicated date cannot be greater than that specified in date_to and/or yesterday’s date;if Status endpoint returns false in the actual_data field, date_from can be set to the month before last and prior;
 if Status endpoint returns true in the actual_data field, date_from can be set to the last month and prior
 
-#### Defined in
+#### Source
 
-main.ts:71915
+main.ts:71923
 
-___
+***
 
-### date\_to
+### date\_to?
 
-• `Optional` **date\_to**: `string`
+> **`optional`** **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -67,15 +46,15 @@ date format: "yyyy-mm-dd"
 example:
 "2022-11-30"
 
-#### Defined in
+#### Source
 
-main.ts:71923
+main.ts:71931
 
-___
+***
 
-### include\_adult\_keywords
+### include\_adult\_keywords?
 
-• `Optional` **include\_adult\_keywords**: `boolean`
+> **`optional`** **include\_adult\_keywords**: `boolean`
 
 include keywords associated with adult content
 optional field
@@ -83,15 +62,15 @@ if set to true, adult keywords will be included in the response
 default value: false
 note that the API may return no data for such keywords due to Google Ads restrictions
 
-#### Defined in
+#### Source
 
-main.ts:71929
+main.ts:71937
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 keywords
 required field
@@ -105,15 +84,15 @@ to obtain search volume for similar keywords, we recommend submitting such keywo
 Note #3: Google Ads doesn’t allow using certain symbols and characters (e.g., UTF symbols, emojis), so you can’t use them when setting a task;
 to learn more about which symbols can be used, please refer to this article
 
-#### Defined in
+#### Source
 
-main.ts:71865
+main.ts:71873
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 optional field
@@ -121,15 +100,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:71902
+main.ts:71910
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -137,15 +116,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:71896
+main.ts:71904
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 optional field
@@ -155,15 +134,15 @@ you can receive the list of available locations of the search engines with their
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:71881
+main.ts:71889
 
-___
+***
 
-### location\_coordinate
+### location\_coordinate?
 
-• `Optional` **location\_coordinate**: `string`
+> **`optional`** **location\_coordinate**: `string`
 
 GPS coordinates of a location
 optional field
@@ -174,15 +153,15 @@ the data will be provided for the country the specified coordinates belong to;
 example:
 52.6178549,-155.352142
 
-#### Defined in
+#### Source
 
-main.ts:71890
+main.ts:71898
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 optional field
@@ -192,15 +171,15 @@ you can receive the list of available locations of the search engine with their 
 example:
 London,England,United Kingdom
 
-#### Defined in
+#### Source
 
-main.ts:71873
+main.ts:71881
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -212,15 +191,15 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special symbols in pingback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
-main.ts:71954
+main.ts:71962
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -232,45 +211,45 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special symbols in postback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
-main.ts:71944
+main.ts:71952
 
-___
+***
 
-### search\_partners
+### search\_partners?
 
-• `Optional` **search\_partners**: `boolean`
+> **`optional`** **search\_partners**: `boolean`
 
 include Google search partners
 optional field
 if you specify true, the results will be delivered for owned, operated, and syndicated networks across Google and partner sites that host Google search;
 default value: false – results are returned for Google search sites
 
-#### Defined in
+#### Source
 
-main.ts:71907
+main.ts:71915
 
-___
+***
 
-### sort\_by
+### sort\_by?
 
-• `Optional` **sort\_by**: `string`
+> **`optional`** **sort\_by**: `string`
 
 results sorting parameters
 optional field
 use these parameters to sort the results by relevance, search_volume, competition_index, low_top_of_page_bid, or high_top_of_page_bid in the descending order
 default value: relevance
 
-#### Defined in
+#### Source
 
-main.ts:71934
+main.ts:71942
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -278,6 +257,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data array of the response
 
-#### Defined in
+#### Source
 
-main.ts:71960
+main.ts:71968

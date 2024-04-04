@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataSocialMediaRedditLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataSocialMediaRedditLiveRequestInfo
 
 # Class: BusinessDataSocialMediaRedditLiveRequestInfo
 
@@ -8,50 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataSocialMediaRedditLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [tag](BusinessDataSocialMediaRedditLiveRequestInfo.md#tag)
-- [targets](BusinessDataSocialMediaRedditLiveRequestInfo.md#targets)
-
-### Methods
-
-- [init](BusinessDataSocialMediaRedditLiveRequestInfo.md#init)
-- [toJSON](BusinessDataSocialMediaRedditLiveRequestInfo.md#tojson)
-- [fromJS](BusinessDataSocialMediaRedditLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataSocialMediaRedditLiveRequestInfo(data)
 
-• **new BusinessDataSocialMediaRedditLiveRequestInfo**(`data?`): [`BusinessDataSocialMediaRedditLiveRequestInfo`](BusinessDataSocialMediaRedditLiveRequestInfo.md)
+> **new BusinessDataSocialMediaRedditLiveRequestInfo**(`data`?): [`BusinessDataSocialMediaRedditLiveRequestInfo`](BusinessDataSocialMediaRedditLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataSocialMediaRedditLiveRequestInfo`](../interfaces/IBusinessDataSocialMediaRedditLiveRequestInfo.md) |
+• **data?**: [`IBusinessDataSocialMediaRedditLiveRequestInfo`](../interfaces/IBusinessDataSocialMediaRedditLiveRequestInfo.md)
 
 #### Returns
 
 [`BusinessDataSocialMediaRedditLiveRequestInfo`](BusinessDataSocialMediaRedditLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:211618
 
 ## Properties
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -61,17 +46,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IBusinessDataSocialMediaRedditLiveRequestInfo](../interfaces/IBusinessDataSocialMediaRedditLiveRequestInfo.md).[tag](../interfaces/IBusinessDataSocialMediaRedditLiveRequestInfo.md#tag)
+[`IBusinessDataSocialMediaRedditLiveRequestInfo`](../interfaces/IBusinessDataSocialMediaRedditLiveRequestInfo.md).[`tag`](../interfaces/IBusinessDataSocialMediaRedditLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
 main.ts:211614
 
-___
+***
 
-### targets
+### targets?
 
-• `Optional` **targets**: `string`[]
+> **`optional`** **targets**: `string`[]
 
 target URLs
 required field
@@ -82,68 +67,62 @@ Note: you can specify 10 targets maximum. You will be charged per earch URL you 
 
 #### Implementation of
 
-[IBusinessDataSocialMediaRedditLiveRequestInfo](../interfaces/IBusinessDataSocialMediaRedditLiveRequestInfo.md).[targets](../interfaces/IBusinessDataSocialMediaRedditLiveRequestInfo.md#targets)
+[`IBusinessDataSocialMediaRedditLiveRequestInfo`](../interfaces/IBusinessDataSocialMediaRedditLiveRequestInfo.md).[`targets`](../interfaces/IBusinessDataSocialMediaRedditLiveRequestInfo.md#targets)
 
-#### Defined in
+#### Source
 
 main.ts:211608
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:211627
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:211649
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataSocialMediaRedditLiveRequestInfo`](BusinessDataSocialMediaRedditLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataSocialMediaRedditLiveRequestInfo`](BusinessDataSocialMediaRedditLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BusinessDataSocialMediaRedditLiveRequestInfo`](BusinessDataSocialMediaRedditLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:211642

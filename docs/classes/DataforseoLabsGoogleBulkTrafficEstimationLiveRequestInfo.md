@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo
 
 # Class: DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo
 
@@ -8,55 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [item\_types](DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md#item_types)
-- [language\_code](DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md#language_code)
-- [language\_name](DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md#language_name)
-- [location\_code](DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md#location_code)
-- [location\_name](DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md#location_name)
-- [tag](DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md#tag)
-- [targets](DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md#targets)
-
-### Methods
-
-- [init](DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md#init)
-- [toJSON](DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md#tojson)
-- [fromJS](DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo(data)
 
-• **new DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo**(`data?`): [`DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo`](DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md)
+> **new DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo`](DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md) |
+• **data?**: [`IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo`](DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:99881
+main.ts:99889
 
 ## Properties
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 display results by item type
 optional field
@@ -69,17 +49,17 @@ default value:
 
 #### Implementation of
 
-[IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md).[item_types](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md#item_types)
+[`IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md).[`item_types`](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md#item_types)
 
-#### Defined in
+#### Source
 
-main.ts:99871
+main.ts:99879
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 if you use this field, you don’t need to specify language_name
@@ -91,17 +71,17 @@ en
 
 #### Implementation of
 
-[IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md).[language_code](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md#language_code)
+[`IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:99862
+main.ts:99870
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 if you use this field, you don’t need to specify language_code
@@ -113,17 +93,17 @@ English
 
 #### Implementation of
 
-[IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md).[language_name](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md#language_name)
+[`IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:99854
+main.ts:99862
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 if you use this field, you don’t have to specify location_name
@@ -135,17 +115,17 @@ example:
 
 #### Implementation of
 
-[IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md).[location_code](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md#location_code)
+[`IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:99846
+main.ts:99854
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 if you use this field, you don’t have to specify location_code
@@ -157,17 +137,17 @@ United Kingdom
 
 #### Implementation of
 
-[IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md).[location_name](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md#location_name)
+[`IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:99838
+main.ts:99846
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -177,17 +157,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md).[tag](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md#tag)
+[`IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:99877
+main.ts:99885
 
-___
+***
 
-### targets
+### targets?
 
-• `Optional` **targets**: `string`[]
+> **`optional`** **targets**: `string`[]
 
 target domains and websites
 required field
@@ -198,68 +178,62 @@ you can set up to 1000 domains, subdomains or webpages
 
 #### Implementation of
 
-[IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md).[targets](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md#targets)
+[`IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md).[`targets`](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md#targets)
 
-#### Defined in
+#### Source
 
-main.ts:99830
+main.ts:99838
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:99890
+main.ts:99898
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:99921
+main.ts:99929
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo`](DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo`](DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo`](DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:99914
+main.ts:99922

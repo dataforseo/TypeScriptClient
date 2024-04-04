@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonRankedKeywordsLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsAmazonRankedKeywordsLiveResultInfo
 
 # Class: DataforseoLabsAmazonRankedKeywordsLiveResultInfo
 
@@ -8,220 +12,190 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsAmazonRankedKeywordsLiveResultInfo.md#constructor)
-
-### Properties
-
-- [asin](DataforseoLabsAmazonRankedKeywordsLiveResultInfo.md#asin)
-- [items](DataforseoLabsAmazonRankedKeywordsLiveResultInfo.md#items)
-- [items\_count](DataforseoLabsAmazonRankedKeywordsLiveResultInfo.md#items_count)
-- [language\_code](DataforseoLabsAmazonRankedKeywordsLiveResultInfo.md#language_code)
-- [location\_code](DataforseoLabsAmazonRankedKeywordsLiveResultInfo.md#location_code)
-- [se\_type](DataforseoLabsAmazonRankedKeywordsLiveResultInfo.md#se_type)
-- [total\_count](DataforseoLabsAmazonRankedKeywordsLiveResultInfo.md#total_count)
-
-### Methods
-
-- [init](DataforseoLabsAmazonRankedKeywordsLiveResultInfo.md#init)
-- [toJSON](DataforseoLabsAmazonRankedKeywordsLiveResultInfo.md#tojson)
-- [fromJS](DataforseoLabsAmazonRankedKeywordsLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsAmazonRankedKeywordsLiveResultInfo(data)
 
-• **new DataforseoLabsAmazonRankedKeywordsLiveResultInfo**(`data?`): [`DataforseoLabsAmazonRankedKeywordsLiveResultInfo`](DataforseoLabsAmazonRankedKeywordsLiveResultInfo.md)
+> **new DataforseoLabsAmazonRankedKeywordsLiveResultInfo**(`data`?): [`DataforseoLabsAmazonRankedKeywordsLiveResultInfo`](DataforseoLabsAmazonRankedKeywordsLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsAmazonRankedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md) |
+• **data?**: [`IDataforseoLabsAmazonRankedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsAmazonRankedKeywordsLiveResultInfo`](DataforseoLabsAmazonRankedKeywordsLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:102609
+main.ts:102617
 
 ## Properties
 
-### asin
+### asin?
 
-• `Optional` **asin**: `string`
+> **`optional`** **asin**: `string`
 
 ASIN in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRankedKeywordsLiveResultInfo](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md).[asin](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md#asin)
+[`IDataforseoLabsAmazonRankedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md).[`asin`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md#asin)
 
-#### Defined in
+#### Source
 
-main.ts:102593
+main.ts:102601
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`DataforseoLabsAmazonRankedKeywordsLiveItem`](DataforseoLabsAmazonRankedKeywordsLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsAmazonRankedKeywordsLiveItem`](DataforseoLabsAmazonRankedKeywordsLiveItem.md)[]
 
 contains detected Amazon product competitors and related data
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRankedKeywordsLiveResultInfo](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md).[items](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md#items)
+[`IDataforseoLabsAmazonRankedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:102605
+main.ts:102613
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRankedKeywordsLiveResultInfo](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md).[items_count](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md#items_count)
+[`IDataforseoLabsAmazonRankedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:102603
+main.ts:102611
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 if there is no data, then the value is null
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRankedKeywordsLiveResultInfo](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md).[language_code](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md#language_code)
+[`IDataforseoLabsAmazonRankedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:102599
+main.ts:102607
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 if there is no data, then the value is null
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRankedKeywordsLiveResultInfo](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md).[location_code](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md#location_code)
+[`IDataforseoLabsAmazonRankedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:102596
+main.ts:102604
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRankedKeywordsLiveResultInfo](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md).[se_type](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md#se_type)
+[`IDataforseoLabsAmazonRankedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:102591
+main.ts:102599
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRankedKeywordsLiveResultInfo](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md).[total_count](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md#total_count)
+[`IDataforseoLabsAmazonRankedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md#total_count)
 
-#### Defined in
+#### Source
 
-main.ts:102601
+main.ts:102609
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:102618
+main.ts:102626
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:102645
+main.ts:102653
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsAmazonRankedKeywordsLiveResultInfo`](DataforseoLabsAmazonRankedKeywordsLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsAmazonRankedKeywordsLiveResultInfo`](DataforseoLabsAmazonRankedKeywordsLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsAmazonRankedKeywordsLiveResultInfo`](DataforseoLabsAmazonRankedKeywordsLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:102638
+main.ts:102646

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ResponseDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ResponseDataInfo
 
 # Class: ResponseDataInfo
 
@@ -8,84 +12,63 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ResponseDataInfo.md#constructor)
-
-### Properties
-
-- [author](ResponseDataInfo.md#author)
-- [text](ResponseDataInfo.md#text)
-- [timestamp](ResponseDataInfo.md#timestamp)
-- [title](ResponseDataInfo.md#title)
-
-### Methods
-
-- [init](ResponseDataInfo.md#init)
-- [toJSON](ResponseDataInfo.md#tojson)
-- [fromJS](ResponseDataInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ResponseDataInfo(data)
 
-• **new ResponseDataInfo**(`data?`): [`ResponseDataInfo`](ResponseDataInfo.md)
+> **new ResponseDataInfo**(`data`?): [`ResponseDataInfo`](ResponseDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IResponseDataInfo`](../interfaces/IResponseDataInfo.md) |
+• **data?**: [`IResponseDataInfo`](../interfaces/IResponseDataInfo.md)
 
 #### Returns
 
 [`ResponseDataInfo`](ResponseDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:186679
 
 ## Properties
 
-### author
+### author?
 
-• `Optional` **author**: `string`
+> **`optional`** **author**: `string`
 
 author of the response
 
 #### Implementation of
 
-[IResponseDataInfo](../interfaces/IResponseDataInfo.md).[author](../interfaces/IResponseDataInfo.md#author)
+[`IResponseDataInfo`](../interfaces/IResponseDataInfo.md).[`author`](../interfaces/IResponseDataInfo.md#author)
 
-#### Defined in
+#### Source
 
 main.ts:186665
 
-___
+***
 
-### text
+### text?
 
-• `Optional` **text**: `string`
+> **`optional`** **text**: `string`
 
 content of the response
 
 #### Implementation of
 
-[IResponseDataInfo](../interfaces/IResponseDataInfo.md).[text](../interfaces/IResponseDataInfo.md#text)
+[`IResponseDataInfo`](../interfaces/IResponseDataInfo.md).[`text`](../interfaces/IResponseDataInfo.md#text)
 
-#### Defined in
+#### Source
 
 main.ts:186670
 
-___
+***
 
-### timestamp
+### timestamp?
 
-• `Optional` **timestamp**: `string`
+> **`optional`** **timestamp**: `string`
 
 date and time when the response was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
@@ -94,85 +77,79 @@ example:
 
 #### Implementation of
 
-[IResponseDataInfo](../interfaces/IResponseDataInfo.md).[timestamp](../interfaces/IResponseDataInfo.md#timestamp)
+[`IResponseDataInfo`](../interfaces/IResponseDataInfo.md).[`timestamp`](../interfaces/IResponseDataInfo.md#timestamp)
 
-#### Defined in
+#### Source
 
 main.ts:186675
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the response
 in this case, will equal null
 
 #### Implementation of
 
-[IResponseDataInfo](../interfaces/IResponseDataInfo.md).[title](../interfaces/IResponseDataInfo.md#title)
+[`IResponseDataInfo`](../interfaces/IResponseDataInfo.md).[`title`](../interfaces/IResponseDataInfo.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:186668
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:186688
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:186708
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ResponseDataInfo`](ResponseDataInfo.md)
+> **`static`** **fromJS**(`data`): [`ResponseDataInfo`](ResponseDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ResponseDataInfo`](ResponseDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:186701

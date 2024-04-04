@@ -1,40 +1,33 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISpellInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ISpellInfo
 
 # Interface: ISpellInfo
 
-## Implemented by
-
-- [`SpellInfo`](../classes/SpellInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [keyword](ISpellInfo.md#keyword)
-- [type](ISpellInfo.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword obtained as a result of search engine autocorrection
 the results will be provided for the corrected keyword
 
-#### Defined in
+#### Source
 
 main.ts:22411
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of autocorrection
 possible values:
@@ -42,6 +35,6 @@ did_you_mean, showing_results_for, no_results_found_for, including_results_for
 note: Yahoo and Yandex support only the following autocorrection type:
 including_results_for
 
-#### Defined in
+#### Source
 
 main.ts:22417

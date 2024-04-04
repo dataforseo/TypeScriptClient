@@ -1,47 +1,40 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IWorkHours
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IWorkHours
 
 # Interface: IWorkHours
 
-## Implemented by
-
-- [`WorkHours`](../classes/WorkHours.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [current\_status](IWorkHours.md#current_status)
-- [timetable](IWorkHours.md#timetable)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### current\_status
+### current\_status?
 
-• `Optional` **current\_status**: `string`
+> **`optional`** **current\_status**: `string`
 
 current status of the establishment
 indicates whether the establishment is opened or closed
 
-#### Defined in
+#### Source
 
-main.ts:39104
+main.ts:39110
 
-___
+***
 
-### timetable
+### timetable?
 
-• `Optional` **timetable**: `Object`
+> **`optional`** **timetable**: `Object`
 
 work hours timetable
 
 #### Index signature
 
-▪ [key: `string`]: ([`WorkDayInfo`](../classes/WorkDayInfo.md) \| `undefined`)[]
+ \[`key`: `string`\]: ([`WorkDayInfo`](../classes/WorkDayInfo.md) \| `undefined`)[]
 
-#### Defined in
+#### Source
 
-main.ts:39101
+main.ts:39107

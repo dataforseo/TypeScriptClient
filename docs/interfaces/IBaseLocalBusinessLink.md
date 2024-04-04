@@ -1,21 +1,17 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBaseLocalBusinessLink
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBaseLocalBusinessLink
 
 # Interface: IBaseLocalBusinessLink
 
-## Hierarchy
+## Extended by
 
-- **`IBaseLocalBusinessLink`**
-
-  ↳ [`ILocalBusinessReservationLink`](ILocalBusinessReservationLink.md)
-
-  ↳ [`ILocalBusinessOrderLink`](ILocalBusinessOrderLink.md)
-
-  ↳ [`ILocalBusinessMenuLink`](ILocalBusinessMenuLink.md)
-
-## Implemented by
-
-- [`BaseLocalBusinessLink`](../classes/BaseLocalBusinessLink.md)
+- [`ILocalBusinessReservationLink`](ILocalBusinessReservationLink.md)
+- [`ILocalBusinessOrderLink`](ILocalBusinessOrderLink.md)
+- [`ILocalBusinessMenuLink`](ILocalBusinessMenuLink.md)
 
 ## Indexable
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`

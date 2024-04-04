@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageLighthouseTasksReadyResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPageLighthouseTasksReadyResultInfo
 
 # Class: OnPageLighthouseTasksReadyResultInfo
 
@@ -8,151 +12,125 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPageLighthouseTasksReadyResultInfo.md#constructor)
-
-### Properties
-
-- [endpoint\_json](OnPageLighthouseTasksReadyResultInfo.md#endpoint_json)
-- [id](OnPageLighthouseTasksReadyResultInfo.md#id)
-- [tag](OnPageLighthouseTasksReadyResultInfo.md#tag)
-
-### Methods
-
-- [init](OnPageLighthouseTasksReadyResultInfo.md#init)
-- [toJSON](OnPageLighthouseTasksReadyResultInfo.md#tojson)
-- [fromJS](OnPageLighthouseTasksReadyResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPageLighthouseTasksReadyResultInfo(data)
 
-• **new OnPageLighthouseTasksReadyResultInfo**(`data?`): [`OnPageLighthouseTasksReadyResultInfo`](OnPageLighthouseTasksReadyResultInfo.md)
+> **new OnPageLighthouseTasksReadyResultInfo**(`data`?): [`OnPageLighthouseTasksReadyResultInfo`](OnPageLighthouseTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPageLighthouseTasksReadyResultInfo`](../interfaces/IOnPageLighthouseTasksReadyResultInfo.md) |
+• **data?**: [`IOnPageLighthouseTasksReadyResultInfo`](../interfaces/IOnPageLighthouseTasksReadyResultInfo.md)
 
 #### Returns
 
 [`OnPageLighthouseTasksReadyResultInfo`](OnPageLighthouseTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:159853
+main.ts:159861
 
 ## Properties
 
-### endpoint\_json
+### endpoint\_json?
 
-• `Optional` **endpoint\_json**: `string`
+> **`optional`** **endpoint\_json**: `string`
 
 URL for collecting the results of the OnPage Lighthouse JSON task
 
 #### Implementation of
 
-[IOnPageLighthouseTasksReadyResultInfo](../interfaces/IOnPageLighthouseTasksReadyResultInfo.md).[endpoint_json](../interfaces/IOnPageLighthouseTasksReadyResultInfo.md#endpoint_json)
+[`IOnPageLighthouseTasksReadyResultInfo`](../interfaces/IOnPageLighthouseTasksReadyResultInfo.md).[`endpoint_json`](../interfaces/IOnPageLighthouseTasksReadyResultInfo.md#endpoint_json)
 
-#### Defined in
+#### Source
 
-main.ts:159849
+main.ts:159857
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IOnPageLighthouseTasksReadyResultInfo](../interfaces/IOnPageLighthouseTasksReadyResultInfo.md).[id](../interfaces/IOnPageLighthouseTasksReadyResultInfo.md#id)
+[`IOnPageLighthouseTasksReadyResultInfo`](../interfaces/IOnPageLighthouseTasksReadyResultInfo.md).[`id`](../interfaces/IOnPageLighthouseTasksReadyResultInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:159845
+main.ts:159853
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
 #### Implementation of
 
-[IOnPageLighthouseTasksReadyResultInfo](../interfaces/IOnPageLighthouseTasksReadyResultInfo.md).[tag](../interfaces/IOnPageLighthouseTasksReadyResultInfo.md#tag)
+[`IOnPageLighthouseTasksReadyResultInfo`](../interfaces/IOnPageLighthouseTasksReadyResultInfo.md).[`tag`](../interfaces/IOnPageLighthouseTasksReadyResultInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:159847
+main.ts:159855
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:159862
+main.ts:159870
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:159881
+main.ts:159889
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPageLighthouseTasksReadyResultInfo`](OnPageLighthouseTasksReadyResultInfo.md)
+> **`static`** **fromJS**(`data`): [`OnPageLighthouseTasksReadyResultInfo`](OnPageLighthouseTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`OnPageLighthouseTasksReadyResultInfo`](OnPageLighthouseTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:159874
+main.ts:159882

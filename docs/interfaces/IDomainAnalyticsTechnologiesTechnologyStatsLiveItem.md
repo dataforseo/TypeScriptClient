@@ -1,74 +1,63 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesTechnologyStatsLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDomainAnalyticsTechnologiesTechnologyStatsLiveItem
 
 # Interface: IDomainAnalyticsTechnologiesTechnologyStatsLiveItem
 
 items array
 
-## Implemented by
-
-- [`DomainAnalyticsTechnologiesTechnologyStatsLiveItem`](../classes/DomainAnalyticsTechnologiesTechnologyStatsLiveItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [countries](IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md#countries)
-- [date](IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md#date)
-- [domains\_count](IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md#domains_count)
-- [domains\_rank](IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md#domains_rank)
-- [languages](IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md#languages)
-- [type](IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### countries
+### countries?
 
-• `Optional` **countries**: `Object`
+> **`optional`** **countries**: `Object`
 
 distribution of websites by country
 contains country codes and number of websites per country
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
-#### Defined in
+#### Source
 
-main.ts:76087
+main.ts:76095
 
-___
+***
 
-### date
+### date?
 
-• `Optional` **date**: `string`
+> **`optional`** **date**: `string`
 
 date for which the data is provided
 
-#### Defined in
+#### Source
 
-main.ts:76082
+main.ts:76090
 
-___
+***
 
-### domains\_count
+### domains\_count?
 
-• `Optional` **domains\_count**: `number`
+> **`optional`** **domains\_count**: `number`
 
 number of domains that use the specified technology
 
-#### Defined in
+#### Source
 
-main.ts:76084
+main.ts:76092
 
-___
+***
 
-### domains\_rank
+### domains\_rank?
 
-• `Optional` **domains\_rank**: `Object`
+> **`optional`** **domains\_rank**: `Object`
 
 distribution of websites by backlink rank
 contains domain rank ranges and number of websites per range
@@ -76,37 +65,37 @@ learn more about rank and how it is calculated in this help center article
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
-#### Defined in
+#### Source
 
-main.ts:76094
+main.ts:76102
 
-___
+***
 
-### languages
+### languages?
 
-• `Optional` **languages**: `Object`
+> **`optional`** **languages**: `Object`
 
 distribution of websites by language
 contains language codes and number of websites per language
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
-#### Defined in
+#### Source
 
-main.ts:76090
+main.ts:76098
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:76080
+main.ts:76088

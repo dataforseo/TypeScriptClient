@@ -1,30 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksTimeseriesSummaryLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBacklinksTimeseriesSummaryLiveRequestInfo
 
 # Interface: IBacklinksTimeseriesSummaryLiveRequestInfo
 
-## Implemented by
-
-- [`BacklinksTimeseriesSummaryLiveRequestInfo`](../classes/BacklinksTimeseriesSummaryLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [date\_from](IBacklinksTimeseriesSummaryLiveRequestInfo.md#date_from)
-- [date\_to](IBacklinksTimeseriesSummaryLiveRequestInfo.md#date_to)
-- [group\_range](IBacklinksTimeseriesSummaryLiveRequestInfo.md#group_range)
-- [tag](IBacklinksTimeseriesSummaryLiveRequestInfo.md#tag)
-- [target](IBacklinksTimeseriesSummaryLiveRequestInfo.md#target)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -35,15 +25,15 @@ date format: "yyyy-mm-dd"
 example:
 "2021-01-01"
 
-#### Defined in
+#### Source
 
-main.ts:143883
+main.ts:143891
 
-___
+***
 
-### date\_to
+### date\_to?
 
-• `Optional` **date\_to**: `string`
+> **`optional`** **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -54,15 +44,15 @@ date format: "yyyy-mm-dd"
 example:
 "2021-01-15"
 
-#### Defined in
+#### Source
 
-main.ts:143892
+main.ts:143900
 
-___
+***
 
-### group\_range
+### group\_range?
 
-• `Optional` **group\_range**: `string`
+> **`optional`** **group\_range**: `string`
 
 time range which will be used to group the results
 optional field
@@ -77,15 +67,15 @@ for example, if you specify:
 we will return items falling between 2022-03-01 and 2022-05-31, namely, three items corresponding to the following dates: 2022-03-31, 2022-04-30, 2022-05-31
 if there is no data for a certain  day/week/month/year, we will return 0
 
-#### Defined in
+#### Source
 
-main.ts:143905
+main.ts:143913
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -93,15 +83,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:143911
+main.ts:143919
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 domain to get data for
 required field
@@ -109,6 +99,6 @@ a domain should be specified without https:// and www.
 example:
 "forbes.com"
 
-#### Defined in
+#### Source
 
-main.ts:143874
+main.ts:143882

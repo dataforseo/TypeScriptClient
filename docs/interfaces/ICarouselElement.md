@@ -1,68 +1,59 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ICarouselElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ICarouselElement
 
 # Interface: ICarouselElement
 
-## Implemented by
-
-- [`CarouselElement`](../classes/CarouselElement.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [image\_url](ICarouselElement.md#image_url)
-- [subtitle](ICarouselElement.md#subtitle)
-- [title](ICarouselElement.md#title)
-- [type](ICarouselElement.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### image\_url
+### image\_url?
 
-• `Optional` **image\_url**: `string`
+> **`optional`** **image\_url**: `string`
 
 URL of the image
 
-#### Defined in
+#### Source
 
 main.ts:30778
 
-___
+***
 
-### subtitle
+### subtitle?
 
-• `Optional` **subtitle**: `string`
+> **`optional`** **subtitle**: `string`
 
 subtitle of the element
 
-#### Defined in
+#### Source
 
 main.ts:30776
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
-#### Defined in
+#### Source
 
 main.ts:30774
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
 main.ts:30772

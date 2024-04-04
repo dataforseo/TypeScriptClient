@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ImpressionsInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ImpressionsInfo
 
 # Class: ImpressionsInfo
 
@@ -8,135 +12,99 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ImpressionsInfo.md#constructor)
-
-### Properties
-
-- [ad\_position\_average](ImpressionsInfo.md#ad_position_average)
-- [ad\_position\_max](ImpressionsInfo.md#ad_position_max)
-- [ad\_position\_min](ImpressionsInfo.md#ad_position_min)
-- [bid](ImpressionsInfo.md#bid)
-- [cpc\_average](ImpressionsInfo.md#cpc_average)
-- [cpc\_max](ImpressionsInfo.md#cpc_max)
-- [cpc\_min](ImpressionsInfo.md#cpc_min)
-- [daily\_clicks\_average](ImpressionsInfo.md#daily_clicks_average)
-- [daily\_clicks\_max](ImpressionsInfo.md#daily_clicks_max)
-- [daily\_clicks\_min](ImpressionsInfo.md#daily_clicks_min)
-- [daily\_cost\_average](ImpressionsInfo.md#daily_cost_average)
-- [daily\_cost\_max](ImpressionsInfo.md#daily_cost_max)
-- [daily\_cost\_min](ImpressionsInfo.md#daily_cost_min)
-- [daily\_impressions\_average](ImpressionsInfo.md#daily_impressions_average)
-- [daily\_impressions\_max](ImpressionsInfo.md#daily_impressions_max)
-- [daily\_impressions\_min](ImpressionsInfo.md#daily_impressions_min)
-- [last\_updated\_time](ImpressionsInfo.md#last_updated_time)
-- [match\_type](ImpressionsInfo.md#match_type)
-- [se\_type](ImpressionsInfo.md#se_type)
-
-### Methods
-
-- [init](ImpressionsInfo.md#init)
-- [toJSON](ImpressionsInfo.md#tojson)
-- [fromJS](ImpressionsInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ImpressionsInfo(data)
 
-• **new ImpressionsInfo**(`data?`): [`ImpressionsInfo`](ImpressionsInfo.md)
+> **new ImpressionsInfo**(`data`?): [`ImpressionsInfo`](ImpressionsInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IImpressionsInfo`](../interfaces/IImpressionsInfo.md) |
+• **data?**: [`IImpressionsInfo`](../interfaces/IImpressionsInfo.md)
 
 #### Returns
 
 [`ImpressionsInfo`](ImpressionsInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:81559
+main.ts:81567
 
 ## Properties
 
-### ad\_position\_average
+### ad\_position\_average?
 
-• `Optional` **ad\_position\_average**: `number`
+> **`optional`** **ad\_position\_average**: `number`
 
 the average ad position
 represents the average position of the advertisement
 
 #### Implementation of
 
-[IImpressionsInfo](../interfaces/IImpressionsInfo.md).[ad_position_average](../interfaces/IImpressionsInfo.md#ad_position_average)
+[`IImpressionsInfo`](../interfaces/IImpressionsInfo.md).[`ad_position_average`](../interfaces/IImpressionsInfo.md#ad_position_average)
 
-#### Defined in
+#### Source
 
-main.ts:81513
+main.ts:81521
 
-___
+***
 
-### ad\_position\_max
+### ad\_position\_max?
 
-• `Optional` **ad\_position\_max**: `number`
+> **`optional`** **ad\_position\_max**: `number`
 
 the maximum ad position
 represents the maximum position of the advertisement
 
 #### Implementation of
 
-[IImpressionsInfo](../interfaces/IImpressionsInfo.md).[ad_position_max](../interfaces/IImpressionsInfo.md#ad_position_max)
+[`IImpressionsInfo`](../interfaces/IImpressionsInfo.md).[`ad_position_max`](../interfaces/IImpressionsInfo.md#ad_position_max)
 
-#### Defined in
+#### Source
 
-main.ts:81510
+main.ts:81518
 
-___
+***
 
-### ad\_position\_min
+### ad\_position\_min?
 
-• `Optional` **ad\_position\_min**: `number`
+> **`optional`** **ad\_position\_min**: `number`
 
 the minimum ad position
 represents the minimum position of the advertisement
 
 #### Implementation of
 
-[IImpressionsInfo](../interfaces/IImpressionsInfo.md).[ad_position_min](../interfaces/IImpressionsInfo.md#ad_position_min)
+[`IImpressionsInfo`](../interfaces/IImpressionsInfo.md).[`ad_position_min`](../interfaces/IImpressionsInfo.md#ad_position_min)
 
-#### Defined in
+#### Source
 
-main.ts:81507
+main.ts:81515
 
-___
+***
 
-### bid
+### bid?
 
-• `Optional` **bid**: `number`
+> **`optional`** **bid**: `number`
 
 the maximum CPC
 it stands for the price you are willing to pay for an ad. The higher value, the higher positions and price you will getwe return the results for the 999 bid value to provide the highest number of impressions and level down the account-specific factors
 
 #### Implementation of
 
-[IImpressionsInfo](../interfaces/IImpressionsInfo.md).[bid](../interfaces/IImpressionsInfo.md#bid)
+[`IImpressionsInfo`](../interfaces/IImpressionsInfo.md).[`bid`](../interfaces/IImpressionsInfo.md#bid)
 
-#### Defined in
+#### Source
 
-main.ts:81501
+main.ts:81509
 
-___
+***
 
-### cpc\_average
+### cpc\_average?
 
-• `Optional` **cpc\_average**: `number`
+> **`optional`** **cpc\_average**: `number`
 
 the average value of cost-per-click
 the average cost-per-click (USD) for the keyword given that a bid is set to 999;
@@ -145,17 +113,17 @@ you can find an actual CPC value for a keyword in the cpc field of the keyword_i
 
 #### Implementation of
 
-[IImpressionsInfo](../interfaces/IImpressionsInfo.md).[cpc_average](../interfaces/IImpressionsInfo.md#cpc_average)
+[`IImpressionsInfo`](../interfaces/IImpressionsInfo.md).[`cpc_average`](../interfaces/IImpressionsInfo.md#cpc_average)
 
-#### Defined in
+#### Source
 
-main.ts:81528
+main.ts:81536
 
-___
+***
 
-### cpc\_max
+### cpc\_max?
 
-• `Optional` **cpc\_max**: `number`
+> **`optional`** **cpc\_max**: `number`
 
 the maximum value of cost-per-click
 the maximum cost-per-click (USD) for the keyword given that a bid is set to 999;
@@ -164,17 +132,17 @@ you can find an actual CPC value for a keyword in the cpc field of the keyword_i
 
 #### Implementation of
 
-[IImpressionsInfo](../interfaces/IImpressionsInfo.md).[cpc_max](../interfaces/IImpressionsInfo.md#cpc_max)
+[`IImpressionsInfo`](../interfaces/IImpressionsInfo.md).[`cpc_max`](../interfaces/IImpressionsInfo.md#cpc_max)
 
-#### Defined in
+#### Source
 
-main.ts:81523
+main.ts:81531
 
-___
+***
 
-### cpc\_min
+### cpc\_min?
 
-• `Optional` **cpc\_min**: `number`
+> **`optional`** **cpc\_min**: `number`
 
 the minimum value of cost-per-click
 the minimum cost-per-click (USD) for the keyword given that a bid is set to 999;
@@ -183,170 +151,170 @@ you can find an actual CPC value for a keyword in the cpc field of the keyword_i
 
 #### Implementation of
 
-[IImpressionsInfo](../interfaces/IImpressionsInfo.md).[cpc_min](../interfaces/IImpressionsInfo.md#cpc_min)
+[`IImpressionsInfo`](../interfaces/IImpressionsInfo.md).[`cpc_min`](../interfaces/IImpressionsInfo.md#cpc_min)
 
-#### Defined in
+#### Source
 
-main.ts:81518
+main.ts:81526
 
-___
+***
 
-### daily\_clicks\_average
+### daily\_clicks\_average?
 
-• `Optional` **daily\_clicks\_average**: `number`
+> **`optional`** **daily\_clicks\_average**: `number`
 
 the average value of daily clicks
 represents the average number of daily clicks on the advertisement
 
 #### Implementation of
 
-[IImpressionsInfo](../interfaces/IImpressionsInfo.md).[daily_clicks_average](../interfaces/IImpressionsInfo.md#daily_clicks_average)
+[`IImpressionsInfo`](../interfaces/IImpressionsInfo.md).[`daily_clicks_average`](../interfaces/IImpressionsInfo.md#daily_clicks_average)
 
-#### Defined in
+#### Source
 
-main.ts:81546
+main.ts:81554
 
-___
+***
 
-### daily\_clicks\_max
+### daily\_clicks\_max?
 
-• `Optional` **daily\_clicks\_max**: `number`
+> **`optional`** **daily\_clicks\_max**: `number`
 
 the maximum value of daily clicks
 represents the maximum number of daily clicks on the advertisement
 
 #### Implementation of
 
-[IImpressionsInfo](../interfaces/IImpressionsInfo.md).[daily_clicks_max](../interfaces/IImpressionsInfo.md#daily_clicks_max)
+[`IImpressionsInfo`](../interfaces/IImpressionsInfo.md).[`daily_clicks_max`](../interfaces/IImpressionsInfo.md#daily_clicks_max)
 
-#### Defined in
+#### Source
 
-main.ts:81543
+main.ts:81551
 
-___
+***
 
-### daily\_clicks\_min
+### daily\_clicks\_min?
 
-• `Optional` **daily\_clicks\_min**: `number`
+> **`optional`** **daily\_clicks\_min**: `number`
 
 the minimum value of daily clicks
 represents the minimum number of daily clicks on the advertisement
 
 #### Implementation of
 
-[IImpressionsInfo](../interfaces/IImpressionsInfo.md).[daily_clicks_min](../interfaces/IImpressionsInfo.md#daily_clicks_min)
+[`IImpressionsInfo`](../interfaces/IImpressionsInfo.md).[`daily_clicks_min`](../interfaces/IImpressionsInfo.md#daily_clicks_min)
 
-#### Defined in
+#### Source
 
-main.ts:81540
+main.ts:81548
 
-___
+***
 
-### daily\_cost\_average
+### daily\_cost\_average?
 
-• `Optional` **daily\_cost\_average**: `number`
+> **`optional`** **daily\_cost\_average**: `number`
 
 the average daily charge value
 represents the average daily cost of the advertisement (USD)
 
 #### Implementation of
 
-[IImpressionsInfo](../interfaces/IImpressionsInfo.md).[daily_cost_average](../interfaces/IImpressionsInfo.md#daily_cost_average)
+[`IImpressionsInfo`](../interfaces/IImpressionsInfo.md).[`daily_cost_average`](../interfaces/IImpressionsInfo.md#daily_cost_average)
 
-#### Defined in
+#### Source
 
-main.ts:81555
+main.ts:81563
 
-___
+***
 
-### daily\_cost\_max
+### daily\_cost\_max?
 
-• `Optional` **daily\_cost\_max**: `number`
+> **`optional`** **daily\_cost\_max**: `number`
 
 the maximum daily charge value
 represents the maximum daily cost of the advertisement (USD)
 
 #### Implementation of
 
-[IImpressionsInfo](../interfaces/IImpressionsInfo.md).[daily_cost_max](../interfaces/IImpressionsInfo.md#daily_cost_max)
+[`IImpressionsInfo`](../interfaces/IImpressionsInfo.md).[`daily_cost_max`](../interfaces/IImpressionsInfo.md#daily_cost_max)
 
-#### Defined in
+#### Source
 
-main.ts:81552
+main.ts:81560
 
-___
+***
 
-### daily\_cost\_min
+### daily\_cost\_min?
 
-• `Optional` **daily\_cost\_min**: `number`
+> **`optional`** **daily\_cost\_min**: `number`
 
 the minimum daily charge value
 represents the minimum daily cost of the advertisement (USD)
 
 #### Implementation of
 
-[IImpressionsInfo](../interfaces/IImpressionsInfo.md).[daily_cost_min](../interfaces/IImpressionsInfo.md#daily_cost_min)
+[`IImpressionsInfo`](../interfaces/IImpressionsInfo.md).[`daily_cost_min`](../interfaces/IImpressionsInfo.md#daily_cost_min)
 
-#### Defined in
+#### Source
 
-main.ts:81549
+main.ts:81557
 
-___
+***
 
-### daily\_impressions\_average
+### daily\_impressions\_average?
 
-• `Optional` **daily\_impressions\_average**: `number`
+> **`optional`** **daily\_impressions\_average**: `number`
 
 the average value of daily impressions
 represents the average number of daily impressions of the advertisement given that that a bid is set to 999; provides a more accurate alternative to Google search volume data
 
 #### Implementation of
 
-[IImpressionsInfo](../interfaces/IImpressionsInfo.md).[daily_impressions_average](../interfaces/IImpressionsInfo.md#daily_impressions_average)
+[`IImpressionsInfo`](../interfaces/IImpressionsInfo.md).[`daily_impressions_average`](../interfaces/IImpressionsInfo.md#daily_impressions_average)
 
-#### Defined in
+#### Source
 
-main.ts:81537
+main.ts:81545
 
-___
+***
 
-### daily\_impressions\_max
+### daily\_impressions\_max?
 
-• `Optional` **daily\_impressions\_max**: `number`
+> **`optional`** **daily\_impressions\_max**: `number`
 
 the maximum value of daily impressions
 represents the maximum number of daily impressions of the advertisement given that that a bid is set to 999; provides a more accurate alternative to Google search volume data
 
 #### Implementation of
 
-[IImpressionsInfo](../interfaces/IImpressionsInfo.md).[daily_impressions_max](../interfaces/IImpressionsInfo.md#daily_impressions_max)
+[`IImpressionsInfo`](../interfaces/IImpressionsInfo.md).[`daily_impressions_max`](../interfaces/IImpressionsInfo.md#daily_impressions_max)
 
-#### Defined in
+#### Source
 
-main.ts:81534
+main.ts:81542
 
-___
+***
 
-### daily\_impressions\_min
+### daily\_impressions\_min?
 
-• `Optional` **daily\_impressions\_min**: `number`
+> **`optional`** **daily\_impressions\_min**: `number`
 
 the minimum value of daily impressions
 represents the minimum number of daily impressions of the advertisement given that that a bid is set to 999; provides a more accurate alternative to Google search volume data
 
 #### Implementation of
 
-[IImpressionsInfo](../interfaces/IImpressionsInfo.md).[daily_impressions_min](../interfaces/IImpressionsInfo.md#daily_impressions_min)
+[`IImpressionsInfo`](../interfaces/IImpressionsInfo.md).[`daily_impressions_min`](../interfaces/IImpressionsInfo.md#daily_impressions_min)
 
-#### Defined in
+#### Source
 
-main.ts:81531
+main.ts:81539
 
-___
+***
 
-### last\_updated\_time
+### last\_updated\_time?
 
-• `Optional` **last\_updated\_time**: `string`
+> **`optional`** **last\_updated\_time**: `string`
 
 date and time when impressions data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -355,101 +323,95 @@ example:
 
 #### Implementation of
 
-[IImpressionsInfo](../interfaces/IImpressionsInfo.md).[last_updated_time](../interfaces/IImpressionsInfo.md#last_updated_time)
+[`IImpressionsInfo`](../interfaces/IImpressionsInfo.md).[`last_updated_time`](../interfaces/IImpressionsInfo.md#last_updated_time)
 
-#### Defined in
+#### Source
 
-main.ts:81498
+main.ts:81506
 
-___
+***
 
-### match\_type
+### match\_type?
 
-• `Optional` **match\_type**: `string`
+> **`optional`** **match\_type**: `string`
 
 type of keyword match
 can take the following values: exact, broad, phrase
 
 #### Implementation of
 
-[IImpressionsInfo](../interfaces/IImpressionsInfo.md).[match_type](../interfaces/IImpressionsInfo.md#match_type)
+[`IImpressionsInfo`](../interfaces/IImpressionsInfo.md).[`match_type`](../interfaces/IImpressionsInfo.md#match_type)
 
-#### Defined in
+#### Source
 
-main.ts:81504
+main.ts:81512
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IImpressionsInfo](../interfaces/IImpressionsInfo.md).[se_type](../interfaces/IImpressionsInfo.md#se_type)
+[`IImpressionsInfo`](../interfaces/IImpressionsInfo.md).[`se_type`](../interfaces/IImpressionsInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:81493
+main.ts:81501
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:81568
+main.ts:81576
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:81603
+main.ts:81611
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ImpressionsInfo`](ImpressionsInfo.md)
+> **`static`** **fromJS**(`data`): [`ImpressionsInfo`](ImpressionsInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ImpressionsInfo`](ImpressionsInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:81596
+main.ts:81604

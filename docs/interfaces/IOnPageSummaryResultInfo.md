@@ -1,70 +1,59 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageSummaryResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IOnPageSummaryResultInfo
 
 # Interface: IOnPageSummaryResultInfo
 
-## Implemented by
-
-- [`OnPageSummaryResultInfo`](../classes/OnPageSummaryResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [crawl\_gateway\_address](IOnPageSummaryResultInfo.md#crawl_gateway_address)
-- [crawl\_progress](IOnPageSummaryResultInfo.md#crawl_progress)
-- [crawl\_status](IOnPageSummaryResultInfo.md#crawl_status)
-- [crawl\_stop\_reason](IOnPageSummaryResultInfo.md#crawl_stop_reason)
-- [domain\_info](IOnPageSummaryResultInfo.md#domain_info)
-- [page\_metrics](IOnPageSummaryResultInfo.md#page_metrics)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### crawl\_gateway\_address
+### crawl\_gateway\_address?
 
-• `Optional` **crawl\_gateway\_address**: `string`
+> **`optional`** **crawl\_gateway\_address**: `string`
 
 crawler ip address
 displays the IP address used by the crawler to initiate the current crawling session
 you can find the full list of IPs used by our crawler in the Overview section
 
-#### Defined in
+#### Source
 
-main.ts:149177
+main.ts:149185
 
-___
+***
 
-### crawl\_progress
+### crawl\_progress?
 
-• `Optional` **crawl\_progress**: `string`
+> **`optional`** **crawl\_progress**: `string`
 
 status of the crawling session
 possible values: in_progress, finished
 
-#### Defined in
+#### Source
 
-main.ts:149171
+main.ts:149179
 
-___
+***
 
-### crawl\_status
+### crawl\_status?
 
-• `Optional` **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
+> **`optional`** **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
 
 details of the crawling session
 
-#### Defined in
+#### Source
 
-main.ts:149173
+main.ts:149181
 
-___
+***
 
-### crawl\_stop\_reason
+### crawl\_stop\_reason?
 
-• `Optional` **crawl\_stop\_reason**: `string`
+> **`optional`** **crawl\_stop\_reason**: `string`
 
 reason why the crawling stopped
 information about the reason why the crawling process stopped;
@@ -74,32 +63,32 @@ empty_queue – all URLs in the queue were crawled;
 force_stopped – the crawling process was halted using the On Page API Force Stop function;
 unexpected_exception – an internal error was encountered while crawling the target, contact support for more info
 
-#### Defined in
+#### Source
 
-main.ts:149185
+main.ts:149193
 
-___
+***
 
-### domain\_info
+### domain\_info?
 
-• `Optional` **domain\_info**: [`DomainInfo`](../classes/DomainInfo.md)
+> **`optional`** **domain\_info**: [`DomainInfo`](../classes/DomainInfo.md)
 
 domain-wide info
 on-page information about the target domain and crawling process
 
-#### Defined in
+#### Source
 
-main.ts:149188
+main.ts:149196
 
-___
+***
 
-### page\_metrics
+### page\_metrics?
 
-• `Optional` **page\_metrics**: [`PageMetrics`](../classes/PageMetrics.md)
+> **`optional`** **page\_metrics**: [`PageMetrics`](../classes/PageMetrics.md)
 
 page-specific info
 metrics information on the target website pages
 
-#### Defined in
+#### Source
 
-main.ts:149191
+main.ts:149199

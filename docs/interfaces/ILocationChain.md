@@ -1,70 +1,61 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ILocationChain
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ILocationChain
 
 # Interface: ILocationChain
 
-## Implemented by
-
-- [`LocationChain`](../classes/LocationChain.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [card\_id](ILocationChain.md#card_id)
-- [cid](ILocationChain.md#cid)
-- [feature\_id](ILocationChain.md#feature_id)
-- [title](ILocationChain.md#title)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### card\_id
+### card\_id?
 
-• `Optional` **card\_id**: `string`
+> **`optional`** **card\_id**: `string`
 
 card identifier
 
-#### Defined in
+#### Source
 
 main.ts:201075
 
-___
+***
 
-### cid
+### cid?
 
-• `Optional` **cid**: `string`
+> **`optional`** **cid**: `string`
 
 client id
 learn more about the identifier in this help center article
 
-#### Defined in
+#### Source
 
 main.ts:201081
 
-___
+***
 
-### feature\_id
+### feature\_id?
 
-• `Optional` **feature\_id**: `string`
+> **`optional`** **feature\_id**: `string`
 
 feature identifier
 learn more about the identifier in this help center article
 
-#### Defined in
+#### Source
 
 main.ts:201078
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the element in the location chain
 
-#### Defined in
+#### Source
 
 main.ts:201083

@@ -1,168 +1,152 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataTrustpilotReviewsTaskGetResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBusinessDataTrustpilotReviewsTaskGetResultInfo
 
 # Interface: IBusinessDataTrustpilotReviewsTaskGetResultInfo
 
-## Implemented by
-
-- [`BusinessDataTrustpilotReviewsTaskGetResultInfo`](../classes/BusinessDataTrustpilotReviewsTaskGetResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [check\_url](IBusinessDataTrustpilotReviewsTaskGetResultInfo.md#check_url)
-- [datetime](IBusinessDataTrustpilotReviewsTaskGetResultInfo.md#datetime)
-- [domain](IBusinessDataTrustpilotReviewsTaskGetResultInfo.md#domain)
-- [items](IBusinessDataTrustpilotReviewsTaskGetResultInfo.md#items)
-- [items\_count](IBusinessDataTrustpilotReviewsTaskGetResultInfo.md#items_count)
-- [location](IBusinessDataTrustpilotReviewsTaskGetResultInfo.md#location)
-- [rating](IBusinessDataTrustpilotReviewsTaskGetResultInfo.md#rating)
-- [reviews\_count](IBusinessDataTrustpilotReviewsTaskGetResultInfo.md#reviews_count)
-- [se\_domain](IBusinessDataTrustpilotReviewsTaskGetResultInfo.md#se_domain)
-- [title](IBusinessDataTrustpilotReviewsTaskGetResultInfo.md#title)
-- [type](IBusinessDataTrustpilotReviewsTaskGetResultInfo.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### check\_url
+### check\_url?
 
-• `Optional` **check\_url**: `string`
+> **`optional`** **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
 
-#### Defined in
+#### Source
 
 main.ts:205668
 
-___
+***
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
 main.ts:205673
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain of the business entity
 
-#### Defined in
+#### Source
 
 main.ts:205661
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseBusinessDataSerpElementItem`](../classes/BaseBusinessDataSerpElementItem.md)[]
+> **`optional`** **items**: [`BaseBusinessDataSerpElementItem`](../classes/BaseBusinessDataSerpElementItem.md)[]
 
 found reviews
 you can get more results by using the depth parameter when setting a task
 
-#### Defined in
+#### Source
 
 main.ts:205690
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of items in the results array
 you can get more results by using the depth parameter when setting a task
 
-#### Defined in
+#### Source
 
 main.ts:205687
 
-___
+***
 
-### location
+### location?
 
-• `Optional` **location**: `string`
+> **`optional`** **location**: `string`
 
 location of the business entity as specified on Trustpilot
 address of the business entity for which the reviews are collected
 
-#### Defined in
+#### Source
 
 main.ts:205679
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
 rating of the corresponding business entity
 popularity rate based on reviews and displayed in SERP
 
-#### Defined in
+#### Source
 
 main.ts:205684
 
-___
+***
 
-### reviews\_count
+### reviews\_count?
 
-• `Optional` **reviews\_count**: `number`
+> **`optional`** **reviews\_count**: `number`
 
 the total number of reviews
 
-#### Defined in
+#### Source
 
 main.ts:205681
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
-#### Defined in
+#### Source
 
 main.ts:205665
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the ‘reviews’ element on Trustpilot
 the name of the business entity for which the reviews are collected
 
-#### Defined in
+#### Source
 
 main.ts:205676
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
 main.ts:205663

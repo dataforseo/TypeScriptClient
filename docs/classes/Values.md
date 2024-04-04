@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / Values
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / Values
 
 # Class: Values
 
@@ -8,51 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](Values.md#constructor)
-
-### Properties
-
-- [geo\_id](Values.md#geo_id)
-- [geo\_name](Values.md#geo_name)
-- [value](Values.md#value)
-
-### Methods
-
-- [init](Values.md#init)
-- [toJSON](Values.md#tojson)
-- [fromJS](Values.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new Values(data)
 
-• **new Values**(`data?`): [`Values`](Values.md)
+> **new Values**(`data`?): [`Values`](Values.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IValues`](../interfaces/IValues.md) |
+• **data?**: [`IValues`](../interfaces/IValues.md)
 
 #### Returns
 
 [`Values`](Values.md)
 
-#### Defined in
+#### Source
 
-main.ts:125420
+main.ts:125428
 
 ## Properties
 
-### geo\_id
+### geo\_id?
 
-• `Optional` **geo\_id**: `string`
+> **`optional`** **geo\_id**: `string`
 
 location identifier
 you can use this field for matching obtained results with location parameters specified in the request
@@ -62,17 +46,17 @@ US-NY
 
 #### Implementation of
 
-[IValues](../interfaces/IValues.md).[geo_id](../interfaces/IValues.md#geo_id)
+[`IValues`](../interfaces/IValues.md).[`geo_id`](../interfaces/IValues.md#geo_id)
 
-#### Defined in
+#### Source
 
-main.ts:125402
+main.ts:125410
 
-___
+***
 
-### geo\_name
+### geo\_name?
 
-• `Optional` **geo\_name**: `string`
+> **`optional`** **geo\_name**: `string`
 
 location name
 you can use this field for matching obtained results with location parameters specified in the request
@@ -82,17 +66,17 @@ Andorra
 
 #### Implementation of
 
-[IValues](../interfaces/IValues.md).[geo_name](../interfaces/IValues.md#geo_name)
+[`IValues`](../interfaces/IValues.md).[`geo_name`](../interfaces/IValues.md#geo_name)
 
-#### Defined in
+#### Source
 
-main.ts:125408
+main.ts:125416
 
-___
+***
 
-### value
+### value?
 
-• `Optional` **value**: `number`
+> **`optional`** **value**: `number`
 
 relative keyword popularity rate in a given location
 represents location-specific keyword popularity rate over the specified time range;
@@ -104,68 +88,62 @@ a value of 0 means there was not enough data for this term
 
 #### Implementation of
 
-[IValues](../interfaces/IValues.md).[value](../interfaces/IValues.md#value)
+[`IValues`](../interfaces/IValues.md).[`value`](../interfaces/IValues.md#value)
 
-#### Defined in
+#### Source
 
-main.ts:125416
+main.ts:125424
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:125429
+main.ts:125437
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:125448
+main.ts:125456
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`Values`](Values.md)
+> **`static`** **fromJS**(`data`): [`Values`](Values.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`Values`](Values.md)
 
-#### Defined in
+#### Source
 
-main.ts:125441
+main.ts:125449

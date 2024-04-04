@@ -1,111 +1,99 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IProductSeller
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IProductSeller
 
 # Interface: IProductSeller
 
-## Implemented by
-
-- [`ProductSeller`](../classes/ProductSeller.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [delivery\_info](IProductSeller.md#delivery_info)
-- [price](IProductSeller.md#price)
-- [seller\_rating](IProductSeller.md#seller_rating)
-- [seller\_review\_count](IProductSeller.md#seller_review_count)
-- [title](IProductSeller.md#title)
-- [type](IProductSeller.md#type)
-- [url](IProductSeller.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### delivery\_info
+### delivery\_info?
 
-• `Optional` **delivery\_info**: [`DeliveryInfo`](../classes/DeliveryInfo.md)
+> **`optional`** **delivery\_info**: [`DeliveryInfo`](../classes/DeliveryInfo.md)
 
 delivery information
 product delivery information
 
-#### Defined in
+#### Source
 
 main.ts:174519
 
-___
+***
 
-### price
+### price?
 
-• `Optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
+> **`optional`** **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
 product price
 product price details on the seller’s website
 
-#### Defined in
+#### Source
 
 main.ts:174516
 
-___
+***
 
-### seller\_rating
+### seller\_rating?
 
-• `Optional` **seller\_rating**: [`RatingElement`](../classes/RatingElement.md)
+> **`optional`** **seller\_rating**: [`RatingElement`](../classes/RatingElement.md)
 
 rating of the seller
 
-#### Defined in
+#### Source
 
 main.ts:174510
 
-___
+***
 
-### seller\_review\_count
+### seller\_review\_count?
 
-• `Optional` **seller\_review\_count**: `number`
+> **`optional`** **seller\_review\_count**: `number`
 
 number of seller reviews
 number of reviews on the product seller’s account
 
-#### Defined in
+#### Source
 
 main.ts:174513
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 product title
 
-#### Defined in
+#### Source
 
 main.ts:174505
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
 main.ts:174503
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 seller url
 url of the page where the product is sold
 
-#### Defined in
+#### Source
 
 main.ts:174508

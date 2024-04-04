@@ -1,68 +1,59 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentAnalysisRatingDistributionLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IContentAnalysisRatingDistributionLiveResultInfo
 
 # Interface: IContentAnalysisRatingDistributionLiveResultInfo
 
-## Implemented by
-
-- [`ContentAnalysisRatingDistributionLiveResultInfo`](../classes/ContentAnalysisRatingDistributionLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [max](IContentAnalysisRatingDistributionLiveResultInfo.md#max)
-- [metrics](IContentAnalysisRatingDistributionLiveResultInfo.md#metrics)
-- [min](IContentAnalysisRatingDistributionLiveResultInfo.md#min)
-- [type](IContentAnalysisRatingDistributionLiveResultInfo.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### max
+### max?
 
-• `Optional` **max**: `number`
+> **`optional`** **max**: `number`
 
 max rating on a distribution scale
 
-#### Defined in
+#### Source
 
-main.ts:163893
+main.ts:163901
 
-___
+***
 
-### metrics
+### metrics?
 
-• `Optional` **metrics**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
+> **`optional`** **metrics**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
 
 contains rating distribution metrics
 
-#### Defined in
+#### Source
 
-main.ts:163895
+main.ts:163903
 
-___
+***
 
-### min
+### min?
 
-• `Optional` **min**: `number`
+> **`optional`** **min**: `number`
 
 min rating on a distribution scale
 
-#### Defined in
+#### Source
 
-main.ts:163891
+main.ts:163899
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:163889
+main.ts:163897

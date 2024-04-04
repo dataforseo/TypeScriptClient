@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataYelpLanguagesResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataYelpLanguagesResultInfo
 
 # Class: BusinessDataYelpLanguagesResultInfo
 
@@ -8,133 +12,108 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataYelpLanguagesResultInfo.md#constructor)
-
-### Properties
-
-- [language\_code](BusinessDataYelpLanguagesResultInfo.md#language_code)
-- [language\_name](BusinessDataYelpLanguagesResultInfo.md#language_name)
-
-### Methods
-
-- [init](BusinessDataYelpLanguagesResultInfo.md#init)
-- [toJSON](BusinessDataYelpLanguagesResultInfo.md#tojson)
-- [fromJS](BusinessDataYelpLanguagesResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataYelpLanguagesResultInfo(data)
 
-• **new BusinessDataYelpLanguagesResultInfo**(`data?`): [`BusinessDataYelpLanguagesResultInfo`](BusinessDataYelpLanguagesResultInfo.md)
+> **new BusinessDataYelpLanguagesResultInfo**(`data`?): [`BusinessDataYelpLanguagesResultInfo`](BusinessDataYelpLanguagesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataYelpLanguagesResultInfo`](../interfaces/IBusinessDataYelpLanguagesResultInfo.md) |
+• **data?**: [`IBusinessDataYelpLanguagesResultInfo`](../interfaces/IBusinessDataYelpLanguagesResultInfo.md)
 
 #### Returns
 
 [`BusinessDataYelpLanguagesResultInfo`](BusinessDataYelpLanguagesResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:208637
 
 ## Properties
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code according to ISO 639-1
 
 #### Implementation of
 
-[IBusinessDataYelpLanguagesResultInfo](../interfaces/IBusinessDataYelpLanguagesResultInfo.md).[language_code](../interfaces/IBusinessDataYelpLanguagesResultInfo.md#language_code)
+[`IBusinessDataYelpLanguagesResultInfo`](../interfaces/IBusinessDataYelpLanguagesResultInfo.md).[`language_code`](../interfaces/IBusinessDataYelpLanguagesResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
 main.ts:208633
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 language name
 
 #### Implementation of
 
-[IBusinessDataYelpLanguagesResultInfo](../interfaces/IBusinessDataYelpLanguagesResultInfo.md).[language_name](../interfaces/IBusinessDataYelpLanguagesResultInfo.md#language_name)
+[`IBusinessDataYelpLanguagesResultInfo`](../interfaces/IBusinessDataYelpLanguagesResultInfo.md).[`language_name`](../interfaces/IBusinessDataYelpLanguagesResultInfo.md#language_name)
 
-#### Defined in
+#### Source
 
 main.ts:208631
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:208646
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:208664
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataYelpLanguagesResultInfo`](BusinessDataYelpLanguagesResultInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataYelpLanguagesResultInfo`](BusinessDataYelpLanguagesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BusinessDataYelpLanguagesResultInfo`](BusinessDataYelpLanguagesResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:208657

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / WorkTimeInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / WorkTimeInfo
 
 # Class: WorkTimeInfo
 
@@ -8,133 +12,108 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](WorkTimeInfo.md#constructor)
-
-### Properties
-
-- [hour](WorkTimeInfo.md#hour)
-- [minute](WorkTimeInfo.md#minute)
-
-### Methods
-
-- [init](WorkTimeInfo.md#init)
-- [toJSON](WorkTimeInfo.md#tojson)
-- [fromJS](WorkTimeInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new WorkTimeInfo(data)
 
-• **new WorkTimeInfo**(`data?`): [`WorkTimeInfo`](WorkTimeInfo.md)
+> **new WorkTimeInfo**(`data`?): [`WorkTimeInfo`](WorkTimeInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IWorkTimeInfo`](../interfaces/IWorkTimeInfo.md) |
+• **data?**: [`IWorkTimeInfo`](../interfaces/IWorkTimeInfo.md)
 
 #### Returns
 
 [`WorkTimeInfo`](WorkTimeInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:21107
 
 ## Properties
 
-### hour
+### hour?
 
-• `Optional` **hour**: `number`
+> **`optional`** **hour**: `number`
 
 hours in the 24-hour format
 
 #### Implementation of
 
-[IWorkTimeInfo](../interfaces/IWorkTimeInfo.md).[hour](../interfaces/IWorkTimeInfo.md#hour)
+[`IWorkTimeInfo`](../interfaces/IWorkTimeInfo.md).[`hour`](../interfaces/IWorkTimeInfo.md#hour)
 
-#### Defined in
+#### Source
 
 main.ts:21101
 
-___
+***
 
-### minute
+### minute?
 
-• `Optional` **minute**: `number`
+> **`optional`** **minute**: `number`
 
 minutes
 
 #### Implementation of
 
-[IWorkTimeInfo](../interfaces/IWorkTimeInfo.md).[minute](../interfaces/IWorkTimeInfo.md#minute)
+[`IWorkTimeInfo`](../interfaces/IWorkTimeInfo.md).[`minute`](../interfaces/IWorkTimeInfo.md#minute)
 
-#### Defined in
+#### Source
 
 main.ts:21103
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:21116
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:21134
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`WorkTimeInfo`](WorkTimeInfo.md)
+> **`static`** **fromJS**(`data`): [`WorkTimeInfo`](WorkTimeInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`WorkTimeInfo`](WorkTimeInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:21127

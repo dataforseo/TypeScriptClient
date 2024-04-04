@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixStatisticsDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppendixStatisticsDataInfo
 
 # Class: AppendixStatisticsDataInfo
 
@@ -8,129 +12,104 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixStatisticsDataInfo.md#constructor)
-
-### Properties
-
-- [day](AppendixStatisticsDataInfo.md#day)
-- [minute](AppendixStatisticsDataInfo.md#minute)
-
-### Methods
-
-- [init](AppendixStatisticsDataInfo.md#init)
-- [toJSON](AppendixStatisticsDataInfo.md#tojson)
-- [fromJS](AppendixStatisticsDataInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixStatisticsDataInfo(data)
 
-• **new AppendixStatisticsDataInfo**(`data?`): [`AppendixStatisticsDataInfo`](AppendixStatisticsDataInfo.md)
+> **new AppendixStatisticsDataInfo**(`data`?): [`AppendixStatisticsDataInfo`](AppendixStatisticsDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixStatisticsDataInfo`](../interfaces/IAppendixStatisticsDataInfo.md) |
+• **data?**: [`IAppendixStatisticsDataInfo`](../interfaces/IAppendixStatisticsDataInfo.md)
 
 #### Returns
 
 [`AppendixStatisticsDataInfo`](AppendixStatisticsDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:214815
 
 ## Properties
 
-### day
+### day?
 
-• `Optional` **day**: [`AppendixStatisticsRatesDataInfo`](AppendixStatisticsRatesDataInfo.md)
+> **`optional`** **day**: [`AppendixStatisticsRatesDataInfo`](AppendixStatisticsRatesDataInfo.md)
 
 #### Implementation of
 
-[IAppendixStatisticsDataInfo](../interfaces/IAppendixStatisticsDataInfo.md).[day](../interfaces/IAppendixStatisticsDataInfo.md#day)
+[`IAppendixStatisticsDataInfo`](../interfaces/IAppendixStatisticsDataInfo.md).[`day`](../interfaces/IAppendixStatisticsDataInfo.md#day)
 
-#### Defined in
+#### Source
 
 main.ts:214810
 
-___
+***
 
-### minute
+### minute?
 
-• `Optional` **minute**: [`AppendixStatisticsRatesDataInfo`](AppendixStatisticsRatesDataInfo.md)
+> **`optional`** **minute**: [`AppendixStatisticsRatesDataInfo`](AppendixStatisticsRatesDataInfo.md)
 
 #### Implementation of
 
-[IAppendixStatisticsDataInfo](../interfaces/IAppendixStatisticsDataInfo.md).[minute](../interfaces/IAppendixStatisticsDataInfo.md#minute)
+[`IAppendixStatisticsDataInfo`](../interfaces/IAppendixStatisticsDataInfo.md).[`minute`](../interfaces/IAppendixStatisticsDataInfo.md#minute)
 
-#### Defined in
+#### Source
 
 main.ts:214811
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:214824
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:214842
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppendixStatisticsDataInfo`](AppendixStatisticsDataInfo.md)
+> **`static`** **fromJS**(`data`): [`AppendixStatisticsDataInfo`](AppendixStatisticsDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppendixStatisticsDataInfo`](AppendixStatisticsDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:214835

@@ -1,144 +1,128 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ITripadvisorSearchOrganicBusinessDataSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ITripadvisorSearchOrganicBusinessDataSerpElementItem
 
 # Interface: ITripadvisorSearchOrganicBusinessDataSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md)
 
-  ↳ **`ITripadvisorSearchOrganicBusinessDataSerpElementItem`**
-
-## Implemented by
-
-- [`TripadvisorSearchOrganicBusinessDataSerpElementItem`](../classes/TripadvisorSearchOrganicBusinessDataSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [category](ITripadvisorSearchOrganicBusinessDataSerpElementItem.md#category)
-- [is\_sponsored](ITripadvisorSearchOrganicBusinessDataSerpElementItem.md#is_sponsored)
-- [price\_rate](ITripadvisorSearchOrganicBusinessDataSerpElementItem.md#price_rate)
-- [rank\_absolute](ITripadvisorSearchOrganicBusinessDataSerpElementItem.md#rank_absolute)
-- [rank\_group](ITripadvisorSearchOrganicBusinessDataSerpElementItem.md#rank_group)
-- [rating](ITripadvisorSearchOrganicBusinessDataSerpElementItem.md#rating)
-- [reviews\_count](ITripadvisorSearchOrganicBusinessDataSerpElementItem.md#reviews_count)
-- [title](ITripadvisorSearchOrganicBusinessDataSerpElementItem.md#title)
-- [url\_path](ITripadvisorSearchOrganicBusinessDataSerpElementItem.md#url_path)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### category
+### category?
 
-• `Optional` **category**: `string`
+> **`optional`** **category**: `string`
 
 place category
 
-#### Defined in
+#### Source
 
 main.ts:206924
 
-___
+***
 
-### is\_sponsored
+### is\_sponsored?
 
-• `Optional` **is\_sponsored**: `boolean`
+> **`optional`** **is\_sponsored**: `boolean`
 
 indicates a sponsored placement
 if true, related tripadvisor_search_organic item is a paid advertising on Tripadvisor
 
-#### Defined in
+#### Source
 
 main.ts:206920
 
-___
+***
 
-### price\_rate
+### price\_rate?
 
-• `Optional` **price\_rate**: `string`
+> **`optional`** **price\_rate**: `string`
 
 average price rate
 
-#### Defined in
+#### Source
 
 main.ts:206926
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank among all the listed results
 absolute position among all reviews on the list
 
-#### Defined in
+#### Source
 
 main.ts:206911
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
 main.ts:206908
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
 the rating score of the establishment submitted by the reviewers
 
-#### Defined in
+#### Source
 
 main.ts:206928
 
-___
+***
 
-### reviews\_count
+### reviews\_count?
 
-• `Optional` **reviews\_count**: `number`
+> **`optional`** **reviews\_count**: `number`
 
 the total number of reviews
 
-#### Defined in
+#### Source
 
 main.ts:206922
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 name of the business entity
 
-#### Defined in
+#### Source
 
 main.ts:206913
 
-___
+***
 
-### url\_path
+### url\_path?
 
-• `Optional` **url\_path**: `string`
+> **`optional`** **url\_path**: `string`
 
 URL path of the business entity
 URL path to the Tripadvisor page of the business entity
 you can use this identifier to collect reviews for the business entity using Tripadvisor Reviews
 
-#### Defined in
+#### Source
 
 main.ts:206917

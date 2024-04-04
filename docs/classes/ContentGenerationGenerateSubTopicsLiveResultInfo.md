@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentGenerationGenerateSubTopicsLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ContentGenerationGenerateSubTopicsLiveResultInfo
 
 # Class: ContentGenerationGenerateSubTopicsLiveResultInfo
 
@@ -8,167 +12,140 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ContentGenerationGenerateSubTopicsLiveResultInfo.md#constructor)
-
-### Properties
-
-- [input\_tokens](ContentGenerationGenerateSubTopicsLiveResultInfo.md#input_tokens)
-- [new\_tokens](ContentGenerationGenerateSubTopicsLiveResultInfo.md#new_tokens)
-- [output\_tokens](ContentGenerationGenerateSubTopicsLiveResultInfo.md#output_tokens)
-- [sub\_topics](ContentGenerationGenerateSubTopicsLiveResultInfo.md#sub_topics)
-
-### Methods
-
-- [init](ContentGenerationGenerateSubTopicsLiveResultInfo.md#init)
-- [toJSON](ContentGenerationGenerateSubTopicsLiveResultInfo.md#tojson)
-- [fromJS](ContentGenerationGenerateSubTopicsLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ContentGenerationGenerateSubTopicsLiveResultInfo(data)
 
-• **new ContentGenerationGenerateSubTopicsLiveResultInfo**(`data?`): [`ContentGenerationGenerateSubTopicsLiveResultInfo`](ContentGenerationGenerateSubTopicsLiveResultInfo.md)
+> **new ContentGenerationGenerateSubTopicsLiveResultInfo**(`data`?): [`ContentGenerationGenerateSubTopicsLiveResultInfo`](ContentGenerationGenerateSubTopicsLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IContentGenerationGenerateSubTopicsLiveResultInfo`](../interfaces/IContentGenerationGenerateSubTopicsLiveResultInfo.md) |
+• **data?**: [`IContentGenerationGenerateSubTopicsLiveResultInfo`](../interfaces/IContentGenerationGenerateSubTopicsLiveResultInfo.md)
 
 #### Returns
 
 [`ContentGenerationGenerateSubTopicsLiveResultInfo`](ContentGenerationGenerateSubTopicsLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:166366
+main.ts:166374
 
 ## Properties
 
-### input\_tokens
+### input\_tokens?
 
-• `Optional` **input\_tokens**: `number`
+> **`optional`** **input\_tokens**: `number`
 
 number of input tokens
 
 #### Implementation of
 
-[IContentGenerationGenerateSubTopicsLiveResultInfo](../interfaces/IContentGenerationGenerateSubTopicsLiveResultInfo.md).[input_tokens](../interfaces/IContentGenerationGenerateSubTopicsLiveResultInfo.md#input_tokens)
+[`IContentGenerationGenerateSubTopicsLiveResultInfo`](../interfaces/IContentGenerationGenerateSubTopicsLiveResultInfo.md).[`input_tokens`](../interfaces/IContentGenerationGenerateSubTopicsLiveResultInfo.md#input_tokens)
 
-#### Defined in
+#### Source
 
-main.ts:166356
+main.ts:166364
 
-___
+***
 
-### new\_tokens
+### new\_tokens?
 
-• `Optional` **new\_tokens**: `number`
+> **`optional`** **new\_tokens**: `number`
 
 number of new tokens
 
 #### Implementation of
 
-[IContentGenerationGenerateSubTopicsLiveResultInfo](../interfaces/IContentGenerationGenerateSubTopicsLiveResultInfo.md).[new_tokens](../interfaces/IContentGenerationGenerateSubTopicsLiveResultInfo.md#new_tokens)
+[`IContentGenerationGenerateSubTopicsLiveResultInfo`](../interfaces/IContentGenerationGenerateSubTopicsLiveResultInfo.md).[`new_tokens`](../interfaces/IContentGenerationGenerateSubTopicsLiveResultInfo.md#new_tokens)
 
-#### Defined in
+#### Source
 
-main.ts:166360
+main.ts:166368
 
-___
+***
 
-### output\_tokens
+### output\_tokens?
 
-• `Optional` **output\_tokens**: `number`
+> **`optional`** **output\_tokens**: `number`
 
 number of output tokens
 
 #### Implementation of
 
-[IContentGenerationGenerateSubTopicsLiveResultInfo](../interfaces/IContentGenerationGenerateSubTopicsLiveResultInfo.md).[output_tokens](../interfaces/IContentGenerationGenerateSubTopicsLiveResultInfo.md#output_tokens)
+[`IContentGenerationGenerateSubTopicsLiveResultInfo`](../interfaces/IContentGenerationGenerateSubTopicsLiveResultInfo.md).[`output_tokens`](../interfaces/IContentGenerationGenerateSubTopicsLiveResultInfo.md#output_tokens)
 
-#### Defined in
+#### Source
 
-main.ts:166358
+main.ts:166366
 
-___
+***
 
-### sub\_topics
+### sub\_topics?
 
-• `Optional` **sub\_topics**: `string`[]
+> **`optional`** **sub\_topics**: `string`[]
 
 resulting subtopics
 
 #### Implementation of
 
-[IContentGenerationGenerateSubTopicsLiveResultInfo](../interfaces/IContentGenerationGenerateSubTopicsLiveResultInfo.md).[sub_topics](../interfaces/IContentGenerationGenerateSubTopicsLiveResultInfo.md#sub_topics)
+[`IContentGenerationGenerateSubTopicsLiveResultInfo`](../interfaces/IContentGenerationGenerateSubTopicsLiveResultInfo.md).[`sub_topics`](../interfaces/IContentGenerationGenerateSubTopicsLiveResultInfo.md#sub_topics)
 
-#### Defined in
+#### Source
 
-main.ts:166362
+main.ts:166370
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:166375
+main.ts:166383
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:166399
+main.ts:166407
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ContentGenerationGenerateSubTopicsLiveResultInfo`](ContentGenerationGenerateSubTopicsLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`ContentGenerationGenerateSubTopicsLiveResultInfo`](ContentGenerationGenerateSubTopicsLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ContentGenerationGenerateSubTopicsLiveResultInfo`](ContentGenerationGenerateSubTopicsLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:166392
+main.ts:166400

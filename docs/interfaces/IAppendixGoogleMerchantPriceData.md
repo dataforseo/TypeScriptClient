@@ -1,60 +1,51 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixGoogleMerchantPriceData
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppendixGoogleMerchantPriceData
 
 # Interface: IAppendixGoogleMerchantPriceData
 
-## Implemented by
-
-- [`AppendixGoogleMerchantPriceData`](../classes/AppendixGoogleMerchantPriceData.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [product\_info](IAppendixGoogleMerchantPriceData.md#product_info)
-- [product\_spec](IAppendixGoogleMerchantPriceData.md#product_spec)
-- [products](IAppendixGoogleMerchantPriceData.md#products)
-- [sellers](IAppendixGoogleMerchantPriceData.md#sellers)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### product\_info
+### product\_info?
 
-• `Optional` **product\_info**: [`AppendixPriceDataInfo`](../classes/AppendixPriceDataInfo.md)
+> **`optional`** **product\_info**: [`AppendixPriceDataInfo`](../classes/AppendixPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:216007
 
-___
+***
 
-### product\_spec
+### product\_spec?
 
-• `Optional` **product\_spec**: [`AppendixProductGoogleMerchantPriceDataInfo`](../classes/AppendixProductGoogleMerchantPriceDataInfo.md)
+> **`optional`** **product\_spec**: [`AppendixProductGoogleMerchantPriceDataInfo`](../classes/AppendixProductGoogleMerchantPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:216008
 
-___
+***
 
-### products
+### products?
 
-• `Optional` **products**: [`AppendixProductGoogleMerchantPriceDataInfo`](../classes/AppendixProductGoogleMerchantPriceDataInfo.md)
+> **`optional`** **products**: [`AppendixProductGoogleMerchantPriceDataInfo`](../classes/AppendixProductGoogleMerchantPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:216009
 
-___
+***
 
-### sellers
+### sellers?
 
-• `Optional` **sellers**: [`AppendixSellersGoogleMerchantPriceData`](../classes/AppendixSellersGoogleMerchantPriceData.md)
+> **`optional`** **sellers**: [`AppendixSellersGoogleMerchantPriceData`](../classes/AppendixSellersGoogleMerchantPriceData.md)
 
-#### Defined in
+#### Source
 
 main.ts:216010

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataContactInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataContactInfo
 
 # Class: BusinessDataContactInfo
 
@@ -8,83 +12,63 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataContactInfo.md#constructor)
-
-### Properties
-
-- [source](BusinessDataContactInfo.md#source)
-- [type](BusinessDataContactInfo.md#type)
-- [value](BusinessDataContactInfo.md#value)
-
-### Methods
-
-- [init](BusinessDataContactInfo.md#init)
-- [toJSON](BusinessDataContactInfo.md#tojson)
-- [fromJS](BusinessDataContactInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataContactInfo(data)
 
-• **new BusinessDataContactInfo**(`data?`): [`BusinessDataContactInfo`](BusinessDataContactInfo.md)
+> **new BusinessDataContactInfo**(`data`?): [`BusinessDataContactInfo`](BusinessDataContactInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataContactInfo`](../interfaces/IBusinessDataContactInfo.md) |
+• **data?**: [`IBusinessDataContactInfo`](../interfaces/IBusinessDataContactInfo.md)
 
 #### Returns
 
 [`BusinessDataContactInfo`](BusinessDataContactInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:194397
 
 ## Properties
 
-### source
+### source?
 
-• `Optional` **source**: `string`
+> **`optional`** **source**: `string`
 
 data source
 
 #### Implementation of
 
-[IBusinessDataContactInfo](../interfaces/IBusinessDataContactInfo.md).[source](../interfaces/IBusinessDataContactInfo.md#source)
+[`IBusinessDataContactInfo`](../interfaces/IBusinessDataContactInfo.md).[`source`](../interfaces/IBusinessDataContactInfo.md#source)
 
-#### Defined in
+#### Source
 
 main.ts:194393
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IBusinessDataContactInfo](../interfaces/IBusinessDataContactInfo.md).[type](../interfaces/IBusinessDataContactInfo.md#type)
+[`IBusinessDataContactInfo`](../interfaces/IBusinessDataContactInfo.md).[`type`](../interfaces/IBusinessDataContactInfo.md#type)
 
-#### Defined in
+#### Source
 
 main.ts:194387
 
-___
+***
 
-### value
+### value?
 
-• `Optional` **value**: `string`
+> **`optional`** **value**: `string`
 
 contact displayed in SERP 
 example:
@@ -92,68 +76,62 @@ example:
 
 #### Implementation of
 
-[IBusinessDataContactInfo](../interfaces/IBusinessDataContactInfo.md).[value](../interfaces/IBusinessDataContactInfo.md#value)
+[`IBusinessDataContactInfo`](../interfaces/IBusinessDataContactInfo.md).[`value`](../interfaces/IBusinessDataContactInfo.md#value)
 
-#### Defined in
+#### Source
 
 main.ts:194391
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:194406
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:194425
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataContactInfo`](BusinessDataContactInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataContactInfo`](BusinessDataContactInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BusinessDataContactInfo`](BusinessDataContactInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:194418

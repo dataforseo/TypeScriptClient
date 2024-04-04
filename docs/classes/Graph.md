@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / Graph
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / Graph
 
 # Class: Graph
 
@@ -8,134 +12,109 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](Graph.md#constructor)
-
-### Properties
-
-- [items](Graph.md#items)
-- [previous\_items](Graph.md#previous_items)
-
-### Methods
-
-- [init](Graph.md#init)
-- [toJSON](Graph.md#tojson)
-- [fromJS](Graph.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new Graph(data)
 
-• **new Graph**(`data?`): [`Graph`](Graph.md)
+> **new Graph**(`data`?): [`Graph`](Graph.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IGraph`](../interfaces/IGraph.md) |
+• **data?**: [`IGraph`](../interfaces/IGraph.md)
 
 #### Returns
 
 [`Graph`](Graph.md)
 
-#### Defined in
+#### Source
 
-main.ts:33294
+main.ts:33300
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`GraphElement`](GraphElement.md)[]
+> **`optional`** **items**: [`GraphElement`](GraphElement.md)[]
 
 contains arrays of specific images
 
 #### Implementation of
 
-[IGraph](../interfaces/IGraph.md).[items](../interfaces/IGraph.md#items)
+[`IGraph`](../interfaces/IGraph.md).[`items`](../interfaces/IGraph.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:33287
+main.ts:33293
 
-___
+***
 
-### previous\_items
+### previous\_items?
 
-• `Optional` **previous\_items**: [`GraphElement`](GraphElement.md)[]
+> **`optional`** **previous\_items**: [`GraphElement`](GraphElement.md)[]
 
 previous close data
 contains stock price data based on the preceding time period
 
 #### Implementation of
 
-[IGraph](../interfaces/IGraph.md).[previous_items](../interfaces/IGraph.md#previous_items)
+[`IGraph`](../interfaces/IGraph.md).[`previous_items`](../interfaces/IGraph.md#previous_items)
 
-#### Defined in
+#### Source
 
-main.ts:33290
+main.ts:33296
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:33303
+main.ts:33309
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:33329
+main.ts:33335
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`Graph`](Graph.md)
+> **`static`** **fromJS**(`data`): [`Graph`](Graph.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`Graph`](Graph.md)
 
-#### Defined in
+#### Source
 
-main.ts:33322
+main.ts:33328

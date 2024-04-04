@@ -1,124 +1,111 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMerchantGoogleProductsTaskGetHtmlResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IMerchantGoogleProductsTaskGetHtmlResultInfo
 
 # Interface: IMerchantGoogleProductsTaskGetHtmlResultInfo
 
-## Implemented by
-
-- [`MerchantGoogleProductsTaskGetHtmlResultInfo`](../classes/MerchantGoogleProductsTaskGetHtmlResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [datetime](IMerchantGoogleProductsTaskGetHtmlResultInfo.md#datetime)
-- [items](IMerchantGoogleProductsTaskGetHtmlResultInfo.md#items)
-- [items\_count](IMerchantGoogleProductsTaskGetHtmlResultInfo.md#items_count)
-- [keyword](IMerchantGoogleProductsTaskGetHtmlResultInfo.md#keyword)
-- [language\_code](IMerchantGoogleProductsTaskGetHtmlResultInfo.md#language_code)
-- [location\_code](IMerchantGoogleProductsTaskGetHtmlResultInfo.md#location_code)
-- [se\_domain](IMerchantGoogleProductsTaskGetHtmlResultInfo.md#se_domain)
-- [type](IMerchantGoogleProductsTaskGetHtmlResultInfo.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
-main.ts:171153
+main.ts:171161
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`HtmlItem`](../classes/HtmlItem.md)[]
+> **`optional`** **items**: [`HtmlItem`](../classes/HtmlItem.md)[]
 
 elements of search results found on Google Shopping
 
-#### Defined in
+#### Source
 
-main.ts:171157
+main.ts:171165
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Defined in
+#### Source
 
-main.ts:171155
+main.ts:171163
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
 
-#### Defined in
-
-main.ts:171140
-
-___
-
-### language\_code
-
-• `Optional` **language\_code**: `string`
-
-language code in a POST array
-
-#### Defined in
+#### Source
 
 main.ts:171148
 
-___
+***
 
-### location\_code
+### language\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **language\_code**: `string`
+
+language code in a POST array
+
+#### Source
+
+main.ts:171156
+
+***
+
+### location\_code?
+
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:171146
+main.ts:171154
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:171144
+main.ts:171152
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:171142
+main.ts:171150

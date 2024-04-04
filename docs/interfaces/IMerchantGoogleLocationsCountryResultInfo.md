@@ -1,84 +1,74 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMerchantGoogleLocationsCountryResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IMerchantGoogleLocationsCountryResultInfo
 
 # Interface: IMerchantGoogleLocationsCountryResultInfo
 
-## Implemented by
-
-- [`MerchantGoogleLocationsCountryResultInfo`](../classes/MerchantGoogleLocationsCountryResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [country\_iso\_code](IMerchantGoogleLocationsCountryResultInfo.md#country_iso_code)
-- [location\_code](IMerchantGoogleLocationsCountryResultInfo.md#location_code)
-- [location\_name](IMerchantGoogleLocationsCountryResultInfo.md#location_name)
-- [location\_name\_parent](IMerchantGoogleLocationsCountryResultInfo.md#location_name_parent)
-- [location\_type](IMerchantGoogleLocationsCountryResultInfo.md#location_type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### country\_iso\_code
+### country\_iso\_code?
 
-• `Optional` **country\_iso\_code**: `string`
+> **`optional`** **country\_iso\_code**: `string`
 
 ISO country code of the location
 
-#### Defined in
+#### Source
 
-main.ts:169197
+main.ts:169205
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 
-#### Defined in
+#### Source
 
-main.ts:169188
+main.ts:169196
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 
-#### Defined in
+#### Source
 
-main.ts:169190
+main.ts:169198
 
-___
+***
 
-### location\_name\_parent
+### location\_name\_parent?
 
-• `Optional` **location\_name\_parent**: `string`
+> **`optional`** **location\_name\_parent**: `string`
 
 the name of the superordinate location
 example:
 "location_name": "Arkansas,United States",
 "location_name_parent": "United States"
 
-#### Defined in
+#### Source
 
-main.ts:169195
+main.ts:169203
 
-___
+***
 
-### location\_type
+### location\_type?
 
-• `Optional` **location\_type**: `string`
+> **`optional`** **location\_type**: `string`
 
 location type
 
-#### Defined in
+#### Source
 
-main.ts:169199
+main.ts:169207

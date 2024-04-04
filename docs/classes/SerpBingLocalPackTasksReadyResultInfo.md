@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpBingLocalPackTasksReadyResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpBingLocalPackTasksReadyResultInfo
 
 # Class: SerpBingLocalPackTasksReadyResultInfo
 
@@ -8,240 +12,209 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpBingLocalPackTasksReadyResultInfo.md#constructor)
-
-### Properties
-
-- [date\_posted](SerpBingLocalPackTasksReadyResultInfo.md#date_posted)
-- [endpoint\_advanced](SerpBingLocalPackTasksReadyResultInfo.md#endpoint_advanced)
-- [endpoint\_html](SerpBingLocalPackTasksReadyResultInfo.md#endpoint_html)
-- [endpoint\_regular](SerpBingLocalPackTasksReadyResultInfo.md#endpoint_regular)
-- [id](SerpBingLocalPackTasksReadyResultInfo.md#id)
-- [se](SerpBingLocalPackTasksReadyResultInfo.md#se)
-- [se\_type](SerpBingLocalPackTasksReadyResultInfo.md#se_type)
-- [tag](SerpBingLocalPackTasksReadyResultInfo.md#tag)
-
-### Methods
-
-- [init](SerpBingLocalPackTasksReadyResultInfo.md#init)
-- [toJSON](SerpBingLocalPackTasksReadyResultInfo.md#tojson)
-- [fromJS](SerpBingLocalPackTasksReadyResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpBingLocalPackTasksReadyResultInfo(data)
 
-• **new SerpBingLocalPackTasksReadyResultInfo**(`data?`): [`SerpBingLocalPackTasksReadyResultInfo`](SerpBingLocalPackTasksReadyResultInfo.md)
+> **new SerpBingLocalPackTasksReadyResultInfo**(`data`?): [`SerpBingLocalPackTasksReadyResultInfo`](SerpBingLocalPackTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpBingLocalPackTasksReadyResultInfo`](../interfaces/ISerpBingLocalPackTasksReadyResultInfo.md) |
+• **data?**: [`ISerpBingLocalPackTasksReadyResultInfo`](../interfaces/ISerpBingLocalPackTasksReadyResultInfo.md)
 
 #### Returns
 
 [`SerpBingLocalPackTasksReadyResultInfo`](SerpBingLocalPackTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:58190
+main.ts:58198
 
 ## Properties
 
-### date\_posted
+### date\_posted?
 
-• `Optional` **date\_posted**: `string`
+> **`optional`** **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
 #### Implementation of
 
-[ISerpBingLocalPackTasksReadyResultInfo](../interfaces/ISerpBingLocalPackTasksReadyResultInfo.md).[date_posted](../interfaces/ISerpBingLocalPackTasksReadyResultInfo.md#date_posted)
+[`ISerpBingLocalPackTasksReadyResultInfo`](../interfaces/ISerpBingLocalPackTasksReadyResultInfo.md).[`date_posted`](../interfaces/ISerpBingLocalPackTasksReadyResultInfo.md#date_posted)
 
-#### Defined in
+#### Source
 
-main.ts:58175
+main.ts:58183
 
-___
+***
 
-### endpoint\_advanced
+### endpoint\_advanced?
 
-• `Optional` **endpoint\_advanced**: `string`
+> **`optional`** **endpoint\_advanced**: `string`
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpBingLocalPackTasksReadyResultInfo](../interfaces/ISerpBingLocalPackTasksReadyResultInfo.md).[endpoint_advanced](../interfaces/ISerpBingLocalPackTasksReadyResultInfo.md#endpoint_advanced)
+[`ISerpBingLocalPackTasksReadyResultInfo`](../interfaces/ISerpBingLocalPackTasksReadyResultInfo.md).[`endpoint_advanced`](../interfaces/ISerpBingLocalPackTasksReadyResultInfo.md#endpoint_advanced)
 
-#### Defined in
+#### Source
 
-main.ts:58183
+main.ts:58191
 
-___
+***
 
-### endpoint\_html
+### endpoint\_html?
 
-• `Optional` **endpoint\_html**: `string`
+> **`optional`** **endpoint\_html**: `string`
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpBingLocalPackTasksReadyResultInfo](../interfaces/ISerpBingLocalPackTasksReadyResultInfo.md).[endpoint_html](../interfaces/ISerpBingLocalPackTasksReadyResultInfo.md#endpoint_html)
+[`ISerpBingLocalPackTasksReadyResultInfo`](../interfaces/ISerpBingLocalPackTasksReadyResultInfo.md).[`endpoint_html`](../interfaces/ISerpBingLocalPackTasksReadyResultInfo.md#endpoint_html)
 
-#### Defined in
+#### Source
 
-main.ts:58186
+main.ts:58194
 
-___
+***
 
-### endpoint\_regular
+### endpoint\_regular?
 
-• `Optional` **endpoint\_regular**: `string`
+> **`optional`** **endpoint\_regular**: `string`
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpBingLocalPackTasksReadyResultInfo](../interfaces/ISerpBingLocalPackTasksReadyResultInfo.md).[endpoint_regular](../interfaces/ISerpBingLocalPackTasksReadyResultInfo.md#endpoint_regular)
+[`ISerpBingLocalPackTasksReadyResultInfo`](../interfaces/ISerpBingLocalPackTasksReadyResultInfo.md).[`endpoint_regular`](../interfaces/ISerpBingLocalPackTasksReadyResultInfo.md#endpoint_regular)
 
-#### Defined in
+#### Source
 
-main.ts:58180
+main.ts:58188
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[ISerpBingLocalPackTasksReadyResultInfo](../interfaces/ISerpBingLocalPackTasksReadyResultInfo.md).[id](../interfaces/ISerpBingLocalPackTasksReadyResultInfo.md#id)
+[`ISerpBingLocalPackTasksReadyResultInfo`](../interfaces/ISerpBingLocalPackTasksReadyResultInfo.md).[`id`](../interfaces/ISerpBingLocalPackTasksReadyResultInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:58168
+main.ts:58176
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 
 #### Implementation of
 
-[ISerpBingLocalPackTasksReadyResultInfo](../interfaces/ISerpBingLocalPackTasksReadyResultInfo.md).[se](../interfaces/ISerpBingLocalPackTasksReadyResultInfo.md#se)
+[`ISerpBingLocalPackTasksReadyResultInfo`](../interfaces/ISerpBingLocalPackTasksReadyResultInfo.md).[`se`](../interfaces/ISerpBingLocalPackTasksReadyResultInfo.md#se)
 
-#### Defined in
+#### Source
 
-main.ts:58170
+main.ts:58178
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 type of search engine
 can take the following values: local_pack
 
 #### Implementation of
 
-[ISerpBingLocalPackTasksReadyResultInfo](../interfaces/ISerpBingLocalPackTasksReadyResultInfo.md).[se_type](../interfaces/ISerpBingLocalPackTasksReadyResultInfo.md#se_type)
+[`ISerpBingLocalPackTasksReadyResultInfo`](../interfaces/ISerpBingLocalPackTasksReadyResultInfo.md).[`se_type`](../interfaces/ISerpBingLocalPackTasksReadyResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:58173
+main.ts:58181
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
 #### Implementation of
 
-[ISerpBingLocalPackTasksReadyResultInfo](../interfaces/ISerpBingLocalPackTasksReadyResultInfo.md).[tag](../interfaces/ISerpBingLocalPackTasksReadyResultInfo.md#tag)
+[`ISerpBingLocalPackTasksReadyResultInfo`](../interfaces/ISerpBingLocalPackTasksReadyResultInfo.md).[`tag`](../interfaces/ISerpBingLocalPackTasksReadyResultInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:58177
+main.ts:58185
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:58199
+main.ts:58207
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:58223
+main.ts:58231
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpBingLocalPackTasksReadyResultInfo`](SerpBingLocalPackTasksReadyResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpBingLocalPackTasksReadyResultInfo`](SerpBingLocalPackTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpBingLocalPackTasksReadyResultInfo`](SerpBingLocalPackTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:58216
+main.ts:58224

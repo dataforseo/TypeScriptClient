@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo
 
 # Class: DataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`DataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](DataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md#cost)
-- [data](DataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md#data)
-- [id](DataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md#id)
-- [path](DataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md#path)
-- [result](DataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md#result)
-- [result\_count](DataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md#result_count)
-- [status\_code](DataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md#status_code)
-- [status\_message](DataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md#status_message)
-- [time](DataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md#time)
-
-### Methods
-
-- [init](DataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md#init)
-- [toJSON](DataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md#tojson)
-- [fromJS](DataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo(data)
 
-• **new DataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo**(`data?`): [`DataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo`](DataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md)
+> **new DataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo**(`data`?): [`DataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo`](DataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md) |
+• **data?**: [`IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:83447
+main.ts:83455
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md).[cost](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md#cost)
+[`IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md).[`cost`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md).[data](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md#data)
+[`IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md).[`data`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md).[id](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md#id)
+[`IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md).[`id`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md).[path](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md#path)
+[`IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md).[`path`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo`](DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md)[]
+> **`optional`** **result**: [`DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo`](DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md).[result](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md#result)
+[`IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md).[`result`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:83443
+main.ts:83451
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md).[result_count](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md#result_count)
+[`IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md).[`result_count`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md).[status_code](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md#status_code)
+[`IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md).[`status_code`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md).[status_message](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md#status_message)
+[`IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md).[`status_message`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md).[time](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md#time)
+[`IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md).[`time`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:83451
+main.ts:83459
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:83473
+main.ts:83481
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo`](DataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo`](DataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:83466
+main.ts:83474

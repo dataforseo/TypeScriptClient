@@ -1,153 +1,30 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataApi
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataApi
 
 # Class: BusinessDataApi
 
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataApi.md#constructor)
-
-### Properties
-
-- [baseUrl](BusinessDataApi.md#baseurl)
-- [http](BusinessDataApi.md#http)
-- [jsonParseReviver](BusinessDataApi.md#jsonparsereviver)
-
-### Methods
-
-- [businessDataBusinessListingsLocations](BusinessDataApi.md#businessdatabusinesslistingslocations)
-- [businessDataErrors](BusinessDataApi.md#businessdataerrors)
-- [businessDataGoogleLanguages](BusinessDataApi.md#businessdatagooglelanguages)
-- [businessDataGoogleLocations](BusinessDataApi.md#businessdatagooglelocations)
-- [businessDataGoogleLocationsCountry](BusinessDataApi.md#businessdatagooglelocationscountry)
-- [businessDataIdList](BusinessDataApi.md#businessdataidlist)
-- [businessDataTripadvisorLanguages](BusinessDataApi.md#businessdatatripadvisorlanguages)
-- [businessDataTripadvisorLocations](BusinessDataApi.md#businessdatatripadvisorlocations)
-- [businessDataTripadvisorLocationsCountry](BusinessDataApi.md#businessdatatripadvisorlocationscountry)
-- [businessDataYelpLanguages](BusinessDataApi.md#businessdatayelplanguages)
-- [businessDataYelpLocations](BusinessDataApi.md#businessdatayelplocations)
-- [businessDataYelpLocationsCountry](BusinessDataApi.md#businessdatayelplocationscountry)
-- [businessListingsAvailableFilters](BusinessDataApi.md#businesslistingsavailablefilters)
-- [businessListingsCategories](BusinessDataApi.md#businesslistingscategories)
-- [businessListingsCategoriesAggregationLive](BusinessDataApi.md#businesslistingscategoriesaggregationlive)
-- [businessListingsSearchLive](BusinessDataApi.md#businesslistingssearchlive)
-- [googleHotelInfoLiveAdvanced](BusinessDataApi.md#googlehotelinfoliveadvanced)
-- [googleHotelInfoLiveHtml](BusinessDataApi.md#googlehotelinfolivehtml)
-- [googleHotelInfoTaskGetAdvanced](BusinessDataApi.md#googlehotelinfotaskgetadvanced)
-- [googleHotelInfoTaskGetHtml](BusinessDataApi.md#googlehotelinfotaskgethtml)
-- [googleHotelInfoTaskPost](BusinessDataApi.md#googlehotelinfotaskpost)
-- [googleHotelInfoTasksReady](BusinessDataApi.md#googlehotelinfotasksready)
-- [googleHotelSearchesLive](BusinessDataApi.md#googlehotelsearcheslive)
-- [googleHotelSearchesTaskGet](BusinessDataApi.md#googlehotelsearchestaskget)
-- [googleHotelSearchesTaskPost](BusinessDataApi.md#googlehotelsearchestaskpost)
-- [googleHotelSearchesTasksReady](BusinessDataApi.md#googlehotelsearchestasksready)
-- [googleMyBusinessInfoTaskGet](BusinessDataApi.md#googlemybusinessinfotaskget)
-- [googleMyBusinessInfoTaskPost](BusinessDataApi.md#googlemybusinessinfotaskpost)
-- [googleMyBusinessInfoTasksReady](BusinessDataApi.md#googlemybusinessinfotasksready)
-- [googleMyBusinessUpdatesTaskGet](BusinessDataApi.md#googlemybusinessupdatestaskget)
-- [googleMyBusinessUpdatesTaskPost](BusinessDataApi.md#googlemybusinessupdatestaskpost)
-- [googleMyBusinessUpdatesTasksReady](BusinessDataApi.md#googlemybusinessupdatestasksready)
-- [googleReviewsTaskGet](BusinessDataApi.md#googlereviewstaskget)
-- [googleReviewsTaskPost](BusinessDataApi.md#googlereviewstaskpost)
-- [googleReviewsTasksReady](BusinessDataApi.md#googlereviewstasksready)
-- [processBusinessDataBusinessListingsLocations](BusinessDataApi.md#processbusinessdatabusinesslistingslocations)
-- [processBusinessDataErrors](BusinessDataApi.md#processbusinessdataerrors)
-- [processBusinessDataGoogleLanguages](BusinessDataApi.md#processbusinessdatagooglelanguages)
-- [processBusinessDataGoogleLocations](BusinessDataApi.md#processbusinessdatagooglelocations)
-- [processBusinessDataGoogleLocationsCountry](BusinessDataApi.md#processbusinessdatagooglelocationscountry)
-- [processBusinessDataIdList](BusinessDataApi.md#processbusinessdataidlist)
-- [processBusinessDataTripadvisorLanguages](BusinessDataApi.md#processbusinessdatatripadvisorlanguages)
-- [processBusinessDataTripadvisorLocations](BusinessDataApi.md#processbusinessdatatripadvisorlocations)
-- [processBusinessDataTripadvisorLocationsCountry](BusinessDataApi.md#processbusinessdatatripadvisorlocationscountry)
-- [processBusinessDataYelpLanguages](BusinessDataApi.md#processbusinessdatayelplanguages)
-- [processBusinessDataYelpLocations](BusinessDataApi.md#processbusinessdatayelplocations)
-- [processBusinessDataYelpLocationsCountry](BusinessDataApi.md#processbusinessdatayelplocationscountry)
-- [processBusinessListingsAvailableFilters](BusinessDataApi.md#processbusinesslistingsavailablefilters)
-- [processBusinessListingsCategories](BusinessDataApi.md#processbusinesslistingscategories)
-- [processBusinessListingsCategoriesAggregationLive](BusinessDataApi.md#processbusinesslistingscategoriesaggregationlive)
-- [processBusinessListingsSearchLive](BusinessDataApi.md#processbusinesslistingssearchlive)
-- [processGoogleHotelInfoLiveAdvanced](BusinessDataApi.md#processgooglehotelinfoliveadvanced)
-- [processGoogleHotelInfoLiveHtml](BusinessDataApi.md#processgooglehotelinfolivehtml)
-- [processGoogleHotelInfoTaskGetAdvanced](BusinessDataApi.md#processgooglehotelinfotaskgetadvanced)
-- [processGoogleHotelInfoTaskGetHtml](BusinessDataApi.md#processgooglehotelinfotaskgethtml)
-- [processGoogleHotelInfoTaskPost](BusinessDataApi.md#processgooglehotelinfotaskpost)
-- [processGoogleHotelInfoTasksReady](BusinessDataApi.md#processgooglehotelinfotasksready)
-- [processGoogleHotelSearchesLive](BusinessDataApi.md#processgooglehotelsearcheslive)
-- [processGoogleHotelSearchesTaskGet](BusinessDataApi.md#processgooglehotelsearchestaskget)
-- [processGoogleHotelSearchesTaskPost](BusinessDataApi.md#processgooglehotelsearchestaskpost)
-- [processGoogleHotelSearchesTasksReady](BusinessDataApi.md#processgooglehotelsearchestasksready)
-- [processGoogleMyBusinessInfoTaskGet](BusinessDataApi.md#processgooglemybusinessinfotaskget)
-- [processGoogleMyBusinessInfoTaskPost](BusinessDataApi.md#processgooglemybusinessinfotaskpost)
-- [processGoogleMyBusinessInfoTasksReady](BusinessDataApi.md#processgooglemybusinessinfotasksready)
-- [processGoogleMyBusinessUpdatesTaskGet](BusinessDataApi.md#processgooglemybusinessupdatestaskget)
-- [processGoogleMyBusinessUpdatesTaskPost](BusinessDataApi.md#processgooglemybusinessupdatestaskpost)
-- [processGoogleMyBusinessUpdatesTasksReady](BusinessDataApi.md#processgooglemybusinessupdatestasksready)
-- [processGoogleReviewsTaskGet](BusinessDataApi.md#processgooglereviewstaskget)
-- [processGoogleReviewsTaskPost](BusinessDataApi.md#processgooglereviewstaskpost)
-- [processGoogleReviewsTasksReady](BusinessDataApi.md#processgooglereviewstasksready)
-- [processSocialMediaFacebookLive](BusinessDataApi.md#processsocialmediafacebooklive)
-- [processSocialMediaPinterestLive](BusinessDataApi.md#processsocialmediapinterestlive)
-- [processSocialMediaRedditLive](BusinessDataApi.md#processsocialmediaredditlive)
-- [processTripadvisorReviewsTaskGet](BusinessDataApi.md#processtripadvisorreviewstaskget)
-- [processTripadvisorReviewsTaskPost](BusinessDataApi.md#processtripadvisorreviewstaskpost)
-- [processTripadvisorReviewsTasksReady](BusinessDataApi.md#processtripadvisorreviewstasksready)
-- [processTripadvisorSearchTaskGet](BusinessDataApi.md#processtripadvisorsearchtaskget)
-- [processTripadvisorSearchTaskPost](BusinessDataApi.md#processtripadvisorsearchtaskpost)
-- [processTripadvisorSearchTasksReady](BusinessDataApi.md#processtripadvisorsearchtasksready)
-- [processTrustpilotReviewsTaskGet](BusinessDataApi.md#processtrustpilotreviewstaskget)
-- [processTrustpilotReviewsTaskPost](BusinessDataApi.md#processtrustpilotreviewstaskpost)
-- [processTrustpilotReviewsTasksReady](BusinessDataApi.md#processtrustpilotreviewstasksready)
-- [processTrustpilotSearchTaskGet](BusinessDataApi.md#processtrustpilotsearchtaskget)
-- [processTrustpilotSearchTaskPost](BusinessDataApi.md#processtrustpilotsearchtaskpost)
-- [processTrustpilotSearchTasksReady](BusinessDataApi.md#processtrustpilotsearchtasksready)
-- [processYelpReviewsTaskGet](BusinessDataApi.md#processyelpreviewstaskget)
-- [processYelpReviewsTaskPost](BusinessDataApi.md#processyelpreviewstaskpost)
-- [processYelpReviewsTasksReady](BusinessDataApi.md#processyelpreviewstasksready)
-- [processYelpSearchTaskGet](BusinessDataApi.md#processyelpsearchtaskget)
-- [processYelpSearchTaskPost](BusinessDataApi.md#processyelpsearchtaskpost)
-- [processYelpSearchTasksReady](BusinessDataApi.md#processyelpsearchtasksready)
-- [socialMediaFacebookLive](BusinessDataApi.md#socialmediafacebooklive)
-- [socialMediaPinterestLive](BusinessDataApi.md#socialmediapinterestlive)
-- [socialMediaRedditLive](BusinessDataApi.md#socialmediaredditlive)
-- [tripadvisorReviewsTaskGet](BusinessDataApi.md#tripadvisorreviewstaskget)
-- [tripadvisorReviewsTaskPost](BusinessDataApi.md#tripadvisorreviewstaskpost)
-- [tripadvisorReviewsTasksReady](BusinessDataApi.md#tripadvisorreviewstasksready)
-- [tripadvisorSearchTaskGet](BusinessDataApi.md#tripadvisorsearchtaskget)
-- [tripadvisorSearchTaskPost](BusinessDataApi.md#tripadvisorsearchtaskpost)
-- [tripadvisorSearchTasksReady](BusinessDataApi.md#tripadvisorsearchtasksready)
-- [trustpilotReviewsTaskGet](BusinessDataApi.md#trustpilotreviewstaskget)
-- [trustpilotReviewsTaskPost](BusinessDataApi.md#trustpilotreviewstaskpost)
-- [trustpilotReviewsTasksReady](BusinessDataApi.md#trustpilotreviewstasksready)
-- [trustpilotSearchTaskGet](BusinessDataApi.md#trustpilotsearchtaskget)
-- [trustpilotSearchTaskPost](BusinessDataApi.md#trustpilotsearchtaskpost)
-- [trustpilotSearchTasksReady](BusinessDataApi.md#trustpilotsearchtasksready)
-- [yelpReviewsTaskGet](BusinessDataApi.md#yelpreviewstaskget)
-- [yelpReviewsTaskPost](BusinessDataApi.md#yelpreviewstaskpost)
-- [yelpReviewsTasksReady](BusinessDataApi.md#yelpreviewstasksready)
-- [yelpSearchTaskGet](BusinessDataApi.md#yelpsearchtaskget)
-- [yelpSearchTaskPost](BusinessDataApi.md#yelpsearchtaskpost)
-- [yelpSearchTasksReady](BusinessDataApi.md#yelpsearchtasksready)
-
 ## Constructors
 
-### constructor
+### new BusinessDataApi(baseUrl, http)
 
-• **new BusinessDataApi**(`baseUrl?`, `http?`): [`BusinessDataApi`](BusinessDataApi.md)
+> **new BusinessDataApi**(`baseUrl`?, `http`?): [`BusinessDataApi`](BusinessDataApi.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `baseUrl?` | `string` |
-| `http?` | `Object` |
-| `http.fetch` | (`url`: `RequestInfo`, `init?`: `RequestInit`) => `Promise`\<`Response`\> |
+• **baseUrl?**: `string`
+
+• **http?**
+
+• **http\.fetch?**
 
 #### Returns
 
 [`BusinessDataApi`](BusinessDataApi.md)
 
-#### Defined in
+#### Source
 
 main.ts:17341
 
@@ -155,58 +32,59 @@ main.ts:17341
 
 ### baseUrl
 
-• `Private` **baseUrl**: `string`
+> **`private`** **baseUrl**: `string`
 
-#### Defined in
+#### Source
 
 main.ts:17338
 
-___
+***
 
 ### http
 
-• `Private` **http**: `Object`
+> **`private`** **http**: `Object`
 
-#### Type declaration
-
-| Name | Type |
-| :------ | :------ |
-| `fetch` | (`url`: `RequestInfo`, `init?`: `RequestInit`) => `Promise`\<`Response`\> |
-
-#### Defined in
-
-main.ts:17337
-
-___
-
-### jsonParseReviver
-
-• `Protected` **jsonParseReviver**: (`key`: `string`, `value`: `any`) => `any` = `undefined`
-
-#### Type declaration
-
-▸ (`key`, `value`): `any`
+#### http.fetch()
 
 ##### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `key` | `string` |
-| `value` | `any` |
+• **url**: `RequestInfo`
+
+• **init?**: `RequestInit`
 
 ##### Returns
 
+`Promise`\<`Response`\>
+
+#### Source
+
+main.ts:17337
+
+***
+
+### jsonParseReviver
+
+> **`protected`** **jsonParseReviver**: (`key`, `value`) => `any` = `undefined`
+
+#### Parameters
+
+• **key**: `string`
+
+• **value**: `any`
+
+#### Returns
+
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:17339
 
 ## Methods
 
-### businessDataBusinessListingsLocations
+### businessDataBusinessListingsLocations()
 
-▸ **businessDataBusinessListingsLocations**(): `Promise`\<[`BusinessDataBusinessListingsLocationsResponseInfo`](BusinessDataBusinessListingsLocationsResponseInfo.md)\>
+> **businessDataBusinessListingsLocations**(): `Promise`\<[`BusinessDataBusinessListingsLocationsResponseInfo`](BusinessDataBusinessListingsLocationsResponseInfo.md)\>
 
 #### Returns
 
@@ -214,21 +92,21 @@ main.ts:17339
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:17433
 
-___
+***
 
-### businessDataErrors
+### businessDataErrors()
 
-▸ **businessDataErrors**(`body`): `Promise`\<[`BusinessDataErrorsResponseInfo`](BusinessDataErrorsResponseInfo.md)\>
+> **businessDataErrors**(`body`): `Promise`\<[`BusinessDataErrorsResponseInfo`](BusinessDataErrorsResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`BusinessDataErrorsRequestInfo`](BusinessDataErrorsRequestInfo.md)[] | (optional) |
+• **body**: [`BusinessDataErrorsRequestInfo`](BusinessDataErrorsRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -236,15 +114,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:17392
 
-___
+***
 
-### businessDataGoogleLanguages
+### businessDataGoogleLanguages()
 
-▸ **businessDataGoogleLanguages**(): `Promise`\<[`BusinessDataGoogleLanguagesResponseInfo`](BusinessDataGoogleLanguagesResponseInfo.md)\>
+> **businessDataGoogleLanguages**(): `Promise`\<[`BusinessDataGoogleLanguagesResponseInfo`](BusinessDataGoogleLanguagesResponseInfo.md)\>
 
 #### Returns
 
@@ -252,15 +130,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:17710
 
-___
+***
 
-### businessDataGoogleLocations
+### businessDataGoogleLocations()
 
-▸ **businessDataGoogleLocations**(): `Promise`\<[`BusinessDataGoogleLocationsResponseInfo`](BusinessDataGoogleLocationsResponseInfo.md)\>
+> **businessDataGoogleLocations**(): `Promise`\<[`BusinessDataGoogleLocationsResponseInfo`](BusinessDataGoogleLocationsResponseInfo.md)\>
 
 #### Returns
 
@@ -268,21 +146,25 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:17628
 
-___
+***
 
-### businessDataGoogleLocationsCountry
+### businessDataGoogleLocationsCountry()
 
-▸ **businessDataGoogleLocationsCountry**(`country`): `Promise`\<[`BusinessDataGoogleLocationsCountryResponseInfo`](BusinessDataGoogleLocationsCountryResponseInfo.md)\>
+> **businessDataGoogleLocationsCountry**(`country`): `Promise`\<[`BusinessDataGoogleLocationsCountryResponseInfo`](BusinessDataGoogleLocationsCountryResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `country` | `string` | country ISO code optional field specify the ISO code if you want to filter the list of locations by country example: us |
+• **country**: `string`
+
+country ISO code
+optional field
+specify the ISO code if you want to filter the list of locations by country
+example:
+us
 
 #### Returns
 
@@ -290,21 +172,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:17670
 
-___
+***
 
-### businessDataIdList
+### businessDataIdList()
 
-▸ **businessDataIdList**(`body`): `Promise`\<[`BusinessDataIdListResponseInfo`](BusinessDataIdListResponseInfo.md)\>
+> **businessDataIdList**(`body`): `Promise`\<[`BusinessDataIdListResponseInfo`](BusinessDataIdListResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`BusinessDataIdListRequestInfo`](BusinessDataIdListRequestInfo.md)[] | (optional) |
+• **body**: [`BusinessDataIdListRequestInfo`](BusinessDataIdListRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -312,15 +194,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:17350
 
-___
+***
 
-### businessDataTripadvisorLanguages
+### businessDataTripadvisorLanguages()
 
-▸ **businessDataTripadvisorLanguages**(): `Promise`\<[`BusinessDataTripadvisorLanguagesResponseInfo`](BusinessDataTripadvisorLanguagesResponseInfo.md)\>
+> **businessDataTripadvisorLanguages**(): `Promise`\<[`BusinessDataTripadvisorLanguagesResponseInfo`](BusinessDataTripadvisorLanguagesResponseInfo.md)\>
 
 #### Returns
 
@@ -328,15 +210,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:18852
 
-___
+***
 
-### businessDataTripadvisorLocations
+### businessDataTripadvisorLocations()
 
-▸ **businessDataTripadvisorLocations**(): `Promise`\<[`BusinessDataTripadvisorLocationsResponseInfo`](BusinessDataTripadvisorLocationsResponseInfo.md)\>
+> **businessDataTripadvisorLocations**(): `Promise`\<[`BusinessDataTripadvisorLocationsResponseInfo`](BusinessDataTripadvisorLocationsResponseInfo.md)\>
 
 #### Returns
 
@@ -344,21 +226,25 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:18770
 
-___
+***
 
-### businessDataTripadvisorLocationsCountry
+### businessDataTripadvisorLocationsCountry()
 
-▸ **businessDataTripadvisorLocationsCountry**(`country`): `Promise`\<[`BusinessDataTripadvisorLocationsCountryResponseInfo`](BusinessDataTripadvisorLocationsCountryResponseInfo.md)\>
+> **businessDataTripadvisorLocationsCountry**(`country`): `Promise`\<[`BusinessDataTripadvisorLocationsCountryResponseInfo`](BusinessDataTripadvisorLocationsCountryResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `country` | `string` | country ISO code optional field specify the ISO code if you want to filter the list of locations by country example: us |
+• **country**: `string`
+
+country ISO code
+optional field
+specify the ISO code if you want to filter the list of locations by country
+example:
+us
 
 #### Returns
 
@@ -366,15 +252,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:18812
 
-___
+***
 
-### businessDataYelpLanguages
+### businessDataYelpLanguages()
 
-▸ **businessDataYelpLanguages**(): `Promise`\<[`BusinessDataYelpLanguagesResponseInfo`](BusinessDataYelpLanguagesResponseInfo.md)\>
+> **businessDataYelpLanguages**(): `Promise`\<[`BusinessDataYelpLanguagesResponseInfo`](BusinessDataYelpLanguagesResponseInfo.md)\>
 
 #### Returns
 
@@ -382,15 +268,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:19215
 
-___
+***
 
-### businessDataYelpLocations
+### businessDataYelpLocations()
 
-▸ **businessDataYelpLocations**(): `Promise`\<[`BusinessDataYelpLocationsResponseInfo`](BusinessDataYelpLocationsResponseInfo.md)\>
+> **businessDataYelpLocations**(): `Promise`\<[`BusinessDataYelpLocationsResponseInfo`](BusinessDataYelpLocationsResponseInfo.md)\>
 
 #### Returns
 
@@ -398,21 +284,25 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:19133
 
-___
+***
 
-### businessDataYelpLocationsCountry
+### businessDataYelpLocationsCountry()
 
-▸ **businessDataYelpLocationsCountry**(`country`): `Promise`\<[`BusinessDataYelpLocationsCountryResponseInfo`](BusinessDataYelpLocationsCountryResponseInfo.md)\>
+> **businessDataYelpLocationsCountry**(`country`): `Promise`\<[`BusinessDataYelpLocationsCountryResponseInfo`](BusinessDataYelpLocationsCountryResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `country` | `string` | country ISO code optional field specify the ISO code if you want to filter the list of locations by country example: us |
+• **country**: `string`
+
+country ISO code
+optional field
+specify the ISO code if you want to filter the list of locations by country
+example:
+us
 
 #### Returns
 
@@ -420,15 +310,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:19175
 
-___
+***
 
-### businessListingsAvailableFilters
+### businessListingsAvailableFilters()
 
-▸ **businessListingsAvailableFilters**(): `Promise`\<[`BusinessDataBusinessListingsAvailableFiltersResponseInfo`](BusinessDataBusinessListingsAvailableFiltersResponseInfo.md)\>
+> **businessListingsAvailableFilters**(): `Promise`\<[`BusinessDataBusinessListingsAvailableFiltersResponseInfo`](BusinessDataBusinessListingsAvailableFiltersResponseInfo.md)\>
 
 #### Returns
 
@@ -436,15 +326,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:17507
 
-___
+***
 
-### businessListingsCategories
+### businessListingsCategories()
 
-▸ **businessListingsCategories**(): `Promise`\<[`BusinessDataBusinessListingsCategoriesResponseInfo`](BusinessDataBusinessListingsCategoriesResponseInfo.md)\>
+> **businessListingsCategories**(): `Promise`\<[`BusinessDataBusinessListingsCategoriesResponseInfo`](BusinessDataBusinessListingsCategoriesResponseInfo.md)\>
 
 #### Returns
 
@@ -452,21 +342,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:17470
 
-___
+***
 
-### businessListingsCategoriesAggregationLive
+### businessListingsCategoriesAggregationLive()
 
-▸ **businessListingsCategoriesAggregationLive**(`body`): `Promise`\<[`BusinessDataBusinessListingsCategoriesAggregationLiveResponseInfo`](BusinessDataBusinessListingsCategoriesAggregationLiveResponseInfo.md)\>
+> **businessListingsCategoriesAggregationLive**(`body`): `Promise`\<[`BusinessDataBusinessListingsCategoriesAggregationLiveResponseInfo`](BusinessDataBusinessListingsCategoriesAggregationLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md)[] | (optional) |
+• **body**: [`BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -474,21 +364,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:17587
 
-___
+***
 
-### businessListingsSearchLive
+### businessListingsSearchLive()
 
-▸ **businessListingsSearchLive**(`body`): `Promise`\<[`BusinessDataBusinessListingsSearchLiveResponseInfo`](BusinessDataBusinessListingsSearchLiveResponseInfo.md)\>
+> **businessListingsSearchLive**(`body`): `Promise`\<[`BusinessDataBusinessListingsSearchLiveResponseInfo`](BusinessDataBusinessListingsSearchLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`BusinessDataBusinessListingsSearchLiveRequestInfo`](BusinessDataBusinessListingsSearchLiveRequestInfo.md)[] | (optional) |
+• **body**: [`BusinessDataBusinessListingsSearchLiveRequestInfo`](BusinessDataBusinessListingsSearchLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -496,21 +386,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:17545
 
-___
+***
 
-### googleHotelInfoLiveAdvanced
+### googleHotelInfoLiveAdvanced()
 
-▸ **googleHotelInfoLiveAdvanced**(`body`): `Promise`\<[`BusinessDataGoogleHotelInfoLiveAdvancedResponseInfo`](BusinessDataGoogleHotelInfoLiveAdvancedResponseInfo.md)\>
+> **googleHotelInfoLiveAdvanced**(`body`): `Promise`\<[`BusinessDataGoogleHotelInfoLiveAdvancedResponseInfo`](BusinessDataGoogleHotelInfoLiveAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`BusinessDataGoogleHotelInfoLiveAdvancedRequestInfo`](BusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md)[] | (optional) |
+• **body**: [`BusinessDataGoogleHotelInfoLiveAdvancedRequestInfo`](BusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -518,21 +408,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:18321
 
-___
+***
 
-### googleHotelInfoLiveHtml
+### googleHotelInfoLiveHtml()
 
-▸ **googleHotelInfoLiveHtml**(`body`): `Promise`\<[`BusinessDataGoogleHotelInfoLiveHtmlResponseInfo`](BusinessDataGoogleHotelInfoLiveHtmlResponseInfo.md)\>
+> **googleHotelInfoLiveHtml**(`body`): `Promise`\<[`BusinessDataGoogleHotelInfoLiveHtmlResponseInfo`](BusinessDataGoogleHotelInfoLiveHtmlResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`BusinessDataGoogleHotelInfoLiveHtmlRequestInfo`](BusinessDataGoogleHotelInfoLiveHtmlRequestInfo.md)[] | (optional) |
+• **body**: [`BusinessDataGoogleHotelInfoLiveHtmlRequestInfo`](BusinessDataGoogleHotelInfoLiveHtmlRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -540,21 +430,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:18363
 
-___
+***
 
-### googleHotelInfoTaskGetAdvanced
+### googleHotelInfoTaskGetAdvanced()
 
-▸ **googleHotelInfoTaskGetAdvanced**(`id`): `Promise`\<[`BusinessDataGoogleHotelInfoTaskGetAdvancedResponseInfo`](BusinessDataGoogleHotelInfoTaskGetAdvancedResponseInfo.md)\>
+> **googleHotelInfoTaskGetAdvanced**(`id`): `Promise`\<[`BusinessDataGoogleHotelInfoTaskGetAdvancedResponseInfo`](BusinessDataGoogleHotelInfoTaskGetAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -562,21 +454,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:18237
 
-___
+***
 
-### googleHotelInfoTaskGetHtml
+### googleHotelInfoTaskGetHtml()
 
-▸ **googleHotelInfoTaskGetHtml**(`id`): `Promise`\<[`BusinessDataGoogleHotelInfoTaskGetHtmlResponseInfo`](BusinessDataGoogleHotelInfoTaskGetHtmlResponseInfo.md)\>
+> **googleHotelInfoTaskGetHtml**(`id`): `Promise`\<[`BusinessDataGoogleHotelInfoTaskGetHtmlResponseInfo`](BusinessDataGoogleHotelInfoTaskGetHtmlResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 7 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 7 days to request the results of the task at any time
 
 #### Returns
 
@@ -584,21 +478,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:18280
 
-___
+***
 
-### googleHotelInfoTaskPost
+### googleHotelInfoTaskPost()
 
-▸ **googleHotelInfoTaskPost**(`body`): `Promise`\<[`BusinessDataGoogleHotelInfoTaskPostResponseInfo`](BusinessDataGoogleHotelInfoTaskPostResponseInfo.md)\>
+> **googleHotelInfoTaskPost**(`body`): `Promise`\<[`BusinessDataGoogleHotelInfoTaskPostResponseInfo`](BusinessDataGoogleHotelInfoTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`BusinessDataGoogleHotelInfoTaskPostRequestInfo`](BusinessDataGoogleHotelInfoTaskPostRequestInfo.md)[] | (optional) |
+• **body**: [`BusinessDataGoogleHotelInfoTaskPostRequestInfo`](BusinessDataGoogleHotelInfoTaskPostRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -606,15 +500,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:18156
 
-___
+***
 
-### googleHotelInfoTasksReady
+### googleHotelInfoTasksReady()
 
-▸ **googleHotelInfoTasksReady**(): `Promise`\<[`BusinessDataGoogleHotelInfoTasksReadyResponseInfo`](BusinessDataGoogleHotelInfoTasksReadyResponseInfo.md)\>
+> **googleHotelInfoTasksReady**(): `Promise`\<[`BusinessDataGoogleHotelInfoTasksReadyResponseInfo`](BusinessDataGoogleHotelInfoTasksReadyResponseInfo.md)\>
 
 #### Returns
 
@@ -622,21 +516,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:18197
 
-___
+***
 
-### googleHotelSearchesLive
+### googleHotelSearchesLive()
 
-▸ **googleHotelSearchesLive**(`body`): `Promise`\<[`BusinessDataGoogleHotelSearchesLiveResponseInfo`](BusinessDataGoogleHotelSearchesLiveResponseInfo.md)\>
+> **googleHotelSearchesLive**(`body`): `Promise`\<[`BusinessDataGoogleHotelSearchesLiveResponseInfo`](BusinessDataGoogleHotelSearchesLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`BusinessDataGoogleHotelSearchesLiveRequestInfo`](BusinessDataGoogleHotelSearchesLiveRequestInfo.md)[] | (optional) |
+• **body**: [`BusinessDataGoogleHotelSearchesLiveRequestInfo`](BusinessDataGoogleHotelSearchesLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -644,21 +538,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:18114
 
-___
+***
 
-### googleHotelSearchesTaskGet
+### googleHotelSearchesTaskGet()
 
-▸ **googleHotelSearchesTaskGet**(`id`): `Promise`\<[`BusinessDataGoogleHotelSearchesTaskGetResponseInfo`](BusinessDataGoogleHotelSearchesTaskGetResponseInfo.md)\>
+> **googleHotelSearchesTaskGet**(`id`): `Promise`\<[`BusinessDataGoogleHotelSearchesTaskGetResponseInfo`](BusinessDataGoogleHotelSearchesTaskGetResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -666,21 +562,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:18073
 
-___
+***
 
-### googleHotelSearchesTaskPost
+### googleHotelSearchesTaskPost()
 
-▸ **googleHotelSearchesTaskPost**(`body`): `Promise`\<[`BusinessDataGoogleHotelSearchesTaskPostResponseInfo`](BusinessDataGoogleHotelSearchesTaskPostResponseInfo.md)\>
+> **googleHotelSearchesTaskPost**(`body`): `Promise`\<[`BusinessDataGoogleHotelSearchesTaskPostResponseInfo`](BusinessDataGoogleHotelSearchesTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`BusinessDataGoogleHotelSearchesTaskPostRequestInfo`](BusinessDataGoogleHotelSearchesTaskPostRequestInfo.md)[] | (optional) |
+• **body**: [`BusinessDataGoogleHotelSearchesTaskPostRequestInfo`](BusinessDataGoogleHotelSearchesTaskPostRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -688,15 +584,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:17992
 
-___
+***
 
-### googleHotelSearchesTasksReady
+### googleHotelSearchesTasksReady()
 
-▸ **googleHotelSearchesTasksReady**(): `Promise`\<[`BusinessDataGoogleHotelSearchesTasksReadyResponseInfo`](BusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md)\>
+> **googleHotelSearchesTasksReady**(): `Promise`\<[`BusinessDataGoogleHotelSearchesTasksReadyResponseInfo`](BusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md)\>
 
 #### Returns
 
@@ -704,21 +600,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:18033
 
-___
+***
 
-### googleMyBusinessInfoTaskGet
+### googleMyBusinessInfoTaskGet()
 
-▸ **googleMyBusinessInfoTaskGet**(`id`): `Promise`\<[`BusinessDataGoogleMyBusinessInfoTaskGetResponseInfo`](BusinessDataGoogleMyBusinessInfoTaskGetResponseInfo.md)\>
+> **googleMyBusinessInfoTaskGet**(`id`): `Promise`\<[`BusinessDataGoogleMyBusinessInfoTaskGetResponseInfo`](BusinessDataGoogleMyBusinessInfoTaskGetResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -726,21 +624,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:17829
 
-___
+***
 
-### googleMyBusinessInfoTaskPost
+### googleMyBusinessInfoTaskPost()
 
-▸ **googleMyBusinessInfoTaskPost**(`body`): `Promise`\<[`BusinessDataGoogleMyBusinessInfoTaskPostResponseInfo`](BusinessDataGoogleMyBusinessInfoTaskPostResponseInfo.md)\>
+> **googleMyBusinessInfoTaskPost**(`body`): `Promise`\<[`BusinessDataGoogleMyBusinessInfoTaskPostResponseInfo`](BusinessDataGoogleMyBusinessInfoTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md)[] | (optional) |
+• **body**: [`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -748,15 +646,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:17748
 
-___
+***
 
-### googleMyBusinessInfoTasksReady
+### googleMyBusinessInfoTasksReady()
 
-▸ **googleMyBusinessInfoTasksReady**(): `Promise`\<[`BusinessDataGoogleMyBusinessInfoTasksReadyResponseInfo`](BusinessDataGoogleMyBusinessInfoTasksReadyResponseInfo.md)\>
+> **googleMyBusinessInfoTasksReady**(): `Promise`\<[`BusinessDataGoogleMyBusinessInfoTasksReadyResponseInfo`](BusinessDataGoogleMyBusinessInfoTasksReadyResponseInfo.md)\>
 
 #### Returns
 
@@ -764,21 +662,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:17789
 
-___
+***
 
-### googleMyBusinessUpdatesTaskGet
+### googleMyBusinessUpdatesTaskGet()
 
-▸ **googleMyBusinessUpdatesTaskGet**(`id`): `Promise`\<[`BusinessDataGoogleMyBusinessUpdatesTaskGetResponseInfo`](BusinessDataGoogleMyBusinessUpdatesTaskGetResponseInfo.md)\>
+> **googleMyBusinessUpdatesTaskGet**(`id`): `Promise`\<[`BusinessDataGoogleMyBusinessUpdatesTaskGetResponseInfo`](BusinessDataGoogleMyBusinessUpdatesTaskGetResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -786,21 +686,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:17951
 
-___
+***
 
-### googleMyBusinessUpdatesTaskPost
+### googleMyBusinessUpdatesTaskPost()
 
-▸ **googleMyBusinessUpdatesTaskPost**(`body`): `Promise`\<[`BusinessDataGoogleMyBusinessUpdatesTaskPostResponseInfo`](BusinessDataGoogleMyBusinessUpdatesTaskPostResponseInfo.md)\>
+> **googleMyBusinessUpdatesTaskPost**(`body`): `Promise`\<[`BusinessDataGoogleMyBusinessUpdatesTaskPostResponseInfo`](BusinessDataGoogleMyBusinessUpdatesTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo`](BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md)[] | (optional) |
+• **body**: [`BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo`](BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -808,15 +708,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:17870
 
-___
+***
 
-### googleMyBusinessUpdatesTasksReady
+### googleMyBusinessUpdatesTasksReady()
 
-▸ **googleMyBusinessUpdatesTasksReady**(): `Promise`\<[`BusinessDataGoogleMyBusinessUpdatesTasksReadyResponseInfo`](BusinessDataGoogleMyBusinessUpdatesTasksReadyResponseInfo.md)\>
+> **googleMyBusinessUpdatesTasksReady**(): `Promise`\<[`BusinessDataGoogleMyBusinessUpdatesTasksReadyResponseInfo`](BusinessDataGoogleMyBusinessUpdatesTasksReadyResponseInfo.md)\>
 
 #### Returns
 
@@ -824,21 +724,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:17911
 
-___
+***
 
-### googleReviewsTaskGet
+### googleReviewsTaskGet()
 
-▸ **googleReviewsTaskGet**(`id`): `Promise`\<[`BusinessDataGoogleReviewsTaskGetResponseInfo`](BusinessDataGoogleReviewsTaskGetResponseInfo.md)\>
+> **googleReviewsTaskGet**(`id`): `Promise`\<[`BusinessDataGoogleReviewsTaskGetResponseInfo`](BusinessDataGoogleReviewsTaskGetResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -846,21 +748,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:18486
 
-___
+***
 
-### googleReviewsTaskPost
+### googleReviewsTaskPost()
 
-▸ **googleReviewsTaskPost**(`body`): `Promise`\<[`BusinessDataGoogleReviewsTaskPostResponseInfo`](BusinessDataGoogleReviewsTaskPostResponseInfo.md)\>
+> **googleReviewsTaskPost**(`body`): `Promise`\<[`BusinessDataGoogleReviewsTaskPostResponseInfo`](BusinessDataGoogleReviewsTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`BusinessDataGoogleReviewsTaskPostRequestInfo`](BusinessDataGoogleReviewsTaskPostRequestInfo.md)[] | (optional) |
+• **body**: [`BusinessDataGoogleReviewsTaskPostRequestInfo`](BusinessDataGoogleReviewsTaskPostRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -868,15 +770,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:18405
 
-___
+***
 
-### googleReviewsTasksReady
+### googleReviewsTasksReady()
 
-▸ **googleReviewsTasksReady**(): `Promise`\<[`BusinessDataGoogleReviewsTasksReadyResponseInfo`](BusinessDataGoogleReviewsTasksReadyResponseInfo.md)\>
+> **googleReviewsTasksReady**(): `Promise`\<[`BusinessDataGoogleReviewsTasksReadyResponseInfo`](BusinessDataGoogleReviewsTasksReadyResponseInfo.md)\>
 
 #### Returns
 
@@ -884,1141 +786,1029 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:18446
 
-___
+***
 
-### processBusinessDataBusinessListingsLocations
+### processBusinessDataBusinessListingsLocations()
 
-▸ **processBusinessDataBusinessListingsLocations**(`response`): `Promise`\<[`BusinessDataBusinessListingsLocationsResponseInfo`](BusinessDataBusinessListingsLocationsResponseInfo.md)\>
+> **`protected`** **processBusinessDataBusinessListingsLocations**(`response`): `Promise`\<[`BusinessDataBusinessListingsLocationsResponseInfo`](BusinessDataBusinessListingsLocationsResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataBusinessListingsLocationsResponseInfo`](BusinessDataBusinessListingsLocationsResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:17449
 
-___
+***
 
-### processBusinessDataErrors
+### processBusinessDataErrors()
 
-▸ **processBusinessDataErrors**(`response`): `Promise`\<[`BusinessDataErrorsResponseInfo`](BusinessDataErrorsResponseInfo.md)\>
+> **`protected`** **processBusinessDataErrors**(`response`): `Promise`\<[`BusinessDataErrorsResponseInfo`](BusinessDataErrorsResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataErrorsResponseInfo`](BusinessDataErrorsResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:17412
 
-___
+***
 
-### processBusinessDataGoogleLanguages
+### processBusinessDataGoogleLanguages()
 
-▸ **processBusinessDataGoogleLanguages**(`response`): `Promise`\<[`BusinessDataGoogleLanguagesResponseInfo`](BusinessDataGoogleLanguagesResponseInfo.md)\>
+> **`protected`** **processBusinessDataGoogleLanguages**(`response`): `Promise`\<[`BusinessDataGoogleLanguagesResponseInfo`](BusinessDataGoogleLanguagesResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataGoogleLanguagesResponseInfo`](BusinessDataGoogleLanguagesResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:17726
 
-___
+***
 
-### processBusinessDataGoogleLocations
+### processBusinessDataGoogleLocations()
 
-▸ **processBusinessDataGoogleLocations**(`response`): `Promise`\<[`BusinessDataGoogleLocationsResponseInfo`](BusinessDataGoogleLocationsResponseInfo.md)\>
+> **`protected`** **processBusinessDataGoogleLocations**(`response`): `Promise`\<[`BusinessDataGoogleLocationsResponseInfo`](BusinessDataGoogleLocationsResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataGoogleLocationsResponseInfo`](BusinessDataGoogleLocationsResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:17644
 
-___
+***
 
-### processBusinessDataGoogleLocationsCountry
+### processBusinessDataGoogleLocationsCountry()
 
-▸ **processBusinessDataGoogleLocationsCountry**(`response`): `Promise`\<[`BusinessDataGoogleLocationsCountryResponseInfo`](BusinessDataGoogleLocationsCountryResponseInfo.md)\>
+> **`protected`** **processBusinessDataGoogleLocationsCountry**(`response`): `Promise`\<[`BusinessDataGoogleLocationsCountryResponseInfo`](BusinessDataGoogleLocationsCountryResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataGoogleLocationsCountryResponseInfo`](BusinessDataGoogleLocationsCountryResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:17689
 
-___
+***
 
-### processBusinessDataIdList
+### processBusinessDataIdList()
 
-▸ **processBusinessDataIdList**(`response`): `Promise`\<[`BusinessDataIdListResponseInfo`](BusinessDataIdListResponseInfo.md)\>
+> **`protected`** **processBusinessDataIdList**(`response`): `Promise`\<[`BusinessDataIdListResponseInfo`](BusinessDataIdListResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataIdListResponseInfo`](BusinessDataIdListResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:17370
 
-___
+***
 
-### processBusinessDataTripadvisorLanguages
+### processBusinessDataTripadvisorLanguages()
 
-▸ **processBusinessDataTripadvisorLanguages**(`response`): `Promise`\<[`BusinessDataTripadvisorLanguagesResponseInfo`](BusinessDataTripadvisorLanguagesResponseInfo.md)\>
+> **`protected`** **processBusinessDataTripadvisorLanguages**(`response`): `Promise`\<[`BusinessDataTripadvisorLanguagesResponseInfo`](BusinessDataTripadvisorLanguagesResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataTripadvisorLanguagesResponseInfo`](BusinessDataTripadvisorLanguagesResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:18868
 
-___
+***
 
-### processBusinessDataTripadvisorLocations
+### processBusinessDataTripadvisorLocations()
 
-▸ **processBusinessDataTripadvisorLocations**(`response`): `Promise`\<[`BusinessDataTripadvisorLocationsResponseInfo`](BusinessDataTripadvisorLocationsResponseInfo.md)\>
+> **`protected`** **processBusinessDataTripadvisorLocations**(`response`): `Promise`\<[`BusinessDataTripadvisorLocationsResponseInfo`](BusinessDataTripadvisorLocationsResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataTripadvisorLocationsResponseInfo`](BusinessDataTripadvisorLocationsResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:18786
 
-___
+***
 
-### processBusinessDataTripadvisorLocationsCountry
+### processBusinessDataTripadvisorLocationsCountry()
 
-▸ **processBusinessDataTripadvisorLocationsCountry**(`response`): `Promise`\<[`BusinessDataTripadvisorLocationsCountryResponseInfo`](BusinessDataTripadvisorLocationsCountryResponseInfo.md)\>
+> **`protected`** **processBusinessDataTripadvisorLocationsCountry**(`response`): `Promise`\<[`BusinessDataTripadvisorLocationsCountryResponseInfo`](BusinessDataTripadvisorLocationsCountryResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataTripadvisorLocationsCountryResponseInfo`](BusinessDataTripadvisorLocationsCountryResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:18831
 
-___
+***
 
-### processBusinessDataYelpLanguages
+### processBusinessDataYelpLanguages()
 
-▸ **processBusinessDataYelpLanguages**(`response`): `Promise`\<[`BusinessDataYelpLanguagesResponseInfo`](BusinessDataYelpLanguagesResponseInfo.md)\>
+> **`protected`** **processBusinessDataYelpLanguages**(`response`): `Promise`\<[`BusinessDataYelpLanguagesResponseInfo`](BusinessDataYelpLanguagesResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataYelpLanguagesResponseInfo`](BusinessDataYelpLanguagesResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:19231
 
-___
+***
 
-### processBusinessDataYelpLocations
+### processBusinessDataYelpLocations()
 
-▸ **processBusinessDataYelpLocations**(`response`): `Promise`\<[`BusinessDataYelpLocationsResponseInfo`](BusinessDataYelpLocationsResponseInfo.md)\>
+> **`protected`** **processBusinessDataYelpLocations**(`response`): `Promise`\<[`BusinessDataYelpLocationsResponseInfo`](BusinessDataYelpLocationsResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataYelpLocationsResponseInfo`](BusinessDataYelpLocationsResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:19149
 
-___
+***
 
-### processBusinessDataYelpLocationsCountry
+### processBusinessDataYelpLocationsCountry()
 
-▸ **processBusinessDataYelpLocationsCountry**(`response`): `Promise`\<[`BusinessDataYelpLocationsCountryResponseInfo`](BusinessDataYelpLocationsCountryResponseInfo.md)\>
+> **`protected`** **processBusinessDataYelpLocationsCountry**(`response`): `Promise`\<[`BusinessDataYelpLocationsCountryResponseInfo`](BusinessDataYelpLocationsCountryResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataYelpLocationsCountryResponseInfo`](BusinessDataYelpLocationsCountryResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:19194
 
-___
+***
 
-### processBusinessListingsAvailableFilters
+### processBusinessListingsAvailableFilters()
 
-▸ **processBusinessListingsAvailableFilters**(`response`): `Promise`\<[`BusinessDataBusinessListingsAvailableFiltersResponseInfo`](BusinessDataBusinessListingsAvailableFiltersResponseInfo.md)\>
+> **`protected`** **processBusinessListingsAvailableFilters**(`response`): `Promise`\<[`BusinessDataBusinessListingsAvailableFiltersResponseInfo`](BusinessDataBusinessListingsAvailableFiltersResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataBusinessListingsAvailableFiltersResponseInfo`](BusinessDataBusinessListingsAvailableFiltersResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:17523
 
-___
+***
 
-### processBusinessListingsCategories
+### processBusinessListingsCategories()
 
-▸ **processBusinessListingsCategories**(`response`): `Promise`\<[`BusinessDataBusinessListingsCategoriesResponseInfo`](BusinessDataBusinessListingsCategoriesResponseInfo.md)\>
+> **`protected`** **processBusinessListingsCategories**(`response`): `Promise`\<[`BusinessDataBusinessListingsCategoriesResponseInfo`](BusinessDataBusinessListingsCategoriesResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataBusinessListingsCategoriesResponseInfo`](BusinessDataBusinessListingsCategoriesResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:17486
 
-___
+***
 
-### processBusinessListingsCategoriesAggregationLive
+### processBusinessListingsCategoriesAggregationLive()
 
-▸ **processBusinessListingsCategoriesAggregationLive**(`response`): `Promise`\<[`BusinessDataBusinessListingsCategoriesAggregationLiveResponseInfo`](BusinessDataBusinessListingsCategoriesAggregationLiveResponseInfo.md)\>
+> **`protected`** **processBusinessListingsCategoriesAggregationLive**(`response`): `Promise`\<[`BusinessDataBusinessListingsCategoriesAggregationLiveResponseInfo`](BusinessDataBusinessListingsCategoriesAggregationLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataBusinessListingsCategoriesAggregationLiveResponseInfo`](BusinessDataBusinessListingsCategoriesAggregationLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:17607
 
-___
+***
 
-### processBusinessListingsSearchLive
+### processBusinessListingsSearchLive()
 
-▸ **processBusinessListingsSearchLive**(`response`): `Promise`\<[`BusinessDataBusinessListingsSearchLiveResponseInfo`](BusinessDataBusinessListingsSearchLiveResponseInfo.md)\>
+> **`protected`** **processBusinessListingsSearchLive**(`response`): `Promise`\<[`BusinessDataBusinessListingsSearchLiveResponseInfo`](BusinessDataBusinessListingsSearchLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataBusinessListingsSearchLiveResponseInfo`](BusinessDataBusinessListingsSearchLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:17565
 
-___
+***
 
-### processGoogleHotelInfoLiveAdvanced
+### processGoogleHotelInfoLiveAdvanced()
 
-▸ **processGoogleHotelInfoLiveAdvanced**(`response`): `Promise`\<[`BusinessDataGoogleHotelInfoLiveAdvancedResponseInfo`](BusinessDataGoogleHotelInfoLiveAdvancedResponseInfo.md)\>
+> **`protected`** **processGoogleHotelInfoLiveAdvanced**(`response`): `Promise`\<[`BusinessDataGoogleHotelInfoLiveAdvancedResponseInfo`](BusinessDataGoogleHotelInfoLiveAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataGoogleHotelInfoLiveAdvancedResponseInfo`](BusinessDataGoogleHotelInfoLiveAdvancedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:18341
 
-___
+***
 
-### processGoogleHotelInfoLiveHtml
+### processGoogleHotelInfoLiveHtml()
 
-▸ **processGoogleHotelInfoLiveHtml**(`response`): `Promise`\<[`BusinessDataGoogleHotelInfoLiveHtmlResponseInfo`](BusinessDataGoogleHotelInfoLiveHtmlResponseInfo.md)\>
+> **`protected`** **processGoogleHotelInfoLiveHtml**(`response`): `Promise`\<[`BusinessDataGoogleHotelInfoLiveHtmlResponseInfo`](BusinessDataGoogleHotelInfoLiveHtmlResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataGoogleHotelInfoLiveHtmlResponseInfo`](BusinessDataGoogleHotelInfoLiveHtmlResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:18383
 
-___
+***
 
-### processGoogleHotelInfoTaskGetAdvanced
+### processGoogleHotelInfoTaskGetAdvanced()
 
-▸ **processGoogleHotelInfoTaskGetAdvanced**(`response`): `Promise`\<[`BusinessDataGoogleHotelInfoTaskGetAdvancedResponseInfo`](BusinessDataGoogleHotelInfoTaskGetAdvancedResponseInfo.md)\>
+> **`protected`** **processGoogleHotelInfoTaskGetAdvanced**(`response`): `Promise`\<[`BusinessDataGoogleHotelInfoTaskGetAdvancedResponseInfo`](BusinessDataGoogleHotelInfoTaskGetAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataGoogleHotelInfoTaskGetAdvancedResponseInfo`](BusinessDataGoogleHotelInfoTaskGetAdvancedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:18256
 
-___
+***
 
-### processGoogleHotelInfoTaskGetHtml
+### processGoogleHotelInfoTaskGetHtml()
 
-▸ **processGoogleHotelInfoTaskGetHtml**(`response`): `Promise`\<[`BusinessDataGoogleHotelInfoTaskGetHtmlResponseInfo`](BusinessDataGoogleHotelInfoTaskGetHtmlResponseInfo.md)\>
+> **`protected`** **processGoogleHotelInfoTaskGetHtml**(`response`): `Promise`\<[`BusinessDataGoogleHotelInfoTaskGetHtmlResponseInfo`](BusinessDataGoogleHotelInfoTaskGetHtmlResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataGoogleHotelInfoTaskGetHtmlResponseInfo`](BusinessDataGoogleHotelInfoTaskGetHtmlResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:18299
 
-___
+***
 
-### processGoogleHotelInfoTaskPost
+### processGoogleHotelInfoTaskPost()
 
-▸ **processGoogleHotelInfoTaskPost**(`response`): `Promise`\<[`BusinessDataGoogleHotelInfoTaskPostResponseInfo`](BusinessDataGoogleHotelInfoTaskPostResponseInfo.md)\>
+> **`protected`** **processGoogleHotelInfoTaskPost**(`response`): `Promise`\<[`BusinessDataGoogleHotelInfoTaskPostResponseInfo`](BusinessDataGoogleHotelInfoTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataGoogleHotelInfoTaskPostResponseInfo`](BusinessDataGoogleHotelInfoTaskPostResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:18176
 
-___
+***
 
-### processGoogleHotelInfoTasksReady
+### processGoogleHotelInfoTasksReady()
 
-▸ **processGoogleHotelInfoTasksReady**(`response`): `Promise`\<[`BusinessDataGoogleHotelInfoTasksReadyResponseInfo`](BusinessDataGoogleHotelInfoTasksReadyResponseInfo.md)\>
+> **`protected`** **processGoogleHotelInfoTasksReady**(`response`): `Promise`\<[`BusinessDataGoogleHotelInfoTasksReadyResponseInfo`](BusinessDataGoogleHotelInfoTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataGoogleHotelInfoTasksReadyResponseInfo`](BusinessDataGoogleHotelInfoTasksReadyResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:18213
 
-___
+***
 
-### processGoogleHotelSearchesLive
+### processGoogleHotelSearchesLive()
 
-▸ **processGoogleHotelSearchesLive**(`response`): `Promise`\<[`BusinessDataGoogleHotelSearchesLiveResponseInfo`](BusinessDataGoogleHotelSearchesLiveResponseInfo.md)\>
+> **`protected`** **processGoogleHotelSearchesLive**(`response`): `Promise`\<[`BusinessDataGoogleHotelSearchesLiveResponseInfo`](BusinessDataGoogleHotelSearchesLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataGoogleHotelSearchesLiveResponseInfo`](BusinessDataGoogleHotelSearchesLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:18134
 
-___
+***
 
-### processGoogleHotelSearchesTaskGet
+### processGoogleHotelSearchesTaskGet()
 
-▸ **processGoogleHotelSearchesTaskGet**(`response`): `Promise`\<[`BusinessDataGoogleHotelSearchesTaskGetResponseInfo`](BusinessDataGoogleHotelSearchesTaskGetResponseInfo.md)\>
+> **`protected`** **processGoogleHotelSearchesTaskGet**(`response`): `Promise`\<[`BusinessDataGoogleHotelSearchesTaskGetResponseInfo`](BusinessDataGoogleHotelSearchesTaskGetResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataGoogleHotelSearchesTaskGetResponseInfo`](BusinessDataGoogleHotelSearchesTaskGetResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:18092
 
-___
+***
 
-### processGoogleHotelSearchesTaskPost
+### processGoogleHotelSearchesTaskPost()
 
-▸ **processGoogleHotelSearchesTaskPost**(`response`): `Promise`\<[`BusinessDataGoogleHotelSearchesTaskPostResponseInfo`](BusinessDataGoogleHotelSearchesTaskPostResponseInfo.md)\>
+> **`protected`** **processGoogleHotelSearchesTaskPost**(`response`): `Promise`\<[`BusinessDataGoogleHotelSearchesTaskPostResponseInfo`](BusinessDataGoogleHotelSearchesTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataGoogleHotelSearchesTaskPostResponseInfo`](BusinessDataGoogleHotelSearchesTaskPostResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:18012
 
-___
+***
 
-### processGoogleHotelSearchesTasksReady
+### processGoogleHotelSearchesTasksReady()
 
-▸ **processGoogleHotelSearchesTasksReady**(`response`): `Promise`\<[`BusinessDataGoogleHotelSearchesTasksReadyResponseInfo`](BusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md)\>
+> **`protected`** **processGoogleHotelSearchesTasksReady**(`response`): `Promise`\<[`BusinessDataGoogleHotelSearchesTasksReadyResponseInfo`](BusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataGoogleHotelSearchesTasksReadyResponseInfo`](BusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:18049
 
-___
+***
 
-### processGoogleMyBusinessInfoTaskGet
+### processGoogleMyBusinessInfoTaskGet()
 
-▸ **processGoogleMyBusinessInfoTaskGet**(`response`): `Promise`\<[`BusinessDataGoogleMyBusinessInfoTaskGetResponseInfo`](BusinessDataGoogleMyBusinessInfoTaskGetResponseInfo.md)\>
+> **`protected`** **processGoogleMyBusinessInfoTaskGet**(`response`): `Promise`\<[`BusinessDataGoogleMyBusinessInfoTaskGetResponseInfo`](BusinessDataGoogleMyBusinessInfoTaskGetResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataGoogleMyBusinessInfoTaskGetResponseInfo`](BusinessDataGoogleMyBusinessInfoTaskGetResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:17848
 
-___
+***
 
-### processGoogleMyBusinessInfoTaskPost
+### processGoogleMyBusinessInfoTaskPost()
 
-▸ **processGoogleMyBusinessInfoTaskPost**(`response`): `Promise`\<[`BusinessDataGoogleMyBusinessInfoTaskPostResponseInfo`](BusinessDataGoogleMyBusinessInfoTaskPostResponseInfo.md)\>
+> **`protected`** **processGoogleMyBusinessInfoTaskPost**(`response`): `Promise`\<[`BusinessDataGoogleMyBusinessInfoTaskPostResponseInfo`](BusinessDataGoogleMyBusinessInfoTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataGoogleMyBusinessInfoTaskPostResponseInfo`](BusinessDataGoogleMyBusinessInfoTaskPostResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:17768
 
-___
+***
 
-### processGoogleMyBusinessInfoTasksReady
+### processGoogleMyBusinessInfoTasksReady()
 
-▸ **processGoogleMyBusinessInfoTasksReady**(`response`): `Promise`\<[`BusinessDataGoogleMyBusinessInfoTasksReadyResponseInfo`](BusinessDataGoogleMyBusinessInfoTasksReadyResponseInfo.md)\>
+> **`protected`** **processGoogleMyBusinessInfoTasksReady**(`response`): `Promise`\<[`BusinessDataGoogleMyBusinessInfoTasksReadyResponseInfo`](BusinessDataGoogleMyBusinessInfoTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataGoogleMyBusinessInfoTasksReadyResponseInfo`](BusinessDataGoogleMyBusinessInfoTasksReadyResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:17805
 
-___
+***
 
-### processGoogleMyBusinessUpdatesTaskGet
+### processGoogleMyBusinessUpdatesTaskGet()
 
-▸ **processGoogleMyBusinessUpdatesTaskGet**(`response`): `Promise`\<[`BusinessDataGoogleMyBusinessUpdatesTaskGetResponseInfo`](BusinessDataGoogleMyBusinessUpdatesTaskGetResponseInfo.md)\>
+> **`protected`** **processGoogleMyBusinessUpdatesTaskGet**(`response`): `Promise`\<[`BusinessDataGoogleMyBusinessUpdatesTaskGetResponseInfo`](BusinessDataGoogleMyBusinessUpdatesTaskGetResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataGoogleMyBusinessUpdatesTaskGetResponseInfo`](BusinessDataGoogleMyBusinessUpdatesTaskGetResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:17970
 
-___
+***
 
-### processGoogleMyBusinessUpdatesTaskPost
+### processGoogleMyBusinessUpdatesTaskPost()
 
-▸ **processGoogleMyBusinessUpdatesTaskPost**(`response`): `Promise`\<[`BusinessDataGoogleMyBusinessUpdatesTaskPostResponseInfo`](BusinessDataGoogleMyBusinessUpdatesTaskPostResponseInfo.md)\>
+> **`protected`** **processGoogleMyBusinessUpdatesTaskPost**(`response`): `Promise`\<[`BusinessDataGoogleMyBusinessUpdatesTaskPostResponseInfo`](BusinessDataGoogleMyBusinessUpdatesTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataGoogleMyBusinessUpdatesTaskPostResponseInfo`](BusinessDataGoogleMyBusinessUpdatesTaskPostResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:17890
 
-___
+***
 
-### processGoogleMyBusinessUpdatesTasksReady
+### processGoogleMyBusinessUpdatesTasksReady()
 
-▸ **processGoogleMyBusinessUpdatesTasksReady**(`response`): `Promise`\<[`BusinessDataGoogleMyBusinessUpdatesTasksReadyResponseInfo`](BusinessDataGoogleMyBusinessUpdatesTasksReadyResponseInfo.md)\>
+> **`protected`** **processGoogleMyBusinessUpdatesTasksReady**(`response`): `Promise`\<[`BusinessDataGoogleMyBusinessUpdatesTasksReadyResponseInfo`](BusinessDataGoogleMyBusinessUpdatesTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataGoogleMyBusinessUpdatesTasksReadyResponseInfo`](BusinessDataGoogleMyBusinessUpdatesTasksReadyResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:17927
 
-___
+***
 
-### processGoogleReviewsTaskGet
+### processGoogleReviewsTaskGet()
 
-▸ **processGoogleReviewsTaskGet**(`response`): `Promise`\<[`BusinessDataGoogleReviewsTaskGetResponseInfo`](BusinessDataGoogleReviewsTaskGetResponseInfo.md)\>
+> **`protected`** **processGoogleReviewsTaskGet**(`response`): `Promise`\<[`BusinessDataGoogleReviewsTaskGetResponseInfo`](BusinessDataGoogleReviewsTaskGetResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataGoogleReviewsTaskGetResponseInfo`](BusinessDataGoogleReviewsTaskGetResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:18505
 
-___
+***
 
-### processGoogleReviewsTaskPost
+### processGoogleReviewsTaskPost()
 
-▸ **processGoogleReviewsTaskPost**(`response`): `Promise`\<[`BusinessDataGoogleReviewsTaskPostResponseInfo`](BusinessDataGoogleReviewsTaskPostResponseInfo.md)\>
+> **`protected`** **processGoogleReviewsTaskPost**(`response`): `Promise`\<[`BusinessDataGoogleReviewsTaskPostResponseInfo`](BusinessDataGoogleReviewsTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataGoogleReviewsTaskPostResponseInfo`](BusinessDataGoogleReviewsTaskPostResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:18425
 
-___
+***
 
-### processGoogleReviewsTasksReady
+### processGoogleReviewsTasksReady()
 
-▸ **processGoogleReviewsTasksReady**(`response`): `Promise`\<[`BusinessDataGoogleReviewsTasksReadyResponseInfo`](BusinessDataGoogleReviewsTasksReadyResponseInfo.md)\>
+> **`protected`** **processGoogleReviewsTasksReady**(`response`): `Promise`\<[`BusinessDataGoogleReviewsTasksReadyResponseInfo`](BusinessDataGoogleReviewsTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataGoogleReviewsTasksReadyResponseInfo`](BusinessDataGoogleReviewsTasksReadyResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:18462
 
-___
+***
 
-### processSocialMediaFacebookLive
+### processSocialMediaFacebookLive()
 
-▸ **processSocialMediaFacebookLive**(`response`): `Promise`\<[`BusinessDataSocialMediaFacebookLiveResponseInfo`](BusinessDataSocialMediaFacebookLiveResponseInfo.md)\>
+> **`protected`** **processSocialMediaFacebookLive**(`response`): `Promise`\<[`BusinessDataSocialMediaFacebookLiveResponseInfo`](BusinessDataSocialMediaFacebookLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataSocialMediaFacebookLiveResponseInfo`](BusinessDataSocialMediaFacebookLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:19559
 
-___
+***
 
-### processSocialMediaPinterestLive
+### processSocialMediaPinterestLive()
 
-▸ **processSocialMediaPinterestLive**(`response`): `Promise`\<[`BusinessDataSocialMediaPinterestLiveResponseInfo`](BusinessDataSocialMediaPinterestLiveResponseInfo.md)\>
+> **`protected`** **processSocialMediaPinterestLive**(`response`): `Promise`\<[`BusinessDataSocialMediaPinterestLiveResponseInfo`](BusinessDataSocialMediaPinterestLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataSocialMediaPinterestLiveResponseInfo`](BusinessDataSocialMediaPinterestLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:19517
 
-___
+***
 
-### processSocialMediaRedditLive
+### processSocialMediaRedditLive()
 
-▸ **processSocialMediaRedditLive**(`response`): `Promise`\<[`BusinessDataSocialMediaRedditLiveResponseInfo`](BusinessDataSocialMediaRedditLiveResponseInfo.md)\>
+> **`protected`** **processSocialMediaRedditLive**(`response`): `Promise`\<[`BusinessDataSocialMediaRedditLiveResponseInfo`](BusinessDataSocialMediaRedditLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataSocialMediaRedditLiveResponseInfo`](BusinessDataSocialMediaRedditLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:19601
 
-___
+***
 
-### processTripadvisorReviewsTaskGet
+### processTripadvisorReviewsTaskGet()
 
-▸ **processTripadvisorReviewsTaskGet**(`response`): `Promise`\<[`BusinessDataTripadvisorReviewsTaskGetResponseInfo`](BusinessDataTripadvisorReviewsTaskGetResponseInfo.md)\>
+> **`protected`** **processTripadvisorReviewsTaskGet**(`response`): `Promise`\<[`BusinessDataTripadvisorReviewsTaskGetResponseInfo`](BusinessDataTripadvisorReviewsTaskGetResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataTripadvisorReviewsTaskGetResponseInfo`](BusinessDataTripadvisorReviewsTaskGetResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:19112
 
-___
+***
 
-### processTripadvisorReviewsTaskPost
+### processTripadvisorReviewsTaskPost()
 
-▸ **processTripadvisorReviewsTaskPost**(`response`): `Promise`\<[`BusinessDataTripadvisorReviewsTaskPostResponseInfo`](BusinessDataTripadvisorReviewsTaskPostResponseInfo.md)\>
+> **`protected`** **processTripadvisorReviewsTaskPost**(`response`): `Promise`\<[`BusinessDataTripadvisorReviewsTaskPostResponseInfo`](BusinessDataTripadvisorReviewsTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataTripadvisorReviewsTaskPostResponseInfo`](BusinessDataTripadvisorReviewsTaskPostResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:19032
 
-___
+***
 
-### processTripadvisorReviewsTasksReady
+### processTripadvisorReviewsTasksReady()
 
-▸ **processTripadvisorReviewsTasksReady**(`response`): `Promise`\<[`BusinessDataTripadvisorReviewsTasksReadyResponseInfo`](BusinessDataTripadvisorReviewsTasksReadyResponseInfo.md)\>
+> **`protected`** **processTripadvisorReviewsTasksReady**(`response`): `Promise`\<[`BusinessDataTripadvisorReviewsTasksReadyResponseInfo`](BusinessDataTripadvisorReviewsTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataTripadvisorReviewsTasksReadyResponseInfo`](BusinessDataTripadvisorReviewsTasksReadyResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:19069
 
-___
+***
 
-### processTripadvisorSearchTaskGet
+### processTripadvisorSearchTaskGet()
 
-▸ **processTripadvisorSearchTaskGet**(`response`): `Promise`\<[`BusinessDataTripadvisorSearchTaskGetResponseInfo`](BusinessDataTripadvisorSearchTaskGetResponseInfo.md)\>
+> **`protected`** **processTripadvisorSearchTaskGet**(`response`): `Promise`\<[`BusinessDataTripadvisorSearchTaskGetResponseInfo`](BusinessDataTripadvisorSearchTaskGetResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataTripadvisorSearchTaskGetResponseInfo`](BusinessDataTripadvisorSearchTaskGetResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:18990
 
-___
+***
 
-### processTripadvisorSearchTaskPost
+### processTripadvisorSearchTaskPost()
 
-▸ **processTripadvisorSearchTaskPost**(`response`): `Promise`\<[`BusinessDataTripadvisorSearchTaskPostResponseInfo`](BusinessDataTripadvisorSearchTaskPostResponseInfo.md)\>
+> **`protected`** **processTripadvisorSearchTaskPost**(`response`): `Promise`\<[`BusinessDataTripadvisorSearchTaskPostResponseInfo`](BusinessDataTripadvisorSearchTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataTripadvisorSearchTaskPostResponseInfo`](BusinessDataTripadvisorSearchTaskPostResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:18910
 
-___
+***
 
-### processTripadvisorSearchTasksReady
+### processTripadvisorSearchTasksReady()
 
-▸ **processTripadvisorSearchTasksReady**(`response`): `Promise`\<[`BusinessDataTripadvisorSearchTasksReadyResponseInfo`](BusinessDataTripadvisorSearchTasksReadyResponseInfo.md)\>
+> **`protected`** **processTripadvisorSearchTasksReady**(`response`): `Promise`\<[`BusinessDataTripadvisorSearchTasksReadyResponseInfo`](BusinessDataTripadvisorSearchTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataTripadvisorSearchTasksReadyResponseInfo`](BusinessDataTripadvisorSearchTasksReadyResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:18947
 
-___
+***
 
-### processTrustpilotReviewsTaskGet
+### processTrustpilotReviewsTaskGet()
 
-▸ **processTrustpilotReviewsTaskGet**(`response`): `Promise`\<[`BusinessDataTrustpilotReviewsTaskGetResponseInfo`](BusinessDataTrustpilotReviewsTaskGetResponseInfo.md)\>
+> **`protected`** **processTrustpilotReviewsTaskGet**(`response`): `Promise`\<[`BusinessDataTrustpilotReviewsTaskGetResponseInfo`](BusinessDataTrustpilotReviewsTaskGetResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataTrustpilotReviewsTaskGetResponseInfo`](BusinessDataTrustpilotReviewsTaskGetResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:18749
 
-___
+***
 
-### processTrustpilotReviewsTaskPost
+### processTrustpilotReviewsTaskPost()
 
-▸ **processTrustpilotReviewsTaskPost**(`response`): `Promise`\<[`BusinessDataTrustpilotReviewsTaskPostResponseInfo`](BusinessDataTrustpilotReviewsTaskPostResponseInfo.md)\>
+> **`protected`** **processTrustpilotReviewsTaskPost**(`response`): `Promise`\<[`BusinessDataTrustpilotReviewsTaskPostResponseInfo`](BusinessDataTrustpilotReviewsTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataTrustpilotReviewsTaskPostResponseInfo`](BusinessDataTrustpilotReviewsTaskPostResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:18669
 
-___
+***
 
-### processTrustpilotReviewsTasksReady
+### processTrustpilotReviewsTasksReady()
 
-▸ **processTrustpilotReviewsTasksReady**(`response`): `Promise`\<[`BusinessDataTrustpilotReviewsTasksReadyResponseInfo`](BusinessDataTrustpilotReviewsTasksReadyResponseInfo.md)\>
+> **`protected`** **processTrustpilotReviewsTasksReady**(`response`): `Promise`\<[`BusinessDataTrustpilotReviewsTasksReadyResponseInfo`](BusinessDataTrustpilotReviewsTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataTrustpilotReviewsTasksReadyResponseInfo`](BusinessDataTrustpilotReviewsTasksReadyResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:18706
 
-___
+***
 
-### processTrustpilotSearchTaskGet
+### processTrustpilotSearchTaskGet()
 
-▸ **processTrustpilotSearchTaskGet**(`response`): `Promise`\<[`BusinessDataTrustpilotSearchTaskGetResponseInfo`](BusinessDataTrustpilotSearchTaskGetResponseInfo.md)\>
+> **`protected`** **processTrustpilotSearchTaskGet**(`response`): `Promise`\<[`BusinessDataTrustpilotSearchTaskGetResponseInfo`](BusinessDataTrustpilotSearchTaskGetResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataTrustpilotSearchTaskGetResponseInfo`](BusinessDataTrustpilotSearchTaskGetResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:18627
 
-___
+***
 
-### processTrustpilotSearchTaskPost
+### processTrustpilotSearchTaskPost()
 
-▸ **processTrustpilotSearchTaskPost**(`response`): `Promise`\<[`BusinessDataTrustpilotSearchTaskPostResponseInfo`](BusinessDataTrustpilotSearchTaskPostResponseInfo.md)\>
+> **`protected`** **processTrustpilotSearchTaskPost**(`response`): `Promise`\<[`BusinessDataTrustpilotSearchTaskPostResponseInfo`](BusinessDataTrustpilotSearchTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataTrustpilotSearchTaskPostResponseInfo`](BusinessDataTrustpilotSearchTaskPostResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:18547
 
-___
+***
 
-### processTrustpilotSearchTasksReady
+### processTrustpilotSearchTasksReady()
 
-▸ **processTrustpilotSearchTasksReady**(`response`): `Promise`\<[`BusinessDataTrustpilotSearchTasksReadyResponseInfo`](BusinessDataTrustpilotSearchTasksReadyResponseInfo.md)\>
+> **`protected`** **processTrustpilotSearchTasksReady**(`response`): `Promise`\<[`BusinessDataTrustpilotSearchTasksReadyResponseInfo`](BusinessDataTrustpilotSearchTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataTrustpilotSearchTasksReadyResponseInfo`](BusinessDataTrustpilotSearchTasksReadyResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:18584
 
-___
+***
 
-### processYelpReviewsTaskGet
+### processYelpReviewsTaskGet()
 
-▸ **processYelpReviewsTaskGet**(`response`): `Promise`\<[`BusinessDataYelpReviewsTaskGetResponseInfo`](BusinessDataYelpReviewsTaskGetResponseInfo.md)\>
+> **`protected`** **processYelpReviewsTaskGet**(`response`): `Promise`\<[`BusinessDataYelpReviewsTaskGetResponseInfo`](BusinessDataYelpReviewsTaskGetResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataYelpReviewsTaskGetResponseInfo`](BusinessDataYelpReviewsTaskGetResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:19475
 
-___
+***
 
-### processYelpReviewsTaskPost
+### processYelpReviewsTaskPost()
 
-▸ **processYelpReviewsTaskPost**(`response`): `Promise`\<[`BusinessDataYelpReviewsTaskPostResponseInfo`](BusinessDataYelpReviewsTaskPostResponseInfo.md)\>
+> **`protected`** **processYelpReviewsTaskPost**(`response`): `Promise`\<[`BusinessDataYelpReviewsTaskPostResponseInfo`](BusinessDataYelpReviewsTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataYelpReviewsTaskPostResponseInfo`](BusinessDataYelpReviewsTaskPostResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:19395
 
-___
+***
 
-### processYelpReviewsTasksReady
+### processYelpReviewsTasksReady()
 
-▸ **processYelpReviewsTasksReady**(`response`): `Promise`\<[`BusinessDataYelpReviewsTasksReadyResponseInfo`](BusinessDataYelpReviewsTasksReadyResponseInfo.md)\>
+> **`protected`** **processYelpReviewsTasksReady**(`response`): `Promise`\<[`BusinessDataYelpReviewsTasksReadyResponseInfo`](BusinessDataYelpReviewsTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataYelpReviewsTasksReadyResponseInfo`](BusinessDataYelpReviewsTasksReadyResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:19432
 
-___
+***
 
-### processYelpSearchTaskGet
+### processYelpSearchTaskGet()
 
-▸ **processYelpSearchTaskGet**(`response`): `Promise`\<[`BusinessDataYelpSearchTaskGetResponseInfo`](BusinessDataYelpSearchTaskGetResponseInfo.md)\>
+> **`protected`** **processYelpSearchTaskGet**(`response`): `Promise`\<[`BusinessDataYelpSearchTaskGetResponseInfo`](BusinessDataYelpSearchTaskGetResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataYelpSearchTaskGetResponseInfo`](BusinessDataYelpSearchTaskGetResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:19353
 
-___
+***
 
-### processYelpSearchTaskPost
+### processYelpSearchTaskPost()
 
-▸ **processYelpSearchTaskPost**(`response`): `Promise`\<[`BusinessDataYelpSearchTaskPostResponseInfo`](BusinessDataYelpSearchTaskPostResponseInfo.md)\>
+> **`protected`** **processYelpSearchTaskPost**(`response`): `Promise`\<[`BusinessDataYelpSearchTaskPostResponseInfo`](BusinessDataYelpSearchTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataYelpSearchTaskPostResponseInfo`](BusinessDataYelpSearchTaskPostResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:19273
 
-___
+***
 
-### processYelpSearchTasksReady
+### processYelpSearchTasksReady()
 
-▸ **processYelpSearchTasksReady**(`response`): `Promise`\<[`BusinessDataYelpSearchTasksReadyResponseInfo`](BusinessDataYelpSearchTasksReadyResponseInfo.md)\>
+> **`protected`** **processYelpSearchTasksReady**(`response`): `Promise`\<[`BusinessDataYelpSearchTasksReadyResponseInfo`](BusinessDataYelpSearchTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`BusinessDataYelpSearchTasksReadyResponseInfo`](BusinessDataYelpSearchTasksReadyResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:19310
 
-___
+***
 
-### socialMediaFacebookLive
+### socialMediaFacebookLive()
 
-▸ **socialMediaFacebookLive**(`body`): `Promise`\<[`BusinessDataSocialMediaFacebookLiveResponseInfo`](BusinessDataSocialMediaFacebookLiveResponseInfo.md)\>
+> **socialMediaFacebookLive**(`body`): `Promise`\<[`BusinessDataSocialMediaFacebookLiveResponseInfo`](BusinessDataSocialMediaFacebookLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`BusinessDataSocialMediaFacebookLiveRequestInfo`](BusinessDataSocialMediaFacebookLiveRequestInfo.md)[] | (optional) |
+• **body**: [`BusinessDataSocialMediaFacebookLiveRequestInfo`](BusinessDataSocialMediaFacebookLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -2026,21 +1816,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:19539
 
-___
+***
 
-### socialMediaPinterestLive
+### socialMediaPinterestLive()
 
-▸ **socialMediaPinterestLive**(`body`): `Promise`\<[`BusinessDataSocialMediaPinterestLiveResponseInfo`](BusinessDataSocialMediaPinterestLiveResponseInfo.md)\>
+> **socialMediaPinterestLive**(`body`): `Promise`\<[`BusinessDataSocialMediaPinterestLiveResponseInfo`](BusinessDataSocialMediaPinterestLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`BusinessDataSocialMediaPinterestLiveRequestInfo`](BusinessDataSocialMediaPinterestLiveRequestInfo.md)[] | (optional) |
+• **body**: [`BusinessDataSocialMediaPinterestLiveRequestInfo`](BusinessDataSocialMediaPinterestLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -2048,21 +1838,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:19497
 
-___
+***
 
-### socialMediaRedditLive
+### socialMediaRedditLive()
 
-▸ **socialMediaRedditLive**(`body`): `Promise`\<[`BusinessDataSocialMediaRedditLiveResponseInfo`](BusinessDataSocialMediaRedditLiveResponseInfo.md)\>
+> **socialMediaRedditLive**(`body`): `Promise`\<[`BusinessDataSocialMediaRedditLiveResponseInfo`](BusinessDataSocialMediaRedditLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`BusinessDataSocialMediaRedditLiveRequestInfo`](BusinessDataSocialMediaRedditLiveRequestInfo.md)[] | (optional) |
+• **body**: [`BusinessDataSocialMediaRedditLiveRequestInfo`](BusinessDataSocialMediaRedditLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -2070,21 +1860,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:19581
 
-___
+***
 
-### tripadvisorReviewsTaskGet
+### tripadvisorReviewsTaskGet()
 
-▸ **tripadvisorReviewsTaskGet**(`id`): `Promise`\<[`BusinessDataTripadvisorReviewsTaskGetResponseInfo`](BusinessDataTripadvisorReviewsTaskGetResponseInfo.md)\>
+> **tripadvisorReviewsTaskGet**(`id`): `Promise`\<[`BusinessDataTripadvisorReviewsTaskGetResponseInfo`](BusinessDataTripadvisorReviewsTaskGetResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -2092,21 +1884,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:19093
 
-___
+***
 
-### tripadvisorReviewsTaskPost
+### tripadvisorReviewsTaskPost()
 
-▸ **tripadvisorReviewsTaskPost**(`body`): `Promise`\<[`BusinessDataTripadvisorReviewsTaskPostResponseInfo`](BusinessDataTripadvisorReviewsTaskPostResponseInfo.md)\>
+> **tripadvisorReviewsTaskPost**(`body`): `Promise`\<[`BusinessDataTripadvisorReviewsTaskPostResponseInfo`](BusinessDataTripadvisorReviewsTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`BusinessDataTripadvisorReviewsTaskPostRequestInfo`](BusinessDataTripadvisorReviewsTaskPostRequestInfo.md)[] | (optional) |
+• **body**: [`BusinessDataTripadvisorReviewsTaskPostRequestInfo`](BusinessDataTripadvisorReviewsTaskPostRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -2114,15 +1906,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:19012
 
-___
+***
 
-### tripadvisorReviewsTasksReady
+### tripadvisorReviewsTasksReady()
 
-▸ **tripadvisorReviewsTasksReady**(): `Promise`\<[`BusinessDataTripadvisorReviewsTasksReadyResponseInfo`](BusinessDataTripadvisorReviewsTasksReadyResponseInfo.md)\>
+> **tripadvisorReviewsTasksReady**(): `Promise`\<[`BusinessDataTripadvisorReviewsTasksReadyResponseInfo`](BusinessDataTripadvisorReviewsTasksReadyResponseInfo.md)\>
 
 #### Returns
 
@@ -2130,21 +1922,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:19053
 
-___
+***
 
-### tripadvisorSearchTaskGet
+### tripadvisorSearchTaskGet()
 
-▸ **tripadvisorSearchTaskGet**(`id`): `Promise`\<[`BusinessDataTripadvisorSearchTaskGetResponseInfo`](BusinessDataTripadvisorSearchTaskGetResponseInfo.md)\>
+> **tripadvisorSearchTaskGet**(`id`): `Promise`\<[`BusinessDataTripadvisorSearchTaskGetResponseInfo`](BusinessDataTripadvisorSearchTaskGetResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -2152,21 +1946,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:18971
 
-___
+***
 
-### tripadvisorSearchTaskPost
+### tripadvisorSearchTaskPost()
 
-▸ **tripadvisorSearchTaskPost**(`body`): `Promise`\<[`BusinessDataTripadvisorSearchTaskPostResponseInfo`](BusinessDataTripadvisorSearchTaskPostResponseInfo.md)\>
+> **tripadvisorSearchTaskPost**(`body`): `Promise`\<[`BusinessDataTripadvisorSearchTaskPostResponseInfo`](BusinessDataTripadvisorSearchTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`BusinessDataTripadvisorSearchTaskPostRequestInfo`](BusinessDataTripadvisorSearchTaskPostRequestInfo.md)[] | (optional) |
+• **body**: [`BusinessDataTripadvisorSearchTaskPostRequestInfo`](BusinessDataTripadvisorSearchTaskPostRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -2174,15 +1968,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:18890
 
-___
+***
 
-### tripadvisorSearchTasksReady
+### tripadvisorSearchTasksReady()
 
-▸ **tripadvisorSearchTasksReady**(): `Promise`\<[`BusinessDataTripadvisorSearchTasksReadyResponseInfo`](BusinessDataTripadvisorSearchTasksReadyResponseInfo.md)\>
+> **tripadvisorSearchTasksReady**(): `Promise`\<[`BusinessDataTripadvisorSearchTasksReadyResponseInfo`](BusinessDataTripadvisorSearchTasksReadyResponseInfo.md)\>
 
 #### Returns
 
@@ -2190,21 +1984,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:18931
 
-___
+***
 
-### trustpilotReviewsTaskGet
+### trustpilotReviewsTaskGet()
 
-▸ **trustpilotReviewsTaskGet**(`id`): `Promise`\<[`BusinessDataTrustpilotReviewsTaskGetResponseInfo`](BusinessDataTrustpilotReviewsTaskGetResponseInfo.md)\>
+> **trustpilotReviewsTaskGet**(`id`): `Promise`\<[`BusinessDataTrustpilotReviewsTaskGetResponseInfo`](BusinessDataTrustpilotReviewsTaskGetResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -2212,21 +2008,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:18730
 
-___
+***
 
-### trustpilotReviewsTaskPost
+### trustpilotReviewsTaskPost()
 
-▸ **trustpilotReviewsTaskPost**(`body`): `Promise`\<[`BusinessDataTrustpilotReviewsTaskPostResponseInfo`](BusinessDataTrustpilotReviewsTaskPostResponseInfo.md)\>
+> **trustpilotReviewsTaskPost**(`body`): `Promise`\<[`BusinessDataTrustpilotReviewsTaskPostResponseInfo`](BusinessDataTrustpilotReviewsTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`BusinessDataTrustpilotReviewsTaskPostRequestInfo`](BusinessDataTrustpilotReviewsTaskPostRequestInfo.md)[] | (optional) |
+• **body**: [`BusinessDataTrustpilotReviewsTaskPostRequestInfo`](BusinessDataTrustpilotReviewsTaskPostRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -2234,15 +2030,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:18649
 
-___
+***
 
-### trustpilotReviewsTasksReady
+### trustpilotReviewsTasksReady()
 
-▸ **trustpilotReviewsTasksReady**(): `Promise`\<[`BusinessDataTrustpilotReviewsTasksReadyResponseInfo`](BusinessDataTrustpilotReviewsTasksReadyResponseInfo.md)\>
+> **trustpilotReviewsTasksReady**(): `Promise`\<[`BusinessDataTrustpilotReviewsTasksReadyResponseInfo`](BusinessDataTrustpilotReviewsTasksReadyResponseInfo.md)\>
 
 #### Returns
 
@@ -2250,21 +2046,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:18690
 
-___
+***
 
-### trustpilotSearchTaskGet
+### trustpilotSearchTaskGet()
 
-▸ **trustpilotSearchTaskGet**(`id`): `Promise`\<[`BusinessDataTrustpilotSearchTaskGetResponseInfo`](BusinessDataTrustpilotSearchTaskGetResponseInfo.md)\>
+> **trustpilotSearchTaskGet**(`id`): `Promise`\<[`BusinessDataTrustpilotSearchTaskGetResponseInfo`](BusinessDataTrustpilotSearchTaskGetResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -2272,21 +2070,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:18608
 
-___
+***
 
-### trustpilotSearchTaskPost
+### trustpilotSearchTaskPost()
 
-▸ **trustpilotSearchTaskPost**(`body`): `Promise`\<[`BusinessDataTrustpilotSearchTaskPostResponseInfo`](BusinessDataTrustpilotSearchTaskPostResponseInfo.md)\>
+> **trustpilotSearchTaskPost**(`body`): `Promise`\<[`BusinessDataTrustpilotSearchTaskPostResponseInfo`](BusinessDataTrustpilotSearchTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`BusinessDataTrustpilotSearchTaskPostRequestInfo`](BusinessDataTrustpilotSearchTaskPostRequestInfo.md)[] | (optional) |
+• **body**: [`BusinessDataTrustpilotSearchTaskPostRequestInfo`](BusinessDataTrustpilotSearchTaskPostRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -2294,15 +2092,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:18527
 
-___
+***
 
-### trustpilotSearchTasksReady
+### trustpilotSearchTasksReady()
 
-▸ **trustpilotSearchTasksReady**(): `Promise`\<[`BusinessDataTrustpilotSearchTasksReadyResponseInfo`](BusinessDataTrustpilotSearchTasksReadyResponseInfo.md)\>
+> **trustpilotSearchTasksReady**(): `Promise`\<[`BusinessDataTrustpilotSearchTasksReadyResponseInfo`](BusinessDataTrustpilotSearchTasksReadyResponseInfo.md)\>
 
 #### Returns
 
@@ -2310,21 +2108,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:18568
 
-___
+***
 
-### yelpReviewsTaskGet
+### yelpReviewsTaskGet()
 
-▸ **yelpReviewsTaskGet**(`id`): `Promise`\<[`BusinessDataYelpReviewsTaskGetResponseInfo`](BusinessDataYelpReviewsTaskGetResponseInfo.md)\>
+> **yelpReviewsTaskGet**(`id`): `Promise`\<[`BusinessDataYelpReviewsTaskGetResponseInfo`](BusinessDataYelpReviewsTaskGetResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -2332,21 +2132,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:19456
 
-___
+***
 
-### yelpReviewsTaskPost
+### yelpReviewsTaskPost()
 
-▸ **yelpReviewsTaskPost**(`body`): `Promise`\<[`BusinessDataYelpReviewsTaskPostResponseInfo`](BusinessDataYelpReviewsTaskPostResponseInfo.md)\>
+> **yelpReviewsTaskPost**(`body`): `Promise`\<[`BusinessDataYelpReviewsTaskPostResponseInfo`](BusinessDataYelpReviewsTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`BusinessDataYelpReviewsTaskPostRequestInfo`](BusinessDataYelpReviewsTaskPostRequestInfo.md)[] | (optional) |
+• **body**: [`BusinessDataYelpReviewsTaskPostRequestInfo`](BusinessDataYelpReviewsTaskPostRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -2354,15 +2154,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:19375
 
-___
+***
 
-### yelpReviewsTasksReady
+### yelpReviewsTasksReady()
 
-▸ **yelpReviewsTasksReady**(): `Promise`\<[`BusinessDataYelpReviewsTasksReadyResponseInfo`](BusinessDataYelpReviewsTasksReadyResponseInfo.md)\>
+> **yelpReviewsTasksReady**(): `Promise`\<[`BusinessDataYelpReviewsTasksReadyResponseInfo`](BusinessDataYelpReviewsTasksReadyResponseInfo.md)\>
 
 #### Returns
 
@@ -2370,21 +2170,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:19416
 
-___
+***
 
-### yelpSearchTaskGet
+### yelpSearchTaskGet()
 
-▸ **yelpSearchTaskGet**(`id`): `Promise`\<[`BusinessDataYelpSearchTaskGetResponseInfo`](BusinessDataYelpSearchTaskGetResponseInfo.md)\>
+> **yelpSearchTaskGet**(`id`): `Promise`\<[`BusinessDataYelpSearchTaskGetResponseInfo`](BusinessDataYelpSearchTaskGetResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -2392,21 +2194,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:19334
 
-___
+***
 
-### yelpSearchTaskPost
+### yelpSearchTaskPost()
 
-▸ **yelpSearchTaskPost**(`body`): `Promise`\<[`BusinessDataYelpSearchTaskPostResponseInfo`](BusinessDataYelpSearchTaskPostResponseInfo.md)\>
+> **yelpSearchTaskPost**(`body`): `Promise`\<[`BusinessDataYelpSearchTaskPostResponseInfo`](BusinessDataYelpSearchTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`BusinessDataYelpSearchTaskPostRequestInfo`](BusinessDataYelpSearchTaskPostRequestInfo.md)[] | (optional) |
+• **body**: [`BusinessDataYelpSearchTaskPostRequestInfo`](BusinessDataYelpSearchTaskPostRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -2414,15 +2216,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:19253
 
-___
+***
 
-### yelpSearchTasksReady
+### yelpSearchTasksReady()
 
-▸ **yelpSearchTasksReady**(): `Promise`\<[`BusinessDataYelpSearchTasksReadyResponseInfo`](BusinessDataYelpSearchTasksReadyResponseInfo.md)\>
+> **yelpSearchTasksReady**(): `Promise`\<[`BusinessDataYelpSearchTasksReadyResponseInfo`](BusinessDataYelpSearchTasksReadyResponseInfo.md)\>
 
 #### Returns
 
@@ -2430,6 +2232,6 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:19294

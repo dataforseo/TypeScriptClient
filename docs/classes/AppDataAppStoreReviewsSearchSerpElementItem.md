@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataAppStoreReviewsSearchSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppDataAppStoreReviewsSearchSerpElementItem
 
 # Class: AppDataAppStoreReviewsSearchSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)
-
-  ↳ **`AppDataAppStoreReviewsSearchSerpElementItem`**
 
 ## Implements
 
@@ -14,45 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppDataAppStoreReviewsSearchSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](AppDataAppStoreReviewsSearchSerpElementItem.md#_discriminator)
-- [id](AppDataAppStoreReviewsSearchSerpElementItem.md#id)
-- [position](AppDataAppStoreReviewsSearchSerpElementItem.md#position)
-- [rank\_absolute](AppDataAppStoreReviewsSearchSerpElementItem.md#rank_absolute)
-- [rank\_group](AppDataAppStoreReviewsSearchSerpElementItem.md#rank_group)
-- [rating](AppDataAppStoreReviewsSearchSerpElementItem.md#rating)
-- [review\_text](AppDataAppStoreReviewsSearchSerpElementItem.md#review_text)
-- [timestamp](AppDataAppStoreReviewsSearchSerpElementItem.md#timestamp)
-- [title](AppDataAppStoreReviewsSearchSerpElementItem.md#title)
-- [user\_profile](AppDataAppStoreReviewsSearchSerpElementItem.md#user_profile)
-- [version](AppDataAppStoreReviewsSearchSerpElementItem.md#version)
-
-### Methods
-
-- [init](AppDataAppStoreReviewsSearchSerpElementItem.md#init)
-- [toJSON](AppDataAppStoreReviewsSearchSerpElementItem.md#tojson)
-- [fromJS](AppDataAppStoreReviewsSearchSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppDataAppStoreReviewsSearchSerpElementItem(data)
 
-• **new AppDataAppStoreReviewsSearchSerpElementItem**(`data?`): [`AppDataAppStoreReviewsSearchSerpElementItem`](AppDataAppStoreReviewsSearchSerpElementItem.md)
+> **new AppDataAppStoreReviewsSearchSerpElementItem**(`data`?): [`AppDataAppStoreReviewsSearchSerpElementItem`](AppDataAppStoreReviewsSearchSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppDataAppStoreReviewsSearchSerpElementItem`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md) |
+• **data?**: [`IAppDataAppStoreReviewsSearchSerpElementItem`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md)
 
 #### Returns
 
@@ -60,9 +34,9 @@
 
 #### Overrides
 
-[BaseAppDataSerpElementItem](BaseAppDataSerpElementItem.md).[constructor](BaseAppDataSerpElementItem.md#constructor)
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`constructor`](BaseAppDataSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:191684
 
@@ -70,120 +44,120 @@ main.ts:191684
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseAppDataSerpElementItem](BaseAppDataSerpElementItem.md).[_discriminator](BaseAppDataSerpElementItem.md#_discriminator)
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`_discriminator`](BaseAppDataSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:20969
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 id of the review
 
 #### Implementation of
 
-[IAppDataAppStoreReviewsSearchSerpElementItem](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md).[id](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md#id)
+[`IAppDataAppStoreReviewsSearchSerpElementItem`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md).[`id`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:191674
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the review in SERP
 can take the following values: left
 
 #### Implementation of
 
-[IAppDataAppStoreReviewsSearchSerpElementItem](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md).[position](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md#position)
+[`IAppDataAppStoreReviewsSearchSerpElementItem`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md).[`position`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
 main.ts:191662
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank among all the listed reviews
 absolute position among all reviews on the list
 
 #### Implementation of
 
-[IAppDataAppStoreReviewsSearchSerpElementItem](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md).[rank_absolute](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md#rank_absolute)
+[`IAppDataAppStoreReviewsSearchSerpElementItem`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md).[`rank_absolute`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
 main.ts:191659
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
-[IAppDataAppStoreReviewsSearchSerpElementItem](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md).[rank_group](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md#rank_group)
+[`IAppDataAppStoreReviewsSearchSerpElementItem`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md).[`rank_group`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
 main.ts:191656
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](RatingInfo.md)
 
 the rating score submitted by the reviewer
 
 #### Implementation of
 
-[IAppDataAppStoreReviewsSearchSerpElementItem](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md).[rating](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md#rating)
+[`IAppDataAppStoreReviewsSearchSerpElementItem`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md).[`rating`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md#rating)
 
-#### Defined in
+#### Source
 
 main.ts:191667
 
-___
+***
 
-### review\_text
+### review\_text?
 
-• `Optional` **review\_text**: `string`
+> **`optional`** **review\_text**: `string`
 
 content of the review
 
 #### Implementation of
 
-[IAppDataAppStoreReviewsSearchSerpElementItem](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md).[review_text](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md#review_text)
+[`IAppDataAppStoreReviewsSearchSerpElementItem`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md).[`review_text`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md#review_text)
 
-#### Defined in
+#### Source
 
 main.ts:191678
 
-___
+***
 
-### timestamp
+### timestamp?
 
-• `Optional` **timestamp**: `string`
+> **`optional`** **timestamp**: `string`
 
 date and time when the review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
@@ -192,72 +166,70 @@ example:
 
 #### Implementation of
 
-[IAppDataAppStoreReviewsSearchSerpElementItem](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md).[timestamp](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md#timestamp)
+[`IAppDataAppStoreReviewsSearchSerpElementItem`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md).[`timestamp`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md#timestamp)
 
-#### Defined in
+#### Source
 
 main.ts:191672
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the review
 
 #### Implementation of
 
-[IAppDataAppStoreReviewsSearchSerpElementItem](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md).[title](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md#title)
+[`IAppDataAppStoreReviewsSearchSerpElementItem`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md).[`title`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:191676
 
-___
+***
 
-### user\_profile
+### user\_profile?
 
-• `Optional` **user\_profile**: [`AppUserProfileInfo`](AppUserProfileInfo.md)
+> **`optional`** **user\_profile**: [`AppUserProfileInfo`](AppUserProfileInfo.md)
 
 user profile of the reviewer
 
 #### Implementation of
 
-[IAppDataAppStoreReviewsSearchSerpElementItem](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md).[user_profile](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md#user_profile)
+[`IAppDataAppStoreReviewsSearchSerpElementItem`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md).[`user_profile`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md#user_profile)
 
-#### Defined in
+#### Source
 
 main.ts:191680
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 version of the app
 version of the app for which the review is submitted
 
 #### Implementation of
 
-[IAppDataAppStoreReviewsSearchSerpElementItem](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md).[version](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md#version)
+[`IAppDataAppStoreReviewsSearchSerpElementItem`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md).[`version`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:191665
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -265,23 +237,21 @@ main.ts:191665
 
 #### Overrides
 
-[BaseAppDataSerpElementItem](BaseAppDataSerpElementItem.md).[init](BaseAppDataSerpElementItem.md#init)
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`init`](BaseAppDataSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:191689
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -289,23 +259,21 @@ ___
 
 #### Overrides
 
-[BaseAppDataSerpElementItem](BaseAppDataSerpElementItem.md).[toJSON](BaseAppDataSerpElementItem.md#tojson)
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`toJSON`](BaseAppDataSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:191716
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppDataAppStoreReviewsSearchSerpElementItem`](AppDataAppStoreReviewsSearchSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`AppDataAppStoreReviewsSearchSerpElementItem`](AppDataAppStoreReviewsSearchSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -313,8 +281,8 @@ ___
 
 #### Overrides
 
-[BaseAppDataSerpElementItem](BaseAppDataSerpElementItem.md).[fromJS](BaseAppDataSerpElementItem.md#fromjs)
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`fromJS`](BaseAppDataSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:191709

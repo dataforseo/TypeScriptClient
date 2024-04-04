@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonProductCompetitorsLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsAmazonProductCompetitorsLiveResultInfo
 
 # Class: DataforseoLabsAmazonProductCompetitorsLiveResultInfo
 
@@ -8,220 +12,190 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsAmazonProductCompetitorsLiveResultInfo.md#constructor)
-
-### Properties
-
-- [asin](DataforseoLabsAmazonProductCompetitorsLiveResultInfo.md#asin)
-- [items](DataforseoLabsAmazonProductCompetitorsLiveResultInfo.md#items)
-- [items\_count](DataforseoLabsAmazonProductCompetitorsLiveResultInfo.md#items_count)
-- [language\_code](DataforseoLabsAmazonProductCompetitorsLiveResultInfo.md#language_code)
-- [location\_code](DataforseoLabsAmazonProductCompetitorsLiveResultInfo.md#location_code)
-- [se\_type](DataforseoLabsAmazonProductCompetitorsLiveResultInfo.md#se_type)
-- [total\_count](DataforseoLabsAmazonProductCompetitorsLiveResultInfo.md#total_count)
-
-### Methods
-
-- [init](DataforseoLabsAmazonProductCompetitorsLiveResultInfo.md#init)
-- [toJSON](DataforseoLabsAmazonProductCompetitorsLiveResultInfo.md#tojson)
-- [fromJS](DataforseoLabsAmazonProductCompetitorsLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsAmazonProductCompetitorsLiveResultInfo(data)
 
-• **new DataforseoLabsAmazonProductCompetitorsLiveResultInfo**(`data?`): [`DataforseoLabsAmazonProductCompetitorsLiveResultInfo`](DataforseoLabsAmazonProductCompetitorsLiveResultInfo.md)
+> **new DataforseoLabsAmazonProductCompetitorsLiveResultInfo**(`data`?): [`DataforseoLabsAmazonProductCompetitorsLiveResultInfo`](DataforseoLabsAmazonProductCompetitorsLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsAmazonProductCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md) |
+• **data?**: [`IDataforseoLabsAmazonProductCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsAmazonProductCompetitorsLiveResultInfo`](DataforseoLabsAmazonProductCompetitorsLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:103709
+main.ts:103717
 
 ## Properties
 
-### asin
+### asin?
 
-• `Optional` **asin**: `string`
+> **`optional`** **asin**: `string`
 
 ASIN in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductCompetitorsLiveResultInfo](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md).[asin](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md#asin)
+[`IDataforseoLabsAmazonProductCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md).[`asin`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md#asin)
 
-#### Defined in
+#### Source
 
-main.ts:103693
+main.ts:103701
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`DataforseoLabsAmazonProductCompetitorsLiveItem`](DataforseoLabsAmazonProductCompetitorsLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsAmazonProductCompetitorsLiveItem`](DataforseoLabsAmazonProductCompetitorsLiveItem.md)[]
 
 contains detected Amazon product competitors and related data
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductCompetitorsLiveResultInfo](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md).[items](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md#items)
+[`IDataforseoLabsAmazonProductCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:103705
+main.ts:103713
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductCompetitorsLiveResultInfo](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md).[items_count](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md#items_count)
+[`IDataforseoLabsAmazonProductCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:103703
+main.ts:103711
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 if there is no data, then the value is null
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductCompetitorsLiveResultInfo](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md).[language_code](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md#language_code)
+[`IDataforseoLabsAmazonProductCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:103699
+main.ts:103707
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 if there is no data, then the value is null
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductCompetitorsLiveResultInfo](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md).[location_code](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md#location_code)
+[`IDataforseoLabsAmazonProductCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:103696
+main.ts:103704
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductCompetitorsLiveResultInfo](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md).[se_type](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md#se_type)
+[`IDataforseoLabsAmazonProductCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:103691
+main.ts:103699
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductCompetitorsLiveResultInfo](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md).[total_count](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md#total_count)
+[`IDataforseoLabsAmazonProductCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md#total_count)
 
-#### Defined in
+#### Source
 
-main.ts:103701
+main.ts:103709
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:103718
+main.ts:103726
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:103745
+main.ts:103753
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsAmazonProductCompetitorsLiveResultInfo`](DataforseoLabsAmazonProductCompetitorsLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsAmazonProductCompetitorsLiveResultInfo`](DataforseoLabsAmazonProductCompetitorsLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsAmazonProductCompetitorsLiveResultInfo`](DataforseoLabsAmazonProductCompetitorsLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:103738
+main.ts:103746

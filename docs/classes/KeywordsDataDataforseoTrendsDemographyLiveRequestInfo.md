@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataDataforseoTrendsDemographyLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataDataforseoTrendsDemographyLiveRequestInfo
 
 # Class: KeywordsDataDataforseoTrendsDemographyLiveRequestInfo
 
@@ -8,56 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [date\_from](KeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#date_from)
-- [date\_to](KeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#date_to)
-- [keywords](KeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#keywords)
-- [location\_code](KeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#location_code)
-- [location\_name](KeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#location_name)
-- [tag](KeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#tag)
-- [time\_range](KeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#time_range)
-- [type](KeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#type)
-
-### Methods
-
-- [init](KeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#init)
-- [toJSON](KeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#tojson)
-- [fromJS](KeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordsDataDataforseoTrendsDemographyLiveRequestInfo(data)
 
-• **new KeywordsDataDataforseoTrendsDemographyLiveRequestInfo**(`data?`): [`KeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](KeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md)
+> **new KeywordsDataDataforseoTrendsDemographyLiveRequestInfo**(`data`?): [`KeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](KeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md) |
+• **data?**: [`IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md)
 
 #### Returns
 
 [`KeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](KeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:126096
+main.ts:126104
 
 ## Properties
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -70,17 +49,17 @@ example:
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md).[date_from](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#date_from)
+[`IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md).[`date_from`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#date_from)
 
-#### Defined in
+#### Source
 
-main.ts:126073
+main.ts:126081
 
-___
+***
 
-### date\_to
+### date\_to?
 
-• `Optional` **date\_to**: `string`
+> **`optional`** **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -91,17 +70,17 @@ example:
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md).[date_to](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#date_to)
+[`IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md).[`date_to`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#date_to)
 
-#### Defined in
+#### Source
 
-main.ts:126080
+main.ts:126088
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 keywords
 required field
@@ -111,17 +90,17 @@ specifying non-Latin characters, you’ll get data for the countries where they 
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md).[keywords](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#keywords)
+[`IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md).[`keywords`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#keywords)
 
-#### Defined in
+#### Source
 
-main.ts:126044
+main.ts:126052
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 optional field
@@ -134,17 +113,17 @@ example:
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md).[location_code](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#location_code)
+[`IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md).[`location_code`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:126062
+main.ts:126070
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 optional field
@@ -157,17 +136,17 @@ United Kingdom
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md).[location_name](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#location_name)
+[`IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md).[`location_name`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:126053
+main.ts:126061
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -177,17 +156,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md).[tag](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#tag)
+[`IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md).[`tag`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:126092
+main.ts:126100
 
-___
+***
 
-### time\_range
+### time\_range?
 
-• `Optional` **time\_range**: `string`
+> **`optional`** **time\_range**: `string`
 
 preset time ranges
 optional field
@@ -197,84 +176,78 @@ past_4_hours, past_day, past_7_days, past_30_days, past_90_days, past_12_months,
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md).[time_range](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#time_range)
+[`IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md).[`time_range`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#time_range)
 
-#### Defined in
+#### Source
 
-main.ts:126086
+main.ts:126094
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md).[type](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#type)
+[`IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md).[`type`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:126064
+main.ts:126072
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:126105
+main.ts:126113
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:126133
+main.ts:126141
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](KeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](KeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`KeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](KeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:126126
+main.ts:126134

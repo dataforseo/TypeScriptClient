@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataGoogleAppListingsSearchLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppDataGoogleAppListingsSearchLiveResultInfo
 
 # Class: AppDataGoogleAppListingsSearchLiveResultInfo
 
@@ -8,185 +12,157 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppDataGoogleAppListingsSearchLiveResultInfo.md#constructor)
-
-### Properties
-
-- [count](AppDataGoogleAppListingsSearchLiveResultInfo.md#count)
-- [items](AppDataGoogleAppListingsSearchLiveResultInfo.md#items)
-- [offset](AppDataGoogleAppListingsSearchLiveResultInfo.md#offset)
-- [offset\_token](AppDataGoogleAppListingsSearchLiveResultInfo.md#offset_token)
-- [total\_count](AppDataGoogleAppListingsSearchLiveResultInfo.md#total_count)
-
-### Methods
-
-- [init](AppDataGoogleAppListingsSearchLiveResultInfo.md#init)
-- [toJSON](AppDataGoogleAppListingsSearchLiveResultInfo.md#tojson)
-- [fromJS](AppDataGoogleAppListingsSearchLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppDataGoogleAppListingsSearchLiveResultInfo(data)
 
-• **new AppDataGoogleAppListingsSearchLiveResultInfo**(`data?`): [`AppDataGoogleAppListingsSearchLiveResultInfo`](AppDataGoogleAppListingsSearchLiveResultInfo.md)
+> **new AppDataGoogleAppListingsSearchLiveResultInfo**(`data`?): [`AppDataGoogleAppListingsSearchLiveResultInfo`](AppDataGoogleAppListingsSearchLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppDataGoogleAppListingsSearchLiveResultInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md) |
+• **data?**: [`IAppDataGoogleAppListingsSearchLiveResultInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md)
 
 #### Returns
 
 [`AppDataGoogleAppListingsSearchLiveResultInfo`](AppDataGoogleAppListingsSearchLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:187836
 
 ## Properties
 
-### count
+### count?
 
-• `Optional` **count**: `number`
+> **`optional`** **count**: `number`
 
 the number of items in the results array
 
 #### Implementation of
 
-[IAppDataGoogleAppListingsSearchLiveResultInfo](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md).[count](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md#count)
+[`IAppDataGoogleAppListingsSearchLiveResultInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md).[`count`](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md#count)
 
-#### Defined in
+#### Source
 
 main.ts:187825
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`AppDataleAppListingsSearchLiveItem`](AppDataleAppListingsSearchLiveItem.md)[]
+> **`optional`** **items**: [`AppDataleAppListingsSearchLiveItem`](AppDataleAppListingsSearchLiveItem.md)[]
 
 array of apps and related data
 
 #### Implementation of
 
-[IAppDataGoogleAppListingsSearchLiveResultInfo](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md).[items](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md#items)
+[`IAppDataGoogleAppListingsSearchLiveResultInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md).[`items`](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md#items)
 
-#### Defined in
+#### Source
 
 main.ts:187832
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned apps
 
 #### Implementation of
 
-[IAppDataGoogleAppListingsSearchLiveResultInfo](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md).[offset](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md#offset)
+[`IAppDataGoogleAppListingsSearchLiveResultInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md).[`offset`](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md#offset)
 
-#### Defined in
+#### Source
 
 main.ts:187827
 
-___
+***
 
-### offset\_token
+### offset\_token?
 
-• `Optional` **offset\_token**: `string`
+> **`optional`** **offset\_token**: `string`
 
 token for subsequent requests
 you can use this parameter in the POST request to avoid timeouts while trying to obtain over 100,000 results in a single request
 
 #### Implementation of
 
-[IAppDataGoogleAppListingsSearchLiveResultInfo](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md).[offset_token](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md#offset_token)
+[`IAppDataGoogleAppListingsSearchLiveResultInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md).[`offset_token`](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md#offset_token)
 
-#### Defined in
+#### Source
 
 main.ts:187830
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 the total number of relevant results in the database
 
 #### Implementation of
 
-[IAppDataGoogleAppListingsSearchLiveResultInfo](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md).[total_count](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md#total_count)
+[`IAppDataGoogleAppListingsSearchLiveResultInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md).[`total_count`](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md#total_count)
 
-#### Defined in
+#### Source
 
 main.ts:187823
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:187845
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:187870
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppDataGoogleAppListingsSearchLiveResultInfo`](AppDataGoogleAppListingsSearchLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`AppDataGoogleAppListingsSearchLiveResultInfo`](AppDataGoogleAppListingsSearchLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppDataGoogleAppListingsSearchLiveResultInfo`](AppDataGoogleAppListingsSearchLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:187863

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / InterestsComparison
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / InterestsComparison
 
 # Class: InterestsComparison
 
@@ -8,134 +12,109 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](InterestsComparison.md#constructor)
-
-### Properties
-
-- [absolute\_items](InterestsComparison.md#absolute_items)
-- [items](InterestsComparison.md#items)
-
-### Methods
-
-- [init](InterestsComparison.md#init)
-- [toJSON](InterestsComparison.md#tojson)
-- [fromJS](InterestsComparison.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new InterestsComparison(data)
 
-• **new InterestsComparison**(`data?`): [`InterestsComparison`](InterestsComparison.md)
+> **new InterestsComparison**(`data`?): [`InterestsComparison`](InterestsComparison.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IInterestsComparison`](../interfaces/IInterestsComparison.md) |
+• **data?**: [`IInterestsComparison`](../interfaces/IInterestsComparison.md)
 
 #### Returns
 
 [`InterestsComparison`](InterestsComparison.md)
 
-#### Defined in
+#### Source
 
-main.ts:125661
+main.ts:125669
 
 ## Properties
 
-### absolute\_items
+### absolute\_items?
 
-• `Optional` **absolute\_items**: [`AbsoluteItems`](AbsoluteItems.md)[]
+> **`optional`** **absolute\_items**: [`AbsoluteItems`](AbsoluteItems.md)[]
 
 keyword popularity rates across all locations
 values in this array represent percentages relative to the maximum value across all locations
 
 #### Implementation of
 
-[IInterestsComparison](../interfaces/IInterestsComparison.md).[absolute_items](../interfaces/IInterestsComparison.md#absolute_items)
+[`IInterestsComparison`](../interfaces/IInterestsComparison.md).[`absolute_items`](../interfaces/IInterestsComparison.md#absolute_items)
 
-#### Defined in
+#### Source
 
-main.ts:125657
+main.ts:125665
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`AbsoluteItems`](AbsoluteItems.md)[]
+> **`optional`** **items**: [`AbsoluteItems`](AbsoluteItems.md)[]
 
 contains keyword popularity and related data
 
 #### Implementation of
 
-[IInterestsComparison](../interfaces/IInterestsComparison.md).[items](../interfaces/IInterestsComparison.md#items)
+[`IInterestsComparison`](../interfaces/IInterestsComparison.md).[`items`](../interfaces/IInterestsComparison.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:125654
+main.ts:125662
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:125670
+main.ts:125678
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:125696
+main.ts:125704
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`InterestsComparison`](InterestsComparison.md)
+> **`static`** **fromJS**(`data`): [`InterestsComparison`](InterestsComparison.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`InterestsComparison`](InterestsComparison.md)
 
-#### Defined in
+#### Source
 
-main.ts:125689
+main.ts:125697

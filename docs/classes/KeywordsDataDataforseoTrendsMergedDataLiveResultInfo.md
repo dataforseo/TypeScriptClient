@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataDataforseoTrendsMergedDataLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataDataforseoTrendsMergedDataLiveResultInfo
 
 # Class: KeywordsDataDataforseoTrendsMergedDataLiveResultInfo
 
@@ -8,55 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md#constructor)
-
-### Properties
-
-- [datetime](KeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md#datetime)
-- [items](KeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md#items)
-- [items\_count](KeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md#items_count)
-- [keywords](KeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md#keywords)
-- [language\_code](KeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md#language_code)
-- [location\_code](KeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md#location_code)
-- [type](KeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md#type)
-
-### Methods
-
-- [init](KeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md#init)
-- [toJSON](KeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md#tojson)
-- [fromJS](KeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordsDataDataforseoTrendsMergedDataLiveResultInfo(data)
 
-• **new KeywordsDataDataforseoTrendsMergedDataLiveResultInfo**(`data?`): [`KeywordsDataDataforseoTrendsMergedDataLiveResultInfo`](KeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md)
+> **new KeywordsDataDataforseoTrendsMergedDataLiveResultInfo**(`data`?): [`KeywordsDataDataforseoTrendsMergedDataLiveResultInfo`](KeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md) |
+• **data?**: [`IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md)
 
 #### Returns
 
 [`KeywordsDataDataforseoTrendsMergedDataLiveResultInfo`](KeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:127091
+main.ts:127099
 
 ## Properties
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -65,166 +45,160 @@ example:
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md).[datetime](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md#datetime)
+[`IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md).[`datetime`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
-main.ts:127083
+main.ts:127091
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md)[]
+> **`optional`** **items**: [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md)[]
 
 contains keyword popularity and related data
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md).[items](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md#items)
+[`IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md).[`items`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:127087
+main.ts:127095
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md).[items_count](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md#items_count)
+[`IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md).[`items_count`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:127085
+main.ts:127093
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 keywords in a POST array
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md).[keywords](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md#keywords)
+[`IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md).[`keywords`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md#keywords)
 
-#### Defined in
+#### Source
 
-main.ts:127070
+main.ts:127078
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 if there is no data, then the value is null
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md).[language_code](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md#language_code)
+[`IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md).[`language_code`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:127078
+main.ts:127086
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 if there is no data, then the value is null
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md).[location_code](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md#location_code)
+[`IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md).[`location_code`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:127075
+main.ts:127083
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md).[type](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md#type)
+[`IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md).[`type`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:127072
+main.ts:127080
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:127100
+main.ts:127108
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:127131
+main.ts:127139
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordsDataDataforseoTrendsMergedDataLiveResultInfo`](KeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordsDataDataforseoTrendsMergedDataLiveResultInfo`](KeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`KeywordsDataDataforseoTrendsMergedDataLiveResultInfo`](KeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:127124
+main.ts:127132

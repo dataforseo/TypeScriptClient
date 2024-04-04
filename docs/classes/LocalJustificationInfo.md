@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / LocalJustificationInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / LocalJustificationInfo
 
 # Class: LocalJustificationInfo
 
@@ -8,133 +12,108 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](LocalJustificationInfo.md#constructor)
-
-### Properties
-
-- [text](LocalJustificationInfo.md#text)
-- [type](LocalJustificationInfo.md#type)
-
-### Methods
-
-- [init](LocalJustificationInfo.md#init)
-- [toJSON](LocalJustificationInfo.md#tojson)
-- [fromJS](LocalJustificationInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new LocalJustificationInfo(data)
 
-• **new LocalJustificationInfo**(`data?`): [`LocalJustificationInfo`](LocalJustificationInfo.md)
+> **new LocalJustificationInfo**(`data`?): [`LocalJustificationInfo`](LocalJustificationInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ILocalJustificationInfo`](../interfaces/ILocalJustificationInfo.md) |
+• **data?**: [`ILocalJustificationInfo`](../interfaces/ILocalJustificationInfo.md)
 
 #### Returns
 
 [`LocalJustificationInfo`](LocalJustificationInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:39117
+main.ts:39123
 
 ## Properties
 
-### text
+### text?
 
-• `Optional` **text**: `string`
+> **`optional`** **text**: `string`
 
 text snippet of local justification
 
 #### Implementation of
 
-[ILocalJustificationInfo](../interfaces/ILocalJustificationInfo.md).[text](../interfaces/ILocalJustificationInfo.md#text)
+[`ILocalJustificationInfo`](../interfaces/ILocalJustificationInfo.md).[`text`](../interfaces/ILocalJustificationInfo.md#text)
 
-#### Defined in
+#### Source
 
-main.ts:39113
+main.ts:39119
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[ILocalJustificationInfo](../interfaces/ILocalJustificationInfo.md).[type](../interfaces/ILocalJustificationInfo.md#type)
+[`ILocalJustificationInfo`](../interfaces/ILocalJustificationInfo.md).[`type`](../interfaces/ILocalJustificationInfo.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:39111
+main.ts:39117
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:39126
+main.ts:39132
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:39144
+main.ts:39150
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`LocalJustificationInfo`](LocalJustificationInfo.md)
+> **`static`** **fromJS**(`data`): [`LocalJustificationInfo`](LocalJustificationInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`LocalJustificationInfo`](LocalJustificationInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:39137
+main.ts:39143

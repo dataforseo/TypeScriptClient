@@ -1,60 +1,51 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixDomainAnalyticsLimitsRatesDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppendixDomainAnalyticsLimitsRatesDataInfo
 
 # Interface: IAppendixDomainAnalyticsLimitsRatesDataInfo
 
-## Implemented by
-
-- [`AppendixDomainAnalyticsLimitsRatesDataInfo`](../classes/AppendixDomainAnalyticsLimitsRatesDataInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [errors](IAppendixDomainAnalyticsLimitsRatesDataInfo.md#errors)
-- [tasks\_ready](IAppendixDomainAnalyticsLimitsRatesDataInfo.md#tasks_ready)
-- [technologies](IAppendixDomainAnalyticsLimitsRatesDataInfo.md#technologies)
-- [whois](IAppendixDomainAnalyticsLimitsRatesDataInfo.md#whois)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### errors
+### errors?
 
-• `Optional` **errors**: `number`
+> **`optional`** **errors**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:212950
 
-___
+***
 
-### tasks\_ready
+### tasks\_ready?
 
-• `Optional` **tasks\_ready**: `number`
+> **`optional`** **tasks\_ready**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:212949
 
-___
+***
 
-### technologies
+### technologies?
 
-• `Optional` **technologies**: [`AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](../classes/AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md)
+> **`optional`** **technologies**: [`AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](../classes/AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:212952
 
-___
+***
 
-### whois
+### whois?
 
-• `Optional` **whois**: [`AppendixWhoisDomainAnalyticsLimitsRatesDataInfo`](../classes/AppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md)
+> **`optional`** **whois**: [`AppendixWhoisDomainAnalyticsLimitsRatesDataInfo`](../classes/AppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:212951

@@ -1,129 +1,116 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksTimeseriesNewLostSummaryLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBacklinksTimeseriesNewLostSummaryLiveItem
 
 # Interface: IBacklinksTimeseriesNewLostSummaryLiveItem
 
-## Implemented by
-
-- [`BacklinksTimeseriesNewLostSummaryLiveItem`](../classes/BacklinksTimeseriesNewLostSummaryLiveItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [date](IBacklinksTimeseriesNewLostSummaryLiveItem.md#date)
-- [lost\_backlinks](IBacklinksTimeseriesNewLostSummaryLiveItem.md#lost_backlinks)
-- [lost\_referring\_domains](IBacklinksTimeseriesNewLostSummaryLiveItem.md#lost_referring_domains)
-- [lost\_referring\_main\_domains](IBacklinksTimeseriesNewLostSummaryLiveItem.md#lost_referring_main_domains)
-- [new\_backlinks](IBacklinksTimeseriesNewLostSummaryLiveItem.md#new_backlinks)
-- [new\_referring\_domains](IBacklinksTimeseriesNewLostSummaryLiveItem.md#new_referring_domains)
-- [new\_referring\_main\_domains](IBacklinksTimeseriesNewLostSummaryLiveItem.md#new_referring_main_domains)
-- [type](IBacklinksTimeseriesNewLostSummaryLiveItem.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### date
+### date?
 
-• `Optional` **date**: `string`
+> **`optional`** **date**: `string`
 
 date and time when the data for the target was stored
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
-main.ts:144491
+main.ts:144499
 
-___
+***
 
-### lost\_backlinks
+### lost\_backlinks?
 
-• `Optional` **lost\_backlinks**: `number`
+> **`optional`** **lost\_backlinks**: `number`
 
 number of lost backlinks
 number of lost backlinks of the target
 
-#### Defined in
+#### Source
 
-main.ts:144497
+main.ts:144505
 
-___
+***
 
-### lost\_referring\_domains
+### lost\_referring\_domains?
 
-• `Optional` **lost\_referring\_domains**: `number`
+> **`optional`** **lost\_referring\_domains**: `number`
 
 number of lost referring domains
 number of lost referring domains of the target
 
-#### Defined in
+#### Source
 
-main.ts:144503
+main.ts:144511
 
-___
+***
 
-### lost\_referring\_main\_domains
+### lost\_referring\_main\_domains?
 
-• `Optional` **lost\_referring\_main\_domains**: `number`
+> **`optional`** **lost\_referring\_main\_domains**: `number`
 
 number of lost referring main domains
 number of lost referring main domains of the target
 
-#### Defined in
+#### Source
 
-main.ts:144509
+main.ts:144517
 
-___
+***
 
-### new\_backlinks
+### new\_backlinks?
 
-• `Optional` **new\_backlinks**: `number`
+> **`optional`** **new\_backlinks**: `number`
 
 number of new backlinks
 number of new backlinks pointing to the target
 
-#### Defined in
+#### Source
 
-main.ts:144494
+main.ts:144502
 
-___
+***
 
-### new\_referring\_domains
+### new\_referring\_domains?
 
-• `Optional` **new\_referring\_domains**: `number`
+> **`optional`** **new\_referring\_domains**: `number`
 
 number of new referring domains
 number of new referring domains pointing to the target
 
-#### Defined in
+#### Source
 
-main.ts:144500
+main.ts:144508
 
-___
+***
 
-### new\_referring\_main\_domains
+### new\_referring\_main\_domains?
 
-• `Optional` **new\_referring\_main\_domains**: `number`
+> **`optional`** **new\_referring\_main\_domains**: `number`
 
 number of new referring main domains
 number of new referring main domains pointing to the target
 
-#### Defined in
+#### Source
 
-main.ts:144506
+main.ts:144514
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:144486
+main.ts:144494

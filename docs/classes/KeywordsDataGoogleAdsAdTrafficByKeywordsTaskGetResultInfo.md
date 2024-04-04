@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo
 
 # Class: KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo
 
@@ -8,60 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md#constructor)
-
-### Properties
-
-- [average\_cpc](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md#average_cpc)
-- [bid](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md#bid)
-- [clicks](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md#clicks)
-- [cost](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md#cost)
-- [ctr](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md#ctr)
-- [date\_interval](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md#date_interval)
-- [impressions](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md#impressions)
-- [keyword](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md#keyword)
-- [language\_code](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md#language_code)
-- [location\_code](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md#location_code)
-- [match](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md#match)
-- [search\_partners](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md#search_partners)
-
-### Methods
-
-- [init](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md#init)
-- [toJSON](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md#tojson)
-- [fromJS](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo(data)
 
-• **new KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo**(`data?`): [`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md)
+> **new KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo**(`data`?): [`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md) |
+• **data?**: [`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md)
 
 #### Returns
 
 [`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:120612
+main.ts:120620
 
 ## Properties
 
-### average\_cpc
+### average\_cpc?
 
-• `Optional` **average\_cpc**: `number`
+> **`optional`** **average\_cpc**: `number`
 
 the average cost-per-click value
 represents the cost-per-click (USD) estimated for a keyword based on the specified time period and historical data;
@@ -69,17 +44,17 @@ if there is no data, then the value is null
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md).[average_cpc](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md#average_cpc)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md).[`average_cpc`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md#average_cpc)
 
-#### Defined in
+#### Source
 
-main.ts:120600
+main.ts:120608
 
-___
+***
 
-### bid
+### bid?
 
-• `Optional` **bid**: `number`
+> **`optional`** **bid**: `number`
 
 the maximum custom bid
 the bid you have specified when setting the task
@@ -89,17 +64,17 @@ learn more in this help center article
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md).[bid](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md#bid)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md).[`bid`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md#bid)
 
-#### Defined in
+#### Source
 
-main.ts:120584
+main.ts:120592
 
-___
+***
 
-### clicks
+### clicks?
 
-• `Optional` **clicks**: `number`
+> **`optional`** **clicks**: `number`
 
 number of clicks on an ad
 number of clicks an ad is projected to get within the specified time period
@@ -107,17 +82,17 @@ if there is no data, then the value is null
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md).[clicks](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md#clicks)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md).[`clicks`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md#clicks)
 
-#### Defined in
+#### Source
 
-main.ts:120608
+main.ts:120616
 
-___
+***
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 charge for an ad
 amount that will be charged for running an ad within the specified time period
@@ -125,17 +100,17 @@ if there is no data, then the value is null
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md).[cost](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md#cost)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md).[`cost`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md#cost)
 
-#### Defined in
+#### Source
 
-main.ts:120604
+main.ts:120612
 
-___
+***
 
-### ctr
+### ctr?
 
-• `Optional` **ctr**: `number`
+> **`optional`** **ctr**: `number`
 
 projected clickthrough rate (CTR) of the advertisement
 number of clicks an ad is projected to receive divided by the number of ad impressions; the CTR is projected for the specified time period
@@ -143,33 +118,33 @@ if there is no data, then the value is null
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md).[ctr](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md#ctr)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md).[`ctr`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md#ctr)
 
-#### Defined in
+#### Source
 
-main.ts:120596
+main.ts:120604
 
-___
+***
 
-### date\_interval
+### date\_interval?
 
-• `Optional` **date\_interval**: `string`
+> **`optional`** **date\_interval**: `string`
 
 forecasting date interval in a POST array
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md).[date_interval](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md#date_interval)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md).[`date_interval`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md#date_interval)
 
-#### Defined in
+#### Source
 
-main.ts:120573
+main.ts:120581
 
-___
+***
 
-### impressions
+### impressions?
 
-• `Optional` **impressions**: `number`
+> **`optional`** **impressions**: `number`
 
 projected number of ad impressions
 number of impressions an ad is projected to get within the specified time period
@@ -178,85 +153,85 @@ learn more about impressions in this help center article
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md).[impressions](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md#impressions)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md).[`impressions`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md#impressions)
 
-#### Defined in
+#### Source
 
-main.ts:120592
+main.ts:120600
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword in a POST array
 metrics are provided for all the keywords specified in the POST array
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md).[keyword](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md#keyword)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md).[`keyword`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:120565
+main.ts:120573
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 if there is no data, then the value is null
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md).[language_code](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md#language_code)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md).[`language_code`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:120571
+main.ts:120579
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 if there is no data, then the value is null
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md).[location_code](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md#location_code)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md).[`location_code`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:120568
+main.ts:120576
 
-___
+***
 
-### match
+### match?
 
-• `Optional` **match**: `string`
+> **`optional`** **match**: `string`
 
 keywords match-type
 can take the following values: exact, broad, phrase
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md).[match](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md#match)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md).[`match`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md#match)
 
-#### Defined in
+#### Source
 
-main.ts:120587
+main.ts:120595
 
-___
+***
 
-### search\_partners
+### search\_partners?
 
-• `Optional` **search\_partners**: `boolean`
+> **`optional`** **search\_partners**: `boolean`
 
 include Google search partners
 the value you specified when setting the task
@@ -265,68 +240,62 @@ if false, the results are returned for Google search sites only
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md).[search_partners](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md#search_partners)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md).[`search_partners`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md#search_partners)
 
-#### Defined in
+#### Source
 
-main.ts:120578
+main.ts:120586
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:120621
+main.ts:120629
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:120649
+main.ts:120657
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:120642
+main.ts:120650

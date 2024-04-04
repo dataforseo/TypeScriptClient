@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / TestSummary
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / TestSummary
 
 # Class: TestSummary
 
@@ -8,167 +12,140 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](TestSummary.md#constructor)
-
-### Properties
-
-- [error](TestSummary.md#error)
-- [fatal](TestSummary.md#fatal)
-- [info](TestSummary.md#info)
-- [warning](TestSummary.md#warning)
-
-### Methods
-
-- [init](TestSummary.md#init)
-- [toJSON](TestSummary.md#tojson)
-- [fromJS](TestSummary.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new TestSummary(data)
 
-• **new TestSummary**(`data?`): [`TestSummary`](TestSummary.md)
+> **new TestSummary**(`data`?): [`TestSummary`](TestSummary.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ITestSummary`](../interfaces/ITestSummary.md) |
+• **data?**: [`ITestSummary`](../interfaces/ITestSummary.md)
 
 #### Returns
 
 [`TestSummary`](TestSummary.md)
 
-#### Defined in
+#### Source
 
-main.ts:156018
+main.ts:156026
 
 ## Properties
 
-### error
+### error?
 
-• `Optional` **error**: `number`
+> **`optional`** **error**: `number`
 
 number of serious microdata errors
 
 #### Implementation of
 
-[ITestSummary](../interfaces/ITestSummary.md).[error](../interfaces/ITestSummary.md#error)
+[`ITestSummary`](../interfaces/ITestSummary.md).[`error`](../interfaces/ITestSummary.md#error)
 
-#### Defined in
+#### Source
 
-main.ts:156010
+main.ts:156018
 
-___
+***
 
-### fatal
+### fatal?
 
-• `Optional` **fatal**: `number`
+> **`optional`** **fatal**: `number`
 
 number of fatal microdata errors
 
 #### Implementation of
 
-[ITestSummary](../interfaces/ITestSummary.md).[fatal](../interfaces/ITestSummary.md#fatal)
+[`ITestSummary`](../interfaces/ITestSummary.md).[`fatal`](../interfaces/ITestSummary.md#fatal)
 
-#### Defined in
+#### Source
 
-main.ts:156008
+main.ts:156016
 
-___
+***
 
-### info
+### info?
 
-• `Optional` **info**: `number`
+> **`optional`** **info**: `number`
 
 number of microdata information flags
 
 #### Implementation of
 
-[ITestSummary](../interfaces/ITestSummary.md).[info](../interfaces/ITestSummary.md#info)
+[`ITestSummary`](../interfaces/ITestSummary.md).[`info`](../interfaces/ITestSummary.md#info)
 
-#### Defined in
+#### Source
 
-main.ts:156014
+main.ts:156022
 
-___
+***
 
-### warning
+### warning?
 
-• `Optional` **warning**: `number`
+> **`optional`** **warning**: `number`
 
 number of microdata warnings
 
 #### Implementation of
 
-[ITestSummary](../interfaces/ITestSummary.md).[warning](../interfaces/ITestSummary.md#warning)
+[`ITestSummary`](../interfaces/ITestSummary.md).[`warning`](../interfaces/ITestSummary.md#warning)
 
-#### Defined in
+#### Source
 
-main.ts:156012
+main.ts:156020
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:156027
+main.ts:156035
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:156047
+main.ts:156055
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`TestSummary`](TestSummary.md)
+> **`static`** **fromJS**(`data`): [`TestSummary`](TestSummary.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`TestSummary`](TestSummary.md)
 
-#### Defined in
+#### Source
 
-main.ts:156040
+main.ts:156048

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpNaverOrganicTasksReadyResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpNaverOrganicTasksReadyResultInfo
 
 # Class: SerpNaverOrganicTasksReadyResultInfo
 
@@ -8,240 +12,209 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpNaverOrganicTasksReadyResultInfo.md#constructor)
-
-### Properties
-
-- [date\_posted](SerpNaverOrganicTasksReadyResultInfo.md#date_posted)
-- [endpoint\_advanced](SerpNaverOrganicTasksReadyResultInfo.md#endpoint_advanced)
-- [endpoint\_html](SerpNaverOrganicTasksReadyResultInfo.md#endpoint_html)
-- [endpoint\_regular](SerpNaverOrganicTasksReadyResultInfo.md#endpoint_regular)
-- [id](SerpNaverOrganicTasksReadyResultInfo.md#id)
-- [se](SerpNaverOrganicTasksReadyResultInfo.md#se)
-- [se\_type](SerpNaverOrganicTasksReadyResultInfo.md#se_type)
-- [tag](SerpNaverOrganicTasksReadyResultInfo.md#tag)
-
-### Methods
-
-- [init](SerpNaverOrganicTasksReadyResultInfo.md#init)
-- [toJSON](SerpNaverOrganicTasksReadyResultInfo.md#tojson)
-- [fromJS](SerpNaverOrganicTasksReadyResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpNaverOrganicTasksReadyResultInfo(data)
 
-• **new SerpNaverOrganicTasksReadyResultInfo**(`data?`): [`SerpNaverOrganicTasksReadyResultInfo`](SerpNaverOrganicTasksReadyResultInfo.md)
+> **new SerpNaverOrganicTasksReadyResultInfo**(`data`?): [`SerpNaverOrganicTasksReadyResultInfo`](SerpNaverOrganicTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpNaverOrganicTasksReadyResultInfo`](../interfaces/ISerpNaverOrganicTasksReadyResultInfo.md) |
+• **data?**: [`ISerpNaverOrganicTasksReadyResultInfo`](../interfaces/ISerpNaverOrganicTasksReadyResultInfo.md)
 
 #### Returns
 
 [`SerpNaverOrganicTasksReadyResultInfo`](SerpNaverOrganicTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:69984
+main.ts:69992
 
 ## Properties
 
-### date\_posted
+### date\_posted?
 
-• `Optional` **date\_posted**: `string`
+> **`optional`** **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
 #### Implementation of
 
-[ISerpNaverOrganicTasksReadyResultInfo](../interfaces/ISerpNaverOrganicTasksReadyResultInfo.md).[date_posted](../interfaces/ISerpNaverOrganicTasksReadyResultInfo.md#date_posted)
+[`ISerpNaverOrganicTasksReadyResultInfo`](../interfaces/ISerpNaverOrganicTasksReadyResultInfo.md).[`date_posted`](../interfaces/ISerpNaverOrganicTasksReadyResultInfo.md#date_posted)
 
-#### Defined in
+#### Source
 
-main.ts:69969
+main.ts:69977
 
-___
+***
 
-### endpoint\_advanced
+### endpoint\_advanced?
 
-• `Optional` **endpoint\_advanced**: `string`
+> **`optional`** **endpoint\_advanced**: `string`
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpNaverOrganicTasksReadyResultInfo](../interfaces/ISerpNaverOrganicTasksReadyResultInfo.md).[endpoint_advanced](../interfaces/ISerpNaverOrganicTasksReadyResultInfo.md#endpoint_advanced)
+[`ISerpNaverOrganicTasksReadyResultInfo`](../interfaces/ISerpNaverOrganicTasksReadyResultInfo.md).[`endpoint_advanced`](../interfaces/ISerpNaverOrganicTasksReadyResultInfo.md#endpoint_advanced)
 
-#### Defined in
+#### Source
 
-main.ts:69977
+main.ts:69985
 
-___
+***
 
-### endpoint\_html
+### endpoint\_html?
 
-• `Optional` **endpoint\_html**: `string`
+> **`optional`** **endpoint\_html**: `string`
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpNaverOrganicTasksReadyResultInfo](../interfaces/ISerpNaverOrganicTasksReadyResultInfo.md).[endpoint_html](../interfaces/ISerpNaverOrganicTasksReadyResultInfo.md#endpoint_html)
+[`ISerpNaverOrganicTasksReadyResultInfo`](../interfaces/ISerpNaverOrganicTasksReadyResultInfo.md).[`endpoint_html`](../interfaces/ISerpNaverOrganicTasksReadyResultInfo.md#endpoint_html)
 
-#### Defined in
+#### Source
 
-main.ts:69980
+main.ts:69988
 
-___
+***
 
-### endpoint\_regular
+### endpoint\_regular?
 
-• `Optional` **endpoint\_regular**: `string`
+> **`optional`** **endpoint\_regular**: `string`
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpNaverOrganicTasksReadyResultInfo](../interfaces/ISerpNaverOrganicTasksReadyResultInfo.md).[endpoint_regular](../interfaces/ISerpNaverOrganicTasksReadyResultInfo.md#endpoint_regular)
+[`ISerpNaverOrganicTasksReadyResultInfo`](../interfaces/ISerpNaverOrganicTasksReadyResultInfo.md).[`endpoint_regular`](../interfaces/ISerpNaverOrganicTasksReadyResultInfo.md#endpoint_regular)
 
-#### Defined in
+#### Source
 
-main.ts:69974
+main.ts:69982
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[ISerpNaverOrganicTasksReadyResultInfo](../interfaces/ISerpNaverOrganicTasksReadyResultInfo.md).[id](../interfaces/ISerpNaverOrganicTasksReadyResultInfo.md#id)
+[`ISerpNaverOrganicTasksReadyResultInfo`](../interfaces/ISerpNaverOrganicTasksReadyResultInfo.md).[`id`](../interfaces/ISerpNaverOrganicTasksReadyResultInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:69962
+main.ts:69970
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 
 #### Implementation of
 
-[ISerpNaverOrganicTasksReadyResultInfo](../interfaces/ISerpNaverOrganicTasksReadyResultInfo.md).[se](../interfaces/ISerpNaverOrganicTasksReadyResultInfo.md#se)
+[`ISerpNaverOrganicTasksReadyResultInfo`](../interfaces/ISerpNaverOrganicTasksReadyResultInfo.md).[`se`](../interfaces/ISerpNaverOrganicTasksReadyResultInfo.md#se)
 
-#### Defined in
+#### Source
 
-main.ts:69964
+main.ts:69972
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 type of search engine
 can take the following values: organic
 
 #### Implementation of
 
-[ISerpNaverOrganicTasksReadyResultInfo](../interfaces/ISerpNaverOrganicTasksReadyResultInfo.md).[se_type](../interfaces/ISerpNaverOrganicTasksReadyResultInfo.md#se_type)
+[`ISerpNaverOrganicTasksReadyResultInfo`](../interfaces/ISerpNaverOrganicTasksReadyResultInfo.md).[`se_type`](../interfaces/ISerpNaverOrganicTasksReadyResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:69967
+main.ts:69975
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
 #### Implementation of
 
-[ISerpNaverOrganicTasksReadyResultInfo](../interfaces/ISerpNaverOrganicTasksReadyResultInfo.md).[tag](../interfaces/ISerpNaverOrganicTasksReadyResultInfo.md#tag)
+[`ISerpNaverOrganicTasksReadyResultInfo`](../interfaces/ISerpNaverOrganicTasksReadyResultInfo.md).[`tag`](../interfaces/ISerpNaverOrganicTasksReadyResultInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:69971
+main.ts:69979
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:69993
+main.ts:70001
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:70017
+main.ts:70025
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpNaverOrganicTasksReadyResultInfo`](SerpNaverOrganicTasksReadyResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpNaverOrganicTasksReadyResultInfo`](SerpNaverOrganicTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpNaverOrganicTasksReadyResultInfo`](SerpNaverOrganicTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:70010
+main.ts:70018

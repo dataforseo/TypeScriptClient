@@ -1,123 +1,110 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMerchantAmazonReviewsTaskGetHtmlResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IMerchantAmazonReviewsTaskGetHtmlResultInfo
 
 # Interface: IMerchantAmazonReviewsTaskGetHtmlResultInfo
 
-## Implemented by
-
-- [`MerchantAmazonReviewsTaskGetHtmlResultInfo`](../classes/MerchantAmazonReviewsTaskGetHtmlResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [datetime](IMerchantAmazonReviewsTaskGetHtmlResultInfo.md#datetime)
-- [items](IMerchantAmazonReviewsTaskGetHtmlResultInfo.md#items)
-- [items\_count](IMerchantAmazonReviewsTaskGetHtmlResultInfo.md#items_count)
-- [language\_code](IMerchantAmazonReviewsTaskGetHtmlResultInfo.md#language_code)
-- [location\_code](IMerchantAmazonReviewsTaskGetHtmlResultInfo.md#location_code)
-- [product\_id](IMerchantAmazonReviewsTaskGetHtmlResultInfo.md#product_id)
-- [se\_domain](IMerchantAmazonReviewsTaskGetHtmlResultInfo.md#se_domain)
-- [type](IMerchantAmazonReviewsTaskGetHtmlResultInfo.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
 main.ts:181610
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`HtmlItem`](../classes/HtmlItem.md)[]
+> **`optional`** **items**: [`HtmlItem`](../classes/HtmlItem.md)[]
 
 HTML pages and related data
 
-#### Defined in
+#### Source
 
 main.ts:181614
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Defined in
+#### Source
 
 main.ts:181612
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
-#### Defined in
+#### Source
 
 main.ts:181605
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
-#### Defined in
+#### Source
 
 main.ts:181603
 
-___
+***
 
-### product\_id
+### product\_id?
 
-• `Optional` **product\_id**: `string`
+> **`optional`** **product\_id**: `string`
 
 ASIN received in a POST array
 
-#### Defined in
+#### Source
 
 main.ts:181597
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
-#### Defined in
+#### Source
 
 main.ts:181601
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
 main.ts:181599

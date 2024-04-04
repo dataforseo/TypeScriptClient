@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageLighthouseVersionsResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPageLighthouseVersionsResultInfo
 
 # Class: OnPageLighthouseVersionsResultInfo
 
@@ -8,114 +12,90 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPageLighthouseVersionsResultInfo.md#constructor)
-
-### Properties
-
-- [availible\_versions](OnPageLighthouseVersionsResultInfo.md#availible_versions)
-
-### Methods
-
-- [init](OnPageLighthouseVersionsResultInfo.md#init)
-- [toJSON](OnPageLighthouseVersionsResultInfo.md#tojson)
-- [fromJS](OnPageLighthouseVersionsResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPageLighthouseVersionsResultInfo(data)
 
-• **new OnPageLighthouseVersionsResultInfo**(`data?`): [`OnPageLighthouseVersionsResultInfo`](OnPageLighthouseVersionsResultInfo.md)
+> **new OnPageLighthouseVersionsResultInfo**(`data`?): [`OnPageLighthouseVersionsResultInfo`](OnPageLighthouseVersionsResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPageLighthouseVersionsResultInfo`](../interfaces/IOnPageLighthouseVersionsResultInfo.md) |
+• **data?**: [`IOnPageLighthouseVersionsResultInfo`](../interfaces/IOnPageLighthouseVersionsResultInfo.md)
 
 #### Returns
 
 [`OnPageLighthouseVersionsResultInfo`](OnPageLighthouseVersionsResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:159337
+main.ts:159345
 
 ## Properties
 
-### availible\_versions
+### availible\_versions?
 
-• `Optional` **availible\_versions**: [`AvailibleVersions`](AvailibleVersions.md)[]
+> **`optional`** **availible\_versions**: [`AvailibleVersions`](AvailibleVersions.md)[]
 
 #### Implementation of
 
-[IOnPageLighthouseVersionsResultInfo](../interfaces/IOnPageLighthouseVersionsResultInfo.md).[availible_versions](../interfaces/IOnPageLighthouseVersionsResultInfo.md#availible_versions)
+[`IOnPageLighthouseVersionsResultInfo`](../interfaces/IOnPageLighthouseVersionsResultInfo.md).[`availible_versions`](../interfaces/IOnPageLighthouseVersionsResultInfo.md#availible_versions)
 
-#### Defined in
+#### Source
 
-main.ts:159333
+main.ts:159341
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:159346
+main.ts:159354
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:159367
+main.ts:159375
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPageLighthouseVersionsResultInfo`](OnPageLighthouseVersionsResultInfo.md)
+> **`static`** **fromJS**(`data`): [`OnPageLighthouseVersionsResultInfo`](OnPageLighthouseVersionsResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`OnPageLighthouseVersionsResultInfo`](OnPageLighthouseVersionsResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:159360
+main.ts:159368

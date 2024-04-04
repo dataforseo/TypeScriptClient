@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / GraphElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / GraphElement
 
 # Class: GraphElement
 
@@ -8,150 +12,124 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](GraphElement.md#constructor)
-
-### Properties
-
-- [date](GraphElement.md#date)
-- [type](GraphElement.md#type)
-- [value](GraphElement.md#value)
-
-### Methods
-
-- [init](GraphElement.md#init)
-- [toJSON](GraphElement.md#tojson)
-- [fromJS](GraphElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new GraphElement(data)
 
-• **new GraphElement**(`data?`): [`GraphElement`](GraphElement.md)
+> **new GraphElement**(`data`?): [`GraphElement`](GraphElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IGraphElement`](../interfaces/IGraphElement.md) |
+• **data?**: [`IGraphElement`](../interfaces/IGraphElement.md)
 
 #### Returns
 
 [`GraphElement`](GraphElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:33233
+main.ts:33239
 
 ## Properties
 
-### date
+### date?
 
-• `Optional` **date**: `string`
+> **`optional`** **date**: `string`
 
 the posting date
 
 #### Implementation of
 
-[IGraphElement](../interfaces/IGraphElement.md).[date](../interfaces/IGraphElement.md#date)
+[`IGraphElement`](../interfaces/IGraphElement.md).[`date`](../interfaces/IGraphElement.md#date)
 
-#### Defined in
+#### Source
 
-main.ts:33227
+main.ts:33233
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IGraphElement](../interfaces/IGraphElement.md).[type](../interfaces/IGraphElement.md#type)
+[`IGraphElement`](../interfaces/IGraphElement.md).[`type`](../interfaces/IGraphElement.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:33225
+main.ts:33231
 
-___
+***
 
-### value
+### value?
 
-• `Optional` **value**: `number`
+> **`optional`** **value**: `number`
 
 the value of the rating
 
 #### Implementation of
 
-[IGraphElement](../interfaces/IGraphElement.md).[value](../interfaces/IGraphElement.md#value)
+[`IGraphElement`](../interfaces/IGraphElement.md).[`value`](../interfaces/IGraphElement.md#value)
 
-#### Defined in
+#### Source
 
-main.ts:33229
+main.ts:33235
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:33242
+main.ts:33248
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:33261
+main.ts:33267
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`GraphElement`](GraphElement.md)
+> **`static`** **fromJS**(`data`): [`GraphElement`](GraphElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`GraphElement`](GraphElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:33254
+main.ts:33260

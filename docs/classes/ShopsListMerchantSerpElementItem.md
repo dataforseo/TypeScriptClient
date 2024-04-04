@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ShopsListMerchantSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ShopsListMerchantSerpElementItem
 
 # Class: ShopsListMerchantSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)
-
-  ↳ **`ShopsListMerchantSerpElementItem`**
 
 ## Implements
 
@@ -14,53 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ShopsListMerchantSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](ShopsListMerchantSerpElementItem.md#_discriminator)
-- [base\_price](ShopsListMerchantSerpElementItem.md#base_price)
-- [currency](ShopsListMerchantSerpElementItem.md#currency)
-- [details](ShopsListMerchantSerpElementItem.md#details)
-- [domain](ShopsListMerchantSerpElementItem.md#domain)
-- [position](ShopsListMerchantSerpElementItem.md#position)
-- [product\_annotation](ShopsListMerchantSerpElementItem.md#product_annotation)
-- [product\_condition](ShopsListMerchantSerpElementItem.md#product_condition)
-- [rank\_absolute](ShopsListMerchantSerpElementItem.md#rank_absolute)
-- [rank\_group](ShopsListMerchantSerpElementItem.md#rank_group)
-- [rating](ShopsListMerchantSerpElementItem.md#rating)
-- [seller\_name](ShopsListMerchantSerpElementItem.md#seller_name)
-- [shipping\_price](ShopsListMerchantSerpElementItem.md#shipping_price)
-- [shop\_ad\_aclk](ShopsListMerchantSerpElementItem.md#shop_ad_aclk)
-- [tax](ShopsListMerchantSerpElementItem.md#tax)
-- [title](ShopsListMerchantSerpElementItem.md#title)
-- [total\_price](ShopsListMerchantSerpElementItem.md#total_price)
-- [url](ShopsListMerchantSerpElementItem.md#url)
-- [xpath](ShopsListMerchantSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](ShopsListMerchantSerpElementItem.md#init)
-- [toJSON](ShopsListMerchantSerpElementItem.md#tojson)
-- [fromJS](ShopsListMerchantSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ShopsListMerchantSerpElementItem(data)
 
-• **new ShopsListMerchantSerpElementItem**(`data?`): [`ShopsListMerchantSerpElementItem`](ShopsListMerchantSerpElementItem.md)
+> **new ShopsListMerchantSerpElementItem**(`data`?): [`ShopsListMerchantSerpElementItem`](ShopsListMerchantSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IShopsListMerchantSerpElementItem`](../interfaces/IShopsListMerchantSerpElementItem.md) |
+• **data?**: [`IShopsListMerchantSerpElementItem`](../interfaces/IShopsListMerchantSerpElementItem.md)
 
 #### Returns
 
@@ -68,47 +34,47 @@
 
 #### Overrides
 
-[BaseMerchantSerpElementItem](BaseMerchantSerpElementItem.md).[constructor](BaseMerchantSerpElementItem.md#constructor)
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`constructor`](BaseMerchantSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:171923
+main.ts:171931
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseMerchantSerpElementItem](BaseMerchantSerpElementItem.md).[_discriminator](BaseMerchantSerpElementItem.md#_discriminator)
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`_discriminator`](BaseMerchantSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:20444
 
-___
+***
 
-### base\_price
+### base\_price?
 
-• `Optional` **base\_price**: `number`
+> **`optional`** **base\_price**: `number`
 
 product price without tax and shipping
 
 #### Implementation of
 
-[IShopsListMerchantSerpElementItem](../interfaces/IShopsListMerchantSerpElementItem.md).[base_price](../interfaces/IShopsListMerchantSerpElementItem.md#base_price)
+[`IShopsListMerchantSerpElementItem`](../interfaces/IShopsListMerchantSerpElementItem.md).[`base_price`](../interfaces/IShopsListMerchantSerpElementItem.md#base_price)
 
-#### Defined in
+#### Source
 
-main.ts:171892
+main.ts:171900
 
-___
+***
 
-### currency
+### currency?
 
-• `Optional` **currency**: `string`
+> **`optional`** **currency**: `string`
 
 currency in the ISO format
 example:
@@ -116,68 +82,68 @@ USD
 
 #### Implementation of
 
-[IShopsListMerchantSerpElementItem](../interfaces/IShopsListMerchantSerpElementItem.md).[currency](../interfaces/IShopsListMerchantSerpElementItem.md#currency)
+[`IShopsListMerchantSerpElementItem`](../interfaces/IShopsListMerchantSerpElementItem.md).[`currency`](../interfaces/IShopsListMerchantSerpElementItem.md#currency)
 
-#### Defined in
+#### Source
 
-main.ts:171903
+main.ts:171911
 
-___
+***
 
-### details
+### details?
 
-• `Optional` **details**: `string`
+> **`optional`** **details**: `string`
 
 details and special offers
 if there are no details, the value will be null
 
 #### Implementation of
 
-[IShopsListMerchantSerpElementItem](../interfaces/IShopsListMerchantSerpElementItem.md).[details](../interfaces/IShopsListMerchantSerpElementItem.md#details)
+[`IShopsListMerchantSerpElementItem`](../interfaces/IShopsListMerchantSerpElementItem.md).[`details`](../interfaces/IShopsListMerchantSerpElementItem.md#details)
 
-#### Defined in
+#### Source
 
-main.ts:171890
+main.ts:171898
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain in SERP
 
 #### Implementation of
 
-[IShopsListMerchantSerpElementItem](../interfaces/IShopsListMerchantSerpElementItem.md).[domain](../interfaces/IShopsListMerchantSerpElementItem.md#domain)
+[`IShopsListMerchantSerpElementItem`](../interfaces/IShopsListMerchantSerpElementItem.md).[`domain`](../interfaces/IShopsListMerchantSerpElementItem.md#domain)
 
-#### Defined in
+#### Source
 
-main.ts:171882
+main.ts:171890
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
-the alignment of the element in Google Shopping SERP
-possible values:
+alignment of the element in SERP
+can take the following values:
 left, right
 
 #### Implementation of
 
-[IShopsListMerchantSerpElementItem](../interfaces/IShopsListMerchantSerpElementItem.md).[position](../interfaces/IShopsListMerchantSerpElementItem.md#position)
+[`IShopsListMerchantSerpElementItem`](../interfaces/IShopsListMerchantSerpElementItem.md).[`position`](../interfaces/IShopsListMerchantSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
-main.ts:171878
+main.ts:171886
 
-___
+***
 
-### product\_annotation
+### product\_annotation?
 
-• `Optional` **product\_annotation**: `string`
+> **`optional`** **product\_annotation**: `string`
 
 data from annotations and badges with special offers
 if there is no annotation for this product, the value will be null
@@ -185,223 +151,221 @@ examples: LOW PRICE, SPECIAL OFFER, SALE, PRICE DROP
 
 #### Implementation of
 
-[IShopsListMerchantSerpElementItem](../interfaces/IShopsListMerchantSerpElementItem.md).[product_annotation](../interfaces/IShopsListMerchantSerpElementItem.md#product_annotation)
+[`IShopsListMerchantSerpElementItem`](../interfaces/IShopsListMerchantSerpElementItem.md).[`product_annotation`](../interfaces/IShopsListMerchantSerpElementItem.md#product_annotation)
 
-#### Defined in
+#### Source
 
-main.ts:171919
+main.ts:171927
 
-___
+***
 
-### product\_condition
+### product\_condition?
 
-• `Optional` **product\_condition**: `string`
+> **`optional`** **product\_condition**: `string`
 
 indicated condition of the product
 possible values: Used, Refurbished, New, null
 
 #### Implementation of
 
-[IShopsListMerchantSerpElementItem](../interfaces/IShopsListMerchantSerpElementItem.md).[product_condition](../interfaces/IShopsListMerchantSerpElementItem.md#product_condition)
+[`IShopsListMerchantSerpElementItem`](../interfaces/IShopsListMerchantSerpElementItem.md).[`product_condition`](../interfaces/IShopsListMerchantSerpElementItem.md#product_condition)
 
-#### Defined in
+#### Source
 
-main.ts:171915
+main.ts:171923
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
 
 #### Implementation of
 
-[IShopsListMerchantSerpElementItem](../interfaces/IShopsListMerchantSerpElementItem.md).[rank_absolute](../interfaces/IShopsListMerchantSerpElementItem.md#rank_absolute)
+[`IShopsListMerchantSerpElementItem`](../interfaces/IShopsListMerchantSerpElementItem.md).[`rank_absolute`](../interfaces/IShopsListMerchantSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:171874
+main.ts:171882
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
-[IShopsListMerchantSerpElementItem](../interfaces/IShopsListMerchantSerpElementItem.md).[rank_group](../interfaces/IShopsListMerchantSerpElementItem.md#rank_group)
+[`IShopsListMerchantSerpElementItem`](../interfaces/IShopsListMerchantSerpElementItem.md).[`rank_group`](../interfaces/IShopsListMerchantSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
-main.ts:171871
+main.ts:171879
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingElement`](RatingElement.md)
+> **`optional`** **rating**: [`RatingElement`](RatingElement.md)
 
 shop rating
 the shop popularity rate based on product reviews
 
 #### Implementation of
 
-[IShopsListMerchantSerpElementItem](../interfaces/IShopsListMerchantSerpElementItem.md).[rating](../interfaces/IShopsListMerchantSerpElementItem.md#rating)
+[`IShopsListMerchantSerpElementItem`](../interfaces/IShopsListMerchantSerpElementItem.md).[`rating`](../interfaces/IShopsListMerchantSerpElementItem.md#rating)
 
-#### Defined in
+#### Source
 
-main.ts:171909
+main.ts:171917
 
-___
+***
 
-### seller\_name
+### seller\_name?
 
-• `Optional` **seller\_name**: `string`
+> **`optional`** **seller\_name**: `string`
 
 name of the seller
 the name of the company that placed a corresponding product on Google Shopping
 
 #### Implementation of
 
-[IShopsListMerchantSerpElementItem](../interfaces/IShopsListMerchantSerpElementItem.md).[seller_name](../interfaces/IShopsListMerchantSerpElementItem.md#seller_name)
+[`IShopsListMerchantSerpElementItem`](../interfaces/IShopsListMerchantSerpElementItem.md).[`seller_name`](../interfaces/IShopsListMerchantSerpElementItem.md#seller_name)
 
-#### Defined in
+#### Source
 
-main.ts:171906
+main.ts:171914
 
-___
+***
 
-### shipping\_price
+### shipping\_price?
 
-• `Optional` **shipping\_price**: `number`
+> **`optional`** **shipping\_price**: `number`
 
 product shipping price
 
 #### Implementation of
 
-[IShopsListMerchantSerpElementItem](../interfaces/IShopsListMerchantSerpElementItem.md).[shipping_price](../interfaces/IShopsListMerchantSerpElementItem.md#shipping_price)
+[`IShopsListMerchantSerpElementItem`](../interfaces/IShopsListMerchantSerpElementItem.md).[`shipping_price`](../interfaces/IShopsListMerchantSerpElementItem.md#shipping_price)
 
-#### Defined in
+#### Source
 
-main.ts:171897
+main.ts:171905
 
-___
+***
 
-### shop\_ad\_aclk
+### shop\_ad\_aclk?
 
-• `Optional` **shop\_ad\_aclk**: `string`
+> **`optional`** **shop\_ad\_aclk**: `string`
 
 unique ad click referral parameter
 using this parameter you can get a URL of the advertisement in Google Shopping Sellers Ad URL
 
 #### Implementation of
 
-[IShopsListMerchantSerpElementItem](../interfaces/IShopsListMerchantSerpElementItem.md).[shop_ad_aclk](../interfaces/IShopsListMerchantSerpElementItem.md#shop_ad_aclk)
+[`IShopsListMerchantSerpElementItem`](../interfaces/IShopsListMerchantSerpElementItem.md).[`shop_ad_aclk`](../interfaces/IShopsListMerchantSerpElementItem.md#shop_ad_aclk)
 
-#### Defined in
+#### Source
 
-main.ts:171912
+main.ts:171920
 
-___
+***
 
-### tax
+### tax?
 
-• `Optional` **tax**: `number`
+> **`optional`** **tax**: `number`
 
 the amount of tax
 tax is specified as the actual amount of money, not as the percentage
 
 #### Implementation of
 
-[IShopsListMerchantSerpElementItem](../interfaces/IShopsListMerchantSerpElementItem.md).[tax](../interfaces/IShopsListMerchantSerpElementItem.md#tax)
+[`IShopsListMerchantSerpElementItem`](../interfaces/IShopsListMerchantSerpElementItem.md).[`tax`](../interfaces/IShopsListMerchantSerpElementItem.md#tax)
 
-#### Defined in
+#### Source
 
-main.ts:171895
+main.ts:171903
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 product title
 
 #### Implementation of
 
-[IShopsListMerchantSerpElementItem](../interfaces/IShopsListMerchantSerpElementItem.md).[title](../interfaces/IShopsListMerchantSerpElementItem.md#title)
+[`IShopsListMerchantSerpElementItem`](../interfaces/IShopsListMerchantSerpElementItem.md).[`title`](../interfaces/IShopsListMerchantSerpElementItem.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:171884
+main.ts:171892
 
-___
+***
 
-### total\_price
+### total\_price?
 
-• `Optional` **total\_price**: `number`
+> **`optional`** **total\_price**: `number`
 
 product price including tax and shipping
 
 #### Implementation of
 
-[IShopsListMerchantSerpElementItem](../interfaces/IShopsListMerchantSerpElementItem.md).[total_price](../interfaces/IShopsListMerchantSerpElementItem.md#total_price)
+[`IShopsListMerchantSerpElementItem`](../interfaces/IShopsListMerchantSerpElementItem.md).[`total_price`](../interfaces/IShopsListMerchantSerpElementItem.md#total_price)
 
-#### Defined in
+#### Source
 
-main.ts:171899
+main.ts:171907
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 Google Shopping URL forwarding to the product page on the seller’s website
 if you want to obtain a URL of the advertisement forwarding to the product page on the seller’s website, please refer to the Google Shopping Sellers Ad URL endpoint
 
 #### Implementation of
 
-[IShopsListMerchantSerpElementItem](../interfaces/IShopsListMerchantSerpElementItem.md).[url](../interfaces/IShopsListMerchantSerpElementItem.md#url)
+[`IShopsListMerchantSerpElementItem`](../interfaces/IShopsListMerchantSerpElementItem.md).[`url`](../interfaces/IShopsListMerchantSerpElementItem.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:171887
+main.ts:171895
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 XPath of the element
 
 #### Implementation of
 
-[IShopsListMerchantSerpElementItem](../interfaces/IShopsListMerchantSerpElementItem.md).[xpath](../interfaces/IShopsListMerchantSerpElementItem.md#xpath)
+[`IShopsListMerchantSerpElementItem`](../interfaces/IShopsListMerchantSerpElementItem.md).[`xpath`](../interfaces/IShopsListMerchantSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
-main.ts:171880
+main.ts:171888
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -409,23 +373,21 @@ main.ts:171880
 
 #### Overrides
 
-[BaseMerchantSerpElementItem](BaseMerchantSerpElementItem.md).[init](BaseMerchantSerpElementItem.md#init)
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`init`](BaseMerchantSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:171928
+main.ts:171936
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -433,23 +395,21 @@ ___
 
 #### Overrides
 
-[BaseMerchantSerpElementItem](BaseMerchantSerpElementItem.md).[toJSON](BaseMerchantSerpElementItem.md#tojson)
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`toJSON`](BaseMerchantSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:171963
+main.ts:171971
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ShopsListMerchantSerpElementItem`](ShopsListMerchantSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`ShopsListMerchantSerpElementItem`](ShopsListMerchantSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -457,8 +417,8 @@ ___
 
 #### Overrides
 
-[BaseMerchantSerpElementItem](BaseMerchantSerpElementItem.md).[fromJS](BaseMerchantSerpElementItem.md#fromjs)
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`fromJS`](BaseMerchantSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:171956
+main.ts:171964

@@ -1,42 +1,35 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMerchantGoogleLanguagesResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IMerchantGoogleLanguagesResultInfo
 
 # Interface: IMerchantGoogleLanguagesResultInfo
 
-## Implemented by
-
-- [`MerchantGoogleLanguagesResultInfo`](../classes/MerchantGoogleLanguagesResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [language\_code](IMerchantGoogleLanguagesResultInfo.md#language_code)
-- [language\_name](IMerchantGoogleLanguagesResultInfo.md#language_name)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code according to ISO 639-1
 
-#### Defined in
+#### Source
 
-main.ts:168819
+main.ts:168827
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 language name
 
-#### Defined in
+#### Source
 
-main.ts:168817
+main.ts:168825

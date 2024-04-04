@@ -1,32 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageKeywordDensityRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IOnPageKeywordDensityRequestInfo
 
 # Interface: IOnPageKeywordDensityRequestInfo
 
-## Implemented by
-
-- [`OnPageKeywordDensityRequestInfo`](../classes/OnPageKeywordDensityRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [filters](IOnPageKeywordDensityRequestInfo.md#filters)
-- [id](IOnPageKeywordDensityRequestInfo.md#id)
-- [keyword\_length](IOnPageKeywordDensityRequestInfo.md#keyword_length)
-- [limit](IOnPageKeywordDensityRequestInfo.md#limit)
-- [order\_by](IOnPageKeywordDensityRequestInfo.md#order_by)
-- [tag](IOnPageKeywordDensityRequestInfo.md#tag)
-- [url](IOnPageKeywordDensityRequestInfo.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
@@ -39,21 +27,21 @@ example:
 ["keyword","=","%seo%"]
 [["keyword","=","%seo%"],
 "and",
-["frequency","<","6"]]
+["frequency","`<","6"]]
 [["keyword","not_like","%seo%"],
 "and",
-[["frequency",">","6"],"or",["density",">","0.02"]]]
+[["frequency",">`","6"],"or",["density",">","0.02"]]]
 The full list of possible filters is available by this link.
 
-#### Defined in
+#### Source
 
-main.ts:155633
+main.ts:155641
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 ID of the task
 required field
@@ -61,45 +49,45 @@ you can get this ID in the response of the Task POST endpoint
 example:
 “07131248-1535-0216-1000-17384017ad04”
 
-#### Defined in
+#### Source
 
-main.ts:155600
+main.ts:155608
 
-___
+***
 
-### keyword\_length
+### keyword\_length?
 
-• `Optional` **keyword\_length**: `number`
+> **`optional`** **keyword\_length**: `number`
 
 number of words for a keyword
 required field
 possible values:
 1, 2, 3, 4, 5
 
-#### Defined in
+#### Source
 
-main.ts:155605
+main.ts:155613
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned keywords
 optional field
 default value: 100
 maximum value: 1000
 
-#### Defined in
+#### Source
 
-main.ts:155616
+main.ts:155624
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -115,15 +103,15 @@ you should use a comma to separate several sorting rules
 example:
 ["keyword,asc","frequency,desc"]
 
-#### Defined in
+#### Source
 
-main.ts:155647
+main.ts:155655
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -131,15 +119,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:155653
+main.ts:155661
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 page URL
 optional field
@@ -147,6 +135,6 @@ if you do not specify a page here, the results will be provided for the whole we
 if you use this field, the API response will contain only keywords from the specified page
 a page should be specified with absolute URL (including http:// or https://)
 
-#### Defined in
+#### Source
 
-main.ts:155611
+main.ts:155619

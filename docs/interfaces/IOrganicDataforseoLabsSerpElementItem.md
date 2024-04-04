@@ -1,431 +1,394 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOrganicDataforseoLabsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IOrganicDataforseoLabsSerpElementItem
 
 # Interface: IOrganicDataforseoLabsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md)
 
-  ↳ **`IOrganicDataforseoLabsSerpElementItem`**
-
-## Implemented by
-
-- [`OrganicDataforseoLabsSerpElementItem`](../classes/OrganicDataforseoLabsSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [about\_this\_result](IOrganicDataforseoLabsSerpElementItem.md#about_this_result)
-- [amp\_version](IOrganicDataforseoLabsSerpElementItem.md#amp_version)
-- [backlinks\_info](IOrganicDataforseoLabsSerpElementItem.md#backlinks_info)
-- [breadcrumb](IOrganicDataforseoLabsSerpElementItem.md#breadcrumb)
-- [description](IOrganicDataforseoLabsSerpElementItem.md#description)
-- [domain](IOrganicDataforseoLabsSerpElementItem.md#domain)
-- [estimated\_paid\_traffic\_cost](IOrganicDataforseoLabsSerpElementItem.md#estimated_paid_traffic_cost)
-- [etv](IOrganicDataforseoLabsSerpElementItem.md#etv)
-- [extended\_snippet](IOrganicDataforseoLabsSerpElementItem.md#extended_snippet)
-- [highlighted](IOrganicDataforseoLabsSerpElementItem.md#highlighted)
-- [impressions\_etv](IOrganicDataforseoLabsSerpElementItem.md#impressions_etv)
-- [is\_featured\_snippet](IOrganicDataforseoLabsSerpElementItem.md#is_featured_snippet)
-- [is\_image](IOrganicDataforseoLabsSerpElementItem.md#is_image)
-- [is\_malicious](IOrganicDataforseoLabsSerpElementItem.md#is_malicious)
-- [is\_video](IOrganicDataforseoLabsSerpElementItem.md#is_video)
-- [links](IOrganicDataforseoLabsSerpElementItem.md#links)
-- [main\_domain](IOrganicDataforseoLabsSerpElementItem.md#main_domain)
-- [position](IOrganicDataforseoLabsSerpElementItem.md#position)
-- [pre\_snippet](IOrganicDataforseoLabsSerpElementItem.md#pre_snippet)
-- [rank\_absolute](IOrganicDataforseoLabsSerpElementItem.md#rank_absolute)
-- [rank\_changes](IOrganicDataforseoLabsSerpElementItem.md#rank_changes)
-- [rank\_group](IOrganicDataforseoLabsSerpElementItem.md#rank_group)
-- [rank\_info](IOrganicDataforseoLabsSerpElementItem.md#rank_info)
-- [rating](IOrganicDataforseoLabsSerpElementItem.md#rating)
-- [relative\_url](IOrganicDataforseoLabsSerpElementItem.md#relative_url)
-- [se\_type](IOrganicDataforseoLabsSerpElementItem.md#se_type)
-- [title](IOrganicDataforseoLabsSerpElementItem.md#title)
-- [url](IOrganicDataforseoLabsSerpElementItem.md#url)
-- [website\_name](IOrganicDataforseoLabsSerpElementItem.md#website_name)
-- [xpath](IOrganicDataforseoLabsSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### about\_this\_result
+### about\_this\_result?
 
-• `Optional` **about\_this\_result**: [`AboutThisResultElement`](../classes/AboutThisResultElement.md)
+> **`optional`** **about\_this\_result**: [`AboutThisResultElement`](../classes/AboutThisResultElement.md)
 
 contains information from the ‘About this result’ panel
 ‘About this result’ panel provides additional context about why Google returned this result for the given query;
 this feature appears after clicking on the three dots next to most results
 
-#### Defined in
+#### Source
 
-main.ts:89245
+main.ts:89253
 
-___
+***
 
-### amp\_version
+### amp\_version?
 
-• `Optional` **amp\_version**: `boolean`
+> **`optional`** **amp\_version**: `boolean`
 
 Accelerated Mobile Pages
 indicates whether an item has the Accelerated Mobile Page (AMP) version
 
-#### Defined in
+#### Source
 
-main.ts:89232
+main.ts:89240
 
-___
+***
 
-### backlinks\_info
+### backlinks\_info?
 
-• `Optional` **backlinks\_info**: [`BacklinksInfo`](../classes/BacklinksInfo.md)
+> **`optional`** **backlinks\_info**: [`BacklinksInfo`](../classes/BacklinksInfo.md)
 
 backlinks information for the target website
 
-#### Defined in
+#### Source
 
-main.ts:89268
+main.ts:89276
 
-___
+***
 
-### breadcrumb
+### breadcrumb?
 
-• `Optional` **breadcrumb**: `string`
+> **`optional`** **breadcrumb**: `string`
 
 breadcrumb in SERP
 
-#### Defined in
+#### Source
 
-main.ts:89213
+main.ts:89221
 
-___
+***
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description of the results element in SERP
 
-#### Defined in
+#### Source
 
-main.ts:89225
+main.ts:89233
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 subdomain in SERP
 
-#### Defined in
+#### Source
 
-main.ts:89207
+main.ts:89215
 
-___
+***
 
-### estimated\_paid\_traffic\_cost
+### estimated\_paid\_traffic\_cost?
 
-• `Optional` **estimated\_paid\_traffic\_cost**: `number`
+> **`optional`** **estimated\_paid\_traffic\_cost**: `number`
 
 estimated cost of monthly search traffic
 represents the estimated cost of paid monthly traffic (USD) based on etv and cpc values of all keywords in the category that the domain ranks for
 learn more about how the metric is calculated in this help center article
 
-#### Defined in
+#### Source
 
-main.ts:89263
+main.ts:89271
 
-___
+***
 
-### etv
+### etv?
 
-• `Optional` **etv**: `number`
+> **`optional`** **etv**: `number`
 
 estimated traffic volume
 estimated paid monthly traffic to the domain
 calculated as the product of CTR (click-through-rate) and search volume values of all keywords in the category that the domain ranks for
 learn more about how the metric is calculated in this help center article
 
-#### Defined in
+#### Source
 
-main.ts:89254
+main.ts:89262
 
-___
+***
 
-### extended\_snippet
+### extended\_snippet?
 
-• `Optional` **extended\_snippet**: `string`
+> **`optional`** **extended\_snippet**: `string`
 
 includes additional information appended after the result description in SERP
 
-#### Defined in
-
-main.ts:89229
-
-___
-
-### highlighted
-
-• `Optional` **highlighted**: `string`[]
-
-words highlighted in bold within the results description
-
-#### Defined in
+#### Source
 
 main.ts:89237
 
-___
+***
 
-### impressions\_etv
+### highlighted?
 
-• `Optional` **impressions\_etv**: `number`
+> **`optional`** **highlighted**: `string`[]
+
+words highlighted in bold within the results description
+
+#### Source
+
+main.ts:89245
+
+***
+
+### impressions\_etv?
+
+> **`optional`** **impressions\_etv**: `number`
 
 estimated traffic volume based on impressions
 estimated paid monthly traffic to the domain
 calculated as the product of CTR (click-through-rate) and impressions values of all keywords in the category that the domain ranks for
 learn more about how the metric is calculated in this help center article
 
-#### Defined in
+#### Source
 
-main.ts:89259
+main.ts:89267
 
-___
+***
 
-### is\_featured\_snippet
+### is\_featured\_snippet?
 
-• `Optional` **is\_featured\_snippet**: `boolean`
+> **`optional`** **is\_featured\_snippet**: `boolean`
 
 indicates whether the element is a featured_snippet
 
-#### Defined in
+#### Source
 
-main.ts:89221
+main.ts:89229
 
-___
+***
 
-### is\_image
+### is\_image?
 
-• `Optional` **is\_image**: `boolean`
+> **`optional`** **is\_image**: `boolean`
 
 indicates whether the element contains an image
 
-#### Defined in
+#### Source
 
-main.ts:89217
+main.ts:89225
 
-___
+***
 
-### is\_malicious
+### is\_malicious?
 
-• `Optional` **is\_malicious**: `boolean`
+> **`optional`** **is\_malicious**: `boolean`
 
 indicates whether the element is marked as malicious
 
-#### Defined in
+#### Source
 
-main.ts:89223
+main.ts:89231
 
-___
+***
 
-### is\_video
+### is\_video?
 
-• `Optional` **is\_video**: `boolean`
+> **`optional`** **is\_video**: `boolean`
 
 indicates whether the element contains a video
 
-#### Defined in
+#### Source
 
-main.ts:89219
+main.ts:89227
 
-___
+***
 
-### links
+### links?
 
-• `Optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
+> **`optional`** **links**: [`LinkElement`](../classes/LinkElement.md)[]
 
 sitelinks
 the links shown below some of Google’s search results
 if there are none, equals null
 
-#### Defined in
+#### Source
 
-main.ts:89241
+main.ts:89249
 
-___
+***
 
-### main\_domain
+### main\_domain?
 
-• `Optional` **main\_domain**: `string`
+> **`optional`** **main\_domain**: `string`
 
 primary domain name in SERP
 
-#### Defined in
+#### Source
 
-main.ts:89247
+main.ts:89255
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
-main.ts:89203
+main.ts:89211
 
-___
+***
 
-### pre\_snippet
+### pre\_snippet?
 
-• `Optional` **pre\_snippet**: `string`
+> **`optional`** **pre\_snippet**: `string`
 
 includes additional information appended before the result description in SERP
 
-#### Defined in
+#### Source
 
-main.ts:89227
+main.ts:89235
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Defined in
+#### Source
 
-main.ts:89199
+main.ts:89207
 
-___
+***
 
-### rank\_changes
+### rank\_changes?
 
-• `Optional` **rank\_changes**: [`RankChanges`](../classes/RankChanges.md)
+> **`optional`** **rank\_changes**: [`RankChanges`](../classes/RankChanges.md)
 
 changes in rankings
 contains information about the ranking changes of the SERP element since the previous_updated_time
 
-#### Defined in
+#### Source
 
-main.ts:89266
+main.ts:89274
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
-main.ts:89196
+main.ts:89204
 
-___
+***
 
-### rank\_info
+### rank\_info?
 
-• `Optional` **rank\_info**: [`RankInfo`](../classes/RankInfo.md)
+> **`optional`** **rank\_info**: [`RankInfo`](../classes/RankInfo.md)
 
 page and domain rank information
 
-#### Defined in
+#### Source
 
-main.ts:89270
+main.ts:89278
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
-#### Defined in
+#### Source
 
-main.ts:89235
+main.ts:89243
 
-___
+***
 
-### relative\_url
+### relative\_url?
 
-• `Optional` **relative\_url**: `string`
+> **`optional`** **relative\_url**: `string`
 
 URL in SERP that does not specify the HTTPs protocol and domain name
 
-#### Defined in
+#### Source
 
-main.ts:89249
+main.ts:89257
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:89193
+main.ts:89201
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the result in SERP
 
-#### Defined in
+#### Source
 
-main.ts:89209
+main.ts:89217
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 relevant URL in SERP
 
-#### Defined in
+#### Source
 
-main.ts:89211
+main.ts:89219
 
-___
+***
 
-### website\_name
+### website\_name?
 
-• `Optional` **website\_name**: `string`
+> **`optional`** **website\_name**: `string`
 
 relevant website name in SERP
 
-#### Defined in
+#### Source
 
-main.ts:89215
+main.ts:89223
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
-main.ts:89205
+main.ts:89213

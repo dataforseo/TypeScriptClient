@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo
 
 # Class: KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo
 
@@ -8,55 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md#constructor)
-
-### Properties
-
-- [datetime](KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md#datetime)
-- [items](KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md#items)
-- [items\_count](KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md#items_count)
-- [keywords](KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md#keywords)
-- [language\_code](KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md#language_code)
-- [location\_code](KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md#location_code)
-- [type](KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md#type)
-
-### Methods
-
-- [init](KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md#init)
-- [toJSON](KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md#tojson)
-- [fromJS](KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo(data)
 
-• **new KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo**(`data?`): [`KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo`](KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md)
+> **new KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo**(`data`?): [`KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo`](KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md) |
+• **data?**: [`IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md)
 
 #### Returns
 
 [`KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo`](KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:125838
+main.ts:125846
 
 ## Properties
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -65,167 +45,161 @@ example:
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md).[datetime](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md#datetime)
+[`IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md).[`datetime`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
-main.ts:125829
+main.ts:125837
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md)[]
+> **`optional`** **items**: [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md)[]
 
 keyword popularity values per location
 values in this array represent percentages relative to the maximum value within each region
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md).[items](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md#items)
+[`IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md).[`items`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:125834
+main.ts:125842
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md).[items_count](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md#items_count)
+[`IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md).[`items_count`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:125831
+main.ts:125839
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 keywords in a POST array
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md).[keywords](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md#keywords)
+[`IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md).[`keywords`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md#keywords)
 
-#### Defined in
+#### Source
 
-main.ts:125816
+main.ts:125824
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 if there is no data, then the value is null
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md).[language_code](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md#language_code)
+[`IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md).[`language_code`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:125824
+main.ts:125832
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 if there is no data, then the value is null
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md).[location_code](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md#location_code)
+[`IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md).[`location_code`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:125821
+main.ts:125829
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md).[type](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md#type)
+[`IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md).[`type`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:125818
+main.ts:125826
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:125847
+main.ts:125855
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:125878
+main.ts:125886
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo`](KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo`](KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo`](KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:125871
+main.ts:125879

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo
 
 # Class: KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo
 
@@ -8,64 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#constructor)
-
-### Properties
-
-- [bid](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#bid)
-- [date\_from](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#date_from)
-- [date\_interval](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#date_interval)
-- [date\_to](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#date_to)
-- [keywords](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#keywords)
-- [language\_code](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#language_code)
-- [language\_name](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#language_name)
-- [location\_code](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#location_code)
-- [location\_coordinate](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#location_coordinate)
-- [location\_name](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#location_name)
-- [match](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#match)
-- [pingback\_url](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#pingback_url)
-- [postback\_url](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#postback_url)
-- [search\_partners](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#search_partners)
-- [sort\_by](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#sort_by)
-- [tag](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#tag)
-
-### Methods
-
-- [init](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#init)
-- [toJSON](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#tojson)
-- [fromJS](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo(data)
 
-• **new KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo**(`data?`): [`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md)
+> **new KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo**(`data`?): [`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md) |
+• **data?**: [`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md)
 
 #### Returns
 
 [`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:120066
+main.ts:120074
 
 ## Properties
 
-### bid
+### bid?
 
-• `Optional` **bid**: `number`
+> **`optional`** **bid**: `number`
 
 the maximum custom bid
 required field
@@ -75,17 +46,17 @@ learn more in this help center article
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[bid](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#bid)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[`bid`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#bid)
 
-#### Defined in
+#### Source
 
-main.ts:119960
+main.ts:119968
 
-___
+***
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of the forecasting time range
 required field if you specify date_to
@@ -99,17 +70,17 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[date_from](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#date_from)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[`date_from`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#date_from)
 
-#### Defined in
+#### Source
 
-main.ts:120016
+main.ts:120024
 
-___
+***
 
-### date\_interval
+### date\_interval?
 
-• `Optional` **date\_interval**: `string`
+> **`optional`** **date\_interval**: `string`
 
 forecasting date interval
 optional field
@@ -119,17 +90,17 @@ default value: next_month
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[date_interval](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#date_interval)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[`date_interval`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#date_interval)
 
-#### Defined in
+#### Source
 
-main.ts:120031
+main.ts:120039
 
-___
+***
 
-### date\_to
+### date\_to?
 
-• `Optional` **date\_to**: `string`
+> **`optional`** **date\_to**: `string`
 
 ending date of the forecasting time range
 required field if you specify date_from
@@ -142,17 +113,17 @@ example:
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[date_to](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#date_to)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[`date_to`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#date_to)
 
-#### Defined in
+#### Source
 
-main.ts:120025
+main.ts:120033
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 keywords
 required field
@@ -168,17 +139,17 @@ to learn more about which symbols can be used, please refer to this article
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[keywords](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#keywords)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[`keywords`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#keywords)
 
-#### Defined in
+#### Source
 
-main.ts:119954
+main.ts:119962
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 optional field
@@ -188,17 +159,17 @@ en
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[language_code](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#language_code)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[`language_code`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:120006
+main.ts:120014
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -208,17 +179,17 @@ English
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[language_name](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#language_name)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[`language_name`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:120000
+main.ts:120008
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 optional field
@@ -230,17 +201,17 @@ example:
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[location_code](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#location_code)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[`location_code`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:119985
+main.ts:119993
 
-___
+***
 
-### location\_coordinate
+### location\_coordinate?
 
-• `Optional` **location\_coordinate**: `string`
+> **`optional`** **location\_coordinate**: `string`
 
 GPS coordinates of a location
 optional field
@@ -253,17 +224,17 @@ example:
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[location_coordinate](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#location_coordinate)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[`location_coordinate`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#location_coordinate)
 
-#### Defined in
+#### Source
 
-main.ts:119994
+main.ts:120002
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 optional field
@@ -275,17 +246,17 @@ London,England,United Kingdom
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[location_name](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#location_name)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[`location_name`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:119977
+main.ts:119985
 
-___
+***
 
-### match
+### match?
 
-• `Optional` **match**: `string`
+> **`optional`** **match**: `string`
 
 keywords match-type
 required field
@@ -293,17 +264,17 @@ can take the following values: exact, broad, phrase
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[match](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#match)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[`match`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#match)
 
-#### Defined in
+#### Source
 
-main.ts:119964
+main.ts:119972
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -317,17 +288,17 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[pingback_url](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#pingback_url)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[`pingback_url`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#pingback_url)
 
-#### Defined in
+#### Source
 
-main.ts:120056
+main.ts:120064
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -341,17 +312,17 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[postback_url](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#postback_url)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[`postback_url`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#postback_url)
 
-#### Defined in
+#### Source
 
-main.ts:120046
+main.ts:120054
 
-___
+***
 
-### search\_partners
+### search\_partners?
 
-• `Optional` **search\_partners**: `boolean`
+> **`optional`** **search\_partners**: `boolean`
 
 include Google search partners
 optional field
@@ -360,17 +331,17 @@ default value: false – results are returned for Google search sites
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[search_partners](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#search_partners)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[`search_partners`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#search_partners)
 
-#### Defined in
+#### Source
 
-main.ts:119969
+main.ts:119977
 
-___
+***
 
-### sort\_by
+### sort\_by?
 
-• `Optional` **sort\_by**: `string`
+> **`optional`** **sort\_by**: `string`
 
 results sorting parameters
 optional field
@@ -379,17 +350,17 @@ default value: relevance
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[sort_by](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#sort_by)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[`sort_by`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#sort_by)
 
-#### Defined in
+#### Source
 
-main.ts:120036
+main.ts:120044
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -399,68 +370,62 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[tag](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#tag)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[`tag`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:120062
+main.ts:120070
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:120075
+main.ts:120083
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:120111
+main.ts:120119
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:120104
+main.ts:120112

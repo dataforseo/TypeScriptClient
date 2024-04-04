@@ -1,42 +1,35 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentGenerationCheckGrammarLanguagesResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IContentGenerationCheckGrammarLanguagesResultInfo
 
 # Interface: IContentGenerationCheckGrammarLanguagesResultInfo
 
-## Implemented by
-
-- [`ContentGenerationCheckGrammarLanguagesResultInfo`](../classes/ContentGenerationCheckGrammarLanguagesResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [language\_code](IContentGenerationCheckGrammarLanguagesResultInfo.md#language_code)
-- [language\_name](IContentGenerationCheckGrammarLanguagesResultInfo.md#language_name)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code according to ISO 639-1
 
-#### Defined in
+#### Source
 
-main.ts:167269
+main.ts:167277
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 language name
 
-#### Defined in
+#### Source
 
-main.ts:167267
+main.ts:167275

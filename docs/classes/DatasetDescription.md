@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DatasetDescription
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DatasetDescription
 
 # Class: DatasetDescription
 
@@ -8,133 +12,108 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DatasetDescription.md#constructor)
-
-### Properties
-
-- [links](DatasetDescription.md#links)
-- [text](DatasetDescription.md#text)
-
-### Methods
-
-- [init](DatasetDescription.md#init)
-- [toJSON](DatasetDescription.md#tojson)
-- [fromJS](DatasetDescription.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DatasetDescription(data)
 
-• **new DatasetDescription**(`data?`): [`DatasetDescription`](DatasetDescription.md)
+> **new DatasetDescription**(`data`?): [`DatasetDescription`](DatasetDescription.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDatasetDescription`](../interfaces/IDatasetDescription.md) |
+• **data?**: [`IDatasetDescription`](../interfaces/IDatasetDescription.md)
 
 #### Returns
 
 [`DatasetDescription`](DatasetDescription.md)
 
-#### Defined in
+#### Source
 
-main.ts:53153
+main.ts:53161
 
 ## Properties
 
-### links
+### links?
 
-• `Optional` **links**: [`LinkElement`](LinkElement.md)[]
+> **`optional`** **links**: [`LinkElement`](LinkElement.md)[]
 
 links featured in the ‘dataset_description’
 
 #### Implementation of
 
-[IDatasetDescription](../interfaces/IDatasetDescription.md).[links](../interfaces/IDatasetDescription.md#links)
+[`IDatasetDescription`](../interfaces/IDatasetDescription.md).[`links`](../interfaces/IDatasetDescription.md#links)
 
-#### Defined in
+#### Source
 
-main.ts:53149
+main.ts:53157
 
-___
+***
 
-### text
+### text?
 
-• `Optional` **text**: `string`
+> **`optional`** **text**: `string`
 
 text of the description
 
 #### Implementation of
 
-[IDatasetDescription](../interfaces/IDatasetDescription.md).[text](../interfaces/IDatasetDescription.md#text)
+[`IDatasetDescription`](../interfaces/IDatasetDescription.md).[`text`](../interfaces/IDatasetDescription.md#text)
 
-#### Defined in
+#### Source
 
-main.ts:53147
+main.ts:53155
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:53162
+main.ts:53170
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:53184
+main.ts:53192
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DatasetDescription`](DatasetDescription.md)
+> **`static`** **fromJS**(`data`): [`DatasetDescription`](DatasetDescription.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DatasetDescription`](DatasetDescription.md)
 
-#### Defined in
+#### Source
 
-main.ts:53177
+main.ts:53185

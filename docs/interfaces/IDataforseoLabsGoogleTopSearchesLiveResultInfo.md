@@ -1,122 +1,109 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleTopSearchesLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsGoogleTopSearchesLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleTopSearchesLiveResultInfo
 
-## Implemented by
-
-- [`DataforseoLabsGoogleTopSearchesLiveResultInfo`](../classes/DataforseoLabsGoogleTopSearchesLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IDataforseoLabsGoogleTopSearchesLiveResultInfo.md#items)
-- [items\_count](IDataforseoLabsGoogleTopSearchesLiveResultInfo.md#items_count)
-- [language\_code](IDataforseoLabsGoogleTopSearchesLiveResultInfo.md#language_code)
-- [location\_code](IDataforseoLabsGoogleTopSearchesLiveResultInfo.md#location_code)
-- [offset](IDataforseoLabsGoogleTopSearchesLiveResultInfo.md#offset)
-- [offset\_token](IDataforseoLabsGoogleTopSearchesLiveResultInfo.md#offset_token)
-- [se\_type](IDataforseoLabsGoogleTopSearchesLiveResultInfo.md#se_type)
-- [total\_count](IDataforseoLabsGoogleTopSearchesLiveResultInfo.md#total_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)[]
+> **`optional`** **items**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)[]
 
 contains keywords and related data
 
-#### Defined in
+#### Source
 
-main.ts:87740
+main.ts:87748
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Defined in
+#### Source
 
-main.ts:87732
+main.ts:87740
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:87728
+main.ts:87736
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
-#### Defined in
-
-main.ts:87726
-
-___
-
-### offset
-
-• `Optional` **offset**: `number`
-
-current offset value
-
-#### Defined in
+#### Source
 
 main.ts:87734
 
-___
+***
 
-### offset\_token
+### offset?
 
-• `Optional` **offset\_token**: `string`
+> **`optional`** **offset**: `number`
+
+current offset value
+
+#### Source
+
+main.ts:87742
+
+***
+
+### offset\_token?
+
+> **`optional`** **offset\_token**: `string`
 
 offset token for subsequent requests
 you can use the string provided in this field to get the subsequent results of the initial task;
 note: offset_token values are unique for each subsequent task
 
-#### Defined in
+#### Source
 
-main.ts:87738
+main.ts:87746
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:87724
+main.ts:87732
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
-#### Defined in
+#### Source
 
-main.ts:87730
+main.ts:87738

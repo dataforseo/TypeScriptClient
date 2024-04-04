@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem
 
 # Class: DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem
 
@@ -10,221 +14,191 @@ items array
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md#constructor)
-
-### Properties
-
-- [categories\_count](DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md#categories_count)
-- [category](DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md#category)
-- [group](DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md#group)
-- [groups\_count](DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md#groups_count)
-- [technologies\_count](DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md#technologies_count)
-- [technology](DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md#technology)
-- [type](DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md#type)
-
-### Methods
-
-- [init](DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md#init)
-- [toJSON](DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md#tojson)
-- [fromJS](DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem(data)
 
-• **new DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem**(`data?`): [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md)
+> **new DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem**(`data`?): [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md) |
+• **data?**: [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md)
 
 #### Returns
 
 [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:75121
+main.ts:75129
 
 ## Properties
 
-### categories\_count
+### categories\_count?
 
-• `Optional` **categories\_count**: `number`
+> **`optional`** **categories\_count**: `number`
 
 technology categories count
 number of domains that match the parameters you specified and are using technologies from the indicated category
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md).[categories_count](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md#categories_count)
+[`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md).[`categories_count`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md#categories_count)
 
-#### Defined in
+#### Source
 
-main.ts:75114
+main.ts:75122
 
-___
+***
 
-### category
+### category?
 
-• `Optional` **category**: `string`
+> **`optional`** **category**: `string`
 
 technology category id
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md).[category](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md#category)
+[`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md).[`category`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md#category)
 
-#### Defined in
+#### Source
 
-main.ts:75106
+main.ts:75114
 
-___
+***
 
-### group
+### group?
 
-• `Optional` **group**: `string`
+> **`optional`** **group**: `string`
 
 technology group id
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md).[group](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md#group)
+[`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md).[`group`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md#group)
 
-#### Defined in
+#### Source
 
-main.ts:75104
+main.ts:75112
 
-___
+***
 
-### groups\_count
+### groups\_count?
 
-• `Optional` **groups\_count**: `number`
+> **`optional`** **groups\_count**: `number`
 
 technology groups count
 number of domains that match the parameters you specified and are using technologies from the indicated group
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md).[groups_count](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md#groups_count)
+[`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md).[`groups_count`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md#groups_count)
 
-#### Defined in
+#### Source
 
-main.ts:75111
+main.ts:75119
 
-___
+***
 
-### technologies\_count
+### technologies\_count?
 
-• `Optional` **technologies\_count**: `number`
+> **`optional`** **technologies\_count**: `number`
 
 technologies count
 number of domains that match the parameters you specified and are using the indicated technology
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md).[technologies_count](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md#technologies_count)
+[`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md).[`technologies_count`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md#technologies_count)
 
-#### Defined in
+#### Source
 
-main.ts:75117
+main.ts:75125
 
-___
+***
 
-### technology
+### technology?
 
-• `Optional` **technology**: `string`
+> **`optional`** **technology**: `string`
 
 technology name
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md).[technology](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md#technology)
+[`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md).[`technology`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md#technology)
 
-#### Defined in
+#### Source
 
-main.ts:75108
+main.ts:75116
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md).[type](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md#type)
+[`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md).[`type`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:75102
+main.ts:75110
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:75130
+main.ts:75138
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:75153
+main.ts:75161
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md)
+> **`static`** **fromJS**(`data`): [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:75146
+main.ts:75154

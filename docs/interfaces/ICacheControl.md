@@ -1,43 +1,36 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ICacheControl
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ICacheControl
 
 # Interface: ICacheControl
 
-## Implemented by
-
-- [`CacheControl`](../classes/CacheControl.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [cachable](ICacheControl.md#cachable)
-- [ttl](ICacheControl.md#ttl)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### cachable
+### cachable?
 
-• `Optional` **cachable**: `boolean`
+> **`optional`** **cachable**: `boolean`
 
 indicates whether the page is cacheable
 
-#### Defined in
+#### Source
 
-main.ts:150214
+main.ts:150222
 
-___
+***
 
-### ttl
+### ttl?
 
-• `Optional` **ttl**: `number`
+> **`optional`** **ttl**: `number`
 
 time to live
 the amount of time the browser caches a resource
 
-#### Defined in
+#### Source
 
-main.ts:150217
+main.ts:150225

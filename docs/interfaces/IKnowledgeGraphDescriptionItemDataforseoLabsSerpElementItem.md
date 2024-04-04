@@ -1,107 +1,94 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IKnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem
 
 # Interface: IKnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md)
 
-  ↳ **`IKnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem`**
-
-## Implemented by
-
-- [`KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem`](../classes/KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [links](IKnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem.md#links)
-- [position](IKnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem.md#position)
-- [rank\_absolute](IKnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem.md#rank_absolute)
-- [rank\_group](IKnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem.md#rank_group)
-- [text](IKnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem.md#text)
-- [xpath](IKnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### links
+### links?
 
-• `Optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
+> **`optional`** **links**: [`LinkElement`](../classes/LinkElement.md)[]
 
 sitelinks
 the links shown below some of Google’s search results
 if there are none, equals null
 
-#### Defined in
+#### Source
 
-main.ts:93990
+main.ts:93998
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
-main.ts:93982
+main.ts:93990
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Defined in
+#### Source
 
-main.ts:93978
+main.ts:93986
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
-main.ts:93975
+main.ts:93983
 
-___
+***
 
-### text
+### text?
 
-• `Optional` **text**: `string`
+> **`optional`** **text**: `string`
 
 description content
 
-#### Defined in
+#### Source
 
-main.ts:93986
+main.ts:93994
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
-main.ts:93984
+main.ts:93992

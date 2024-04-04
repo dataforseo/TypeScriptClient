@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataGoogleAppListingsCategoriesResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppDataGoogleAppListingsCategoriesResultInfo
 
 # Class: AppDataGoogleAppListingsCategoriesResultInfo
 
@@ -8,133 +12,108 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppDataGoogleAppListingsCategoriesResultInfo.md#constructor)
-
-### Properties
-
-- [category](AppDataGoogleAppListingsCategoriesResultInfo.md#category)
-- [count](AppDataGoogleAppListingsCategoriesResultInfo.md#count)
-
-### Methods
-
-- [init](AppDataGoogleAppListingsCategoriesResultInfo.md#init)
-- [toJSON](AppDataGoogleAppListingsCategoriesResultInfo.md#tojson)
-- [fromJS](AppDataGoogleAppListingsCategoriesResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppDataGoogleAppListingsCategoriesResultInfo(data)
 
-• **new AppDataGoogleAppListingsCategoriesResultInfo**(`data?`): [`AppDataGoogleAppListingsCategoriesResultInfo`](AppDataGoogleAppListingsCategoriesResultInfo.md)
+> **new AppDataGoogleAppListingsCategoriesResultInfo**(`data`?): [`AppDataGoogleAppListingsCategoriesResultInfo`](AppDataGoogleAppListingsCategoriesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppDataGoogleAppListingsCategoriesResultInfo`](../interfaces/IAppDataGoogleAppListingsCategoriesResultInfo.md) |
+• **data?**: [`IAppDataGoogleAppListingsCategoriesResultInfo`](../interfaces/IAppDataGoogleAppListingsCategoriesResultInfo.md)
 
 #### Returns
 
 [`AppDataGoogleAppListingsCategoriesResultInfo`](AppDataGoogleAppListingsCategoriesResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:187353
 
 ## Properties
 
-### category
+### category?
 
-• `Optional` **category**: `string`
+> **`optional`** **category**: `string`
 
 name of the supported app category
 
 #### Implementation of
 
-[IAppDataGoogleAppListingsCategoriesResultInfo](../interfaces/IAppDataGoogleAppListingsCategoriesResultInfo.md).[category](../interfaces/IAppDataGoogleAppListingsCategoriesResultInfo.md#category)
+[`IAppDataGoogleAppListingsCategoriesResultInfo`](../interfaces/IAppDataGoogleAppListingsCategoriesResultInfo.md).[`category`](../interfaces/IAppDataGoogleAppListingsCategoriesResultInfo.md#category)
 
-#### Defined in
+#### Source
 
 main.ts:187347
 
-___
+***
 
-### count
+### count?
 
-• `Optional` **count**: `number`
+> **`optional`** **count**: `number`
 
 number of app listings that make up the supported app category
 
 #### Implementation of
 
-[IAppDataGoogleAppListingsCategoriesResultInfo](../interfaces/IAppDataGoogleAppListingsCategoriesResultInfo.md).[count](../interfaces/IAppDataGoogleAppListingsCategoriesResultInfo.md#count)
+[`IAppDataGoogleAppListingsCategoriesResultInfo`](../interfaces/IAppDataGoogleAppListingsCategoriesResultInfo.md).[`count`](../interfaces/IAppDataGoogleAppListingsCategoriesResultInfo.md#count)
 
-#### Defined in
+#### Source
 
 main.ts:187349
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:187362
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:187380
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppDataGoogleAppListingsCategoriesResultInfo`](AppDataGoogleAppListingsCategoriesResultInfo.md)
+> **`static`** **fromJS**(`data`): [`AppDataGoogleAppListingsCategoriesResultInfo`](AppDataGoogleAppListingsCategoriesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppDataGoogleAppListingsCategoriesResultInfo`](AppDataGoogleAppListingsCategoriesResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:187373

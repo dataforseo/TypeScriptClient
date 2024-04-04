@@ -1,45 +1,38 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo
 
 # Interface: IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo
 
-## Implemented by
-
-- [`AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](../classes/AppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [cost](IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md#cost)
-- [cost\_type](IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md#cost_type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 cost, USD
 
-#### Defined in
+#### Source
 
 main.ts:215094
 
-___
+***
 
-### cost\_type
+### cost\_type?
 
-• `Optional` **cost\_type**: `string`
+> **`optional`** **cost\_type**: `string`
 
 charge type
 can take the following values:
 per_result – charge for every row in the result array
 per_request – charge for a GET or POST request
 
-#### Defined in
+#### Source
 
 main.ts:215092

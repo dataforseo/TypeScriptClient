@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageErrorsRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPageErrorsRequestInfo
 
 # Class: OnPageErrorsRequestInfo
 
@@ -8,53 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPageErrorsRequestInfo.md#constructor)
-
-### Properties
-
-- [datetime\_from](OnPageErrorsRequestInfo.md#datetime_from)
-- [datetime\_to](OnPageErrorsRequestInfo.md#datetime_to)
-- [filtered\_function](OnPageErrorsRequestInfo.md#filtered_function)
-- [limit](OnPageErrorsRequestInfo.md#limit)
-- [offset](OnPageErrorsRequestInfo.md#offset)
-
-### Methods
-
-- [init](OnPageErrorsRequestInfo.md#init)
-- [toJSON](OnPageErrorsRequestInfo.md#tojson)
-- [fromJS](OnPageErrorsRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPageErrorsRequestInfo(data)
 
-• **new OnPageErrorsRequestInfo**(`data?`): [`OnPageErrorsRequestInfo`](OnPageErrorsRequestInfo.md)
+> **new OnPageErrorsRequestInfo**(`data`?): [`OnPageErrorsRequestInfo`](OnPageErrorsRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPageErrorsRequestInfo`](../interfaces/IOnPageErrorsRequestInfo.md) |
+• **data?**: [`IOnPageErrorsRequestInfo`](../interfaces/IOnPageErrorsRequestInfo.md)
 
 #### Returns
 
 [`OnPageErrorsRequestInfo`](OnPageErrorsRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:147244
+main.ts:147252
 
 ## Properties
 
-### datetime\_from
+### datetime\_from?
 
-• `Optional` **datetime\_from**: `string`
+> **`optional`** **datetime\_from**: `string`
 
 start time for filtering results
 optional field
@@ -65,17 +47,17 @@ example:
 
 #### Implementation of
 
-[IOnPageErrorsRequestInfo](../interfaces/IOnPageErrorsRequestInfo.md).[datetime_from](../interfaces/IOnPageErrorsRequestInfo.md#datetime_from)
+[`IOnPageErrorsRequestInfo`](../interfaces/IOnPageErrorsRequestInfo.md).[`datetime_from`](../interfaces/IOnPageErrorsRequestInfo.md#datetime_from)
 
-#### Defined in
+#### Source
 
-main.ts:147233
+main.ts:147241
 
-___
+***
 
-### datetime\_to
+### datetime\_to?
 
-• `Optional` **datetime\_to**: `string`
+> **`optional`** **datetime\_to**: `string`
 
 finish time for filtering results
 optional field
@@ -86,17 +68,17 @@ example:
 
 #### Implementation of
 
-[IOnPageErrorsRequestInfo](../interfaces/IOnPageErrorsRequestInfo.md).[datetime_to](../interfaces/IOnPageErrorsRequestInfo.md#datetime_to)
+[`IOnPageErrorsRequestInfo`](../interfaces/IOnPageErrorsRequestInfo.md).[`datetime_to`](../interfaces/IOnPageErrorsRequestInfo.md#datetime_to)
 
-#### Defined in
+#### Source
 
-main.ts:147240
+main.ts:147248
 
-___
+***
 
-### filtered\_function
+### filtered\_function?
 
-• `Optional` **filtered\_function**: `string`
+> **`optional`** **filtered\_function**: `string`
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -106,17 +88,17 @@ example: on_page/task_post, postback_url, pingback_url
 
 #### Implementation of
 
-[IOnPageErrorsRequestInfo](../interfaces/IOnPageErrorsRequestInfo.md).[filtered_function](../interfaces/IOnPageErrorsRequestInfo.md#filtered_function)
+[`IOnPageErrorsRequestInfo`](../interfaces/IOnPageErrorsRequestInfo.md).[`filtered_function`](../interfaces/IOnPageErrorsRequestInfo.md#filtered_function)
 
-#### Defined in
+#### Source
 
-main.ts:147226
+main.ts:147234
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -125,17 +107,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IOnPageErrorsRequestInfo](../interfaces/IOnPageErrorsRequestInfo.md).[limit](../interfaces/IOnPageErrorsRequestInfo.md#limit)
+[`IOnPageErrorsRequestInfo`](../interfaces/IOnPageErrorsRequestInfo.md).[`limit`](../interfaces/IOnPageErrorsRequestInfo.md#limit)
 
-#### Defined in
+#### Source
 
-main.ts:147215
+main.ts:147223
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned tasks
 optional field
@@ -144,68 +126,62 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Implementation of
 
-[IOnPageErrorsRequestInfo](../interfaces/IOnPageErrorsRequestInfo.md).[offset](../interfaces/IOnPageErrorsRequestInfo.md#offset)
+[`IOnPageErrorsRequestInfo`](../interfaces/IOnPageErrorsRequestInfo.md).[`offset`](../interfaces/IOnPageErrorsRequestInfo.md#offset)
 
-#### Defined in
+#### Source
 
-main.ts:147220
+main.ts:147228
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:147253
+main.ts:147261
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:147274
+main.ts:147282
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPageErrorsRequestInfo`](OnPageErrorsRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`OnPageErrorsRequestInfo`](OnPageErrorsRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`OnPageErrorsRequestInfo`](OnPageErrorsRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:147267
+main.ts:147275

@@ -1,37 +1,27 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDomainAnalyticsWhoisOverviewLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDomainAnalyticsWhoisOverviewLiveRequestInfo
 
 # Interface: IDomainAnalyticsWhoisOverviewLiveRequestInfo
 
-## Implemented by
-
-- [`DomainAnalyticsWhoisOverviewLiveRequestInfo`](../classes/DomainAnalyticsWhoisOverviewLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [filters](IDomainAnalyticsWhoisOverviewLiveRequestInfo.md#filters)
-- [limit](IDomainAnalyticsWhoisOverviewLiveRequestInfo.md#limit)
-- [offset](IDomainAnalyticsWhoisOverviewLiveRequestInfo.md#offset)
-- [order\_by](IDomainAnalyticsWhoisOverviewLiveRequestInfo.md#order_by)
-- [tag](IDomainAnalyticsWhoisOverviewLiveRequestInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, <=, >, >=, =, <>, in, not_in, like, not_like
+regex, <, `<=, >`, >=, =, <>, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 examples:
 ["expiration_datetime", "<", "2021-02-15 01:00:00 +00:00"]
@@ -41,45 +31,45 @@ examples:
 
 for more information about filters, please refer to Filters Page or this help center guide
 
-#### Defined in
+#### Source
 
-main.ts:78088
+main.ts:78096
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned domains
 optional field
 default value: 100
 maximum value: 1000
 
-#### Defined in
+#### Source
 
-main.ts:78068
+main.ts:78076
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned items
 optional field
 default value: 0
 if you specify the 10 value, the first ten items in the results array will be omitted and the data will be provided for the successive items
 
-#### Defined in
+#### Source
 
-main.ts:78073
+main.ts:78081
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -97,15 +87,15 @@ you should use a comma to separate several sorting rules
 example:
 ["expiration_datetime,asc","metrics.organic.etv,desc","metrics.organic.pos_1,desc"]
 
-#### Defined in
+#### Source
 
-main.ts:78104
+main.ts:78112
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -113,6 +103,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:78110
+main.ts:78118

@@ -1,54 +1,44 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleAdsLocationsResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IKeywordsDataGoogleAdsLocationsResultInfo
 
 # Interface: IKeywordsDataGoogleAdsLocationsResultInfo
 
-## Implemented by
-
-- [`KeywordsDataGoogleAdsLocationsResultInfo`](../classes/KeywordsDataGoogleAdsLocationsResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [country\_iso\_code](IKeywordsDataGoogleAdsLocationsResultInfo.md#country_iso_code)
-- [location\_code](IKeywordsDataGoogleAdsLocationsResultInfo.md#location_code)
-- [location\_code\_parent](IKeywordsDataGoogleAdsLocationsResultInfo.md#location_code_parent)
-- [location\_name](IKeywordsDataGoogleAdsLocationsResultInfo.md#location_name)
-- [location\_type](IKeywordsDataGoogleAdsLocationsResultInfo.md#location_type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### country\_iso\_code
+### country\_iso\_code?
 
-• `Optional` **country\_iso\_code**: `string`
+> **`optional`** **country\_iso\_code**: `string`
 
 ISO country code of the location
 
-#### Defined in
+#### Source
 
-main.ts:115557
+main.ts:115565
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 
-#### Defined in
+#### Source
 
-main.ts:115544
+main.ts:115552
 
-___
+***
 
-### location\_code\_parent
+### location\_code\_parent?
 
-• `Optional` **location\_code\_parent**: `number`
+> **`optional`** **location\_code\_parent**: `number`
 
 the code of the superordinate location
 example:
@@ -59,31 +49,31 @@ where location_code_parent corresponds to:
 "location_code": 20044,
 "location_name": "Lower Austria,Austria"
 
-#### Defined in
+#### Source
 
-main.ts:115555
+main.ts:115563
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 
-#### Defined in
+#### Source
 
-main.ts:115546
+main.ts:115554
 
-___
+***
 
-### location\_type
+### location\_type?
 
-• `Optional` **location\_type**: `string`
+> **`optional`** **location\_type**: `string`
 
 location type
 possible values according to Google’s target types
 
-#### Defined in
+#### Source
 
-main.ts:115560
+main.ts:115568

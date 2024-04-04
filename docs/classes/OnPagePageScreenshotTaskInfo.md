@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPagePageScreenshotTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPagePageScreenshotTaskInfo
 
 # Class: OnPagePageScreenshotTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`OnPagePageScreenshotTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPagePageScreenshotTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](OnPagePageScreenshotTaskInfo.md#cost)
-- [data](OnPagePageScreenshotTaskInfo.md#data)
-- [id](OnPagePageScreenshotTaskInfo.md#id)
-- [path](OnPagePageScreenshotTaskInfo.md#path)
-- [result](OnPagePageScreenshotTaskInfo.md#result)
-- [result\_count](OnPagePageScreenshotTaskInfo.md#result_count)
-- [status\_code](OnPagePageScreenshotTaskInfo.md#status_code)
-- [status\_message](OnPagePageScreenshotTaskInfo.md#status_message)
-- [time](OnPagePageScreenshotTaskInfo.md#time)
-
-### Methods
-
-- [init](OnPagePageScreenshotTaskInfo.md#init)
-- [toJSON](OnPagePageScreenshotTaskInfo.md#tojson)
-- [fromJS](OnPagePageScreenshotTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPagePageScreenshotTaskInfo(data)
 
-• **new OnPagePageScreenshotTaskInfo**(`data?`): [`OnPagePageScreenshotTaskInfo`](OnPagePageScreenshotTaskInfo.md)
+> **new OnPagePageScreenshotTaskInfo**(`data`?): [`OnPagePageScreenshotTaskInfo`](OnPagePageScreenshotTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPagePageScreenshotTaskInfo`](../interfaces/IOnPagePageScreenshotTaskInfo.md) |
+• **data?**: [`IOnPagePageScreenshotTaskInfo`](../interfaces/IOnPagePageScreenshotTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:157202
+main.ts:157210
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IOnPagePageScreenshotTaskInfo](../interfaces/IOnPagePageScreenshotTaskInfo.md).[cost](../interfaces/IOnPagePageScreenshotTaskInfo.md#cost)
+[`IOnPagePageScreenshotTaskInfo`](../interfaces/IOnPagePageScreenshotTaskInfo.md).[`cost`](../interfaces/IOnPagePageScreenshotTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[IOnPagePageScreenshotTaskInfo](../interfaces/IOnPagePageScreenshotTaskInfo.md).[data](../interfaces/IOnPagePageScreenshotTaskInfo.md#data)
+[`IOnPagePageScreenshotTaskInfo`](../interfaces/IOnPagePageScreenshotTaskInfo.md).[`data`](../interfaces/IOnPagePageScreenshotTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IOnPagePageScreenshotTaskInfo](../interfaces/IOnPagePageScreenshotTaskInfo.md).[id](../interfaces/IOnPagePageScreenshotTaskInfo.md#id)
+[`IOnPagePageScreenshotTaskInfo`](../interfaces/IOnPagePageScreenshotTaskInfo.md).[`id`](../interfaces/IOnPagePageScreenshotTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[IOnPagePageScreenshotTaskInfo](../interfaces/IOnPagePageScreenshotTaskInfo.md).[path](../interfaces/IOnPagePageScreenshotTaskInfo.md#path)
+[`IOnPagePageScreenshotTaskInfo`](../interfaces/IOnPagePageScreenshotTaskInfo.md).[`path`](../interfaces/IOnPagePageScreenshotTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`OnPagePageScreenshotResultInfo`](OnPagePageScreenshotResultInfo.md)[]
+> **`optional`** **result**: [`OnPagePageScreenshotResultInfo`](OnPagePageScreenshotResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[IOnPagePageScreenshotTaskInfo](../interfaces/IOnPagePageScreenshotTaskInfo.md).[result](../interfaces/IOnPagePageScreenshotTaskInfo.md#result)
+[`IOnPagePageScreenshotTaskInfo`](../interfaces/IOnPagePageScreenshotTaskInfo.md).[`result`](../interfaces/IOnPagePageScreenshotTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:157198
+main.ts:157206
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[IOnPagePageScreenshotTaskInfo](../interfaces/IOnPagePageScreenshotTaskInfo.md).[result_count](../interfaces/IOnPagePageScreenshotTaskInfo.md#result_count)
+[`IOnPagePageScreenshotTaskInfo`](../interfaces/IOnPagePageScreenshotTaskInfo.md).[`result_count`](../interfaces/IOnPagePageScreenshotTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[IOnPagePageScreenshotTaskInfo](../interfaces/IOnPagePageScreenshotTaskInfo.md).[status_code](../interfaces/IOnPagePageScreenshotTaskInfo.md#status_code)
+[`IOnPagePageScreenshotTaskInfo`](../interfaces/IOnPagePageScreenshotTaskInfo.md).[`status_code`](../interfaces/IOnPagePageScreenshotTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IOnPagePageScreenshotTaskInfo](../interfaces/IOnPagePageScreenshotTaskInfo.md).[status_message](../interfaces/IOnPagePageScreenshotTaskInfo.md#status_message)
+[`IOnPagePageScreenshotTaskInfo`](../interfaces/IOnPagePageScreenshotTaskInfo.md).[`status_message`](../interfaces/IOnPagePageScreenshotTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[IOnPagePageScreenshotTaskInfo](../interfaces/IOnPagePageScreenshotTaskInfo.md).[time](../interfaces/IOnPagePageScreenshotTaskInfo.md#time)
+[`IOnPagePageScreenshotTaskInfo`](../interfaces/IOnPagePageScreenshotTaskInfo.md).[`time`](../interfaces/IOnPagePageScreenshotTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:157206
+main.ts:157214
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:157228
+main.ts:157236
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPagePageScreenshotTaskInfo`](OnPagePageScreenshotTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`OnPagePageScreenshotTaskInfo`](OnPagePageScreenshotTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:157221
+main.ts:157229

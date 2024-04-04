@@ -1,37 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpGoogleDatasetSearchLiveAdvancedRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ISerpGoogleDatasetSearchLiveAdvancedRequestInfo
 
 # Interface: ISerpGoogleDatasetSearchLiveAdvancedRequestInfo
 
-## Implemented by
-
-- [`SerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../classes/SerpGoogleDatasetSearchLiveAdvancedRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [depth](ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#depth)
-- [device](ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#device)
-- [file\_formats](ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#file_formats)
-- [is\_free](ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#is_free)
-- [keyword](ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#keyword)
-- [language\_code](ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#language_code)
-- [language\_name](ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#language_name)
-- [last\_updated](ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#last_updated)
-- [os](ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#os)
-- [tag](ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#tag)
-- [topics](ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#topics)
-- [usage\_rights](ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#usage_rights)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### depth
+### depth?
 
-• `Optional` **depth**: `number`
+> **`optional`** **depth**: `number`
 
 parsing depth
 optional field
@@ -42,57 +25,57 @@ Note: your account will be billed per each SERP containing up to 20 results;
 thus, setting a depth above 20 may result in additional charges if the search engine returns more than 20 results;
 if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance
 
-#### Defined in
+#### Source
 
-main.ts:53878
+main.ts:53886
 
-___
+***
 
-### device
+### device?
 
-• `Optional` **device**: `string`
+> **`optional`** **device**: `string`
 
 device type
 optional field
 possible value: desktop
 
-#### Defined in
+#### Source
 
-main.ts:53864
+main.ts:53872
 
-___
+***
 
-### file\_formats
+### file\_formats?
 
-• `Optional` **file\_formats**: `string`[]
+> **`optional`** **file\_formats**: `string`[]
 
 file formats of the dataset
 optional field
 possible values: other, archive, text, image, document, tabular
 
-#### Defined in
+#### Source
 
-main.ts:53886
+main.ts:53894
 
-___
+***
 
-### is\_free
+### is\_free?
 
-• `Optional` **is\_free**: `boolean`
+> **`optional`** **is\_free**: `boolean`
 
 indicates whether displayed datasets are free
 optional field
 possible values: true, false
 
-#### Defined in
+#### Source
 
-main.ts:53894
+main.ts:53902
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword
 required field
@@ -101,15 +84,15 @@ all %## will be decoded (plus symbol ‘+’ will be decoded to a space characte
 if you need to use the “%” symbol for your keyword, please specify it as “%25”;
 if you need to use the “+” symbol for your keyword, please specify it as “%2B”;
 
-#### Defined in
+#### Source
 
-main.ts:53848
+main.ts:53856
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 optional field if you don’t specify language_name
@@ -117,15 +100,15 @@ if you use this field, you don’t need to specify language_name
 possible value:
 en
 
-#### Defined in
+#### Source
 
-main.ts:53860
+main.ts:53868
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -133,44 +116,44 @@ if you use this field, you don’t need to specify language_code
 possible value:
 English
 
-#### Defined in
+#### Source
 
-main.ts:53854
+main.ts:53862
 
-___
+***
 
-### last\_updated
+### last\_updated?
 
-• `Optional` **last\_updated**: `string`
+> **`optional`** **last\_updated**: `string`
 
 last time the dataset was updated
 optional field
 possible values: 1m, 1y, 3y
 
-#### Defined in
+#### Source
 
-main.ts:53882
+main.ts:53890
 
-___
+***
 
-### os
+### os?
 
-• `Optional` **os**: `string`
+> **`optional`** **os**: `string`
 
 device operating system
 optional field
 choose from the following values: windows, macos
 default value: windows
 
-#### Defined in
+#### Source
 
-main.ts:53869
+main.ts:53877
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -178,34 +161,34 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:53904
+main.ts:53912
 
-___
+***
 
-### topics
+### topics?
 
-• `Optional` **topics**: `string`[]
+> **`optional`** **topics**: `string`[]
 
 dataset topics
 optional field
 possible values: humanities, social_sciences, life_sciences, agriculture, natural_sciences, geo, computer, architecture_and_urban_planning, engineering
 
-#### Defined in
+#### Source
 
-main.ts:53898
+main.ts:53906
 
-___
+***
 
-### usage\_rights
+### usage\_rights?
 
-• `Optional` **usage\_rights**: `string`
+> **`optional`** **usage\_rights**: `string`
 
 usage rights of the dataset
 optional field
 possible values: commercial, noncommercial
 
-#### Defined in
+#### Source
 
-main.ts:53890
+main.ts:53898

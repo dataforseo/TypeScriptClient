@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleNewsLiveHtmlResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleNewsLiveHtmlResultInfo
 
 # Class: SerpGoogleNewsLiveHtmlResultInfo
 
@@ -8,56 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleNewsLiveHtmlResultInfo.md#constructor)
-
-### Properties
-
-- [datetime](SerpGoogleNewsLiveHtmlResultInfo.md#datetime)
-- [items](SerpGoogleNewsLiveHtmlResultInfo.md#items)
-- [items\_count](SerpGoogleNewsLiveHtmlResultInfo.md#items_count)
-- [keyword](SerpGoogleNewsLiveHtmlResultInfo.md#keyword)
-- [language\_code](SerpGoogleNewsLiveHtmlResultInfo.md#language_code)
-- [location\_code](SerpGoogleNewsLiveHtmlResultInfo.md#location_code)
-- [se\_domain](SerpGoogleNewsLiveHtmlResultInfo.md#se_domain)
-- [type](SerpGoogleNewsLiveHtmlResultInfo.md#type)
-
-### Methods
-
-- [init](SerpGoogleNewsLiveHtmlResultInfo.md#init)
-- [toJSON](SerpGoogleNewsLiveHtmlResultInfo.md#tojson)
-- [fromJS](SerpGoogleNewsLiveHtmlResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleNewsLiveHtmlResultInfo(data)
 
-• **new SerpGoogleNewsLiveHtmlResultInfo**(`data?`): [`SerpGoogleNewsLiveHtmlResultInfo`](SerpGoogleNewsLiveHtmlResultInfo.md)
+> **new SerpGoogleNewsLiveHtmlResultInfo**(`data`?): [`SerpGoogleNewsLiveHtmlResultInfo`](SerpGoogleNewsLiveHtmlResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleNewsLiveHtmlResultInfo`](../interfaces/ISerpGoogleNewsLiveHtmlResultInfo.md) |
+• **data?**: [`ISerpGoogleNewsLiveHtmlResultInfo`](../interfaces/ISerpGoogleNewsLiveHtmlResultInfo.md)
 
 #### Returns
 
 [`SerpGoogleNewsLiveHtmlResultInfo`](SerpGoogleNewsLiveHtmlResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:44129
+main.ts:44137
 
 ## Properties
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -66,181 +45,175 @@ example:
 
 #### Implementation of
 
-[ISerpGoogleNewsLiveHtmlResultInfo](../interfaces/ISerpGoogleNewsLiveHtmlResultInfo.md).[datetime](../interfaces/ISerpGoogleNewsLiveHtmlResultInfo.md#datetime)
+[`ISerpGoogleNewsLiveHtmlResultInfo`](../interfaces/ISerpGoogleNewsLiveHtmlResultInfo.md).[`datetime`](../interfaces/ISerpGoogleNewsLiveHtmlResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
-main.ts:44121
+main.ts:44129
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`HtmlItem`](HtmlItem.md)[]
+> **`optional`** **items**: [`HtmlItem`](HtmlItem.md)[]
 
 elements of search results found in SERP
 
 #### Implementation of
 
-[ISerpGoogleNewsLiveHtmlResultInfo](../interfaces/ISerpGoogleNewsLiveHtmlResultInfo.md).[items](../interfaces/ISerpGoogleNewsLiveHtmlResultInfo.md#items)
+[`ISerpGoogleNewsLiveHtmlResultInfo`](../interfaces/ISerpGoogleNewsLiveHtmlResultInfo.md).[`items`](../interfaces/ISerpGoogleNewsLiveHtmlResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:44125
+main.ts:44133
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[ISerpGoogleNewsLiveHtmlResultInfo](../interfaces/ISerpGoogleNewsLiveHtmlResultInfo.md).[items_count](../interfaces/ISerpGoogleNewsLiveHtmlResultInfo.md#items_count)
+[`ISerpGoogleNewsLiveHtmlResultInfo`](../interfaces/ISerpGoogleNewsLiveHtmlResultInfo.md).[`items_count`](../interfaces/ISerpGoogleNewsLiveHtmlResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:44123
+main.ts:44131
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
-[ISerpGoogleNewsLiveHtmlResultInfo](../interfaces/ISerpGoogleNewsLiveHtmlResultInfo.md).[keyword](../interfaces/ISerpGoogleNewsLiveHtmlResultInfo.md#keyword)
+[`ISerpGoogleNewsLiveHtmlResultInfo`](../interfaces/ISerpGoogleNewsLiveHtmlResultInfo.md).[`keyword`](../interfaces/ISerpGoogleNewsLiveHtmlResultInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:44108
+main.ts:44116
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[ISerpGoogleNewsLiveHtmlResultInfo](../interfaces/ISerpGoogleNewsLiveHtmlResultInfo.md).[language_code](../interfaces/ISerpGoogleNewsLiveHtmlResultInfo.md#language_code)
+[`ISerpGoogleNewsLiveHtmlResultInfo`](../interfaces/ISerpGoogleNewsLiveHtmlResultInfo.md).[`language_code`](../interfaces/ISerpGoogleNewsLiveHtmlResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:44116
+main.ts:44124
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[ISerpGoogleNewsLiveHtmlResultInfo](../interfaces/ISerpGoogleNewsLiveHtmlResultInfo.md).[location_code](../interfaces/ISerpGoogleNewsLiveHtmlResultInfo.md#location_code)
+[`ISerpGoogleNewsLiveHtmlResultInfo`](../interfaces/ISerpGoogleNewsLiveHtmlResultInfo.md).[`location_code`](../interfaces/ISerpGoogleNewsLiveHtmlResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:44114
+main.ts:44122
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
 #### Implementation of
 
-[ISerpGoogleNewsLiveHtmlResultInfo](../interfaces/ISerpGoogleNewsLiveHtmlResultInfo.md).[se_domain](../interfaces/ISerpGoogleNewsLiveHtmlResultInfo.md#se_domain)
+[`ISerpGoogleNewsLiveHtmlResultInfo`](../interfaces/ISerpGoogleNewsLiveHtmlResultInfo.md).[`se_domain`](../interfaces/ISerpGoogleNewsLiveHtmlResultInfo.md#se_domain)
 
-#### Defined in
+#### Source
 
-main.ts:44112
+main.ts:44120
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[ISerpGoogleNewsLiveHtmlResultInfo](../interfaces/ISerpGoogleNewsLiveHtmlResultInfo.md).[type](../interfaces/ISerpGoogleNewsLiveHtmlResultInfo.md#type)
+[`ISerpGoogleNewsLiveHtmlResultInfo`](../interfaces/ISerpGoogleNewsLiveHtmlResultInfo.md).[`type`](../interfaces/ISerpGoogleNewsLiveHtmlResultInfo.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:44110
+main.ts:44118
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:44138
+main.ts:44146
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:44166
+main.ts:44174
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleNewsLiveHtmlResultInfo`](SerpGoogleNewsLiveHtmlResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleNewsLiveHtmlResultInfo`](SerpGoogleNewsLiveHtmlResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpGoogleNewsLiveHtmlResultInfo`](SerpGoogleNewsLiveHtmlResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:44159
+main.ts:44167

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksBulkSpamScoreLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BacklinksBulkSpamScoreLiveItem
 
 # Class: BacklinksBulkSpamScoreLiveItem
 
@@ -8,151 +12,125 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BacklinksBulkSpamScoreLiveItem.md#constructor)
-
-### Properties
-
-- [spam\_score](BacklinksBulkSpamScoreLiveItem.md#spam_score)
-- [target](BacklinksBulkSpamScoreLiveItem.md#target)
-- [type](BacklinksBulkSpamScoreLiveItem.md#type)
-
-### Methods
-
-- [init](BacklinksBulkSpamScoreLiveItem.md#init)
-- [toJSON](BacklinksBulkSpamScoreLiveItem.md#tojson)
-- [fromJS](BacklinksBulkSpamScoreLiveItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BacklinksBulkSpamScoreLiveItem(data)
 
-• **new BacklinksBulkSpamScoreLiveItem**(`data?`): [`BacklinksBulkSpamScoreLiveItem`](BacklinksBulkSpamScoreLiveItem.md)
+> **new BacklinksBulkSpamScoreLiveItem**(`data`?): [`BacklinksBulkSpamScoreLiveItem`](BacklinksBulkSpamScoreLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBacklinksBulkSpamScoreLiveItem`](../interfaces/IBacklinksBulkSpamScoreLiveItem.md) |
+• **data?**: [`IBacklinksBulkSpamScoreLiveItem`](../interfaces/IBacklinksBulkSpamScoreLiveItem.md)
 
 #### Returns
 
 [`BacklinksBulkSpamScoreLiveItem`](BacklinksBulkSpamScoreLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:145517
+main.ts:145525
 
 ## Properties
 
-### spam\_score
+### spam\_score?
 
-• `Optional` **spam\_score**: `number`
+> **`optional`** **spam\_score**: `number`
 
 average spam score the target
 learn more about how the metric is calculated
 
 #### Implementation of
 
-[IBacklinksBulkSpamScoreLiveItem](../interfaces/IBacklinksBulkSpamScoreLiveItem.md).[spam_score](../interfaces/IBacklinksBulkSpamScoreLiveItem.md#spam_score)
+[`IBacklinksBulkSpamScoreLiveItem`](../interfaces/IBacklinksBulkSpamScoreLiveItem.md).[`spam_score`](../interfaces/IBacklinksBulkSpamScoreLiveItem.md#spam_score)
 
-#### Defined in
+#### Source
 
-main.ts:145513
+main.ts:145521
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 domain, subdomain or webpage from a POST array
 
 #### Implementation of
 
-[IBacklinksBulkSpamScoreLiveItem](../interfaces/IBacklinksBulkSpamScoreLiveItem.md).[target](../interfaces/IBacklinksBulkSpamScoreLiveItem.md#target)
+[`IBacklinksBulkSpamScoreLiveItem`](../interfaces/IBacklinksBulkSpamScoreLiveItem.md).[`target`](../interfaces/IBacklinksBulkSpamScoreLiveItem.md#target)
 
-#### Defined in
+#### Source
 
-main.ts:145510
+main.ts:145518
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IBacklinksBulkSpamScoreLiveItem](../interfaces/IBacklinksBulkSpamScoreLiveItem.md).[type](../interfaces/IBacklinksBulkSpamScoreLiveItem.md#type)
+[`IBacklinksBulkSpamScoreLiveItem`](../interfaces/IBacklinksBulkSpamScoreLiveItem.md).[`type`](../interfaces/IBacklinksBulkSpamScoreLiveItem.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:145508
+main.ts:145516
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:145526
+main.ts:145534
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:145545
+main.ts:145553
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BacklinksBulkSpamScoreLiveItem`](BacklinksBulkSpamScoreLiveItem.md)
+> **`static`** **fromJS**(`data`): [`BacklinksBulkSpamScoreLiveItem`](BacklinksBulkSpamScoreLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BacklinksBulkSpamScoreLiveItem`](BacklinksBulkSpamScoreLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:145538
+main.ts:145546

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixStatusResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppendixStatusResultInfo
 
 # Class: AppendixStatusResultInfo
 
@@ -8,51 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixStatusResultInfo.md#constructor)
-
-### Properties
-
-- [api](AppendixStatusResultInfo.md#api)
-- [endpoints](AppendixStatusResultInfo.md#endpoints)
-- [status](AppendixStatusResultInfo.md#status)
-
-### Methods
-
-- [init](AppendixStatusResultInfo.md#init)
-- [toJSON](AppendixStatusResultInfo.md#tojson)
-- [fromJS](AppendixStatusResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixStatusResultInfo(data)
 
-• **new AppendixStatusResultInfo**(`data?`): [`AppendixStatusResultInfo`](AppendixStatusResultInfo.md)
+> **new AppendixStatusResultInfo**(`data`?): [`AppendixStatusResultInfo`](AppendixStatusResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixStatusResultInfo`](../interfaces/IAppendixStatusResultInfo.md) |
+• **data?**: [`IAppendixStatusResultInfo`](../interfaces/IAppendixStatusResultInfo.md)
 
 #### Returns
 
 [`AppendixStatusResultInfo`](AppendixStatusResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:218442
 
 ## Properties
 
-### api
+### api?
 
-• `Optional` **api**: `string`
+> **`optional`** **api**: `string`
 
 name of the API
 the list of APIs:
@@ -71,33 +55,33 @@ content_generation
 
 #### Implementation of
 
-[IAppendixStatusResultInfo](../interfaces/IAppendixStatusResultInfo.md).[api](../interfaces/IAppendixStatusResultInfo.md#api)
+[`IAppendixStatusResultInfo`](../interfaces/IAppendixStatusResultInfo.md).[`api`](../interfaces/IAppendixStatusResultInfo.md#api)
 
-#### Defined in
+#### Source
 
 main.ts:218426
 
-___
+***
 
-### endpoints
+### endpoints?
 
-• `Optional` **endpoints**: [`AppendixStatusEndpointsInfo`](AppendixStatusEndpointsInfo.md)[]
+> **`optional`** **endpoints**: [`AppendixStatusEndpointsInfo`](AppendixStatusEndpointsInfo.md)[]
 
 array of objects that contain status information for API endpoints
 
 #### Implementation of
 
-[IAppendixStatusResultInfo](../interfaces/IAppendixStatusResultInfo.md).[endpoints](../interfaces/IAppendixStatusResultInfo.md#endpoints)
+[`IAppendixStatusResultInfo`](../interfaces/IAppendixStatusResultInfo.md).[`endpoints`](../interfaces/IAppendixStatusResultInfo.md#endpoints)
 
-#### Defined in
+#### Source
 
 main.ts:218438
 
-___
+***
 
-### status
+### status?
 
-• `Optional` **status**: `string`
+> **`optional`** **status**: `string`
 
 current status
 you can find all information about your API statuses for the last 60 days here
@@ -111,68 +95,62 @@ send_delay
 
 #### Implementation of
 
-[IAppendixStatusResultInfo](../interfaces/IAppendixStatusResultInfo.md).[status](../interfaces/IAppendixStatusResultInfo.md#status)
+[`IAppendixStatusResultInfo`](../interfaces/IAppendixStatusResultInfo.md).[`status`](../interfaces/IAppendixStatusResultInfo.md#status)
 
-#### Defined in
+#### Source
 
 main.ts:218436
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:218451
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:218474
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppendixStatusResultInfo`](AppendixStatusResultInfo.md)
+> **`static`** **fromJS**(`data`): [`AppendixStatusResultInfo`](AppendixStatusResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppendixStatusResultInfo`](AppendixStatusResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:218467

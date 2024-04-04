@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / HotelAmenityItemInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / HotelAmenityItemInfo
 
 # Class: HotelAmenityItemInfo
 
@@ -8,167 +12,140 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](HotelAmenityItemInfo.md#constructor)
-
-### Properties
-
-- [amenity](HotelAmenityItemInfo.md#amenity)
-- [amenity\_label](HotelAmenityItemInfo.md#amenity_label)
-- [hint](HotelAmenityItemInfo.md#hint)
-- [hint\_label](HotelAmenityItemInfo.md#hint_label)
-
-### Methods
-
-- [init](HotelAmenityItemInfo.md#init)
-- [toJSON](HotelAmenityItemInfo.md#tojson)
-- [fromJS](HotelAmenityItemInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new HotelAmenityItemInfo(data)
 
-• **new HotelAmenityItemInfo**(`data?`): [`HotelAmenityItemInfo`](HotelAmenityItemInfo.md)
+> **new HotelAmenityItemInfo**(`data`?): [`HotelAmenityItemInfo`](HotelAmenityItemInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IHotelAmenityItemInfo`](../interfaces/IHotelAmenityItemInfo.md) |
+• **data?**: [`IHotelAmenityItemInfo`](../interfaces/IHotelAmenityItemInfo.md)
 
 #### Returns
 
 [`HotelAmenityItemInfo`](HotelAmenityItemInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:200750
 
 ## Properties
 
-### amenity
+### amenity?
 
-• `Optional` **amenity**: `string`
+> **`optional`** **amenity**: `string`
 
 standardised amenity name
 
 #### Implementation of
 
-[IHotelAmenityItemInfo](../interfaces/IHotelAmenityItemInfo.md).[amenity](../interfaces/IHotelAmenityItemInfo.md#amenity)
+[`IHotelAmenityItemInfo`](../interfaces/IHotelAmenityItemInfo.md).[`amenity`](../interfaces/IHotelAmenityItemInfo.md#amenity)
 
-#### Defined in
+#### Source
 
 main.ts:200740
 
-___
+***
 
-### amenity\_label
+### amenity\_label?
 
-• `Optional` **amenity\_label**: `string`
+> **`optional`** **amenity\_label**: `string`
 
 displayed amenity name
 
 #### Implementation of
 
-[IHotelAmenityItemInfo](../interfaces/IHotelAmenityItemInfo.md).[amenity_label](../interfaces/IHotelAmenityItemInfo.md#amenity_label)
+[`IHotelAmenityItemInfo`](../interfaces/IHotelAmenityItemInfo.md).[`amenity_label`](../interfaces/IHotelAmenityItemInfo.md#amenity_label)
 
-#### Defined in
+#### Source
 
 main.ts:200742
 
-___
+***
 
-### hint
+### hint?
 
-• `Optional` **hint**: `string`
+> **`optional`** **hint**: `string`
 
 standardised details about the amenity
 
 #### Implementation of
 
-[IHotelAmenityItemInfo](../interfaces/IHotelAmenityItemInfo.md).[hint](../interfaces/IHotelAmenityItemInfo.md#hint)
+[`IHotelAmenityItemInfo`](../interfaces/IHotelAmenityItemInfo.md).[`hint`](../interfaces/IHotelAmenityItemInfo.md#hint)
 
-#### Defined in
+#### Source
 
 main.ts:200744
 
-___
+***
 
-### hint\_label
+### hint\_label?
 
-• `Optional` **hint\_label**: `string`
+> **`optional`** **hint\_label**: `string`
 
 displayed details about the amenity
 
 #### Implementation of
 
-[IHotelAmenityItemInfo](../interfaces/IHotelAmenityItemInfo.md).[hint_label](../interfaces/IHotelAmenityItemInfo.md#hint_label)
+[`IHotelAmenityItemInfo`](../interfaces/IHotelAmenityItemInfo.md).[`hint_label`](../interfaces/IHotelAmenityItemInfo.md#hint_label)
 
-#### Defined in
+#### Source
 
 main.ts:200746
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:200759
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:200779
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`HotelAmenityItemInfo`](HotelAmenityItemInfo.md)
+> **`static`** **fromJS**(`data`): [`HotelAmenityItemInfo`](HotelAmenityItemInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`HotelAmenityItemInfo`](HotelAmenityItemInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:200772

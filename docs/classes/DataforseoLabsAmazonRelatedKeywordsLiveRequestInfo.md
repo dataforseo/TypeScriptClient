@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo
 
 # Class: DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo
 
@@ -8,59 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [depth](DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#depth)
-- [ignore\_synonyms](DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#ignore_synonyms)
-- [include\_seed\_keyword](DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#include_seed_keyword)
-- [keyword](DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#keyword)
-- [language\_code](DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#language_code)
-- [language\_name](DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#language_name)
-- [limit](DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#limit)
-- [location\_code](DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#location_code)
-- [location\_name](DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#location_name)
-- [offset](DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#offset)
-- [tag](DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#tag)
-
-### Methods
-
-- [init](DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#init)
-- [toJSON](DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#tojson)
-- [fromJS](DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo(data)
 
-• **new DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo**(`data?`): [`DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo`](DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md)
+> **new DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo**(`data`?): [`DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo`](DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md) |
+• **data?**: [`IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo`](DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:101521
+main.ts:101529
 
 ## Properties
 
-### depth
+### depth?
 
-• `Optional` **depth**: `number`
+> **`optional`** **depth**: `number`
 
 keyword search depth
 optional field
@@ -76,17 +52,17 @@ estimated number of keywords for each level (maximum):
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md).[depth](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#depth)
+[`IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md).[`depth`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#depth)
 
-#### Defined in
+#### Source
 
-main.ts:101491
+main.ts:101499
 
-___
+***
 
-### ignore\_synonyms
+### ignore\_synonyms?
 
-• `Optional` **ignore\_synonyms**: `boolean`
+> **`optional`** **ignore\_synonyms**: `boolean`
 
 ignore highly similar keywords
 optional field
@@ -95,17 +71,17 @@ default value: false
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md).[ignore_synonyms](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#ignore_synonyms)
+[`IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md).[`ignore_synonyms`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#ignore_synonyms)
 
-#### Defined in
+#### Source
 
-main.ts:101501
+main.ts:101509
 
-___
+***
 
-### include\_seed\_keyword
+### include\_seed\_keyword?
 
-• `Optional` **include\_seed\_keyword**: `boolean`
+> **`optional`** **include\_seed\_keyword**: `boolean`
 
 include data for the seed keyword
 optional field
@@ -114,17 +90,17 @@ default value: false
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md).[include_seed_keyword](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#include_seed_keyword)
+[`IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md).[`include_seed_keyword`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#include_seed_keyword)
 
-#### Defined in
+#### Source
 
-main.ts:101496
+main.ts:101504
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword
 required field
@@ -134,17 +110,17 @@ the keywords should be specified in the lowercase format
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md).[keyword](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#keyword)
+[`IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md).[`keyword`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:101447
+main.ts:101455
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 required field if you don’t specify language_name
@@ -155,17 +131,17 @@ en
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md).[language_code](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#language_code)
+[`IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:101479
+main.ts:101487
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -176,17 +152,17 @@ English
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md).[language_name](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#language_name)
+[`IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:101472
+main.ts:101480
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned keywords
 optional field
@@ -195,17 +171,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md).[limit](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#limit)
+[`IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md).[`limit`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#limit)
 
-#### Defined in
+#### Source
 
-main.ts:101506
+main.ts:101514
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 required field if you don’t specify location_name
@@ -218,17 +194,17 @@ example:
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md).[location_code](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#location_code)
+[`IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:101465
+main.ts:101473
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code
@@ -241,17 +217,17 @@ United States
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md).[location_name](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#location_name)
+[`IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:101456
+main.ts:101464
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned keywords
 optional field
@@ -260,17 +236,17 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md).[offset](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#offset)
+[`IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md).[`offset`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#offset)
 
-#### Defined in
+#### Source
 
-main.ts:101511
+main.ts:101519
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -280,68 +256,62 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md).[tag](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#tag)
+[`IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:101517
+main.ts:101525
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:101530
+main.ts:101538
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:101557
+main.ts:101565
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo`](DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo`](DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo`](DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:101550
+main.ts:101558

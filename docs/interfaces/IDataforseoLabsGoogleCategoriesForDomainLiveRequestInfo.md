@@ -1,46 +1,29 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo
 
-## Implemented by
-
-- [`DataforseoLabsGoogleCategoriesForDomainLiveRequestInfo`](../classes/DataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [filters](IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md#filters)
-- [include\_subcategories](IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md#include_subcategories)
-- [item\_types](IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md#item_types)
-- [language\_code](IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md#language_code)
-- [language\_name](IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md#language_name)
-- [limit](IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md#limit)
-- [location\_code](IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md#location_code)
-- [location\_name](IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md#location_name)
-- [offset](IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md#offset)
-- [order\_by](IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md#order_by)
-- [tag](IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md#tag)
-- [target](IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md#target)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, <=, >, >=, =, <>, in, not_in
+regex, <, `<=, >`, >=, =, `<>`, in, not_in
 example:
-["metrics.organic.pos_1,">",0]
+["metrics.organic.pos_1,">`",0]
 [["metrics.organic.count",">=",100],
 "and",
 ["metrics.organic.impressions_etv","in",[10,100]]]
@@ -49,15 +32,15 @@ example:
 ["metrics.organic.impressions_etv","in",[10,100]]]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide
 
-#### Defined in
+#### Source
 
-main.ts:85737
+main.ts:85745
 
-___
+***
 
-### include\_subcategories
+### include\_subcategories?
 
-• `Optional` **include\_subcategories**: `boolean`
+> **`optional`** **include\_subcategories**: `boolean`
 
 indicates if the subcategories will be included in the search
 optional field
@@ -65,15 +48,15 @@ if set to false, the subcategories will be ignored
 default value: false
 learn more about the parameter in this help center article
 
-#### Defined in
+#### Source
 
-main.ts:85712
+main.ts:85720
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 display results by item type
 optional field
@@ -84,15 +67,15 @@ possible values:
 default value:
 ["organic", "paid", "featured_snippet", "local_pack"]
 
-#### Defined in
+#### Source
 
-main.ts:85721
+main.ts:85729
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 required field if you don’t specify language_name
@@ -102,15 +85,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:85706
+main.ts:85714
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -120,30 +103,30 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:85698
+main.ts:85706
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned categories
 optional field
 default value: 100
 maximum value: 1000
 
-#### Defined in
+#### Source
 
-main.ts:85759
+main.ts:85767
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 required field if you don’t specify location_name
@@ -153,15 +136,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:85690
+main.ts:85698
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code
@@ -171,30 +154,30 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 United Kingdom
 
-#### Defined in
+#### Source
 
-main.ts:85682
+main.ts:85690
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned categories 
 optional field
 default value: 0
 if you specify the 10 value, the first ten categories in the results array will be omitted and the data will be provided for the successive categories
 
-#### Defined in
+#### Source
 
-main.ts:85764
+main.ts:85772
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -213,15 +196,15 @@ default rule:
 ["metrics.organic.count,desc"]
 Note: if the item_types array contains item types that are different from the organic object, the results will be ordered by the first item type in the array
 
-#### Defined in
+#### Source
 
-main.ts:85754
+main.ts:85762
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -229,21 +212,21 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:85770
+main.ts:85778
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 domain or subdomain
 required field
 the domain or subdomain name of the target website
 the domain or subdomain should be specified without https:// and www.
 
-#### Defined in
+#### Source
 
-main.ts:85674
+main.ts:85682

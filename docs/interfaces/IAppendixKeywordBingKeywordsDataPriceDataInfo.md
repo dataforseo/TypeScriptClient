@@ -1,27 +1,21 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixKeywordBingKeywordsDataPriceDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppendixKeywordBingKeywordsDataPriceDataInfo
 
 # Interface: IAppendixKeywordBingKeywordsDataPriceDataInfo
 
-## Implemented by
-
-- [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [live](IAppendixKeywordBingKeywordsDataPriceDataInfo.md#live)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### live
+### live?
 
-• `Optional` **live**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **live**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:215274

@@ -1,72 +1,63 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOtherSitesReviewsInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IOtherSitesReviewsInfo
 
 # Interface: IOtherSitesReviewsInfo
 
-## Implemented by
-
-- [`OtherSitesReviewsInfo`](../classes/OtherSitesReviewsInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [rating](IOtherSitesReviewsInfo.md#rating)
-- [review\_text](IOtherSitesReviewsInfo.md#review_text)
-- [title](IOtherSitesReviewsInfo.md#title)
-- [url](IOtherSitesReviewsInfo.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
 rating in the review
 information about the rating enclosed in the review on a third-party site
 
-#### Defined in
+#### Source
 
 main.ts:201375
 
-___
+***
 
-### review\_text
+### review\_text?
 
-• `Optional` **review\_text**: `string`
+> **`optional`** **review\_text**: `string`
 
 review text
 text of the review
 
-#### Defined in
+#### Source
 
 main.ts:201372
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 review title
 contains a name of the third-party site where review initially appeared
 
-#### Defined in
+#### Source
 
 main.ts:201366
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 review url
 URL to the a third-party site where review initially appeared
 
-#### Defined in
+#### Source
 
 main.ts:201369

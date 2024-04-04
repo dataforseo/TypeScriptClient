@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / WorkInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / WorkInfo
 
 # Class: WorkInfo
 
@@ -8,117 +12,93 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](WorkInfo.md#constructor)
-
-### Properties
-
-- [work\_hours](WorkInfo.md#work_hours)
-
-### Methods
-
-- [init](WorkInfo.md#init)
-- [toJSON](WorkInfo.md#tojson)
-- [fromJS](WorkInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new WorkInfo(data)
 
-• **new WorkInfo**(`data?`): [`WorkInfo`](WorkInfo.md)
+> **new WorkInfo**(`data`?): [`WorkInfo`](WorkInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IWorkInfo`](../interfaces/IWorkInfo.md) |
+• **data?**: [`IWorkInfo`](../interfaces/IWorkInfo.md)
 
 #### Returns
 
 [`WorkInfo`](WorkInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:194216
 
 ## Properties
 
-### work\_hours
+### work\_hours?
 
-• `Optional` **work\_hours**: [`WorkHours`](WorkHours.md)
+> **`optional`** **work\_hours**: [`WorkHours`](WorkHours.md)
 
 open hours
 information about work hours of the local establishment
 
 #### Implementation of
 
-[IWorkInfo](../interfaces/IWorkInfo.md).[work_hours](../interfaces/IWorkInfo.md#work_hours)
+[`IWorkInfo`](../interfaces/IWorkInfo.md).[`work_hours`](../interfaces/IWorkInfo.md#work_hours)
 
-#### Defined in
+#### Source
 
 main.ts:194212
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:194225
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:194242
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`WorkInfo`](WorkInfo.md)
+> **`static`** **fromJS**(`data`): [`WorkInfo`](WorkInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`WorkInfo`](WorkInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:194235

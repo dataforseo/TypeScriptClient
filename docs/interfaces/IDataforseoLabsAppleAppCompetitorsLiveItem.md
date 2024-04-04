@@ -1,114 +1,102 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAppleAppCompetitorsLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsAppleAppCompetitorsLiveItem
 
 # Interface: IDataforseoLabsAppleAppCompetitorsLiveItem
 
-## Implemented by
-
-- [`DataforseoLabsAppleAppCompetitorsLiveItem`](../classes/DataforseoLabsAppleAppCompetitorsLiveItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [app\_id](IDataforseoLabsAppleAppCompetitorsLiveItem.md#app_id)
-- [avg\_position](IDataforseoLabsAppleAppCompetitorsLiveItem.md#avg_position)
-- [competitor\_metrics](IDataforseoLabsAppleAppCompetitorsLiveItem.md#competitor_metrics)
-- [full\_metrics](IDataforseoLabsAppleAppCompetitorsLiveItem.md#full_metrics)
-- [intersections](IDataforseoLabsAppleAppCompetitorsLiveItem.md#intersections)
-- [se\_type](IDataforseoLabsAppleAppCompetitorsLiveItem.md#se_type)
-- [sum\_position](IDataforseoLabsAppleAppCompetitorsLiveItem.md#sum_position)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### app\_id
+### app\_id?
 
-• `Optional` **app\_id**: `string`
+> **`optional`** **app\_id**: `string`
 
 id of the competitor app
 
-#### Defined in
+#### Source
 
-main.ts:113871
+main.ts:113879
 
-___
+***
 
-### avg\_position
+### avg\_position?
 
-• `Optional` **avg\_position**: `number`
+> **`optional`** **avg\_position**: `number`
 
 average position of the app in App Store SERP
 Note: average position is calculated for intersected keywords only;
 the value for a given application may differ when combined with different target applications
 
-#### Defined in
+#### Source
 
-main.ts:113875
+main.ts:113883
 
-___
+***
 
-### competitor\_metrics
+### competitor\_metrics?
 
-• `Optional` **competitor\_metrics**: [`AppStoreMetricsBundleInfo`](../classes/AppStoreMetricsBundleInfo.md)
+> **`optional`** **competitor\_metrics**: [`AppStoreMetricsBundleInfo`](../classes/AppStoreMetricsBundleInfo.md)
 
 metrics for intersecting keywords
 ranking data relevant to the keywords that the provided competitor application shares with the app in a POST request;
 note: in this array ranking data is provided for the returned competitor’s app_id
 
-#### Defined in
+#### Source
 
-main.ts:113885
+main.ts:113893
 
-___
+***
 
-### full\_metrics
+### full\_metrics?
 
-• `Optional` **full\_metrics**: [`AppStoreMetricsBundleInfo`](../classes/AppStoreMetricsBundleInfo.md)
+> **`optional`** **full\_metrics**: [`AppStoreMetricsBundleInfo`](../classes/AppStoreMetricsBundleInfo.md)
 
 metrics for all keywords of the application
 full overview of ranking data relevant to all keywords that the provided app_id is ranking for
 
-#### Defined in
+#### Source
 
-main.ts:113888
+main.ts:113896
 
-___
+***
 
-### intersections
+### intersections?
 
-• `Optional` **intersections**: `number`
+> **`optional`** **intersections**: `number`
 
 number of intersecting keywords
 
-#### Defined in
+#### Source
 
-main.ts:113881
+main.ts:113889
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:113869
+main.ts:113877
 
-___
+***
 
-### sum\_position
+### sum\_position?
 
-• `Optional` **sum\_position**: `number`
+> **`optional`** **sum\_position**: `number`
 
 sum of all app positions in App Store SERP
 Note: sum position is calculated for intersected keywords only;
 the value for a given application may differ when combined with different target applications
 
-#### Defined in
+#### Source
 
-main.ts:113879
+main.ts:113887

@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataTripadvisorLocationsCountryResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataTripadvisorLocationsCountryResponseInfo
 
 # Class: BusinessDataTripadvisorLocationsCountryResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`BusinessDataTripadvisorLocationsCountryResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataTripadvisorLocationsCountryResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](BusinessDataTripadvisorLocationsCountryResponseInfo.md#cost)
-- [status\_code](BusinessDataTripadvisorLocationsCountryResponseInfo.md#status_code)
-- [status\_message](BusinessDataTripadvisorLocationsCountryResponseInfo.md#status_message)
-- [tasks](BusinessDataTripadvisorLocationsCountryResponseInfo.md#tasks)
-- [tasks\_count](BusinessDataTripadvisorLocationsCountryResponseInfo.md#tasks_count)
-- [tasks\_error](BusinessDataTripadvisorLocationsCountryResponseInfo.md#tasks_error)
-- [time](BusinessDataTripadvisorLocationsCountryResponseInfo.md#time)
-- [version](BusinessDataTripadvisorLocationsCountryResponseInfo.md#version)
-
-### Methods
-
-- [init](BusinessDataTripadvisorLocationsCountryResponseInfo.md#init)
-- [toJSON](BusinessDataTripadvisorLocationsCountryResponseInfo.md#tojson)
-- [fromJS](BusinessDataTripadvisorLocationsCountryResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataTripadvisorLocationsCountryResponseInfo(data)
 
-• **new BusinessDataTripadvisorLocationsCountryResponseInfo**(`data?`): [`BusinessDataTripadvisorLocationsCountryResponseInfo`](BusinessDataTripadvisorLocationsCountryResponseInfo.md)
+> **new BusinessDataTripadvisorLocationsCountryResponseInfo**(`data`?): [`BusinessDataTripadvisorLocationsCountryResponseInfo`](BusinessDataTripadvisorLocationsCountryResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataTripadvisorLocationsCountryResponseInfo`](../interfaces/IBusinessDataTripadvisorLocationsCountryResponseInfo.md) |
+• **data?**: [`IBusinessDataTripadvisorLocationsCountryResponseInfo`](../interfaces/IBusinessDataTripadvisorLocationsCountryResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:206140
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IBusinessDataTripadvisorLocationsCountryResponseInfo](../interfaces/IBusinessDataTripadvisorLocationsCountryResponseInfo.md).[cost](../interfaces/IBusinessDataTripadvisorLocationsCountryResponseInfo.md#cost)
+[`IBusinessDataTripadvisorLocationsCountryResponseInfo`](../interfaces/IBusinessDataTripadvisorLocationsCountryResponseInfo.md).[`cost`](../interfaces/IBusinessDataTripadvisorLocationsCountryResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[IBusinessDataTripadvisorLocationsCountryResponseInfo](../interfaces/IBusinessDataTripadvisorLocationsCountryResponseInfo.md).[status_code](../interfaces/IBusinessDataTripadvisorLocationsCountryResponseInfo.md#status_code)
+[`IBusinessDataTripadvisorLocationsCountryResponseInfo`](../interfaces/IBusinessDataTripadvisorLocationsCountryResponseInfo.md).[`status_code`](../interfaces/IBusinessDataTripadvisorLocationsCountryResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IBusinessDataTripadvisorLocationsCountryResponseInfo](../interfaces/IBusinessDataTripadvisorLocationsCountryResponseInfo.md).[status_message](../interfaces/IBusinessDataTripadvisorLocationsCountryResponseInfo.md#status_message)
+[`IBusinessDataTripadvisorLocationsCountryResponseInfo`](../interfaces/IBusinessDataTripadvisorLocationsCountryResponseInfo.md).[`status_message`](../interfaces/IBusinessDataTripadvisorLocationsCountryResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`BusinessDataTripadvisorLocationsCountryTaskInfo`](BusinessDataTripadvisorLocationsCountryTaskInfo.md)[]
+> **`optional`** **tasks**: [`BusinessDataTripadvisorLocationsCountryTaskInfo`](BusinessDataTripadvisorLocationsCountryTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[IBusinessDataTripadvisorLocationsCountryResponseInfo](../interfaces/IBusinessDataTripadvisorLocationsCountryResponseInfo.md).[tasks](../interfaces/IBusinessDataTripadvisorLocationsCountryResponseInfo.md#tasks)
+[`IBusinessDataTripadvisorLocationsCountryResponseInfo`](../interfaces/IBusinessDataTripadvisorLocationsCountryResponseInfo.md).[`tasks`](../interfaces/IBusinessDataTripadvisorLocationsCountryResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
 main.ts:206136
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[IBusinessDataTripadvisorLocationsCountryResponseInfo](../interfaces/IBusinessDataTripadvisorLocationsCountryResponseInfo.md).[tasks_count](../interfaces/IBusinessDataTripadvisorLocationsCountryResponseInfo.md#tasks_count)
+[`IBusinessDataTripadvisorLocationsCountryResponseInfo`](../interfaces/IBusinessDataTripadvisorLocationsCountryResponseInfo.md).[`tasks_count`](../interfaces/IBusinessDataTripadvisorLocationsCountryResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[IBusinessDataTripadvisorLocationsCountryResponseInfo](../interfaces/IBusinessDataTripadvisorLocationsCountryResponseInfo.md).[tasks_error](../interfaces/IBusinessDataTripadvisorLocationsCountryResponseInfo.md#tasks_error)
+[`IBusinessDataTripadvisorLocationsCountryResponseInfo`](../interfaces/IBusinessDataTripadvisorLocationsCountryResponseInfo.md).[`tasks_error`](../interfaces/IBusinessDataTripadvisorLocationsCountryResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[IBusinessDataTripadvisorLocationsCountryResponseInfo](../interfaces/IBusinessDataTripadvisorLocationsCountryResponseInfo.md).[time](../interfaces/IBusinessDataTripadvisorLocationsCountryResponseInfo.md#time)
+[`IBusinessDataTripadvisorLocationsCountryResponseInfo`](../interfaces/IBusinessDataTripadvisorLocationsCountryResponseInfo.md).[`time`](../interfaces/IBusinessDataTripadvisorLocationsCountryResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[IBusinessDataTripadvisorLocationsCountryResponseInfo](../interfaces/IBusinessDataTripadvisorLocationsCountryResponseInfo.md).[version](../interfaces/IBusinessDataTripadvisorLocationsCountryResponseInfo.md#version)
+[`IBusinessDataTripadvisorLocationsCountryResponseInfo`](../interfaces/IBusinessDataTripadvisorLocationsCountryResponseInfo.md).[`version`](../interfaces/IBusinessDataTripadvisorLocationsCountryResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:206144
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:206166
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataTripadvisorLocationsCountryResponseInfo`](BusinessDataTripadvisorLocationsCountryResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataTripadvisorLocationsCountryResponseInfo`](BusinessDataTripadvisorLocationsCountryResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:206159

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonRankedKeywordsLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsAmazonRankedKeywordsLiveItem
 
 # Class: DataforseoLabsAmazonRankedKeywordsLiveItem
 
@@ -8,150 +12,124 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsAmazonRankedKeywordsLiveItem.md#constructor)
-
-### Properties
-
-- [keyword\_data](DataforseoLabsAmazonRankedKeywordsLiveItem.md#keyword_data)
-- [ranked\_serp\_element](DataforseoLabsAmazonRankedKeywordsLiveItem.md#ranked_serp_element)
-- [se\_type](DataforseoLabsAmazonRankedKeywordsLiveItem.md#se_type)
-
-### Methods
-
-- [init](DataforseoLabsAmazonRankedKeywordsLiveItem.md#init)
-- [toJSON](DataforseoLabsAmazonRankedKeywordsLiveItem.md#tojson)
-- [fromJS](DataforseoLabsAmazonRankedKeywordsLiveItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsAmazonRankedKeywordsLiveItem(data)
 
-• **new DataforseoLabsAmazonRankedKeywordsLiveItem**(`data?`): [`DataforseoLabsAmazonRankedKeywordsLiveItem`](DataforseoLabsAmazonRankedKeywordsLiveItem.md)
+> **new DataforseoLabsAmazonRankedKeywordsLiveItem**(`data`?): [`DataforseoLabsAmazonRankedKeywordsLiveItem`](DataforseoLabsAmazonRankedKeywordsLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsAmazonRankedKeywordsLiveItem`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveItem.md) |
+• **data?**: [`IDataforseoLabsAmazonRankedKeywordsLiveItem`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveItem.md)
 
 #### Returns
 
 [`DataforseoLabsAmazonRankedKeywordsLiveItem`](DataforseoLabsAmazonRankedKeywordsLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:102537
+main.ts:102545
 
 ## Properties
 
-### keyword\_data
+### keyword\_data?
 
-• `Optional` **keyword\_data**: [`KeywordData`](KeywordData.md)
+> **`optional`** **keyword\_data**: [`KeywordData`](KeywordData.md)
 
 keyword data for the returned keyword
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRankedKeywordsLiveItem](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveItem.md).[keyword_data](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveItem.md#keyword_data)
+[`IDataforseoLabsAmazonRankedKeywordsLiveItem`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveItem.md).[`keyword_data`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveItem.md#keyword_data)
 
-#### Defined in
+#### Source
 
-main.ts:102531
+main.ts:102539
 
-___
+***
 
-### ranked\_serp\_element
+### ranked\_serp\_element?
 
-• `Optional` **ranked\_serp\_element**: [`AmazonRankedSerpElement`](AmazonRankedSerpElement.md)
+> **`optional`** **ranked\_serp\_element**: [`AmazonRankedSerpElement`](AmazonRankedSerpElement.md)
 
 contains data on the products’s SERP element found for the returned keyword
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRankedKeywordsLiveItem](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveItem.md).[ranked_serp_element](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveItem.md#ranked_serp_element)
+[`IDataforseoLabsAmazonRankedKeywordsLiveItem`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveItem.md).[`ranked_serp_element`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveItem.md#ranked_serp_element)
 
-#### Defined in
+#### Source
 
-main.ts:102533
+main.ts:102541
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRankedKeywordsLiveItem](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveItem.md).[se_type](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveItem.md#se_type)
+[`IDataforseoLabsAmazonRankedKeywordsLiveItem`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveItem.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:102529
+main.ts:102537
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:102546
+main.ts:102554
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:102565
+main.ts:102573
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsAmazonRankedKeywordsLiveItem`](DataforseoLabsAmazonRankedKeywordsLiveItem.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsAmazonRankedKeywordsLiveItem`](DataforseoLabsAmazonRankedKeywordsLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsAmazonRankedKeywordsLiveItem`](DataforseoLabsAmazonRankedKeywordsLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:102558
+main.ts:102566

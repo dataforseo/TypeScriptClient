@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpBaiduLocationsResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpBaiduLocationsResultInfo
 
 # Class: SerpBaiduLocationsResultInfo
 
@@ -8,85 +12,63 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpBaiduLocationsResultInfo.md#constructor)
-
-### Properties
-
-- [country\_iso\_code](SerpBaiduLocationsResultInfo.md#country_iso_code)
-- [location\_code](SerpBaiduLocationsResultInfo.md#location_code)
-- [location\_code\_parent](SerpBaiduLocationsResultInfo.md#location_code_parent)
-- [location\_name](SerpBaiduLocationsResultInfo.md#location_name)
-- [location\_type](SerpBaiduLocationsResultInfo.md#location_type)
-
-### Methods
-
-- [init](SerpBaiduLocationsResultInfo.md#init)
-- [toJSON](SerpBaiduLocationsResultInfo.md#tojson)
-- [fromJS](SerpBaiduLocationsResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpBaiduLocationsResultInfo(data)
 
-• **new SerpBaiduLocationsResultInfo**(`data?`): [`SerpBaiduLocationsResultInfo`](SerpBaiduLocationsResultInfo.md)
+> **new SerpBaiduLocationsResultInfo**(`data`?): [`SerpBaiduLocationsResultInfo`](SerpBaiduLocationsResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpBaiduLocationsResultInfo`](../interfaces/ISerpBaiduLocationsResultInfo.md) |
+• **data?**: [`ISerpBaiduLocationsResultInfo`](../interfaces/ISerpBaiduLocationsResultInfo.md)
 
 #### Returns
 
 [`SerpBaiduLocationsResultInfo`](SerpBaiduLocationsResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:67594
+main.ts:67602
 
 ## Properties
 
-### country\_iso\_code
+### country\_iso\_code?
 
-• `Optional` **country\_iso\_code**: `string`
+> **`optional`** **country\_iso\_code**: `string`
 
 ISO country code of the location
 
 #### Implementation of
 
-[ISerpBaiduLocationsResultInfo](../interfaces/ISerpBaiduLocationsResultInfo.md).[country_iso_code](../interfaces/ISerpBaiduLocationsResultInfo.md#country_iso_code)
+[`ISerpBaiduLocationsResultInfo`](../interfaces/ISerpBaiduLocationsResultInfo.md).[`country_iso_code`](../interfaces/ISerpBaiduLocationsResultInfo.md#country_iso_code)
 
-#### Defined in
+#### Source
 
-main.ts:67587
+main.ts:67595
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 
 #### Implementation of
 
-[ISerpBaiduLocationsResultInfo](../interfaces/ISerpBaiduLocationsResultInfo.md).[location_code](../interfaces/ISerpBaiduLocationsResultInfo.md#location_code)
+[`ISerpBaiduLocationsResultInfo`](../interfaces/ISerpBaiduLocationsResultInfo.md).[`location_code`](../interfaces/ISerpBaiduLocationsResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:67579
+main.ts:67587
 
-___
+***
 
-### location\_code\_parent
+### location\_code\_parent?
 
-• `Optional` **location\_code\_parent**: `number`
+> **`optional`** **location\_code\_parent**: `number`
 
 the code of the superordinate location
 only City location_type is supported for all countries except China (where Country is also supported);
@@ -94,101 +76,95 @@ don’t match locations by location_code_parent because the results for Region a
 
 #### Implementation of
 
-[ISerpBaiduLocationsResultInfo](../interfaces/ISerpBaiduLocationsResultInfo.md).[location_code_parent](../interfaces/ISerpBaiduLocationsResultInfo.md#location_code_parent)
+[`ISerpBaiduLocationsResultInfo`](../interfaces/ISerpBaiduLocationsResultInfo.md).[`location_code_parent`](../interfaces/ISerpBaiduLocationsResultInfo.md#location_code_parent)
 
-#### Defined in
+#### Source
 
-main.ts:67585
+main.ts:67593
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 
 #### Implementation of
 
-[ISerpBaiduLocationsResultInfo](../interfaces/ISerpBaiduLocationsResultInfo.md).[location_name](../interfaces/ISerpBaiduLocationsResultInfo.md#location_name)
+[`ISerpBaiduLocationsResultInfo`](../interfaces/ISerpBaiduLocationsResultInfo.md).[`location_name`](../interfaces/ISerpBaiduLocationsResultInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:67581
+main.ts:67589
 
-___
+***
 
-### location\_type
+### location\_type?
 
-• `Optional` **location\_type**: `string`
+> **`optional`** **location\_type**: `string`
 
 location type
 only City is supported for all countries except China (where Country is also supported)
 
 #### Implementation of
 
-[ISerpBaiduLocationsResultInfo](../interfaces/ISerpBaiduLocationsResultInfo.md).[location_type](../interfaces/ISerpBaiduLocationsResultInfo.md#location_type)
+[`ISerpBaiduLocationsResultInfo`](../interfaces/ISerpBaiduLocationsResultInfo.md).[`location_type`](../interfaces/ISerpBaiduLocationsResultInfo.md#location_type)
 
-#### Defined in
+#### Source
 
-main.ts:67590
+main.ts:67598
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:67603
+main.ts:67611
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:67624
+main.ts:67632
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpBaiduLocationsResultInfo`](SerpBaiduLocationsResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpBaiduLocationsResultInfo`](SerpBaiduLocationsResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpBaiduLocationsResultInfo`](SerpBaiduLocationsResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:67617
+main.ts:67625

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MetricsBundleInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / MetricsBundleInfo
 
 # Class: MetricsBundleInfo
 
@@ -8,133 +12,108 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](MetricsBundleInfo.md#constructor)
-
-### Properties
-
-- [organic](MetricsBundleInfo.md#organic)
-- [paid](MetricsBundleInfo.md#paid)
-
-### Methods
-
-- [init](MetricsBundleInfo.md#init)
-- [toJSON](MetricsBundleInfo.md#tojson)
-- [fromJS](MetricsBundleInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new MetricsBundleInfo(data)
 
-• **new MetricsBundleInfo**(`data?`): [`MetricsBundleInfo`](MetricsBundleInfo.md)
+> **new MetricsBundleInfo**(`data`?): [`MetricsBundleInfo`](MetricsBundleInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IMetricsBundleInfo`](../interfaces/IMetricsBundleInfo.md) |
+• **data?**: [`IMetricsBundleInfo`](../interfaces/IMetricsBundleInfo.md)
 
 #### Returns
 
 [`MetricsBundleInfo`](MetricsBundleInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:78313
+main.ts:78321
 
 ## Properties
 
-### organic
+### organic?
 
-• `Optional` **organic**: [`MetricsInfo`](MetricsInfo.md)
+> **`optional`** **organic**: [`MetricsInfo`](MetricsInfo.md)
 
 ranking and traffic data from organic search
 
 #### Implementation of
 
-[IMetricsBundleInfo](../interfaces/IMetricsBundleInfo.md).[organic](../interfaces/IMetricsBundleInfo.md#organic)
+[`IMetricsBundleInfo`](../interfaces/IMetricsBundleInfo.md).[`organic`](../interfaces/IMetricsBundleInfo.md#organic)
 
-#### Defined in
+#### Source
 
-main.ts:78307
+main.ts:78315
 
-___
+***
 
-### paid
+### paid?
 
-• `Optional` **paid**: [`MetricsInfo`](MetricsInfo.md)
+> **`optional`** **paid**: [`MetricsInfo`](MetricsInfo.md)
 
 ranking and traffic data from paid search
 
 #### Implementation of
 
-[IMetricsBundleInfo](../interfaces/IMetricsBundleInfo.md).[paid](../interfaces/IMetricsBundleInfo.md#paid)
+[`IMetricsBundleInfo`](../interfaces/IMetricsBundleInfo.md).[`paid`](../interfaces/IMetricsBundleInfo.md#paid)
 
-#### Defined in
+#### Source
 
-main.ts:78309
+main.ts:78317
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:78322
+main.ts:78330
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:78340
+main.ts:78348
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`MetricsBundleInfo`](MetricsBundleInfo.md)
+> **`static`** **fromJS**(`data`): [`MetricsBundleInfo`](MetricsBundleInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`MetricsBundleInfo`](MetricsBundleInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:78333
+main.ts:78341

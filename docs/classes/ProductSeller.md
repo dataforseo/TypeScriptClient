@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ProductSeller
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ProductSeller
 
 # Class: ProductSeller
 
@@ -8,222 +12,192 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ProductSeller.md#constructor)
-
-### Properties
-
-- [delivery\_info](ProductSeller.md#delivery_info)
-- [price](ProductSeller.md#price)
-- [seller\_rating](ProductSeller.md#seller_rating)
-- [seller\_review\_count](ProductSeller.md#seller_review_count)
-- [title](ProductSeller.md#title)
-- [type](ProductSeller.md#type)
-- [url](ProductSeller.md#url)
-
-### Methods
-
-- [init](ProductSeller.md#init)
-- [toJSON](ProductSeller.md#tojson)
-- [fromJS](ProductSeller.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ProductSeller(data)
 
-• **new ProductSeller**(`data?`): [`ProductSeller`](ProductSeller.md)
+> **new ProductSeller**(`data`?): [`ProductSeller`](ProductSeller.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IProductSeller`](../interfaces/IProductSeller.md) |
+• **data?**: [`IProductSeller`](../interfaces/IProductSeller.md)
 
 #### Returns
 
 [`ProductSeller`](ProductSeller.md)
 
-#### Defined in
+#### Source
 
 main.ts:174452
 
 ## Properties
 
-### delivery\_info
+### delivery\_info?
 
-• `Optional` **delivery\_info**: [`DeliveryInfo`](DeliveryInfo.md)
+> **`optional`** **delivery\_info**: [`DeliveryInfo`](DeliveryInfo.md)
 
 delivery information
 product delivery information
 
 #### Implementation of
 
-[IProductSeller](../interfaces/IProductSeller.md).[delivery_info](../interfaces/IProductSeller.md#delivery_info)
+[`IProductSeller`](../interfaces/IProductSeller.md).[`delivery_info`](../interfaces/IProductSeller.md#delivery_info)
 
-#### Defined in
+#### Source
 
 main.ts:174448
 
-___
+***
 
-### price
+### price?
 
-• `Optional` **price**: [`PriceInfo`](PriceInfo.md)
+> **`optional`** **price**: [`PriceInfo`](PriceInfo.md)
 
 product price
 product price details on the seller’s website
 
 #### Implementation of
 
-[IProductSeller](../interfaces/IProductSeller.md).[price](../interfaces/IProductSeller.md#price)
+[`IProductSeller`](../interfaces/IProductSeller.md).[`price`](../interfaces/IProductSeller.md#price)
 
-#### Defined in
+#### Source
 
 main.ts:174445
 
-___
+***
 
-### seller\_rating
+### seller\_rating?
 
-• `Optional` **seller\_rating**: [`RatingElement`](RatingElement.md)
+> **`optional`** **seller\_rating**: [`RatingElement`](RatingElement.md)
 
 rating of the seller
 
 #### Implementation of
 
-[IProductSeller](../interfaces/IProductSeller.md).[seller_rating](../interfaces/IProductSeller.md#seller_rating)
+[`IProductSeller`](../interfaces/IProductSeller.md).[`seller_rating`](../interfaces/IProductSeller.md#seller_rating)
 
-#### Defined in
+#### Source
 
 main.ts:174439
 
-___
+***
 
-### seller\_review\_count
+### seller\_review\_count?
 
-• `Optional` **seller\_review\_count**: `number`
+> **`optional`** **seller\_review\_count**: `number`
 
 number of seller reviews
 number of reviews on the product seller’s account
 
 #### Implementation of
 
-[IProductSeller](../interfaces/IProductSeller.md).[seller_review_count](../interfaces/IProductSeller.md#seller_review_count)
+[`IProductSeller`](../interfaces/IProductSeller.md).[`seller_review_count`](../interfaces/IProductSeller.md#seller_review_count)
 
-#### Defined in
+#### Source
 
 main.ts:174442
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 product title
 
 #### Implementation of
 
-[IProductSeller](../interfaces/IProductSeller.md).[title](../interfaces/IProductSeller.md#title)
+[`IProductSeller`](../interfaces/IProductSeller.md).[`title`](../interfaces/IProductSeller.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:174434
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IProductSeller](../interfaces/IProductSeller.md).[type](../interfaces/IProductSeller.md#type)
+[`IProductSeller`](../interfaces/IProductSeller.md).[`type`](../interfaces/IProductSeller.md#type)
 
-#### Defined in
+#### Source
 
 main.ts:174432
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 seller url
 url of the page where the product is sold
 
 #### Implementation of
 
-[IProductSeller](../interfaces/IProductSeller.md).[url](../interfaces/IProductSeller.md#url)
+[`IProductSeller`](../interfaces/IProductSeller.md).[`url`](../interfaces/IProductSeller.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:174437
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:174461
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:174484
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ProductSeller`](ProductSeller.md)
+> **`static`** **fromJS**(`data`): [`ProductSeller`](ProductSeller.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ProductSeller`](ProductSeller.md)
 
-#### Defined in
+#### Source
 
 main.ts:174477

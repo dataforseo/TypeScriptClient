@@ -1,106 +1,93 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IGoogleHotelsDataforseoLabsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IGoogleHotelsDataforseoLabsSerpElementItem
 
 # Interface: IGoogleHotelsDataforseoLabsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md)
 
-  ↳ **`IGoogleHotelsDataforseoLabsSerpElementItem`**
-
-## Implemented by
-
-- [`GoogleHotelsDataforseoLabsSerpElementItem`](../classes/GoogleHotelsDataforseoLabsSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [hotel\_identifier](IGoogleHotelsDataforseoLabsSerpElementItem.md#hotel_identifier)
-- [position](IGoogleHotelsDataforseoLabsSerpElementItem.md#position)
-- [rank\_absolute](IGoogleHotelsDataforseoLabsSerpElementItem.md#rank_absolute)
-- [rank\_group](IGoogleHotelsDataforseoLabsSerpElementItem.md#rank_group)
-- [url](IGoogleHotelsDataforseoLabsSerpElementItem.md#url)
-- [xpath](IGoogleHotelsDataforseoLabsSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### hotel\_identifier
+### hotel\_identifier?
 
-• `Optional` **hotel\_identifier**: `string`
+> **`optional`** **hotel\_identifier**: `string`
 
 unique hotel identifier
 unique hotel identifier assigned by Google;
 example: "CgoIjaeSlI6CnNpVEAE"
 
-#### Defined in
+#### Source
 
-main.ts:98563
+main.ts:98571
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
-main.ts:98557
+main.ts:98565
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Defined in
+#### Source
 
-main.ts:98553
+main.ts:98561
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
-main.ts:98550
+main.ts:98558
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 relevant URL of the Ad element in SERP
 
-#### Defined in
+#### Source
 
-main.ts:98565
+main.ts:98573
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
-main.ts:98559
+main.ts:98567

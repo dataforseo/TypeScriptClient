@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KnowledgeGraphListElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KnowledgeGraphListElement
 
 # Class: KnowledgeGraphListElement
 
@@ -8,219 +12,189 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KnowledgeGraphListElement.md#constructor)
-
-### Properties
-
-- [domain](KnowledgeGraphListElement.md#domain)
-- [image\_url](KnowledgeGraphListElement.md#image_url)
-- [subtitle](KnowledgeGraphListElement.md#subtitle)
-- [title](KnowledgeGraphListElement.md#title)
-- [type](KnowledgeGraphListElement.md#type)
-- [url](KnowledgeGraphListElement.md#url)
-- [xpath](KnowledgeGraphListElement.md#xpath)
-
-### Methods
-
-- [init](KnowledgeGraphListElement.md#init)
-- [toJSON](KnowledgeGraphListElement.md#tojson)
-- [fromJS](KnowledgeGraphListElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KnowledgeGraphListElement(data)
 
-• **new KnowledgeGraphListElement**(`data?`): [`KnowledgeGraphListElement`](KnowledgeGraphListElement.md)
+> **new KnowledgeGraphListElement**(`data`?): [`KnowledgeGraphListElement`](KnowledgeGraphListElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKnowledgeGraphListElement`](../interfaces/IKnowledgeGraphListElement.md) |
+• **data?**: [`IKnowledgeGraphListElement`](../interfaces/IKnowledgeGraphListElement.md)
 
 #### Returns
 
 [`KnowledgeGraphListElement`](KnowledgeGraphListElement.md)
 
-#### Defined in
+#### Source
 
 main.ts:26650
 
 ## Properties
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain in SERP
 
 #### Implementation of
 
-[IKnowledgeGraphListElement](../interfaces/IKnowledgeGraphListElement.md).[domain](../interfaces/IKnowledgeGraphListElement.md#domain)
+[`IKnowledgeGraphListElement`](../interfaces/IKnowledgeGraphListElement.md).[`domain`](../interfaces/IKnowledgeGraphListElement.md#domain)
 
-#### Defined in
+#### Source
 
 main.ts:26641
 
-___
+***
 
-### image\_url
+### image\_url?
 
-• `Optional` **image\_url**: `string`
+> **`optional`** **image\_url**: `string`
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
 
 #### Implementation of
 
-[IKnowledgeGraphListElement](../interfaces/IKnowledgeGraphListElement.md).[image_url](../interfaces/IKnowledgeGraphListElement.md#image_url)
+[`IKnowledgeGraphListElement`](../interfaces/IKnowledgeGraphListElement.md).[`image_url`](../interfaces/IKnowledgeGraphListElement.md#image_url)
 
-#### Defined in
+#### Source
 
 main.ts:26644
 
-___
+***
 
-### subtitle
+### subtitle?
 
-• `Optional` **subtitle**: `string`
+> **`optional`** **subtitle**: `string`
 
 subtitle of the item
 
 #### Implementation of
 
-[IKnowledgeGraphListElement](../interfaces/IKnowledgeGraphListElement.md).[subtitle](../interfaces/IKnowledgeGraphListElement.md#subtitle)
+[`IKnowledgeGraphListElement`](../interfaces/IKnowledgeGraphListElement.md).[`subtitle`](../interfaces/IKnowledgeGraphListElement.md#subtitle)
 
-#### Defined in
+#### Source
 
 main.ts:26637
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 link anchor text
 
 #### Implementation of
 
-[IKnowledgeGraphListElement](../interfaces/IKnowledgeGraphListElement.md).[title](../interfaces/IKnowledgeGraphListElement.md#title)
+[`IKnowledgeGraphListElement`](../interfaces/IKnowledgeGraphListElement.md).[`title`](../interfaces/IKnowledgeGraphListElement.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:26635
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IKnowledgeGraphListElement](../interfaces/IKnowledgeGraphListElement.md).[type](../interfaces/IKnowledgeGraphListElement.md#type)
+[`IKnowledgeGraphListElement`](../interfaces/IKnowledgeGraphListElement.md).[`type`](../interfaces/IKnowledgeGraphListElement.md#type)
 
-#### Defined in
+#### Source
 
 main.ts:26633
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 sitelink URL
 
 #### Implementation of
 
-[IKnowledgeGraphListElement](../interfaces/IKnowledgeGraphListElement.md).[url](../interfaces/IKnowledgeGraphListElement.md#url)
+[`IKnowledgeGraphListElement`](../interfaces/IKnowledgeGraphListElement.md).[`url`](../interfaces/IKnowledgeGraphListElement.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:26639
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IKnowledgeGraphListElement](../interfaces/IKnowledgeGraphListElement.md).[xpath](../interfaces/IKnowledgeGraphListElement.md#xpath)
+[`IKnowledgeGraphListElement`](../interfaces/IKnowledgeGraphListElement.md).[`xpath`](../interfaces/IKnowledgeGraphListElement.md#xpath)
 
-#### Defined in
+#### Source
 
 main.ts:26646
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:26659
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:26682
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KnowledgeGraphListElement`](KnowledgeGraphListElement.md)
+> **`static`** **fromJS**(`data`): [`KnowledgeGraphListElement`](KnowledgeGraphListElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`KnowledgeGraphListElement`](KnowledgeGraphListElement.md)
 
-#### Defined in
+#### Source
 
 main.ts:26675

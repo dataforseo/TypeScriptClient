@@ -1,42 +1,35 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataBusinessListingsCategoriesResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBusinessDataBusinessListingsCategoriesResultInfo
 
 # Interface: IBusinessDataBusinessListingsCategoriesResultInfo
 
-## Implemented by
-
-- [`BusinessDataBusinessListingsCategoriesResultInfo`](../classes/BusinessDataBusinessListingsCategoriesResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [business\_count](IBusinessDataBusinessListingsCategoriesResultInfo.md#business_count)
-- [category\_name](IBusinessDataBusinessListingsCategoriesResultInfo.md#category_name)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### business\_count
+### business\_count?
 
-• `Optional` **business\_count**: `number`
+> **`optional`** **business\_count**: `number`
 
 number of businesses in the category
 
-#### Defined in
+#### Source
 
 main.ts:193508
 
-___
+***
 
-### category\_name
+### category\_name?
 
-• `Optional` **category\_name**: `string`
+> **`optional`** **category\_name**: `string`
 
 full name of the category
 
-#### Defined in
+#### Source
 
 main.ts:193506

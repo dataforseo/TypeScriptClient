@@ -1,31 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataIdListRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IKeywordsDataIdListRequestInfo
 
 # Interface: IKeywordsDataIdListRequestInfo
 
-## Implemented by
-
-- [`KeywordsDataIdListRequestInfo`](../classes/KeywordsDataIdListRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [datetime\_from](IKeywordsDataIdListRequestInfo.md#datetime_from)
-- [datetime\_to](IKeywordsDataIdListRequestInfo.md#datetime_to)
-- [include\_metadata](IKeywordsDataIdListRequestInfo.md#include_metadata)
-- [limit](IKeywordsDataIdListRequestInfo.md#limit)
-- [offset](IKeywordsDataIdListRequestInfo.md#offset)
-- [sort](IKeywordsDataIdListRequestInfo.md#sort)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### datetime\_from
+### datetime\_from?
 
-• `Optional` **datetime\_from**: `string`
+> **`optional`** **datetime\_from**: `string`
 
 start time for filtering results
 required field
@@ -35,15 +24,15 @@ must be specified in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2023-01-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
-main.ts:114688
+main.ts:114696
 
-___
+***
 
-### datetime\_to
+### datetime\_to?
 
-• `Optional` **datetime\_to**: `string`
+> **`optional`** **datetime\_to**: `string`
 
 finish time for filtering results
 required field
@@ -52,65 +41,65 @@ must be specified in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2023-01-31 13:57:46 +00:00
 
-#### Defined in
+#### Source
 
-main.ts:114695
+main.ts:114703
 
-___
+***
 
-### include\_metadata
+### include\_metadata?
 
-• `Optional` **include\_metadata**: `boolean`
+> **`optional`** **include\_metadata**: `boolean`
 
 include task metadata in the respond
 optional field
 default value: false
 
-#### Defined in
+#### Source
 
-main.ts:114714
+main.ts:114722
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned task IDs
 optional field
 default value: 1000
 maximum value: 1000
 
-#### Defined in
+#### Source
 
-main.ts:114700
+main.ts:114708
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned task IDs
 optional field
 default value: 0
 if you specify the 10 value, the first ten tasks in the results array will be omitted
 
-#### Defined in
+#### Source
 
-main.ts:114705
+main.ts:114713
 
-___
+***
 
-### sort
+### sort?
 
-• `Optional` **sort**: `string`
+> **`optional`** **sort**: `string`
 
 sorting by task execution time
 optional field
 possible values: "asc", "desc"
 default value: "asc"
 
-#### Defined in
+#### Source
 
-main.ts:114710
+main.ts:114718

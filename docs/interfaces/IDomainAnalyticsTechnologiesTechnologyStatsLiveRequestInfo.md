@@ -1,29 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo
 
 # Interface: IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo
 
-## Implemented by
-
-- [`DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo`](../classes/DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [date\_from](IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md#date_from)
-- [date\_to](IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md#date_to)
-- [tag](IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md#tag)
-- [technology](IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md#technology)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -33,15 +24,15 @@ date format: "yyyy-mm-dd"
 example:
 "2023-06-01"
 
-#### Defined in
+#### Source
 
-main.ts:75955
+main.ts:75963
 
-___
+***
 
-### date\_to
+### date\_to?
 
-• `Optional` **date\_to**: `string`
+> **`optional`** **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -50,15 +41,15 @@ date format: "yyyy-mm-dd"
 example:
 "2023-01-15"
 
-#### Defined in
+#### Source
 
-main.ts:75962
+main.ts:75970
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -66,15 +57,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:75968
+main.ts:75976
 
-___
+***
 
-### technology
+### technology?
 
-• `Optional` **technology**: `string`
+> **`optional`** **technology**: `string`
 
 target technology
 required field
@@ -82,6 +73,6 @@ you can find the full list of technologies you can specify here on this page
 example:
 "Salesforce"
 
-#### Defined in
+#### Source
 
-main.ts:75947
+main.ts:75955

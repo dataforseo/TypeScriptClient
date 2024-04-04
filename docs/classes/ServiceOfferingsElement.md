@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ServiceOfferingsElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ServiceOfferingsElement
 
 # Class: ServiceOfferingsElement
 
@@ -8,152 +12,126 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ServiceOfferingsElement.md#constructor)
-
-### Properties
-
-- [is\_available](ServiceOfferingsElement.md#is_available)
-- [name](ServiceOfferingsElement.md#name)
-- [type](ServiceOfferingsElement.md#type)
-
-### Methods
-
-- [init](ServiceOfferingsElement.md#init)
-- [toJSON](ServiceOfferingsElement.md#tojson)
-- [fromJS](ServiceOfferingsElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ServiceOfferingsElement(data)
 
-• **new ServiceOfferingsElement**(`data?`): [`ServiceOfferingsElement`](ServiceOfferingsElement.md)
+> **new ServiceOfferingsElement**(`data`?): [`ServiceOfferingsElement`](ServiceOfferingsElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IServiceOfferingsElement`](../interfaces/IServiceOfferingsElement.md) |
+• **data?**: [`IServiceOfferingsElement`](../interfaces/IServiceOfferingsElement.md)
 
 #### Returns
 
 [`ServiceOfferingsElement`](ServiceOfferingsElement.md)
 
-#### Defined in
+#### Source
 
 main.ts:209415
 
 ## Properties
 
-### is\_available
+### is\_available?
 
-• `Optional` **is\_available**: `boolean`
+> **`optional`** **is\_available**: `boolean`
 
 availability of the offering
 if the value is false, the offering is not available
 
 #### Implementation of
 
-[IServiceOfferingsElement](../interfaces/IServiceOfferingsElement.md).[is_available](../interfaces/IServiceOfferingsElement.md#is_available)
+[`IServiceOfferingsElement`](../interfaces/IServiceOfferingsElement.md).[`is_available`](../interfaces/IServiceOfferingsElement.md#is_available)
 
-#### Defined in
+#### Source
 
 main.ts:209411
 
-___
+***
 
-### name
+### name?
 
-• `Optional` **name**: `string`
+> **`optional`** **name**: `string`
 
 name of the label
 example: Delivery
 
 #### Implementation of
 
-[IServiceOfferingsElement](../interfaces/IServiceOfferingsElement.md).[name](../interfaces/IServiceOfferingsElement.md#name)
+[`IServiceOfferingsElement`](../interfaces/IServiceOfferingsElement.md).[`name`](../interfaces/IServiceOfferingsElement.md#name)
 
-#### Defined in
+#### Source
 
 main.ts:209408
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IServiceOfferingsElement](../interfaces/IServiceOfferingsElement.md).[type](../interfaces/IServiceOfferingsElement.md#type)
+[`IServiceOfferingsElement`](../interfaces/IServiceOfferingsElement.md).[`type`](../interfaces/IServiceOfferingsElement.md#type)
 
-#### Defined in
+#### Source
 
 main.ts:209405
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:209424
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:209443
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ServiceOfferingsElement`](ServiceOfferingsElement.md)
+> **`static`** **fromJS**(`data`): [`ServiceOfferingsElement`](ServiceOfferingsElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ServiceOfferingsElement`](ServiceOfferingsElement.md)
 
-#### Defined in
+#### Source
 
 main.ts:209436

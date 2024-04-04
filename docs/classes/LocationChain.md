@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / LocationChain
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / LocationChain
 
 # Class: LocationChain
 
@@ -8,169 +12,142 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](LocationChain.md#constructor)
-
-### Properties
-
-- [card\_id](LocationChain.md#card_id)
-- [cid](LocationChain.md#cid)
-- [feature\_id](LocationChain.md#feature_id)
-- [title](LocationChain.md#title)
-
-### Methods
-
-- [init](LocationChain.md#init)
-- [toJSON](LocationChain.md#tojson)
-- [fromJS](LocationChain.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new LocationChain(data)
 
-• **new LocationChain**(`data?`): [`LocationChain`](LocationChain.md)
+> **new LocationChain**(`data`?): [`LocationChain`](LocationChain.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ILocationChain`](../interfaces/ILocationChain.md) |
+• **data?**: [`ILocationChain`](../interfaces/ILocationChain.md)
 
 #### Returns
 
 [`LocationChain`](LocationChain.md)
 
-#### Defined in
+#### Source
 
 main.ts:201030
 
 ## Properties
 
-### card\_id
+### card\_id?
 
-• `Optional` **card\_id**: `string`
+> **`optional`** **card\_id**: `string`
 
 card identifier
 
 #### Implementation of
 
-[ILocationChain](../interfaces/ILocationChain.md).[card_id](../interfaces/ILocationChain.md#card_id)
+[`ILocationChain`](../interfaces/ILocationChain.md).[`card_id`](../interfaces/ILocationChain.md#card_id)
 
-#### Defined in
+#### Source
 
 main.ts:201018
 
-___
+***
 
-### cid
+### cid?
 
-• `Optional` **cid**: `string`
+> **`optional`** **cid**: `string`
 
 client id
 learn more about the identifier in this help center article
 
 #### Implementation of
 
-[ILocationChain](../interfaces/ILocationChain.md).[cid](../interfaces/ILocationChain.md#cid)
+[`ILocationChain`](../interfaces/ILocationChain.md).[`cid`](../interfaces/ILocationChain.md#cid)
 
-#### Defined in
+#### Source
 
 main.ts:201024
 
-___
+***
 
-### feature\_id
+### feature\_id?
 
-• `Optional` **feature\_id**: `string`
+> **`optional`** **feature\_id**: `string`
 
 feature identifier
 learn more about the identifier in this help center article
 
 #### Implementation of
 
-[ILocationChain](../interfaces/ILocationChain.md).[feature_id](../interfaces/ILocationChain.md#feature_id)
+[`ILocationChain`](../interfaces/ILocationChain.md).[`feature_id`](../interfaces/ILocationChain.md#feature_id)
 
-#### Defined in
+#### Source
 
 main.ts:201021
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the element in the location chain
 
 #### Implementation of
 
-[ILocationChain](../interfaces/ILocationChain.md).[title](../interfaces/ILocationChain.md#title)
+[`ILocationChain`](../interfaces/ILocationChain.md).[`title`](../interfaces/ILocationChain.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:201026
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:201039
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:201059
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`LocationChain`](LocationChain.md)
+> **`static`** **fromJS**(`data`): [`LocationChain`](LocationChain.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`LocationChain`](LocationChain.md)
 
-#### Defined in
+#### Source
 
 main.ts:201052

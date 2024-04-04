@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / TwitterDataforseoLabsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / TwitterDataforseoLabsSerpElementItem
 
 # Class: TwitterDataforseoLabsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
-
-  ↳ **`TwitterDataforseoLabsSerpElementItem`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](TwitterDataforseoLabsSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](TwitterDataforseoLabsSerpElementItem.md#_discriminator)
-- [items](TwitterDataforseoLabsSerpElementItem.md#items)
-- [position](TwitterDataforseoLabsSerpElementItem.md#position)
-- [rank\_absolute](TwitterDataforseoLabsSerpElementItem.md#rank_absolute)
-- [rank\_group](TwitterDataforseoLabsSerpElementItem.md#rank_group)
-- [se\_type](TwitterDataforseoLabsSerpElementItem.md#se_type)
-- [title](TwitterDataforseoLabsSerpElementItem.md#title)
-- [url](TwitterDataforseoLabsSerpElementItem.md#url)
-- [xpath](TwitterDataforseoLabsSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](TwitterDataforseoLabsSerpElementItem.md#init)
-- [toJSON](TwitterDataforseoLabsSerpElementItem.md#tojson)
-- [fromJS](TwitterDataforseoLabsSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new TwitterDataforseoLabsSerpElementItem(data)
 
-• **new TwitterDataforseoLabsSerpElementItem**(`data?`): [`TwitterDataforseoLabsSerpElementItem`](TwitterDataforseoLabsSerpElementItem.md)
+> **new TwitterDataforseoLabsSerpElementItem**(`data`?): [`TwitterDataforseoLabsSerpElementItem`](TwitterDataforseoLabsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ITwitterDataforseoLabsSerpElementItem`](../interfaces/ITwitterDataforseoLabsSerpElementItem.md) |
+• **data?**: [`ITwitterDataforseoLabsSerpElementItem`](../interfaces/ITwitterDataforseoLabsSerpElementItem.md)
 
 #### Returns
 
@@ -58,47 +34,47 @@
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[constructor](BaseDataforseoLabsSerpElementItem.md#constructor)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:93619
+main.ts:93627
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[_discriminator](BaseDataforseoLabsSerpElementItem.md#_discriminator)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`_discriminator`](BaseDataforseoLabsSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:20171
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`TwitterElement`](TwitterElement.md)[]
+> **`optional`** **items**: [`TwitterElement`](TwitterElement.md)[]
 
 elements of search results found in SERP
 
 #### Implementation of
 
-[ITwitterDataforseoLabsSerpElementItem](../interfaces/ITwitterDataforseoLabsSerpElementItem.md).[items](../interfaces/ITwitterDataforseoLabsSerpElementItem.md#items)
+[`ITwitterDataforseoLabsSerpElementItem`](../interfaces/ITwitterDataforseoLabsSerpElementItem.md).[`items`](../interfaces/ITwitterDataforseoLabsSerpElementItem.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:93615
+main.ts:93623
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -106,121 +82,119 @@ left, right
 
 #### Implementation of
 
-[ITwitterDataforseoLabsSerpElementItem](../interfaces/ITwitterDataforseoLabsSerpElementItem.md).[position](../interfaces/ITwitterDataforseoLabsSerpElementItem.md#position)
+[`ITwitterDataforseoLabsSerpElementItem`](../interfaces/ITwitterDataforseoLabsSerpElementItem.md).[`position`](../interfaces/ITwitterDataforseoLabsSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
-main.ts:93607
+main.ts:93615
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
 #### Implementation of
 
-[ITwitterDataforseoLabsSerpElementItem](../interfaces/ITwitterDataforseoLabsSerpElementItem.md).[rank_absolute](../interfaces/ITwitterDataforseoLabsSerpElementItem.md#rank_absolute)
+[`ITwitterDataforseoLabsSerpElementItem`](../interfaces/ITwitterDataforseoLabsSerpElementItem.md).[`rank_absolute`](../interfaces/ITwitterDataforseoLabsSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:93603
+main.ts:93611
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
-[ITwitterDataforseoLabsSerpElementItem](../interfaces/ITwitterDataforseoLabsSerpElementItem.md).[rank_group](../interfaces/ITwitterDataforseoLabsSerpElementItem.md#rank_group)
+[`ITwitterDataforseoLabsSerpElementItem`](../interfaces/ITwitterDataforseoLabsSerpElementItem.md).[`rank_group`](../interfaces/ITwitterDataforseoLabsSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
-main.ts:93600
+main.ts:93608
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[ITwitterDataforseoLabsSerpElementItem](../interfaces/ITwitterDataforseoLabsSerpElementItem.md).[se_type](../interfaces/ITwitterDataforseoLabsSerpElementItem.md#se_type)
+[`ITwitterDataforseoLabsSerpElementItem`](../interfaces/ITwitterDataforseoLabsSerpElementItem.md).[`se_type`](../interfaces/ITwitterDataforseoLabsSerpElementItem.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:93597
+main.ts:93605
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the result in SERP
 
 #### Implementation of
 
-[ITwitterDataforseoLabsSerpElementItem](../interfaces/ITwitterDataforseoLabsSerpElementItem.md).[title](../interfaces/ITwitterDataforseoLabsSerpElementItem.md#title)
+[`ITwitterDataforseoLabsSerpElementItem`](../interfaces/ITwitterDataforseoLabsSerpElementItem.md).[`title`](../interfaces/ITwitterDataforseoLabsSerpElementItem.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:93611
+main.ts:93619
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 relevant URL of the Ad element in SERP
 
 #### Implementation of
 
-[ITwitterDataforseoLabsSerpElementItem](../interfaces/ITwitterDataforseoLabsSerpElementItem.md).[url](../interfaces/ITwitterDataforseoLabsSerpElementItem.md#url)
+[`ITwitterDataforseoLabsSerpElementItem`](../interfaces/ITwitterDataforseoLabsSerpElementItem.md).[`url`](../interfaces/ITwitterDataforseoLabsSerpElementItem.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:93613
+main.ts:93621
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[ITwitterDataforseoLabsSerpElementItem](../interfaces/ITwitterDataforseoLabsSerpElementItem.md).[xpath](../interfaces/ITwitterDataforseoLabsSerpElementItem.md#xpath)
+[`ITwitterDataforseoLabsSerpElementItem`](../interfaces/ITwitterDataforseoLabsSerpElementItem.md).[`xpath`](../interfaces/ITwitterDataforseoLabsSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
-main.ts:93609
+main.ts:93617
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -228,23 +202,21 @@ main.ts:93609
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[init](BaseDataforseoLabsSerpElementItem.md#init)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`init`](BaseDataforseoLabsSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:93624
+main.ts:93632
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -252,23 +224,21 @@ ___
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[toJSON](BaseDataforseoLabsSerpElementItem.md#tojson)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`toJSON`](BaseDataforseoLabsSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:93653
+main.ts:93661
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`TwitterDataforseoLabsSerpElementItem`](TwitterDataforseoLabsSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`TwitterDataforseoLabsSerpElementItem`](TwitterDataforseoLabsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -276,8 +246,8 @@ ___
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[fromJS](BaseDataforseoLabsSerpElementItem.md#fromjs)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`fromJS`](BaseDataforseoLabsSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:93646
+main.ts:93654

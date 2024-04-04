@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageContentParsingLiveResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPageContentParsingLiveResponseInfo
 
 # Class: OnPageContentParsingLiveResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`OnPageContentParsingLiveResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPageContentParsingLiveResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](OnPageContentParsingLiveResponseInfo.md#cost)
-- [status\_code](OnPageContentParsingLiveResponseInfo.md#status_code)
-- [status\_message](OnPageContentParsingLiveResponseInfo.md#status_message)
-- [tasks](OnPageContentParsingLiveResponseInfo.md#tasks)
-- [tasks\_count](OnPageContentParsingLiveResponseInfo.md#tasks_count)
-- [tasks\_error](OnPageContentParsingLiveResponseInfo.md#tasks_error)
-- [time](OnPageContentParsingLiveResponseInfo.md#time)
-- [version](OnPageContentParsingLiveResponseInfo.md#version)
-
-### Methods
-
-- [init](OnPageContentParsingLiveResponseInfo.md#init)
-- [toJSON](OnPageContentParsingLiveResponseInfo.md#tojson)
-- [fromJS](OnPageContentParsingLiveResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPageContentParsingLiveResponseInfo(data)
 
-• **new OnPageContentParsingLiveResponseInfo**(`data?`): [`OnPageContentParsingLiveResponseInfo`](OnPageContentParsingLiveResponseInfo.md)
+> **new OnPageContentParsingLiveResponseInfo**(`data`?): [`OnPageContentParsingLiveResponseInfo`](OnPageContentParsingLiveResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPageContentParsingLiveResponseInfo`](../interfaces/IOnPageContentParsingLiveResponseInfo.md) |
+• **data?**: [`IOnPageContentParsingLiveResponseInfo`](../interfaces/IOnPageContentParsingLiveResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:158363
+main.ts:158371
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IOnPageContentParsingLiveResponseInfo](../interfaces/IOnPageContentParsingLiveResponseInfo.md).[cost](../interfaces/IOnPageContentParsingLiveResponseInfo.md#cost)
+[`IOnPageContentParsingLiveResponseInfo`](../interfaces/IOnPageContentParsingLiveResponseInfo.md).[`cost`](../interfaces/IOnPageContentParsingLiveResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[IOnPageContentParsingLiveResponseInfo](../interfaces/IOnPageContentParsingLiveResponseInfo.md).[status_code](../interfaces/IOnPageContentParsingLiveResponseInfo.md#status_code)
+[`IOnPageContentParsingLiveResponseInfo`](../interfaces/IOnPageContentParsingLiveResponseInfo.md).[`status_code`](../interfaces/IOnPageContentParsingLiveResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IOnPageContentParsingLiveResponseInfo](../interfaces/IOnPageContentParsingLiveResponseInfo.md).[status_message](../interfaces/IOnPageContentParsingLiveResponseInfo.md#status_message)
+[`IOnPageContentParsingLiveResponseInfo`](../interfaces/IOnPageContentParsingLiveResponseInfo.md).[`status_message`](../interfaces/IOnPageContentParsingLiveResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`OnPageContentParsingLiveTaskInfo`](OnPageContentParsingLiveTaskInfo.md)[]
+> **`optional`** **tasks**: [`OnPageContentParsingLiveTaskInfo`](OnPageContentParsingLiveTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[IOnPageContentParsingLiveResponseInfo](../interfaces/IOnPageContentParsingLiveResponseInfo.md).[tasks](../interfaces/IOnPageContentParsingLiveResponseInfo.md#tasks)
+[`IOnPageContentParsingLiveResponseInfo`](../interfaces/IOnPageContentParsingLiveResponseInfo.md).[`tasks`](../interfaces/IOnPageContentParsingLiveResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:158359
+main.ts:158367
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[IOnPageContentParsingLiveResponseInfo](../interfaces/IOnPageContentParsingLiveResponseInfo.md).[tasks_count](../interfaces/IOnPageContentParsingLiveResponseInfo.md#tasks_count)
+[`IOnPageContentParsingLiveResponseInfo`](../interfaces/IOnPageContentParsingLiveResponseInfo.md).[`tasks_count`](../interfaces/IOnPageContentParsingLiveResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[IOnPageContentParsingLiveResponseInfo](../interfaces/IOnPageContentParsingLiveResponseInfo.md).[tasks_error](../interfaces/IOnPageContentParsingLiveResponseInfo.md#tasks_error)
+[`IOnPageContentParsingLiveResponseInfo`](../interfaces/IOnPageContentParsingLiveResponseInfo.md).[`tasks_error`](../interfaces/IOnPageContentParsingLiveResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[IOnPageContentParsingLiveResponseInfo](../interfaces/IOnPageContentParsingLiveResponseInfo.md).[time](../interfaces/IOnPageContentParsingLiveResponseInfo.md#time)
+[`IOnPageContentParsingLiveResponseInfo`](../interfaces/IOnPageContentParsingLiveResponseInfo.md).[`time`](../interfaces/IOnPageContentParsingLiveResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[IOnPageContentParsingLiveResponseInfo](../interfaces/IOnPageContentParsingLiveResponseInfo.md).[version](../interfaces/IOnPageContentParsingLiveResponseInfo.md#version)
+[`IOnPageContentParsingLiveResponseInfo`](../interfaces/IOnPageContentParsingLiveResponseInfo.md).[`version`](../interfaces/IOnPageContentParsingLiveResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:158367
+main.ts:158375
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:158389
+main.ts:158397
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPageContentParsingLiveResponseInfo`](OnPageContentParsingLiveResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`OnPageContentParsingLiveResponseInfo`](OnPageContentParsingLiveResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:158382
+main.ts:158390

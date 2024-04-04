@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataYelpLanguagesResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataYelpLanguagesResponseInfo
 
 # Class: BusinessDataYelpLanguagesResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`BusinessDataYelpLanguagesResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataYelpLanguagesResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](BusinessDataYelpLanguagesResponseInfo.md#cost)
-- [status\_code](BusinessDataYelpLanguagesResponseInfo.md#status_code)
-- [status\_message](BusinessDataYelpLanguagesResponseInfo.md#status_message)
-- [tasks](BusinessDataYelpLanguagesResponseInfo.md#tasks)
-- [tasks\_count](BusinessDataYelpLanguagesResponseInfo.md#tasks_count)
-- [tasks\_error](BusinessDataYelpLanguagesResponseInfo.md#tasks_error)
-- [time](BusinessDataYelpLanguagesResponseInfo.md#time)
-- [version](BusinessDataYelpLanguagesResponseInfo.md#version)
-
-### Methods
-
-- [init](BusinessDataYelpLanguagesResponseInfo.md#init)
-- [toJSON](BusinessDataYelpLanguagesResponseInfo.md#tojson)
-- [fromJS](BusinessDataYelpLanguagesResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataYelpLanguagesResponseInfo(data)
 
-• **new BusinessDataYelpLanguagesResponseInfo**(`data?`): [`BusinessDataYelpLanguagesResponseInfo`](BusinessDataYelpLanguagesResponseInfo.md)
+> **new BusinessDataYelpLanguagesResponseInfo**(`data`?): [`BusinessDataYelpLanguagesResponseInfo`](BusinessDataYelpLanguagesResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataYelpLanguagesResponseInfo`](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md) |
+• **data?**: [`IBusinessDataYelpLanguagesResponseInfo`](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:208746
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IBusinessDataYelpLanguagesResponseInfo](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md).[cost](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md#cost)
+[`IBusinessDataYelpLanguagesResponseInfo`](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md).[`cost`](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[IBusinessDataYelpLanguagesResponseInfo](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md).[status_code](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md#status_code)
+[`IBusinessDataYelpLanguagesResponseInfo`](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md).[`status_code`](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IBusinessDataYelpLanguagesResponseInfo](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md).[status_message](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md#status_message)
+[`IBusinessDataYelpLanguagesResponseInfo`](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md).[`status_message`](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`BusinessDataYelpLanguagesTaskInfo`](BusinessDataYelpLanguagesTaskInfo.md)[]
+> **`optional`** **tasks**: [`BusinessDataYelpLanguagesTaskInfo`](BusinessDataYelpLanguagesTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[IBusinessDataYelpLanguagesResponseInfo](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md).[tasks](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md#tasks)
+[`IBusinessDataYelpLanguagesResponseInfo`](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md).[`tasks`](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
 main.ts:208742
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[IBusinessDataYelpLanguagesResponseInfo](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md).[tasks_count](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md#tasks_count)
+[`IBusinessDataYelpLanguagesResponseInfo`](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md).[`tasks_count`](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[IBusinessDataYelpLanguagesResponseInfo](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md).[tasks_error](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md#tasks_error)
+[`IBusinessDataYelpLanguagesResponseInfo`](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md).[`tasks_error`](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[IBusinessDataYelpLanguagesResponseInfo](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md).[time](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md#time)
+[`IBusinessDataYelpLanguagesResponseInfo`](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md).[`time`](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[IBusinessDataYelpLanguagesResponseInfo](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md).[version](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md#version)
+[`IBusinessDataYelpLanguagesResponseInfo`](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md).[`version`](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:208750
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:208772
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataYelpLanguagesResponseInfo`](BusinessDataYelpLanguagesResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataYelpLanguagesResponseInfo`](BusinessDataYelpLanguagesResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:208765

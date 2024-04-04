@@ -1,27 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksBulkReferringDomainsLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBacklinksBulkReferringDomainsLiveRequestInfo
 
 # Interface: IBacklinksBulkReferringDomainsLiveRequestInfo
 
-## Implemented by
-
-- [`BacklinksBulkReferringDomainsLiveRequestInfo`](../classes/BacklinksBulkReferringDomainsLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [tag](IBacklinksBulkReferringDomainsLiveRequestInfo.md#tag)
-- [targets](IBacklinksBulkReferringDomainsLiveRequestInfo.md#targets)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -29,15 +22,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:145845
+main.ts:145853
 
-___
+***
 
-### targets
+### targets?
 
-• `Optional` **targets**: `string`[]
+> **`optional`** **targets**: `string`[]
 
 domains, subdomains or webpages to get the number of referring domains for
 required field
@@ -58,6 +51,6 @@ example:
   "www.trustpilot.com"
 ]
 
-#### Defined in
+#### Source
 
-main.ts:145839
+main.ts:145847

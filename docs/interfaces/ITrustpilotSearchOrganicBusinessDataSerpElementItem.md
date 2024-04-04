@@ -1,115 +1,101 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ITrustpilotSearchOrganicBusinessDataSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ITrustpilotSearchOrganicBusinessDataSerpElementItem
 
 # Interface: ITrustpilotSearchOrganicBusinessDataSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md)
 
-  ↳ **`ITrustpilotSearchOrganicBusinessDataSerpElementItem`**
-
-## Implemented by
-
-- [`TrustpilotSearchOrganicBusinessDataSerpElementItem`](../classes/TrustpilotSearchOrganicBusinessDataSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [domain](ITrustpilotSearchOrganicBusinessDataSerpElementItem.md#domain)
-- [rank\_absolute](ITrustpilotSearchOrganicBusinessDataSerpElementItem.md#rank_absolute)
-- [rank\_group](ITrustpilotSearchOrganicBusinessDataSerpElementItem.md#rank_group)
-- [rating](ITrustpilotSearchOrganicBusinessDataSerpElementItem.md#rating)
-- [reviews\_count](ITrustpilotSearchOrganicBusinessDataSerpElementItem.md#reviews_count)
-- [title](ITrustpilotSearchOrganicBusinessDataSerpElementItem.md#title)
-- [url](ITrustpilotSearchOrganicBusinessDataSerpElementItem.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain of the establishment
 
-#### Defined in
+#### Source
 
 main.ts:204648
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank among all the listed reviews
 absolute position among all reviews on the list
 
-#### Defined in
+#### Source
 
 main.ts:204644
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
 main.ts:204641
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
 the rating score of the establishment submitted by reviewers
 
-#### Defined in
+#### Source
 
 main.ts:204654
 
-___
+***
 
-### reviews\_count
+### reviews\_count?
 
-• `Optional` **reviews\_count**: `number`
+> **`optional`** **reviews\_count**: `number`
 
 the total number of reviews
 
-#### Defined in
+#### Source
 
 main.ts:204652
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the establishment
 
-#### Defined in
+#### Source
 
 main.ts:204646
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL to the establishment
 
-#### Defined in
+#### Source
 
 main.ts:204650

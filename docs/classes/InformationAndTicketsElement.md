@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / InformationAndTicketsElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / InformationAndTicketsElement
 
 # Class: InformationAndTicketsElement
 
@@ -8,184 +12,156 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](InformationAndTicketsElement.md#constructor)
-
-### Properties
-
-- [description](InformationAndTicketsElement.md#description)
-- [domain](InformationAndTicketsElement.md#domain)
-- [title](InformationAndTicketsElement.md#title)
-- [type](InformationAndTicketsElement.md#type)
-- [url](InformationAndTicketsElement.md#url)
-
-### Methods
-
-- [init](InformationAndTicketsElement.md#init)
-- [toJSON](InformationAndTicketsElement.md#tojson)
-- [fromJS](InformationAndTicketsElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new InformationAndTicketsElement(data)
 
-• **new InformationAndTicketsElement**(`data?`): [`InformationAndTicketsElement`](InformationAndTicketsElement.md)
+> **new InformationAndTicketsElement**(`data`?): [`InformationAndTicketsElement`](InformationAndTicketsElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IInformationAndTicketsElement`](../interfaces/IInformationAndTicketsElement.md) |
+• **data?**: [`IInformationAndTicketsElement`](../interfaces/IInformationAndTicketsElement.md)
 
 #### Returns
 
 [`InformationAndTicketsElement`](InformationAndTicketsElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:45357
+main.ts:45365
 
 ## Properties
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description of the element
 
 #### Implementation of
 
-[IInformationAndTicketsElement](../interfaces/IInformationAndTicketsElement.md).[description](../interfaces/IInformationAndTicketsElement.md#description)
+[`IInformationAndTicketsElement`](../interfaces/IInformationAndTicketsElement.md).[`description`](../interfaces/IInformationAndTicketsElement.md#description)
 
-#### Defined in
+#### Source
 
-main.ts:45349
+main.ts:45357
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain in SERP
 
 #### Implementation of
 
-[IInformationAndTicketsElement](../interfaces/IInformationAndTicketsElement.md).[domain](../interfaces/IInformationAndTicketsElement.md#domain)
+[`IInformationAndTicketsElement`](../interfaces/IInformationAndTicketsElement.md).[`domain`](../interfaces/IInformationAndTicketsElement.md#domain)
 
-#### Defined in
+#### Source
 
-main.ts:45353
+main.ts:45361
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the element
 
 #### Implementation of
 
-[IInformationAndTicketsElement](../interfaces/IInformationAndTicketsElement.md).[title](../interfaces/IInformationAndTicketsElement.md#title)
+[`IInformationAndTicketsElement`](../interfaces/IInformationAndTicketsElement.md).[`title`](../interfaces/IInformationAndTicketsElement.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:45347
+main.ts:45355
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IInformationAndTicketsElement](../interfaces/IInformationAndTicketsElement.md).[type](../interfaces/IInformationAndTicketsElement.md#type)
+[`IInformationAndTicketsElement`](../interfaces/IInformationAndTicketsElement.md).[`type`](../interfaces/IInformationAndTicketsElement.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:45345
+main.ts:45353
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 relevant URL
 
 #### Implementation of
 
-[IInformationAndTicketsElement](../interfaces/IInformationAndTicketsElement.md).[url](../interfaces/IInformationAndTicketsElement.md#url)
+[`IInformationAndTicketsElement`](../interfaces/IInformationAndTicketsElement.md).[`url`](../interfaces/IInformationAndTicketsElement.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:45351
+main.ts:45359
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:45366
+main.ts:45374
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:45387
+main.ts:45395
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`InformationAndTicketsElement`](InformationAndTicketsElement.md)
+> **`static`** **fromJS**(`data`): [`InformationAndTicketsElement`](InformationAndTicketsElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`InformationAndTicketsElement`](InformationAndTicketsElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:45380
+main.ts:45388

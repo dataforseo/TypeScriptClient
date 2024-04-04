@@ -1,202 +1,182 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IStocksBoxSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IStocksBoxSerpElementItem
 
 # Interface: IStocksBoxSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
 
-  ↳ **`IStocksBoxSerpElementItem`**
-
-## Implemented by
-
-- [`StocksBoxSerpElementItem`](../classes/StocksBoxSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [domain](IStocksBoxSerpElementItem.md#domain)
-- [graph](IStocksBoxSerpElementItem.md#graph)
-- [position](IStocksBoxSerpElementItem.md#position)
-- [price](IStocksBoxSerpElementItem.md#price)
-- [rank\_absolute](IStocksBoxSerpElementItem.md#rank_absolute)
-- [rank\_group](IStocksBoxSerpElementItem.md#rank_group)
-- [rectangle](IStocksBoxSerpElementItem.md#rectangle)
-- [snippet](IStocksBoxSerpElementItem.md#snippet)
-- [source](IStocksBoxSerpElementItem.md#source)
-- [table](IStocksBoxSerpElementItem.md#table)
-- [title](IStocksBoxSerpElementItem.md#title)
-- [url](IStocksBoxSerpElementItem.md#url)
-- [xpath](IStocksBoxSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 source domain
 
-#### Defined in
+#### Source
 
-main.ts:33487
+main.ts:33493
 
-___
+***
 
-### graph
+### graph?
 
-• `Optional` **graph**: [`Graph`](../classes/Graph.md)
+> **`optional`** **graph**: [`Graph`](../classes/Graph.md)
 
 contains data provided in the graph of the element
 
-#### Defined in
+#### Source
 
-main.ts:33496
+main.ts:33502
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
-main.ts:33472
+main.ts:33478
 
-___
+***
 
-### price
+### price?
 
-• `Optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
+> **`optional`** **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
 price indicated in the element
 
-#### Defined in
+#### Source
 
-main.ts:33483
+main.ts:33489
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop
 
-#### Defined in
+#### Source
 
-main.ts:33468
+main.ts:33474
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
 positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop
 
-#### Defined in
+#### Source
 
-main.ts:33464
+main.ts:33470
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
 equals null if calculate_rectangles in the POST request is not set to true
 
-#### Defined in
+#### Source
 
-main.ts:33491
+main.ts:33497
 
-___
+***
 
-### snippet
+### snippet?
 
-• `Optional` **snippet**: `string`
+> **`optional`** **snippet**: `string`
 
 text alongside the link title
 
-#### Defined in
+#### Source
 
-main.ts:33481
+main.ts:33487
 
-___
+***
 
-### source
+### source?
 
-• `Optional` **source**: `string`
+> **`optional`** **source**: `string`
 
 source of the element
 indicates the source of the video
 
-#### Defined in
+#### Source
 
-main.ts:33479
+main.ts:33485
 
-___
+***
 
-### table
+### table?
 
-• `Optional` **table**: [`Table`](../classes/Table.md)
+> **`optional`** **table**: [`Table`](../classes/Table.md)
 
 results table
 if there are none, equals null
 
-#### Defined in
+#### Source
 
-main.ts:33494
+main.ts:33500
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the row
 
-#### Defined in
+#### Source
 
-main.ts:33476
+main.ts:33482
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 source URL
 
-#### Defined in
+#### Source
 
-main.ts:33485
+main.ts:33491
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
-main.ts:33474
+main.ts:33480

@@ -1,117 +1,103 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IScholarlyArticlesDataforseoLabsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IScholarlyArticlesDataforseoLabsSerpElementItem
 
 # Interface: IScholarlyArticlesDataforseoLabsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md)
 
-  ↳ **`IScholarlyArticlesDataforseoLabsSerpElementItem`**
-
-## Implemented by
-
-- [`ScholarlyArticlesDataforseoLabsSerpElementItem`](../classes/ScholarlyArticlesDataforseoLabsSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IScholarlyArticlesDataforseoLabsSerpElementItem.md#items)
-- [position](IScholarlyArticlesDataforseoLabsSerpElementItem.md#position)
-- [rank\_absolute](IScholarlyArticlesDataforseoLabsSerpElementItem.md#rank_absolute)
-- [rank\_group](IScholarlyArticlesDataforseoLabsSerpElementItem.md#rank_group)
-- [title](IScholarlyArticlesDataforseoLabsSerpElementItem.md#title)
-- [url](IScholarlyArticlesDataforseoLabsSerpElementItem.md#url)
-- [xpath](IScholarlyArticlesDataforseoLabsSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`ScholarlyArticlesElement`](../classes/ScholarlyArticlesElement.md)[]
+> **`optional`** **items**: [`ScholarlyArticlesElement`](../classes/ScholarlyArticlesElement.md)[]
 
 elements of search results found in SERP
 
-#### Defined in
+#### Source
 
-main.ts:97709
+main.ts:97717
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
-main.ts:97701
+main.ts:97709
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Defined in
+#### Source
 
-main.ts:97697
+main.ts:97705
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
-main.ts:97694
+main.ts:97702
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the result in SERP
 
-#### Defined in
+#### Source
 
-main.ts:97705
+main.ts:97713
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 relevant URL of the Ad element in SERP
 
-#### Defined in
+#### Source
 
-main.ts:97707
+main.ts:97715
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
-main.ts:97703
+main.ts:97711

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ConceptGroupInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ConceptGroupInfo
 
 # Class: ConceptGroupInfo
 
@@ -8,133 +12,108 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ConceptGroupInfo.md#constructor)
-
-### Properties
-
-- [name](ConceptGroupInfo.md#name)
-- [type](ConceptGroupInfo.md#type)
-
-### Methods
-
-- [init](ConceptGroupInfo.md#init)
-- [toJSON](ConceptGroupInfo.md#tojson)
-- [fromJS](ConceptGroupInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ConceptGroupInfo(data)
 
-• **new ConceptGroupInfo**(`data?`): [`ConceptGroupInfo`](ConceptGroupInfo.md)
+> **new ConceptGroupInfo**(`data`?): [`ConceptGroupInfo`](ConceptGroupInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IConceptGroupInfo`](../interfaces/IConceptGroupInfo.md) |
+• **data?**: [`IConceptGroupInfo`](../interfaces/IConceptGroupInfo.md)
 
 #### Returns
 
 [`ConceptGroupInfo`](ConceptGroupInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:117281
+main.ts:117289
 
 ## Properties
 
-### name
+### name?
 
-• `Optional` **name**: `string`
+> **`optional`** **name**: `string`
 
 the concept group name
 
 #### Implementation of
 
-[IConceptGroupInfo](../interfaces/IConceptGroupInfo.md).[name](../interfaces/IConceptGroupInfo.md#name)
+[`IConceptGroupInfo`](../interfaces/IConceptGroupInfo.md).[`name`](../interfaces/IConceptGroupInfo.md#name)
 
-#### Defined in
+#### Source
 
-main.ts:117275
+main.ts:117283
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IConceptGroupInfo](../interfaces/IConceptGroupInfo.md).[type](../interfaces/IConceptGroupInfo.md#type)
+[`IConceptGroupInfo`](../interfaces/IConceptGroupInfo.md).[`type`](../interfaces/IConceptGroupInfo.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:117277
+main.ts:117285
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:117290
+main.ts:117298
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:117308
+main.ts:117316
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ConceptGroupInfo`](ConceptGroupInfo.md)
+> **`static`** **fromJS**(`data`): [`ConceptGroupInfo`](ConceptGroupInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ConceptGroupInfo`](ConceptGroupInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:117301
+main.ts:117309

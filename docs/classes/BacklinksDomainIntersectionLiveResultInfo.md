@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksDomainIntersectionLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BacklinksDomainIntersectionLiveResultInfo
 
 # Class: BacklinksDomainIntersectionLiveResultInfo
 
@@ -8,171 +12,144 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BacklinksDomainIntersectionLiveResultInfo.md#constructor)
-
-### Properties
-
-- [items](BacklinksDomainIntersectionLiveResultInfo.md#items)
-- [items\_count](BacklinksDomainIntersectionLiveResultInfo.md#items_count)
-- [targets](BacklinksDomainIntersectionLiveResultInfo.md#targets)
-- [total\_count](BacklinksDomainIntersectionLiveResultInfo.md#total_count)
-
-### Methods
-
-- [init](BacklinksDomainIntersectionLiveResultInfo.md#init)
-- [toJSON](BacklinksDomainIntersectionLiveResultInfo.md#tojson)
-- [fromJS](BacklinksDomainIntersectionLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BacklinksDomainIntersectionLiveResultInfo(data)
 
-• **new BacklinksDomainIntersectionLiveResultInfo**(`data?`): [`BacklinksDomainIntersectionLiveResultInfo`](BacklinksDomainIntersectionLiveResultInfo.md)
+> **new BacklinksDomainIntersectionLiveResultInfo**(`data`?): [`BacklinksDomainIntersectionLiveResultInfo`](BacklinksDomainIntersectionLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBacklinksDomainIntersectionLiveResultInfo`](../interfaces/IBacklinksDomainIntersectionLiveResultInfo.md) |
+• **data?**: [`IBacklinksDomainIntersectionLiveResultInfo`](../interfaces/IBacklinksDomainIntersectionLiveResultInfo.md)
 
 #### Returns
 
 [`BacklinksDomainIntersectionLiveResultInfo`](BacklinksDomainIntersectionLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:142568
+main.ts:142576
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`BacklinksDomainIntersectionLiveItem`](BacklinksDomainIntersectionLiveItem.md)[]
+> **`optional`** **items**: [`BacklinksDomainIntersectionLiveItem`](BacklinksDomainIntersectionLiveItem.md)[]
 
 contains domain that link to all targets from the POST array
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionLiveResultInfo](../interfaces/IBacklinksDomainIntersectionLiveResultInfo.md).[items](../interfaces/IBacklinksDomainIntersectionLiveResultInfo.md#items)
+[`IBacklinksDomainIntersectionLiveResultInfo`](../interfaces/IBacklinksDomainIntersectionLiveResultInfo.md).[`items`](../interfaces/IBacklinksDomainIntersectionLiveResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:142564
+main.ts:142572
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionLiveResultInfo](../interfaces/IBacklinksDomainIntersectionLiveResultInfo.md).[items_count](../interfaces/IBacklinksDomainIntersectionLiveResultInfo.md#items_count)
+[`IBacklinksDomainIntersectionLiveResultInfo`](../interfaces/IBacklinksDomainIntersectionLiveResultInfo.md).[`items_count`](../interfaces/IBacklinksDomainIntersectionLiveResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:142562
+main.ts:142570
 
-___
+***
 
-### targets
+### targets?
 
-• `Optional` **targets**: `Object`
+> **`optional`** **targets**: `Object`
 
 target domains, subdomains or webpages in a POST array
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionLiveResultInfo](../interfaces/IBacklinksDomainIntersectionLiveResultInfo.md).[targets](../interfaces/IBacklinksDomainIntersectionLiveResultInfo.md#targets)
+[`IBacklinksDomainIntersectionLiveResultInfo`](../interfaces/IBacklinksDomainIntersectionLiveResultInfo.md).[`targets`](../interfaces/IBacklinksDomainIntersectionLiveResultInfo.md#targets)
 
-#### Defined in
+#### Source
 
-main.ts:142558
+main.ts:142566
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total amount of results relevant to your request
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionLiveResultInfo](../interfaces/IBacklinksDomainIntersectionLiveResultInfo.md).[total_count](../interfaces/IBacklinksDomainIntersectionLiveResultInfo.md#total_count)
+[`IBacklinksDomainIntersectionLiveResultInfo`](../interfaces/IBacklinksDomainIntersectionLiveResultInfo.md).[`total_count`](../interfaces/IBacklinksDomainIntersectionLiveResultInfo.md#total_count)
 
-#### Defined in
+#### Source
 
-main.ts:142560
+main.ts:142568
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:142577
+main.ts:142585
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:142607
+main.ts:142615
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BacklinksDomainIntersectionLiveResultInfo`](BacklinksDomainIntersectionLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`BacklinksDomainIntersectionLiveResultInfo`](BacklinksDomainIntersectionLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BacklinksDomainIntersectionLiveResultInfo`](BacklinksDomainIntersectionLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:142600
+main.ts:142608

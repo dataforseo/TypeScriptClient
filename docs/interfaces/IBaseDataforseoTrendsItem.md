@@ -1,21 +1,17 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBaseDataforseoTrendsItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBaseDataforseoTrendsItem
 
 # Interface: IBaseDataforseoTrendsItem
 
-## Hierarchy
+## Extended by
 
-- **`IBaseDataforseoTrendsItem`**
-
-  ↳ [`IDataforseoTrendsGraphElementItem`](IDataforseoTrendsGraphElementItem.md)
-
-  ↳ [`IDataforseoTrendsSubregionInterestsElementItem`](IDataforseoTrendsSubregionInterestsElementItem.md)
-
-  ↳ [`IDataforseoTrendsDemographyElementItem`](IDataforseoTrendsDemographyElementItem.md)
-
-## Implemented by
-
-- [`BaseDataforseoTrendsItem`](../classes/BaseDataforseoTrendsItem.md)
+- [`IDataforseoTrendsGraphElementItem`](IDataforseoTrendsGraphElementItem.md)
+- [`IDataforseoTrendsSubregionInterestsElementItem`](IDataforseoTrendsSubregionInterestsElementItem.md)
+- [`IDataforseoTrendsDemographyElementItem`](IDataforseoTrendsDemographyElementItem.md)
 
 ## Indexable
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`

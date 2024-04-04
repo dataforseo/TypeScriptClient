@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataGoogleReviewsTasksReadyResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataGoogleReviewsTasksReadyResultInfo
 
 # Class: BusinessDataGoogleReviewsTasksReadyResultInfo
 
@@ -8,204 +12,175 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataGoogleReviewsTasksReadyResultInfo.md#constructor)
-
-### Properties
-
-- [date\_posted](BusinessDataGoogleReviewsTasksReadyResultInfo.md#date_posted)
-- [endpoint](BusinessDataGoogleReviewsTasksReadyResultInfo.md#endpoint)
-- [id](BusinessDataGoogleReviewsTasksReadyResultInfo.md#id)
-- [se](BusinessDataGoogleReviewsTasksReadyResultInfo.md#se)
-- [se\_type](BusinessDataGoogleReviewsTasksReadyResultInfo.md#se_type)
-- [tag](BusinessDataGoogleReviewsTasksReadyResultInfo.md#tag)
-
-### Methods
-
-- [init](BusinessDataGoogleReviewsTasksReadyResultInfo.md#init)
-- [toJSON](BusinessDataGoogleReviewsTasksReadyResultInfo.md#tojson)
-- [fromJS](BusinessDataGoogleReviewsTasksReadyResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataGoogleReviewsTasksReadyResultInfo(data)
 
-• **new BusinessDataGoogleReviewsTasksReadyResultInfo**(`data?`): [`BusinessDataGoogleReviewsTasksReadyResultInfo`](BusinessDataGoogleReviewsTasksReadyResultInfo.md)
+> **new BusinessDataGoogleReviewsTasksReadyResultInfo**(`data`?): [`BusinessDataGoogleReviewsTasksReadyResultInfo`](BusinessDataGoogleReviewsTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataGoogleReviewsTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleReviewsTasksReadyResultInfo.md) |
+• **data?**: [`IBusinessDataGoogleReviewsTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleReviewsTasksReadyResultInfo.md)
 
 #### Returns
 
 [`BusinessDataGoogleReviewsTasksReadyResultInfo`](BusinessDataGoogleReviewsTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:203448
 
 ## Properties
 
-### date\_posted
+### date\_posted?
 
-• `Optional` **date\_posted**: `string`
+> **`optional`** **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTasksReadyResultInfo](../interfaces/IBusinessDataGoogleReviewsTasksReadyResultInfo.md).[date_posted](../interfaces/IBusinessDataGoogleReviewsTasksReadyResultInfo.md#date_posted)
+[`IBusinessDataGoogleReviewsTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleReviewsTasksReadyResultInfo.md).[`date_posted`](../interfaces/IBusinessDataGoogleReviewsTasksReadyResultInfo.md#date_posted)
 
-#### Defined in
+#### Source
 
 main.ts:203440
 
-___
+***
 
-### endpoint
+### endpoint?
 
-• `Optional` **endpoint**: `string`
+> **`optional`** **endpoint**: `string`
 
 URL for collecting the results of the task
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTasksReadyResultInfo](../interfaces/IBusinessDataGoogleReviewsTasksReadyResultInfo.md).[endpoint](../interfaces/IBusinessDataGoogleReviewsTasksReadyResultInfo.md#endpoint)
+[`IBusinessDataGoogleReviewsTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleReviewsTasksReadyResultInfo.md).[`endpoint`](../interfaces/IBusinessDataGoogleReviewsTasksReadyResultInfo.md#endpoint)
 
-#### Defined in
+#### Source
 
 main.ts:203444
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTasksReadyResultInfo](../interfaces/IBusinessDataGoogleReviewsTasksReadyResultInfo.md).[id](../interfaces/IBusinessDataGoogleReviewsTasksReadyResultInfo.md#id)
+[`IBusinessDataGoogleReviewsTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleReviewsTasksReadyResultInfo.md).[`id`](../interfaces/IBusinessDataGoogleReviewsTasksReadyResultInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:203432
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 can take the following values: google
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTasksReadyResultInfo](../interfaces/IBusinessDataGoogleReviewsTasksReadyResultInfo.md).[se](../interfaces/IBusinessDataGoogleReviewsTasksReadyResultInfo.md#se)
+[`IBusinessDataGoogleReviewsTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleReviewsTasksReadyResultInfo.md).[`se`](../interfaces/IBusinessDataGoogleReviewsTasksReadyResultInfo.md#se)
 
-#### Defined in
+#### Source
 
 main.ts:203435
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 type of search engine
 can take the following values: reviews
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTasksReadyResultInfo](../interfaces/IBusinessDataGoogleReviewsTasksReadyResultInfo.md).[se_type](../interfaces/IBusinessDataGoogleReviewsTasksReadyResultInfo.md#se_type)
+[`IBusinessDataGoogleReviewsTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleReviewsTasksReadyResultInfo.md).[`se_type`](../interfaces/IBusinessDataGoogleReviewsTasksReadyResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
 main.ts:203438
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTasksReadyResultInfo](../interfaces/IBusinessDataGoogleReviewsTasksReadyResultInfo.md).[tag](../interfaces/IBusinessDataGoogleReviewsTasksReadyResultInfo.md#tag)
+[`IBusinessDataGoogleReviewsTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleReviewsTasksReadyResultInfo.md).[`tag`](../interfaces/IBusinessDataGoogleReviewsTasksReadyResultInfo.md#tag)
 
-#### Defined in
+#### Source
 
 main.ts:203442
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:203457
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:203479
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataGoogleReviewsTasksReadyResultInfo`](BusinessDataGoogleReviewsTasksReadyResultInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataGoogleReviewsTasksReadyResultInfo`](BusinessDataGoogleReviewsTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BusinessDataGoogleReviewsTasksReadyResultInfo`](BusinessDataGoogleReviewsTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:203472

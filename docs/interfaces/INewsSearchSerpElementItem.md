@@ -1,174 +1,156 @@
-[Documentation](../README.md) / [Exports](../modules.md) / INewsSearchSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / INewsSearchSerpElementItem
 
 # Interface: INewsSearchSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
 
-  ↳ **`INewsSearchSerpElementItem`**
-
-## Implemented by
-
-- [`NewsSearchSerpElementItem`](../classes/NewsSearchSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [domain](INewsSearchSerpElementItem.md#domain)
-- [image\_url](INewsSearchSerpElementItem.md#image_url)
-- [rank\_absolute](INewsSearchSerpElementItem.md#rank_absolute)
-- [rank\_group](INewsSearchSerpElementItem.md#rank_group)
-- [rectangle](INewsSearchSerpElementItem.md#rectangle)
-- [snippet](INewsSearchSerpElementItem.md#snippet)
-- [time\_published](INewsSearchSerpElementItem.md#time_published)
-- [timestamp](INewsSearchSerpElementItem.md#timestamp)
-- [title](INewsSearchSerpElementItem.md#title)
-- [url](INewsSearchSerpElementItem.md#url)
-- [xpath](INewsSearchSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain name of the result in SERP
 
-#### Defined in
+#### Source
 
-main.ts:43340
+main.ts:43346
 
-___
+***
 
-### image\_url
+### image\_url?
 
-• `Optional` **image\_url**: `string`
+> **`optional`** **image\_url**: `string`
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
 
-#### Defined in
+#### Source
 
-main.ts:43347
+main.ts:43353
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Defined in
+#### Source
 
-main.ts:43336
+main.ts:43342
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
-main.ts:43333
+main.ts:43339
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
 equals null if calculate_rectangles in the POST request is not set to true
 
-#### Defined in
+#### Source
 
-main.ts:43360
+main.ts:43366
 
-___
+***
 
-### snippet
+### snippet?
 
-• `Optional` **snippet**: `string`
+> **`optional`** **snippet**: `string`
 
 snippet of the result in SERP
 
-#### Defined in
+#### Source
 
-main.ts:43349
+main.ts:43355
 
-___
+***
 
-### time\_published
+### time\_published?
 
-• `Optional` **time\_published**: `string`
+> **`optional`** **time\_published**: `string`
 
 indicates the time the result was published
 
-#### Defined in
+#### Source
 
-main.ts:43351
+main.ts:43357
 
-___
+***
 
-### timestamp
+### timestamp?
 
-• `Optional` **timestamp**: `string`
+> **`optional`** **timestamp**: `string`
 
 date and time when the news was published
 in the format “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
-main.ts:43356
+main.ts:43362
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the result in SERP
 
-#### Defined in
+#### Source
 
-main.ts:43342
+main.ts:43348
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL of the result in SERP
 
-#### Defined in
+#### Source
 
-main.ts:43344
+main.ts:43350
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
-main.ts:43338
+main.ts:43344

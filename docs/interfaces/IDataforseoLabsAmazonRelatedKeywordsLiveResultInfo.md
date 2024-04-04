@@ -1,121 +1,108 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo
 
 # Interface: IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo
 
-## Implemented by
-
-- [`DataforseoLabsAmazonRelatedKeywordsLiveResultInfo`](../classes/DataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#items)
-- [items\_count](IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#items_count)
-- [language\_code](IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#language_code)
-- [location\_code](IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#location_code)
-- [se\_type](IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#se_type)
-- [seed\_keyword](IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#seed_keyword)
-- [seed\_keyword\_data](IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#seed_keyword_data)
-- [total\_count](IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#total_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`DataforseoLabsAmazonRelatedKeywordsLiveItem`](../classes/DataforseoLabsAmazonRelatedKeywordsLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsAmazonRelatedKeywordsLiveItem`](../classes/DataforseoLabsAmazonRelatedKeywordsLiveItem.md)[]
 
 contains objects with keywords and related data
 
-#### Defined in
+#### Source
 
-main.ts:101834
+main.ts:101842
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Defined in
+#### Source
 
-main.ts:101832
+main.ts:101840
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:101828
+main.ts:101836
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:101826
+main.ts:101834
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:101819
+main.ts:101827
 
-___
+***
 
-### seed\_keyword
+### seed\_keyword?
 
-• `Optional` **seed\_keyword**: `string`
+> **`optional`** **seed\_keyword**: `string`
 
 keyword in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:101821
+main.ts:101829
 
-___
+***
 
-### seed\_keyword\_data
+### seed\_keyword\_data?
 
-• `Optional` **seed\_keyword\_data**: [`AmazonKeywordData`](../classes/AmazonKeywordData.md)
+> **`optional`** **seed\_keyword\_data**: [`AmazonKeywordData`](../classes/AmazonKeywordData.md)
 
 keyword data for the seed keyword
 fields in the object are identical to that of keyword_data
 
-#### Defined in
+#### Source
 
-main.ts:101824
+main.ts:101832
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
-#### Defined in
+#### Source
 
-main.ts:101830
+main.ts:101838

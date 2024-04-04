@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / PopularProductsElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / PopularProductsElement
 
 # Class: PopularProductsElement
 
@@ -8,185 +12,173 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](PopularProductsElement.md#constructor)
-
-### Properties
-
-- [description](PopularProductsElement.md#description)
-- [price](PopularProductsElement.md#price)
-- [rating](PopularProductsElement.md#rating)
-- [title](PopularProductsElement.md#title)
-- [type](PopularProductsElement.md#type)
-
-### Methods
-
-- [init](PopularProductsElement.md#init)
-- [toJSON](PopularProductsElement.md#tojson)
-- [fromJS](PopularProductsElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new PopularProductsElement(data)
 
-• **new PopularProductsElement**(`data?`): [`PopularProductsElement`](PopularProductsElement.md)
+> **new PopularProductsElement**(`data`?): [`PopularProductsElement`](PopularProductsElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IPopularProductsElement`](../interfaces/IPopularProductsElement.md) |
+• **data?**: [`IPopularProductsElement`](../interfaces/IPopularProductsElement.md)
 
 #### Returns
 
 [`PopularProductsElement`](PopularProductsElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:32864
+main.ts:32866
 
 ## Properties
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description
 
 #### Implementation of
 
-[IPopularProductsElement](../interfaces/IPopularProductsElement.md).[description](../interfaces/IPopularProductsElement.md#description)
+[`IPopularProductsElement`](../interfaces/IPopularProductsElement.md).[`description`](../interfaces/IPopularProductsElement.md#description)
 
-#### Defined in
+#### Source
 
 main.ts:32855
 
-___
+***
 
-### price
+### price?
 
-• `Optional` **price**: [`PriceInfo`](PriceInfo.md)
+> **`optional`** **price**: [`PriceInfo`](PriceInfo.md)
 
 price indicated in the element
 
 #### Implementation of
 
-[IPopularProductsElement](../interfaces/IPopularProductsElement.md).[price](../interfaces/IPopularProductsElement.md#price)
+[`IPopularProductsElement`](../interfaces/IPopularProductsElement.md).[`price`](../interfaces/IPopularProductsElement.md#price)
 
-#### Defined in
+#### Source
 
-main.ts:32857
+main.ts:32859
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](RatingInfo.md)
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
 
-[IPopularProductsElement](../interfaces/IPopularProductsElement.md).[rating](../interfaces/IPopularProductsElement.md#rating)
+[`IPopularProductsElement`](../interfaces/IPopularProductsElement.md).[`rating`](../interfaces/IPopularProductsElement.md#rating)
 
-#### Defined in
+#### Source
 
-main.ts:32860
+main.ts:32862
 
-___
+***
 
-### title
+### seller?
 
-• `Optional` **title**: `string`
+> **`optional`** **seller**: `string`
+
+seller of the product
+
+#### Implementation of
+
+[`IPopularProductsElement`](../interfaces/IPopularProductsElement.md).[`seller`](../interfaces/IPopularProductsElement.md#seller)
+
+#### Source
+
+main.ts:32857
+
+***
+
+### title?
+
+> **`optional`** **title**: `string`
 
 title of a given link element
 
 #### Implementation of
 
-[IPopularProductsElement](../interfaces/IPopularProductsElement.md).[title](../interfaces/IPopularProductsElement.md#title)
+[`IPopularProductsElement`](../interfaces/IPopularProductsElement.md).[`title`](../interfaces/IPopularProductsElement.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:32853
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IPopularProductsElement](../interfaces/IPopularProductsElement.md).[type](../interfaces/IPopularProductsElement.md#type)
+[`IPopularProductsElement`](../interfaces/IPopularProductsElement.md).[`type`](../interfaces/IPopularProductsElement.md#type)
 
-#### Defined in
+#### Source
 
 main.ts:32851
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:32873
+main.ts:32875
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:32894
+main.ts:32897
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`PopularProductsElement`](PopularProductsElement.md)
+> **`static`** **fromJS**(`data`): [`PopularProductsElement`](PopularProductsElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`PopularProductsElement`](PopularProductsElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:32887
+main.ts:32890

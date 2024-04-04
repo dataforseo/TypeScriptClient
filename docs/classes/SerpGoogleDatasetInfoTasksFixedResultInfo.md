@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleDatasetInfoTasksFixedResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleDatasetInfoTasksFixedResultInfo
 
 # Class: SerpGoogleDatasetInfoTasksFixedResultInfo
 
@@ -8,240 +12,209 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleDatasetInfoTasksFixedResultInfo.md#constructor)
-
-### Properties
-
-- [date\_fixed](SerpGoogleDatasetInfoTasksFixedResultInfo.md#date_fixed)
-- [endpoint\_advanced](SerpGoogleDatasetInfoTasksFixedResultInfo.md#endpoint_advanced)
-- [endpoint\_html](SerpGoogleDatasetInfoTasksFixedResultInfo.md#endpoint_html)
-- [endpoint\_regular](SerpGoogleDatasetInfoTasksFixedResultInfo.md#endpoint_regular)
-- [id](SerpGoogleDatasetInfoTasksFixedResultInfo.md#id)
-- [se](SerpGoogleDatasetInfoTasksFixedResultInfo.md#se)
-- [se\_type](SerpGoogleDatasetInfoTasksFixedResultInfo.md#se_type)
-- [tag](SerpGoogleDatasetInfoTasksFixedResultInfo.md#tag)
-
-### Methods
-
-- [init](SerpGoogleDatasetInfoTasksFixedResultInfo.md#init)
-- [toJSON](SerpGoogleDatasetInfoTasksFixedResultInfo.md#tojson)
-- [fromJS](SerpGoogleDatasetInfoTasksFixedResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleDatasetInfoTasksFixedResultInfo(data)
 
-• **new SerpGoogleDatasetInfoTasksFixedResultInfo**(`data?`): [`SerpGoogleDatasetInfoTasksFixedResultInfo`](SerpGoogleDatasetInfoTasksFixedResultInfo.md)
+> **new SerpGoogleDatasetInfoTasksFixedResultInfo**(`data`?): [`SerpGoogleDatasetInfoTasksFixedResultInfo`](SerpGoogleDatasetInfoTasksFixedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleDatasetInfoTasksFixedResultInfo`](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md) |
+• **data?**: [`ISerpGoogleDatasetInfoTasksFixedResultInfo`](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md)
 
 #### Returns
 
 [`SerpGoogleDatasetInfoTasksFixedResultInfo`](SerpGoogleDatasetInfoTasksFixedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:54692
+main.ts:54700
 
 ## Properties
 
-### date\_fixed
+### date\_fixed?
 
-• `Optional` **date\_fixed**: `string`
+> **`optional`** **date\_fixed**: `string`
 
 date when the task was fixed (in the UTC format)
 
 #### Implementation of
 
-[ISerpGoogleDatasetInfoTasksFixedResultInfo](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md).[date_fixed](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md#date_fixed)
+[`ISerpGoogleDatasetInfoTasksFixedResultInfo`](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md).[`date_fixed`](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md#date_fixed)
 
-#### Defined in
+#### Source
 
-main.ts:54677
+main.ts:54685
 
-___
+***
 
-### endpoint\_advanced
+### endpoint\_advanced?
 
-• `Optional` **endpoint\_advanced**: `string`
+> **`optional`** **endpoint\_advanced**: `string`
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpGoogleDatasetInfoTasksFixedResultInfo](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md).[endpoint_advanced](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md#endpoint_advanced)
+[`ISerpGoogleDatasetInfoTasksFixedResultInfo`](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md).[`endpoint_advanced`](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md#endpoint_advanced)
 
-#### Defined in
+#### Source
 
-main.ts:54685
+main.ts:54693
 
-___
+***
 
-### endpoint\_html
+### endpoint\_html?
 
-• `Optional` **endpoint\_html**: `string`
+> **`optional`** **endpoint\_html**: `string`
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpGoogleDatasetInfoTasksFixedResultInfo](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md).[endpoint_html](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md#endpoint_html)
+[`ISerpGoogleDatasetInfoTasksFixedResultInfo`](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md).[`endpoint_html`](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md#endpoint_html)
 
-#### Defined in
+#### Source
 
-main.ts:54688
+main.ts:54696
 
-___
+***
 
-### endpoint\_regular
+### endpoint\_regular?
 
-• `Optional` **endpoint\_regular**: `string`
+> **`optional`** **endpoint\_regular**: `string`
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpGoogleDatasetInfoTasksFixedResultInfo](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md).[endpoint_regular](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md#endpoint_regular)
+[`ISerpGoogleDatasetInfoTasksFixedResultInfo`](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md).[`endpoint_regular`](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md#endpoint_regular)
 
-#### Defined in
+#### Source
 
-main.ts:54682
+main.ts:54690
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[ISerpGoogleDatasetInfoTasksFixedResultInfo](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md).[id](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md#id)
+[`ISerpGoogleDatasetInfoTasksFixedResultInfo`](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md).[`id`](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:54670
+main.ts:54678
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 
 #### Implementation of
 
-[ISerpGoogleDatasetInfoTasksFixedResultInfo](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md).[se](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md#se)
+[`ISerpGoogleDatasetInfoTasksFixedResultInfo`](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md).[`se`](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md#se)
 
-#### Defined in
+#### Source
 
-main.ts:54672
+main.ts:54680
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 type of search engine
 can take the following values: dataset_info
 
 #### Implementation of
 
-[ISerpGoogleDatasetInfoTasksFixedResultInfo](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md).[se_type](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md#se_type)
+[`ISerpGoogleDatasetInfoTasksFixedResultInfo`](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md).[`se_type`](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:54675
+main.ts:54683
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
 #### Implementation of
 
-[ISerpGoogleDatasetInfoTasksFixedResultInfo](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md).[tag](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md#tag)
+[`ISerpGoogleDatasetInfoTasksFixedResultInfo`](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md).[`tag`](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:54679
+main.ts:54687
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:54701
+main.ts:54709
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:54725
+main.ts:54733
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleDatasetInfoTasksFixedResultInfo`](SerpGoogleDatasetInfoTasksFixedResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleDatasetInfoTasksFixedResultInfo`](SerpGoogleDatasetInfoTasksFixedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpGoogleDatasetInfoTasksFixedResultInfo`](SerpGoogleDatasetInfoTasksFixedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:54718
+main.ts:54726

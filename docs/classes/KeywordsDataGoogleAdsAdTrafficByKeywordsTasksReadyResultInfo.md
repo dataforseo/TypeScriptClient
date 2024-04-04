@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo
 
 # Class: KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo
 
@@ -8,202 +12,173 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md#constructor)
-
-### Properties
-
-- [date\_posted](KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md#date_posted)
-- [endpoint](KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md#endpoint)
-- [function](KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md#function)
-- [id](KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md#id)
-- [se](KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md#se)
-- [tag](KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md#tag)
-
-### Methods
-
-- [init](KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md#init)
-- [toJSON](KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md#tojson)
-- [fromJS](KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo(data)
 
-• **new KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo**(`data?`): [`KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md)
+> **new KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo**(`data`?): [`KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md) |
+• **data?**: [`IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md)
 
 #### Returns
 
 [`KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:120387
+main.ts:120395
 
 ## Properties
 
-### date\_posted
+### date\_posted?
 
-• `Optional` **date\_posted**: `string`
+> **`optional`** **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md).[date_posted](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md#date_posted)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md).[`date_posted`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md#date_posted)
 
-#### Defined in
+#### Source
 
-main.ts:120379
+main.ts:120387
 
-___
+***
 
-### endpoint
+### endpoint?
 
-• `Optional` **endpoint**: `string`
+> **`optional`** **endpoint**: `string`
 
 URL for collecting the results of the task
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md).[endpoint](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md#endpoint)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md).[`endpoint`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md#endpoint)
 
-#### Defined in
+#### Source
 
-main.ts:120383
+main.ts:120391
 
-___
+***
 
-### function
+### function?
 
-• `Optional` **function**: `string`
+> **`optional`** **function**: `string`
 
 type of the task
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md).[function](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md#function)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md).[`function`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md#function)
 
-#### Defined in
+#### Source
 
-main.ts:120377
+main.ts:120385
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md).[id](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md#id)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md).[`id`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:120373
+main.ts:120381
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md).[se](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md#se)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md).[`se`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md#se)
 
-#### Defined in
+#### Source
 
-main.ts:120375
+main.ts:120383
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md).[tag](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md#tag)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md).[`tag`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:120381
+main.ts:120389
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:120396
+main.ts:120404
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:120418
+main.ts:120426
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:120411
+main.ts:120419

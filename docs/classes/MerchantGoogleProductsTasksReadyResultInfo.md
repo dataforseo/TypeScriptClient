@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MerchantGoogleProductsTasksReadyResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / MerchantGoogleProductsTasksReadyResultInfo
 
 # Class: MerchantGoogleProductsTasksReadyResultInfo
 
@@ -8,220 +12,190 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](MerchantGoogleProductsTasksReadyResultInfo.md#constructor)
-
-### Properties
-
-- [date\_posted](MerchantGoogleProductsTasksReadyResultInfo.md#date_posted)
-- [endpoint\_advanced](MerchantGoogleProductsTasksReadyResultInfo.md#endpoint_advanced)
-- [endpoint\_html](MerchantGoogleProductsTasksReadyResultInfo.md#endpoint_html)
-- [id](MerchantGoogleProductsTasksReadyResultInfo.md#id)
-- [se](MerchantGoogleProductsTasksReadyResultInfo.md#se)
-- [se\_type](MerchantGoogleProductsTasksReadyResultInfo.md#se_type)
-- [tag](MerchantGoogleProductsTasksReadyResultInfo.md#tag)
-
-### Methods
-
-- [init](MerchantGoogleProductsTasksReadyResultInfo.md#init)
-- [toJSON](MerchantGoogleProductsTasksReadyResultInfo.md#tojson)
-- [fromJS](MerchantGoogleProductsTasksReadyResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new MerchantGoogleProductsTasksReadyResultInfo(data)
 
-• **new MerchantGoogleProductsTasksReadyResultInfo**(`data?`): [`MerchantGoogleProductsTasksReadyResultInfo`](MerchantGoogleProductsTasksReadyResultInfo.md)
+> **new MerchantGoogleProductsTasksReadyResultInfo**(`data`?): [`MerchantGoogleProductsTasksReadyResultInfo`](MerchantGoogleProductsTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IMerchantGoogleProductsTasksReadyResultInfo`](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md) |
+• **data?**: [`IMerchantGoogleProductsTasksReadyResultInfo`](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md)
 
 #### Returns
 
 [`MerchantGoogleProductsTasksReadyResultInfo`](MerchantGoogleProductsTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:169674
+main.ts:169682
 
 ## Properties
 
-### date\_posted
+### date\_posted?
 
-• `Optional` **date\_posted**: `string`
+> **`optional`** **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
 #### Implementation of
 
-[IMerchantGoogleProductsTasksReadyResultInfo](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md).[date_posted](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md#date_posted)
+[`IMerchantGoogleProductsTasksReadyResultInfo`](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md).[`date_posted`](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md#date_posted)
 
-#### Defined in
+#### Source
 
-main.ts:169664
+main.ts:169672
 
-___
+***
 
-### endpoint\_advanced
+### endpoint\_advanced?
 
-• `Optional` **endpoint\_advanced**: `string`
+> **`optional`** **endpoint\_advanced**: `string`
 
 URL for collecting the results of Google Shopping Products Advanced task
 
 #### Implementation of
 
-[IMerchantGoogleProductsTasksReadyResultInfo](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md).[endpoint_advanced](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md#endpoint_advanced)
+[`IMerchantGoogleProductsTasksReadyResultInfo`](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md).[`endpoint_advanced`](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md#endpoint_advanced)
 
-#### Defined in
+#### Source
 
-main.ts:169668
+main.ts:169676
 
-___
+***
 
-### endpoint\_html
+### endpoint\_html?
 
-• `Optional` **endpoint\_html**: `string`
+> **`optional`** **endpoint\_html**: `string`
 
 URL for collecting the results of Google Shopping Products HTML task
 
 #### Implementation of
 
-[IMerchantGoogleProductsTasksReadyResultInfo](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md).[endpoint_html](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md#endpoint_html)
+[`IMerchantGoogleProductsTasksReadyResultInfo`](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md).[`endpoint_html`](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md#endpoint_html)
 
-#### Defined in
+#### Source
 
-main.ts:169670
+main.ts:169678
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IMerchantGoogleProductsTasksReadyResultInfo](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md).[id](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md#id)
+[`IMerchantGoogleProductsTasksReadyResultInfo`](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md).[`id`](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:169657
+main.ts:169665
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 
 #### Implementation of
 
-[IMerchantGoogleProductsTasksReadyResultInfo](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md).[se](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md#se)
+[`IMerchantGoogleProductsTasksReadyResultInfo`](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md).[`se`](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md#se)
 
-#### Defined in
+#### Source
 
-main.ts:169659
+main.ts:169667
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 type of search engine
 can take the following values: shopping
 
 #### Implementation of
 
-[IMerchantGoogleProductsTasksReadyResultInfo](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md).[se_type](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md#se_type)
+[`IMerchantGoogleProductsTasksReadyResultInfo`](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md).[`se_type`](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:169662
+main.ts:169670
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
 #### Implementation of
 
-[IMerchantGoogleProductsTasksReadyResultInfo](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md).[tag](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md#tag)
+[`IMerchantGoogleProductsTasksReadyResultInfo`](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md).[`tag`](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:169666
+main.ts:169674
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:169683
+main.ts:169691
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:169706
+main.ts:169714
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`MerchantGoogleProductsTasksReadyResultInfo`](MerchantGoogleProductsTasksReadyResultInfo.md)
+> **`static`** **fromJS**(`data`): [`MerchantGoogleProductsTasksReadyResultInfo`](MerchantGoogleProductsTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`MerchantGoogleProductsTasksReadyResultInfo`](MerchantGoogleProductsTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:169699
+main.ts:169707

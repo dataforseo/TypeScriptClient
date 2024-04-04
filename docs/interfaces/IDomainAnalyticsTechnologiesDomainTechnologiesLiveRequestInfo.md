@@ -1,32 +1,26 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo
 
 # Interface: IDomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo
 
-## Implemented by
-
-- [`DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo`](../classes/DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [target](IDomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md#target)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 target domain
 required field
 domain name of the website to analyze
 Note: results will be returned for the specified domain only
 
-#### Defined in
+#### Source
 
-main.ts:77486
+main.ts:77494

@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataBingLanguagesResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataBingLanguagesResponseInfo
 
 # Class: KeywordsDataBingLanguagesResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`KeywordsDataBingLanguagesResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataBingLanguagesResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](KeywordsDataBingLanguagesResponseInfo.md#cost)
-- [status\_code](KeywordsDataBingLanguagesResponseInfo.md#status_code)
-- [status\_message](KeywordsDataBingLanguagesResponseInfo.md#status_message)
-- [tasks](KeywordsDataBingLanguagesResponseInfo.md#tasks)
-- [tasks\_count](KeywordsDataBingLanguagesResponseInfo.md#tasks_count)
-- [tasks\_error](KeywordsDataBingLanguagesResponseInfo.md#tasks_error)
-- [time](KeywordsDataBingLanguagesResponseInfo.md#time)
-- [version](KeywordsDataBingLanguagesResponseInfo.md#version)
-
-### Methods
-
-- [init](KeywordsDataBingLanguagesResponseInfo.md#init)
-- [toJSON](KeywordsDataBingLanguagesResponseInfo.md#tojson)
-- [fromJS](KeywordsDataBingLanguagesResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordsDataBingLanguagesResponseInfo(data)
 
-• **new KeywordsDataBingLanguagesResponseInfo**(`data?`): [`KeywordsDataBingLanguagesResponseInfo`](KeywordsDataBingLanguagesResponseInfo.md)
+> **new KeywordsDataBingLanguagesResponseInfo**(`data`?): [`KeywordsDataBingLanguagesResponseInfo`](KeywordsDataBingLanguagesResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordsDataBingLanguagesResponseInfo`](../interfaces/IKeywordsDataBingLanguagesResponseInfo.md) |
+• **data?**: [`IKeywordsDataBingLanguagesResponseInfo`](../interfaces/IKeywordsDataBingLanguagesResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:127603
+main.ts:127611
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IKeywordsDataBingLanguagesResponseInfo](../interfaces/IKeywordsDataBingLanguagesResponseInfo.md).[cost](../interfaces/IKeywordsDataBingLanguagesResponseInfo.md#cost)
+[`IKeywordsDataBingLanguagesResponseInfo`](../interfaces/IKeywordsDataBingLanguagesResponseInfo.md).[`cost`](../interfaces/IKeywordsDataBingLanguagesResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[IKeywordsDataBingLanguagesResponseInfo](../interfaces/IKeywordsDataBingLanguagesResponseInfo.md).[status_code](../interfaces/IKeywordsDataBingLanguagesResponseInfo.md#status_code)
+[`IKeywordsDataBingLanguagesResponseInfo`](../interfaces/IKeywordsDataBingLanguagesResponseInfo.md).[`status_code`](../interfaces/IKeywordsDataBingLanguagesResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IKeywordsDataBingLanguagesResponseInfo](../interfaces/IKeywordsDataBingLanguagesResponseInfo.md).[status_message](../interfaces/IKeywordsDataBingLanguagesResponseInfo.md#status_message)
+[`IKeywordsDataBingLanguagesResponseInfo`](../interfaces/IKeywordsDataBingLanguagesResponseInfo.md).[`status_message`](../interfaces/IKeywordsDataBingLanguagesResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`KeywordsDataBingLanguagesTaskInfo`](KeywordsDataBingLanguagesTaskInfo.md)[]
+> **`optional`** **tasks**: [`KeywordsDataBingLanguagesTaskInfo`](KeywordsDataBingLanguagesTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[IKeywordsDataBingLanguagesResponseInfo](../interfaces/IKeywordsDataBingLanguagesResponseInfo.md).[tasks](../interfaces/IKeywordsDataBingLanguagesResponseInfo.md#tasks)
+[`IKeywordsDataBingLanguagesResponseInfo`](../interfaces/IKeywordsDataBingLanguagesResponseInfo.md).[`tasks`](../interfaces/IKeywordsDataBingLanguagesResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:127599
+main.ts:127607
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[IKeywordsDataBingLanguagesResponseInfo](../interfaces/IKeywordsDataBingLanguagesResponseInfo.md).[tasks_count](../interfaces/IKeywordsDataBingLanguagesResponseInfo.md#tasks_count)
+[`IKeywordsDataBingLanguagesResponseInfo`](../interfaces/IKeywordsDataBingLanguagesResponseInfo.md).[`tasks_count`](../interfaces/IKeywordsDataBingLanguagesResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[IKeywordsDataBingLanguagesResponseInfo](../interfaces/IKeywordsDataBingLanguagesResponseInfo.md).[tasks_error](../interfaces/IKeywordsDataBingLanguagesResponseInfo.md#tasks_error)
+[`IKeywordsDataBingLanguagesResponseInfo`](../interfaces/IKeywordsDataBingLanguagesResponseInfo.md).[`tasks_error`](../interfaces/IKeywordsDataBingLanguagesResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[IKeywordsDataBingLanguagesResponseInfo](../interfaces/IKeywordsDataBingLanguagesResponseInfo.md).[time](../interfaces/IKeywordsDataBingLanguagesResponseInfo.md#time)
+[`IKeywordsDataBingLanguagesResponseInfo`](../interfaces/IKeywordsDataBingLanguagesResponseInfo.md).[`time`](../interfaces/IKeywordsDataBingLanguagesResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[IKeywordsDataBingLanguagesResponseInfo](../interfaces/IKeywordsDataBingLanguagesResponseInfo.md).[version](../interfaces/IKeywordsDataBingLanguagesResponseInfo.md#version)
+[`IKeywordsDataBingLanguagesResponseInfo`](../interfaces/IKeywordsDataBingLanguagesResponseInfo.md).[`version`](../interfaces/IKeywordsDataBingLanguagesResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:127607
+main.ts:127615
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:127629
+main.ts:127637
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordsDataBingLanguagesResponseInfo`](KeywordsDataBingLanguagesResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordsDataBingLanguagesResponseInfo`](KeywordsDataBingLanguagesResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:127622
+main.ts:127630

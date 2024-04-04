@@ -1,107 +1,95 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IStreamingQualityElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IStreamingQualityElement
 
 # Interface: IStreamingQualityElement
 
-## Implemented by
-
-- [`StreamingQualityElement`](../classes/StreamingQualityElement.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [bitrate](IStreamingQualityElement.md#bitrate)
-- [fps](IStreamingQualityElement.md#fps)
-- [height](IStreamingQualityElement.md#height)
-- [label](IStreamingQualityElement.md#label)
-- [mime\_type](IStreamingQualityElement.md#mime_type)
-- [type](IStreamingQualityElement.md#type)
-- [width](IStreamingQualityElement.md#width)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### bitrate
+### bitrate?
 
-• `Optional` **bitrate**: `number`
+> **`optional`** **bitrate**: `number`
 
 bit rate of the video
 
-#### Defined in
+#### Source
 
-main.ts:60946
+main.ts:60954
 
-___
+***
 
-### fps
+### fps?
 
-• `Optional` **fps**: `number`
+> **`optional`** **fps**: `number`
 
 frame rate of the video
 
-#### Defined in
+#### Source
 
-main.ts:60950
+main.ts:60958
 
-___
+***
 
-### height
+### height?
 
-• `Optional` **height**: `number`
+> **`optional`** **height**: `number`
 
 video height in pixels
 
-#### Defined in
+#### Source
 
-main.ts:60944
+main.ts:60952
 
-___
+***
 
-### label
+### label?
 
-• `Optional` **label**: `string`
+> **`optional`** **label**: `string`
 
 label of the quality element
 
-#### Defined in
-
-main.ts:60940
-
-___
-
-### mime\_type
-
-• `Optional` **mime\_type**: `string`
-
-media type of the video
-
-#### Defined in
+#### Source
 
 main.ts:60948
 
-___
+***
 
-### type
+### mime\_type?
 
-• `Optional` **type**: `string`
+> **`optional`** **mime\_type**: `string`
+
+media type of the video
+
+#### Source
+
+main.ts:60956
+
+***
+
+### type?
+
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:60938
+main.ts:60946
 
-___
+***
 
-### width
+### width?
 
-• `Optional` **width**: `number`
+> **`optional`** **width**: `number`
 
 video width in pixels
 
-#### Defined in
+#### Source
 
-main.ts:60942
+main.ts:60950

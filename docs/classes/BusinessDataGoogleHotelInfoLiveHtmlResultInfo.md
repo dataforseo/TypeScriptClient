@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataGoogleHotelInfoLiveHtmlResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataGoogleHotelInfoLiveHtmlResultInfo
 
 # Class: BusinessDataGoogleHotelInfoLiveHtmlResultInfo
 
@@ -8,56 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataGoogleHotelInfoLiveHtmlResultInfo.md#constructor)
-
-### Properties
-
-- [datetime](BusinessDataGoogleHotelInfoLiveHtmlResultInfo.md#datetime)
-- [items](BusinessDataGoogleHotelInfoLiveHtmlResultInfo.md#items)
-- [items\_count](BusinessDataGoogleHotelInfoLiveHtmlResultInfo.md#items_count)
-- [keyword](BusinessDataGoogleHotelInfoLiveHtmlResultInfo.md#keyword)
-- [language\_code](BusinessDataGoogleHotelInfoLiveHtmlResultInfo.md#language_code)
-- [location\_code](BusinessDataGoogleHotelInfoLiveHtmlResultInfo.md#location_code)
-- [se\_domain](BusinessDataGoogleHotelInfoLiveHtmlResultInfo.md#se_domain)
-- [type](BusinessDataGoogleHotelInfoLiveHtmlResultInfo.md#type)
-
-### Methods
-
-- [init](BusinessDataGoogleHotelInfoLiveHtmlResultInfo.md#init)
-- [toJSON](BusinessDataGoogleHotelInfoLiveHtmlResultInfo.md#tojson)
-- [fromJS](BusinessDataGoogleHotelInfoLiveHtmlResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataGoogleHotelInfoLiveHtmlResultInfo(data)
 
-• **new BusinessDataGoogleHotelInfoLiveHtmlResultInfo**(`data?`): [`BusinessDataGoogleHotelInfoLiveHtmlResultInfo`](BusinessDataGoogleHotelInfoLiveHtmlResultInfo.md)
+> **new BusinessDataGoogleHotelInfoLiveHtmlResultInfo**(`data`?): [`BusinessDataGoogleHotelInfoLiveHtmlResultInfo`](BusinessDataGoogleHotelInfoLiveHtmlResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataGoogleHotelInfoLiveHtmlResultInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveHtmlResultInfo.md) |
+• **data?**: [`IBusinessDataGoogleHotelInfoLiveHtmlResultInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveHtmlResultInfo.md)
 
 #### Returns
 
 [`BusinessDataGoogleHotelInfoLiveHtmlResultInfo`](BusinessDataGoogleHotelInfoLiveHtmlResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:203025
 
 ## Properties
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -66,180 +45,174 @@ example:
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelInfoLiveHtmlResultInfo](../interfaces/IBusinessDataGoogleHotelInfoLiveHtmlResultInfo.md).[datetime](../interfaces/IBusinessDataGoogleHotelInfoLiveHtmlResultInfo.md#datetime)
+[`IBusinessDataGoogleHotelInfoLiveHtmlResultInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveHtmlResultInfo.md).[`datetime`](../interfaces/IBusinessDataGoogleHotelInfoLiveHtmlResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
 main.ts:203017
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`HtmlItem`](HtmlItem.md)[]
+> **`optional`** **items**: [`HtmlItem`](HtmlItem.md)[]
 
 HTML pages
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelInfoLiveHtmlResultInfo](../interfaces/IBusinessDataGoogleHotelInfoLiveHtmlResultInfo.md).[items](../interfaces/IBusinessDataGoogleHotelInfoLiveHtmlResultInfo.md#items)
+[`IBusinessDataGoogleHotelInfoLiveHtmlResultInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveHtmlResultInfo.md).[`items`](../interfaces/IBusinessDataGoogleHotelInfoLiveHtmlResultInfo.md#items)
 
-#### Defined in
+#### Source
 
 main.ts:203021
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelInfoLiveHtmlResultInfo](../interfaces/IBusinessDataGoogleHotelInfoLiveHtmlResultInfo.md).[items_count](../interfaces/IBusinessDataGoogleHotelInfoLiveHtmlResultInfo.md#items_count)
+[`IBusinessDataGoogleHotelInfoLiveHtmlResultInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveHtmlResultInfo.md).[`items_count`](../interfaces/IBusinessDataGoogleHotelInfoLiveHtmlResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
 main.ts:203019
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 unique hotel identifier specified as "hotel_id:$"
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelInfoLiveHtmlResultInfo](../interfaces/IBusinessDataGoogleHotelInfoLiveHtmlResultInfo.md).[keyword](../interfaces/IBusinessDataGoogleHotelInfoLiveHtmlResultInfo.md#keyword)
+[`IBusinessDataGoogleHotelInfoLiveHtmlResultInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveHtmlResultInfo.md).[`keyword`](../interfaces/IBusinessDataGoogleHotelInfoLiveHtmlResultInfo.md#keyword)
 
-#### Defined in
+#### Source
 
 main.ts:203004
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelInfoLiveHtmlResultInfo](../interfaces/IBusinessDataGoogleHotelInfoLiveHtmlResultInfo.md).[language_code](../interfaces/IBusinessDataGoogleHotelInfoLiveHtmlResultInfo.md#language_code)
+[`IBusinessDataGoogleHotelInfoLiveHtmlResultInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveHtmlResultInfo.md).[`language_code`](../interfaces/IBusinessDataGoogleHotelInfoLiveHtmlResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
 main.ts:203012
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelInfoLiveHtmlResultInfo](../interfaces/IBusinessDataGoogleHotelInfoLiveHtmlResultInfo.md).[location_code](../interfaces/IBusinessDataGoogleHotelInfoLiveHtmlResultInfo.md#location_code)
+[`IBusinessDataGoogleHotelInfoLiveHtmlResultInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveHtmlResultInfo.md).[`location_code`](../interfaces/IBusinessDataGoogleHotelInfoLiveHtmlResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
 main.ts:203010
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelInfoLiveHtmlResultInfo](../interfaces/IBusinessDataGoogleHotelInfoLiveHtmlResultInfo.md).[se_domain](../interfaces/IBusinessDataGoogleHotelInfoLiveHtmlResultInfo.md#se_domain)
+[`IBusinessDataGoogleHotelInfoLiveHtmlResultInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveHtmlResultInfo.md).[`se_domain`](../interfaces/IBusinessDataGoogleHotelInfoLiveHtmlResultInfo.md#se_domain)
 
-#### Defined in
+#### Source
 
 main.ts:203008
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelInfoLiveHtmlResultInfo](../interfaces/IBusinessDataGoogleHotelInfoLiveHtmlResultInfo.md).[type](../interfaces/IBusinessDataGoogleHotelInfoLiveHtmlResultInfo.md#type)
+[`IBusinessDataGoogleHotelInfoLiveHtmlResultInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveHtmlResultInfo.md).[`type`](../interfaces/IBusinessDataGoogleHotelInfoLiveHtmlResultInfo.md#type)
 
-#### Defined in
+#### Source
 
 main.ts:203006
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:203034
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:203062
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataGoogleHotelInfoLiveHtmlResultInfo`](BusinessDataGoogleHotelInfoLiveHtmlResultInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataGoogleHotelInfoLiveHtmlResultInfo`](BusinessDataGoogleHotelInfoLiveHtmlResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BusinessDataGoogleHotelInfoLiveHtmlResultInfo`](BusinessDataGoogleHotelInfoLiveHtmlResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:203055

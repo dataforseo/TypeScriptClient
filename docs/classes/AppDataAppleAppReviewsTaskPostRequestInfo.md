@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataAppleAppReviewsTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppDataAppleAppReviewsTaskPostRequestInfo
 
 # Class: AppDataAppleAppReviewsTaskPostRequestInfo
 
@@ -8,60 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppDataAppleAppReviewsTaskPostRequestInfo.md#constructor)
-
-### Properties
-
-- [app\_id](AppDataAppleAppReviewsTaskPostRequestInfo.md#app_id)
-- [depth](AppDataAppleAppReviewsTaskPostRequestInfo.md#depth)
-- [language\_code](AppDataAppleAppReviewsTaskPostRequestInfo.md#language_code)
-- [language\_name](AppDataAppleAppReviewsTaskPostRequestInfo.md#language_name)
-- [location\_code](AppDataAppleAppReviewsTaskPostRequestInfo.md#location_code)
-- [location\_name](AppDataAppleAppReviewsTaskPostRequestInfo.md#location_name)
-- [pingback\_url](AppDataAppleAppReviewsTaskPostRequestInfo.md#pingback_url)
-- [postback\_data](AppDataAppleAppReviewsTaskPostRequestInfo.md#postback_data)
-- [postback\_url](AppDataAppleAppReviewsTaskPostRequestInfo.md#postback_url)
-- [priority](AppDataAppleAppReviewsTaskPostRequestInfo.md#priority)
-- [sort\_by](AppDataAppleAppReviewsTaskPostRequestInfo.md#sort_by)
-- [tag](AppDataAppleAppReviewsTaskPostRequestInfo.md#tag)
-
-### Methods
-
-- [init](AppDataAppleAppReviewsTaskPostRequestInfo.md#init)
-- [toJSON](AppDataAppleAppReviewsTaskPostRequestInfo.md#tojson)
-- [fromJS](AppDataAppleAppReviewsTaskPostRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppDataAppleAppReviewsTaskPostRequestInfo(data)
 
-• **new AppDataAppleAppReviewsTaskPostRequestInfo**(`data?`): [`AppDataAppleAppReviewsTaskPostRequestInfo`](AppDataAppleAppReviewsTaskPostRequestInfo.md)
+> **new AppDataAppleAppReviewsTaskPostRequestInfo**(`data`?): [`AppDataAppleAppReviewsTaskPostRequestInfo`](AppDataAppleAppReviewsTaskPostRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppDataAppleAppReviewsTaskPostRequestInfo`](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md) |
+• **data?**: [`IAppDataAppleAppReviewsTaskPostRequestInfo`](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md)
 
 #### Returns
 
 [`AppDataAppleAppReviewsTaskPostRequestInfo`](AppDataAppleAppReviewsTaskPostRequestInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:191200
 
 ## Properties
 
-### app\_id
+### app\_id?
 
-• `Optional` **app\_id**: `string`
+> **`optional`** **app\_id**: `string`
 
 id of the app
 required field
@@ -73,17 +48,17 @@ the id is 835599320
 
 #### Implementation of
 
-[IAppDataAppleAppReviewsTaskPostRequestInfo](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md).[app_id](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md#app_id)
+[`IAppDataAppleAppReviewsTaskPostRequestInfo`](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md).[`app_id`](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md#app_id)
 
-#### Defined in
+#### Source
 
 main.ts:191113
 
-___
+***
 
-### depth
+### depth?
 
-• `Optional` **depth**: `number`
+> **`optional`** **depth**: `number`
 
 parsing depth
 optional field
@@ -94,17 +69,17 @@ maximum value: 500
 
 #### Implementation of
 
-[IAppDataAppleAppReviewsTaskPostRequestInfo](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md).[depth](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md#depth)
+[`IAppDataAppleAppReviewsTaskPostRequestInfo`](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md).[`depth`](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md#depth)
 
-#### Defined in
+#### Source
 
 main.ts:191156
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 optional field
@@ -115,17 +90,17 @@ en
 
 #### Implementation of
 
-[IAppDataAppleAppReviewsTaskPostRequestInfo](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md).[language_code](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md#language_code)
+[`IAppDataAppleAppReviewsTaskPostRequestInfo`](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md).[`language_code`](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
 main.ts:191141
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -136,17 +111,17 @@ English
 
 #### Implementation of
 
-[IAppDataAppleAppReviewsTaskPostRequestInfo](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md).[language_name](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md#language_name)
+[`IAppDataAppleAppReviewsTaskPostRequestInfo`](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md).[`language_name`](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
 main.ts:191134
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name
@@ -157,17 +132,17 @@ example:
 
 #### Implementation of
 
-[IAppDataAppleAppReviewsTaskPostRequestInfo](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md).[location_code](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md#location_code)
+[`IAppDataAppleAppReviewsTaskPostRequestInfo`](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md).[`location_code`](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
 main.ts:191127
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -178,17 +153,17 @@ West Los Angeles,California,United States
 
 #### Implementation of
 
-[IAppDataAppleAppReviewsTaskPostRequestInfo](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md).[location_name](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md#location_name)
+[`IAppDataAppleAppReviewsTaskPostRequestInfo`](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md).[`location_name`](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
 main.ts:191120
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -202,17 +177,17 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[IAppDataAppleAppReviewsTaskPostRequestInfo](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md).[pingback_url](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md#pingback_url)
+[`IAppDataAppleAppReviewsTaskPostRequestInfo`](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md).[`pingback_url`](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md#pingback_url)
 
-#### Defined in
+#### Source
 
 main.ts:191196
 
-___
+***
 
-### postback\_data
+### postback\_data?
 
-• `Optional` **postback\_data**: `string`
+> **`optional`** **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -222,17 +197,17 @@ advanced
 
 #### Implementation of
 
-[IAppDataAppleAppReviewsTaskPostRequestInfo](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md).[postback_data](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md#postback_data)
+[`IAppDataAppleAppReviewsTaskPostRequestInfo`](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md).[`postback_data`](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md#postback_data)
 
-#### Defined in
+#### Source
 
 main.ts:191186
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -246,17 +221,17 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[IAppDataAppleAppReviewsTaskPostRequestInfo](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md).[postback_url](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md#postback_url)
+[`IAppDataAppleAppReviewsTaskPostRequestInfo`](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md).[`postback_url`](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md#postback_url)
 
-#### Defined in
+#### Source
 
 main.ts:191180
 
-___
+***
 
-### priority
+### priority?
 
-• `Optional` **priority**: `number`
+> **`optional`** **priority**: `number`
 
 task priority
 optional field
@@ -268,17 +243,17 @@ The cost can be calculated on the Pricing page.
 
 #### Implementation of
 
-[IAppDataAppleAppReviewsTaskPostRequestInfo](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md).[priority](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md#priority)
+[`IAppDataAppleAppReviewsTaskPostRequestInfo`](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md).[`priority`](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md#priority)
 
-#### Defined in
+#### Source
 
 main.ts:191149
 
-___
+***
 
-### sort\_by
+### sort\_by?
 
-• `Optional` **sort\_by**: `string`
+> **`optional`** **sort\_by**: `string`
 
 results sorting parameters
 optional field
@@ -290,17 +265,17 @@ default rule: most_helpful
 
 #### Implementation of
 
-[IAppDataAppleAppReviewsTaskPostRequestInfo](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md).[sort_by](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md#sort_by)
+[`IAppDataAppleAppReviewsTaskPostRequestInfo`](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md).[`sort_by`](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md#sort_by)
 
-#### Defined in
+#### Source
 
 main.ts:191164
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -310,68 +285,62 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IAppDataAppleAppReviewsTaskPostRequestInfo](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md).[tag](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md#tag)
+[`IAppDataAppleAppReviewsTaskPostRequestInfo`](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md).[`tag`](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
 main.ts:191170
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:191209
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:191237
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppDataAppleAppReviewsTaskPostRequestInfo`](AppDataAppleAppReviewsTaskPostRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`AppDataAppleAppReviewsTaskPostRequestInfo`](AppDataAppleAppReviewsTaskPostRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppDataAppleAppReviewsTaskPostRequestInfo`](AppDataAppleAppReviewsTaskPostRequestInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:191230

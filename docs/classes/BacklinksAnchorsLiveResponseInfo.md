@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksAnchorsLiveResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BacklinksAnchorsLiveResponseInfo
 
 # Class: BacklinksAnchorsLiveResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`BacklinksAnchorsLiveResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BacklinksAnchorsLiveResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](BacklinksAnchorsLiveResponseInfo.md#cost)
-- [status\_code](BacklinksAnchorsLiveResponseInfo.md#status_code)
-- [status\_message](BacklinksAnchorsLiveResponseInfo.md#status_message)
-- [tasks](BacklinksAnchorsLiveResponseInfo.md#tasks)
-- [tasks\_count](BacklinksAnchorsLiveResponseInfo.md#tasks_count)
-- [tasks\_error](BacklinksAnchorsLiveResponseInfo.md#tasks_error)
-- [time](BacklinksAnchorsLiveResponseInfo.md#time)
-- [version](BacklinksAnchorsLiveResponseInfo.md#version)
-
-### Methods
-
-- [init](BacklinksAnchorsLiveResponseInfo.md#init)
-- [toJSON](BacklinksAnchorsLiveResponseInfo.md#tojson)
-- [fromJS](BacklinksAnchorsLiveResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BacklinksAnchorsLiveResponseInfo(data)
 
-• **new BacklinksAnchorsLiveResponseInfo**(`data?`): [`BacklinksAnchorsLiveResponseInfo`](BacklinksAnchorsLiveResponseInfo.md)
+> **new BacklinksAnchorsLiveResponseInfo**(`data`?): [`BacklinksAnchorsLiveResponseInfo`](BacklinksAnchorsLiveResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBacklinksAnchorsLiveResponseInfo`](../interfaces/IBacklinksAnchorsLiveResponseInfo.md) |
+• **data?**: [`IBacklinksAnchorsLiveResponseInfo`](../interfaces/IBacklinksAnchorsLiveResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:137795
+main.ts:137803
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IBacklinksAnchorsLiveResponseInfo](../interfaces/IBacklinksAnchorsLiveResponseInfo.md).[cost](../interfaces/IBacklinksAnchorsLiveResponseInfo.md#cost)
+[`IBacklinksAnchorsLiveResponseInfo`](../interfaces/IBacklinksAnchorsLiveResponseInfo.md).[`cost`](../interfaces/IBacklinksAnchorsLiveResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[IBacklinksAnchorsLiveResponseInfo](../interfaces/IBacklinksAnchorsLiveResponseInfo.md).[status_code](../interfaces/IBacklinksAnchorsLiveResponseInfo.md#status_code)
+[`IBacklinksAnchorsLiveResponseInfo`](../interfaces/IBacklinksAnchorsLiveResponseInfo.md).[`status_code`](../interfaces/IBacklinksAnchorsLiveResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IBacklinksAnchorsLiveResponseInfo](../interfaces/IBacklinksAnchorsLiveResponseInfo.md).[status_message](../interfaces/IBacklinksAnchorsLiveResponseInfo.md#status_message)
+[`IBacklinksAnchorsLiveResponseInfo`](../interfaces/IBacklinksAnchorsLiveResponseInfo.md).[`status_message`](../interfaces/IBacklinksAnchorsLiveResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`BacklinksAnchorsLiveTaskInfo`](BacklinksAnchorsLiveTaskInfo.md)[]
+> **`optional`** **tasks**: [`BacklinksAnchorsLiveTaskInfo`](BacklinksAnchorsLiveTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[IBacklinksAnchorsLiveResponseInfo](../interfaces/IBacklinksAnchorsLiveResponseInfo.md).[tasks](../interfaces/IBacklinksAnchorsLiveResponseInfo.md#tasks)
+[`IBacklinksAnchorsLiveResponseInfo`](../interfaces/IBacklinksAnchorsLiveResponseInfo.md).[`tasks`](../interfaces/IBacklinksAnchorsLiveResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:137791
+main.ts:137799
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[IBacklinksAnchorsLiveResponseInfo](../interfaces/IBacklinksAnchorsLiveResponseInfo.md).[tasks_count](../interfaces/IBacklinksAnchorsLiveResponseInfo.md#tasks_count)
+[`IBacklinksAnchorsLiveResponseInfo`](../interfaces/IBacklinksAnchorsLiveResponseInfo.md).[`tasks_count`](../interfaces/IBacklinksAnchorsLiveResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[IBacklinksAnchorsLiveResponseInfo](../interfaces/IBacklinksAnchorsLiveResponseInfo.md).[tasks_error](../interfaces/IBacklinksAnchorsLiveResponseInfo.md#tasks_error)
+[`IBacklinksAnchorsLiveResponseInfo`](../interfaces/IBacklinksAnchorsLiveResponseInfo.md).[`tasks_error`](../interfaces/IBacklinksAnchorsLiveResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[IBacklinksAnchorsLiveResponseInfo](../interfaces/IBacklinksAnchorsLiveResponseInfo.md).[time](../interfaces/IBacklinksAnchorsLiveResponseInfo.md#time)
+[`IBacklinksAnchorsLiveResponseInfo`](../interfaces/IBacklinksAnchorsLiveResponseInfo.md).[`time`](../interfaces/IBacklinksAnchorsLiveResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[IBacklinksAnchorsLiveResponseInfo](../interfaces/IBacklinksAnchorsLiveResponseInfo.md).[version](../interfaces/IBacklinksAnchorsLiveResponseInfo.md#version)
+[`IBacklinksAnchorsLiveResponseInfo`](../interfaces/IBacklinksAnchorsLiveResponseInfo.md).[`version`](../interfaces/IBacklinksAnchorsLiveResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:137799
+main.ts:137807
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:137821
+main.ts:137829
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BacklinksAnchorsLiveResponseInfo`](BacklinksAnchorsLiveResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`BacklinksAnchorsLiveResponseInfo`](BacklinksAnchorsLiveResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:137814
+main.ts:137822

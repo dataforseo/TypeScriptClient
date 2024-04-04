@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksIndexResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BacklinksIndexResultInfo
 
 # Class: BacklinksIndexResultInfo
 
@@ -8,167 +12,140 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BacklinksIndexResultInfo.md#constructor)
-
-### Properties
-
-- [index\_history](BacklinksIndexResultInfo.md#index_history)
-- [total\_backlinks](BacklinksIndexResultInfo.md#total_backlinks)
-- [total\_domains](BacklinksIndexResultInfo.md#total_domains)
-- [total\_pages](BacklinksIndexResultInfo.md#total_pages)
-
-### Methods
-
-- [init](BacklinksIndexResultInfo.md#init)
-- [toJSON](BacklinksIndexResultInfo.md#tojson)
-- [fromJS](BacklinksIndexResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BacklinksIndexResultInfo(data)
 
-• **new BacklinksIndexResultInfo**(`data?`): [`BacklinksIndexResultInfo`](BacklinksIndexResultInfo.md)
+> **new BacklinksIndexResultInfo**(`data`?): [`BacklinksIndexResultInfo`](BacklinksIndexResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBacklinksIndexResultInfo`](../interfaces/IBacklinksIndexResultInfo.md) |
+• **data?**: [`IBacklinksIndexResultInfo`](../interfaces/IBacklinksIndexResultInfo.md)
 
 #### Returns
 
 [`BacklinksIndexResultInfo`](BacklinksIndexResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:134390
+main.ts:134398
 
 ## Properties
 
-### index\_history
+### index\_history?
 
-• `Optional` **index\_history**: [`IndexHistory`](IndexHistory.md)[]
+> **`optional`** **index\_history**: [`IndexHistory`](IndexHistory.md)[]
 
 index volume data for the past 12 months
 
 #### Implementation of
 
-[IBacklinksIndexResultInfo](../interfaces/IBacklinksIndexResultInfo.md).[index_history](../interfaces/IBacklinksIndexResultInfo.md#index_history)
+[`IBacklinksIndexResultInfo`](../interfaces/IBacklinksIndexResultInfo.md).[`index_history`](../interfaces/IBacklinksIndexResultInfo.md#index_history)
 
-#### Defined in
+#### Source
 
-main.ts:134386
+main.ts:134394
 
-___
+***
 
-### total\_backlinks
+### total\_backlinks?
 
-• `Optional` **total\_backlinks**: `number`
+> **`optional`** **total\_backlinks**: `number`
 
 total number of backlinks our database contains for the moment of checking
 
 #### Implementation of
 
-[IBacklinksIndexResultInfo](../interfaces/IBacklinksIndexResultInfo.md).[total_backlinks](../interfaces/IBacklinksIndexResultInfo.md#total_backlinks)
+[`IBacklinksIndexResultInfo`](../interfaces/IBacklinksIndexResultInfo.md).[`total_backlinks`](../interfaces/IBacklinksIndexResultInfo.md#total_backlinks)
 
-#### Defined in
+#### Source
 
-main.ts:134380
+main.ts:134388
 
-___
+***
 
-### total\_domains
+### total\_domains?
 
-• `Optional` **total\_domains**: `number`
+> **`optional`** **total\_domains**: `number`
 
 total number of domains our database contains for the moment of checking
 
 #### Implementation of
 
-[IBacklinksIndexResultInfo](../interfaces/IBacklinksIndexResultInfo.md).[total_domains](../interfaces/IBacklinksIndexResultInfo.md#total_domains)
+[`IBacklinksIndexResultInfo`](../interfaces/IBacklinksIndexResultInfo.md).[`total_domains`](../interfaces/IBacklinksIndexResultInfo.md#total_domains)
 
-#### Defined in
+#### Source
 
-main.ts:134384
+main.ts:134392
 
-___
+***
 
-### total\_pages
+### total\_pages?
 
-• `Optional` **total\_pages**: `number`
+> **`optional`** **total\_pages**: `number`
 
 total number of pages our database contains for the moment of checking
 
 #### Implementation of
 
-[IBacklinksIndexResultInfo](../interfaces/IBacklinksIndexResultInfo.md).[total_pages](../interfaces/IBacklinksIndexResultInfo.md#total_pages)
+[`IBacklinksIndexResultInfo`](../interfaces/IBacklinksIndexResultInfo.md).[`total_pages`](../interfaces/IBacklinksIndexResultInfo.md#total_pages)
 
-#### Defined in
+#### Source
 
-main.ts:134382
+main.ts:134390
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:134399
+main.ts:134407
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:134423
+main.ts:134431
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BacklinksIndexResultInfo`](BacklinksIndexResultInfo.md)
+> **`static`** **fromJS**(`data`): [`BacklinksIndexResultInfo`](BacklinksIndexResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BacklinksIndexResultInfo`](BacklinksIndexResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:134416
+main.ts:134424

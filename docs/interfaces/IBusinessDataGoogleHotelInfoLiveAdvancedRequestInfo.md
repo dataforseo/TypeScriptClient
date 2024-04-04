@@ -1,37 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo
 
 # Interface: IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo
 
-## Implemented by
-
-- [`BusinessDataGoogleHotelInfoLiveAdvancedRequestInfo`](../classes/BusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [adults](IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md#adults)
-- [check\_in](IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md#check_in)
-- [check\_out](IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md#check_out)
-- [children](IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md#children)
-- [currency](IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md#currency)
-- [hotel\_identifier](IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md#hotel_identifier)
-- [language\_code](IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md#language_code)
-- [language\_name](IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md#language_name)
-- [location\_code](IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md#location_code)
-- [location\_coordinate](IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md#location_coordinate)
-- [location\_name](IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md#location_name)
-- [tag](IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### adults
+### adults?
 
-• `Optional` **adults**: `number`
+> **`optional`** **adults**: `number`
 
 number of adults
 optional field
@@ -39,15 +22,15 @@ if you don’t specify this field, two adults will be used by default
 example:
 1
 
-#### Defined in
+#### Source
 
 main.ts:202221
 
-___
+***
 
-### check\_in
+### check\_in?
 
-• `Optional` **check\_in**: `string`
+> **`optional`** **check\_in**: `string`
 
 check-in date
 optional field
@@ -57,15 +40,15 @@ date format: "yyyy-mm-dd"
 example:
 "2019-01-15"
 
-#### Defined in
+#### Source
 
 main.ts:202201
 
-___
+***
 
-### check\_out
+### check\_out?
 
-• `Optional` **check\_out**: `string`
+> **`optional`** **check\_out**: `string`
 
 check-out date
 optional field
@@ -76,15 +59,15 @@ date format: "yyyy-mm-dd"
 example:
 "2019-01-15"
 
-#### Defined in
+#### Source
 
 main.ts:202210
 
-___
+***
 
-### children
+### children?
 
-• `Optional` **children**: `string`[]
+> **`optional`** **children**: `string`[]
 
 number and age of children
 optional field
@@ -94,30 +77,30 @@ set the following value if you want to include one 14-years-old child:
 set the following value if you want to include one 13-years-old child and one 8-years-old child:
 [13,8]
 
-#### Defined in
+#### Source
 
 main.ts:202229
 
-___
+***
 
-### currency
+### currency?
 
-• `Optional` **currency**: `string`
+> **`optional`** **currency**: `string`
 
 currency
 optional field
 example:
 "USD"
 
-#### Defined in
+#### Source
 
 main.ts:202215
 
-___
+***
 
-### hotel\_identifier
+### hotel\_identifier?
 
-• `Optional` **hotel\_identifier**: `string`
+> **`optional`** **hotel\_identifier**: `string`
 
 unique hotel identifier
 required field
@@ -126,15 +109,15 @@ you can obtain the value by making a request to Advanced Google SERP API (enclos
 example:
 ChYIq6SB--i6p6cpGgovbS8wN2s5ODZfEAE
 
-#### Defined in
+#### Source
 
 main.ts:202156
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -143,15 +126,15 @@ you can receive the list of available languages with their language_code by mak
 example:
 en
 
-#### Defined in
+#### Source
 
 main.ts:202193
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -160,15 +143,15 @@ you can receive the list of available languages with language_name by making a s
 example:
 English
 
-#### Defined in
+#### Source
 
 main.ts:202186
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -177,15 +160,15 @@ you can receive the list of available locations with location_code by making a s
 example:
 2840
 
-#### Defined in
+#### Source
 
 main.ts:202170
 
-___
+***
 
-### location\_coordinate
+### location\_coordinate?
 
-• `Optional` **location\_coordinate**: `string`
+> **`optional`** **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -196,15 +179,15 @@ Note: if the coordinates are used to set a location, the search will occur in th
 example:
 53.476225,-2.243572
 
-#### Defined in
+#### Source
 
 main.ts:202179
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -213,15 +196,15 @@ you can receive the list of available locations with location_name by making a s
 example:
 London,England,United Kingdom
 
-#### Defined in
+#### Source
 
 main.ts:202163
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -229,6 +212,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
 main.ts:202235

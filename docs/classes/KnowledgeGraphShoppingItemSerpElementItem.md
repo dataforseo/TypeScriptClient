@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KnowledgeGraphShoppingItemSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KnowledgeGraphShoppingItemSerpElementItem
 
 # Class: KnowledgeGraphShoppingItemSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-  ↳ **`KnowledgeGraphShoppingItemSerpElementItem`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KnowledgeGraphShoppingItemSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](KnowledgeGraphShoppingItemSerpElementItem.md#_discriminator)
-- [data\_attrid](KnowledgeGraphShoppingItemSerpElementItem.md#data_attrid)
-- [items](KnowledgeGraphShoppingItemSerpElementItem.md#items)
-- [position](KnowledgeGraphShoppingItemSerpElementItem.md#position)
-- [rank\_absolute](KnowledgeGraphShoppingItemSerpElementItem.md#rank_absolute)
-- [rank\_group](KnowledgeGraphShoppingItemSerpElementItem.md#rank_group)
-- [rectangle](KnowledgeGraphShoppingItemSerpElementItem.md#rectangle)
-- [title](KnowledgeGraphShoppingItemSerpElementItem.md#title)
-- [xpath](KnowledgeGraphShoppingItemSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](KnowledgeGraphShoppingItemSerpElementItem.md#init)
-- [toJSON](KnowledgeGraphShoppingItemSerpElementItem.md#tojson)
-- [fromJS](KnowledgeGraphShoppingItemSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KnowledgeGraphShoppingItemSerpElementItem(data)
 
-• **new KnowledgeGraphShoppingItemSerpElementItem**(`data?`): [`KnowledgeGraphShoppingItemSerpElementItem`](KnowledgeGraphShoppingItemSerpElementItem.md)
+> **new KnowledgeGraphShoppingItemSerpElementItem**(`data`?): [`KnowledgeGraphShoppingItemSerpElementItem`](KnowledgeGraphShoppingItemSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKnowledgeGraphShoppingItemSerpElementItem`](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md) |
+• **data?**: [`IKnowledgeGraphShoppingItemSerpElementItem`](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md)
 
 #### Returns
 
@@ -58,9 +34,9 @@
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[constructor](BaseSerpElementItem.md#constructor)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:27947
 
@@ -68,21 +44,21 @@ main.ts:27947
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[_discriminator](BaseSerpElementItem.md#_discriminator)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:19788
 
-___
+***
 
-### data\_attrid
+### data\_attrid?
 
-• `Optional` **data\_attrid**: `string`
+> **`optional`** **data\_attrid**: `string`
 
 google defined data attribute ID
 example:
@@ -90,34 +66,34 @@ kc:/shopping/gpc:organic-offers
 
 #### Implementation of
 
-[IKnowledgeGraphShoppingItemSerpElementItem](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md).[data_attrid](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md#data_attrid)
+[`IKnowledgeGraphShoppingItemSerpElementItem`](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md).[`data_attrid`](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md#data_attrid)
 
-#### Defined in
+#### Source
 
 main.ts:27936
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`KnowledgeGraphShoppingElement`](KnowledgeGraphShoppingElement.md)[]
+> **`optional`** **items**: [`KnowledgeGraphShoppingElement`](KnowledgeGraphShoppingElement.md)[]
 
 additional items present in the element
 if there are none, equals null
 
 #### Implementation of
 
-[IKnowledgeGraphShoppingItemSerpElementItem](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md).[items](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md#items)
+[`IKnowledgeGraphShoppingItemSerpElementItem`](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md).[`items`](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md#items)
 
-#### Defined in
+#### Source
 
 main.ts:27939
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -125,34 +101,34 @@ left, right
 
 #### Implementation of
 
-[IKnowledgeGraphShoppingItemSerpElementItem](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md).[position](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md#position)
+[`IKnowledgeGraphShoppingItemSerpElementItem`](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md).[`position`](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
 main.ts:27928
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
 #### Implementation of
 
-[IKnowledgeGraphShoppingItemSerpElementItem](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md).[rank_absolute](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md#rank_absolute)
+[`IKnowledgeGraphShoppingItemSerpElementItem`](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md).[`rank_absolute`](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
 main.ts:27924
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -160,17 +136,17 @@ positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
-[IKnowledgeGraphShoppingItemSerpElementItem](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md).[rank_group](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md#rank_group)
+[`IKnowledgeGraphShoppingItemSerpElementItem`](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md).[`rank_group`](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
 main.ts:27921
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -178,55 +154,53 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Implementation of
 
-[IKnowledgeGraphShoppingItemSerpElementItem](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md).[rectangle](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md#rectangle)
+[`IKnowledgeGraphShoppingItemSerpElementItem`](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md).[`rectangle`](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md#rectangle)
 
-#### Defined in
+#### Source
 
 main.ts:27943
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the place
 
 #### Implementation of
 
-[IKnowledgeGraphShoppingItemSerpElementItem](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md).[title](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md#title)
+[`IKnowledgeGraphShoppingItemSerpElementItem`](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md).[`title`](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:27932
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IKnowledgeGraphShoppingItemSerpElementItem](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md).[xpath](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md#xpath)
+[`IKnowledgeGraphShoppingItemSerpElementItem`](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md).[`xpath`](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
 main.ts:27930
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -234,23 +208,21 @@ main.ts:27930
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[init](BaseSerpElementItem.md#init)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:27952
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -258,23 +230,21 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[toJSON](BaseSerpElementItem.md#tojson)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:27981
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KnowledgeGraphShoppingItemSerpElementItem`](KnowledgeGraphShoppingItemSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`KnowledgeGraphShoppingItemSerpElementItem`](KnowledgeGraphShoppingItemSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -282,8 +252,8 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[fromJS](BaseSerpElementItem.md#fromjs)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:27974

@@ -1,125 +1,112 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo
 
-## Implemented by
-
-- [`DataforseoLabsGoogleRelatedKeywordsLiveResultInfo`](../classes/DataforseoLabsGoogleRelatedKeywordsLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo.md#items)
-- [items\_count](IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo.md#items_count)
-- [language\_code](IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo.md#language_code)
-- [location\_code](IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo.md#location_code)
-- [se\_type](IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo.md#se_type)
-- [seed\_keyword](IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo.md#seed_keyword)
-- [seed\_keyword\_data](IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo.md#seed_keyword_data)
-- [total\_count](IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo.md#total_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`DataforseoLabsGoogleRelatedKeywordsLiveItem`](../classes/DataforseoLabsGoogleRelatedKeywordsLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsGoogleRelatedKeywordsLiveItem`](../classes/DataforseoLabsGoogleRelatedKeywordsLiveItem.md)[]
 
 contains keywords and related data
 
-#### Defined in
+#### Source
 
-main.ts:82866
+main.ts:82874
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Defined in
+#### Source
 
-main.ts:82864
+main.ts:82872
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:82860
+main.ts:82868
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:82858
+main.ts:82866
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:82851
+main.ts:82859
 
-___
+***
 
-### seed\_keyword
+### seed\_keyword?
 
-• `Optional` **seed\_keyword**: `string`
+> **`optional`** **seed\_keyword**: `string`
 
 keyword in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:82853
+main.ts:82861
 
-___
+***
 
-### seed\_keyword\_data
+### seed\_keyword\_data?
 
-• `Optional` **seed\_keyword\_data**: `Object`
+> **`optional`** **seed\_keyword\_data**: `Object`
 
 keyword data for the seed keyword
 fields in the array are identical to that of keyword_data
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
-#### Defined in
+#### Source
 
-main.ts:82856
+main.ts:82864
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
-#### Defined in
+#### Source
 
-main.ts:82862
+main.ts:82870

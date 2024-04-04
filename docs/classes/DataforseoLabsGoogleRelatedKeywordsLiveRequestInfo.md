@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo
 
 # Class: DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo
 
@@ -8,63 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [depth](DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#depth)
-- [filters](DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#filters)
-- [ignore\_synonyms](DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#ignore_synonyms)
-- [include\_seed\_keyword](DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#include_seed_keyword)
-- [include\_serp\_info](DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#include_serp_info)
-- [keyword](DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#keyword)
-- [language\_code](DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#language_code)
-- [language\_name](DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#language_name)
-- [limit](DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#limit)
-- [location\_code](DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#location_code)
-- [location\_name](DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#location_name)
-- [offset](DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#offset)
-- [order\_by](DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#order_by)
-- [replace\_with\_core\_keyword](DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#replace_with_core_keyword)
-- [tag](DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#tag)
-
-### Methods
-
-- [init](DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#init)
-- [toJSON](DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#tojson)
-- [fromJS](DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo(data)
 
-• **new DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo**(`data?`): [`DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo`](DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md)
+> **new DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo`](DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md) |
+• **data?**: [`IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo`](DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:82470
+main.ts:82478
 
 ## Properties
 
-### depth
+### depth?
 
-• `Optional` **depth**: `number`
+> **`optional`** **depth**: `number`
 
 keyword search depth
 optional field
@@ -80,27 +52,27 @@ estimated number of keywords for each level (maximum):
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md).[depth](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#depth)
+[`IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md).[`depth`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#depth)
 
-#### Defined in
+#### Source
 
-main.ts:82393
+main.ts:82401
 
-___
+***
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, <=, >, >=, =, <>, in, not_in, like,not_like
+regex, <, `<=, >`, >=, =, `<>`, in, not_in, like,not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
-["keyword_info.search_volume",">",0]
+["keyword_info.search_volume",">`",0]
 [["keyword_info.search_volume","in",[0,1000]],
 "and",
 ["keyword_info.competition_level","=","LOW"]]
@@ -113,17 +85,17 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md).[filters](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#filters)
+[`IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md).[`filters`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#filters)
 
-#### Defined in
+#### Source
 
-main.ts:82434
+main.ts:82442
 
-___
+***
 
-### ignore\_synonyms
+### ignore\_synonyms?
 
-• `Optional` **ignore\_synonyms**: `boolean`
+> **`optional`** **ignore\_synonyms**: `boolean`
 
 ignore highly similar keywords
 optional field
@@ -132,17 +104,17 @@ default value: false
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md).[ignore_synonyms](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#ignore_synonyms)
+[`IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md).[`ignore_synonyms`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#ignore_synonyms)
 
-#### Defined in
+#### Source
 
-main.ts:82408
+main.ts:82416
 
-___
+***
 
-### include\_seed\_keyword
+### include\_seed\_keyword?
 
-• `Optional` **include\_seed\_keyword**: `boolean`
+> **`optional`** **include\_seed\_keyword**: `boolean`
 
 include data for the seed keyword
 optional field
@@ -151,17 +123,17 @@ default value: false
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md).[include_seed_keyword](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#include_seed_keyword)
+[`IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md).[`include_seed_keyword`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#include_seed_keyword)
 
-#### Defined in
+#### Source
 
-main.ts:82398
+main.ts:82406
 
-___
+***
 
-### include\_serp\_info
+### include\_serp\_info?
 
-• `Optional` **include\_serp\_info**: `boolean`
+> **`optional`** **include\_serp\_info**: `boolean`
 
 include data from SERP for each keyword
 optional field
@@ -170,17 +142,17 @@ default value: false
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md).[include_serp_info](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#include_serp_info)
+[`IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md).[`include_serp_info`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#include_serp_info)
 
-#### Defined in
+#### Source
 
-main.ts:82403
+main.ts:82411
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword
 required field
@@ -190,17 +162,17 @@ the keywords will be converted to lowercase format
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md).[keyword](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#keyword)
+[`IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md).[`keyword`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:82349
+main.ts:82357
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 required field if you don’t specify language_name
@@ -212,17 +184,17 @@ en
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md).[language_code](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#language_code)
+[`IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:82381
+main.ts:82389
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -234,17 +206,17 @@ English
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md).[language_name](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#language_name)
+[`IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:82373
+main.ts:82381
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned keywords
 optional field
@@ -253,17 +225,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md).[limit](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#limit)
+[`IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md).[`limit`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#limit)
 
-#### Defined in
+#### Source
 
-main.ts:82455
+main.ts:82463
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 required field if you don’t specify location_name
@@ -275,17 +247,17 @@ example:
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md).[location_code](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#location_code)
+[`IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:82365
+main.ts:82373
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code
@@ -297,17 +269,17 @@ United Kingdom
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md).[location_name](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#location_name)
+[`IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:82357
+main.ts:82365
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned keywords
 optional field
@@ -316,17 +288,17 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md).[offset](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#offset)
+[`IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md).[`offset`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#offset)
 
-#### Defined in
+#### Source
 
-main.ts:82460
+main.ts:82468
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -346,17 +318,17 @@ example:
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md).[order_by](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#order_by)
+[`IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md).[`order_by`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#order_by)
 
-#### Defined in
+#### Source
 
-main.ts:82450
+main.ts:82458
 
-___
+***
 
-### replace\_with\_core\_keyword
+### replace\_with\_core\_keyword?
 
-• `Optional` **replace\_with\_core\_keyword**: `boolean`
+> **`optional`** **replace\_with\_core\_keyword**: `boolean`
 
 return data for core keyword
 optional field
@@ -367,17 +339,17 @@ default value: false
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md).[replace_with_core_keyword](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#replace_with_core_keyword)
+[`IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md).[`replace_with_core_keyword`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#replace_with_core_keyword)
 
-#### Defined in
+#### Source
 
-main.ts:82415
+main.ts:82423
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -387,68 +359,62 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md).[tag](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#tag)
+[`IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:82466
+main.ts:82474
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:82479
+main.ts:82487
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:82518
+main.ts:82526
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo`](DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo`](DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo`](DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:82511
+main.ts:82519

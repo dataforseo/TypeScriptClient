@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixBacklinksPriceData
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppendixBacklinksPriceData
 
 # Class: AppendixBacklinksPriceData
 
@@ -8,399 +12,356 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixBacklinksPriceData.md#constructor)
-
-### Properties
-
-- [anchors](AppendixBacklinksPriceData.md#anchors)
-- [backlinks](AppendixBacklinksPriceData.md#backlinks)
-- [bulk\_backlinks](AppendixBacklinksPriceData.md#bulk_backlinks)
-- [bulk\_new\_lost\_backlinks](AppendixBacklinksPriceData.md#bulk_new_lost_backlinks)
-- [bulk\_new\_lost\_referring\_domains](AppendixBacklinksPriceData.md#bulk_new_lost_referring_domains)
-- [bulk\_ranks](AppendixBacklinksPriceData.md#bulk_ranks)
-- [bulk\_referring\_domains](AppendixBacklinksPriceData.md#bulk_referring_domains)
-- [competitors](AppendixBacklinksPriceData.md#competitors)
-- [content\_duplicates](AppendixBacklinksPriceData.md#content_duplicates)
-- [domain\_intersection](AppendixBacklinksPriceData.md#domain_intersection)
-- [domain\_pages](AppendixBacklinksPriceData.md#domain_pages)
-- [domain\_pages\_summary](AppendixBacklinksPriceData.md#domain_pages_summary)
-- [errors](AppendixBacklinksPriceData.md#errors)
-- [history](AppendixBacklinksPriceData.md#history)
-- [page\_intersection](AppendixBacklinksPriceData.md#page_intersection)
-- [referring\_domains](AppendixBacklinksPriceData.md#referring_domains)
-- [referring\_networks](AppendixBacklinksPriceData.md#referring_networks)
-- [summary](AppendixBacklinksPriceData.md#summary)
-- [timeseries\_new\_lost\_summary](AppendixBacklinksPriceData.md#timeseries_new_lost_summary)
-- [timeseries\_summary](AppendixBacklinksPriceData.md#timeseries_summary)
-
-### Methods
-
-- [init](AppendixBacklinksPriceData.md#init)
-- [toJSON](AppendixBacklinksPriceData.md#tojson)
-- [fromJS](AppendixBacklinksPriceData.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixBacklinksPriceData(data)
 
-• **new AppendixBacklinksPriceData**(`data?`): [`AppendixBacklinksPriceData`](AppendixBacklinksPriceData.md)
+> **new AppendixBacklinksPriceData**(`data`?): [`AppendixBacklinksPriceData`](AppendixBacklinksPriceData.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixBacklinksPriceData`](../interfaces/IAppendixBacklinksPriceData.md) |
+• **data?**: [`IAppendixBacklinksPriceData`](../interfaces/IAppendixBacklinksPriceData.md)
 
 #### Returns
 
 [`AppendixBacklinksPriceData`](AppendixBacklinksPriceData.md)
 
-#### Defined in
+#### Source
 
 main.ts:216431
 
 ## Properties
 
-### anchors
+### anchors?
 
-• `Optional` **anchors**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **anchors**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixBacklinksPriceData](../interfaces/IAppendixBacklinksPriceData.md).[anchors](../interfaces/IAppendixBacklinksPriceData.md#anchors)
+[`IAppendixBacklinksPriceData`](../interfaces/IAppendixBacklinksPriceData.md).[`anchors`](../interfaces/IAppendixBacklinksPriceData.md#anchors)
 
-#### Defined in
+#### Source
 
 main.ts:216408
 
-___
+***
 
-### backlinks
+### backlinks?
 
-• `Optional` **backlinks**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **backlinks**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixBacklinksPriceData](../interfaces/IAppendixBacklinksPriceData.md).[backlinks](../interfaces/IAppendixBacklinksPriceData.md#backlinks)
+[`IAppendixBacklinksPriceData`](../interfaces/IAppendixBacklinksPriceData.md).[`backlinks`](../interfaces/IAppendixBacklinksPriceData.md#backlinks)
 
-#### Defined in
+#### Source
 
 main.ts:216409
 
-___
+***
 
-### bulk\_backlinks
+### bulk\_backlinks?
 
-• `Optional` **bulk\_backlinks**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **bulk\_backlinks**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixBacklinksPriceData](../interfaces/IAppendixBacklinksPriceData.md).[bulk_backlinks](../interfaces/IAppendixBacklinksPriceData.md#bulk_backlinks)
+[`IAppendixBacklinksPriceData`](../interfaces/IAppendixBacklinksPriceData.md).[`bulk_backlinks`](../interfaces/IAppendixBacklinksPriceData.md#bulk_backlinks)
 
-#### Defined in
+#### Source
 
 main.ts:216410
 
-___
+***
 
-### bulk\_new\_lost\_backlinks
+### bulk\_new\_lost\_backlinks?
 
-• `Optional` **bulk\_new\_lost\_backlinks**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **bulk\_new\_lost\_backlinks**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixBacklinksPriceData](../interfaces/IAppendixBacklinksPriceData.md).[bulk_new_lost_backlinks](../interfaces/IAppendixBacklinksPriceData.md#bulk_new_lost_backlinks)
+[`IAppendixBacklinksPriceData`](../interfaces/IAppendixBacklinksPriceData.md).[`bulk_new_lost_backlinks`](../interfaces/IAppendixBacklinksPriceData.md#bulk_new_lost_backlinks)
 
-#### Defined in
+#### Source
 
 main.ts:216411
 
-___
+***
 
-### bulk\_new\_lost\_referring\_domains
+### bulk\_new\_lost\_referring\_domains?
 
-• `Optional` **bulk\_new\_lost\_referring\_domains**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **bulk\_new\_lost\_referring\_domains**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixBacklinksPriceData](../interfaces/IAppendixBacklinksPriceData.md).[bulk_new_lost_referring_domains](../interfaces/IAppendixBacklinksPriceData.md#bulk_new_lost_referring_domains)
+[`IAppendixBacklinksPriceData`](../interfaces/IAppendixBacklinksPriceData.md).[`bulk_new_lost_referring_domains`](../interfaces/IAppendixBacklinksPriceData.md#bulk_new_lost_referring_domains)
 
-#### Defined in
+#### Source
 
 main.ts:216412
 
-___
+***
 
-### bulk\_ranks
+### bulk\_ranks?
 
-• `Optional` **bulk\_ranks**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **bulk\_ranks**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixBacklinksPriceData](../interfaces/IAppendixBacklinksPriceData.md).[bulk_ranks](../interfaces/IAppendixBacklinksPriceData.md#bulk_ranks)
+[`IAppendixBacklinksPriceData`](../interfaces/IAppendixBacklinksPriceData.md).[`bulk_ranks`](../interfaces/IAppendixBacklinksPriceData.md#bulk_ranks)
 
-#### Defined in
+#### Source
 
 main.ts:216413
 
-___
+***
 
-### bulk\_referring\_domains
+### bulk\_referring\_domains?
 
-• `Optional` **bulk\_referring\_domains**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **bulk\_referring\_domains**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixBacklinksPriceData](../interfaces/IAppendixBacklinksPriceData.md).[bulk_referring_domains](../interfaces/IAppendixBacklinksPriceData.md#bulk_referring_domains)
+[`IAppendixBacklinksPriceData`](../interfaces/IAppendixBacklinksPriceData.md).[`bulk_referring_domains`](../interfaces/IAppendixBacklinksPriceData.md#bulk_referring_domains)
 
-#### Defined in
+#### Source
 
 main.ts:216414
 
-___
+***
 
-### competitors
+### competitors?
 
-• `Optional` **competitors**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **competitors**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixBacklinksPriceData](../interfaces/IAppendixBacklinksPriceData.md).[competitors](../interfaces/IAppendixBacklinksPriceData.md#competitors)
+[`IAppendixBacklinksPriceData`](../interfaces/IAppendixBacklinksPriceData.md).[`competitors`](../interfaces/IAppendixBacklinksPriceData.md#competitors)
 
-#### Defined in
+#### Source
 
 main.ts:216415
 
-___
+***
 
-### content\_duplicates
+### content\_duplicates?
 
-• `Optional` **content\_duplicates**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **content\_duplicates**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixBacklinksPriceData](../interfaces/IAppendixBacklinksPriceData.md).[content_duplicates](../interfaces/IAppendixBacklinksPriceData.md#content_duplicates)
+[`IAppendixBacklinksPriceData`](../interfaces/IAppendixBacklinksPriceData.md).[`content_duplicates`](../interfaces/IAppendixBacklinksPriceData.md#content_duplicates)
 
-#### Defined in
+#### Source
 
 main.ts:216416
 
-___
+***
 
-### domain\_intersection
+### domain\_intersection?
 
-• `Optional` **domain\_intersection**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **domain\_intersection**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixBacklinksPriceData](../interfaces/IAppendixBacklinksPriceData.md).[domain_intersection](../interfaces/IAppendixBacklinksPriceData.md#domain_intersection)
+[`IAppendixBacklinksPriceData`](../interfaces/IAppendixBacklinksPriceData.md).[`domain_intersection`](../interfaces/IAppendixBacklinksPriceData.md#domain_intersection)
 
-#### Defined in
+#### Source
 
 main.ts:216417
 
-___
+***
 
-### domain\_pages
+### domain\_pages?
 
-• `Optional` **domain\_pages**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **domain\_pages**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixBacklinksPriceData](../interfaces/IAppendixBacklinksPriceData.md).[domain_pages](../interfaces/IAppendixBacklinksPriceData.md#domain_pages)
+[`IAppendixBacklinksPriceData`](../interfaces/IAppendixBacklinksPriceData.md).[`domain_pages`](../interfaces/IAppendixBacklinksPriceData.md#domain_pages)
 
-#### Defined in
+#### Source
 
 main.ts:216418
 
-___
+***
 
-### domain\_pages\_summary
+### domain\_pages\_summary?
 
-• `Optional` **domain\_pages\_summary**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **domain\_pages\_summary**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixBacklinksPriceData](../interfaces/IAppendixBacklinksPriceData.md).[domain_pages_summary](../interfaces/IAppendixBacklinksPriceData.md#domain_pages_summary)
+[`IAppendixBacklinksPriceData`](../interfaces/IAppendixBacklinksPriceData.md).[`domain_pages_summary`](../interfaces/IAppendixBacklinksPriceData.md#domain_pages_summary)
 
-#### Defined in
+#### Source
 
 main.ts:216419
 
-___
+***
 
-### errors
+### errors?
 
-• `Optional` **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixBacklinksPriceData](../interfaces/IAppendixBacklinksPriceData.md).[errors](../interfaces/IAppendixBacklinksPriceData.md#errors)
+[`IAppendixBacklinksPriceData`](../interfaces/IAppendixBacklinksPriceData.md).[`errors`](../interfaces/IAppendixBacklinksPriceData.md#errors)
 
-#### Defined in
+#### Source
 
 main.ts:216420
 
-___
+***
 
-### history
+### history?
 
-• `Optional` **history**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **history**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixBacklinksPriceData](../interfaces/IAppendixBacklinksPriceData.md).[history](../interfaces/IAppendixBacklinksPriceData.md#history)
+[`IAppendixBacklinksPriceData`](../interfaces/IAppendixBacklinksPriceData.md).[`history`](../interfaces/IAppendixBacklinksPriceData.md#history)
 
-#### Defined in
+#### Source
 
 main.ts:216421
 
-___
+***
 
-### page\_intersection
+### page\_intersection?
 
-• `Optional` **page\_intersection**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **page\_intersection**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixBacklinksPriceData](../interfaces/IAppendixBacklinksPriceData.md).[page_intersection](../interfaces/IAppendixBacklinksPriceData.md#page_intersection)
+[`IAppendixBacklinksPriceData`](../interfaces/IAppendixBacklinksPriceData.md).[`page_intersection`](../interfaces/IAppendixBacklinksPriceData.md#page_intersection)
 
-#### Defined in
+#### Source
 
 main.ts:216422
 
-___
+***
 
-### referring\_domains
+### referring\_domains?
 
-• `Optional` **referring\_domains**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **referring\_domains**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixBacklinksPriceData](../interfaces/IAppendixBacklinksPriceData.md).[referring_domains](../interfaces/IAppendixBacklinksPriceData.md#referring_domains)
+[`IAppendixBacklinksPriceData`](../interfaces/IAppendixBacklinksPriceData.md).[`referring_domains`](../interfaces/IAppendixBacklinksPriceData.md#referring_domains)
 
-#### Defined in
+#### Source
 
 main.ts:216423
 
-___
+***
 
-### referring\_networks
+### referring\_networks?
 
-• `Optional` **referring\_networks**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **referring\_networks**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixBacklinksPriceData](../interfaces/IAppendixBacklinksPriceData.md).[referring_networks](../interfaces/IAppendixBacklinksPriceData.md#referring_networks)
+[`IAppendixBacklinksPriceData`](../interfaces/IAppendixBacklinksPriceData.md).[`referring_networks`](../interfaces/IAppendixBacklinksPriceData.md#referring_networks)
 
-#### Defined in
+#### Source
 
 main.ts:216424
 
-___
+***
 
-### summary
+### summary?
 
-• `Optional` **summary**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **summary**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixBacklinksPriceData](../interfaces/IAppendixBacklinksPriceData.md).[summary](../interfaces/IAppendixBacklinksPriceData.md#summary)
+[`IAppendixBacklinksPriceData`](../interfaces/IAppendixBacklinksPriceData.md).[`summary`](../interfaces/IAppendixBacklinksPriceData.md#summary)
 
-#### Defined in
+#### Source
 
 main.ts:216425
 
-___
+***
 
-### timeseries\_new\_lost\_summary
+### timeseries\_new\_lost\_summary?
 
-• `Optional` **timeseries\_new\_lost\_summary**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **timeseries\_new\_lost\_summary**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixBacklinksPriceData](../interfaces/IAppendixBacklinksPriceData.md).[timeseries_new_lost_summary](../interfaces/IAppendixBacklinksPriceData.md#timeseries_new_lost_summary)
+[`IAppendixBacklinksPriceData`](../interfaces/IAppendixBacklinksPriceData.md).[`timeseries_new_lost_summary`](../interfaces/IAppendixBacklinksPriceData.md#timeseries_new_lost_summary)
 
-#### Defined in
+#### Source
 
 main.ts:216426
 
-___
+***
 
-### timeseries\_summary
+### timeseries\_summary?
 
-• `Optional` **timeseries\_summary**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **timeseries\_summary**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixBacklinksPriceData](../interfaces/IAppendixBacklinksPriceData.md).[timeseries_summary](../interfaces/IAppendixBacklinksPriceData.md#timeseries_summary)
+[`IAppendixBacklinksPriceData`](../interfaces/IAppendixBacklinksPriceData.md).[`timeseries_summary`](../interfaces/IAppendixBacklinksPriceData.md#timeseries_summary)
 
-#### Defined in
+#### Source
 
 main.ts:216427
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:216440
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:216476
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppendixBacklinksPriceData`](AppendixBacklinksPriceData.md)
+> **`static`** **fromJS**(`data`): [`AppendixBacklinksPriceData`](AppendixBacklinksPriceData.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppendixBacklinksPriceData`](AppendixBacklinksPriceData.md)
 
-#### Defined in
+#### Source
 
 main.ts:216469

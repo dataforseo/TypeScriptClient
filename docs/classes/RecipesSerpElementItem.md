@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / RecipesSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / RecipesSerpElementItem
 
 # Class: RecipesSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-  ↳ **`RecipesSerpElementItem`**
 
 ## Implements
 
@@ -14,41 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](RecipesSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](RecipesSerpElementItem.md#_discriminator)
-- [items](RecipesSerpElementItem.md#items)
-- [position](RecipesSerpElementItem.md#position)
-- [rank\_absolute](RecipesSerpElementItem.md#rank_absolute)
-- [rank\_group](RecipesSerpElementItem.md#rank_group)
-- [rectangle](RecipesSerpElementItem.md#rectangle)
-- [xpath](RecipesSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](RecipesSerpElementItem.md#init)
-- [toJSON](RecipesSerpElementItem.md#tojson)
-- [fromJS](RecipesSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new RecipesSerpElementItem(data)
 
-• **new RecipesSerpElementItem**(`data?`): [`RecipesSerpElementItem`](RecipesSerpElementItem.md)
+> **new RecipesSerpElementItem**(`data`?): [`RecipesSerpElementItem`](RecipesSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IRecipesSerpElementItem`](../interfaces/IRecipesSerpElementItem.md) |
+• **data?**: [`IRecipesSerpElementItem`](../interfaces/IRecipesSerpElementItem.md)
 
 #### Returns
 
@@ -56,9 +34,9 @@
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[constructor](BaseSerpElementItem.md#constructor)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:32389
 
@@ -66,38 +44,38 @@ main.ts:32389
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[_discriminator](BaseSerpElementItem.md#_discriminator)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:19788
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`RecipesElement`](RecipesElement.md)[]
+> **`optional`** **items**: [`RecipesElement`](RecipesElement.md)[]
 
 additional items present in the element
 if there are none, equals null
 
 #### Implementation of
 
-[IRecipesSerpElementItem](../interfaces/IRecipesSerpElementItem.md).[items](../interfaces/IRecipesSerpElementItem.md#items)
+[`IRecipesSerpElementItem`](../interfaces/IRecipesSerpElementItem.md).[`items`](../interfaces/IRecipesSerpElementItem.md#items)
 
-#### Defined in
+#### Source
 
 main.ts:32381
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -105,17 +83,17 @@ left, right
 
 #### Implementation of
 
-[IRecipesSerpElementItem](../interfaces/IRecipesSerpElementItem.md).[position](../interfaces/IRecipesSerpElementItem.md#position)
+[`IRecipesSerpElementItem`](../interfaces/IRecipesSerpElementItem.md).[`position`](../interfaces/IRecipesSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
 main.ts:32376
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -123,17 +101,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IRecipesSerpElementItem](../interfaces/IRecipesSerpElementItem.md).[rank_absolute](../interfaces/IRecipesSerpElementItem.md#rank_absolute)
+[`IRecipesSerpElementItem`](../interfaces/IRecipesSerpElementItem.md).[`rank_absolute`](../interfaces/IRecipesSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
 main.ts:32372
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
@@ -142,17 +120,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IRecipesSerpElementItem](../interfaces/IRecipesSerpElementItem.md).[rank_group](../interfaces/IRecipesSerpElementItem.md#rank_group)
+[`IRecipesSerpElementItem`](../interfaces/IRecipesSerpElementItem.md).[`rank_group`](../interfaces/IRecipesSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
 main.ts:32368
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -160,39 +138,37 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Implementation of
 
-[IRecipesSerpElementItem](../interfaces/IRecipesSerpElementItem.md).[rectangle](../interfaces/IRecipesSerpElementItem.md#rectangle)
+[`IRecipesSerpElementItem`](../interfaces/IRecipesSerpElementItem.md).[`rectangle`](../interfaces/IRecipesSerpElementItem.md#rectangle)
 
-#### Defined in
+#### Source
 
 main.ts:32385
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IRecipesSerpElementItem](../interfaces/IRecipesSerpElementItem.md).[xpath](../interfaces/IRecipesSerpElementItem.md#xpath)
+[`IRecipesSerpElementItem`](../interfaces/IRecipesSerpElementItem.md).[`xpath`](../interfaces/IRecipesSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
 main.ts:32378
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -200,23 +176,21 @@ main.ts:32378
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[init](BaseSerpElementItem.md#init)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:32394
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -224,23 +198,21 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[toJSON](BaseSerpElementItem.md#tojson)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:32421
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`RecipesSerpElementItem`](RecipesSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`RecipesSerpElementItem`](RecipesSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -248,8 +220,8 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[fromJS](BaseSerpElementItem.md#fromjs)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:32414

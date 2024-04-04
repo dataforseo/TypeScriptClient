@@ -1,125 +1,112 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpBaiduOrganicTasksReadyResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ISerpBaiduOrganicTasksReadyResultInfo
 
 # Interface: ISerpBaiduOrganicTasksReadyResultInfo
 
-## Implemented by
-
-- [`SerpBaiduOrganicTasksReadyResultInfo`](../classes/SerpBaiduOrganicTasksReadyResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [date\_posted](ISerpBaiduOrganicTasksReadyResultInfo.md#date_posted)
-- [endpoint\_advanced](ISerpBaiduOrganicTasksReadyResultInfo.md#endpoint_advanced)
-- [endpoint\_html](ISerpBaiduOrganicTasksReadyResultInfo.md#endpoint_html)
-- [endpoint\_regular](ISerpBaiduOrganicTasksReadyResultInfo.md#endpoint_regular)
-- [id](ISerpBaiduOrganicTasksReadyResultInfo.md#id)
-- [se](ISerpBaiduOrganicTasksReadyResultInfo.md#se)
-- [se\_type](ISerpBaiduOrganicTasksReadyResultInfo.md#se_type)
-- [tag](ISerpBaiduOrganicTasksReadyResultInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### date\_posted
+### date\_posted?
 
-• `Optional` **date\_posted**: `string`
+> **`optional`** **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
-#### Defined in
+#### Source
 
-main.ts:68631
+main.ts:68639
 
-___
+***
 
-### endpoint\_advanced
+### endpoint\_advanced?
 
-• `Optional` **endpoint\_advanced**: `string`
+> **`optional`** **endpoint\_advanced**: `string`
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
 
-#### Defined in
+#### Source
 
-main.ts:68639
+main.ts:68647
 
-___
+***
 
-### endpoint\_html
+### endpoint\_html?
 
-• `Optional` **endpoint\_html**: `string`
+> **`optional`** **endpoint\_html**: `string`
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
 
-#### Defined in
+#### Source
 
-main.ts:68642
+main.ts:68650
 
-___
+***
 
-### endpoint\_regular
+### endpoint\_regular?
 
-• `Optional` **endpoint\_regular**: `string`
+> **`optional`** **endpoint\_regular**: `string`
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
 
-#### Defined in
+#### Source
 
-main.ts:68636
+main.ts:68644
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
-#### Defined in
+#### Source
 
-main.ts:68624
+main.ts:68632
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 
-#### Defined in
+#### Source
 
-main.ts:68626
+main.ts:68634
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 type of search engine
 can take the following values: organic
 
-#### Defined in
+#### Source
 
-main.ts:68629
+main.ts:68637
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
-#### Defined in
+#### Source
 
-main.ts:68633
+main.ts:68641

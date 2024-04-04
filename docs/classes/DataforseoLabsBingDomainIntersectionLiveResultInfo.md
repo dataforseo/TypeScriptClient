@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsBingDomainIntersectionLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsBingDomainIntersectionLiveResultInfo
 
 # Class: DataforseoLabsBingDomainIntersectionLiveResultInfo
 
@@ -8,120 +12,95 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsBingDomainIntersectionLiveResultInfo.md#constructor)
-
-### Properties
-
-- [items](DataforseoLabsBingDomainIntersectionLiveResultInfo.md#items)
-- [items\_count](DataforseoLabsBingDomainIntersectionLiveResultInfo.md#items_count)
-- [language\_code](DataforseoLabsBingDomainIntersectionLiveResultInfo.md#language_code)
-- [location\_code](DataforseoLabsBingDomainIntersectionLiveResultInfo.md#location_code)
-- [se\_type](DataforseoLabsBingDomainIntersectionLiveResultInfo.md#se_type)
-- [target1](DataforseoLabsBingDomainIntersectionLiveResultInfo.md#target1)
-- [target2](DataforseoLabsBingDomainIntersectionLiveResultInfo.md#target2)
-- [total\_count](DataforseoLabsBingDomainIntersectionLiveResultInfo.md#total_count)
-
-### Methods
-
-- [init](DataforseoLabsBingDomainIntersectionLiveResultInfo.md#init)
-- [toJSON](DataforseoLabsBingDomainIntersectionLiveResultInfo.md#tojson)
-- [fromJS](DataforseoLabsBingDomainIntersectionLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsBingDomainIntersectionLiveResultInfo(data)
 
-• **new DataforseoLabsBingDomainIntersectionLiveResultInfo**(`data?`): [`DataforseoLabsBingDomainIntersectionLiveResultInfo`](DataforseoLabsBingDomainIntersectionLiveResultInfo.md)
+> **new DataforseoLabsBingDomainIntersectionLiveResultInfo**(`data`?): [`DataforseoLabsBingDomainIntersectionLiveResultInfo`](DataforseoLabsBingDomainIntersectionLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsBingDomainIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md) |
+• **data?**: [`IDataforseoLabsBingDomainIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsBingDomainIntersectionLiveResultInfo`](DataforseoLabsBingDomainIntersectionLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:106107
+main.ts:106115
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`DataforseoLabsDomainIntersectionLiveItem`](DataforseoLabsDomainIntersectionLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsDomainIntersectionLiveItem`](DataforseoLabsDomainIntersectionLiveItem.md)[]
 
 contains keywords, relevant SERP elements and related data
 
 #### Implementation of
 
-[IDataforseoLabsBingDomainIntersectionLiveResultInfo](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md).[items](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md#items)
+[`IDataforseoLabsBingDomainIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:106103
+main.ts:106111
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[IDataforseoLabsBingDomainIntersectionLiveResultInfo](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md).[items_count](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md#items_count)
+[`IDataforseoLabsBingDomainIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:106101
+main.ts:106109
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsBingDomainIntersectionLiveResultInfo](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md).[language_code](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md#language_code)
+[`IDataforseoLabsBingDomainIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:106097
+main.ts:106105
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsBingDomainIntersectionLiveResultInfo](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md).[location_code](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md#location_code)
+[`IDataforseoLabsBingDomainIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:106095
+main.ts:106103
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 search engine type specified in a POST request;
@@ -129,116 +108,110 @@ for this endpoint, the field equals bing
 
 #### Implementation of
 
-[IDataforseoLabsBingDomainIntersectionLiveResultInfo](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md).[se_type](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md#se_type)
+[`IDataforseoLabsBingDomainIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:106089
+main.ts:106097
 
-___
+***
 
-### target1
+### target1?
 
-• `Optional` **target1**: `string`
-
-target specified in a POST array
-
-#### Implementation of
-
-[IDataforseoLabsBingDomainIntersectionLiveResultInfo](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md).[target1](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md#target1)
-
-#### Defined in
-
-main.ts:106091
-
-___
-
-### target2
-
-• `Optional` **target2**: `string`
+> **`optional`** **target1**: `string`
 
 target specified in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsBingDomainIntersectionLiveResultInfo](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md).[target2](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md#target2)
+[`IDataforseoLabsBingDomainIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md).[`target1`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md#target1)
 
-#### Defined in
+#### Source
 
-main.ts:106093
+main.ts:106099
 
-___
+***
 
-### total\_count
+### target2?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **target2**: `string`
+
+target specified in a POST array
+
+#### Implementation of
+
+[`IDataforseoLabsBingDomainIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md).[`target2`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md#target2)
+
+#### Source
+
+main.ts:106101
+
+***
+
+### total\_count?
+
+> **`optional`** **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
 #### Implementation of
 
-[IDataforseoLabsBingDomainIntersectionLiveResultInfo](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md).[total_count](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md#total_count)
+[`IDataforseoLabsBingDomainIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md#total_count)
 
-#### Defined in
+#### Source
 
-main.ts:106099
+main.ts:106107
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:106116
+main.ts:106124
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:106144
+main.ts:106152
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsBingDomainIntersectionLiveResultInfo`](DataforseoLabsBingDomainIntersectionLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsBingDomainIntersectionLiveResultInfo`](DataforseoLabsBingDomainIntersectionLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsBingDomainIntersectionLiveResultInfo`](DataforseoLabsBingDomainIntersectionLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:106137
+main.ts:106145

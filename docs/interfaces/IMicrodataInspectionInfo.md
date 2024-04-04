@@ -1,44 +1,37 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMicrodataInspectionInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IMicrodataInspectionInfo
 
 # Interface: IMicrodataInspectionInfo
 
-## Implemented by
-
-- [`MicrodataInspectionInfo`](../classes/MicrodataInspectionInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [fields](IMicrodataInspectionInfo.md#fields)
-- [types](IMicrodataInspectionInfo.md#types)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### fields
+### fields?
 
-• `Optional` **fields**: [`MicrodataFieldsInfo`](../classes/MicrodataFieldsInfo.md)[]
+> **`optional`** **fields**: [`MicrodataFieldsInfo`](../classes/MicrodataFieldsInfo.md)[]
 
 microdata fields
 an array of objects containing data fields related to the certain microdata type
 
-#### Defined in
+#### Source
 
-main.ts:156305
+main.ts:156313
 
-___
+***
 
-### types
+### types?
 
-• `Optional` **types**: `string`[]
+> **`optional`** **types**: `string`[]
 
 parent microdata types
 for a full list of available types, please visit schema.org
 
-#### Defined in
+#### Source
 
-main.ts:156302
+main.ts:156310

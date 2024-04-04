@@ -1,49 +1,35 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo
 
-## Implemented by
-
-- [`DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo`](../classes/DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [ignore\_synonyms](IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md#ignore_synonyms)
-- [language\_code](IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md#language_code)
-- [language\_name](IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md#language_name)
-- [limit](IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md#limit)
-- [location\_code](IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md#location_code)
-- [location\_name](IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md#location_name)
-- [offset](IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md#offset)
-- [tag](IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md#tag)
-- [target](IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md#target)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### ignore\_synonyms
+### ignore\_synonyms?
 
-• `Optional` **ignore\_synonyms**: `boolean`
+> **`optional`** **ignore\_synonyms**: `boolean`
 
 ignore highly similar keywords
 optional field
 if set to true, all highly similar keywords will be excluded from the ranking and traffic calculations, the results will be based on data for main keywords from groups of synonyms
 default value: false
 
-#### Defined in
+#### Source
 
-main.ts:93024
+main.ts:93032
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 optional field
@@ -54,15 +40,15 @@ ignore this field to get the results for all available languages
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:93019
+main.ts:93027
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 optional field
@@ -73,30 +59,30 @@ ignore this field to get the results for all available languages
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:93010
+main.ts:93018
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned results for domain
 optional field
 default value: 100
 maximum value: 1000
 
-#### Defined in
+#### Source
 
-main.ts:93029
+main.ts:93037
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 optional field
@@ -107,15 +93,15 @@ ignore this field to get the results for all available locations
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:93001
+main.ts:93009
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 optional field
@@ -126,30 +112,30 @@ ignore this field to get the results for all available locations
 example:
 United Kingdom
 
-#### Defined in
+#### Source
 
-main.ts:92992
+main.ts:93000
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned items
 optional field
 default value: 0
 if you specify the 10 value, the first ten items in the results array will be omitted and the data will be provided for the successive items
 
-#### Defined in
+#### Source
 
-main.ts:93034
+main.ts:93042
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -157,21 +143,21 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:93040
+main.ts:93048
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 domain
 required field
 the domain name of the target website
 the domain should be specified without https:// and www.
 
-#### Defined in
+#### Source
 
-main.ts:92983
+main.ts:92991

@@ -1,29 +1,23 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IImageUrlInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IImageUrlInfo
 
 # Interface: IImageUrlInfo
 
-## Implemented by
-
-- [`ImageUrlInfo`](../classes/ImageUrlInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [url](IImageUrlInfo.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL of the image used in the review
 
-#### Defined in
+#### Source
 
 main.ts:207840

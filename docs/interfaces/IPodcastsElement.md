@@ -1,97 +1,86 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IPodcastsElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IPodcastsElement
 
 # Interface: IPodcastsElement
 
-## Implemented by
-
-- [`PodcastsElement`](../classes/PodcastsElement.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [description](IPodcastsElement.md#description)
-- [time\_to\_play](IPodcastsElement.md#time_to_play)
-- [timestamp](IPodcastsElement.md#timestamp)
-- [title](IPodcastsElement.md#title)
-- [type](IPodcastsElement.md#type)
-- [url](IPodcastsElement.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description
 
-#### Defined in
+#### Source
 
-main.ts:33105
+main.ts:33111
 
-___
+***
 
-### time\_to\_play
+### time\_to\_play?
 
-• `Optional` **time\_to\_play**: `string`
+> **`optional`** **time\_to\_play**: `string`
 
 the total time it will take to play an episode
 
-#### Defined in
+#### Source
 
-main.ts:33112
+main.ts:33118
 
-___
+***
 
-### timestamp
+### timestamp?
 
-• `Optional` **timestamp**: `string`
+> **`optional`** **timestamp**: `string`
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
-main.ts:33110
+main.ts:33116
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
-#### Defined in
+#### Source
 
-main.ts:33101
+main.ts:33107
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:33099
+main.ts:33105
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL
 
-#### Defined in
+#### Source
 
-main.ts:33103
+main.ts:33109

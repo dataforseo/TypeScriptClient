@@ -1,73 +1,64 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IPeopleAlsoSearch
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IPeopleAlsoSearch
 
 # Interface: IPeopleAlsoSearch
 
-## Implemented by
-
-- [`PeopleAlsoSearch`](../classes/PeopleAlsoSearch.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [cid](IPeopleAlsoSearch.md#cid)
-- [feature\_id](IPeopleAlsoSearch.md#feature_id)
-- [rating](IPeopleAlsoSearch.md#rating)
-- [title](IPeopleAlsoSearch.md#title)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### cid
+### cid?
 
-• `Optional` **cid**: `string`
+> **`optional`** **cid**: `string`
 
 google-defined client id
 unique id of a local establishment
 learn more about the identifier in this help center article
 
-#### Defined in
+#### Source
 
 main.ts:194195
 
-___
+***
 
-### feature\_id
+### feature\_id?
 
-• `Optional` **feature\_id**: `string`
+> **`optional`** **feature\_id**: `string`
 
 the unique identifier of the element in SERP
 learn more about the identifier in this help center article
 
-#### Defined in
+#### Source
 
 main.ts:194198
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
 the element’s rating 
 the popularity rate based on reviews and displayed in SERP
 
-#### Defined in
+#### Source
 
 main.ts:194204
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the element in SERP
 the name of the business entity for which the results are collected
 
-#### Defined in
+#### Source
 
 main.ts:194201

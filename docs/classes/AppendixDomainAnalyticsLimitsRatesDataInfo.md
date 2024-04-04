@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixDomainAnalyticsLimitsRatesDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppendixDomainAnalyticsLimitsRatesDataInfo
 
 # Class: AppendixDomainAnalyticsLimitsRatesDataInfo
 
@@ -8,159 +12,132 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixDomainAnalyticsLimitsRatesDataInfo.md#constructor)
-
-### Properties
-
-- [errors](AppendixDomainAnalyticsLimitsRatesDataInfo.md#errors)
-- [tasks\_ready](AppendixDomainAnalyticsLimitsRatesDataInfo.md#tasks_ready)
-- [technologies](AppendixDomainAnalyticsLimitsRatesDataInfo.md#technologies)
-- [whois](AppendixDomainAnalyticsLimitsRatesDataInfo.md#whois)
-
-### Methods
-
-- [init](AppendixDomainAnalyticsLimitsRatesDataInfo.md#init)
-- [toJSON](AppendixDomainAnalyticsLimitsRatesDataInfo.md#tojson)
-- [fromJS](AppendixDomainAnalyticsLimitsRatesDataInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixDomainAnalyticsLimitsRatesDataInfo(data)
 
-• **new AppendixDomainAnalyticsLimitsRatesDataInfo**(`data?`): [`AppendixDomainAnalyticsLimitsRatesDataInfo`](AppendixDomainAnalyticsLimitsRatesDataInfo.md)
+> **new AppendixDomainAnalyticsLimitsRatesDataInfo**(`data`?): [`AppendixDomainAnalyticsLimitsRatesDataInfo`](AppendixDomainAnalyticsLimitsRatesDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixDomainAnalyticsLimitsRatesDataInfo.md) |
+• **data?**: [`IAppendixDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixDomainAnalyticsLimitsRatesDataInfo.md)
 
 #### Returns
 
 [`AppendixDomainAnalyticsLimitsRatesDataInfo`](AppendixDomainAnalyticsLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:212905
 
 ## Properties
 
-### errors
+### errors?
 
-• `Optional` **errors**: `number`
+> **`optional`** **errors**: `number`
 
 #### Implementation of
 
-[IAppendixDomainAnalyticsLimitsRatesDataInfo](../interfaces/IAppendixDomainAnalyticsLimitsRatesDataInfo.md).[errors](../interfaces/IAppendixDomainAnalyticsLimitsRatesDataInfo.md#errors)
+[`IAppendixDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixDomainAnalyticsLimitsRatesDataInfo.md).[`errors`](../interfaces/IAppendixDomainAnalyticsLimitsRatesDataInfo.md#errors)
 
-#### Defined in
+#### Source
 
 main.ts:212899
 
-___
+***
 
-### tasks\_ready
+### tasks\_ready?
 
-• `Optional` **tasks\_ready**: `number`
+> **`optional`** **tasks\_ready**: `number`
 
 #### Implementation of
 
-[IAppendixDomainAnalyticsLimitsRatesDataInfo](../interfaces/IAppendixDomainAnalyticsLimitsRatesDataInfo.md).[tasks_ready](../interfaces/IAppendixDomainAnalyticsLimitsRatesDataInfo.md#tasks_ready)
+[`IAppendixDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixDomainAnalyticsLimitsRatesDataInfo.md).[`tasks_ready`](../interfaces/IAppendixDomainAnalyticsLimitsRatesDataInfo.md#tasks_ready)
 
-#### Defined in
+#### Source
 
 main.ts:212898
 
-___
+***
 
-### technologies
+### technologies?
 
-• `Optional` **technologies**: [`AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md)
+> **`optional`** **technologies**: [`AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDomainAnalyticsLimitsRatesDataInfo](../interfaces/IAppendixDomainAnalyticsLimitsRatesDataInfo.md).[technologies](../interfaces/IAppendixDomainAnalyticsLimitsRatesDataInfo.md#technologies)
+[`IAppendixDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixDomainAnalyticsLimitsRatesDataInfo.md).[`technologies`](../interfaces/IAppendixDomainAnalyticsLimitsRatesDataInfo.md#technologies)
 
-#### Defined in
+#### Source
 
 main.ts:212901
 
-___
+***
 
-### whois
+### whois?
 
-• `Optional` **whois**: [`AppendixWhoisDomainAnalyticsLimitsRatesDataInfo`](AppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md)
+> **`optional`** **whois**: [`AppendixWhoisDomainAnalyticsLimitsRatesDataInfo`](AppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md)
 
 #### Implementation of
 
-[IAppendixDomainAnalyticsLimitsRatesDataInfo](../interfaces/IAppendixDomainAnalyticsLimitsRatesDataInfo.md).[whois](../interfaces/IAppendixDomainAnalyticsLimitsRatesDataInfo.md#whois)
+[`IAppendixDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixDomainAnalyticsLimitsRatesDataInfo.md).[`whois`](../interfaces/IAppendixDomainAnalyticsLimitsRatesDataInfo.md#whois)
 
-#### Defined in
+#### Source
 
 main.ts:212900
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:212914
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:212934
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppendixDomainAnalyticsLimitsRatesDataInfo`](AppendixDomainAnalyticsLimitsRatesDataInfo.md)
+> **`static`** **fromJS**(`data`): [`AppendixDomainAnalyticsLimitsRatesDataInfo`](AppendixDomainAnalyticsLimitsRatesDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppendixDomainAnalyticsLimitsRatesDataInfo`](AppendixDomainAnalyticsLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:212927

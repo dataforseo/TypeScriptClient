@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentAnalysisCategoriesInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ContentAnalysisCategoriesInfo
 
 # Class: ContentAnalysisCategoriesInfo
 
@@ -8,129 +12,104 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ContentAnalysisCategoriesInfo.md#constructor)
-
-### Properties
-
-- [category](ContentAnalysisCategoriesInfo.md#category)
-- [count](ContentAnalysisCategoriesInfo.md#count)
-
-### Methods
-
-- [init](ContentAnalysisCategoriesInfo.md#init)
-- [toJSON](ContentAnalysisCategoriesInfo.md#tojson)
-- [fromJS](ContentAnalysisCategoriesInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ContentAnalysisCategoriesInfo(data)
 
-• **new ContentAnalysisCategoriesInfo**(`data?`): [`ContentAnalysisCategoriesInfo`](ContentAnalysisCategoriesInfo.md)
+> **new ContentAnalysisCategoriesInfo**(`data`?): [`ContentAnalysisCategoriesInfo`](ContentAnalysisCategoriesInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IContentAnalysisCategoriesInfo`](../interfaces/IContentAnalysisCategoriesInfo.md) |
+• **data?**: [`IContentAnalysisCategoriesInfo`](../interfaces/IContentAnalysisCategoriesInfo.md)
 
 #### Returns
 
 [`ContentAnalysisCategoriesInfo`](ContentAnalysisCategoriesInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:22176
 
 ## Properties
 
-### category
+### category?
 
-• `Optional` **category**: `number`[]
+> **`optional`** **category**: `number`[]
 
 #### Implementation of
 
-[IContentAnalysisCategoriesInfo](../interfaces/IContentAnalysisCategoriesInfo.md).[category](../interfaces/IContentAnalysisCategoriesInfo.md#category)
+[`IContentAnalysisCategoriesInfo`](../interfaces/IContentAnalysisCategoriesInfo.md).[`category`](../interfaces/IContentAnalysisCategoriesInfo.md#category)
 
-#### Defined in
+#### Source
 
 main.ts:22171
 
-___
+***
 
-### count
+### count?
 
-• `Optional` **count**: `number`
+> **`optional`** **count**: `number`
 
 #### Implementation of
 
-[IContentAnalysisCategoriesInfo](../interfaces/IContentAnalysisCategoriesInfo.md).[count](../interfaces/IContentAnalysisCategoriesInfo.md#count)
+[`IContentAnalysisCategoriesInfo`](../interfaces/IContentAnalysisCategoriesInfo.md).[`count`](../interfaces/IContentAnalysisCategoriesInfo.md#count)
 
-#### Defined in
+#### Source
 
 main.ts:22172
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:22185
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:22207
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ContentAnalysisCategoriesInfo`](ContentAnalysisCategoriesInfo.md)
+> **`static`** **fromJS**(`data`): [`ContentAnalysisCategoriesInfo`](ContentAnalysisCategoriesInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ContentAnalysisCategoriesInfo`](ContentAnalysisCategoriesInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:22200

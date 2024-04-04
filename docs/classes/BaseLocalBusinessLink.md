@@ -1,16 +1,16 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BaseLocalBusinessLink
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BaseLocalBusinessLink
 
 # Class: BaseLocalBusinessLink
 
-## Hierarchy
+## Extended by
 
-- **`BaseLocalBusinessLink`**
-
-  ↳ [`LocalBusinessReservationLink`](LocalBusinessReservationLink.md)
-
-  ↳ [`LocalBusinessOrderLink`](LocalBusinessOrderLink.md)
-
-  ↳ [`LocalBusinessMenuLink`](LocalBusinessMenuLink.md)
+- [`LocalBusinessReservationLink`](LocalBusinessReservationLink.md)
+- [`LocalBusinessOrderLink`](LocalBusinessOrderLink.md)
+- [`LocalBusinessMenuLink`](LocalBusinessMenuLink.md)
 
 ## Implements
 
@@ -18,41 +18,23 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BaseLocalBusinessLink.md#constructor)
-
-### Properties
-
-- [\_discriminator](BaseLocalBusinessLink.md#_discriminator)
-
-### Methods
-
-- [init](BaseLocalBusinessLink.md#init)
-- [toJSON](BaseLocalBusinessLink.md#tojson)
-- [fromJS](BaseLocalBusinessLink.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BaseLocalBusinessLink(data)
 
-• **new BaseLocalBusinessLink**(`data?`): [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md)
+> **new BaseLocalBusinessLink**(`data`?): [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBaseLocalBusinessLink`](../interfaces/IBaseLocalBusinessLink.md) |
+• **data?**: [`IBaseLocalBusinessLink`](../interfaces/IBaseLocalBusinessLink.md)
 
 #### Returns
 
 [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md)
 
-#### Defined in
+#### Source
 
 main.ts:22728
 
@@ -60,68 +42,62 @@ main.ts:22728
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
-#### Defined in
+#### Source
 
 main.ts:22726
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:22738
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:22769
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md)
+> **`static`** **fromJS**(`data`): [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md)
 
-#### Defined in
+#### Source
 
 main.ts:22747

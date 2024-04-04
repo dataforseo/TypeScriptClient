@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageLighthouseLiveJsonRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPageLighthouseLiveJsonRequestInfo
 
 # Class: OnPageLighthouseLiveJsonRequestInfo
 
@@ -8,56 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPageLighthouseLiveJsonRequestInfo.md#constructor)
-
-### Properties
-
-- [audits](OnPageLighthouseLiveJsonRequestInfo.md#audits)
-- [categories](OnPageLighthouseLiveJsonRequestInfo.md#categories)
-- [for\_mobile](OnPageLighthouseLiveJsonRequestInfo.md#for_mobile)
-- [language\_code](OnPageLighthouseLiveJsonRequestInfo.md#language_code)
-- [language\_name](OnPageLighthouseLiveJsonRequestInfo.md#language_name)
-- [tag](OnPageLighthouseLiveJsonRequestInfo.md#tag)
-- [url](OnPageLighthouseLiveJsonRequestInfo.md#url)
-- [version](OnPageLighthouseLiveJsonRequestInfo.md#version)
-
-### Methods
-
-- [init](OnPageLighthouseLiveJsonRequestInfo.md#init)
-- [toJSON](OnPageLighthouseLiveJsonRequestInfo.md#tojson)
-- [fromJS](OnPageLighthouseLiveJsonRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPageLighthouseLiveJsonRequestInfo(data)
 
-• **new OnPageLighthouseLiveJsonRequestInfo**(`data?`): [`OnPageLighthouseLiveJsonRequestInfo`](OnPageLighthouseLiveJsonRequestInfo.md)
+> **new OnPageLighthouseLiveJsonRequestInfo**(`data`?): [`OnPageLighthouseLiveJsonRequestInfo`](OnPageLighthouseLiveJsonRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPageLighthouseLiveJsonRequestInfo`](../interfaces/IOnPageLighthouseLiveJsonRequestInfo.md) |
+• **data?**: [`IOnPageLighthouseLiveJsonRequestInfo`](../interfaces/IOnPageLighthouseLiveJsonRequestInfo.md)
 
 #### Returns
 
 [`OnPageLighthouseLiveJsonRequestInfo`](OnPageLighthouseLiveJsonRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:160190
+main.ts:160198
 
 ## Properties
 
-### audits
+### audits?
 
-• `Optional` **audits**: `string`[]
+> **`optional`** **audits**: `string`[]
 
 Lighthouse audits
 optional field
@@ -74,17 +53,17 @@ you can get the full list of possible audits here
 
 #### Implementation of
 
-[IOnPageLighthouseLiveJsonRequestInfo](../interfaces/IOnPageLighthouseLiveJsonRequestInfo.md).[audits](../interfaces/IOnPageLighthouseLiveJsonRequestInfo.md#audits)
+[`IOnPageLighthouseLiveJsonRequestInfo`](../interfaces/IOnPageLighthouseLiveJsonRequestInfo.md).[`audits`](../interfaces/IOnPageLighthouseLiveJsonRequestInfo.md#audits)
 
-#### Defined in
+#### Source
 
-main.ts:160163
+main.ts:160171
 
-___
+***
 
-### categories
+### categories?
 
-• `Optional` **categories**: `string`[]
+> **`optional`** **categories**: `string`[]
 
 categories of Lighthouse audits
 optional field
@@ -96,17 +75,17 @@ seo, pwa, performance, best_practices, accessibility
 
 #### Implementation of
 
-[IOnPageLighthouseLiveJsonRequestInfo](../interfaces/IOnPageLighthouseLiveJsonRequestInfo.md).[categories](../interfaces/IOnPageLighthouseLiveJsonRequestInfo.md#categories)
+[`IOnPageLighthouseLiveJsonRequestInfo`](../interfaces/IOnPageLighthouseLiveJsonRequestInfo.md).[`categories`](../interfaces/IOnPageLighthouseLiveJsonRequestInfo.md#categories)
 
-#### Defined in
+#### Source
 
-main.ts:160150
+main.ts:160158
 
-___
+***
 
-### for\_mobile
+### for\_mobile?
 
-• `Optional` **for\_mobile**: `boolean`
+> **`optional`** **for\_mobile**: `boolean`
 
 applies mobile emulation
 optional field
@@ -116,17 +95,17 @@ default value: false
 
 #### Implementation of
 
-[IOnPageLighthouseLiveJsonRequestInfo](../interfaces/IOnPageLighthouseLiveJsonRequestInfo.md).[for_mobile](../interfaces/IOnPageLighthouseLiveJsonRequestInfo.md#for_mobile)
+[`IOnPageLighthouseLiveJsonRequestInfo`](../interfaces/IOnPageLighthouseLiveJsonRequestInfo.md).[`for_mobile`](../interfaces/IOnPageLighthouseLiveJsonRequestInfo.md#for_mobile)
 
-#### Defined in
+#### Source
 
-main.ts:160142
+main.ts:160150
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 lighthouse language code
 optional field
@@ -136,17 +115,17 @@ en
 
 #### Implementation of
 
-[IOnPageLighthouseLiveJsonRequestInfo](../interfaces/IOnPageLighthouseLiveJsonRequestInfo.md).[language_code](../interfaces/IOnPageLighthouseLiveJsonRequestInfo.md#language_code)
+[`IOnPageLighthouseLiveJsonRequestInfo`](../interfaces/IOnPageLighthouseLiveJsonRequestInfo.md).[`language_code`](../interfaces/IOnPageLighthouseLiveJsonRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:160180
+main.ts:160188
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 lighthouse language name
 optional field
@@ -156,17 +135,17 @@ English
 
 #### Implementation of
 
-[IOnPageLighthouseLiveJsonRequestInfo](../interfaces/IOnPageLighthouseLiveJsonRequestInfo.md).[language_name](../interfaces/IOnPageLighthouseLiveJsonRequestInfo.md#language_name)
+[`IOnPageLighthouseLiveJsonRequestInfo`](../interfaces/IOnPageLighthouseLiveJsonRequestInfo.md).[`language_name`](../interfaces/IOnPageLighthouseLiveJsonRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:160174
+main.ts:160182
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -176,17 +155,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IOnPageLighthouseLiveJsonRequestInfo](../interfaces/IOnPageLighthouseLiveJsonRequestInfo.md).[tag](../interfaces/IOnPageLighthouseLiveJsonRequestInfo.md#tag)
+[`IOnPageLighthouseLiveJsonRequestInfo`](../interfaces/IOnPageLighthouseLiveJsonRequestInfo.md).[`tag`](../interfaces/IOnPageLighthouseLiveJsonRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:160186
+main.ts:160194
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 target URL
 required field
@@ -196,17 +175,17 @@ https://dataforseo.com/
 
 #### Implementation of
 
-[IOnPageLighthouseLiveJsonRequestInfo](../interfaces/IOnPageLighthouseLiveJsonRequestInfo.md).[url](../interfaces/IOnPageLighthouseLiveJsonRequestInfo.md#url)
+[`IOnPageLighthouseLiveJsonRequestInfo`](../interfaces/IOnPageLighthouseLiveJsonRequestInfo.md).[`url`](../interfaces/IOnPageLighthouseLiveJsonRequestInfo.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:160136
+main.ts:160144
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 lighthouse version
 optional field
@@ -215,68 +194,62 @@ the list of available versions is available through the Lighthouse Versions endp
 
 #### Implementation of
 
-[IOnPageLighthouseLiveJsonRequestInfo](../interfaces/IOnPageLighthouseLiveJsonRequestInfo.md).[version](../interfaces/IOnPageLighthouseLiveJsonRequestInfo.md#version)
+[`IOnPageLighthouseLiveJsonRequestInfo`](../interfaces/IOnPageLighthouseLiveJsonRequestInfo.md).[`version`](../interfaces/IOnPageLighthouseLiveJsonRequestInfo.md#version)
 
-#### Defined in
+#### Source
 
-main.ts:160168
+main.ts:160176
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:160199
+main.ts:160207
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:160231
+main.ts:160239
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPageLighthouseLiveJsonRequestInfo`](OnPageLighthouseLiveJsonRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`OnPageLighthouseLiveJsonRequestInfo`](OnPageLighthouseLiveJsonRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`OnPageLighthouseLiveJsonRequestInfo`](OnPageLighthouseLiveJsonRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:160224
+main.ts:160232

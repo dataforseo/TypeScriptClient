@@ -1,22 +1,19 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BaseAppDataSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BaseAppDataSerpElementItem
 
 # Class: BaseAppDataSerpElementItem
 
-## Hierarchy
+## Extended by
 
-- **`BaseAppDataSerpElementItem`**
-
-  ↳ [`AppDataGooglePlaySearchOrganicSerpElementItem`](AppDataGooglePlaySearchOrganicSerpElementItem.md)
-
-  ↳ [`AppDataAppStoreSearchOrganicSerpElementItem`](AppDataAppStoreSearchOrganicSerpElementItem.md)
-
-  ↳ [`AppDataGooglePlayInfoOrganicSerpElementItem`](AppDataGooglePlayInfoOrganicSerpElementItem.md)
-
-  ↳ [`AppDataGooglePlayReviewsSearchSerpElementItem`](AppDataGooglePlayReviewsSearchSerpElementItem.md)
-
-  ↳ [`AppDataAppStoreInfoOrganicSerpElementItem`](AppDataAppStoreInfoOrganicSerpElementItem.md)
-
-  ↳ [`AppDataAppStoreReviewsSearchSerpElementItem`](AppDataAppStoreReviewsSearchSerpElementItem.md)
+- [`AppDataGooglePlaySearchOrganicSerpElementItem`](AppDataGooglePlaySearchOrganicSerpElementItem.md)
+- [`AppDataAppStoreSearchOrganicSerpElementItem`](AppDataAppStoreSearchOrganicSerpElementItem.md)
+- [`AppDataGooglePlayInfoOrganicSerpElementItem`](AppDataGooglePlayInfoOrganicSerpElementItem.md)
+- [`AppDataGooglePlayReviewsSearchSerpElementItem`](AppDataGooglePlayReviewsSearchSerpElementItem.md)
+- [`AppDataAppStoreInfoOrganicSerpElementItem`](AppDataAppStoreInfoOrganicSerpElementItem.md)
+- [`AppDataAppStoreReviewsSearchSerpElementItem`](AppDataAppStoreReviewsSearchSerpElementItem.md)
 
 ## Implements
 
@@ -24,41 +21,23 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BaseAppDataSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](BaseAppDataSerpElementItem.md#_discriminator)
-
-### Methods
-
-- [init](BaseAppDataSerpElementItem.md#init)
-- [toJSON](BaseAppDataSerpElementItem.md#tojson)
-- [fromJS](BaseAppDataSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BaseAppDataSerpElementItem(data)
 
-• **new BaseAppDataSerpElementItem**(`data?`): [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)
+> **new BaseAppDataSerpElementItem**(`data`?): [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBaseAppDataSerpElementItem`](../interfaces/IBaseAppDataSerpElementItem.md) |
+• **data?**: [`IBaseAppDataSerpElementItem`](../interfaces/IBaseAppDataSerpElementItem.md)
 
 #### Returns
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)
 
-#### Defined in
+#### Source
 
 main.ts:20971
 
@@ -66,68 +45,62 @@ main.ts:20971
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
-#### Defined in
+#### Source
 
 main.ts:20969
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:20981
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:21027
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)
 
-#### Defined in
+#### Source
 
 main.ts:20990

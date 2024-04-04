@@ -1,83 +1,73 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentGenerationGenerateTextLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IContentGenerationGenerateTextLiveResultInfo
 
 # Interface: IContentGenerationGenerateTextLiveResultInfo
 
-## Implemented by
-
-- [`ContentGenerationGenerateTextLiveResultInfo`](../classes/ContentGenerationGenerateTextLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [generated\_text](IContentGenerationGenerateTextLiveResultInfo.md#generated_text)
-- [input\_tokens](IContentGenerationGenerateTextLiveResultInfo.md#input_tokens)
-- [new\_tokens](IContentGenerationGenerateTextLiveResultInfo.md#new_tokens)
-- [output\_tokens](IContentGenerationGenerateTextLiveResultInfo.md#output_tokens)
-- [supplement\_token](IContentGenerationGenerateTextLiveResultInfo.md#supplement_token)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### generated\_text
+### generated\_text?
 
-• `Optional` **generated\_text**: `string`
+> **`optional`** **generated\_text**: `string`
 
 resulting text
 
-#### Defined in
+#### Source
 
-main.ts:165877
+main.ts:165885
 
-___
+***
 
-### input\_tokens
+### input\_tokens?
 
-• `Optional` **input\_tokens**: `number`
+> **`optional`** **input\_tokens**: `number`
 
 number of input tokens
 
-#### Defined in
+#### Source
 
-main.ts:165871
+main.ts:165879
 
-___
+***
 
-### new\_tokens
+### new\_tokens?
 
-• `Optional` **new\_tokens**: `number`
+> **`optional`** **new\_tokens**: `number`
 
 number of new tokens
 
-#### Defined in
+#### Source
 
-main.ts:165875
+main.ts:165883
 
-___
+***
 
-### output\_tokens
+### output\_tokens?
 
-• `Optional` **output\_tokens**: `number`
+> **`optional`** **output\_tokens**: `number`
 
 number of output tokens
 
-#### Defined in
+#### Source
 
-main.ts:165873
+main.ts:165881
 
-___
+***
 
-### supplement\_token
+### supplement\_token?
 
-• `Optional` **supplement\_token**: `string`
+> **`optional`** **supplement\_token**: `string`
 
 token for generating subsequent results
 you can use this parameter to continue the generation from the end of the current result;
 supplement_token values are unique for each subsequent task
 
-#### Defined in
+#### Source
 
-main.ts:165881
+main.ts:165889

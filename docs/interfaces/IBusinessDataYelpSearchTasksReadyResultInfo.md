@@ -1,97 +1,86 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataYelpSearchTasksReadyResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBusinessDataYelpSearchTasksReadyResultInfo
 
 # Interface: IBusinessDataYelpSearchTasksReadyResultInfo
 
-## Implemented by
-
-- [`BusinessDataYelpSearchTasksReadyResultInfo`](../classes/BusinessDataYelpSearchTasksReadyResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [date\_posted](IBusinessDataYelpSearchTasksReadyResultInfo.md#date_posted)
-- [endpoint](IBusinessDataYelpSearchTasksReadyResultInfo.md#endpoint)
-- [id](IBusinessDataYelpSearchTasksReadyResultInfo.md#id)
-- [se](IBusinessDataYelpSearchTasksReadyResultInfo.md#se)
-- [se\_type](IBusinessDataYelpSearchTasksReadyResultInfo.md#se_type)
-- [tag](IBusinessDataYelpSearchTasksReadyResultInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### date\_posted
+### date\_posted?
 
-• `Optional` **date\_posted**: `string`
+> **`optional`** **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
-#### Defined in
+#### Source
 
 main.ts:209212
 
-___
+***
 
-### endpoint
+### endpoint?
 
-• `Optional` **endpoint**: `string`
+> **`optional`** **endpoint**: `string`
 
 URL for collecting the results of the task
 
-#### Defined in
+#### Source
 
 main.ts:209216
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
-#### Defined in
+#### Source
 
 main.ts:209204
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 can take the following values: yelp
 
-#### Defined in
+#### Source
 
 main.ts:209207
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 type of search engine
 can take the following values: search
 
-#### Defined in
+#### Source
 
 main.ts:209210
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
-#### Defined in
+#### Source
 
 main.ts:209214

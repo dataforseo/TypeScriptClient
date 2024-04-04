@@ -1,77 +1,60 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo
 
-## Implemented by
-
-- [`DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo`](../classes/DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [filters](IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md#filters)
-- [include\_subdomains](IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md#include_subdomains)
-- [item\_types](IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md#item_types)
-- [keywords](IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md#keywords)
-- [language\_code](IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md#language_code)
-- [language\_name](IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md#language_name)
-- [limit](IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md#limit)
-- [location\_code](IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md#location_code)
-- [location\_name](IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md#location_name)
-- [offset](IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md#offset)
-- [order\_by](IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md#order_by)
-- [tag](IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, <=, >, >=, =, <>, in, not_in, like, not_like
+regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["median_position","in",[1,10]]
 [["median_position","in",[1,10]],"and",["domain","not_like","%wikipedia.org%"]]
 [["domain","not_like","%wikipedia.org%"],
 "and",
-[["relevant_serp_items",">",0],"or",["median_position","in",[1,10]]]]
+[["relevant_serp_items",">`",0],"or",["median_position","in",[1,10]]]]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide
 
-#### Defined in
+#### Source
 
-main.ts:89996
+main.ts:90004
 
-___
+***
 
-### include\_subdomains
+### include\_subdomains?
 
-• `Optional` **include\_subdomains**: `boolean`
+> **`optional`** **include\_subdomains**: `boolean`
 
 indicates if the subdomains will be included in the search
 optional field
 if set to false, the subdomains will be ignored
 default value: true
 
-#### Defined in
+#### Source
 
-main.ts:89963
+main.ts:89971
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 search results type
 indicates type of search results included in the response
@@ -81,15 +64,15 @@ possible values:
 default value:
 ["organic", "paid", "featured_snippet", "local_pack"]
 
-#### Defined in
+#### Source
 
-main.ts:89971
+main.ts:89979
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 keywords array
 required field
@@ -99,15 +82,15 @@ the keywords will be converted to lowercase format;
 a keyword should be at least 3 characters long;
 you can specify the maximum of 200 keywords
 
-#### Defined in
+#### Source
 
-main.ts:89926
+main.ts:89934
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 unique language identifier
 required field if you don’t specify language_name
@@ -117,15 +100,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:89958
+main.ts:89966
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -135,30 +118,30 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:89950
+main.ts:89958
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned domains
 optional field
 default value: 100
 maximum value: 1000
 
-#### Defined in
+#### Source
 
-main.ts:89976
+main.ts:89984
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 unique location identifier
 required field if you don’t specify location_name
@@ -168,15 +151,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:89942
+main.ts:89950
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code
@@ -186,30 +169,30 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 United Kingdom
 
-#### Defined in
+#### Source
 
-main.ts:89934
+main.ts:89942
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned domains
 optional field
 default value: 0
 if you specify the 10 value, the first ten domains in the results array will be omitted and the data will be provided for the successive domains
 
-#### Defined in
+#### Source
 
-main.ts:89981
+main.ts:89989
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -227,15 +210,15 @@ you should use a comma to separate several sorting rules
 example:
 ["avg_position,asc","etv,desc"]
 
-#### Defined in
+#### Source
 
-main.ts:90012
+main.ts:90020
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -243,6 +226,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:90018
+main.ts:90026

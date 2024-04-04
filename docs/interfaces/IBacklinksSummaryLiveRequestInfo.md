@@ -1,32 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksSummaryLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBacklinksSummaryLiveRequestInfo
 
 # Interface: IBacklinksSummaryLiveRequestInfo
 
-## Implemented by
-
-- [`BacklinksSummaryLiveRequestInfo`](../classes/BacklinksSummaryLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [backlinks\_filters](IBacklinksSummaryLiveRequestInfo.md#backlinks_filters)
-- [backlinks\_status\_type](IBacklinksSummaryLiveRequestInfo.md#backlinks_status_type)
-- [include\_indirect\_links](IBacklinksSummaryLiveRequestInfo.md#include_indirect_links)
-- [include\_subdomains](IBacklinksSummaryLiveRequestInfo.md#include_subdomains)
-- [internal\_list\_limit](IBacklinksSummaryLiveRequestInfo.md#internal_list_limit)
-- [tag](IBacklinksSummaryLiveRequestInfo.md#tag)
-- [target](IBacklinksSummaryLiveRequestInfo.md#target)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### backlinks\_filters
+### backlinks\_filters?
 
-• `Optional` **backlinks\_filters**: `any`[]
+> **`optional`** **backlinks\_filters**: `any`[]
 
 filter the backlinks of your target
 optional field
@@ -36,15 +24,15 @@ using this parameter, you can include only dofollow backlinks in the response an
 example:
 "backlinks_filters": ["dofollow", "=", true]
 
-#### Defined in
+#### Source
 
-main.ts:134719
+main.ts:134727
 
-___
+***
 
-### backlinks\_status\_type
+### backlinks\_status\_type?
 
-• `Optional` **backlinks\_status\_type**: `string`
+> **`optional`** **backlinks\_status\_type**: `string`
 
 set what backlinks to return and count
 optional field
@@ -55,15 +43,15 @@ live – backlinks found during the last check will be returned and counted;
 lost – lost backlinks will be returned and counted;
 default value: live
 
-#### Defined in
+#### Source
 
-main.ts:134711
+main.ts:134719
 
-___
+***
 
-### include\_indirect\_links
+### include\_indirect\_links?
 
-• `Optional` **include\_indirect\_links**: `boolean`
+> **`optional`** **include\_indirect\_links**: `boolean`
 
 indicates if indirect links to the target will be included in the results
 optional field
@@ -71,30 +59,30 @@ if set to true, the results will include data on indirect links pointing to a pa
 if set to false, indirect links will be ignored
 default value: true
 
-#### Defined in
+#### Source
 
-main.ts:134691
+main.ts:134699
 
-___
+***
 
-### include\_subdomains
+### include\_subdomains?
 
-• `Optional` **include\_subdomains**: `boolean`
+> **`optional`** **include\_subdomains**: `boolean`
 
 indicates if the subdomains of the target will be included in the search
 optional field
 if set to false, the subdomains will be ignored
 default value: true
 
-#### Defined in
+#### Source
 
-main.ts:134685
+main.ts:134693
 
-___
+***
 
-### internal\_list\_limit
+### internal\_list\_limit?
 
-• `Optional` **internal\_list\_limit**: `number`
+> **`optional`** **internal\_list\_limit**: `number`
 
 maximum number of elements within internal arrays
 optional field
@@ -107,15 +95,15 @@ referring_links_semantic_locations
 default value: 10
 maximum value: 1000
 
-#### Defined in
+#### Source
 
-main.ts:134702
+main.ts:134710
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -123,21 +111,21 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:134725
+main.ts:134733
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 domain, subdomain or webpage to get data for
 required field
 a domain or a subdomain should be specified without https:// and www.
 a page should be specified with absolute URL (including http:// or https://)
 
-#### Defined in
+#### Source
 
-main.ts:134680
+main.ts:134688

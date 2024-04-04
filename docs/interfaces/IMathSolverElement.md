@@ -1,55 +1,47 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMathSolverElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IMathSolverElement
 
 # Interface: IMathSolverElement
 
-## Implemented by
-
-- [`MathSolverElement`](../classes/MathSolverElement.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [expanded\_element](IMathSolverElement.md#expanded_element)
-- [title](IMathSolverElement.md#title)
-- [type](IMathSolverElement.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### expanded\_element
+### expanded\_element?
 
-• `Optional` **expanded\_element**: [`MathSolverExpandedElement`](../classes/MathSolverExpandedElement.md)[]
+> **`optional`** **expanded\_element**: [`MathSolverExpandedElement`](../classes/MathSolverExpandedElement.md)[]
 
 expanded element
 
-#### Defined in
+#### Source
 
-main.ts:34954
+main.ts:34960
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
-#### Defined in
+#### Source
 
-main.ts:34952
+main.ts:34958
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:34950
+main.ts:34956

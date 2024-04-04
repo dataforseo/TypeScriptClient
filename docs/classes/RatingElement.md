@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / RatingElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / RatingElement
 
 # Class: RatingElement
 
@@ -8,54 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](RatingElement.md#constructor)
-
-### Properties
-
-- [position](RatingElement.md#position)
-- [rating\_max](RatingElement.md#rating_max)
-- [rating\_type](RatingElement.md#rating_type)
-- [type](RatingElement.md#type)
-- [value](RatingElement.md#value)
-- [votes\_count](RatingElement.md#votes_count)
-
-### Methods
-
-- [init](RatingElement.md#init)
-- [toJSON](RatingElement.md#tojson)
-- [fromJS](RatingElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new RatingElement(data)
 
-• **new RatingElement**(`data?`): [`RatingElement`](RatingElement.md)
+> **new RatingElement**(`data`?): [`RatingElement`](RatingElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IRatingElement`](../interfaces/IRatingElement.md) |
+• **data?**: [`IRatingElement`](../interfaces/IRatingElement.md)
 
 #### Returns
 
 [`RatingElement`](RatingElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:169873
+main.ts:169881
 
 ## Properties
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in Google Shopping SERP
 possible values:
@@ -63,149 +44,143 @@ left, right
 
 #### Implementation of
 
-[IRatingElement](../interfaces/IRatingElement.md).[position](../interfaces/IRatingElement.md#position)
+[`IRatingElement`](../interfaces/IRatingElement.md).[`position`](../interfaces/IRatingElement.md#position)
 
-#### Defined in
+#### Source
 
-main.ts:169860
+main.ts:169868
 
-___
+***
 
-### rating\_max
+### rating\_max?
 
-• `Optional` **rating\_max**: `number`
+> **`optional`** **rating\_max**: `number`
 
 the maximum value for a rating_type
 
 #### Implementation of
 
-[IRatingElement](../interfaces/IRatingElement.md).[rating_max](../interfaces/IRatingElement.md#rating_max)
+[`IRatingElement`](../interfaces/IRatingElement.md).[`rating_max`](../interfaces/IRatingElement.md#rating_max)
 
-#### Defined in
+#### Source
 
-main.ts:169869
+main.ts:169877
 
-___
+***
 
-### rating\_type
+### rating\_type?
 
-• `Optional` **rating\_type**: `string`
+> **`optional`** **rating\_type**: `string`
 
 the type of rating
 here you can find the following elements: Max5, Percents, CustomMax
 
 #### Implementation of
 
-[IRatingElement](../interfaces/IRatingElement.md).[rating_type](../interfaces/IRatingElement.md#rating_type)
+[`IRatingElement`](../interfaces/IRatingElement.md).[`rating_type`](../interfaces/IRatingElement.md#rating_type)
 
-#### Defined in
+#### Source
 
-main.ts:169863
+main.ts:169871
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IRatingElement](../interfaces/IRatingElement.md).[type](../interfaces/IRatingElement.md#type)
+[`IRatingElement`](../interfaces/IRatingElement.md).[`type`](../interfaces/IRatingElement.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:169856
+main.ts:169864
 
-___
+***
 
-### value
+### value?
 
-• `Optional` **value**: `string`
+> **`optional`** **value**: `string`
 
 value of the rating
 
 #### Implementation of
 
-[IRatingElement](../interfaces/IRatingElement.md).[value](../interfaces/IRatingElement.md#value)
+[`IRatingElement`](../interfaces/IRatingElement.md).[`value`](../interfaces/IRatingElement.md#value)
 
-#### Defined in
+#### Source
 
-main.ts:169865
+main.ts:169873
 
-___
+***
 
-### votes\_count
+### votes\_count?
 
-• `Optional` **votes\_count**: `number`
+> **`optional`** **votes\_count**: `number`
 
 the amount of feedback
 
 #### Implementation of
 
-[IRatingElement](../interfaces/IRatingElement.md).[votes_count](../interfaces/IRatingElement.md#votes_count)
+[`IRatingElement`](../interfaces/IRatingElement.md).[`votes_count`](../interfaces/IRatingElement.md#votes_count)
 
-#### Defined in
+#### Source
 
-main.ts:169867
+main.ts:169875
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:169882
+main.ts:169890
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:169904
+main.ts:169912
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`RatingElement`](RatingElement.md)
+> **`static`** **fromJS**(`data`): [`RatingElement`](RatingElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`RatingElement`](RatingElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:169897
+main.ts:169905

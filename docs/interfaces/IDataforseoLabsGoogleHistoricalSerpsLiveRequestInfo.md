@@ -1,33 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo
 
-## Implemented by
-
-- [`DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo`](../classes/DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [date\_from](IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md#date_from)
-- [date\_to](IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md#date_to)
-- [keyword](IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md#keyword)
-- [language\_code](IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md#language_code)
-- [language\_name](IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md#language_name)
-- [location\_code](IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md#location_code)
-- [location\_name](IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md#location_name)
-- [tag](IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -35,15 +22,15 @@ if you don’t specify this field, the API will return all SERPs collected for 3
 minimal possible value: 365 days from the current datetime value;
 date format: "yyyy-mm-dd"
 
-#### Defined in
+#### Source
 
-main.ts:93453
+main.ts:93461
 
-___
+***
 
-### date\_to
+### date\_to?
 
-• `Optional` **date\_to**: `string`
+> **`optional`** **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -52,15 +39,15 @@ date format: "yyyy-mm-dd";
 example:
 "2021-09-01"
 
-#### Defined in
+#### Source
 
-main.ts:93460
+main.ts:93468
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword
 required field
@@ -69,15 +56,15 @@ all %## will be decoded (plus symbol ‘+’ will be decoded to a space characte
 if you need to use the “%” symbol for your keyword, please specify it as “%25”;
 if you need to use the “+” symbol for your keyword, please specify it as “%2B”
 
-#### Defined in
+#### Source
 
-main.ts:93447
+main.ts:93455
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 optional field
@@ -87,15 +74,15 @@ ignore this field to get the results for all available languages
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:93490
+main.ts:93498
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 optional field
@@ -105,15 +92,15 @@ ignore this field to get the results for all available languages
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:93482
+main.ts:93490
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 unique location identifier
 required field if you don’t specify location_name
@@ -122,15 +109,15 @@ you can receive the list of available locations with their location_code by maki
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:93474
+main.ts:93482
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code
@@ -139,15 +126,15 @@ you can receive the list of available locations with their location_name by maki
 example:
 United Kingdom
 
-#### Defined in
+#### Source
 
-main.ts:93467
+main.ts:93475
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -155,6 +142,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:93496
+main.ts:93504

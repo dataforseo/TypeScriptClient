@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleRelevantPagesLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsGoogleRelevantPagesLiveResultInfo
 
 # Class: DataforseoLabsGoogleRelevantPagesLiveResultInfo
 
@@ -8,220 +12,190 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsGoogleRelevantPagesLiveResultInfo.md#constructor)
-
-### Properties
-
-- [items](DataforseoLabsGoogleRelevantPagesLiveResultInfo.md#items)
-- [items\_count](DataforseoLabsGoogleRelevantPagesLiveResultInfo.md#items_count)
-- [language\_code](DataforseoLabsGoogleRelevantPagesLiveResultInfo.md#language_code)
-- [location\_code](DataforseoLabsGoogleRelevantPagesLiveResultInfo.md#location_code)
-- [se\_type](DataforseoLabsGoogleRelevantPagesLiveResultInfo.md#se_type)
-- [target](DataforseoLabsGoogleRelevantPagesLiveResultInfo.md#target)
-- [total\_count](DataforseoLabsGoogleRelevantPagesLiveResultInfo.md#total_count)
-
-### Methods
-
-- [init](DataforseoLabsGoogleRelevantPagesLiveResultInfo.md#init)
-- [toJSON](DataforseoLabsGoogleRelevantPagesLiveResultInfo.md#tojson)
-- [fromJS](DataforseoLabsGoogleRelevantPagesLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsGoogleRelevantPagesLiveResultInfo(data)
 
-• **new DataforseoLabsGoogleRelevantPagesLiveResultInfo**(`data?`): [`DataforseoLabsGoogleRelevantPagesLiveResultInfo`](DataforseoLabsGoogleRelevantPagesLiveResultInfo.md)
+> **new DataforseoLabsGoogleRelevantPagesLiveResultInfo**(`data`?): [`DataforseoLabsGoogleRelevantPagesLiveResultInfo`](DataforseoLabsGoogleRelevantPagesLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsGoogleRelevantPagesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md) |
+• **data?**: [`IDataforseoLabsGoogleRelevantPagesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleRelevantPagesLiveResultInfo`](DataforseoLabsGoogleRelevantPagesLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:92671
+main.ts:92679
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`DataforseoLabsRelevantPagesLiveItem`](DataforseoLabsRelevantPagesLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsRelevantPagesLiveItem`](DataforseoLabsRelevantPagesLiveItem.md)[]
 
 relevant pages and related data
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRelevantPagesLiveResultInfo](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md).[items](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md#items)
+[`IDataforseoLabsGoogleRelevantPagesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:92667
+main.ts:92675
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRelevantPagesLiveResultInfo](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md).[items_count](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md#items_count)
+[`IDataforseoLabsGoogleRelevantPagesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:92665
+main.ts:92673
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 if there is no data, then the value is null
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRelevantPagesLiveResultInfo](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md).[language_code](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md#language_code)
+[`IDataforseoLabsGoogleRelevantPagesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:92661
+main.ts:92669
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 if there is no data, then the value is null
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRelevantPagesLiveResultInfo](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md).[location_code](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md#location_code)
+[`IDataforseoLabsGoogleRelevantPagesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:92658
+main.ts:92666
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRelevantPagesLiveResultInfo](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md).[se_type](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md#se_type)
+[`IDataforseoLabsGoogleRelevantPagesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:92653
+main.ts:92661
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 target domain in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRelevantPagesLiveResultInfo](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md).[target](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md#target)
+[`IDataforseoLabsGoogleRelevantPagesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md).[`target`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md#target)
 
-#### Defined in
+#### Source
 
-main.ts:92655
+main.ts:92663
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRelevantPagesLiveResultInfo](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md).[total_count](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md#total_count)
+[`IDataforseoLabsGoogleRelevantPagesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md#total_count)
 
-#### Defined in
+#### Source
 
-main.ts:92663
+main.ts:92671
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:92680
+main.ts:92688
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:92707
+main.ts:92715
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsGoogleRelevantPagesLiveResultInfo`](DataforseoLabsGoogleRelevantPagesLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleRelevantPagesLiveResultInfo`](DataforseoLabsGoogleRelevantPagesLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsGoogleRelevantPagesLiveResultInfo`](DataforseoLabsGoogleRelevantPagesLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:92700
+main.ts:92708

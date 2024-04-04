@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleNewsTasksFixedResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleNewsTasksFixedResultInfo
 
 # Class: SerpGoogleNewsTasksFixedResultInfo
 
@@ -8,240 +12,209 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleNewsTasksFixedResultInfo.md#constructor)
-
-### Properties
-
-- [date\_fixed](SerpGoogleNewsTasksFixedResultInfo.md#date_fixed)
-- [endpoint\_advanced](SerpGoogleNewsTasksFixedResultInfo.md#endpoint_advanced)
-- [endpoint\_html](SerpGoogleNewsTasksFixedResultInfo.md#endpoint_html)
-- [endpoint\_regular](SerpGoogleNewsTasksFixedResultInfo.md#endpoint_regular)
-- [id](SerpGoogleNewsTasksFixedResultInfo.md#id)
-- [se](SerpGoogleNewsTasksFixedResultInfo.md#se)
-- [se\_type](SerpGoogleNewsTasksFixedResultInfo.md#se_type)
-- [tag](SerpGoogleNewsTasksFixedResultInfo.md#tag)
-
-### Methods
-
-- [init](SerpGoogleNewsTasksFixedResultInfo.md#init)
-- [toJSON](SerpGoogleNewsTasksFixedResultInfo.md#tojson)
-- [fromJS](SerpGoogleNewsTasksFixedResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleNewsTasksFixedResultInfo(data)
 
-• **new SerpGoogleNewsTasksFixedResultInfo**(`data?`): [`SerpGoogleNewsTasksFixedResultInfo`](SerpGoogleNewsTasksFixedResultInfo.md)
+> **new SerpGoogleNewsTasksFixedResultInfo**(`data`?): [`SerpGoogleNewsTasksFixedResultInfo`](SerpGoogleNewsTasksFixedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleNewsTasksFixedResultInfo`](../interfaces/ISerpGoogleNewsTasksFixedResultInfo.md) |
+• **data?**: [`ISerpGoogleNewsTasksFixedResultInfo`](../interfaces/ISerpGoogleNewsTasksFixedResultInfo.md)
 
 #### Returns
 
 [`SerpGoogleNewsTasksFixedResultInfo`](SerpGoogleNewsTasksFixedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:43052
+main.ts:43058
 
 ## Properties
 
-### date\_fixed
+### date\_fixed?
 
-• `Optional` **date\_fixed**: `string`
+> **`optional`** **date\_fixed**: `string`
 
 date when the task was fixed (in the UTC format)
 
 #### Implementation of
 
-[ISerpGoogleNewsTasksFixedResultInfo](../interfaces/ISerpGoogleNewsTasksFixedResultInfo.md).[date_fixed](../interfaces/ISerpGoogleNewsTasksFixedResultInfo.md#date_fixed)
+[`ISerpGoogleNewsTasksFixedResultInfo`](../interfaces/ISerpGoogleNewsTasksFixedResultInfo.md).[`date_fixed`](../interfaces/ISerpGoogleNewsTasksFixedResultInfo.md#date_fixed)
 
-#### Defined in
+#### Source
 
-main.ts:43037
+main.ts:43043
 
-___
+***
 
-### endpoint\_advanced
+### endpoint\_advanced?
 
-• `Optional` **endpoint\_advanced**: `string`
+> **`optional`** **endpoint\_advanced**: `string`
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpGoogleNewsTasksFixedResultInfo](../interfaces/ISerpGoogleNewsTasksFixedResultInfo.md).[endpoint_advanced](../interfaces/ISerpGoogleNewsTasksFixedResultInfo.md#endpoint_advanced)
+[`ISerpGoogleNewsTasksFixedResultInfo`](../interfaces/ISerpGoogleNewsTasksFixedResultInfo.md).[`endpoint_advanced`](../interfaces/ISerpGoogleNewsTasksFixedResultInfo.md#endpoint_advanced)
 
-#### Defined in
+#### Source
 
-main.ts:43045
+main.ts:43051
 
-___
+***
 
-### endpoint\_html
+### endpoint\_html?
 
-• `Optional` **endpoint\_html**: `string`
+> **`optional`** **endpoint\_html**: `string`
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpGoogleNewsTasksFixedResultInfo](../interfaces/ISerpGoogleNewsTasksFixedResultInfo.md).[endpoint_html](../interfaces/ISerpGoogleNewsTasksFixedResultInfo.md#endpoint_html)
+[`ISerpGoogleNewsTasksFixedResultInfo`](../interfaces/ISerpGoogleNewsTasksFixedResultInfo.md).[`endpoint_html`](../interfaces/ISerpGoogleNewsTasksFixedResultInfo.md#endpoint_html)
 
-#### Defined in
+#### Source
 
-main.ts:43048
+main.ts:43054
 
-___
+***
 
-### endpoint\_regular
+### endpoint\_regular?
 
-• `Optional` **endpoint\_regular**: `string`
+> **`optional`** **endpoint\_regular**: `string`
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpGoogleNewsTasksFixedResultInfo](../interfaces/ISerpGoogleNewsTasksFixedResultInfo.md).[endpoint_regular](../interfaces/ISerpGoogleNewsTasksFixedResultInfo.md#endpoint_regular)
+[`ISerpGoogleNewsTasksFixedResultInfo`](../interfaces/ISerpGoogleNewsTasksFixedResultInfo.md).[`endpoint_regular`](../interfaces/ISerpGoogleNewsTasksFixedResultInfo.md#endpoint_regular)
 
-#### Defined in
+#### Source
 
-main.ts:43042
+main.ts:43048
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[ISerpGoogleNewsTasksFixedResultInfo](../interfaces/ISerpGoogleNewsTasksFixedResultInfo.md).[id](../interfaces/ISerpGoogleNewsTasksFixedResultInfo.md#id)
+[`ISerpGoogleNewsTasksFixedResultInfo`](../interfaces/ISerpGoogleNewsTasksFixedResultInfo.md).[`id`](../interfaces/ISerpGoogleNewsTasksFixedResultInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:43030
+main.ts:43036
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 
 #### Implementation of
 
-[ISerpGoogleNewsTasksFixedResultInfo](../interfaces/ISerpGoogleNewsTasksFixedResultInfo.md).[se](../interfaces/ISerpGoogleNewsTasksFixedResultInfo.md#se)
+[`ISerpGoogleNewsTasksFixedResultInfo`](../interfaces/ISerpGoogleNewsTasksFixedResultInfo.md).[`se`](../interfaces/ISerpGoogleNewsTasksFixedResultInfo.md#se)
 
-#### Defined in
+#### Source
 
-main.ts:43032
+main.ts:43038
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 type of search engine
 can take the following values: news
 
 #### Implementation of
 
-[ISerpGoogleNewsTasksFixedResultInfo](../interfaces/ISerpGoogleNewsTasksFixedResultInfo.md).[se_type](../interfaces/ISerpGoogleNewsTasksFixedResultInfo.md#se_type)
+[`ISerpGoogleNewsTasksFixedResultInfo`](../interfaces/ISerpGoogleNewsTasksFixedResultInfo.md).[`se_type`](../interfaces/ISerpGoogleNewsTasksFixedResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:43035
+main.ts:43041
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
 #### Implementation of
 
-[ISerpGoogleNewsTasksFixedResultInfo](../interfaces/ISerpGoogleNewsTasksFixedResultInfo.md).[tag](../interfaces/ISerpGoogleNewsTasksFixedResultInfo.md#tag)
+[`ISerpGoogleNewsTasksFixedResultInfo`](../interfaces/ISerpGoogleNewsTasksFixedResultInfo.md).[`tag`](../interfaces/ISerpGoogleNewsTasksFixedResultInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:43039
+main.ts:43045
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:43061
+main.ts:43067
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:43085
+main.ts:43091
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleNewsTasksFixedResultInfo`](SerpGoogleNewsTasksFixedResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleNewsTasksFixedResultInfo`](SerpGoogleNewsTasksFixedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpGoogleNewsTasksFixedResultInfo`](SerpGoogleNewsTasksFixedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:43078
+main.ts:43084

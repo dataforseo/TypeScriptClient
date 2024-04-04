@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPagePageScreenshotResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPagePageScreenshotResultInfo
 
 # Class: OnPagePageScreenshotResultInfo
 
@@ -8,69 +12,48 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPagePageScreenshotResultInfo.md#constructor)
-
-### Properties
-
-- [crawl\_progress](OnPagePageScreenshotResultInfo.md#crawl_progress)
-- [error\_message](OnPagePageScreenshotResultInfo.md#error_message)
-- [items](OnPagePageScreenshotResultInfo.md#items)
-- [items\_count](OnPagePageScreenshotResultInfo.md#items_count)
-
-### Methods
-
-- [init](OnPagePageScreenshotResultInfo.md#init)
-- [toJSON](OnPagePageScreenshotResultInfo.md#tojson)
-- [fromJS](OnPagePageScreenshotResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPagePageScreenshotResultInfo(data)
 
-• **new OnPagePageScreenshotResultInfo**(`data?`): [`OnPagePageScreenshotResultInfo`](OnPagePageScreenshotResultInfo.md)
+> **new OnPagePageScreenshotResultInfo**(`data`?): [`OnPagePageScreenshotResultInfo`](OnPagePageScreenshotResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPagePageScreenshotResultInfo`](../interfaces/IOnPagePageScreenshotResultInfo.md) |
+• **data?**: [`IOnPagePageScreenshotResultInfo`](../interfaces/IOnPagePageScreenshotResultInfo.md)
 
 #### Returns
 
 [`OnPagePageScreenshotResultInfo`](OnPagePageScreenshotResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:157129
+main.ts:157137
 
 ## Properties
 
-### crawl\_progress
+### crawl\_progress?
 
-• `Optional` **crawl\_progress**: `string`
+> **`optional`** **crawl\_progress**: `string`
 
 status of the crawling session
 possible values: in_progress, finished
 
 #### Implementation of
 
-[IOnPagePageScreenshotResultInfo](../interfaces/IOnPagePageScreenshotResultInfo.md).[crawl_progress](../interfaces/IOnPagePageScreenshotResultInfo.md#crawl_progress)
+[`IOnPagePageScreenshotResultInfo`](../interfaces/IOnPagePageScreenshotResultInfo.md).[`crawl_progress`](../interfaces/IOnPagePageScreenshotResultInfo.md#crawl_progress)
 
-#### Defined in
+#### Source
 
-main.ts:157117
+main.ts:157125
 
-___
+***
 
-### error\_message
+### error\_message?
 
-• `Optional` **error\_message**: `string`
+> **`optional`** **error\_message**: `string`
 
 error message
 if the url you indicated returns a 404 status code or is not a valid URL, you will obtain "error_message":"Screenshot is empty"
@@ -78,100 +61,94 @@ if no error is encountered, the value will be null
 
 #### Implementation of
 
-[IOnPagePageScreenshotResultInfo](../interfaces/IOnPagePageScreenshotResultInfo.md).[error_message](../interfaces/IOnPagePageScreenshotResultInfo.md#error_message)
+[`IOnPagePageScreenshotResultInfo`](../interfaces/IOnPagePageScreenshotResultInfo.md).[`error_message`](../interfaces/IOnPagePageScreenshotResultInfo.md#error_message)
 
-#### Defined in
+#### Source
 
-main.ts:157121
+main.ts:157129
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`ScreenshotItem`](ScreenshotItem.md)[]
+> **`optional`** **items**: [`ScreenshotItem`](ScreenshotItem.md)[]
 
 items array
 
 #### Implementation of
 
-[IOnPagePageScreenshotResultInfo](../interfaces/IOnPagePageScreenshotResultInfo.md).[items](../interfaces/IOnPagePageScreenshotResultInfo.md#items)
+[`IOnPagePageScreenshotResultInfo`](../interfaces/IOnPagePageScreenshotResultInfo.md).[`items`](../interfaces/IOnPagePageScreenshotResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:157125
+main.ts:157133
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 number of items in the results array
 
 #### Implementation of
 
-[IOnPagePageScreenshotResultInfo](../interfaces/IOnPagePageScreenshotResultInfo.md).[items_count](../interfaces/IOnPagePageScreenshotResultInfo.md#items_count)
+[`IOnPagePageScreenshotResultInfo`](../interfaces/IOnPagePageScreenshotResultInfo.md).[`items_count`](../interfaces/IOnPagePageScreenshotResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:157123
+main.ts:157131
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:157138
+main.ts:157146
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:157162
+main.ts:157170
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPagePageScreenshotResultInfo`](OnPagePageScreenshotResultInfo.md)
+> **`static`** **fromJS**(`data`): [`OnPagePageScreenshotResultInfo`](OnPagePageScreenshotResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`OnPagePageScreenshotResultInfo`](OnPagePageScreenshotResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:157155
+main.ts:157163

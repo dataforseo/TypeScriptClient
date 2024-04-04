@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleAutocompleteTasksFixedResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleAutocompleteTasksFixedResponseInfo
 
 # Class: SerpGoogleAutocompleteTasksFixedResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`SerpGoogleAutocompleteTasksFixedResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleAutocompleteTasksFixedResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](SerpGoogleAutocompleteTasksFixedResponseInfo.md#cost)
-- [status\_code](SerpGoogleAutocompleteTasksFixedResponseInfo.md#status_code)
-- [status\_message](SerpGoogleAutocompleteTasksFixedResponseInfo.md#status_message)
-- [tasks](SerpGoogleAutocompleteTasksFixedResponseInfo.md#tasks)
-- [tasks\_count](SerpGoogleAutocompleteTasksFixedResponseInfo.md#tasks_count)
-- [tasks\_error](SerpGoogleAutocompleteTasksFixedResponseInfo.md#tasks_error)
-- [time](SerpGoogleAutocompleteTasksFixedResponseInfo.md#time)
-- [version](SerpGoogleAutocompleteTasksFixedResponseInfo.md#version)
-
-### Methods
-
-- [init](SerpGoogleAutocompleteTasksFixedResponseInfo.md#init)
-- [toJSON](SerpGoogleAutocompleteTasksFixedResponseInfo.md#tojson)
-- [fromJS](SerpGoogleAutocompleteTasksFixedResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleAutocompleteTasksFixedResponseInfo(data)
 
-• **new SerpGoogleAutocompleteTasksFixedResponseInfo**(`data?`): [`SerpGoogleAutocompleteTasksFixedResponseInfo`](SerpGoogleAutocompleteTasksFixedResponseInfo.md)
+> **new SerpGoogleAutocompleteTasksFixedResponseInfo**(`data`?): [`SerpGoogleAutocompleteTasksFixedResponseInfo`](SerpGoogleAutocompleteTasksFixedResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleAutocompleteTasksFixedResponseInfo`](../interfaces/ISerpGoogleAutocompleteTasksFixedResponseInfo.md) |
+• **data?**: [`ISerpGoogleAutocompleteTasksFixedResponseInfo`](../interfaces/ISerpGoogleAutocompleteTasksFixedResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:51250
+main.ts:51258
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[ISerpGoogleAutocompleteTasksFixedResponseInfo](../interfaces/ISerpGoogleAutocompleteTasksFixedResponseInfo.md).[cost](../interfaces/ISerpGoogleAutocompleteTasksFixedResponseInfo.md#cost)
+[`ISerpGoogleAutocompleteTasksFixedResponseInfo`](../interfaces/ISerpGoogleAutocompleteTasksFixedResponseInfo.md).[`cost`](../interfaces/ISerpGoogleAutocompleteTasksFixedResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[ISerpGoogleAutocompleteTasksFixedResponseInfo](../interfaces/ISerpGoogleAutocompleteTasksFixedResponseInfo.md).[status_code](../interfaces/ISerpGoogleAutocompleteTasksFixedResponseInfo.md#status_code)
+[`ISerpGoogleAutocompleteTasksFixedResponseInfo`](../interfaces/ISerpGoogleAutocompleteTasksFixedResponseInfo.md).[`status_code`](../interfaces/ISerpGoogleAutocompleteTasksFixedResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[ISerpGoogleAutocompleteTasksFixedResponseInfo](../interfaces/ISerpGoogleAutocompleteTasksFixedResponseInfo.md).[status_message](../interfaces/ISerpGoogleAutocompleteTasksFixedResponseInfo.md#status_message)
+[`ISerpGoogleAutocompleteTasksFixedResponseInfo`](../interfaces/ISerpGoogleAutocompleteTasksFixedResponseInfo.md).[`status_message`](../interfaces/ISerpGoogleAutocompleteTasksFixedResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`SerpGoogleAutocompleteTasksFixedTaskInfo`](SerpGoogleAutocompleteTasksFixedTaskInfo.md)[]
+> **`optional`** **tasks**: [`SerpGoogleAutocompleteTasksFixedTaskInfo`](SerpGoogleAutocompleteTasksFixedTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[ISerpGoogleAutocompleteTasksFixedResponseInfo](../interfaces/ISerpGoogleAutocompleteTasksFixedResponseInfo.md).[tasks](../interfaces/ISerpGoogleAutocompleteTasksFixedResponseInfo.md#tasks)
+[`ISerpGoogleAutocompleteTasksFixedResponseInfo`](../interfaces/ISerpGoogleAutocompleteTasksFixedResponseInfo.md).[`tasks`](../interfaces/ISerpGoogleAutocompleteTasksFixedResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:51246
+main.ts:51254
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[ISerpGoogleAutocompleteTasksFixedResponseInfo](../interfaces/ISerpGoogleAutocompleteTasksFixedResponseInfo.md).[tasks_count](../interfaces/ISerpGoogleAutocompleteTasksFixedResponseInfo.md#tasks_count)
+[`ISerpGoogleAutocompleteTasksFixedResponseInfo`](../interfaces/ISerpGoogleAutocompleteTasksFixedResponseInfo.md).[`tasks_count`](../interfaces/ISerpGoogleAutocompleteTasksFixedResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[ISerpGoogleAutocompleteTasksFixedResponseInfo](../interfaces/ISerpGoogleAutocompleteTasksFixedResponseInfo.md).[tasks_error](../interfaces/ISerpGoogleAutocompleteTasksFixedResponseInfo.md#tasks_error)
+[`ISerpGoogleAutocompleteTasksFixedResponseInfo`](../interfaces/ISerpGoogleAutocompleteTasksFixedResponseInfo.md).[`tasks_error`](../interfaces/ISerpGoogleAutocompleteTasksFixedResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[ISerpGoogleAutocompleteTasksFixedResponseInfo](../interfaces/ISerpGoogleAutocompleteTasksFixedResponseInfo.md).[time](../interfaces/ISerpGoogleAutocompleteTasksFixedResponseInfo.md#time)
+[`ISerpGoogleAutocompleteTasksFixedResponseInfo`](../interfaces/ISerpGoogleAutocompleteTasksFixedResponseInfo.md).[`time`](../interfaces/ISerpGoogleAutocompleteTasksFixedResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[ISerpGoogleAutocompleteTasksFixedResponseInfo](../interfaces/ISerpGoogleAutocompleteTasksFixedResponseInfo.md).[version](../interfaces/ISerpGoogleAutocompleteTasksFixedResponseInfo.md#version)
+[`ISerpGoogleAutocompleteTasksFixedResponseInfo`](../interfaces/ISerpGoogleAutocompleteTasksFixedResponseInfo.md).[`version`](../interfaces/ISerpGoogleAutocompleteTasksFixedResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:51254
+main.ts:51262
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:51276
+main.ts:51284
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleAutocompleteTasksFixedResponseInfo`](SerpGoogleAutocompleteTasksFixedResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleAutocompleteTasksFixedResponseInfo`](SerpGoogleAutocompleteTasksFixedResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:51269
+main.ts:51277

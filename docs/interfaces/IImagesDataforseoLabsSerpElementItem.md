@@ -1,131 +1,116 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IImagesDataforseoLabsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IImagesDataforseoLabsSerpElementItem
 
 # Interface: IImagesDataforseoLabsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md)
 
-  ↳ **`IImagesDataforseoLabsSerpElementItem`**
-
-## Implemented by
-
-- [`ImagesDataforseoLabsSerpElementItem`](../classes/ImagesDataforseoLabsSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IImagesDataforseoLabsSerpElementItem.md#items)
-- [position](IImagesDataforseoLabsSerpElementItem.md#position)
-- [rank\_absolute](IImagesDataforseoLabsSerpElementItem.md#rank_absolute)
-- [rank\_group](IImagesDataforseoLabsSerpElementItem.md#rank_group)
-- [related\_image\_searches](IImagesDataforseoLabsSerpElementItem.md#related_image_searches)
-- [title](IImagesDataforseoLabsSerpElementItem.md#title)
-- [url](IImagesDataforseoLabsSerpElementItem.md#url)
-- [xpath](IImagesDataforseoLabsSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`ImagesElement`](../classes/ImagesElement.md)[]
+> **`optional`** **items**: [`ImagesElement`](../classes/ImagesElement.md)[]
 
 elements of search results found in SERP
 
-#### Defined in
+#### Source
 
-main.ts:97036
+main.ts:97044
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
-main.ts:97028
+main.ts:97036
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Defined in
+#### Source
 
-main.ts:97024
+main.ts:97032
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
-main.ts:97021
+main.ts:97029
 
-___
+***
 
-### related\_image\_searches
+### related\_image\_searches?
 
-• `Optional` **related\_image\_searches**: [`RelatedImageSearchesElement`](../classes/RelatedImageSearchesElement.md)[]
+> **`optional`** **related\_image\_searches**: [`RelatedImageSearchesElement`](../classes/RelatedImageSearchesElement.md)[]
 
 contains keywords and images related to the specified search term
 if there are none, equals null
 
-#### Defined in
+#### Source
 
-main.ts:97039
+main.ts:97047
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the result in SERP
 
-#### Defined in
+#### Source
 
-main.ts:97032
+main.ts:97040
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 relevant URL of the Ad element in SERP
 
-#### Defined in
+#### Source
 
-main.ts:97034
+main.ts:97042
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
-main.ts:97030
+main.ts:97038

@@ -1,48 +1,39 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IProductInformationImageRow
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IProductInformationImageRow
 
 # Interface: IProductInformationImageRow
 
-## Hierarchy
+## Extends
 
 - [`IBaseProductInformationRowItem`](IBaseProductInformationRowItem.md)
 
-  ↳ **`IProductInformationImageRow`**
-
-## Implemented by
-
-- [`ProductInformationImageRow`](../classes/ProductInformationImageRow.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [alt](IProductInformationImageRow.md#alt)
-- [url](IProductInformationImageRow.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### alt
+### alt?
 
-• `Optional` **alt**: `string`
+> **`optional`** **alt**: `string`
 
 alternative text of the related product image
 
-#### Defined in
+#### Source
 
 main.ts:178054
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL of the image
 
-#### Defined in
+#### Source
 
 main.ts:178056

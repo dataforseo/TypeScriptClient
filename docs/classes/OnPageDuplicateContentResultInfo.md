@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageDuplicateContentResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPageDuplicateContentResultInfo
 
 # Class: OnPageDuplicateContentResultInfo
 
@@ -8,168 +12,141 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPageDuplicateContentResultInfo.md#constructor)
-
-### Properties
-
-- [crawl\_progress](OnPageDuplicateContentResultInfo.md#crawl_progress)
-- [crawl\_status](OnPageDuplicateContentResultInfo.md#crawl_status)
-- [items](OnPageDuplicateContentResultInfo.md#items)
-- [items\_count](OnPageDuplicateContentResultInfo.md#items_count)
-
-### Methods
-
-- [init](OnPageDuplicateContentResultInfo.md#init)
-- [toJSON](OnPageDuplicateContentResultInfo.md#tojson)
-- [fromJS](OnPageDuplicateContentResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPageDuplicateContentResultInfo(data)
 
-• **new OnPageDuplicateContentResultInfo**(`data?`): [`OnPageDuplicateContentResultInfo`](OnPageDuplicateContentResultInfo.md)
+> **new OnPageDuplicateContentResultInfo**(`data`?): [`OnPageDuplicateContentResultInfo`](OnPageDuplicateContentResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPageDuplicateContentResultInfo`](../interfaces/IOnPageDuplicateContentResultInfo.md) |
+• **data?**: [`IOnPageDuplicateContentResultInfo`](../interfaces/IOnPageDuplicateContentResultInfo.md)
 
 #### Returns
 
 [`OnPageDuplicateContentResultInfo`](OnPageDuplicateContentResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:153123
+main.ts:153131
 
 ## Properties
 
-### crawl\_progress
+### crawl\_progress?
 
-• `Optional` **crawl\_progress**: `string`
+> **`optional`** **crawl\_progress**: `string`
 
 status of the crawling session
 possible values: in_progress, finished
 
 #### Implementation of
 
-[IOnPageDuplicateContentResultInfo](../interfaces/IOnPageDuplicateContentResultInfo.md).[crawl_progress](../interfaces/IOnPageDuplicateContentResultInfo.md#crawl_progress)
+[`IOnPageDuplicateContentResultInfo`](../interfaces/IOnPageDuplicateContentResultInfo.md).[`crawl_progress`](../interfaces/IOnPageDuplicateContentResultInfo.md#crawl_progress)
 
-#### Defined in
+#### Source
 
-main.ts:153113
+main.ts:153121
 
-___
+***
 
-### crawl\_status
+### crawl\_status?
 
-• `Optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
+> **`optional`** **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
 details of the crawling session
 
 #### Implementation of
 
-[IOnPageDuplicateContentResultInfo](../interfaces/IOnPageDuplicateContentResultInfo.md).[crawl_status](../interfaces/IOnPageDuplicateContentResultInfo.md#crawl_status)
+[`IOnPageDuplicateContentResultInfo`](../interfaces/IOnPageDuplicateContentResultInfo.md).[`crawl_status`](../interfaces/IOnPageDuplicateContentResultInfo.md#crawl_status)
 
-#### Defined in
+#### Source
 
-main.ts:153115
+main.ts:153123
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`OnPageDuplicateContentItem`](OnPageDuplicateContentItem.md)[]
+> **`optional`** **items**: [`OnPageDuplicateContentItem`](OnPageDuplicateContentItem.md)[]
 
 items array
 
 #### Implementation of
 
-[IOnPageDuplicateContentResultInfo](../interfaces/IOnPageDuplicateContentResultInfo.md).[items](../interfaces/IOnPageDuplicateContentResultInfo.md#items)
+[`IOnPageDuplicateContentResultInfo`](../interfaces/IOnPageDuplicateContentResultInfo.md).[`items`](../interfaces/IOnPageDuplicateContentResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:153119
+main.ts:153127
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 number of items in the results array
 
 #### Implementation of
 
-[IOnPageDuplicateContentResultInfo](../interfaces/IOnPageDuplicateContentResultInfo.md).[items_count](../interfaces/IOnPageDuplicateContentResultInfo.md#items_count)
+[`IOnPageDuplicateContentResultInfo`](../interfaces/IOnPageDuplicateContentResultInfo.md).[`items_count`](../interfaces/IOnPageDuplicateContentResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:153117
+main.ts:153125
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:153132
+main.ts:153140
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:153156
+main.ts:153164
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPageDuplicateContentResultInfo`](OnPageDuplicateContentResultInfo.md)
+> **`static`** **fromJS**(`data`): [`OnPageDuplicateContentResultInfo`](OnPageDuplicateContentResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`OnPageDuplicateContentResultInfo`](OnPageDuplicateContentResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:153149
+main.ts:153157

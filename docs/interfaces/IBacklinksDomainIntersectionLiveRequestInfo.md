@@ -1,39 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksDomainIntersectionLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBacklinksDomainIntersectionLiveRequestInfo
 
 # Interface: IBacklinksDomainIntersectionLiveRequestInfo
 
-## Implemented by
-
-- [`BacklinksDomainIntersectionLiveRequestInfo`](../classes/BacklinksDomainIntersectionLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [backlinks\_filters](IBacklinksDomainIntersectionLiveRequestInfo.md#backlinks_filters)
-- [backlinks\_status\_type](IBacklinksDomainIntersectionLiveRequestInfo.md#backlinks_status_type)
-- [exclude\_internal\_backlinks](IBacklinksDomainIntersectionLiveRequestInfo.md#exclude_internal_backlinks)
-- [exclude\_targets](IBacklinksDomainIntersectionLiveRequestInfo.md#exclude_targets)
-- [filters](IBacklinksDomainIntersectionLiveRequestInfo.md#filters)
-- [include\_indirect\_links](IBacklinksDomainIntersectionLiveRequestInfo.md#include_indirect_links)
-- [include\_subdomains](IBacklinksDomainIntersectionLiveRequestInfo.md#include_subdomains)
-- [internal\_list\_limit](IBacklinksDomainIntersectionLiveRequestInfo.md#internal_list_limit)
-- [intersection\_mode](IBacklinksDomainIntersectionLiveRequestInfo.md#intersection_mode)
-- [limit](IBacklinksDomainIntersectionLiveRequestInfo.md#limit)
-- [offset](IBacklinksDomainIntersectionLiveRequestInfo.md#offset)
-- [order\_by](IBacklinksDomainIntersectionLiveRequestInfo.md#order_by)
-- [tag](IBacklinksDomainIntersectionLiveRequestInfo.md#tag)
-- [targets](IBacklinksDomainIntersectionLiveRequestInfo.md#targets)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### backlinks\_filters
+### backlinks\_filters?
 
-• `Optional` **backlinks\_filters**: `any`[]
+> **`optional`** **backlinks\_filters**: `any`[]
 
 filter the backlinks of your target
 optional field
@@ -43,15 +24,15 @@ using this parameter, you can include only dofollow backlinks in the response an
 example:
 "backlinks_filters": [["dofollow", "=", true]]
 
-#### Defined in
+#### Source
 
-main.ts:142109
+main.ts:142117
 
-___
+***
 
-### backlinks\_status\_type
+### backlinks\_status\_type?
 
-• `Optional` **backlinks\_status\_type**: `string`
+> **`optional`** **backlinks\_status\_type**: `string`
 
 set what backlinks to return and count
 optional field
@@ -62,30 +43,30 @@ live – backlinks found during the last check will be returned and counted;
 lost – lost backlinks will be returned and counted;
 default value: live
 
-#### Defined in
+#### Source
 
-main.ts:142101
+main.ts:142109
 
-___
+***
 
-### exclude\_internal\_backlinks
+### exclude\_internal\_backlinks?
 
-• `Optional` **exclude\_internal\_backlinks**: `boolean`
+> **`optional`** **exclude\_internal\_backlinks**: `boolean`
 
 indicates whether the backlinks from subdomains of the target are excluded
 optional field
 if set to false, the backlinks from subdomains of the target will be omitted and you won’t receive the same domain in the response;
 default value: true
 
-#### Defined in
+#### Source
 
-main.ts:142125
+main.ts:142133
 
-___
+***
 
-### exclude\_targets
+### exclude\_targets?
 
-• `Optional` **exclude\_targets**: `string`[]
+> **`optional`** **exclude\_targets**: `string`[]
 
 domains, subdomains or webpages you want to exclude
 optional field
@@ -97,25 +78,25 @@ example:
 "https://www.apple.com/iphone/*",
 "https://dataforseo.com/apis/*"]
 
-#### Defined in
+#### Source
 
-main.ts:142040
+main.ts:142048
 
-___
+***
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, =, <>, in, not_in, like, not_like, ilike, not_ilike
+regex, =, `<>`, in, not_in, like, not_like, ilike, not_ilike
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
-["1.internal_links_count",">","1"]
+["1.internal_links_count",">`","1"]
 [["2.referring_pages",">","2"],
 "and",
 ["1.backlinks",">","10"]]
@@ -124,15 +105,15 @@ example:
 [["2.target","like","%dataforseo.com%"],"or",["1.referring_domains",">","10"]]]
 The full list of possible filters is available here.
 
-#### Defined in
+#### Source
 
-main.ts:142057
+main.ts:142065
 
-___
+***
 
-### include\_indirect\_links
+### include\_indirect\_links?
 
-• `Optional` **include\_indirect\_links**: `boolean`
+> **`optional`** **include\_indirect\_links**: `boolean`
 
 indicates if indirect links to the targets will be included in the results
 optional field
@@ -140,30 +121,30 @@ if set to true, the results will include data on indirect links pointing to a pa
 if set to false, indirect links will be ignored
 default value: true
 
-#### Defined in
+#### Source
 
-main.ts:142120
+main.ts:142128
 
-___
+***
 
-### include\_subdomains
+### include\_subdomains?
 
-• `Optional` **include\_subdomains**: `boolean`
+> **`optional`** **include\_subdomains**: `boolean`
 
 indicates if the subdomains of the target will be included in the search
 optional field
 if set to false, the subdomains will be ignored
 default value: true
 
-#### Defined in
+#### Source
 
-main.ts:142114
+main.ts:142122
 
-___
+***
 
-### internal\_list\_limit
+### internal\_list\_limit?
 
-• `Optional` **internal\_list\_limit**: `number`
+> **`optional`** **internal\_list\_limit**: `number`
 
 maximum number of elements within internal arrays
 optional field
@@ -176,15 +157,15 @@ referring_links_semantic_locations
 default value: 10
 maximum value: 1000
 
-#### Defined in
+#### Source
 
-main.ts:142092
+main.ts:142100
 
-___
+***
 
-### intersection\_mode
+### intersection\_mode?
 
-• `Optional` **intersection\_mode**: `string`
+> **`optional`** **intersection\_mode**: `string`
 
 indicates whether to intersect backlinks
 optional field
@@ -194,45 +175,45 @@ all – results are based on all backlinks;
 partial – results are based on the intersecting backlinks only;
 default value: all
 
-#### Defined in
+#### Source
 
-main.ts:142133
+main.ts:142141
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned results
 optional field
 default value: 100
 maximum value: 1000
 
-#### Defined in
+#### Source
 
-main.ts:142081
+main.ts:142089
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the array of returned results
 optional field
 default value: 0
 if you specify the 10 value, the first ten backlinks in the results array will be omitted and the data will be provided for the successive backlinks
 
-#### Defined in
+#### Source
 
-main.ts:142076
+main.ts:142084
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -248,15 +229,15 @@ you should use a comma to separate several sorting rules
 example:
 ["backlinks,desc","rank,asc"]
 
-#### Defined in
+#### Source
 
-main.ts:142071
+main.ts:142079
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -264,15 +245,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:142139
+main.ts:142147
 
-___
+***
 
-### targets
+### targets?
 
-• `Optional` **targets**: `Object`
+> **`optional`** **targets**: `Object`
 
 domains, subdomains or webpages to get links for
 required field
@@ -280,15 +261,15 @@ you can set up to 20 domains, subdomains or webpages
 a domain or a subdomain should be specified without https:// and www.
 a page should be specified with absolute URL (including http:// or https://)
 example:
-"targets": {
+"targets": \{
 "1": "http://planet.postgresql.org/",
 "2": "http://gborg.postgresql.org/"
-}
+\}
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
-#### Defined in
+#### Source
 
-main.ts:142030
+main.ts:142038

@@ -1,29 +1,23 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppStoreMetricsBundleInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppStoreMetricsBundleInfo
 
 # Interface: IAppStoreMetricsBundleInfo
 
-## Implemented by
-
-- [`AppStoreMetricsBundleInfo`](../classes/AppStoreMetricsBundleInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [app\_store\_search\_organic](IAppStoreMetricsBundleInfo.md#app_store_search_organic)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### app\_store\_search\_organic
+### app\_store\_search\_organic?
 
-• `Optional` **app\_store\_search\_organic**: [`AppMetricsInfo`](../classes/AppMetricsInfo.md)
+> **`optional`** **app\_store\_search\_organic**: [`AppMetricsInfo`](../classes/AppMetricsInfo.md)
 
 ranking data from App Store organic search
 
-#### Defined in
+#### Source
 
-main.ts:113788
+main.ts:113796

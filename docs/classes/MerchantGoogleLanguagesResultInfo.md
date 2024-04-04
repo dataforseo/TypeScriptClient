@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MerchantGoogleLanguagesResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / MerchantGoogleLanguagesResultInfo
 
 # Class: MerchantGoogleLanguagesResultInfo
 
@@ -8,133 +12,108 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](MerchantGoogleLanguagesResultInfo.md#constructor)
-
-### Properties
-
-- [language\_code](MerchantGoogleLanguagesResultInfo.md#language_code)
-- [language\_name](MerchantGoogleLanguagesResultInfo.md#language_name)
-
-### Methods
-
-- [init](MerchantGoogleLanguagesResultInfo.md#init)
-- [toJSON](MerchantGoogleLanguagesResultInfo.md#tojson)
-- [fromJS](MerchantGoogleLanguagesResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new MerchantGoogleLanguagesResultInfo(data)
 
-• **new MerchantGoogleLanguagesResultInfo**(`data?`): [`MerchantGoogleLanguagesResultInfo`](MerchantGoogleLanguagesResultInfo.md)
+> **new MerchantGoogleLanguagesResultInfo**(`data`?): [`MerchantGoogleLanguagesResultInfo`](MerchantGoogleLanguagesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IMerchantGoogleLanguagesResultInfo`](../interfaces/IMerchantGoogleLanguagesResultInfo.md) |
+• **data?**: [`IMerchantGoogleLanguagesResultInfo`](../interfaces/IMerchantGoogleLanguagesResultInfo.md)
 
 #### Returns
 
 [`MerchantGoogleLanguagesResultInfo`](MerchantGoogleLanguagesResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:168776
+main.ts:168784
 
 ## Properties
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code according to ISO 639-1
 
 #### Implementation of
 
-[IMerchantGoogleLanguagesResultInfo](../interfaces/IMerchantGoogleLanguagesResultInfo.md).[language_code](../interfaces/IMerchantGoogleLanguagesResultInfo.md#language_code)
+[`IMerchantGoogleLanguagesResultInfo`](../interfaces/IMerchantGoogleLanguagesResultInfo.md).[`language_code`](../interfaces/IMerchantGoogleLanguagesResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:168772
+main.ts:168780
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 language name
 
 #### Implementation of
 
-[IMerchantGoogleLanguagesResultInfo](../interfaces/IMerchantGoogleLanguagesResultInfo.md).[language_name](../interfaces/IMerchantGoogleLanguagesResultInfo.md#language_name)
+[`IMerchantGoogleLanguagesResultInfo`](../interfaces/IMerchantGoogleLanguagesResultInfo.md).[`language_name`](../interfaces/IMerchantGoogleLanguagesResultInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:168770
+main.ts:168778
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:168785
+main.ts:168793
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:168803
+main.ts:168811
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`MerchantGoogleLanguagesResultInfo`](MerchantGoogleLanguagesResultInfo.md)
+> **`static`** **fromJS**(`data`): [`MerchantGoogleLanguagesResultInfo`](MerchantGoogleLanguagesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`MerchantGoogleLanguagesResultInfo`](MerchantGoogleLanguagesResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:168796
+main.ts:168804

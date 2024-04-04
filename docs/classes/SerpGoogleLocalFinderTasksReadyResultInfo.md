@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleLocalFinderTasksReadyResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleLocalFinderTasksReadyResultInfo
 
 # Class: SerpGoogleLocalFinderTasksReadyResultInfo
 
@@ -8,240 +12,209 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleLocalFinderTasksReadyResultInfo.md#constructor)
-
-### Properties
-
-- [date\_posted](SerpGoogleLocalFinderTasksReadyResultInfo.md#date_posted)
-- [endpoint\_advanced](SerpGoogleLocalFinderTasksReadyResultInfo.md#endpoint_advanced)
-- [endpoint\_html](SerpGoogleLocalFinderTasksReadyResultInfo.md#endpoint_html)
-- [endpoint\_regular](SerpGoogleLocalFinderTasksReadyResultInfo.md#endpoint_regular)
-- [id](SerpGoogleLocalFinderTasksReadyResultInfo.md#id)
-- [se](SerpGoogleLocalFinderTasksReadyResultInfo.md#se)
-- [se\_type](SerpGoogleLocalFinderTasksReadyResultInfo.md#se_type)
-- [tag](SerpGoogleLocalFinderTasksReadyResultInfo.md#tag)
-
-### Methods
-
-- [init](SerpGoogleLocalFinderTasksReadyResultInfo.md#init)
-- [toJSON](SerpGoogleLocalFinderTasksReadyResultInfo.md#tojson)
-- [fromJS](SerpGoogleLocalFinderTasksReadyResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleLocalFinderTasksReadyResultInfo(data)
 
-• **new SerpGoogleLocalFinderTasksReadyResultInfo**(`data?`): [`SerpGoogleLocalFinderTasksReadyResultInfo`](SerpGoogleLocalFinderTasksReadyResultInfo.md)
+> **new SerpGoogleLocalFinderTasksReadyResultInfo**(`data`?): [`SerpGoogleLocalFinderTasksReadyResultInfo`](SerpGoogleLocalFinderTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleLocalFinderTasksReadyResultInfo`](../interfaces/ISerpGoogleLocalFinderTasksReadyResultInfo.md) |
+• **data?**: [`ISerpGoogleLocalFinderTasksReadyResultInfo`](../interfaces/ISerpGoogleLocalFinderTasksReadyResultInfo.md)
 
 #### Returns
 
 [`SerpGoogleLocalFinderTasksReadyResultInfo`](SerpGoogleLocalFinderTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:40832
+main.ts:40838
 
 ## Properties
 
-### date\_posted
+### date\_posted?
 
-• `Optional` **date\_posted**: `string`
+> **`optional`** **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderTasksReadyResultInfo](../interfaces/ISerpGoogleLocalFinderTasksReadyResultInfo.md).[date_posted](../interfaces/ISerpGoogleLocalFinderTasksReadyResultInfo.md#date_posted)
+[`ISerpGoogleLocalFinderTasksReadyResultInfo`](../interfaces/ISerpGoogleLocalFinderTasksReadyResultInfo.md).[`date_posted`](../interfaces/ISerpGoogleLocalFinderTasksReadyResultInfo.md#date_posted)
 
-#### Defined in
+#### Source
 
-main.ts:40817
+main.ts:40823
 
-___
+***
 
-### endpoint\_advanced
+### endpoint\_advanced?
 
-• `Optional` **endpoint\_advanced**: `string`
+> **`optional`** **endpoint\_advanced**: `string`
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderTasksReadyResultInfo](../interfaces/ISerpGoogleLocalFinderTasksReadyResultInfo.md).[endpoint_advanced](../interfaces/ISerpGoogleLocalFinderTasksReadyResultInfo.md#endpoint_advanced)
+[`ISerpGoogleLocalFinderTasksReadyResultInfo`](../interfaces/ISerpGoogleLocalFinderTasksReadyResultInfo.md).[`endpoint_advanced`](../interfaces/ISerpGoogleLocalFinderTasksReadyResultInfo.md#endpoint_advanced)
 
-#### Defined in
+#### Source
 
-main.ts:40825
+main.ts:40831
 
-___
+***
 
-### endpoint\_html
+### endpoint\_html?
 
-• `Optional` **endpoint\_html**: `string`
+> **`optional`** **endpoint\_html**: `string`
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderTasksReadyResultInfo](../interfaces/ISerpGoogleLocalFinderTasksReadyResultInfo.md).[endpoint_html](../interfaces/ISerpGoogleLocalFinderTasksReadyResultInfo.md#endpoint_html)
+[`ISerpGoogleLocalFinderTasksReadyResultInfo`](../interfaces/ISerpGoogleLocalFinderTasksReadyResultInfo.md).[`endpoint_html`](../interfaces/ISerpGoogleLocalFinderTasksReadyResultInfo.md#endpoint_html)
 
-#### Defined in
+#### Source
 
-main.ts:40828
+main.ts:40834
 
-___
+***
 
-### endpoint\_regular
+### endpoint\_regular?
 
-• `Optional` **endpoint\_regular**: `string`
+> **`optional`** **endpoint\_regular**: `string`
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderTasksReadyResultInfo](../interfaces/ISerpGoogleLocalFinderTasksReadyResultInfo.md).[endpoint_regular](../interfaces/ISerpGoogleLocalFinderTasksReadyResultInfo.md#endpoint_regular)
+[`ISerpGoogleLocalFinderTasksReadyResultInfo`](../interfaces/ISerpGoogleLocalFinderTasksReadyResultInfo.md).[`endpoint_regular`](../interfaces/ISerpGoogleLocalFinderTasksReadyResultInfo.md#endpoint_regular)
 
-#### Defined in
+#### Source
 
-main.ts:40822
+main.ts:40828
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderTasksReadyResultInfo](../interfaces/ISerpGoogleLocalFinderTasksReadyResultInfo.md).[id](../interfaces/ISerpGoogleLocalFinderTasksReadyResultInfo.md#id)
+[`ISerpGoogleLocalFinderTasksReadyResultInfo`](../interfaces/ISerpGoogleLocalFinderTasksReadyResultInfo.md).[`id`](../interfaces/ISerpGoogleLocalFinderTasksReadyResultInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:40810
+main.ts:40816
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderTasksReadyResultInfo](../interfaces/ISerpGoogleLocalFinderTasksReadyResultInfo.md).[se](../interfaces/ISerpGoogleLocalFinderTasksReadyResultInfo.md#se)
+[`ISerpGoogleLocalFinderTasksReadyResultInfo`](../interfaces/ISerpGoogleLocalFinderTasksReadyResultInfo.md).[`se`](../interfaces/ISerpGoogleLocalFinderTasksReadyResultInfo.md#se)
 
-#### Defined in
+#### Source
 
-main.ts:40812
+main.ts:40818
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 type of search engine
 can take the following values: local_finder
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderTasksReadyResultInfo](../interfaces/ISerpGoogleLocalFinderTasksReadyResultInfo.md).[se_type](../interfaces/ISerpGoogleLocalFinderTasksReadyResultInfo.md#se_type)
+[`ISerpGoogleLocalFinderTasksReadyResultInfo`](../interfaces/ISerpGoogleLocalFinderTasksReadyResultInfo.md).[`se_type`](../interfaces/ISerpGoogleLocalFinderTasksReadyResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:40815
+main.ts:40821
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderTasksReadyResultInfo](../interfaces/ISerpGoogleLocalFinderTasksReadyResultInfo.md).[tag](../interfaces/ISerpGoogleLocalFinderTasksReadyResultInfo.md#tag)
+[`ISerpGoogleLocalFinderTasksReadyResultInfo`](../interfaces/ISerpGoogleLocalFinderTasksReadyResultInfo.md).[`tag`](../interfaces/ISerpGoogleLocalFinderTasksReadyResultInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:40819
+main.ts:40825
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:40841
+main.ts:40847
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:40865
+main.ts:40871
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleLocalFinderTasksReadyResultInfo`](SerpGoogleLocalFinderTasksReadyResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleLocalFinderTasksReadyResultInfo`](SerpGoogleLocalFinderTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpGoogleLocalFinderTasksReadyResultInfo`](SerpGoogleLocalFinderTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:40858
+main.ts:40864

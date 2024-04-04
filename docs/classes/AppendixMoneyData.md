@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixMoneyData
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppendixMoneyData
 
 # Class: AppendixMoneyData
 
@@ -8,167 +12,140 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixMoneyData.md#constructor)
-
-### Properties
-
-- [balance](AppendixMoneyData.md#balance)
-- [limits](AppendixMoneyData.md#limits)
-- [statistics](AppendixMoneyData.md#statistics)
-- [total](AppendixMoneyData.md#total)
-
-### Methods
-
-- [init](AppendixMoneyData.md#init)
-- [toJSON](AppendixMoneyData.md#tojson)
-- [fromJS](AppendixMoneyData.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixMoneyData(data)
 
-• **new AppendixMoneyData**(`data?`): [`AppendixMoneyData`](AppendixMoneyData.md)
+> **new AppendixMoneyData**(`data`?): [`AppendixMoneyData`](AppendixMoneyData.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixMoneyData`](../interfaces/IAppendixMoneyData.md) |
+• **data?**: [`IAppendixMoneyData`](../interfaces/IAppendixMoneyData.md)
 
 #### Returns
 
 [`AppendixMoneyData`](AppendixMoneyData.md)
 
-#### Defined in
+#### Source
 
 main.ts:214981
 
 ## Properties
 
-### balance
+### balance?
 
-• `Optional` **balance**: `number`
+> **`optional`** **balance**: `number`
 
 amount of money left in your account
 
 #### Implementation of
 
-[IAppendixMoneyData](../interfaces/IAppendixMoneyData.md).[balance](../interfaces/IAppendixMoneyData.md#balance)
+[`IAppendixMoneyData`](../interfaces/IAppendixMoneyData.md).[`balance`](../interfaces/IAppendixMoneyData.md#balance)
 
-#### Defined in
+#### Source
 
 main.ts:214973
 
-___
+***
 
-### limits
+### limits?
 
-• `Optional` **limits**: [`AppendixLimitsMoneyData`](AppendixLimitsMoneyData.md)
+> **`optional`** **limits**: [`AppendixLimitsMoneyData`](AppendixLimitsMoneyData.md)
 
 cost limits
 
 #### Implementation of
 
-[IAppendixMoneyData](../interfaces/IAppendixMoneyData.md).[limits](../interfaces/IAppendixMoneyData.md#limits)
+[`IAppendixMoneyData`](../interfaces/IAppendixMoneyData.md).[`limits`](../interfaces/IAppendixMoneyData.md#limits)
 
-#### Defined in
+#### Source
 
 main.ts:214975
 
-___
+***
 
-### statistics
+### statistics?
 
-• `Optional` **statistics**: [`AppendixStatisticsDataInfo`](AppendixStatisticsDataInfo.md)
+> **`optional`** **statistics**: [`AppendixStatisticsDataInfo`](AppendixStatisticsDataInfo.md)
 
 statistics of your spending
 
 #### Implementation of
 
-[IAppendixMoneyData](../interfaces/IAppendixMoneyData.md).[statistics](../interfaces/IAppendixMoneyData.md#statistics)
+[`IAppendixMoneyData`](../interfaces/IAppendixMoneyData.md).[`statistics`](../interfaces/IAppendixMoneyData.md#statistics)
 
-#### Defined in
+#### Source
 
 main.ts:214977
 
-___
+***
 
-### total
+### total?
 
-• `Optional` **total**: `number`
+> **`optional`** **total**: `number`
 
 total amount of money deposited to your account
 
 #### Implementation of
 
-[IAppendixMoneyData](../interfaces/IAppendixMoneyData.md).[total](../interfaces/IAppendixMoneyData.md#total)
+[`IAppendixMoneyData`](../interfaces/IAppendixMoneyData.md).[`total`](../interfaces/IAppendixMoneyData.md#total)
 
-#### Defined in
+#### Source
 
 main.ts:214971
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:214990
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:215010
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppendixMoneyData`](AppendixMoneyData.md)
+> **`static`** **fromJS**(`data`): [`AppendixMoneyData`](AppendixMoneyData.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppendixMoneyData`](AppendixMoneyData.md)
 
-#### Defined in
+#### Source
 
 main.ts:215003

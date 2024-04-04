@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MerchantErrorsRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / MerchantErrorsRequestInfo
 
 # Class: MerchantErrorsRequestInfo
 
@@ -8,53 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](MerchantErrorsRequestInfo.md#constructor)
-
-### Properties
-
-- [datetime\_from](MerchantErrorsRequestInfo.md#datetime_from)
-- [datetime\_to](MerchantErrorsRequestInfo.md#datetime_to)
-- [filtered\_function](MerchantErrorsRequestInfo.md#filtered_function)
-- [limit](MerchantErrorsRequestInfo.md#limit)
-- [offset](MerchantErrorsRequestInfo.md#offset)
-
-### Methods
-
-- [init](MerchantErrorsRequestInfo.md#init)
-- [toJSON](MerchantErrorsRequestInfo.md#tojson)
-- [fromJS](MerchantErrorsRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new MerchantErrorsRequestInfo(data)
 
-• **new MerchantErrorsRequestInfo**(`data?`): [`MerchantErrorsRequestInfo`](MerchantErrorsRequestInfo.md)
+> **new MerchantErrorsRequestInfo**(`data`?): [`MerchantErrorsRequestInfo`](MerchantErrorsRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IMerchantErrorsRequestInfo`](../interfaces/IMerchantErrorsRequestInfo.md) |
+• **data?**: [`IMerchantErrorsRequestInfo`](../interfaces/IMerchantErrorsRequestInfo.md)
 
 #### Returns
 
 [`MerchantErrorsRequestInfo`](MerchantErrorsRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:168460
+main.ts:168468
 
 ## Properties
 
-### datetime\_from
+### datetime\_from?
 
-• `Optional` **datetime\_from**: `string`
+> **`optional`** **datetime\_from**: `string`
 
 start time for filtering results
 optional field
@@ -65,17 +47,17 @@ example:
 
 #### Implementation of
 
-[IMerchantErrorsRequestInfo](../interfaces/IMerchantErrorsRequestInfo.md).[datetime_from](../interfaces/IMerchantErrorsRequestInfo.md#datetime_from)
+[`IMerchantErrorsRequestInfo`](../interfaces/IMerchantErrorsRequestInfo.md).[`datetime_from`](../interfaces/IMerchantErrorsRequestInfo.md#datetime_from)
 
-#### Defined in
+#### Source
 
-main.ts:168449
+main.ts:168457
 
-___
+***
 
-### datetime\_to
+### datetime\_to?
 
-• `Optional` **datetime\_to**: `string`
+> **`optional`** **datetime\_to**: `string`
 
 finish time for filtering results
 optional field
@@ -86,17 +68,17 @@ example:
 
 #### Implementation of
 
-[IMerchantErrorsRequestInfo](../interfaces/IMerchantErrorsRequestInfo.md).[datetime_to](../interfaces/IMerchantErrorsRequestInfo.md#datetime_to)
+[`IMerchantErrorsRequestInfo`](../interfaces/IMerchantErrorsRequestInfo.md).[`datetime_to`](../interfaces/IMerchantErrorsRequestInfo.md#datetime_to)
 
-#### Defined in
+#### Source
 
-main.ts:168456
+main.ts:168464
 
-___
+***
 
-### filtered\_function
+### filtered\_function?
 
-• `Optional` **filtered\_function**: `string`
+> **`optional`** **filtered\_function**: `string`
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -106,17 +88,17 @@ example: sellers/ad_url, postback_url, pingback_url
 
 #### Implementation of
 
-[IMerchantErrorsRequestInfo](../interfaces/IMerchantErrorsRequestInfo.md).[filtered_function](../interfaces/IMerchantErrorsRequestInfo.md#filtered_function)
+[`IMerchantErrorsRequestInfo`](../interfaces/IMerchantErrorsRequestInfo.md).[`filtered_function`](../interfaces/IMerchantErrorsRequestInfo.md#filtered_function)
 
-#### Defined in
+#### Source
 
-main.ts:168442
+main.ts:168450
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -125,17 +107,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IMerchantErrorsRequestInfo](../interfaces/IMerchantErrorsRequestInfo.md).[limit](../interfaces/IMerchantErrorsRequestInfo.md#limit)
+[`IMerchantErrorsRequestInfo`](../interfaces/IMerchantErrorsRequestInfo.md).[`limit`](../interfaces/IMerchantErrorsRequestInfo.md#limit)
 
-#### Defined in
+#### Source
 
-main.ts:168431
+main.ts:168439
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned tasks
 optional field
@@ -144,68 +126,62 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Implementation of
 
-[IMerchantErrorsRequestInfo](../interfaces/IMerchantErrorsRequestInfo.md).[offset](../interfaces/IMerchantErrorsRequestInfo.md#offset)
+[`IMerchantErrorsRequestInfo`](../interfaces/IMerchantErrorsRequestInfo.md).[`offset`](../interfaces/IMerchantErrorsRequestInfo.md#offset)
 
-#### Defined in
+#### Source
 
-main.ts:168436
+main.ts:168444
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:168469
+main.ts:168477
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:168490
+main.ts:168498
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`MerchantErrorsRequestInfo`](MerchantErrorsRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`MerchantErrorsRequestInfo`](MerchantErrorsRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`MerchantErrorsRequestInfo`](MerchantErrorsRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:168483
+main.ts:168491

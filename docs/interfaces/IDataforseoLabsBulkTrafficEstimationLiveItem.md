@@ -1,59 +1,51 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsBulkTrafficEstimationLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsBulkTrafficEstimationLiveItem
 
 # Interface: IDataforseoLabsBulkTrafficEstimationLiveItem
 
-## Implemented by
-
-- [`DataforseoLabsBulkTrafficEstimationLiveItem`](../classes/DataforseoLabsBulkTrafficEstimationLiveItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [metrics](IDataforseoLabsBulkTrafficEstimationLiveItem.md#metrics)
-- [se\_type](IDataforseoLabsBulkTrafficEstimationLiveItem.md#se_type)
-- [target](IDataforseoLabsBulkTrafficEstimationLiveItem.md#target)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### metrics
+### metrics?
 
-• `Optional` **metrics**: `Object`
+> **`optional`** **metrics**: `Object`
 
 traffic data relevant to the specified domain
 
 #### Index signature
 
-▪ [key: `string`]: [`BulkMetricsInfo`](../classes/BulkMetricsInfo.md)
+ \[`key`: `string`\]: [`BulkMetricsInfo`](../classes/BulkMetricsInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:100136
+main.ts:100144
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:100132
+main.ts:100140
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 target domain in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:100134
+main.ts:100142

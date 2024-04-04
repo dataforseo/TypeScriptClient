@@ -1,55 +1,47 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IRedirect
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IRedirect
 
 # Interface: IRedirect
 
-## Implemented by
-
-- [`Redirect`](../classes/Redirect.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [status\_code](IRedirect.md#status_code)
-- [type](IRedirect.md#type)
-- [url](IRedirect.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 HTTP status code of the URL
 
-#### Defined in
+#### Source
 
-main.ts:136385
+main.ts:136393
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:136383
+main.ts:136391
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 indirect link URL
 
-#### Defined in
+#### Source
 
-main.ts:136387
+main.ts:136395

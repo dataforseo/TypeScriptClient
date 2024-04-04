@@ -1,201 +1,181 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ILocalPackSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ILocalPackSerpElementItem
 
 # Interface: ILocalPackSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
 
-  ↳ **`ILocalPackSerpElementItem`**
-
-## Implemented by
-
-- [`LocalPackSerpElementItem`](../classes/LocalPackSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [cid](ILocalPackSerpElementItem.md#cid)
-- [description](ILocalPackSerpElementItem.md#description)
-- [domain](ILocalPackSerpElementItem.md#domain)
-- [is\_paid](ILocalPackSerpElementItem.md#is_paid)
-- [phone](ILocalPackSerpElementItem.md#phone)
-- [position](ILocalPackSerpElementItem.md#position)
-- [rank\_absolute](ILocalPackSerpElementItem.md#rank_absolute)
-- [rank\_group](ILocalPackSerpElementItem.md#rank_group)
-- [rating](ILocalPackSerpElementItem.md#rating)
-- [rectangle](ILocalPackSerpElementItem.md#rectangle)
-- [title](ILocalPackSerpElementItem.md#title)
-- [url](ILocalPackSerpElementItem.md#url)
-- [xpath](ILocalPackSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### cid
+### cid?
 
-• `Optional` **cid**: `string`
+> **`optional`** **cid**: `string`
 
 google-defined client id
 
-#### Defined in
+#### Source
 
 main.ts:30706
 
-___
+***
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description of the results element in SERP
 
-#### Defined in
+#### Source
 
 main.ts:30693
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 source domain
 
-#### Defined in
+#### Source
 
 main.ts:30695
 
-___
+***
 
-### is\_paid
+### is\_paid?
 
-• `Optional` **is\_paid**: `boolean`
+> **`optional`** **is\_paid**: `boolean`
 
 indicates whether the element is an ad
 
-#### Defined in
+#### Source
 
 main.ts:30701
 
-___
+***
 
-### phone
+### phone?
 
-• `Optional` **phone**: `string`
+> **`optional`** **phone**: `string`
 
 phone number
 
-#### Defined in
+#### Source
 
 main.ts:30697
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
 main.ts:30687
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop
 
-#### Defined in
+#### Source
 
 main.ts:30683
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
 positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop
 
-#### Defined in
+#### Source
 
 main.ts:30679
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
-#### Defined in
+#### Source
 
 main.ts:30704
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
 equals null if calculate_rectangles in the POST request is not set to true
 
-#### Defined in
+#### Source
 
 main.ts:30710
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the row
 
-#### Defined in
+#### Source
 
 main.ts:30691
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 source URL
 
-#### Defined in
+#### Source
 
 main.ts:30699
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
 main.ts:30689

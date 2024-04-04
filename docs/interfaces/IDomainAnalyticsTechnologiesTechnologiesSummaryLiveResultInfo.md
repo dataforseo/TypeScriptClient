@@ -1,88 +1,79 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo
 
 # Interface: IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo
 
-## Implemented by
-
-- [`DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo`](../classes/DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [content\_languages](IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md#content_languages)
-- [countries](IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md#countries)
-- [keywords](IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md#keywords)
-- [languages](IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md#languages)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### content\_languages
+### content\_languages?
 
-• `Optional` **content\_languages**: `Object`
+> **`optional`** **content\_languages**: `Object`
 
 distribution of websites by content language
 contains content language codes and number of websites per language
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
-#### Defined in
+#### Source
 
-main.ts:75749
+main.ts:75757
 
-___
+***
 
-### countries
+### countries?
 
-• `Optional` **countries**: `Object`
+> **`optional`** **countries**: `Object`
 
 distribution of websites by country
 contains country codes and number of websites per country
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
-#### Defined in
+#### Source
 
-main.ts:75743
+main.ts:75751
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `Object`
+> **`optional`** **keywords**: `Object`
 
 distribution of websites by keywords
 contains keywords found in the websites’ titles, descriptions or meta keywords, and number of websites using each keyword
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
-#### Defined in
+#### Source
 
-main.ts:75752
+main.ts:75760
 
-___
+***
 
-### languages
+### languages?
 
-• `Optional` **languages**: `Object`
+> **`optional`** **languages**: `Object`
 
 distribution of websites by language
 contains language codes and number of websites per language
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
-#### Defined in
+#### Source
 
-main.ts:75746
+main.ts:75754

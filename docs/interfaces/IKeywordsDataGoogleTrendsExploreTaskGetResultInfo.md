@@ -1,126 +1,113 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleTrendsExploreTaskGetResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IKeywordsDataGoogleTrendsExploreTaskGetResultInfo
 
 # Interface: IKeywordsDataGoogleTrendsExploreTaskGetResultInfo
 
-## Implemented by
-
-- [`KeywordsDataGoogleTrendsExploreTaskGetResultInfo`](../classes/KeywordsDataGoogleTrendsExploreTaskGetResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [check\_url](IKeywordsDataGoogleTrendsExploreTaskGetResultInfo.md#check_url)
-- [datetime](IKeywordsDataGoogleTrendsExploreTaskGetResultInfo.md#datetime)
-- [items](IKeywordsDataGoogleTrendsExploreTaskGetResultInfo.md#items)
-- [items\_count](IKeywordsDataGoogleTrendsExploreTaskGetResultInfo.md#items_count)
-- [keywords](IKeywordsDataGoogleTrendsExploreTaskGetResultInfo.md#keywords)
-- [language\_code](IKeywordsDataGoogleTrendsExploreTaskGetResultInfo.md#language_code)
-- [location\_code](IKeywordsDataGoogleTrendsExploreTaskGetResultInfo.md#location_code)
-- [type](IKeywordsDataGoogleTrendsExploreTaskGetResultInfo.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### check\_url
+### check\_url?
 
-• `Optional` **check\_url**: `string`
+> **`optional`** **check\_url**: `string`
 
 direct URL to the Google Trends results
 you can use it to make sure that we provided accurate results
 
-#### Defined in
+#### Source
 
-main.ts:123062
+main.ts:123070
 
-___
+***
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
-main.ts:123067
+main.ts:123075
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseGoogleTrendsItem`](../classes/BaseGoogleTrendsItem.md)[]
+> **`optional`** **items**: [`BaseGoogleTrendsItem`](../classes/BaseGoogleTrendsItem.md)[]
 
 items on the Google Trends page
 
-#### Defined in
+#### Source
 
-main.ts:123071
+main.ts:123079
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Defined in
+#### Source
 
-main.ts:123069
+main.ts:123077
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 keywords in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:123051
+main.ts:123059
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 if there is no data, then the value is null
 
-#### Defined in
+#### Source
 
-main.ts:123059
+main.ts:123067
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 if there is no data, then the value is null
 
-#### Defined in
+#### Source
 
-main.ts:123056
+main.ts:123064
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:123053
+main.ts:123061

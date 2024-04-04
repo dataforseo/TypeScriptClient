@@ -1,46 +1,24 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IKeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo
 
 # Interface: IKeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo
 
-## Hierarchy
+## Extends
 
 - [`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md)
 
-  ↳ **`IKeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo`**
-
-## Implemented by
-
-- [`KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo`](../classes/KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [date\_from](IKeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo.md#date_from)
-- [date\_to](IKeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo.md#date_to)
-- [include\_adult\_keywords](IKeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo.md#include_adult_keywords)
-- [keywords](IKeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo.md#keywords)
-- [language\_code](IKeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo.md#language_code)
-- [language\_name](IKeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo.md#language_name)
-- [location\_code](IKeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo.md#location_code)
-- [location\_coordinate](IKeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo.md#location_coordinate)
-- [location\_name](IKeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo.md#location_name)
-- [pingback\_url](IKeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo.md#pingback_url)
-- [postback\_url](IKeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo.md#postback_url)
-- [search\_partners](IKeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo.md#search_partners)
-- [sort\_by](IKeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo.md#sort_by)
-- [tag](IKeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo.md#tag)
-- [target](IKeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo.md#target)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -52,17 +30,17 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 #### Inherited from
 
-[IKeywordsDataTaskRequestInfo](IKeywordsDataTaskRequestInfo.md).[date_from](IKeywordsDataTaskRequestInfo.md#date_from)
+[`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md).[`date_from`](IKeywordsDataTaskRequestInfo.md#date_from)
 
-#### Defined in
+#### Source
 
-main.ts:71915
+main.ts:71923
 
-___
+***
 
-### date\_to
+### date\_to?
 
-• `Optional` **date\_to**: `string`
+> **`optional`** **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -74,17 +52,17 @@ example:
 
 #### Inherited from
 
-[IKeywordsDataTaskRequestInfo](IKeywordsDataTaskRequestInfo.md).[date_to](IKeywordsDataTaskRequestInfo.md#date_to)
+[`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md).[`date_to`](IKeywordsDataTaskRequestInfo.md#date_to)
 
-#### Defined in
+#### Source
 
-main.ts:71923
+main.ts:71931
 
-___
+***
 
-### include\_adult\_keywords
+### include\_adult\_keywords?
 
-• `Optional` **include\_adult\_keywords**: `boolean`
+> **`optional`** **include\_adult\_keywords**: `boolean`
 
 include keywords associated with adult content
 optional field
@@ -94,17 +72,17 @@ note that the API may return no data for such keywords due to Google Ads restr
 
 #### Inherited from
 
-[IKeywordsDataTaskRequestInfo](IKeywordsDataTaskRequestInfo.md).[include_adult_keywords](IKeywordsDataTaskRequestInfo.md#include_adult_keywords)
+[`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md).[`include_adult_keywords`](IKeywordsDataTaskRequestInfo.md#include_adult_keywords)
 
-#### Defined in
+#### Source
 
-main.ts:71929
+main.ts:71937
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 keywords
 required field
@@ -120,17 +98,17 @@ to learn more about which symbols can be used, please refer to this article
 
 #### Inherited from
 
-[IKeywordsDataTaskRequestInfo](IKeywordsDataTaskRequestInfo.md).[keywords](IKeywordsDataTaskRequestInfo.md#keywords)
+[`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md).[`keywords`](IKeywordsDataTaskRequestInfo.md#keywords)
 
-#### Defined in
+#### Source
 
-main.ts:71865
+main.ts:71873
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 optional field
@@ -140,17 +118,17 @@ en
 
 #### Inherited from
 
-[IKeywordsDataTaskRequestInfo](IKeywordsDataTaskRequestInfo.md).[language_code](IKeywordsDataTaskRequestInfo.md#language_code)
+[`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md).[`language_code`](IKeywordsDataTaskRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:71902
+main.ts:71910
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -160,17 +138,17 @@ English
 
 #### Inherited from
 
-[IKeywordsDataTaskRequestInfo](IKeywordsDataTaskRequestInfo.md).[language_name](IKeywordsDataTaskRequestInfo.md#language_name)
+[`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md).[`language_name`](IKeywordsDataTaskRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:71896
+main.ts:71904
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 optional field
@@ -182,17 +160,17 @@ example:
 
 #### Inherited from
 
-[IKeywordsDataTaskRequestInfo](IKeywordsDataTaskRequestInfo.md).[location_code](IKeywordsDataTaskRequestInfo.md#location_code)
+[`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md).[`location_code`](IKeywordsDataTaskRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:71881
+main.ts:71889
 
-___
+***
 
-### location\_coordinate
+### location\_coordinate?
 
-• `Optional` **location\_coordinate**: `string`
+> **`optional`** **location\_coordinate**: `string`
 
 GPS coordinates of a location
 optional field
@@ -205,17 +183,17 @@ example:
 
 #### Inherited from
 
-[IKeywordsDataTaskRequestInfo](IKeywordsDataTaskRequestInfo.md).[location_coordinate](IKeywordsDataTaskRequestInfo.md#location_coordinate)
+[`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md).[`location_coordinate`](IKeywordsDataTaskRequestInfo.md#location_coordinate)
 
-#### Defined in
+#### Source
 
-main.ts:71890
+main.ts:71898
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 optional field
@@ -227,17 +205,17 @@ London,England,United Kingdom
 
 #### Inherited from
 
-[IKeywordsDataTaskRequestInfo](IKeywordsDataTaskRequestInfo.md).[location_name](IKeywordsDataTaskRequestInfo.md#location_name)
+[`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md).[`location_name`](IKeywordsDataTaskRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:71873
+main.ts:71881
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -251,17 +229,17 @@ i.a., the # symbol will be encoded into %23
 
 #### Inherited from
 
-[IKeywordsDataTaskRequestInfo](IKeywordsDataTaskRequestInfo.md).[pingback_url](IKeywordsDataTaskRequestInfo.md#pingback_url)
+[`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md).[`pingback_url`](IKeywordsDataTaskRequestInfo.md#pingback_url)
 
-#### Defined in
+#### Source
 
-main.ts:71954
+main.ts:71962
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -275,17 +253,17 @@ i.a., the # symbol will be encoded into %23
 
 #### Inherited from
 
-[IKeywordsDataTaskRequestInfo](IKeywordsDataTaskRequestInfo.md).[postback_url](IKeywordsDataTaskRequestInfo.md#postback_url)
+[`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md).[`postback_url`](IKeywordsDataTaskRequestInfo.md#postback_url)
 
-#### Defined in
+#### Source
 
-main.ts:71944
+main.ts:71952
 
-___
+***
 
-### search\_partners
+### search\_partners?
 
-• `Optional` **search\_partners**: `boolean`
+> **`optional`** **search\_partners**: `boolean`
 
 include Google search partners
 optional field
@@ -294,17 +272,17 @@ default value: false – results are returned for Google search sites
 
 #### Inherited from
 
-[IKeywordsDataTaskRequestInfo](IKeywordsDataTaskRequestInfo.md).[search_partners](IKeywordsDataTaskRequestInfo.md#search_partners)
+[`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md).[`search_partners`](IKeywordsDataTaskRequestInfo.md#search_partners)
 
-#### Defined in
+#### Source
 
-main.ts:71907
+main.ts:71915
 
-___
+***
 
-### sort\_by
+### sort\_by?
 
-• `Optional` **sort\_by**: `string`
+> **`optional`** **sort\_by**: `string`
 
 results sorting parameters
 optional field
@@ -313,17 +291,17 @@ default value: relevance
 
 #### Inherited from
 
-[IKeywordsDataTaskRequestInfo](IKeywordsDataTaskRequestInfo.md).[sort_by](IKeywordsDataTaskRequestInfo.md#sort_by)
+[`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md).[`sort_by`](IKeywordsDataTaskRequestInfo.md#sort_by)
 
-#### Defined in
+#### Source
 
-main.ts:71934
+main.ts:71942
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -333,23 +311,23 @@ you will find the specified tag value in the data array of the response
 
 #### Inherited from
 
-[IKeywordsDataTaskRequestInfo](IKeywordsDataTaskRequestInfo.md).[tag](IKeywordsDataTaskRequestInfo.md#tag)
+[`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md).[`tag`](IKeywordsDataTaskRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:71960
+main.ts:71968
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 target website
 optional field
 specify a website or URL to get a list of keywords relevant to it;
 Note: if a website url is specified, you will still get keywords relevant for the entire website
 
-#### Defined in
+#### Source
 
-main.ts:118295
+main.ts:118303

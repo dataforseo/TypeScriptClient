@@ -1,42 +1,35 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IConceptInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IConceptInfo
 
 # Interface: IConceptInfo
 
-## Implemented by
-
-- [`ConceptInfo`](../classes/ConceptInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [concept\_group](IConceptInfo.md#concept_group)
-- [name](IConceptInfo.md#name)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### concept\_group
+### concept\_group?
 
-• `Optional` **concept\_group**: [`ConceptGroupInfo`](../classes/ConceptGroupInfo.md)
+> **`optional`** **concept\_group**: [`ConceptGroupInfo`](../classes/ConceptGroupInfo.md)
 
 the concept group of the concept details
 
-#### Defined in
+#### Source
 
-main.ts:117380
+main.ts:117388
 
-___
+***
 
-### name
+### name?
 
-• `Optional` **name**: `string`
+> **`optional`** **name**: `string`
 
 the concept name for the keyword in the concept_group
 
-#### Defined in
+#### Source
 
-main.ts:117378
+main.ts:117386

@@ -1,34 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppDataAppleAppListingsSearchLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppDataAppleAppListingsSearchLiveRequestInfo
 
 # Interface: IAppDataAppleAppListingsSearchLiveRequestInfo
 
-## Implemented by
-
-- [`AppDataAppleAppListingsSearchLiveRequestInfo`](../classes/AppDataAppleAppListingsSearchLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [categories](IAppDataAppleAppListingsSearchLiveRequestInfo.md#categories)
-- [description](IAppDataAppleAppListingsSearchLiveRequestInfo.md#description)
-- [filters](IAppDataAppleAppListingsSearchLiveRequestInfo.md#filters)
-- [limit](IAppDataAppleAppListingsSearchLiveRequestInfo.md#limit)
-- [offset](IAppDataAppleAppListingsSearchLiveRequestInfo.md#offset)
-- [offset\_token](IAppDataAppleAppListingsSearchLiveRequestInfo.md#offset_token)
-- [order\_by](IAppDataAppleAppListingsSearchLiveRequestInfo.md#order_by)
-- [tag](IAppDataAppleAppListingsSearchLiveRequestInfo.md#tag)
-- [title](IAppDataAppleAppListingsSearchLiveRequestInfo.md#title)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### categories
+### categories?
 
-• `Optional` **categories**: `string`[]
+> **`optional`** **categories**: `string`[]
 
 app categories
 optional field
@@ -36,81 +22,81 @@ the categories you specify are used to search for app listings;
 you can get the full list of available app listing categories by this link
 you can specify up to 10 categories
 
-#### Defined in
+#### Source
 
 main.ts:192337
 
-___
+***
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 keyword in the app’s description
 optional field
 keywords that occur in the description of the app;
 can contain up to 200 symbols
 
-#### Defined in
+#### Source
 
 main.ts:192342
 
-___
+***
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, <=, >, >=, =, <>, in, not_in, like, not_like
+regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
-["rating.value",">",3]
+["rating.value",">`",3]
 you can receive the list of available filters by making a separate request to https://api.dataforseo.com/v3/app_data/apple/app_listings/available_filters
 
-#### Defined in
+#### Source
 
 main.ts:192358
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned apps
 optional field
 default value: 100
 maximum value: 1000
 
-#### Defined in
+#### Source
 
 main.ts:192377
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned apps
 optional field
 default value: 0
 if you specify the 10 value, the first ten entities in the results array will be omitted and the data will be provided for the successive entities
 
-#### Defined in
+#### Source
 
 main.ts:192382
 
-___
+***
 
-### offset\_token
+### offset\_token?
 
-• `Optional` **offset\_token**: `string`
+> **`optional`** **offset\_token**: `string`
 
 token for subsequent requests
 optional field
@@ -120,15 +106,15 @@ by specifying the unique offset_token value from the response array, you will ge
 offset_token values are unique for each subsequent task
 Note: if the offset_token is specified in the request, all other parameters should be identical to the previous request
 
-#### Defined in
+#### Source
 
 main.ts:192390
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -144,15 +130,15 @@ you should use a comma to separate several sorting rules
 example:
 ["item.rating.value,desc","item.rating.value,desc"]
 
-#### Defined in
+#### Source
 
 main.ts:192372
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -160,21 +146,21 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
 main.ts:192396
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 keyword in the app’s title
 optional field
 keywords that occur in the title of the app;
 can contain up to 200 symbols
 
-#### Defined in
+#### Source
 
 main.ts:192347

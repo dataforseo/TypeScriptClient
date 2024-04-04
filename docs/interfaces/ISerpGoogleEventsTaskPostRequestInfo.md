@@ -1,56 +1,35 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpGoogleEventsTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ISerpGoogleEventsTaskPostRequestInfo
 
 # Interface: ISerpGoogleEventsTaskPostRequestInfo
 
-## Implemented by
-
-- [`SerpGoogleEventsTaskPostRequestInfo`](../classes/SerpGoogleEventsTaskPostRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [date\_range](ISerpGoogleEventsTaskPostRequestInfo.md#date_range)
-- [depth](ISerpGoogleEventsTaskPostRequestInfo.md#depth)
-- [keyword](ISerpGoogleEventsTaskPostRequestInfo.md#keyword)
-- [language\_code](ISerpGoogleEventsTaskPostRequestInfo.md#language_code)
-- [language\_name](ISerpGoogleEventsTaskPostRequestInfo.md#language_name)
-- [location\_code](ISerpGoogleEventsTaskPostRequestInfo.md#location_code)
-- [location\_coordinate](ISerpGoogleEventsTaskPostRequestInfo.md#location_coordinate)
-- [location\_name](ISerpGoogleEventsTaskPostRequestInfo.md#location_name)
-- [max\_crawl\_pages](ISerpGoogleEventsTaskPostRequestInfo.md#max_crawl_pages)
-- [os](ISerpGoogleEventsTaskPostRequestInfo.md#os)
-- [pingback\_url](ISerpGoogleEventsTaskPostRequestInfo.md#pingback_url)
-- [postback\_data](ISerpGoogleEventsTaskPostRequestInfo.md#postback_data)
-- [postback\_url](ISerpGoogleEventsTaskPostRequestInfo.md#postback_url)
-- [priority](ISerpGoogleEventsTaskPostRequestInfo.md#priority)
-- [se\_domain](ISerpGoogleEventsTaskPostRequestInfo.md#se_domain)
-- [tag](ISerpGoogleEventsTaskPostRequestInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### date\_range
+### date\_range?
 
-• `Optional` **date\_range**: `string`
+> **`optional`** **date\_range**: `string`
 
 date range to get events for
 optional field
 if you do not use this field, we will return all events
 possible values: today, tomorrow, week, weekend, next_week, month, next_month
 
-#### Defined in
+#### Source
 
-main.ts:44577
+main.ts:44585
 
-___
+***
 
-### depth
+### depth?
 
-• `Optional` **depth**: `number`
+> **`optional`** **depth**: `number`
 
 parsing depth
 optional field
@@ -61,15 +40,15 @@ Note: your account will be billed per each SERP containing up to 10 results;
 thus, setting a depth above 10 may result in additional charges if the search engine returns more than 10 results;
 if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance
 
-#### Defined in
+#### Source
 
-main.ts:44599
+main.ts:44607
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword
 required field
@@ -78,15 +57,15 @@ all %## will be decoded (plus symbol ‘+’ will be decoded to a space characte
 if you need to use the “%” symbol for your keyword, please specify it as “%25”;
 if you need to use the “+” symbol for your keyword, please specify it as “%2B”
 
-#### Defined in
+#### Source
 
-main.ts:44523
+main.ts:44531
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 optional field
@@ -96,15 +75,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:44572
+main.ts:44580
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -114,15 +93,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:44564
+main.ts:44572
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -131,15 +110,15 @@ you can receive the list of available locations of the search engines with their
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:44545
+main.ts:44553
 
-___
+***
 
-### location\_coordinate
+### location\_coordinate?
 
-• `Optional` **location\_coordinate**: `string`
+> **`optional`** **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -152,15 +131,15 @@ the maximum value for “radius”: 199999 (mm)
 example:
 53.476225,-2.243572,200
 
-#### Defined in
+#### Source
 
-main.ts:44556
+main.ts:44564
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -169,15 +148,15 @@ you can receive the list of available locations of the search engine with their 
 example:
 London,England,United Kingdom
 
-#### Defined in
+#### Source
 
-main.ts:44538
+main.ts:44546
 
-___
+***
 
-### max\_crawl\_pages
+### max\_crawl\_pages?
 
-• `Optional` **max\_crawl\_pages**: `number`
+> **`optional`** **max\_crawl\_pages**: `number`
 
 page crawl limit
 optional field
@@ -186,15 +165,15 @@ max value: 100
 Note: the max_crawl_pages and depth parameters complement each other;
 learn more at our help center
 
-#### Defined in
+#### Source
 
-main.ts:44606
+main.ts:44614
 
-___
+***
 
-### os
+### os?
 
-• `Optional` **os**: `string`
+> **`optional`** **os**: `string`
 
 device operating system
 optional field
@@ -202,15 +181,15 @@ note that this API provides results for desktop only
 choose from the following values: windows, macos
 default value: windows
 
-#### Defined in
+#### Source
 
-main.ts:44583
+main.ts:44591
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -222,15 +201,15 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special symbols in pingback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
-main.ts:44638
+main.ts:44646
 
-___
+***
 
-### postback\_data
+### postback\_data?
 
-• `Optional` **postback\_data**: `string`
+> **`optional`** **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -238,15 +217,15 @@ corresponds to the datatype that will be sent to your server
 possible values:
 advanced
 
-#### Defined in
+#### Source
 
-main.ts:44628
+main.ts:44636
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -258,15 +237,15 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special symbols in postback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
-main.ts:44622
+main.ts:44630
 
-___
+***
 
-### priority
+### priority?
 
-• `Optional` **priority**: `number`
+> **`optional`** **priority**: `number`
 
 task priority
 optional field
@@ -276,15 +255,15 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority;
 The cost can be calculated on the Pricing page
 
-#### Defined in
+#### Source
 
-main.ts:44531
+main.ts:44539
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain
 optional field
@@ -293,15 +272,15 @@ however, you can set a custom search engine domain in this field
 example:
 google.co.uk, google.com.au, google.de, etc.
 
-#### Defined in
+#### Source
 
-main.ts:44590
+main.ts:44598
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -309,6 +288,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:44612
+main.ts:44620

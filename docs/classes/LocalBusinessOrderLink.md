@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / LocalBusinessOrderLink
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / LocalBusinessOrderLink
 
 # Class: LocalBusinessOrderLink
 
-## Hierarchy
+## Extends
 
 - [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md)
-
-  ↳ **`LocalBusinessOrderLink`**
 
 ## Implements
 
@@ -14,36 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](LocalBusinessOrderLink.md#constructor)
-
-### Properties
-
-- [\_discriminator](LocalBusinessOrderLink.md#_discriminator)
-- [delivery\_services](LocalBusinessOrderLink.md#delivery_services)
-
-### Methods
-
-- [init](LocalBusinessOrderLink.md#init)
-- [toJSON](LocalBusinessOrderLink.md#tojson)
-- [fromJS](LocalBusinessOrderLink.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new LocalBusinessOrderLink(data)
 
-• **new LocalBusinessOrderLink**(`data?`): [`LocalBusinessOrderLink`](LocalBusinessOrderLink.md)
+> **new LocalBusinessOrderLink**(`data`?): [`LocalBusinessOrderLink`](LocalBusinessOrderLink.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ILocalBusinessOrderLink`](../interfaces/ILocalBusinessOrderLink.md) |
+• **data?**: [`ILocalBusinessOrderLink`](../interfaces/ILocalBusinessOrderLink.md)
 
 #### Returns
 
@@ -51,9 +34,9 @@
 
 #### Overrides
 
-[BaseLocalBusinessLink](BaseLocalBusinessLink.md).[constructor](BaseLocalBusinessLink.md#constructor)
+[`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`constructor`](BaseLocalBusinessLink.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:22847
 
@@ -61,43 +44,41 @@ main.ts:22847
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseLocalBusinessLink](BaseLocalBusinessLink.md).[_discriminator](BaseLocalBusinessLink.md#_discriminator)
+[`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`_discriminator`](BaseLocalBusinessLink.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:22726
 
-___
+***
 
-### delivery\_services
+### delivery\_services?
 
-• `Optional` **delivery\_services**: [`LocalBusinessDeliveryServiceInfo`](LocalBusinessDeliveryServiceInfo.md)[]
+> **`optional`** **delivery\_services**: [`LocalBusinessDeliveryServiceInfo`](LocalBusinessDeliveryServiceInfo.md)[]
 
 lists available delivery services
 
 #### Implementation of
 
-[ILocalBusinessOrderLink](../interfaces/ILocalBusinessOrderLink.md).[delivery_services](../interfaces/ILocalBusinessOrderLink.md#delivery_services)
+[`ILocalBusinessOrderLink`](../interfaces/ILocalBusinessOrderLink.md).[`delivery_services`](../interfaces/ILocalBusinessOrderLink.md#delivery_services)
 
-#### Defined in
+#### Source
 
 main.ts:22843
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -105,23 +86,21 @@ main.ts:22843
 
 #### Overrides
 
-[BaseLocalBusinessLink](BaseLocalBusinessLink.md).[init](BaseLocalBusinessLink.md#init)
+[`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`init`](BaseLocalBusinessLink.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:22852
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -129,23 +108,21 @@ ___
 
 #### Overrides
 
-[BaseLocalBusinessLink](BaseLocalBusinessLink.md).[toJSON](BaseLocalBusinessLink.md#tojson)
+[`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`toJSON`](BaseLocalBusinessLink.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:22874
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`LocalBusinessOrderLink`](LocalBusinessOrderLink.md)
+> **`static`** **fromJS**(`data`): [`LocalBusinessOrderLink`](LocalBusinessOrderLink.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -153,8 +130,8 @@ ___
 
 #### Overrides
 
-[BaseLocalBusinessLink](BaseLocalBusinessLink.md).[fromJS](BaseLocalBusinessLink.md#fromjs)
+[`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`fromJS`](BaseLocalBusinessLink.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:22867

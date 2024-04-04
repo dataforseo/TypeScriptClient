@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataAppleLocationsResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppDataAppleLocationsResultInfo
 
 # Class: AppDataAppleLocationsResultInfo
 
@@ -8,101 +12,79 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppDataAppleLocationsResultInfo.md#constructor)
-
-### Properties
-
-- [country\_iso\_code](AppDataAppleLocationsResultInfo.md#country_iso_code)
-- [location\_code](AppDataAppleLocationsResultInfo.md#location_code)
-- [location\_name](AppDataAppleLocationsResultInfo.md#location_name)
-- [location\_name\_parent](AppDataAppleLocationsResultInfo.md#location_name_parent)
-- [location\_type](AppDataAppleLocationsResultInfo.md#location_type)
-
-### Methods
-
-- [init](AppDataAppleLocationsResultInfo.md#init)
-- [toJSON](AppDataAppleLocationsResultInfo.md#tojson)
-- [fromJS](AppDataAppleLocationsResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppDataAppleLocationsResultInfo(data)
 
-• **new AppDataAppleLocationsResultInfo**(`data?`): [`AppDataAppleLocationsResultInfo`](AppDataAppleLocationsResultInfo.md)
+> **new AppDataAppleLocationsResultInfo**(`data`?): [`AppDataAppleLocationsResultInfo`](AppDataAppleLocationsResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppDataAppleLocationsResultInfo`](../interfaces/IAppDataAppleLocationsResultInfo.md) |
+• **data?**: [`IAppDataAppleLocationsResultInfo`](../interfaces/IAppDataAppleLocationsResultInfo.md)
 
 #### Returns
 
 [`AppDataAppleLocationsResultInfo`](AppDataAppleLocationsResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:188204
 
 ## Properties
 
-### country\_iso\_code
+### country\_iso\_code?
 
-• `Optional` **country\_iso\_code**: `string`
+> **`optional`** **country\_iso\_code**: `string`
 
 ISO country code of the location
 
 #### Implementation of
 
-[IAppDataAppleLocationsResultInfo](../interfaces/IAppDataAppleLocationsResultInfo.md).[country_iso_code](../interfaces/IAppDataAppleLocationsResultInfo.md#country_iso_code)
+[`IAppDataAppleLocationsResultInfo`](../interfaces/IAppDataAppleLocationsResultInfo.md).[`country_iso_code`](../interfaces/IAppDataAppleLocationsResultInfo.md#country_iso_code)
 
-#### Defined in
+#### Source
 
 main.ts:188198
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 
 #### Implementation of
 
-[IAppDataAppleLocationsResultInfo](../interfaces/IAppDataAppleLocationsResultInfo.md).[location_code](../interfaces/IAppDataAppleLocationsResultInfo.md#location_code)
+[`IAppDataAppleLocationsResultInfo`](../interfaces/IAppDataAppleLocationsResultInfo.md).[`location_code`](../interfaces/IAppDataAppleLocationsResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
 main.ts:188185
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 
 #### Implementation of
 
-[IAppDataAppleLocationsResultInfo](../interfaces/IAppDataAppleLocationsResultInfo.md).[location_name](../interfaces/IAppDataAppleLocationsResultInfo.md#location_name)
+[`IAppDataAppleLocationsResultInfo`](../interfaces/IAppDataAppleLocationsResultInfo.md).[`location_name`](../interfaces/IAppDataAppleLocationsResultInfo.md#location_name)
 
-#### Defined in
+#### Source
 
 main.ts:188187
 
-___
+***
 
-### location\_name\_parent
+### location\_name\_parent?
 
-• `Optional` **location\_name\_parent**: `number`
+> **`optional`** **location\_name\_parent**: `number`
 
 the name of the superordinate location
 example:
@@ -115,84 +97,78 @@ note: Apple App Data API currently supports countries only, that is why this val
 
 #### Implementation of
 
-[IAppDataAppleLocationsResultInfo](../interfaces/IAppDataAppleLocationsResultInfo.md).[location_name_parent](../interfaces/IAppDataAppleLocationsResultInfo.md#location_name_parent)
+[`IAppDataAppleLocationsResultInfo`](../interfaces/IAppDataAppleLocationsResultInfo.md).[`location_name_parent`](../interfaces/IAppDataAppleLocationsResultInfo.md#location_name_parent)
 
-#### Defined in
+#### Source
 
 main.ts:188196
 
-___
+***
 
-### location\_type
+### location\_type?
 
-• `Optional` **location\_type**: `string`
+> **`optional`** **location\_type**: `string`
 
 location type
 
 #### Implementation of
 
-[IAppDataAppleLocationsResultInfo](../interfaces/IAppDataAppleLocationsResultInfo.md).[location_type](../interfaces/IAppDataAppleLocationsResultInfo.md#location_type)
+[`IAppDataAppleLocationsResultInfo`](../interfaces/IAppDataAppleLocationsResultInfo.md).[`location_type`](../interfaces/IAppDataAppleLocationsResultInfo.md#location_type)
 
-#### Defined in
+#### Source
 
 main.ts:188200
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:188213
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:188234
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppDataAppleLocationsResultInfo`](AppDataAppleLocationsResultInfo.md)
+> **`static`** **fromJS**(`data`): [`AppDataAppleLocationsResultInfo`](AppDataAppleLocationsResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppDataAppleLocationsResultInfo`](AppDataAppleLocationsResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:188227

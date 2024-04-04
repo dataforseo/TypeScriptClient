@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleImagesTasksFixedTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleImagesTasksFixedTaskInfo
 
 # Class: SerpGoogleImagesTasksFixedTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`SerpGoogleImagesTasksFixedTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleImagesTasksFixedTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](SerpGoogleImagesTasksFixedTaskInfo.md#cost)
-- [data](SerpGoogleImagesTasksFixedTaskInfo.md#data)
-- [id](SerpGoogleImagesTasksFixedTaskInfo.md#id)
-- [path](SerpGoogleImagesTasksFixedTaskInfo.md#path)
-- [result](SerpGoogleImagesTasksFixedTaskInfo.md#result)
-- [result\_count](SerpGoogleImagesTasksFixedTaskInfo.md#result_count)
-- [status\_code](SerpGoogleImagesTasksFixedTaskInfo.md#status_code)
-- [status\_message](SerpGoogleImagesTasksFixedTaskInfo.md#status_message)
-- [time](SerpGoogleImagesTasksFixedTaskInfo.md#time)
-
-### Methods
-
-- [init](SerpGoogleImagesTasksFixedTaskInfo.md#init)
-- [toJSON](SerpGoogleImagesTasksFixedTaskInfo.md#tojson)
-- [fromJS](SerpGoogleImagesTasksFixedTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleImagesTasksFixedTaskInfo(data)
 
-• **new SerpGoogleImagesTasksFixedTaskInfo**(`data?`): [`SerpGoogleImagesTasksFixedTaskInfo`](SerpGoogleImagesTasksFixedTaskInfo.md)
+> **new SerpGoogleImagesTasksFixedTaskInfo**(`data`?): [`SerpGoogleImagesTasksFixedTaskInfo`](SerpGoogleImagesTasksFixedTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleImagesTasksFixedTaskInfo`](../interfaces/ISerpGoogleImagesTasksFixedTaskInfo.md) |
+• **data?**: [`ISerpGoogleImagesTasksFixedTaskInfo`](../interfaces/ISerpGoogleImagesTasksFixedTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:46741
+main.ts:46749
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[ISerpGoogleImagesTasksFixedTaskInfo](../interfaces/ISerpGoogleImagesTasksFixedTaskInfo.md).[cost](../interfaces/ISerpGoogleImagesTasksFixedTaskInfo.md#cost)
+[`ISerpGoogleImagesTasksFixedTaskInfo`](../interfaces/ISerpGoogleImagesTasksFixedTaskInfo.md).[`cost`](../interfaces/ISerpGoogleImagesTasksFixedTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[ISerpGoogleImagesTasksFixedTaskInfo](../interfaces/ISerpGoogleImagesTasksFixedTaskInfo.md).[data](../interfaces/ISerpGoogleImagesTasksFixedTaskInfo.md#data)
+[`ISerpGoogleImagesTasksFixedTaskInfo`](../interfaces/ISerpGoogleImagesTasksFixedTaskInfo.md).[`data`](../interfaces/ISerpGoogleImagesTasksFixedTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[ISerpGoogleImagesTasksFixedTaskInfo](../interfaces/ISerpGoogleImagesTasksFixedTaskInfo.md).[id](../interfaces/ISerpGoogleImagesTasksFixedTaskInfo.md#id)
+[`ISerpGoogleImagesTasksFixedTaskInfo`](../interfaces/ISerpGoogleImagesTasksFixedTaskInfo.md).[`id`](../interfaces/ISerpGoogleImagesTasksFixedTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[ISerpGoogleImagesTasksFixedTaskInfo](../interfaces/ISerpGoogleImagesTasksFixedTaskInfo.md).[path](../interfaces/ISerpGoogleImagesTasksFixedTaskInfo.md#path)
+[`ISerpGoogleImagesTasksFixedTaskInfo`](../interfaces/ISerpGoogleImagesTasksFixedTaskInfo.md).[`path`](../interfaces/ISerpGoogleImagesTasksFixedTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`SerpGoogleImagesTasksFixedResultInfo`](SerpGoogleImagesTasksFixedResultInfo.md)[]
+> **`optional`** **result**: [`SerpGoogleImagesTasksFixedResultInfo`](SerpGoogleImagesTasksFixedResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[ISerpGoogleImagesTasksFixedTaskInfo](../interfaces/ISerpGoogleImagesTasksFixedTaskInfo.md).[result](../interfaces/ISerpGoogleImagesTasksFixedTaskInfo.md#result)
+[`ISerpGoogleImagesTasksFixedTaskInfo`](../interfaces/ISerpGoogleImagesTasksFixedTaskInfo.md).[`result`](../interfaces/ISerpGoogleImagesTasksFixedTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:46737
+main.ts:46745
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[ISerpGoogleImagesTasksFixedTaskInfo](../interfaces/ISerpGoogleImagesTasksFixedTaskInfo.md).[result_count](../interfaces/ISerpGoogleImagesTasksFixedTaskInfo.md#result_count)
+[`ISerpGoogleImagesTasksFixedTaskInfo`](../interfaces/ISerpGoogleImagesTasksFixedTaskInfo.md).[`result_count`](../interfaces/ISerpGoogleImagesTasksFixedTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[ISerpGoogleImagesTasksFixedTaskInfo](../interfaces/ISerpGoogleImagesTasksFixedTaskInfo.md).[status_code](../interfaces/ISerpGoogleImagesTasksFixedTaskInfo.md#status_code)
+[`ISerpGoogleImagesTasksFixedTaskInfo`](../interfaces/ISerpGoogleImagesTasksFixedTaskInfo.md).[`status_code`](../interfaces/ISerpGoogleImagesTasksFixedTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[ISerpGoogleImagesTasksFixedTaskInfo](../interfaces/ISerpGoogleImagesTasksFixedTaskInfo.md).[status_message](../interfaces/ISerpGoogleImagesTasksFixedTaskInfo.md#status_message)
+[`ISerpGoogleImagesTasksFixedTaskInfo`](../interfaces/ISerpGoogleImagesTasksFixedTaskInfo.md).[`status_message`](../interfaces/ISerpGoogleImagesTasksFixedTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[ISerpGoogleImagesTasksFixedTaskInfo](../interfaces/ISerpGoogleImagesTasksFixedTaskInfo.md).[time](../interfaces/ISerpGoogleImagesTasksFixedTaskInfo.md#time)
+[`ISerpGoogleImagesTasksFixedTaskInfo`](../interfaces/ISerpGoogleImagesTasksFixedTaskInfo.md).[`time`](../interfaces/ISerpGoogleImagesTasksFixedTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:46745
+main.ts:46753
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:46767
+main.ts:46775
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleImagesTasksFixedTaskInfo`](SerpGoogleImagesTasksFixedTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleImagesTasksFixedTaskInfo`](SerpGoogleImagesTasksFixedTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:46760
+main.ts:46768

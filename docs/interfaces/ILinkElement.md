@@ -1,107 +1,95 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ILinkElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ILinkElement
 
 # Interface: ILinkElement
 
-## Implemented by
-
-- [`LinkElement`](../classes/LinkElement.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [description](ILinkElement.md#description)
-- [domain](ILinkElement.md#domain)
-- [snippet](ILinkElement.md#snippet)
-- [title](ILinkElement.md#title)
-- [type](ILinkElement.md#type)
-- [url](ILinkElement.md#url)
-- [xpath](ILinkElement.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description of the results element
 
-#### Defined in
+#### Source
 
 main.ts:21649
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain where a link points
 
-#### Defined in
+#### Source
 
 main.ts:21653
 
-___
+***
 
-### snippet
+### snippet?
 
-• `Optional` **snippet**: `string`
+> **`optional`** **snippet**: `string`
 
 text alongside the link title
 
-#### Defined in
+#### Source
 
 main.ts:21647
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
-#### Defined in
+#### Source
 
 main.ts:21645
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
 main.ts:21643
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL
 
-#### Defined in
+#### Source
 
 main.ts:21651
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
 main.ts:21655

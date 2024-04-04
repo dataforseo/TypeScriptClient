@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksBulkSpamScoreLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BacklinksBulkSpamScoreLiveRequestInfo
 
 # Class: BacklinksBulkSpamScoreLiveRequestInfo
 
@@ -8,50 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BacklinksBulkSpamScoreLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [tag](BacklinksBulkSpamScoreLiveRequestInfo.md#tag)
-- [targets](BacklinksBulkSpamScoreLiveRequestInfo.md#targets)
-
-### Methods
-
-- [init](BacklinksBulkSpamScoreLiveRequestInfo.md#init)
-- [toJSON](BacklinksBulkSpamScoreLiveRequestInfo.md#tojson)
-- [fromJS](BacklinksBulkSpamScoreLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BacklinksBulkSpamScoreLiveRequestInfo(data)
 
-• **new BacklinksBulkSpamScoreLiveRequestInfo**(`data?`): [`BacklinksBulkSpamScoreLiveRequestInfo`](BacklinksBulkSpamScoreLiveRequestInfo.md)
+> **new BacklinksBulkSpamScoreLiveRequestInfo**(`data`?): [`BacklinksBulkSpamScoreLiveRequestInfo`](BacklinksBulkSpamScoreLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBacklinksBulkSpamScoreLiveRequestInfo`](../interfaces/IBacklinksBulkSpamScoreLiveRequestInfo.md) |
+• **data?**: [`IBacklinksBulkSpamScoreLiveRequestInfo`](../interfaces/IBacklinksBulkSpamScoreLiveRequestInfo.md)
 
 #### Returns
 
 [`BacklinksBulkSpamScoreLiveRequestInfo`](BacklinksBulkSpamScoreLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:145429
+main.ts:145437
 
 ## Properties
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -61,17 +46,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IBacklinksBulkSpamScoreLiveRequestInfo](../interfaces/IBacklinksBulkSpamScoreLiveRequestInfo.md).[tag](../interfaces/IBacklinksBulkSpamScoreLiveRequestInfo.md#tag)
+[`IBacklinksBulkSpamScoreLiveRequestInfo`](../interfaces/IBacklinksBulkSpamScoreLiveRequestInfo.md).[`tag`](../interfaces/IBacklinksBulkSpamScoreLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:145425
+main.ts:145433
 
-___
+***
 
-### targets
+### targets?
 
-• `Optional` **targets**: `string`[]
+> **`optional`** **targets**: `string`[]
 
 domains, subdomains or webpages to get rank for
 required field
@@ -94,68 +79,62 @@ example:
 
 #### Implementation of
 
-[IBacklinksBulkSpamScoreLiveRequestInfo](../interfaces/IBacklinksBulkSpamScoreLiveRequestInfo.md).[targets](../interfaces/IBacklinksBulkSpamScoreLiveRequestInfo.md#targets)
+[`IBacklinksBulkSpamScoreLiveRequestInfo`](../interfaces/IBacklinksBulkSpamScoreLiveRequestInfo.md).[`targets`](../interfaces/IBacklinksBulkSpamScoreLiveRequestInfo.md#targets)
 
-#### Defined in
+#### Source
 
-main.ts:145419
+main.ts:145427
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:145438
+main.ts:145446
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:145460
+main.ts:145468
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BacklinksBulkSpamScoreLiveRequestInfo`](BacklinksBulkSpamScoreLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`BacklinksBulkSpamScoreLiveRequestInfo`](BacklinksBulkSpamScoreLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BacklinksBulkSpamScoreLiveRequestInfo`](BacklinksBulkSpamScoreLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:145453
+main.ts:145461

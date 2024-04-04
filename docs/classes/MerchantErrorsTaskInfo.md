@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MerchantErrorsTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / MerchantErrorsTaskInfo
 
 # Class: MerchantErrorsTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`MerchantErrorsTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](MerchantErrorsTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](MerchantErrorsTaskInfo.md#cost)
-- [data](MerchantErrorsTaskInfo.md#data)
-- [id](MerchantErrorsTaskInfo.md#id)
-- [path](MerchantErrorsTaskInfo.md#path)
-- [result](MerchantErrorsTaskInfo.md#result)
-- [result\_count](MerchantErrorsTaskInfo.md#result_count)
-- [status\_code](MerchantErrorsTaskInfo.md#status_code)
-- [status\_message](MerchantErrorsTaskInfo.md#status_message)
-- [time](MerchantErrorsTaskInfo.md#time)
-
-### Methods
-
-- [init](MerchantErrorsTaskInfo.md#init)
-- [toJSON](MerchantErrorsTaskInfo.md#tojson)
-- [fromJS](MerchantErrorsTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new MerchantErrorsTaskInfo(data)
 
-• **new MerchantErrorsTaskInfo**(`data?`): [`MerchantErrorsTaskInfo`](MerchantErrorsTaskInfo.md)
+> **new MerchantErrorsTaskInfo**(`data`?): [`MerchantErrorsTaskInfo`](MerchantErrorsTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IMerchantErrorsTaskInfo`](../interfaces/IMerchantErrorsTaskInfo.md) |
+• **data?**: [`IMerchantErrorsTaskInfo`](../interfaces/IMerchantErrorsTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:168664
+main.ts:168672
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IMerchantErrorsTaskInfo](../interfaces/IMerchantErrorsTaskInfo.md).[cost](../interfaces/IMerchantErrorsTaskInfo.md#cost)
+[`IMerchantErrorsTaskInfo`](../interfaces/IMerchantErrorsTaskInfo.md).[`cost`](../interfaces/IMerchantErrorsTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[IMerchantErrorsTaskInfo](../interfaces/IMerchantErrorsTaskInfo.md).[data](../interfaces/IMerchantErrorsTaskInfo.md#data)
+[`IMerchantErrorsTaskInfo`](../interfaces/IMerchantErrorsTaskInfo.md).[`data`](../interfaces/IMerchantErrorsTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IMerchantErrorsTaskInfo](../interfaces/IMerchantErrorsTaskInfo.md).[id](../interfaces/IMerchantErrorsTaskInfo.md#id)
+[`IMerchantErrorsTaskInfo`](../interfaces/IMerchantErrorsTaskInfo.md).[`id`](../interfaces/IMerchantErrorsTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[IMerchantErrorsTaskInfo](../interfaces/IMerchantErrorsTaskInfo.md).[path](../interfaces/IMerchantErrorsTaskInfo.md#path)
+[`IMerchantErrorsTaskInfo`](../interfaces/IMerchantErrorsTaskInfo.md).[`path`](../interfaces/IMerchantErrorsTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`MerchantErrorsResultInfo`](MerchantErrorsResultInfo.md)[]
+> **`optional`** **result**: [`MerchantErrorsResultInfo`](MerchantErrorsResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[IMerchantErrorsTaskInfo](../interfaces/IMerchantErrorsTaskInfo.md).[result](../interfaces/IMerchantErrorsTaskInfo.md#result)
+[`IMerchantErrorsTaskInfo`](../interfaces/IMerchantErrorsTaskInfo.md).[`result`](../interfaces/IMerchantErrorsTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:168660
+main.ts:168668
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[IMerchantErrorsTaskInfo](../interfaces/IMerchantErrorsTaskInfo.md).[result_count](../interfaces/IMerchantErrorsTaskInfo.md#result_count)
+[`IMerchantErrorsTaskInfo`](../interfaces/IMerchantErrorsTaskInfo.md).[`result_count`](../interfaces/IMerchantErrorsTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[IMerchantErrorsTaskInfo](../interfaces/IMerchantErrorsTaskInfo.md).[status_code](../interfaces/IMerchantErrorsTaskInfo.md#status_code)
+[`IMerchantErrorsTaskInfo`](../interfaces/IMerchantErrorsTaskInfo.md).[`status_code`](../interfaces/IMerchantErrorsTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IMerchantErrorsTaskInfo](../interfaces/IMerchantErrorsTaskInfo.md).[status_message](../interfaces/IMerchantErrorsTaskInfo.md#status_message)
+[`IMerchantErrorsTaskInfo`](../interfaces/IMerchantErrorsTaskInfo.md).[`status_message`](../interfaces/IMerchantErrorsTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[IMerchantErrorsTaskInfo](../interfaces/IMerchantErrorsTaskInfo.md).[time](../interfaces/IMerchantErrorsTaskInfo.md#time)
+[`IMerchantErrorsTaskInfo`](../interfaces/IMerchantErrorsTaskInfo.md).[`time`](../interfaces/IMerchantErrorsTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:168668
+main.ts:168676
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:168690
+main.ts:168698
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`MerchantErrorsTaskInfo`](MerchantErrorsTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`MerchantErrorsTaskInfo`](MerchantErrorsTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:168683
+main.ts:168691

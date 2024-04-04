@@ -1,117 +1,103 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IGoogleFlightsDataforseoLabsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IGoogleFlightsDataforseoLabsSerpElementItem
 
 # Interface: IGoogleFlightsDataforseoLabsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md)
 
-  ↳ **`IGoogleFlightsDataforseoLabsSerpElementItem`**
-
-## Implemented by
-
-- [`GoogleFlightsDataforseoLabsSerpElementItem`](../classes/GoogleFlightsDataforseoLabsSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IGoogleFlightsDataforseoLabsSerpElementItem.md#items)
-- [position](IGoogleFlightsDataforseoLabsSerpElementItem.md#position)
-- [rank\_absolute](IGoogleFlightsDataforseoLabsSerpElementItem.md#rank_absolute)
-- [rank\_group](IGoogleFlightsDataforseoLabsSerpElementItem.md#rank_group)
-- [title](IGoogleFlightsDataforseoLabsSerpElementItem.md#title)
-- [url](IGoogleFlightsDataforseoLabsSerpElementItem.md#url)
-- [xpath](IGoogleFlightsDataforseoLabsSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`GoogleFlightsElement`](../classes/GoogleFlightsElement.md)[]
+> **`optional`** **items**: [`GoogleFlightsElement`](../classes/GoogleFlightsElement.md)[]
 
 elements of search results found in SERP
 
-#### Defined in
+#### Source
 
-main.ts:96923
+main.ts:96931
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
-main.ts:96915
+main.ts:96923
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Defined in
+#### Source
 
-main.ts:96911
+main.ts:96919
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
-main.ts:96908
+main.ts:96916
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the result in SERP
 
-#### Defined in
+#### Source
 
-main.ts:96919
+main.ts:96927
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 relevant URL of the Ad element in SERP
 
-#### Defined in
+#### Source
 
-main.ts:96921
+main.ts:96929
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
-main.ts:96917
+main.ts:96925

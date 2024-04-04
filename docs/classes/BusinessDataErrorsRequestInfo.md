@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataErrorsRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataErrorsRequestInfo
 
 # Class: BusinessDataErrorsRequestInfo
 
@@ -8,53 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataErrorsRequestInfo.md#constructor)
-
-### Properties
-
-- [datetime\_from](BusinessDataErrorsRequestInfo.md#datetime_from)
-- [datetime\_to](BusinessDataErrorsRequestInfo.md#datetime_to)
-- [filtered\_function](BusinessDataErrorsRequestInfo.md#filtered_function)
-- [limit](BusinessDataErrorsRequestInfo.md#limit)
-- [offset](BusinessDataErrorsRequestInfo.md#offset)
-
-### Methods
-
-- [init](BusinessDataErrorsRequestInfo.md#init)
-- [toJSON](BusinessDataErrorsRequestInfo.md#tojson)
-- [fromJS](BusinessDataErrorsRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataErrorsRequestInfo(data)
 
-• **new BusinessDataErrorsRequestInfo**(`data?`): [`BusinessDataErrorsRequestInfo`](BusinessDataErrorsRequestInfo.md)
+> **new BusinessDataErrorsRequestInfo**(`data`?): [`BusinessDataErrorsRequestInfo`](BusinessDataErrorsRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataErrorsRequestInfo`](../interfaces/IBusinessDataErrorsRequestInfo.md) |
+• **data?**: [`IBusinessDataErrorsRequestInfo`](../interfaces/IBusinessDataErrorsRequestInfo.md)
 
 #### Returns
 
 [`BusinessDataErrorsRequestInfo`](BusinessDataErrorsRequestInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:192977
 
 ## Properties
 
-### datetime\_from
+### datetime\_from?
 
-• `Optional` **datetime\_from**: `string`
+> **`optional`** **datetime\_from**: `string`
 
 start time for filtering results
 optional field
@@ -65,17 +47,17 @@ example:
 
 #### Implementation of
 
-[IBusinessDataErrorsRequestInfo](../interfaces/IBusinessDataErrorsRequestInfo.md).[datetime_from](../interfaces/IBusinessDataErrorsRequestInfo.md#datetime_from)
+[`IBusinessDataErrorsRequestInfo`](../interfaces/IBusinessDataErrorsRequestInfo.md).[`datetime_from`](../interfaces/IBusinessDataErrorsRequestInfo.md#datetime_from)
 
-#### Defined in
+#### Source
 
 main.ts:192966
 
-___
+***
 
-### datetime\_to
+### datetime\_to?
 
-• `Optional` **datetime\_to**: `string`
+> **`optional`** **datetime\_to**: `string`
 
 finish time for filtering results
 optional field
@@ -86,17 +68,17 @@ example:
 
 #### Implementation of
 
-[IBusinessDataErrorsRequestInfo](../interfaces/IBusinessDataErrorsRequestInfo.md).[datetime_to](../interfaces/IBusinessDataErrorsRequestInfo.md#datetime_to)
+[`IBusinessDataErrorsRequestInfo`](../interfaces/IBusinessDataErrorsRequestInfo.md).[`datetime_to`](../interfaces/IBusinessDataErrorsRequestInfo.md#datetime_to)
 
-#### Defined in
+#### Source
 
 main.ts:192973
 
-___
+***
 
-### filtered\_function
+### filtered\_function?
 
-• `Optional` **filtered\_function**: `string`
+> **`optional`** **filtered\_function**: `string`
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -106,17 +88,17 @@ example: hotel_searches/task_post, postback_url, pingback_url
 
 #### Implementation of
 
-[IBusinessDataErrorsRequestInfo](../interfaces/IBusinessDataErrorsRequestInfo.md).[filtered_function](../interfaces/IBusinessDataErrorsRequestInfo.md#filtered_function)
+[`IBusinessDataErrorsRequestInfo`](../interfaces/IBusinessDataErrorsRequestInfo.md).[`filtered_function`](../interfaces/IBusinessDataErrorsRequestInfo.md#filtered_function)
 
-#### Defined in
+#### Source
 
 main.ts:192959
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -125,17 +107,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IBusinessDataErrorsRequestInfo](../interfaces/IBusinessDataErrorsRequestInfo.md).[limit](../interfaces/IBusinessDataErrorsRequestInfo.md#limit)
+[`IBusinessDataErrorsRequestInfo`](../interfaces/IBusinessDataErrorsRequestInfo.md).[`limit`](../interfaces/IBusinessDataErrorsRequestInfo.md#limit)
 
-#### Defined in
+#### Source
 
 main.ts:192948
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned tasks
 optional field
@@ -144,68 +126,62 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Implementation of
 
-[IBusinessDataErrorsRequestInfo](../interfaces/IBusinessDataErrorsRequestInfo.md).[offset](../interfaces/IBusinessDataErrorsRequestInfo.md#offset)
+[`IBusinessDataErrorsRequestInfo`](../interfaces/IBusinessDataErrorsRequestInfo.md).[`offset`](../interfaces/IBusinessDataErrorsRequestInfo.md#offset)
 
-#### Defined in
+#### Source
 
 main.ts:192953
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:192986
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:193007
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataErrorsRequestInfo`](BusinessDataErrorsRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataErrorsRequestInfo`](BusinessDataErrorsRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BusinessDataErrorsRequestInfo`](BusinessDataErrorsRequestInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:193000

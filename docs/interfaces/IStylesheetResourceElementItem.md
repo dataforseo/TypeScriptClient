@@ -1,329 +1,300 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IStylesheetResourceElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IStylesheetResourceElementItem
 
 # Interface: IStylesheetResourceElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseOnPageResourceItemInfo`](IBaseOnPageResourceItemInfo.md)
 
-  ↳ **`IStylesheetResourceElementItem`**
-
-## Implemented by
-
-- [`StylesheetResourceElementItem`](../classes/StylesheetResourceElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [accept\_type](IStylesheetResourceElementItem.md#accept_type)
-- [cache\_control](IStylesheetResourceElementItem.md#cache_control)
-- [checks](IStylesheetResourceElementItem.md#checks)
-- [content\_encoding](IStylesheetResourceElementItem.md#content_encoding)
-- [duration\_time](IStylesheetResourceElementItem.md#duration_time)
-- [encoded\_size](IStylesheetResourceElementItem.md#encoded_size)
-- [fetch\_end](IStylesheetResourceElementItem.md#fetch_end)
-- [fetch\_start](IStylesheetResourceElementItem.md#fetch_start)
-- [fetch\_time](IStylesheetResourceElementItem.md#fetch_time)
-- [fetch\_timing](IStylesheetResourceElementItem.md#fetch_timing)
-- [initiator](IStylesheetResourceElementItem.md#initiator)
-- [is\_render\_blocking](IStylesheetResourceElementItem.md#is_render_blocking)
-- [last\_modified](IStylesheetResourceElementItem.md#last_modified)
-- [location](IStylesheetResourceElementItem.md#location)
-- [media\_type](IStylesheetResourceElementItem.md#media_type)
-- [meta](IStylesheetResourceElementItem.md#meta)
-- [resource\_errors](IStylesheetResourceElementItem.md#resource_errors)
-- [server](IStylesheetResourceElementItem.md#server)
-- [size](IStylesheetResourceElementItem.md#size)
-- [status\_code](IStylesheetResourceElementItem.md#status_code)
-- [total\_transfer\_size](IStylesheetResourceElementItem.md#total_transfer_size)
-- [url](IStylesheetResourceElementItem.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### accept\_type
+### accept\_type?
 
-• `Optional` **accept\_type**: `string`
+> **`optional`** **accept\_type**: `string`
 
 indicates the expected type of resource
 for example, if "resource_type": "broken", accept_type will indicate the type of the broken resource
 possible values:
 any, none, image, sitemap, robots, script, stylesheet, redirect, html, text, other, font
 
-#### Defined in
+#### Source
 
-main.ts:151702
+main.ts:151896
 
-___
+***
 
-### cache\_control
+### cache\_control?
 
-• `Optional` **cache\_control**: [`CacheControl`](../classes/CacheControl.md)
+> **`optional`** **cache\_control**: [`CacheControl`](../classes/CacheControl.md)
 
 instructions for caching
 
-#### Defined in
+#### Source
 
-main.ts:151688
+main.ts:151882
 
-___
+***
 
-### checks
+### checks?
 
-• `Optional` **checks**: `Object`
+> **`optional`** **checks**: `Object`
 
 resource check-ups
 contents of the array depend on the resource_type
 
 #### Index signature
 
-▪ [key: `string`]: `boolean`
+ \[`key`: `string`\]: `boolean`
 
-#### Defined in
+#### Source
 
-main.ts:151691
+main.ts:151885
 
-___
+***
 
-### content\_encoding
+### content\_encoding?
 
-• `Optional` **content\_encoding**: `string`
+> **`optional`** **content\_encoding**: `string`
 
 type of encoding
 
-#### Defined in
+#### Source
 
-main.ts:151695
+main.ts:151889
 
-___
+***
 
-### duration\_time
+### duration\_time?
 
-• `Optional` **duration\_time**: `number`
+> **`optional`** **duration\_time**: `number`
 
 total time it takes until a browser receives a complete response from a server (in milliseconds)
 
-#### Defined in
+#### Source
 
-main.ts:151711
+main.ts:151905
 
-___
+***
 
-### encoded\_size
+### encoded\_size?
 
-• `Optional` **encoded\_size**: `number`
+> **`optional`** **encoded\_size**: `number`
 
 resource size after encoding
 indicates the size of the encoded resource measured in bytes
 
-#### Defined in
+#### Source
 
-main.ts:151676
+main.ts:151870
 
-___
+***
 
-### fetch\_end
+### fetch\_end?
 
-• `Optional` **fetch\_end**: `number`
+> **`optional`** **fetch\_end**: `number`
 
 time to complete downloading the resource
 the amount of time the browser needs to complete downloading a resource
 
-#### Defined in
+#### Source
 
-main.ts:151717
+main.ts:151911
 
-___
+***
 
-### fetch\_start
+### fetch\_start?
 
-• `Optional` **fetch\_start**: `number`
+> **`optional`** **fetch\_start**: `number`
 
 time to start downloading the resource
 the amount of time the browser needs to start downloading a resource
 
-#### Defined in
+#### Source
 
-main.ts:151714
+main.ts:151908
 
-___
+***
 
-### fetch\_time
+### fetch\_time?
 
-• `Optional` **fetch\_time**: `string`
+> **`optional`** **fetch\_time**: `string`
 
 date and time when a resource was fetched
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2021-02-17 13:54:15 +00:00
 
-#### Defined in
+#### Source
 
-main.ts:151684
+main.ts:151878
 
-___
+***
 
-### fetch\_timing
+### fetch\_timing?
 
-• `Optional` **fetch\_timing**: [`FetchTiming`](../classes/FetchTiming.md)
+> **`optional`** **fetch\_timing**: [`FetchTiming`](../classes/FetchTiming.md)
 
 resource fething time range
 
-#### Defined in
+#### Source
 
-main.ts:151686
+main.ts:151880
 
-___
+***
 
-### initiator
+### initiator?
 
-• `Optional` **initiator**: `string`
+> **`optional`** **initiator**: `string`
 
 resource initiator
 
-#### Defined in
+#### Source
 
-main.ts:151709
+main.ts:151903
 
-___
+***
 
-### is\_render\_blocking
+### is\_render\_blocking?
 
-• `Optional` **is\_render\_blocking**: `boolean`
+> **`optional`** **is\_render\_blocking**: `boolean`
 
 indicates whether the resource blocks rendering
 
-#### Defined in
+#### Source
 
-main.ts:151719
+main.ts:151913
 
-___
+***
 
-### last\_modified
+### last\_modified?
 
-• `Optional` **last\_modified**: [`LastModified`](../classes/LastModified.md)
+> **`optional`** **last\_modified**: [`LastModified`](../classes/LastModified.md)
 
 contains data on changes related to the resource
 if there is no data, the value will be null
 
-#### Defined in
+#### Source
 
-main.ts:151707
+main.ts:151901
 
-___
+***
 
-### location
+### location?
 
-• `Optional` **location**: `string`
+> **`optional`** **location**: `string`
 
 location header
 indicates the URL to redirect a page to
 
-#### Defined in
+#### Source
 
-main.ts:151668
+main.ts:151862
 
-___
+***
 
-### media\_type
+### media\_type?
 
-• `Optional` **media\_type**: `string`
+> **`optional`** **media\_type**: `string`
 
 types of media used to display a resource
 
-#### Defined in
+#### Source
 
-main.ts:151697
+main.ts:151891
 
-___
+***
 
-### meta
+### meta?
 
-• `Optional` **meta**: [`ResourceMetaInfo`](../classes/ResourceMetaInfo.md)
+> **`optional`** **meta**: [`ResourceMetaInfo`](../classes/ResourceMetaInfo.md)
 
 resource properties
 the value depends on the resource_type
 note that if you do not indicate a url when setting a task, resource’s meta is returned based on the data from the page where our crawler first saw the resource;
 to obtain resource’s meta from a particular url, specify that URL when setting a task
 
-#### Defined in
+#### Source
 
-main.ts:151663
+main.ts:151857
 
-___
+***
 
-### resource\_errors
+### resource\_errors?
 
-• `Optional` **resource\_errors**: [`OnPageResourceIssueInfo`](../classes/OnPageResourceIssueInfo.md)
+> **`optional`** **resource\_errors**: [`OnPageResourceIssueInfo`](../classes/OnPageResourceIssueInfo.md)
 
 resource errors and warnings
 
-#### Defined in
+#### Source
 
-main.ts:151693
+main.ts:151887
 
-___
+***
 
-### server
+### server?
 
-• `Optional` **server**: `string`
+> **`optional`** **server**: `string`
 
 server version
 
-#### Defined in
+#### Source
 
-main.ts:151704
+main.ts:151898
 
-___
+***
 
-### size
+### size?
 
-• `Optional` **size**: `number`
+> **`optional`** **size**: `number`
 
 resource size
 indicates the size of a given resource measured in bytes
 
-#### Defined in
+#### Source
 
-main.ts:151673
+main.ts:151867
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the page where a given resource is located
 
-#### Defined in
+#### Source
 
-main.ts:151665
+main.ts:151859
 
-___
+***
 
-### total\_transfer\_size
+### total\_transfer\_size?
 
-• `Optional` **total\_transfer\_size**: `number`
+> **`optional`** **total\_transfer\_size**: `number`
 
 compressed resource size
 indicates the compressed size of a given resource in bytes
 
-#### Defined in
+#### Source
 
-main.ts:151679
+main.ts:151873
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 resource URL
 
-#### Defined in
+#### Source
 
-main.ts:151670
+main.ts:151864

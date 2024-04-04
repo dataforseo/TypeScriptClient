@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / PageMetaInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / PageMetaInfo
 
 # Class: PageMetaInfo
 
@@ -8,470 +12,423 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](PageMetaInfo.md#constructor)
-
-### Properties
-
-- [broken\_html](PageMetaInfo.md#broken_html)
-- [canonical](PageMetaInfo.md#canonical)
-- [charset](PageMetaInfo.md#charset)
-- [content](PageMetaInfo.md#content)
-- [cumulative\_layout\_shift](PageMetaInfo.md#cumulative_layout_shift)
-- [deprecated\_tags](PageMetaInfo.md#deprecated_tags)
-- [description](PageMetaInfo.md#description)
-- [description\_length](PageMetaInfo.md#description_length)
-- [duplicate\_meta\_tags](PageMetaInfo.md#duplicate_meta_tags)
-- [external\_links\_count](PageMetaInfo.md#external_links_count)
-- [favicon](PageMetaInfo.md#favicon)
-- [follow](PageMetaInfo.md#follow)
-- [generator](PageMetaInfo.md#generator)
-- [htags](PageMetaInfo.md#htags)
-- [images\_count](PageMetaInfo.md#images_count)
-- [images\_size](PageMetaInfo.md#images_size)
-- [inbound\_links\_count](PageMetaInfo.md#inbound_links_count)
-- [internal\_links\_count](PageMetaInfo.md#internal_links_count)
-- [meta\_keywords](PageMetaInfo.md#meta_keywords)
-- [meta\_title](PageMetaInfo.md#meta_title)
-- [render\_blocking\_scripts\_count](PageMetaInfo.md#render_blocking_scripts_count)
-- [render\_blocking\_stylesheets\_count](PageMetaInfo.md#render_blocking_stylesheets_count)
-- [scripts\_count](PageMetaInfo.md#scripts_count)
-- [scripts\_size](PageMetaInfo.md#scripts_size)
-- [social\_media\_tags](PageMetaInfo.md#social_media_tags)
-- [spell](PageMetaInfo.md#spell)
-- [stylesheets\_count](PageMetaInfo.md#stylesheets_count)
-- [stylesheets\_size](PageMetaInfo.md#stylesheets_size)
-- [title](PageMetaInfo.md#title)
-- [title\_length](PageMetaInfo.md#title_length)
-
-### Methods
-
-- [init](PageMetaInfo.md#init)
-- [toJSON](PageMetaInfo.md#tojson)
-- [fromJS](PageMetaInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new PageMetaInfo(data)
 
-• **new PageMetaInfo**(`data?`): [`PageMetaInfo`](PageMetaInfo.md)
+> **new PageMetaInfo**(`data`?): [`PageMetaInfo`](PageMetaInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IPageMetaInfo`](../interfaces/IPageMetaInfo.md) |
+• **data?**: [`IPageMetaInfo`](../interfaces/IPageMetaInfo.md)
 
 #### Returns
 
 [`PageMetaInfo`](PageMetaInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:149661
+main.ts:149669
 
 ## Properties
 
-### broken\_html
+### broken\_html?
 
-• `Optional` **broken\_html**: [`OnPageResourceIssueInfo`](OnPageResourceIssueInfo.md)
+> **`optional`** **broken\_html**: [`OnPageResourceIssueInfo`](OnPageResourceIssueInfo.md)
 
 resource errors and warnings
 
 #### Implementation of
 
-[IPageMetaInfo](../interfaces/IPageMetaInfo.md).[broken_html](../interfaces/IPageMetaInfo.md#broken_html)
+[`IPageMetaInfo`](../interfaces/IPageMetaInfo.md).[`broken_html`](../interfaces/IPageMetaInfo.md#broken_html)
 
-#### Defined in
+#### Source
 
-main.ts:149657
+main.ts:149665
 
-___
+***
 
-### canonical
+### canonical?
 
-• `Optional` **canonical**: `string`
+> **`optional`** **canonical**: `string`
 
 canonical page
 
 #### Implementation of
 
-[IPageMetaInfo](../interfaces/IPageMetaInfo.md).[canonical](../interfaces/IPageMetaInfo.md#canonical)
+[`IPageMetaInfo`](../interfaces/IPageMetaInfo.md).[`canonical`](../interfaces/IPageMetaInfo.md#canonical)
 
-#### Defined in
+#### Source
 
-main.ts:149610
+main.ts:149618
 
-___
+***
 
-### charset
+### charset?
 
-• `Optional` **charset**: `number`
+> **`optional`** **charset**: `number`
 
 code page
 example: 65001
 
 #### Implementation of
 
-[IPageMetaInfo](../interfaces/IPageMetaInfo.md).[charset](../interfaces/IPageMetaInfo.md#charset)
+[`IPageMetaInfo`](../interfaces/IPageMetaInfo.md).[`charset`](../interfaces/IPageMetaInfo.md#charset)
 
-#### Defined in
+#### Source
 
-main.ts:149595
+main.ts:149603
 
-___
+***
 
-### content
+### content?
 
-• `Optional` **content**: [`HtmlContentInfo`](HtmlContentInfo.md)
+> **`optional`** **content**: [`HtmlContentInfo`](HtmlContentInfo.md)
 
 overall information about content of the page
 
 #### Implementation of
 
-[IPageMetaInfo](../interfaces/IPageMetaInfo.md).[content](../interfaces/IPageMetaInfo.md#content)
+[`IPageMetaInfo`](../interfaces/IPageMetaInfo.md).[`content`](../interfaces/IPageMetaInfo.md#content)
 
-#### Defined in
+#### Source
 
-main.ts:149644
+main.ts:149652
 
-___
+***
 
-### cumulative\_layout\_shift
+### cumulative\_layout\_shift?
 
-• `Optional` **cumulative\_layout\_shift**: `number`
+> **`optional`** **cumulative\_layout\_shift**: `number`
 
 Core Web Vitals metric measuring the layout stability of the page
 measures the sum total of all individual layout shift scores for every unexpected layout shift that occurs during the entire lifespan of the page. Learn more.
 
 #### Implementation of
 
-[IPageMetaInfo](../interfaces/IPageMetaInfo.md).[cumulative_layout_shift](../interfaces/IPageMetaInfo.md#cumulative_layout_shift)
+[`IPageMetaInfo`](../interfaces/IPageMetaInfo.md).[`cumulative_layout_shift`](../interfaces/IPageMetaInfo.md#cumulative_layout_shift)
 
-#### Defined in
+#### Source
 
-main.ts:149639
+main.ts:149647
 
-___
+***
 
-### deprecated\_tags
+### deprecated\_tags?
 
-• `Optional` **deprecated\_tags**: `string`[]
+> **`optional`** **deprecated\_tags**: `string`[]
 
 deprecated tags on the page
 
 #### Implementation of
 
-[IPageMetaInfo](../interfaces/IPageMetaInfo.md).[deprecated_tags](../interfaces/IPageMetaInfo.md#deprecated_tags)
+[`IPageMetaInfo`](../interfaces/IPageMetaInfo.md).[`deprecated_tags`](../interfaces/IPageMetaInfo.md#deprecated_tags)
 
-#### Defined in
+#### Source
 
-main.ts:149646
+main.ts:149654
 
-___
+***
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 content of the meta description tag
 
 #### Implementation of
 
-[IPageMetaInfo](../interfaces/IPageMetaInfo.md).[description](../interfaces/IPageMetaInfo.md#description)
+[`IPageMetaInfo`](../interfaces/IPageMetaInfo.md).[`description`](../interfaces/IPageMetaInfo.md#description)
 
-#### Defined in
+#### Source
 
-main.ts:149604
+main.ts:149612
 
-___
+***
 
-### description\_length
+### description\_length?
 
-• `Optional` **description\_length**: `number`
+> **`optional`** **description\_length**: `number`
 
 length of the description tag in characters
 
 #### Implementation of
 
-[IPageMetaInfo](../interfaces/IPageMetaInfo.md).[description_length](../interfaces/IPageMetaInfo.md#description_length)
+[`IPageMetaInfo`](../interfaces/IPageMetaInfo.md).[`description_length`](../interfaces/IPageMetaInfo.md#description_length)
 
-#### Defined in
+#### Source
 
-main.ts:149632
+main.ts:149640
 
-___
+***
 
-### duplicate\_meta\_tags
+### duplicate\_meta\_tags?
 
-• `Optional` **duplicate\_meta\_tags**: `string`[]
+> **`optional`** **duplicate\_meta\_tags**: `string`[]
 
 duplicate meta tags on the page
 
 #### Implementation of
 
-[IPageMetaInfo](../interfaces/IPageMetaInfo.md).[duplicate_meta_tags](../interfaces/IPageMetaInfo.md#duplicate_meta_tags)
+[`IPageMetaInfo`](../interfaces/IPageMetaInfo.md).[`duplicate_meta_tags`](../interfaces/IPageMetaInfo.md#duplicate_meta_tags)
 
-#### Defined in
+#### Source
 
-main.ts:149648
+main.ts:149656
 
-___
+***
 
-### external\_links\_count
+### external\_links\_count?
 
-• `Optional` **external\_links\_count**: `number`
+> **`optional`** **external\_links\_count**: `number`
 
 number of external links on the page
 
 #### Implementation of
 
-[IPageMetaInfo](../interfaces/IPageMetaInfo.md).[external_links_count](../interfaces/IPageMetaInfo.md#external_links_count)
+[`IPageMetaInfo`](../interfaces/IPageMetaInfo.md).[`external_links_count`](../interfaces/IPageMetaInfo.md#external_links_count)
 
-#### Defined in
+#### Source
 
-main.ts:149614
+main.ts:149622
 
-___
+***
 
-### favicon
+### favicon?
 
-• `Optional` **favicon**: `string`
+> **`optional`** **favicon**: `string`
 
 favicon of the page
 
 #### Implementation of
 
-[IPageMetaInfo](../interfaces/IPageMetaInfo.md).[favicon](../interfaces/IPageMetaInfo.md#favicon)
+[`IPageMetaInfo`](../interfaces/IPageMetaInfo.md).[`favicon`](../interfaces/IPageMetaInfo.md#favicon)
 
-#### Defined in
+#### Source
 
-main.ts:149606
+main.ts:149614
 
-___
+***
 
-### follow
+### follow?
 
-• `Optional` **follow**: `boolean`
+> **`optional`** **follow**: `boolean`
 
 indicates whether a page’s ‘meta robots’ allows crawlers to follow the links on the page
 if false, the page’s ‘meta robots’ tag contains “nofollow” parameter instructing crawlers not to follow the links on the page
 
 #### Implementation of
 
-[IPageMetaInfo](../interfaces/IPageMetaInfo.md).[follow](../interfaces/IPageMetaInfo.md#follow)
+[`IPageMetaInfo`](../interfaces/IPageMetaInfo.md).[`follow`](../interfaces/IPageMetaInfo.md#follow)
 
-#### Defined in
+#### Source
 
-main.ts:149598
+main.ts:149606
 
-___
+***
 
-### generator
+### generator?
 
-• `Optional` **generator**: `string`
+> **`optional`** **generator**: `string`
 
 meta tag generator
 
 #### Implementation of
 
-[IPageMetaInfo](../interfaces/IPageMetaInfo.md).[generator](../interfaces/IPageMetaInfo.md#generator)
+[`IPageMetaInfo`](../interfaces/IPageMetaInfo.md).[`generator`](../interfaces/IPageMetaInfo.md#generator)
 
-#### Defined in
+#### Source
 
-main.ts:149600
+main.ts:149608
 
-___
+***
 
-### htags
+### htags?
 
-• `Optional` **htags**: `Object`
+> **`optional`** **htags**: `Object`
 
 HTML header tags
 
 #### Index signature
 
-▪ [key: `string`]: `string`[]
+ \[`key`: `string`\]: `string`[]
 
 #### Implementation of
 
-[IPageMetaInfo](../interfaces/IPageMetaInfo.md).[htags](../interfaces/IPageMetaInfo.md#htags)
+[`IPageMetaInfo`](../interfaces/IPageMetaInfo.md).[`htags`](../interfaces/IPageMetaInfo.md#htags)
 
-#### Defined in
+#### Source
 
-main.ts:149602
+main.ts:149610
 
-___
+***
 
-### images\_count
+### images\_count?
 
-• `Optional` **images\_count**: `number`
+> **`optional`** **images\_count**: `number`
 
 number of images on the page
 
 #### Implementation of
 
-[IPageMetaInfo](../interfaces/IPageMetaInfo.md).[images_count](../interfaces/IPageMetaInfo.md#images_count)
+[`IPageMetaInfo`](../interfaces/IPageMetaInfo.md).[`images_count`](../interfaces/IPageMetaInfo.md#images_count)
 
-#### Defined in
+#### Source
 
-main.ts:149618
+main.ts:149626
 
-___
+***
 
-### images\_size
+### images\_size?
 
-• `Optional` **images\_size**: `number`
+> **`optional`** **images\_size**: `number`
 
 total size of images on the page measured in bytes
 
 #### Implementation of
 
-[IPageMetaInfo](../interfaces/IPageMetaInfo.md).[images_size](../interfaces/IPageMetaInfo.md#images_size)
+[`IPageMetaInfo`](../interfaces/IPageMetaInfo.md).[`images_size`](../interfaces/IPageMetaInfo.md#images_size)
 
-#### Defined in
+#### Source
 
-main.ts:149620
+main.ts:149628
 
-___
+***
 
-### inbound\_links\_count
+### inbound\_links\_count?
 
-• `Optional` **inbound\_links\_count**: `number`
+> **`optional`** **inbound\_links\_count**: `number`
 
 number of internal links pointing at the page
 
 #### Implementation of
 
-[IPageMetaInfo](../interfaces/IPageMetaInfo.md).[inbound_links_count](../interfaces/IPageMetaInfo.md#inbound_links_count)
+[`IPageMetaInfo`](../interfaces/IPageMetaInfo.md).[`inbound_links_count`](../interfaces/IPageMetaInfo.md#inbound_links_count)
 
-#### Defined in
+#### Source
 
-main.ts:149616
+main.ts:149624
 
-___
+***
 
-### internal\_links\_count
+### internal\_links\_count?
 
-• `Optional` **internal\_links\_count**: `number`
+> **`optional`** **internal\_links\_count**: `number`
 
 number of internal links on the page
 
 #### Implementation of
 
-[IPageMetaInfo](../interfaces/IPageMetaInfo.md).[internal_links_count](../interfaces/IPageMetaInfo.md#internal_links_count)
+[`IPageMetaInfo`](../interfaces/IPageMetaInfo.md).[`internal_links_count`](../interfaces/IPageMetaInfo.md#internal_links_count)
 
-#### Defined in
+#### Source
 
-main.ts:149612
+main.ts:149620
 
-___
+***
 
-### meta\_keywords
+### meta\_keywords?
 
-• `Optional` **meta\_keywords**: `string`
+> **`optional`** **meta\_keywords**: `string`
 
 content of the keywords meta tag
 
 #### Implementation of
 
-[IPageMetaInfo](../interfaces/IPageMetaInfo.md).[meta_keywords](../interfaces/IPageMetaInfo.md#meta_keywords)
+[`IPageMetaInfo`](../interfaces/IPageMetaInfo.md).[`meta_keywords`](../interfaces/IPageMetaInfo.md#meta_keywords)
 
-#### Defined in
+#### Source
 
-main.ts:149608
+main.ts:149616
 
-___
+***
 
-### meta\_title
+### meta\_title?
 
-• `Optional` **meta\_title**: `string`
+> **`optional`** **meta\_title**: `string`
 
 meta title of the page
 meta tag in the head section of an HTML document that defines the title of a page
 
 #### Implementation of
 
-[IPageMetaInfo](../interfaces/IPageMetaInfo.md).[meta_title](../interfaces/IPageMetaInfo.md#meta_title)
+[`IPageMetaInfo`](../interfaces/IPageMetaInfo.md).[`meta_title`](../interfaces/IPageMetaInfo.md#meta_title)
 
-#### Defined in
+#### Source
 
-main.ts:149642
+main.ts:149650
 
-___
+***
 
-### render\_blocking\_scripts\_count
+### render\_blocking\_scripts\_count?
 
-• `Optional` **render\_blocking\_scripts\_count**: `number`
+> **`optional`** **render\_blocking\_scripts\_count**: `number`
 
 number of scripts on the page that block page rendering
 
 #### Implementation of
 
-[IPageMetaInfo](../interfaces/IPageMetaInfo.md).[render_blocking_scripts_count](../interfaces/IPageMetaInfo.md#render_blocking_scripts_count)
+[`IPageMetaInfo`](../interfaces/IPageMetaInfo.md).[`render_blocking_scripts_count`](../interfaces/IPageMetaInfo.md#render_blocking_scripts_count)
 
-#### Defined in
+#### Source
 
-main.ts:149634
+main.ts:149642
 
-___
+***
 
-### render\_blocking\_stylesheets\_count
+### render\_blocking\_stylesheets\_count?
 
-• `Optional` **render\_blocking\_stylesheets\_count**: `number`
+> **`optional`** **render\_blocking\_stylesheets\_count**: `number`
 
 number of CSS styles on the page that block page rendering
 
 #### Implementation of
 
-[IPageMetaInfo](../interfaces/IPageMetaInfo.md).[render_blocking_stylesheets_count](../interfaces/IPageMetaInfo.md#render_blocking_stylesheets_count)
+[`IPageMetaInfo`](../interfaces/IPageMetaInfo.md).[`render_blocking_stylesheets_count`](../interfaces/IPageMetaInfo.md#render_blocking_stylesheets_count)
 
-#### Defined in
+#### Source
 
-main.ts:149636
+main.ts:149644
 
-___
+***
 
-### scripts\_count
+### scripts\_count?
 
-• `Optional` **scripts\_count**: `number`
+> **`optional`** **scripts\_count**: `number`
 
 number of scripts on the page
 
 #### Implementation of
 
-[IPageMetaInfo](../interfaces/IPageMetaInfo.md).[scripts_count](../interfaces/IPageMetaInfo.md#scripts_count)
+[`IPageMetaInfo`](../interfaces/IPageMetaInfo.md).[`scripts_count`](../interfaces/IPageMetaInfo.md#scripts_count)
 
-#### Defined in
+#### Source
 
-main.ts:149622
+main.ts:149630
 
-___
+***
 
-### scripts\_size
+### scripts\_size?
 
-• `Optional` **scripts\_size**: `number`
+> **`optional`** **scripts\_size**: `number`
 
 total size of scripts on the page measured in bytes
 
 #### Implementation of
 
-[IPageMetaInfo](../interfaces/IPageMetaInfo.md).[scripts_size](../interfaces/IPageMetaInfo.md#scripts_size)
+[`IPageMetaInfo`](../interfaces/IPageMetaInfo.md).[`scripts_size`](../interfaces/IPageMetaInfo.md#scripts_size)
 
-#### Defined in
+#### Source
 
-main.ts:149624
+main.ts:149632
 
-___
+***
 
-### social\_media\_tags
+### social\_media\_tags?
 
-• `Optional` **social\_media\_tags**: `Object`
+> **`optional`** **social\_media\_tags**: `Object`
 
 object of social media tags found on the page
 contains social media tags and their content
@@ -479,153 +436,147 @@ supported tags include but are not limited to Open Graph and Twitter card
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
 #### Implementation of
 
-[IPageMetaInfo](../interfaces/IPageMetaInfo.md).[social_media_tags](../interfaces/IPageMetaInfo.md#social_media_tags)
+[`IPageMetaInfo`](../interfaces/IPageMetaInfo.md).[`social_media_tags`](../interfaces/IPageMetaInfo.md#social_media_tags)
 
-#### Defined in
+#### Source
 
-main.ts:149655
+main.ts:149663
 
-___
+***
 
-### spell
+### spell?
 
-• `Optional` **spell**: [`SpellInfo`](SpellInfo.md)
+> **`optional`** **spell**: [`SpellInfo`](SpellInfo.md)
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
 
 #### Implementation of
 
-[IPageMetaInfo](../interfaces/IPageMetaInfo.md).[spell](../interfaces/IPageMetaInfo.md#spell)
+[`IPageMetaInfo`](../interfaces/IPageMetaInfo.md).[`spell`](../interfaces/IPageMetaInfo.md#spell)
 
-#### Defined in
+#### Source
 
-main.ts:149651
+main.ts:149659
 
-___
+***
 
-### stylesheets\_count
+### stylesheets\_count?
 
-• `Optional` **stylesheets\_count**: `number`
+> **`optional`** **stylesheets\_count**: `number`
 
 number of stylesheets on the page
 
 #### Implementation of
 
-[IPageMetaInfo](../interfaces/IPageMetaInfo.md).[stylesheets_count](../interfaces/IPageMetaInfo.md#stylesheets_count)
+[`IPageMetaInfo`](../interfaces/IPageMetaInfo.md).[`stylesheets_count`](../interfaces/IPageMetaInfo.md#stylesheets_count)
 
-#### Defined in
+#### Source
 
-main.ts:149626
+main.ts:149634
 
-___
+***
 
-### stylesheets\_size
+### stylesheets\_size?
 
-• `Optional` **stylesheets\_size**: `number`
+> **`optional`** **stylesheets\_size**: `number`
 
 total size of stylesheets on the page measured in bytes
 
 #### Implementation of
 
-[IPageMetaInfo](../interfaces/IPageMetaInfo.md).[stylesheets_size](../interfaces/IPageMetaInfo.md#stylesheets_size)
+[`IPageMetaInfo`](../interfaces/IPageMetaInfo.md).[`stylesheets_size`](../interfaces/IPageMetaInfo.md#stylesheets_size)
 
-#### Defined in
+#### Source
 
-main.ts:149628
+main.ts:149636
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 page title
 
 #### Implementation of
 
-[IPageMetaInfo](../interfaces/IPageMetaInfo.md).[title](../interfaces/IPageMetaInfo.md#title)
+[`IPageMetaInfo`](../interfaces/IPageMetaInfo.md).[`title`](../interfaces/IPageMetaInfo.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:149592
+main.ts:149600
 
-___
+***
 
-### title\_length
+### title\_length?
 
-• `Optional` **title\_length**: `number`
+> **`optional`** **title\_length**: `number`
 
 length of the title tag in characters
 
 #### Implementation of
 
-[IPageMetaInfo](../interfaces/IPageMetaInfo.md).[title_length](../interfaces/IPageMetaInfo.md#title_length)
+[`IPageMetaInfo`](../interfaces/IPageMetaInfo.md).[`title_length`](../interfaces/IPageMetaInfo.md#title_length)
 
-#### Defined in
+#### Source
 
-main.ts:149630
+main.ts:149638
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:149670
+main.ts:149678
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:149736
+main.ts:149744
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`PageMetaInfo`](PageMetaInfo.md)
+> **`static`** **fromJS**(`data`): [`PageMetaInfo`](PageMetaInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`PageMetaInfo`](PageMetaInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:149729
+main.ts:149737

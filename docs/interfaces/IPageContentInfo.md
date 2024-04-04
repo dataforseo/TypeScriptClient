@@ -1,70 +1,61 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IPageContentInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IPageContentInfo
 
 # Interface: IPageContentInfo
 
-## Implemented by
-
-- [`PageContentInfo`](../classes/PageContentInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [footer](IPageContentInfo.md#footer)
-- [header](IPageContentInfo.md#header)
-- [main\_topic](IPageContentInfo.md#main_topic)
-- [secondary\_topic](IPageContentInfo.md#secondary_topic)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### footer
+### footer?
 
-• `Optional` **footer**: [`PageSectionContentInfo`](../classes/PageSectionContentInfo.md)
+> **`optional`** **footer**: [`PageSectionContentInfo`](../classes/PageSectionContentInfo.md)
 
 parsed content of the footer
 
-#### Defined in
+#### Source
 
-main.ts:157697
+main.ts:157705
 
-___
+***
 
-### header
+### header?
 
-• `Optional` **header**: [`PageSectionContentInfo`](../classes/PageSectionContentInfo.md)
+> **`optional`** **header**: [`PageSectionContentInfo`](../classes/PageSectionContentInfo.md)
 
 parsed content of the header
 
-#### Defined in
+#### Source
 
-main.ts:157695
+main.ts:157703
 
-___
+***
 
-### main\_topic
+### main\_topic?
 
-• `Optional` **main\_topic**: [`TopicInfo`](../classes/TopicInfo.md)[]
+> **`optional`** **main\_topic**: [`TopicInfo`](../classes/TopicInfo.md)[]
 
 main topic on the page
 you can find more information about topic priority calculation in this help center article
 
-#### Defined in
+#### Source
 
-main.ts:157700
+main.ts:157708
 
-___
+***
 
-### secondary\_topic
+### secondary\_topic?
 
-• `Optional` **secondary\_topic**: [`TopicInfo`](../classes/TopicInfo.md)[]
+> **`optional`** **secondary\_topic**: [`TopicInfo`](../classes/TopicInfo.md)[]
 
 secondary topic on the page
 you can find more information about topic priority calculation in this help center article
 
-#### Defined in
+#### Source
 
-main.ts:157703
+main.ts:157711

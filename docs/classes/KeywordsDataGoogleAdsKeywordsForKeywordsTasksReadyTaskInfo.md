@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo
 
 # Class: KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md#cost)
-- [data](KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md#data)
-- [id](KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md#id)
-- [path](KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md#path)
-- [result](KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md#result)
-- [result\_count](KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md#result_count)
-- [status\_code](KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md#status_code)
-- [status\_message](KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md#status_message)
-- [time](KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md#time)
-
-### Methods
-
-- [init](KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md#init)
-- [toJSON](KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md#tojson)
-- [fromJS](KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo(data)
 
-• **new KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo**(`data?`): [`KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md)
+> **new KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo**(`data`?): [`KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md) |
+• **data?**: [`IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:118492
+main.ts:118500
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md).[cost](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md#cost)
+[`IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md).[`cost`](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md).[data](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md#data)
+[`IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md).[`data`](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md).[id](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md#id)
+[`IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md).[`id`](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md).[path](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md#path)
+[`IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md).[`path`](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResultInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResultInfo.md)[]
+> **`optional`** **result**: [`KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResultInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md).[result](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md#result)
+[`IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md).[`result`](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:118488
+main.ts:118496
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md).[result_count](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md#result_count)
+[`IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md).[`result_count`](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md).[status_code](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md#status_code)
+[`IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md).[`status_code`](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md).[status_message](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md#status_message)
+[`IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md).[`status_message`](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md).[time](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md#time)
+[`IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md).[`time`](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:118496
+main.ts:118504
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:118518
+main.ts:118526
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:118511
+main.ts:118519

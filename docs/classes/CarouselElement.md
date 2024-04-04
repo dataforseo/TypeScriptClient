@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / CarouselElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / CarouselElement
 
 # Class: CarouselElement
 
@@ -8,167 +12,140 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](CarouselElement.md#constructor)
-
-### Properties
-
-- [image\_url](CarouselElement.md#image_url)
-- [subtitle](CarouselElement.md#subtitle)
-- [title](CarouselElement.md#title)
-- [type](CarouselElement.md#type)
-
-### Methods
-
-- [init](CarouselElement.md#init)
-- [toJSON](CarouselElement.md#tojson)
-- [fromJS](CarouselElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new CarouselElement(data)
 
-• **new CarouselElement**(`data?`): [`CarouselElement`](CarouselElement.md)
+> **new CarouselElement**(`data`?): [`CarouselElement`](CarouselElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ICarouselElement`](../interfaces/ICarouselElement.md) |
+• **data?**: [`ICarouselElement`](../interfaces/ICarouselElement.md)
 
 #### Returns
 
 [`CarouselElement`](CarouselElement.md)
 
-#### Defined in
+#### Source
 
 main.ts:30727
 
 ## Properties
 
-### image\_url
+### image\_url?
 
-• `Optional` **image\_url**: `string`
+> **`optional`** **image\_url**: `string`
 
 URL of the image
 
 #### Implementation of
 
-[ICarouselElement](../interfaces/ICarouselElement.md).[image_url](../interfaces/ICarouselElement.md#image_url)
+[`ICarouselElement`](../interfaces/ICarouselElement.md).[`image_url`](../interfaces/ICarouselElement.md#image_url)
 
-#### Defined in
+#### Source
 
 main.ts:30723
 
-___
+***
 
-### subtitle
+### subtitle?
 
-• `Optional` **subtitle**: `string`
+> **`optional`** **subtitle**: `string`
 
 subtitle of the element
 
 #### Implementation of
 
-[ICarouselElement](../interfaces/ICarouselElement.md).[subtitle](../interfaces/ICarouselElement.md#subtitle)
+[`ICarouselElement`](../interfaces/ICarouselElement.md).[`subtitle`](../interfaces/ICarouselElement.md#subtitle)
 
-#### Defined in
+#### Source
 
 main.ts:30721
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
 #### Implementation of
 
-[ICarouselElement](../interfaces/ICarouselElement.md).[title](../interfaces/ICarouselElement.md#title)
+[`ICarouselElement`](../interfaces/ICarouselElement.md).[`title`](../interfaces/ICarouselElement.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:30719
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[ICarouselElement](../interfaces/ICarouselElement.md).[type](../interfaces/ICarouselElement.md#type)
+[`ICarouselElement`](../interfaces/ICarouselElement.md).[`type`](../interfaces/ICarouselElement.md#type)
 
-#### Defined in
+#### Source
 
 main.ts:30717
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:30736
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:30756
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`CarouselElement`](CarouselElement.md)
+> **`static`** **fromJS**(`data`): [`CarouselElement`](CarouselElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`CarouselElement`](CarouselElement.md)
 
-#### Defined in
+#### Source
 
 main.ts:30749

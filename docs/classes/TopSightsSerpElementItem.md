@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / TopSightsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / TopSightsSerpElementItem
 
 # Class: TopSightsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-  ↳ **`TopSightsSerpElementItem`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](TopSightsSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](TopSightsSerpElementItem.md#_discriminator)
-- [items](TopSightsSerpElementItem.md#items)
-- [position](TopSightsSerpElementItem.md#position)
-- [rank\_absolute](TopSightsSerpElementItem.md#rank_absolute)
-- [rank\_group](TopSightsSerpElementItem.md#rank_group)
-- [rectangle](TopSightsSerpElementItem.md#rectangle)
-- [title](TopSightsSerpElementItem.md#title)
-- [xpath](TopSightsSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](TopSightsSerpElementItem.md#init)
-- [toJSON](TopSightsSerpElementItem.md#tojson)
-- [fromJS](TopSightsSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new TopSightsSerpElementItem(data)
 
-• **new TopSightsSerpElementItem**(`data?`): [`TopSightsSerpElementItem`](TopSightsSerpElementItem.md)
+> **new TopSightsSerpElementItem**(`data`?): [`TopSightsSerpElementItem`](TopSightsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ITopSightsSerpElementItem`](../interfaces/ITopSightsSerpElementItem.md) |
+• **data?**: [`ITopSightsSerpElementItem`](../interfaces/ITopSightsSerpElementItem.md)
 
 #### Returns
 
@@ -57,9 +34,9 @@
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[constructor](BaseSerpElementItem.md#constructor)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:32573
 
@@ -67,38 +44,38 @@ main.ts:32573
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[_discriminator](BaseSerpElementItem.md#_discriminator)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:19788
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`TopSightsElement`](TopSightsElement.md)[]
+> **`optional`** **items**: [`TopSightsElement`](TopSightsElement.md)[]
 
 additional items present in the element
 if there are none, equals null
 
 #### Implementation of
 
-[ITopSightsSerpElementItem](../interfaces/ITopSightsSerpElementItem.md).[items](../interfaces/ITopSightsSerpElementItem.md#items)
+[`ITopSightsSerpElementItem`](../interfaces/ITopSightsSerpElementItem.md).[`items`](../interfaces/ITopSightsSerpElementItem.md#items)
 
-#### Defined in
+#### Source
 
 main.ts:32565
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -106,17 +83,17 @@ left, right
 
 #### Implementation of
 
-[ITopSightsSerpElementItem](../interfaces/ITopSightsSerpElementItem.md).[position](../interfaces/ITopSightsSerpElementItem.md#position)
+[`ITopSightsSerpElementItem`](../interfaces/ITopSightsSerpElementItem.md).[`position`](../interfaces/ITopSightsSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
 main.ts:32558
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -124,17 +101,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[ITopSightsSerpElementItem](../interfaces/ITopSightsSerpElementItem.md).[rank_absolute](../interfaces/ITopSightsSerpElementItem.md#rank_absolute)
+[`ITopSightsSerpElementItem`](../interfaces/ITopSightsSerpElementItem.md).[`rank_absolute`](../interfaces/ITopSightsSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
 main.ts:32554
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
@@ -143,17 +120,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[ITopSightsSerpElementItem](../interfaces/ITopSightsSerpElementItem.md).[rank_group](../interfaces/ITopSightsSerpElementItem.md#rank_group)
+[`ITopSightsSerpElementItem`](../interfaces/ITopSightsSerpElementItem.md).[`rank_group`](../interfaces/ITopSightsSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
 main.ts:32550
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -161,55 +138,53 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Implementation of
 
-[ITopSightsSerpElementItem](../interfaces/ITopSightsSerpElementItem.md).[rectangle](../interfaces/ITopSightsSerpElementItem.md#rectangle)
+[`ITopSightsSerpElementItem`](../interfaces/ITopSightsSerpElementItem.md).[`rectangle`](../interfaces/ITopSightsSerpElementItem.md#rectangle)
 
-#### Defined in
+#### Source
 
 main.ts:32569
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the row
 
 #### Implementation of
 
-[ITopSightsSerpElementItem](../interfaces/ITopSightsSerpElementItem.md).[title](../interfaces/ITopSightsSerpElementItem.md#title)
+[`ITopSightsSerpElementItem`](../interfaces/ITopSightsSerpElementItem.md).[`title`](../interfaces/ITopSightsSerpElementItem.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:32562
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[ITopSightsSerpElementItem](../interfaces/ITopSightsSerpElementItem.md).[xpath](../interfaces/ITopSightsSerpElementItem.md#xpath)
+[`ITopSightsSerpElementItem`](../interfaces/ITopSightsSerpElementItem.md).[`xpath`](../interfaces/ITopSightsSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
 main.ts:32560
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -217,23 +192,21 @@ main.ts:32560
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[init](BaseSerpElementItem.md#init)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:32578
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -241,23 +214,21 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[toJSON](BaseSerpElementItem.md#tojson)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:32606
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`TopSightsSerpElementItem`](TopSightsSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`TopSightsSerpElementItem`](TopSightsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -265,8 +236,8 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[fromJS](BaseSerpElementItem.md#fromjs)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:32599

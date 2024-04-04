@@ -1,38 +1,31 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixTrBusinessDataPriceDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppendixTrBusinessDataPriceDataInfo
 
 # Interface: IAppendixTrBusinessDataPriceDataInfo
 
-## Implemented by
-
-- [`AppendixTrBusinessDataPriceDataInfo`](../classes/AppendixTrBusinessDataPriceDataInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [reviews](IAppendixTrBusinessDataPriceDataInfo.md#reviews)
-- [search](IAppendixTrBusinessDataPriceDataInfo.md#search)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### reviews
+### reviews?
 
-• `Optional` **reviews**: [`AppendixHotelSearchesGoogleBusinessDataPriceData`](../classes/AppendixHotelSearchesGoogleBusinessDataPriceData.md)
+> **`optional`** **reviews**: [`AppendixHotelSearchesGoogleBusinessDataPriceData`](../classes/AppendixHotelSearchesGoogleBusinessDataPriceData.md)
 
-#### Defined in
+#### Source
 
 main.ts:216877
 
-___
+***
 
-### search
+### search?
 
-• `Optional` **search**: [`AppendixHotelSearchesGoogleBusinessDataPriceData`](../classes/AppendixHotelSearchesGoogleBusinessDataPriceData.md)
+> **`optional`** **search**: [`AppendixHotelSearchesGoogleBusinessDataPriceData`](../classes/AppendixHotelSearchesGoogleBusinessDataPriceData.md)
 
-#### Defined in
+#### Source
 
 main.ts:216878

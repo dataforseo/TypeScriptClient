@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo
 
 # Class: KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo
 
@@ -8,202 +12,173 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md#constructor)
-
-### Properties
-
-- [date\_posted](KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md#date_posted)
-- [endpoint](KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md#endpoint)
-- [function](KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md#function)
-- [id](KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md#id)
-- [se](KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md#se)
-- [tag](KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md#tag)
-
-### Methods
-
-- [init](KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md#init)
-- [toJSON](KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md#tojson)
-- [fromJS](KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo(data)
 
-• **new KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo**(`data?`): [`KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo`](KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md)
+> **new KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo**(`data`?): [`KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo`](KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo`](../interfaces/IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md) |
+• **data?**: [`IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo`](../interfaces/IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md)
 
 #### Returns
 
 [`KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo`](KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:130747
+main.ts:130755
 
 ## Properties
 
-### date\_posted
+### date\_posted?
 
-• `Optional` **date\_posted**: `string`
+> **`optional`** **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo](../interfaces/IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md).[date_posted](../interfaces/IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md#date_posted)
+[`IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo`](../interfaces/IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md).[`date_posted`](../interfaces/IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md#date_posted)
 
-#### Defined in
+#### Source
 
-main.ts:130739
+main.ts:130747
 
-___
+***
 
-### endpoint
+### endpoint?
 
-• `Optional` **endpoint**: `string`
+> **`optional`** **endpoint**: `string`
 
 URL for collecting the results of the task
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo](../interfaces/IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md).[endpoint](../interfaces/IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md#endpoint)
+[`IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo`](../interfaces/IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md).[`endpoint`](../interfaces/IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md#endpoint)
 
-#### Defined in
+#### Source
 
-main.ts:130743
+main.ts:130751
 
-___
+***
 
-### function
+### function?
 
-• `Optional` **function**: `string`
+> **`optional`** **function**: `string`
 
 type of the task
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo](../interfaces/IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md).[function](../interfaces/IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md#function)
+[`IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo`](../interfaces/IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md).[`function`](../interfaces/IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md#function)
 
-#### Defined in
+#### Source
 
-main.ts:130737
+main.ts:130745
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo](../interfaces/IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md).[id](../interfaces/IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md#id)
+[`IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo`](../interfaces/IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md).[`id`](../interfaces/IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:130733
+main.ts:130741
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo](../interfaces/IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md).[se](../interfaces/IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md#se)
+[`IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo`](../interfaces/IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md).[`se`](../interfaces/IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md#se)
 
-#### Defined in
+#### Source
 
-main.ts:130735
+main.ts:130743
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo](../interfaces/IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md).[tag](../interfaces/IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md#tag)
+[`IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo`](../interfaces/IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md).[`tag`](../interfaces/IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:130741
+main.ts:130749
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:130756
+main.ts:130764
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:130778
+main.ts:130786
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo`](KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo`](KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo`](KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:130771
+main.ts:130779

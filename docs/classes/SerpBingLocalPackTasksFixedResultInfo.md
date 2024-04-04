@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpBingLocalPackTasksFixedResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpBingLocalPackTasksFixedResultInfo
 
 # Class: SerpBingLocalPackTasksFixedResultInfo
 
@@ -8,240 +12,209 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpBingLocalPackTasksFixedResultInfo.md#constructor)
-
-### Properties
-
-- [date\_fixed](SerpBingLocalPackTasksFixedResultInfo.md#date_fixed)
-- [endpoint\_advanced](SerpBingLocalPackTasksFixedResultInfo.md#endpoint_advanced)
-- [endpoint\_html](SerpBingLocalPackTasksFixedResultInfo.md#endpoint_html)
-- [endpoint\_regular](SerpBingLocalPackTasksFixedResultInfo.md#endpoint_regular)
-- [id](SerpBingLocalPackTasksFixedResultInfo.md#id)
-- [se](SerpBingLocalPackTasksFixedResultInfo.md#se)
-- [se\_type](SerpBingLocalPackTasksFixedResultInfo.md#se_type)
-- [tag](SerpBingLocalPackTasksFixedResultInfo.md#tag)
-
-### Methods
-
-- [init](SerpBingLocalPackTasksFixedResultInfo.md#init)
-- [toJSON](SerpBingLocalPackTasksFixedResultInfo.md#tojson)
-- [fromJS](SerpBingLocalPackTasksFixedResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpBingLocalPackTasksFixedResultInfo(data)
 
-• **new SerpBingLocalPackTasksFixedResultInfo**(`data?`): [`SerpBingLocalPackTasksFixedResultInfo`](SerpBingLocalPackTasksFixedResultInfo.md)
+> **new SerpBingLocalPackTasksFixedResultInfo**(`data`?): [`SerpBingLocalPackTasksFixedResultInfo`](SerpBingLocalPackTasksFixedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpBingLocalPackTasksFixedResultInfo`](../interfaces/ISerpBingLocalPackTasksFixedResultInfo.md) |
+• **data?**: [`ISerpBingLocalPackTasksFixedResultInfo`](../interfaces/ISerpBingLocalPackTasksFixedResultInfo.md)
 
 #### Returns
 
 [`SerpBingLocalPackTasksFixedResultInfo`](SerpBingLocalPackTasksFixedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:58402
+main.ts:58410
 
 ## Properties
 
-### date\_fixed
+### date\_fixed?
 
-• `Optional` **date\_fixed**: `string`
+> **`optional`** **date\_fixed**: `string`
 
 date when the task was fixed (in the UTC format)
 
 #### Implementation of
 
-[ISerpBingLocalPackTasksFixedResultInfo](../interfaces/ISerpBingLocalPackTasksFixedResultInfo.md).[date_fixed](../interfaces/ISerpBingLocalPackTasksFixedResultInfo.md#date_fixed)
+[`ISerpBingLocalPackTasksFixedResultInfo`](../interfaces/ISerpBingLocalPackTasksFixedResultInfo.md).[`date_fixed`](../interfaces/ISerpBingLocalPackTasksFixedResultInfo.md#date_fixed)
 
-#### Defined in
+#### Source
 
-main.ts:58387
+main.ts:58395
 
-___
+***
 
-### endpoint\_advanced
+### endpoint\_advanced?
 
-• `Optional` **endpoint\_advanced**: `string`
+> **`optional`** **endpoint\_advanced**: `string`
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpBingLocalPackTasksFixedResultInfo](../interfaces/ISerpBingLocalPackTasksFixedResultInfo.md).[endpoint_advanced](../interfaces/ISerpBingLocalPackTasksFixedResultInfo.md#endpoint_advanced)
+[`ISerpBingLocalPackTasksFixedResultInfo`](../interfaces/ISerpBingLocalPackTasksFixedResultInfo.md).[`endpoint_advanced`](../interfaces/ISerpBingLocalPackTasksFixedResultInfo.md#endpoint_advanced)
 
-#### Defined in
+#### Source
 
-main.ts:58395
+main.ts:58403
 
-___
+***
 
-### endpoint\_html
+### endpoint\_html?
 
-• `Optional` **endpoint\_html**: `string`
+> **`optional`** **endpoint\_html**: `string`
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpBingLocalPackTasksFixedResultInfo](../interfaces/ISerpBingLocalPackTasksFixedResultInfo.md).[endpoint_html](../interfaces/ISerpBingLocalPackTasksFixedResultInfo.md#endpoint_html)
+[`ISerpBingLocalPackTasksFixedResultInfo`](../interfaces/ISerpBingLocalPackTasksFixedResultInfo.md).[`endpoint_html`](../interfaces/ISerpBingLocalPackTasksFixedResultInfo.md#endpoint_html)
 
-#### Defined in
+#### Source
 
-main.ts:58398
+main.ts:58406
 
-___
+***
 
-### endpoint\_regular
+### endpoint\_regular?
 
-• `Optional` **endpoint\_regular**: `string`
+> **`optional`** **endpoint\_regular**: `string`
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpBingLocalPackTasksFixedResultInfo](../interfaces/ISerpBingLocalPackTasksFixedResultInfo.md).[endpoint_regular](../interfaces/ISerpBingLocalPackTasksFixedResultInfo.md#endpoint_regular)
+[`ISerpBingLocalPackTasksFixedResultInfo`](../interfaces/ISerpBingLocalPackTasksFixedResultInfo.md).[`endpoint_regular`](../interfaces/ISerpBingLocalPackTasksFixedResultInfo.md#endpoint_regular)
 
-#### Defined in
+#### Source
 
-main.ts:58392
+main.ts:58400
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[ISerpBingLocalPackTasksFixedResultInfo](../interfaces/ISerpBingLocalPackTasksFixedResultInfo.md).[id](../interfaces/ISerpBingLocalPackTasksFixedResultInfo.md#id)
+[`ISerpBingLocalPackTasksFixedResultInfo`](../interfaces/ISerpBingLocalPackTasksFixedResultInfo.md).[`id`](../interfaces/ISerpBingLocalPackTasksFixedResultInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:58380
+main.ts:58388
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 
 #### Implementation of
 
-[ISerpBingLocalPackTasksFixedResultInfo](../interfaces/ISerpBingLocalPackTasksFixedResultInfo.md).[se](../interfaces/ISerpBingLocalPackTasksFixedResultInfo.md#se)
+[`ISerpBingLocalPackTasksFixedResultInfo`](../interfaces/ISerpBingLocalPackTasksFixedResultInfo.md).[`se`](../interfaces/ISerpBingLocalPackTasksFixedResultInfo.md#se)
 
-#### Defined in
+#### Source
 
-main.ts:58382
+main.ts:58390
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 type of search engine
 can take the following values: local_pack
 
 #### Implementation of
 
-[ISerpBingLocalPackTasksFixedResultInfo](../interfaces/ISerpBingLocalPackTasksFixedResultInfo.md).[se_type](../interfaces/ISerpBingLocalPackTasksFixedResultInfo.md#se_type)
+[`ISerpBingLocalPackTasksFixedResultInfo`](../interfaces/ISerpBingLocalPackTasksFixedResultInfo.md).[`se_type`](../interfaces/ISerpBingLocalPackTasksFixedResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:58385
+main.ts:58393
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
 #### Implementation of
 
-[ISerpBingLocalPackTasksFixedResultInfo](../interfaces/ISerpBingLocalPackTasksFixedResultInfo.md).[tag](../interfaces/ISerpBingLocalPackTasksFixedResultInfo.md#tag)
+[`ISerpBingLocalPackTasksFixedResultInfo`](../interfaces/ISerpBingLocalPackTasksFixedResultInfo.md).[`tag`](../interfaces/ISerpBingLocalPackTasksFixedResultInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:58389
+main.ts:58397
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:58411
+main.ts:58419
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:58435
+main.ts:58443
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpBingLocalPackTasksFixedResultInfo`](SerpBingLocalPackTasksFixedResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpBingLocalPackTasksFixedResultInfo`](SerpBingLocalPackTasksFixedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpBingLocalPackTasksFixedResultInfo`](SerpBingLocalPackTasksFixedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:58428
+main.ts:58436

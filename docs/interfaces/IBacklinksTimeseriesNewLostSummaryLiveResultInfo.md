@@ -1,100 +1,89 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksTimeseriesNewLostSummaryLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBacklinksTimeseriesNewLostSummaryLiveResultInfo
 
 # Interface: IBacklinksTimeseriesNewLostSummaryLiveResultInfo
 
-## Implemented by
-
-- [`BacklinksTimeseriesNewLostSummaryLiveResultInfo`](../classes/BacklinksTimeseriesNewLostSummaryLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [date\_from](IBacklinksTimeseriesNewLostSummaryLiveResultInfo.md#date_from)
-- [date\_to](IBacklinksTimeseriesNewLostSummaryLiveResultInfo.md#date_to)
-- [group\_range](IBacklinksTimeseriesNewLostSummaryLiveResultInfo.md#group_range)
-- [items](IBacklinksTimeseriesNewLostSummaryLiveResultInfo.md#items)
-- [items\_count](IBacklinksTimeseriesNewLostSummaryLiveResultInfo.md#items_count)
-- [target](IBacklinksTimeseriesNewLostSummaryLiveResultInfo.md#target)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of the time range
 in the UTC format: “yyyy-mm-dd”
 example:
 2019-01-01
 
-#### Defined in
+#### Source
 
-main.ts:144598
+main.ts:144606
 
-___
+***
 
-### date\_to
+### date\_to?
 
-• `Optional` **date\_to**: `string`
+> **`optional`** **date\_to**: `string`
 
 ending date of the time range
 in the UTC format: "yyyy-mm-dd"
 example:
 "2019-01-15"
 
-#### Defined in
+#### Source
 
-main.ts:144603
+main.ts:144611
 
-___
+***
 
-### group\_range
+### group\_range?
 
-• `Optional` **group\_range**: `string`
+> **`optional`** **group\_range**: `string`
 
 group_range from the POST array
 
-#### Defined in
+#### Source
 
-main.ts:144605
+main.ts:144613
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BacklinksTimeseriesNewLostSummaryLiveItem`](../classes/BacklinksTimeseriesNewLostSummaryLiveItem.md)[]
+> **`optional`** **items**: [`BacklinksTimeseriesNewLostSummaryLiveItem`](../classes/BacklinksTimeseriesNewLostSummaryLiveItem.md)[]
 
 contains relevant backlinks and referring domains data
 
-#### Defined in
+#### Source
 
-main.ts:144609
+main.ts:144617
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Defined in
+#### Source
 
-main.ts:144607
+main.ts:144615
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 target from a POST array
 
-#### Defined in
+#### Source
 
-main.ts:144593
+main.ts:144601

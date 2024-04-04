@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataUserProfileInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataUserProfileInfo
 
 # Class: BusinessDataUserProfileInfo
 
@@ -8,184 +12,156 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataUserProfileInfo.md#constructor)
-
-### Properties
-
-- [image\_url](BusinessDataUserProfileInfo.md#image_url)
-- [location](BusinessDataUserProfileInfo.md#location)
-- [name](BusinessDataUserProfileInfo.md#name)
-- [reviews\_count](BusinessDataUserProfileInfo.md#reviews_count)
-- [url](BusinessDataUserProfileInfo.md#url)
-
-### Methods
-
-- [init](BusinessDataUserProfileInfo.md#init)
-- [toJSON](BusinessDataUserProfileInfo.md#tojson)
-- [fromJS](BusinessDataUserProfileInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataUserProfileInfo(data)
 
-• **new BusinessDataUserProfileInfo**(`data?`): [`BusinessDataUserProfileInfo`](BusinessDataUserProfileInfo.md)
+> **new BusinessDataUserProfileInfo**(`data`?): [`BusinessDataUserProfileInfo`](BusinessDataUserProfileInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataUserProfileInfo`](../interfaces/IBusinessDataUserProfileInfo.md) |
+• **data?**: [`IBusinessDataUserProfileInfo`](../interfaces/IBusinessDataUserProfileInfo.md)
 
 #### Returns
 
 [`BusinessDataUserProfileInfo`](BusinessDataUserProfileInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:205347
 
 ## Properties
 
-### image\_url
+### image\_url?
 
-• `Optional` **image\_url**: `string`
+> **`optional`** **image\_url**: `string`
 
 URL to the reviewer’s profile picture
 
 #### Implementation of
 
-[IBusinessDataUserProfileInfo](../interfaces/IBusinessDataUserProfileInfo.md).[image_url](../interfaces/IBusinessDataUserProfileInfo.md#image_url)
+[`IBusinessDataUserProfileInfo`](../interfaces/IBusinessDataUserProfileInfo.md).[`image_url`](../interfaces/IBusinessDataUserProfileInfo.md#image_url)
 
-#### Defined in
+#### Source
 
 main.ts:205339
 
-___
+***
 
-### location
+### location?
 
-• `Optional` **location**: `string`
+> **`optional`** **location**: `string`
 
 country of the reviewer
 
 #### Implementation of
 
-[IBusinessDataUserProfileInfo](../interfaces/IBusinessDataUserProfileInfo.md).[location](../interfaces/IBusinessDataUserProfileInfo.md#location)
+[`IBusinessDataUserProfileInfo`](../interfaces/IBusinessDataUserProfileInfo.md).[`location`](../interfaces/IBusinessDataUserProfileInfo.md#location)
 
-#### Defined in
+#### Source
 
 main.ts:205341
 
-___
+***
 
-### name
+### name?
 
-• `Optional` **name**: `string`
+> **`optional`** **name**: `string`
 
 the name of the reviewer
 
 #### Implementation of
 
-[IBusinessDataUserProfileInfo](../interfaces/IBusinessDataUserProfileInfo.md).[name](../interfaces/IBusinessDataUserProfileInfo.md#name)
+[`IBusinessDataUserProfileInfo`](../interfaces/IBusinessDataUserProfileInfo.md).[`name`](../interfaces/IBusinessDataUserProfileInfo.md#name)
 
-#### Defined in
+#### Source
 
 main.ts:205335
 
-___
+***
 
-### reviews\_count
+### reviews\_count?
 
-• `Optional` **reviews\_count**: `number`
+> **`optional`** **reviews\_count**: `number`
 
 total number of reviews submitted by the reviewer
 
 #### Implementation of
 
-[IBusinessDataUserProfileInfo](../interfaces/IBusinessDataUserProfileInfo.md).[reviews_count](../interfaces/IBusinessDataUserProfileInfo.md#reviews_count)
+[`IBusinessDataUserProfileInfo`](../interfaces/IBusinessDataUserProfileInfo.md).[`reviews_count`](../interfaces/IBusinessDataUserProfileInfo.md#reviews_count)
 
-#### Defined in
+#### Source
 
 main.ts:205343
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL to the reviewer’s profile
 
 #### Implementation of
 
-[IBusinessDataUserProfileInfo](../interfaces/IBusinessDataUserProfileInfo.md).[url](../interfaces/IBusinessDataUserProfileInfo.md#url)
+[`IBusinessDataUserProfileInfo`](../interfaces/IBusinessDataUserProfileInfo.md).[`url`](../interfaces/IBusinessDataUserProfileInfo.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:205337
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:205356
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:205377
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataUserProfileInfo`](BusinessDataUserProfileInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataUserProfileInfo`](BusinessDataUserProfileInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BusinessDataUserProfileInfo`](BusinessDataUserProfileInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:205370

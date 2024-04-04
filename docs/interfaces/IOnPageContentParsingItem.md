@@ -1,70 +1,61 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageContentParsingItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IOnPageContentParsingItem
 
 # Interface: IOnPageContentParsingItem
 
-## Implemented by
-
-- [`OnPageContentParsingItem`](../classes/OnPageContentParsingItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [fetch\_time](IOnPageContentParsingItem.md#fetch_time)
-- [page\_content](IOnPageContentParsingItem.md#page_content)
-- [status\_code](IOnPageContentParsingItem.md#status_code)
-- [type](IOnPageContentParsingItem.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### fetch\_time
+### fetch\_time?
 
-• `Optional` **fetch\_time**: `string`
+> **`optional`** **fetch\_time**: `string`
 
 date and time when the content was fethced
 example:
 "2022-11-01 10:02:52 +00:00"
 
-#### Defined in
+#### Source
 
-main.ts:157771
+main.ts:157779
 
-___
+***
 
-### page\_content
+### page\_content?
 
-• `Optional` **page\_content**: [`PageContentInfo`](../classes/PageContentInfo.md)
+> **`optional`** **page\_content**: [`PageContentInfo`](../classes/PageContentInfo.md)
 
 parsed content of the page
 
-#### Defined in
+#### Source
 
-main.ts:157775
+main.ts:157783
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the page
 
-#### Defined in
+#### Source
 
-main.ts:157773
+main.ts:157781
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:157767
+main.ts:157775

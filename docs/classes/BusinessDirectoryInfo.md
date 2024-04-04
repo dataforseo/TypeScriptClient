@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDirectoryInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDirectoryInfo
 
 # Class: BusinessDirectoryInfo
 
@@ -8,50 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDirectoryInfo.md#constructor)
-
-### Properties
-
-- [items](BusinessDirectoryInfo.md#items)
-- [title](BusinessDirectoryInfo.md#title)
-
-### Methods
-
-- [init](BusinessDirectoryInfo.md#init)
-- [toJSON](BusinessDirectoryInfo.md#tojson)
-- [fromJS](BusinessDirectoryInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDirectoryInfo(data)
 
-• **new BusinessDirectoryInfo**(`data?`): [`BusinessDirectoryInfo`](BusinessDirectoryInfo.md)
+> **new BusinessDirectoryInfo**(`data`?): [`BusinessDirectoryInfo`](BusinessDirectoryInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDirectoryInfo`](../interfaces/IBusinessDirectoryInfo.md) |
+• **data?**: [`IBusinessDirectoryInfo`](../interfaces/IBusinessDirectoryInfo.md)
 
 #### Returns
 
 [`BusinessDirectoryInfo`](BusinessDirectoryInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:196766
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)[]
+> **`optional`** **items**: [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)[]
 
 encountered item types
 types of search engine results encountered in the items array;
@@ -59,85 +44,79 @@ possible item types: google_business_info
 
 #### Implementation of
 
-[IBusinessDirectoryInfo](../interfaces/IBusinessDirectoryInfo.md).[items](../interfaces/IBusinessDirectoryInfo.md#items)
+[`IBusinessDirectoryInfo`](../interfaces/IBusinessDirectoryInfo.md).[`items`](../interfaces/IBusinessDirectoryInfo.md#items)
 
-#### Defined in
+#### Source
 
 main.ts:196762
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the element
 domain of the online menu system
 
 #### Implementation of
 
-[IBusinessDirectoryInfo](../interfaces/IBusinessDirectoryInfo.md).[title](../interfaces/IBusinessDirectoryInfo.md#title)
+[`IBusinessDirectoryInfo`](../interfaces/IBusinessDirectoryInfo.md).[`title`](../interfaces/IBusinessDirectoryInfo.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:196758
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:196775
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:196797
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDirectoryInfo`](BusinessDirectoryInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDirectoryInfo`](BusinessDirectoryInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BusinessDirectoryInfo`](BusinessDirectoryInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:196790

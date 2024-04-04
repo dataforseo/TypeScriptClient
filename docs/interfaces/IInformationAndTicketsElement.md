@@ -1,81 +1,71 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IInformationAndTicketsElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IInformationAndTicketsElement
 
 # Interface: IInformationAndTicketsElement
 
-## Implemented by
-
-- [`InformationAndTicketsElement`](../classes/InformationAndTicketsElement.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [description](IInformationAndTicketsElement.md#description)
-- [domain](IInformationAndTicketsElement.md#domain)
-- [title](IInformationAndTicketsElement.md#title)
-- [type](IInformationAndTicketsElement.md#type)
-- [url](IInformationAndTicketsElement.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description of the element
 
-#### Defined in
+#### Source
 
-main.ts:45408
+main.ts:45416
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain in SERP
 
-#### Defined in
+#### Source
 
-main.ts:45412
+main.ts:45420
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the element
 
-#### Defined in
+#### Source
 
-main.ts:45406
+main.ts:45414
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:45404
+main.ts:45412
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 relevant URL
 
-#### Defined in
+#### Source
 
-main.ts:45410
+main.ts:45418

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpNaverOrganicTaskGetAdvancedResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpNaverOrganicTaskGetAdvancedResultInfo
 
 # Class: SerpNaverOrganicTaskGetAdvancedResultInfo
 
@@ -8,77 +12,48 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpNaverOrganicTaskGetAdvancedResultInfo.md#constructor)
-
-### Properties
-
-- [check\_url](SerpNaverOrganicTaskGetAdvancedResultInfo.md#check_url)
-- [datetime](SerpNaverOrganicTaskGetAdvancedResultInfo.md#datetime)
-- [item\_types](SerpNaverOrganicTaskGetAdvancedResultInfo.md#item_types)
-- [items](SerpNaverOrganicTaskGetAdvancedResultInfo.md#items)
-- [items\_count](SerpNaverOrganicTaskGetAdvancedResultInfo.md#items_count)
-- [keyword](SerpNaverOrganicTaskGetAdvancedResultInfo.md#keyword)
-- [language\_code](SerpNaverOrganicTaskGetAdvancedResultInfo.md#language_code)
-- [location\_code](SerpNaverOrganicTaskGetAdvancedResultInfo.md#location_code)
-- [se\_domain](SerpNaverOrganicTaskGetAdvancedResultInfo.md#se_domain)
-- [se\_results\_count](SerpNaverOrganicTaskGetAdvancedResultInfo.md#se_results_count)
-- [spell](SerpNaverOrganicTaskGetAdvancedResultInfo.md#spell)
-- [type](SerpNaverOrganicTaskGetAdvancedResultInfo.md#type)
-
-### Methods
-
-- [init](SerpNaverOrganicTaskGetAdvancedResultInfo.md#init)
-- [toJSON](SerpNaverOrganicTaskGetAdvancedResultInfo.md#tojson)
-- [fromJS](SerpNaverOrganicTaskGetAdvancedResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpNaverOrganicTaskGetAdvancedResultInfo(data)
 
-• **new SerpNaverOrganicTaskGetAdvancedResultInfo**(`data?`): [`SerpNaverOrganicTaskGetAdvancedResultInfo`](SerpNaverOrganicTaskGetAdvancedResultInfo.md)
+> **new SerpNaverOrganicTaskGetAdvancedResultInfo**(`data`?): [`SerpNaverOrganicTaskGetAdvancedResultInfo`](SerpNaverOrganicTaskGetAdvancedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpNaverOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md) |
+• **data?**: [`ISerpNaverOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
 [`SerpNaverOrganicTaskGetAdvancedResultInfo`](SerpNaverOrganicTaskGetAdvancedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:70687
+main.ts:70695
 
 ## Properties
 
-### check\_url
+### check\_url?
 
-• `Optional` **check\_url**: `string`
+> **`optional`** **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
 
 #### Implementation of
 
-[ISerpNaverOrganicTaskGetAdvancedResultInfo](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md).[check_url](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md#check_url)
+[`ISerpNaverOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md).[`check_url`](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md#check_url)
 
-#### Defined in
+#### Source
 
-main.ts:70663
+main.ts:70671
 
-___
+***
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -87,17 +62,17 @@ example:
 
 #### Implementation of
 
-[ISerpNaverOrganicTaskGetAdvancedResultInfo](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md).[datetime](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md#datetime)
+[`ISerpNaverOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md).[`datetime`](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
-main.ts:70668
+main.ts:70676
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -106,215 +81,209 @@ images, local_pack, map, organic, paid, related_searches, video
 
 #### Implementation of
 
-[ISerpNaverOrganicTaskGetAdvancedResultInfo](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md).[item_types](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md#item_types)
+[`ISerpNaverOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md).[`item_types`](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md#item_types)
 
-#### Defined in
+#### Source
 
-main.ts:70676
+main.ts:70684
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
+> **`optional`** **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
 additional items present in the element
 if there are none, equals null
 
 #### Implementation of
 
-[ISerpNaverOrganicTaskGetAdvancedResultInfo](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md).[items](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md#items)
+[`ISerpNaverOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md).[`items`](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:70683
+main.ts:70691
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[ISerpNaverOrganicTaskGetAdvancedResultInfo](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md).[items_count](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md#items_count)
+[`ISerpNaverOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md).[`items_count`](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:70680
+main.ts:70688
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword received in a POST array
 the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
-[ISerpNaverOrganicTaskGetAdvancedResultInfo](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md).[keyword](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md#keyword)
+[`ISerpNaverOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md).[`keyword`](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:70652
+main.ts:70660
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[ISerpNaverOrganicTaskGetAdvancedResultInfo](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md).[language_code](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md#language_code)
+[`ISerpNaverOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md).[`language_code`](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:70660
+main.ts:70668
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[ISerpNaverOrganicTaskGetAdvancedResultInfo](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md).[location_code](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md#location_code)
+[`ISerpNaverOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md).[`location_code`](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:70658
+main.ts:70666
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
 #### Implementation of
 
-[ISerpNaverOrganicTaskGetAdvancedResultInfo](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md).[se_domain](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md#se_domain)
+[`ISerpNaverOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md).[`se_domain`](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md#se_domain)
 
-#### Defined in
+#### Source
 
-main.ts:70656
+main.ts:70664
 
-___
+***
 
-### se\_results\_count
+### se\_results\_count?
 
-• `Optional` **se\_results\_count**: `number`
+> **`optional`** **se\_results\_count**: `number`
 
 total number of results in SERP
 
 #### Implementation of
 
-[ISerpNaverOrganicTaskGetAdvancedResultInfo](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md).[se_results_count](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md#se_results_count)
+[`ISerpNaverOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md).[`se_results_count`](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md#se_results_count)
 
-#### Defined in
+#### Source
 
-main.ts:70678
+main.ts:70686
 
-___
+***
 
-### spell
+### spell?
 
-• `Optional` **spell**: [`SpellInfo`](SpellInfo.md)
+> **`optional`** **spell**: [`SpellInfo`](SpellInfo.md)
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
 
 #### Implementation of
 
-[ISerpNaverOrganicTaskGetAdvancedResultInfo](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md).[spell](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md#spell)
+[`ISerpNaverOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md).[`spell`](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md#spell)
 
-#### Defined in
+#### Source
 
-main.ts:70671
+main.ts:70679
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[ISerpNaverOrganicTaskGetAdvancedResultInfo](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md).[type](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md#type)
+[`ISerpNaverOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md).[`type`](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:70654
+main.ts:70662
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:70696
+main.ts:70704
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:70732
+main.ts:70740
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpNaverOrganicTaskGetAdvancedResultInfo`](SerpNaverOrganicTaskGetAdvancedResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpNaverOrganicTaskGetAdvancedResultInfo`](SerpNaverOrganicTaskGetAdvancedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpNaverOrganicTaskGetAdvancedResultInfo`](SerpNaverOrganicTaskGetAdvancedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:70725
+main.ts:70733

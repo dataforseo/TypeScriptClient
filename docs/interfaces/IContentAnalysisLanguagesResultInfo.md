@@ -1,42 +1,35 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentAnalysisLanguagesResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IContentAnalysisLanguagesResultInfo
 
 # Interface: IContentAnalysisLanguagesResultInfo
 
-## Implemented by
-
-- [`ContentAnalysisLanguagesResultInfo`](../classes/ContentAnalysisLanguagesResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [language\_code](IContentAnalysisLanguagesResultInfo.md#language_code)
-- [language\_name](IContentAnalysisLanguagesResultInfo.md#language_name)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code according to ISO 639-1
 
-#### Defined in
+#### Source
 
-main.ts:161163
+main.ts:161171
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 language name
 
-#### Defined in
+#### Source
 
-main.ts:161161
+main.ts:161169

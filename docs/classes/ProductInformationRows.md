@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ProductInformationRows
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ProductInformationRows
 
 # Class: ProductInformationRows
 
@@ -8,150 +12,124 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ProductInformationRows.md#constructor)
-
-### Properties
-
-- [rows](ProductInformationRows.md#rows)
-- [title](ProductInformationRows.md#title)
-- [type](ProductInformationRows.md#type)
-
-### Methods
-
-- [init](ProductInformationRows.md#init)
-- [toJSON](ProductInformationRows.md#tojson)
-- [fromJS](ProductInformationRows.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ProductInformationRows(data)
 
-• **new ProductInformationRows**(`data?`): [`ProductInformationRows`](ProductInformationRows.md)
+> **new ProductInformationRows**(`data`?): [`ProductInformationRows`](ProductInformationRows.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IProductInformationRows`](../interfaces/IProductInformationRows.md) |
+• **data?**: [`IProductInformationRows`](../interfaces/IProductInformationRows.md)
 
 #### Returns
 
 [`ProductInformationRows`](ProductInformationRows.md)
 
-#### Defined in
+#### Source
 
 main.ts:178119
 
 ## Properties
 
-### rows
+### rows?
 
-• `Optional` **rows**: [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md)[]
+> **`optional`** **rows**: [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md)[]
 
 rows containing related product information
 
 #### Implementation of
 
-[IProductInformationRows](../interfaces/IProductInformationRows.md).[rows](../interfaces/IProductInformationRows.md#rows)
+[`IProductInformationRows`](../interfaces/IProductInformationRows.md).[`rows`](../interfaces/IProductInformationRows.md#rows)
 
-#### Defined in
+#### Source
 
 main.ts:178115
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title under which related product information appears on the Amazon product page
 
 #### Implementation of
 
-[IProductInformationRows](../interfaces/IProductInformationRows.md).[title](../interfaces/IProductInformationRows.md#title)
+[`IProductInformationRows`](../interfaces/IProductInformationRows.md).[`title`](../interfaces/IProductInformationRows.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:178113
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IProductInformationRows](../interfaces/IProductInformationRows.md).[type](../interfaces/IProductInformationRows.md#type)
+[`IProductInformationRows`](../interfaces/IProductInformationRows.md).[`type`](../interfaces/IProductInformationRows.md#type)
 
-#### Defined in
+#### Source
 
 main.ts:178111
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:178128
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:178151
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ProductInformationRows`](ProductInformationRows.md)
+> **`static`** **fromJS**(`data`): [`ProductInformationRows`](ProductInformationRows.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ProductInformationRows`](ProductInformationRows.md)
 
-#### Defined in
+#### Source
 
 main.ts:178144

@@ -1,72 +1,63 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksDomainIntersectionLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBacklinksDomainIntersectionLiveResultInfo
 
 # Interface: IBacklinksDomainIntersectionLiveResultInfo
 
-## Implemented by
-
-- [`BacklinksDomainIntersectionLiveResultInfo`](../classes/BacklinksDomainIntersectionLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IBacklinksDomainIntersectionLiveResultInfo.md#items)
-- [items\_count](IBacklinksDomainIntersectionLiveResultInfo.md#items_count)
-- [targets](IBacklinksDomainIntersectionLiveResultInfo.md#targets)
-- [total\_count](IBacklinksDomainIntersectionLiveResultInfo.md#total_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`BacklinksDomainIntersectionLiveItem`](../classes/BacklinksDomainIntersectionLiveItem.md)[]
+> **`optional`** **items**: [`BacklinksDomainIntersectionLiveItem`](../classes/BacklinksDomainIntersectionLiveItem.md)[]
 
 contains domain that link to all targets from the POST array
 
-#### Defined in
+#### Source
 
-main.ts:142639
+main.ts:142647
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Defined in
+#### Source
 
-main.ts:142637
+main.ts:142645
 
-___
+***
 
-### targets
+### targets?
 
-• `Optional` **targets**: `Object`
+> **`optional`** **targets**: `Object`
 
 target domains, subdomains or webpages in a POST array
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
-#### Defined in
+#### Source
 
-main.ts:142633
+main.ts:142641
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total amount of results relevant to your request
 
-#### Defined in
+#### Source
 
-main.ts:142635
+main.ts:142643

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordAnnotations
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordAnnotations
 
 # Class: KeywordAnnotations
 
@@ -8,116 +12,92 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordAnnotations.md#constructor)
-
-### Properties
-
-- [concepts](KeywordAnnotations.md#concepts)
-
-### Methods
-
-- [init](KeywordAnnotations.md#init)
-- [toJSON](KeywordAnnotations.md#tojson)
-- [fromJS](KeywordAnnotations.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordAnnotations(data)
 
-• **new KeywordAnnotations**(`data?`): [`KeywordAnnotations`](KeywordAnnotations.md)
+> **new KeywordAnnotations**(`data`?): [`KeywordAnnotations`](KeywordAnnotations.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordAnnotations`](../interfaces/IKeywordAnnotations.md) |
+• **data?**: [`IKeywordAnnotations`](../interfaces/IKeywordAnnotations.md)
 
 #### Returns
 
 [`KeywordAnnotations`](KeywordAnnotations.md)
 
-#### Defined in
+#### Source
 
-main.ts:117391
+main.ts:117399
 
 ## Properties
 
-### concepts
+### concepts?
 
-• `Optional` **concepts**: [`ConceptInfo`](ConceptInfo.md)[]
+> **`optional`** **concepts**: [`ConceptInfo`](ConceptInfo.md)[]
 
 the list of concepts for the keyword
 
 #### Implementation of
 
-[IKeywordAnnotations](../interfaces/IKeywordAnnotations.md).[concepts](../interfaces/IKeywordAnnotations.md#concepts)
+[`IKeywordAnnotations`](../interfaces/IKeywordAnnotations.md).[`concepts`](../interfaces/IKeywordAnnotations.md#concepts)
 
-#### Defined in
+#### Source
 
-main.ts:117387
+main.ts:117395
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:117400
+main.ts:117408
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:117421
+main.ts:117429
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordAnnotations`](KeywordAnnotations.md)
+> **`static`** **fromJS**(`data`): [`KeywordAnnotations`](KeywordAnnotations.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`KeywordAnnotations`](KeywordAnnotations.md)
 
-#### Defined in
+#### Source
 
-main.ts:117414
+main.ts:117422

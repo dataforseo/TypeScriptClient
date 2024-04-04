@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentGenerationTextSummaryLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ContentGenerationTextSummaryLiveResultInfo
 
 # Class: ContentGenerationTextSummaryLiveResultInfo
 
@@ -8,359 +12,321 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ContentGenerationTextSummaryLiveResultInfo.md#constructor)
-
-### Properties
-
-- [automated\_readability\_index](ContentGenerationTextSummaryLiveResultInfo.md#automated_readability_index)
-- [characters\_per\_word](ContentGenerationTextSummaryLiveResultInfo.md#characters_per_word)
-- [characters\_with\_spaces](ContentGenerationTextSummaryLiveResultInfo.md#characters_with_spaces)
-- [characters\_without\_spaces](ContentGenerationTextSummaryLiveResultInfo.md#characters_without_spaces)
-- [coleman\_liau\_index](ContentGenerationTextSummaryLiveResultInfo.md#coleman_liau_index)
-- [flesch\_kincaid\_grade\_level](ContentGenerationTextSummaryLiveResultInfo.md#flesch_kincaid_grade_level)
-- [grammar\_errors](ContentGenerationTextSummaryLiveResultInfo.md#grammar_errors)
-- [keyword\_density](ContentGenerationTextSummaryLiveResultInfo.md#keyword_density)
-- [paragraphs](ContentGenerationTextSummaryLiveResultInfo.md#paragraphs)
-- [sentences](ContentGenerationTextSummaryLiveResultInfo.md#sentences)
-- [smog\_readability\_index](ContentGenerationTextSummaryLiveResultInfo.md#smog_readability_index)
-- [spelling\_errors](ContentGenerationTextSummaryLiveResultInfo.md#spelling_errors)
-- [vocabulary\_density](ContentGenerationTextSummaryLiveResultInfo.md#vocabulary_density)
-- [words](ContentGenerationTextSummaryLiveResultInfo.md#words)
-- [words\_per\_sentence](ContentGenerationTextSummaryLiveResultInfo.md#words_per_sentence)
-
-### Methods
-
-- [init](ContentGenerationTextSummaryLiveResultInfo.md#init)
-- [toJSON](ContentGenerationTextSummaryLiveResultInfo.md#tojson)
-- [fromJS](ContentGenerationTextSummaryLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ContentGenerationTextSummaryLiveResultInfo(data)
 
-• **new ContentGenerationTextSummaryLiveResultInfo**(`data?`): [`ContentGenerationTextSummaryLiveResultInfo`](ContentGenerationTextSummaryLiveResultInfo.md)
+> **new ContentGenerationTextSummaryLiveResultInfo**(`data`?): [`ContentGenerationTextSummaryLiveResultInfo`](ContentGenerationTextSummaryLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md) |
+• **data?**: [`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md)
 
 #### Returns
 
 [`ContentGenerationTextSummaryLiveResultInfo`](ContentGenerationTextSummaryLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:167689
+main.ts:167697
 
 ## Properties
 
-### automated\_readability\_index
+### automated\_readability\_index?
 
-• `Optional` **automated\_readability\_index**: `number`
+> **`optional`** **automated\_readability\_index**: `number`
 
 Automated Readability Index
 
 #### Implementation of
 
-[IContentGenerationTextSummaryLiveResultInfo](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[automated_readability_index](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#automated_readability_index)
+[`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`automated_readability_index`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#automated_readability_index)
 
-#### Defined in
+#### Source
 
-main.ts:167675
+main.ts:167683
 
-___
+***
 
-### characters\_per\_word
+### characters\_per\_word?
 
-• `Optional` **characters\_per\_word**: `number`
+> **`optional`** **characters\_per\_word**: `number`
 
 average number of characters per word in the target text
 
 #### Implementation of
 
-[IContentGenerationTextSummaryLiveResultInfo](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[characters_per_word](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#characters_per_word)
+[`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`characters_per_word`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#characters_per_word)
 
-#### Defined in
+#### Source
 
-main.ts:167668
+main.ts:167676
 
-___
+***
 
-### characters\_with\_spaces
+### characters\_with\_spaces?
 
-• `Optional` **characters\_with\_spaces**: `number`
+> **`optional`** **characters\_with\_spaces**: `number`
 
 number of characters with spaces found in the target text
 
 #### Implementation of
 
-[IContentGenerationTextSummaryLiveResultInfo](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[characters_with_spaces](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#characters_with_spaces)
+[`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`characters_with_spaces`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#characters_with_spaces)
 
-#### Defined in
+#### Source
 
-main.ts:167664
+main.ts:167672
 
-___
+***
 
-### characters\_without\_spaces
+### characters\_without\_spaces?
 
-• `Optional` **characters\_without\_spaces**: `number`
+> **`optional`** **characters\_without\_spaces**: `number`
 
 number of characters without spaces found in the target text
 
 #### Implementation of
 
-[IContentGenerationTextSummaryLiveResultInfo](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[characters_without_spaces](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#characters_without_spaces)
+[`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`characters_without_spaces`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#characters_without_spaces)
 
-#### Defined in
+#### Source
 
-main.ts:167662
+main.ts:167670
 
-___
+***
 
-### coleman\_liau\_index
+### coleman\_liau\_index?
 
-• `Optional` **coleman\_liau\_index**: `number`
+> **`optional`** **coleman\_liau\_index**: `number`
 
 Coleman–Liau Index
 
 #### Implementation of
 
-[IContentGenerationTextSummaryLiveResultInfo](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[coleman_liau_index](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#coleman_liau_index)
+[`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`coleman_liau_index`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#coleman_liau_index)
 
-#### Defined in
+#### Source
 
-main.ts:167677
+main.ts:167685
 
-___
+***
 
-### flesch\_kincaid\_grade\_level
+### flesch\_kincaid\_grade\_level?
 
-• `Optional` **flesch\_kincaid\_grade\_level**: `number`
+> **`optional`** **flesch\_kincaid\_grade\_level**: `number`
 
 Flesch–Kincaid Readability Index
 
 #### Implementation of
 
-[IContentGenerationTextSummaryLiveResultInfo](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[flesch_kincaid_grade_level](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#flesch_kincaid_grade_level)
+[`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`flesch_kincaid_grade_level`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#flesch_kincaid_grade_level)
 
-#### Defined in
+#### Source
 
-main.ts:167679
+main.ts:167687
 
-___
+***
 
-### grammar\_errors
+### grammar\_errors?
 
-• `Optional` **grammar\_errors**: `number`
+> **`optional`** **grammar\_errors**: `number`
 
 number of grammar errors found in the target text
 
 #### Implementation of
 
-[IContentGenerationTextSummaryLiveResultInfo](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[grammar_errors](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#grammar_errors)
+[`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`grammar_errors`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#grammar_errors)
 
-#### Defined in
+#### Source
 
-main.ts:167685
+main.ts:167693
 
-___
+***
 
-### keyword\_density
+### keyword\_density?
 
-• `Optional` **keyword\_density**: `Object`
+> **`optional`** **keyword\_density**: `Object`
 
 keyword density of the target text
 contains most common words and their count
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
 #### Implementation of
 
-[IContentGenerationTextSummaryLiveResultInfo](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[keyword_density](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#keyword_density)
+[`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`keyword_density`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#keyword_density)
 
-#### Defined in
+#### Source
 
-main.ts:167673
+main.ts:167681
 
-___
+***
 
-### paragraphs
+### paragraphs?
 
-• `Optional` **paragraphs**: `number`
+> **`optional`** **paragraphs**: `number`
 
 number of paragraphs found in the target text
 
 #### Implementation of
 
-[IContentGenerationTextSummaryLiveResultInfo](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[paragraphs](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#paragraphs)
+[`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`paragraphs`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#paragraphs)
 
-#### Defined in
+#### Source
 
-main.ts:167658
+main.ts:167666
 
-___
+***
 
-### sentences
+### sentences?
 
-• `Optional` **sentences**: `number`
+> **`optional`** **sentences**: `number`
 
 number of sentences found in the target text
 
 #### Implementation of
 
-[IContentGenerationTextSummaryLiveResultInfo](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[sentences](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#sentences)
+[`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`sentences`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#sentences)
 
-#### Defined in
+#### Source
 
-main.ts:167656
+main.ts:167664
 
-___
+***
 
-### smog\_readability\_index
+### smog\_readability\_index?
 
-• `Optional` **smog\_readability\_index**: `number`
+> **`optional`** **smog\_readability\_index**: `number`
 
 SMOG Readability Index
 
 #### Implementation of
 
-[IContentGenerationTextSummaryLiveResultInfo](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[smog_readability_index](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#smog_readability_index)
+[`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`smog_readability_index`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#smog_readability_index)
 
-#### Defined in
+#### Source
 
-main.ts:167681
+main.ts:167689
 
-___
+***
 
-### spelling\_errors
+### spelling\_errors?
 
-• `Optional` **spelling\_errors**: `number`
+> **`optional`** **spelling\_errors**: `number`
 
 number of spelling errors found in the target text
 
 #### Implementation of
 
-[IContentGenerationTextSummaryLiveResultInfo](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[spelling_errors](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#spelling_errors)
+[`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`spelling_errors`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#spelling_errors)
 
-#### Defined in
+#### Source
 
-main.ts:167683
+main.ts:167691
 
-___
+***
 
-### vocabulary\_density
+### vocabulary\_density?
 
-• `Optional` **vocabulary\_density**: `number`
+> **`optional`** **vocabulary\_density**: `number`
 
 vocabulary density of the target text
 
 #### Implementation of
 
-[IContentGenerationTextSummaryLiveResultInfo](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[vocabulary_density](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#vocabulary_density)
+[`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`vocabulary_density`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#vocabulary_density)
 
-#### Defined in
+#### Source
 
-main.ts:167670
+main.ts:167678
 
-___
+***
 
-### words
+### words?
 
-• `Optional` **words**: `number`
+> **`optional`** **words**: `number`
 
 number of words found in the target text
 
 #### Implementation of
 
-[IContentGenerationTextSummaryLiveResultInfo](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[words](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#words)
+[`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`words`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#words)
 
-#### Defined in
+#### Source
 
-main.ts:167660
+main.ts:167668
 
-___
+***
 
-### words\_per\_sentence
+### words\_per\_sentence?
 
-• `Optional` **words\_per\_sentence**: `number`
+> **`optional`** **words\_per\_sentence**: `number`
 
 average number of words per sentence in the target text
 
 #### Implementation of
 
-[IContentGenerationTextSummaryLiveResultInfo](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[words_per_sentence](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#words_per_sentence)
+[`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`words_per_sentence`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#words_per_sentence)
 
-#### Defined in
+#### Source
 
-main.ts:167666
+main.ts:167674
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:167698
+main.ts:167706
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:167735
+main.ts:167743
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ContentGenerationTextSummaryLiveResultInfo`](ContentGenerationTextSummaryLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`ContentGenerationTextSummaryLiveResultInfo`](ContentGenerationTextSummaryLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ContentGenerationTextSummaryLiveResultInfo`](ContentGenerationTextSummaryLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:167728
+main.ts:167736

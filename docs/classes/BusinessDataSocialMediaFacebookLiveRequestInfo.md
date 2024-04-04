@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataSocialMediaFacebookLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataSocialMediaFacebookLiveRequestInfo
 
 # Class: BusinessDataSocialMediaFacebookLiveRequestInfo
 
@@ -8,50 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataSocialMediaFacebookLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [tag](BusinessDataSocialMediaFacebookLiveRequestInfo.md#tag)
-- [targets](BusinessDataSocialMediaFacebookLiveRequestInfo.md#targets)
-
-### Methods
-
-- [init](BusinessDataSocialMediaFacebookLiveRequestInfo.md#init)
-- [toJSON](BusinessDataSocialMediaFacebookLiveRequestInfo.md#tojson)
-- [fromJS](BusinessDataSocialMediaFacebookLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataSocialMediaFacebookLiveRequestInfo(data)
 
-• **new BusinessDataSocialMediaFacebookLiveRequestInfo**(`data?`): [`BusinessDataSocialMediaFacebookLiveRequestInfo`](BusinessDataSocialMediaFacebookLiveRequestInfo.md)
+> **new BusinessDataSocialMediaFacebookLiveRequestInfo**(`data`?): [`BusinessDataSocialMediaFacebookLiveRequestInfo`](BusinessDataSocialMediaFacebookLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataSocialMediaFacebookLiveRequestInfo`](../interfaces/IBusinessDataSocialMediaFacebookLiveRequestInfo.md) |
+• **data?**: [`IBusinessDataSocialMediaFacebookLiveRequestInfo`](../interfaces/IBusinessDataSocialMediaFacebookLiveRequestInfo.md)
 
 #### Returns
 
 [`BusinessDataSocialMediaFacebookLiveRequestInfo`](BusinessDataSocialMediaFacebookLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:211360
 
 ## Properties
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -61,17 +46,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IBusinessDataSocialMediaFacebookLiveRequestInfo](../interfaces/IBusinessDataSocialMediaFacebookLiveRequestInfo.md).[tag](../interfaces/IBusinessDataSocialMediaFacebookLiveRequestInfo.md#tag)
+[`IBusinessDataSocialMediaFacebookLiveRequestInfo`](../interfaces/IBusinessDataSocialMediaFacebookLiveRequestInfo.md).[`tag`](../interfaces/IBusinessDataSocialMediaFacebookLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
 main.ts:211356
 
-___
+***
 
-### targets
+### targets?
 
-• `Optional` **targets**: `string`[]
+> **`optional`** **targets**: `string`[]
 
 target URLs
 required field
@@ -82,68 +67,62 @@ Note: you can specify 10 targets maximum. You will be charged per earch URL you 
 
 #### Implementation of
 
-[IBusinessDataSocialMediaFacebookLiveRequestInfo](../interfaces/IBusinessDataSocialMediaFacebookLiveRequestInfo.md).[targets](../interfaces/IBusinessDataSocialMediaFacebookLiveRequestInfo.md#targets)
+[`IBusinessDataSocialMediaFacebookLiveRequestInfo`](../interfaces/IBusinessDataSocialMediaFacebookLiveRequestInfo.md).[`targets`](../interfaces/IBusinessDataSocialMediaFacebookLiveRequestInfo.md#targets)
 
-#### Defined in
+#### Source
 
 main.ts:211350
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:211369
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:211391
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataSocialMediaFacebookLiveRequestInfo`](BusinessDataSocialMediaFacebookLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataSocialMediaFacebookLiveRequestInfo`](BusinessDataSocialMediaFacebookLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BusinessDataSocialMediaFacebookLiveRequestInfo`](BusinessDataSocialMediaFacebookLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:211384

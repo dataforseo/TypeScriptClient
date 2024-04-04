@@ -1,155 +1,139 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IHotelsPackSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IHotelsPackSerpElementItem
 
 # Interface: IHotelsPackSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
 
-  ↳ **`IHotelsPackSerpElementItem`**
-
-## Implemented by
-
-- [`HotelsPackSerpElementItem`](../classes/HotelsPackSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [date\_from](IHotelsPackSerpElementItem.md#date_from)
-- [date\_to](IHotelsPackSerpElementItem.md#date_to)
-- [items](IHotelsPackSerpElementItem.md#items)
-- [position](IHotelsPackSerpElementItem.md#position)
-- [rank\_absolute](IHotelsPackSerpElementItem.md#rank_absolute)
-- [rank\_group](IHotelsPackSerpElementItem.md#rank_group)
-- [rectangle](IHotelsPackSerpElementItem.md#rectangle)
-- [title](IHotelsPackSerpElementItem.md#title)
-- [xpath](IHotelsPackSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of stay
 in the format “year-month-date”
 example:
 2019-11-15
 
-#### Defined in
+#### Source
 
-main.ts:34100
+main.ts:34106
 
-___
+***
 
-### date\_to
+### date\_to?
 
-• `Optional` **date\_to**: `string`
+> **`optional`** **date\_to**: `string`
 
 ending date of stay
 in the format “year-month-date”
 example:
 2019-11-17
 
-#### Defined in
+#### Source
 
-main.ts:34105
+main.ts:34111
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`HotelsPackElement`](../classes/HotelsPackElement.md)[]
+> **`optional`** **items**: [`HotelsPackElement`](../classes/HotelsPackElement.md)[]
 
 additional items present in the element
 if there are none, equals null
 
-#### Defined in
+#### Source
 
-main.ts:34108
+main.ts:34114
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
-main.ts:34091
+main.ts:34097
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop
 
-#### Defined in
+#### Source
 
-main.ts:34087
+main.ts:34093
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
 positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop
 
-#### Defined in
+#### Source
 
-main.ts:34083
+main.ts:34089
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
 equals null if calculate_rectangles in the POST request is not set to true
 
-#### Defined in
+#### Source
 
-main.ts:34112
+main.ts:34118
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the row
 
-#### Defined in
+#### Source
 
-main.ts:34095
+main.ts:34101
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
-main.ts:34093
+main.ts:34099

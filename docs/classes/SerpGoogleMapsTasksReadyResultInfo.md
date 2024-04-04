@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleMapsTasksReadyResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleMapsTasksReadyResultInfo
 
 # Class: SerpGoogleMapsTasksReadyResultInfo
 
@@ -8,240 +12,209 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleMapsTasksReadyResultInfo.md#constructor)
-
-### Properties
-
-- [date\_posted](SerpGoogleMapsTasksReadyResultInfo.md#date_posted)
-- [endpoint\_advanced](SerpGoogleMapsTasksReadyResultInfo.md#endpoint_advanced)
-- [endpoint\_html](SerpGoogleMapsTasksReadyResultInfo.md#endpoint_html)
-- [endpoint\_regular](SerpGoogleMapsTasksReadyResultInfo.md#endpoint_regular)
-- [id](SerpGoogleMapsTasksReadyResultInfo.md#id)
-- [se](SerpGoogleMapsTasksReadyResultInfo.md#se)
-- [se\_type](SerpGoogleMapsTasksReadyResultInfo.md#se_type)
-- [tag](SerpGoogleMapsTasksReadyResultInfo.md#tag)
-
-### Methods
-
-- [init](SerpGoogleMapsTasksReadyResultInfo.md#init)
-- [toJSON](SerpGoogleMapsTasksReadyResultInfo.md#tojson)
-- [fromJS](SerpGoogleMapsTasksReadyResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleMapsTasksReadyResultInfo(data)
 
-• **new SerpGoogleMapsTasksReadyResultInfo**(`data?`): [`SerpGoogleMapsTasksReadyResultInfo`](SerpGoogleMapsTasksReadyResultInfo.md)
+> **new SerpGoogleMapsTasksReadyResultInfo**(`data`?): [`SerpGoogleMapsTasksReadyResultInfo`](SerpGoogleMapsTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleMapsTasksReadyResultInfo`](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md) |
+• **data?**: [`ISerpGoogleMapsTasksReadyResultInfo`](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md)
 
 #### Returns
 
 [`SerpGoogleMapsTasksReadyResultInfo`](SerpGoogleMapsTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:38560
+main.ts:38566
 
 ## Properties
 
-### date\_posted
+### date\_posted?
 
-• `Optional` **date\_posted**: `string`
+> **`optional`** **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
 #### Implementation of
 
-[ISerpGoogleMapsTasksReadyResultInfo](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md).[date_posted](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md#date_posted)
+[`ISerpGoogleMapsTasksReadyResultInfo`](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md).[`date_posted`](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md#date_posted)
 
-#### Defined in
+#### Source
 
-main.ts:38545
+main.ts:38551
 
-___
+***
 
-### endpoint\_advanced
+### endpoint\_advanced?
 
-• `Optional` **endpoint\_advanced**: `string`
+> **`optional`** **endpoint\_advanced**: `string`
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpGoogleMapsTasksReadyResultInfo](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md).[endpoint_advanced](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md#endpoint_advanced)
+[`ISerpGoogleMapsTasksReadyResultInfo`](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md).[`endpoint_advanced`](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md#endpoint_advanced)
 
-#### Defined in
+#### Source
 
-main.ts:38553
+main.ts:38559
 
-___
+***
 
-### endpoint\_html
+### endpoint\_html?
 
-• `Optional` **endpoint\_html**: `string`
+> **`optional`** **endpoint\_html**: `string`
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpGoogleMapsTasksReadyResultInfo](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md).[endpoint_html](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md#endpoint_html)
+[`ISerpGoogleMapsTasksReadyResultInfo`](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md).[`endpoint_html`](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md#endpoint_html)
 
-#### Defined in
+#### Source
 
-main.ts:38556
+main.ts:38562
 
-___
+***
 
-### endpoint\_regular
+### endpoint\_regular?
 
-• `Optional` **endpoint\_regular**: `string`
+> **`optional`** **endpoint\_regular**: `string`
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpGoogleMapsTasksReadyResultInfo](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md).[endpoint_regular](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md#endpoint_regular)
+[`ISerpGoogleMapsTasksReadyResultInfo`](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md).[`endpoint_regular`](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md#endpoint_regular)
 
-#### Defined in
+#### Source
 
-main.ts:38550
+main.ts:38556
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[ISerpGoogleMapsTasksReadyResultInfo](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md).[id](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md#id)
+[`ISerpGoogleMapsTasksReadyResultInfo`](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md).[`id`](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:38538
+main.ts:38544
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 
 #### Implementation of
 
-[ISerpGoogleMapsTasksReadyResultInfo](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md).[se](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md#se)
+[`ISerpGoogleMapsTasksReadyResultInfo`](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md).[`se`](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md#se)
 
-#### Defined in
+#### Source
 
-main.ts:38540
+main.ts:38546
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 type of search engine
 can take the following values: maps
 
 #### Implementation of
 
-[ISerpGoogleMapsTasksReadyResultInfo](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md).[se_type](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md#se_type)
+[`ISerpGoogleMapsTasksReadyResultInfo`](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md).[`se_type`](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:38543
+main.ts:38549
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
 #### Implementation of
 
-[ISerpGoogleMapsTasksReadyResultInfo](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md).[tag](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md#tag)
+[`ISerpGoogleMapsTasksReadyResultInfo`](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md).[`tag`](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:38547
+main.ts:38553
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:38569
+main.ts:38575
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:38593
+main.ts:38599
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleMapsTasksReadyResultInfo`](SerpGoogleMapsTasksReadyResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleMapsTasksReadyResultInfo`](SerpGoogleMapsTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpGoogleMapsTasksReadyResultInfo`](SerpGoogleMapsTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:38586
+main.ts:38592

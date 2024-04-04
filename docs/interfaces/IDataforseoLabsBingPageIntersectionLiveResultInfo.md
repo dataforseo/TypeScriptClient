@@ -1,126 +1,113 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingPageIntersectionLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsBingPageIntersectionLiveResultInfo
 
 # Interface: IDataforseoLabsBingPageIntersectionLiveResultInfo
 
-## Implemented by
-
-- [`DataforseoLabsBingPageIntersectionLiveResultInfo`](../classes/DataforseoLabsBingPageIntersectionLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [exclude\_pages](IDataforseoLabsBingPageIntersectionLiveResultInfo.md#exclude_pages)
-- [items](IDataforseoLabsBingPageIntersectionLiveResultInfo.md#items)
-- [items\_count](IDataforseoLabsBingPageIntersectionLiveResultInfo.md#items_count)
-- [language\_code](IDataforseoLabsBingPageIntersectionLiveResultInfo.md#language_code)
-- [location\_code](IDataforseoLabsBingPageIntersectionLiveResultInfo.md#location_code)
-- [pages](IDataforseoLabsBingPageIntersectionLiveResultInfo.md#pages)
-- [se\_type](IDataforseoLabsBingPageIntersectionLiveResultInfo.md#se_type)
-- [total\_count](IDataforseoLabsBingPageIntersectionLiveResultInfo.md#total_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### exclude\_pages
+### exclude\_pages?
 
-• `Optional` **exclude\_pages**: `string`[]
+> **`optional`** **exclude\_pages**: `string`[]
 
 URLs you specified in a POST array that will be excluded from the results
 
-#### Defined in
-
-main.ts:107210
-
-___
-
-### items
-
-• `Optional` **items**: [`DataforseoLabsPageIntersectionLiveItem`](../classes/DataforseoLabsPageIntersectionLiveItem.md)[]
-
-contains keywords, relevant SERP elements and related data
-
-#### Defined in
-
-main.ts:107220
-
-___
-
-### items\_count
-
-• `Optional` **items\_count**: `number`
-
-the number of results returned in the items array
-
-#### Defined in
+#### Source
 
 main.ts:107218
 
-___
+***
 
-### language\_code
+### items?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **items**: [`DataforseoLabsPageIntersectionLiveItem`](../classes/DataforseoLabsPageIntersectionLiveItem.md)[]
+
+contains keywords, relevant SERP elements and related data
+
+#### Source
+
+main.ts:107228
+
+***
+
+### items\_count?
+
+> **`optional`** **items\_count**: `number`
+
+the number of results returned in the items array
+
+#### Source
+
+main.ts:107226
+
+***
+
+### language\_code?
+
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:107214
+main.ts:107222
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:107212
+main.ts:107220
 
-___
+***
 
-### pages
+### pages?
 
-• `Optional` **pages**: `Object`
+> **`optional`** **pages**: `Object`
 
 URLs you specified a POST array
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
-#### Defined in
+#### Source
 
-main.ts:107208
+main.ts:107216
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 search engine type specified in a POST request;
 for this endpoint, the field equals bing
 
-#### Defined in
+#### Source
 
-main.ts:107206
+main.ts:107214
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
-#### Defined in
+#### Source
 
-main.ts:107216
+main.ts:107224

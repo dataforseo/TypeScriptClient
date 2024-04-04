@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / LastModified
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / LastModified
 
 # Class: LastModified
 
@@ -8,51 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](LastModified.md#constructor)
-
-### Properties
-
-- [header](LastModified.md#header)
-- [meta\_tag](LastModified.md#meta_tag)
-- [sitemap](LastModified.md#sitemap)
-
-### Methods
-
-- [init](LastModified.md#init)
-- [toJSON](LastModified.md#tojson)
-- [fromJS](LastModified.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new LastModified(data)
 
-• **new LastModified**(`data?`): [`LastModified`](LastModified.md)
+> **new LastModified**(`data`?): [`LastModified`](LastModified.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ILastModified`](../interfaces/ILastModified.md) |
+• **data?**: [`ILastModified`](../interfaces/ILastModified.md)
 
 #### Returns
 
 [`LastModified`](LastModified.md)
 
-#### Defined in
+#### Source
 
-main.ts:150244
+main.ts:150252
 
 ## Properties
 
-### header
+### header?
 
-• `Optional` **header**: `string`
+> **`optional`** **header**: `string`
 
 date and time when the header was last modified
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -62,17 +46,17 @@ if there is no data, the value will be null
 
 #### Implementation of
 
-[ILastModified](../interfaces/ILastModified.md).[header](../interfaces/ILastModified.md#header)
+[`ILastModified`](../interfaces/ILastModified.md).[`header`](../interfaces/ILastModified.md#header)
 
-#### Defined in
+#### Source
 
-main.ts:150228
+main.ts:150236
 
-___
+***
 
-### meta\_tag
+### meta\_tag?
 
-• `Optional` **meta\_tag**: `string`
+> **`optional`** **meta\_tag**: `string`
 
 date and time when the meta tag was last modified
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -82,17 +66,17 @@ if there is no data, the value will be null
 
 #### Implementation of
 
-[ILastModified](../interfaces/ILastModified.md).[meta_tag](../interfaces/ILastModified.md#meta_tag)
+[`ILastModified`](../interfaces/ILastModified.md).[`meta_tag`](../interfaces/ILastModified.md#meta_tag)
 
-#### Defined in
+#### Source
 
-main.ts:150240
+main.ts:150248
 
-___
+***
 
-### sitemap
+### sitemap?
 
-• `Optional` **sitemap**: `string`
+> **`optional`** **sitemap**: `string`
 
 date and time when the sitemap was last modified
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -102,68 +86,62 @@ if there is no data, the value will be null
 
 #### Implementation of
 
-[ILastModified](../interfaces/ILastModified.md).[sitemap](../interfaces/ILastModified.md#sitemap)
+[`ILastModified`](../interfaces/ILastModified.md).[`sitemap`](../interfaces/ILastModified.md#sitemap)
 
-#### Defined in
+#### Source
 
-main.ts:150234
+main.ts:150242
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:150253
+main.ts:150261
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:150272
+main.ts:150280
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`LastModified`](LastModified.md)
+> **`static`** **fromJS**(`data`): [`LastModified`](LastModified.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`LastModified`](LastModified.md)
 
-#### Defined in
+#### Source
 
-main.ts:150265
+main.ts:150273

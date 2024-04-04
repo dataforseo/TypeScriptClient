@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AmazonProductNewerModelInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AmazonProductNewerModelInfo
 
 # Class: AmazonProductNewerModelInfo
 
@@ -8,133 +12,108 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AmazonProductNewerModelInfo.md#constructor)
-
-### Properties
-
-- [newer\_model\_asin](AmazonProductNewerModelInfo.md#newer_model_asin)
-- [title](AmazonProductNewerModelInfo.md#title)
-
-### Methods
-
-- [init](AmazonProductNewerModelInfo.md#init)
-- [toJSON](AmazonProductNewerModelInfo.md#tojson)
-- [fromJS](AmazonProductNewerModelInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AmazonProductNewerModelInfo(data)
 
-• **new AmazonProductNewerModelInfo**(`data?`): [`AmazonProductNewerModelInfo`](AmazonProductNewerModelInfo.md)
+> **new AmazonProductNewerModelInfo**(`data`?): [`AmazonProductNewerModelInfo`](AmazonProductNewerModelInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAmazonProductNewerModelInfo`](../interfaces/IAmazonProductNewerModelInfo.md) |
+• **data?**: [`IAmazonProductNewerModelInfo`](../interfaces/IAmazonProductNewerModelInfo.md)
 
 #### Returns
 
 [`AmazonProductNewerModelInfo`](AmazonProductNewerModelInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:177781
 
 ## Properties
 
-### newer\_model\_asin
+### newer\_model\_asin?
 
-• `Optional` **newer\_model\_asin**: `string`
+> **`optional`** **newer\_model\_asin**: `string`
 
 ASIN of the newer product model
 
 #### Implementation of
 
-[IAmazonProductNewerModelInfo](../interfaces/IAmazonProductNewerModelInfo.md).[newer_model_asin](../interfaces/IAmazonProductNewerModelInfo.md#newer_model_asin)
+[`IAmazonProductNewerModelInfo`](../interfaces/IAmazonProductNewerModelInfo.md).[`newer_model_asin`](../interfaces/IAmazonProductNewerModelInfo.md#newer_model_asin)
 
-#### Defined in
+#### Source
 
 main.ts:177777
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 product title
 
 #### Implementation of
 
-[IAmazonProductNewerModelInfo](../interfaces/IAmazonProductNewerModelInfo.md).[title](../interfaces/IAmazonProductNewerModelInfo.md#title)
+[`IAmazonProductNewerModelInfo`](../interfaces/IAmazonProductNewerModelInfo.md).[`title`](../interfaces/IAmazonProductNewerModelInfo.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:177775
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:177790
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:177808
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AmazonProductNewerModelInfo`](AmazonProductNewerModelInfo.md)
+> **`static`** **fromJS**(`data`): [`AmazonProductNewerModelInfo`](AmazonProductNewerModelInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AmazonProductNewerModelInfo`](AmazonProductNewerModelInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:177801

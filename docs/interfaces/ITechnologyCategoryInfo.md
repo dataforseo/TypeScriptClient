@@ -1,74 +1,65 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ITechnologyCategoryInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ITechnologyCategoryInfo
 
 # Interface: ITechnologyCategoryInfo
 
-## Implemented by
-
-- [`TechnologyCategoryInfo`](../classes/TechnologyCategoryInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [id](ITechnologyCategoryInfo.md#id)
-- [path](ITechnologyCategoryInfo.md#path)
-- [technologies](ITechnologyCategoryInfo.md#technologies)
-- [title](ITechnologyCategoryInfo.md#title)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 id of the technology category
 example:
 crm, cart_abandonment
 
-#### Defined in
+#### Source
 
-main.ts:74548
+main.ts:74556
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`
+> **`optional`** **path**: `string`
 
 path to the technology category
 example:
 user_generated_content.content_curation
 
-#### Defined in
+#### Source
 
-main.ts:74552
+main.ts:74560
 
-___
+***
 
-### technologies
+### technologies?
 
-• `Optional` **technologies**: `string`[]
+> **`optional`** **technologies**: `string`[]
 
 list of technologies in this category
 example:
 "Salesforce", "CareCart"
 
-#### Defined in
+#### Source
 
-main.ts:74558
+main.ts:74566
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the technology category
 
-#### Defined in
+#### Source
 
-main.ts:74554
+main.ts:74562

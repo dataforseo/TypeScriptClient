@@ -1,38 +1,31 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixAppendixPriceData
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppendixAppendixPriceData
 
 # Interface: IAppendixAppendixPriceData
 
-## Implemented by
-
-- [`AppendixAppendixPriceData`](../classes/AppendixAppendixPriceData.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [errors](IAppendixAppendixPriceData.md#errors)
-- [user\_data](IAppendixAppendixPriceData.md#user_data)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### errors
+### errors?
 
-• `Optional` **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:216325
 
-___
+***
 
-### user\_data
+### user\_data?
 
-• `Optional` **user\_data**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **user\_data**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:216326

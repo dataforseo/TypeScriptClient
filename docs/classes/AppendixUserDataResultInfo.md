@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixUserDataResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppendixUserDataResultInfo
 
 # Class: AppendixUserDataResultInfo
 
@@ -8,185 +12,157 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixUserDataResultInfo.md#constructor)
-
-### Properties
-
-- [login](AppendixUserDataResultInfo.md#login)
-- [money](AppendixUserDataResultInfo.md#money)
-- [price](AppendixUserDataResultInfo.md#price)
-- [rates](AppendixUserDataResultInfo.md#rates)
-- [timezone](AppendixUserDataResultInfo.md#timezone)
-
-### Methods
-
-- [init](AppendixUserDataResultInfo.md#init)
-- [toJSON](AppendixUserDataResultInfo.md#tojson)
-- [fromJS](AppendixUserDataResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixUserDataResultInfo(data)
 
-• **new AppendixUserDataResultInfo**(`data?`): [`AppendixUserDataResultInfo`](AppendixUserDataResultInfo.md)
+> **new AppendixUserDataResultInfo**(`data`?): [`AppendixUserDataResultInfo`](AppendixUserDataResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixUserDataResultInfo`](../interfaces/IAppendixUserDataResultInfo.md) |
+• **data?**: [`IAppendixUserDataResultInfo`](../interfaces/IAppendixUserDataResultInfo.md)
 
 #### Returns
 
 [`AppendixUserDataResultInfo`](AppendixUserDataResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:217830
 
 ## Properties
 
-### login
+### login?
 
-• `Optional` **login**: `string`
+> **`optional`** **login**: `string`
 
 your login
 
 #### Implementation of
 
-[IAppendixUserDataResultInfo](../interfaces/IAppendixUserDataResultInfo.md).[login](../interfaces/IAppendixUserDataResultInfo.md#login)
+[`IAppendixUserDataResultInfo`](../interfaces/IAppendixUserDataResultInfo.md).[`login`](../interfaces/IAppendixUserDataResultInfo.md#login)
 
-#### Defined in
+#### Source
 
 main.ts:217817
 
-___
+***
 
-### money
+### money?
 
-• `Optional` **money**: [`AppendixMoneyData`](AppendixMoneyData.md)
+> **`optional`** **money**: [`AppendixMoneyData`](AppendixMoneyData.md)
 
 section of your spending, USD
 
 #### Implementation of
 
-[IAppendixUserDataResultInfo](../interfaces/IAppendixUserDataResultInfo.md).[money](../interfaces/IAppendixUserDataResultInfo.md#money)
+[`IAppendixUserDataResultInfo`](../interfaces/IAppendixUserDataResultInfo.md).[`money`](../interfaces/IAppendixUserDataResultInfo.md#money)
 
-#### Defined in
+#### Source
 
 main.ts:217824
 
-___
+***
 
-### price
+### price?
 
-• `Optional` **price**: [`AppendixPriceData`](AppendixPriceData.md)
+> **`optional`** **price**: [`AppendixPriceData`](AppendixPriceData.md)
 
 pricing
 
 #### Implementation of
 
-[IAppendixUserDataResultInfo](../interfaces/IAppendixUserDataResultInfo.md).[price](../interfaces/IAppendixUserDataResultInfo.md#price)
+[`IAppendixUserDataResultInfo`](../interfaces/IAppendixUserDataResultInfo.md).[`price`](../interfaces/IAppendixUserDataResultInfo.md#price)
 
-#### Defined in
+#### Source
 
 main.ts:217826
 
-___
+***
 
-### rates
+### rates?
 
-• `Optional` **rates**: [`AppendixRatesData`](AppendixRatesData.md)
+> **`optional`** **rates**: [`AppendixRatesData`](AppendixRatesData.md)
 
 your API rates
 
 #### Implementation of
 
-[IAppendixUserDataResultInfo](../interfaces/IAppendixUserDataResultInfo.md).[rates](../interfaces/IAppendixUserDataResultInfo.md#rates)
+[`IAppendixUserDataResultInfo`](../interfaces/IAppendixUserDataResultInfo.md).[`rates`](../interfaces/IAppendixUserDataResultInfo.md#rates)
 
-#### Defined in
+#### Source
 
 main.ts:217822
 
-___
+***
 
-### timezone
+### timezone?
 
-• `Optional` **timezone**: `string`
+> **`optional`** **timezone**: `string`
 
 your time zone
 can be set in your profile settings
 
 #### Implementation of
 
-[IAppendixUserDataResultInfo](../interfaces/IAppendixUserDataResultInfo.md).[timezone](../interfaces/IAppendixUserDataResultInfo.md#timezone)
+[`IAppendixUserDataResultInfo`](../interfaces/IAppendixUserDataResultInfo.md).[`timezone`](../interfaces/IAppendixUserDataResultInfo.md#timezone)
 
-#### Defined in
+#### Source
 
 main.ts:217820
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:217839
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:217860
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppendixUserDataResultInfo`](AppendixUserDataResultInfo.md)
+> **`static`** **fromJS**(`data`): [`AppendixUserDataResultInfo`](AppendixUserDataResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppendixUserDataResultInfo`](AppendixUserDataResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:217853

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SentimentConnotationDistribution
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SentimentConnotationDistribution
 
 # Class: SentimentConnotationDistribution
 
@@ -8,189 +12,160 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SentimentConnotationDistribution.md#constructor)
-
-### Properties
-
-- [anger](SentimentConnotationDistribution.md#anger)
-- [fun](SentimentConnotationDistribution.md#fun)
-- [happiness](SentimentConnotationDistribution.md#happiness)
-- [love](SentimentConnotationDistribution.md#love)
-- [sadness](SentimentConnotationDistribution.md#sadness)
-- [share](SentimentConnotationDistribution.md#share)
-
-### Methods
-
-- [init](SentimentConnotationDistribution.md#init)
-- [toJSON](SentimentConnotationDistribution.md#tojson)
-- [fromJS](SentimentConnotationDistribution.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SentimentConnotationDistribution(data)
 
-• **new SentimentConnotationDistribution**(`data?`): [`SentimentConnotationDistribution`](SentimentConnotationDistribution.md)
+> **new SentimentConnotationDistribution**(`data`?): [`SentimentConnotationDistribution`](SentimentConnotationDistribution.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISentimentConnotationDistribution`](../interfaces/ISentimentConnotationDistribution.md) |
+• **data?**: [`ISentimentConnotationDistribution`](../interfaces/ISentimentConnotationDistribution.md)
 
 #### Returns
 
 [`SentimentConnotationDistribution`](SentimentConnotationDistribution.md)
 
-#### Defined in
+#### Source
 
-main.ts:163340
+main.ts:163348
 
 ## Properties
 
-### anger
+### anger?
 
-• `Optional` **anger**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
-
-#### Implementation of
-
-[ISentimentConnotationDistribution](../interfaces/ISentimentConnotationDistribution.md).[anger](../interfaces/ISentimentConnotationDistribution.md#anger)
-
-#### Defined in
-
-main.ts:163331
-
-___
-
-### fun
-
-• `Optional` **fun**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
+> **`optional`** **anger**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
 #### Implementation of
 
-[ISentimentConnotationDistribution](../interfaces/ISentimentConnotationDistribution.md).[fun](../interfaces/ISentimentConnotationDistribution.md#fun)
+[`ISentimentConnotationDistribution`](../interfaces/ISentimentConnotationDistribution.md).[`anger`](../interfaces/ISentimentConnotationDistribution.md#anger)
 
-#### Defined in
+#### Source
 
-main.ts:163336
+main.ts:163339
 
-___
+***
 
-### happiness
+### fun?
 
-• `Optional` **happiness**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
-
-#### Implementation of
-
-[ISentimentConnotationDistribution](../interfaces/ISentimentConnotationDistribution.md).[happiness](../interfaces/ISentimentConnotationDistribution.md#happiness)
-
-#### Defined in
-
-main.ts:163332
-
-___
-
-### love
-
-• `Optional` **love**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
+> **`optional`** **fun**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
 #### Implementation of
 
-[ISentimentConnotationDistribution](../interfaces/ISentimentConnotationDistribution.md).[love](../interfaces/ISentimentConnotationDistribution.md#love)
+[`ISentimentConnotationDistribution`](../interfaces/ISentimentConnotationDistribution.md).[`fun`](../interfaces/ISentimentConnotationDistribution.md#fun)
 
-#### Defined in
+#### Source
 
-main.ts:163333
+main.ts:163344
 
-___
+***
 
-### sadness
+### happiness?
 
-• `Optional` **sadness**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
-
-#### Implementation of
-
-[ISentimentConnotationDistribution](../interfaces/ISentimentConnotationDistribution.md).[sadness](../interfaces/ISentimentConnotationDistribution.md#sadness)
-
-#### Defined in
-
-main.ts:163334
-
-___
-
-### share
-
-• `Optional` **share**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
+> **`optional`** **happiness**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
 #### Implementation of
 
-[ISentimentConnotationDistribution](../interfaces/ISentimentConnotationDistribution.md).[share](../interfaces/ISentimentConnotationDistribution.md#share)
+[`ISentimentConnotationDistribution`](../interfaces/ISentimentConnotationDistribution.md).[`happiness`](../interfaces/ISentimentConnotationDistribution.md#happiness)
 
-#### Defined in
+#### Source
 
-main.ts:163335
+main.ts:163340
+
+***
+
+### love?
+
+> **`optional`** **love**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
+
+#### Implementation of
+
+[`ISentimentConnotationDistribution`](../interfaces/ISentimentConnotationDistribution.md).[`love`](../interfaces/ISentimentConnotationDistribution.md#love)
+
+#### Source
+
+main.ts:163341
+
+***
+
+### sadness?
+
+> **`optional`** **sadness**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
+
+#### Implementation of
+
+[`ISentimentConnotationDistribution`](../interfaces/ISentimentConnotationDistribution.md).[`sadness`](../interfaces/ISentimentConnotationDistribution.md#sadness)
+
+#### Source
+
+main.ts:163342
+
+***
+
+### share?
+
+> **`optional`** **share**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
+
+#### Implementation of
+
+[`ISentimentConnotationDistribution`](../interfaces/ISentimentConnotationDistribution.md).[`share`](../interfaces/ISentimentConnotationDistribution.md#share)
+
+#### Source
+
+main.ts:163343
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:163349
+main.ts:163357
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:163371
+main.ts:163379
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SentimentConnotationDistribution`](SentimentConnotationDistribution.md)
+> **`static`** **fromJS**(`data`): [`SentimentConnotationDistribution`](SentimentConnotationDistribution.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SentimentConnotationDistribution`](SentimentConnotationDistribution.md)
 
-#### Defined in
+#### Source
 
-main.ts:163364
+main.ts:163372

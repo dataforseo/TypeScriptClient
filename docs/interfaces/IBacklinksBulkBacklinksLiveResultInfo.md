@@ -1,42 +1,35 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksBulkBacklinksLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBacklinksBulkBacklinksLiveResultInfo
 
 # Interface: IBacklinksBulkBacklinksLiveResultInfo
 
-## Implemented by
-
-- [`BacklinksBulkBacklinksLiveResultInfo`](../classes/BacklinksBulkBacklinksLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IBacklinksBulkBacklinksLiveResultInfo.md#items)
-- [items\_count](IBacklinksBulkBacklinksLiveResultInfo.md#items_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`BacklinksBulkBacklinksLiveItem`](../classes/BacklinksBulkBacklinksLiveItem.md)[]
+> **`optional`** **items**: [`BacklinksBulkBacklinksLiveItem`](../classes/BacklinksBulkBacklinksLiveItem.md)[]
 
 contains relevant backlink data
 
-#### Defined in
+#### Source
 
-main.ts:145285
+main.ts:145293
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Defined in
+#### Source
 
-main.ts:145283
+main.ts:145291

@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo
 
 # Class: DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md#cost)
-- [data](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md#data)
-- [id](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md#id)
-- [path](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md#path)
-- [result](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md#result)
-- [result\_count](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md#result_count)
-- [status\_code](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md#status_code)
-- [status\_message](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md#status_message)
-- [time](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md#time)
-
-### Methods
-
-- [init](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md#init)
-- [toJSON](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md#tojson)
-- [fromJS](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo(data)
 
-• **new DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo**(`data?`): [`DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo`](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md)
+> **new DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo**(`data`?): [`DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo`](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md) |
+• **data?**: [`IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:77331
+main.ts:77339
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md).[cost](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md#cost)
+[`IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md).[`cost`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md).[data](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md#data)
+[`IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md).[`data`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md).[id](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md#id)
+[`IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md).[`id`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md).[path](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md#path)
+[`IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md).[`path`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo`](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo.md)[]
+> **`optional`** **result**: [`DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo`](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md).[result](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md#result)
+[`IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md).[`result`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:77327
+main.ts:77335
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md).[result_count](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md#result_count)
+[`IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md).[`result_count`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md).[status_code](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md#status_code)
+[`IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md).[`status_code`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md).[status_message](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md#status_message)
+[`IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md).[`status_message`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md).[time](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md#time)
+[`IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md).[`time`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:77335
+main.ts:77343
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:77357
+main.ts:77365
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo`](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo`](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:77350
+main.ts:77358

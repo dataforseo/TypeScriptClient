@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleDomainRankOverviewLiveResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsGoogleDomainRankOverviewLiveResponseInfo
 
 # Class: DataforseoLabsGoogleDomainRankOverviewLiveResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`DataforseoLabsGoogleDomainRankOverviewLiveResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](DataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md#cost)
-- [status\_code](DataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md#status_code)
-- [status\_message](DataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md#status_message)
-- [tasks](DataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md#tasks)
-- [tasks\_count](DataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md#tasks_count)
-- [tasks\_error](DataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md#tasks_error)
-- [time](DataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md#time)
-- [version](DataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md#version)
-
-### Methods
-
-- [init](DataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md#init)
-- [toJSON](DataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md#tojson)
-- [fromJS](DataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsGoogleDomainRankOverviewLiveResponseInfo(data)
 
-• **new DataforseoLabsGoogleDomainRankOverviewLiveResponseInfo**(`data?`): [`DataforseoLabsGoogleDomainRankOverviewLiveResponseInfo`](DataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md)
+> **new DataforseoLabsGoogleDomainRankOverviewLiveResponseInfo**(`data`?): [`DataforseoLabsGoogleDomainRankOverviewLiveResponseInfo`](DataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md) |
+• **data?**: [`IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:93280
+main.ts:93288
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md).[cost](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md#cost)
+[`IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md).[`cost`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md).[status_code](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md#status_code)
+[`IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md).[`status_code`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md).[status_message](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md#status_message)
+[`IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md).[`status_message`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`DataforseoLabsGoogleDomainRankOverviewLiveTaskInfo`](DataforseoLabsGoogleDomainRankOverviewLiveTaskInfo.md)[]
+> **`optional`** **tasks**: [`DataforseoLabsGoogleDomainRankOverviewLiveTaskInfo`](DataforseoLabsGoogleDomainRankOverviewLiveTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md).[tasks](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md#tasks)
+[`IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md).[`tasks`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:93276
+main.ts:93284
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md).[tasks_count](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md#tasks_count)
+[`IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md).[`tasks_count`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md).[tasks_error](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md#tasks_error)
+[`IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md).[`tasks_error`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md).[time](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md#time)
+[`IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md).[`time`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md).[version](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md#version)
+[`IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md).[`version`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:93284
+main.ts:93292
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:93306
+main.ts:93314
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsGoogleDomainRankOverviewLiveResponseInfo`](DataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleDomainRankOverviewLiveResponseInfo`](DataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:93299
+main.ts:93307

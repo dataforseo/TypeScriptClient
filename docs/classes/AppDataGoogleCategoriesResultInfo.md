@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataGoogleCategoriesResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppDataGoogleCategoriesResultInfo
 
 # Class: AppDataGoogleCategoriesResultInfo
 
@@ -8,116 +12,92 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppDataGoogleCategoriesResultInfo.md#constructor)
-
-### Properties
-
-- [categories](AppDataGoogleCategoriesResultInfo.md#categories)
-
-### Methods
-
-- [init](AppDataGoogleCategoriesResultInfo.md#init)
-- [toJSON](AppDataGoogleCategoriesResultInfo.md#tojson)
-- [fromJS](AppDataGoogleCategoriesResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppDataGoogleCategoriesResultInfo(data)
 
-• **new AppDataGoogleCategoriesResultInfo**(`data?`): [`AppDataGoogleCategoriesResultInfo`](AppDataGoogleCategoriesResultInfo.md)
+> **new AppDataGoogleCategoriesResultInfo**(`data`?): [`AppDataGoogleCategoriesResultInfo`](AppDataGoogleCategoriesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppDataGoogleCategoriesResultInfo`](../interfaces/IAppDataGoogleCategoriesResultInfo.md) |
+• **data?**: [`IAppDataGoogleCategoriesResultInfo`](../interfaces/IAppDataGoogleCategoriesResultInfo.md)
 
 #### Returns
 
 [`AppDataGoogleCategoriesResultInfo`](AppDataGoogleCategoriesResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:182425
 
 ## Properties
 
-### categories
+### categories?
 
-• `Optional` **categories**: `string`[]
+> **`optional`** **categories**: `string`[]
 
 contains full list of supported app categories
 
 #### Implementation of
 
-[IAppDataGoogleCategoriesResultInfo](../interfaces/IAppDataGoogleCategoriesResultInfo.md).[categories](../interfaces/IAppDataGoogleCategoriesResultInfo.md#categories)
+[`IAppDataGoogleCategoriesResultInfo`](../interfaces/IAppDataGoogleCategoriesResultInfo.md).[`categories`](../interfaces/IAppDataGoogleCategoriesResultInfo.md#categories)
 
-#### Defined in
+#### Source
 
 main.ts:182421
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:182434
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:182455
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppDataGoogleCategoriesResultInfo`](AppDataGoogleCategoriesResultInfo.md)
+> **`static`** **fromJS**(`data`): [`AppDataGoogleCategoriesResultInfo`](AppDataGoogleCategoriesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppDataGoogleCategoriesResultInfo`](AppDataGoogleCategoriesResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:182448

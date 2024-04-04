@@ -1,236 +1,211 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixOnPageLimitsRatesDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppendixOnPageLimitsRatesDataInfo
 
 # Interface: IAppendixOnPageLimitsRatesDataInfo
 
-## Implemented by
-
-- [`AppendixOnPageLimitsRatesDataInfo`](../classes/AppendixOnPageLimitsRatesDataInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [content\_parsing](IAppendixOnPageLimitsRatesDataInfo.md#content_parsing)
-- [content\_parsing\_live](IAppendixOnPageLimitsRatesDataInfo.md#content_parsing_live)
-- [duplicate\_content](IAppendixOnPageLimitsRatesDataInfo.md#duplicate_content)
-- [duplicate\_tags](IAppendixOnPageLimitsRatesDataInfo.md#duplicate_tags)
-- [errors](IAppendixOnPageLimitsRatesDataInfo.md#errors)
-- [instant\_pages](IAppendixOnPageLimitsRatesDataInfo.md#instant_pages)
-- [keyword\_density](IAppendixOnPageLimitsRatesDataInfo.md#keyword_density)
-- [lighthouse](IAppendixOnPageLimitsRatesDataInfo.md#lighthouse)
-- [links](IAppendixOnPageLimitsRatesDataInfo.md#links)
-- [non\_indexable](IAppendixOnPageLimitsRatesDataInfo.md#non_indexable)
-- [page\_screenshot](IAppendixOnPageLimitsRatesDataInfo.md#page_screenshot)
-- [pages](IAppendixOnPageLimitsRatesDataInfo.md#pages)
-- [pages\_by\_resource](IAppendixOnPageLimitsRatesDataInfo.md#pages_by_resource)
-- [raw\_html](IAppendixOnPageLimitsRatesDataInfo.md#raw_html)
-- [redirect\_chains](IAppendixOnPageLimitsRatesDataInfo.md#redirect_chains)
-- [resources](IAppendixOnPageLimitsRatesDataInfo.md#resources)
-- [summary](IAppendixOnPageLimitsRatesDataInfo.md#summary)
-- [task\_post](IAppendixOnPageLimitsRatesDataInfo.md#task_post)
-- [tasks\_ready](IAppendixOnPageLimitsRatesDataInfo.md#tasks_ready)
-- [waterfall](IAppendixOnPageLimitsRatesDataInfo.md#waterfall)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### content\_parsing
+### content\_parsing?
 
-• `Optional` **content\_parsing**: `number`
+> **`optional`** **content\_parsing**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:213319
 
-___
+***
 
-### content\_parsing\_live
+### content\_parsing\_live?
 
-• `Optional` **content\_parsing\_live**: `number`
+> **`optional`** **content\_parsing\_live**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:213320
 
-___
+***
 
-### duplicate\_content
+### duplicate\_content?
 
-• `Optional` **duplicate\_content**: `number`
+> **`optional`** **duplicate\_content**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:213312
 
-___
+***
 
-### duplicate\_tags
+### duplicate\_tags?
 
-• `Optional` **duplicate\_tags**: `number`
+> **`optional`** **duplicate\_tags**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:213307
 
-___
+***
 
-### errors
+### errors?
 
-• `Optional` **errors**: `number`
+> **`optional`** **errors**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:213310
 
-___
+***
 
-### instant\_pages
+### instant\_pages?
 
-• `Optional` **instant\_pages**: `number`
+> **`optional`** **instant\_pages**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:213314
 
-___
+***
 
-### keyword\_density
+### keyword\_density?
 
-• `Optional` **keyword\_density**: `number`
+> **`optional`** **keyword\_density**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:213317
 
-___
+***
 
-### lighthouse
+### lighthouse?
 
-• `Optional` **lighthouse**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **lighthouse**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:213316
 
-___
+***
 
-### links
+### links?
 
-• `Optional` **links**: `number`
+> **`optional`** **links**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:213308
 
-___
+***
 
-### non\_indexable
+### non\_indexable?
 
-• `Optional` **non\_indexable**: `number`
+> **`optional`** **non\_indexable**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:213306
 
-___
+***
 
-### page\_screenshot
+### page\_screenshot?
 
-• `Optional` **page\_screenshot**: `number`
+> **`optional`** **page\_screenshot**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:213318
 
-___
+***
 
-### pages
+### pages?
 
-• `Optional` **pages**: `number`
+> **`optional`** **pages**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:213305
 
-___
+***
 
-### pages\_by\_resource
+### pages\_by\_resource?
 
-• `Optional` **pages\_by\_resource**: `number`
+> **`optional`** **pages\_by\_resource**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:213311
 
-___
+***
 
-### raw\_html
+### raw\_html?
 
-• `Optional` **raw\_html**: `number`
+> **`optional`** **raw\_html**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:213313
 
-___
+***
 
-### redirect\_chains
+### redirect\_chains?
 
-• `Optional` **redirect\_chains**: `number`
+> **`optional`** **redirect\_chains**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:213315
 
-___
+***
 
-### resources
+### resources?
 
-• `Optional` **resources**: `number`
+> **`optional`** **resources**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:213304
 
-___
+***
 
-### summary
+### summary?
 
-• `Optional` **summary**: `number`
+> **`optional`** **summary**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:213303
 
-___
+***
 
-### task\_post
+### task\_post?
 
-• `Optional` **task\_post**: `number`
+> **`optional`** **task\_post**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:213301
 
-___
+***
 
-### tasks\_ready
+### tasks\_ready?
 
-• `Optional` **tasks\_ready**: `number`
+> **`optional`** **tasks\_ready**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:213302
 
-___
+***
 
-### waterfall
+### waterfall?
 
-• `Optional` **waterfall**: `number`
+> **`optional`** **waterfall**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:213309

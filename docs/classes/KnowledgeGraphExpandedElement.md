@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KnowledgeGraphExpandedElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KnowledgeGraphExpandedElement
 
 # Class: KnowledgeGraphExpandedElement
 
@@ -8,137 +12,111 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KnowledgeGraphExpandedElement.md#constructor)
-
-### Properties
-
-- [domain](KnowledgeGraphExpandedElement.md#domain)
-- [featured\_title](KnowledgeGraphExpandedElement.md#featured_title)
-- [images](KnowledgeGraphExpandedElement.md#images)
-- [snippet](KnowledgeGraphExpandedElement.md#snippet)
-- [table](KnowledgeGraphExpandedElement.md#table)
-- [timestamp](KnowledgeGraphExpandedElement.md#timestamp)
-- [title](KnowledgeGraphExpandedElement.md#title)
-- [type](KnowledgeGraphExpandedElement.md#type)
-- [url](KnowledgeGraphExpandedElement.md#url)
-
-### Methods
-
-- [init](KnowledgeGraphExpandedElement.md#init)
-- [toJSON](KnowledgeGraphExpandedElement.md#tojson)
-- [fromJS](KnowledgeGraphExpandedElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KnowledgeGraphExpandedElement(data)
 
-• **new KnowledgeGraphExpandedElement**(`data?`): [`KnowledgeGraphExpandedElement`](KnowledgeGraphExpandedElement.md)
+> **new KnowledgeGraphExpandedElement**(`data`?): [`KnowledgeGraphExpandedElement`](KnowledgeGraphExpandedElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKnowledgeGraphExpandedElement`](../interfaces/IKnowledgeGraphExpandedElement.md) |
+• **data?**: [`IKnowledgeGraphExpandedElement`](../interfaces/IKnowledgeGraphExpandedElement.md)
 
 #### Returns
 
 [`KnowledgeGraphExpandedElement`](KnowledgeGraphExpandedElement.md)
 
-#### Defined in
+#### Source
 
 main.ts:27480
 
 ## Properties
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain in SERP
 
 #### Implementation of
 
-[IKnowledgeGraphExpandedElement](../interfaces/IKnowledgeGraphExpandedElement.md).[domain](../interfaces/IKnowledgeGraphExpandedElement.md#domain)
+[`IKnowledgeGraphExpandedElement`](../interfaces/IKnowledgeGraphExpandedElement.md).[`domain`](../interfaces/IKnowledgeGraphExpandedElement.md#domain)
 
-#### Defined in
+#### Source
 
 main.ts:27463
 
-___
+***
 
-### featured\_title
+### featured\_title?
 
-• `Optional` **featured\_title**: `string`
+> **`optional`** **featured\_title**: `string`
 
 title of a given element
 
 #### Implementation of
 
-[IKnowledgeGraphExpandedElement](../interfaces/IKnowledgeGraphExpandedElement.md).[featured_title](../interfaces/IKnowledgeGraphExpandedElement.md#featured_title)
+[`IKnowledgeGraphExpandedElement`](../interfaces/IKnowledgeGraphExpandedElement.md).[`featured_title`](../interfaces/IKnowledgeGraphExpandedElement.md#featured_title)
 
-#### Defined in
+#### Source
 
 main.ts:27459
 
-___
+***
 
-### images
+### images?
 
-• `Optional` **images**: [`ImagesElement`](ImagesElement.md)[]
+> **`optional`** **images**: [`ImagesElement`](ImagesElement.md)[]
 
 images of the element
 
 #### Implementation of
 
-[IKnowledgeGraphExpandedElement](../interfaces/IKnowledgeGraphExpandedElement.md).[images](../interfaces/IKnowledgeGraphExpandedElement.md#images)
+[`IKnowledgeGraphExpandedElement`](../interfaces/IKnowledgeGraphExpandedElement.md).[`images`](../interfaces/IKnowledgeGraphExpandedElement.md#images)
 
-#### Defined in
+#### Source
 
 main.ts:27469
 
-___
+***
 
-### snippet
+### snippet?
 
-• `Optional` **snippet**: `string`
+> **`optional`** **snippet**: `string`
 
 text alongside the link title
 
 #### Implementation of
 
-[IKnowledgeGraphExpandedElement](../interfaces/IKnowledgeGraphExpandedElement.md).[snippet](../interfaces/IKnowledgeGraphExpandedElement.md#snippet)
+[`IKnowledgeGraphExpandedElement`](../interfaces/IKnowledgeGraphExpandedElement.md).[`snippet`](../interfaces/IKnowledgeGraphExpandedElement.md#snippet)
 
-#### Defined in
+#### Source
 
 main.ts:27467
 
-___
+***
 
-### table
+### table?
 
-• `Optional` **table**: [`Table`](Table.md)
+> **`optional`** **table**: [`Table`](Table.md)
 
 table element
 
 #### Implementation of
 
-[IKnowledgeGraphExpandedElement](../interfaces/IKnowledgeGraphExpandedElement.md).[table](../interfaces/IKnowledgeGraphExpandedElement.md#table)
+[`IKnowledgeGraphExpandedElement`](../interfaces/IKnowledgeGraphExpandedElement.md).[`table`](../interfaces/IKnowledgeGraphExpandedElement.md#table)
 
-#### Defined in
+#### Source
 
 main.ts:27476
 
-___
+***
 
-### timestamp
+### timestamp?
 
-• `Optional` **timestamp**: `string`
+> **`optional`** **timestamp**: `string`
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -147,116 +125,110 @@ example:
 
 #### Implementation of
 
-[IKnowledgeGraphExpandedElement](../interfaces/IKnowledgeGraphExpandedElement.md).[timestamp](../interfaces/IKnowledgeGraphExpandedElement.md#timestamp)
+[`IKnowledgeGraphExpandedElement`](../interfaces/IKnowledgeGraphExpandedElement.md).[`timestamp`](../interfaces/IKnowledgeGraphExpandedElement.md#timestamp)
 
-#### Defined in
+#### Source
 
 main.ts:27474
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the result in SERP
 
 #### Implementation of
 
-[IKnowledgeGraphExpandedElement](../interfaces/IKnowledgeGraphExpandedElement.md).[title](../interfaces/IKnowledgeGraphExpandedElement.md#title)
+[`IKnowledgeGraphExpandedElement`](../interfaces/IKnowledgeGraphExpandedElement.md).[`title`](../interfaces/IKnowledgeGraphExpandedElement.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:27465
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IKnowledgeGraphExpandedElement](../interfaces/IKnowledgeGraphExpandedElement.md).[type](../interfaces/IKnowledgeGraphExpandedElement.md#type)
+[`IKnowledgeGraphExpandedElement`](../interfaces/IKnowledgeGraphExpandedElement.md).[`type`](../interfaces/IKnowledgeGraphExpandedElement.md#type)
 
-#### Defined in
+#### Source
 
 main.ts:27457
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 relevant URL
 
 #### Implementation of
 
-[IKnowledgeGraphExpandedElement](../interfaces/IKnowledgeGraphExpandedElement.md).[url](../interfaces/IKnowledgeGraphExpandedElement.md#url)
+[`IKnowledgeGraphExpandedElement`](../interfaces/IKnowledgeGraphExpandedElement.md).[`url`](../interfaces/IKnowledgeGraphExpandedElement.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:27461
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:27489
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:27518
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KnowledgeGraphExpandedElement`](KnowledgeGraphExpandedElement.md)
+> **`static`** **fromJS**(`data`): [`KnowledgeGraphExpandedElement`](KnowledgeGraphExpandedElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`KnowledgeGraphExpandedElement`](KnowledgeGraphExpandedElement.md)
 
-#### Defined in
+#### Source
 
 main.ts:27511

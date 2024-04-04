@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KnowledgeGraphHotelsBookingItemSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KnowledgeGraphHotelsBookingItemSerpElementItem
 
 # Class: KnowledgeGraphHotelsBookingItemSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-  ↳ **`KnowledgeGraphHotelsBookingItemSerpElementItem`**
 
 ## Implements
 
@@ -14,45 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KnowledgeGraphHotelsBookingItemSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](KnowledgeGraphHotelsBookingItemSerpElementItem.md#_discriminator)
-- [data\_attrid](KnowledgeGraphHotelsBookingItemSerpElementItem.md#data_attrid)
-- [date\_from](KnowledgeGraphHotelsBookingItemSerpElementItem.md#date_from)
-- [date\_to](KnowledgeGraphHotelsBookingItemSerpElementItem.md#date_to)
-- [items](KnowledgeGraphHotelsBookingItemSerpElementItem.md#items)
-- [position](KnowledgeGraphHotelsBookingItemSerpElementItem.md#position)
-- [rank\_absolute](KnowledgeGraphHotelsBookingItemSerpElementItem.md#rank_absolute)
-- [rank\_group](KnowledgeGraphHotelsBookingItemSerpElementItem.md#rank_group)
-- [rectangle](KnowledgeGraphHotelsBookingItemSerpElementItem.md#rectangle)
-- [title](KnowledgeGraphHotelsBookingItemSerpElementItem.md#title)
-- [xpath](KnowledgeGraphHotelsBookingItemSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](KnowledgeGraphHotelsBookingItemSerpElementItem.md#init)
-- [toJSON](KnowledgeGraphHotelsBookingItemSerpElementItem.md#tojson)
-- [fromJS](KnowledgeGraphHotelsBookingItemSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KnowledgeGraphHotelsBookingItemSerpElementItem(data)
 
-• **new KnowledgeGraphHotelsBookingItemSerpElementItem**(`data?`): [`KnowledgeGraphHotelsBookingItemSerpElementItem`](KnowledgeGraphHotelsBookingItemSerpElementItem.md)
+> **new KnowledgeGraphHotelsBookingItemSerpElementItem**(`data`?): [`KnowledgeGraphHotelsBookingItemSerpElementItem`](KnowledgeGraphHotelsBookingItemSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKnowledgeGraphHotelsBookingItemSerpElementItem`](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md) |
+• **data?**: [`IKnowledgeGraphHotelsBookingItemSerpElementItem`](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md)
 
 #### Returns
 
@@ -60,9 +34,9 @@
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[constructor](BaseSerpElementItem.md#constructor)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:28163
 
@@ -70,21 +44,21 @@ main.ts:28163
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[_discriminator](BaseSerpElementItem.md#_discriminator)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:19788
 
-___
+***
 
-### data\_attrid
+### data\_attrid?
 
-• `Optional` **data\_attrid**: `string`
+> **`optional`** **data\_attrid**: `string`
 
 google defined data attribute ID
 example:
@@ -92,17 +66,17 @@ kc:/local:hotel booking
 
 #### Implementation of
 
-[IKnowledgeGraphHotelsBookingItemSerpElementItem](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md).[data_attrid](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md#data_attrid)
+[`IKnowledgeGraphHotelsBookingItemSerpElementItem`](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md).[`data_attrid`](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md#data_attrid)
 
-#### Defined in
+#### Source
 
 main.ts:28152
 
-___
+***
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of stay
 in the format “year-month-date”
@@ -111,17 +85,17 @@ example:
 
 #### Implementation of
 
-[IKnowledgeGraphHotelsBookingItemSerpElementItem](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md).[date_from](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md#date_from)
+[`IKnowledgeGraphHotelsBookingItemSerpElementItem`](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md).[`date_from`](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md#date_from)
 
-#### Defined in
+#### Source
 
 main.ts:28143
 
-___
+***
 
-### date\_to
+### date\_to?
 
-• `Optional` **date\_to**: `string`
+> **`optional`** **date\_to**: `string`
 
 ending date of stay
 in the format “year-month-date”
@@ -130,34 +104,34 @@ example:
 
 #### Implementation of
 
-[IKnowledgeGraphHotelsBookingItemSerpElementItem](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md).[date_to](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md#date_to)
+[`IKnowledgeGraphHotelsBookingItemSerpElementItem`](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md).[`date_to`](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md#date_to)
 
-#### Defined in
+#### Source
 
 main.ts:28148
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`KnowledgeGraphHotelsBookingElement`](KnowledgeGraphHotelsBookingElement.md)[]
+> **`optional`** **items**: [`KnowledgeGraphHotelsBookingElement`](KnowledgeGraphHotelsBookingElement.md)[]
 
 additional items present in the element
 if there are none, equals null
 
 #### Implementation of
 
-[IKnowledgeGraphHotelsBookingItemSerpElementItem](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md).[items](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md#items)
+[`IKnowledgeGraphHotelsBookingItemSerpElementItem`](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md).[`items`](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md#items)
 
-#### Defined in
+#### Source
 
 main.ts:28155
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -165,34 +139,34 @@ left, right
 
 #### Implementation of
 
-[IKnowledgeGraphHotelsBookingItemSerpElementItem](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md).[position](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md#position)
+[`IKnowledgeGraphHotelsBookingItemSerpElementItem`](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md).[`position`](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
 main.ts:28134
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
 #### Implementation of
 
-[IKnowledgeGraphHotelsBookingItemSerpElementItem](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md).[rank_absolute](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md#rank_absolute)
+[`IKnowledgeGraphHotelsBookingItemSerpElementItem`](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md).[`rank_absolute`](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
 main.ts:28130
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -200,17 +174,17 @@ positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
-[IKnowledgeGraphHotelsBookingItemSerpElementItem](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md).[rank_group](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md#rank_group)
+[`IKnowledgeGraphHotelsBookingItemSerpElementItem`](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md).[`rank_group`](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
 main.ts:28127
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -218,55 +192,53 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Implementation of
 
-[IKnowledgeGraphHotelsBookingItemSerpElementItem](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md).[rectangle](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md#rectangle)
+[`IKnowledgeGraphHotelsBookingItemSerpElementItem`](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md).[`rectangle`](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md#rectangle)
 
-#### Defined in
+#### Source
 
 main.ts:28159
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
 #### Implementation of
 
-[IKnowledgeGraphHotelsBookingItemSerpElementItem](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md).[title](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md#title)
+[`IKnowledgeGraphHotelsBookingItemSerpElementItem`](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md).[`title`](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:28138
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IKnowledgeGraphHotelsBookingItemSerpElementItem](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md).[xpath](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md#xpath)
+[`IKnowledgeGraphHotelsBookingItemSerpElementItem`](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md).[`xpath`](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
 main.ts:28136
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -274,23 +246,21 @@ main.ts:28136
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[init](BaseSerpElementItem.md#init)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:28168
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -298,23 +268,21 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[toJSON](BaseSerpElementItem.md#tojson)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:28199
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KnowledgeGraphHotelsBookingItemSerpElementItem`](KnowledgeGraphHotelsBookingItemSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`KnowledgeGraphHotelsBookingItemSerpElementItem`](KnowledgeGraphHotelsBookingItemSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -322,8 +290,8 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[fromJS](BaseSerpElementItem.md#fromjs)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:28192

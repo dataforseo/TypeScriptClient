@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsErrorsTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsErrorsTaskInfo
 
 # Class: DataforseoLabsErrorsTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`DataforseoLabsErrorsTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsErrorsTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](DataforseoLabsErrorsTaskInfo.md#cost)
-- [data](DataforseoLabsErrorsTaskInfo.md#data)
-- [id](DataforseoLabsErrorsTaskInfo.md#id)
-- [path](DataforseoLabsErrorsTaskInfo.md#path)
-- [result](DataforseoLabsErrorsTaskInfo.md#result)
-- [result\_count](DataforseoLabsErrorsTaskInfo.md#result_count)
-- [status\_code](DataforseoLabsErrorsTaskInfo.md#status_code)
-- [status\_message](DataforseoLabsErrorsTaskInfo.md#status_message)
-- [time](DataforseoLabsErrorsTaskInfo.md#time)
-
-### Methods
-
-- [init](DataforseoLabsErrorsTaskInfo.md#init)
-- [toJSON](DataforseoLabsErrorsTaskInfo.md#tojson)
-- [fromJS](DataforseoLabsErrorsTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsErrorsTaskInfo(data)
 
-• **new DataforseoLabsErrorsTaskInfo**(`data?`): [`DataforseoLabsErrorsTaskInfo`](DataforseoLabsErrorsTaskInfo.md)
+> **new DataforseoLabsErrorsTaskInfo**(`data`?): [`DataforseoLabsErrorsTaskInfo`](DataforseoLabsErrorsTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsErrorsTaskInfo`](../interfaces/IDataforseoLabsErrorsTaskInfo.md) |
+• **data?**: [`IDataforseoLabsErrorsTaskInfo`](../interfaces/IDataforseoLabsErrorsTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:79611
+main.ts:79619
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IDataforseoLabsErrorsTaskInfo](../interfaces/IDataforseoLabsErrorsTaskInfo.md).[cost](../interfaces/IDataforseoLabsErrorsTaskInfo.md#cost)
+[`IDataforseoLabsErrorsTaskInfo`](../interfaces/IDataforseoLabsErrorsTaskInfo.md).[`cost`](../interfaces/IDataforseoLabsErrorsTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[IDataforseoLabsErrorsTaskInfo](../interfaces/IDataforseoLabsErrorsTaskInfo.md).[data](../interfaces/IDataforseoLabsErrorsTaskInfo.md#data)
+[`IDataforseoLabsErrorsTaskInfo`](../interfaces/IDataforseoLabsErrorsTaskInfo.md).[`data`](../interfaces/IDataforseoLabsErrorsTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IDataforseoLabsErrorsTaskInfo](../interfaces/IDataforseoLabsErrorsTaskInfo.md).[id](../interfaces/IDataforseoLabsErrorsTaskInfo.md#id)
+[`IDataforseoLabsErrorsTaskInfo`](../interfaces/IDataforseoLabsErrorsTaskInfo.md).[`id`](../interfaces/IDataforseoLabsErrorsTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[IDataforseoLabsErrorsTaskInfo](../interfaces/IDataforseoLabsErrorsTaskInfo.md).[path](../interfaces/IDataforseoLabsErrorsTaskInfo.md#path)
+[`IDataforseoLabsErrorsTaskInfo`](../interfaces/IDataforseoLabsErrorsTaskInfo.md).[`path`](../interfaces/IDataforseoLabsErrorsTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`DataforseoLabsErrorsResultInfo`](DataforseoLabsErrorsResultInfo.md)[]
+> **`optional`** **result**: [`DataforseoLabsErrorsResultInfo`](DataforseoLabsErrorsResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[IDataforseoLabsErrorsTaskInfo](../interfaces/IDataforseoLabsErrorsTaskInfo.md).[result](../interfaces/IDataforseoLabsErrorsTaskInfo.md#result)
+[`IDataforseoLabsErrorsTaskInfo`](../interfaces/IDataforseoLabsErrorsTaskInfo.md).[`result`](../interfaces/IDataforseoLabsErrorsTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:79607
+main.ts:79615
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[IDataforseoLabsErrorsTaskInfo](../interfaces/IDataforseoLabsErrorsTaskInfo.md).[result_count](../interfaces/IDataforseoLabsErrorsTaskInfo.md#result_count)
+[`IDataforseoLabsErrorsTaskInfo`](../interfaces/IDataforseoLabsErrorsTaskInfo.md).[`result_count`](../interfaces/IDataforseoLabsErrorsTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[IDataforseoLabsErrorsTaskInfo](../interfaces/IDataforseoLabsErrorsTaskInfo.md).[status_code](../interfaces/IDataforseoLabsErrorsTaskInfo.md#status_code)
+[`IDataforseoLabsErrorsTaskInfo`](../interfaces/IDataforseoLabsErrorsTaskInfo.md).[`status_code`](../interfaces/IDataforseoLabsErrorsTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IDataforseoLabsErrorsTaskInfo](../interfaces/IDataforseoLabsErrorsTaskInfo.md).[status_message](../interfaces/IDataforseoLabsErrorsTaskInfo.md#status_message)
+[`IDataforseoLabsErrorsTaskInfo`](../interfaces/IDataforseoLabsErrorsTaskInfo.md).[`status_message`](../interfaces/IDataforseoLabsErrorsTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[IDataforseoLabsErrorsTaskInfo](../interfaces/IDataforseoLabsErrorsTaskInfo.md).[time](../interfaces/IDataforseoLabsErrorsTaskInfo.md#time)
+[`IDataforseoLabsErrorsTaskInfo`](../interfaces/IDataforseoLabsErrorsTaskInfo.md).[`time`](../interfaces/IDataforseoLabsErrorsTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:79615
+main.ts:79623
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:79637
+main.ts:79645
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsErrorsTaskInfo`](DataforseoLabsErrorsTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsErrorsTaskInfo`](DataforseoLabsErrorsTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:79630
+main.ts:79638

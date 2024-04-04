@@ -1,58 +1,50 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IHtmlItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IHtmlItem
 
 # Interface: IHtmlItem
 
-## Implemented by
-
-- [`HtmlItem`](../classes/HtmlItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [date](IHtmlItem.md#date)
-- [html](IHtmlItem.md#html)
-- [page](IHtmlItem.md#page)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### date
+### date?
 
-• `Optional` **date**: `string`
+> **`optional`** **date**: `string`
 
 date and time when the HTML page was scanned
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
-main.ts:37092
+main.ts:37098
 
-___
+***
 
-### html
+### html?
 
-• `Optional` **html**: `string`
+> **`optional`** **html**: `string`
 
 HTML page
 
-#### Defined in
+#### Source
 
-main.ts:37094
+main.ts:37100
 
-___
+***
 
-### page
+### page?
 
-• `Optional` **page**: `number`
+> **`optional`** **page**: `number`
 
 serial number of the returned HTML page
 
-#### Defined in
+#### Source
 
-main.ts:37087
+main.ts:37093

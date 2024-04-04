@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageWaterfallRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPageWaterfallRequestInfo
 
 # Class: OnPageWaterfallRequestInfo
 
@@ -8,51 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPageWaterfallRequestInfo.md#constructor)
-
-### Properties
-
-- [id](OnPageWaterfallRequestInfo.md#id)
-- [tag](OnPageWaterfallRequestInfo.md#tag)
-- [url](OnPageWaterfallRequestInfo.md#url)
-
-### Methods
-
-- [init](OnPageWaterfallRequestInfo.md#init)
-- [toJSON](OnPageWaterfallRequestInfo.md#tojson)
-- [fromJS](OnPageWaterfallRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPageWaterfallRequestInfo(data)
 
-• **new OnPageWaterfallRequestInfo**(`data?`): [`OnPageWaterfallRequestInfo`](OnPageWaterfallRequestInfo.md)
+> **new OnPageWaterfallRequestInfo**(`data`?): [`OnPageWaterfallRequestInfo`](OnPageWaterfallRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPageWaterfallRequestInfo`](../interfaces/IOnPageWaterfallRequestInfo.md) |
+• **data?**: [`IOnPageWaterfallRequestInfo`](../interfaces/IOnPageWaterfallRequestInfo.md)
 
 #### Returns
 
 [`OnPageWaterfallRequestInfo`](OnPageWaterfallRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:155076
+main.ts:155084
 
 ## Properties
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 ID of the task
 required field
@@ -62,17 +46,17 @@ example:
 
 #### Implementation of
 
-[IOnPageWaterfallRequestInfo](../interfaces/IOnPageWaterfallRequestInfo.md).[id](../interfaces/IOnPageWaterfallRequestInfo.md#id)
+[`IOnPageWaterfallRequestInfo`](../interfaces/IOnPageWaterfallRequestInfo.md).[`id`](../interfaces/IOnPageWaterfallRequestInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:155062
+main.ts:155070
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -82,17 +66,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IOnPageWaterfallRequestInfo](../interfaces/IOnPageWaterfallRequestInfo.md).[tag](../interfaces/IOnPageWaterfallRequestInfo.md#tag)
+[`IOnPageWaterfallRequestInfo`](../interfaces/IOnPageWaterfallRequestInfo.md).[`tag`](../interfaces/IOnPageWaterfallRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:155072
+main.ts:155080
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 page URL
 required field
@@ -100,68 +84,62 @@ specify the pages you want to receive timing for
 
 #### Implementation of
 
-[IOnPageWaterfallRequestInfo](../interfaces/IOnPageWaterfallRequestInfo.md).[url](../interfaces/IOnPageWaterfallRequestInfo.md#url)
+[`IOnPageWaterfallRequestInfo`](../interfaces/IOnPageWaterfallRequestInfo.md).[`url`](../interfaces/IOnPageWaterfallRequestInfo.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:155066
+main.ts:155074
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:155085
+main.ts:155093
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:155104
+main.ts:155112
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPageWaterfallRequestInfo`](OnPageWaterfallRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`OnPageWaterfallRequestInfo`](OnPageWaterfallRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`OnPageWaterfallRequestInfo`](OnPageWaterfallRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:155097
+main.ts:155105

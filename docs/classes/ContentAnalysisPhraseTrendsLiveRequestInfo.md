@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentAnalysisPhraseTrendsLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ContentAnalysisPhraseTrendsLiveRequestInfo
 
 # Class: ContentAnalysisPhraseTrendsLiveRequestInfo
 
@@ -8,58 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ContentAnalysisPhraseTrendsLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [date\_from](ContentAnalysisPhraseTrendsLiveRequestInfo.md#date_from)
-- [date\_group](ContentAnalysisPhraseTrendsLiveRequestInfo.md#date_group)
-- [date\_to](ContentAnalysisPhraseTrendsLiveRequestInfo.md#date_to)
-- [initial\_dataset\_filter](ContentAnalysisPhraseTrendsLiveRequestInfo.md#initial_dataset_filter)
-- [internal\_list\_limit](ContentAnalysisPhraseTrendsLiveRequestInfo.md#internal_list_limit)
-- [keyword](ContentAnalysisPhraseTrendsLiveRequestInfo.md#keyword)
-- [keyword\_fields](ContentAnalysisPhraseTrendsLiveRequestInfo.md#keyword_fields)
-- [page\_type](ContentAnalysisPhraseTrendsLiveRequestInfo.md#page_type)
-- [search\_mode](ContentAnalysisPhraseTrendsLiveRequestInfo.md#search_mode)
-- [tag](ContentAnalysisPhraseTrendsLiveRequestInfo.md#tag)
-
-### Methods
-
-- [init](ContentAnalysisPhraseTrendsLiveRequestInfo.md#init)
-- [toJSON](ContentAnalysisPhraseTrendsLiveRequestInfo.md#tojson)
-- [fromJS](ContentAnalysisPhraseTrendsLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ContentAnalysisPhraseTrendsLiveRequestInfo(data)
 
-• **new ContentAnalysisPhraseTrendsLiveRequestInfo**(`data?`): [`ContentAnalysisPhraseTrendsLiveRequestInfo`](ContentAnalysisPhraseTrendsLiveRequestInfo.md)
+> **new ContentAnalysisPhraseTrendsLiveRequestInfo**(`data`?): [`ContentAnalysisPhraseTrendsLiveRequestInfo`](ContentAnalysisPhraseTrendsLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IContentAnalysisPhraseTrendsLiveRequestInfo`](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md) |
+• **data?**: [`IContentAnalysisPhraseTrendsLiveRequestInfo`](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md)
 
 #### Returns
 
 [`ContentAnalysisPhraseTrendsLiveRequestInfo`](ContentAnalysisPhraseTrendsLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:164100
+main.ts:164108
 
 ## Properties
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of the time range
 required field
@@ -69,17 +46,17 @@ example:
 
 #### Implementation of
 
-[IContentAnalysisPhraseTrendsLiveRequestInfo](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md).[date_from](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md#date_from)
+[`IContentAnalysisPhraseTrendsLiveRequestInfo`](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md).[`date_from`](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md#date_from)
 
-#### Defined in
+#### Source
 
-main.ts:164061
+main.ts:164069
 
-___
+***
 
-### date\_group
+### date\_group?
 
-• `Optional` **date\_group**: `string`
+> **`optional`** **date\_group**: `string`
 
 time range which will be used to group the results
 optional field
@@ -88,17 +65,17 @@ possible values: day, week, month
 
 #### Implementation of
 
-[IContentAnalysisPhraseTrendsLiveRequestInfo](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md).[date_group](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md#date_group)
+[`IContentAnalysisPhraseTrendsLiveRequestInfo`](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md).[`date_group`](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md#date_group)
 
-#### Defined in
+#### Source
 
-main.ts:164073
+main.ts:164081
 
-___
+***
 
-### date\_to
+### date\_to?
 
-• `Optional` **date\_to**: `string`
+> **`optional`** **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -109,48 +86,48 @@ example:
 
 #### Implementation of
 
-[IContentAnalysisPhraseTrendsLiveRequestInfo](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md).[date_to](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md#date_to)
+[`IContentAnalysisPhraseTrendsLiveRequestInfo`](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md).[`date_to`](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md#date_to)
 
-#### Defined in
+#### Source
 
-main.ts:164068
+main.ts:164076
 
-___
+***
 
-### initial\_dataset\_filter
+### initial\_dataset\_filter?
 
-• `Optional` **initial\_dataset\_filter**: `string`[]
+> **`optional`** **initial\_dataset\_filter**: `string`[]
 
 initial dataset filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, <=, >, >=, =, <>, in, not_in, like,not_like, has, has_not
+regex, <, `<=, >`, >=, =, <>, in, not_in, like,not_like, has, has_not
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["domain","<>", "logitech.com"]
-[["domain","<>","logitech.com"],"and",["content_info.connotation_types.negative",">",1000]]
-[["domain","<>","logitech.com"]],
+[["domain","`<>`","logitech.com"],"and",["content_info.connotation_types.negative",">`",1000]]
+[["domain","`<>`","logitech.com"]],
 "and",
-[["content_info.connotation_types.negative",">",1000],
+[["content_info.connotation_types.negative",">`",1000],
 "or",
 ["content_info.text_category","has",10994]]]
 for more information about filters, please refer to Content Analysis API – Filters
 
 #### Implementation of
 
-[IContentAnalysisPhraseTrendsLiveRequestInfo](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md).[initial_dataset_filter](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md#initial_dataset_filter)
+[`IContentAnalysisPhraseTrendsLiveRequestInfo`](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md).[`initial_dataset_filter`](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md#initial_dataset_filter)
 
-#### Defined in
+#### Source
 
-main.ts:164090
+main.ts:164098
 
-___
+***
 
-### internal\_list\_limit
+### internal\_list\_limit?
 
-• `Optional` **internal\_list\_limit**: `number`
+> **`optional`** **internal\_list\_limit**: `number`
 
 maximum number of elements within internal arrays
 optional field
@@ -165,17 +142,17 @@ maximum value: 20
 
 #### Implementation of
 
-[IContentAnalysisPhraseTrendsLiveRequestInfo](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md).[internal_list_limit](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md#internal_list_limit)
+[`IContentAnalysisPhraseTrendsLiveRequestInfo`](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md).[`internal_list_limit`](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md#internal_list_limit)
 
-#### Defined in
+#### Source
 
-main.ts:164055
+main.ts:164063
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 target keyword
 required field
@@ -188,17 +165,17 @@ example:
 
 #### Implementation of
 
-[IContentAnalysisPhraseTrendsLiveRequestInfo](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md).[keyword](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md#keyword)
+[`IContentAnalysisPhraseTrendsLiveRequestInfo`](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md).[`keyword`](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:164019
+main.ts:164027
 
-___
+***
 
-### keyword\_fields
+### keyword\_fields?
 
-• `Optional` **keyword\_fields**: `Object`
+> **`optional`** **keyword\_fields**: `Object`
 
 target keyword fields and target keywords
 optional field
@@ -207,28 +184,28 @@ fields you can specify: title, main_title, previous_title, snippet
 you can indicate several fields;
 Note: to match an exact phrase instead of a stand-alone keyword, use double quotes and backslashes;
 example:
-"keyword_fields": {
+"keyword_fields": \{
     "snippet": "\"logitech mouse\"",
     "main_title": "sale"
-}
+\}
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
 #### Implementation of
 
-[IContentAnalysisPhraseTrendsLiveRequestInfo](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md).[keyword_fields](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md#keyword_fields)
+[`IContentAnalysisPhraseTrendsLiveRequestInfo`](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md).[`keyword_fields`](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md#keyword_fields)
 
-#### Defined in
+#### Source
 
-main.ts:164031
+main.ts:164039
 
-___
+***
 
-### page\_type
+### page\_type?
 
-• `Optional` **page\_type**: `string`[]
+> **`optional`** **page\_type**: `string`[]
 
 target page types
 optional field
@@ -238,17 +215,17 @@ possible values:
 
 #### Implementation of
 
-[IContentAnalysisPhraseTrendsLiveRequestInfo](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md).[page_type](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md#page_type)
+[`IContentAnalysisPhraseTrendsLiveRequestInfo`](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md).[`page_type`](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md#page_type)
 
-#### Defined in
+#### Source
 
-main.ts:164037
+main.ts:164045
 
-___
+***
 
-### search\_mode
+### search\_mode?
 
-• `Optional` **search\_mode**: `string`
+> **`optional`** **search\_mode**: `string`
 
 results grouping type
 optional field
@@ -259,17 +236,17 @@ default value: as_is
 
 #### Implementation of
 
-[IContentAnalysisPhraseTrendsLiveRequestInfo](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md).[search_mode](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md#search_mode)
+[`IContentAnalysisPhraseTrendsLiveRequestInfo`](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md).[`search_mode`](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md#search_mode)
 
-#### Defined in
+#### Source
 
-main.ts:164044
+main.ts:164052
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -279,68 +256,62 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IContentAnalysisPhraseTrendsLiveRequestInfo](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md).[tag](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md#tag)
+[`IContentAnalysisPhraseTrendsLiveRequestInfo`](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md).[`tag`](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:164096
+main.ts:164104
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:164109
+main.ts:164117
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:164149
+main.ts:164157
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ContentAnalysisPhraseTrendsLiveRequestInfo`](ContentAnalysisPhraseTrendsLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`ContentAnalysisPhraseTrendsLiveRequestInfo`](ContentAnalysisPhraseTrendsLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ContentAnalysisPhraseTrendsLiveRequestInfo`](ContentAnalysisPhraseTrendsLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:164142
+main.ts:164150

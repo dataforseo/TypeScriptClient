@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksCompetitorsLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BacklinksCompetitorsLiveResultInfo
 
 # Class: BacklinksCompetitorsLiveResultInfo
 
@@ -8,150 +12,124 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BacklinksCompetitorsLiveResultInfo.md#constructor)
-
-### Properties
-
-- [items](BacklinksCompetitorsLiveResultInfo.md#items)
-- [items\_count](BacklinksCompetitorsLiveResultInfo.md#items_count)
-- [total\_count](BacklinksCompetitorsLiveResultInfo.md#total_count)
-
-### Methods
-
-- [init](BacklinksCompetitorsLiveResultInfo.md#init)
-- [toJSON](BacklinksCompetitorsLiveResultInfo.md#tojson)
-- [fromJS](BacklinksCompetitorsLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BacklinksCompetitorsLiveResultInfo(data)
 
-• **new BacklinksCompetitorsLiveResultInfo**(`data?`): [`BacklinksCompetitorsLiveResultInfo`](BacklinksCompetitorsLiveResultInfo.md)
+> **new BacklinksCompetitorsLiveResultInfo**(`data`?): [`BacklinksCompetitorsLiveResultInfo`](BacklinksCompetitorsLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBacklinksCompetitorsLiveResultInfo`](../interfaces/IBacklinksCompetitorsLiveResultInfo.md) |
+• **data?**: [`IBacklinksCompetitorsLiveResultInfo`](../interfaces/IBacklinksCompetitorsLiveResultInfo.md)
 
 #### Returns
 
 [`BacklinksCompetitorsLiveResultInfo`](BacklinksCompetitorsLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:141618
+main.ts:141626
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`BacklinksCompetitorsLiveItem`](BacklinksCompetitorsLiveItem.md)[]
+> **`optional`** **items**: [`BacklinksCompetitorsLiveItem`](BacklinksCompetitorsLiveItem.md)[]
 
 items array
 
 #### Implementation of
 
-[IBacklinksCompetitorsLiveResultInfo](../interfaces/IBacklinksCompetitorsLiveResultInfo.md).[items](../interfaces/IBacklinksCompetitorsLiveResultInfo.md#items)
+[`IBacklinksCompetitorsLiveResultInfo`](../interfaces/IBacklinksCompetitorsLiveResultInfo.md).[`items`](../interfaces/IBacklinksCompetitorsLiveResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:141614
+main.ts:141622
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 number of items in the items array
 
 #### Implementation of
 
-[IBacklinksCompetitorsLiveResultInfo](../interfaces/IBacklinksCompetitorsLiveResultInfo.md).[items_count](../interfaces/IBacklinksCompetitorsLiveResultInfo.md#items_count)
+[`IBacklinksCompetitorsLiveResultInfo`](../interfaces/IBacklinksCompetitorsLiveResultInfo.md).[`items_count`](../interfaces/IBacklinksCompetitorsLiveResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:141612
+main.ts:141620
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total number of relevant items in the database
 
 #### Implementation of
 
-[IBacklinksCompetitorsLiveResultInfo](../interfaces/IBacklinksCompetitorsLiveResultInfo.md).[total_count](../interfaces/IBacklinksCompetitorsLiveResultInfo.md#total_count)
+[`IBacklinksCompetitorsLiveResultInfo`](../interfaces/IBacklinksCompetitorsLiveResultInfo.md).[`total_count`](../interfaces/IBacklinksCompetitorsLiveResultInfo.md#total_count)
 
-#### Defined in
+#### Source
 
-main.ts:141610
+main.ts:141618
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:141627
+main.ts:141635
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:141650
+main.ts:141658
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BacklinksCompetitorsLiveResultInfo`](BacklinksCompetitorsLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`BacklinksCompetitorsLiveResultInfo`](BacklinksCompetitorsLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BacklinksCompetitorsLiveResultInfo`](BacklinksCompetitorsLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:141643
+main.ts:141651

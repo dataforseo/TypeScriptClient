@@ -1,124 +1,111 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDiscussionsAndForumsElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDiscussionsAndForumsElement
 
 # Interface: IDiscussionsAndForumsElement
 
-## Implemented by
-
-- [`DiscussionsAndForumsElement`](../classes/DiscussionsAndForumsElement.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [description](IDiscussionsAndForumsElement.md#description)
-- [domain](IDiscussionsAndForumsElement.md#domain)
-- [posts\_count](IDiscussionsAndForumsElement.md#posts_count)
-- [source](IDiscussionsAndForumsElement.md#source)
-- [timestamp](IDiscussionsAndForumsElement.md#timestamp)
-- [title](IDiscussionsAndForumsElement.md#title)
-- [type](IDiscussionsAndForumsElement.md#type)
-- [url](IDiscussionsAndForumsElement.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description
 
-#### Defined in
+#### Source
 
-main.ts:36647
+main.ts:36653
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 website domain
 
-#### Defined in
+#### Source
 
-main.ts:36642
+main.ts:36648
 
-___
+***
 
-### posts\_count
+### posts\_count?
 
-• `Optional` **posts\_count**: `number`
+> **`optional`** **posts\_count**: `number`
 
 number of posts from the discussion on the related source
 
-#### Defined in
+#### Source
 
-main.ts:36654
+main.ts:36660
 
-___
+***
 
-### source
+### source?
 
-• `Optional` **source**: `string`
+> **`optional`** **source**: `string`
 
 source of the element
 indicates the source of information included in the top_stories_element
 
-#### Defined in
+#### Source
 
-main.ts:36645
+main.ts:36651
 
-___
+***
 
-### timestamp
+### timestamp?
 
-• `Optional` **timestamp**: `string`
+> **`optional`** **timestamp**: `string`
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
-main.ts:36652
+main.ts:36658
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
-#### Defined in
+#### Source
 
-main.ts:36638
+main.ts:36644
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:36636
+main.ts:36642
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL
 
-#### Defined in
+#### Source
 
-main.ts:36640
+main.ts:36646

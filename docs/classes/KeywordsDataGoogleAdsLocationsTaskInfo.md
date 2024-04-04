@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleAdsLocationsTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataGoogleAdsLocationsTaskInfo
 
 # Class: KeywordsDataGoogleAdsLocationsTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`KeywordsDataGoogleAdsLocationsTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataGoogleAdsLocationsTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](KeywordsDataGoogleAdsLocationsTaskInfo.md#cost)
-- [data](KeywordsDataGoogleAdsLocationsTaskInfo.md#data)
-- [id](KeywordsDataGoogleAdsLocationsTaskInfo.md#id)
-- [path](KeywordsDataGoogleAdsLocationsTaskInfo.md#path)
-- [result](KeywordsDataGoogleAdsLocationsTaskInfo.md#result)
-- [result\_count](KeywordsDataGoogleAdsLocationsTaskInfo.md#result_count)
-- [status\_code](KeywordsDataGoogleAdsLocationsTaskInfo.md#status_code)
-- [status\_message](KeywordsDataGoogleAdsLocationsTaskInfo.md#status_message)
-- [time](KeywordsDataGoogleAdsLocationsTaskInfo.md#time)
-
-### Methods
-
-- [init](KeywordsDataGoogleAdsLocationsTaskInfo.md#init)
-- [toJSON](KeywordsDataGoogleAdsLocationsTaskInfo.md#tojson)
-- [fromJS](KeywordsDataGoogleAdsLocationsTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordsDataGoogleAdsLocationsTaskInfo(data)
 
-• **new KeywordsDataGoogleAdsLocationsTaskInfo**(`data?`): [`KeywordsDataGoogleAdsLocationsTaskInfo`](KeywordsDataGoogleAdsLocationsTaskInfo.md)
+> **new KeywordsDataGoogleAdsLocationsTaskInfo**(`data`?): [`KeywordsDataGoogleAdsLocationsTaskInfo`](KeywordsDataGoogleAdsLocationsTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordsDataGoogleAdsLocationsTaskInfo`](../interfaces/IKeywordsDataGoogleAdsLocationsTaskInfo.md) |
+• **data?**: [`IKeywordsDataGoogleAdsLocationsTaskInfo`](../interfaces/IKeywordsDataGoogleAdsLocationsTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:115571
+main.ts:115579
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsLocationsTaskInfo](../interfaces/IKeywordsDataGoogleAdsLocationsTaskInfo.md).[cost](../interfaces/IKeywordsDataGoogleAdsLocationsTaskInfo.md#cost)
+[`IKeywordsDataGoogleAdsLocationsTaskInfo`](../interfaces/IKeywordsDataGoogleAdsLocationsTaskInfo.md).[`cost`](../interfaces/IKeywordsDataGoogleAdsLocationsTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsLocationsTaskInfo](../interfaces/IKeywordsDataGoogleAdsLocationsTaskInfo.md).[data](../interfaces/IKeywordsDataGoogleAdsLocationsTaskInfo.md#data)
+[`IKeywordsDataGoogleAdsLocationsTaskInfo`](../interfaces/IKeywordsDataGoogleAdsLocationsTaskInfo.md).[`data`](../interfaces/IKeywordsDataGoogleAdsLocationsTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsLocationsTaskInfo](../interfaces/IKeywordsDataGoogleAdsLocationsTaskInfo.md).[id](../interfaces/IKeywordsDataGoogleAdsLocationsTaskInfo.md#id)
+[`IKeywordsDataGoogleAdsLocationsTaskInfo`](../interfaces/IKeywordsDataGoogleAdsLocationsTaskInfo.md).[`id`](../interfaces/IKeywordsDataGoogleAdsLocationsTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsLocationsTaskInfo](../interfaces/IKeywordsDataGoogleAdsLocationsTaskInfo.md).[path](../interfaces/IKeywordsDataGoogleAdsLocationsTaskInfo.md#path)
+[`IKeywordsDataGoogleAdsLocationsTaskInfo`](../interfaces/IKeywordsDataGoogleAdsLocationsTaskInfo.md).[`path`](../interfaces/IKeywordsDataGoogleAdsLocationsTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`KeywordsDataGoogleAdsLocationsResultInfo`](KeywordsDataGoogleAdsLocationsResultInfo.md)[]
+> **`optional`** **result**: [`KeywordsDataGoogleAdsLocationsResultInfo`](KeywordsDataGoogleAdsLocationsResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsLocationsTaskInfo](../interfaces/IKeywordsDataGoogleAdsLocationsTaskInfo.md).[result](../interfaces/IKeywordsDataGoogleAdsLocationsTaskInfo.md#result)
+[`IKeywordsDataGoogleAdsLocationsTaskInfo`](../interfaces/IKeywordsDataGoogleAdsLocationsTaskInfo.md).[`result`](../interfaces/IKeywordsDataGoogleAdsLocationsTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:115567
+main.ts:115575
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsLocationsTaskInfo](../interfaces/IKeywordsDataGoogleAdsLocationsTaskInfo.md).[result_count](../interfaces/IKeywordsDataGoogleAdsLocationsTaskInfo.md#result_count)
+[`IKeywordsDataGoogleAdsLocationsTaskInfo`](../interfaces/IKeywordsDataGoogleAdsLocationsTaskInfo.md).[`result_count`](../interfaces/IKeywordsDataGoogleAdsLocationsTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsLocationsTaskInfo](../interfaces/IKeywordsDataGoogleAdsLocationsTaskInfo.md).[status_code](../interfaces/IKeywordsDataGoogleAdsLocationsTaskInfo.md#status_code)
+[`IKeywordsDataGoogleAdsLocationsTaskInfo`](../interfaces/IKeywordsDataGoogleAdsLocationsTaskInfo.md).[`status_code`](../interfaces/IKeywordsDataGoogleAdsLocationsTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsLocationsTaskInfo](../interfaces/IKeywordsDataGoogleAdsLocationsTaskInfo.md).[status_message](../interfaces/IKeywordsDataGoogleAdsLocationsTaskInfo.md#status_message)
+[`IKeywordsDataGoogleAdsLocationsTaskInfo`](../interfaces/IKeywordsDataGoogleAdsLocationsTaskInfo.md).[`status_message`](../interfaces/IKeywordsDataGoogleAdsLocationsTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsLocationsTaskInfo](../interfaces/IKeywordsDataGoogleAdsLocationsTaskInfo.md).[time](../interfaces/IKeywordsDataGoogleAdsLocationsTaskInfo.md#time)
+[`IKeywordsDataGoogleAdsLocationsTaskInfo`](../interfaces/IKeywordsDataGoogleAdsLocationsTaskInfo.md).[`time`](../interfaces/IKeywordsDataGoogleAdsLocationsTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:115575
+main.ts:115583
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:115597
+main.ts:115605
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordsDataGoogleAdsLocationsTaskInfo`](KeywordsDataGoogleAdsLocationsTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordsDataGoogleAdsLocationsTaskInfo`](KeywordsDataGoogleAdsLocationsTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:115590
+main.ts:115598

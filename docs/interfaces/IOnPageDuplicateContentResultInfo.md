@@ -1,69 +1,60 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageDuplicateContentResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IOnPageDuplicateContentResultInfo
 
 # Interface: IOnPageDuplicateContentResultInfo
 
-## Implemented by
-
-- [`OnPageDuplicateContentResultInfo`](../classes/OnPageDuplicateContentResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [crawl\_progress](IOnPageDuplicateContentResultInfo.md#crawl_progress)
-- [crawl\_status](IOnPageDuplicateContentResultInfo.md#crawl_status)
-- [items](IOnPageDuplicateContentResultInfo.md#items)
-- [items\_count](IOnPageDuplicateContentResultInfo.md#items_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### crawl\_progress
+### crawl\_progress?
 
-• `Optional` **crawl\_progress**: `string`
+> **`optional`** **crawl\_progress**: `string`
 
 status of the crawling session
 possible values: in_progress, finished
 
-#### Defined in
+#### Source
 
-main.ts:153177
+main.ts:153185
 
-___
+***
 
-### crawl\_status
+### crawl\_status?
 
-• `Optional` **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
+> **`optional`** **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
 
 details of the crawling session
 
-#### Defined in
+#### Source
 
-main.ts:153179
+main.ts:153187
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`OnPageDuplicateContentItem`](../classes/OnPageDuplicateContentItem.md)[]
+> **`optional`** **items**: [`OnPageDuplicateContentItem`](../classes/OnPageDuplicateContentItem.md)[]
 
 items array
 
-#### Defined in
+#### Source
 
-main.ts:153183
+main.ts:153191
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 number of items in the results array
 
-#### Defined in
+#### Source
 
-main.ts:153181
+main.ts:153189

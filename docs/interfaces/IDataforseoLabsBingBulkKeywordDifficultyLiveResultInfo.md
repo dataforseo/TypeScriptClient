@@ -1,96 +1,85 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo
 
 # Interface: IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo
 
-## Implemented by
-
-- [`DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo`](../classes/DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md#items)
-- [items\_count](IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md#items_count)
-- [language\_code](IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md#language_code)
-- [location\_code](IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md#location_code)
-- [se\_type](IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md#se_type)
-- [total\_count](IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md#total_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`DataforseoLabsBBulkKeywordDifficultyLiveItem`](../classes/DataforseoLabsBBulkKeywordDifficultyLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsBBulkKeywordDifficultyLiveItem`](../classes/DataforseoLabsBBulkKeywordDifficultyLiveItem.md)[]
 
 contains keywords and related keyword difficulty scores
 
-#### Defined in
+#### Source
 
-main.ts:104702
+main.ts:104710
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Defined in
+#### Source
 
-main.ts:104700
+main.ts:104708
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 if there is no data, then the value is null
 
-#### Defined in
+#### Source
 
-main.ts:104696
+main.ts:104704
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 if there is no data, then the value is null
 
-#### Defined in
+#### Source
 
-main.ts:104693
+main.ts:104701
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:104690
+main.ts:104698
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
-#### Defined in
+#### Source
 
-main.ts:104698
+main.ts:104706

@@ -1,308 +1,277 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixStatisticsRatesDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppendixStatisticsRatesDataInfo
 
 # Interface: IAppendixStatisticsRatesDataInfo
 
-## Implemented by
-
-- [`AppendixStatisticsRatesDataInfo`](../classes/AppendixStatisticsRatesDataInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [app\_data](IAppendixStatisticsRatesDataInfo.md#app_data)
-- [appendix](IAppendixStatisticsRatesDataInfo.md#appendix)
-- [backlinks](IAppendixStatisticsRatesDataInfo.md#backlinks)
-- [business\_data](IAppendixStatisticsRatesDataInfo.md#business_data)
-- [content\_analysis](IAppendixStatisticsRatesDataInfo.md#content_analysis)
-- [content\_generation](IAppendixStatisticsRatesDataInfo.md#content_generation)
-- [dataforseo\_labs](IAppendixStatisticsRatesDataInfo.md#dataforseo_labs)
-- [domain\_analytics](IAppendixStatisticsRatesDataInfo.md#domain_analytics)
-- [keywords\_data](IAppendixStatisticsRatesDataInfo.md#keywords_data)
-- [merchant](IAppendixStatisticsRatesDataInfo.md#merchant)
-- [on\_page](IAppendixStatisticsRatesDataInfo.md#on_page)
-- [serp](IAppendixStatisticsRatesDataInfo.md#serp)
-- [total](IAppendixStatisticsRatesDataInfo.md#total)
-- [total\_app\_data](IAppendixStatisticsRatesDataInfo.md#total_app_data)
-- [total\_appendix](IAppendixStatisticsRatesDataInfo.md#total_appendix)
-- [total\_backlinks](IAppendixStatisticsRatesDataInfo.md#total_backlinks)
-- [total\_business\_data](IAppendixStatisticsRatesDataInfo.md#total_business_data)
-- [total\_content\_analysis](IAppendixStatisticsRatesDataInfo.md#total_content_analysis)
-- [total\_content\_generation](IAppendixStatisticsRatesDataInfo.md#total_content_generation)
-- [total\_dataforseo\_labs](IAppendixStatisticsRatesDataInfo.md#total_dataforseo_labs)
-- [total\_domain\_analytics](IAppendixStatisticsRatesDataInfo.md#total_domain_analytics)
-- [total\_keywords\_data](IAppendixStatisticsRatesDataInfo.md#total_keywords_data)
-- [total\_merchant](IAppendixStatisticsRatesDataInfo.md#total_merchant)
-- [total\_on\_page](IAppendixStatisticsRatesDataInfo.md#total_on_page)
-- [total\_serp](IAppendixStatisticsRatesDataInfo.md#total_serp)
-- [value](IAppendixStatisticsRatesDataInfo.md#value)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### app\_data
+### app\_data?
 
-• `Optional` **app\_data**: [`AppendixAppDataLimitsRatesDataInfo`](../classes/AppendixAppDataLimitsRatesDataInfo.md)
+> **`optional`** **app\_data**: [`AppendixAppDataLimitsRatesDataInfo`](../classes/AppendixAppDataLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:214795
 
-___
+***
 
-### appendix
+### appendix?
 
-• `Optional` **appendix**: [`AppendixAppendixDaysRatesDataInfo`](../classes/AppendixAppendixDaysRatesDataInfo.md)
+> **`optional`** **appendix**: [`AppendixAppendixDaysRatesDataInfo`](../classes/AppendixAppendixDaysRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:214781
 
-___
+***
 
-### backlinks
+### backlinks?
 
-• `Optional` **backlinks**: [`AppendixBacklinksLimitsRatesDataInfo`](../classes/AppendixBacklinksLimitsRatesDataInfo.md)
+> **`optional`** **backlinks**: [`AppendixBacklinksLimitsRatesDataInfo`](../classes/AppendixBacklinksLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:214793
 
-___
+***
 
-### business\_data
+### business\_data?
 
-• `Optional` **business\_data**: [`AppendixBusinessDataLimitsRatesDataInfo`](../classes/AppendixBusinessDataLimitsRatesDataInfo.md)
+> **`optional`** **business\_data**: [`AppendixBusinessDataLimitsRatesDataInfo`](../classes/AppendixBusinessDataLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:214791
 
-___
+***
 
-### content\_analysis
+### content\_analysis?
 
-• `Optional` **content\_analysis**: [`AppendixContentAnalysisLimitsRatesDataInfo`](../classes/AppendixContentAnalysisLimitsRatesDataInfo.md)
+> **`optional`** **content\_analysis**: [`AppendixContentAnalysisLimitsRatesDataInfo`](../classes/AppendixContentAnalysisLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:214797
 
-___
+***
 
-### content\_generation
+### content\_generation?
 
-• `Optional` **content\_generation**: [`AppendixContentGenerationLimitsRatesDataInfo`](../classes/AppendixContentGenerationLimitsRatesDataInfo.md)
+> **`optional`** **content\_generation**: [`AppendixContentGenerationLimitsRatesDataInfo`](../classes/AppendixContentGenerationLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:214799
 
-___
+***
 
-### dataforseo\_labs
+### dataforseo\_labs?
 
-• `Optional` **dataforseo\_labs**: [`AppendixDataforseoLabsLimitsRatesDataInfo`](../classes/AppendixDataforseoLabsLimitsRatesDataInfo.md)
+> **`optional`** **dataforseo\_labs**: [`AppendixDataforseoLabsLimitsRatesDataInfo`](../classes/AppendixDataforseoLabsLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:214783
 
-___
+***
 
-### domain\_analytics
+### domain\_analytics?
 
-• `Optional` **domain\_analytics**: [`AppendixDomainAnalyticsLimitsRatesDataInfo`](../classes/AppendixDomainAnalyticsLimitsRatesDataInfo.md)
+> **`optional`** **domain\_analytics**: [`AppendixDomainAnalyticsLimitsRatesDataInfo`](../classes/AppendixDomainAnalyticsLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:214785
 
-___
+***
 
-### keywords\_data
+### keywords\_data?
 
-• `Optional` **keywords\_data**: [`AppendixKeywordsDataDaysRatesDataInfo`](../classes/AppendixKeywordsDataDaysRatesDataInfo.md)
+> **`optional`** **keywords\_data**: [`AppendixKeywordsDataDaysRatesDataInfo`](../classes/AppendixKeywordsDataDaysRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:214779
 
-___
+***
 
-### merchant
+### merchant?
 
-• `Optional` **merchant**: [`AppendixMerchantLimitsRatesDataInfo`](../classes/AppendixMerchantLimitsRatesDataInfo.md)
+> **`optional`** **merchant**: [`AppendixMerchantLimitsRatesDataInfo`](../classes/AppendixMerchantLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:214787
 
-___
+***
 
-### on\_page
+### on\_page?
 
-• `Optional` **on\_page**: [`AppendixOnPageLimitsRatesDataInfo`](../classes/AppendixOnPageLimitsRatesDataInfo.md)
+> **`optional`** **on\_page**: [`AppendixOnPageLimitsRatesDataInfo`](../classes/AppendixOnPageLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:214789
 
-___
+***
 
-### serp
+### serp?
 
-• `Optional` **serp**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
+> **`optional`** **serp**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:214775
 
-___
+***
 
-### total
+### total?
 
-• `Optional` **total**: `number`
+> **`optional`** **total**: `number`
 
 total amount of money deposited to your account
 
-#### Defined in
+#### Source
 
 main.ts:214777
 
-___
+***
 
-### total\_app\_data
+### total\_app\_data?
 
-• `Optional` **total\_app\_data**: `number`
+> **`optional`** **total\_app\_data**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:214796
 
-___
+***
 
-### total\_appendix
+### total\_appendix?
 
-• `Optional` **total\_appendix**: `number`
+> **`optional`** **total\_appendix**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:214782
 
-___
+***
 
-### total\_backlinks
+### total\_backlinks?
 
-• `Optional` **total\_backlinks**: `number`
+> **`optional`** **total\_backlinks**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:214794
 
-___
+***
 
-### total\_business\_data
+### total\_business\_data?
 
-• `Optional` **total\_business\_data**: `number`
+> **`optional`** **total\_business\_data**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:214792
 
-___
+***
 
-### total\_content\_analysis
+### total\_content\_analysis?
 
-• `Optional` **total\_content\_analysis**: `number`
+> **`optional`** **total\_content\_analysis**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:214798
 
-___
+***
 
-### total\_content\_generation
+### total\_content\_generation?
 
-• `Optional` **total\_content\_generation**: `number`
+> **`optional`** **total\_content\_generation**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:214800
 
-___
+***
 
-### total\_dataforseo\_labs
+### total\_dataforseo\_labs?
 
-• `Optional` **total\_dataforseo\_labs**: `number`
+> **`optional`** **total\_dataforseo\_labs**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:214784
 
-___
+***
 
-### total\_domain\_analytics
+### total\_domain\_analytics?
 
-• `Optional` **total\_domain\_analytics**: `number`
+> **`optional`** **total\_domain\_analytics**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:214786
 
-___
+***
 
-### total\_keywords\_data
+### total\_keywords\_data?
 
-• `Optional` **total\_keywords\_data**: `number`
+> **`optional`** **total\_keywords\_data**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:214780
 
-___
+***
 
-### total\_merchant
+### total\_merchant?
 
-• `Optional` **total\_merchant**: `number`
+> **`optional`** **total\_merchant**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:214788
 
-___
+***
 
-### total\_on\_page
+### total\_on\_page?
 
-• `Optional` **total\_on\_page**: `number`
+> **`optional`** **total\_on\_page**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:214790
 
-___
+***
 
-### total\_serp
+### total\_serp?
 
-• `Optional` **total\_serp**: `number`
+> **`optional`** **total\_serp**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:214778
 
-___
+***
 
-### value
+### value?
 
-• `Optional` **value**: `string`
+> **`optional`** **value**: `string`
 
 time period for grouping
 day in the yyyy-MM-dd format
 minute in the yyyy-MM-dd HH:mm format
 
-#### Defined in
+#### Source
 
 main.ts:214804

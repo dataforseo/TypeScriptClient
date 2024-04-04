@@ -1,49 +1,32 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ApiException
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ApiException
 
 # Class: ApiException
 
-## Hierarchy
+## Extends
 
 - `Error`
 
-  ↳ **`ApiException`**
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ApiException.md#constructor)
-
-### Properties
-
-- [headers](ApiException.md#headers)
-- [isApiException](ApiException.md#isapiexception)
-- [message](ApiException.md#message)
-- [name](ApiException.md#name)
-- [response](ApiException.md#response)
-- [result](ApiException.md#result)
-- [stack](ApiException.md#stack)
-- [status](ApiException.md#status)
-
-### Methods
-
-- [isApiException](ApiException.md#isapiexception-1)
-
 ## Constructors
 
-### constructor
+### new ApiException(message, status, response, headers, result)
 
-• **new ApiException**(`message`, `status`, `response`, `headers`, `result`): [`ApiException`](ApiException.md)
+> **new ApiException**(`message`, `status`, `response`, `headers`, `result`): [`ApiException`](ApiException.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `message` | `string` |
-| `status` | `number` |
-| `response` | `string` |
-| `headers` | `Object` |
-| `result` | `any` |
+• **message**: `string`
+
+• **status**: `number`
+
+• **response**: `string`
+
+• **headers**
+
+• **result**: `any`
 
 #### Returns
 
@@ -51,9 +34,9 @@
 
 #### Overrides
 
-Error.constructor
+`Error.constructor`
 
-#### Defined in
+#### Source
 
 main.ts:219090
 
@@ -61,114 +44,112 @@ main.ts:219090
 
 ### headers
 
-• **headers**: `Object`
+> **headers**: `Object`
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
-#### Defined in
+#### Source
 
 main.ts:219087
 
-___
+***
 
 ### isApiException
 
-• `Protected` **isApiException**: `boolean` = `true`
+> **`protected`** **isApiException**: `boolean` = `true`
 
-#### Defined in
+#### Source
 
 main.ts:219100
 
-___
+***
 
 ### message
 
-• **message**: `string`
+> **message**: `string`
 
 #### Overrides
 
-Error.message
+`Error.message`
 
-#### Defined in
+#### Source
 
 main.ts:219084
 
-___
+***
 
 ### name
 
-• **name**: `string`
+> **name**: `string`
 
 #### Inherited from
 
-Error.name
+`Error.name`
 
-#### Defined in
+#### Source
 
-C:/Users/thewa/AppData/Roaming/npm/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1076
+C:/Users/thewa/AppData/Roaming/npm/node\_modules/typedoc/node\_modules/typescript/lib/lib.es5.d.ts:1076
 
-___
+***
 
 ### response
 
-• **response**: `string`
+> **response**: `string`
 
-#### Defined in
+#### Source
 
 main.ts:219086
 
-___
+***
 
 ### result
 
-• **result**: `any`
+> **result**: `any`
 
-#### Defined in
+#### Source
 
 main.ts:219088
 
-___
+***
 
-### stack
+### stack?
 
-• `Optional` **stack**: `string`
+> **`optional`** **stack**: `string`
 
 #### Inherited from
 
-Error.stack
+`Error.stack`
 
-#### Defined in
+#### Source
 
-C:/Users/thewa/AppData/Roaming/npm/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1078
+C:/Users/thewa/AppData/Roaming/npm/node\_modules/typedoc/node\_modules/typescript/lib/lib.es5.d.ts:1078
 
-___
+***
 
 ### status
 
-• **status**: `number`
+> **status**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:219085
 
 ## Methods
 
-### isApiException
+### isApiException()
 
-▸ **isApiException**(`obj`): obj is ApiException
+> **`static`** **isApiException**(`obj`): `obj is ApiException`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `obj` | `any` |
+• **obj**: `any`
 
 #### Returns
 
-obj is ApiException
+`obj is ApiException`
 
-#### Defined in
+#### Source
 
 main.ts:219102

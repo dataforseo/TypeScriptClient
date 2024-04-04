@@ -1,346 +1,315 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAmazonAmazonProductInfoSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAmazonAmazonProductInfoSerpElementItem
 
 # Interface: IAmazonAmazonProductInfoSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseAmazonSerpElementItem`](IBaseAmazonSerpElementItem.md)
 
-  ↳ **`IAmazonAmazonProductInfoSerpElementItem`**
-
-## Implemented by
-
-- [`AmazonAmazonProductInfoSerpElementItem`](../classes/AmazonAmazonProductInfoSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [author](IAmazonAmazonProductInfoSerpElementItem.md#author)
-- [categories](IAmazonAmazonProductInfoSerpElementItem.md#categories)
-- [currency](IAmazonAmazonProductInfoSerpElementItem.md#currency)
-- [data\_asin](IAmazonAmazonProductInfoSerpElementItem.md#data_asin)
-- [description](IAmazonAmazonProductInfoSerpElementItem.md#description)
-- [details](IAmazonAmazonProductInfoSerpElementItem.md#details)
-- [image\_url](IAmazonAmazonProductInfoSerpElementItem.md#image_url)
-- [is\_amazon\_choice](IAmazonAmazonProductInfoSerpElementItem.md#is_amazon_choice)
-- [is\_available](IAmazonAmazonProductInfoSerpElementItem.md#is_available)
-- [is\_newer\_model\_available](IAmazonAmazonProductInfoSerpElementItem.md#is_newer_model_available)
-- [newer\_model](IAmazonAmazonProductInfoSerpElementItem.md#newer_model)
-- [parent\_asin](IAmazonAmazonProductInfoSerpElementItem.md#parent_asin)
-- [position](IAmazonAmazonProductInfoSerpElementItem.md#position)
-- [price\_from](IAmazonAmazonProductInfoSerpElementItem.md#price_from)
-- [price\_to](IAmazonAmazonProductInfoSerpElementItem.md#price_to)
-- [product\_asins](IAmazonAmazonProductInfoSerpElementItem.md#product_asins)
-- [product\_images\_list](IAmazonAmazonProductInfoSerpElementItem.md#product_images_list)
-- [product\_information](IAmazonAmazonProductInfoSerpElementItem.md#product_information)
-- [product\_videos\_list](IAmazonAmazonProductInfoSerpElementItem.md#product_videos_list)
-- [rank\_absolute](IAmazonAmazonProductInfoSerpElementItem.md#rank_absolute)
-- [rank\_group](IAmazonAmazonProductInfoSerpElementItem.md#rank_group)
-- [rating](IAmazonAmazonProductInfoSerpElementItem.md#rating)
-- [title](IAmazonAmazonProductInfoSerpElementItem.md#title)
-- [xpath](IAmazonAmazonProductInfoSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### author
+### author?
 
-• `Optional` **author**: `string`
+> **`optional`** **author**: `string`
 
 product brand name
 
-#### Defined in
+#### Source
 
 main.ts:178446
 
-___
+***
 
-### categories
+### categories?
 
-• `Optional` **categories**: [`ProductCategoryInfo`](../classes/ProductCategoryInfo.md)[]
+> **`optional`** **categories**: [`ProductCategoryInfo`](../classes/ProductCategoryInfo.md)[]
 
 contains related product categories
 
-#### Defined in
+#### Source
 
 main.ts:178475
 
-___
+***
 
-### currency
+### currency?
 
-• `Optional` **currency**: `string`
+> **`optional`** **currency**: `string`
 
 currency in the ISO format
 example:
 USD
 
-#### Defined in
+#### Source
 
 main.ts:178464
 
-___
+***
 
-### data\_asin
+### data\_asin?
 
-• `Optional` **data\_asin**: `string`
+> **`optional`** **data\_asin**: `string`
 
 ASIN of the product received in a POST array
 
-#### Defined in
+#### Source
 
 main.ts:178448
 
-___
+***
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 contains description of the product
 
-#### Defined in
+#### Source
 
 main.ts:178483
 
-___
+***
 
-### details
+### details?
 
-• `Optional` **details**: `string`
+> **`optional`** **details**: `string`
 
 product specs and other details
 
-#### Defined in
+#### Source
 
 main.ts:178442
 
-___
+***
 
-### image\_url
+### image\_url?
 
-• `Optional` **image\_url**: `string`
+> **`optional`** **image\_url**: `string`
 
 the URL of the product image
 
-#### Defined in
+#### Source
 
 main.ts:178444
 
-___
+***
 
-### is\_amazon\_choice
+### is\_amazon\_choice?
 
-• `Optional` **is\_amazon\_choice**: `boolean`
+> **`optional`** **is\_amazon\_choice**: `boolean`
 
 “Amazon’s choice” label
 if the value is true, the product is marked with the “Amazon’s choice” label
 
-#### Defined in
+#### Source
 
 main.ts:178467
 
-___
+***
 
-### is\_available
+### is\_available?
 
-• `Optional` **is\_available**: `boolean`
+> **`optional`** **is\_available**: `boolean`
 
 indicates whether the product is available for ordering
 if the value is true, the product can be ordered
 
-#### Defined in
+#### Source
 
 main.ts:178486
 
-___
+***
 
-### is\_newer\_model\_available
+### is\_newer\_model\_available?
 
-• `Optional` **is\_newer\_model\_available**: `boolean`
+> **`optional`** **is\_newer\_model\_available**: `boolean`
 
 indicates whether the newer model of the product is available
 
-#### Defined in
+#### Source
 
 main.ts:178471
 
-___
+***
 
-### newer\_model
+### newer\_model?
 
-• `Optional` **newer\_model**: [`AmazonProductNewerModelInfo`](../classes/AmazonProductNewerModelInfo.md)
+> **`optional`** **newer\_model**: [`AmazonProductNewerModelInfo`](../classes/AmazonProductNewerModelInfo.md)
 
 information about the newer model of the product
 
-#### Defined in
+#### Source
 
 main.ts:178473
 
-___
+***
 
-### parent\_asin
+### parent\_asin?
 
-• `Optional` **parent\_asin**: `string`
+> **`optional`** **parent\_asin**: `string`
 
 parent ASIN of the product
 
-#### Defined in
+#### Source
 
 main.ts:178450
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in Amazon SERP
 possible values:
 left, right
 
-#### Defined in
+#### Source
 
 main.ts:178436
 
-___
+***
 
-### price\_from
+### price\_from?
 
-• `Optional` **price\_from**: `number`
+> **`optional`** **price\_from**: `number`
 
 the lower limit of the product price range
 example:
 49.98
 
-#### Defined in
+#### Source
 
 main.ts:178456
 
-___
+***
 
-### price\_to
+### price\_to?
 
-• `Optional` **price\_to**: `number`
+> **`optional`** **price\_to**: `number`
 
 the upper limit of the product price range
 example:
 384.99
 
-#### Defined in
+#### Source
 
 main.ts:178460
 
-___
+***
 
-### product\_asins
+### product\_asins?
 
-• `Optional` **product\_asins**: `string`[]
+> **`optional`** **product\_asins**: `string`[]
 
 ASINs of all found product modifications
 
-#### Defined in
+#### Source
 
 main.ts:178452
 
-___
+***
 
-### product\_images\_list
+### product\_images\_list?
 
-• `Optional` **product\_images\_list**: `string`[]
+> **`optional`** **product\_images\_list**: `string`[]
 
 contains URLs for all images of the product displayed on the left side of the main image
 
-#### Defined in
+#### Source
 
 main.ts:178479
 
-___
+***
 
-### product\_information
+### product\_information?
 
-• `Optional` **product\_information**: [`BaseProductInformationItem`](../classes/BaseProductInformationItem.md)[]
+> **`optional`** **product\_information**: [`BaseProductInformationItem`](../classes/BaseProductInformationItem.md)[]
 
 contains related product information
 
-#### Defined in
+#### Source
 
 main.ts:178477
 
-___
+***
 
-### product\_videos\_list
+### product\_videos\_list?
 
-• `Optional` **product\_videos\_list**: `string`[]
+> **`optional`** **product\_videos\_list**: `string`[]
 
 contains URLs for all videos of the product displayed on the right side of the main video
 
-#### Defined in
+#### Source
 
 main.ts:178481
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank
 absolute position among all the elements in the response array
 
-#### Defined in
+#### Source
 
 main.ts:178432
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
 main.ts:178429
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingElement`](../classes/RatingElement.md)
+> **`optional`** **rating**: [`RatingElement`](../classes/RatingElement.md)
 
 product rating info
 
-#### Defined in
+#### Source
 
 main.ts:178469
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 product title
 
-#### Defined in
+#### Source
 
 main.ts:178440
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
 main.ts:178438

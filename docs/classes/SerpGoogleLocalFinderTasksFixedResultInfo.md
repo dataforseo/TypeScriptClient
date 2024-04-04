@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleLocalFinderTasksFixedResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleLocalFinderTasksFixedResultInfo
 
 # Class: SerpGoogleLocalFinderTasksFixedResultInfo
 
@@ -8,240 +12,209 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleLocalFinderTasksFixedResultInfo.md#constructor)
-
-### Properties
-
-- [date\_fixed](SerpGoogleLocalFinderTasksFixedResultInfo.md#date_fixed)
-- [endpoint\_advanced](SerpGoogleLocalFinderTasksFixedResultInfo.md#endpoint_advanced)
-- [endpoint\_html](SerpGoogleLocalFinderTasksFixedResultInfo.md#endpoint_html)
-- [endpoint\_regular](SerpGoogleLocalFinderTasksFixedResultInfo.md#endpoint_regular)
-- [id](SerpGoogleLocalFinderTasksFixedResultInfo.md#id)
-- [se](SerpGoogleLocalFinderTasksFixedResultInfo.md#se)
-- [se\_type](SerpGoogleLocalFinderTasksFixedResultInfo.md#se_type)
-- [tag](SerpGoogleLocalFinderTasksFixedResultInfo.md#tag)
-
-### Methods
-
-- [init](SerpGoogleLocalFinderTasksFixedResultInfo.md#init)
-- [toJSON](SerpGoogleLocalFinderTasksFixedResultInfo.md#tojson)
-- [fromJS](SerpGoogleLocalFinderTasksFixedResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleLocalFinderTasksFixedResultInfo(data)
 
-• **new SerpGoogleLocalFinderTasksFixedResultInfo**(`data?`): [`SerpGoogleLocalFinderTasksFixedResultInfo`](SerpGoogleLocalFinderTasksFixedResultInfo.md)
+> **new SerpGoogleLocalFinderTasksFixedResultInfo**(`data`?): [`SerpGoogleLocalFinderTasksFixedResultInfo`](SerpGoogleLocalFinderTasksFixedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleLocalFinderTasksFixedResultInfo`](../interfaces/ISerpGoogleLocalFinderTasksFixedResultInfo.md) |
+• **data?**: [`ISerpGoogleLocalFinderTasksFixedResultInfo`](../interfaces/ISerpGoogleLocalFinderTasksFixedResultInfo.md)
 
 #### Returns
 
 [`SerpGoogleLocalFinderTasksFixedResultInfo`](SerpGoogleLocalFinderTasksFixedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:41044
+main.ts:41050
 
 ## Properties
 
-### date\_fixed
+### date\_fixed?
 
-• `Optional` **date\_fixed**: `string`
+> **`optional`** **date\_fixed**: `string`
 
 date when the task was fixed (in the UTC format)
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderTasksFixedResultInfo](../interfaces/ISerpGoogleLocalFinderTasksFixedResultInfo.md).[date_fixed](../interfaces/ISerpGoogleLocalFinderTasksFixedResultInfo.md#date_fixed)
+[`ISerpGoogleLocalFinderTasksFixedResultInfo`](../interfaces/ISerpGoogleLocalFinderTasksFixedResultInfo.md).[`date_fixed`](../interfaces/ISerpGoogleLocalFinderTasksFixedResultInfo.md#date_fixed)
 
-#### Defined in
+#### Source
 
-main.ts:41029
+main.ts:41035
 
-___
+***
 
-### endpoint\_advanced
+### endpoint\_advanced?
 
-• `Optional` **endpoint\_advanced**: `string`
+> **`optional`** **endpoint\_advanced**: `string`
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderTasksFixedResultInfo](../interfaces/ISerpGoogleLocalFinderTasksFixedResultInfo.md).[endpoint_advanced](../interfaces/ISerpGoogleLocalFinderTasksFixedResultInfo.md#endpoint_advanced)
+[`ISerpGoogleLocalFinderTasksFixedResultInfo`](../interfaces/ISerpGoogleLocalFinderTasksFixedResultInfo.md).[`endpoint_advanced`](../interfaces/ISerpGoogleLocalFinderTasksFixedResultInfo.md#endpoint_advanced)
 
-#### Defined in
+#### Source
 
-main.ts:41037
+main.ts:41043
 
-___
+***
 
-### endpoint\_html
+### endpoint\_html?
 
-• `Optional` **endpoint\_html**: `string`
+> **`optional`** **endpoint\_html**: `string`
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderTasksFixedResultInfo](../interfaces/ISerpGoogleLocalFinderTasksFixedResultInfo.md).[endpoint_html](../interfaces/ISerpGoogleLocalFinderTasksFixedResultInfo.md#endpoint_html)
+[`ISerpGoogleLocalFinderTasksFixedResultInfo`](../interfaces/ISerpGoogleLocalFinderTasksFixedResultInfo.md).[`endpoint_html`](../interfaces/ISerpGoogleLocalFinderTasksFixedResultInfo.md#endpoint_html)
 
-#### Defined in
+#### Source
 
-main.ts:41040
+main.ts:41046
 
-___
+***
 
-### endpoint\_regular
+### endpoint\_regular?
 
-• `Optional` **endpoint\_regular**: `string`
+> **`optional`** **endpoint\_regular**: `string`
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderTasksFixedResultInfo](../interfaces/ISerpGoogleLocalFinderTasksFixedResultInfo.md).[endpoint_regular](../interfaces/ISerpGoogleLocalFinderTasksFixedResultInfo.md#endpoint_regular)
+[`ISerpGoogleLocalFinderTasksFixedResultInfo`](../interfaces/ISerpGoogleLocalFinderTasksFixedResultInfo.md).[`endpoint_regular`](../interfaces/ISerpGoogleLocalFinderTasksFixedResultInfo.md#endpoint_regular)
 
-#### Defined in
+#### Source
 
-main.ts:41034
+main.ts:41040
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderTasksFixedResultInfo](../interfaces/ISerpGoogleLocalFinderTasksFixedResultInfo.md).[id](../interfaces/ISerpGoogleLocalFinderTasksFixedResultInfo.md#id)
+[`ISerpGoogleLocalFinderTasksFixedResultInfo`](../interfaces/ISerpGoogleLocalFinderTasksFixedResultInfo.md).[`id`](../interfaces/ISerpGoogleLocalFinderTasksFixedResultInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:41022
+main.ts:41028
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderTasksFixedResultInfo](../interfaces/ISerpGoogleLocalFinderTasksFixedResultInfo.md).[se](../interfaces/ISerpGoogleLocalFinderTasksFixedResultInfo.md#se)
+[`ISerpGoogleLocalFinderTasksFixedResultInfo`](../interfaces/ISerpGoogleLocalFinderTasksFixedResultInfo.md).[`se`](../interfaces/ISerpGoogleLocalFinderTasksFixedResultInfo.md#se)
 
-#### Defined in
+#### Source
 
-main.ts:41024
+main.ts:41030
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 type of search engine
 can take the following values: local_finder
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderTasksFixedResultInfo](../interfaces/ISerpGoogleLocalFinderTasksFixedResultInfo.md).[se_type](../interfaces/ISerpGoogleLocalFinderTasksFixedResultInfo.md#se_type)
+[`ISerpGoogleLocalFinderTasksFixedResultInfo`](../interfaces/ISerpGoogleLocalFinderTasksFixedResultInfo.md).[`se_type`](../interfaces/ISerpGoogleLocalFinderTasksFixedResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:41027
+main.ts:41033
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderTasksFixedResultInfo](../interfaces/ISerpGoogleLocalFinderTasksFixedResultInfo.md).[tag](../interfaces/ISerpGoogleLocalFinderTasksFixedResultInfo.md#tag)
+[`ISerpGoogleLocalFinderTasksFixedResultInfo`](../interfaces/ISerpGoogleLocalFinderTasksFixedResultInfo.md).[`tag`](../interfaces/ISerpGoogleLocalFinderTasksFixedResultInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:41031
+main.ts:41037
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:41053
+main.ts:41059
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:41077
+main.ts:41083
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleLocalFinderTasksFixedResultInfo`](SerpGoogleLocalFinderTasksFixedResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleLocalFinderTasksFixedResultInfo`](SerpGoogleLocalFinderTasksFixedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpGoogleLocalFinderTasksFixedResultInfo`](SerpGoogleLocalFinderTasksFixedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:41070
+main.ts:41076

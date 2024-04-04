@@ -1,60 +1,51 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixAppendixDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppendixAppendixDataInfo
 
 # Interface: IAppendixAppendixDataInfo
 
-## Implemented by
-
-- [`AppendixAppendixDataInfo`](../classes/AppendixAppendixDataInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [errors](IAppendixAppendixDataInfo.md#errors)
-- [status](IAppendixAppendixDataInfo.md#status)
-- [test](IAppendixAppendixDataInfo.md#test)
-- [user\_data](IAppendixAppendixDataInfo.md#user_data)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### errors
+### errors?
 
-• `Optional` **errors**: `number`
+> **`optional`** **errors**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:214424
 
-___
+***
 
-### status
+### status?
 
-• `Optional` **status**: `number`
+> **`optional`** **status**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:214426
 
-___
+***
 
-### test
+### test?
 
-• `Optional` **test**: `number`
+> **`optional`** **test**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:214425
 
-___
+***
 
-### user\_data
+### user\_data?
 
-• `Optional` **user\_data**: `number`
+> **`optional`** **user\_data**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:214423

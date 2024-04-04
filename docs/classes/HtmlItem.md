@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / HtmlItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / HtmlItem
 
 # Class: HtmlItem
 
@@ -8,51 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](HtmlItem.md#constructor)
-
-### Properties
-
-- [date](HtmlItem.md#date)
-- [html](HtmlItem.md#html)
-- [page](HtmlItem.md#page)
-
-### Methods
-
-- [init](HtmlItem.md#init)
-- [toJSON](HtmlItem.md#tojson)
-- [fromJS](HtmlItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new HtmlItem(data)
 
-• **new HtmlItem**(`data?`): [`HtmlItem`](HtmlItem.md)
+> **new HtmlItem**(`data`?): [`HtmlItem`](HtmlItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IHtmlItem`](../interfaces/IHtmlItem.md) |
+• **data?**: [`IHtmlItem`](../interfaces/IHtmlItem.md)
 
 #### Returns
 
 [`HtmlItem`](HtmlItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:37044
+main.ts:37050
 
 ## Properties
 
-### date
+### date?
 
-• `Optional` **date**: `string`
+> **`optional`** **date**: `string`
 
 date and time when the HTML page was scanned
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -61,100 +45,94 @@ example:
 
 #### Implementation of
 
-[IHtmlItem](../interfaces/IHtmlItem.md).[date](../interfaces/IHtmlItem.md#date)
+[`IHtmlItem`](../interfaces/IHtmlItem.md).[`date`](../interfaces/IHtmlItem.md#date)
 
-#### Defined in
+#### Source
 
-main.ts:37038
+main.ts:37044
 
-___
+***
 
-### html
+### html?
 
-• `Optional` **html**: `string`
+> **`optional`** **html**: `string`
 
 HTML page
 
 #### Implementation of
 
-[IHtmlItem](../interfaces/IHtmlItem.md).[html](../interfaces/IHtmlItem.md#html)
+[`IHtmlItem`](../interfaces/IHtmlItem.md).[`html`](../interfaces/IHtmlItem.md#html)
 
-#### Defined in
+#### Source
 
-main.ts:37040
+main.ts:37046
 
-___
+***
 
-### page
+### page?
 
-• `Optional` **page**: `number`
+> **`optional`** **page**: `number`
 
 serial number of the returned HTML page
 
 #### Implementation of
 
-[IHtmlItem](../interfaces/IHtmlItem.md).[page](../interfaces/IHtmlItem.md#page)
+[`IHtmlItem`](../interfaces/IHtmlItem.md).[`page`](../interfaces/IHtmlItem.md#page)
 
-#### Defined in
+#### Source
 
-main.ts:37033
+main.ts:37039
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:37053
+main.ts:37059
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:37072
+main.ts:37078
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`HtmlItem`](HtmlItem.md)
+> **`static`** **fromJS**(`data`): [`HtmlItem`](HtmlItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`HtmlItem`](HtmlItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:37065
+main.ts:37071

@@ -1,96 +1,85 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingBulkTrafficEstimationLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsBingBulkTrafficEstimationLiveResultInfo
 
 # Interface: IDataforseoLabsBingBulkTrafficEstimationLiveResultInfo
 
-## Implemented by
-
-- [`DataforseoLabsBingBulkTrafficEstimationLiveResultInfo`](../classes/DataforseoLabsBingBulkTrafficEstimationLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IDataforseoLabsBingBulkTrafficEstimationLiveResultInfo.md#items)
-- [items\_count](IDataforseoLabsBingBulkTrafficEstimationLiveResultInfo.md#items_count)
-- [language\_code](IDataforseoLabsBingBulkTrafficEstimationLiveResultInfo.md#language_code)
-- [location\_code](IDataforseoLabsBingBulkTrafficEstimationLiveResultInfo.md#location_code)
-- [se\_type](IDataforseoLabsBingBulkTrafficEstimationLiveResultInfo.md#se_type)
-- [total\_count](IDataforseoLabsBingBulkTrafficEstimationLiveResultInfo.md#total_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`DataforseoLabsBulkTrafficEstimationLiveItem`](../classes/DataforseoLabsBulkTrafficEstimationLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsBulkTrafficEstimationLiveItem`](../classes/DataforseoLabsBulkTrafficEstimationLiveItem.md)[]
 
 array of items with relevant traffic estimation data
 
-#### Defined in
+#### Source
 
-main.ts:105082
+main.ts:105090
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Defined in
+#### Source
 
-main.ts:105080
+main.ts:105088
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 if there is no data, then the value is null
 
-#### Defined in
+#### Source
 
-main.ts:105076
+main.ts:105084
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 if there is no data, then the value is null
 
-#### Defined in
+#### Source
 
-main.ts:105073
+main.ts:105081
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:105070
+main.ts:105078
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
-#### Defined in
+#### Source
 
-main.ts:105078
+main.ts:105086

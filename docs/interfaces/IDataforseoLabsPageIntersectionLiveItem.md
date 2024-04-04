@@ -1,28 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsPageIntersectionLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsPageIntersectionLiveItem
 
 # Interface: IDataforseoLabsPageIntersectionLiveItem
 
-## Implemented by
-
-- [`DataforseoLabsPageIntersectionLiveItem`](../classes/DataforseoLabsPageIntersectionLiveItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [intersection\_result](IDataforseoLabsPageIntersectionLiveItem.md#intersection_result)
-- [keyword\_data](IDataforseoLabsPageIntersectionLiveItem.md#keyword_data)
-- [se\_type](IDataforseoLabsPageIntersectionLiveItem.md#se_type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### intersection\_result
+### intersection\_result?
 
-• `Optional` **intersection\_result**: `Object`
+> **`optional`** **intersection\_result**: `Object`
 
 contains data on the SERP elements found for the returned keyword
 data will be provided in separate arrays for each URL you specified in the pages object when setting a task;
@@ -30,32 +22,32 @@ depending on the number of specified URLs, it can contain from 1 to 20 arrays na
 
 #### Index signature
 
-▪ [key: `string`]: [`BaseDataforseoLabsSerpElementItem`](../classes/BaseDataforseoLabsSerpElementItem.md)
+ \[`key`: `string`\]: [`BaseDataforseoLabsSerpElementItem`](../classes/BaseDataforseoLabsSerpElementItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:99588
+main.ts:99596
 
-___
+***
 
-### keyword\_data
+### keyword\_data?
 
-• `Optional` **keyword\_data**: [`KeywordData`](../classes/KeywordData.md)
+> **`optional`** **keyword\_data**: [`KeywordData`](../classes/KeywordData.md)
 
 keyword data for the returned keyword
 
-#### Defined in
+#### Source
 
-main.ts:99584
+main.ts:99592
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:99582
+main.ts:99590

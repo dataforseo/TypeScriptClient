@@ -1,31 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataTrustpilotSearchTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBusinessDataTrustpilotSearchTaskPostRequestInfo
 
 # Interface: IBusinessDataTrustpilotSearchTaskPostRequestInfo
 
-## Implemented by
-
-- [`BusinessDataTrustpilotSearchTaskPostRequestInfo`](../classes/BusinessDataTrustpilotSearchTaskPostRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [depth](IBusinessDataTrustpilotSearchTaskPostRequestInfo.md#depth)
-- [keyword](IBusinessDataTrustpilotSearchTaskPostRequestInfo.md#keyword)
-- [pingback\_url](IBusinessDataTrustpilotSearchTaskPostRequestInfo.md#pingback_url)
-- [postback\_url](IBusinessDataTrustpilotSearchTaskPostRequestInfo.md#postback_url)
-- [priority](IBusinessDataTrustpilotSearchTaskPostRequestInfo.md#priority)
-- [tag](IBusinessDataTrustpilotSearchTaskPostRequestInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### depth
+### depth?
 
-• `Optional` **depth**: `number`
+> **`optional`** **depth**: `number`
 
 parsing depth
 optional field
@@ -35,15 +24,15 @@ default value: 10;
 maximum value: 140
 Note: your account will be charged for every 10 search results returned, e.g. if you specify depth: 11, you will be charged as per 20 search results
 
-#### Defined in
+#### Source
 
 main.ts:204248
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword
 required field
@@ -52,15 +41,15 @@ you can specify up to 700 symbols in the keyword filed;
 all %## will be decoded (plus symbol ‘+’ will be decoded to a space character);
 if you need to use the “%” symbol for your keyword, please specify it as “%25”
 
-#### Defined in
+#### Source
 
 main.ts:204232
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -72,15 +61,15 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special symbols in pingback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
 main.ts:204274
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -92,15 +81,15 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special symbols in postback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
 main.ts:204264
 
-___
+***
 
-### priority
+### priority?
 
-• `Optional` **priority**: `number`
+> **`optional`** **priority**: `number`
 
 task priority
 optional field
@@ -110,15 +99,15 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page.
 
-#### Defined in
+#### Source
 
 main.ts:204240
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -126,6 +115,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
 main.ts:204254

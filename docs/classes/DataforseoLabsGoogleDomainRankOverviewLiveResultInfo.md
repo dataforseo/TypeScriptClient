@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleDomainRankOverviewLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsGoogleDomainRankOverviewLiveResultInfo
 
 # Class: DataforseoLabsGoogleDomainRankOverviewLiveResultInfo
 
@@ -8,218 +12,188 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md#constructor)
-
-### Properties
-
-- [items](DataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md#items)
-- [items\_count](DataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md#items_count)
-- [language\_code](DataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md#language_code)
-- [location\_code](DataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md#location_code)
-- [se\_type](DataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md#se_type)
-- [target](DataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md#target)
-- [total\_count](DataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md#total_count)
-
-### Methods
-
-- [init](DataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md#init)
-- [toJSON](DataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md#tojson)
-- [fromJS](DataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsGoogleDomainRankOverviewLiveResultInfo(data)
 
-• **new DataforseoLabsGoogleDomainRankOverviewLiveResultInfo**(`data?`): [`DataforseoLabsGoogleDomainRankOverviewLiveResultInfo`](DataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md)
+> **new DataforseoLabsGoogleDomainRankOverviewLiveResultInfo**(`data`?): [`DataforseoLabsGoogleDomainRankOverviewLiveResultInfo`](DataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md) |
+• **data?**: [`IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleDomainRankOverviewLiveResultInfo`](DataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:93143
+main.ts:93151
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`DataforseoLabsDomainRankOverviewLiveItem`](DataforseoLabsDomainRankOverviewLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsDomainRankOverviewLiveItem`](DataforseoLabsDomainRankOverviewLiveItem.md)[]
 
 contains ranking and traffic data
 
 #### Implementation of
 
-[IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md).[items](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md#items)
+[`IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:93139
+main.ts:93147
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md).[items_count](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md#items_count)
+[`IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:93137
+main.ts:93145
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md).[language_code](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md#language_code)
+[`IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:93133
+main.ts:93141
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md).[location_code](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md#location_code)
+[`IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:93131
+main.ts:93139
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md).[se_type](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md#se_type)
+[`IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:93127
+main.ts:93135
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 target domain in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md).[target](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md#target)
+[`IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md).[`target`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md#target)
 
-#### Defined in
+#### Source
 
-main.ts:93129
+main.ts:93137
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
 #### Implementation of
 
-[IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md).[total_count](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md#total_count)
+[`IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md#total_count)
 
-#### Defined in
+#### Source
 
-main.ts:93135
+main.ts:93143
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:93152
+main.ts:93160
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:93179
+main.ts:93187
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsGoogleDomainRankOverviewLiveResultInfo`](DataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleDomainRankOverviewLiveResultInfo`](DataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsGoogleDomainRankOverviewLiveResultInfo`](DataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:93172
+main.ts:93180

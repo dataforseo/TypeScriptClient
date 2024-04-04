@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksTimeseriesNewLostSummaryLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BacklinksTimeseriesNewLostSummaryLiveRequestInfo
 
 # Class: BacklinksTimeseriesNewLostSummaryLiveRequestInfo
 
@@ -8,53 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BacklinksTimeseriesNewLostSummaryLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [date\_from](BacklinksTimeseriesNewLostSummaryLiveRequestInfo.md#date_from)
-- [date\_to](BacklinksTimeseriesNewLostSummaryLiveRequestInfo.md#date_to)
-- [group\_range](BacklinksTimeseriesNewLostSummaryLiveRequestInfo.md#group_range)
-- [tag](BacklinksTimeseriesNewLostSummaryLiveRequestInfo.md#tag)
-- [target](BacklinksTimeseriesNewLostSummaryLiveRequestInfo.md#target)
-
-### Methods
-
-- [init](BacklinksTimeseriesNewLostSummaryLiveRequestInfo.md#init)
-- [toJSON](BacklinksTimeseriesNewLostSummaryLiveRequestInfo.md#tojson)
-- [fromJS](BacklinksTimeseriesNewLostSummaryLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BacklinksTimeseriesNewLostSummaryLiveRequestInfo(data)
 
-• **new BacklinksTimeseriesNewLostSummaryLiveRequestInfo**(`data?`): [`BacklinksTimeseriesNewLostSummaryLiveRequestInfo`](BacklinksTimeseriesNewLostSummaryLiveRequestInfo.md)
+> **new BacklinksTimeseriesNewLostSummaryLiveRequestInfo**(`data`?): [`BacklinksTimeseriesNewLostSummaryLiveRequestInfo`](BacklinksTimeseriesNewLostSummaryLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBacklinksTimeseriesNewLostSummaryLiveRequestInfo`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md) |
+• **data?**: [`IBacklinksTimeseriesNewLostSummaryLiveRequestInfo`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md)
 
 #### Returns
 
 [`BacklinksTimeseriesNewLostSummaryLiveRequestInfo`](BacklinksTimeseriesNewLostSummaryLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:144309
+main.ts:144317
 
 ## Properties
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -69,17 +51,17 @@ example:
 
 #### Implementation of
 
-[IBacklinksTimeseriesNewLostSummaryLiveRequestInfo](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md).[date_from](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md#date_from)
+[`IBacklinksTimeseriesNewLostSummaryLiveRequestInfo`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md).[`date_from`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md#date_from)
 
-#### Defined in
+#### Source
 
-main.ts:144277
+main.ts:144285
 
-___
+***
 
-### date\_to
+### date\_to?
 
-• `Optional` **date\_to**: `string`
+> **`optional`** **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -92,17 +74,17 @@ example:
 
 #### Implementation of
 
-[IBacklinksTimeseriesNewLostSummaryLiveRequestInfo](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md).[date_to](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md#date_to)
+[`IBacklinksTimeseriesNewLostSummaryLiveRequestInfo`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md).[`date_to`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md#date_to)
 
-#### Defined in
+#### Source
 
-main.ts:144286
+main.ts:144294
 
-___
+***
 
-### group\_range
+### group\_range?
 
-• `Optional` **group\_range**: `string`
+> **`optional`** **group\_range**: `string`
 
 time range which will be used to group the results
 optional field
@@ -119,17 +101,17 @@ if there is no data for a certain  day/week/month/year, we will return 0
 
 #### Implementation of
 
-[IBacklinksTimeseriesNewLostSummaryLiveRequestInfo](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md).[group_range](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md#group_range)
+[`IBacklinksTimeseriesNewLostSummaryLiveRequestInfo`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md).[`group_range`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md#group_range)
 
-#### Defined in
+#### Source
 
-main.ts:144299
+main.ts:144307
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -139,17 +121,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IBacklinksTimeseriesNewLostSummaryLiveRequestInfo](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md).[tag](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md#tag)
+[`IBacklinksTimeseriesNewLostSummaryLiveRequestInfo`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md).[`tag`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:144305
+main.ts:144313
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 domain to get data for
 required field
@@ -159,68 +141,62 @@ example:
 
 #### Implementation of
 
-[IBacklinksTimeseriesNewLostSummaryLiveRequestInfo](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md).[target](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md#target)
+[`IBacklinksTimeseriesNewLostSummaryLiveRequestInfo`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md).[`target`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md#target)
 
-#### Defined in
+#### Source
 
-main.ts:144266
+main.ts:144274
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:144318
+main.ts:144326
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:144339
+main.ts:144347
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BacklinksTimeseriesNewLostSummaryLiveRequestInfo`](BacklinksTimeseriesNewLostSummaryLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`BacklinksTimeseriesNewLostSummaryLiveRequestInfo`](BacklinksTimeseriesNewLostSummaryLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BacklinksTimeseriesNewLostSummaryLiveRequestInfo`](BacklinksTimeseriesNewLostSummaryLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:144332
+main.ts:144340

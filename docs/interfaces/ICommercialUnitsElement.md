@@ -1,109 +1,97 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ICommercialUnitsElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ICommercialUnitsElement
 
 # Interface: ICommercialUnitsElement
 
-## Implemented by
-
-- [`CommercialUnitsElement`](../classes/CommercialUnitsElement.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [domain](ICommercialUnitsElement.md#domain)
-- [price](ICommercialUnitsElement.md#price)
-- [rating](ICommercialUnitsElement.md#rating)
-- [source](ICommercialUnitsElement.md#source)
-- [title](ICommercialUnitsElement.md#title)
-- [type](ICommercialUnitsElement.md#type)
-- [url](ICommercialUnitsElement.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 website domain
 
-#### Defined in
+#### Source
 
-main.ts:34368
+main.ts:34374
 
-___
+***
 
-### price
+### price?
 
-• `Optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
+> **`optional`** **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
 price indicated in the element
 
-#### Defined in
+#### Source
 
-main.ts:34370
+main.ts:34376
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
-#### Defined in
+#### Source
 
-main.ts:34376
+main.ts:34382
 
-___
+***
 
-### source
+### source?
 
-• `Optional` **source**: `string`
+> **`optional`** **source**: `string`
 
 source of the element
 indicates the source of information included in the top_stories_element
 
-#### Defined in
+#### Source
 
-main.ts:34373
+main.ts:34379
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
-#### Defined in
+#### Source
 
-main.ts:34364
+main.ts:34370
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:34362
+main.ts:34368
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL
 
-#### Defined in
+#### Source
 
-main.ts:34366
+main.ts:34372

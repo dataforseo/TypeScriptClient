@@ -1,47 +1,35 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo
 
-## Implemented by
-
-- [`DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo`](../classes/DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [include\_serp\_info](IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md#include_serp_info)
-- [keywords](IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md#keywords)
-- [language\_code](IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md#language_code)
-- [language\_name](IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md#language_name)
-- [location\_code](IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md#location_code)
-- [location\_name](IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md#location_name)
-- [tag](IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### include\_serp\_info
+### include\_serp\_info?
 
-• `Optional` **include\_serp\_info**: `boolean`
+> **`optional`** **include\_serp\_info**: `boolean`
 
 include data from SERP for each keyword
 optional field
 if set to true, we will return a serp_info array containing SERP data (number of search results, relevant URL, and SERP features) for every keyword in the response
 default value: false
 
-#### Defined in
+#### Source
 
-main.ts:84272
+main.ts:84280
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 keywords
 required field
@@ -52,15 +40,15 @@ the specified keywords will be converted to lowercase format, data will be provi
 note that if some of the keywords specified in this array are omitted in the results you receive, then our database doesn’t contain such keywords and cannot return data on them
 you will not be charged for the keywords omitted in the results
 
-#### Defined in
+#### Source
 
-main.ts:84235
+main.ts:84243
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 required field if you don’t specify language_name
@@ -70,15 +58,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:84267
+main.ts:84275
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -88,15 +76,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:84259
+main.ts:84267
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 required field if you don’t specify location_name
@@ -106,15 +94,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:84251
+main.ts:84259
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code
@@ -124,15 +112,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 United Kingdom
 
-#### Defined in
+#### Source
 
-main.ts:84243
+main.ts:84251
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -140,6 +128,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:84278
+main.ts:84286

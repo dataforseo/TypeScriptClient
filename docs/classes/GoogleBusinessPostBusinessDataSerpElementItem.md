@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / GoogleBusinessPostBusinessDataSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / GoogleBusinessPostBusinessDataSerpElementItem
 
 # Class: GoogleBusinessPostBusinessDataSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)
-
-  ↳ **`GoogleBusinessPostBusinessDataSerpElementItem`**
 
 ## Implements
 
@@ -14,47 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](GoogleBusinessPostBusinessDataSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](GoogleBusinessPostBusinessDataSerpElementItem.md#_discriminator)
-- [author](GoogleBusinessPostBusinessDataSerpElementItem.md#author)
-- [images\_url](GoogleBusinessPostBusinessDataSerpElementItem.md#images_url)
-- [links](GoogleBusinessPostBusinessDataSerpElementItem.md#links)
-- [position](GoogleBusinessPostBusinessDataSerpElementItem.md#position)
-- [post\_date](GoogleBusinessPostBusinessDataSerpElementItem.md#post_date)
-- [post\_text](GoogleBusinessPostBusinessDataSerpElementItem.md#post_text)
-- [rank\_absolute](GoogleBusinessPostBusinessDataSerpElementItem.md#rank_absolute)
-- [rank\_group](GoogleBusinessPostBusinessDataSerpElementItem.md#rank_group)
-- [snippet](GoogleBusinessPostBusinessDataSerpElementItem.md#snippet)
-- [timestamp](GoogleBusinessPostBusinessDataSerpElementItem.md#timestamp)
-- [url](GoogleBusinessPostBusinessDataSerpElementItem.md#url)
-- [xpath](GoogleBusinessPostBusinessDataSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](GoogleBusinessPostBusinessDataSerpElementItem.md#init)
-- [toJSON](GoogleBusinessPostBusinessDataSerpElementItem.md#tojson)
-- [fromJS](GoogleBusinessPostBusinessDataSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new GoogleBusinessPostBusinessDataSerpElementItem(data)
 
-• **new GoogleBusinessPostBusinessDataSerpElementItem**(`data?`): [`GoogleBusinessPostBusinessDataSerpElementItem`](GoogleBusinessPostBusinessDataSerpElementItem.md)
+> **new GoogleBusinessPostBusinessDataSerpElementItem**(`data`?): [`GoogleBusinessPostBusinessDataSerpElementItem`](GoogleBusinessPostBusinessDataSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IGoogleBusinessPostBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md) |
+• **data?**: [`IGoogleBusinessPostBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md)
 
 #### Returns
 
@@ -62,9 +34,9 @@
 
 #### Overrides
 
-[BaseBusinessDataSerpElementItem](BaseBusinessDataSerpElementItem.md).[constructor](BaseBusinessDataSerpElementItem.md#constructor)
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`constructor`](BaseBusinessDataSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:197844
 
@@ -72,86 +44,86 @@ main.ts:197844
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseBusinessDataSerpElementItem](BaseBusinessDataSerpElementItem.md).[_discriminator](BaseBusinessDataSerpElementItem.md#_discriminator)
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`_discriminator`](BaseBusinessDataSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:20532
 
-___
+***
 
-### author
+### author?
 
-• `Optional` **author**: `string`
+> **`optional`** **author**: `string`
 
 author of the post
 
 #### Implementation of
 
-[IGoogleBusinessPostBusinessDataSerpElementItem](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md).[author](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md#author)
+[`IGoogleBusinessPostBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md).[`author`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md#author)
 
-#### Defined in
+#### Source
 
 main.ts:197821
 
-___
+***
 
-### images\_url
+### images\_url?
 
-• `Optional` **images\_url**: `string`
+> **`optional`** **images\_url**: `string`
 
 url of an image included in the post
 
 #### Implementation of
 
-[IGoogleBusinessPostBusinessDataSerpElementItem](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md).[images_url](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md#images_url)
+[`IGoogleBusinessPostBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md).[`images_url`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md#images_url)
 
-#### Defined in
+#### Source
 
 main.ts:197829
 
-___
+***
 
-### links
+### links?
 
-• `Optional` **links**: [`LinkElement`](LinkElement.md)[]
+> **`optional`** **links**: [`LinkElement`](LinkElement.md)[]
 
 links included in the post
 
 #### Implementation of
 
-[IGoogleBusinessPostBusinessDataSerpElementItem](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md).[links](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md#links)
+[`IGoogleBusinessPostBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md).[`links`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md#links)
 
-#### Defined in
+#### Source
 
 main.ts:197840
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values: right
 
 #### Implementation of
 
-[IGoogleBusinessPostBusinessDataSerpElementItem](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md).[position](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md#position)
+[`IGoogleBusinessPostBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md).[`position`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
 main.ts:197817
 
-___
+***
 
-### post\_date
+### post\_date?
 
-• `Optional` **post\_date**: `string`
+> **`optional`** **post\_date**: `string`
 
 date when a post was published
 in the following format:
@@ -159,83 +131,83 @@ in the following format:
 
 #### Implementation of
 
-[IGoogleBusinessPostBusinessDataSerpElementItem](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md).[post_date](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md#post_date)
+[`IGoogleBusinessPostBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md).[`post_date`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md#post_date)
 
-#### Defined in
+#### Source
 
 main.ts:197833
 
-___
+***
 
-### post\_text
+### post\_text?
 
-• `Optional` **post\_text**: `string`
+> **`optional`** **post\_text**: `string`
 
 main content of a post
 
 #### Implementation of
 
-[IGoogleBusinessPostBusinessDataSerpElementItem](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md).[post_text](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md#post_text)
+[`IGoogleBusinessPostBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md).[`post_text`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md#post_text)
 
-#### Defined in
+#### Source
 
 main.ts:197825
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank among all the listed updates
 absolute position among all present elements
 
 #### Implementation of
 
-[IGoogleBusinessPostBusinessDataSerpElementItem](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md).[rank_absolute](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md#rank_absolute)
+[`IGoogleBusinessPostBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md).[`rank_absolute`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
 main.ts:197814
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
-[IGoogleBusinessPostBusinessDataSerpElementItem](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md).[rank_group](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md#rank_group)
+[`IGoogleBusinessPostBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md).[`rank_group`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
 main.ts:197811
 
-___
+***
 
-### snippet
+### snippet?
 
-• `Optional` **snippet**: `string`
+> **`optional`** **snippet**: `string`
 
 additional content of a post
 
 #### Implementation of
 
-[IGoogleBusinessPostBusinessDataSerpElementItem](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md).[snippet](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md#snippet)
+[`IGoogleBusinessPostBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md).[`snippet`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md#snippet)
 
-#### Defined in
+#### Source
 
 main.ts:197823
 
-___
+***
 
-### timestamp
+### timestamp?
 
-• `Optional` **timestamp**: `string`
+> **`optional`** **timestamp**: `string`
 
 time when a post was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -244,55 +216,53 @@ example:
 
 #### Implementation of
 
-[IGoogleBusinessPostBusinessDataSerpElementItem](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md).[timestamp](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md#timestamp)
+[`IGoogleBusinessPostBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md).[`timestamp`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md#timestamp)
 
-#### Defined in
+#### Source
 
 main.ts:197838
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 url of a post
 
 #### Implementation of
 
-[IGoogleBusinessPostBusinessDataSerpElementItem](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md).[url](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md#url)
+[`IGoogleBusinessPostBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md).[`url`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:197827
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IGoogleBusinessPostBusinessDataSerpElementItem](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md).[xpath](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md#xpath)
+[`IGoogleBusinessPostBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md).[`xpath`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
 main.ts:197819
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -300,23 +270,21 @@ main.ts:197819
 
 #### Overrides
 
-[BaseBusinessDataSerpElementItem](BaseBusinessDataSerpElementItem.md).[init](BaseBusinessDataSerpElementItem.md#init)
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`init`](BaseBusinessDataSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:197849
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -324,23 +292,21 @@ ___
 
 #### Overrides
 
-[BaseBusinessDataSerpElementItem](BaseBusinessDataSerpElementItem.md).[toJSON](BaseBusinessDataSerpElementItem.md#tojson)
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`toJSON`](BaseBusinessDataSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:197882
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`GoogleBusinessPostBusinessDataSerpElementItem`](GoogleBusinessPostBusinessDataSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`GoogleBusinessPostBusinessDataSerpElementItem`](GoogleBusinessPostBusinessDataSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -348,8 +314,8 @@ ___
 
 #### Overrides
 
-[BaseBusinessDataSerpElementItem](BaseBusinessDataSerpElementItem.md).[fromJS](BaseBusinessDataSerpElementItem.md#fromjs)
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`fromJS`](BaseBusinessDataSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:197875

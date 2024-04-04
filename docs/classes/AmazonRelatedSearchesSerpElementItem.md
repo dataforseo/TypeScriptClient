@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AmazonRelatedSearchesSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AmazonRelatedSearchesSerpElementItem
 
 # Class: AmazonRelatedSearchesSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)
-
-  ↳ **`AmazonRelatedSearchesSerpElementItem`**
 
 ## Implements
 
@@ -14,40 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AmazonRelatedSearchesSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](AmazonRelatedSearchesSerpElementItem.md#_discriminator)
-- [items](AmazonRelatedSearchesSerpElementItem.md#items)
-- [position](AmazonRelatedSearchesSerpElementItem.md#position)
-- [rank\_absolute](AmazonRelatedSearchesSerpElementItem.md#rank_absolute)
-- [rank\_group](AmazonRelatedSearchesSerpElementItem.md#rank_group)
-- [xpath](AmazonRelatedSearchesSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](AmazonRelatedSearchesSerpElementItem.md#init)
-- [toJSON](AmazonRelatedSearchesSerpElementItem.md#tojson)
-- [fromJS](AmazonRelatedSearchesSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AmazonRelatedSearchesSerpElementItem(data)
 
-• **new AmazonRelatedSearchesSerpElementItem**(`data?`): [`AmazonRelatedSearchesSerpElementItem`](AmazonRelatedSearchesSerpElementItem.md)
+> **new AmazonRelatedSearchesSerpElementItem**(`data`?): [`AmazonRelatedSearchesSerpElementItem`](AmazonRelatedSearchesSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAmazonRelatedSearchesSerpElementItem`](../interfaces/IAmazonRelatedSearchesSerpElementItem.md) |
+• **data?**: [`IAmazonRelatedSearchesSerpElementItem`](../interfaces/IAmazonRelatedSearchesSerpElementItem.md)
 
 #### Returns
 
@@ -55,9 +34,9 @@
 
 #### Overrides
 
-[BaseAmazonSerpElementItem](BaseAmazonSerpElementItem.md).[constructor](BaseAmazonSerpElementItem.md#constructor)
+[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`constructor`](BaseAmazonSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:176569
 
@@ -65,37 +44,37 @@ main.ts:176569
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseAmazonSerpElementItem](BaseAmazonSerpElementItem.md).[_discriminator](BaseAmazonSerpElementItem.md#_discriminator)
+[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`_discriminator`](BaseAmazonSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:21275
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`RelatedSearchesElement`](RelatedSearchesElement.md)[]
+> **`optional`** **items**: [`RelatedSearchesElement`](RelatedSearchesElement.md)[]
 
 Amazon product items
 
 #### Implementation of
 
-[IAmazonRelatedSearchesSerpElementItem](../interfaces/IAmazonRelatedSearchesSerpElementItem.md).[items](../interfaces/IAmazonRelatedSearchesSerpElementItem.md#items)
+[`IAmazonRelatedSearchesSerpElementItem`](../interfaces/IAmazonRelatedSearchesSerpElementItem.md).[`items`](../interfaces/IAmazonRelatedSearchesSerpElementItem.md#items)
 
-#### Defined in
+#### Source
 
 main.ts:176565
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in Amazon SERP
 possible values:
@@ -103,73 +82,71 @@ left, right
 
 #### Implementation of
 
-[IAmazonRelatedSearchesSerpElementItem](../interfaces/IAmazonRelatedSearchesSerpElementItem.md).[position](../interfaces/IAmazonRelatedSearchesSerpElementItem.md#position)
+[`IAmazonRelatedSearchesSerpElementItem`](../interfaces/IAmazonRelatedSearchesSerpElementItem.md).[`position`](../interfaces/IAmazonRelatedSearchesSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
 main.ts:176561
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements found in Amazon SERP
 
 #### Implementation of
 
-[IAmazonRelatedSearchesSerpElementItem](../interfaces/IAmazonRelatedSearchesSerpElementItem.md).[rank_absolute](../interfaces/IAmazonRelatedSearchesSerpElementItem.md#rank_absolute)
+[`IAmazonRelatedSearchesSerpElementItem`](../interfaces/IAmazonRelatedSearchesSerpElementItem.md).[`rank_absolute`](../interfaces/IAmazonRelatedSearchesSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
 main.ts:176557
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
-[IAmazonRelatedSearchesSerpElementItem](../interfaces/IAmazonRelatedSearchesSerpElementItem.md).[rank_group](../interfaces/IAmazonRelatedSearchesSerpElementItem.md#rank_group)
+[`IAmazonRelatedSearchesSerpElementItem`](../interfaces/IAmazonRelatedSearchesSerpElementItem.md).[`rank_group`](../interfaces/IAmazonRelatedSearchesSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
 main.ts:176554
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IAmazonRelatedSearchesSerpElementItem](../interfaces/IAmazonRelatedSearchesSerpElementItem.md).[xpath](../interfaces/IAmazonRelatedSearchesSerpElementItem.md#xpath)
+[`IAmazonRelatedSearchesSerpElementItem`](../interfaces/IAmazonRelatedSearchesSerpElementItem.md).[`xpath`](../interfaces/IAmazonRelatedSearchesSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
 main.ts:176563
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -177,23 +154,21 @@ main.ts:176563
 
 #### Overrides
 
-[BaseAmazonSerpElementItem](BaseAmazonSerpElementItem.md).[init](BaseAmazonSerpElementItem.md#init)
+[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`init`](BaseAmazonSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:176574
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -201,23 +176,21 @@ ___
 
 #### Overrides
 
-[BaseAmazonSerpElementItem](BaseAmazonSerpElementItem.md).[toJSON](BaseAmazonSerpElementItem.md#tojson)
+[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`toJSON`](BaseAmazonSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:176600
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AmazonRelatedSearchesSerpElementItem`](AmazonRelatedSearchesSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`AmazonRelatedSearchesSerpElementItem`](AmazonRelatedSearchesSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -225,8 +198,8 @@ ___
 
 #### Overrides
 
-[BaseAmazonSerpElementItem](BaseAmazonSerpElementItem.md).[fromJS](BaseAmazonSerpElementItem.md#fromjs)
+[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`fromJS`](BaseAmazonSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:176593

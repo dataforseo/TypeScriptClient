@@ -1,68 +1,59 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IFaqBoxElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IFaqBoxElement
 
 # Interface: IFaqBoxElement
 
-## Implemented by
-
-- [`FaqBoxElement`](../classes/FaqBoxElement.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [description](IFaqBoxElement.md#description)
-- [links](IFaqBoxElement.md#links)
-- [title](IFaqBoxElement.md#title)
-- [type](IFaqBoxElement.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description
 
-#### Defined in
+#### Source
 
 main.ts:28640
 
-___
+***
 
-### links
+### links?
 
-• `Optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
+> **`optional`** **links**: [`LinkElement`](../classes/LinkElement.md)[]
 
 link of the element
 
-#### Defined in
+#### Source
 
 main.ts:28642
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
-#### Defined in
+#### Source
 
 main.ts:28638
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
 main.ts:28636

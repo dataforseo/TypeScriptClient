@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / Rectangle
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / Rectangle
 
 # Class: Rectangle
 
@@ -8,169 +12,142 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](Rectangle.md#constructor)
-
-### Properties
-
-- [height](Rectangle.md#height)
-- [width](Rectangle.md#width)
-- [x](Rectangle.md#x)
-- [y](Rectangle.md#y)
-
-### Methods
-
-- [init](Rectangle.md#init)
-- [toJSON](Rectangle.md#tojson)
-- [fromJS](Rectangle.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new Rectangle(data)
 
-• **new Rectangle**(`data?`): [`Rectangle`](Rectangle.md)
+> **new Rectangle**(`data`?): [`Rectangle`](Rectangle.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IRectangle`](../interfaces/IRectangle.md) |
+• **data?**: [`IRectangle`](../interfaces/IRectangle.md)
 
 #### Returns
 
 [`Rectangle`](Rectangle.md)
 
-#### Defined in
+#### Source
 
 main.ts:21378
 
 ## Properties
 
-### height
+### height?
 
-• `Optional` **height**: `number`
+> **`optional`** **height**: `number`
 
 height of the element in pixels
 
 #### Implementation of
 
-[IRectangle](../interfaces/IRectangle.md).[height](../interfaces/IRectangle.md#height)
+[`IRectangle`](../interfaces/IRectangle.md).[`height`](../interfaces/IRectangle.md#height)
 
-#### Defined in
+#### Source
 
 main.ts:21374
 
-___
+***
 
-### width
+### width?
 
-• `Optional` **width**: `number`
+> **`optional`** **width**: `number`
 
 width of the element in pixels
 
 #### Implementation of
 
-[IRectangle](../interfaces/IRectangle.md).[width](../interfaces/IRectangle.md#width)
+[`IRectangle`](../interfaces/IRectangle.md).[`width`](../interfaces/IRectangle.md#width)
 
-#### Defined in
+#### Source
 
 main.ts:21372
 
-___
+***
 
-### x
+### x?
 
-• `Optional` **x**: `number`
+> **`optional`** **x**: `number`
 
 x-axis coordinate
 x-axis coordinate of the top-left corner of the result’s snippet, where top-left corner of the screen is the origin
 
 #### Implementation of
 
-[IRectangle](../interfaces/IRectangle.md).[x](../interfaces/IRectangle.md#x)
+[`IRectangle`](../interfaces/IRectangle.md).[`x`](../interfaces/IRectangle.md#x)
 
-#### Defined in
+#### Source
 
 main.ts:21367
 
-___
+***
 
-### y
+### y?
 
-• `Optional` **y**: `number`
+> **`optional`** **y**: `number`
 
 y-axis coordinate
 y-axis coordinate of the top-left corner of the result’s snippet, where top-left corner of the screen is the origin
 
 #### Implementation of
 
-[IRectangle](../interfaces/IRectangle.md).[y](../interfaces/IRectangle.md#y)
+[`IRectangle`](../interfaces/IRectangle.md).[`y`](../interfaces/IRectangle.md#y)
 
-#### Defined in
+#### Source
 
 main.ts:21370
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:21387
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:21407
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`Rectangle`](Rectangle.md)
+> **`static`** **fromJS**(`data`): [`Rectangle`](Rectangle.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`Rectangle`](Rectangle.md)
 
-#### Defined in
+#### Source
 
 main.ts:21400

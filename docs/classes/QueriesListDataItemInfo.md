@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / QueriesListDataItemInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / QueriesListDataItemInfo
 
 # Class: QueriesListDataItemInfo
 
@@ -8,134 +12,109 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](QueriesListDataItemInfo.md#constructor)
-
-### Properties
-
-- [query](QueriesListDataItemInfo.md#query)
-- [value](QueriesListDataItemInfo.md#value)
-
-### Methods
-
-- [init](QueriesListDataItemInfo.md#init)
-- [toJSON](QueriesListDataItemInfo.md#tojson)
-- [fromJS](QueriesListDataItemInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new QueriesListDataItemInfo(data)
 
-• **new QueriesListDataItemInfo**(`data?`): [`QueriesListDataItemInfo`](QueriesListDataItemInfo.md)
+> **new QueriesListDataItemInfo**(`data`?): [`QueriesListDataItemInfo`](QueriesListDataItemInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IQueriesListDataItemInfo`](../interfaces/IQueriesListDataItemInfo.md) |
+• **data?**: [`IQueriesListDataItemInfo`](../interfaces/IQueriesListDataItemInfo.md)
 
 #### Returns
 
 [`QueriesListDataItemInfo`](QueriesListDataItemInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:123324
+main.ts:123332
 
 ## Properties
 
-### query
+### query?
 
-• `Optional` **query**: `string`
+> **`optional`** **query**: `string`
 
 related query
 
 #### Implementation of
 
-[IQueriesListDataItemInfo](../interfaces/IQueriesListDataItemInfo.md).[query](../interfaces/IQueriesListDataItemInfo.md#query)
+[`IQueriesListDataItemInfo`](../interfaces/IQueriesListDataItemInfo.md).[`query`](../interfaces/IQueriesListDataItemInfo.md#query)
 
-#### Defined in
+#### Source
 
-main.ts:123317
+main.ts:123325
 
-___
+***
 
-### value
+### value?
 
-• `Optional` **value**: `string`
+> **`optional`** **value**: `string`
 
 search term popularity
 represents the popularity of the topic. Scoring is on a relative scale where a value of 100 is the most commonly searched topic and a value of 50 is a topic searched half as often as the most popular term, and so on.
 
 #### Implementation of
 
-[IQueriesListDataItemInfo](../interfaces/IQueriesListDataItemInfo.md).[value](../interfaces/IQueriesListDataItemInfo.md#value)
+[`IQueriesListDataItemInfo`](../interfaces/IQueriesListDataItemInfo.md).[`value`](../interfaces/IQueriesListDataItemInfo.md#value)
 
-#### Defined in
+#### Source
 
-main.ts:123320
+main.ts:123328
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:123333
+main.ts:123341
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:123351
+main.ts:123359
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`QueriesListDataItemInfo`](QueriesListDataItemInfo.md)
+> **`static`** **fromJS**(`data`): [`QueriesListDataItemInfo`](QueriesListDataItemInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`QueriesListDataItemInfo`](QueriesListDataItemInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:123344
+main.ts:123352

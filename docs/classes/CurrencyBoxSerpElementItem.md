@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / CurrencyBoxSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / CurrencyBoxSerpElementItem
 
 # Class: CurrencyBoxSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-  ↳ **`CurrencyBoxSerpElementItem`**
 
 ## Implements
 
@@ -14,47 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](CurrencyBoxSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](CurrencyBoxSerpElementItem.md#_discriminator)
-- [converted\_currency](CurrencyBoxSerpElementItem.md#converted_currency)
-- [converted\_value](CurrencyBoxSerpElementItem.md#converted_value)
-- [currency](CurrencyBoxSerpElementItem.md#currency)
-- [graph](CurrencyBoxSerpElementItem.md#graph)
-- [position](CurrencyBoxSerpElementItem.md#position)
-- [rank\_absolute](CurrencyBoxSerpElementItem.md#rank_absolute)
-- [rank\_group](CurrencyBoxSerpElementItem.md#rank_group)
-- [rectangle](CurrencyBoxSerpElementItem.md#rectangle)
-- [table](CurrencyBoxSerpElementItem.md#table)
-- [timestamp](CurrencyBoxSerpElementItem.md#timestamp)
-- [value](CurrencyBoxSerpElementItem.md#value)
-- [xpath](CurrencyBoxSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](CurrencyBoxSerpElementItem.md#init)
-- [toJSON](CurrencyBoxSerpElementItem.md#tojson)
-- [fromJS](CurrencyBoxSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new CurrencyBoxSerpElementItem(data)
 
-• **new CurrencyBoxSerpElementItem**(`data?`): [`CurrencyBoxSerpElementItem`](CurrencyBoxSerpElementItem.md)
+> **new CurrencyBoxSerpElementItem**(`data`?): [`CurrencyBoxSerpElementItem`](CurrencyBoxSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ICurrencyBoxSerpElementItem`](../interfaces/ICurrencyBoxSerpElementItem.md) |
+• **data?**: [`ICurrencyBoxSerpElementItem`](../interfaces/ICurrencyBoxSerpElementItem.md)
 
 #### Returns
 
@@ -62,47 +34,47 @@
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[constructor](BaseSerpElementItem.md#constructor)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:35137
+main.ts:35143
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[_discriminator](BaseSerpElementItem.md#_discriminator)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:19788
 
-___
+***
 
-### converted\_currency
+### converted\_currency?
 
-• `Optional` **converted\_currency**: `string`
+> **`optional`** **converted\_currency**: `string`
 
 converted currency
 
 #### Implementation of
 
-[ICurrencyBoxSerpElementItem](../interfaces/ICurrencyBoxSerpElementItem.md).[converted_currency](../interfaces/ICurrencyBoxSerpElementItem.md#converted_currency)
+[`ICurrencyBoxSerpElementItem`](../interfaces/ICurrencyBoxSerpElementItem.md).[`converted_currency`](../interfaces/ICurrencyBoxSerpElementItem.md#converted_currency)
 
-#### Defined in
+#### Source
 
-main.ts:35119
+main.ts:35125
 
-___
+***
 
-### converted\_value
+### converted\_value?
 
-• `Optional` **converted\_value**: `number`
+> **`optional`** **converted\_value**: `number`
 
 value converted to a requested currency
 indicates the exact value based on Google Fincance data at the time when our API pulled the results
@@ -110,50 +82,50 @@ note that exchange rates displayed in the currency_box element may be delayed ac
 
 #### Implementation of
 
-[ICurrencyBoxSerpElementItem](../interfaces/ICurrencyBoxSerpElementItem.md).[converted_value](../interfaces/ICurrencyBoxSerpElementItem.md#converted_value)
+[`ICurrencyBoxSerpElementItem`](../interfaces/ICurrencyBoxSerpElementItem.md).[`converted_value`](../interfaces/ICurrencyBoxSerpElementItem.md#converted_value)
 
-#### Defined in
+#### Source
 
-main.ts:35114
+main.ts:35120
 
-___
+***
 
-### currency
+### currency?
 
-• `Optional` **currency**: `string`
+> **`optional`** **currency**: `string`
 
 currency of the listed price
 ISO code of the currency applied to the price
 
 #### Implementation of
 
-[ICurrencyBoxSerpElementItem](../interfaces/ICurrencyBoxSerpElementItem.md).[currency](../interfaces/ICurrencyBoxSerpElementItem.md#currency)
+[`ICurrencyBoxSerpElementItem`](../interfaces/ICurrencyBoxSerpElementItem.md).[`currency`](../interfaces/ICurrencyBoxSerpElementItem.md#currency)
 
-#### Defined in
+#### Source
 
-main.ts:35117
+main.ts:35123
 
-___
+***
 
-### graph
+### graph?
 
-• `Optional` **graph**: [`Graph`](Graph.md)
+> **`optional`** **graph**: [`Graph`](Graph.md)
 
 contains data provided in the graph of the element
 
 #### Implementation of
 
-[ICurrencyBoxSerpElementItem](../interfaces/ICurrencyBoxSerpElementItem.md).[graph](../interfaces/ICurrencyBoxSerpElementItem.md#graph)
+[`ICurrencyBoxSerpElementItem`](../interfaces/ICurrencyBoxSerpElementItem.md).[`graph`](../interfaces/ICurrencyBoxSerpElementItem.md#graph)
 
-#### Defined in
+#### Source
 
-main.ts:35129
+main.ts:35135
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -161,17 +133,17 @@ left, right
 
 #### Implementation of
 
-[ICurrencyBoxSerpElementItem](../interfaces/ICurrencyBoxSerpElementItem.md).[position](../interfaces/ICurrencyBoxSerpElementItem.md#position)
+[`ICurrencyBoxSerpElementItem`](../interfaces/ICurrencyBoxSerpElementItem.md).[`position`](../interfaces/ICurrencyBoxSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
-main.ts:35106
+main.ts:35112
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -179,17 +151,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[ICurrencyBoxSerpElementItem](../interfaces/ICurrencyBoxSerpElementItem.md).[rank_absolute](../interfaces/ICurrencyBoxSerpElementItem.md#rank_absolute)
+[`ICurrencyBoxSerpElementItem`](../interfaces/ICurrencyBoxSerpElementItem.md).[`rank_absolute`](../interfaces/ICurrencyBoxSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:35102
+main.ts:35108
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
@@ -198,17 +170,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[ICurrencyBoxSerpElementItem](../interfaces/ICurrencyBoxSerpElementItem.md).[rank_group](../interfaces/ICurrencyBoxSerpElementItem.md#rank_group)
+[`ICurrencyBoxSerpElementItem`](../interfaces/ICurrencyBoxSerpElementItem.md).[`rank_group`](../interfaces/ICurrencyBoxSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
-main.ts:35098
+main.ts:35104
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -216,34 +188,34 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Implementation of
 
-[ICurrencyBoxSerpElementItem](../interfaces/ICurrencyBoxSerpElementItem.md).[rectangle](../interfaces/ICurrencyBoxSerpElementItem.md#rectangle)
+[`ICurrencyBoxSerpElementItem`](../interfaces/ICurrencyBoxSerpElementItem.md).[`rectangle`](../interfaces/ICurrencyBoxSerpElementItem.md#rectangle)
 
-#### Defined in
+#### Source
 
-main.ts:35133
+main.ts:35139
 
-___
+***
 
-### table
+### table?
 
-• `Optional` **table**: [`Table`](Table.md)
+> **`optional`** **table**: [`Table`](Table.md)
 
 results table
 if there are none, equals null
 
 #### Implementation of
 
-[ICurrencyBoxSerpElementItem](../interfaces/ICurrencyBoxSerpElementItem.md).[table](../interfaces/ICurrencyBoxSerpElementItem.md#table)
+[`ICurrencyBoxSerpElementItem`](../interfaces/ICurrencyBoxSerpElementItem.md).[`table`](../interfaces/ICurrencyBoxSerpElementItem.md#table)
 
-#### Defined in
+#### Source
 
-main.ts:35127
+main.ts:35133
 
-___
+***
 
-### timestamp
+### timestamp?
 
-• `Optional` **timestamp**: `string`
+> **`optional`** **timestamp**: `string`
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -252,55 +224,53 @@ example:
 
 #### Implementation of
 
-[ICurrencyBoxSerpElementItem](../interfaces/ICurrencyBoxSerpElementItem.md).[timestamp](../interfaces/ICurrencyBoxSerpElementItem.md#timestamp)
+[`ICurrencyBoxSerpElementItem`](../interfaces/ICurrencyBoxSerpElementItem.md).[`timestamp`](../interfaces/ICurrencyBoxSerpElementItem.md#timestamp)
 
-#### Defined in
+#### Source
 
-main.ts:35124
+main.ts:35130
 
-___
+***
 
-### value
+### value?
 
-• `Optional` **value**: `number`
+> **`optional`** **value**: `number`
 
 the value of the rating
 
 #### Implementation of
 
-[ICurrencyBoxSerpElementItem](../interfaces/ICurrencyBoxSerpElementItem.md).[value](../interfaces/ICurrencyBoxSerpElementItem.md#value)
+[`ICurrencyBoxSerpElementItem`](../interfaces/ICurrencyBoxSerpElementItem.md).[`value`](../interfaces/ICurrencyBoxSerpElementItem.md#value)
 
-#### Defined in
+#### Source
 
-main.ts:35110
+main.ts:35116
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[ICurrencyBoxSerpElementItem](../interfaces/ICurrencyBoxSerpElementItem.md).[xpath](../interfaces/ICurrencyBoxSerpElementItem.md#xpath)
+[`ICurrencyBoxSerpElementItem`](../interfaces/ICurrencyBoxSerpElementItem.md).[`xpath`](../interfaces/ICurrencyBoxSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
-main.ts:35108
+main.ts:35114
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -308,23 +278,21 @@ main.ts:35108
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[init](BaseSerpElementItem.md#init)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:35142
+main.ts:35148
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -332,23 +300,21 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[toJSON](BaseSerpElementItem.md#tojson)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:35171
+main.ts:35177
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`CurrencyBoxSerpElementItem`](CurrencyBoxSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`CurrencyBoxSerpElementItem`](CurrencyBoxSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -356,8 +322,8 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[fromJS](BaseSerpElementItem.md#fromjs)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:35164
+main.ts:35170

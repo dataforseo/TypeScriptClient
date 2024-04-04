@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem
 
 # Class: DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem
 
@@ -8,280 +12,247 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#constructor)
-
-### Properties
-
-- [domain](DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#domain)
-- [main\_domain](DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#main_domain)
-- [metrics\_difference](DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#metrics_difference)
-- [metrics\_history](DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#metrics_history)
-- [organic\_count](DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#organic_count)
-- [organic\_etv](DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#organic_etv)
-- [organic\_is\_lost](DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#organic_is_lost)
-- [organic\_is\_new](DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#organic_is_new)
-- [se\_type](DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#se_type)
-- [top\_categories](DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#top_categories)
-
-### Methods
-
-- [init](DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#init)
-- [toJSON](DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#tojson)
-- [fromJS](DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem(data)
 
-• **new DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem**(`data?`): [`DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md)
+> **new DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem**(`data`?): [`DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md) |
+• **data?**: [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:87026
+main.ts:87034
 
 ## Properties
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain found for the specified category
 
 #### Implementation of
 
-[IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md).[domain](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#domain)
+[`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md).[`domain`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#domain)
 
-#### Defined in
+#### Source
 
-main.ts:87015
+main.ts:87023
 
-___
+***
 
-### main\_domain
+### main\_domain?
 
-• `Optional` **main\_domain**: `string`
+> **`optional`** **main\_domain**: `string`
 
 primary domain
 
 #### Implementation of
 
-[IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md).[main_domain](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#main_domain)
+[`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md).[`main_domain`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#main_domain)
 
-#### Defined in
+#### Source
 
-main.ts:87017
+main.ts:87025
 
-___
+***
 
-### metrics\_difference
+### metrics\_difference?
 
-• `Optional` **metrics\_difference**: `Object`
+> **`optional`** **metrics\_difference**: `Object`
 
 metrics difference between first_date and second_date
 calculated by subtracting domain metrics as of the greater date from domain metrics as of the smaller date
 
 #### Index signature
 
-▪ [key: `string`]: [`MetricsInfo`](MetricsInfo.md)
+ \[`key`: `string`\]: [`MetricsInfo`](MetricsInfo.md)
 
 #### Implementation of
 
-[IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md).[metrics_difference](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#metrics_difference)
+[`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md).[`metrics_difference`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#metrics_difference)
 
-#### Defined in
+#### Source
 
-main.ts:87022
+main.ts:87030
 
-___
+***
 
-### metrics\_history
+### metrics\_history?
 
-• `Optional` **metrics\_history**: `Object`
+> **`optional`** **metrics\_history**: `Object`
 
 historical ranking and traffic data of the domain
 
 #### Index signature
 
-▪ [key: `string`]: \{ `[key: string]`: [`MetricsInfo`](MetricsInfo.md);  }
+ \[`key`: `string`\]: `Object`
 
 #### Implementation of
 
-[IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md).[metrics_history](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#metrics_history)
+[`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md).[`metrics_history`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#metrics_history)
 
-#### Defined in
+#### Source
 
-main.ts:87019
+main.ts:87027
 
-___
+***
 
-### organic\_count
+### organic\_count?
 
-• `Optional` **organic\_count**: `number`
+> **`optional`** **organic\_count**: `number`
 
 current total count of organic SERPs that contain the domain
 
 #### Implementation of
 
-[IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md).[organic_count](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#organic_count)
+[`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md).[`organic_count`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#organic_count)
 
-#### Defined in
+#### Source
 
-main.ts:87007
+main.ts:87015
 
-___
+***
 
-### organic\_etv
+### organic\_etv?
 
-• `Optional` **organic\_etv**: `number`
+> **`optional`** **organic\_etv**: `number`
 
 current organic ETV of the domain
 
 #### Implementation of
 
-[IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md).[organic_etv](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#organic_etv)
+[`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md).[`organic_etv`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#organic_etv)
 
-#### Defined in
+#### Source
 
-main.ts:87005
+main.ts:87013
 
-___
+***
 
-### organic\_is\_lost
+### organic\_is\_lost?
 
-• `Optional` **organic\_is\_lost**: `number`
+> **`optional`** **organic\_is\_lost**: `number`
 
 current number of lost ranked elements
 indicates how many ranked elements of the domain were previously presented in SERPs, but weren’t found during the last check
 
 #### Implementation of
 
-[IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md).[organic_is_lost](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#organic_is_lost)
+[`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md).[`organic_is_lost`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#organic_is_lost)
 
-#### Defined in
+#### Source
 
-main.ts:87010
+main.ts:87018
 
-___
+***
 
-### organic\_is\_new
+### organic\_is\_new?
 
-• `Optional` **organic\_is\_new**: `number`
+> **`optional`** **organic\_is\_new**: `number`
 
 current number of new ranked elements
 indicates how many new ranked elements were found for the domain
 
 #### Implementation of
 
-[IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md).[organic_is_new](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#organic_is_new)
+[`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md).[`organic_is_new`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#organic_is_new)
 
-#### Defined in
+#### Source
 
-main.ts:87013
+main.ts:87021
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md).[se_type](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#se_type)
+[`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:87001
+main.ts:87009
 
-___
+***
 
-### top\_categories
+### top\_categories?
 
-• `Optional` **top\_categories**: `number`[]
+> **`optional`** **top\_categories**: `number`[]
 
 categories for which domains are collected
 
 #### Implementation of
 
-[IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md).[top_categories](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#top_categories)
+[`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md).[`top_categories`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md#top_categories)
 
-#### Defined in
+#### Source
 
-main.ts:87003
+main.ts:87011
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:87035
+main.ts:87043
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:87077
+main.ts:87085
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:87070
+main.ts:87078

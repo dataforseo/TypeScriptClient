@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPagePagesRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPagePagesRequestInfo
 
 # Class: OnPagePagesRequestInfo
 
@@ -8,61 +12,38 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPagePagesRequestInfo.md#constructor)
-
-### Properties
-
-- [filters](OnPagePagesRequestInfo.md#filters)
-- [id](OnPagePagesRequestInfo.md#id)
-- [limit](OnPagePagesRequestInfo.md#limit)
-- [offset](OnPagePagesRequestInfo.md#offset)
-- [order\_by](OnPagePagesRequestInfo.md#order_by)
-- [tag](OnPagePagesRequestInfo.md#tag)
-
-### Methods
-
-- [init](OnPagePagesRequestInfo.md#init)
-- [toJSON](OnPagePagesRequestInfo.md#tojson)
-- [fromJS](OnPagePagesRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPagePagesRequestInfo(data)
 
-• **new OnPagePagesRequestInfo**(`data?`): [`OnPagePagesRequestInfo`](OnPagePagesRequestInfo.md)
+> **new OnPagePagesRequestInfo**(`data`?): [`OnPagePagesRequestInfo`](OnPagePagesRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPagePagesRequestInfo`](../interfaces/IOnPagePagesRequestInfo.md) |
+• **data?**: [`IOnPagePagesRequestInfo`](../interfaces/IOnPagePagesRequestInfo.md)
 
 #### Returns
 
 [`OnPagePagesRequestInfo`](OnPagePagesRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:149357
+main.ts:149365
 
 ## Properties
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, <=, >, >=, =, <>, in, not_in, like, not_like
+regex, <, `<=, >`, >=, =, <>, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["meta.external_links_count","<=",50]["url","like","https://dataforseo.com/apis/dataforseo-labs-api"][["checks.high_waiting_time","=",false],
@@ -70,17 +51,17 @@ example:
 
 #### Implementation of
 
-[IOnPagePagesRequestInfo](../interfaces/IOnPagePagesRequestInfo.md).[filters](../interfaces/IOnPagePagesRequestInfo.md#filters)
+[`IOnPagePagesRequestInfo`](../interfaces/IOnPagePagesRequestInfo.md).[`filters`](../interfaces/IOnPagePagesRequestInfo.md#filters)
 
-#### Defined in
+#### Source
 
-main.ts:149333
+main.ts:149341
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 ID of the task
 required field
@@ -90,17 +71,17 @@ example:
 
 #### Implementation of
 
-[IOnPagePagesRequestInfo](../interfaces/IOnPagePagesRequestInfo.md).[id](../interfaces/IOnPagePagesRequestInfo.md#id)
+[`IOnPagePagesRequestInfo`](../interfaces/IOnPagePagesRequestInfo.md).[`id`](../interfaces/IOnPagePagesRequestInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:149312
+main.ts:149320
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned pages
 optional field
@@ -109,17 +90,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IOnPagePagesRequestInfo](../interfaces/IOnPagePagesRequestInfo.md).[limit](../interfaces/IOnPagePagesRequestInfo.md#limit)
+[`IOnPagePagesRequestInfo`](../interfaces/IOnPagePagesRequestInfo.md).[`limit`](../interfaces/IOnPagePagesRequestInfo.md#limit)
 
-#### Defined in
+#### Source
 
-main.ts:149317
+main.ts:149325
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned pages
 optional field
@@ -128,17 +109,17 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Implementation of
 
-[IOnPagePagesRequestInfo](../interfaces/IOnPagePagesRequestInfo.md).[offset](../interfaces/IOnPagePagesRequestInfo.md#offset)
+[`IOnPagePagesRequestInfo`](../interfaces/IOnPagePagesRequestInfo.md).[`offset`](../interfaces/IOnPagePagesRequestInfo.md#offset)
 
-#### Defined in
+#### Source
 
-main.ts:149322
+main.ts:149330
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -156,17 +137,17 @@ example:
 
 #### Implementation of
 
-[IOnPagePagesRequestInfo](../interfaces/IOnPagePagesRequestInfo.md).[order_by](../interfaces/IOnPagePagesRequestInfo.md#order_by)
+[`IOnPagePagesRequestInfo`](../interfaces/IOnPagePagesRequestInfo.md).[`order_by`](../interfaces/IOnPagePagesRequestInfo.md#order_by)
 
-#### Defined in
+#### Source
 
-main.ts:149347
+main.ts:149355
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -176,68 +157,62 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IOnPagePagesRequestInfo](../interfaces/IOnPagePagesRequestInfo.md).[tag](../interfaces/IOnPagePagesRequestInfo.md#tag)
+[`IOnPagePagesRequestInfo`](../interfaces/IOnPagePagesRequestInfo.md).[`tag`](../interfaces/IOnPagePagesRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:149353
+main.ts:149361
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:149366
+main.ts:149374
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:149396
+main.ts:149404
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPagePagesRequestInfo`](OnPagePagesRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`OnPagePagesRequestInfo`](OnPagePagesRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`OnPagePagesRequestInfo`](OnPagePagesRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:149389
+main.ts:149397

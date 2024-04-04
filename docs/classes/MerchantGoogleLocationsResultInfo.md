@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MerchantGoogleLocationsResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / MerchantGoogleLocationsResultInfo
 
 # Class: MerchantGoogleLocationsResultInfo
 
@@ -8,101 +12,79 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](MerchantGoogleLocationsResultInfo.md#constructor)
-
-### Properties
-
-- [country\_iso\_code](MerchantGoogleLocationsResultInfo.md#country_iso_code)
-- [location\_code](MerchantGoogleLocationsResultInfo.md#location_code)
-- [location\_name](MerchantGoogleLocationsResultInfo.md#location_name)
-- [location\_name\_parent](MerchantGoogleLocationsResultInfo.md#location_name_parent)
-- [location\_type](MerchantGoogleLocationsResultInfo.md#location_type)
-
-### Methods
-
-- [init](MerchantGoogleLocationsResultInfo.md#init)
-- [toJSON](MerchantGoogleLocationsResultInfo.md#tojson)
-- [fromJS](MerchantGoogleLocationsResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new MerchantGoogleLocationsResultInfo(data)
 
-• **new MerchantGoogleLocationsResultInfo**(`data?`): [`MerchantGoogleLocationsResultInfo`](MerchantGoogleLocationsResultInfo.md)
+> **new MerchantGoogleLocationsResultInfo**(`data`?): [`MerchantGoogleLocationsResultInfo`](MerchantGoogleLocationsResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IMerchantGoogleLocationsResultInfo`](../interfaces/IMerchantGoogleLocationsResultInfo.md) |
+• **data?**: [`IMerchantGoogleLocationsResultInfo`](../interfaces/IMerchantGoogleLocationsResultInfo.md)
 
 #### Returns
 
 [`MerchantGoogleLocationsResultInfo`](MerchantGoogleLocationsResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:168951
+main.ts:168959
 
 ## Properties
 
-### country\_iso\_code
+### country\_iso\_code?
 
-• `Optional` **country\_iso\_code**: `string`
+> **`optional`** **country\_iso\_code**: `string`
 
 ISO country code of the location
 
 #### Implementation of
 
-[IMerchantGoogleLocationsResultInfo](../interfaces/IMerchantGoogleLocationsResultInfo.md).[country_iso_code](../interfaces/IMerchantGoogleLocationsResultInfo.md#country_iso_code)
+[`IMerchantGoogleLocationsResultInfo`](../interfaces/IMerchantGoogleLocationsResultInfo.md).[`country_iso_code`](../interfaces/IMerchantGoogleLocationsResultInfo.md#country_iso_code)
 
-#### Defined in
+#### Source
 
-main.ts:168945
+main.ts:168953
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 
 #### Implementation of
 
-[IMerchantGoogleLocationsResultInfo](../interfaces/IMerchantGoogleLocationsResultInfo.md).[location_code](../interfaces/IMerchantGoogleLocationsResultInfo.md#location_code)
+[`IMerchantGoogleLocationsResultInfo`](../interfaces/IMerchantGoogleLocationsResultInfo.md).[`location_code`](../interfaces/IMerchantGoogleLocationsResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:168936
+main.ts:168944
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 
 #### Implementation of
 
-[IMerchantGoogleLocationsResultInfo](../interfaces/IMerchantGoogleLocationsResultInfo.md).[location_name](../interfaces/IMerchantGoogleLocationsResultInfo.md#location_name)
+[`IMerchantGoogleLocationsResultInfo`](../interfaces/IMerchantGoogleLocationsResultInfo.md).[`location_name`](../interfaces/IMerchantGoogleLocationsResultInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:168938
+main.ts:168946
 
-___
+***
 
-### location\_name\_parent
+### location\_name\_parent?
 
-• `Optional` **location\_name\_parent**: `string`
+> **`optional`** **location\_name\_parent**: `string`
 
 the name of the superordinate location
 example:
@@ -111,84 +93,78 @@ example:
 
 #### Implementation of
 
-[IMerchantGoogleLocationsResultInfo](../interfaces/IMerchantGoogleLocationsResultInfo.md).[location_name_parent](../interfaces/IMerchantGoogleLocationsResultInfo.md#location_name_parent)
+[`IMerchantGoogleLocationsResultInfo`](../interfaces/IMerchantGoogleLocationsResultInfo.md).[`location_name_parent`](../interfaces/IMerchantGoogleLocationsResultInfo.md#location_name_parent)
 
-#### Defined in
+#### Source
 
-main.ts:168943
+main.ts:168951
 
-___
+***
 
-### location\_type
+### location\_type?
 
-• `Optional` **location\_type**: `string`
+> **`optional`** **location\_type**: `string`
 
 location type
 
 #### Implementation of
 
-[IMerchantGoogleLocationsResultInfo](../interfaces/IMerchantGoogleLocationsResultInfo.md).[location_type](../interfaces/IMerchantGoogleLocationsResultInfo.md#location_type)
+[`IMerchantGoogleLocationsResultInfo`](../interfaces/IMerchantGoogleLocationsResultInfo.md).[`location_type`](../interfaces/IMerchantGoogleLocationsResultInfo.md#location_type)
 
-#### Defined in
+#### Source
 
-main.ts:168947
+main.ts:168955
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:168960
+main.ts:168968
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:168981
+main.ts:168989
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`MerchantGoogleLocationsResultInfo`](MerchantGoogleLocationsResultInfo.md)
+> **`static`** **fromJS**(`data`): [`MerchantGoogleLocationsResultInfo`](MerchantGoogleLocationsResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`MerchantGoogleLocationsResultInfo`](MerchantGoogleLocationsResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:168974
+main.ts:168982

@@ -1,68 +1,59 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksReferringNetworksLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBacklinksReferringNetworksLiveResultInfo
 
 # Interface: IBacklinksReferringNetworksLiveResultInfo
 
-## Implemented by
-
-- [`BacklinksReferringNetworksLiveResultInfo`](../classes/BacklinksReferringNetworksLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IBacklinksReferringNetworksLiveResultInfo.md#items)
-- [items\_count](IBacklinksReferringNetworksLiveResultInfo.md#items_count)
-- [target](IBacklinksReferringNetworksLiveResultInfo.md#target)
-- [total\_count](IBacklinksReferringNetworksLiveResultInfo.md#total_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`BacklinksReferringNetworksLiveItem`](../classes/BacklinksReferringNetworksLiveItem.md)[]
+> **`optional`** **items**: [`BacklinksReferringNetworksLiveItem`](../classes/BacklinksReferringNetworksLiveItem.md)[]
 
 items array
 
-#### Defined in
+#### Source
 
-main.ts:141225
+main.ts:141233
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 number of items in the items array
 
-#### Defined in
+#### Source
 
-main.ts:141223
+main.ts:141231
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 target in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:141219
+main.ts:141227
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total number of relevant items in the database
 
-#### Defined in
+#### Source
 
-main.ts:141221
+main.ts:141229

@@ -1,16 +1,16 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BaseProductInformationRowItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BaseProductInformationRowItem
 
 # Class: BaseProductInformationRowItem
 
-## Hierarchy
+## Extended by
 
-- **`BaseProductInformationRowItem`**
-
-  ↳ [`ProductInformationImageRow`](ProductInformationImageRow.md)
-
-  ↳ [`ProductInformationTextRow`](ProductInformationTextRow.md)
-
-  ↳ [`ProductInformationVideoRow`](ProductInformationVideoRow.md)
+- [`ProductInformationImageRow`](ProductInformationImageRow.md)
+- [`ProductInformationTextRow`](ProductInformationTextRow.md)
+- [`ProductInformationVideoRow`](ProductInformationVideoRow.md)
 
 ## Implements
 
@@ -18,41 +18,23 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BaseProductInformationRowItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](BaseProductInformationRowItem.md#_discriminator)
-
-### Methods
-
-- [init](BaseProductInformationRowItem.md#init)
-- [toJSON](BaseProductInformationRowItem.md#tojson)
-- [fromJS](BaseProductInformationRowItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BaseProductInformationRowItem(data)
 
-• **new BaseProductInformationRowItem**(`data?`): [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md)
+> **new BaseProductInformationRowItem**(`data`?): [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBaseProductInformationRowItem`](../interfaces/IBaseProductInformationRowItem.md) |
+• **data?**: [`IBaseProductInformationRowItem`](../interfaces/IBaseProductInformationRowItem.md)
 
 #### Returns
 
 [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md)
 
-#### Defined in
+#### Source
 
 main.ts:22299
 
@@ -60,68 +42,62 @@ main.ts:22299
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
-#### Defined in
+#### Source
 
 main.ts:22297
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:22309
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:22340
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md)
+> **`static`** **fromJS**(`data`): [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md)
 
-#### Defined in
+#### Source
 
 main.ts:22318

@@ -1,71 +1,61 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixBingKeywordsDataPriceData
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppendixBingKeywordsDataPriceData
 
 # Interface: IAppendixBingKeywordsDataPriceData
 
-## Implemented by
-
-- [`AppendixBingKeywordsDataPriceData`](../classes/AppendixBingKeywordsDataPriceData.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [keyword\_performance](IAppendixBingKeywordsDataPriceData.md#keyword_performance)
-- [keywords\_for\_keywords](IAppendixBingKeywordsDataPriceData.md#keywords_for_keywords)
-- [keywords\_for\_site](IAppendixBingKeywordsDataPriceData.md#keywords_for_site)
-- [search\_volume](IAppendixBingKeywordsDataPriceData.md#search_volume)
-- [search\_volume\_history](IAppendixBingKeywordsDataPriceData.md#search_volume_history)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### keyword\_performance
+### keyword\_performance?
 
-• `Optional` **keyword\_performance**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **keyword\_performance**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:215334
 
-___
+***
 
-### keywords\_for\_keywords
+### keywords\_for\_keywords?
 
-• `Optional` **keywords\_for\_keywords**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **keywords\_for\_keywords**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:215335
 
-___
+***
 
-### keywords\_for\_site
+### keywords\_for\_site?
 
-• `Optional` **keywords\_for\_site**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **keywords\_for\_site**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:215336
 
-___
+***
 
-### search\_volume
+### search\_volume?
 
-• `Optional` **search\_volume**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **search\_volume**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:215338
 
-___
+***
 
-### search\_volume\_history
+### search\_volume\_history?
 
-• `Optional` **search\_volume\_history**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **search\_volume\_history**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:215337

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ProductConsiderationsElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ProductConsiderationsElement
 
 # Class: ProductConsiderationsElement
 
@@ -8,168 +12,141 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ProductConsiderationsElement.md#constructor)
-
-### Properties
-
-- [consideration\_category](ProductConsiderationsElement.md#consideration_category)
-- [expanded\_element](ProductConsiderationsElement.md#expanded_element)
-- [title](ProductConsiderationsElement.md#title)
-- [type](ProductConsiderationsElement.md#type)
-
-### Methods
-
-- [init](ProductConsiderationsElement.md#init)
-- [toJSON](ProductConsiderationsElement.md#tojson)
-- [fromJS](ProductConsiderationsElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ProductConsiderationsElement(data)
 
-• **new ProductConsiderationsElement**(`data?`): [`ProductConsiderationsElement`](ProductConsiderationsElement.md)
+> **new ProductConsiderationsElement**(`data`?): [`ProductConsiderationsElement`](ProductConsiderationsElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IProductConsiderationsElement`](../interfaces/IProductConsiderationsElement.md) |
+• **data?**: [`IProductConsiderationsElement`](../interfaces/IProductConsiderationsElement.md)
 
 #### Returns
 
 [`ProductConsiderationsElement`](ProductConsiderationsElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:35482
+main.ts:35488
 
 ## Properties
 
-### consideration\_category
+### consideration\_category?
 
-• `Optional` **consideration\_category**: `string`
+> **`optional`** **consideration\_category**: `string`
 
 category of the consideration element
 the category is indicated just above the title fo the consideration element
 
 #### Implementation of
 
-[IProductConsiderationsElement](../interfaces/IProductConsiderationsElement.md).[consideration_category](../interfaces/IProductConsiderationsElement.md#consideration_category)
+[`IProductConsiderationsElement`](../interfaces/IProductConsiderationsElement.md).[`consideration_category`](../interfaces/IProductConsiderationsElement.md#consideration_category)
 
-#### Defined in
+#### Source
 
-main.ts:35476
+main.ts:35482
 
-___
+***
 
-### expanded\_element
+### expanded\_element?
 
-• `Optional` **expanded\_element**: [`ProductConsiderationsExpandedElement`](ProductConsiderationsExpandedElement.md)
+> **`optional`** **expanded\_element**: [`ProductConsiderationsExpandedElement`](ProductConsiderationsExpandedElement.md)
 
 expanded element
 
 #### Implementation of
 
-[IProductConsiderationsElement](../interfaces/IProductConsiderationsElement.md).[expanded_element](../interfaces/IProductConsiderationsElement.md#expanded_element)
+[`IProductConsiderationsElement`](../interfaces/IProductConsiderationsElement.md).[`expanded_element`](../interfaces/IProductConsiderationsElement.md#expanded_element)
 
-#### Defined in
+#### Source
 
-main.ts:35478
+main.ts:35484
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
 #### Implementation of
 
-[IProductConsiderationsElement](../interfaces/IProductConsiderationsElement.md).[title](../interfaces/IProductConsiderationsElement.md#title)
+[`IProductConsiderationsElement`](../interfaces/IProductConsiderationsElement.md).[`title`](../interfaces/IProductConsiderationsElement.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:35473
+main.ts:35479
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IProductConsiderationsElement](../interfaces/IProductConsiderationsElement.md).[type](../interfaces/IProductConsiderationsElement.md#type)
+[`IProductConsiderationsElement`](../interfaces/IProductConsiderationsElement.md).[`type`](../interfaces/IProductConsiderationsElement.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:35471
+main.ts:35477
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:35491
+main.ts:35497
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:35511
+main.ts:35517
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ProductConsiderationsElement`](ProductConsiderationsElement.md)
+> **`static`** **fromJS**(`data`): [`ProductConsiderationsElement`](ProductConsiderationsElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ProductConsiderationsElement`](ProductConsiderationsElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:35504
+main.ts:35510

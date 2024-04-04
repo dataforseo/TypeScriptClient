@@ -1,138 +1,124 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppDataGoogleAppListTaskGetAdvancedResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppDataGoogleAppListTaskGetAdvancedResultInfo
 
 # Interface: IAppDataGoogleAppListTaskGetAdvancedResultInfo
 
-## Implemented by
-
-- [`AppDataGoogleAppListTaskGetAdvancedResultInfo`](../classes/AppDataGoogleAppListTaskGetAdvancedResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [check\_url](IAppDataGoogleAppListTaskGetAdvancedResultInfo.md#check_url)
-- [datetime](IAppDataGoogleAppListTaskGetAdvancedResultInfo.md#datetime)
-- [items](IAppDataGoogleAppListTaskGetAdvancedResultInfo.md#items)
-- [items\_count](IAppDataGoogleAppListTaskGetAdvancedResultInfo.md#items_count)
-- [keyword](IAppDataGoogleAppListTaskGetAdvancedResultInfo.md#keyword)
-- [language\_code](IAppDataGoogleAppListTaskGetAdvancedResultInfo.md#language_code)
-- [location\_code](IAppDataGoogleAppListTaskGetAdvancedResultInfo.md#location_code)
-- [se\_domain](IAppDataGoogleAppListTaskGetAdvancedResultInfo.md#se_domain)
-- [se\_results\_count](IAppDataGoogleAppListTaskGetAdvancedResultInfo.md#se_results_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### check\_url
+### check\_url?
 
-• `Optional` **check\_url**: `string`
+> **`optional`** **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
 
-#### Defined in
+#### Source
 
 main.ts:184354
 
-___
+***
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
 main.ts:184359
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseAppDataSerpElementItem`](../classes/BaseAppDataSerpElementItem.md)[]
+> **`optional`** **items**: [`BaseAppDataSerpElementItem`](../classes/BaseAppDataSerpElementItem.md)[]
 
 found apps
 
-#### Defined in
+#### Source
 
 main.ts:184366
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of app items in the results array
 you can get more results by using the depth parameter when setting a task
 
-#### Defined in
+#### Source
 
 main.ts:184364
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 app collection received in a POST array
 
-#### Defined in
+#### Source
 
 main.ts:184345
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
-#### Defined in
+#### Source
 
 main.ts:184351
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
-#### Defined in
+#### Source
 
 main.ts:184349
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
-#### Defined in
+#### Source
 
 main.ts:184347
 
-___
+***
 
-### se\_results\_count
+### se\_results\_count?
 
-• `Optional` **se\_results\_count**: `number`
+> **`optional`** **se\_results\_count**: `number`
 
 the total number of results
 
-#### Defined in
+#### Source
 
 main.ts:184361

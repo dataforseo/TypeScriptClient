@@ -1,42 +1,35 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentAnalysisLocationsResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IContentAnalysisLocationsResultInfo
 
 # Interface: IContentAnalysisLocationsResultInfo
 
-## Implemented by
-
-- [`ContentAnalysisLocationsResultInfo`](../classes/ContentAnalysisLocationsResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [country\_iso\_code](IContentAnalysisLocationsResultInfo.md#country_iso_code)
-- [location\_name](IContentAnalysisLocationsResultInfo.md#location_name)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### country\_iso\_code
+### country\_iso\_code?
 
-• `Optional` **country\_iso\_code**: `string`
+> **`optional`** **country\_iso\_code**: `string`
 
 ISO country code of the location
 
-#### Defined in
+#### Source
 
-main.ts:160997
+main.ts:161005
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 
-#### Defined in
+#### Source
 
-main.ts:160995
+main.ts:161003

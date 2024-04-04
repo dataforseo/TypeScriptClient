@@ -1,76 +1,65 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IGoogleTrendsQueriesListElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IGoogleTrendsQueriesListElementItem
 
 # Interface: IGoogleTrendsQueriesListElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseGoogleTrendsItem`](IBaseGoogleTrendsItem.md)
 
-  ↳ **`IGoogleTrendsQueriesListElementItem`**
-
-## Implemented by
-
-- [`GoogleTrendsQueriesListElementItem`](../classes/GoogleTrendsQueriesListElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [data](IGoogleTrendsQueriesListElementItem.md#data)
-- [keywords](IGoogleTrendsQueriesListElementItem.md#keywords)
-- [position](IGoogleTrendsQueriesListElementItem.md#position)
-- [title](IGoogleTrendsQueriesListElementItem.md#title)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### data
+### data?
 
-• `Optional` **data**: [`QueriesListDataInfo`](../classes/QueriesListDataInfo.md)
+> **`optional`** **data**: [`QueriesListDataInfo`](../classes/QueriesListDataInfo.md)
 
 Google Trends data from the corresponding item
 
-#### Defined in
+#### Source
 
-main.ts:123522
+main.ts:123530
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 relevant keywords
 the data included in the google_trends_topics_list element is based on the keywords listed in this array
 
-#### Defined in
+#### Source
 
-main.ts:123520
+main.ts:123528
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `number`
+> **`optional`** **position**: `number`
 
 the alignment of the element in Google Trends
 can take the following values: 1, 2, 3, 4, etc.
 
-#### Defined in
+#### Source
 
-main.ts:123515
+main.ts:123523
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the element in Google Trends
 
-#### Defined in
+#### Source
 
-main.ts:123517
+main.ts:123525

@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo
 
 # Class: KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md#cost)
-- [status\_code](KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md#status_code)
-- [status\_message](KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md#status_message)
-- [tasks](KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md#tasks)
-- [tasks\_count](KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md#tasks_count)
-- [tasks\_error](KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md#tasks_error)
-- [time](KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md#time)
-- [version](KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md#version)
-
-### Methods
-
-- [init](KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md#init)
-- [toJSON](KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md#tojson)
-- [fromJS](KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo(data)
 
-• **new KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo**(`data?`): [`KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo`](KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md)
+> **new KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo**(`data`?): [`KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo`](KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md) |
+• **data?**: [`IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:115896
+main.ts:115904
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md).[cost](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md#cost)
+[`IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md).[`cost`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md).[status_code](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md#status_code)
+[`IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md).[`status_code`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md).[status_message](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md#status_message)
+[`IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md).[`status_message`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`KeywordsDataGoogleAdsSearchVolumeTaskPostTaskInfo`](KeywordsDataGoogleAdsSearchVolumeTaskPostTaskInfo.md)[]
+> **`optional`** **tasks**: [`KeywordsDataGoogleAdsSearchVolumeTaskPostTaskInfo`](KeywordsDataGoogleAdsSearchVolumeTaskPostTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md).[tasks](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md#tasks)
+[`IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md).[`tasks`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:115892
+main.ts:115900
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md).[tasks_count](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md#tasks_count)
+[`IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md).[`tasks_count`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md).[tasks_error](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md#tasks_error)
+[`IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md).[`tasks_error`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md).[time](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md#time)
+[`IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md).[`time`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md).[version](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md#version)
+[`IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md).[`version`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:115900
+main.ts:115908
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:115922
+main.ts:115930
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo`](KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo`](KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:115915
+main.ts:115923

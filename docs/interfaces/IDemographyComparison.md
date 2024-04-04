@@ -1,50 +1,43 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDemographyComparison
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDemographyComparison
 
 # Interface: IDemographyComparison
 
-## Implemented by
-
-- [`DemographyComparison`](../classes/DemographyComparison.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [age](IDemographyComparison.md#age)
-- [gender](IDemographyComparison.md#gender)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### age
+### age?
 
-• `Optional` **age**: `Object`
+> **`optional`** **age**: `Object`
 
 comparison of keyword popularity data by age
 
 #### Index signature
 
-▪ [key: `string`]: (`number` \| `undefined`)[]
+ \[`key`: `string`\]: (`number` \| `undefined`)[]
 
-#### Defined in
+#### Source
 
-main.ts:126487
+main.ts:126495
 
-___
+***
 
-### gender
+### gender?
 
-• `Optional` **gender**: `Object`
+> **`optional`** **gender**: `Object`
 
 comparison of keyword popularity data by gender
 
 #### Index signature
 
-▪ [key: `string`]: (`number` \| `undefined`)[]
+ \[`key`: `string`\]: (`number` \| `undefined`)[]
 
-#### Defined in
+#### Source
 
-main.ts:126489
+main.ts:126497

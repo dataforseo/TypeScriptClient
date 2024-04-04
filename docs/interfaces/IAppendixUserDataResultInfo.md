@@ -1,82 +1,72 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixUserDataResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppendixUserDataResultInfo
 
 # Interface: IAppendixUserDataResultInfo
 
-## Implemented by
-
-- [`AppendixUserDataResultInfo`](../classes/AppendixUserDataResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [login](IAppendixUserDataResultInfo.md#login)
-- [money](IAppendixUserDataResultInfo.md#money)
-- [price](IAppendixUserDataResultInfo.md#price)
-- [rates](IAppendixUserDataResultInfo.md#rates)
-- [timezone](IAppendixUserDataResultInfo.md#timezone)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### login
+### login?
 
-• `Optional` **login**: `string`
+> **`optional`** **login**: `string`
 
 your login
 
-#### Defined in
+#### Source
 
 main.ts:217877
 
-___
+***
 
-### money
+### money?
 
-• `Optional` **money**: [`AppendixMoneyData`](../classes/AppendixMoneyData.md)
+> **`optional`** **money**: [`AppendixMoneyData`](../classes/AppendixMoneyData.md)
 
 section of your spending, USD
 
-#### Defined in
+#### Source
 
 main.ts:217884
 
-___
+***
 
-### price
+### price?
 
-• `Optional` **price**: [`AppendixPriceData`](../classes/AppendixPriceData.md)
+> **`optional`** **price**: [`AppendixPriceData`](../classes/AppendixPriceData.md)
 
 pricing
 
-#### Defined in
+#### Source
 
 main.ts:217886
 
-___
+***
 
-### rates
+### rates?
 
-• `Optional` **rates**: [`AppendixRatesData`](../classes/AppendixRatesData.md)
+> **`optional`** **rates**: [`AppendixRatesData`](../classes/AppendixRatesData.md)
 
 your API rates
 
-#### Defined in
+#### Source
 
 main.ts:217882
 
-___
+***
 
-### timezone
+### timezone?
 
-• `Optional` **timezone**: `string`
+> **`optional`** **timezone**: `string`
 
 your time zone
 can be set in your profile settings
 
-#### Defined in
+#### Source
 
 main.ts:217880

@@ -1,82 +1,70 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleTrendsLocationsCountryResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IKeywordsDataGoogleTrendsLocationsCountryResultInfo
 
 # Interface: IKeywordsDataGoogleTrendsLocationsCountryResultInfo
 
-## Implemented by
-
-- [`KeywordsDataGoogleTrendsLocationsCountryResultInfo`](../classes/KeywordsDataGoogleTrendsLocationsCountryResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [country\_iso\_code](IKeywordsDataGoogleTrendsLocationsCountryResultInfo.md#country_iso_code)
-- [geo\_id](IKeywordsDataGoogleTrendsLocationsCountryResultInfo.md#geo_id)
-- [geo\_name](IKeywordsDataGoogleTrendsLocationsCountryResultInfo.md#geo_name)
-- [location\_code](IKeywordsDataGoogleTrendsLocationsCountryResultInfo.md#location_code)
-- [location\_code\_parent](IKeywordsDataGoogleTrendsLocationsCountryResultInfo.md#location_code_parent)
-- [location\_name](IKeywordsDataGoogleTrendsLocationsCountryResultInfo.md#location_name)
-- [location\_type](IKeywordsDataGoogleTrendsLocationsCountryResultInfo.md#location_type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### country\_iso\_code
+### country\_iso\_code?
 
-• `Optional` **country\_iso\_code**: `string`
+> **`optional`** **country\_iso\_code**: `string`
 
 ISO country code of the location
 
-#### Defined in
+#### Source
 
-main.ts:121686
+main.ts:121694
 
-___
+***
 
-### geo\_id
+### geo\_id?
 
-• `Optional` **geo\_id**: `string`
+> **`optional`** **geo\_id**: `string`
 
 google trends location identifier
 you can use this field for matching obtained results with the location_code parameter specified in the request
 
-#### Defined in
+#### Source
 
-main.ts:121695
+main.ts:121703
 
-___
+***
 
-### geo\_name
+### geo\_name?
 
-• `Optional` **geo\_name**: `string`
+> **`optional`** **geo\_name**: `string`
 
 google trends location name
 you can use this field for matching obtained results with the location_name parameter specified in the request
 
-#### Defined in
+#### Source
 
-main.ts:121692
+main.ts:121700
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 
-#### Defined in
+#### Source
 
-main.ts:121673
+main.ts:121681
 
-___
+***
 
-### location\_code\_parent
+### location\_code\_parent?
 
-• `Optional` **location\_code\_parent**: `number`
+> **`optional`** **location\_code\_parent**: `number`
 
 the code of the superordinate location
 example:
@@ -87,31 +75,31 @@ where location_code_parent corresponds to:
 "location_code": 20044,
 "location_name": "Lower Austria,Austria"
 
-#### Defined in
+#### Source
 
-main.ts:121684
+main.ts:121692
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 
-#### Defined in
+#### Source
 
-main.ts:121675
+main.ts:121683
 
-___
+***
 
-### location\_type
+### location\_type?
 
-• `Optional` **location\_type**: `string`
+> **`optional`** **location\_type**: `string`
 
 location type
 possible values according to Google’s target types
 
-#### Defined in
+#### Source
 
-main.ts:121689
+main.ts:121697

@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAppleAppIntersectionLiveTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsAppleAppIntersectionLiveTaskInfo
 
 # Class: DataforseoLabsAppleAppIntersectionLiveTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`DataforseoLabsAppleAppIntersectionLiveTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsAppleAppIntersectionLiveTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](DataforseoLabsAppleAppIntersectionLiveTaskInfo.md#cost)
-- [data](DataforseoLabsAppleAppIntersectionLiveTaskInfo.md#data)
-- [id](DataforseoLabsAppleAppIntersectionLiveTaskInfo.md#id)
-- [path](DataforseoLabsAppleAppIntersectionLiveTaskInfo.md#path)
-- [result](DataforseoLabsAppleAppIntersectionLiveTaskInfo.md#result)
-- [result\_count](DataforseoLabsAppleAppIntersectionLiveTaskInfo.md#result_count)
-- [status\_code](DataforseoLabsAppleAppIntersectionLiveTaskInfo.md#status_code)
-- [status\_message](DataforseoLabsAppleAppIntersectionLiveTaskInfo.md#status_message)
-- [time](DataforseoLabsAppleAppIntersectionLiveTaskInfo.md#time)
-
-### Methods
-
-- [init](DataforseoLabsAppleAppIntersectionLiveTaskInfo.md#init)
-- [toJSON](DataforseoLabsAppleAppIntersectionLiveTaskInfo.md#tojson)
-- [fromJS](DataforseoLabsAppleAppIntersectionLiveTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsAppleAppIntersectionLiveTaskInfo(data)
 
-• **new DataforseoLabsAppleAppIntersectionLiveTaskInfo**(`data?`): [`DataforseoLabsAppleAppIntersectionLiveTaskInfo`](DataforseoLabsAppleAppIntersectionLiveTaskInfo.md)
+> **new DataforseoLabsAppleAppIntersectionLiveTaskInfo**(`data`?): [`DataforseoLabsAppleAppIntersectionLiveTaskInfo`](DataforseoLabsAppleAppIntersectionLiveTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsAppleAppIntersectionLiveTaskInfo`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveTaskInfo.md) |
+• **data?**: [`IDataforseoLabsAppleAppIntersectionLiveTaskInfo`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:114491
+main.ts:114499
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IDataforseoLabsAppleAppIntersectionLiveTaskInfo](../interfaces/IDataforseoLabsAppleAppIntersectionLiveTaskInfo.md).[cost](../interfaces/IDataforseoLabsAppleAppIntersectionLiveTaskInfo.md#cost)
+[`IDataforseoLabsAppleAppIntersectionLiveTaskInfo`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveTaskInfo.md).[`cost`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[IDataforseoLabsAppleAppIntersectionLiveTaskInfo](../interfaces/IDataforseoLabsAppleAppIntersectionLiveTaskInfo.md).[data](../interfaces/IDataforseoLabsAppleAppIntersectionLiveTaskInfo.md#data)
+[`IDataforseoLabsAppleAppIntersectionLiveTaskInfo`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveTaskInfo.md).[`data`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IDataforseoLabsAppleAppIntersectionLiveTaskInfo](../interfaces/IDataforseoLabsAppleAppIntersectionLiveTaskInfo.md).[id](../interfaces/IDataforseoLabsAppleAppIntersectionLiveTaskInfo.md#id)
+[`IDataforseoLabsAppleAppIntersectionLiveTaskInfo`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveTaskInfo.md).[`id`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[IDataforseoLabsAppleAppIntersectionLiveTaskInfo](../interfaces/IDataforseoLabsAppleAppIntersectionLiveTaskInfo.md).[path](../interfaces/IDataforseoLabsAppleAppIntersectionLiveTaskInfo.md#path)
+[`IDataforseoLabsAppleAppIntersectionLiveTaskInfo`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveTaskInfo.md).[`path`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`DataforseoLabsAppleAppIntersectionLiveResultInfo`](DataforseoLabsAppleAppIntersectionLiveResultInfo.md)[]
+> **`optional`** **result**: [`DataforseoLabsAppleAppIntersectionLiveResultInfo`](DataforseoLabsAppleAppIntersectionLiveResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[IDataforseoLabsAppleAppIntersectionLiveTaskInfo](../interfaces/IDataforseoLabsAppleAppIntersectionLiveTaskInfo.md).[result](../interfaces/IDataforseoLabsAppleAppIntersectionLiveTaskInfo.md#result)
+[`IDataforseoLabsAppleAppIntersectionLiveTaskInfo`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveTaskInfo.md).[`result`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:114487
+main.ts:114495
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[IDataforseoLabsAppleAppIntersectionLiveTaskInfo](../interfaces/IDataforseoLabsAppleAppIntersectionLiveTaskInfo.md).[result_count](../interfaces/IDataforseoLabsAppleAppIntersectionLiveTaskInfo.md#result_count)
+[`IDataforseoLabsAppleAppIntersectionLiveTaskInfo`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveTaskInfo.md).[`result_count`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[IDataforseoLabsAppleAppIntersectionLiveTaskInfo](../interfaces/IDataforseoLabsAppleAppIntersectionLiveTaskInfo.md).[status_code](../interfaces/IDataforseoLabsAppleAppIntersectionLiveTaskInfo.md#status_code)
+[`IDataforseoLabsAppleAppIntersectionLiveTaskInfo`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveTaskInfo.md).[`status_code`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IDataforseoLabsAppleAppIntersectionLiveTaskInfo](../interfaces/IDataforseoLabsAppleAppIntersectionLiveTaskInfo.md).[status_message](../interfaces/IDataforseoLabsAppleAppIntersectionLiveTaskInfo.md#status_message)
+[`IDataforseoLabsAppleAppIntersectionLiveTaskInfo`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveTaskInfo.md).[`status_message`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[IDataforseoLabsAppleAppIntersectionLiveTaskInfo](../interfaces/IDataforseoLabsAppleAppIntersectionLiveTaskInfo.md).[time](../interfaces/IDataforseoLabsAppleAppIntersectionLiveTaskInfo.md#time)
+[`IDataforseoLabsAppleAppIntersectionLiveTaskInfo`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveTaskInfo.md).[`time`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:114495
+main.ts:114503
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:114517
+main.ts:114525
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsAppleAppIntersectionLiveTaskInfo`](DataforseoLabsAppleAppIntersectionLiveTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsAppleAppIntersectionLiveTaskInfo`](DataforseoLabsAppleAppIntersectionLiveTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:114510
+main.ts:114518

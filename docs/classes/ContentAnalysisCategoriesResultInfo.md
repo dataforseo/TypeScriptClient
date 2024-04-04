@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentAnalysisCategoriesResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ContentAnalysisCategoriesResultInfo
 
 # Class: ContentAnalysisCategoriesResultInfo
 
@@ -8,67 +12,47 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ContentAnalysisCategoriesResultInfo.md#constructor)
-
-### Properties
-
-- [category\_code](ContentAnalysisCategoriesResultInfo.md#category_code)
-- [category\_code\_parent](ContentAnalysisCategoriesResultInfo.md#category_code_parent)
-- [category\_name](ContentAnalysisCategoriesResultInfo.md#category_name)
-
-### Methods
-
-- [init](ContentAnalysisCategoriesResultInfo.md#init)
-- [toJSON](ContentAnalysisCategoriesResultInfo.md#tojson)
-- [fromJS](ContentAnalysisCategoriesResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ContentAnalysisCategoriesResultInfo(data)
 
-• **new ContentAnalysisCategoriesResultInfo**(`data?`): [`ContentAnalysisCategoriesResultInfo`](ContentAnalysisCategoriesResultInfo.md)
+> **new ContentAnalysisCategoriesResultInfo**(`data`?): [`ContentAnalysisCategoriesResultInfo`](ContentAnalysisCategoriesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IContentAnalysisCategoriesResultInfo`](../interfaces/IContentAnalysisCategoriesResultInfo.md) |
+• **data?**: [`IContentAnalysisCategoriesResultInfo`](../interfaces/IContentAnalysisCategoriesResultInfo.md)
 
 #### Returns
 
 [`ContentAnalysisCategoriesResultInfo`](ContentAnalysisCategoriesResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:161296
+main.ts:161304
 
 ## Properties
 
-### category\_code
+### category\_code?
 
-• `Optional` **category\_code**: `number`
+> **`optional`** **category\_code**: `number`
 
 category code
 
 #### Implementation of
 
-[IContentAnalysisCategoriesResultInfo](../interfaces/IContentAnalysisCategoriesResultInfo.md).[category_code](../interfaces/IContentAnalysisCategoriesResultInfo.md#category_code)
+[`IContentAnalysisCategoriesResultInfo`](../interfaces/IContentAnalysisCategoriesResultInfo.md).[`category_code`](../interfaces/IContentAnalysisCategoriesResultInfo.md#category_code)
 
-#### Defined in
+#### Source
 
-main.ts:161280
+main.ts:161288
 
-___
+***
 
-### category\_code\_parent
+### category\_code\_parent?
 
-• `Optional` **category\_code\_parent**: `number`
+> **`optional`** **category\_code\_parent**: `number`
 
 the code of the superordinate category
 example:
@@ -82,84 +66,78 @@ corresponds to:
 
 #### Implementation of
 
-[IContentAnalysisCategoriesResultInfo](../interfaces/IContentAnalysisCategoriesResultInfo.md).[category_code_parent](../interfaces/IContentAnalysisCategoriesResultInfo.md#category_code_parent)
+[`IContentAnalysisCategoriesResultInfo`](../interfaces/IContentAnalysisCategoriesResultInfo.md).[`category_code_parent`](../interfaces/IContentAnalysisCategoriesResultInfo.md#category_code_parent)
 
-#### Defined in
+#### Source
 
-main.ts:161292
+main.ts:161300
 
-___
+***
 
-### category\_name
+### category\_name?
 
-• `Optional` **category\_name**: `string`
+> **`optional`** **category\_name**: `string`
 
 full name of the category
 
 #### Implementation of
 
-[IContentAnalysisCategoriesResultInfo](../interfaces/IContentAnalysisCategoriesResultInfo.md).[category_name](../interfaces/IContentAnalysisCategoriesResultInfo.md#category_name)
+[`IContentAnalysisCategoriesResultInfo`](../interfaces/IContentAnalysisCategoriesResultInfo.md).[`category_name`](../interfaces/IContentAnalysisCategoriesResultInfo.md#category_name)
 
-#### Defined in
+#### Source
 
-main.ts:161282
+main.ts:161290
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:161305
+main.ts:161313
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:161324
+main.ts:161332
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ContentAnalysisCategoriesResultInfo`](ContentAnalysisCategoriesResultInfo.md)
+> **`static`** **fromJS**(`data`): [`ContentAnalysisCategoriesResultInfo`](ContentAnalysisCategoriesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ContentAnalysisCategoriesResultInfo`](ContentAnalysisCategoriesResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:161317
+main.ts:161325

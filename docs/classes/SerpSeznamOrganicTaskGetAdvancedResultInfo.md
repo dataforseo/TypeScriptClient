@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpSeznamOrganicTaskGetAdvancedResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpSeznamOrganicTaskGetAdvancedResultInfo
 
 # Class: SerpSeznamOrganicTaskGetAdvancedResultInfo
 
@@ -8,77 +12,48 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpSeznamOrganicTaskGetAdvancedResultInfo.md#constructor)
-
-### Properties
-
-- [check\_url](SerpSeznamOrganicTaskGetAdvancedResultInfo.md#check_url)
-- [datetime](SerpSeznamOrganicTaskGetAdvancedResultInfo.md#datetime)
-- [item\_types](SerpSeznamOrganicTaskGetAdvancedResultInfo.md#item_types)
-- [items](SerpSeznamOrganicTaskGetAdvancedResultInfo.md#items)
-- [items\_count](SerpSeznamOrganicTaskGetAdvancedResultInfo.md#items_count)
-- [keyword](SerpSeznamOrganicTaskGetAdvancedResultInfo.md#keyword)
-- [language\_code](SerpSeznamOrganicTaskGetAdvancedResultInfo.md#language_code)
-- [location\_code](SerpSeznamOrganicTaskGetAdvancedResultInfo.md#location_code)
-- [se\_domain](SerpSeznamOrganicTaskGetAdvancedResultInfo.md#se_domain)
-- [se\_results\_count](SerpSeznamOrganicTaskGetAdvancedResultInfo.md#se_results_count)
-- [spell](SerpSeznamOrganicTaskGetAdvancedResultInfo.md#spell)
-- [type](SerpSeznamOrganicTaskGetAdvancedResultInfo.md#type)
-
-### Methods
-
-- [init](SerpSeznamOrganicTaskGetAdvancedResultInfo.md#init)
-- [toJSON](SerpSeznamOrganicTaskGetAdvancedResultInfo.md#tojson)
-- [fromJS](SerpSeznamOrganicTaskGetAdvancedResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpSeznamOrganicTaskGetAdvancedResultInfo(data)
 
-• **new SerpSeznamOrganicTaskGetAdvancedResultInfo**(`data?`): [`SerpSeznamOrganicTaskGetAdvancedResultInfo`](SerpSeznamOrganicTaskGetAdvancedResultInfo.md)
+> **new SerpSeznamOrganicTaskGetAdvancedResultInfo**(`data`?): [`SerpSeznamOrganicTaskGetAdvancedResultInfo`](SerpSeznamOrganicTaskGetAdvancedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpSeznamOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md) |
+• **data?**: [`ISerpSeznamOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
 [`SerpSeznamOrganicTaskGetAdvancedResultInfo`](SerpSeznamOrganicTaskGetAdvancedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:72797
+main.ts:72805
 
 ## Properties
 
-### check\_url
+### check\_url?
 
-• `Optional` **check\_url**: `string`
+> **`optional`** **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
 
 #### Implementation of
 
-[ISerpSeznamOrganicTaskGetAdvancedResultInfo](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md).[check_url](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md#check_url)
+[`ISerpSeznamOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md).[`check_url`](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md#check_url)
 
-#### Defined in
+#### Source
 
-main.ts:72773
+main.ts:72781
 
-___
+***
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -87,17 +62,17 @@ example:
 
 #### Implementation of
 
-[ISerpSeznamOrganicTaskGetAdvancedResultInfo](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md).[datetime](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md#datetime)
+[`ISerpSeznamOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md).[`datetime`](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
-main.ts:72778
+main.ts:72786
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -106,215 +81,209 @@ images, local_pack, organic, related_searches, top_stories, featured_snippet, vi
 
 #### Implementation of
 
-[ISerpSeznamOrganicTaskGetAdvancedResultInfo](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md).[item_types](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md#item_types)
+[`ISerpSeznamOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md).[`item_types`](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md#item_types)
 
-#### Defined in
+#### Source
 
-main.ts:72786
+main.ts:72794
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
+> **`optional`** **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
 additional items present in the element
 if there are none, equals null
 
 #### Implementation of
 
-[ISerpSeznamOrganicTaskGetAdvancedResultInfo](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md).[items](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md#items)
+[`ISerpSeznamOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md).[`items`](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:72793
+main.ts:72801
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[ISerpSeznamOrganicTaskGetAdvancedResultInfo](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md).[items_count](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md#items_count)
+[`ISerpSeznamOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md).[`items_count`](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:72790
+main.ts:72798
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword received in a POST array
 the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
-[ISerpSeznamOrganicTaskGetAdvancedResultInfo](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md).[keyword](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md#keyword)
+[`ISerpSeznamOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md).[`keyword`](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:72762
+main.ts:72770
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[ISerpSeznamOrganicTaskGetAdvancedResultInfo](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md).[language_code](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md#language_code)
+[`ISerpSeznamOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md).[`language_code`](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:72770
+main.ts:72778
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[ISerpSeznamOrganicTaskGetAdvancedResultInfo](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md).[location_code](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md#location_code)
+[`ISerpSeznamOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md).[`location_code`](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:72768
+main.ts:72776
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
 #### Implementation of
 
-[ISerpSeznamOrganicTaskGetAdvancedResultInfo](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md).[se_domain](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md#se_domain)
+[`ISerpSeznamOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md).[`se_domain`](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md#se_domain)
 
-#### Defined in
+#### Source
 
-main.ts:72766
+main.ts:72774
 
-___
+***
 
-### se\_results\_count
+### se\_results\_count?
 
-• `Optional` **se\_results\_count**: `number`
+> **`optional`** **se\_results\_count**: `number`
 
 total number of results in SERP
 
 #### Implementation of
 
-[ISerpSeznamOrganicTaskGetAdvancedResultInfo](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md).[se_results_count](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md#se_results_count)
+[`ISerpSeznamOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md).[`se_results_count`](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md#se_results_count)
 
-#### Defined in
+#### Source
 
-main.ts:72788
+main.ts:72796
 
-___
+***
 
-### spell
+### spell?
 
-• `Optional` **spell**: [`SpellInfo`](SpellInfo.md)
+> **`optional`** **spell**: [`SpellInfo`](SpellInfo.md)
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
 
 #### Implementation of
 
-[ISerpSeznamOrganicTaskGetAdvancedResultInfo](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md).[spell](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md#spell)
+[`ISerpSeznamOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md).[`spell`](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md#spell)
 
-#### Defined in
+#### Source
 
-main.ts:72781
+main.ts:72789
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[ISerpSeznamOrganicTaskGetAdvancedResultInfo](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md).[type](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md#type)
+[`ISerpSeznamOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md).[`type`](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:72764
+main.ts:72772
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:72806
+main.ts:72814
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:72842
+main.ts:72850
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpSeznamOrganicTaskGetAdvancedResultInfo`](SerpSeznamOrganicTaskGetAdvancedResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpSeznamOrganicTaskGetAdvancedResultInfo`](SerpSeznamOrganicTaskGetAdvancedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpSeznamOrganicTaskGetAdvancedResultInfo`](SerpSeznamOrganicTaskGetAdvancedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:72835
+main.ts:72843

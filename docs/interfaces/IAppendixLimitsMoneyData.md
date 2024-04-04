@@ -1,38 +1,31 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixLimitsMoneyData
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppendixLimitsMoneyData
 
 # Interface: IAppendixLimitsMoneyData
 
-## Implemented by
-
-- [`AppendixLimitsMoneyData`](../classes/AppendixLimitsMoneyData.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [day](IAppendixLimitsMoneyData.md#day)
-- [minute](IAppendixLimitsMoneyData.md#minute)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### day
+### day?
 
-• `Optional` **day**: [`AppendixDataInfo`](../classes/AppendixDataInfo.md)
+> **`optional`** **day**: [`AppendixDataInfo`](../classes/AppendixDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:214963
 
-___
+***
 
-### minute
+### minute?
 
-• `Optional` **minute**: [`AppendixDataInfo`](../classes/AppendixDataInfo.md)
+> **`optional`** **minute**: [`AppendixDataInfo`](../classes/AppendixDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:214964

@@ -1,82 +1,84 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IPopularProductsElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IPopularProductsElement
 
 # Interface: IPopularProductsElement
 
-## Implemented by
-
-- [`PopularProductsElement`](../classes/PopularProductsElement.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [description](IPopularProductsElement.md#description)
-- [price](IPopularProductsElement.md#price)
-- [rating](IPopularProductsElement.md#rating)
-- [title](IPopularProductsElement.md#title)
-- [type](IPopularProductsElement.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description
 
-#### Defined in
+#### Source
 
-main.ts:32915
+main.ts:32919
 
-___
+***
 
-### price
+### price?
 
-• `Optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
+> **`optional`** **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
 price indicated in the element
 
-#### Defined in
+#### Source
 
-main.ts:32917
+main.ts:32923
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
-#### Defined in
+#### Source
 
-main.ts:32920
+main.ts:32926
 
-___
+***
 
-### title
+### seller?
 
-• `Optional` **title**: `string`
+> **`optional`** **seller**: `string`
+
+seller of the product
+
+#### Source
+
+main.ts:32921
+
+***
+
+### title?
+
+> **`optional`** **title**: `string`
 
 title of a given link element
 
-#### Defined in
+#### Source
 
-main.ts:32913
+main.ts:32917
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:32911
+main.ts:32915

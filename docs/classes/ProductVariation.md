@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ProductVariation
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ProductVariation
 
 # Class: ProductVariation
 
@@ -8,169 +12,142 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ProductVariation.md#constructor)
-
-### Properties
-
-- [product\_id](ProductVariation.md#product_id)
-- [title](ProductVariation.md#title)
-- [type](ProductVariation.md#type)
-- [url](ProductVariation.md#url)
-
-### Methods
-
-- [init](ProductVariation.md#init)
-- [toJSON](ProductVariation.md#tojson)
-- [fromJS](ProductVariation.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ProductVariation(data)
 
-• **new ProductVariation**(`data?`): [`ProductVariation`](ProductVariation.md)
+> **new ProductVariation**(`data`?): [`ProductVariation`](ProductVariation.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IProductVariation`](../interfaces/IProductVariation.md) |
+• **data?**: [`IProductVariation`](../interfaces/IProductVariation.md)
 
 #### Returns
 
 [`ProductVariation`](ProductVariation.md)
 
-#### Defined in
+#### Source
 
 main.ts:174538
 
 ## Properties
 
-### product\_id
+### product\_id?
 
-• `Optional` **product\_id**: `string`
+> **`optional`** **product\_id**: `string`
 
 product ID in a POST array
 learn more about the parameter in this help center guide
 
 #### Implementation of
 
-[IProductVariation](../interfaces/IProductVariation.md).[product_id](../interfaces/IProductVariation.md#product_id)
+[`IProductVariation`](../interfaces/IProductVariation.md).[`product_id`](../interfaces/IProductVariation.md#product_id)
 
-#### Defined in
+#### Source
 
 main.ts:174529
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 name of the product seller
 
 #### Implementation of
 
-[IProductVariation](../interfaces/IProductVariation.md).[title](../interfaces/IProductVariation.md#title)
+[`IProductVariation`](../interfaces/IProductVariation.md).[`title`](../interfaces/IProductVariation.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:174531
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IProductVariation](../interfaces/IProductVariation.md).[type](../interfaces/IProductVariation.md#type)
+[`IProductVariation`](../interfaces/IProductVariation.md).[`type`](../interfaces/IProductVariation.md#type)
 
-#### Defined in
+#### Source
 
 main.ts:174526
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 seller url
 url of the webpage on the seller’s website where the product is sold
 
 #### Implementation of
 
-[IProductVariation](../interfaces/IProductVariation.md).[url](../interfaces/IProductVariation.md#url)
+[`IProductVariation`](../interfaces/IProductVariation.md).[`url`](../interfaces/IProductVariation.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:174534
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:174547
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:174567
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ProductVariation`](ProductVariation.md)
+> **`static`** **fromJS**(`data`): [`ProductVariation`](ProductVariation.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ProductVariation`](ProductVariation.md)
 
-#### Defined in
+#### Source
 
 main.ts:174560

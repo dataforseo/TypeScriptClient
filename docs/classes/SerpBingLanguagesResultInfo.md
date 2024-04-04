@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpBingLanguagesResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpBingLanguagesResultInfo
 
 # Class: SerpBingLanguagesResultInfo
 
@@ -8,133 +12,108 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpBingLanguagesResultInfo.md#constructor)
-
-### Properties
-
-- [language\_code](SerpBingLanguagesResultInfo.md#language_code)
-- [language\_name](SerpBingLanguagesResultInfo.md#language_name)
-
-### Methods
-
-- [init](SerpBingLanguagesResultInfo.md#init)
-- [toJSON](SerpBingLanguagesResultInfo.md#tojson)
-- [fromJS](SerpBingLanguagesResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpBingLanguagesResultInfo(data)
 
-• **new SerpBingLanguagesResultInfo**(`data?`): [`SerpBingLanguagesResultInfo`](SerpBingLanguagesResultInfo.md)
+> **new SerpBingLanguagesResultInfo**(`data`?): [`SerpBingLanguagesResultInfo`](SerpBingLanguagesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpBingLanguagesResultInfo`](../interfaces/ISerpBingLanguagesResultInfo.md) |
+• **data?**: [`ISerpBingLanguagesResultInfo`](../interfaces/ISerpBingLanguagesResultInfo.md)
 
 #### Returns
 
 [`SerpBingLanguagesResultInfo`](SerpBingLanguagesResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:55897
+main.ts:55905
 
 ## Properties
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code according to ISO 639-1
 
 #### Implementation of
 
-[ISerpBingLanguagesResultInfo](../interfaces/ISerpBingLanguagesResultInfo.md).[language_code](../interfaces/ISerpBingLanguagesResultInfo.md#language_code)
+[`ISerpBingLanguagesResultInfo`](../interfaces/ISerpBingLanguagesResultInfo.md).[`language_code`](../interfaces/ISerpBingLanguagesResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:55893
+main.ts:55901
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 language name
 
 #### Implementation of
 
-[ISerpBingLanguagesResultInfo](../interfaces/ISerpBingLanguagesResultInfo.md).[language_name](../interfaces/ISerpBingLanguagesResultInfo.md#language_name)
+[`ISerpBingLanguagesResultInfo`](../interfaces/ISerpBingLanguagesResultInfo.md).[`language_name`](../interfaces/ISerpBingLanguagesResultInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:55891
+main.ts:55899
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:55906
+main.ts:55914
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:55924
+main.ts:55932
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpBingLanguagesResultInfo`](SerpBingLanguagesResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpBingLanguagesResultInfo`](SerpBingLanguagesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpBingLanguagesResultInfo`](SerpBingLanguagesResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:55917
+main.ts:55925

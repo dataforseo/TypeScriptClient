@@ -1,20 +1,18 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BaseOnPageResourceItemInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BaseOnPageResourceItemInfo
 
 # Class: BaseOnPageResourceItemInfo
 
-## Hierarchy
+## Extended by
 
-- **`BaseOnPageResourceItemInfo`**
-
-  ↳ [`HtmlResourceElementItem`](HtmlResourceElementItem.md)
-
-  ↳ [`StylesheetResourceElementItem`](StylesheetResourceElementItem.md)
-
-  ↳ [`ScriptResourceElementItem`](ScriptResourceElementItem.md)
-
-  ↳ [`ImageResourceElementItem`](ImageResourceElementItem.md)
-
-  ↳ [`BrokenResourceElementItem`](BrokenResourceElementItem.md)
+- [`HtmlResourceElementItem`](HtmlResourceElementItem.md)
+- [`ScriptResourceElementItem`](ScriptResourceElementItem.md)
+- [`StylesheetResourceElementItem`](StylesheetResourceElementItem.md)
+- [`ImageResourceElementItem`](ImageResourceElementItem.md)
+- [`BrokenResourceElementItem`](BrokenResourceElementItem.md)
 
 ## Implements
 
@@ -22,41 +20,23 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BaseOnPageResourceItemInfo.md#constructor)
-
-### Properties
-
-- [\_discriminator](BaseOnPageResourceItemInfo.md#_discriminator)
-
-### Methods
-
-- [init](BaseOnPageResourceItemInfo.md#init)
-- [toJSON](BaseOnPageResourceItemInfo.md#tojson)
-- [fromJS](BaseOnPageResourceItemInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BaseOnPageResourceItemInfo(data)
 
-• **new BaseOnPageResourceItemInfo**(`data?`): [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)
+> **new BaseOnPageResourceItemInfo**(`data`?): [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBaseOnPageResourceItemInfo`](../interfaces/IBaseOnPageResourceItemInfo.md) |
+• **data?**: [`IBaseOnPageResourceItemInfo`](../interfaces/IBaseOnPageResourceItemInfo.md)
 
 #### Returns
 
 [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:20637
 
@@ -64,68 +44,62 @@ main.ts:20637
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
-#### Defined in
+#### Source
 
 main.ts:20635
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:20647
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:20688
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)
+> **`static`** **fromJS**(`data`): [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:20656

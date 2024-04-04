@@ -1,29 +1,23 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppDataGoogleCategoriesResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppDataGoogleCategoriesResultInfo
 
 # Interface: IAppDataGoogleCategoriesResultInfo
 
-## Implemented by
-
-- [`AppDataGoogleCategoriesResultInfo`](../classes/AppDataGoogleCategoriesResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [categories](IAppDataGoogleCategoriesResultInfo.md#categories)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### categories
+### categories?
 
-• `Optional` **categories**: `string`[]
+> **`optional`** **categories**: `string`[]
 
 contains full list of supported app categories
 
-#### Defined in
+#### Source
 
 main.ts:182472

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataBingKeywordPerformanceTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataBingKeywordPerformanceTaskPostRequestInfo
 
 # Class: KeywordsDataBingKeywordPerformanceTaskPostRequestInfo
 
@@ -8,59 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#constructor)
-
-### Properties
-
-- [device](KeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#device)
-- [keywords](KeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#keywords)
-- [language\_code](KeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#language_code)
-- [language\_name](KeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#language_name)
-- [location\_code](KeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#location_code)
-- [location\_coordinate](KeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#location_coordinate)
-- [location\_name](KeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#location_name)
-- [match](KeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#match)
-- [pingback\_url](KeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#pingback_url)
-- [postback\_url](KeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#postback_url)
-- [tag](KeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#tag)
-
-### Methods
-
-- [init](KeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#init)
-- [toJSON](KeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#tojson)
-- [fromJS](KeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordsDataBingKeywordPerformanceTaskPostRequestInfo(data)
 
-• **new KeywordsDataBingKeywordPerformanceTaskPostRequestInfo**(`data?`): [`KeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](KeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md)
+> **new KeywordsDataBingKeywordPerformanceTaskPostRequestInfo**(`data`?): [`KeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](KeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md) |
+• **data?**: [`IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md)
 
 #### Returns
 
 [`KeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](KeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:132041
+main.ts:132049
 
 ## Properties
 
-### device
+### device?
 
-• `Optional` **device**: `string`
+> **`optional`** **device**: `string`
 
 device type
 optional field
@@ -69,17 +45,17 @@ default value: all
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md).[device](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#device)
+[`IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md).[`device`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#device)
 
-#### Defined in
+#### Source
 
-main.ts:131968
+main.ts:131976
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 keywords
 required field
@@ -90,17 +66,17 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md).[keywords](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#keywords)
+[`IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md).[`keywords`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#keywords)
 
-#### Defined in
+#### Source
 
-main.ts:131963
+main.ts:131971
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -110,17 +86,17 @@ example:
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md).[language_code](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#language_code)
+[`IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md).[`language_code`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:132011
+main.ts:132019
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -131,17 +107,17 @@ English
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md).[language_name](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#language_name)
+[`IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md).[`language_name`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:132005
+main.ts:132013
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -152,17 +128,17 @@ example:
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md).[location_code](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#location_code)
+[`IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md).[`location_code`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:131990
+main.ts:131998
 
-___
+***
 
-### location\_coordinate
+### location\_coordinate?
 
-• `Optional` **location\_coordinate**: `string`
+> **`optional`** **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -174,17 +150,17 @@ example:
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md).[location_coordinate](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#location_coordinate)
+[`IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md).[`location_coordinate`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#location_coordinate)
 
-#### Defined in
+#### Source
 
-main.ts:131998
+main.ts:132006
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -195,17 +171,17 @@ example:
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md).[location_name](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#location_name)
+[`IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md).[`location_name`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:131983
+main.ts:131991
 
-___
+***
 
-### match
+### match?
 
-• `Optional` **match**: `string`
+> **`optional`** **match**: `string`
 
 keywords match type
 optional field
@@ -217,17 +193,17 @@ exact returns data for user query that matches the specified keyword;Note: the a
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md).[match](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#match)
+[`IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md).[`match`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#match)
 
-#### Defined in
+#### Source
 
-main.ts:131976
+main.ts:131984
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -241,17 +217,17 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md).[pingback_url](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#pingback_url)
+[`IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md).[`pingback_url`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#pingback_url)
 
-#### Defined in
+#### Source
 
-main.ts:132031
+main.ts:132039
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -265,17 +241,17 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md).[postback_url](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#postback_url)
+[`IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md).[`postback_url`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#postback_url)
 
-#### Defined in
+#### Source
 
-main.ts:132021
+main.ts:132029
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -285,68 +261,62 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md).[tag](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#tag)
+[`IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md).[`tag`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:132037
+main.ts:132045
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:132050
+main.ts:132058
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:132081
+main.ts:132089
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](KeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](KeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`KeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](KeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:132074
+main.ts:132082

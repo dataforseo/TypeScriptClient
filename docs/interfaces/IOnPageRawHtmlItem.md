@@ -1,29 +1,23 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageRawHtmlItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IOnPageRawHtmlItem
 
 # Interface: IOnPageRawHtmlItem
 
-## Implemented by
-
-- [`OnPageRawHtmlItem`](../classes/OnPageRawHtmlItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [html](IOnPageRawHtmlItem.md#html)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### html
+### html?
 
-• `Optional` **html**: `string`
+> **`optional`** **html**: `string`
 
 HTML page
 
-#### Defined in
+#### Source
 
-main.ts:156675
+main.ts:156683

@@ -1,95 +1,84 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo
 
 # Interface: IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo
 
-## Implemented by
-
-- [`KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo`](../classes/KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [date\_posted](IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md#date_posted)
-- [endpoint](IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md#endpoint)
-- [function](IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md#function)
-- [id](IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md#id)
-- [se](IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md#se)
-- [tag](IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### date\_posted
+### date\_posted?
 
-• `Optional` **date\_posted**: `string`
+> **`optional`** **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
-#### Defined in
+#### Source
 
-main.ts:120443
+main.ts:120451
 
-___
+***
 
-### endpoint
+### endpoint?
 
-• `Optional` **endpoint**: `string`
+> **`optional`** **endpoint**: `string`
 
 URL for collecting the results of the task
 
-#### Defined in
+#### Source
 
-main.ts:120447
+main.ts:120455
 
-___
+***
 
-### function
+### function?
 
-• `Optional` **function**: `string`
+> **`optional`** **function**: `string`
 
 type of the task
 
-#### Defined in
+#### Source
 
-main.ts:120441
+main.ts:120449
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
-#### Defined in
+#### Source
 
-main.ts:120437
+main.ts:120445
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 
-#### Defined in
+#### Source
 
-main.ts:120439
+main.ts:120447
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
-#### Defined in
+#### Source
 
-main.ts:120445
+main.ts:120453

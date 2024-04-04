@@ -1,215 +1,194 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKnowledgeGraphSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IKnowledgeGraphSerpElementItem
 
 # Interface: IKnowledgeGraphSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
 
-  ↳ **`IKnowledgeGraphSerpElementItem`**
-
-## Implemented by
-
-- [`KnowledgeGraphSerpElementItem`](../classes/KnowledgeGraphSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [card\_id](IKnowledgeGraphSerpElementItem.md#card_id)
-- [cid](IKnowledgeGraphSerpElementItem.md#cid)
-- [description](IKnowledgeGraphSerpElementItem.md#description)
-- [image\_url](IKnowledgeGraphSerpElementItem.md#image_url)
-- [items](IKnowledgeGraphSerpElementItem.md#items)
-- [logo\_url](IKnowledgeGraphSerpElementItem.md#logo_url)
-- [position](IKnowledgeGraphSerpElementItem.md#position)
-- [rank\_absolute](IKnowledgeGraphSerpElementItem.md#rank_absolute)
-- [rank\_group](IKnowledgeGraphSerpElementItem.md#rank_group)
-- [rectangle](IKnowledgeGraphSerpElementItem.md#rectangle)
-- [subtitle](IKnowledgeGraphSerpElementItem.md#subtitle)
-- [title](IKnowledgeGraphSerpElementItem.md#title)
-- [url](IKnowledgeGraphSerpElementItem.md#url)
-- [xpath](IKnowledgeGraphSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### card\_id
+### card\_id?
 
-• `Optional` **card\_id**: `string`
+> **`optional`** **card\_id**: `string`
 
 card id
 
-#### Defined in
+#### Source
 
 main.ts:28398
 
-___
+***
 
-### cid
+### cid?
 
-• `Optional` **cid**: `string`
+> **`optional`** **cid**: `string`
 
 google-defined client id
 unique id of a local establishment;
 can be used with Google Reviews API to get a full list of reviews
 
-#### Defined in
+#### Source
 
 main.ts:28409
 
-___
+***
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description of the results element in SERP
 
-#### Defined in
+#### Source
 
 main.ts:28396
 
-___
+***
 
-### image\_url
+### image\_url?
 
-• `Optional` **image\_url**: `string`
+> **`optional`** **image\_url**: `string`
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
 
-#### Defined in
+#### Source
 
 main.ts:28403
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
+> **`optional`** **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
 
 additional items present in the element
 if there are none, equals null
 
-#### Defined in
+#### Source
 
 main.ts:28412
 
-___
+***
 
-### logo\_url
+### logo\_url?
 
-• `Optional` **logo\_url**: `string`
+> **`optional`** **logo\_url**: `string`
 
 URL of the logo from knowledge graph
 
-#### Defined in
+#### Source
 
 main.ts:28405
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
 main.ts:28388
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Defined in
+#### Source
 
 main.ts:28384
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
 main.ts:28381
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
 equals null if calculate_rectangles in the POST request is not set to true
 
-#### Defined in
+#### Source
 
 main.ts:28416
 
-___
+***
 
-### subtitle
+### subtitle?
 
-• `Optional` **subtitle**: `string`
+> **`optional`** **subtitle**: `string`
 
 subtitle of the item
 
-#### Defined in
+#### Source
 
 main.ts:28394
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the result in SERP
 
-#### Defined in
+#### Source
 
 main.ts:28392
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 relevant URL in SERP
 
-#### Defined in
+#### Source
 
 main.ts:28400
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
 main.ts:28390

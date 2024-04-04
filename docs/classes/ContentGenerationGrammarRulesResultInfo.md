@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentGenerationGrammarRulesResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ContentGenerationGrammarRulesResultInfo
 
 # Class: ContentGenerationGrammarRulesResultInfo
 
@@ -8,116 +12,92 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ContentGenerationGrammarRulesResultInfo.md#constructor)
-
-### Properties
-
-- [rules](ContentGenerationGrammarRulesResultInfo.md#rules)
-
-### Methods
-
-- [init](ContentGenerationGrammarRulesResultInfo.md#init)
-- [toJSON](ContentGenerationGrammarRulesResultInfo.md#tojson)
-- [fromJS](ContentGenerationGrammarRulesResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ContentGenerationGrammarRulesResultInfo(data)
 
-• **new ContentGenerationGrammarRulesResultInfo**(`data?`): [`ContentGenerationGrammarRulesResultInfo`](ContentGenerationGrammarRulesResultInfo.md)
+> **new ContentGenerationGrammarRulesResultInfo**(`data`?): [`ContentGenerationGrammarRulesResultInfo`](ContentGenerationGrammarRulesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IContentGenerationGrammarRulesResultInfo`](../interfaces/IContentGenerationGrammarRulesResultInfo.md) |
+• **data?**: [`IContentGenerationGrammarRulesResultInfo`](../interfaces/IContentGenerationGrammarRulesResultInfo.md)
 
 #### Returns
 
 [`ContentGenerationGrammarRulesResultInfo`](ContentGenerationGrammarRulesResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:167390
+main.ts:167398
 
 ## Properties
 
-### rules
+### rules?
 
-• `Optional` **rules**: `string`[]
+> **`optional`** **rules**: `string`[]
 
 array of rules
 
 #### Implementation of
 
-[IContentGenerationGrammarRulesResultInfo](../interfaces/IContentGenerationGrammarRulesResultInfo.md).[rules](../interfaces/IContentGenerationGrammarRulesResultInfo.md#rules)
+[`IContentGenerationGrammarRulesResultInfo`](../interfaces/IContentGenerationGrammarRulesResultInfo.md).[`rules`](../interfaces/IContentGenerationGrammarRulesResultInfo.md#rules)
 
-#### Defined in
+#### Source
 
-main.ts:167386
+main.ts:167394
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:167399
+main.ts:167407
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:167420
+main.ts:167428
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ContentGenerationGrammarRulesResultInfo`](ContentGenerationGrammarRulesResultInfo.md)
+> **`static`** **fromJS**(`data`): [`ContentGenerationGrammarRulesResultInfo`](ContentGenerationGrammarRulesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ContentGenerationGrammarRulesResultInfo`](ContentGenerationGrammarRulesResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:167413
+main.ts:167421

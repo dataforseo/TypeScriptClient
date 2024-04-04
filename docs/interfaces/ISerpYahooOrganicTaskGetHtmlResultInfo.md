@@ -1,124 +1,111 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpYahooOrganicTaskGetHtmlResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ISerpYahooOrganicTaskGetHtmlResultInfo
 
 # Interface: ISerpYahooOrganicTaskGetHtmlResultInfo
 
-## Implemented by
-
-- [`SerpYahooOrganicTaskGetHtmlResultInfo`](../classes/SerpYahooOrganicTaskGetHtmlResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [datetime](ISerpYahooOrganicTaskGetHtmlResultInfo.md#datetime)
-- [items](ISerpYahooOrganicTaskGetHtmlResultInfo.md#items)
-- [items\_count](ISerpYahooOrganicTaskGetHtmlResultInfo.md#items_count)
-- [keyword](ISerpYahooOrganicTaskGetHtmlResultInfo.md#keyword)
-- [language\_code](ISerpYahooOrganicTaskGetHtmlResultInfo.md#language_code)
-- [location\_code](ISerpYahooOrganicTaskGetHtmlResultInfo.md#location_code)
-- [se\_domain](ISerpYahooOrganicTaskGetHtmlResultInfo.md#se_domain)
-- [type](ISerpYahooOrganicTaskGetHtmlResultInfo.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
-main.ts:66720
+main.ts:66728
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`HtmlItem`](../classes/HtmlItem.md)[]
+> **`optional`** **items**: [`HtmlItem`](../classes/HtmlItem.md)[]
 
 elements of search results found in SERP
 
-#### Defined in
+#### Source
 
-main.ts:66724
+main.ts:66732
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Defined in
+#### Source
 
-main.ts:66722
+main.ts:66730
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
 
-#### Defined in
-
-main.ts:66707
-
-___
-
-### language\_code
-
-• `Optional` **language\_code**: `string`
-
-language code in a POST array
-
-#### Defined in
+#### Source
 
 main.ts:66715
 
-___
+***
 
-### location\_code
+### language\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **language\_code**: `string`
+
+language code in a POST array
+
+#### Source
+
+main.ts:66723
+
+***
+
+### location\_code?
+
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:66713
+main.ts:66721
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:66711
+main.ts:66719
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:66709
+main.ts:66717

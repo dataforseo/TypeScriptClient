@@ -1,18 +1,17 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BaseGoogleTrendsItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BaseGoogleTrendsItem
 
 # Class: BaseGoogleTrendsItem
 
-## Hierarchy
+## Extended by
 
-- **`BaseGoogleTrendsItem`**
-
-  ↳ [`GoogleTrendsGraphElementItem`](GoogleTrendsGraphElementItem.md)
-
-  ↳ [`GoogleTrendsMapElementItem`](GoogleTrendsMapElementItem.md)
-
-  ↳ [`GoogleTrendsQueriesListElementItem`](GoogleTrendsQueriesListElementItem.md)
-
-  ↳ [`GoogleTrendsTopicsListElementItem`](GoogleTrendsTopicsListElementItem.md)
+- [`GoogleTrendsGraphElementItem`](GoogleTrendsGraphElementItem.md)
+- [`GoogleTrendsMapElementItem`](GoogleTrendsMapElementItem.md)
+- [`GoogleTrendsQueriesListElementItem`](GoogleTrendsQueriesListElementItem.md)
+- [`GoogleTrendsTopicsListElementItem`](GoogleTrendsTopicsListElementItem.md)
 
 ## Implements
 
@@ -20,41 +19,23 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BaseGoogleTrendsItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](BaseGoogleTrendsItem.md#_discriminator)
-
-### Methods
-
-- [init](BaseGoogleTrendsItem.md#init)
-- [toJSON](BaseGoogleTrendsItem.md#tojson)
-- [fromJS](BaseGoogleTrendsItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BaseGoogleTrendsItem(data)
 
-• **new BaseGoogleTrendsItem**(`data?`): [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md)
+> **new BaseGoogleTrendsItem**(`data`?): [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBaseGoogleTrendsItem`](../interfaces/IBaseGoogleTrendsItem.md) |
+• **data?**: [`IBaseGoogleTrendsItem`](../interfaces/IBaseGoogleTrendsItem.md)
 
 #### Returns
 
 [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md)
 
-#### Defined in
+#### Source
 
 main.ts:20840
 
@@ -62,68 +43,62 @@ main.ts:20840
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
-#### Defined in
+#### Source
 
 main.ts:20838
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:20850
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:20886
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md)
+> **`static`** **fromJS**(`data`): [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md)
 
-#### Defined in
+#### Source
 
 main.ts:20859

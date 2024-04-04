@@ -1,122 +1,109 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IRecipesElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IRecipesElement
 
 # Interface: IRecipesElement
 
-## Implemented by
-
-- [`RecipesElement`](../classes/RecipesElement.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [description](IRecipesElement.md#description)
-- [domain](IRecipesElement.md#domain)
-- [rating](IRecipesElement.md#rating)
-- [source](IRecipesElement.md#source)
-- [time](IRecipesElement.md#time)
-- [title](IRecipesElement.md#title)
-- [type](IRecipesElement.md#type)
-- [url](IRecipesElement.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description
 
-#### Defined in
+#### Source
 
 main.ts:32353
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 website domain
 
-#### Defined in
+#### Source
 
 main.ts:32348
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
-#### Defined in
+#### Source
 
 main.ts:32358
 
-___
+***
 
-### source
+### source?
 
-• `Optional` **source**: `string`
+> **`optional`** **source**: `string`
 
 source of the element
 indicates the source of information included in the top_stories_element
 
-#### Defined in
+#### Source
 
 main.ts:32351
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 the total time it takes to prepare the cook the dish
 
-#### Defined in
+#### Source
 
 main.ts:32355
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
-#### Defined in
+#### Source
 
 main.ts:32344
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
 main.ts:32342
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL
 
-#### Defined in
+#### Source
 
 main.ts:32346

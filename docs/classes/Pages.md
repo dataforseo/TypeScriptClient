@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / Pages
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / Pages
 
 # Class: Pages
 
@@ -8,66 +12,47 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](Pages.md#constructor)
-
-### Properties
-
-- [page](Pages.md#page)
-- [similarity](Pages.md#similarity)
-
-### Methods
-
-- [init](Pages.md#init)
-- [toJSON](Pages.md#tojson)
-- [fromJS](Pages.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new Pages(data)
 
-• **new Pages**(`data?`): [`Pages`](Pages.md)
+> **new Pages**(`data`?): [`Pages`](Pages.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IPages`](../interfaces/IPages.md) |
+• **data?**: [`IPages`](../interfaces/IPages.md)
 
 #### Returns
 
 [`Pages`](Pages.md)
 
-#### Defined in
+#### Source
 
-main.ts:152982
+main.ts:152990
 
 ## Properties
 
-### page
+### page?
 
-• `Optional` **page**: [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)[]
+> **`optional`** **page**: [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)[]
 
 information about the page with duplicate content
 
 #### Implementation of
 
-[IPages](../interfaces/IPages.md).[page](../interfaces/IPages.md#page)
+[`IPages`](../interfaces/IPages.md).[`page`](../interfaces/IPages.md#page)
 
-#### Defined in
+#### Source
 
-main.ts:152978
+main.ts:152986
 
-___
+***
 
-### similarity
+### similarity?
 
-• `Optional` **similarity**: `number`
+> **`optional`** **similarity**: `number`
 
 content similarity score
 by default, the content is considered duplicate if the value is greater than or equals 6
@@ -75,68 +60,62 @@ can take values from 0 to 10
 
 #### Implementation of
 
-[IPages](../interfaces/IPages.md).[similarity](../interfaces/IPages.md#similarity)
+[`IPages`](../interfaces/IPages.md).[`similarity`](../interfaces/IPages.md#similarity)
 
-#### Defined in
+#### Source
 
-main.ts:152976
+main.ts:152984
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:152991
+main.ts:152999
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:153013
+main.ts:153021
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`Pages`](Pages.md)
+> **`static`** **fromJS**(`data`): [`Pages`](Pages.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`Pages`](Pages.md)
 
-#### Defined in
+#### Source
 
-main.ts:153006
+main.ts:153014

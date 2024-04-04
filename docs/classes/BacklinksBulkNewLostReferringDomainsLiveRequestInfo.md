@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksBulkNewLostReferringDomainsLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BacklinksBulkNewLostReferringDomainsLiveRequestInfo
 
 # Class: BacklinksBulkNewLostReferringDomainsLiveRequestInfo
 
@@ -8,51 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BacklinksBulkNewLostReferringDomainsLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [date\_from](BacklinksBulkNewLostReferringDomainsLiveRequestInfo.md#date_from)
-- [tag](BacklinksBulkNewLostReferringDomainsLiveRequestInfo.md#tag)
-- [targets](BacklinksBulkNewLostReferringDomainsLiveRequestInfo.md#targets)
-
-### Methods
-
-- [init](BacklinksBulkNewLostReferringDomainsLiveRequestInfo.md#init)
-- [toJSON](BacklinksBulkNewLostReferringDomainsLiveRequestInfo.md#tojson)
-- [fromJS](BacklinksBulkNewLostReferringDomainsLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BacklinksBulkNewLostReferringDomainsLiveRequestInfo(data)
 
-• **new BacklinksBulkNewLostReferringDomainsLiveRequestInfo**(`data?`): [`BacklinksBulkNewLostReferringDomainsLiveRequestInfo`](BacklinksBulkNewLostReferringDomainsLiveRequestInfo.md)
+> **new BacklinksBulkNewLostReferringDomainsLiveRequestInfo**(`data`?): [`BacklinksBulkNewLostReferringDomainsLiveRequestInfo`](BacklinksBulkNewLostReferringDomainsLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBacklinksBulkNewLostReferringDomainsLiveRequestInfo`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveRequestInfo.md) |
+• **data?**: [`IBacklinksBulkNewLostReferringDomainsLiveRequestInfo`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveRequestInfo.md)
 
 #### Returns
 
 [`BacklinksBulkNewLostReferringDomainsLiveRequestInfo`](BacklinksBulkNewLostReferringDomainsLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:146518
+main.ts:146526
 
 ## Properties
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -69,17 +53,17 @@ example:
 
 #### Implementation of
 
-[IBacklinksBulkNewLostReferringDomainsLiveRequestInfo](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveRequestInfo.md).[date_from](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveRequestInfo.md#date_from)
+[`IBacklinksBulkNewLostReferringDomainsLiveRequestInfo`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveRequestInfo.md).[`date_from`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveRequestInfo.md#date_from)
 
-#### Defined in
+#### Source
 
-main.ts:146508
+main.ts:146516
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -89,17 +73,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IBacklinksBulkNewLostReferringDomainsLiveRequestInfo](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveRequestInfo.md).[tag](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveRequestInfo.md#tag)
+[`IBacklinksBulkNewLostReferringDomainsLiveRequestInfo`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveRequestInfo.md).[`tag`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:146514
+main.ts:146522
 
-___
+***
 
-### targets
+### targets?
 
-• `Optional` **targets**: `string`[]
+> **`optional`** **targets**: `string`[]
 
 domains, subdomains or webpages to get  new & lost referring domains for
 required field
@@ -122,68 +106,62 @@ example:
 
 #### Implementation of
 
-[IBacklinksBulkNewLostReferringDomainsLiveRequestInfo](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveRequestInfo.md).[targets](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveRequestInfo.md#targets)
+[`IBacklinksBulkNewLostReferringDomainsLiveRequestInfo`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveRequestInfo.md).[`targets`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveRequestInfo.md#targets)
 
-#### Defined in
+#### Source
 
-main.ts:146495
+main.ts:146503
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:146527
+main.ts:146535
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:146550
+main.ts:146558
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BacklinksBulkNewLostReferringDomainsLiveRequestInfo`](BacklinksBulkNewLostReferringDomainsLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`BacklinksBulkNewLostReferringDomainsLiveRequestInfo`](BacklinksBulkNewLostReferringDomainsLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BacklinksBulkNewLostReferringDomainsLiveRequestInfo`](BacklinksBulkNewLostReferringDomainsLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:146543
+main.ts:146551

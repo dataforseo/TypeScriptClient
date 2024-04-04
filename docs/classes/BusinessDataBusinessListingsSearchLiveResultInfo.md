@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataBusinessListingsSearchLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataBusinessListingsSearchLiveResultInfo
 
 # Class: BusinessDataBusinessListingsSearchLiveResultInfo
 
@@ -8,70 +12,48 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataBusinessListingsSearchLiveResultInfo.md#constructor)
-
-### Properties
-
-- [count](BusinessDataBusinessListingsSearchLiveResultInfo.md#count)
-- [items](BusinessDataBusinessListingsSearchLiveResultInfo.md#items)
-- [offset](BusinessDataBusinessListingsSearchLiveResultInfo.md#offset)
-- [offset\_token](BusinessDataBusinessListingsSearchLiveResultInfo.md#offset_token)
-- [total\_count](BusinessDataBusinessListingsSearchLiveResultInfo.md#total_count)
-
-### Methods
-
-- [init](BusinessDataBusinessListingsSearchLiveResultInfo.md#init)
-- [toJSON](BusinessDataBusinessListingsSearchLiveResultInfo.md#tojson)
-- [fromJS](BusinessDataBusinessListingsSearchLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataBusinessListingsSearchLiveResultInfo(data)
 
-• **new BusinessDataBusinessListingsSearchLiveResultInfo**(`data?`): [`BusinessDataBusinessListingsSearchLiveResultInfo`](BusinessDataBusinessListingsSearchLiveResultInfo.md)
+> **new BusinessDataBusinessListingsSearchLiveResultInfo**(`data`?): [`BusinessDataBusinessListingsSearchLiveResultInfo`](BusinessDataBusinessListingsSearchLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataBusinessListingsSearchLiveResultInfo`](../interfaces/IBusinessDataBusinessListingsSearchLiveResultInfo.md) |
+• **data?**: [`IBusinessDataBusinessListingsSearchLiveResultInfo`](../interfaces/IBusinessDataBusinessListingsSearchLiveResultInfo.md)
 
 #### Returns
 
 [`BusinessDataBusinessListingsSearchLiveResultInfo`](BusinessDataBusinessListingsSearchLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:194832
 
 ## Properties
 
-### count
+### count?
 
-• `Optional` **count**: `number`
+> **`optional`** **count**: `number`
 
 item types
 the number of items in the items array
 
 #### Implementation of
 
-[IBusinessDataBusinessListingsSearchLiveResultInfo](../interfaces/IBusinessDataBusinessListingsSearchLiveResultInfo.md).[count](../interfaces/IBusinessDataBusinessListingsSearchLiveResultInfo.md#count)
+[`IBusinessDataBusinessListingsSearchLiveResultInfo`](../interfaces/IBusinessDataBusinessListingsSearchLiveResultInfo.md).[`count`](../interfaces/IBusinessDataBusinessListingsSearchLiveResultInfo.md#count)
 
-#### Defined in
+#### Source
 
 main.ts:194818
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BusinessDataBusinessListingsSearchLiveItem`](BusinessDataBusinessListingsSearchLiveItem.md)[]
+> **`optional`** **items**: [`BusinessDataBusinessListingsSearchLiveItem`](BusinessDataBusinessListingsSearchLiveItem.md)[]
 
 encountered item types
 types of search engine results encountered in the items array;
@@ -79,33 +61,33 @@ possible item types: business_listing
 
 #### Implementation of
 
-[IBusinessDataBusinessListingsSearchLiveResultInfo](../interfaces/IBusinessDataBusinessListingsSearchLiveResultInfo.md).[items](../interfaces/IBusinessDataBusinessListingsSearchLiveResultInfo.md#items)
+[`IBusinessDataBusinessListingsSearchLiveResultInfo`](../interfaces/IBusinessDataBusinessListingsSearchLiveResultInfo.md).[`items`](../interfaces/IBusinessDataBusinessListingsSearchLiveResultInfo.md#items)
 
-#### Defined in
+#### Source
 
 main.ts:194828
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned businesses
 
 #### Implementation of
 
-[IBusinessDataBusinessListingsSearchLiveResultInfo](../interfaces/IBusinessDataBusinessListingsSearchLiveResultInfo.md).[offset](../interfaces/IBusinessDataBusinessListingsSearchLiveResultInfo.md#offset)
+[`IBusinessDataBusinessListingsSearchLiveResultInfo`](../interfaces/IBusinessDataBusinessListingsSearchLiveResultInfo.md).[`offset`](../interfaces/IBusinessDataBusinessListingsSearchLiveResultInfo.md#offset)
 
-#### Defined in
+#### Source
 
 main.ts:194820
 
-___
+***
 
-### offset\_token
+### offset\_token?
 
-• `Optional` **offset\_token**: `string`
+> **`optional`** **offset\_token**: `string`
 
 token for subsequent requests
 by specifying the unique offset_token when setting a new task, you will get the subsequent results of the initial task;
@@ -113,84 +95,78 @@ offset_token values are unique for each subsequent task
 
 #### Implementation of
 
-[IBusinessDataBusinessListingsSearchLiveResultInfo](../interfaces/IBusinessDataBusinessListingsSearchLiveResultInfo.md).[offset_token](../interfaces/IBusinessDataBusinessListingsSearchLiveResultInfo.md#offset_token)
+[`IBusinessDataBusinessListingsSearchLiveResultInfo`](../interfaces/IBusinessDataBusinessListingsSearchLiveResultInfo.md).[`offset_token`](../interfaces/IBusinessDataBusinessListingsSearchLiveResultInfo.md#offset_token)
 
-#### Defined in
+#### Source
 
 main.ts:194824
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total number of results in our database relevant to your request
 
 #### Implementation of
 
-[IBusinessDataBusinessListingsSearchLiveResultInfo](../interfaces/IBusinessDataBusinessListingsSearchLiveResultInfo.md).[total_count](../interfaces/IBusinessDataBusinessListingsSearchLiveResultInfo.md#total_count)
+[`IBusinessDataBusinessListingsSearchLiveResultInfo`](../interfaces/IBusinessDataBusinessListingsSearchLiveResultInfo.md).[`total_count`](../interfaces/IBusinessDataBusinessListingsSearchLiveResultInfo.md#total_count)
 
-#### Defined in
+#### Source
 
 main.ts:194815
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:194841
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:194866
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataBusinessListingsSearchLiveResultInfo`](BusinessDataBusinessListingsSearchLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataBusinessListingsSearchLiveResultInfo`](BusinessDataBusinessListingsSearchLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BusinessDataBusinessListingsSearchLiveResultInfo`](BusinessDataBusinessListingsSearchLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:194859

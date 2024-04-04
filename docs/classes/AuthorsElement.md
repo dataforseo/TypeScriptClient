@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AuthorsElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AuthorsElement
 
 # Class: AuthorsElement
 
@@ -8,167 +12,140 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AuthorsElement.md#constructor)
-
-### Properties
-
-- [domain](AuthorsElement.md#domain)
-- [name](AuthorsElement.md#name)
-- [type](AuthorsElement.md#type)
-- [url](AuthorsElement.md#url)
-
-### Methods
-
-- [init](AuthorsElement.md#init)
-- [toJSON](AuthorsElement.md#tojson)
-- [fromJS](AuthorsElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AuthorsElement(data)
 
-• **new AuthorsElement**(`data?`): [`AuthorsElement`](AuthorsElement.md)
+> **new AuthorsElement**(`data`?): [`AuthorsElement`](AuthorsElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAuthorsElement`](../interfaces/IAuthorsElement.md) |
+• **data?**: [`IAuthorsElement`](../interfaces/IAuthorsElement.md)
 
 #### Returns
 
 [`AuthorsElement`](AuthorsElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:53011
+main.ts:53019
 
 ## Properties
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 author’s link domain
 
 #### Implementation of
 
-[IAuthorsElement](../interfaces/IAuthorsElement.md).[domain](../interfaces/IAuthorsElement.md#domain)
+[`IAuthorsElement`](../interfaces/IAuthorsElement.md).[`domain`](../interfaces/IAuthorsElement.md#domain)
 
-#### Defined in
+#### Source
 
-main.ts:53007
+main.ts:53015
 
-___
+***
 
-### name
+### name?
 
-• `Optional` **name**: `string`
+> **`optional`** **name**: `string`
 
 name of the dataset author
 
 #### Implementation of
 
-[IAuthorsElement](../interfaces/IAuthorsElement.md).[name](../interfaces/IAuthorsElement.md#name)
+[`IAuthorsElement`](../interfaces/IAuthorsElement.md).[`name`](../interfaces/IAuthorsElement.md#name)
 
-#### Defined in
+#### Source
 
-main.ts:53003
+main.ts:53011
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IAuthorsElement](../interfaces/IAuthorsElement.md).[type](../interfaces/IAuthorsElement.md#type)
+[`IAuthorsElement`](../interfaces/IAuthorsElement.md).[`type`](../interfaces/IAuthorsElement.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:53001
+main.ts:53009
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 author’s link URL
 
 #### Implementation of
 
-[IAuthorsElement](../interfaces/IAuthorsElement.md).[url](../interfaces/IAuthorsElement.md#url)
+[`IAuthorsElement`](../interfaces/IAuthorsElement.md).[`url`](../interfaces/IAuthorsElement.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:53005
+main.ts:53013
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:53020
+main.ts:53028
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:53040
+main.ts:53048
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AuthorsElement`](AuthorsElement.md)
+> **`static`** **fromJS**(`data`): [`AuthorsElement`](AuthorsElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AuthorsElement`](AuthorsElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:53033
+main.ts:53041

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / UserProfileInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / UserProfileInfo
 
 # Class: UserProfileInfo
 
@@ -8,184 +12,156 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](UserProfileInfo.md#constructor)
-
-### Properties
-
-- [avatar](UserProfileInfo.md#avatar)
-- [locations](UserProfileInfo.md#locations)
-- [name](UserProfileInfo.md#name)
-- [reviews\_count](UserProfileInfo.md#reviews_count)
-- [url](UserProfileInfo.md#url)
-
-### Methods
-
-- [init](UserProfileInfo.md#init)
-- [toJSON](UserProfileInfo.md#tojson)
-- [fromJS](UserProfileInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new UserProfileInfo(data)
 
-• **new UserProfileInfo**(`data?`): [`UserProfileInfo`](UserProfileInfo.md)
+> **new UserProfileInfo**(`data`?): [`UserProfileInfo`](UserProfileInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IUserProfileInfo`](../interfaces/IUserProfileInfo.md) |
+• **data?**: [`IUserProfileInfo`](../interfaces/IUserProfileInfo.md)
 
 #### Returns
 
 [`UserProfileInfo`](UserProfileInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:181007
 
 ## Properties
 
-### avatar
+### avatar?
 
-• `Optional` **avatar**: `string`
+> **`optional`** **avatar**: `string`
 
 URL to the profile picture of the reviewer
 
 #### Implementation of
 
-[IUserProfileInfo](../interfaces/IUserProfileInfo.md).[avatar](../interfaces/IUserProfileInfo.md#avatar)
+[`IUserProfileInfo`](../interfaces/IUserProfileInfo.md).[`avatar`](../interfaces/IUserProfileInfo.md#avatar)
 
-#### Defined in
+#### Source
 
 main.ts:180997
 
-___
+***
 
-### locations
+### locations?
 
-• `Optional` **locations**: `string`
+> **`optional`** **locations**: `string`
 
 country of the reviewer
 
 #### Implementation of
 
-[IUserProfileInfo](../interfaces/IUserProfileInfo.md).[locations](../interfaces/IUserProfileInfo.md#locations)
+[`IUserProfileInfo`](../interfaces/IUserProfileInfo.md).[`locations`](../interfaces/IUserProfileInfo.md#locations)
 
-#### Defined in
+#### Source
 
 main.ts:181003
 
-___
+***
 
-### name
+### name?
 
-• `Optional` **name**: `string`
+> **`optional`** **name**: `string`
 
 the name of the reviewer
 
 #### Implementation of
 
-[IUserProfileInfo](../interfaces/IUserProfileInfo.md).[name](../interfaces/IUserProfileInfo.md#name)
+[`IUserProfileInfo`](../interfaces/IUserProfileInfo.md).[`name`](../interfaces/IUserProfileInfo.md#name)
 
-#### Defined in
+#### Source
 
 main.ts:180995
 
-___
+***
 
-### reviews\_count
+### reviews\_count?
 
-• `Optional` **reviews\_count**: `number`
+> **`optional`** **reviews\_count**: `number`
 
 total number of reviews submitted by the reviewer
 
 #### Implementation of
 
-[IUserProfileInfo](../interfaces/IUserProfileInfo.md).[reviews_count](../interfaces/IUserProfileInfo.md#reviews_count)
+[`IUserProfileInfo`](../interfaces/IUserProfileInfo.md).[`reviews_count`](../interfaces/IUserProfileInfo.md#reviews_count)
 
-#### Defined in
+#### Source
 
 main.ts:181001
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL to the reviewer’s profile
 
 #### Implementation of
 
-[IUserProfileInfo](../interfaces/IUserProfileInfo.md).[url](../interfaces/IUserProfileInfo.md#url)
+[`IUserProfileInfo`](../interfaces/IUserProfileInfo.md).[`url`](../interfaces/IUserProfileInfo.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:180999
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:181016
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:181037
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`UserProfileInfo`](UserProfileInfo.md)
+> **`static`** **fromJS**(`data`): [`UserProfileInfo`](UserProfileInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`UserProfileInfo`](UserProfileInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:181030

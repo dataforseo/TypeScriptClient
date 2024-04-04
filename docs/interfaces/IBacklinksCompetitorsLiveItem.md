@@ -1,71 +1,62 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksCompetitorsLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBacklinksCompetitorsLiveItem
 
 # Interface: IBacklinksCompetitorsLiveItem
 
-## Implemented by
-
-- [`BacklinksCompetitorsLiveItem`](../classes/BacklinksCompetitorsLiveItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [intersections](IBacklinksCompetitorsLiveItem.md#intersections)
-- [rank](IBacklinksCompetitorsLiveItem.md#rank)
-- [target](IBacklinksCompetitorsLiveItem.md#target)
-- [type](IBacklinksCompetitorsLiveItem.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### intersections
+### intersections?
 
-• `Optional` **intersections**: `number`
+> **`optional`** **intersections**: `number`
 
 indicates the number of backlink intersections with the target specified in the POST array
 
-#### Defined in
+#### Source
 
-main.ts:141603
+main.ts:141611
 
-___
+***
 
-### rank
+### rank?
 
-• `Optional` **rank**: `number`
+> **`optional`** **rank**: `number`
 
 domain rank
 domain rank across all domains in the database
 rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm
 learn more about the metric and how it is calculated in this help center article
 
-#### Defined in
+#### Source
 
-main.ts:141601
+main.ts:141609
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 competitor domain
 
-#### Defined in
+#### Source
 
-main.ts:141596
+main.ts:141604
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:141594
+main.ts:141602

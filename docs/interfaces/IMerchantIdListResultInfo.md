@@ -1,119 +1,107 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMerchantIdListResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IMerchantIdListResultInfo
 
 # Interface: IMerchantIdListResultInfo
 
-## Implemented by
-
-- [`MerchantIdListResultInfo`](../classes/MerchantIdListResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [cost](IMerchantIdListResultInfo.md#cost)
-- [datetime\_done](IMerchantIdListResultInfo.md#datetime_done)
-- [datetime\_posted](IMerchantIdListResultInfo.md#datetime_posted)
-- [id](IMerchantIdListResultInfo.md#id)
-- [metadata](IMerchantIdListResultInfo.md#metadata)
-- [status](IMerchantIdListResultInfo.md#status)
-- [url](IMerchantIdListResultInfo.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 cost of the task, USD
 
-#### Defined in
+#### Source
 
-main.ts:168309
+main.ts:168317
 
-___
+***
 
-### datetime\_done
+### datetime\_done?
 
-• `Optional` **datetime\_done**: `string`
+> **`optional`** **datetime\_done**: `string`
 
 date and time when the task was completed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2023-01-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
-main.ts:168304
+main.ts:168312
 
-___
+***
 
-### datetime\_posted
+### datetime\_posted?
 
-• `Optional` **datetime\_posted**: `string`
+> **`optional`** **datetime\_posted**: `string`
 
 date and time when the task was made
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2023-01-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
-main.ts:168299
+main.ts:168307
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 id of the task
 
-#### Defined in
+#### Source
 
-main.ts:168291
+main.ts:168299
 
-___
+***
 
-### metadata
+### metadata?
 
-• `Optional` **metadata**: `Object`
+> **`optional`** **metadata**: `Object`
 
 contains parameters you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
-#### Defined in
+#### Source
 
-main.ts:168311
+main.ts:168319
 
-___
+***
 
-### status
+### status?
 
-• `Optional` **status**: `string`
+> **`optional`** **status**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
-#### Defined in
+#### Source
 
-main.ts:168307
+main.ts:168315
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL of the task
 URL you used for making an API call
 
-#### Defined in
+#### Source
 
-main.ts:168294
+main.ts:168302

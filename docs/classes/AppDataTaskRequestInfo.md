@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataTaskRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppDataTaskRequestInfo
 
 # Class: AppDataTaskRequestInfo
 
@@ -8,59 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppDataTaskRequestInfo.md#constructor)
-
-### Properties
-
-- [depth](AppDataTaskRequestInfo.md#depth)
-- [keyword](AppDataTaskRequestInfo.md#keyword)
-- [language\_code](AppDataTaskRequestInfo.md#language_code)
-- [language\_name](AppDataTaskRequestInfo.md#language_name)
-- [location\_code](AppDataTaskRequestInfo.md#location_code)
-- [location\_name](AppDataTaskRequestInfo.md#location_name)
-- [pingback\_url](AppDataTaskRequestInfo.md#pingback_url)
-- [postback\_data](AppDataTaskRequestInfo.md#postback_data)
-- [postback\_url](AppDataTaskRequestInfo.md#postback_url)
-- [priority](AppDataTaskRequestInfo.md#priority)
-- [tag](AppDataTaskRequestInfo.md#tag)
-
-### Methods
-
-- [init](AppDataTaskRequestInfo.md#init)
-- [toJSON](AppDataTaskRequestInfo.md#tojson)
-- [fromJS](AppDataTaskRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppDataTaskRequestInfo(data)
 
-• **new AppDataTaskRequestInfo**(`data?`): [`AppDataTaskRequestInfo`](AppDataTaskRequestInfo.md)
+> **new AppDataTaskRequestInfo**(`data`?): [`AppDataTaskRequestInfo`](AppDataTaskRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppDataTaskRequestInfo`](../interfaces/IAppDataTaskRequestInfo.md) |
+• **data?**: [`IAppDataTaskRequestInfo`](../interfaces/IAppDataTaskRequestInfo.md)
 
 #### Returns
 
 [`AppDataTaskRequestInfo`](AppDataTaskRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:169403
+main.ts:169411
 
 ## Properties
 
-### depth
+### depth?
 
-• `Optional` **depth**: `number`
+> **`optional`** **depth**: `number`
 
 parsing depth
 optional field
@@ -74,17 +50,17 @@ maximum value: 200
 
 #### Implementation of
 
-[IAppDataTaskRequestInfo](../interfaces/IAppDataTaskRequestInfo.md).[depth](../interfaces/IAppDataTaskRequestInfo.md#depth)
+[`IAppDataTaskRequestInfo`](../interfaces/IAppDataTaskRequestInfo.md).[`depth`](../interfaces/IAppDataTaskRequestInfo.md#depth)
 
-#### Defined in
+#### Source
 
-main.ts:169367
+main.ts:169375
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword
 required field
@@ -95,17 +71,17 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Implementation of
 
-[IAppDataTaskRequestInfo](../interfaces/IAppDataTaskRequestInfo.md).[keyword](../interfaces/IAppDataTaskRequestInfo.md#keyword)
+[`IAppDataTaskRequestInfo`](../interfaces/IAppDataTaskRequestInfo.md).[`keyword`](../interfaces/IAppDataTaskRequestInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:169321
+main.ts:169329
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 optional field
@@ -116,17 +92,17 @@ en
 
 #### Implementation of
 
-[IAppDataTaskRequestInfo](../interfaces/IAppDataTaskRequestInfo.md).[language_code](../interfaces/IAppDataTaskRequestInfo.md#language_code)
+[`IAppDataTaskRequestInfo`](../interfaces/IAppDataTaskRequestInfo.md).[`language_code`](../interfaces/IAppDataTaskRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:169349
+main.ts:169357
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -137,17 +113,17 @@ English
 
 #### Implementation of
 
-[IAppDataTaskRequestInfo](../interfaces/IAppDataTaskRequestInfo.md).[language_name](../interfaces/IAppDataTaskRequestInfo.md#language_name)
+[`IAppDataTaskRequestInfo`](../interfaces/IAppDataTaskRequestInfo.md).[`language_name`](../interfaces/IAppDataTaskRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:169342
+main.ts:169350
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name
@@ -158,17 +134,17 @@ example:
 
 #### Implementation of
 
-[IAppDataTaskRequestInfo](../interfaces/IAppDataTaskRequestInfo.md).[location_code](../interfaces/IAppDataTaskRequestInfo.md#location_code)
+[`IAppDataTaskRequestInfo`](../interfaces/IAppDataTaskRequestInfo.md).[`location_code`](../interfaces/IAppDataTaskRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:169335
+main.ts:169343
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -179,17 +155,17 @@ West Los Angeles,California,United States
 
 #### Implementation of
 
-[IAppDataTaskRequestInfo](../interfaces/IAppDataTaskRequestInfo.md).[location_name](../interfaces/IAppDataTaskRequestInfo.md#location_name)
+[`IAppDataTaskRequestInfo`](../interfaces/IAppDataTaskRequestInfo.md).[`location_name`](../interfaces/IAppDataTaskRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:169328
+main.ts:169336
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -203,17 +179,17 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[IAppDataTaskRequestInfo](../interfaces/IAppDataTaskRequestInfo.md).[pingback_url](../interfaces/IAppDataTaskRequestInfo.md#pingback_url)
+[`IAppDataTaskRequestInfo`](../interfaces/IAppDataTaskRequestInfo.md).[`pingback_url`](../interfaces/IAppDataTaskRequestInfo.md#pingback_url)
 
-#### Defined in
+#### Source
 
-main.ts:169399
+main.ts:169407
 
-___
+***
 
-### postback\_data
+### postback\_data?
 
-• `Optional` **postback\_data**: `string`
+> **`optional`** **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -223,17 +199,17 @@ advanced, html
 
 #### Implementation of
 
-[IAppDataTaskRequestInfo](../interfaces/IAppDataTaskRequestInfo.md).[postback_data](../interfaces/IAppDataTaskRequestInfo.md#postback_data)
+[`IAppDataTaskRequestInfo`](../interfaces/IAppDataTaskRequestInfo.md).[`postback_data`](../interfaces/IAppDataTaskRequestInfo.md#postback_data)
 
-#### Defined in
+#### Source
 
-main.ts:169389
+main.ts:169397
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -247,17 +223,17 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[IAppDataTaskRequestInfo](../interfaces/IAppDataTaskRequestInfo.md).[postback_url](../interfaces/IAppDataTaskRequestInfo.md#postback_url)
+[`IAppDataTaskRequestInfo`](../interfaces/IAppDataTaskRequestInfo.md).[`postback_url`](../interfaces/IAppDataTaskRequestInfo.md#postback_url)
 
-#### Defined in
+#### Source
 
-main.ts:169383
+main.ts:169391
 
-___
+***
 
-### priority
+### priority?
 
-• `Optional` **priority**: `number`
+> **`optional`** **priority**: `number`
 
 task priority
 optional field
@@ -269,17 +245,17 @@ The cost can be calculated on the Pricing page.
 
 #### Implementation of
 
-[IAppDataTaskRequestInfo](../interfaces/IAppDataTaskRequestInfo.md).[priority](../interfaces/IAppDataTaskRequestInfo.md#priority)
+[`IAppDataTaskRequestInfo`](../interfaces/IAppDataTaskRequestInfo.md).[`priority`](../interfaces/IAppDataTaskRequestInfo.md#priority)
 
-#### Defined in
+#### Source
 
-main.ts:169357
+main.ts:169365
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -289,68 +265,62 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IAppDataTaskRequestInfo](../interfaces/IAppDataTaskRequestInfo.md).[tag](../interfaces/IAppDataTaskRequestInfo.md#tag)
+[`IAppDataTaskRequestInfo`](../interfaces/IAppDataTaskRequestInfo.md).[`tag`](../interfaces/IAppDataTaskRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:169373
+main.ts:169381
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:169412
+main.ts:169420
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:169439
+main.ts:169447
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppDataTaskRequestInfo`](AppDataTaskRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`AppDataTaskRequestInfo`](AppDataTaskRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppDataTaskRequestInfo`](AppDataTaskRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:169432
+main.ts:169440

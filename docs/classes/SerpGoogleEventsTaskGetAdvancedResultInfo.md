@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleEventsTaskGetAdvancedResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleEventsTaskGetAdvancedResultInfo
 
 # Class: SerpGoogleEventsTaskGetAdvancedResultInfo
 
@@ -8,76 +12,47 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleEventsTaskGetAdvancedResultInfo.md#constructor)
-
-### Properties
-
-- [check\_url](SerpGoogleEventsTaskGetAdvancedResultInfo.md#check_url)
-- [datetime](SerpGoogleEventsTaskGetAdvancedResultInfo.md#datetime)
-- [item\_types](SerpGoogleEventsTaskGetAdvancedResultInfo.md#item_types)
-- [items](SerpGoogleEventsTaskGetAdvancedResultInfo.md#items)
-- [items\_count](SerpGoogleEventsTaskGetAdvancedResultInfo.md#items_count)
-- [keyword](SerpGoogleEventsTaskGetAdvancedResultInfo.md#keyword)
-- [language\_code](SerpGoogleEventsTaskGetAdvancedResultInfo.md#language_code)
-- [location\_code](SerpGoogleEventsTaskGetAdvancedResultInfo.md#location_code)
-- [se\_domain](SerpGoogleEventsTaskGetAdvancedResultInfo.md#se_domain)
-- [se\_results\_count](SerpGoogleEventsTaskGetAdvancedResultInfo.md#se_results_count)
-- [spell](SerpGoogleEventsTaskGetAdvancedResultInfo.md#spell)
-- [type](SerpGoogleEventsTaskGetAdvancedResultInfo.md#type)
-
-### Methods
-
-- [init](SerpGoogleEventsTaskGetAdvancedResultInfo.md#init)
-- [toJSON](SerpGoogleEventsTaskGetAdvancedResultInfo.md#tojson)
-- [fromJS](SerpGoogleEventsTaskGetAdvancedResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleEventsTaskGetAdvancedResultInfo(data)
 
-• **new SerpGoogleEventsTaskGetAdvancedResultInfo**(`data?`): [`SerpGoogleEventsTaskGetAdvancedResultInfo`](SerpGoogleEventsTaskGetAdvancedResultInfo.md)
+> **new SerpGoogleEventsTaskGetAdvancedResultInfo**(`data`?): [`SerpGoogleEventsTaskGetAdvancedResultInfo`](SerpGoogleEventsTaskGetAdvancedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleEventsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md) |
+• **data?**: [`ISerpGoogleEventsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
 [`SerpGoogleEventsTaskGetAdvancedResultInfo`](SerpGoogleEventsTaskGetAdvancedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:45587
+main.ts:45595
 
 ## Properties
 
-### check\_url
+### check\_url?
 
-• `Optional` **check\_url**: `string`
+> **`optional`** **check\_url**: `string`
 
 direct URL to search engine results
 
 #### Implementation of
 
-[ISerpGoogleEventsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md).[check_url](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md#check_url)
+[`ISerpGoogleEventsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md).[`check_url`](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md#check_url)
 
-#### Defined in
+#### Source
 
-main.ts:45563
+main.ts:45571
 
-___
+***
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -86,17 +61,17 @@ example:
 
 #### Implementation of
 
-[ISerpGoogleEventsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md).[datetime](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md#datetime)
+[`ISerpGoogleEventsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md).[`datetime`](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
-main.ts:45568
+main.ts:45576
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 types of search results found in SERP
 possible item types:
@@ -104,115 +79,115 @@ event_item
 
 #### Implementation of
 
-[ISerpGoogleEventsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md).[item_types](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md#item_types)
+[`ISerpGoogleEventsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md).[`item_types`](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md#item_types)
 
-#### Defined in
+#### Source
 
-main.ts:45575
+main.ts:45583
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
+> **`optional`** **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
 items in SERP
 
 #### Implementation of
 
-[ISerpGoogleEventsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md).[items](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md#items)
+[`ISerpGoogleEventsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md).[`items`](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:45583
+main.ts:45591
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[ISerpGoogleEventsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md).[items_count](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md#items_count)
+[`ISerpGoogleEventsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md).[`items_count`](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:45581
+main.ts:45589
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
-[ISerpGoogleEventsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md).[keyword](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md#keyword)
+[`ISerpGoogleEventsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md).[`keyword`](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:45552
+main.ts:45560
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 in this case, the value will be null
 
 #### Implementation of
 
-[ISerpGoogleEventsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md).[language_code](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md#language_code)
+[`ISerpGoogleEventsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md).[`language_code`](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:45561
+main.ts:45569
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[ISerpGoogleEventsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md).[location_code](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md#location_code)
+[`ISerpGoogleEventsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md).[`location_code`](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:45558
+main.ts:45566
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
 #### Implementation of
 
-[ISerpGoogleEventsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md).[se_domain](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md#se_domain)
+[`ISerpGoogleEventsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md).[`se_domain`](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md#se_domain)
 
-#### Defined in
+#### Source
 
-main.ts:45556
+main.ts:45564
 
-___
+***
 
-### se\_results\_count
+### se\_results\_count?
 
-• `Optional` **se\_results\_count**: `number`
+> **`optional`** **se\_results\_count**: `number`
 
 total number of results in SERP
 in this case, the value will be 0
@@ -220,101 +195,95 @@ this search engine does not indicate the total number of results
 
 #### Implementation of
 
-[ISerpGoogleEventsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md).[se_results_count](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md#se_results_count)
+[`ISerpGoogleEventsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md).[`se_results_count`](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md#se_results_count)
 
-#### Defined in
+#### Source
 
-main.ts:45579
+main.ts:45587
 
-___
+***
 
-### spell
+### spell?
 
-• `Optional` **spell**: [`SpellInfo`](SpellInfo.md)
+> **`optional`** **spell**: [`SpellInfo`](SpellInfo.md)
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
 
 #### Implementation of
 
-[ISerpGoogleEventsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md).[spell](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md#spell)
+[`ISerpGoogleEventsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md).[`spell`](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md#spell)
 
-#### Defined in
+#### Source
 
-main.ts:45571
+main.ts:45579
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[ISerpGoogleEventsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md).[type](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md#type)
+[`ISerpGoogleEventsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md).[`type`](../interfaces/ISerpGoogleEventsTaskGetAdvancedResultInfo.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:45554
+main.ts:45562
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:45596
+main.ts:45604
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:45632
+main.ts:45640
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleEventsTaskGetAdvancedResultInfo`](SerpGoogleEventsTaskGetAdvancedResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleEventsTaskGetAdvancedResultInfo`](SerpGoogleEventsTaskGetAdvancedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpGoogleEventsTaskGetAdvancedResultInfo`](SerpGoogleEventsTaskGetAdvancedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:45625
+main.ts:45633

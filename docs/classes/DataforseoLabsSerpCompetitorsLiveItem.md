@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsSerpCompetitorsLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsSerpCompetitorsLiveItem
 
 # Class: DataforseoLabsSerpCompetitorsLiveItem
 
@@ -8,91 +12,64 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsSerpCompetitorsLiveItem.md#constructor)
-
-### Properties
-
-- [avg\_position](DataforseoLabsSerpCompetitorsLiveItem.md#avg_position)
-- [domain](DataforseoLabsSerpCompetitorsLiveItem.md#domain)
-- [etv](DataforseoLabsSerpCompetitorsLiveItem.md#etv)
-- [keywords\_count](DataforseoLabsSerpCompetitorsLiveItem.md#keywords_count)
-- [keywords\_positions](DataforseoLabsSerpCompetitorsLiveItem.md#keywords_positions)
-- [median\_position](DataforseoLabsSerpCompetitorsLiveItem.md#median_position)
-- [rating](DataforseoLabsSerpCompetitorsLiveItem.md#rating)
-- [relevant\_serp\_items](DataforseoLabsSerpCompetitorsLiveItem.md#relevant_serp_items)
-- [se\_type](DataforseoLabsSerpCompetitorsLiveItem.md#se_type)
-- [visibility](DataforseoLabsSerpCompetitorsLiveItem.md#visibility)
-
-### Methods
-
-- [init](DataforseoLabsSerpCompetitorsLiveItem.md#init)
-- [toJSON](DataforseoLabsSerpCompetitorsLiveItem.md#tojson)
-- [fromJS](DataforseoLabsSerpCompetitorsLiveItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsSerpCompetitorsLiveItem(data)
 
-• **new DataforseoLabsSerpCompetitorsLiveItem**(`data?`): [`DataforseoLabsSerpCompetitorsLiveItem`](DataforseoLabsSerpCompetitorsLiveItem.md)
+> **new DataforseoLabsSerpCompetitorsLiveItem**(`data`?): [`DataforseoLabsSerpCompetitorsLiveItem`](DataforseoLabsSerpCompetitorsLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsSerpCompetitorsLiveItem`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md) |
+• **data?**: [`IDataforseoLabsSerpCompetitorsLiveItem`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md)
 
 #### Returns
 
 [`DataforseoLabsSerpCompetitorsLiveItem`](DataforseoLabsSerpCompetitorsLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:90060
+main.ts:90068
 
 ## Properties
 
-### avg\_position
+### avg\_position?
 
-• `Optional` **avg\_position**: `number`
+> **`optional`** **avg\_position**: `number`
 
 the average position of the domain for the specified keywords
 the arithmetic mean of values in the keywords_positions array
 
 #### Implementation of
 
-[IDataforseoLabsSerpCompetitorsLiveItem](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md).[avg_position](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md#avg_position)
+[`IDataforseoLabsSerpCompetitorsLiveItem`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md).[`avg_position`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md#avg_position)
 
-#### Defined in
+#### Source
 
-main.ts:90030
+main.ts:90038
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain name of the detected SERP competitor
 
 #### Implementation of
 
-[IDataforseoLabsSerpCompetitorsLiveItem](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md).[domain](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md#domain)
+[`IDataforseoLabsSerpCompetitorsLiveItem`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md).[`domain`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md#domain)
 
-#### Defined in
+#### Source
 
-main.ts:90027
+main.ts:90035
 
-___
+***
 
-### etv
+### etv?
 
-• `Optional` **etv**: `number`
+> **`optional`** **etv**: `number`
 
 estimated traffic volume
 represents the estimated monthly traffic that specified keywords are driving to the website
@@ -101,71 +78,71 @@ learn more about how the metric is calculated in this help center article
 
 #### Implementation of
 
-[IDataforseoLabsSerpCompetitorsLiveItem](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md).[etv](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md#etv)
+[`IDataforseoLabsSerpCompetitorsLiveItem`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md).[`etv`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md#etv)
 
-#### Defined in
+#### Source
 
-main.ts:90042
+main.ts:90050
 
-___
+***
 
-### keywords\_count
+### keywords\_count?
 
-• `Optional` **keywords\_count**: `number`
+> **`optional`** **keywords\_count**: `number`
 
 the number of specified keywords the domain has positions for in SERPs
 
 #### Implementation of
 
-[IDataforseoLabsSerpCompetitorsLiveItem](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md).[keywords_count](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md#keywords_count)
+[`IDataforseoLabsSerpCompetitorsLiveItem`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md).[`keywords_count`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md#keywords_count)
 
-#### Defined in
+#### Source
 
-main.ts:90044
+main.ts:90052
 
-___
+***
 
-### keywords\_positions
+### keywords\_positions?
 
-• `Optional` **keywords\_positions**: `Object`
+> **`optional`** **keywords\_positions**: `Object`
 
 keyword positions
 SERP positions the related domain holds in SERP for the specified keywords
 
 #### Index signature
 
-▪ [key: `string`]: `number`[]
+ \[`key`: `string`\]: `number`[]
 
 #### Implementation of
 
-[IDataforseoLabsSerpCompetitorsLiveItem](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md).[keywords_positions](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md#keywords_positions)
+[`IDataforseoLabsSerpCompetitorsLiveItem`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md).[`keywords_positions`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md#keywords_positions)
 
-#### Defined in
+#### Source
 
-main.ts:90056
+main.ts:90064
 
-___
+***
 
-### median\_position
+### median\_position?
 
-• `Optional` **median\_position**: `number`
+> **`optional`** **median\_position**: `number`
 
 the median position of the domain for the specified keywords
 the median of the values in the keywords_positions array
 
 #### Implementation of
 
-[IDataforseoLabsSerpCompetitorsLiveItem](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md).[median_position](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md#median_position)
+[`IDataforseoLabsSerpCompetitorsLiveItem`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md).[`median_position`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md#median_position)
 
-#### Defined in
+#### Source
 
-main.ts:90033
+main.ts:90041
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: `number`
+> **`optional`** **rating**: `number`
 
 the margin between the greatest possible and actual keyword positions
 represents the relative visibility rate of the domain in SERP for the specified keywords
@@ -173,50 +150,50 @@ calculated as sum(100-keywords_positions)
 
 #### Implementation of
 
-[IDataforseoLabsSerpCompetitorsLiveItem](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md).[rating](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md#rating)
+[`IDataforseoLabsSerpCompetitorsLiveItem`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md).[`rating`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md#rating)
 
-#### Defined in
+#### Source
 
-main.ts:90037
+main.ts:90045
 
-___
+***
 
-### relevant\_serp\_items
+### relevant\_serp\_items?
 
-• `Optional` **relevant\_serp\_items**: `number`
+> **`optional`** **relevant\_serp\_items**: `number`
 
 the number of SERP elements relevant to the domain
 represents the number of search results in SERP relevant to the domain for the specified keywords
 
 #### Implementation of
 
-[IDataforseoLabsSerpCompetitorsLiveItem](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md).[relevant_serp_items](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md#relevant_serp_items)
+[`IDataforseoLabsSerpCompetitorsLiveItem`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md).[`relevant_serp_items`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md#relevant_serp_items)
 
-#### Defined in
+#### Source
 
-main.ts:90053
+main.ts:90061
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IDataforseoLabsSerpCompetitorsLiveItem](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md).[se_type](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md#se_type)
+[`IDataforseoLabsSerpCompetitorsLiveItem`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:90025
+main.ts:90033
 
-___
+***
 
-### visibility
+### visibility?
 
-• `Optional` **visibility**: `number`
+> **`optional`** **visibility**: `number`
 
 SERP visibility rate
 represents the website visibility rate based on the SERP positions of the specified keywords
@@ -226,68 +203,62 @@ keywords with positions from 20 to 100 have the visibility index equal to 0
 
 #### Implementation of
 
-[IDataforseoLabsSerpCompetitorsLiveItem](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md).[visibility](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md#visibility)
+[`IDataforseoLabsSerpCompetitorsLiveItem`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md).[`visibility`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md#visibility)
 
-#### Defined in
+#### Source
 
-main.ts:90050
+main.ts:90058
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:90069
+main.ts:90077
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:90101
+main.ts:90109
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsSerpCompetitorsLiveItem`](DataforseoLabsSerpCompetitorsLiveItem.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsSerpCompetitorsLiveItem`](DataforseoLabsSerpCompetitorsLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsSerpCompetitorsLiveItem`](DataforseoLabsSerpCompetitorsLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:90094
+main.ts:90102

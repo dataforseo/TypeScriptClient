@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixMerchantAmazonInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppendixMerchantAmazonInfo
 
 # Class: AppendixMerchantAmazonInfo
 
@@ -8,144 +12,118 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixMerchantAmazonInfo.md#constructor)
-
-### Properties
-
-- [asin](AppendixMerchantAmazonInfo.md#asin)
-- [products](AppendixMerchantAmazonInfo.md#products)
-- [sellers](AppendixMerchantAmazonInfo.md#sellers)
-
-### Methods
-
-- [init](AppendixMerchantAmazonInfo.md#init)
-- [toJSON](AppendixMerchantAmazonInfo.md#tojson)
-- [fromJS](AppendixMerchantAmazonInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixMerchantAmazonInfo(data)
 
-• **new AppendixMerchantAmazonInfo**(`data?`): [`AppendixMerchantAmazonInfo`](AppendixMerchantAmazonInfo.md)
+> **new AppendixMerchantAmazonInfo**(`data`?): [`AppendixMerchantAmazonInfo`](AppendixMerchantAmazonInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixMerchantAmazonInfo`](../interfaces/IAppendixMerchantAmazonInfo.md) |
+• **data?**: [`IAppendixMerchantAmazonInfo`](../interfaces/IAppendixMerchantAmazonInfo.md)
 
 #### Returns
 
 [`AppendixMerchantAmazonInfo`](AppendixMerchantAmazonInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:213084
 
 ## Properties
 
-### asin
+### asin?
 
-• `Optional` **asin**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
+> **`optional`** **asin**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
 #### Implementation of
 
-[IAppendixMerchantAmazonInfo](../interfaces/IAppendixMerchantAmazonInfo.md).[asin](../interfaces/IAppendixMerchantAmazonInfo.md#asin)
+[`IAppendixMerchantAmazonInfo`](../interfaces/IAppendixMerchantAmazonInfo.md).[`asin`](../interfaces/IAppendixMerchantAmazonInfo.md#asin)
 
-#### Defined in
+#### Source
 
 main.ts:213078
 
-___
+***
 
-### products
+### products?
 
-• `Optional` **products**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
+> **`optional`** **products**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
 #### Implementation of
 
-[IAppendixMerchantAmazonInfo](../interfaces/IAppendixMerchantAmazonInfo.md).[products](../interfaces/IAppendixMerchantAmazonInfo.md#products)
+[`IAppendixMerchantAmazonInfo`](../interfaces/IAppendixMerchantAmazonInfo.md).[`products`](../interfaces/IAppendixMerchantAmazonInfo.md#products)
 
-#### Defined in
+#### Source
 
 main.ts:213079
 
-___
+***
 
-### sellers
+### sellers?
 
-• `Optional` **sellers**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
+> **`optional`** **sellers**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
 #### Implementation of
 
-[IAppendixMerchantAmazonInfo](../interfaces/IAppendixMerchantAmazonInfo.md).[sellers](../interfaces/IAppendixMerchantAmazonInfo.md#sellers)
+[`IAppendixMerchantAmazonInfo`](../interfaces/IAppendixMerchantAmazonInfo.md).[`sellers`](../interfaces/IAppendixMerchantAmazonInfo.md#sellers)
 
-#### Defined in
+#### Source
 
 main.ts:213080
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:213093
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:213112
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppendixMerchantAmazonInfo`](AppendixMerchantAmazonInfo.md)
+> **`static`** **fromJS**(`data`): [`AppendixMerchantAmazonInfo`](AppendixMerchantAmazonInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppendixMerchantAmazonInfo`](AppendixMerchantAmazonInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:213105

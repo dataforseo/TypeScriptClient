@@ -1,32 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordKpiInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IKeywordKpiInfo
 
 # Interface: IKeywordKpiInfo
 
-## Implemented by
-
-- [`KeywordKpiInfo`](../classes/KeywordKpiInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [ad\_position](IKeywordKpiInfo.md#ad_position)
-- [average\_bid](IKeywordKpiInfo.md#average_bid)
-- [average\_cpc](IKeywordKpiInfo.md#average_cpc)
-- [clicks](IKeywordKpiInfo.md#clicks)
-- [ctr](IKeywordKpiInfo.md#ctr)
-- [impressions](IKeywordKpiInfo.md#impressions)
-- [total\_cost](IKeywordKpiInfo.md#total_cost)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### ad\_position
+### ad\_position?
 
-• `Optional` **ad\_position**: `string`
+> **`optional`** **ad\_position**: `string`
 
 represents the position of the relevant ad in SERP
 can take the following values:
@@ -45,83 +33,83 @@ MainLine2: The second ad to appear at the top of the search results page
 MainLine3: The third ad to appear at the top of the search results page
 MainLine4: The fourth ad to appear at the top of the search results page
 
-#### Defined in
+#### Source
 
-main.ts:132592
+main.ts:132600
 
-___
+***
 
-### average\_bid
+### average\_bid?
 
-• `Optional` **average\_bid**: `number`
+> **`optional`** **average\_bid**: `number`
 
 average bid of the keyword
 
-#### Defined in
+#### Source
 
-main.ts:132609
+main.ts:132617
 
-___
+***
 
-### average\_cpc
+### average\_cpc?
 
-• `Optional` **average\_cpc**: `number`
+> **`optional`** **average\_cpc**: `number`
 
 average cost per click, USD
 calculated by dividing the cost of all clicks by the number of clicks
 
-#### Defined in
+#### Source
 
-main.ts:132601
+main.ts:132609
 
-___
+***
 
-### clicks
+### clicks?
 
-• `Optional` **clicks**: `number`
+> **`optional`** **clicks**: `number`
 
 ad clicks
 the number of clicks that the keyword and match type generated during the last month
 
-#### Defined in
+#### Source
 
-main.ts:132595
+main.ts:132603
 
-___
+***
 
-### ctr
+### ctr?
 
-• `Optional` **ctr**: `number`
+> **`optional`** **ctr**: `number`
 
 click-through rate as a percentage
 calculated by dividing the number of clicks by the number of impressions and multiplying the result by 100
 
-#### Defined in
+#### Source
 
-main.ts:132604
+main.ts:132612
 
-___
+***
 
-### impressions
+### impressions?
 
-• `Optional` **impressions**: `number`
+> **`optional`** **impressions**: `number`
 
 ad impressions
 the number of impressions that the keyword and match type generated during the last month
 
-#### Defined in
+#### Source
 
-main.ts:132598
+main.ts:132606
 
-___
+***
 
-### total\_cost
+### total\_cost?
 
-• `Optional` **total\_cost**: `number`
+> **`optional`** **total\_cost**: `number`
 
 total cost of an ad, USD
 the cost of using the specified keyword and match type during the last month
 
-#### Defined in
+#### Source
 
-main.ts:132607
+main.ts:132615

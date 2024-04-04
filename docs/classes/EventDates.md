@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / EventDates
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / EventDates
 
 # Class: EventDates
 
@@ -8,67 +12,47 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](EventDates.md#constructor)
-
-### Properties
-
-- [displayed\_dates](EventDates.md#displayed_dates)
-- [end\_datetime](EventDates.md#end_datetime)
-- [start\_datetime](EventDates.md#start_datetime)
-
-### Methods
-
-- [init](EventDates.md#init)
-- [toJSON](EventDates.md#tojson)
-- [fromJS](EventDates.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new EventDates(data)
 
-• **new EventDates**(`data?`): [`EventDates`](EventDates.md)
+> **new EventDates**(`data`?): [`EventDates`](EventDates.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IEventDates`](../interfaces/IEventDates.md) |
+• **data?**: [`IEventDates`](../interfaces/IEventDates.md)
 
 #### Returns
 
 [`EventDates`](EventDates.md)
 
-#### Defined in
+#### Source
 
-main.ts:45197
+main.ts:45205
 
 ## Properties
 
-### displayed\_dates
+### displayed\_dates?
 
-• `Optional` **displayed\_dates**: `string`
+> **`optional`** **displayed\_dates**: `string`
 
 date or date range as it is displayed in SERP
 
 #### Implementation of
 
-[IEventDates](../interfaces/IEventDates.md).[displayed_dates](../interfaces/IEventDates.md#displayed_dates)
+[`IEventDates`](../interfaces/IEventDates.md).[`displayed_dates`](../interfaces/IEventDates.md#displayed_dates)
 
-#### Defined in
+#### Source
 
-main.ts:45193
+main.ts:45201
 
-___
+***
 
-### end\_datetime
+### end\_datetime?
 
-• `Optional` **end\_datetime**: `string`
+> **`optional`** **end\_datetime**: `string`
 
 date and time when the event ends
 if time zone is specified in the event, value will be returned in the UTC format:
@@ -82,17 +66,17 @@ example:
 
 #### Implementation of
 
-[IEventDates](../interfaces/IEventDates.md).[end_datetime](../interfaces/IEventDates.md#end_datetime)
+[`IEventDates`](../interfaces/IEventDates.md).[`end_datetime`](../interfaces/IEventDates.md#end_datetime)
 
-#### Defined in
+#### Source
 
-main.ts:45191
+main.ts:45199
 
-___
+***
 
-### start\_datetime
+### start\_datetime?
 
-• `Optional` **start\_datetime**: `string`
+> **`optional`** **start\_datetime**: `string`
 
 date and time when the event starts
 if time zone is specified in the event, value will be returned in the UTC format:
@@ -106,68 +90,62 @@ example:
 
 #### Implementation of
 
-[IEventDates](../interfaces/IEventDates.md).[start_datetime](../interfaces/IEventDates.md#start_datetime)
+[`IEventDates`](../interfaces/IEventDates.md).[`start_datetime`](../interfaces/IEventDates.md#start_datetime)
 
-#### Defined in
+#### Source
 
-main.ts:45181
+main.ts:45189
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:45206
+main.ts:45214
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:45225
+main.ts:45233
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`EventDates`](EventDates.md)
+> **`static`** **fromJS**(`data`): [`EventDates`](EventDates.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`EventDates`](EventDates.md)
 
-#### Defined in
+#### Source
 
-main.ts:45218
+main.ts:45226

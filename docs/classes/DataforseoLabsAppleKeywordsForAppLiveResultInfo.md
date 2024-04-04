@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAppleKeywordsForAppLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsAppleKeywordsForAppLiveResultInfo
 
 # Class: DataforseoLabsAppleKeywordsForAppLiveResultInfo
 
@@ -8,218 +12,188 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsAppleKeywordsForAppLiveResultInfo.md#constructor)
-
-### Properties
-
-- [app\_id](DataforseoLabsAppleKeywordsForAppLiveResultInfo.md#app_id)
-- [items](DataforseoLabsAppleKeywordsForAppLiveResultInfo.md#items)
-- [items\_count](DataforseoLabsAppleKeywordsForAppLiveResultInfo.md#items_count)
-- [language\_code](DataforseoLabsAppleKeywordsForAppLiveResultInfo.md#language_code)
-- [location\_code](DataforseoLabsAppleKeywordsForAppLiveResultInfo.md#location_code)
-- [se\_type](DataforseoLabsAppleKeywordsForAppLiveResultInfo.md#se_type)
-- [total\_count](DataforseoLabsAppleKeywordsForAppLiveResultInfo.md#total_count)
-
-### Methods
-
-- [init](DataforseoLabsAppleKeywordsForAppLiveResultInfo.md#init)
-- [toJSON](DataforseoLabsAppleKeywordsForAppLiveResultInfo.md#tojson)
-- [fromJS](DataforseoLabsAppleKeywordsForAppLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsAppleKeywordsForAppLiveResultInfo(data)
 
-• **new DataforseoLabsAppleKeywordsForAppLiveResultInfo**(`data?`): [`DataforseoLabsAppleKeywordsForAppLiveResultInfo`](DataforseoLabsAppleKeywordsForAppLiveResultInfo.md)
+> **new DataforseoLabsAppleKeywordsForAppLiveResultInfo**(`data`?): [`DataforseoLabsAppleKeywordsForAppLiveResultInfo`](DataforseoLabsAppleKeywordsForAppLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsAppleKeywordsForAppLiveResultInfo`](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveResultInfo.md) |
+• **data?**: [`IDataforseoLabsAppleKeywordsForAppLiveResultInfo`](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsAppleKeywordsForAppLiveResultInfo`](DataforseoLabsAppleKeywordsForAppLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:113295
+main.ts:113303
 
 ## Properties
 
-### app\_id
+### app\_id?
 
-• `Optional` **app\_id**: `string`
+> **`optional`** **app\_id**: `string`
 
 id of the app in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsAppleKeywordsForAppLiveResultInfo](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveResultInfo.md).[app_id](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveResultInfo.md#app_id)
+[`IDataforseoLabsAppleKeywordsForAppLiveResultInfo`](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveResultInfo.md).[`app_id`](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveResultInfo.md#app_id)
 
-#### Defined in
+#### Source
 
-main.ts:113281
+main.ts:113289
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`DataforseoLabsleKeywordsForAppLiveItem`](DataforseoLabsleKeywordsForAppLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsleKeywordsForAppLiveItem`](DataforseoLabsleKeywordsForAppLiveItem.md)[]
 
 contains data related to the ranking keywords for the app specified in the app_id field
 
 #### Implementation of
 
-[IDataforseoLabsAppleKeywordsForAppLiveResultInfo](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveResultInfo.md).[items](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveResultInfo.md#items)
+[`IDataforseoLabsAppleKeywordsForAppLiveResultInfo`](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:113291
+main.ts:113299
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[IDataforseoLabsAppleKeywordsForAppLiveResultInfo](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveResultInfo.md).[items_count](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveResultInfo.md#items_count)
+[`IDataforseoLabsAppleKeywordsForAppLiveResultInfo`](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:113289
+main.ts:113297
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsAppleKeywordsForAppLiveResultInfo](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveResultInfo.md).[language_code](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveResultInfo.md#language_code)
+[`IDataforseoLabsAppleKeywordsForAppLiveResultInfo`](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:113285
+main.ts:113293
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsAppleKeywordsForAppLiveResultInfo](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveResultInfo.md).[location_code](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveResultInfo.md#location_code)
+[`IDataforseoLabsAppleKeywordsForAppLiveResultInfo`](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:113283
+main.ts:113291
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IDataforseoLabsAppleKeywordsForAppLiveResultInfo](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveResultInfo.md).[se_type](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveResultInfo.md#se_type)
+[`IDataforseoLabsAppleKeywordsForAppLiveResultInfo`](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:113279
+main.ts:113287
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
 #### Implementation of
 
-[IDataforseoLabsAppleKeywordsForAppLiveResultInfo](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveResultInfo.md).[total_count](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveResultInfo.md#total_count)
+[`IDataforseoLabsAppleKeywordsForAppLiveResultInfo`](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveResultInfo.md#total_count)
 
-#### Defined in
+#### Source
 
-main.ts:113287
+main.ts:113295
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:113304
+main.ts:113312
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:113331
+main.ts:113339
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsAppleKeywordsForAppLiveResultInfo`](DataforseoLabsAppleKeywordsForAppLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsAppleKeywordsForAppLiveResultInfo`](DataforseoLabsAppleKeywordsForAppLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsAppleKeywordsForAppLiveResultInfo`](DataforseoLabsAppleKeywordsForAppLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:113324
+main.ts:113332

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageForceStopRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPageForceStopRequestInfo
 
 # Class: OnPageForceStopRequestInfo
 
@@ -8,49 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPageForceStopRequestInfo.md#constructor)
-
-### Properties
-
-- [id](OnPageForceStopRequestInfo.md#id)
-
-### Methods
-
-- [init](OnPageForceStopRequestInfo.md#init)
-- [toJSON](OnPageForceStopRequestInfo.md#tojson)
-- [fromJS](OnPageForceStopRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPageForceStopRequestInfo(data)
 
-• **new OnPageForceStopRequestInfo**(`data?`): [`OnPageForceStopRequestInfo`](OnPageForceStopRequestInfo.md)
+> **new OnPageForceStopRequestInfo**(`data`?): [`OnPageForceStopRequestInfo`](OnPageForceStopRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPageForceStopRequestInfo`](../interfaces/IOnPageForceStopRequestInfo.md) |
+• **data?**: [`IOnPageForceStopRequestInfo`](../interfaces/IOnPageForceStopRequestInfo.md)
 
 #### Returns
 
 [`OnPageForceStopRequestInfo`](OnPageForceStopRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:147563
+main.ts:147571
 
 ## Properties
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 ID of the task
 required field
@@ -61,68 +47,62 @@ note: you can set up to 1000 id values as separate objects in the POST array
 
 #### Implementation of
 
-[IOnPageForceStopRequestInfo](../interfaces/IOnPageForceStopRequestInfo.md).[id](../interfaces/IOnPageForceStopRequestInfo.md#id)
+[`IOnPageForceStopRequestInfo`](../interfaces/IOnPageForceStopRequestInfo.md).[`id`](../interfaces/IOnPageForceStopRequestInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:147559
+main.ts:147567
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:147572
+main.ts:147580
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:147589
+main.ts:147597
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPageForceStopRequestInfo`](OnPageForceStopRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`OnPageForceStopRequestInfo`](OnPageForceStopRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`OnPageForceStopRequestInfo`](OnPageForceStopRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:147582
+main.ts:147590

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo
 
 # Class: DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo
 
@@ -8,203 +12,174 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md#constructor)
-
-### Properties
-
-- [items](DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md#items)
-- [items\_count](DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md#items_count)
-- [language\_code](DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md#language_code)
-- [location\_code](DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md#location_code)
-- [se\_type](DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md#se_type)
-- [total\_count](DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md#total_count)
-
-### Methods
-
-- [init](DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md#init)
-- [toJSON](DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md#tojson)
-- [fromJS](DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo(data)
 
-• **new DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo**(`data?`): [`DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo`](DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md)
+> **new DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo**(`data`?): [`DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo`](DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md) |
+• **data?**: [`IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo`](DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:104633
+main.ts:104641
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`DataforseoLabsBBulkKeywordDifficultyLiveItem`](DataforseoLabsBBulkKeywordDifficultyLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsBBulkKeywordDifficultyLiveItem`](DataforseoLabsBBulkKeywordDifficultyLiveItem.md)[]
 
 contains keywords and related keyword difficulty scores
 
 #### Implementation of
 
-[IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md).[items](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md#items)
+[`IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:104629
+main.ts:104637
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md).[items_count](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md#items_count)
+[`IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:104627
+main.ts:104635
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 if there is no data, then the value is null
 
 #### Implementation of
 
-[IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md).[language_code](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md#language_code)
+[`IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:104623
+main.ts:104631
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 if there is no data, then the value is null
 
 #### Implementation of
 
-[IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md).[location_code](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md#location_code)
+[`IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:104620
+main.ts:104628
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md).[se_type](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md#se_type)
+[`IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:104617
+main.ts:104625
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
 #### Implementation of
 
-[IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md).[total_count](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md#total_count)
+[`IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md#total_count)
 
-#### Defined in
+#### Source
 
-main.ts:104625
+main.ts:104633
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:104642
+main.ts:104650
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:104668
+main.ts:104676
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo`](DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo`](DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo`](DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:104661
+main.ts:104669

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixContentGenerationPriceDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppendixContentGenerationPriceDataInfo
 
 # Class: AppendixContentGenerationPriceDataInfo
 
@@ -8,129 +12,104 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixContentGenerationPriceDataInfo.md#constructor)
-
-### Properties
-
-- [languages](AppendixContentGenerationPriceDataInfo.md#languages)
-- [live](AppendixContentGenerationPriceDataInfo.md#live)
-
-### Methods
-
-- [init](AppendixContentGenerationPriceDataInfo.md#init)
-- [toJSON](AppendixContentGenerationPriceDataInfo.md#tojson)
-- [fromJS](AppendixContentGenerationPriceDataInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixContentGenerationPriceDataInfo(data)
 
-• **new AppendixContentGenerationPriceDataInfo**(`data?`): [`AppendixContentGenerationPriceDataInfo`](AppendixContentGenerationPriceDataInfo.md)
+> **new AppendixContentGenerationPriceDataInfo**(`data`?): [`AppendixContentGenerationPriceDataInfo`](AppendixContentGenerationPriceDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixContentGenerationPriceDataInfo`](../interfaces/IAppendixContentGenerationPriceDataInfo.md) |
+• **data?**: [`IAppendixContentGenerationPriceDataInfo`](../interfaces/IAppendixContentGenerationPriceDataInfo.md)
 
 #### Returns
 
 [`AppendixContentGenerationPriceDataInfo`](AppendixContentGenerationPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:217053
 
 ## Properties
 
-### languages
+### languages?
 
-• `Optional` **languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixContentGenerationPriceDataInfo](../interfaces/IAppendixContentGenerationPriceDataInfo.md).[languages](../interfaces/IAppendixContentGenerationPriceDataInfo.md#languages)
+[`IAppendixContentGenerationPriceDataInfo`](../interfaces/IAppendixContentGenerationPriceDataInfo.md).[`languages`](../interfaces/IAppendixContentGenerationPriceDataInfo.md#languages)
 
-#### Defined in
+#### Source
 
 main.ts:217049
 
-___
+***
 
-### live
+### live?
 
-• `Optional` **live**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **live**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixContentGenerationPriceDataInfo](../interfaces/IAppendixContentGenerationPriceDataInfo.md).[live](../interfaces/IAppendixContentGenerationPriceDataInfo.md#live)
+[`IAppendixContentGenerationPriceDataInfo`](../interfaces/IAppendixContentGenerationPriceDataInfo.md).[`live`](../interfaces/IAppendixContentGenerationPriceDataInfo.md#live)
 
-#### Defined in
+#### Source
 
 main.ts:217048
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:217062
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:217080
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppendixContentGenerationPriceDataInfo`](AppendixContentGenerationPriceDataInfo.md)
+> **`static`** **fromJS**(`data`): [`AppendixContentGenerationPriceDataInfo`](AppendixContentGenerationPriceDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppendixContentGenerationPriceDataInfo`](AppendixContentGenerationPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:217073

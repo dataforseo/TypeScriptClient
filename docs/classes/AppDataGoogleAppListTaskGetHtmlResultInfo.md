@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataGoogleAppListTaskGetHtmlResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppDataGoogleAppListTaskGetHtmlResultInfo
 
 # Class: AppDataGoogleAppListTaskGetHtmlResultInfo
 
@@ -8,56 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppDataGoogleAppListTaskGetHtmlResultInfo.md#constructor)
-
-### Properties
-
-- [datetime](AppDataGoogleAppListTaskGetHtmlResultInfo.md#datetime)
-- [items](AppDataGoogleAppListTaskGetHtmlResultInfo.md#items)
-- [items\_count](AppDataGoogleAppListTaskGetHtmlResultInfo.md#items_count)
-- [keyword](AppDataGoogleAppListTaskGetHtmlResultInfo.md#keyword)
-- [language\_code](AppDataGoogleAppListTaskGetHtmlResultInfo.md#language_code)
-- [location\_code](AppDataGoogleAppListTaskGetHtmlResultInfo.md#location_code)
-- [se\_domain](AppDataGoogleAppListTaskGetHtmlResultInfo.md#se_domain)
-- [type](AppDataGoogleAppListTaskGetHtmlResultInfo.md#type)
-
-### Methods
-
-- [init](AppDataGoogleAppListTaskGetHtmlResultInfo.md#init)
-- [toJSON](AppDataGoogleAppListTaskGetHtmlResultInfo.md#tojson)
-- [fromJS](AppDataGoogleAppListTaskGetHtmlResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppDataGoogleAppListTaskGetHtmlResultInfo(data)
 
-• **new AppDataGoogleAppListTaskGetHtmlResultInfo**(`data?`): [`AppDataGoogleAppListTaskGetHtmlResultInfo`](AppDataGoogleAppListTaskGetHtmlResultInfo.md)
+> **new AppDataGoogleAppListTaskGetHtmlResultInfo**(`data`?): [`AppDataGoogleAppListTaskGetHtmlResultInfo`](AppDataGoogleAppListTaskGetHtmlResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppDataGoogleAppListTaskGetHtmlResultInfo`](../interfaces/IAppDataGoogleAppListTaskGetHtmlResultInfo.md) |
+• **data?**: [`IAppDataGoogleAppListTaskGetHtmlResultInfo`](../interfaces/IAppDataGoogleAppListTaskGetHtmlResultInfo.md)
 
 #### Returns
 
 [`AppDataGoogleAppListTaskGetHtmlResultInfo`](AppDataGoogleAppListTaskGetHtmlResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:184504
 
 ## Properties
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -66,180 +45,174 @@ example:
 
 #### Implementation of
 
-[IAppDataGoogleAppListTaskGetHtmlResultInfo](../interfaces/IAppDataGoogleAppListTaskGetHtmlResultInfo.md).[datetime](../interfaces/IAppDataGoogleAppListTaskGetHtmlResultInfo.md#datetime)
+[`IAppDataGoogleAppListTaskGetHtmlResultInfo`](../interfaces/IAppDataGoogleAppListTaskGetHtmlResultInfo.md).[`datetime`](../interfaces/IAppDataGoogleAppListTaskGetHtmlResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
 main.ts:184496
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`HtmlItem`](HtmlItem.md)[]
+> **`optional`** **items**: [`HtmlItem`](HtmlItem.md)[]
 
 HTML pages and related data
 
 #### Implementation of
 
-[IAppDataGoogleAppListTaskGetHtmlResultInfo](../interfaces/IAppDataGoogleAppListTaskGetHtmlResultInfo.md).[items](../interfaces/IAppDataGoogleAppListTaskGetHtmlResultInfo.md#items)
+[`IAppDataGoogleAppListTaskGetHtmlResultInfo`](../interfaces/IAppDataGoogleAppListTaskGetHtmlResultInfo.md).[`items`](../interfaces/IAppDataGoogleAppListTaskGetHtmlResultInfo.md#items)
 
-#### Defined in
+#### Source
 
 main.ts:184500
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[IAppDataGoogleAppListTaskGetHtmlResultInfo](../interfaces/IAppDataGoogleAppListTaskGetHtmlResultInfo.md).[items_count](../interfaces/IAppDataGoogleAppListTaskGetHtmlResultInfo.md#items_count)
+[`IAppDataGoogleAppListTaskGetHtmlResultInfo`](../interfaces/IAppDataGoogleAppListTaskGetHtmlResultInfo.md).[`items_count`](../interfaces/IAppDataGoogleAppListTaskGetHtmlResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
 main.ts:184498
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 app collection received in a POST array
 
 #### Implementation of
 
-[IAppDataGoogleAppListTaskGetHtmlResultInfo](../interfaces/IAppDataGoogleAppListTaskGetHtmlResultInfo.md).[keyword](../interfaces/IAppDataGoogleAppListTaskGetHtmlResultInfo.md#keyword)
+[`IAppDataGoogleAppListTaskGetHtmlResultInfo`](../interfaces/IAppDataGoogleAppListTaskGetHtmlResultInfo.md).[`keyword`](../interfaces/IAppDataGoogleAppListTaskGetHtmlResultInfo.md#keyword)
 
-#### Defined in
+#### Source
 
 main.ts:184483
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[IAppDataGoogleAppListTaskGetHtmlResultInfo](../interfaces/IAppDataGoogleAppListTaskGetHtmlResultInfo.md).[language_code](../interfaces/IAppDataGoogleAppListTaskGetHtmlResultInfo.md#language_code)
+[`IAppDataGoogleAppListTaskGetHtmlResultInfo`](../interfaces/IAppDataGoogleAppListTaskGetHtmlResultInfo.md).[`language_code`](../interfaces/IAppDataGoogleAppListTaskGetHtmlResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
 main.ts:184491
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[IAppDataGoogleAppListTaskGetHtmlResultInfo](../interfaces/IAppDataGoogleAppListTaskGetHtmlResultInfo.md).[location_code](../interfaces/IAppDataGoogleAppListTaskGetHtmlResultInfo.md#location_code)
+[`IAppDataGoogleAppListTaskGetHtmlResultInfo`](../interfaces/IAppDataGoogleAppListTaskGetHtmlResultInfo.md).[`location_code`](../interfaces/IAppDataGoogleAppListTaskGetHtmlResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
 main.ts:184489
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
 #### Implementation of
 
-[IAppDataGoogleAppListTaskGetHtmlResultInfo](../interfaces/IAppDataGoogleAppListTaskGetHtmlResultInfo.md).[se_domain](../interfaces/IAppDataGoogleAppListTaskGetHtmlResultInfo.md#se_domain)
+[`IAppDataGoogleAppListTaskGetHtmlResultInfo`](../interfaces/IAppDataGoogleAppListTaskGetHtmlResultInfo.md).[`se_domain`](../interfaces/IAppDataGoogleAppListTaskGetHtmlResultInfo.md#se_domain)
 
-#### Defined in
+#### Source
 
 main.ts:184487
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IAppDataGoogleAppListTaskGetHtmlResultInfo](../interfaces/IAppDataGoogleAppListTaskGetHtmlResultInfo.md).[type](../interfaces/IAppDataGoogleAppListTaskGetHtmlResultInfo.md#type)
+[`IAppDataGoogleAppListTaskGetHtmlResultInfo`](../interfaces/IAppDataGoogleAppListTaskGetHtmlResultInfo.md).[`type`](../interfaces/IAppDataGoogleAppListTaskGetHtmlResultInfo.md#type)
 
-#### Defined in
+#### Source
 
 main.ts:184485
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:184513
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:184541
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppDataGoogleAppListTaskGetHtmlResultInfo`](AppDataGoogleAppListTaskGetHtmlResultInfo.md)
+> **`static`** **fromJS**(`data`): [`AppDataGoogleAppListTaskGetHtmlResultInfo`](AppDataGoogleAppListTaskGetHtmlResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppDataGoogleAppListTaskGetHtmlResultInfo`](AppDataGoogleAppListTaskGetHtmlResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:184534

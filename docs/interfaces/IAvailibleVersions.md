@@ -1,43 +1,36 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAvailibleVersions
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAvailibleVersions
 
 # Interface: IAvailibleVersions
 
-## Implemented by
-
-- [`AvailibleVersions`](../classes/AvailibleVersions.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [default](IAvailibleVersions.md#default)
-- [version](IAvailibleVersions.md#version)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### default
+### default?
 
-• `Optional` **default**: `boolean`
+> **`optional`** **default**: `boolean`
 
 the version is used by default
 if false, the version is not used by default and should be specified in the corresponding field of the POST request if necessary
 
-#### Defined in
+#### Source
 
-main.ts:159327
+main.ts:159335
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 lighthouse version
 
-#### Defined in
+#### Source
 
-main.ts:159324
+main.ts:159332

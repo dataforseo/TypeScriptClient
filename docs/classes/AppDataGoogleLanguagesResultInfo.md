@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataGoogleLanguagesResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppDataGoogleLanguagesResultInfo
 
 # Class: AppDataGoogleLanguagesResultInfo
 
@@ -8,133 +12,108 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppDataGoogleLanguagesResultInfo.md#constructor)
-
-### Properties
-
-- [language\_code](AppDataGoogleLanguagesResultInfo.md#language_code)
-- [language\_name](AppDataGoogleLanguagesResultInfo.md#language_name)
-
-### Methods
-
-- [init](AppDataGoogleLanguagesResultInfo.md#init)
-- [toJSON](AppDataGoogleLanguagesResultInfo.md#tojson)
-- [fromJS](AppDataGoogleLanguagesResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppDataGoogleLanguagesResultInfo(data)
 
-• **new AppDataGoogleLanguagesResultInfo**(`data?`): [`AppDataGoogleLanguagesResultInfo`](AppDataGoogleLanguagesResultInfo.md)
+> **new AppDataGoogleLanguagesResultInfo**(`data`?): [`AppDataGoogleLanguagesResultInfo`](AppDataGoogleLanguagesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppDataGoogleLanguagesResultInfo`](../interfaces/IAppDataGoogleLanguagesResultInfo.md) |
+• **data?**: [`IAppDataGoogleLanguagesResultInfo`](../interfaces/IAppDataGoogleLanguagesResultInfo.md)
 
 #### Returns
 
 [`AppDataGoogleLanguagesResultInfo`](AppDataGoogleLanguagesResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:182791
 
 ## Properties
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code according to ISO 639-1
 
 #### Implementation of
 
-[IAppDataGoogleLanguagesResultInfo](../interfaces/IAppDataGoogleLanguagesResultInfo.md).[language_code](../interfaces/IAppDataGoogleLanguagesResultInfo.md#language_code)
+[`IAppDataGoogleLanguagesResultInfo`](../interfaces/IAppDataGoogleLanguagesResultInfo.md).[`language_code`](../interfaces/IAppDataGoogleLanguagesResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
 main.ts:182787
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 language name
 
 #### Implementation of
 
-[IAppDataGoogleLanguagesResultInfo](../interfaces/IAppDataGoogleLanguagesResultInfo.md).[language_name](../interfaces/IAppDataGoogleLanguagesResultInfo.md#language_name)
+[`IAppDataGoogleLanguagesResultInfo`](../interfaces/IAppDataGoogleLanguagesResultInfo.md).[`language_name`](../interfaces/IAppDataGoogleLanguagesResultInfo.md#language_name)
 
-#### Defined in
+#### Source
 
 main.ts:182785
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:182800
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:182818
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppDataGoogleLanguagesResultInfo`](AppDataGoogleLanguagesResultInfo.md)
+> **`static`** **fromJS**(`data`): [`AppDataGoogleLanguagesResultInfo`](AppDataGoogleLanguagesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppDataGoogleLanguagesResultInfo`](AppDataGoogleLanguagesResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:182811

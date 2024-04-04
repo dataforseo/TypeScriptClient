@@ -1,199 +1,179 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ITrustpilotReviewSearchBusinessDataSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ITrustpilotReviewSearchBusinessDataSerpElementItem
 
 # Interface: ITrustpilotReviewSearchBusinessDataSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md)
 
-  ↳ **`ITrustpilotReviewSearchBusinessDataSerpElementItem`**
-
-## Implemented by
-
-- [`TrustpilotReviewSearchBusinessDataSerpElementItem`](../classes/TrustpilotReviewSearchBusinessDataSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [language](ITrustpilotReviewSearchBusinessDataSerpElementItem.md#language)
-- [position](ITrustpilotReviewSearchBusinessDataSerpElementItem.md#position)
-- [rank\_absolute](ITrustpilotReviewSearchBusinessDataSerpElementItem.md#rank_absolute)
-- [rank\_group](ITrustpilotReviewSearchBusinessDataSerpElementItem.md#rank_group)
-- [rating](ITrustpilotReviewSearchBusinessDataSerpElementItem.md#rating)
-- [responses](ITrustpilotReviewSearchBusinessDataSerpElementItem.md#responses)
-- [review\_images](ITrustpilotReviewSearchBusinessDataSerpElementItem.md#review_images)
-- [review\_text](ITrustpilotReviewSearchBusinessDataSerpElementItem.md#review_text)
-- [timestamp](ITrustpilotReviewSearchBusinessDataSerpElementItem.md#timestamp)
-- [title](ITrustpilotReviewSearchBusinessDataSerpElementItem.md#title)
-- [url](ITrustpilotReviewSearchBusinessDataSerpElementItem.md#url)
-- [user\_profile](ITrustpilotReviewSearchBusinessDataSerpElementItem.md#user_profile)
-- [verified](ITrustpilotReviewSearchBusinessDataSerpElementItem.md#verified)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### language
+### language?
 
-• `Optional` **language**: `string`
+> **`optional`** **language**: `string`
 
 the language of the review
 
-#### Defined in
+#### Source
 
 main.ts:205537
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the review in SERP
 can take the following values: right
 
-#### Defined in
+#### Source
 
 main.ts:205529
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank among all the listed reviews
 absolute position among all reviews on the list
 
-#### Defined in
+#### Source
 
 main.ts:205526
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
 main.ts:205523
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
 the rating score submitted by the reviewer
 
-#### Defined in
+#### Source
 
 main.ts:205533
 
-___
+***
 
-### responses
+### responses?
 
-• `Optional` **responses**: [`ReviewResponseItemInfo`](../classes/ReviewResponseItemInfo.md)[]
+> **`optional`** **responses**: [`ReviewResponseItemInfo`](../classes/ReviewResponseItemInfo.md)[]
 
 owner’s response to the submitted review
 
-#### Defined in
+#### Source
 
 main.ts:205554
 
-___
+***
 
-### review\_images
+### review\_images?
 
-• `Optional` **review\_images**: `string`[]
+> **`optional`** **review\_images**: `string`[]
 
 images submitted by the reviewer
 displays URLs to the images provided by the author of the review;
 please note that Trustpilot doesn’t allow adding images to reviews, so the review_images parameter will always equal null
 
-#### Defined in
+#### Source
 
 main.ts:205550
 
-___
+***
 
-### review\_text
+### review\_text?
 
-• `Optional` **review\_text**: `string`
+> **`optional`** **review\_text**: `string`
 
 the content of the review
 
-#### Defined in
+#### Source
 
 main.ts:205546
 
-___
+***
 
-### timestamp
+### timestamp?
 
-• `Optional` **timestamp**: `string`
+> **`optional`** **timestamp**: `string`
 
 date and time when a review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
 main.ts:205542
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 the title of the review
 
-#### Defined in
+#### Source
 
 main.ts:205544
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 the URL of the review
 
-#### Defined in
+#### Source
 
 main.ts:205531
 
-___
+***
 
-### user\_profile
+### user\_profile?
 
-• `Optional` **user\_profile**: [`BusinessDataUserProfileInfo`](../classes/BusinessDataUserProfileInfo.md)
+> **`optional`** **user\_profile**: [`BusinessDataUserProfileInfo`](../classes/BusinessDataUserProfileInfo.md)
 
 user profile of the reviewer
 
-#### Defined in
+#### Source
 
 main.ts:205552
 
-___
+***
 
-### verified
+### verified?
 
-• `Optional` **verified**: `boolean`
+> **`optional`** **verified**: `boolean`
 
 indicates whether the review has the “Verified” mark
 
-#### Defined in
+#### Source
 
 main.ts:205535

@@ -1,34 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo
 
-## Implemented by
-
-- [`DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo`](../classes/DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [date\_from](IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md#date_from)
-- [date\_to](IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md#date_to)
-- [item\_types](IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md#item_types)
-- [language\_code](IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md#language_code)
-- [language\_name](IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md#language_name)
-- [location\_code](IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md#location_code)
-- [location\_name](IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md#location_name)
-- [tag](IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md#tag)
-- [targets](IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md#targets)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -36,15 +22,15 @@ if you don’t specify this field, the data will be provided for the previous 12
 minimal possible value: 2020-10-01
 date format: "yyyy-mm-dd"
 
-#### Defined in
+#### Source
 
-main.ts:100526
+main.ts:100534
 
-___
+***
 
-### date\_to
+### date\_to?
 
-• `Optional` **date\_to**: `string`
+> **`optional`** **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -53,15 +39,15 @@ date format: "yyyy-mm-dd"
 example:
 "2021-04-01"
 
-#### Defined in
+#### Source
 
-main.ts:100533
+main.ts:100541
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 display results by item type
 optional field
@@ -72,15 +58,15 @@ possible values:
 default value:
 ["organic", "paid"]
 
-#### Defined in
+#### Source
 
-main.ts:100542
+main.ts:100550
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 if you use this field, you don’t need to specify language_name
@@ -90,15 +76,15 @@ ignore this field to get the results for all available languages
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:100520
+main.ts:100528
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 if you use this field, you don’t need to specify language_code
@@ -108,15 +94,15 @@ ignore this field to get the results for all available languages
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:100512
+main.ts:100520
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 if you use this field, you don’t have to specify location_name
@@ -126,15 +112,15 @@ ignore this field to get the results for all available locations
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:100504
+main.ts:100512
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 if you use this field, you don’t have to specify location_code
@@ -144,15 +130,15 @@ ignore this field to get the results for all available locations
 example:
 United Kingdom
 
-#### Defined in
+#### Source
 
-main.ts:100496
+main.ts:100504
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -160,15 +146,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:100548
+main.ts:100556
 
-___
+***
 
-### targets
+### targets?
 
-• `Optional` **targets**: `string`[]
+> **`optional`** **targets**: `string`[]
 
 target domains and subdomains
 required field
@@ -176,6 +162,6 @@ you can specify domains and subdomains in this field;
 domains and subdomains should be specified without https:// and www.;
 you can set up to 1000 domains or subdomains
 
-#### Defined in
+#### Source
 
-main.ts:100488
+main.ts:100496

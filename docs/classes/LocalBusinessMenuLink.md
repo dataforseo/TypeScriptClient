@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / LocalBusinessMenuLink
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / LocalBusinessMenuLink
 
 # Class: LocalBusinessMenuLink
 
-## Hierarchy
+## Extends
 
 - [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md)
-
-  ↳ **`LocalBusinessMenuLink`**
 
 ## Implements
 
@@ -14,37 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](LocalBusinessMenuLink.md#constructor)
-
-### Properties
-
-- [\_discriminator](LocalBusinessMenuLink.md#_discriminator)
-- [title](LocalBusinessMenuLink.md#title)
-- [url](LocalBusinessMenuLink.md#url)
-
-### Methods
-
-- [init](LocalBusinessMenuLink.md#init)
-- [toJSON](LocalBusinessMenuLink.md#tojson)
-- [fromJS](LocalBusinessMenuLink.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new LocalBusinessMenuLink(data)
 
-• **new LocalBusinessMenuLink**(`data?`): [`LocalBusinessMenuLink`](LocalBusinessMenuLink.md)
+> **new LocalBusinessMenuLink**(`data`?): [`LocalBusinessMenuLink`](LocalBusinessMenuLink.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ILocalBusinessMenuLink`](../interfaces/ILocalBusinessMenuLink.md) |
+• **data?**: [`ILocalBusinessMenuLink`](../interfaces/ILocalBusinessMenuLink.md)
 
 #### Returns
 
@@ -52,9 +34,9 @@
 
 #### Overrides
 
-[BaseLocalBusinessLink](BaseLocalBusinessLink.md).[constructor](BaseLocalBusinessLink.md#constructor)
+[`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`constructor`](BaseLocalBusinessLink.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:22970
 
@@ -62,60 +44,58 @@ main.ts:22970
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseLocalBusinessLink](BaseLocalBusinessLink.md).[_discriminator](BaseLocalBusinessLink.md#_discriminator)
+[`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`_discriminator`](BaseLocalBusinessLink.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:22726
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the element
 domain of the online menu system
 
 #### Implementation of
 
-[ILocalBusinessMenuLink](../interfaces/ILocalBusinessMenuLink.md).[title](../interfaces/ILocalBusinessMenuLink.md#title)
+[`ILocalBusinessMenuLink`](../interfaces/ILocalBusinessMenuLink.md).[`title`](../interfaces/ILocalBusinessMenuLink.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:22964
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL to view the menu
 
 #### Implementation of
 
-[ILocalBusinessMenuLink](../interfaces/ILocalBusinessMenuLink.md).[url](../interfaces/ILocalBusinessMenuLink.md#url)
+[`ILocalBusinessMenuLink`](../interfaces/ILocalBusinessMenuLink.md).[`url`](../interfaces/ILocalBusinessMenuLink.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:22966
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -123,23 +103,21 @@ main.ts:22966
 
 #### Overrides
 
-[BaseLocalBusinessLink](BaseLocalBusinessLink.md).[init](BaseLocalBusinessLink.md#init)
+[`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`init`](BaseLocalBusinessLink.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:22975
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -147,23 +125,21 @@ ___
 
 #### Overrides
 
-[BaseLocalBusinessLink](BaseLocalBusinessLink.md).[toJSON](BaseLocalBusinessLink.md#tojson)
+[`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`toJSON`](BaseLocalBusinessLink.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:22994
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`LocalBusinessMenuLink`](LocalBusinessMenuLink.md)
+> **`static`** **fromJS**(`data`): [`LocalBusinessMenuLink`](LocalBusinessMenuLink.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -171,8 +147,8 @@ ___
 
 #### Overrides
 
-[BaseLocalBusinessLink](BaseLocalBusinessLink.md).[fromJS](BaseLocalBusinessLink.md#fromjs)
+[`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`fromJS`](BaseLocalBusinessLink.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:22987

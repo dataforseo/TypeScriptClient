@@ -1,49 +1,41 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixMerchantAmazonInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppendixMerchantAmazonInfo
 
 # Interface: IAppendixMerchantAmazonInfo
 
-## Implemented by
-
-- [`AppendixMerchantAmazonInfo`](../classes/AppendixMerchantAmazonInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [asin](IAppendixMerchantAmazonInfo.md#asin)
-- [products](IAppendixMerchantAmazonInfo.md#products)
-- [sellers](IAppendixMerchantAmazonInfo.md#sellers)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### asin
+### asin?
 
-• `Optional` **asin**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
+> **`optional`** **asin**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:213126
 
-___
+***
 
-### products
+### products?
 
-• `Optional` **products**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
+> **`optional`** **products**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:213127
 
-___
+***
 
-### sellers
+### sellers?
 
-• `Optional` **sellers**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
+> **`optional`** **sellers**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:213128

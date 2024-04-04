@@ -1,54 +1,44 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataBingLocationsResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IKeywordsDataBingLocationsResultInfo
 
 # Interface: IKeywordsDataBingLocationsResultInfo
 
-## Implemented by
-
-- [`KeywordsDataBingLocationsResultInfo`](../classes/KeywordsDataBingLocationsResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [country\_iso\_code](IKeywordsDataBingLocationsResultInfo.md#country_iso_code)
-- [location\_code](IKeywordsDataBingLocationsResultInfo.md#location_code)
-- [location\_code\_parent](IKeywordsDataBingLocationsResultInfo.md#location_code_parent)
-- [location\_name](IKeywordsDataBingLocationsResultInfo.md#location_name)
-- [location\_type](IKeywordsDataBingLocationsResultInfo.md#location_type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### country\_iso\_code
+### country\_iso\_code?
 
-• `Optional` **country\_iso\_code**: `string`
+> **`optional`** **country\_iso\_code**: `string`
 
 ISO country code of the location
 
-#### Defined in
+#### Source
 
-main.ts:127369
+main.ts:127377
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 
-#### Defined in
+#### Source
 
-main.ts:127357
+main.ts:127365
 
-___
+***
 
-### location\_code\_parent
+### location\_code\_parent?
 
-• `Optional` **location\_code\_parent**: `number`
+> **`optional`** **location\_code\_parent**: `number`
 
 the code of the superordinate location
 example:
@@ -58,30 +48,30 @@ example:
 "location_code": 20044,
 "location_name": "Lower Austria,Austria"
 
-#### Defined in
+#### Source
 
-main.ts:127367
+main.ts:127375
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 
-#### Defined in
+#### Source
 
-main.ts:127359
+main.ts:127367
 
-___
+***
 
-### location\_type
+### location\_type?
 
-• `Optional` **location\_type**: `string`
+> **`optional`** **location\_type**: `string`
 
 location type
 
-#### Defined in
+#### Source
 
-main.ts:127371
+main.ts:127379

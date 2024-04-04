@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksReferringDomainsLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BacklinksReferringDomainsLiveResultInfo
 
 # Class: BacklinksReferringDomainsLiveResultInfo
 
@@ -8,100 +12,79 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BacklinksReferringDomainsLiveResultInfo.md#constructor)
-
-### Properties
-
-- [items](BacklinksReferringDomainsLiveResultInfo.md#items)
-- [items\_count](BacklinksReferringDomainsLiveResultInfo.md#items_count)
-- [target](BacklinksReferringDomainsLiveResultInfo.md#target)
-- [total\_count](BacklinksReferringDomainsLiveResultInfo.md#total_count)
-
-### Methods
-
-- [init](BacklinksReferringDomainsLiveResultInfo.md#init)
-- [toJSON](BacklinksReferringDomainsLiveResultInfo.md#tojson)
-- [fromJS](BacklinksReferringDomainsLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BacklinksReferringDomainsLiveResultInfo(data)
 
-• **new BacklinksReferringDomainsLiveResultInfo**(`data?`): [`BacklinksReferringDomainsLiveResultInfo`](BacklinksReferringDomainsLiveResultInfo.md)
+> **new BacklinksReferringDomainsLiveResultInfo**(`data`?): [`BacklinksReferringDomainsLiveResultInfo`](BacklinksReferringDomainsLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBacklinksReferringDomainsLiveResultInfo`](../interfaces/IBacklinksReferringDomainsLiveResultInfo.md) |
+• **data?**: [`IBacklinksReferringDomainsLiveResultInfo`](../interfaces/IBacklinksReferringDomainsLiveResultInfo.md)
 
 #### Returns
 
 [`BacklinksReferringDomainsLiveResultInfo`](BacklinksReferringDomainsLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:140384
+main.ts:140392
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`BacklinksReferringDomainsLiveItem`](BacklinksReferringDomainsLiveItem.md)[]
+> **`optional`** **items**: [`BacklinksReferringDomainsLiveItem`](BacklinksReferringDomainsLiveItem.md)[]
 
 items array
 
 #### Implementation of
 
-[IBacklinksReferringDomainsLiveResultInfo](../interfaces/IBacklinksReferringDomainsLiveResultInfo.md).[items](../interfaces/IBacklinksReferringDomainsLiveResultInfo.md#items)
+[`IBacklinksReferringDomainsLiveResultInfo`](../interfaces/IBacklinksReferringDomainsLiveResultInfo.md).[`items`](../interfaces/IBacklinksReferringDomainsLiveResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:140380
+main.ts:140388
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 number of items in the items array
 
 #### Implementation of
 
-[IBacklinksReferringDomainsLiveResultInfo](../interfaces/IBacklinksReferringDomainsLiveResultInfo.md).[items_count](../interfaces/IBacklinksReferringDomainsLiveResultInfo.md#items_count)
+[`IBacklinksReferringDomainsLiveResultInfo`](../interfaces/IBacklinksReferringDomainsLiveResultInfo.md).[`items_count`](../interfaces/IBacklinksReferringDomainsLiveResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:140378
+main.ts:140386
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 target in a POST array
 
 #### Implementation of
 
-[IBacklinksReferringDomainsLiveResultInfo](../interfaces/IBacklinksReferringDomainsLiveResultInfo.md).[target](../interfaces/IBacklinksReferringDomainsLiveResultInfo.md#target)
+[`IBacklinksReferringDomainsLiveResultInfo`](../interfaces/IBacklinksReferringDomainsLiveResultInfo.md).[`target`](../interfaces/IBacklinksReferringDomainsLiveResultInfo.md#target)
 
-#### Defined in
+#### Source
 
-main.ts:140372
+main.ts:140380
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total number of relevant items in the database
 total number of main domains referring to your target;
@@ -109,68 +92,62 @@ example.com and blog.example.com are counted as one referring domain
 
 #### Implementation of
 
-[IBacklinksReferringDomainsLiveResultInfo](../interfaces/IBacklinksReferringDomainsLiveResultInfo.md).[total_count](../interfaces/IBacklinksReferringDomainsLiveResultInfo.md#total_count)
+[`IBacklinksReferringDomainsLiveResultInfo`](../interfaces/IBacklinksReferringDomainsLiveResultInfo.md).[`total_count`](../interfaces/IBacklinksReferringDomainsLiveResultInfo.md#total_count)
 
-#### Defined in
+#### Source
 
-main.ts:140376
+main.ts:140384
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:140393
+main.ts:140401
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:140417
+main.ts:140425
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BacklinksReferringDomainsLiveResultInfo`](BacklinksReferringDomainsLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`BacklinksReferringDomainsLiveResultInfo`](BacklinksReferringDomainsLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BacklinksReferringDomainsLiveResultInfo`](BacklinksReferringDomainsLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:140410
+main.ts:140418

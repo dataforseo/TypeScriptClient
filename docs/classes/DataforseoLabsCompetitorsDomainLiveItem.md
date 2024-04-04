@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsCompetitorsDomainLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsCompetitorsDomainLiveItem
 
 # Class: DataforseoLabsCompetitorsDomainLiveItem
 
@@ -8,56 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsCompetitorsDomainLiveItem.md#constructor)
-
-### Properties
-
-- [avg\_position](DataforseoLabsCompetitorsDomainLiveItem.md#avg_position)
-- [competitor\_metrics](DataforseoLabsCompetitorsDomainLiveItem.md#competitor_metrics)
-- [domain](DataforseoLabsCompetitorsDomainLiveItem.md#domain)
-- [full\_domain\_metrics](DataforseoLabsCompetitorsDomainLiveItem.md#full_domain_metrics)
-- [intersections](DataforseoLabsCompetitorsDomainLiveItem.md#intersections)
-- [metrics](DataforseoLabsCompetitorsDomainLiveItem.md#metrics)
-- [se\_type](DataforseoLabsCompetitorsDomainLiveItem.md#se_type)
-- [sum\_position](DataforseoLabsCompetitorsDomainLiveItem.md#sum_position)
-
-### Methods
-
-- [init](DataforseoLabsCompetitorsDomainLiveItem.md#init)
-- [toJSON](DataforseoLabsCompetitorsDomainLiveItem.md#tojson)
-- [fromJS](DataforseoLabsCompetitorsDomainLiveItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsCompetitorsDomainLiveItem(data)
 
-• **new DataforseoLabsCompetitorsDomainLiveItem**(`data?`): [`DataforseoLabsCompetitorsDomainLiveItem`](DataforseoLabsCompetitorsDomainLiveItem.md)
+> **new DataforseoLabsCompetitorsDomainLiveItem**(`data`?): [`DataforseoLabsCompetitorsDomainLiveItem`](DataforseoLabsCompetitorsDomainLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsCompetitorsDomainLiveItem`](../interfaces/IDataforseoLabsCompetitorsDomainLiveItem.md) |
+• **data?**: [`IDataforseoLabsCompetitorsDomainLiveItem`](../interfaces/IDataforseoLabsCompetitorsDomainLiveItem.md)
 
 #### Returns
 
 [`DataforseoLabsCompetitorsDomainLiveItem`](DataforseoLabsCompetitorsDomainLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:90768
+main.ts:90776
 
 ## Properties
 
-### avg\_position
+### avg\_position?
 
-• `Optional` **avg\_position**: `number`
+> **`optional`** **avg\_position**: `number`
 
 average position of the domain in SERP
 Note: average position is calculated for intersected keywords only;
@@ -65,17 +44,17 @@ the value for a given domain may differ when combined with different target webs
 
 #### Implementation of
 
-[IDataforseoLabsCompetitorsDomainLiveItem](../interfaces/IDataforseoLabsCompetitorsDomainLiveItem.md).[avg_position](../interfaces/IDataforseoLabsCompetitorsDomainLiveItem.md#avg_position)
+[`IDataforseoLabsCompetitorsDomainLiveItem`](../interfaces/IDataforseoLabsCompetitorsDomainLiveItem.md).[`avg_position`](../interfaces/IDataforseoLabsCompetitorsDomainLiveItem.md#avg_position)
 
-#### Defined in
+#### Source
 
-main.ts:90747
+main.ts:90755
 
-___
+***
 
-### competitor\_metrics
+### competitor\_metrics?
 
-• `Optional` **competitor\_metrics**: `Object`
+> **`optional`** **competitor\_metrics**: `Object`
 
 metrics for intersecting keywords
 ranking and traffic data relevant to the keywords that the provided domain shares with the target domain
@@ -83,74 +62,74 @@ note: in this array ranking and traffic data is provided for the returned compet
 
 #### Index signature
 
-▪ [key: `string`]: [`MetricsInfo`](MetricsInfo.md)
+ \[`key`: `string`\]: [`MetricsInfo`](MetricsInfo.md)
 
 #### Implementation of
 
-[IDataforseoLabsCompetitorsDomainLiveItem](../interfaces/IDataforseoLabsCompetitorsDomainLiveItem.md).[competitor_metrics](../interfaces/IDataforseoLabsCompetitorsDomainLiveItem.md#competitor_metrics)
+[`IDataforseoLabsCompetitorsDomainLiveItem`](../interfaces/IDataforseoLabsCompetitorsDomainLiveItem.md).[`competitor_metrics`](../interfaces/IDataforseoLabsCompetitorsDomainLiveItem.md#competitor_metrics)
 
-#### Defined in
+#### Source
 
-main.ts:90764
+main.ts:90772
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain name
 
 #### Implementation of
 
-[IDataforseoLabsCompetitorsDomainLiveItem](../interfaces/IDataforseoLabsCompetitorsDomainLiveItem.md).[domain](../interfaces/IDataforseoLabsCompetitorsDomainLiveItem.md#domain)
+[`IDataforseoLabsCompetitorsDomainLiveItem`](../interfaces/IDataforseoLabsCompetitorsDomainLiveItem.md).[`domain`](../interfaces/IDataforseoLabsCompetitorsDomainLiveItem.md#domain)
 
-#### Defined in
+#### Source
 
-main.ts:90743
+main.ts:90751
 
-___
+***
 
-### full\_domain\_metrics
+### full\_domain\_metrics?
 
-• `Optional` **full\_domain\_metrics**: `Object`
+> **`optional`** **full\_domain\_metrics**: `Object`
 
 metrics for all keywords of the domain
 full overview of ranking and traffic data relevant to all keywords that the provided domain is ranking for
 
 #### Index signature
 
-▪ [key: `string`]: [`MetricsInfo`](MetricsInfo.md)
+ \[`key`: `string`\]: [`MetricsInfo`](MetricsInfo.md)
 
 #### Implementation of
 
-[IDataforseoLabsCompetitorsDomainLiveItem](../interfaces/IDataforseoLabsCompetitorsDomainLiveItem.md).[full_domain_metrics](../interfaces/IDataforseoLabsCompetitorsDomainLiveItem.md#full_domain_metrics)
+[`IDataforseoLabsCompetitorsDomainLiveItem`](../interfaces/IDataforseoLabsCompetitorsDomainLiveItem.md).[`full_domain_metrics`](../interfaces/IDataforseoLabsCompetitorsDomainLiveItem.md#full_domain_metrics)
 
-#### Defined in
+#### Source
 
-main.ts:90756
+main.ts:90764
 
-___
+***
 
-### intersections
+### intersections?
 
-• `Optional` **intersections**: `number`
+> **`optional`** **intersections**: `number`
 
 number of intersecting keywords
 
 #### Implementation of
 
-[IDataforseoLabsCompetitorsDomainLiveItem](../interfaces/IDataforseoLabsCompetitorsDomainLiveItem.md).[intersections](../interfaces/IDataforseoLabsCompetitorsDomainLiveItem.md#intersections)
+[`IDataforseoLabsCompetitorsDomainLiveItem`](../interfaces/IDataforseoLabsCompetitorsDomainLiveItem.md).[`intersections`](../interfaces/IDataforseoLabsCompetitorsDomainLiveItem.md#intersections)
 
-#### Defined in
+#### Source
 
-main.ts:90753
+main.ts:90761
 
-___
+***
 
-### metrics
+### metrics?
 
-• `Optional` **metrics**: `Object`
+> **`optional`** **metrics**: `Object`
 
 metrics for intersecting keywords
 ranking and traffic data relevant to the keywords that the provided domain shares with the target domain
@@ -158,37 +137,37 @@ note: in this array ranking and traffic data is provided for the target consider
 
 #### Index signature
 
-▪ [key: `string`]: [`MetricsInfo`](MetricsInfo.md)
+ \[`key`: `string`\]: [`MetricsInfo`](MetricsInfo.md)
 
 #### Implementation of
 
-[IDataforseoLabsCompetitorsDomainLiveItem](../interfaces/IDataforseoLabsCompetitorsDomainLiveItem.md).[metrics](../interfaces/IDataforseoLabsCompetitorsDomainLiveItem.md#metrics)
+[`IDataforseoLabsCompetitorsDomainLiveItem`](../interfaces/IDataforseoLabsCompetitorsDomainLiveItem.md).[`metrics`](../interfaces/IDataforseoLabsCompetitorsDomainLiveItem.md#metrics)
 
-#### Defined in
+#### Source
 
-main.ts:90760
+main.ts:90768
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IDataforseoLabsCompetitorsDomainLiveItem](../interfaces/IDataforseoLabsCompetitorsDomainLiveItem.md).[se_type](../interfaces/IDataforseoLabsCompetitorsDomainLiveItem.md#se_type)
+[`IDataforseoLabsCompetitorsDomainLiveItem`](../interfaces/IDataforseoLabsCompetitorsDomainLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsCompetitorsDomainLiveItem.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:90741
+main.ts:90749
 
-___
+***
 
-### sum\_position
+### sum\_position?
 
-• `Optional` **sum\_position**: `number`
+> **`optional`** **sum\_position**: `number`
 
 sum of all domain positions in SERP
 Note: average position is calculated for intersected keywords only;
@@ -196,68 +175,62 @@ the value for a given domain may differ when combined with different target webs
 
 #### Implementation of
 
-[IDataforseoLabsCompetitorsDomainLiveItem](../interfaces/IDataforseoLabsCompetitorsDomainLiveItem.md).[sum_position](../interfaces/IDataforseoLabsCompetitorsDomainLiveItem.md#sum_position)
+[`IDataforseoLabsCompetitorsDomainLiveItem`](../interfaces/IDataforseoLabsCompetitorsDomainLiveItem.md).[`sum_position`](../interfaces/IDataforseoLabsCompetitorsDomainLiveItem.md#sum_position)
 
-#### Defined in
+#### Source
 
-main.ts:90751
+main.ts:90759
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:90777
+main.ts:90785
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:90819
+main.ts:90827
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsCompetitorsDomainLiveItem`](DataforseoLabsCompetitorsDomainLiveItem.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsCompetitorsDomainLiveItem`](DataforseoLabsCompetitorsDomainLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsCompetitorsDomainLiveItem`](DataforseoLabsCompetitorsDomainLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:90812
+main.ts:90820

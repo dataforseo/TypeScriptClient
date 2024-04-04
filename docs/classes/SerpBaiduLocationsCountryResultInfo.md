@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpBaiduLocationsCountryResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpBaiduLocationsCountryResultInfo
 
 # Class: SerpBaiduLocationsCountryResultInfo
 
@@ -8,85 +12,63 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpBaiduLocationsCountryResultInfo.md#constructor)
-
-### Properties
-
-- [country\_iso\_code](SerpBaiduLocationsCountryResultInfo.md#country_iso_code)
-- [location\_code](SerpBaiduLocationsCountryResultInfo.md#location_code)
-- [location\_code\_parent](SerpBaiduLocationsCountryResultInfo.md#location_code_parent)
-- [location\_name](SerpBaiduLocationsCountryResultInfo.md#location_name)
-- [location\_type](SerpBaiduLocationsCountryResultInfo.md#location_type)
-
-### Methods
-
-- [init](SerpBaiduLocationsCountryResultInfo.md#init)
-- [toJSON](SerpBaiduLocationsCountryResultInfo.md#tojson)
-- [fromJS](SerpBaiduLocationsCountryResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpBaiduLocationsCountryResultInfo(data)
 
-• **new SerpBaiduLocationsCountryResultInfo**(`data?`): [`SerpBaiduLocationsCountryResultInfo`](SerpBaiduLocationsCountryResultInfo.md)
+> **new SerpBaiduLocationsCountryResultInfo**(`data`?): [`SerpBaiduLocationsCountryResultInfo`](SerpBaiduLocationsCountryResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpBaiduLocationsCountryResultInfo`](../interfaces/ISerpBaiduLocationsCountryResultInfo.md) |
+• **data?**: [`ISerpBaiduLocationsCountryResultInfo`](../interfaces/ISerpBaiduLocationsCountryResultInfo.md)
 
 #### Returns
 
 [`SerpBaiduLocationsCountryResultInfo`](SerpBaiduLocationsCountryResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:67784
+main.ts:67792
 
 ## Properties
 
-### country\_iso\_code
+### country\_iso\_code?
 
-• `Optional` **country\_iso\_code**: `string`
+> **`optional`** **country\_iso\_code**: `string`
 
 ISO country code of the location
 
 #### Implementation of
 
-[ISerpBaiduLocationsCountryResultInfo](../interfaces/ISerpBaiduLocationsCountryResultInfo.md).[country_iso_code](../interfaces/ISerpBaiduLocationsCountryResultInfo.md#country_iso_code)
+[`ISerpBaiduLocationsCountryResultInfo`](../interfaces/ISerpBaiduLocationsCountryResultInfo.md).[`country_iso_code`](../interfaces/ISerpBaiduLocationsCountryResultInfo.md#country_iso_code)
 
-#### Defined in
+#### Source
 
-main.ts:67777
+main.ts:67785
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 
 #### Implementation of
 
-[ISerpBaiduLocationsCountryResultInfo](../interfaces/ISerpBaiduLocationsCountryResultInfo.md).[location_code](../interfaces/ISerpBaiduLocationsCountryResultInfo.md#location_code)
+[`ISerpBaiduLocationsCountryResultInfo`](../interfaces/ISerpBaiduLocationsCountryResultInfo.md).[`location_code`](../interfaces/ISerpBaiduLocationsCountryResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:67769
+main.ts:67777
 
-___
+***
 
-### location\_code\_parent
+### location\_code\_parent?
 
-• `Optional` **location\_code\_parent**: `number`
+> **`optional`** **location\_code\_parent**: `number`
 
 the code of the superordinate location
 only City location_type is supported for all countries except China (where Country is also supported);
@@ -94,101 +76,95 @@ don’t match locations by location_code_parent because the results for Region a
 
 #### Implementation of
 
-[ISerpBaiduLocationsCountryResultInfo](../interfaces/ISerpBaiduLocationsCountryResultInfo.md).[location_code_parent](../interfaces/ISerpBaiduLocationsCountryResultInfo.md#location_code_parent)
+[`ISerpBaiduLocationsCountryResultInfo`](../interfaces/ISerpBaiduLocationsCountryResultInfo.md).[`location_code_parent`](../interfaces/ISerpBaiduLocationsCountryResultInfo.md#location_code_parent)
 
-#### Defined in
+#### Source
 
-main.ts:67775
+main.ts:67783
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 
 #### Implementation of
 
-[ISerpBaiduLocationsCountryResultInfo](../interfaces/ISerpBaiduLocationsCountryResultInfo.md).[location_name](../interfaces/ISerpBaiduLocationsCountryResultInfo.md#location_name)
+[`ISerpBaiduLocationsCountryResultInfo`](../interfaces/ISerpBaiduLocationsCountryResultInfo.md).[`location_name`](../interfaces/ISerpBaiduLocationsCountryResultInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:67771
+main.ts:67779
 
-___
+***
 
-### location\_type
+### location\_type?
 
-• `Optional` **location\_type**: `string`
+> **`optional`** **location\_type**: `string`
 
 location type
 only City is supported for all countries except China (where Country is also supported)
 
 #### Implementation of
 
-[ISerpBaiduLocationsCountryResultInfo](../interfaces/ISerpBaiduLocationsCountryResultInfo.md).[location_type](../interfaces/ISerpBaiduLocationsCountryResultInfo.md#location_type)
+[`ISerpBaiduLocationsCountryResultInfo`](../interfaces/ISerpBaiduLocationsCountryResultInfo.md).[`location_type`](../interfaces/ISerpBaiduLocationsCountryResultInfo.md#location_type)
 
-#### Defined in
+#### Source
 
-main.ts:67780
+main.ts:67788
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:67793
+main.ts:67801
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:67814
+main.ts:67822
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpBaiduLocationsCountryResultInfo`](SerpBaiduLocationsCountryResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpBaiduLocationsCountryResultInfo`](SerpBaiduLocationsCountryResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpBaiduLocationsCountryResultInfo`](SerpBaiduLocationsCountryResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:67807
+main.ts:67815

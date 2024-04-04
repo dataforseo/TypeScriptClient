@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AbsoluteItems
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AbsoluteItems
 
 # Class: AbsoluteItems
 
@@ -8,51 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AbsoluteItems.md#constructor)
-
-### Properties
-
-- [geo\_id](AbsoluteItems.md#geo_id)
-- [geo\_name](AbsoluteItems.md#geo_name)
-- [values](AbsoluteItems.md#values)
-
-### Methods
-
-- [init](AbsoluteItems.md#init)
-- [toJSON](AbsoluteItems.md#tojson)
-- [fromJS](AbsoluteItems.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AbsoluteItems(data)
 
-• **new AbsoluteItems**(`data?`): [`AbsoluteItems`](AbsoluteItems.md)
+> **new AbsoluteItems**(`data`?): [`AbsoluteItems`](AbsoluteItems.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAbsoluteItems`](../interfaces/IAbsoluteItems.md) |
+• **data?**: [`IAbsoluteItems`](../interfaces/IAbsoluteItems.md)
 
 #### Returns
 
 [`AbsoluteItems`](AbsoluteItems.md)
 
-#### Defined in
+#### Source
 
-main.ts:125577
+main.ts:125585
 
 ## Properties
 
-### geo\_id
+### geo\_id?
 
-• `Optional` **geo\_id**: `string`
+> **`optional`** **geo\_id**: `string`
 
 location identifier
 you can use this field for matching obtained results with location parameters specified in the request
@@ -62,17 +46,17 @@ US-NY
 
 #### Implementation of
 
-[IAbsoluteItems](../interfaces/IAbsoluteItems.md).[geo_id](../interfaces/IAbsoluteItems.md#geo_id)
+[`IAbsoluteItems`](../interfaces/IAbsoluteItems.md).[`geo_id`](../interfaces/IAbsoluteItems.md#geo_id)
 
-#### Defined in
+#### Source
 
-main.ts:125558
+main.ts:125566
 
-___
+***
 
-### geo\_name
+### geo\_name?
 
-• `Optional` **geo\_name**: `string`
+> **`optional`** **geo\_name**: `string`
 
 location name
 you can use this field for matching obtained results with location parameters specified in the request
@@ -82,17 +66,17 @@ Andorra
 
 #### Implementation of
 
-[IAbsoluteItems](../interfaces/IAbsoluteItems.md).[geo_name](../interfaces/IAbsoluteItems.md#geo_name)
+[`IAbsoluteItems`](../interfaces/IAbsoluteItems.md).[`geo_name`](../interfaces/IAbsoluteItems.md#geo_name)
 
-#### Defined in
+#### Source
 
-main.ts:125564
+main.ts:125572
 
-___
+***
 
-### values
+### values?
 
-• `Optional` **values**: `number`[]
+> **`optional`** **values**: `number`[]
 
 keyword popularity rates within a given location
 represents location-specific keyword popularity rate over the specified time range;
@@ -105,68 +89,62 @@ a value of 0 means there was not enough data for this term
 
 #### Implementation of
 
-[IAbsoluteItems](../interfaces/IAbsoluteItems.md).[values](../interfaces/IAbsoluteItems.md#values)
+[`IAbsoluteItems`](../interfaces/IAbsoluteItems.md).[`values`](../interfaces/IAbsoluteItems.md#values)
 
-#### Defined in
+#### Source
 
-main.ts:125573
+main.ts:125581
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:125586
+main.ts:125594
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:125609
+main.ts:125617
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AbsoluteItems`](AbsoluteItems.md)
+> **`static`** **fromJS**(`data`): [`AbsoluteItems`](AbsoluteItems.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AbsoluteItems`](AbsoluteItems.md)
 
-#### Defined in
+#### Source
 
-main.ts:125602
+main.ts:125610

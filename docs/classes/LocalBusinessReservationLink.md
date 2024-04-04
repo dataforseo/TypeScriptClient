@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / LocalBusinessReservationLink
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / LocalBusinessReservationLink
 
 # Class: LocalBusinessReservationLink
 
-## Hierarchy
+## Extends
 
 - [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md)
-
-  ↳ **`LocalBusinessReservationLink`**
 
 ## Implements
 
@@ -14,37 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](LocalBusinessReservationLink.md#constructor)
-
-### Properties
-
-- [\_discriminator](LocalBusinessReservationLink.md#_discriminator)
-- [title](LocalBusinessReservationLink.md#title)
-- [url](LocalBusinessReservationLink.md#url)
-
-### Methods
-
-- [init](LocalBusinessReservationLink.md#init)
-- [toJSON](LocalBusinessReservationLink.md#tojson)
-- [fromJS](LocalBusinessReservationLink.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new LocalBusinessReservationLink(data)
 
-• **new LocalBusinessReservationLink**(`data?`): [`LocalBusinessReservationLink`](LocalBusinessReservationLink.md)
+> **new LocalBusinessReservationLink**(`data`?): [`LocalBusinessReservationLink`](LocalBusinessReservationLink.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ILocalBusinessReservationLink`](../interfaces/ILocalBusinessReservationLink.md) |
+• **data?**: [`ILocalBusinessReservationLink`](../interfaces/ILocalBusinessReservationLink.md)
 
 #### Returns
 
@@ -52,9 +34,9 @@
 
 #### Overrides
 
-[BaseLocalBusinessLink](BaseLocalBusinessLink.md).[constructor](BaseLocalBusinessLink.md#constructor)
+[`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`constructor`](BaseLocalBusinessLink.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:22794
 
@@ -62,60 +44,58 @@ main.ts:22794
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseLocalBusinessLink](BaseLocalBusinessLink.md).[_discriminator](BaseLocalBusinessLink.md#_discriminator)
+[`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`_discriminator`](BaseLocalBusinessLink.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:22726
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the element
 domain of the reservation software
 
 #### Implementation of
 
-[ILocalBusinessReservationLink](../interfaces/ILocalBusinessReservationLink.md).[title](../interfaces/ILocalBusinessReservationLink.md#title)
+[`ILocalBusinessReservationLink`](../interfaces/ILocalBusinessReservationLink.md).[`title`](../interfaces/ILocalBusinessReservationLink.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:22788
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL to make a reservation
 
 #### Implementation of
 
-[ILocalBusinessReservationLink](../interfaces/ILocalBusinessReservationLink.md).[url](../interfaces/ILocalBusinessReservationLink.md#url)
+[`ILocalBusinessReservationLink`](../interfaces/ILocalBusinessReservationLink.md).[`url`](../interfaces/ILocalBusinessReservationLink.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:22790
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -123,23 +103,21 @@ main.ts:22790
 
 #### Overrides
 
-[BaseLocalBusinessLink](BaseLocalBusinessLink.md).[init](BaseLocalBusinessLink.md#init)
+[`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`init`](BaseLocalBusinessLink.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:22799
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -147,23 +125,21 @@ ___
 
 #### Overrides
 
-[BaseLocalBusinessLink](BaseLocalBusinessLink.md).[toJSON](BaseLocalBusinessLink.md#tojson)
+[`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`toJSON`](BaseLocalBusinessLink.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:22818
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`LocalBusinessReservationLink`](LocalBusinessReservationLink.md)
+> **`static`** **fromJS**(`data`): [`LocalBusinessReservationLink`](LocalBusinessReservationLink.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -171,8 +147,8 @@ ___
 
 #### Overrides
 
-[BaseLocalBusinessLink](BaseLocalBusinessLink.md).[fromJS](BaseLocalBusinessLink.md#fromjs)
+[`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`fromJS`](BaseLocalBusinessLink.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:22811

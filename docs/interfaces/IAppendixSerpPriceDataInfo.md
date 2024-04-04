@@ -1,49 +1,41 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixSerpPriceDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppendixSerpPriceDataInfo
 
 # Interface: IAppendixSerpPriceDataInfo
 
-## Implemented by
-
-- [`AppendixSerpPriceDataInfo`](../classes/AppendixSerpPriceDataInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [advanced](IAppendixSerpPriceDataInfo.md#advanced)
-- [html](IAppendixSerpPriceDataInfo.md#html)
-- [regular](IAppendixSerpPriceDataInfo.md#regular)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### advanced
+### advanced?
 
-• `Optional` **advanced**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **advanced**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:216188
 
-___
+***
 
-### html
+### html?
 
-• `Optional` **html**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **html**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:216190
 
-___
+***
 
-### regular
+### regular?
 
-• `Optional` **regular**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **regular**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:216189

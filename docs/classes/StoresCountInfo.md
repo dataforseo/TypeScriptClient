@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / StoresCountInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / StoresCountInfo
 
 # Class: StoresCountInfo
 
@@ -8,67 +12,47 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](StoresCountInfo.md#constructor)
-
-### Properties
-
-- [count](StoresCountInfo.md#count)
-- [count\_from\_text](StoresCountInfo.md#count_from_text)
-- [displayed\_text](StoresCountInfo.md#displayed_text)
-
-### Methods
-
-- [init](StoresCountInfo.md#init)
-- [toJSON](StoresCountInfo.md#tojson)
-- [fromJS](StoresCountInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new StoresCountInfo(data)
 
-• **new StoresCountInfo**(`data?`): [`StoresCountInfo`](StoresCountInfo.md)
+> **new StoresCountInfo**(`data`?): [`StoresCountInfo`](StoresCountInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IStoresCountInfo`](../interfaces/IStoresCountInfo.md) |
+• **data?**: [`IStoresCountInfo`](../interfaces/IStoresCountInfo.md)
 
 #### Returns
 
 [`StoresCountInfo`](StoresCountInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:170024
+main.ts:170032
 
 ## Properties
 
-### count
+### count?
 
-• `Optional` **count**: `string`
+> **`optional`** **count**: `string`
 
 number of stores that offer the product
 
 #### Implementation of
 
-[IStoresCountInfo](../interfaces/IStoresCountInfo.md).[count](../interfaces/IStoresCountInfo.md#count)
+[`IStoresCountInfo`](../interfaces/IStoresCountInfo.md).[`count`](../interfaces/IStoresCountInfo.md#count)
 
-#### Defined in
+#### Source
 
-main.ts:170012
+main.ts:170020
 
-___
+***
 
-### count\_from\_text
+### count\_from\_text?
 
-• `Optional` **count\_from\_text**: `boolean`
+> **`optional`** **count\_from\_text**: `boolean`
 
 whether the number of stores is taken from text
 indicates whether the number of stores is taken from displayed_text;
@@ -78,84 +62,78 @@ in this case, the parameter is true
 
 #### Implementation of
 
-[IStoresCountInfo](../interfaces/IStoresCountInfo.md).[count_from_text](../interfaces/IStoresCountInfo.md#count_from_text)
+[`IStoresCountInfo`](../interfaces/IStoresCountInfo.md).[`count_from_text`](../interfaces/IStoresCountInfo.md#count_from_text)
 
-#### Defined in
+#### Source
 
-main.ts:170020
+main.ts:170028
 
-___
+***
 
-### displayed\_text
+### displayed\_text?
 
-• `Optional` **displayed\_text**: `string`
+> **`optional`** **displayed\_text**: `string`
 
 text displayed on the Google Shopping page
 
 #### Implementation of
 
-[IStoresCountInfo](../interfaces/IStoresCountInfo.md).[displayed_text](../interfaces/IStoresCountInfo.md#displayed_text)
+[`IStoresCountInfo`](../interfaces/IStoresCountInfo.md).[`displayed_text`](../interfaces/IStoresCountInfo.md#displayed_text)
 
-#### Defined in
+#### Source
 
-main.ts:170014
+main.ts:170022
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:170033
+main.ts:170041
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:170052
+main.ts:170060
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`StoresCountInfo`](StoresCountInfo.md)
+> **`static`** **fromJS**(`data`): [`StoresCountInfo`](StoresCountInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`StoresCountInfo`](StoresCountInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:170045
+main.ts:170053

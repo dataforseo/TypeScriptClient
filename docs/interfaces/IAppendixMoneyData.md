@@ -1,68 +1,59 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixMoneyData
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppendixMoneyData
 
 # Interface: IAppendixMoneyData
 
-## Implemented by
-
-- [`AppendixMoneyData`](../classes/AppendixMoneyData.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [balance](IAppendixMoneyData.md#balance)
-- [limits](IAppendixMoneyData.md#limits)
-- [statistics](IAppendixMoneyData.md#statistics)
-- [total](IAppendixMoneyData.md#total)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### balance
+### balance?
 
-• `Optional` **balance**: `number`
+> **`optional`** **balance**: `number`
 
 amount of money left in your account
 
-#### Defined in
+#### Source
 
 main.ts:215028
 
-___
+***
 
-### limits
+### limits?
 
-• `Optional` **limits**: [`AppendixLimitsMoneyData`](../classes/AppendixLimitsMoneyData.md)
+> **`optional`** **limits**: [`AppendixLimitsMoneyData`](../classes/AppendixLimitsMoneyData.md)
 
 cost limits
 
-#### Defined in
+#### Source
 
 main.ts:215030
 
-___
+***
 
-### statistics
+### statistics?
 
-• `Optional` **statistics**: [`AppendixStatisticsDataInfo`](../classes/AppendixStatisticsDataInfo.md)
+> **`optional`** **statistics**: [`AppendixStatisticsDataInfo`](../classes/AppendixStatisticsDataInfo.md)
 
 statistics of your spending
 
-#### Defined in
+#### Source
 
 main.ts:215032
 
-___
+***
 
-### total
+### total?
 
-• `Optional` **total**: `number`
+> **`optional`** **total**: `number`
 
 total amount of money deposited to your account
 
-#### Defined in
+#### Source
 
 main.ts:215026

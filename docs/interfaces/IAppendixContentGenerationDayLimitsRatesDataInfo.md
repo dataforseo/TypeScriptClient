@@ -1,38 +1,31 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixContentGenerationDayLimitsRatesDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppendixContentGenerationDayLimitsRatesDataInfo
 
 # Interface: IAppendixContentGenerationDayLimitsRatesDataInfo
 
-## Implemented by
-
-- [`AppendixContentGenerationDayLimitsRatesDataInfo`](../classes/AppendixContentGenerationDayLimitsRatesDataInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [languages](IAppendixContentGenerationDayLimitsRatesDataInfo.md#languages)
-- [live](IAppendixContentGenerationDayLimitsRatesDataInfo.md#live)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### languages
+### languages?
 
-• `Optional` **languages**: `number`
+> **`optional`** **languages**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:213968
 
-___
+***
 
-### live
+### live?
 
-• `Optional` **live**: `number`
+> **`optional`** **live**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:213967

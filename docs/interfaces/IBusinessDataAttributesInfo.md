@@ -1,52 +1,45 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataAttributesInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBusinessDataAttributesInfo
 
 # Interface: IBusinessDataAttributesInfo
 
-## Implemented by
-
-- [`BusinessDataAttributesInfo`](../classes/BusinessDataAttributesInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [available\_attributes](IBusinessDataAttributesInfo.md#available_attributes)
-- [unavailable\_attributes](IBusinessDataAttributesInfo.md#unavailable_attributes)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### available\_attributes
+### available\_attributes?
 
-• `Optional` **available\_attributes**: `Object`
+> **`optional`** **available\_attributes**: `Object`
 
 available attributes
 indicates attributes a business entity can offer
 
 #### Index signature
 
-▪ [key: `string`]: (`string` \| `undefined`)[]
+ \[`key`: `string`\]: (`string` \| `undefined`)[]
 
-#### Defined in
+#### Source
 
 main.ts:194123
 
-___
+***
 
-### unavailable\_attributes
+### unavailable\_attributes?
 
-• `Optional` **unavailable\_attributes**: `Object`
+> **`optional`** **unavailable\_attributes**: `Object`
 
 unavailable attributes
 indicates attributes a business entity cannot offer
 
 #### Index signature
 
-▪ [key: `string`]: (`string` \| `undefined`)[]
+ \[`key`: `string`\]: (`string` \| `undefined`)[]
 
-#### Defined in
+#### Source
 
 main.ts:194126

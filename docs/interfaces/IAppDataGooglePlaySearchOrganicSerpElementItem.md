@@ -1,195 +1,175 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppDataGooglePlaySearchOrganicSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppDataGooglePlaySearchOrganicSerpElementItem
 
 # Interface: IAppDataGooglePlaySearchOrganicSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md)
 
-  ↳ **`IAppDataGooglePlaySearchOrganicSerpElementItem`**
-
-## Implemented by
-
-- [`AppDataGooglePlaySearchOrganicSerpElementItem`](../classes/AppDataGooglePlaySearchOrganicSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [app\_id](IAppDataGooglePlaySearchOrganicSerpElementItem.md#app_id)
-- [developer](IAppDataGooglePlaySearchOrganicSerpElementItem.md#developer)
-- [developer\_url](IAppDataGooglePlaySearchOrganicSerpElementItem.md#developer_url)
-- [icon](IAppDataGooglePlaySearchOrganicSerpElementItem.md#icon)
-- [is\_free](IAppDataGooglePlaySearchOrganicSerpElementItem.md#is_free)
-- [position](IAppDataGooglePlaySearchOrganicSerpElementItem.md#position)
-- [price](IAppDataGooglePlaySearchOrganicSerpElementItem.md#price)
-- [rank\_absolute](IAppDataGooglePlaySearchOrganicSerpElementItem.md#rank_absolute)
-- [rank\_group](IAppDataGooglePlaySearchOrganicSerpElementItem.md#rank_group)
-- [rating](IAppDataGooglePlaySearchOrganicSerpElementItem.md#rating)
-- [reviews\_count](IAppDataGooglePlaySearchOrganicSerpElementItem.md#reviews_count)
-- [title](IAppDataGooglePlaySearchOrganicSerpElementItem.md#title)
-- [url](IAppDataGooglePlaySearchOrganicSerpElementItem.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### app\_id
+### app\_id?
 
-• `Optional` **app\_id**: `string`
+> **`optional`** **app\_id**: `string`
 
 id of the app
 
-#### Defined in
+#### Source
 
-main.ts:110962
+main.ts:110970
 
-___
+***
 
-### developer
+### developer?
 
-• `Optional` **developer**: `string`
+> **`optional`** **developer**: `string`
 
 name of the app developer
 
-#### Defined in
+#### Source
 
-main.ts:110978
+main.ts:110986
 
-___
+***
 
-### developer\_url
+### developer\_url?
 
-• `Optional` **developer\_url**: `string`
+> **`optional`** **developer\_url**: `string`
 
 URL to the developer page on Google Play
 
-#### Defined in
+#### Source
 
-main.ts:110980
+main.ts:110988
 
-___
+***
 
-### icon
+### icon?
 
-• `Optional` **icon**: `string`
+> **`optional`** **icon**: `string`
 
 URL to the app icon
 
-#### Defined in
+#### Source
 
-main.ts:110968
+main.ts:110976
 
-___
+***
 
-### is\_free
+### is\_free?
 
-• `Optional` **is\_free**: `boolean`
+> **`optional`** **is\_free**: `boolean`
 
 indicates whether the app is free
 
-#### Defined in
+#### Source
 
-main.ts:110974
+main.ts:110982
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
-main.ts:110960
+main.ts:110968
 
-___
+***
 
-### price
+### price?
 
-• `Optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
+> **`optional`** **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
 price of the app
 
-#### Defined in
+#### Source
 
-main.ts:110976
+main.ts:110984
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Defined in
+#### Source
 
-main.ts:110956
+main.ts:110964
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
-main.ts:110953
+main.ts:110961
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
 average rating of the app
 
-#### Defined in
+#### Source
 
-main.ts:110972
+main.ts:110980
 
-___
+***
 
-### reviews\_count
+### reviews\_count?
 
-• `Optional` **reviews\_count**: `number`
+> **`optional`** **reviews\_count**: `number`
 
 the total number of reviews of the app
 
-#### Defined in
+#### Source
 
-main.ts:110970
+main.ts:110978
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the app
 
-#### Defined in
+#### Source
 
-main.ts:110964
+main.ts:110972
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL to the app page on Google Play
 
-#### Defined in
+#### Source
 
-main.ts:110966
+main.ts:110974

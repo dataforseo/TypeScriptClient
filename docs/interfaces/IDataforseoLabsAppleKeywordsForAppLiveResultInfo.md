@@ -1,107 +1,95 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAppleKeywordsForAppLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsAppleKeywordsForAppLiveResultInfo
 
 # Interface: IDataforseoLabsAppleKeywordsForAppLiveResultInfo
 
-## Implemented by
-
-- [`DataforseoLabsAppleKeywordsForAppLiveResultInfo`](../classes/DataforseoLabsAppleKeywordsForAppLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [app\_id](IDataforseoLabsAppleKeywordsForAppLiveResultInfo.md#app_id)
-- [items](IDataforseoLabsAppleKeywordsForAppLiveResultInfo.md#items)
-- [items\_count](IDataforseoLabsAppleKeywordsForAppLiveResultInfo.md#items_count)
-- [language\_code](IDataforseoLabsAppleKeywordsForAppLiveResultInfo.md#language_code)
-- [location\_code](IDataforseoLabsAppleKeywordsForAppLiveResultInfo.md#location_code)
-- [se\_type](IDataforseoLabsAppleKeywordsForAppLiveResultInfo.md#se_type)
-- [total\_count](IDataforseoLabsAppleKeywordsForAppLiveResultInfo.md#total_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### app\_id
+### app\_id?
 
-• `Optional` **app\_id**: `string`
+> **`optional`** **app\_id**: `string`
 
 id of the app in a POST array
 
-#### Defined in
-
-main.ts:113356
-
-___
-
-### items
-
-• `Optional` **items**: [`DataforseoLabsleKeywordsForAppLiveItem`](../classes/DataforseoLabsleKeywordsForAppLiveItem.md)[]
-
-contains data related to the ranking keywords for the app specified in the app_id field
-
-#### Defined in
-
-main.ts:113366
-
-___
-
-### items\_count
-
-• `Optional` **items\_count**: `number`
-
-the number of results returned in the items array
-
-#### Defined in
+#### Source
 
 main.ts:113364
 
-___
+***
 
-### language\_code
+### items?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **items**: [`DataforseoLabsleKeywordsForAppLiveItem`](../classes/DataforseoLabsleKeywordsForAppLiveItem.md)[]
+
+contains data related to the ranking keywords for the app specified in the app_id field
+
+#### Source
+
+main.ts:113374
+
+***
+
+### items\_count?
+
+> **`optional`** **items\_count**: `number`
+
+the number of results returned in the items array
+
+#### Source
+
+main.ts:113372
+
+***
+
+### language\_code?
+
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:113360
+main.ts:113368
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:113358
+main.ts:113366
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:113354
+main.ts:113362
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
-#### Defined in
+#### Source
 
-main.ts:113362
+main.ts:113370

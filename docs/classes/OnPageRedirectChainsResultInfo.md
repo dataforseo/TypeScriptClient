@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageRedirectChainsResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPageRedirectChainsResultInfo
 
 # Class: OnPageRedirectChainsResultInfo
 
@@ -8,185 +12,157 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPageRedirectChainsResultInfo.md#constructor)
-
-### Properties
-
-- [crawl\_progress](OnPageRedirectChainsResultInfo.md#crawl_progress)
-- [crawl\_status](OnPageRedirectChainsResultInfo.md#crawl_status)
-- [items](OnPageRedirectChainsResultInfo.md#items)
-- [items\_count](OnPageRedirectChainsResultInfo.md#items_count)
-- [total\_items\_count](OnPageRedirectChainsResultInfo.md#total_items_count)
-
-### Methods
-
-- [init](OnPageRedirectChainsResultInfo.md#init)
-- [toJSON](OnPageRedirectChainsResultInfo.md#tojson)
-- [fromJS](OnPageRedirectChainsResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPageRedirectChainsResultInfo(data)
 
-• **new OnPageRedirectChainsResultInfo**(`data?`): [`OnPageRedirectChainsResultInfo`](OnPageRedirectChainsResultInfo.md)
+> **new OnPageRedirectChainsResultInfo**(`data`?): [`OnPageRedirectChainsResultInfo`](OnPageRedirectChainsResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPageRedirectChainsResultInfo`](../interfaces/IOnPageRedirectChainsResultInfo.md) |
+• **data?**: [`IOnPageRedirectChainsResultInfo`](../interfaces/IOnPageRedirectChainsResultInfo.md)
 
 #### Returns
 
 [`OnPageRedirectChainsResultInfo`](OnPageRedirectChainsResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:154501
+main.ts:154509
 
 ## Properties
 
-### crawl\_progress
+### crawl\_progress?
 
-• `Optional` **crawl\_progress**: `string`
+> **`optional`** **crawl\_progress**: `string`
 
 status of the crawling session
 possible values: in_progress, finished
 
 #### Implementation of
 
-[IOnPageRedirectChainsResultInfo](../interfaces/IOnPageRedirectChainsResultInfo.md).[crawl_progress](../interfaces/IOnPageRedirectChainsResultInfo.md#crawl_progress)
+[`IOnPageRedirectChainsResultInfo`](../interfaces/IOnPageRedirectChainsResultInfo.md).[`crawl_progress`](../interfaces/IOnPageRedirectChainsResultInfo.md#crawl_progress)
 
-#### Defined in
+#### Source
 
-main.ts:154489
+main.ts:154497
 
-___
+***
 
-### crawl\_status
+### crawl\_status?
 
-• `Optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
+> **`optional`** **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
 details of the crawling session
 
 #### Implementation of
 
-[IOnPageRedirectChainsResultInfo](../interfaces/IOnPageRedirectChainsResultInfo.md).[crawl_status](../interfaces/IOnPageRedirectChainsResultInfo.md#crawl_status)
+[`IOnPageRedirectChainsResultInfo`](../interfaces/IOnPageRedirectChainsResultInfo.md).[`crawl_status`](../interfaces/IOnPageRedirectChainsResultInfo.md#crawl_status)
 
-#### Defined in
+#### Source
 
-main.ts:154491
+main.ts:154499
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`OnPageRedirectChainsItem`](OnPageRedirectChainsItem.md)[]
+> **`optional`** **items**: [`OnPageRedirectChainsItem`](OnPageRedirectChainsItem.md)[]
 
 items array
 
 #### Implementation of
 
-[IOnPageRedirectChainsResultInfo](../interfaces/IOnPageRedirectChainsResultInfo.md).[items](../interfaces/IOnPageRedirectChainsResultInfo.md#items)
+[`IOnPageRedirectChainsResultInfo`](../interfaces/IOnPageRedirectChainsResultInfo.md).[`items`](../interfaces/IOnPageRedirectChainsResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:154497
+main.ts:154505
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 number of items in the results array
 
 #### Implementation of
 
-[IOnPageRedirectChainsResultInfo](../interfaces/IOnPageRedirectChainsResultInfo.md).[items_count](../interfaces/IOnPageRedirectChainsResultInfo.md#items_count)
+[`IOnPageRedirectChainsResultInfo`](../interfaces/IOnPageRedirectChainsResultInfo.md).[`items_count`](../interfaces/IOnPageRedirectChainsResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:154495
+main.ts:154503
 
-___
+***
 
-### total\_items\_count
+### total\_items\_count?
 
-• `Optional` **total\_items\_count**: `number`
+> **`optional`** **total\_items\_count**: `number`
 
 total number of relevant items in the database
 
 #### Implementation of
 
-[IOnPageRedirectChainsResultInfo](../interfaces/IOnPageRedirectChainsResultInfo.md).[total_items_count](../interfaces/IOnPageRedirectChainsResultInfo.md#total_items_count)
+[`IOnPageRedirectChainsResultInfo`](../interfaces/IOnPageRedirectChainsResultInfo.md).[`total_items_count`](../interfaces/IOnPageRedirectChainsResultInfo.md#total_items_count)
 
-#### Defined in
+#### Source
 
-main.ts:154493
+main.ts:154501
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:154510
+main.ts:154518
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:154535
+main.ts:154543
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPageRedirectChainsResultInfo`](OnPageRedirectChainsResultInfo.md)
+> **`static`** **fromJS**(`data`): [`OnPageRedirectChainsResultInfo`](OnPageRedirectChainsResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`OnPageRedirectChainsResultInfo`](OnPageRedirectChainsResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:154528
+main.ts:154536

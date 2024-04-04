@@ -1,108 +1,96 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKnowledgeGraphHotelsBookingElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IKnowledgeGraphHotelsBookingElement
 
 # Interface: IKnowledgeGraphHotelsBookingElement
 
-## Implemented by
-
-- [`KnowledgeGraphHotelsBookingElement`](../classes/KnowledgeGraphHotelsBookingElement.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [description](IKnowledgeGraphHotelsBookingElement.md#description)
-- [domain](IKnowledgeGraphHotelsBookingElement.md#domain)
-- [is\_paid](IKnowledgeGraphHotelsBookingElement.md#is_paid)
-- [price](IKnowledgeGraphHotelsBookingElement.md#price)
-- [source](IKnowledgeGraphHotelsBookingElement.md#source)
-- [type](IKnowledgeGraphHotelsBookingElement.md#type)
-- [url](IKnowledgeGraphHotelsBookingElement.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description of the results element in SERP
 
-#### Defined in
+#### Source
 
 main.ts:28109
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain where a link points
 
-#### Defined in
+#### Source
 
 main.ts:28113
 
-___
+***
 
-### is\_paid
+### is\_paid?
 
-• `Optional` **is\_paid**: `boolean`
+> **`optional`** **is\_paid**: `boolean`
 
 indicates whether the element is an ad
 
-#### Defined in
+#### Source
 
 main.ts:28118
 
-___
+***
 
-### price
+### price?
 
-• `Optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
+> **`optional`** **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
 pricing details
 contains the pricing details of the product or service featured in the result
 
-#### Defined in
+#### Source
 
 main.ts:28116
 
-___
+***
 
-### source
+### source?
 
-• `Optional` **source**: `string`
+> **`optional`** **source**: `string`
 
 source of additional information about the result
 
-#### Defined in
+#### Source
 
 main.ts:28107
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
 main.ts:28105
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 relevant URL
 
-#### Defined in
+#### Source
 
 main.ts:28111

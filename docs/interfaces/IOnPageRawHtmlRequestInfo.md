@@ -1,27 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageRawHtmlRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IOnPageRawHtmlRequestInfo
 
 # Interface: IOnPageRawHtmlRequestInfo
 
-## Implemented by
-
-- [`OnPageRawHtmlRequestInfo`](../classes/OnPageRawHtmlRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [id](IOnPageRawHtmlRequestInfo.md#id)
-- [url](IOnPageRawHtmlRequestInfo.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 ID of the task
 required field
@@ -29,21 +22,21 @@ you can get this ID in the response of the Task POST endpoint
 example:
 “07131248-1535-0216-1000-17384017ad04”
 
-#### Defined in
+#### Source
 
-main.ts:156620
+main.ts:156628
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 page url
 required field
 the absolute URL of a page to request HTML
 Note: this field is optional if the task was set using the Instant Pages endpoint
 
-#### Defined in
+#### Source
 
-main.ts:156625
+main.ts:156633

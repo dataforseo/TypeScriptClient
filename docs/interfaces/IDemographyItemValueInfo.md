@@ -1,39 +1,32 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDemographyItemValueInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDemographyItemValueInfo
 
 # Interface: IDemographyItemValueInfo
 
-## Implemented by
-
-- [`DemographyItemValueInfo`](../classes/DemographyItemValueInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [type](IDemographyItemValueInfo.md#type)
-- [value](IDemographyItemValueInfo.md#value)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:126267
+main.ts:126275
 
-___
+***
 
-### value
+### value?
 
-• `Optional` **value**: `number`
+> **`optional`** **value**: `number`
 
 keyword popularity rate within the specified age range
 using this value you can understand how popular a keyword is within each age range;
@@ -41,6 +34,6 @@ calculation: we determine the highest popularity value for the relevant keyword 
 a value of 100 is the highest popularity for the term
 a value of 0 means there was not enough data for this term
 
-#### Defined in
+#### Source
 
-main.ts:126273
+main.ts:126281

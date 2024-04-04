@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataTripadvisorLocationsTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataTripadvisorLocationsTaskInfo
 
 # Class: BusinessDataTripadvisorLocationsTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`BusinessDataTripadvisorLocationsTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataTripadvisorLocationsTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](BusinessDataTripadvisorLocationsTaskInfo.md#cost)
-- [data](BusinessDataTripadvisorLocationsTaskInfo.md#data)
-- [id](BusinessDataTripadvisorLocationsTaskInfo.md#id)
-- [path](BusinessDataTripadvisorLocationsTaskInfo.md#path)
-- [result](BusinessDataTripadvisorLocationsTaskInfo.md#result)
-- [result\_count](BusinessDataTripadvisorLocationsTaskInfo.md#result_count)
-- [status\_code](BusinessDataTripadvisorLocationsTaskInfo.md#status_code)
-- [status\_message](BusinessDataTripadvisorLocationsTaskInfo.md#status_message)
-- [time](BusinessDataTripadvisorLocationsTaskInfo.md#time)
-
-### Methods
-
-- [init](BusinessDataTripadvisorLocationsTaskInfo.md#init)
-- [toJSON](BusinessDataTripadvisorLocationsTaskInfo.md#tojson)
-- [fromJS](BusinessDataTripadvisorLocationsTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataTripadvisorLocationsTaskInfo(data)
 
-• **new BusinessDataTripadvisorLocationsTaskInfo**(`data?`): [`BusinessDataTripadvisorLocationsTaskInfo`](BusinessDataTripadvisorLocationsTaskInfo.md)
+> **new BusinessDataTripadvisorLocationsTaskInfo**(`data`?): [`BusinessDataTripadvisorLocationsTaskInfo`](BusinessDataTripadvisorLocationsTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataTripadvisorLocationsTaskInfo`](../interfaces/IBusinessDataTripadvisorLocationsTaskInfo.md) |
+• **data?**: [`IBusinessDataTripadvisorLocationsTaskInfo`](../interfaces/IBusinessDataTripadvisorLocationsTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:205893
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IBusinessDataTripadvisorLocationsTaskInfo](../interfaces/IBusinessDataTripadvisorLocationsTaskInfo.md).[cost](../interfaces/IBusinessDataTripadvisorLocationsTaskInfo.md#cost)
+[`IBusinessDataTripadvisorLocationsTaskInfo`](../interfaces/IBusinessDataTripadvisorLocationsTaskInfo.md).[`cost`](../interfaces/IBusinessDataTripadvisorLocationsTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[IBusinessDataTripadvisorLocationsTaskInfo](../interfaces/IBusinessDataTripadvisorLocationsTaskInfo.md).[data](../interfaces/IBusinessDataTripadvisorLocationsTaskInfo.md#data)
+[`IBusinessDataTripadvisorLocationsTaskInfo`](../interfaces/IBusinessDataTripadvisorLocationsTaskInfo.md).[`data`](../interfaces/IBusinessDataTripadvisorLocationsTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IBusinessDataTripadvisorLocationsTaskInfo](../interfaces/IBusinessDataTripadvisorLocationsTaskInfo.md).[id](../interfaces/IBusinessDataTripadvisorLocationsTaskInfo.md#id)
+[`IBusinessDataTripadvisorLocationsTaskInfo`](../interfaces/IBusinessDataTripadvisorLocationsTaskInfo.md).[`id`](../interfaces/IBusinessDataTripadvisorLocationsTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[IBusinessDataTripadvisorLocationsTaskInfo](../interfaces/IBusinessDataTripadvisorLocationsTaskInfo.md).[path](../interfaces/IBusinessDataTripadvisorLocationsTaskInfo.md#path)
+[`IBusinessDataTripadvisorLocationsTaskInfo`](../interfaces/IBusinessDataTripadvisorLocationsTaskInfo.md).[`path`](../interfaces/IBusinessDataTripadvisorLocationsTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`BusinessDataTripadvisorLocationsResultInfo`](BusinessDataTripadvisorLocationsResultInfo.md)[]
+> **`optional`** **result**: [`BusinessDataTripadvisorLocationsResultInfo`](BusinessDataTripadvisorLocationsResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[IBusinessDataTripadvisorLocationsTaskInfo](../interfaces/IBusinessDataTripadvisorLocationsTaskInfo.md).[result](../interfaces/IBusinessDataTripadvisorLocationsTaskInfo.md#result)
+[`IBusinessDataTripadvisorLocationsTaskInfo`](../interfaces/IBusinessDataTripadvisorLocationsTaskInfo.md).[`result`](../interfaces/IBusinessDataTripadvisorLocationsTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
 main.ts:205889
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[IBusinessDataTripadvisorLocationsTaskInfo](../interfaces/IBusinessDataTripadvisorLocationsTaskInfo.md).[result_count](../interfaces/IBusinessDataTripadvisorLocationsTaskInfo.md#result_count)
+[`IBusinessDataTripadvisorLocationsTaskInfo`](../interfaces/IBusinessDataTripadvisorLocationsTaskInfo.md).[`result_count`](../interfaces/IBusinessDataTripadvisorLocationsTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[IBusinessDataTripadvisorLocationsTaskInfo](../interfaces/IBusinessDataTripadvisorLocationsTaskInfo.md).[status_code](../interfaces/IBusinessDataTripadvisorLocationsTaskInfo.md#status_code)
+[`IBusinessDataTripadvisorLocationsTaskInfo`](../interfaces/IBusinessDataTripadvisorLocationsTaskInfo.md).[`status_code`](../interfaces/IBusinessDataTripadvisorLocationsTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IBusinessDataTripadvisorLocationsTaskInfo](../interfaces/IBusinessDataTripadvisorLocationsTaskInfo.md).[status_message](../interfaces/IBusinessDataTripadvisorLocationsTaskInfo.md#status_message)
+[`IBusinessDataTripadvisorLocationsTaskInfo`](../interfaces/IBusinessDataTripadvisorLocationsTaskInfo.md).[`status_message`](../interfaces/IBusinessDataTripadvisorLocationsTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[IBusinessDataTripadvisorLocationsTaskInfo](../interfaces/IBusinessDataTripadvisorLocationsTaskInfo.md).[time](../interfaces/IBusinessDataTripadvisorLocationsTaskInfo.md#time)
+[`IBusinessDataTripadvisorLocationsTaskInfo`](../interfaces/IBusinessDataTripadvisorLocationsTaskInfo.md).[`time`](../interfaces/IBusinessDataTripadvisorLocationsTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:205897
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:205919
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataTripadvisorLocationsTaskInfo`](BusinessDataTripadvisorLocationsTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataTripadvisorLocationsTaskInfo`](BusinessDataTripadvisorLocationsTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:205912

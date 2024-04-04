@@ -1,136 +1,122 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IHotelsPackElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IHotelsPackElement
 
 # Interface: IHotelsPackElement
 
-## Implemented by
-
-- [`HotelsPackElement`](../classes/HotelsPackElement.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [description](IHotelsPackElement.md#description)
-- [domain](IHotelsPackElement.md#domain)
-- [hotel\_identifier](IHotelsPackElement.md#hotel_identifier)
-- [is\_paid](IHotelsPackElement.md#is_paid)
-- [price](IHotelsPackElement.md#price)
-- [rating](IHotelsPackElement.md#rating)
-- [title](IHotelsPackElement.md#title)
-- [type](IHotelsPackElement.md#type)
-- [url](IHotelsPackElement.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description
 
-#### Defined in
-
-main.ts:33963
-
-___
-
-### domain
-
-• `Optional` **domain**: `string`
-
-website domain
-
-#### Defined in
+#### Source
 
 main.ts:33969
 
-___
+***
 
-### hotel\_identifier
+### domain?
 
-• `Optional` **hotel\_identifier**: `string`
+> **`optional`** **domain**: `string`
+
+website domain
+
+#### Source
+
+main.ts:33975
+
+***
+
+### hotel\_identifier?
+
+> **`optional`** **hotel\_identifier**: `string`
 
 unique hotel identifier
 unique hotel identifier assigned by Google;
 example: "CgoIjaeSlI6CnNpVEAE"
 
-#### Defined in
-
-main.ts:33967
-
-___
-
-### is\_paid
-
-• `Optional` **is\_paid**: `boolean`
-
-indicates whether the element is an ad
-
-#### Defined in
+#### Source
 
 main.ts:33973
 
-___
+***
 
-### price
+### is\_paid?
 
-• `Optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
+> **`optional`** **is\_paid**: `boolean`
+
+indicates whether the element is an ad
+
+#### Source
+
+main.ts:33979
+
+***
+
+### price?
+
+> **`optional`** **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
 price indicated in the element
 
-#### Defined in
+#### Source
 
-main.ts:33959
+main.ts:33965
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
-#### Defined in
+#### Source
 
-main.ts:33976
+main.ts:33982
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
-#### Defined in
+#### Source
 
-main.ts:33961
+main.ts:33967
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:33957
+main.ts:33963
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL
 
-#### Defined in
+#### Source
 
-main.ts:33971
+main.ts:33977

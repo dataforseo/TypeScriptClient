@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAppleBulkAppMetricsLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsAppleBulkAppMetricsLiveRequestInfo
 
 # Class: DataforseoLabsAppleBulkAppMetricsLiveRequestInfo
 
@@ -8,54 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [app\_ids](DataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md#app_ids)
-- [language\_code](DataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md#language_code)
-- [language\_name](DataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md#language_name)
-- [location\_code](DataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md#location_code)
-- [location\_name](DataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md#location_name)
-- [tag](DataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md#tag)
-
-### Methods
-
-- [init](DataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md#init)
-- [toJSON](DataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md#tojson)
-- [fromJS](DataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsAppleBulkAppMetricsLiveRequestInfo(data)
 
-• **new DataforseoLabsAppleBulkAppMetricsLiveRequestInfo**(`data?`): [`DataforseoLabsAppleBulkAppMetricsLiveRequestInfo`](DataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md)
+> **new DataforseoLabsAppleBulkAppMetricsLiveRequestInfo**(`data`?): [`DataforseoLabsAppleBulkAppMetricsLiveRequestInfo`](DataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md) |
+• **data?**: [`IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsAppleBulkAppMetricsLiveRequestInfo`](DataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:112596
+main.ts:112604
 
 ## Properties
 
-### app\_ids
+### app\_ids?
 
-• `Optional` **app\_ids**: `string`[]
+> **`optional`** **app\_ids**: `string`[]
 
 ids of the apps
 required field
@@ -68,17 +49,17 @@ the maximum number of IDs you can specify in this field is 1000
 
 #### Implementation of
 
-[IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md).[app_ids](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md#app_ids)
+[`IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md).[`app_ids`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md#app_ids)
 
-#### Defined in
+#### Source
 
-main.ts:112550
+main.ts:112558
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 required field if you don’t specify language_name
@@ -91,17 +72,17 @@ en
 
 #### Implementation of
 
-[IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md).[language_code](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md#language_code)
+[`IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:112586
+main.ts:112594
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -114,17 +95,17 @@ English
 
 #### Implementation of
 
-[IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md).[language_name](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md#language_name)
+[`IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:112577
+main.ts:112585
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 required field if you don’t specify location_name
@@ -137,17 +118,17 @@ example:
 
 #### Implementation of
 
-[IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md).[location_code](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md#location_code)
+[`IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:112568
+main.ts:112576
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code
@@ -160,17 +141,17 @@ United States
 
 #### Implementation of
 
-[IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md).[location_name](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md#location_name)
+[`IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:112559
+main.ts:112567
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -180,68 +161,62 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md).[tag](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md#tag)
+[`IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:112592
+main.ts:112600
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:112605
+main.ts:112613
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:112631
+main.ts:112639
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsAppleBulkAppMetricsLiveRequestInfo`](DataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsAppleBulkAppMetricsLiveRequestInfo`](DataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsAppleBulkAppMetricsLiveRequestInfo`](DataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:112624
+main.ts:112632

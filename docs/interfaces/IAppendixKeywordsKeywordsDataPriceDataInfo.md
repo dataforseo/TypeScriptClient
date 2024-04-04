@@ -1,38 +1,31 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixKeywordsKeywordsDataPriceDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppendixKeywordsKeywordsDataPriceDataInfo
 
 # Interface: IAppendixKeywordsKeywordsDataPriceDataInfo
 
-## Implemented by
-
-- [`AppendixKeywordsKeywordsDataPriceDataInfo`](../classes/AppendixKeywordsKeywordsDataPriceDataInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [task\_get](IAppendixKeywordsKeywordsDataPriceDataInfo.md#task_get)
-- [task\_post](IAppendixKeywordsKeywordsDataPriceDataInfo.md#task_post)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### task\_get
+### task\_get?
 
-• `Optional` **task\_get**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **task\_get**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:215225
 
-___
+***
 
-### task\_post
+### task\_post?
 
-• `Optional` **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:215226

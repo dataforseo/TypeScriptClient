@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsBingSubdomainsLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsBingSubdomainsLiveResultInfo
 
 # Class: DataforseoLabsBingSubdomainsLiveResultInfo
 
@@ -8,218 +12,188 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsBingSubdomainsLiveResultInfo.md#constructor)
-
-### Properties
-
-- [items](DataforseoLabsBingSubdomainsLiveResultInfo.md#items)
-- [items\_count](DataforseoLabsBingSubdomainsLiveResultInfo.md#items_count)
-- [language\_code](DataforseoLabsBingSubdomainsLiveResultInfo.md#language_code)
-- [location\_code](DataforseoLabsBingSubdomainsLiveResultInfo.md#location_code)
-- [se\_type](DataforseoLabsBingSubdomainsLiveResultInfo.md#se_type)
-- [target](DataforseoLabsBingSubdomainsLiveResultInfo.md#target)
-- [total\_count](DataforseoLabsBingSubdomainsLiveResultInfo.md#total_count)
-
-### Methods
-
-- [init](DataforseoLabsBingSubdomainsLiveResultInfo.md#init)
-- [toJSON](DataforseoLabsBingSubdomainsLiveResultInfo.md#tojson)
-- [fromJS](DataforseoLabsBingSubdomainsLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsBingSubdomainsLiveResultInfo(data)
 
-• **new DataforseoLabsBingSubdomainsLiveResultInfo**(`data?`): [`DataforseoLabsBingSubdomainsLiveResultInfo`](DataforseoLabsBingSubdomainsLiveResultInfo.md)
+> **new DataforseoLabsBingSubdomainsLiveResultInfo**(`data`?): [`DataforseoLabsBingSubdomainsLiveResultInfo`](DataforseoLabsBingSubdomainsLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsBingSubdomainsLiveResultInfo`](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md) |
+• **data?**: [`IDataforseoLabsBingSubdomainsLiveResultInfo`](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsBingSubdomainsLiveResultInfo`](DataforseoLabsBingSubdomainsLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:109975
+main.ts:109983
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`DataforseoLabsSubdomainsLiveItem`](DataforseoLabsSubdomainsLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsSubdomainsLiveItem`](DataforseoLabsSubdomainsLiveItem.md)[]
 
 contains subdomains and related data
 
 #### Implementation of
 
-[IDataforseoLabsBingSubdomainsLiveResultInfo](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md).[items](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md#items)
+[`IDataforseoLabsBingSubdomainsLiveResultInfo`](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:109971
+main.ts:109979
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[IDataforseoLabsBingSubdomainsLiveResultInfo](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md).[items_count](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md#items_count)
+[`IDataforseoLabsBingSubdomainsLiveResultInfo`](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:109969
+main.ts:109977
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsBingSubdomainsLiveResultInfo](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md).[language_code](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md#language_code)
+[`IDataforseoLabsBingSubdomainsLiveResultInfo`](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:109965
+main.ts:109973
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsBingSubdomainsLiveResultInfo](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md).[location_code](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md#location_code)
+[`IDataforseoLabsBingSubdomainsLiveResultInfo`](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:109963
+main.ts:109971
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IDataforseoLabsBingSubdomainsLiveResultInfo](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md).[se_type](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md#se_type)
+[`IDataforseoLabsBingSubdomainsLiveResultInfo`](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:109959
+main.ts:109967
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 domain in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsBingSubdomainsLiveResultInfo](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md).[target](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md#target)
+[`IDataforseoLabsBingSubdomainsLiveResultInfo`](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md).[`target`](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md#target)
 
-#### Defined in
+#### Source
 
-main.ts:109961
+main.ts:109969
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
 #### Implementation of
 
-[IDataforseoLabsBingSubdomainsLiveResultInfo](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md).[total_count](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md#total_count)
+[`IDataforseoLabsBingSubdomainsLiveResultInfo`](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md#total_count)
 
-#### Defined in
+#### Source
 
-main.ts:109967
+main.ts:109975
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:109984
+main.ts:109992
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:110011
+main.ts:110019
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsBingSubdomainsLiveResultInfo`](DataforseoLabsBingSubdomainsLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsBingSubdomainsLiveResultInfo`](DataforseoLabsBingSubdomainsLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsBingSubdomainsLiveResultInfo`](DataforseoLabsBingSubdomainsLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:110004
+main.ts:110012

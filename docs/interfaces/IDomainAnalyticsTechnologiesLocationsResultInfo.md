@@ -1,42 +1,35 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesLocationsResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDomainAnalyticsTechnologiesLocationsResultInfo
 
 # Interface: IDomainAnalyticsTechnologiesLocationsResultInfo
 
-## Implemented by
-
-- [`DomainAnalyticsTechnologiesLocationsResultInfo`](../classes/DomainAnalyticsTechnologiesLocationsResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [country\_iso\_code](IDomainAnalyticsTechnologiesLocationsResultInfo.md#country_iso_code)
-- [location\_name](IDomainAnalyticsTechnologiesLocationsResultInfo.md#location_name)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### country\_iso\_code
+### country\_iso\_code?
 
-• `Optional` **country\_iso\_code**: `string`
+> **`optional`** **country\_iso\_code**: `string`
 
 ISO country code of the location
 
-#### Defined in
+#### Source
 
-main.ts:74194
+main.ts:74202
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 
-#### Defined in
+#### Source
 
-main.ts:74192
+main.ts:74200

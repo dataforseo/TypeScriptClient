@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsIdListResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsIdListResultInfo
 
 # Class: DataforseoLabsIdListResultInfo
 
@@ -8,71 +12,47 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsIdListResultInfo.md#constructor)
-
-### Properties
-
-- [cost](DataforseoLabsIdListResultInfo.md#cost)
-- [datetime\_done](DataforseoLabsIdListResultInfo.md#datetime_done)
-- [datetime\_posted](DataforseoLabsIdListResultInfo.md#datetime_posted)
-- [id](DataforseoLabsIdListResultInfo.md#id)
-- [metadata](DataforseoLabsIdListResultInfo.md#metadata)
-- [status](DataforseoLabsIdListResultInfo.md#status)
-- [url](DataforseoLabsIdListResultInfo.md#url)
-
-### Methods
-
-- [init](DataforseoLabsIdListResultInfo.md#init)
-- [toJSON](DataforseoLabsIdListResultInfo.md#tojson)
-- [fromJS](DataforseoLabsIdListResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsIdListResultInfo(data)
 
-• **new DataforseoLabsIdListResultInfo**(`data?`): [`DataforseoLabsIdListResultInfo`](DataforseoLabsIdListResultInfo.md)
+> **new DataforseoLabsIdListResultInfo**(`data`?): [`DataforseoLabsIdListResultInfo`](DataforseoLabsIdListResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsIdListResultInfo`](../interfaces/IDataforseoLabsIdListResultInfo.md) |
+• **data?**: [`IDataforseoLabsIdListResultInfo`](../interfaces/IDataforseoLabsIdListResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsIdListResultInfo`](DataforseoLabsIdListResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:78949
+main.ts:78957
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 cost of the task, USD
 
 #### Implementation of
 
-[IDataforseoLabsIdListResultInfo](../interfaces/IDataforseoLabsIdListResultInfo.md).[cost](../interfaces/IDataforseoLabsIdListResultInfo.md#cost)
+[`IDataforseoLabsIdListResultInfo`](../interfaces/IDataforseoLabsIdListResultInfo.md).[`cost`](../interfaces/IDataforseoLabsIdListResultInfo.md#cost)
 
-#### Defined in
+#### Source
 
-main.ts:78943
+main.ts:78951
 
-___
+***
 
-### datetime\_done
+### datetime\_done?
 
-• `Optional` **datetime\_done**: `string`
+> **`optional`** **datetime\_done**: `string`
 
 date and time when the task was completed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -81,17 +61,17 @@ example:
 
 #### Implementation of
 
-[IDataforseoLabsIdListResultInfo](../interfaces/IDataforseoLabsIdListResultInfo.md).[datetime_done](../interfaces/IDataforseoLabsIdListResultInfo.md#datetime_done)
+[`IDataforseoLabsIdListResultInfo`](../interfaces/IDataforseoLabsIdListResultInfo.md).[`datetime_done`](../interfaces/IDataforseoLabsIdListResultInfo.md#datetime_done)
 
-#### Defined in
+#### Source
 
-main.ts:78938
+main.ts:78946
 
-___
+***
 
-### datetime\_posted
+### datetime\_posted?
 
-• `Optional` **datetime\_posted**: `string`
+> **`optional`** **datetime\_posted**: `string`
 
 date and time when the task was made
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -100,138 +80,132 @@ example:
 
 #### Implementation of
 
-[IDataforseoLabsIdListResultInfo](../interfaces/IDataforseoLabsIdListResultInfo.md).[datetime_posted](../interfaces/IDataforseoLabsIdListResultInfo.md#datetime_posted)
+[`IDataforseoLabsIdListResultInfo`](../interfaces/IDataforseoLabsIdListResultInfo.md).[`datetime_posted`](../interfaces/IDataforseoLabsIdListResultInfo.md#datetime_posted)
 
-#### Defined in
+#### Source
 
-main.ts:78933
+main.ts:78941
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 id of the task
 
 #### Implementation of
 
-[IDataforseoLabsIdListResultInfo](../interfaces/IDataforseoLabsIdListResultInfo.md).[id](../interfaces/IDataforseoLabsIdListResultInfo.md#id)
+[`IDataforseoLabsIdListResultInfo`](../interfaces/IDataforseoLabsIdListResultInfo.md).[`id`](../interfaces/IDataforseoLabsIdListResultInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:78925
+main.ts:78933
 
-___
+***
 
-### metadata
+### metadata?
 
-• `Optional` **metadata**: `Object`
+> **`optional`** **metadata**: `Object`
 
 contains parameters you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[IDataforseoLabsIdListResultInfo](../interfaces/IDataforseoLabsIdListResultInfo.md).[metadata](../interfaces/IDataforseoLabsIdListResultInfo.md#metadata)
+[`IDataforseoLabsIdListResultInfo`](../interfaces/IDataforseoLabsIdListResultInfo.md).[`metadata`](../interfaces/IDataforseoLabsIdListResultInfo.md#metadata)
 
-#### Defined in
+#### Source
 
-main.ts:78945
+main.ts:78953
 
-___
+***
 
-### status
+### status?
 
-• `Optional` **status**: `string`
+> **`optional`** **status**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IDataforseoLabsIdListResultInfo](../interfaces/IDataforseoLabsIdListResultInfo.md).[status](../interfaces/IDataforseoLabsIdListResultInfo.md#status)
+[`IDataforseoLabsIdListResultInfo`](../interfaces/IDataforseoLabsIdListResultInfo.md).[`status`](../interfaces/IDataforseoLabsIdListResultInfo.md#status)
 
-#### Defined in
+#### Source
 
-main.ts:78941
+main.ts:78949
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL of the task
 URL you used for making an API call
 
 #### Implementation of
 
-[IDataforseoLabsIdListResultInfo](../interfaces/IDataforseoLabsIdListResultInfo.md).[url](../interfaces/IDataforseoLabsIdListResultInfo.md#url)
+[`IDataforseoLabsIdListResultInfo`](../interfaces/IDataforseoLabsIdListResultInfo.md).[`url`](../interfaces/IDataforseoLabsIdListResultInfo.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:78928
+main.ts:78936
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:78958
+main.ts:78966
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:78987
+main.ts:78995
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsIdListResultInfo`](DataforseoLabsIdListResultInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsIdListResultInfo`](DataforseoLabsIdListResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsIdListResultInfo`](DataforseoLabsIdListResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:78980
+main.ts:78988

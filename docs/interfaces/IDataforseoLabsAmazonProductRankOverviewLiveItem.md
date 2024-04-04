@@ -1,57 +1,49 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonProductRankOverviewLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsAmazonProductRankOverviewLiveItem
 
 # Interface: IDataforseoLabsAmazonProductRankOverviewLiveItem
 
-## Implemented by
-
-- [`DataforseoLabsAmazonProductRankOverviewLiveItem`](../classes/DataforseoLabsAmazonProductRankOverviewLiveItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [asin](IDataforseoLabsAmazonProductRankOverviewLiveItem.md#asin)
-- [metrics](IDataforseoLabsAmazonProductRankOverviewLiveItem.md#metrics)
-- [se\_type](IDataforseoLabsAmazonProductRankOverviewLiveItem.md#se_type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### asin
+### asin?
 
-• `Optional` **asin**: `string`
+> **`optional`** **asin**: `string`
 
 ASIN of the product
 unique product identifier on Amazon;
 for more information, refer to this help center guide
 
-#### Defined in
+#### Source
 
-main.ts:103140
+main.ts:103148
 
-___
+***
 
-### metrics
+### metrics?
 
-• `Optional` **metrics**: [`AmazonMetricsBundleInfo`](../classes/AmazonMetricsBundleInfo.md)
+> **`optional`** **metrics**: [`AmazonMetricsBundleInfo`](../classes/AmazonMetricsBundleInfo.md)
 
 average keyword position of the product
 
-#### Defined in
+#### Source
 
-main.ts:103142
+main.ts:103150
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:103136
+main.ts:103144

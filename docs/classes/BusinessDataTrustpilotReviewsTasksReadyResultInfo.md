@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataTrustpilotReviewsTasksReadyResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataTrustpilotReviewsTasksReadyResultInfo
 
 # Class: BusinessDataTrustpilotReviewsTasksReadyResultInfo
 
@@ -8,186 +12,158 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataTrustpilotReviewsTasksReadyResultInfo.md#constructor)
-
-### Properties
-
-- [date\_posted](BusinessDataTrustpilotReviewsTasksReadyResultInfo.md#date_posted)
-- [endpoint](BusinessDataTrustpilotReviewsTasksReadyResultInfo.md#endpoint)
-- [id](BusinessDataTrustpilotReviewsTasksReadyResultInfo.md#id)
-- [se](BusinessDataTrustpilotReviewsTasksReadyResultInfo.md#se)
-- [tag](BusinessDataTrustpilotReviewsTasksReadyResultInfo.md#tag)
-
-### Methods
-
-- [init](BusinessDataTrustpilotReviewsTasksReadyResultInfo.md#init)
-- [toJSON](BusinessDataTrustpilotReviewsTasksReadyResultInfo.md#tojson)
-- [fromJS](BusinessDataTrustpilotReviewsTasksReadyResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataTrustpilotReviewsTasksReadyResultInfo(data)
 
-• **new BusinessDataTrustpilotReviewsTasksReadyResultInfo**(`data?`): [`BusinessDataTrustpilotReviewsTasksReadyResultInfo`](BusinessDataTrustpilotReviewsTasksReadyResultInfo.md)
+> **new BusinessDataTrustpilotReviewsTasksReadyResultInfo**(`data`?): [`BusinessDataTrustpilotReviewsTasksReadyResultInfo`](BusinessDataTrustpilotReviewsTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataTrustpilotReviewsTasksReadyResultInfo`](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResultInfo.md) |
+• **data?**: [`IBusinessDataTrustpilotReviewsTasksReadyResultInfo`](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResultInfo.md)
 
 #### Returns
 
 [`BusinessDataTrustpilotReviewsTasksReadyResultInfo`](BusinessDataTrustpilotReviewsTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:205161
 
 ## Properties
 
-### date\_posted
+### date\_posted?
 
-• `Optional` **date\_posted**: `string`
+> **`optional`** **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
 #### Implementation of
 
-[IBusinessDataTrustpilotReviewsTasksReadyResultInfo](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResultInfo.md).[date_posted](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResultInfo.md#date_posted)
+[`IBusinessDataTrustpilotReviewsTasksReadyResultInfo`](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResultInfo.md).[`date_posted`](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResultInfo.md#date_posted)
 
-#### Defined in
+#### Source
 
 main.ts:205153
 
-___
+***
 
-### endpoint
+### endpoint?
 
-• `Optional` **endpoint**: `string`
+> **`optional`** **endpoint**: `string`
 
 URL for collecting the results of the task
 
 #### Implementation of
 
-[IBusinessDataTrustpilotReviewsTasksReadyResultInfo](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResultInfo.md).[endpoint](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResultInfo.md#endpoint)
+[`IBusinessDataTrustpilotReviewsTasksReadyResultInfo`](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResultInfo.md).[`endpoint`](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResultInfo.md#endpoint)
 
-#### Defined in
+#### Source
 
 main.ts:205157
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IBusinessDataTrustpilotReviewsTasksReadyResultInfo](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResultInfo.md).[id](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResultInfo.md#id)
+[`IBusinessDataTrustpilotReviewsTasksReadyResultInfo`](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResultInfo.md).[`id`](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResultInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:205148
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 can take the following values: trustpilot
 
 #### Implementation of
 
-[IBusinessDataTrustpilotReviewsTasksReadyResultInfo](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResultInfo.md).[se](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResultInfo.md#se)
+[`IBusinessDataTrustpilotReviewsTasksReadyResultInfo`](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResultInfo.md).[`se`](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResultInfo.md#se)
 
-#### Defined in
+#### Source
 
 main.ts:205151
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
 #### Implementation of
 
-[IBusinessDataTrustpilotReviewsTasksReadyResultInfo](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResultInfo.md).[tag](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResultInfo.md#tag)
+[`IBusinessDataTrustpilotReviewsTasksReadyResultInfo`](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResultInfo.md).[`tag`](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResultInfo.md#tag)
 
-#### Defined in
+#### Source
 
 main.ts:205155
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:205170
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:205191
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataTrustpilotReviewsTasksReadyResultInfo`](BusinessDataTrustpilotReviewsTasksReadyResultInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataTrustpilotReviewsTasksReadyResultInfo`](BusinessDataTrustpilotReviewsTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BusinessDataTrustpilotReviewsTasksReadyResultInfo`](BusinessDataTrustpilotReviewsTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:205184

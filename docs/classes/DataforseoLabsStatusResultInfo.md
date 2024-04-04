@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsStatusResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsStatusResultInfo
 
 # Class: DataforseoLabsStatusResultInfo
 
@@ -8,150 +12,124 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsStatusResultInfo.md#constructor)
-
-### Properties
-
-- [amazon](DataforseoLabsStatusResultInfo.md#amazon)
-- [bing](DataforseoLabsStatusResultInfo.md#bing)
-- [google](DataforseoLabsStatusResultInfo.md#google)
-
-### Methods
-
-- [init](DataforseoLabsStatusResultInfo.md#init)
-- [toJSON](DataforseoLabsStatusResultInfo.md#tojson)
-- [fromJS](DataforseoLabsStatusResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsStatusResultInfo(data)
 
-• **new DataforseoLabsStatusResultInfo**(`data?`): [`DataforseoLabsStatusResultInfo`](DataforseoLabsStatusResultInfo.md)
+> **new DataforseoLabsStatusResultInfo**(`data`?): [`DataforseoLabsStatusResultInfo`](DataforseoLabsStatusResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsStatusResultInfo`](../interfaces/IDataforseoLabsStatusResultInfo.md) |
+• **data?**: [`IDataforseoLabsStatusResultInfo`](../interfaces/IDataforseoLabsStatusResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsStatusResultInfo`](DataforseoLabsStatusResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:79213
+main.ts:79221
 
 ## Properties
 
-### amazon
+### amazon?
 
-• `Optional` **amazon**: [`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
+> **`optional`** **amazon**: [`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
 
 update information for the Amazon endpoints
 
 #### Implementation of
 
-[IDataforseoLabsStatusResultInfo](../interfaces/IDataforseoLabsStatusResultInfo.md).[amazon](../interfaces/IDataforseoLabsStatusResultInfo.md#amazon)
+[`IDataforseoLabsStatusResultInfo`](../interfaces/IDataforseoLabsStatusResultInfo.md).[`amazon`](../interfaces/IDataforseoLabsStatusResultInfo.md#amazon)
 
-#### Defined in
+#### Source
 
-main.ts:79209
+main.ts:79217
 
-___
+***
 
-### bing
+### bing?
 
-• `Optional` **bing**: [`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
+> **`optional`** **bing**: [`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
 
 update information for the Bing endpoints
 
 #### Implementation of
 
-[IDataforseoLabsStatusResultInfo](../interfaces/IDataforseoLabsStatusResultInfo.md).[bing](../interfaces/IDataforseoLabsStatusResultInfo.md#bing)
+[`IDataforseoLabsStatusResultInfo`](../interfaces/IDataforseoLabsStatusResultInfo.md).[`bing`](../interfaces/IDataforseoLabsStatusResultInfo.md#bing)
 
-#### Defined in
+#### Source
 
-main.ts:79207
+main.ts:79215
 
-___
+***
 
-### google
+### google?
 
-• `Optional` **google**: [`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
+> **`optional`** **google**: [`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
 
 update information for the Google endpoints
 
 #### Implementation of
 
-[IDataforseoLabsStatusResultInfo](../interfaces/IDataforseoLabsStatusResultInfo.md).[google](../interfaces/IDataforseoLabsStatusResultInfo.md#google)
+[`IDataforseoLabsStatusResultInfo`](../interfaces/IDataforseoLabsStatusResultInfo.md).[`google`](../interfaces/IDataforseoLabsStatusResultInfo.md#google)
 
-#### Defined in
+#### Source
 
-main.ts:79205
+main.ts:79213
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:79222
+main.ts:79230
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:79241
+main.ts:79249
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsStatusResultInfo`](DataforseoLabsStatusResultInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsStatusResultInfo`](DataforseoLabsStatusResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsStatusResultInfo`](DataforseoLabsStatusResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:79234
+main.ts:79242

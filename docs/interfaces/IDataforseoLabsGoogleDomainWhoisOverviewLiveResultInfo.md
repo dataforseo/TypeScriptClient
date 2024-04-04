@@ -1,68 +1,59 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo
 
-## Implemented by
-
-- [`DataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo`](../classes/DataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo.md#items)
-- [items\_count](IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo.md#items_count)
-- [se\_type](IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo.md#se_type)
-- [total\_count](IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo.md#total_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`DataforseoLabsGoogleDomainWhoisOverviewLiveItem`](../classes/DataforseoLabsGoogleDomainWhoisOverviewLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsGoogleDomainWhoisOverviewLiveItem`](../classes/DataforseoLabsGoogleDomainWhoisOverviewLiveItem.md)[]
 
 contains ranking and traffic data
 
-#### Defined in
+#### Source
 
-main.ts:88276
+main.ts:88284
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Defined in
+#### Source
 
-main.ts:88274
+main.ts:88282
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:88270
+main.ts:88278
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
-#### Defined in
+#### Source
 
-main.ts:88272
+main.ts:88280

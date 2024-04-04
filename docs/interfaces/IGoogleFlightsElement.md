@@ -1,55 +1,47 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IGoogleFlightsElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IGoogleFlightsElement
 
 # Interface: IGoogleFlightsElement
 
-## Implemented by
-
-- [`GoogleFlightsElement`](../classes/GoogleFlightsElement.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [description](IGoogleFlightsElement.md#description)
-- [type](IGoogleFlightsElement.md#type)
-- [url](IGoogleFlightsElement.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description
 
-#### Defined in
+#### Source
 
 main.ts:31478
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
 main.ts:31476
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL
 
-#### Defined in
+#### Source
 
 main.ts:31480

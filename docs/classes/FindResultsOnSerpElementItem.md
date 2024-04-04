@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / FindResultsOnSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / FindResultsOnSerpElementItem
 
 # Class: FindResultsOnSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-  ↳ **`FindResultsOnSerpElementItem`**
 
 ## Implements
 
@@ -14,41 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](FindResultsOnSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](FindResultsOnSerpElementItem.md#_discriminator)
-- [items](FindResultsOnSerpElementItem.md#items)
-- [position](FindResultsOnSerpElementItem.md#position)
-- [rank\_absolute](FindResultsOnSerpElementItem.md#rank_absolute)
-- [rank\_group](FindResultsOnSerpElementItem.md#rank_group)
-- [rectangle](FindResultsOnSerpElementItem.md#rectangle)
-- [xpath](FindResultsOnSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](FindResultsOnSerpElementItem.md#init)
-- [toJSON](FindResultsOnSerpElementItem.md#tojson)
-- [fromJS](FindResultsOnSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new FindResultsOnSerpElementItem(data)
 
-• **new FindResultsOnSerpElementItem**(`data?`): [`FindResultsOnSerpElementItem`](FindResultsOnSerpElementItem.md)
+> **new FindResultsOnSerpElementItem**(`data`?): [`FindResultsOnSerpElementItem`](FindResultsOnSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IFindResultsOnSerpElementItem`](../interfaces/IFindResultsOnSerpElementItem.md) |
+• **data?**: [`IFindResultsOnSerpElementItem`](../interfaces/IFindResultsOnSerpElementItem.md)
 
 #### Returns
 
@@ -56,48 +34,48 @@
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[constructor](BaseSerpElementItem.md#constructor)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:33603
+main.ts:33609
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[_discriminator](BaseSerpElementItem.md#_discriminator)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:19788
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`ShortVideosElement`](ShortVideosElement.md)[]
+> **`optional`** **items**: [`ShortVideosElement`](ShortVideosElement.md)[]
 
 additional items present in the element
 if there are none, equals null
 
 #### Implementation of
 
-[IFindResultsOnSerpElementItem](../interfaces/IFindResultsOnSerpElementItem.md).[items](../interfaces/IFindResultsOnSerpElementItem.md#items)
+[`IFindResultsOnSerpElementItem`](../interfaces/IFindResultsOnSerpElementItem.md).[`items`](../interfaces/IFindResultsOnSerpElementItem.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:33595
+main.ts:33601
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -105,17 +83,17 @@ left, right
 
 #### Implementation of
 
-[IFindResultsOnSerpElementItem](../interfaces/IFindResultsOnSerpElementItem.md).[position](../interfaces/IFindResultsOnSerpElementItem.md#position)
+[`IFindResultsOnSerpElementItem`](../interfaces/IFindResultsOnSerpElementItem.md).[`position`](../interfaces/IFindResultsOnSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
-main.ts:33590
+main.ts:33596
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -123,17 +101,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IFindResultsOnSerpElementItem](../interfaces/IFindResultsOnSerpElementItem.md).[rank_absolute](../interfaces/IFindResultsOnSerpElementItem.md#rank_absolute)
+[`IFindResultsOnSerpElementItem`](../interfaces/IFindResultsOnSerpElementItem.md).[`rank_absolute`](../interfaces/IFindResultsOnSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:33586
+main.ts:33592
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
@@ -142,17 +120,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IFindResultsOnSerpElementItem](../interfaces/IFindResultsOnSerpElementItem.md).[rank_group](../interfaces/IFindResultsOnSerpElementItem.md#rank_group)
+[`IFindResultsOnSerpElementItem`](../interfaces/IFindResultsOnSerpElementItem.md).[`rank_group`](../interfaces/IFindResultsOnSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
-main.ts:33582
+main.ts:33588
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -160,39 +138,37 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Implementation of
 
-[IFindResultsOnSerpElementItem](../interfaces/IFindResultsOnSerpElementItem.md).[rectangle](../interfaces/IFindResultsOnSerpElementItem.md#rectangle)
+[`IFindResultsOnSerpElementItem`](../interfaces/IFindResultsOnSerpElementItem.md).[`rectangle`](../interfaces/IFindResultsOnSerpElementItem.md#rectangle)
 
-#### Defined in
+#### Source
 
-main.ts:33599
+main.ts:33605
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IFindResultsOnSerpElementItem](../interfaces/IFindResultsOnSerpElementItem.md).[xpath](../interfaces/IFindResultsOnSerpElementItem.md#xpath)
+[`IFindResultsOnSerpElementItem`](../interfaces/IFindResultsOnSerpElementItem.md).[`xpath`](../interfaces/IFindResultsOnSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
-main.ts:33592
+main.ts:33598
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -200,23 +176,21 @@ main.ts:33592
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[init](BaseSerpElementItem.md#init)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:33608
+main.ts:33614
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -224,23 +198,21 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[toJSON](BaseSerpElementItem.md#tojson)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:33635
+main.ts:33641
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`FindResultsOnSerpElementItem`](FindResultsOnSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`FindResultsOnSerpElementItem`](FindResultsOnSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -248,8 +220,8 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[fromJS](BaseSerpElementItem.md#fromjs)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:33628
+main.ts:33634

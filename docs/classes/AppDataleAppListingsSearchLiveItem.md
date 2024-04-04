@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataleAppListingsSearchLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppDataleAppListingsSearchLiveItem
 
 # Class: AppDataleAppListingsSearchLiveItem
 
@@ -8,152 +12,128 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppDataleAppListingsSearchLiveItem.md#constructor)
-
-### Properties
-
-- [app\_id](AppDataleAppListingsSearchLiveItem.md#app_id)
-- [check\_url](AppDataleAppListingsSearchLiveItem.md#check_url)
-- [item](AppDataleAppListingsSearchLiveItem.md#item)
-- [language\_code](AppDataleAppListingsSearchLiveItem.md#language_code)
-- [location\_code](AppDataleAppListingsSearchLiveItem.md#location_code)
-- [se\_domain](AppDataleAppListingsSearchLiveItem.md#se_domain)
-- [time\_update](AppDataleAppListingsSearchLiveItem.md#time_update)
-
-### Methods
-
-- [init](AppDataleAppListingsSearchLiveItem.md#init)
-- [toJSON](AppDataleAppListingsSearchLiveItem.md#tojson)
-- [fromJS](AppDataleAppListingsSearchLiveItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppDataleAppListingsSearchLiveItem(data)
 
-• **new AppDataleAppListingsSearchLiveItem**(`data?`): [`AppDataleAppListingsSearchLiveItem`](AppDataleAppListingsSearchLiveItem.md)
+> **new AppDataleAppListingsSearchLiveItem**(`data`?): [`AppDataleAppListingsSearchLiveItem`](AppDataleAppListingsSearchLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppDataleAppListingsSearchLiveItem`](../interfaces/IAppDataleAppListingsSearchLiveItem.md) |
+• **data?**: [`IAppDataleAppListingsSearchLiveItem`](../interfaces/IAppDataleAppListingsSearchLiveItem.md)
 
 #### Returns
 
 [`AppDataleAppListingsSearchLiveItem`](AppDataleAppListingsSearchLiveItem.md)
 
-#### Defined in
+#### Source
 
 main.ts:187749
 
 ## Properties
 
-### app\_id
+### app\_id?
 
-• `Optional` **app\_id**: `string`
+> **`optional`** **app\_id**: `string`
 
 ID of the returned app
 
 #### Implementation of
 
-[IAppDataleAppListingsSearchLiveItem](../interfaces/IAppDataleAppListingsSearchLiveItem.md).[app_id](../interfaces/IAppDataleAppListingsSearchLiveItem.md#app_id)
+[`IAppDataleAppListingsSearchLiveItem`](../interfaces/IAppDataleAppListingsSearchLiveItem.md).[`app_id`](../interfaces/IAppDataleAppListingsSearchLiveItem.md#app_id)
 
-#### Defined in
+#### Source
 
 main.ts:187729
 
-___
+***
 
-### check\_url
+### check\_url?
 
-• `Optional` **check\_url**: `string`
+> **`optional`** **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
 
 #### Implementation of
 
-[IAppDataleAppListingsSearchLiveItem](../interfaces/IAppDataleAppListingsSearchLiveItem.md).[check_url](../interfaces/IAppDataleAppListingsSearchLiveItem.md#check_url)
+[`IAppDataleAppListingsSearchLiveItem`](../interfaces/IAppDataleAppListingsSearchLiveItem.md).[`check_url`](../interfaces/IAppDataleAppListingsSearchLiveItem.md#check_url)
 
-#### Defined in
+#### Source
 
 main.ts:187738
 
-___
+***
 
-### item
+### item?
 
-• `Optional` **item**: [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)
+> **`optional`** **item**: [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)
 
 detailed information about the app
 
 #### Implementation of
 
-[IAppDataleAppListingsSearchLiveItem](../interfaces/IAppDataleAppListingsSearchLiveItem.md).[item](../interfaces/IAppDataleAppListingsSearchLiveItem.md#item)
+[`IAppDataleAppListingsSearchLiveItem`](../interfaces/IAppDataleAppListingsSearchLiveItem.md).[`item`](../interfaces/IAppDataleAppListingsSearchLiveItem.md#item)
 
-#### Defined in
+#### Source
 
 main.ts:187745
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[IAppDataleAppListingsSearchLiveItem](../interfaces/IAppDataleAppListingsSearchLiveItem.md).[language_code](../interfaces/IAppDataleAppListingsSearchLiveItem.md#language_code)
+[`IAppDataleAppListingsSearchLiveItem`](../interfaces/IAppDataleAppListingsSearchLiveItem.md).[`language_code`](../interfaces/IAppDataleAppListingsSearchLiveItem.md#language_code)
 
-#### Defined in
+#### Source
 
 main.ts:187735
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[IAppDataleAppListingsSearchLiveItem](../interfaces/IAppDataleAppListingsSearchLiveItem.md).[location_code](../interfaces/IAppDataleAppListingsSearchLiveItem.md#location_code)
+[`IAppDataleAppListingsSearchLiveItem`](../interfaces/IAppDataleAppListingsSearchLiveItem.md).[`location_code`](../interfaces/IAppDataleAppListingsSearchLiveItem.md#location_code)
 
-#### Defined in
+#### Source
 
 main.ts:187733
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
 #### Implementation of
 
-[IAppDataleAppListingsSearchLiveItem](../interfaces/IAppDataleAppListingsSearchLiveItem.md).[se_domain](../interfaces/IAppDataleAppListingsSearchLiveItem.md#se_domain)
+[`IAppDataleAppListingsSearchLiveItem`](../interfaces/IAppDataleAppListingsSearchLiveItem.md).[`se_domain`](../interfaces/IAppDataleAppListingsSearchLiveItem.md#se_domain)
 
-#### Defined in
+#### Source
 
 main.ts:187731
 
-___
+***
 
-### time\_update
+### time\_update?
 
-• `Optional` **time\_update**: `string`
+> **`optional`** **time\_update**: `string`
 
 date and time when SERP data was last updated
 in the ISO 8601 format: “YYYY-MM-DDThh:mm:ss.sssssssZ”
@@ -162,68 +142,62 @@ example:
 
 #### Implementation of
 
-[IAppDataleAppListingsSearchLiveItem](../interfaces/IAppDataleAppListingsSearchLiveItem.md).[time_update](../interfaces/IAppDataleAppListingsSearchLiveItem.md#time_update)
+[`IAppDataleAppListingsSearchLiveItem`](../interfaces/IAppDataleAppListingsSearchLiveItem.md).[`time_update`](../interfaces/IAppDataleAppListingsSearchLiveItem.md#time_update)
 
-#### Defined in
+#### Source
 
 main.ts:187743
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:187758
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:187781
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppDataleAppListingsSearchLiveItem`](AppDataleAppListingsSearchLiveItem.md)
+> **`static`** **fromJS**(`data`): [`AppDataleAppListingsSearchLiveItem`](AppDataleAppListingsSearchLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppDataleAppListingsSearchLiveItem`](AppDataleAppListingsSearchLiveItem.md)
 
-#### Defined in
+#### Source
 
 main.ts:187774

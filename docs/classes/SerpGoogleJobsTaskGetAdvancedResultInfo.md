@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleJobsTaskGetAdvancedResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleJobsTaskGetAdvancedResultInfo
 
 # Class: SerpGoogleJobsTaskGetAdvancedResultInfo
 
@@ -8,77 +12,48 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleJobsTaskGetAdvancedResultInfo.md#constructor)
-
-### Properties
-
-- [check\_url](SerpGoogleJobsTaskGetAdvancedResultInfo.md#check_url)
-- [datetime](SerpGoogleJobsTaskGetAdvancedResultInfo.md#datetime)
-- [item\_types](SerpGoogleJobsTaskGetAdvancedResultInfo.md#item_types)
-- [items](SerpGoogleJobsTaskGetAdvancedResultInfo.md#items)
-- [items\_count](SerpGoogleJobsTaskGetAdvancedResultInfo.md#items_count)
-- [keyword](SerpGoogleJobsTaskGetAdvancedResultInfo.md#keyword)
-- [language\_code](SerpGoogleJobsTaskGetAdvancedResultInfo.md#language_code)
-- [location\_code](SerpGoogleJobsTaskGetAdvancedResultInfo.md#location_code)
-- [se\_domain](SerpGoogleJobsTaskGetAdvancedResultInfo.md#se_domain)
-- [se\_results\_count](SerpGoogleJobsTaskGetAdvancedResultInfo.md#se_results_count)
-- [spell](SerpGoogleJobsTaskGetAdvancedResultInfo.md#spell)
-- [type](SerpGoogleJobsTaskGetAdvancedResultInfo.md#type)
-
-### Methods
-
-- [init](SerpGoogleJobsTaskGetAdvancedResultInfo.md#init)
-- [toJSON](SerpGoogleJobsTaskGetAdvancedResultInfo.md#tojson)
-- [fromJS](SerpGoogleJobsTaskGetAdvancedResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleJobsTaskGetAdvancedResultInfo(data)
 
-• **new SerpGoogleJobsTaskGetAdvancedResultInfo**(`data?`): [`SerpGoogleJobsTaskGetAdvancedResultInfo`](SerpGoogleJobsTaskGetAdvancedResultInfo.md)
+> **new SerpGoogleJobsTaskGetAdvancedResultInfo**(`data`?): [`SerpGoogleJobsTaskGetAdvancedResultInfo`](SerpGoogleJobsTaskGetAdvancedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleJobsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md) |
+• **data?**: [`ISerpGoogleJobsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
 [`SerpGoogleJobsTaskGetAdvancedResultInfo`](SerpGoogleJobsTaskGetAdvancedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:50060
+main.ts:50068
 
 ## Properties
 
-### check\_url
+### check\_url?
 
-• `Optional` **check\_url**: `string`
+> **`optional`** **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
 
 #### Implementation of
 
-[ISerpGoogleJobsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md).[check_url](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md#check_url)
+[`ISerpGoogleJobsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md).[`check_url`](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md#check_url)
 
-#### Defined in
+#### Source
 
-main.ts:50037
+main.ts:50045
 
-___
+***
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -87,17 +62,17 @@ example:
 
 #### Implementation of
 
-[ISerpGoogleJobsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md).[datetime](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md#datetime)
+[`ISerpGoogleJobsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md).[`datetime`](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
-main.ts:50042
+main.ts:50050
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -106,214 +81,208 @@ google_jobs_item
 
 #### Implementation of
 
-[ISerpGoogleJobsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md).[item_types](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md#item_types)
+[`ISerpGoogleJobsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md).[`item_types`](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md#item_types)
 
-#### Defined in
+#### Source
 
-main.ts:50050
+main.ts:50058
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
+> **`optional`** **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
 elements of search results found in SERP
 
 #### Implementation of
 
-[ISerpGoogleJobsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md).[items](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md#items)
+[`ISerpGoogleJobsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md).[`items`](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:50056
+main.ts:50064
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[ISerpGoogleJobsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md).[items_count](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md#items_count)
+[`ISerpGoogleJobsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md).[`items_count`](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:50054
+main.ts:50062
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword received in a POST array
 the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
-[ISerpGoogleJobsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md).[keyword](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md#keyword)
+[`ISerpGoogleJobsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md).[`keyword`](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:50026
+main.ts:50034
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[ISerpGoogleJobsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md).[language_code](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md#language_code)
+[`ISerpGoogleJobsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md).[`language_code`](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:50034
+main.ts:50042
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[ISerpGoogleJobsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md).[location_code](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md#location_code)
+[`ISerpGoogleJobsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md).[`location_code`](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:50032
+main.ts:50040
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
 #### Implementation of
 
-[ISerpGoogleJobsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md).[se_domain](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md#se_domain)
+[`ISerpGoogleJobsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md).[`se_domain`](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md#se_domain)
 
-#### Defined in
+#### Source
 
-main.ts:50030
+main.ts:50038
 
-___
+***
 
-### se\_results\_count
+### se\_results\_count?
 
-• `Optional` **se\_results\_count**: `number`
+> **`optional`** **se\_results\_count**: `number`
 
 total number of results in SERP
 
 #### Implementation of
 
-[ISerpGoogleJobsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md).[se_results_count](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md#se_results_count)
+[`ISerpGoogleJobsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md).[`se_results_count`](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md#se_results_count)
 
-#### Defined in
+#### Source
 
-main.ts:50052
+main.ts:50060
 
-___
+***
 
-### spell
+### spell?
 
-• `Optional` **spell**: [`SpellInfo`](SpellInfo.md)
+> **`optional`** **spell**: [`SpellInfo`](SpellInfo.md)
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
 
 #### Implementation of
 
-[ISerpGoogleJobsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md).[spell](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md#spell)
+[`ISerpGoogleJobsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md).[`spell`](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md#spell)
 
-#### Defined in
+#### Source
 
-main.ts:50045
+main.ts:50053
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[ISerpGoogleJobsTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md).[type](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md#type)
+[`ISerpGoogleJobsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md).[`type`](../interfaces/ISerpGoogleJobsTaskGetAdvancedResultInfo.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:50028
+main.ts:50036
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:50069
+main.ts:50077
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:50105
+main.ts:50113
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleJobsTaskGetAdvancedResultInfo`](SerpGoogleJobsTaskGetAdvancedResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleJobsTaskGetAdvancedResultInfo`](SerpGoogleJobsTaskGetAdvancedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpGoogleJobsTaskGetAdvancedResultInfo`](SerpGoogleJobsTaskGetAdvancedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:50098
+main.ts:50106

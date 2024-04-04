@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ProductInformationDetailsItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ProductInformationDetailsItem
 
 # Class: ProductInformationDetailsItem
 
-## Hierarchy
+## Extends
 
 - [`BaseProductInformationItem`](BaseProductInformationItem.md)
-
-  ↳ **`ProductInformationDetailsItem`**
 
 ## Implements
 
@@ -14,37 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ProductInformationDetailsItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](ProductInformationDetailsItem.md#_discriminator)
-- [body](ProductInformationDetailsItem.md#body)
-- [section\_name](ProductInformationDetailsItem.md#section_name)
-
-### Methods
-
-- [init](ProductInformationDetailsItem.md#init)
-- [toJSON](ProductInformationDetailsItem.md#tojson)
-- [fromJS](ProductInformationDetailsItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ProductInformationDetailsItem(data)
 
-• **new ProductInformationDetailsItem**(`data?`): [`ProductInformationDetailsItem`](ProductInformationDetailsItem.md)
+> **new ProductInformationDetailsItem**(`data`?): [`ProductInformationDetailsItem`](ProductInformationDetailsItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IProductInformationDetailsItem`](../interfaces/IProductInformationDetailsItem.md) |
+• **data?**: [`IProductInformationDetailsItem`](../interfaces/IProductInformationDetailsItem.md)
 
 #### Returns
 
@@ -52,9 +34,9 @@
 
 #### Overrides
 
-[BaseProductInformationItem](BaseProductInformationItem.md).[constructor](BaseProductInformationItem.md#constructor)
+[`BaseProductInformationItem`](BaseProductInformationItem.md).[`constructor`](BaseProductInformationItem.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:177895
 
@@ -62,63 +44,61 @@ main.ts:177895
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseProductInformationItem](BaseProductInformationItem.md).[_discriminator](BaseProductInformationItem.md#_discriminator)
+[`BaseProductInformationItem`](BaseProductInformationItem.md).[`_discriminator`](BaseProductInformationItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:22234
 
-___
+***
 
-### body
+### body?
 
-• `Optional` **body**: `Object`
+> **`optional`** **body**: `Object`
 
 contains information specified about the product within the section_name
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
 #### Implementation of
 
-[IProductInformationDetailsItem](../interfaces/IProductInformationDetailsItem.md).[body](../interfaces/IProductInformationDetailsItem.md#body)
+[`IProductInformationDetailsItem`](../interfaces/IProductInformationDetailsItem.md).[`body`](../interfaces/IProductInformationDetailsItem.md#body)
 
-#### Defined in
+#### Source
 
 main.ts:177891
 
-___
+***
 
-### section\_name
+### section\_name?
 
-• `Optional` **section\_name**: `string`
+> **`optional`** **section\_name**: `string`
 
 name of the section related to product information specified in the contents
 
 #### Implementation of
 
-[IProductInformationDetailsItem](../interfaces/IProductInformationDetailsItem.md).[section_name](../interfaces/IProductInformationDetailsItem.md#section_name)
+[`IProductInformationDetailsItem`](../interfaces/IProductInformationDetailsItem.md).[`section_name`](../interfaces/IProductInformationDetailsItem.md#section_name)
 
-#### Defined in
+#### Source
 
 main.ts:177889
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -126,23 +106,21 @@ main.ts:177889
 
 #### Overrides
 
-[BaseProductInformationItem](BaseProductInformationItem.md).[init](BaseProductInformationItem.md#init)
+[`BaseProductInformationItem`](BaseProductInformationItem.md).[`init`](BaseProductInformationItem.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:177900
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -150,23 +128,21 @@ ___
 
 #### Overrides
 
-[BaseProductInformationItem](BaseProductInformationItem.md).[toJSON](BaseProductInformationItem.md#tojson)
+[`BaseProductInformationItem`](BaseProductInformationItem.md).[`toJSON`](BaseProductInformationItem.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:177925
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ProductInformationDetailsItem`](ProductInformationDetailsItem.md)
+> **`static`** **fromJS**(`data`): [`ProductInformationDetailsItem`](ProductInformationDetailsItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -174,8 +150,8 @@ ___
 
 #### Overrides
 
-[BaseProductInformationItem](BaseProductInformationItem.md).[fromJS](BaseProductInformationItem.md#fromjs)
+[`BaseProductInformationItem`](BaseProductInformationItem.md).[`fromJS`](BaseProductInformationItem.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:177918

@@ -1,42 +1,35 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ILocalJustificationInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ILocalJustificationInfo
 
 # Interface: ILocalJustificationInfo
 
-## Implemented by
-
-- [`LocalJustificationInfo`](../classes/LocalJustificationInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [text](ILocalJustificationInfo.md#text)
-- [type](ILocalJustificationInfo.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### text
+### text?
 
-• `Optional` **text**: `string`
+> **`optional`** **text**: `string`
 
 text snippet of local justification
 
-#### Defined in
+#### Source
 
-main.ts:39160
+main.ts:39166
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:39158
+main.ts:39164

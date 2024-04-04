@@ -1,28 +1,22 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BaseAmazonSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BaseAmazonSerpElementItem
 
 # Class: BaseAmazonSerpElementItem
 
-## Hierarchy
+## Extended by
 
-- **`BaseAmazonSerpElementItem`**
-
-  ↳ [`AmazonAmazonSerpSerpElementItem`](AmazonAmazonSerpSerpElementItem.md)
-
-  ↳ [`AmazonAmazonPaidSerpElementItem`](AmazonAmazonPaidSerpElementItem.md)
-
-  ↳ [`AmazonEditorialRecommendationsSerpElementItem`](AmazonEditorialRecommendationsSerpElementItem.md)
-
-  ↳ [`AmazonRelatedSearchesSerpElementItem`](AmazonRelatedSearchesSerpElementItem.md)
-
-  ↳ [`AmazonTopRatedFromOurBrandsSerpElementItem`](AmazonTopRatedFromOurBrandsSerpElementItem.md)
-
-  ↳ [`AmazonAmazonProductInfoSerpElementItem`](AmazonAmazonProductInfoSerpElementItem.md)
-
-  ↳ [`AmazonAmazonSellerMainItemSerpElementItem`](AmazonAmazonSellerMainItemSerpElementItem.md)
-
-  ↳ [`AmazonAmazonSellerItemSerpElementItem`](AmazonAmazonSellerItemSerpElementItem.md)
-
-  ↳ [`AmazonAmazonReviewItemSerpElementItem`](AmazonAmazonReviewItemSerpElementItem.md)
+- [`AmazonAmazonSerpSerpElementItem`](AmazonAmazonSerpSerpElementItem.md)
+- [`AmazonAmazonPaidSerpElementItem`](AmazonAmazonPaidSerpElementItem.md)
+- [`AmazonEditorialRecommendationsSerpElementItem`](AmazonEditorialRecommendationsSerpElementItem.md)
+- [`AmazonRelatedSearchesSerpElementItem`](AmazonRelatedSearchesSerpElementItem.md)
+- [`AmazonTopRatedFromOurBrandsSerpElementItem`](AmazonTopRatedFromOurBrandsSerpElementItem.md)
+- [`AmazonAmazonProductInfoSerpElementItem`](AmazonAmazonProductInfoSerpElementItem.md)
+- [`AmazonAmazonSellerMainItemSerpElementItem`](AmazonAmazonSellerMainItemSerpElementItem.md)
+- [`AmazonAmazonSellerItemSerpElementItem`](AmazonAmazonSellerItemSerpElementItem.md)
+- [`AmazonAmazonReviewItemSerpElementItem`](AmazonAmazonReviewItemSerpElementItem.md)
 
 ## Implements
 
@@ -30,41 +24,23 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BaseAmazonSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](BaseAmazonSerpElementItem.md#_discriminator)
-
-### Methods
-
-- [init](BaseAmazonSerpElementItem.md#init)
-- [toJSON](BaseAmazonSerpElementItem.md#tojson)
-- [fromJS](BaseAmazonSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BaseAmazonSerpElementItem(data)
 
-• **new BaseAmazonSerpElementItem**(`data?`): [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)
+> **new BaseAmazonSerpElementItem**(`data`?): [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBaseAmazonSerpElementItem`](../interfaces/IBaseAmazonSerpElementItem.md) |
+• **data?**: [`IBaseAmazonSerpElementItem`](../interfaces/IBaseAmazonSerpElementItem.md)
 
 #### Returns
 
 [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)
 
-#### Defined in
+#### Source
 
 main.ts:21277
 
@@ -72,68 +48,62 @@ main.ts:21277
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
-#### Defined in
+#### Source
 
 main.ts:21275
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:21287
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:21348
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)
 
-#### Defined in
+#### Source
 
 main.ts:21296

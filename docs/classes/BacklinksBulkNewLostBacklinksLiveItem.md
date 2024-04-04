@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksBulkNewLostBacklinksLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BacklinksBulkNewLostBacklinksLiveItem
 
 # Class: BacklinksBulkNewLostBacklinksLiveItem
 
@@ -8,152 +12,126 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BacklinksBulkNewLostBacklinksLiveItem.md#constructor)
-
-### Properties
-
-- [lost\_backlinks](BacklinksBulkNewLostBacklinksLiveItem.md#lost_backlinks)
-- [new\_backlinks](BacklinksBulkNewLostBacklinksLiveItem.md#new_backlinks)
-- [target](BacklinksBulkNewLostBacklinksLiveItem.md#target)
-
-### Methods
-
-- [init](BacklinksBulkNewLostBacklinksLiveItem.md#init)
-- [toJSON](BacklinksBulkNewLostBacklinksLiveItem.md#tojson)
-- [fromJS](BacklinksBulkNewLostBacklinksLiveItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BacklinksBulkNewLostBacklinksLiveItem(data)
 
-• **new BacklinksBulkNewLostBacklinksLiveItem**(`data?`): [`BacklinksBulkNewLostBacklinksLiveItem`](BacklinksBulkNewLostBacklinksLiveItem.md)
+> **new BacklinksBulkNewLostBacklinksLiveItem**(`data`?): [`BacklinksBulkNewLostBacklinksLiveItem`](BacklinksBulkNewLostBacklinksLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBacklinksBulkNewLostBacklinksLiveItem`](../interfaces/IBacklinksBulkNewLostBacklinksLiveItem.md) |
+• **data?**: [`IBacklinksBulkNewLostBacklinksLiveItem`](../interfaces/IBacklinksBulkNewLostBacklinksLiveItem.md)
 
 #### Returns
 
 [`BacklinksBulkNewLostBacklinksLiveItem`](BacklinksBulkNewLostBacklinksLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:146248
+main.ts:146256
 
 ## Properties
 
-### lost\_backlinks
+### lost\_backlinks?
 
-• `Optional` **lost\_backlinks**: `number`
+> **`optional`** **lost\_backlinks**: `number`
 
 number of lost backlinks
 number of lost backlinks of the target
 
 #### Implementation of
 
-[IBacklinksBulkNewLostBacklinksLiveItem](../interfaces/IBacklinksBulkNewLostBacklinksLiveItem.md).[lost_backlinks](../interfaces/IBacklinksBulkNewLostBacklinksLiveItem.md#lost_backlinks)
+[`IBacklinksBulkNewLostBacklinksLiveItem`](../interfaces/IBacklinksBulkNewLostBacklinksLiveItem.md).[`lost_backlinks`](../interfaces/IBacklinksBulkNewLostBacklinksLiveItem.md#lost_backlinks)
 
-#### Defined in
+#### Source
 
-main.ts:146244
+main.ts:146252
 
-___
+***
 
-### new\_backlinks
+### new\_backlinks?
 
-• `Optional` **new\_backlinks**: `number`
+> **`optional`** **new\_backlinks**: `number`
 
 number of new backlinks
 number of new backlinks pointing to the target
 
 #### Implementation of
 
-[IBacklinksBulkNewLostBacklinksLiveItem](../interfaces/IBacklinksBulkNewLostBacklinksLiveItem.md).[new_backlinks](../interfaces/IBacklinksBulkNewLostBacklinksLiveItem.md#new_backlinks)
+[`IBacklinksBulkNewLostBacklinksLiveItem`](../interfaces/IBacklinksBulkNewLostBacklinksLiveItem.md).[`new_backlinks`](../interfaces/IBacklinksBulkNewLostBacklinksLiveItem.md#new_backlinks)
 
-#### Defined in
+#### Source
 
-main.ts:146241
+main.ts:146249
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 domain, subdomain or webpage from a POST array
 
 #### Implementation of
 
-[IBacklinksBulkNewLostBacklinksLiveItem](../interfaces/IBacklinksBulkNewLostBacklinksLiveItem.md).[target](../interfaces/IBacklinksBulkNewLostBacklinksLiveItem.md#target)
+[`IBacklinksBulkNewLostBacklinksLiveItem`](../interfaces/IBacklinksBulkNewLostBacklinksLiveItem.md).[`target`](../interfaces/IBacklinksBulkNewLostBacklinksLiveItem.md#target)
 
-#### Defined in
+#### Source
 
-main.ts:146238
+main.ts:146246
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:146257
+main.ts:146265
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:146276
+main.ts:146284
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BacklinksBulkNewLostBacklinksLiveItem`](BacklinksBulkNewLostBacklinksLiveItem.md)
+> **`static`** **fromJS**(`data`): [`BacklinksBulkNewLostBacklinksLiveItem`](BacklinksBulkNewLostBacklinksLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BacklinksBulkNewLostBacklinksLiveItem`](BacklinksBulkNewLostBacklinksLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:146269
+main.ts:146277

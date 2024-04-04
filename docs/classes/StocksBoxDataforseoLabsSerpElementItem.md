@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / StocksBoxDataforseoLabsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / StocksBoxDataforseoLabsSerpElementItem
 
 # Class: StocksBoxDataforseoLabsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
-
-  ↳ **`StocksBoxDataforseoLabsSerpElementItem`**
 
 ## Implements
 
@@ -14,47 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](StocksBoxDataforseoLabsSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](StocksBoxDataforseoLabsSerpElementItem.md#_discriminator)
-- [domain](StocksBoxDataforseoLabsSerpElementItem.md#domain)
-- [graph](StocksBoxDataforseoLabsSerpElementItem.md#graph)
-- [position](StocksBoxDataforseoLabsSerpElementItem.md#position)
-- [price](StocksBoxDataforseoLabsSerpElementItem.md#price)
-- [rank\_absolute](StocksBoxDataforseoLabsSerpElementItem.md#rank_absolute)
-- [rank\_group](StocksBoxDataforseoLabsSerpElementItem.md#rank_group)
-- [snippet](StocksBoxDataforseoLabsSerpElementItem.md#snippet)
-- [source](StocksBoxDataforseoLabsSerpElementItem.md#source)
-- [table](StocksBoxDataforseoLabsSerpElementItem.md#table)
-- [title](StocksBoxDataforseoLabsSerpElementItem.md#title)
-- [url](StocksBoxDataforseoLabsSerpElementItem.md#url)
-- [xpath](StocksBoxDataforseoLabsSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](StocksBoxDataforseoLabsSerpElementItem.md#init)
-- [toJSON](StocksBoxDataforseoLabsSerpElementItem.md#tojson)
-- [fromJS](StocksBoxDataforseoLabsSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new StocksBoxDataforseoLabsSerpElementItem(data)
 
-• **new StocksBoxDataforseoLabsSerpElementItem**(`data?`): [`StocksBoxDataforseoLabsSerpElementItem`](StocksBoxDataforseoLabsSerpElementItem.md)
+> **new StocksBoxDataforseoLabsSerpElementItem**(`data`?): [`StocksBoxDataforseoLabsSerpElementItem`](StocksBoxDataforseoLabsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IStocksBoxDataforseoLabsSerpElementItem`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md) |
+• **data?**: [`IStocksBoxDataforseoLabsSerpElementItem`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md)
 
 #### Returns
 
@@ -62,63 +34,63 @@
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[constructor](BaseDataforseoLabsSerpElementItem.md#constructor)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:98100
+main.ts:98108
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[_discriminator](BaseDataforseoLabsSerpElementItem.md#_discriminator)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`_discriminator`](BaseDataforseoLabsSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:20171
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain where a link points
 
 #### Implementation of
 
-[IStocksBoxDataforseoLabsSerpElementItem](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md).[domain](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md#domain)
+[`IStocksBoxDataforseoLabsSerpElementItem`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md).[`domain`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md#domain)
 
-#### Defined in
+#### Source
 
-main.ts:98091
+main.ts:98099
 
-___
+***
 
-### graph
+### graph?
 
-• `Optional` **graph**: [`Graph`](Graph.md)
+> **`optional`** **graph**: [`Graph`](Graph.md)
 
 contains data provided in the graph of the element
 
 #### Implementation of
 
-[IStocksBoxDataforseoLabsSerpElementItem](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md).[graph](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md#graph)
+[`IStocksBoxDataforseoLabsSerpElementItem`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md).[`graph`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md#graph)
 
-#### Defined in
+#### Source
 
-main.ts:98096
+main.ts:98104
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -126,171 +98,169 @@ left, right
 
 #### Implementation of
 
-[IStocksBoxDataforseoLabsSerpElementItem](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md).[position](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md#position)
+[`IStocksBoxDataforseoLabsSerpElementItem`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md).[`position`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
-main.ts:98076
+main.ts:98084
 
-___
+***
 
-### price
+### price?
 
-• `Optional` **price**: [`PriceInfo`](PriceInfo.md)
+> **`optional`** **price**: [`PriceInfo`](PriceInfo.md)
 
 price of the shopping element
 
 #### Implementation of
 
-[IStocksBoxDataforseoLabsSerpElementItem](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md).[price](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md#price)
+[`IStocksBoxDataforseoLabsSerpElementItem`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md).[`price`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md#price)
 
-#### Defined in
+#### Source
 
-main.ts:98087
+main.ts:98095
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
 #### Implementation of
 
-[IStocksBoxDataforseoLabsSerpElementItem](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md).[rank_absolute](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md#rank_absolute)
+[`IStocksBoxDataforseoLabsSerpElementItem`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md).[`rank_absolute`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:98072
+main.ts:98080
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
-[IStocksBoxDataforseoLabsSerpElementItem](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md).[rank_group](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md#rank_group)
+[`IStocksBoxDataforseoLabsSerpElementItem`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md).[`rank_group`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
-main.ts:98069
+main.ts:98077
 
-___
+***
 
-### snippet
+### snippet?
 
-• `Optional` **snippet**: `string`
+> **`optional`** **snippet**: `string`
 
 text alongside the link title
 
 #### Implementation of
 
-[IStocksBoxDataforseoLabsSerpElementItem](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md).[snippet](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md#snippet)
+[`IStocksBoxDataforseoLabsSerpElementItem`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md).[`snippet`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md#snippet)
 
-#### Defined in
+#### Source
 
-main.ts:98085
+main.ts:98093
 
-___
+***
 
-### source
+### source?
 
-• `Optional` **source**: `string`
+> **`optional`** **source**: `string`
 
 source of the element
 indicates the source of information included in the shopping_element
 
 #### Implementation of
 
-[IStocksBoxDataforseoLabsSerpElementItem](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md).[source](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md#source)
+[`IStocksBoxDataforseoLabsSerpElementItem`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md).[`source`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md#source)
 
-#### Defined in
+#### Source
 
-main.ts:98083
+main.ts:98091
 
-___
+***
 
-### table
+### table?
 
-• `Optional` **table**: [`Table`](Table.md)
+> **`optional`** **table**: [`Table`](Table.md)
 
 results table
 if there are none, equals null
 
 #### Implementation of
 
-[IStocksBoxDataforseoLabsSerpElementItem](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md).[table](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md#table)
+[`IStocksBoxDataforseoLabsSerpElementItem`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md).[`table`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md#table)
 
-#### Defined in
+#### Source
 
-main.ts:98094
+main.ts:98102
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the result in SERP
 
 #### Implementation of
 
-[IStocksBoxDataforseoLabsSerpElementItem](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md).[title](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md#title)
+[`IStocksBoxDataforseoLabsSerpElementItem`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md).[`title`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:98080
+main.ts:98088
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 relevant URL of the Ad element in SERP
 
 #### Implementation of
 
-[IStocksBoxDataforseoLabsSerpElementItem](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md).[url](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md#url)
+[`IStocksBoxDataforseoLabsSerpElementItem`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md).[`url`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:98089
+main.ts:98097
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IStocksBoxDataforseoLabsSerpElementItem](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md).[xpath](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md#xpath)
+[`IStocksBoxDataforseoLabsSerpElementItem`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md).[`xpath`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
-main.ts:98078
+main.ts:98086
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -298,23 +268,21 @@ main.ts:98078
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[init](BaseDataforseoLabsSerpElementItem.md#init)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`init`](BaseDataforseoLabsSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:98105
+main.ts:98113
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -322,23 +290,21 @@ ___
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[toJSON](BaseDataforseoLabsSerpElementItem.md#tojson)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`toJSON`](BaseDataforseoLabsSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:98134
+main.ts:98142
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`StocksBoxDataforseoLabsSerpElementItem`](StocksBoxDataforseoLabsSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`StocksBoxDataforseoLabsSerpElementItem`](StocksBoxDataforseoLabsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -346,8 +312,8 @@ ___
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[fromJS](BaseDataforseoLabsSerpElementItem.md#fromjs)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`fromJS`](BaseDataforseoLabsSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:98127
+main.ts:98135

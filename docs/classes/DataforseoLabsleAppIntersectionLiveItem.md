@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsleAppIntersectionLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsleAppIntersectionLiveItem
 
 # Class: DataforseoLabsleAppIntersectionLiveItem
 
@@ -8,51 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsleAppIntersectionLiveItem.md#constructor)
-
-### Properties
-
-- [intersection\_result](DataforseoLabsleAppIntersectionLiveItem.md#intersection_result)
-- [keyword\_data](DataforseoLabsleAppIntersectionLiveItem.md#keyword_data)
-- [se\_type](DataforseoLabsleAppIntersectionLiveItem.md#se_type)
-
-### Methods
-
-- [init](DataforseoLabsleAppIntersectionLiveItem.md#init)
-- [toJSON](DataforseoLabsleAppIntersectionLiveItem.md#tojson)
-- [fromJS](DataforseoLabsleAppIntersectionLiveItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsleAppIntersectionLiveItem(data)
 
-• **new DataforseoLabsleAppIntersectionLiveItem**(`data?`): [`DataforseoLabsleAppIntersectionLiveItem`](DataforseoLabsleAppIntersectionLiveItem.md)
+> **new DataforseoLabsleAppIntersectionLiveItem**(`data`?): [`DataforseoLabsleAppIntersectionLiveItem`](DataforseoLabsleAppIntersectionLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsleAppIntersectionLiveItem`](../interfaces/IDataforseoLabsleAppIntersectionLiveItem.md) |
+• **data?**: [`IDataforseoLabsleAppIntersectionLiveItem`](../interfaces/IDataforseoLabsleAppIntersectionLiveItem.md)
 
 #### Returns
 
 [`DataforseoLabsleAppIntersectionLiveItem`](DataforseoLabsleAppIntersectionLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:112259
+main.ts:112267
 
 ## Properties
 
-### intersection\_result
+### intersection\_result?
 
-• `Optional` **intersection\_result**: `Object`
+> **`optional`** **intersection\_result**: `Object`
 
 contains SERP data for the returned keyword
 data will be provided in separate arrays for each app ID you specified in the app_ids object when setting a task;
@@ -60,104 +44,98 @@ depending on the number of specified app IDs, it can contain from 1 to 20 arrays
 
 #### Index signature
 
-▪ [key: `string`]: [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)
+ \[`key`: `string`\]: [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)
 
 #### Implementation of
 
-[IDataforseoLabsleAppIntersectionLiveItem](../interfaces/IDataforseoLabsleAppIntersectionLiveItem.md).[intersection_result](../interfaces/IDataforseoLabsleAppIntersectionLiveItem.md#intersection_result)
+[`IDataforseoLabsleAppIntersectionLiveItem`](../interfaces/IDataforseoLabsleAppIntersectionLiveItem.md).[`intersection_result`](../interfaces/IDataforseoLabsleAppIntersectionLiveItem.md#intersection_result)
 
-#### Defined in
+#### Source
 
-main.ts:112255
+main.ts:112263
 
-___
+***
 
-### keyword\_data
+### keyword\_data?
 
-• `Optional` **keyword\_data**: [`KeywordData`](KeywordData.md)
+> **`optional`** **keyword\_data**: [`KeywordData`](KeywordData.md)
 
 keyword data for the returned keyword
 
 #### Implementation of
 
-[IDataforseoLabsleAppIntersectionLiveItem](../interfaces/IDataforseoLabsleAppIntersectionLiveItem.md).[keyword_data](../interfaces/IDataforseoLabsleAppIntersectionLiveItem.md#keyword_data)
+[`IDataforseoLabsleAppIntersectionLiveItem`](../interfaces/IDataforseoLabsleAppIntersectionLiveItem.md).[`keyword_data`](../interfaces/IDataforseoLabsleAppIntersectionLiveItem.md#keyword_data)
 
-#### Defined in
+#### Source
 
-main.ts:112251
+main.ts:112259
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IDataforseoLabsleAppIntersectionLiveItem](../interfaces/IDataforseoLabsleAppIntersectionLiveItem.md).[se_type](../interfaces/IDataforseoLabsleAppIntersectionLiveItem.md#se_type)
+[`IDataforseoLabsleAppIntersectionLiveItem`](../interfaces/IDataforseoLabsleAppIntersectionLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsleAppIntersectionLiveItem.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:112249
+main.ts:112257
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:112268
+main.ts:112276
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:112293
+main.ts:112301
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsleAppIntersectionLiveItem`](DataforseoLabsleAppIntersectionLiveItem.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsleAppIntersectionLiveItem`](DataforseoLabsleAppIntersectionLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsleAppIntersectionLiveItem`](DataforseoLabsleAppIntersectionLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:112286
+main.ts:112294

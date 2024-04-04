@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AddressInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AddressInfo
 
 # Class: AddressInfo
 
@@ -8,201 +12,172 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AddressInfo.md#constructor)
-
-### Properties
-
-- [address](AddressInfo.md#address)
-- [borough](AddressInfo.md#borough)
-- [city](AddressInfo.md#city)
-- [country\_code](AddressInfo.md#country_code)
-- [region](AddressInfo.md#region)
-- [zip](AddressInfo.md#zip)
-
-### Methods
-
-- [init](AddressInfo.md#init)
-- [toJSON](AddressInfo.md#tojson)
-- [fromJS](AddressInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AddressInfo(data)
 
-• **new AddressInfo**(`data?`): [`AddressInfo`](AddressInfo.md)
+> **new AddressInfo**(`data`?): [`AddressInfo`](AddressInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAddressInfo`](../interfaces/IAddressInfo.md) |
+• **data?**: [`IAddressInfo`](../interfaces/IAddressInfo.md)
 
 #### Returns
 
 [`AddressInfo`](AddressInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:38975
+main.ts:38981
 
 ## Properties
 
-### address
+### address?
 
-• `Optional` **address**: `string`
+> **`optional`** **address**: `string`
 
 street address of the local establishment
 
 #### Implementation of
 
-[IAddressInfo](../interfaces/IAddressInfo.md).[address](../interfaces/IAddressInfo.md#address)
+[`IAddressInfo`](../interfaces/IAddressInfo.md).[`address`](../interfaces/IAddressInfo.md#address)
 
-#### Defined in
+#### Source
 
-main.ts:38963
+main.ts:38969
 
-___
+***
 
-### borough
+### borough?
 
-• `Optional` **borough**: `string`
+> **`optional`** **borough**: `string`
 
 administrative unit or district the local establishment belongs to
 
 #### Implementation of
 
-[IAddressInfo](../interfaces/IAddressInfo.md).[borough](../interfaces/IAddressInfo.md#borough)
+[`IAddressInfo`](../interfaces/IAddressInfo.md).[`borough`](../interfaces/IAddressInfo.md#borough)
 
-#### Defined in
+#### Source
 
-main.ts:38961
+main.ts:38967
 
-___
+***
 
-### city
+### city?
 
-• `Optional` **city**: `string`
+> **`optional`** **city**: `string`
 
 name of the city where the local establishment is located
 
 #### Implementation of
 
-[IAddressInfo](../interfaces/IAddressInfo.md).[city](../interfaces/IAddressInfo.md#city)
+[`IAddressInfo`](../interfaces/IAddressInfo.md).[`city`](../interfaces/IAddressInfo.md#city)
 
-#### Defined in
+#### Source
 
-main.ts:38965
+main.ts:38971
 
-___
+***
 
-### country\_code
+### country\_code?
 
-• `Optional` **country\_code**: `string`
+> **`optional`** **country\_code**: `string`
 
 ISO country code of the local establishment
 
 #### Implementation of
 
-[IAddressInfo](../interfaces/IAddressInfo.md).[country_code](../interfaces/IAddressInfo.md#country_code)
+[`IAddressInfo`](../interfaces/IAddressInfo.md).[`country_code`](../interfaces/IAddressInfo.md#country_code)
 
-#### Defined in
+#### Source
 
-main.ts:38971
+main.ts:38977
 
-___
+***
 
-### region
+### region?
 
-• `Optional` **region**: `string`
+> **`optional`** **region**: `string`
 
 DMA region the local establishment belongs to
 
 #### Implementation of
 
-[IAddressInfo](../interfaces/IAddressInfo.md).[region](../interfaces/IAddressInfo.md#region)
+[`IAddressInfo`](../interfaces/IAddressInfo.md).[`region`](../interfaces/IAddressInfo.md#region)
 
-#### Defined in
+#### Source
 
-main.ts:38969
+main.ts:38975
 
-___
+***
 
-### zip
+### zip?
 
-• `Optional` **zip**: `string`
+> **`optional`** **zip**: `string`
 
 ZIP code of the local establishment
 
 #### Implementation of
 
-[IAddressInfo](../interfaces/IAddressInfo.md).[zip](../interfaces/IAddressInfo.md#zip)
+[`IAddressInfo`](../interfaces/IAddressInfo.md).[`zip`](../interfaces/IAddressInfo.md#zip)
 
-#### Defined in
+#### Source
 
-main.ts:38967
+main.ts:38973
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:38984
+main.ts:38990
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:39006
+main.ts:39012
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AddressInfo`](AddressInfo.md)
+> **`static`** **fromJS**(`data`): [`AddressInfo`](AddressInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AddressInfo`](AddressInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:38999
+main.ts:39005

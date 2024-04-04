@@ -1,163 +1,147 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IHtmlContentInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IHtmlContentInfo
 
 # Interface: IHtmlContentInfo
 
-## Implemented by
-
-- [`HtmlContentInfo`](../classes/HtmlContentInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [automated\_readability\_index](IHtmlContentInfo.md#automated_readability_index)
-- [coleman\_liau\_readability\_index](IHtmlContentInfo.md#coleman_liau_readability_index)
-- [dale\_chall\_readability\_index](IHtmlContentInfo.md#dale_chall_readability_index)
-- [description\_to\_content\_consistency](IHtmlContentInfo.md#description_to_content_consistency)
-- [flesch\_kincaid\_readability\_index](IHtmlContentInfo.md#flesch_kincaid_readability_index)
-- [meta\_keywords\_to\_content\_consistency](IHtmlContentInfo.md#meta_keywords_to_content_consistency)
-- [plain\_text\_rate](IHtmlContentInfo.md#plain_text_rate)
-- [plain\_text\_size](IHtmlContentInfo.md#plain_text_size)
-- [plain\_text\_word\_count](IHtmlContentInfo.md#plain_text_word_count)
-- [smog\_readability\_index](IHtmlContentInfo.md#smog_readability_index)
-- [title\_to\_content\_consistency](IHtmlContentInfo.md#title_to_content_consistency)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### automated\_readability\_index
+### automated\_readability\_index?
 
-• `Optional` **automated\_readability\_index**: `number`
+> **`optional`** **automated\_readability\_index**: `number`
 
 Automated Readability Index
 
-#### Defined in
+#### Source
 
-main.ts:149568
+main.ts:149576
 
-___
+***
 
-### coleman\_liau\_readability\_index
+### coleman\_liau\_readability\_index?
 
-• `Optional` **coleman\_liau\_readability\_index**: `number`
+> **`optional`** **coleman\_liau\_readability\_index**: `number`
 
 Coleman–Liau Index
 
-#### Defined in
+#### Source
 
-main.ts:149570
+main.ts:149578
 
-___
+***
 
-### dale\_chall\_readability\_index
+### dale\_chall\_readability\_index?
 
-• `Optional` **dale\_chall\_readability\_index**: `number`
+> **`optional`** **dale\_chall\_readability\_index**: `number`
 
 Dale–Chall Readability Index
 
-#### Defined in
+#### Source
 
-main.ts:149572
+main.ts:149580
 
-___
+***
 
-### description\_to\_content\_consistency
+### description\_to\_content\_consistency?
 
-• `Optional` **description\_to\_content\_consistency**: `number`
+> **`optional`** **description\_to\_content\_consistency**: `number`
 
 consistency of the meta description tag with the page content
 measured from 0 to 1
 
-#### Defined in
+#### Source
 
-main.ts:149579
+main.ts:149587
 
-___
+***
 
-### flesch\_kincaid\_readability\_index
+### flesch\_kincaid\_readability\_index?
 
-• `Optional` **flesch\_kincaid\_readability\_index**: `number`
+> **`optional`** **flesch\_kincaid\_readability\_index**: `number`
 
 Flesch–Kincaid Readability Index
 
-#### Defined in
+#### Source
 
-main.ts:149574
+main.ts:149582
 
-___
+***
 
-### meta\_keywords\_to\_content\_consistency
+### meta\_keywords\_to\_content\_consistency?
 
-• `Optional` **meta\_keywords\_to\_content\_consistency**: `number`
+> **`optional`** **meta\_keywords\_to\_content\_consistency**: `number`
 
 consistency of meta keywordstag with the page content
 measured from 0 to 1
 
-#### Defined in
+#### Source
 
-main.ts:149585
+main.ts:149593
 
-___
+***
 
-### plain\_text\_rate
+### plain\_text\_rate?
 
-• `Optional` **plain\_text\_rate**: `number`
+> **`optional`** **plain\_text\_rate**: `number`
 
 plaintext rate value
 plain_text_size to size ratio
 
-#### Defined in
+#### Source
 
-main.ts:149564
+main.ts:149572
 
-___
+***
 
-### plain\_text\_size
+### plain\_text\_size?
 
-• `Optional` **plain\_text\_size**: `number`
+> **`optional`** **plain\_text\_size**: `number`
 
 total size of the text on the page measured in bytes
 
-#### Defined in
+#### Source
 
-main.ts:149561
+main.ts:149569
 
-___
+***
 
-### plain\_text\_word\_count
+### plain\_text\_word\_count?
 
-• `Optional` **plain\_text\_word\_count**: `number`
+> **`optional`** **plain\_text\_word\_count**: `number`
 
 number of words on the page
 
-#### Defined in
+#### Source
 
-main.ts:149566
+main.ts:149574
 
-___
+***
 
-### smog\_readability\_index
+### smog\_readability\_index?
 
-• `Optional` **smog\_readability\_index**: `number`
+> **`optional`** **smog\_readability\_index**: `number`
 
 SMOG Readability Index
 
-#### Defined in
+#### Source
 
-main.ts:149576
+main.ts:149584
 
-___
+***
 
-### title\_to\_content\_consistency
+### title\_to\_content\_consistency?
 
-• `Optional` **title\_to\_content\_consistency**: `number`
+> **`optional`** **title\_to\_content\_consistency**: `number`
 
 consistency of the meta title tag with the page content
 measured from 0 to 1
 
-#### Defined in
+#### Source
 
-main.ts:149582
+main.ts:149590

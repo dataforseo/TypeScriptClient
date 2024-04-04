@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MultiCarouselElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / MultiCarouselElement
 
 # Class: MultiCarouselElement
 
@@ -8,150 +12,124 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](MultiCarouselElement.md#constructor)
-
-### Properties
-
-- [multi\_carousel\_snippets](MultiCarouselElement.md#multi_carousel_snippets)
-- [title](MultiCarouselElement.md#title)
-- [type](MultiCarouselElement.md#type)
-
-### Methods
-
-- [init](MultiCarouselElement.md#init)
-- [toJSON](MultiCarouselElement.md#tojson)
-- [fromJS](MultiCarouselElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new MultiCarouselElement(data)
 
-• **new MultiCarouselElement**(`data?`): [`MultiCarouselElement`](MultiCarouselElement.md)
+> **new MultiCarouselElement**(`data`?): [`MultiCarouselElement`](MultiCarouselElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IMultiCarouselElement`](../interfaces/IMultiCarouselElement.md) |
+• **data?**: [`IMultiCarouselElement`](../interfaces/IMultiCarouselElement.md)
 
 #### Returns
 
 [`MultiCarouselElement`](MultiCarouselElement.md)
 
-#### Defined in
+#### Source
 
 main.ts:32101
 
 ## Properties
 
-### multi\_carousel\_snippets
+### multi\_carousel\_snippets?
 
-• `Optional` **multi\_carousel\_snippets**: [`CarouselElement`](CarouselElement.md)[]
+> **`optional`** **multi\_carousel\_snippets**: [`CarouselElement`](CarouselElement.md)[]
 
 multi_carousel_snippet results
 
 #### Implementation of
 
-[IMultiCarouselElement](../interfaces/IMultiCarouselElement.md).[multi_carousel_snippets](../interfaces/IMultiCarouselElement.md#multi_carousel_snippets)
+[`IMultiCarouselElement`](../interfaces/IMultiCarouselElement.md).[`multi_carousel_snippets`](../interfaces/IMultiCarouselElement.md#multi_carousel_snippets)
 
-#### Defined in
+#### Source
 
 main.ts:32097
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
 #### Implementation of
 
-[IMultiCarouselElement](../interfaces/IMultiCarouselElement.md).[title](../interfaces/IMultiCarouselElement.md#title)
+[`IMultiCarouselElement`](../interfaces/IMultiCarouselElement.md).[`title`](../interfaces/IMultiCarouselElement.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:32095
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IMultiCarouselElement](../interfaces/IMultiCarouselElement.md).[type](../interfaces/IMultiCarouselElement.md#type)
+[`IMultiCarouselElement`](../interfaces/IMultiCarouselElement.md).[`type`](../interfaces/IMultiCarouselElement.md#type)
 
-#### Defined in
+#### Source
 
 main.ts:32093
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:32110
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:32133
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`MultiCarouselElement`](MultiCarouselElement.md)
+> **`static`** **fromJS**(`data`): [`MultiCarouselElement`](MultiCarouselElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`MultiCarouselElement`](MultiCarouselElement.md)
 
-#### Defined in
+#### Source
 
 main.ts:32126

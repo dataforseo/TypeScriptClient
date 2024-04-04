@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleEventsTasksFixedResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleEventsTasksFixedResultInfo
 
 # Class: SerpGoogleEventsTasksFixedResultInfo
 
@@ -8,240 +12,209 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleEventsTasksFixedResultInfo.md#constructor)
-
-### Properties
-
-- [date\_fixed](SerpGoogleEventsTasksFixedResultInfo.md#date_fixed)
-- [endpoint\_advanced](SerpGoogleEventsTasksFixedResultInfo.md#endpoint_advanced)
-- [endpoint\_html](SerpGoogleEventsTasksFixedResultInfo.md#endpoint_html)
-- [endpoint\_regular](SerpGoogleEventsTasksFixedResultInfo.md#endpoint_regular)
-- [id](SerpGoogleEventsTasksFixedResultInfo.md#id)
-- [se](SerpGoogleEventsTasksFixedResultInfo.md#se)
-- [se\_type](SerpGoogleEventsTasksFixedResultInfo.md#se_type)
-- [tag](SerpGoogleEventsTasksFixedResultInfo.md#tag)
-
-### Methods
-
-- [init](SerpGoogleEventsTasksFixedResultInfo.md#init)
-- [toJSON](SerpGoogleEventsTasksFixedResultInfo.md#tojson)
-- [fromJS](SerpGoogleEventsTasksFixedResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleEventsTasksFixedResultInfo(data)
 
-• **new SerpGoogleEventsTasksFixedResultInfo**(`data?`): [`SerpGoogleEventsTasksFixedResultInfo`](SerpGoogleEventsTasksFixedResultInfo.md)
+> **new SerpGoogleEventsTasksFixedResultInfo**(`data`?): [`SerpGoogleEventsTasksFixedResultInfo`](SerpGoogleEventsTasksFixedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleEventsTasksFixedResultInfo`](../interfaces/ISerpGoogleEventsTasksFixedResultInfo.md) |
+• **data?**: [`ISerpGoogleEventsTasksFixedResultInfo`](../interfaces/ISerpGoogleEventsTasksFixedResultInfo.md)
 
 #### Returns
 
 [`SerpGoogleEventsTasksFixedResultInfo`](SerpGoogleEventsTasksFixedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:44984
+main.ts:44992
 
 ## Properties
 
-### date\_fixed
+### date\_fixed?
 
-• `Optional` **date\_fixed**: `string`
+> **`optional`** **date\_fixed**: `string`
 
 date when the task was fixed (in the UTC format)
 
 #### Implementation of
 
-[ISerpGoogleEventsTasksFixedResultInfo](../interfaces/ISerpGoogleEventsTasksFixedResultInfo.md).[date_fixed](../interfaces/ISerpGoogleEventsTasksFixedResultInfo.md#date_fixed)
+[`ISerpGoogleEventsTasksFixedResultInfo`](../interfaces/ISerpGoogleEventsTasksFixedResultInfo.md).[`date_fixed`](../interfaces/ISerpGoogleEventsTasksFixedResultInfo.md#date_fixed)
 
-#### Defined in
+#### Source
 
-main.ts:44969
+main.ts:44977
 
-___
+***
 
-### endpoint\_advanced
+### endpoint\_advanced?
 
-• `Optional` **endpoint\_advanced**: `string`
+> **`optional`** **endpoint\_advanced**: `string`
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpGoogleEventsTasksFixedResultInfo](../interfaces/ISerpGoogleEventsTasksFixedResultInfo.md).[endpoint_advanced](../interfaces/ISerpGoogleEventsTasksFixedResultInfo.md#endpoint_advanced)
+[`ISerpGoogleEventsTasksFixedResultInfo`](../interfaces/ISerpGoogleEventsTasksFixedResultInfo.md).[`endpoint_advanced`](../interfaces/ISerpGoogleEventsTasksFixedResultInfo.md#endpoint_advanced)
 
-#### Defined in
+#### Source
 
-main.ts:44977
+main.ts:44985
 
-___
+***
 
-### endpoint\_html
+### endpoint\_html?
 
-• `Optional` **endpoint\_html**: `string`
+> **`optional`** **endpoint\_html**: `string`
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpGoogleEventsTasksFixedResultInfo](../interfaces/ISerpGoogleEventsTasksFixedResultInfo.md).[endpoint_html](../interfaces/ISerpGoogleEventsTasksFixedResultInfo.md#endpoint_html)
+[`ISerpGoogleEventsTasksFixedResultInfo`](../interfaces/ISerpGoogleEventsTasksFixedResultInfo.md).[`endpoint_html`](../interfaces/ISerpGoogleEventsTasksFixedResultInfo.md#endpoint_html)
 
-#### Defined in
+#### Source
 
-main.ts:44980
+main.ts:44988
 
-___
+***
 
-### endpoint\_regular
+### endpoint\_regular?
 
-• `Optional` **endpoint\_regular**: `string`
+> **`optional`** **endpoint\_regular**: `string`
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpGoogleEventsTasksFixedResultInfo](../interfaces/ISerpGoogleEventsTasksFixedResultInfo.md).[endpoint_regular](../interfaces/ISerpGoogleEventsTasksFixedResultInfo.md#endpoint_regular)
+[`ISerpGoogleEventsTasksFixedResultInfo`](../interfaces/ISerpGoogleEventsTasksFixedResultInfo.md).[`endpoint_regular`](../interfaces/ISerpGoogleEventsTasksFixedResultInfo.md#endpoint_regular)
 
-#### Defined in
+#### Source
 
-main.ts:44974
+main.ts:44982
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[ISerpGoogleEventsTasksFixedResultInfo](../interfaces/ISerpGoogleEventsTasksFixedResultInfo.md).[id](../interfaces/ISerpGoogleEventsTasksFixedResultInfo.md#id)
+[`ISerpGoogleEventsTasksFixedResultInfo`](../interfaces/ISerpGoogleEventsTasksFixedResultInfo.md).[`id`](../interfaces/ISerpGoogleEventsTasksFixedResultInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:44962
+main.ts:44970
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 
 #### Implementation of
 
-[ISerpGoogleEventsTasksFixedResultInfo](../interfaces/ISerpGoogleEventsTasksFixedResultInfo.md).[se](../interfaces/ISerpGoogleEventsTasksFixedResultInfo.md#se)
+[`ISerpGoogleEventsTasksFixedResultInfo`](../interfaces/ISerpGoogleEventsTasksFixedResultInfo.md).[`se`](../interfaces/ISerpGoogleEventsTasksFixedResultInfo.md#se)
 
-#### Defined in
+#### Source
 
-main.ts:44964
+main.ts:44972
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 type of search engine
 can take the following values: events
 
 #### Implementation of
 
-[ISerpGoogleEventsTasksFixedResultInfo](../interfaces/ISerpGoogleEventsTasksFixedResultInfo.md).[se_type](../interfaces/ISerpGoogleEventsTasksFixedResultInfo.md#se_type)
+[`ISerpGoogleEventsTasksFixedResultInfo`](../interfaces/ISerpGoogleEventsTasksFixedResultInfo.md).[`se_type`](../interfaces/ISerpGoogleEventsTasksFixedResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:44967
+main.ts:44975
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
 #### Implementation of
 
-[ISerpGoogleEventsTasksFixedResultInfo](../interfaces/ISerpGoogleEventsTasksFixedResultInfo.md).[tag](../interfaces/ISerpGoogleEventsTasksFixedResultInfo.md#tag)
+[`ISerpGoogleEventsTasksFixedResultInfo`](../interfaces/ISerpGoogleEventsTasksFixedResultInfo.md).[`tag`](../interfaces/ISerpGoogleEventsTasksFixedResultInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:44971
+main.ts:44979
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:44993
+main.ts:45001
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:45017
+main.ts:45025
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleEventsTasksFixedResultInfo`](SerpGoogleEventsTasksFixedResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleEventsTasksFixedResultInfo`](SerpGoogleEventsTasksFixedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpGoogleEventsTasksFixedResultInfo`](SerpGoogleEventsTasksFixedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:45010
+main.ts:45018

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageContentParsingItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPageContentParsingItem
 
 # Class: OnPageContentParsingItem
 
@@ -8,52 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPageContentParsingItem.md#constructor)
-
-### Properties
-
-- [fetch\_time](OnPageContentParsingItem.md#fetch_time)
-- [page\_content](OnPageContentParsingItem.md#page_content)
-- [status\_code](OnPageContentParsingItem.md#status_code)
-- [type](OnPageContentParsingItem.md#type)
-
-### Methods
-
-- [init](OnPageContentParsingItem.md#init)
-- [toJSON](OnPageContentParsingItem.md#tojson)
-- [fromJS](OnPageContentParsingItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPageContentParsingItem(data)
 
-• **new OnPageContentParsingItem**(`data?`): [`OnPageContentParsingItem`](OnPageContentParsingItem.md)
+> **new OnPageContentParsingItem**(`data`?): [`OnPageContentParsingItem`](OnPageContentParsingItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPageContentParsingItem`](../interfaces/IOnPageContentParsingItem.md) |
+• **data?**: [`IOnPageContentParsingItem`](../interfaces/IOnPageContentParsingItem.md)
 
 #### Returns
 
 [`OnPageContentParsingItem`](OnPageContentParsingItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:157722
+main.ts:157730
 
 ## Properties
 
-### fetch\_time
+### fetch\_time?
 
-• `Optional` **fetch\_time**: `string`
+> **`optional`** **fetch\_time**: `string`
 
 date and time when the content was fethced
 example:
@@ -61,116 +44,110 @@ example:
 
 #### Implementation of
 
-[IOnPageContentParsingItem](../interfaces/IOnPageContentParsingItem.md).[fetch_time](../interfaces/IOnPageContentParsingItem.md#fetch_time)
+[`IOnPageContentParsingItem`](../interfaces/IOnPageContentParsingItem.md).[`fetch_time`](../interfaces/IOnPageContentParsingItem.md#fetch_time)
 
-#### Defined in
+#### Source
 
-main.ts:157714
+main.ts:157722
 
-___
+***
 
-### page\_content
+### page\_content?
 
-• `Optional` **page\_content**: [`PageContentInfo`](PageContentInfo.md)
+> **`optional`** **page\_content**: [`PageContentInfo`](PageContentInfo.md)
 
 parsed content of the page
 
 #### Implementation of
 
-[IOnPageContentParsingItem](../interfaces/IOnPageContentParsingItem.md).[page_content](../interfaces/IOnPageContentParsingItem.md#page_content)
+[`IOnPageContentParsingItem`](../interfaces/IOnPageContentParsingItem.md).[`page_content`](../interfaces/IOnPageContentParsingItem.md#page_content)
 
-#### Defined in
+#### Source
 
-main.ts:157718
+main.ts:157726
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the page
 
 #### Implementation of
 
-[IOnPageContentParsingItem](../interfaces/IOnPageContentParsingItem.md).[status_code](../interfaces/IOnPageContentParsingItem.md#status_code)
+[`IOnPageContentParsingItem`](../interfaces/IOnPageContentParsingItem.md).[`status_code`](../interfaces/IOnPageContentParsingItem.md#status_code)
 
-#### Defined in
+#### Source
 
-main.ts:157716
+main.ts:157724
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IOnPageContentParsingItem](../interfaces/IOnPageContentParsingItem.md).[type](../interfaces/IOnPageContentParsingItem.md#type)
+[`IOnPageContentParsingItem`](../interfaces/IOnPageContentParsingItem.md).[`type`](../interfaces/IOnPageContentParsingItem.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:157710
+main.ts:157718
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:157731
+main.ts:157739
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:157751
+main.ts:157759
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPageContentParsingItem`](OnPageContentParsingItem.md)
+> **`static`** **fromJS**(`data`): [`OnPageContentParsingItem`](OnPageContentParsingItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`OnPageContentParsingItem`](OnPageContentParsingItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:157744
+main.ts:157752

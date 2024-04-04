@@ -1,151 +1,136 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IProductConsiderationsExpandedElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IProductConsiderationsExpandedElement
 
 # Interface: IProductConsiderationsExpandedElement
 
-## Implemented by
-
-- [`ProductConsiderationsExpandedElement`](../classes/ProductConsiderationsExpandedElement.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [about\_this\_result](IProductConsiderationsExpandedElement.md#about_this_result)
-- [breadcrumb](IProductConsiderationsExpandedElement.md#breadcrumb)
-- [domain](IProductConsiderationsExpandedElement.md#domain)
-- [featured\_title](IProductConsiderationsExpandedElement.md#featured_title)
-- [related\_searches](IProductConsiderationsExpandedElement.md#related_searches)
-- [snippet](IProductConsiderationsExpandedElement.md#snippet)
-- [timestamp](IProductConsiderationsExpandedElement.md#timestamp)
-- [title](IProductConsiderationsExpandedElement.md#title)
-- [type](IProductConsiderationsExpandedElement.md#type)
-- [url](IProductConsiderationsExpandedElement.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### about\_this\_result
+### about\_this\_result?
 
-• `Optional` **about\_this\_result**: [`AboutThisResultElement`](../classes/AboutThisResultElement.md)
+> **`optional`** **about\_this\_result**: [`AboutThisResultElement`](../classes/AboutThisResultElement.md)
 
 contains information from the ‘About this result’ panel
 ‘About this result’ panel provides additional context about why Google returned this result for the given query;
 this feature appears after clicking on the three dots next to most results
 
-#### Defined in
+#### Source
 
-main.ts:35464
+main.ts:35470
 
-___
+***
 
-### breadcrumb
+### breadcrumb?
 
-• `Optional` **breadcrumb**: `string`
+> **`optional`** **breadcrumb**: `string`
 
 breadcrumb of the Ad element in SERP
 
-#### Defined in
+#### Source
 
-main.ts:35447
+main.ts:35453
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain where a link points
 
-#### Defined in
+#### Source
 
-main.ts:35451
+main.ts:35457
 
-___
+***
 
-### featured\_title
+### featured\_title?
 
-• `Optional` **featured\_title**: `string`
+> **`optional`** **featured\_title**: `string`
 
 the title of the featured snippets source page
 
-#### Defined in
+#### Source
 
-main.ts:35445
+main.ts:35451
 
-___
+***
 
-### related\_searches
+### related\_searches?
 
-• `Optional` **related\_searches**: `string`[]
+> **`optional`** **related\_searches**: `string`[]
 
 search queries related to the elment
 
-#### Defined in
+#### Source
 
-main.ts:35460
+main.ts:35466
 
-___
+***
 
-### snippet
+### snippet?
 
-• `Optional` **snippet**: `string`
+> **`optional`** **snippet**: `string`
 
 text alongside the link title
 
-#### Defined in
+#### Source
 
-main.ts:35449
+main.ts:35455
 
-___
+***
 
-### timestamp
+### timestamp?
 
-• `Optional` **timestamp**: `string`
+> **`optional`** **timestamp**: `string`
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
-main.ts:35458
+main.ts:35464
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the carousel item
 
-#### Defined in
+#### Source
 
-main.ts:35443
+main.ts:35449
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:35441
+main.ts:35447
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL of element
 
-#### Defined in
+#### Source
 
-main.ts:35453
+main.ts:35459

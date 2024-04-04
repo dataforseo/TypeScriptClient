@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / TwitterSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / TwitterSerpElementItem
 
 # Class: TwitterSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-  ↳ **`TwitterSerpElementItem`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](TwitterSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](TwitterSerpElementItem.md#_discriminator)
-- [items](TwitterSerpElementItem.md#items)
-- [position](TwitterSerpElementItem.md#position)
-- [rank\_absolute](TwitterSerpElementItem.md#rank_absolute)
-- [rank\_group](TwitterSerpElementItem.md#rank_group)
-- [rectangle](TwitterSerpElementItem.md#rectangle)
-- [title](TwitterSerpElementItem.md#title)
-- [url](TwitterSerpElementItem.md#url)
-- [xpath](TwitterSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](TwitterSerpElementItem.md#init)
-- [toJSON](TwitterSerpElementItem.md#tojson)
-- [fromJS](TwitterSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new TwitterSerpElementItem(data)
 
-• **new TwitterSerpElementItem**(`data?`): [`TwitterSerpElementItem`](TwitterSerpElementItem.md)
+> **new TwitterSerpElementItem**(`data`?): [`TwitterSerpElementItem`](TwitterSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ITwitterSerpElementItem`](../interfaces/ITwitterSerpElementItem.md) |
+• **data?**: [`ITwitterSerpElementItem`](../interfaces/ITwitterSerpElementItem.md)
 
 #### Returns
 
@@ -58,9 +34,9 @@
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[constructor](BaseSerpElementItem.md#constructor)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:29861
 
@@ -68,38 +44,38 @@ main.ts:29861
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[_discriminator](BaseSerpElementItem.md#_discriminator)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:19788
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`TwitterElement`](TwitterElement.md)[]
+> **`optional`** **items**: [`TwitterElement`](TwitterElement.md)[]
 
 additional items present in the element
 if there are none, equals null
 
 #### Implementation of
 
-[ITwitterSerpElementItem](../interfaces/ITwitterSerpElementItem.md).[items](../interfaces/ITwitterSerpElementItem.md#items)
+[`ITwitterSerpElementItem`](../interfaces/ITwitterSerpElementItem.md).[`items`](../interfaces/ITwitterSerpElementItem.md#items)
 
-#### Defined in
+#### Source
 
 main.ts:29853
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -107,17 +83,17 @@ left, right
 
 #### Implementation of
 
-[ITwitterSerpElementItem](../interfaces/ITwitterSerpElementItem.md).[position](../interfaces/ITwitterSerpElementItem.md#position)
+[`ITwitterSerpElementItem`](../interfaces/ITwitterSerpElementItem.md).[`position`](../interfaces/ITwitterSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
 main.ts:29844
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -125,17 +101,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[ITwitterSerpElementItem](../interfaces/ITwitterSerpElementItem.md).[rank_absolute](../interfaces/ITwitterSerpElementItem.md#rank_absolute)
+[`ITwitterSerpElementItem`](../interfaces/ITwitterSerpElementItem.md).[`rank_absolute`](../interfaces/ITwitterSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
 main.ts:29840
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
@@ -144,17 +120,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[ITwitterSerpElementItem](../interfaces/ITwitterSerpElementItem.md).[rank_group](../interfaces/ITwitterSerpElementItem.md#rank_group)
+[`ITwitterSerpElementItem`](../interfaces/ITwitterSerpElementItem.md).[`rank_group`](../interfaces/ITwitterSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
 main.ts:29836
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -162,71 +138,69 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Implementation of
 
-[ITwitterSerpElementItem](../interfaces/ITwitterSerpElementItem.md).[rectangle](../interfaces/ITwitterSerpElementItem.md#rectangle)
+[`ITwitterSerpElementItem`](../interfaces/ITwitterSerpElementItem.md).[`rectangle`](../interfaces/ITwitterSerpElementItem.md#rectangle)
 
-#### Defined in
+#### Source
 
 main.ts:29857
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the row
 
 #### Implementation of
 
-[ITwitterSerpElementItem](../interfaces/ITwitterSerpElementItem.md).[title](../interfaces/ITwitterSerpElementItem.md#title)
+[`ITwitterSerpElementItem`](../interfaces/ITwitterSerpElementItem.md).[`title`](../interfaces/ITwitterSerpElementItem.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:29848
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 source URL
 
 #### Implementation of
 
-[ITwitterSerpElementItem](../interfaces/ITwitterSerpElementItem.md).[url](../interfaces/ITwitterSerpElementItem.md#url)
+[`ITwitterSerpElementItem`](../interfaces/ITwitterSerpElementItem.md).[`url`](../interfaces/ITwitterSerpElementItem.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:29850
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[ITwitterSerpElementItem](../interfaces/ITwitterSerpElementItem.md).[xpath](../interfaces/ITwitterSerpElementItem.md#xpath)
+[`ITwitterSerpElementItem`](../interfaces/ITwitterSerpElementItem.md).[`xpath`](../interfaces/ITwitterSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
 main.ts:29846
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -234,23 +208,21 @@ main.ts:29846
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[init](BaseSerpElementItem.md#init)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:29866
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -258,23 +230,21 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[toJSON](BaseSerpElementItem.md#tojson)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:29895
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`TwitterSerpElementItem`](TwitterSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`TwitterSerpElementItem`](TwitterSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -282,8 +252,8 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[fromJS](BaseSerpElementItem.md#fromjs)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:29888

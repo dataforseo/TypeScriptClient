@@ -1,40 +1,32 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IEventDates
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IEventDates
 
 # Interface: IEventDates
 
-## Implemented by
-
-- [`EventDates`](../classes/EventDates.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [displayed\_dates](IEventDates.md#displayed_dates)
-- [end\_datetime](IEventDates.md#end_datetime)
-- [start\_datetime](IEventDates.md#start_datetime)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### displayed\_dates
+### displayed\_dates?
 
-• `Optional` **displayed\_dates**: `string`
+> **`optional`** **displayed\_dates**: `string`
 
 date or date range as it is displayed in SERP
 
-#### Defined in
+#### Source
 
-main.ts:45260
+main.ts:45268
 
-___
+***
 
-### end\_datetime
+### end\_datetime?
 
-• `Optional` **end\_datetime**: `string`
+> **`optional`** **end\_datetime**: `string`
 
 date and time when the event ends
 if time zone is specified in the event, value will be returned in the UTC format:
@@ -46,15 +38,15 @@ if time zone is not specified in the event, unspecified local time will be retur
 example:
 2019-11-15T12:57:46
 
-#### Defined in
+#### Source
 
-main.ts:45258
+main.ts:45266
 
-___
+***
 
-### start\_datetime
+### start\_datetime?
 
-• `Optional` **start\_datetime**: `string`
+> **`optional`** **start\_datetime**: `string`
 
 date and time when the event starts
 if time zone is specified in the event, value will be returned in the UTC format:
@@ -66,6 +58,6 @@ if time zone is not specified in the event, unspecified local time will be retur
 example:
 2019-11-15T12:57:46
 
-#### Defined in
+#### Source
 
-main.ts:45248
+main.ts:45256

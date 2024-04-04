@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / QuestionsAndAnswersElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / QuestionsAndAnswersElement
 
 # Class: QuestionsAndAnswersElement
 
@@ -8,219 +12,189 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](QuestionsAndAnswersElement.md#constructor)
-
-### Properties
-
-- [answer\_text](QuestionsAndAnswersElement.md#answer_text)
-- [domain](QuestionsAndAnswersElement.md#domain)
-- [question\_text](QuestionsAndAnswersElement.md#question_text)
-- [source](QuestionsAndAnswersElement.md#source)
-- [type](QuestionsAndAnswersElement.md#type)
-- [url](QuestionsAndAnswersElement.md#url)
-- [votes](QuestionsAndAnswersElement.md#votes)
-
-### Methods
-
-- [init](QuestionsAndAnswersElement.md#init)
-- [toJSON](QuestionsAndAnswersElement.md#tojson)
-- [fromJS](QuestionsAndAnswersElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new QuestionsAndAnswersElement(data)
 
-• **new QuestionsAndAnswersElement**(`data?`): [`QuestionsAndAnswersElement`](QuestionsAndAnswersElement.md)
+> **new QuestionsAndAnswersElement**(`data`?): [`QuestionsAndAnswersElement`](QuestionsAndAnswersElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IQuestionsAndAnswersElement`](../interfaces/IQuestionsAndAnswersElement.md) |
+• **data?**: [`IQuestionsAndAnswersElement`](../interfaces/IQuestionsAndAnswersElement.md)
 
 #### Returns
 
 [`QuestionsAndAnswersElement`](QuestionsAndAnswersElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:33702
+main.ts:33708
 
 ## Properties
 
-### answer\_text
+### answer\_text?
 
-• `Optional` **answer\_text**: `string`
+> **`optional`** **answer\_text**: `string`
 
 answer included in the item
 
 #### Implementation of
 
-[IQuestionsAndAnswersElement](../interfaces/IQuestionsAndAnswersElement.md).[answer_text](../interfaces/IQuestionsAndAnswersElement.md#answer_text)
+[`IQuestionsAndAnswersElement`](../interfaces/IQuestionsAndAnswersElement.md).[`answer_text`](../interfaces/IQuestionsAndAnswersElement.md#answer_text)
 
-#### Defined in
+#### Source
 
-main.ts:33691
+main.ts:33697
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 website domain
 
 #### Implementation of
 
-[IQuestionsAndAnswersElement](../interfaces/IQuestionsAndAnswersElement.md).[domain](../interfaces/IQuestionsAndAnswersElement.md#domain)
+[`IQuestionsAndAnswersElement`](../interfaces/IQuestionsAndAnswersElement.md).[`domain`](../interfaces/IQuestionsAndAnswersElement.md#domain)
 
-#### Defined in
+#### Source
 
-main.ts:33696
+main.ts:33702
 
-___
+***
 
-### question\_text
+### question\_text?
 
-• `Optional` **question\_text**: `string`
+> **`optional`** **question\_text**: `string`
 
 question included in the item
 
 #### Implementation of
 
-[IQuestionsAndAnswersElement](../interfaces/IQuestionsAndAnswersElement.md).[question_text](../interfaces/IQuestionsAndAnswersElement.md#question_text)
+[`IQuestionsAndAnswersElement`](../interfaces/IQuestionsAndAnswersElement.md).[`question_text`](../interfaces/IQuestionsAndAnswersElement.md#question_text)
 
-#### Defined in
+#### Source
 
-main.ts:33689
+main.ts:33695
 
-___
+***
 
-### source
+### source?
 
-• `Optional` **source**: `string`
+> **`optional`** **source**: `string`
 
 source of the element
 indicates the source of information included in the top_stories_element
 
 #### Implementation of
 
-[IQuestionsAndAnswersElement](../interfaces/IQuestionsAndAnswersElement.md).[source](../interfaces/IQuestionsAndAnswersElement.md#source)
+[`IQuestionsAndAnswersElement`](../interfaces/IQuestionsAndAnswersElement.md).[`source`](../interfaces/IQuestionsAndAnswersElement.md#source)
 
-#### Defined in
+#### Source
 
-main.ts:33694
+main.ts:33700
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IQuestionsAndAnswersElement](../interfaces/IQuestionsAndAnswersElement.md).[type](../interfaces/IQuestionsAndAnswersElement.md#type)
+[`IQuestionsAndAnswersElement`](../interfaces/IQuestionsAndAnswersElement.md).[`type`](../interfaces/IQuestionsAndAnswersElement.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:33685
+main.ts:33691
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL
 
 #### Implementation of
 
-[IQuestionsAndAnswersElement](../interfaces/IQuestionsAndAnswersElement.md).[url](../interfaces/IQuestionsAndAnswersElement.md#url)
+[`IQuestionsAndAnswersElement`](../interfaces/IQuestionsAndAnswersElement.md).[`url`](../interfaces/IQuestionsAndAnswersElement.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:33687
+main.ts:33693
 
-___
+***
 
-### votes
+### votes?
 
-• `Optional` **votes**: `number`
+> **`optional`** **votes**: `number`
 
 answer upvotes from the source
 
 #### Implementation of
 
-[IQuestionsAndAnswersElement](../interfaces/IQuestionsAndAnswersElement.md).[votes](../interfaces/IQuestionsAndAnswersElement.md#votes)
+[`IQuestionsAndAnswersElement`](../interfaces/IQuestionsAndAnswersElement.md).[`votes`](../interfaces/IQuestionsAndAnswersElement.md#votes)
 
-#### Defined in
+#### Source
 
-main.ts:33698
+main.ts:33704
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:33711
+main.ts:33717
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:33734
+main.ts:33740
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`QuestionsAndAnswersElement`](QuestionsAndAnswersElement.md)
+> **`static`** **fromJS**(`data`): [`QuestionsAndAnswersElement`](QuestionsAndAnswersElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`QuestionsAndAnswersElement`](QuestionsAndAnswersElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:33727
+main.ts:33733

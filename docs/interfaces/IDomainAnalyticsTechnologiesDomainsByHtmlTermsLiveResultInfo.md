@@ -1,83 +1,73 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo
 
 # Interface: IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo
 
-## Implemented by
-
-- [`DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo`](../classes/DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo.md#items)
-- [items\_count](IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo.md#items_count)
-- [offset](IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo.md#offset)
-- [offset\_token](IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo.md#offset_token)
-- [total\_count](IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo.md#total_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`DomainAnalyticsTechnologiesDomainsByLiveItem`](../classes/DomainAnalyticsTechnologiesDomainsByLiveItem.md)[]
+> **`optional`** **items**: [`DomainAnalyticsTechnologiesDomainsByLiveItem`](../classes/DomainAnalyticsTechnologiesDomainsByLiveItem.md)[]
 
 items array
 
-#### Defined in
+#### Source
 
-main.ts:77320
+main.ts:77328
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 number of items in the results array
 
-#### Defined in
+#### Source
 
-main.ts:77312
+main.ts:77320
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 specified offset value
 
-#### Defined in
+#### Source
 
-main.ts:77314
+main.ts:77322
 
-___
+***
 
-### offset\_token
+### offset\_token?
 
-• `Optional` **offset\_token**: `string`
+> **`optional`** **offset\_token**: `string`
 
 token for subsequent requests
 by specifying the unique offset_token when setting a new task, you will get the subsequent results of the initial task;
 offset_token values are unique for each subsequent task
 
-#### Defined in
+#### Source
 
-main.ts:77318
+main.ts:77326
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total number of relevant items in the database
 
-#### Defined in
+#### Source
 
-main.ts:77310
+main.ts:77318

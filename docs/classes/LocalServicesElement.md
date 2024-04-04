@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / LocalServicesElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / LocalServicesElement
 
 # Class: LocalServicesElement
 
@@ -8,219 +12,189 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](LocalServicesElement.md#constructor)
-
-### Properties
-
-- [description](LocalServicesElement.md#description)
-- [domain](LocalServicesElement.md#domain)
-- [profile\_image\_url](LocalServicesElement.md#profile_image_url)
-- [rating](LocalServicesElement.md#rating)
-- [title](LocalServicesElement.md#title)
-- [type](LocalServicesElement.md#type)
-- [url](LocalServicesElement.md#url)
-
-### Methods
-
-- [init](LocalServicesElement.md#init)
-- [toJSON](LocalServicesElement.md#tojson)
-- [fromJS](LocalServicesElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new LocalServicesElement(data)
 
-• **new LocalServicesElement**(`data?`): [`LocalServicesElement`](LocalServicesElement.md)
+> **new LocalServicesElement**(`data`?): [`LocalServicesElement`](LocalServicesElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ILocalServicesElement`](../interfaces/ILocalServicesElement.md) |
+• **data?**: [`ILocalServicesElement`](../interfaces/ILocalServicesElement.md)
 
 #### Returns
 
 [`LocalServicesElement`](LocalServicesElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:34512
+main.ts:34518
 
 ## Properties
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description
 
 #### Implementation of
 
-[ILocalServicesElement](../interfaces/ILocalServicesElement.md).[description](../interfaces/ILocalServicesElement.md#description)
+[`ILocalServicesElement`](../interfaces/ILocalServicesElement.md).[`description`](../interfaces/ILocalServicesElement.md#description)
 
-#### Defined in
+#### Source
 
-main.ts:34503
+main.ts:34509
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 website domain
 
 #### Implementation of
 
-[ILocalServicesElement](../interfaces/ILocalServicesElement.md).[domain](../interfaces/ILocalServicesElement.md#domain)
+[`ILocalServicesElement`](../interfaces/ILocalServicesElement.md).[`domain`](../interfaces/ILocalServicesElement.md#domain)
 
-#### Defined in
+#### Source
 
-main.ts:34501
+main.ts:34507
 
-___
+***
 
-### profile\_image\_url
+### profile\_image\_url?
 
-• `Optional` **profile\_image\_url**: `string`
+> **`optional`** **profile\_image\_url**: `string`
 
 URL of the image featured in the element
 
 #### Implementation of
 
-[ILocalServicesElement](../interfaces/ILocalServicesElement.md).[profile_image_url](../interfaces/ILocalServicesElement.md#profile_image_url)
+[`ILocalServicesElement`](../interfaces/ILocalServicesElement.md).[`profile_image_url`](../interfaces/ILocalServicesElement.md#profile_image_url)
 
-#### Defined in
+#### Source
 
-main.ts:34508
+main.ts:34514
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](RatingInfo.md)
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
 
-[ILocalServicesElement](../interfaces/ILocalServicesElement.md).[rating](../interfaces/ILocalServicesElement.md#rating)
+[`ILocalServicesElement`](../interfaces/ILocalServicesElement.md).[`rating`](../interfaces/ILocalServicesElement.md#rating)
 
-#### Defined in
+#### Source
 
-main.ts:34506
+main.ts:34512
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
 #### Implementation of
 
-[ILocalServicesElement](../interfaces/ILocalServicesElement.md).[title](../interfaces/ILocalServicesElement.md#title)
+[`ILocalServicesElement`](../interfaces/ILocalServicesElement.md).[`title`](../interfaces/ILocalServicesElement.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:34497
+main.ts:34503
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[ILocalServicesElement](../interfaces/ILocalServicesElement.md).[type](../interfaces/ILocalServicesElement.md#type)
+[`ILocalServicesElement`](../interfaces/ILocalServicesElement.md).[`type`](../interfaces/ILocalServicesElement.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:34495
+main.ts:34501
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL
 
 #### Implementation of
 
-[ILocalServicesElement](../interfaces/ILocalServicesElement.md).[url](../interfaces/ILocalServicesElement.md#url)
+[`ILocalServicesElement`](../interfaces/ILocalServicesElement.md).[`url`](../interfaces/ILocalServicesElement.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:34499
+main.ts:34505
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:34521
+main.ts:34527
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:34544
+main.ts:34550
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`LocalServicesElement`](LocalServicesElement.md)
+> **`static`** **fromJS**(`data`): [`LocalServicesElement`](LocalServicesElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`LocalServicesElement`](LocalServicesElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:34537
+main.ts:34543

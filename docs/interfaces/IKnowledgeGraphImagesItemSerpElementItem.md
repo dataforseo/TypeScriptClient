@@ -1,120 +1,106 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKnowledgeGraphImagesItemSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IKnowledgeGraphImagesItemSerpElementItem
 
 # Interface: IKnowledgeGraphImagesItemSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
 
-  ↳ **`IKnowledgeGraphImagesItemSerpElementItem`**
-
-## Implemented by
-
-- [`KnowledgeGraphImagesItemSerpElementItem`](../classes/KnowledgeGraphImagesItemSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IKnowledgeGraphImagesItemSerpElementItem.md#items)
-- [link](IKnowledgeGraphImagesItemSerpElementItem.md#link)
-- [position](IKnowledgeGraphImagesItemSerpElementItem.md#position)
-- [rank\_absolute](IKnowledgeGraphImagesItemSerpElementItem.md#rank_absolute)
-- [rank\_group](IKnowledgeGraphImagesItemSerpElementItem.md#rank_group)
-- [rectangle](IKnowledgeGraphImagesItemSerpElementItem.md#rectangle)
-- [xpath](IKnowledgeGraphImagesItemSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`KnowledgeGraphImagesElement`](../classes/KnowledgeGraphImagesElement.md)[]
+> **`optional`** **items**: [`KnowledgeGraphImagesElement`](../classes/KnowledgeGraphImagesElement.md)[]
 
 items featured in the faq_box
 
-#### Defined in
+#### Source
 
 main.ts:27130
 
-___
+***
 
-### link
+### link?
 
-• `Optional` **link**: [`LinkElement`](../classes/LinkElement.md)
+> **`optional`** **link**: [`LinkElement`](../classes/LinkElement.md)
 
 link of the element
 
-#### Defined in
+#### Source
 
 main.ts:27128
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
 main.ts:27124
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Defined in
+#### Source
 
 main.ts:27120
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
 main.ts:27117
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
 equals null if calculate_rectangles in the POST request is not set to true
 
-#### Defined in
+#### Source
 
 main.ts:27134
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
 main.ts:27126

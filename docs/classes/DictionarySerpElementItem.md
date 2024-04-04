@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DictionarySerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DictionarySerpElementItem
 
 # Class: DictionarySerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-  ↳ **`DictionarySerpElementItem`**
 
 ## Implements
 
@@ -14,48 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DictionarySerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](DictionarySerpElementItem.md#_discriminator)
-- [breadcrumb](DictionarySerpElementItem.md#breadcrumb)
-- [domain](DictionarySerpElementItem.md#domain)
-- [keyword](DictionarySerpElementItem.md#keyword)
-- [links](DictionarySerpElementItem.md#links)
-- [position](DictionarySerpElementItem.md#position)
-- [rank\_absolute](DictionarySerpElementItem.md#rank_absolute)
-- [rank\_group](DictionarySerpElementItem.md#rank_group)
-- [rectangle](DictionarySerpElementItem.md#rectangle)
-- [snippet](DictionarySerpElementItem.md#snippet)
-- [text](DictionarySerpElementItem.md#text)
-- [title](DictionarySerpElementItem.md#title)
-- [url](DictionarySerpElementItem.md#url)
-- [xpath](DictionarySerpElementItem.md#xpath)
-
-### Methods
-
-- [init](DictionarySerpElementItem.md#init)
-- [toJSON](DictionarySerpElementItem.md#tojson)
-- [fromJS](DictionarySerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DictionarySerpElementItem(data)
 
-• **new DictionarySerpElementItem**(`data?`): [`DictionarySerpElementItem`](DictionarySerpElementItem.md)
+> **new DictionarySerpElementItem**(`data`?): [`DictionarySerpElementItem`](DictionarySerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDictionarySerpElementItem`](../interfaces/IDictionarySerpElementItem.md) |
+• **data?**: [`IDictionarySerpElementItem`](../interfaces/IDictionarySerpElementItem.md)
 
 #### Returns
 
@@ -63,79 +34,79 @@
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[constructor](BaseSerpElementItem.md#constructor)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:69268
+main.ts:69276
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[_discriminator](BaseSerpElementItem.md#_discriminator)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:19788
 
-___
+***
 
-### breadcrumb
+### breadcrumb?
 
-• `Optional` **breadcrumb**: `string`
+> **`optional`** **breadcrumb**: `string`
 
 breadcrumb of the Ad element in SERP
 
 #### Implementation of
 
-[IDictionarySerpElementItem](../interfaces/IDictionarySerpElementItem.md).[breadcrumb](../interfaces/IDictionarySerpElementItem.md#breadcrumb)
+[`IDictionarySerpElementItem`](../interfaces/IDictionarySerpElementItem.md).[`breadcrumb`](../interfaces/IDictionarySerpElementItem.md#breadcrumb)
 
-#### Defined in
+#### Source
 
-main.ts:69250
+main.ts:69258
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain in SERP
 
 #### Implementation of
 
-[IDictionarySerpElementItem](../interfaces/IDictionarySerpElementItem.md).[domain](../interfaces/IDictionarySerpElementItem.md#domain)
+[`IDictionarySerpElementItem`](../interfaces/IDictionarySerpElementItem.md).[`domain`](../interfaces/IDictionarySerpElementItem.md#domain)
 
-#### Defined in
+#### Source
 
-main.ts:69248
+main.ts:69256
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword highlighted in the result
 
 #### Implementation of
 
-[IDictionarySerpElementItem](../interfaces/IDictionarySerpElementItem.md).[keyword](../interfaces/IDictionarySerpElementItem.md#keyword)
+[`IDictionarySerpElementItem`](../interfaces/IDictionarySerpElementItem.md).[`keyword`](../interfaces/IDictionarySerpElementItem.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:69252
+main.ts:69260
 
-___
+***
 
-### links
+### links?
 
-• `Optional` **links**: [`LinkElement`](LinkElement.md)[]
+> **`optional`** **links**: [`LinkElement`](LinkElement.md)[]
 
 sitelinks
 the links shown below some of search results
@@ -143,17 +114,17 @@ if there are none, equals null
 
 #### Implementation of
 
-[IDictionarySerpElementItem](../interfaces/IDictionarySerpElementItem.md).[links](../interfaces/IDictionarySerpElementItem.md#links)
+[`IDictionarySerpElementItem`](../interfaces/IDictionarySerpElementItem.md).[`links`](../interfaces/IDictionarySerpElementItem.md#links)
 
-#### Defined in
+#### Source
 
-main.ts:69260
+main.ts:69268
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -161,34 +132,34 @@ left, right
 
 #### Implementation of
 
-[IDictionarySerpElementItem](../interfaces/IDictionarySerpElementItem.md).[position](../interfaces/IDictionarySerpElementItem.md#position)
+[`IDictionarySerpElementItem`](../interfaces/IDictionarySerpElementItem.md).[`position`](../interfaces/IDictionarySerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
-main.ts:69240
+main.ts:69248
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
 #### Implementation of
 
-[IDictionarySerpElementItem](../interfaces/IDictionarySerpElementItem.md).[rank_absolute](../interfaces/IDictionarySerpElementItem.md#rank_absolute)
+[`IDictionarySerpElementItem`](../interfaces/IDictionarySerpElementItem.md).[`rank_absolute`](../interfaces/IDictionarySerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:69236
+main.ts:69244
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -196,17 +167,17 @@ positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
-[IDictionarySerpElementItem](../interfaces/IDictionarySerpElementItem.md).[rank_group](../interfaces/IDictionarySerpElementItem.md#rank_group)
+[`IDictionarySerpElementItem`](../interfaces/IDictionarySerpElementItem.md).[`rank_group`](../interfaces/IDictionarySerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
-main.ts:69233
+main.ts:69241
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -214,103 +185,101 @@ note: calculate_rectangles parameter is not yet available when setting tasks for
 
 #### Implementation of
 
-[IDictionarySerpElementItem](../interfaces/IDictionarySerpElementItem.md).[rectangle](../interfaces/IDictionarySerpElementItem.md#rectangle)
+[`IDictionarySerpElementItem`](../interfaces/IDictionarySerpElementItem.md).[`rectangle`](../interfaces/IDictionarySerpElementItem.md#rectangle)
 
-#### Defined in
+#### Source
 
-main.ts:69264
+main.ts:69272
 
-___
+***
 
-### snippet
+### snippet?
 
-• `Optional` **snippet**: `string`
+> **`optional`** **snippet**: `string`
 
 snippet of the element
 
 #### Implementation of
 
-[IDictionarySerpElementItem](../interfaces/IDictionarySerpElementItem.md).[snippet](../interfaces/IDictionarySerpElementItem.md#snippet)
+[`IDictionarySerpElementItem`](../interfaces/IDictionarySerpElementItem.md).[`snippet`](../interfaces/IDictionarySerpElementItem.md#snippet)
 
-#### Defined in
+#### Source
 
-main.ts:69254
+main.ts:69262
 
-___
+***
 
-### text
+### text?
 
-• `Optional` **text**: `boolean`
+> **`optional`** **text**: `boolean`
 
 description of the results element in SERP
 
 #### Implementation of
 
-[IDictionarySerpElementItem](../interfaces/IDictionarySerpElementItem.md).[text](../interfaces/IDictionarySerpElementItem.md#text)
+[`IDictionarySerpElementItem`](../interfaces/IDictionarySerpElementItem.md).[`text`](../interfaces/IDictionarySerpElementItem.md#text)
 
-#### Defined in
+#### Source
 
-main.ts:69256
+main.ts:69264
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the result in SERP
 
 #### Implementation of
 
-[IDictionarySerpElementItem](../interfaces/IDictionarySerpElementItem.md).[title](../interfaces/IDictionarySerpElementItem.md#title)
+[`IDictionarySerpElementItem`](../interfaces/IDictionarySerpElementItem.md).[`title`](../interfaces/IDictionarySerpElementItem.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:69244
+main.ts:69252
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 relevant URL of the Ad element in SERP
 
 #### Implementation of
 
-[IDictionarySerpElementItem](../interfaces/IDictionarySerpElementItem.md).[url](../interfaces/IDictionarySerpElementItem.md#url)
+[`IDictionarySerpElementItem`](../interfaces/IDictionarySerpElementItem.md).[`url`](../interfaces/IDictionarySerpElementItem.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:69246
+main.ts:69254
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IDictionarySerpElementItem](../interfaces/IDictionarySerpElementItem.md).[xpath](../interfaces/IDictionarySerpElementItem.md#xpath)
+[`IDictionarySerpElementItem`](../interfaces/IDictionarySerpElementItem.md).[`xpath`](../interfaces/IDictionarySerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
-main.ts:69242
+main.ts:69250
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -318,23 +287,21 @@ main.ts:69242
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[init](BaseSerpElementItem.md#init)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:69273
+main.ts:69281
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -342,23 +309,21 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[toJSON](BaseSerpElementItem.md#tojson)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:69307
+main.ts:69315
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DictionarySerpElementItem`](DictionarySerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`DictionarySerpElementItem`](DictionarySerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -366,8 +331,8 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[fromJS](BaseSerpElementItem.md#fromjs)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:69300
+main.ts:69308

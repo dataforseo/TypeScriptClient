@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentAnalysisAvailableFiltersResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ContentAnalysisAvailableFiltersResultInfo
 
 # Class: ContentAnalysisAvailableFiltersResultInfo
 
@@ -8,118 +12,94 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ContentAnalysisAvailableFiltersResultInfo.md#constructor)
-
-### Properties
-
-- [search](ContentAnalysisAvailableFiltersResultInfo.md#search)
-
-### Methods
-
-- [init](ContentAnalysisAvailableFiltersResultInfo.md#init)
-- [toJSON](ContentAnalysisAvailableFiltersResultInfo.md#tojson)
-- [fromJS](ContentAnalysisAvailableFiltersResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ContentAnalysisAvailableFiltersResultInfo(data)
 
-• **new ContentAnalysisAvailableFiltersResultInfo**(`data?`): [`ContentAnalysisAvailableFiltersResultInfo`](ContentAnalysisAvailableFiltersResultInfo.md)
+> **new ContentAnalysisAvailableFiltersResultInfo**(`data`?): [`ContentAnalysisAvailableFiltersResultInfo`](ContentAnalysisAvailableFiltersResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IContentAnalysisAvailableFiltersResultInfo`](../interfaces/IContentAnalysisAvailableFiltersResultInfo.md) |
+• **data?**: [`IContentAnalysisAvailableFiltersResultInfo`](../interfaces/IContentAnalysisAvailableFiltersResultInfo.md)
 
 #### Returns
 
 [`ContentAnalysisAvailableFiltersResultInfo`](ContentAnalysisAvailableFiltersResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:160785
+main.ts:160793
 
 ## Properties
 
-### search
+### search?
 
-• `Optional` **search**: `Object`
+> **`optional`** **search**: `Object`
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
 #### Implementation of
 
-[IContentAnalysisAvailableFiltersResultInfo](../interfaces/IContentAnalysisAvailableFiltersResultInfo.md).[search](../interfaces/IContentAnalysisAvailableFiltersResultInfo.md#search)
+[`IContentAnalysisAvailableFiltersResultInfo`](../interfaces/IContentAnalysisAvailableFiltersResultInfo.md).[`search`](../interfaces/IContentAnalysisAvailableFiltersResultInfo.md#search)
 
-#### Defined in
+#### Source
 
-main.ts:160781
+main.ts:160789
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:160794
+main.ts:160802
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:160817
+main.ts:160825
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ContentAnalysisAvailableFiltersResultInfo`](ContentAnalysisAvailableFiltersResultInfo.md)
+> **`static`** **fromJS**(`data`): [`ContentAnalysisAvailableFiltersResultInfo`](ContentAnalysisAvailableFiltersResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ContentAnalysisAvailableFiltersResultInfo`](ContentAnalysisAvailableFiltersResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:160810
+main.ts:160818

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpYahooLanguagesResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpYahooLanguagesResultInfo
 
 # Class: SerpYahooLanguagesResultInfo
 
@@ -8,133 +12,108 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpYahooLanguagesResultInfo.md#constructor)
-
-### Properties
-
-- [language\_code](SerpYahooLanguagesResultInfo.md#language_code)
-- [language\_name](SerpYahooLanguagesResultInfo.md#language_name)
-
-### Methods
-
-- [init](SerpYahooLanguagesResultInfo.md#init)
-- [toJSON](SerpYahooLanguagesResultInfo.md#tojson)
-- [fromJS](SerpYahooLanguagesResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpYahooLanguagesResultInfo(data)
 
-• **new SerpYahooLanguagesResultInfo**(`data?`): [`SerpYahooLanguagesResultInfo`](SerpYahooLanguagesResultInfo.md)
+> **new SerpYahooLanguagesResultInfo**(`data`?): [`SerpYahooLanguagesResultInfo`](SerpYahooLanguagesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpYahooLanguagesResultInfo`](../interfaces/ISerpYahooLanguagesResultInfo.md) |
+• **data?**: [`ISerpYahooLanguagesResultInfo`](../interfaces/ISerpYahooLanguagesResultInfo.md)
 
 #### Returns
 
 [`SerpYahooLanguagesResultInfo`](SerpYahooLanguagesResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:65411
+main.ts:65419
 
 ## Properties
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code according to ISO 639-1
 
 #### Implementation of
 
-[ISerpYahooLanguagesResultInfo](../interfaces/ISerpYahooLanguagesResultInfo.md).[language_code](../interfaces/ISerpYahooLanguagesResultInfo.md#language_code)
+[`ISerpYahooLanguagesResultInfo`](../interfaces/ISerpYahooLanguagesResultInfo.md).[`language_code`](../interfaces/ISerpYahooLanguagesResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:65407
+main.ts:65415
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 language name
 
 #### Implementation of
 
-[ISerpYahooLanguagesResultInfo](../interfaces/ISerpYahooLanguagesResultInfo.md).[language_name](../interfaces/ISerpYahooLanguagesResultInfo.md#language_name)
+[`ISerpYahooLanguagesResultInfo`](../interfaces/ISerpYahooLanguagesResultInfo.md).[`language_name`](../interfaces/ISerpYahooLanguagesResultInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:65405
+main.ts:65413
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:65420
+main.ts:65428
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:65438
+main.ts:65446
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpYahooLanguagesResultInfo`](SerpYahooLanguagesResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpYahooLanguagesResultInfo`](SerpYahooLanguagesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpYahooLanguagesResultInfo`](SerpYahooLanguagesResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:65431
+main.ts:65439

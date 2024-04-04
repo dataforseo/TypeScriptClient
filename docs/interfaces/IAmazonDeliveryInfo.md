@@ -1,96 +1,85 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAmazonDeliveryInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAmazonDeliveryInfo
 
 # Interface: IAmazonDeliveryInfo
 
-## Implemented by
-
-- [`AmazonDeliveryInfo`](../classes/AmazonDeliveryInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [delivery\_date\_from](IAmazonDeliveryInfo.md#delivery_date_from)
-- [delivery\_date\_to](IAmazonDeliveryInfo.md#delivery_date_to)
-- [delivery\_message](IAmazonDeliveryInfo.md#delivery_message)
-- [delivery\_price](IAmazonDeliveryInfo.md#delivery_price)
-- [fastest\_delivery\_date\_from](IAmazonDeliveryInfo.md#fastest_delivery_date_from)
-- [fastest\_delivery\_date\_to](IAmazonDeliveryInfo.md#fastest_delivery_date_to)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### delivery\_date\_from
+### delivery\_date\_from?
 
-• `Optional` **delivery\_date\_from**: `string`
+> **`optional`** **delivery\_date\_from**: `string`
 
 the earliest date when the product can be shipped
 
-#### Defined in
+#### Source
 
 main.ts:21729
 
-___
+***
 
-### delivery\_date\_to
+### delivery\_date\_to?
 
-• `Optional` **delivery\_date\_to**: `string`
+> **`optional`** **delivery\_date\_to**: `string`
 
 the latest date when the product can be delivered
 
-#### Defined in
+#### Source
 
 main.ts:21731
 
-___
+***
 
-### delivery\_message
+### delivery\_message?
 
-• `Optional` **delivery\_message**: `string`
+> **`optional`** **delivery\_message**: `string`
 
 message accompanying the delivery information as posted by the seller
 
-#### Defined in
+#### Source
 
 main.ts:21727
 
-___
+***
 
-### delivery\_price
+### delivery\_price?
 
-• `Optional` **delivery\_price**: [`PriceInfo`](../classes/PriceInfo.md)
+> **`optional`** **delivery\_price**: [`PriceInfo`](../classes/PriceInfo.md)
 
 price for the delivery
 price of the delivery based on the location you specified in the POST request;
 if free delivery is available, the value is null
 
-#### Defined in
+#### Source
 
 main.ts:21739
 
-___
+***
 
-### fastest\_delivery\_date\_from
+### fastest\_delivery\_date\_from?
 
-• `Optional` **fastest\_delivery\_date\_from**: `string`
+> **`optional`** **fastest\_delivery\_date\_from**: `string`
 
 the earliest date when the product can be delivered with a fast delivery option
 
-#### Defined in
+#### Source
 
 main.ts:21733
 
-___
+***
 
-### fastest\_delivery\_date\_to
+### fastest\_delivery\_date\_to?
 
-• `Optional` **fastest\_delivery\_date\_to**: `string`
+> **`optional`** **fastest\_delivery\_date\_to**: `string`
 
 the latest date when the product can be delivered with a fast delivery option
 
-#### Defined in
+#### Source
 
 main.ts:21735

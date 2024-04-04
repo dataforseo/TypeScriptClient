@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / QueriesListDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / QueriesListDataInfo
 
 # Class: QueriesListDataInfo
 
@@ -8,135 +12,110 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](QueriesListDataInfo.md#constructor)
-
-### Properties
-
-- [rising](QueriesListDataInfo.md#rising)
-- [top](QueriesListDataInfo.md#top)
-
-### Methods
-
-- [init](QueriesListDataInfo.md#init)
-- [toJSON](QueriesListDataInfo.md#tojson)
-- [fromJS](QueriesListDataInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new QueriesListDataInfo(data)
 
-• **new QueriesListDataInfo**(`data?`): [`QueriesListDataInfo`](QueriesListDataInfo.md)
+> **new QueriesListDataInfo**(`data`?): [`QueriesListDataInfo`](QueriesListDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IQueriesListDataInfo`](../interfaces/IQueriesListDataInfo.md) |
+• **data?**: [`IQueriesListDataInfo`](../interfaces/IQueriesListDataInfo.md)
 
 #### Returns
 
 [`QueriesListDataInfo`](QueriesListDataInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:123383
+main.ts:123391
 
 ## Properties
 
-### rising
+### rising?
 
-• `Optional` **rising**: [`QueriesListDataItemInfo`](QueriesListDataItemInfo.md)[]
+> **`optional`** **rising**: [`QueriesListDataItemInfo`](QueriesListDataItemInfo.md)[]
 
 emerging related topics
 represents the list of related topics with the biggest increase in search frequency since the last time period
 
 #### Implementation of
 
-[IQueriesListDataInfo](../interfaces/IQueriesListDataInfo.md).[rising](../interfaces/IQueriesListDataInfo.md#rising)
+[`IQueriesListDataInfo`](../interfaces/IQueriesListDataInfo.md).[`rising`](../interfaces/IQueriesListDataInfo.md#rising)
 
-#### Defined in
+#### Source
 
-main.ts:123379
+main.ts:123387
 
-___
+***
 
-### top
+### top?
 
-• `Optional` **top**: [`QueriesListDataItemInfo`](QueriesListDataItemInfo.md)[]
+> **`optional`** **top**: [`QueriesListDataItemInfo`](QueriesListDataItemInfo.md)[]
 
 the most popular related topics
 represents the list of the most popular related topics
 
 #### Implementation of
 
-[IQueriesListDataInfo](../interfaces/IQueriesListDataInfo.md).[top](../interfaces/IQueriesListDataInfo.md#top)
+[`IQueriesListDataInfo`](../interfaces/IQueriesListDataInfo.md).[`top`](../interfaces/IQueriesListDataInfo.md#top)
 
-#### Defined in
+#### Source
 
-main.ts:123376
+main.ts:123384
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:123392
+main.ts:123400
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:123418
+main.ts:123426
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`QueriesListDataInfo`](QueriesListDataInfo.md)
+> **`static`** **fromJS**(`data`): [`QueriesListDataInfo`](QueriesListDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`QueriesListDataInfo`](QueriesListDataInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:123411
+main.ts:123419

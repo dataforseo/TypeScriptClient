@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / GoogleReviewsDataforseoLabsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / GoogleReviewsDataforseoLabsSerpElementItem
 
 # Class: GoogleReviewsDataforseoLabsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
-
-  ↳ **`GoogleReviewsDataforseoLabsSerpElementItem`**
 
 ## Implements
 
@@ -14,44 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](GoogleReviewsDataforseoLabsSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](GoogleReviewsDataforseoLabsSerpElementItem.md#_discriminator)
-- [cid](GoogleReviewsDataforseoLabsSerpElementItem.md#cid)
-- [feature](GoogleReviewsDataforseoLabsSerpElementItem.md#feature)
-- [place\_id](GoogleReviewsDataforseoLabsSerpElementItem.md#place_id)
-- [position](GoogleReviewsDataforseoLabsSerpElementItem.md#position)
-- [rank\_absolute](GoogleReviewsDataforseoLabsSerpElementItem.md#rank_absolute)
-- [rank\_group](GoogleReviewsDataforseoLabsSerpElementItem.md#rank_group)
-- [rating](GoogleReviewsDataforseoLabsSerpElementItem.md#rating)
-- [reviews\_count](GoogleReviewsDataforseoLabsSerpElementItem.md#reviews_count)
-- [xpath](GoogleReviewsDataforseoLabsSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](GoogleReviewsDataforseoLabsSerpElementItem.md#init)
-- [toJSON](GoogleReviewsDataforseoLabsSerpElementItem.md#tojson)
-- [fromJS](GoogleReviewsDataforseoLabsSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new GoogleReviewsDataforseoLabsSerpElementItem(data)
 
-• **new GoogleReviewsDataforseoLabsSerpElementItem**(`data?`): [`GoogleReviewsDataforseoLabsSerpElementItem`](GoogleReviewsDataforseoLabsSerpElementItem.md)
+> **new GoogleReviewsDataforseoLabsSerpElementItem**(`data`?): [`GoogleReviewsDataforseoLabsSerpElementItem`](GoogleReviewsDataforseoLabsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IGoogleReviewsDataforseoLabsSerpElementItem`](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md) |
+• **data?**: [`IGoogleReviewsDataforseoLabsSerpElementItem`](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md)
 
 #### Returns
 
@@ -59,79 +34,79 @@
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[constructor](BaseDataforseoLabsSerpElementItem.md#constructor)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:96657
+main.ts:96665
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[_discriminator](BaseDataforseoLabsSerpElementItem.md#_discriminator)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`_discriminator`](BaseDataforseoLabsSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:20171
 
-___
+***
 
-### cid
+### cid?
 
-• `Optional` **cid**: `string`
+> **`optional`** **cid**: `string`
 
 google-defined client id
 
 #### Implementation of
 
-[IGoogleReviewsDataforseoLabsSerpElementItem](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md).[cid](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md#cid)
+[`IGoogleReviewsDataforseoLabsSerpElementItem`](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md).[`cid`](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md#cid)
 
-#### Defined in
+#### Source
 
-main.ts:96653
+main.ts:96661
 
-___
+***
 
-### feature
+### feature?
 
-• `Optional` **feature**: `string`
+> **`optional`** **feature**: `string`
 
 the additional feature of the review
 
 #### Implementation of
 
-[IGoogleReviewsDataforseoLabsSerpElementItem](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md).[feature](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md#feature)
+[`IGoogleReviewsDataforseoLabsSerpElementItem`](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md).[`feature`](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md#feature)
 
-#### Defined in
+#### Source
 
-main.ts:96651
+main.ts:96659
 
-___
+***
 
-### place\_id
+### place\_id?
 
-• `Optional` **place\_id**: `string`
+> **`optional`** **place\_id**: `string`
 
 the identifier of a place
 
 #### Implementation of
 
-[IGoogleReviewsDataforseoLabsSerpElementItem](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md).[place_id](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md#place_id)
+[`IGoogleReviewsDataforseoLabsSerpElementItem`](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md).[`place_id`](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md#place_id)
 
-#### Defined in
+#### Source
 
-main.ts:96649
+main.ts:96657
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -139,106 +114,104 @@ left, right
 
 #### Implementation of
 
-[IGoogleReviewsDataforseoLabsSerpElementItem](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md).[position](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md#position)
+[`IGoogleReviewsDataforseoLabsSerpElementItem`](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md).[`position`](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
-main.ts:96640
+main.ts:96648
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
 #### Implementation of
 
-[IGoogleReviewsDataforseoLabsSerpElementItem](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md).[rank_absolute](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md#rank_absolute)
+[`IGoogleReviewsDataforseoLabsSerpElementItem`](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md).[`rank_absolute`](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:96636
+main.ts:96644
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
-[IGoogleReviewsDataforseoLabsSerpElementItem](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md).[rank_group](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md#rank_group)
+[`IGoogleReviewsDataforseoLabsSerpElementItem`](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md).[`rank_group`](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
-main.ts:96633
+main.ts:96641
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](RatingInfo.md)
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
 
-[IGoogleReviewsDataforseoLabsSerpElementItem](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md).[rating](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md#rating)
+[`IGoogleReviewsDataforseoLabsSerpElementItem`](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md).[`rating`](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md#rating)
 
-#### Defined in
+#### Source
 
-main.ts:96647
+main.ts:96655
 
-___
+***
 
-### reviews\_count
+### reviews\_count?
 
-• `Optional` **reviews\_count**: `number`
+> **`optional`** **reviews\_count**: `number`
 
 the number of reviews
 
 #### Implementation of
 
-[IGoogleReviewsDataforseoLabsSerpElementItem](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md).[reviews_count](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md#reviews_count)
+[`IGoogleReviewsDataforseoLabsSerpElementItem`](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md).[`reviews_count`](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md#reviews_count)
 
-#### Defined in
+#### Source
 
-main.ts:96644
+main.ts:96652
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IGoogleReviewsDataforseoLabsSerpElementItem](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md).[xpath](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md#xpath)
+[`IGoogleReviewsDataforseoLabsSerpElementItem`](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md).[`xpath`](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
-main.ts:96642
+main.ts:96650
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -246,23 +219,21 @@ main.ts:96642
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[init](BaseDataforseoLabsSerpElementItem.md#init)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`init`](BaseDataforseoLabsSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:96662
+main.ts:96670
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -270,23 +241,21 @@ ___
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[toJSON](BaseDataforseoLabsSerpElementItem.md#tojson)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`toJSON`](BaseDataforseoLabsSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:96688
+main.ts:96696
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`GoogleReviewsDataforseoLabsSerpElementItem`](GoogleReviewsDataforseoLabsSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`GoogleReviewsDataforseoLabsSerpElementItem`](GoogleReviewsDataforseoLabsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -294,8 +263,8 @@ ___
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[fromJS](BaseDataforseoLabsSerpElementItem.md#fromjs)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`fromJS`](BaseDataforseoLabsSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:96681
+main.ts:96689

@@ -1,44 +1,37 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusyWorkingTimeInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBusyWorkingTimeInfo
 
 # Interface: IBusyWorkingTimeInfo
 
-## Implemented by
-
-- [`BusyWorkingTimeInfo`](../classes/BusyWorkingTimeInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [popular\_index](IBusyWorkingTimeInfo.md#popular_index)
-- [time](IBusyWorkingTimeInfo.md#time)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### popular\_index
+### popular\_index?
 
-• `Optional` **popular\_index**: `number`
+> **`optional`** **popular\_index**: `number`
 
 popularity index
 relative time-bound popularity index measured from 0 to 100;
 higher value corresponds to a busier time of a day
 
-#### Defined in
+#### Source
 
 main.ts:194316
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: [`WorkTimeInfo`](../classes/WorkTimeInfo.md)
+> **`optional`** **time**: [`WorkTimeInfo`](../classes/WorkTimeInfo.md)
 
 busy hours
 
-#### Defined in
+#### Source
 
 main.ts:194312

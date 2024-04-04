@@ -1,38 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpYoutubeVideoCommentsTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ISerpYoutubeVideoCommentsTaskPostRequestInfo
 
 # Interface: ISerpYoutubeVideoCommentsTaskPostRequestInfo
 
-## Implemented by
-
-- [`SerpYoutubeVideoCommentsTaskPostRequestInfo`](../classes/SerpYoutubeVideoCommentsTaskPostRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [depth](ISerpYoutubeVideoCommentsTaskPostRequestInfo.md#depth)
-- [device](ISerpYoutubeVideoCommentsTaskPostRequestInfo.md#device)
-- [language\_code](ISerpYoutubeVideoCommentsTaskPostRequestInfo.md#language_code)
-- [language\_name](ISerpYoutubeVideoCommentsTaskPostRequestInfo.md#language_name)
-- [location\_code](ISerpYoutubeVideoCommentsTaskPostRequestInfo.md#location_code)
-- [location\_name](ISerpYoutubeVideoCommentsTaskPostRequestInfo.md#location_name)
-- [os](ISerpYoutubeVideoCommentsTaskPostRequestInfo.md#os)
-- [pingback\_url](ISerpYoutubeVideoCommentsTaskPostRequestInfo.md#pingback_url)
-- [postback\_data](ISerpYoutubeVideoCommentsTaskPostRequestInfo.md#postback_data)
-- [postback\_url](ISerpYoutubeVideoCommentsTaskPostRequestInfo.md#postback_url)
-- [priority](ISerpYoutubeVideoCommentsTaskPostRequestInfo.md#priority)
-- [tag](ISerpYoutubeVideoCommentsTaskPostRequestInfo.md#tag)
-- [video\_id](ISerpYoutubeVideoCommentsTaskPostRequestInfo.md#video_id)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### depth
+### depth?
 
-• `Optional` **depth**: `number`
+> **`optional`** **depth**: `number`
 
 parsing depth
 optional field
@@ -43,29 +25,29 @@ Note: your account will be billed per each SERP containing up to 20 results;
 thus, setting a depth above 20 may result in additional charges if the search engine returns more than 20 results;
 if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance
 
-#### Defined in
+#### Source
 
-main.ts:63634
+main.ts:63642
 
-___
+***
 
-### device
+### device?
 
-• `Optional` **device**: `string`
+> **`optional`** **device**: `string`
 
 device type
 optional field
 only value: desktop
 
-#### Defined in
+#### Source
 
-main.ts:63620
+main.ts:63628
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -74,15 +56,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:63616
+main.ts:63624
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -91,15 +73,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:63609
+main.ts:63617
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name
@@ -108,15 +90,15 @@ you can receive the list of available locations of the search engines with their
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:63602
+main.ts:63610
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -125,30 +107,30 @@ you can receive the list of available locations of the search engine with their 
 example:
 United States
 
-#### Defined in
+#### Source
 
-main.ts:63595
+main.ts:63603
 
-___
+***
 
-### os
+### os?
 
-• `Optional` **os**: `string`
+> **`optional`** **os**: `string`
 
 device operating system
 optional field
 choose from the following values: windows, macos
 default value: windows
 
-#### Defined in
+#### Source
 
-main.ts:63625
+main.ts:63633
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -160,15 +142,15 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special symbols in pingback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
-main.ts:63666
+main.ts:63674
 
-___
+***
 
-### postback\_data
+### postback\_data?
 
-• `Optional` **postback\_data**: `string`
+> **`optional`** **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -176,15 +158,15 @@ corresponds to the datatype that will be sent to your server
 possible value:
 advanced
 
-#### Defined in
+#### Source
 
-main.ts:63656
+main.ts:63664
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -196,15 +178,15 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special symbols in postback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
-main.ts:63650
+main.ts:63658
 
-___
+***
 
-### priority
+### priority?
 
-• `Optional` **priority**: `number`
+> **`optional`** **priority**: `number`
 
 task priority
 optional field
@@ -214,15 +196,15 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page.
 
-#### Defined in
+#### Source
 
-main.ts:63588
+main.ts:63596
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -230,15 +212,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:63640
+main.ts:63648
 
-___
+***
 
-### video\_id
+### video\_id?
 
-• `Optional` **video\_id**: `string`
+> **`optional`** **video\_id**: `string`
 
 ID of the video
 required field
@@ -246,6 +228,6 @@ you can find video ID in the URL or ‘youtube_video’ item of YouTube Organic 
 example:
 vQXvyV0zIP4
 
-#### Defined in
+#### Source
 
-main.ts:63580
+main.ts:63588

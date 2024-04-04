@@ -1,49 +1,41 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixProductGoogleMerchantPriceDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppendixProductGoogleMerchantPriceDataInfo
 
 # Interface: IAppendixProductGoogleMerchantPriceDataInfo
 
-## Implemented by
-
-- [`AppendixProductGoogleMerchantPriceDataInfo`](../classes/AppendixProductGoogleMerchantPriceDataInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [task\_get](IAppendixProductGoogleMerchantPriceDataInfo.md#task_get)
-- [task\_post](IAppendixProductGoogleMerchantPriceDataInfo.md#task_post)
-- [tasks\_ready](IAppendixProductGoogleMerchantPriceDataInfo.md#tasks_ready)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### task\_get
+### task\_get?
 
-• `Optional` **task\_get**: [`AppendixTaskGetProductGoogleMerchantPriceDataInfo`](../classes/AppendixTaskGetProductGoogleMerchantPriceDataInfo.md)
+> **`optional`** **task\_get**: [`AppendixTaskGetProductGoogleMerchantPriceDataInfo`](../classes/AppendixTaskGetProductGoogleMerchantPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:215888
 
-___
+***
 
-### task\_post
+### task\_post?
 
-• `Optional` **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:215889
 
-___
+***
 
-### tasks\_ready
+### tasks\_ready?
 
-• `Optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:215890

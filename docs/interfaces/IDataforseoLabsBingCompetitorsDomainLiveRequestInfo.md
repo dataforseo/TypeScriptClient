@@ -1,39 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingCompetitorsDomainLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsBingCompetitorsDomainLiveRequestInfo
 
 # Interface: IDataforseoLabsBingCompetitorsDomainLiveRequestInfo
 
-## Implemented by
-
-- [`DataforseoLabsBingCompetitorsDomainLiveRequestInfo`](../classes/DataforseoLabsBingCompetitorsDomainLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [exclude\_top\_domains](IDataforseoLabsBingCompetitorsDomainLiveRequestInfo.md#exclude_top_domains)
-- [filters](IDataforseoLabsBingCompetitorsDomainLiveRequestInfo.md#filters)
-- [intersecting\_domains](IDataforseoLabsBingCompetitorsDomainLiveRequestInfo.md#intersecting_domains)
-- [item\_types](IDataforseoLabsBingCompetitorsDomainLiveRequestInfo.md#item_types)
-- [language\_code](IDataforseoLabsBingCompetitorsDomainLiveRequestInfo.md#language_code)
-- [language\_name](IDataforseoLabsBingCompetitorsDomainLiveRequestInfo.md#language_name)
-- [limit](IDataforseoLabsBingCompetitorsDomainLiveRequestInfo.md#limit)
-- [location\_code](IDataforseoLabsBingCompetitorsDomainLiveRequestInfo.md#location_code)
-- [location\_name](IDataforseoLabsBingCompetitorsDomainLiveRequestInfo.md#location_name)
-- [max\_rank\_group](IDataforseoLabsBingCompetitorsDomainLiveRequestInfo.md#max_rank_group)
-- [offset](IDataforseoLabsBingCompetitorsDomainLiveRequestInfo.md#offset)
-- [order\_by](IDataforseoLabsBingCompetitorsDomainLiveRequestInfo.md#order_by)
-- [tag](IDataforseoLabsBingCompetitorsDomainLiveRequestInfo.md#tag)
-- [target](IDataforseoLabsBingCompetitorsDomainLiveRequestInfo.md#target)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### exclude\_top\_domains
+### exclude\_top\_domains?
 
-• `Optional` **exclude\_top\_domains**: `boolean`
+> **`optional`** **exclude\_top\_domains**: `boolean`
 
 indicates whether to exclude world’s largest websites
 optional field
@@ -57,39 +38,39 @@ twitter.com
 linkedin.com
 slideshare.net
 
-#### Defined in
+#### Source
 
-main.ts:105540
+main.ts:105548
 
-___
+***
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, <=, >, >=, =, <>, in, not_in
+regex, <, `<=, >`, >=, =, `<>`, in, not_in
 example:
-["metrics.organic.count",">",50]
-[["metrics.organic.pos_1","<>",0],"and",["metrics.organic.etv",">=","10"]]
+["metrics.organic.count",">`",50]
+[["metrics.organic.pos_1","`<>`",0],"and",["metrics.organic.etv",">`=","10"]]
 [[["metrics.organic.count",">=",50],"and",["metrics.organic.pos_1","in",[1,5]]],
 "or",
 ["metrics.organic.etv",">=","100"]]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide
 
-#### Defined in
+#### Source
 
-main.ts:105486
+main.ts:105494
 
-___
+***
 
-### intersecting\_domains
+### intersecting\_domains?
 
-• `Optional` **intersecting\_domains**: `string`[]
+> **`optional`** **intersecting\_domains**: `string`[]
 
 additional domains for improving results accuracy
 optional field
@@ -97,15 +78,15 @@ to improve the accuracy of the result, you can specify domains that are known to
 if you use this array, metrics in the result will be based on SERPs where both target website and intersecting_domains appear;
 Note: you can specify up to 20 domains in this array
 
-#### Defined in
+#### Source
 
-main.ts:105546
+main.ts:105554
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 display results by item type
 optional field
@@ -116,15 +97,15 @@ possible values:
 default value:
 ["organic", "paid", "featured_snippet", "local_pack"]
 
-#### Defined in
+#### Source
 
-main.ts:105472
+main.ts:105480
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 required field if you don’t specify language_name
@@ -134,15 +115,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:105463
+main.ts:105471
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -152,30 +133,30 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:105455
+main.ts:105463
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned domains
 optional field
 default value: 100
 maximum value: 1000
 
-#### Defined in
+#### Source
 
-main.ts:105508
+main.ts:105516
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 required field if you don’t specify location_name
@@ -186,15 +167,15 @@ Note: this endpoint currently supports the US location only;
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:105447
+main.ts:105455
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code
@@ -205,45 +186,45 @@ Note: this endpoint currently supports the US location only;
 example:
 United States
 
-#### Defined in
+#### Source
 
-main.ts:105438
+main.ts:105446
 
-___
+***
 
-### max\_rank\_group
+### max\_rank\_group?
 
-• `Optional` **max\_rank\_group**: `number`
+> **`optional`** **max\_rank\_group**: `number`
 
 maximum rank up to which competitors will be considered
 optional field
 default value: 100
 if you specify 10 here, we will extract competitors from the top 10 Bing search results only
 
-#### Defined in
+#### Source
 
-main.ts:105518
+main.ts:105526
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned domains
 optional field
 default value: 0
 if you specify the 10 value, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords
 
-#### Defined in
+#### Source
 
-main.ts:105513
+main.ts:105521
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -262,15 +243,15 @@ default rule:
 ["metrics.organic.count,desc"]
 Note: if the item_types array contains item types that are different from organic, the results will be ordered by the first item type in the array
 
-#### Defined in
+#### Source
 
-main.ts:105503
+main.ts:105511
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -278,21 +259,21 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:105552
+main.ts:105560
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 domain
 required field
 the domain name of the target website
 the domain should be specified without https:// and www.
 
-#### Defined in
+#### Source
 
-main.ts:105429
+main.ts:105437

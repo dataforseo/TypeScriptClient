@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsWhoisOverviewLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DomainAnalyticsWhoisOverviewLiveResultInfo
 
 # Class: DomainAnalyticsWhoisOverviewLiveResultInfo
 
@@ -8,150 +12,124 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DomainAnalyticsWhoisOverviewLiveResultInfo.md#constructor)
-
-### Properties
-
-- [items](DomainAnalyticsWhoisOverviewLiveResultInfo.md#items)
-- [items\_count](DomainAnalyticsWhoisOverviewLiveResultInfo.md#items_count)
-- [total\_count](DomainAnalyticsWhoisOverviewLiveResultInfo.md#total_count)
-
-### Methods
-
-- [init](DomainAnalyticsWhoisOverviewLiveResultInfo.md#init)
-- [toJSON](DomainAnalyticsWhoisOverviewLiveResultInfo.md#tojson)
-- [fromJS](DomainAnalyticsWhoisOverviewLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DomainAnalyticsWhoisOverviewLiveResultInfo(data)
 
-• **new DomainAnalyticsWhoisOverviewLiveResultInfo**(`data?`): [`DomainAnalyticsWhoisOverviewLiveResultInfo`](DomainAnalyticsWhoisOverviewLiveResultInfo.md)
+> **new DomainAnalyticsWhoisOverviewLiveResultInfo**(`data`?): [`DomainAnalyticsWhoisOverviewLiveResultInfo`](DomainAnalyticsWhoisOverviewLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDomainAnalyticsWhoisOverviewLiveResultInfo`](../interfaces/IDomainAnalyticsWhoisOverviewLiveResultInfo.md) |
+• **data?**: [`IDomainAnalyticsWhoisOverviewLiveResultInfo`](../interfaces/IDomainAnalyticsWhoisOverviewLiveResultInfo.md)
 
 #### Returns
 
 [`DomainAnalyticsWhoisOverviewLiveResultInfo`](DomainAnalyticsWhoisOverviewLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:78629
+main.ts:78637
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`DomainAnalyticsWhoisOverviewLiveItem`](DomainAnalyticsWhoisOverviewLiveItem.md)[]
+> **`optional`** **items**: [`DomainAnalyticsWhoisOverviewLiveItem`](DomainAnalyticsWhoisOverviewLiveItem.md)[]
 
 contains ranking and traffic data
 
 #### Implementation of
 
-[IDomainAnalyticsWhoisOverviewLiveResultInfo](../interfaces/IDomainAnalyticsWhoisOverviewLiveResultInfo.md).[items](../interfaces/IDomainAnalyticsWhoisOverviewLiveResultInfo.md#items)
+[`IDomainAnalyticsWhoisOverviewLiveResultInfo`](../interfaces/IDomainAnalyticsWhoisOverviewLiveResultInfo.md).[`items`](../interfaces/IDomainAnalyticsWhoisOverviewLiveResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:78625
+main.ts:78633
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[IDomainAnalyticsWhoisOverviewLiveResultInfo](../interfaces/IDomainAnalyticsWhoisOverviewLiveResultInfo.md).[items_count](../interfaces/IDomainAnalyticsWhoisOverviewLiveResultInfo.md#items_count)
+[`IDomainAnalyticsWhoisOverviewLiveResultInfo`](../interfaces/IDomainAnalyticsWhoisOverviewLiveResultInfo.md).[`items_count`](../interfaces/IDomainAnalyticsWhoisOverviewLiveResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:78623
+main.ts:78631
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
 #### Implementation of
 
-[IDomainAnalyticsWhoisOverviewLiveResultInfo](../interfaces/IDomainAnalyticsWhoisOverviewLiveResultInfo.md).[total_count](../interfaces/IDomainAnalyticsWhoisOverviewLiveResultInfo.md#total_count)
+[`IDomainAnalyticsWhoisOverviewLiveResultInfo`](../interfaces/IDomainAnalyticsWhoisOverviewLiveResultInfo.md).[`total_count`](../interfaces/IDomainAnalyticsWhoisOverviewLiveResultInfo.md#total_count)
 
-#### Defined in
+#### Source
 
-main.ts:78621
+main.ts:78629
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:78638
+main.ts:78646
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:78661
+main.ts:78669
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DomainAnalyticsWhoisOverviewLiveResultInfo`](DomainAnalyticsWhoisOverviewLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`DomainAnalyticsWhoisOverviewLiveResultInfo`](DomainAnalyticsWhoisOverviewLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DomainAnalyticsWhoisOverviewLiveResultInfo`](DomainAnalyticsWhoisOverviewLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:78654
+main.ts:78662

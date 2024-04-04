@@ -1,33 +1,23 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBaseAmazonSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBaseAmazonSerpElementItem
 
 # Interface: IBaseAmazonSerpElementItem
 
-## Hierarchy
+## Extended by
 
-- **`IBaseAmazonSerpElementItem`**
-
-  ↳ [`IAmazonAmazonSerpSerpElementItem`](IAmazonAmazonSerpSerpElementItem.md)
-
-  ↳ [`IAmazonAmazonPaidSerpElementItem`](IAmazonAmazonPaidSerpElementItem.md)
-
-  ↳ [`IAmazonEditorialRecommendationsSerpElementItem`](IAmazonEditorialRecommendationsSerpElementItem.md)
-
-  ↳ [`IAmazonRelatedSearchesSerpElementItem`](IAmazonRelatedSearchesSerpElementItem.md)
-
-  ↳ [`IAmazonTopRatedFromOurBrandsSerpElementItem`](IAmazonTopRatedFromOurBrandsSerpElementItem.md)
-
-  ↳ [`IAmazonAmazonProductInfoSerpElementItem`](IAmazonAmazonProductInfoSerpElementItem.md)
-
-  ↳ [`IAmazonAmazonSellerMainItemSerpElementItem`](IAmazonAmazonSellerMainItemSerpElementItem.md)
-
-  ↳ [`IAmazonAmazonSellerItemSerpElementItem`](IAmazonAmazonSellerItemSerpElementItem.md)
-
-  ↳ [`IAmazonAmazonReviewItemSerpElementItem`](IAmazonAmazonReviewItemSerpElementItem.md)
-
-## Implemented by
-
-- [`BaseAmazonSerpElementItem`](../classes/BaseAmazonSerpElementItem.md)
+- [`IAmazonAmazonSerpSerpElementItem`](IAmazonAmazonSerpSerpElementItem.md)
+- [`IAmazonAmazonPaidSerpElementItem`](IAmazonAmazonPaidSerpElementItem.md)
+- [`IAmazonEditorialRecommendationsSerpElementItem`](IAmazonEditorialRecommendationsSerpElementItem.md)
+- [`IAmazonRelatedSearchesSerpElementItem`](IAmazonRelatedSearchesSerpElementItem.md)
+- [`IAmazonTopRatedFromOurBrandsSerpElementItem`](IAmazonTopRatedFromOurBrandsSerpElementItem.md)
+- [`IAmazonAmazonProductInfoSerpElementItem`](IAmazonAmazonProductInfoSerpElementItem.md)
+- [`IAmazonAmazonSellerMainItemSerpElementItem`](IAmazonAmazonSellerMainItemSerpElementItem.md)
+- [`IAmazonAmazonSellerItemSerpElementItem`](IAmazonAmazonSellerItemSerpElementItem.md)
+- [`IAmazonAmazonReviewItemSerpElementItem`](IAmazonAmazonReviewItemSerpElementItem.md)
 
 ## Indexable
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`

@@ -1,35 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpGoogleDatasetInfoTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ISerpGoogleDatasetInfoTaskPostRequestInfo
 
 # Interface: ISerpGoogleDatasetInfoTaskPostRequestInfo
 
-## Implemented by
-
-- [`SerpGoogleDatasetInfoTaskPostRequestInfo`](../classes/SerpGoogleDatasetInfoTaskPostRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [dataset\_id](ISerpGoogleDatasetInfoTaskPostRequestInfo.md#dataset_id)
-- [device](ISerpGoogleDatasetInfoTaskPostRequestInfo.md#device)
-- [language\_code](ISerpGoogleDatasetInfoTaskPostRequestInfo.md#language_code)
-- [language\_name](ISerpGoogleDatasetInfoTaskPostRequestInfo.md#language_name)
-- [os](ISerpGoogleDatasetInfoTaskPostRequestInfo.md#os)
-- [pingback\_url](ISerpGoogleDatasetInfoTaskPostRequestInfo.md#pingback_url)
-- [postback\_data](ISerpGoogleDatasetInfoTaskPostRequestInfo.md#postback_data)
-- [postback\_url](ISerpGoogleDatasetInfoTaskPostRequestInfo.md#postback_url)
-- [priority](ISerpGoogleDatasetInfoTaskPostRequestInfo.md#priority)
-- [tag](ISerpGoogleDatasetInfoTaskPostRequestInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### dataset\_id
+### dataset\_id?
 
-• `Optional` **dataset\_id**: `string`
+> **`optional`** **dataset\_id**: `string`
 
 ID of the dataset
 required field
@@ -37,29 +22,29 @@ you can find dataset ID in the dataset URL or dataset item of Google Dataset Sea
 example:
 L2cvMTFqbl85ZHN6MQ==
 
-#### Defined in
+#### Source
 
-main.ts:54286
+main.ts:54294
 
-___
+***
 
-### device
+### device?
 
-• `Optional` **device**: `string`
+> **`optional`** **device**: `string`
 
 device type
 optional field
 possible value: desktop
 
-#### Defined in
+#### Source
 
-main.ts:54310
+main.ts:54318
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 optional field
@@ -67,15 +52,15 @@ if you use this field, you don’t need to specify language_name
 possible value:
 en
 
-#### Defined in
+#### Source
 
-main.ts:54306
+main.ts:54314
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -83,30 +68,30 @@ if you use this field, you don’t need to specify language_code
 possible value:
 English
 
-#### Defined in
+#### Source
 
-main.ts:54300
+main.ts:54308
 
-___
+***
 
-### os
+### os?
 
-• `Optional` **os**: `string`
+> **`optional`** **os**: `string`
 
 device operating system
 optional field
 choose from the following values: windows, macos
 default value: windows
 
-#### Defined in
+#### Source
 
-main.ts:54315
+main.ts:54323
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -118,30 +103,30 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special symbols in pingback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
-main.ts:54346
+main.ts:54354
 
-___
+***
 
-### postback\_data
+### postback\_data?
 
-• `Optional` **postback\_data**: `string`
+> **`optional`** **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
 corresponds to the datatype that will be sent to your server
 possible value: advanced
 
-#### Defined in
+#### Source
 
-main.ts:54336
+main.ts:54344
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -153,15 +138,15 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special symbols in postback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
-main.ts:54331
+main.ts:54339
 
-___
+***
 
-### priority
+### priority?
 
-• `Optional` **priority**: `number`
+> **`optional`** **priority**: `number`
 
 task priority
 optional field
@@ -171,15 +156,15 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page.
 
-#### Defined in
+#### Source
 
-main.ts:54294
+main.ts:54302
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -187,6 +172,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:54321
+main.ts:54329

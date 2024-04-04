@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageKeywordDensityResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPageKeywordDensityResultInfo
 
 # Class: OnPageKeywordDensityResultInfo
 
@@ -8,186 +12,158 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPageKeywordDensityResultInfo.md#constructor)
-
-### Properties
-
-- [crawl\_progress](OnPageKeywordDensityResultInfo.md#crawl_progress)
-- [crawl\_status](OnPageKeywordDensityResultInfo.md#crawl_status)
-- [items](OnPageKeywordDensityResultInfo.md#items)
-- [items\_count](OnPageKeywordDensityResultInfo.md#items_count)
-- [total\_items\_count](OnPageKeywordDensityResultInfo.md#total_items_count)
-
-### Methods
-
-- [init](OnPageKeywordDensityResultInfo.md#init)
-- [toJSON](OnPageKeywordDensityResultInfo.md#tojson)
-- [fromJS](OnPageKeywordDensityResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPageKeywordDensityResultInfo(data)
 
-• **new OnPageKeywordDensityResultInfo**(`data?`): [`OnPageKeywordDensityResultInfo`](OnPageKeywordDensityResultInfo.md)
+> **new OnPageKeywordDensityResultInfo**(`data`?): [`OnPageKeywordDensityResultInfo`](OnPageKeywordDensityResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPageKeywordDensityResultInfo`](../interfaces/IOnPageKeywordDensityResultInfo.md) |
+• **data?**: [`IOnPageKeywordDensityResultInfo`](../interfaces/IOnPageKeywordDensityResultInfo.md)
 
 #### Returns
 
 [`OnPageKeywordDensityResultInfo`](OnPageKeywordDensityResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:155740
+main.ts:155748
 
 ## Properties
 
-### crawl\_progress
+### crawl\_progress?
 
-• `Optional` **crawl\_progress**: `string`
+> **`optional`** **crawl\_progress**: `string`
 
 status of the crawling session
 possible values: in_progress, finished
 
 #### Implementation of
 
-[IOnPageKeywordDensityResultInfo](../interfaces/IOnPageKeywordDensityResultInfo.md).[crawl_progress](../interfaces/IOnPageKeywordDensityResultInfo.md#crawl_progress)
+[`IOnPageKeywordDensityResultInfo`](../interfaces/IOnPageKeywordDensityResultInfo.md).[`crawl_progress`](../interfaces/IOnPageKeywordDensityResultInfo.md#crawl_progress)
 
-#### Defined in
+#### Source
 
-main.ts:155727
+main.ts:155735
 
-___
+***
 
-### crawl\_status
+### crawl\_status?
 
-• `Optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
+> **`optional`** **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
 details of the crawling session
 
 #### Implementation of
 
-[IOnPageKeywordDensityResultInfo](../interfaces/IOnPageKeywordDensityResultInfo.md).[crawl_status](../interfaces/IOnPageKeywordDensityResultInfo.md#crawl_status)
+[`IOnPageKeywordDensityResultInfo`](../interfaces/IOnPageKeywordDensityResultInfo.md).[`crawl_status`](../interfaces/IOnPageKeywordDensityResultInfo.md#crawl_status)
 
-#### Defined in
+#### Source
 
-main.ts:155729
+main.ts:155737
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`OnPageKeywordDensityItem`](OnPageKeywordDensityItem.md)[]
+> **`optional`** **items**: [`OnPageKeywordDensityItem`](OnPageKeywordDensityItem.md)[]
 
 items array
 
 #### Implementation of
 
-[IOnPageKeywordDensityResultInfo](../interfaces/IOnPageKeywordDensityResultInfo.md).[items](../interfaces/IOnPageKeywordDensityResultInfo.md#items)
+[`IOnPageKeywordDensityResultInfo`](../interfaces/IOnPageKeywordDensityResultInfo.md).[`items`](../interfaces/IOnPageKeywordDensityResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:155736
+main.ts:155744
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 number of items in the results array
 
 #### Implementation of
 
-[IOnPageKeywordDensityResultInfo](../interfaces/IOnPageKeywordDensityResultInfo.md).[items_count](../interfaces/IOnPageKeywordDensityResultInfo.md#items_count)
+[`IOnPageKeywordDensityResultInfo`](../interfaces/IOnPageKeywordDensityResultInfo.md).[`items_count`](../interfaces/IOnPageKeywordDensityResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:155734
+main.ts:155742
 
-___
+***
 
-### total\_items\_count
+### total\_items\_count?
 
-• `Optional` **total\_items\_count**: `number`
+> **`optional`** **total\_items\_count**: `number`
 
 total number of relevant items
 total number of keywords on the specified website or web page matching the set keyword_length and filters
 
 #### Implementation of
 
-[IOnPageKeywordDensityResultInfo](../interfaces/IOnPageKeywordDensityResultInfo.md).[total_items_count](../interfaces/IOnPageKeywordDensityResultInfo.md#total_items_count)
+[`IOnPageKeywordDensityResultInfo`](../interfaces/IOnPageKeywordDensityResultInfo.md).[`total_items_count`](../interfaces/IOnPageKeywordDensityResultInfo.md#total_items_count)
 
-#### Defined in
+#### Source
 
-main.ts:155732
+main.ts:155740
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:155749
+main.ts:155757
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:155774
+main.ts:155782
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPageKeywordDensityResultInfo`](OnPageKeywordDensityResultInfo.md)
+> **`static`** **fromJS**(`data`): [`OnPageKeywordDensityResultInfo`](OnPageKeywordDensityResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`OnPageKeywordDensityResultInfo`](OnPageKeywordDensityResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:155767
+main.ts:155775

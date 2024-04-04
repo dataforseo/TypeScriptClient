@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixKeywordBingKeywordsDataPriceDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppendixKeywordBingKeywordsDataPriceDataInfo
 
 # Class: AppendixKeywordBingKeywordsDataPriceDataInfo
 
@@ -8,114 +12,90 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixKeywordBingKeywordsDataPriceDataInfo.md#constructor)
-
-### Properties
-
-- [live](AppendixKeywordBingKeywordsDataPriceDataInfo.md#live)
-
-### Methods
-
-- [init](AppendixKeywordBingKeywordsDataPriceDataInfo.md#init)
-- [toJSON](AppendixKeywordBingKeywordsDataPriceDataInfo.md#tojson)
-- [fromJS](AppendixKeywordBingKeywordsDataPriceDataInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixKeywordBingKeywordsDataPriceDataInfo(data)
 
-• **new AppendixKeywordBingKeywordsDataPriceDataInfo**(`data?`): [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **new AppendixKeywordBingKeywordsDataPriceDataInfo**(`data`?): [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixKeywordBingKeywordsDataPriceDataInfo`](../interfaces/IAppendixKeywordBingKeywordsDataPriceDataInfo.md) |
+• **data?**: [`IAppendixKeywordBingKeywordsDataPriceDataInfo`](../interfaces/IAppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Returns
 
 [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:215236
 
 ## Properties
 
-### live
+### live?
 
-• `Optional` **live**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **live**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixKeywordBingKeywordsDataPriceDataInfo](../interfaces/IAppendixKeywordBingKeywordsDataPriceDataInfo.md).[live](../interfaces/IAppendixKeywordBingKeywordsDataPriceDataInfo.md#live)
+[`IAppendixKeywordBingKeywordsDataPriceDataInfo`](../interfaces/IAppendixKeywordBingKeywordsDataPriceDataInfo.md).[`live`](../interfaces/IAppendixKeywordBingKeywordsDataPriceDataInfo.md#live)
 
-#### Defined in
+#### Source
 
 main.ts:215232
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:215245
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:215262
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`static`** **fromJS**(`data`): [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:215255

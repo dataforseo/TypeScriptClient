@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / GooglePostsDataforseoLabsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / GooglePostsDataforseoLabsSerpElementItem
 
 # Class: GooglePostsDataforseoLabsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
-
-  ↳ **`GooglePostsDataforseoLabsSerpElementItem`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](GooglePostsDataforseoLabsSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](GooglePostsDataforseoLabsSerpElementItem.md#_discriminator)
-- [cid](GooglePostsDataforseoLabsSerpElementItem.md#cid)
-- [feature](GooglePostsDataforseoLabsSerpElementItem.md#feature)
-- [position](GooglePostsDataforseoLabsSerpElementItem.md#position)
-- [posts\_id](GooglePostsDataforseoLabsSerpElementItem.md#posts_id)
-- [rank\_absolute](GooglePostsDataforseoLabsSerpElementItem.md#rank_absolute)
-- [rank\_group](GooglePostsDataforseoLabsSerpElementItem.md#rank_group)
-- [xpath](GooglePostsDataforseoLabsSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](GooglePostsDataforseoLabsSerpElementItem.md#init)
-- [toJSON](GooglePostsDataforseoLabsSerpElementItem.md#tojson)
-- [fromJS](GooglePostsDataforseoLabsSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new GooglePostsDataforseoLabsSerpElementItem(data)
 
-• **new GooglePostsDataforseoLabsSerpElementItem**(`data?`): [`GooglePostsDataforseoLabsSerpElementItem`](GooglePostsDataforseoLabsSerpElementItem.md)
+> **new GooglePostsDataforseoLabsSerpElementItem**(`data`?): [`GooglePostsDataforseoLabsSerpElementItem`](GooglePostsDataforseoLabsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IGooglePostsDataforseoLabsSerpElementItem`](../interfaces/IGooglePostsDataforseoLabsSerpElementItem.md) |
+• **data?**: [`IGooglePostsDataforseoLabsSerpElementItem`](../interfaces/IGooglePostsDataforseoLabsSerpElementItem.md)
 
 #### Returns
 
@@ -57,63 +34,63 @@
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[constructor](BaseDataforseoLabsSerpElementItem.md#constructor)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:96758
+main.ts:96766
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[_discriminator](BaseDataforseoLabsSerpElementItem.md#_discriminator)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`_discriminator`](BaseDataforseoLabsSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:20171
 
-___
+***
 
-### cid
+### cid?
 
-• `Optional` **cid**: `string`
+> **`optional`** **cid**: `string`
 
 google-defined client id
 
 #### Implementation of
 
-[IGooglePostsDataforseoLabsSerpElementItem](../interfaces/IGooglePostsDataforseoLabsSerpElementItem.md).[cid](../interfaces/IGooglePostsDataforseoLabsSerpElementItem.md#cid)
+[`IGooglePostsDataforseoLabsSerpElementItem`](../interfaces/IGooglePostsDataforseoLabsSerpElementItem.md).[`cid`](../interfaces/IGooglePostsDataforseoLabsSerpElementItem.md#cid)
 
-#### Defined in
+#### Source
 
-main.ts:96754
+main.ts:96762
 
-___
+***
 
-### feature
+### feature?
 
-• `Optional` **feature**: `string`
+> **`optional`** **feature**: `string`
 
 the additional feature of the review
 
 #### Implementation of
 
-[IGooglePostsDataforseoLabsSerpElementItem](../interfaces/IGooglePostsDataforseoLabsSerpElementItem.md).[feature](../interfaces/IGooglePostsDataforseoLabsSerpElementItem.md#feature)
+[`IGooglePostsDataforseoLabsSerpElementItem`](../interfaces/IGooglePostsDataforseoLabsSerpElementItem.md).[`feature`](../interfaces/IGooglePostsDataforseoLabsSerpElementItem.md#feature)
 
-#### Defined in
+#### Source
 
-main.ts:96752
+main.ts:96760
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -121,89 +98,87 @@ left, right
 
 #### Implementation of
 
-[IGooglePostsDataforseoLabsSerpElementItem](../interfaces/IGooglePostsDataforseoLabsSerpElementItem.md).[position](../interfaces/IGooglePostsDataforseoLabsSerpElementItem.md#position)
+[`IGooglePostsDataforseoLabsSerpElementItem`](../interfaces/IGooglePostsDataforseoLabsSerpElementItem.md).[`position`](../interfaces/IGooglePostsDataforseoLabsSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
-main.ts:96746
+main.ts:96754
 
-___
+***
 
-### posts\_id
+### posts\_id?
 
-• `Optional` **posts\_id**: `string`
+> **`optional`** **posts\_id**: `string`
 
 the identifier of the google_posts feature
 
 #### Implementation of
 
-[IGooglePostsDataforseoLabsSerpElementItem](../interfaces/IGooglePostsDataforseoLabsSerpElementItem.md).[posts_id](../interfaces/IGooglePostsDataforseoLabsSerpElementItem.md#posts_id)
+[`IGooglePostsDataforseoLabsSerpElementItem`](../interfaces/IGooglePostsDataforseoLabsSerpElementItem.md).[`posts_id`](../interfaces/IGooglePostsDataforseoLabsSerpElementItem.md#posts_id)
 
-#### Defined in
+#### Source
 
-main.ts:96750
+main.ts:96758
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
 #### Implementation of
 
-[IGooglePostsDataforseoLabsSerpElementItem](../interfaces/IGooglePostsDataforseoLabsSerpElementItem.md).[rank_absolute](../interfaces/IGooglePostsDataforseoLabsSerpElementItem.md#rank_absolute)
+[`IGooglePostsDataforseoLabsSerpElementItem`](../interfaces/IGooglePostsDataforseoLabsSerpElementItem.md).[`rank_absolute`](../interfaces/IGooglePostsDataforseoLabsSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:96742
+main.ts:96750
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
-[IGooglePostsDataforseoLabsSerpElementItem](../interfaces/IGooglePostsDataforseoLabsSerpElementItem.md).[rank_group](../interfaces/IGooglePostsDataforseoLabsSerpElementItem.md#rank_group)
+[`IGooglePostsDataforseoLabsSerpElementItem`](../interfaces/IGooglePostsDataforseoLabsSerpElementItem.md).[`rank_group`](../interfaces/IGooglePostsDataforseoLabsSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
-main.ts:96739
+main.ts:96747
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IGooglePostsDataforseoLabsSerpElementItem](../interfaces/IGooglePostsDataforseoLabsSerpElementItem.md).[xpath](../interfaces/IGooglePostsDataforseoLabsSerpElementItem.md#xpath)
+[`IGooglePostsDataforseoLabsSerpElementItem`](../interfaces/IGooglePostsDataforseoLabsSerpElementItem.md).[`xpath`](../interfaces/IGooglePostsDataforseoLabsSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
-main.ts:96748
+main.ts:96756
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -211,23 +186,21 @@ main.ts:96748
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[init](BaseDataforseoLabsSerpElementItem.md#init)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`init`](BaseDataforseoLabsSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:96763
+main.ts:96771
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -235,23 +208,21 @@ ___
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[toJSON](BaseDataforseoLabsSerpElementItem.md#tojson)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`toJSON`](BaseDataforseoLabsSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:96787
+main.ts:96795
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`GooglePostsDataforseoLabsSerpElementItem`](GooglePostsDataforseoLabsSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`GooglePostsDataforseoLabsSerpElementItem`](GooglePostsDataforseoLabsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -259,8 +230,8 @@ ___
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[fromJS](BaseDataforseoLabsSerpElementItem.md#fromjs)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`fromJS`](BaseDataforseoLabsSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:96780
+main.ts:96788

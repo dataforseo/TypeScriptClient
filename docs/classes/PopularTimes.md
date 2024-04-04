@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / PopularTimes
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / PopularTimes
 
 # Class: PopularTimes
 
@@ -8,121 +12,97 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](PopularTimes.md#constructor)
-
-### Properties
-
-- [popular\_times\_by\_days](PopularTimes.md#popular_times_by_days)
-
-### Methods
-
-- [init](PopularTimes.md#init)
-- [toJSON](PopularTimes.md#tojson)
-- [fromJS](PopularTimes.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new PopularTimes(data)
 
-• **new PopularTimes**(`data?`): [`PopularTimes`](PopularTimes.md)
+> **new PopularTimes**(`data`?): [`PopularTimes`](PopularTimes.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IPopularTimes`](../interfaces/IPopularTimes.md) |
+• **data?**: [`IPopularTimes`](../interfaces/IPopularTimes.md)
 
 #### Returns
 
 [`PopularTimes`](PopularTimes.md)
 
-#### Defined in
+#### Source
 
 main.ts:194328
 
 ## Properties
 
-### popular\_times\_by\_days
+### popular\_times\_by\_days?
 
-• `Optional` **popular\_times\_by\_days**: `Object`
+> **`optional`** **popular\_times\_by\_days**: `Object`
 
 popular hours
 information about busy hours of the local establishment on each day of the week
 
 #### Index signature
 
-▪ [key: `string`]: ([`BusyWorkingTimeInfo`](BusyWorkingTimeInfo.md) \| `undefined`)[]
+ \[`key`: `string`\]: ([`BusyWorkingTimeInfo`](BusyWorkingTimeInfo.md) \| `undefined`)[]
 
 #### Implementation of
 
-[IPopularTimes](../interfaces/IPopularTimes.md).[popular_times_by_days](../interfaces/IPopularTimes.md#popular_times_by_days)
+[`IPopularTimes`](../interfaces/IPopularTimes.md).[`popular_times_by_days`](../interfaces/IPopularTimes.md#popular_times_by_days)
 
-#### Defined in
+#### Source
 
 main.ts:194324
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:194337
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:194360
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`PopularTimes`](PopularTimes.md)
+> **`static`** **fromJS**(`data`): [`PopularTimes`](PopularTimes.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`PopularTimes`](PopularTimes.md)
 
-#### Defined in
+#### Source
 
 main.ts:194353

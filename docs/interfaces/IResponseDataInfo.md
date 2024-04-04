@@ -1,72 +1,63 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IResponseDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IResponseDataInfo
 
 # Interface: IResponseDataInfo
 
-## Implemented by
-
-- [`ResponseDataInfo`](../classes/ResponseDataInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [author](IResponseDataInfo.md#author)
-- [text](IResponseDataInfo.md#text)
-- [timestamp](IResponseDataInfo.md#timestamp)
-- [title](IResponseDataInfo.md#title)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### author
+### author?
 
-• `Optional` **author**: `string`
+> **`optional`** **author**: `string`
 
 author of the response
 
-#### Defined in
+#### Source
 
 main.ts:186724
 
-___
+***
 
-### text
+### text?
 
-• `Optional` **text**: `string`
+> **`optional`** **text**: `string`
 
 content of the response
 
-#### Defined in
+#### Source
 
 main.ts:186729
 
-___
+***
 
-### timestamp
+### timestamp?
 
-• `Optional` **timestamp**: `string`
+> **`optional`** **timestamp**: `string`
 
 date and time when the response was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
 main.ts:186734
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the response
 in this case, will equal null
 
-#### Defined in
+#### Source
 
 main.ts:186727

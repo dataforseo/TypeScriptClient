@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DiscussionsAndForumsElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DiscussionsAndForumsElement
 
 # Class: DiscussionsAndForumsElement
 
@@ -8,121 +12,96 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DiscussionsAndForumsElement.md#constructor)
-
-### Properties
-
-- [description](DiscussionsAndForumsElement.md#description)
-- [domain](DiscussionsAndForumsElement.md#domain)
-- [posts\_count](DiscussionsAndForumsElement.md#posts_count)
-- [source](DiscussionsAndForumsElement.md#source)
-- [timestamp](DiscussionsAndForumsElement.md#timestamp)
-- [title](DiscussionsAndForumsElement.md#title)
-- [type](DiscussionsAndForumsElement.md#type)
-- [url](DiscussionsAndForumsElement.md#url)
-
-### Methods
-
-- [init](DiscussionsAndForumsElement.md#init)
-- [toJSON](DiscussionsAndForumsElement.md#tojson)
-- [fromJS](DiscussionsAndForumsElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DiscussionsAndForumsElement(data)
 
-• **new DiscussionsAndForumsElement**(`data?`): [`DiscussionsAndForumsElement`](DiscussionsAndForumsElement.md)
+> **new DiscussionsAndForumsElement**(`data`?): [`DiscussionsAndForumsElement`](DiscussionsAndForumsElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDiscussionsAndForumsElement`](../interfaces/IDiscussionsAndForumsElement.md) |
+• **data?**: [`IDiscussionsAndForumsElement`](../interfaces/IDiscussionsAndForumsElement.md)
 
 #### Returns
 
 [`DiscussionsAndForumsElement`](DiscussionsAndForumsElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:36583
+main.ts:36589
 
 ## Properties
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description
 
 #### Implementation of
 
-[IDiscussionsAndForumsElement](../interfaces/IDiscussionsAndForumsElement.md).[description](../interfaces/IDiscussionsAndForumsElement.md#description)
+[`IDiscussionsAndForumsElement`](../interfaces/IDiscussionsAndForumsElement.md).[`description`](../interfaces/IDiscussionsAndForumsElement.md#description)
 
-#### Defined in
+#### Source
 
-main.ts:36572
+main.ts:36578
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 website domain
 
 #### Implementation of
 
-[IDiscussionsAndForumsElement](../interfaces/IDiscussionsAndForumsElement.md).[domain](../interfaces/IDiscussionsAndForumsElement.md#domain)
+[`IDiscussionsAndForumsElement`](../interfaces/IDiscussionsAndForumsElement.md).[`domain`](../interfaces/IDiscussionsAndForumsElement.md#domain)
 
-#### Defined in
+#### Source
 
-main.ts:36567
+main.ts:36573
 
-___
+***
 
-### posts\_count
+### posts\_count?
 
-• `Optional` **posts\_count**: `number`
+> **`optional`** **posts\_count**: `number`
 
 number of posts from the discussion on the related source
 
 #### Implementation of
 
-[IDiscussionsAndForumsElement](../interfaces/IDiscussionsAndForumsElement.md).[posts_count](../interfaces/IDiscussionsAndForumsElement.md#posts_count)
+[`IDiscussionsAndForumsElement`](../interfaces/IDiscussionsAndForumsElement.md).[`posts_count`](../interfaces/IDiscussionsAndForumsElement.md#posts_count)
 
-#### Defined in
+#### Source
 
-main.ts:36579
+main.ts:36585
 
-___
+***
 
-### source
+### source?
 
-• `Optional` **source**: `string`
+> **`optional`** **source**: `string`
 
 source of the element
 indicates the source of information included in the top_stories_element
 
 #### Implementation of
 
-[IDiscussionsAndForumsElement](../interfaces/IDiscussionsAndForumsElement.md).[source](../interfaces/IDiscussionsAndForumsElement.md#source)
+[`IDiscussionsAndForumsElement`](../interfaces/IDiscussionsAndForumsElement.md).[`source`](../interfaces/IDiscussionsAndForumsElement.md#source)
 
-#### Defined in
+#### Source
 
-main.ts:36570
+main.ts:36576
 
-___
+***
 
-### timestamp
+### timestamp?
 
-• `Optional` **timestamp**: `string`
+> **`optional`** **timestamp**: `string`
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -131,116 +110,110 @@ example:
 
 #### Implementation of
 
-[IDiscussionsAndForumsElement](../interfaces/IDiscussionsAndForumsElement.md).[timestamp](../interfaces/IDiscussionsAndForumsElement.md#timestamp)
+[`IDiscussionsAndForumsElement`](../interfaces/IDiscussionsAndForumsElement.md).[`timestamp`](../interfaces/IDiscussionsAndForumsElement.md#timestamp)
 
-#### Defined in
+#### Source
 
-main.ts:36577
+main.ts:36583
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
 #### Implementation of
 
-[IDiscussionsAndForumsElement](../interfaces/IDiscussionsAndForumsElement.md).[title](../interfaces/IDiscussionsAndForumsElement.md#title)
+[`IDiscussionsAndForumsElement`](../interfaces/IDiscussionsAndForumsElement.md).[`title`](../interfaces/IDiscussionsAndForumsElement.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:36563
+main.ts:36569
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IDiscussionsAndForumsElement](../interfaces/IDiscussionsAndForumsElement.md).[type](../interfaces/IDiscussionsAndForumsElement.md#type)
+[`IDiscussionsAndForumsElement`](../interfaces/IDiscussionsAndForumsElement.md).[`type`](../interfaces/IDiscussionsAndForumsElement.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:36561
+main.ts:36567
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL
 
 #### Implementation of
 
-[IDiscussionsAndForumsElement](../interfaces/IDiscussionsAndForumsElement.md).[url](../interfaces/IDiscussionsAndForumsElement.md#url)
+[`IDiscussionsAndForumsElement`](../interfaces/IDiscussionsAndForumsElement.md).[`url`](../interfaces/IDiscussionsAndForumsElement.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:36565
+main.ts:36571
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:36592
+main.ts:36598
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:36616
+main.ts:36622
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DiscussionsAndForumsElement`](DiscussionsAndForumsElement.md)
+> **`static`** **fromJS**(`data`): [`DiscussionsAndForumsElement`](DiscussionsAndForumsElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DiscussionsAndForumsElement`](DiscussionsAndForumsElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:36609
+main.ts:36615

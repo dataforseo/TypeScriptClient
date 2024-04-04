@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpYahooLocationsTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpYahooLocationsTaskInfo
 
 # Class: SerpYahooLocationsTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`SerpYahooLocationsTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpYahooLocationsTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](SerpYahooLocationsTaskInfo.md#cost)
-- [data](SerpYahooLocationsTaskInfo.md#data)
-- [id](SerpYahooLocationsTaskInfo.md#id)
-- [path](SerpYahooLocationsTaskInfo.md#path)
-- [result](SerpYahooLocationsTaskInfo.md#result)
-- [result\_count](SerpYahooLocationsTaskInfo.md#result_count)
-- [status\_code](SerpYahooLocationsTaskInfo.md#status_code)
-- [status\_message](SerpYahooLocationsTaskInfo.md#status_message)
-- [time](SerpYahooLocationsTaskInfo.md#time)
-
-### Methods
-
-- [init](SerpYahooLocationsTaskInfo.md#init)
-- [toJSON](SerpYahooLocationsTaskInfo.md#tojson)
-- [fromJS](SerpYahooLocationsTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpYahooLocationsTaskInfo(data)
 
-• **new SerpYahooLocationsTaskInfo**(`data?`): [`SerpYahooLocationsTaskInfo`](SerpYahooLocationsTaskInfo.md)
+> **new SerpYahooLocationsTaskInfo**(`data`?): [`SerpYahooLocationsTaskInfo`](SerpYahooLocationsTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpYahooLocationsTaskInfo`](../interfaces/ISerpYahooLocationsTaskInfo.md) |
+• **data?**: [`ISerpYahooLocationsTaskInfo`](../interfaces/ISerpYahooLocationsTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:65101
+main.ts:65109
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[ISerpYahooLocationsTaskInfo](../interfaces/ISerpYahooLocationsTaskInfo.md).[cost](../interfaces/ISerpYahooLocationsTaskInfo.md#cost)
+[`ISerpYahooLocationsTaskInfo`](../interfaces/ISerpYahooLocationsTaskInfo.md).[`cost`](../interfaces/ISerpYahooLocationsTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[ISerpYahooLocationsTaskInfo](../interfaces/ISerpYahooLocationsTaskInfo.md).[data](../interfaces/ISerpYahooLocationsTaskInfo.md#data)
+[`ISerpYahooLocationsTaskInfo`](../interfaces/ISerpYahooLocationsTaskInfo.md).[`data`](../interfaces/ISerpYahooLocationsTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[ISerpYahooLocationsTaskInfo](../interfaces/ISerpYahooLocationsTaskInfo.md).[id](../interfaces/ISerpYahooLocationsTaskInfo.md#id)
+[`ISerpYahooLocationsTaskInfo`](../interfaces/ISerpYahooLocationsTaskInfo.md).[`id`](../interfaces/ISerpYahooLocationsTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[ISerpYahooLocationsTaskInfo](../interfaces/ISerpYahooLocationsTaskInfo.md).[path](../interfaces/ISerpYahooLocationsTaskInfo.md#path)
+[`ISerpYahooLocationsTaskInfo`](../interfaces/ISerpYahooLocationsTaskInfo.md).[`path`](../interfaces/ISerpYahooLocationsTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`SerpYahooLocationsResultInfo`](SerpYahooLocationsResultInfo.md)[]
+> **`optional`** **result**: [`SerpYahooLocationsResultInfo`](SerpYahooLocationsResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[ISerpYahooLocationsTaskInfo](../interfaces/ISerpYahooLocationsTaskInfo.md).[result](../interfaces/ISerpYahooLocationsTaskInfo.md#result)
+[`ISerpYahooLocationsTaskInfo`](../interfaces/ISerpYahooLocationsTaskInfo.md).[`result`](../interfaces/ISerpYahooLocationsTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:65097
+main.ts:65105
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[ISerpYahooLocationsTaskInfo](../interfaces/ISerpYahooLocationsTaskInfo.md).[result_count](../interfaces/ISerpYahooLocationsTaskInfo.md#result_count)
+[`ISerpYahooLocationsTaskInfo`](../interfaces/ISerpYahooLocationsTaskInfo.md).[`result_count`](../interfaces/ISerpYahooLocationsTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[ISerpYahooLocationsTaskInfo](../interfaces/ISerpYahooLocationsTaskInfo.md).[status_code](../interfaces/ISerpYahooLocationsTaskInfo.md#status_code)
+[`ISerpYahooLocationsTaskInfo`](../interfaces/ISerpYahooLocationsTaskInfo.md).[`status_code`](../interfaces/ISerpYahooLocationsTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[ISerpYahooLocationsTaskInfo](../interfaces/ISerpYahooLocationsTaskInfo.md).[status_message](../interfaces/ISerpYahooLocationsTaskInfo.md#status_message)
+[`ISerpYahooLocationsTaskInfo`](../interfaces/ISerpYahooLocationsTaskInfo.md).[`status_message`](../interfaces/ISerpYahooLocationsTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[ISerpYahooLocationsTaskInfo](../interfaces/ISerpYahooLocationsTaskInfo.md).[time](../interfaces/ISerpYahooLocationsTaskInfo.md#time)
+[`ISerpYahooLocationsTaskInfo`](../interfaces/ISerpYahooLocationsTaskInfo.md).[`time`](../interfaces/ISerpYahooLocationsTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:65105
+main.ts:65113
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:65127
+main.ts:65135
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpYahooLocationsTaskInfo`](SerpYahooLocationsTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpYahooLocationsTaskInfo`](SerpYahooLocationsTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:65120
+main.ts:65128

@@ -1,96 +1,85 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonBulkSearchVolumeLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsAmazonBulkSearchVolumeLiveResultInfo
 
 # Interface: IDataforseoLabsAmazonBulkSearchVolumeLiveResultInfo
 
-## Implemented by
-
-- [`DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo`](../classes/DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IDataforseoLabsAmazonBulkSearchVolumeLiveResultInfo.md#items)
-- [items\_count](IDataforseoLabsAmazonBulkSearchVolumeLiveResultInfo.md#items_count)
-- [language\_code](IDataforseoLabsAmazonBulkSearchVolumeLiveResultInfo.md#language_code)
-- [location\_code](IDataforseoLabsAmazonBulkSearchVolumeLiveResultInfo.md#location_code)
-- [se\_type](IDataforseoLabsAmazonBulkSearchVolumeLiveResultInfo.md#se_type)
-- [total\_count](IDataforseoLabsAmazonBulkSearchVolumeLiveResultInfo.md#total_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`DataforseoLabsAmazonBulkSearchVolumeLiveItem`](../classes/DataforseoLabsAmazonBulkSearchVolumeLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsAmazonBulkSearchVolumeLiveItem`](../classes/DataforseoLabsAmazonBulkSearchVolumeLiveItem.md)[]
 
 contains keyword search volume data data
 
-#### Defined in
+#### Source
 
-main.ts:101326
+main.ts:101334
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Defined in
+#### Source
 
-main.ts:101324
+main.ts:101332
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 if there is no data, then the value is null
 
-#### Defined in
+#### Source
 
-main.ts:101320
+main.ts:101328
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 if there is no data, then the value is null
 
-#### Defined in
+#### Source
 
-main.ts:101317
+main.ts:101325
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:101314
+main.ts:101322
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
-#### Defined in
+#### Source
 
-main.ts:101322
+main.ts:101330

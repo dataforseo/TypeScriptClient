@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleOrganicTaskGetRegularResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleOrganicTaskGetRegularResultInfo
 
 # Class: SerpGoogleOrganicTaskGetRegularResultInfo
 
@@ -8,77 +12,48 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleOrganicTaskGetRegularResultInfo.md#constructor)
-
-### Properties
-
-- [check\_url](SerpGoogleOrganicTaskGetRegularResultInfo.md#check_url)
-- [datetime](SerpGoogleOrganicTaskGetRegularResultInfo.md#datetime)
-- [item\_types](SerpGoogleOrganicTaskGetRegularResultInfo.md#item_types)
-- [items](SerpGoogleOrganicTaskGetRegularResultInfo.md#items)
-- [items\_count](SerpGoogleOrganicTaskGetRegularResultInfo.md#items_count)
-- [keyword](SerpGoogleOrganicTaskGetRegularResultInfo.md#keyword)
-- [language\_code](SerpGoogleOrganicTaskGetRegularResultInfo.md#language_code)
-- [location\_code](SerpGoogleOrganicTaskGetRegularResultInfo.md#location_code)
-- [se\_domain](SerpGoogleOrganicTaskGetRegularResultInfo.md#se_domain)
-- [se\_results\_count](SerpGoogleOrganicTaskGetRegularResultInfo.md#se_results_count)
-- [spell](SerpGoogleOrganicTaskGetRegularResultInfo.md#spell)
-- [type](SerpGoogleOrganicTaskGetRegularResultInfo.md#type)
-
-### Methods
-
-- [init](SerpGoogleOrganicTaskGetRegularResultInfo.md#init)
-- [toJSON](SerpGoogleOrganicTaskGetRegularResultInfo.md#tojson)
-- [fromJS](SerpGoogleOrganicTaskGetRegularResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleOrganicTaskGetRegularResultInfo(data)
 
-• **new SerpGoogleOrganicTaskGetRegularResultInfo**(`data?`): [`SerpGoogleOrganicTaskGetRegularResultInfo`](SerpGoogleOrganicTaskGetRegularResultInfo.md)
+> **new SerpGoogleOrganicTaskGetRegularResultInfo**(`data`?): [`SerpGoogleOrganicTaskGetRegularResultInfo`](SerpGoogleOrganicTaskGetRegularResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleOrganicTaskGetRegularResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md) |
+• **data?**: [`ISerpGoogleOrganicTaskGetRegularResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md)
 
 #### Returns
 
 [`SerpGoogleOrganicTaskGetRegularResultInfo`](SerpGoogleOrganicTaskGetRegularResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:26405
 
 ## Properties
 
-### check\_url
+### check\_url?
 
-• `Optional` **check\_url**: `string`
+> **`optional`** **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
 
 #### Implementation of
 
-[ISerpGoogleOrganicTaskGetRegularResultInfo](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md).[check_url](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md#check_url)
+[`ISerpGoogleOrganicTaskGetRegularResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md).[`check_url`](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md#check_url)
 
-#### Defined in
+#### Source
 
 main.ts:26379
 
-___
+***
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -87,17 +62,17 @@ example:
 
 #### Implementation of
 
-[ISerpGoogleOrganicTaskGetRegularResultInfo](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md).[datetime](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md#datetime)
+[`ISerpGoogleOrganicTaskGetRegularResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md).[`datetime`](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
 main.ts:26384
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 types of search results found in SERP
 contains types of all search results (items) found in the returned SERP
@@ -109,214 +84,208 @@ to get all items (inlcuding SERP features and rich snippets) found in the return
 
 #### Implementation of
 
-[ISerpGoogleOrganicTaskGetRegularResultInfo](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md).[item_types](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md#item_types)
+[`ISerpGoogleOrganicTaskGetRegularResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md).[`item_types`](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md#item_types)
 
-#### Defined in
+#### Source
 
 main.ts:26395
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
+> **`optional`** **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
 items in SERP
 
 #### Implementation of
 
-[ISerpGoogleOrganicTaskGetRegularResultInfo](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md).[items](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md#items)
+[`ISerpGoogleOrganicTaskGetRegularResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md).[`items`](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md#items)
 
-#### Defined in
+#### Source
 
 main.ts:26401
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[ISerpGoogleOrganicTaskGetRegularResultInfo](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md).[items_count](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md#items_count)
+[`ISerpGoogleOrganicTaskGetRegularResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md).[`items_count`](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
 main.ts:26399
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
-[ISerpGoogleOrganicTaskGetRegularResultInfo](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md).[keyword](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md#keyword)
+[`ISerpGoogleOrganicTaskGetRegularResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md).[`keyword`](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md#keyword)
 
-#### Defined in
+#### Source
 
 main.ts:26368
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[ISerpGoogleOrganicTaskGetRegularResultInfo](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md).[language_code](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md#language_code)
+[`ISerpGoogleOrganicTaskGetRegularResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md).[`language_code`](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
 main.ts:26376
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[ISerpGoogleOrganicTaskGetRegularResultInfo](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md).[location_code](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md#location_code)
+[`ISerpGoogleOrganicTaskGetRegularResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md).[`location_code`](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
 main.ts:26374
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
 #### Implementation of
 
-[ISerpGoogleOrganicTaskGetRegularResultInfo](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md).[se_domain](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md#se_domain)
+[`ISerpGoogleOrganicTaskGetRegularResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md).[`se_domain`](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md#se_domain)
 
-#### Defined in
+#### Source
 
 main.ts:26372
 
-___
+***
 
-### se\_results\_count
+### se\_results\_count?
 
-• `Optional` **se\_results\_count**: `number`
+> **`optional`** **se\_results\_count**: `number`
 
 total number of results in SERP
 
 #### Implementation of
 
-[ISerpGoogleOrganicTaskGetRegularResultInfo](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md).[se_results_count](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md#se_results_count)
+[`ISerpGoogleOrganicTaskGetRegularResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md).[`se_results_count`](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md#se_results_count)
 
-#### Defined in
+#### Source
 
 main.ts:26397
 
-___
+***
 
-### spell
+### spell?
 
-• `Optional` **spell**: [`SpellInfo`](SpellInfo.md)
+> **`optional`** **spell**: [`SpellInfo`](SpellInfo.md)
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
 
 #### Implementation of
 
-[ISerpGoogleOrganicTaskGetRegularResultInfo](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md).[spell](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md#spell)
+[`ISerpGoogleOrganicTaskGetRegularResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md).[`spell`](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md#spell)
 
-#### Defined in
+#### Source
 
 main.ts:26387
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[ISerpGoogleOrganicTaskGetRegularResultInfo](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md).[type](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md#type)
+[`ISerpGoogleOrganicTaskGetRegularResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md).[`type`](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md#type)
 
-#### Defined in
+#### Source
 
 main.ts:26370
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:26414
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:26450
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleOrganicTaskGetRegularResultInfo`](SerpGoogleOrganicTaskGetRegularResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleOrganicTaskGetRegularResultInfo`](SerpGoogleOrganicTaskGetRegularResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpGoogleOrganicTaskGetRegularResultInfo`](SerpGoogleOrganicTaskGetRegularResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:26443

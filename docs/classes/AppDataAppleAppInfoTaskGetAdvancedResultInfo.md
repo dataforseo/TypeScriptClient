@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataAppleAppInfoTaskGetAdvancedResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppDataAppleAppInfoTaskGetAdvancedResultInfo
 
 # Class: AppDataAppleAppInfoTaskGetAdvancedResultInfo
 
@@ -8,90 +12,64 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppDataAppleAppInfoTaskGetAdvancedResultInfo.md#constructor)
-
-### Properties
-
-- [app\_id](AppDataAppleAppInfoTaskGetAdvancedResultInfo.md#app_id)
-- [check\_url](AppDataAppleAppInfoTaskGetAdvancedResultInfo.md#check_url)
-- [datetime](AppDataAppleAppInfoTaskGetAdvancedResultInfo.md#datetime)
-- [items](AppDataAppleAppInfoTaskGetAdvancedResultInfo.md#items)
-- [items\_count](AppDataAppleAppInfoTaskGetAdvancedResultInfo.md#items_count)
-- [language\_code](AppDataAppleAppInfoTaskGetAdvancedResultInfo.md#language_code)
-- [location\_code](AppDataAppleAppInfoTaskGetAdvancedResultInfo.md#location_code)
-- [se\_domain](AppDataAppleAppInfoTaskGetAdvancedResultInfo.md#se_domain)
-- [se\_results\_count](AppDataAppleAppInfoTaskGetAdvancedResultInfo.md#se_results_count)
-
-### Methods
-
-- [init](AppDataAppleAppInfoTaskGetAdvancedResultInfo.md#init)
-- [toJSON](AppDataAppleAppInfoTaskGetAdvancedResultInfo.md#tojson)
-- [fromJS](AppDataAppleAppInfoTaskGetAdvancedResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppDataAppleAppInfoTaskGetAdvancedResultInfo(data)
 
-• **new AppDataAppleAppInfoTaskGetAdvancedResultInfo**(`data?`): [`AppDataAppleAppInfoTaskGetAdvancedResultInfo`](AppDataAppleAppInfoTaskGetAdvancedResultInfo.md)
+> **new AppDataAppleAppInfoTaskGetAdvancedResultInfo**(`data`?): [`AppDataAppleAppInfoTaskGetAdvancedResultInfo`](AppDataAppleAppInfoTaskGetAdvancedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppDataAppleAppInfoTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md) |
+• **data?**: [`IAppDataAppleAppInfoTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
 [`AppDataAppleAppInfoTaskGetAdvancedResultInfo`](AppDataAppleAppInfoTaskGetAdvancedResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:190131
 
 ## Properties
 
-### app\_id
+### app\_id?
 
-• `Optional` **app\_id**: `string`
+> **`optional`** **app\_id**: `string`
 
 application id received in a POST request
 
 #### Implementation of
 
-[IAppDataAppleAppInfoTaskGetAdvancedResultInfo](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md).[app_id](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md#app_id)
+[`IAppDataAppleAppInfoTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md).[`app_id`](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md#app_id)
 
-#### Defined in
+#### Source
 
 main.ts:190107
 
-___
+***
 
-### check\_url
+### check\_url?
 
-• `Optional` **check\_url**: `string`
+> **`optional`** **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
 
 #### Implementation of
 
-[IAppDataAppleAppInfoTaskGetAdvancedResultInfo](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md).[check_url](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md#check_url)
+[`IAppDataAppleAppInfoTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md).[`check_url`](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md#check_url)
 
-#### Defined in
+#### Source
 
 main.ts:190116
 
-___
+***
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -100,164 +78,158 @@ example:
 
 #### Implementation of
 
-[IAppDataAppleAppInfoTaskGetAdvancedResultInfo](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md).[datetime](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md#datetime)
+[`IAppDataAppleAppInfoTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md).[`datetime`](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
 main.ts:190121
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)[]
+> **`optional`** **items**: [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)[]
 
 found app info
 
 #### Implementation of
 
-[IAppDataAppleAppInfoTaskGetAdvancedResultInfo](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md).[items](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md#items)
+[`IAppDataAppleAppInfoTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md).[`items`](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md#items)
 
-#### Defined in
+#### Source
 
 main.ts:190127
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of items in the results array
 
 #### Implementation of
 
-[IAppDataAppleAppInfoTaskGetAdvancedResultInfo](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md).[items_count](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md#items_count)
+[`IAppDataAppleAppInfoTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md).[`items_count`](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
 main.ts:190125
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[IAppDataAppleAppInfoTaskGetAdvancedResultInfo](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md).[language_code](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md#language_code)
+[`IAppDataAppleAppInfoTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md).[`language_code`](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
 main.ts:190113
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[IAppDataAppleAppInfoTaskGetAdvancedResultInfo](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md).[location_code](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md#location_code)
+[`IAppDataAppleAppInfoTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md).[`location_code`](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
 main.ts:190111
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
 #### Implementation of
 
-[IAppDataAppleAppInfoTaskGetAdvancedResultInfo](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md).[se_domain](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md#se_domain)
+[`IAppDataAppleAppInfoTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md).[`se_domain`](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md#se_domain)
 
-#### Defined in
+#### Source
 
 main.ts:190109
 
-___
+***
 
-### se\_results\_count
+### se\_results\_count?
 
-• `Optional` **se\_results\_count**: `number`
+> **`optional`** **se\_results\_count**: `number`
 
 the total number of results
 
 #### Implementation of
 
-[IAppDataAppleAppInfoTaskGetAdvancedResultInfo](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md).[se_results_count](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md#se_results_count)
+[`IAppDataAppleAppInfoTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md).[`se_results_count`](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md#se_results_count)
 
-#### Defined in
+#### Source
 
 main.ts:190123
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:190140
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:190169
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppDataAppleAppInfoTaskGetAdvancedResultInfo`](AppDataAppleAppInfoTaskGetAdvancedResultInfo.md)
+> **`static`** **fromJS**(`data`): [`AppDataAppleAppInfoTaskGetAdvancedResultInfo`](AppDataAppleAppInfoTaskGetAdvancedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppDataAppleAppInfoTaskGetAdvancedResultInfo`](AppDataAppleAppInfoTaskGetAdvancedResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:190162

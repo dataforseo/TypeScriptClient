@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / PageContentInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / PageContentInfo
 
 # Class: PageContentInfo
 
@@ -8,169 +12,142 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](PageContentInfo.md#constructor)
-
-### Properties
-
-- [footer](PageContentInfo.md#footer)
-- [header](PageContentInfo.md#header)
-- [main\_topic](PageContentInfo.md#main_topic)
-- [secondary\_topic](PageContentInfo.md#secondary_topic)
-
-### Methods
-
-- [init](PageContentInfo.md#init)
-- [toJSON](PageContentInfo.md#tojson)
-- [fromJS](PageContentInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new PageContentInfo(data)
 
-• **new PageContentInfo**(`data?`): [`PageContentInfo`](PageContentInfo.md)
+> **new PageContentInfo**(`data`?): [`PageContentInfo`](PageContentInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IPageContentInfo`](../interfaces/IPageContentInfo.md) |
+• **data?**: [`IPageContentInfo`](../interfaces/IPageContentInfo.md)
 
 #### Returns
 
 [`PageContentInfo`](PageContentInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:157634
+main.ts:157642
 
 ## Properties
 
-### footer
+### footer?
 
-• `Optional` **footer**: [`PageSectionContentInfo`](PageSectionContentInfo.md)
+> **`optional`** **footer**: [`PageSectionContentInfo`](PageSectionContentInfo.md)
 
 parsed content of the footer
 
 #### Implementation of
 
-[IPageContentInfo](../interfaces/IPageContentInfo.md).[footer](../interfaces/IPageContentInfo.md#footer)
+[`IPageContentInfo`](../interfaces/IPageContentInfo.md).[`footer`](../interfaces/IPageContentInfo.md#footer)
 
-#### Defined in
+#### Source
 
-main.ts:157624
+main.ts:157632
 
-___
+***
 
-### header
+### header?
 
-• `Optional` **header**: [`PageSectionContentInfo`](PageSectionContentInfo.md)
+> **`optional`** **header**: [`PageSectionContentInfo`](PageSectionContentInfo.md)
 
 parsed content of the header
 
 #### Implementation of
 
-[IPageContentInfo](../interfaces/IPageContentInfo.md).[header](../interfaces/IPageContentInfo.md#header)
+[`IPageContentInfo`](../interfaces/IPageContentInfo.md).[`header`](../interfaces/IPageContentInfo.md#header)
 
-#### Defined in
+#### Source
 
-main.ts:157622
+main.ts:157630
 
-___
+***
 
-### main\_topic
+### main\_topic?
 
-• `Optional` **main\_topic**: [`TopicInfo`](TopicInfo.md)[]
+> **`optional`** **main\_topic**: [`TopicInfo`](TopicInfo.md)[]
 
 main topic on the page
 you can find more information about topic priority calculation in this help center article
 
 #### Implementation of
 
-[IPageContentInfo](../interfaces/IPageContentInfo.md).[main_topic](../interfaces/IPageContentInfo.md#main_topic)
+[`IPageContentInfo`](../interfaces/IPageContentInfo.md).[`main_topic`](../interfaces/IPageContentInfo.md#main_topic)
 
-#### Defined in
+#### Source
 
-main.ts:157627
+main.ts:157635
 
-___
+***
 
-### secondary\_topic
+### secondary\_topic?
 
-• `Optional` **secondary\_topic**: [`TopicInfo`](TopicInfo.md)[]
+> **`optional`** **secondary\_topic**: [`TopicInfo`](TopicInfo.md)[]
 
 secondary topic on the page
 you can find more information about topic priority calculation in this help center article
 
 #### Implementation of
 
-[IPageContentInfo](../interfaces/IPageContentInfo.md).[secondary_topic](../interfaces/IPageContentInfo.md#secondary_topic)
+[`IPageContentInfo`](../interfaces/IPageContentInfo.md).[`secondary_topic`](../interfaces/IPageContentInfo.md#secondary_topic)
 
-#### Defined in
+#### Source
 
-main.ts:157630
+main.ts:157638
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:157643
+main.ts:157651
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:157671
+main.ts:157679
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`PageContentInfo`](PageContentInfo.md)
+> **`static`** **fromJS**(`data`): [`PageContentInfo`](PageContentInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`PageContentInfo`](PageContentInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:157664
+main.ts:157672

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixBusinessDataGoogleInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppendixBusinessDataGoogleInfo
 
 # Class: AppendixBusinessDataGoogleInfo
 
@@ -8,174 +12,146 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixBusinessDataGoogleInfo.md#constructor)
-
-### Properties
-
-- [hotel\_info](AppendixBusinessDataGoogleInfo.md#hotel_info)
-- [hotel\_searches](AppendixBusinessDataGoogleInfo.md#hotel_searches)
-- [my\_business\_info](AppendixBusinessDataGoogleInfo.md#my_business_info)
-- [my\_business\_updates](AppendixBusinessDataGoogleInfo.md#my_business_updates)
-- [reviews](AppendixBusinessDataGoogleInfo.md#reviews)
-
-### Methods
-
-- [init](AppendixBusinessDataGoogleInfo.md#init)
-- [toJSON](AppendixBusinessDataGoogleInfo.md#tojson)
-- [fromJS](AppendixBusinessDataGoogleInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixBusinessDataGoogleInfo(data)
 
-• **new AppendixBusinessDataGoogleInfo**(`data?`): [`AppendixBusinessDataGoogleInfo`](AppendixBusinessDataGoogleInfo.md)
+> **new AppendixBusinessDataGoogleInfo**(`data`?): [`AppendixBusinessDataGoogleInfo`](AppendixBusinessDataGoogleInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixBusinessDataGoogleInfo`](../interfaces/IAppendixBusinessDataGoogleInfo.md) |
+• **data?**: [`IAppendixBusinessDataGoogleInfo`](../interfaces/IAppendixBusinessDataGoogleInfo.md)
 
 #### Returns
 
 [`AppendixBusinessDataGoogleInfo`](AppendixBusinessDataGoogleInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:213334
 
 ## Properties
 
-### hotel\_info
+### hotel\_info?
 
-• `Optional` **hotel\_info**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
+> **`optional`** **hotel\_info**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
 #### Implementation of
 
-[IAppendixBusinessDataGoogleInfo](../interfaces/IAppendixBusinessDataGoogleInfo.md).[hotel_info](../interfaces/IAppendixBusinessDataGoogleInfo.md#hotel_info)
+[`IAppendixBusinessDataGoogleInfo`](../interfaces/IAppendixBusinessDataGoogleInfo.md).[`hotel_info`](../interfaces/IAppendixBusinessDataGoogleInfo.md#hotel_info)
 
-#### Defined in
+#### Source
 
 main.ts:213328
 
-___
+***
 
-### hotel\_searches
+### hotel\_searches?
 
-• `Optional` **hotel\_searches**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **hotel\_searches**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
-[IAppendixBusinessDataGoogleInfo](../interfaces/IAppendixBusinessDataGoogleInfo.md).[hotel_searches](../interfaces/IAppendixBusinessDataGoogleInfo.md#hotel_searches)
+[`IAppendixBusinessDataGoogleInfo`](../interfaces/IAppendixBusinessDataGoogleInfo.md).[`hotel_searches`](../interfaces/IAppendixBusinessDataGoogleInfo.md#hotel_searches)
 
-#### Defined in
+#### Source
 
 main.ts:213329
 
-___
+***
 
-### my\_business\_info
+### my\_business\_info?
 
-• `Optional` **my\_business\_info**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **my\_business\_info**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
-[IAppendixBusinessDataGoogleInfo](../interfaces/IAppendixBusinessDataGoogleInfo.md).[my_business_info](../interfaces/IAppendixBusinessDataGoogleInfo.md#my_business_info)
+[`IAppendixBusinessDataGoogleInfo`](../interfaces/IAppendixBusinessDataGoogleInfo.md).[`my_business_info`](../interfaces/IAppendixBusinessDataGoogleInfo.md#my_business_info)
 
-#### Defined in
+#### Source
 
 main.ts:213326
 
-___
+***
 
-### my\_business\_updates
+### my\_business\_updates?
 
-• `Optional` **my\_business\_updates**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **my\_business\_updates**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
-[IAppendixBusinessDataGoogleInfo](../interfaces/IAppendixBusinessDataGoogleInfo.md).[my_business_updates](../interfaces/IAppendixBusinessDataGoogleInfo.md#my_business_updates)
+[`IAppendixBusinessDataGoogleInfo`](../interfaces/IAppendixBusinessDataGoogleInfo.md).[`my_business_updates`](../interfaces/IAppendixBusinessDataGoogleInfo.md#my_business_updates)
 
-#### Defined in
+#### Source
 
 main.ts:213327
 
-___
+***
 
-### reviews
+### reviews?
 
-• `Optional` **reviews**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **reviews**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
-[IAppendixBusinessDataGoogleInfo](../interfaces/IAppendixBusinessDataGoogleInfo.md).[reviews](../interfaces/IAppendixBusinessDataGoogleInfo.md#reviews)
+[`IAppendixBusinessDataGoogleInfo`](../interfaces/IAppendixBusinessDataGoogleInfo.md).[`reviews`](../interfaces/IAppendixBusinessDataGoogleInfo.md#reviews)
 
-#### Defined in
+#### Source
 
 main.ts:213330
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:213343
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:213364
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppendixBusinessDataGoogleInfo`](AppendixBusinessDataGoogleInfo.md)
+> **`static`** **fromJS**(`data`): [`AppendixBusinessDataGoogleInfo`](AppendixBusinessDataGoogleInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppendixBusinessDataGoogleInfo`](AppendixBusinessDataGoogleInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:213357

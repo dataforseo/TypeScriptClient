@@ -1,68 +1,59 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksIndexResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBacklinksIndexResultInfo
 
 # Interface: IBacklinksIndexResultInfo
 
-## Implemented by
-
-- [`BacklinksIndexResultInfo`](../classes/BacklinksIndexResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [index\_history](IBacklinksIndexResultInfo.md#index_history)
-- [total\_backlinks](IBacklinksIndexResultInfo.md#total_backlinks)
-- [total\_domains](IBacklinksIndexResultInfo.md#total_domains)
-- [total\_pages](IBacklinksIndexResultInfo.md#total_pages)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### index\_history
+### index\_history?
 
-• `Optional` **index\_history**: [`IndexHistory`](../classes/IndexHistory.md)[]
+> **`optional`** **index\_history**: [`IndexHistory`](../classes/IndexHistory.md)[]
 
 index volume data for the past 12 months
 
-#### Defined in
+#### Source
 
-main.ts:134449
+main.ts:134457
 
-___
+***
 
-### total\_backlinks
+### total\_backlinks?
 
-• `Optional` **total\_backlinks**: `number`
+> **`optional`** **total\_backlinks**: `number`
 
 total number of backlinks our database contains for the moment of checking
 
-#### Defined in
+#### Source
 
-main.ts:134443
+main.ts:134451
 
-___
+***
 
-### total\_domains
+### total\_domains?
 
-• `Optional` **total\_domains**: `number`
+> **`optional`** **total\_domains**: `number`
 
 total number of domains our database contains for the moment of checking
 
-#### Defined in
+#### Source
 
-main.ts:134447
+main.ts:134455
 
-___
+***
 
-### total\_pages
+### total\_pages?
 
-• `Optional` **total\_pages**: `number`
+> **`optional`** **total\_pages**: `number`
 
 total number of pages our database contains for the moment of checking
 
-#### Defined in
+#### Source
 
-main.ts:134445
+main.ts:134453

@@ -1,39 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo
 
 # Interface: IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo
 
-## Implemented by
-
-- [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](../classes/DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [category](IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md#category)
-- [filters](IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md#filters)
-- [group](IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md#group)
-- [internal\_categories\_list\_limit](IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md#internal_categories_list_limit)
-- [internal\_groups\_list\_limit](IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md#internal_groups_list_limit)
-- [internal\_list\_limit](IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md#internal_list_limit)
-- [internal\_technologies\_list\_limit](IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md#internal_technologies_list_limit)
-- [keyword](IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md#keyword)
-- [limit](IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md#limit)
-- [mode](IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md#mode)
-- [offset](IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md#offset)
-- [order\_by](IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md#order_by)
-- [tag](IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md#tag)
-- [technology](IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md#technology)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### category
+### category?
 
-• `Optional` **category**: `string`
+> **`optional`** **category**: `string`
 
 id of the target technology category
 required field if you don’t specify group or technology
@@ -41,38 +22,38 @@ you can find the full list of technology category ids on this page
 example:
 "crm"
 
-#### Defined in
+#### Source
 
-main.ts:75003
+main.ts:75011
 
-___
+***
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-<, <=, >, >=, =, <>, in, not_in, like,not_like
+<, `<=, >`, >=, =, `<>`, in, not_in, like,not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 you can use the following parameters to filter the results: domain_rank, last_visited, country_iso_code, language_code, content_language_code
 example:
 [["country_iso_code","=","US"],
 "and",
-["domain_rank",">",800]]for more information about filters, please refer to Domain Analytics Technologies API – Filters
+["domain_rank",">`",800]]for more information about filters, please refer to Domain Analytics Technologies API – Filters
 
-#### Defined in
+#### Source
 
-main.ts:75036
+main.ts:75044
 
-___
+***
 
-### group
+### group?
 
-• `Optional` **group**: `string`
+> **`optional`** **group**: `string`
 
 id of the target technology group
 required field if you don’t specify technology or category
@@ -80,15 +61,15 @@ you can find the full list of technology group ids on this page
 example:
 "marketing"
 
-#### Defined in
+#### Source
 
-main.ts:74997
+main.ts:75005
 
-___
+***
 
-### internal\_categories\_list\_limit
+### internal\_categories\_list\_limit?
 
-• `Optional` **internal\_categories\_list\_limit**: `number`
+> **`optional`** **internal\_categories\_list\_limit**: `number`
 
 maximum number of returned technology categories within the same group
 optional field
@@ -96,15 +77,15 @@ you can use this field to limit the number of items with identical "category" in
 default value: 5
 maximum value: 10000
 
-#### Defined in
+#### Source
 
-main.ts:75064
+main.ts:75072
 
-___
+***
 
-### internal\_groups\_list\_limit
+### internal\_groups\_list\_limit?
 
-• `Optional` **internal\_groups\_list\_limit**: `number`
+> **`optional`** **internal\_groups\_list\_limit**: `number`
 
 maximum number of returned technology groups
 optional field
@@ -112,15 +93,15 @@ you can use this field to limit the number of items with identical "group" in th
 default value: 5
 maximum value: 10000
 
-#### Defined in
+#### Source
 
-main.ts:75058
+main.ts:75066
 
-___
+***
 
-### internal\_list\_limit
+### internal\_list\_limit?
 
-• `Optional` **internal\_list\_limit**: `number`
+> **`optional`** **internal\_list\_limit**: `number`
 
 maximum number of items with identical "category", "group", and "technology"
 optional field
@@ -129,15 +110,15 @@ you can use this field to limit the number of items with identical "category", "
 default value: 10
 maximum value: 10000
 
-#### Defined in
+#### Source
 
-main.ts:75077
+main.ts:75085
 
-___
+***
 
-### internal\_technologies\_list\_limit
+### internal\_technologies\_list\_limit?
 
-• `Optional` **internal\_technologies\_list\_limit**: `number`
+> **`optional`** **internal\_technologies\_list\_limit**: `number`
 
 maximum number of returned technologies within the same category
 optional field
@@ -145,15 +126,15 @@ you can use this field to limit the number of items with identical "technology" 
 default value: 10
 maximum value: 10000
 
-#### Defined in
+#### Source
 
-main.ts:75070
+main.ts:75078
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 target keyword in the domain’s meta keywords
 optional field
@@ -162,30 +143,30 @@ each keyword should be at least 3 characters long
 example:
 "seo"
 
-#### Defined in
+#### Source
 
-main.ts:75016
+main.ts:75024
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned technologies
 optional field
 default value: 100
 maximum value: 10000
 
-#### Defined in
+#### Source
 
-main.ts:75082
+main.ts:75090
 
-___
+***
 
-### mode
+### mode?
 
-• `Optional` **mode**: `string`
+> **`optional`** **mode**: `string`
 
 search mode
 optional field
@@ -194,15 +175,15 @@ as_is – search for results exactly matching the specified group ids, category 
 entry – search for results matching a part of the specified group ids, category ids, or technology names
 default value: as_is
 
-#### Defined in
+#### Source
 
-main.ts:75023
+main.ts:75031
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned domains
 optional field
@@ -210,15 +191,15 @@ default value: 0
 maximum value: 9999
 if you specify the 10 value, the first ten technologies in the results array will be omitted and the data will be provided for the successive technologies
 
-#### Defined in
+#### Source
 
-main.ts:75088
+main.ts:75096
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -236,15 +217,15 @@ example:
 default value:
 ["groups_count,desc","categories_count,desc","technologies_count,desc"]
 
-#### Defined in
+#### Source
 
-main.ts:75052
+main.ts:75060
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -252,15 +233,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:75094
+main.ts:75102
 
-___
+***
 
-### technology
+### technology?
 
-• `Optional` **technology**: `string`
+> **`optional`** **technology**: `string`
 
 target technology
 required field if you don’t specify group or category
@@ -268,6 +249,6 @@ you can find the full list of technologies on this page
 example:
 "Salesforce"
 
-#### Defined in
+#### Source
 
-main.ts:75009
+main.ts:75017

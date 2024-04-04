@@ -1,68 +1,59 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAuthorsElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAuthorsElement
 
 # Interface: IAuthorsElement
 
-## Implemented by
-
-- [`AuthorsElement`](../classes/AuthorsElement.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [domain](IAuthorsElement.md#domain)
-- [name](IAuthorsElement.md#name)
-- [type](IAuthorsElement.md#type)
-- [url](IAuthorsElement.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 author’s link domain
 
-#### Defined in
+#### Source
 
-main.ts:53062
+main.ts:53070
 
-___
+***
 
-### name
+### name?
 
-• `Optional` **name**: `string`
+> **`optional`** **name**: `string`
 
 name of the dataset author
 
-#### Defined in
+#### Source
 
-main.ts:53058
+main.ts:53066
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:53056
+main.ts:53064
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 author’s link URL
 
-#### Defined in
+#### Source
 
-main.ts:53060
+main.ts:53068

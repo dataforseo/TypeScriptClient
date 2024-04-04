@@ -1,55 +1,47 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IReviewResponseItemInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IReviewResponseItemInfo
 
 # Interface: IReviewResponseItemInfo
 
-## Implemented by
-
-- [`ReviewResponseItemInfo`](../classes/ReviewResponseItemInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [text](IReviewResponseItemInfo.md#text)
-- [timestamp](IReviewResponseItemInfo.md#timestamp)
-- [title](IReviewResponseItemInfo.md#title)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### text
+### text?
 
-• `Optional` **text**: `string`
+> **`optional`** **text**: `string`
 
 the content of response
 
-#### Defined in
+#### Source
 
 main.ts:20759
 
-___
+***
 
-### timestamp
+### timestamp?
 
-• `Optional` **timestamp**: `string`
+> **`optional`** **timestamp**: `string`
 
 the time of publication
 
-#### Defined in
+#### Source
 
 main.ts:20761
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 the title of response
 
-#### Defined in
+#### Source
 
 main.ts:20757

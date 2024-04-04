@@ -1,18 +1,17 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataTaskRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataTaskRequestInfo
 
 # Class: BusinessDataTaskRequestInfo
 
-## Hierarchy
+## Extended by
 
-- **`BusinessDataTaskRequestInfo`**
-
-  ↳ [`BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo`](BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md)
-
-  ↳ [`BusinessDataGoogleHotelSearchesTaskPostRequestInfo`](BusinessDataGoogleHotelSearchesTaskPostRequestInfo.md)
-
-  ↳ [`BusinessDataGoogleHotelInfoTaskPostRequestInfo`](BusinessDataGoogleHotelInfoTaskPostRequestInfo.md)
-
-  ↳ [`BusinessDataGoogleReviewsTaskPostRequestInfo`](BusinessDataGoogleReviewsTaskPostRequestInfo.md)
+- [`BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo`](BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md)
+- [`BusinessDataGoogleHotelSearchesTaskPostRequestInfo`](BusinessDataGoogleHotelSearchesTaskPostRequestInfo.md)
+- [`BusinessDataGoogleHotelInfoTaskPostRequestInfo`](BusinessDataGoogleHotelInfoTaskPostRequestInfo.md)
+- [`BusinessDataGoogleReviewsTaskPostRequestInfo`](BusinessDataGoogleReviewsTaskPostRequestInfo.md)
 
 ## Implements
 
@@ -20,58 +19,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataTaskRequestInfo.md#constructor)
-
-### Properties
-
-- [keyword](BusinessDataTaskRequestInfo.md#keyword)
-- [language\_code](BusinessDataTaskRequestInfo.md#language_code)
-- [language\_name](BusinessDataTaskRequestInfo.md#language_name)
-- [location\_code](BusinessDataTaskRequestInfo.md#location_code)
-- [location\_coordinate](BusinessDataTaskRequestInfo.md#location_coordinate)
-- [location\_name](BusinessDataTaskRequestInfo.md#location_name)
-- [pingback\_url](BusinessDataTaskRequestInfo.md#pingback_url)
-- [postback\_url](BusinessDataTaskRequestInfo.md#postback_url)
-- [priority](BusinessDataTaskRequestInfo.md#priority)
-- [tag](BusinessDataTaskRequestInfo.md#tag)
-
-### Methods
-
-- [init](BusinessDataTaskRequestInfo.md#init)
-- [toJSON](BusinessDataTaskRequestInfo.md#tojson)
-- [fromJS](BusinessDataTaskRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataTaskRequestInfo(data)
 
-• **new BusinessDataTaskRequestInfo**(`data?`): [`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md)
+> **new BusinessDataTaskRequestInfo**(`data`?): [`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataTaskRequestInfo`](../interfaces/IBusinessDataTaskRequestInfo.md) |
+• **data?**: [`IBusinessDataTaskRequestInfo`](../interfaces/IBusinessDataTaskRequestInfo.md)
 
 #### Returns
 
 [`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:188638
 
 ## Properties
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword
 required field
@@ -91,17 +63,17 @@ learn more about the cid and place_id identifiers in this help center article
 
 #### Implementation of
 
-[IBusinessDataTaskRequestInfo](../interfaces/IBusinessDataTaskRequestInfo.md).[keyword](../interfaces/IBusinessDataTaskRequestInfo.md#keyword)
+[`IBusinessDataTaskRequestInfo`](../interfaces/IBusinessDataTaskRequestInfo.md).[`keyword`](../interfaces/IBusinessDataTaskRequestInfo.md#keyword)
 
-#### Defined in
+#### Source
 
 main.ts:188563
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -112,17 +84,17 @@ en
 
 #### Implementation of
 
-[IBusinessDataTaskRequestInfo](../interfaces/IBusinessDataTaskRequestInfo.md).[language_code](../interfaces/IBusinessDataTaskRequestInfo.md#language_code)
+[`IBusinessDataTaskRequestInfo`](../interfaces/IBusinessDataTaskRequestInfo.md).[`language_code`](../interfaces/IBusinessDataTaskRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
 main.ts:188608
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -133,17 +105,17 @@ English
 
 #### Implementation of
 
-[IBusinessDataTaskRequestInfo](../interfaces/IBusinessDataTaskRequestInfo.md).[language_name](../interfaces/IBusinessDataTaskRequestInfo.md#language_name)
+[`IBusinessDataTaskRequestInfo`](../interfaces/IBusinessDataTaskRequestInfo.md).[`language_name`](../interfaces/IBusinessDataTaskRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
 main.ts:188601
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -154,17 +126,17 @@ example:
 
 #### Implementation of
 
-[IBusinessDataTaskRequestInfo](../interfaces/IBusinessDataTaskRequestInfo.md).[location_code](../interfaces/IBusinessDataTaskRequestInfo.md#location_code)
+[`IBusinessDataTaskRequestInfo`](../interfaces/IBusinessDataTaskRequestInfo.md).[`location_code`](../interfaces/IBusinessDataTaskRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
 main.ts:188585
 
-___
+***
 
-### location\_coordinate
+### location\_coordinate?
 
-• `Optional` **location\_coordinate**: `string`
+> **`optional`** **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -177,17 +149,17 @@ example:
 
 #### Implementation of
 
-[IBusinessDataTaskRequestInfo](../interfaces/IBusinessDataTaskRequestInfo.md).[location_coordinate](../interfaces/IBusinessDataTaskRequestInfo.md#location_coordinate)
+[`IBusinessDataTaskRequestInfo`](../interfaces/IBusinessDataTaskRequestInfo.md).[`location_coordinate`](../interfaces/IBusinessDataTaskRequestInfo.md#location_coordinate)
 
-#### Defined in
+#### Source
 
 main.ts:188594
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -198,17 +170,17 @@ London,England,United Kingdom
 
 #### Implementation of
 
-[IBusinessDataTaskRequestInfo](../interfaces/IBusinessDataTaskRequestInfo.md).[location_name](../interfaces/IBusinessDataTaskRequestInfo.md#location_name)
+[`IBusinessDataTaskRequestInfo`](../interfaces/IBusinessDataTaskRequestInfo.md).[`location_name`](../interfaces/IBusinessDataTaskRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
 main.ts:188578
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -222,17 +194,17 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[IBusinessDataTaskRequestInfo](../interfaces/IBusinessDataTaskRequestInfo.md).[pingback_url](../interfaces/IBusinessDataTaskRequestInfo.md#pingback_url)
+[`IBusinessDataTaskRequestInfo`](../interfaces/IBusinessDataTaskRequestInfo.md).[`pingback_url`](../interfaces/IBusinessDataTaskRequestInfo.md#pingback_url)
 
-#### Defined in
+#### Source
 
 main.ts:188634
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -246,17 +218,17 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[IBusinessDataTaskRequestInfo](../interfaces/IBusinessDataTaskRequestInfo.md).[postback_url](../interfaces/IBusinessDataTaskRequestInfo.md#postback_url)
+[`IBusinessDataTaskRequestInfo`](../interfaces/IBusinessDataTaskRequestInfo.md).[`postback_url`](../interfaces/IBusinessDataTaskRequestInfo.md#postback_url)
 
-#### Defined in
+#### Source
 
 main.ts:188624
 
-___
+***
 
-### priority
+### priority?
 
-• `Optional` **priority**: `number`
+> **`optional`** **priority**: `number`
 
 task priority
 optional field
@@ -268,17 +240,17 @@ The cost can be calculated on the Pricing page.
 
 #### Implementation of
 
-[IBusinessDataTaskRequestInfo](../interfaces/IBusinessDataTaskRequestInfo.md).[priority](../interfaces/IBusinessDataTaskRequestInfo.md#priority)
+[`IBusinessDataTaskRequestInfo`](../interfaces/IBusinessDataTaskRequestInfo.md).[`priority`](../interfaces/IBusinessDataTaskRequestInfo.md#priority)
 
-#### Defined in
+#### Source
 
 main.ts:188571
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -288,68 +260,62 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IBusinessDataTaskRequestInfo](../interfaces/IBusinessDataTaskRequestInfo.md).[tag](../interfaces/IBusinessDataTaskRequestInfo.md#tag)
+[`IBusinessDataTaskRequestInfo`](../interfaces/IBusinessDataTaskRequestInfo.md).[`tag`](../interfaces/IBusinessDataTaskRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
 main.ts:188614
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:188647
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:188673
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:188666

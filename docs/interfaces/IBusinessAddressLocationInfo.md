@@ -1,56 +1,48 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessAddressLocationInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBusinessAddressLocationInfo
 
 # Interface: IBusinessAddressLocationInfo
 
-## Implemented by
-
-- [`BusinessAddressLocationInfo`](../classes/BusinessAddressLocationInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [address\_lines](IBusinessAddressLocationInfo.md#address_lines)
-- [latitude](IBusinessAddressLocationInfo.md#latitude)
-- [longitude](IBusinessAddressLocationInfo.md#longitude)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### address\_lines
+### address\_lines?
 
-• `Optional` **address\_lines**: `string`[]
+> **`optional`** **address\_lines**: `string`[]
 
 business address
 contains few address lines specified by the business entity
 
-#### Defined in
+#### Source
 
 main.ts:209394
 
-___
+***
 
-### latitude
+### latitude?
 
-• `Optional` **latitude**: `string`
+> **`optional`** **latitude**: `string`
 
 latitude in GPS coordinates
 
-#### Defined in
+#### Source
 
 main.ts:209396
 
-___
+***
 
-### longitude
+### longitude?
 
-• `Optional` **longitude**: `string`
+> **`optional`** **longitude**: `string`
 
 longitude in GPS coordinates
 
-#### Defined in
+#### Source
 
 main.ts:209398

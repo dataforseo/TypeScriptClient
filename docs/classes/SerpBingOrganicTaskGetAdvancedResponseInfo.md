@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpBingOrganicTaskGetAdvancedResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpBingOrganicTaskGetAdvancedResponseInfo
 
 # Class: SerpBingOrganicTaskGetAdvancedResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`SerpBingOrganicTaskGetAdvancedResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpBingOrganicTaskGetAdvancedResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](SerpBingOrganicTaskGetAdvancedResponseInfo.md#cost)
-- [status\_code](SerpBingOrganicTaskGetAdvancedResponseInfo.md#status_code)
-- [status\_message](SerpBingOrganicTaskGetAdvancedResponseInfo.md#status_message)
-- [tasks](SerpBingOrganicTaskGetAdvancedResponseInfo.md#tasks)
-- [tasks\_count](SerpBingOrganicTaskGetAdvancedResponseInfo.md#tasks_count)
-- [tasks\_error](SerpBingOrganicTaskGetAdvancedResponseInfo.md#tasks_error)
-- [time](SerpBingOrganicTaskGetAdvancedResponseInfo.md#time)
-- [version](SerpBingOrganicTaskGetAdvancedResponseInfo.md#version)
-
-### Methods
-
-- [init](SerpBingOrganicTaskGetAdvancedResponseInfo.md#init)
-- [toJSON](SerpBingOrganicTaskGetAdvancedResponseInfo.md#tojson)
-- [fromJS](SerpBingOrganicTaskGetAdvancedResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpBingOrganicTaskGetAdvancedResponseInfo(data)
 
-• **new SerpBingOrganicTaskGetAdvancedResponseInfo**(`data?`): [`SerpBingOrganicTaskGetAdvancedResponseInfo`](SerpBingOrganicTaskGetAdvancedResponseInfo.md)
+> **new SerpBingOrganicTaskGetAdvancedResponseInfo**(`data`?): [`SerpBingOrganicTaskGetAdvancedResponseInfo`](SerpBingOrganicTaskGetAdvancedResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpBingOrganicTaskGetAdvancedResponseInfo`](../interfaces/ISerpBingOrganicTaskGetAdvancedResponseInfo.md) |
+• **data?**: [`ISerpBingOrganicTaskGetAdvancedResponseInfo`](../interfaces/ISerpBingOrganicTaskGetAdvancedResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:57056
+main.ts:57064
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[ISerpBingOrganicTaskGetAdvancedResponseInfo](../interfaces/ISerpBingOrganicTaskGetAdvancedResponseInfo.md).[cost](../interfaces/ISerpBingOrganicTaskGetAdvancedResponseInfo.md#cost)
+[`ISerpBingOrganicTaskGetAdvancedResponseInfo`](../interfaces/ISerpBingOrganicTaskGetAdvancedResponseInfo.md).[`cost`](../interfaces/ISerpBingOrganicTaskGetAdvancedResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[ISerpBingOrganicTaskGetAdvancedResponseInfo](../interfaces/ISerpBingOrganicTaskGetAdvancedResponseInfo.md).[status_code](../interfaces/ISerpBingOrganicTaskGetAdvancedResponseInfo.md#status_code)
+[`ISerpBingOrganicTaskGetAdvancedResponseInfo`](../interfaces/ISerpBingOrganicTaskGetAdvancedResponseInfo.md).[`status_code`](../interfaces/ISerpBingOrganicTaskGetAdvancedResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[ISerpBingOrganicTaskGetAdvancedResponseInfo](../interfaces/ISerpBingOrganicTaskGetAdvancedResponseInfo.md).[status_message](../interfaces/ISerpBingOrganicTaskGetAdvancedResponseInfo.md#status_message)
+[`ISerpBingOrganicTaskGetAdvancedResponseInfo`](../interfaces/ISerpBingOrganicTaskGetAdvancedResponseInfo.md).[`status_message`](../interfaces/ISerpBingOrganicTaskGetAdvancedResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`SerpBingOrganicTaskGetAdvancedTaskInfo`](SerpBingOrganicTaskGetAdvancedTaskInfo.md)[]
+> **`optional`** **tasks**: [`SerpBingOrganicTaskGetAdvancedTaskInfo`](SerpBingOrganicTaskGetAdvancedTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[ISerpBingOrganicTaskGetAdvancedResponseInfo](../interfaces/ISerpBingOrganicTaskGetAdvancedResponseInfo.md).[tasks](../interfaces/ISerpBingOrganicTaskGetAdvancedResponseInfo.md#tasks)
+[`ISerpBingOrganicTaskGetAdvancedResponseInfo`](../interfaces/ISerpBingOrganicTaskGetAdvancedResponseInfo.md).[`tasks`](../interfaces/ISerpBingOrganicTaskGetAdvancedResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:57052
+main.ts:57060
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[ISerpBingOrganicTaskGetAdvancedResponseInfo](../interfaces/ISerpBingOrganicTaskGetAdvancedResponseInfo.md).[tasks_count](../interfaces/ISerpBingOrganicTaskGetAdvancedResponseInfo.md#tasks_count)
+[`ISerpBingOrganicTaskGetAdvancedResponseInfo`](../interfaces/ISerpBingOrganicTaskGetAdvancedResponseInfo.md).[`tasks_count`](../interfaces/ISerpBingOrganicTaskGetAdvancedResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[ISerpBingOrganicTaskGetAdvancedResponseInfo](../interfaces/ISerpBingOrganicTaskGetAdvancedResponseInfo.md).[tasks_error](../interfaces/ISerpBingOrganicTaskGetAdvancedResponseInfo.md#tasks_error)
+[`ISerpBingOrganicTaskGetAdvancedResponseInfo`](../interfaces/ISerpBingOrganicTaskGetAdvancedResponseInfo.md).[`tasks_error`](../interfaces/ISerpBingOrganicTaskGetAdvancedResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[ISerpBingOrganicTaskGetAdvancedResponseInfo](../interfaces/ISerpBingOrganicTaskGetAdvancedResponseInfo.md).[time](../interfaces/ISerpBingOrganicTaskGetAdvancedResponseInfo.md#time)
+[`ISerpBingOrganicTaskGetAdvancedResponseInfo`](../interfaces/ISerpBingOrganicTaskGetAdvancedResponseInfo.md).[`time`](../interfaces/ISerpBingOrganicTaskGetAdvancedResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[ISerpBingOrganicTaskGetAdvancedResponseInfo](../interfaces/ISerpBingOrganicTaskGetAdvancedResponseInfo.md).[version](../interfaces/ISerpBingOrganicTaskGetAdvancedResponseInfo.md#version)
+[`ISerpBingOrganicTaskGetAdvancedResponseInfo`](../interfaces/ISerpBingOrganicTaskGetAdvancedResponseInfo.md).[`version`](../interfaces/ISerpBingOrganicTaskGetAdvancedResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:57060
+main.ts:57068
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:57082
+main.ts:57090
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpBingOrganicTaskGetAdvancedResponseInfo`](SerpBingOrganicTaskGetAdvancedResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpBingOrganicTaskGetAdvancedResponseInfo`](SerpBingOrganicTaskGetAdvancedResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:57075
+main.ts:57083

@@ -1,60 +1,51 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixBusinessListingsBusinessDataPriceData
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppendixBusinessListingsBusinessDataPriceData
 
 # Interface: IAppendixBusinessListingsBusinessDataPriceData
 
-## Implemented by
-
-- [`AppendixBusinessListingsBusinessDataPriceData`](../classes/AppendixBusinessListingsBusinessDataPriceData.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [categories](IAppendixBusinessListingsBusinessDataPriceData.md#categories)
-- [categories\_aggregation](IAppendixBusinessListingsBusinessDataPriceData.md#categories_aggregation)
-- [locations](IAppendixBusinessListingsBusinessDataPriceData.md#locations)
-- [search](IAppendixBusinessListingsBusinessDataPriceData.md#search)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### categories
+### categories?
 
-• `Optional` **categories**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **categories**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:216583
 
-___
+***
 
-### categories\_aggregation
+### categories\_aggregation?
 
-• `Optional` **categories\_aggregation**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **categories\_aggregation**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:216584
 
-___
+***
 
-### locations
+### locations?
 
-• `Optional` **locations**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **locations**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:216585
 
-___
+***
 
-### search
+### search?
 
-• `Optional` **search**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **search**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:216586

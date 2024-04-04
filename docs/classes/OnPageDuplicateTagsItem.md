@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageDuplicateTagsItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPageDuplicateTagsItem
 
 # Class: OnPageDuplicateTagsItem
 
@@ -8,150 +12,124 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPageDuplicateTagsItem.md#constructor)
-
-### Properties
-
-- [accumulator](OnPageDuplicateTagsItem.md#accumulator)
-- [pages](OnPageDuplicateTagsItem.md#pages)
-- [total\_count](OnPageDuplicateTagsItem.md#total_count)
-
-### Methods
-
-- [init](OnPageDuplicateTagsItem.md#init)
-- [toJSON](OnPageDuplicateTagsItem.md#tojson)
-- [fromJS](OnPageDuplicateTagsItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPageDuplicateTagsItem(data)
 
-• **new OnPageDuplicateTagsItem**(`data?`): [`OnPageDuplicateTagsItem`](OnPageDuplicateTagsItem.md)
+> **new OnPageDuplicateTagsItem**(`data`?): [`OnPageDuplicateTagsItem`](OnPageDuplicateTagsItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPageDuplicateTagsItem`](../interfaces/IOnPageDuplicateTagsItem.md) |
+• **data?**: [`IOnPageDuplicateTagsItem`](../interfaces/IOnPageDuplicateTagsItem.md)
 
 #### Returns
 
 [`OnPageDuplicateTagsItem`](OnPageDuplicateTagsItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:152592
+main.ts:152600
 
 ## Properties
 
-### accumulator
+### accumulator?
 
-• `Optional` **accumulator**: `string`
+> **`optional`** **accumulator**: `string`
 
 contains the value of duplicated tag
 
 #### Implementation of
 
-[IOnPageDuplicateTagsItem](../interfaces/IOnPageDuplicateTagsItem.md).[accumulator](../interfaces/IOnPageDuplicateTagsItem.md#accumulator)
+[`IOnPageDuplicateTagsItem`](../interfaces/IOnPageDuplicateTagsItem.md).[`accumulator`](../interfaces/IOnPageDuplicateTagsItem.md#accumulator)
 
-#### Defined in
+#### Source
 
-main.ts:152584
+main.ts:152592
 
-___
+***
 
-### pages
+### pages?
 
-• `Optional` **pages**: [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)[]
+> **`optional`** **pages**: [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)[]
 
 pages with duplicate tags
 
 #### Implementation of
 
-[IOnPageDuplicateTagsItem](../interfaces/IOnPageDuplicateTagsItem.md).[pages](../interfaces/IOnPageDuplicateTagsItem.md#pages)
+[`IOnPageDuplicateTagsItem`](../interfaces/IOnPageDuplicateTagsItem.md).[`pages`](../interfaces/IOnPageDuplicateTagsItem.md#pages)
 
-#### Defined in
+#### Source
 
-main.ts:152588
+main.ts:152596
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total count of duplicate pages
 
 #### Implementation of
 
-[IOnPageDuplicateTagsItem](../interfaces/IOnPageDuplicateTagsItem.md).[total_count](../interfaces/IOnPageDuplicateTagsItem.md#total_count)
+[`IOnPageDuplicateTagsItem`](../interfaces/IOnPageDuplicateTagsItem.md).[`total_count`](../interfaces/IOnPageDuplicateTagsItem.md#total_count)
 
-#### Defined in
+#### Source
 
-main.ts:152586
+main.ts:152594
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:152601
+main.ts:152609
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:152624
+main.ts:152632
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPageDuplicateTagsItem`](OnPageDuplicateTagsItem.md)
+> **`static`** **fromJS**(`data`): [`OnPageDuplicateTagsItem`](OnPageDuplicateTagsItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`OnPageDuplicateTagsItem`](OnPageDuplicateTagsItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:152617
+main.ts:152625

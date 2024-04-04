@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DomainInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DomainInfo
 
 # Class: DomainInfo
 
@@ -8,63 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DomainInfo.md#constructor)
-
-### Properties
-
-- [canonicalization\_status\_code](DomainInfo.md#canonicalization_status_code)
-- [checks](DomainInfo.md#checks)
-- [cms](DomainInfo.md#cms)
-- [crawl\_end](DomainInfo.md#crawl_end)
-- [crawl\_start](DomainInfo.md#crawl_start)
-- [directory\_browsing\_status\_code](DomainInfo.md#directory_browsing_status_code)
-- [extended\_crawl\_status](DomainInfo.md#extended_crawl_status)
-- [ip](DomainInfo.md#ip)
-- [main\_domain](DomainInfo.md#main_domain)
-- [name](DomainInfo.md#name)
-- [page\_not\_found\_status\_code](DomainInfo.md#page_not_found_status_code)
-- [server](DomainInfo.md#server)
-- [ssl\_info](DomainInfo.md#ssl_info)
-- [total\_pages](DomainInfo.md#total_pages)
-- [www\_redirect\_status\_code](DomainInfo.md#www_redirect_status_code)
-
-### Methods
-
-- [init](DomainInfo.md#init)
-- [toJSON](DomainInfo.md#tojson)
-- [fromJS](DomainInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DomainInfo(data)
 
-• **new DomainInfo**(`data?`): [`DomainInfo`](DomainInfo.md)
+> **new DomainInfo**(`data`?): [`DomainInfo`](DomainInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDomainInfo`](../interfaces/IDomainInfo.md) |
+• **data?**: [`IDomainInfo`](../interfaces/IDomainInfo.md)
 
 #### Returns
 
 [`DomainInfo`](DomainInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:148795
+main.ts:148803
 
 ## Properties
 
-### canonicalization\_status\_code
+### canonicalization\_status\_code?
 
-• `Optional` **canonicalization\_status\_code**: `number`
+> **`optional`** **canonicalization\_status\_code**: `number`
 
 status code returned by a canonicalized page
 the checkup of the server behavior when our crawler tries to access the website via IP;
@@ -72,38 +44,38 @@ in most cases, it is recommended that canonicalized pages respond with a 301 or 
 
 #### Implementation of
 
-[IDomainInfo](../interfaces/IDomainInfo.md).[canonicalization_status_code](../interfaces/IDomainInfo.md#canonicalization_status_code)
+[`IDomainInfo`](../interfaces/IDomainInfo.md).[`canonicalization_status_code`](../interfaces/IDomainInfo.md#canonicalization_status_code)
 
-#### Defined in
+#### Source
 
-main.ts:148781
+main.ts:148789
 
-___
+***
 
-### checks
+### checks?
 
-• `Optional` **checks**: `Object`
+> **`optional`** **checks**: `Object`
 
 website checks
 other on-page check-ups related to the website
 
 #### Index signature
 
-▪ [key: `string`]: `boolean`
+ \[`key`: `string`\]: `boolean`
 
 #### Implementation of
 
-[IDomainInfo](../interfaces/IDomainInfo.md).[checks](../interfaces/IDomainInfo.md#checks)
+[`IDomainInfo`](../interfaces/IDomainInfo.md).[`checks`](../interfaces/IDomainInfo.md#checks)
 
-#### Defined in
+#### Source
 
-main.ts:148771
+main.ts:148779
 
-___
+***
 
-### cms
+### cms?
 
-• `Optional` **cms**: `string`
+> **`optional`** **cms**: `string`
 
 content management system
 content management system identified on a website
@@ -113,17 +85,17 @@ if our crawler was unable to identify the cms, the value would be null
 
 #### Implementation of
 
-[IDomainInfo](../interfaces/IDomainInfo.md).[cms](../interfaces/IDomainInfo.md#cms)
+[`IDomainInfo`](../interfaces/IDomainInfo.md).[`cms`](../interfaces/IDomainInfo.md#cms)
 
-#### Defined in
+#### Source
 
-main.ts:148734
+main.ts:148742
 
-___
+***
 
-### crawl\_end
+### crawl\_end?
 
-• `Optional` **crawl\_end**: `string`
+> **`optional`** **crawl\_end**: `string`
 
 time when the crawling ended
 date and time when the crawling was finished
@@ -134,17 +106,17 @@ if "crawl_progress" is in_progress, the value will be null
 
 #### Implementation of
 
-[IDomainInfo](../interfaces/IDomainInfo.md).[crawl_end](../interfaces/IDomainInfo.md#crawl_end)
+[`IDomainInfo`](../interfaces/IDomainInfo.md).[`crawl_end`](../interfaces/IDomainInfo.md#crawl_end)
 
-#### Defined in
+#### Source
 
-main.ts:148754
+main.ts:148762
 
-___
+***
 
-### crawl\_start
+### crawl\_start?
 
-• `Optional` **crawl\_start**: `string`
+> **`optional`** **crawl\_start**: `string`
 
 time when the crawling start
 date and time when the website was sent for crawling
@@ -154,17 +126,17 @@ example:
 
 #### Implementation of
 
-[IDomainInfo](../interfaces/IDomainInfo.md).[crawl_start](../interfaces/IDomainInfo.md#crawl_start)
+[`IDomainInfo`](../interfaces/IDomainInfo.md).[`crawl_start`](../interfaces/IDomainInfo.md#crawl_start)
 
-#### Defined in
+#### Source
 
-main.ts:148747
+main.ts:148755
 
-___
+***
 
-### directory\_browsing\_status\_code
+### directory\_browsing\_status\_code?
 
-• `Optional` **directory\_browsing\_status\_code**: `number`
+> **`optional`** **directory\_browsing\_status\_code**: `number`
 
 status code returned by a directory
 the status code returned by a directory page on a target website
@@ -172,24 +144,24 @@ in most cases, it is recommended that directories respond with a 403 or 401 stat
 
 #### Implementation of
 
-[IDomainInfo](../interfaces/IDomainInfo.md).[directory_browsing_status_code](../interfaces/IDomainInfo.md#directory_browsing_status_code)
+[`IDomainInfo`](../interfaces/IDomainInfo.md).[`directory_browsing_status_code`](../interfaces/IDomainInfo.md#directory_browsing_status_code)
 
-#### Defined in
+#### Source
 
-main.ts:148785
+main.ts:148793
 
-___
+***
 
-### extended\_crawl\_status
+### extended\_crawl\_status?
 
-• `Optional` **extended\_crawl\_status**: `string`
+> **`optional`** **extended\_crawl\_status**: `string`
 
 crawl status and errors
 indicates the reason why a website was not crawledcan take the following values:
 no_errors – no crawling errors were detected;
 site_unreachable – our crawler could not reach a website and thus was not able to obtain a status code;
 invalid_page_status_code – status code of the first crawled page >= 400;
-forbidden_meta_tag – the first crawled page contains the <meta robots=”noindex”> tag;
+forbidden_meta_tag – the first crawled page contains the `<meta robots=”noindex”>` tag;
 forbidden_robots – robots.txt forbids crawling the page;
 forbidden_http_header – HTTP header of the page contains “X-Robots-Tag: noindex” ;
 too_many_redirects – the first crawled page has more than 10 redirects;
@@ -197,82 +169,82 @@ unknown – the reason is unknown
 
 #### Implementation of
 
-[IDomainInfo](../interfaces/IDomainInfo.md).[extended_crawl_status](../interfaces/IDomainInfo.md#extended_crawl_status)
+[`IDomainInfo`](../interfaces/IDomainInfo.md).[`extended_crawl_status`](../interfaces/IDomainInfo.md#extended_crawl_status)
 
-#### Defined in
+#### Source
 
-main.ts:148765
+main.ts:148773
 
-___
+***
 
-### ip
+### ip?
 
-• `Optional` **ip**: `string`
+> **`optional`** **ip**: `string`
 
 domain ip address
 
 #### Implementation of
 
-[IDomainInfo](../interfaces/IDomainInfo.md).[ip](../interfaces/IDomainInfo.md#ip)
+[`IDomainInfo`](../interfaces/IDomainInfo.md).[`ip`](../interfaces/IDomainInfo.md#ip)
 
-#### Defined in
+#### Source
 
-main.ts:148736
+main.ts:148744
 
-___
+***
 
-### main\_domain
+### main\_domain?
 
-• `Optional` **main\_domain**: `string`
+> **`optional`** **main\_domain**: `string`
 
 root domain name
 
 #### Implementation of
 
-[IDomainInfo](../interfaces/IDomainInfo.md).[main_domain](../interfaces/IDomainInfo.md#main_domain)
+[`IDomainInfo`](../interfaces/IDomainInfo.md).[`main_domain`](../interfaces/IDomainInfo.md#main_domain)
 
-#### Defined in
+#### Source
 
-main.ts:148791
+main.ts:148799
 
-___
+***
 
-### name
+### name?
 
-• `Optional` **name**: `string`
+> **`optional`** **name**: `string`
 
 domain name
 
 #### Implementation of
 
-[IDomainInfo](../interfaces/IDomainInfo.md).[name](../interfaces/IDomainInfo.md#name)
+[`IDomainInfo`](../interfaces/IDomainInfo.md).[`name`](../interfaces/IDomainInfo.md#name)
 
-#### Defined in
+#### Source
 
-main.ts:148728
+main.ts:148736
 
-___
+***
 
-### page\_not\_found\_status\_code
+### page\_not\_found\_status\_code?
 
-• `Optional` **page\_not\_found\_status\_code**: `number`
+> **`optional`** **page\_not\_found\_status\_code**: `number`
 
 status code returned by a non-existent page
 in most cases, it is recommended a server returns a 404 response code
 
 #### Implementation of
 
-[IDomainInfo](../interfaces/IDomainInfo.md).[page_not_found_status_code](../interfaces/IDomainInfo.md#page_not_found_status_code)
+[`IDomainInfo`](../interfaces/IDomainInfo.md).[`page_not_found_status_code`](../interfaces/IDomainInfo.md#page_not_found_status_code)
 
-#### Defined in
+#### Source
 
-main.ts:148777
+main.ts:148785
 
-___
+***
 
-### server
+### server?
 
-• `Optional` **server**: `string`
+> **`optional`** **server**: `string`
 
 website server
 the version of the server detected on a website
@@ -281,51 +253,51 @@ the information is taken from the first page which response code is 200
 
 #### Implementation of
 
-[IDomainInfo](../interfaces/IDomainInfo.md).[server](../interfaces/IDomainInfo.md#server)
+[`IDomainInfo`](../interfaces/IDomainInfo.md).[`server`](../interfaces/IDomainInfo.md#server)
 
-#### Defined in
+#### Source
 
-main.ts:148741
+main.ts:148749
 
-___
+***
 
-### ssl\_info
+### ssl\_info?
 
-• `Optional` **ssl\_info**: [`SslInfo`](SslInfo.md)
+> **`optional`** **ssl\_info**: [`SslInfo`](SslInfo.md)
 
 ssl certificate info
 information about the Secure Sockets Layer protocol detected on a website
 
 #### Implementation of
 
-[IDomainInfo](../interfaces/IDomainInfo.md).[ssl_info](../interfaces/IDomainInfo.md#ssl_info)
+[`IDomainInfo`](../interfaces/IDomainInfo.md).[`ssl_info`](../interfaces/IDomainInfo.md#ssl_info)
 
-#### Defined in
+#### Source
 
-main.ts:148768
+main.ts:148776
 
-___
+***
 
-### total\_pages
+### total\_pages?
 
-• `Optional` **total\_pages**: `number`
+> **`optional`** **total\_pages**: `number`
 
 total crawled pages
 the total number of crawled pages
 
 #### Implementation of
 
-[IDomainInfo](../interfaces/IDomainInfo.md).[total_pages](../interfaces/IDomainInfo.md#total_pages)
+[`IDomainInfo`](../interfaces/IDomainInfo.md).[`total_pages`](../interfaces/IDomainInfo.md#total_pages)
 
-#### Defined in
+#### Source
 
-main.ts:148774
+main.ts:148782
 
-___
+***
 
-### www\_redirect\_status\_code
+### www\_redirect\_status\_code?
 
-• `Optional` **www\_redirect\_status\_code**: `number`
+> **`optional`** **www\_redirect\_status\_code**: `number`
 
 redirect status code
 the status code of the www to non-www redirect
@@ -333,68 +305,62 @@ in most cases, it is recommended that redirect returns a 301 status code
 
 #### Implementation of
 
-[IDomainInfo](../interfaces/IDomainInfo.md).[www_redirect_status_code](../interfaces/IDomainInfo.md#www_redirect_status_code)
+[`IDomainInfo`](../interfaces/IDomainInfo.md).[`www_redirect_status_code`](../interfaces/IDomainInfo.md#www_redirect_status_code)
 
-#### Defined in
+#### Source
 
-main.ts:148789
+main.ts:148797
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:148804
+main.ts:148812
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:148841
+main.ts:148849
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DomainInfo`](DomainInfo.md)
+> **`static`** **fromJS**(`data`): [`DomainInfo`](DomainInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DomainInfo`](DomainInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:148834
+main.ts:148842

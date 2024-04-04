@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpIdListResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpIdListResultInfo
 
 # Class: SerpIdListResultInfo
 
@@ -8,71 +12,47 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpIdListResultInfo.md#constructor)
-
-### Properties
-
-- [cost](SerpIdListResultInfo.md#cost)
-- [datetime\_done](SerpIdListResultInfo.md#datetime_done)
-- [datetime\_posted](SerpIdListResultInfo.md#datetime_posted)
-- [id](SerpIdListResultInfo.md#id)
-- [metadata](SerpIdListResultInfo.md#metadata)
-- [status](SerpIdListResultInfo.md#status)
-- [url](SerpIdListResultInfo.md#url)
-
-### Methods
-
-- [init](SerpIdListResultInfo.md#init)
-- [toJSON](SerpIdListResultInfo.md#tojson)
-- [fromJS](SerpIdListResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpIdListResultInfo(data)
 
-• **new SerpIdListResultInfo**(`data?`): [`SerpIdListResultInfo`](SerpIdListResultInfo.md)
+> **new SerpIdListResultInfo**(`data`?): [`SerpIdListResultInfo`](SerpIdListResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpIdListResultInfo`](../interfaces/ISerpIdListResultInfo.md) |
+• **data?**: [`ISerpIdListResultInfo`](../interfaces/ISerpIdListResultInfo.md)
 
 #### Returns
 
 [`SerpIdListResultInfo`](SerpIdListResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:23377
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 cost of the task, USD
 
 #### Implementation of
 
-[ISerpIdListResultInfo](../interfaces/ISerpIdListResultInfo.md).[cost](../interfaces/ISerpIdListResultInfo.md#cost)
+[`ISerpIdListResultInfo`](../interfaces/ISerpIdListResultInfo.md).[`cost`](../interfaces/ISerpIdListResultInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23371
 
-___
+***
 
-### datetime\_done
+### datetime\_done?
 
-• `Optional` **datetime\_done**: `string`
+> **`optional`** **datetime\_done**: `string`
 
 date and time when the task was completed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -81,17 +61,17 @@ example:
 
 #### Implementation of
 
-[ISerpIdListResultInfo](../interfaces/ISerpIdListResultInfo.md).[datetime_done](../interfaces/ISerpIdListResultInfo.md#datetime_done)
+[`ISerpIdListResultInfo`](../interfaces/ISerpIdListResultInfo.md).[`datetime_done`](../interfaces/ISerpIdListResultInfo.md#datetime_done)
 
-#### Defined in
+#### Source
 
 main.ts:23366
 
-___
+***
 
-### datetime\_posted
+### datetime\_posted?
 
-• `Optional` **datetime\_posted**: `string`
+> **`optional`** **datetime\_posted**: `string`
 
 date and time when the task was made
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -100,138 +80,132 @@ example:
 
 #### Implementation of
 
-[ISerpIdListResultInfo](../interfaces/ISerpIdListResultInfo.md).[datetime_posted](../interfaces/ISerpIdListResultInfo.md#datetime_posted)
+[`ISerpIdListResultInfo`](../interfaces/ISerpIdListResultInfo.md).[`datetime_posted`](../interfaces/ISerpIdListResultInfo.md#datetime_posted)
 
-#### Defined in
+#### Source
 
 main.ts:23361
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 id of the task
 
 #### Implementation of
 
-[ISerpIdListResultInfo](../interfaces/ISerpIdListResultInfo.md).[id](../interfaces/ISerpIdListResultInfo.md#id)
+[`ISerpIdListResultInfo`](../interfaces/ISerpIdListResultInfo.md).[`id`](../interfaces/ISerpIdListResultInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23353
 
-___
+***
 
-### metadata
+### metadata?
 
-• `Optional` **metadata**: `Object`
+> **`optional`** **metadata**: `Object`
 
 contains parameters you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[ISerpIdListResultInfo](../interfaces/ISerpIdListResultInfo.md).[metadata](../interfaces/ISerpIdListResultInfo.md#metadata)
+[`ISerpIdListResultInfo`](../interfaces/ISerpIdListResultInfo.md).[`metadata`](../interfaces/ISerpIdListResultInfo.md#metadata)
 
-#### Defined in
+#### Source
 
 main.ts:23373
 
-___
+***
 
-### status
+### status?
 
-• `Optional` **status**: `string`
+> **`optional`** **status**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[ISerpIdListResultInfo](../interfaces/ISerpIdListResultInfo.md).[status](../interfaces/ISerpIdListResultInfo.md#status)
+[`ISerpIdListResultInfo`](../interfaces/ISerpIdListResultInfo.md).[`status`](../interfaces/ISerpIdListResultInfo.md#status)
 
-#### Defined in
+#### Source
 
 main.ts:23369
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL of the task
 URL you used for making an API call
 
 #### Implementation of
 
-[ISerpIdListResultInfo](../interfaces/ISerpIdListResultInfo.md).[url](../interfaces/ISerpIdListResultInfo.md#url)
+[`ISerpIdListResultInfo`](../interfaces/ISerpIdListResultInfo.md).[`url`](../interfaces/ISerpIdListResultInfo.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:23356
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:23386
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:23415
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpIdListResultInfo`](SerpIdListResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpIdListResultInfo`](SerpIdListResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpIdListResultInfo`](SerpIdListResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:23408

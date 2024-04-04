@@ -1,71 +1,61 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixGoogleAdsKeywordsDataPriceData
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppendixGoogleAdsKeywordsDataPriceData
 
 # Interface: IAppendixGoogleAdsKeywordsDataPriceData
 
-## Implemented by
-
-- [`AppendixGoogleAdsKeywordsDataPriceData`](../classes/AppendixGoogleAdsKeywordsDataPriceData.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [ad\_traffic\_by\_keywords](IAppendixGoogleAdsKeywordsDataPriceData.md#ad_traffic_by_keywords)
-- [keywords\_for\_keywords](IAppendixGoogleAdsKeywordsDataPriceData.md#keywords_for_keywords)
-- [keywords\_for\_site](IAppendixGoogleAdsKeywordsDataPriceData.md#keywords_for_site)
-- [search\_volume](IAppendixGoogleAdsKeywordsDataPriceData.md#search_volume)
-- [status](IAppendixGoogleAdsKeywordsDataPriceData.md#status)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### ad\_traffic\_by\_keywords
+### ad\_traffic\_by\_keywords?
 
-• `Optional` **ad\_traffic\_by\_keywords**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **ad\_traffic\_by\_keywords**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:215398
 
-___
+***
 
-### keywords\_for\_keywords
+### keywords\_for\_keywords?
 
-• `Optional` **keywords\_for\_keywords**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **keywords\_for\_keywords**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:215399
 
-___
+***
 
-### keywords\_for\_site
+### keywords\_for\_site?
 
-• `Optional` **keywords\_for\_site**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **keywords\_for\_site**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:215400
 
-___
+***
 
-### search\_volume
+### search\_volume?
 
-• `Optional` **search\_volume**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **search\_volume**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:215401
 
-___
+***
 
-### status
+### status?
 
-• `Optional` **status**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **status**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:215402

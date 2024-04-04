@@ -1,123 +1,109 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAnswerBoxSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAnswerBoxSerpElementItem
 
 # Interface: IAnswerBoxSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
 
-  ↳ **`IAnswerBoxSerpElementItem`**
-
-## Implemented by
-
-- [`AnswerBoxSerpElementItem`](../classes/AnswerBoxSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [links](IAnswerBoxSerpElementItem.md#links)
-- [position](IAnswerBoxSerpElementItem.md#position)
-- [rank\_absolute](IAnswerBoxSerpElementItem.md#rank_absolute)
-- [rank\_group](IAnswerBoxSerpElementItem.md#rank_group)
-- [rectangle](IAnswerBoxSerpElementItem.md#rectangle)
-- [text](IAnswerBoxSerpElementItem.md#text)
-- [xpath](IAnswerBoxSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### links
+### links?
 
-• `Optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
+> **`optional`** **links**: [`LinkElement`](../classes/LinkElement.md)[]
 
 link of the element
 
-#### Defined in
+#### Source
 
 main.ts:31200
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
 main.ts:31193
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop
 
-#### Defined in
+#### Source
 
 main.ts:31189
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
 positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop
 
-#### Defined in
+#### Source
 
 main.ts:31185
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
 equals null if calculate_rectangles in the POST request is not set to true
 
-#### Defined in
+#### Source
 
 main.ts:31204
 
-___
+***
 
-### text
+### text?
 
-• `Optional` **text**: `string`[]
+> **`optional`** **text**: `string`[]
 
 text
 if there is none, equals null
 
-#### Defined in
+#### Source
 
 main.ts:31198
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
 main.ts:31195

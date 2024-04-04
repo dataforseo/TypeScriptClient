@@ -1,16 +1,16 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BaseDataforseoTrendsItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BaseDataforseoTrendsItem
 
 # Class: BaseDataforseoTrendsItem
 
-## Hierarchy
+## Extended by
 
-- **`BaseDataforseoTrendsItem`**
-
-  ↳ [`DataforseoTrendsGraphElementItem`](DataforseoTrendsGraphElementItem.md)
-
-  ↳ [`DataforseoTrendsSubregionInterestsElementItem`](DataforseoTrendsSubregionInterestsElementItem.md)
-
-  ↳ [`DataforseoTrendsDemographyElementItem`](DataforseoTrendsDemographyElementItem.md)
+- [`DataforseoTrendsGraphElementItem`](DataforseoTrendsGraphElementItem.md)
+- [`DataforseoTrendsSubregionInterestsElementItem`](DataforseoTrendsSubregionInterestsElementItem.md)
+- [`DataforseoTrendsDemographyElementItem`](DataforseoTrendsDemographyElementItem.md)
 
 ## Implements
 
@@ -18,41 +18,23 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BaseDataforseoTrendsItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](BaseDataforseoTrendsItem.md#_discriminator)
-
-### Methods
-
-- [init](BaseDataforseoTrendsItem.md#init)
-- [toJSON](BaseDataforseoTrendsItem.md#tojson)
-- [fromJS](BaseDataforseoTrendsItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BaseDataforseoTrendsItem(data)
 
-• **new BaseDataforseoTrendsItem**(`data?`): [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md)
+> **new BaseDataforseoTrendsItem**(`data`?): [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBaseDataforseoTrendsItem`](../interfaces/IBaseDataforseoTrendsItem.md) |
+• **data?**: [`IBaseDataforseoTrendsItem`](../interfaces/IBaseDataforseoTrendsItem.md)
 
 #### Returns
 
 [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md)
 
-#### Defined in
+#### Source
 
 main.ts:20908
 
@@ -60,68 +42,62 @@ main.ts:20908
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
-#### Defined in
+#### Source
 
 main.ts:20906
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:20918
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:20949
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md)
+> **`static`** **fromJS**(`data`): [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md)
 
-#### Defined in
+#### Source
 
 main.ts:20927

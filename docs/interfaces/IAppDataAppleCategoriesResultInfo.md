@@ -1,29 +1,23 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppDataAppleCategoriesResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppDataAppleCategoriesResultInfo
 
 # Interface: IAppDataAppleCategoriesResultInfo
 
-## Implemented by
-
-- [`AppDataAppleCategoriesResultInfo`](../classes/AppDataAppleCategoriesResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [categories](IAppDataAppleCategoriesResultInfo.md#categories)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### categories
+### categories?
 
-• `Optional` **categories**: `string`[]
+> **`optional`** **categories**: `string`[]
 
 contains full list of supported app categories
 
-#### Defined in
+#### Source
 
 main.ts:188068

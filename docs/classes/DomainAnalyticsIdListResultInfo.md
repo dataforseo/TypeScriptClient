@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsIdListResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DomainAnalyticsIdListResultInfo
 
 # Class: DomainAnalyticsIdListResultInfo
 
@@ -8,71 +12,47 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DomainAnalyticsIdListResultInfo.md#constructor)
-
-### Properties
-
-- [cost](DomainAnalyticsIdListResultInfo.md#cost)
-- [datetime\_done](DomainAnalyticsIdListResultInfo.md#datetime_done)
-- [datetime\_posted](DomainAnalyticsIdListResultInfo.md#datetime_posted)
-- [id](DomainAnalyticsIdListResultInfo.md#id)
-- [metadata](DomainAnalyticsIdListResultInfo.md#metadata)
-- [status](DomainAnalyticsIdListResultInfo.md#status)
-- [url](DomainAnalyticsIdListResultInfo.md#url)
-
-### Methods
-
-- [init](DomainAnalyticsIdListResultInfo.md#init)
-- [toJSON](DomainAnalyticsIdListResultInfo.md#tojson)
-- [fromJS](DomainAnalyticsIdListResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DomainAnalyticsIdListResultInfo(data)
 
-• **new DomainAnalyticsIdListResultInfo**(`data?`): [`DomainAnalyticsIdListResultInfo`](DomainAnalyticsIdListResultInfo.md)
+> **new DomainAnalyticsIdListResultInfo**(`data`?): [`DomainAnalyticsIdListResultInfo`](DomainAnalyticsIdListResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDomainAnalyticsIdListResultInfo`](../interfaces/IDomainAnalyticsIdListResultInfo.md) |
+• **data?**: [`IDomainAnalyticsIdListResultInfo`](../interfaces/IDomainAnalyticsIdListResultInfo.md)
 
 #### Returns
 
 [`DomainAnalyticsIdListResultInfo`](DomainAnalyticsIdListResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:73389
+main.ts:73397
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 cost of the task, USD
 
 #### Implementation of
 
-[IDomainAnalyticsIdListResultInfo](../interfaces/IDomainAnalyticsIdListResultInfo.md).[cost](../interfaces/IDomainAnalyticsIdListResultInfo.md#cost)
+[`IDomainAnalyticsIdListResultInfo`](../interfaces/IDomainAnalyticsIdListResultInfo.md).[`cost`](../interfaces/IDomainAnalyticsIdListResultInfo.md#cost)
 
-#### Defined in
+#### Source
 
-main.ts:73383
+main.ts:73391
 
-___
+***
 
-### datetime\_done
+### datetime\_done?
 
-• `Optional` **datetime\_done**: `string`
+> **`optional`** **datetime\_done**: `string`
 
 date and time when the task was completed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -81,17 +61,17 @@ example:
 
 #### Implementation of
 
-[IDomainAnalyticsIdListResultInfo](../interfaces/IDomainAnalyticsIdListResultInfo.md).[datetime_done](../interfaces/IDomainAnalyticsIdListResultInfo.md#datetime_done)
+[`IDomainAnalyticsIdListResultInfo`](../interfaces/IDomainAnalyticsIdListResultInfo.md).[`datetime_done`](../interfaces/IDomainAnalyticsIdListResultInfo.md#datetime_done)
 
-#### Defined in
+#### Source
 
-main.ts:73378
+main.ts:73386
 
-___
+***
 
-### datetime\_posted
+### datetime\_posted?
 
-• `Optional` **datetime\_posted**: `string`
+> **`optional`** **datetime\_posted**: `string`
 
 date and time when the task was made
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -100,138 +80,132 @@ example:
 
 #### Implementation of
 
-[IDomainAnalyticsIdListResultInfo](../interfaces/IDomainAnalyticsIdListResultInfo.md).[datetime_posted](../interfaces/IDomainAnalyticsIdListResultInfo.md#datetime_posted)
+[`IDomainAnalyticsIdListResultInfo`](../interfaces/IDomainAnalyticsIdListResultInfo.md).[`datetime_posted`](../interfaces/IDomainAnalyticsIdListResultInfo.md#datetime_posted)
 
-#### Defined in
+#### Source
 
-main.ts:73373
+main.ts:73381
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 id of the task
 
 #### Implementation of
 
-[IDomainAnalyticsIdListResultInfo](../interfaces/IDomainAnalyticsIdListResultInfo.md).[id](../interfaces/IDomainAnalyticsIdListResultInfo.md#id)
+[`IDomainAnalyticsIdListResultInfo`](../interfaces/IDomainAnalyticsIdListResultInfo.md).[`id`](../interfaces/IDomainAnalyticsIdListResultInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:73365
+main.ts:73373
 
-___
+***
 
-### metadata
+### metadata?
 
-• `Optional` **metadata**: `Object`
+> **`optional`** **metadata**: `Object`
 
 contains parameters you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[IDomainAnalyticsIdListResultInfo](../interfaces/IDomainAnalyticsIdListResultInfo.md).[metadata](../interfaces/IDomainAnalyticsIdListResultInfo.md#metadata)
+[`IDomainAnalyticsIdListResultInfo`](../interfaces/IDomainAnalyticsIdListResultInfo.md).[`metadata`](../interfaces/IDomainAnalyticsIdListResultInfo.md#metadata)
 
-#### Defined in
+#### Source
 
-main.ts:73385
+main.ts:73393
 
-___
+***
 
-### status
+### status?
 
-• `Optional` **status**: `string`
+> **`optional`** **status**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IDomainAnalyticsIdListResultInfo](../interfaces/IDomainAnalyticsIdListResultInfo.md).[status](../interfaces/IDomainAnalyticsIdListResultInfo.md#status)
+[`IDomainAnalyticsIdListResultInfo`](../interfaces/IDomainAnalyticsIdListResultInfo.md).[`status`](../interfaces/IDomainAnalyticsIdListResultInfo.md#status)
 
-#### Defined in
+#### Source
 
-main.ts:73381
+main.ts:73389
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL of the task
 URL you used for making an API call
 
 #### Implementation of
 
-[IDomainAnalyticsIdListResultInfo](../interfaces/IDomainAnalyticsIdListResultInfo.md).[url](../interfaces/IDomainAnalyticsIdListResultInfo.md#url)
+[`IDomainAnalyticsIdListResultInfo`](../interfaces/IDomainAnalyticsIdListResultInfo.md).[`url`](../interfaces/IDomainAnalyticsIdListResultInfo.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:73368
+main.ts:73376
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:73398
+main.ts:73406
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:73427
+main.ts:73435
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DomainAnalyticsIdListResultInfo`](DomainAnalyticsIdListResultInfo.md)
+> **`static`** **fromJS**(`data`): [`DomainAnalyticsIdListResultInfo`](DomainAnalyticsIdListResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DomainAnalyticsIdListResultInfo`](DomainAnalyticsIdListResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:73420
+main.ts:73428

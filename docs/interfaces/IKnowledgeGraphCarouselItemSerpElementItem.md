@@ -1,148 +1,132 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKnowledgeGraphCarouselItemSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IKnowledgeGraphCarouselItemSerpElementItem
 
 # Interface: IKnowledgeGraphCarouselItemSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
 
-  ↳ **`IKnowledgeGraphCarouselItemSerpElementItem`**
-
-## Implemented by
-
-- [`KnowledgeGraphCarouselItemSerpElementItem`](../classes/KnowledgeGraphCarouselItemSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [data\_attrid](IKnowledgeGraphCarouselItemSerpElementItem.md#data_attrid)
-- [items](IKnowledgeGraphCarouselItemSerpElementItem.md#items)
-- [link](IKnowledgeGraphCarouselItemSerpElementItem.md#link)
-- [position](IKnowledgeGraphCarouselItemSerpElementItem.md#position)
-- [rank\_absolute](IKnowledgeGraphCarouselItemSerpElementItem.md#rank_absolute)
-- [rank\_group](IKnowledgeGraphCarouselItemSerpElementItem.md#rank_group)
-- [rectangle](IKnowledgeGraphCarouselItemSerpElementItem.md#rectangle)
-- [title](IKnowledgeGraphCarouselItemSerpElementItem.md#title)
-- [xpath](IKnowledgeGraphCarouselItemSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### data\_attrid
+### data\_attrid?
 
-• `Optional` **data\_attrid**: `string`
+> **`optional`** **data\_attrid**: `string`
 
 google defined data attribute ID
 example:
 action:listen_artist
 
-#### Defined in
+#### Source
 
 main.ts:26828
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`KnowledgeGraphListElement`](../classes/KnowledgeGraphListElement.md)[]
+> **`optional`** **items**: [`KnowledgeGraphListElement`](../classes/KnowledgeGraphListElement.md)[]
 
 elements of search results found in SERP
 
-#### Defined in
+#### Source
 
 main.ts:26832
 
-___
+***
 
-### link
+### link?
 
-• `Optional` **link**: [`LinkElement`](../classes/LinkElement.md)
+> **`optional`** **link**: [`LinkElement`](../classes/LinkElement.md)
 
 link of the element
 
-#### Defined in
+#### Source
 
 main.ts:26830
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
 main.ts:26820
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Defined in
+#### Source
 
 main.ts:26816
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
 main.ts:26813
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
 equals null if calculate_rectangles in the POST request is not set to true
 
-#### Defined in
+#### Source
 
 main.ts:26836
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the result in SERP
 
-#### Defined in
+#### Source
 
 main.ts:26824
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
 main.ts:26822

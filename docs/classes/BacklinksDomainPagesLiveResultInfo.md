@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksDomainPagesLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BacklinksDomainPagesLiveResultInfo
 
 # Class: BacklinksDomainPagesLiveResultInfo
 
@@ -8,167 +12,140 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BacklinksDomainPagesLiveResultInfo.md#constructor)
-
-### Properties
-
-- [items](BacklinksDomainPagesLiveResultInfo.md#items)
-- [items\_count](BacklinksDomainPagesLiveResultInfo.md#items_count)
-- [target](BacklinksDomainPagesLiveResultInfo.md#target)
-- [total\_count](BacklinksDomainPagesLiveResultInfo.md#total_count)
-
-### Methods
-
-- [init](BacklinksDomainPagesLiveResultInfo.md#init)
-- [toJSON](BacklinksDomainPagesLiveResultInfo.md#tojson)
-- [fromJS](BacklinksDomainPagesLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BacklinksDomainPagesLiveResultInfo(data)
 
-• **new BacklinksDomainPagesLiveResultInfo**(`data?`): [`BacklinksDomainPagesLiveResultInfo`](BacklinksDomainPagesLiveResultInfo.md)
+> **new BacklinksDomainPagesLiveResultInfo**(`data`?): [`BacklinksDomainPagesLiveResultInfo`](BacklinksDomainPagesLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBacklinksDomainPagesLiveResultInfo`](../interfaces/IBacklinksDomainPagesLiveResultInfo.md) |
+• **data?**: [`IBacklinksDomainPagesLiveResultInfo`](../interfaces/IBacklinksDomainPagesLiveResultInfo.md)
 
 #### Returns
 
 [`BacklinksDomainPagesLiveResultInfo`](BacklinksDomainPagesLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:138830
+main.ts:138838
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`BacklinksDomainPagesLiveItem`](BacklinksDomainPagesLiveItem.md)[]
+> **`optional`** **items**: [`BacklinksDomainPagesLiveItem`](BacklinksDomainPagesLiveItem.md)[]
 
 items array
 
 #### Implementation of
 
-[IBacklinksDomainPagesLiveResultInfo](../interfaces/IBacklinksDomainPagesLiveResultInfo.md).[items](../interfaces/IBacklinksDomainPagesLiveResultInfo.md#items)
+[`IBacklinksDomainPagesLiveResultInfo`](../interfaces/IBacklinksDomainPagesLiveResultInfo.md).[`items`](../interfaces/IBacklinksDomainPagesLiveResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:138826
+main.ts:138834
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 number of items in the items array
 
 #### Implementation of
 
-[IBacklinksDomainPagesLiveResultInfo](../interfaces/IBacklinksDomainPagesLiveResultInfo.md).[items_count](../interfaces/IBacklinksDomainPagesLiveResultInfo.md#items_count)
+[`IBacklinksDomainPagesLiveResultInfo`](../interfaces/IBacklinksDomainPagesLiveResultInfo.md).[`items_count`](../interfaces/IBacklinksDomainPagesLiveResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:138824
+main.ts:138832
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 target in a POST array
 
 #### Implementation of
 
-[IBacklinksDomainPagesLiveResultInfo](../interfaces/IBacklinksDomainPagesLiveResultInfo.md).[target](../interfaces/IBacklinksDomainPagesLiveResultInfo.md#target)
+[`IBacklinksDomainPagesLiveResultInfo`](../interfaces/IBacklinksDomainPagesLiveResultInfo.md).[`target`](../interfaces/IBacklinksDomainPagesLiveResultInfo.md#target)
 
-#### Defined in
+#### Source
 
-main.ts:138820
+main.ts:138828
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total number of relevant items in the database
 
 #### Implementation of
 
-[IBacklinksDomainPagesLiveResultInfo](../interfaces/IBacklinksDomainPagesLiveResultInfo.md).[total_count](../interfaces/IBacklinksDomainPagesLiveResultInfo.md#total_count)
+[`IBacklinksDomainPagesLiveResultInfo`](../interfaces/IBacklinksDomainPagesLiveResultInfo.md).[`total_count`](../interfaces/IBacklinksDomainPagesLiveResultInfo.md#total_count)
 
-#### Defined in
+#### Source
 
-main.ts:138822
+main.ts:138830
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:138839
+main.ts:138847
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:138863
+main.ts:138871
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BacklinksDomainPagesLiveResultInfo`](BacklinksDomainPagesLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`BacklinksDomainPagesLiveResultInfo`](BacklinksDomainPagesLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BacklinksDomainPagesLiveResultInfo`](BacklinksDomainPagesLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:138856
+main.ts:138864

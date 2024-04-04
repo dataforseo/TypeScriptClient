@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksReferringNetworksLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BacklinksReferringNetworksLiveRequestInfo
 
 # Class: BacklinksReferringNetworksLiveRequestInfo
 
@@ -8,61 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BacklinksReferringNetworksLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [backlinks\_filters](BacklinksReferringNetworksLiveRequestInfo.md#backlinks_filters)
-- [backlinks\_status\_type](BacklinksReferringNetworksLiveRequestInfo.md#backlinks_status_type)
-- [exclude\_internal\_backlinks](BacklinksReferringNetworksLiveRequestInfo.md#exclude_internal_backlinks)
-- [filters](BacklinksReferringNetworksLiveRequestInfo.md#filters)
-- [include\_indirect\_links](BacklinksReferringNetworksLiveRequestInfo.md#include_indirect_links)
-- [include\_subdomains](BacklinksReferringNetworksLiveRequestInfo.md#include_subdomains)
-- [internal\_list\_limit](BacklinksReferringNetworksLiveRequestInfo.md#internal_list_limit)
-- [limit](BacklinksReferringNetworksLiveRequestInfo.md#limit)
-- [network\_address\_type](BacklinksReferringNetworksLiveRequestInfo.md#network_address_type)
-- [offset](BacklinksReferringNetworksLiveRequestInfo.md#offset)
-- [order\_by](BacklinksReferringNetworksLiveRequestInfo.md#order_by)
-- [tag](BacklinksReferringNetworksLiveRequestInfo.md#tag)
-- [target](BacklinksReferringNetworksLiveRequestInfo.md#target)
-
-### Methods
-
-- [init](BacklinksReferringNetworksLiveRequestInfo.md#init)
-- [toJSON](BacklinksReferringNetworksLiveRequestInfo.md#tojson)
-- [fromJS](BacklinksReferringNetworksLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BacklinksReferringNetworksLiveRequestInfo(data)
 
-• **new BacklinksReferringNetworksLiveRequestInfo**(`data?`): [`BacklinksReferringNetworksLiveRequestInfo`](BacklinksReferringNetworksLiveRequestInfo.md)
+> **new BacklinksReferringNetworksLiveRequestInfo**(`data`?): [`BacklinksReferringNetworksLiveRequestInfo`](BacklinksReferringNetworksLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBacklinksReferringNetworksLiveRequestInfo`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md) |
+• **data?**: [`IBacklinksReferringNetworksLiveRequestInfo`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md)
 
 #### Returns
 
 [`BacklinksReferringNetworksLiveRequestInfo`](BacklinksReferringNetworksLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:140665
+main.ts:140673
 
 ## Properties
 
-### backlinks\_filters
+### backlinks\_filters?
 
-• `Optional` **backlinks\_filters**: `any`[]
+> **`optional`** **backlinks\_filters**: `any`[]
 
 filter the backlinks of your target
 optional field
@@ -74,17 +48,17 @@ example:
 
 #### Implementation of
 
-[IBacklinksReferringNetworksLiveRequestInfo](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md).[backlinks_filters](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md#backlinks_filters)
+[`IBacklinksReferringNetworksLiveRequestInfo`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md).[`backlinks_filters`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md#backlinks_filters)
 
-#### Defined in
+#### Source
 
-main.ts:140639
+main.ts:140647
 
-___
+***
 
-### backlinks\_status\_type
+### backlinks\_status\_type?
 
-• `Optional` **backlinks\_status\_type**: `string`
+> **`optional`** **backlinks\_status\_type**: `string`
 
 set what backlinks to return and count
 optional field
@@ -97,17 +71,17 @@ default value: live
 
 #### Implementation of
 
-[IBacklinksReferringNetworksLiveRequestInfo](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md).[backlinks_status_type](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md#backlinks_status_type)
+[`IBacklinksReferringNetworksLiveRequestInfo`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md).[`backlinks_status_type`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md#backlinks_status_type)
 
-#### Defined in
+#### Source
 
-main.ts:140600
+main.ts:140608
 
-___
+***
 
-### exclude\_internal\_backlinks
+### exclude\_internal\_backlinks?
 
-• `Optional` **exclude\_internal\_backlinks**: `boolean`
+> **`optional`** **exclude\_internal\_backlinks**: `boolean`
 
 indicates whether the backlinks from subdomains of the target are excluded
 optional field
@@ -116,27 +90,27 @@ default value: true
 
 #### Implementation of
 
-[IBacklinksReferringNetworksLiveRequestInfo](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md).[exclude_internal_backlinks](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md#exclude_internal_backlinks)
+[`IBacklinksReferringNetworksLiveRequestInfo`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md).[`exclude_internal_backlinks`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md#exclude_internal_backlinks)
 
-#### Defined in
+#### Source
 
-main.ts:140655
+main.ts:140663
 
-___
+***
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, =, <>, in, not_in, like, not_like, ilike, not_ilike
+regex, =, `<>`, in, not_in, like, not_like, ilike, not_ilike
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
-["referring_pages",">","1"]
+["referring_pages",">`","1"]
 [["referring_pages",">","2"],
 "and",
 ["backlinks",">","10"]]
@@ -147,17 +121,17 @@ The full list of possible filters is available here.
 
 #### Implementation of
 
-[IBacklinksReferringNetworksLiveRequestInfo](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md).[filters](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md#filters)
+[`IBacklinksReferringNetworksLiveRequestInfo`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md).[`filters`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md#filters)
 
-#### Defined in
+#### Source
 
-main.ts:140617
+main.ts:140625
 
-___
+***
 
-### include\_indirect\_links
+### include\_indirect\_links?
 
-• `Optional` **include\_indirect\_links**: `boolean`
+> **`optional`** **include\_indirect\_links**: `boolean`
 
 indicates if indirect links to the target will be included in the results
 optional field
@@ -167,17 +141,17 @@ default value: true
 
 #### Implementation of
 
-[IBacklinksReferringNetworksLiveRequestInfo](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md).[include_indirect_links](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md#include_indirect_links)
+[`IBacklinksReferringNetworksLiveRequestInfo`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md).[`include_indirect_links`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md#include_indirect_links)
 
-#### Defined in
+#### Source
 
-main.ts:140650
+main.ts:140658
 
-___
+***
 
-### include\_subdomains
+### include\_subdomains?
 
-• `Optional` **include\_subdomains**: `boolean`
+> **`optional`** **include\_subdomains**: `boolean`
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -186,17 +160,17 @@ default value: true
 
 #### Implementation of
 
-[IBacklinksReferringNetworksLiveRequestInfo](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md).[include_subdomains](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md#include_subdomains)
+[`IBacklinksReferringNetworksLiveRequestInfo`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md).[`include_subdomains`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md#include_subdomains)
 
-#### Defined in
+#### Source
 
-main.ts:140644
+main.ts:140652
 
-___
+***
 
-### internal\_list\_limit
+### internal\_list\_limit?
 
-• `Optional` **internal\_list\_limit**: `number`
+> **`optional`** **internal\_list\_limit**: `number`
 
 maximum number of elements within internal arrays
 optional field
@@ -211,17 +185,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IBacklinksReferringNetworksLiveRequestInfo](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md).[internal_list_limit](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md#internal_list_limit)
+[`IBacklinksReferringNetworksLiveRequestInfo`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md).[`internal_list_limit`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md#internal_list_limit)
 
-#### Defined in
+#### Source
 
-main.ts:140591
+main.ts:140599
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned networks
 optional field
@@ -230,17 +204,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IBacklinksReferringNetworksLiveRequestInfo](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md).[limit](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md#limit)
+[`IBacklinksReferringNetworksLiveRequestInfo`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md).[`limit`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md#limit)
 
-#### Defined in
+#### Source
 
-main.ts:140575
+main.ts:140583
 
-___
+***
 
-### network\_address\_type
+### network\_address\_type?
 
-• `Optional` **network\_address\_type**: `string`
+> **`optional`** **network\_address\_type**: `string`
 
 indicates the type of network to get data for
 optional field
@@ -249,17 +223,17 @@ default value: ip
 
 #### Implementation of
 
-[IBacklinksReferringNetworksLiveRequestInfo](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md).[network_address_type](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md#network_address_type)
+[`IBacklinksReferringNetworksLiveRequestInfo`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md).[`network_address_type`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md#network_address_type)
 
-#### Defined in
+#### Source
 
-main.ts:140570
+main.ts:140578
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned networks
 optional field
@@ -268,17 +242,17 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 #### Implementation of
 
-[IBacklinksReferringNetworksLiveRequestInfo](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md).[offset](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md#offset)
+[`IBacklinksReferringNetworksLiveRequestInfo`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md).[`offset`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md#offset)
 
-#### Defined in
+#### Source
 
-main.ts:140580
+main.ts:140588
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -296,17 +270,17 @@ example:
 
 #### Implementation of
 
-[IBacklinksReferringNetworksLiveRequestInfo](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md).[order_by](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md#order_by)
+[`IBacklinksReferringNetworksLiveRequestInfo`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md).[`order_by`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md#order_by)
 
-#### Defined in
+#### Source
 
-main.ts:140631
+main.ts:140639
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -316,17 +290,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IBacklinksReferringNetworksLiveRequestInfo](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md).[tag](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md#tag)
+[`IBacklinksReferringNetworksLiveRequestInfo`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md).[`tag`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:140661
+main.ts:140669
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 domain, subdomain or webpage to get referring networks for
 required field
@@ -335,68 +309,62 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Implementation of
 
-[IBacklinksReferringNetworksLiveRequestInfo](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md).[target](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md#target)
+[`IBacklinksReferringNetworksLiveRequestInfo`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md).[`target`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md#target)
 
-#### Defined in
+#### Source
 
-main.ts:140565
+main.ts:140573
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:140674
+main.ts:140682
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:140715
+main.ts:140723
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BacklinksReferringNetworksLiveRequestInfo`](BacklinksReferringNetworksLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`BacklinksReferringNetworksLiveRequestInfo`](BacklinksReferringNetworksLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BacklinksReferringNetworksLiveRequestInfo`](BacklinksReferringNetworksLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:140708
+main.ts:140716

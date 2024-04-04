@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MerchantGoogleProductSpecTaskGetAdvancedResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / MerchantGoogleProductSpecTaskGetAdvancedResultInfo
 
 # Class: MerchantGoogleProductSpecTaskGetAdvancedResultInfo
 
@@ -8,79 +12,48 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](MerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#constructor)
-
-### Properties
-
-- [check\_url](MerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#check_url)
-- [datetime](MerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#datetime)
-- [description](MerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#description)
-- [image\_url](MerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#image_url)
-- [item\_types](MerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#item_types)
-- [items](MerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#items)
-- [items\_count](MerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#items_count)
-- [language\_code](MerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#language_code)
-- [location\_code](MerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#location_code)
-- [product\_id](MerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#product_id)
-- [se\_domain](MerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#se_domain)
-- [tags](MerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#tags)
-- [title](MerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#title)
-- [type](MerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#type)
-
-### Methods
-
-- [init](MerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#init)
-- [toJSON](MerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#tojson)
-- [fromJS](MerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new MerchantGoogleProductSpecTaskGetAdvancedResultInfo(data)
 
-• **new MerchantGoogleProductSpecTaskGetAdvancedResultInfo**(`data?`): [`MerchantGoogleProductSpecTaskGetAdvancedResultInfo`](MerchantGoogleProductSpecTaskGetAdvancedResultInfo.md)
+> **new MerchantGoogleProductSpecTaskGetAdvancedResultInfo**(`data`?): [`MerchantGoogleProductSpecTaskGetAdvancedResultInfo`](MerchantGoogleProductSpecTaskGetAdvancedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IMerchantGoogleProductSpecTaskGetAdvancedResultInfo`](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md) |
+• **data?**: [`IMerchantGoogleProductSpecTaskGetAdvancedResultInfo`](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
 [`MerchantGoogleProductSpecTaskGetAdvancedResultInfo`](MerchantGoogleProductSpecTaskGetAdvancedResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:173422
 
 ## Properties
 
-### check\_url
+### check\_url?
 
-• `Optional` **check\_url**: `string`
+> **`optional`** **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
 
 #### Implementation of
 
-[IMerchantGoogleProductSpecTaskGetAdvancedResultInfo](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md).[check_url](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#check_url)
+[`IMerchantGoogleProductSpecTaskGetAdvancedResultInfo`](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md).[`check_url`](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#check_url)
 
-#### Defined in
+#### Source
 
 main.ts:173404
 
-___
+***
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the format: “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”
@@ -89,49 +62,49 @@ example:
 
 #### Implementation of
 
-[IMerchantGoogleProductSpecTaskGetAdvancedResultInfo](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md).[datetime](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#datetime)
+[`IMerchantGoogleProductSpecTaskGetAdvancedResultInfo`](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md).[`datetime`](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
 main.ts:173409
 
-___
+***
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description of the product
 
 #### Implementation of
 
-[IMerchantGoogleProductSpecTaskGetAdvancedResultInfo](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md).[description](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#description)
+[`IMerchantGoogleProductSpecTaskGetAdvancedResultInfo`](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md).[`description`](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#description)
 
-#### Defined in
+#### Source
 
 main.ts:173397
 
-___
+***
 
-### image\_url
+### image\_url?
 
-• `Optional` **image\_url**: `string`
+> **`optional`** **image\_url**: `string`
 
 URL of the product image
 
 #### Implementation of
 
-[IMerchantGoogleProductSpecTaskGetAdvancedResultInfo](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md).[image_url](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#image_url)
+[`IMerchantGoogleProductSpecTaskGetAdvancedResultInfo`](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md).[`image_url`](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#image_url)
 
-#### Defined in
+#### Source
 
 main.ts:173399
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 types of items found on the product specification page
 possible item types:
@@ -139,214 +112,208 @@ shopping_specification
 
 #### Implementation of
 
-[IMerchantGoogleProductSpecTaskGetAdvancedResultInfo](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md).[item_types](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#item_types)
+[`IMerchantGoogleProductSpecTaskGetAdvancedResultInfo`](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md).[`item_types`](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#item_types)
 
-#### Defined in
+#### Source
 
 main.ts:173413
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)[]
+> **`optional`** **items**: [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)[]
 
 items on the product specification page
 contains all product attributes and related data listed on the product specification page
 
 #### Implementation of
 
-[IMerchantGoogleProductSpecTaskGetAdvancedResultInfo](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md).[items](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#items)
+[`IMerchantGoogleProductSpecTaskGetAdvancedResultInfo`](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md).[`items`](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#items)
 
-#### Defined in
+#### Source
 
 main.ts:173418
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[IMerchantGoogleProductSpecTaskGetAdvancedResultInfo](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md).[items_count](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#items_count)
+[`IMerchantGoogleProductSpecTaskGetAdvancedResultInfo`](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md).[`items_count`](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
 main.ts:173415
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[IMerchantGoogleProductSpecTaskGetAdvancedResultInfo](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md).[language_code](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#language_code)
+[`IMerchantGoogleProductSpecTaskGetAdvancedResultInfo`](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md).[`language_code`](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
 main.ts:173393
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[IMerchantGoogleProductSpecTaskGetAdvancedResultInfo](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md).[location_code](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#location_code)
+[`IMerchantGoogleProductSpecTaskGetAdvancedResultInfo`](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md).[`location_code`](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
 main.ts:173391
 
-___
+***
 
-### product\_id
+### product\_id?
 
-• `Optional` **product\_id**: `string`
+> **`optional`** **product\_id**: `string`
 
 product ID in a POST array
 learn more about the parameter in this help center guide
 
 #### Implementation of
 
-[IMerchantGoogleProductSpecTaskGetAdvancedResultInfo](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md).[product_id](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#product_id)
+[`IMerchantGoogleProductSpecTaskGetAdvancedResultInfo`](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md).[`product_id`](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#product_id)
 
-#### Defined in
+#### Source
 
 main.ts:173385
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
 #### Implementation of
 
-[IMerchantGoogleProductSpecTaskGetAdvancedResultInfo](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md).[se_domain](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#se_domain)
+[`IMerchantGoogleProductSpecTaskGetAdvancedResultInfo`](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md).[`se_domain`](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#se_domain)
 
-#### Defined in
+#### Source
 
 main.ts:173389
 
-___
+***
 
-### tags
+### tags?
 
-• `Optional` **tags**: `string`[]
+> **`optional`** **tags**: `string`[]
 
 tags of the product
 
 #### Implementation of
 
-[IMerchantGoogleProductSpecTaskGetAdvancedResultInfo](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md).[tags](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#tags)
+[`IMerchantGoogleProductSpecTaskGetAdvancedResultInfo`](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md).[`tags`](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#tags)
 
-#### Defined in
+#### Source
 
 main.ts:173401
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the product
 
 #### Implementation of
 
-[IMerchantGoogleProductSpecTaskGetAdvancedResultInfo](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md).[title](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#title)
+[`IMerchantGoogleProductSpecTaskGetAdvancedResultInfo`](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md).[`title`](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:173395
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IMerchantGoogleProductSpecTaskGetAdvancedResultInfo](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md).[type](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#type)
+[`IMerchantGoogleProductSpecTaskGetAdvancedResultInfo`](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md).[`type`](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md#type)
 
-#### Defined in
+#### Source
 
 main.ts:173387
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:173431
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:173473
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`MerchantGoogleProductSpecTaskGetAdvancedResultInfo`](MerchantGoogleProductSpecTaskGetAdvancedResultInfo.md)
+> **`static`** **fromJS**(`data`): [`MerchantGoogleProductSpecTaskGetAdvancedResultInfo`](MerchantGoogleProductSpecTaskGetAdvancedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`MerchantGoogleProductSpecTaskGetAdvancedResultInfo`](MerchantGoogleProductSpecTaskGetAdvancedResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:173466

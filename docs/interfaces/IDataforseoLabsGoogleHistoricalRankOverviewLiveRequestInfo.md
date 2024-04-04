@@ -1,34 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo
 
-## Implemented by
-
-- [`DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo`](../classes/DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [correlate](IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md#correlate)
-- [date\_from](IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md#date_from)
-- [date\_to](IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md#date_to)
-- [language\_code](IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md#language_code)
-- [language\_name](IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md#language_name)
-- [location\_code](IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md#location_code)
-- [location\_name](IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md#location_name)
-- [tag](IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md#tag)
-- [target](IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md#target)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### correlate
+### correlate?
 
-• `Optional` **correlate**: `boolean`
+> **`optional`** **correlate**: `boolean`
 
 correlate data with previously obtained datasets
 optional field
@@ -37,15 +23,15 @@ if you use this parameter, our system will correlate data you obtain now with pr
 this parameter is intended to mitigate any inconsistencies that may result from changes to our database
 we recommend always setting correlate to true
 
-#### Defined in
+#### Source
 
-main.ts:98802
+main.ts:98810
 
-___
+***
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -53,15 +39,15 @@ if you don’t specify this field, the data will be provided for the previous 6 
 minimal possible value: 2020-10-01
 date format: "yyyy-mm-dd"
 
-#### Defined in
+#### Source
 
-main.ts:98788
+main.ts:98796
 
-___
+***
 
-### date\_to
+### date\_to?
 
-• `Optional` **date\_to**: `string`
+> **`optional`** **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -70,15 +56,15 @@ date format: "yyyy-mm-dd"
 example:
 "2021-04-01"
 
-#### Defined in
+#### Source
 
-main.ts:98795
+main.ts:98803
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 required field if you don’t specify language_name
@@ -88,15 +74,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:98782
+main.ts:98790
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -106,15 +92,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:98774
+main.ts:98782
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 required field if you don’t specify location_name
@@ -124,15 +110,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:98766
+main.ts:98774
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code
@@ -142,15 +128,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 United Kingdom
 
-#### Defined in
+#### Source
 
-main.ts:98758
+main.ts:98766
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -158,21 +144,21 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:98808
+main.ts:98816
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 domain
 required field
 the domain name of the target website
 the domain should be specified without https:// and www.
 
-#### Defined in
+#### Source
 
-main.ts:98750
+main.ts:98758

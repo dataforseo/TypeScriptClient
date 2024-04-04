@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AmazonMetricsBundleInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AmazonMetricsBundleInfo
 
 # Class: AmazonMetricsBundleInfo
 
@@ -8,133 +12,108 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AmazonMetricsBundleInfo.md#constructor)
-
-### Properties
-
-- [amazon\_paid](AmazonMetricsBundleInfo.md#amazon_paid)
-- [amazon\_serp](AmazonMetricsBundleInfo.md#amazon_serp)
-
-### Methods
-
-- [init](AmazonMetricsBundleInfo.md#init)
-- [toJSON](AmazonMetricsBundleInfo.md#tojson)
-- [fromJS](AmazonMetricsBundleInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AmazonMetricsBundleInfo(data)
 
-• **new AmazonMetricsBundleInfo**(`data?`): [`AmazonMetricsBundleInfo`](AmazonMetricsBundleInfo.md)
+> **new AmazonMetricsBundleInfo**(`data`?): [`AmazonMetricsBundleInfo`](AmazonMetricsBundleInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAmazonMetricsBundleInfo`](../interfaces/IAmazonMetricsBundleInfo.md) |
+• **data?**: [`IAmazonMetricsBundleInfo`](../interfaces/IAmazonMetricsBundleInfo.md)
 
 #### Returns
 
 [`AmazonMetricsBundleInfo`](AmazonMetricsBundleInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:103033
+main.ts:103041
 
 ## Properties
 
-### amazon\_paid
+### amazon\_paid?
 
-• `Optional` **amazon\_paid**: [`AppMetricsInfo`](AppMetricsInfo.md)
+> **`optional`** **amazon\_paid**: [`AppMetricsInfo`](AppMetricsInfo.md)
 
 ranking data from Amazon paid SERP
 
 #### Implementation of
 
-[IAmazonMetricsBundleInfo](../interfaces/IAmazonMetricsBundleInfo.md).[amazon_paid](../interfaces/IAmazonMetricsBundleInfo.md#amazon_paid)
+[`IAmazonMetricsBundleInfo`](../interfaces/IAmazonMetricsBundleInfo.md).[`amazon_paid`](../interfaces/IAmazonMetricsBundleInfo.md#amazon_paid)
 
-#### Defined in
+#### Source
 
-main.ts:103029
+main.ts:103037
 
-___
+***
 
-### amazon\_serp
+### amazon\_serp?
 
-• `Optional` **amazon\_serp**: [`AppMetricsInfo`](AppMetricsInfo.md)
+> **`optional`** **amazon\_serp**: [`AppMetricsInfo`](AppMetricsInfo.md)
 
 ranking data from Amazon organic SERP
 
 #### Implementation of
 
-[IAmazonMetricsBundleInfo](../interfaces/IAmazonMetricsBundleInfo.md).[amazon_serp](../interfaces/IAmazonMetricsBundleInfo.md#amazon_serp)
+[`IAmazonMetricsBundleInfo`](../interfaces/IAmazonMetricsBundleInfo.md).[`amazon_serp`](../interfaces/IAmazonMetricsBundleInfo.md#amazon_serp)
 
-#### Defined in
+#### Source
 
-main.ts:103027
+main.ts:103035
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:103042
+main.ts:103050
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:103060
+main.ts:103068
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AmazonMetricsBundleInfo`](AmazonMetricsBundleInfo.md)
+> **`static`** **fromJS**(`data`): [`AmazonMetricsBundleInfo`](AmazonMetricsBundleInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AmazonMetricsBundleInfo`](AmazonMetricsBundleInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:103053
+main.ts:103061

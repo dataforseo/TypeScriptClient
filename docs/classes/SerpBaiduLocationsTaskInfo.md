@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpBaiduLocationsTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpBaiduLocationsTaskInfo
 
 # Class: SerpBaiduLocationsTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`SerpBaiduLocationsTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpBaiduLocationsTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](SerpBaiduLocationsTaskInfo.md#cost)
-- [data](SerpBaiduLocationsTaskInfo.md#data)
-- [id](SerpBaiduLocationsTaskInfo.md#id)
-- [path](SerpBaiduLocationsTaskInfo.md#path)
-- [result](SerpBaiduLocationsTaskInfo.md#result)
-- [result\_count](SerpBaiduLocationsTaskInfo.md#result_count)
-- [status\_code](SerpBaiduLocationsTaskInfo.md#status_code)
-- [status\_message](SerpBaiduLocationsTaskInfo.md#status_message)
-- [time](SerpBaiduLocationsTaskInfo.md#time)
-
-### Methods
-
-- [init](SerpBaiduLocationsTaskInfo.md#init)
-- [toJSON](SerpBaiduLocationsTaskInfo.md#tojson)
-- [fromJS](SerpBaiduLocationsTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpBaiduLocationsTaskInfo(data)
 
-• **new SerpBaiduLocationsTaskInfo**(`data?`): [`SerpBaiduLocationsTaskInfo`](SerpBaiduLocationsTaskInfo.md)
+> **new SerpBaiduLocationsTaskInfo**(`data`?): [`SerpBaiduLocationsTaskInfo`](SerpBaiduLocationsTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpBaiduLocationsTaskInfo`](../interfaces/ISerpBaiduLocationsTaskInfo.md) |
+• **data?**: [`ISerpBaiduLocationsTaskInfo`](../interfaces/ISerpBaiduLocationsTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:67663
+main.ts:67671
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[ISerpBaiduLocationsTaskInfo](../interfaces/ISerpBaiduLocationsTaskInfo.md).[cost](../interfaces/ISerpBaiduLocationsTaskInfo.md#cost)
+[`ISerpBaiduLocationsTaskInfo`](../interfaces/ISerpBaiduLocationsTaskInfo.md).[`cost`](../interfaces/ISerpBaiduLocationsTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[ISerpBaiduLocationsTaskInfo](../interfaces/ISerpBaiduLocationsTaskInfo.md).[data](../interfaces/ISerpBaiduLocationsTaskInfo.md#data)
+[`ISerpBaiduLocationsTaskInfo`](../interfaces/ISerpBaiduLocationsTaskInfo.md).[`data`](../interfaces/ISerpBaiduLocationsTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[ISerpBaiduLocationsTaskInfo](../interfaces/ISerpBaiduLocationsTaskInfo.md).[id](../interfaces/ISerpBaiduLocationsTaskInfo.md#id)
+[`ISerpBaiduLocationsTaskInfo`](../interfaces/ISerpBaiduLocationsTaskInfo.md).[`id`](../interfaces/ISerpBaiduLocationsTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[ISerpBaiduLocationsTaskInfo](../interfaces/ISerpBaiduLocationsTaskInfo.md).[path](../interfaces/ISerpBaiduLocationsTaskInfo.md#path)
+[`ISerpBaiduLocationsTaskInfo`](../interfaces/ISerpBaiduLocationsTaskInfo.md).[`path`](../interfaces/ISerpBaiduLocationsTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`SerpBaiduLocationsResultInfo`](SerpBaiduLocationsResultInfo.md)[]
+> **`optional`** **result**: [`SerpBaiduLocationsResultInfo`](SerpBaiduLocationsResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[ISerpBaiduLocationsTaskInfo](../interfaces/ISerpBaiduLocationsTaskInfo.md).[result](../interfaces/ISerpBaiduLocationsTaskInfo.md#result)
+[`ISerpBaiduLocationsTaskInfo`](../interfaces/ISerpBaiduLocationsTaskInfo.md).[`result`](../interfaces/ISerpBaiduLocationsTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:67659
+main.ts:67667
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[ISerpBaiduLocationsTaskInfo](../interfaces/ISerpBaiduLocationsTaskInfo.md).[result_count](../interfaces/ISerpBaiduLocationsTaskInfo.md#result_count)
+[`ISerpBaiduLocationsTaskInfo`](../interfaces/ISerpBaiduLocationsTaskInfo.md).[`result_count`](../interfaces/ISerpBaiduLocationsTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[ISerpBaiduLocationsTaskInfo](../interfaces/ISerpBaiduLocationsTaskInfo.md).[status_code](../interfaces/ISerpBaiduLocationsTaskInfo.md#status_code)
+[`ISerpBaiduLocationsTaskInfo`](../interfaces/ISerpBaiduLocationsTaskInfo.md).[`status_code`](../interfaces/ISerpBaiduLocationsTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[ISerpBaiduLocationsTaskInfo](../interfaces/ISerpBaiduLocationsTaskInfo.md).[status_message](../interfaces/ISerpBaiduLocationsTaskInfo.md#status_message)
+[`ISerpBaiduLocationsTaskInfo`](../interfaces/ISerpBaiduLocationsTaskInfo.md).[`status_message`](../interfaces/ISerpBaiduLocationsTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[ISerpBaiduLocationsTaskInfo](../interfaces/ISerpBaiduLocationsTaskInfo.md).[time](../interfaces/ISerpBaiduLocationsTaskInfo.md#time)
+[`ISerpBaiduLocationsTaskInfo`](../interfaces/ISerpBaiduLocationsTaskInfo.md).[`time`](../interfaces/ISerpBaiduLocationsTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:67667
+main.ts:67675
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:67689
+main.ts:67697
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpBaiduLocationsTaskInfo`](SerpBaiduLocationsTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpBaiduLocationsTaskInfo`](SerpBaiduLocationsTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:67682
+main.ts:67690

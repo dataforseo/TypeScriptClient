@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageResourcesRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPageResourcesRequestInfo
 
 # Class: OnPageResourcesRequestInfo
 
@@ -8,84 +12,59 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPageResourcesRequestInfo.md#constructor)
-
-### Properties
-
-- [filters](OnPageResourcesRequestInfo.md#filters)
-- [id](OnPageResourcesRequestInfo.md#id)
-- [limit](OnPageResourcesRequestInfo.md#limit)
-- [offset](OnPageResourcesRequestInfo.md#offset)
-- [order\_by](OnPageResourcesRequestInfo.md#order_by)
-- [relevant\_pages\_filters](OnPageResourcesRequestInfo.md#relevant_pages_filters)
-- [tag](OnPageResourcesRequestInfo.md#tag)
-- [url](OnPageResourcesRequestInfo.md#url)
-
-### Methods
-
-- [init](OnPageResourcesRequestInfo.md#init)
-- [toJSON](OnPageResourcesRequestInfo.md#tojson)
-- [fromJS](OnPageResourcesRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPageResourcesRequestInfo(data)
 
-• **new OnPageResourcesRequestInfo**(`data?`): [`OnPageResourcesRequestInfo`](OnPageResourcesRequestInfo.md)
+> **new OnPageResourcesRequestInfo**(`data`?): [`OnPageResourcesRequestInfo`](OnPageResourcesRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPageResourcesRequestInfo`](../interfaces/IOnPageResourcesRequestInfo.md) |
+• **data?**: [`IOnPageResourcesRequestInfo`](../interfaces/IOnPageResourcesRequestInfo.md)
 
 #### Returns
 
 [`OnPageResourcesRequestInfo`](OnPageResourcesRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:151208
+main.ts:151216
 
 ## Properties
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, <=, >, >=, =, <>, in, not_in, like, not_like
+regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["resource_type","=","stylesheet"]
 [["resource_type","=","image"],
 "and",["checks.is_https","=",false]]
-[["fetch_timing.duration_time",">",1],"and",[["total_transfer_size",">",100],"or",["checks.high_loading_time","=",true]]]
+[["fetch_timing.duration_time",">`",1],"and",[["total_transfer_size",">",100],"or",["checks.high_loading_time","=",true]]]
 The full list of possible filters is available by this link.
 
 #### Implementation of
 
-[IOnPageResourcesRequestInfo](../interfaces/IOnPageResourcesRequestInfo.md).[filters](../interfaces/IOnPageResourcesRequestInfo.md#filters)
+[`IOnPageResourcesRequestInfo`](../interfaces/IOnPageResourcesRequestInfo.md).[`filters`](../interfaces/IOnPageResourcesRequestInfo.md#filters)
 
-#### Defined in
+#### Source
 
-main.ts:151172
+main.ts:151180
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 ID of the task
 required field
@@ -95,17 +74,17 @@ example:
 
 #### Implementation of
 
-[IOnPageResourcesRequestInfo](../interfaces/IOnPageResourcesRequestInfo.md).[id](../interfaces/IOnPageResourcesRequestInfo.md#id)
+[`IOnPageResourcesRequestInfo`](../interfaces/IOnPageResourcesRequestInfo.md).[`id`](../interfaces/IOnPageResourcesRequestInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:151142
+main.ts:151150
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned resources
 optional field
@@ -114,17 +93,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IOnPageResourcesRequestInfo](../interfaces/IOnPageResourcesRequestInfo.md).[limit](../interfaces/IOnPageResourcesRequestInfo.md#limit)
+[`IOnPageResourcesRequestInfo`](../interfaces/IOnPageResourcesRequestInfo.md).[`limit`](../interfaces/IOnPageResourcesRequestInfo.md#limit)
 
-#### Defined in
+#### Source
 
-main.ts:151153
+main.ts:151161
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned resources
 optional field
@@ -133,17 +112,17 @@ if you specify the 10 value, the first ten resources in the results array will b
 
 #### Implementation of
 
-[IOnPageResourcesRequestInfo](../interfaces/IOnPageResourcesRequestInfo.md).[offset](../interfaces/IOnPageResourcesRequestInfo.md#offset)
+[`IOnPageResourcesRequestInfo`](../interfaces/IOnPageResourcesRequestInfo.md).[`offset`](../interfaces/IOnPageResourcesRequestInfo.md#offset)
 
-#### Defined in
+#### Source
 
-main.ts:151158
+main.ts:151166
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -161,17 +140,17 @@ example:
 
 #### Implementation of
 
-[IOnPageResourcesRequestInfo](../interfaces/IOnPageResourcesRequestInfo.md).[order_by](../interfaces/IOnPageResourcesRequestInfo.md#order_by)
+[`IOnPageResourcesRequestInfo`](../interfaces/IOnPageResourcesRequestInfo.md).[`order_by`](../interfaces/IOnPageResourcesRequestInfo.md#order_by)
 
-#### Defined in
+#### Source
 
-main.ts:151198
+main.ts:151206
 
-___
+***
 
-### relevant\_pages\_filters
+### relevant\_pages\_filters?
 
-• `Optional` **relevant\_pages\_filters**: `string`[]
+> **`optional`** **relevant\_pages\_filters**: `string`[]
 
 filter the resources by relevant pages
 optional field
@@ -180,24 +159,24 @@ you can apply the same filters here as available for the pages endpoint
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, <=, >, >=, =, <>, in, not_in, like, not_like
+regex, <, `<=, >`, >=, =, <>, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["checks.no_image_title","=",true]
 
 #### Implementation of
 
-[IOnPageResourcesRequestInfo](../interfaces/IOnPageResourcesRequestInfo.md).[relevant_pages_filters](../interfaces/IOnPageResourcesRequestInfo.md#relevant_pages_filters)
+[`IOnPageResourcesRequestInfo`](../interfaces/IOnPageResourcesRequestInfo.md).[`relevant_pages_filters`](../interfaces/IOnPageResourcesRequestInfo.md#relevant_pages_filters)
 
-#### Defined in
+#### Source
 
-main.ts:151184
+main.ts:151192
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -207,17 +186,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IOnPageResourcesRequestInfo](../interfaces/IOnPageResourcesRequestInfo.md).[tag](../interfaces/IOnPageResourcesRequestInfo.md#tag)
+[`IOnPageResourcesRequestInfo`](../interfaces/IOnPageResourcesRequestInfo.md).[`tag`](../interfaces/IOnPageResourcesRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:151204
+main.ts:151212
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 page URL
 optional field
@@ -227,68 +206,62 @@ if you do not indicate a url when setting a task, resource’s meta in the resul
 
 #### Implementation of
 
-[IOnPageResourcesRequestInfo](../interfaces/IOnPageResourcesRequestInfo.md).[url](../interfaces/IOnPageResourcesRequestInfo.md#url)
+[`IOnPageResourcesRequestInfo`](../interfaces/IOnPageResourcesRequestInfo.md).[`url`](../interfaces/IOnPageResourcesRequestInfo.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:151148
+main.ts:151156
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:151217
+main.ts:151225
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:151253
+main.ts:151261
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPageResourcesRequestInfo`](OnPageResourcesRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`OnPageResourcesRequestInfo`](OnPageResourcesRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`OnPageResourcesRequestInfo`](OnPageResourcesRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:151246
+main.ts:151254

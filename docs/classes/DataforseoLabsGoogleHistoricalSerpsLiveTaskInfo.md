@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalSerpsLiveTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsGoogleHistoricalSerpsLiveTaskInfo
 
 # Class: DataforseoLabsGoogleHistoricalSerpsLiveTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`DataforseoLabsGoogleHistoricalSerpsLiveTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](DataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md#cost)
-- [data](DataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md#data)
-- [id](DataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md#id)
-- [path](DataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md#path)
-- [result](DataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md#result)
-- [result\_count](DataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md#result_count)
-- [status\_code](DataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md#status_code)
-- [status\_message](DataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md#status_message)
-- [time](DataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md#time)
-
-### Methods
-
-- [init](DataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md#init)
-- [toJSON](DataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md#tojson)
-- [fromJS](DataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsGoogleHistoricalSerpsLiveTaskInfo(data)
 
-• **new DataforseoLabsGoogleHistoricalSerpsLiveTaskInfo**(`data?`): [`DataforseoLabsGoogleHistoricalSerpsLiveTaskInfo`](DataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md)
+> **new DataforseoLabsGoogleHistoricalSerpsLiveTaskInfo**(`data`?): [`DataforseoLabsGoogleHistoricalSerpsLiveTaskInfo`](DataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md) |
+• **data?**: [`IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md)
 
 #### Returns
 
@@ -58,139 +34,139 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:94726
+main.ts:94734
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md).[cost](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md#cost)
+[`IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md).[`cost`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md).[data](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md#data)
+[`IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md).[`data`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md).[id](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md#id)
+[`IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md).[`id`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md).[path](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md#path)
+[`IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md).[`path`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`DataforseoLabsGoogleHistoricalSerpsLiveResultInfo`](DataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md)[]
+> **`optional`** **result**: [`DataforseoLabsGoogleHistoricalSerpsLiveResultInfo`](DataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md)[]
 
 array of results
 the array includes objects with SERPs for each month within the specified time frame
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md).[result](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md#result)
+[`IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md).[`result`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:94722
+main.ts:94730
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md).[result_count](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md#result_count)
+[`IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md).[`result_count`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -198,68 +174,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md).[status_code](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md#status_code)
+[`IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md).[`status_code`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md).[status_message](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md#status_message)
+[`IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md).[`status_message`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md).[time](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md#time)
+[`IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md).[`time`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -267,23 +241,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:94730
+main.ts:94738
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -291,23 +263,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:94752
+main.ts:94760
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalSerpsLiveTaskInfo`](DataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalSerpsLiveTaskInfo`](DataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -315,8 +285,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:94745
+main.ts:94753

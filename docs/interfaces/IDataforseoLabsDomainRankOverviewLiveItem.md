@@ -1,72 +1,63 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsDomainRankOverviewLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsDomainRankOverviewLiveItem
 
 # Interface: IDataforseoLabsDomainRankOverviewLiveItem
 
-## Implemented by
-
-- [`DataforseoLabsDomainRankOverviewLiveItem`](../classes/DataforseoLabsDomainRankOverviewLiveItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [language\_code](IDataforseoLabsDomainRankOverviewLiveItem.md#language_code)
-- [location\_code](IDataforseoLabsDomainRankOverviewLiveItem.md#location_code)
-- [metrics](IDataforseoLabsDomainRankOverviewLiveItem.md#metrics)
-- [se\_type](IDataforseoLabsDomainRankOverviewLiveItem.md#se_type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:93118
+main.ts:93126
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:93116
+main.ts:93124
 
-___
+***
 
-### metrics
+### metrics?
 
-• `Optional` **metrics**: `Object`
+> **`optional`** **metrics**: `Object`
 
 ranking data relevant to the specified domain
 
 #### Index signature
 
-▪ [key: `string`]: [`MetricsInfo`](../classes/MetricsInfo.md)
+ \[`key`: `string`\]: [`MetricsInfo`](../classes/MetricsInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:93120
+main.ts:93128
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:93114
+main.ts:93122

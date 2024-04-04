@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentAnalysisSentimentAnalysisLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ContentAnalysisSentimentAnalysisLiveResultInfo
 
 # Class: ContentAnalysisSentimentAnalysisLiveResultInfo
 
@@ -8,51 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ContentAnalysisSentimentAnalysisLiveResultInfo.md#constructor)
-
-### Properties
-
-- [positive\_connotation\_distribution](ContentAnalysisSentimentAnalysisLiveResultInfo.md#positive_connotation_distribution)
-- [sentiment\_connotation\_distribution](ContentAnalysisSentimentAnalysisLiveResultInfo.md#sentiment_connotation_distribution)
-- [type](ContentAnalysisSentimentAnalysisLiveResultInfo.md#type)
-
-### Methods
-
-- [init](ContentAnalysisSentimentAnalysisLiveResultInfo.md#init)
-- [toJSON](ContentAnalysisSentimentAnalysisLiveResultInfo.md#tojson)
-- [fromJS](ContentAnalysisSentimentAnalysisLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ContentAnalysisSentimentAnalysisLiveResultInfo(data)
 
-• **new ContentAnalysisSentimentAnalysisLiveResultInfo**(`data?`): [`ContentAnalysisSentimentAnalysisLiveResultInfo`](ContentAnalysisSentimentAnalysisLiveResultInfo.md)
+> **new ContentAnalysisSentimentAnalysisLiveResultInfo**(`data`?): [`ContentAnalysisSentimentAnalysisLiveResultInfo`](ContentAnalysisSentimentAnalysisLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IContentAnalysisSentimentAnalysisLiveResultInfo`](../interfaces/IContentAnalysisSentimentAnalysisLiveResultInfo.md) |
+• **data?**: [`IContentAnalysisSentimentAnalysisLiveResultInfo`](../interfaces/IContentAnalysisSentimentAnalysisLiveResultInfo.md)
 
 #### Returns
 
 [`ContentAnalysisSentimentAnalysisLiveResultInfo`](ContentAnalysisSentimentAnalysisLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:163412
+main.ts:163420
 
 ## Properties
 
-### positive\_connotation\_distribution
+### positive\_connotation\_distribution?
 
-• `Optional` **positive\_connotation\_distribution**: [`PositiveConnotationDistribution`](PositiveConnotationDistribution.md)
+> **`optional`** **positive\_connotation\_distribution**: [`PositiveConnotationDistribution`](PositiveConnotationDistribution.md)
 
 citation distribution by sentiment connotation types
 contains objects with citation counts and relevant data distributed by types of sentiments (sentiment polarity);
@@ -60,17 +44,17 @@ possible sentiment connotation types: positive, negative, neutral
 
 #### Implementation of
 
-[IContentAnalysisSentimentAnalysisLiveResultInfo](../interfaces/IContentAnalysisSentimentAnalysisLiveResultInfo.md).[positive_connotation_distribution](../interfaces/IContentAnalysisSentimentAnalysisLiveResultInfo.md#positive_connotation_distribution)
+[`IContentAnalysisSentimentAnalysisLiveResultInfo`](../interfaces/IContentAnalysisSentimentAnalysisLiveResultInfo.md).[`positive_connotation_distribution`](../interfaces/IContentAnalysisSentimentAnalysisLiveResultInfo.md#positive_connotation_distribution)
 
-#### Defined in
+#### Source
 
-main.ts:163404
+main.ts:163412
 
-___
+***
 
-### sentiment\_connotation\_distribution
+### sentiment\_connotation\_distribution?
 
-• `Optional` **sentiment\_connotation\_distribution**: [`SentimentConnotationDistribution`](SentimentConnotationDistribution.md)
+> **`optional`** **sentiment\_connotation\_distribution**: [`SentimentConnotationDistribution`](SentimentConnotationDistribution.md)
 
 citation distribution by sentiment connotations
 contains objects with citation counts and relevant data distributed by sentiments (emotional reactions);
@@ -78,84 +62,78 @@ possible sentiment connotation types: anger, happiness, love, sadness, share, fu
 
 #### Implementation of
 
-[IContentAnalysisSentimentAnalysisLiveResultInfo](../interfaces/IContentAnalysisSentimentAnalysisLiveResultInfo.md).[sentiment_connotation_distribution](../interfaces/IContentAnalysisSentimentAnalysisLiveResultInfo.md#sentiment_connotation_distribution)
+[`IContentAnalysisSentimentAnalysisLiveResultInfo`](../interfaces/IContentAnalysisSentimentAnalysisLiveResultInfo.md).[`sentiment_connotation_distribution`](../interfaces/IContentAnalysisSentimentAnalysisLiveResultInfo.md#sentiment_connotation_distribution)
 
-#### Defined in
+#### Source
 
-main.ts:163408
+main.ts:163416
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IContentAnalysisSentimentAnalysisLiveResultInfo](../interfaces/IContentAnalysisSentimentAnalysisLiveResultInfo.md).[type](../interfaces/IContentAnalysisSentimentAnalysisLiveResultInfo.md#type)
+[`IContentAnalysisSentimentAnalysisLiveResultInfo`](../interfaces/IContentAnalysisSentimentAnalysisLiveResultInfo.md).[`type`](../interfaces/IContentAnalysisSentimentAnalysisLiveResultInfo.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:163400
+main.ts:163408
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:163421
+main.ts:163429
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:163440
+main.ts:163448
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ContentAnalysisSentimentAnalysisLiveResultInfo`](ContentAnalysisSentimentAnalysisLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`ContentAnalysisSentimentAnalysisLiveResultInfo`](ContentAnalysisSentimentAnalysisLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ContentAnalysisSentimentAnalysisLiveResultInfo`](ContentAnalysisSentimentAnalysisLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:163433
+main.ts:163441

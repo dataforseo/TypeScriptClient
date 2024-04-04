@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpBingLanguagesTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpBingLanguagesTaskInfo
 
 # Class: SerpBingLanguagesTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`SerpBingLanguagesTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpBingLanguagesTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](SerpBingLanguagesTaskInfo.md#cost)
-- [data](SerpBingLanguagesTaskInfo.md#data)
-- [id](SerpBingLanguagesTaskInfo.md#id)
-- [path](SerpBingLanguagesTaskInfo.md#path)
-- [result](SerpBingLanguagesTaskInfo.md#result)
-- [result\_count](SerpBingLanguagesTaskInfo.md#result_count)
-- [status\_code](SerpBingLanguagesTaskInfo.md#status_code)
-- [status\_message](SerpBingLanguagesTaskInfo.md#status_message)
-- [time](SerpBingLanguagesTaskInfo.md#time)
-
-### Methods
-
-- [init](SerpBingLanguagesTaskInfo.md#init)
-- [toJSON](SerpBingLanguagesTaskInfo.md#tojson)
-- [fromJS](SerpBingLanguagesTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpBingLanguagesTaskInfo(data)
 
-• **new SerpBingLanguagesTaskInfo**(`data?`): [`SerpBingLanguagesTaskInfo`](SerpBingLanguagesTaskInfo.md)
+> **new SerpBingLanguagesTaskInfo**(`data`?): [`SerpBingLanguagesTaskInfo`](SerpBingLanguagesTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpBingLanguagesTaskInfo`](../interfaces/ISerpBingLanguagesTaskInfo.md) |
+• **data?**: [`ISerpBingLanguagesTaskInfo`](../interfaces/ISerpBingLanguagesTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:55951
+main.ts:55959
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[ISerpBingLanguagesTaskInfo](../interfaces/ISerpBingLanguagesTaskInfo.md).[cost](../interfaces/ISerpBingLanguagesTaskInfo.md#cost)
+[`ISerpBingLanguagesTaskInfo`](../interfaces/ISerpBingLanguagesTaskInfo.md).[`cost`](../interfaces/ISerpBingLanguagesTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[ISerpBingLanguagesTaskInfo](../interfaces/ISerpBingLanguagesTaskInfo.md).[data](../interfaces/ISerpBingLanguagesTaskInfo.md#data)
+[`ISerpBingLanguagesTaskInfo`](../interfaces/ISerpBingLanguagesTaskInfo.md).[`data`](../interfaces/ISerpBingLanguagesTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[ISerpBingLanguagesTaskInfo](../interfaces/ISerpBingLanguagesTaskInfo.md).[id](../interfaces/ISerpBingLanguagesTaskInfo.md#id)
+[`ISerpBingLanguagesTaskInfo`](../interfaces/ISerpBingLanguagesTaskInfo.md).[`id`](../interfaces/ISerpBingLanguagesTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[ISerpBingLanguagesTaskInfo](../interfaces/ISerpBingLanguagesTaskInfo.md).[path](../interfaces/ISerpBingLanguagesTaskInfo.md#path)
+[`ISerpBingLanguagesTaskInfo`](../interfaces/ISerpBingLanguagesTaskInfo.md).[`path`](../interfaces/ISerpBingLanguagesTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`SerpBingLanguagesResultInfo`](SerpBingLanguagesResultInfo.md)[]
+> **`optional`** **result**: [`SerpBingLanguagesResultInfo`](SerpBingLanguagesResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[ISerpBingLanguagesTaskInfo](../interfaces/ISerpBingLanguagesTaskInfo.md).[result](../interfaces/ISerpBingLanguagesTaskInfo.md#result)
+[`ISerpBingLanguagesTaskInfo`](../interfaces/ISerpBingLanguagesTaskInfo.md).[`result`](../interfaces/ISerpBingLanguagesTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:55947
+main.ts:55955
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[ISerpBingLanguagesTaskInfo](../interfaces/ISerpBingLanguagesTaskInfo.md).[result_count](../interfaces/ISerpBingLanguagesTaskInfo.md#result_count)
+[`ISerpBingLanguagesTaskInfo`](../interfaces/ISerpBingLanguagesTaskInfo.md).[`result_count`](../interfaces/ISerpBingLanguagesTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[ISerpBingLanguagesTaskInfo](../interfaces/ISerpBingLanguagesTaskInfo.md).[status_code](../interfaces/ISerpBingLanguagesTaskInfo.md#status_code)
+[`ISerpBingLanguagesTaskInfo`](../interfaces/ISerpBingLanguagesTaskInfo.md).[`status_code`](../interfaces/ISerpBingLanguagesTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[ISerpBingLanguagesTaskInfo](../interfaces/ISerpBingLanguagesTaskInfo.md).[status_message](../interfaces/ISerpBingLanguagesTaskInfo.md#status_message)
+[`ISerpBingLanguagesTaskInfo`](../interfaces/ISerpBingLanguagesTaskInfo.md).[`status_message`](../interfaces/ISerpBingLanguagesTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[ISerpBingLanguagesTaskInfo](../interfaces/ISerpBingLanguagesTaskInfo.md).[time](../interfaces/ISerpBingLanguagesTaskInfo.md#time)
+[`ISerpBingLanguagesTaskInfo`](../interfaces/ISerpBingLanguagesTaskInfo.md).[`time`](../interfaces/ISerpBingLanguagesTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:55955
+main.ts:55963
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:55977
+main.ts:55985
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpBingLanguagesTaskInfo`](SerpBingLanguagesTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpBingLanguagesTaskInfo`](SerpBingLanguagesTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:55970
+main.ts:55978

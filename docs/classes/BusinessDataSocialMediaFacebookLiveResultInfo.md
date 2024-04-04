@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataSocialMediaFacebookLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataSocialMediaFacebookLiveResultInfo
 
 # Class: BusinessDataSocialMediaFacebookLiveResultInfo
 
@@ -8,152 +12,126 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataSocialMediaFacebookLiveResultInfo.md#constructor)
-
-### Properties
-
-- [like\_count](BusinessDataSocialMediaFacebookLiveResultInfo.md#like_count)
-- [page\_url](BusinessDataSocialMediaFacebookLiveResultInfo.md#page_url)
-- [type](BusinessDataSocialMediaFacebookLiveResultInfo.md#type)
-
-### Methods
-
-- [init](BusinessDataSocialMediaFacebookLiveResultInfo.md#init)
-- [toJSON](BusinessDataSocialMediaFacebookLiveResultInfo.md#tojson)
-- [fromJS](BusinessDataSocialMediaFacebookLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataSocialMediaFacebookLiveResultInfo(data)
 
-• **new BusinessDataSocialMediaFacebookLiveResultInfo**(`data?`): [`BusinessDataSocialMediaFacebookLiveResultInfo`](BusinessDataSocialMediaFacebookLiveResultInfo.md)
+> **new BusinessDataSocialMediaFacebookLiveResultInfo**(`data`?): [`BusinessDataSocialMediaFacebookLiveResultInfo`](BusinessDataSocialMediaFacebookLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataSocialMediaFacebookLiveResultInfo`](../interfaces/IBusinessDataSocialMediaFacebookLiveResultInfo.md) |
+• **data?**: [`IBusinessDataSocialMediaFacebookLiveResultInfo`](../interfaces/IBusinessDataSocialMediaFacebookLiveResultInfo.md)
 
 #### Returns
 
 [`BusinessDataSocialMediaFacebookLiveResultInfo`](BusinessDataSocialMediaFacebookLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:211437
 
 ## Properties
 
-### like\_count
+### like\_count?
 
-• `Optional` **like\_count**: `number`
+> **`optional`** **like\_count**: `number`
 
 number of likes for the related page_url
 this field shows the number of likes a page received through the Facebook Like Button embed
 
 #### Implementation of
 
-[IBusinessDataSocialMediaFacebookLiveResultInfo](../interfaces/IBusinessDataSocialMediaFacebookLiveResultInfo.md).[like_count](../interfaces/IBusinessDataSocialMediaFacebookLiveResultInfo.md#like_count)
+[`IBusinessDataSocialMediaFacebookLiveResultInfo`](../interfaces/IBusinessDataSocialMediaFacebookLiveResultInfo.md).[`like_count`](../interfaces/IBusinessDataSocialMediaFacebookLiveResultInfo.md#like_count)
 
-#### Defined in
+#### Source
 
 main.ts:211433
 
-___
+***
 
-### page\_url
+### page\_url?
 
-• `Optional` **page\_url**: `string`
+> **`optional`** **page\_url**: `string`
 
 URL of the page the data is provided for
 corresponding URL you specified in the targets array when setting a task
 
 #### Implementation of
 
-[IBusinessDataSocialMediaFacebookLiveResultInfo](../interfaces/IBusinessDataSocialMediaFacebookLiveResultInfo.md).[page_url](../interfaces/IBusinessDataSocialMediaFacebookLiveResultInfo.md#page_url)
+[`IBusinessDataSocialMediaFacebookLiveResultInfo`](../interfaces/IBusinessDataSocialMediaFacebookLiveResultInfo.md).[`page_url`](../interfaces/IBusinessDataSocialMediaFacebookLiveResultInfo.md#page_url)
 
-#### Defined in
+#### Source
 
 main.ts:211430
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IBusinessDataSocialMediaFacebookLiveResultInfo](../interfaces/IBusinessDataSocialMediaFacebookLiveResultInfo.md).[type](../interfaces/IBusinessDataSocialMediaFacebookLiveResultInfo.md#type)
+[`IBusinessDataSocialMediaFacebookLiveResultInfo`](../interfaces/IBusinessDataSocialMediaFacebookLiveResultInfo.md).[`type`](../interfaces/IBusinessDataSocialMediaFacebookLiveResultInfo.md#type)
 
-#### Defined in
+#### Source
 
 main.ts:211427
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:211446
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:211465
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataSocialMediaFacebookLiveResultInfo`](BusinessDataSocialMediaFacebookLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataSocialMediaFacebookLiveResultInfo`](BusinessDataSocialMediaFacebookLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BusinessDataSocialMediaFacebookLiveResultInfo`](BusinessDataSocialMediaFacebookLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:211458

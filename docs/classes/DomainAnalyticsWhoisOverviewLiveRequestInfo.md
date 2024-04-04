@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsWhoisOverviewLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DomainAnalyticsWhoisOverviewLiveRequestInfo
 
 # Class: DomainAnalyticsWhoisOverviewLiveRequestInfo
 
@@ -8,60 +12,38 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DomainAnalyticsWhoisOverviewLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [filters](DomainAnalyticsWhoisOverviewLiveRequestInfo.md#filters)
-- [limit](DomainAnalyticsWhoisOverviewLiveRequestInfo.md#limit)
-- [offset](DomainAnalyticsWhoisOverviewLiveRequestInfo.md#offset)
-- [order\_by](DomainAnalyticsWhoisOverviewLiveRequestInfo.md#order_by)
-- [tag](DomainAnalyticsWhoisOverviewLiveRequestInfo.md#tag)
-
-### Methods
-
-- [init](DomainAnalyticsWhoisOverviewLiveRequestInfo.md#init)
-- [toJSON](DomainAnalyticsWhoisOverviewLiveRequestInfo.md#tojson)
-- [fromJS](DomainAnalyticsWhoisOverviewLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DomainAnalyticsWhoisOverviewLiveRequestInfo(data)
 
-• **new DomainAnalyticsWhoisOverviewLiveRequestInfo**(`data?`): [`DomainAnalyticsWhoisOverviewLiveRequestInfo`](DomainAnalyticsWhoisOverviewLiveRequestInfo.md)
+> **new DomainAnalyticsWhoisOverviewLiveRequestInfo**(`data`?): [`DomainAnalyticsWhoisOverviewLiveRequestInfo`](DomainAnalyticsWhoisOverviewLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDomainAnalyticsWhoisOverviewLiveRequestInfo`](../interfaces/IDomainAnalyticsWhoisOverviewLiveRequestInfo.md) |
+• **data?**: [`IDomainAnalyticsWhoisOverviewLiveRequestInfo`](../interfaces/IDomainAnalyticsWhoisOverviewLiveRequestInfo.md)
 
 #### Returns
 
 [`DomainAnalyticsWhoisOverviewLiveRequestInfo`](DomainAnalyticsWhoisOverviewLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:78002
+main.ts:78010
 
 ## Properties
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, <=, >, >=, =, <>, in, not_in, like, not_like
+regex, <, `<=, >`, >=, =, <>, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 examples:
 ["expiration_datetime", "<", "2021-02-15 01:00:00 +00:00"]
@@ -73,17 +55,17 @@ for more information about filters, please refer to Filters Page or this help ce
 
 #### Implementation of
 
-[IDomainAnalyticsWhoisOverviewLiveRequestInfo](../interfaces/IDomainAnalyticsWhoisOverviewLiveRequestInfo.md).[filters](../interfaces/IDomainAnalyticsWhoisOverviewLiveRequestInfo.md#filters)
+[`IDomainAnalyticsWhoisOverviewLiveRequestInfo`](../interfaces/IDomainAnalyticsWhoisOverviewLiveRequestInfo.md).[`filters`](../interfaces/IDomainAnalyticsWhoisOverviewLiveRequestInfo.md#filters)
 
-#### Defined in
+#### Source
 
-main.ts:77976
+main.ts:77984
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned domains
 optional field
@@ -92,17 +74,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IDomainAnalyticsWhoisOverviewLiveRequestInfo](../interfaces/IDomainAnalyticsWhoisOverviewLiveRequestInfo.md).[limit](../interfaces/IDomainAnalyticsWhoisOverviewLiveRequestInfo.md#limit)
+[`IDomainAnalyticsWhoisOverviewLiveRequestInfo`](../interfaces/IDomainAnalyticsWhoisOverviewLiveRequestInfo.md).[`limit`](../interfaces/IDomainAnalyticsWhoisOverviewLiveRequestInfo.md#limit)
 
-#### Defined in
+#### Source
 
-main.ts:77956
+main.ts:77964
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned items
 optional field
@@ -111,17 +93,17 @@ if you specify the 10 value, the first ten items in the results array will be om
 
 #### Implementation of
 
-[IDomainAnalyticsWhoisOverviewLiveRequestInfo](../interfaces/IDomainAnalyticsWhoisOverviewLiveRequestInfo.md).[offset](../interfaces/IDomainAnalyticsWhoisOverviewLiveRequestInfo.md#offset)
+[`IDomainAnalyticsWhoisOverviewLiveRequestInfo`](../interfaces/IDomainAnalyticsWhoisOverviewLiveRequestInfo.md).[`offset`](../interfaces/IDomainAnalyticsWhoisOverviewLiveRequestInfo.md#offset)
 
-#### Defined in
+#### Source
 
-main.ts:77961
+main.ts:77969
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -141,17 +123,17 @@ example:
 
 #### Implementation of
 
-[IDomainAnalyticsWhoisOverviewLiveRequestInfo](../interfaces/IDomainAnalyticsWhoisOverviewLiveRequestInfo.md).[order_by](../interfaces/IDomainAnalyticsWhoisOverviewLiveRequestInfo.md#order_by)
+[`IDomainAnalyticsWhoisOverviewLiveRequestInfo`](../interfaces/IDomainAnalyticsWhoisOverviewLiveRequestInfo.md).[`order_by`](../interfaces/IDomainAnalyticsWhoisOverviewLiveRequestInfo.md#order_by)
 
-#### Defined in
+#### Source
 
-main.ts:77992
+main.ts:78000
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -161,68 +143,62 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IDomainAnalyticsWhoisOverviewLiveRequestInfo](../interfaces/IDomainAnalyticsWhoisOverviewLiveRequestInfo.md).[tag](../interfaces/IDomainAnalyticsWhoisOverviewLiveRequestInfo.md#tag)
+[`IDomainAnalyticsWhoisOverviewLiveRequestInfo`](../interfaces/IDomainAnalyticsWhoisOverviewLiveRequestInfo.md).[`tag`](../interfaces/IDomainAnalyticsWhoisOverviewLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:77998
+main.ts:78006
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:78011
+main.ts:78019
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:78040
+main.ts:78048
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DomainAnalyticsWhoisOverviewLiveRequestInfo`](DomainAnalyticsWhoisOverviewLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`DomainAnalyticsWhoisOverviewLiveRequestInfo`](DomainAnalyticsWhoisOverviewLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DomainAnalyticsWhoisOverviewLiveRequestInfo`](DomainAnalyticsWhoisOverviewLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:78033
+main.ts:78041

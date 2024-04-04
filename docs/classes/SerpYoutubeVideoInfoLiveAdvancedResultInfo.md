@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoInfoLiveAdvancedResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpYoutubeVideoInfoLiveAdvancedResultInfo
 
 # Class: SerpYoutubeVideoInfoLiveAdvancedResultInfo
 
@@ -8,75 +12,48 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpYoutubeVideoInfoLiveAdvancedResultInfo.md#constructor)
-
-### Properties
-
-- [check\_url](SerpYoutubeVideoInfoLiveAdvancedResultInfo.md#check_url)
-- [datetime](SerpYoutubeVideoInfoLiveAdvancedResultInfo.md#datetime)
-- [item\_types](SerpYoutubeVideoInfoLiveAdvancedResultInfo.md#item_types)
-- [items](SerpYoutubeVideoInfoLiveAdvancedResultInfo.md#items)
-- [items\_count](SerpYoutubeVideoInfoLiveAdvancedResultInfo.md#items_count)
-- [language\_code](SerpYoutubeVideoInfoLiveAdvancedResultInfo.md#language_code)
-- [location\_code](SerpYoutubeVideoInfoLiveAdvancedResultInfo.md#location_code)
-- [se\_domain](SerpYoutubeVideoInfoLiveAdvancedResultInfo.md#se_domain)
-- [spell](SerpYoutubeVideoInfoLiveAdvancedResultInfo.md#spell)
-- [video\_id](SerpYoutubeVideoInfoLiveAdvancedResultInfo.md#video_id)
-
-### Methods
-
-- [init](SerpYoutubeVideoInfoLiveAdvancedResultInfo.md#init)
-- [toJSON](SerpYoutubeVideoInfoLiveAdvancedResultInfo.md#tojson)
-- [fromJS](SerpYoutubeVideoInfoLiveAdvancedResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpYoutubeVideoInfoLiveAdvancedResultInfo(data)
 
-• **new SerpYoutubeVideoInfoLiveAdvancedResultInfo**(`data?`): [`SerpYoutubeVideoInfoLiveAdvancedResultInfo`](SerpYoutubeVideoInfoLiveAdvancedResultInfo.md)
+> **new SerpYoutubeVideoInfoLiveAdvancedResultInfo**(`data`?): [`SerpYoutubeVideoInfoLiveAdvancedResultInfo`](SerpYoutubeVideoInfoLiveAdvancedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpYoutubeVideoInfoLiveAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedResultInfo.md) |
+• **data?**: [`ISerpYoutubeVideoInfoLiveAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedResultInfo.md)
 
 #### Returns
 
 [`SerpYoutubeVideoInfoLiveAdvancedResultInfo`](SerpYoutubeVideoInfoLiveAdvancedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:61599
+main.ts:61607
 
 ## Properties
 
-### check\_url
+### check\_url?
 
-• `Optional` **check\_url**: `string`
+> **`optional`** **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
 
 #### Implementation of
 
-[ISerpYoutubeVideoInfoLiveAdvancedResultInfo](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedResultInfo.md).[check_url](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedResultInfo.md#check_url)
+[`ISerpYoutubeVideoInfoLiveAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedResultInfo.md).[`check_url`](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedResultInfo.md#check_url)
 
-#### Defined in
+#### Source
 
-main.ts:61578
+main.ts:61586
 
-___
+***
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -85,17 +62,17 @@ example:
 
 #### Implementation of
 
-[ISerpYoutubeVideoInfoLiveAdvancedResultInfo](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedResultInfo.md).[datetime](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedResultInfo.md#datetime)
+[`ISerpYoutubeVideoInfoLiveAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedResultInfo.md).[`datetime`](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
-main.ts:61583
+main.ts:61591
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -104,181 +81,175 @@ youtube_video_info
 
 #### Implementation of
 
-[ISerpYoutubeVideoInfoLiveAdvancedResultInfo](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedResultInfo.md).[item_types](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedResultInfo.md#item_types)
+[`ISerpYoutubeVideoInfoLiveAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedResultInfo.md).[`item_types`](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedResultInfo.md#item_types)
 
-#### Defined in
+#### Source
 
-main.ts:61591
+main.ts:61599
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
+> **`optional`** **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
 elements of search results found in SERP
 
 #### Implementation of
 
-[ISerpYoutubeVideoInfoLiveAdvancedResultInfo](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedResultInfo.md).[items](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedResultInfo.md#items)
+[`ISerpYoutubeVideoInfoLiveAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedResultInfo.md).[`items`](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:61595
+main.ts:61603
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[ISerpYoutubeVideoInfoLiveAdvancedResultInfo](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedResultInfo.md).[items_count](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedResultInfo.md#items_count)
+[`ISerpYoutubeVideoInfoLiveAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedResultInfo.md).[`items_count`](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:61593
+main.ts:61601
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[ISerpYoutubeVideoInfoLiveAdvancedResultInfo](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedResultInfo.md).[language_code](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedResultInfo.md#language_code)
+[`ISerpYoutubeVideoInfoLiveAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedResultInfo.md).[`language_code`](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:61575
+main.ts:61583
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[ISerpYoutubeVideoInfoLiveAdvancedResultInfo](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedResultInfo.md).[location_code](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedResultInfo.md#location_code)
+[`ISerpYoutubeVideoInfoLiveAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedResultInfo.md).[`location_code`](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:61573
+main.ts:61581
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
 #### Implementation of
 
-[ISerpYoutubeVideoInfoLiveAdvancedResultInfo](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedResultInfo.md).[se_domain](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedResultInfo.md#se_domain)
+[`ISerpYoutubeVideoInfoLiveAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedResultInfo.md).[`se_domain`](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedResultInfo.md#se_domain)
 
-#### Defined in
+#### Source
 
-main.ts:61571
+main.ts:61579
 
-___
+***
 
-### spell
+### spell?
 
-• `Optional` **spell**: [`SpellInfo`](SpellInfo.md)
+> **`optional`** **spell**: [`SpellInfo`](SpellInfo.md)
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
 
 #### Implementation of
 
-[ISerpYoutubeVideoInfoLiveAdvancedResultInfo](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedResultInfo.md).[spell](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedResultInfo.md#spell)
+[`ISerpYoutubeVideoInfoLiveAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedResultInfo.md).[`spell`](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedResultInfo.md#spell)
 
-#### Defined in
+#### Source
 
-main.ts:61586
+main.ts:61594
 
-___
+***
 
-### video\_id
+### video\_id?
 
-• `Optional` **video\_id**: `string`
+> **`optional`** **video\_id**: `string`
 
 ID of the video received in a POST array
 
 #### Implementation of
 
-[ISerpYoutubeVideoInfoLiveAdvancedResultInfo](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedResultInfo.md).[video_id](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedResultInfo.md#video_id)
+[`ISerpYoutubeVideoInfoLiveAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedResultInfo.md).[`video_id`](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedResultInfo.md#video_id)
 
-#### Defined in
+#### Source
 
-main.ts:61569
+main.ts:61577
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:61608
+main.ts:61616
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:61642
+main.ts:61650
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpYoutubeVideoInfoLiveAdvancedResultInfo`](SerpYoutubeVideoInfoLiveAdvancedResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpYoutubeVideoInfoLiveAdvancedResultInfo`](SerpYoutubeVideoInfoLiveAdvancedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpYoutubeVideoInfoLiveAdvancedResultInfo`](SerpYoutubeVideoInfoLiveAdvancedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:61635
+main.ts:61643

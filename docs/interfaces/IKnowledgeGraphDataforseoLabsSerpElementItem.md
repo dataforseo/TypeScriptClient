@@ -1,208 +1,187 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKnowledgeGraphDataforseoLabsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IKnowledgeGraphDataforseoLabsSerpElementItem
 
 # Interface: IKnowledgeGraphDataforseoLabsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md)
 
-  ↳ **`IKnowledgeGraphDataforseoLabsSerpElementItem`**
-
-## Implemented by
-
-- [`KnowledgeGraphDataforseoLabsSerpElementItem`](../classes/KnowledgeGraphDataforseoLabsSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [card\_id](IKnowledgeGraphDataforseoLabsSerpElementItem.md#card_id)
-- [cid](IKnowledgeGraphDataforseoLabsSerpElementItem.md#cid)
-- [description](IKnowledgeGraphDataforseoLabsSerpElementItem.md#description)
-- [image\_url](IKnowledgeGraphDataforseoLabsSerpElementItem.md#image_url)
-- [items](IKnowledgeGraphDataforseoLabsSerpElementItem.md#items)
-- [logo\_url](IKnowledgeGraphDataforseoLabsSerpElementItem.md#logo_url)
-- [position](IKnowledgeGraphDataforseoLabsSerpElementItem.md#position)
-- [rank\_absolute](IKnowledgeGraphDataforseoLabsSerpElementItem.md#rank_absolute)
-- [rank\_group](IKnowledgeGraphDataforseoLabsSerpElementItem.md#rank_group)
-- [se\_type](IKnowledgeGraphDataforseoLabsSerpElementItem.md#se_type)
-- [sub\_title](IKnowledgeGraphDataforseoLabsSerpElementItem.md#sub_title)
-- [title](IKnowledgeGraphDataforseoLabsSerpElementItem.md#title)
-- [url](IKnowledgeGraphDataforseoLabsSerpElementItem.md#url)
-- [xpath](IKnowledgeGraphDataforseoLabsSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### card\_id
+### card\_id?
 
-• `Optional` **card\_id**: `string`
+> **`optional`** **card\_id**: `string`
 
 card id
 
-#### Defined in
-
-main.ts:94336
-
-___
-
-### cid
-
-• `Optional` **cid**: `string`
-
-google-defined client id
-
-#### Defined in
+#### Source
 
 main.ts:94344
 
-___
+***
 
-### description
+### cid?
 
-• `Optional` **description**: `string`
+> **`optional`** **cid**: `string`
+
+google-defined client id
+
+#### Source
+
+main.ts:94352
+
+***
+
+### description?
+
+> **`optional`** **description**: `string`
 
 description of the results element in SERP
 
-#### Defined in
-
-main.ts:94334
-
-___
-
-### image\_url
-
-• `Optional` **image\_url**: `string`
-
-URL of the image from knowledge graph
-
-#### Defined in
-
-main.ts:94340
-
-___
-
-### items
-
-• `Optional` **items**: [`BaseDataforseoLabsSerpElementItem`](../classes/BaseDataforseoLabsSerpElementItem.md)[]
-
-elements of search results found in SERP
-
-#### Defined in
-
-main.ts:94346
-
-___
-
-### logo\_url
-
-• `Optional` **logo\_url**: `string`
-
-URL of the logo from knowledge graph
-
-#### Defined in
+#### Source
 
 main.ts:94342
 
-___
+***
 
-### position
+### image\_url?
 
-• `Optional` **position**: `string`
+> **`optional`** **image\_url**: `string`
+
+URL of the image from knowledge graph
+
+#### Source
+
+main.ts:94348
+
+***
+
+### items?
+
+> **`optional`** **items**: [`BaseDataforseoLabsSerpElementItem`](../classes/BaseDataforseoLabsSerpElementItem.md)[]
+
+elements of search results found in SERP
+
+#### Source
+
+main.ts:94354
+
+***
+
+### logo\_url?
+
+> **`optional`** **logo\_url**: `string`
+
+URL of the logo from knowledge graph
+
+#### Source
+
+main.ts:94350
+
+***
+
+### position?
+
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
-main.ts:94326
+main.ts:94334
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Defined in
+#### Source
 
-main.ts:94322
+main.ts:94330
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
-main.ts:94319
+main.ts:94327
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:94316
+main.ts:94324
 
-___
+***
 
-### sub\_title
+### sub\_title?
 
-• `Optional` **sub\_title**: `string`
+> **`optional`** **sub\_title**: `string`
 
 subtitle of the item
 
-#### Defined in
+#### Source
 
-main.ts:94332
+main.ts:94340
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the result in SERP
 
-#### Defined in
-
-main.ts:94330
-
-___
-
-### url
-
-• `Optional` **url**: `string`
-
-relevant URL of the Ad element in SERP
-
-#### Defined in
+#### Source
 
 main.ts:94338
 
-___
+***
 
-### xpath
+### url?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **url**: `string`
+
+relevant URL of the Ad element in SERP
+
+#### Source
+
+main.ts:94346
+
+***
+
+### xpath?
+
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
-main.ts:94328
+main.ts:94336

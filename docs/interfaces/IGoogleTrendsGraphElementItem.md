@@ -1,89 +1,77 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IGoogleTrendsGraphElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IGoogleTrendsGraphElementItem
 
 # Interface: IGoogleTrendsGraphElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseGoogleTrendsItem`](IBaseGoogleTrendsItem.md)
 
-  ↳ **`IGoogleTrendsGraphElementItem`**
-
-## Implemented by
-
-- [`GoogleTrendsGraphElementItem`](../classes/GoogleTrendsGraphElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [averages](IGoogleTrendsGraphElementItem.md#averages)
-- [data](IGoogleTrendsGraphElementItem.md#data)
-- [keywords](IGoogleTrendsGraphElementItem.md#keywords)
-- [position](IGoogleTrendsGraphElementItem.md#position)
-- [title](IGoogleTrendsGraphElementItem.md#title)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### averages
+### averages?
 
-• `Optional` **averages**: `number`[]
+> **`optional`** **averages**: `number`[]
 
 keyword popularity values averaged over the whole time range
 
-#### Defined in
+#### Source
 
-main.ts:122951
+main.ts:122959
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: [`TrendsGraphDataInfo`](../classes/TrendsGraphDataInfo.md)[]
+> **`optional`** **data**: [`TrendsGraphDataInfo`](../classes/TrendsGraphDataInfo.md)[]
 
 Google Trends data for the specified parameters
 
-#### Defined in
+#### Source
 
-main.ts:122949
+main.ts:122957
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 relevant keywords
 the data included in the google_trends_graph element is based on the keywords listed in this array
 
-#### Defined in
+#### Source
 
-main.ts:122947
+main.ts:122955
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `number`
+> **`optional`** **position**: `number`
 
 the alignment of the element in Google Trends
 can take the following values: 1, 2, 3, 4, etc.
 
-#### Defined in
+#### Source
 
-main.ts:122942
+main.ts:122950
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the element in Google Trends
 
-#### Defined in
+#### Source
 
-main.ts:122944
+main.ts:122952

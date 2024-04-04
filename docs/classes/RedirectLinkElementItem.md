@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / RedirectLinkElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / RedirectLinkElementItem
 
 # Class: RedirectLinkElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md)
-
-  ↳ **`RedirectLinkElementItem`**
 
 ## Implements
 
@@ -14,47 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](RedirectLinkElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](RedirectLinkElementItem.md#_discriminator)
-- [direction](RedirectLinkElementItem.md#direction)
-- [dofollow](RedirectLinkElementItem.md#dofollow)
-- [domain\_from](RedirectLinkElementItem.md#domain_from)
-- [domain\_to](RedirectLinkElementItem.md#domain_to)
-- [is\_broken](RedirectLinkElementItem.md#is_broken)
-- [is\_link\_relation\_conflict](RedirectLinkElementItem.md#is_link_relation_conflict)
-- [link\_from](RedirectLinkElementItem.md#link_from)
-- [link\_to](RedirectLinkElementItem.md#link_to)
-- [page\_from](RedirectLinkElementItem.md#page_from)
-- [page\_from\_scheme](RedirectLinkElementItem.md#page_from_scheme)
-- [page\_to](RedirectLinkElementItem.md#page_to)
-- [page\_to\_scheme](RedirectLinkElementItem.md#page_to_scheme)
-
-### Methods
-
-- [init](RedirectLinkElementItem.md#init)
-- [toJSON](RedirectLinkElementItem.md#tojson)
-- [fromJS](RedirectLinkElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new RedirectLinkElementItem(data)
 
-• **new RedirectLinkElementItem**(`data?`): [`RedirectLinkElementItem`](RedirectLinkElementItem.md)
+> **new RedirectLinkElementItem**(`data`?): [`RedirectLinkElementItem`](RedirectLinkElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IRedirectLinkElementItem`](../interfaces/IRedirectLinkElementItem.md) |
+• **data?**: [`IRedirectLinkElementItem`](../interfaces/IRedirectLinkElementItem.md)
 
 #### Returns
 
@@ -62,239 +34,237 @@
 
 #### Overrides
 
-[BaseOnPageLinkItemInfo](BaseOnPageLinkItemInfo.md).[constructor](BaseOnPageLinkItemInfo.md#constructor)
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`constructor`](BaseOnPageLinkItemInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:154324
+main.ts:154332
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseOnPageLinkItemInfo](BaseOnPageLinkItemInfo.md).[_discriminator](BaseOnPageLinkItemInfo.md#_discriminator)
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`_discriminator`](BaseOnPageLinkItemInfo.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:20770
 
-___
+***
 
-### direction
+### direction?
 
-• `Optional` **direction**: `string`
+> **`optional`** **direction**: `string`
 
 direction of the link
 possible values: internal, external
 
 #### Implementation of
 
-[IRedirectLinkElementItem](../interfaces/IRedirectLinkElementItem.md).[direction](../interfaces/IRedirectLinkElementItem.md#direction)
+[`IRedirectLinkElementItem`](../interfaces/IRedirectLinkElementItem.md).[`direction`](../interfaces/IRedirectLinkElementItem.md#direction)
 
-#### Defined in
+#### Source
 
-main.ts:154314
+main.ts:154322
 
-___
+***
 
-### dofollow
+### dofollow?
 
-• `Optional` **dofollow**: `boolean`
+> **`optional`** **dofollow**: `boolean`
 
 indicates whether the link is dofollow
 if the value is true, the link doesn’t have a rel="nofollow" attribute
 
 #### Implementation of
 
-[IRedirectLinkElementItem](../interfaces/IRedirectLinkElementItem.md).[dofollow](../interfaces/IRedirectLinkElementItem.md#dofollow)
+[`IRedirectLinkElementItem`](../interfaces/IRedirectLinkElementItem.md).[`dofollow`](../interfaces/IRedirectLinkElementItem.md#dofollow)
 
-#### Defined in
+#### Source
 
-main.ts:154307
+main.ts:154315
 
-___
+***
 
-### domain\_from
+### domain\_from?
 
-• `Optional` **domain\_from**: `string`
+> **`optional`** **domain\_from**: `string`
 
 referring domain
 the link was found on this domain
 
 #### Implementation of
 
-[IRedirectLinkElementItem](../interfaces/IRedirectLinkElementItem.md).[domain_from](../interfaces/IRedirectLinkElementItem.md#domain_from)
+[`IRedirectLinkElementItem`](../interfaces/IRedirectLinkElementItem.md).[`domain_from`](../interfaces/IRedirectLinkElementItem.md#domain_from)
 
-#### Defined in
+#### Source
 
-main.ts:154289
+main.ts:154297
 
-___
+***
 
-### domain\_to
+### domain\_to?
 
-• `Optional` **domain\_to**: `string`
+> **`optional`** **domain\_to**: `string`
 
 referenced domain
 the link is pointing to this domain
 
 #### Implementation of
 
-[IRedirectLinkElementItem](../interfaces/IRedirectLinkElementItem.md).[domain_to](../interfaces/IRedirectLinkElementItem.md#domain_to)
+[`IRedirectLinkElementItem`](../interfaces/IRedirectLinkElementItem.md).[`domain_to`](../interfaces/IRedirectLinkElementItem.md#domain_to)
 
-#### Defined in
+#### Source
 
-main.ts:154292
+main.ts:154300
 
-___
+***
 
-### is\_broken
+### is\_broken?
 
-• `Optional` **is\_broken**: `boolean`
+> **`optional`** **is\_broken**: `boolean`
 
 link is broken
 indicates whether a link is directing to a broken page or resource
 
 #### Implementation of
 
-[IRedirectLinkElementItem](../interfaces/IRedirectLinkElementItem.md).[is_broken](../interfaces/IRedirectLinkElementItem.md#is_broken)
+[`IRedirectLinkElementItem`](../interfaces/IRedirectLinkElementItem.md).[`is_broken`](../interfaces/IRedirectLinkElementItem.md#is_broken)
 
-#### Defined in
+#### Source
 
-main.ts:154317
+main.ts:154325
 
-___
+***
 
-### is\_link\_relation\_conflict
+### is\_link\_relation\_conflict?
 
-• `Optional` **is\_link\_relation\_conflict**: `boolean`
+> **`optional`** **is\_link\_relation\_conflict**: `boolean`
 
 indicates that the link may have a conflict with another link
 if true, at least one link pointing to the URL in link_to has a rel="nofollow" attribute and at least one is dofollow
 
 #### Implementation of
 
-[IRedirectLinkElementItem](../interfaces/IRedirectLinkElementItem.md).[is_link_relation_conflict](../interfaces/IRedirectLinkElementItem.md#is_link_relation_conflict)
+[`IRedirectLinkElementItem`](../interfaces/IRedirectLinkElementItem.md).[`is_link_relation_conflict`](../interfaces/IRedirectLinkElementItem.md#is_link_relation_conflict)
 
-#### Defined in
+#### Source
 
-main.ts:154320
+main.ts:154328
 
-___
+***
 
-### link\_from
+### link\_from?
 
-• `Optional` **link\_from**: `string`
+> **`optional`** **link\_from**: `string`
 
 referring page
 absolute URL of the page on which the link was found
 
 #### Implementation of
 
-[IRedirectLinkElementItem](../interfaces/IRedirectLinkElementItem.md).[link_from](../interfaces/IRedirectLinkElementItem.md#link_from)
+[`IRedirectLinkElementItem`](../interfaces/IRedirectLinkElementItem.md).[`link_from`](../interfaces/IRedirectLinkElementItem.md#link_from)
 
-#### Defined in
+#### Source
 
-main.ts:154301
+main.ts:154309
 
-___
+***
 
-### link\_to
+### link\_to?
 
-• `Optional` **link\_to**: `string`
+> **`optional`** **link\_to**: `string`
 
 referenced page
 absolute URL of the page to which the link is pointing
 
 #### Implementation of
 
-[IRedirectLinkElementItem](../interfaces/IRedirectLinkElementItem.md).[link_to](../interfaces/IRedirectLinkElementItem.md#link_to)
+[`IRedirectLinkElementItem`](../interfaces/IRedirectLinkElementItem.md).[`link_to`](../interfaces/IRedirectLinkElementItem.md#link_to)
 
-#### Defined in
+#### Source
 
-main.ts:154304
+main.ts:154312
 
-___
+***
 
-### page\_from
+### page\_from?
 
-• `Optional` **page\_from**: `string`
+> **`optional`** **page\_from**: `string`
 
 referring page
 relative URL of the page on which the link was found
 
 #### Implementation of
 
-[IRedirectLinkElementItem](../interfaces/IRedirectLinkElementItem.md).[page_from](../interfaces/IRedirectLinkElementItem.md#page_from)
+[`IRedirectLinkElementItem`](../interfaces/IRedirectLinkElementItem.md).[`page_from`](../interfaces/IRedirectLinkElementItem.md#page_from)
 
-#### Defined in
+#### Source
 
-main.ts:154295
+main.ts:154303
 
-___
+***
 
-### page\_from\_scheme
+### page\_from\_scheme?
 
-• `Optional` **page\_from\_scheme**: `string`
+> **`optional`** **page\_from\_scheme**: `string`
 
 url scheme of the referring page
 
 #### Implementation of
 
-[IRedirectLinkElementItem](../interfaces/IRedirectLinkElementItem.md).[page_from_scheme](../interfaces/IRedirectLinkElementItem.md#page_from_scheme)
+[`IRedirectLinkElementItem`](../interfaces/IRedirectLinkElementItem.md).[`page_from_scheme`](../interfaces/IRedirectLinkElementItem.md#page_from_scheme)
 
-#### Defined in
+#### Source
 
-main.ts:154309
+main.ts:154317
 
-___
+***
 
-### page\_to
+### page\_to?
 
-• `Optional` **page\_to**: `string`
+> **`optional`** **page\_to**: `string`
 
 referenced page
 relative URL of the page to which the link is pointing
 
 #### Implementation of
 
-[IRedirectLinkElementItem](../interfaces/IRedirectLinkElementItem.md).[page_to](../interfaces/IRedirectLinkElementItem.md#page_to)
+[`IRedirectLinkElementItem`](../interfaces/IRedirectLinkElementItem.md).[`page_to`](../interfaces/IRedirectLinkElementItem.md#page_to)
 
-#### Defined in
+#### Source
 
-main.ts:154298
+main.ts:154306
 
-___
+***
 
-### page\_to\_scheme
+### page\_to\_scheme?
 
-• `Optional` **page\_to\_scheme**: `string`
+> **`optional`** **page\_to\_scheme**: `string`
 
 url scheme of the referenced page
 
 #### Implementation of
 
-[IRedirectLinkElementItem](../interfaces/IRedirectLinkElementItem.md).[page_to_scheme](../interfaces/IRedirectLinkElementItem.md#page_to_scheme)
+[`IRedirectLinkElementItem`](../interfaces/IRedirectLinkElementItem.md).[`page_to_scheme`](../interfaces/IRedirectLinkElementItem.md#page_to_scheme)
 
-#### Defined in
+#### Source
 
-main.ts:154311
+main.ts:154319
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -302,23 +272,21 @@ main.ts:154311
 
 #### Overrides
 
-[BaseOnPageLinkItemInfo](BaseOnPageLinkItemInfo.md).[init](BaseOnPageLinkItemInfo.md#init)
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`init`](BaseOnPageLinkItemInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:154329
+main.ts:154337
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -326,23 +294,21 @@ ___
 
 #### Overrides
 
-[BaseOnPageLinkItemInfo](BaseOnPageLinkItemInfo.md).[toJSON](BaseOnPageLinkItemInfo.md#tojson)
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`toJSON`](BaseOnPageLinkItemInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:154358
+main.ts:154366
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`RedirectLinkElementItem`](RedirectLinkElementItem.md)
+> **`static`** **fromJS**(`data`): [`RedirectLinkElementItem`](RedirectLinkElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -350,8 +316,8 @@ ___
 
 #### Overrides
 
-[BaseOnPageLinkItemInfo](BaseOnPageLinkItemInfo.md).[fromJS](BaseOnPageLinkItemInfo.md#fromjs)
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`fromJS`](BaseOnPageLinkItemInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:154351
+main.ts:154359

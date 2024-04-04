@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentAnalysisLanguagesResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ContentAnalysisLanguagesResultInfo
 
 # Class: ContentAnalysisLanguagesResultInfo
 
@@ -8,133 +12,108 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ContentAnalysisLanguagesResultInfo.md#constructor)
-
-### Properties
-
-- [language\_code](ContentAnalysisLanguagesResultInfo.md#language_code)
-- [language\_name](ContentAnalysisLanguagesResultInfo.md#language_name)
-
-### Methods
-
-- [init](ContentAnalysisLanguagesResultInfo.md#init)
-- [toJSON](ContentAnalysisLanguagesResultInfo.md#tojson)
-- [fromJS](ContentAnalysisLanguagesResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ContentAnalysisLanguagesResultInfo(data)
 
-• **new ContentAnalysisLanguagesResultInfo**(`data?`): [`ContentAnalysisLanguagesResultInfo`](ContentAnalysisLanguagesResultInfo.md)
+> **new ContentAnalysisLanguagesResultInfo**(`data`?): [`ContentAnalysisLanguagesResultInfo`](ContentAnalysisLanguagesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IContentAnalysisLanguagesResultInfo`](../interfaces/IContentAnalysisLanguagesResultInfo.md) |
+• **data?**: [`IContentAnalysisLanguagesResultInfo`](../interfaces/IContentAnalysisLanguagesResultInfo.md)
 
 #### Returns
 
 [`ContentAnalysisLanguagesResultInfo`](ContentAnalysisLanguagesResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:161120
+main.ts:161128
 
 ## Properties
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code according to ISO 639-1
 
 #### Implementation of
 
-[IContentAnalysisLanguagesResultInfo](../interfaces/IContentAnalysisLanguagesResultInfo.md).[language_code](../interfaces/IContentAnalysisLanguagesResultInfo.md#language_code)
+[`IContentAnalysisLanguagesResultInfo`](../interfaces/IContentAnalysisLanguagesResultInfo.md).[`language_code`](../interfaces/IContentAnalysisLanguagesResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:161116
+main.ts:161124
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 language name
 
 #### Implementation of
 
-[IContentAnalysisLanguagesResultInfo](../interfaces/IContentAnalysisLanguagesResultInfo.md).[language_name](../interfaces/IContentAnalysisLanguagesResultInfo.md#language_name)
+[`IContentAnalysisLanguagesResultInfo`](../interfaces/IContentAnalysisLanguagesResultInfo.md).[`language_name`](../interfaces/IContentAnalysisLanguagesResultInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:161114
+main.ts:161122
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:161129
+main.ts:161137
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:161147
+main.ts:161155
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ContentAnalysisLanguagesResultInfo`](ContentAnalysisLanguagesResultInfo.md)
+> **`static`** **fromJS**(`data`): [`ContentAnalysisLanguagesResultInfo`](ContentAnalysisLanguagesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ContentAnalysisLanguagesResultInfo`](ContentAnalysisLanguagesResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:161140
+main.ts:161148

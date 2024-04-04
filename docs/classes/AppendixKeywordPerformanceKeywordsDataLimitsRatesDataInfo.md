@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo
 
 # Class: AppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo
 
@@ -8,144 +12,118 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo.md#constructor)
-
-### Properties
-
-- [locations\_and\_languages](AppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo.md#locations_and_languages)
-- [task\_get](AppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo.md#task_get)
-- [task\_post](AppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo.md#task_post)
-
-### Methods
-
-- [init](AppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo.md#init)
-- [toJSON](AppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo.md#tojson)
-- [fromJS](AppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo(data)
 
-• **new AppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo**(`data?`): [`AppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo`](AppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo.md)
+> **new AppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo**(`data`?): [`AppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo`](AppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo`](../interfaces/IAppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo.md) |
+• **data?**: [`IAppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo`](../interfaces/IAppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo.md)
 
 #### Returns
 
 [`AppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo`](AppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:212260
 
 ## Properties
 
-### locations\_and\_languages
+### locations\_and\_languages?
 
-• `Optional` **locations\_and\_languages**: `number`
+> **`optional`** **locations\_and\_languages**: `number`
 
 #### Implementation of
 
-[IAppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo](../interfaces/IAppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo.md).[locations_and_languages](../interfaces/IAppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo.md#locations_and_languages)
+[`IAppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo`](../interfaces/IAppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo.md).[`locations_and_languages`](../interfaces/IAppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo.md#locations_and_languages)
 
-#### Defined in
+#### Source
 
 main.ts:212256
 
-___
+***
 
-### task\_get
+### task\_get?
 
-• `Optional` **task\_get**: `number`
+> **`optional`** **task\_get**: `number`
 
 #### Implementation of
 
-[IAppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo](../interfaces/IAppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo.md).[task_get](../interfaces/IAppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo.md#task_get)
+[`IAppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo`](../interfaces/IAppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo.md).[`task_get`](../interfaces/IAppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo.md#task_get)
 
-#### Defined in
+#### Source
 
 main.ts:212254
 
-___
+***
 
-### task\_post
+### task\_post?
 
-• `Optional` **task\_post**: `number`
+> **`optional`** **task\_post**: `number`
 
 #### Implementation of
 
-[IAppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo](../interfaces/IAppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo.md).[task_post](../interfaces/IAppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo.md#task_post)
+[`IAppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo`](../interfaces/IAppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo.md).[`task_post`](../interfaces/IAppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo.md#task_post)
 
-#### Defined in
+#### Source
 
 main.ts:212255
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:212269
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:212288
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo`](AppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo.md)
+> **`static`** **fromJS**(`data`): [`AppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo`](AppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo`](AppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:212281

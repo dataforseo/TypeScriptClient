@@ -1,60 +1,51 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo
 
 # Interface: IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo
 
-## Implemented by
-
-- [`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](../classes/AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [categories](IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md#categories)
-- [categories\_aggregation](IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md#categories_aggregation)
-- [locations](IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md#locations)
-- [search](IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md#search)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### categories
+### categories?
 
-• `Optional` **categories**: `number`
+> **`optional`** **categories**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:213551
 
-___
+***
 
-### categories\_aggregation
+### categories\_aggregation?
 
-• `Optional` **categories\_aggregation**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **categories\_aggregation**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:213550
 
-___
+***
 
-### locations
+### locations?
 
-• `Optional` **locations**: `number`
+> **`optional`** **locations**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:213552
 
-___
+***
 
-### search
+### search?
 
-• `Optional` **search**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **search**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:213549

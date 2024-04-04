@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleMapsTasksReadyResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleMapsTasksReadyResponseInfo
 
 # Class: SerpGoogleMapsTasksReadyResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`SerpGoogleMapsTasksReadyResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleMapsTasksReadyResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](SerpGoogleMapsTasksReadyResponseInfo.md#cost)
-- [status\_code](SerpGoogleMapsTasksReadyResponseInfo.md#status_code)
-- [status\_message](SerpGoogleMapsTasksReadyResponseInfo.md#status_message)
-- [tasks](SerpGoogleMapsTasksReadyResponseInfo.md#tasks)
-- [tasks\_count](SerpGoogleMapsTasksReadyResponseInfo.md#tasks_count)
-- [tasks\_error](SerpGoogleMapsTasksReadyResponseInfo.md#tasks_error)
-- [time](SerpGoogleMapsTasksReadyResponseInfo.md#time)
-- [version](SerpGoogleMapsTasksReadyResponseInfo.md#version)
-
-### Methods
-
-- [init](SerpGoogleMapsTasksReadyResponseInfo.md#init)
-- [toJSON](SerpGoogleMapsTasksReadyResponseInfo.md#tojson)
-- [fromJS](SerpGoogleMapsTasksReadyResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleMapsTasksReadyResponseInfo(data)
 
-• **new SerpGoogleMapsTasksReadyResponseInfo**(`data?`): [`SerpGoogleMapsTasksReadyResponseInfo`](SerpGoogleMapsTasksReadyResponseInfo.md)
+> **new SerpGoogleMapsTasksReadyResponseInfo**(`data`?): [`SerpGoogleMapsTasksReadyResponseInfo`](SerpGoogleMapsTasksReadyResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleMapsTasksReadyResponseInfo`](../interfaces/ISerpGoogleMapsTasksReadyResponseInfo.md) |
+• **data?**: [`ISerpGoogleMapsTasksReadyResponseInfo`](../interfaces/ISerpGoogleMapsTasksReadyResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:38698
+main.ts:38704
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[ISerpGoogleMapsTasksReadyResponseInfo](../interfaces/ISerpGoogleMapsTasksReadyResponseInfo.md).[cost](../interfaces/ISerpGoogleMapsTasksReadyResponseInfo.md#cost)
+[`ISerpGoogleMapsTasksReadyResponseInfo`](../interfaces/ISerpGoogleMapsTasksReadyResponseInfo.md).[`cost`](../interfaces/ISerpGoogleMapsTasksReadyResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[ISerpGoogleMapsTasksReadyResponseInfo](../interfaces/ISerpGoogleMapsTasksReadyResponseInfo.md).[status_code](../interfaces/ISerpGoogleMapsTasksReadyResponseInfo.md#status_code)
+[`ISerpGoogleMapsTasksReadyResponseInfo`](../interfaces/ISerpGoogleMapsTasksReadyResponseInfo.md).[`status_code`](../interfaces/ISerpGoogleMapsTasksReadyResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[ISerpGoogleMapsTasksReadyResponseInfo](../interfaces/ISerpGoogleMapsTasksReadyResponseInfo.md).[status_message](../interfaces/ISerpGoogleMapsTasksReadyResponseInfo.md#status_message)
+[`ISerpGoogleMapsTasksReadyResponseInfo`](../interfaces/ISerpGoogleMapsTasksReadyResponseInfo.md).[`status_message`](../interfaces/ISerpGoogleMapsTasksReadyResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`SerpGoogleMapsTasksReadyTaskInfo`](SerpGoogleMapsTasksReadyTaskInfo.md)[]
+> **`optional`** **tasks**: [`SerpGoogleMapsTasksReadyTaskInfo`](SerpGoogleMapsTasksReadyTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[ISerpGoogleMapsTasksReadyResponseInfo](../interfaces/ISerpGoogleMapsTasksReadyResponseInfo.md).[tasks](../interfaces/ISerpGoogleMapsTasksReadyResponseInfo.md#tasks)
+[`ISerpGoogleMapsTasksReadyResponseInfo`](../interfaces/ISerpGoogleMapsTasksReadyResponseInfo.md).[`tasks`](../interfaces/ISerpGoogleMapsTasksReadyResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:38694
+main.ts:38700
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[ISerpGoogleMapsTasksReadyResponseInfo](../interfaces/ISerpGoogleMapsTasksReadyResponseInfo.md).[tasks_count](../interfaces/ISerpGoogleMapsTasksReadyResponseInfo.md#tasks_count)
+[`ISerpGoogleMapsTasksReadyResponseInfo`](../interfaces/ISerpGoogleMapsTasksReadyResponseInfo.md).[`tasks_count`](../interfaces/ISerpGoogleMapsTasksReadyResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[ISerpGoogleMapsTasksReadyResponseInfo](../interfaces/ISerpGoogleMapsTasksReadyResponseInfo.md).[tasks_error](../interfaces/ISerpGoogleMapsTasksReadyResponseInfo.md#tasks_error)
+[`ISerpGoogleMapsTasksReadyResponseInfo`](../interfaces/ISerpGoogleMapsTasksReadyResponseInfo.md).[`tasks_error`](../interfaces/ISerpGoogleMapsTasksReadyResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[ISerpGoogleMapsTasksReadyResponseInfo](../interfaces/ISerpGoogleMapsTasksReadyResponseInfo.md).[time](../interfaces/ISerpGoogleMapsTasksReadyResponseInfo.md#time)
+[`ISerpGoogleMapsTasksReadyResponseInfo`](../interfaces/ISerpGoogleMapsTasksReadyResponseInfo.md).[`time`](../interfaces/ISerpGoogleMapsTasksReadyResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[ISerpGoogleMapsTasksReadyResponseInfo](../interfaces/ISerpGoogleMapsTasksReadyResponseInfo.md).[version](../interfaces/ISerpGoogleMapsTasksReadyResponseInfo.md#version)
+[`ISerpGoogleMapsTasksReadyResponseInfo`](../interfaces/ISerpGoogleMapsTasksReadyResponseInfo.md).[`version`](../interfaces/ISerpGoogleMapsTasksReadyResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:38702
+main.ts:38708
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:38724
+main.ts:38730
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleMapsTasksReadyResponseInfo`](SerpGoogleMapsTasksReadyResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleMapsTasksReadyResponseInfo`](SerpGoogleMapsTasksReadyResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:38717
+main.ts:38723

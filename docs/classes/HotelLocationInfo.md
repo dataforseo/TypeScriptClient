@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / HotelLocationInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / HotelLocationInfo
 
 # Class: HotelLocationInfo
 
@@ -8,56 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](HotelLocationInfo.md#constructor)
-
-### Properties
-
-- [latitude](HotelLocationInfo.md#latitude)
-- [location\_chain](HotelLocationInfo.md#location_chain)
-- [longitude](HotelLocationInfo.md#longitude)
-- [maps\_url](HotelLocationInfo.md#maps_url)
-- [neighborhood](HotelLocationInfo.md#neighborhood)
-- [neighborhood\_description](HotelLocationInfo.md#neighborhood_description)
-- [overall\_score](HotelLocationInfo.md#overall_score)
-- [score\_by\_categories](HotelLocationInfo.md#score_by_categories)
-
-### Methods
-
-- [init](HotelLocationInfo.md#init)
-- [toJSON](HotelLocationInfo.md#tojson)
-- [fromJS](HotelLocationInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new HotelLocationInfo(data)
 
-• **new HotelLocationInfo**(`data?`): [`HotelLocationInfo`](HotelLocationInfo.md)
+> **new HotelLocationInfo**(`data`?): [`HotelLocationInfo`](HotelLocationInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IHotelLocationInfo`](../interfaces/IHotelLocationInfo.md) |
+• **data?**: [`IHotelLocationInfo`](../interfaces/IHotelLocationInfo.md)
 
 #### Returns
 
 [`HotelLocationInfo`](HotelLocationInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:201119
 
 ## Properties
 
-### latitude
+### latitude?
 
-• `Optional` **latitude**: `number`
+> **`optional`** **latitude**: `number`
 
 hotel latitude
 latitude coordinates of the hotel’s location
@@ -66,34 +45,34 @@ example:
 
 #### Implementation of
 
-[IHotelLocationInfo](../interfaces/IHotelLocationInfo.md).[latitude](../interfaces/IHotelLocationInfo.md#latitude)
+[`IHotelLocationInfo`](../interfaces/IHotelLocationInfo.md).[`latitude`](../interfaces/IHotelLocationInfo.md#latitude)
 
-#### Defined in
+#### Source
 
 main.ts:201107
 
-___
+***
 
-### location\_chain
+### location\_chain?
 
-• `Optional` **location\_chain**: [`LocationChain`](LocationChain.md)[]
+> **`optional`** **location\_chain**: [`LocationChain`](LocationChain.md)[]
 
 elements of the location chain
 additional parameters of each element of the location chain
 
 #### Implementation of
 
-[IHotelLocationInfo](../interfaces/IHotelLocationInfo.md).[location_chain](../interfaces/IHotelLocationInfo.md#location_chain)
+[`IHotelLocationInfo`](../interfaces/IHotelLocationInfo.md).[`location_chain`](../interfaces/IHotelLocationInfo.md#location_chain)
 
-#### Defined in
+#### Source
 
 main.ts:201115
 
-___
+***
 
-### longitude
+### longitude?
 
-• `Optional` **longitude**: `number`
+> **`optional`** **longitude**: `number`
 
 hotel longitude
 latitude coordinates of the hotel’s location
@@ -102,65 +81,65 @@ example:
 
 #### Implementation of
 
-[IHotelLocationInfo](../interfaces/IHotelLocationInfo.md).[longitude](../interfaces/IHotelLocationInfo.md#longitude)
+[`IHotelLocationInfo`](../interfaces/IHotelLocationInfo.md).[`longitude`](../interfaces/IHotelLocationInfo.md#longitude)
 
-#### Defined in
+#### Source
 
 main.ts:201112
 
-___
+***
 
-### maps\_url
+### maps\_url?
 
-• `Optional` **maps\_url**: `string`
+> **`optional`** **maps\_url**: `string`
 
 url to the location of the hotel in google maps
 
 #### Implementation of
 
-[IHotelLocationInfo](../interfaces/IHotelLocationInfo.md).[maps_url](../interfaces/IHotelLocationInfo.md#maps_url)
+[`IHotelLocationInfo`](../interfaces/IHotelLocationInfo.md).[`maps_url`](../interfaces/IHotelLocationInfo.md#maps_url)
 
-#### Defined in
+#### Source
 
 main.ts:201094
 
-___
+***
 
-### neighborhood
+### neighborhood?
 
-• `Optional` **neighborhood**: `string`
+> **`optional`** **neighborhood**: `string`
 
 name of the neighborhood where the hotel is located
 
 #### Implementation of
 
-[IHotelLocationInfo](../interfaces/IHotelLocationInfo.md).[neighborhood](../interfaces/IHotelLocationInfo.md#neighborhood)
+[`IHotelLocationInfo`](../interfaces/IHotelLocationInfo.md).[`neighborhood`](../interfaces/IHotelLocationInfo.md#neighborhood)
 
-#### Defined in
+#### Source
 
 main.ts:201090
 
-___
+***
 
-### neighborhood\_description
+### neighborhood\_description?
 
-• `Optional` **neighborhood\_description**: `string`
+> **`optional`** **neighborhood\_description**: `string`
 
 description of the neighborhood where the hotel is located
 
 #### Implementation of
 
-[IHotelLocationInfo](../interfaces/IHotelLocationInfo.md).[neighborhood_description](../interfaces/IHotelLocationInfo.md#neighborhood_description)
+[`IHotelLocationInfo`](../interfaces/IHotelLocationInfo.md).[`neighborhood_description`](../interfaces/IHotelLocationInfo.md#neighborhood_description)
 
-#### Defined in
+#### Source
 
 main.ts:201092
 
-___
+***
 
-### overall\_score
+### overall\_score?
 
-• `Optional` **overall\_score**: `number`
+> **`optional`** **overall\_score**: `number`
 
 overall score of the hotel location
 indicates the overall score of the hotel’s location in the range from 1 to 5;
@@ -169,89 +148,83 @@ note that the criteria are not weighted equally in the overall score
 
 #### Implementation of
 
-[IHotelLocationInfo](../interfaces/IHotelLocationInfo.md).[overall_score](../interfaces/IHotelLocationInfo.md#overall_score)
+[`IHotelLocationInfo`](../interfaces/IHotelLocationInfo.md).[`overall_score`](../interfaces/IHotelLocationInfo.md#overall_score)
 
-#### Defined in
+#### Source
 
 main.ts:201099
 
-___
+***
 
-### score\_by\_categories
+### score\_by\_categories?
 
-• `Optional` **score\_by\_categories**: `Object`
+> **`optional`** **score\_by\_categories**: `Object`
 
 category scores of the hotel location
 the scores of the hotel’s location tied to the categories that indicate the proximity to nearby things to do, restaurants, transportation, and airports;
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
 #### Implementation of
 
-[IHotelLocationInfo](../interfaces/IHotelLocationInfo.md).[score_by_categories](../interfaces/IHotelLocationInfo.md#score_by_categories)
+[`IHotelLocationInfo`](../interfaces/IHotelLocationInfo.md).[`score_by_categories`](../interfaces/IHotelLocationInfo.md#score_by_categories)
 
-#### Defined in
+#### Source
 
 main.ts:201102
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:201128
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:201162
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`HotelLocationInfo`](HotelLocationInfo.md)
+> **`static`** **fromJS**(`data`): [`HotelLocationInfo`](HotelLocationInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`HotelLocationInfo`](HotelLocationInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:201155

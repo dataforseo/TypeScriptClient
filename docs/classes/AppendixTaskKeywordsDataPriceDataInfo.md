@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixTaskKeywordsDataPriceDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppendixTaskKeywordsDataPriceDataInfo
 
 # Class: AppendixTaskKeywordsDataPriceDataInfo
 
@@ -8,144 +12,118 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixTaskKeywordsDataPriceDataInfo.md#constructor)
-
-### Properties
-
-- [priority\_high](AppendixTaskKeywordsDataPriceDataInfo.md#priority_high)
-- [priority\_low](AppendixTaskKeywordsDataPriceDataInfo.md#priority_low)
-- [priority\_normal](AppendixTaskKeywordsDataPriceDataInfo.md#priority_normal)
-
-### Methods
-
-- [init](AppendixTaskKeywordsDataPriceDataInfo.md#init)
-- [toJSON](AppendixTaskKeywordsDataPriceDataInfo.md#tojson)
-- [fromJS](AppendixTaskKeywordsDataPriceDataInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixTaskKeywordsDataPriceDataInfo(data)
 
-• **new AppendixTaskKeywordsDataPriceDataInfo**(`data?`): [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> **new AppendixTaskKeywordsDataPriceDataInfo**(`data`?): [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixTaskKeywordsDataPriceDataInfo`](../interfaces/IAppendixTaskKeywordsDataPriceDataInfo.md) |
+• **data?**: [`IAppendixTaskKeywordsDataPriceDataInfo`](../interfaces/IAppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Returns
 
 [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:215106
 
 ## Properties
 
-### priority\_high
+### priority\_high?
 
-• `Optional` **priority\_high**: [`AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](AppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md)[]
+> **`optional`** **priority\_high**: [`AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](AppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md)[]
 
 #### Implementation of
 
-[IAppendixTaskKeywordsDataPriceDataInfo](../interfaces/IAppendixTaskKeywordsDataPriceDataInfo.md).[priority_high](../interfaces/IAppendixTaskKeywordsDataPriceDataInfo.md#priority_high)
+[`IAppendixTaskKeywordsDataPriceDataInfo`](../interfaces/IAppendixTaskKeywordsDataPriceDataInfo.md).[`priority_high`](../interfaces/IAppendixTaskKeywordsDataPriceDataInfo.md#priority_high)
 
-#### Defined in
+#### Source
 
 main.ts:215102
 
-___
+***
 
-### priority\_low
+### priority\_low?
 
-• `Optional` **priority\_low**: [`AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](AppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md)[]
+> **`optional`** **priority\_low**: [`AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](AppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md)[]
 
 #### Implementation of
 
-[IAppendixTaskKeywordsDataPriceDataInfo](../interfaces/IAppendixTaskKeywordsDataPriceDataInfo.md).[priority_low](../interfaces/IAppendixTaskKeywordsDataPriceDataInfo.md#priority_low)
+[`IAppendixTaskKeywordsDataPriceDataInfo`](../interfaces/IAppendixTaskKeywordsDataPriceDataInfo.md).[`priority_low`](../interfaces/IAppendixTaskKeywordsDataPriceDataInfo.md#priority_low)
 
-#### Defined in
+#### Source
 
 main.ts:215100
 
-___
+***
 
-### priority\_normal
+### priority\_normal?
 
-• `Optional` **priority\_normal**: [`AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](AppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md)[]
+> **`optional`** **priority\_normal**: [`AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](AppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md)[]
 
 #### Implementation of
 
-[IAppendixTaskKeywordsDataPriceDataInfo](../interfaces/IAppendixTaskKeywordsDataPriceDataInfo.md).[priority_normal](../interfaces/IAppendixTaskKeywordsDataPriceDataInfo.md#priority_normal)
+[`IAppendixTaskKeywordsDataPriceDataInfo`](../interfaces/IAppendixTaskKeywordsDataPriceDataInfo.md).[`priority_normal`](../interfaces/IAppendixTaskKeywordsDataPriceDataInfo.md#priority_normal)
 
-#### Defined in
+#### Source
 
 main.ts:215101
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:215115
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:215146
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`static`** **fromJS**(`data`): [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:215139

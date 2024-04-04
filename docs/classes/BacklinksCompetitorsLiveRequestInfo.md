@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksCompetitorsLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BacklinksCompetitorsLiveRequestInfo
 
 # Class: BacklinksCompetitorsLiveRequestInfo
 
@@ -8,56 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BacklinksCompetitorsLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [exclude\_large\_domains](BacklinksCompetitorsLiveRequestInfo.md#exclude_large_domains)
-- [filters](BacklinksCompetitorsLiveRequestInfo.md#filters)
-- [limit](BacklinksCompetitorsLiveRequestInfo.md#limit)
-- [main\_domain](BacklinksCompetitorsLiveRequestInfo.md#main_domain)
-- [offset](BacklinksCompetitorsLiveRequestInfo.md#offset)
-- [order\_by](BacklinksCompetitorsLiveRequestInfo.md#order_by)
-- [tag](BacklinksCompetitorsLiveRequestInfo.md#tag)
-- [target](BacklinksCompetitorsLiveRequestInfo.md#target)
-
-### Methods
-
-- [init](BacklinksCompetitorsLiveRequestInfo.md#init)
-- [toJSON](BacklinksCompetitorsLiveRequestInfo.md#tojson)
-- [fromJS](BacklinksCompetitorsLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BacklinksCompetitorsLiveRequestInfo(data)
 
-• **new BacklinksCompetitorsLiveRequestInfo**(`data?`): [`BacklinksCompetitorsLiveRequestInfo`](BacklinksCompetitorsLiveRequestInfo.md)
+> **new BacklinksCompetitorsLiveRequestInfo**(`data`?): [`BacklinksCompetitorsLiveRequestInfo`](BacklinksCompetitorsLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBacklinksCompetitorsLiveRequestInfo`](../interfaces/IBacklinksCompetitorsLiveRequestInfo.md) |
+• **data?**: [`IBacklinksCompetitorsLiveRequestInfo`](../interfaces/IBacklinksCompetitorsLiveRequestInfo.md)
 
 #### Returns
 
 [`BacklinksCompetitorsLiveRequestInfo`](BacklinksCompetitorsLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:141403
+main.ts:141411
 
 ## Properties
 
-### exclude\_large\_domains
+### exclude\_large\_domains?
 
-• `Optional` **exclude\_large\_domains**: `boolean`
+> **`optional`** **exclude\_large\_domains**: `boolean`
 
 indicates whether large domain will appear in results
 optional field
@@ -66,27 +45,27 @@ default value: true
 
 #### Implementation of
 
-[IBacklinksCompetitorsLiveRequestInfo](../interfaces/IBacklinksCompetitorsLiveRequestInfo.md).[exclude_large_domains](../interfaces/IBacklinksCompetitorsLiveRequestInfo.md#exclude_large_domains)
+[`IBacklinksCompetitorsLiveRequestInfo`](../interfaces/IBacklinksCompetitorsLiveRequestInfo.md).[`exclude_large_domains`](../interfaces/IBacklinksCompetitorsLiveRequestInfo.md#exclude_large_domains)
 
-#### Defined in
+#### Source
 
-main.ts:141393
+main.ts:141401
 
-___
+***
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, =, <>, in, not_in, like, not_like, ilike, not_ilike
+regex, =, `<>`, in, not_in, like, not_like, ilike, not_ilike
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
-["rank",">","100"]
+["rank",">`","100"]
 [["target","like","%forbes%"],
 "and",
 [["rank",">","100"],"or",["intersections",">","5"]]]
@@ -94,17 +73,17 @@ The full list of possible filters is available here.
 
 #### Implementation of
 
-[IBacklinksCompetitorsLiveRequestInfo](../interfaces/IBacklinksCompetitorsLiveRequestInfo.md).[filters](../interfaces/IBacklinksCompetitorsLiveRequestInfo.md#filters)
+[`IBacklinksCompetitorsLiveRequestInfo`](../interfaces/IBacklinksCompetitorsLiveRequestInfo.md).[`filters`](../interfaces/IBacklinksCompetitorsLiveRequestInfo.md#filters)
 
-#### Defined in
+#### Source
 
-main.ts:141369
+main.ts:141377
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned domains
 optional field
@@ -113,17 +92,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IBacklinksCompetitorsLiveRequestInfo](../interfaces/IBacklinksCompetitorsLiveRequestInfo.md).[limit](../interfaces/IBacklinksCompetitorsLiveRequestInfo.md#limit)
+[`IBacklinksCompetitorsLiveRequestInfo`](../interfaces/IBacklinksCompetitorsLiveRequestInfo.md).[`limit`](../interfaces/IBacklinksCompetitorsLiveRequestInfo.md#limit)
 
-#### Defined in
+#### Source
 
-main.ts:141350
+main.ts:141358
 
-___
+***
 
-### main\_domain
+### main\_domain?
 
-• `Optional` **main\_domain**: `boolean`
+> **`optional`** **main\_domain**: `boolean`
 
 indicates if only main domain of the target will be included in the search
 optional field
@@ -132,17 +111,17 @@ default value: true
 
 #### Implementation of
 
-[IBacklinksCompetitorsLiveRequestInfo](../interfaces/IBacklinksCompetitorsLiveRequestInfo.md).[main_domain](../interfaces/IBacklinksCompetitorsLiveRequestInfo.md#main_domain)
+[`IBacklinksCompetitorsLiveRequestInfo`](../interfaces/IBacklinksCompetitorsLiveRequestInfo.md).[`main_domain`](../interfaces/IBacklinksCompetitorsLiveRequestInfo.md#main_domain)
 
-#### Defined in
+#### Source
 
-main.ts:141388
+main.ts:141396
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned domains
 optional field
@@ -151,17 +130,17 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 #### Implementation of
 
-[IBacklinksCompetitorsLiveRequestInfo](../interfaces/IBacklinksCompetitorsLiveRequestInfo.md).[offset](../interfaces/IBacklinksCompetitorsLiveRequestInfo.md#offset)
+[`IBacklinksCompetitorsLiveRequestInfo`](../interfaces/IBacklinksCompetitorsLiveRequestInfo.md).[`offset`](../interfaces/IBacklinksCompetitorsLiveRequestInfo.md#offset)
 
-#### Defined in
+#### Source
 
-main.ts:141355
+main.ts:141363
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -179,17 +158,17 @@ example:
 
 #### Implementation of
 
-[IBacklinksCompetitorsLiveRequestInfo](../interfaces/IBacklinksCompetitorsLiveRequestInfo.md).[order_by](../interfaces/IBacklinksCompetitorsLiveRequestInfo.md#order_by)
+[`IBacklinksCompetitorsLiveRequestInfo`](../interfaces/IBacklinksCompetitorsLiveRequestInfo.md).[`order_by`](../interfaces/IBacklinksCompetitorsLiveRequestInfo.md#order_by)
 
-#### Defined in
+#### Source
 
-main.ts:141383
+main.ts:141391
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -199,17 +178,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IBacklinksCompetitorsLiveRequestInfo](../interfaces/IBacklinksCompetitorsLiveRequestInfo.md).[tag](../interfaces/IBacklinksCompetitorsLiveRequestInfo.md#tag)
+[`IBacklinksCompetitorsLiveRequestInfo`](../interfaces/IBacklinksCompetitorsLiveRequestInfo.md).[`tag`](../interfaces/IBacklinksCompetitorsLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:141399
+main.ts:141407
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 domain, subdomain or webpage to get competitor domains for
 required field
@@ -218,68 +197,62 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Implementation of
 
-[IBacklinksCompetitorsLiveRequestInfo](../interfaces/IBacklinksCompetitorsLiveRequestInfo.md).[target](../interfaces/IBacklinksCompetitorsLiveRequestInfo.md#target)
+[`IBacklinksCompetitorsLiveRequestInfo`](../interfaces/IBacklinksCompetitorsLiveRequestInfo.md).[`target`](../interfaces/IBacklinksCompetitorsLiveRequestInfo.md#target)
 
-#### Defined in
+#### Source
 
-main.ts:141345
+main.ts:141353
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:141412
+main.ts:141420
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:141444
+main.ts:141452
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BacklinksCompetitorsLiveRequestInfo`](BacklinksCompetitorsLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`BacklinksCompetitorsLiveRequestInfo`](BacklinksCompetitorsLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BacklinksCompetitorsLiveRequestInfo`](BacklinksCompetitorsLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:141437
+main.ts:141445

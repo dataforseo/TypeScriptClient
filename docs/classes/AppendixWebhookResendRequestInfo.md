@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixWebhookResendRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppendixWebhookResendRequestInfo
 
 # Class: AppendixWebhookResendRequestInfo
 
@@ -8,49 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixWebhookResendRequestInfo.md#constructor)
-
-### Properties
-
-- [id](AppendixWebhookResendRequestInfo.md#id)
-
-### Methods
-
-- [init](AppendixWebhookResendRequestInfo.md#init)
-- [toJSON](AppendixWebhookResendRequestInfo.md#tojson)
-- [fromJS](AppendixWebhookResendRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixWebhookResendRequestInfo(data)
 
-• **new AppendixWebhookResendRequestInfo**(`data?`): [`AppendixWebhookResendRequestInfo`](AppendixWebhookResendRequestInfo.md)
+> **new AppendixWebhookResendRequestInfo**(`data`?): [`AppendixWebhookResendRequestInfo`](AppendixWebhookResendRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixWebhookResendRequestInfo`](../interfaces/IAppendixWebhookResendRequestInfo.md) |
+• **data?**: [`IAppendixWebhookResendRequestInfo`](../interfaces/IAppendixWebhookResendRequestInfo.md)
 
 #### Returns
 
 [`AppendixWebhookResendRequestInfo`](AppendixWebhookResendRequestInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:218176
 
 ## Properties
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -59,68 +45,62 @@ each identifier in the task array must be specified as a separate object
 
 #### Implementation of
 
-[IAppendixWebhookResendRequestInfo](../interfaces/IAppendixWebhookResendRequestInfo.md).[id](../interfaces/IAppendixWebhookResendRequestInfo.md#id)
+[`IAppendixWebhookResendRequestInfo`](../interfaces/IAppendixWebhookResendRequestInfo.md).[`id`](../interfaces/IAppendixWebhookResendRequestInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:218172
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:218185
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:218202
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppendixWebhookResendRequestInfo`](AppendixWebhookResendRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`AppendixWebhookResendRequestInfo`](AppendixWebhookResendRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppendixWebhookResendRequestInfo`](AppendixWebhookResendRequestInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:218195

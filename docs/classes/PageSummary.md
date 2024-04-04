@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / PageSummary
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / PageSummary
 
 # Class: PageSummary
 
@@ -8,136 +12,98 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](PageSummary.md#constructor)
-
-### Properties
-
-- [backlinks](PageSummary.md#backlinks)
-- [backlinks\_spam\_score](PageSummary.md#backlinks_spam_score)
-- [broken\_backlinks](PageSummary.md#broken_backlinks)
-- [broken\_pages](PageSummary.md#broken_pages)
-- [first\_seen](PageSummary.md#first_seen)
-- [lost\_date](PageSummary.md#lost_date)
-- [rank](PageSummary.md#rank)
-- [referring\_domains](PageSummary.md#referring_domains)
-- [referring\_domains\_nofollow](PageSummary.md#referring_domains_nofollow)
-- [referring\_ips](PageSummary.md#referring_ips)
-- [referring\_links\_attributes](PageSummary.md#referring_links_attributes)
-- [referring\_links\_countries](PageSummary.md#referring_links_countries)
-- [referring\_links\_platform\_types](PageSummary.md#referring_links_platform_types)
-- [referring\_links\_semantic\_locations](PageSummary.md#referring_links_semantic_locations)
-- [referring\_links\_tld](PageSummary.md#referring_links_tld)
-- [referring\_links\_types](PageSummary.md#referring_links_types)
-- [referring\_main\_domains](PageSummary.md#referring_main_domains)
-- [referring\_main\_domains\_nofollow](PageSummary.md#referring_main_domains_nofollow)
-- [referring\_pages](PageSummary.md#referring_pages)
-- [referring\_pages\_nofollow](PageSummary.md#referring_pages_nofollow)
-- [referring\_subnets](PageSummary.md#referring_subnets)
-
-### Methods
-
-- [init](PageSummary.md#init)
-- [toJSON](PageSummary.md#tojson)
-- [fromJS](PageSummary.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new PageSummary(data)
 
-• **new PageSummary**(`data?`): [`PageSummary`](PageSummary.md)
+> **new PageSummary**(`data`?): [`PageSummary`](PageSummary.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IPageSummary`](../interfaces/IPageSummary.md) |
+• **data?**: [`IPageSummary`](../interfaces/IPageSummary.md)
 
 #### Returns
 
 [`PageSummary`](PageSummary.md)
 
-#### Defined in
+#### Source
 
-main.ts:138413
+main.ts:138421
 
 ## Properties
 
-### backlinks
+### backlinks?
 
-• `Optional` **backlinks**: `number`
+> **`optional`** **backlinks**: `number`
 
 indicates the number of backlinks
 
 #### Implementation of
 
-[IPageSummary](../interfaces/IPageSummary.md).[backlinks](../interfaces/IPageSummary.md#backlinks)
+[`IPageSummary`](../interfaces/IPageSummary.md).[`backlinks`](../interfaces/IPageSummary.md#backlinks)
 
-#### Defined in
+#### Source
 
-main.ts:138360
+main.ts:138368
 
-___
+***
 
-### backlinks\_spam\_score
+### backlinks\_spam\_score?
 
-• `Optional` **backlinks\_spam\_score**: `number`
+> **`optional`** **backlinks\_spam\_score**: `number`
 
 average spam score of the backlinks pointing to the page
 learn more about how the metric is calculated on this help center page
 
 #### Implementation of
 
-[IPageSummary](../interfaces/IPageSummary.md).[backlinks_spam_score](../interfaces/IPageSummary.md#backlinks_spam_score)
+[`IPageSummary`](../interfaces/IPageSummary.md).[`backlinks_spam_score`](../interfaces/IPageSummary.md#backlinks_spam_score)
 
-#### Defined in
+#### Source
 
-main.ts:138363
+main.ts:138371
 
-___
+***
 
-### broken\_backlinks
+### broken\_backlinks?
 
-• `Optional` **broken\_backlinks**: `number`
+> **`optional`** **broken\_backlinks**: `number`
 
 number of broken backlinks
 number of broken backlinks pointing to the target
 
 #### Implementation of
 
-[IPageSummary](../interfaces/IPageSummary.md).[broken_backlinks](../interfaces/IPageSummary.md#broken_backlinks)
+[`IPageSummary`](../interfaces/IPageSummary.md).[`broken_backlinks`](../interfaces/IPageSummary.md#broken_backlinks)
 
-#### Defined in
+#### Source
 
-main.ts:138366
+main.ts:138374
 
-___
+***
 
-### broken\_pages
+### broken\_pages?
 
-• `Optional` **broken\_pages**: `number`
+> **`optional`** **broken\_pages**: `number`
 
 number of broken pages
 number of pages that respond with 4xx or 5xx status codes where backlinks are pointing to
 
 #### Implementation of
 
-[IPageSummary](../interfaces/IPageSummary.md).[broken_pages](../interfaces/IPageSummary.md#broken_pages)
+[`IPageSummary`](../interfaces/IPageSummary.md).[`broken_pages`](../interfaces/IPageSummary.md#broken_pages)
 
-#### Defined in
+#### Source
 
-main.ts:138369
+main.ts:138377
 
-___
+***
 
-### first\_seen
+### first\_seen?
 
-• `Optional` **first\_seen**: `string`
+> **`optional`** **first\_seen**: `string`
 
 date and time when our crawler found the backlink for the first time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -146,17 +112,17 @@ example:
 
 #### Implementation of
 
-[IPageSummary](../interfaces/IPageSummary.md).[first_seen](../interfaces/IPageSummary.md#first_seen)
+[`IPageSummary`](../interfaces/IPageSummary.md).[`first_seen`](../interfaces/IPageSummary.md#first_seen)
 
-#### Defined in
+#### Source
 
-main.ts:138347
+main.ts:138355
 
-___
+***
 
-### lost\_date
+### lost\_date?
 
-• `Optional` **lost\_date**: `string`
+> **`optional`** **lost\_date**: `string`
 
 date and time when the last backlink for this page was lost
 indicates the date and time when our crawler visited the page and it responded with 4xx or 5xx status code or the last backlink was removed
@@ -166,17 +132,17 @@ example:
 
 #### Implementation of
 
-[IPageSummary](../interfaces/IPageSummary.md).[lost_date](../interfaces/IPageSummary.md#lost_date)
+[`IPageSummary`](../interfaces/IPageSummary.md).[`lost_date`](../interfaces/IPageSummary.md#lost_date)
 
-#### Defined in
+#### Source
 
-main.ts:138353
+main.ts:138361
 
-___
+***
 
-### rank
+### rank?
 
-• `Optional` **rank**: `number`
+> **`optional`** **rank**: `number`
 
 page rank
 rank of the page on the target website
@@ -185,129 +151,129 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Implementation of
 
-[IPageSummary](../interfaces/IPageSummary.md).[rank](../interfaces/IPageSummary.md#rank)
+[`IPageSummary`](../interfaces/IPageSummary.md).[`rank`](../interfaces/IPageSummary.md#rank)
 
-#### Defined in
+#### Source
 
-main.ts:138358
+main.ts:138366
 
-___
+***
 
-### referring\_domains
+### referring\_domains?
 
-• `Optional` **referring\_domains**: `number`
+> **`optional`** **referring\_domains**: `number`
 
 indicates the number of referring domains
 
 #### Implementation of
 
-[IPageSummary](../interfaces/IPageSummary.md).[referring_domains](../interfaces/IPageSummary.md#referring_domains)
+[`IPageSummary`](../interfaces/IPageSummary.md).[`referring_domains`](../interfaces/IPageSummary.md#referring_domains)
 
-#### Defined in
+#### Source
 
-main.ts:138371
+main.ts:138379
 
-___
+***
 
-### referring\_domains\_nofollow
+### referring\_domains\_nofollow?
 
-• `Optional` **referring\_domains\_nofollow**: `number`
+> **`optional`** **referring\_domains\_nofollow**: `number`
 
 number of domains pointing at least one nofollow link to the target
 
 #### Implementation of
 
-[IPageSummary](../interfaces/IPageSummary.md).[referring_domains_nofollow](../interfaces/IPageSummary.md#referring_domains_nofollow)
+[`IPageSummary`](../interfaces/IPageSummary.md).[`referring_domains_nofollow`](../interfaces/IPageSummary.md#referring_domains_nofollow)
 
-#### Defined in
+#### Source
 
-main.ts:138373
+main.ts:138381
 
-___
+***
 
-### referring\_ips
+### referring\_ips?
 
-• `Optional` **referring\_ips**: `number`
+> **`optional`** **referring\_ips**: `number`
 
 number of referring IP addresses
 number of IP addresses pointing to this page
 
 #### Implementation of
 
-[IPageSummary](../interfaces/IPageSummary.md).[referring_ips](../interfaces/IPageSummary.md#referring_ips)
+[`IPageSummary`](../interfaces/IPageSummary.md).[`referring_ips`](../interfaces/IPageSummary.md#referring_ips)
 
-#### Defined in
+#### Source
 
-main.ts:138380
+main.ts:138388
 
-___
+***
 
-### referring\_links\_attributes
+### referring\_links\_attributes?
 
-• `Optional` **referring\_links\_attributes**: `Object`
+> **`optional`** **referring\_links\_attributes**: `Object`
 
 link attributes of the referring links
 indicates link attributes of the referring links and link count per each attribute
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
 #### Implementation of
 
-[IPageSummary](../interfaces/IPageSummary.md).[referring_links_attributes](../interfaces/IPageSummary.md#referring_links_attributes)
+[`IPageSummary`](../interfaces/IPageSummary.md).[`referring_links_attributes`](../interfaces/IPageSummary.md#referring_links_attributes)
 
-#### Defined in
+#### Source
 
-main.ts:138397
+main.ts:138405
 
-___
+***
 
-### referring\_links\_countries
+### referring\_links\_countries?
 
-• `Optional` **referring\_links\_countries**: `Object`
+> **`optional`** **referring\_links\_countries**: `Object`
 
 ISO country codes of the referring links
 indicates ISO country codes of the domains where the referring links are located and the link count per each country
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
 #### Implementation of
 
-[IPageSummary](../interfaces/IPageSummary.md).[referring_links_countries](../interfaces/IPageSummary.md#referring_links_countries)
+[`IPageSummary`](../interfaces/IPageSummary.md).[`referring_links_countries`](../interfaces/IPageSummary.md#referring_links_countries)
 
-#### Defined in
+#### Source
 
-main.ts:138409
+main.ts:138417
 
-___
+***
 
-### referring\_links\_platform\_types
+### referring\_links\_platform\_types?
 
-• `Optional` **referring\_links\_platform\_types**: `Object`
+> **`optional`** **referring\_links\_platform\_types**: `Object`
 
 types of referring platforms
 indicates referring platform types and and link count per each platform
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
 #### Implementation of
 
-[IPageSummary](../interfaces/IPageSummary.md).[referring_links_platform_types](../interfaces/IPageSummary.md#referring_links_platform_types)
+[`IPageSummary`](../interfaces/IPageSummary.md).[`referring_links_platform_types`](../interfaces/IPageSummary.md#referring_links_platform_types)
 
-#### Defined in
+#### Source
 
-main.ts:138400
+main.ts:138408
 
-___
+***
 
-### referring\_links\_semantic\_locations
+### referring\_links\_semantic\_locations?
 
-• `Optional` **referring\_links\_semantic\_locations**: `Object`
+> **`optional`** **referring\_links\_semantic\_locations**: `Object`
 
 semantic locations of the referring links
 indicates semantic elements in HTML where the referring links are located and link count per each semantic location
@@ -317,42 +283,42 @@ article, section, summary
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
 #### Implementation of
 
-[IPageSummary](../interfaces/IPageSummary.md).[referring_links_semantic_locations](../interfaces/IPageSummary.md#referring_links_semantic_locations)
+[`IPageSummary`](../interfaces/IPageSummary.md).[`referring_links_semantic_locations`](../interfaces/IPageSummary.md#referring_links_semantic_locations)
 
-#### Defined in
+#### Source
 
-main.ts:138406
+main.ts:138414
 
-___
+***
 
-### referring\_links\_tld
+### referring\_links\_tld?
 
-• `Optional` **referring\_links\_tld**: `Object`
+> **`optional`** **referring\_links\_tld**: `Object`
 
 top-level domains of the referring links
 contains top level domains and referring link count per each
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
 #### Implementation of
 
-[IPageSummary](../interfaces/IPageSummary.md).[referring_links_tld](../interfaces/IPageSummary.md#referring_links_tld)
+[`IPageSummary`](../interfaces/IPageSummary.md).[`referring_links_tld`](../interfaces/IPageSummary.md#referring_links_tld)
 
-#### Defined in
+#### Source
 
-main.ts:138389
+main.ts:138397
 
-___
+***
 
-### referring\_links\_types
+### referring\_links\_types?
 
-• `Optional` **referring\_links\_types**: `Object`
+> **`optional`** **referring\_links\_types**: `Object`
 
 types of referring links
 indicates the types of the referring links and link count per each type
@@ -361,152 +327,146 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
 #### Implementation of
 
-[IPageSummary](../interfaces/IPageSummary.md).[referring_links_types](../interfaces/IPageSummary.md#referring_links_types)
+[`IPageSummary`](../interfaces/IPageSummary.md).[`referring_links_types`](../interfaces/IPageSummary.md#referring_links_types)
 
-#### Defined in
+#### Source
 
-main.ts:138394
+main.ts:138402
 
-___
+***
 
-### referring\_main\_domains
+### referring\_main\_domains?
 
-• `Optional` **referring\_main\_domains**: `number`
+> **`optional`** **referring\_main\_domains**: `number`
 
 indicates the number of referring main domains
 
 #### Implementation of
 
-[IPageSummary](../interfaces/IPageSummary.md).[referring_main_domains](../interfaces/IPageSummary.md#referring_main_domains)
+[`IPageSummary`](../interfaces/IPageSummary.md).[`referring_main_domains`](../interfaces/IPageSummary.md#referring_main_domains)
 
-#### Defined in
+#### Source
 
-main.ts:138375
+main.ts:138383
 
-___
+***
 
-### referring\_main\_domains\_nofollow
+### referring\_main\_domains\_nofollow?
 
-• `Optional` **referring\_main\_domains\_nofollow**: `number`
+> **`optional`** **referring\_main\_domains\_nofollow**: `number`
 
 number of main domains pointing at least one nofollow link to the target
 
 #### Implementation of
 
-[IPageSummary](../interfaces/IPageSummary.md).[referring_main_domains_nofollow](../interfaces/IPageSummary.md#referring_main_domains_nofollow)
+[`IPageSummary`](../interfaces/IPageSummary.md).[`referring_main_domains_nofollow`](../interfaces/IPageSummary.md#referring_main_domains_nofollow)
 
-#### Defined in
+#### Source
 
-main.ts:138377
+main.ts:138385
 
-___
+***
 
-### referring\_pages
+### referring\_pages?
 
-• `Optional` **referring\_pages**: `number`
+> **`optional`** **referring\_pages**: `number`
 
 indicates the number of pages pointing to the target
 
 #### Implementation of
 
-[IPageSummary](../interfaces/IPageSummary.md).[referring_pages](../interfaces/IPageSummary.md#referring_pages)
+[`IPageSummary`](../interfaces/IPageSummary.md).[`referring_pages`](../interfaces/IPageSummary.md#referring_pages)
 
-#### Defined in
+#### Source
 
-main.ts:138384
+main.ts:138392
 
-___
+***
 
-### referring\_pages\_nofollow
+### referring\_pages\_nofollow?
 
-• `Optional` **referring\_pages\_nofollow**: `number`
+> **`optional`** **referring\_pages\_nofollow**: `number`
 
 number of referring pages pointing at least one nofollow link to the target
 
 #### Implementation of
 
-[IPageSummary](../interfaces/IPageSummary.md).[referring_pages_nofollow](../interfaces/IPageSummary.md#referring_pages_nofollow)
+[`IPageSummary`](../interfaces/IPageSummary.md).[`referring_pages_nofollow`](../interfaces/IPageSummary.md#referring_pages_nofollow)
 
-#### Defined in
+#### Source
 
-main.ts:138386
+main.ts:138394
 
-___
+***
 
-### referring\_subnets
+### referring\_subnets?
 
-• `Optional` **referring\_subnets**: `number`
+> **`optional`** **referring\_subnets**: `number`
 
 number of referring subnetworks
 
 #### Implementation of
 
-[IPageSummary](../interfaces/IPageSummary.md).[referring_subnets](../interfaces/IPageSummary.md#referring_subnets)
+[`IPageSummary`](../interfaces/IPageSummary.md).[`referring_subnets`](../interfaces/IPageSummary.md#referring_subnets)
 
-#### Defined in
+#### Source
 
-main.ts:138382
+main.ts:138390
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:138422
+main.ts:138430
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:138495
+main.ts:138503
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`PageSummary`](PageSummary.md)
+> **`static`** **fromJS**(`data`): [`PageSummary`](PageSummary.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`PageSummary`](PageSummary.md)
 
-#### Defined in
+#### Source
 
-main.ts:138488
+main.ts:138496

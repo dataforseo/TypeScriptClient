@@ -1,31 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageDuplicateContentRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IOnPageDuplicateContentRequestInfo
 
 # Interface: IOnPageDuplicateContentRequestInfo
 
-## Implemented by
-
-- [`OnPageDuplicateContentRequestInfo`](../classes/OnPageDuplicateContentRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [id](IOnPageDuplicateContentRequestInfo.md#id)
-- [limit](IOnPageDuplicateContentRequestInfo.md#limit)
-- [offset](IOnPageDuplicateContentRequestInfo.md#offset)
-- [similarity](IOnPageDuplicateContentRequestInfo.md#similarity)
-- [tag](IOnPageDuplicateContentRequestInfo.md#tag)
-- [url](IOnPageDuplicateContentRequestInfo.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 ID of the task
 required field
@@ -33,59 +22,59 @@ you can get this ID in the response of the Task POST endpoint
 example:
 “07131248-1535-0216-1000-17384017ad04”
 
-#### Defined in
+#### Source
 
-main.ts:152943
+main.ts:152951
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned pages
 optional field
 default value: 100
 maximum value: 1000
 
-#### Defined in
+#### Source
 
-main.ts:152956
+main.ts:152964
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned pages
 optional field
 default value: 0
 if you specify the 10 value, the first ten pages in the results array will be omitted and the data will be provided for the successive pages
 
-#### Defined in
+#### Source
 
-main.ts:152961
+main.ts:152969
 
-___
+***
 
-### similarity
+### similarity?
 
-• `Optional` **similarity**: `number`
+> **`optional`** **similarity**: `number`
 
 content similarity score
 by default, the content is considered duplicate if the value is greater than or equals 6
 you can specify any similarity score in the 0-to-10 range
 
-#### Defined in
+#### Source
 
-main.ts:152951
+main.ts:152959
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -93,20 +82,20 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:152967
+main.ts:152975
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 page URL
 required field
 specify the initial page you want to receive duplicate content for
 
-#### Defined in
+#### Source
 
-main.ts:152947
+main.ts:152955

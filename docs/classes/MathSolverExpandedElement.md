@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MathSolverExpandedElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / MathSolverExpandedElement
 
 # Class: MathSolverExpandedElement
 
@@ -8,151 +12,125 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](MathSolverExpandedElement.md#constructor)
-
-### Properties
-
-- [solution](MathSolverExpandedElement.md#solution)
-- [title](MathSolverExpandedElement.md#title)
-- [type](MathSolverExpandedElement.md#type)
-
-### Methods
-
-- [init](MathSolverExpandedElement.md#init)
-- [toJSON](MathSolverExpandedElement.md#tojson)
-- [fromJS](MathSolverExpandedElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new MathSolverExpandedElement(data)
 
-• **new MathSolverExpandedElement**(`data?`): [`MathSolverExpandedElement`](MathSolverExpandedElement.md)
+> **new MathSolverExpandedElement**(`data`?): [`MathSolverExpandedElement`](MathSolverExpandedElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IMathSolverExpandedElement`](../interfaces/IMathSolverExpandedElement.md) |
+• **data?**: [`IMathSolverExpandedElement`](../interfaces/IMathSolverExpandedElement.md)
 
 #### Returns
 
 [`MathSolverExpandedElement`](MathSolverExpandedElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:34828
+main.ts:34834
 
 ## Properties
 
-### solution
+### solution?
 
-• `Optional` **solution**: `string`[]
+> **`optional`** **solution**: `string`[]
 
 solution of the element
 displays steps to solve the mathematical equation as specified in the element
 
 #### Implementation of
 
-[IMathSolverExpandedElement](../interfaces/IMathSolverExpandedElement.md).[solution](../interfaces/IMathSolverExpandedElement.md#solution)
+[`IMathSolverExpandedElement`](../interfaces/IMathSolverExpandedElement.md).[`solution`](../interfaces/IMathSolverExpandedElement.md#solution)
 
-#### Defined in
+#### Source
 
-main.ts:34824
+main.ts:34830
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the carousel item
 
 #### Implementation of
 
-[IMathSolverExpandedElement](../interfaces/IMathSolverExpandedElement.md).[title](../interfaces/IMathSolverExpandedElement.md#title)
+[`IMathSolverExpandedElement`](../interfaces/IMathSolverExpandedElement.md).[`title`](../interfaces/IMathSolverExpandedElement.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:34821
+main.ts:34827
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IMathSolverExpandedElement](../interfaces/IMathSolverExpandedElement.md).[type](../interfaces/IMathSolverExpandedElement.md#type)
+[`IMathSolverExpandedElement`](../interfaces/IMathSolverExpandedElement.md).[`type`](../interfaces/IMathSolverExpandedElement.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:34819
+main.ts:34825
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:34837
+main.ts:34843
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:34860
+main.ts:34866
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`MathSolverExpandedElement`](MathSolverExpandedElement.md)
+> **`static`** **fromJS**(`data`): [`MathSolverExpandedElement`](MathSolverExpandedElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`MathSolverExpandedElement`](MathSolverExpandedElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:34853
+main.ts:34859

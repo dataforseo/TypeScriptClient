@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleRankedKeywordsLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsGoogleRankedKeywordsLiveResultInfo
 
 # Class: DataforseoLabsGoogleRankedKeywordsLiveResultInfo
 
@@ -8,264 +12,232 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsGoogleRankedKeywordsLiveResultInfo.md#constructor)
-
-### Properties
-
-- [items](DataforseoLabsGoogleRankedKeywordsLiveResultInfo.md#items)
-- [items\_count](DataforseoLabsGoogleRankedKeywordsLiveResultInfo.md#items_count)
-- [language\_code](DataforseoLabsGoogleRankedKeywordsLiveResultInfo.md#language_code)
-- [location\_code](DataforseoLabsGoogleRankedKeywordsLiveResultInfo.md#location_code)
-- [metrics](DataforseoLabsGoogleRankedKeywordsLiveResultInfo.md#metrics)
-- [metrics\_absolute](DataforseoLabsGoogleRankedKeywordsLiveResultInfo.md#metrics_absolute)
-- [se\_type](DataforseoLabsGoogleRankedKeywordsLiveResultInfo.md#se_type)
-- [target](DataforseoLabsGoogleRankedKeywordsLiveResultInfo.md#target)
-- [total\_count](DataforseoLabsGoogleRankedKeywordsLiveResultInfo.md#total_count)
-
-### Methods
-
-- [init](DataforseoLabsGoogleRankedKeywordsLiveResultInfo.md#init)
-- [toJSON](DataforseoLabsGoogleRankedKeywordsLiveResultInfo.md#tojson)
-- [fromJS](DataforseoLabsGoogleRankedKeywordsLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsGoogleRankedKeywordsLiveResultInfo(data)
 
-• **new DataforseoLabsGoogleRankedKeywordsLiveResultInfo**(`data?`): [`DataforseoLabsGoogleRankedKeywordsLiveResultInfo`](DataforseoLabsGoogleRankedKeywordsLiveResultInfo.md)
+> **new DataforseoLabsGoogleRankedKeywordsLiveResultInfo**(`data`?): [`DataforseoLabsGoogleRankedKeywordsLiveResultInfo`](DataforseoLabsGoogleRankedKeywordsLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsGoogleRankedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveResultInfo.md) |
+• **data?**: [`IDataforseoLabsGoogleRankedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleRankedKeywordsLiveResultInfo`](DataforseoLabsGoogleRankedKeywordsLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:89501
+main.ts:89509
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`DataforseoLabsGoogleRankedKeywordsLiveItem`](DataforseoLabsGoogleRankedKeywordsLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsGoogleRankedKeywordsLiveItem`](DataforseoLabsGoogleRankedKeywordsLiveItem.md)[]
 
 contains ranked keywords and related data
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRankedKeywordsLiveResultInfo](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveResultInfo.md).[items](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveResultInfo.md#items)
+[`IDataforseoLabsGoogleRankedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:89497
+main.ts:89505
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRankedKeywordsLiveResultInfo](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveResultInfo.md).[items_count](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveResultInfo.md#items_count)
+[`IDataforseoLabsGoogleRankedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:89489
+main.ts:89497
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 if there is no data, then the value is null
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRankedKeywordsLiveResultInfo](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveResultInfo.md).[language_code](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveResultInfo.md#language_code)
+[`IDataforseoLabsGoogleRankedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:89485
+main.ts:89493
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 if there is no data, then the value is null
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRankedKeywordsLiveResultInfo](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveResultInfo.md).[location_code](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveResultInfo.md#location_code)
+[`IDataforseoLabsGoogleRankedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:89482
+main.ts:89490
 
-___
+***
 
-### metrics
+### metrics?
 
-• `Optional` **metrics**: `Object`
+> **`optional`** **metrics**: `Object`
 
 ranking data relevant to the specified domain
 ranking data is provided by the rank_group parameters that show the result’s rank considering only equivalent SERP elements
 
 #### Index signature
 
-▪ [key: `string`]: [`MetricsInfo`](MetricsInfo.md)
+ \[`key`: `string`\]: [`MetricsInfo`](MetricsInfo.md)
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRankedKeywordsLiveResultInfo](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveResultInfo.md).[metrics](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveResultInfo.md#metrics)
+[`IDataforseoLabsGoogleRankedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveResultInfo.md).[`metrics`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveResultInfo.md#metrics)
 
-#### Defined in
+#### Source
 
-main.ts:89492
+main.ts:89500
 
-___
+***
 
-### metrics\_absolute
+### metrics\_absolute?
 
-• `Optional` **metrics\_absolute**: `Object`
+> **`optional`** **metrics\_absolute**: `Object`
 
 ranking data relevant to the specified domain
 ranking data is provided by the rank_absolute parameters that indicate the result’s position among all SERP elements
 
 #### Index signature
 
-▪ [key: `string`]: [`MetricsInfo`](MetricsInfo.md)
+ \[`key`: `string`\]: [`MetricsInfo`](MetricsInfo.md)
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRankedKeywordsLiveResultInfo](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveResultInfo.md).[metrics_absolute](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveResultInfo.md#metrics_absolute)
+[`IDataforseoLabsGoogleRankedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveResultInfo.md).[`metrics_absolute`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveResultInfo.md#metrics_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:89495
+main.ts:89503
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRankedKeywordsLiveResultInfo](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveResultInfo.md).[se_type](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveResultInfo.md#se_type)
+[`IDataforseoLabsGoogleRankedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:89477
+main.ts:89485
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 target domain in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRankedKeywordsLiveResultInfo](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveResultInfo.md).[target](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveResultInfo.md#target)
+[`IDataforseoLabsGoogleRankedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveResultInfo.md).[`target`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveResultInfo.md#target)
 
-#### Defined in
+#### Source
 
-main.ts:89479
+main.ts:89487
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total number of results in our database relevant to your request
 
 #### Implementation of
 
-[IDataforseoLabsGoogleRankedKeywordsLiveResultInfo](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveResultInfo.md).[total_count](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveResultInfo.md#total_count)
+[`IDataforseoLabsGoogleRankedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveResultInfo.md#total_count)
 
-#### Defined in
+#### Source
 
-main.ts:89487
+main.ts:89495
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:89510
+main.ts:89518
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:89551
+main.ts:89559
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsGoogleRankedKeywordsLiveResultInfo`](DataforseoLabsGoogleRankedKeywordsLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleRankedKeywordsLiveResultInfo`](DataforseoLabsGoogleRankedKeywordsLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsGoogleRankedKeywordsLiveResultInfo`](DataforseoLabsGoogleRankedKeywordsLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:89544
+main.ts:89552

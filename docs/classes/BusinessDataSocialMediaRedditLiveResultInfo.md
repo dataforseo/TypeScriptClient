@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataSocialMediaRedditLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataSocialMediaRedditLiveResultInfo
 
 # Class: BusinessDataSocialMediaRedditLiveResultInfo
 
@@ -8,151 +12,125 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataSocialMediaRedditLiveResultInfo.md#constructor)
-
-### Properties
-
-- [page\_url](BusinessDataSocialMediaRedditLiveResultInfo.md#page_url)
-- [reddit\_reviews](BusinessDataSocialMediaRedditLiveResultInfo.md#reddit_reviews)
-- [type](BusinessDataSocialMediaRedditLiveResultInfo.md#type)
-
-### Methods
-
-- [init](BusinessDataSocialMediaRedditLiveResultInfo.md#init)
-- [toJSON](BusinessDataSocialMediaRedditLiveResultInfo.md#tojson)
-- [fromJS](BusinessDataSocialMediaRedditLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataSocialMediaRedditLiveResultInfo(data)
 
-• **new BusinessDataSocialMediaRedditLiveResultInfo**(`data?`): [`BusinessDataSocialMediaRedditLiveResultInfo`](BusinessDataSocialMediaRedditLiveResultInfo.md)
+> **new BusinessDataSocialMediaRedditLiveResultInfo**(`data`?): [`BusinessDataSocialMediaRedditLiveResultInfo`](BusinessDataSocialMediaRedditLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataSocialMediaRedditLiveResultInfo`](../interfaces/IBusinessDataSocialMediaRedditLiveResultInfo.md) |
+• **data?**: [`IBusinessDataSocialMediaRedditLiveResultInfo`](../interfaces/IBusinessDataSocialMediaRedditLiveResultInfo.md)
 
 #### Returns
 
 [`BusinessDataSocialMediaRedditLiveResultInfo`](BusinessDataSocialMediaRedditLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:211770
 
 ## Properties
 
-### page\_url
+### page\_url?
 
-• `Optional` **page\_url**: `string`
+> **`optional`** **page\_url**: `string`
 
 URL of the page the data is provided for
 corresponding URL you specified in the targets array when setting a task
 
 #### Implementation of
 
-[IBusinessDataSocialMediaRedditLiveResultInfo](../interfaces/IBusinessDataSocialMediaRedditLiveResultInfo.md).[page_url](../interfaces/IBusinessDataSocialMediaRedditLiveResultInfo.md#page_url)
+[`IBusinessDataSocialMediaRedditLiveResultInfo`](../interfaces/IBusinessDataSocialMediaRedditLiveResultInfo.md).[`page_url`](../interfaces/IBusinessDataSocialMediaRedditLiveResultInfo.md#page_url)
 
-#### Defined in
+#### Source
 
 main.ts:211764
 
-___
+***
 
-### reddit\_reviews
+### reddit\_reviews?
 
-• `Optional` **reddit\_reviews**: [`RedditReviews`](RedditReviews.md)[]
+> **`optional`** **reddit\_reviews**: [`RedditReviews`](RedditReviews.md)[]
 
 reddit reviews for the page_url
 
 #### Implementation of
 
-[IBusinessDataSocialMediaRedditLiveResultInfo](../interfaces/IBusinessDataSocialMediaRedditLiveResultInfo.md).[reddit_reviews](../interfaces/IBusinessDataSocialMediaRedditLiveResultInfo.md#reddit_reviews)
+[`IBusinessDataSocialMediaRedditLiveResultInfo`](../interfaces/IBusinessDataSocialMediaRedditLiveResultInfo.md).[`reddit_reviews`](../interfaces/IBusinessDataSocialMediaRedditLiveResultInfo.md#reddit_reviews)
 
-#### Defined in
+#### Source
 
 main.ts:211766
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IBusinessDataSocialMediaRedditLiveResultInfo](../interfaces/IBusinessDataSocialMediaRedditLiveResultInfo.md).[type](../interfaces/IBusinessDataSocialMediaRedditLiveResultInfo.md#type)
+[`IBusinessDataSocialMediaRedditLiveResultInfo`](../interfaces/IBusinessDataSocialMediaRedditLiveResultInfo.md).[`type`](../interfaces/IBusinessDataSocialMediaRedditLiveResultInfo.md#type)
 
-#### Defined in
+#### Source
 
 main.ts:211761
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:211779
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:211802
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataSocialMediaRedditLiveResultInfo`](BusinessDataSocialMediaRedditLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataSocialMediaRedditLiveResultInfo`](BusinessDataSocialMediaRedditLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BusinessDataSocialMediaRedditLiveResultInfo`](BusinessDataSocialMediaRedditLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:211795

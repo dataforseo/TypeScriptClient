@@ -1,55 +1,47 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMonthlySearches
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IMonthlySearches
 
 # Interface: IMonthlySearches
 
-## Implemented by
-
-- [`MonthlySearches`](../classes/MonthlySearches.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [month](IMonthlySearches.md#month)
-- [search\_volume](IMonthlySearches.md#search_volume)
-- [year](IMonthlySearches.md#year)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### month
+### month?
 
-• `Optional` **month**: `number`
+> **`optional`** **month**: `number`
 
 month
 
-#### Defined in
+#### Source
 
-main.ts:81230
+main.ts:81238
 
-___
+***
 
-### search\_volume
+### search\_volume?
 
-• `Optional` **search\_volume**: `number`
+> **`optional`** **search\_volume**: `number`
 
 monthly average search volume rate
 
-#### Defined in
+#### Source
 
-main.ts:81232
+main.ts:81240
 
-___
+***
 
-### year
+### year?
 
-• `Optional` **year**: `number`
+> **`optional`** **year**: `number`
 
 year
 
-#### Defined in
+#### Source
 
-main.ts:81228
+main.ts:81236

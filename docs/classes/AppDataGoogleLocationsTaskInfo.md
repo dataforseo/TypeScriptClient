@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataGoogleLocationsTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppDataGoogleLocationsTaskInfo
 
 # Class: AppDataGoogleLocationsTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`AppDataGoogleLocationsTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppDataGoogleLocationsTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](AppDataGoogleLocationsTaskInfo.md#cost)
-- [data](AppDataGoogleLocationsTaskInfo.md#data)
-- [id](AppDataGoogleLocationsTaskInfo.md#id)
-- [path](AppDataGoogleLocationsTaskInfo.md#path)
-- [result](AppDataGoogleLocationsTaskInfo.md#result)
-- [result\_count](AppDataGoogleLocationsTaskInfo.md#result_count)
-- [status\_code](AppDataGoogleLocationsTaskInfo.md#status_code)
-- [status\_message](AppDataGoogleLocationsTaskInfo.md#status_message)
-- [time](AppDataGoogleLocationsTaskInfo.md#time)
-
-### Methods
-
-- [init](AppDataGoogleLocationsTaskInfo.md#init)
-- [toJSON](AppDataGoogleLocationsTaskInfo.md#tojson)
-- [fromJS](AppDataGoogleLocationsTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppDataGoogleLocationsTaskInfo(data)
 
-• **new AppDataGoogleLocationsTaskInfo**(`data?`): [`AppDataGoogleLocationsTaskInfo`](AppDataGoogleLocationsTaskInfo.md)
+> **new AppDataGoogleLocationsTaskInfo**(`data`?): [`AppDataGoogleLocationsTaskInfo`](AppDataGoogleLocationsTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppDataGoogleLocationsTaskInfo`](../interfaces/IAppDataGoogleLocationsTaskInfo.md) |
+• **data?**: [`IAppDataGoogleLocationsTaskInfo`](../interfaces/IAppDataGoogleLocationsTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:182679
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IAppDataGoogleLocationsTaskInfo](../interfaces/IAppDataGoogleLocationsTaskInfo.md).[cost](../interfaces/IAppDataGoogleLocationsTaskInfo.md#cost)
+[`IAppDataGoogleLocationsTaskInfo`](../interfaces/IAppDataGoogleLocationsTaskInfo.md).[`cost`](../interfaces/IAppDataGoogleLocationsTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[IAppDataGoogleLocationsTaskInfo](../interfaces/IAppDataGoogleLocationsTaskInfo.md).[data](../interfaces/IAppDataGoogleLocationsTaskInfo.md#data)
+[`IAppDataGoogleLocationsTaskInfo`](../interfaces/IAppDataGoogleLocationsTaskInfo.md).[`data`](../interfaces/IAppDataGoogleLocationsTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IAppDataGoogleLocationsTaskInfo](../interfaces/IAppDataGoogleLocationsTaskInfo.md).[id](../interfaces/IAppDataGoogleLocationsTaskInfo.md#id)
+[`IAppDataGoogleLocationsTaskInfo`](../interfaces/IAppDataGoogleLocationsTaskInfo.md).[`id`](../interfaces/IAppDataGoogleLocationsTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[IAppDataGoogleLocationsTaskInfo](../interfaces/IAppDataGoogleLocationsTaskInfo.md).[path](../interfaces/IAppDataGoogleLocationsTaskInfo.md#path)
+[`IAppDataGoogleLocationsTaskInfo`](../interfaces/IAppDataGoogleLocationsTaskInfo.md).[`path`](../interfaces/IAppDataGoogleLocationsTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`AppDataGoogleLocationsResultInfo`](AppDataGoogleLocationsResultInfo.md)[]
+> **`optional`** **result**: [`AppDataGoogleLocationsResultInfo`](AppDataGoogleLocationsResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[IAppDataGoogleLocationsTaskInfo](../interfaces/IAppDataGoogleLocationsTaskInfo.md).[result](../interfaces/IAppDataGoogleLocationsTaskInfo.md#result)
+[`IAppDataGoogleLocationsTaskInfo`](../interfaces/IAppDataGoogleLocationsTaskInfo.md).[`result`](../interfaces/IAppDataGoogleLocationsTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
 main.ts:182675
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[IAppDataGoogleLocationsTaskInfo](../interfaces/IAppDataGoogleLocationsTaskInfo.md).[result_count](../interfaces/IAppDataGoogleLocationsTaskInfo.md#result_count)
+[`IAppDataGoogleLocationsTaskInfo`](../interfaces/IAppDataGoogleLocationsTaskInfo.md).[`result_count`](../interfaces/IAppDataGoogleLocationsTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[IAppDataGoogleLocationsTaskInfo](../interfaces/IAppDataGoogleLocationsTaskInfo.md).[status_code](../interfaces/IAppDataGoogleLocationsTaskInfo.md#status_code)
+[`IAppDataGoogleLocationsTaskInfo`](../interfaces/IAppDataGoogleLocationsTaskInfo.md).[`status_code`](../interfaces/IAppDataGoogleLocationsTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IAppDataGoogleLocationsTaskInfo](../interfaces/IAppDataGoogleLocationsTaskInfo.md).[status_message](../interfaces/IAppDataGoogleLocationsTaskInfo.md#status_message)
+[`IAppDataGoogleLocationsTaskInfo`](../interfaces/IAppDataGoogleLocationsTaskInfo.md).[`status_message`](../interfaces/IAppDataGoogleLocationsTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[IAppDataGoogleLocationsTaskInfo](../interfaces/IAppDataGoogleLocationsTaskInfo.md).[time](../interfaces/IAppDataGoogleLocationsTaskInfo.md#time)
+[`IAppDataGoogleLocationsTaskInfo`](../interfaces/IAppDataGoogleLocationsTaskInfo.md).[`time`](../interfaces/IAppDataGoogleLocationsTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:182683
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:182705
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppDataGoogleLocationsTaskInfo`](AppDataGoogleLocationsTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`AppDataGoogleLocationsTaskInfo`](AppDataGoogleLocationsTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:182698

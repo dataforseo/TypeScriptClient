@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageErrorsResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPageErrorsResultInfo
 
 # Class: OnPageErrorsResultInfo
 
@@ -8,58 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPageErrorsResultInfo.md#constructor)
-
-### Properties
-
-- [datetime](OnPageErrorsResultInfo.md#datetime)
-- [error\_code](OnPageErrorsResultInfo.md#error_code)
-- [error\_message](OnPageErrorsResultInfo.md#error_message)
-- [function](OnPageErrorsResultInfo.md#function)
-- [http\_code](OnPageErrorsResultInfo.md#http_code)
-- [http\_method](OnPageErrorsResultInfo.md#http_method)
-- [http\_response](OnPageErrorsResultInfo.md#http_response)
-- [http\_time](OnPageErrorsResultInfo.md#http_time)
-- [http\_url](OnPageErrorsResultInfo.md#http_url)
-- [id](OnPageErrorsResultInfo.md#id)
-
-### Methods
-
-- [init](OnPageErrorsResultInfo.md#init)
-- [toJSON](OnPageErrorsResultInfo.md#tojson)
-- [fromJS](OnPageErrorsResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPageErrorsResultInfo(data)
 
-• **new OnPageErrorsResultInfo**(`data?`): [`OnPageErrorsResultInfo`](OnPageErrorsResultInfo.md)
+> **new OnPageErrorsResultInfo**(`data`?): [`OnPageErrorsResultInfo`](OnPageErrorsResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPageErrorsResultInfo`](../interfaces/IOnPageErrorsResultInfo.md) |
+• **data?**: [`IOnPageErrorsResultInfo`](../interfaces/IOnPageErrorsResultInfo.md)
 
 #### Returns
 
 [`OnPageErrorsResultInfo`](OnPageErrorsResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:147355
+main.ts:147363
 
 ## Properties
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when an error occurred
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -68,216 +45,210 @@ example:
 
 #### Implementation of
 
-[IOnPageErrorsResultInfo](../interfaces/IOnPageErrorsResultInfo.md).[datetime](../interfaces/IOnPageErrorsResultInfo.md#datetime)
+[`IOnPageErrorsResultInfo`](../interfaces/IOnPageErrorsResultInfo.md).[`datetime`](../interfaces/IOnPageErrorsResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
-main.ts:147331
+main.ts:147339
 
-___
+***
 
-### error\_code
+### error\_code?
 
-• `Optional` **error\_code**: `number`
+> **`optional`** **error\_code**: `number`
 
 error code
 
 #### Implementation of
 
-[IOnPageErrorsResultInfo](../interfaces/IOnPageErrorsResultInfo.md).[error_code](../interfaces/IOnPageErrorsResultInfo.md#error_code)
+[`IOnPageErrorsResultInfo`](../interfaces/IOnPageErrorsResultInfo.md).[`error_code`](../interfaces/IOnPageErrorsResultInfo.md#error_code)
 
-#### Defined in
+#### Source
 
-main.ts:147335
+main.ts:147343
 
-___
+***
 
-### error\_message
+### error\_message?
 
-• `Optional` **error\_message**: `string`
+> **`optional`** **error\_message**: `string`
 
 error message or error URL
 error message (see full list) or URL that caused an error
 
 #### Implementation of
 
-[IOnPageErrorsResultInfo](../interfaces/IOnPageErrorsResultInfo.md).[error_message](../interfaces/IOnPageErrorsResultInfo.md#error_message)
+[`IOnPageErrorsResultInfo`](../interfaces/IOnPageErrorsResultInfo.md).[`error_message`](../interfaces/IOnPageErrorsResultInfo.md#error_message)
 
-#### Defined in
+#### Source
 
-main.ts:147338
+main.ts:147346
 
-___
+***
 
-### function
+### function?
 
-• `Optional` **function**: `string`
+> **`optional`** **function**: `string`
 
 corresponding API function
 
 #### Implementation of
 
-[IOnPageErrorsResultInfo](../interfaces/IOnPageErrorsResultInfo.md).[function](../interfaces/IOnPageErrorsResultInfo.md#function)
+[`IOnPageErrorsResultInfo`](../interfaces/IOnPageErrorsResultInfo.md).[`function`](../interfaces/IOnPageErrorsResultInfo.md#function)
 
-#### Defined in
+#### Source
 
-main.ts:147333
+main.ts:147341
 
-___
+***
 
-### http\_code
+### http\_code?
 
-• `Optional` **http\_code**: `number`
+> **`optional`** **http\_code**: `number`
 
 HTTP status code
 
 #### Implementation of
 
-[IOnPageErrorsResultInfo](../interfaces/IOnPageErrorsResultInfo.md).[http_code](../interfaces/IOnPageErrorsResultInfo.md#http_code)
+[`IOnPageErrorsResultInfo`](../interfaces/IOnPageErrorsResultInfo.md).[`http_code`](../interfaces/IOnPageErrorsResultInfo.md#http_code)
 
-#### Defined in
+#### Source
 
-main.ts:147345
+main.ts:147353
 
-___
+***
 
-### http\_method
+### http\_method?
 
-• `Optional` **http\_method**: `string`
+> **`optional`** **http\_method**: `string`
 
 HTTP method
 
 #### Implementation of
 
-[IOnPageErrorsResultInfo](../interfaces/IOnPageErrorsResultInfo.md).[http_method](../interfaces/IOnPageErrorsResultInfo.md#http_method)
+[`IOnPageErrorsResultInfo`](../interfaces/IOnPageErrorsResultInfo.md).[`http_method`](../interfaces/IOnPageErrorsResultInfo.md#http_method)
 
-#### Defined in
+#### Source
 
-main.ts:147343
+main.ts:147351
 
-___
+***
 
-### http\_response
+### http\_response?
 
-• `Optional` **http\_response**: `string`
+> **`optional`** **http\_response**: `string`
 
 HTTP response
 server response
 
 #### Implementation of
 
-[IOnPageErrorsResultInfo](../interfaces/IOnPageErrorsResultInfo.md).[http_response](../interfaces/IOnPageErrorsResultInfo.md#http_response)
+[`IOnPageErrorsResultInfo`](../interfaces/IOnPageErrorsResultInfo.md).[`http_response`](../interfaces/IOnPageErrorsResultInfo.md#http_response)
 
-#### Defined in
+#### Source
 
-main.ts:147351
+main.ts:147359
 
-___
+***
 
-### http\_time
+### http\_time?
 
-• `Optional` **http\_time**: `number`
+> **`optional`** **http\_time**: `number`
 
 time taken by HTTP request
 for tasks set with a pingback/postback, this field will show the time it took your server to respond
 
 #### Implementation of
 
-[IOnPageErrorsResultInfo](../interfaces/IOnPageErrorsResultInfo.md).[http_time](../interfaces/IOnPageErrorsResultInfo.md#http_time)
+[`IOnPageErrorsResultInfo`](../interfaces/IOnPageErrorsResultInfo.md).[`http_time`](../interfaces/IOnPageErrorsResultInfo.md#http_time)
 
-#### Defined in
+#### Source
 
-main.ts:147348
+main.ts:147356
 
-___
+***
 
-### http\_url
+### http\_url?
 
-• `Optional` **http\_url**: `string`
+> **`optional`** **http\_url**: `string`
 
 URL that caused an error
 URL you used for making an API call or pingback/postback URL
 
 #### Implementation of
 
-[IOnPageErrorsResultInfo](../interfaces/IOnPageErrorsResultInfo.md).[http_url](../interfaces/IOnPageErrorsResultInfo.md#http_url)
+[`IOnPageErrorsResultInfo`](../interfaces/IOnPageErrorsResultInfo.md).[`http_url`](../interfaces/IOnPageErrorsResultInfo.md#http_url)
 
-#### Defined in
+#### Source
 
-main.ts:147341
+main.ts:147349
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 id of the task
 
 #### Implementation of
 
-[IOnPageErrorsResultInfo](../interfaces/IOnPageErrorsResultInfo.md).[id](../interfaces/IOnPageErrorsResultInfo.md#id)
+[`IOnPageErrorsResultInfo`](../interfaces/IOnPageErrorsResultInfo.md).[`id`](../interfaces/IOnPageErrorsResultInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:147326
+main.ts:147334
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:147364
+main.ts:147372
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:147390
+main.ts:147398
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPageErrorsResultInfo`](OnPageErrorsResultInfo.md)
+> **`static`** **fromJS**(`data`): [`OnPageErrorsResultInfo`](OnPageErrorsResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`OnPageErrorsResultInfo`](OnPageErrorsResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:147383
+main.ts:147391

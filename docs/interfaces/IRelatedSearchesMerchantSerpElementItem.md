@@ -1,92 +1,80 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IRelatedSearchesMerchantSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IRelatedSearchesMerchantSerpElementItem
 
 # Interface: IRelatedSearchesMerchantSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md)
 
-  ↳ **`IRelatedSearchesMerchantSerpElementItem`**
-
-## Implemented by
-
-- [`RelatedSearchesMerchantSerpElementItem`](../classes/RelatedSearchesMerchantSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IRelatedSearchesMerchantSerpElementItem.md#items)
-- [position](IRelatedSearchesMerchantSerpElementItem.md#position)
-- [rank\_absolute](IRelatedSearchesMerchantSerpElementItem.md#rank_absolute)
-- [rank\_group](IRelatedSearchesMerchantSerpElementItem.md#rank_group)
-- [xpath](IRelatedSearchesMerchantSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: `string`[]
+> **`optional`** **items**: `string`[]
 
 additional items present in the element
 if there are none, equals null
 
-#### Defined in
+#### Source
 
-main.ts:170791
+main.ts:170799
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
-main.ts:170786
+main.ts:170794
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
 
-#### Defined in
+#### Source
 
-main.ts:170782
+main.ts:170790
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
-main.ts:170779
+main.ts:170787
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 XPath of the element
 
-#### Defined in
+#### Source
 
-main.ts:170788
+main.ts:170796

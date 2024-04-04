@@ -1,61 +1,44 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleSubdomainsLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsGoogleSubdomainsLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleSubdomainsLiveRequestInfo
 
-## Implemented by
-
-- [`DataforseoLabsGoogleSubdomainsLiveRequestInfo`](../classes/DataforseoLabsGoogleSubdomainsLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [filters](IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md#filters)
-- [historical\_serp\_mode](IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md#historical_serp_mode)
-- [item\_types](IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md#item_types)
-- [language\_code](IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md#language_code)
-- [language\_name](IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md#language_name)
-- [limit](IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md#limit)
-- [location\_code](IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md#location_code)
-- [location\_name](IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md#location_name)
-- [offset](IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md#offset)
-- [order\_by](IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md#order_by)
-- [tag](IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md#tag)
-- [target](IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md#target)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, <=, >, >=, =, <>, in, not_in
+regex, <, `<=, >`, >=, =, `<>`, in, not_in
 example:
-["metrics.paid.count",">",0]
+["metrics.paid.count",">`",0]
 [["metrics.paid.count",">",0],"and",["metrics.paid.etv",">","50"]]
 [["metrics.organic.count",">","10"],
 "and",
 [["metrics.organic.pos_1","<>",0],"or",["metrics.organic.pos_2_3","<>",0]]]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide
 
-#### Defined in
+#### Source
 
-main.ts:91957
+main.ts:91965
 
-___
+***
 
-### historical\_serp\_mode
+### historical\_serp\_mode?
 
-• `Optional` **historical\_serp\_mode**: `string`
+> **`optional`** **historical\_serp\_mode**: `string`
 
 data collection mode
 optional field
@@ -66,15 +49,15 @@ lost — return metrics for SERPs in which the specified target had previously h
 all — return metrics for both types of SERPs.
 default value: live
 
-#### Defined in
+#### Source
 
-main.ts:91943
+main.ts:91951
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 display results by item type
 optional field
@@ -85,15 +68,15 @@ possible values:
 default value:
 ["organic", "paid", "featured_snippet", "local_pack"]
 
-#### Defined in
+#### Source
 
-main.ts:91934
+main.ts:91942
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 optional field
@@ -104,15 +87,15 @@ ignore this field to get the results for all available languages
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:91925
+main.ts:91933
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 optional field
@@ -123,30 +106,30 @@ ignore this field to get the results for all available languages
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:91916
+main.ts:91924
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned keywords
 optional field
 default value: 100
 maximum value: 1000
 
-#### Defined in
+#### Source
 
-main.ts:91979
+main.ts:91987
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 optional field
@@ -157,15 +140,15 @@ ignore this field to get the results for all available locations
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:91907
+main.ts:91915
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 optional field
@@ -176,30 +159,30 @@ ignore this field to get the results for all available locations
 example:
 United Kingdom
 
-#### Defined in
+#### Source
 
-main.ts:91898
+main.ts:91906
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned keywords
 optional field
 default value: 0
 if you specify the 10 value, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords
 
-#### Defined in
+#### Source
 
-main.ts:91984
+main.ts:91992
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -218,15 +201,15 @@ default rule:
 ["metrics.organic.count,desc"]
 Note: if the item_types array contains item types that are different from organic, the results will be ordered by the first item type in the array
 
-#### Defined in
+#### Source
 
-main.ts:91974
+main.ts:91982
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -234,21 +217,21 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:91990
+main.ts:91998
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 domain
 required field
 the domain name of the target website
 the domain should be specified without https:// and www.
 
-#### Defined in
+#### Source
 
-main.ts:91889
+main.ts:91897

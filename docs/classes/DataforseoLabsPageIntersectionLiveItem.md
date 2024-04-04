@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsPageIntersectionLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsPageIntersectionLiveItem
 
 # Class: DataforseoLabsPageIntersectionLiveItem
 
@@ -8,51 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsPageIntersectionLiveItem.md#constructor)
-
-### Properties
-
-- [intersection\_result](DataforseoLabsPageIntersectionLiveItem.md#intersection_result)
-- [keyword\_data](DataforseoLabsPageIntersectionLiveItem.md#keyword_data)
-- [se\_type](DataforseoLabsPageIntersectionLiveItem.md#se_type)
-
-### Methods
-
-- [init](DataforseoLabsPageIntersectionLiveItem.md#init)
-- [toJSON](DataforseoLabsPageIntersectionLiveItem.md#tojson)
-- [fromJS](DataforseoLabsPageIntersectionLiveItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsPageIntersectionLiveItem(data)
 
-• **new DataforseoLabsPageIntersectionLiveItem**(`data?`): [`DataforseoLabsPageIntersectionLiveItem`](DataforseoLabsPageIntersectionLiveItem.md)
+> **new DataforseoLabsPageIntersectionLiveItem**(`data`?): [`DataforseoLabsPageIntersectionLiveItem`](DataforseoLabsPageIntersectionLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsPageIntersectionLiveItem`](../interfaces/IDataforseoLabsPageIntersectionLiveItem.md) |
+• **data?**: [`IDataforseoLabsPageIntersectionLiveItem`](../interfaces/IDataforseoLabsPageIntersectionLiveItem.md)
 
 #### Returns
 
 [`DataforseoLabsPageIntersectionLiveItem`](DataforseoLabsPageIntersectionLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:99527
+main.ts:99535
 
 ## Properties
 
-### intersection\_result
+### intersection\_result?
 
-• `Optional` **intersection\_result**: `Object`
+> **`optional`** **intersection\_result**: `Object`
 
 contains data on the SERP elements found for the returned keyword
 data will be provided in separate arrays for each URL you specified in the pages object when setting a task;
@@ -60,104 +44,98 @@ depending on the number of specified URLs, it can contain from 1 to 20 arrays na
 
 #### Index signature
 
-▪ [key: `string`]: [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
+ \[`key`: `string`\]: [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
 
 #### Implementation of
 
-[IDataforseoLabsPageIntersectionLiveItem](../interfaces/IDataforseoLabsPageIntersectionLiveItem.md).[intersection_result](../interfaces/IDataforseoLabsPageIntersectionLiveItem.md#intersection_result)
+[`IDataforseoLabsPageIntersectionLiveItem`](../interfaces/IDataforseoLabsPageIntersectionLiveItem.md).[`intersection_result`](../interfaces/IDataforseoLabsPageIntersectionLiveItem.md#intersection_result)
 
-#### Defined in
+#### Source
 
-main.ts:99523
+main.ts:99531
 
-___
+***
 
-### keyword\_data
+### keyword\_data?
 
-• `Optional` **keyword\_data**: [`KeywordData`](KeywordData.md)
+> **`optional`** **keyword\_data**: [`KeywordData`](KeywordData.md)
 
 keyword data for the returned keyword
 
 #### Implementation of
 
-[IDataforseoLabsPageIntersectionLiveItem](../interfaces/IDataforseoLabsPageIntersectionLiveItem.md).[keyword_data](../interfaces/IDataforseoLabsPageIntersectionLiveItem.md#keyword_data)
+[`IDataforseoLabsPageIntersectionLiveItem`](../interfaces/IDataforseoLabsPageIntersectionLiveItem.md).[`keyword_data`](../interfaces/IDataforseoLabsPageIntersectionLiveItem.md#keyword_data)
 
-#### Defined in
+#### Source
 
-main.ts:99519
+main.ts:99527
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IDataforseoLabsPageIntersectionLiveItem](../interfaces/IDataforseoLabsPageIntersectionLiveItem.md).[se_type](../interfaces/IDataforseoLabsPageIntersectionLiveItem.md#se_type)
+[`IDataforseoLabsPageIntersectionLiveItem`](../interfaces/IDataforseoLabsPageIntersectionLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsPageIntersectionLiveItem.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:99517
+main.ts:99525
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:99536
+main.ts:99544
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:99561
+main.ts:99569
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsPageIntersectionLiveItem`](DataforseoLabsPageIntersectionLiveItem.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsPageIntersectionLiveItem`](DataforseoLabsPageIntersectionLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsPageIntersectionLiveItem`](DataforseoLabsPageIntersectionLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:99554
+main.ts:99562

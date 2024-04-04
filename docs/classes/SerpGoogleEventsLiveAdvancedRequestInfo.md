@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleEventsLiveAdvancedRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleEventsLiveAdvancedRequestInfo
 
 # Class: SerpGoogleEventsLiveAdvancedRequestInfo
 
@@ -8,60 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleEventsLiveAdvancedRequestInfo.md#constructor)
-
-### Properties
-
-- [date\_range](SerpGoogleEventsLiveAdvancedRequestInfo.md#date_range)
-- [depth](SerpGoogleEventsLiveAdvancedRequestInfo.md#depth)
-- [keyword](SerpGoogleEventsLiveAdvancedRequestInfo.md#keyword)
-- [language\_code](SerpGoogleEventsLiveAdvancedRequestInfo.md#language_code)
-- [language\_name](SerpGoogleEventsLiveAdvancedRequestInfo.md#language_name)
-- [location\_code](SerpGoogleEventsLiveAdvancedRequestInfo.md#location_code)
-- [location\_coordinate](SerpGoogleEventsLiveAdvancedRequestInfo.md#location_coordinate)
-- [location\_name](SerpGoogleEventsLiveAdvancedRequestInfo.md#location_name)
-- [max\_crawl\_pages](SerpGoogleEventsLiveAdvancedRequestInfo.md#max_crawl_pages)
-- [os](SerpGoogleEventsLiveAdvancedRequestInfo.md#os)
-- [se\_domain](SerpGoogleEventsLiveAdvancedRequestInfo.md#se_domain)
-- [tag](SerpGoogleEventsLiveAdvancedRequestInfo.md#tag)
-
-### Methods
-
-- [init](SerpGoogleEventsLiveAdvancedRequestInfo.md#init)
-- [toJSON](SerpGoogleEventsLiveAdvancedRequestInfo.md#tojson)
-- [fromJS](SerpGoogleEventsLiveAdvancedRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleEventsLiveAdvancedRequestInfo(data)
 
-• **new SerpGoogleEventsLiveAdvancedRequestInfo**(`data?`): [`SerpGoogleEventsLiveAdvancedRequestInfo`](SerpGoogleEventsLiveAdvancedRequestInfo.md)
+> **new SerpGoogleEventsLiveAdvancedRequestInfo**(`data`?): [`SerpGoogleEventsLiveAdvancedRequestInfo`](SerpGoogleEventsLiveAdvancedRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleEventsLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md) |
+• **data?**: [`ISerpGoogleEventsLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md)
 
 #### Returns
 
 [`SerpGoogleEventsLiveAdvancedRequestInfo`](SerpGoogleEventsLiveAdvancedRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:45903
+main.ts:45911
 
 ## Properties
 
-### date\_range
+### date\_range?
 
-• `Optional` **date\_range**: `string`
+> **`optional`** **date\_range**: `string`
 
 date range to get events for
 optional field
@@ -70,17 +45,17 @@ possible values: today, tomorrow, week, weekend, next_week, month, next_month
 
 #### Implementation of
 
-[ISerpGoogleEventsLiveAdvancedRequestInfo](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md).[date_range](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md#date_range)
+[`ISerpGoogleEventsLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md).[`date_range`](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md#date_range)
 
-#### Defined in
+#### Source
 
-main.ts:45864
+main.ts:45872
 
-___
+***
 
-### depth
+### depth?
 
-• `Optional` **depth**: `number`
+> **`optional`** **depth**: `number`
 
 parsing depth
 optional field
@@ -93,17 +68,17 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Implementation of
 
-[ISerpGoogleEventsLiveAdvancedRequestInfo](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md).[depth](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md#depth)
+[`ISerpGoogleEventsLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md).[`depth`](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md#depth)
 
-#### Defined in
+#### Source
 
-main.ts:45886
+main.ts:45894
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword
 required field
@@ -114,17 +89,17 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Implementation of
 
-[ISerpGoogleEventsLiveAdvancedRequestInfo](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md).[keyword](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md#keyword)
+[`ISerpGoogleEventsLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md).[`keyword`](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:45818
+main.ts:45826
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 optional field
@@ -136,17 +111,17 @@ en
 
 #### Implementation of
 
-[ISerpGoogleEventsLiveAdvancedRequestInfo](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md).[language_code](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md#language_code)
+[`ISerpGoogleEventsLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md).[`language_code`](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:45859
+main.ts:45867
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -158,17 +133,17 @@ English
 
 #### Implementation of
 
-[ISerpGoogleEventsLiveAdvancedRequestInfo](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md).[language_name](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md#language_name)
+[`ISerpGoogleEventsLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md).[`language_name`](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:45851
+main.ts:45859
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -179,17 +154,17 @@ example:
 
 #### Implementation of
 
-[ISerpGoogleEventsLiveAdvancedRequestInfo](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md).[location_code](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md#location_code)
+[`ISerpGoogleEventsLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md).[`location_code`](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:45832
+main.ts:45840
 
-___
+***
 
-### location\_coordinate
+### location\_coordinate?
 
-• `Optional` **location\_coordinate**: `string`
+> **`optional`** **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -204,17 +179,17 @@ example:
 
 #### Implementation of
 
-[ISerpGoogleEventsLiveAdvancedRequestInfo](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md).[location_coordinate](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md#location_coordinate)
+[`ISerpGoogleEventsLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md).[`location_coordinate`](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md#location_coordinate)
 
-#### Defined in
+#### Source
 
-main.ts:45843
+main.ts:45851
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -225,17 +200,17 @@ London,England,United Kingdom
 
 #### Implementation of
 
-[ISerpGoogleEventsLiveAdvancedRequestInfo](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md).[location_name](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md#location_name)
+[`ISerpGoogleEventsLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md).[`location_name`](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:45825
+main.ts:45833
 
-___
+***
 
-### max\_crawl\_pages
+### max\_crawl\_pages?
 
-• `Optional` **max\_crawl\_pages**: `number`
+> **`optional`** **max\_crawl\_pages**: `number`
 
 page crawl limit
 optional field
@@ -246,17 +221,17 @@ learn more at our help center
 
 #### Implementation of
 
-[ISerpGoogleEventsLiveAdvancedRequestInfo](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md).[max_crawl_pages](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md#max_crawl_pages)
+[`ISerpGoogleEventsLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md).[`max_crawl_pages`](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md#max_crawl_pages)
 
-#### Defined in
+#### Source
 
-main.ts:45893
+main.ts:45901
 
-___
+***
 
-### os
+### os?
 
-• `Optional` **os**: `string`
+> **`optional`** **os**: `string`
 
 device operating system
 optional field
@@ -266,17 +241,17 @@ default value: windows
 
 #### Implementation of
 
-[ISerpGoogleEventsLiveAdvancedRequestInfo](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md).[os](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md#os)
+[`ISerpGoogleEventsLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md).[`os`](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md#os)
 
-#### Defined in
+#### Source
 
-main.ts:45870
+main.ts:45878
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain
 optional field
@@ -287,17 +262,17 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Implementation of
 
-[ISerpGoogleEventsLiveAdvancedRequestInfo](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md).[se_domain](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md#se_domain)
+[`ISerpGoogleEventsLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md).[`se_domain`](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md#se_domain)
 
-#### Defined in
+#### Source
 
-main.ts:45877
+main.ts:45885
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -307,68 +282,62 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[ISerpGoogleEventsLiveAdvancedRequestInfo](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md).[tag](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md#tag)
+[`ISerpGoogleEventsLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md).[`tag`](../interfaces/ISerpGoogleEventsLiveAdvancedRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:45899
+main.ts:45907
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:45912
+main.ts:45920
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:45940
+main.ts:45948
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleEventsLiveAdvancedRequestInfo`](SerpGoogleEventsLiveAdvancedRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleEventsLiveAdvancedRequestInfo`](SerpGoogleEventsLiveAdvancedRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpGoogleEventsLiveAdvancedRequestInfo`](SerpGoogleEventsLiveAdvancedRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:45933
+main.ts:45941

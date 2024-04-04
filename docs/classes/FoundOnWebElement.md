@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / FoundOnWebElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / FoundOnWebElement
 
 # Class: FoundOnWebElement
 
@@ -8,167 +12,140 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](FoundOnWebElement.md#constructor)
-
-### Properties
-
-- [image](FoundOnWebElement.md#image)
-- [subtitle](FoundOnWebElement.md#subtitle)
-- [title](FoundOnWebElement.md#title)
-- [type](FoundOnWebElement.md#type)
-
-### Methods
-
-- [init](FoundOnWebElement.md#init)
-- [toJSON](FoundOnWebElement.md#tojson)
-- [fromJS](FoundOnWebElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new FoundOnWebElement(data)
 
-• **new FoundOnWebElement**(`data?`): [`FoundOnWebElement`](FoundOnWebElement.md)
+> **new FoundOnWebElement**(`data`?): [`FoundOnWebElement`](FoundOnWebElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IFoundOnWebElement`](../interfaces/IFoundOnWebElement.md) |
+• **data?**: [`IFoundOnWebElement`](../interfaces/IFoundOnWebElement.md)
 
 #### Returns
 
 [`FoundOnWebElement`](FoundOnWebElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:35663
+main.ts:35669
 
 ## Properties
 
-### image
+### image?
 
-• `Optional` **image**: [`ImagesElement`](ImagesElement.md)
+> **`optional`** **image**: [`ImagesElement`](ImagesElement.md)
 
 image of the element
 
 #### Implementation of
 
-[IFoundOnWebElement](../interfaces/IFoundOnWebElement.md).[image](../interfaces/IFoundOnWebElement.md#image)
+[`IFoundOnWebElement`](../interfaces/IFoundOnWebElement.md).[`image`](../interfaces/IFoundOnWebElement.md#image)
 
-#### Defined in
+#### Source
 
-main.ts:35659
+main.ts:35665
 
-___
+***
 
-### subtitle
+### subtitle?
 
-• `Optional` **subtitle**: `string`
+> **`optional`** **subtitle**: `string`
 
 subtitle of the element
 
 #### Implementation of
 
-[IFoundOnWebElement](../interfaces/IFoundOnWebElement.md).[subtitle](../interfaces/IFoundOnWebElement.md#subtitle)
+[`IFoundOnWebElement`](../interfaces/IFoundOnWebElement.md).[`subtitle`](../interfaces/IFoundOnWebElement.md#subtitle)
 
-#### Defined in
+#### Source
 
-main.ts:35657
+main.ts:35663
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
 #### Implementation of
 
-[IFoundOnWebElement](../interfaces/IFoundOnWebElement.md).[title](../interfaces/IFoundOnWebElement.md#title)
+[`IFoundOnWebElement`](../interfaces/IFoundOnWebElement.md).[`title`](../interfaces/IFoundOnWebElement.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:35655
+main.ts:35661
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IFoundOnWebElement](../interfaces/IFoundOnWebElement.md).[type](../interfaces/IFoundOnWebElement.md#type)
+[`IFoundOnWebElement`](../interfaces/IFoundOnWebElement.md).[`type`](../interfaces/IFoundOnWebElement.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:35653
+main.ts:35659
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:35672
+main.ts:35678
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:35692
+main.ts:35698
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`FoundOnWebElement`](FoundOnWebElement.md)
+> **`static`** **fromJS**(`data`): [`FoundOnWebElement`](FoundOnWebElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`FoundOnWebElement`](FoundOnWebElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:35685
+main.ts:35691

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / CacheControl
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / CacheControl
 
 # Class: CacheControl
 
@@ -8,134 +12,109 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](CacheControl.md#constructor)
-
-### Properties
-
-- [cachable](CacheControl.md#cachable)
-- [ttl](CacheControl.md#ttl)
-
-### Methods
-
-- [init](CacheControl.md#init)
-- [toJSON](CacheControl.md#tojson)
-- [fromJS](CacheControl.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new CacheControl(data)
 
-• **new CacheControl**(`data?`): [`CacheControl`](CacheControl.md)
+> **new CacheControl**(`data`?): [`CacheControl`](CacheControl.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ICacheControl`](../interfaces/ICacheControl.md) |
+• **data?**: [`ICacheControl`](../interfaces/ICacheControl.md)
 
 #### Returns
 
 [`CacheControl`](CacheControl.md)
 
-#### Defined in
+#### Source
 
-main.ts:150173
+main.ts:150181
 
 ## Properties
 
-### cachable
+### cachable?
 
-• `Optional` **cachable**: `boolean`
+> **`optional`** **cachable**: `boolean`
 
 indicates whether the page is cacheable
 
 #### Implementation of
 
-[ICacheControl](../interfaces/ICacheControl.md).[cachable](../interfaces/ICacheControl.md#cachable)
+[`ICacheControl`](../interfaces/ICacheControl.md).[`cachable`](../interfaces/ICacheControl.md#cachable)
 
-#### Defined in
+#### Source
 
-main.ts:150166
+main.ts:150174
 
-___
+***
 
-### ttl
+### ttl?
 
-• `Optional` **ttl**: `number`
+> **`optional`** **ttl**: `number`
 
 time to live
 the amount of time the browser caches a resource
 
 #### Implementation of
 
-[ICacheControl](../interfaces/ICacheControl.md).[ttl](../interfaces/ICacheControl.md#ttl)
+[`ICacheControl`](../interfaces/ICacheControl.md).[`ttl`](../interfaces/ICacheControl.md#ttl)
 
-#### Defined in
+#### Source
 
-main.ts:150169
+main.ts:150177
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:150182
+main.ts:150190
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:150200
+main.ts:150208
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`CacheControl`](CacheControl.md)
+> **`static`** **fromJS**(`data`): [`CacheControl`](CacheControl.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`CacheControl`](CacheControl.md)
 
-#### Defined in
+#### Source
 
-main.ts:150193
+main.ts:150201

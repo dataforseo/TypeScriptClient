@@ -1,44 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpGoogleMapsTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ISerpGoogleMapsTaskPostRequestInfo
 
 # Interface: ISerpGoogleMapsTaskPostRequestInfo
 
-## Implemented by
-
-- [`SerpGoogleMapsTaskPostRequestInfo`](../classes/SerpGoogleMapsTaskPostRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [depth](ISerpGoogleMapsTaskPostRequestInfo.md#depth)
-- [device](ISerpGoogleMapsTaskPostRequestInfo.md#device)
-- [keyword](ISerpGoogleMapsTaskPostRequestInfo.md#keyword)
-- [language\_code](ISerpGoogleMapsTaskPostRequestInfo.md#language_code)
-- [language\_name](ISerpGoogleMapsTaskPostRequestInfo.md#language_name)
-- [location\_code](ISerpGoogleMapsTaskPostRequestInfo.md#location_code)
-- [location\_coordinate](ISerpGoogleMapsTaskPostRequestInfo.md#location_coordinate)
-- [location\_name](ISerpGoogleMapsTaskPostRequestInfo.md#location_name)
-- [max\_crawl\_pages](ISerpGoogleMapsTaskPostRequestInfo.md#max_crawl_pages)
-- [os](ISerpGoogleMapsTaskPostRequestInfo.md#os)
-- [pingback\_url](ISerpGoogleMapsTaskPostRequestInfo.md#pingback_url)
-- [postback\_data](ISerpGoogleMapsTaskPostRequestInfo.md#postback_data)
-- [postback\_url](ISerpGoogleMapsTaskPostRequestInfo.md#postback_url)
-- [priority](ISerpGoogleMapsTaskPostRequestInfo.md#priority)
-- [se\_domain](ISerpGoogleMapsTaskPostRequestInfo.md#se_domain)
-- [search\_places](ISerpGoogleMapsTaskPostRequestInfo.md#search_places)
-- [search\_this\_area](ISerpGoogleMapsTaskPostRequestInfo.md#search_this_area)
-- [tag](ISerpGoogleMapsTaskPostRequestInfo.md#tag)
-- [url](ISerpGoogleMapsTaskPostRequestInfo.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### depth
+### depth?
 
-• `Optional` **depth**: `number`
+> **`optional`** **depth**: `number`
 
 parsing depth
 optional field
@@ -49,15 +25,15 @@ Note: your account will be billed per each SERP containing up to 100 results;
 thus, setting a depth above 100 may result in additional charges if the search engine returns more than 100 results;
 if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance
 
-#### Defined in
+#### Source
 
-main.ts:38374
+main.ts:38380
 
-___
+***
 
-### device
+### device?
 
-• `Optional` **device**: `string`
+> **`optional`** **device**: `string`
 
 device type
 optional field
@@ -65,15 +41,15 @@ can take the values:desktop, mobile
 default value: desktop
 note: for mobile device, only 20 results are returned for every SERP
 
-#### Defined in
+#### Source
 
-main.ts:38351
+main.ts:38357
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword
 required field
@@ -84,15 +60,15 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘related:’, ‘site:’, the charge per task will be multiplied by 5
 Note: queries containing the ‘cache:’ parameter are not supported and will return a validation error
 
-#### Defined in
+#### Source
 
-main.ts:38298
+main.ts:38304
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -101,15 +77,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:38345
+main.ts:38351
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -118,15 +94,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:38338
+main.ts:38344
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -135,15 +111,15 @@ you can receive the list of available locations of the search engines with their
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:38320
+main.ts:38326
 
-___
+***
 
-### location\_coordinate
+### location\_coordinate?
 
-• `Optional` **location\_coordinate**: `string`
+> **`optional`** **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -156,15 +132,15 @@ the maximum value for “zoom”: 21z
 example:
 52.6178549,-155.352142,20z
 
-#### Defined in
+#### Source
 
-main.ts:38331
+main.ts:38337
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -173,15 +149,15 @@ you can receive the list of available locations of the search engine with their 
 example:
 London,England,United Kingdom
 
-#### Defined in
+#### Source
 
-main.ts:38313
+main.ts:38319
 
-___
+***
 
-### max\_crawl\_pages
+### max\_crawl\_pages?
 
-• `Optional` **max\_crawl\_pages**: `number`
+> **`optional`** **max\_crawl\_pages**: `number`
 
 page crawl limit
 optional field
@@ -190,15 +166,15 @@ max value: 100
 Note: the max_crawl_pages and depth parameters complement each other;
 learn more at our help center
 
-#### Defined in
+#### Source
 
-main.ts:38381
+main.ts:38387
 
-___
+***
 
-### os
+### os?
 
-• `Optional` **os**: `string`
+> **`optional`** **os**: `string`
 
 device operating system
 optional field
@@ -207,15 +183,15 @@ default value: windows
 if you specify mobile in the device field, choose from the following values: android, ios
 default value: android
 
-#### Defined in
+#### Source
 
-main.ts:38358
+main.ts:38364
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -227,15 +203,15 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special symbols in pingback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
-main.ts:38426
+main.ts:38432
 
-___
+***
 
-### postback\_data
+### postback\_data?
 
-• `Optional` **postback\_data**: `string`
+> **`optional`** **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -243,15 +219,15 @@ corresponds to the function you used for setting a task
 possible values:
 advanced
 
-#### Defined in
+#### Source
 
-main.ts:38416
+main.ts:38422
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -263,15 +239,15 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special symbols in postback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
-main.ts:38410
+main.ts:38416
 
-___
+***
 
-### priority
+### priority?
 
-• `Optional` **priority**: `number`
+> **`optional`** **priority**: `number`
 
 task priority
 optional field
@@ -281,15 +257,15 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page.
 
-#### Defined in
+#### Source
 
-main.ts:38306
+main.ts:38312
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain
 optional field
@@ -298,15 +274,15 @@ however, you can set a custom search engine domain in this field
 example:
 google.co.uk, google.com.au, google.de, etc.
 
-#### Defined in
+#### Source
 
-main.ts:38365
+main.ts:38371
 
-___
+***
 
-### search\_places
+### search\_places?
 
-• `Optional` **search\_places**: `boolean`
+> **`optional`** **search\_places**: `boolean`
 
 search places mode
 optional field
@@ -315,15 +291,15 @@ however, due to the pecularities of our data mining algorithm, this mode might i
 to prevent this interference and obtain correct results for keywords with local intent you may set this parameter to false;default value: true
 Note: if the search_places mode is turned off and no results were found in the search area, the results array will be empty
 
-#### Defined in
+#### Source
 
-main.ts:38394
+main.ts:38400
 
-___
+***
 
-### search\_this\_area
+### search\_this\_area?
 
-• `Optional` **search\_this\_area**: `boolean`
+> **`optional`** **search\_this\_area**: `boolean`
 
 search this area
 optional field
@@ -331,15 +307,15 @@ can take the values:true, false
 default value: trueif set to false, the search_this_area mode will be turned off
 Note: if the search_this_area mode is turned off, Google Maps listings might contain results beyond the displayed area
 
-#### Defined in
+#### Source
 
-main.ts:38387
+main.ts:38393
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -347,15 +323,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:38400
+main.ts:38406
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 direct URL of the search query
 optional field
@@ -363,6 +339,6 @@ you can specify a direct URL and we will sort it out to the necessary fields. No
 example:
 https://google.com/maps/search/pizza/@37.09024,-95.712891,4z
 
-#### Defined in
+#### Source
 
-main.ts:38289
+main.ts:38295

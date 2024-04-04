@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleOrganicTasksReadyResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleOrganicTasksReadyResultInfo
 
 # Class: SerpGoogleOrganicTasksReadyResultInfo
 
@@ -8,240 +12,209 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleOrganicTasksReadyResultInfo.md#constructor)
-
-### Properties
-
-- [date\_posted](SerpGoogleOrganicTasksReadyResultInfo.md#date_posted)
-- [endpoint\_advanced](SerpGoogleOrganicTasksReadyResultInfo.md#endpoint_advanced)
-- [endpoint\_html](SerpGoogleOrganicTasksReadyResultInfo.md#endpoint_html)
-- [endpoint\_regular](SerpGoogleOrganicTasksReadyResultInfo.md#endpoint_regular)
-- [id](SerpGoogleOrganicTasksReadyResultInfo.md#id)
-- [se](SerpGoogleOrganicTasksReadyResultInfo.md#se)
-- [se\_type](SerpGoogleOrganicTasksReadyResultInfo.md#se_type)
-- [tag](SerpGoogleOrganicTasksReadyResultInfo.md#tag)
-
-### Methods
-
-- [init](SerpGoogleOrganicTasksReadyResultInfo.md#init)
-- [toJSON](SerpGoogleOrganicTasksReadyResultInfo.md#tojson)
-- [fromJS](SerpGoogleOrganicTasksReadyResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleOrganicTasksReadyResultInfo(data)
 
-• **new SerpGoogleOrganicTasksReadyResultInfo**(`data?`): [`SerpGoogleOrganicTasksReadyResultInfo`](SerpGoogleOrganicTasksReadyResultInfo.md)
+> **new SerpGoogleOrganicTasksReadyResultInfo**(`data`?): [`SerpGoogleOrganicTasksReadyResultInfo`](SerpGoogleOrganicTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleOrganicTasksReadyResultInfo`](../interfaces/ISerpGoogleOrganicTasksReadyResultInfo.md) |
+• **data?**: [`ISerpGoogleOrganicTasksReadyResultInfo`](../interfaces/ISerpGoogleOrganicTasksReadyResultInfo.md)
 
 #### Returns
 
 [`SerpGoogleOrganicTasksReadyResultInfo`](SerpGoogleOrganicTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:25268
 
 ## Properties
 
-### date\_posted
+### date\_posted?
 
-• `Optional` **date\_posted**: `string`
+> **`optional`** **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
 #### Implementation of
 
-[ISerpGoogleOrganicTasksReadyResultInfo](../interfaces/ISerpGoogleOrganicTasksReadyResultInfo.md).[date_posted](../interfaces/ISerpGoogleOrganicTasksReadyResultInfo.md#date_posted)
+[`ISerpGoogleOrganicTasksReadyResultInfo`](../interfaces/ISerpGoogleOrganicTasksReadyResultInfo.md).[`date_posted`](../interfaces/ISerpGoogleOrganicTasksReadyResultInfo.md#date_posted)
 
-#### Defined in
+#### Source
 
 main.ts:25253
 
-___
+***
 
-### endpoint\_advanced
+### endpoint\_advanced?
 
-• `Optional` **endpoint\_advanced**: `string`
+> **`optional`** **endpoint\_advanced**: `string`
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpGoogleOrganicTasksReadyResultInfo](../interfaces/ISerpGoogleOrganicTasksReadyResultInfo.md).[endpoint_advanced](../interfaces/ISerpGoogleOrganicTasksReadyResultInfo.md#endpoint_advanced)
+[`ISerpGoogleOrganicTasksReadyResultInfo`](../interfaces/ISerpGoogleOrganicTasksReadyResultInfo.md).[`endpoint_advanced`](../interfaces/ISerpGoogleOrganicTasksReadyResultInfo.md#endpoint_advanced)
 
-#### Defined in
+#### Source
 
 main.ts:25261
 
-___
+***
 
-### endpoint\_html
+### endpoint\_html?
 
-• `Optional` **endpoint\_html**: `string`
+> **`optional`** **endpoint\_html**: `string`
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpGoogleOrganicTasksReadyResultInfo](../interfaces/ISerpGoogleOrganicTasksReadyResultInfo.md).[endpoint_html](../interfaces/ISerpGoogleOrganicTasksReadyResultInfo.md#endpoint_html)
+[`ISerpGoogleOrganicTasksReadyResultInfo`](../interfaces/ISerpGoogleOrganicTasksReadyResultInfo.md).[`endpoint_html`](../interfaces/ISerpGoogleOrganicTasksReadyResultInfo.md#endpoint_html)
 
-#### Defined in
+#### Source
 
 main.ts:25264
 
-___
+***
 
-### endpoint\_regular
+### endpoint\_regular?
 
-• `Optional` **endpoint\_regular**: `string`
+> **`optional`** **endpoint\_regular**: `string`
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpGoogleOrganicTasksReadyResultInfo](../interfaces/ISerpGoogleOrganicTasksReadyResultInfo.md).[endpoint_regular](../interfaces/ISerpGoogleOrganicTasksReadyResultInfo.md#endpoint_regular)
+[`ISerpGoogleOrganicTasksReadyResultInfo`](../interfaces/ISerpGoogleOrganicTasksReadyResultInfo.md).[`endpoint_regular`](../interfaces/ISerpGoogleOrganicTasksReadyResultInfo.md#endpoint_regular)
 
-#### Defined in
+#### Source
 
 main.ts:25258
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[ISerpGoogleOrganicTasksReadyResultInfo](../interfaces/ISerpGoogleOrganicTasksReadyResultInfo.md).[id](../interfaces/ISerpGoogleOrganicTasksReadyResultInfo.md#id)
+[`ISerpGoogleOrganicTasksReadyResultInfo`](../interfaces/ISerpGoogleOrganicTasksReadyResultInfo.md).[`id`](../interfaces/ISerpGoogleOrganicTasksReadyResultInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:25246
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 
 #### Implementation of
 
-[ISerpGoogleOrganicTasksReadyResultInfo](../interfaces/ISerpGoogleOrganicTasksReadyResultInfo.md).[se](../interfaces/ISerpGoogleOrganicTasksReadyResultInfo.md#se)
+[`ISerpGoogleOrganicTasksReadyResultInfo`](../interfaces/ISerpGoogleOrganicTasksReadyResultInfo.md).[`se`](../interfaces/ISerpGoogleOrganicTasksReadyResultInfo.md#se)
 
-#### Defined in
+#### Source
 
 main.ts:25248
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 type of search engine
 can take the following values: organic
 
 #### Implementation of
 
-[ISerpGoogleOrganicTasksReadyResultInfo](../interfaces/ISerpGoogleOrganicTasksReadyResultInfo.md).[se_type](../interfaces/ISerpGoogleOrganicTasksReadyResultInfo.md#se_type)
+[`ISerpGoogleOrganicTasksReadyResultInfo`](../interfaces/ISerpGoogleOrganicTasksReadyResultInfo.md).[`se_type`](../interfaces/ISerpGoogleOrganicTasksReadyResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
 main.ts:25251
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
 #### Implementation of
 
-[ISerpGoogleOrganicTasksReadyResultInfo](../interfaces/ISerpGoogleOrganicTasksReadyResultInfo.md).[tag](../interfaces/ISerpGoogleOrganicTasksReadyResultInfo.md#tag)
+[`ISerpGoogleOrganicTasksReadyResultInfo`](../interfaces/ISerpGoogleOrganicTasksReadyResultInfo.md).[`tag`](../interfaces/ISerpGoogleOrganicTasksReadyResultInfo.md#tag)
 
-#### Defined in
+#### Source
 
 main.ts:25255
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:25277
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:25301
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleOrganicTasksReadyResultInfo`](SerpGoogleOrganicTasksReadyResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleOrganicTasksReadyResultInfo`](SerpGoogleOrganicTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpGoogleOrganicTasksReadyResultInfo`](SerpGoogleOrganicTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:25294

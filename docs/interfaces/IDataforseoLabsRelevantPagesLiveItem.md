@@ -1,59 +1,51 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsRelevantPagesLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsRelevantPagesLiveItem
 
 # Interface: IDataforseoLabsRelevantPagesLiveItem
 
-## Implemented by
-
-- [`DataforseoLabsRelevantPagesLiveItem`](../classes/DataforseoLabsRelevantPagesLiveItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [metrics](IDataforseoLabsRelevantPagesLiveItem.md#metrics)
-- [page\_address](IDataforseoLabsRelevantPagesLiveItem.md#page_address)
-- [se\_type](IDataforseoLabsRelevantPagesLiveItem.md#se_type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### metrics
+### metrics?
 
-• `Optional` **metrics**: `Object`
+> **`optional`** **metrics**: `Object`
 
 rankings and traffic metrics for the relevant page
 
 #### Index signature
 
-▪ [key: `string`]: [`MetricsInfo`](../classes/MetricsInfo.md)
+ \[`key`: `string`\]: [`MetricsInfo`](../classes/MetricsInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:92646
+main.ts:92654
 
-___
+***
 
-### page\_address
+### page\_address?
 
-• `Optional` **page\_address**: `string`
+> **`optional`** **page\_address**: `string`
 
 absolute URL of the relevant page
 
-#### Defined in
+#### Source
 
-main.ts:92644
+main.ts:92652
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:92642
+main.ts:92650

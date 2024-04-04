@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAppleAppCompetitorsLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsAppleAppCompetitorsLiveItem
 
 # Class: DataforseoLabsAppleAppCompetitorsLiveItem
 
@@ -8,71 +12,47 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsAppleAppCompetitorsLiveItem.md#constructor)
-
-### Properties
-
-- [app\_id](DataforseoLabsAppleAppCompetitorsLiveItem.md#app_id)
-- [avg\_position](DataforseoLabsAppleAppCompetitorsLiveItem.md#avg_position)
-- [competitor\_metrics](DataforseoLabsAppleAppCompetitorsLiveItem.md#competitor_metrics)
-- [full\_metrics](DataforseoLabsAppleAppCompetitorsLiveItem.md#full_metrics)
-- [intersections](DataforseoLabsAppleAppCompetitorsLiveItem.md#intersections)
-- [se\_type](DataforseoLabsAppleAppCompetitorsLiveItem.md#se_type)
-- [sum\_position](DataforseoLabsAppleAppCompetitorsLiveItem.md#sum_position)
-
-### Methods
-
-- [init](DataforseoLabsAppleAppCompetitorsLiveItem.md#init)
-- [toJSON](DataforseoLabsAppleAppCompetitorsLiveItem.md#tojson)
-- [fromJS](DataforseoLabsAppleAppCompetitorsLiveItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsAppleAppCompetitorsLiveItem(data)
 
-• **new DataforseoLabsAppleAppCompetitorsLiveItem**(`data?`): [`DataforseoLabsAppleAppCompetitorsLiveItem`](DataforseoLabsAppleAppCompetitorsLiveItem.md)
+> **new DataforseoLabsAppleAppCompetitorsLiveItem**(`data`?): [`DataforseoLabsAppleAppCompetitorsLiveItem`](DataforseoLabsAppleAppCompetitorsLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsAppleAppCompetitorsLiveItem`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveItem.md) |
+• **data?**: [`IDataforseoLabsAppleAppCompetitorsLiveItem`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveItem.md)
 
 #### Returns
 
 [`DataforseoLabsAppleAppCompetitorsLiveItem`](DataforseoLabsAppleAppCompetitorsLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:113818
+main.ts:113826
 
 ## Properties
 
-### app\_id
+### app\_id?
 
-• `Optional` **app\_id**: `string`
+> **`optional`** **app\_id**: `string`
 
 id of the competitor app
 
 #### Implementation of
 
-[IDataforseoLabsAppleAppCompetitorsLiveItem](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveItem.md).[app_id](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveItem.md#app_id)
+[`IDataforseoLabsAppleAppCompetitorsLiveItem`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveItem.md).[`app_id`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveItem.md#app_id)
 
-#### Defined in
+#### Source
 
-main.ts:113797
+main.ts:113805
 
-___
+***
 
-### avg\_position
+### avg\_position?
 
-• `Optional` **avg\_position**: `number`
+> **`optional`** **avg\_position**: `number`
 
 average position of the app in App Store SERP
 Note: average position is calculated for intersected keywords only;
@@ -80,17 +60,17 @@ the value for a given application may differ when combined with different target
 
 #### Implementation of
 
-[IDataforseoLabsAppleAppCompetitorsLiveItem](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveItem.md).[avg_position](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveItem.md#avg_position)
+[`IDataforseoLabsAppleAppCompetitorsLiveItem`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveItem.md).[`avg_position`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveItem.md#avg_position)
 
-#### Defined in
+#### Source
 
-main.ts:113801
+main.ts:113809
 
-___
+***
 
-### competitor\_metrics
+### competitor\_metrics?
 
-• `Optional` **competitor\_metrics**: [`AppStoreMetricsBundleInfo`](AppStoreMetricsBundleInfo.md)
+> **`optional`** **competitor\_metrics**: [`AppStoreMetricsBundleInfo`](AppStoreMetricsBundleInfo.md)
 
 metrics for intersecting keywords
 ranking data relevant to the keywords that the provided competitor application shares with the app in a POST request;
@@ -98,66 +78,66 @@ note: in this array ranking data is provided for the returned competitor’s app
 
 #### Implementation of
 
-[IDataforseoLabsAppleAppCompetitorsLiveItem](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveItem.md).[competitor_metrics](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveItem.md#competitor_metrics)
+[`IDataforseoLabsAppleAppCompetitorsLiveItem`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveItem.md).[`competitor_metrics`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveItem.md#competitor_metrics)
 
-#### Defined in
+#### Source
 
-main.ts:113811
+main.ts:113819
 
-___
+***
 
-### full\_metrics
+### full\_metrics?
 
-• `Optional` **full\_metrics**: [`AppStoreMetricsBundleInfo`](AppStoreMetricsBundleInfo.md)
+> **`optional`** **full\_metrics**: [`AppStoreMetricsBundleInfo`](AppStoreMetricsBundleInfo.md)
 
 metrics for all keywords of the application
 full overview of ranking data relevant to all keywords that the provided app_id is ranking for
 
 #### Implementation of
 
-[IDataforseoLabsAppleAppCompetitorsLiveItem](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveItem.md).[full_metrics](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveItem.md#full_metrics)
+[`IDataforseoLabsAppleAppCompetitorsLiveItem`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveItem.md).[`full_metrics`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveItem.md#full_metrics)
 
-#### Defined in
+#### Source
 
-main.ts:113814
+main.ts:113822
 
-___
+***
 
-### intersections
+### intersections?
 
-• `Optional` **intersections**: `number`
+> **`optional`** **intersections**: `number`
 
 number of intersecting keywords
 
 #### Implementation of
 
-[IDataforseoLabsAppleAppCompetitorsLiveItem](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveItem.md).[intersections](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveItem.md#intersections)
+[`IDataforseoLabsAppleAppCompetitorsLiveItem`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveItem.md).[`intersections`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveItem.md#intersections)
 
-#### Defined in
+#### Source
 
-main.ts:113807
+main.ts:113815
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IDataforseoLabsAppleAppCompetitorsLiveItem](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveItem.md).[se_type](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveItem.md#se_type)
+[`IDataforseoLabsAppleAppCompetitorsLiveItem`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveItem.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:113795
+main.ts:113803
 
-___
+***
 
-### sum\_position
+### sum\_position?
 
-• `Optional` **sum\_position**: `number`
+> **`optional`** **sum\_position**: `number`
 
 sum of all app positions in App Store SERP
 Note: sum position is calculated for intersected keywords only;
@@ -165,68 +145,62 @@ the value for a given application may differ when combined with different target
 
 #### Implementation of
 
-[IDataforseoLabsAppleAppCompetitorsLiveItem](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveItem.md).[sum_position](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveItem.md#sum_position)
+[`IDataforseoLabsAppleAppCompetitorsLiveItem`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveItem.md).[`sum_position`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveItem.md#sum_position)
 
-#### Defined in
+#### Source
 
-main.ts:113805
+main.ts:113813
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:113827
+main.ts:113835
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:113850
+main.ts:113858
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsAppleAppCompetitorsLiveItem`](DataforseoLabsAppleAppCompetitorsLiveItem.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsAppleAppCompetitorsLiveItem`](DataforseoLabsAppleAppCompetitorsLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsAppleAppCompetitorsLiveItem`](DataforseoLabsAppleAppCompetitorsLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:113843
+main.ts:113851

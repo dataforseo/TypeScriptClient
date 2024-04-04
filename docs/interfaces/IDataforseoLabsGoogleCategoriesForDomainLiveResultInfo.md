@@ -1,107 +1,95 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleCategoriesForDomainLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsGoogleCategoriesForDomainLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleCategoriesForDomainLiveResultInfo
 
-## Implemented by
-
-- [`DataforseoLabsGoogleCategoriesForDomainLiveResultInfo`](../classes/DataforseoLabsGoogleCategoriesForDomainLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IDataforseoLabsGoogleCategoriesForDomainLiveResultInfo.md#items)
-- [items\_count](IDataforseoLabsGoogleCategoriesForDomainLiveResultInfo.md#items_count)
-- [language\_code](IDataforseoLabsGoogleCategoriesForDomainLiveResultInfo.md#language_code)
-- [location\_code](IDataforseoLabsGoogleCategoriesForDomainLiveResultInfo.md#location_code)
-- [se\_type](IDataforseoLabsGoogleCategoriesForDomainLiveResultInfo.md#se_type)
-- [target](IDataforseoLabsGoogleCategoriesForDomainLiveResultInfo.md#target)
-- [total\_count](IDataforseoLabsGoogleCategoriesForDomainLiveResultInfo.md#total_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`DataforseoLabsGoogleCategoriesForDomainLiveItem`](../classes/DataforseoLabsGoogleCategoriesForDomainLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsGoogleCategoriesForDomainLiveItem`](../classes/DataforseoLabsGoogleCategoriesForDomainLiveItem.md)[]
 
 contains relevant categories and related ranking data
 
-#### Defined in
+#### Source
 
-main.ts:85948
+main.ts:85956
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Defined in
+#### Source
 
-main.ts:85946
+main.ts:85954
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:85942
+main.ts:85950
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:85940
+main.ts:85948
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:85936
+main.ts:85944
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 target domain or subdomain in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:85938
+main.ts:85946
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
-#### Defined in
+#### Source
 
-main.ts:85944
+main.ts:85952

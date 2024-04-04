@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataGoogleReviewsTaskGetResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataGoogleReviewsTaskGetResultInfo
 
 # Class: BusinessDataGoogleReviewsTaskGetResultInfo
 
@@ -8,81 +12,48 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataGoogleReviewsTaskGetResultInfo.md#constructor)
-
-### Properties
-
-- [check\_url](BusinessDataGoogleReviewsTaskGetResultInfo.md#check_url)
-- [cid](BusinessDataGoogleReviewsTaskGetResultInfo.md#cid)
-- [datetime](BusinessDataGoogleReviewsTaskGetResultInfo.md#datetime)
-- [feature\_id](BusinessDataGoogleReviewsTaskGetResultInfo.md#feature_id)
-- [items](BusinessDataGoogleReviewsTaskGetResultInfo.md#items)
-- [items\_count](BusinessDataGoogleReviewsTaskGetResultInfo.md#items_count)
-- [keyword](BusinessDataGoogleReviewsTaskGetResultInfo.md#keyword)
-- [language\_code](BusinessDataGoogleReviewsTaskGetResultInfo.md#language_code)
-- [location\_code](BusinessDataGoogleReviewsTaskGetResultInfo.md#location_code)
-- [place\_id](BusinessDataGoogleReviewsTaskGetResultInfo.md#place_id)
-- [rating](BusinessDataGoogleReviewsTaskGetResultInfo.md#rating)
-- [reviews\_count](BusinessDataGoogleReviewsTaskGetResultInfo.md#reviews_count)
-- [se\_domain](BusinessDataGoogleReviewsTaskGetResultInfo.md#se_domain)
-- [sub\_title](BusinessDataGoogleReviewsTaskGetResultInfo.md#sub_title)
-- [title](BusinessDataGoogleReviewsTaskGetResultInfo.md#title)
-- [type](BusinessDataGoogleReviewsTaskGetResultInfo.md#type)
-
-### Methods
-
-- [init](BusinessDataGoogleReviewsTaskGetResultInfo.md#init)
-- [toJSON](BusinessDataGoogleReviewsTaskGetResultInfo.md#tojson)
-- [fromJS](BusinessDataGoogleReviewsTaskGetResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataGoogleReviewsTaskGetResultInfo(data)
 
-• **new BusinessDataGoogleReviewsTaskGetResultInfo**(`data?`): [`BusinessDataGoogleReviewsTaskGetResultInfo`](BusinessDataGoogleReviewsTaskGetResultInfo.md)
+> **new BusinessDataGoogleReviewsTaskGetResultInfo**(`data`?): [`BusinessDataGoogleReviewsTaskGetResultInfo`](BusinessDataGoogleReviewsTaskGetResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataGoogleReviewsTaskGetResultInfo`](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md) |
+• **data?**: [`IBusinessDataGoogleReviewsTaskGetResultInfo`](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md)
 
 #### Returns
 
 [`BusinessDataGoogleReviewsTaskGetResultInfo`](BusinessDataGoogleReviewsTaskGetResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:203889
 
 ## Properties
 
-### check\_url
+### check\_url?
 
-• `Optional` **check\_url**: `string`
+> **`optional`** **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTaskGetResultInfo](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md).[check_url](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md#check_url)
+[`IBusinessDataGoogleReviewsTaskGetResultInfo`](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md).[`check_url`](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md#check_url)
 
-#### Defined in
+#### Source
 
 main.ts:203853
 
-___
+***
 
-### cid
+### cid?
 
-• `Optional` **cid**: `string`
+> **`optional`** **cid**: `string`
 
 google-defined client id
 unique id of a local establishment
@@ -90,17 +61,17 @@ learn more about the identifier in this help center article
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTaskGetResultInfo](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md).[cid](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md#cid)
+[`IBusinessDataGoogleReviewsTaskGetResultInfo`](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md).[`cid`](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md#cid)
 
-#### Defined in
+#### Source
 
 main.ts:203877
 
-___
+***
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -109,284 +80,278 @@ example:
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTaskGetResultInfo](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md).[datetime](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md#datetime)
+[`IBusinessDataGoogleReviewsTaskGetResultInfo`](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md).[`datetime`](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
 main.ts:203858
 
-___
+***
 
-### feature\_id
+### feature\_id?
 
-• `Optional` **feature\_id**: `string`
+> **`optional`** **feature\_id**: `string`
 
 the unique identifier of the ‘reviews’ element in SERP
 learn more about the identifier in this help center article
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTaskGetResultInfo](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md).[feature_id](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md#feature_id)
+[`IBusinessDataGoogleReviewsTaskGetResultInfo`](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md).[`feature_id`](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md#feature_id)
 
-#### Defined in
+#### Source
 
 main.ts:203870
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)[]
+> **`optional`** **items**: [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)[]
 
 found reviews
 you can get more results by using the depth parameter when setting a task
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTaskGetResultInfo](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md).[items](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md#items)
+[`IBusinessDataGoogleReviewsTaskGetResultInfo`](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md).[`items`](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md#items)
 
-#### Defined in
+#### Source
 
 main.ts:203885
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of reviews items in the results array
 you can get more results by using the depth parameter when setting a task
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTaskGetResultInfo](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md).[items_count](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md#items_count)
+[`IBusinessDataGoogleReviewsTaskGetResultInfo`](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md).[`items_count`](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
 main.ts:203882
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTaskGetResultInfo](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md).[keyword](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md#keyword)
+[`IBusinessDataGoogleReviewsTaskGetResultInfo`](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md).[`keyword`](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md#keyword)
 
-#### Defined in
+#### Source
 
 main.ts:203842
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTaskGetResultInfo](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md).[language_code](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md#language_code)
+[`IBusinessDataGoogleReviewsTaskGetResultInfo`](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md).[`language_code`](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
 main.ts:203850
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTaskGetResultInfo](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md).[location_code](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md#location_code)
+[`IBusinessDataGoogleReviewsTaskGetResultInfo`](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md).[`location_code`](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
 main.ts:203848
 
-___
+***
 
-### place\_id
+### place\_id?
 
-• `Optional` **place\_id**: `string`
+> **`optional`** **place\_id**: `string`
 
 unique identifier of a business location assigned by Google
 learn more about the identifier in this help center article
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTaskGetResultInfo](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md).[place_id](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md#place_id)
+[`IBusinessDataGoogleReviewsTaskGetResultInfo`](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md).[`place_id`](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md#place_id)
 
-#### Defined in
+#### Source
 
 main.ts:203873
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](RatingInfo.md)
 
 rating of the corresponding local establishment
 popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTaskGetResultInfo](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md).[rating](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md#rating)
+[`IBusinessDataGoogleReviewsTaskGetResultInfo`](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md).[`rating`](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md#rating)
 
-#### Defined in
+#### Source
 
 main.ts:203867
 
-___
+***
 
-### reviews\_count
+### reviews\_count?
 
-• `Optional` **reviews\_count**: `number`
+> **`optional`** **reviews\_count**: `number`
 
 the total number of reviews
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTaskGetResultInfo](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md).[reviews_count](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md#reviews_count)
+[`IBusinessDataGoogleReviewsTaskGetResultInfo`](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md).[`reviews_count`](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md#reviews_count)
 
-#### Defined in
+#### Source
 
 main.ts:203879
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTaskGetResultInfo](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md).[se_domain](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md#se_domain)
+[`IBusinessDataGoogleReviewsTaskGetResultInfo`](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md).[`se_domain`](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md#se_domain)
 
-#### Defined in
+#### Source
 
 main.ts:203846
 
-___
+***
 
-### sub\_title
+### sub\_title?
 
-• `Optional` **sub\_title**: `string`
+> **`optional`** **sub\_title**: `string`
 
 subtitle of the ‘reviews’ element in SERP
 additional information (e.g., address) on the ‘reviews’ element for which the reviews are collected
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTaskGetResultInfo](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md).[sub_title](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md#sub_title)
+[`IBusinessDataGoogleReviewsTaskGetResultInfo`](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md).[`sub_title`](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md#sub_title)
 
-#### Defined in
+#### Source
 
 main.ts:203864
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the ‘reviews’ element in SERP
 the name of the local establishment for which the reviews are collected
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTaskGetResultInfo](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md).[title](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md#title)
+[`IBusinessDataGoogleReviewsTaskGetResultInfo`](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md).[`title`](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:203861
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IBusinessDataGoogleReviewsTaskGetResultInfo](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md).[type](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md#type)
+[`IBusinessDataGoogleReviewsTaskGetResultInfo`](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md).[`type`](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md#type)
 
-#### Defined in
+#### Source
 
 main.ts:203844
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:203898
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:203934
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataGoogleReviewsTaskGetResultInfo`](BusinessDataGoogleReviewsTaskGetResultInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataGoogleReviewsTaskGetResultInfo`](BusinessDataGoogleReviewsTaskGetResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BusinessDataGoogleReviewsTaskGetResultInfo`](BusinessDataGoogleReviewsTaskGetResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:203927

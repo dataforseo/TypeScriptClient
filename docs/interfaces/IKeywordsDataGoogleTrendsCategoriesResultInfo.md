@@ -1,40 +1,32 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleTrendsCategoriesResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IKeywordsDataGoogleTrendsCategoriesResultInfo
 
 # Interface: IKeywordsDataGoogleTrendsCategoriesResultInfo
 
-## Implemented by
-
-- [`KeywordsDataGoogleTrendsCategoriesResultInfo`](../classes/KeywordsDataGoogleTrendsCategoriesResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [category\_code](IKeywordsDataGoogleTrendsCategoriesResultInfo.md#category_code)
-- [category\_code\_parent](IKeywordsDataGoogleTrendsCategoriesResultInfo.md#category_code_parent)
-- [category\_name](IKeywordsDataGoogleTrendsCategoriesResultInfo.md#category_name)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### category\_code
+### category\_code?
 
-• `Optional` **category\_code**: `number`
+> **`optional`** **category\_code**: `number`
 
 unique google trends category identifier
 
-#### Defined in
+#### Source
 
-main.ts:122036
+main.ts:122044
 
-___
+***
 
-### category\_code\_parent
+### category\_code\_parent?
 
-• `Optional` **category\_code\_parent**: `number`
+> **`optional`** **category\_code\_parent**: `number`
 
 the code of the superordinate category
 example:
@@ -45,18 +37,18 @@ where category_code_parent corresponds to:
 "category_code": 1097,
 "category_name": "Action & Adventure Films"
 
-#### Defined in
+#### Source
 
-main.ts:122047
+main.ts:122055
 
-___
+***
 
-### category\_name
+### category\_name?
 
-• `Optional` **category\_name**: `string`
+> **`optional`** **category\_name**: `string`
 
 name of the google trends category
 
-#### Defined in
+#### Source
 
-main.ts:122038
+main.ts:122046

@@ -1,61 +1,30 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentGenerationApi
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ContentGenerationApi
 
 # Class: ContentGenerationApi
 
-## Table of contents
-
-### Constructors
-
-- [constructor](ContentGenerationApi.md#constructor)
-
-### Properties
-
-- [baseUrl](ContentGenerationApi.md#baseurl)
-- [http](ContentGenerationApi.md#http)
-- [jsonParseReviver](ContentGenerationApi.md#jsonparsereviver)
-
-### Methods
-
-- [checkGrammarLive](ContentGenerationApi.md#checkgrammarlive)
-- [contentGenerationCheckGrammarLanguages](ContentGenerationApi.md#contentgenerationcheckgrammarlanguages)
-- [contentGenerationTextSummaryLanguages](ContentGenerationApi.md#contentgenerationtextsummarylanguages)
-- [generateLive](ContentGenerationApi.md#generatelive)
-- [generateMetaTagsLive](ContentGenerationApi.md#generatemetatagslive)
-- [generateSubTopicsLive](ContentGenerationApi.md#generatesubtopicslive)
-- [generateTextLive](ContentGenerationApi.md#generatetextlive)
-- [grammarRules](ContentGenerationApi.md#grammarrules)
-- [paraphraseLive](ContentGenerationApi.md#paraphraselive)
-- [processCheckGrammarLive](ContentGenerationApi.md#processcheckgrammarlive)
-- [processContentGenerationCheckGrammarLanguages](ContentGenerationApi.md#processcontentgenerationcheckgrammarlanguages)
-- [processContentGenerationTextSummaryLanguages](ContentGenerationApi.md#processcontentgenerationtextsummarylanguages)
-- [processGenerateLive](ContentGenerationApi.md#processgeneratelive)
-- [processGenerateMetaTagsLive](ContentGenerationApi.md#processgeneratemetatagslive)
-- [processGenerateSubTopicsLive](ContentGenerationApi.md#processgeneratesubtopicslive)
-- [processGenerateTextLive](ContentGenerationApi.md#processgeneratetextlive)
-- [processGrammarRules](ContentGenerationApi.md#processgrammarrules)
-- [processParaphraseLive](ContentGenerationApi.md#processparaphraselive)
-- [processTextSummaryLive](ContentGenerationApi.md#processtextsummarylive)
-- [textSummaryLive](ContentGenerationApi.md#textsummarylive)
-
 ## Constructors
 
-### constructor
+### new ContentGenerationApi(baseUrl, http)
 
-• **new ContentGenerationApi**(`baseUrl?`, `http?`): [`ContentGenerationApi`](ContentGenerationApi.md)
+> **new ContentGenerationApi**(`baseUrl`?, `http`?): [`ContentGenerationApi`](ContentGenerationApi.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `baseUrl?` | `string` |
-| `http?` | `Object` |
-| `http.fetch` | (`url`: `RequestInfo`, `init?`: `RequestInit`) => `Promise`\<`Response`\> |
+• **baseUrl?**: `string`
+
+• **http?**
+
+• **http\.fetch?**
 
 #### Returns
 
 [`ContentGenerationApi`](ContentGenerationApi.md)
 
-#### Defined in
+#### Source
 
 main.ts:13650
 
@@ -63,64 +32,65 @@ main.ts:13650
 
 ### baseUrl
 
-• `Private` **baseUrl**: `string`
+> **`private`** **baseUrl**: `string`
 
-#### Defined in
+#### Source
 
 main.ts:13647
 
-___
+***
 
 ### http
 
-• `Private` **http**: `Object`
+> **`private`** **http**: `Object`
 
-#### Type declaration
-
-| Name | Type |
-| :------ | :------ |
-| `fetch` | (`url`: `RequestInfo`, `init?`: `RequestInit`) => `Promise`\<`Response`\> |
-
-#### Defined in
-
-main.ts:13646
-
-___
-
-### jsonParseReviver
-
-• `Protected` **jsonParseReviver**: (`key`: `string`, `value`: `any`) => `any` = `undefined`
-
-#### Type declaration
-
-▸ (`key`, `value`): `any`
+#### http.fetch()
 
 ##### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `key` | `string` |
-| `value` | `any` |
+• **url**: `RequestInfo`
+
+• **init?**: `RequestInit`
 
 ##### Returns
 
+`Promise`\<`Response`\>
+
+#### Source
+
+main.ts:13646
+
+***
+
+### jsonParseReviver
+
+> **`protected`** **jsonParseReviver**: (`key`, `value`) => `any` = `undefined`
+
+#### Parameters
+
+• **key**: `string`
+
+• **value**: `any`
+
+#### Returns
+
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:13648
 
 ## Methods
 
-### checkGrammarLive
+### checkGrammarLive()
 
-▸ **checkGrammarLive**(`body`): `Promise`\<[`ContentGenerationCheckGrammarLiveResponseInfo`](ContentGenerationCheckGrammarLiveResponseInfo.md)\>
+> **checkGrammarLive**(`body`): `Promise`\<[`ContentGenerationCheckGrammarLiveResponseInfo`](ContentGenerationCheckGrammarLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`ContentGenerationCheckGrammarLiveRequestInfo`](ContentGenerationCheckGrammarLiveRequestInfo.md)[] | (optional) |
+• **body**: [`ContentGenerationCheckGrammarLiveRequestInfo`](ContentGenerationCheckGrammarLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -128,15 +98,15 @@ main.ts:13648
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:13869
 
-___
+***
 
-### contentGenerationCheckGrammarLanguages
+### contentGenerationCheckGrammarLanguages()
 
-▸ **contentGenerationCheckGrammarLanguages**(): `Promise`\<[`ContentGenerationCheckGrammarLanguagesResponseInfo`](ContentGenerationCheckGrammarLanguagesResponseInfo.md)\>
+> **contentGenerationCheckGrammarLanguages**(): `Promise`\<[`ContentGenerationCheckGrammarLanguagesResponseInfo`](ContentGenerationCheckGrammarLanguagesResponseInfo.md)\>
 
 #### Returns
 
@@ -144,15 +114,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:13910
 
-___
+***
 
-### contentGenerationTextSummaryLanguages
+### contentGenerationTextSummaryLanguages()
 
-▸ **contentGenerationTextSummaryLanguages**(): `Promise`\<[`ContentGenerationTextSummaryLanguagesResponseInfo`](ContentGenerationTextSummaryLanguagesResponseInfo.md)\>
+> **contentGenerationTextSummaryLanguages**(): `Promise`\<[`ContentGenerationTextSummaryLanguagesResponseInfo`](ContentGenerationTextSummaryLanguagesResponseInfo.md)\>
 
 #### Returns
 
@@ -160,21 +130,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:14026
 
-___
+***
 
-### generateLive
+### generateLive()
 
-▸ **generateLive**(`body`): `Promise`\<[`ContentGenerationGenerateLiveResponseInfo`](ContentGenerationGenerateLiveResponseInfo.md)\>
+> **generateLive**(`body`): `Promise`\<[`ContentGenerationGenerateLiveResponseInfo`](ContentGenerationGenerateLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`ContentGenerationGenerateLiveRequestInfo`](ContentGenerationGenerateLiveRequestInfo.md)[] | (optional) |
+• **body**: [`ContentGenerationGenerateLiveRequestInfo`](ContentGenerationGenerateLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -182,21 +152,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:13659
 
-___
+***
 
-### generateMetaTagsLive
+### generateMetaTagsLive()
 
-▸ **generateMetaTagsLive**(`body`): `Promise`\<[`ContentGenerationGenerateMetaTagsLiveResponseInfo`](ContentGenerationGenerateMetaTagsLiveResponseInfo.md)\>
+> **generateMetaTagsLive**(`body`): `Promise`\<[`ContentGenerationGenerateMetaTagsLiveResponseInfo`](ContentGenerationGenerateMetaTagsLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`ContentGenerationGenerateMetaTagsLiveRequestInfo`](ContentGenerationGenerateMetaTagsLiveRequestInfo.md)[] | (optional) |
+• **body**: [`ContentGenerationGenerateMetaTagsLiveRequestInfo`](ContentGenerationGenerateMetaTagsLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -204,21 +174,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:13743
 
-___
+***
 
-### generateSubTopicsLive
+### generateSubTopicsLive()
 
-▸ **generateSubTopicsLive**(`body`): `Promise`\<[`ContentGenerationGenerateSubTopicsLiveResponseInfo`](ContentGenerationGenerateSubTopicsLiveResponseInfo.md)\>
+> **generateSubTopicsLive**(`body`): `Promise`\<[`ContentGenerationGenerateSubTopicsLiveResponseInfo`](ContentGenerationGenerateSubTopicsLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`ContentGenerationGenerateSubTopicsLiveRequestInfo`](ContentGenerationGenerateSubTopicsLiveRequestInfo.md)[] | (optional) |
+• **body**: [`ContentGenerationGenerateSubTopicsLiveRequestInfo`](ContentGenerationGenerateSubTopicsLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -226,21 +196,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:13785
 
-___
+***
 
-### generateTextLive
+### generateTextLive()
 
-▸ **generateTextLive**(`body`): `Promise`\<[`ContentGenerationGenerateTextLiveResponseInfo`](ContentGenerationGenerateTextLiveResponseInfo.md)\>
+> **generateTextLive**(`body`): `Promise`\<[`ContentGenerationGenerateTextLiveResponseInfo`](ContentGenerationGenerateTextLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`ContentGenerationGenerateTextLiveRequestInfo`](ContentGenerationGenerateTextLiveRequestInfo.md)[] | (optional) |
+• **body**: [`ContentGenerationGenerateTextLiveRequestInfo`](ContentGenerationGenerateTextLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -248,15 +218,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:13701
 
-___
+***
 
-### grammarRules
+### grammarRules()
 
-▸ **grammarRules**(): `Promise`\<[`ContentGenerationGrammarRulesResponseInfo`](ContentGenerationGrammarRulesResponseInfo.md)\>
+> **grammarRules**(): `Promise`\<[`ContentGenerationGrammarRulesResponseInfo`](ContentGenerationGrammarRulesResponseInfo.md)\>
 
 #### Returns
 
@@ -264,21 +234,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:13947
 
-___
+***
 
-### paraphraseLive
+### paraphraseLive()
 
-▸ **paraphraseLive**(`body`): `Promise`\<[`ContentGenerationParaphraseLiveResponseInfo`](ContentGenerationParaphraseLiveResponseInfo.md)\>
+> **paraphraseLive**(`body`): `Promise`\<[`ContentGenerationParaphraseLiveResponseInfo`](ContentGenerationParaphraseLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`ContentGenerationParaphraseLiveRequestInfo`](ContentGenerationParaphraseLiveRequestInfo.md)[] | (optional) |
+• **body**: [`ContentGenerationParaphraseLiveRequestInfo`](ContentGenerationParaphraseLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -286,221 +256,201 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:13827
 
-___
+***
 
-### processCheckGrammarLive
+### processCheckGrammarLive()
 
-▸ **processCheckGrammarLive**(`response`): `Promise`\<[`ContentGenerationCheckGrammarLiveResponseInfo`](ContentGenerationCheckGrammarLiveResponseInfo.md)\>
+> **`protected`** **processCheckGrammarLive**(`response`): `Promise`\<[`ContentGenerationCheckGrammarLiveResponseInfo`](ContentGenerationCheckGrammarLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`ContentGenerationCheckGrammarLiveResponseInfo`](ContentGenerationCheckGrammarLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:13889
 
-___
+***
 
-### processContentGenerationCheckGrammarLanguages
+### processContentGenerationCheckGrammarLanguages()
 
-▸ **processContentGenerationCheckGrammarLanguages**(`response`): `Promise`\<[`ContentGenerationCheckGrammarLanguagesResponseInfo`](ContentGenerationCheckGrammarLanguagesResponseInfo.md)\>
+> **`protected`** **processContentGenerationCheckGrammarLanguages**(`response`): `Promise`\<[`ContentGenerationCheckGrammarLanguagesResponseInfo`](ContentGenerationCheckGrammarLanguagesResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`ContentGenerationCheckGrammarLanguagesResponseInfo`](ContentGenerationCheckGrammarLanguagesResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:13926
 
-___
+***
 
-### processContentGenerationTextSummaryLanguages
+### processContentGenerationTextSummaryLanguages()
 
-▸ **processContentGenerationTextSummaryLanguages**(`response`): `Promise`\<[`ContentGenerationTextSummaryLanguagesResponseInfo`](ContentGenerationTextSummaryLanguagesResponseInfo.md)\>
+> **`protected`** **processContentGenerationTextSummaryLanguages**(`response`): `Promise`\<[`ContentGenerationTextSummaryLanguagesResponseInfo`](ContentGenerationTextSummaryLanguagesResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`ContentGenerationTextSummaryLanguagesResponseInfo`](ContentGenerationTextSummaryLanguagesResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:14042
 
-___
+***
 
-### processGenerateLive
+### processGenerateLive()
 
-▸ **processGenerateLive**(`response`): `Promise`\<[`ContentGenerationGenerateLiveResponseInfo`](ContentGenerationGenerateLiveResponseInfo.md)\>
+> **`protected`** **processGenerateLive**(`response`): `Promise`\<[`ContentGenerationGenerateLiveResponseInfo`](ContentGenerationGenerateLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`ContentGenerationGenerateLiveResponseInfo`](ContentGenerationGenerateLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:13679
 
-___
+***
 
-### processGenerateMetaTagsLive
+### processGenerateMetaTagsLive()
 
-▸ **processGenerateMetaTagsLive**(`response`): `Promise`\<[`ContentGenerationGenerateMetaTagsLiveResponseInfo`](ContentGenerationGenerateMetaTagsLiveResponseInfo.md)\>
+> **`protected`** **processGenerateMetaTagsLive**(`response`): `Promise`\<[`ContentGenerationGenerateMetaTagsLiveResponseInfo`](ContentGenerationGenerateMetaTagsLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`ContentGenerationGenerateMetaTagsLiveResponseInfo`](ContentGenerationGenerateMetaTagsLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:13763
 
-___
+***
 
-### processGenerateSubTopicsLive
+### processGenerateSubTopicsLive()
 
-▸ **processGenerateSubTopicsLive**(`response`): `Promise`\<[`ContentGenerationGenerateSubTopicsLiveResponseInfo`](ContentGenerationGenerateSubTopicsLiveResponseInfo.md)\>
+> **`protected`** **processGenerateSubTopicsLive**(`response`): `Promise`\<[`ContentGenerationGenerateSubTopicsLiveResponseInfo`](ContentGenerationGenerateSubTopicsLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`ContentGenerationGenerateSubTopicsLiveResponseInfo`](ContentGenerationGenerateSubTopicsLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:13805
 
-___
+***
 
-### processGenerateTextLive
+### processGenerateTextLive()
 
-▸ **processGenerateTextLive**(`response`): `Promise`\<[`ContentGenerationGenerateTextLiveResponseInfo`](ContentGenerationGenerateTextLiveResponseInfo.md)\>
+> **`protected`** **processGenerateTextLive**(`response`): `Promise`\<[`ContentGenerationGenerateTextLiveResponseInfo`](ContentGenerationGenerateTextLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`ContentGenerationGenerateTextLiveResponseInfo`](ContentGenerationGenerateTextLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:13721
 
-___
+***
 
-### processGrammarRules
+### processGrammarRules()
 
-▸ **processGrammarRules**(`response`): `Promise`\<[`ContentGenerationGrammarRulesResponseInfo`](ContentGenerationGrammarRulesResponseInfo.md)\>
+> **`protected`** **processGrammarRules**(`response`): `Promise`\<[`ContentGenerationGrammarRulesResponseInfo`](ContentGenerationGrammarRulesResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`ContentGenerationGrammarRulesResponseInfo`](ContentGenerationGrammarRulesResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:13963
 
-___
+***
 
-### processParaphraseLive
+### processParaphraseLive()
 
-▸ **processParaphraseLive**(`response`): `Promise`\<[`ContentGenerationParaphraseLiveResponseInfo`](ContentGenerationParaphraseLiveResponseInfo.md)\>
+> **`protected`** **processParaphraseLive**(`response`): `Promise`\<[`ContentGenerationParaphraseLiveResponseInfo`](ContentGenerationParaphraseLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`ContentGenerationParaphraseLiveResponseInfo`](ContentGenerationParaphraseLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:13847
 
-___
+***
 
-### processTextSummaryLive
+### processTextSummaryLive()
 
-▸ **processTextSummaryLive**(`response`): `Promise`\<[`ContentGenerationTextSummaryLiveResponseInfo`](ContentGenerationTextSummaryLiveResponseInfo.md)\>
+> **`protected`** **processTextSummaryLive**(`response`): `Promise`\<[`ContentGenerationTextSummaryLiveResponseInfo`](ContentGenerationTextSummaryLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`ContentGenerationTextSummaryLiveResponseInfo`](ContentGenerationTextSummaryLiveResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:14005
 
-___
+***
 
-### textSummaryLive
+### textSummaryLive()
 
-▸ **textSummaryLive**(`body`): `Promise`\<[`ContentGenerationTextSummaryLiveResponseInfo`](ContentGenerationTextSummaryLiveResponseInfo.md)\>
+> **textSummaryLive**(`body`): `Promise`\<[`ContentGenerationTextSummaryLiveResponseInfo`](ContentGenerationTextSummaryLiveResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`ContentGenerationTextSummaryLiveRequestInfo`](ContentGenerationTextSummaryLiveRequestInfo.md)[] | (optional) |
+• **body**: [`ContentGenerationTextSummaryLiveRequestInfo`](ContentGenerationTextSummaryLiveRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -508,6 +458,6 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:13985

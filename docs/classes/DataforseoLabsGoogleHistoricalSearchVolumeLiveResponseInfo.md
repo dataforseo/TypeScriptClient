@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo
 
 # Class: DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md#cost)
-- [status\_code](DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md#status_code)
-- [status\_message](DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md#status_message)
-- [tasks](DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md#tasks)
-- [tasks\_count](DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md#tasks_count)
-- [tasks\_error](DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md#tasks_error)
-- [time](DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md#time)
-- [version](DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md#version)
-
-### Methods
-
-- [init](DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md#init)
-- [toJSON](DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md#tojson)
-- [fromJS](DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo(data)
 
-• **new DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo**(`data?`): [`DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo`](DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md)
+> **new DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo**(`data`?): [`DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo`](DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md) |
+• **data?**: [`IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:84542
+main.ts:84550
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md).[cost](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md#cost)
+[`IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md).[`cost`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md).[status_code](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md#status_code)
+[`IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md).[`status_code`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md).[status_message](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md#status_message)
+[`IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md).[`status_message`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`DataforseoLabsGoogleHistoricalSearchVolumeLiveTaskInfo`](DataforseoLabsGoogleHistoricalSearchVolumeLiveTaskInfo.md)[]
+> **`optional`** **tasks**: [`DataforseoLabsGoogleHistoricalSearchVolumeLiveTaskInfo`](DataforseoLabsGoogleHistoricalSearchVolumeLiveTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md).[tasks](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md#tasks)
+[`IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md).[`tasks`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:84538
+main.ts:84546
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md).[tasks_count](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md#tasks_count)
+[`IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md).[`tasks_count`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md).[tasks_error](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md#tasks_error)
+[`IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md).[`tasks_error`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md).[time](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md#time)
+[`IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md).[`time`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md).[version](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md#version)
+[`IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md).[`version`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:84546
+main.ts:84554
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:84568
+main.ts:84576
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo`](DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo`](DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:84561
+main.ts:84569

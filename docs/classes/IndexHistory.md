@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IndexHistory
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IndexHistory
 
 # Class: IndexHistory
 
@@ -8,52 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](IndexHistory.md#constructor)
-
-### Properties
-
-- [date](IndexHistory.md#date)
-- [total\_backlinks](IndexHistory.md#total_backlinks)
-- [total\_domains](IndexHistory.md#total_domains)
-- [total\_pages](IndexHistory.md#total_pages)
-
-### Methods
-
-- [init](IndexHistory.md#init)
-- [toJSON](IndexHistory.md#tojson)
-- [fromJS](IndexHistory.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new IndexHistory(data)
 
-• **new IndexHistory**(`data?`): [`IndexHistory`](IndexHistory.md)
+> **new IndexHistory**(`data`?): [`IndexHistory`](IndexHistory.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IIndexHistory`](../interfaces/IIndexHistory.md) |
+• **data?**: [`IIndexHistory`](../interfaces/IIndexHistory.md)
 
 #### Returns
 
 [`IndexHistory`](IndexHistory.md)
 
-#### Defined in
+#### Source
 
-main.ts:134319
+main.ts:134327
 
 ## Properties
 
-### date
+### date?
 
-• `Optional` **date**: `string`
+> **`optional`** **date**: `string`
 
 date for which index volume data is provided
 in the UTC format: “yyyy-mm-dd”
@@ -62,116 +45,110 @@ example:
 
 #### Implementation of
 
-[IIndexHistory](../interfaces/IIndexHistory.md).[date](../interfaces/IIndexHistory.md#date)
+[`IIndexHistory`](../interfaces/IIndexHistory.md).[`date`](../interfaces/IIndexHistory.md#date)
 
-#### Defined in
+#### Source
 
-main.ts:134309
+main.ts:134317
 
-___
+***
 
-### total\_backlinks
+### total\_backlinks?
 
-• `Optional` **total\_backlinks**: `number`
+> **`optional`** **total\_backlinks**: `number`
 
 total number of backlinks our database contained on the given date
 
 #### Implementation of
 
-[IIndexHistory](../interfaces/IIndexHistory.md).[total_backlinks](../interfaces/IIndexHistory.md#total_backlinks)
+[`IIndexHistory`](../interfaces/IIndexHistory.md).[`total_backlinks`](../interfaces/IIndexHistory.md#total_backlinks)
 
-#### Defined in
+#### Source
 
-main.ts:134311
+main.ts:134319
 
-___
+***
 
-### total\_domains
+### total\_domains?
 
-• `Optional` **total\_domains**: `number`
+> **`optional`** **total\_domains**: `number`
 
 total number of domains our database contained on the given date
 
 #### Implementation of
 
-[IIndexHistory](../interfaces/IIndexHistory.md).[total_domains](../interfaces/IIndexHistory.md#total_domains)
+[`IIndexHistory`](../interfaces/IIndexHistory.md).[`total_domains`](../interfaces/IIndexHistory.md#total_domains)
 
-#### Defined in
+#### Source
 
-main.ts:134315
+main.ts:134323
 
-___
+***
 
-### total\_pages
+### total\_pages?
 
-• `Optional` **total\_pages**: `number`
+> **`optional`** **total\_pages**: `number`
 
 total number of pages our database contained on the given date
 
 #### Implementation of
 
-[IIndexHistory](../interfaces/IIndexHistory.md).[total_pages](../interfaces/IIndexHistory.md#total_pages)
+[`IIndexHistory`](../interfaces/IIndexHistory.md).[`total_pages`](../interfaces/IIndexHistory.md#total_pages)
 
-#### Defined in
+#### Source
 
-main.ts:134313
+main.ts:134321
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:134328
+main.ts:134336
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:134348
+main.ts:134356
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`IndexHistory`](IndexHistory.md)
+> **`static`** **fromJS**(`data`): [`IndexHistory`](IndexHistory.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`IndexHistory`](IndexHistory.md)
 
-#### Defined in
+#### Source
 
-main.ts:134341
+main.ts:134349

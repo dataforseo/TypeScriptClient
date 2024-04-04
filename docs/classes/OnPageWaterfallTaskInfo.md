@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageWaterfallTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPageWaterfallTaskInfo
 
 # Class: OnPageWaterfallTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`OnPageWaterfallTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPageWaterfallTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](OnPageWaterfallTaskInfo.md#cost)
-- [data](OnPageWaterfallTaskInfo.md#data)
-- [id](OnPageWaterfallTaskInfo.md#id)
-- [path](OnPageWaterfallTaskInfo.md#path)
-- [result](OnPageWaterfallTaskInfo.md#result)
-- [result\_count](OnPageWaterfallTaskInfo.md#result_count)
-- [status\_code](OnPageWaterfallTaskInfo.md#status_code)
-- [status\_message](OnPageWaterfallTaskInfo.md#status_message)
-- [time](OnPageWaterfallTaskInfo.md#time)
-
-### Methods
-
-- [init](OnPageWaterfallTaskInfo.md#init)
-- [toJSON](OnPageWaterfallTaskInfo.md#tojson)
-- [fromJS](OnPageWaterfallTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPageWaterfallTaskInfo(data)
 
-• **new OnPageWaterfallTaskInfo**(`data?`): [`OnPageWaterfallTaskInfo`](OnPageWaterfallTaskInfo.md)
+> **new OnPageWaterfallTaskInfo**(`data`?): [`OnPageWaterfallTaskInfo`](OnPageWaterfallTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPageWaterfallTaskInfo`](../interfaces/IOnPageWaterfallTaskInfo.md) |
+• **data?**: [`IOnPageWaterfallTaskInfo`](../interfaces/IOnPageWaterfallTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:155362
+main.ts:155370
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IOnPageWaterfallTaskInfo](../interfaces/IOnPageWaterfallTaskInfo.md).[cost](../interfaces/IOnPageWaterfallTaskInfo.md#cost)
+[`IOnPageWaterfallTaskInfo`](../interfaces/IOnPageWaterfallTaskInfo.md).[`cost`](../interfaces/IOnPageWaterfallTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[IOnPageWaterfallTaskInfo](../interfaces/IOnPageWaterfallTaskInfo.md).[data](../interfaces/IOnPageWaterfallTaskInfo.md#data)
+[`IOnPageWaterfallTaskInfo`](../interfaces/IOnPageWaterfallTaskInfo.md).[`data`](../interfaces/IOnPageWaterfallTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IOnPageWaterfallTaskInfo](../interfaces/IOnPageWaterfallTaskInfo.md).[id](../interfaces/IOnPageWaterfallTaskInfo.md#id)
+[`IOnPageWaterfallTaskInfo`](../interfaces/IOnPageWaterfallTaskInfo.md).[`id`](../interfaces/IOnPageWaterfallTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[IOnPageWaterfallTaskInfo](../interfaces/IOnPageWaterfallTaskInfo.md).[path](../interfaces/IOnPageWaterfallTaskInfo.md#path)
+[`IOnPageWaterfallTaskInfo`](../interfaces/IOnPageWaterfallTaskInfo.md).[`path`](../interfaces/IOnPageWaterfallTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`OnPageWaterfallResultInfo`](OnPageWaterfallResultInfo.md)[]
+> **`optional`** **result**: [`OnPageWaterfallResultInfo`](OnPageWaterfallResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[IOnPageWaterfallTaskInfo](../interfaces/IOnPageWaterfallTaskInfo.md).[result](../interfaces/IOnPageWaterfallTaskInfo.md#result)
+[`IOnPageWaterfallTaskInfo`](../interfaces/IOnPageWaterfallTaskInfo.md).[`result`](../interfaces/IOnPageWaterfallTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:155358
+main.ts:155366
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[IOnPageWaterfallTaskInfo](../interfaces/IOnPageWaterfallTaskInfo.md).[result_count](../interfaces/IOnPageWaterfallTaskInfo.md#result_count)
+[`IOnPageWaterfallTaskInfo`](../interfaces/IOnPageWaterfallTaskInfo.md).[`result_count`](../interfaces/IOnPageWaterfallTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[IOnPageWaterfallTaskInfo](../interfaces/IOnPageWaterfallTaskInfo.md).[status_code](../interfaces/IOnPageWaterfallTaskInfo.md#status_code)
+[`IOnPageWaterfallTaskInfo`](../interfaces/IOnPageWaterfallTaskInfo.md).[`status_code`](../interfaces/IOnPageWaterfallTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IOnPageWaterfallTaskInfo](../interfaces/IOnPageWaterfallTaskInfo.md).[status_message](../interfaces/IOnPageWaterfallTaskInfo.md#status_message)
+[`IOnPageWaterfallTaskInfo`](../interfaces/IOnPageWaterfallTaskInfo.md).[`status_message`](../interfaces/IOnPageWaterfallTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[IOnPageWaterfallTaskInfo](../interfaces/IOnPageWaterfallTaskInfo.md).[time](../interfaces/IOnPageWaterfallTaskInfo.md#time)
+[`IOnPageWaterfallTaskInfo`](../interfaces/IOnPageWaterfallTaskInfo.md).[`time`](../interfaces/IOnPageWaterfallTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:155366
+main.ts:155374
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:155388
+main.ts:155396
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPageWaterfallTaskInfo`](OnPageWaterfallTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`OnPageWaterfallTaskInfo`](OnPageWaterfallTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:155381
+main.ts:155389

@@ -1,66 +1,56 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppDataAppleLocationsResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppDataAppleLocationsResultInfo
 
 # Interface: IAppDataAppleLocationsResultInfo
 
-## Implemented by
-
-- [`AppDataAppleLocationsResultInfo`](../classes/AppDataAppleLocationsResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [country\_iso\_code](IAppDataAppleLocationsResultInfo.md#country_iso_code)
-- [location\_code](IAppDataAppleLocationsResultInfo.md#location_code)
-- [location\_name](IAppDataAppleLocationsResultInfo.md#location_name)
-- [location\_name\_parent](IAppDataAppleLocationsResultInfo.md#location_name_parent)
-- [location\_type](IAppDataAppleLocationsResultInfo.md#location_type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### country\_iso\_code
+### country\_iso\_code?
 
-• `Optional` **country\_iso\_code**: `string`
+> **`optional`** **country\_iso\_code**: `string`
 
 ISO country code of the location
 
-#### Defined in
+#### Source
 
 main.ts:188264
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 
-#### Defined in
+#### Source
 
 main.ts:188251
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 
-#### Defined in
+#### Source
 
 main.ts:188253
 
-___
+***
 
-### location\_name\_parent
+### location\_name\_parent?
 
-• `Optional` **location\_name\_parent**: `number`
+> **`optional`** **location\_name\_parent**: `number`
 
 the name of the superordinate location
 example:
@@ -71,18 +61,18 @@ example:
 "location_name": "England,United Kingdom"
 note: Apple App Data API currently supports countries only, that is why this value will always be null
 
-#### Defined in
+#### Source
 
 main.ts:188262
 
-___
+***
 
-### location\_type
+### location\_type?
 
-• `Optional` **location\_type**: `string`
+> **`optional`** **location\_type**: `string`
 
 location type
 
-#### Defined in
+#### Source
 
 main.ts:188266

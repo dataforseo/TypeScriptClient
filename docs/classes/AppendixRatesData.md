@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixRatesData
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppendixRatesData
 
 # Class: AppendixRatesData
 
@@ -8,133 +12,108 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixRatesData.md#constructor)
-
-### Properties
-
-- [limits](AppendixRatesData.md#limits)
-- [statistics](AppendixRatesData.md#statistics)
-
-### Methods
-
-- [init](AppendixRatesData.md#init)
-- [toJSON](AppendixRatesData.md#tojson)
-- [fromJS](AppendixRatesData.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixRatesData(data)
 
-• **new AppendixRatesData**(`data?`): [`AppendixRatesData`](AppendixRatesData.md)
+> **new AppendixRatesData**(`data`?): [`AppendixRatesData`](AppendixRatesData.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixRatesData`](../interfaces/IAppendixRatesData.md) |
+• **data?**: [`IAppendixRatesData`](../interfaces/IAppendixRatesData.md)
 
 #### Returns
 
 [`AppendixRatesData`](AppendixRatesData.md)
 
-#### Defined in
+#### Source
 
 main.ts:214869
 
 ## Properties
 
-### limits
+### limits?
 
-• `Optional` **limits**: [`AppendixLimitsRatesData`](AppendixLimitsRatesData.md)
+> **`optional`** **limits**: [`AppendixLimitsRatesData`](AppendixLimitsRatesData.md)
 
 rate limits for API calls per a certain period of time
 
 #### Implementation of
 
-[IAppendixRatesData](../interfaces/IAppendixRatesData.md).[limits](../interfaces/IAppendixRatesData.md#limits)
+[`IAppendixRatesData`](../interfaces/IAppendixRatesData.md).[`limits`](../interfaces/IAppendixRatesData.md#limits)
 
-#### Defined in
+#### Source
 
 main.ts:214863
 
-___
+***
 
-### statistics
+### statistics?
 
-• `Optional` **statistics**: [`AppendixStatisticsDataInfo`](AppendixStatisticsDataInfo.md)
+> **`optional`** **statistics**: [`AppendixStatisticsDataInfo`](AppendixStatisticsDataInfo.md)
 
 statisctics for API calls
 
 #### Implementation of
 
-[IAppendixRatesData](../interfaces/IAppendixRatesData.md).[statistics](../interfaces/IAppendixRatesData.md#statistics)
+[`IAppendixRatesData`](../interfaces/IAppendixRatesData.md).[`statistics`](../interfaces/IAppendixRatesData.md#statistics)
 
-#### Defined in
+#### Source
 
 main.ts:214865
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:214878
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:214896
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppendixRatesData`](AppendixRatesData.md)
+> **`static`** **fromJS**(`data`): [`AppendixRatesData`](AppendixRatesData.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppendixRatesData`](AppendixRatesData.md)
 
-#### Defined in
+#### Source
 
 main.ts:214889

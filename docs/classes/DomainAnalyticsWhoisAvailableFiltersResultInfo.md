@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsWhoisAvailableFiltersResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DomainAnalyticsWhoisAvailableFiltersResultInfo
 
 # Class: DomainAnalyticsWhoisAvailableFiltersResultInfo
 
@@ -8,118 +12,94 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DomainAnalyticsWhoisAvailableFiltersResultInfo.md#constructor)
-
-### Properties
-
-- [overview](DomainAnalyticsWhoisAvailableFiltersResultInfo.md#overview)
-
-### Methods
-
-- [init](DomainAnalyticsWhoisAvailableFiltersResultInfo.md#init)
-- [toJSON](DomainAnalyticsWhoisAvailableFiltersResultInfo.md#tojson)
-- [fromJS](DomainAnalyticsWhoisAvailableFiltersResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DomainAnalyticsWhoisAvailableFiltersResultInfo(data)
 
-• **new DomainAnalyticsWhoisAvailableFiltersResultInfo**(`data?`): [`DomainAnalyticsWhoisAvailableFiltersResultInfo`](DomainAnalyticsWhoisAvailableFiltersResultInfo.md)
+> **new DomainAnalyticsWhoisAvailableFiltersResultInfo**(`data`?): [`DomainAnalyticsWhoisAvailableFiltersResultInfo`](DomainAnalyticsWhoisAvailableFiltersResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDomainAnalyticsWhoisAvailableFiltersResultInfo`](../interfaces/IDomainAnalyticsWhoisAvailableFiltersResultInfo.md) |
+• **data?**: [`IDomainAnalyticsWhoisAvailableFiltersResultInfo`](../interfaces/IDomainAnalyticsWhoisAvailableFiltersResultInfo.md)
 
 #### Returns
 
 [`DomainAnalyticsWhoisAvailableFiltersResultInfo`](DomainAnalyticsWhoisAvailableFiltersResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:77790
+main.ts:77798
 
 ## Properties
 
-### overview
+### overview?
 
-• `Optional` **overview**: `Object`
+> **`optional`** **overview**: `Object`
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
 #### Implementation of
 
-[IDomainAnalyticsWhoisAvailableFiltersResultInfo](../interfaces/IDomainAnalyticsWhoisAvailableFiltersResultInfo.md).[overview](../interfaces/IDomainAnalyticsWhoisAvailableFiltersResultInfo.md#overview)
+[`IDomainAnalyticsWhoisAvailableFiltersResultInfo`](../interfaces/IDomainAnalyticsWhoisAvailableFiltersResultInfo.md).[`overview`](../interfaces/IDomainAnalyticsWhoisAvailableFiltersResultInfo.md#overview)
 
-#### Defined in
+#### Source
 
-main.ts:77786
+main.ts:77794
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:77799
+main.ts:77807
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:77822
+main.ts:77830
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DomainAnalyticsWhoisAvailableFiltersResultInfo`](DomainAnalyticsWhoisAvailableFiltersResultInfo.md)
+> **`static`** **fromJS**(`data`): [`DomainAnalyticsWhoisAvailableFiltersResultInfo`](DomainAnalyticsWhoisAvailableFiltersResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DomainAnalyticsWhoisAvailableFiltersResultInfo`](DomainAnalyticsWhoisAvailableFiltersResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:77815
+main.ts:77823

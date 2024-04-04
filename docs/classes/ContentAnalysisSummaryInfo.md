@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentAnalysisSummaryInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ContentAnalysisSummaryInfo
 
 # Class: ContentAnalysisSummaryInfo
 
@@ -8,59 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ContentAnalysisSummaryInfo.md#constructor)
-
-### Properties
-
-- [connotation\_types](ContentAnalysisSummaryInfo.md#connotation_types)
-- [countries](ContentAnalysisSummaryInfo.md#countries)
-- [languages](ContentAnalysisSummaryInfo.md#languages)
-- [page\_categories](ContentAnalysisSummaryInfo.md#page_categories)
-- [page\_types](ContentAnalysisSummaryInfo.md#page_types)
-- [rank](ContentAnalysisSummaryInfo.md#rank)
-- [sentiment\_connotations](ContentAnalysisSummaryInfo.md#sentiment_connotations)
-- [text\_categories](ContentAnalysisSummaryInfo.md#text_categories)
-- [top\_domains](ContentAnalysisSummaryInfo.md#top_domains)
-- [total\_count](ContentAnalysisSummaryInfo.md#total_count)
-- [type](ContentAnalysisSummaryInfo.md#type)
-
-### Methods
-
-- [init](ContentAnalysisSummaryInfo.md#init)
-- [toJSON](ContentAnalysisSummaryInfo.md#tojson)
-- [fromJS](ContentAnalysisSummaryInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ContentAnalysisSummaryInfo(data)
 
-• **new ContentAnalysisSummaryInfo**(`data?`): [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
+> **new ContentAnalysisSummaryInfo**(`data`?): [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IContentAnalysisSummaryInfo`](../interfaces/IContentAnalysisSummaryInfo.md) |
+• **data?**: [`IContentAnalysisSummaryInfo`](../interfaces/IContentAnalysisSummaryInfo.md)
 
 #### Returns
 
 [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:162743
+main.ts:162751
 
 ## Properties
 
-### connotation\_types
+### connotation\_types?
 
-• `Optional` **connotation\_types**: `Object`
+> **`optional`** **connotation\_types**: `Object`
 
 connotation types
 contains types of sentiments (sentiment polarity) related to the keyword citation and citation count per each sentiment type
@@ -68,21 +44,21 @@ possible sentiment connotation types: positive, negative, neutral
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
 #### Implementation of
 
-[IContentAnalysisSummaryInfo](../interfaces/IContentAnalysisSummaryInfo.md).[connotation_types](../interfaces/IContentAnalysisSummaryInfo.md#connotation_types)
+[`IContentAnalysisSummaryInfo`](../interfaces/IContentAnalysisSummaryInfo.md).[`connotation_types`](../interfaces/IContentAnalysisSummaryInfo.md#connotation_types)
 
-#### Defined in
+#### Source
 
-main.ts:162720
+main.ts:162728
 
-___
+***
 
-### countries
+### countries?
 
-• `Optional` **countries**: `Object`
+> **`optional`** **countries**: `Object`
 
 countries
 contains countries and citation count in each country
@@ -90,21 +66,21 @@ to obtain a full list of available countries, refer to the Locations endpoint
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
 #### Implementation of
 
-[IContentAnalysisSummaryInfo](../interfaces/IContentAnalysisSummaryInfo.md).[countries](../interfaces/IContentAnalysisSummaryInfo.md#countries)
+[`IContentAnalysisSummaryInfo`](../interfaces/IContentAnalysisSummaryInfo.md).[`countries`](../interfaces/IContentAnalysisSummaryInfo.md#countries)
 
-#### Defined in
+#### Source
 
-main.ts:162735
+main.ts:162743
 
-___
+***
 
-### languages
+### languages?
 
-• `Optional` **languages**: `Object`
+> **`optional`** **languages**: `Object`
 
 languages
 contains languages and citation count in each language
@@ -112,21 +88,21 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
 #### Implementation of
 
-[IContentAnalysisSummaryInfo](../interfaces/IContentAnalysisSummaryInfo.md).[languages](../interfaces/IContentAnalysisSummaryInfo.md#languages)
+[`IContentAnalysisSummaryInfo`](../interfaces/IContentAnalysisSummaryInfo.md).[`languages`](../interfaces/IContentAnalysisSummaryInfo.md#languages)
 
-#### Defined in
+#### Source
 
-main.ts:162739
+main.ts:162747
 
-___
+***
 
-### page\_categories
+### page\_categories?
 
-• `Optional` **page\_categories**: [`ContentAnalysisCategoriesInfo`](ContentAnalysisCategoriesInfo.md)[]
+> **`optional`** **page\_categories**: [`ContentAnalysisCategoriesInfo`](ContentAnalysisCategoriesInfo.md)[]
 
 page categories
 contains objects with page categories and citation count in each page category
@@ -134,55 +110,55 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Implementation of
 
-[IContentAnalysisSummaryInfo](../interfaces/IContentAnalysisSummaryInfo.md).[page_categories](../interfaces/IContentAnalysisSummaryInfo.md#page_categories)
+[`IContentAnalysisSummaryInfo`](../interfaces/IContentAnalysisSummaryInfo.md).[`page_categories`](../interfaces/IContentAnalysisSummaryInfo.md#page_categories)
 
-#### Defined in
+#### Source
 
-main.ts:162728
+main.ts:162736
 
-___
+***
 
-### page\_types
+### page\_types?
 
-• `Optional` **page\_types**: `Object`
+> **`optional`** **page\_types**: `Object`
 
 page types
 contains page types and citation count per each page type
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
 #### Implementation of
 
-[IContentAnalysisSummaryInfo](../interfaces/IContentAnalysisSummaryInfo.md).[page_types](../interfaces/IContentAnalysisSummaryInfo.md#page_types)
+[`IContentAnalysisSummaryInfo`](../interfaces/IContentAnalysisSummaryInfo.md).[`page_types`](../interfaces/IContentAnalysisSummaryInfo.md#page_types)
 
-#### Defined in
+#### Source
 
-main.ts:162731
+main.ts:162739
 
-___
+***
 
-### rank
+### rank?
 
-• `Optional` **rank**: `number`
+> **`optional`** **rank**: `number`
 
 rank of all URLs citing the keyword
 normalized sum of ranks of all URLs citing the target keyword
 
 #### Implementation of
 
-[IContentAnalysisSummaryInfo](../interfaces/IContentAnalysisSummaryInfo.md).[rank](../interfaces/IContentAnalysisSummaryInfo.md#rank)
+[`IContentAnalysisSummaryInfo`](../interfaces/IContentAnalysisSummaryInfo.md).[`rank`](../interfaces/IContentAnalysisSummaryInfo.md#rank)
 
-#### Defined in
+#### Source
 
-main.ts:162709
+main.ts:162717
 
-___
+***
 
-### sentiment\_connotations
+### sentiment\_connotations?
 
-• `Optional` **sentiment\_connotations**: `Object`
+> **`optional`** **sentiment\_connotations**: `Object`
 
 sentiment connotations
 contains sentiments (emotional reactions) related to the target keyword citation and the number of citations per each sentiment
@@ -190,21 +166,21 @@ possible sentiment connotations: anger, happiness, love, sadness, share, fun
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
 #### Implementation of
 
-[IContentAnalysisSummaryInfo](../interfaces/IContentAnalysisSummaryInfo.md).[sentiment_connotations](../interfaces/IContentAnalysisSummaryInfo.md#sentiment_connotations)
+[`IContentAnalysisSummaryInfo`](../interfaces/IContentAnalysisSummaryInfo.md).[`sentiment_connotations`](../interfaces/IContentAnalysisSummaryInfo.md#sentiment_connotations)
 
-#### Defined in
+#### Source
 
-main.ts:162716
+main.ts:162724
 
-___
+***
 
-### text\_categories
+### text\_categories?
 
-• `Optional` **text\_categories**: [`ContentAnalysisCategoriesInfo`](ContentAnalysisCategoriesInfo.md)[]
+> **`optional`** **text\_categories**: [`ContentAnalysisCategoriesInfo`](ContentAnalysisCategoriesInfo.md)[]
 
 text categories
 contains objects with text categories and citation count in each text category
@@ -212,117 +188,111 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Implementation of
 
-[IContentAnalysisSummaryInfo](../interfaces/IContentAnalysisSummaryInfo.md).[text_categories](../interfaces/IContentAnalysisSummaryInfo.md#text_categories)
+[`IContentAnalysisSummaryInfo`](../interfaces/IContentAnalysisSummaryInfo.md).[`text_categories`](../interfaces/IContentAnalysisSummaryInfo.md#text_categories)
 
-#### Defined in
+#### Source
 
-main.ts:162724
+main.ts:162732
 
-___
+***
 
-### top\_domains
+### top\_domains?
 
-• `Optional` **top\_domains**: [`TopDomainInfo`](TopDomainInfo.md)[]
+> **`optional`** **top\_domains**: [`TopDomainInfo`](TopDomainInfo.md)[]
 
 top domains citing the target keyword
 contains objects with top domains citing the target keword and citation count per each domain
 
 #### Implementation of
 
-[IContentAnalysisSummaryInfo](../interfaces/IContentAnalysisSummaryInfo.md).[top_domains](../interfaces/IContentAnalysisSummaryInfo.md#top_domains)
+[`IContentAnalysisSummaryInfo`](../interfaces/IContentAnalysisSummaryInfo.md).[`top_domains`](../interfaces/IContentAnalysisSummaryInfo.md#top_domains)
 
-#### Defined in
+#### Source
 
-main.ts:162712
+main.ts:162720
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
 #### Implementation of
 
-[IContentAnalysisSummaryInfo](../interfaces/IContentAnalysisSummaryInfo.md).[total_count](../interfaces/IContentAnalysisSummaryInfo.md#total_count)
+[`IContentAnalysisSummaryInfo`](../interfaces/IContentAnalysisSummaryInfo.md).[`total_count`](../interfaces/IContentAnalysisSummaryInfo.md#total_count)
 
-#### Defined in
+#### Source
 
-main.ts:162706
+main.ts:162714
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IContentAnalysisSummaryInfo](../interfaces/IContentAnalysisSummaryInfo.md).[type](../interfaces/IContentAnalysisSummaryInfo.md#type)
+[`IContentAnalysisSummaryInfo`](../interfaces/IContentAnalysisSummaryInfo.md).[`type`](../interfaces/IContentAnalysisSummaryInfo.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:162704
+main.ts:162712
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:162752
+main.ts:162760
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:162821
+main.ts:162829
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
+> **`static`** **fromJS**(`data`): [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:162814
+main.ts:162822

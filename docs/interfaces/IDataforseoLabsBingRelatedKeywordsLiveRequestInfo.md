@@ -1,40 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingRelatedKeywordsLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsBingRelatedKeywordsLiveRequestInfo
 
 # Interface: IDataforseoLabsBingRelatedKeywordsLiveRequestInfo
 
-## Implemented by
-
-- [`DataforseoLabsBingRelatedKeywordsLiveRequestInfo`](../classes/DataforseoLabsBingRelatedKeywordsLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [depth](IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#depth)
-- [filters](IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#filters)
-- [ignore\_synonyms](IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#ignore_synonyms)
-- [include\_seed\_keyword](IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#include_seed_keyword)
-- [include\_serp\_info](IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#include_serp_info)
-- [keyword](IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#keyword)
-- [language\_code](IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#language_code)
-- [language\_name](IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#language_name)
-- [limit](IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#limit)
-- [location\_code](IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#location_code)
-- [location\_name](IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#location_name)
-- [offset](IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#offset)
-- [order\_by](IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#order_by)
-- [replace\_with\_core\_keyword](IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#replace_with_core_keyword)
-- [tag](IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### depth
+### depth?
 
-• `Optional` **depth**: `number`
+> **`optional`** **depth**: `number`
 
 keyword search depth
 optional field
@@ -48,81 +28,81 @@ estimated number of keywords for each level (maximum):
 3 – 584 keywords
 4 – 4680 keywords
 
-#### Defined in
+#### Source
 
-main.ts:108251
+main.ts:108259
 
-___
+***
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, <=, >, >=, =, <>, in, not_in, like,not_like
+regex, <, `<=, >`, >=, =, `<>`, in, not_in, like,not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
-["keyword_data.keyword_info.search_volume",">",0]
+["keyword_data.keyword_info.search_volume",">`",0]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide
 
-#### Defined in
+#### Source
 
-main.ts:108284
+main.ts:108292
 
-___
+***
 
-### ignore\_synonyms
+### ignore\_synonyms?
 
-• `Optional` **ignore\_synonyms**: `boolean`
+> **`optional`** **ignore\_synonyms**: `boolean`
 
 ignore highly similar keywords
 optional field
 if set to true only core keywords will be returned, all highly similar keywords will be excluded;
 default value: false
 
-#### Defined in
+#### Source
 
-main.ts:108273
+main.ts:108281
 
-___
+***
 
-### include\_seed\_keyword
+### include\_seed\_keyword?
 
-• `Optional` **include\_seed\_keyword**: `boolean`
+> **`optional`** **include\_seed\_keyword**: `boolean`
 
 include data for the seed keyword
 optional field
 if set to true, data for the seed keyword specified in the keyword field will be provided in the seed_keyword_data array of the response
 default value: false
 
-#### Defined in
+#### Source
 
-main.ts:108256
+main.ts:108264
 
-___
+***
 
-### include\_serp\_info
+### include\_serp\_info?
 
-• `Optional` **include\_serp\_info**: `boolean`
+> **`optional`** **include\_serp\_info**: `boolean`
 
 include data from SERP for each keyword
 optional field
 if set to true, we will return a serp_info array containing SERP data (number of search results, relevant URL, and SERP features) for every keyword in the response
 default value: false
 
-#### Defined in
+#### Source
 
-main.ts:108261
+main.ts:108269
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword
 required field
@@ -130,15 +110,15 @@ UTF-8 encoding
 a keyword should be at least 3 characters long;
 the keywords will be converted to lowercase format
 
-#### Defined in
+#### Source
 
-main.ts:108205
+main.ts:108213
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 required field if you don’t specify language_name
@@ -148,15 +128,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:108239
+main.ts:108247
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -166,30 +146,30 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:108231
+main.ts:108239
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned keywords
 optional field
 default value: 100
 maximum value: 1000
 
-#### Defined in
+#### Source
 
-main.ts:108305
+main.ts:108313
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 required field if you don’t specify location_name
@@ -200,15 +180,15 @@ Note: this endpoint currently supports the US location only;
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:108223
+main.ts:108231
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code
@@ -219,30 +199,30 @@ Note: this endpoint currently supports the US location only;
 example:
 United States
 
-#### Defined in
+#### Source
 
-main.ts:108214
+main.ts:108222
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned keywords
 optional field
 default value: 0
 if you specify the 10 value, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords
 
-#### Defined in
+#### Source
 
-main.ts:108310
+main.ts:108318
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -260,15 +240,15 @@ you should use a comma to separate several sorting rules
 example:
 ["keyword_data.keyword_info.search_volume,desc","keyword_data.keyword_info.cpc,desc"]
 
-#### Defined in
+#### Source
 
-main.ts:108300
+main.ts:108308
 
-___
+***
 
-### replace\_with\_core\_keyword
+### replace\_with\_core\_keyword?
 
-• `Optional` **replace\_with\_core\_keyword**: `boolean`
+> **`optional`** **replace\_with\_core\_keyword**: `boolean`
 
 return data for core keyword
 optional field
@@ -277,15 +257,15 @@ if false, serp_info and related_keywords will be returned for the specified keyw
 refer to this help center article for more details;
 default value: false
 
-#### Defined in
+#### Source
 
-main.ts:108268
+main.ts:108276
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -293,6 +273,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:108316
+main.ts:108324

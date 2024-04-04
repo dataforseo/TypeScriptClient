@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsBingDomainRankOverviewLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsBingDomainRankOverviewLiveRequestInfo
 
 # Class: DataforseoLabsBingDomainRankOverviewLiveRequestInfo
 
@@ -8,56 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsBingDomainRankOverviewLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [language\_code](DataforseoLabsBingDomainRankOverviewLiveRequestInfo.md#language_code)
-- [language\_name](DataforseoLabsBingDomainRankOverviewLiveRequestInfo.md#language_name)
-- [limit](DataforseoLabsBingDomainRankOverviewLiveRequestInfo.md#limit)
-- [location\_code](DataforseoLabsBingDomainRankOverviewLiveRequestInfo.md#location_code)
-- [location\_name](DataforseoLabsBingDomainRankOverviewLiveRequestInfo.md#location_name)
-- [offset](DataforseoLabsBingDomainRankOverviewLiveRequestInfo.md#offset)
-- [tag](DataforseoLabsBingDomainRankOverviewLiveRequestInfo.md#tag)
-- [target](DataforseoLabsBingDomainRankOverviewLiveRequestInfo.md#target)
-
-### Methods
-
-- [init](DataforseoLabsBingDomainRankOverviewLiveRequestInfo.md#init)
-- [toJSON](DataforseoLabsBingDomainRankOverviewLiveRequestInfo.md#tojson)
-- [fromJS](DataforseoLabsBingDomainRankOverviewLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsBingDomainRankOverviewLiveRequestInfo(data)
 
-• **new DataforseoLabsBingDomainRankOverviewLiveRequestInfo**(`data?`): [`DataforseoLabsBingDomainRankOverviewLiveRequestInfo`](DataforseoLabsBingDomainRankOverviewLiveRequestInfo.md)
+> **new DataforseoLabsBingDomainRankOverviewLiveRequestInfo**(`data`?): [`DataforseoLabsBingDomainRankOverviewLiveRequestInfo`](DataforseoLabsBingDomainRankOverviewLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsBingDomainRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveRequestInfo.md) |
+• **data?**: [`IDataforseoLabsBingDomainRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsBingDomainRankOverviewLiveRequestInfo`](DataforseoLabsBingDomainRankOverviewLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:106362
+main.ts:106370
 
 ## Properties
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 optional field
@@ -70,17 +49,17 @@ en
 
 #### Implementation of
 
-[IDataforseoLabsBingDomainRankOverviewLiveRequestInfo](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveRequestInfo.md).[language_code](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveRequestInfo.md#language_code)
+[`IDataforseoLabsBingDomainRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:106342
+main.ts:106350
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 optional field
@@ -93,17 +72,17 @@ English
 
 #### Implementation of
 
-[IDataforseoLabsBingDomainRankOverviewLiveRequestInfo](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveRequestInfo.md).[language_name](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveRequestInfo.md#language_name)
+[`IDataforseoLabsBingDomainRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:106333
+main.ts:106341
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned results for domain
 optional field
@@ -112,17 +91,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IDataforseoLabsBingDomainRankOverviewLiveRequestInfo](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveRequestInfo.md).[limit](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveRequestInfo.md#limit)
+[`IDataforseoLabsBingDomainRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveRequestInfo.md).[`limit`](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveRequestInfo.md#limit)
 
-#### Defined in
+#### Source
 
-main.ts:106347
+main.ts:106355
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 optional field
@@ -136,17 +115,17 @@ example:
 
 #### Implementation of
 
-[IDataforseoLabsBingDomainRankOverviewLiveRequestInfo](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveRequestInfo.md).[location_code](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveRequestInfo.md#location_code)
+[`IDataforseoLabsBingDomainRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:106324
+main.ts:106332
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 optional field
@@ -160,17 +139,17 @@ United States
 
 #### Implementation of
 
-[IDataforseoLabsBingDomainRankOverviewLiveRequestInfo](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveRequestInfo.md).[location_name](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveRequestInfo.md#location_name)
+[`IDataforseoLabsBingDomainRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:106314
+main.ts:106322
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned items
 optional field
@@ -179,17 +158,17 @@ if you specify the 10 value, the first ten items in the results array will be om
 
 #### Implementation of
 
-[IDataforseoLabsBingDomainRankOverviewLiveRequestInfo](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveRequestInfo.md).[offset](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveRequestInfo.md#offset)
+[`IDataforseoLabsBingDomainRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveRequestInfo.md).[`offset`](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveRequestInfo.md#offset)
 
-#### Defined in
+#### Source
 
-main.ts:106352
+main.ts:106360
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -199,17 +178,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IDataforseoLabsBingDomainRankOverviewLiveRequestInfo](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveRequestInfo.md).[tag](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveRequestInfo.md#tag)
+[`IDataforseoLabsBingDomainRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:106358
+main.ts:106366
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 domain
 required field
@@ -218,68 +197,62 @@ the domain should be specified without https:// and www.
 
 #### Implementation of
 
-[IDataforseoLabsBingDomainRankOverviewLiveRequestInfo](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveRequestInfo.md).[target](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveRequestInfo.md#target)
+[`IDataforseoLabsBingDomainRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveRequestInfo.md).[`target`](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveRequestInfo.md#target)
 
-#### Defined in
+#### Source
 
-main.ts:106304
+main.ts:106312
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:106371
+main.ts:106379
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:106395
+main.ts:106403
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsBingDomainRankOverviewLiveRequestInfo`](DataforseoLabsBingDomainRankOverviewLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsBingDomainRankOverviewLiveRequestInfo`](DataforseoLabsBingDomainRankOverviewLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsBingDomainRankOverviewLiveRequestInfo`](DataforseoLabsBingDomainRankOverviewLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:106388
+main.ts:106396

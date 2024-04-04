@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageKeywordDensityItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPageKeywordDensityItem
 
 # Class: OnPageKeywordDensityItem
 
@@ -8,152 +12,126 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPageKeywordDensityItem.md#constructor)
-
-### Properties
-
-- [density](OnPageKeywordDensityItem.md#density)
-- [frequency](OnPageKeywordDensityItem.md#frequency)
-- [keyword](OnPageKeywordDensityItem.md#keyword)
-
-### Methods
-
-- [init](OnPageKeywordDensityItem.md#init)
-- [toJSON](OnPageKeywordDensityItem.md#tojson)
-- [fromJS](OnPageKeywordDensityItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPageKeywordDensityItem(data)
 
-• **new OnPageKeywordDensityItem**(`data?`): [`OnPageKeywordDensityItem`](OnPageKeywordDensityItem.md)
+> **new OnPageKeywordDensityItem**(`data`?): [`OnPageKeywordDensityItem`](OnPageKeywordDensityItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPageKeywordDensityItem`](../interfaces/IOnPageKeywordDensityItem.md) |
+• **data?**: [`IOnPageKeywordDensityItem`](../interfaces/IOnPageKeywordDensityItem.md)
 
 #### Returns
 
 [`OnPageKeywordDensityItem`](OnPageKeywordDensityItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:155670
+main.ts:155678
 
 ## Properties
 
-### density
+### density?
 
-• `Optional` **density**: `number`
+> **`optional`** **density**: `number`
 
 keyword density
 calculated as a ratio of frequency to the total count of keywords with the set keyword_length on the web page or website
 
 #### Implementation of
 
-[IOnPageKeywordDensityItem](../interfaces/IOnPageKeywordDensityItem.md).[density](../interfaces/IOnPageKeywordDensityItem.md#density)
+[`IOnPageKeywordDensityItem`](../interfaces/IOnPageKeywordDensityItem.md).[`density`](../interfaces/IOnPageKeywordDensityItem.md#density)
 
-#### Defined in
+#### Source
 
-main.ts:155666
+main.ts:155674
 
-___
+***
 
-### frequency
+### frequency?
 
-• `Optional` **frequency**: `number`
+> **`optional`** **frequency**: `number`
 
 keyword frequency
 number of times the keyword appears on the website (or webpage if you specified a url)
 
 #### Implementation of
 
-[IOnPageKeywordDensityItem](../interfaces/IOnPageKeywordDensityItem.md).[frequency](../interfaces/IOnPageKeywordDensityItem.md#frequency)
+[`IOnPageKeywordDensityItem`](../interfaces/IOnPageKeywordDensityItem.md).[`frequency`](../interfaces/IOnPageKeywordDensityItem.md#frequency)
 
-#### Defined in
+#### Source
 
-main.ts:155663
+main.ts:155671
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 returned keyword
 
 #### Implementation of
 
-[IOnPageKeywordDensityItem](../interfaces/IOnPageKeywordDensityItem.md).[keyword](../interfaces/IOnPageKeywordDensityItem.md#keyword)
+[`IOnPageKeywordDensityItem`](../interfaces/IOnPageKeywordDensityItem.md).[`keyword`](../interfaces/IOnPageKeywordDensityItem.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:155660
+main.ts:155668
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:155679
+main.ts:155687
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:155698
+main.ts:155706
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPageKeywordDensityItem`](OnPageKeywordDensityItem.md)
+> **`static`** **fromJS**(`data`): [`OnPageKeywordDensityItem`](OnPageKeywordDensityItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`OnPageKeywordDensityItem`](OnPageKeywordDensityItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:155691
+main.ts:155699

@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / VisualStoriesSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / VisualStoriesSerpElementItem
 
 # Class: VisualStoriesSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-  ↳ **`VisualStoriesSerpElementItem`**
 
 ## Implements
 
@@ -14,41 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](VisualStoriesSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](VisualStoriesSerpElementItem.md#_discriminator)
-- [items](VisualStoriesSerpElementItem.md#items)
-- [position](VisualStoriesSerpElementItem.md#position)
-- [rank\_absolute](VisualStoriesSerpElementItem.md#rank_absolute)
-- [rank\_group](VisualStoriesSerpElementItem.md#rank_group)
-- [rectangle](VisualStoriesSerpElementItem.md#rectangle)
-- [xpath](VisualStoriesSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](VisualStoriesSerpElementItem.md#init)
-- [toJSON](VisualStoriesSerpElementItem.md#tojson)
-- [fromJS](VisualStoriesSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new VisualStoriesSerpElementItem(data)
 
-• **new VisualStoriesSerpElementItem**(`data?`): [`VisualStoriesSerpElementItem`](VisualStoriesSerpElementItem.md)
+> **new VisualStoriesSerpElementItem**(`data`?): [`VisualStoriesSerpElementItem`](VisualStoriesSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IVisualStoriesSerpElementItem`](../interfaces/IVisualStoriesSerpElementItem.md) |
+• **data?**: [`IVisualStoriesSerpElementItem`](../interfaces/IVisualStoriesSerpElementItem.md)
 
 #### Returns
 
@@ -56,48 +34,48 @@
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[constructor](BaseSerpElementItem.md#constructor)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:34211
+main.ts:34217
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[_discriminator](BaseSerpElementItem.md#_discriminator)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:19788
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`LicensesElement`](LicensesElement.md)[]
+> **`optional`** **items**: [`LicensesElement`](LicensesElement.md)[]
 
 additional items present in the element
 if there are none, equals null
 
 #### Implementation of
 
-[IVisualStoriesSerpElementItem](../interfaces/IVisualStoriesSerpElementItem.md).[items](../interfaces/IVisualStoriesSerpElementItem.md#items)
+[`IVisualStoriesSerpElementItem`](../interfaces/IVisualStoriesSerpElementItem.md).[`items`](../interfaces/IVisualStoriesSerpElementItem.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:34203
+main.ts:34209
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -105,17 +83,17 @@ left, right
 
 #### Implementation of
 
-[IVisualStoriesSerpElementItem](../interfaces/IVisualStoriesSerpElementItem.md).[position](../interfaces/IVisualStoriesSerpElementItem.md#position)
+[`IVisualStoriesSerpElementItem`](../interfaces/IVisualStoriesSerpElementItem.md).[`position`](../interfaces/IVisualStoriesSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
-main.ts:34198
+main.ts:34204
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -123,17 +101,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IVisualStoriesSerpElementItem](../interfaces/IVisualStoriesSerpElementItem.md).[rank_absolute](../interfaces/IVisualStoriesSerpElementItem.md#rank_absolute)
+[`IVisualStoriesSerpElementItem`](../interfaces/IVisualStoriesSerpElementItem.md).[`rank_absolute`](../interfaces/IVisualStoriesSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:34194
+main.ts:34200
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
@@ -142,17 +120,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IVisualStoriesSerpElementItem](../interfaces/IVisualStoriesSerpElementItem.md).[rank_group](../interfaces/IVisualStoriesSerpElementItem.md#rank_group)
+[`IVisualStoriesSerpElementItem`](../interfaces/IVisualStoriesSerpElementItem.md).[`rank_group`](../interfaces/IVisualStoriesSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
-main.ts:34190
+main.ts:34196
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -160,39 +138,37 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Implementation of
 
-[IVisualStoriesSerpElementItem](../interfaces/IVisualStoriesSerpElementItem.md).[rectangle](../interfaces/IVisualStoriesSerpElementItem.md#rectangle)
+[`IVisualStoriesSerpElementItem`](../interfaces/IVisualStoriesSerpElementItem.md).[`rectangle`](../interfaces/IVisualStoriesSerpElementItem.md#rectangle)
 
-#### Defined in
+#### Source
 
-main.ts:34207
+main.ts:34213
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IVisualStoriesSerpElementItem](../interfaces/IVisualStoriesSerpElementItem.md).[xpath](../interfaces/IVisualStoriesSerpElementItem.md#xpath)
+[`IVisualStoriesSerpElementItem`](../interfaces/IVisualStoriesSerpElementItem.md).[`xpath`](../interfaces/IVisualStoriesSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
-main.ts:34200
+main.ts:34206
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -200,23 +176,21 @@ main.ts:34200
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[init](BaseSerpElementItem.md#init)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:34216
+main.ts:34222
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -224,23 +198,21 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[toJSON](BaseSerpElementItem.md#tojson)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:34243
+main.ts:34249
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`VisualStoriesSerpElementItem`](VisualStoriesSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`VisualStoriesSerpElementItem`](VisualStoriesSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -248,8 +220,8 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[fromJS](BaseSerpElementItem.md#fromjs)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:34236
+main.ts:34242

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / PositiveConnotationDistribution
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / PositiveConnotationDistribution
 
 # Class: PositiveConnotationDistribution
 
@@ -8,144 +12,118 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](PositiveConnotationDistribution.md#constructor)
-
-### Properties
-
-- [negative](PositiveConnotationDistribution.md#negative)
-- [neutral](PositiveConnotationDistribution.md#neutral)
-- [positive](PositiveConnotationDistribution.md#positive)
-
-### Methods
-
-- [init](PositiveConnotationDistribution.md#init)
-- [toJSON](PositiveConnotationDistribution.md#tojson)
-- [fromJS](PositiveConnotationDistribution.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new PositiveConnotationDistribution(data)
 
-• **new PositiveConnotationDistribution**(`data?`): [`PositiveConnotationDistribution`](PositiveConnotationDistribution.md)
+> **new PositiveConnotationDistribution**(`data`?): [`PositiveConnotationDistribution`](PositiveConnotationDistribution.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IPositiveConnotationDistribution`](../interfaces/IPositiveConnotationDistribution.md) |
+• **data?**: [`IPositiveConnotationDistribution`](../interfaces/IPositiveConnotationDistribution.md)
 
 #### Returns
 
 [`PositiveConnotationDistribution`](PositiveConnotationDistribution.md)
 
-#### Defined in
+#### Source
 
-main.ts:163281
+main.ts:163289
 
 ## Properties
 
-### negative
+### negative?
 
-• `Optional` **negative**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
-
-#### Implementation of
-
-[IPositiveConnotationDistribution](../interfaces/IPositiveConnotationDistribution.md).[negative](../interfaces/IPositiveConnotationDistribution.md#negative)
-
-#### Defined in
-
-main.ts:163276
-
-___
-
-### neutral
-
-• `Optional` **neutral**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
+> **`optional`** **negative**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
 #### Implementation of
 
-[IPositiveConnotationDistribution](../interfaces/IPositiveConnotationDistribution.md).[neutral](../interfaces/IPositiveConnotationDistribution.md#neutral)
+[`IPositiveConnotationDistribution`](../interfaces/IPositiveConnotationDistribution.md).[`negative`](../interfaces/IPositiveConnotationDistribution.md#negative)
 
-#### Defined in
+#### Source
 
-main.ts:163277
+main.ts:163284
 
-___
+***
 
-### positive
+### neutral?
 
-• `Optional` **positive**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
+> **`optional`** **neutral**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
 #### Implementation of
 
-[IPositiveConnotationDistribution](../interfaces/IPositiveConnotationDistribution.md).[positive](../interfaces/IPositiveConnotationDistribution.md#positive)
+[`IPositiveConnotationDistribution`](../interfaces/IPositiveConnotationDistribution.md).[`neutral`](../interfaces/IPositiveConnotationDistribution.md#neutral)
 
-#### Defined in
+#### Source
 
-main.ts:163275
+main.ts:163285
+
+***
+
+### positive?
+
+> **`optional`** **positive**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
+
+#### Implementation of
+
+[`IPositiveConnotationDistribution`](../interfaces/IPositiveConnotationDistribution.md).[`positive`](../interfaces/IPositiveConnotationDistribution.md#positive)
+
+#### Source
+
+main.ts:163283
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:163290
+main.ts:163298
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:163309
+main.ts:163317
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`PositiveConnotationDistribution`](PositiveConnotationDistribution.md)
+> **`static`** **fromJS**(`data`): [`PositiveConnotationDistribution`](PositiveConnotationDistribution.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`PositiveConnotationDistribution`](PositiveConnotationDistribution.md)
 
-#### Defined in
+#### Source
 
-main.ts:163302
+main.ts:163310

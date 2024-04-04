@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleAutocompleteTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleAutocompleteTaskPostRequestInfo
 
 # Class: SerpGoogleAutocompleteTaskPostRequestInfo
 
@@ -8,60 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleAutocompleteTaskPostRequestInfo.md#constructor)
-
-### Properties
-
-- [client](SerpGoogleAutocompleteTaskPostRequestInfo.md#client)
-- [cursor\_pointer](SerpGoogleAutocompleteTaskPostRequestInfo.md#cursor_pointer)
-- [keyword](SerpGoogleAutocompleteTaskPostRequestInfo.md#keyword)
-- [language\_code](SerpGoogleAutocompleteTaskPostRequestInfo.md#language_code)
-- [language\_name](SerpGoogleAutocompleteTaskPostRequestInfo.md#language_name)
-- [location\_code](SerpGoogleAutocompleteTaskPostRequestInfo.md#location_code)
-- [location\_name](SerpGoogleAutocompleteTaskPostRequestInfo.md#location_name)
-- [pingback\_url](SerpGoogleAutocompleteTaskPostRequestInfo.md#pingback_url)
-- [postback\_data](SerpGoogleAutocompleteTaskPostRequestInfo.md#postback_data)
-- [postback\_url](SerpGoogleAutocompleteTaskPostRequestInfo.md#postback_url)
-- [priority](SerpGoogleAutocompleteTaskPostRequestInfo.md#priority)
-- [tag](SerpGoogleAutocompleteTaskPostRequestInfo.md#tag)
-
-### Methods
-
-- [init](SerpGoogleAutocompleteTaskPostRequestInfo.md#init)
-- [toJSON](SerpGoogleAutocompleteTaskPostRequestInfo.md#tojson)
-- [fromJS](SerpGoogleAutocompleteTaskPostRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleAutocompleteTaskPostRequestInfo(data)
 
-• **new SerpGoogleAutocompleteTaskPostRequestInfo**(`data?`): [`SerpGoogleAutocompleteTaskPostRequestInfo`](SerpGoogleAutocompleteTaskPostRequestInfo.md)
+> **new SerpGoogleAutocompleteTaskPostRequestInfo**(`data`?): [`SerpGoogleAutocompleteTaskPostRequestInfo`](SerpGoogleAutocompleteTaskPostRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleAutocompleteTaskPostRequestInfo`](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md) |
+• **data?**: [`ISerpGoogleAutocompleteTaskPostRequestInfo`](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md)
 
 #### Returns
 
 [`SerpGoogleAutocompleteTaskPostRequestInfo`](SerpGoogleAutocompleteTaskPostRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:50606
+main.ts:50614
 
 ## Properties
 
-### client
+### client?
 
-• `Optional` **client**: `string`
+> **`optional`** **client**: `string`
 
 search client for autocomplete
 optional field
@@ -81,17 +56,17 @@ products-cc — used in google shopping search
 
 #### Implementation of
 
-[ISerpGoogleAutocompleteTaskPostRequestInfo](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md).[client](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md#client)
+[`ISerpGoogleAutocompleteTaskPostRequestInfo`](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md).[`client`](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md#client)
 
-#### Defined in
+#### Source
 
-main.ts:50570
+main.ts:50578
 
-___
+***
 
-### cursor\_pointer
+### cursor\_pointer?
 
-• `Optional` **cursor\_pointer**: `number`
+> **`optional`** **cursor\_pointer**: `number`
 
 search bar cursor pointer
 optional field
@@ -106,17 +81,17 @@ which que|ry is s – "cursor_pointer": 9
 
 #### Implementation of
 
-[ISerpGoogleAutocompleteTaskPostRequestInfo](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md).[cursor_pointer](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md#cursor_pointer)
+[`ISerpGoogleAutocompleteTaskPostRequestInfo`](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md).[`cursor_pointer`](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md#cursor_pointer)
 
-#### Defined in
+#### Source
 
-main.ts:50554
+main.ts:50562
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword
 required field
@@ -127,17 +102,17 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Implementation of
 
-[ISerpGoogleAutocompleteTaskPostRequestInfo](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md).[keyword](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md#keyword)
+[`ISerpGoogleAutocompleteTaskPostRequestInfo`](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md).[`keyword`](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:50508
+main.ts:50516
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -148,17 +123,17 @@ en
 
 #### Implementation of
 
-[ISerpGoogleAutocompleteTaskPostRequestInfo](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md).[language_code](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md#language_code)
+[`ISerpGoogleAutocompleteTaskPostRequestInfo`](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md).[`language_code`](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:50543
+main.ts:50551
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -169,17 +144,17 @@ English
 
 #### Implementation of
 
-[ISerpGoogleAutocompleteTaskPostRequestInfo](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md).[language_name](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md#language_name)
+[`ISerpGoogleAutocompleteTaskPostRequestInfo`](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md).[`language_name`](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:50536
+main.ts:50544
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name;
@@ -189,17 +164,17 @@ example:
 
 #### Implementation of
 
-[ISerpGoogleAutocompleteTaskPostRequestInfo](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md).[location_code](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md#location_code)
+[`ISerpGoogleAutocompleteTaskPostRequestInfo`](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md).[`location_code`](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:50529
+main.ts:50537
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -210,17 +185,17 @@ London,England,United Kingdom
 
 #### Implementation of
 
-[ISerpGoogleAutocompleteTaskPostRequestInfo](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md).[location_name](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md#location_name)
+[`ISerpGoogleAutocompleteTaskPostRequestInfo`](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md).[`location_name`](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:50523
+main.ts:50531
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -234,17 +209,17 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[ISerpGoogleAutocompleteTaskPostRequestInfo](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md).[pingback_url](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md#pingback_url)
+[`ISerpGoogleAutocompleteTaskPostRequestInfo`](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md).[`pingback_url`](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md#pingback_url)
 
-#### Defined in
+#### Source
 
-main.ts:50602
+main.ts:50610
 
-___
+***
 
-### postback\_data
+### postback\_data?
 
-• `Optional` **postback\_data**: `string`
+> **`optional`** **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -254,17 +229,17 @@ advanced
 
 #### Implementation of
 
-[ISerpGoogleAutocompleteTaskPostRequestInfo](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md).[postback_data](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md#postback_data)
+[`ISerpGoogleAutocompleteTaskPostRequestInfo`](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md).[`postback_data`](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md#postback_data)
 
-#### Defined in
+#### Source
 
-main.ts:50592
+main.ts:50600
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -278,17 +253,17 @@ i.e., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[ISerpGoogleAutocompleteTaskPostRequestInfo](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md).[postback_url](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md#postback_url)
+[`ISerpGoogleAutocompleteTaskPostRequestInfo`](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md).[`postback_url`](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md#postback_url)
 
-#### Defined in
+#### Source
 
-main.ts:50586
+main.ts:50594
 
-___
+***
 
-### priority
+### priority?
 
-• `Optional` **priority**: `number`
+> **`optional`** **priority**: `number`
 
 task priority
 optional field
@@ -300,17 +275,17 @@ The cost can be calculated on the Pricing page
 
 #### Implementation of
 
-[ISerpGoogleAutocompleteTaskPostRequestInfo](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md).[priority](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md#priority)
+[`ISerpGoogleAutocompleteTaskPostRequestInfo`](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md).[`priority`](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md#priority)
 
-#### Defined in
+#### Source
 
-main.ts:50516
+main.ts:50524
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -320,68 +295,62 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[ISerpGoogleAutocompleteTaskPostRequestInfo](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md).[tag](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md#tag)
+[`ISerpGoogleAutocompleteTaskPostRequestInfo`](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md).[`tag`](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:50576
+main.ts:50584
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:50615
+main.ts:50623
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:50643
+main.ts:50651
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleAutocompleteTaskPostRequestInfo`](SerpGoogleAutocompleteTaskPostRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleAutocompleteTaskPostRequestInfo`](SerpGoogleAutocompleteTaskPostRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpGoogleAutocompleteTaskPostRequestInfo`](SerpGoogleAutocompleteTaskPostRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:50636
+main.ts:50644

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageIdListResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPageIdListResultInfo
 
 # Class: OnPageIdListResultInfo
 
@@ -8,71 +12,47 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPageIdListResultInfo.md#constructor)
-
-### Properties
-
-- [cost](OnPageIdListResultInfo.md#cost)
-- [datetime\_done](OnPageIdListResultInfo.md#datetime_done)
-- [datetime\_posted](OnPageIdListResultInfo.md#datetime_posted)
-- [id](OnPageIdListResultInfo.md#id)
-- [metadata](OnPageIdListResultInfo.md#metadata)
-- [status](OnPageIdListResultInfo.md#status)
-- [url](OnPageIdListResultInfo.md#url)
-
-### Methods
-
-- [init](OnPageIdListResultInfo.md#init)
-- [toJSON](OnPageIdListResultInfo.md#tojson)
-- [fromJS](OnPageIdListResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPageIdListResultInfo(data)
 
-• **new OnPageIdListResultInfo**(`data?`): [`OnPageIdListResultInfo`](OnPageIdListResultInfo.md)
+> **new OnPageIdListResultInfo**(`data`?): [`OnPageIdListResultInfo`](OnPageIdListResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPageIdListResultInfo`](../interfaces/IOnPageIdListResultInfo.md) |
+• **data?**: [`IOnPageIdListResultInfo`](../interfaces/IOnPageIdListResultInfo.md)
 
 #### Returns
 
 [`OnPageIdListResultInfo`](OnPageIdListResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:147012
+main.ts:147020
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 cost of the task, USD
 
 #### Implementation of
 
-[IOnPageIdListResultInfo](../interfaces/IOnPageIdListResultInfo.md).[cost](../interfaces/IOnPageIdListResultInfo.md#cost)
+[`IOnPageIdListResultInfo`](../interfaces/IOnPageIdListResultInfo.md).[`cost`](../interfaces/IOnPageIdListResultInfo.md#cost)
 
-#### Defined in
+#### Source
 
-main.ts:147006
+main.ts:147014
 
-___
+***
 
-### datetime\_done
+### datetime\_done?
 
-• `Optional` **datetime\_done**: `string`
+> **`optional`** **datetime\_done**: `string`
 
 date and time when the task was completed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -81,17 +61,17 @@ example:
 
 #### Implementation of
 
-[IOnPageIdListResultInfo](../interfaces/IOnPageIdListResultInfo.md).[datetime_done](../interfaces/IOnPageIdListResultInfo.md#datetime_done)
+[`IOnPageIdListResultInfo`](../interfaces/IOnPageIdListResultInfo.md).[`datetime_done`](../interfaces/IOnPageIdListResultInfo.md#datetime_done)
 
-#### Defined in
+#### Source
 
-main.ts:147001
+main.ts:147009
 
-___
+***
 
-### datetime\_posted
+### datetime\_posted?
 
-• `Optional` **datetime\_posted**: `string`
+> **`optional`** **datetime\_posted**: `string`
 
 date and time when the task was made
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -100,138 +80,132 @@ example:
 
 #### Implementation of
 
-[IOnPageIdListResultInfo](../interfaces/IOnPageIdListResultInfo.md).[datetime_posted](../interfaces/IOnPageIdListResultInfo.md#datetime_posted)
+[`IOnPageIdListResultInfo`](../interfaces/IOnPageIdListResultInfo.md).[`datetime_posted`](../interfaces/IOnPageIdListResultInfo.md#datetime_posted)
 
-#### Defined in
+#### Source
 
-main.ts:146996
+main.ts:147004
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 id of the task
 
 #### Implementation of
 
-[IOnPageIdListResultInfo](../interfaces/IOnPageIdListResultInfo.md).[id](../interfaces/IOnPageIdListResultInfo.md#id)
+[`IOnPageIdListResultInfo`](../interfaces/IOnPageIdListResultInfo.md).[`id`](../interfaces/IOnPageIdListResultInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:146988
+main.ts:146996
 
-___
+***
 
-### metadata
+### metadata?
 
-• `Optional` **metadata**: `Object`
+> **`optional`** **metadata**: `Object`
 
 contains parameters you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
 #### Implementation of
 
-[IOnPageIdListResultInfo](../interfaces/IOnPageIdListResultInfo.md).[metadata](../interfaces/IOnPageIdListResultInfo.md#metadata)
+[`IOnPageIdListResultInfo`](../interfaces/IOnPageIdListResultInfo.md).[`metadata`](../interfaces/IOnPageIdListResultInfo.md#metadata)
 
-#### Defined in
+#### Source
 
-main.ts:147008
+main.ts:147016
 
-___
+***
 
-### status
+### status?
 
-• `Optional` **status**: `string`
+> **`optional`** **status**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IOnPageIdListResultInfo](../interfaces/IOnPageIdListResultInfo.md).[status](../interfaces/IOnPageIdListResultInfo.md#status)
+[`IOnPageIdListResultInfo`](../interfaces/IOnPageIdListResultInfo.md).[`status`](../interfaces/IOnPageIdListResultInfo.md#status)
 
-#### Defined in
+#### Source
 
-main.ts:147004
+main.ts:147012
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL of the task
 URL you used for making an API call
 
 #### Implementation of
 
-[IOnPageIdListResultInfo](../interfaces/IOnPageIdListResultInfo.md).[url](../interfaces/IOnPageIdListResultInfo.md#url)
+[`IOnPageIdListResultInfo`](../interfaces/IOnPageIdListResultInfo.md).[`url`](../interfaces/IOnPageIdListResultInfo.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:146991
+main.ts:146999
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:147021
+main.ts:147029
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:147050
+main.ts:147058
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPageIdListResultInfo`](OnPageIdListResultInfo.md)
+> **`static`** **fromJS**(`data`): [`OnPageIdListResultInfo`](OnPageIdListResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`OnPageIdListResultInfo`](OnPageIdListResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:147043
+main.ts:147051

@@ -1,35 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAppleKeywordsForAppLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsAppleKeywordsForAppLiveRequestInfo
 
 # Interface: IDataforseoLabsAppleKeywordsForAppLiveRequestInfo
 
-## Implemented by
-
-- [`DataforseoLabsAppleKeywordsForAppLiveRequestInfo`](../classes/DataforseoLabsAppleKeywordsForAppLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [app\_id](IDataforseoLabsAppleKeywordsForAppLiveRequestInfo.md#app_id)
-- [filters](IDataforseoLabsAppleKeywordsForAppLiveRequestInfo.md#filters)
-- [language\_code](IDataforseoLabsAppleKeywordsForAppLiveRequestInfo.md#language_code)
-- [language\_name](IDataforseoLabsAppleKeywordsForAppLiveRequestInfo.md#language_name)
-- [limit](IDataforseoLabsAppleKeywordsForAppLiveRequestInfo.md#limit)
-- [location\_code](IDataforseoLabsAppleKeywordsForAppLiveRequestInfo.md#location_code)
-- [location\_name](IDataforseoLabsAppleKeywordsForAppLiveRequestInfo.md#location_name)
-- [offset](IDataforseoLabsAppleKeywordsForAppLiveRequestInfo.md#offset)
-- [order\_by](IDataforseoLabsAppleKeywordsForAppLiveRequestInfo.md#order_by)
-- [tag](IDataforseoLabsAppleKeywordsForAppLiveRequestInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### app\_id
+### app\_id?
 
-• `Optional` **app\_id**: `string`
+> **`optional`** **app\_id**: `string`
 
 id of the app
 required field
@@ -39,36 +24,36 @@ example:
 in the URL https://apps.apple.com/us/app/id835599320
 the id is 835599320
 
-#### Defined in
+#### Source
 
-main.ts:113076
+main.ts:113084
 
-___
+***
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-<, <=, >, >=, =, <>, in, not_in
+<, `<=, >`, >=, =, `<>`, in, not_in
 example:
-["keyword_data.keyword_info.search_volume",">",500]
-[["keyword_data.keyword_info.search_volume","<>",500],"and",["ranked_serp_element.serp_item.rank_group",">=","10"]]
+["keyword_data.keyword_info.search_volume",">`",500]
+[["keyword_data.keyword_info.search_volume","`<>`",500],"and",["ranked_serp_element.serp_item.rank_group",">`=","10"]]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide
 
-#### Defined in
+#### Source
 
-main.ts:113123
+main.ts:113131
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 required field if you don’t specify language_name
@@ -79,15 +64,15 @@ Note: this endpoint currently supports the English language only
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:113112
+main.ts:113120
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -98,30 +83,30 @@ Note: this endpoint currently supports the English language only;
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:113103
+main.ts:113111
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned keywords
 optional field
 default value: 100
 maximum value: 1000
 
-#### Defined in
+#### Source
 
-main.ts:113145
+main.ts:113153
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 required field if you don’t specify location_name
@@ -132,15 +117,15 @@ Note: this endpoint currently supports the US location only;
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:113094
+main.ts:113102
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code
@@ -151,30 +136,30 @@ Note: this endpoint currently supports the US location only;
 example:
 United States
 
-#### Defined in
+#### Source
 
-main.ts:113085
+main.ts:113093
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned keywords
 optional field
 default value: 0
 if you specify the 10 value, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords
 
-#### Defined in
+#### Source
 
-main.ts:113150
+main.ts:113158
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -193,15 +178,15 @@ default rule:
 ["keyword_data.keyword_info.search_volume,desc"]
 Note: if the item_types array contains item types that are different from organic, the results will be ordered by the first item type in the array
 
-#### Defined in
+#### Source
 
-main.ts:113140
+main.ts:113148
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -209,6 +194,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:113156
+main.ts:113164

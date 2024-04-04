@@ -1,83 +1,73 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAvailableLanguages
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAvailableLanguages
 
 # Interface: IAvailableLanguages
 
-## Implemented by
-
-- [`AvailableLanguages`](../classes/AvailableLanguages.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [available\_sources](IAvailableLanguages.md#available_sources)
-- [keywords](IAvailableLanguages.md#keywords)
-- [language\_code](IAvailableLanguages.md#language_code)
-- [language\_name](IAvailableLanguages.md#language_name)
-- [serps](IAvailableLanguages.md#serps)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### available\_sources
+### available\_sources?
 
-• `Optional` **available\_sources**: `string`[]
+> **`optional`** **available\_sources**: `string`[]
 
 supported sources
 contains the sources of data supported for a specific location and language combination
 only google and bing are currently available
 
-#### Defined in
+#### Source
 
-main.ts:80290
+main.ts:80298
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `number`
+> **`optional`** **keywords**: `number`
 
 the number of keywords available for the given location and language
 
-#### Defined in
+#### Source
 
-main.ts:80296
+main.ts:80304
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code according to ISO 639-1
 
-#### Defined in
+#### Source
 
-main.ts:80294
+main.ts:80302
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 language name
 
-#### Defined in
+#### Source
 
-main.ts:80292
+main.ts:80300
 
-___
+***
 
-### serps
+### serps?
 
-• `Optional` **serps**: `number`
+> **`optional`** **serps**: `number`
 
 the number of SERP pages available for the given location and language
 
-#### Defined in
+#### Source
 
-main.ts:80298
+main.ts:80306

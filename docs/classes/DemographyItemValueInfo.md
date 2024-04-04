@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DemographyItemValueInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DemographyItemValueInfo
 
 # Class: DemographyItemValueInfo
 
@@ -8,66 +12,47 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DemographyItemValueInfo.md#constructor)
-
-### Properties
-
-- [type](DemographyItemValueInfo.md#type)
-- [value](DemographyItemValueInfo.md#value)
-
-### Methods
-
-- [init](DemographyItemValueInfo.md#init)
-- [toJSON](DemographyItemValueInfo.md#tojson)
-- [fromJS](DemographyItemValueInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DemographyItemValueInfo(data)
 
-• **new DemographyItemValueInfo**(`data?`): [`DemographyItemValueInfo`](DemographyItemValueInfo.md)
+> **new DemographyItemValueInfo**(`data`?): [`DemographyItemValueInfo`](DemographyItemValueInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDemographyItemValueInfo`](../interfaces/IDemographyItemValueInfo.md) |
+• **data?**: [`IDemographyItemValueInfo`](../interfaces/IDemographyItemValueInfo.md)
 
 #### Returns
 
 [`DemographyItemValueInfo`](DemographyItemValueInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:126226
+main.ts:126234
 
 ## Properties
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IDemographyItemValueInfo](../interfaces/IDemographyItemValueInfo.md).[type](../interfaces/IDemographyItemValueInfo.md#type)
+[`IDemographyItemValueInfo`](../interfaces/IDemographyItemValueInfo.md).[`type`](../interfaces/IDemographyItemValueInfo.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:126216
+main.ts:126224
 
-___
+***
 
-### value
+### value?
 
-• `Optional` **value**: `number`
+> **`optional`** **value**: `number`
 
 keyword popularity rate within the specified age range
 using this value you can understand how popular a keyword is within each age range;
@@ -77,68 +62,62 @@ a value of 0 means there was not enough data for this term
 
 #### Implementation of
 
-[IDemographyItemValueInfo](../interfaces/IDemographyItemValueInfo.md).[value](../interfaces/IDemographyItemValueInfo.md#value)
+[`IDemographyItemValueInfo`](../interfaces/IDemographyItemValueInfo.md).[`value`](../interfaces/IDemographyItemValueInfo.md#value)
 
-#### Defined in
+#### Source
 
-main.ts:126222
+main.ts:126230
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:126235
+main.ts:126243
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:126253
+main.ts:126261
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DemographyItemValueInfo`](DemographyItemValueInfo.md)
+> **`static`** **fromJS**(`data`): [`DemographyItemValueInfo`](DemographyItemValueInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DemographyItemValueInfo`](DemographyItemValueInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:126246
+main.ts:126254

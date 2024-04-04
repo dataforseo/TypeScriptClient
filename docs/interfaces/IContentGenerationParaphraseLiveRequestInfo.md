@@ -1,28 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentGenerationParaphraseLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IContentGenerationParaphraseLiveRequestInfo
 
 # Interface: IContentGenerationParaphraseLiveRequestInfo
 
-## Implemented by
-
-- [`ContentGenerationParaphraseLiveRequestInfo`](../classes/ContentGenerationParaphraseLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [creativity\_index](IContentGenerationParaphraseLiveRequestInfo.md#creativity_index)
-- [tag](IContentGenerationParaphraseLiveRequestInfo.md#tag)
-- [text](IContentGenerationParaphraseLiveRequestInfo.md#text)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### creativity\_index
+### creativity\_index?
 
-• `Optional` **creativity\_index**: `number`
+> **`optional`** **creativity\_index**: `number`
 
 creativity of content generation
 required field
@@ -31,15 +23,15 @@ can take values from 0 to 1;
 default value: 0.8
 learn more about this parameter on our help center
 
-#### Defined in
+#### Source
 
-main.ts:166615
+main.ts:166623
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -47,21 +39,21 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:166621
+main.ts:166629
 
-___
+***
 
-### text
+### text?
 
-• `Optional` **text**: `string`
+> **`optional`** **text**: `string`
 
 target text
 required field
 can contain from 1 to 500 tokens
 learn more about tokens on our help center
 
-#### Defined in
+#### Source
 
-main.ts:166608
+main.ts:166616

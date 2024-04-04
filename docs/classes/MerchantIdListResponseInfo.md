@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MerchantIdListResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / MerchantIdListResponseInfo
 
 # Class: MerchantIdListResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`MerchantIdListResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](MerchantIdListResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](MerchantIdListResponseInfo.md#cost)
-- [status\_code](MerchantIdListResponseInfo.md#status_code)
-- [status\_message](MerchantIdListResponseInfo.md#status_message)
-- [tasks](MerchantIdListResponseInfo.md#tasks)
-- [tasks\_count](MerchantIdListResponseInfo.md#tasks_count)
-- [tasks\_error](MerchantIdListResponseInfo.md#tasks_error)
-- [time](MerchantIdListResponseInfo.md#time)
-- [version](MerchantIdListResponseInfo.md#version)
-
-### Methods
-
-- [init](MerchantIdListResponseInfo.md#init)
-- [toJSON](MerchantIdListResponseInfo.md#tojson)
-- [fromJS](MerchantIdListResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new MerchantIdListResponseInfo(data)
 
-• **new MerchantIdListResponseInfo**(`data?`): [`MerchantIdListResponseInfo`](MerchantIdListResponseInfo.md)
+> **new MerchantIdListResponseInfo**(`data`?): [`MerchantIdListResponseInfo`](MerchantIdListResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IMerchantIdListResponseInfo`](../interfaces/IMerchantIdListResponseInfo.md) |
+• **data?**: [`IMerchantIdListResponseInfo`](../interfaces/IMerchantIdListResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:168377
+main.ts:168385
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IMerchantIdListResponseInfo](../interfaces/IMerchantIdListResponseInfo.md).[cost](../interfaces/IMerchantIdListResponseInfo.md#cost)
+[`IMerchantIdListResponseInfo`](../interfaces/IMerchantIdListResponseInfo.md).[`cost`](../interfaces/IMerchantIdListResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[IMerchantIdListResponseInfo](../interfaces/IMerchantIdListResponseInfo.md).[status_code](../interfaces/IMerchantIdListResponseInfo.md#status_code)
+[`IMerchantIdListResponseInfo`](../interfaces/IMerchantIdListResponseInfo.md).[`status_code`](../interfaces/IMerchantIdListResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IMerchantIdListResponseInfo](../interfaces/IMerchantIdListResponseInfo.md).[status_message](../interfaces/IMerchantIdListResponseInfo.md#status_message)
+[`IMerchantIdListResponseInfo`](../interfaces/IMerchantIdListResponseInfo.md).[`status_message`](../interfaces/IMerchantIdListResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`MerchantIdListTaskInfo`](MerchantIdListTaskInfo.md)[]
+> **`optional`** **tasks**: [`MerchantIdListTaskInfo`](MerchantIdListTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[IMerchantIdListResponseInfo](../interfaces/IMerchantIdListResponseInfo.md).[tasks](../interfaces/IMerchantIdListResponseInfo.md#tasks)
+[`IMerchantIdListResponseInfo`](../interfaces/IMerchantIdListResponseInfo.md).[`tasks`](../interfaces/IMerchantIdListResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:168373
+main.ts:168381
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[IMerchantIdListResponseInfo](../interfaces/IMerchantIdListResponseInfo.md).[tasks_count](../interfaces/IMerchantIdListResponseInfo.md#tasks_count)
+[`IMerchantIdListResponseInfo`](../interfaces/IMerchantIdListResponseInfo.md).[`tasks_count`](../interfaces/IMerchantIdListResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[IMerchantIdListResponseInfo](../interfaces/IMerchantIdListResponseInfo.md).[tasks_error](../interfaces/IMerchantIdListResponseInfo.md#tasks_error)
+[`IMerchantIdListResponseInfo`](../interfaces/IMerchantIdListResponseInfo.md).[`tasks_error`](../interfaces/IMerchantIdListResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[IMerchantIdListResponseInfo](../interfaces/IMerchantIdListResponseInfo.md).[time](../interfaces/IMerchantIdListResponseInfo.md#time)
+[`IMerchantIdListResponseInfo`](../interfaces/IMerchantIdListResponseInfo.md).[`time`](../interfaces/IMerchantIdListResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[IMerchantIdListResponseInfo](../interfaces/IMerchantIdListResponseInfo.md).[version](../interfaces/IMerchantIdListResponseInfo.md#version)
+[`IMerchantIdListResponseInfo`](../interfaces/IMerchantIdListResponseInfo.md).[`version`](../interfaces/IMerchantIdListResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:168381
+main.ts:168389
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:168403
+main.ts:168411
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`MerchantIdListResponseInfo`](MerchantIdListResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`MerchantIdListResponseInfo`](MerchantIdListResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:168396
+main.ts:168404

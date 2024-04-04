@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksReferringNetworksLiveTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BacklinksReferringNetworksLiveTaskInfo
 
 # Class: BacklinksReferringNetworksLiveTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`BacklinksReferringNetworksLiveTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BacklinksReferringNetworksLiveTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](BacklinksReferringNetworksLiveTaskInfo.md#cost)
-- [data](BacklinksReferringNetworksLiveTaskInfo.md#data)
-- [id](BacklinksReferringNetworksLiveTaskInfo.md#id)
-- [path](BacklinksReferringNetworksLiveTaskInfo.md#path)
-- [result](BacklinksReferringNetworksLiveTaskInfo.md#result)
-- [result\_count](BacklinksReferringNetworksLiveTaskInfo.md#result_count)
-- [status\_code](BacklinksReferringNetworksLiveTaskInfo.md#status_code)
-- [status\_message](BacklinksReferringNetworksLiveTaskInfo.md#status_message)
-- [time](BacklinksReferringNetworksLiveTaskInfo.md#time)
-
-### Methods
-
-- [init](BacklinksReferringNetworksLiveTaskInfo.md#init)
-- [toJSON](BacklinksReferringNetworksLiveTaskInfo.md#tojson)
-- [fromJS](BacklinksReferringNetworksLiveTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BacklinksReferringNetworksLiveTaskInfo(data)
 
-• **new BacklinksReferringNetworksLiveTaskInfo**(`data?`): [`BacklinksReferringNetworksLiveTaskInfo`](BacklinksReferringNetworksLiveTaskInfo.md)
+> **new BacklinksReferringNetworksLiveTaskInfo**(`data`?): [`BacklinksReferringNetworksLiveTaskInfo`](BacklinksReferringNetworksLiveTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBacklinksReferringNetworksLiveTaskInfo`](../interfaces/IBacklinksReferringNetworksLiveTaskInfo.md) |
+• **data?**: [`IBacklinksReferringNetworksLiveTaskInfo`](../interfaces/IBacklinksReferringNetworksLiveTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:141236
+main.ts:141244
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IBacklinksReferringNetworksLiveTaskInfo](../interfaces/IBacklinksReferringNetworksLiveTaskInfo.md).[cost](../interfaces/IBacklinksReferringNetworksLiveTaskInfo.md#cost)
+[`IBacklinksReferringNetworksLiveTaskInfo`](../interfaces/IBacklinksReferringNetworksLiveTaskInfo.md).[`cost`](../interfaces/IBacklinksReferringNetworksLiveTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[IBacklinksReferringNetworksLiveTaskInfo](../interfaces/IBacklinksReferringNetworksLiveTaskInfo.md).[data](../interfaces/IBacklinksReferringNetworksLiveTaskInfo.md#data)
+[`IBacklinksReferringNetworksLiveTaskInfo`](../interfaces/IBacklinksReferringNetworksLiveTaskInfo.md).[`data`](../interfaces/IBacklinksReferringNetworksLiveTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IBacklinksReferringNetworksLiveTaskInfo](../interfaces/IBacklinksReferringNetworksLiveTaskInfo.md).[id](../interfaces/IBacklinksReferringNetworksLiveTaskInfo.md#id)
+[`IBacklinksReferringNetworksLiveTaskInfo`](../interfaces/IBacklinksReferringNetworksLiveTaskInfo.md).[`id`](../interfaces/IBacklinksReferringNetworksLiveTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[IBacklinksReferringNetworksLiveTaskInfo](../interfaces/IBacklinksReferringNetworksLiveTaskInfo.md).[path](../interfaces/IBacklinksReferringNetworksLiveTaskInfo.md#path)
+[`IBacklinksReferringNetworksLiveTaskInfo`](../interfaces/IBacklinksReferringNetworksLiveTaskInfo.md).[`path`](../interfaces/IBacklinksReferringNetworksLiveTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`BacklinksReferringNetworksLiveResultInfo`](BacklinksReferringNetworksLiveResultInfo.md)[]
+> **`optional`** **result**: [`BacklinksReferringNetworksLiveResultInfo`](BacklinksReferringNetworksLiveResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[IBacklinksReferringNetworksLiveTaskInfo](../interfaces/IBacklinksReferringNetworksLiveTaskInfo.md).[result](../interfaces/IBacklinksReferringNetworksLiveTaskInfo.md#result)
+[`IBacklinksReferringNetworksLiveTaskInfo`](../interfaces/IBacklinksReferringNetworksLiveTaskInfo.md).[`result`](../interfaces/IBacklinksReferringNetworksLiveTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:141232
+main.ts:141240
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[IBacklinksReferringNetworksLiveTaskInfo](../interfaces/IBacklinksReferringNetworksLiveTaskInfo.md).[result_count](../interfaces/IBacklinksReferringNetworksLiveTaskInfo.md#result_count)
+[`IBacklinksReferringNetworksLiveTaskInfo`](../interfaces/IBacklinksReferringNetworksLiveTaskInfo.md).[`result_count`](../interfaces/IBacklinksReferringNetworksLiveTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[IBacklinksReferringNetworksLiveTaskInfo](../interfaces/IBacklinksReferringNetworksLiveTaskInfo.md).[status_code](../interfaces/IBacklinksReferringNetworksLiveTaskInfo.md#status_code)
+[`IBacklinksReferringNetworksLiveTaskInfo`](../interfaces/IBacklinksReferringNetworksLiveTaskInfo.md).[`status_code`](../interfaces/IBacklinksReferringNetworksLiveTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IBacklinksReferringNetworksLiveTaskInfo](../interfaces/IBacklinksReferringNetworksLiveTaskInfo.md).[status_message](../interfaces/IBacklinksReferringNetworksLiveTaskInfo.md#status_message)
+[`IBacklinksReferringNetworksLiveTaskInfo`](../interfaces/IBacklinksReferringNetworksLiveTaskInfo.md).[`status_message`](../interfaces/IBacklinksReferringNetworksLiveTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[IBacklinksReferringNetworksLiveTaskInfo](../interfaces/IBacklinksReferringNetworksLiveTaskInfo.md).[time](../interfaces/IBacklinksReferringNetworksLiveTaskInfo.md#time)
+[`IBacklinksReferringNetworksLiveTaskInfo`](../interfaces/IBacklinksReferringNetworksLiveTaskInfo.md).[`time`](../interfaces/IBacklinksReferringNetworksLiveTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:141240
+main.ts:141248
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:141262
+main.ts:141270
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BacklinksReferringNetworksLiveTaskInfo`](BacklinksReferringNetworksLiveTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`BacklinksReferringNetworksLiveTaskInfo`](BacklinksReferringNetworksLiveTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:141255
+main.ts:141263

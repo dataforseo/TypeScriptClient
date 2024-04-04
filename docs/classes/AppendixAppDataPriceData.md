@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixAppDataPriceData
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppendixAppDataPriceData
 
 # Class: AppendixAppDataPriceData
 
@@ -8,219 +12,188 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixAppDataPriceData.md#constructor)
-
-### Properties
-
-- [app\_info](AppendixAppDataPriceData.md#app_info)
-- [app\_list](AppendixAppDataPriceData.md#app_list)
-- [app\_reviews](AppendixAppDataPriceData.md#app_reviews)
-- [app\_searches](AppendixAppDataPriceData.md#app_searches)
-- [categories](AppendixAppDataPriceData.md#categories)
-- [errors](AppendixAppDataPriceData.md#errors)
-- [languages](AppendixAppDataPriceData.md#languages)
-- [locations](AppendixAppDataPriceData.md#locations)
-
-### Methods
-
-- [init](AppendixAppDataPriceData.md#init)
-- [toJSON](AppendixAppDataPriceData.md#tojson)
-- [fromJS](AppendixAppDataPriceData.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixAppDataPriceData(data)
 
-• **new AppendixAppDataPriceData**(`data?`): [`AppendixAppDataPriceData`](AppendixAppDataPriceData.md)
+> **new AppendixAppDataPriceData**(`data`?): [`AppendixAppDataPriceData`](AppendixAppDataPriceData.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixAppDataPriceData`](../interfaces/IAppendixAppDataPriceData.md) |
+• **data?**: [`IAppendixAppDataPriceData`](../interfaces/IAppendixAppDataPriceData.md)
 
 #### Returns
 
 [`AppendixAppDataPriceData`](AppendixAppDataPriceData.md)
 
-#### Defined in
+#### Source
 
 main.ts:216343
 
 ## Properties
 
-### app\_info
+### app\_info?
 
-• `Optional` **app\_info**: [`AppendixProductGoogleMerchantPriceDataInfo`](AppendixProductGoogleMerchantPriceDataInfo.md)
+> **`optional`** **app\_info**: [`AppendixProductGoogleMerchantPriceDataInfo`](AppendixProductGoogleMerchantPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixAppDataPriceData](../interfaces/IAppendixAppDataPriceData.md).[app_info](../interfaces/IAppendixAppDataPriceData.md#app_info)
+[`IAppendixAppDataPriceData`](../interfaces/IAppendixAppDataPriceData.md).[`app_info`](../interfaces/IAppendixAppDataPriceData.md#app_info)
 
-#### Defined in
+#### Source
 
 main.ts:216332
 
-___
+***
 
-### app\_list
+### app\_list?
 
-• `Optional` **app\_list**: [`AppendixProductGoogleMerchantPriceDataInfo`](AppendixProductGoogleMerchantPriceDataInfo.md)
+> **`optional`** **app\_list**: [`AppendixProductGoogleMerchantPriceDataInfo`](AppendixProductGoogleMerchantPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixAppDataPriceData](../interfaces/IAppendixAppDataPriceData.md).[app_list](../interfaces/IAppendixAppDataPriceData.md#app_list)
+[`IAppendixAppDataPriceData`](../interfaces/IAppendixAppDataPriceData.md).[`app_list`](../interfaces/IAppendixAppDataPriceData.md#app_list)
 
-#### Defined in
+#### Source
 
 main.ts:216333
 
-___
+***
 
-### app\_reviews
+### app\_reviews?
 
-• `Optional` **app\_reviews**: [`AppendixPriceDataInfo`](AppendixPriceDataInfo.md)
+> **`optional`** **app\_reviews**: [`AppendixPriceDataInfo`](AppendixPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixAppDataPriceData](../interfaces/IAppendixAppDataPriceData.md).[app_reviews](../interfaces/IAppendixAppDataPriceData.md#app_reviews)
+[`IAppendixAppDataPriceData`](../interfaces/IAppendixAppDataPriceData.md).[`app_reviews`](../interfaces/IAppendixAppDataPriceData.md#app_reviews)
 
-#### Defined in
+#### Source
 
 main.ts:216334
 
-___
+***
 
-### app\_searches
+### app\_searches?
 
-• `Optional` **app\_searches**: [`AppendixProductGoogleMerchantPriceDataInfo`](AppendixProductGoogleMerchantPriceDataInfo.md)
+> **`optional`** **app\_searches**: [`AppendixProductGoogleMerchantPriceDataInfo`](AppendixProductGoogleMerchantPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixAppDataPriceData](../interfaces/IAppendixAppDataPriceData.md).[app_searches](../interfaces/IAppendixAppDataPriceData.md#app_searches)
+[`IAppendixAppDataPriceData`](../interfaces/IAppendixAppDataPriceData.md).[`app_searches`](../interfaces/IAppendixAppDataPriceData.md#app_searches)
 
-#### Defined in
+#### Source
 
 main.ts:216335
 
-___
+***
 
-### categories
+### categories?
 
-• `Optional` **categories**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **categories**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixAppDataPriceData](../interfaces/IAppendixAppDataPriceData.md).[categories](../interfaces/IAppendixAppDataPriceData.md#categories)
+[`IAppendixAppDataPriceData`](../interfaces/IAppendixAppDataPriceData.md).[`categories`](../interfaces/IAppendixAppDataPriceData.md#categories)
 
-#### Defined in
+#### Source
 
 main.ts:216336
 
-___
+***
 
-### errors
+### errors?
 
-• `Optional` **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixAppDataPriceData](../interfaces/IAppendixAppDataPriceData.md).[errors](../interfaces/IAppendixAppDataPriceData.md#errors)
+[`IAppendixAppDataPriceData`](../interfaces/IAppendixAppDataPriceData.md).[`errors`](../interfaces/IAppendixAppDataPriceData.md#errors)
 
-#### Defined in
+#### Source
 
 main.ts:216337
 
-___
+***
 
-### languages
+### languages?
 
-• `Optional` **languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixAppDataPriceData](../interfaces/IAppendixAppDataPriceData.md).[languages](../interfaces/IAppendixAppDataPriceData.md#languages)
+[`IAppendixAppDataPriceData`](../interfaces/IAppendixAppDataPriceData.md).[`languages`](../interfaces/IAppendixAppDataPriceData.md#languages)
 
-#### Defined in
+#### Source
 
 main.ts:216338
 
-___
+***
 
-### locations
+### locations?
 
-• `Optional` **locations**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **locations**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixAppDataPriceData](../interfaces/IAppendixAppDataPriceData.md).[locations](../interfaces/IAppendixAppDataPriceData.md#locations)
+[`IAppendixAppDataPriceData`](../interfaces/IAppendixAppDataPriceData.md).[`locations`](../interfaces/IAppendixAppDataPriceData.md#locations)
 
-#### Defined in
+#### Source
 
 main.ts:216339
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:216352
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:216376
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppendixAppDataPriceData`](AppendixAppDataPriceData.md)
+> **`static`** **fromJS**(`data`): [`AppendixAppDataPriceData`](AppendixAppDataPriceData.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppendixAppDataPriceData`](AppendixAppDataPriceData.md)
 
-#### Defined in
+#### Source
 
 main.ts:216369

@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / LocalPackDataforseoLabsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / LocalPackDataforseoLabsSerpElementItem
 
 # Class: LocalPackDataforseoLabsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
-
-  ↳ **`LocalPackDataforseoLabsSerpElementItem`**
 
 ## Implements
 
@@ -14,55 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](LocalPackDataforseoLabsSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](LocalPackDataforseoLabsSerpElementItem.md#_discriminator)
-- [backlinks\_info](LocalPackDataforseoLabsSerpElementItem.md#backlinks_info)
-- [description](LocalPackDataforseoLabsSerpElementItem.md#description)
-- [domain](LocalPackDataforseoLabsSerpElementItem.md#domain)
-- [estimated\_paid\_traffic\_cost](LocalPackDataforseoLabsSerpElementItem.md#estimated_paid_traffic_cost)
-- [etv](LocalPackDataforseoLabsSerpElementItem.md#etv)
-- [impressions\_etv](LocalPackDataforseoLabsSerpElementItem.md#impressions_etv)
-- [is\_paid](LocalPackDataforseoLabsSerpElementItem.md#is_paid)
-- [main\_domain](LocalPackDataforseoLabsSerpElementItem.md#main_domain)
-- [phone](LocalPackDataforseoLabsSerpElementItem.md#phone)
-- [position](LocalPackDataforseoLabsSerpElementItem.md#position)
-- [rank\_absolute](LocalPackDataforseoLabsSerpElementItem.md#rank_absolute)
-- [rank\_changes](LocalPackDataforseoLabsSerpElementItem.md#rank_changes)
-- [rank\_group](LocalPackDataforseoLabsSerpElementItem.md#rank_group)
-- [rank\_info](LocalPackDataforseoLabsSerpElementItem.md#rank_info)
-- [rating](LocalPackDataforseoLabsSerpElementItem.md#rating)
-- [relative\_url](LocalPackDataforseoLabsSerpElementItem.md#relative_url)
-- [se\_type](LocalPackDataforseoLabsSerpElementItem.md#se_type)
-- [title](LocalPackDataforseoLabsSerpElementItem.md#title)
-- [url](LocalPackDataforseoLabsSerpElementItem.md#url)
-- [xpath](LocalPackDataforseoLabsSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](LocalPackDataforseoLabsSerpElementItem.md#init)
-- [toJSON](LocalPackDataforseoLabsSerpElementItem.md#tojson)
-- [fromJS](LocalPackDataforseoLabsSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new LocalPackDataforseoLabsSerpElementItem(data)
 
-• **new LocalPackDataforseoLabsSerpElementItem**(`data?`): [`LocalPackDataforseoLabsSerpElementItem`](LocalPackDataforseoLabsSerpElementItem.md)
+> **new LocalPackDataforseoLabsSerpElementItem**(`data`?): [`LocalPackDataforseoLabsSerpElementItem`](LocalPackDataforseoLabsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ILocalPackDataforseoLabsSerpElementItem`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md) |
+• **data?**: [`ILocalPackDataforseoLabsSerpElementItem`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md)
 
 #### Returns
 
@@ -70,79 +34,79 @@
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[constructor](BaseDataforseoLabsSerpElementItem.md#constructor)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:95702
+main.ts:95710
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[_discriminator](BaseDataforseoLabsSerpElementItem.md#_discriminator)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`_discriminator`](BaseDataforseoLabsSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:20171
 
-___
+***
 
-### backlinks\_info
+### backlinks\_info?
 
-• `Optional` **backlinks\_info**: [`BacklinksInfo`](BacklinksInfo.md)
+> **`optional`** **backlinks\_info**: [`BacklinksInfo`](BacklinksInfo.md)
 
 backlinks information for the target website
 
 #### Implementation of
 
-[ILocalPackDataforseoLabsSerpElementItem](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[backlinks_info](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#backlinks_info)
+[`ILocalPackDataforseoLabsSerpElementItem`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[`backlinks_info`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#backlinks_info)
 
-#### Defined in
+#### Source
 
-main.ts:95696
+main.ts:95704
 
-___
+***
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description of the results element in SERP
 
 #### Implementation of
 
-[ILocalPackDataforseoLabsSerpElementItem](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[description](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#description)
+[`ILocalPackDataforseoLabsSerpElementItem`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[`description`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#description)
 
-#### Defined in
+#### Source
 
-main.ts:95658
+main.ts:95666
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain where a link points
 
 #### Implementation of
 
-[ILocalPackDataforseoLabsSerpElementItem](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[domain](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#domain)
+[`ILocalPackDataforseoLabsSerpElementItem`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[`domain`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#domain)
 
-#### Defined in
+#### Source
 
-main.ts:95660
+main.ts:95668
 
-___
+***
 
-### estimated\_paid\_traffic\_cost
+### estimated\_paid\_traffic\_cost?
 
-• `Optional` **estimated\_paid\_traffic\_cost**: `number`
+> **`optional`** **estimated\_paid\_traffic\_cost**: `number`
 
 estimated cost of converting organic search traffic into paid
 represents the estimated monthly cost of running ads for the returned keyword
@@ -151,17 +115,17 @@ learn more about how the metric is calculated in this help center article
 
 #### Implementation of
 
-[ILocalPackDataforseoLabsSerpElementItem](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[estimated_paid_traffic_cost](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#estimated_paid_traffic_cost)
+[`ILocalPackDataforseoLabsSerpElementItem`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[`estimated_paid_traffic_cost`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#estimated_paid_traffic_cost)
 
-#### Defined in
+#### Source
 
-main.ts:95688
+main.ts:95696
 
-___
+***
 
-### etv
+### etv?
 
-• `Optional` **etv**: `number`
+> **`optional`** **etv**: `number`
 
 estimated traffic volume
 estimated organic monthly traffic to the domain
@@ -170,17 +134,17 @@ learn more about how the metric is calculated in this help center article
 
 #### Implementation of
 
-[ILocalPackDataforseoLabsSerpElementItem](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[etv](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#etv)
+[`ILocalPackDataforseoLabsSerpElementItem`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[`etv`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#etv)
 
-#### Defined in
+#### Source
 
-main.ts:95678
+main.ts:95686
 
-___
+***
 
-### impressions\_etv
+### impressions\_etv?
 
-• `Optional` **impressions\_etv**: `number`
+> **`optional`** **impressions\_etv**: `number`
 
 estimated traffic volume based on impressions
 estimated organic monthly traffic to the domain
@@ -189,65 +153,65 @@ learn more about how the metric is calculated in this help center article
 
 #### Implementation of
 
-[ILocalPackDataforseoLabsSerpElementItem](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[impressions_etv](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#impressions_etv)
+[`ILocalPackDataforseoLabsSerpElementItem`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[`impressions_etv`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#impressions_etv)
 
-#### Defined in
+#### Source
 
-main.ts:95683
+main.ts:95691
 
-___
+***
 
-### is\_paid
+### is\_paid?
 
-• `Optional` **is\_paid**: `boolean`
+> **`optional`** **is\_paid**: `boolean`
 
 indicates whether the element is an ad
 
 #### Implementation of
 
-[ILocalPackDataforseoLabsSerpElementItem](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[is_paid](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#is_paid)
+[`ILocalPackDataforseoLabsSerpElementItem`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[`is_paid`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#is_paid)
 
-#### Defined in
+#### Source
 
-main.ts:95666
+main.ts:95674
 
-___
+***
 
-### main\_domain
+### main\_domain?
 
-• `Optional` **main\_domain**: `string`
+> **`optional`** **main\_domain**: `string`
 
 primary domain name in SERP
 
 #### Implementation of
 
-[ILocalPackDataforseoLabsSerpElementItem](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[main_domain](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#main_domain)
+[`ILocalPackDataforseoLabsSerpElementItem`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[`main_domain`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#main_domain)
 
-#### Defined in
+#### Source
 
-main.ts:95671
+main.ts:95679
 
-___
+***
 
-### phone
+### phone?
 
-• `Optional` **phone**: `string`
+> **`optional`** **phone**: `string`
 
 phone number
 
 #### Implementation of
 
-[ILocalPackDataforseoLabsSerpElementItem](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[phone](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#phone)
+[`ILocalPackDataforseoLabsSerpElementItem`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[`phone`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#phone)
 
-#### Defined in
+#### Source
 
-main.ts:95662
+main.ts:95670
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -255,34 +219,34 @@ left, right
 
 #### Implementation of
 
-[ILocalPackDataforseoLabsSerpElementItem](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[position](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#position)
+[`ILocalPackDataforseoLabsSerpElementItem`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[`position`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
-main.ts:95652
+main.ts:95660
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
 #### Implementation of
 
-[ILocalPackDataforseoLabsSerpElementItem](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[rank_absolute](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#rank_absolute)
+[`ILocalPackDataforseoLabsSerpElementItem`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[`rank_absolute`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:95648
+main.ts:95656
 
-___
+***
 
-### rank\_changes
+### rank\_changes?
 
-• `Optional` **rank\_changes**: [`RankChanges`](RankChanges.md)
+> **`optional`** **rank\_changes**: [`RankChanges`](RankChanges.md)
 
 changes in rankings
 ranking changes of the SERP element compared to the preceding month;
@@ -290,153 +254,151 @@ Note: the changes are calculated even if the preceding month is not included in 
 
 #### Implementation of
 
-[ILocalPackDataforseoLabsSerpElementItem](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[rank_changes](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#rank_changes)
+[`ILocalPackDataforseoLabsSerpElementItem`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[`rank_changes`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#rank_changes)
 
-#### Defined in
+#### Source
 
-main.ts:95692
+main.ts:95700
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
-[ILocalPackDataforseoLabsSerpElementItem](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[rank_group](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#rank_group)
+[`ILocalPackDataforseoLabsSerpElementItem`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[`rank_group`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
-main.ts:95645
+main.ts:95653
 
-___
+***
 
-### rank\_info
+### rank\_info?
 
-• `Optional` **rank\_info**: [`RankInfo`](RankInfo.md)
+> **`optional`** **rank\_info**: [`RankInfo`](RankInfo.md)
 
 page and domain rank information
 
 #### Implementation of
 
-[ILocalPackDataforseoLabsSerpElementItem](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[rank_info](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#rank_info)
+[`ILocalPackDataforseoLabsSerpElementItem`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[`rank_info`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#rank_info)
 
-#### Defined in
+#### Source
 
-main.ts:95698
+main.ts:95706
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](RatingInfo.md)
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
 
-[ILocalPackDataforseoLabsSerpElementItem](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[rating](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#rating)
+[`ILocalPackDataforseoLabsSerpElementItem`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[`rating`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#rating)
 
-#### Defined in
+#### Source
 
-main.ts:95669
+main.ts:95677
 
-___
+***
 
-### relative\_url
+### relative\_url?
 
-• `Optional` **relative\_url**: `string`
+> **`optional`** **relative\_url**: `string`
 
 URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Implementation of
 
-[ILocalPackDataforseoLabsSerpElementItem](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[relative_url](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#relative_url)
+[`ILocalPackDataforseoLabsSerpElementItem`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[`relative_url`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#relative_url)
 
-#### Defined in
+#### Source
 
-main.ts:95673
+main.ts:95681
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[ILocalPackDataforseoLabsSerpElementItem](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[se_type](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#se_type)
+[`ILocalPackDataforseoLabsSerpElementItem`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[`se_type`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:95694
+main.ts:95702
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the result in SERP
 
 #### Implementation of
 
-[ILocalPackDataforseoLabsSerpElementItem](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[title](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#title)
+[`ILocalPackDataforseoLabsSerpElementItem`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[`title`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:95656
+main.ts:95664
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 relevant URL of the Ad element in SERP
 
 #### Implementation of
 
-[ILocalPackDataforseoLabsSerpElementItem](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[url](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#url)
+[`ILocalPackDataforseoLabsSerpElementItem`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[`url`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:95664
+main.ts:95672
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[ILocalPackDataforseoLabsSerpElementItem](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[xpath](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#xpath)
+[`ILocalPackDataforseoLabsSerpElementItem`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[`xpath`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
-main.ts:95654
+main.ts:95662
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -444,23 +406,21 @@ main.ts:95654
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[init](BaseDataforseoLabsSerpElementItem.md#init)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`init`](BaseDataforseoLabsSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:95707
+main.ts:95715
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -468,23 +428,21 @@ ___
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[toJSON](BaseDataforseoLabsSerpElementItem.md#tojson)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`toJSON`](BaseDataforseoLabsSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:95744
+main.ts:95752
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`LocalPackDataforseoLabsSerpElementItem`](LocalPackDataforseoLabsSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`LocalPackDataforseoLabsSerpElementItem`](LocalPackDataforseoLabsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -492,8 +450,8 @@ ___
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[fromJS](BaseDataforseoLabsSerpElementItem.md#fromjs)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`fromJS`](BaseDataforseoLabsSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:95737
+main.ts:95745

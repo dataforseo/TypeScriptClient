@@ -1,82 +1,71 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISentimentConnotationDistribution
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ISentimentConnotationDistribution
 
 # Interface: ISentimentConnotationDistribution
 
-## Implemented by
-
-- [`SentimentConnotationDistribution`](../classes/SentimentConnotationDistribution.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [anger](ISentimentConnotationDistribution.md#anger)
-- [fun](ISentimentConnotationDistribution.md#fun)
-- [happiness](ISentimentConnotationDistribution.md#happiness)
-- [love](ISentimentConnotationDistribution.md#love)
-- [sadness](ISentimentConnotationDistribution.md#sadness)
-- [share](ISentimentConnotationDistribution.md#share)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### anger
+### anger?
 
-• `Optional` **anger**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
+> **`optional`** **anger**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:163388
+main.ts:163396
 
-___
+***
 
-### fun
+### fun?
 
-• `Optional` **fun**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
+> **`optional`** **fun**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:163393
+main.ts:163401
 
-___
+***
 
-### happiness
+### happiness?
 
-• `Optional` **happiness**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
+> **`optional`** **happiness**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:163389
+main.ts:163397
 
-___
+***
 
-### love
+### love?
 
-• `Optional` **love**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
+> **`optional`** **love**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:163390
+main.ts:163398
 
-___
+***
 
-### sadness
+### sadness?
 
-• `Optional` **sadness**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
+> **`optional`** **sadness**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:163391
+main.ts:163399
 
-___
+***
 
-### share
+### share?
 
-• `Optional` **share**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
+> **`optional`** **share**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:163392
+main.ts:163400

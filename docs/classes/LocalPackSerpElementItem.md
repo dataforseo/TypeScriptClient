@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / LocalPackSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / LocalPackSerpElementItem
 
 # Class: LocalPackSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-  ↳ **`LocalPackSerpElementItem`**
 
 ## Implements
 
@@ -14,48 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](LocalPackSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](LocalPackSerpElementItem.md#_discriminator)
-- [cid](LocalPackSerpElementItem.md#cid)
-- [description](LocalPackSerpElementItem.md#description)
-- [domain](LocalPackSerpElementItem.md#domain)
-- [is\_paid](LocalPackSerpElementItem.md#is_paid)
-- [phone](LocalPackSerpElementItem.md#phone)
-- [position](LocalPackSerpElementItem.md#position)
-- [rank\_absolute](LocalPackSerpElementItem.md#rank_absolute)
-- [rank\_group](LocalPackSerpElementItem.md#rank_group)
-- [rating](LocalPackSerpElementItem.md#rating)
-- [rectangle](LocalPackSerpElementItem.md#rectangle)
-- [title](LocalPackSerpElementItem.md#title)
-- [url](LocalPackSerpElementItem.md#url)
-- [xpath](LocalPackSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](LocalPackSerpElementItem.md#init)
-- [toJSON](LocalPackSerpElementItem.md#tojson)
-- [fromJS](LocalPackSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new LocalPackSerpElementItem(data)
 
-• **new LocalPackSerpElementItem**(`data?`): [`LocalPackSerpElementItem`](LocalPackSerpElementItem.md)
+> **new LocalPackSerpElementItem**(`data`?): [`LocalPackSerpElementItem`](LocalPackSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ILocalPackSerpElementItem`](../interfaces/ILocalPackSerpElementItem.md) |
+• **data?**: [`ILocalPackSerpElementItem`](../interfaces/ILocalPackSerpElementItem.md)
 
 #### Returns
 
@@ -63,9 +34,9 @@
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[constructor](BaseSerpElementItem.md#constructor)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:30615
 
@@ -73,101 +44,101 @@ main.ts:30615
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[_discriminator](BaseSerpElementItem.md#_discriminator)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:19788
 
-___
+***
 
-### cid
+### cid?
 
-• `Optional` **cid**: `string`
+> **`optional`** **cid**: `string`
 
 google-defined client id
 
 #### Implementation of
 
-[ILocalPackSerpElementItem](../interfaces/ILocalPackSerpElementItem.md).[cid](../interfaces/ILocalPackSerpElementItem.md#cid)
+[`ILocalPackSerpElementItem`](../interfaces/ILocalPackSerpElementItem.md).[`cid`](../interfaces/ILocalPackSerpElementItem.md#cid)
 
-#### Defined in
+#### Source
 
 main.ts:30607
 
-___
+***
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description of the results element in SERP
 
 #### Implementation of
 
-[ILocalPackSerpElementItem](../interfaces/ILocalPackSerpElementItem.md).[description](../interfaces/ILocalPackSerpElementItem.md#description)
+[`ILocalPackSerpElementItem`](../interfaces/ILocalPackSerpElementItem.md).[`description`](../interfaces/ILocalPackSerpElementItem.md#description)
 
-#### Defined in
+#### Source
 
 main.ts:30594
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 source domain
 
 #### Implementation of
 
-[ILocalPackSerpElementItem](../interfaces/ILocalPackSerpElementItem.md).[domain](../interfaces/ILocalPackSerpElementItem.md#domain)
+[`ILocalPackSerpElementItem`](../interfaces/ILocalPackSerpElementItem.md).[`domain`](../interfaces/ILocalPackSerpElementItem.md#domain)
 
-#### Defined in
+#### Source
 
 main.ts:30596
 
-___
+***
 
-### is\_paid
+### is\_paid?
 
-• `Optional` **is\_paid**: `boolean`
+> **`optional`** **is\_paid**: `boolean`
 
 indicates whether the element is an ad
 
 #### Implementation of
 
-[ILocalPackSerpElementItem](../interfaces/ILocalPackSerpElementItem.md).[is_paid](../interfaces/ILocalPackSerpElementItem.md#is_paid)
+[`ILocalPackSerpElementItem`](../interfaces/ILocalPackSerpElementItem.md).[`is_paid`](../interfaces/ILocalPackSerpElementItem.md#is_paid)
 
-#### Defined in
+#### Source
 
 main.ts:30602
 
-___
+***
 
-### phone
+### phone?
 
-• `Optional` **phone**: `string`
+> **`optional`** **phone**: `string`
 
 phone number
 
 #### Implementation of
 
-[ILocalPackSerpElementItem](../interfaces/ILocalPackSerpElementItem.md).[phone](../interfaces/ILocalPackSerpElementItem.md#phone)
+[`ILocalPackSerpElementItem`](../interfaces/ILocalPackSerpElementItem.md).[`phone`](../interfaces/ILocalPackSerpElementItem.md#phone)
 
-#### Defined in
+#### Source
 
 main.ts:30598
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -175,17 +146,17 @@ left, right
 
 #### Implementation of
 
-[ILocalPackSerpElementItem](../interfaces/ILocalPackSerpElementItem.md).[position](../interfaces/ILocalPackSerpElementItem.md#position)
+[`ILocalPackSerpElementItem`](../interfaces/ILocalPackSerpElementItem.md).[`position`](../interfaces/ILocalPackSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
 main.ts:30588
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -193,17 +164,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[ILocalPackSerpElementItem](../interfaces/ILocalPackSerpElementItem.md).[rank_absolute](../interfaces/ILocalPackSerpElementItem.md#rank_absolute)
+[`ILocalPackSerpElementItem`](../interfaces/ILocalPackSerpElementItem.md).[`rank_absolute`](../interfaces/ILocalPackSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
 main.ts:30584
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
@@ -212,34 +183,34 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[ILocalPackSerpElementItem](../interfaces/ILocalPackSerpElementItem.md).[rank_group](../interfaces/ILocalPackSerpElementItem.md#rank_group)
+[`ILocalPackSerpElementItem`](../interfaces/ILocalPackSerpElementItem.md).[`rank_group`](../interfaces/ILocalPackSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
 main.ts:30580
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](RatingInfo.md)
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
 
-[ILocalPackSerpElementItem](../interfaces/ILocalPackSerpElementItem.md).[rating](../interfaces/ILocalPackSerpElementItem.md#rating)
+[`ILocalPackSerpElementItem`](../interfaces/ILocalPackSerpElementItem.md).[`rating`](../interfaces/ILocalPackSerpElementItem.md#rating)
 
-#### Defined in
+#### Source
 
 main.ts:30605
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -247,71 +218,69 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Implementation of
 
-[ILocalPackSerpElementItem](../interfaces/ILocalPackSerpElementItem.md).[rectangle](../interfaces/ILocalPackSerpElementItem.md#rectangle)
+[`ILocalPackSerpElementItem`](../interfaces/ILocalPackSerpElementItem.md).[`rectangle`](../interfaces/ILocalPackSerpElementItem.md#rectangle)
 
-#### Defined in
+#### Source
 
 main.ts:30611
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the row
 
 #### Implementation of
 
-[ILocalPackSerpElementItem](../interfaces/ILocalPackSerpElementItem.md).[title](../interfaces/ILocalPackSerpElementItem.md#title)
+[`ILocalPackSerpElementItem`](../interfaces/ILocalPackSerpElementItem.md).[`title`](../interfaces/ILocalPackSerpElementItem.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:30592
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 source URL
 
 #### Implementation of
 
-[ILocalPackSerpElementItem](../interfaces/ILocalPackSerpElementItem.md).[url](../interfaces/ILocalPackSerpElementItem.md#url)
+[`ILocalPackSerpElementItem`](../interfaces/ILocalPackSerpElementItem.md).[`url`](../interfaces/ILocalPackSerpElementItem.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:30600
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[ILocalPackSerpElementItem](../interfaces/ILocalPackSerpElementItem.md).[xpath](../interfaces/ILocalPackSerpElementItem.md#xpath)
+[`ILocalPackSerpElementItem`](../interfaces/ILocalPackSerpElementItem.md).[`xpath`](../interfaces/ILocalPackSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
 main.ts:30590
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -319,23 +288,21 @@ main.ts:30590
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[init](BaseSerpElementItem.md#init)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:30620
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -343,23 +310,21 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[toJSON](BaseSerpElementItem.md#tojson)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:30650
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`LocalPackSerpElementItem`](LocalPackSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`LocalPackSerpElementItem`](LocalPackSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -367,8 +332,8 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[fromJS](BaseSerpElementItem.md#fromjs)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:30643

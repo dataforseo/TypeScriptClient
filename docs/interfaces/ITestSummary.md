@@ -1,68 +1,59 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ITestSummary
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ITestSummary
 
 # Interface: ITestSummary
 
-## Implemented by
-
-- [`TestSummary`](../classes/TestSummary.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [error](ITestSummary.md#error)
-- [fatal](ITestSummary.md#fatal)
-- [info](ITestSummary.md#info)
-- [warning](ITestSummary.md#warning)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### error
+### error?
 
-• `Optional` **error**: `number`
+> **`optional`** **error**: `number`
 
 number of serious microdata errors
 
-#### Defined in
+#### Source
 
-main.ts:156065
+main.ts:156073
 
-___
+***
 
-### fatal
+### fatal?
 
-• `Optional` **fatal**: `number`
+> **`optional`** **fatal**: `number`
 
 number of fatal microdata errors
 
-#### Defined in
+#### Source
 
-main.ts:156063
+main.ts:156071
 
-___
+***
 
-### info
+### info?
 
-• `Optional` **info**: `number`
+> **`optional`** **info**: `number`
 
 number of microdata information flags
 
-#### Defined in
+#### Source
 
-main.ts:156069
+main.ts:156077
 
-___
+***
 
-### warning
+### warning?
 
-• `Optional` **warning**: `number`
+> **`optional`** **warning**: `number`
 
 number of microdata warnings
 
-#### Defined in
+#### Source
 
-main.ts:156067
+main.ts:156075

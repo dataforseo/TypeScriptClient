@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonRankedKeywordsLiveTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsAmazonRankedKeywordsLiveTaskInfo
 
 # Class: DataforseoLabsAmazonRankedKeywordsLiveTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`DataforseoLabsAmazonRankedKeywordsLiveTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](DataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md#cost)
-- [data](DataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md#data)
-- [id](DataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md#id)
-- [path](DataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md#path)
-- [result](DataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md#result)
-- [result\_count](DataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md#result_count)
-- [status\_code](DataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md#status_code)
-- [status\_message](DataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md#status_message)
-- [time](DataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md#time)
-
-### Methods
-
-- [init](DataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md#init)
-- [toJSON](DataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md#tojson)
-- [fromJS](DataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsAmazonRankedKeywordsLiveTaskInfo(data)
 
-• **new DataforseoLabsAmazonRankedKeywordsLiveTaskInfo**(`data?`): [`DataforseoLabsAmazonRankedKeywordsLiveTaskInfo`](DataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md)
+> **new DataforseoLabsAmazonRankedKeywordsLiveTaskInfo**(`data`?): [`DataforseoLabsAmazonRankedKeywordsLiveTaskInfo`](DataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md) |
+• **data?**: [`IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:102693
+main.ts:102701
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md).[cost](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md#cost)
+[`IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md).[`cost`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md).[data](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md#data)
+[`IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md).[`data`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md).[id](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md#id)
+[`IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md).[`id`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md).[path](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md#path)
+[`IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md).[`path`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`DataforseoLabsAmazonRankedKeywordsLiveResultInfo`](DataforseoLabsAmazonRankedKeywordsLiveResultInfo.md)[]
+> **`optional`** **result**: [`DataforseoLabsAmazonRankedKeywordsLiveResultInfo`](DataforseoLabsAmazonRankedKeywordsLiveResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md).[result](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md#result)
+[`IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md).[`result`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:102689
+main.ts:102697
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md).[result_count](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md#result_count)
+[`IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md).[`result_count`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md).[status_code](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md#status_code)
+[`IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md).[`status_code`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md).[status_message](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md#status_message)
+[`IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md).[`status_message`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md).[time](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md#time)
+[`IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md).[`time`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:102697
+main.ts:102705
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:102719
+main.ts:102727
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsAmazonRankedKeywordsLiveTaskInfo`](DataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsAmazonRankedKeywordsLiveTaskInfo`](DataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:102712
+main.ts:102720

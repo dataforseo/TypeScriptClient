@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / TrendsMapDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / TrendsMapDataInfo
 
 # Class: TrendsMapDataInfo
 
@@ -8,52 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](TrendsMapDataInfo.md#constructor)
-
-### Properties
-
-- [geo\_id](TrendsMapDataInfo.md#geo_id)
-- [geo\_name](TrendsMapDataInfo.md#geo_name)
-- [max\_value\_index](TrendsMapDataInfo.md#max_value_index)
-- [values](TrendsMapDataInfo.md#values)
-
-### Methods
-
-- [init](TrendsMapDataInfo.md#init)
-- [toJSON](TrendsMapDataInfo.md#tojson)
-- [fromJS](TrendsMapDataInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new TrendsMapDataInfo(data)
 
-• **new TrendsMapDataInfo**(`data?`): [`TrendsMapDataInfo`](TrendsMapDataInfo.md)
+> **new TrendsMapDataInfo**(`data`?): [`TrendsMapDataInfo`](TrendsMapDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ITrendsMapDataInfo`](../interfaces/ITrendsMapDataInfo.md) |
+• **data?**: [`ITrendsMapDataInfo`](../interfaces/ITrendsMapDataInfo.md)
 
 #### Returns
 
 [`TrendsMapDataInfo`](TrendsMapDataInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:123154
+main.ts:123162
 
 ## Properties
 
-### geo\_id
+### geo\_id?
 
-• `Optional` **geo\_id**: `string`
+> **`optional`** **geo\_id**: `string`
 
 Google Trends location identifier
 you can use this field for matching obtained results with location parameters specified in the request
@@ -62,34 +45,34 @@ US-NY
 
 #### Implementation of
 
-[ITrendsMapDataInfo](../interfaces/ITrendsMapDataInfo.md).[geo_id](../interfaces/ITrendsMapDataInfo.md#geo_id)
+[`ITrendsMapDataInfo`](../interfaces/ITrendsMapDataInfo.md).[`geo_id`](../interfaces/ITrendsMapDataInfo.md#geo_id)
 
-#### Defined in
+#### Source
 
-main.ts:123136
+main.ts:123144
 
-___
+***
 
-### geo\_name
+### geo\_name?
 
-• `Optional` **geo\_name**: `string`
+> **`optional`** **geo\_name**: `string`
 
 Google Trends location name
 you can use this field for matching obtained results with location parameters specified in the request
 
 #### Implementation of
 
-[ITrendsMapDataInfo](../interfaces/ITrendsMapDataInfo.md).[geo_name](../interfaces/ITrendsMapDataInfo.md#geo_name)
+[`ITrendsMapDataInfo`](../interfaces/ITrendsMapDataInfo.md).[`geo_name`](../interfaces/ITrendsMapDataInfo.md#geo_name)
 
-#### Defined in
+#### Source
 
-main.ts:123139
+main.ts:123147
 
-___
+***
 
-### max\_value\_index
+### max\_value\_index?
 
-• `Optional` **max\_value\_index**: `number`
+> **`optional`** **max\_value\_index**: `number`
 
 max value among comparable terms
 represents the maximum value if you specified more than two keywords in a POST array
@@ -97,17 +80,17 @@ if you specified only one keyword, the value will be null
 
 #### Implementation of
 
-[ITrendsMapDataInfo](../interfaces/ITrendsMapDataInfo.md).[max_value_index](../interfaces/ITrendsMapDataInfo.md#max_value_index)
+[`ITrendsMapDataInfo`](../interfaces/ITrendsMapDataInfo.md).[`max_value_index`](../interfaces/ITrendsMapDataInfo.md#max_value_index)
 
-#### Defined in
+#### Source
 
-main.ts:123150
+main.ts:123158
 
-___
+***
 
-### values
+### values?
 
-• `Optional` **values**: `any`[]
+> **`optional`** **values**: `any`[]
 
 relative keyword popularity rate in a given location
 represents the location-specific keyword popularity rate over the given time range
@@ -118,68 +101,62 @@ a value of 0 means there was not enough data for this term
 
 #### Implementation of
 
-[ITrendsMapDataInfo](../interfaces/ITrendsMapDataInfo.md).[values](../interfaces/ITrendsMapDataInfo.md#values)
+[`ITrendsMapDataInfo`](../interfaces/ITrendsMapDataInfo.md).[`values`](../interfaces/ITrendsMapDataInfo.md#values)
 
-#### Defined in
+#### Source
 
-main.ts:123146
+main.ts:123154
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:123163
+main.ts:123171
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:123187
+main.ts:123195
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`TrendsMapDataInfo`](TrendsMapDataInfo.md)
+> **`static`** **fromJS**(`data`): [`TrendsMapDataInfo`](TrendsMapDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`TrendsMapDataInfo`](TrendsMapDataInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:123180
+main.ts:123188

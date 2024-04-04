@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpSeznamOrganicTaskGetRegularResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpSeznamOrganicTaskGetRegularResponseInfo
 
 # Class: SerpSeznamOrganicTaskGetRegularResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`SerpSeznamOrganicTaskGetRegularResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpSeznamOrganicTaskGetRegularResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](SerpSeznamOrganicTaskGetRegularResponseInfo.md#cost)
-- [status\_code](SerpSeznamOrganicTaskGetRegularResponseInfo.md#status_code)
-- [status\_message](SerpSeznamOrganicTaskGetRegularResponseInfo.md#status_message)
-- [tasks](SerpSeznamOrganicTaskGetRegularResponseInfo.md#tasks)
-- [tasks\_count](SerpSeznamOrganicTaskGetRegularResponseInfo.md#tasks_count)
-- [tasks\_error](SerpSeznamOrganicTaskGetRegularResponseInfo.md#tasks_error)
-- [time](SerpSeznamOrganicTaskGetRegularResponseInfo.md#time)
-- [version](SerpSeznamOrganicTaskGetRegularResponseInfo.md#version)
-
-### Methods
-
-- [init](SerpSeznamOrganicTaskGetRegularResponseInfo.md#init)
-- [toJSON](SerpSeznamOrganicTaskGetRegularResponseInfo.md#tojson)
-- [fromJS](SerpSeznamOrganicTaskGetRegularResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpSeznamOrganicTaskGetRegularResponseInfo(data)
 
-• **new SerpSeznamOrganicTaskGetRegularResponseInfo**(`data?`): [`SerpSeznamOrganicTaskGetRegularResponseInfo`](SerpSeznamOrganicTaskGetRegularResponseInfo.md)
+> **new SerpSeznamOrganicTaskGetRegularResponseInfo**(`data`?): [`SerpSeznamOrganicTaskGetRegularResponseInfo`](SerpSeznamOrganicTaskGetRegularResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpSeznamOrganicTaskGetRegularResponseInfo`](../interfaces/ISerpSeznamOrganicTaskGetRegularResponseInfo.md) |
+• **data?**: [`ISerpSeznamOrganicTaskGetRegularResponseInfo`](../interfaces/ISerpSeznamOrganicTaskGetRegularResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:72710
+main.ts:72718
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[ISerpSeznamOrganicTaskGetRegularResponseInfo](../interfaces/ISerpSeznamOrganicTaskGetRegularResponseInfo.md).[cost](../interfaces/ISerpSeznamOrganicTaskGetRegularResponseInfo.md#cost)
+[`ISerpSeznamOrganicTaskGetRegularResponseInfo`](../interfaces/ISerpSeznamOrganicTaskGetRegularResponseInfo.md).[`cost`](../interfaces/ISerpSeznamOrganicTaskGetRegularResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[ISerpSeznamOrganicTaskGetRegularResponseInfo](../interfaces/ISerpSeznamOrganicTaskGetRegularResponseInfo.md).[status_code](../interfaces/ISerpSeznamOrganicTaskGetRegularResponseInfo.md#status_code)
+[`ISerpSeznamOrganicTaskGetRegularResponseInfo`](../interfaces/ISerpSeznamOrganicTaskGetRegularResponseInfo.md).[`status_code`](../interfaces/ISerpSeznamOrganicTaskGetRegularResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[ISerpSeznamOrganicTaskGetRegularResponseInfo](../interfaces/ISerpSeznamOrganicTaskGetRegularResponseInfo.md).[status_message](../interfaces/ISerpSeznamOrganicTaskGetRegularResponseInfo.md#status_message)
+[`ISerpSeznamOrganicTaskGetRegularResponseInfo`](../interfaces/ISerpSeznamOrganicTaskGetRegularResponseInfo.md).[`status_message`](../interfaces/ISerpSeznamOrganicTaskGetRegularResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`SerpSeznamOrganicTaskGetRegularTaskInfo`](SerpSeznamOrganicTaskGetRegularTaskInfo.md)[]
+> **`optional`** **tasks**: [`SerpSeznamOrganicTaskGetRegularTaskInfo`](SerpSeznamOrganicTaskGetRegularTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[ISerpSeznamOrganicTaskGetRegularResponseInfo](../interfaces/ISerpSeznamOrganicTaskGetRegularResponseInfo.md).[tasks](../interfaces/ISerpSeznamOrganicTaskGetRegularResponseInfo.md#tasks)
+[`ISerpSeznamOrganicTaskGetRegularResponseInfo`](../interfaces/ISerpSeznamOrganicTaskGetRegularResponseInfo.md).[`tasks`](../interfaces/ISerpSeznamOrganicTaskGetRegularResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:72706
+main.ts:72714
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[ISerpSeznamOrganicTaskGetRegularResponseInfo](../interfaces/ISerpSeznamOrganicTaskGetRegularResponseInfo.md).[tasks_count](../interfaces/ISerpSeznamOrganicTaskGetRegularResponseInfo.md#tasks_count)
+[`ISerpSeznamOrganicTaskGetRegularResponseInfo`](../interfaces/ISerpSeznamOrganicTaskGetRegularResponseInfo.md).[`tasks_count`](../interfaces/ISerpSeznamOrganicTaskGetRegularResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[ISerpSeznamOrganicTaskGetRegularResponseInfo](../interfaces/ISerpSeznamOrganicTaskGetRegularResponseInfo.md).[tasks_error](../interfaces/ISerpSeznamOrganicTaskGetRegularResponseInfo.md#tasks_error)
+[`ISerpSeznamOrganicTaskGetRegularResponseInfo`](../interfaces/ISerpSeznamOrganicTaskGetRegularResponseInfo.md).[`tasks_error`](../interfaces/ISerpSeznamOrganicTaskGetRegularResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[ISerpSeznamOrganicTaskGetRegularResponseInfo](../interfaces/ISerpSeznamOrganicTaskGetRegularResponseInfo.md).[time](../interfaces/ISerpSeznamOrganicTaskGetRegularResponseInfo.md#time)
+[`ISerpSeznamOrganicTaskGetRegularResponseInfo`](../interfaces/ISerpSeznamOrganicTaskGetRegularResponseInfo.md).[`time`](../interfaces/ISerpSeznamOrganicTaskGetRegularResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[ISerpSeznamOrganicTaskGetRegularResponseInfo](../interfaces/ISerpSeznamOrganicTaskGetRegularResponseInfo.md).[version](../interfaces/ISerpSeznamOrganicTaskGetRegularResponseInfo.md#version)
+[`ISerpSeznamOrganicTaskGetRegularResponseInfo`](../interfaces/ISerpSeznamOrganicTaskGetRegularResponseInfo.md).[`version`](../interfaces/ISerpSeznamOrganicTaskGetRegularResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:72714
+main.ts:72722
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:72736
+main.ts:72744
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpSeznamOrganicTaskGetRegularResponseInfo`](SerpSeznamOrganicTaskGetRegularResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpSeznamOrganicTaskGetRegularResponseInfo`](SerpSeznamOrganicTaskGetRegularResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:72729
+main.ts:72737

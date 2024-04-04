@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataBingKeywordsForKeywordsLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataBingKeywordsForKeywordsLiveResultInfo
 
 # Class: KeywordsDataBingKeywordsForKeywordsLiveResultInfo
 
@@ -8,75 +12,48 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#constructor)
-
-### Properties
-
-- [categories](KeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#categories)
-- [competition](KeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#competition)
-- [cpc](KeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#cpc)
-- [device](KeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#device)
-- [keyword](KeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#keyword)
-- [language\_code](KeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#language_code)
-- [location\_code](KeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#location_code)
-- [monthly\_searches](KeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#monthly_searches)
-- [search\_partners](KeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#search_partners)
-- [search\_volume](KeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#search_volume)
-
-### Methods
-
-- [init](KeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#init)
-- [toJSON](KeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#tojson)
-- [fromJS](KeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordsDataBingKeywordsForKeywordsLiveResultInfo(data)
 
-• **new KeywordsDataBingKeywordsForKeywordsLiveResultInfo**(`data?`): [`KeywordsDataBingKeywordsForKeywordsLiveResultInfo`](KeywordsDataBingKeywordsForKeywordsLiveResultInfo.md)
+> **new KeywordsDataBingKeywordsForKeywordsLiveResultInfo**(`data`?): [`KeywordsDataBingKeywordsForKeywordsLiveResultInfo`](KeywordsDataBingKeywordsForKeywordsLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordsDataBingKeywordsForKeywordsLiveResultInfo`](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md) |
+• **data?**: [`IKeywordsDataBingKeywordsForKeywordsLiveResultInfo`](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md)
 
 #### Returns
 
 [`KeywordsDataBingKeywordsForKeywordsLiveResultInfo`](KeywordsDataBingKeywordsForKeywordsLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:131480
+main.ts:131488
 
 ## Properties
 
-### categories
+### categories?
 
-• `Optional` **categories**: `string`[]
+> **`optional`** **categories**: `string`[]
 
 product and service categories
 legacy field, the value will always be null
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordsForKeywordsLiveResultInfo](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md).[categories](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#categories)
+[`IKeywordsDataBingKeywordsForKeywordsLiveResultInfo`](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md).[`categories`](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#categories)
 
-#### Defined in
+#### Source
 
-main.ts:131472
+main.ts:131480
 
-___
+***
 
-### competition
+### competition?
 
-• `Optional` **competition**: `number`
+> **`optional`** **competition**: `number`
 
 competition
 represents the relative amount of competition associated with the given keyword in paid SERP only. This value is based on Bing Ads data.
@@ -87,17 +64,17 @@ if there is no data the value is null
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordsForKeywordsLiveResultInfo](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md).[competition](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#competition)
+[`IKeywordsDataBingKeywordsForKeywordsLiveResultInfo`](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md).[`competition`](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#competition)
 
-#### Defined in
+#### Source
 
-main.ts:131461
+main.ts:131469
 
-___
+***
 
-### cpc
+### cpc?
 
-• `Optional` **cpc**: `number`
+> **`optional`** **cpc**: `number`
 
 cost-per-click
 represents the average cost per click (USD) historically paid for the keyword.
@@ -105,17 +82,17 @@ if there is no data, then the value is null
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordsForKeywordsLiveResultInfo](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md).[cpc](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#cpc)
+[`IKeywordsDataBingKeywordsForKeywordsLiveResultInfo`](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md).[`cpc`](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#cpc)
 
-#### Defined in
+#### Source
 
-main.ts:131465
+main.ts:131473
 
-___
+***
 
-### device
+### device?
 
-• `Optional` **device**: `string`
+> **`optional`** **device**: `string`
 
 device type
 indicates for what device type the data is provided;
@@ -123,67 +100,67 @@ possible values: all, mobile, desktop, tablet
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordsForKeywordsLiveResultInfo](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md).[device](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#device)
+[`IKeywordsDataBingKeywordsForKeywordsLiveResultInfo`](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md).[`device`](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#device)
 
-#### Defined in
+#### Source
 
-main.ts:131454
+main.ts:131462
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword in a POST array
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordsForKeywordsLiveResultInfo](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md).[keyword](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#keyword)
+[`IKeywordsDataBingKeywordsForKeywordsLiveResultInfo`](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md).[`keyword`](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:131442
+main.ts:131450
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 if there is no data, then the value is null
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordsForKeywordsLiveResultInfo](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md).[language_code](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#language_code)
+[`IKeywordsDataBingKeywordsForKeywordsLiveResultInfo`](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md).[`language_code`](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:131448
+main.ts:131456
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 if there is no data, then the value is null
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordsForKeywordsLiveResultInfo](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md).[location_code](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#location_code)
+[`IKeywordsDataBingKeywordsForKeywordsLiveResultInfo`](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md).[`location_code`](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:131445
+main.ts:131453
 
-___
+***
 
-### monthly\_searches
+### monthly\_searches?
 
-• `Optional` **monthly\_searches**: [`MonthlySearches`](MonthlySearches.md)[]
+> **`optional`** **monthly\_searches**: [`MonthlySearches`](MonthlySearches.md)[]
 
 monthly searches
 represents the (approximate) number of searches on this keyword (as available for the past twelve months), targeted to the specified geographic locations.
@@ -191,33 +168,33 @@ if there is no data, then the value is null
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordsForKeywordsLiveResultInfo](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md).[monthly_searches](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#monthly_searches)
+[`IKeywordsDataBingKeywordsForKeywordsLiveResultInfo`](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md).[`monthly_searches`](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#monthly_searches)
 
-#### Defined in
+#### Source
 
-main.ts:131476
+main.ts:131484
 
-___
+***
 
-### search\_partners
+### search\_partners?
 
-• `Optional` **search\_partners**: `boolean`
+> **`optional`** **search\_partners**: `boolean`
 
 indicates whether data from partner networks is included in the response
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordsForKeywordsLiveResultInfo](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md).[search_partners](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#search_partners)
+[`IKeywordsDataBingKeywordsForKeywordsLiveResultInfo`](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md).[`search_partners`](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#search_partners)
 
-#### Defined in
+#### Source
 
-main.ts:131450
+main.ts:131458
 
-___
+***
 
-### search\_volume
+### search\_volume?
 
-• `Optional` **search\_volume**: `number`
+> **`optional`** **search\_volume**: `number`
 
 monthly average search volume rate
 represents the (approximate) number of searches for the keyword on the Bing search engine, depending on the user’s targetingsearch volume is rounded to the closest decimal values
@@ -225,68 +202,62 @@ if there is no data, then the value is null
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordsForKeywordsLiveResultInfo](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md).[search_volume](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#search_volume)
+[`IKeywordsDataBingKeywordsForKeywordsLiveResultInfo`](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md).[`search_volume`](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#search_volume)
 
-#### Defined in
+#### Source
 
-main.ts:131469
+main.ts:131477
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:131489
+main.ts:131497
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:131523
+main.ts:131531
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordsDataBingKeywordsForKeywordsLiveResultInfo`](KeywordsDataBingKeywordsForKeywordsLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordsDataBingKeywordsForKeywordsLiveResultInfo`](KeywordsDataBingKeywordsForKeywordsLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`KeywordsDataBingKeywordsForKeywordsLiveResultInfo`](KeywordsDataBingKeywordsForKeywordsLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:131516
+main.ts:131524

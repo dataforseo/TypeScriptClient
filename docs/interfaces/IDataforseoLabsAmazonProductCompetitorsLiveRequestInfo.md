@@ -1,71 +1,56 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo
 
 # Interface: IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo
 
-## Implemented by
-
-- [`DataforseoLabsAmazonProductCompetitorsLiveRequestInfo`](../classes/DataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [asin](IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#asin)
-- [filters](IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#filters)
-- [language\_code](IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#language_code)
-- [language\_name](IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#language_name)
-- [limit](IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#limit)
-- [location\_code](IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#location_code)
-- [location\_name](IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#location_name)
-- [offset](IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#offset)
-- [order\_by](IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#order_by)
-- [tag](IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### asin
+### asin?
 
-• `Optional` **asin**: `string`
+> **`optional`** **asin**: `string`
 
 product ID
 required field
 unique product identifier (ASIN) on Amazon;
 you can receive the asin parameter by making a separate request to the Amazon Products endpoint
 
-#### Defined in
+#### Source
 
-main.ts:103507
+main.ts:103515
 
-___
+***
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, <=, >, >=, =, <>, in, not_in, like, not_like
+regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
-["full_metrics.amazon_serp.pos_1",">", 20]
+["full_metrics.amazon_serp.pos_1",">`", 20]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide
 
-#### Defined in
+#### Source
 
-main.ts:103553
+main.ts:103561
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 required field if don’t specify language_name
@@ -74,15 +59,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:103537
+main.ts:103545
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 required field if don’t specify language_code
@@ -91,30 +76,30 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:103530
+main.ts:103538
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of products in the results array
 optional field
 default value: 100;
 maximum value: 1000
 
-#### Defined in
+#### Source
 
-main.ts:103542
+main.ts:103550
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 required field if don’t specify location_name
@@ -124,15 +109,15 @@ Note: this endpoint currently supports the US, Egypt, Saudi Arabia, and the Unit
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:103523
+main.ts:103531
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 required field if don’t specify location_code
@@ -142,30 +127,30 @@ Note: this endpoint currently supports the US, Egypt, Saudi Arabia, and the Unit
 example:
 United States
 
-#### Defined in
+#### Source
 
-main.ts:103515
+main.ts:103523
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned product competitors
 optional field
 default value: 0
 if you specify the 10 value, the first ten product competitors in the results array will be omitted and the data will be provided for the successive product competitors
 
-#### Defined in
+#### Source
 
-main.ts:103574
+main.ts:103582
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -183,15 +168,15 @@ example:
 default rule:
 ["ranked_serp_element.serp_item.rank_group,asc"]
 
-#### Defined in
+#### Source
 
-main.ts:103569
+main.ts:103577
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -199,6 +184,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:103580
+main.ts:103588

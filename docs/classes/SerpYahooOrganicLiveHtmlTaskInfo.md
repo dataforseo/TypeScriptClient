@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpYahooOrganicLiveHtmlTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpYahooOrganicLiveHtmlTaskInfo
 
 # Class: SerpYahooOrganicLiveHtmlTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`SerpYahooOrganicLiveHtmlTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpYahooOrganicLiveHtmlTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](SerpYahooOrganicLiveHtmlTaskInfo.md#cost)
-- [data](SerpYahooOrganicLiveHtmlTaskInfo.md#data)
-- [id](SerpYahooOrganicLiveHtmlTaskInfo.md#id)
-- [path](SerpYahooOrganicLiveHtmlTaskInfo.md#path)
-- [result](SerpYahooOrganicLiveHtmlTaskInfo.md#result)
-- [result\_count](SerpYahooOrganicLiveHtmlTaskInfo.md#result_count)
-- [status\_code](SerpYahooOrganicLiveHtmlTaskInfo.md#status_code)
-- [status\_message](SerpYahooOrganicLiveHtmlTaskInfo.md#status_message)
-- [time](SerpYahooOrganicLiveHtmlTaskInfo.md#time)
-
-### Methods
-
-- [init](SerpYahooOrganicLiveHtmlTaskInfo.md#init)
-- [toJSON](SerpYahooOrganicLiveHtmlTaskInfo.md#tojson)
-- [fromJS](SerpYahooOrganicLiveHtmlTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpYahooOrganicLiveHtmlTaskInfo(data)
 
-• **new SerpYahooOrganicLiveHtmlTaskInfo**(`data?`): [`SerpYahooOrganicLiveHtmlTaskInfo`](SerpYahooOrganicLiveHtmlTaskInfo.md)
+> **new SerpYahooOrganicLiveHtmlTaskInfo**(`data`?): [`SerpYahooOrganicLiveHtmlTaskInfo`](SerpYahooOrganicLiveHtmlTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpYahooOrganicLiveHtmlTaskInfo`](../interfaces/ISerpYahooOrganicLiveHtmlTaskInfo.md) |
+• **data?**: [`ISerpYahooOrganicLiveHtmlTaskInfo`](../interfaces/ISerpYahooOrganicLiveHtmlTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:67473
+main.ts:67481
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[ISerpYahooOrganicLiveHtmlTaskInfo](../interfaces/ISerpYahooOrganicLiveHtmlTaskInfo.md).[cost](../interfaces/ISerpYahooOrganicLiveHtmlTaskInfo.md#cost)
+[`ISerpYahooOrganicLiveHtmlTaskInfo`](../interfaces/ISerpYahooOrganicLiveHtmlTaskInfo.md).[`cost`](../interfaces/ISerpYahooOrganicLiveHtmlTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[ISerpYahooOrganicLiveHtmlTaskInfo](../interfaces/ISerpYahooOrganicLiveHtmlTaskInfo.md).[data](../interfaces/ISerpYahooOrganicLiveHtmlTaskInfo.md#data)
+[`ISerpYahooOrganicLiveHtmlTaskInfo`](../interfaces/ISerpYahooOrganicLiveHtmlTaskInfo.md).[`data`](../interfaces/ISerpYahooOrganicLiveHtmlTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[ISerpYahooOrganicLiveHtmlTaskInfo](../interfaces/ISerpYahooOrganicLiveHtmlTaskInfo.md).[id](../interfaces/ISerpYahooOrganicLiveHtmlTaskInfo.md#id)
+[`ISerpYahooOrganicLiveHtmlTaskInfo`](../interfaces/ISerpYahooOrganicLiveHtmlTaskInfo.md).[`id`](../interfaces/ISerpYahooOrganicLiveHtmlTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[ISerpYahooOrganicLiveHtmlTaskInfo](../interfaces/ISerpYahooOrganicLiveHtmlTaskInfo.md).[path](../interfaces/ISerpYahooOrganicLiveHtmlTaskInfo.md#path)
+[`ISerpYahooOrganicLiveHtmlTaskInfo`](../interfaces/ISerpYahooOrganicLiveHtmlTaskInfo.md).[`path`](../interfaces/ISerpYahooOrganicLiveHtmlTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`SerpYahooOrganicLiveHtmlResultInfo`](SerpYahooOrganicLiveHtmlResultInfo.md)[]
+> **`optional`** **result**: [`SerpYahooOrganicLiveHtmlResultInfo`](SerpYahooOrganicLiveHtmlResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[ISerpYahooOrganicLiveHtmlTaskInfo](../interfaces/ISerpYahooOrganicLiveHtmlTaskInfo.md).[result](../interfaces/ISerpYahooOrganicLiveHtmlTaskInfo.md#result)
+[`ISerpYahooOrganicLiveHtmlTaskInfo`](../interfaces/ISerpYahooOrganicLiveHtmlTaskInfo.md).[`result`](../interfaces/ISerpYahooOrganicLiveHtmlTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:67469
+main.ts:67477
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[ISerpYahooOrganicLiveHtmlTaskInfo](../interfaces/ISerpYahooOrganicLiveHtmlTaskInfo.md).[result_count](../interfaces/ISerpYahooOrganicLiveHtmlTaskInfo.md#result_count)
+[`ISerpYahooOrganicLiveHtmlTaskInfo`](../interfaces/ISerpYahooOrganicLiveHtmlTaskInfo.md).[`result_count`](../interfaces/ISerpYahooOrganicLiveHtmlTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[ISerpYahooOrganicLiveHtmlTaskInfo](../interfaces/ISerpYahooOrganicLiveHtmlTaskInfo.md).[status_code](../interfaces/ISerpYahooOrganicLiveHtmlTaskInfo.md#status_code)
+[`ISerpYahooOrganicLiveHtmlTaskInfo`](../interfaces/ISerpYahooOrganicLiveHtmlTaskInfo.md).[`status_code`](../interfaces/ISerpYahooOrganicLiveHtmlTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[ISerpYahooOrganicLiveHtmlTaskInfo](../interfaces/ISerpYahooOrganicLiveHtmlTaskInfo.md).[status_message](../interfaces/ISerpYahooOrganicLiveHtmlTaskInfo.md#status_message)
+[`ISerpYahooOrganicLiveHtmlTaskInfo`](../interfaces/ISerpYahooOrganicLiveHtmlTaskInfo.md).[`status_message`](../interfaces/ISerpYahooOrganicLiveHtmlTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[ISerpYahooOrganicLiveHtmlTaskInfo](../interfaces/ISerpYahooOrganicLiveHtmlTaskInfo.md).[time](../interfaces/ISerpYahooOrganicLiveHtmlTaskInfo.md#time)
+[`ISerpYahooOrganicLiveHtmlTaskInfo`](../interfaces/ISerpYahooOrganicLiveHtmlTaskInfo.md).[`time`](../interfaces/ISerpYahooOrganicLiveHtmlTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:67477
+main.ts:67485
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:67499
+main.ts:67507
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpYahooOrganicLiveHtmlTaskInfo`](SerpYahooOrganicLiveHtmlTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpYahooOrganicLiveHtmlTaskInfo`](SerpYahooOrganicLiveHtmlTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:67492
+main.ts:67500

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DemographyComparison
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DemographyComparison
 
 # Class: DemographyComparison
 
@@ -8,141 +12,116 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DemographyComparison.md#constructor)
-
-### Properties
-
-- [age](DemographyComparison.md#age)
-- [gender](DemographyComparison.md#gender)
-
-### Methods
-
-- [init](DemographyComparison.md#init)
-- [toJSON](DemographyComparison.md#tojson)
-- [fromJS](DemographyComparison.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DemographyComparison(data)
 
-• **new DemographyComparison**(`data?`): [`DemographyComparison`](DemographyComparison.md)
+> **new DemographyComparison**(`data`?): [`DemographyComparison`](DemographyComparison.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDemographyComparison`](../interfaces/IDemographyComparison.md) |
+• **data?**: [`IDemographyComparison`](../interfaces/IDemographyComparison.md)
 
 #### Returns
 
 [`DemographyComparison`](DemographyComparison.md)
 
-#### Defined in
+#### Source
 
-main.ts:126422
+main.ts:126430
 
 ## Properties
 
-### age
+### age?
 
-• `Optional` **age**: `Object`
+> **`optional`** **age**: `Object`
 
 comparison of keyword popularity data by age
 
 #### Index signature
 
-▪ [key: `string`]: (`number` \| `undefined`)[]
+ \[`key`: `string`\]: (`number` \| `undefined`)[]
 
 #### Implementation of
 
-[IDemographyComparison](../interfaces/IDemographyComparison.md).[age](../interfaces/IDemographyComparison.md#age)
+[`IDemographyComparison`](../interfaces/IDemographyComparison.md).[`age`](../interfaces/IDemographyComparison.md#age)
 
-#### Defined in
+#### Source
 
-main.ts:126416
+main.ts:126424
 
-___
+***
 
-### gender
+### gender?
 
-• `Optional` **gender**: `Object`
+> **`optional`** **gender**: `Object`
 
 comparison of keyword popularity data by gender
 
 #### Index signature
 
-▪ [key: `string`]: (`number` \| `undefined`)[]
+ \[`key`: `string`\]: (`number` \| `undefined`)[]
 
 #### Implementation of
 
-[IDemographyComparison](../interfaces/IDemographyComparison.md).[gender](../interfaces/IDemographyComparison.md#gender)
+[`IDemographyComparison`](../interfaces/IDemographyComparison.md).[`gender`](../interfaces/IDemographyComparison.md#gender)
 
-#### Defined in
+#### Source
 
-main.ts:126418
+main.ts:126426
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:126431
+main.ts:126439
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:126461
+main.ts:126469
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DemographyComparison`](DemographyComparison.md)
+> **`static`** **fromJS**(`data`): [`DemographyComparison`](DemographyComparison.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DemographyComparison`](DemographyComparison.md)
 
-#### Defined in
+#### Source
 
-main.ts:126454
+main.ts:126462

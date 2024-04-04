@@ -1,93 +1,81 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IVideoDataforseoLabsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IVideoDataforseoLabsSerpElementItem
 
 # Interface: IVideoDataforseoLabsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md)
 
-  ↳ **`IVideoDataforseoLabsSerpElementItem`**
-
-## Implemented by
-
-- [`VideoDataforseoLabsSerpElementItem`](../classes/VideoDataforseoLabsSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IVideoDataforseoLabsSerpElementItem.md#items)
-- [position](IVideoDataforseoLabsSerpElementItem.md#position)
-- [rank\_absolute](IVideoDataforseoLabsSerpElementItem.md#rank_absolute)
-- [rank\_group](IVideoDataforseoLabsSerpElementItem.md#rank_group)
-- [xpath](IVideoDataforseoLabsSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`VideoElement`](../classes/VideoElement.md)[]
+> **`optional`** **items**: [`VideoElement`](../classes/VideoElement.md)[]
 
 additional items present in the element
 if there are none, equals null
 
-#### Defined in
+#### Source
 
-main.ts:95379
+main.ts:95387
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
-main.ts:95374
+main.ts:95382
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Defined in
+#### Source
 
-main.ts:95370
+main.ts:95378
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
-main.ts:95367
+main.ts:95375
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
-main.ts:95376
+main.ts:95384

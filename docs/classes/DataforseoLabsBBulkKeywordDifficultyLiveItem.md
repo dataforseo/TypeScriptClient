@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsBBulkKeywordDifficultyLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsBBulkKeywordDifficultyLiveItem
 
 # Class: DataforseoLabsBBulkKeywordDifficultyLiveItem
 
@@ -8,67 +12,47 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsBBulkKeywordDifficultyLiveItem.md#constructor)
-
-### Properties
-
-- [keyword](DataforseoLabsBBulkKeywordDifficultyLiveItem.md#keyword)
-- [keyword\_difficulty](DataforseoLabsBBulkKeywordDifficultyLiveItem.md#keyword_difficulty)
-- [se\_type](DataforseoLabsBBulkKeywordDifficultyLiveItem.md#se_type)
-
-### Methods
-
-- [init](DataforseoLabsBBulkKeywordDifficultyLiveItem.md#init)
-- [toJSON](DataforseoLabsBBulkKeywordDifficultyLiveItem.md#tojson)
-- [fromJS](DataforseoLabsBBulkKeywordDifficultyLiveItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsBBulkKeywordDifficultyLiveItem(data)
 
-• **new DataforseoLabsBBulkKeywordDifficultyLiveItem**(`data?`): [`DataforseoLabsBBulkKeywordDifficultyLiveItem`](DataforseoLabsBBulkKeywordDifficultyLiveItem.md)
+> **new DataforseoLabsBBulkKeywordDifficultyLiveItem**(`data`?): [`DataforseoLabsBBulkKeywordDifficultyLiveItem`](DataforseoLabsBBulkKeywordDifficultyLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsBBulkKeywordDifficultyLiveItem`](../interfaces/IDataforseoLabsBBulkKeywordDifficultyLiveItem.md) |
+• **data?**: [`IDataforseoLabsBBulkKeywordDifficultyLiveItem`](../interfaces/IDataforseoLabsBBulkKeywordDifficultyLiveItem.md)
 
 #### Returns
 
 [`DataforseoLabsBBulkKeywordDifficultyLiveItem`](DataforseoLabsBBulkKeywordDifficultyLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:84750
+main.ts:84758
 
 ## Properties
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsBBulkKeywordDifficultyLiveItem](../interfaces/IDataforseoLabsBBulkKeywordDifficultyLiveItem.md).[keyword](../interfaces/IDataforseoLabsBBulkKeywordDifficultyLiveItem.md#keyword)
+[`IDataforseoLabsBBulkKeywordDifficultyLiveItem`](../interfaces/IDataforseoLabsBBulkKeywordDifficultyLiveItem.md).[`keyword`](../interfaces/IDataforseoLabsBBulkKeywordDifficultyLiveItem.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:84741
+main.ts:84749
 
-___
+***
 
-### keyword\_difficulty
+### keyword\_difficulty?
 
-• `Optional` **keyword\_difficulty**: `number`
+> **`optional`** **keyword\_difficulty**: `number`
 
 difficulty of ranking in the first top-10 organic results for a keyword
 indicates the chance of getting in top-10 organic results for a keyword on a logarithmic scale from 0 to 100;
@@ -77,84 +61,78 @@ learn more about the metric in this help center guide
 
 #### Implementation of
 
-[IDataforseoLabsBBulkKeywordDifficultyLiveItem](../interfaces/IDataforseoLabsBBulkKeywordDifficultyLiveItem.md).[keyword_difficulty](../interfaces/IDataforseoLabsBBulkKeywordDifficultyLiveItem.md#keyword_difficulty)
+[`IDataforseoLabsBBulkKeywordDifficultyLiveItem`](../interfaces/IDataforseoLabsBBulkKeywordDifficultyLiveItem.md).[`keyword_difficulty`](../interfaces/IDataforseoLabsBBulkKeywordDifficultyLiveItem.md#keyword_difficulty)
 
-#### Defined in
+#### Source
 
-main.ts:84746
+main.ts:84754
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IDataforseoLabsBBulkKeywordDifficultyLiveItem](../interfaces/IDataforseoLabsBBulkKeywordDifficultyLiveItem.md).[se_type](../interfaces/IDataforseoLabsBBulkKeywordDifficultyLiveItem.md#se_type)
+[`IDataforseoLabsBBulkKeywordDifficultyLiveItem`](../interfaces/IDataforseoLabsBBulkKeywordDifficultyLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsBBulkKeywordDifficultyLiveItem.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:84739
+main.ts:84747
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:84759
+main.ts:84767
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:84778
+main.ts:84786
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsBBulkKeywordDifficultyLiveItem`](DataforseoLabsBBulkKeywordDifficultyLiveItem.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsBBulkKeywordDifficultyLiveItem`](DataforseoLabsBBulkKeywordDifficultyLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsBBulkKeywordDifficultyLiveItem`](DataforseoLabsBBulkKeywordDifficultyLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:84771
+main.ts:84779

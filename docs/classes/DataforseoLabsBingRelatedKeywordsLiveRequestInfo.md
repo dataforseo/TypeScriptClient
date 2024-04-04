@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsBingRelatedKeywordsLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsBingRelatedKeywordsLiveRequestInfo
 
 # Class: DataforseoLabsBingRelatedKeywordsLiveRequestInfo
 
@@ -8,63 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [depth](DataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#depth)
-- [filters](DataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#filters)
-- [ignore\_synonyms](DataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#ignore_synonyms)
-- [include\_seed\_keyword](DataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#include_seed_keyword)
-- [include\_serp\_info](DataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#include_serp_info)
-- [keyword](DataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#keyword)
-- [language\_code](DataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#language_code)
-- [language\_name](DataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#language_name)
-- [limit](DataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#limit)
-- [location\_code](DataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#location_code)
-- [location\_name](DataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#location_name)
-- [offset](DataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#offset)
-- [order\_by](DataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#order_by)
-- [replace\_with\_core\_keyword](DataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#replace_with_core_keyword)
-- [tag](DataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#tag)
-
-### Methods
-
-- [init](DataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#init)
-- [toJSON](DataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#tojson)
-- [fromJS](DataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsBingRelatedKeywordsLiveRequestInfo(data)
 
-• **new DataforseoLabsBingRelatedKeywordsLiveRequestInfo**(`data?`): [`DataforseoLabsBingRelatedKeywordsLiveRequestInfo`](DataforseoLabsBingRelatedKeywordsLiveRequestInfo.md)
+> **new DataforseoLabsBingRelatedKeywordsLiveRequestInfo**(`data`?): [`DataforseoLabsBingRelatedKeywordsLiveRequestInfo`](DataforseoLabsBingRelatedKeywordsLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsBingRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md) |
+• **data?**: [`IDataforseoLabsBingRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsBingRelatedKeywordsLiveRequestInfo`](DataforseoLabsBingRelatedKeywordsLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:108118
+main.ts:108126
 
 ## Properties
 
-### depth
+### depth?
 
-• `Optional` **depth**: `number`
+> **`optional`** **depth**: `number`
 
 keyword search depth
 optional field
@@ -80,42 +52,42 @@ estimated number of keywords for each level (maximum):
 
 #### Implementation of
 
-[IDataforseoLabsBingRelatedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md).[depth](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#depth)
+[`IDataforseoLabsBingRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md).[`depth`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#depth)
 
-#### Defined in
+#### Source
 
-main.ts:108049
+main.ts:108057
 
-___
+***
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, <=, >, >=, =, <>, in, not_in, like,not_like
+regex, <, `<=, >`, >=, =, `<>`, in, not_in, like,not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
-["keyword_data.keyword_info.search_volume",">",0]
+["keyword_data.keyword_info.search_volume",">`",0]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide
 
 #### Implementation of
 
-[IDataforseoLabsBingRelatedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md).[filters](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#filters)
+[`IDataforseoLabsBingRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md).[`filters`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#filters)
 
-#### Defined in
+#### Source
 
-main.ts:108082
+main.ts:108090
 
-___
+***
 
-### ignore\_synonyms
+### ignore\_synonyms?
 
-• `Optional` **ignore\_synonyms**: `boolean`
+> **`optional`** **ignore\_synonyms**: `boolean`
 
 ignore highly similar keywords
 optional field
@@ -124,17 +96,17 @@ default value: false
 
 #### Implementation of
 
-[IDataforseoLabsBingRelatedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md).[ignore_synonyms](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#ignore_synonyms)
+[`IDataforseoLabsBingRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md).[`ignore_synonyms`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#ignore_synonyms)
 
-#### Defined in
+#### Source
 
-main.ts:108071
+main.ts:108079
 
-___
+***
 
-### include\_seed\_keyword
+### include\_seed\_keyword?
 
-• `Optional` **include\_seed\_keyword**: `boolean`
+> **`optional`** **include\_seed\_keyword**: `boolean`
 
 include data for the seed keyword
 optional field
@@ -143,17 +115,17 @@ default value: false
 
 #### Implementation of
 
-[IDataforseoLabsBingRelatedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md).[include_seed_keyword](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#include_seed_keyword)
+[`IDataforseoLabsBingRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md).[`include_seed_keyword`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#include_seed_keyword)
 
-#### Defined in
+#### Source
 
-main.ts:108054
+main.ts:108062
 
-___
+***
 
-### include\_serp\_info
+### include\_serp\_info?
 
-• `Optional` **include\_serp\_info**: `boolean`
+> **`optional`** **include\_serp\_info**: `boolean`
 
 include data from SERP for each keyword
 optional field
@@ -162,17 +134,17 @@ default value: false
 
 #### Implementation of
 
-[IDataforseoLabsBingRelatedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md).[include_serp_info](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#include_serp_info)
+[`IDataforseoLabsBingRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md).[`include_serp_info`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#include_serp_info)
 
-#### Defined in
+#### Source
 
-main.ts:108059
+main.ts:108067
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword
 required field
@@ -182,17 +154,17 @@ the keywords will be converted to lowercase format
 
 #### Implementation of
 
-[IDataforseoLabsBingRelatedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md).[keyword](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#keyword)
+[`IDataforseoLabsBingRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md).[`keyword`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:108003
+main.ts:108011
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 required field if you don’t specify language_name
@@ -204,17 +176,17 @@ en
 
 #### Implementation of
 
-[IDataforseoLabsBingRelatedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md).[language_code](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#language_code)
+[`IDataforseoLabsBingRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:108037
+main.ts:108045
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -226,17 +198,17 @@ English
 
 #### Implementation of
 
-[IDataforseoLabsBingRelatedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md).[language_name](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#language_name)
+[`IDataforseoLabsBingRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:108029
+main.ts:108037
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned keywords
 optional field
@@ -245,17 +217,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IDataforseoLabsBingRelatedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md).[limit](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#limit)
+[`IDataforseoLabsBingRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md).[`limit`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#limit)
 
-#### Defined in
+#### Source
 
-main.ts:108103
+main.ts:108111
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 required field if you don’t specify location_name
@@ -268,17 +240,17 @@ example:
 
 #### Implementation of
 
-[IDataforseoLabsBingRelatedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md).[location_code](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#location_code)
+[`IDataforseoLabsBingRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:108021
+main.ts:108029
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code
@@ -291,17 +263,17 @@ United States
 
 #### Implementation of
 
-[IDataforseoLabsBingRelatedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md).[location_name](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#location_name)
+[`IDataforseoLabsBingRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:108012
+main.ts:108020
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned keywords
 optional field
@@ -310,17 +282,17 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Implementation of
 
-[IDataforseoLabsBingRelatedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md).[offset](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#offset)
+[`IDataforseoLabsBingRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md).[`offset`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#offset)
 
-#### Defined in
+#### Source
 
-main.ts:108108
+main.ts:108116
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -340,17 +312,17 @@ example:
 
 #### Implementation of
 
-[IDataforseoLabsBingRelatedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md).[order_by](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#order_by)
+[`IDataforseoLabsBingRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md).[`order_by`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#order_by)
 
-#### Defined in
+#### Source
 
-main.ts:108098
+main.ts:108106
 
-___
+***
 
-### replace\_with\_core\_keyword
+### replace\_with\_core\_keyword?
 
-• `Optional` **replace\_with\_core\_keyword**: `boolean`
+> **`optional`** **replace\_with\_core\_keyword**: `boolean`
 
 return data for core keyword
 optional field
@@ -361,17 +333,17 @@ default value: false
 
 #### Implementation of
 
-[IDataforseoLabsBingRelatedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md).[replace_with_core_keyword](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#replace_with_core_keyword)
+[`IDataforseoLabsBingRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md).[`replace_with_core_keyword`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#replace_with_core_keyword)
 
-#### Defined in
+#### Source
 
-main.ts:108066
+main.ts:108074
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -381,68 +353,62 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IDataforseoLabsBingRelatedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md).[tag](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#tag)
+[`IDataforseoLabsBingRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:108114
+main.ts:108122
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:108127
+main.ts:108135
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:108166
+main.ts:108174
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsBingRelatedKeywordsLiveRequestInfo`](DataforseoLabsBingRelatedKeywordsLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsBingRelatedKeywordsLiveRequestInfo`](DataforseoLabsBingRelatedKeywordsLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsBingRelatedKeywordsLiveRequestInfo`](DataforseoLabsBingRelatedKeywordsLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:108159
+main.ts:108167

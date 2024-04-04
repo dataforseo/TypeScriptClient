@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixTrBusinessDataPriceDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppendixTrBusinessDataPriceDataInfo
 
 # Class: AppendixTrBusinessDataPriceDataInfo
 
@@ -8,129 +12,104 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixTrBusinessDataPriceDataInfo.md#constructor)
-
-### Properties
-
-- [reviews](AppendixTrBusinessDataPriceDataInfo.md#reviews)
-- [search](AppendixTrBusinessDataPriceDataInfo.md#search)
-
-### Methods
-
-- [init](AppendixTrBusinessDataPriceDataInfo.md#init)
-- [toJSON](AppendixTrBusinessDataPriceDataInfo.md#tojson)
-- [fromJS](AppendixTrBusinessDataPriceDataInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixTrBusinessDataPriceDataInfo(data)
 
-• **new AppendixTrBusinessDataPriceDataInfo**(`data?`): [`AppendixTrBusinessDataPriceDataInfo`](AppendixTrBusinessDataPriceDataInfo.md)
+> **new AppendixTrBusinessDataPriceDataInfo**(`data`?): [`AppendixTrBusinessDataPriceDataInfo`](AppendixTrBusinessDataPriceDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixTrBusinessDataPriceDataInfo`](../interfaces/IAppendixTrBusinessDataPriceDataInfo.md) |
+• **data?**: [`IAppendixTrBusinessDataPriceDataInfo`](../interfaces/IAppendixTrBusinessDataPriceDataInfo.md)
 
 #### Returns
 
 [`AppendixTrBusinessDataPriceDataInfo`](AppendixTrBusinessDataPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:216837
 
 ## Properties
 
-### reviews
+### reviews?
 
-• `Optional` **reviews**: [`AppendixHotelSearchesGoogleBusinessDataPriceData`](AppendixHotelSearchesGoogleBusinessDataPriceData.md)
+> **`optional`** **reviews**: [`AppendixHotelSearchesGoogleBusinessDataPriceData`](AppendixHotelSearchesGoogleBusinessDataPriceData.md)
 
 #### Implementation of
 
-[IAppendixTrBusinessDataPriceDataInfo](../interfaces/IAppendixTrBusinessDataPriceDataInfo.md).[reviews](../interfaces/IAppendixTrBusinessDataPriceDataInfo.md#reviews)
+[`IAppendixTrBusinessDataPriceDataInfo`](../interfaces/IAppendixTrBusinessDataPriceDataInfo.md).[`reviews`](../interfaces/IAppendixTrBusinessDataPriceDataInfo.md#reviews)
 
-#### Defined in
+#### Source
 
 main.ts:216832
 
-___
+***
 
-### search
+### search?
 
-• `Optional` **search**: [`AppendixHotelSearchesGoogleBusinessDataPriceData`](AppendixHotelSearchesGoogleBusinessDataPriceData.md)
+> **`optional`** **search**: [`AppendixHotelSearchesGoogleBusinessDataPriceData`](AppendixHotelSearchesGoogleBusinessDataPriceData.md)
 
 #### Implementation of
 
-[IAppendixTrBusinessDataPriceDataInfo](../interfaces/IAppendixTrBusinessDataPriceDataInfo.md).[search](../interfaces/IAppendixTrBusinessDataPriceDataInfo.md#search)
+[`IAppendixTrBusinessDataPriceDataInfo`](../interfaces/IAppendixTrBusinessDataPriceDataInfo.md).[`search`](../interfaces/IAppendixTrBusinessDataPriceDataInfo.md#search)
 
-#### Defined in
+#### Source
 
 main.ts:216833
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:216846
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:216864
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppendixTrBusinessDataPriceDataInfo`](AppendixTrBusinessDataPriceDataInfo.md)
+> **`static`** **fromJS**(`data`): [`AppendixTrBusinessDataPriceDataInfo`](AppendixTrBusinessDataPriceDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppendixTrBusinessDataPriceDataInfo`](AppendixTrBusinessDataPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:216857

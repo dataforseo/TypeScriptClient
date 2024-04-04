@@ -1,27 +1,21 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixWhoisDomainAnalyticsPriceData
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppendixWhoisDomainAnalyticsPriceData
 
 # Interface: IAppendixWhoisDomainAnalyticsPriceData
 
-## Implemented by
-
-- [`AppendixWhoisDomainAnalyticsPriceData`](../classes/AppendixWhoisDomainAnalyticsPriceData.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [overview](IAppendixWhoisDomainAnalyticsPriceData.md#overview)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### overview
+### overview?
 
-• `Optional` **overview**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **overview**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:217394

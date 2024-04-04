@@ -1,181 +1,161 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixKeywordsDataDaysRatesDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppendixKeywordsDataDaysRatesDataInfo
 
 # Interface: IAppendixKeywordsDataDaysRatesDataInfo
 
-## Implemented by
-
-- [`AppendixKeywordsDataDaysRatesDataInfo`](../classes/AppendixKeywordsDataDaysRatesDataInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [ad\_traffic\_by\_keywords](IAppendixKeywordsDataDaysRatesDataInfo.md#ad_traffic_by_keywords)
-- [bing](IAppendixKeywordsDataDaysRatesDataInfo.md#bing)
-- [categories](IAppendixKeywordsDataDaysRatesDataInfo.md#categories)
-- [dataforseo\_trends](IAppendixKeywordsDataDaysRatesDataInfo.md#dataforseo_trends)
-- [errors](IAppendixKeywordsDataDaysRatesDataInfo.md#errors)
-- [explore](IAppendixKeywordsDataDaysRatesDataInfo.md#explore)
-- [google\_ads](IAppendixKeywordsDataDaysRatesDataInfo.md#google_ads)
-- [keyword\_performance](IAppendixKeywordsDataDaysRatesDataInfo.md#keyword_performance)
-- [keywords\_for\_keywords](IAppendixKeywordsDataDaysRatesDataInfo.md#keywords_for_keywords)
-- [keywords\_for\_site](IAppendixKeywordsDataDaysRatesDataInfo.md#keywords_for_site)
-- [languages](IAppendixKeywordsDataDaysRatesDataInfo.md#languages)
-- [locations](IAppendixKeywordsDataDaysRatesDataInfo.md#locations)
-- [search\_volume](IAppendixKeywordsDataDaysRatesDataInfo.md#search_volume)
-- [search\_volume\_history](IAppendixKeywordsDataDaysRatesDataInfo.md#search_volume_history)
-- [tasks\_ready](IAppendixKeywordsDataDaysRatesDataInfo.md#tasks_ready)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### ad\_traffic\_by\_keywords
+### ad\_traffic\_by\_keywords?
 
-• `Optional` **ad\_traffic\_by\_keywords**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **ad\_traffic\_by\_keywords**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:212521
 
-___
+***
 
-### bing
+### bing?
 
-• `Optional` **bing**: [`AppendixBingKeywordsDataLimitsRatesDataInfo`](../classes/AppendixBingKeywordsDataLimitsRatesDataInfo.md)
+> **`optional`** **bing**: [`AppendixBingKeywordsDataLimitsRatesDataInfo`](../classes/AppendixBingKeywordsDataLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:212528
 
-___
+***
 
-### categories
+### categories?
 
-• `Optional` **categories**: `number`
+> **`optional`** **categories**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:212526
 
-___
+***
 
-### dataforseo\_trends
+### dataforseo\_trends?
 
-• `Optional` **dataforseo\_trends**: [`AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo`](../classes/AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo.md)
+> **`optional`** **dataforseo\_trends**: [`AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo`](../classes/AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:212532
 
-___
+***
 
-### errors
+### errors?
 
-• `Optional` **errors**: `number`
+> **`optional`** **errors**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:212527
 
-___
+***
 
-### explore
+### explore?
 
-• `Optional` **explore**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **explore**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:212525
 
-___
+***
 
-### google\_ads
+### google\_ads?
 
-• `Optional` **google\_ads**: [`AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo`](../classes/AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo.md)
+> **`optional`** **google\_ads**: [`AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo`](../classes/AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:212531
 
-___
+***
 
-### keyword\_performance
+### keyword\_performance?
 
-• `Optional` **keyword\_performance**: [`AppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo`](../classes/AppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo.md)
+> **`optional`** **keyword\_performance**: [`AppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo`](../classes/AppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:212529
 
-___
+***
 
-### keywords\_for\_keywords
+### keywords\_for\_keywords?
 
-• `Optional` **keywords\_for\_keywords**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **keywords\_for\_keywords**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:212518
 
-___
+***
 
-### keywords\_for\_site
+### keywords\_for\_site?
 
-• `Optional` **keywords\_for\_site**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **keywords\_for\_site**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:212519
 
-___
+***
 
-### languages
+### languages?
 
-• `Optional` **languages**: `number`
+> **`optional`** **languages**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:212522
 
-___
+***
 
-### locations
+### locations?
 
-• `Optional` **locations**: `number`
+> **`optional`** **locations**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:212523
 
-___
+***
 
-### search\_volume
+### search\_volume?
 
-• `Optional` **search\_volume**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **search\_volume**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:212520
 
-___
+***
 
-### search\_volume\_history
+### search\_volume\_history?
 
-• `Optional` **search\_volume\_history**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **search\_volume\_history**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:212530
 
-___
+***
 
-### tasks\_ready
+### tasks\_ready?
 
-• `Optional` **tasks\_ready**: `number`
+> **`optional`** **tasks\_ready**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:212524

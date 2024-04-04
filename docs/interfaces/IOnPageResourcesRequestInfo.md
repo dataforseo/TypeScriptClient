@@ -1,57 +1,44 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageResourcesRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IOnPageResourcesRequestInfo
 
 # Interface: IOnPageResourcesRequestInfo
 
-## Implemented by
-
-- [`OnPageResourcesRequestInfo`](../classes/OnPageResourcesRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [filters](IOnPageResourcesRequestInfo.md#filters)
-- [id](IOnPageResourcesRequestInfo.md#id)
-- [limit](IOnPageResourcesRequestInfo.md#limit)
-- [offset](IOnPageResourcesRequestInfo.md#offset)
-- [order\_by](IOnPageResourcesRequestInfo.md#order_by)
-- [relevant\_pages\_filters](IOnPageResourcesRequestInfo.md#relevant_pages_filters)
-- [tag](IOnPageResourcesRequestInfo.md#tag)
-- [url](IOnPageResourcesRequestInfo.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, <=, >, >=, =, <>, in, not_in, like, not_like
+regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["resource_type","=","stylesheet"]
 [["resource_type","=","image"],
 "and",["checks.is_https","=",false]]
-[["fetch_timing.duration_time",">",1],"and",[["total_transfer_size",">",100],"or",["checks.high_loading_time","=",true]]]
+[["fetch_timing.duration_time",">`",1],"and",[["total_transfer_size",">",100],"or",["checks.high_loading_time","=",true]]]
 The full list of possible filters is available by this link.
 
-#### Defined in
+#### Source
 
-main.ts:151319
+main.ts:151327
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 ID of the task
 required field
@@ -59,45 +46,45 @@ you can get this ID in the response of the Task POST endpoint
 example:
 “07131248-1535-0216-1000-17384017ad04”
 
-#### Defined in
+#### Source
 
-main.ts:151289
+main.ts:151297
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned resources
 optional field
 default value: 100
 maximum value: 1000
 
-#### Defined in
+#### Source
 
-main.ts:151300
+main.ts:151308
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned resources
 optional field
 default value: 0
 if you specify the 10 value, the first ten resources in the results array will be omitted and the data will be provided for the successive resources
 
-#### Defined in
+#### Source
 
-main.ts:151305
+main.ts:151313
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -113,15 +100,15 @@ you should use a comma to separate several sorting rules
 example:
 ["size,desc","fetch_timing.fetch_end,desc"]
 
-#### Defined in
+#### Source
 
-main.ts:151345
+main.ts:151353
 
-___
+***
 
-### relevant\_pages\_filters
+### relevant\_pages\_filters?
 
-• `Optional` **relevant\_pages\_filters**: `string`[]
+> **`optional`** **relevant\_pages\_filters**: `string`[]
 
 filter the resources by relevant pages
 optional field
@@ -130,20 +117,20 @@ you can apply the same filters here as available for the pages endpoint
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, <=, >, >=, =, <>, in, not_in, like, not_like
+regex, <, `<=, >`, >=, =, <>, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["checks.no_image_title","=",true]
 
-#### Defined in
+#### Source
 
-main.ts:151331
+main.ts:151339
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -151,15 +138,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:151351
+main.ts:151359
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 page URL
 optional field
@@ -167,6 +154,6 @@ specify this field if you want to get the resources for a specific page
 note that to obtain resource’s meta from a particular URL, you should specify the URL in this field;
 if you do not indicate a url when setting a task, resource’s meta in the results will be returned based on the data from the page where our crawler first saw the resource
 
-#### Defined in
+#### Source
 
-main.ts:151295
+main.ts:151303

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesLanguagesResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DomainAnalyticsTechnologiesLanguagesResultInfo
 
 # Class: DomainAnalyticsTechnologiesLanguagesResultInfo
 
@@ -8,133 +12,108 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DomainAnalyticsTechnologiesLanguagesResultInfo.md#constructor)
-
-### Properties
-
-- [language\_code](DomainAnalyticsTechnologiesLanguagesResultInfo.md#language_code)
-- [language\_name](DomainAnalyticsTechnologiesLanguagesResultInfo.md#language_name)
-
-### Methods
-
-- [init](DomainAnalyticsTechnologiesLanguagesResultInfo.md#init)
-- [toJSON](DomainAnalyticsTechnologiesLanguagesResultInfo.md#tojson)
-- [fromJS](DomainAnalyticsTechnologiesLanguagesResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DomainAnalyticsTechnologiesLanguagesResultInfo(data)
 
-• **new DomainAnalyticsTechnologiesLanguagesResultInfo**(`data?`): [`DomainAnalyticsTechnologiesLanguagesResultInfo`](DomainAnalyticsTechnologiesLanguagesResultInfo.md)
+> **new DomainAnalyticsTechnologiesLanguagesResultInfo**(`data`?): [`DomainAnalyticsTechnologiesLanguagesResultInfo`](DomainAnalyticsTechnologiesLanguagesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDomainAnalyticsTechnologiesLanguagesResultInfo`](../interfaces/IDomainAnalyticsTechnologiesLanguagesResultInfo.md) |
+• **data?**: [`IDomainAnalyticsTechnologiesLanguagesResultInfo`](../interfaces/IDomainAnalyticsTechnologiesLanguagesResultInfo.md)
 
 #### Returns
 
 [`DomainAnalyticsTechnologiesLanguagesResultInfo`](DomainAnalyticsTechnologiesLanguagesResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:74317
+main.ts:74325
 
 ## Properties
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code according to ISO 639-1
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesLanguagesResultInfo](../interfaces/IDomainAnalyticsTechnologiesLanguagesResultInfo.md).[language_code](../interfaces/IDomainAnalyticsTechnologiesLanguagesResultInfo.md#language_code)
+[`IDomainAnalyticsTechnologiesLanguagesResultInfo`](../interfaces/IDomainAnalyticsTechnologiesLanguagesResultInfo.md).[`language_code`](../interfaces/IDomainAnalyticsTechnologiesLanguagesResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:74313
+main.ts:74321
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 language name
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesLanguagesResultInfo](../interfaces/IDomainAnalyticsTechnologiesLanguagesResultInfo.md).[language_name](../interfaces/IDomainAnalyticsTechnologiesLanguagesResultInfo.md#language_name)
+[`IDomainAnalyticsTechnologiesLanguagesResultInfo`](../interfaces/IDomainAnalyticsTechnologiesLanguagesResultInfo.md).[`language_name`](../interfaces/IDomainAnalyticsTechnologiesLanguagesResultInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:74311
+main.ts:74319
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:74326
+main.ts:74334
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:74344
+main.ts:74352
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DomainAnalyticsTechnologiesLanguagesResultInfo`](DomainAnalyticsTechnologiesLanguagesResultInfo.md)
+> **`static`** **fromJS**(`data`): [`DomainAnalyticsTechnologiesLanguagesResultInfo`](DomainAnalyticsTechnologiesLanguagesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DomainAnalyticsTechnologiesLanguagesResultInfo`](DomainAnalyticsTechnologiesLanguagesResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:74337
+main.ts:74345

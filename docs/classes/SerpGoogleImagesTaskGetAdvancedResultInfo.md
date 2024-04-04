@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleImagesTaskGetAdvancedResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleImagesTaskGetAdvancedResultInfo
 
 # Class: SerpGoogleImagesTaskGetAdvancedResultInfo
 
@@ -8,77 +12,48 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleImagesTaskGetAdvancedResultInfo.md#constructor)
-
-### Properties
-
-- [check\_url](SerpGoogleImagesTaskGetAdvancedResultInfo.md#check_url)
-- [datetime](SerpGoogleImagesTaskGetAdvancedResultInfo.md#datetime)
-- [item\_types](SerpGoogleImagesTaskGetAdvancedResultInfo.md#item_types)
-- [items](SerpGoogleImagesTaskGetAdvancedResultInfo.md#items)
-- [items\_count](SerpGoogleImagesTaskGetAdvancedResultInfo.md#items_count)
-- [keyword](SerpGoogleImagesTaskGetAdvancedResultInfo.md#keyword)
-- [language\_code](SerpGoogleImagesTaskGetAdvancedResultInfo.md#language_code)
-- [location\_code](SerpGoogleImagesTaskGetAdvancedResultInfo.md#location_code)
-- [se\_domain](SerpGoogleImagesTaskGetAdvancedResultInfo.md#se_domain)
-- [se\_results\_count](SerpGoogleImagesTaskGetAdvancedResultInfo.md#se_results_count)
-- [spell](SerpGoogleImagesTaskGetAdvancedResultInfo.md#spell)
-- [type](SerpGoogleImagesTaskGetAdvancedResultInfo.md#type)
-
-### Methods
-
-- [init](SerpGoogleImagesTaskGetAdvancedResultInfo.md#init)
-- [toJSON](SerpGoogleImagesTaskGetAdvancedResultInfo.md#tojson)
-- [fromJS](SerpGoogleImagesTaskGetAdvancedResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleImagesTaskGetAdvancedResultInfo(data)
 
-• **new SerpGoogleImagesTaskGetAdvancedResultInfo**(`data?`): [`SerpGoogleImagesTaskGetAdvancedResultInfo`](SerpGoogleImagesTaskGetAdvancedResultInfo.md)
+> **new SerpGoogleImagesTaskGetAdvancedResultInfo**(`data`?): [`SerpGoogleImagesTaskGetAdvancedResultInfo`](SerpGoogleImagesTaskGetAdvancedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleImagesTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md) |
+• **data?**: [`ISerpGoogleImagesTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
 [`SerpGoogleImagesTaskGetAdvancedResultInfo`](SerpGoogleImagesTaskGetAdvancedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:46984
+main.ts:46992
 
 ## Properties
 
-### check\_url
+### check\_url?
 
-• `Optional` **check\_url**: `string`
+> **`optional`** **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
 
 #### Implementation of
 
-[ISerpGoogleImagesTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md).[check_url](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md#check_url)
+[`ISerpGoogleImagesTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md).[`check_url`](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md#check_url)
 
-#### Defined in
+#### Source
 
-main.ts:46961
+main.ts:46969
 
-___
+***
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -87,17 +62,17 @@ example:
 
 #### Implementation of
 
-[ISerpGoogleImagesTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md).[datetime](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md#datetime)
+[`ISerpGoogleImagesTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md).[`datetime`](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
-main.ts:46966
+main.ts:46974
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -106,214 +81,208 @@ carousel, images_search, related_searches
 
 #### Implementation of
 
-[ISerpGoogleImagesTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md).[item_types](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md#item_types)
+[`ISerpGoogleImagesTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md).[`item_types`](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md#item_types)
 
-#### Defined in
+#### Source
 
-main.ts:46974
+main.ts:46982
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
+> **`optional`** **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
 contains keywords and images related to the specified search term
 
 #### Implementation of
 
-[ISerpGoogleImagesTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md).[items](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md#items)
+[`ISerpGoogleImagesTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md).[`items`](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:46980
+main.ts:46988
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[ISerpGoogleImagesTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md).[items_count](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md#items_count)
+[`ISerpGoogleImagesTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md).[`items_count`](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:46978
+main.ts:46986
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword received in a POST array
 the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
-[ISerpGoogleImagesTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md).[keyword](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md#keyword)
+[`ISerpGoogleImagesTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md).[`keyword`](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:46950
+main.ts:46958
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[ISerpGoogleImagesTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md).[language_code](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md#language_code)
+[`ISerpGoogleImagesTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md).[`language_code`](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:46958
+main.ts:46966
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[ISerpGoogleImagesTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md).[location_code](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md#location_code)
+[`ISerpGoogleImagesTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md).[`location_code`](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:46956
+main.ts:46964
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
 #### Implementation of
 
-[ISerpGoogleImagesTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md).[se_domain](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md#se_domain)
+[`ISerpGoogleImagesTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md).[`se_domain`](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md#se_domain)
 
-#### Defined in
+#### Source
 
-main.ts:46954
+main.ts:46962
 
-___
+***
 
-### se\_results\_count
+### se\_results\_count?
 
-• `Optional` **se\_results\_count**: `number`
+> **`optional`** **se\_results\_count**: `number`
 
 total number of results in SERP
 
 #### Implementation of
 
-[ISerpGoogleImagesTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md).[se_results_count](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md#se_results_count)
+[`ISerpGoogleImagesTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md).[`se_results_count`](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md#se_results_count)
 
-#### Defined in
+#### Source
 
-main.ts:46976
+main.ts:46984
 
-___
+***
 
-### spell
+### spell?
 
-• `Optional` **spell**: [`SpellInfo`](SpellInfo.md)
+> **`optional`** **spell**: [`SpellInfo`](SpellInfo.md)
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
 
 #### Implementation of
 
-[ISerpGoogleImagesTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md).[spell](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md#spell)
+[`ISerpGoogleImagesTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md).[`spell`](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md#spell)
 
-#### Defined in
+#### Source
 
-main.ts:46969
+main.ts:46977
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[ISerpGoogleImagesTaskGetAdvancedResultInfo](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md).[type](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md#type)
+[`ISerpGoogleImagesTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md).[`type`](../interfaces/ISerpGoogleImagesTaskGetAdvancedResultInfo.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:46952
+main.ts:46960
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:46993
+main.ts:47001
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:47029
+main.ts:47037
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleImagesTaskGetAdvancedResultInfo`](SerpGoogleImagesTaskGetAdvancedResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleImagesTaskGetAdvancedResultInfo`](SerpGoogleImagesTaskGetAdvancedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpGoogleImagesTaskGetAdvancedResultInfo`](SerpGoogleImagesTaskGetAdvancedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:47022
+main.ts:47030

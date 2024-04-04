@@ -1,140 +1,126 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IHotelPriceItemInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IHotelPriceItemInfo
 
 # Interface: IHotelPriceItemInfo
 
-## Implemented by
-
-- [`HotelPriceItemInfo`](../classes/HotelPriceItemInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [currency](IHotelPriceItemInfo.md#currency)
-- [domain](IHotelPriceItemInfo.md#domain)
-- [free\_cancellation\_until](IHotelPriceItemInfo.md#free_cancellation_until)
-- [is\_paid](IHotelPriceItemInfo.md#is_paid)
-- [offers](IHotelPriceItemInfo.md#offers)
-- [price](IHotelPriceItemInfo.md#price)
-- [title](IHotelPriceItemInfo.md#title)
-- [type](IHotelPriceItemInfo.md#type)
-- [url](IHotelPriceItemInfo.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### currency
+### currency?
 
-• `Optional` **currency**: `string`
+> **`optional`** **currency**: `string`
 
 price currency
 USD is applied by default, unless specified in the POST array
 
-#### Defined in
+#### Source
 
 main.ts:199126
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 third-party domain
 domain of the third-party website page with pricing information
 
-#### Defined in
+#### Source
 
 main.ts:199132
 
-___
+***
 
-### free\_cancellation\_until
+### free\_cancellation\_until?
 
-• `Optional` **free\_cancellation\_until**: `string`
+> **`optional`** **free\_cancellation\_until**: `string`
 
 date until which free cancellation is available
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 equals null if free cancellation is not available for the selected dates
 
-#### Defined in
+#### Source
 
 main.ts:199140
 
-___
+***
 
-### is\_paid
+### is\_paid?
 
-• `Optional` **is\_paid**: `boolean`
+> **`optional`** **is\_paid**: `boolean`
 
 indicates a paid hotel listing
 if true, related hotel_search_item is a paid ad
 if false, related hotel_search_item is an organic hotel listing
 
-#### Defined in
+#### Source
 
 main.ts:199136
 
-___
+***
 
-### offers
+### offers?
 
-• `Optional` **offers**: [`HotelInfoPriceOffer`](../classes/HotelInfoPriceOffer.md)[]
+> **`optional`** **offers**: [`HotelInfoPriceOffer`](../classes/HotelInfoPriceOffer.md)[]
 
 featured price offers
 
-#### Defined in
+#### Source
 
 main.ts:199142
 
-___
+***
 
-### price
+### price?
 
-• `Optional` **price**: `number`
+> **`optional`** **price**: `number`
 
 price per night
 
-#### Defined in
+#### Source
 
 main.ts:199123
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the hotel
 
-#### Defined in
+#### Source
 
 main.ts:199121
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
 main.ts:199119
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 third-party page url
 URL to the third-party website page with pricing information
 
-#### Defined in
+#### Source
 
 main.ts:199129

@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ImagesSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ImagesSerpElementItem
 
 # Class: ImagesSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-  ↳ **`ImagesSerpElementItem`**
 
 ## Implements
 
@@ -14,44 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ImagesSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](ImagesSerpElementItem.md#_discriminator)
-- [items](ImagesSerpElementItem.md#items)
-- [position](ImagesSerpElementItem.md#position)
-- [rank\_absolute](ImagesSerpElementItem.md#rank_absolute)
-- [rank\_group](ImagesSerpElementItem.md#rank_group)
-- [rectangle](ImagesSerpElementItem.md#rectangle)
-- [related\_image\_searches](ImagesSerpElementItem.md#related_image_searches)
-- [title](ImagesSerpElementItem.md#title)
-- [url](ImagesSerpElementItem.md#url)
-- [xpath](ImagesSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](ImagesSerpElementItem.md#init)
-- [toJSON](ImagesSerpElementItem.md#tojson)
-- [fromJS](ImagesSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ImagesSerpElementItem(data)
 
-• **new ImagesSerpElementItem**(`data?`): [`ImagesSerpElementItem`](ImagesSerpElementItem.md)
+> **new ImagesSerpElementItem**(`data`?): [`ImagesSerpElementItem`](ImagesSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IImagesSerpElementItem`](../interfaces/IImagesSerpElementItem.md) |
+• **data?**: [`IImagesSerpElementItem`](../interfaces/IImagesSerpElementItem.md)
 
 #### Returns
 
@@ -59,9 +34,9 @@
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[constructor](BaseSerpElementItem.md#constructor)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:29650
 
@@ -69,38 +44,38 @@ main.ts:29650
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[_discriminator](BaseSerpElementItem.md#_discriminator)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:19788
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`ImagesElement`](ImagesElement.md)[]
+> **`optional`** **items**: [`ImagesElement`](ImagesElement.md)[]
 
 additional items present in the element
 if there are none, equals null
 
 #### Implementation of
 
-[IImagesSerpElementItem](../interfaces/IImagesSerpElementItem.md).[items](../interfaces/IImagesSerpElementItem.md#items)
+[`IImagesSerpElementItem`](../interfaces/IImagesSerpElementItem.md).[`items`](../interfaces/IImagesSerpElementItem.md#items)
 
-#### Defined in
+#### Source
 
 main.ts:29639
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -108,17 +83,17 @@ left, right
 
 #### Implementation of
 
-[IImagesSerpElementItem](../interfaces/IImagesSerpElementItem.md).[position](../interfaces/IImagesSerpElementItem.md#position)
+[`IImagesSerpElementItem`](../interfaces/IImagesSerpElementItem.md).[`position`](../interfaces/IImagesSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
 main.ts:29630
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -126,17 +101,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IImagesSerpElementItem](../interfaces/IImagesSerpElementItem.md).[rank_absolute](../interfaces/IImagesSerpElementItem.md#rank_absolute)
+[`IImagesSerpElementItem`](../interfaces/IImagesSerpElementItem.md).[`rank_absolute`](../interfaces/IImagesSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
 main.ts:29626
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
@@ -145,17 +120,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IImagesSerpElementItem](../interfaces/IImagesSerpElementItem.md).[rank_group](../interfaces/IImagesSerpElementItem.md#rank_group)
+[`IImagesSerpElementItem`](../interfaces/IImagesSerpElementItem.md).[`rank_group`](../interfaces/IImagesSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
 main.ts:29622
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -163,88 +138,86 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Implementation of
 
-[IImagesSerpElementItem](../interfaces/IImagesSerpElementItem.md).[rectangle](../interfaces/IImagesSerpElementItem.md#rectangle)
+[`IImagesSerpElementItem`](../interfaces/IImagesSerpElementItem.md).[`rectangle`](../interfaces/IImagesSerpElementItem.md#rectangle)
 
-#### Defined in
+#### Source
 
 main.ts:29646
 
-___
+***
 
-### related\_image\_searches
+### related\_image\_searches?
 
-• `Optional` **related\_image\_searches**: [`RelatedImageSearchesElement`](RelatedImageSearchesElement.md)[]
+> **`optional`** **related\_image\_searches**: [`RelatedImageSearchesElement`](RelatedImageSearchesElement.md)[]
 
 contains keywords and images related to the specified search term
 if there are none, equals null
 
 #### Implementation of
 
-[IImagesSerpElementItem](../interfaces/IImagesSerpElementItem.md).[related_image_searches](../interfaces/IImagesSerpElementItem.md#related_image_searches)
+[`IImagesSerpElementItem`](../interfaces/IImagesSerpElementItem.md).[`related_image_searches`](../interfaces/IImagesSerpElementItem.md#related_image_searches)
 
-#### Defined in
+#### Source
 
 main.ts:29642
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the row
 
 #### Implementation of
 
-[IImagesSerpElementItem](../interfaces/IImagesSerpElementItem.md).[title](../interfaces/IImagesSerpElementItem.md#title)
+[`IImagesSerpElementItem`](../interfaces/IImagesSerpElementItem.md).[`title`](../interfaces/IImagesSerpElementItem.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:29634
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 source URL
 
 #### Implementation of
 
-[IImagesSerpElementItem](../interfaces/IImagesSerpElementItem.md).[url](../interfaces/IImagesSerpElementItem.md#url)
+[`IImagesSerpElementItem`](../interfaces/IImagesSerpElementItem.md).[`url`](../interfaces/IImagesSerpElementItem.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:29636
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IImagesSerpElementItem](../interfaces/IImagesSerpElementItem.md).[xpath](../interfaces/IImagesSerpElementItem.md#xpath)
+[`IImagesSerpElementItem`](../interfaces/IImagesSerpElementItem.md).[`xpath`](../interfaces/IImagesSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
 main.ts:29632
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -252,23 +225,21 @@ main.ts:29632
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[init](BaseSerpElementItem.md#init)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:29655
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -276,23 +247,21 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[toJSON](BaseSerpElementItem.md#tojson)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:29689
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ImagesSerpElementItem`](ImagesSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`ImagesSerpElementItem`](ImagesSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -300,8 +269,8 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[fromJS](BaseSerpElementItem.md#fromjs)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:29682

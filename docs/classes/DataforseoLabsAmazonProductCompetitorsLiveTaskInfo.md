@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonProductCompetitorsLiveTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsAmazonProductCompetitorsLiveTaskInfo
 
 # Class: DataforseoLabsAmazonProductCompetitorsLiveTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`DataforseoLabsAmazonProductCompetitorsLiveTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](DataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md#cost)
-- [data](DataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md#data)
-- [id](DataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md#id)
-- [path](DataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md#path)
-- [result](DataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md#result)
-- [result\_count](DataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md#result_count)
-- [status\_code](DataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md#status_code)
-- [status\_message](DataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md#status_message)
-- [time](DataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md#time)
-
-### Methods
-
-- [init](DataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md#init)
-- [toJSON](DataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md#tojson)
-- [fromJS](DataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsAmazonProductCompetitorsLiveTaskInfo(data)
 
-• **new DataforseoLabsAmazonProductCompetitorsLiveTaskInfo**(`data?`): [`DataforseoLabsAmazonProductCompetitorsLiveTaskInfo`](DataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md)
+> **new DataforseoLabsAmazonProductCompetitorsLiveTaskInfo**(`data`?): [`DataforseoLabsAmazonProductCompetitorsLiveTaskInfo`](DataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md) |
+• **data?**: [`IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:103793
+main.ts:103801
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md).[cost](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md#cost)
+[`IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md).[`cost`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md).[data](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md#data)
+[`IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md).[`data`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md).[id](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md#id)
+[`IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md).[`id`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md).[path](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md#path)
+[`IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md).[`path`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`DataforseoLabsAmazonProductCompetitorsLiveResultInfo`](DataforseoLabsAmazonProductCompetitorsLiveResultInfo.md)[]
+> **`optional`** **result**: [`DataforseoLabsAmazonProductCompetitorsLiveResultInfo`](DataforseoLabsAmazonProductCompetitorsLiveResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md).[result](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md#result)
+[`IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md).[`result`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:103789
+main.ts:103797
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md).[result_count](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md#result_count)
+[`IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md).[`result_count`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md).[status_code](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md#status_code)
+[`IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md).[`status_code`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md).[status_message](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md#status_message)
+[`IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md).[`status_message`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md).[time](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md#time)
+[`IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md).[`time`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:103797
+main.ts:103805
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:103819
+main.ts:103827
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsAmazonProductCompetitorsLiveTaskInfo`](DataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsAmazonProductCompetitorsLiveTaskInfo`](DataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:103812
+main.ts:103820

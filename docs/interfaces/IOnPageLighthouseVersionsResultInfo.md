@@ -1,27 +1,21 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageLighthouseVersionsResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IOnPageLighthouseVersionsResultInfo
 
 # Interface: IOnPageLighthouseVersionsResultInfo
 
-## Implemented by
-
-- [`OnPageLighthouseVersionsResultInfo`](../classes/OnPageLighthouseVersionsResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [availible\_versions](IOnPageLighthouseVersionsResultInfo.md#availible_versions)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### availible\_versions
+### availible\_versions?
 
-• `Optional` **availible\_versions**: [`AvailibleVersions`](../classes/AvailibleVersions.md)[]
+> **`optional`** **availible\_versions**: [`AvailibleVersions`](../classes/AvailibleVersions.md)[]
 
-#### Defined in
+#### Source
 
-main.ts:159383
+main.ts:159391

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixAppendixDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppendixAppendixDataInfo
 
 # Class: AppendixAppendixDataInfo
 
@@ -8,159 +12,132 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixAppendixDataInfo.md#constructor)
-
-### Properties
-
-- [errors](AppendixAppendixDataInfo.md#errors)
-- [status](AppendixAppendixDataInfo.md#status)
-- [test](AppendixAppendixDataInfo.md#test)
-- [user\_data](AppendixAppendixDataInfo.md#user_data)
-
-### Methods
-
-- [init](AppendixAppendixDataInfo.md#init)
-- [toJSON](AppendixAppendixDataInfo.md#tojson)
-- [fromJS](AppendixAppendixDataInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixAppendixDataInfo(data)
 
-• **new AppendixAppendixDataInfo**(`data?`): [`AppendixAppendixDataInfo`](AppendixAppendixDataInfo.md)
+> **new AppendixAppendixDataInfo**(`data`?): [`AppendixAppendixDataInfo`](AppendixAppendixDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixAppendixDataInfo`](../interfaces/IAppendixAppendixDataInfo.md) |
+• **data?**: [`IAppendixAppendixDataInfo`](../interfaces/IAppendixAppendixDataInfo.md)
 
 #### Returns
 
 [`AppendixAppendixDataInfo`](AppendixAppendixDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:214379
 
 ## Properties
 
-### errors
+### errors?
 
-• `Optional` **errors**: `number`
+> **`optional`** **errors**: `number`
 
 #### Implementation of
 
-[IAppendixAppendixDataInfo](../interfaces/IAppendixAppendixDataInfo.md).[errors](../interfaces/IAppendixAppendixDataInfo.md#errors)
+[`IAppendixAppendixDataInfo`](../interfaces/IAppendixAppendixDataInfo.md).[`errors`](../interfaces/IAppendixAppendixDataInfo.md#errors)
 
-#### Defined in
+#### Source
 
 main.ts:214373
 
-___
+***
 
-### status
+### status?
 
-• `Optional` **status**: `number`
+> **`optional`** **status**: `number`
 
 #### Implementation of
 
-[IAppendixAppendixDataInfo](../interfaces/IAppendixAppendixDataInfo.md).[status](../interfaces/IAppendixAppendixDataInfo.md#status)
+[`IAppendixAppendixDataInfo`](../interfaces/IAppendixAppendixDataInfo.md).[`status`](../interfaces/IAppendixAppendixDataInfo.md#status)
 
-#### Defined in
+#### Source
 
 main.ts:214375
 
-___
+***
 
-### test
+### test?
 
-• `Optional` **test**: `number`
+> **`optional`** **test**: `number`
 
 #### Implementation of
 
-[IAppendixAppendixDataInfo](../interfaces/IAppendixAppendixDataInfo.md).[test](../interfaces/IAppendixAppendixDataInfo.md#test)
+[`IAppendixAppendixDataInfo`](../interfaces/IAppendixAppendixDataInfo.md).[`test`](../interfaces/IAppendixAppendixDataInfo.md#test)
 
-#### Defined in
+#### Source
 
 main.ts:214374
 
-___
+***
 
-### user\_data
+### user\_data?
 
-• `Optional` **user\_data**: `number`
+> **`optional`** **user\_data**: `number`
 
 #### Implementation of
 
-[IAppendixAppendixDataInfo](../interfaces/IAppendixAppendixDataInfo.md).[user_data](../interfaces/IAppendixAppendixDataInfo.md#user_data)
+[`IAppendixAppendixDataInfo`](../interfaces/IAppendixAppendixDataInfo.md).[`user_data`](../interfaces/IAppendixAppendixDataInfo.md#user_data)
 
-#### Defined in
+#### Source
 
 main.ts:214372
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:214388
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:214408
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppendixAppendixDataInfo`](AppendixAppendixDataInfo.md)
+> **`static`** **fromJS**(`data`): [`AppendixAppendixDataInfo`](AppendixAppendixDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppendixAppendixDataInfo`](AppendixAppendixDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:214401

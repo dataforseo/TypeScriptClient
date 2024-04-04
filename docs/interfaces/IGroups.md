@@ -1,57 +1,49 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IGroups
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IGroups
 
 # Interface: IGroups
 
-## Implemented by
-
-- [`Groups`](../classes/Groups.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [categories](IGroups.md#categories)
-- [id](IGroups.md#id)
-- [title](IGroups.md#title)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### categories
+### categories?
 
-• `Optional` **categories**: [`TechnologyCategoryInfo`](../classes/TechnologyCategoryInfo.md)[]
+> **`optional`** **categories**: [`TechnologyCategoryInfo`](../classes/TechnologyCategoryInfo.md)[]
 
 technology categories in this group
 
-#### Defined in
+#### Source
 
-main.ts:74632
+main.ts:74640
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 id of the technology group
 example:
 marketing, sales
 
-#### Defined in
+#### Source
 
-main.ts:74628
+main.ts:74636
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the technology group
 
-#### Defined in
+#### Source
 
-main.ts:74630
+main.ts:74638

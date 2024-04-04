@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo
 
 # Class: DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo
 
@@ -8,57 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [date\_from](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md#date_from)
-- [date\_to](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md#date_to)
-- [item\_types](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md#item_types)
-- [language\_code](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md#language_code)
-- [language\_name](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md#language_name)
-- [location\_code](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md#location_code)
-- [location\_name](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md#location_name)
-- [tag](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md#tag)
-- [targets](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md#targets)
-
-### Methods
-
-- [init](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md#init)
-- [toJSON](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md#tojson)
-- [fromJS](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo(data)
 
-• **new DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo**(`data?`): [`DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo`](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md)
+> **new DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo`](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md) |
+• **data?**: [`IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo`](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:100413
+main.ts:100421
 
 ## Properties
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -68,17 +46,17 @@ date format: "yyyy-mm-dd"
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md).[date_from](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md#date_from)
+[`IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md).[`date_from`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md#date_from)
 
-#### Defined in
+#### Source
 
-main.ts:100387
+main.ts:100395
 
-___
+***
 
-### date\_to
+### date\_to?
 
-• `Optional` **date\_to**: `string`
+> **`optional`** **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -89,17 +67,17 @@ example:
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md).[date_to](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md#date_to)
+[`IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md).[`date_to`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md#date_to)
 
-#### Defined in
+#### Source
 
-main.ts:100394
+main.ts:100402
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 display results by item type
 optional field
@@ -112,17 +90,17 @@ default value:
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md).[item_types](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md#item_types)
+[`IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md).[`item_types`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md#item_types)
 
-#### Defined in
+#### Source
 
-main.ts:100403
+main.ts:100411
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 if you use this field, you don’t need to specify language_name
@@ -134,17 +112,17 @@ en
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md).[language_code](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md#language_code)
+[`IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:100381
+main.ts:100389
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 if you use this field, you don’t need to specify language_code
@@ -156,17 +134,17 @@ English
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md).[language_name](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md#language_name)
+[`IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:100373
+main.ts:100381
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 if you use this field, you don’t have to specify location_name
@@ -178,17 +156,17 @@ example:
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md).[location_code](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md#location_code)
+[`IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:100365
+main.ts:100373
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 if you use this field, you don’t have to specify location_code
@@ -200,17 +178,17 @@ United Kingdom
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md).[location_name](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md#location_name)
+[`IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:100357
+main.ts:100365
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -220,17 +198,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md).[tag](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md#tag)
+[`IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:100409
+main.ts:100417
 
-___
+***
 
-### targets
+### targets?
 
-• `Optional` **targets**: `string`[]
+> **`optional`** **targets**: `string`[]
 
 target domains and subdomains
 required field
@@ -240,68 +218,62 @@ you can set up to 1000 domains or subdomains
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md).[targets](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md#targets)
+[`IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md).[`targets`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md#targets)
 
-#### Defined in
+#### Source
 
-main.ts:100349
+main.ts:100357
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:100422
+main.ts:100430
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:100455
+main.ts:100463
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo`](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo`](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo`](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:100448
+main.ts:100456

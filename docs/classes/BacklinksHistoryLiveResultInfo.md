@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksHistoryLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BacklinksHistoryLiveResultInfo
 
 # Class: BacklinksHistoryLiveResultInfo
 
@@ -8,53 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BacklinksHistoryLiveResultInfo.md#constructor)
-
-### Properties
-
-- [date\_from](BacklinksHistoryLiveResultInfo.md#date_from)
-- [date\_to](BacklinksHistoryLiveResultInfo.md#date_to)
-- [items](BacklinksHistoryLiveResultInfo.md#items)
-- [items\_count](BacklinksHistoryLiveResultInfo.md#items_count)
-- [target](BacklinksHistoryLiveResultInfo.md#target)
-
-### Methods
-
-- [init](BacklinksHistoryLiveResultInfo.md#init)
-- [toJSON](BacklinksHistoryLiveResultInfo.md#tojson)
-- [fromJS](BacklinksHistoryLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BacklinksHistoryLiveResultInfo(data)
 
-• **new BacklinksHistoryLiveResultInfo**(`data?`): [`BacklinksHistoryLiveResultInfo`](BacklinksHistoryLiveResultInfo.md)
+> **new BacklinksHistoryLiveResultInfo**(`data`?): [`BacklinksHistoryLiveResultInfo`](BacklinksHistoryLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBacklinksHistoryLiveResultInfo`](../interfaces/IBacklinksHistoryLiveResultInfo.md) |
+• **data?**: [`IBacklinksHistoryLiveResultInfo`](../interfaces/IBacklinksHistoryLiveResultInfo.md)
 
 #### Returns
 
 [`BacklinksHistoryLiveResultInfo`](BacklinksHistoryLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:135756
+main.ts:135764
 
 ## Properties
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of the time range
 in the UTC format: “yyyy-mm-dd”
@@ -63,17 +45,17 @@ example:
 
 #### Implementation of
 
-[IBacklinksHistoryLiveResultInfo](../interfaces/IBacklinksHistoryLiveResultInfo.md).[date_from](../interfaces/IBacklinksHistoryLiveResultInfo.md#date_from)
+[`IBacklinksHistoryLiveResultInfo`](../interfaces/IBacklinksHistoryLiveResultInfo.md).[`date_from`](../interfaces/IBacklinksHistoryLiveResultInfo.md#date_from)
 
-#### Defined in
+#### Source
 
-main.ts:135741
+main.ts:135749
 
-___
+***
 
-### date\_to
+### date\_to?
 
-• `Optional` **date\_to**: `string`
+> **`optional`** **date\_to**: `string`
 
 ending date of the time range
 in the UTC format: "yyyy-mm-dd"
@@ -82,17 +64,17 @@ example:
 
 #### Implementation of
 
-[IBacklinksHistoryLiveResultInfo](../interfaces/IBacklinksHistoryLiveResultInfo.md).[date_to](../interfaces/IBacklinksHistoryLiveResultInfo.md#date_to)
+[`IBacklinksHistoryLiveResultInfo`](../interfaces/IBacklinksHistoryLiveResultInfo.md).[`date_to`](../interfaces/IBacklinksHistoryLiveResultInfo.md#date_to)
 
-#### Defined in
+#### Source
 
-main.ts:135746
+main.ts:135754
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BacklinksHistoryLiveItem`](BacklinksHistoryLiveItem.md)[]
+> **`optional`** **items**: [`BacklinksHistoryLiveItem`](BacklinksHistoryLiveItem.md)[]
 
 contains historical backlink data for the specified domain
 the data is provided month-by-month;
@@ -100,100 +82,94 @@ the metrics are aggregated according to the backlinks the specified domain had o
 
 #### Implementation of
 
-[IBacklinksHistoryLiveResultInfo](../interfaces/IBacklinksHistoryLiveResultInfo.md).[items](../interfaces/IBacklinksHistoryLiveResultInfo.md#items)
+[`IBacklinksHistoryLiveResultInfo`](../interfaces/IBacklinksHistoryLiveResultInfo.md).[`items`](../interfaces/IBacklinksHistoryLiveResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:135752
+main.ts:135760
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[IBacklinksHistoryLiveResultInfo](../interfaces/IBacklinksHistoryLiveResultInfo.md).[items_count](../interfaces/IBacklinksHistoryLiveResultInfo.md#items_count)
+[`IBacklinksHistoryLiveResultInfo`](../interfaces/IBacklinksHistoryLiveResultInfo.md).[`items_count`](../interfaces/IBacklinksHistoryLiveResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:135748
+main.ts:135756
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 target from the POST array
 
 #### Implementation of
 
-[IBacklinksHistoryLiveResultInfo](../interfaces/IBacklinksHistoryLiveResultInfo.md).[target](../interfaces/IBacklinksHistoryLiveResultInfo.md#target)
+[`IBacklinksHistoryLiveResultInfo`](../interfaces/IBacklinksHistoryLiveResultInfo.md).[`target`](../interfaces/IBacklinksHistoryLiveResultInfo.md#target)
 
-#### Defined in
+#### Source
 
-main.ts:135736
+main.ts:135744
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:135765
+main.ts:135773
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:135790
+main.ts:135798
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BacklinksHistoryLiveResultInfo`](BacklinksHistoryLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`BacklinksHistoryLiveResultInfo`](BacklinksHistoryLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BacklinksHistoryLiveResultInfo`](BacklinksHistoryLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:135783
+main.ts:135791

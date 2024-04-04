@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataGoogleHotelSearchesTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataGoogleHotelSearchesTaskPostRequestInfo
 
 # Class: BusinessDataGoogleHotelSearchesTaskPostRequestInfo
 
-## Hierarchy
+## Extends
 
 - [`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md)
-
-  ↳ **`BusinessDataGoogleHotelSearchesTaskPostRequestInfo`**
 
 ## Implements
 
@@ -14,58 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#constructor)
-
-### Properties
-
-- [adults](BusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#adults)
-- [amenities](BusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#amenities)
-- [check\_in](BusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#check_in)
-- [check\_out](BusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#check_out)
-- [children](BusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#children)
-- [currency](BusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#currency)
-- [depth](BusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#depth)
-- [free\_cancellation](BusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#free_cancellation)
-- [is\_vacation\_rentals](BusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#is_vacation_rentals)
-- [keyword](BusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#keyword)
-- [language\_code](BusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#language_code)
-- [language\_name](BusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#language_name)
-- [location\_code](BusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#location_code)
-- [location\_coordinate](BusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#location_coordinate)
-- [location\_name](BusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#location_name)
-- [max\_price](BusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#max_price)
-- [min\_price](BusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#min_price)
-- [min\_rating](BusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#min_rating)
-- [pingback\_url](BusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#pingback_url)
-- [postback\_url](BusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#postback_url)
-- [priority](BusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#priority)
-- [sort\_by](BusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#sort_by)
-- [stars](BusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#stars)
-- [tag](BusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#tag)
-
-### Methods
-
-- [init](BusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#init)
-- [toJSON](BusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#tojson)
-- [fromJS](BusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataGoogleHotelSearchesTaskPostRequestInfo(data)
 
-• **new BusinessDataGoogleHotelSearchesTaskPostRequestInfo**(`data?`): [`BusinessDataGoogleHotelSearchesTaskPostRequestInfo`](BusinessDataGoogleHotelSearchesTaskPostRequestInfo.md)
+> **new BusinessDataGoogleHotelSearchesTaskPostRequestInfo**(`data`?): [`BusinessDataGoogleHotelSearchesTaskPostRequestInfo`](BusinessDataGoogleHotelSearchesTaskPostRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataGoogleHotelSearchesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md) |
+• **data?**: [`IBusinessDataGoogleHotelSearchesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md)
 
 #### Returns
 
@@ -73,17 +34,17 @@
 
 #### Overrides
 
-[BusinessDataTaskRequestInfo](BusinessDataTaskRequestInfo.md).[constructor](BusinessDataTaskRequestInfo.md#constructor)
+[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`constructor`](BusinessDataTaskRequestInfo.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:198347
 
 ## Properties
 
-### adults
+### adults?
 
-• `Optional` **adults**: `number`
+> **`optional`** **adults**: `number`
 
 number of adults
 optional field
@@ -94,17 +55,17 @@ example:
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelSearchesTaskPostRequestInfo](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[adults](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#adults)
+[`IBusinessDataGoogleHotelSearchesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[`adults`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#adults)
 
-#### Defined in
+#### Source
 
 main.ts:198260
 
-___
+***
 
-### amenities
+### amenities?
 
-• `Optional` **amenities**: `string`[]
+> **`optional`** **amenities**: `string`[]
 
 hotel amenities
 optional field
@@ -137,17 +98,17 @@ possible values:
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelSearchesTaskPostRequestInfo](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[amenities](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#amenities)
+[`IBusinessDataGoogleHotelSearchesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[`amenities`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#amenities)
 
-#### Defined in
+#### Source
 
 main.ts:198343
 
-___
+***
 
-### check\_in
+### check\_in?
 
-• `Optional` **check\_in**: `string`
+> **`optional`** **check\_in**: `string`
 
 check-in date
 optional field
@@ -159,17 +120,17 @@ Note: the value cannot precede the today’s date
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelSearchesTaskPostRequestInfo](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[check_in](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#check_in)
+[`IBusinessDataGoogleHotelSearchesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[`check_in`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#check_in)
 
-#### Defined in
+#### Source
 
 main.ts:198239
 
-___
+***
 
-### check\_out
+### check\_out?
 
-• `Optional` **check\_out**: `string`
+> **`optional`** **check\_out**: `string`
 
 check-out date
 optional field
@@ -182,17 +143,17 @@ the range between check_in and check_out values cannot exceed 30 days
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelSearchesTaskPostRequestInfo](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[check_out](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#check_out)
+[`IBusinessDataGoogleHotelSearchesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[`check_out`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#check_out)
 
-#### Defined in
+#### Source
 
 main.ts:198248
 
-___
+***
 
-### children
+### children?
 
-• `Optional` **children**: `string`[]
+> **`optional`** **children**: `string`[]
 
 number and age of children
 optional field
@@ -206,17 +167,17 @@ set the following value if you want to include one 13-year-old child and one 8-y
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelSearchesTaskPostRequestInfo](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[children](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#children)
+[`IBusinessDataGoogleHotelSearchesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[`children`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#children)
 
-#### Defined in
+#### Source
 
 main.ts:198270
 
-___
+***
 
-### currency
+### currency?
 
-• `Optional` **currency**: `string`
+> **`optional`** **currency**: `string`
 
 currency
 optional field
@@ -225,17 +186,17 @@ example:
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelSearchesTaskPostRequestInfo](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[currency](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#currency)
+[`IBusinessDataGoogleHotelSearchesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[`currency`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#currency)
 
-#### Defined in
+#### Source
 
 main.ts:198253
 
-___
+***
 
-### depth
+### depth?
 
-• `Optional` **depth**: `number`
+> **`optional`** **depth**: `number`
 
 parsing depth
 optional field
@@ -248,17 +209,17 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelSearchesTaskPostRequestInfo](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[depth](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#depth)
+[`IBusinessDataGoogleHotelSearchesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[`depth`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#depth)
 
-#### Defined in
+#### Source
 
 main.ts:198231
 
-___
+***
 
-### free\_cancellation
+### free\_cancellation?
 
-• `Optional` **free\_cancellation**: `boolean`
+> **`optional`** **free\_cancellation**: `boolean`
 
 hotels with a free cancellation
 optional field
@@ -267,17 +228,17 @@ default value: false
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelSearchesTaskPostRequestInfo](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[free_cancellation](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#free_cancellation)
+[`IBusinessDataGoogleHotelSearchesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[`free_cancellation`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#free_cancellation)
 
-#### Defined in
+#### Source
 
 main.ts:198309
 
-___
+***
 
-### is\_vacation\_rentals
+### is\_vacation\_rentals?
 
-• `Optional` **is\_vacation\_rentals**: `boolean`
+> **`optional`** **is\_vacation\_rentals**: `boolean`
 
 search for vacation rentals
 optional field
@@ -286,17 +247,17 @@ default value: false
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelSearchesTaskPostRequestInfo](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[is_vacation_rentals](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#is_vacation_rentals)
+[`IBusinessDataGoogleHotelSearchesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[`is_vacation_rentals`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#is_vacation_rentals)
 
-#### Defined in
+#### Source
 
 main.ts:198314
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword
 required field
@@ -316,21 +277,21 @@ learn more about the cid and place_id identifiers in this help center article
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelSearchesTaskPostRequestInfo](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[keyword](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#keyword)
+[`IBusinessDataGoogleHotelSearchesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[`keyword`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#keyword)
 
 #### Inherited from
 
-[BusinessDataTaskRequestInfo](BusinessDataTaskRequestInfo.md).[keyword](BusinessDataTaskRequestInfo.md#keyword)
+[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`keyword`](BusinessDataTaskRequestInfo.md#keyword)
 
-#### Defined in
+#### Source
 
 main.ts:188563
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -341,21 +302,21 @@ en
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelSearchesTaskPostRequestInfo](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[language_code](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#language_code)
+[`IBusinessDataGoogleHotelSearchesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[`language_code`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#language_code)
 
 #### Inherited from
 
-[BusinessDataTaskRequestInfo](BusinessDataTaskRequestInfo.md).[language_code](BusinessDataTaskRequestInfo.md#language_code)
+[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`language_code`](BusinessDataTaskRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
 main.ts:188608
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -366,21 +327,21 @@ English
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelSearchesTaskPostRequestInfo](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[language_name](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#language_name)
+[`IBusinessDataGoogleHotelSearchesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[`language_name`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#language_name)
 
 #### Inherited from
 
-[BusinessDataTaskRequestInfo](BusinessDataTaskRequestInfo.md).[language_name](BusinessDataTaskRequestInfo.md#language_name)
+[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`language_name`](BusinessDataTaskRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
 main.ts:188601
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -391,21 +352,21 @@ example:
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelSearchesTaskPostRequestInfo](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[location_code](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#location_code)
+[`IBusinessDataGoogleHotelSearchesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[`location_code`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#location_code)
 
 #### Inherited from
 
-[BusinessDataTaskRequestInfo](BusinessDataTaskRequestInfo.md).[location_code](BusinessDataTaskRequestInfo.md#location_code)
+[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`location_code`](BusinessDataTaskRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
 main.ts:188585
 
-___
+***
 
-### location\_coordinate
+### location\_coordinate?
 
-• `Optional` **location\_coordinate**: `string`
+> **`optional`** **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -418,21 +379,21 @@ example:
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelSearchesTaskPostRequestInfo](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[location_coordinate](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#location_coordinate)
+[`IBusinessDataGoogleHotelSearchesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[`location_coordinate`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#location_coordinate)
 
 #### Inherited from
 
-[BusinessDataTaskRequestInfo](BusinessDataTaskRequestInfo.md).[location_coordinate](BusinessDataTaskRequestInfo.md#location_coordinate)
+[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`location_coordinate`](BusinessDataTaskRequestInfo.md#location_coordinate)
 
-#### Defined in
+#### Source
 
 main.ts:188594
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -443,21 +404,21 @@ London,England,United Kingdom
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelSearchesTaskPostRequestInfo](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[location_name](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#location_name)
+[`IBusinessDataGoogleHotelSearchesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[`location_name`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#location_name)
 
 #### Inherited from
 
-[BusinessDataTaskRequestInfo](BusinessDataTaskRequestInfo.md).[location_name](BusinessDataTaskRequestInfo.md#location_name)
+[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`location_name`](BusinessDataTaskRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
 main.ts:188578
 
-___
+***
 
-### max\_price
+### max\_price?
 
-• `Optional` **max\_price**: `number`
+> **`optional`** **max\_price**: `number`
 
 maximum price per night
 optional field
@@ -467,17 +428,17 @@ example:
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelSearchesTaskPostRequestInfo](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[max_price](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#max_price)
+[`IBusinessDataGoogleHotelSearchesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[`max_price`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#max_price)
 
-#### Defined in
+#### Source
 
 main.ts:198304
 
-___
+***
 
-### min\_price
+### min\_price?
 
-• `Optional` **min\_price**: `number`
+> **`optional`** **min\_price**: `number`
 
 minimum price per night
 optional field
@@ -487,17 +448,17 @@ example:
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelSearchesTaskPostRequestInfo](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[min_price](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#min_price)
+[`IBusinessDataGoogleHotelSearchesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[`min_price`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#min_price)
 
-#### Defined in
+#### Source
 
 main.ts:198298
 
-___
+***
 
-### min\_rating
+### min\_rating?
 
-• `Optional` **min\_rating**: `number`
+> **`optional`** **min\_rating**: `number`
 
 minimum rating
 optional field
@@ -507,17 +468,17 @@ example:
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelSearchesTaskPostRequestInfo](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[min_rating](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#min_rating)
+[`IBusinessDataGoogleHotelSearchesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[`min_rating`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#min_rating)
 
-#### Defined in
+#### Source
 
 main.ts:198282
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -531,21 +492,21 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelSearchesTaskPostRequestInfo](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[pingback_url](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#pingback_url)
+[`IBusinessDataGoogleHotelSearchesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[`pingback_url`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#pingback_url)
 
 #### Inherited from
 
-[BusinessDataTaskRequestInfo](BusinessDataTaskRequestInfo.md).[pingback_url](BusinessDataTaskRequestInfo.md#pingback_url)
+[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`pingback_url`](BusinessDataTaskRequestInfo.md#pingback_url)
 
-#### Defined in
+#### Source
 
 main.ts:188634
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -559,21 +520,21 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelSearchesTaskPostRequestInfo](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[postback_url](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#postback_url)
+[`IBusinessDataGoogleHotelSearchesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[`postback_url`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#postback_url)
 
 #### Inherited from
 
-[BusinessDataTaskRequestInfo](BusinessDataTaskRequestInfo.md).[postback_url](BusinessDataTaskRequestInfo.md#postback_url)
+[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`postback_url`](BusinessDataTaskRequestInfo.md#postback_url)
 
-#### Defined in
+#### Source
 
 main.ts:188624
 
-___
+***
 
-### priority
+### priority?
 
-• `Optional` **priority**: `number`
+> **`optional`** **priority**: `number`
 
 task priority
 optional field
@@ -585,21 +546,21 @@ The cost can be calculated on the Pricing page.
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelSearchesTaskPostRequestInfo](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[priority](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#priority)
+[`IBusinessDataGoogleHotelSearchesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[`priority`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#priority)
 
 #### Inherited from
 
-[BusinessDataTaskRequestInfo](BusinessDataTaskRequestInfo.md).[priority](BusinessDataTaskRequestInfo.md#priority)
+[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`priority`](BusinessDataTaskRequestInfo.md#priority)
 
-#### Defined in
+#### Source
 
 main.ts:188571
 
-___
+***
 
-### sort\_by
+### sort\_by?
 
-• `Optional` **sort\_by**: `string`
+> **`optional`** **sort\_by**: `string`
 
 results sorting parameters
 optional field
@@ -613,17 +574,17 @@ default value: relevance
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelSearchesTaskPostRequestInfo](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[sort_by](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#sort_by)
+[`IBusinessDataGoogleHotelSearchesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[`sort_by`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#sort_by)
 
-#### Defined in
+#### Source
 
 main.ts:198292
 
-___
+***
 
-### stars
+### stars?
 
-• `Optional` **stars**: `string`[]
+> **`optional`** **stars**: `string`[]
 
 hotel stars
 optional field
@@ -633,17 +594,17 @@ example:
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelSearchesTaskPostRequestInfo](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[stars](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#stars)
+[`IBusinessDataGoogleHotelSearchesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[`stars`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#stars)
 
-#### Defined in
+#### Source
 
 main.ts:198276
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -653,27 +614,25 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IBusinessDataGoogleHotelSearchesTaskPostRequestInfo](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[tag](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#tag)
+[`IBusinessDataGoogleHotelSearchesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[`tag`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#tag)
 
 #### Inherited from
 
-[BusinessDataTaskRequestInfo](BusinessDataTaskRequestInfo.md).[tag](BusinessDataTaskRequestInfo.md#tag)
+[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`tag`](BusinessDataTaskRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
 main.ts:188614
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -681,23 +640,21 @@ main.ts:188614
 
 #### Overrides
 
-[BusinessDataTaskRequestInfo](BusinessDataTaskRequestInfo.md).[init](BusinessDataTaskRequestInfo.md#init)
+[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`init`](BusinessDataTaskRequestInfo.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:198351
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -705,23 +662,21 @@ ___
 
 #### Overrides
 
-[BusinessDataTaskRequestInfo](BusinessDataTaskRequestInfo.md).[toJSON](BusinessDataTaskRequestInfo.md#tojson)
+[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`toJSON`](BusinessDataTaskRequestInfo.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:198394
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataGoogleHotelSearchesTaskPostRequestInfo`](BusinessDataGoogleHotelSearchesTaskPostRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataGoogleHotelSearchesTaskPostRequestInfo`](BusinessDataGoogleHotelSearchesTaskPostRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -729,8 +684,8 @@ ___
 
 #### Overrides
 
-[BusinessDataTaskRequestInfo](BusinessDataTaskRequestInfo.md).[fromJS](BusinessDataTaskRequestInfo.md#fromjs)
+[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`fromJS`](BusinessDataTaskRequestInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:198387

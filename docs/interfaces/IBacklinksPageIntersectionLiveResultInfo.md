@@ -1,72 +1,63 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksPageIntersectionLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBacklinksPageIntersectionLiveResultInfo
 
 # Interface: IBacklinksPageIntersectionLiveResultInfo
 
-## Implemented by
-
-- [`BacklinksPageIntersectionLiveResultInfo`](../classes/BacklinksPageIntersectionLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IBacklinksPageIntersectionLiveResultInfo.md#items)
-- [items\_count](IBacklinksPageIntersectionLiveResultInfo.md#items_count)
-- [targets](IBacklinksPageIntersectionLiveResultInfo.md#targets)
-- [total\_count](IBacklinksPageIntersectionLiveResultInfo.md#total_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`BacklinksPageIntersectionLiveItem`](../classes/BacklinksPageIntersectionLiveItem.md)[]
+> **`optional`** **items**: [`BacklinksPageIntersectionLiveItem`](../classes/BacklinksPageIntersectionLiveItem.md)[]
 
 contains relevant backlinks and referring domains data
 
-#### Defined in
+#### Source
 
-main.ts:143661
+main.ts:143669
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Defined in
+#### Source
 
-main.ts:143659
+main.ts:143667
 
-___
+***
 
-### targets
+### targets?
 
-• `Optional` **targets**: `Object`
+> **`optional`** **targets**: `Object`
 
 targets from a POST array
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
-#### Defined in
+#### Source
 
-main.ts:143655
+main.ts:143663
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total amount of results relevant the request
 
-#### Defined in
+#### Source
 
-main.ts:143657
+main.ts:143665

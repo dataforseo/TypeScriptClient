@@ -1,107 +1,95 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo
 
-## Implemented by
-
-- [`DataforseoLabsGoogleDomainRankOverviewLiveResultInfo`](../classes/DataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md#items)
-- [items\_count](IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md#items_count)
-- [language\_code](IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md#language_code)
-- [location\_code](IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md#location_code)
-- [se\_type](IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md#se_type)
-- [target](IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md#target)
-- [total\_count](IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md#total_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`DataforseoLabsDomainRankOverviewLiveItem`](../classes/DataforseoLabsDomainRankOverviewLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsDomainRankOverviewLiveItem`](../classes/DataforseoLabsDomainRankOverviewLiveItem.md)[]
 
 contains ranking and traffic data
 
-#### Defined in
+#### Source
 
-main.ts:93214
+main.ts:93222
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Defined in
+#### Source
 
-main.ts:93212
+main.ts:93220
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:93208
+main.ts:93216
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:93206
+main.ts:93214
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:93202
+main.ts:93210
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 target domain in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:93204
+main.ts:93212
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
-#### Defined in
+#### Source
 
-main.ts:93210
+main.ts:93218

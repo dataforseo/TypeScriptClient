@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleNewsTasksReadyResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleNewsTasksReadyResultInfo
 
 # Class: SerpGoogleNewsTasksReadyResultInfo
 
@@ -8,240 +12,209 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleNewsTasksReadyResultInfo.md#constructor)
-
-### Properties
-
-- [date\_posted](SerpGoogleNewsTasksReadyResultInfo.md#date_posted)
-- [endpoint\_advanced](SerpGoogleNewsTasksReadyResultInfo.md#endpoint_advanced)
-- [endpoint\_html](SerpGoogleNewsTasksReadyResultInfo.md#endpoint_html)
-- [endpoint\_regular](SerpGoogleNewsTasksReadyResultInfo.md#endpoint_regular)
-- [id](SerpGoogleNewsTasksReadyResultInfo.md#id)
-- [se](SerpGoogleNewsTasksReadyResultInfo.md#se)
-- [se\_type](SerpGoogleNewsTasksReadyResultInfo.md#se_type)
-- [tag](SerpGoogleNewsTasksReadyResultInfo.md#tag)
-
-### Methods
-
-- [init](SerpGoogleNewsTasksReadyResultInfo.md#init)
-- [toJSON](SerpGoogleNewsTasksReadyResultInfo.md#tojson)
-- [fromJS](SerpGoogleNewsTasksReadyResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleNewsTasksReadyResultInfo(data)
 
-• **new SerpGoogleNewsTasksReadyResultInfo**(`data?`): [`SerpGoogleNewsTasksReadyResultInfo`](SerpGoogleNewsTasksReadyResultInfo.md)
+> **new SerpGoogleNewsTasksReadyResultInfo**(`data`?): [`SerpGoogleNewsTasksReadyResultInfo`](SerpGoogleNewsTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleNewsTasksReadyResultInfo`](../interfaces/ISerpGoogleNewsTasksReadyResultInfo.md) |
+• **data?**: [`ISerpGoogleNewsTasksReadyResultInfo`](../interfaces/ISerpGoogleNewsTasksReadyResultInfo.md)
 
 #### Returns
 
 [`SerpGoogleNewsTasksReadyResultInfo`](SerpGoogleNewsTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:42840
+main.ts:42846
 
 ## Properties
 
-### date\_posted
+### date\_posted?
 
-• `Optional` **date\_posted**: `string`
+> **`optional`** **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
 #### Implementation of
 
-[ISerpGoogleNewsTasksReadyResultInfo](../interfaces/ISerpGoogleNewsTasksReadyResultInfo.md).[date_posted](../interfaces/ISerpGoogleNewsTasksReadyResultInfo.md#date_posted)
+[`ISerpGoogleNewsTasksReadyResultInfo`](../interfaces/ISerpGoogleNewsTasksReadyResultInfo.md).[`date_posted`](../interfaces/ISerpGoogleNewsTasksReadyResultInfo.md#date_posted)
 
-#### Defined in
+#### Source
 
-main.ts:42825
+main.ts:42831
 
-___
+***
 
-### endpoint\_advanced
+### endpoint\_advanced?
 
-• `Optional` **endpoint\_advanced**: `string`
+> **`optional`** **endpoint\_advanced**: `string`
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpGoogleNewsTasksReadyResultInfo](../interfaces/ISerpGoogleNewsTasksReadyResultInfo.md).[endpoint_advanced](../interfaces/ISerpGoogleNewsTasksReadyResultInfo.md#endpoint_advanced)
+[`ISerpGoogleNewsTasksReadyResultInfo`](../interfaces/ISerpGoogleNewsTasksReadyResultInfo.md).[`endpoint_advanced`](../interfaces/ISerpGoogleNewsTasksReadyResultInfo.md#endpoint_advanced)
 
-#### Defined in
+#### Source
 
-main.ts:42833
+main.ts:42839
 
-___
+***
 
-### endpoint\_html
+### endpoint\_html?
 
-• `Optional` **endpoint\_html**: `string`
+> **`optional`** **endpoint\_html**: `string`
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpGoogleNewsTasksReadyResultInfo](../interfaces/ISerpGoogleNewsTasksReadyResultInfo.md).[endpoint_html](../interfaces/ISerpGoogleNewsTasksReadyResultInfo.md#endpoint_html)
+[`ISerpGoogleNewsTasksReadyResultInfo`](../interfaces/ISerpGoogleNewsTasksReadyResultInfo.md).[`endpoint_html`](../interfaces/ISerpGoogleNewsTasksReadyResultInfo.md#endpoint_html)
 
-#### Defined in
+#### Source
 
-main.ts:42836
+main.ts:42842
 
-___
+***
 
-### endpoint\_regular
+### endpoint\_regular?
 
-• `Optional` **endpoint\_regular**: `string`
+> **`optional`** **endpoint\_regular**: `string`
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[ISerpGoogleNewsTasksReadyResultInfo](../interfaces/ISerpGoogleNewsTasksReadyResultInfo.md).[endpoint_regular](../interfaces/ISerpGoogleNewsTasksReadyResultInfo.md#endpoint_regular)
+[`ISerpGoogleNewsTasksReadyResultInfo`](../interfaces/ISerpGoogleNewsTasksReadyResultInfo.md).[`endpoint_regular`](../interfaces/ISerpGoogleNewsTasksReadyResultInfo.md#endpoint_regular)
 
-#### Defined in
+#### Source
 
-main.ts:42830
+main.ts:42836
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[ISerpGoogleNewsTasksReadyResultInfo](../interfaces/ISerpGoogleNewsTasksReadyResultInfo.md).[id](../interfaces/ISerpGoogleNewsTasksReadyResultInfo.md#id)
+[`ISerpGoogleNewsTasksReadyResultInfo`](../interfaces/ISerpGoogleNewsTasksReadyResultInfo.md).[`id`](../interfaces/ISerpGoogleNewsTasksReadyResultInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:42818
+main.ts:42824
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 
 #### Implementation of
 
-[ISerpGoogleNewsTasksReadyResultInfo](../interfaces/ISerpGoogleNewsTasksReadyResultInfo.md).[se](../interfaces/ISerpGoogleNewsTasksReadyResultInfo.md#se)
+[`ISerpGoogleNewsTasksReadyResultInfo`](../interfaces/ISerpGoogleNewsTasksReadyResultInfo.md).[`se`](../interfaces/ISerpGoogleNewsTasksReadyResultInfo.md#se)
 
-#### Defined in
+#### Source
 
-main.ts:42820
+main.ts:42826
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 type of search engine
 can take the following values: news
 
 #### Implementation of
 
-[ISerpGoogleNewsTasksReadyResultInfo](../interfaces/ISerpGoogleNewsTasksReadyResultInfo.md).[se_type](../interfaces/ISerpGoogleNewsTasksReadyResultInfo.md#se_type)
+[`ISerpGoogleNewsTasksReadyResultInfo`](../interfaces/ISerpGoogleNewsTasksReadyResultInfo.md).[`se_type`](../interfaces/ISerpGoogleNewsTasksReadyResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:42823
+main.ts:42829
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
 #### Implementation of
 
-[ISerpGoogleNewsTasksReadyResultInfo](../interfaces/ISerpGoogleNewsTasksReadyResultInfo.md).[tag](../interfaces/ISerpGoogleNewsTasksReadyResultInfo.md#tag)
+[`ISerpGoogleNewsTasksReadyResultInfo`](../interfaces/ISerpGoogleNewsTasksReadyResultInfo.md).[`tag`](../interfaces/ISerpGoogleNewsTasksReadyResultInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:42827
+main.ts:42833
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:42849
+main.ts:42855
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:42873
+main.ts:42879
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleNewsTasksReadyResultInfo`](SerpGoogleNewsTasksReadyResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleNewsTasksReadyResultInfo`](SerpGoogleNewsTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpGoogleNewsTasksReadyResultInfo`](SerpGoogleNewsTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:42866
+main.ts:42872

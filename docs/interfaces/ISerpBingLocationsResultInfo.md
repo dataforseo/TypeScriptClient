@@ -1,54 +1,44 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpBingLocationsResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ISerpBingLocationsResultInfo
 
 # Interface: ISerpBingLocationsResultInfo
 
-## Implemented by
-
-- [`SerpBingLocationsResultInfo`](../classes/SerpBingLocationsResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [country\_iso\_code](ISerpBingLocationsResultInfo.md#country_iso_code)
-- [location\_code](ISerpBingLocationsResultInfo.md#location_code)
-- [location\_code\_parent](ISerpBingLocationsResultInfo.md#location_code_parent)
-- [location\_name](ISerpBingLocationsResultInfo.md#location_name)
-- [location\_type](ISerpBingLocationsResultInfo.md#location_type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### country\_iso\_code
+### country\_iso\_code?
 
-• `Optional` **country\_iso\_code**: `string`
+> **`optional`** **country\_iso\_code**: `string`
 
 ISO country code of the location
 
-#### Defined in
+#### Source
 
-main.ts:55574
+main.ts:55582
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 
-#### Defined in
+#### Source
 
-main.ts:55561
+main.ts:55569
 
-___
+***
 
-### location\_code\_parent
+### location\_code\_parent?
 
-• `Optional` **location\_code\_parent**: `number`
+> **`optional`** **location\_code\_parent**: `number`
 
 the code of the superordinate location
 example:
@@ -59,30 +49,30 @@ where location_code_parent corresponds to:
 "location_code": 20044,
 "location_name": "Lower Austria,Austria"
 
-#### Defined in
+#### Source
 
-main.ts:55572
+main.ts:55580
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 
-#### Defined in
+#### Source
 
-main.ts:55563
+main.ts:55571
 
-___
+***
 
-### location\_type
+### location\_type?
 
-• `Optional` **location\_type**: `string`
+> **`optional`** **location\_type**: `string`
 
 location type
 
-#### Defined in
+#### Source
 
-main.ts:55576
+main.ts:55584

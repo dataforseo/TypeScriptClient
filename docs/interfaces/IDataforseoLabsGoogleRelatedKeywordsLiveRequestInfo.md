@@ -1,40 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo
 
-## Implemented by
-
-- [`DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo`](../classes/DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [depth](IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#depth)
-- [filters](IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#filters)
-- [ignore\_synonyms](IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#ignore_synonyms)
-- [include\_seed\_keyword](IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#include_seed_keyword)
-- [include\_serp\_info](IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#include_serp_info)
-- [keyword](IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#keyword)
-- [language\_code](IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#language_code)
-- [language\_name](IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#language_name)
-- [limit](IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#limit)
-- [location\_code](IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#location_code)
-- [location\_name](IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#location_name)
-- [offset](IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#offset)
-- [order\_by](IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#order_by)
-- [replace\_with\_core\_keyword](IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#replace_with_core_keyword)
-- [tag](IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### depth
+### depth?
 
-• `Optional` **depth**: `number`
+> **`optional`** **depth**: `number`
 
 keyword search depth
 optional field
@@ -48,25 +28,25 @@ estimated number of keywords for each level (maximum):
 3 – 584 keywords
 4 – 4680 keywords
 
-#### Defined in
+#### Source
 
-main.ts:82601
+main.ts:82609
 
-___
+***
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, <=, >, >=, =, <>, in, not_in, like,not_like
+regex, <, `<=, >`, >=, =, `<>`, in, not_in, like,not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
-["keyword_info.search_volume",">",0]
+["keyword_info.search_volume",">`",0]
 [["keyword_info.search_volume","in",[0,1000]],
 "and",
 ["keyword_info.competition_level","=","LOW"]]
@@ -77,60 +57,60 @@ example:
 ["keyword_info.high_top_of_page_bid","<=",0.5]]]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide
 
-#### Defined in
+#### Source
 
-main.ts:82642
+main.ts:82650
 
-___
+***
 
-### ignore\_synonyms
+### ignore\_synonyms?
 
-• `Optional` **ignore\_synonyms**: `boolean`
+> **`optional`** **ignore\_synonyms**: `boolean`
 
 ignore highly similar keywords
 optional field
 if set to true only core keywords will be returned, all highly similar keywords will be excluded;
 default value: false
 
-#### Defined in
+#### Source
 
-main.ts:82616
+main.ts:82624
 
-___
+***
 
-### include\_seed\_keyword
+### include\_seed\_keyword?
 
-• `Optional` **include\_seed\_keyword**: `boolean`
+> **`optional`** **include\_seed\_keyword**: `boolean`
 
 include data for the seed keyword
 optional field
 if set to true, data for the seed keyword specified in the keyword field will be provided in the seed_keyword_data array of the response
 default value: false
 
-#### Defined in
+#### Source
 
-main.ts:82606
+main.ts:82614
 
-___
+***
 
-### include\_serp\_info
+### include\_serp\_info?
 
-• `Optional` **include\_serp\_info**: `boolean`
+> **`optional`** **include\_serp\_info**: `boolean`
 
 include data from SERP for each keyword
 optional field
 if set to true, we will return a serp_info array containing SERP data (number of search results, relevant URL, and SERP features) for every keyword in the response
 default value: false
 
-#### Defined in
+#### Source
 
-main.ts:82611
+main.ts:82619
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword
 required field
@@ -138,15 +118,15 @@ UTF-8 encoding
 a keyword should be at least 3 characters long;
 the keywords will be converted to lowercase format
 
-#### Defined in
+#### Source
 
-main.ts:82557
+main.ts:82565
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 required field if you don’t specify language_name
@@ -156,15 +136,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:82589
+main.ts:82597
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -174,30 +154,30 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:82581
+main.ts:82589
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned keywords
 optional field
 default value: 100
 maximum value: 1000
 
-#### Defined in
+#### Source
 
-main.ts:82663
+main.ts:82671
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 required field if you don’t specify location_name
@@ -207,15 +187,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:82573
+main.ts:82581
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code
@@ -225,30 +205,30 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 United Kingdom
 
-#### Defined in
+#### Source
 
-main.ts:82565
+main.ts:82573
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned keywords
 optional field
 default value: 0
 if you specify the 10 value, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords
 
-#### Defined in
+#### Source
 
-main.ts:82668
+main.ts:82676
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -266,15 +246,15 @@ you should use a comma to separate several sorting rules
 example:
 ["keyword_data.keyword_info.search_volume,desc","keyword_data.keyword_info.cpc,desc"]
 
-#### Defined in
+#### Source
 
-main.ts:82658
+main.ts:82666
 
-___
+***
 
-### replace\_with\_core\_keyword
+### replace\_with\_core\_keyword?
 
-• `Optional` **replace\_with\_core\_keyword**: `boolean`
+> **`optional`** **replace\_with\_core\_keyword**: `boolean`
 
 return data for core keyword
 optional field
@@ -283,15 +263,15 @@ if false, serp_info and related_keywords will be returned for the specified keyw
 refer to this help center article for more details;
 default value: false
 
-#### Defined in
+#### Source
 
-main.ts:82623
+main.ts:82631
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -299,6 +279,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:82674
+main.ts:82682

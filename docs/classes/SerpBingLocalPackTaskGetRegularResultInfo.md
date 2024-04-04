@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpBingLocalPackTaskGetRegularResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpBingLocalPackTaskGetRegularResultInfo
 
 # Class: SerpBingLocalPackTaskGetRegularResultInfo
 
@@ -8,77 +12,48 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpBingLocalPackTaskGetRegularResultInfo.md#constructor)
-
-### Properties
-
-- [check\_url](SerpBingLocalPackTaskGetRegularResultInfo.md#check_url)
-- [datetime](SerpBingLocalPackTaskGetRegularResultInfo.md#datetime)
-- [item\_types](SerpBingLocalPackTaskGetRegularResultInfo.md#item_types)
-- [items](SerpBingLocalPackTaskGetRegularResultInfo.md#items)
-- [items\_count](SerpBingLocalPackTaskGetRegularResultInfo.md#items_count)
-- [keyword](SerpBingLocalPackTaskGetRegularResultInfo.md#keyword)
-- [language\_code](SerpBingLocalPackTaskGetRegularResultInfo.md#language_code)
-- [location\_code](SerpBingLocalPackTaskGetRegularResultInfo.md#location_code)
-- [se\_domain](SerpBingLocalPackTaskGetRegularResultInfo.md#se_domain)
-- [se\_results\_count](SerpBingLocalPackTaskGetRegularResultInfo.md#se_results_count)
-- [spell](SerpBingLocalPackTaskGetRegularResultInfo.md#spell)
-- [type](SerpBingLocalPackTaskGetRegularResultInfo.md#type)
-
-### Methods
-
-- [init](SerpBingLocalPackTaskGetRegularResultInfo.md#init)
-- [toJSON](SerpBingLocalPackTaskGetRegularResultInfo.md#tojson)
-- [fromJS](SerpBingLocalPackTaskGetRegularResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpBingLocalPackTaskGetRegularResultInfo(data)
 
-• **new SerpBingLocalPackTaskGetRegularResultInfo**(`data?`): [`SerpBingLocalPackTaskGetRegularResultInfo`](SerpBingLocalPackTaskGetRegularResultInfo.md)
+> **new SerpBingLocalPackTaskGetRegularResultInfo**(`data`?): [`SerpBingLocalPackTaskGetRegularResultInfo`](SerpBingLocalPackTaskGetRegularResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpBingLocalPackTaskGetRegularResultInfo`](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md) |
+• **data?**: [`ISerpBingLocalPackTaskGetRegularResultInfo`](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md)
 
 #### Returns
 
 [`SerpBingLocalPackTaskGetRegularResultInfo`](SerpBingLocalPackTaskGetRegularResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:58626
+main.ts:58634
 
 ## Properties
 
-### check\_url
+### check\_url?
 
-• `Optional` **check\_url**: `string`
+> **`optional`** **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
 
 #### Implementation of
 
-[ISerpBingLocalPackTaskGetRegularResultInfo](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md).[check_url](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md#check_url)
+[`ISerpBingLocalPackTaskGetRegularResultInfo`](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md).[`check_url`](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md#check_url)
 
-#### Defined in
+#### Source
 
-main.ts:58603
+main.ts:58611
 
-___
+***
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -87,17 +62,17 @@ example:
 
 #### Implementation of
 
-[ISerpBingLocalPackTaskGetRegularResultInfo](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md).[datetime](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md#datetime)
+[`ISerpBingLocalPackTaskGetRegularResultInfo`](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md).[`datetime`](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
-main.ts:58608
+main.ts:58616
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -106,214 +81,208 @@ local_pack
 
 #### Implementation of
 
-[ISerpBingLocalPackTaskGetRegularResultInfo](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md).[item_types](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md#item_types)
+[`ISerpBingLocalPackTaskGetRegularResultInfo`](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md).[`item_types`](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md#item_types)
 
-#### Defined in
+#### Source
 
-main.ts:58616
+main.ts:58624
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
+> **`optional`** **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
 elements of search results found in SERP
 
 #### Implementation of
 
-[ISerpBingLocalPackTaskGetRegularResultInfo](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md).[items](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md#items)
+[`ISerpBingLocalPackTaskGetRegularResultInfo`](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md).[`items`](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:58622
+main.ts:58630
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[ISerpBingLocalPackTaskGetRegularResultInfo](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md).[items_count](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md#items_count)
+[`ISerpBingLocalPackTaskGetRegularResultInfo`](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md).[`items_count`](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:58620
+main.ts:58628
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword received in a POST array
 the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
-[ISerpBingLocalPackTaskGetRegularResultInfo](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md).[keyword](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md#keyword)
+[`ISerpBingLocalPackTaskGetRegularResultInfo`](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md).[`keyword`](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:58592
+main.ts:58600
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[ISerpBingLocalPackTaskGetRegularResultInfo](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md).[language_code](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md#language_code)
+[`ISerpBingLocalPackTaskGetRegularResultInfo`](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md).[`language_code`](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:58600
+main.ts:58608
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[ISerpBingLocalPackTaskGetRegularResultInfo](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md).[location_code](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md#location_code)
+[`ISerpBingLocalPackTaskGetRegularResultInfo`](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md).[`location_code`](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:58598
+main.ts:58606
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
 #### Implementation of
 
-[ISerpBingLocalPackTaskGetRegularResultInfo](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md).[se_domain](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md#se_domain)
+[`ISerpBingLocalPackTaskGetRegularResultInfo`](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md).[`se_domain`](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md#se_domain)
 
-#### Defined in
+#### Source
 
-main.ts:58596
+main.ts:58604
 
-___
+***
 
-### se\_results\_count
+### se\_results\_count?
 
-• `Optional` **se\_results\_count**: `number`
+> **`optional`** **se\_results\_count**: `number`
 
 total number of results in SERP
 
 #### Implementation of
 
-[ISerpBingLocalPackTaskGetRegularResultInfo](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md).[se_results_count](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md#se_results_count)
+[`ISerpBingLocalPackTaskGetRegularResultInfo`](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md).[`se_results_count`](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md#se_results_count)
 
-#### Defined in
+#### Source
 
-main.ts:58618
+main.ts:58626
 
-___
+***
 
-### spell
+### spell?
 
-• `Optional` **spell**: [`SpellInfo`](SpellInfo.md)
+> **`optional`** **spell**: [`SpellInfo`](SpellInfo.md)
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
 
 #### Implementation of
 
-[ISerpBingLocalPackTaskGetRegularResultInfo](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md).[spell](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md#spell)
+[`ISerpBingLocalPackTaskGetRegularResultInfo`](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md).[`spell`](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md#spell)
 
-#### Defined in
+#### Source
 
-main.ts:58611
+main.ts:58619
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[ISerpBingLocalPackTaskGetRegularResultInfo](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md).[type](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md#type)
+[`ISerpBingLocalPackTaskGetRegularResultInfo`](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md).[`type`](../interfaces/ISerpBingLocalPackTaskGetRegularResultInfo.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:58594
+main.ts:58602
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:58635
+main.ts:58643
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:58671
+main.ts:58679
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpBingLocalPackTaskGetRegularResultInfo`](SerpBingLocalPackTaskGetRegularResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpBingLocalPackTaskGetRegularResultInfo`](SerpBingLocalPackTaskGetRegularResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpBingLocalPackTaskGetRegularResultInfo`](SerpBingLocalPackTaskGetRegularResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:58664
+main.ts:58672

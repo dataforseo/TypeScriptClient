@@ -1,44 +1,37 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordIntentInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IKeywordIntentInfo
 
 # Interface: IKeywordIntentInfo
 
-## Implemented by
-
-- [`KeywordIntentInfo`](../classes/KeywordIntentInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [label](IKeywordIntentInfo.md#label)
-- [probability](IKeywordIntentInfo.md#probability)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### label
+### label?
 
-• `Optional` **label**: `string`
+> **`optional`** **label**: `string`
 
 search intent name
 possible values: informational, navigational, commercial, transactional
 
-#### Defined in
+#### Source
 
-main.ts:85221
+main.ts:85229
 
-___
+***
 
-### probability
+### probability?
 
-• `Optional` **probability**: `number`
+> **`optional`** **probability**: `number`
 
 search intent probability
 1 indicates the highest probability
 
-#### Defined in
+#### Source
 
-main.ts:85224
+main.ts:85232

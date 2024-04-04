@@ -1,49 +1,41 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IPositiveConnotationDistribution
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IPositiveConnotationDistribution
 
 # Interface: IPositiveConnotationDistribution
 
-## Implemented by
-
-- [`PositiveConnotationDistribution`](../classes/PositiveConnotationDistribution.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [negative](IPositiveConnotationDistribution.md#negative)
-- [neutral](IPositiveConnotationDistribution.md#neutral)
-- [positive](IPositiveConnotationDistribution.md#positive)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### negative
+### negative?
 
-• `Optional` **negative**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
+> **`optional`** **negative**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:163324
+main.ts:163332
 
-___
+***
 
-### neutral
+### neutral?
 
-• `Optional` **neutral**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
+> **`optional`** **neutral**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:163325
+main.ts:163333
 
-___
+***
 
-### positive
+### positive?
 
-• `Optional` **positive**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
+> **`optional`** **positive**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:163323
+main.ts:163331

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ConceptInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ConceptInfo
 
 # Class: ConceptInfo
 
@@ -8,133 +12,108 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ConceptInfo.md#constructor)
-
-### Properties
-
-- [concept\_group](ConceptInfo.md#concept_group)
-- [name](ConceptInfo.md#name)
-
-### Methods
-
-- [init](ConceptInfo.md#init)
-- [toJSON](ConceptInfo.md#tojson)
-- [fromJS](ConceptInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ConceptInfo(data)
 
-• **new ConceptInfo**(`data?`): [`ConceptInfo`](ConceptInfo.md)
+> **new ConceptInfo**(`data`?): [`ConceptInfo`](ConceptInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IConceptInfo`](../interfaces/IConceptInfo.md) |
+• **data?**: [`IConceptInfo`](../interfaces/IConceptInfo.md)
 
 #### Returns
 
 [`ConceptInfo`](ConceptInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:117337
+main.ts:117345
 
 ## Properties
 
-### concept\_group
+### concept\_group?
 
-• `Optional` **concept\_group**: [`ConceptGroupInfo`](ConceptGroupInfo.md)
+> **`optional`** **concept\_group**: [`ConceptGroupInfo`](ConceptGroupInfo.md)
 
 the concept group of the concept details
 
 #### Implementation of
 
-[IConceptInfo](../interfaces/IConceptInfo.md).[concept_group](../interfaces/IConceptInfo.md#concept_group)
+[`IConceptInfo`](../interfaces/IConceptInfo.md).[`concept_group`](../interfaces/IConceptInfo.md#concept_group)
 
-#### Defined in
+#### Source
 
-main.ts:117333
+main.ts:117341
 
-___
+***
 
-### name
+### name?
 
-• `Optional` **name**: `string`
+> **`optional`** **name**: `string`
 
 the concept name for the keyword in the concept_group
 
 #### Implementation of
 
-[IConceptInfo](../interfaces/IConceptInfo.md).[name](../interfaces/IConceptInfo.md#name)
+[`IConceptInfo`](../interfaces/IConceptInfo.md).[`name`](../interfaces/IConceptInfo.md#name)
 
-#### Defined in
+#### Source
 
-main.ts:117331
+main.ts:117339
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:117346
+main.ts:117354
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:117364
+main.ts:117372
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ConceptInfo`](ConceptInfo.md)
+> **`static`** **fromJS**(`data`): [`ConceptInfo`](ConceptInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ConceptInfo`](ConceptInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:117357
+main.ts:117365

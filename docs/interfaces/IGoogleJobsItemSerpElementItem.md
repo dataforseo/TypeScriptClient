@@ -1,254 +1,230 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IGoogleJobsItemSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IGoogleJobsItemSerpElementItem
 
 # Interface: IGoogleJobsItemSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
 
-  ↳ **`IGoogleJobsItemSerpElementItem`**
-
-## Implemented by
-
-- [`GoogleJobsItemSerpElementItem`](../classes/GoogleJobsItemSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [contract\_type](IGoogleJobsItemSerpElementItem.md#contract_type)
-- [employer\_image\_url](IGoogleJobsItemSerpElementItem.md#employer_image_url)
-- [employer\_name](IGoogleJobsItemSerpElementItem.md#employer_name)
-- [employer\_url](IGoogleJobsItemSerpElementItem.md#employer_url)
-- [job\_id](IGoogleJobsItemSerpElementItem.md#job_id)
-- [location](IGoogleJobsItemSerpElementItem.md#location)
-- [position](IGoogleJobsItemSerpElementItem.md#position)
-- [rank\_absolute](IGoogleJobsItemSerpElementItem.md#rank_absolute)
-- [rank\_group](IGoogleJobsItemSerpElementItem.md#rank_group)
-- [rectangle](IGoogleJobsItemSerpElementItem.md#rectangle)
-- [salary](IGoogleJobsItemSerpElementItem.md#salary)
-- [source\_name](IGoogleJobsItemSerpElementItem.md#source_name)
-- [source\_url](IGoogleJobsItemSerpElementItem.md#source_url)
-- [time\_ago](IGoogleJobsItemSerpElementItem.md#time_ago)
-- [timestamp](IGoogleJobsItemSerpElementItem.md#timestamp)
-- [title](IGoogleJobsItemSerpElementItem.md#title)
-- [xpath](IGoogleJobsItemSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### contract\_type
+### contract\_type?
 
-• `Optional` **contract\_type**: `string`
+> **`optional`** **contract\_type**: `string`
 
 employment contract type
 
-#### Defined in
+#### Source
 
-main.ts:50007
+main.ts:50015
 
-___
+***
 
-### employer\_image\_url
+### employer\_image\_url?
 
-• `Optional` **employer\_image\_url**: `string`
+> **`optional`** **employer\_image\_url**: `string`
 
 URL to the image used in the job posting
 
-#### Defined in
+#### Source
 
-main.ts:49996
+main.ts:50004
 
-___
+***
 
-### employer\_name
+### employer\_name?
 
-• `Optional` **employer\_name**: `string`
+> **`optional`** **employer\_name**: `string`
 
 name of the employer
 
-#### Defined in
+#### Source
 
-main.ts:49992
+main.ts:50000
 
-___
+***
 
-### employer\_url
+### employer\_url?
 
-• `Optional` **employer\_url**: `string`
+> **`optional`** **employer\_url**: `string`
 
 URL to the employer’s website
 
-#### Defined in
+#### Source
 
-main.ts:49994
+main.ts:50002
 
-___
+***
 
-### job\_id
+### job\_id?
 
-• `Optional` **job\_id**: `string`
+> **`optional`** **job\_id**: `string`
 
 ID of the job on Google Jobs
 
-#### Defined in
+#### Source
 
-main.ts:49988
+main.ts:49996
 
-___
+***
 
-### location
+### location?
 
-• `Optional` **location**: `string`
+> **`optional`** **location**: `string`
 
 location for which the job vacancy is posted
 
-#### Defined in
+#### Source
 
-main.ts:49998
+main.ts:50006
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
-main.ts:49984
+main.ts:49992
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Defined in
+#### Source
 
-main.ts:49980
+main.ts:49988
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
-main.ts:49977
+main.ts:49985
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP;
 in this case, will equal null
 
-#### Defined in
+#### Source
 
-main.ts:50018
+main.ts:50026
 
-___
+***
 
-### salary
+### salary?
 
-• `Optional` **salary**: `string`
+> **`optional`** **salary**: `string`
 
 the salary indicated in the job vacancy
 if the salary isn’t indicated, this field will equal null
 
-#### Defined in
+#### Source
 
-main.ts:50005
+main.ts:50013
 
-___
+***
 
-### source\_name
+### source\_name?
 
-• `Optional` **source\_name**: `string`
+> **`optional`** **source\_name**: `string`
 
 original source of the job vacancy
 
-#### Defined in
+#### Source
 
-main.ts:50000
+main.ts:50008
 
-___
+***
 
-### source\_url
+### source\_url?
 
-• `Optional` **source\_url**: `string`
+> **`optional`** **source\_url**: `string`
 
 URL to the original source of the job vacancy
 
-#### Defined in
+#### Source
 
-main.ts:50002
+main.ts:50010
 
-___
+***
 
-### time\_ago
+### time\_ago?
 
-• `Optional` **time\_ago**: `string`
+> **`optional`** **time\_ago**: `string`
 
 indicates how long ago the job vacancy was posted
 
-#### Defined in
+#### Source
 
-main.ts:50014
+main.ts:50022
 
-___
+***
 
-### timestamp
+### timestamp?
 
-• `Optional` **timestamp**: `string`
+> **`optional`** **timestamp**: `string`
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
-main.ts:50012
+main.ts:50020
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the job
 
-#### Defined in
+#### Source
 
-main.ts:49990
+main.ts:49998
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
-main.ts:49986
+main.ts:49994

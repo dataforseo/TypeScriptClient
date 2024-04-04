@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleOrganicLiveHtmlResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleOrganicLiveHtmlResponseInfo
 
 # Class: SerpGoogleOrganicLiveHtmlResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`SerpGoogleOrganicLiveHtmlResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleOrganicLiveHtmlResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](SerpGoogleOrganicLiveHtmlResponseInfo.md#cost)
-- [status\_code](SerpGoogleOrganicLiveHtmlResponseInfo.md#status_code)
-- [status\_message](SerpGoogleOrganicLiveHtmlResponseInfo.md#status_message)
-- [tasks](SerpGoogleOrganicLiveHtmlResponseInfo.md#tasks)
-- [tasks\_count](SerpGoogleOrganicLiveHtmlResponseInfo.md#tasks_count)
-- [tasks\_error](SerpGoogleOrganicLiveHtmlResponseInfo.md#tasks_error)
-- [time](SerpGoogleOrganicLiveHtmlResponseInfo.md#time)
-- [version](SerpGoogleOrganicLiveHtmlResponseInfo.md#version)
-
-### Methods
-
-- [init](SerpGoogleOrganicLiveHtmlResponseInfo.md#init)
-- [toJSON](SerpGoogleOrganicLiveHtmlResponseInfo.md#tojson)
-- [fromJS](SerpGoogleOrganicLiveHtmlResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleOrganicLiveHtmlResponseInfo(data)
 
-• **new SerpGoogleOrganicLiveHtmlResponseInfo**(`data?`): [`SerpGoogleOrganicLiveHtmlResponseInfo`](SerpGoogleOrganicLiveHtmlResponseInfo.md)
+> **new SerpGoogleOrganicLiveHtmlResponseInfo**(`data`?): [`SerpGoogleOrganicLiveHtmlResponseInfo`](SerpGoogleOrganicLiveHtmlResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleOrganicLiveHtmlResponseInfo`](../interfaces/ISerpGoogleOrganicLiveHtmlResponseInfo.md) |
+• **data?**: [`ISerpGoogleOrganicLiveHtmlResponseInfo`](../interfaces/ISerpGoogleOrganicLiveHtmlResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:38014
+main.ts:38020
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[ISerpGoogleOrganicLiveHtmlResponseInfo](../interfaces/ISerpGoogleOrganicLiveHtmlResponseInfo.md).[cost](../interfaces/ISerpGoogleOrganicLiveHtmlResponseInfo.md#cost)
+[`ISerpGoogleOrganicLiveHtmlResponseInfo`](../interfaces/ISerpGoogleOrganicLiveHtmlResponseInfo.md).[`cost`](../interfaces/ISerpGoogleOrganicLiveHtmlResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[ISerpGoogleOrganicLiveHtmlResponseInfo](../interfaces/ISerpGoogleOrganicLiveHtmlResponseInfo.md).[status_code](../interfaces/ISerpGoogleOrganicLiveHtmlResponseInfo.md#status_code)
+[`ISerpGoogleOrganicLiveHtmlResponseInfo`](../interfaces/ISerpGoogleOrganicLiveHtmlResponseInfo.md).[`status_code`](../interfaces/ISerpGoogleOrganicLiveHtmlResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[ISerpGoogleOrganicLiveHtmlResponseInfo](../interfaces/ISerpGoogleOrganicLiveHtmlResponseInfo.md).[status_message](../interfaces/ISerpGoogleOrganicLiveHtmlResponseInfo.md#status_message)
+[`ISerpGoogleOrganicLiveHtmlResponseInfo`](../interfaces/ISerpGoogleOrganicLiveHtmlResponseInfo.md).[`status_message`](../interfaces/ISerpGoogleOrganicLiveHtmlResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`SerpGoogleOrganicLiveHtmlTaskInfo`](SerpGoogleOrganicLiveHtmlTaskInfo.md)[]
+> **`optional`** **tasks**: [`SerpGoogleOrganicLiveHtmlTaskInfo`](SerpGoogleOrganicLiveHtmlTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[ISerpGoogleOrganicLiveHtmlResponseInfo](../interfaces/ISerpGoogleOrganicLiveHtmlResponseInfo.md).[tasks](../interfaces/ISerpGoogleOrganicLiveHtmlResponseInfo.md#tasks)
+[`ISerpGoogleOrganicLiveHtmlResponseInfo`](../interfaces/ISerpGoogleOrganicLiveHtmlResponseInfo.md).[`tasks`](../interfaces/ISerpGoogleOrganicLiveHtmlResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:38010
+main.ts:38016
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[ISerpGoogleOrganicLiveHtmlResponseInfo](../interfaces/ISerpGoogleOrganicLiveHtmlResponseInfo.md).[tasks_count](../interfaces/ISerpGoogleOrganicLiveHtmlResponseInfo.md#tasks_count)
+[`ISerpGoogleOrganicLiveHtmlResponseInfo`](../interfaces/ISerpGoogleOrganicLiveHtmlResponseInfo.md).[`tasks_count`](../interfaces/ISerpGoogleOrganicLiveHtmlResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[ISerpGoogleOrganicLiveHtmlResponseInfo](../interfaces/ISerpGoogleOrganicLiveHtmlResponseInfo.md).[tasks_error](../interfaces/ISerpGoogleOrganicLiveHtmlResponseInfo.md#tasks_error)
+[`ISerpGoogleOrganicLiveHtmlResponseInfo`](../interfaces/ISerpGoogleOrganicLiveHtmlResponseInfo.md).[`tasks_error`](../interfaces/ISerpGoogleOrganicLiveHtmlResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[ISerpGoogleOrganicLiveHtmlResponseInfo](../interfaces/ISerpGoogleOrganicLiveHtmlResponseInfo.md).[time](../interfaces/ISerpGoogleOrganicLiveHtmlResponseInfo.md#time)
+[`ISerpGoogleOrganicLiveHtmlResponseInfo`](../interfaces/ISerpGoogleOrganicLiveHtmlResponseInfo.md).[`time`](../interfaces/ISerpGoogleOrganicLiveHtmlResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[ISerpGoogleOrganicLiveHtmlResponseInfo](../interfaces/ISerpGoogleOrganicLiveHtmlResponseInfo.md).[version](../interfaces/ISerpGoogleOrganicLiveHtmlResponseInfo.md#version)
+[`ISerpGoogleOrganicLiveHtmlResponseInfo`](../interfaces/ISerpGoogleOrganicLiveHtmlResponseInfo.md).[`version`](../interfaces/ISerpGoogleOrganicLiveHtmlResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:38018
+main.ts:38024
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:38040
+main.ts:38046
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleOrganicLiveHtmlResponseInfo`](SerpGoogleOrganicLiveHtmlResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleOrganicLiveHtmlResponseInfo`](SerpGoogleOrganicLiveHtmlResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:38033
+main.ts:38039

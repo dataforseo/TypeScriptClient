@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalRankOverviewLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsGoogleHistoricalRankOverviewLiveItem
 
 # Class: DataforseoLabsGoogleHistoricalRankOverviewLiveItem
 
@@ -8,171 +12,144 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsGoogleHistoricalRankOverviewLiveItem.md#constructor)
-
-### Properties
-
-- [metrics](DataforseoLabsGoogleHistoricalRankOverviewLiveItem.md#metrics)
-- [month](DataforseoLabsGoogleHistoricalRankOverviewLiveItem.md#month)
-- [se\_type](DataforseoLabsGoogleHistoricalRankOverviewLiveItem.md#se_type)
-- [year](DataforseoLabsGoogleHistoricalRankOverviewLiveItem.md#year)
-
-### Methods
-
-- [init](DataforseoLabsGoogleHistoricalRankOverviewLiveItem.md#init)
-- [toJSON](DataforseoLabsGoogleHistoricalRankOverviewLiveItem.md#tojson)
-- [fromJS](DataforseoLabsGoogleHistoricalRankOverviewLiveItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsGoogleHistoricalRankOverviewLiveItem(data)
 
-• **new DataforseoLabsGoogleHistoricalRankOverviewLiveItem**(`data?`): [`DataforseoLabsGoogleHistoricalRankOverviewLiveItem`](DataforseoLabsGoogleHistoricalRankOverviewLiveItem.md)
+> **new DataforseoLabsGoogleHistoricalRankOverviewLiveItem**(`data`?): [`DataforseoLabsGoogleHistoricalRankOverviewLiveItem`](DataforseoLabsGoogleHistoricalRankOverviewLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsGoogleHistoricalRankOverviewLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveItem.md) |
+• **data?**: [`IDataforseoLabsGoogleHistoricalRankOverviewLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveItem.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleHistoricalRankOverviewLiveItem`](DataforseoLabsGoogleHistoricalRankOverviewLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:98825
+main.ts:98833
 
 ## Properties
 
-### metrics
+### metrics?
 
-• `Optional` **metrics**: `Object`
+> **`optional`** **metrics**: `Object`
 
 ranking data relevant to the specified domain
 
 #### Index signature
 
-▪ [key: `string`]: [`MetricsInfo`](MetricsInfo.md)
+ \[`key`: `string`\]: [`MetricsInfo`](MetricsInfo.md)
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalRankOverviewLiveItem](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveItem.md).[metrics](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveItem.md#metrics)
+[`IDataforseoLabsGoogleHistoricalRankOverviewLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveItem.md).[`metrics`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveItem.md#metrics)
 
-#### Defined in
+#### Source
 
-main.ts:98821
+main.ts:98829
 
-___
+***
 
-### month
+### month?
 
-• `Optional` **month**: `number`
+> **`optional`** **month**: `number`
 
 month for which the data is provided
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalRankOverviewLiveItem](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveItem.md).[month](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveItem.md#month)
+[`IDataforseoLabsGoogleHistoricalRankOverviewLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveItem.md).[`month`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveItem.md#month)
 
-#### Defined in
+#### Source
 
-main.ts:98819
+main.ts:98827
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalRankOverviewLiveItem](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveItem.md).[se_type](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveItem.md#se_type)
+[`IDataforseoLabsGoogleHistoricalRankOverviewLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveItem.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:98815
+main.ts:98823
 
-___
+***
 
-### year
+### year?
 
-• `Optional` **year**: `number`
+> **`optional`** **year**: `number`
 
 year for which the data is provided
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalRankOverviewLiveItem](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveItem.md).[year](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveItem.md#year)
+[`IDataforseoLabsGoogleHistoricalRankOverviewLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveItem.md).[`year`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveItem.md#year)
 
-#### Defined in
+#### Source
 
-main.ts:98817
+main.ts:98825
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:98834
+main.ts:98842
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:98860
+main.ts:98868
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalRankOverviewLiveItem`](DataforseoLabsGoogleHistoricalRankOverviewLiveItem.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalRankOverviewLiveItem`](DataforseoLabsGoogleHistoricalRankOverviewLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsGoogleHistoricalRankOverviewLiveItem`](DataforseoLabsGoogleHistoricalRankOverviewLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:98853
+main.ts:98861

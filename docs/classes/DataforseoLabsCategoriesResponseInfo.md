@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsCategoriesResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsCategoriesResponseInfo
 
 # Class: DataforseoLabsCategoriesResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`DataforseoLabsCategoriesResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsCategoriesResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](DataforseoLabsCategoriesResponseInfo.md#cost)
-- [status\_code](DataforseoLabsCategoriesResponseInfo.md#status_code)
-- [status\_message](DataforseoLabsCategoriesResponseInfo.md#status_message)
-- [tasks](DataforseoLabsCategoriesResponseInfo.md#tasks)
-- [tasks\_count](DataforseoLabsCategoriesResponseInfo.md#tasks_count)
-- [tasks\_error](DataforseoLabsCategoriesResponseInfo.md#tasks_error)
-- [time](DataforseoLabsCategoriesResponseInfo.md#time)
-- [version](DataforseoLabsCategoriesResponseInfo.md#version)
-
-### Methods
-
-- [init](DataforseoLabsCategoriesResponseInfo.md#init)
-- [toJSON](DataforseoLabsCategoriesResponseInfo.md#tojson)
-- [fromJS](DataforseoLabsCategoriesResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsCategoriesResponseInfo(data)
 
-• **new DataforseoLabsCategoriesResponseInfo**(`data?`): [`DataforseoLabsCategoriesResponseInfo`](DataforseoLabsCategoriesResponseInfo.md)
+> **new DataforseoLabsCategoriesResponseInfo**(`data`?): [`DataforseoLabsCategoriesResponseInfo`](DataforseoLabsCategoriesResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsCategoriesResponseInfo`](../interfaces/IDataforseoLabsCategoriesResponseInfo.md) |
+• **data?**: [`IDataforseoLabsCategoriesResponseInfo`](../interfaces/IDataforseoLabsCategoriesResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:80650
+main.ts:80658
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IDataforseoLabsCategoriesResponseInfo](../interfaces/IDataforseoLabsCategoriesResponseInfo.md).[cost](../interfaces/IDataforseoLabsCategoriesResponseInfo.md#cost)
+[`IDataforseoLabsCategoriesResponseInfo`](../interfaces/IDataforseoLabsCategoriesResponseInfo.md).[`cost`](../interfaces/IDataforseoLabsCategoriesResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[IDataforseoLabsCategoriesResponseInfo](../interfaces/IDataforseoLabsCategoriesResponseInfo.md).[status_code](../interfaces/IDataforseoLabsCategoriesResponseInfo.md#status_code)
+[`IDataforseoLabsCategoriesResponseInfo`](../interfaces/IDataforseoLabsCategoriesResponseInfo.md).[`status_code`](../interfaces/IDataforseoLabsCategoriesResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IDataforseoLabsCategoriesResponseInfo](../interfaces/IDataforseoLabsCategoriesResponseInfo.md).[status_message](../interfaces/IDataforseoLabsCategoriesResponseInfo.md#status_message)
+[`IDataforseoLabsCategoriesResponseInfo`](../interfaces/IDataforseoLabsCategoriesResponseInfo.md).[`status_message`](../interfaces/IDataforseoLabsCategoriesResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`DataforseoLabsCategoriesTaskInfo`](DataforseoLabsCategoriesTaskInfo.md)[]
+> **`optional`** **tasks**: [`DataforseoLabsCategoriesTaskInfo`](DataforseoLabsCategoriesTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[IDataforseoLabsCategoriesResponseInfo](../interfaces/IDataforseoLabsCategoriesResponseInfo.md).[tasks](../interfaces/IDataforseoLabsCategoriesResponseInfo.md#tasks)
+[`IDataforseoLabsCategoriesResponseInfo`](../interfaces/IDataforseoLabsCategoriesResponseInfo.md).[`tasks`](../interfaces/IDataforseoLabsCategoriesResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:80646
+main.ts:80654
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[IDataforseoLabsCategoriesResponseInfo](../interfaces/IDataforseoLabsCategoriesResponseInfo.md).[tasks_count](../interfaces/IDataforseoLabsCategoriesResponseInfo.md#tasks_count)
+[`IDataforseoLabsCategoriesResponseInfo`](../interfaces/IDataforseoLabsCategoriesResponseInfo.md).[`tasks_count`](../interfaces/IDataforseoLabsCategoriesResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[IDataforseoLabsCategoriesResponseInfo](../interfaces/IDataforseoLabsCategoriesResponseInfo.md).[tasks_error](../interfaces/IDataforseoLabsCategoriesResponseInfo.md#tasks_error)
+[`IDataforseoLabsCategoriesResponseInfo`](../interfaces/IDataforseoLabsCategoriesResponseInfo.md).[`tasks_error`](../interfaces/IDataforseoLabsCategoriesResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[IDataforseoLabsCategoriesResponseInfo](../interfaces/IDataforseoLabsCategoriesResponseInfo.md).[time](../interfaces/IDataforseoLabsCategoriesResponseInfo.md#time)
+[`IDataforseoLabsCategoriesResponseInfo`](../interfaces/IDataforseoLabsCategoriesResponseInfo.md).[`time`](../interfaces/IDataforseoLabsCategoriesResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[IDataforseoLabsCategoriesResponseInfo](../interfaces/IDataforseoLabsCategoriesResponseInfo.md).[version](../interfaces/IDataforseoLabsCategoriesResponseInfo.md#version)
+[`IDataforseoLabsCategoriesResponseInfo`](../interfaces/IDataforseoLabsCategoriesResponseInfo.md).[`version`](../interfaces/IDataforseoLabsCategoriesResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:80654
+main.ts:80662
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:80676
+main.ts:80684
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsCategoriesResponseInfo`](DataforseoLabsCategoriesResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsCategoriesResponseInfo`](DataforseoLabsCategoriesResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:80669
+main.ts:80677

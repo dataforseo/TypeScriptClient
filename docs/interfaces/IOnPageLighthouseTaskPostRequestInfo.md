@@ -1,35 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageLighthouseTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IOnPageLighthouseTaskPostRequestInfo
 
 # Interface: IOnPageLighthouseTaskPostRequestInfo
 
-## Implemented by
-
-- [`OnPageLighthouseTaskPostRequestInfo`](../classes/OnPageLighthouseTaskPostRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [audits](IOnPageLighthouseTaskPostRequestInfo.md#audits)
-- [categories](IOnPageLighthouseTaskPostRequestInfo.md#categories)
-- [for\_mobile](IOnPageLighthouseTaskPostRequestInfo.md#for_mobile)
-- [language\_code](IOnPageLighthouseTaskPostRequestInfo.md#language_code)
-- [language\_name](IOnPageLighthouseTaskPostRequestInfo.md#language_name)
-- [pingback\_url](IOnPageLighthouseTaskPostRequestInfo.md#pingback_url)
-- [postback\_url](IOnPageLighthouseTaskPostRequestInfo.md#postback_url)
-- [tag](IOnPageLighthouseTaskPostRequestInfo.md#tag)
-- [url](IOnPageLighthouseTaskPostRequestInfo.md#url)
-- [version](IOnPageLighthouseTaskPostRequestInfo.md#version)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### audits
+### audits?
 
-• `Optional` **audits**: `string`[]
+> **`optional`** **audits**: `string`[]
 
 Lighthouse audits
 optional field
@@ -44,15 +29,15 @@ for example, if you ignore "categories" and specify "audits": ["metrics/cumulati
 for example, if you specify "categories": ["seo"] and "audits": ["metrics/cumulative-layout-shift","metrics/largest-contentful-paint","metrics/total-blocking-time"], you will get only these audits under “performance” and all audits under “seo”
 you can get the full list of possible audits here
 
-#### Defined in
+#### Source
 
-main.ts:159682
+main.ts:159690
 
-___
+***
 
-### categories
+### categories?
 
-• `Optional` **categories**: `string`[]
+> **`optional`** **categories**: `string`[]
 
 categories of Lighthouse audits
 optional field
@@ -62,15 +47,15 @@ use this field to get data for specific categories you indicate here
 possible values:
 seo, pwa, performance, best_practices, accessibility
 
-#### Defined in
+#### Source
 
-main.ts:159669
+main.ts:159677
 
-___
+***
 
-### for\_mobile
+### for\_mobile?
 
-• `Optional` **for\_mobile**: `boolean`
+> **`optional`** **for\_mobile**: `boolean`
 
 applies mobile emulation
 optional field
@@ -78,15 +63,15 @@ if set to true, Lighthouse will use mobile device and screen emulation to test t
 if set to false, the results will be provided for desktop
 default value: false
 
-#### Defined in
+#### Source
 
-main.ts:159661
+main.ts:159669
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 lighthouse language code
 optional field
@@ -94,15 +79,15 @@ you can receive the list of available languages of the search engine with their 
 default value:
 en
 
-#### Defined in
+#### Source
 
-main.ts:159699
+main.ts:159707
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 lighthouse language name
 optional field
@@ -110,15 +95,15 @@ you can receive the list of available languages of the search engine with their 
 default value:
 English
 
-#### Defined in
+#### Source
 
-main.ts:159693
+main.ts:159701
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -130,15 +115,15 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special symbols in pingback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
-main.ts:159715
+main.ts:159723
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -150,15 +135,15 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special symbols in postback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
-main.ts:159725
+main.ts:159733
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -166,15 +151,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:159705
+main.ts:159713
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 target URL
 required field
@@ -182,21 +167,21 @@ target page should be specified with its absolute URL (including http:// or http
 example:
 https://dataforseo.com/
 
-#### Defined in
+#### Source
 
-main.ts:159655
+main.ts:159663
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 lighthouse version
 optional field
 you can obtain the results specific to a certain Lighthouse version by specifying its number
 the list of available versions is available through the Lighthouse Versions endpoint
 
-#### Defined in
+#### Source
 
-main.ts:159687
+main.ts:159695

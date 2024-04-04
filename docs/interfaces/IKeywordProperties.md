@@ -1,98 +1,87 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordProperties
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IKeywordProperties
 
 # Interface: IKeywordProperties
 
-## Implemented by
-
-- [`KeywordProperties`](../classes/KeywordProperties.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [core\_keyword](IKeywordProperties.md#core_keyword)
-- [detected\_language](IKeywordProperties.md#detected_language)
-- [is\_another\_language](IKeywordProperties.md#is_another_language)
-- [keyword\_difficulty](IKeywordProperties.md#keyword_difficulty)
-- [se\_type](IKeywordProperties.md#se_type)
-- [synonym\_clustering\_algorithm](IKeywordProperties.md#synonym_clustering_algorithm)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### core\_keyword
+### core\_keyword?
 
-• `Optional` **core\_keyword**: `string`
+> **`optional`** **core\_keyword**: `string`
 
 main keyword in a group
 contains the main keyword in a group determined by the synonym clustering algorithm
 if the value is null, our database does not contain any keywords the corresponding algorithm could identify as synonymous with keyword
 
-#### Defined in
+#### Source
 
-main.ts:81469
+main.ts:81477
 
-___
+***
 
-### detected\_language
+### detected\_language?
 
-• `Optional` **detected\_language**: `string`
+> **`optional`** **detected\_language**: `string`
 
 detected language of the keyword
 indicates the language of the keyword as identified by our system
 
-#### Defined in
+#### Source
 
-main.ts:81483
+main.ts:81491
 
-___
+***
 
-### is\_another\_language
+### is\_another\_language?
 
-• `Optional` **is\_another\_language**: `boolean`
+> **`optional`** **is\_another\_language**: `boolean`
 
 detected language of the keyword is different from the set language
 if true, the language set in the request does not match the language determined by our system for a given keyword
 
-#### Defined in
+#### Source
 
-main.ts:81486
+main.ts:81494
 
-___
+***
 
-### keyword\_difficulty
+### keyword\_difficulty?
 
-• `Optional` **keyword\_difficulty**: `number`
+> **`optional`** **keyword\_difficulty**: `number`
 
 difficulty of ranking in the first top-10 organic results for a keyword
 indicates the chance of getting in top-10 organic results for a keyword on a logarithmic scale from 0 to 100;
 calculated by analysing, among other parameters, link profiles of the first 10 pages in SERP;
 learn more about the metric in this help center guide
 
-#### Defined in
+#### Source
 
-main.ts:81480
+main.ts:81488
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:81465
+main.ts:81473
 
-___
+***
 
-### synonym\_clustering\_algorithm
+### synonym\_clustering\_algorithm?
 
-• `Optional` **synonym\_clustering\_algorithm**: `string`
+> **`optional`** **synonym\_clustering\_algorithm**: `string`
 
 the algorithm used to identify synonyms
 possible values:
@@ -100,6 +89,6 @@ keyword_metrics – indicates the algorithm based on keyword_info parameters
 text_processing – indicates the text-based algorithm
 if the value is null, our database does not contain any keywords the corresponding algorithm could identify as synonymous with keyword
 
-#### Defined in
+#### Source
 
-main.ts:81475
+main.ts:81483

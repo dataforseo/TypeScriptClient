@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / TrendsGraphDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / TrendsGraphDataInfo
 
 # Class: TrendsGraphDataInfo
 
@@ -8,120 +12,98 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](TrendsGraphDataInfo.md#constructor)
-
-### Properties
-
-- [date\_from](TrendsGraphDataInfo.md#date_from)
-- [date\_to](TrendsGraphDataInfo.md#date_to)
-- [missing\_data](TrendsGraphDataInfo.md#missing_data)
-- [timestamp](TrendsGraphDataInfo.md#timestamp)
-- [values](TrendsGraphDataInfo.md#values)
-
-### Methods
-
-- [init](TrendsGraphDataInfo.md#init)
-- [toJSON](TrendsGraphDataInfo.md#tojson)
-- [fromJS](TrendsGraphDataInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new TrendsGraphDataInfo(data)
 
-• **new TrendsGraphDataInfo**(`data?`): [`TrendsGraphDataInfo`](TrendsGraphDataInfo.md)
+> **new TrendsGraphDataInfo**(`data`?): [`TrendsGraphDataInfo`](TrendsGraphDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ITrendsGraphDataInfo`](../interfaces/ITrendsGraphDataInfo.md) |
+• **data?**: [`ITrendsGraphDataInfo`](../interfaces/ITrendsGraphDataInfo.md)
 
 #### Returns
 
 [`TrendsGraphDataInfo`](TrendsGraphDataInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:122782
+main.ts:122790
 
 ## Properties
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 start date of the corresponding time range
 in the UTC format: “yyyy-mm-dd”
 
 #### Implementation of
 
-[ITrendsGraphDataInfo](../interfaces/ITrendsGraphDataInfo.md).[date_from](../interfaces/ITrendsGraphDataInfo.md#date_from)
+[`ITrendsGraphDataInfo`](../interfaces/ITrendsGraphDataInfo.md).[`date_from`](../interfaces/ITrendsGraphDataInfo.md#date_from)
 
-#### Defined in
+#### Source
 
-main.ts:122765
+main.ts:122773
 
-___
+***
 
-### date\_to
+### date\_to?
 
-• `Optional` **date\_to**: `string`
+> **`optional`** **date\_to**: `string`
 
 end date of the corresponding time range
 in the UTC format: “yyyy-mm-dd”
 
 #### Implementation of
 
-[ITrendsGraphDataInfo](../interfaces/ITrendsGraphDataInfo.md).[date_to](../interfaces/ITrendsGraphDataInfo.md#date_to)
+[`ITrendsGraphDataInfo`](../interfaces/ITrendsGraphDataInfo.md).[`date_to`](../interfaces/ITrendsGraphDataInfo.md#date_to)
 
-#### Defined in
+#### Source
 
-main.ts:122768
+main.ts:122776
 
-___
+***
 
-### missing\_data
+### missing\_data?
 
-• `Optional` **missing\_data**: `boolean`
+> **`optional`** **missing\_data**: `boolean`
 
 indicates whether the data is unavailable
 if true the data on the graph in the Google Trends interface is missing and thus labelled with a dotted line
 
 #### Implementation of
 
-[ITrendsGraphDataInfo](../interfaces/ITrendsGraphDataInfo.md).[missing_data](../interfaces/ITrendsGraphDataInfo.md#missing_data)
+[`ITrendsGraphDataInfo`](../interfaces/ITrendsGraphDataInfo.md).[`missing_data`](../interfaces/ITrendsGraphDataInfo.md#missing_data)
 
-#### Defined in
+#### Source
 
-main.ts:122773
+main.ts:122781
 
-___
+***
 
-### timestamp
+### timestamp?
 
-• `Optional` **timestamp**: `number`
+> **`optional`** **timestamp**: `number`
 
 a point in time in the Unix time format
 
 #### Implementation of
 
-[ITrendsGraphDataInfo](../interfaces/ITrendsGraphDataInfo.md).[timestamp](../interfaces/ITrendsGraphDataInfo.md#timestamp)
+[`ITrendsGraphDataInfo`](../interfaces/ITrendsGraphDataInfo.md).[`timestamp`](../interfaces/ITrendsGraphDataInfo.md#timestamp)
 
-#### Defined in
+#### Source
 
-main.ts:122770
+main.ts:122778
 
-___
+***
 
-### values
+### values?
 
-• `Optional` **values**: `number`[]
+> **`optional`** **values**: `number`[]
 
 relative keyword popularity rate at a specific timestamp
 represents the keyword popularity rate over the given time range
@@ -130,68 +112,62 @@ a value of 100 is the peak popularity for the term. A value of 50 means that the
 
 #### Implementation of
 
-[ITrendsGraphDataInfo](../interfaces/ITrendsGraphDataInfo.md).[values](../interfaces/ITrendsGraphDataInfo.md#values)
+[`ITrendsGraphDataInfo`](../interfaces/ITrendsGraphDataInfo.md).[`values`](../interfaces/ITrendsGraphDataInfo.md#values)
 
-#### Defined in
+#### Source
 
-main.ts:122778
+main.ts:122786
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:122791
+main.ts:122799
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:122816
+main.ts:122824
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`TrendsGraphDataInfo`](TrendsGraphDataInfo.md)
+> **`static`** **fromJS**(`data`): [`TrendsGraphDataInfo`](TrendsGraphDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`TrendsGraphDataInfo`](TrendsGraphDataInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:122809
+main.ts:122817

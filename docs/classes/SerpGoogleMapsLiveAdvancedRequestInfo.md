@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleMapsLiveAdvancedRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleMapsLiveAdvancedRequestInfo
 
 # Class: SerpGoogleMapsLiveAdvancedRequestInfo
 
@@ -8,63 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleMapsLiveAdvancedRequestInfo.md#constructor)
-
-### Properties
-
-- [depth](SerpGoogleMapsLiveAdvancedRequestInfo.md#depth)
-- [device](SerpGoogleMapsLiveAdvancedRequestInfo.md#device)
-- [keyword](SerpGoogleMapsLiveAdvancedRequestInfo.md#keyword)
-- [language\_code](SerpGoogleMapsLiveAdvancedRequestInfo.md#language_code)
-- [language\_name](SerpGoogleMapsLiveAdvancedRequestInfo.md#language_name)
-- [location\_code](SerpGoogleMapsLiveAdvancedRequestInfo.md#location_code)
-- [location\_coordinate](SerpGoogleMapsLiveAdvancedRequestInfo.md#location_coordinate)
-- [location\_name](SerpGoogleMapsLiveAdvancedRequestInfo.md#location_name)
-- [max\_crawl\_pages](SerpGoogleMapsLiveAdvancedRequestInfo.md#max_crawl_pages)
-- [os](SerpGoogleMapsLiveAdvancedRequestInfo.md#os)
-- [se\_domain](SerpGoogleMapsLiveAdvancedRequestInfo.md#se_domain)
-- [search\_places](SerpGoogleMapsLiveAdvancedRequestInfo.md#search_places)
-- [search\_this\_area](SerpGoogleMapsLiveAdvancedRequestInfo.md#search_this_area)
-- [tag](SerpGoogleMapsLiveAdvancedRequestInfo.md#tag)
-- [url](SerpGoogleMapsLiveAdvancedRequestInfo.md#url)
-
-### Methods
-
-- [init](SerpGoogleMapsLiveAdvancedRequestInfo.md#init)
-- [toJSON](SerpGoogleMapsLiveAdvancedRequestInfo.md#tojson)
-- [fromJS](SerpGoogleMapsLiveAdvancedRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleMapsLiveAdvancedRequestInfo(data)
 
-• **new SerpGoogleMapsLiveAdvancedRequestInfo**(`data?`): [`SerpGoogleMapsLiveAdvancedRequestInfo`](SerpGoogleMapsLiveAdvancedRequestInfo.md)
+> **new SerpGoogleMapsLiveAdvancedRequestInfo**(`data`?): [`SerpGoogleMapsLiveAdvancedRequestInfo`](SerpGoogleMapsLiveAdvancedRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleMapsLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md) |
+• **data?**: [`ISerpGoogleMapsLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md)
 
 #### Returns
 
 [`SerpGoogleMapsLiveAdvancedRequestInfo`](SerpGoogleMapsLiveAdvancedRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:39942
+main.ts:39948
 
 ## Properties
 
-### depth
+### depth?
 
-• `Optional` **depth**: `number`
+> **`optional`** **depth**: `number`
 
 parsing depth
 optional field
@@ -77,17 +49,17 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Implementation of
 
-[ISerpGoogleMapsLiveAdvancedRequestInfo](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md).[depth](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md#depth)
+[`ISerpGoogleMapsLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md).[`depth`](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md#depth)
 
-#### Defined in
+#### Source
 
-main.ts:39910
+main.ts:39916
 
-___
+***
 
-### device
+### device?
 
-• `Optional` **device**: `string`
+> **`optional`** **device**: `string`
 
 device type
 optional field
@@ -97,17 +69,17 @@ note: for mobile device, only 20 results are returned for every SERP
 
 #### Implementation of
 
-[ISerpGoogleMapsLiveAdvancedRequestInfo](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md).[device](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md#device)
+[`ISerpGoogleMapsLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md).[`device`](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md#device)
 
-#### Defined in
+#### Source
 
-main.ts:39887
+main.ts:39893
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword
 required field
@@ -120,17 +92,17 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 
 #### Implementation of
 
-[ISerpGoogleMapsLiveAdvancedRequestInfo](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md).[keyword](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md#keyword)
+[`ISerpGoogleMapsLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md).[`keyword`](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:39842
+main.ts:39848
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -141,17 +113,17 @@ en
 
 #### Implementation of
 
-[ISerpGoogleMapsLiveAdvancedRequestInfo](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md).[language_code](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md#language_code)
+[`ISerpGoogleMapsLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md).[`language_code`](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:39881
+main.ts:39887
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -162,17 +134,17 @@ English
 
 #### Implementation of
 
-[ISerpGoogleMapsLiveAdvancedRequestInfo](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md).[language_name](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md#language_name)
+[`ISerpGoogleMapsLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md).[`language_name`](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:39874
+main.ts:39880
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -183,17 +155,17 @@ example:
 
 #### Implementation of
 
-[ISerpGoogleMapsLiveAdvancedRequestInfo](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md).[location_code](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md#location_code)
+[`ISerpGoogleMapsLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md).[`location_code`](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:39856
+main.ts:39862
 
-___
+***
 
-### location\_coordinate
+### location\_coordinate?
 
-• `Optional` **location\_coordinate**: `string`
+> **`optional`** **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -208,17 +180,17 @@ example:
 
 #### Implementation of
 
-[ISerpGoogleMapsLiveAdvancedRequestInfo](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md).[location_coordinate](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md#location_coordinate)
+[`ISerpGoogleMapsLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md).[`location_coordinate`](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md#location_coordinate)
 
-#### Defined in
+#### Source
 
-main.ts:39867
+main.ts:39873
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -229,17 +201,17 @@ London,England,United Kingdom
 
 #### Implementation of
 
-[ISerpGoogleMapsLiveAdvancedRequestInfo](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md).[location_name](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md#location_name)
+[`ISerpGoogleMapsLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md).[`location_name`](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:39849
+main.ts:39855
 
-___
+***
 
-### max\_crawl\_pages
+### max\_crawl\_pages?
 
-• `Optional` **max\_crawl\_pages**: `number`
+> **`optional`** **max\_crawl\_pages**: `number`
 
 page crawl limit
 optional field
@@ -250,17 +222,17 @@ learn more at our help center
 
 #### Implementation of
 
-[ISerpGoogleMapsLiveAdvancedRequestInfo](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md).[max_crawl_pages](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md#max_crawl_pages)
+[`ISerpGoogleMapsLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md).[`max_crawl_pages`](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md#max_crawl_pages)
 
-#### Defined in
+#### Source
 
-main.ts:39917
+main.ts:39923
 
-___
+***
 
-### os
+### os?
 
-• `Optional` **os**: `string`
+> **`optional`** **os**: `string`
 
 device operating system
 optional field
@@ -271,17 +243,17 @@ default value: android
 
 #### Implementation of
 
-[ISerpGoogleMapsLiveAdvancedRequestInfo](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md).[os](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md#os)
+[`ISerpGoogleMapsLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md).[`os`](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md#os)
 
-#### Defined in
+#### Source
 
-main.ts:39894
+main.ts:39900
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain
 optional field
@@ -292,17 +264,17 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Implementation of
 
-[ISerpGoogleMapsLiveAdvancedRequestInfo](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md).[se_domain](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md#se_domain)
+[`ISerpGoogleMapsLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md).[`se_domain`](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md#se_domain)
 
-#### Defined in
+#### Source
 
-main.ts:39901
+main.ts:39907
 
-___
+***
 
-### search\_places
+### search\_places?
 
-• `Optional` **search\_places**: `boolean`
+> **`optional`** **search\_places**: `boolean`
 
 search places mode
 optional field
@@ -314,17 +286,17 @@ Note: if the search_places mode is turned off and no results were found in the s
 
 #### Implementation of
 
-[ISerpGoogleMapsLiveAdvancedRequestInfo](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md).[search_places](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md#search_places)
+[`ISerpGoogleMapsLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md).[`search_places`](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md#search_places)
 
-#### Defined in
+#### Source
 
-main.ts:39932
+main.ts:39938
 
-___
+***
 
-### search\_this\_area
+### search\_this\_area?
 
-• `Optional` **search\_this\_area**: `boolean`
+> **`optional`** **search\_this\_area**: `boolean`
 
 search this area
 optional field
@@ -335,17 +307,17 @@ Note: if the search_this_area mode is turned off, Google Maps listings might con
 
 #### Implementation of
 
-[ISerpGoogleMapsLiveAdvancedRequestInfo](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md).[search_this_area](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md#search_this_area)
+[`ISerpGoogleMapsLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md).[`search_this_area`](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md#search_this_area)
 
-#### Defined in
+#### Source
 
-main.ts:39924
+main.ts:39930
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -355,17 +327,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[ISerpGoogleMapsLiveAdvancedRequestInfo](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md).[tag](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md#tag)
+[`ISerpGoogleMapsLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md).[`tag`](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:39938
+main.ts:39944
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 direct URL of the search query
 optional field
@@ -375,68 +347,62 @@ https://google.com/maps/search/pizza/@37.09024,-95.712891,4z
 
 #### Implementation of
 
-[ISerpGoogleMapsLiveAdvancedRequestInfo](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md).[url](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md#url)
+[`ISerpGoogleMapsLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md).[`url`](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:39833
+main.ts:39839
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:39951
+main.ts:39957
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:39982
+main.ts:39988
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleMapsLiveAdvancedRequestInfo`](SerpGoogleMapsLiveAdvancedRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleMapsLiveAdvancedRequestInfo`](SerpGoogleMapsLiveAdvancedRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpGoogleMapsLiveAdvancedRequestInfo`](SerpGoogleMapsLiveAdvancedRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:39975
+main.ts:39981

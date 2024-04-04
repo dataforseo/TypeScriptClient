@@ -1,27 +1,21 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixTaskGetPriceDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppendixTaskGetPriceDataInfo
 
 # Interface: IAppendixTaskGetPriceDataInfo
 
-## Implemented by
-
-- [`AppendixTaskGetPriceDataInfo`](../classes/AppendixTaskGetPriceDataInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [advanced](IAppendixTaskGetPriceDataInfo.md#advanced)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### advanced
+### advanced?
 
-• `Optional` **advanced**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **advanced**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:215726

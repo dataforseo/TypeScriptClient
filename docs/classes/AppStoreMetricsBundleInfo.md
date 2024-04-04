@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppStoreMetricsBundleInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppStoreMetricsBundleInfo
 
 # Class: AppStoreMetricsBundleInfo
 
@@ -8,116 +12,92 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppStoreMetricsBundleInfo.md#constructor)
-
-### Properties
-
-- [app\_store\_search\_organic](AppStoreMetricsBundleInfo.md#app_store_search_organic)
-
-### Methods
-
-- [init](AppStoreMetricsBundleInfo.md#init)
-- [toJSON](AppStoreMetricsBundleInfo.md#tojson)
-- [fromJS](AppStoreMetricsBundleInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppStoreMetricsBundleInfo(data)
 
-• **new AppStoreMetricsBundleInfo**(`data?`): [`AppStoreMetricsBundleInfo`](AppStoreMetricsBundleInfo.md)
+> **new AppStoreMetricsBundleInfo**(`data`?): [`AppStoreMetricsBundleInfo`](AppStoreMetricsBundleInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppStoreMetricsBundleInfo`](../interfaces/IAppStoreMetricsBundleInfo.md) |
+• **data?**: [`IAppStoreMetricsBundleInfo`](../interfaces/IAppStoreMetricsBundleInfo.md)
 
 #### Returns
 
 [`AppStoreMetricsBundleInfo`](AppStoreMetricsBundleInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:113749
+main.ts:113757
 
 ## Properties
 
-### app\_store\_search\_organic
+### app\_store\_search\_organic?
 
-• `Optional` **app\_store\_search\_organic**: [`AppMetricsInfo`](AppMetricsInfo.md)
+> **`optional`** **app\_store\_search\_organic**: [`AppMetricsInfo`](AppMetricsInfo.md)
 
 ranking data from App Store organic search
 
 #### Implementation of
 
-[IAppStoreMetricsBundleInfo](../interfaces/IAppStoreMetricsBundleInfo.md).[app_store_search_organic](../interfaces/IAppStoreMetricsBundleInfo.md#app_store_search_organic)
+[`IAppStoreMetricsBundleInfo`](../interfaces/IAppStoreMetricsBundleInfo.md).[`app_store_search_organic`](../interfaces/IAppStoreMetricsBundleInfo.md#app_store_search_organic)
 
-#### Defined in
+#### Source
 
-main.ts:113745
+main.ts:113753
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:113758
+main.ts:113766
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:113775
+main.ts:113783
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppStoreMetricsBundleInfo`](AppStoreMetricsBundleInfo.md)
+> **`static`** **fromJS**(`data`): [`AppStoreMetricsBundleInfo`](AppStoreMetricsBundleInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppStoreMetricsBundleInfo`](AppStoreMetricsBundleInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:113768
+main.ts:113776

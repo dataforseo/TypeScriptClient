@@ -1,144 +1,128 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IGoogleShoppingPaidMerchantSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IGoogleShoppingPaidMerchantSerpElementItem
 
 # Interface: IGoogleShoppingPaidMerchantSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md)
 
-  ↳ **`IGoogleShoppingPaidMerchantSerpElementItem`**
-
-## Implemented by
-
-- [`GoogleShoppingPaidMerchantSerpElementItem`](../classes/GoogleShoppingPaidMerchantSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [description](IGoogleShoppingPaidMerchantSerpElementItem.md#description)
-- [domain](IGoogleShoppingPaidMerchantSerpElementItem.md#domain)
-- [position](IGoogleShoppingPaidMerchantSerpElementItem.md#position)
-- [rank\_absolute](IGoogleShoppingPaidMerchantSerpElementItem.md#rank_absolute)
-- [rank\_group](IGoogleShoppingPaidMerchantSerpElementItem.md#rank_group)
-- [shop\_ad\_aclk](IGoogleShoppingPaidMerchantSerpElementItem.md#shop_ad_aclk)
-- [title](IGoogleShoppingPaidMerchantSerpElementItem.md#title)
-- [url](IGoogleShoppingPaidMerchantSerpElementItem.md#url)
-- [xpath](IGoogleShoppingPaidMerchantSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description of the product in Google Shopping SERP
 
-#### Defined in
+#### Source
 
-main.ts:170458
+main.ts:170466
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain in SERP
 
-#### Defined in
+#### Source
 
-main.ts:170454
+main.ts:170462
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
-main.ts:170450
+main.ts:170458
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
 
-#### Defined in
+#### Source
 
-main.ts:170446
+main.ts:170454
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
-main.ts:170443
+main.ts:170451
 
-___
+***
 
-### shop\_ad\_aclk
+### shop\_ad\_aclk?
 
-• `Optional` **shop\_ad\_aclk**: `string`
+> **`optional`** **shop\_ad\_aclk**: `string`
 
 unique ad click referral parameter
 using this parameter you can get a URL of the advertisement in Google Shopping Sellers Ad URL
 
-#### Defined in
+#### Source
 
-main.ts:170463
+main.ts:170471
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 product title
 
-#### Defined in
+#### Source
 
-main.ts:170456
+main.ts:170464
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL to the product page on the seller’s website
 
-#### Defined in
+#### Source
 
-main.ts:170460
+main.ts:170468
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 XPath of the element
 
-#### Defined in
+#### Source
 
-main.ts:170452
+main.ts:170460

@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo
 
 # Class: DomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`DomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](DomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md#cost)
-- [status\_code](DomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md#status_code)
-- [status\_message](DomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md#status_message)
-- [tasks](DomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md#tasks)
-- [tasks\_count](DomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md#tasks_count)
-- [tasks\_error](DomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md#tasks_error)
-- [time](DomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md#time)
-- [version](DomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md#version)
-
-### Methods
-
-- [init](DomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md#init)
-- [toJSON](DomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md#tojson)
-- [fromJS](DomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo(data)
 
-• **new DomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo**(`data?`): [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md)
+> **new DomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo**(`data`?): [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md) |
+• **data?**: [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:75330
+main.ts:75338
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md).[cost](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md#cost)
+[`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md).[`cost`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md).[status_code](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md#status_code)
+[`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md).[`status_code`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md).[status_message](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md#status_message)
+[`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md).[`status_message`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveTaskInfo`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveTaskInfo.md)[]
+> **`optional`** **tasks**: [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveTaskInfo`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md).[tasks](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md#tasks)
+[`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md).[`tasks`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:75326
+main.ts:75334
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md).[tasks_count](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md#tasks_count)
+[`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md).[`tasks_count`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md).[tasks_error](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md#tasks_error)
+[`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md).[`tasks_error`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md).[time](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md#time)
+[`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md).[`time`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md).[version](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md#version)
+[`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md).[`version`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:75334
+main.ts:75342
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:75356
+main.ts:75364
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:75349
+main.ts:75357

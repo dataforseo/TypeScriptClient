@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / RelatedImageSearchesElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / RelatedImageSearchesElement
 
 # Class: RelatedImageSearchesElement
 
@@ -8,185 +12,157 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](RelatedImageSearchesElement.md#constructor)
-
-### Properties
-
-- [alt](RelatedImageSearchesElement.md#alt)
-- [image\_url](RelatedImageSearchesElement.md#image_url)
-- [title](RelatedImageSearchesElement.md#title)
-- [type](RelatedImageSearchesElement.md#type)
-- [url](RelatedImageSearchesElement.md#url)
-
-### Methods
-
-- [init](RelatedImageSearchesElement.md#init)
-- [toJSON](RelatedImageSearchesElement.md#tojson)
-- [fromJS](RelatedImageSearchesElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new RelatedImageSearchesElement(data)
 
-• **new RelatedImageSearchesElement**(`data?`): [`RelatedImageSearchesElement`](RelatedImageSearchesElement.md)
+> **new RelatedImageSearchesElement**(`data`?): [`RelatedImageSearchesElement`](RelatedImageSearchesElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IRelatedImageSearchesElement`](../interfaces/IRelatedImageSearchesElement.md) |
+• **data?**: [`IRelatedImageSearchesElement`](../interfaces/IRelatedImageSearchesElement.md)
 
 #### Returns
 
 [`RelatedImageSearchesElement`](RelatedImageSearchesElement.md)
 
-#### Defined in
+#### Source
 
 main.ts:29556
 
 ## Properties
 
-### alt
+### alt?
 
-• `Optional` **alt**: `string`
+> **`optional`** **alt**: `string`
 
 alt tag of the image
 
 #### Implementation of
 
-[IRelatedImageSearchesElement](../interfaces/IRelatedImageSearchesElement.md).[alt](../interfaces/IRelatedImageSearchesElement.md#alt)
+[`IRelatedImageSearchesElement`](../interfaces/IRelatedImageSearchesElement.md).[`alt`](../interfaces/IRelatedImageSearchesElement.md#alt)
 
-#### Defined in
+#### Source
 
 main.ts:29547
 
-___
+***
 
-### image\_url
+### image\_url?
 
-• `Optional` **image\_url**: `string`
+> **`optional`** **image\_url**: `string`
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
 
 #### Implementation of
 
-[IRelatedImageSearchesElement](../interfaces/IRelatedImageSearchesElement.md).[image_url](../interfaces/IRelatedImageSearchesElement.md#image_url)
+[`IRelatedImageSearchesElement`](../interfaces/IRelatedImageSearchesElement.md).[`image_url`](../interfaces/IRelatedImageSearchesElement.md#image_url)
 
-#### Defined in
+#### Source
 
 main.ts:29552
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
 #### Implementation of
 
-[IRelatedImageSearchesElement](../interfaces/IRelatedImageSearchesElement.md).[title](../interfaces/IRelatedImageSearchesElement.md#title)
+[`IRelatedImageSearchesElement`](../interfaces/IRelatedImageSearchesElement.md).[`title`](../interfaces/IRelatedImageSearchesElement.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:29545
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IRelatedImageSearchesElement](../interfaces/IRelatedImageSearchesElement.md).[type](../interfaces/IRelatedImageSearchesElement.md#type)
+[`IRelatedImageSearchesElement`](../interfaces/IRelatedImageSearchesElement.md).[`type`](../interfaces/IRelatedImageSearchesElement.md#type)
 
-#### Defined in
+#### Source
 
 main.ts:29543
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 relevant URL
 
 #### Implementation of
 
-[IRelatedImageSearchesElement](../interfaces/IRelatedImageSearchesElement.md).[url](../interfaces/IRelatedImageSearchesElement.md#url)
+[`IRelatedImageSearchesElement`](../interfaces/IRelatedImageSearchesElement.md).[`url`](../interfaces/IRelatedImageSearchesElement.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:29549
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:29565
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:29586
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`RelatedImageSearchesElement`](RelatedImageSearchesElement.md)
+> **`static`** **fromJS**(`data`): [`RelatedImageSearchesElement`](RelatedImageSearchesElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`RelatedImageSearchesElement`](RelatedImageSearchesElement.md)
 
-#### Defined in
+#### Source
 
 main.ts:29579

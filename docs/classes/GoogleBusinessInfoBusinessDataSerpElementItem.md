@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / GoogleBusinessInfoBusinessDataSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / GoogleBusinessInfoBusinessDataSerpElementItem
 
 # Class: GoogleBusinessInfoBusinessDataSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)
-
-  ↳ **`GoogleBusinessInfoBusinessDataSerpElementItem`**
 
 ## Implements
 
@@ -14,71 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](GoogleBusinessInfoBusinessDataSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](GoogleBusinessInfoBusinessDataSerpElementItem.md#_discriminator)
-- [additional\_categories](GoogleBusinessInfoBusinessDataSerpElementItem.md#additional_categories)
-- [address](GoogleBusinessInfoBusinessDataSerpElementItem.md#address)
-- [address\_info](GoogleBusinessInfoBusinessDataSerpElementItem.md#address_info)
-- [attributes](GoogleBusinessInfoBusinessDataSerpElementItem.md#attributes)
-- [category](GoogleBusinessInfoBusinessDataSerpElementItem.md#category)
-- [category\_ids](GoogleBusinessInfoBusinessDataSerpElementItem.md#category_ids)
-- [cid](GoogleBusinessInfoBusinessDataSerpElementItem.md#cid)
-- [contact\_url](GoogleBusinessInfoBusinessDataSerpElementItem.md#contact_url)
-- [description](GoogleBusinessInfoBusinessDataSerpElementItem.md#description)
-- [directory](GoogleBusinessInfoBusinessDataSerpElementItem.md#directory)
-- [domain](GoogleBusinessInfoBusinessDataSerpElementItem.md#domain)
-- [feature\_id](GoogleBusinessInfoBusinessDataSerpElementItem.md#feature_id)
-- [hotel\_rating](GoogleBusinessInfoBusinessDataSerpElementItem.md#hotel_rating)
-- [is\_claimed](GoogleBusinessInfoBusinessDataSerpElementItem.md#is_claimed)
-- [is\_directory\_item](GoogleBusinessInfoBusinessDataSerpElementItem.md#is_directory_item)
-- [latitude](GoogleBusinessInfoBusinessDataSerpElementItem.md#latitude)
-- [local\_business\_links](GoogleBusinessInfoBusinessDataSerpElementItem.md#local_business_links)
-- [logo](GoogleBusinessInfoBusinessDataSerpElementItem.md#logo)
-- [longitude](GoogleBusinessInfoBusinessDataSerpElementItem.md#longitude)
-- [main\_image](GoogleBusinessInfoBusinessDataSerpElementItem.md#main_image)
-- [people\_also\_search](GoogleBusinessInfoBusinessDataSerpElementItem.md#people_also_search)
-- [phone](GoogleBusinessInfoBusinessDataSerpElementItem.md#phone)
-- [place\_id](GoogleBusinessInfoBusinessDataSerpElementItem.md#place_id)
-- [place\_topics](GoogleBusinessInfoBusinessDataSerpElementItem.md#place_topics)
-- [popular\_times](GoogleBusinessInfoBusinessDataSerpElementItem.md#popular_times)
-- [position](GoogleBusinessInfoBusinessDataSerpElementItem.md#position)
-- [price\_level](GoogleBusinessInfoBusinessDataSerpElementItem.md#price_level)
-- [rank\_absolute](GoogleBusinessInfoBusinessDataSerpElementItem.md#rank_absolute)
-- [rank\_group](GoogleBusinessInfoBusinessDataSerpElementItem.md#rank_group)
-- [rating](GoogleBusinessInfoBusinessDataSerpElementItem.md#rating)
-- [rating\_distribution](GoogleBusinessInfoBusinessDataSerpElementItem.md#rating_distribution)
-- [snippet](GoogleBusinessInfoBusinessDataSerpElementItem.md#snippet)
-- [title](GoogleBusinessInfoBusinessDataSerpElementItem.md#title)
-- [total\_photos](GoogleBusinessInfoBusinessDataSerpElementItem.md#total_photos)
-- [url](GoogleBusinessInfoBusinessDataSerpElementItem.md#url)
-- [work\_time](GoogleBusinessInfoBusinessDataSerpElementItem.md#work_time)
-
-### Methods
-
-- [init](GoogleBusinessInfoBusinessDataSerpElementItem.md#init)
-- [toJSON](GoogleBusinessInfoBusinessDataSerpElementItem.md#tojson)
-- [fromJS](GoogleBusinessInfoBusinessDataSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new GoogleBusinessInfoBusinessDataSerpElementItem(data)
 
-• **new GoogleBusinessInfoBusinessDataSerpElementItem**(`data?`): [`GoogleBusinessInfoBusinessDataSerpElementItem`](GoogleBusinessInfoBusinessDataSerpElementItem.md)
+> **new GoogleBusinessInfoBusinessDataSerpElementItem**(`data`?): [`GoogleBusinessInfoBusinessDataSerpElementItem`](GoogleBusinessInfoBusinessDataSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IGoogleBusinessInfoBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md) |
+• **data?**: [`IGoogleBusinessInfoBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md)
 
 #### Returns
 
@@ -86,9 +34,9 @@
 
 #### Overrides
 
-[BaseBusinessDataSerpElementItem](BaseBusinessDataSerpElementItem.md).[constructor](BaseBusinessDataSerpElementItem.md#constructor)
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`constructor`](BaseBusinessDataSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:196937
 
@@ -96,121 +44,121 @@ main.ts:196937
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseBusinessDataSerpElementItem](BaseBusinessDataSerpElementItem.md).[_discriminator](BaseBusinessDataSerpElementItem.md#_discriminator)
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`_discriminator`](BaseBusinessDataSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:20532
 
-___
+***
 
-### additional\_categories
+### additional\_categories?
 
-• `Optional` **additional\_categories**: `string`[]
+> **`optional`** **additional\_categories**: `string`[]
 
 additional business categories
 additional Google My Business categories that describe the services provided by the business entity in more detail
 
 #### Implementation of
 
-[IGoogleBusinessInfoBusinessDataSerpElementItem](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[additional_categories](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#additional_categories)
+[`IGoogleBusinessInfoBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[`additional_categories`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#additional_categories)
 
-#### Defined in
+#### Source
 
 main.ts:196847
 
-___
+***
 
-### address
+### address?
 
-• `Optional` **address**: `string`
+> **`optional`** **address**: `string`
 
 address of the business entity
 
 #### Implementation of
 
-[IGoogleBusinessInfoBusinessDataSerpElementItem](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[address](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#address)
+[`IGoogleBusinessInfoBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[`address`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#address)
 
-#### Defined in
+#### Source
 
 main.ts:196857
 
-___
+***
 
-### address\_info
+### address\_info?
 
-• `Optional` **address\_info**: [`AddressInfo`](AddressInfo.md)
+> **`optional`** **address\_info**: [`AddressInfo`](AddressInfo.md)
 
 object containing address components of the business entity
 
 #### Implementation of
 
-[IGoogleBusinessInfoBusinessDataSerpElementItem](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[address_info](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#address_info)
+[`IGoogleBusinessInfoBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[`address_info`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#address_info)
 
-#### Defined in
+#### Source
 
 main.ts:196859
 
-___
+***
 
-### attributes
+### attributes?
 
-• `Optional` **attributes**: [`BusinessDataAttributesInfo`](BusinessDataAttributesInfo.md)
+> **`optional`** **attributes**: [`BusinessDataAttributesInfo`](BusinessDataAttributesInfo.md)
 
 service details in a form of user-reviewed checks;
 service details of a business entity displayed in a form of checks and based on user feedback and business category
 
 #### Implementation of
 
-[IGoogleBusinessInfoBusinessDataSerpElementItem](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[attributes](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#attributes)
+[`IGoogleBusinessInfoBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[`attributes`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#attributes)
 
-#### Defined in
+#### Source
 
 main.ts:196892
 
-___
+***
 
-### category
+### category?
 
-• `Optional` **category**: `string`
+> **`optional`** **category**: `string`
 
 business category
 Google My Business general category that best describes the services provided by the business entity
 
 #### Implementation of
 
-[IGoogleBusinessInfoBusinessDataSerpElementItem](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[category](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#category)
+[`IGoogleBusinessInfoBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[`category`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#category)
 
-#### Defined in
+#### Source
 
 main.ts:196841
 
-___
+***
 
-### category\_ids
+### category\_ids?
 
-• `Optional` **category\_ids**: `string`[]
+> **`optional`** **category\_ids**: `string`[]
 
 global category IDs
 universal category IDs that do not change based on the selected country
 
 #### Implementation of
 
-[IGoogleBusinessInfoBusinessDataSerpElementItem](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[category_ids](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#category_ids)
+[`IGoogleBusinessInfoBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[`category_ids`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#category_ids)
 
-#### Defined in
+#### Source
 
 main.ts:196844
 
-___
+***
 
-### cid
+### cid?
 
-• `Optional` **cid**: `string`
+> **`optional`** **cid**: `string`
 
 google-defined client id
 unique id of a local establishment;
@@ -219,100 +167,100 @@ learn more about the identifier in this help center article
 
 #### Implementation of
 
-[IGoogleBusinessInfoBusinessDataSerpElementItem](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[cid](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#cid)
+[`IGoogleBusinessInfoBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[`cid`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#cid)
 
-#### Defined in
+#### Source
 
 main.ts:196852
 
-___
+***
 
-### contact\_url
+### contact\_url?
 
-• `Optional` **contact\_url**: `string`
+> **`optional`** **contact\_url**: `string`
 
 URL of the preferred contact page
 
 #### Implementation of
 
-[IGoogleBusinessInfoBusinessDataSerpElementItem](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[contact_url](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#contact_url)
+[`IGoogleBusinessInfoBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[`contact_url`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#contact_url)
 
-#### Defined in
+#### Source
 
 main.ts:196869
 
-___
+***
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description of the element in SERP
 the description of the business entity for which the results are collected
 
 #### Implementation of
 
-[IGoogleBusinessInfoBusinessDataSerpElementItem](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[description](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#description)
+[`IGoogleBusinessInfoBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[`description`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#description)
 
-#### Defined in
+#### Source
 
 main.ts:196838
 
-___
+***
 
-### directory
+### directory?
 
-• `Optional` **directory**: [`BusinessDirectoryInfo`](BusinessDirectoryInfo.md)
+> **`optional`** **directory**: [`BusinessDirectoryInfo`](BusinessDirectoryInfo.md)
 
 items of the directory
 includes information about businesses that are located within the target business establishment and have the same address
 
 #### Implementation of
 
-[IGoogleBusinessInfoBusinessDataSerpElementItem](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[directory](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#directory)
+[`IGoogleBusinessInfoBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[`directory`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#directory)
 
-#### Defined in
+#### Source
 
 main.ts:196933
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain of the business entity
 
 #### Implementation of
 
-[IGoogleBusinessInfoBusinessDataSerpElementItem](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[domain](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#domain)
+[`IGoogleBusinessInfoBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[`domain`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#domain)
 
-#### Defined in
+#### Source
 
 main.ts:196871
 
-___
+***
 
-### feature\_id
+### feature\_id?
 
-• `Optional` **feature\_id**: `string`
+> **`optional`** **feature\_id**: `string`
 
 the unique identifier of the element in SERP
 learn more about the identifier in this help center article
 
 #### Implementation of
 
-[IGoogleBusinessInfoBusinessDataSerpElementItem](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[feature_id](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#feature_id)
+[`IGoogleBusinessInfoBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[`feature_id`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#feature_id)
 
-#### Defined in
+#### Source
 
 main.ts:196855
 
-___
+***
 
-### hotel\_rating
+### hotel\_rating?
 
-• `Optional` **hotel\_rating**: `number`
+> **`optional`** **hotel\_rating**: `number`
 
 hotel class rating
 class ratings range between 1-5 stars, learn more
@@ -320,33 +268,33 @@ if there is no hotel class rating information, the value will be null
 
 #### Implementation of
 
-[IGoogleBusinessInfoBusinessDataSerpElementItem](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[hotel_rating](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#hotel_rating)
+[`IGoogleBusinessInfoBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[`hotel_rating`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#hotel_rating)
 
-#### Defined in
+#### Source
 
 main.ts:196907
 
-___
+***
 
-### is\_claimed
+### is\_claimed?
 
-• `Optional` **is\_claimed**: `boolean`
+> **`optional`** **is\_claimed**: `boolean`
 
 shows whether the entity is verified by its owner on Google Maps
 
 #### Implementation of
 
-[IGoogleBusinessInfoBusinessDataSerpElementItem](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[is_claimed](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#is_claimed)
+[`IGoogleBusinessInfoBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[`is_claimed`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#is_claimed)
 
-#### Defined in
+#### Source
 
 main.ts:196889
 
-___
+***
 
-### is\_directory\_item
+### is\_directory\_item?
 
-• `Optional` **is\_directory\_item**: `boolean`
+> **`optional`** **is\_directory\_item**: `boolean`
 
 business establishment is a part of the directory
 indicates whether the business establishment is a part of the directory;
@@ -355,17 +303,17 @@ note: if the business establishment is a parent item in the directory, the value
 
 #### Implementation of
 
-[IGoogleBusinessInfoBusinessDataSerpElementItem](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[is_directory_item](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#is_directory_item)
+[`IGoogleBusinessInfoBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[`is_directory_item`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#is_directory_item)
 
-#### Defined in
+#### Source
 
 main.ts:196930
 
-___
+***
 
-### latitude
+### latitude?
 
-• `Optional` **latitude**: `number`
+> **`optional`** **latitude**: `number`
 
 latitude coordinate of the local establishments in google maps
 example:
@@ -373,50 +321,50 @@ example:
 
 #### Implementation of
 
-[IGoogleBusinessInfoBusinessDataSerpElementItem](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[latitude](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#latitude)
+[`IGoogleBusinessInfoBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[`latitude`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#latitude)
 
-#### Defined in
+#### Source
 
 main.ts:196883
 
-___
+***
 
-### local\_business\_links
+### local\_business\_links?
 
-• `Optional` **local\_business\_links**: [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md)[]
+> **`optional`** **local\_business\_links**: [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md)[]
 
 available interactions with the business
 list of options to interact with the business directly from search results
 
 #### Implementation of
 
-[IGoogleBusinessInfoBusinessDataSerpElementItem](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[local_business_links](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#local_business_links)
+[`IGoogleBusinessInfoBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[`local_business_links`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#local_business_links)
 
-#### Defined in
+#### Source
 
 main.ts:196925
 
-___
+***
 
-### logo
+### logo?
 
-• `Optional` **logo**: `string`
+> **`optional`** **logo**: `string`
 
 URL of the logo featured in Google My Business profile
 
 #### Implementation of
 
-[IGoogleBusinessInfoBusinessDataSerpElementItem](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[logo](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#logo)
+[`IGoogleBusinessInfoBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[`logo`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#logo)
 
-#### Defined in
+#### Source
 
 main.ts:196873
 
-___
+***
 
-### longitude
+### longitude?
 
-• `Optional` **longitude**: `number`
+> **`optional`** **longitude**: `number`
 
 longitude coordinate of the local establishment in google maps
 example:
@@ -424,65 +372,65 @@ example:
 
 #### Implementation of
 
-[IGoogleBusinessInfoBusinessDataSerpElementItem](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[longitude](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#longitude)
+[`IGoogleBusinessInfoBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[`longitude`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#longitude)
 
-#### Defined in
+#### Source
 
 main.ts:196887
 
-___
+***
 
-### main\_image
+### main\_image?
 
-• `Optional` **main\_image**: `string`
+> **`optional`** **main\_image**: `string`
 
 URL of the main image featured in Google My Business profile
 
 #### Implementation of
 
-[IGoogleBusinessInfoBusinessDataSerpElementItem](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[main_image](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#main_image)
+[`IGoogleBusinessInfoBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[`main_image`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#main_image)
 
-#### Defined in
+#### Source
 
 main.ts:196875
 
-___
+***
 
-### people\_also\_search
+### people\_also\_search?
 
-• `Optional` **people\_also\_search**: [`PeopleAlsoSearch`](PeopleAlsoSearch.md)[]
+> **`optional`** **people\_also\_search**: [`PeopleAlsoSearch`](PeopleAlsoSearch.md)[]
 
 related business entities
 
 #### Implementation of
 
-[IGoogleBusinessInfoBusinessDataSerpElementItem](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[people_also_search](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#people_also_search)
+[`IGoogleBusinessInfoBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[`people_also_search`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#people_also_search)
 
-#### Defined in
+#### Source
 
 main.ts:196916
 
-___
+***
 
-### phone
+### phone?
 
-• `Optional` **phone**: `string`
+> **`optional`** **phone**: `string`
 
 phone number of the business entity
 
 #### Implementation of
 
-[IGoogleBusinessInfoBusinessDataSerpElementItem](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[phone](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#phone)
+[`IGoogleBusinessInfoBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[`phone`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#phone)
 
-#### Defined in
+#### Source
 
 main.ts:196865
 
-___
+***
 
-### place\_id
+### place\_id?
 
-• `Optional` **place\_id**: `string`
+> **`optional`** **place\_id**: `string`
 
 unique place identifier
 place id of the local establishment featured in the element
@@ -490,76 +438,76 @@ learn more about the identifier in this help center article
 
 #### Implementation of
 
-[IGoogleBusinessInfoBusinessDataSerpElementItem](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[place_id](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#place_id)
+[`IGoogleBusinessInfoBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[`place_id`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#place_id)
 
-#### Defined in
+#### Source
 
 main.ts:196863
 
-___
+***
 
-### place\_topics
+### place\_topics?
 
-• `Optional` **place\_topics**: `Object`
+> **`optional`** **place\_topics**: `Object`
 
 keywords mentioned in customer reviews
 contains most popular keywords related to products/services mentioned in customer reviews of a business entity and the number of reviews mentioning each keyword
 example: 
-"place_topics": {
+"place_topics": \{
 "egg roll": 48,
 "birthday": 33
-}
+\}
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
 #### Implementation of
 
-[IGoogleBusinessInfoBusinessDataSerpElementItem](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[place_topics](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#place_topics)
+[`IGoogleBusinessInfoBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[`place_topics`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#place_topics)
 
-#### Defined in
+#### Source
 
 main.ts:196900
 
-___
+***
 
-### popular\_times
+### popular\_times?
 
-• `Optional` **popular\_times**: [`PopularTimes`](PopularTimes.md)
+> **`optional`** **popular\_times**: [`PopularTimes`](PopularTimes.md)
 
 popular times
 information related to busy hours of the business entity
 
 #### Implementation of
 
-[IGoogleBusinessInfoBusinessDataSerpElementItem](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[popular_times](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#popular_times)
+[`IGoogleBusinessInfoBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[`popular_times`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#popular_times)
 
-#### Defined in
+#### Source
 
 main.ts:196922
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment in SERP
 
 #### Implementation of
 
-[IGoogleBusinessInfoBusinessDataSerpElementItem](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[position](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#position)
+[`IGoogleBusinessInfoBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[`position`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
 main.ts:196832
 
-___
+***
 
-### price\_level
+### price\_level?
 
-• `Optional` **price\_level**: `string`
+> **`optional`** **price\_level**: `string`
 
 property price level
 can take values: inexpensive, moderate, expensive, very_expensive
@@ -567,176 +515,174 @@ if there is no price level information, the value will be null
 
 #### Implementation of
 
-[IGoogleBusinessInfoBusinessDataSerpElementItem](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[price_level](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#price_level)
+[`IGoogleBusinessInfoBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[`price_level`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#price_level)
 
-#### Defined in
+#### Source
 
 main.ts:196911
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank among all the elements
 
 #### Implementation of
 
-[IGoogleBusinessInfoBusinessDataSerpElementItem](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[rank_absolute](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#rank_absolute)
+[`IGoogleBusinessInfoBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[`rank_absolute`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
 main.ts:196830
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
-[IGoogleBusinessInfoBusinessDataSerpElementItem](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[rank_group](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#rank_group)
+[`IGoogleBusinessInfoBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[`rank_group`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
 main.ts:196828
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](RatingInfo.md)
 
 the element’s rating 
 the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
 
-[IGoogleBusinessInfoBusinessDataSerpElementItem](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[rating](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#rating)
+[`IGoogleBusinessInfoBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[`rating`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#rating)
 
-#### Defined in
+#### Source
 
 main.ts:196903
 
-___
+***
 
-### rating\_distribution
+### rating\_distribution?
 
-• `Optional` **rating\_distribution**: `Object`
+> **`optional`** **rating\_distribution**: `Object`
 
 the distribution of ratings of the business entity
 the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
 #### Implementation of
 
-[IGoogleBusinessInfoBusinessDataSerpElementItem](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[rating_distribution](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#rating_distribution)
+[`IGoogleBusinessInfoBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[`rating_distribution`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#rating_distribution)
 
-#### Defined in
+#### Source
 
 main.ts:196914
 
-___
+***
 
-### snippet
+### snippet?
 
-• `Optional` **snippet**: `string`
+> **`optional`** **snippet**: `string`
 
 additional information on the business entity
 
 #### Implementation of
 
-[IGoogleBusinessInfoBusinessDataSerpElementItem](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[snippet](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#snippet)
+[`IGoogleBusinessInfoBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[`snippet`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#snippet)
 
-#### Defined in
+#### Source
 
 main.ts:196879
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the element in SERP
 the name of the business entity for which the results are collected
 
 #### Implementation of
 
-[IGoogleBusinessInfoBusinessDataSerpElementItem](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[title](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#title)
+[`IGoogleBusinessInfoBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[`title`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:196835
 
-___
+***
 
-### total\_photos
+### total\_photos?
 
-• `Optional` **total\_photos**: `number`
+> **`optional`** **total\_photos**: `number`
 
 total count of images featured in Google My Business profile
 
 #### Implementation of
 
-[IGoogleBusinessInfoBusinessDataSerpElementItem](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[total_photos](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#total_photos)
+[`IGoogleBusinessInfoBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[`total_photos`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#total_photos)
 
-#### Defined in
+#### Source
 
 main.ts:196877
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 absolute url of the business entity
 
 #### Implementation of
 
-[IGoogleBusinessInfoBusinessDataSerpElementItem](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[url](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#url)
+[`IGoogleBusinessInfoBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[`url`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:196867
 
-___
+***
 
-### work\_time
+### work\_time?
 
-• `Optional` **work\_time**: [`WorkInfo`](WorkInfo.md)
+> **`optional`** **work\_time**: [`WorkInfo`](WorkInfo.md)
 
 work time details
 information related to operational hours of the business entity
 
 #### Implementation of
 
-[IGoogleBusinessInfoBusinessDataSerpElementItem](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[work_time](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#work_time)
+[`IGoogleBusinessInfoBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md).[`work_time`](../interfaces/IGoogleBusinessInfoBusinessDataSerpElementItem.md#work_time)
 
-#### Defined in
+#### Source
 
 main.ts:196919
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -744,23 +690,21 @@ main.ts:196919
 
 #### Overrides
 
-[BaseBusinessDataSerpElementItem](BaseBusinessDataSerpElementItem.md).[init](BaseBusinessDataSerpElementItem.md#init)
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`init`](BaseBusinessDataSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:196942
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -768,23 +712,21 @@ ___
 
 #### Overrides
 
-[BaseBusinessDataSerpElementItem](BaseBusinessDataSerpElementItem.md).[toJSON](BaseBusinessDataSerpElementItem.md#tojson)
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`toJSON`](BaseBusinessDataSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:197023
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`GoogleBusinessInfoBusinessDataSerpElementItem`](GoogleBusinessInfoBusinessDataSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`GoogleBusinessInfoBusinessDataSerpElementItem`](GoogleBusinessInfoBusinessDataSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -792,8 +734,8 @@ ___
 
 #### Overrides
 
-[BaseBusinessDataSerpElementItem](BaseBusinessDataSerpElementItem.md).[fromJS](BaseBusinessDataSerpElementItem.md#fromjs)
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`fromJS`](BaseBusinessDataSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:197016

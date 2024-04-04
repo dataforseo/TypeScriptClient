@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksBulkRanksLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BacklinksBulkRanksLiveItem
 
 # Class: BacklinksBulkRanksLiveItem
 
@@ -8,50 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BacklinksBulkRanksLiveItem.md#constructor)
-
-### Properties
-
-- [rank](BacklinksBulkRanksLiveItem.md#rank)
-- [target](BacklinksBulkRanksLiveItem.md#target)
-
-### Methods
-
-- [init](BacklinksBulkRanksLiveItem.md#init)
-- [toJSON](BacklinksBulkRanksLiveItem.md#tojson)
-- [fromJS](BacklinksBulkRanksLiveItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BacklinksBulkRanksLiveItem(data)
 
-• **new BacklinksBulkRanksLiveItem**(`data?`): [`BacklinksBulkRanksLiveItem`](BacklinksBulkRanksLiveItem.md)
+> **new BacklinksBulkRanksLiveItem**(`data`?): [`BacklinksBulkRanksLiveItem`](BacklinksBulkRanksLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBacklinksBulkRanksLiveItem`](../interfaces/IBacklinksBulkRanksLiveItem.md) |
+• **data?**: [`IBacklinksBulkRanksLiveItem`](../interfaces/IBacklinksBulkRanksLiveItem.md)
 
 #### Returns
 
 [`BacklinksBulkRanksLiveItem`](BacklinksBulkRanksLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:144840
+main.ts:144848
 
 ## Properties
 
-### rank
+### rank?
 
-• `Optional` **rank**: `number`
+> **`optional`** **rank**: `number`
 
 rank of the target
 rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm
@@ -59,84 +44,78 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Implementation of
 
-[IBacklinksBulkRanksLiveItem](../interfaces/IBacklinksBulkRanksLiveItem.md).[rank](../interfaces/IBacklinksBulkRanksLiveItem.md#rank)
+[`IBacklinksBulkRanksLiveItem`](../interfaces/IBacklinksBulkRanksLiveItem.md).[`rank`](../interfaces/IBacklinksBulkRanksLiveItem.md#rank)
 
-#### Defined in
+#### Source
 
-main.ts:144836
+main.ts:144844
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 domain, subdomain or webpage from a POST array
 
 #### Implementation of
 
-[IBacklinksBulkRanksLiveItem](../interfaces/IBacklinksBulkRanksLiveItem.md).[target](../interfaces/IBacklinksBulkRanksLiveItem.md#target)
+[`IBacklinksBulkRanksLiveItem`](../interfaces/IBacklinksBulkRanksLiveItem.md).[`target`](../interfaces/IBacklinksBulkRanksLiveItem.md#target)
 
-#### Defined in
+#### Source
 
-main.ts:144832
+main.ts:144840
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:144849
+main.ts:144857
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:144867
+main.ts:144875
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BacklinksBulkRanksLiveItem`](BacklinksBulkRanksLiveItem.md)
+> **`static`** **fromJS**(`data`): [`BacklinksBulkRanksLiveItem`](BacklinksBulkRanksLiveItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BacklinksBulkRanksLiveItem`](BacklinksBulkRanksLiveItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:144860
+main.ts:144868

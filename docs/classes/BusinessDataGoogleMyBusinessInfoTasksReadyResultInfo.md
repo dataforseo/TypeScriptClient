@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo
 
 # Class: BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo
 
@@ -8,186 +12,158 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo.md#constructor)
-
-### Properties
-
-- [date\_posted](BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo.md#date_posted)
-- [endpoint](BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo.md#endpoint)
-- [id](BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo.md#id)
-- [se](BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo.md#se)
-- [tag](BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo.md#tag)
-
-### Methods
-
-- [init](BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo.md#init)
-- [toJSON](BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo.md#tojson)
-- [fromJS](BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo(data)
 
-• **new BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo**(`data?`): [`BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo`](BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo.md)
+> **new BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo**(`data`?): [`BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo`](BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataGoogleMyBusinessInfoTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessInfoTasksReadyResultInfo.md) |
+• **data?**: [`IBusinessDataGoogleMyBusinessInfoTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessInfoTasksReadyResultInfo.md)
 
 #### Returns
 
 [`BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo`](BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:196291
 
 ## Properties
 
-### date\_posted
+### date\_posted?
 
-• `Optional` **date\_posted**: `string`
+> **`optional`** **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
 #### Implementation of
 
-[IBusinessDataGoogleMyBusinessInfoTasksReadyResultInfo](../interfaces/IBusinessDataGoogleMyBusinessInfoTasksReadyResultInfo.md).[date_posted](../interfaces/IBusinessDataGoogleMyBusinessInfoTasksReadyResultInfo.md#date_posted)
+[`IBusinessDataGoogleMyBusinessInfoTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessInfoTasksReadyResultInfo.md).[`date_posted`](../interfaces/IBusinessDataGoogleMyBusinessInfoTasksReadyResultInfo.md#date_posted)
 
-#### Defined in
+#### Source
 
 main.ts:196283
 
-___
+***
 
-### endpoint
+### endpoint?
 
-• `Optional` **endpoint**: `string`
+> **`optional`** **endpoint**: `string`
 
 URL for collecting the results of the task
 
 #### Implementation of
 
-[IBusinessDataGoogleMyBusinessInfoTasksReadyResultInfo](../interfaces/IBusinessDataGoogleMyBusinessInfoTasksReadyResultInfo.md).[endpoint](../interfaces/IBusinessDataGoogleMyBusinessInfoTasksReadyResultInfo.md#endpoint)
+[`IBusinessDataGoogleMyBusinessInfoTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessInfoTasksReadyResultInfo.md).[`endpoint`](../interfaces/IBusinessDataGoogleMyBusinessInfoTasksReadyResultInfo.md#endpoint)
 
-#### Defined in
+#### Source
 
 main.ts:196287
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IBusinessDataGoogleMyBusinessInfoTasksReadyResultInfo](../interfaces/IBusinessDataGoogleMyBusinessInfoTasksReadyResultInfo.md).[id](../interfaces/IBusinessDataGoogleMyBusinessInfoTasksReadyResultInfo.md#id)
+[`IBusinessDataGoogleMyBusinessInfoTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessInfoTasksReadyResultInfo.md).[`id`](../interfaces/IBusinessDataGoogleMyBusinessInfoTasksReadyResultInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:196278
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 can take the following values: google
 
 #### Implementation of
 
-[IBusinessDataGoogleMyBusinessInfoTasksReadyResultInfo](../interfaces/IBusinessDataGoogleMyBusinessInfoTasksReadyResultInfo.md).[se](../interfaces/IBusinessDataGoogleMyBusinessInfoTasksReadyResultInfo.md#se)
+[`IBusinessDataGoogleMyBusinessInfoTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessInfoTasksReadyResultInfo.md).[`se`](../interfaces/IBusinessDataGoogleMyBusinessInfoTasksReadyResultInfo.md#se)
 
-#### Defined in
+#### Source
 
 main.ts:196281
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
 #### Implementation of
 
-[IBusinessDataGoogleMyBusinessInfoTasksReadyResultInfo](../interfaces/IBusinessDataGoogleMyBusinessInfoTasksReadyResultInfo.md).[tag](../interfaces/IBusinessDataGoogleMyBusinessInfoTasksReadyResultInfo.md#tag)
+[`IBusinessDataGoogleMyBusinessInfoTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessInfoTasksReadyResultInfo.md).[`tag`](../interfaces/IBusinessDataGoogleMyBusinessInfoTasksReadyResultInfo.md#tag)
 
-#### Defined in
+#### Source
 
 main.ts:196285
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:196300
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:196321
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo`](BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo`](BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo`](BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:196314

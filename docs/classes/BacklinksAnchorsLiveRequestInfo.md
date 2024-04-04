@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksAnchorsLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BacklinksAnchorsLiveRequestInfo
 
 # Class: BacklinksAnchorsLiveRequestInfo
 
@@ -8,60 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BacklinksAnchorsLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [backlinks\_filters](BacklinksAnchorsLiveRequestInfo.md#backlinks_filters)
-- [backlinks\_status\_type](BacklinksAnchorsLiveRequestInfo.md#backlinks_status_type)
-- [exclude\_internal\_backlinks](BacklinksAnchorsLiveRequestInfo.md#exclude_internal_backlinks)
-- [filters](BacklinksAnchorsLiveRequestInfo.md#filters)
-- [include\_indirect\_links](BacklinksAnchorsLiveRequestInfo.md#include_indirect_links)
-- [include\_subdomains](BacklinksAnchorsLiveRequestInfo.md#include_subdomains)
-- [internal\_list\_limit](BacklinksAnchorsLiveRequestInfo.md#internal_list_limit)
-- [limit](BacklinksAnchorsLiveRequestInfo.md#limit)
-- [offset](BacklinksAnchorsLiveRequestInfo.md#offset)
-- [order\_by](BacklinksAnchorsLiveRequestInfo.md#order_by)
-- [tag](BacklinksAnchorsLiveRequestInfo.md#tag)
-- [target](BacklinksAnchorsLiveRequestInfo.md#target)
-
-### Methods
-
-- [init](BacklinksAnchorsLiveRequestInfo.md#init)
-- [toJSON](BacklinksAnchorsLiveRequestInfo.md#tojson)
-- [fromJS](BacklinksAnchorsLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BacklinksAnchorsLiveRequestInfo(data)
 
-• **new BacklinksAnchorsLiveRequestInfo**(`data?`): [`BacklinksAnchorsLiveRequestInfo`](BacklinksAnchorsLiveRequestInfo.md)
+> **new BacklinksAnchorsLiveRequestInfo**(`data`?): [`BacklinksAnchorsLiveRequestInfo`](BacklinksAnchorsLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBacklinksAnchorsLiveRequestInfo`](../interfaces/IBacklinksAnchorsLiveRequestInfo.md) |
+• **data?**: [`IBacklinksAnchorsLiveRequestInfo`](../interfaces/IBacklinksAnchorsLiveRequestInfo.md)
 
 #### Returns
 
 [`BacklinksAnchorsLiveRequestInfo`](BacklinksAnchorsLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:137170
+main.ts:137178
 
 ## Properties
 
-### backlinks\_filters
+### backlinks\_filters?
 
-• `Optional` **backlinks\_filters**: `any`[]
+> **`optional`** **backlinks\_filters**: `any`[]
 
 filter the backlinks of your target
 optional field
@@ -73,17 +48,17 @@ example:
 
 #### Implementation of
 
-[IBacklinksAnchorsLiveRequestInfo](../interfaces/IBacklinksAnchorsLiveRequestInfo.md).[backlinks_filters](../interfaces/IBacklinksAnchorsLiveRequestInfo.md#backlinks_filters)
+[`IBacklinksAnchorsLiveRequestInfo`](../interfaces/IBacklinksAnchorsLiveRequestInfo.md).[`backlinks_filters`](../interfaces/IBacklinksAnchorsLiveRequestInfo.md#backlinks_filters)
 
-#### Defined in
+#### Source
 
-main.ts:137144
+main.ts:137152
 
-___
+***
 
-### backlinks\_status\_type
+### backlinks\_status\_type?
 
-• `Optional` **backlinks\_status\_type**: `string`
+> **`optional`** **backlinks\_status\_type**: `string`
 
 set what backlinks to return and count
 optional field
@@ -96,17 +71,17 @@ default value: live
 
 #### Implementation of
 
-[IBacklinksAnchorsLiveRequestInfo](../interfaces/IBacklinksAnchorsLiveRequestInfo.md).[backlinks_status_type](../interfaces/IBacklinksAnchorsLiveRequestInfo.md#backlinks_status_type)
+[`IBacklinksAnchorsLiveRequestInfo`](../interfaces/IBacklinksAnchorsLiveRequestInfo.md).[`backlinks_status_type`](../interfaces/IBacklinksAnchorsLiveRequestInfo.md#backlinks_status_type)
 
-#### Defined in
+#### Source
 
-main.ts:137105
+main.ts:137113
 
-___
+***
 
-### exclude\_internal\_backlinks
+### exclude\_internal\_backlinks?
 
-• `Optional` **exclude\_internal\_backlinks**: `boolean`
+> **`optional`** **exclude\_internal\_backlinks**: `boolean`
 
 indicates whether the backlinks from subdomains of the target are excluded
 optional field
@@ -115,27 +90,27 @@ default value: true
 
 #### Implementation of
 
-[IBacklinksAnchorsLiveRequestInfo](../interfaces/IBacklinksAnchorsLiveRequestInfo.md).[exclude_internal_backlinks](../interfaces/IBacklinksAnchorsLiveRequestInfo.md#exclude_internal_backlinks)
+[`IBacklinksAnchorsLiveRequestInfo`](../interfaces/IBacklinksAnchorsLiveRequestInfo.md).[`exclude_internal_backlinks`](../interfaces/IBacklinksAnchorsLiveRequestInfo.md#exclude_internal_backlinks)
 
-#### Defined in
+#### Source
 
-main.ts:137160
+main.ts:137168
 
-___
+***
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, =, <>, in, not_in, like, not_like, ilike, not_ilike
+regex, =, `<>`, in, not_in, like, not_like, ilike, not_ilike
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
-["referring_links_types.anchors",">","1"]
+["referring_links_types.anchors",">`","1"]
 [["broken_pages",">","2"],
 "and",
 ["backlinks",">","10"]]
@@ -146,17 +121,17 @@ The full list of possible filters is available here.
 
 #### Implementation of
 
-[IBacklinksAnchorsLiveRequestInfo](../interfaces/IBacklinksAnchorsLiveRequestInfo.md).[filters](../interfaces/IBacklinksAnchorsLiveRequestInfo.md#filters)
+[`IBacklinksAnchorsLiveRequestInfo`](../interfaces/IBacklinksAnchorsLiveRequestInfo.md).[`filters`](../interfaces/IBacklinksAnchorsLiveRequestInfo.md#filters)
 
-#### Defined in
+#### Source
 
-main.ts:137122
+main.ts:137130
 
-___
+***
 
-### include\_indirect\_links
+### include\_indirect\_links?
 
-• `Optional` **include\_indirect\_links**: `boolean`
+> **`optional`** **include\_indirect\_links**: `boolean`
 
 indicates if indirect links to the target will be included in the results
 optional field
@@ -166,17 +141,17 @@ default value: true
 
 #### Implementation of
 
-[IBacklinksAnchorsLiveRequestInfo](../interfaces/IBacklinksAnchorsLiveRequestInfo.md).[include_indirect_links](../interfaces/IBacklinksAnchorsLiveRequestInfo.md#include_indirect_links)
+[`IBacklinksAnchorsLiveRequestInfo`](../interfaces/IBacklinksAnchorsLiveRequestInfo.md).[`include_indirect_links`](../interfaces/IBacklinksAnchorsLiveRequestInfo.md#include_indirect_links)
 
-#### Defined in
+#### Source
 
-main.ts:137155
+main.ts:137163
 
-___
+***
 
-### include\_subdomains
+### include\_subdomains?
 
-• `Optional` **include\_subdomains**: `boolean`
+> **`optional`** **include\_subdomains**: `boolean`
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -185,17 +160,17 @@ default value: true
 
 #### Implementation of
 
-[IBacklinksAnchorsLiveRequestInfo](../interfaces/IBacklinksAnchorsLiveRequestInfo.md).[include_subdomains](../interfaces/IBacklinksAnchorsLiveRequestInfo.md#include_subdomains)
+[`IBacklinksAnchorsLiveRequestInfo`](../interfaces/IBacklinksAnchorsLiveRequestInfo.md).[`include_subdomains`](../interfaces/IBacklinksAnchorsLiveRequestInfo.md#include_subdomains)
 
-#### Defined in
+#### Source
 
-main.ts:137149
+main.ts:137157
 
-___
+***
 
-### internal\_list\_limit
+### internal\_list\_limit?
 
-• `Optional` **internal\_list\_limit**: `number`
+> **`optional`** **internal\_list\_limit**: `number`
 
 maximum number of elements within internal arrays
 optional field
@@ -210,17 +185,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IBacklinksAnchorsLiveRequestInfo](../interfaces/IBacklinksAnchorsLiveRequestInfo.md).[internal_list_limit](../interfaces/IBacklinksAnchorsLiveRequestInfo.md#internal_list_limit)
+[`IBacklinksAnchorsLiveRequestInfo`](../interfaces/IBacklinksAnchorsLiveRequestInfo.md).[`internal_list_limit`](../interfaces/IBacklinksAnchorsLiveRequestInfo.md#internal_list_limit)
 
-#### Defined in
+#### Source
 
-main.ts:137096
+main.ts:137104
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned anchors
 optional field
@@ -229,17 +204,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IBacklinksAnchorsLiveRequestInfo](../interfaces/IBacklinksAnchorsLiveRequestInfo.md).[limit](../interfaces/IBacklinksAnchorsLiveRequestInfo.md#limit)
+[`IBacklinksAnchorsLiveRequestInfo`](../interfaces/IBacklinksAnchorsLiveRequestInfo.md).[`limit`](../interfaces/IBacklinksAnchorsLiveRequestInfo.md#limit)
 
-#### Defined in
+#### Source
 
-main.ts:137080
+main.ts:137088
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned anchors
 optional field
@@ -248,17 +223,17 @@ if you specify the 10 value, the first ten anchors in the results array will be 
 
 #### Implementation of
 
-[IBacklinksAnchorsLiveRequestInfo](../interfaces/IBacklinksAnchorsLiveRequestInfo.md).[offset](../interfaces/IBacklinksAnchorsLiveRequestInfo.md#offset)
+[`IBacklinksAnchorsLiveRequestInfo`](../interfaces/IBacklinksAnchorsLiveRequestInfo.md).[`offset`](../interfaces/IBacklinksAnchorsLiveRequestInfo.md#offset)
 
-#### Defined in
+#### Source
 
-main.ts:137085
+main.ts:137093
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -276,17 +251,17 @@ example:
 
 #### Implementation of
 
-[IBacklinksAnchorsLiveRequestInfo](../interfaces/IBacklinksAnchorsLiveRequestInfo.md).[order_by](../interfaces/IBacklinksAnchorsLiveRequestInfo.md#order_by)
+[`IBacklinksAnchorsLiveRequestInfo`](../interfaces/IBacklinksAnchorsLiveRequestInfo.md).[`order_by`](../interfaces/IBacklinksAnchorsLiveRequestInfo.md#order_by)
 
-#### Defined in
+#### Source
 
-main.ts:137136
+main.ts:137144
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -296,17 +271,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IBacklinksAnchorsLiveRequestInfo](../interfaces/IBacklinksAnchorsLiveRequestInfo.md).[tag](../interfaces/IBacklinksAnchorsLiveRequestInfo.md#tag)
+[`IBacklinksAnchorsLiveRequestInfo`](../interfaces/IBacklinksAnchorsLiveRequestInfo.md).[`tag`](../interfaces/IBacklinksAnchorsLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:137166
+main.ts:137174
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 domain, subdomain or webpage to get anchors for
 required field
@@ -315,68 +290,62 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Implementation of
 
-[IBacklinksAnchorsLiveRequestInfo](../interfaces/IBacklinksAnchorsLiveRequestInfo.md).[target](../interfaces/IBacklinksAnchorsLiveRequestInfo.md#target)
+[`IBacklinksAnchorsLiveRequestInfo`](../interfaces/IBacklinksAnchorsLiveRequestInfo.md).[`target`](../interfaces/IBacklinksAnchorsLiveRequestInfo.md#target)
 
-#### Defined in
+#### Source
 
-main.ts:137075
+main.ts:137083
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:137179
+main.ts:137187
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:137219
+main.ts:137227
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BacklinksAnchorsLiveRequestInfo`](BacklinksAnchorsLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`BacklinksAnchorsLiveRequestInfo`](BacklinksAnchorsLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BacklinksAnchorsLiveRequestInfo`](BacklinksAnchorsLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:137212
+main.ts:137220

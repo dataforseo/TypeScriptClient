@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentGenerationTextSummaryLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ContentGenerationTextSummaryLiveRequestInfo
 
 # Class: ContentGenerationTextSummaryLiveRequestInfo
 
@@ -8,53 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ContentGenerationTextSummaryLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [internal\_list\_limit](ContentGenerationTextSummaryLiveRequestInfo.md#internal_list_limit)
-- [language\_code](ContentGenerationTextSummaryLiveRequestInfo.md#language_code)
-- [language\_name](ContentGenerationTextSummaryLiveRequestInfo.md#language_name)
-- [tag](ContentGenerationTextSummaryLiveRequestInfo.md#tag)
-- [text](ContentGenerationTextSummaryLiveRequestInfo.md#text)
-
-### Methods
-
-- [init](ContentGenerationTextSummaryLiveRequestInfo.md#init)
-- [toJSON](ContentGenerationTextSummaryLiveRequestInfo.md#tojson)
-- [fromJS](ContentGenerationTextSummaryLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ContentGenerationTextSummaryLiveRequestInfo(data)
 
-• **new ContentGenerationTextSummaryLiveRequestInfo**(`data?`): [`ContentGenerationTextSummaryLiveRequestInfo`](ContentGenerationTextSummaryLiveRequestInfo.md)
+> **new ContentGenerationTextSummaryLiveRequestInfo**(`data`?): [`ContentGenerationTextSummaryLiveRequestInfo`](ContentGenerationTextSummaryLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IContentGenerationTextSummaryLiveRequestInfo`](../interfaces/IContentGenerationTextSummaryLiveRequestInfo.md) |
+• **data?**: [`IContentGenerationTextSummaryLiveRequestInfo`](../interfaces/IContentGenerationTextSummaryLiveRequestInfo.md)
 
 #### Returns
 
 [`ContentGenerationTextSummaryLiveRequestInfo`](ContentGenerationTextSummaryLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:167580
+main.ts:167588
 
 ## Properties
 
-### internal\_list\_limit
+### internal\_list\_limit?
 
-• `Optional` **internal\_list\_limit**: `number`
+> **`optional`** **internal\_list\_limit**: `number`
 
 maximum number of elements within internal arrays
 optional field
@@ -63,17 +45,17 @@ default value: 10
 
 #### Implementation of
 
-[IContentGenerationTextSummaryLiveRequestInfo](../interfaces/IContentGenerationTextSummaryLiveRequestInfo.md).[internal_list_limit](../interfaces/IContentGenerationTextSummaryLiveRequestInfo.md#internal_list_limit)
+[`IContentGenerationTextSummaryLiveRequestInfo`](../interfaces/IContentGenerationTextSummaryLiveRequestInfo.md).[`internal_list_limit`](../interfaces/IContentGenerationTextSummaryLiveRequestInfo.md#internal_list_limit)
 
-#### Defined in
+#### Source
 
-main.ts:167570
+main.ts:167578
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 code of the text language
 required field if you do not specify language_name
@@ -81,17 +63,17 @@ see the List of Languages for Content Generation Text Summary API
 
 #### Implementation of
 
-[IContentGenerationTextSummaryLiveRequestInfo](../interfaces/IContentGenerationTextSummaryLiveRequestInfo.md).[language_code](../interfaces/IContentGenerationTextSummaryLiveRequestInfo.md#language_code)
+[`IContentGenerationTextSummaryLiveRequestInfo`](../interfaces/IContentGenerationTextSummaryLiveRequestInfo.md).[`language_code`](../interfaces/IContentGenerationTextSummaryLiveRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:167565
+main.ts:167573
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 name of the text language
 required field if you do not specify language_code
@@ -99,17 +81,17 @@ see the List of Languages for Content Generation Text Summary API
 
 #### Implementation of
 
-[IContentGenerationTextSummaryLiveRequestInfo](../interfaces/IContentGenerationTextSummaryLiveRequestInfo.md).[language_name](../interfaces/IContentGenerationTextSummaryLiveRequestInfo.md#language_name)
+[`IContentGenerationTextSummaryLiveRequestInfo`](../interfaces/IContentGenerationTextSummaryLiveRequestInfo.md).[`language_name`](../interfaces/IContentGenerationTextSummaryLiveRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:167561
+main.ts:167569
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -119,17 +101,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IContentGenerationTextSummaryLiveRequestInfo](../interfaces/IContentGenerationTextSummaryLiveRequestInfo.md).[tag](../interfaces/IContentGenerationTextSummaryLiveRequestInfo.md#tag)
+[`IContentGenerationTextSummaryLiveRequestInfo`](../interfaces/IContentGenerationTextSummaryLiveRequestInfo.md).[`tag`](../interfaces/IContentGenerationTextSummaryLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:167576
+main.ts:167584
 
-___
+***
 
-### text
+### text?
 
-• `Optional` **text**: `string`
+> **`optional`** **text**: `string`
 
 target text
 required field
@@ -138,68 +120,62 @@ learn more about tokens on our help center
 
 #### Implementation of
 
-[IContentGenerationTextSummaryLiveRequestInfo](../interfaces/IContentGenerationTextSummaryLiveRequestInfo.md).[text](../interfaces/IContentGenerationTextSummaryLiveRequestInfo.md#text)
+[`IContentGenerationTextSummaryLiveRequestInfo`](../interfaces/IContentGenerationTextSummaryLiveRequestInfo.md).[`text`](../interfaces/IContentGenerationTextSummaryLiveRequestInfo.md#text)
 
-#### Defined in
+#### Source
 
-main.ts:167557
+main.ts:167565
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:167589
+main.ts:167597
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:167610
+main.ts:167618
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ContentGenerationTextSummaryLiveRequestInfo`](ContentGenerationTextSummaryLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`ContentGenerationTextSummaryLiveRequestInfo`](ContentGenerationTextSummaryLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ContentGenerationTextSummaryLiveRequestInfo`](ContentGenerationTextSummaryLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:167603
+main.ts:167611

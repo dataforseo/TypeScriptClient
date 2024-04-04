@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AutocompleteSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AutocompleteSerpElementItem
 
 # Class: AutocompleteSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-  ↳ **`AutocompleteSerpElementItem`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AutocompleteSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](AutocompleteSerpElementItem.md#_discriminator)
-- [highlighted](AutocompleteSerpElementItem.md#highlighted)
-- [rank\_absolute](AutocompleteSerpElementItem.md#rank_absolute)
-- [rank\_group](AutocompleteSerpElementItem.md#rank_group)
-- [relevance](AutocompleteSerpElementItem.md#relevance)
-- [search\_query\_url](AutocompleteSerpElementItem.md#search_query_url)
-- [suggestion](AutocompleteSerpElementItem.md#suggestion)
-- [suggestion\_type](AutocompleteSerpElementItem.md#suggestion_type)
-
-### Methods
-
-- [init](AutocompleteSerpElementItem.md#init)
-- [toJSON](AutocompleteSerpElementItem.md#tojson)
-- [fromJS](AutocompleteSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AutocompleteSerpElementItem(data)
 
-• **new AutocompleteSerpElementItem**(`data?`): [`AutocompleteSerpElementItem`](AutocompleteSerpElementItem.md)
+> **new AutocompleteSerpElementItem**(`data`?): [`AutocompleteSerpElementItem`](AutocompleteSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAutocompleteSerpElementItem`](../interfaces/IAutocompleteSerpElementItem.md) |
+• **data?**: [`IAutocompleteSerpElementItem`](../interfaces/IAutocompleteSerpElementItem.md)
 
 #### Returns
 
@@ -57,62 +34,62 @@
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[constructor](BaseSerpElementItem.md#constructor)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:51327
+main.ts:51335
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[_discriminator](BaseSerpElementItem.md#_discriminator)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:19788
 
-___
+***
 
-### highlighted
+### highlighted?
 
-• `Optional` **highlighted**: `string`[]
+> **`optional`** **highlighted**: `string`[]
 
 #### Implementation of
 
-[IAutocompleteSerpElementItem](../interfaces/IAutocompleteSerpElementItem.md).[highlighted](../interfaces/IAutocompleteSerpElementItem.md#highlighted)
+[`IAutocompleteSerpElementItem`](../interfaces/IAutocompleteSerpElementItem.md).[`highlighted`](../interfaces/IAutocompleteSerpElementItem.md#highlighted)
 
-#### Defined in
+#### Source
 
-main.ts:51323
+main.ts:51331
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
 #### Implementation of
 
-[IAutocompleteSerpElementItem](../interfaces/IAutocompleteSerpElementItem.md).[rank_absolute](../interfaces/IAutocompleteSerpElementItem.md#rank_absolute)
+[`IAutocompleteSerpElementItem`](../interfaces/IAutocompleteSerpElementItem.md).[`rank_absolute`](../interfaces/IAutocompleteSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:51306
+main.ts:51314
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -120,17 +97,17 @@ positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
-[IAutocompleteSerpElementItem](../interfaces/IAutocompleteSerpElementItem.md).[rank_group](../interfaces/IAutocompleteSerpElementItem.md#rank_group)
+[`IAutocompleteSerpElementItem`](../interfaces/IAutocompleteSerpElementItem.md).[`rank_group`](../interfaces/IAutocompleteSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
-main.ts:51303
+main.ts:51311
 
-___
+***
 
-### relevance
+### relevance?
 
-• `Optional` **relevance**: `number`
+> **`optional`** **relevance**: `number`
 
 relevance of suggested keyword
 represents the relevant of the autocomplete suggestion to the target keyword
@@ -141,50 +118,50 @@ chrome/chrome-omni
 
 #### Implementation of
 
-[IAutocompleteSerpElementItem](../interfaces/IAutocompleteSerpElementItem.md).[relevance](../interfaces/IAutocompleteSerpElementItem.md#relevance)
+[`IAutocompleteSerpElementItem`](../interfaces/IAutocompleteSerpElementItem.md).[`relevance`](../interfaces/IAutocompleteSerpElementItem.md#relevance)
 
-#### Defined in
+#### Source
 
-main.ts:51313
+main.ts:51321
 
-___
+***
 
-### search\_query\_url
+### search\_query\_url?
 
-• `Optional` **search\_query\_url**: `string`
+> **`optional`** **search\_query\_url**: `string`
 
 url to search results
 url to search results relevant to the google autocomplete suggestion
 
 #### Implementation of
 
-[IAutocompleteSerpElementItem](../interfaces/IAutocompleteSerpElementItem.md).[search_query_url](../interfaces/IAutocompleteSerpElementItem.md#search_query_url)
+[`IAutocompleteSerpElementItem`](../interfaces/IAutocompleteSerpElementItem.md).[`search_query_url`](../interfaces/IAutocompleteSerpElementItem.md#search_query_url)
 
-#### Defined in
+#### Source
 
-main.ts:51322
+main.ts:51330
 
-___
+***
 
-### suggestion
+### suggestion?
 
-• `Optional` **suggestion**: `string`
+> **`optional`** **suggestion**: `string`
 
 google autocomplete keyword suggestion
 
 #### Implementation of
 
-[IAutocompleteSerpElementItem](../interfaces/IAutocompleteSerpElementItem.md).[suggestion](../interfaces/IAutocompleteSerpElementItem.md#suggestion)
+[`IAutocompleteSerpElementItem`](../interfaces/IAutocompleteSerpElementItem.md).[`suggestion`](../interfaces/IAutocompleteSerpElementItem.md#suggestion)
 
-#### Defined in
+#### Source
 
-main.ts:51315
+main.ts:51323
 
-___
+***
 
-### suggestion\_type
+### suggestion\_type?
 
-• `Optional` **suggestion\_type**: `string`
+> **`optional`** **suggestion\_type**: `string`
 
 google autocomplete suggestion type
 Note: only available for the following client:
@@ -192,23 +169,21 @@ chrome/chrome-omni
 
 #### Implementation of
 
-[IAutocompleteSerpElementItem](../interfaces/IAutocompleteSerpElementItem.md).[suggestion_type](../interfaces/IAutocompleteSerpElementItem.md#suggestion_type)
+[`IAutocompleteSerpElementItem`](../interfaces/IAutocompleteSerpElementItem.md).[`suggestion_type`](../interfaces/IAutocompleteSerpElementItem.md#suggestion_type)
 
-#### Defined in
+#### Source
 
-main.ts:51319
+main.ts:51327
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -216,23 +191,21 @@ main.ts:51319
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[init](BaseSerpElementItem.md#init)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:51332
+main.ts:51340
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -240,23 +213,21 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[toJSON](BaseSerpElementItem.md#tojson)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:51360
+main.ts:51368
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AutocompleteSerpElementItem`](AutocompleteSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`AutocompleteSerpElementItem`](AutocompleteSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -264,8 +235,8 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[fromJS](BaseSerpElementItem.md#fromjs)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:51353
+main.ts:51361

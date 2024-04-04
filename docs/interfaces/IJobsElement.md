@@ -1,136 +1,122 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IJobsElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IJobsElement
 
 # Interface: IJobsElement
 
-## Implemented by
-
-- [`JobsElement`](../classes/JobsElement.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [author](IJobsElement.md#author)
-- [contract\_type](IJobsElement.md#contract_type)
-- [description](IJobsElement.md#description)
-- [job\_posted\_time](IJobsElement.md#job_posted_time)
-- [salary](IJobsElement.md#salary)
-- [timestamp](IJobsElement.md#timestamp)
-- [title](IJobsElement.md#title)
-- [type](IJobsElement.md#type)
-- [url](IJobsElement.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### author
+### author?
 
-• `Optional` **author**: `string`
+> **`optional`** **author**: `string`
 
 author
 
-#### Defined in
+#### Source
 
 main.ts:30157
 
-___
+***
 
-### contract\_type
+### contract\_type?
 
-• `Optional` **contract\_type**: `string`
+> **`optional`** **contract\_type**: `string`
 
 contract type
 
-#### Defined in
+#### Source
 
 main.ts:30166
 
-___
+***
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description
 
-#### Defined in
+#### Source
 
 main.ts:30155
 
-___
+***
 
-### job\_posted\_time
+### job\_posted\_time?
 
-• `Optional` **job\_posted\_time**: `string`
+> **`optional`** **job\_posted\_time**: `string`
 
 the time when the job was posted
 
-#### Defined in
+#### Source
 
 main.ts:30159
 
-___
+***
 
-### salary
+### salary?
 
-• `Optional` **salary**: `string`
+> **`optional`** **salary**: `string`
 
 salary
 
-#### Defined in
+#### Source
 
 main.ts:30168
 
-___
+***
 
-### timestamp
+### timestamp?
 
-• `Optional` **timestamp**: `string`
+> **`optional`** **timestamp**: `string`
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
 main.ts:30164
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
-#### Defined in
+#### Source
 
 main.ts:30153
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
 main.ts:30151
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL
 
-#### Defined in
+#### Source
 
 main.ts:30170

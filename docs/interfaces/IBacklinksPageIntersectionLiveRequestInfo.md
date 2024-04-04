@@ -1,37 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksPageIntersectionLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBacklinksPageIntersectionLiveRequestInfo
 
 # Interface: IBacklinksPageIntersectionLiveRequestInfo
 
-## Implemented by
-
-- [`BacklinksPageIntersectionLiveRequestInfo`](../classes/BacklinksPageIntersectionLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [backlinks\_status\_type](IBacklinksPageIntersectionLiveRequestInfo.md#backlinks_status_type)
-- [exclude\_targets](IBacklinksPageIntersectionLiveRequestInfo.md#exclude_targets)
-- [filters](IBacklinksPageIntersectionLiveRequestInfo.md#filters)
-- [include\_indirect\_links](IBacklinksPageIntersectionLiveRequestInfo.md#include_indirect_links)
-- [include\_subdomains](IBacklinksPageIntersectionLiveRequestInfo.md#include_subdomains)
-- [internal\_list\_limit](IBacklinksPageIntersectionLiveRequestInfo.md#internal_list_limit)
-- [intersection\_mode](IBacklinksPageIntersectionLiveRequestInfo.md#intersection_mode)
-- [limit](IBacklinksPageIntersectionLiveRequestInfo.md#limit)
-- [offset](IBacklinksPageIntersectionLiveRequestInfo.md#offset)
-- [order\_by](IBacklinksPageIntersectionLiveRequestInfo.md#order_by)
-- [tag](IBacklinksPageIntersectionLiveRequestInfo.md#tag)
-- [targets](IBacklinksPageIntersectionLiveRequestInfo.md#targets)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### backlinks\_status\_type
+### backlinks\_status\_type?
 
-• `Optional` **backlinks\_status\_type**: `string`
+> **`optional`** **backlinks\_status\_type**: `string`
 
 set what backlinks to return and count
 optional field
@@ -42,15 +25,15 @@ live – backlinks found during the last check will be returned and counted;
 lost – lost backlinks will be returned and counted;
 default value: live
 
-#### Defined in
+#### Source
 
-main.ts:142987
+main.ts:142995
 
-___
+***
 
-### exclude\_targets
+### exclude\_targets?
 
-• `Optional` **exclude\_targets**: `string`[]
+> **`optional`** **exclude\_targets**: `string`[]
 
 domains, subdomains or webpages you want to exclude
 optional field
@@ -62,25 +45,25 @@ example:
 "https://www.apple.com/iphone/*",
 "https://dataforseo.com/apis/*"]
 
-#### Defined in
+#### Source
 
-main.ts:142978
+main.ts:142986
 
-___
+***
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, =, <>, in, not_in, like, not_like, ilike, not_ilike
+regex, =, `<>`, in, not_in, like, not_like, ilike, not_ilike
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
-["1.rank",">","80"]
+["1.rank",">`","80"]
 [["2.page_from_rank",">","55"],
 "and",
 ["1.original","=","true"]]
@@ -89,15 +72,15 @@ example:
 [["1.acnhor","like","%seo%"],"or",["1.text_pre","not_like","%seo%"]]]
 The full list of possible filters is available here.
 
-#### Defined in
+#### Source
 
-main.ts:143004
+main.ts:143012
 
-___
+***
 
-### include\_indirect\_links
+### include\_indirect\_links?
 
-• `Optional` **include\_indirect\_links**: `boolean`
+> **`optional`** **include\_indirect\_links**: `boolean`
 
 indicates if indirect links to the targets will be included in the results
 optional field
@@ -105,30 +88,30 @@ if set to true, the results will include data on indirect links pointing to a pa
 if set to false, indirect links will be ignored
 default value: true
 
-#### Defined in
+#### Source
 
-main.ts:143047
+main.ts:143055
 
-___
+***
 
-### include\_subdomains
+### include\_subdomains?
 
-• `Optional` **include\_subdomains**: `boolean`
+> **`optional`** **include\_subdomains**: `boolean`
 
 indicates if the subdomains of the targets will be included in the search
 optional field
 if set to false, the subdomains will be ignored
 default value: true
 
-#### Defined in
+#### Source
 
-main.ts:143041
+main.ts:143049
 
-___
+***
 
-### internal\_list\_limit
+### internal\_list\_limit?
 
-• `Optional` **internal\_list\_limit**: `number`
+> **`optional`** **internal\_list\_limit**: `number`
 
 maximum number of elements within internal arrays
 optional field
@@ -138,15 +121,15 @@ domain_from_platform_type
 default value: 10
 maximum value: 1000
 
-#### Defined in
+#### Source
 
-main.ts:143036
+main.ts:143044
 
-___
+***
 
-### intersection\_mode
+### intersection\_mode?
 
-• `Optional` **intersection\_mode**: `string`
+> **`optional`** **intersection\_mode**: `string`
 
 indicates whether to intersect backlinks
 optional field
@@ -156,45 +139,45 @@ all – results are based on all backlinks;
 partial – results are based on the intersecting backlinks only;
 default value: all
 
-#### Defined in
+#### Source
 
-main.ts:143055
+main.ts:143063
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned backlinks
 optional field
 default value: 100
 maximum value: 1000
 
-#### Defined in
+#### Source
 
-main.ts:143028
+main.ts:143036
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of the returned backlinks
 optional field
 default value: 0
 if you specify the 10 value, the first ten backlinks in the results array will be omitted and the data will be provided for the successive backlinks
 
-#### Defined in
+#### Source
 
-main.ts:143023
+main.ts:143031
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -210,15 +193,15 @@ you should use a comma to separate several sorting rules
 example:
 ["domain_from_rank,desc","page_from_rank,asc"]
 
-#### Defined in
+#### Source
 
-main.ts:143018
+main.ts:143026
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -226,15 +209,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:143061
+main.ts:143069
 
-___
+***
 
-### targets
+### targets?
 
-• `Optional` **targets**: `Object`
+> **`optional`** **targets**: `Object`
 
 domains, subdomains or webpages to get links for
 required field
@@ -242,15 +225,15 @@ you can set up to 20 domains, subdomains or webpages
 a domain or a subdomain should be specified without https:// and www.
 a page should be specified with absolute URL (including http:// or https://)
 example:
-"targets": {
+"targets": \{
 "1": "http://planet.postgresql.org/",
 "2": "http://gborg.postgresql.org/"
-}
+\}
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
-#### Defined in
+#### Source
 
-main.ts:142968
+main.ts:142976

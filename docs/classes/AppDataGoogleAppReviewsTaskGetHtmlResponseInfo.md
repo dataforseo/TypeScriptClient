@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataGoogleAppReviewsTaskGetHtmlResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppDataGoogleAppReviewsTaskGetHtmlResponseInfo
 
 # Class: AppDataGoogleAppReviewsTaskGetHtmlResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`AppDataGoogleAppReviewsTaskGetHtmlResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](AppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md#cost)
-- [status\_code](AppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md#status_code)
-- [status\_message](AppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md#status_message)
-- [tasks](AppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md#tasks)
-- [tasks\_count](AppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md#tasks_count)
-- [tasks\_error](AppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md#tasks_error)
-- [time](AppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md#time)
-- [version](AppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md#version)
-
-### Methods
-
-- [init](AppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md#init)
-- [toJSON](AppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md#tojson)
-- [fromJS](AppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppDataGoogleAppReviewsTaskGetHtmlResponseInfo(data)
 
-• **new AppDataGoogleAppReviewsTaskGetHtmlResponseInfo**(`data?`): [`AppDataGoogleAppReviewsTaskGetHtmlResponseInfo`](AppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md)
+> **new AppDataGoogleAppReviewsTaskGetHtmlResponseInfo**(`data`?): [`AppDataGoogleAppReviewsTaskGetHtmlResponseInfo`](AppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo`](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md) |
+• **data?**: [`IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo`](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:187296
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md).[cost](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md#cost)
+[`IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo`](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md).[`cost`](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md).[status_code](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md#status_code)
+[`IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo`](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md).[`status_code`](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md).[status_message](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md#status_message)
+[`IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo`](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md).[`status_message`](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`AppDataGoogleAppReviewsTaskGetHtmlTaskInfo`](AppDataGoogleAppReviewsTaskGetHtmlTaskInfo.md)[]
+> **`optional`** **tasks**: [`AppDataGoogleAppReviewsTaskGetHtmlTaskInfo`](AppDataGoogleAppReviewsTaskGetHtmlTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md).[tasks](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md#tasks)
+[`IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo`](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md).[`tasks`](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
 main.ts:187292
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md).[tasks_count](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md#tasks_count)
+[`IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo`](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md).[`tasks_count`](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md).[tasks_error](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md#tasks_error)
+[`IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo`](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md).[`tasks_error`](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md).[time](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md#time)
+[`IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo`](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md).[`time`](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md).[version](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md#version)
+[`IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo`](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md).[`version`](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:187300
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:187322
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppDataGoogleAppReviewsTaskGetHtmlResponseInfo`](AppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`AppDataGoogleAppReviewsTaskGetHtmlResponseInfo`](AppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:187315

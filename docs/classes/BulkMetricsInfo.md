@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BulkMetricsInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BulkMetricsInfo
 
 # Class: BulkMetricsInfo
 
@@ -8,66 +12,47 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BulkMetricsInfo.md#constructor)
-
-### Properties
-
-- [count](BulkMetricsInfo.md#count)
-- [etv](BulkMetricsInfo.md#etv)
-
-### Methods
-
-- [init](BulkMetricsInfo.md#init)
-- [toJSON](BulkMetricsInfo.md#tojson)
-- [fromJS](BulkMetricsInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BulkMetricsInfo(data)
 
-• **new BulkMetricsInfo**(`data?`): [`BulkMetricsInfo`](BulkMetricsInfo.md)
+> **new BulkMetricsInfo**(`data`?): [`BulkMetricsInfo`](BulkMetricsInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBulkMetricsInfo`](../interfaces/IBulkMetricsInfo.md) |
+• **data?**: [`IBulkMetricsInfo`](../interfaces/IBulkMetricsInfo.md)
 
 #### Returns
 
 [`BulkMetricsInfo`](BulkMetricsInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:100016
+main.ts:100024
 
 ## Properties
 
-### count
+### count?
 
-• `Optional` **count**: `number`
+> **`optional`** **count**: `number`
 
 total count of organic SERPs that contain the domain
 
 #### Implementation of
 
-[IBulkMetricsInfo](../interfaces/IBulkMetricsInfo.md).[count](../interfaces/IBulkMetricsInfo.md#count)
+[`IBulkMetricsInfo`](../interfaces/IBulkMetricsInfo.md).[`count`](../interfaces/IBulkMetricsInfo.md#count)
 
-#### Defined in
+#### Source
 
-main.ts:100012
+main.ts:100020
 
-___
+***
 
-### etv
+### etv?
 
-• `Optional` **etv**: `number`
+> **`optional`** **etv**: `number`
 
 estimated traffic volume
 estimated organic monthly traffic to the domain
@@ -76,68 +61,62 @@ learn more about how the metric is calculated in this help center article
 
 #### Implementation of
 
-[IBulkMetricsInfo](../interfaces/IBulkMetricsInfo.md).[etv](../interfaces/IBulkMetricsInfo.md#etv)
+[`IBulkMetricsInfo`](../interfaces/IBulkMetricsInfo.md).[`etv`](../interfaces/IBulkMetricsInfo.md#etv)
 
-#### Defined in
+#### Source
 
-main.ts:100010
+main.ts:100018
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:100025
+main.ts:100033
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:100043
+main.ts:100051
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BulkMetricsInfo`](BulkMetricsInfo.md)
+> **`static`** **fromJS**(`data`): [`BulkMetricsInfo`](BulkMetricsInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BulkMetricsInfo`](BulkMetricsInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:100036
+main.ts:100044

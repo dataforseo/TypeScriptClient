@@ -1,56 +1,48 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonBulkSearchVolumeLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsAmazonBulkSearchVolumeLiveItem
 
 # Interface: IDataforseoLabsAmazonBulkSearchVolumeLiveItem
 
-## Implemented by
-
-- [`DataforseoLabsAmazonBulkSearchVolumeLiveItem`](../classes/DataforseoLabsAmazonBulkSearchVolumeLiveItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [keyword](IDataforseoLabsAmazonBulkSearchVolumeLiveItem.md#keyword)
-- [se\_type](IDataforseoLabsAmazonBulkSearchVolumeLiveItem.md#se_type)
-- [search\_volume](IDataforseoLabsAmazonBulkSearchVolumeLiveItem.md#search_volume)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:101231
+main.ts:101239
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:101229
+main.ts:101237
 
-___
+***
 
-### search\_volume
+### search\_volume?
 
-• `Optional` **search\_volume**: `number`
+> **`optional`** **search\_volume**: `number`
 
 average monthly search volume rate
 represents the (approximate) number of searches for the returned keyword on Amazon
 
-#### Defined in
+#### Source
 
-main.ts:101234
+main.ts:101242

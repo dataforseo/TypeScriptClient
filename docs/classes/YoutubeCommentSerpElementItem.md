@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / YoutubeCommentSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / YoutubeCommentSerpElementItem
 
 # Class: YoutubeCommentSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-  ↳ **`YoutubeCommentSerpElementItem`**
 
 ## Implements
 
@@ -14,45 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](YoutubeCommentSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](YoutubeCommentSerpElementItem.md#_discriminator)
-- [author\_name](YoutubeCommentSerpElementItem.md#author_name)
-- [author\_thumbnail](YoutubeCommentSerpElementItem.md#author_thumbnail)
-- [author\_url](YoutubeCommentSerpElementItem.md#author_url)
-- [likes\_count](YoutubeCommentSerpElementItem.md#likes_count)
-- [publication\_date](YoutubeCommentSerpElementItem.md#publication_date)
-- [rank\_absolute](YoutubeCommentSerpElementItem.md#rank_absolute)
-- [rank\_group](YoutubeCommentSerpElementItem.md#rank_group)
-- [reply\_count](YoutubeCommentSerpElementItem.md#reply_count)
-- [text](YoutubeCommentSerpElementItem.md#text)
-- [timestamp](YoutubeCommentSerpElementItem.md#timestamp)
-
-### Methods
-
-- [init](YoutubeCommentSerpElementItem.md#init)
-- [toJSON](YoutubeCommentSerpElementItem.md#tojson)
-- [fromJS](YoutubeCommentSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new YoutubeCommentSerpElementItem(data)
 
-• **new YoutubeCommentSerpElementItem**(`data?`): [`YoutubeCommentSerpElementItem`](YoutubeCommentSerpElementItem.md)
+> **new YoutubeCommentSerpElementItem**(`data`?): [`YoutubeCommentSerpElementItem`](YoutubeCommentSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IYoutubeCommentSerpElementItem`](../interfaces/IYoutubeCommentSerpElementItem.md) |
+• **data?**: [`IYoutubeCommentSerpElementItem`](../interfaces/IYoutubeCommentSerpElementItem.md)
 
 #### Returns
 
@@ -60,128 +34,128 @@
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[constructor](BaseSerpElementItem.md#constructor)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:64229
+main.ts:64237
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[_discriminator](BaseSerpElementItem.md#_discriminator)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:19788
 
-___
+***
 
-### author\_name
+### author\_name?
 
-• `Optional` **author\_name**: `string`
+> **`optional`** **author\_name**: `string`
 
 name of the author of the comment
 
 #### Implementation of
 
-[IYoutubeCommentSerpElementItem](../interfaces/IYoutubeCommentSerpElementItem.md).[author_name](../interfaces/IYoutubeCommentSerpElementItem.md#author_name)
+[`IYoutubeCommentSerpElementItem`](../interfaces/IYoutubeCommentSerpElementItem.md).[`author_name`](../interfaces/IYoutubeCommentSerpElementItem.md#author_name)
 
-#### Defined in
+#### Source
 
-main.ts:64208
+main.ts:64216
 
-___
+***
 
-### author\_thumbnail
+### author\_thumbnail?
 
-• `Optional` **author\_thumbnail**: `string`
+> **`optional`** **author\_thumbnail**: `string`
 
 the URL of the page where the author’s channel logo is hosted
 
 #### Implementation of
 
-[IYoutubeCommentSerpElementItem](../interfaces/IYoutubeCommentSerpElementItem.md).[author_thumbnail](../interfaces/IYoutubeCommentSerpElementItem.md#author_thumbnail)
+[`IYoutubeCommentSerpElementItem`](../interfaces/IYoutubeCommentSerpElementItem.md).[`author_thumbnail`](../interfaces/IYoutubeCommentSerpElementItem.md#author_thumbnail)
 
-#### Defined in
+#### Source
 
-main.ts:64210
+main.ts:64218
 
-___
+***
 
-### author\_url
+### author\_url?
 
-• `Optional` **author\_url**: `string`
+> **`optional`** **author\_url**: `string`
 
 URL of the author’s channel
 
 #### Implementation of
 
-[IYoutubeCommentSerpElementItem](../interfaces/IYoutubeCommentSerpElementItem.md).[author_url](../interfaces/IYoutubeCommentSerpElementItem.md#author_url)
+[`IYoutubeCommentSerpElementItem`](../interfaces/IYoutubeCommentSerpElementItem.md).[`author_url`](../interfaces/IYoutubeCommentSerpElementItem.md#author_url)
 
-#### Defined in
+#### Source
 
-main.ts:64212
+main.ts:64220
 
-___
+***
 
-### likes\_count
+### likes\_count?
 
-• `Optional` **likes\_count**: `number`
+> **`optional`** **likes\_count**: `number`
 
 number of likes on the comment
 
 #### Implementation of
 
-[IYoutubeCommentSerpElementItem](../interfaces/IYoutubeCommentSerpElementItem.md).[likes_count](../interfaces/IYoutubeCommentSerpElementItem.md#likes_count)
+[`IYoutubeCommentSerpElementItem`](../interfaces/IYoutubeCommentSerpElementItem.md).[`likes_count`](../interfaces/IYoutubeCommentSerpElementItem.md#likes_count)
 
-#### Defined in
+#### Source
 
-main.ts:64223
+main.ts:64231
 
-___
+***
 
-### publication\_date
+### publication\_date?
 
-• `Optional` **publication\_date**: `string`
+> **`optional`** **publication\_date**: `string`
 
 displayed publication date
 
 #### Implementation of
 
-[IYoutubeCommentSerpElementItem](../interfaces/IYoutubeCommentSerpElementItem.md).[publication_date](../interfaces/IYoutubeCommentSerpElementItem.md#publication_date)
+[`IYoutubeCommentSerpElementItem`](../interfaces/IYoutubeCommentSerpElementItem.md).[`publication_date`](../interfaces/IYoutubeCommentSerpElementItem.md#publication_date)
 
-#### Defined in
+#### Source
 
-main.ts:64216
+main.ts:64224
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP for the target domain
 absolute position among all the elements in SERP
 
 #### Implementation of
 
-[IYoutubeCommentSerpElementItem](../interfaces/IYoutubeCommentSerpElementItem.md).[rank_absolute](../interfaces/IYoutubeCommentSerpElementItem.md#rank_absolute)
+[`IYoutubeCommentSerpElementItem`](../interfaces/IYoutubeCommentSerpElementItem.md).[`rank_absolute`](../interfaces/IYoutubeCommentSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:64206
+main.ts:64214
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -189,49 +163,49 @@ positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
-[IYoutubeCommentSerpElementItem](../interfaces/IYoutubeCommentSerpElementItem.md).[rank_group](../interfaces/IYoutubeCommentSerpElementItem.md#rank_group)
+[`IYoutubeCommentSerpElementItem`](../interfaces/IYoutubeCommentSerpElementItem.md).[`rank_group`](../interfaces/IYoutubeCommentSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
-main.ts:64203
+main.ts:64211
 
-___
+***
 
-### reply\_count
+### reply\_count?
 
-• `Optional` **reply\_count**: `number`
+> **`optional`** **reply\_count**: `number`
 
 number of replies on the comment
 
 #### Implementation of
 
-[IYoutubeCommentSerpElementItem](../interfaces/IYoutubeCommentSerpElementItem.md).[reply_count](../interfaces/IYoutubeCommentSerpElementItem.md#reply_count)
+[`IYoutubeCommentSerpElementItem`](../interfaces/IYoutubeCommentSerpElementItem.md).[`reply_count`](../interfaces/IYoutubeCommentSerpElementItem.md#reply_count)
 
-#### Defined in
+#### Source
 
-main.ts:64225
+main.ts:64233
 
-___
+***
 
-### text
+### text?
 
-• `Optional` **text**: `string`
+> **`optional`** **text**: `string`
 
 text of the comment
 
 #### Implementation of
 
-[IYoutubeCommentSerpElementItem](../interfaces/IYoutubeCommentSerpElementItem.md).[text](../interfaces/IYoutubeCommentSerpElementItem.md#text)
+[`IYoutubeCommentSerpElementItem`](../interfaces/IYoutubeCommentSerpElementItem.md).[`text`](../interfaces/IYoutubeCommentSerpElementItem.md#text)
 
-#### Defined in
+#### Source
 
-main.ts:64214
+main.ts:64222
 
-___
+***
 
-### timestamp
+### timestamp?
 
-• `Optional` **timestamp**: `string`
+> **`optional`** **timestamp**: `string`
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -240,23 +214,21 @@ example:
 
 #### Implementation of
 
-[IYoutubeCommentSerpElementItem](../interfaces/IYoutubeCommentSerpElementItem.md).[timestamp](../interfaces/IYoutubeCommentSerpElementItem.md#timestamp)
+[`IYoutubeCommentSerpElementItem`](../interfaces/IYoutubeCommentSerpElementItem.md).[`timestamp`](../interfaces/IYoutubeCommentSerpElementItem.md#timestamp)
 
-#### Defined in
+#### Source
 
-main.ts:64221
+main.ts:64229
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -264,23 +236,21 @@ main.ts:64221
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[init](BaseSerpElementItem.md#init)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:64234
+main.ts:64242
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -288,23 +258,21 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[toJSON](BaseSerpElementItem.md#tojson)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:64261
+main.ts:64269
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`YoutubeCommentSerpElementItem`](YoutubeCommentSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`YoutubeCommentSerpElementItem`](YoutubeCommentSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -312,8 +280,8 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[fromJS](BaseSerpElementItem.md#fromjs)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:64254
+main.ts:64262

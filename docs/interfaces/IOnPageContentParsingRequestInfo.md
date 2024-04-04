@@ -1,27 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageContentParsingRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IOnPageContentParsingRequestInfo
 
 # Interface: IOnPageContentParsingRequestInfo
 
-## Implemented by
-
-- [`OnPageContentParsingRequestInfo`](../classes/OnPageContentParsingRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [id](IOnPageContentParsingRequestInfo.md#id)
-- [url](IOnPageContentParsingRequestInfo.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 ID of the task
 required field
@@ -30,15 +23,15 @@ note: the enable_content_parsing parameter in the POST request must be set to tr
 example:
 "07131248-1535-0216-1000-17384017ad04"
 
-#### Defined in
+#### Source
 
-main.ts:157375
+main.ts:157383
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL of the content to parse
 required field
@@ -46,6 +39,6 @@ URL of the page to parse
 example:
 https://www.fujielectric.com/
 
-#### Defined in
+#### Source
 
-main.ts:157368
+main.ts:157376

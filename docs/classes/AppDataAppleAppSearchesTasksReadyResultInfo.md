@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataAppleAppSearchesTasksReadyResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppDataAppleAppSearchesTasksReadyResultInfo
 
 # Class: AppDataAppleAppSearchesTasksReadyResultInfo
 
@@ -8,203 +12,174 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppDataAppleAppSearchesTasksReadyResultInfo.md#constructor)
-
-### Properties
-
-- [date\_posted](AppDataAppleAppSearchesTasksReadyResultInfo.md#date_posted)
-- [endpoint\_advanced](AppDataAppleAppSearchesTasksReadyResultInfo.md#endpoint_advanced)
-- [endpoint\_html](AppDataAppleAppSearchesTasksReadyResultInfo.md#endpoint_html)
-- [id](AppDataAppleAppSearchesTasksReadyResultInfo.md#id)
-- [se](AppDataAppleAppSearchesTasksReadyResultInfo.md#se)
-- [tag](AppDataAppleAppSearchesTasksReadyResultInfo.md#tag)
-
-### Methods
-
-- [init](AppDataAppleAppSearchesTasksReadyResultInfo.md#init)
-- [toJSON](AppDataAppleAppSearchesTasksReadyResultInfo.md#tojson)
-- [fromJS](AppDataAppleAppSearchesTasksReadyResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppDataAppleAppSearchesTasksReadyResultInfo(data)
 
-• **new AppDataAppleAppSearchesTasksReadyResultInfo**(`data?`): [`AppDataAppleAppSearchesTasksReadyResultInfo`](AppDataAppleAppSearchesTasksReadyResultInfo.md)
+> **new AppDataAppleAppSearchesTasksReadyResultInfo**(`data`?): [`AppDataAppleAppSearchesTasksReadyResultInfo`](AppDataAppleAppSearchesTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppDataAppleAppSearchesTasksReadyResultInfo`](../interfaces/IAppDataAppleAppSearchesTasksReadyResultInfo.md) |
+• **data?**: [`IAppDataAppleAppSearchesTasksReadyResultInfo`](../interfaces/IAppDataAppleAppSearchesTasksReadyResultInfo.md)
 
 #### Returns
 
 [`AppDataAppleAppSearchesTasksReadyResultInfo`](AppDataAppleAppSearchesTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:188907
 
 ## Properties
 
-### date\_posted
+### date\_posted?
 
-• `Optional` **date\_posted**: `string`
+> **`optional`** **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
 #### Implementation of
 
-[IAppDataAppleAppSearchesTasksReadyResultInfo](../interfaces/IAppDataAppleAppSearchesTasksReadyResultInfo.md).[date_posted](../interfaces/IAppDataAppleAppSearchesTasksReadyResultInfo.md#date_posted)
+[`IAppDataAppleAppSearchesTasksReadyResultInfo`](../interfaces/IAppDataAppleAppSearchesTasksReadyResultInfo.md).[`date_posted`](../interfaces/IAppDataAppleAppSearchesTasksReadyResultInfo.md#date_posted)
 
-#### Defined in
+#### Source
 
 main.ts:188896
 
-___
+***
 
-### endpoint\_advanced
+### endpoint\_advanced?
 
-• `Optional` **endpoint\_advanced**: `string`
+> **`optional`** **endpoint\_advanced**: `string`
 
 URL for collecting the results of the Apple App Searches task
 
 #### Implementation of
 
-[IAppDataAppleAppSearchesTasksReadyResultInfo](../interfaces/IAppDataAppleAppSearchesTasksReadyResultInfo.md).[endpoint_advanced](../interfaces/IAppDataAppleAppSearchesTasksReadyResultInfo.md#endpoint_advanced)
+[`IAppDataAppleAppSearchesTasksReadyResultInfo`](../interfaces/IAppDataAppleAppSearchesTasksReadyResultInfo.md).[`endpoint_advanced`](../interfaces/IAppDataAppleAppSearchesTasksReadyResultInfo.md#endpoint_advanced)
 
-#### Defined in
+#### Source
 
 main.ts:188900
 
-___
+***
 
-### endpoint\_html
+### endpoint\_html?
 
-• `Optional` **endpoint\_html**: `string`
+> **`optional`** **endpoint\_html**: `string`
 
 URL for collecting the results of the Apple App Searches HTML task
 if HTML tasks are not supported in the specified endpoint, the value will be null
 
 #### Implementation of
 
-[IAppDataAppleAppSearchesTasksReadyResultInfo](../interfaces/IAppDataAppleAppSearchesTasksReadyResultInfo.md).[endpoint_html](../interfaces/IAppDataAppleAppSearchesTasksReadyResultInfo.md#endpoint_html)
+[`IAppDataAppleAppSearchesTasksReadyResultInfo`](../interfaces/IAppDataAppleAppSearchesTasksReadyResultInfo.md).[`endpoint_html`](../interfaces/IAppDataAppleAppSearchesTasksReadyResultInfo.md#endpoint_html)
 
-#### Defined in
+#### Source
 
 main.ts:188903
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IAppDataAppleAppSearchesTasksReadyResultInfo](../interfaces/IAppDataAppleAppSearchesTasksReadyResultInfo.md).[id](../interfaces/IAppDataAppleAppSearchesTasksReadyResultInfo.md#id)
+[`IAppDataAppleAppSearchesTasksReadyResultInfo`](../interfaces/IAppDataAppleAppSearchesTasksReadyResultInfo.md).[`id`](../interfaces/IAppDataAppleAppSearchesTasksReadyResultInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:188892
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 
 #### Implementation of
 
-[IAppDataAppleAppSearchesTasksReadyResultInfo](../interfaces/IAppDataAppleAppSearchesTasksReadyResultInfo.md).[se](../interfaces/IAppDataAppleAppSearchesTasksReadyResultInfo.md#se)
+[`IAppDataAppleAppSearchesTasksReadyResultInfo`](../interfaces/IAppDataAppleAppSearchesTasksReadyResultInfo.md).[`se`](../interfaces/IAppDataAppleAppSearchesTasksReadyResultInfo.md#se)
 
-#### Defined in
+#### Source
 
 main.ts:188894
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
 #### Implementation of
 
-[IAppDataAppleAppSearchesTasksReadyResultInfo](../interfaces/IAppDataAppleAppSearchesTasksReadyResultInfo.md).[tag](../interfaces/IAppDataAppleAppSearchesTasksReadyResultInfo.md#tag)
+[`IAppDataAppleAppSearchesTasksReadyResultInfo`](../interfaces/IAppDataAppleAppSearchesTasksReadyResultInfo.md).[`tag`](../interfaces/IAppDataAppleAppSearchesTasksReadyResultInfo.md#tag)
 
-#### Defined in
+#### Source
 
 main.ts:188898
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:188916
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:188938
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppDataAppleAppSearchesTasksReadyResultInfo`](AppDataAppleAppSearchesTasksReadyResultInfo.md)
+> **`static`** **fromJS**(`data`): [`AppDataAppleAppSearchesTasksReadyResultInfo`](AppDataAppleAppSearchesTasksReadyResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppDataAppleAppSearchesTasksReadyResultInfo`](AppDataAppleAppSearchesTasksReadyResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:188931

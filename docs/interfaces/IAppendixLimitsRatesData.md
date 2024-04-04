@@ -1,38 +1,31 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixLimitsRatesData
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppendixLimitsRatesData
 
 # Interface: IAppendixLimitsRatesData
 
-## Implemented by
-
-- [`AppendixLimitsRatesData`](../classes/AppendixLimitsRatesData.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [day](IAppendixLimitsRatesData.md#day)
-- [minute](IAppendixLimitsRatesData.md#minute)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### day
+### day?
 
-• `Optional` **day**: [`AppendixDayLimitsRatesData`](../classes/AppendixDayLimitsRatesData.md)
+> **`optional`** **day**: [`AppendixDayLimitsRatesData`](../classes/AppendixDayLimitsRatesData.md)
 
-#### Defined in
+#### Source
 
 main.ts:214647
 
-___
+***
 
-### minute
+### minute?
 
-• `Optional` **minute**: [`AppendixDataInfo`](../classes/AppendixDataInfo.md)
+> **`optional`** **minute**: [`AppendixDataInfo`](../classes/AppendixDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:214648

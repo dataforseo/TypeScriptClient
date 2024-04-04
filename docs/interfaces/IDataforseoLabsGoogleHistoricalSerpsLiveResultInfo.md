@@ -1,108 +1,96 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo
 
-## Implemented by
-
-- [`DataforseoLabsGoogleHistoricalSerpsLiveResultInfo`](../classes/DataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md#items)
-- [items\_count](IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md#items_count)
-- [keyword](IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md#keyword)
-- [language\_code](IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md#language_code)
-- [location\_code](IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md#location_code)
-- [se\_type](IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md#se_type)
-- [total\_count](IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md#total_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`DataforseoLabsGoogleHistoricalSerpsLiveItem`](../classes/DataforseoLabsGoogleHistoricalSerpsLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsGoogleHistoricalSerpsLiveItem`](../classes/DataforseoLabsGoogleHistoricalSerpsLiveItem.md)[]
 
 contains results featured in the ‘hotels_pack’ element of SERP
 
-#### Defined in
+#### Source
 
-main.ts:94714
+main.ts:94722
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Defined in
+#### Source
 
-main.ts:94712
+main.ts:94720
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword received in a POST array
 the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
 
-#### Defined in
+#### Source
 
-main.ts:94704
+main.ts:94712
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:94708
+main.ts:94716
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:94706
+main.ts:94714
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:94701
+main.ts:94709
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 the number of results returned in the items array
 
-#### Defined in
+#### Source
 
-main.ts:94710
+main.ts:94718

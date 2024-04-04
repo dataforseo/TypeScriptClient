@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixSerpPriceDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppendixSerpPriceDataInfo
 
 # Class: AppendixSerpPriceDataInfo
 
@@ -8,144 +12,118 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixSerpPriceDataInfo.md#constructor)
-
-### Properties
-
-- [advanced](AppendixSerpPriceDataInfo.md#advanced)
-- [html](AppendixSerpPriceDataInfo.md#html)
-- [regular](AppendixSerpPriceDataInfo.md#regular)
-
-### Methods
-
-- [init](AppendixSerpPriceDataInfo.md#init)
-- [toJSON](AppendixSerpPriceDataInfo.md#tojson)
-- [fromJS](AppendixSerpPriceDataInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixSerpPriceDataInfo(data)
 
-• **new AppendixSerpPriceDataInfo**(`data?`): [`AppendixSerpPriceDataInfo`](AppendixSerpPriceDataInfo.md)
+> **new AppendixSerpPriceDataInfo**(`data`?): [`AppendixSerpPriceDataInfo`](AppendixSerpPriceDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixSerpPriceDataInfo`](../interfaces/IAppendixSerpPriceDataInfo.md) |
+• **data?**: [`IAppendixSerpPriceDataInfo`](../interfaces/IAppendixSerpPriceDataInfo.md)
 
 #### Returns
 
 [`AppendixSerpPriceDataInfo`](AppendixSerpPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:216146
 
 ## Properties
 
-### advanced
+### advanced?
 
-• `Optional` **advanced**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **advanced**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixSerpPriceDataInfo](../interfaces/IAppendixSerpPriceDataInfo.md).[advanced](../interfaces/IAppendixSerpPriceDataInfo.md#advanced)
+[`IAppendixSerpPriceDataInfo`](../interfaces/IAppendixSerpPriceDataInfo.md).[`advanced`](../interfaces/IAppendixSerpPriceDataInfo.md#advanced)
 
-#### Defined in
+#### Source
 
 main.ts:216140
 
-___
+***
 
-### html
+### html?
 
-• `Optional` **html**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **html**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixSerpPriceDataInfo](../interfaces/IAppendixSerpPriceDataInfo.md).[html](../interfaces/IAppendixSerpPriceDataInfo.md#html)
+[`IAppendixSerpPriceDataInfo`](../interfaces/IAppendixSerpPriceDataInfo.md).[`html`](../interfaces/IAppendixSerpPriceDataInfo.md#html)
 
-#### Defined in
+#### Source
 
 main.ts:216142
 
-___
+***
 
-### regular
+### regular?
 
-• `Optional` **regular**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **regular**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixSerpPriceDataInfo](../interfaces/IAppendixSerpPriceDataInfo.md).[regular](../interfaces/IAppendixSerpPriceDataInfo.md#regular)
+[`IAppendixSerpPriceDataInfo`](../interfaces/IAppendixSerpPriceDataInfo.md).[`regular`](../interfaces/IAppendixSerpPriceDataInfo.md#regular)
 
-#### Defined in
+#### Source
 
 main.ts:216141
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:216155
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:216174
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppendixSerpPriceDataInfo`](AppendixSerpPriceDataInfo.md)
+> **`static`** **fromJS**(`data`): [`AppendixSerpPriceDataInfo`](AppendixSerpPriceDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppendixSerpPriceDataInfo`](AppendixSerpPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:216167

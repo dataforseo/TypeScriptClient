@@ -1,37 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleAdsSearchVolumeLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IKeywordsDataGoogleAdsSearchVolumeLiveResultInfo
 
 # Interface: IKeywordsDataGoogleAdsSearchVolumeLiveResultInfo
 
-## Implemented by
-
-- [`KeywordsDataGoogleAdsSearchVolumeLiveResultInfo`](../classes/KeywordsDataGoogleAdsSearchVolumeLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [competition](IKeywordsDataGoogleAdsSearchVolumeLiveResultInfo.md#competition)
-- [competition\_index](IKeywordsDataGoogleAdsSearchVolumeLiveResultInfo.md#competition_index)
-- [cpc](IKeywordsDataGoogleAdsSearchVolumeLiveResultInfo.md#cpc)
-- [high\_top\_of\_page\_bid](IKeywordsDataGoogleAdsSearchVolumeLiveResultInfo.md#high_top_of_page_bid)
-- [keyword](IKeywordsDataGoogleAdsSearchVolumeLiveResultInfo.md#keyword)
-- [language\_code](IKeywordsDataGoogleAdsSearchVolumeLiveResultInfo.md#language_code)
-- [location\_code](IKeywordsDataGoogleAdsSearchVolumeLiveResultInfo.md#location_code)
-- [low\_top\_of\_page\_bid](IKeywordsDataGoogleAdsSearchVolumeLiveResultInfo.md#low_top_of_page_bid)
-- [monthly\_searches](IKeywordsDataGoogleAdsSearchVolumeLiveResultInfo.md#monthly_searches)
-- [search\_partners](IKeywordsDataGoogleAdsSearchVolumeLiveResultInfo.md#search_partners)
-- [search\_volume](IKeywordsDataGoogleAdsSearchVolumeLiveResultInfo.md#search_volume)
-- [spell](IKeywordsDataGoogleAdsSearchVolumeLiveResultInfo.md#spell)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### competition
+### competition?
 
-• `Optional` **competition**: `string`
+> **`optional`** **competition**: `string`
 
 competition
 represents the relative amount of competition associated with the given keyword in paid SERP only;
@@ -39,15 +22,15 @@ this value is based on Google Ads data and can take the following values: HIGH, 
 if there is no data the value is null;
 learn more about the metric in this help center article
 
-#### Defined in
+#### Source
 
-main.ts:116549
+main.ts:116557
 
-___
+***
 
-### competition\_index
+### competition\_index?
 
-• `Optional` **competition\_index**: `number`
+> **`optional`** **competition\_index**: `number`
 
 competition
 represents the relative amount of competition associated with the given keyword in paid SERP only;
@@ -55,139 +38,139 @@ this value is based on Google Ads data and can be between 0 and 100 (inclusive);
 if there is no data the value is null;
 learn more about the metric in this help center article
 
-#### Defined in
+#### Source
 
-main.ts:116555
+main.ts:116563
 
-___
+***
 
-### cpc
+### cpc?
 
-• `Optional` **cpc**: `number`
+> **`optional`** **cpc**: `number`
 
 cost per click
 indicates the amount paid for each click on the ad displayed for a given keyword
 
-#### Defined in
+#### Source
 
-main.ts:116570
+main.ts:116578
 
-___
+***
 
-### high\_top\_of\_page\_bid
+### high\_top\_of\_page\_bid?
 
-• `Optional` **high\_top\_of\_page\_bid**: `number`
+> **`optional`** **high\_top\_of\_page\_bid**: `number`
 
 maximum bid for the ad to be displayed at the top of the first page
 indicates the value greater than about 80% of the lowest bids for which ads were displayed (based on Google Ads statistics for advertisers);
 the value may differ depending on the location specified in a POST request
 
-#### Defined in
+#### Source
 
-main.ts:116567
+main.ts:116575
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
 
-#### Defined in
+#### Source
 
-main.ts:116532
+main.ts:116540
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 if there is no data, then the value is null
 
-#### Defined in
+#### Source
 
-main.ts:116541
+main.ts:116549
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 if there is no data, then the value is null
 
-#### Defined in
+#### Source
 
-main.ts:116538
+main.ts:116546
 
-___
+***
 
-### low\_top\_of\_page\_bid
+### low\_top\_of\_page\_bid?
 
-• `Optional` **low\_top\_of\_page\_bid**: `number`
+> **`optional`** **low\_top\_of\_page\_bid**: `number`
 
 minimum bid for the ad to be displayed at the top of the first page
 indicates the value greater than about 20% of the lowest bids for which ads were displayed (based on Google Ads statistics for advertisers);
 the value may differ depending on the location specified in a POST request
 
-#### Defined in
+#### Source
 
-main.ts:116563
+main.ts:116571
 
-___
+***
 
-### monthly\_searches
+### monthly\_searches?
 
-• `Optional` **monthly\_searches**: [`MonthlySearches`](../classes/MonthlySearches.md)[]
+> **`optional`** **monthly\_searches**: [`MonthlySearches`](../classes/MonthlySearches.md)[]
 
 monthly searches
 represents the (approximate) number of searches on this keyword idea (as available for the past twelve months by default), targeted to the specified geographic locations;
 if there is no data then the value is null
 
-#### Defined in
+#### Source
 
-main.ts:116574
+main.ts:116582
 
-___
+***
 
-### search\_partners
+### search\_partners?
 
-• `Optional` **search\_partners**: `boolean`
+> **`optional`** **search\_partners**: `boolean`
 
 indicates whether data from partner networks included in the response
 
-#### Defined in
+#### Source
 
-main.ts:116543
+main.ts:116551
 
-___
+***
 
-### search\_volume
+### search\_volume?
 
-• `Optional` **search\_volume**: `number`
+> **`optional`** **search\_volume**: `number`
 
 monthly average search volume rate;
 represents either the (approximate) number of searches for the given keyword idea on google.com or google.com and partners, depending on the user’s targeting;
 if there is no data then the value is null
 
-#### Defined in
+#### Source
 
-main.ts:116559
+main.ts:116567
 
-___
+***
 
-### spell
+### spell?
 
-• `Optional` **spell**: [`SpellInfo`](../classes/SpellInfo.md)
+> **`optional`** **spell**: [`SpellInfo`](../classes/SpellInfo.md)
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
 
-#### Defined in
+#### Source
 
-main.ts:116535
+main.ts:116543

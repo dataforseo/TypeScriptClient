@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpSeznamLanguagesResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpSeznamLanguagesResultInfo
 
 # Class: SerpSeznamLanguagesResultInfo
 
@@ -8,133 +12,108 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpSeznamLanguagesResultInfo.md#constructor)
-
-### Properties
-
-- [language\_code](SerpSeznamLanguagesResultInfo.md#language_code)
-- [language\_name](SerpSeznamLanguagesResultInfo.md#language_name)
-
-### Methods
-
-- [init](SerpSeznamLanguagesResultInfo.md#init)
-- [toJSON](SerpSeznamLanguagesResultInfo.md#tojson)
-- [fromJS](SerpSeznamLanguagesResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpSeznamLanguagesResultInfo(data)
 
-• **new SerpSeznamLanguagesResultInfo**(`data?`): [`SerpSeznamLanguagesResultInfo`](SerpSeznamLanguagesResultInfo.md)
+> **new SerpSeznamLanguagesResultInfo**(`data`?): [`SerpSeznamLanguagesResultInfo`](SerpSeznamLanguagesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpSeznamLanguagesResultInfo`](../interfaces/ISerpSeznamLanguagesResultInfo.md) |
+• **data?**: [`ISerpSeznamLanguagesResultInfo`](../interfaces/ISerpSeznamLanguagesResultInfo.md)
 
 #### Returns
 
 [`SerpSeznamLanguagesResultInfo`](SerpSeznamLanguagesResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:71513
+main.ts:71521
 
 ## Properties
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code according to ISO 639-1
 
 #### Implementation of
 
-[ISerpSeznamLanguagesResultInfo](../interfaces/ISerpSeznamLanguagesResultInfo.md).[language_code](../interfaces/ISerpSeznamLanguagesResultInfo.md#language_code)
+[`ISerpSeznamLanguagesResultInfo`](../interfaces/ISerpSeznamLanguagesResultInfo.md).[`language_code`](../interfaces/ISerpSeznamLanguagesResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:71509
+main.ts:71517
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 language name
 
 #### Implementation of
 
-[ISerpSeznamLanguagesResultInfo](../interfaces/ISerpSeznamLanguagesResultInfo.md).[language_name](../interfaces/ISerpSeznamLanguagesResultInfo.md#language_name)
+[`ISerpSeznamLanguagesResultInfo`](../interfaces/ISerpSeznamLanguagesResultInfo.md).[`language_name`](../interfaces/ISerpSeznamLanguagesResultInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:71507
+main.ts:71515
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:71522
+main.ts:71530
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:71540
+main.ts:71548
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpSeznamLanguagesResultInfo`](SerpSeznamLanguagesResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpSeznamLanguagesResultInfo`](SerpSeznamLanguagesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpSeznamLanguagesResultInfo`](SerpSeznamLanguagesResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:71533
+main.ts:71541

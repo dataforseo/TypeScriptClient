@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageLighthouseAuditsTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPageLighthouseAuditsTaskInfo
 
 # Class: OnPageLighthouseAuditsTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`OnPageLighthouseAuditsTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPageLighthouseAuditsTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](OnPageLighthouseAuditsTaskInfo.md#cost)
-- [data](OnPageLighthouseAuditsTaskInfo.md#data)
-- [id](OnPageLighthouseAuditsTaskInfo.md#id)
-- [path](OnPageLighthouseAuditsTaskInfo.md#path)
-- [result](OnPageLighthouseAuditsTaskInfo.md#result)
-- [result\_count](OnPageLighthouseAuditsTaskInfo.md#result_count)
-- [status\_code](OnPageLighthouseAuditsTaskInfo.md#status_code)
-- [status\_message](OnPageLighthouseAuditsTaskInfo.md#status_message)
-- [time](OnPageLighthouseAuditsTaskInfo.md#time)
-
-### Methods
-
-- [init](OnPageLighthouseAuditsTaskInfo.md#init)
-- [toJSON](OnPageLighthouseAuditsTaskInfo.md#tojson)
-- [fromJS](OnPageLighthouseAuditsTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPageLighthouseAuditsTaskInfo(data)
 
-• **new OnPageLighthouseAuditsTaskInfo**(`data?`): [`OnPageLighthouseAuditsTaskInfo`](OnPageLighthouseAuditsTaskInfo.md)
+> **new OnPageLighthouseAuditsTaskInfo**(`data`?): [`OnPageLighthouseAuditsTaskInfo`](OnPageLighthouseAuditsTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPageLighthouseAuditsTaskInfo`](../interfaces/IOnPageLighthouseAuditsTaskInfo.md) |
+• **data?**: [`IOnPageLighthouseAuditsTaskInfo`](../interfaces/IOnPageLighthouseAuditsTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:159170
+main.ts:159178
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IOnPageLighthouseAuditsTaskInfo](../interfaces/IOnPageLighthouseAuditsTaskInfo.md).[cost](../interfaces/IOnPageLighthouseAuditsTaskInfo.md#cost)
+[`IOnPageLighthouseAuditsTaskInfo`](../interfaces/IOnPageLighthouseAuditsTaskInfo.md).[`cost`](../interfaces/IOnPageLighthouseAuditsTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[IOnPageLighthouseAuditsTaskInfo](../interfaces/IOnPageLighthouseAuditsTaskInfo.md).[data](../interfaces/IOnPageLighthouseAuditsTaskInfo.md#data)
+[`IOnPageLighthouseAuditsTaskInfo`](../interfaces/IOnPageLighthouseAuditsTaskInfo.md).[`data`](../interfaces/IOnPageLighthouseAuditsTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IOnPageLighthouseAuditsTaskInfo](../interfaces/IOnPageLighthouseAuditsTaskInfo.md).[id](../interfaces/IOnPageLighthouseAuditsTaskInfo.md#id)
+[`IOnPageLighthouseAuditsTaskInfo`](../interfaces/IOnPageLighthouseAuditsTaskInfo.md).[`id`](../interfaces/IOnPageLighthouseAuditsTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[IOnPageLighthouseAuditsTaskInfo](../interfaces/IOnPageLighthouseAuditsTaskInfo.md).[path](../interfaces/IOnPageLighthouseAuditsTaskInfo.md#path)
+[`IOnPageLighthouseAuditsTaskInfo`](../interfaces/IOnPageLighthouseAuditsTaskInfo.md).[`path`](../interfaces/IOnPageLighthouseAuditsTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`OnPageLighthouseAuditsResultInfo`](OnPageLighthouseAuditsResultInfo.md)[]
+> **`optional`** **result**: [`OnPageLighthouseAuditsResultInfo`](OnPageLighthouseAuditsResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[IOnPageLighthouseAuditsTaskInfo](../interfaces/IOnPageLighthouseAuditsTaskInfo.md).[result](../interfaces/IOnPageLighthouseAuditsTaskInfo.md#result)
+[`IOnPageLighthouseAuditsTaskInfo`](../interfaces/IOnPageLighthouseAuditsTaskInfo.md).[`result`](../interfaces/IOnPageLighthouseAuditsTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:159166
+main.ts:159174
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[IOnPageLighthouseAuditsTaskInfo](../interfaces/IOnPageLighthouseAuditsTaskInfo.md).[result_count](../interfaces/IOnPageLighthouseAuditsTaskInfo.md#result_count)
+[`IOnPageLighthouseAuditsTaskInfo`](../interfaces/IOnPageLighthouseAuditsTaskInfo.md).[`result_count`](../interfaces/IOnPageLighthouseAuditsTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[IOnPageLighthouseAuditsTaskInfo](../interfaces/IOnPageLighthouseAuditsTaskInfo.md).[status_code](../interfaces/IOnPageLighthouseAuditsTaskInfo.md#status_code)
+[`IOnPageLighthouseAuditsTaskInfo`](../interfaces/IOnPageLighthouseAuditsTaskInfo.md).[`status_code`](../interfaces/IOnPageLighthouseAuditsTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IOnPageLighthouseAuditsTaskInfo](../interfaces/IOnPageLighthouseAuditsTaskInfo.md).[status_message](../interfaces/IOnPageLighthouseAuditsTaskInfo.md#status_message)
+[`IOnPageLighthouseAuditsTaskInfo`](../interfaces/IOnPageLighthouseAuditsTaskInfo.md).[`status_message`](../interfaces/IOnPageLighthouseAuditsTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[IOnPageLighthouseAuditsTaskInfo](../interfaces/IOnPageLighthouseAuditsTaskInfo.md).[time](../interfaces/IOnPageLighthouseAuditsTaskInfo.md#time)
+[`IOnPageLighthouseAuditsTaskInfo`](../interfaces/IOnPageLighthouseAuditsTaskInfo.md).[`time`](../interfaces/IOnPageLighthouseAuditsTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:159174
+main.ts:159182
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:159196
+main.ts:159204
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPageLighthouseAuditsTaskInfo`](OnPageLighthouseAuditsTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`OnPageLighthouseAuditsTaskInfo`](OnPageLighthouseAuditsTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:159189
+main.ts:159197

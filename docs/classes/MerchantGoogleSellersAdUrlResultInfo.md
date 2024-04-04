@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MerchantGoogleSellersAdUrlResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / MerchantGoogleSellersAdUrlResultInfo
 
 # Class: MerchantGoogleSellersAdUrlResultInfo
 
@@ -8,151 +12,125 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](MerchantGoogleSellersAdUrlResultInfo.md#constructor)
-
-### Properties
-
-- [ad\_aclk](MerchantGoogleSellersAdUrlResultInfo.md#ad_aclk)
-- [ad\_url](MerchantGoogleSellersAdUrlResultInfo.md#ad_url)
-- [ad\_url\_redirects](MerchantGoogleSellersAdUrlResultInfo.md#ad_url_redirects)
-
-### Methods
-
-- [init](MerchantGoogleSellersAdUrlResultInfo.md#init)
-- [toJSON](MerchantGoogleSellersAdUrlResultInfo.md#tojson)
-- [fromJS](MerchantGoogleSellersAdUrlResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new MerchantGoogleSellersAdUrlResultInfo(data)
 
-• **new MerchantGoogleSellersAdUrlResultInfo**(`data?`): [`MerchantGoogleSellersAdUrlResultInfo`](MerchantGoogleSellersAdUrlResultInfo.md)
+> **new MerchantGoogleSellersAdUrlResultInfo**(`data`?): [`MerchantGoogleSellersAdUrlResultInfo`](MerchantGoogleSellersAdUrlResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IMerchantGoogleSellersAdUrlResultInfo`](../interfaces/IMerchantGoogleSellersAdUrlResultInfo.md) |
+• **data?**: [`IMerchantGoogleSellersAdUrlResultInfo`](../interfaces/IMerchantGoogleSellersAdUrlResultInfo.md)
 
 #### Returns
 
 [`MerchantGoogleSellersAdUrlResultInfo`](MerchantGoogleSellersAdUrlResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:175029
 
 ## Properties
 
-### ad\_aclk
+### ad\_aclk?
 
-• `Optional` **ad\_aclk**: `string`
+> **`optional`** **ad\_aclk**: `string`
 
 unique ad click referral parameter
 
 #### Implementation of
 
-[IMerchantGoogleSellersAdUrlResultInfo](../interfaces/IMerchantGoogleSellersAdUrlResultInfo.md).[ad_aclk](../interfaces/IMerchantGoogleSellersAdUrlResultInfo.md#ad_aclk)
+[`IMerchantGoogleSellersAdUrlResultInfo`](../interfaces/IMerchantGoogleSellersAdUrlResultInfo.md).[`ad_aclk`](../interfaces/IMerchantGoogleSellersAdUrlResultInfo.md#ad_aclk)
 
-#### Defined in
+#### Source
 
 main.ts:175020
 
-___
+***
 
-### ad\_url
+### ad\_url?
 
-• `Optional` **ad\_url**: `string`
+> **`optional`** **ad\_url**: `string`
 
 full URL of the advertisement
 
 #### Implementation of
 
-[IMerchantGoogleSellersAdUrlResultInfo](../interfaces/IMerchantGoogleSellersAdUrlResultInfo.md).[ad_url](../interfaces/IMerchantGoogleSellersAdUrlResultInfo.md#ad_url)
+[`IMerchantGoogleSellersAdUrlResultInfo`](../interfaces/IMerchantGoogleSellersAdUrlResultInfo.md).[`ad_url`](../interfaces/IMerchantGoogleSellersAdUrlResultInfo.md#ad_url)
 
-#### Defined in
+#### Source
 
 main.ts:175022
 
-___
+***
 
-### ad\_url\_redirects
+### ad\_url\_redirects?
 
-• `Optional` **ad\_url\_redirects**: `string`[]
+> **`optional`** **ad\_url\_redirects**: `string`[]
 
 URLs where the link from Google Shopping redirects before reaching a final URL
 includes up to 10 URLs of the ad’s redirect path to the seller’s ad_url
 
 #### Implementation of
 
-[IMerchantGoogleSellersAdUrlResultInfo](../interfaces/IMerchantGoogleSellersAdUrlResultInfo.md).[ad_url_redirects](../interfaces/IMerchantGoogleSellersAdUrlResultInfo.md#ad_url_redirects)
+[`IMerchantGoogleSellersAdUrlResultInfo`](../interfaces/IMerchantGoogleSellersAdUrlResultInfo.md).[`ad_url_redirects`](../interfaces/IMerchantGoogleSellersAdUrlResultInfo.md#ad_url_redirects)
 
-#### Defined in
+#### Source
 
 main.ts:175025
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:175038
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:175061
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`MerchantGoogleSellersAdUrlResultInfo`](MerchantGoogleSellersAdUrlResultInfo.md)
+> **`static`** **fromJS**(`data`): [`MerchantGoogleSellersAdUrlResultInfo`](MerchantGoogleSellersAdUrlResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`MerchantGoogleSellersAdUrlResultInfo`](MerchantGoogleSellersAdUrlResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:175054

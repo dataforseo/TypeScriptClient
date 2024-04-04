@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / RecipesElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / RecipesElement
 
 # Class: RecipesElement
 
@@ -8,237 +12,206 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](RecipesElement.md#constructor)
-
-### Properties
-
-- [description](RecipesElement.md#description)
-- [domain](RecipesElement.md#domain)
-- [rating](RecipesElement.md#rating)
-- [source](RecipesElement.md#source)
-- [time](RecipesElement.md#time)
-- [title](RecipesElement.md#title)
-- [type](RecipesElement.md#type)
-- [url](RecipesElement.md#url)
-
-### Methods
-
-- [init](RecipesElement.md#init)
-- [toJSON](RecipesElement.md#tojson)
-- [fromJS](RecipesElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new RecipesElement(data)
 
-• **new RecipesElement**(`data?`): [`RecipesElement`](RecipesElement.md)
+> **new RecipesElement**(`data`?): [`RecipesElement`](RecipesElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IRecipesElement`](../interfaces/IRecipesElement.md) |
+• **data?**: [`IRecipesElement`](../interfaces/IRecipesElement.md)
 
 #### Returns
 
 [`RecipesElement`](RecipesElement.md)
 
-#### Defined in
+#### Source
 
 main.ts:32289
 
 ## Properties
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description
 
 #### Implementation of
 
-[IRecipesElement](../interfaces/IRecipesElement.md).[description](../interfaces/IRecipesElement.md#description)
+[`IRecipesElement`](../interfaces/IRecipesElement.md).[`description`](../interfaces/IRecipesElement.md#description)
 
-#### Defined in
+#### Source
 
 main.ts:32280
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 website domain
 
 #### Implementation of
 
-[IRecipesElement](../interfaces/IRecipesElement.md).[domain](../interfaces/IRecipesElement.md#domain)
+[`IRecipesElement`](../interfaces/IRecipesElement.md).[`domain`](../interfaces/IRecipesElement.md#domain)
 
-#### Defined in
+#### Source
 
 main.ts:32275
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](RatingInfo.md)
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
 
-[IRecipesElement](../interfaces/IRecipesElement.md).[rating](../interfaces/IRecipesElement.md#rating)
+[`IRecipesElement`](../interfaces/IRecipesElement.md).[`rating`](../interfaces/IRecipesElement.md#rating)
 
-#### Defined in
+#### Source
 
 main.ts:32285
 
-___
+***
 
-### source
+### source?
 
-• `Optional` **source**: `string`
+> **`optional`** **source**: `string`
 
 source of the element
 indicates the source of information included in the top_stories_element
 
 #### Implementation of
 
-[IRecipesElement](../interfaces/IRecipesElement.md).[source](../interfaces/IRecipesElement.md#source)
+[`IRecipesElement`](../interfaces/IRecipesElement.md).[`source`](../interfaces/IRecipesElement.md#source)
 
-#### Defined in
+#### Source
 
 main.ts:32278
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 the total time it takes to prepare the cook the dish
 
 #### Implementation of
 
-[IRecipesElement](../interfaces/IRecipesElement.md).[time](../interfaces/IRecipesElement.md#time)
+[`IRecipesElement`](../interfaces/IRecipesElement.md).[`time`](../interfaces/IRecipesElement.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:32282
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
 #### Implementation of
 
-[IRecipesElement](../interfaces/IRecipesElement.md).[title](../interfaces/IRecipesElement.md#title)
+[`IRecipesElement`](../interfaces/IRecipesElement.md).[`title`](../interfaces/IRecipesElement.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:32271
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IRecipesElement](../interfaces/IRecipesElement.md).[type](../interfaces/IRecipesElement.md#type)
+[`IRecipesElement`](../interfaces/IRecipesElement.md).[`type`](../interfaces/IRecipesElement.md#type)
 
-#### Defined in
+#### Source
 
 main.ts:32269
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL
 
 #### Implementation of
 
-[IRecipesElement](../interfaces/IRecipesElement.md).[url](../interfaces/IRecipesElement.md#url)
+[`IRecipesElement`](../interfaces/IRecipesElement.md).[`url`](../interfaces/IRecipesElement.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:32273
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:32298
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:32322
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`RecipesElement`](RecipesElement.md)
+> **`static`** **fromJS**(`data`): [`RecipesElement`](RecipesElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`RecipesElement`](RecipesElement.md)
 
-#### Defined in
+#### Source
 
 main.ts:32315

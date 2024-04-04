@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoTrendsGraphElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoTrendsGraphElementItem
 
 # Class: DataforseoTrendsGraphElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md)
-
-  ↳ **`DataforseoTrendsGraphElementItem`**
 
 ## Implements
 
@@ -14,39 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoTrendsGraphElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](DataforseoTrendsGraphElementItem.md#_discriminator)
-- [averages](DataforseoTrendsGraphElementItem.md#averages)
-- [data](DataforseoTrendsGraphElementItem.md#data)
-- [keywords](DataforseoTrendsGraphElementItem.md#keywords)
-- [position](DataforseoTrendsGraphElementItem.md#position)
-
-### Methods
-
-- [init](DataforseoTrendsGraphElementItem.md#init)
-- [toJSON](DataforseoTrendsGraphElementItem.md#tojson)
-- [fromJS](DataforseoTrendsGraphElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoTrendsGraphElementItem(data)
 
-• **new DataforseoTrendsGraphElementItem**(`data?`): [`DataforseoTrendsGraphElementItem`](DataforseoTrendsGraphElementItem.md)
+> **new DataforseoTrendsGraphElementItem**(`data`?): [`DataforseoTrendsGraphElementItem`](DataforseoTrendsGraphElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoTrendsGraphElementItem`](../interfaces/IDataforseoTrendsGraphElementItem.md) |
+• **data?**: [`IDataforseoTrendsGraphElementItem`](../interfaces/IDataforseoTrendsGraphElementItem.md)
 
 #### Returns
 
@@ -54,103 +34,101 @@
 
 #### Overrides
 
-[BaseDataforseoTrendsItem](BaseDataforseoTrendsItem.md).[constructor](BaseDataforseoTrendsItem.md#constructor)
+[`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`constructor`](BaseDataforseoTrendsItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:124918
+main.ts:124926
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseDataforseoTrendsItem](BaseDataforseoTrendsItem.md).[_discriminator](BaseDataforseoTrendsItem.md#_discriminator)
+[`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`_discriminator`](BaseDataforseoTrendsItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:20906
 
-___
+***
 
-### averages
+### averages?
 
-• `Optional` **averages**: `number`[]
+> **`optional`** **averages**: `number`[]
 
 keyword popularity values averaged over the whole time range
 
 #### Implementation of
 
-[IDataforseoTrendsGraphElementItem](../interfaces/IDataforseoTrendsGraphElementItem.md).[averages](../interfaces/IDataforseoTrendsGraphElementItem.md#averages)
+[`IDataforseoTrendsGraphElementItem`](../interfaces/IDataforseoTrendsGraphElementItem.md).[`averages`](../interfaces/IDataforseoTrendsGraphElementItem.md#averages)
 
-#### Defined in
+#### Source
 
-main.ts:124914
+main.ts:124922
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: [`TrendsGraphDataInfo`](TrendsGraphDataInfo.md)[]
+> **`optional`** **data**: [`TrendsGraphDataInfo`](TrendsGraphDataInfo.md)[]
 
 DataForSEO Trends data for the specified parameters
 
 #### Implementation of
 
-[IDataforseoTrendsGraphElementItem](../interfaces/IDataforseoTrendsGraphElementItem.md).[data](../interfaces/IDataforseoTrendsGraphElementItem.md#data)
+[`IDataforseoTrendsGraphElementItem`](../interfaces/IDataforseoTrendsGraphElementItem.md).[`data`](../interfaces/IDataforseoTrendsGraphElementItem.md#data)
 
-#### Defined in
+#### Source
 
-main.ts:124912
+main.ts:124920
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 relevant keywords
 the data included in the dataforseo_trends_graph element is based on the keywords listed in this array
 
 #### Implementation of
 
-[IDataforseoTrendsGraphElementItem](../interfaces/IDataforseoTrendsGraphElementItem.md).[keywords](../interfaces/IDataforseoTrendsGraphElementItem.md#keywords)
+[`IDataforseoTrendsGraphElementItem`](../interfaces/IDataforseoTrendsGraphElementItem.md).[`keywords`](../interfaces/IDataforseoTrendsGraphElementItem.md#keywords)
 
-#### Defined in
+#### Source
 
-main.ts:124910
+main.ts:124918
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `number`
+> **`optional`** **position**: `number`
 
 the alignment of the element
 can take the following values: 1, 2, 3, 4, etc.
 
 #### Implementation of
 
-[IDataforseoTrendsGraphElementItem](../interfaces/IDataforseoTrendsGraphElementItem.md).[position](../interfaces/IDataforseoTrendsGraphElementItem.md#position)
+[`IDataforseoTrendsGraphElementItem`](../interfaces/IDataforseoTrendsGraphElementItem.md).[`position`](../interfaces/IDataforseoTrendsGraphElementItem.md#position)
 
-#### Defined in
+#### Source
 
-main.ts:124907
+main.ts:124915
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -158,23 +136,21 @@ main.ts:124907
 
 #### Overrides
 
-[BaseDataforseoTrendsItem](BaseDataforseoTrendsItem.md).[init](BaseDataforseoTrendsItem.md#init)
+[`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`init`](BaseDataforseoTrendsItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:124923
+main.ts:124931
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -182,23 +158,21 @@ ___
 
 #### Overrides
 
-[BaseDataforseoTrendsItem](BaseDataforseoTrendsItem.md).[toJSON](BaseDataforseoTrendsItem.md#tojson)
+[`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`toJSON`](BaseDataforseoTrendsItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:124956
+main.ts:124964
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoTrendsGraphElementItem`](DataforseoTrendsGraphElementItem.md)
+> **`static`** **fromJS**(`data`): [`DataforseoTrendsGraphElementItem`](DataforseoTrendsGraphElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -206,8 +180,8 @@ ___
 
 #### Overrides
 
-[BaseDataforseoTrendsItem](BaseDataforseoTrendsItem.md).[fromJS](BaseDataforseoTrendsItem.md#fromjs)
+[`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`fromJS`](BaseDataforseoTrendsItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:124949
+main.ts:124957

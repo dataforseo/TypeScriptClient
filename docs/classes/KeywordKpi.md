@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordKpi
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordKpi
 
 # Class: KeywordKpi
 
@@ -8,153 +12,127 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordKpi.md#constructor)
-
-### Properties
-
-- [desktop](KeywordKpi.md#desktop)
-- [mobile](KeywordKpi.md#mobile)
-- [tablet](KeywordKpi.md#tablet)
-
-### Methods
-
-- [init](KeywordKpi.md#init)
-- [toJSON](KeywordKpi.md#tojson)
-- [fromJS](KeywordKpi.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordKpi(data)
 
-• **new KeywordKpi**(`data?`): [`KeywordKpi`](KeywordKpi.md)
+> **new KeywordKpi**(`data`?): [`KeywordKpi`](KeywordKpi.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordKpi`](../interfaces/IKeywordKpi.md) |
+• **data?**: [`IKeywordKpi`](../interfaces/IKeywordKpi.md)
 
 #### Returns
 
 [`KeywordKpi`](KeywordKpi.md)
 
-#### Defined in
+#### Source
 
-main.ts:132627
+main.ts:132635
 
 ## Properties
 
-### desktop
+### desktop?
 
-• `Optional` **desktop**: [`KeywordKpiInfo`](KeywordKpiInfo.md)[]
+> **`optional`** **desktop**: [`KeywordKpiInfo`](KeywordKpiInfo.md)[]
 
 keyword data aggregated for desktop devices
 if there is no data, then the value is null
 
 #### Implementation of
 
-[IKeywordKpi](../interfaces/IKeywordKpi.md).[desktop](../interfaces/IKeywordKpi.md#desktop)
+[`IKeywordKpi`](../interfaces/IKeywordKpi.md).[`desktop`](../interfaces/IKeywordKpi.md#desktop)
 
-#### Defined in
+#### Source
 
-main.ts:132617
+main.ts:132625
 
-___
+***
 
-### mobile
+### mobile?
 
-• `Optional` **mobile**: [`KeywordKpiInfo`](KeywordKpiInfo.md)[]
+> **`optional`** **mobile**: [`KeywordKpiInfo`](KeywordKpiInfo.md)[]
 
 keyword data aggregated for mobile devices
 if there is no data, then the value is null
 
 #### Implementation of
 
-[IKeywordKpi](../interfaces/IKeywordKpi.md).[mobile](../interfaces/IKeywordKpi.md#mobile)
+[`IKeywordKpi`](../interfaces/IKeywordKpi.md).[`mobile`](../interfaces/IKeywordKpi.md#mobile)
 
-#### Defined in
+#### Source
 
-main.ts:132620
+main.ts:132628
 
-___
+***
 
-### tablet
+### tablet?
 
-• `Optional` **tablet**: [`KeywordKpiInfo`](KeywordKpiInfo.md)[]
+> **`optional`** **tablet**: [`KeywordKpiInfo`](KeywordKpiInfo.md)[]
 
 keyword data aggregated for tablet devices
 if there is no data, then the value is null
 
 #### Implementation of
 
-[IKeywordKpi](../interfaces/IKeywordKpi.md).[tablet](../interfaces/IKeywordKpi.md#tablet)
+[`IKeywordKpi`](../interfaces/IKeywordKpi.md).[`tablet`](../interfaces/IKeywordKpi.md#tablet)
 
-#### Defined in
+#### Source
 
-main.ts:132623
+main.ts:132631
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:132636
+main.ts:132644
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:132667
+main.ts:132675
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordKpi`](KeywordKpi.md)
+> **`static`** **fromJS**(`data`): [`KeywordKpi`](KeywordKpi.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`KeywordKpi`](KeywordKpi.md)
 
-#### Defined in
+#### Source
 
-main.ts:132660
+main.ts:132668

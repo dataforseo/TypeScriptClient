@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MapsPaidItemSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / MapsPaidItemSerpElementItem
 
 # Class: MapsPaidItemSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-  ↳ **`MapsPaidItemSerpElementItem`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](MapsPaidItemSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](MapsPaidItemSerpElementItem.md#_discriminator)
-- [domain](MapsPaidItemSerpElementItem.md#domain)
-- [rank\_absolute](MapsPaidItemSerpElementItem.md#rank_absolute)
-- [rank\_group](MapsPaidItemSerpElementItem.md#rank_group)
-- [rating](MapsPaidItemSerpElementItem.md#rating)
-- [rating\_distribution](MapsPaidItemSerpElementItem.md#rating_distribution)
-- [title](MapsPaidItemSerpElementItem.md#title)
-- [url](MapsPaidItemSerpElementItem.md#url)
-
-### Methods
-
-- [init](MapsPaidItemSerpElementItem.md#init)
-- [toJSON](MapsPaidItemSerpElementItem.md#tojson)
-- [fromJS](MapsPaidItemSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new MapsPaidItemSerpElementItem(data)
 
-• **new MapsPaidItemSerpElementItem**(`data?`): [`MapsPaidItemSerpElementItem`](MapsPaidItemSerpElementItem.md)
+> **new MapsPaidItemSerpElementItem**(`data`?): [`MapsPaidItemSerpElementItem`](MapsPaidItemSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IMapsPaidItemSerpElementItem`](../interfaces/IMapsPaidItemSerpElementItem.md) |
+• **data?**: [`IMapsPaidItemSerpElementItem`](../interfaces/IMapsPaidItemSerpElementItem.md)
 
 #### Returns
 
@@ -57,64 +34,64 @@
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[constructor](BaseSerpElementItem.md#constructor)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:39482
+main.ts:39488
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[_discriminator](BaseSerpElementItem.md#_discriminator)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:19788
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain in the SERP element
 
 #### Implementation of
 
-[IMapsPaidItemSerpElementItem](../interfaces/IMapsPaidItemSerpElementItem.md).[domain](../interfaces/IMapsPaidItemSerpElementItem.md#domain)
+[`IMapsPaidItemSerpElementItem`](../interfaces/IMapsPaidItemSerpElementItem.md).[`domain`](../interfaces/IMapsPaidItemSerpElementItem.md#domain)
 
-#### Defined in
+#### Source
 
-main.ts:39468
+main.ts:39474
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
 #### Implementation of
 
-[IMapsPaidItemSerpElementItem](../interfaces/IMapsPaidItemSerpElementItem.md).[rank_absolute](../interfaces/IMapsPaidItemSerpElementItem.md#rank_absolute)
+[`IMapsPaidItemSerpElementItem`](../interfaces/IMapsPaidItemSerpElementItem.md).[`rank_absolute`](../interfaces/IMapsPaidItemSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:39466
+main.ts:39472
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -122,93 +99,91 @@ positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
-[IMapsPaidItemSerpElementItem](../interfaces/IMapsPaidItemSerpElementItem.md).[rank_group](../interfaces/IMapsPaidItemSerpElementItem.md#rank_group)
+[`IMapsPaidItemSerpElementItem`](../interfaces/IMapsPaidItemSerpElementItem.md).[`rank_group`](../interfaces/IMapsPaidItemSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
-main.ts:39463
+main.ts:39469
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](RatingInfo.md)
 
 the element’s rating 
 the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
 
-[IMapsPaidItemSerpElementItem](../interfaces/IMapsPaidItemSerpElementItem.md).[rating](../interfaces/IMapsPaidItemSerpElementItem.md#rating)
+[`IMapsPaidItemSerpElementItem`](../interfaces/IMapsPaidItemSerpElementItem.md).[`rating`](../interfaces/IMapsPaidItemSerpElementItem.md#rating)
 
-#### Defined in
+#### Source
 
-main.ts:39475
+main.ts:39481
 
-___
+***
 
-### rating\_distribution
+### rating\_distribution?
 
-• `Optional` **rating\_distribution**: `Object`
+> **`optional`** **rating\_distribution**: `Object`
 
 the distribution of ratings of the business entity
 the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
 #### Implementation of
 
-[IMapsPaidItemSerpElementItem](../interfaces/IMapsPaidItemSerpElementItem.md).[rating_distribution](../interfaces/IMapsPaidItemSerpElementItem.md#rating_distribution)
+[`IMapsPaidItemSerpElementItem`](../interfaces/IMapsPaidItemSerpElementItem.md).[`rating_distribution`](../interfaces/IMapsPaidItemSerpElementItem.md#rating_distribution)
 
-#### Defined in
+#### Source
 
-main.ts:39478
+main.ts:39484
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the result in SERP
 
 #### Implementation of
 
-[IMapsPaidItemSerpElementItem](../interfaces/IMapsPaidItemSerpElementItem.md).[title](../interfaces/IMapsPaidItemSerpElementItem.md#title)
+[`IMapsPaidItemSerpElementItem`](../interfaces/IMapsPaidItemSerpElementItem.md).[`title`](../interfaces/IMapsPaidItemSerpElementItem.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:39470
+main.ts:39476
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 relevant URL in SERP
 
 #### Implementation of
 
-[IMapsPaidItemSerpElementItem](../interfaces/IMapsPaidItemSerpElementItem.md).[url](../interfaces/IMapsPaidItemSerpElementItem.md#url)
+[`IMapsPaidItemSerpElementItem`](../interfaces/IMapsPaidItemSerpElementItem.md).[`url`](../interfaces/IMapsPaidItemSerpElementItem.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:39472
+main.ts:39478
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -216,23 +191,21 @@ main.ts:39472
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[init](BaseSerpElementItem.md#init)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:39487
+main.ts:39493
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -240,23 +213,21 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[toJSON](BaseSerpElementItem.md#tojson)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:39517
+main.ts:39523
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`MapsPaidItemSerpElementItem`](MapsPaidItemSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`MapsPaidItemSerpElementItem`](MapsPaidItemSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -264,8 +235,8 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[fromJS](BaseSerpElementItem.md#fromjs)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:39510
+main.ts:39516

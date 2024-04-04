@@ -1,49 +1,41 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixFunctionTypeInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppendixFunctionTypeInfo
 
 # Interface: IAppendixFunctionTypeInfo
 
-## Implemented by
-
-- [`AppendixFunctionTypeInfo`](../classes/AppendixFunctionTypeInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [advanced](IAppendixFunctionTypeInfo.md#advanced)
-- [html](IAppendixFunctionTypeInfo.md#html)
-- [regular](IAppendixFunctionTypeInfo.md#regular)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### advanced
+### advanced?
 
-• `Optional` **advanced**: `number`
+> **`optional`** **advanced**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:211991
 
-___
+***
 
-### html
+### html?
 
-• `Optional` **html**: `number`
+> **`optional`** **html**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:211992
 
-___
+***
 
-### regular
+### regular?
 
-• `Optional` **regular**: `number`
+> **`optional`** **regular**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:211990

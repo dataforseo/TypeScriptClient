@@ -1,166 +1,151 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksAvailableFiltersResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBacklinksAvailableFiltersResultInfo
 
 # Interface: IBacklinksAvailableFiltersResultInfo
 
-## Implemented by
-
-- [`BacklinksAvailableFiltersResultInfo`](../classes/BacklinksAvailableFiltersResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [anchors](IBacklinksAvailableFiltersResultInfo.md#anchors)
-- [backlinks](IBacklinksAvailableFiltersResultInfo.md#backlinks)
-- [competitors](IBacklinksAvailableFiltersResultInfo.md#competitors)
-- [content\_duplicates](IBacklinksAvailableFiltersResultInfo.md#content_duplicates)
-- [domain\_intersection](IBacklinksAvailableFiltersResultInfo.md#domain_intersection)
-- [domain\_pages](IBacklinksAvailableFiltersResultInfo.md#domain_pages)
-- [domain\_pages\_summary](IBacklinksAvailableFiltersResultInfo.md#domain_pages_summary)
-- [page\_intersection](IBacklinksAvailableFiltersResultInfo.md#page_intersection)
-- [referring\_domains](IBacklinksAvailableFiltersResultInfo.md#referring_domains)
-- [referring\_networks](IBacklinksAvailableFiltersResultInfo.md#referring_networks)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### anchors
+### anchors?
 
-• `Optional` **anchors**: `Object`
-
-#### Index signature
-
-▪ [key: `string`]: `string`
-
-#### Defined in
-
-main.ts:134187
-
-___
-
-### backlinks
-
-• `Optional` **backlinks**: `Object`
+> **`optional`** **anchors**: `Object`
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
-#### Defined in
+#### Source
 
-main.ts:134185
+main.ts:134195
 
-___
+***
 
-### competitors
+### backlinks?
 
-• `Optional` **competitors**: `Object`
+> **`optional`** **backlinks**: `Object`
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
-#### Defined in
+#### Source
 
 main.ts:134193
 
-___
+***
 
-### content\_duplicates
+### competitors?
 
-• `Optional` **content\_duplicates**: `Object`
-
-#### Index signature
-
-▪ [key: `string`]: `string`
-
-#### Defined in
-
-main.ts:134184
-
-___
-
-### domain\_intersection
-
-• `Optional` **domain\_intersection**: `Object`
+> **`optional`** **competitors**: `Object`
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
-#### Defined in
+#### Source
 
-main.ts:134189
+main.ts:134201
 
-___
+***
 
-### domain\_pages
+### content\_duplicates?
 
-• `Optional` **domain\_pages**: `Object`
-
-#### Index signature
-
-▪ [key: `string`]: `string`
-
-#### Defined in
-
-main.ts:134186
-
-___
-
-### domain\_pages\_summary
-
-• `Optional` **domain\_pages\_summary**: `Object`
+> **`optional`** **content\_duplicates**: `Object`
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
-#### Defined in
+#### Source
 
 main.ts:134192
 
-___
+***
 
-### page\_intersection
+### domain\_intersection?
 
-• `Optional` **page\_intersection**: `Object`
-
-#### Index signature
-
-▪ [key: `string`]: `string`
-
-#### Defined in
-
-main.ts:134190
-
-___
-
-### referring\_domains
-
-• `Optional` **referring\_domains**: `Object`
+> **`optional`** **domain\_intersection**: `Object`
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
-#### Defined in
+#### Source
 
-main.ts:134188
+main.ts:134197
 
-___
+***
 
-### referring\_networks
+### domain\_pages?
 
-• `Optional` **referring\_networks**: `Object`
+> **`optional`** **domain\_pages**: `Object`
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
-#### Defined in
+#### Source
 
-main.ts:134191
+main.ts:134194
+
+***
+
+### domain\_pages\_summary?
+
+> **`optional`** **domain\_pages\_summary**: `Object`
+
+#### Index signature
+
+ \[`key`: `string`\]: `string`
+
+#### Source
+
+main.ts:134200
+
+***
+
+### page\_intersection?
+
+> **`optional`** **page\_intersection**: `Object`
+
+#### Index signature
+
+ \[`key`: `string`\]: `string`
+
+#### Source
+
+main.ts:134198
+
+***
+
+### referring\_domains?
+
+> **`optional`** **referring\_domains**: `Object`
+
+#### Index signature
+
+ \[`key`: `string`\]: `string`
+
+#### Source
+
+main.ts:134196
+
+***
+
+### referring\_networks?
+
+> **`optional`** **referring\_networks**: `Object`
+
+#### Index signature
+
+ \[`key`: `string`\]: `string`
+
+#### Source
+
+main.ts:134199

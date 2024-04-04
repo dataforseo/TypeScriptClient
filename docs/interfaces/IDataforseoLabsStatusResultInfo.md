@@ -1,55 +1,47 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsStatusResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsStatusResultInfo
 
 # Interface: IDataforseoLabsStatusResultInfo
 
-## Implemented by
-
-- [`DataforseoLabsStatusResultInfo`](../classes/DataforseoLabsStatusResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [amazon](IDataforseoLabsStatusResultInfo.md#amazon)
-- [bing](IDataforseoLabsStatusResultInfo.md#bing)
-- [google](IDataforseoLabsStatusResultInfo.md#google)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### amazon
+### amazon?
 
-• `Optional` **amazon**: [`DataforseoLabsStatusInfo`](../classes/DataforseoLabsStatusInfo.md)
+> **`optional`** **amazon**: [`DataforseoLabsStatusInfo`](../classes/DataforseoLabsStatusInfo.md)
 
 update information for the Amazon endpoints
 
-#### Defined in
+#### Source
 
-main.ts:79260
+main.ts:79268
 
-___
+***
 
-### bing
+### bing?
 
-• `Optional` **bing**: [`DataforseoLabsStatusInfo`](../classes/DataforseoLabsStatusInfo.md)
+> **`optional`** **bing**: [`DataforseoLabsStatusInfo`](../classes/DataforseoLabsStatusInfo.md)
 
 update information for the Bing endpoints
 
-#### Defined in
+#### Source
 
-main.ts:79258
+main.ts:79266
 
-___
+***
 
-### google
+### google?
 
-• `Optional` **google**: [`DataforseoLabsStatusInfo`](../classes/DataforseoLabsStatusInfo.md)
+> **`optional`** **google**: [`DataforseoLabsStatusInfo`](../classes/DataforseoLabsStatusInfo.md)
 
 update information for the Google endpoints
 
-#### Defined in
+#### Source
 
-main.ts:79256
+main.ts:79264

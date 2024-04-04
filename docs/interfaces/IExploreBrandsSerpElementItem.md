@@ -1,123 +1,109 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IExploreBrandsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IExploreBrandsSerpElementItem
 
 # Interface: IExploreBrandsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
 
-  ↳ **`IExploreBrandsSerpElementItem`**
-
-## Implemented by
-
-- [`ExploreBrandsSerpElementItem`](../classes/ExploreBrandsSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IExploreBrandsSerpElementItem.md#items)
-- [position](IExploreBrandsSerpElementItem.md#position)
-- [rank\_absolute](IExploreBrandsSerpElementItem.md#rank_absolute)
-- [rank\_group](IExploreBrandsSerpElementItem.md#rank_group)
-- [rectangle](IExploreBrandsSerpElementItem.md#rectangle)
-- [title](IExploreBrandsSerpElementItem.md#title)
-- [xpath](IExploreBrandsSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`ExploreBrandsElement`](../classes/ExploreBrandsElement.md)[]
+> **`optional`** **items**: [`ExploreBrandsElement`](../classes/ExploreBrandsElement.md)[]
 
 additional items present in the element
 if there are none, equals null
 
-#### Defined in
+#### Source
 
-main.ts:36338
+main.ts:36344
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
-main.ts:36331
+main.ts:36337
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop
 
-#### Defined in
+#### Source
 
-main.ts:36327
+main.ts:36333
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
 positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop
 
-#### Defined in
+#### Source
 
-main.ts:36323
+main.ts:36329
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
 equals null if calculate_rectangles in the POST request is not set to true
 
-#### Defined in
+#### Source
 
-main.ts:36342
+main.ts:36348
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the row
 
-#### Defined in
+#### Source
 
-main.ts:36335
+main.ts:36341
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
-main.ts:36333
+main.ts:36339

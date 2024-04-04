@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataGoogleAppListTaskGetAdvancedResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppDataGoogleAppListTaskGetAdvancedResultInfo
 
 # Class: AppDataGoogleAppListTaskGetAdvancedResultInfo
 
@@ -8,74 +12,48 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppDataGoogleAppListTaskGetAdvancedResultInfo.md#constructor)
-
-### Properties
-
-- [check\_url](AppDataGoogleAppListTaskGetAdvancedResultInfo.md#check_url)
-- [datetime](AppDataGoogleAppListTaskGetAdvancedResultInfo.md#datetime)
-- [items](AppDataGoogleAppListTaskGetAdvancedResultInfo.md#items)
-- [items\_count](AppDataGoogleAppListTaskGetAdvancedResultInfo.md#items_count)
-- [keyword](AppDataGoogleAppListTaskGetAdvancedResultInfo.md#keyword)
-- [language\_code](AppDataGoogleAppListTaskGetAdvancedResultInfo.md#language_code)
-- [location\_code](AppDataGoogleAppListTaskGetAdvancedResultInfo.md#location_code)
-- [se\_domain](AppDataGoogleAppListTaskGetAdvancedResultInfo.md#se_domain)
-- [se\_results\_count](AppDataGoogleAppListTaskGetAdvancedResultInfo.md#se_results_count)
-
-### Methods
-
-- [init](AppDataGoogleAppListTaskGetAdvancedResultInfo.md#init)
-- [toJSON](AppDataGoogleAppListTaskGetAdvancedResultInfo.md#tojson)
-- [fromJS](AppDataGoogleAppListTaskGetAdvancedResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppDataGoogleAppListTaskGetAdvancedResultInfo(data)
 
-• **new AppDataGoogleAppListTaskGetAdvancedResultInfo**(`data?`): [`AppDataGoogleAppListTaskGetAdvancedResultInfo`](AppDataGoogleAppListTaskGetAdvancedResultInfo.md)
+> **new AppDataGoogleAppListTaskGetAdvancedResultInfo**(`data`?): [`AppDataGoogleAppListTaskGetAdvancedResultInfo`](AppDataGoogleAppListTaskGetAdvancedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppDataGoogleAppListTaskGetAdvancedResultInfo`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md) |
+• **data?**: [`IAppDataGoogleAppListTaskGetAdvancedResultInfo`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
 [`AppDataGoogleAppListTaskGetAdvancedResultInfo`](AppDataGoogleAppListTaskGetAdvancedResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:184282
 
 ## Properties
 
-### check\_url
+### check\_url?
 
-• `Optional` **check\_url**: `string`
+> **`optional`** **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
 
 #### Implementation of
 
-[IAppDataGoogleAppListTaskGetAdvancedResultInfo](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md).[check_url](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md#check_url)
+[`IAppDataGoogleAppListTaskGetAdvancedResultInfo`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md).[`check_url`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md#check_url)
 
-#### Defined in
+#### Source
 
 main.ts:184266
 
-___
+***
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -84,181 +62,175 @@ example:
 
 #### Implementation of
 
-[IAppDataGoogleAppListTaskGetAdvancedResultInfo](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md).[datetime](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md#datetime)
+[`IAppDataGoogleAppListTaskGetAdvancedResultInfo`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md).[`datetime`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
 main.ts:184271
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)[]
+> **`optional`** **items**: [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)[]
 
 found apps
 
 #### Implementation of
 
-[IAppDataGoogleAppListTaskGetAdvancedResultInfo](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md).[items](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md#items)
+[`IAppDataGoogleAppListTaskGetAdvancedResultInfo`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md).[`items`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md#items)
 
-#### Defined in
+#### Source
 
 main.ts:184278
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of app items in the results array
 you can get more results by using the depth parameter when setting a task
 
 #### Implementation of
 
-[IAppDataGoogleAppListTaskGetAdvancedResultInfo](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md).[items_count](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md#items_count)
+[`IAppDataGoogleAppListTaskGetAdvancedResultInfo`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md).[`items_count`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
 main.ts:184276
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 app collection received in a POST array
 
 #### Implementation of
 
-[IAppDataGoogleAppListTaskGetAdvancedResultInfo](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md).[keyword](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md#keyword)
+[`IAppDataGoogleAppListTaskGetAdvancedResultInfo`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md).[`keyword`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md#keyword)
 
-#### Defined in
+#### Source
 
 main.ts:184257
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[IAppDataGoogleAppListTaskGetAdvancedResultInfo](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md).[language_code](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md#language_code)
+[`IAppDataGoogleAppListTaskGetAdvancedResultInfo`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md).[`language_code`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
 main.ts:184263
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[IAppDataGoogleAppListTaskGetAdvancedResultInfo](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md).[location_code](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md#location_code)
+[`IAppDataGoogleAppListTaskGetAdvancedResultInfo`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md).[`location_code`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
 main.ts:184261
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
 #### Implementation of
 
-[IAppDataGoogleAppListTaskGetAdvancedResultInfo](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md).[se_domain](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md#se_domain)
+[`IAppDataGoogleAppListTaskGetAdvancedResultInfo`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md).[`se_domain`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md#se_domain)
 
-#### Defined in
+#### Source
 
 main.ts:184259
 
-___
+***
 
-### se\_results\_count
+### se\_results\_count?
 
-• `Optional` **se\_results\_count**: `number`
+> **`optional`** **se\_results\_count**: `number`
 
 the total number of results
 
 #### Implementation of
 
-[IAppDataGoogleAppListTaskGetAdvancedResultInfo](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md).[se_results_count](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md#se_results_count)
+[`IAppDataGoogleAppListTaskGetAdvancedResultInfo`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md).[`se_results_count`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md#se_results_count)
 
-#### Defined in
+#### Source
 
 main.ts:184273
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:184291
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:184320
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppDataGoogleAppListTaskGetAdvancedResultInfo`](AppDataGoogleAppListTaskGetAdvancedResultInfo.md)
+> **`static`** **fromJS**(`data`): [`AppDataGoogleAppListTaskGetAdvancedResultInfo`](AppDataGoogleAppListTaskGetAdvancedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppDataGoogleAppListTaskGetAdvancedResultInfo`](AppDataGoogleAppListTaskGetAdvancedResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:184313

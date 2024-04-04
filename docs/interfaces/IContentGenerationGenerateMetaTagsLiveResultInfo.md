@@ -1,81 +1,71 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentGenerationGenerateMetaTagsLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IContentGenerationGenerateMetaTagsLiveResultInfo
 
 # Interface: IContentGenerationGenerateMetaTagsLiveResultInfo
 
-## Implemented by
-
-- [`ContentGenerationGenerateMetaTagsLiveResultInfo`](../classes/ContentGenerationGenerateMetaTagsLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [description](IContentGenerationGenerateMetaTagsLiveResultInfo.md#description)
-- [input\_tokens](IContentGenerationGenerateMetaTagsLiveResultInfo.md#input_tokens)
-- [new\_tokens](IContentGenerationGenerateMetaTagsLiveResultInfo.md#new_tokens)
-- [output\_tokens](IContentGenerationGenerateMetaTagsLiveResultInfo.md#output_tokens)
-- [title](IContentGenerationGenerateMetaTagsLiveResultInfo.md#title)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 generated description
 
-#### Defined in
+#### Source
 
-main.ts:166153
+main.ts:166161
 
-___
+***
 
-### input\_tokens
+### input\_tokens?
 
-• `Optional` **input\_tokens**: `number`
+> **`optional`** **input\_tokens**: `number`
 
 number of input tokens
 
-#### Defined in
+#### Source
 
-main.ts:166145
+main.ts:166153
 
-___
+***
 
-### new\_tokens
+### new\_tokens?
 
-• `Optional` **new\_tokens**: `number`
+> **`optional`** **new\_tokens**: `number`
 
 number of new tokens
 
-#### Defined in
+#### Source
 
-main.ts:166149
+main.ts:166157
 
-___
+***
 
-### output\_tokens
+### output\_tokens?
 
-• `Optional` **output\_tokens**: `number`
+> **`optional`** **output\_tokens**: `number`
 
 number of output tokens
 
-#### Defined in
+#### Source
 
-main.ts:166147
+main.ts:166155
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 generated title
 
-#### Defined in
+#### Source
 
-main.ts:166151
+main.ts:166159

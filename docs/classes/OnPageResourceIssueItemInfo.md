@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageResourceIssueItemInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPageResourceIssueItemInfo
 
 # Class: OnPageResourceIssueItemInfo
 
@@ -8,101 +12,80 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPageResourceIssueItemInfo.md#constructor)
-
-### Properties
-
-- [column](OnPageResourceIssueItemInfo.md#column)
-- [line](OnPageResourceIssueItemInfo.md#line)
-- [message](OnPageResourceIssueItemInfo.md#message)
-- [status\_code](OnPageResourceIssueItemInfo.md#status_code)
-
-### Methods
-
-- [init](OnPageResourceIssueItemInfo.md#init)
-- [toJSON](OnPageResourceIssueItemInfo.md#tojson)
-- [fromJS](OnPageResourceIssueItemInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPageResourceIssueItemInfo(data)
 
-• **new OnPageResourceIssueItemInfo**(`data?`): [`OnPageResourceIssueItemInfo`](OnPageResourceIssueItemInfo.md)
+> **new OnPageResourceIssueItemInfo**(`data`?): [`OnPageResourceIssueItemInfo`](OnPageResourceIssueItemInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPageResourceIssueItemInfo`](../interfaces/IOnPageResourceIssueItemInfo.md) |
+• **data?**: [`IOnPageResourceIssueItemInfo`](../interfaces/IOnPageResourceIssueItemInfo.md)
 
 #### Returns
 
 [`OnPageResourceIssueItemInfo`](OnPageResourceIssueItemInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:150024
+main.ts:150032
 
 ## Properties
 
-### column
+### column?
 
-• `Optional` **column**: `number`
+> **`optional`** **column**: `number`
 
 column where the error was found
 
 #### Implementation of
 
-[IOnPageResourceIssueItemInfo](../interfaces/IOnPageResourceIssueItemInfo.md).[column](../interfaces/IOnPageResourceIssueItemInfo.md#column)
+[`IOnPageResourceIssueItemInfo`](../interfaces/IOnPageResourceIssueItemInfo.md).[`column`](../interfaces/IOnPageResourceIssueItemInfo.md#column)
 
-#### Defined in
+#### Source
 
-main.ts:150006
+main.ts:150014
 
-___
+***
 
-### line
+### line?
 
-• `Optional` **line**: `number`
+> **`optional`** **line**: `number`
 
 line where the error was found
 
 #### Implementation of
 
-[IOnPageResourceIssueItemInfo](../interfaces/IOnPageResourceIssueItemInfo.md).[line](../interfaces/IOnPageResourceIssueItemInfo.md#line)
+[`IOnPageResourceIssueItemInfo`](../interfaces/IOnPageResourceIssueItemInfo.md).[`line`](../interfaces/IOnPageResourceIssueItemInfo.md#line)
 
-#### Defined in
+#### Source
 
-main.ts:150004
+main.ts:150012
 
-___
+***
 
-### message
+### message?
 
-• `Optional` **message**: `string`
+> **`optional`** **message**: `string`
 
 text message of the error
 the full list of possible HTML errors can be found here
 
 #### Implementation of
 
-[IOnPageResourceIssueItemInfo](../interfaces/IOnPageResourceIssueItemInfo.md).[message](../interfaces/IOnPageResourceIssueItemInfo.md#message)
+[`IOnPageResourceIssueItemInfo`](../interfaces/IOnPageResourceIssueItemInfo.md).[`message`](../interfaces/IOnPageResourceIssueItemInfo.md#message)
 
-#### Defined in
+#### Source
 
-main.ts:150009
+main.ts:150017
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the error
 possible values:
@@ -117,68 +100,62 @@ possible values:
 
 #### Implementation of
 
-[IOnPageResourceIssueItemInfo](../interfaces/IOnPageResourceIssueItemInfo.md).[status_code](../interfaces/IOnPageResourceIssueItemInfo.md#status_code)
+[`IOnPageResourceIssueItemInfo`](../interfaces/IOnPageResourceIssueItemInfo.md).[`status_code`](../interfaces/IOnPageResourceIssueItemInfo.md#status_code)
 
-#### Defined in
+#### Source
 
-main.ts:150020
+main.ts:150028
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:150033
+main.ts:150041
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:150053
+main.ts:150061
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPageResourceIssueItemInfo`](OnPageResourceIssueItemInfo.md)
+> **`static`** **fromJS**(`data`): [`OnPageResourceIssueItemInfo`](OnPageResourceIssueItemInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`OnPageResourceIssueItemInfo`](OnPageResourceIssueItemInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:150046
+main.ts:150054

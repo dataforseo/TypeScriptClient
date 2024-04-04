@@ -1,169 +1,151 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppDataAppStoreSearchOrganicSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppDataAppStoreSearchOrganicSerpElementItem
 
 # Interface: IAppDataAppStoreSearchOrganicSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md)
 
-  ↳ **`IAppDataAppStoreSearchOrganicSerpElementItem`**
-
-## Implemented by
-
-- [`AppDataAppStoreSearchOrganicSerpElementItem`](../classes/AppDataAppStoreSearchOrganicSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [app\_id](IAppDataAppStoreSearchOrganicSerpElementItem.md#app_id)
-- [icon](IAppDataAppStoreSearchOrganicSerpElementItem.md#icon)
-- [is\_free](IAppDataAppStoreSearchOrganicSerpElementItem.md#is_free)
-- [position](IAppDataAppStoreSearchOrganicSerpElementItem.md#position)
-- [price](IAppDataAppStoreSearchOrganicSerpElementItem.md#price)
-- [rank\_absolute](IAppDataAppStoreSearchOrganicSerpElementItem.md#rank_absolute)
-- [rank\_group](IAppDataAppStoreSearchOrganicSerpElementItem.md#rank_group)
-- [rating](IAppDataAppStoreSearchOrganicSerpElementItem.md#rating)
-- [reviews\_count](IAppDataAppStoreSearchOrganicSerpElementItem.md#reviews_count)
-- [title](IAppDataAppStoreSearchOrganicSerpElementItem.md#title)
-- [url](IAppDataAppStoreSearchOrganicSerpElementItem.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### app\_id
+### app\_id?
 
-• `Optional` **app\_id**: `string`
+> **`optional`** **app\_id**: `string`
 
 id of the app
 
-#### Defined in
+#### Source
 
-main.ts:113258
+main.ts:113266
 
-___
+***
 
-### icon
+### icon?
 
-• `Optional` **icon**: `string`
+> **`optional`** **icon**: `string`
 
 URL to the app icon
 
-#### Defined in
+#### Source
 
-main.ts:113264
+main.ts:113272
 
-___
+***
 
-### is\_free
+### is\_free?
 
-• `Optional` **is\_free**: `boolean`
+> **`optional`** **is\_free**: `boolean`
 
 indicates whether the app is free
 
-#### Defined in
+#### Source
 
-main.ts:113270
+main.ts:113278
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
-main.ts:113256
+main.ts:113264
 
-___
+***
 
-### price
+### price?
 
-• `Optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
+> **`optional`** **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
 price of the app
 
-#### Defined in
+#### Source
 
-main.ts:113272
+main.ts:113280
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Defined in
+#### Source
 
-main.ts:113252
+main.ts:113260
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
-main.ts:113249
+main.ts:113257
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
 average rating of the app
 
-#### Defined in
+#### Source
 
-main.ts:113268
+main.ts:113276
 
-___
+***
 
-### reviews\_count
+### reviews\_count?
 
-• `Optional` **reviews\_count**: `number`
+> **`optional`** **reviews\_count**: `number`
 
 the total number of reviews of the app
 
-#### Defined in
+#### Source
 
-main.ts:113266
+main.ts:113274
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the app
 
-#### Defined in
+#### Source
 
-main.ts:113260
+main.ts:113268
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL to the app page on App Store
 
-#### Defined in
+#### Source
 
-main.ts:113262
+main.ts:113270

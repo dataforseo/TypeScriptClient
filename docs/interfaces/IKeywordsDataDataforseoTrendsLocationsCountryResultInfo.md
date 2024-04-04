@@ -1,82 +1,70 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataDataforseoTrendsLocationsCountryResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IKeywordsDataDataforseoTrendsLocationsCountryResultInfo
 
 # Interface: IKeywordsDataDataforseoTrendsLocationsCountryResultInfo
 
-## Implemented by
-
-- [`KeywordsDataDataforseoTrendsLocationsCountryResultInfo`](../classes/KeywordsDataDataforseoTrendsLocationsCountryResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [country\_iso\_code](IKeywordsDataDataforseoTrendsLocationsCountryResultInfo.md#country_iso_code)
-- [geo\_id](IKeywordsDataDataforseoTrendsLocationsCountryResultInfo.md#geo_id)
-- [geo\_name](IKeywordsDataDataforseoTrendsLocationsCountryResultInfo.md#geo_name)
-- [location\_code](IKeywordsDataDataforseoTrendsLocationsCountryResultInfo.md#location_code)
-- [location\_code\_parent](IKeywordsDataDataforseoTrendsLocationsCountryResultInfo.md#location_code_parent)
-- [location\_name](IKeywordsDataDataforseoTrendsLocationsCountryResultInfo.md#location_name)
-- [location\_type](IKeywordsDataDataforseoTrendsLocationsCountryResultInfo.md#location_type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### country\_iso\_code
+### country\_iso\_code?
 
-• `Optional` **country\_iso\_code**: `string`
+> **`optional`** **country\_iso\_code**: `string`
 
 ISO country code of the location
 
-#### Defined in
+#### Source
 
-main.ts:124608
+main.ts:124616
 
-___
+***
 
-### geo\_id
+### geo\_id?
 
-• `Optional` **geo\_id**: `string`
+> **`optional`** **geo\_id**: `string`
 
 DataForSEO trends location identifier
 you can use this field for matching obtained results with the location_code parameter specified in the request
 
-#### Defined in
+#### Source
 
-main.ts:124617
+main.ts:124625
 
-___
+***
 
-### geo\_name
+### geo\_name?
 
-• `Optional` **geo\_name**: `string`
+> **`optional`** **geo\_name**: `string`
 
 DataForSEO trends location name
 you can use this field for matching obtained results with the location_name parameter specified in the request
 
-#### Defined in
+#### Source
 
-main.ts:124614
+main.ts:124622
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 
-#### Defined in
+#### Source
 
-main.ts:124595
+main.ts:124603
 
-___
+***
 
-### location\_code\_parent
+### location\_code\_parent?
 
-• `Optional` **location\_code\_parent**: `number`
+> **`optional`** **location\_code\_parent**: `number`
 
 the code of the superordinate location
 example:
@@ -87,31 +75,31 @@ where location_code_parent corresponds to:
 "location_code": 20044,
 "location_name": "Lower Austria,Austria"
 
-#### Defined in
+#### Source
 
-main.ts:124606
+main.ts:124614
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 
-#### Defined in
+#### Source
 
-main.ts:124597
+main.ts:124605
 
-___
+***
 
-### location\_type
+### location\_type?
 
-• `Optional` **location\_type**: `string`
+> **`optional`** **location\_type**: `string`
 
 location type
 possible values according to Google’s target types
 
-#### Defined in
+#### Source
 
-main.ts:124611
+main.ts:124619

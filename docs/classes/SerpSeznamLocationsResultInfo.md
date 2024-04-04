@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpSeznamLocationsResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpSeznamLocationsResultInfo
 
 # Class: SerpSeznamLocationsResultInfo
 
@@ -8,85 +12,63 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpSeznamLocationsResultInfo.md#constructor)
-
-### Properties
-
-- [country\_iso\_code](SerpSeznamLocationsResultInfo.md#country_iso_code)
-- [location\_code](SerpSeznamLocationsResultInfo.md#location_code)
-- [location\_code\_parent](SerpSeznamLocationsResultInfo.md#location_code_parent)
-- [location\_name](SerpSeznamLocationsResultInfo.md#location_name)
-- [location\_type](SerpSeznamLocationsResultInfo.md#location_type)
-
-### Methods
-
-- [init](SerpSeznamLocationsResultInfo.md#init)
-- [toJSON](SerpSeznamLocationsResultInfo.md#tojson)
-- [fromJS](SerpSeznamLocationsResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpSeznamLocationsResultInfo(data)
 
-• **new SerpSeznamLocationsResultInfo**(`data?`): [`SerpSeznamLocationsResultInfo`](SerpSeznamLocationsResultInfo.md)
+> **new SerpSeznamLocationsResultInfo**(`data`?): [`SerpSeznamLocationsResultInfo`](SerpSeznamLocationsResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpSeznamLocationsResultInfo`](../interfaces/ISerpSeznamLocationsResultInfo.md) |
+• **data?**: [`ISerpSeznamLocationsResultInfo`](../interfaces/ISerpSeznamLocationsResultInfo.md)
 
 #### Returns
 
 [`SerpSeznamLocationsResultInfo`](SerpSeznamLocationsResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:71145
+main.ts:71153
 
 ## Properties
 
-### country\_iso\_code
+### country\_iso\_code?
 
-• `Optional` **country\_iso\_code**: `string`
+> **`optional`** **country\_iso\_code**: `string`
 
 ISO country code of the location
 
 #### Implementation of
 
-[ISerpSeznamLocationsResultInfo](../interfaces/ISerpSeznamLocationsResultInfo.md).[country_iso_code](../interfaces/ISerpSeznamLocationsResultInfo.md#country_iso_code)
+[`ISerpSeznamLocationsResultInfo`](../interfaces/ISerpSeznamLocationsResultInfo.md).[`country_iso_code`](../interfaces/ISerpSeznamLocationsResultInfo.md#country_iso_code)
 
-#### Defined in
+#### Source
 
-main.ts:71139
+main.ts:71147
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 
 #### Implementation of
 
-[ISerpSeznamLocationsResultInfo](../interfaces/ISerpSeznamLocationsResultInfo.md).[location_code](../interfaces/ISerpSeznamLocationsResultInfo.md#location_code)
+[`ISerpSeznamLocationsResultInfo`](../interfaces/ISerpSeznamLocationsResultInfo.md).[`location_code`](../interfaces/ISerpSeznamLocationsResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:71131
+main.ts:71139
 
-___
+***
 
-### location\_code\_parent
+### location\_code\_parent?
 
-• `Optional` **location\_code\_parent**: `number`
+> **`optional`** **location\_code\_parent**: `number`
 
 the code of the superordinate location
 only City location_type is supported for all countries except China (where Country is also supported);
@@ -94,100 +76,94 @@ don’t match locations by location_code_parent because the results for Region a
 
 #### Implementation of
 
-[ISerpSeznamLocationsResultInfo](../interfaces/ISerpSeznamLocationsResultInfo.md).[location_code_parent](../interfaces/ISerpSeznamLocationsResultInfo.md#location_code_parent)
+[`ISerpSeznamLocationsResultInfo`](../interfaces/ISerpSeznamLocationsResultInfo.md).[`location_code_parent`](../interfaces/ISerpSeznamLocationsResultInfo.md#location_code_parent)
 
-#### Defined in
+#### Source
 
-main.ts:71137
+main.ts:71145
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 
 #### Implementation of
 
-[ISerpSeznamLocationsResultInfo](../interfaces/ISerpSeznamLocationsResultInfo.md).[location_name](../interfaces/ISerpSeznamLocationsResultInfo.md#location_name)
+[`ISerpSeznamLocationsResultInfo`](../interfaces/ISerpSeznamLocationsResultInfo.md).[`location_name`](../interfaces/ISerpSeznamLocationsResultInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:71133
+main.ts:71141
 
-___
+***
 
-### location\_type
+### location\_type?
 
-• `Optional` **location\_type**: `string`
+> **`optional`** **location\_type**: `string`
 
 location type
 
 #### Implementation of
 
-[ISerpSeznamLocationsResultInfo](../interfaces/ISerpSeznamLocationsResultInfo.md).[location_type](../interfaces/ISerpSeznamLocationsResultInfo.md#location_type)
+[`ISerpSeznamLocationsResultInfo`](../interfaces/ISerpSeznamLocationsResultInfo.md).[`location_type`](../interfaces/ISerpSeznamLocationsResultInfo.md#location_type)
 
-#### Defined in
+#### Source
 
-main.ts:71141
+main.ts:71149
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:71154
+main.ts:71162
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:71175
+main.ts:71183
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpSeznamLocationsResultInfo`](SerpSeznamLocationsResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpSeznamLocationsResultInfo`](SerpSeznamLocationsResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpSeznamLocationsResultInfo`](SerpSeznamLocationsResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:71168
+main.ts:71176

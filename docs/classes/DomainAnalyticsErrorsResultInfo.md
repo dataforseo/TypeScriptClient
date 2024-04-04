@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsErrorsResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DomainAnalyticsErrorsResultInfo
 
 # Class: DomainAnalyticsErrorsResultInfo
 
@@ -8,58 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DomainAnalyticsErrorsResultInfo.md#constructor)
-
-### Properties
-
-- [datetime](DomainAnalyticsErrorsResultInfo.md#datetime)
-- [error\_code](DomainAnalyticsErrorsResultInfo.md#error_code)
-- [error\_message](DomainAnalyticsErrorsResultInfo.md#error_message)
-- [function](DomainAnalyticsErrorsResultInfo.md#function)
-- [http\_code](DomainAnalyticsErrorsResultInfo.md#http_code)
-- [http\_method](DomainAnalyticsErrorsResultInfo.md#http_method)
-- [http\_response](DomainAnalyticsErrorsResultInfo.md#http_response)
-- [http\_time](DomainAnalyticsErrorsResultInfo.md#http_time)
-- [http\_url](DomainAnalyticsErrorsResultInfo.md#http_url)
-- [id](DomainAnalyticsErrorsResultInfo.md#id)
-
-### Methods
-
-- [init](DomainAnalyticsErrorsResultInfo.md#init)
-- [toJSON](DomainAnalyticsErrorsResultInfo.md#tojson)
-- [fromJS](DomainAnalyticsErrorsResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DomainAnalyticsErrorsResultInfo(data)
 
-• **new DomainAnalyticsErrorsResultInfo**(`data?`): [`DomainAnalyticsErrorsResultInfo`](DomainAnalyticsErrorsResultInfo.md)
+> **new DomainAnalyticsErrorsResultInfo**(`data`?): [`DomainAnalyticsErrorsResultInfo`](DomainAnalyticsErrorsResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDomainAnalyticsErrorsResultInfo`](../interfaces/IDomainAnalyticsErrorsResultInfo.md) |
+• **data?**: [`IDomainAnalyticsErrorsResultInfo`](../interfaces/IDomainAnalyticsErrorsResultInfo.md)
 
 #### Returns
 
 [`DomainAnalyticsErrorsResultInfo`](DomainAnalyticsErrorsResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:73732
+main.ts:73740
 
 ## Properties
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when an error occurred
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -68,216 +45,210 @@ example:
 
 #### Implementation of
 
-[IDomainAnalyticsErrorsResultInfo](../interfaces/IDomainAnalyticsErrorsResultInfo.md).[datetime](../interfaces/IDomainAnalyticsErrorsResultInfo.md#datetime)
+[`IDomainAnalyticsErrorsResultInfo`](../interfaces/IDomainAnalyticsErrorsResultInfo.md).[`datetime`](../interfaces/IDomainAnalyticsErrorsResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
-main.ts:73708
+main.ts:73716
 
-___
+***
 
-### error\_code
+### error\_code?
 
-• `Optional` **error\_code**: `number`
+> **`optional`** **error\_code**: `number`
 
 error code
 
 #### Implementation of
 
-[IDomainAnalyticsErrorsResultInfo](../interfaces/IDomainAnalyticsErrorsResultInfo.md).[error_code](../interfaces/IDomainAnalyticsErrorsResultInfo.md#error_code)
+[`IDomainAnalyticsErrorsResultInfo`](../interfaces/IDomainAnalyticsErrorsResultInfo.md).[`error_code`](../interfaces/IDomainAnalyticsErrorsResultInfo.md#error_code)
 
-#### Defined in
+#### Source
 
-main.ts:73712
+main.ts:73720
 
-___
+***
 
-### error\_message
+### error\_message?
 
-• `Optional` **error\_message**: `string`
+> **`optional`** **error\_message**: `string`
 
 error message or error URL
 error message (see full list) or URL that caused an error
 
 #### Implementation of
 
-[IDomainAnalyticsErrorsResultInfo](../interfaces/IDomainAnalyticsErrorsResultInfo.md).[error_message](../interfaces/IDomainAnalyticsErrorsResultInfo.md#error_message)
+[`IDomainAnalyticsErrorsResultInfo`](../interfaces/IDomainAnalyticsErrorsResultInfo.md).[`error_message`](../interfaces/IDomainAnalyticsErrorsResultInfo.md#error_message)
 
-#### Defined in
+#### Source
 
-main.ts:73715
+main.ts:73723
 
-___
+***
 
-### function
+### function?
 
-• `Optional` **function**: `string`
+> **`optional`** **function**: `string`
 
 corresponding API function
 
 #### Implementation of
 
-[IDomainAnalyticsErrorsResultInfo](../interfaces/IDomainAnalyticsErrorsResultInfo.md).[function](../interfaces/IDomainAnalyticsErrorsResultInfo.md#function)
+[`IDomainAnalyticsErrorsResultInfo`](../interfaces/IDomainAnalyticsErrorsResultInfo.md).[`function`](../interfaces/IDomainAnalyticsErrorsResultInfo.md#function)
 
-#### Defined in
+#### Source
 
-main.ts:73710
+main.ts:73718
 
-___
+***
 
-### http\_code
+### http\_code?
 
-• `Optional` **http\_code**: `number`
+> **`optional`** **http\_code**: `number`
 
 HTTP status code
 
 #### Implementation of
 
-[IDomainAnalyticsErrorsResultInfo](../interfaces/IDomainAnalyticsErrorsResultInfo.md).[http_code](../interfaces/IDomainAnalyticsErrorsResultInfo.md#http_code)
+[`IDomainAnalyticsErrorsResultInfo`](../interfaces/IDomainAnalyticsErrorsResultInfo.md).[`http_code`](../interfaces/IDomainAnalyticsErrorsResultInfo.md#http_code)
 
-#### Defined in
+#### Source
 
-main.ts:73722
+main.ts:73730
 
-___
+***
 
-### http\_method
+### http\_method?
 
-• `Optional` **http\_method**: `string`
+> **`optional`** **http\_method**: `string`
 
 HTTP method
 
 #### Implementation of
 
-[IDomainAnalyticsErrorsResultInfo](../interfaces/IDomainAnalyticsErrorsResultInfo.md).[http_method](../interfaces/IDomainAnalyticsErrorsResultInfo.md#http_method)
+[`IDomainAnalyticsErrorsResultInfo`](../interfaces/IDomainAnalyticsErrorsResultInfo.md).[`http_method`](../interfaces/IDomainAnalyticsErrorsResultInfo.md#http_method)
 
-#### Defined in
+#### Source
 
-main.ts:73720
+main.ts:73728
 
-___
+***
 
-### http\_response
+### http\_response?
 
-• `Optional` **http\_response**: `string`
+> **`optional`** **http\_response**: `string`
 
 HTTP response
 server response
 
 #### Implementation of
 
-[IDomainAnalyticsErrorsResultInfo](../interfaces/IDomainAnalyticsErrorsResultInfo.md).[http_response](../interfaces/IDomainAnalyticsErrorsResultInfo.md#http_response)
+[`IDomainAnalyticsErrorsResultInfo`](../interfaces/IDomainAnalyticsErrorsResultInfo.md).[`http_response`](../interfaces/IDomainAnalyticsErrorsResultInfo.md#http_response)
 
-#### Defined in
+#### Source
 
-main.ts:73728
+main.ts:73736
 
-___
+***
 
-### http\_time
+### http\_time?
 
-• `Optional` **http\_time**: `number`
+> **`optional`** **http\_time**: `number`
 
 time taken by HTTP request
 for tasks set with a pingback/postback, this field will show the time it took your server to respond
 
 #### Implementation of
 
-[IDomainAnalyticsErrorsResultInfo](../interfaces/IDomainAnalyticsErrorsResultInfo.md).[http_time](../interfaces/IDomainAnalyticsErrorsResultInfo.md#http_time)
+[`IDomainAnalyticsErrorsResultInfo`](../interfaces/IDomainAnalyticsErrorsResultInfo.md).[`http_time`](../interfaces/IDomainAnalyticsErrorsResultInfo.md#http_time)
 
-#### Defined in
+#### Source
 
-main.ts:73725
+main.ts:73733
 
-___
+***
 
-### http\_url
+### http\_url?
 
-• `Optional` **http\_url**: `string`
+> **`optional`** **http\_url**: `string`
 
 URL that caused an error
 URL you used for making an API call or pingback/postback URL
 
 #### Implementation of
 
-[IDomainAnalyticsErrorsResultInfo](../interfaces/IDomainAnalyticsErrorsResultInfo.md).[http_url](../interfaces/IDomainAnalyticsErrorsResultInfo.md#http_url)
+[`IDomainAnalyticsErrorsResultInfo`](../interfaces/IDomainAnalyticsErrorsResultInfo.md).[`http_url`](../interfaces/IDomainAnalyticsErrorsResultInfo.md#http_url)
 
-#### Defined in
+#### Source
 
-main.ts:73718
+main.ts:73726
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 id of the task
 
 #### Implementation of
 
-[IDomainAnalyticsErrorsResultInfo](../interfaces/IDomainAnalyticsErrorsResultInfo.md).[id](../interfaces/IDomainAnalyticsErrorsResultInfo.md#id)
+[`IDomainAnalyticsErrorsResultInfo`](../interfaces/IDomainAnalyticsErrorsResultInfo.md).[`id`](../interfaces/IDomainAnalyticsErrorsResultInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:73703
+main.ts:73711
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:73741
+main.ts:73749
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:73767
+main.ts:73775
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DomainAnalyticsErrorsResultInfo`](DomainAnalyticsErrorsResultInfo.md)
+> **`static`** **fromJS**(`data`): [`DomainAnalyticsErrorsResultInfo`](DomainAnalyticsErrorsResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DomainAnalyticsErrorsResultInfo`](DomainAnalyticsErrorsResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:73760
+main.ts:73768

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / HistoricalMetricsInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / HistoricalMetricsInfo
 
 # Class: HistoricalMetricsInfo
 
@@ -8,68 +12,47 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](HistoricalMetricsInfo.md#constructor)
-
-### Properties
-
-- [count](HistoricalMetricsInfo.md#count)
-- [etv](HistoricalMetricsInfo.md#etv)
-- [month](HistoricalMetricsInfo.md#month)
-- [year](HistoricalMetricsInfo.md#year)
-
-### Methods
-
-- [init](HistoricalMetricsInfo.md#init)
-- [toJSON](HistoricalMetricsInfo.md#tojson)
-- [fromJS](HistoricalMetricsInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new HistoricalMetricsInfo(data)
 
-• **new HistoricalMetricsInfo**(`data?`): [`HistoricalMetricsInfo`](HistoricalMetricsInfo.md)
+> **new HistoricalMetricsInfo**(`data`?): [`HistoricalMetricsInfo`](HistoricalMetricsInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IHistoricalMetricsInfo`](../interfaces/IHistoricalMetricsInfo.md) |
+• **data?**: [`IHistoricalMetricsInfo`](../interfaces/IHistoricalMetricsInfo.md)
 
 #### Returns
 
 [`HistoricalMetricsInfo`](HistoricalMetricsInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:100568
+main.ts:100576
 
 ## Properties
 
-### count
+### count?
 
-• `Optional` **count**: `number`
+> **`optional`** **count**: `number`
 
 total count of organic SERPs that contain the domain
 
 #### Implementation of
 
-[IHistoricalMetricsInfo](../interfaces/IHistoricalMetricsInfo.md).[count](../interfaces/IHistoricalMetricsInfo.md#count)
+[`IHistoricalMetricsInfo`](../interfaces/IHistoricalMetricsInfo.md).[`count`](../interfaces/IHistoricalMetricsInfo.md#count)
 
-#### Defined in
+#### Source
 
-main.ts:100564
+main.ts:100572
 
-___
+***
 
-### etv
+### etv?
 
-• `Optional` **etv**: `number`
+> **`optional`** **etv**: `number`
 
 estimated traffic volume
 estimated organic monthly traffic to the domain
@@ -78,100 +61,94 @@ learn more about how the metric is calculated in this help center article
 
 #### Implementation of
 
-[IHistoricalMetricsInfo](../interfaces/IHistoricalMetricsInfo.md).[etv](../interfaces/IHistoricalMetricsInfo.md#etv)
+[`IHistoricalMetricsInfo`](../interfaces/IHistoricalMetricsInfo.md).[`etv`](../interfaces/IHistoricalMetricsInfo.md#etv)
 
-#### Defined in
+#### Source
 
-main.ts:100562
+main.ts:100570
 
-___
+***
 
-### month
+### month?
 
-• `Optional` **month**: `number`
+> **`optional`** **month**: `number`
 
 month for which the data is provided
 
 #### Implementation of
 
-[IHistoricalMetricsInfo](../interfaces/IHistoricalMetricsInfo.md).[month](../interfaces/IHistoricalMetricsInfo.md#month)
+[`IHistoricalMetricsInfo`](../interfaces/IHistoricalMetricsInfo.md).[`month`](../interfaces/IHistoricalMetricsInfo.md#month)
 
-#### Defined in
+#### Source
 
-main.ts:100557
+main.ts:100565
 
-___
+***
 
-### year
+### year?
 
-• `Optional` **year**: `number`
+> **`optional`** **year**: `number`
 
 year for which the data is provided
 
 #### Implementation of
 
-[IHistoricalMetricsInfo](../interfaces/IHistoricalMetricsInfo.md).[year](../interfaces/IHistoricalMetricsInfo.md#year)
+[`IHistoricalMetricsInfo`](../interfaces/IHistoricalMetricsInfo.md).[`year`](../interfaces/IHistoricalMetricsInfo.md#year)
 
-#### Defined in
+#### Source
 
-main.ts:100555
+main.ts:100563
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:100577
+main.ts:100585
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:100597
+main.ts:100605
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`HistoricalMetricsInfo`](HistoricalMetricsInfo.md)
+> **`static`** **fromJS**(`data`): [`HistoricalMetricsInfo`](HistoricalMetricsInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`HistoricalMetricsInfo`](HistoricalMetricsInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:100590
+main.ts:100598

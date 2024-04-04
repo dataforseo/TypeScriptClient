@@ -1,329 +1,30 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpApi
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpApi
 
 # Class: SerpApi
 
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpApi.md#constructor)
-
-### Properties
-
-- [baseUrl](SerpApi.md#baseurl)
-- [http](SerpApi.md#http)
-- [jsonParseReviver](SerpApi.md#jsonparsereviver)
-
-### Methods
-
-- [aiSummary](SerpApi.md#aisummary)
-- [baiduOrganicTaskGetAdvanced](SerpApi.md#baiduorganictaskgetadvanced)
-- [baiduOrganicTaskGetHtml](SerpApi.md#baiduorganictaskgethtml)
-- [baiduOrganicTaskGetRegular](SerpApi.md#baiduorganictaskgetregular)
-- [baiduOrganicTaskPost](SerpApi.md#baiduorganictaskpost)
-- [baiduOrganicTasksFixed](SerpApi.md#baiduorganictasksfixed)
-- [baiduOrganicTasksReady](SerpApi.md#baiduorganictasksready)
-- [bingLocalPackLiveHtml](SerpApi.md#binglocalpacklivehtml)
-- [bingLocalPackLiveRegular](SerpApi.md#binglocalpackliveregular)
-- [bingLocalPackTaskGetHtml](SerpApi.md#binglocalpacktaskgethtml)
-- [bingLocalPackTaskGetRegular](SerpApi.md#binglocalpacktaskgetregular)
-- [bingLocalPackTaskPost](SerpApi.md#binglocalpacktaskpost)
-- [bingLocalPackTasksFixed](SerpApi.md#binglocalpacktasksfixed)
-- [bingLocalPackTasksReady](SerpApi.md#binglocalpacktasksready)
-- [bingOrganicLiveAdvanced](SerpApi.md#bingorganicliveadvanced)
-- [bingOrganicLiveHtml](SerpApi.md#bingorganiclivehtml)
-- [bingOrganicLiveRegular](SerpApi.md#bingorganicliveregular)
-- [bingOrganicTaskGetAdvanced](SerpApi.md#bingorganictaskgetadvanced)
-- [bingOrganicTaskGetHtml](SerpApi.md#bingorganictaskgethtml)
-- [bingOrganicTaskGetRegular](SerpApi.md#bingorganictaskgetregular)
-- [bingOrganicTaskPost](SerpApi.md#bingorganictaskpost)
-- [bingOrganicTasksFixed](SerpApi.md#bingorganictasksfixed)
-- [bingOrganicTasksReady](SerpApi.md#bingorganictasksready)
-- [googleAutocompleteLiveAdvanced](SerpApi.md#googleautocompleteliveadvanced)
-- [googleAutocompleteTaskGetAdvanced](SerpApi.md#googleautocompletetaskgetadvanced)
-- [googleAutocompleteTaskPost](SerpApi.md#googleautocompletetaskpost)
-- [googleAutocompleteTasksFixed](SerpApi.md#googleautocompletetasksfixed)
-- [googleAutocompleteTasksReady](SerpApi.md#googleautocompletetasksready)
-- [googleDatasetInfoLiveAdvanced](SerpApi.md#googledatasetinfoliveadvanced)
-- [googleDatasetInfoTaskGetAdvanced](SerpApi.md#googledatasetinfotaskgetadvanced)
-- [googleDatasetInfoTaskPost](SerpApi.md#googledatasetinfotaskpost)
-- [googleDatasetInfoTasksFixed](SerpApi.md#googledatasetinfotasksfixed)
-- [googleDatasetInfoTasksReady](SerpApi.md#googledatasetinfotasksready)
-- [googleDatasetSearchLiveAdvanced](SerpApi.md#googledatasetsearchliveadvanced)
-- [googleDatasetSearchTaskGetAdvanced](SerpApi.md#googledatasetsearchtaskgetadvanced)
-- [googleDatasetSearchTaskPost](SerpApi.md#googledatasetsearchtaskpost)
-- [googleDatasetSearchTasksFixed](SerpApi.md#googledatasetsearchtasksfixed)
-- [googleDatasetSearchTasksReady](SerpApi.md#googledatasetsearchtasksready)
-- [googleEventsLiveAdvanced](SerpApi.md#googleeventsliveadvanced)
-- [googleEventsTaskGetAdvanced](SerpApi.md#googleeventstaskgetadvanced)
-- [googleEventsTaskPost](SerpApi.md#googleeventstaskpost)
-- [googleEventsTasksFixed](SerpApi.md#googleeventstasksfixed)
-- [googleEventsTasksReady](SerpApi.md#googleeventstasksready)
-- [googleImagesLiveAdvanced](SerpApi.md#googleimagesliveadvanced)
-- [googleImagesLiveHtml](SerpApi.md#googleimageslivehtml)
-- [googleImagesTaskGetAdvanced](SerpApi.md#googleimagestaskgetadvanced)
-- [googleImagesTaskGetHtml](SerpApi.md#googleimagestaskgethtml)
-- [googleImagesTaskPost](SerpApi.md#googleimagestaskpost)
-- [googleImagesTasksFixed](SerpApi.md#googleimagestasksfixed)
-- [googleImagesTasksReady](SerpApi.md#googleimagestasksready)
-- [googleJobsTaskGetAdvanced](SerpApi.md#googlejobstaskgetadvanced)
-- [googleJobsTaskGetHtml](SerpApi.md#googlejobstaskgethtml)
-- [googleJobsTaskPost](SerpApi.md#googlejobstaskpost)
-- [googleJobsTasksFixed](SerpApi.md#googlejobstasksfixed)
-- [googleJobsTasksReady](SerpApi.md#googlejobstasksready)
-- [googleLocalFinderLiveAdvanced](SerpApi.md#googlelocalfinderliveadvanced)
-- [googleLocalFinderLiveHtml](SerpApi.md#googlelocalfinderlivehtml)
-- [googleLocalFinderTaskGetAdvanced](SerpApi.md#googlelocalfindertaskgetadvanced)
-- [googleLocalFinderTaskGetHtml](SerpApi.md#googlelocalfindertaskgethtml)
-- [googleLocalFinderTaskPost](SerpApi.md#googlelocalfindertaskpost)
-- [googleLocalFinderTasksFixed](SerpApi.md#googlelocalfindertasksfixed)
-- [googleLocalFinderTasksReady](SerpApi.md#googlelocalfindertasksready)
-- [googleMapsLiveAdvanced](SerpApi.md#googlemapsliveadvanced)
-- [googleMapsTaskGetAdvanced](SerpApi.md#googlemapstaskgetadvanced)
-- [googleMapsTaskPost](SerpApi.md#googlemapstaskpost)
-- [googleMapsTasksFixed](SerpApi.md#googlemapstasksfixed)
-- [googleMapsTasksReady](SerpApi.md#googlemapstasksready)
-- [googleNewsLiveAdvanced](SerpApi.md#googlenewsliveadvanced)
-- [googleNewsLiveHtml](SerpApi.md#googlenewslivehtml)
-- [googleNewsTaskGetAdvanced](SerpApi.md#googlenewstaskgetadvanced)
-- [googleNewsTaskGetHtml](SerpApi.md#googlenewstaskgethtml)
-- [googleNewsTaskPost](SerpApi.md#googlenewstaskpost)
-- [googleNewsTasksFixed](SerpApi.md#googlenewstasksfixed)
-- [googleNewsTasksReady](SerpApi.md#googlenewstasksready)
-- [googleOrganicLiveAdvanced](SerpApi.md#googleorganicliveadvanced)
-- [googleOrganicLiveHtml](SerpApi.md#googleorganiclivehtml)
-- [googleOrganicLiveRegular](SerpApi.md#googleorganicliveregular)
-- [googleOrganicTaskGetAdvanced](SerpApi.md#googleorganictaskgetadvanced)
-- [googleOrganicTaskGetHtml](SerpApi.md#googleorganictaskgethtml)
-- [googleOrganicTaskGetRegular](SerpApi.md#googleorganictaskgetregular)
-- [googleOrganicTaskPost](SerpApi.md#googleorganictaskpost)
-- [googleOrganicTasksFixed](SerpApi.md#googleorganictasksfixed)
-- [googleOrganicTasksReady](SerpApi.md#googleorganictasksready)
-- [googleSearchByImageTaskGetAdvanced](SerpApi.md#googlesearchbyimagetaskgetadvanced)
-- [googleSearchByImageTaskPost](SerpApi.md#googlesearchbyimagetaskpost)
-- [googleSearchByImageTasksFixed](SerpApi.md#googlesearchbyimagetasksfixed)
-- [googleSearchByImageTasksReady](SerpApi.md#googlesearchbyimagetasksready)
-- [naverOrganicTaskGetAdvanced](SerpApi.md#naverorganictaskgetadvanced)
-- [naverOrganicTaskGetHtml](SerpApi.md#naverorganictaskgethtml)
-- [naverOrganicTaskGetRegular](SerpApi.md#naverorganictaskgetregular)
-- [naverOrganicTaskPost](SerpApi.md#naverorganictaskpost)
-- [naverOrganicTasksFixed](SerpApi.md#naverorganictasksfixed)
-- [naverOrganicTasksReady](SerpApi.md#naverorganictasksready)
-- [processAiSummary](SerpApi.md#processaisummary)
-- [processBaiduOrganicTaskGetAdvanced](SerpApi.md#processbaiduorganictaskgetadvanced)
-- [processBaiduOrganicTaskGetHtml](SerpApi.md#processbaiduorganictaskgethtml)
-- [processBaiduOrganicTaskGetRegular](SerpApi.md#processbaiduorganictaskgetregular)
-- [processBaiduOrganicTaskPost](SerpApi.md#processbaiduorganictaskpost)
-- [processBaiduOrganicTasksFixed](SerpApi.md#processbaiduorganictasksfixed)
-- [processBaiduOrganicTasksReady](SerpApi.md#processbaiduorganictasksready)
-- [processBingLocalPackLiveHtml](SerpApi.md#processbinglocalpacklivehtml)
-- [processBingLocalPackLiveRegular](SerpApi.md#processbinglocalpackliveregular)
-- [processBingLocalPackTaskGetHtml](SerpApi.md#processbinglocalpacktaskgethtml)
-- [processBingLocalPackTaskGetRegular](SerpApi.md#processbinglocalpacktaskgetregular)
-- [processBingLocalPackTaskPost](SerpApi.md#processbinglocalpacktaskpost)
-- [processBingLocalPackTasksFixed](SerpApi.md#processbinglocalpacktasksfixed)
-- [processBingLocalPackTasksReady](SerpApi.md#processbinglocalpacktasksready)
-- [processBingOrganicLiveAdvanced](SerpApi.md#processbingorganicliveadvanced)
-- [processBingOrganicLiveHtml](SerpApi.md#processbingorganiclivehtml)
-- [processBingOrganicLiveRegular](SerpApi.md#processbingorganicliveregular)
-- [processBingOrganicTaskGetAdvanced](SerpApi.md#processbingorganictaskgetadvanced)
-- [processBingOrganicTaskGetHtml](SerpApi.md#processbingorganictaskgethtml)
-- [processBingOrganicTaskGetRegular](SerpApi.md#processbingorganictaskgetregular)
-- [processBingOrganicTaskPost](SerpApi.md#processbingorganictaskpost)
-- [processBingOrganicTasksFixed](SerpApi.md#processbingorganictasksfixed)
-- [processBingOrganicTasksReady](SerpApi.md#processbingorganictasksready)
-- [processGoogleAutocompleteLiveAdvanced](SerpApi.md#processgoogleautocompleteliveadvanced)
-- [processGoogleAutocompleteTaskGetAdvanced](SerpApi.md#processgoogleautocompletetaskgetadvanced)
-- [processGoogleAutocompleteTaskPost](SerpApi.md#processgoogleautocompletetaskpost)
-- [processGoogleAutocompleteTasksFixed](SerpApi.md#processgoogleautocompletetasksfixed)
-- [processGoogleAutocompleteTasksReady](SerpApi.md#processgoogleautocompletetasksready)
-- [processGoogleDatasetInfoLiveAdvanced](SerpApi.md#processgoogledatasetinfoliveadvanced)
-- [processGoogleDatasetInfoTaskGetAdvanced](SerpApi.md#processgoogledatasetinfotaskgetadvanced)
-- [processGoogleDatasetInfoTaskPost](SerpApi.md#processgoogledatasetinfotaskpost)
-- [processGoogleDatasetInfoTasksFixed](SerpApi.md#processgoogledatasetinfotasksfixed)
-- [processGoogleDatasetInfoTasksReady](SerpApi.md#processgoogledatasetinfotasksready)
-- [processGoogleDatasetSearchLiveAdvanced](SerpApi.md#processgoogledatasetsearchliveadvanced)
-- [processGoogleDatasetSearchTaskGetAdvanced](SerpApi.md#processgoogledatasetsearchtaskgetadvanced)
-- [processGoogleDatasetSearchTaskPost](SerpApi.md#processgoogledatasetsearchtaskpost)
-- [processGoogleDatasetSearchTasksFixed](SerpApi.md#processgoogledatasetsearchtasksfixed)
-- [processGoogleDatasetSearchTasksReady](SerpApi.md#processgoogledatasetsearchtasksready)
-- [processGoogleEventsLiveAdvanced](SerpApi.md#processgoogleeventsliveadvanced)
-- [processGoogleEventsTaskGetAdvanced](SerpApi.md#processgoogleeventstaskgetadvanced)
-- [processGoogleEventsTaskPost](SerpApi.md#processgoogleeventstaskpost)
-- [processGoogleEventsTasksFixed](SerpApi.md#processgoogleeventstasksfixed)
-- [processGoogleEventsTasksReady](SerpApi.md#processgoogleeventstasksready)
-- [processGoogleImagesLiveAdvanced](SerpApi.md#processgoogleimagesliveadvanced)
-- [processGoogleImagesLiveHtml](SerpApi.md#processgoogleimageslivehtml)
-- [processGoogleImagesTaskGetAdvanced](SerpApi.md#processgoogleimagestaskgetadvanced)
-- [processGoogleImagesTaskGetHtml](SerpApi.md#processgoogleimagestaskgethtml)
-- [processGoogleImagesTaskPost](SerpApi.md#processgoogleimagestaskpost)
-- [processGoogleImagesTasksFixed](SerpApi.md#processgoogleimagestasksfixed)
-- [processGoogleImagesTasksReady](SerpApi.md#processgoogleimagestasksready)
-- [processGoogleJobsTaskGetAdvanced](SerpApi.md#processgooglejobstaskgetadvanced)
-- [processGoogleJobsTaskGetHtml](SerpApi.md#processgooglejobstaskgethtml)
-- [processGoogleJobsTaskPost](SerpApi.md#processgooglejobstaskpost)
-- [processGoogleJobsTasksFixed](SerpApi.md#processgooglejobstasksfixed)
-- [processGoogleJobsTasksReady](SerpApi.md#processgooglejobstasksready)
-- [processGoogleLocalFinderLiveAdvanced](SerpApi.md#processgooglelocalfinderliveadvanced)
-- [processGoogleLocalFinderLiveHtml](SerpApi.md#processgooglelocalfinderlivehtml)
-- [processGoogleLocalFinderTaskGetAdvanced](SerpApi.md#processgooglelocalfindertaskgetadvanced)
-- [processGoogleLocalFinderTaskGetHtml](SerpApi.md#processgooglelocalfindertaskgethtml)
-- [processGoogleLocalFinderTaskPost](SerpApi.md#processgooglelocalfindertaskpost)
-- [processGoogleLocalFinderTasksFixed](SerpApi.md#processgooglelocalfindertasksfixed)
-- [processGoogleLocalFinderTasksReady](SerpApi.md#processgooglelocalfindertasksready)
-- [processGoogleMapsLiveAdvanced](SerpApi.md#processgooglemapsliveadvanced)
-- [processGoogleMapsTaskGetAdvanced](SerpApi.md#processgooglemapstaskgetadvanced)
-- [processGoogleMapsTaskPost](SerpApi.md#processgooglemapstaskpost)
-- [processGoogleMapsTasksFixed](SerpApi.md#processgooglemapstasksfixed)
-- [processGoogleMapsTasksReady](SerpApi.md#processgooglemapstasksready)
-- [processGoogleNewsLiveAdvanced](SerpApi.md#processgooglenewsliveadvanced)
-- [processGoogleNewsLiveHtml](SerpApi.md#processgooglenewslivehtml)
-- [processGoogleNewsTaskGetAdvanced](SerpApi.md#processgooglenewstaskgetadvanced)
-- [processGoogleNewsTaskGetHtml](SerpApi.md#processgooglenewstaskgethtml)
-- [processGoogleNewsTaskPost](SerpApi.md#processgooglenewstaskpost)
-- [processGoogleNewsTasksFixed](SerpApi.md#processgooglenewstasksfixed)
-- [processGoogleNewsTasksReady](SerpApi.md#processgooglenewstasksready)
-- [processGoogleOrganicLiveAdvanced](SerpApi.md#processgoogleorganicliveadvanced)
-- [processGoogleOrganicLiveHtml](SerpApi.md#processgoogleorganiclivehtml)
-- [processGoogleOrganicLiveRegular](SerpApi.md#processgoogleorganicliveregular)
-- [processGoogleOrganicTaskGetAdvanced](SerpApi.md#processgoogleorganictaskgetadvanced)
-- [processGoogleOrganicTaskGetHtml](SerpApi.md#processgoogleorganictaskgethtml)
-- [processGoogleOrganicTaskGetRegular](SerpApi.md#processgoogleorganictaskgetregular)
-- [processGoogleOrganicTaskPost](SerpApi.md#processgoogleorganictaskpost)
-- [processGoogleOrganicTasksFixed](SerpApi.md#processgoogleorganictasksfixed)
-- [processGoogleOrganicTasksReady](SerpApi.md#processgoogleorganictasksready)
-- [processGoogleSearchByImageTaskGetAdvanced](SerpApi.md#processgooglesearchbyimagetaskgetadvanced)
-- [processGoogleSearchByImageTaskPost](SerpApi.md#processgooglesearchbyimagetaskpost)
-- [processGoogleSearchByImageTasksFixed](SerpApi.md#processgooglesearchbyimagetasksfixed)
-- [processGoogleSearchByImageTasksReady](SerpApi.md#processgooglesearchbyimagetasksready)
-- [processNaverOrganicTaskGetAdvanced](SerpApi.md#processnaverorganictaskgetadvanced)
-- [processNaverOrganicTaskGetHtml](SerpApi.md#processnaverorganictaskgethtml)
-- [processNaverOrganicTaskGetRegular](SerpApi.md#processnaverorganictaskgetregular)
-- [processNaverOrganicTaskPost](SerpApi.md#processnaverorganictaskpost)
-- [processNaverOrganicTasksFixed](SerpApi.md#processnaverorganictasksfixed)
-- [processNaverOrganicTasksReady](SerpApi.md#processnaverorganictasksready)
-- [processScreenshot](SerpApi.md#processscreenshot)
-- [processSerpBaiduLanguages](SerpApi.md#processserpbaidulanguages)
-- [processSerpBaiduLocations](SerpApi.md#processserpbaidulocations)
-- [processSerpBaiduLocationsCountry](SerpApi.md#processserpbaidulocationscountry)
-- [processSerpBingLanguages](SerpApi.md#processserpbinglanguages)
-- [processSerpBingLocations](SerpApi.md#processserpbinglocations)
-- [processSerpBingLocationsCountry](SerpApi.md#processserpbinglocationscountry)
-- [processSerpErrors](SerpApi.md#processserperrors)
-- [processSerpGoogleLanguages](SerpApi.md#processserpgooglelanguages)
-- [processSerpGoogleLocations](SerpApi.md#processserpgooglelocations)
-- [processSerpGoogleLocationsCountry](SerpApi.md#processserpgooglelocationscountry)
-- [processSerpIdList](SerpApi.md#processserpidlist)
-- [processSerpSeznamLanguages](SerpApi.md#processserpseznamlanguages)
-- [processSerpSeznamLocations](SerpApi.md#processserpseznamlocations)
-- [processSerpSeznamLocationsCountry](SerpApi.md#processserpseznamlocationscountry)
-- [processSerpYahooLanguages](SerpApi.md#processserpyahoolanguages)
-- [processSerpYahooLocations](SerpApi.md#processserpyahoolocations)
-- [processSerpYahooLocationsCountry](SerpApi.md#processserpyahoolocationscountry)
-- [processSerpYoutubeLanguages](SerpApi.md#processserpyoutubelanguages)
-- [processSerpYoutubeLocations](SerpApi.md#processserpyoutubelocations)
-- [processSerpYoutubeLocationsCountry](SerpApi.md#processserpyoutubelocationscountry)
-- [processSeznamOrganicTaskGetAdvanced](SerpApi.md#processseznamorganictaskgetadvanced)
-- [processSeznamOrganicTaskGetHtml](SerpApi.md#processseznamorganictaskgethtml)
-- [processSeznamOrganicTaskGetRegular](SerpApi.md#processseznamorganictaskgetregular)
-- [processSeznamOrganicTaskPost](SerpApi.md#processseznamorganictaskpost)
-- [processSeznamOrganicTasksFixed](SerpApi.md#processseznamorganictasksfixed)
-- [processSeznamOrganicTasksReady](SerpApi.md#processseznamorganictasksready)
-- [processYahooOrganicLiveAdvanced](SerpApi.md#processyahooorganicliveadvanced)
-- [processYahooOrganicLiveHtml](SerpApi.md#processyahooorganiclivehtml)
-- [processYahooOrganicLiveRegular](SerpApi.md#processyahooorganicliveregular)
-- [processYahooOrganicTaskGetAdvanced](SerpApi.md#processyahooorganictaskgetadvanced)
-- [processYahooOrganicTaskGetHtml](SerpApi.md#processyahooorganictaskgethtml)
-- [processYahooOrganicTaskGetRegular](SerpApi.md#processyahooorganictaskgetregular)
-- [processYahooOrganicTaskPost](SerpApi.md#processyahooorganictaskpost)
-- [processYahooOrganicTasksFixed](SerpApi.md#processyahooorganictasksfixed)
-- [processYahooOrganicTasksReady](SerpApi.md#processyahooorganictasksready)
-- [processYoutubeVideoCommentsLiveAdvanced](SerpApi.md#processyoutubevideocommentsliveadvanced)
-- [processYoutubeVideoCommentsTaskGetAdvanced](SerpApi.md#processyoutubevideocommentstaskgetadvanced)
-- [processYoutubeVideoCommentsTaskPost](SerpApi.md#processyoutubevideocommentstaskpost)
-- [processYoutubeVideoCommentsTasksFixed](SerpApi.md#processyoutubevideocommentstasksfixed)
-- [processYoutubeVideoCommentsTasksReady](SerpApi.md#processyoutubevideocommentstasksready)
-- [processYoutubeVideoInfoLiveAdvanced](SerpApi.md#processyoutubevideoinfoliveadvanced)
-- [processYoutubeVideoInfoTaskGetAdvanced](SerpApi.md#processyoutubevideoinfotaskgetadvanced)
-- [processYoutubeVideoInfoTaskPost](SerpApi.md#processyoutubevideoinfotaskpost)
-- [processYoutubeVideoInfoTasksFixed](SerpApi.md#processyoutubevideoinfotasksfixed)
-- [processYoutubeVideoInfoTasksReady](SerpApi.md#processyoutubevideoinfotasksready)
-- [processYoutubeVideoSubtitlesLiveAdvanced](SerpApi.md#processyoutubevideosubtitlesliveadvanced)
-- [processYoutubeVideoSubtitlesTaskGetAdvanced](SerpApi.md#processyoutubevideosubtitlestaskgetadvanced)
-- [processYoutubeVideoSubtitlesTaskPost](SerpApi.md#processyoutubevideosubtitlestaskpost)
-- [processYoutubeVideoSubtitlesTasksFixed](SerpApi.md#processyoutubevideosubtitlestasksfixed)
-- [processYoutubeVideoSubtitlesTasksReady](SerpApi.md#processyoutubevideosubtitlestasksready)
-- [screenshot](SerpApi.md#screenshot)
-- [serpBaiduLanguages](SerpApi.md#serpbaidulanguages)
-- [serpBaiduLocations](SerpApi.md#serpbaidulocations)
-- [serpBaiduLocationsCountry](SerpApi.md#serpbaidulocationscountry)
-- [serpBingLanguages](SerpApi.md#serpbinglanguages)
-- [serpBingLocations](SerpApi.md#serpbinglocations)
-- [serpBingLocationsCountry](SerpApi.md#serpbinglocationscountry)
-- [serpErrors](SerpApi.md#serperrors)
-- [serpGoogleLanguages](SerpApi.md#serpgooglelanguages)
-- [serpGoogleLocations](SerpApi.md#serpgooglelocations)
-- [serpGoogleLocationsCountry](SerpApi.md#serpgooglelocationscountry)
-- [serpIdList](SerpApi.md#serpidlist)
-- [serpSeznamLanguages](SerpApi.md#serpseznamlanguages)
-- [serpSeznamLocations](SerpApi.md#serpseznamlocations)
-- [serpSeznamLocationsCountry](SerpApi.md#serpseznamlocationscountry)
-- [serpYahooLanguages](SerpApi.md#serpyahoolanguages)
-- [serpYahooLocations](SerpApi.md#serpyahoolocations)
-- [serpYahooLocationsCountry](SerpApi.md#serpyahoolocationscountry)
-- [serpYoutubeLanguages](SerpApi.md#serpyoutubelanguages)
-- [serpYoutubeLocations](SerpApi.md#serpyoutubelocations)
-- [serpYoutubeLocationsCountry](SerpApi.md#serpyoutubelocationscountry)
-- [seznamOrganicTaskGetAdvanced](SerpApi.md#seznamorganictaskgetadvanced)
-- [seznamOrganicTaskGetHtml](SerpApi.md#seznamorganictaskgethtml)
-- [seznamOrganicTaskGetRegular](SerpApi.md#seznamorganictaskgetregular)
-- [seznamOrganicTaskPost](SerpApi.md#seznamorganictaskpost)
-- [seznamOrganicTasksFixed](SerpApi.md#seznamorganictasksfixed)
-- [seznamOrganicTasksReady](SerpApi.md#seznamorganictasksready)
-- [yahooOrganicLiveAdvanced](SerpApi.md#yahooorganicliveadvanced)
-- [yahooOrganicLiveHtml](SerpApi.md#yahooorganiclivehtml)
-- [yahooOrganicLiveRegular](SerpApi.md#yahooorganicliveregular)
-- [yahooOrganicTaskGetAdvanced](SerpApi.md#yahooorganictaskgetadvanced)
-- [yahooOrganicTaskGetHtml](SerpApi.md#yahooorganictaskgethtml)
-- [yahooOrganicTaskGetRegular](SerpApi.md#yahooorganictaskgetregular)
-- [yahooOrganicTaskPost](SerpApi.md#yahooorganictaskpost)
-- [yahooOrganicTasksFixed](SerpApi.md#yahooorganictasksfixed)
-- [yahooOrganicTasksReady](SerpApi.md#yahooorganictasksready)
-- [youtubeVideoCommentsLiveAdvanced](SerpApi.md#youtubevideocommentsliveadvanced)
-- [youtubeVideoCommentsTaskGetAdvanced](SerpApi.md#youtubevideocommentstaskgetadvanced)
-- [youtubeVideoCommentsTaskPost](SerpApi.md#youtubevideocommentstaskpost)
-- [youtubeVideoCommentsTasksFixed](SerpApi.md#youtubevideocommentstasksfixed)
-- [youtubeVideoCommentsTasksReady](SerpApi.md#youtubevideocommentstasksready)
-- [youtubeVideoInfoLiveAdvanced](SerpApi.md#youtubevideoinfoliveadvanced)
-- [youtubeVideoInfoTaskGetAdvanced](SerpApi.md#youtubevideoinfotaskgetadvanced)
-- [youtubeVideoInfoTaskPost](SerpApi.md#youtubevideoinfotaskpost)
-- [youtubeVideoInfoTasksFixed](SerpApi.md#youtubevideoinfotasksfixed)
-- [youtubeVideoInfoTasksReady](SerpApi.md#youtubevideoinfotasksready)
-- [youtubeVideoSubtitlesLiveAdvanced](SerpApi.md#youtubevideosubtitlesliveadvanced)
-- [youtubeVideoSubtitlesTaskGetAdvanced](SerpApi.md#youtubevideosubtitlestaskgetadvanced)
-- [youtubeVideoSubtitlesTaskPost](SerpApi.md#youtubevideosubtitlestaskpost)
-- [youtubeVideoSubtitlesTasksFixed](SerpApi.md#youtubevideosubtitlestasksfixed)
-- [youtubeVideoSubtitlesTasksReady](SerpApi.md#youtubevideosubtitlestasksready)
-
 ## Constructors
 
-### constructor
+### new SerpApi(baseUrl, http)
 
-• **new SerpApi**(`baseUrl?`, `http?`): [`SerpApi`](SerpApi.md)
+> **new SerpApi**(`baseUrl`?, `http`?): [`SerpApi`](SerpApi.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `baseUrl?` | `string` |
-| `http?` | `Object` |
-| `http.fetch` | (`url`: `RequestInfo`, `init?`: `RequestInit`) => `Promise`\<`Response`\> |
+• **baseUrl?**: `string`
+
+• **http?**
+
+• **http\.fetch?**
 
 #### Returns
 
 [`SerpApi`](SerpApi.md)
 
-#### Defined in
+#### Source
 
 main.ts:16
 
@@ -331,64 +32,65 @@ main.ts:16
 
 ### baseUrl
 
-• `Private` **baseUrl**: `string`
+> **`private`** **baseUrl**: `string`
 
-#### Defined in
+#### Source
 
 main.ts:13
 
-___
+***
 
 ### http
 
-• `Private` **http**: `Object`
+> **`private`** **http**: `Object`
 
-#### Type declaration
-
-| Name | Type |
-| :------ | :------ |
-| `fetch` | (`url`: `RequestInfo`, `init?`: `RequestInit`) => `Promise`\<`Response`\> |
-
-#### Defined in
-
-main.ts:12
-
-___
-
-### jsonParseReviver
-
-• `Protected` **jsonParseReviver**: (`key`: `string`, `value`: `any`) => `any` = `undefined`
-
-#### Type declaration
-
-▸ (`key`, `value`): `any`
+#### http.fetch()
 
 ##### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `key` | `string` |
-| `value` | `any` |
+• **url**: `RequestInfo`
+
+• **init?**: `RequestInit`
 
 ##### Returns
 
+`Promise`\<`Response`\>
+
+#### Source
+
+main.ts:12
+
+***
+
+### jsonParseReviver
+
+> **`protected`** **jsonParseReviver**: (`key`, `value`) => `any` = `undefined`
+
+#### Parameters
+
+• **key**: `string`
+
+• **value**: `any`
+
+#### Returns
+
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:14
 
 ## Methods
 
-### aiSummary
+### aiSummary()
 
-▸ **aiSummary**(`body`): `Promise`\<[`SerpAiSummaryResponseInfo`](SerpAiSummaryResponseInfo.md)\>
+> **aiSummary**(`body`): `Promise`\<[`SerpAiSummaryResponseInfo`](SerpAiSummaryResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpAiSummaryRequestInfo`](SerpAiSummaryRequestInfo.md)[] | (optional) |
+• **body**: [`SerpAiSummaryRequestInfo`](SerpAiSummaryRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -396,21 +98,23 @@ main.ts:14
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:151
 
-___
+***
 
-### baiduOrganicTaskGetAdvanced
+### baiduOrganicTaskGetAdvanced()
 
-▸ **baiduOrganicTaskGetAdvanced**(`id`): `Promise`\<[`SerpBaiduOrganicTaskGetAdvancedResponseInfo`](SerpBaiduOrganicTaskGetAdvancedResponseInfo.md)\>
+> **baiduOrganicTaskGetAdvanced**(`id`): `Promise`\<[`SerpBaiduOrganicTaskGetAdvancedResponseInfo`](SerpBaiduOrganicTaskGetAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -418,21 +122,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:5177
 
-___
+***
 
-### baiduOrganicTaskGetHtml
+### baiduOrganicTaskGetHtml()
 
-▸ **baiduOrganicTaskGetHtml**(`id`): `Promise`\<[`SerpBaiduOrganicTaskGetHtmlResponseInfo`](SerpBaiduOrganicTaskGetHtmlResponseInfo.md)\>
+> **baiduOrganicTaskGetHtml**(`id`): `Promise`\<[`SerpBaiduOrganicTaskGetHtmlResponseInfo`](SerpBaiduOrganicTaskGetHtmlResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 7 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 7 days to request the results of the task at any time
 
 #### Returns
 
@@ -440,21 +146,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:5220
 
-___
+***
 
-### baiduOrganicTaskGetRegular
+### baiduOrganicTaskGetRegular()
 
-▸ **baiduOrganicTaskGetRegular**(`id`): `Promise`\<[`SerpBaiduOrganicTaskGetRegularResponseInfo`](SerpBaiduOrganicTaskGetRegularResponseInfo.md)\>
+> **baiduOrganicTaskGetRegular**(`id`): `Promise`\<[`SerpBaiduOrganicTaskGetRegularResponseInfo`](SerpBaiduOrganicTaskGetRegularResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -462,21 +170,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:5134
 
-___
+***
 
-### baiduOrganicTaskPost
+### baiduOrganicTaskPost()
 
-▸ **baiduOrganicTaskPost**(`body`): `Promise`\<[`SerpBaiduOrganicTaskPostResponseInfo`](SerpBaiduOrganicTaskPostResponseInfo.md)\>
+> **baiduOrganicTaskPost**(`body`): `Promise`\<[`SerpBaiduOrganicTaskPostResponseInfo`](SerpBaiduOrganicTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpBaiduOrganicTaskPostRequestInfo`](SerpBaiduOrganicTaskPostRequestInfo.md)[] | (optional) |
+• **body**: [`SerpBaiduOrganicTaskPostRequestInfo`](SerpBaiduOrganicTaskPostRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -484,15 +192,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:5016
 
-___
+***
 
-### baiduOrganicTasksFixed
+### baiduOrganicTasksFixed()
 
-▸ **baiduOrganicTasksFixed**(): `Promise`\<[`SerpBaiduOrganicTasksFixedResponseInfo`](SerpBaiduOrganicTasksFixedResponseInfo.md)\>
+> **baiduOrganicTasksFixed**(): `Promise`\<[`SerpBaiduOrganicTasksFixedResponseInfo`](SerpBaiduOrganicTasksFixedResponseInfo.md)\>
 
 #### Returns
 
@@ -500,15 +208,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:5094
 
-___
+***
 
-### baiduOrganicTasksReady
+### baiduOrganicTasksReady()
 
-▸ **baiduOrganicTasksReady**(): `Promise`\<[`SerpBaiduOrganicTasksReadyResponseInfo`](SerpBaiduOrganicTasksReadyResponseInfo.md)\>
+> **baiduOrganicTasksReady**(): `Promise`\<[`SerpBaiduOrganicTasksReadyResponseInfo`](SerpBaiduOrganicTasksReadyResponseInfo.md)\>
 
 #### Returns
 
@@ -516,21 +224,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:5057
 
-___
+***
 
-### bingLocalPackLiveHtml
+### bingLocalPackLiveHtml()
 
-▸ **bingLocalPackLiveHtml**(`body`): `Promise`\<[`SerpBingLocalPackLiveHtmlResponseInfo`](SerpBingLocalPackLiveHtmlResponseInfo.md)\>
+> **bingLocalPackLiveHtml**(`body`): `Promise`\<[`SerpBingLocalPackLiveHtmlResponseInfo`](SerpBingLocalPackLiveHtmlResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[] | (optional) |
+• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -538,21 +246,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:3643
 
-___
+***
 
-### bingLocalPackLiveRegular
+### bingLocalPackLiveRegular()
 
-▸ **bingLocalPackLiveRegular**(`body`): `Promise`\<[`SerpBingLocalPackLiveRegularResponseInfo`](SerpBingLocalPackLiveRegularResponseInfo.md)\>
+> **bingLocalPackLiveRegular**(`body`): `Promise`\<[`SerpBingLocalPackLiveRegularResponseInfo`](SerpBingLocalPackLiveRegularResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[] | (optional) |
+• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -560,21 +268,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:3601
 
-___
+***
 
-### bingLocalPackTaskGetHtml
+### bingLocalPackTaskGetHtml()
 
-▸ **bingLocalPackTaskGetHtml**(`id`): `Promise`\<[`SerpBingLocalPackTaskGetHtmlResponseInfo`](SerpBingLocalPackTaskGetHtmlResponseInfo.md)\>
+> **bingLocalPackTaskGetHtml**(`id`): `Promise`\<[`SerpBingLocalPackTaskGetHtmlResponseInfo`](SerpBingLocalPackTaskGetHtmlResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 7 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 7 days to request the results of the task at any time
 
 #### Returns
 
@@ -582,21 +292,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:3560
 
-___
+***
 
-### bingLocalPackTaskGetRegular
+### bingLocalPackTaskGetRegular()
 
-▸ **bingLocalPackTaskGetRegular**(`id`): `Promise`\<[`SerpBingLocalPackTaskGetRegularResponseInfo`](SerpBingLocalPackTaskGetRegularResponseInfo.md)\>
+> **bingLocalPackTaskGetRegular**(`id`): `Promise`\<[`SerpBingLocalPackTaskGetRegularResponseInfo`](SerpBingLocalPackTaskGetRegularResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -604,21 +316,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:3517
 
-___
+***
 
-### bingLocalPackTaskPost
+### bingLocalPackTaskPost()
 
-▸ **bingLocalPackTaskPost**(`body`): `Promise`\<[`SerpBingLocalPackTaskPostResponseInfo`](SerpBingLocalPackTaskPostResponseInfo.md)\>
+> **bingLocalPackTaskPost**(`body`): `Promise`\<[`SerpBingLocalPackTaskPostResponseInfo`](SerpBingLocalPackTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[] | (optional) |
+• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -626,15 +338,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:3399
 
-___
+***
 
-### bingLocalPackTasksFixed
+### bingLocalPackTasksFixed()
 
-▸ **bingLocalPackTasksFixed**(): `Promise`\<[`SerpBingLocalPackTasksFixedResponseInfo`](SerpBingLocalPackTasksFixedResponseInfo.md)\>
+> **bingLocalPackTasksFixed**(): `Promise`\<[`SerpBingLocalPackTasksFixedResponseInfo`](SerpBingLocalPackTasksFixedResponseInfo.md)\>
 
 #### Returns
 
@@ -642,15 +354,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:3477
 
-___
+***
 
-### bingLocalPackTasksReady
+### bingLocalPackTasksReady()
 
-▸ **bingLocalPackTasksReady**(): `Promise`\<[`SerpBingLocalPackTasksReadyResponseInfo`](SerpBingLocalPackTasksReadyResponseInfo.md)\>
+> **bingLocalPackTasksReady**(): `Promise`\<[`SerpBingLocalPackTasksReadyResponseInfo`](SerpBingLocalPackTasksReadyResponseInfo.md)\>
 
 #### Returns
 
@@ -658,21 +370,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:3440
 
-___
+***
 
-### bingOrganicLiveAdvanced
+### bingOrganicLiveAdvanced()
 
-▸ **bingOrganicLiveAdvanced**(`body`): `Promise`\<[`SerpBingOrganicLiveAdvancedResponseInfo`](SerpBingOrganicLiveAdvancedResponseInfo.md)\>
+> **bingOrganicLiveAdvanced**(`body`): `Promise`\<[`SerpBingOrganicLiveAdvancedResponseInfo`](SerpBingOrganicLiveAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[] | (optional) |
+• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -680,21 +392,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:3315
 
-___
+***
 
-### bingOrganicLiveHtml
+### bingOrganicLiveHtml()
 
-▸ **bingOrganicLiveHtml**(`body`): `Promise`\<[`SerpBingOrganicLiveHtmlResponseInfo`](SerpBingOrganicLiveHtmlResponseInfo.md)\>
+> **bingOrganicLiveHtml**(`body`): `Promise`\<[`SerpBingOrganicLiveHtmlResponseInfo`](SerpBingOrganicLiveHtmlResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[] | (optional) |
+• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -702,21 +414,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:3357
 
-___
+***
 
-### bingOrganicLiveRegular
+### bingOrganicLiveRegular()
 
-▸ **bingOrganicLiveRegular**(`body`): `Promise`\<[`SerpBingOrganicLiveRegularResponseInfo`](SerpBingOrganicLiveRegularResponseInfo.md)\>
+> **bingOrganicLiveRegular**(`body`): `Promise`\<[`SerpBingOrganicLiveRegularResponseInfo`](SerpBingOrganicLiveRegularResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[] | (optional) |
+• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -724,21 +436,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:3273
 
-___
+***
 
-### bingOrganicTaskGetAdvanced
+### bingOrganicTaskGetAdvanced()
 
-▸ **bingOrganicTaskGetAdvanced**(`id`): `Promise`\<[`SerpBingOrganicTaskGetAdvancedResponseInfo`](SerpBingOrganicTaskGetAdvancedResponseInfo.md)\>
+> **bingOrganicTaskGetAdvanced**(`id`): `Promise`\<[`SerpBingOrganicTaskGetAdvancedResponseInfo`](SerpBingOrganicTaskGetAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -746,21 +460,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:3189
 
-___
+***
 
-### bingOrganicTaskGetHtml
+### bingOrganicTaskGetHtml()
 
-▸ **bingOrganicTaskGetHtml**(`id`): `Promise`\<[`SerpBingOrganicTaskGetHtmlResponseInfo`](SerpBingOrganicTaskGetHtmlResponseInfo.md)\>
+> **bingOrganicTaskGetHtml**(`id`): `Promise`\<[`SerpBingOrganicTaskGetHtmlResponseInfo`](SerpBingOrganicTaskGetHtmlResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 7 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 7 days to request the results of the task at any time
 
 #### Returns
 
@@ -768,21 +484,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:3232
 
-___
+***
 
-### bingOrganicTaskGetRegular
+### bingOrganicTaskGetRegular()
 
-▸ **bingOrganicTaskGetRegular**(`id`): `Promise`\<[`SerpBingOrganicTaskGetRegularResponseInfo`](SerpBingOrganicTaskGetRegularResponseInfo.md)\>
+> **bingOrganicTaskGetRegular**(`id`): `Promise`\<[`SerpBingOrganicTaskGetRegularResponseInfo`](SerpBingOrganicTaskGetRegularResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -790,21 +508,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:3146
 
-___
+***
 
-### bingOrganicTaskPost
+### bingOrganicTaskPost()
 
-▸ **bingOrganicTaskPost**(`body`): `Promise`\<[`SerpBingOrganicTaskPostResponseInfo`](SerpBingOrganicTaskPostResponseInfo.md)\>
+> **bingOrganicTaskPost**(`body`): `Promise`\<[`SerpBingOrganicTaskPostResponseInfo`](SerpBingOrganicTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[] | (optional) |
+• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -812,15 +530,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:3028
 
-___
+***
 
-### bingOrganicTasksFixed
+### bingOrganicTasksFixed()
 
-▸ **bingOrganicTasksFixed**(): `Promise`\<[`SerpBingOrganicTasksFixedResponseInfo`](SerpBingOrganicTasksFixedResponseInfo.md)\>
+> **bingOrganicTasksFixed**(): `Promise`\<[`SerpBingOrganicTasksFixedResponseInfo`](SerpBingOrganicTasksFixedResponseInfo.md)\>
 
 #### Returns
 
@@ -828,15 +546,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:3106
 
-___
+***
 
-### bingOrganicTasksReady
+### bingOrganicTasksReady()
 
-▸ **bingOrganicTasksReady**(): `Promise`\<[`SerpBingOrganicTasksReadyResponseInfo`](SerpBingOrganicTasksReadyResponseInfo.md)\>
+> **bingOrganicTasksReady**(): `Promise`\<[`SerpBingOrganicTasksReadyResponseInfo`](SerpBingOrganicTasksReadyResponseInfo.md)\>
 
 #### Returns
 
@@ -844,21 +562,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:3069
 
-___
+***
 
-### googleAutocompleteLiveAdvanced
+### googleAutocompleteLiveAdvanced()
 
-▸ **googleAutocompleteLiveAdvanced**(`body`): `Promise`\<[`SerpGoogleAutocompleteLiveAdvancedResponseInfo`](SerpGoogleAutocompleteLiveAdvancedResponseInfo.md)\>
+> **googleAutocompleteLiveAdvanced**(`body`): `Promise`\<[`SerpGoogleAutocompleteLiveAdvancedResponseInfo`](SerpGoogleAutocompleteLiveAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpGoogleAutocompleteLiveAdvancedRequestInfo`](SerpGoogleAutocompleteLiveAdvancedRequestInfo.md)[] | (optional) |
+• **body**: [`SerpGoogleAutocompleteLiveAdvancedRequestInfo`](SerpGoogleAutocompleteLiveAdvancedRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -866,21 +584,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:2465
 
-___
+***
 
-### googleAutocompleteTaskGetAdvanced
+### googleAutocompleteTaskGetAdvanced()
 
-▸ **googleAutocompleteTaskGetAdvanced**(`id`): `Promise`\<[`SerpGoogleAutocompleteTaskGetAdvancedResponseInfo`](SerpGoogleAutocompleteTaskGetAdvancedResponseInfo.md)\>
+> **googleAutocompleteTaskGetAdvanced**(`id`): `Promise`\<[`SerpGoogleAutocompleteTaskGetAdvancedResponseInfo`](SerpGoogleAutocompleteTaskGetAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -888,21 +608,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:2424
 
-___
+***
 
-### googleAutocompleteTaskPost
+### googleAutocompleteTaskPost()
 
-▸ **googleAutocompleteTaskPost**(`body`): `Promise`\<[`SerpGoogleAutocompleteTaskPostResponseInfo`](SerpGoogleAutocompleteTaskPostResponseInfo.md)\>
+> **googleAutocompleteTaskPost**(`body`): `Promise`\<[`SerpGoogleAutocompleteTaskPostResponseInfo`](SerpGoogleAutocompleteTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpGoogleAutocompleteTaskPostRequestInfo`](SerpGoogleAutocompleteTaskPostRequestInfo.md)[] | (optional) |
+• **body**: [`SerpGoogleAutocompleteTaskPostRequestInfo`](SerpGoogleAutocompleteTaskPostRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -910,15 +630,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:2306
 
-___
+***
 
-### googleAutocompleteTasksFixed
+### googleAutocompleteTasksFixed()
 
-▸ **googleAutocompleteTasksFixed**(): `Promise`\<[`SerpGoogleAutocompleteTasksFixedResponseInfo`](SerpGoogleAutocompleteTasksFixedResponseInfo.md)\>
+> **googleAutocompleteTasksFixed**(): `Promise`\<[`SerpGoogleAutocompleteTasksFixedResponseInfo`](SerpGoogleAutocompleteTasksFixedResponseInfo.md)\>
 
 #### Returns
 
@@ -926,15 +646,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:2384
 
-___
+***
 
-### googleAutocompleteTasksReady
+### googleAutocompleteTasksReady()
 
-▸ **googleAutocompleteTasksReady**(): `Promise`\<[`SerpGoogleAutocompleteTasksReadyResponseInfo`](SerpGoogleAutocompleteTasksReadyResponseInfo.md)\>
+> **googleAutocompleteTasksReady**(): `Promise`\<[`SerpGoogleAutocompleteTasksReadyResponseInfo`](SerpGoogleAutocompleteTasksReadyResponseInfo.md)\>
 
 #### Returns
 
@@ -942,21 +662,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:2347
 
-___
+***
 
-### googleDatasetInfoLiveAdvanced
+### googleDatasetInfoLiveAdvanced()
 
-▸ **googleDatasetInfoLiveAdvanced**(`body`): `Promise`\<[`SerpGoogleDatasetInfoLiveAdvancedResponseInfo`](SerpGoogleDatasetInfoLiveAdvancedResponseInfo.md)\>
+> **googleDatasetInfoLiveAdvanced**(`body`): `Promise`\<[`SerpGoogleDatasetInfoLiveAdvancedResponseInfo`](SerpGoogleDatasetInfoLiveAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpGoogleDatasetInfoLiveAdvancedRequestInfo`](SerpGoogleDatasetInfoLiveAdvancedRequestInfo.md)[] | (optional) |
+• **body**: [`SerpGoogleDatasetInfoLiveAdvancedRequestInfo`](SerpGoogleDatasetInfoLiveAdvancedRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -964,21 +684,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:2867
 
-___
+***
 
-### googleDatasetInfoTaskGetAdvanced
+### googleDatasetInfoTaskGetAdvanced()
 
-▸ **googleDatasetInfoTaskGetAdvanced**(`id`): `Promise`\<[`SerpGoogleDatasetInfoTaskGetAdvancedResponseInfo`](SerpGoogleDatasetInfoTaskGetAdvancedResponseInfo.md)\>
+> **googleDatasetInfoTaskGetAdvanced**(`id`): `Promise`\<[`SerpGoogleDatasetInfoTaskGetAdvancedResponseInfo`](SerpGoogleDatasetInfoTaskGetAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -986,21 +708,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:2826
 
-___
+***
 
-### googleDatasetInfoTaskPost
+### googleDatasetInfoTaskPost()
 
-▸ **googleDatasetInfoTaskPost**(`body`): `Promise`\<[`SerpGoogleDatasetInfoTaskPostResponseInfo`](SerpGoogleDatasetInfoTaskPostResponseInfo.md)\>
+> **googleDatasetInfoTaskPost**(`body`): `Promise`\<[`SerpGoogleDatasetInfoTaskPostResponseInfo`](SerpGoogleDatasetInfoTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpGoogleDatasetInfoTaskPostRequestInfo`](SerpGoogleDatasetInfoTaskPostRequestInfo.md)[] | (optional) |
+• **body**: [`SerpGoogleDatasetInfoTaskPostRequestInfo`](SerpGoogleDatasetInfoTaskPostRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -1008,15 +730,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:2708
 
-___
+***
 
-### googleDatasetInfoTasksFixed
+### googleDatasetInfoTasksFixed()
 
-▸ **googleDatasetInfoTasksFixed**(): `Promise`\<[`SerpGoogleDatasetInfoTasksFixedResponseInfo`](SerpGoogleDatasetInfoTasksFixedResponseInfo.md)\>
+> **googleDatasetInfoTasksFixed**(): `Promise`\<[`SerpGoogleDatasetInfoTasksFixedResponseInfo`](SerpGoogleDatasetInfoTasksFixedResponseInfo.md)\>
 
 #### Returns
 
@@ -1024,15 +746,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:2786
 
-___
+***
 
-### googleDatasetInfoTasksReady
+### googleDatasetInfoTasksReady()
 
-▸ **googleDatasetInfoTasksReady**(): `Promise`\<[`SerpGoogleDatasetInfoTasksReadyResponseInfo`](SerpGoogleDatasetInfoTasksReadyResponseInfo.md)\>
+> **googleDatasetInfoTasksReady**(): `Promise`\<[`SerpGoogleDatasetInfoTasksReadyResponseInfo`](SerpGoogleDatasetInfoTasksReadyResponseInfo.md)\>
 
 #### Returns
 
@@ -1040,21 +762,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:2749
 
-___
+***
 
-### googleDatasetSearchLiveAdvanced
+### googleDatasetSearchLiveAdvanced()
 
-▸ **googleDatasetSearchLiveAdvanced**(`body`): `Promise`\<[`SerpGoogleDatasetSearchLiveAdvancedResponseInfo`](SerpGoogleDatasetSearchLiveAdvancedResponseInfo.md)\>
+> **googleDatasetSearchLiveAdvanced**(`body`): `Promise`\<[`SerpGoogleDatasetSearchLiveAdvancedResponseInfo`](SerpGoogleDatasetSearchLiveAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpGoogleDatasetSearchLiveAdvancedRequestInfo`](SerpGoogleDatasetSearchLiveAdvancedRequestInfo.md)[] | (optional) |
+• **body**: [`SerpGoogleDatasetSearchLiveAdvancedRequestInfo`](SerpGoogleDatasetSearchLiveAdvancedRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -1062,21 +784,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:2666
 
-___
+***
 
-### googleDatasetSearchTaskGetAdvanced
+### googleDatasetSearchTaskGetAdvanced()
 
-▸ **googleDatasetSearchTaskGetAdvanced**(`id`): `Promise`\<[`SerpGoogleDatasetSearchTaskGetAdvancedResponseInfo`](SerpGoogleDatasetSearchTaskGetAdvancedResponseInfo.md)\>
+> **googleDatasetSearchTaskGetAdvanced**(`id`): `Promise`\<[`SerpGoogleDatasetSearchTaskGetAdvancedResponseInfo`](SerpGoogleDatasetSearchTaskGetAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -1084,21 +808,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:2625
 
-___
+***
 
-### googleDatasetSearchTaskPost
+### googleDatasetSearchTaskPost()
 
-▸ **googleDatasetSearchTaskPost**(`body`): `Promise`\<[`SerpGoogleDatasetSearchTaskPostResponseInfo`](SerpGoogleDatasetSearchTaskPostResponseInfo.md)\>
+> **googleDatasetSearchTaskPost**(`body`): `Promise`\<[`SerpGoogleDatasetSearchTaskPostResponseInfo`](SerpGoogleDatasetSearchTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpGoogleDatasetSearchTaskPostRequestInfo`](SerpGoogleDatasetSearchTaskPostRequestInfo.md)[] | (optional) |
+• **body**: [`SerpGoogleDatasetSearchTaskPostRequestInfo`](SerpGoogleDatasetSearchTaskPostRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -1106,15 +830,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:2507
 
-___
+***
 
-### googleDatasetSearchTasksFixed
+### googleDatasetSearchTasksFixed()
 
-▸ **googleDatasetSearchTasksFixed**(): `Promise`\<[`SerpGoogleDatasetSearchTasksFixedResponseInfo`](SerpGoogleDatasetSearchTasksFixedResponseInfo.md)\>
+> **googleDatasetSearchTasksFixed**(): `Promise`\<[`SerpGoogleDatasetSearchTasksFixedResponseInfo`](SerpGoogleDatasetSearchTasksFixedResponseInfo.md)\>
 
 #### Returns
 
@@ -1122,15 +846,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:2585
 
-___
+***
 
-### googleDatasetSearchTasksReady
+### googleDatasetSearchTasksReady()
 
-▸ **googleDatasetSearchTasksReady**(): `Promise`\<[`SerpGoogleDatasetSearchTasksReadyResponseInfo`](SerpGoogleDatasetSearchTasksReadyResponseInfo.md)\>
+> **googleDatasetSearchTasksReady**(): `Promise`\<[`SerpGoogleDatasetSearchTasksReadyResponseInfo`](SerpGoogleDatasetSearchTasksReadyResponseInfo.md)\>
 
 #### Returns
 
@@ -1138,21 +862,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:2548
 
-___
+***
 
-### googleEventsLiveAdvanced
+### googleEventsLiveAdvanced()
 
-▸ **googleEventsLiveAdvanced**(`body`): `Promise`\<[`SerpGoogleEventsLiveAdvancedResponseInfo`](SerpGoogleEventsLiveAdvancedResponseInfo.md)\>
+> **googleEventsLiveAdvanced**(`body`): `Promise`\<[`SerpGoogleEventsLiveAdvancedResponseInfo`](SerpGoogleEventsLiveAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpGoogleEventsLiveAdvancedRequestInfo`](SerpGoogleEventsLiveAdvancedRequestInfo.md)[] | (optional) |
+• **body**: [`SerpGoogleEventsLiveAdvancedRequestInfo`](SerpGoogleEventsLiveAdvancedRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -1160,21 +884,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:1617
 
-___
+***
 
-### googleEventsTaskGetAdvanced
+### googleEventsTaskGetAdvanced()
 
-▸ **googleEventsTaskGetAdvanced**(`id`): `Promise`\<[`SerpGoogleEventsTaskGetAdvancedResponseInfo`](SerpGoogleEventsTaskGetAdvancedResponseInfo.md)\>
+> **googleEventsTaskGetAdvanced**(`id`): `Promise`\<[`SerpGoogleEventsTaskGetAdvancedResponseInfo`](SerpGoogleEventsTaskGetAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -1182,21 +908,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:1576
 
-___
+***
 
-### googleEventsTaskPost
+### googleEventsTaskPost()
 
-▸ **googleEventsTaskPost**(`body`): `Promise`\<[`SerpGoogleEventsTaskPostResponseInfo`](SerpGoogleEventsTaskPostResponseInfo.md)\>
+> **googleEventsTaskPost**(`body`): `Promise`\<[`SerpGoogleEventsTaskPostResponseInfo`](SerpGoogleEventsTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpGoogleEventsTaskPostRequestInfo`](SerpGoogleEventsTaskPostRequestInfo.md)[] | (optional) |
+• **body**: [`SerpGoogleEventsTaskPostRequestInfo`](SerpGoogleEventsTaskPostRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -1204,15 +930,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:1458
 
-___
+***
 
-### googleEventsTasksFixed
+### googleEventsTasksFixed()
 
-▸ **googleEventsTasksFixed**(): `Promise`\<[`SerpGoogleEventsTasksFixedResponseInfo`](SerpGoogleEventsTasksFixedResponseInfo.md)\>
+> **googleEventsTasksFixed**(): `Promise`\<[`SerpGoogleEventsTasksFixedResponseInfo`](SerpGoogleEventsTasksFixedResponseInfo.md)\>
 
 #### Returns
 
@@ -1220,15 +946,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:1536
 
-___
+***
 
-### googleEventsTasksReady
+### googleEventsTasksReady()
 
-▸ **googleEventsTasksReady**(): `Promise`\<[`SerpGoogleEventsTasksReadyResponseInfo`](SerpGoogleEventsTasksReadyResponseInfo.md)\>
+> **googleEventsTasksReady**(): `Promise`\<[`SerpGoogleEventsTasksReadyResponseInfo`](SerpGoogleEventsTasksReadyResponseInfo.md)\>
 
 #### Returns
 
@@ -1236,21 +962,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:1499
 
-___
+***
 
-### googleImagesLiveAdvanced
+### googleImagesLiveAdvanced()
 
-▸ **googleImagesLiveAdvanced**(`body`): `Promise`\<[`SerpGoogleImagesLiveAdvancedResponseInfo`](SerpGoogleImagesLiveAdvancedResponseInfo.md)\>
+> **googleImagesLiveAdvanced**(`body`): `Promise`\<[`SerpGoogleImagesLiveAdvancedResponseInfo`](SerpGoogleImagesLiveAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[] | (optional) |
+• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -1258,21 +984,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:1861
 
-___
+***
 
-### googleImagesLiveHtml
+### googleImagesLiveHtml()
 
-▸ **googleImagesLiveHtml**(`body`): `Promise`\<[`SerpGoogleImagesLiveHtmlResponseInfo`](SerpGoogleImagesLiveHtmlResponseInfo.md)\>
+> **googleImagesLiveHtml**(`body`): `Promise`\<[`SerpGoogleImagesLiveHtmlResponseInfo`](SerpGoogleImagesLiveHtmlResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[] | (optional) |
+• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -1280,21 +1006,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:1903
 
-___
+***
 
-### googleImagesTaskGetAdvanced
+### googleImagesTaskGetAdvanced()
 
-▸ **googleImagesTaskGetAdvanced**(`id`): `Promise`\<[`SerpGoogleImagesTaskGetAdvancedResponseInfo`](SerpGoogleImagesTaskGetAdvancedResponseInfo.md)\>
+> **googleImagesTaskGetAdvanced**(`id`): `Promise`\<[`SerpGoogleImagesTaskGetAdvancedResponseInfo`](SerpGoogleImagesTaskGetAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -1302,21 +1030,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:1777
 
-___
+***
 
-### googleImagesTaskGetHtml
+### googleImagesTaskGetHtml()
 
-▸ **googleImagesTaskGetHtml**(`id`): `Promise`\<[`SerpGoogleImagesTaskGetHtmlResponseInfo`](SerpGoogleImagesTaskGetHtmlResponseInfo.md)\>
+> **googleImagesTaskGetHtml**(`id`): `Promise`\<[`SerpGoogleImagesTaskGetHtmlResponseInfo`](SerpGoogleImagesTaskGetHtmlResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 7 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 7 days to request the results of the task at any time
 
 #### Returns
 
@@ -1324,21 +1054,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:1820
 
-___
+***
 
-### googleImagesTaskPost
+### googleImagesTaskPost()
 
-▸ **googleImagesTaskPost**(`body`): `Promise`\<[`SerpGoogleImagesTaskPostResponseInfo`](SerpGoogleImagesTaskPostResponseInfo.md)\>
+> **googleImagesTaskPost**(`body`): `Promise`\<[`SerpGoogleImagesTaskPostResponseInfo`](SerpGoogleImagesTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[] | (optional) |
+• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -1346,15 +1076,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:1659
 
-___
+***
 
-### googleImagesTasksFixed
+### googleImagesTasksFixed()
 
-▸ **googleImagesTasksFixed**(): `Promise`\<[`SerpGoogleImagesTasksFixedResponseInfo`](SerpGoogleImagesTasksFixedResponseInfo.md)\>
+> **googleImagesTasksFixed**(): `Promise`\<[`SerpGoogleImagesTasksFixedResponseInfo`](SerpGoogleImagesTasksFixedResponseInfo.md)\>
 
 #### Returns
 
@@ -1362,15 +1092,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:1737
 
-___
+***
 
-### googleImagesTasksReady
+### googleImagesTasksReady()
 
-▸ **googleImagesTasksReady**(): `Promise`\<[`SerpGoogleImagesTasksReadyResponseInfo`](SerpGoogleImagesTasksReadyResponseInfo.md)\>
+> **googleImagesTasksReady**(): `Promise`\<[`SerpGoogleImagesTasksReadyResponseInfo`](SerpGoogleImagesTasksReadyResponseInfo.md)\>
 
 #### Returns
 
@@ -1378,21 +1108,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:1700
 
-___
+***
 
-### googleJobsTaskGetAdvanced
+### googleJobsTaskGetAdvanced()
 
-▸ **googleJobsTaskGetAdvanced**(`id`): `Promise`\<[`SerpGoogleJobsTaskGetAdvancedResponseInfo`](SerpGoogleJobsTaskGetAdvancedResponseInfo.md)\>
+> **googleJobsTaskGetAdvanced**(`id`): `Promise`\<[`SerpGoogleJobsTaskGetAdvancedResponseInfo`](SerpGoogleJobsTaskGetAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -1400,21 +1132,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:2222
 
-___
+***
 
-### googleJobsTaskGetHtml
+### googleJobsTaskGetHtml()
 
-▸ **googleJobsTaskGetHtml**(`id`): `Promise`\<[`SerpGoogleJobsTaskGetHtmlResponseInfo`](SerpGoogleJobsTaskGetHtmlResponseInfo.md)\>
+> **googleJobsTaskGetHtml**(`id`): `Promise`\<[`SerpGoogleJobsTaskGetHtmlResponseInfo`](SerpGoogleJobsTaskGetHtmlResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 7 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 7 days to request the results of the task at any time
 
 #### Returns
 
@@ -1422,21 +1156,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:2265
 
-___
+***
 
-### googleJobsTaskPost
+### googleJobsTaskPost()
 
-▸ **googleJobsTaskPost**(`body`): `Promise`\<[`SerpGoogleJobsTaskPostResponseInfo`](SerpGoogleJobsTaskPostResponseInfo.md)\>
+> **googleJobsTaskPost**(`body`): `Promise`\<[`SerpGoogleJobsTaskPostResponseInfo`](SerpGoogleJobsTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpGoogleJobsTaskPostRequestInfo`](SerpGoogleJobsTaskPostRequestInfo.md)[] | (optional) |
+• **body**: [`SerpGoogleJobsTaskPostRequestInfo`](SerpGoogleJobsTaskPostRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -1444,15 +1178,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:2104
 
-___
+***
 
-### googleJobsTasksFixed
+### googleJobsTasksFixed()
 
-▸ **googleJobsTasksFixed**(): `Promise`\<[`SerpGoogleJobsTasksFixedResponseInfo`](SerpGoogleJobsTasksFixedResponseInfo.md)\>
+> **googleJobsTasksFixed**(): `Promise`\<[`SerpGoogleJobsTasksFixedResponseInfo`](SerpGoogleJobsTasksFixedResponseInfo.md)\>
 
 #### Returns
 
@@ -1460,15 +1194,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:2182
 
-___
+***
 
-### googleJobsTasksReady
+### googleJobsTasksReady()
 
-▸ **googleJobsTasksReady**(): `Promise`\<[`SerpGoogleJobsTasksReadyResponseInfo`](SerpGoogleJobsTasksReadyResponseInfo.md)\>
+> **googleJobsTasksReady**(): `Promise`\<[`SerpGoogleJobsTasksReadyResponseInfo`](SerpGoogleJobsTasksReadyResponseInfo.md)\>
 
 #### Returns
 
@@ -1476,21 +1210,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:2145
 
-___
+***
 
-### googleLocalFinderLiveAdvanced
+### googleLocalFinderLiveAdvanced()
 
-▸ **googleLocalFinderLiveAdvanced**(`body`): `Promise`\<[`SerpGoogleLocalFinderLiveAdvancedResponseInfo`](SerpGoogleLocalFinderLiveAdvancedResponseInfo.md)\>
+> **googleLocalFinderLiveAdvanced**(`body`): `Promise`\<[`SerpGoogleLocalFinderLiveAdvancedResponseInfo`](SerpGoogleLocalFinderLiveAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpGoogleLocalFinderLiveAdvancedRequestInfo`](SerpGoogleLocalFinderLiveAdvancedRequestInfo.md)[] | (optional) |
+• **body**: [`SerpGoogleLocalFinderLiveAdvancedRequestInfo`](SerpGoogleLocalFinderLiveAdvancedRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -1498,21 +1232,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:1088
 
-___
+***
 
-### googleLocalFinderLiveHtml
+### googleLocalFinderLiveHtml()
 
-▸ **googleLocalFinderLiveHtml**(`body`): `Promise`\<[`SerpGoogleLocalFinderLiveHtmlResponseInfo`](SerpGoogleLocalFinderLiveHtmlResponseInfo.md)\>
+> **googleLocalFinderLiveHtml**(`body`): `Promise`\<[`SerpGoogleLocalFinderLiveHtmlResponseInfo`](SerpGoogleLocalFinderLiveHtmlResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpGoogleLocalFinderLiveHtmlRequestInfo`](SerpGoogleLocalFinderLiveHtmlRequestInfo.md)[] | (optional) |
+• **body**: [`SerpGoogleLocalFinderLiveHtmlRequestInfo`](SerpGoogleLocalFinderLiveHtmlRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -1520,21 +1254,24 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:1130
 
-___
+***
 
-### googleLocalFinderTaskGetAdvanced
+### googleLocalFinderTaskGetAdvanced()
 
-▸ **googleLocalFinderTaskGetAdvanced**(`id`): `Promise`\<[`SerpGoogleLocalFinderTaskGetAdvancedResponseInfo`](SerpGoogleLocalFinderTaskGetAdvancedResponseInfo.md)\>
+> **googleLocalFinderTaskGetAdvanced**(`id`): `Promise`\<[`SerpGoogleLocalFinderTaskGetAdvancedResponseInfo`](SerpGoogleLocalFinderTaskGetAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier a universally unique identifier (UUID) unique task identifier in our system you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+a universally unique identifier (UUID)
+unique task identifier in our system
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -1542,21 +1279,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:1004
 
-___
+***
 
-### googleLocalFinderTaskGetHtml
+### googleLocalFinderTaskGetHtml()
 
-▸ **googleLocalFinderTaskGetHtml**(`id`): `Promise`\<[`SerpGoogleLocalFinderTaskGetHtmlResponseInfo`](SerpGoogleLocalFinderTaskGetHtmlResponseInfo.md)\>
+> **googleLocalFinderTaskGetHtml**(`id`): `Promise`\<[`SerpGoogleLocalFinderTaskGetHtmlResponseInfo`](SerpGoogleLocalFinderTaskGetHtmlResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 7 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 7 days to request the results of the task at any time
 
 #### Returns
 
@@ -1564,21 +1303,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:1047
 
-___
+***
 
-### googleLocalFinderTaskPost
+### googleLocalFinderTaskPost()
 
-▸ **googleLocalFinderTaskPost**(`body`): `Promise`\<[`SerpGoogleLocalFinderTaskPostResponseInfo`](SerpGoogleLocalFinderTaskPostResponseInfo.md)\>
+> **googleLocalFinderTaskPost**(`body`): `Promise`\<[`SerpGoogleLocalFinderTaskPostResponseInfo`](SerpGoogleLocalFinderTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpGoogleLocalFinderTaskPostRequestInfo`](SerpGoogleLocalFinderTaskPostRequestInfo.md)[] | (optional) |
+• **body**: [`SerpGoogleLocalFinderTaskPostRequestInfo`](SerpGoogleLocalFinderTaskPostRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -1586,15 +1325,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:885
 
-___
+***
 
-### googleLocalFinderTasksFixed
+### googleLocalFinderTasksFixed()
 
-▸ **googleLocalFinderTasksFixed**(): `Promise`\<[`SerpGoogleLocalFinderTasksFixedResponseInfo`](SerpGoogleLocalFinderTasksFixedResponseInfo.md)\>
+> **googleLocalFinderTasksFixed**(): `Promise`\<[`SerpGoogleLocalFinderTasksFixedResponseInfo`](SerpGoogleLocalFinderTasksFixedResponseInfo.md)\>
 
 #### Returns
 
@@ -1602,15 +1341,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:963
 
-___
+***
 
-### googleLocalFinderTasksReady
+### googleLocalFinderTasksReady()
 
-▸ **googleLocalFinderTasksReady**(): `Promise`\<[`SerpGoogleLocalFinderTasksReadyResponseInfo`](SerpGoogleLocalFinderTasksReadyResponseInfo.md)\>
+> **googleLocalFinderTasksReady**(): `Promise`\<[`SerpGoogleLocalFinderTasksReadyResponseInfo`](SerpGoogleLocalFinderTasksReadyResponseInfo.md)\>
 
 #### Returns
 
@@ -1618,21 +1357,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:926
 
-___
+***
 
-### googleMapsLiveAdvanced
+### googleMapsLiveAdvanced()
 
-▸ **googleMapsLiveAdvanced**(`body`): `Promise`\<[`SerpGoogleMapsLiveAdvancedResponseInfo`](SerpGoogleMapsLiveAdvancedResponseInfo.md)\>
+> **googleMapsLiveAdvanced**(`body`): `Promise`\<[`SerpGoogleMapsLiveAdvancedResponseInfo`](SerpGoogleMapsLiveAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpGoogleMapsLiveAdvancedRequestInfo`](SerpGoogleMapsLiveAdvancedRequestInfo.md)[] | (optional) |
+• **body**: [`SerpGoogleMapsLiveAdvancedRequestInfo`](SerpGoogleMapsLiveAdvancedRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -1640,21 +1379,24 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:843
 
-___
+***
 
-### googleMapsTaskGetAdvanced
+### googleMapsTaskGetAdvanced()
 
-▸ **googleMapsTaskGetAdvanced**(`id`): `Promise`\<[`SerpGoogleMapsTaskGetAdvancedResponseInfo`](SerpGoogleMapsTaskGetAdvancedResponseInfo.md)\>
+> **googleMapsTaskGetAdvanced**(`id`): `Promise`\<[`SerpGoogleMapsTaskGetAdvancedResponseInfo`](SerpGoogleMapsTaskGetAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier a universally unique identifier (UUID) unique task identifier in our system you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+a universally unique identifier (UUID)
+unique task identifier in our system
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -1662,21 +1404,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:802
 
-___
+***
 
-### googleMapsTaskPost
+### googleMapsTaskPost()
 
-▸ **googleMapsTaskPost**(`body`): `Promise`\<[`SerpGoogleMapsTaskPostResponseInfo`](SerpGoogleMapsTaskPostResponseInfo.md)\>
+> **googleMapsTaskPost**(`body`): `Promise`\<[`SerpGoogleMapsTaskPostResponseInfo`](SerpGoogleMapsTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpGoogleMapsTaskPostRequestInfo`](SerpGoogleMapsTaskPostRequestInfo.md)[] | (optional) |
+• **body**: [`SerpGoogleMapsTaskPostRequestInfo`](SerpGoogleMapsTaskPostRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -1684,15 +1426,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:683
 
-___
+***
 
-### googleMapsTasksFixed
+### googleMapsTasksFixed()
 
-▸ **googleMapsTasksFixed**(): `Promise`\<[`SerpGoogleMapsTasksFixedResponseInfo`](SerpGoogleMapsTasksFixedResponseInfo.md)\>
+> **googleMapsTasksFixed**(): `Promise`\<[`SerpGoogleMapsTasksFixedResponseInfo`](SerpGoogleMapsTasksFixedResponseInfo.md)\>
 
 #### Returns
 
@@ -1700,15 +1442,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:761
 
-___
+***
 
-### googleMapsTasksReady
+### googleMapsTasksReady()
 
-▸ **googleMapsTasksReady**(): `Promise`\<[`SerpGoogleMapsTasksReadyResponseInfo`](SerpGoogleMapsTasksReadyResponseInfo.md)\>
+> **googleMapsTasksReady**(): `Promise`\<[`SerpGoogleMapsTasksReadyResponseInfo`](SerpGoogleMapsTasksReadyResponseInfo.md)\>
 
 #### Returns
 
@@ -1716,21 +1458,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:724
 
-___
+***
 
-### googleNewsLiveAdvanced
+### googleNewsLiveAdvanced()
 
-▸ **googleNewsLiveAdvanced**(`body`): `Promise`\<[`SerpGoogleNewsLiveAdvancedResponseInfo`](SerpGoogleNewsLiveAdvancedResponseInfo.md)\>
+> **googleNewsLiveAdvanced**(`body`): `Promise`\<[`SerpGoogleNewsLiveAdvancedResponseInfo`](SerpGoogleNewsLiveAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[] | (optional) |
+• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -1738,21 +1480,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:1374
 
-___
+***
 
-### googleNewsLiveHtml
+### googleNewsLiveHtml()
 
-▸ **googleNewsLiveHtml**(`body`): `Promise`\<[`SerpGoogleNewsLiveHtmlResponseInfo`](SerpGoogleNewsLiveHtmlResponseInfo.md)\>
+> **googleNewsLiveHtml**(`body`): `Promise`\<[`SerpGoogleNewsLiveHtmlResponseInfo`](SerpGoogleNewsLiveHtmlResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[] | (optional) |
+• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -1760,21 +1502,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:1416
 
-___
+***
 
-### googleNewsTaskGetAdvanced
+### googleNewsTaskGetAdvanced()
 
-▸ **googleNewsTaskGetAdvanced**(`id`): `Promise`\<[`SerpGoogleNewsTaskGetAdvancedResponseInfo`](SerpGoogleNewsTaskGetAdvancedResponseInfo.md)\>
+> **googleNewsTaskGetAdvanced**(`id`): `Promise`\<[`SerpGoogleNewsTaskGetAdvancedResponseInfo`](SerpGoogleNewsTaskGetAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -1782,21 +1526,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:1290
 
-___
+***
 
-### googleNewsTaskGetHtml
+### googleNewsTaskGetHtml()
 
-▸ **googleNewsTaskGetHtml**(`id`): `Promise`\<[`SerpGoogleNewsTaskGetHtmlResponseInfo`](SerpGoogleNewsTaskGetHtmlResponseInfo.md)\>
+> **googleNewsTaskGetHtml**(`id`): `Promise`\<[`SerpGoogleNewsTaskGetHtmlResponseInfo`](SerpGoogleNewsTaskGetHtmlResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 7 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 7 days to request the results of the task at any time
 
 #### Returns
 
@@ -1804,21 +1550,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:1333
 
-___
+***
 
-### googleNewsTaskPost
+### googleNewsTaskPost()
 
-▸ **googleNewsTaskPost**(`body`): `Promise`\<[`SerpGoogleNewsTaskPostResponseInfo`](SerpGoogleNewsTaskPostResponseInfo.md)\>
+> **googleNewsTaskPost**(`body`): `Promise`\<[`SerpGoogleNewsTaskPostResponseInfo`](SerpGoogleNewsTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[] | (optional) |
+• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -1826,15 +1572,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:1172
 
-___
+***
 
-### googleNewsTasksFixed
+### googleNewsTasksFixed()
 
-▸ **googleNewsTasksFixed**(): `Promise`\<[`SerpGoogleNewsTasksFixedResponseInfo`](SerpGoogleNewsTasksFixedResponseInfo.md)\>
+> **googleNewsTasksFixed**(): `Promise`\<[`SerpGoogleNewsTasksFixedResponseInfo`](SerpGoogleNewsTasksFixedResponseInfo.md)\>
 
 #### Returns
 
@@ -1842,15 +1588,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:1250
 
-___
+***
 
-### googleNewsTasksReady
+### googleNewsTasksReady()
 
-▸ **googleNewsTasksReady**(): `Promise`\<[`SerpGoogleNewsTasksReadyResponseInfo`](SerpGoogleNewsTasksReadyResponseInfo.md)\>
+> **googleNewsTasksReady**(): `Promise`\<[`SerpGoogleNewsTasksReadyResponseInfo`](SerpGoogleNewsTasksReadyResponseInfo.md)\>
 
 #### Returns
 
@@ -1858,21 +1604,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:1213
 
-___
+***
 
-### googleOrganicLiveAdvanced
+### googleOrganicLiveAdvanced()
 
-▸ **googleOrganicLiveAdvanced**(`body`): `Promise`\<[`SerpGoogleOrganicLiveAdvancedResponseInfo`](SerpGoogleOrganicLiveAdvancedResponseInfo.md)\>
+> **googleOrganicLiveAdvanced**(`body`): `Promise`\<[`SerpGoogleOrganicLiveAdvancedResponseInfo`](SerpGoogleOrganicLiveAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[] | (optional) |
+• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -1880,21 +1626,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:599
 
-___
+***
 
-### googleOrganicLiveHtml
+### googleOrganicLiveHtml()
 
-▸ **googleOrganicLiveHtml**(`body`): `Promise`\<[`SerpGoogleOrganicLiveHtmlResponseInfo`](SerpGoogleOrganicLiveHtmlResponseInfo.md)\>
+> **googleOrganicLiveHtml**(`body`): `Promise`\<[`SerpGoogleOrganicLiveHtmlResponseInfo`](SerpGoogleOrganicLiveHtmlResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[] | (optional) |
+• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -1902,21 +1648,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:641
 
-___
+***
 
-### googleOrganicLiveRegular
+### googleOrganicLiveRegular()
 
-▸ **googleOrganicLiveRegular**(`body`): `Promise`\<[`SerpGoogleOrganicLiveRegularResponseInfo`](SerpGoogleOrganicLiveRegularResponseInfo.md)\>
+> **googleOrganicLiveRegular**(`body`): `Promise`\<[`SerpGoogleOrganicLiveRegularResponseInfo`](SerpGoogleOrganicLiveRegularResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[] | (optional) |
+• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -1924,21 +1670,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:557
 
-___
+***
 
-### googleOrganicTaskGetAdvanced
+### googleOrganicTaskGetAdvanced()
 
-▸ **googleOrganicTaskGetAdvanced**(`id`): `Promise`\<[`SerpGoogleOrganicTaskGetAdvancedResponseInfo`](SerpGoogleOrganicTaskGetAdvancedResponseInfo.md)\>
+> **googleOrganicTaskGetAdvanced**(`id`): `Promise`\<[`SerpGoogleOrganicTaskGetAdvancedResponseInfo`](SerpGoogleOrganicTaskGetAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -1946,21 +1694,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:473
 
-___
+***
 
-### googleOrganicTaskGetHtml
+### googleOrganicTaskGetHtml()
 
-▸ **googleOrganicTaskGetHtml**(`id`): `Promise`\<[`SerpGoogleOrganicTaskGetHtmlResponseInfo`](SerpGoogleOrganicTaskGetHtmlResponseInfo.md)\>
+> **googleOrganicTaskGetHtml**(`id`): `Promise`\<[`SerpGoogleOrganicTaskGetHtmlResponseInfo`](SerpGoogleOrganicTaskGetHtmlResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 7 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 7 days to request the results of the task at any time
 
 #### Returns
 
@@ -1968,21 +1718,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:516
 
-___
+***
 
-### googleOrganicTaskGetRegular
+### googleOrganicTaskGetRegular()
 
-▸ **googleOrganicTaskGetRegular**(`id`): `Promise`\<[`SerpGoogleOrganicTaskGetRegularResponseInfo`](SerpGoogleOrganicTaskGetRegularResponseInfo.md)\>
+> **googleOrganicTaskGetRegular**(`id`): `Promise`\<[`SerpGoogleOrganicTaskGetRegularResponseInfo`](SerpGoogleOrganicTaskGetRegularResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -1990,21 +1742,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:430
 
-___
+***
 
-### googleOrganicTaskPost
+### googleOrganicTaskPost()
 
-▸ **googleOrganicTaskPost**(`body`): `Promise`\<[`SerpGoogleOrganicTaskPostResponseInfo`](SerpGoogleOrganicTaskPostResponseInfo.md)\>
+> **googleOrganicTaskPost**(`body`): `Promise`\<[`SerpGoogleOrganicTaskPostResponseInfo`](SerpGoogleOrganicTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[] | (optional) |
+• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -2012,15 +1764,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:312
 
-___
+***
 
-### googleOrganicTasksFixed
+### googleOrganicTasksFixed()
 
-▸ **googleOrganicTasksFixed**(): `Promise`\<[`SerpGoogleOrganicTasksFixedResponseInfo`](SerpGoogleOrganicTasksFixedResponseInfo.md)\>
+> **googleOrganicTasksFixed**(): `Promise`\<[`SerpGoogleOrganicTasksFixedResponseInfo`](SerpGoogleOrganicTasksFixedResponseInfo.md)\>
 
 #### Returns
 
@@ -2028,15 +1780,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:390
 
-___
+***
 
-### googleOrganicTasksReady
+### googleOrganicTasksReady()
 
-▸ **googleOrganicTasksReady**(): `Promise`\<[`SerpGoogleOrganicTasksReadyResponseInfo`](SerpGoogleOrganicTasksReadyResponseInfo.md)\>
+> **googleOrganicTasksReady**(): `Promise`\<[`SerpGoogleOrganicTasksReadyResponseInfo`](SerpGoogleOrganicTasksReadyResponseInfo.md)\>
 
 #### Returns
 
@@ -2044,21 +1796,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:353
 
-___
+***
 
-### googleSearchByImageTaskGetAdvanced
+### googleSearchByImageTaskGetAdvanced()
 
-▸ **googleSearchByImageTaskGetAdvanced**(`id`): `Promise`\<[`SerpGoogleSearchByImageTaskGetAdvancedResponseInfo`](SerpGoogleSearchByImageTaskGetAdvancedResponseInfo.md)\>
+> **googleSearchByImageTaskGetAdvanced**(`id`): `Promise`\<[`SerpGoogleSearchByImageTaskGetAdvancedResponseInfo`](SerpGoogleSearchByImageTaskGetAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -2066,21 +1820,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:2063
 
-___
+***
 
-### googleSearchByImageTaskPost
+### googleSearchByImageTaskPost()
 
-▸ **googleSearchByImageTaskPost**(`body`): `Promise`\<[`SerpGoogleSearchByImageTaskPostResponseInfo`](SerpGoogleSearchByImageTaskPostResponseInfo.md)\>
+> **googleSearchByImageTaskPost**(`body`): `Promise`\<[`SerpGoogleSearchByImageTaskPostResponseInfo`](SerpGoogleSearchByImageTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpGoogleSearchByImageTaskPostRequestInfo`](SerpGoogleSearchByImageTaskPostRequestInfo.md)[] | (optional) |
+• **body**: [`SerpGoogleSearchByImageTaskPostRequestInfo`](SerpGoogleSearchByImageTaskPostRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -2088,15 +1842,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:1945
 
-___
+***
 
-### googleSearchByImageTasksFixed
+### googleSearchByImageTasksFixed()
 
-▸ **googleSearchByImageTasksFixed**(): `Promise`\<[`SerpGoogleSearchByImageTasksFixedResponseInfo`](SerpGoogleSearchByImageTasksFixedResponseInfo.md)\>
+> **googleSearchByImageTasksFixed**(): `Promise`\<[`SerpGoogleSearchByImageTasksFixedResponseInfo`](SerpGoogleSearchByImageTasksFixedResponseInfo.md)\>
 
 #### Returns
 
@@ -2104,15 +1858,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:2023
 
-___
+***
 
-### googleSearchByImageTasksReady
+### googleSearchByImageTasksReady()
 
-▸ **googleSearchByImageTasksReady**(): `Promise`\<[`SerpGoogleSearchByImageTasksReadyResponseInfo`](SerpGoogleSearchByImageTasksReadyResponseInfo.md)\>
+> **googleSearchByImageTasksReady**(): `Promise`\<[`SerpGoogleSearchByImageTasksReadyResponseInfo`](SerpGoogleSearchByImageTasksReadyResponseInfo.md)\>
 
 #### Returns
 
@@ -2120,21 +1874,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:1986
 
-___
+***
 
-### naverOrganicTaskGetAdvanced
+### naverOrganicTaskGetAdvanced()
 
-▸ **naverOrganicTaskGetAdvanced**(`id`): `Promise`\<[`SerpNaverOrganicTaskGetAdvancedResponseInfo`](SerpNaverOrganicTaskGetAdvancedResponseInfo.md)\>
+> **naverOrganicTaskGetAdvanced**(`id`): `Promise`\<[`SerpNaverOrganicTaskGetAdvancedResponseInfo`](SerpNaverOrganicTaskGetAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -2142,21 +1898,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:5422
 
-___
+***
 
-### naverOrganicTaskGetHtml
+### naverOrganicTaskGetHtml()
 
-▸ **naverOrganicTaskGetHtml**(`id`): `Promise`\<[`SerpNaverOrganicTaskGetHtmlResponseInfo`](SerpNaverOrganicTaskGetHtmlResponseInfo.md)\>
+> **naverOrganicTaskGetHtml**(`id`): `Promise`\<[`SerpNaverOrganicTaskGetHtmlResponseInfo`](SerpNaverOrganicTaskGetHtmlResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 7 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 7 days to request the results of the task at any time
 
 #### Returns
 
@@ -2164,21 +1922,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:5465
 
-___
+***
 
-### naverOrganicTaskGetRegular
+### naverOrganicTaskGetRegular()
 
-▸ **naverOrganicTaskGetRegular**(`id`): `Promise`\<[`SerpNaverOrganicTaskGetRegularResponseInfo`](SerpNaverOrganicTaskGetRegularResponseInfo.md)\>
+> **naverOrganicTaskGetRegular**(`id`): `Promise`\<[`SerpNaverOrganicTaskGetRegularResponseInfo`](SerpNaverOrganicTaskGetRegularResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -2186,21 +1946,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:5379
 
-___
+***
 
-### naverOrganicTaskPost
+### naverOrganicTaskPost()
 
-▸ **naverOrganicTaskPost**(`body`): `Promise`\<[`SerpNaverOrganicTaskPostResponseInfo`](SerpNaverOrganicTaskPostResponseInfo.md)\>
+> **naverOrganicTaskPost**(`body`): `Promise`\<[`SerpNaverOrganicTaskPostResponseInfo`](SerpNaverOrganicTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[] | (optional) |
+• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -2208,15 +1968,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:5261
 
-___
+***
 
-### naverOrganicTasksFixed
+### naverOrganicTasksFixed()
 
-▸ **naverOrganicTasksFixed**(): `Promise`\<[`SerpNaverOrganicTasksFixedResponseInfo`](SerpNaverOrganicTasksFixedResponseInfo.md)\>
+> **naverOrganicTasksFixed**(): `Promise`\<[`SerpNaverOrganicTasksFixedResponseInfo`](SerpNaverOrganicTasksFixedResponseInfo.md)\>
 
 #### Returns
 
@@ -2224,15 +1984,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:5339
 
-___
+***
 
-### naverOrganicTasksReady
+### naverOrganicTasksReady()
 
-▸ **naverOrganicTasksReady**(): `Promise`\<[`SerpNaverOrganicTasksReadyResponseInfo`](SerpNaverOrganicTasksReadyResponseInfo.md)\>
+> **naverOrganicTasksReady**(): `Promise`\<[`SerpNaverOrganicTasksReadyResponseInfo`](SerpNaverOrganicTasksReadyResponseInfo.md)\>
 
 #### Returns
 
@@ -2240,2901 +2000,2613 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:5302
 
-___
+***
 
-### processAiSummary
+### processAiSummary()
 
-▸ **processAiSummary**(`response`): `Promise`\<[`SerpAiSummaryResponseInfo`](SerpAiSummaryResponseInfo.md)\>
+> **`protected`** **processAiSummary**(`response`): `Promise`\<[`SerpAiSummaryResponseInfo`](SerpAiSummaryResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpAiSummaryResponseInfo`](SerpAiSummaryResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:171
 
-___
+***
 
-### processBaiduOrganicTaskGetAdvanced
+### processBaiduOrganicTaskGetAdvanced()
 
-▸ **processBaiduOrganicTaskGetAdvanced**(`response`): `Promise`\<[`SerpBaiduOrganicTaskGetAdvancedResponseInfo`](SerpBaiduOrganicTaskGetAdvancedResponseInfo.md)\>
+> **`protected`** **processBaiduOrganicTaskGetAdvanced**(`response`): `Promise`\<[`SerpBaiduOrganicTaskGetAdvancedResponseInfo`](SerpBaiduOrganicTaskGetAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpBaiduOrganicTaskGetAdvancedResponseInfo`](SerpBaiduOrganicTaskGetAdvancedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:5196
 
-___
+***
 
-### processBaiduOrganicTaskGetHtml
+### processBaiduOrganicTaskGetHtml()
 
-▸ **processBaiduOrganicTaskGetHtml**(`response`): `Promise`\<[`SerpBaiduOrganicTaskGetHtmlResponseInfo`](SerpBaiduOrganicTaskGetHtmlResponseInfo.md)\>
+> **`protected`** **processBaiduOrganicTaskGetHtml**(`response`): `Promise`\<[`SerpBaiduOrganicTaskGetHtmlResponseInfo`](SerpBaiduOrganicTaskGetHtmlResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpBaiduOrganicTaskGetHtmlResponseInfo`](SerpBaiduOrganicTaskGetHtmlResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:5239
 
-___
+***
 
-### processBaiduOrganicTaskGetRegular
+### processBaiduOrganicTaskGetRegular()
 
-▸ **processBaiduOrganicTaskGetRegular**(`response`): `Promise`\<[`SerpBaiduOrganicTaskGetRegularResponseInfo`](SerpBaiduOrganicTaskGetRegularResponseInfo.md)\>
+> **`protected`** **processBaiduOrganicTaskGetRegular**(`response`): `Promise`\<[`SerpBaiduOrganicTaskGetRegularResponseInfo`](SerpBaiduOrganicTaskGetRegularResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpBaiduOrganicTaskGetRegularResponseInfo`](SerpBaiduOrganicTaskGetRegularResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:5153
 
-___
+***
 
-### processBaiduOrganicTaskPost
+### processBaiduOrganicTaskPost()
 
-▸ **processBaiduOrganicTaskPost**(`response`): `Promise`\<[`SerpBaiduOrganicTaskPostResponseInfo`](SerpBaiduOrganicTaskPostResponseInfo.md)\>
+> **`protected`** **processBaiduOrganicTaskPost**(`response`): `Promise`\<[`SerpBaiduOrganicTaskPostResponseInfo`](SerpBaiduOrganicTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpBaiduOrganicTaskPostResponseInfo`](SerpBaiduOrganicTaskPostResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:5036
 
-___
+***
 
-### processBaiduOrganicTasksFixed
+### processBaiduOrganicTasksFixed()
 
-▸ **processBaiduOrganicTasksFixed**(`response`): `Promise`\<[`SerpBaiduOrganicTasksFixedResponseInfo`](SerpBaiduOrganicTasksFixedResponseInfo.md)\>
+> **`protected`** **processBaiduOrganicTasksFixed**(`response`): `Promise`\<[`SerpBaiduOrganicTasksFixedResponseInfo`](SerpBaiduOrganicTasksFixedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpBaiduOrganicTasksFixedResponseInfo`](SerpBaiduOrganicTasksFixedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:5110
 
-___
+***
 
-### processBaiduOrganicTasksReady
+### processBaiduOrganicTasksReady()
 
-▸ **processBaiduOrganicTasksReady**(`response`): `Promise`\<[`SerpBaiduOrganicTasksReadyResponseInfo`](SerpBaiduOrganicTasksReadyResponseInfo.md)\>
+> **`protected`** **processBaiduOrganicTasksReady**(`response`): `Promise`\<[`SerpBaiduOrganicTasksReadyResponseInfo`](SerpBaiduOrganicTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpBaiduOrganicTasksReadyResponseInfo`](SerpBaiduOrganicTasksReadyResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:5073
 
-___
+***
 
-### processBingLocalPackLiveHtml
+### processBingLocalPackLiveHtml()
 
-▸ **processBingLocalPackLiveHtml**(`response`): `Promise`\<[`SerpBingLocalPackLiveHtmlResponseInfo`](SerpBingLocalPackLiveHtmlResponseInfo.md)\>
+> **`protected`** **processBingLocalPackLiveHtml**(`response`): `Promise`\<[`SerpBingLocalPackLiveHtmlResponseInfo`](SerpBingLocalPackLiveHtmlResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpBingLocalPackLiveHtmlResponseInfo`](SerpBingLocalPackLiveHtmlResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:3663
 
-___
+***
 
-### processBingLocalPackLiveRegular
+### processBingLocalPackLiveRegular()
 
-▸ **processBingLocalPackLiveRegular**(`response`): `Promise`\<[`SerpBingLocalPackLiveRegularResponseInfo`](SerpBingLocalPackLiveRegularResponseInfo.md)\>
+> **`protected`** **processBingLocalPackLiveRegular**(`response`): `Promise`\<[`SerpBingLocalPackLiveRegularResponseInfo`](SerpBingLocalPackLiveRegularResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpBingLocalPackLiveRegularResponseInfo`](SerpBingLocalPackLiveRegularResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:3621
 
-___
+***
 
-### processBingLocalPackTaskGetHtml
+### processBingLocalPackTaskGetHtml()
 
-▸ **processBingLocalPackTaskGetHtml**(`response`): `Promise`\<[`SerpBingLocalPackTaskGetHtmlResponseInfo`](SerpBingLocalPackTaskGetHtmlResponseInfo.md)\>
+> **`protected`** **processBingLocalPackTaskGetHtml**(`response`): `Promise`\<[`SerpBingLocalPackTaskGetHtmlResponseInfo`](SerpBingLocalPackTaskGetHtmlResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpBingLocalPackTaskGetHtmlResponseInfo`](SerpBingLocalPackTaskGetHtmlResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:3579
 
-___
+***
 
-### processBingLocalPackTaskGetRegular
+### processBingLocalPackTaskGetRegular()
 
-▸ **processBingLocalPackTaskGetRegular**(`response`): `Promise`\<[`SerpBingLocalPackTaskGetRegularResponseInfo`](SerpBingLocalPackTaskGetRegularResponseInfo.md)\>
+> **`protected`** **processBingLocalPackTaskGetRegular**(`response`): `Promise`\<[`SerpBingLocalPackTaskGetRegularResponseInfo`](SerpBingLocalPackTaskGetRegularResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpBingLocalPackTaskGetRegularResponseInfo`](SerpBingLocalPackTaskGetRegularResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:3536
 
-___
+***
 
-### processBingLocalPackTaskPost
+### processBingLocalPackTaskPost()
 
-▸ **processBingLocalPackTaskPost**(`response`): `Promise`\<[`SerpBingLocalPackTaskPostResponseInfo`](SerpBingLocalPackTaskPostResponseInfo.md)\>
+> **`protected`** **processBingLocalPackTaskPost**(`response`): `Promise`\<[`SerpBingLocalPackTaskPostResponseInfo`](SerpBingLocalPackTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpBingLocalPackTaskPostResponseInfo`](SerpBingLocalPackTaskPostResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:3419
 
-___
+***
 
-### processBingLocalPackTasksFixed
+### processBingLocalPackTasksFixed()
 
-▸ **processBingLocalPackTasksFixed**(`response`): `Promise`\<[`SerpBingLocalPackTasksFixedResponseInfo`](SerpBingLocalPackTasksFixedResponseInfo.md)\>
+> **`protected`** **processBingLocalPackTasksFixed**(`response`): `Promise`\<[`SerpBingLocalPackTasksFixedResponseInfo`](SerpBingLocalPackTasksFixedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpBingLocalPackTasksFixedResponseInfo`](SerpBingLocalPackTasksFixedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:3493
 
-___
+***
 
-### processBingLocalPackTasksReady
+### processBingLocalPackTasksReady()
 
-▸ **processBingLocalPackTasksReady**(`response`): `Promise`\<[`SerpBingLocalPackTasksReadyResponseInfo`](SerpBingLocalPackTasksReadyResponseInfo.md)\>
+> **`protected`** **processBingLocalPackTasksReady**(`response`): `Promise`\<[`SerpBingLocalPackTasksReadyResponseInfo`](SerpBingLocalPackTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpBingLocalPackTasksReadyResponseInfo`](SerpBingLocalPackTasksReadyResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:3456
 
-___
+***
 
-### processBingOrganicLiveAdvanced
+### processBingOrganicLiveAdvanced()
 
-▸ **processBingOrganicLiveAdvanced**(`response`): `Promise`\<[`SerpBingOrganicLiveAdvancedResponseInfo`](SerpBingOrganicLiveAdvancedResponseInfo.md)\>
+> **`protected`** **processBingOrganicLiveAdvanced**(`response`): `Promise`\<[`SerpBingOrganicLiveAdvancedResponseInfo`](SerpBingOrganicLiveAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpBingOrganicLiveAdvancedResponseInfo`](SerpBingOrganicLiveAdvancedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:3335
 
-___
+***
 
-### processBingOrganicLiveHtml
+### processBingOrganicLiveHtml()
 
-▸ **processBingOrganicLiveHtml**(`response`): `Promise`\<[`SerpBingOrganicLiveHtmlResponseInfo`](SerpBingOrganicLiveHtmlResponseInfo.md)\>
+> **`protected`** **processBingOrganicLiveHtml**(`response`): `Promise`\<[`SerpBingOrganicLiveHtmlResponseInfo`](SerpBingOrganicLiveHtmlResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpBingOrganicLiveHtmlResponseInfo`](SerpBingOrganicLiveHtmlResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:3377
 
-___
+***
 
-### processBingOrganicLiveRegular
+### processBingOrganicLiveRegular()
 
-▸ **processBingOrganicLiveRegular**(`response`): `Promise`\<[`SerpBingOrganicLiveRegularResponseInfo`](SerpBingOrganicLiveRegularResponseInfo.md)\>
+> **`protected`** **processBingOrganicLiveRegular**(`response`): `Promise`\<[`SerpBingOrganicLiveRegularResponseInfo`](SerpBingOrganicLiveRegularResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpBingOrganicLiveRegularResponseInfo`](SerpBingOrganicLiveRegularResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:3293
 
-___
+***
 
-### processBingOrganicTaskGetAdvanced
+### processBingOrganicTaskGetAdvanced()
 
-▸ **processBingOrganicTaskGetAdvanced**(`response`): `Promise`\<[`SerpBingOrganicTaskGetAdvancedResponseInfo`](SerpBingOrganicTaskGetAdvancedResponseInfo.md)\>
+> **`protected`** **processBingOrganicTaskGetAdvanced**(`response`): `Promise`\<[`SerpBingOrganicTaskGetAdvancedResponseInfo`](SerpBingOrganicTaskGetAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpBingOrganicTaskGetAdvancedResponseInfo`](SerpBingOrganicTaskGetAdvancedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:3208
 
-___
+***
 
-### processBingOrganicTaskGetHtml
+### processBingOrganicTaskGetHtml()
 
-▸ **processBingOrganicTaskGetHtml**(`response`): `Promise`\<[`SerpBingOrganicTaskGetHtmlResponseInfo`](SerpBingOrganicTaskGetHtmlResponseInfo.md)\>
+> **`protected`** **processBingOrganicTaskGetHtml**(`response`): `Promise`\<[`SerpBingOrganicTaskGetHtmlResponseInfo`](SerpBingOrganicTaskGetHtmlResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpBingOrganicTaskGetHtmlResponseInfo`](SerpBingOrganicTaskGetHtmlResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:3251
 
-___
+***
 
-### processBingOrganicTaskGetRegular
+### processBingOrganicTaskGetRegular()
 
-▸ **processBingOrganicTaskGetRegular**(`response`): `Promise`\<[`SerpBingOrganicTaskGetRegularResponseInfo`](SerpBingOrganicTaskGetRegularResponseInfo.md)\>
+> **`protected`** **processBingOrganicTaskGetRegular**(`response`): `Promise`\<[`SerpBingOrganicTaskGetRegularResponseInfo`](SerpBingOrganicTaskGetRegularResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpBingOrganicTaskGetRegularResponseInfo`](SerpBingOrganicTaskGetRegularResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:3165
 
-___
+***
 
-### processBingOrganicTaskPost
+### processBingOrganicTaskPost()
 
-▸ **processBingOrganicTaskPost**(`response`): `Promise`\<[`SerpBingOrganicTaskPostResponseInfo`](SerpBingOrganicTaskPostResponseInfo.md)\>
+> **`protected`** **processBingOrganicTaskPost**(`response`): `Promise`\<[`SerpBingOrganicTaskPostResponseInfo`](SerpBingOrganicTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpBingOrganicTaskPostResponseInfo`](SerpBingOrganicTaskPostResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:3048
 
-___
+***
 
-### processBingOrganicTasksFixed
+### processBingOrganicTasksFixed()
 
-▸ **processBingOrganicTasksFixed**(`response`): `Promise`\<[`SerpBingOrganicTasksFixedResponseInfo`](SerpBingOrganicTasksFixedResponseInfo.md)\>
+> **`protected`** **processBingOrganicTasksFixed**(`response`): `Promise`\<[`SerpBingOrganicTasksFixedResponseInfo`](SerpBingOrganicTasksFixedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpBingOrganicTasksFixedResponseInfo`](SerpBingOrganicTasksFixedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:3122
 
-___
+***
 
-### processBingOrganicTasksReady
+### processBingOrganicTasksReady()
 
-▸ **processBingOrganicTasksReady**(`response`): `Promise`\<[`SerpBingOrganicTasksReadyResponseInfo`](SerpBingOrganicTasksReadyResponseInfo.md)\>
+> **`protected`** **processBingOrganicTasksReady**(`response`): `Promise`\<[`SerpBingOrganicTasksReadyResponseInfo`](SerpBingOrganicTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpBingOrganicTasksReadyResponseInfo`](SerpBingOrganicTasksReadyResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:3085
 
-___
+***
 
-### processGoogleAutocompleteLiveAdvanced
+### processGoogleAutocompleteLiveAdvanced()
 
-▸ **processGoogleAutocompleteLiveAdvanced**(`response`): `Promise`\<[`SerpGoogleAutocompleteLiveAdvancedResponseInfo`](SerpGoogleAutocompleteLiveAdvancedResponseInfo.md)\>
+> **`protected`** **processGoogleAutocompleteLiveAdvanced**(`response`): `Promise`\<[`SerpGoogleAutocompleteLiveAdvancedResponseInfo`](SerpGoogleAutocompleteLiveAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleAutocompleteLiveAdvancedResponseInfo`](SerpGoogleAutocompleteLiveAdvancedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:2485
 
-___
+***
 
-### processGoogleAutocompleteTaskGetAdvanced
+### processGoogleAutocompleteTaskGetAdvanced()
 
-▸ **processGoogleAutocompleteTaskGetAdvanced**(`response`): `Promise`\<[`SerpGoogleAutocompleteTaskGetAdvancedResponseInfo`](SerpGoogleAutocompleteTaskGetAdvancedResponseInfo.md)\>
+> **`protected`** **processGoogleAutocompleteTaskGetAdvanced**(`response`): `Promise`\<[`SerpGoogleAutocompleteTaskGetAdvancedResponseInfo`](SerpGoogleAutocompleteTaskGetAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleAutocompleteTaskGetAdvancedResponseInfo`](SerpGoogleAutocompleteTaskGetAdvancedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:2443
 
-___
+***
 
-### processGoogleAutocompleteTaskPost
+### processGoogleAutocompleteTaskPost()
 
-▸ **processGoogleAutocompleteTaskPost**(`response`): `Promise`\<[`SerpGoogleAutocompleteTaskPostResponseInfo`](SerpGoogleAutocompleteTaskPostResponseInfo.md)\>
+> **`protected`** **processGoogleAutocompleteTaskPost**(`response`): `Promise`\<[`SerpGoogleAutocompleteTaskPostResponseInfo`](SerpGoogleAutocompleteTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleAutocompleteTaskPostResponseInfo`](SerpGoogleAutocompleteTaskPostResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:2326
 
-___
+***
 
-### processGoogleAutocompleteTasksFixed
+### processGoogleAutocompleteTasksFixed()
 
-▸ **processGoogleAutocompleteTasksFixed**(`response`): `Promise`\<[`SerpGoogleAutocompleteTasksFixedResponseInfo`](SerpGoogleAutocompleteTasksFixedResponseInfo.md)\>
+> **`protected`** **processGoogleAutocompleteTasksFixed**(`response`): `Promise`\<[`SerpGoogleAutocompleteTasksFixedResponseInfo`](SerpGoogleAutocompleteTasksFixedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleAutocompleteTasksFixedResponseInfo`](SerpGoogleAutocompleteTasksFixedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:2400
 
-___
+***
 
-### processGoogleAutocompleteTasksReady
+### processGoogleAutocompleteTasksReady()
 
-▸ **processGoogleAutocompleteTasksReady**(`response`): `Promise`\<[`SerpGoogleAutocompleteTasksReadyResponseInfo`](SerpGoogleAutocompleteTasksReadyResponseInfo.md)\>
+> **`protected`** **processGoogleAutocompleteTasksReady**(`response`): `Promise`\<[`SerpGoogleAutocompleteTasksReadyResponseInfo`](SerpGoogleAutocompleteTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleAutocompleteTasksReadyResponseInfo`](SerpGoogleAutocompleteTasksReadyResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:2363
 
-___
+***
 
-### processGoogleDatasetInfoLiveAdvanced
+### processGoogleDatasetInfoLiveAdvanced()
 
-▸ **processGoogleDatasetInfoLiveAdvanced**(`response`): `Promise`\<[`SerpGoogleDatasetInfoLiveAdvancedResponseInfo`](SerpGoogleDatasetInfoLiveAdvancedResponseInfo.md)\>
+> **`protected`** **processGoogleDatasetInfoLiveAdvanced**(`response`): `Promise`\<[`SerpGoogleDatasetInfoLiveAdvancedResponseInfo`](SerpGoogleDatasetInfoLiveAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleDatasetInfoLiveAdvancedResponseInfo`](SerpGoogleDatasetInfoLiveAdvancedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:2887
 
-___
+***
 
-### processGoogleDatasetInfoTaskGetAdvanced
+### processGoogleDatasetInfoTaskGetAdvanced()
 
-▸ **processGoogleDatasetInfoTaskGetAdvanced**(`response`): `Promise`\<[`SerpGoogleDatasetInfoTaskGetAdvancedResponseInfo`](SerpGoogleDatasetInfoTaskGetAdvancedResponseInfo.md)\>
+> **`protected`** **processGoogleDatasetInfoTaskGetAdvanced**(`response`): `Promise`\<[`SerpGoogleDatasetInfoTaskGetAdvancedResponseInfo`](SerpGoogleDatasetInfoTaskGetAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleDatasetInfoTaskGetAdvancedResponseInfo`](SerpGoogleDatasetInfoTaskGetAdvancedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:2845
 
-___
+***
 
-### processGoogleDatasetInfoTaskPost
+### processGoogleDatasetInfoTaskPost()
 
-▸ **processGoogleDatasetInfoTaskPost**(`response`): `Promise`\<[`SerpGoogleDatasetInfoTaskPostResponseInfo`](SerpGoogleDatasetInfoTaskPostResponseInfo.md)\>
+> **`protected`** **processGoogleDatasetInfoTaskPost**(`response`): `Promise`\<[`SerpGoogleDatasetInfoTaskPostResponseInfo`](SerpGoogleDatasetInfoTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleDatasetInfoTaskPostResponseInfo`](SerpGoogleDatasetInfoTaskPostResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:2728
 
-___
+***
 
-### processGoogleDatasetInfoTasksFixed
+### processGoogleDatasetInfoTasksFixed()
 
-▸ **processGoogleDatasetInfoTasksFixed**(`response`): `Promise`\<[`SerpGoogleDatasetInfoTasksFixedResponseInfo`](SerpGoogleDatasetInfoTasksFixedResponseInfo.md)\>
+> **`protected`** **processGoogleDatasetInfoTasksFixed**(`response`): `Promise`\<[`SerpGoogleDatasetInfoTasksFixedResponseInfo`](SerpGoogleDatasetInfoTasksFixedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleDatasetInfoTasksFixedResponseInfo`](SerpGoogleDatasetInfoTasksFixedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:2802
 
-___
+***
 
-### processGoogleDatasetInfoTasksReady
+### processGoogleDatasetInfoTasksReady()
 
-▸ **processGoogleDatasetInfoTasksReady**(`response`): `Promise`\<[`SerpGoogleDatasetInfoTasksReadyResponseInfo`](SerpGoogleDatasetInfoTasksReadyResponseInfo.md)\>
+> **`protected`** **processGoogleDatasetInfoTasksReady**(`response`): `Promise`\<[`SerpGoogleDatasetInfoTasksReadyResponseInfo`](SerpGoogleDatasetInfoTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleDatasetInfoTasksReadyResponseInfo`](SerpGoogleDatasetInfoTasksReadyResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:2765
 
-___
+***
 
-### processGoogleDatasetSearchLiveAdvanced
+### processGoogleDatasetSearchLiveAdvanced()
 
-▸ **processGoogleDatasetSearchLiveAdvanced**(`response`): `Promise`\<[`SerpGoogleDatasetSearchLiveAdvancedResponseInfo`](SerpGoogleDatasetSearchLiveAdvancedResponseInfo.md)\>
+> **`protected`** **processGoogleDatasetSearchLiveAdvanced**(`response`): `Promise`\<[`SerpGoogleDatasetSearchLiveAdvancedResponseInfo`](SerpGoogleDatasetSearchLiveAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleDatasetSearchLiveAdvancedResponseInfo`](SerpGoogleDatasetSearchLiveAdvancedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:2686
 
-___
+***
 
-### processGoogleDatasetSearchTaskGetAdvanced
+### processGoogleDatasetSearchTaskGetAdvanced()
 
-▸ **processGoogleDatasetSearchTaskGetAdvanced**(`response`): `Promise`\<[`SerpGoogleDatasetSearchTaskGetAdvancedResponseInfo`](SerpGoogleDatasetSearchTaskGetAdvancedResponseInfo.md)\>
+> **`protected`** **processGoogleDatasetSearchTaskGetAdvanced**(`response`): `Promise`\<[`SerpGoogleDatasetSearchTaskGetAdvancedResponseInfo`](SerpGoogleDatasetSearchTaskGetAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleDatasetSearchTaskGetAdvancedResponseInfo`](SerpGoogleDatasetSearchTaskGetAdvancedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:2644
 
-___
+***
 
-### processGoogleDatasetSearchTaskPost
+### processGoogleDatasetSearchTaskPost()
 
-▸ **processGoogleDatasetSearchTaskPost**(`response`): `Promise`\<[`SerpGoogleDatasetSearchTaskPostResponseInfo`](SerpGoogleDatasetSearchTaskPostResponseInfo.md)\>
+> **`protected`** **processGoogleDatasetSearchTaskPost**(`response`): `Promise`\<[`SerpGoogleDatasetSearchTaskPostResponseInfo`](SerpGoogleDatasetSearchTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleDatasetSearchTaskPostResponseInfo`](SerpGoogleDatasetSearchTaskPostResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:2527
 
-___
+***
 
-### processGoogleDatasetSearchTasksFixed
+### processGoogleDatasetSearchTasksFixed()
 
-▸ **processGoogleDatasetSearchTasksFixed**(`response`): `Promise`\<[`SerpGoogleDatasetSearchTasksFixedResponseInfo`](SerpGoogleDatasetSearchTasksFixedResponseInfo.md)\>
+> **`protected`** **processGoogleDatasetSearchTasksFixed**(`response`): `Promise`\<[`SerpGoogleDatasetSearchTasksFixedResponseInfo`](SerpGoogleDatasetSearchTasksFixedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleDatasetSearchTasksFixedResponseInfo`](SerpGoogleDatasetSearchTasksFixedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:2601
 
-___
+***
 
-### processGoogleDatasetSearchTasksReady
+### processGoogleDatasetSearchTasksReady()
 
-▸ **processGoogleDatasetSearchTasksReady**(`response`): `Promise`\<[`SerpGoogleDatasetSearchTasksReadyResponseInfo`](SerpGoogleDatasetSearchTasksReadyResponseInfo.md)\>
+> **`protected`** **processGoogleDatasetSearchTasksReady**(`response`): `Promise`\<[`SerpGoogleDatasetSearchTasksReadyResponseInfo`](SerpGoogleDatasetSearchTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleDatasetSearchTasksReadyResponseInfo`](SerpGoogleDatasetSearchTasksReadyResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:2564
 
-___
+***
 
-### processGoogleEventsLiveAdvanced
+### processGoogleEventsLiveAdvanced()
 
-▸ **processGoogleEventsLiveAdvanced**(`response`): `Promise`\<[`SerpGoogleEventsLiveAdvancedResponseInfo`](SerpGoogleEventsLiveAdvancedResponseInfo.md)\>
+> **`protected`** **processGoogleEventsLiveAdvanced**(`response`): `Promise`\<[`SerpGoogleEventsLiveAdvancedResponseInfo`](SerpGoogleEventsLiveAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleEventsLiveAdvancedResponseInfo`](SerpGoogleEventsLiveAdvancedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:1637
 
-___
+***
 
-### processGoogleEventsTaskGetAdvanced
+### processGoogleEventsTaskGetAdvanced()
 
-▸ **processGoogleEventsTaskGetAdvanced**(`response`): `Promise`\<[`SerpGoogleEventsTaskGetAdvancedResponseInfo`](SerpGoogleEventsTaskGetAdvancedResponseInfo.md)\>
+> **`protected`** **processGoogleEventsTaskGetAdvanced**(`response`): `Promise`\<[`SerpGoogleEventsTaskGetAdvancedResponseInfo`](SerpGoogleEventsTaskGetAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleEventsTaskGetAdvancedResponseInfo`](SerpGoogleEventsTaskGetAdvancedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:1595
 
-___
+***
 
-### processGoogleEventsTaskPost
+### processGoogleEventsTaskPost()
 
-▸ **processGoogleEventsTaskPost**(`response`): `Promise`\<[`SerpGoogleEventsTaskPostResponseInfo`](SerpGoogleEventsTaskPostResponseInfo.md)\>
+> **`protected`** **processGoogleEventsTaskPost**(`response`): `Promise`\<[`SerpGoogleEventsTaskPostResponseInfo`](SerpGoogleEventsTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleEventsTaskPostResponseInfo`](SerpGoogleEventsTaskPostResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:1478
 
-___
+***
 
-### processGoogleEventsTasksFixed
+### processGoogleEventsTasksFixed()
 
-▸ **processGoogleEventsTasksFixed**(`response`): `Promise`\<[`SerpGoogleEventsTasksFixedResponseInfo`](SerpGoogleEventsTasksFixedResponseInfo.md)\>
+> **`protected`** **processGoogleEventsTasksFixed**(`response`): `Promise`\<[`SerpGoogleEventsTasksFixedResponseInfo`](SerpGoogleEventsTasksFixedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleEventsTasksFixedResponseInfo`](SerpGoogleEventsTasksFixedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:1552
 
-___
+***
 
-### processGoogleEventsTasksReady
+### processGoogleEventsTasksReady()
 
-▸ **processGoogleEventsTasksReady**(`response`): `Promise`\<[`SerpGoogleEventsTasksReadyResponseInfo`](SerpGoogleEventsTasksReadyResponseInfo.md)\>
+> **`protected`** **processGoogleEventsTasksReady**(`response`): `Promise`\<[`SerpGoogleEventsTasksReadyResponseInfo`](SerpGoogleEventsTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleEventsTasksReadyResponseInfo`](SerpGoogleEventsTasksReadyResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:1515
 
-___
+***
 
-### processGoogleImagesLiveAdvanced
+### processGoogleImagesLiveAdvanced()
 
-▸ **processGoogleImagesLiveAdvanced**(`response`): `Promise`\<[`SerpGoogleImagesLiveAdvancedResponseInfo`](SerpGoogleImagesLiveAdvancedResponseInfo.md)\>
+> **`protected`** **processGoogleImagesLiveAdvanced**(`response`): `Promise`\<[`SerpGoogleImagesLiveAdvancedResponseInfo`](SerpGoogleImagesLiveAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleImagesLiveAdvancedResponseInfo`](SerpGoogleImagesLiveAdvancedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:1881
 
-___
+***
 
-### processGoogleImagesLiveHtml
+### processGoogleImagesLiveHtml()
 
-▸ **processGoogleImagesLiveHtml**(`response`): `Promise`\<[`SerpGoogleImagesLiveHtmlResponseInfo`](SerpGoogleImagesLiveHtmlResponseInfo.md)\>
+> **`protected`** **processGoogleImagesLiveHtml**(`response`): `Promise`\<[`SerpGoogleImagesLiveHtmlResponseInfo`](SerpGoogleImagesLiveHtmlResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleImagesLiveHtmlResponseInfo`](SerpGoogleImagesLiveHtmlResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:1923
 
-___
+***
 
-### processGoogleImagesTaskGetAdvanced
+### processGoogleImagesTaskGetAdvanced()
 
-▸ **processGoogleImagesTaskGetAdvanced**(`response`): `Promise`\<[`SerpGoogleImagesTaskGetAdvancedResponseInfo`](SerpGoogleImagesTaskGetAdvancedResponseInfo.md)\>
+> **`protected`** **processGoogleImagesTaskGetAdvanced**(`response`): `Promise`\<[`SerpGoogleImagesTaskGetAdvancedResponseInfo`](SerpGoogleImagesTaskGetAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleImagesTaskGetAdvancedResponseInfo`](SerpGoogleImagesTaskGetAdvancedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:1796
 
-___
+***
 
-### processGoogleImagesTaskGetHtml
+### processGoogleImagesTaskGetHtml()
 
-▸ **processGoogleImagesTaskGetHtml**(`response`): `Promise`\<[`SerpGoogleImagesTaskGetHtmlResponseInfo`](SerpGoogleImagesTaskGetHtmlResponseInfo.md)\>
+> **`protected`** **processGoogleImagesTaskGetHtml**(`response`): `Promise`\<[`SerpGoogleImagesTaskGetHtmlResponseInfo`](SerpGoogleImagesTaskGetHtmlResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleImagesTaskGetHtmlResponseInfo`](SerpGoogleImagesTaskGetHtmlResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:1839
 
-___
+***
 
-### processGoogleImagesTaskPost
+### processGoogleImagesTaskPost()
 
-▸ **processGoogleImagesTaskPost**(`response`): `Promise`\<[`SerpGoogleImagesTaskPostResponseInfo`](SerpGoogleImagesTaskPostResponseInfo.md)\>
+> **`protected`** **processGoogleImagesTaskPost**(`response`): `Promise`\<[`SerpGoogleImagesTaskPostResponseInfo`](SerpGoogleImagesTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleImagesTaskPostResponseInfo`](SerpGoogleImagesTaskPostResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:1679
 
-___
+***
 
-### processGoogleImagesTasksFixed
+### processGoogleImagesTasksFixed()
 
-▸ **processGoogleImagesTasksFixed**(`response`): `Promise`\<[`SerpGoogleImagesTasksFixedResponseInfo`](SerpGoogleImagesTasksFixedResponseInfo.md)\>
+> **`protected`** **processGoogleImagesTasksFixed**(`response`): `Promise`\<[`SerpGoogleImagesTasksFixedResponseInfo`](SerpGoogleImagesTasksFixedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleImagesTasksFixedResponseInfo`](SerpGoogleImagesTasksFixedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:1753
 
-___
+***
 
-### processGoogleImagesTasksReady
+### processGoogleImagesTasksReady()
 
-▸ **processGoogleImagesTasksReady**(`response`): `Promise`\<[`SerpGoogleImagesTasksReadyResponseInfo`](SerpGoogleImagesTasksReadyResponseInfo.md)\>
+> **`protected`** **processGoogleImagesTasksReady**(`response`): `Promise`\<[`SerpGoogleImagesTasksReadyResponseInfo`](SerpGoogleImagesTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleImagesTasksReadyResponseInfo`](SerpGoogleImagesTasksReadyResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:1716
 
-___
+***
 
-### processGoogleJobsTaskGetAdvanced
+### processGoogleJobsTaskGetAdvanced()
 
-▸ **processGoogleJobsTaskGetAdvanced**(`response`): `Promise`\<[`SerpGoogleJobsTaskGetAdvancedResponseInfo`](SerpGoogleJobsTaskGetAdvancedResponseInfo.md)\>
+> **`protected`** **processGoogleJobsTaskGetAdvanced**(`response`): `Promise`\<[`SerpGoogleJobsTaskGetAdvancedResponseInfo`](SerpGoogleJobsTaskGetAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleJobsTaskGetAdvancedResponseInfo`](SerpGoogleJobsTaskGetAdvancedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:2241
 
-___
+***
 
-### processGoogleJobsTaskGetHtml
+### processGoogleJobsTaskGetHtml()
 
-▸ **processGoogleJobsTaskGetHtml**(`response`): `Promise`\<[`SerpGoogleJobsTaskGetHtmlResponseInfo`](SerpGoogleJobsTaskGetHtmlResponseInfo.md)\>
+> **`protected`** **processGoogleJobsTaskGetHtml**(`response`): `Promise`\<[`SerpGoogleJobsTaskGetHtmlResponseInfo`](SerpGoogleJobsTaskGetHtmlResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleJobsTaskGetHtmlResponseInfo`](SerpGoogleJobsTaskGetHtmlResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:2284
 
-___
+***
 
-### processGoogleJobsTaskPost
+### processGoogleJobsTaskPost()
 
-▸ **processGoogleJobsTaskPost**(`response`): `Promise`\<[`SerpGoogleJobsTaskPostResponseInfo`](SerpGoogleJobsTaskPostResponseInfo.md)\>
+> **`protected`** **processGoogleJobsTaskPost**(`response`): `Promise`\<[`SerpGoogleJobsTaskPostResponseInfo`](SerpGoogleJobsTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleJobsTaskPostResponseInfo`](SerpGoogleJobsTaskPostResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:2124
 
-___
+***
 
-### processGoogleJobsTasksFixed
+### processGoogleJobsTasksFixed()
 
-▸ **processGoogleJobsTasksFixed**(`response`): `Promise`\<[`SerpGoogleJobsTasksFixedResponseInfo`](SerpGoogleJobsTasksFixedResponseInfo.md)\>
+> **`protected`** **processGoogleJobsTasksFixed**(`response`): `Promise`\<[`SerpGoogleJobsTasksFixedResponseInfo`](SerpGoogleJobsTasksFixedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleJobsTasksFixedResponseInfo`](SerpGoogleJobsTasksFixedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:2198
 
-___
+***
 
-### processGoogleJobsTasksReady
+### processGoogleJobsTasksReady()
 
-▸ **processGoogleJobsTasksReady**(`response`): `Promise`\<[`SerpGoogleJobsTasksReadyResponseInfo`](SerpGoogleJobsTasksReadyResponseInfo.md)\>
+> **`protected`** **processGoogleJobsTasksReady**(`response`): `Promise`\<[`SerpGoogleJobsTasksReadyResponseInfo`](SerpGoogleJobsTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleJobsTasksReadyResponseInfo`](SerpGoogleJobsTasksReadyResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:2161
 
-___
+***
 
-### processGoogleLocalFinderLiveAdvanced
+### processGoogleLocalFinderLiveAdvanced()
 
-▸ **processGoogleLocalFinderLiveAdvanced**(`response`): `Promise`\<[`SerpGoogleLocalFinderLiveAdvancedResponseInfo`](SerpGoogleLocalFinderLiveAdvancedResponseInfo.md)\>
+> **`protected`** **processGoogleLocalFinderLiveAdvanced**(`response`): `Promise`\<[`SerpGoogleLocalFinderLiveAdvancedResponseInfo`](SerpGoogleLocalFinderLiveAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleLocalFinderLiveAdvancedResponseInfo`](SerpGoogleLocalFinderLiveAdvancedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:1108
 
-___
+***
 
-### processGoogleLocalFinderLiveHtml
+### processGoogleLocalFinderLiveHtml()
 
-▸ **processGoogleLocalFinderLiveHtml**(`response`): `Promise`\<[`SerpGoogleLocalFinderLiveHtmlResponseInfo`](SerpGoogleLocalFinderLiveHtmlResponseInfo.md)\>
+> **`protected`** **processGoogleLocalFinderLiveHtml**(`response`): `Promise`\<[`SerpGoogleLocalFinderLiveHtmlResponseInfo`](SerpGoogleLocalFinderLiveHtmlResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleLocalFinderLiveHtmlResponseInfo`](SerpGoogleLocalFinderLiveHtmlResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:1150
 
-___
+***
 
-### processGoogleLocalFinderTaskGetAdvanced
+### processGoogleLocalFinderTaskGetAdvanced()
 
-▸ **processGoogleLocalFinderTaskGetAdvanced**(`response`): `Promise`\<[`SerpGoogleLocalFinderTaskGetAdvancedResponseInfo`](SerpGoogleLocalFinderTaskGetAdvancedResponseInfo.md)\>
+> **`protected`** **processGoogleLocalFinderTaskGetAdvanced**(`response`): `Promise`\<[`SerpGoogleLocalFinderTaskGetAdvancedResponseInfo`](SerpGoogleLocalFinderTaskGetAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleLocalFinderTaskGetAdvancedResponseInfo`](SerpGoogleLocalFinderTaskGetAdvancedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:1023
 
-___
+***
 
-### processGoogleLocalFinderTaskGetHtml
+### processGoogleLocalFinderTaskGetHtml()
 
-▸ **processGoogleLocalFinderTaskGetHtml**(`response`): `Promise`\<[`SerpGoogleLocalFinderTaskGetHtmlResponseInfo`](SerpGoogleLocalFinderTaskGetHtmlResponseInfo.md)\>
+> **`protected`** **processGoogleLocalFinderTaskGetHtml**(`response`): `Promise`\<[`SerpGoogleLocalFinderTaskGetHtmlResponseInfo`](SerpGoogleLocalFinderTaskGetHtmlResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleLocalFinderTaskGetHtmlResponseInfo`](SerpGoogleLocalFinderTaskGetHtmlResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:1066
 
-___
+***
 
-### processGoogleLocalFinderTaskPost
+### processGoogleLocalFinderTaskPost()
 
-▸ **processGoogleLocalFinderTaskPost**(`response`): `Promise`\<[`SerpGoogleLocalFinderTaskPostResponseInfo`](SerpGoogleLocalFinderTaskPostResponseInfo.md)\>
+> **`protected`** **processGoogleLocalFinderTaskPost**(`response`): `Promise`\<[`SerpGoogleLocalFinderTaskPostResponseInfo`](SerpGoogleLocalFinderTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleLocalFinderTaskPostResponseInfo`](SerpGoogleLocalFinderTaskPostResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:905
 
-___
+***
 
-### processGoogleLocalFinderTasksFixed
+### processGoogleLocalFinderTasksFixed()
 
-▸ **processGoogleLocalFinderTasksFixed**(`response`): `Promise`\<[`SerpGoogleLocalFinderTasksFixedResponseInfo`](SerpGoogleLocalFinderTasksFixedResponseInfo.md)\>
+> **`protected`** **processGoogleLocalFinderTasksFixed**(`response`): `Promise`\<[`SerpGoogleLocalFinderTasksFixedResponseInfo`](SerpGoogleLocalFinderTasksFixedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleLocalFinderTasksFixedResponseInfo`](SerpGoogleLocalFinderTasksFixedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:979
 
-___
+***
 
-### processGoogleLocalFinderTasksReady
+### processGoogleLocalFinderTasksReady()
 
-▸ **processGoogleLocalFinderTasksReady**(`response`): `Promise`\<[`SerpGoogleLocalFinderTasksReadyResponseInfo`](SerpGoogleLocalFinderTasksReadyResponseInfo.md)\>
+> **`protected`** **processGoogleLocalFinderTasksReady**(`response`): `Promise`\<[`SerpGoogleLocalFinderTasksReadyResponseInfo`](SerpGoogleLocalFinderTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleLocalFinderTasksReadyResponseInfo`](SerpGoogleLocalFinderTasksReadyResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:942
 
-___
+***
 
-### processGoogleMapsLiveAdvanced
+### processGoogleMapsLiveAdvanced()
 
-▸ **processGoogleMapsLiveAdvanced**(`response`): `Promise`\<[`SerpGoogleMapsLiveAdvancedResponseInfo`](SerpGoogleMapsLiveAdvancedResponseInfo.md)\>
+> **`protected`** **processGoogleMapsLiveAdvanced**(`response`): `Promise`\<[`SerpGoogleMapsLiveAdvancedResponseInfo`](SerpGoogleMapsLiveAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleMapsLiveAdvancedResponseInfo`](SerpGoogleMapsLiveAdvancedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:863
 
-___
+***
 
-### processGoogleMapsTaskGetAdvanced
+### processGoogleMapsTaskGetAdvanced()
 
-▸ **processGoogleMapsTaskGetAdvanced**(`response`): `Promise`\<[`SerpGoogleMapsTaskGetAdvancedResponseInfo`](SerpGoogleMapsTaskGetAdvancedResponseInfo.md)\>
+> **`protected`** **processGoogleMapsTaskGetAdvanced**(`response`): `Promise`\<[`SerpGoogleMapsTaskGetAdvancedResponseInfo`](SerpGoogleMapsTaskGetAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleMapsTaskGetAdvancedResponseInfo`](SerpGoogleMapsTaskGetAdvancedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:821
 
-___
+***
 
-### processGoogleMapsTaskPost
+### processGoogleMapsTaskPost()
 
-▸ **processGoogleMapsTaskPost**(`response`): `Promise`\<[`SerpGoogleMapsTaskPostResponseInfo`](SerpGoogleMapsTaskPostResponseInfo.md)\>
+> **`protected`** **processGoogleMapsTaskPost**(`response`): `Promise`\<[`SerpGoogleMapsTaskPostResponseInfo`](SerpGoogleMapsTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleMapsTaskPostResponseInfo`](SerpGoogleMapsTaskPostResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:703
 
-___
+***
 
-### processGoogleMapsTasksFixed
+### processGoogleMapsTasksFixed()
 
-▸ **processGoogleMapsTasksFixed**(`response`): `Promise`\<[`SerpGoogleMapsTasksFixedResponseInfo`](SerpGoogleMapsTasksFixedResponseInfo.md)\>
+> **`protected`** **processGoogleMapsTasksFixed**(`response`): `Promise`\<[`SerpGoogleMapsTasksFixedResponseInfo`](SerpGoogleMapsTasksFixedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleMapsTasksFixedResponseInfo`](SerpGoogleMapsTasksFixedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:777
 
-___
+***
 
-### processGoogleMapsTasksReady
+### processGoogleMapsTasksReady()
 
-▸ **processGoogleMapsTasksReady**(`response`): `Promise`\<[`SerpGoogleMapsTasksReadyResponseInfo`](SerpGoogleMapsTasksReadyResponseInfo.md)\>
+> **`protected`** **processGoogleMapsTasksReady**(`response`): `Promise`\<[`SerpGoogleMapsTasksReadyResponseInfo`](SerpGoogleMapsTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleMapsTasksReadyResponseInfo`](SerpGoogleMapsTasksReadyResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:740
 
-___
+***
 
-### processGoogleNewsLiveAdvanced
+### processGoogleNewsLiveAdvanced()
 
-▸ **processGoogleNewsLiveAdvanced**(`response`): `Promise`\<[`SerpGoogleNewsLiveAdvancedResponseInfo`](SerpGoogleNewsLiveAdvancedResponseInfo.md)\>
+> **`protected`** **processGoogleNewsLiveAdvanced**(`response`): `Promise`\<[`SerpGoogleNewsLiveAdvancedResponseInfo`](SerpGoogleNewsLiveAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleNewsLiveAdvancedResponseInfo`](SerpGoogleNewsLiveAdvancedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:1394
 
-___
+***
 
-### processGoogleNewsLiveHtml
+### processGoogleNewsLiveHtml()
 
-▸ **processGoogleNewsLiveHtml**(`response`): `Promise`\<[`SerpGoogleNewsLiveHtmlResponseInfo`](SerpGoogleNewsLiveHtmlResponseInfo.md)\>
+> **`protected`** **processGoogleNewsLiveHtml**(`response`): `Promise`\<[`SerpGoogleNewsLiveHtmlResponseInfo`](SerpGoogleNewsLiveHtmlResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleNewsLiveHtmlResponseInfo`](SerpGoogleNewsLiveHtmlResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:1436
 
-___
+***
 
-### processGoogleNewsTaskGetAdvanced
+### processGoogleNewsTaskGetAdvanced()
 
-▸ **processGoogleNewsTaskGetAdvanced**(`response`): `Promise`\<[`SerpGoogleNewsTaskGetAdvancedResponseInfo`](SerpGoogleNewsTaskGetAdvancedResponseInfo.md)\>
+> **`protected`** **processGoogleNewsTaskGetAdvanced**(`response`): `Promise`\<[`SerpGoogleNewsTaskGetAdvancedResponseInfo`](SerpGoogleNewsTaskGetAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleNewsTaskGetAdvancedResponseInfo`](SerpGoogleNewsTaskGetAdvancedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:1309
 
-___
+***
 
-### processGoogleNewsTaskGetHtml
+### processGoogleNewsTaskGetHtml()
 
-▸ **processGoogleNewsTaskGetHtml**(`response`): `Promise`\<[`SerpGoogleNewsTaskGetHtmlResponseInfo`](SerpGoogleNewsTaskGetHtmlResponseInfo.md)\>
+> **`protected`** **processGoogleNewsTaskGetHtml**(`response`): `Promise`\<[`SerpGoogleNewsTaskGetHtmlResponseInfo`](SerpGoogleNewsTaskGetHtmlResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleNewsTaskGetHtmlResponseInfo`](SerpGoogleNewsTaskGetHtmlResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:1352
 
-___
+***
 
-### processGoogleNewsTaskPost
+### processGoogleNewsTaskPost()
 
-▸ **processGoogleNewsTaskPost**(`response`): `Promise`\<[`SerpGoogleNewsTaskPostResponseInfo`](SerpGoogleNewsTaskPostResponseInfo.md)\>
+> **`protected`** **processGoogleNewsTaskPost**(`response`): `Promise`\<[`SerpGoogleNewsTaskPostResponseInfo`](SerpGoogleNewsTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleNewsTaskPostResponseInfo`](SerpGoogleNewsTaskPostResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:1192
 
-___
+***
 
-### processGoogleNewsTasksFixed
+### processGoogleNewsTasksFixed()
 
-▸ **processGoogleNewsTasksFixed**(`response`): `Promise`\<[`SerpGoogleNewsTasksFixedResponseInfo`](SerpGoogleNewsTasksFixedResponseInfo.md)\>
+> **`protected`** **processGoogleNewsTasksFixed**(`response`): `Promise`\<[`SerpGoogleNewsTasksFixedResponseInfo`](SerpGoogleNewsTasksFixedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleNewsTasksFixedResponseInfo`](SerpGoogleNewsTasksFixedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:1266
 
-___
+***
 
-### processGoogleNewsTasksReady
+### processGoogleNewsTasksReady()
 
-▸ **processGoogleNewsTasksReady**(`response`): `Promise`\<[`SerpGoogleNewsTasksReadyResponseInfo`](SerpGoogleNewsTasksReadyResponseInfo.md)\>
+> **`protected`** **processGoogleNewsTasksReady**(`response`): `Promise`\<[`SerpGoogleNewsTasksReadyResponseInfo`](SerpGoogleNewsTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleNewsTasksReadyResponseInfo`](SerpGoogleNewsTasksReadyResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:1229
 
-___
+***
 
-### processGoogleOrganicLiveAdvanced
+### processGoogleOrganicLiveAdvanced()
 
-▸ **processGoogleOrganicLiveAdvanced**(`response`): `Promise`\<[`SerpGoogleOrganicLiveAdvancedResponseInfo`](SerpGoogleOrganicLiveAdvancedResponseInfo.md)\>
+> **`protected`** **processGoogleOrganicLiveAdvanced**(`response`): `Promise`\<[`SerpGoogleOrganicLiveAdvancedResponseInfo`](SerpGoogleOrganicLiveAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleOrganicLiveAdvancedResponseInfo`](SerpGoogleOrganicLiveAdvancedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:619
 
-___
+***
 
-### processGoogleOrganicLiveHtml
+### processGoogleOrganicLiveHtml()
 
-▸ **processGoogleOrganicLiveHtml**(`response`): `Promise`\<[`SerpGoogleOrganicLiveHtmlResponseInfo`](SerpGoogleOrganicLiveHtmlResponseInfo.md)\>
+> **`protected`** **processGoogleOrganicLiveHtml**(`response`): `Promise`\<[`SerpGoogleOrganicLiveHtmlResponseInfo`](SerpGoogleOrganicLiveHtmlResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleOrganicLiveHtmlResponseInfo`](SerpGoogleOrganicLiveHtmlResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:661
 
-___
+***
 
-### processGoogleOrganicLiveRegular
+### processGoogleOrganicLiveRegular()
 
-▸ **processGoogleOrganicLiveRegular**(`response`): `Promise`\<[`SerpGoogleOrganicLiveRegularResponseInfo`](SerpGoogleOrganicLiveRegularResponseInfo.md)\>
+> **`protected`** **processGoogleOrganicLiveRegular**(`response`): `Promise`\<[`SerpGoogleOrganicLiveRegularResponseInfo`](SerpGoogleOrganicLiveRegularResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleOrganicLiveRegularResponseInfo`](SerpGoogleOrganicLiveRegularResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:577
 
-___
+***
 
-### processGoogleOrganicTaskGetAdvanced
+### processGoogleOrganicTaskGetAdvanced()
 
-▸ **processGoogleOrganicTaskGetAdvanced**(`response`): `Promise`\<[`SerpGoogleOrganicTaskGetAdvancedResponseInfo`](SerpGoogleOrganicTaskGetAdvancedResponseInfo.md)\>
+> **`protected`** **processGoogleOrganicTaskGetAdvanced**(`response`): `Promise`\<[`SerpGoogleOrganicTaskGetAdvancedResponseInfo`](SerpGoogleOrganicTaskGetAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleOrganicTaskGetAdvancedResponseInfo`](SerpGoogleOrganicTaskGetAdvancedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:492
 
-___
+***
 
-### processGoogleOrganicTaskGetHtml
+### processGoogleOrganicTaskGetHtml()
 
-▸ **processGoogleOrganicTaskGetHtml**(`response`): `Promise`\<[`SerpGoogleOrganicTaskGetHtmlResponseInfo`](SerpGoogleOrganicTaskGetHtmlResponseInfo.md)\>
+> **`protected`** **processGoogleOrganicTaskGetHtml**(`response`): `Promise`\<[`SerpGoogleOrganicTaskGetHtmlResponseInfo`](SerpGoogleOrganicTaskGetHtmlResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleOrganicTaskGetHtmlResponseInfo`](SerpGoogleOrganicTaskGetHtmlResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:535
 
-___
+***
 
-### processGoogleOrganicTaskGetRegular
+### processGoogleOrganicTaskGetRegular()
 
-▸ **processGoogleOrganicTaskGetRegular**(`response`): `Promise`\<[`SerpGoogleOrganicTaskGetRegularResponseInfo`](SerpGoogleOrganicTaskGetRegularResponseInfo.md)\>
+> **`protected`** **processGoogleOrganicTaskGetRegular**(`response`): `Promise`\<[`SerpGoogleOrganicTaskGetRegularResponseInfo`](SerpGoogleOrganicTaskGetRegularResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleOrganicTaskGetRegularResponseInfo`](SerpGoogleOrganicTaskGetRegularResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:449
 
-___
+***
 
-### processGoogleOrganicTaskPost
+### processGoogleOrganicTaskPost()
 
-▸ **processGoogleOrganicTaskPost**(`response`): `Promise`\<[`SerpGoogleOrganicTaskPostResponseInfo`](SerpGoogleOrganicTaskPostResponseInfo.md)\>
+> **`protected`** **processGoogleOrganicTaskPost**(`response`): `Promise`\<[`SerpGoogleOrganicTaskPostResponseInfo`](SerpGoogleOrganicTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleOrganicTaskPostResponseInfo`](SerpGoogleOrganicTaskPostResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:332
 
-___
+***
 
-### processGoogleOrganicTasksFixed
+### processGoogleOrganicTasksFixed()
 
-▸ **processGoogleOrganicTasksFixed**(`response`): `Promise`\<[`SerpGoogleOrganicTasksFixedResponseInfo`](SerpGoogleOrganicTasksFixedResponseInfo.md)\>
+> **`protected`** **processGoogleOrganicTasksFixed**(`response`): `Promise`\<[`SerpGoogleOrganicTasksFixedResponseInfo`](SerpGoogleOrganicTasksFixedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleOrganicTasksFixedResponseInfo`](SerpGoogleOrganicTasksFixedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:406
 
-___
+***
 
-### processGoogleOrganicTasksReady
+### processGoogleOrganicTasksReady()
 
-▸ **processGoogleOrganicTasksReady**(`response`): `Promise`\<[`SerpGoogleOrganicTasksReadyResponseInfo`](SerpGoogleOrganicTasksReadyResponseInfo.md)\>
+> **`protected`** **processGoogleOrganicTasksReady**(`response`): `Promise`\<[`SerpGoogleOrganicTasksReadyResponseInfo`](SerpGoogleOrganicTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleOrganicTasksReadyResponseInfo`](SerpGoogleOrganicTasksReadyResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:369
 
-___
+***
 
-### processGoogleSearchByImageTaskGetAdvanced
+### processGoogleSearchByImageTaskGetAdvanced()
 
-▸ **processGoogleSearchByImageTaskGetAdvanced**(`response`): `Promise`\<[`SerpGoogleSearchByImageTaskGetAdvancedResponseInfo`](SerpGoogleSearchByImageTaskGetAdvancedResponseInfo.md)\>
+> **`protected`** **processGoogleSearchByImageTaskGetAdvanced**(`response`): `Promise`\<[`SerpGoogleSearchByImageTaskGetAdvancedResponseInfo`](SerpGoogleSearchByImageTaskGetAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleSearchByImageTaskGetAdvancedResponseInfo`](SerpGoogleSearchByImageTaskGetAdvancedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:2082
 
-___
+***
 
-### processGoogleSearchByImageTaskPost
+### processGoogleSearchByImageTaskPost()
 
-▸ **processGoogleSearchByImageTaskPost**(`response`): `Promise`\<[`SerpGoogleSearchByImageTaskPostResponseInfo`](SerpGoogleSearchByImageTaskPostResponseInfo.md)\>
+> **`protected`** **processGoogleSearchByImageTaskPost**(`response`): `Promise`\<[`SerpGoogleSearchByImageTaskPostResponseInfo`](SerpGoogleSearchByImageTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleSearchByImageTaskPostResponseInfo`](SerpGoogleSearchByImageTaskPostResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:1965
 
-___
+***
 
-### processGoogleSearchByImageTasksFixed
+### processGoogleSearchByImageTasksFixed()
 
-▸ **processGoogleSearchByImageTasksFixed**(`response`): `Promise`\<[`SerpGoogleSearchByImageTasksFixedResponseInfo`](SerpGoogleSearchByImageTasksFixedResponseInfo.md)\>
+> **`protected`** **processGoogleSearchByImageTasksFixed**(`response`): `Promise`\<[`SerpGoogleSearchByImageTasksFixedResponseInfo`](SerpGoogleSearchByImageTasksFixedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleSearchByImageTasksFixedResponseInfo`](SerpGoogleSearchByImageTasksFixedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:2039
 
-___
+***
 
-### processGoogleSearchByImageTasksReady
+### processGoogleSearchByImageTasksReady()
 
-▸ **processGoogleSearchByImageTasksReady**(`response`): `Promise`\<[`SerpGoogleSearchByImageTasksReadyResponseInfo`](SerpGoogleSearchByImageTasksReadyResponseInfo.md)\>
+> **`protected`** **processGoogleSearchByImageTasksReady**(`response`): `Promise`\<[`SerpGoogleSearchByImageTasksReadyResponseInfo`](SerpGoogleSearchByImageTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleSearchByImageTasksReadyResponseInfo`](SerpGoogleSearchByImageTasksReadyResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:2002
 
-___
+***
 
-### processNaverOrganicTaskGetAdvanced
+### processNaverOrganicTaskGetAdvanced()
 
-▸ **processNaverOrganicTaskGetAdvanced**(`response`): `Promise`\<[`SerpNaverOrganicTaskGetAdvancedResponseInfo`](SerpNaverOrganicTaskGetAdvancedResponseInfo.md)\>
+> **`protected`** **processNaverOrganicTaskGetAdvanced**(`response`): `Promise`\<[`SerpNaverOrganicTaskGetAdvancedResponseInfo`](SerpNaverOrganicTaskGetAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpNaverOrganicTaskGetAdvancedResponseInfo`](SerpNaverOrganicTaskGetAdvancedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:5441
 
-___
+***
 
-### processNaverOrganicTaskGetHtml
+### processNaverOrganicTaskGetHtml()
 
-▸ **processNaverOrganicTaskGetHtml**(`response`): `Promise`\<[`SerpNaverOrganicTaskGetHtmlResponseInfo`](SerpNaverOrganicTaskGetHtmlResponseInfo.md)\>
+> **`protected`** **processNaverOrganicTaskGetHtml**(`response`): `Promise`\<[`SerpNaverOrganicTaskGetHtmlResponseInfo`](SerpNaverOrganicTaskGetHtmlResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpNaverOrganicTaskGetHtmlResponseInfo`](SerpNaverOrganicTaskGetHtmlResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:5484
 
-___
+***
 
-### processNaverOrganicTaskGetRegular
+### processNaverOrganicTaskGetRegular()
 
-▸ **processNaverOrganicTaskGetRegular**(`response`): `Promise`\<[`SerpNaverOrganicTaskGetRegularResponseInfo`](SerpNaverOrganicTaskGetRegularResponseInfo.md)\>
+> **`protected`** **processNaverOrganicTaskGetRegular**(`response`): `Promise`\<[`SerpNaverOrganicTaskGetRegularResponseInfo`](SerpNaverOrganicTaskGetRegularResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpNaverOrganicTaskGetRegularResponseInfo`](SerpNaverOrganicTaskGetRegularResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:5398
 
-___
+***
 
-### processNaverOrganicTaskPost
+### processNaverOrganicTaskPost()
 
-▸ **processNaverOrganicTaskPost**(`response`): `Promise`\<[`SerpNaverOrganicTaskPostResponseInfo`](SerpNaverOrganicTaskPostResponseInfo.md)\>
+> **`protected`** **processNaverOrganicTaskPost**(`response`): `Promise`\<[`SerpNaverOrganicTaskPostResponseInfo`](SerpNaverOrganicTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpNaverOrganicTaskPostResponseInfo`](SerpNaverOrganicTaskPostResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:5281
 
-___
+***
 
-### processNaverOrganicTasksFixed
+### processNaverOrganicTasksFixed()
 
-▸ **processNaverOrganicTasksFixed**(`response`): `Promise`\<[`SerpNaverOrganicTasksFixedResponseInfo`](SerpNaverOrganicTasksFixedResponseInfo.md)\>
+> **`protected`** **processNaverOrganicTasksFixed**(`response`): `Promise`\<[`SerpNaverOrganicTasksFixedResponseInfo`](SerpNaverOrganicTasksFixedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpNaverOrganicTasksFixedResponseInfo`](SerpNaverOrganicTasksFixedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:5355
 
-___
+***
 
-### processNaverOrganicTasksReady
+### processNaverOrganicTasksReady()
 
-▸ **processNaverOrganicTasksReady**(`response`): `Promise`\<[`SerpNaverOrganicTasksReadyResponseInfo`](SerpNaverOrganicTasksReadyResponseInfo.md)\>
+> **`protected`** **processNaverOrganicTasksReady**(`response`): `Promise`\<[`SerpNaverOrganicTasksReadyResponseInfo`](SerpNaverOrganicTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpNaverOrganicTasksReadyResponseInfo`](SerpNaverOrganicTasksReadyResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:5318
 
-___
+***
 
-### processScreenshot
+### processScreenshot()
 
-▸ **processScreenshot**(`response`): `Promise`\<[`SerpScreenshotResponseInfo`](SerpScreenshotResponseInfo.md)\>
+> **`protected`** **processScreenshot**(`response`): `Promise`\<[`SerpScreenshotResponseInfo`](SerpScreenshotResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpScreenshotResponseInfo`](SerpScreenshotResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:129
 
-___
+***
 
-### processSerpBaiduLanguages
+### processSerpBaiduLanguages()
 
-▸ **processSerpBaiduLanguages**(`response`): `Promise`\<[`SerpBaiduLanguagesResponseInfo`](SerpBaiduLanguagesResponseInfo.md)\>
+> **`protected`** **processSerpBaiduLanguages**(`response`): `Promise`\<[`SerpBaiduLanguagesResponseInfo`](SerpBaiduLanguagesResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpBaiduLanguagesResponseInfo`](SerpBaiduLanguagesResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:4994
 
-___
+***
 
-### processSerpBaiduLocations
+### processSerpBaiduLocations()
 
-▸ **processSerpBaiduLocations**(`response`): `Promise`\<[`SerpBaiduLocationsResponseInfo`](SerpBaiduLocationsResponseInfo.md)\>
+> **`protected`** **processSerpBaiduLocations**(`response`): `Promise`\<[`SerpBaiduLocationsResponseInfo`](SerpBaiduLocationsResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpBaiduLocationsResponseInfo`](SerpBaiduLocationsResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:4912
 
-___
+***
 
-### processSerpBaiduLocationsCountry
+### processSerpBaiduLocationsCountry()
 
-▸ **processSerpBaiduLocationsCountry**(`response`): `Promise`\<[`SerpBaiduLocationsCountryResponseInfo`](SerpBaiduLocationsCountryResponseInfo.md)\>
+> **`protected`** **processSerpBaiduLocationsCountry**(`response`): `Promise`\<[`SerpBaiduLocationsCountryResponseInfo`](SerpBaiduLocationsCountryResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpBaiduLocationsCountryResponseInfo`](SerpBaiduLocationsCountryResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:4957
 
-___
+***
 
-### processSerpBingLanguages
+### processSerpBingLanguages()
 
-▸ **processSerpBingLanguages**(`response`): `Promise`\<[`SerpBingLanguagesResponseInfo`](SerpBingLanguagesResponseInfo.md)\>
+> **`protected`** **processSerpBingLanguages**(`response`): `Promise`\<[`SerpBingLanguagesResponseInfo`](SerpBingLanguagesResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpBingLanguagesResponseInfo`](SerpBingLanguagesResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:3006
 
-___
+***
 
-### processSerpBingLocations
+### processSerpBingLocations()
 
-▸ **processSerpBingLocations**(`response`): `Promise`\<[`SerpBingLocationsResponseInfo`](SerpBingLocationsResponseInfo.md)\>
+> **`protected`** **processSerpBingLocations**(`response`): `Promise`\<[`SerpBingLocationsResponseInfo`](SerpBingLocationsResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpBingLocationsResponseInfo`](SerpBingLocationsResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:2924
 
-___
+***
 
-### processSerpBingLocationsCountry
+### processSerpBingLocationsCountry()
 
-▸ **processSerpBingLocationsCountry**(`response`): `Promise`\<[`SerpBingLocationsCountryResponseInfo`](SerpBingLocationsCountryResponseInfo.md)\>
+> **`protected`** **processSerpBingLocationsCountry**(`response`): `Promise`\<[`SerpBingLocationsCountryResponseInfo`](SerpBingLocationsCountryResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpBingLocationsCountryResponseInfo`](SerpBingLocationsCountryResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:2969
 
-___
+***
 
-### processSerpErrors
+### processSerpErrors()
 
-▸ **processSerpErrors**(`response`): `Promise`\<[`SerpErrorsResponseInfo`](SerpErrorsResponseInfo.md)\>
+> **`protected`** **processSerpErrors**(`response`): `Promise`\<[`SerpErrorsResponseInfo`](SerpErrorsResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpErrorsResponseInfo`](SerpErrorsResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:87
 
-___
+***
 
-### processSerpGoogleLanguages
+### processSerpGoogleLanguages()
 
-▸ **processSerpGoogleLanguages**(`response`): `Promise`\<[`SerpGoogleLanguagesResponseInfo`](SerpGoogleLanguagesResponseInfo.md)\>
+> **`protected`** **processSerpGoogleLanguages**(`response`): `Promise`\<[`SerpGoogleLanguagesResponseInfo`](SerpGoogleLanguagesResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleLanguagesResponseInfo`](SerpGoogleLanguagesResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:290
 
-___
+***
 
-### processSerpGoogleLocations
+### processSerpGoogleLocations()
 
-▸ **processSerpGoogleLocations**(`response`): `Promise`\<[`SerpGoogleLocationsResponseInfo`](SerpGoogleLocationsResponseInfo.md)\>
+> **`protected`** **processSerpGoogleLocations**(`response`): `Promise`\<[`SerpGoogleLocationsResponseInfo`](SerpGoogleLocationsResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleLocationsResponseInfo`](SerpGoogleLocationsResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:208
 
-___
+***
 
-### processSerpGoogleLocationsCountry
+### processSerpGoogleLocationsCountry()
 
-▸ **processSerpGoogleLocationsCountry**(`response`): `Promise`\<[`SerpGoogleLocationsCountryResponseInfo`](SerpGoogleLocationsCountryResponseInfo.md)\>
+> **`protected`** **processSerpGoogleLocationsCountry**(`response`): `Promise`\<[`SerpGoogleLocationsCountryResponseInfo`](SerpGoogleLocationsCountryResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpGoogleLocationsCountryResponseInfo`](SerpGoogleLocationsCountryResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:253
 
-___
+***
 
-### processSerpIdList
+### processSerpIdList()
 
-▸ **processSerpIdList**(`response`): `Promise`\<[`SerpIdListResponseInfo`](SerpIdListResponseInfo.md)\>
+> **`protected`** **processSerpIdList**(`response`): `Promise`\<[`SerpIdListResponseInfo`](SerpIdListResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpIdListResponseInfo`](SerpIdListResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:45
 
-___
+***
 
-### processSerpSeznamLanguages
+### processSerpSeznamLanguages()
 
-▸ **processSerpSeznamLanguages**(`response`): `Promise`\<[`SerpSeznamLanguagesResponseInfo`](SerpSeznamLanguagesResponseInfo.md)\>
+> **`protected`** **processSerpSeznamLanguages**(`response`): `Promise`\<[`SerpSeznamLanguagesResponseInfo`](SerpSeznamLanguagesResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpSeznamLanguagesResponseInfo`](SerpSeznamLanguagesResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:5603
 
-___
+***
 
-### processSerpSeznamLocations
+### processSerpSeznamLocations()
 
-▸ **processSerpSeznamLocations**(`response`): `Promise`\<[`SerpSeznamLocationsResponseInfo`](SerpSeznamLocationsResponseInfo.md)\>
+> **`protected`** **processSerpSeznamLocations**(`response`): `Promise`\<[`SerpSeznamLocationsResponseInfo`](SerpSeznamLocationsResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpSeznamLocationsResponseInfo`](SerpSeznamLocationsResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:5521
 
-___
+***
 
-### processSerpSeznamLocationsCountry
+### processSerpSeznamLocationsCountry()
 
-▸ **processSerpSeznamLocationsCountry**(`response`): `Promise`\<[`SerpSeznamLocationsCountryResponseInfo`](SerpSeznamLocationsCountryResponseInfo.md)\>
+> **`protected`** **processSerpSeznamLocationsCountry**(`response`): `Promise`\<[`SerpSeznamLocationsCountryResponseInfo`](SerpSeznamLocationsCountryResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpSeznamLocationsCountryResponseInfo`](SerpSeznamLocationsCountryResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:5566
 
-___
+***
 
-### processSerpYahooLanguages
+### processSerpYahooLanguages()
 
-▸ **processSerpYahooLanguages**(`response`): `Promise`\<[`SerpYahooLanguagesResponseInfo`](SerpYahooLanguagesResponseInfo.md)\>
+> **`protected`** **processSerpYahooLanguages**(`response`): `Promise`\<[`SerpYahooLanguagesResponseInfo`](SerpYahooLanguagesResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpYahooLanguagesResponseInfo`](SerpYahooLanguagesResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:4504
 
-___
+***
 
-### processSerpYahooLocations
+### processSerpYahooLocations()
 
-▸ **processSerpYahooLocations**(`response`): `Promise`\<[`SerpYahooLocationsResponseInfo`](SerpYahooLocationsResponseInfo.md)\>
+> **`protected`** **processSerpYahooLocations**(`response`): `Promise`\<[`SerpYahooLocationsResponseInfo`](SerpYahooLocationsResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpYahooLocationsResponseInfo`](SerpYahooLocationsResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:4422
 
-___
+***
 
-### processSerpYahooLocationsCountry
+### processSerpYahooLocationsCountry()
 
-▸ **processSerpYahooLocationsCountry**(`response`): `Promise`\<[`SerpYahooLocationsCountryResponseInfo`](SerpYahooLocationsCountryResponseInfo.md)\>
+> **`protected`** **processSerpYahooLocationsCountry**(`response`): `Promise`\<[`SerpYahooLocationsCountryResponseInfo`](SerpYahooLocationsCountryResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpYahooLocationsCountryResponseInfo`](SerpYahooLocationsCountryResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:4467
 
-___
+***
 
-### processSerpYoutubeLanguages
+### processSerpYoutubeLanguages()
 
-▸ **processSerpYoutubeLanguages**(`response`): `Promise`\<[`SerpYoutubeLanguagesResponseInfo`](SerpYoutubeLanguagesResponseInfo.md)\>
+> **`protected`** **processSerpYoutubeLanguages**(`response`): `Promise`\<[`SerpYoutubeLanguagesResponseInfo`](SerpYoutubeLanguagesResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpYoutubeLanguagesResponseInfo`](SerpYoutubeLanguagesResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:3782
 
-___
+***
 
-### processSerpYoutubeLocations
+### processSerpYoutubeLocations()
 
-▸ **processSerpYoutubeLocations**(`response`): `Promise`\<[`SerpYoutubeLocationsResponseInfo`](SerpYoutubeLocationsResponseInfo.md)\>
+> **`protected`** **processSerpYoutubeLocations**(`response`): `Promise`\<[`SerpYoutubeLocationsResponseInfo`](SerpYoutubeLocationsResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpYoutubeLocationsResponseInfo`](SerpYoutubeLocationsResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:3700
 
-___
+***
 
-### processSerpYoutubeLocationsCountry
+### processSerpYoutubeLocationsCountry()
 
-▸ **processSerpYoutubeLocationsCountry**(`response`): `Promise`\<[`SerpYoutubeLocationsCountryResponseInfo`](SerpYoutubeLocationsCountryResponseInfo.md)\>
+> **`protected`** **processSerpYoutubeLocationsCountry**(`response`): `Promise`\<[`SerpYoutubeLocationsCountryResponseInfo`](SerpYoutubeLocationsCountryResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpYoutubeLocationsCountryResponseInfo`](SerpYoutubeLocationsCountryResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:3745
 
-___
+***
 
-### processSeznamOrganicTaskGetAdvanced
+### processSeznamOrganicTaskGetAdvanced()
 
-▸ **processSeznamOrganicTaskGetAdvanced**(`response`): `Promise`\<[`SerpSeznamOrganicTaskGetAdvancedResponseInfo`](SerpSeznamOrganicTaskGetAdvancedResponseInfo.md)\>
+> **`protected`** **processSeznamOrganicTaskGetAdvanced**(`response`): `Promise`\<[`SerpSeznamOrganicTaskGetAdvancedResponseInfo`](SerpSeznamOrganicTaskGetAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpSeznamOrganicTaskGetAdvancedResponseInfo`](SerpSeznamOrganicTaskGetAdvancedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:5805
 
-___
+***
 
-### processSeznamOrganicTaskGetHtml
+### processSeznamOrganicTaskGetHtml()
 
-▸ **processSeznamOrganicTaskGetHtml**(`response`): `Promise`\<[`SerpSeznamOrganicTaskGetHtmlResponseInfo`](SerpSeznamOrganicTaskGetHtmlResponseInfo.md)\>
+> **`protected`** **processSeznamOrganicTaskGetHtml**(`response`): `Promise`\<[`SerpSeznamOrganicTaskGetHtmlResponseInfo`](SerpSeznamOrganicTaskGetHtmlResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpSeznamOrganicTaskGetHtmlResponseInfo`](SerpSeznamOrganicTaskGetHtmlResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:5848
 
-___
+***
 
-### processSeznamOrganicTaskGetRegular
+### processSeznamOrganicTaskGetRegular()
 
-▸ **processSeznamOrganicTaskGetRegular**(`response`): `Promise`\<[`SerpSeznamOrganicTaskGetRegularResponseInfo`](SerpSeznamOrganicTaskGetRegularResponseInfo.md)\>
+> **`protected`** **processSeznamOrganicTaskGetRegular**(`response`): `Promise`\<[`SerpSeznamOrganicTaskGetRegularResponseInfo`](SerpSeznamOrganicTaskGetRegularResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpSeznamOrganicTaskGetRegularResponseInfo`](SerpSeznamOrganicTaskGetRegularResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:5762
 
-___
+***
 
-### processSeznamOrganicTaskPost
+### processSeznamOrganicTaskPost()
 
-▸ **processSeznamOrganicTaskPost**(`response`): `Promise`\<[`SerpSeznamOrganicTaskPostResponseInfo`](SerpSeznamOrganicTaskPostResponseInfo.md)\>
+> **`protected`** **processSeznamOrganicTaskPost**(`response`): `Promise`\<[`SerpSeznamOrganicTaskPostResponseInfo`](SerpSeznamOrganicTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpSeznamOrganicTaskPostResponseInfo`](SerpSeznamOrganicTaskPostResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:5645
 
-___
+***
 
-### processSeznamOrganicTasksFixed
+### processSeznamOrganicTasksFixed()
 
-▸ **processSeznamOrganicTasksFixed**(`response`): `Promise`\<[`SerpSeznamOrganicTasksFixedResponseInfo`](SerpSeznamOrganicTasksFixedResponseInfo.md)\>
+> **`protected`** **processSeznamOrganicTasksFixed**(`response`): `Promise`\<[`SerpSeznamOrganicTasksFixedResponseInfo`](SerpSeznamOrganicTasksFixedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpSeznamOrganicTasksFixedResponseInfo`](SerpSeznamOrganicTasksFixedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:5719
 
-___
+***
 
-### processSeznamOrganicTasksReady
+### processSeznamOrganicTasksReady()
 
-▸ **processSeznamOrganicTasksReady**(`response`): `Promise`\<[`SerpSeznamOrganicTasksReadyResponseInfo`](SerpSeznamOrganicTasksReadyResponseInfo.md)\>
+> **`protected`** **processSeznamOrganicTasksReady**(`response`): `Promise`\<[`SerpSeznamOrganicTasksReadyResponseInfo`](SerpSeznamOrganicTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpSeznamOrganicTasksReadyResponseInfo`](SerpSeznamOrganicTasksReadyResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:5682
 
-___
+***
 
-### processYahooOrganicLiveAdvanced
+### processYahooOrganicLiveAdvanced()
 
-▸ **processYahooOrganicLiveAdvanced**(`response`): `Promise`\<[`SerpYahooOrganicLiveAdvancedResponseInfo`](SerpYahooOrganicLiveAdvancedResponseInfo.md)\>
+> **`protected`** **processYahooOrganicLiveAdvanced**(`response`): `Promise`\<[`SerpYahooOrganicLiveAdvancedResponseInfo`](SerpYahooOrganicLiveAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpYahooOrganicLiveAdvancedResponseInfo`](SerpYahooOrganicLiveAdvancedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:4833
 
-___
+***
 
-### processYahooOrganicLiveHtml
+### processYahooOrganicLiveHtml()
 
-▸ **processYahooOrganicLiveHtml**(`response`): `Promise`\<[`SerpYahooOrganicLiveHtmlResponseInfo`](SerpYahooOrganicLiveHtmlResponseInfo.md)\>
+> **`protected`** **processYahooOrganicLiveHtml**(`response`): `Promise`\<[`SerpYahooOrganicLiveHtmlResponseInfo`](SerpYahooOrganicLiveHtmlResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpYahooOrganicLiveHtmlResponseInfo`](SerpYahooOrganicLiveHtmlResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:4875
 
-___
+***
 
-### processYahooOrganicLiveRegular
+### processYahooOrganicLiveRegular()
 
-▸ **processYahooOrganicLiveRegular**(`response`): `Promise`\<[`SerpYahooOrganicLiveRegularResponseInfo`](SerpYahooOrganicLiveRegularResponseInfo.md)\>
+> **`protected`** **processYahooOrganicLiveRegular**(`response`): `Promise`\<[`SerpYahooOrganicLiveRegularResponseInfo`](SerpYahooOrganicLiveRegularResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpYahooOrganicLiveRegularResponseInfo`](SerpYahooOrganicLiveRegularResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:4791
 
-___
+***
 
-### processYahooOrganicTaskGetAdvanced
+### processYahooOrganicTaskGetAdvanced()
 
-▸ **processYahooOrganicTaskGetAdvanced**(`response`): `Promise`\<[`SerpYahooOrganicTaskGetAdvancedResponseInfo`](SerpYahooOrganicTaskGetAdvancedResponseInfo.md)\>
+> **`protected`** **processYahooOrganicTaskGetAdvanced**(`response`): `Promise`\<[`SerpYahooOrganicTaskGetAdvancedResponseInfo`](SerpYahooOrganicTaskGetAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpYahooOrganicTaskGetAdvancedResponseInfo`](SerpYahooOrganicTaskGetAdvancedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:4706
 
-___
+***
 
-### processYahooOrganicTaskGetHtml
+### processYahooOrganicTaskGetHtml()
 
-▸ **processYahooOrganicTaskGetHtml**(`response`): `Promise`\<[`SerpYahooOrganicTaskGetHtmlResponseInfo`](SerpYahooOrganicTaskGetHtmlResponseInfo.md)\>
+> **`protected`** **processYahooOrganicTaskGetHtml**(`response`): `Promise`\<[`SerpYahooOrganicTaskGetHtmlResponseInfo`](SerpYahooOrganicTaskGetHtmlResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpYahooOrganicTaskGetHtmlResponseInfo`](SerpYahooOrganicTaskGetHtmlResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:4749
 
-___
+***
 
-### processYahooOrganicTaskGetRegular
+### processYahooOrganicTaskGetRegular()
 
-▸ **processYahooOrganicTaskGetRegular**(`response`): `Promise`\<[`SerpYahooOrganicTaskGetRegularResponseInfo`](SerpYahooOrganicTaskGetRegularResponseInfo.md)\>
+> **`protected`** **processYahooOrganicTaskGetRegular**(`response`): `Promise`\<[`SerpYahooOrganicTaskGetRegularResponseInfo`](SerpYahooOrganicTaskGetRegularResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpYahooOrganicTaskGetRegularResponseInfo`](SerpYahooOrganicTaskGetRegularResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:4663
 
-___
+***
 
-### processYahooOrganicTaskPost
+### processYahooOrganicTaskPost()
 
-▸ **processYahooOrganicTaskPost**(`response`): `Promise`\<[`SerpYahooOrganicTaskPostResponseInfo`](SerpYahooOrganicTaskPostResponseInfo.md)\>
+> **`protected`** **processYahooOrganicTaskPost**(`response`): `Promise`\<[`SerpYahooOrganicTaskPostResponseInfo`](SerpYahooOrganicTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpYahooOrganicTaskPostResponseInfo`](SerpYahooOrganicTaskPostResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:4546
 
-___
+***
 
-### processYahooOrganicTasksFixed
+### processYahooOrganicTasksFixed()
 
-▸ **processYahooOrganicTasksFixed**(`response`): `Promise`\<[`SerpYahooOrganicTasksFixedResponseInfo`](SerpYahooOrganicTasksFixedResponseInfo.md)\>
+> **`protected`** **processYahooOrganicTasksFixed**(`response`): `Promise`\<[`SerpYahooOrganicTasksFixedResponseInfo`](SerpYahooOrganicTasksFixedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpYahooOrganicTasksFixedResponseInfo`](SerpYahooOrganicTasksFixedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:4620
 
-___
+***
 
-### processYahooOrganicTasksReady
+### processYahooOrganicTasksReady()
 
-▸ **processYahooOrganicTasksReady**(`response`): `Promise`\<[`SerpYahooOrganicTasksReadyResponseInfo`](SerpYahooOrganicTasksReadyResponseInfo.md)\>
+> **`protected`** **processYahooOrganicTasksReady**(`response`): `Promise`\<[`SerpYahooOrganicTasksReadyResponseInfo`](SerpYahooOrganicTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpYahooOrganicTasksReadyResponseInfo`](SerpYahooOrganicTasksReadyResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:4583
 
-___
+***
 
-### processYoutubeVideoCommentsLiveAdvanced
+### processYoutubeVideoCommentsLiveAdvanced()
 
-▸ **processYoutubeVideoCommentsLiveAdvanced**(`response`): `Promise`\<[`SerpYoutubeVideoCommentsLiveAdvancedResponseInfo`](SerpYoutubeVideoCommentsLiveAdvancedResponseInfo.md)\>
+> **`protected`** **processYoutubeVideoCommentsLiveAdvanced**(`response`): `Promise`\<[`SerpYoutubeVideoCommentsLiveAdvancedResponseInfo`](SerpYoutubeVideoCommentsLiveAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpYoutubeVideoCommentsLiveAdvancedResponseInfo`](SerpYoutubeVideoCommentsLiveAdvancedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:4385
 
-___
+***
 
-### processYoutubeVideoCommentsTaskGetAdvanced
+### processYoutubeVideoCommentsTaskGetAdvanced()
 
-▸ **processYoutubeVideoCommentsTaskGetAdvanced**(`response`): `Promise`\<[`SerpYoutubeVideoCommentsTaskGetAdvancedResponseInfo`](SerpYoutubeVideoCommentsTaskGetAdvancedResponseInfo.md)\>
+> **`protected`** **processYoutubeVideoCommentsTaskGetAdvanced**(`response`): `Promise`\<[`SerpYoutubeVideoCommentsTaskGetAdvancedResponseInfo`](SerpYoutubeVideoCommentsTaskGetAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpYoutubeVideoCommentsTaskGetAdvancedResponseInfo`](SerpYoutubeVideoCommentsTaskGetAdvancedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:4343
 
-___
+***
 
-### processYoutubeVideoCommentsTaskPost
+### processYoutubeVideoCommentsTaskPost()
 
-▸ **processYoutubeVideoCommentsTaskPost**(`response`): `Promise`\<[`SerpYoutubeVideoCommentsTaskPostResponseInfo`](SerpYoutubeVideoCommentsTaskPostResponseInfo.md)\>
+> **`protected`** **processYoutubeVideoCommentsTaskPost**(`response`): `Promise`\<[`SerpYoutubeVideoCommentsTaskPostResponseInfo`](SerpYoutubeVideoCommentsTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpYoutubeVideoCommentsTaskPostResponseInfo`](SerpYoutubeVideoCommentsTaskPostResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:4226
 
-___
+***
 
-### processYoutubeVideoCommentsTasksFixed
+### processYoutubeVideoCommentsTasksFixed()
 
-▸ **processYoutubeVideoCommentsTasksFixed**(`response`): `Promise`\<[`SerpYoutubeVideoCommentsTasksFixedResponseInfo`](SerpYoutubeVideoCommentsTasksFixedResponseInfo.md)\>
+> **`protected`** **processYoutubeVideoCommentsTasksFixed**(`response`): `Promise`\<[`SerpYoutubeVideoCommentsTasksFixedResponseInfo`](SerpYoutubeVideoCommentsTasksFixedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpYoutubeVideoCommentsTasksFixedResponseInfo`](SerpYoutubeVideoCommentsTasksFixedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:4300
 
-___
+***
 
-### processYoutubeVideoCommentsTasksReady
+### processYoutubeVideoCommentsTasksReady()
 
-▸ **processYoutubeVideoCommentsTasksReady**(`response`): `Promise`\<[`SerpYoutubeVideoCommentsTasksReadyResponseInfo`](SerpYoutubeVideoCommentsTasksReadyResponseInfo.md)\>
+> **`protected`** **processYoutubeVideoCommentsTasksReady**(`response`): `Promise`\<[`SerpYoutubeVideoCommentsTasksReadyResponseInfo`](SerpYoutubeVideoCommentsTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpYoutubeVideoCommentsTasksReadyResponseInfo`](SerpYoutubeVideoCommentsTasksReadyResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:4263
 
-___
+***
 
-### processYoutubeVideoInfoLiveAdvanced
+### processYoutubeVideoInfoLiveAdvanced()
 
-▸ **processYoutubeVideoInfoLiveAdvanced**(`response`): `Promise`\<[`SerpYoutubeVideoInfoLiveAdvancedResponseInfo`](SerpYoutubeVideoInfoLiveAdvancedResponseInfo.md)\>
+> **`protected`** **processYoutubeVideoInfoLiveAdvanced**(`response`): `Promise`\<[`SerpYoutubeVideoInfoLiveAdvancedResponseInfo`](SerpYoutubeVideoInfoLiveAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpYoutubeVideoInfoLiveAdvancedResponseInfo`](SerpYoutubeVideoInfoLiveAdvancedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:3983
 
-___
+***
 
-### processYoutubeVideoInfoTaskGetAdvanced
+### processYoutubeVideoInfoTaskGetAdvanced()
 
-▸ **processYoutubeVideoInfoTaskGetAdvanced**(`response`): `Promise`\<[`SerpYoutubeVideoInfoTaskGetAdvancedResponseInfo`](SerpYoutubeVideoInfoTaskGetAdvancedResponseInfo.md)\>
+> **`protected`** **processYoutubeVideoInfoTaskGetAdvanced**(`response`): `Promise`\<[`SerpYoutubeVideoInfoTaskGetAdvancedResponseInfo`](SerpYoutubeVideoInfoTaskGetAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpYoutubeVideoInfoTaskGetAdvancedResponseInfo`](SerpYoutubeVideoInfoTaskGetAdvancedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:3941
 
-___
+***
 
-### processYoutubeVideoInfoTaskPost
+### processYoutubeVideoInfoTaskPost()
 
-▸ **processYoutubeVideoInfoTaskPost**(`response`): `Promise`\<[`SerpYoutubeVideoInfoTaskPostResponseInfo`](SerpYoutubeVideoInfoTaskPostResponseInfo.md)\>
+> **`protected`** **processYoutubeVideoInfoTaskPost**(`response`): `Promise`\<[`SerpYoutubeVideoInfoTaskPostResponseInfo`](SerpYoutubeVideoInfoTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpYoutubeVideoInfoTaskPostResponseInfo`](SerpYoutubeVideoInfoTaskPostResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:3824
 
-___
+***
 
-### processYoutubeVideoInfoTasksFixed
+### processYoutubeVideoInfoTasksFixed()
 
-▸ **processYoutubeVideoInfoTasksFixed**(`response`): `Promise`\<[`SerpYoutubeVideoInfoTasksFixedResponseInfo`](SerpYoutubeVideoInfoTasksFixedResponseInfo.md)\>
+> **`protected`** **processYoutubeVideoInfoTasksFixed**(`response`): `Promise`\<[`SerpYoutubeVideoInfoTasksFixedResponseInfo`](SerpYoutubeVideoInfoTasksFixedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpYoutubeVideoInfoTasksFixedResponseInfo`](SerpYoutubeVideoInfoTasksFixedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:3898
 
-___
+***
 
-### processYoutubeVideoInfoTasksReady
+### processYoutubeVideoInfoTasksReady()
 
-▸ **processYoutubeVideoInfoTasksReady**(`response`): `Promise`\<[`SerpYoutubeVideoInfoTasksReadyResponseInfo`](SerpYoutubeVideoInfoTasksReadyResponseInfo.md)\>
+> **`protected`** **processYoutubeVideoInfoTasksReady**(`response`): `Promise`\<[`SerpYoutubeVideoInfoTasksReadyResponseInfo`](SerpYoutubeVideoInfoTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpYoutubeVideoInfoTasksReadyResponseInfo`](SerpYoutubeVideoInfoTasksReadyResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:3861
 
-___
+***
 
-### processYoutubeVideoSubtitlesLiveAdvanced
+### processYoutubeVideoSubtitlesLiveAdvanced()
 
-▸ **processYoutubeVideoSubtitlesLiveAdvanced**(`response`): `Promise`\<[`SerpYoutubeVideoSubtitlesLiveAdvancedResponseInfo`](SerpYoutubeVideoSubtitlesLiveAdvancedResponseInfo.md)\>
+> **`protected`** **processYoutubeVideoSubtitlesLiveAdvanced**(`response`): `Promise`\<[`SerpYoutubeVideoSubtitlesLiveAdvancedResponseInfo`](SerpYoutubeVideoSubtitlesLiveAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpYoutubeVideoSubtitlesLiveAdvancedResponseInfo`](SerpYoutubeVideoSubtitlesLiveAdvancedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:4184
 
-___
+***
 
-### processYoutubeVideoSubtitlesTaskGetAdvanced
+### processYoutubeVideoSubtitlesTaskGetAdvanced()
 
-▸ **processYoutubeVideoSubtitlesTaskGetAdvanced**(`response`): `Promise`\<[`SerpYoutubeVideoSubtitlesTaskGetAdvancedResponseInfo`](SerpYoutubeVideoSubtitlesTaskGetAdvancedResponseInfo.md)\>
+> **`protected`** **processYoutubeVideoSubtitlesTaskGetAdvanced**(`response`): `Promise`\<[`SerpYoutubeVideoSubtitlesTaskGetAdvancedResponseInfo`](SerpYoutubeVideoSubtitlesTaskGetAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpYoutubeVideoSubtitlesTaskGetAdvancedResponseInfo`](SerpYoutubeVideoSubtitlesTaskGetAdvancedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:4142
 
-___
+***
 
-### processYoutubeVideoSubtitlesTaskPost
+### processYoutubeVideoSubtitlesTaskPost()
 
-▸ **processYoutubeVideoSubtitlesTaskPost**(`response`): `Promise`\<[`SerpYoutubeVideoSubtitlesTaskPostResponseInfo`](SerpYoutubeVideoSubtitlesTaskPostResponseInfo.md)\>
+> **`protected`** **processYoutubeVideoSubtitlesTaskPost**(`response`): `Promise`\<[`SerpYoutubeVideoSubtitlesTaskPostResponseInfo`](SerpYoutubeVideoSubtitlesTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpYoutubeVideoSubtitlesTaskPostResponseInfo`](SerpYoutubeVideoSubtitlesTaskPostResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:4025
 
-___
+***
 
-### processYoutubeVideoSubtitlesTasksFixed
+### processYoutubeVideoSubtitlesTasksFixed()
 
-▸ **processYoutubeVideoSubtitlesTasksFixed**(`response`): `Promise`\<[`SerpYoutubeVideoSubtitlesTasksFixedResponseInfo`](SerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md)\>
+> **`protected`** **processYoutubeVideoSubtitlesTasksFixed**(`response`): `Promise`\<[`SerpYoutubeVideoSubtitlesTasksFixedResponseInfo`](SerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpYoutubeVideoSubtitlesTasksFixedResponseInfo`](SerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:4099
 
-___
+***
 
-### processYoutubeVideoSubtitlesTasksReady
+### processYoutubeVideoSubtitlesTasksReady()
 
-▸ **processYoutubeVideoSubtitlesTasksReady**(`response`): `Promise`\<[`SerpYoutubeVideoSubtitlesTasksReadyResponseInfo`](SerpYoutubeVideoSubtitlesTasksReadyResponseInfo.md)\>
+> **`protected`** **processYoutubeVideoSubtitlesTasksReady**(`response`): `Promise`\<[`SerpYoutubeVideoSubtitlesTasksReadyResponseInfo`](SerpYoutubeVideoSubtitlesTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `response` | `Response` |
+• **response**: `Response`
 
 #### Returns
 
 `Promise`\<[`SerpYoutubeVideoSubtitlesTasksReadyResponseInfo`](SerpYoutubeVideoSubtitlesTasksReadyResponseInfo.md)\>
 
-#### Defined in
+#### Source
 
 main.ts:4062
 
-___
+***
 
-### screenshot
+### screenshot()
 
-▸ **screenshot**(`body`): `Promise`\<[`SerpScreenshotResponseInfo`](SerpScreenshotResponseInfo.md)\>
+> **screenshot**(`body`): `Promise`\<[`SerpScreenshotResponseInfo`](SerpScreenshotResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpScreenshotRequestInfo`](SerpScreenshotRequestInfo.md)[] | (optional) |
+• **body**: [`SerpScreenshotRequestInfo`](SerpScreenshotRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -5142,15 +4614,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:109
 
-___
+***
 
-### serpBaiduLanguages
+### serpBaiduLanguages()
 
-▸ **serpBaiduLanguages**(): `Promise`\<[`SerpBaiduLanguagesResponseInfo`](SerpBaiduLanguagesResponseInfo.md)\>
+> **serpBaiduLanguages**(): `Promise`\<[`SerpBaiduLanguagesResponseInfo`](SerpBaiduLanguagesResponseInfo.md)\>
 
 #### Returns
 
@@ -5158,15 +4630,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:4978
 
-___
+***
 
-### serpBaiduLocations
+### serpBaiduLocations()
 
-▸ **serpBaiduLocations**(): `Promise`\<[`SerpBaiduLocationsResponseInfo`](SerpBaiduLocationsResponseInfo.md)\>
+> **serpBaiduLocations**(): `Promise`\<[`SerpBaiduLocationsResponseInfo`](SerpBaiduLocationsResponseInfo.md)\>
 
 #### Returns
 
@@ -5174,21 +4646,25 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:4896
 
-___
+***
 
-### serpBaiduLocationsCountry
+### serpBaiduLocationsCountry()
 
-▸ **serpBaiduLocationsCountry**(`country`): `Promise`\<[`SerpBaiduLocationsCountryResponseInfo`](SerpBaiduLocationsCountryResponseInfo.md)\>
+> **serpBaiduLocationsCountry**(`country`): `Promise`\<[`SerpBaiduLocationsCountryResponseInfo`](SerpBaiduLocationsCountryResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `country` | `string` | country ISO code optional field specify the ISO code if you want to filter the list of locations by country example: us |
+• **country**: `string`
+
+country ISO code
+optional field
+specify the ISO code if you want to filter the list of locations by country
+example:
+us
 
 #### Returns
 
@@ -5196,15 +4672,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:4938
 
-___
+***
 
-### serpBingLanguages
+### serpBingLanguages()
 
-▸ **serpBingLanguages**(): `Promise`\<[`SerpBingLanguagesResponseInfo`](SerpBingLanguagesResponseInfo.md)\>
+> **serpBingLanguages**(): `Promise`\<[`SerpBingLanguagesResponseInfo`](SerpBingLanguagesResponseInfo.md)\>
 
 #### Returns
 
@@ -5212,15 +4688,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:2990
 
-___
+***
 
-### serpBingLocations
+### serpBingLocations()
 
-▸ **serpBingLocations**(): `Promise`\<[`SerpBingLocationsResponseInfo`](SerpBingLocationsResponseInfo.md)\>
+> **serpBingLocations**(): `Promise`\<[`SerpBingLocationsResponseInfo`](SerpBingLocationsResponseInfo.md)\>
 
 #### Returns
 
@@ -5228,21 +4704,25 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:2908
 
-___
+***
 
-### serpBingLocationsCountry
+### serpBingLocationsCountry()
 
-▸ **serpBingLocationsCountry**(`country`): `Promise`\<[`SerpBingLocationsCountryResponseInfo`](SerpBingLocationsCountryResponseInfo.md)\>
+> **serpBingLocationsCountry**(`country`): `Promise`\<[`SerpBingLocationsCountryResponseInfo`](SerpBingLocationsCountryResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `country` | `string` | country ISO code optional field specify the ISO code if you want to filter the list of locations by country example: us |
+• **country**: `string`
+
+country ISO code
+optional field
+specify the ISO code if you want to filter the list of locations by country
+example:
+us
 
 #### Returns
 
@@ -5250,21 +4730,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:2950
 
-___
+***
 
-### serpErrors
+### serpErrors()
 
-▸ **serpErrors**(`body`): `Promise`\<[`SerpErrorsResponseInfo`](SerpErrorsResponseInfo.md)\>
+> **serpErrors**(`body`): `Promise`\<[`SerpErrorsResponseInfo`](SerpErrorsResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpErrorsRequestInfo`](SerpErrorsRequestInfo.md)[] | (optional) |
+• **body**: [`SerpErrorsRequestInfo`](SerpErrorsRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -5272,15 +4752,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:67
 
-___
+***
 
-### serpGoogleLanguages
+### serpGoogleLanguages()
 
-▸ **serpGoogleLanguages**(): `Promise`\<[`SerpGoogleLanguagesResponseInfo`](SerpGoogleLanguagesResponseInfo.md)\>
+> **serpGoogleLanguages**(): `Promise`\<[`SerpGoogleLanguagesResponseInfo`](SerpGoogleLanguagesResponseInfo.md)\>
 
 #### Returns
 
@@ -5288,15 +4768,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:274
 
-___
+***
 
-### serpGoogleLocations
+### serpGoogleLocations()
 
-▸ **serpGoogleLocations**(): `Promise`\<[`SerpGoogleLocationsResponseInfo`](SerpGoogleLocationsResponseInfo.md)\>
+> **serpGoogleLocations**(): `Promise`\<[`SerpGoogleLocationsResponseInfo`](SerpGoogleLocationsResponseInfo.md)\>
 
 #### Returns
 
@@ -5304,21 +4784,25 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:192
 
-___
+***
 
-### serpGoogleLocationsCountry
+### serpGoogleLocationsCountry()
 
-▸ **serpGoogleLocationsCountry**(`country`): `Promise`\<[`SerpGoogleLocationsCountryResponseInfo`](SerpGoogleLocationsCountryResponseInfo.md)\>
+> **serpGoogleLocationsCountry**(`country`): `Promise`\<[`SerpGoogleLocationsCountryResponseInfo`](SerpGoogleLocationsCountryResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `country` | `string` | country ISO code optional field specify the ISO code if you want to filter the list of locations by country example: us |
+• **country**: `string`
+
+country ISO code
+optional field
+specify the ISO code if you want to filter the list of locations by country
+example:
+us
 
 #### Returns
 
@@ -5326,21 +4810,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:234
 
-___
+***
 
-### serpIdList
+### serpIdList()
 
-▸ **serpIdList**(`body`): `Promise`\<[`SerpIdListResponseInfo`](SerpIdListResponseInfo.md)\>
+> **serpIdList**(`body`): `Promise`\<[`SerpIdListResponseInfo`](SerpIdListResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpIdListRequestInfo`](SerpIdListRequestInfo.md)[] | (optional) |
+• **body**: [`SerpIdListRequestInfo`](SerpIdListRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -5348,15 +4832,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:25
 
-___
+***
 
-### serpSeznamLanguages
+### serpSeznamLanguages()
 
-▸ **serpSeznamLanguages**(): `Promise`\<[`SerpSeznamLanguagesResponseInfo`](SerpSeznamLanguagesResponseInfo.md)\>
+> **serpSeznamLanguages**(): `Promise`\<[`SerpSeznamLanguagesResponseInfo`](SerpSeznamLanguagesResponseInfo.md)\>
 
 #### Returns
 
@@ -5364,15 +4848,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:5587
 
-___
+***
 
-### serpSeznamLocations
+### serpSeznamLocations()
 
-▸ **serpSeznamLocations**(): `Promise`\<[`SerpSeznamLocationsResponseInfo`](SerpSeznamLocationsResponseInfo.md)\>
+> **serpSeznamLocations**(): `Promise`\<[`SerpSeznamLocationsResponseInfo`](SerpSeznamLocationsResponseInfo.md)\>
 
 #### Returns
 
@@ -5380,21 +4864,25 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:5505
 
-___
+***
 
-### serpSeznamLocationsCountry
+### serpSeznamLocationsCountry()
 
-▸ **serpSeznamLocationsCountry**(`country`): `Promise`\<[`SerpSeznamLocationsCountryResponseInfo`](SerpSeznamLocationsCountryResponseInfo.md)\>
+> **serpSeznamLocationsCountry**(`country`): `Promise`\<[`SerpSeznamLocationsCountryResponseInfo`](SerpSeznamLocationsCountryResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `country` | `string` | country ISO code optional field specify the ISO code if you want to filter the list of locations by country example: us |
+• **country**: `string`
+
+country ISO code
+optional field
+specify the ISO code if you want to filter the list of locations by country
+example:
+us
 
 #### Returns
 
@@ -5402,15 +4890,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:5547
 
-___
+***
 
-### serpYahooLanguages
+### serpYahooLanguages()
 
-▸ **serpYahooLanguages**(): `Promise`\<[`SerpYahooLanguagesResponseInfo`](SerpYahooLanguagesResponseInfo.md)\>
+> **serpYahooLanguages**(): `Promise`\<[`SerpYahooLanguagesResponseInfo`](SerpYahooLanguagesResponseInfo.md)\>
 
 #### Returns
 
@@ -5418,15 +4906,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:4488
 
-___
+***
 
-### serpYahooLocations
+### serpYahooLocations()
 
-▸ **serpYahooLocations**(): `Promise`\<[`SerpYahooLocationsResponseInfo`](SerpYahooLocationsResponseInfo.md)\>
+> **serpYahooLocations**(): `Promise`\<[`SerpYahooLocationsResponseInfo`](SerpYahooLocationsResponseInfo.md)\>
 
 #### Returns
 
@@ -5434,21 +4922,25 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:4406
 
-___
+***
 
-### serpYahooLocationsCountry
+### serpYahooLocationsCountry()
 
-▸ **serpYahooLocationsCountry**(`country`): `Promise`\<[`SerpYahooLocationsCountryResponseInfo`](SerpYahooLocationsCountryResponseInfo.md)\>
+> **serpYahooLocationsCountry**(`country`): `Promise`\<[`SerpYahooLocationsCountryResponseInfo`](SerpYahooLocationsCountryResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `country` | `string` | country ISO code optional field specify the ISO code if you want to filter the list of locations by country example: us |
+• **country**: `string`
+
+country ISO code
+optional field
+specify the ISO code if you want to filter the list of locations by country
+example:
+us
 
 #### Returns
 
@@ -5456,15 +4948,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:4448
 
-___
+***
 
-### serpYoutubeLanguages
+### serpYoutubeLanguages()
 
-▸ **serpYoutubeLanguages**(): `Promise`\<[`SerpYoutubeLanguagesResponseInfo`](SerpYoutubeLanguagesResponseInfo.md)\>
+> **serpYoutubeLanguages**(): `Promise`\<[`SerpYoutubeLanguagesResponseInfo`](SerpYoutubeLanguagesResponseInfo.md)\>
 
 #### Returns
 
@@ -5472,15 +4964,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:3766
 
-___
+***
 
-### serpYoutubeLocations
+### serpYoutubeLocations()
 
-▸ **serpYoutubeLocations**(): `Promise`\<[`SerpYoutubeLocationsResponseInfo`](SerpYoutubeLocationsResponseInfo.md)\>
+> **serpYoutubeLocations**(): `Promise`\<[`SerpYoutubeLocationsResponseInfo`](SerpYoutubeLocationsResponseInfo.md)\>
 
 #### Returns
 
@@ -5488,21 +4980,25 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:3684
 
-___
+***
 
-### serpYoutubeLocationsCountry
+### serpYoutubeLocationsCountry()
 
-▸ **serpYoutubeLocationsCountry**(`country`): `Promise`\<[`SerpYoutubeLocationsCountryResponseInfo`](SerpYoutubeLocationsCountryResponseInfo.md)\>
+> **serpYoutubeLocationsCountry**(`country`): `Promise`\<[`SerpYoutubeLocationsCountryResponseInfo`](SerpYoutubeLocationsCountryResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `country` | `string` | country ISO code optional field specify the ISO code if you want to filter the list of locations by country example: us |
+• **country**: `string`
+
+country ISO code
+optional field
+specify the ISO code if you want to filter the list of locations by country
+example:
+us
 
 #### Returns
 
@@ -5510,21 +5006,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:3726
 
-___
+***
 
-### seznamOrganicTaskGetAdvanced
+### seznamOrganicTaskGetAdvanced()
 
-▸ **seznamOrganicTaskGetAdvanced**(`id`): `Promise`\<[`SerpSeznamOrganicTaskGetAdvancedResponseInfo`](SerpSeznamOrganicTaskGetAdvancedResponseInfo.md)\>
+> **seznamOrganicTaskGetAdvanced**(`id`): `Promise`\<[`SerpSeznamOrganicTaskGetAdvancedResponseInfo`](SerpSeznamOrganicTaskGetAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -5532,21 +5030,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:5786
 
-___
+***
 
-### seznamOrganicTaskGetHtml
+### seznamOrganicTaskGetHtml()
 
-▸ **seznamOrganicTaskGetHtml**(`id`): `Promise`\<[`SerpSeznamOrganicTaskGetHtmlResponseInfo`](SerpSeznamOrganicTaskGetHtmlResponseInfo.md)\>
+> **seznamOrganicTaskGetHtml**(`id`): `Promise`\<[`SerpSeznamOrganicTaskGetHtmlResponseInfo`](SerpSeznamOrganicTaskGetHtmlResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 7 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 7 days to request the results of the task at any time
 
 #### Returns
 
@@ -5554,21 +5054,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:5829
 
-___
+***
 
-### seznamOrganicTaskGetRegular
+### seznamOrganicTaskGetRegular()
 
-▸ **seznamOrganicTaskGetRegular**(`id`): `Promise`\<[`SerpSeznamOrganicTaskGetRegularResponseInfo`](SerpSeznamOrganicTaskGetRegularResponseInfo.md)\>
+> **seznamOrganicTaskGetRegular**(`id`): `Promise`\<[`SerpSeznamOrganicTaskGetRegularResponseInfo`](SerpSeznamOrganicTaskGetRegularResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -5576,21 +5078,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:5743
 
-___
+***
 
-### seznamOrganicTaskPost
+### seznamOrganicTaskPost()
 
-▸ **seznamOrganicTaskPost**(`body`): `Promise`\<[`SerpSeznamOrganicTaskPostResponseInfo`](SerpSeznamOrganicTaskPostResponseInfo.md)\>
+> **seznamOrganicTaskPost**(`body`): `Promise`\<[`SerpSeznamOrganicTaskPostResponseInfo`](SerpSeznamOrganicTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[] | (optional) |
+• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -5598,15 +5100,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:5625
 
-___
+***
 
-### seznamOrganicTasksFixed
+### seznamOrganicTasksFixed()
 
-▸ **seznamOrganicTasksFixed**(): `Promise`\<[`SerpSeznamOrganicTasksFixedResponseInfo`](SerpSeznamOrganicTasksFixedResponseInfo.md)\>
+> **seznamOrganicTasksFixed**(): `Promise`\<[`SerpSeznamOrganicTasksFixedResponseInfo`](SerpSeznamOrganicTasksFixedResponseInfo.md)\>
 
 #### Returns
 
@@ -5614,15 +5116,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:5703
 
-___
+***
 
-### seznamOrganicTasksReady
+### seznamOrganicTasksReady()
 
-▸ **seznamOrganicTasksReady**(): `Promise`\<[`SerpSeznamOrganicTasksReadyResponseInfo`](SerpSeznamOrganicTasksReadyResponseInfo.md)\>
+> **seznamOrganicTasksReady**(): `Promise`\<[`SerpSeznamOrganicTasksReadyResponseInfo`](SerpSeznamOrganicTasksReadyResponseInfo.md)\>
 
 #### Returns
 
@@ -5630,21 +5132,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:5666
 
-___
+***
 
-### yahooOrganicLiveAdvanced
+### yahooOrganicLiveAdvanced()
 
-▸ **yahooOrganicLiveAdvanced**(`body`): `Promise`\<[`SerpYahooOrganicLiveAdvancedResponseInfo`](SerpYahooOrganicLiveAdvancedResponseInfo.md)\>
+> **yahooOrganicLiveAdvanced**(`body`): `Promise`\<[`SerpYahooOrganicLiveAdvancedResponseInfo`](SerpYahooOrganicLiveAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[] | (optional) |
+• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -5652,21 +5154,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:4813
 
-___
+***
 
-### yahooOrganicLiveHtml
+### yahooOrganicLiveHtml()
 
-▸ **yahooOrganicLiveHtml**(`body`): `Promise`\<[`SerpYahooOrganicLiveHtmlResponseInfo`](SerpYahooOrganicLiveHtmlResponseInfo.md)\>
+> **yahooOrganicLiveHtml**(`body`): `Promise`\<[`SerpYahooOrganicLiveHtmlResponseInfo`](SerpYahooOrganicLiveHtmlResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[] | (optional) |
+• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -5674,21 +5176,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:4855
 
-___
+***
 
-### yahooOrganicLiveRegular
+### yahooOrganicLiveRegular()
 
-▸ **yahooOrganicLiveRegular**(`body`): `Promise`\<[`SerpYahooOrganicLiveRegularResponseInfo`](SerpYahooOrganicLiveRegularResponseInfo.md)\>
+> **yahooOrganicLiveRegular**(`body`): `Promise`\<[`SerpYahooOrganicLiveRegularResponseInfo`](SerpYahooOrganicLiveRegularResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[] | (optional) |
+• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -5696,21 +5198,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:4771
 
-___
+***
 
-### yahooOrganicTaskGetAdvanced
+### yahooOrganicTaskGetAdvanced()
 
-▸ **yahooOrganicTaskGetAdvanced**(`id`): `Promise`\<[`SerpYahooOrganicTaskGetAdvancedResponseInfo`](SerpYahooOrganicTaskGetAdvancedResponseInfo.md)\>
+> **yahooOrganicTaskGetAdvanced**(`id`): `Promise`\<[`SerpYahooOrganicTaskGetAdvancedResponseInfo`](SerpYahooOrganicTaskGetAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -5718,21 +5222,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:4687
 
-___
+***
 
-### yahooOrganicTaskGetHtml
+### yahooOrganicTaskGetHtml()
 
-▸ **yahooOrganicTaskGetHtml**(`id`): `Promise`\<[`SerpYahooOrganicTaskGetHtmlResponseInfo`](SerpYahooOrganicTaskGetHtmlResponseInfo.md)\>
+> **yahooOrganicTaskGetHtml**(`id`): `Promise`\<[`SerpYahooOrganicTaskGetHtmlResponseInfo`](SerpYahooOrganicTaskGetHtmlResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 7 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 7 days to request the results of the task at any time
 
 #### Returns
 
@@ -5740,21 +5246,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:4730
 
-___
+***
 
-### yahooOrganicTaskGetRegular
+### yahooOrganicTaskGetRegular()
 
-▸ **yahooOrganicTaskGetRegular**(`id`): `Promise`\<[`SerpYahooOrganicTaskGetRegularResponseInfo`](SerpYahooOrganicTaskGetRegularResponseInfo.md)\>
+> **yahooOrganicTaskGetRegular**(`id`): `Promise`\<[`SerpYahooOrganicTaskGetRegularResponseInfo`](SerpYahooOrganicTaskGetRegularResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -5762,21 +5270,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:4644
 
-___
+***
 
-### yahooOrganicTaskPost
+### yahooOrganicTaskPost()
 
-▸ **yahooOrganicTaskPost**(`body`): `Promise`\<[`SerpYahooOrganicTaskPostResponseInfo`](SerpYahooOrganicTaskPostResponseInfo.md)\>
+> **yahooOrganicTaskPost**(`body`): `Promise`\<[`SerpYahooOrganicTaskPostResponseInfo`](SerpYahooOrganicTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[] | (optional) |
+• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -5784,15 +5292,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:4526
 
-___
+***
 
-### yahooOrganicTasksFixed
+### yahooOrganicTasksFixed()
 
-▸ **yahooOrganicTasksFixed**(): `Promise`\<[`SerpYahooOrganicTasksFixedResponseInfo`](SerpYahooOrganicTasksFixedResponseInfo.md)\>
+> **yahooOrganicTasksFixed**(): `Promise`\<[`SerpYahooOrganicTasksFixedResponseInfo`](SerpYahooOrganicTasksFixedResponseInfo.md)\>
 
 #### Returns
 
@@ -5800,15 +5308,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:4604
 
-___
+***
 
-### yahooOrganicTasksReady
+### yahooOrganicTasksReady()
 
-▸ **yahooOrganicTasksReady**(): `Promise`\<[`SerpYahooOrganicTasksReadyResponseInfo`](SerpYahooOrganicTasksReadyResponseInfo.md)\>
+> **yahooOrganicTasksReady**(): `Promise`\<[`SerpYahooOrganicTasksReadyResponseInfo`](SerpYahooOrganicTasksReadyResponseInfo.md)\>
 
 #### Returns
 
@@ -5816,21 +5324,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:4567
 
-___
+***
 
-### youtubeVideoCommentsLiveAdvanced
+### youtubeVideoCommentsLiveAdvanced()
 
-▸ **youtubeVideoCommentsLiveAdvanced**(`body`): `Promise`\<[`SerpYoutubeVideoCommentsLiveAdvancedResponseInfo`](SerpYoutubeVideoCommentsLiveAdvancedResponseInfo.md)\>
+> **youtubeVideoCommentsLiveAdvanced**(`body`): `Promise`\<[`SerpYoutubeVideoCommentsLiveAdvancedResponseInfo`](SerpYoutubeVideoCommentsLiveAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpYoutubeVideoCommentsLiveAdvancedRequestInfo`](SerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md)[] | (optional) |
+• **body**: [`SerpYoutubeVideoCommentsLiveAdvancedRequestInfo`](SerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -5838,21 +5346,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:4365
 
-___
+***
 
-### youtubeVideoCommentsTaskGetAdvanced
+### youtubeVideoCommentsTaskGetAdvanced()
 
-▸ **youtubeVideoCommentsTaskGetAdvanced**(`id`): `Promise`\<[`SerpYoutubeVideoCommentsTaskGetAdvancedResponseInfo`](SerpYoutubeVideoCommentsTaskGetAdvancedResponseInfo.md)\>
+> **youtubeVideoCommentsTaskGetAdvanced**(`id`): `Promise`\<[`SerpYoutubeVideoCommentsTaskGetAdvancedResponseInfo`](SerpYoutubeVideoCommentsTaskGetAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -5860,21 +5370,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:4324
 
-___
+***
 
-### youtubeVideoCommentsTaskPost
+### youtubeVideoCommentsTaskPost()
 
-▸ **youtubeVideoCommentsTaskPost**(`body`): `Promise`\<[`SerpYoutubeVideoCommentsTaskPostResponseInfo`](SerpYoutubeVideoCommentsTaskPostResponseInfo.md)\>
+> **youtubeVideoCommentsTaskPost**(`body`): `Promise`\<[`SerpYoutubeVideoCommentsTaskPostResponseInfo`](SerpYoutubeVideoCommentsTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpYoutubeVideoCommentsTaskPostRequestInfo`](SerpYoutubeVideoCommentsTaskPostRequestInfo.md)[] | (optional) |
+• **body**: [`SerpYoutubeVideoCommentsTaskPostRequestInfo`](SerpYoutubeVideoCommentsTaskPostRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -5882,15 +5392,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:4206
 
-___
+***
 
-### youtubeVideoCommentsTasksFixed
+### youtubeVideoCommentsTasksFixed()
 
-▸ **youtubeVideoCommentsTasksFixed**(): `Promise`\<[`SerpYoutubeVideoCommentsTasksFixedResponseInfo`](SerpYoutubeVideoCommentsTasksFixedResponseInfo.md)\>
+> **youtubeVideoCommentsTasksFixed**(): `Promise`\<[`SerpYoutubeVideoCommentsTasksFixedResponseInfo`](SerpYoutubeVideoCommentsTasksFixedResponseInfo.md)\>
 
 #### Returns
 
@@ -5898,15 +5408,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:4284
 
-___
+***
 
-### youtubeVideoCommentsTasksReady
+### youtubeVideoCommentsTasksReady()
 
-▸ **youtubeVideoCommentsTasksReady**(): `Promise`\<[`SerpYoutubeVideoCommentsTasksReadyResponseInfo`](SerpYoutubeVideoCommentsTasksReadyResponseInfo.md)\>
+> **youtubeVideoCommentsTasksReady**(): `Promise`\<[`SerpYoutubeVideoCommentsTasksReadyResponseInfo`](SerpYoutubeVideoCommentsTasksReadyResponseInfo.md)\>
 
 #### Returns
 
@@ -5914,21 +5424,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:4247
 
-___
+***
 
-### youtubeVideoInfoLiveAdvanced
+### youtubeVideoInfoLiveAdvanced()
 
-▸ **youtubeVideoInfoLiveAdvanced**(`body`): `Promise`\<[`SerpYoutubeVideoInfoLiveAdvancedResponseInfo`](SerpYoutubeVideoInfoLiveAdvancedResponseInfo.md)\>
+> **youtubeVideoInfoLiveAdvanced**(`body`): `Promise`\<[`SerpYoutubeVideoInfoLiveAdvancedResponseInfo`](SerpYoutubeVideoInfoLiveAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpYoutubeVideoInfoLiveAdvancedRequestInfo`](SerpYoutubeVideoInfoLiveAdvancedRequestInfo.md)[] | (optional) |
+• **body**: [`SerpYoutubeVideoInfoLiveAdvancedRequestInfo`](SerpYoutubeVideoInfoLiveAdvancedRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -5936,21 +5446,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:3963
 
-___
+***
 
-### youtubeVideoInfoTaskGetAdvanced
+### youtubeVideoInfoTaskGetAdvanced()
 
-▸ **youtubeVideoInfoTaskGetAdvanced**(`id`): `Promise`\<[`SerpYoutubeVideoInfoTaskGetAdvancedResponseInfo`](SerpYoutubeVideoInfoTaskGetAdvancedResponseInfo.md)\>
+> **youtubeVideoInfoTaskGetAdvanced**(`id`): `Promise`\<[`SerpYoutubeVideoInfoTaskGetAdvancedResponseInfo`](SerpYoutubeVideoInfoTaskGetAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -5958,21 +5470,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:3922
 
-___
+***
 
-### youtubeVideoInfoTaskPost
+### youtubeVideoInfoTaskPost()
 
-▸ **youtubeVideoInfoTaskPost**(`body`): `Promise`\<[`SerpYoutubeVideoInfoTaskPostResponseInfo`](SerpYoutubeVideoInfoTaskPostResponseInfo.md)\>
+> **youtubeVideoInfoTaskPost**(`body`): `Promise`\<[`SerpYoutubeVideoInfoTaskPostResponseInfo`](SerpYoutubeVideoInfoTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpYoutubeVideoInfoTaskPostRequestInfo`](SerpYoutubeVideoInfoTaskPostRequestInfo.md)[] | (optional) |
+• **body**: [`SerpYoutubeVideoInfoTaskPostRequestInfo`](SerpYoutubeVideoInfoTaskPostRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -5980,15 +5492,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:3804
 
-___
+***
 
-### youtubeVideoInfoTasksFixed
+### youtubeVideoInfoTasksFixed()
 
-▸ **youtubeVideoInfoTasksFixed**(): `Promise`\<[`SerpYoutubeVideoInfoTasksFixedResponseInfo`](SerpYoutubeVideoInfoTasksFixedResponseInfo.md)\>
+> **youtubeVideoInfoTasksFixed**(): `Promise`\<[`SerpYoutubeVideoInfoTasksFixedResponseInfo`](SerpYoutubeVideoInfoTasksFixedResponseInfo.md)\>
 
 #### Returns
 
@@ -5996,15 +5508,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:3882
 
-___
+***
 
-### youtubeVideoInfoTasksReady
+### youtubeVideoInfoTasksReady()
 
-▸ **youtubeVideoInfoTasksReady**(): `Promise`\<[`SerpYoutubeVideoInfoTasksReadyResponseInfo`](SerpYoutubeVideoInfoTasksReadyResponseInfo.md)\>
+> **youtubeVideoInfoTasksReady**(): `Promise`\<[`SerpYoutubeVideoInfoTasksReadyResponseInfo`](SerpYoutubeVideoInfoTasksReadyResponseInfo.md)\>
 
 #### Returns
 
@@ -6012,21 +5524,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:3845
 
-___
+***
 
-### youtubeVideoSubtitlesLiveAdvanced
+### youtubeVideoSubtitlesLiveAdvanced()
 
-▸ **youtubeVideoSubtitlesLiveAdvanced**(`body`): `Promise`\<[`SerpYoutubeVideoSubtitlesLiveAdvancedResponseInfo`](SerpYoutubeVideoSubtitlesLiveAdvancedResponseInfo.md)\>
+> **youtubeVideoSubtitlesLiveAdvanced**(`body`): `Promise`\<[`SerpYoutubeVideoSubtitlesLiveAdvancedResponseInfo`](SerpYoutubeVideoSubtitlesLiveAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md)[] | (optional) |
+• **body**: [`SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -6034,21 +5546,23 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:4164
 
-___
+***
 
-### youtubeVideoSubtitlesTaskGetAdvanced
+### youtubeVideoSubtitlesTaskGetAdvanced()
 
-▸ **youtubeVideoSubtitlesTaskGetAdvanced**(`id`): `Promise`\<[`SerpYoutubeVideoSubtitlesTaskGetAdvancedResponseInfo`](SerpYoutubeVideoSubtitlesTaskGetAdvancedResponseInfo.md)\>
+> **youtubeVideoSubtitlesTaskGetAdvanced**(`id`): `Promise`\<[`SerpYoutubeVideoSubtitlesTaskGetAdvancedResponseInfo`](SerpYoutubeVideoSubtitlesTaskGetAdvancedResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -6056,21 +5570,21 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:4123
 
-___
+***
 
-### youtubeVideoSubtitlesTaskPost
+### youtubeVideoSubtitlesTaskPost()
 
-▸ **youtubeVideoSubtitlesTaskPost**(`body`): `Promise`\<[`SerpYoutubeVideoSubtitlesTaskPostResponseInfo`](SerpYoutubeVideoSubtitlesTaskPostResponseInfo.md)\>
+> **youtubeVideoSubtitlesTaskPost**(`body`): `Promise`\<[`SerpYoutubeVideoSubtitlesTaskPostResponseInfo`](SerpYoutubeVideoSubtitlesTaskPostResponseInfo.md)\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `body` | [`SerpYoutubeVideoSubtitlesTaskPostRequestInfo`](SerpYoutubeVideoSubtitlesTaskPostRequestInfo.md)[] | (optional) |
+• **body**: [`SerpYoutubeVideoSubtitlesTaskPostRequestInfo`](SerpYoutubeVideoSubtitlesTaskPostRequestInfo.md)[]
+
+(optional)
 
 #### Returns
 
@@ -6078,15 +5592,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:4005
 
-___
+***
 
-### youtubeVideoSubtitlesTasksFixed
+### youtubeVideoSubtitlesTasksFixed()
 
-▸ **youtubeVideoSubtitlesTasksFixed**(): `Promise`\<[`SerpYoutubeVideoSubtitlesTasksFixedResponseInfo`](SerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md)\>
+> **youtubeVideoSubtitlesTasksFixed**(): `Promise`\<[`SerpYoutubeVideoSubtitlesTasksFixedResponseInfo`](SerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md)\>
 
 #### Returns
 
@@ -6094,15 +5608,15 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:4083
 
-___
+***
 
-### youtubeVideoSubtitlesTasksReady
+### youtubeVideoSubtitlesTasksReady()
 
-▸ **youtubeVideoSubtitlesTasksReady**(): `Promise`\<[`SerpYoutubeVideoSubtitlesTasksReadyResponseInfo`](SerpYoutubeVideoSubtitlesTasksReadyResponseInfo.md)\>
+> **youtubeVideoSubtitlesTasksReady**(): `Promise`\<[`SerpYoutubeVideoSubtitlesTasksReadyResponseInfo`](SerpYoutubeVideoSubtitlesTasksReadyResponseInfo.md)\>
 
 #### Returns
 
@@ -6110,6 +5624,6 @@ ___
 
 Successful operation
 
-#### Defined in
+#### Source
 
 main.ts:4046

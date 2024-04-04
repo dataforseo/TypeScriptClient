@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ExploreBrandsElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ExploreBrandsElement
 
 # Class: ExploreBrandsElement
 
@@ -8,218 +12,188 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ExploreBrandsElement.md#constructor)
-
-### Properties
-
-- [description](ExploreBrandsElement.md#description)
-- [domain](ExploreBrandsElement.md#domain)
-- [image\_url](ExploreBrandsElement.md#image_url)
-- [title](ExploreBrandsElement.md#title)
-- [type](ExploreBrandsElement.md#type)
-- [url](ExploreBrandsElement.md#url)
-- [xpath](ExploreBrandsElement.md#xpath)
-
-### Methods
-
-- [init](ExploreBrandsElement.md#init)
-- [toJSON](ExploreBrandsElement.md#tojson)
-- [fromJS](ExploreBrandsElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ExploreBrandsElement(data)
 
-• **new ExploreBrandsElement**(`data?`): [`ExploreBrandsElement`](ExploreBrandsElement.md)
+> **new ExploreBrandsElement**(`data`?): [`ExploreBrandsElement`](ExploreBrandsElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IExploreBrandsElement`](../interfaces/IExploreBrandsElement.md) |
+• **data?**: [`IExploreBrandsElement`](../interfaces/IExploreBrandsElement.md)
 
 #### Returns
 
 [`ExploreBrandsElement`](ExploreBrandsElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:36167
+main.ts:36173
 
 ## Properties
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description
 
 #### Implementation of
 
-[IExploreBrandsElement](../interfaces/IExploreBrandsElement.md).[description](../interfaces/IExploreBrandsElement.md#description)
+[`IExploreBrandsElement`](../interfaces/IExploreBrandsElement.md).[`description`](../interfaces/IExploreBrandsElement.md#description)
 
-#### Defined in
+#### Source
 
-main.ts:36159
+main.ts:36165
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 website domain
 
 #### Implementation of
 
-[IExploreBrandsElement](../interfaces/IExploreBrandsElement.md).[domain](../interfaces/IExploreBrandsElement.md#domain)
+[`IExploreBrandsElement`](../interfaces/IExploreBrandsElement.md).[`domain`](../interfaces/IExploreBrandsElement.md#domain)
 
-#### Defined in
+#### Source
 
-main.ts:36157
+main.ts:36163
 
-___
+***
 
-### image\_url
+### image\_url?
 
-• `Optional` **image\_url**: `string`
+> **`optional`** **image\_url**: `string`
 
 URL of the image
 
 #### Implementation of
 
-[IExploreBrandsElement](../interfaces/IExploreBrandsElement.md).[image_url](../interfaces/IExploreBrandsElement.md#image_url)
+[`IExploreBrandsElement`](../interfaces/IExploreBrandsElement.md).[`image_url`](../interfaces/IExploreBrandsElement.md#image_url)
 
-#### Defined in
+#### Source
 
-main.ts:36161
+main.ts:36167
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
 #### Implementation of
 
-[IExploreBrandsElement](../interfaces/IExploreBrandsElement.md).[title](../interfaces/IExploreBrandsElement.md#title)
+[`IExploreBrandsElement`](../interfaces/IExploreBrandsElement.md).[`title`](../interfaces/IExploreBrandsElement.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:36153
+main.ts:36159
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IExploreBrandsElement](../interfaces/IExploreBrandsElement.md).[type](../interfaces/IExploreBrandsElement.md#type)
+[`IExploreBrandsElement`](../interfaces/IExploreBrandsElement.md).[`type`](../interfaces/IExploreBrandsElement.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:36151
+main.ts:36157
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL
 
 #### Implementation of
 
-[IExploreBrandsElement](../interfaces/IExploreBrandsElement.md).[url](../interfaces/IExploreBrandsElement.md#url)
+[`IExploreBrandsElement`](../interfaces/IExploreBrandsElement.md).[`url`](../interfaces/IExploreBrandsElement.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:36155
+main.ts:36161
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IExploreBrandsElement](../interfaces/IExploreBrandsElement.md).[xpath](../interfaces/IExploreBrandsElement.md#xpath)
+[`IExploreBrandsElement`](../interfaces/IExploreBrandsElement.md).[`xpath`](../interfaces/IExploreBrandsElement.md#xpath)
 
-#### Defined in
+#### Source
 
-main.ts:36163
+main.ts:36169
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:36176
+main.ts:36182
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:36199
+main.ts:36205
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ExploreBrandsElement`](ExploreBrandsElement.md)
+> **`static`** **fromJS**(`data`): [`ExploreBrandsElement`](ExploreBrandsElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ExploreBrandsElement`](ExploreBrandsElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:36192
+main.ts:36198

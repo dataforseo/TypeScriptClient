@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / LocationInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / LocationInfo
 
 # Class: LocationInfo
 
@@ -8,69 +12,47 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](LocationInfo.md#constructor)
-
-### Properties
-
-- [address](LocationInfo.md#address)
-- [cid](LocationInfo.md#cid)
-- [feature\_id](LocationInfo.md#feature_id)
-- [name](LocationInfo.md#name)
-- [url](LocationInfo.md#url)
-
-### Methods
-
-- [init](LocationInfo.md#init)
-- [toJSON](LocationInfo.md#tojson)
-- [fromJS](LocationInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new LocationInfo(data)
 
-• **new LocationInfo**(`data?`): [`LocationInfo`](LocationInfo.md)
+> **new LocationInfo**(`data`?): [`LocationInfo`](LocationInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ILocationInfo`](../interfaces/ILocationInfo.md) |
+• **data?**: [`ILocationInfo`](../interfaces/ILocationInfo.md)
 
 #### Returns
 
 [`LocationInfo`](LocationInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:45281
+main.ts:45289
 
 ## Properties
 
-### address
+### address?
 
-• `Optional` **address**: `string`
+> **`optional`** **address**: `string`
 
 address of the event’s venue
 
 #### Implementation of
 
-[ILocationInfo](../interfaces/ILocationInfo.md).[address](../interfaces/ILocationInfo.md#address)
+[`ILocationInfo`](../interfaces/ILocationInfo.md).[`address`](../interfaces/ILocationInfo.md#address)
 
-#### Defined in
+#### Source
 
-main.ts:45269
+main.ts:45277
 
-___
+***
 
-### cid
+### cid?
 
-• `Optional` **cid**: `string`
+> **`optional`** **cid**: `string`
 
 google-defined client id
 unique id of a local establishment;
@@ -78,116 +60,110 @@ can be used with Google Reviews API to get a full list of reviews
 
 #### Implementation of
 
-[ILocationInfo](../interfaces/ILocationInfo.md).[cid](../interfaces/ILocationInfo.md#cid)
+[`ILocationInfo`](../interfaces/ILocationInfo.md).[`cid`](../interfaces/ILocationInfo.md#cid)
 
-#### Defined in
+#### Source
 
-main.ts:45275
+main.ts:45283
 
-___
+***
 
-### feature\_id
+### feature\_id?
 
-• `Optional` **feature\_id**: `string`
+> **`optional`** **feature\_id**: `string`
 
 the unique identifier of the element in SERP
 
 #### Implementation of
 
-[ILocationInfo](../interfaces/ILocationInfo.md).[feature_id](../interfaces/ILocationInfo.md#feature_id)
+[`ILocationInfo`](../interfaces/ILocationInfo.md).[`feature_id`](../interfaces/ILocationInfo.md#feature_id)
 
-#### Defined in
+#### Source
 
-main.ts:45277
+main.ts:45285
 
-___
+***
 
-### name
+### name?
 
-• `Optional` **name**: `string`
+> **`optional`** **name**: `string`
 
 name of the event’s venue
 
 #### Implementation of
 
-[ILocationInfo](../interfaces/ILocationInfo.md).[name](../interfaces/ILocationInfo.md#name)
+[`ILocationInfo`](../interfaces/ILocationInfo.md).[`name`](../interfaces/ILocationInfo.md#name)
 
-#### Defined in
+#### Source
 
-main.ts:45267
+main.ts:45275
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL to the event’s venue on google maps
 
 #### Implementation of
 
-[ILocationInfo](../interfaces/ILocationInfo.md).[url](../interfaces/ILocationInfo.md#url)
+[`ILocationInfo`](../interfaces/ILocationInfo.md).[`url`](../interfaces/ILocationInfo.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:45271
+main.ts:45279
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:45290
+main.ts:45298
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:45311
+main.ts:45319
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`LocationInfo`](LocationInfo.md)
+> **`static`** **fromJS**(`data`): [`LocationInfo`](LocationInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`LocationInfo`](LocationInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:45304
+main.ts:45312

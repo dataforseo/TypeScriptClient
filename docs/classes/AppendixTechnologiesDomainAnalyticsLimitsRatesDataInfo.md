@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo
 
 # Class: AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo
 
@@ -8,234 +12,202 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md#constructor)
-
-### Properties
-
-- [aggregation\_technologies](AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md#aggregation_technologies)
-- [domain\_technologies](AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md#domain_technologies)
-- [domains\_by\_html\_terms](AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md#domains_by_html_terms)
-- [domains\_by\_technology](AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md#domains_by_technology)
-- [languages](AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md#languages)
-- [locations](AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md#locations)
-- [technologies](AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md#technologies)
-- [technologies\_summary](AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md#technologies_summary)
-- [technology\_stats](AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md#technology_stats)
-
-### Methods
-
-- [init](AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md#init)
-- [toJSON](AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md#tojson)
-- [fromJS](AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo(data)
 
-• **new AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo**(`data?`): [`AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md)
+> **new AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo**(`data`?): [`AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md) |
+• **data?**: [`IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md)
 
 #### Returns
 
 [`AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:212830
 
 ## Properties
 
-### aggregation\_technologies
+### aggregation\_technologies?
 
-• `Optional` **aggregation\_technologies**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **aggregation\_technologies**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
-[IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md).[aggregation_technologies](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md#aggregation_technologies)
+[`IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md).[`aggregation_technologies`](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md#aggregation_technologies)
 
-#### Defined in
+#### Source
 
 main.ts:212823
 
-___
+***
 
-### domain\_technologies
+### domain\_technologies?
 
-• `Optional` **domain\_technologies**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **domain\_technologies**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
-[IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md).[domain_technologies](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md#domain_technologies)
+[`IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md).[`domain_technologies`](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md#domain_technologies)
 
-#### Defined in
+#### Source
 
 main.ts:212818
 
-___
+***
 
-### domains\_by\_html\_terms
+### domains\_by\_html\_terms?
 
-• `Optional` **domains\_by\_html\_terms**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **domains\_by\_html\_terms**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
-[IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md).[domains_by_html_terms](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md#domains_by_html_terms)
+[`IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md).[`domains_by_html_terms`](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md#domains_by_html_terms)
 
-#### Defined in
+#### Source
 
 main.ts:212825
 
-___
+***
 
-### domains\_by\_technology
+### domains\_by\_technology?
 
-• `Optional` **domains\_by\_technology**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **domains\_by\_technology**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
-[IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md).[domains_by_technology](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md#domains_by_technology)
+[`IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md).[`domains_by_technology`](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md#domains_by_technology)
 
-#### Defined in
+#### Source
 
 main.ts:212819
 
-___
+***
 
-### languages
+### languages?
 
-• `Optional` **languages**: `number`
+> **`optional`** **languages**: `number`
 
 #### Implementation of
 
-[IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md).[languages](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md#languages)
+[`IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md).[`languages`](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md#languages)
 
-#### Defined in
+#### Source
 
 main.ts:212820
 
-___
+***
 
-### locations
+### locations?
 
-• `Optional` **locations**: `number`
+> **`optional`** **locations**: `number`
 
 #### Implementation of
 
-[IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md).[locations](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md#locations)
+[`IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md).[`locations`](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md#locations)
 
-#### Defined in
+#### Source
 
 main.ts:212821
 
-___
+***
 
-### technologies
+### technologies?
 
-• `Optional` **technologies**: `number`
+> **`optional`** **technologies**: `number`
 
 #### Implementation of
 
-[IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md).[technologies](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md#technologies)
+[`IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md).[`technologies`](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md#technologies)
 
-#### Defined in
+#### Source
 
 main.ts:212822
 
-___
+***
 
-### technologies\_summary
+### technologies\_summary?
 
-• `Optional` **technologies\_summary**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **technologies\_summary**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
-[IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md).[technologies_summary](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md#technologies_summary)
+[`IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md).[`technologies_summary`](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md#technologies_summary)
 
-#### Defined in
+#### Source
 
 main.ts:212824
 
-___
+***
 
-### technology\_stats
+### technology\_stats?
 
-• `Optional` **technology\_stats**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **technology\_stats**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
-[IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md).[technology_stats](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md#technology_stats)
+[`IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md).[`technology_stats`](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md#technology_stats)
 
-#### Defined in
+#### Source
 
 main.ts:212826
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:212839
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:212864
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md)
+> **`static`** **fromJS**(`data`): [`AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:212857

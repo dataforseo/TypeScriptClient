@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentGenerationParaphraseLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ContentGenerationParaphraseLiveRequestInfo
 
 # Class: ContentGenerationParaphraseLiveRequestInfo
 
@@ -8,51 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ContentGenerationParaphraseLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [creativity\_index](ContentGenerationParaphraseLiveRequestInfo.md#creativity_index)
-- [tag](ContentGenerationParaphraseLiveRequestInfo.md#tag)
-- [text](ContentGenerationParaphraseLiveRequestInfo.md#text)
-
-### Methods
-
-- [init](ContentGenerationParaphraseLiveRequestInfo.md#init)
-- [toJSON](ContentGenerationParaphraseLiveRequestInfo.md#tojson)
-- [fromJS](ContentGenerationParaphraseLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ContentGenerationParaphraseLiveRequestInfo(data)
 
-• **new ContentGenerationParaphraseLiveRequestInfo**(`data?`): [`ContentGenerationParaphraseLiveRequestInfo`](ContentGenerationParaphraseLiveRequestInfo.md)
+> **new ContentGenerationParaphraseLiveRequestInfo**(`data`?): [`ContentGenerationParaphraseLiveRequestInfo`](ContentGenerationParaphraseLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IContentGenerationParaphraseLiveRequestInfo`](../interfaces/IContentGenerationParaphraseLiveRequestInfo.md) |
+• **data?**: [`IContentGenerationParaphraseLiveRequestInfo`](../interfaces/IContentGenerationParaphraseLiveRequestInfo.md)
 
 #### Returns
 
 [`ContentGenerationParaphraseLiveRequestInfo`](ContentGenerationParaphraseLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:166562
+main.ts:166570
 
 ## Properties
 
-### creativity\_index
+### creativity\_index?
 
-• `Optional` **creativity\_index**: `number`
+> **`optional`** **creativity\_index**: `number`
 
 creativity of content generation
 required field
@@ -63,17 +47,17 @@ learn more about this parameter on our help center
 
 #### Implementation of
 
-[IContentGenerationParaphraseLiveRequestInfo](../interfaces/IContentGenerationParaphraseLiveRequestInfo.md).[creativity_index](../interfaces/IContentGenerationParaphraseLiveRequestInfo.md#creativity_index)
+[`IContentGenerationParaphraseLiveRequestInfo`](../interfaces/IContentGenerationParaphraseLiveRequestInfo.md).[`creativity_index`](../interfaces/IContentGenerationParaphraseLiveRequestInfo.md#creativity_index)
 
-#### Defined in
+#### Source
 
-main.ts:166552
+main.ts:166560
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -83,17 +67,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IContentGenerationParaphraseLiveRequestInfo](../interfaces/IContentGenerationParaphraseLiveRequestInfo.md).[tag](../interfaces/IContentGenerationParaphraseLiveRequestInfo.md#tag)
+[`IContentGenerationParaphraseLiveRequestInfo`](../interfaces/IContentGenerationParaphraseLiveRequestInfo.md).[`tag`](../interfaces/IContentGenerationParaphraseLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:166558
+main.ts:166566
 
-___
+***
 
-### text
+### text?
 
-• `Optional` **text**: `string`
+> **`optional`** **text**: `string`
 
 target text
 required field
@@ -102,68 +86,62 @@ learn more about tokens on our help center
 
 #### Implementation of
 
-[IContentGenerationParaphraseLiveRequestInfo](../interfaces/IContentGenerationParaphraseLiveRequestInfo.md).[text](../interfaces/IContentGenerationParaphraseLiveRequestInfo.md#text)
+[`IContentGenerationParaphraseLiveRequestInfo`](../interfaces/IContentGenerationParaphraseLiveRequestInfo.md).[`text`](../interfaces/IContentGenerationParaphraseLiveRequestInfo.md#text)
 
-#### Defined in
+#### Source
 
-main.ts:166545
+main.ts:166553
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:166571
+main.ts:166579
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:166590
+main.ts:166598
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ContentGenerationParaphraseLiveRequestInfo`](ContentGenerationParaphraseLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`ContentGenerationParaphraseLiveRequestInfo`](ContentGenerationParaphraseLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ContentGenerationParaphraseLiveRequestInfo`](ContentGenerationParaphraseLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:166583
+main.ts:166591

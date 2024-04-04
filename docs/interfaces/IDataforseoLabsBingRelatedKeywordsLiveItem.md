@@ -1,69 +1,60 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingRelatedKeywordsLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsBingRelatedKeywordsLiveItem
 
 # Interface: IDataforseoLabsBingRelatedKeywordsLiveItem
 
-## Implemented by
-
-- [`DataforseoLabsBingRelatedKeywordsLiveItem`](../classes/DataforseoLabsBingRelatedKeywordsLiveItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [depth](IDataforseoLabsBingRelatedKeywordsLiveItem.md#depth)
-- [keyword\_data](IDataforseoLabsBingRelatedKeywordsLiveItem.md#keyword_data)
-- [related\_keywords](IDataforseoLabsBingRelatedKeywordsLiveItem.md#related_keywords)
-- [se\_type](IDataforseoLabsBingRelatedKeywordsLiveItem.md#se_type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### depth
+### depth?
 
-• `Optional` **depth**: `number`
+> **`optional`** **depth**: `number`
 
 keyword search depth
 
-#### Defined in
+#### Source
 
-main.ts:108391
+main.ts:108399
 
-___
+***
 
-### keyword\_data
+### keyword\_data?
 
-• `Optional` **keyword\_data**: [`KeywordData`](../classes/KeywordData.md)
+> **`optional`** **keyword\_data**: [`KeywordData`](../classes/KeywordData.md)
 
 keyword data for the returned keyword
 
-#### Defined in
+#### Source
 
-main.ts:108389
+main.ts:108397
 
-___
+***
 
-### related\_keywords
+### related\_keywords?
 
-• `Optional` **related\_keywords**: `string`[]
+> **`optional`** **related\_keywords**: `string`[]
 
 list of related keywords
 represents the list of search queries which are related to the keyword returned in the array above
 
-#### Defined in
+#### Source
 
-main.ts:108394
+main.ts:108402
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:108387
+main.ts:108395

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataTripadvisorLanguagesResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataTripadvisorLanguagesResultInfo
 
 # Class: BusinessDataTripadvisorLanguagesResultInfo
 
@@ -8,133 +12,108 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataTripadvisorLanguagesResultInfo.md#constructor)
-
-### Properties
-
-- [language\_code](BusinessDataTripadvisorLanguagesResultInfo.md#language_code)
-- [language\_name](BusinessDataTripadvisorLanguagesResultInfo.md#language_name)
-
-### Methods
-
-- [init](BusinessDataTripadvisorLanguagesResultInfo.md#init)
-- [toJSON](BusinessDataTripadvisorLanguagesResultInfo.md#tojson)
-- [fromJS](BusinessDataTripadvisorLanguagesResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataTripadvisorLanguagesResultInfo(data)
 
-• **new BusinessDataTripadvisorLanguagesResultInfo**(`data?`): [`BusinessDataTripadvisorLanguagesResultInfo`](BusinessDataTripadvisorLanguagesResultInfo.md)
+> **new BusinessDataTripadvisorLanguagesResultInfo**(`data`?): [`BusinessDataTripadvisorLanguagesResultInfo`](BusinessDataTripadvisorLanguagesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataTripadvisorLanguagesResultInfo`](../interfaces/IBusinessDataTripadvisorLanguagesResultInfo.md) |
+• **data?**: [`IBusinessDataTripadvisorLanguagesResultInfo`](../interfaces/IBusinessDataTripadvisorLanguagesResultInfo.md)
 
 #### Returns
 
 [`BusinessDataTripadvisorLanguagesResultInfo`](BusinessDataTripadvisorLanguagesResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:206197
 
 ## Properties
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code according to ISO 639-1
 
 #### Implementation of
 
-[IBusinessDataTripadvisorLanguagesResultInfo](../interfaces/IBusinessDataTripadvisorLanguagesResultInfo.md).[language_code](../interfaces/IBusinessDataTripadvisorLanguagesResultInfo.md#language_code)
+[`IBusinessDataTripadvisorLanguagesResultInfo`](../interfaces/IBusinessDataTripadvisorLanguagesResultInfo.md).[`language_code`](../interfaces/IBusinessDataTripadvisorLanguagesResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
 main.ts:206193
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 language name
 
 #### Implementation of
 
-[IBusinessDataTripadvisorLanguagesResultInfo](../interfaces/IBusinessDataTripadvisorLanguagesResultInfo.md).[language_name](../interfaces/IBusinessDataTripadvisorLanguagesResultInfo.md#language_name)
+[`IBusinessDataTripadvisorLanguagesResultInfo`](../interfaces/IBusinessDataTripadvisorLanguagesResultInfo.md).[`language_name`](../interfaces/IBusinessDataTripadvisorLanguagesResultInfo.md#language_name)
 
-#### Defined in
+#### Source
 
 main.ts:206191
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:206206
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:206224
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataTripadvisorLanguagesResultInfo`](BusinessDataTripadvisorLanguagesResultInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataTripadvisorLanguagesResultInfo`](BusinessDataTripadvisorLanguagesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BusinessDataTripadvisorLanguagesResultInfo`](BusinessDataTripadvisorLanguagesResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:206217

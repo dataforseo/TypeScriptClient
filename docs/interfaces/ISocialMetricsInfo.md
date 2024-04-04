@@ -1,42 +1,35 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISocialMetricsInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ISocialMetricsInfo
 
 # Interface: ISocialMetricsInfo
 
-## Implemented by
-
-- [`SocialMetricsInfo`](../classes/SocialMetricsInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [like\_count](ISocialMetricsInfo.md#like_count)
-- [type](ISocialMetricsInfo.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### like\_count
+### like\_count?
 
-• `Optional` **like\_count**: `number`
+> **`optional`** **like\_count**: `number`
 
 likes count
 
-#### Defined in
+#### Source
 
 main.ts:22113
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
 main.ts:22111

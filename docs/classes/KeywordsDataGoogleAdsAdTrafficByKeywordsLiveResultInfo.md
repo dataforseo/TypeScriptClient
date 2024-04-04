@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo
 
 # Class: KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo
 
@@ -8,60 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#constructor)
-
-### Properties
-
-- [average\_cpc](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#average_cpc)
-- [bid](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#bid)
-- [clicks](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#clicks)
-- [cost](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#cost)
-- [ctr](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#ctr)
-- [date\_interval](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#date_interval)
-- [impressions](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#impressions)
-- [keyword](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#keyword)
-- [language\_code](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#language_code)
-- [location\_code](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#location_code)
-- [match](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#match)
-- [search\_partners](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#search_partners)
-
-### Methods
-
-- [init](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#init)
-- [toJSON](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#tojson)
-- [fromJS](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo(data)
 
-• **new KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo**(`data?`): [`KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md)
+> **new KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo**(`data`?): [`KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md) |
+• **data?**: [`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md)
 
 #### Returns
 
 [`KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:121159
+main.ts:121167
 
 ## Properties
 
-### average\_cpc
+### average\_cpc?
 
-• `Optional` **average\_cpc**: `number`
+> **`optional`** **average\_cpc**: `number`
 
 the average cost-per-click value
 represents the cost-per-click (USD) estimated for a keyword based on the specified time period and historical data;
@@ -69,17 +44,17 @@ if there is no data, then the value is null
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md).[average_cpc](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#average_cpc)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md).[`average_cpc`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#average_cpc)
 
-#### Defined in
+#### Source
 
-main.ts:121147
+main.ts:121155
 
-___
+***
 
-### bid
+### bid?
 
-• `Optional` **bid**: `number`
+> **`optional`** **bid**: `number`
 
 the maximum custom bid
 the bid you have specified when setting the task
@@ -89,17 +64,17 @@ learn more in this help center article
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md).[bid](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#bid)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md).[`bid`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#bid)
 
-#### Defined in
+#### Source
 
-main.ts:121131
+main.ts:121139
 
-___
+***
 
-### clicks
+### clicks?
 
-• `Optional` **clicks**: `number`
+> **`optional`** **clicks**: `number`
 
 number of clicks on an ad
 number of clicks an ad is projected to get within the specified time period
@@ -107,17 +82,17 @@ if there is no data, then the value is null
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md).[clicks](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#clicks)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md).[`clicks`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#clicks)
 
-#### Defined in
+#### Source
 
-main.ts:121155
+main.ts:121163
 
-___
+***
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 charge for an ad
 amount that will be charged for running an ad within the specified time period
@@ -125,17 +100,17 @@ if there is no data, then the value is null
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md).[cost](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#cost)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md).[`cost`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#cost)
 
-#### Defined in
+#### Source
 
-main.ts:121151
+main.ts:121159
 
-___
+***
 
-### ctr
+### ctr?
 
-• `Optional` **ctr**: `number`
+> **`optional`** **ctr**: `number`
 
 projected click through rate (CTR) of the advertisement
 number of clicks an ad is projected to receive divided by the number of ad impressions; the CTR is projected for the specified time period
@@ -143,33 +118,33 @@ if there is no data, then the value is null
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md).[ctr](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#ctr)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md).[`ctr`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#ctr)
 
-#### Defined in
+#### Source
 
-main.ts:121143
+main.ts:121151
 
-___
+***
 
-### date\_interval
+### date\_interval?
 
-• `Optional` **date\_interval**: `string`
+> **`optional`** **date\_interval**: `string`
 
 forecasting date interval in a POST array
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md).[date_interval](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#date_interval)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md).[`date_interval`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#date_interval)
 
-#### Defined in
+#### Source
 
-main.ts:121120
+main.ts:121128
 
-___
+***
 
-### impressions
+### impressions?
 
-• `Optional` **impressions**: `number`
+> **`optional`** **impressions**: `number`
 
 projected number of ad impressions
 number of impressions an ad is projected to get within the specified time period
@@ -178,84 +153,84 @@ learn more about impressions in this help center article
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md).[impressions](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#impressions)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md).[`impressions`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#impressions)
 
-#### Defined in
+#### Source
 
-main.ts:121139
+main.ts:121147
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword in a POST array
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md).[keyword](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#keyword)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md).[`keyword`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:121112
+main.ts:121120
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 if there is no data, then the value is null
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md).[language_code](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#language_code)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md).[`language_code`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:121118
+main.ts:121126
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 if there is no data, then the value is null
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md).[location_code](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#location_code)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md).[`location_code`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:121115
+main.ts:121123
 
-___
+***
 
-### match
+### match?
 
-• `Optional` **match**: `string`
+> **`optional`** **match**: `string`
 
 keywords match-type
 can take the following values: exact, broad, phrase
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md).[match](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#match)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md).[`match`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#match)
 
-#### Defined in
+#### Source
 
-main.ts:121134
+main.ts:121142
 
-___
+***
 
-### search\_partners
+### search\_partners?
 
-• `Optional` **search\_partners**: `boolean`
+> **`optional`** **search\_partners**: `boolean`
 
 include Google search partners
 the value you specified when setting the task
@@ -264,68 +239,62 @@ if false, the results are returned for Google search sites only
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md).[search_partners](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#search_partners)
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md).[`search_partners`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#search_partners)
 
-#### Defined in
+#### Source
 
-main.ts:121125
+main.ts:121133
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:121168
+main.ts:121176
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:121196
+main.ts:121204
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:121189
+main.ts:121197

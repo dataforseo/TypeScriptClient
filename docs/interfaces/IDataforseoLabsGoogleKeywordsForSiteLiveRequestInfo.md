@@ -1,111 +1,92 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleKeywordsForSiteLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsGoogleKeywordsForSiteLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleKeywordsForSiteLiveRequestInfo
 
-## Implemented by
-
-- [`DataforseoLabsGoogleKeywordsForSiteLiveRequestInfo`](../classes/DataforseoLabsGoogleKeywordsForSiteLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [filters](IDataforseoLabsGoogleKeywordsForSiteLiveRequestInfo.md#filters)
-- [ignore\_synonyms](IDataforseoLabsGoogleKeywordsForSiteLiveRequestInfo.md#ignore_synonyms)
-- [include\_serp\_info](IDataforseoLabsGoogleKeywordsForSiteLiveRequestInfo.md#include_serp_info)
-- [include\_subdomains](IDataforseoLabsGoogleKeywordsForSiteLiveRequestInfo.md#include_subdomains)
-- [language\_code](IDataforseoLabsGoogleKeywordsForSiteLiveRequestInfo.md#language_code)
-- [language\_name](IDataforseoLabsGoogleKeywordsForSiteLiveRequestInfo.md#language_name)
-- [limit](IDataforseoLabsGoogleKeywordsForSiteLiveRequestInfo.md#limit)
-- [location\_code](IDataforseoLabsGoogleKeywordsForSiteLiveRequestInfo.md#location_code)
-- [location\_name](IDataforseoLabsGoogleKeywordsForSiteLiveRequestInfo.md#location_name)
-- [offset](IDataforseoLabsGoogleKeywordsForSiteLiveRequestInfo.md#offset)
-- [offset\_token](IDataforseoLabsGoogleKeywordsForSiteLiveRequestInfo.md#offset_token)
-- [order\_by](IDataforseoLabsGoogleKeywordsForSiteLiveRequestInfo.md#order_by)
-- [tag](IDataforseoLabsGoogleKeywordsForSiteLiveRequestInfo.md#tag)
-- [target](IDataforseoLabsGoogleKeywordsForSiteLiveRequestInfo.md#target)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, <=, >, >=, =, <>, in, not_in, like, not_like
+regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 note that you can not filter the results by relevance
 example:
-["keyword_info.search_volume",">",0]
+["keyword_info.search_volume",">`",0]
 [["impressions_info.daily_impressions_average","in",[0,1000]],
 "and",
-["impressions_info.ad_position_average","<",3]][["impressions_info.ad_position_average",">",0],
+["impressions_info.ad_position_average","`<",3]][["impressions_info.ad_position_average",">`",0],
 "and",
-[["impressions_info.cpc_max","<",0.5],"or",["impressions_info.daily_clicks_max",">=",10]]]
+[["impressions_info.cpc_max","`<",0.5],"or",["impressions_info.daily_clicks_max",">`=",10]]]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide
 
-#### Defined in
+#### Source
 
-main.ts:81148
+main.ts:81156
 
-___
+***
 
-### ignore\_synonyms
+### ignore\_synonyms?
 
-• `Optional` **ignore\_synonyms**: `boolean`
+> **`optional`** **ignore\_synonyms**: `boolean`
 
 ignore highly similar keywords
 optional field
 if set to true only core keywords will be returned, all highly similar keywords will be excluded;
 default value: false
 
-#### Defined in
+#### Source
 
-main.ts:81113
+main.ts:81121
 
-___
+***
 
-### include\_serp\_info
+### include\_serp\_info?
 
-• `Optional` **include\_serp\_info**: `boolean`
+> **`optional`** **include\_serp\_info**: `boolean`
 
 include data from SERP for each keyword
 optional field
 if set to true, we will return a serp_info array containing SERP data (number of search results, relevant URL, and SERP features) for every keyword in the response
 default value: false
 
-#### Defined in
+#### Source
 
-main.ts:81103
+main.ts:81111
 
-___
+***
 
-### include\_subdomains
+### include\_subdomains?
 
-• `Optional` **include\_subdomains**: `boolean`
+> **`optional`** **include\_subdomains**: `boolean`
 
 indicates if the subdomains will be included in the search
 optional field
 if set to false, the subdomains will be ignored
 default value: true
 
-#### Defined in
+#### Source
 
-main.ts:81108
+main.ts:81116
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 optional field
@@ -116,15 +97,15 @@ ignore this field to get the results for all available languages
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:81098
+main.ts:81106
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 optional field
@@ -135,30 +116,30 @@ ignore this field to get the results for all available languages
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:81089
+main.ts:81097
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of keywords in the results array
 optional field
 default value: 100
 maximum value: 1000
 
-#### Defined in
+#### Source
 
-main.ts:81118
+main.ts:81126
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 unique location identifier
 required field if you don’t specify location_name
@@ -168,15 +149,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:81080
+main.ts:81088
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code
@@ -186,30 +167,30 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 United Kingdom
 
-#### Defined in
+#### Source
 
-main.ts:81072
+main.ts:81080
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned keywords
 optional field
 default value: 0
 if you specify the 10 value, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords
 
-#### Defined in
+#### Source
 
-main.ts:81123
+main.ts:81131
 
-___
+***
 
-### offset\_token
+### offset\_token?
 
-• `Optional` **offset\_token**: `string`
+> **`optional`** **offset\_token**: `string`
 
 offset token for subsequent requests
 optional field
@@ -219,15 +200,15 @@ by specifying the unique offset_token value from the response array, you will ge
 offset_token values are unique for each subsequent task
 Note: if the offset_token is specified in the request, all other parameters except limit will not be taken into account when processing a task.
 
-#### Defined in
+#### Source
 
-main.ts:81131
+main.ts:81139
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -245,15 +226,15 @@ you should use a comma to separate several sorting rules
 example:
 ["keyword_info.search_volume,desc","keyword_info.cpc,asc"]
 
-#### Defined in
+#### Source
 
-main.ts:81164
+main.ts:81172
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -261,21 +242,21 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:81170
+main.ts:81178
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 target domain
 required field
 the domain name of the target website
 the domain should be specified without https:// or www.
 
-#### Defined in
+#### Source
 
-main.ts:81064
+main.ts:81072

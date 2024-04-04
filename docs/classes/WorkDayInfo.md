@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / WorkDayInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / WorkDayInfo
 
 # Class: WorkDayInfo
 
@@ -8,133 +12,108 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](WorkDayInfo.md#constructor)
-
-### Properties
-
-- [close](WorkDayInfo.md#close)
-- [open](WorkDayInfo.md#open)
-
-### Methods
-
-- [init](WorkDayInfo.md#init)
-- [toJSON](WorkDayInfo.md#tojson)
-- [fromJS](WorkDayInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new WorkDayInfo(data)
 
-• **new WorkDayInfo**(`data?`): [`WorkDayInfo`](WorkDayInfo.md)
+> **new WorkDayInfo**(`data`?): [`WorkDayInfo`](WorkDayInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IWorkDayInfo`](../interfaces/IWorkDayInfo.md) |
+• **data?**: [`IWorkDayInfo`](../interfaces/IWorkDayInfo.md)
 
 #### Returns
 
 [`WorkDayInfo`](WorkDayInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:21051
 
 ## Properties
 
-### close
+### close?
 
-• `Optional` **close**: [`WorkTimeInfo`](WorkTimeInfo.md)
+> **`optional`** **close**: [`WorkTimeInfo`](WorkTimeInfo.md)
 
 closing time
 
 #### Implementation of
 
-[IWorkDayInfo](../interfaces/IWorkDayInfo.md).[close](../interfaces/IWorkDayInfo.md#close)
+[`IWorkDayInfo`](../interfaces/IWorkDayInfo.md).[`close`](../interfaces/IWorkDayInfo.md#close)
 
-#### Defined in
+#### Source
 
 main.ts:21047
 
-___
+***
 
-### open
+### open?
 
-• `Optional` **open**: [`WorkTimeInfo`](WorkTimeInfo.md)
+> **`optional`** **open**: [`WorkTimeInfo`](WorkTimeInfo.md)
 
 opening time
 
 #### Implementation of
 
-[IWorkDayInfo](../interfaces/IWorkDayInfo.md).[open](../interfaces/IWorkDayInfo.md#open)
+[`IWorkDayInfo`](../interfaces/IWorkDayInfo.md).[`open`](../interfaces/IWorkDayInfo.md#open)
 
-#### Defined in
+#### Source
 
 main.ts:21045
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:21060
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:21078
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`WorkDayInfo`](WorkDayInfo.md)
+> **`static`** **fromJS**(`data`): [`WorkDayInfo`](WorkDayInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`WorkDayInfo`](WorkDayInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:21071

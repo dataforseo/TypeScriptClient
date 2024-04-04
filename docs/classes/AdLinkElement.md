@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AdLinkElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AdLinkElement
 
 # Class: AdLinkElement
 
@@ -8,201 +12,172 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AdLinkElement.md#constructor)
-
-### Properties
-
-- [ad\_aclk](AdLinkElement.md#ad_aclk)
-- [description](AdLinkElement.md#description)
-- [domain](AdLinkElement.md#domain)
-- [title](AdLinkElement.md#title)
-- [type](AdLinkElement.md#type)
-- [url](AdLinkElement.md#url)
-
-### Methods
-
-- [init](AdLinkElement.md#init)
-- [toJSON](AdLinkElement.md#tojson)
-- [fromJS](AdLinkElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AdLinkElement(data)
 
-• **new AdLinkElement**(`data?`): [`AdLinkElement`](AdLinkElement.md)
+> **new AdLinkElement**(`data`?): [`AdLinkElement`](AdLinkElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAdLinkElement`](../interfaces/IAdLinkElement.md) |
+• **data?**: [`IAdLinkElement`](../interfaces/IAdLinkElement.md)
 
 #### Returns
 
 [`AdLinkElement`](AdLinkElement.md)
 
-#### Defined in
+#### Source
 
 main.ts:28437
 
 ## Properties
 
-### ad\_aclk
+### ad\_aclk?
 
-• `Optional` **ad\_aclk**: `string`
+> **`optional`** **ad\_aclk**: `string`
 
 the identifier of the ad
 
 #### Implementation of
 
-[IAdLinkElement](../interfaces/IAdLinkElement.md).[ad_aclk](../interfaces/IAdLinkElement.md#ad_aclk)
+[`IAdLinkElement`](../interfaces/IAdLinkElement.md).[`ad_aclk`](../interfaces/IAdLinkElement.md#ad_aclk)
 
-#### Defined in
+#### Source
 
 main.ts:28433
 
-___
+***
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description of the results element in SERP
 
 #### Implementation of
 
-[IAdLinkElement](../interfaces/IAdLinkElement.md).[description](../interfaces/IAdLinkElement.md#description)
+[`IAdLinkElement`](../interfaces/IAdLinkElement.md).[`description`](../interfaces/IAdLinkElement.md#description)
 
-#### Defined in
+#### Source
 
 main.ts:28427
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain where a link points
 
 #### Implementation of
 
-[IAdLinkElement](../interfaces/IAdLinkElement.md).[domain](../interfaces/IAdLinkElement.md#domain)
+[`IAdLinkElement`](../interfaces/IAdLinkElement.md).[`domain`](../interfaces/IAdLinkElement.md#domain)
 
-#### Defined in
+#### Source
 
 main.ts:28431
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the element
 
 #### Implementation of
 
-[IAdLinkElement](../interfaces/IAdLinkElement.md).[title](../interfaces/IAdLinkElement.md#title)
+[`IAdLinkElement`](../interfaces/IAdLinkElement.md).[`title`](../interfaces/IAdLinkElement.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:28425
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IAdLinkElement](../interfaces/IAdLinkElement.md).[type](../interfaces/IAdLinkElement.md#type)
+[`IAdLinkElement`](../interfaces/IAdLinkElement.md).[`type`](../interfaces/IAdLinkElement.md#type)
 
-#### Defined in
+#### Source
 
 main.ts:28423
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL
 
 #### Implementation of
 
-[IAdLinkElement](../interfaces/IAdLinkElement.md).[url](../interfaces/IAdLinkElement.md#url)
+[`IAdLinkElement`](../interfaces/IAdLinkElement.md).[`url`](../interfaces/IAdLinkElement.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:28429
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:28446
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:28468
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AdLinkElement`](AdLinkElement.md)
+> **`static`** **fromJS**(`data`): [`AdLinkElement`](AdLinkElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AdLinkElement`](AdLinkElement.md)
 
-#### Defined in
+#### Source
 
 main.ts:28461

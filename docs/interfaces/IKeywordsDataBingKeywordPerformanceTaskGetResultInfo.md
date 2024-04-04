@@ -1,101 +1,90 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataBingKeywordPerformanceTaskGetResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IKeywordsDataBingKeywordPerformanceTaskGetResultInfo
 
 # Interface: IKeywordsDataBingKeywordPerformanceTaskGetResultInfo
 
-## Implemented by
-
-- [`KeywordsDataBingKeywordPerformanceTaskGetResultInfo`](../classes/KeywordsDataBingKeywordPerformanceTaskGetResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [keyword](IKeywordsDataBingKeywordPerformanceTaskGetResultInfo.md#keyword)
-- [keyword\_kpi](IKeywordsDataBingKeywordPerformanceTaskGetResultInfo.md#keyword_kpi)
-- [language\_code](IKeywordsDataBingKeywordPerformanceTaskGetResultInfo.md#language_code)
-- [location\_code](IKeywordsDataBingKeywordPerformanceTaskGetResultInfo.md#location_code)
-- [month](IKeywordsDataBingKeywordPerformanceTaskGetResultInfo.md#month)
-- [year](IKeywordsDataBingKeywordPerformanceTaskGetResultInfo.md#year)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:132778
+main.ts:132786
 
-___
+***
 
-### keyword\_kpi
+### keyword\_kpi?
 
-• `Optional` **keyword\_kpi**: [`KeywordKpi`](../classes/KeywordKpi.md)
+> **`optional`** **keyword\_kpi**: [`KeywordKpi`](../classes/KeywordKpi.md)
 
 object containing keyword metrics
 if there is no data, then the value is null
 
-#### Defined in
+#### Source
 
-main.ts:132795
+main.ts:132803
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 if there is no data, then the value is null
 
-#### Defined in
+#### Source
 
-main.ts:132784
+main.ts:132792
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 if there is no data, then the value is null
 
-#### Defined in
+#### Source
 
-main.ts:132781
+main.ts:132789
 
-___
+***
 
-### month
+### month?
 
-• `Optional` **month**: `number`
+> **`optional`** **month**: `number`
 
 indicates the month for which the data is provided for
 example:
 10
 
-#### Defined in
+#### Source
 
-main.ts:132792
+main.ts:132800
 
-___
+***
 
-### year
+### year?
 
-• `Optional` **year**: `number`
+> **`optional`** **year**: `number`
 
 indicates the year for which the data is provided for
 example:
 2020
 
-#### Defined in
+#### Source
 
-main.ts:132788
+main.ts:132796

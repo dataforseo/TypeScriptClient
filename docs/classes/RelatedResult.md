@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / RelatedResult
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / RelatedResult
 
 # Class: RelatedResult
 
@@ -8,69 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](RelatedResult.md#constructor)
-
-### Properties
-
-- [about\_this\_result](RelatedResult.md#about_this_result)
-- [amp\_version](RelatedResult.md#amp_version)
-- [breadcrumb](RelatedResult.md#breadcrumb)
-- [cache\_url](RelatedResult.md#cache_url)
-- [description](RelatedResult.md#description)
-- [domain](RelatedResult.md#domain)
-- [extended\_snippet](RelatedResult.md#extended_snippet)
-- [highlighted](RelatedResult.md#highlighted)
-- [images](RelatedResult.md#images)
-- [is\_image](RelatedResult.md#is_image)
-- [is\_video](RelatedResult.md#is_video)
-- [pre\_snippet](RelatedResult.md#pre_snippet)
-- [price](RelatedResult.md#price)
-- [rating](RelatedResult.md#rating)
-- [related\_search\_url](RelatedResult.md#related_search_url)
-- [timestamp](RelatedResult.md#timestamp)
-- [title](RelatedResult.md#title)
-- [type](RelatedResult.md#type)
-- [url](RelatedResult.md#url)
-- [website\_name](RelatedResult.md#website_name)
-- [xpath](RelatedResult.md#xpath)
-
-### Methods
-
-- [init](RelatedResult.md#init)
-- [toJSON](RelatedResult.md#tojson)
-- [fromJS](RelatedResult.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new RelatedResult(data)
 
-• **new RelatedResult**(`data?`): [`RelatedResult`](RelatedResult.md)
+> **new RelatedResult**(`data`?): [`RelatedResult`](RelatedResult.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IRelatedResult`](../interfaces/IRelatedResult.md) |
+• **data?**: [`IRelatedResult`](../interfaces/IRelatedResult.md)
 
 #### Returns
 
 [`RelatedResult`](RelatedResult.md)
 
-#### Defined in
+#### Source
 
 main.ts:28765
 
 ## Properties
 
-### about\_this\_result
+### about\_this\_result?
 
-• `Optional` **about\_this\_result**: [`AboutThisResultElement`](AboutThisResultElement.md)
+> **`optional`** **about\_this\_result**: [`AboutThisResultElement`](AboutThisResultElement.md)
 
 contains information from the ‘About this result’ panel
 ‘About this result’ panel provides additional context about why Google returned this result for the given query;
@@ -78,244 +44,244 @@ this feature appears after clicking on the three dots next to most results
 
 #### Implementation of
 
-[IRelatedResult](../interfaces/IRelatedResult.md).[about_this_result](../interfaces/IRelatedResult.md#about_this_result)
+[`IRelatedResult`](../interfaces/IRelatedResult.md).[`about_this_result`](../interfaces/IRelatedResult.md#about_this_result)
 
-#### Defined in
+#### Source
 
 main.ts:28756
 
-___
+***
 
-### amp\_version
+### amp\_version?
 
-• `Optional` **amp\_version**: `boolean`
+> **`optional`** **amp\_version**: `boolean`
 
 Accelerated Mobile Pages
 indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 #### Implementation of
 
-[IRelatedResult](../interfaces/IRelatedResult.md).[amp_version](../interfaces/IRelatedResult.md#amp_version)
+[`IRelatedResult`](../interfaces/IRelatedResult.md).[`amp_version`](../interfaces/IRelatedResult.md#amp_version)
 
-#### Defined in
+#### Source
 
 main.ts:28745
 
-___
+***
 
-### breadcrumb
+### breadcrumb?
 
-• `Optional` **breadcrumb**: `string`
+> **`optional`** **breadcrumb**: `string`
 
 breadcrumb in SERP
 
 #### Implementation of
 
-[IRelatedResult](../interfaces/IRelatedResult.md).[breadcrumb](../interfaces/IRelatedResult.md#breadcrumb)
+[`IRelatedResult`](../interfaces/IRelatedResult.md).[`breadcrumb`](../interfaces/IRelatedResult.md#breadcrumb)
 
-#### Defined in
+#### Source
 
 main.ts:28728
 
-___
+***
 
-### cache\_url
+### cache\_url?
 
-• `Optional` **cache\_url**: `string`
+> **`optional`** **cache\_url**: `string`
 
 cached version of the page
 
 #### Implementation of
 
-[IRelatedResult](../interfaces/IRelatedResult.md).[cache_url](../interfaces/IRelatedResult.md#cache_url)
+[`IRelatedResult`](../interfaces/IRelatedResult.md).[`cache_url`](../interfaces/IRelatedResult.md#cache_url)
 
-#### Defined in
+#### Source
 
 main.ts:28723
 
-___
+***
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description of the hotel booking element
 
 #### Implementation of
 
-[IRelatedResult](../interfaces/IRelatedResult.md).[description](../interfaces/IRelatedResult.md#description)
+[`IRelatedResult`](../interfaces/IRelatedResult.md).[`description`](../interfaces/IRelatedResult.md#description)
 
-#### Defined in
+#### Source
 
 main.ts:28736
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain where a link points
 
 #### Implementation of
 
-[IRelatedResult](../interfaces/IRelatedResult.md).[domain](../interfaces/IRelatedResult.md#domain)
+[`IRelatedResult`](../interfaces/IRelatedResult.md).[`domain`](../interfaces/IRelatedResult.md#domain)
 
-#### Defined in
+#### Source
 
 main.ts:28717
 
-___
+***
 
-### extended\_snippet
+### extended\_snippet?
 
-• `Optional` **extended\_snippet**: `string`
+> **`optional`** **extended\_snippet**: `string`
 
 includes additional information appended after the result description in SERP
 
 #### Implementation of
 
-[IRelatedResult](../interfaces/IRelatedResult.md).[extended_snippet](../interfaces/IRelatedResult.md#extended_snippet)
+[`IRelatedResult`](../interfaces/IRelatedResult.md).[`extended_snippet`](../interfaces/IRelatedResult.md#extended_snippet)
 
-#### Defined in
+#### Source
 
 main.ts:28740
 
-___
+***
 
-### highlighted
+### highlighted?
 
-• `Optional` **highlighted**: `string`[]
+> **`optional`** **highlighted**: `string`[]
 
 words highlighted in bold within the results description
 
 #### Implementation of
 
-[IRelatedResult](../interfaces/IRelatedResult.md).[highlighted](../interfaces/IRelatedResult.md#highlighted)
+[`IRelatedResult`](../interfaces/IRelatedResult.md).[`highlighted`](../interfaces/IRelatedResult.md#highlighted)
 
-#### Defined in
+#### Source
 
 main.ts:28752
 
-___
+***
 
-### images
+### images?
 
-• `Optional` **images**: [`ImagesElement`](ImagesElement.md)[]
+> **`optional`** **images**: [`ImagesElement`](ImagesElement.md)[]
 
 images of the element
 
 #### Implementation of
 
-[IRelatedResult](../interfaces/IRelatedResult.md).[images](../interfaces/IRelatedResult.md#images)
+[`IRelatedResult`](../interfaces/IRelatedResult.md).[`images`](../interfaces/IRelatedResult.md#images)
 
-#### Defined in
+#### Source
 
 main.ts:28742
 
-___
+***
 
-### is\_image
+### is\_image?
 
-• `Optional` **is\_image**: `boolean`
+> **`optional`** **is\_image**: `boolean`
 
 indicates whether the element contains an image
 
 #### Implementation of
 
-[IRelatedResult](../interfaces/IRelatedResult.md).[is_image](../interfaces/IRelatedResult.md#is_image)
+[`IRelatedResult`](../interfaces/IRelatedResult.md).[`is_image`](../interfaces/IRelatedResult.md#is_image)
 
-#### Defined in
+#### Source
 
 main.ts:28732
 
-___
+***
 
-### is\_video
+### is\_video?
 
-• `Optional` **is\_video**: `boolean`
+> **`optional`** **is\_video**: `boolean`
 
 indicates whether the element contains a video
 
 #### Implementation of
 
-[IRelatedResult](../interfaces/IRelatedResult.md).[is_video](../interfaces/IRelatedResult.md#is_video)
+[`IRelatedResult`](../interfaces/IRelatedResult.md).[`is_video`](../interfaces/IRelatedResult.md#is_video)
 
-#### Defined in
+#### Source
 
 main.ts:28734
 
-___
+***
 
-### pre\_snippet
+### pre\_snippet?
 
-• `Optional` **pre\_snippet**: `string`
+> **`optional`** **pre\_snippet**: `string`
 
 includes additional information appended before the result description in SERP
 
 #### Implementation of
 
-[IRelatedResult](../interfaces/IRelatedResult.md).[pre_snippet](../interfaces/IRelatedResult.md#pre_snippet)
+[`IRelatedResult`](../interfaces/IRelatedResult.md).[`pre_snippet`](../interfaces/IRelatedResult.md#pre_snippet)
 
-#### Defined in
+#### Source
 
 main.ts:28738
 
-___
+***
 
-### price
+### price?
 
-• `Optional` **price**: [`PriceInfo`](PriceInfo.md)
+> **`optional`** **price**: [`PriceInfo`](PriceInfo.md)
 
 price of booking a place for the specified dates of stay
 
 #### Implementation of
 
-[IRelatedResult](../interfaces/IRelatedResult.md).[price](../interfaces/IRelatedResult.md#price)
+[`IRelatedResult`](../interfaces/IRelatedResult.md).[`price`](../interfaces/IRelatedResult.md#price)
 
-#### Defined in
+#### Source
 
 main.ts:28750
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](RatingInfo.md)
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
 
-[IRelatedResult](../interfaces/IRelatedResult.md).[rating](../interfaces/IRelatedResult.md#rating)
+[`IRelatedResult`](../interfaces/IRelatedResult.md).[`rating`](../interfaces/IRelatedResult.md#rating)
 
-#### Defined in
+#### Source
 
 main.ts:28748
 
-___
+***
 
-### related\_search\_url
+### related\_search\_url?
 
-• `Optional` **related\_search\_url**: `string`
+> **`optional`** **related\_search\_url**: `string`
 
 URL to a similar search
 URL to a new search for the same keyword(s) on related sites
 
 #### Implementation of
 
-[IRelatedResult](../interfaces/IRelatedResult.md).[related_search_url](../interfaces/IRelatedResult.md#related_search_url)
+[`IRelatedResult`](../interfaces/IRelatedResult.md).[`related_search_url`](../interfaces/IRelatedResult.md#related_search_url)
 
-#### Defined in
+#### Source
 
 main.ts:28726
 
-___
+***
 
-### timestamp
+### timestamp?
 
-• `Optional` **timestamp**: `string`
+> **`optional`** **timestamp**: `string`
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -324,148 +290,142 @@ example:
 
 #### Implementation of
 
-[IRelatedResult](../interfaces/IRelatedResult.md).[timestamp](../interfaces/IRelatedResult.md#timestamp)
+[`IRelatedResult`](../interfaces/IRelatedResult.md).[`timestamp`](../interfaces/IRelatedResult.md#timestamp)
 
-#### Defined in
+#### Source
 
 main.ts:28761
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
 #### Implementation of
 
-[IRelatedResult](../interfaces/IRelatedResult.md).[title](../interfaces/IRelatedResult.md#title)
+[`IRelatedResult`](../interfaces/IRelatedResult.md).[`title`](../interfaces/IRelatedResult.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:28719
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IRelatedResult](../interfaces/IRelatedResult.md).[type](../interfaces/IRelatedResult.md#type)
+[`IRelatedResult`](../interfaces/IRelatedResult.md).[`type`](../interfaces/IRelatedResult.md#type)
 
-#### Defined in
+#### Source
 
 main.ts:28713
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL of element
 
 #### Implementation of
 
-[IRelatedResult](../interfaces/IRelatedResult.md).[url](../interfaces/IRelatedResult.md#url)
+[`IRelatedResult`](../interfaces/IRelatedResult.md).[`url`](../interfaces/IRelatedResult.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:28721
 
-___
+***
 
-### website\_name
+### website\_name?
 
-• `Optional` **website\_name**: `string`
+> **`optional`** **website\_name**: `string`
 
 name of the website in SERP
 
 #### Implementation of
 
-[IRelatedResult](../interfaces/IRelatedResult.md).[website_name](../interfaces/IRelatedResult.md#website_name)
+[`IRelatedResult`](../interfaces/IRelatedResult.md).[`website_name`](../interfaces/IRelatedResult.md#website_name)
 
-#### Defined in
+#### Source
 
 main.ts:28730
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IRelatedResult](../interfaces/IRelatedResult.md).[xpath](../interfaces/IRelatedResult.md#xpath)
+[`IRelatedResult`](../interfaces/IRelatedResult.md).[`xpath`](../interfaces/IRelatedResult.md#xpath)
 
-#### Defined in
+#### Source
 
 main.ts:28715
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:28774
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:28819
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`RelatedResult`](RelatedResult.md)
+> **`static`** **fromJS**(`data`): [`RelatedResult`](RelatedResult.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`RelatedResult`](RelatedResult.md)
 
-#### Defined in
+#### Source
 
 main.ts:28812

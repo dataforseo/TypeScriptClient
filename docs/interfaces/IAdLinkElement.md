@@ -1,94 +1,83 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAdLinkElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAdLinkElement
 
 # Interface: IAdLinkElement
 
-## Implemented by
-
-- [`AdLinkElement`](../classes/AdLinkElement.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [ad\_aclk](IAdLinkElement.md#ad_aclk)
-- [description](IAdLinkElement.md#description)
-- [domain](IAdLinkElement.md#domain)
-- [title](IAdLinkElement.md#title)
-- [type](IAdLinkElement.md#type)
-- [url](IAdLinkElement.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### ad\_aclk
+### ad\_aclk?
 
-• `Optional` **ad\_aclk**: `string`
+> **`optional`** **ad\_aclk**: `string`
 
 the identifier of the ad
 
-#### Defined in
+#### Source
 
 main.ts:28496
 
-___
+***
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description of the results element in SERP
 
-#### Defined in
+#### Source
 
 main.ts:28490
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain where a link points
 
-#### Defined in
+#### Source
 
 main.ts:28494
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the element
 
-#### Defined in
+#### Source
 
 main.ts:28488
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
 main.ts:28486
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL
 
-#### Defined in
+#### Source
 
 main.ts:28492

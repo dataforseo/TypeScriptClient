@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataTaskRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataTaskRequestInfo
 
 # Class: KeywordsDataTaskRequestInfo
 
-## Hierarchy
+## Extended by
 
-- **`KeywordsDataTaskRequestInfo`**
-
-  ↳ [`KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo.md)
+- [`KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo.md)
 
 ## Implements
 
@@ -14,62 +16,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataTaskRequestInfo.md#constructor)
-
-### Properties
-
-- [date\_from](KeywordsDataTaskRequestInfo.md#date_from)
-- [date\_to](KeywordsDataTaskRequestInfo.md#date_to)
-- [include\_adult\_keywords](KeywordsDataTaskRequestInfo.md#include_adult_keywords)
-- [keywords](KeywordsDataTaskRequestInfo.md#keywords)
-- [language\_code](KeywordsDataTaskRequestInfo.md#language_code)
-- [language\_name](KeywordsDataTaskRequestInfo.md#language_name)
-- [location\_code](KeywordsDataTaskRequestInfo.md#location_code)
-- [location\_coordinate](KeywordsDataTaskRequestInfo.md#location_coordinate)
-- [location\_name](KeywordsDataTaskRequestInfo.md#location_name)
-- [pingback\_url](KeywordsDataTaskRequestInfo.md#pingback_url)
-- [postback\_url](KeywordsDataTaskRequestInfo.md#postback_url)
-- [search\_partners](KeywordsDataTaskRequestInfo.md#search_partners)
-- [sort\_by](KeywordsDataTaskRequestInfo.md#sort_by)
-- [tag](KeywordsDataTaskRequestInfo.md#tag)
-
-### Methods
-
-- [init](KeywordsDataTaskRequestInfo.md#init)
-- [toJSON](KeywordsDataTaskRequestInfo.md#tojson)
-- [fromJS](KeywordsDataTaskRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordsDataTaskRequestInfo(data)
 
-• **new KeywordsDataTaskRequestInfo**(`data?`): [`KeywordsDataTaskRequestInfo`](KeywordsDataTaskRequestInfo.md)
+> **new KeywordsDataTaskRequestInfo**(`data`?): [`KeywordsDataTaskRequestInfo`](KeywordsDataTaskRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordsDataTaskRequestInfo`](../interfaces/IKeywordsDataTaskRequestInfo.md) |
+• **data?**: [`IKeywordsDataTaskRequestInfo`](../interfaces/IKeywordsDataTaskRequestInfo.md)
 
 #### Returns
 
 [`KeywordsDataTaskRequestInfo`](KeywordsDataTaskRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:71782
+main.ts:71790
 
 ## Properties
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -81,17 +52,17 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 #### Implementation of
 
-[IKeywordsDataTaskRequestInfo](../interfaces/IKeywordsDataTaskRequestInfo.md).[date_from](../interfaces/IKeywordsDataTaskRequestInfo.md#date_from)
+[`IKeywordsDataTaskRequestInfo`](../interfaces/IKeywordsDataTaskRequestInfo.md).[`date_from`](../interfaces/IKeywordsDataTaskRequestInfo.md#date_from)
 
-#### Defined in
+#### Source
 
-main.ts:71733
+main.ts:71741
 
-___
+***
 
-### date\_to
+### date\_to?
 
-• `Optional` **date\_to**: `string`
+> **`optional`** **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -103,17 +74,17 @@ example:
 
 #### Implementation of
 
-[IKeywordsDataTaskRequestInfo](../interfaces/IKeywordsDataTaskRequestInfo.md).[date_to](../interfaces/IKeywordsDataTaskRequestInfo.md#date_to)
+[`IKeywordsDataTaskRequestInfo`](../interfaces/IKeywordsDataTaskRequestInfo.md).[`date_to`](../interfaces/IKeywordsDataTaskRequestInfo.md#date_to)
 
-#### Defined in
+#### Source
 
-main.ts:71741
+main.ts:71749
 
-___
+***
 
-### include\_adult\_keywords
+### include\_adult\_keywords?
 
-• `Optional` **include\_adult\_keywords**: `boolean`
+> **`optional`** **include\_adult\_keywords**: `boolean`
 
 include keywords associated with adult content
 optional field
@@ -123,17 +94,17 @@ note that the API may return no data for such keywords due to Google Ads restr
 
 #### Implementation of
 
-[IKeywordsDataTaskRequestInfo](../interfaces/IKeywordsDataTaskRequestInfo.md).[include_adult_keywords](../interfaces/IKeywordsDataTaskRequestInfo.md#include_adult_keywords)
+[`IKeywordsDataTaskRequestInfo`](../interfaces/IKeywordsDataTaskRequestInfo.md).[`include_adult_keywords`](../interfaces/IKeywordsDataTaskRequestInfo.md#include_adult_keywords)
 
-#### Defined in
+#### Source
 
-main.ts:71747
+main.ts:71755
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 keywords
 required field
@@ -149,17 +120,17 @@ to learn more about which symbols can be used, please refer to this article
 
 #### Implementation of
 
-[IKeywordsDataTaskRequestInfo](../interfaces/IKeywordsDataTaskRequestInfo.md).[keywords](../interfaces/IKeywordsDataTaskRequestInfo.md#keywords)
+[`IKeywordsDataTaskRequestInfo`](../interfaces/IKeywordsDataTaskRequestInfo.md).[`keywords`](../interfaces/IKeywordsDataTaskRequestInfo.md#keywords)
 
-#### Defined in
+#### Source
 
-main.ts:71683
+main.ts:71691
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 optional field
@@ -169,17 +140,17 @@ en
 
 #### Implementation of
 
-[IKeywordsDataTaskRequestInfo](../interfaces/IKeywordsDataTaskRequestInfo.md).[language_code](../interfaces/IKeywordsDataTaskRequestInfo.md#language_code)
+[`IKeywordsDataTaskRequestInfo`](../interfaces/IKeywordsDataTaskRequestInfo.md).[`language_code`](../interfaces/IKeywordsDataTaskRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:71720
+main.ts:71728
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -189,17 +160,17 @@ English
 
 #### Implementation of
 
-[IKeywordsDataTaskRequestInfo](../interfaces/IKeywordsDataTaskRequestInfo.md).[language_name](../interfaces/IKeywordsDataTaskRequestInfo.md#language_name)
+[`IKeywordsDataTaskRequestInfo`](../interfaces/IKeywordsDataTaskRequestInfo.md).[`language_name`](../interfaces/IKeywordsDataTaskRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:71714
+main.ts:71722
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 optional field
@@ -211,17 +182,17 @@ example:
 
 #### Implementation of
 
-[IKeywordsDataTaskRequestInfo](../interfaces/IKeywordsDataTaskRequestInfo.md).[location_code](../interfaces/IKeywordsDataTaskRequestInfo.md#location_code)
+[`IKeywordsDataTaskRequestInfo`](../interfaces/IKeywordsDataTaskRequestInfo.md).[`location_code`](../interfaces/IKeywordsDataTaskRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:71699
+main.ts:71707
 
-___
+***
 
-### location\_coordinate
+### location\_coordinate?
 
-• `Optional` **location\_coordinate**: `string`
+> **`optional`** **location\_coordinate**: `string`
 
 GPS coordinates of a location
 optional field
@@ -234,17 +205,17 @@ example:
 
 #### Implementation of
 
-[IKeywordsDataTaskRequestInfo](../interfaces/IKeywordsDataTaskRequestInfo.md).[location_coordinate](../interfaces/IKeywordsDataTaskRequestInfo.md#location_coordinate)
+[`IKeywordsDataTaskRequestInfo`](../interfaces/IKeywordsDataTaskRequestInfo.md).[`location_coordinate`](../interfaces/IKeywordsDataTaskRequestInfo.md#location_coordinate)
 
-#### Defined in
+#### Source
 
-main.ts:71708
+main.ts:71716
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 optional field
@@ -256,17 +227,17 @@ London,England,United Kingdom
 
 #### Implementation of
 
-[IKeywordsDataTaskRequestInfo](../interfaces/IKeywordsDataTaskRequestInfo.md).[location_name](../interfaces/IKeywordsDataTaskRequestInfo.md#location_name)
+[`IKeywordsDataTaskRequestInfo`](../interfaces/IKeywordsDataTaskRequestInfo.md).[`location_name`](../interfaces/IKeywordsDataTaskRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:71691
+main.ts:71699
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -280,17 +251,17 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[IKeywordsDataTaskRequestInfo](../interfaces/IKeywordsDataTaskRequestInfo.md).[pingback_url](../interfaces/IKeywordsDataTaskRequestInfo.md#pingback_url)
+[`IKeywordsDataTaskRequestInfo`](../interfaces/IKeywordsDataTaskRequestInfo.md).[`pingback_url`](../interfaces/IKeywordsDataTaskRequestInfo.md#pingback_url)
 
-#### Defined in
+#### Source
 
-main.ts:71772
+main.ts:71780
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -304,17 +275,17 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[IKeywordsDataTaskRequestInfo](../interfaces/IKeywordsDataTaskRequestInfo.md).[postback_url](../interfaces/IKeywordsDataTaskRequestInfo.md#postback_url)
+[`IKeywordsDataTaskRequestInfo`](../interfaces/IKeywordsDataTaskRequestInfo.md).[`postback_url`](../interfaces/IKeywordsDataTaskRequestInfo.md#postback_url)
 
-#### Defined in
+#### Source
 
-main.ts:71762
+main.ts:71770
 
-___
+***
 
-### search\_partners
+### search\_partners?
 
-• `Optional` **search\_partners**: `boolean`
+> **`optional`** **search\_partners**: `boolean`
 
 include Google search partners
 optional field
@@ -323,17 +294,17 @@ default value: false – results are returned for Google search sites
 
 #### Implementation of
 
-[IKeywordsDataTaskRequestInfo](../interfaces/IKeywordsDataTaskRequestInfo.md).[search_partners](../interfaces/IKeywordsDataTaskRequestInfo.md#search_partners)
+[`IKeywordsDataTaskRequestInfo`](../interfaces/IKeywordsDataTaskRequestInfo.md).[`search_partners`](../interfaces/IKeywordsDataTaskRequestInfo.md#search_partners)
 
-#### Defined in
+#### Source
 
-main.ts:71725
+main.ts:71733
 
-___
+***
 
-### sort\_by
+### sort\_by?
 
-• `Optional` **sort\_by**: `string`
+> **`optional`** **sort\_by**: `string`
 
 results sorting parameters
 optional field
@@ -342,17 +313,17 @@ default value: relevance
 
 #### Implementation of
 
-[IKeywordsDataTaskRequestInfo](../interfaces/IKeywordsDataTaskRequestInfo.md).[sort_by](../interfaces/IKeywordsDataTaskRequestInfo.md#sort_by)
+[`IKeywordsDataTaskRequestInfo`](../interfaces/IKeywordsDataTaskRequestInfo.md).[`sort_by`](../interfaces/IKeywordsDataTaskRequestInfo.md#sort_by)
 
-#### Defined in
+#### Source
 
-main.ts:71752
+main.ts:71760
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -362,68 +333,62 @@ you will find the specified tag value in the data array of the response
 
 #### Implementation of
 
-[IKeywordsDataTaskRequestInfo](../interfaces/IKeywordsDataTaskRequestInfo.md).[tag](../interfaces/IKeywordsDataTaskRequestInfo.md#tag)
+[`IKeywordsDataTaskRequestInfo`](../interfaces/IKeywordsDataTaskRequestInfo.md).[`tag`](../interfaces/IKeywordsDataTaskRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:71778
+main.ts:71786
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:71791
+main.ts:71799
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:71825
+main.ts:71833
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordsDataTaskRequestInfo`](KeywordsDataTaskRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordsDataTaskRequestInfo`](KeywordsDataTaskRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`KeywordsDataTaskRequestInfo`](KeywordsDataTaskRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:71818
+main.ts:71826

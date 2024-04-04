@@ -1,81 +1,71 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo
 
 # Interface: IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo
 
-## Implemented by
-
-- [`DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](../classes/DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [date\_from](IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md#date_from)
-- [date\_to](IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md#date_to)
-- [items](IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md#items)
-- [items\_count](IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md#items_count)
-- [technology](IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md#technology)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of the time range
 
-#### Defined in
+#### Source
 
-main.ts:76170
+main.ts:76178
 
-___
+***
 
-### date\_to
+### date\_to?
 
-• `Optional` **date\_to**: `string`
+> **`optional`** **date\_to**: `string`
 
 ending date of the time range
 
-#### Defined in
+#### Source
 
-main.ts:76172
+main.ts:76180
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`DomainAnalyticsTechnologiesTechnologyStatsLiveItem`](../classes/DomainAnalyticsTechnologiesTechnologyStatsLiveItem.md)[]
+> **`optional`** **items**: [`DomainAnalyticsTechnologiesTechnologyStatsLiveItem`](../classes/DomainAnalyticsTechnologiesTechnologyStatsLiveItem.md)[]
 
 items array
 
-#### Defined in
+#### Source
 
-main.ts:76176
+main.ts:76184
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 number of items in the results array
 
-#### Defined in
+#### Source
 
-main.ts:76174
+main.ts:76182
 
-___
+***
 
-### technology
+### technology?
 
-• `Optional` **technology**: `string`
+> **`optional`** **technology**: `string`
 
 target technology
 
-#### Defined in
+#### Source
 
-main.ts:76168
+main.ts:76176

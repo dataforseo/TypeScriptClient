@@ -1,71 +1,61 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixBusinessDataGoogleInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppendixBusinessDataGoogleInfo
 
 # Interface: IAppendixBusinessDataGoogleInfo
 
-## Implemented by
-
-- [`AppendixBusinessDataGoogleInfo`](../classes/AppendixBusinessDataGoogleInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [hotel\_info](IAppendixBusinessDataGoogleInfo.md#hotel_info)
-- [hotel\_searches](IAppendixBusinessDataGoogleInfo.md#hotel_searches)
-- [my\_business\_info](IAppendixBusinessDataGoogleInfo.md#my_business_info)
-- [my\_business\_updates](IAppendixBusinessDataGoogleInfo.md#my_business_updates)
-- [reviews](IAppendixBusinessDataGoogleInfo.md#reviews)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### hotel\_info
+### hotel\_info?
 
-• `Optional` **hotel\_info**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
+> **`optional`** **hotel\_info**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:213382
 
-___
+***
 
-### hotel\_searches
+### hotel\_searches?
 
-• `Optional` **hotel\_searches**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **hotel\_searches**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:213383
 
-___
+***
 
-### my\_business\_info
+### my\_business\_info?
 
-• `Optional` **my\_business\_info**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **my\_business\_info**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:213380
 
-___
+***
 
-### my\_business\_updates
+### my\_business\_updates?
 
-• `Optional` **my\_business\_updates**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **my\_business\_updates**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:213381
 
-___
+***
 
-### reviews
+### reviews?
 
-• `Optional` **reviews**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **reviews**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:213384

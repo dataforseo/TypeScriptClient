@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / VideoSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / VideoSerpElementItem
 
 # Class: VideoSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-  ↳ **`VideoSerpElementItem`**
 
 ## Implements
 
@@ -14,41 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](VideoSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](VideoSerpElementItem.md#_discriminator)
-- [items](VideoSerpElementItem.md#items)
-- [position](VideoSerpElementItem.md#position)
-- [rank\_absolute](VideoSerpElementItem.md#rank_absolute)
-- [rank\_group](VideoSerpElementItem.md#rank_group)
-- [rectangle](VideoSerpElementItem.md#rectangle)
-- [xpath](VideoSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](VideoSerpElementItem.md#init)
-- [toJSON](VideoSerpElementItem.md#tojson)
-- [fromJS](VideoSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new VideoSerpElementItem(data)
 
-• **new VideoSerpElementItem**(`data?`): [`VideoSerpElementItem`](VideoSerpElementItem.md)
+> **new VideoSerpElementItem**(`data`?): [`VideoSerpElementItem`](VideoSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IVideoSerpElementItem`](../interfaces/IVideoSerpElementItem.md) |
+• **data?**: [`IVideoSerpElementItem`](../interfaces/IVideoSerpElementItem.md)
 
 #### Returns
 
@@ -56,9 +34,9 @@
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[constructor](BaseSerpElementItem.md#constructor)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:31009
 
@@ -66,38 +44,38 @@ main.ts:31009
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[_discriminator](BaseSerpElementItem.md#_discriminator)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:19788
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`VideoElement`](VideoElement.md)[]
+> **`optional`** **items**: [`VideoElement`](VideoElement.md)[]
 
 additional items present in the element
 if there are none, equals null
 
 #### Implementation of
 
-[IVideoSerpElementItem](../interfaces/IVideoSerpElementItem.md).[items](../interfaces/IVideoSerpElementItem.md#items)
+[`IVideoSerpElementItem`](../interfaces/IVideoSerpElementItem.md).[`items`](../interfaces/IVideoSerpElementItem.md#items)
 
-#### Defined in
+#### Source
 
 main.ts:31001
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -105,17 +83,17 @@ left, right
 
 #### Implementation of
 
-[IVideoSerpElementItem](../interfaces/IVideoSerpElementItem.md).[position](../interfaces/IVideoSerpElementItem.md#position)
+[`IVideoSerpElementItem`](../interfaces/IVideoSerpElementItem.md).[`position`](../interfaces/IVideoSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
 main.ts:30996
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -123,17 +101,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IVideoSerpElementItem](../interfaces/IVideoSerpElementItem.md).[rank_absolute](../interfaces/IVideoSerpElementItem.md#rank_absolute)
+[`IVideoSerpElementItem`](../interfaces/IVideoSerpElementItem.md).[`rank_absolute`](../interfaces/IVideoSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
 main.ts:30992
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
@@ -142,17 +120,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IVideoSerpElementItem](../interfaces/IVideoSerpElementItem.md).[rank_group](../interfaces/IVideoSerpElementItem.md#rank_group)
+[`IVideoSerpElementItem`](../interfaces/IVideoSerpElementItem.md).[`rank_group`](../interfaces/IVideoSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
 main.ts:30988
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -160,39 +138,37 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Implementation of
 
-[IVideoSerpElementItem](../interfaces/IVideoSerpElementItem.md).[rectangle](../interfaces/IVideoSerpElementItem.md#rectangle)
+[`IVideoSerpElementItem`](../interfaces/IVideoSerpElementItem.md).[`rectangle`](../interfaces/IVideoSerpElementItem.md#rectangle)
 
-#### Defined in
+#### Source
 
 main.ts:31005
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IVideoSerpElementItem](../interfaces/IVideoSerpElementItem.md).[xpath](../interfaces/IVideoSerpElementItem.md#xpath)
+[`IVideoSerpElementItem`](../interfaces/IVideoSerpElementItem.md).[`xpath`](../interfaces/IVideoSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
 main.ts:30998
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -200,23 +176,21 @@ main.ts:30998
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[init](BaseSerpElementItem.md#init)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:31014
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -224,23 +198,21 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[toJSON](BaseSerpElementItem.md#tojson)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:31041
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`VideoSerpElementItem`](VideoSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`VideoSerpElementItem`](VideoSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -248,8 +220,8 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[fromJS](BaseSerpElementItem.md#fromjs)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:31034

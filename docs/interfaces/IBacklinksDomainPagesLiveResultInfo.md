@@ -1,68 +1,59 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksDomainPagesLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBacklinksDomainPagesLiveResultInfo
 
 # Interface: IBacklinksDomainPagesLiveResultInfo
 
-## Implemented by
-
-- [`BacklinksDomainPagesLiveResultInfo`](../classes/BacklinksDomainPagesLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](IBacklinksDomainPagesLiveResultInfo.md#items)
-- [items\_count](IBacklinksDomainPagesLiveResultInfo.md#items_count)
-- [target](IBacklinksDomainPagesLiveResultInfo.md#target)
-- [total\_count](IBacklinksDomainPagesLiveResultInfo.md#total_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`BacklinksDomainPagesLiveItem`](../classes/BacklinksDomainPagesLiveItem.md)[]
+> **`optional`** **items**: [`BacklinksDomainPagesLiveItem`](../classes/BacklinksDomainPagesLiveItem.md)[]
 
 items array
 
-#### Defined in
+#### Source
 
-main.ts:138889
+main.ts:138897
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 number of items in the items array
 
-#### Defined in
+#### Source
 
-main.ts:138887
+main.ts:138895
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 target in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:138883
+main.ts:138891
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 total number of relevant items in the database
 
-#### Defined in
+#### Source
 
-main.ts:138885
+main.ts:138893

@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleTrendsLanguagesResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataGoogleTrendsLanguagesResponseInfo
 
 # Class: KeywordsDataGoogleTrendsLanguagesResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`KeywordsDataGoogleTrendsLanguagesResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataGoogleTrendsLanguagesResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](KeywordsDataGoogleTrendsLanguagesResponseInfo.md#cost)
-- [status\_code](KeywordsDataGoogleTrendsLanguagesResponseInfo.md#status_code)
-- [status\_message](KeywordsDataGoogleTrendsLanguagesResponseInfo.md#status_message)
-- [tasks](KeywordsDataGoogleTrendsLanguagesResponseInfo.md#tasks)
-- [tasks\_count](KeywordsDataGoogleTrendsLanguagesResponseInfo.md#tasks_count)
-- [tasks\_error](KeywordsDataGoogleTrendsLanguagesResponseInfo.md#tasks_error)
-- [time](KeywordsDataGoogleTrendsLanguagesResponseInfo.md#time)
-- [version](KeywordsDataGoogleTrendsLanguagesResponseInfo.md#version)
-
-### Methods
-
-- [init](KeywordsDataGoogleTrendsLanguagesResponseInfo.md#init)
-- [toJSON](KeywordsDataGoogleTrendsLanguagesResponseInfo.md#tojson)
-- [fromJS](KeywordsDataGoogleTrendsLanguagesResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordsDataGoogleTrendsLanguagesResponseInfo(data)
 
-• **new KeywordsDataGoogleTrendsLanguagesResponseInfo**(`data?`): [`KeywordsDataGoogleTrendsLanguagesResponseInfo`](KeywordsDataGoogleTrendsLanguagesResponseInfo.md)
+> **new KeywordsDataGoogleTrendsLanguagesResponseInfo**(`data`?): [`KeywordsDataGoogleTrendsLanguagesResponseInfo`](KeywordsDataGoogleTrendsLanguagesResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordsDataGoogleTrendsLanguagesResponseInfo`](../interfaces/IKeywordsDataGoogleTrendsLanguagesResponseInfo.md) |
+• **data?**: [`IKeywordsDataGoogleTrendsLanguagesResponseInfo`](../interfaces/IKeywordsDataGoogleTrendsLanguagesResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:121927
+main.ts:121935
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsLanguagesResponseInfo](../interfaces/IKeywordsDataGoogleTrendsLanguagesResponseInfo.md).[cost](../interfaces/IKeywordsDataGoogleTrendsLanguagesResponseInfo.md#cost)
+[`IKeywordsDataGoogleTrendsLanguagesResponseInfo`](../interfaces/IKeywordsDataGoogleTrendsLanguagesResponseInfo.md).[`cost`](../interfaces/IKeywordsDataGoogleTrendsLanguagesResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsLanguagesResponseInfo](../interfaces/IKeywordsDataGoogleTrendsLanguagesResponseInfo.md).[status_code](../interfaces/IKeywordsDataGoogleTrendsLanguagesResponseInfo.md#status_code)
+[`IKeywordsDataGoogleTrendsLanguagesResponseInfo`](../interfaces/IKeywordsDataGoogleTrendsLanguagesResponseInfo.md).[`status_code`](../interfaces/IKeywordsDataGoogleTrendsLanguagesResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsLanguagesResponseInfo](../interfaces/IKeywordsDataGoogleTrendsLanguagesResponseInfo.md).[status_message](../interfaces/IKeywordsDataGoogleTrendsLanguagesResponseInfo.md#status_message)
+[`IKeywordsDataGoogleTrendsLanguagesResponseInfo`](../interfaces/IKeywordsDataGoogleTrendsLanguagesResponseInfo.md).[`status_message`](../interfaces/IKeywordsDataGoogleTrendsLanguagesResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`KeywordsDataGoogleTrendsLanguagesTaskInfo`](KeywordsDataGoogleTrendsLanguagesTaskInfo.md)[]
+> **`optional`** **tasks**: [`KeywordsDataGoogleTrendsLanguagesTaskInfo`](KeywordsDataGoogleTrendsLanguagesTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsLanguagesResponseInfo](../interfaces/IKeywordsDataGoogleTrendsLanguagesResponseInfo.md).[tasks](../interfaces/IKeywordsDataGoogleTrendsLanguagesResponseInfo.md#tasks)
+[`IKeywordsDataGoogleTrendsLanguagesResponseInfo`](../interfaces/IKeywordsDataGoogleTrendsLanguagesResponseInfo.md).[`tasks`](../interfaces/IKeywordsDataGoogleTrendsLanguagesResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:121923
+main.ts:121931
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsLanguagesResponseInfo](../interfaces/IKeywordsDataGoogleTrendsLanguagesResponseInfo.md).[tasks_count](../interfaces/IKeywordsDataGoogleTrendsLanguagesResponseInfo.md#tasks_count)
+[`IKeywordsDataGoogleTrendsLanguagesResponseInfo`](../interfaces/IKeywordsDataGoogleTrendsLanguagesResponseInfo.md).[`tasks_count`](../interfaces/IKeywordsDataGoogleTrendsLanguagesResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsLanguagesResponseInfo](../interfaces/IKeywordsDataGoogleTrendsLanguagesResponseInfo.md).[tasks_error](../interfaces/IKeywordsDataGoogleTrendsLanguagesResponseInfo.md#tasks_error)
+[`IKeywordsDataGoogleTrendsLanguagesResponseInfo`](../interfaces/IKeywordsDataGoogleTrendsLanguagesResponseInfo.md).[`tasks_error`](../interfaces/IKeywordsDataGoogleTrendsLanguagesResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsLanguagesResponseInfo](../interfaces/IKeywordsDataGoogleTrendsLanguagesResponseInfo.md).[time](../interfaces/IKeywordsDataGoogleTrendsLanguagesResponseInfo.md#time)
+[`IKeywordsDataGoogleTrendsLanguagesResponseInfo`](../interfaces/IKeywordsDataGoogleTrendsLanguagesResponseInfo.md).[`time`](../interfaces/IKeywordsDataGoogleTrendsLanguagesResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsLanguagesResponseInfo](../interfaces/IKeywordsDataGoogleTrendsLanguagesResponseInfo.md).[version](../interfaces/IKeywordsDataGoogleTrendsLanguagesResponseInfo.md#version)
+[`IKeywordsDataGoogleTrendsLanguagesResponseInfo`](../interfaces/IKeywordsDataGoogleTrendsLanguagesResponseInfo.md).[`version`](../interfaces/IKeywordsDataGoogleTrendsLanguagesResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:121931
+main.ts:121939
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:121953
+main.ts:121961
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordsDataGoogleTrendsLanguagesResponseInfo`](KeywordsDataGoogleTrendsLanguagesResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordsDataGoogleTrendsLanguagesResponseInfo`](KeywordsDataGoogleTrendsLanguagesResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:121946
+main.ts:121954

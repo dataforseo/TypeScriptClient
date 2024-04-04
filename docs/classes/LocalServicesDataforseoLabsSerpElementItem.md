@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / LocalServicesDataforseoLabsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / LocalServicesDataforseoLabsSerpElementItem
 
 # Class: LocalServicesDataforseoLabsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
-
-  ↳ **`LocalServicesDataforseoLabsSerpElementItem`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](LocalServicesDataforseoLabsSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](LocalServicesDataforseoLabsSerpElementItem.md#_discriminator)
-- [domain](LocalServicesDataforseoLabsSerpElementItem.md#domain)
-- [items](LocalServicesDataforseoLabsSerpElementItem.md#items)
-- [position](LocalServicesDataforseoLabsSerpElementItem.md#position)
-- [rank\_absolute](LocalServicesDataforseoLabsSerpElementItem.md#rank_absolute)
-- [rank\_group](LocalServicesDataforseoLabsSerpElementItem.md#rank_group)
-- [title](LocalServicesDataforseoLabsSerpElementItem.md#title)
-- [url](LocalServicesDataforseoLabsSerpElementItem.md#url)
-- [xpath](LocalServicesDataforseoLabsSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](LocalServicesDataforseoLabsSerpElementItem.md#init)
-- [toJSON](LocalServicesDataforseoLabsSerpElementItem.md#tojson)
-- [fromJS](LocalServicesDataforseoLabsSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new LocalServicesDataforseoLabsSerpElementItem(data)
 
-• **new LocalServicesDataforseoLabsSerpElementItem**(`data?`): [`LocalServicesDataforseoLabsSerpElementItem`](LocalServicesDataforseoLabsSerpElementItem.md)
+> **new LocalServicesDataforseoLabsSerpElementItem**(`data`?): [`LocalServicesDataforseoLabsSerpElementItem`](LocalServicesDataforseoLabsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ILocalServicesDataforseoLabsSerpElementItem`](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md) |
+• **data?**: [`ILocalServicesDataforseoLabsSerpElementItem`](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md)
 
 #### Returns
 
@@ -58,63 +34,63 @@
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[constructor](BaseDataforseoLabsSerpElementItem.md#constructor)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:98398
+main.ts:98406
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[_discriminator](BaseDataforseoLabsSerpElementItem.md#_discriminator)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`_discriminator`](BaseDataforseoLabsSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:20171
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain where a link points
 
 #### Implementation of
 
-[ILocalServicesDataforseoLabsSerpElementItem](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md).[domain](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md#domain)
+[`ILocalServicesDataforseoLabsSerpElementItem`](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md).[`domain`](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md#domain)
 
-#### Defined in
+#### Source
 
-main.ts:98392
+main.ts:98400
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`LocalServicesElement`](LocalServicesElement.md)[]
+> **`optional`** **items**: [`LocalServicesElement`](LocalServicesElement.md)[]
 
 elements of search results found in SERP
 
 #### Implementation of
 
-[ILocalServicesDataforseoLabsSerpElementItem](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md).[items](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md#items)
+[`ILocalServicesDataforseoLabsSerpElementItem`](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md).[`items`](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:98394
+main.ts:98402
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -122,105 +98,103 @@ left, right
 
 #### Implementation of
 
-[ILocalServicesDataforseoLabsSerpElementItem](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md).[position](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md#position)
+[`ILocalServicesDataforseoLabsSerpElementItem`](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md).[`position`](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
-main.ts:98384
+main.ts:98392
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
 #### Implementation of
 
-[ILocalServicesDataforseoLabsSerpElementItem](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md).[rank_absolute](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md#rank_absolute)
+[`ILocalServicesDataforseoLabsSerpElementItem`](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md).[`rank_absolute`](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:98380
+main.ts:98388
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
-[ILocalServicesDataforseoLabsSerpElementItem](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md).[rank_group](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md#rank_group)
+[`ILocalServicesDataforseoLabsSerpElementItem`](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md).[`rank_group`](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
-main.ts:98377
+main.ts:98385
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the result in SERP
 
 #### Implementation of
 
-[ILocalServicesDataforseoLabsSerpElementItem](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md).[title](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md#title)
+[`ILocalServicesDataforseoLabsSerpElementItem`](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md).[`title`](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:98388
+main.ts:98396
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 relevant URL of the Ad element in SERP
 
 #### Implementation of
 
-[ILocalServicesDataforseoLabsSerpElementItem](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md).[url](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md#url)
+[`ILocalServicesDataforseoLabsSerpElementItem`](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md).[`url`](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:98390
+main.ts:98398
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[ILocalServicesDataforseoLabsSerpElementItem](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md).[xpath](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md#xpath)
+[`ILocalServicesDataforseoLabsSerpElementItem`](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md).[`xpath`](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
-main.ts:98386
+main.ts:98394
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -228,23 +202,21 @@ main.ts:98386
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[init](BaseDataforseoLabsSerpElementItem.md#init)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`init`](BaseDataforseoLabsSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:98403
+main.ts:98411
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -252,23 +224,21 @@ ___
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[toJSON](BaseDataforseoLabsSerpElementItem.md#tojson)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`toJSON`](BaseDataforseoLabsSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:98432
+main.ts:98440
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`LocalServicesDataforseoLabsSerpElementItem`](LocalServicesDataforseoLabsSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`LocalServicesDataforseoLabsSerpElementItem`](LocalServicesDataforseoLabsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -276,8 +246,8 @@ ___
 
 #### Overrides
 
-[BaseDataforseoLabsSerpElementItem](BaseDataforseoLabsSerpElementItem.md).[fromJS](BaseDataforseoLabsSerpElementItem.md#fromjs)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`fromJS`](BaseDataforseoLabsSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:98425
+main.ts:98433

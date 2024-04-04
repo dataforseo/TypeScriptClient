@@ -1,42 +1,35 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAmazonMetricsBundleInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAmazonMetricsBundleInfo
 
 # Interface: IAmazonMetricsBundleInfo
 
-## Implemented by
-
-- [`AmazonMetricsBundleInfo`](../classes/AmazonMetricsBundleInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [amazon\_paid](IAmazonMetricsBundleInfo.md#amazon_paid)
-- [amazon\_serp](IAmazonMetricsBundleInfo.md#amazon_serp)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### amazon\_paid
+### amazon\_paid?
 
-• `Optional` **amazon\_paid**: [`AppMetricsInfo`](../classes/AppMetricsInfo.md)
+> **`optional`** **amazon\_paid**: [`AppMetricsInfo`](../classes/AppMetricsInfo.md)
 
 ranking data from Amazon paid SERP
 
-#### Defined in
+#### Source
 
-main.ts:103076
+main.ts:103084
 
-___
+***
 
-### amazon\_serp
+### amazon\_serp?
 
-• `Optional` **amazon\_serp**: [`AppMetricsInfo`](../classes/AppMetricsInfo.md)
+> **`optional`** **amazon\_serp**: [`AppMetricsInfo`](../classes/AppMetricsInfo.md)
 
 ranking data from Amazon organic SERP
 
-#### Defined in
+#### Source
 
-main.ts:103074
+main.ts:103082

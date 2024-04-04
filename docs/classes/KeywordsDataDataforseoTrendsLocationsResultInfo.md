@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataDataforseoTrendsLocationsResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataDataforseoTrendsLocationsResultInfo
 
 # Class: KeywordsDataDataforseoTrendsLocationsResultInfo
 
@@ -8,121 +12,97 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataDataforseoTrendsLocationsResultInfo.md#constructor)
-
-### Properties
-
-- [country\_iso\_code](KeywordsDataDataforseoTrendsLocationsResultInfo.md#country_iso_code)
-- [geo\_id](KeywordsDataDataforseoTrendsLocationsResultInfo.md#geo_id)
-- [geo\_name](KeywordsDataDataforseoTrendsLocationsResultInfo.md#geo_name)
-- [location\_code](KeywordsDataDataforseoTrendsLocationsResultInfo.md#location_code)
-- [location\_code\_parent](KeywordsDataDataforseoTrendsLocationsResultInfo.md#location_code_parent)
-- [location\_name](KeywordsDataDataforseoTrendsLocationsResultInfo.md#location_name)
-- [location\_type](KeywordsDataDataforseoTrendsLocationsResultInfo.md#location_type)
-
-### Methods
-
-- [init](KeywordsDataDataforseoTrendsLocationsResultInfo.md#init)
-- [toJSON](KeywordsDataDataforseoTrendsLocationsResultInfo.md#tojson)
-- [fromJS](KeywordsDataDataforseoTrendsLocationsResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordsDataDataforseoTrendsLocationsResultInfo(data)
 
-• **new KeywordsDataDataforseoTrendsLocationsResultInfo**(`data?`): [`KeywordsDataDataforseoTrendsLocationsResultInfo`](KeywordsDataDataforseoTrendsLocationsResultInfo.md)
+> **new KeywordsDataDataforseoTrendsLocationsResultInfo**(`data`?): [`KeywordsDataDataforseoTrendsLocationsResultInfo`](KeywordsDataDataforseoTrendsLocationsResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordsDataDataforseoTrendsLocationsResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsLocationsResultInfo.md) |
+• **data?**: [`IKeywordsDataDataforseoTrendsLocationsResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsLocationsResultInfo.md)
 
 #### Returns
 
 [`KeywordsDataDataforseoTrendsLocationsResultInfo`](KeywordsDataDataforseoTrendsLocationsResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:124328
+main.ts:124336
 
 ## Properties
 
-### country\_iso\_code
+### country\_iso\_code?
 
-• `Optional` **country\_iso\_code**: `string`
+> **`optional`** **country\_iso\_code**: `string`
 
 ISO country code of the location
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsLocationsResultInfo](../interfaces/IKeywordsDataDataforseoTrendsLocationsResultInfo.md).[country_iso_code](../interfaces/IKeywordsDataDataforseoTrendsLocationsResultInfo.md#country_iso_code)
+[`IKeywordsDataDataforseoTrendsLocationsResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsLocationsResultInfo.md).[`country_iso_code`](../interfaces/IKeywordsDataDataforseoTrendsLocationsResultInfo.md#country_iso_code)
 
-#### Defined in
+#### Source
 
-main.ts:124315
+main.ts:124323
 
-___
+***
 
-### geo\_id
+### geo\_id?
 
-• `Optional` **geo\_id**: `string`
+> **`optional`** **geo\_id**: `string`
 
 DataForSEO trends location identifier
 you can use this field for matching obtained results with the location_code parameter specified in the request
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsLocationsResultInfo](../interfaces/IKeywordsDataDataforseoTrendsLocationsResultInfo.md).[geo_id](../interfaces/IKeywordsDataDataforseoTrendsLocationsResultInfo.md#geo_id)
+[`IKeywordsDataDataforseoTrendsLocationsResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsLocationsResultInfo.md).[`geo_id`](../interfaces/IKeywordsDataDataforseoTrendsLocationsResultInfo.md#geo_id)
 
-#### Defined in
+#### Source
 
-main.ts:124324
+main.ts:124332
 
-___
+***
 
-### geo\_name
+### geo\_name?
 
-• `Optional` **geo\_name**: `string`
+> **`optional`** **geo\_name**: `string`
 
 DataForSEO trends location name
 you can use this field for matching obtained results with the location_name parameter specified in the request
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsLocationsResultInfo](../interfaces/IKeywordsDataDataforseoTrendsLocationsResultInfo.md).[geo_name](../interfaces/IKeywordsDataDataforseoTrendsLocationsResultInfo.md#geo_name)
+[`IKeywordsDataDataforseoTrendsLocationsResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsLocationsResultInfo.md).[`geo_name`](../interfaces/IKeywordsDataDataforseoTrendsLocationsResultInfo.md#geo_name)
 
-#### Defined in
+#### Source
 
-main.ts:124321
+main.ts:124329
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsLocationsResultInfo](../interfaces/IKeywordsDataDataforseoTrendsLocationsResultInfo.md).[location_code](../interfaces/IKeywordsDataDataforseoTrendsLocationsResultInfo.md#location_code)
+[`IKeywordsDataDataforseoTrendsLocationsResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsLocationsResultInfo.md).[`location_code`](../interfaces/IKeywordsDataDataforseoTrendsLocationsResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:124302
+main.ts:124310
 
-___
+***
 
-### location\_code\_parent
+### location\_code\_parent?
 
-• `Optional` **location\_code\_parent**: `number`
+> **`optional`** **location\_code\_parent**: `number`
 
 the code of the superordinate location
 example:
@@ -135,101 +115,95 @@ where location_code_parent corresponds to:
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsLocationsResultInfo](../interfaces/IKeywordsDataDataforseoTrendsLocationsResultInfo.md).[location_code_parent](../interfaces/IKeywordsDataDataforseoTrendsLocationsResultInfo.md#location_code_parent)
+[`IKeywordsDataDataforseoTrendsLocationsResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsLocationsResultInfo.md).[`location_code_parent`](../interfaces/IKeywordsDataDataforseoTrendsLocationsResultInfo.md#location_code_parent)
 
-#### Defined in
+#### Source
 
-main.ts:124313
+main.ts:124321
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsLocationsResultInfo](../interfaces/IKeywordsDataDataforseoTrendsLocationsResultInfo.md).[location_name](../interfaces/IKeywordsDataDataforseoTrendsLocationsResultInfo.md#location_name)
+[`IKeywordsDataDataforseoTrendsLocationsResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsLocationsResultInfo.md).[`location_name`](../interfaces/IKeywordsDataDataforseoTrendsLocationsResultInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:124304
+main.ts:124312
 
-___
+***
 
-### location\_type
+### location\_type?
 
-• `Optional` **location\_type**: `string`
+> **`optional`** **location\_type**: `string`
 
 location type
 possible values according to Google’s target types
 
 #### Implementation of
 
-[IKeywordsDataDataforseoTrendsLocationsResultInfo](../interfaces/IKeywordsDataDataforseoTrendsLocationsResultInfo.md).[location_type](../interfaces/IKeywordsDataDataforseoTrendsLocationsResultInfo.md#location_type)
+[`IKeywordsDataDataforseoTrendsLocationsResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsLocationsResultInfo.md).[`location_type`](../interfaces/IKeywordsDataDataforseoTrendsLocationsResultInfo.md#location_type)
 
-#### Defined in
+#### Source
 
-main.ts:124318
+main.ts:124326
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:124337
+main.ts:124345
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:124360
+main.ts:124368
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordsDataDataforseoTrendsLocationsResultInfo`](KeywordsDataDataforseoTrendsLocationsResultInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordsDataDataforseoTrendsLocationsResultInfo`](KeywordsDataDataforseoTrendsLocationsResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`KeywordsDataDataforseoTrendsLocationsResultInfo`](KeywordsDataDataforseoTrendsLocationsResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:124353
+main.ts:124361

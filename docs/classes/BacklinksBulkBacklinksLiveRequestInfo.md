@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksBulkBacklinksLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BacklinksBulkBacklinksLiveRequestInfo
 
 # Class: BacklinksBulkBacklinksLiveRequestInfo
 
@@ -8,50 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BacklinksBulkBacklinksLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [tag](BacklinksBulkBacklinksLiveRequestInfo.md#tag)
-- [targets](BacklinksBulkBacklinksLiveRequestInfo.md#targets)
-
-### Methods
-
-- [init](BacklinksBulkBacklinksLiveRequestInfo.md#init)
-- [toJSON](BacklinksBulkBacklinksLiveRequestInfo.md#tojson)
-- [fromJS](BacklinksBulkBacklinksLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BacklinksBulkBacklinksLiveRequestInfo(data)
 
-• **new BacklinksBulkBacklinksLiveRequestInfo**(`data?`): [`BacklinksBulkBacklinksLiveRequestInfo`](BacklinksBulkBacklinksLiveRequestInfo.md)
+> **new BacklinksBulkBacklinksLiveRequestInfo**(`data`?): [`BacklinksBulkBacklinksLiveRequestInfo`](BacklinksBulkBacklinksLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBacklinksBulkBacklinksLiveRequestInfo`](../interfaces/IBacklinksBulkBacklinksLiveRequestInfo.md) |
+• **data?**: [`IBacklinksBulkBacklinksLiveRequestInfo`](../interfaces/IBacklinksBulkBacklinksLiveRequestInfo.md)
 
 #### Returns
 
 [`BacklinksBulkBacklinksLiveRequestInfo`](BacklinksBulkBacklinksLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:145093
+main.ts:145101
 
 ## Properties
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -61,17 +46,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IBacklinksBulkBacklinksLiveRequestInfo](../interfaces/IBacklinksBulkBacklinksLiveRequestInfo.md).[tag](../interfaces/IBacklinksBulkBacklinksLiveRequestInfo.md#tag)
+[`IBacklinksBulkBacklinksLiveRequestInfo`](../interfaces/IBacklinksBulkBacklinksLiveRequestInfo.md).[`tag`](../interfaces/IBacklinksBulkBacklinksLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:145089
+main.ts:145097
 
-___
+***
 
-### targets
+### targets?
 
-• `Optional` **targets**: `string`[]
+> **`optional`** **targets**: `string`[]
 
 domains, subdomains or webpages to get the number of backlinks for
 required field
@@ -94,68 +79,62 @@ example:
 
 #### Implementation of
 
-[IBacklinksBulkBacklinksLiveRequestInfo](../interfaces/IBacklinksBulkBacklinksLiveRequestInfo.md).[targets](../interfaces/IBacklinksBulkBacklinksLiveRequestInfo.md#targets)
+[`IBacklinksBulkBacklinksLiveRequestInfo`](../interfaces/IBacklinksBulkBacklinksLiveRequestInfo.md).[`targets`](../interfaces/IBacklinksBulkBacklinksLiveRequestInfo.md#targets)
 
-#### Defined in
+#### Source
 
-main.ts:145083
+main.ts:145091
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:145102
+main.ts:145110
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:145124
+main.ts:145132
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BacklinksBulkBacklinksLiveRequestInfo`](BacklinksBulkBacklinksLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`BacklinksBulkBacklinksLiveRequestInfo`](BacklinksBulkBacklinksLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BacklinksBulkBacklinksLiveRequestInfo`](BacklinksBulkBacklinksLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:145117
+main.ts:145125

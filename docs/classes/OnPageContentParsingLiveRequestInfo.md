@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageContentParsingLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPageContentParsingLiveRequestInfo
 
 # Class: OnPageContentParsingLiveRequestInfo
 
@@ -8,60 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPageContentParsingLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [accept\_language](OnPageContentParsingLiveRequestInfo.md#accept_language)
-- [browser\_preset](OnPageContentParsingLiveRequestInfo.md#browser_preset)
-- [browser\_screen\_height](OnPageContentParsingLiveRequestInfo.md#browser_screen_height)
-- [browser\_screen\_scale\_factor](OnPageContentParsingLiveRequestInfo.md#browser_screen_scale_factor)
-- [browser\_screen\_width](OnPageContentParsingLiveRequestInfo.md#browser_screen_width)
-- [custom\_user\_agent](OnPageContentParsingLiveRequestInfo.md#custom_user_agent)
-- [disable\_cookie\_popup](OnPageContentParsingLiveRequestInfo.md#disable_cookie_popup)
-- [enable\_browser\_rendering](OnPageContentParsingLiveRequestInfo.md#enable_browser_rendering)
-- [enable\_javascript](OnPageContentParsingLiveRequestInfo.md#enable_javascript)
-- [enable\_xhr](OnPageContentParsingLiveRequestInfo.md#enable_xhr)
-- [store\_raw\_html](OnPageContentParsingLiveRequestInfo.md#store_raw_html)
-- [url](OnPageContentParsingLiveRequestInfo.md#url)
-
-### Methods
-
-- [init](OnPageContentParsingLiveRequestInfo.md#init)
-- [toJSON](OnPageContentParsingLiveRequestInfo.md#tojson)
-- [fromJS](OnPageContentParsingLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPageContentParsingLiveRequestInfo(data)
 
-• **new OnPageContentParsingLiveRequestInfo**(`data?`): [`OnPageContentParsingLiveRequestInfo`](OnPageContentParsingLiveRequestInfo.md)
+> **new OnPageContentParsingLiveRequestInfo**(`data`?): [`OnPageContentParsingLiveRequestInfo`](OnPageContentParsingLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPageContentParsingLiveRequestInfo`](../interfaces/IOnPageContentParsingLiveRequestInfo.md) |
+• **data?**: [`IOnPageContentParsingLiveRequestInfo`](../interfaces/IOnPageContentParsingLiveRequestInfo.md)
 
 #### Returns
 
 [`OnPageContentParsingLiveRequestInfo`](OnPageContentParsingLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:158066
+main.ts:158074
 
 ## Properties
 
-### accept\_language
+### accept\_language?
 
-• `Optional` **accept\_language**: `string`
+> **`optional`** **accept\_language**: `string`
 
 language header for accessing the website
 optional field
@@ -70,17 +45,17 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 #### Implementation of
 
-[IOnPageContentParsingLiveRequestInfo](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[accept_language](../interfaces/IOnPageContentParsingLiveRequestInfo.md#accept_language)
+[`IOnPageContentParsingLiveRequestInfo`](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[`accept_language`](../interfaces/IOnPageContentParsingLiveRequestInfo.md#accept_language)
 
-#### Defined in
+#### Source
 
-main.ts:158040
+main.ts:158048
 
-___
+***
 
-### browser\_preset
+### browser\_preset?
 
-• `Optional` **browser\_preset**: `string`
+> **`optional`** **browser\_preset**: `string`
 
 preset for browser screen parameters
 optional field
@@ -103,17 +78,17 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 #### Implementation of
 
-[IOnPageContentParsingLiveRequestInfo](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[browser_preset](../interfaces/IOnPageContentParsingLiveRequestInfo.md#browser_preset)
+[`IOnPageContentParsingLiveRequestInfo`](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[`browser_preset`](../interfaces/IOnPageContentParsingLiveRequestInfo.md#browser_preset)
 
-#### Defined in
+#### Source
 
-main.ts:158000
+main.ts:158008
 
-___
+***
 
-### browser\_screen\_height
+### browser\_screen\_height?
 
-• `Optional` **browser\_screen\_height**: `number`
+> **`optional`** **browser\_screen\_height**: `number`
 
 browser screen height
 optional field
@@ -125,17 +100,17 @@ maximum value, in pixels: 9999
 
 #### Implementation of
 
-[IOnPageContentParsingLiveRequestInfo](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[browser_screen_height](../interfaces/IOnPageContentParsingLiveRequestInfo.md#browser_screen_height)
+[`IOnPageContentParsingLiveRequestInfo`](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[`browser_screen_height`](../interfaces/IOnPageContentParsingLiveRequestInfo.md#browser_screen_height)
 
-#### Defined in
+#### Source
 
-main.ts:158016
+main.ts:158024
 
-___
+***
 
-### browser\_screen\_scale\_factor
+### browser\_screen\_scale\_factor?
 
-• `Optional` **browser\_screen\_scale\_factor**: `number`
+> **`optional`** **browser\_screen\_scale\_factor**: `number`
 
 browser screen scale factor
 optional field
@@ -147,17 +122,17 @@ maximum value: 3
 
 #### Implementation of
 
-[IOnPageContentParsingLiveRequestInfo](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[browser_screen_scale_factor](../interfaces/IOnPageContentParsingLiveRequestInfo.md#browser_screen_scale_factor)
+[`IOnPageContentParsingLiveRequestInfo`](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[`browser_screen_scale_factor`](../interfaces/IOnPageContentParsingLiveRequestInfo.md#browser_screen_scale_factor)
 
-#### Defined in
+#### Source
 
-main.ts:158024
+main.ts:158032
 
-___
+***
 
-### browser\_screen\_width
+### browser\_screen\_width?
 
-• `Optional` **browser\_screen\_width**: `number`
+> **`optional`** **browser\_screen\_width**: `number`
 
 browser screen width
 optional field
@@ -169,17 +144,17 @@ maximum value, in pixels: 9999
 
 #### Implementation of
 
-[IOnPageContentParsingLiveRequestInfo](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[browser_screen_width](../interfaces/IOnPageContentParsingLiveRequestInfo.md#browser_screen_width)
+[`IOnPageContentParsingLiveRequestInfo`](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[`browser_screen_width`](../interfaces/IOnPageContentParsingLiveRequestInfo.md#browser_screen_width)
 
-#### Defined in
+#### Source
 
-main.ts:158008
+main.ts:158016
 
-___
+***
 
-### custom\_user\_agent
+### custom\_user\_agent?
 
-• `Optional` **custom\_user\_agent**: `string`
+> **`optional`** **custom\_user\_agent**: `string`
 
 custom user agent
 optional field
@@ -190,17 +165,17 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 #### Implementation of
 
-[IOnPageContentParsingLiveRequestInfo](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[custom_user_agent](../interfaces/IOnPageContentParsingLiveRequestInfo.md#custom_user_agent)
+[`IOnPageContentParsingLiveRequestInfo`](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[`custom_user_agent`](../interfaces/IOnPageContentParsingLiveRequestInfo.md#custom_user_agent)
 
-#### Defined in
+#### Source
 
-main.ts:157981
+main.ts:157989
 
-___
+***
 
-### disable\_cookie\_popup
+### disable\_cookie\_popup?
 
-• `Optional` **disable\_cookie\_popup**: `boolean`
+> **`optional`** **disable\_cookie\_popup**: `boolean`
 
 disable the cookie popup 
 optional field
@@ -210,17 +185,17 @@ false
 
 #### Implementation of
 
-[IOnPageContentParsingLiveRequestInfo](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[disable_cookie_popup](../interfaces/IOnPageContentParsingLiveRequestInfo.md#disable_cookie_popup)
+[`IOnPageContentParsingLiveRequestInfo`](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[`disable_cookie_popup`](../interfaces/IOnPageContentParsingLiveRequestInfo.md#disable_cookie_popup)
 
-#### Defined in
+#### Source
 
-main.ts:158035
+main.ts:158043
 
-___
+***
 
-### enable\_browser\_rendering
+### enable\_browser\_rendering?
 
-• `Optional` **enable\_browser\_rendering**: `boolean`
+> **`optional`** **enable\_browser\_rendering**: `boolean`
 
 emulate browser rendering to measure Core Web Vitals
 optional field
@@ -233,17 +208,17 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Implementation of
 
-[IOnPageContentParsingLiveRequestInfo](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[enable_browser_rendering](../interfaces/IOnPageContentParsingLiveRequestInfo.md#enable_browser_rendering)
+[`IOnPageContentParsingLiveRequestInfo`](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[`enable_browser_rendering`](../interfaces/IOnPageContentParsingLiveRequestInfo.md#enable_browser_rendering)
 
-#### Defined in
+#### Source
 
-main.ts:158055
+main.ts:158063
 
-___
+***
 
-### enable\_javascript
+### enable\_javascript?
 
-• `Optional` **enable\_javascript**: `boolean`
+> **`optional`** **enable\_javascript**: `boolean`
 
 load javascript on a page
 optional field
@@ -253,17 +228,17 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Implementation of
 
-[IOnPageContentParsingLiveRequestInfo](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[enable_javascript](../interfaces/IOnPageContentParsingLiveRequestInfo.md#enable_javascript)
+[`IOnPageContentParsingLiveRequestInfo`](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[`enable_javascript`](../interfaces/IOnPageContentParsingLiveRequestInfo.md#enable_javascript)
 
-#### Defined in
+#### Source
 
-main.ts:158046
+main.ts:158054
 
-___
+***
 
-### enable\_xhr
+### enable\_xhr?
 
-• `Optional` **enable\_xhr**: `boolean`
+> **`optional`** **enable\_xhr**: `boolean`
 
 enable XMLHttpRequest on a page
 optional field
@@ -274,17 +249,17 @@ if you use this field, enable_javascript must be set to true;
 
 #### Implementation of
 
-[IOnPageContentParsingLiveRequestInfo](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[enable_xhr](../interfaces/IOnPageContentParsingLiveRequestInfo.md#enable_xhr)
+[`IOnPageContentParsingLiveRequestInfo`](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[`enable_xhr`](../interfaces/IOnPageContentParsingLiveRequestInfo.md#enable_xhr)
 
-#### Defined in
+#### Source
 
-main.ts:158062
+main.ts:158070
 
-___
+***
 
-### store\_raw\_html
+### store\_raw\_html?
 
-• `Optional` **store\_raw\_html**: `boolean`
+> **`optional`** **store\_raw\_html**: `boolean`
 
 store HTML of a crawled page
 optional field
@@ -293,17 +268,17 @@ default value: false
 
 #### Implementation of
 
-[IOnPageContentParsingLiveRequestInfo](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[store_raw_html](../interfaces/IOnPageContentParsingLiveRequestInfo.md#store_raw_html)
+[`IOnPageContentParsingLiveRequestInfo`](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[`store_raw_html`](../interfaces/IOnPageContentParsingLiveRequestInfo.md#store_raw_html)
 
-#### Defined in
+#### Source
 
-main.ts:158029
+main.ts:158037
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL of the content to parse
 required field
@@ -313,68 +288,62 @@ https://www.fujielectric.com/
 
 #### Implementation of
 
-[IOnPageContentParsingLiveRequestInfo](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[url](../interfaces/IOnPageContentParsingLiveRequestInfo.md#url)
+[`IOnPageContentParsingLiveRequestInfo`](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[`url`](../interfaces/IOnPageContentParsingLiveRequestInfo.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:157974
+main.ts:157982
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:158075
+main.ts:158083
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:158103
+main.ts:158111
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPageContentParsingLiveRequestInfo`](OnPageContentParsingLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`OnPageContentParsingLiveRequestInfo`](OnPageContentParsingLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`OnPageContentParsingLiveRequestInfo`](OnPageContentParsingLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:158096
+main.ts:158104

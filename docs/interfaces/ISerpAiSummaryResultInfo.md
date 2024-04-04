@@ -1,42 +1,35 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpAiSummaryResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ISerpAiSummaryResultInfo
 
 # Interface: ISerpAiSummaryResultInfo
 
-## Implemented by
-
-- [`SerpAiSummaryResultInfo`](../classes/SerpAiSummaryResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [items](ISerpAiSummaryResultInfo.md#items)
-- [items\_count](ISerpAiSummaryResultInfo.md#items_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`SerpAiSummaryItem`](../classes/SerpAiSummaryItem.md)[]
+> **`optional`** **items**: [`SerpAiSummaryItem`](../classes/SerpAiSummaryItem.md)[]
 
 items array
 
-#### Defined in
+#### Source
 
 main.ts:24462
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 number of items in the results array
 
-#### Defined in
+#### Source
 
 main.ts:24460

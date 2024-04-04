@@ -1,212 +1,193 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesDomainsByLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDomainAnalyticsTechnologiesDomainsByLiveItem
 
 # Interface: IDomainAnalyticsTechnologiesDomainsByLiveItem
 
 items array
 
-## Implemented by
-
-- [`DomainAnalyticsTechnologiesDomainsByLiveItem`](../classes/DomainAnalyticsTechnologiesDomainsByLiveItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [content\_language\_code](IDomainAnalyticsTechnologiesDomainsByLiveItem.md#content_language_code)
-- [country\_iso\_code](IDomainAnalyticsTechnologiesDomainsByLiveItem.md#country_iso_code)
-- [description](IDomainAnalyticsTechnologiesDomainsByLiveItem.md#description)
-- [domain](IDomainAnalyticsTechnologiesDomainsByLiveItem.md#domain)
-- [domain\_rank](IDomainAnalyticsTechnologiesDomainsByLiveItem.md#domain_rank)
-- [emails](IDomainAnalyticsTechnologiesDomainsByLiveItem.md#emails)
-- [language\_code](IDomainAnalyticsTechnologiesDomainsByLiveItem.md#language_code)
-- [last\_visited](IDomainAnalyticsTechnologiesDomainsByLiveItem.md#last_visited)
-- [meta\_keywords](IDomainAnalyticsTechnologiesDomainsByLiveItem.md#meta_keywords)
-- [phone\_numbers](IDomainAnalyticsTechnologiesDomainsByLiveItem.md#phone_numbers)
-- [social\_graph\_urls](IDomainAnalyticsTechnologiesDomainsByLiveItem.md#social_graph_urls)
-- [technologies](IDomainAnalyticsTechnologiesDomainsByLiveItem.md#technologies)
-- [title](IDomainAnalyticsTechnologiesDomainsByLiveItem.md#title)
-- [type](IDomainAnalyticsTechnologiesDomainsByLiveItem.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### content\_language\_code
+### content\_language\_code?
 
-• `Optional` **content\_language\_code**: `string`
+> **`optional`** **content\_language\_code**: `string`
 
 content language
 code of the language that content on the target domain is written with
 
-#### Defined in
+#### Source
 
-main.ts:76779
+main.ts:76787
 
-___
+***
 
-### country\_iso\_code
+### country\_iso\_code?
 
-• `Optional` **country\_iso\_code**: `string`
+> **`optional`** **country\_iso\_code**: `string`
 
 domain ISO code
 ISO code of the country that target domain is determined to belong to
 
-#### Defined in
+#### Source
 
-main.ts:76773
+main.ts:76781
 
-___
+***
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 domain meta description
 
-#### Defined in
+#### Source
 
-main.ts:76760
+main.ts:76768
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 specified domain name
 
-#### Defined in
+#### Source
 
-main.ts:76756
+main.ts:76764
 
-___
+***
 
-### domain\_rank
+### domain\_rank?
 
-• `Optional` **domain\_rank**: `string`
+> **`optional`** **domain\_rank**: `string`
 
 backlink rank of the target domain
 learn more about the metric and how it is calculated in this help center article
 
-#### Defined in
+#### Source
 
-main.ts:76765
+main.ts:76773
 
-___
+***
 
-### emails
+### emails?
 
-• `Optional` **emails**: `string`[]
+> **`optional`** **emails**: `string`[]
 
 emails of the target
 emails indicated on the target website
 
-#### Defined in
+#### Source
 
-main.ts:76785
+main.ts:76793
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 domain language
 code of the language that target domain is determined to be associated with
 
-#### Defined in
+#### Source
 
-main.ts:76776
+main.ts:76784
 
-___
+***
 
-### last\_visited
+### last\_visited?
 
-• `Optional` **last\_visited**: `string`
+> **`optional`** **last\_visited**: `string`
 
 most recent date when our crawler visited the domain
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2022-10-10 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
-main.ts:76770
+main.ts:76778
 
-___
+***
 
-### meta\_keywords
+### meta\_keywords?
 
-• `Optional` **meta\_keywords**: `string`[]
+> **`optional`** **meta\_keywords**: `string`[]
 
 domain meta keywords
 
-#### Defined in
+#### Source
 
-main.ts:76762
+main.ts:76770
 
-___
+***
 
-### phone\_numbers
+### phone\_numbers?
 
-• `Optional` **phone\_numbers**: `string`[]
+> **`optional`** **phone\_numbers**: `string`[]
 
 phone numbers of the target
 contact phone numbers indicated on the target website
 
-#### Defined in
+#### Source
 
-main.ts:76782
+main.ts:76790
 
-___
+***
 
-### social\_graph\_urls
+### social\_graph\_urls?
 
-• `Optional` **social\_graph\_urls**: `string`[]
+> **`optional`** **social\_graph\_urls**: `string`[]
 
 social media links and handles
 social media URLs detected in the social graphs of the target website
 
-#### Defined in
+#### Source
 
-main.ts:76788
+main.ts:76796
 
-___
+***
 
-### technologies
+### technologies?
 
-• `Optional` **technologies**: [`TechnologiesInfo`](../classes/TechnologiesInfo.md)
+> **`optional`** **technologies**: [`TechnologiesInfo`](../classes/TechnologiesInfo.md)
 
 technologies used by target domain
 contains objects with the names of technologies used on the website;
 to get a full list of technologies and their structure, refer to the technologies endpoint
 
-#### Defined in
+#### Source
 
-main.ts:76792
+main.ts:76800
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 domain meta title
 
-#### Defined in
+#### Source
 
-main.ts:76758
+main.ts:76766
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:76754
+main.ts:76762

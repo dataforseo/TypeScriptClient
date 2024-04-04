@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / Redirect
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / Redirect
 
 # Class: Redirect
 
@@ -8,150 +12,124 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](Redirect.md#constructor)
-
-### Properties
-
-- [status\_code](Redirect.md#status_code)
-- [type](Redirect.md#type)
-- [url](Redirect.md#url)
-
-### Methods
-
-- [init](Redirect.md#init)
-- [toJSON](Redirect.md#tojson)
-- [fromJS](Redirect.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new Redirect(data)
 
-• **new Redirect**(`data?`): [`Redirect`](Redirect.md)
+> **new Redirect**(`data`?): [`Redirect`](Redirect.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IRedirect`](../interfaces/IRedirect.md) |
+• **data?**: [`IRedirect`](../interfaces/IRedirect.md)
 
 #### Returns
 
 [`Redirect`](Redirect.md)
 
-#### Defined in
+#### Source
 
-main.ts:136340
+main.ts:136348
 
 ## Properties
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 HTTP status code of the URL
 
 #### Implementation of
 
-[IRedirect](../interfaces/IRedirect.md).[status_code](../interfaces/IRedirect.md#status_code)
+[`IRedirect`](../interfaces/IRedirect.md).[`status_code`](../interfaces/IRedirect.md#status_code)
 
-#### Defined in
+#### Source
 
-main.ts:136334
+main.ts:136342
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IRedirect](../interfaces/IRedirect.md).[type](../interfaces/IRedirect.md#type)
+[`IRedirect`](../interfaces/IRedirect.md).[`type`](../interfaces/IRedirect.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:136332
+main.ts:136340
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 indirect link URL
 
 #### Implementation of
 
-[IRedirect](../interfaces/IRedirect.md).[url](../interfaces/IRedirect.md#url)
+[`IRedirect`](../interfaces/IRedirect.md).[`url`](../interfaces/IRedirect.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:136336
+main.ts:136344
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:136349
+main.ts:136357
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:136368
+main.ts:136376
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`Redirect`](Redirect.md)
+> **`static`** **fromJS**(`data`): [`Redirect`](Redirect.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`Redirect`](Redirect.md)
 
-#### Defined in
+#### Source
 
-main.ts:136361
+main.ts:136369

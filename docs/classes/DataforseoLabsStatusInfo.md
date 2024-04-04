@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsStatusInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsStatusInfo
 
 # Class: DataforseoLabsStatusInfo
 
@@ -8,49 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsStatusInfo.md#constructor)
-
-### Properties
-
-- [date\_update](DataforseoLabsStatusInfo.md#date_update)
-
-### Methods
-
-- [init](DataforseoLabsStatusInfo.md#init)
-- [toJSON](DataforseoLabsStatusInfo.md#tojson)
-- [fromJS](DataforseoLabsStatusInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsStatusInfo(data)
 
-• **new DataforseoLabsStatusInfo**(`data?`): [`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
+> **new DataforseoLabsStatusInfo**(`data`?): [`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsStatusInfo`](../interfaces/IDataforseoLabsStatusInfo.md) |
+• **data?**: [`IDataforseoLabsStatusInfo`](../interfaces/IDataforseoLabsStatusInfo.md)
 
 #### Returns
 
 [`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:79156
+main.ts:79164
 
 ## Properties
 
-### date\_update
+### date\_update?
 
-• `Optional` **date\_update**: `string`
+> **`optional`** **date\_update**: `string`
 
 update date of the Google endpoints
 indicates the last date when the Google endpoints of DataForSEO Labs API were updated;
@@ -59,68 +45,62 @@ example:
 
 #### Implementation of
 
-[IDataforseoLabsStatusInfo](../interfaces/IDataforseoLabsStatusInfo.md).[date_update](../interfaces/IDataforseoLabsStatusInfo.md#date_update)
+[`IDataforseoLabsStatusInfo`](../interfaces/IDataforseoLabsStatusInfo.md).[`date_update`](../interfaces/IDataforseoLabsStatusInfo.md#date_update)
 
-#### Defined in
+#### Source
 
-main.ts:79152
+main.ts:79160
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:79165
+main.ts:79173
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:79182
+main.ts:79190
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:79175
+main.ts:79183

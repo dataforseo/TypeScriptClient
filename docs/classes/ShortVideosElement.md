@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ShortVideosElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ShortVideosElement
 
 # Class: ShortVideosElement
 
@@ -8,185 +12,157 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ShortVideosElement.md#constructor)
-
-### Properties
-
-- [domain](ShortVideosElement.md#domain)
-- [source](ShortVideosElement.md#source)
-- [title](ShortVideosElement.md#title)
-- [type](ShortVideosElement.md#type)
-- [url](ShortVideosElement.md#url)
-
-### Methods
-
-- [init](ShortVideosElement.md#init)
-- [toJSON](ShortVideosElement.md#tojson)
-- [fromJS](ShortVideosElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ShortVideosElement(data)
 
-• **new ShortVideosElement**(`data?`): [`ShortVideosElement`](ShortVideosElement.md)
+> **new ShortVideosElement**(`data`?): [`ShortVideosElement`](ShortVideosElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IShortVideosElement`](../interfaces/IShortVideosElement.md) |
+• **data?**: [`IShortVideosElement`](../interfaces/IShortVideosElement.md)
 
 #### Returns
 
 [`ShortVideosElement`](ShortVideosElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:33516
+main.ts:33522
 
 ## Properties
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 website domain
 
 #### Implementation of
 
-[IShortVideosElement](../interfaces/IShortVideosElement.md).[domain](../interfaces/IShortVideosElement.md#domain)
+[`IShortVideosElement`](../interfaces/IShortVideosElement.md).[`domain`](../interfaces/IShortVideosElement.md#domain)
 
-#### Defined in
+#### Source
 
-main.ts:33507
+main.ts:33513
 
-___
+***
 
-### source
+### source?
 
-• `Optional` **source**: `string`
+> **`optional`** **source**: `string`
 
 source of the element
 indicates the source of information included in the top_stories_element
 
 #### Implementation of
 
-[IShortVideosElement](../interfaces/IShortVideosElement.md).[source](../interfaces/IShortVideosElement.md#source)
+[`IShortVideosElement`](../interfaces/IShortVideosElement.md).[`source`](../interfaces/IShortVideosElement.md#source)
 
-#### Defined in
+#### Source
 
-main.ts:33512
+main.ts:33518
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
 #### Implementation of
 
-[IShortVideosElement](../interfaces/IShortVideosElement.md).[title](../interfaces/IShortVideosElement.md#title)
+[`IShortVideosElement`](../interfaces/IShortVideosElement.md).[`title`](../interfaces/IShortVideosElement.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:33505
+main.ts:33511
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IShortVideosElement](../interfaces/IShortVideosElement.md).[type](../interfaces/IShortVideosElement.md#type)
+[`IShortVideosElement`](../interfaces/IShortVideosElement.md).[`type`](../interfaces/IShortVideosElement.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:33503
+main.ts:33509
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL
 
 #### Implementation of
 
-[IShortVideosElement](../interfaces/IShortVideosElement.md).[url](../interfaces/IShortVideosElement.md#url)
+[`IShortVideosElement`](../interfaces/IShortVideosElement.md).[`url`](../interfaces/IShortVideosElement.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:33509
+main.ts:33515
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:33525
+main.ts:33531
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:33546
+main.ts:33552
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ShortVideosElement`](ShortVideosElement.md)
+> **`static`** **fromJS**(`data`): [`ShortVideosElement`](ShortVideosElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ShortVideosElement`](ShortVideosElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:33539
+main.ts:33545

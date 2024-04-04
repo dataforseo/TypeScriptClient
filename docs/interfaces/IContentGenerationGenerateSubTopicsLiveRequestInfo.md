@@ -1,28 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentGenerationGenerateSubTopicsLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IContentGenerationGenerateSubTopicsLiveRequestInfo
 
 # Interface: IContentGenerationGenerateSubTopicsLiveRequestInfo
 
-## Implemented by
-
-- [`ContentGenerationGenerateSubTopicsLiveRequestInfo`](../classes/ContentGenerationGenerateSubTopicsLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [creativity\_index](IContentGenerationGenerateSubTopicsLiveRequestInfo.md#creativity_index)
-- [tag](IContentGenerationGenerateSubTopicsLiveRequestInfo.md#tag)
-- [topic](IContentGenerationGenerateSubTopicsLiveRequestInfo.md#topic)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### creativity\_index
+### creativity\_index?
 
-• `Optional` **creativity\_index**: `number`
+> **`optional`** **creativity\_index**: `number`
 
 creativity of content generation
 optional field
@@ -31,15 +23,15 @@ can take values from 0 to 1
 default value: 0.8
 learn more about this parameter on our help center
 
-#### Defined in
+#### Source
 
-main.ts:166343
+main.ts:166351
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -47,21 +39,21 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:166349
+main.ts:166357
 
-___
+***
 
-### topic
+### topic?
 
-• `Optional` **topic**: `string`
+> **`optional`** **topic**: `string`
 
 main topic of the content to generate
 required field
 main topic for content generation;
 can contain from 1 to 50 tokens
 
-#### Defined in
+#### Source
 
-main.ts:166336
+main.ts:166344

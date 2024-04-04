@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / GoogleReviewsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / GoogleReviewsSerpElementItem
 
 # Class: GoogleReviewsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-  ↳ **`GoogleReviewsSerpElementItem`**
 
 ## Implements
 
@@ -14,45 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](GoogleReviewsSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](GoogleReviewsSerpElementItem.md#_discriminator)
-- [cid](GoogleReviewsSerpElementItem.md#cid)
-- [feature](GoogleReviewsSerpElementItem.md#feature)
-- [place\_id](GoogleReviewsSerpElementItem.md#place_id)
-- [position](GoogleReviewsSerpElementItem.md#position)
-- [rank\_absolute](GoogleReviewsSerpElementItem.md#rank_absolute)
-- [rank\_group](GoogleReviewsSerpElementItem.md#rank_group)
-- [rating](GoogleReviewsSerpElementItem.md#rating)
-- [rectangle](GoogleReviewsSerpElementItem.md#rectangle)
-- [reviews\_count](GoogleReviewsSerpElementItem.md#reviews_count)
-- [xpath](GoogleReviewsSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](GoogleReviewsSerpElementItem.md#init)
-- [toJSON](GoogleReviewsSerpElementItem.md#tojson)
-- [fromJS](GoogleReviewsSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new GoogleReviewsSerpElementItem(data)
 
-• **new GoogleReviewsSerpElementItem**(`data?`): [`GoogleReviewsSerpElementItem`](GoogleReviewsSerpElementItem.md)
+> **new GoogleReviewsSerpElementItem**(`data`?): [`GoogleReviewsSerpElementItem`](GoogleReviewsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IGoogleReviewsSerpElementItem`](../interfaces/IGoogleReviewsSerpElementItem.md) |
+• **data?**: [`IGoogleReviewsSerpElementItem`](../interfaces/IGoogleReviewsSerpElementItem.md)
 
 #### Returns
 
@@ -60,9 +34,9 @@
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[constructor](BaseSerpElementItem.md#constructor)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:29983
 
@@ -70,69 +44,69 @@ main.ts:29983
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[_discriminator](BaseSerpElementItem.md#_discriminator)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:19788
 
-___
+***
 
-### cid
+### cid?
 
-• `Optional` **cid**: `string`
+> **`optional`** **cid**: `string`
 
 google-defined client id
 
 #### Implementation of
 
-[IGoogleReviewsSerpElementItem](../interfaces/IGoogleReviewsSerpElementItem.md).[cid](../interfaces/IGoogleReviewsSerpElementItem.md#cid)
+[`IGoogleReviewsSerpElementItem`](../interfaces/IGoogleReviewsSerpElementItem.md).[`cid`](../interfaces/IGoogleReviewsSerpElementItem.md#cid)
 
-#### Defined in
+#### Source
 
 main.ts:29975
 
-___
+***
 
-### feature
+### feature?
 
-• `Optional` **feature**: `string`
+> **`optional`** **feature**: `string`
 
 the additional feature of the review
 
 #### Implementation of
 
-[IGoogleReviewsSerpElementItem](../interfaces/IGoogleReviewsSerpElementItem.md).[feature](../interfaces/IGoogleReviewsSerpElementItem.md#feature)
+[`IGoogleReviewsSerpElementItem`](../interfaces/IGoogleReviewsSerpElementItem.md).[`feature`](../interfaces/IGoogleReviewsSerpElementItem.md#feature)
 
-#### Defined in
+#### Source
 
 main.ts:29973
 
-___
+***
 
-### place\_id
+### place\_id?
 
-• `Optional` **place\_id**: `string`
+> **`optional`** **place\_id**: `string`
 
 the identifier of a place
 
 #### Implementation of
 
-[IGoogleReviewsSerpElementItem](../interfaces/IGoogleReviewsSerpElementItem.md).[place_id](../interfaces/IGoogleReviewsSerpElementItem.md#place_id)
+[`IGoogleReviewsSerpElementItem`](../interfaces/IGoogleReviewsSerpElementItem.md).[`place_id`](../interfaces/IGoogleReviewsSerpElementItem.md#place_id)
 
-#### Defined in
+#### Source
 
 main.ts:29971
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -140,17 +114,17 @@ left, right
 
 #### Implementation of
 
-[IGoogleReviewsSerpElementItem](../interfaces/IGoogleReviewsSerpElementItem.md).[position](../interfaces/IGoogleReviewsSerpElementItem.md#position)
+[`IGoogleReviewsSerpElementItem`](../interfaces/IGoogleReviewsSerpElementItem.md).[`position`](../interfaces/IGoogleReviewsSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
 main.ts:29962
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -158,17 +132,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IGoogleReviewsSerpElementItem](../interfaces/IGoogleReviewsSerpElementItem.md).[rank_absolute](../interfaces/IGoogleReviewsSerpElementItem.md#rank_absolute)
+[`IGoogleReviewsSerpElementItem`](../interfaces/IGoogleReviewsSerpElementItem.md).[`rank_absolute`](../interfaces/IGoogleReviewsSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
 main.ts:29958
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
@@ -177,34 +151,34 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IGoogleReviewsSerpElementItem](../interfaces/IGoogleReviewsSerpElementItem.md).[rank_group](../interfaces/IGoogleReviewsSerpElementItem.md#rank_group)
+[`IGoogleReviewsSerpElementItem`](../interfaces/IGoogleReviewsSerpElementItem.md).[`rank_group`](../interfaces/IGoogleReviewsSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
 main.ts:29954
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](RatingInfo.md)
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
 
-[IGoogleReviewsSerpElementItem](../interfaces/IGoogleReviewsSerpElementItem.md).[rating](../interfaces/IGoogleReviewsSerpElementItem.md#rating)
+[`IGoogleReviewsSerpElementItem`](../interfaces/IGoogleReviewsSerpElementItem.md).[`rating`](../interfaces/IGoogleReviewsSerpElementItem.md#rating)
 
-#### Defined in
+#### Source
 
 main.ts:29969
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -212,55 +186,53 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Implementation of
 
-[IGoogleReviewsSerpElementItem](../interfaces/IGoogleReviewsSerpElementItem.md).[rectangle](../interfaces/IGoogleReviewsSerpElementItem.md#rectangle)
+[`IGoogleReviewsSerpElementItem`](../interfaces/IGoogleReviewsSerpElementItem.md).[`rectangle`](../interfaces/IGoogleReviewsSerpElementItem.md#rectangle)
 
-#### Defined in
+#### Source
 
 main.ts:29979
 
-___
+***
 
-### reviews\_count
+### reviews\_count?
 
-• `Optional` **reviews\_count**: `number`
+> **`optional`** **reviews\_count**: `number`
 
 the number of reviews
 
 #### Implementation of
 
-[IGoogleReviewsSerpElementItem](../interfaces/IGoogleReviewsSerpElementItem.md).[reviews_count](../interfaces/IGoogleReviewsSerpElementItem.md#reviews_count)
+[`IGoogleReviewsSerpElementItem`](../interfaces/IGoogleReviewsSerpElementItem.md).[`reviews_count`](../interfaces/IGoogleReviewsSerpElementItem.md#reviews_count)
 
-#### Defined in
+#### Source
 
 main.ts:29966
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IGoogleReviewsSerpElementItem](../interfaces/IGoogleReviewsSerpElementItem.md).[xpath](../interfaces/IGoogleReviewsSerpElementItem.md#xpath)
+[`IGoogleReviewsSerpElementItem`](../interfaces/IGoogleReviewsSerpElementItem.md).[`xpath`](../interfaces/IGoogleReviewsSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
 main.ts:29964
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -268,23 +240,21 @@ main.ts:29964
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[init](BaseSerpElementItem.md#init)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:29988
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -292,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[toJSON](BaseSerpElementItem.md#tojson)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:30015
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`GoogleReviewsSerpElementItem`](GoogleReviewsSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`GoogleReviewsSerpElementItem`](GoogleReviewsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -316,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[fromJS](BaseSerpElementItem.md#fromjs)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:30008

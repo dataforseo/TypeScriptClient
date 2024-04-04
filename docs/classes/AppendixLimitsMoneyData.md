@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixLimitsMoneyData
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppendixLimitsMoneyData
 
 # Class: AppendixLimitsMoneyData
 
@@ -8,129 +12,104 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixLimitsMoneyData.md#constructor)
-
-### Properties
-
-- [day](AppendixLimitsMoneyData.md#day)
-- [minute](AppendixLimitsMoneyData.md#minute)
-
-### Methods
-
-- [init](AppendixLimitsMoneyData.md#init)
-- [toJSON](AppendixLimitsMoneyData.md#tojson)
-- [fromJS](AppendixLimitsMoneyData.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixLimitsMoneyData(data)
 
-• **new AppendixLimitsMoneyData**(`data?`): [`AppendixLimitsMoneyData`](AppendixLimitsMoneyData.md)
+> **new AppendixLimitsMoneyData**(`data`?): [`AppendixLimitsMoneyData`](AppendixLimitsMoneyData.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixLimitsMoneyData`](../interfaces/IAppendixLimitsMoneyData.md) |
+• **data?**: [`IAppendixLimitsMoneyData`](../interfaces/IAppendixLimitsMoneyData.md)
 
 #### Returns
 
 [`AppendixLimitsMoneyData`](AppendixLimitsMoneyData.md)
 
-#### Defined in
+#### Source
 
 main.ts:214923
 
 ## Properties
 
-### day
+### day?
 
-• `Optional` **day**: [`AppendixDataInfo`](AppendixDataInfo.md)
+> **`optional`** **day**: [`AppendixDataInfo`](AppendixDataInfo.md)
 
 #### Implementation of
 
-[IAppendixLimitsMoneyData](../interfaces/IAppendixLimitsMoneyData.md).[day](../interfaces/IAppendixLimitsMoneyData.md#day)
+[`IAppendixLimitsMoneyData`](../interfaces/IAppendixLimitsMoneyData.md).[`day`](../interfaces/IAppendixLimitsMoneyData.md#day)
 
-#### Defined in
+#### Source
 
 main.ts:214918
 
-___
+***
 
-### minute
+### minute?
 
-• `Optional` **minute**: [`AppendixDataInfo`](AppendixDataInfo.md)
+> **`optional`** **minute**: [`AppendixDataInfo`](AppendixDataInfo.md)
 
 #### Implementation of
 
-[IAppendixLimitsMoneyData](../interfaces/IAppendixLimitsMoneyData.md).[minute](../interfaces/IAppendixLimitsMoneyData.md#minute)
+[`IAppendixLimitsMoneyData`](../interfaces/IAppendixLimitsMoneyData.md).[`minute`](../interfaces/IAppendixLimitsMoneyData.md#minute)
 
-#### Defined in
+#### Source
 
 main.ts:214919
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:214932
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:214950
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppendixLimitsMoneyData`](AppendixLimitsMoneyData.md)
+> **`static`** **fromJS**(`data`): [`AppendixLimitsMoneyData`](AppendixLimitsMoneyData.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppendixLimitsMoneyData`](AppendixLimitsMoneyData.md)
 
-#### Defined in
+#### Source
 
 main.ts:214943

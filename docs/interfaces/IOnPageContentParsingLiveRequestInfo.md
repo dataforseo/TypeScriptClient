@@ -1,52 +1,35 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageContentParsingLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IOnPageContentParsingLiveRequestInfo
 
 # Interface: IOnPageContentParsingLiveRequestInfo
 
-## Implemented by
-
-- [`OnPageContentParsingLiveRequestInfo`](../classes/OnPageContentParsingLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [accept\_language](IOnPageContentParsingLiveRequestInfo.md#accept_language)
-- [browser\_preset](IOnPageContentParsingLiveRequestInfo.md#browser_preset)
-- [browser\_screen\_height](IOnPageContentParsingLiveRequestInfo.md#browser_screen_height)
-- [browser\_screen\_scale\_factor](IOnPageContentParsingLiveRequestInfo.md#browser_screen_scale_factor)
-- [browser\_screen\_width](IOnPageContentParsingLiveRequestInfo.md#browser_screen_width)
-- [custom\_user\_agent](IOnPageContentParsingLiveRequestInfo.md#custom_user_agent)
-- [disable\_cookie\_popup](IOnPageContentParsingLiveRequestInfo.md#disable_cookie_popup)
-- [enable\_browser\_rendering](IOnPageContentParsingLiveRequestInfo.md#enable_browser_rendering)
-- [enable\_javascript](IOnPageContentParsingLiveRequestInfo.md#enable_javascript)
-- [enable\_xhr](IOnPageContentParsingLiveRequestInfo.md#enable_xhr)
-- [store\_raw\_html](IOnPageContentParsingLiveRequestInfo.md#store_raw_html)
-- [url](IOnPageContentParsingLiveRequestInfo.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### accept\_language
+### accept\_language?
 
-• `Optional` **accept\_language**: `string`
+> **`optional`** **accept\_language**: `string`
 
 language header for accessing the website
 optional field
 all locale formats are supported (xx, xx-XX, xxx-XX, etc.)
 Note: if you do not specify this parameter, some websites may deny access; in this case, pages will be returned with the "type":"broken in the response array
 
-#### Defined in
+#### Source
 
-main.ts:158197
+main.ts:158205
 
-___
+***
 
-### browser\_preset
+### browser\_preset?
 
-• `Optional` **browser\_preset**: `string`
+> **`optional`** **browser\_preset**: `string`
 
 preset for browser screen parameters
 optional field
@@ -67,15 +50,15 @@ browser_screen_height: 1366
 browser_screen_scale_factor: 2
 Note: to use this parameter, set enable_javascript or enable_browser_rendering to true
 
-#### Defined in
+#### Source
 
-main.ts:158157
+main.ts:158165
 
-___
+***
 
-### browser\_screen\_height
+### browser\_screen\_height?
 
-• `Optional` **browser\_screen\_height**: `number`
+> **`optional`** **browser\_screen\_height**: `number`
 
 browser screen height
 optional field
@@ -85,15 +68,15 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 minimum value, in pixels: 240
 maximum value, in pixels: 9999
 
-#### Defined in
+#### Source
 
-main.ts:158173
+main.ts:158181
 
-___
+***
 
-### browser\_screen\_scale\_factor
+### browser\_screen\_scale\_factor?
 
-• `Optional` **browser\_screen\_scale\_factor**: `number`
+> **`optional`** **browser\_screen\_scale\_factor**: `number`
 
 browser screen scale factor
 optional field
@@ -103,15 +86,15 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 minimum value: 0.5
 maximum value: 3
 
-#### Defined in
+#### Source
 
-main.ts:158181
+main.ts:158189
 
-___
+***
 
-### browser\_screen\_width
+### browser\_screen\_width?
 
-• `Optional` **browser\_screen\_width**: `number`
+> **`optional`** **browser\_screen\_width**: `number`
 
 browser screen width
 optional field
@@ -121,15 +104,15 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 minimum value, in pixels: 240
 maximum value, in pixels: 9999
 
-#### Defined in
+#### Source
 
-main.ts:158165
+main.ts:158173
 
-___
+***
 
-### custom\_user\_agent
+### custom\_user\_agent?
 
-• `Optional` **custom\_user\_agent**: `string`
+> **`optional`** **custom\_user\_agent**: `string`
 
 custom user agent
 optional field
@@ -138,15 +121,15 @@ example: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHT
 
 default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
-#### Defined in
+#### Source
 
-main.ts:158138
+main.ts:158146
 
-___
+***
 
-### disable\_cookie\_popup
+### disable\_cookie\_popup?
 
-• `Optional` **disable\_cookie\_popup**: `boolean`
+> **`optional`** **disable\_cookie\_popup**: `boolean`
 
 disable the cookie popup 
 optional field
@@ -154,15 +137,15 @@ set to true if you want to disable the popup requesting cookie consent from the 
 default value:
 false
 
-#### Defined in
+#### Source
 
-main.ts:158192
+main.ts:158200
 
-___
+***
 
-### enable\_browser\_rendering
+### enable\_browser\_rendering?
 
-• `Optional` **enable\_browser\_rendering**: `boolean`
+> **`optional`** **enable\_browser\_rendering**: `boolean`
 
 emulate browser rendering to measure Core Web Vitals
 optional field
@@ -173,15 +156,15 @@ set to true to obtain Core Web Vitals (FID, CLS, LCP) metrics in the response;
 if you use this field, enable_javascript, and load_resources parameters must be set to true
 Note: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page
 
-#### Defined in
+#### Source
 
-main.ts:158212
+main.ts:158220
 
-___
+***
 
-### enable\_javascript
+### enable\_javascript?
 
-• `Optional` **enable\_javascript**: `boolean`
+> **`optional`** **enable\_javascript**: `boolean`
 
 load javascript on a page
 optional field
@@ -189,15 +172,15 @@ set to true if you want to load the scripts available on a page
 default value: false
 Note: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page
 
-#### Defined in
+#### Source
 
-main.ts:158203
+main.ts:158211
 
-___
+***
 
-### enable\_xhr
+### enable\_xhr?
 
-• `Optional` **enable\_xhr**: `boolean`
+> **`optional`** **enable\_xhr**: `boolean`
 
 enable XMLHttpRequest on a page
 optional field
@@ -206,30 +189,30 @@ default value:
 false
 if you use this field, enable_javascript must be set to true;
 
-#### Defined in
+#### Source
 
-main.ts:158219
+main.ts:158227
 
-___
+***
 
-### store\_raw\_html
+### store\_raw\_html?
 
-• `Optional` **store\_raw\_html**: `boolean`
+> **`optional`** **store\_raw\_html**: `boolean`
 
 store HTML of a crawled page
 optional field
 set to true if you want to get the HTML of the page using the OnPage Raw HTML endpoint
 default value: false
 
-#### Defined in
+#### Source
 
-main.ts:158186
+main.ts:158194
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL of the content to parse
 required field
@@ -237,6 +220,6 @@ URL of the page to parse
 example:
 https://www.fujielectric.com/
 
-#### Defined in
+#### Source
 
-main.ts:158131
+main.ts:158139

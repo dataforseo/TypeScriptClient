@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo
 
 # Class: SerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`SerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](SerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md#cost)
-- [data](SerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md#data)
-- [id](SerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md#id)
-- [path](SerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md#path)
-- [result](SerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md#result)
-- [result\_count](SerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md#result_count)
-- [status\_code](SerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md#status_code)
-- [status\_message](SerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md#status_message)
-- [time](SerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md#time)
-
-### Methods
-
-- [init](SerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md#init)
-- [toJSON](SerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md#tojson)
-- [fromJS](SerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo(data)
 
-• **new SerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo**(`data?`): [`SerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo`](SerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md)
+> **new SerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo**(`data`?): [`SerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo`](SerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md) |
+• **data?**: [`ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:63313
+main.ts:63321
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md).[cost](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md#cost)
+[`ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md).[`cost`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md).[data](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md#data)
+[`ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md).[`data`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md).[id](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md#id)
+[`ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md).[`id`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md).[path](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md#path)
+[`ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md).[`path`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`SerpYoutubeVideoSubtitlesLiveAdvancedResultInfo`](SerpYoutubeVideoSubtitlesLiveAdvancedResultInfo.md)[]
+> **`optional`** **result**: [`SerpYoutubeVideoSubtitlesLiveAdvancedResultInfo`](SerpYoutubeVideoSubtitlesLiveAdvancedResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md).[result](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md#result)
+[`ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md).[`result`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:63309
+main.ts:63317
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md).[result_count](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md#result_count)
+[`ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md).[`result_count`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md).[status_code](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md#status_code)
+[`ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md).[`status_code`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md).[status_message](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md#status_message)
+[`ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md).[`status_message`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md).[time](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md#time)
+[`ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md).[`time`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:63317
+main.ts:63325
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:63339
+main.ts:63347
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo`](SerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo`](SerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:63332
+main.ts:63340

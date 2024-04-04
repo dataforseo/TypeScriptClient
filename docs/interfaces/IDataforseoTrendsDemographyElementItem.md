@@ -1,79 +1,68 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoTrendsDemographyElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoTrendsDemographyElementItem
 
 # Interface: IDataforseoTrendsDemographyElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseDataforseoTrendsItem`](IBaseDataforseoTrendsItem.md)
 
-  ↳ **`IDataforseoTrendsDemographyElementItem`**
-
-## Implemented by
-
-- [`DataforseoTrendsDemographyElementItem`](../classes/DataforseoTrendsDemographyElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [demography](IDataforseoTrendsDemographyElementItem.md#demography)
-- [demography\_comparison](IDataforseoTrendsDemographyElementItem.md#demography_comparison)
-- [keywords](IDataforseoTrendsDemographyElementItem.md#keywords)
-- [position](IDataforseoTrendsDemographyElementItem.md#position)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### demography
+### demography?
 
-• `Optional` **demography**: [`Demography`](../classes/Demography.md)
+> **`optional`** **demography**: [`Demography`](../classes/Demography.md)
 
 demographic breakdown of keyword popularity data per each specified term
 conains keyword popularity data by age and gender
 
-#### Defined in
+#### Source
 
-main.ts:127059
+main.ts:127067
 
-___
+***
 
-### demography\_comparison
+### demography\_comparison?
 
-• `Optional` **demography\_comparison**: `any`
+> **`optional`** **demography\_comparison**: `any`
 
 comparison of demographic data on keyword popularity for the specified parameters
 conains keyword popularity data by age and gender
 if you specified a single keyword, the value will be null
 
-#### Defined in
+#### Source
 
-main.ts:127063
+main.ts:127071
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 relevant keywords
 the data included in the interests and interests_comparison is based on the keywords listed in this array
 
-#### Defined in
+#### Source
 
-main.ts:127056
+main.ts:127064
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `number`
+> **`optional`** **position**: `number`
 
 the alignment of the element
 can take the following values: 1, 2, 3, 4, etc.
 
-#### Defined in
+#### Source
 
-main.ts:127053
+main.ts:127061

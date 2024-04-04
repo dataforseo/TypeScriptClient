@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixBusinessListingsBusinessDataLimitsRatesDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppendixBusinessListingsBusinessDataLimitsRatesDataInfo
 
 # Class: AppendixBusinessListingsBusinessDataLimitsRatesDataInfo
 
@@ -8,159 +12,132 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md#constructor)
-
-### Properties
-
-- [categories](AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md#categories)
-- [categories\_aggregation](AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md#categories_aggregation)
-- [locations](AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md#locations)
-- [search](AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md#search)
-
-### Methods
-
-- [init](AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md#init)
-- [toJSON](AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md#tojson)
-- [fromJS](AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixBusinessListingsBusinessDataLimitsRatesDataInfo(data)
 
-• **new AppendixBusinessListingsBusinessDataLimitsRatesDataInfo**(`data?`): [`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
+> **new AppendixBusinessListingsBusinessDataLimitsRatesDataInfo**(`data`?): [`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md) |
+• **data?**: [`IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
 
 #### Returns
 
 [`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:213505
 
 ## Properties
 
-### categories
+### categories?
 
-• `Optional` **categories**: `number`
+> **`optional`** **categories**: `number`
 
 #### Implementation of
 
-[IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo](../interfaces/IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md).[categories](../interfaces/IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md#categories)
+[`IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md).[`categories`](../interfaces/IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md#categories)
 
-#### Defined in
+#### Source
 
 main.ts:213500
 
-___
+***
 
-### categories\_aggregation
+### categories\_aggregation?
 
-• `Optional` **categories\_aggregation**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **categories\_aggregation**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
-[IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo](../interfaces/IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md).[categories_aggregation](../interfaces/IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md#categories_aggregation)
+[`IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md).[`categories_aggregation`](../interfaces/IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md#categories_aggregation)
 
-#### Defined in
+#### Source
 
 main.ts:213499
 
-___
+***
 
-### locations
+### locations?
 
-• `Optional` **locations**: `number`
+> **`optional`** **locations**: `number`
 
 #### Implementation of
 
-[IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo](../interfaces/IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md).[locations](../interfaces/IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md#locations)
+[`IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md).[`locations`](../interfaces/IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md#locations)
 
-#### Defined in
+#### Source
 
 main.ts:213501
 
-___
+***
 
-### search
+### search?
 
-• `Optional` **search**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **search**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
-[IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo](../interfaces/IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md).[search](../interfaces/IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md#search)
+[`IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md).[`search`](../interfaces/IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md#search)
 
-#### Defined in
+#### Source
 
 main.ts:213498
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:213514
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:213534
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
+> **`static`** **fromJS**(`data`): [`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:213527

@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleTrendsExploreTaskGetResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataGoogleTrendsExploreTaskGetResponseInfo
 
 # Class: KeywordsDataGoogleTrendsExploreTaskGetResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`KeywordsDataGoogleTrendsExploreTaskGetResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](KeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md#cost)
-- [status\_code](KeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md#status_code)
-- [status\_message](KeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md#status_message)
-- [tasks](KeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md#tasks)
-- [tasks\_count](KeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md#tasks_count)
-- [tasks\_error](KeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md#tasks_error)
-- [time](KeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md#time)
-- [version](KeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md#version)
-
-### Methods
-
-- [init](KeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md#init)
-- [toJSON](KeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md#tojson)
-- [fromJS](KeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordsDataGoogleTrendsExploreTaskGetResponseInfo(data)
 
-• **new KeywordsDataGoogleTrendsExploreTaskGetResponseInfo**(`data?`): [`KeywordsDataGoogleTrendsExploreTaskGetResponseInfo`](KeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md)
+> **new KeywordsDataGoogleTrendsExploreTaskGetResponseInfo**(`data`?): [`KeywordsDataGoogleTrendsExploreTaskGetResponseInfo`](KeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md) |
+• **data?**: [`IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:123533
+main.ts:123541
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md).[cost](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md#cost)
+[`IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md).[`cost`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md).[status_code](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md#status_code)
+[`IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md).[`status_code`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md).[status_message](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md#status_message)
+[`IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md).[`status_message`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`KeywordsDataGoogleTrendsExploreTaskGetTaskInfo`](KeywordsDataGoogleTrendsExploreTaskGetTaskInfo.md)[]
+> **`optional`** **tasks**: [`KeywordsDataGoogleTrendsExploreTaskGetTaskInfo`](KeywordsDataGoogleTrendsExploreTaskGetTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md).[tasks](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md#tasks)
+[`IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md).[`tasks`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:123529
+main.ts:123537
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md).[tasks_count](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md#tasks_count)
+[`IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md).[`tasks_count`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md).[tasks_error](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md#tasks_error)
+[`IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md).[`tasks_error`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md).[time](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md#time)
+[`IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md).[`time`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md).[version](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md#version)
+[`IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md).[`version`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:123537
+main.ts:123545
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:123559
+main.ts:123567
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordsDataGoogleTrendsExploreTaskGetResponseInfo`](KeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordsDataGoogleTrendsExploreTaskGetResponseInfo`](KeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:123552
+main.ts:123560

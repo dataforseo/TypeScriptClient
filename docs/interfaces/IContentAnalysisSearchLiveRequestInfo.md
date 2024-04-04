@@ -1,46 +1,31 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentAnalysisSearchLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IContentAnalysisSearchLiveRequestInfo
 
 # Interface: IContentAnalysisSearchLiveRequestInfo
 
-## Implemented by
-
-- [`ContentAnalysisSearchLiveRequestInfo`](../classes/ContentAnalysisSearchLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [filters](IContentAnalysisSearchLiveRequestInfo.md#filters)
-- [keyword](IContentAnalysisSearchLiveRequestInfo.md#keyword)
-- [keyword\_fields](IContentAnalysisSearchLiveRequestInfo.md#keyword_fields)
-- [limit](IContentAnalysisSearchLiveRequestInfo.md#limit)
-- [offset](IContentAnalysisSearchLiveRequestInfo.md#offset)
-- [offset\_token](IContentAnalysisSearchLiveRequestInfo.md#offset_token)
-- [order\_by](IContentAnalysisSearchLiveRequestInfo.md#order_by)
-- [page\_type](IContentAnalysisSearchLiveRequestInfo.md#page_type)
-- [search\_mode](IContentAnalysisSearchLiveRequestInfo.md#search_mode)
-- [tag](IContentAnalysisSearchLiveRequestInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, <=, >, >=, =, <>, in, not_in, like,not_like
+regex, <, `<=, >`, >=, =, `<>`, in, not_in, like,not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["country","=", "US"]
-[["domain_rank",">",800],"and",["content_info.connotation_types.negative",">",0.9]]
+[["domain_rank",">`",800],"and",["content_info.connotation_types.negative",">",0.9]]
 [["domain_rank",">",800],
 "and",
 [["page_types","has","ecommerce"],
@@ -48,15 +33,15 @@ example:
 ["content_info.text_category","has",10994]]]
 for more information about filters, please refer to Content Analysis API – Filters
 
-#### Defined in
+#### Source
 
-main.ts:161708
+main.ts:161716
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 target keyword
 required field
@@ -67,15 +52,15 @@ Note: to match an exact phrase instead of a stand-alone keyword, use double quot
 example:
 "keyword": "\"tesla palo alto\""
 
-#### Defined in
+#### Source
 
-main.ts:161661
+main.ts:161669
 
-___
+***
 
-### keyword\_fields
+### keyword\_fields?
 
-• `Optional` **keyword\_fields**: `Object`
+> **`optional`** **keyword\_fields**: `Object`
 
 target keyword fields and target keywords
 optional field
@@ -84,54 +69,54 @@ fields you can specify: title, main_title, previous_title, snippet
 you can indicate several fields;
 Note: to match an exact phrase instead of a stand-alone keyword, use double quotes and backslashes;
 example:
-"keyword_fields": {
+"keyword_fields": \{
     "snippet": "\"logitech mouse\"",
     "main_title": "sale"
-}
+\}
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
-#### Defined in
+#### Source
 
-main.ts:161673
+main.ts:161681
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned citations
 optional field
 default value: 100
 maximum value: 20000
 
-#### Defined in
+#### Source
 
-main.ts:161691
+main.ts:161699
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned citations
 optional field
 default value: 0
 if you specify the 10 value, the first ten citations in the results array will be omitted and the data will be provided for the successive citations
 
-#### Defined in
+#### Source
 
-main.ts:161729
+main.ts:161737
 
-___
+***
 
-### offset\_token
+### offset\_token?
 
-• `Optional` **offset\_token**: `string`
+> **`optional`** **offset\_token**: `string`
 
 offset token for subsequent requests
 optional field
@@ -141,15 +126,15 @@ by specifying the unique offset_token value from the response array, you will ge
 offset_token values are unique for each subsequent task
 Note: if the offset_token is specified in the request, all other parameters except limit will not be taken into account when processing a task
 
-#### Defined in
+#### Source
 
-main.ts:161737
+main.ts:161745
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -167,15 +152,15 @@ you should use a comma to separate several sorting rules
 example:
 ["content_info.sentiment_connotations.anger,desc","keyword_data.keyword_info.cpc,desc"]
 
-#### Defined in
+#### Source
 
-main.ts:161724
+main.ts:161732
 
-___
+***
 
-### page\_type
+### page\_type?
 
-• `Optional` **page\_type**: `string`[]
+> **`optional`** **page\_type**: `string`[]
 
 target page types
 optional field
@@ -183,15 +168,15 @@ use this parameter to filter the dataset by page types
 possible values:
 "ecommerce", "news", "blogs", "message-boards", "organization"
 
-#### Defined in
+#### Source
 
-main.ts:161679
+main.ts:161687
 
-___
+***
 
-### search\_mode
+### search\_mode?
 
-• `Optional` **search\_mode**: `string`
+> **`optional`** **search\_mode**: `string`
 
 results grouping type
 optional field
@@ -200,15 +185,15 @@ as_is – returns all citations for the target keyword
 one_per_domain – returns one citation of the keyword per domain
 default value: as_is
 
-#### Defined in
+#### Source
 
-main.ts:161686
+main.ts:161694
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -216,6 +201,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:161743
+main.ts:161751

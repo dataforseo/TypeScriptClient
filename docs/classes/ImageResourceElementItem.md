@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ImageResourceElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ImageResourceElementItem
 
 # Class: ImageResourceElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)
-
-  ↳ **`ImageResourceElementItem`**
 
 ## Implements
 
@@ -14,52 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ImageResourceElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](ImageResourceElementItem.md#_discriminator)
-- [accept\_type](ImageResourceElementItem.md#accept_type)
-- [cache\_control](ImageResourceElementItem.md#cache_control)
-- [checks](ImageResourceElementItem.md#checks)
-- [content\_encoding](ImageResourceElementItem.md#content_encoding)
-- [encoded\_size](ImageResourceElementItem.md#encoded_size)
-- [fetch\_time](ImageResourceElementItem.md#fetch_time)
-- [fetch\_timing](ImageResourceElementItem.md#fetch_timing)
-- [last\_modified](ImageResourceElementItem.md#last_modified)
-- [location](ImageResourceElementItem.md#location)
-- [media\_type](ImageResourceElementItem.md#media_type)
-- [meta](ImageResourceElementItem.md#meta)
-- [resource\_errors](ImageResourceElementItem.md#resource_errors)
-- [server](ImageResourceElementItem.md#server)
-- [size](ImageResourceElementItem.md#size)
-- [status\_code](ImageResourceElementItem.md#status_code)
-- [total\_transfer\_size](ImageResourceElementItem.md#total_transfer_size)
-- [url](ImageResourceElementItem.md#url)
-
-### Methods
-
-- [init](ImageResourceElementItem.md#init)
-- [toJSON](ImageResourceElementItem.md#tojson)
-- [fromJS](ImageResourceElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ImageResourceElementItem(data)
 
-• **new ImageResourceElementItem**(`data?`): [`ImageResourceElementItem`](ImageResourceElementItem.md)
+> **new ImageResourceElementItem**(`data`?): [`ImageResourceElementItem`](ImageResourceElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IImageResourceElementItem`](../interfaces/IImageResourceElementItem.md) |
+• **data?**: [`IImageResourceElementItem`](../interfaces/IImageResourceElementItem.md)
 
 #### Returns
 
@@ -67,31 +34,31 @@
 
 #### Overrides
 
-[BaseOnPageResourceItemInfo](BaseOnPageResourceItemInfo.md).[constructor](BaseOnPageResourceItemInfo.md#constructor)
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`constructor`](BaseOnPageResourceItemInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:152102
+main.ts:152110
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseOnPageResourceItemInfo](BaseOnPageResourceItemInfo.md).[_discriminator](BaseOnPageResourceItemInfo.md#_discriminator)
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`_discriminator`](BaseOnPageResourceItemInfo.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:20635
 
-___
+***
 
-### accept\_type
+### accept\_type?
 
-• `Optional` **accept\_type**: `string`
+> **`optional`** **accept\_type**: `string`
 
 indicates the expected type of resource
 for example, if "resource_type": "broken", accept_type will indicate the type of the broken resource
@@ -100,87 +67,87 @@ any, none, image, sitemap, robots, script, stylesheet, redirect, html, text, oth
 
 #### Implementation of
 
-[IImageResourceElementItem](../interfaces/IImageResourceElementItem.md).[accept_type](../interfaces/IImageResourceElementItem.md#accept_type)
+[`IImageResourceElementItem`](../interfaces/IImageResourceElementItem.md).[`accept_type`](../interfaces/IImageResourceElementItem.md#accept_type)
 
-#### Defined in
+#### Source
 
-main.ts:152091
+main.ts:152099
 
-___
+***
 
-### cache\_control
+### cache\_control?
 
-• `Optional` **cache\_control**: [`CacheControl`](CacheControl.md)
+> **`optional`** **cache\_control**: [`CacheControl`](CacheControl.md)
 
 instructions for caching
 
 #### Implementation of
 
-[IImageResourceElementItem](../interfaces/IImageResourceElementItem.md).[cache_control](../interfaces/IImageResourceElementItem.md#cache_control)
+[`IImageResourceElementItem`](../interfaces/IImageResourceElementItem.md).[`cache_control`](../interfaces/IImageResourceElementItem.md#cache_control)
 
-#### Defined in
+#### Source
 
-main.ts:152079
+main.ts:152087
 
-___
+***
 
-### checks
+### checks?
 
-• `Optional` **checks**: `Object`
+> **`optional`** **checks**: `Object`
 
 resource check-ups
 contents of the array depend on the resource_type
 
 #### Index signature
 
-▪ [key: `string`]: `boolean`
+ \[`key`: `string`\]: `boolean`
 
 #### Implementation of
 
-[IImageResourceElementItem](../interfaces/IImageResourceElementItem.md).[checks](../interfaces/IImageResourceElementItem.md#checks)
+[`IImageResourceElementItem`](../interfaces/IImageResourceElementItem.md).[`checks`](../interfaces/IImageResourceElementItem.md#checks)
 
-#### Defined in
+#### Source
 
-main.ts:152082
+main.ts:152090
 
-___
+***
 
-### content\_encoding
+### content\_encoding?
 
-• `Optional` **content\_encoding**: `string`
+> **`optional`** **content\_encoding**: `string`
 
 type of encoding
 
 #### Implementation of
 
-[IImageResourceElementItem](../interfaces/IImageResourceElementItem.md).[content_encoding](../interfaces/IImageResourceElementItem.md#content_encoding)
+[`IImageResourceElementItem`](../interfaces/IImageResourceElementItem.md).[`content_encoding`](../interfaces/IImageResourceElementItem.md#content_encoding)
 
-#### Defined in
+#### Source
 
-main.ts:152084
+main.ts:152092
 
-___
+***
 
-### encoded\_size
+### encoded\_size?
 
-• `Optional` **encoded\_size**: `number`
+> **`optional`** **encoded\_size**: `number`
 
 resource size after encoding
 indicates the size of the encoded resource measured in bytes
 
 #### Implementation of
 
-[IImageResourceElementItem](../interfaces/IImageResourceElementItem.md).[encoded_size](../interfaces/IImageResourceElementItem.md#encoded_size)
+[`IImageResourceElementItem`](../interfaces/IImageResourceElementItem.md).[`encoded_size`](../interfaces/IImageResourceElementItem.md#encoded_size)
 
-#### Defined in
+#### Source
 
-main.ts:152067
+main.ts:152075
 
-___
+***
 
-### fetch\_time
+### fetch\_time?
 
-• `Optional` **fetch\_time**: `string`
+> **`optional`** **fetch\_time**: `string`
 
 date and time when a resource was fetched
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -189,83 +156,83 @@ example:
 
 #### Implementation of
 
-[IImageResourceElementItem](../interfaces/IImageResourceElementItem.md).[fetch_time](../interfaces/IImageResourceElementItem.md#fetch_time)
+[`IImageResourceElementItem`](../interfaces/IImageResourceElementItem.md).[`fetch_time`](../interfaces/IImageResourceElementItem.md#fetch_time)
 
-#### Defined in
+#### Source
 
-main.ts:152075
+main.ts:152083
 
-___
+***
 
-### fetch\_timing
+### fetch\_timing?
 
-• `Optional` **fetch\_timing**: [`FetchTiming`](FetchTiming.md)
+> **`optional`** **fetch\_timing**: [`FetchTiming`](FetchTiming.md)
 
 resource fething time range
 
 #### Implementation of
 
-[IImageResourceElementItem](../interfaces/IImageResourceElementItem.md).[fetch_timing](../interfaces/IImageResourceElementItem.md#fetch_timing)
+[`IImageResourceElementItem`](../interfaces/IImageResourceElementItem.md).[`fetch_timing`](../interfaces/IImageResourceElementItem.md#fetch_timing)
 
-#### Defined in
+#### Source
 
-main.ts:152077
+main.ts:152085
 
-___
+***
 
-### last\_modified
+### last\_modified?
 
-• `Optional` **last\_modified**: [`LastModified`](LastModified.md)
+> **`optional`** **last\_modified**: [`LastModified`](LastModified.md)
 
 contains data on changes related to the resource
 if there is no data, the value will be null
 
 #### Implementation of
 
-[IImageResourceElementItem](../interfaces/IImageResourceElementItem.md).[last_modified](../interfaces/IImageResourceElementItem.md#last_modified)
+[`IImageResourceElementItem`](../interfaces/IImageResourceElementItem.md).[`last_modified`](../interfaces/IImageResourceElementItem.md#last_modified)
 
-#### Defined in
+#### Source
 
-main.ts:152096
+main.ts:152104
 
-___
+***
 
-### location
+### location?
 
-• `Optional` **location**: `string`
+> **`optional`** **location**: `string`
 
 location header
 indicates the URL to redirect a page to
 
 #### Implementation of
 
-[IImageResourceElementItem](../interfaces/IImageResourceElementItem.md).[location](../interfaces/IImageResourceElementItem.md#location)
+[`IImageResourceElementItem`](../interfaces/IImageResourceElementItem.md).[`location`](../interfaces/IImageResourceElementItem.md#location)
 
-#### Defined in
+#### Source
 
-main.ts:152059
+main.ts:152067
 
-___
+***
 
-### media\_type
+### media\_type?
 
-• `Optional` **media\_type**: `string`
+> **`optional`** **media\_type**: `string`
 
 types of media used to display a resource
 
 #### Implementation of
 
-[IImageResourceElementItem](../interfaces/IImageResourceElementItem.md).[media_type](../interfaces/IImageResourceElementItem.md#media_type)
+[`IImageResourceElementItem`](../interfaces/IImageResourceElementItem.md).[`media_type`](../interfaces/IImageResourceElementItem.md#media_type)
 
-#### Defined in
+#### Source
 
-main.ts:152086
+main.ts:152094
 
-___
+***
 
-### meta
+### meta?
 
-• `Optional` **meta**: [`ResourceMetaInfo`](ResourceMetaInfo.md)
+> **`optional`** **meta**: [`ResourceMetaInfo`](ResourceMetaInfo.md)
 
 resource properties
 the value depends on the resource_type
@@ -274,121 +241,119 @@ to obtain resource’s meta from a particular url, specify that URL when setting
 
 #### Implementation of
 
-[IImageResourceElementItem](../interfaces/IImageResourceElementItem.md).[meta](../interfaces/IImageResourceElementItem.md#meta)
+[`IImageResourceElementItem`](../interfaces/IImageResourceElementItem.md).[`meta`](../interfaces/IImageResourceElementItem.md#meta)
 
-#### Defined in
+#### Source
 
-main.ts:152054
+main.ts:152062
 
-___
+***
 
-### resource\_errors
+### resource\_errors?
 
-• `Optional` **resource\_errors**: [`OnPageResourceIssueInfo`](OnPageResourceIssueInfo.md)
+> **`optional`** **resource\_errors**: [`OnPageResourceIssueInfo`](OnPageResourceIssueInfo.md)
 
 resource errors and warnings
 
 #### Implementation of
 
-[IImageResourceElementItem](../interfaces/IImageResourceElementItem.md).[resource_errors](../interfaces/IImageResourceElementItem.md#resource_errors)
+[`IImageResourceElementItem`](../interfaces/IImageResourceElementItem.md).[`resource_errors`](../interfaces/IImageResourceElementItem.md#resource_errors)
 
-#### Defined in
+#### Source
 
-main.ts:152098
+main.ts:152106
 
-___
+***
 
-### server
+### server?
 
-• `Optional` **server**: `string`
+> **`optional`** **server**: `string`
 
 server version
 
 #### Implementation of
 
-[IImageResourceElementItem](../interfaces/IImageResourceElementItem.md).[server](../interfaces/IImageResourceElementItem.md#server)
+[`IImageResourceElementItem`](../interfaces/IImageResourceElementItem.md).[`server`](../interfaces/IImageResourceElementItem.md#server)
 
-#### Defined in
+#### Source
 
-main.ts:152093
+main.ts:152101
 
-___
+***
 
-### size
+### size?
 
-• `Optional` **size**: `number`
+> **`optional`** **size**: `number`
 
 resource size
 indicates the size of a given resource measured in bytes
 
 #### Implementation of
 
-[IImageResourceElementItem](../interfaces/IImageResourceElementItem.md).[size](../interfaces/IImageResourceElementItem.md#size)
+[`IImageResourceElementItem`](../interfaces/IImageResourceElementItem.md).[`size`](../interfaces/IImageResourceElementItem.md#size)
 
-#### Defined in
+#### Source
 
-main.ts:152064
+main.ts:152072
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the page where a given resource is located
 
 #### Implementation of
 
-[IImageResourceElementItem](../interfaces/IImageResourceElementItem.md).[status_code](../interfaces/IImageResourceElementItem.md#status_code)
+[`IImageResourceElementItem`](../interfaces/IImageResourceElementItem.md).[`status_code`](../interfaces/IImageResourceElementItem.md#status_code)
 
-#### Defined in
+#### Source
 
-main.ts:152056
+main.ts:152064
 
-___
+***
 
-### total\_transfer\_size
+### total\_transfer\_size?
 
-• `Optional` **total\_transfer\_size**: `number`
+> **`optional`** **total\_transfer\_size**: `number`
 
 compressed resource size
 indicates the compressed size of a given resource in bytes
 
 #### Implementation of
 
-[IImageResourceElementItem](../interfaces/IImageResourceElementItem.md).[total_transfer_size](../interfaces/IImageResourceElementItem.md#total_transfer_size)
+[`IImageResourceElementItem`](../interfaces/IImageResourceElementItem.md).[`total_transfer_size`](../interfaces/IImageResourceElementItem.md#total_transfer_size)
 
-#### Defined in
+#### Source
 
-main.ts:152070
+main.ts:152078
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 resource URL
 
 #### Implementation of
 
-[IImageResourceElementItem](../interfaces/IImageResourceElementItem.md).[url](../interfaces/IImageResourceElementItem.md#url)
+[`IImageResourceElementItem`](../interfaces/IImageResourceElementItem.md).[`url`](../interfaces/IImageResourceElementItem.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:152061
+main.ts:152069
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -396,23 +361,21 @@ main.ts:152061
 
 #### Overrides
 
-[BaseOnPageResourceItemInfo](BaseOnPageResourceItemInfo.md).[init](BaseOnPageResourceItemInfo.md#init)
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`init`](BaseOnPageResourceItemInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:152107
+main.ts:152115
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -420,23 +383,21 @@ ___
 
 #### Overrides
 
-[BaseOnPageResourceItemInfo](BaseOnPageResourceItemInfo.md).[toJSON](BaseOnPageResourceItemInfo.md#tojson)
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`toJSON`](BaseOnPageResourceItemInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:152147
+main.ts:152155
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ImageResourceElementItem`](ImageResourceElementItem.md)
+> **`static`** **fromJS**(`data`): [`ImageResourceElementItem`](ImageResourceElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -444,8 +405,8 @@ ___
 
 #### Overrides
 
-[BaseOnPageResourceItemInfo](BaseOnPageResourceItemInfo.md).[fromJS](BaseOnPageResourceItemInfo.md#fromjs)
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`fromJS`](BaseOnPageResourceItemInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:152140
+main.ts:152148

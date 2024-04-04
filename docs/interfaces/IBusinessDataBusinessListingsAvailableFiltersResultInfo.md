@@ -1,46 +1,39 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataBusinessListingsAvailableFiltersResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBusinessDataBusinessListingsAvailableFiltersResultInfo
 
 # Interface: IBusinessDataBusinessListingsAvailableFiltersResultInfo
 
-## Implemented by
-
-- [`BusinessDataBusinessListingsAvailableFiltersResultInfo`](../classes/BusinessDataBusinessListingsAvailableFiltersResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [categories\_aggregation](IBusinessDataBusinessListingsAvailableFiltersResultInfo.md#categories_aggregation)
-- [search](IBusinessDataBusinessListingsAvailableFiltersResultInfo.md#search)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### categories\_aggregation
+### categories\_aggregation?
 
-• `Optional` **categories\_aggregation**: `Object`
+> **`optional`** **categories\_aggregation**: `Object`
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
-#### Defined in
+#### Source
 
 main.ts:193694
 
-___
+***
 
-### search
+### search?
 
-• `Optional` **search**: `Object`
+> **`optional`** **search**: `Object`
 
 #### Index signature
 
-▪ [key: `string`]: `string`
+ \[`key`: `string`\]: `string`
 
-#### Defined in
+#### Source
 
 main.ts:193693

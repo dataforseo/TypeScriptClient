@@ -1,56 +1,48 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageLighthouseTasksReadyResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IOnPageLighthouseTasksReadyResultInfo
 
 # Interface: IOnPageLighthouseTasksReadyResultInfo
 
-## Implemented by
-
-- [`OnPageLighthouseTasksReadyResultInfo`](../classes/OnPageLighthouseTasksReadyResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [endpoint\_json](IOnPageLighthouseTasksReadyResultInfo.md#endpoint_json)
-- [id](IOnPageLighthouseTasksReadyResultInfo.md#id)
-- [tag](IOnPageLighthouseTasksReadyResultInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### endpoint\_json
+### endpoint\_json?
 
-• `Optional` **endpoint\_json**: `string`
+> **`optional`** **endpoint\_json**: `string`
 
 URL for collecting the results of the OnPage Lighthouse JSON task
 
-#### Defined in
+#### Source
 
-main.ts:159901
+main.ts:159909
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
-#### Defined in
+#### Source
 
-main.ts:159897
+main.ts:159905
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
-#### Defined in
+#### Source
 
-main.ts:159899
+main.ts:159907

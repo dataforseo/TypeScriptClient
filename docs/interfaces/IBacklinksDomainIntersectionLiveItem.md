@@ -1,47 +1,40 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksDomainIntersectionLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBacklinksDomainIntersectionLiveItem
 
 # Interface: IBacklinksDomainIntersectionLiveItem
 
-## Implemented by
-
-- [`BacklinksDomainIntersectionLiveItem`](../classes/BacklinksDomainIntersectionLiveItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [domain\_intersection](IBacklinksDomainIntersectionLiveItem.md#domain_intersection)
-- [summary](IBacklinksDomainIntersectionLiveItem.md#summary)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### domain\_intersection
+### domain\_intersection?
 
-• `Optional` **domain\_intersection**: `Object`
+> **`optional`** **domain\_intersection**: `Object`
 
 contains data on domains that link to the corresponding targets specified in the POST array
 data is provided in separate objects corresponding to domains, subdomains or pages specified in the targets object
 
 #### Index signature
 
-▪ [key: `string`]: [`BacklinksDomainIntersectionInfo`](../classes/BacklinksDomainIntersectionInfo.md)
+ \[`key`: `string`\]: [`BacklinksDomainIntersectionInfo`](../classes/BacklinksDomainIntersectionInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:142549
+main.ts:142557
 
-___
+***
 
-### summary
+### summary?
 
-• `Optional` **summary**: [`IntersectionSummaryInfo`](../classes/IntersectionSummaryInfo.md)
+> **`optional`** **summary**: [`IntersectionSummaryInfo`](../classes/IntersectionSummaryInfo.md)
 
 contains the domain intersections summary
 
-#### Defined in
+#### Source
 
-main.ts:142551
+main.ts:142559

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixFunctionTypeInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppendixFunctionTypeInfo
 
 # Class: AppendixFunctionTypeInfo
 
@@ -8,144 +12,118 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixFunctionTypeInfo.md#constructor)
-
-### Properties
-
-- [advanced](AppendixFunctionTypeInfo.md#advanced)
-- [html](AppendixFunctionTypeInfo.md#html)
-- [regular](AppendixFunctionTypeInfo.md#regular)
-
-### Methods
-
-- [init](AppendixFunctionTypeInfo.md#init)
-- [toJSON](AppendixFunctionTypeInfo.md#tojson)
-- [fromJS](AppendixFunctionTypeInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixFunctionTypeInfo(data)
 
-• **new AppendixFunctionTypeInfo**(`data?`): [`AppendixFunctionTypeInfo`](AppendixFunctionTypeInfo.md)
+> **new AppendixFunctionTypeInfo**(`data`?): [`AppendixFunctionTypeInfo`](AppendixFunctionTypeInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixFunctionTypeInfo`](../interfaces/IAppendixFunctionTypeInfo.md) |
+• **data?**: [`IAppendixFunctionTypeInfo`](../interfaces/IAppendixFunctionTypeInfo.md)
 
 #### Returns
 
 [`AppendixFunctionTypeInfo`](AppendixFunctionTypeInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:211948
 
 ## Properties
 
-### advanced
+### advanced?
 
-• `Optional` **advanced**: `number`
+> **`optional`** **advanced**: `number`
 
 #### Implementation of
 
-[IAppendixFunctionTypeInfo](../interfaces/IAppendixFunctionTypeInfo.md).[advanced](../interfaces/IAppendixFunctionTypeInfo.md#advanced)
+[`IAppendixFunctionTypeInfo`](../interfaces/IAppendixFunctionTypeInfo.md).[`advanced`](../interfaces/IAppendixFunctionTypeInfo.md#advanced)
 
-#### Defined in
+#### Source
 
 main.ts:211943
 
-___
+***
 
-### html
+### html?
 
-• `Optional` **html**: `number`
+> **`optional`** **html**: `number`
 
 #### Implementation of
 
-[IAppendixFunctionTypeInfo](../interfaces/IAppendixFunctionTypeInfo.md).[html](../interfaces/IAppendixFunctionTypeInfo.md#html)
+[`IAppendixFunctionTypeInfo`](../interfaces/IAppendixFunctionTypeInfo.md).[`html`](../interfaces/IAppendixFunctionTypeInfo.md#html)
 
-#### Defined in
+#### Source
 
 main.ts:211944
 
-___
+***
 
-### regular
+### regular?
 
-• `Optional` **regular**: `number`
+> **`optional`** **regular**: `number`
 
 #### Implementation of
 
-[IAppendixFunctionTypeInfo](../interfaces/IAppendixFunctionTypeInfo.md).[regular](../interfaces/IAppendixFunctionTypeInfo.md#regular)
+[`IAppendixFunctionTypeInfo`](../interfaces/IAppendixFunctionTypeInfo.md).[`regular`](../interfaces/IAppendixFunctionTypeInfo.md#regular)
 
-#### Defined in
+#### Source
 
 main.ts:211942
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:211957
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:211976
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppendixFunctionTypeInfo`](AppendixFunctionTypeInfo.md)
+> **`static`** **fromJS**(`data`): [`AppendixFunctionTypeInfo`](AppendixFunctionTypeInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppendixFunctionTypeInfo`](AppendixFunctionTypeInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:211969

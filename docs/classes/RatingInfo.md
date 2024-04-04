@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / RatingInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / RatingInfo
 
 # Class: RatingInfo
 
@@ -8,168 +12,141 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](RatingInfo.md#constructor)
-
-### Properties
-
-- [rating\_max](RatingInfo.md#rating_max)
-- [rating\_type](RatingInfo.md#rating_type)
-- [value](RatingInfo.md#value)
-- [votes\_count](RatingInfo.md#votes_count)
-
-### Methods
-
-- [init](RatingInfo.md#init)
-- [toJSON](RatingInfo.md#tojson)
-- [fromJS](RatingInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new RatingInfo(data)
 
-• **new RatingInfo**(`data?`): [`RatingInfo`](RatingInfo.md)
+> **new RatingInfo**(`data`?): [`RatingInfo`](RatingInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IRatingInfo`](../interfaces/IRatingInfo.md) |
+• **data?**: [`IRatingInfo`](../interfaces/IRatingInfo.md)
 
 #### Returns
 
 [`RatingInfo`](RatingInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:28514
 
 ## Properties
 
-### rating\_max
+### rating\_max?
 
-• `Optional` **rating\_max**: `number`
+> **`optional`** **rating\_max**: `number`
 
 the maximum value for a rating_type
 
 #### Implementation of
 
-[IRatingInfo](../interfaces/IRatingInfo.md).[rating_max](../interfaces/IRatingInfo.md#rating_max)
+[`IRatingInfo`](../interfaces/IRatingInfo.md).[`rating_max`](../interfaces/IRatingInfo.md#rating_max)
 
-#### Defined in
+#### Source
 
 main.ts:28510
 
-___
+***
 
-### rating\_type
+### rating\_type?
 
-• `Optional` **rating\_type**: `string`
+> **`optional`** **rating\_type**: `string`
 
 the type of rating
 here you can find the following elements: Max5, Percents, CustomMax
 
 #### Implementation of
 
-[IRatingInfo](../interfaces/IRatingInfo.md).[rating_type](../interfaces/IRatingInfo.md#rating_type)
+[`IRatingInfo`](../interfaces/IRatingInfo.md).[`rating_type`](../interfaces/IRatingInfo.md#rating_type)
 
-#### Defined in
+#### Source
 
 main.ts:28504
 
-___
+***
 
-### value
+### value?
 
-• `Optional` **value**: `number`
+> **`optional`** **value**: `number`
 
 the value of the rating
 
 #### Implementation of
 
-[IRatingInfo](../interfaces/IRatingInfo.md).[value](../interfaces/IRatingInfo.md#value)
+[`IRatingInfo`](../interfaces/IRatingInfo.md).[`value`](../interfaces/IRatingInfo.md#value)
 
-#### Defined in
+#### Source
 
 main.ts:28506
 
-___
+***
 
-### votes\_count
+### votes\_count?
 
-• `Optional` **votes\_count**: `number`
+> **`optional`** **votes\_count**: `number`
 
 the amount of feedback
 
 #### Implementation of
 
-[IRatingInfo](../interfaces/IRatingInfo.md).[votes_count](../interfaces/IRatingInfo.md#votes_count)
+[`IRatingInfo`](../interfaces/IRatingInfo.md).[`votes_count`](../interfaces/IRatingInfo.md#votes_count)
 
-#### Defined in
+#### Source
 
 main.ts:28508
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:28523
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:28543
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`RatingInfo`](RatingInfo.md)
+> **`static`** **fromJS**(`data`): [`RatingInfo`](RatingInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`RatingInfo`](RatingInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:28536

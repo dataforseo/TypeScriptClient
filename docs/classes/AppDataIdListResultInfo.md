@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataIdListResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppDataIdListResultInfo
 
 # Class: AppDataIdListResultInfo
 
@@ -8,71 +12,47 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppDataIdListResultInfo.md#constructor)
-
-### Properties
-
-- [cost](AppDataIdListResultInfo.md#cost)
-- [datetime\_done](AppDataIdListResultInfo.md#datetime_done)
-- [datetime\_posted](AppDataIdListResultInfo.md#datetime_posted)
-- [id](AppDataIdListResultInfo.md#id)
-- [metadata](AppDataIdListResultInfo.md#metadata)
-- [status](AppDataIdListResultInfo.md#status)
-- [url](AppDataIdListResultInfo.md#url)
-
-### Methods
-
-- [init](AppDataIdListResultInfo.md#init)
-- [toJSON](AppDataIdListResultInfo.md#tojson)
-- [fromJS](AppDataIdListResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppDataIdListResultInfo(data)
 
-• **new AppDataIdListResultInfo**(`data?`): [`AppDataIdListResultInfo`](AppDataIdListResultInfo.md)
+> **new AppDataIdListResultInfo**(`data`?): [`AppDataIdListResultInfo`](AppDataIdListResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppDataIdListResultInfo`](../interfaces/IAppDataIdListResultInfo.md) |
+• **data?**: [`IAppDataIdListResultInfo`](../interfaces/IAppDataIdListResultInfo.md)
 
 #### Returns
 
 [`AppDataIdListResultInfo`](AppDataIdListResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:181879
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 cost of the task, USD
 
 #### Implementation of
 
-[IAppDataIdListResultInfo](../interfaces/IAppDataIdListResultInfo.md).[cost](../interfaces/IAppDataIdListResultInfo.md#cost)
+[`IAppDataIdListResultInfo`](../interfaces/IAppDataIdListResultInfo.md).[`cost`](../interfaces/IAppDataIdListResultInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:181873
 
-___
+***
 
-### datetime\_done
+### datetime\_done?
 
-• `Optional` **datetime\_done**: `string`
+> **`optional`** **datetime\_done**: `string`
 
 date and time when the task was completed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -81,17 +61,17 @@ example:
 
 #### Implementation of
 
-[IAppDataIdListResultInfo](../interfaces/IAppDataIdListResultInfo.md).[datetime_done](../interfaces/IAppDataIdListResultInfo.md#datetime_done)
+[`IAppDataIdListResultInfo`](../interfaces/IAppDataIdListResultInfo.md).[`datetime_done`](../interfaces/IAppDataIdListResultInfo.md#datetime_done)
 
-#### Defined in
+#### Source
 
 main.ts:181868
 
-___
+***
 
-### datetime\_posted
+### datetime\_posted?
 
-• `Optional` **datetime\_posted**: `string`
+> **`optional`** **datetime\_posted**: `string`
 
 date and time when the task was made
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -100,138 +80,132 @@ example:
 
 #### Implementation of
 
-[IAppDataIdListResultInfo](../interfaces/IAppDataIdListResultInfo.md).[datetime_posted](../interfaces/IAppDataIdListResultInfo.md#datetime_posted)
+[`IAppDataIdListResultInfo`](../interfaces/IAppDataIdListResultInfo.md).[`datetime_posted`](../interfaces/IAppDataIdListResultInfo.md#datetime_posted)
 
-#### Defined in
+#### Source
 
 main.ts:181863
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 id of the task
 
 #### Implementation of
 
-[IAppDataIdListResultInfo](../interfaces/IAppDataIdListResultInfo.md).[id](../interfaces/IAppDataIdListResultInfo.md#id)
+[`IAppDataIdListResultInfo`](../interfaces/IAppDataIdListResultInfo.md).[`id`](../interfaces/IAppDataIdListResultInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:181855
 
-___
+***
 
-### metadata
+### metadata?
 
-• `Optional` **metadata**: `Object`
+> **`optional`** **metadata**: `Object`
 
 contains parameters you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[IAppDataIdListResultInfo](../interfaces/IAppDataIdListResultInfo.md).[metadata](../interfaces/IAppDataIdListResultInfo.md#metadata)
+[`IAppDataIdListResultInfo`](../interfaces/IAppDataIdListResultInfo.md).[`metadata`](../interfaces/IAppDataIdListResultInfo.md#metadata)
 
-#### Defined in
+#### Source
 
 main.ts:181875
 
-___
+***
 
-### status
+### status?
 
-• `Optional` **status**: `string`
+> **`optional`** **status**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IAppDataIdListResultInfo](../interfaces/IAppDataIdListResultInfo.md).[status](../interfaces/IAppDataIdListResultInfo.md#status)
+[`IAppDataIdListResultInfo`](../interfaces/IAppDataIdListResultInfo.md).[`status`](../interfaces/IAppDataIdListResultInfo.md#status)
 
-#### Defined in
+#### Source
 
 main.ts:181871
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL of the task
 URL you used for making an API call
 
 #### Implementation of
 
-[IAppDataIdListResultInfo](../interfaces/IAppDataIdListResultInfo.md).[url](../interfaces/IAppDataIdListResultInfo.md#url)
+[`IAppDataIdListResultInfo`](../interfaces/IAppDataIdListResultInfo.md).[`url`](../interfaces/IAppDataIdListResultInfo.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:181858
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:181888
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:181917
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppDataIdListResultInfo`](AppDataIdListResultInfo.md)
+> **`static`** **fromJS**(`data`): [`AppDataIdListResultInfo`](AppDataIdListResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppDataIdListResultInfo`](AppDataIdListResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:181910

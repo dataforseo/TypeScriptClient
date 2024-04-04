@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksBulkNewLostReferringDomainsLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BacklinksBulkNewLostReferringDomainsLiveResultInfo
 
 # Class: BacklinksBulkNewLostReferringDomainsLiveResultInfo
 
@@ -8,133 +12,108 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BacklinksBulkNewLostReferringDomainsLiveResultInfo.md#constructor)
-
-### Properties
-
-- [items](BacklinksBulkNewLostReferringDomainsLiveResultInfo.md#items)
-- [items\_count](BacklinksBulkNewLostReferringDomainsLiveResultInfo.md#items_count)
-
-### Methods
-
-- [init](BacklinksBulkNewLostReferringDomainsLiveResultInfo.md#init)
-- [toJSON](BacklinksBulkNewLostReferringDomainsLiveResultInfo.md#tojson)
-- [fromJS](BacklinksBulkNewLostReferringDomainsLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BacklinksBulkNewLostReferringDomainsLiveResultInfo(data)
 
-• **new BacklinksBulkNewLostReferringDomainsLiveResultInfo**(`data?`): [`BacklinksBulkNewLostReferringDomainsLiveResultInfo`](BacklinksBulkNewLostReferringDomainsLiveResultInfo.md)
+> **new BacklinksBulkNewLostReferringDomainsLiveResultInfo**(`data`?): [`BacklinksBulkNewLostReferringDomainsLiveResultInfo`](BacklinksBulkNewLostReferringDomainsLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBacklinksBulkNewLostReferringDomainsLiveResultInfo`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveResultInfo.md) |
+• **data?**: [`IBacklinksBulkNewLostReferringDomainsLiveResultInfo`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveResultInfo.md)
 
 #### Returns
 
 [`BacklinksBulkNewLostReferringDomainsLiveResultInfo`](BacklinksBulkNewLostReferringDomainsLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:146696
+main.ts:146704
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`BacklinksBulkNewLostReferringDomainsLiveItem`](BacklinksBulkNewLostReferringDomainsLiveItem.md)[]
+> **`optional`** **items**: [`BacklinksBulkNewLostReferringDomainsLiveItem`](BacklinksBulkNewLostReferringDomainsLiveItem.md)[]
 
 contains relevant backlinks and referring domains data
 
 #### Implementation of
 
-[IBacklinksBulkNewLostReferringDomainsLiveResultInfo](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveResultInfo.md).[items](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveResultInfo.md#items)
+[`IBacklinksBulkNewLostReferringDomainsLiveResultInfo`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveResultInfo.md).[`items`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:146692
+main.ts:146700
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[IBacklinksBulkNewLostReferringDomainsLiveResultInfo](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveResultInfo.md).[items_count](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveResultInfo.md#items_count)
+[`IBacklinksBulkNewLostReferringDomainsLiveResultInfo`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveResultInfo.md).[`items_count`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:146690
+main.ts:146698
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:146705
+main.ts:146713
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:146727
+main.ts:146735
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BacklinksBulkNewLostReferringDomainsLiveResultInfo`](BacklinksBulkNewLostReferringDomainsLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`BacklinksBulkNewLostReferringDomainsLiveResultInfo`](BacklinksBulkNewLostReferringDomainsLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BacklinksBulkNewLostReferringDomainsLiveResultInfo`](BacklinksBulkNewLostReferringDomainsLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:146720
+main.ts:146728

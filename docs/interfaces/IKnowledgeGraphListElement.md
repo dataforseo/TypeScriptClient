@@ -1,108 +1,96 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKnowledgeGraphListElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IKnowledgeGraphListElement
 
 # Interface: IKnowledgeGraphListElement
 
-## Implemented by
-
-- [`KnowledgeGraphListElement`](../classes/KnowledgeGraphListElement.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [domain](IKnowledgeGraphListElement.md#domain)
-- [image\_url](IKnowledgeGraphListElement.md#image_url)
-- [subtitle](IKnowledgeGraphListElement.md#subtitle)
-- [title](IKnowledgeGraphListElement.md#title)
-- [type](IKnowledgeGraphListElement.md#type)
-- [url](IKnowledgeGraphListElement.md#url)
-- [xpath](IKnowledgeGraphListElement.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain in SERP
 
-#### Defined in
+#### Source
 
 main.ts:26709
 
-___
+***
 
-### image\_url
+### image\_url?
 
-• `Optional` **image\_url**: `string`
+> **`optional`** **image\_url**: `string`
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
 
-#### Defined in
+#### Source
 
 main.ts:26712
 
-___
+***
 
-### subtitle
+### subtitle?
 
-• `Optional` **subtitle**: `string`
+> **`optional`** **subtitle**: `string`
 
 subtitle of the item
 
-#### Defined in
+#### Source
 
 main.ts:26705
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 link anchor text
 
-#### Defined in
+#### Source
 
 main.ts:26703
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
 main.ts:26701
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 sitelink URL
 
-#### Defined in
+#### Source
 
 main.ts:26707
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
 main.ts:26714

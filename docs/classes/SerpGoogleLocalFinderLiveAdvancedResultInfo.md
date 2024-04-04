@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleLocalFinderLiveAdvancedResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleLocalFinderLiveAdvancedResultInfo
 
 # Class: SerpGoogleLocalFinderLiveAdvancedResultInfo
 
@@ -8,77 +12,48 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleLocalFinderLiveAdvancedResultInfo.md#constructor)
-
-### Properties
-
-- [check\_url](SerpGoogleLocalFinderLiveAdvancedResultInfo.md#check_url)
-- [datetime](SerpGoogleLocalFinderLiveAdvancedResultInfo.md#datetime)
-- [item\_types](SerpGoogleLocalFinderLiveAdvancedResultInfo.md#item_types)
-- [items](SerpGoogleLocalFinderLiveAdvancedResultInfo.md#items)
-- [items\_count](SerpGoogleLocalFinderLiveAdvancedResultInfo.md#items_count)
-- [keyword](SerpGoogleLocalFinderLiveAdvancedResultInfo.md#keyword)
-- [language\_code](SerpGoogleLocalFinderLiveAdvancedResultInfo.md#language_code)
-- [location\_code](SerpGoogleLocalFinderLiveAdvancedResultInfo.md#location_code)
-- [se\_domain](SerpGoogleLocalFinderLiveAdvancedResultInfo.md#se_domain)
-- [se\_results\_count](SerpGoogleLocalFinderLiveAdvancedResultInfo.md#se_results_count)
-- [spell](SerpGoogleLocalFinderLiveAdvancedResultInfo.md#spell)
-- [type](SerpGoogleLocalFinderLiveAdvancedResultInfo.md#type)
-
-### Methods
-
-- [init](SerpGoogleLocalFinderLiveAdvancedResultInfo.md#init)
-- [toJSON](SerpGoogleLocalFinderLiveAdvancedResultInfo.md#tojson)
-- [fromJS](SerpGoogleLocalFinderLiveAdvancedResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleLocalFinderLiveAdvancedResultInfo(data)
 
-• **new SerpGoogleLocalFinderLiveAdvancedResultInfo**(`data?`): [`SerpGoogleLocalFinderLiveAdvancedResultInfo`](SerpGoogleLocalFinderLiveAdvancedResultInfo.md)
+> **new SerpGoogleLocalFinderLiveAdvancedResultInfo**(`data`?): [`SerpGoogleLocalFinderLiveAdvancedResultInfo`](SerpGoogleLocalFinderLiveAdvancedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleLocalFinderLiveAdvancedResultInfo`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md) |
+• **data?**: [`ISerpGoogleLocalFinderLiveAdvancedResultInfo`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md)
 
 #### Returns
 
 [`SerpGoogleLocalFinderLiveAdvancedResultInfo`](SerpGoogleLocalFinderLiveAdvancedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:42008
+main.ts:42014
 
 ## Properties
 
-### check\_url
+### check\_url?
 
-• `Optional` **check\_url**: `string`
+> **`optional`** **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided exact results
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderLiveAdvancedResultInfo](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md).[check_url](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md#check_url)
+[`ISerpGoogleLocalFinderLiveAdvancedResultInfo`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md).[`check_url`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md#check_url)
 
-#### Defined in
+#### Source
 
-main.ts:41985
+main.ts:41991
 
-___
+***
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -87,17 +62,17 @@ example:
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderLiveAdvancedResultInfo](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md).[datetime](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md#datetime)
+[`ISerpGoogleLocalFinderLiveAdvancedResultInfo`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md).[`datetime`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
-main.ts:41990
+main.ts:41996
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -106,214 +81,208 @@ local_pack
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderLiveAdvancedResultInfo](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md).[item_types](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md#item_types)
+[`ISerpGoogleLocalFinderLiveAdvancedResultInfo`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md).[`item_types`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md#item_types)
 
-#### Defined in
+#### Source
 
-main.ts:41998
+main.ts:42004
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
+> **`optional`** **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
 elements of search results found in SERP
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderLiveAdvancedResultInfo](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md).[items](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md#items)
+[`ISerpGoogleLocalFinderLiveAdvancedResultInfo`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md).[`items`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:42004
+main.ts:42010
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderLiveAdvancedResultInfo](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md).[items_count](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md#items_count)
+[`ISerpGoogleLocalFinderLiveAdvancedResultInfo`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md).[`items_count`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:42002
+main.ts:42008
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword received in a POST array
 the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderLiveAdvancedResultInfo](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md).[keyword](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md#keyword)
+[`ISerpGoogleLocalFinderLiveAdvancedResultInfo`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md).[`keyword`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:41974
+main.ts:41980
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderLiveAdvancedResultInfo](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md).[language_code](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md#language_code)
+[`ISerpGoogleLocalFinderLiveAdvancedResultInfo`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md).[`language_code`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:41982
+main.ts:41988
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderLiveAdvancedResultInfo](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md).[location_code](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md#location_code)
+[`ISerpGoogleLocalFinderLiveAdvancedResultInfo`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md).[`location_code`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:41980
+main.ts:41986
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderLiveAdvancedResultInfo](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md).[se_domain](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md#se_domain)
+[`ISerpGoogleLocalFinderLiveAdvancedResultInfo`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md).[`se_domain`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md#se_domain)
 
-#### Defined in
+#### Source
 
-main.ts:41978
+main.ts:41984
 
-___
+***
 
-### se\_results\_count
+### se\_results\_count?
 
-• `Optional` **se\_results\_count**: `number`
+> **`optional`** **se\_results\_count**: `number`
 
 total number of results in SERP
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderLiveAdvancedResultInfo](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md).[se_results_count](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md#se_results_count)
+[`ISerpGoogleLocalFinderLiveAdvancedResultInfo`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md).[`se_results_count`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md#se_results_count)
 
-#### Defined in
+#### Source
 
-main.ts:42000
+main.ts:42006
 
-___
+***
 
-### spell
+### spell?
 
-• `Optional` **spell**: [`SpellInfo`](SpellInfo.md)
+> **`optional`** **spell**: [`SpellInfo`](SpellInfo.md)
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderLiveAdvancedResultInfo](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md).[spell](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md#spell)
+[`ISerpGoogleLocalFinderLiveAdvancedResultInfo`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md).[`spell`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md#spell)
 
-#### Defined in
+#### Source
 
-main.ts:41993
+main.ts:41999
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderLiveAdvancedResultInfo](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md).[type](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md#type)
+[`ISerpGoogleLocalFinderLiveAdvancedResultInfo`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md).[`type`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:41976
+main.ts:41982
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:42017
+main.ts:42023
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:42053
+main.ts:42059
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleLocalFinderLiveAdvancedResultInfo`](SerpGoogleLocalFinderLiveAdvancedResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleLocalFinderLiveAdvancedResultInfo`](SerpGoogleLocalFinderLiveAdvancedResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpGoogleLocalFinderLiveAdvancedResultInfo`](SerpGoogleLocalFinderLiveAdvancedResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:42046
+main.ts:42052

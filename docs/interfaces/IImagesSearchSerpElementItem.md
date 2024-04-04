@@ -1,142 +1,126 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IImagesSearchSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IImagesSearchSerpElementItem
 
 # Interface: IImagesSearchSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
 
-  ↳ **`IImagesSearchSerpElementItem`**
-
-## Implemented by
-
-- [`ImagesSearchSerpElementItem`](../classes/ImagesSearchSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [alt](IImagesSearchSerpElementItem.md#alt)
-- [encoded\_url](IImagesSearchSerpElementItem.md#encoded_url)
-- [rank\_absolute](IImagesSearchSerpElementItem.md#rank_absolute)
-- [rank\_group](IImagesSearchSerpElementItem.md#rank_group)
-- [source\_url](IImagesSearchSerpElementItem.md#source_url)
-- [subtitle](IImagesSearchSerpElementItem.md#subtitle)
-- [title](IImagesSearchSerpElementItem.md#title)
-- [url](IImagesSearchSerpElementItem.md#url)
-- [xpath](IImagesSearchSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### alt
+### alt?
 
-• `Optional` **alt**: `string`
+> **`optional`** **alt**: `string`
 
 the alt tag of the image
 
-#### Defined in
+#### Source
 
-main.ts:46936
+main.ts:46944
 
-___
+***
 
-### encoded\_url
+### encoded\_url?
 
-• `Optional` **encoded\_url**: `string`
+> **`optional`** **encoded\_url**: `string`
 
 the URL of the cached version of the image stored on Google’s servers
 
-#### Defined in
+#### Source
 
-main.ts:46942
+main.ts:46950
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP for the target domain
 absolute position among all the elements in SERP
 
-#### Defined in
+#### Source
 
-main.ts:46928
+main.ts:46936
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
-main.ts:46925
+main.ts:46933
 
-___
+***
 
-### source\_url
+### source\_url?
 
-• `Optional` **source\_url**: `string`
+> **`optional`** **source\_url**: `string`
 
 the URL of the source image
 
-#### Defined in
+#### Source
 
-main.ts:46940
+main.ts:46948
 
-___
+***
 
-### subtitle
+### subtitle?
 
-• `Optional` **subtitle**: `string`
+> **`optional`** **subtitle**: `string`
 
 subtitle of the result in SERP
 
-#### Defined in
+#### Source
 
-main.ts:46934
+main.ts:46942
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the result in SERP
 
-#### Defined in
+#### Source
 
-main.ts:46932
+main.ts:46940
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 the URL of the page where the image is hosted
 
-#### Defined in
+#### Source
 
-main.ts:46938
+main.ts:46946
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
-main.ts:46930
+main.ts:46938

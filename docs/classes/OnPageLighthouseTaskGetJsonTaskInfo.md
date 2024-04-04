@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageLighthouseTaskGetJsonTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPageLighthouseTaskGetJsonTaskInfo
 
 # Class: OnPageLighthouseTaskGetJsonTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`OnPageLighthouseTaskGetJsonTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPageLighthouseTaskGetJsonTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](OnPageLighthouseTaskGetJsonTaskInfo.md#cost)
-- [data](OnPageLighthouseTaskGetJsonTaskInfo.md#data)
-- [id](OnPageLighthouseTaskGetJsonTaskInfo.md#id)
-- [path](OnPageLighthouseTaskGetJsonTaskInfo.md#path)
-- [result](OnPageLighthouseTaskGetJsonTaskInfo.md#result)
-- [result\_count](OnPageLighthouseTaskGetJsonTaskInfo.md#result_count)
-- [status\_code](OnPageLighthouseTaskGetJsonTaskInfo.md#status_code)
-- [status\_message](OnPageLighthouseTaskGetJsonTaskInfo.md#status_message)
-- [time](OnPageLighthouseTaskGetJsonTaskInfo.md#time)
-
-### Methods
-
-- [init](OnPageLighthouseTaskGetJsonTaskInfo.md#init)
-- [toJSON](OnPageLighthouseTaskGetJsonTaskInfo.md#tojson)
-- [fromJS](OnPageLighthouseTaskGetJsonTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPageLighthouseTaskGetJsonTaskInfo(data)
 
-• **new OnPageLighthouseTaskGetJsonTaskInfo**(`data?`): [`OnPageLighthouseTaskGetJsonTaskInfo`](OnPageLighthouseTaskGetJsonTaskInfo.md)
+> **new OnPageLighthouseTaskGetJsonTaskInfo**(`data`?): [`OnPageLighthouseTaskGetJsonTaskInfo`](OnPageLighthouseTaskGetJsonTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPageLighthouseTaskGetJsonTaskInfo`](../interfaces/IOnPageLighthouseTaskGetJsonTaskInfo.md) |
+• **data?**: [`IOnPageLighthouseTaskGetJsonTaskInfo`](../interfaces/IOnPageLighthouseTaskGetJsonTaskInfo.md)
 
 #### Returns
 
@@ -58,102 +34,102 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:160024
+main.ts:160032
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IOnPageLighthouseTaskGetJsonTaskInfo](../interfaces/IOnPageLighthouseTaskGetJsonTaskInfo.md).[cost](../interfaces/IOnPageLighthouseTaskGetJsonTaskInfo.md#cost)
+[`IOnPageLighthouseTaskGetJsonTaskInfo`](../interfaces/IOnPageLighthouseTaskGetJsonTaskInfo.md).[`cost`](../interfaces/IOnPageLighthouseTaskGetJsonTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[IOnPageLighthouseTaskGetJsonTaskInfo](../interfaces/IOnPageLighthouseTaskGetJsonTaskInfo.md).[data](../interfaces/IOnPageLighthouseTaskGetJsonTaskInfo.md#data)
+[`IOnPageLighthouseTaskGetJsonTaskInfo`](../interfaces/IOnPageLighthouseTaskGetJsonTaskInfo.md).[`data`](../interfaces/IOnPageLighthouseTaskGetJsonTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IOnPageLighthouseTaskGetJsonTaskInfo](../interfaces/IOnPageLighthouseTaskGetJsonTaskInfo.md).[id](../interfaces/IOnPageLighthouseTaskGetJsonTaskInfo.md#id)
+[`IOnPageLighthouseTaskGetJsonTaskInfo`](../interfaces/IOnPageLighthouseTaskGetJsonTaskInfo.md).[`id`](../interfaces/IOnPageLighthouseTaskGetJsonTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[IOnPageLighthouseTaskGetJsonTaskInfo](../interfaces/IOnPageLighthouseTaskGetJsonTaskInfo.md).[path](../interfaces/IOnPageLighthouseTaskGetJsonTaskInfo.md#path)
+[`IOnPageLighthouseTaskGetJsonTaskInfo`](../interfaces/IOnPageLighthouseTaskGetJsonTaskInfo.md).[`path`](../interfaces/IOnPageLighthouseTaskGetJsonTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: \{ `[key: string]`: `any`;  }[]
+> **`optional`** **result**: `Object`[]
 
 results of Lighthouse audit
 this array will include data according to the parameters specified in the POST request;
@@ -161,37 +137,37 @@ description of the fields in the result array is available in the official docum
 
 #### Implementation of
 
-[IOnPageLighthouseTaskGetJsonTaskInfo](../interfaces/IOnPageLighthouseTaskGetJsonTaskInfo.md).[result](../interfaces/IOnPageLighthouseTaskGetJsonTaskInfo.md#result)
+[`IOnPageLighthouseTaskGetJsonTaskInfo`](../interfaces/IOnPageLighthouseTaskGetJsonTaskInfo.md).[`result`](../interfaces/IOnPageLighthouseTaskGetJsonTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:160020
+main.ts:160028
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[IOnPageLighthouseTaskGetJsonTaskInfo](../interfaces/IOnPageLighthouseTaskGetJsonTaskInfo.md).[result_count](../interfaces/IOnPageLighthouseTaskGetJsonTaskInfo.md#result_count)
+[`IOnPageLighthouseTaskGetJsonTaskInfo`](../interfaces/IOnPageLighthouseTaskGetJsonTaskInfo.md).[`result_count`](../interfaces/IOnPageLighthouseTaskGetJsonTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -199,68 +175,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[IOnPageLighthouseTaskGetJsonTaskInfo](../interfaces/IOnPageLighthouseTaskGetJsonTaskInfo.md).[status_code](../interfaces/IOnPageLighthouseTaskGetJsonTaskInfo.md#status_code)
+[`IOnPageLighthouseTaskGetJsonTaskInfo`](../interfaces/IOnPageLighthouseTaskGetJsonTaskInfo.md).[`status_code`](../interfaces/IOnPageLighthouseTaskGetJsonTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IOnPageLighthouseTaskGetJsonTaskInfo](../interfaces/IOnPageLighthouseTaskGetJsonTaskInfo.md).[status_message](../interfaces/IOnPageLighthouseTaskGetJsonTaskInfo.md#status_message)
+[`IOnPageLighthouseTaskGetJsonTaskInfo`](../interfaces/IOnPageLighthouseTaskGetJsonTaskInfo.md).[`status_message`](../interfaces/IOnPageLighthouseTaskGetJsonTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[IOnPageLighthouseTaskGetJsonTaskInfo](../interfaces/IOnPageLighthouseTaskGetJsonTaskInfo.md).[time](../interfaces/IOnPageLighthouseTaskGetJsonTaskInfo.md#time)
+[`IOnPageLighthouseTaskGetJsonTaskInfo`](../interfaces/IOnPageLighthouseTaskGetJsonTaskInfo.md).[`time`](../interfaces/IOnPageLighthouseTaskGetJsonTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -268,23 +242,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:160028
+main.ts:160036
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -292,23 +264,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:160050
+main.ts:160058
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPageLighthouseTaskGetJsonTaskInfo`](OnPageLighthouseTaskGetJsonTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`OnPageLighthouseTaskGetJsonTaskInfo`](OnPageLighthouseTaskGetJsonTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -316,8 +286,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:160043
+main.ts:160051

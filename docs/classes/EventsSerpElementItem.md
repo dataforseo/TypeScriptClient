@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / EventsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / EventsSerpElementItem
 
 # Class: EventsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-  ↳ **`EventsSerpElementItem`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](EventsSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](EventsSerpElementItem.md#_discriminator)
-- [items](EventsSerpElementItem.md#items)
-- [position](EventsSerpElementItem.md#position)
-- [rank\_absolute](EventsSerpElementItem.md#rank_absolute)
-- [rank\_group](EventsSerpElementItem.md#rank_group)
-- [rectangle](EventsSerpElementItem.md#rectangle)
-- [title](EventsSerpElementItem.md#title)
-- [url](EventsSerpElementItem.md#url)
-- [xpath](EventsSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](EventsSerpElementItem.md#init)
-- [toJSON](EventsSerpElementItem.md#tojson)
-- [fromJS](EventsSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new EventsSerpElementItem(data)
 
-• **new EventsSerpElementItem**(`data?`): [`EventsSerpElementItem`](EventsSerpElementItem.md)
+> **new EventsSerpElementItem**(`data`?): [`EventsSerpElementItem`](EventsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IEventsSerpElementItem`](../interfaces/IEventsSerpElementItem.md) |
+• **data?**: [`IEventsSerpElementItem`](../interfaces/IEventsSerpElementItem.md)
 
 #### Returns
 
@@ -58,9 +34,9 @@
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[constructor](BaseSerpElementItem.md#constructor)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:31897
 
@@ -68,38 +44,38 @@ main.ts:31897
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[_discriminator](BaseSerpElementItem.md#_discriminator)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:19788
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`EventsElement`](EventsElement.md)[]
+> **`optional`** **items**: [`EventsElement`](EventsElement.md)[]
 
 additional items present in the element
 if there are none, equals null
 
 #### Implementation of
 
-[IEventsSerpElementItem](../interfaces/IEventsSerpElementItem.md).[items](../interfaces/IEventsSerpElementItem.md#items)
+[`IEventsSerpElementItem`](../interfaces/IEventsSerpElementItem.md).[`items`](../interfaces/IEventsSerpElementItem.md#items)
 
-#### Defined in
+#### Source
 
 main.ts:31889
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -107,17 +83,17 @@ left, right
 
 #### Implementation of
 
-[IEventsSerpElementItem](../interfaces/IEventsSerpElementItem.md).[position](../interfaces/IEventsSerpElementItem.md#position)
+[`IEventsSerpElementItem`](../interfaces/IEventsSerpElementItem.md).[`position`](../interfaces/IEventsSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
 main.ts:31880
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -125,17 +101,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IEventsSerpElementItem](../interfaces/IEventsSerpElementItem.md).[rank_absolute](../interfaces/IEventsSerpElementItem.md#rank_absolute)
+[`IEventsSerpElementItem`](../interfaces/IEventsSerpElementItem.md).[`rank_absolute`](../interfaces/IEventsSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
 main.ts:31876
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
@@ -144,17 +120,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IEventsSerpElementItem](../interfaces/IEventsSerpElementItem.md).[rank_group](../interfaces/IEventsSerpElementItem.md#rank_group)
+[`IEventsSerpElementItem`](../interfaces/IEventsSerpElementItem.md).[`rank_group`](../interfaces/IEventsSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
 main.ts:31872
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -162,71 +138,69 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Implementation of
 
-[IEventsSerpElementItem](../interfaces/IEventsSerpElementItem.md).[rectangle](../interfaces/IEventsSerpElementItem.md#rectangle)
+[`IEventsSerpElementItem`](../interfaces/IEventsSerpElementItem.md).[`rectangle`](../interfaces/IEventsSerpElementItem.md#rectangle)
 
-#### Defined in
+#### Source
 
 main.ts:31893
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the row
 
 #### Implementation of
 
-[IEventsSerpElementItem](../interfaces/IEventsSerpElementItem.md).[title](../interfaces/IEventsSerpElementItem.md#title)
+[`IEventsSerpElementItem`](../interfaces/IEventsSerpElementItem.md).[`title`](../interfaces/IEventsSerpElementItem.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:31884
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 source URL
 
 #### Implementation of
 
-[IEventsSerpElementItem](../interfaces/IEventsSerpElementItem.md).[url](../interfaces/IEventsSerpElementItem.md#url)
+[`IEventsSerpElementItem`](../interfaces/IEventsSerpElementItem.md).[`url`](../interfaces/IEventsSerpElementItem.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:31886
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IEventsSerpElementItem](../interfaces/IEventsSerpElementItem.md).[xpath](../interfaces/IEventsSerpElementItem.md#xpath)
+[`IEventsSerpElementItem`](../interfaces/IEventsSerpElementItem.md).[`xpath`](../interfaces/IEventsSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
 main.ts:31882
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -234,23 +208,21 @@ main.ts:31882
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[init](BaseSerpElementItem.md#init)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:31902
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -258,23 +230,21 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[toJSON](BaseSerpElementItem.md#tojson)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:31931
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`EventsSerpElementItem`](EventsSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`EventsSerpElementItem`](EventsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -282,8 +252,8 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[fromJS](BaseSerpElementItem.md#fromjs)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:31924

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / TopStoriesElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / TopStoriesElement
 
 # Class: TopStoriesElement
 
@@ -8,122 +12,97 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](TopStoriesElement.md#constructor)
-
-### Properties
-
-- [amp\_version](TopStoriesElement.md#amp_version)
-- [date](TopStoriesElement.md#date)
-- [domain](TopStoriesElement.md#domain)
-- [source](TopStoriesElement.md#source)
-- [timestamp](TopStoriesElement.md#timestamp)
-- [title](TopStoriesElement.md#title)
-- [type](TopStoriesElement.md#type)
-- [url](TopStoriesElement.md#url)
-
-### Methods
-
-- [init](TopStoriesElement.md#init)
-- [toJSON](TopStoriesElement.md#tojson)
-- [fromJS](TopStoriesElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new TopStoriesElement(data)
 
-• **new TopStoriesElement**(`data?`): [`TopStoriesElement`](TopStoriesElement.md)
+> **new TopStoriesElement**(`data`?): [`TopStoriesElement`](TopStoriesElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ITopStoriesElement`](../interfaces/ITopStoriesElement.md) |
+• **data?**: [`ITopStoriesElement`](../interfaces/ITopStoriesElement.md)
 
 #### Returns
 
 [`TopStoriesElement`](TopStoriesElement.md)
 
-#### Defined in
+#### Source
 
 main.ts:28938
 
 ## Properties
 
-### amp\_version
+### amp\_version?
 
-• `Optional` **amp\_version**: `boolean`
+> **`optional`** **amp\_version**: `boolean`
 
 Accelerated Mobile Pages
 indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 #### Implementation of
 
-[ITopStoriesElement](../interfaces/ITopStoriesElement.md).[amp_version](../interfaces/ITopStoriesElement.md#amp_version)
+[`ITopStoriesElement`](../interfaces/ITopStoriesElement.md).[`amp_version`](../interfaces/ITopStoriesElement.md#amp_version)
 
-#### Defined in
+#### Source
 
 main.ts:28927
 
-___
+***
 
-### date
+### date?
 
-• `Optional` **date**: `string`
+> **`optional`** **date**: `string`
 
 the date when the page source of the element was published
 
 #### Implementation of
 
-[ITopStoriesElement](../interfaces/ITopStoriesElement.md).[date](../interfaces/ITopStoriesElement.md#date)
+[`ITopStoriesElement`](../interfaces/ITopStoriesElement.md).[`date`](../interfaces/ITopStoriesElement.md#date)
 
-#### Defined in
+#### Source
 
 main.ts:28924
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 website domain
 
 #### Implementation of
 
-[ITopStoriesElement](../interfaces/ITopStoriesElement.md).[domain](../interfaces/ITopStoriesElement.md#domain)
+[`ITopStoriesElement`](../interfaces/ITopStoriesElement.md).[`domain`](../interfaces/ITopStoriesElement.md#domain)
 
-#### Defined in
+#### Source
 
 main.ts:28920
 
-___
+***
 
-### source
+### source?
 
-• `Optional` **source**: `string`
+> **`optional`** **source**: `string`
 
 source of the element
 indicates the source of information included in the top_stories_element
 
 #### Implementation of
 
-[ITopStoriesElement](../interfaces/ITopStoriesElement.md).[source](../interfaces/ITopStoriesElement.md#source)
+[`ITopStoriesElement`](../interfaces/ITopStoriesElement.md).[`source`](../interfaces/ITopStoriesElement.md#source)
 
-#### Defined in
+#### Source
 
 main.ts:28918
 
-___
+***
 
-### timestamp
+### timestamp?
 
-• `Optional` **timestamp**: `string`
+> **`optional`** **timestamp**: `string`
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -132,116 +111,110 @@ example:
 
 #### Implementation of
 
-[ITopStoriesElement](../interfaces/ITopStoriesElement.md).[timestamp](../interfaces/ITopStoriesElement.md#timestamp)
+[`ITopStoriesElement`](../interfaces/ITopStoriesElement.md).[`timestamp`](../interfaces/ITopStoriesElement.md#timestamp)
 
-#### Defined in
+#### Source
 
 main.ts:28932
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
 #### Implementation of
 
-[ITopStoriesElement](../interfaces/ITopStoriesElement.md).[title](../interfaces/ITopStoriesElement.md#title)
+[`ITopStoriesElement`](../interfaces/ITopStoriesElement.md).[`title`](../interfaces/ITopStoriesElement.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:28922
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[ITopStoriesElement](../interfaces/ITopStoriesElement.md).[type](../interfaces/ITopStoriesElement.md#type)
+[`ITopStoriesElement`](../interfaces/ITopStoriesElement.md).[`type`](../interfaces/ITopStoriesElement.md#type)
 
-#### Defined in
+#### Source
 
 main.ts:28915
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL
 
 #### Implementation of
 
-[ITopStoriesElement](../interfaces/ITopStoriesElement.md).[url](../interfaces/ITopStoriesElement.md#url)
+[`ITopStoriesElement`](../interfaces/ITopStoriesElement.md).[`url`](../interfaces/ITopStoriesElement.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:28934
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:28947
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:28971
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`TopStoriesElement`](TopStoriesElement.md)
+> **`static`** **fromJS**(`data`): [`TopStoriesElement`](TopStoriesElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`TopStoriesElement`](TopStoriesElement.md)
 
-#### Defined in
+#### Source
 
 main.ts:28964

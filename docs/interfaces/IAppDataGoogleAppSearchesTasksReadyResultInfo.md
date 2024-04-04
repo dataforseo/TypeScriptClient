@@ -1,96 +1,85 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppDataGoogleAppSearchesTasksReadyResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppDataGoogleAppSearchesTasksReadyResultInfo
 
 # Interface: IAppDataGoogleAppSearchesTasksReadyResultInfo
 
-## Implemented by
-
-- [`AppDataGoogleAppSearchesTasksReadyResultInfo`](../classes/AppDataGoogleAppSearchesTasksReadyResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [date\_posted](IAppDataGoogleAppSearchesTasksReadyResultInfo.md#date_posted)
-- [endpoint\_advanced](IAppDataGoogleAppSearchesTasksReadyResultInfo.md#endpoint_advanced)
-- [endpoint\_html](IAppDataGoogleAppSearchesTasksReadyResultInfo.md#endpoint_html)
-- [id](IAppDataGoogleAppSearchesTasksReadyResultInfo.md#id)
-- [se](IAppDataGoogleAppSearchesTasksReadyResultInfo.md#se)
-- [tag](IAppDataGoogleAppSearchesTasksReadyResultInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### date\_posted
+### date\_posted?
 
-• `Optional` **date\_posted**: `string`
+> **`optional`** **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
-#### Defined in
+#### Source
 
 main.ts:183125
 
-___
+***
 
-### endpoint\_advanced
+### endpoint\_advanced?
 
-• `Optional` **endpoint\_advanced**: `string`
+> **`optional`** **endpoint\_advanced**: `string`
 
 URL for collecting the results of the Google App Searches task
 
-#### Defined in
+#### Source
 
 main.ts:183129
 
-___
+***
 
-### endpoint\_html
+### endpoint\_html?
 
-• `Optional` **endpoint\_html**: `string`
+> **`optional`** **endpoint\_html**: `string`
 
 URL for collecting the results of the Google App Searches HTML task
 if HTML tasks are not supported in the specified endpoint, the value will be null
 
-#### Defined in
+#### Source
 
 main.ts:183132
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
-#### Defined in
+#### Source
 
 main.ts:183121
 
-___
+***
 
-### se
+### se?
 
-• `Optional` **se**: `string`
+> **`optional`** **se**: `string`
 
 search engine specified when setting the task
 
-#### Defined in
+#### Source
 
 main.ts:183123
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
-#### Defined in
+#### Source
 
 main.ts:183127

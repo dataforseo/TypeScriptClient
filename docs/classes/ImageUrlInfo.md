@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ImageUrlInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ImageUrlInfo
 
 # Class: ImageUrlInfo
 
@@ -8,116 +12,92 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ImageUrlInfo.md#constructor)
-
-### Properties
-
-- [url](ImageUrlInfo.md#url)
-
-### Methods
-
-- [init](ImageUrlInfo.md#init)
-- [toJSON](ImageUrlInfo.md#tojson)
-- [fromJS](ImageUrlInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ImageUrlInfo(data)
 
-• **new ImageUrlInfo**(`data?`): [`ImageUrlInfo`](ImageUrlInfo.md)
+> **new ImageUrlInfo**(`data`?): [`ImageUrlInfo`](ImageUrlInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IImageUrlInfo`](../interfaces/IImageUrlInfo.md) |
+• **data?**: [`IImageUrlInfo`](../interfaces/IImageUrlInfo.md)
 
 #### Returns
 
 [`ImageUrlInfo`](ImageUrlInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:207801
 
 ## Properties
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL of the image used in the review
 
 #### Implementation of
 
-[IImageUrlInfo](../interfaces/IImageUrlInfo.md).[url](../interfaces/IImageUrlInfo.md#url)
+[`IImageUrlInfo`](../interfaces/IImageUrlInfo.md).[`url`](../interfaces/IImageUrlInfo.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:207797
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:207810
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:207827
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ImageUrlInfo`](ImageUrlInfo.md)
+> **`static`** **fromJS**(`data`): [`ImageUrlInfo`](ImageUrlInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ImageUrlInfo`](ImageUrlInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:207820

@@ -1,126 +1,111 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixSerpLimitsRatesDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppendixSerpLimitsRatesDataInfo
 
 # Interface: IAppendixSerpLimitsRatesDataInfo
 
-## Implemented by
-
-- [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [errors](IAppendixSerpLimitsRatesDataInfo.md#errors)
-- [jobs](IAppendixSerpLimitsRatesDataInfo.md#jobs)
-- [languages](IAppendixSerpLimitsRatesDataInfo.md#languages)
-- [live](IAppendixSerpLimitsRatesDataInfo.md#live)
-- [locations](IAppendixSerpLimitsRatesDataInfo.md#locations)
-- [screenshot](IAppendixSerpLimitsRatesDataInfo.md#screenshot)
-- [task\_get](IAppendixSerpLimitsRatesDataInfo.md#task_get)
-- [task\_post](IAppendixSerpLimitsRatesDataInfo.md#task_post)
-- [tasks\_fixed](IAppendixSerpLimitsRatesDataInfo.md#tasks_fixed)
-- [tasks\_ready](IAppendixSerpLimitsRatesDataInfo.md#tasks_ready)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### errors
+### errors?
 
-• `Optional` **errors**: `number`
+> **`optional`** **errors**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:212121
 
-___
+***
 
-### jobs
+### jobs?
 
-• `Optional` **jobs**: [`AppendixJobsSerpLimitsRatesDataInfo`](../classes/AppendixJobsSerpLimitsRatesDataInfo.md)
+> **`optional`** **jobs**: [`AppendixJobsSerpLimitsRatesDataInfo`](../classes/AppendixJobsSerpLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:212123
 
-___
+***
 
-### languages
+### languages?
 
-• `Optional` **languages**: `number`
+> **`optional`** **languages**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:212119
 
-___
+***
 
-### live
+### live?
 
-• `Optional` **live**: [`AppendixFunctionTypeInfo`](../classes/AppendixFunctionTypeInfo.md)
+> **`optional`** **live**: [`AppendixFunctionTypeInfo`](../classes/AppendixFunctionTypeInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:212120
 
-___
+***
 
-### locations
+### locations?
 
-• `Optional` **locations**: `number`
+> **`optional`** **locations**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:212118
 
-___
+***
 
-### screenshot
+### screenshot?
 
-• `Optional` **screenshot**: `number`
+> **`optional`** **screenshot**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:212124
 
-___
+***
 
-### task\_get
+### task\_get?
 
-• `Optional` **task\_get**: [`AppendixFunctionTypeInfo`](../classes/AppendixFunctionTypeInfo.md)
+> **`optional`** **task\_get**: [`AppendixFunctionTypeInfo`](../classes/AppendixFunctionTypeInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:212116
 
-___
+***
 
-### task\_post
+### task\_post?
 
-• `Optional` **task\_post**: `number`
+> **`optional`** **task\_post**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:212115
 
-___
+***
 
-### tasks\_fixed
+### tasks\_fixed?
 
-• `Optional` **tasks\_fixed**: `number`
+> **`optional`** **tasks\_fixed**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:212122
 
-___
+***
 
-### tasks\_ready
+### tasks\_ready?
 
-• `Optional` **tasks\_ready**: `number`
+> **`optional`** **tasks\_ready**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:212117

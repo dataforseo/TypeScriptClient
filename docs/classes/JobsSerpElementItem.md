@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / JobsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / JobsSerpElementItem
 
 # Class: JobsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-  ↳ **`JobsSerpElementItem`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](JobsSerpElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](JobsSerpElementItem.md#_discriminator)
-- [items](JobsSerpElementItem.md#items)
-- [position](JobsSerpElementItem.md#position)
-- [rank\_absolute](JobsSerpElementItem.md#rank_absolute)
-- [rank\_group](JobsSerpElementItem.md#rank_group)
-- [rectangle](JobsSerpElementItem.md#rectangle)
-- [title](JobsSerpElementItem.md#title)
-- [url](JobsSerpElementItem.md#url)
-- [xpath](JobsSerpElementItem.md#xpath)
-
-### Methods
-
-- [init](JobsSerpElementItem.md#init)
-- [toJSON](JobsSerpElementItem.md#tojson)
-- [fromJS](JobsSerpElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new JobsSerpElementItem(data)
 
-• **new JobsSerpElementItem**(`data?`): [`JobsSerpElementItem`](JobsSerpElementItem.md)
+> **new JobsSerpElementItem**(`data`?): [`JobsSerpElementItem`](JobsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IJobsSerpElementItem`](../interfaces/IJobsSerpElementItem.md) |
+• **data?**: [`IJobsSerpElementItem`](../interfaces/IJobsSerpElementItem.md)
 
 #### Returns
 
@@ -58,9 +34,9 @@
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[constructor](BaseSerpElementItem.md#constructor)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:30205
 
@@ -68,38 +44,38 @@ main.ts:30205
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[_discriminator](BaseSerpElementItem.md#_discriminator)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:19788
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`JobsElement`](JobsElement.md)[]
+> **`optional`** **items**: [`JobsElement`](JobsElement.md)[]
 
 additional items present in the element
 if there are none, equals null
 
 #### Implementation of
 
-[IJobsSerpElementItem](../interfaces/IJobsSerpElementItem.md).[items](../interfaces/IJobsSerpElementItem.md#items)
+[`IJobsSerpElementItem`](../interfaces/IJobsSerpElementItem.md).[`items`](../interfaces/IJobsSerpElementItem.md#items)
 
-#### Defined in
+#### Source
 
 main.ts:30197
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -107,17 +83,17 @@ left, right
 
 #### Implementation of
 
-[IJobsSerpElementItem](../interfaces/IJobsSerpElementItem.md).[position](../interfaces/IJobsSerpElementItem.md#position)
+[`IJobsSerpElementItem`](../interfaces/IJobsSerpElementItem.md).[`position`](../interfaces/IJobsSerpElementItem.md#position)
 
-#### Defined in
+#### Source
 
 main.ts:30188
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -125,17 +101,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IJobsSerpElementItem](../interfaces/IJobsSerpElementItem.md).[rank_absolute](../interfaces/IJobsSerpElementItem.md#rank_absolute)
+[`IJobsSerpElementItem`](../interfaces/IJobsSerpElementItem.md).[`rank_absolute`](../interfaces/IJobsSerpElementItem.md#rank_absolute)
 
-#### Defined in
+#### Source
 
 main.ts:30184
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
@@ -144,17 +120,17 @@ always equals 0 for desktop
 
 #### Implementation of
 
-[IJobsSerpElementItem](../interfaces/IJobsSerpElementItem.md).[rank_group](../interfaces/IJobsSerpElementItem.md#rank_group)
+[`IJobsSerpElementItem`](../interfaces/IJobsSerpElementItem.md).[`rank_group`](../interfaces/IJobsSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Source
 
 main.ts:30180
 
-___
+***
 
-### rectangle
+### rectangle?
 
-• `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
+> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -162,71 +138,69 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Implementation of
 
-[IJobsSerpElementItem](../interfaces/IJobsSerpElementItem.md).[rectangle](../interfaces/IJobsSerpElementItem.md#rectangle)
+[`IJobsSerpElementItem`](../interfaces/IJobsSerpElementItem.md).[`rectangle`](../interfaces/IJobsSerpElementItem.md#rectangle)
 
-#### Defined in
+#### Source
 
 main.ts:30201
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the row
 
 #### Implementation of
 
-[IJobsSerpElementItem](../interfaces/IJobsSerpElementItem.md).[title](../interfaces/IJobsSerpElementItem.md#title)
+[`IJobsSerpElementItem`](../interfaces/IJobsSerpElementItem.md).[`title`](../interfaces/IJobsSerpElementItem.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:30192
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 source URL
 
 #### Implementation of
 
-[IJobsSerpElementItem](../interfaces/IJobsSerpElementItem.md).[url](../interfaces/IJobsSerpElementItem.md#url)
+[`IJobsSerpElementItem`](../interfaces/IJobsSerpElementItem.md).[`url`](../interfaces/IJobsSerpElementItem.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:30194
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
 #### Implementation of
 
-[IJobsSerpElementItem](../interfaces/IJobsSerpElementItem.md).[xpath](../interfaces/IJobsSerpElementItem.md#xpath)
+[`IJobsSerpElementItem`](../interfaces/IJobsSerpElementItem.md).[`xpath`](../interfaces/IJobsSerpElementItem.md#xpath)
 
-#### Defined in
+#### Source
 
 main.ts:30190
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -234,23 +208,21 @@ main.ts:30190
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[init](BaseSerpElementItem.md#init)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:30210
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -258,23 +230,21 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[toJSON](BaseSerpElementItem.md#tojson)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:30239
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`JobsSerpElementItem`](JobsSerpElementItem.md)
+> **`static`** **fromJS**(`data`): [`JobsSerpElementItem`](JobsSerpElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -282,8 +252,8 @@ ___
 
 #### Overrides
 
-[BaseSerpElementItem](BaseSerpElementItem.md).[fromJS](BaseSerpElementItem.md#fromjs)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:30232

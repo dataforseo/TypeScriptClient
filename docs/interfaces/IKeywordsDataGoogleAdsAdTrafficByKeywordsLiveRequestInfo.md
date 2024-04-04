@@ -1,39 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo
 
 # Interface: IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo
 
-## Implemented by
-
-- [`KeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo`](../classes/KeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [bid](IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md#bid)
-- [date\_from](IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md#date_from)
-- [date\_interval](IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md#date_interval)
-- [date\_to](IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md#date_to)
-- [keywords](IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md#keywords)
-- [language\_code](IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md#language_code)
-- [language\_name](IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md#language_name)
-- [location\_code](IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md#location_code)
-- [location\_coordinate](IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md#location_coordinate)
-- [location\_name](IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md#location_name)
-- [match](IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md#match)
-- [search\_partners](IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md#search_partners)
-- [sort\_by](IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md#sort_by)
-- [tag](IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### bid
+### bid?
 
-• `Optional` **bid**: `number`
+> **`optional`** **bid**: `number`
 
 the maximum custom bid
 required field
@@ -41,15 +22,15 @@ the collected data will be based on this value
 it stands for the price you are willing to pay for an ad; the higher value you specify here, the higher values you will get in the returned metrics
 learn more in this help center article
 
-#### Defined in
+#### Source
 
-main.ts:121023
+main.ts:121031
 
-___
+***
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of the forecasting time range
 required field if you specify date_to
@@ -61,15 +42,15 @@ example:
 "2021-10-30"if Status endpoint returns false in the actual_data field, date_from can be set to the month before last and prior;
 if Status endpoint returns true in the actual_data field, date_from can be set to the last month and prior
 
-#### Defined in
+#### Source
 
-main.ts:121079
+main.ts:121087
 
-___
+***
 
-### date\_interval
+### date\_interval?
 
-• `Optional` **date\_interval**: `string`
+> **`optional`** **date\_interval**: `string`
 
 forecasting date interval
 optional field
@@ -77,15 +58,15 @@ if you specify date_interval, you don’t need to indicate date_from and date_to
 possible values: next_week, next_month, next_quarter
 default value: next_month
 
-#### Defined in
+#### Source
 
-main.ts:121094
+main.ts:121102
 
-___
+***
 
-### date\_to
+### date\_to?
 
-• `Optional` **date\_to**: `string`
+> **`optional`** **date\_to**: `string`
 
 ending date of the forecasting time range
 required field if you specify date_from
@@ -96,15 +77,15 @@ date format: "yyyy-mm-dd"
 example:
 "2022-10-30"
 
-#### Defined in
+#### Source
 
-main.ts:121088
+main.ts:121096
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 keywords
 required field
@@ -117,15 +98,15 @@ visit our Help Center to learn more
 Also note that Google Ads doesn’t allow using certain symbols and characters (e.g., UTF symbols, emojis), so you can’t use them when setting a task;
 to learn more about which symbols can be used, please refer to this article
 
-#### Defined in
+#### Source
 
-main.ts:121017
+main.ts:121025
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 optional field
@@ -133,15 +114,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:121069
+main.ts:121077
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -149,15 +130,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:121063
+main.ts:121071
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 optional field
@@ -167,15 +148,15 @@ you can receive the list of available locations of the search engines with their
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:121048
+main.ts:121056
 
-___
+***
 
-### location\_coordinate
+### location\_coordinate?
 
-• `Optional` **location\_coordinate**: `string`
+> **`optional`** **location\_coordinate**: `string`
 
 GPS coordinates of a location
 optional field
@@ -186,15 +167,15 @@ the data will be provided for the country the specified coordinates belong to;
 example:
 52.6178549,-155.352142
 
-#### Defined in
+#### Source
 
-main.ts:121057
+main.ts:121065
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 optional field
@@ -204,59 +185,59 @@ you can receive the list of available locations of the search engine with their 
 example:
 London,England,United Kingdom
 
-#### Defined in
+#### Source
 
-main.ts:121040
+main.ts:121048
 
-___
+***
 
-### match
+### match?
 
-• `Optional` **match**: `string`
+> **`optional`** **match**: `string`
 
 keywords match-type
 required field
 can take the following values: exact, broad, phrase
 
-#### Defined in
+#### Source
 
-main.ts:121027
+main.ts:121035
 
-___
+***
 
-### search\_partners
+### search\_partners?
 
-• `Optional` **search\_partners**: `boolean`
+> **`optional`** **search\_partners**: `boolean`
 
 include Google search partners
 optional field
 if you specify true, the results will be delivered for owned, operated, and syndicated networks across Google and partner sites that host Google search;
 default value: false – results are returned for Google search sites
 
-#### Defined in
+#### Source
 
-main.ts:121032
+main.ts:121040
 
-___
+***
 
-### sort\_by
+### sort\_by?
 
-• `Optional` **sort\_by**: `string`
+> **`optional`** **sort\_by**: `string`
 
 results sorting parameters
 optional field
 Use these parameters to sort the results by relevance, impressions, ctr, average_cpc, cost, or clicks in the descending order
 default value: relevance
 
-#### Defined in
+#### Source
 
-main.ts:121099
+main.ts:121107
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -264,6 +245,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:121105
+main.ts:121113

@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleLocalFinderLiveAdvancedResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleLocalFinderLiveAdvancedResponseInfo
 
 # Class: SerpGoogleLocalFinderLiveAdvancedResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`SerpGoogleLocalFinderLiveAdvancedResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleLocalFinderLiveAdvancedResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](SerpGoogleLocalFinderLiveAdvancedResponseInfo.md#cost)
-- [status\_code](SerpGoogleLocalFinderLiveAdvancedResponseInfo.md#status_code)
-- [status\_message](SerpGoogleLocalFinderLiveAdvancedResponseInfo.md#status_message)
-- [tasks](SerpGoogleLocalFinderLiveAdvancedResponseInfo.md#tasks)
-- [tasks\_count](SerpGoogleLocalFinderLiveAdvancedResponseInfo.md#tasks_count)
-- [tasks\_error](SerpGoogleLocalFinderLiveAdvancedResponseInfo.md#tasks_error)
-- [time](SerpGoogleLocalFinderLiveAdvancedResponseInfo.md#time)
-- [version](SerpGoogleLocalFinderLiveAdvancedResponseInfo.md#version)
-
-### Methods
-
-- [init](SerpGoogleLocalFinderLiveAdvancedResponseInfo.md#init)
-- [toJSON](SerpGoogleLocalFinderLiveAdvancedResponseInfo.md#tojson)
-- [fromJS](SerpGoogleLocalFinderLiveAdvancedResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleLocalFinderLiveAdvancedResponseInfo(data)
 
-• **new SerpGoogleLocalFinderLiveAdvancedResponseInfo**(`data?`): [`SerpGoogleLocalFinderLiveAdvancedResponseInfo`](SerpGoogleLocalFinderLiveAdvancedResponseInfo.md)
+> **new SerpGoogleLocalFinderLiveAdvancedResponseInfo**(`data`?): [`SerpGoogleLocalFinderLiveAdvancedResponseInfo`](SerpGoogleLocalFinderLiveAdvancedResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleLocalFinderLiveAdvancedResponseInfo`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResponseInfo.md) |
+• **data?**: [`ISerpGoogleLocalFinderLiveAdvancedResponseInfo`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:42182
+main.ts:42188
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderLiveAdvancedResponseInfo](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResponseInfo.md).[cost](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResponseInfo.md#cost)
+[`ISerpGoogleLocalFinderLiveAdvancedResponseInfo`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResponseInfo.md).[`cost`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderLiveAdvancedResponseInfo](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResponseInfo.md).[status_code](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResponseInfo.md#status_code)
+[`ISerpGoogleLocalFinderLiveAdvancedResponseInfo`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResponseInfo.md).[`status_code`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderLiveAdvancedResponseInfo](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResponseInfo.md).[status_message](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResponseInfo.md#status_message)
+[`ISerpGoogleLocalFinderLiveAdvancedResponseInfo`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResponseInfo.md).[`status_message`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`SerpGoogleLocalFinderLiveAdvancedTaskInfo`](SerpGoogleLocalFinderLiveAdvancedTaskInfo.md)[]
+> **`optional`** **tasks**: [`SerpGoogleLocalFinderLiveAdvancedTaskInfo`](SerpGoogleLocalFinderLiveAdvancedTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderLiveAdvancedResponseInfo](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResponseInfo.md).[tasks](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResponseInfo.md#tasks)
+[`ISerpGoogleLocalFinderLiveAdvancedResponseInfo`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResponseInfo.md).[`tasks`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:42178
+main.ts:42184
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderLiveAdvancedResponseInfo](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResponseInfo.md).[tasks_count](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResponseInfo.md#tasks_count)
+[`ISerpGoogleLocalFinderLiveAdvancedResponseInfo`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResponseInfo.md).[`tasks_count`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderLiveAdvancedResponseInfo](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResponseInfo.md).[tasks_error](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResponseInfo.md#tasks_error)
+[`ISerpGoogleLocalFinderLiveAdvancedResponseInfo`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResponseInfo.md).[`tasks_error`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderLiveAdvancedResponseInfo](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResponseInfo.md).[time](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResponseInfo.md#time)
+[`ISerpGoogleLocalFinderLiveAdvancedResponseInfo`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResponseInfo.md).[`time`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderLiveAdvancedResponseInfo](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResponseInfo.md).[version](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResponseInfo.md#version)
+[`ISerpGoogleLocalFinderLiveAdvancedResponseInfo`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResponseInfo.md).[`version`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:42186
+main.ts:42192
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:42208
+main.ts:42214
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleLocalFinderLiveAdvancedResponseInfo`](SerpGoogleLocalFinderLiveAdvancedResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleLocalFinderLiveAdvancedResponseInfo`](SerpGoogleLocalFinderLiveAdvancedResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:42201
+main.ts:42207

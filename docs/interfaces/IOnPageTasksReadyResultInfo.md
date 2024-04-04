@@ -1,69 +1,60 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageTasksReadyResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IOnPageTasksReadyResultInfo
 
 # Interface: IOnPageTasksReadyResultInfo
 
-## Implemented by
-
-- [`OnPageTasksReadyResultInfo`](../classes/OnPageTasksReadyResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [date\_posted](IOnPageTasksReadyResultInfo.md#date_posted)
-- [id](IOnPageTasksReadyResultInfo.md#id)
-- [tag](IOnPageTasksReadyResultInfo.md#tag)
-- [target](IOnPageTasksReadyResultInfo.md#target)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### date\_posted
+### date\_posted?
 
-• `Optional` **date\_posted**: `string`
+> **`optional`** **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
-#### Defined in
+#### Source
 
-main.ts:148511
+main.ts:148519
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
-#### Defined in
+#### Source
 
-main.ts:148507
+main.ts:148515
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 
-#### Defined in
+#### Source
 
-main.ts:148513
+main.ts:148521
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 target website specified when setting a task
 
-#### Defined in
+#### Source
 
-main.ts:148509
+main.ts:148517

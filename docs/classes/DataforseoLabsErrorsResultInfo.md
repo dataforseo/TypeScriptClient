@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsErrorsResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsErrorsResultInfo
 
 # Class: DataforseoLabsErrorsResultInfo
 
@@ -8,58 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsErrorsResultInfo.md#constructor)
-
-### Properties
-
-- [datetime](DataforseoLabsErrorsResultInfo.md#datetime)
-- [error\_code](DataforseoLabsErrorsResultInfo.md#error_code)
-- [error\_message](DataforseoLabsErrorsResultInfo.md#error_message)
-- [function](DataforseoLabsErrorsResultInfo.md#function)
-- [http\_code](DataforseoLabsErrorsResultInfo.md#http_code)
-- [http\_method](DataforseoLabsErrorsResultInfo.md#http_method)
-- [http\_response](DataforseoLabsErrorsResultInfo.md#http_response)
-- [http\_time](DataforseoLabsErrorsResultInfo.md#http_time)
-- [http\_url](DataforseoLabsErrorsResultInfo.md#http_url)
-- [id](DataforseoLabsErrorsResultInfo.md#id)
-
-### Methods
-
-- [init](DataforseoLabsErrorsResultInfo.md#init)
-- [toJSON](DataforseoLabsErrorsResultInfo.md#tojson)
-- [fromJS](DataforseoLabsErrorsResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsErrorsResultInfo(data)
 
-• **new DataforseoLabsErrorsResultInfo**(`data?`): [`DataforseoLabsErrorsResultInfo`](DataforseoLabsErrorsResultInfo.md)
+> **new DataforseoLabsErrorsResultInfo**(`data`?): [`DataforseoLabsErrorsResultInfo`](DataforseoLabsErrorsResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsErrorsResultInfo`](../interfaces/IDataforseoLabsErrorsResultInfo.md) |
+• **data?**: [`IDataforseoLabsErrorsResultInfo`](../interfaces/IDataforseoLabsErrorsResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsErrorsResultInfo`](DataforseoLabsErrorsResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:79519
+main.ts:79527
 
 ## Properties
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when an error occurred
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -68,215 +45,209 @@ example:
 
 #### Implementation of
 
-[IDataforseoLabsErrorsResultInfo](../interfaces/IDataforseoLabsErrorsResultInfo.md).[datetime](../interfaces/IDataforseoLabsErrorsResultInfo.md#datetime)
+[`IDataforseoLabsErrorsResultInfo`](../interfaces/IDataforseoLabsErrorsResultInfo.md).[`datetime`](../interfaces/IDataforseoLabsErrorsResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
-main.ts:79496
+main.ts:79504
 
-___
+***
 
-### error\_code
+### error\_code?
 
-• `Optional` **error\_code**: `number`
+> **`optional`** **error\_code**: `number`
 
 error code
 
 #### Implementation of
 
-[IDataforseoLabsErrorsResultInfo](../interfaces/IDataforseoLabsErrorsResultInfo.md).[error_code](../interfaces/IDataforseoLabsErrorsResultInfo.md#error_code)
+[`IDataforseoLabsErrorsResultInfo`](../interfaces/IDataforseoLabsErrorsResultInfo.md).[`error_code`](../interfaces/IDataforseoLabsErrorsResultInfo.md#error_code)
 
-#### Defined in
+#### Source
 
-main.ts:79500
+main.ts:79508
 
-___
+***
 
-### error\_message
+### error\_message?
 
-• `Optional` **error\_message**: `string`
+> **`optional`** **error\_message**: `string`
 
 error message or error URL
 error message (see full list) or URL that caused an error
 
 #### Implementation of
 
-[IDataforseoLabsErrorsResultInfo](../interfaces/IDataforseoLabsErrorsResultInfo.md).[error_message](../interfaces/IDataforseoLabsErrorsResultInfo.md#error_message)
+[`IDataforseoLabsErrorsResultInfo`](../interfaces/IDataforseoLabsErrorsResultInfo.md).[`error_message`](../interfaces/IDataforseoLabsErrorsResultInfo.md#error_message)
 
-#### Defined in
+#### Source
 
-main.ts:79503
+main.ts:79511
 
-___
+***
 
-### function
+### function?
 
-• `Optional` **function**: `string`
+> **`optional`** **function**: `string`
 
 corresponding API function
 
 #### Implementation of
 
-[IDataforseoLabsErrorsResultInfo](../interfaces/IDataforseoLabsErrorsResultInfo.md).[function](../interfaces/IDataforseoLabsErrorsResultInfo.md#function)
+[`IDataforseoLabsErrorsResultInfo`](../interfaces/IDataforseoLabsErrorsResultInfo.md).[`function`](../interfaces/IDataforseoLabsErrorsResultInfo.md#function)
 
-#### Defined in
+#### Source
 
-main.ts:79498
+main.ts:79506
 
-___
+***
 
-### http\_code
+### http\_code?
 
-• `Optional` **http\_code**: `number`
+> **`optional`** **http\_code**: `number`
 
 HTTP status code
 
 #### Implementation of
 
-[IDataforseoLabsErrorsResultInfo](../interfaces/IDataforseoLabsErrorsResultInfo.md).[http_code](../interfaces/IDataforseoLabsErrorsResultInfo.md#http_code)
+[`IDataforseoLabsErrorsResultInfo`](../interfaces/IDataforseoLabsErrorsResultInfo.md).[`http_code`](../interfaces/IDataforseoLabsErrorsResultInfo.md#http_code)
 
-#### Defined in
+#### Source
 
-main.ts:79510
+main.ts:79518
 
-___
+***
 
-### http\_method
+### http\_method?
 
-• `Optional` **http\_method**: `string`
+> **`optional`** **http\_method**: `string`
 
 HTTP method
 
 #### Implementation of
 
-[IDataforseoLabsErrorsResultInfo](../interfaces/IDataforseoLabsErrorsResultInfo.md).[http_method](../interfaces/IDataforseoLabsErrorsResultInfo.md#http_method)
+[`IDataforseoLabsErrorsResultInfo`](../interfaces/IDataforseoLabsErrorsResultInfo.md).[`http_method`](../interfaces/IDataforseoLabsErrorsResultInfo.md#http_method)
 
-#### Defined in
+#### Source
 
-main.ts:79508
+main.ts:79516
 
-___
+***
 
-### http\_response
+### http\_response?
 
-• `Optional` **http\_response**: `string`
+> **`optional`** **http\_response**: `string`
 
 HTTP response
 server response
 
 #### Implementation of
 
-[IDataforseoLabsErrorsResultInfo](../interfaces/IDataforseoLabsErrorsResultInfo.md).[http_response](../interfaces/IDataforseoLabsErrorsResultInfo.md#http_response)
+[`IDataforseoLabsErrorsResultInfo`](../interfaces/IDataforseoLabsErrorsResultInfo.md).[`http_response`](../interfaces/IDataforseoLabsErrorsResultInfo.md#http_response)
 
-#### Defined in
+#### Source
 
-main.ts:79515
+main.ts:79523
 
-___
+***
 
-### http\_time
+### http\_time?
 
-• `Optional` **http\_time**: `number`
+> **`optional`** **http\_time**: `number`
 
 time taken by HTTP request
 
 #### Implementation of
 
-[IDataforseoLabsErrorsResultInfo](../interfaces/IDataforseoLabsErrorsResultInfo.md).[http_time](../interfaces/IDataforseoLabsErrorsResultInfo.md#http_time)
+[`IDataforseoLabsErrorsResultInfo`](../interfaces/IDataforseoLabsErrorsResultInfo.md).[`http_time`](../interfaces/IDataforseoLabsErrorsResultInfo.md#http_time)
 
-#### Defined in
+#### Source
 
-main.ts:79512
+main.ts:79520
 
-___
+***
 
-### http\_url
+### http\_url?
 
-• `Optional` **http\_url**: `string`
+> **`optional`** **http\_url**: `string`
 
 URL that caused an error
 URL you used for making an API call
 
 #### Implementation of
 
-[IDataforseoLabsErrorsResultInfo](../interfaces/IDataforseoLabsErrorsResultInfo.md).[http_url](../interfaces/IDataforseoLabsErrorsResultInfo.md#http_url)
+[`IDataforseoLabsErrorsResultInfo`](../interfaces/IDataforseoLabsErrorsResultInfo.md).[`http_url`](../interfaces/IDataforseoLabsErrorsResultInfo.md#http_url)
 
-#### Defined in
+#### Source
 
-main.ts:79506
+main.ts:79514
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 id of the task
 
 #### Implementation of
 
-[IDataforseoLabsErrorsResultInfo](../interfaces/IDataforseoLabsErrorsResultInfo.md).[id](../interfaces/IDataforseoLabsErrorsResultInfo.md#id)
+[`IDataforseoLabsErrorsResultInfo`](../interfaces/IDataforseoLabsErrorsResultInfo.md).[`id`](../interfaces/IDataforseoLabsErrorsResultInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:79491
+main.ts:79499
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:79528
+main.ts:79536
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:79554
+main.ts:79562
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsErrorsResultInfo`](DataforseoLabsErrorsResultInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsErrorsResultInfo`](DataforseoLabsErrorsResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsErrorsResultInfo`](DataforseoLabsErrorsResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:79547
+main.ts:79555

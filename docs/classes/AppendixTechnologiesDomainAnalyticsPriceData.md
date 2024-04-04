@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixTechnologiesDomainAnalyticsPriceData
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppendixTechnologiesDomainAnalyticsPriceData
 
 # Class: AppendixTechnologiesDomainAnalyticsPriceData
 
@@ -8,234 +12,202 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixTechnologiesDomainAnalyticsPriceData.md#constructor)
-
-### Properties
-
-- [aggregation\_technologies](AppendixTechnologiesDomainAnalyticsPriceData.md#aggregation_technologies)
-- [domain\_technologies](AppendixTechnologiesDomainAnalyticsPriceData.md#domain_technologies)
-- [domains\_by\_html\_terms](AppendixTechnologiesDomainAnalyticsPriceData.md#domains_by_html_terms)
-- [domains\_by\_technology](AppendixTechnologiesDomainAnalyticsPriceData.md#domains_by_technology)
-- [languages](AppendixTechnologiesDomainAnalyticsPriceData.md#languages)
-- [locations](AppendixTechnologiesDomainAnalyticsPriceData.md#locations)
-- [technologies](AppendixTechnologiesDomainAnalyticsPriceData.md#technologies)
-- [technologies\_summary](AppendixTechnologiesDomainAnalyticsPriceData.md#technologies_summary)
-- [technology\_stats](AppendixTechnologiesDomainAnalyticsPriceData.md#technology_stats)
-
-### Methods
-
-- [init](AppendixTechnologiesDomainAnalyticsPriceData.md#init)
-- [toJSON](AppendixTechnologiesDomainAnalyticsPriceData.md#tojson)
-- [fromJS](AppendixTechnologiesDomainAnalyticsPriceData.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixTechnologiesDomainAnalyticsPriceData(data)
 
-• **new AppendixTechnologiesDomainAnalyticsPriceData**(`data?`): [`AppendixTechnologiesDomainAnalyticsPriceData`](AppendixTechnologiesDomainAnalyticsPriceData.md)
+> **new AppendixTechnologiesDomainAnalyticsPriceData**(`data`?): [`AppendixTechnologiesDomainAnalyticsPriceData`](AppendixTechnologiesDomainAnalyticsPriceData.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixTechnologiesDomainAnalyticsPriceData`](../interfaces/IAppendixTechnologiesDomainAnalyticsPriceData.md) |
+• **data?**: [`IAppendixTechnologiesDomainAnalyticsPriceData`](../interfaces/IAppendixTechnologiesDomainAnalyticsPriceData.md)
 
 #### Returns
 
 [`AppendixTechnologiesDomainAnalyticsPriceData`](AppendixTechnologiesDomainAnalyticsPriceData.md)
 
-#### Defined in
+#### Source
 
 main.ts:217412
 
 ## Properties
 
-### aggregation\_technologies
+### aggregation\_technologies?
 
-• `Optional` **aggregation\_technologies**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **aggregation\_technologies**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixTechnologiesDomainAnalyticsPriceData](../interfaces/IAppendixTechnologiesDomainAnalyticsPriceData.md).[aggregation_technologies](../interfaces/IAppendixTechnologiesDomainAnalyticsPriceData.md#aggregation_technologies)
+[`IAppendixTechnologiesDomainAnalyticsPriceData`](../interfaces/IAppendixTechnologiesDomainAnalyticsPriceData.md).[`aggregation_technologies`](../interfaces/IAppendixTechnologiesDomainAnalyticsPriceData.md#aggregation_technologies)
 
-#### Defined in
+#### Source
 
 main.ts:217403
 
-___
+***
 
-### domain\_technologies
+### domain\_technologies?
 
-• `Optional` **domain\_technologies**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **domain\_technologies**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixTechnologiesDomainAnalyticsPriceData](../interfaces/IAppendixTechnologiesDomainAnalyticsPriceData.md).[domain_technologies](../interfaces/IAppendixTechnologiesDomainAnalyticsPriceData.md#domain_technologies)
+[`IAppendixTechnologiesDomainAnalyticsPriceData`](../interfaces/IAppendixTechnologiesDomainAnalyticsPriceData.md).[`domain_technologies`](../interfaces/IAppendixTechnologiesDomainAnalyticsPriceData.md#domain_technologies)
 
-#### Defined in
+#### Source
 
 main.ts:217406
 
-___
+***
 
-### domains\_by\_html\_terms
+### domains\_by\_html\_terms?
 
-• `Optional` **domains\_by\_html\_terms**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **domains\_by\_html\_terms**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixTechnologiesDomainAnalyticsPriceData](../interfaces/IAppendixTechnologiesDomainAnalyticsPriceData.md).[domains_by_html_terms](../interfaces/IAppendixTechnologiesDomainAnalyticsPriceData.md#domains_by_html_terms)
+[`IAppendixTechnologiesDomainAnalyticsPriceData`](../interfaces/IAppendixTechnologiesDomainAnalyticsPriceData.md).[`domains_by_html_terms`](../interfaces/IAppendixTechnologiesDomainAnalyticsPriceData.md#domains_by_html_terms)
 
-#### Defined in
+#### Source
 
 main.ts:217404
 
-___
+***
 
-### domains\_by\_technology
+### domains\_by\_technology?
 
-• `Optional` **domains\_by\_technology**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **domains\_by\_technology**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixTechnologiesDomainAnalyticsPriceData](../interfaces/IAppendixTechnologiesDomainAnalyticsPriceData.md).[domains_by_technology](../interfaces/IAppendixTechnologiesDomainAnalyticsPriceData.md#domains_by_technology)
+[`IAppendixTechnologiesDomainAnalyticsPriceData`](../interfaces/IAppendixTechnologiesDomainAnalyticsPriceData.md).[`domains_by_technology`](../interfaces/IAppendixTechnologiesDomainAnalyticsPriceData.md#domains_by_technology)
 
-#### Defined in
+#### Source
 
 main.ts:217405
 
-___
+***
 
-### languages
+### languages?
 
-• `Optional` **languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixTechnologiesDomainAnalyticsPriceData](../interfaces/IAppendixTechnologiesDomainAnalyticsPriceData.md).[languages](../interfaces/IAppendixTechnologiesDomainAnalyticsPriceData.md#languages)
+[`IAppendixTechnologiesDomainAnalyticsPriceData`](../interfaces/IAppendixTechnologiesDomainAnalyticsPriceData.md).[`languages`](../interfaces/IAppendixTechnologiesDomainAnalyticsPriceData.md#languages)
 
-#### Defined in
+#### Source
 
 main.ts:217400
 
-___
+***
 
-### locations
+### locations?
 
-• `Optional` **locations**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **locations**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixTechnologiesDomainAnalyticsPriceData](../interfaces/IAppendixTechnologiesDomainAnalyticsPriceData.md).[locations](../interfaces/IAppendixTechnologiesDomainAnalyticsPriceData.md#locations)
+[`IAppendixTechnologiesDomainAnalyticsPriceData`](../interfaces/IAppendixTechnologiesDomainAnalyticsPriceData.md).[`locations`](../interfaces/IAppendixTechnologiesDomainAnalyticsPriceData.md#locations)
 
-#### Defined in
+#### Source
 
 main.ts:217401
 
-___
+***
 
-### technologies
+### technologies?
 
-• `Optional` **technologies**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **technologies**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixTechnologiesDomainAnalyticsPriceData](../interfaces/IAppendixTechnologiesDomainAnalyticsPriceData.md).[technologies](../interfaces/IAppendixTechnologiesDomainAnalyticsPriceData.md#technologies)
+[`IAppendixTechnologiesDomainAnalyticsPriceData`](../interfaces/IAppendixTechnologiesDomainAnalyticsPriceData.md).[`technologies`](../interfaces/IAppendixTechnologiesDomainAnalyticsPriceData.md#technologies)
 
-#### Defined in
+#### Source
 
 main.ts:217402
 
-___
+***
 
-### technologies\_summary
+### technologies\_summary?
 
-• `Optional` **technologies\_summary**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **technologies\_summary**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixTechnologiesDomainAnalyticsPriceData](../interfaces/IAppendixTechnologiesDomainAnalyticsPriceData.md).[technologies_summary](../interfaces/IAppendixTechnologiesDomainAnalyticsPriceData.md#technologies_summary)
+[`IAppendixTechnologiesDomainAnalyticsPriceData`](../interfaces/IAppendixTechnologiesDomainAnalyticsPriceData.md).[`technologies_summary`](../interfaces/IAppendixTechnologiesDomainAnalyticsPriceData.md#technologies_summary)
 
-#### Defined in
+#### Source
 
 main.ts:217407
 
-___
+***
 
-### technology\_stats
+### technology\_stats?
 
-• `Optional` **technology\_stats**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> **`optional`** **technology\_stats**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixTechnologiesDomainAnalyticsPriceData](../interfaces/IAppendixTechnologiesDomainAnalyticsPriceData.md).[technology_stats](../interfaces/IAppendixTechnologiesDomainAnalyticsPriceData.md#technology_stats)
+[`IAppendixTechnologiesDomainAnalyticsPriceData`](../interfaces/IAppendixTechnologiesDomainAnalyticsPriceData.md).[`technology_stats`](../interfaces/IAppendixTechnologiesDomainAnalyticsPriceData.md#technology_stats)
 
-#### Defined in
+#### Source
 
 main.ts:217408
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:217421
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:217446
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppendixTechnologiesDomainAnalyticsPriceData`](AppendixTechnologiesDomainAnalyticsPriceData.md)
+> **`static`** **fromJS**(`data`): [`AppendixTechnologiesDomainAnalyticsPriceData`](AppendixTechnologiesDomainAnalyticsPriceData.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppendixTechnologiesDomainAnalyticsPriceData`](AppendixTechnologiesDomainAnalyticsPriceData.md)
 
-#### Defined in
+#### Source
 
 main.ts:217439

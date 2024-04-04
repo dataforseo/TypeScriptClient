@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataBusinessListingsLocationsResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataBusinessListingsLocationsResultInfo
 
 # Class: BusinessDataBusinessListingsLocationsResultInfo
 
@@ -8,150 +12,124 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataBusinessListingsLocationsResultInfo.md#constructor)
-
-### Properties
-
-- [business\_count](BusinessDataBusinessListingsLocationsResultInfo.md#business_count)
-- [country\_iso\_code](BusinessDataBusinessListingsLocationsResultInfo.md#country_iso_code)
-- [location\_name](BusinessDataBusinessListingsLocationsResultInfo.md#location_name)
-
-### Methods
-
-- [init](BusinessDataBusinessListingsLocationsResultInfo.md#init)
-- [toJSON](BusinessDataBusinessListingsLocationsResultInfo.md#tojson)
-- [fromJS](BusinessDataBusinessListingsLocationsResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataBusinessListingsLocationsResultInfo(data)
 
-• **new BusinessDataBusinessListingsLocationsResultInfo**(`data?`): [`BusinessDataBusinessListingsLocationsResultInfo`](BusinessDataBusinessListingsLocationsResultInfo.md)
+> **new BusinessDataBusinessListingsLocationsResultInfo**(`data`?): [`BusinessDataBusinessListingsLocationsResultInfo`](BusinessDataBusinessListingsLocationsResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataBusinessListingsLocationsResultInfo`](../interfaces/IBusinessDataBusinessListingsLocationsResultInfo.md) |
+• **data?**: [`IBusinessDataBusinessListingsLocationsResultInfo`](../interfaces/IBusinessDataBusinessListingsLocationsResultInfo.md)
 
 #### Returns
 
 [`BusinessDataBusinessListingsLocationsResultInfo`](BusinessDataBusinessListingsLocationsResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:193295
 
 ## Properties
 
-### business\_count
+### business\_count?
 
-• `Optional` **business\_count**: `number`
+> **`optional`** **business\_count**: `number`
 
 number of businesses in this location in our database
 
 #### Implementation of
 
-[IBusinessDataBusinessListingsLocationsResultInfo](../interfaces/IBusinessDataBusinessListingsLocationsResultInfo.md).[business_count](../interfaces/IBusinessDataBusinessListingsLocationsResultInfo.md#business_count)
+[`IBusinessDataBusinessListingsLocationsResultInfo`](../interfaces/IBusinessDataBusinessListingsLocationsResultInfo.md).[`business_count`](../interfaces/IBusinessDataBusinessListingsLocationsResultInfo.md#business_count)
 
-#### Defined in
+#### Source
 
 main.ts:193291
 
-___
+***
 
-### country\_iso\_code
+### country\_iso\_code?
 
-• `Optional` **country\_iso\_code**: `string`
+> **`optional`** **country\_iso\_code**: `string`
 
 ISO country code of the location
 
 #### Implementation of
 
-[IBusinessDataBusinessListingsLocationsResultInfo](../interfaces/IBusinessDataBusinessListingsLocationsResultInfo.md).[country_iso_code](../interfaces/IBusinessDataBusinessListingsLocationsResultInfo.md#country_iso_code)
+[`IBusinessDataBusinessListingsLocationsResultInfo`](../interfaces/IBusinessDataBusinessListingsLocationsResultInfo.md).[`country_iso_code`](../interfaces/IBusinessDataBusinessListingsLocationsResultInfo.md#country_iso_code)
 
-#### Defined in
+#### Source
 
 main.ts:193289
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 
 #### Implementation of
 
-[IBusinessDataBusinessListingsLocationsResultInfo](../interfaces/IBusinessDataBusinessListingsLocationsResultInfo.md).[location_name](../interfaces/IBusinessDataBusinessListingsLocationsResultInfo.md#location_name)
+[`IBusinessDataBusinessListingsLocationsResultInfo`](../interfaces/IBusinessDataBusinessListingsLocationsResultInfo.md).[`location_name`](../interfaces/IBusinessDataBusinessListingsLocationsResultInfo.md#location_name)
 
-#### Defined in
+#### Source
 
 main.ts:193287
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:193304
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:193323
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataBusinessListingsLocationsResultInfo`](BusinessDataBusinessListingsLocationsResultInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataBusinessListingsLocationsResultInfo`](BusinessDataBusinessListingsLocationsResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BusinessDataBusinessListingsLocationsResultInfo`](BusinessDataBusinessListingsLocationsResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:193316

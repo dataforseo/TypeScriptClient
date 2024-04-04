@@ -1,32 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo
 
 # Interface: IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo
 
-## Implemented by
-
-- [`DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo`](../classes/DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [item\_types](IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md#item_types)
-- [language\_code](IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md#language_code)
-- [language\_name](IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md#language_name)
-- [location\_code](IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md#location_code)
-- [location\_name](IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md#location_name)
-- [tag](IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md#tag)
-- [targets](IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md#targets)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 display results by item type
 optional field
@@ -37,15 +25,15 @@ possible values:
 default value:
 ["organic", "paid"]
 
-#### Defined in
+#### Source
 
-main.ts:104984
+main.ts:104992
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 required field if don’t specify language_name
@@ -54,15 +42,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:104975
+main.ts:104983
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 required field if don’t specify language_code
@@ -71,15 +59,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:104968
+main.ts:104976
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 required field if don’t specify location_name
@@ -89,15 +77,15 @@ Note: this endpoint currently supports the US location only;
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:104961
+main.ts:104969
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 required field if don’t specify location_code
@@ -107,15 +95,15 @@ Note: this endpoint currently supports the US location only;
 example:
 United States
 
-#### Defined in
+#### Source
 
-main.ts:104953
+main.ts:104961
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -123,15 +111,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:104990
+main.ts:104998
 
-___
+***
 
-### targets
+### targets?
 
-• `Optional` **targets**: `string`[]
+> **`optional`** **targets**: `string`[]
 
 target domains and websites
 required field
@@ -140,6 +128,6 @@ domains and subdomains should be specified without https:// and www.;
 pages should be specified with absolute URL, including https:// and www.;
 you can set up to 1000 domains, subdomains or webpages
 
-#### Defined in
+#### Source
 
-main.ts:104945
+main.ts:104953

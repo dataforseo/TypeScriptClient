@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleTrendsExploreLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataGoogleTrendsExploreLiveRequestInfo
 
 # Class: KeywordsDataGoogleTrendsExploreLiveRequestInfo
 
@@ -8,60 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataGoogleTrendsExploreLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [category\_code](KeywordsDataGoogleTrendsExploreLiveRequestInfo.md#category_code)
-- [date\_from](KeywordsDataGoogleTrendsExploreLiveRequestInfo.md#date_from)
-- [date\_to](KeywordsDataGoogleTrendsExploreLiveRequestInfo.md#date_to)
-- [item\_types](KeywordsDataGoogleTrendsExploreLiveRequestInfo.md#item_types)
-- [keywords](KeywordsDataGoogleTrendsExploreLiveRequestInfo.md#keywords)
-- [language\_code](KeywordsDataGoogleTrendsExploreLiveRequestInfo.md#language_code)
-- [language\_name](KeywordsDataGoogleTrendsExploreLiveRequestInfo.md#language_name)
-- [location\_code](KeywordsDataGoogleTrendsExploreLiveRequestInfo.md#location_code)
-- [location\_name](KeywordsDataGoogleTrendsExploreLiveRequestInfo.md#location_name)
-- [tag](KeywordsDataGoogleTrendsExploreLiveRequestInfo.md#tag)
-- [time\_range](KeywordsDataGoogleTrendsExploreLiveRequestInfo.md#time_range)
-- [type](KeywordsDataGoogleTrendsExploreLiveRequestInfo.md#type)
-
-### Methods
-
-- [init](KeywordsDataGoogleTrendsExploreLiveRequestInfo.md#init)
-- [toJSON](KeywordsDataGoogleTrendsExploreLiveRequestInfo.md#tojson)
-- [fromJS](KeywordsDataGoogleTrendsExploreLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordsDataGoogleTrendsExploreLiveRequestInfo(data)
 
-• **new KeywordsDataGoogleTrendsExploreLiveRequestInfo**(`data?`): [`KeywordsDataGoogleTrendsExploreLiveRequestInfo`](KeywordsDataGoogleTrendsExploreLiveRequestInfo.md)
+> **new KeywordsDataGoogleTrendsExploreLiveRequestInfo**(`data`?): [`KeywordsDataGoogleTrendsExploreLiveRequestInfo`](KeywordsDataGoogleTrendsExploreLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordsDataGoogleTrendsExploreLiveRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md) |
+• **data?**: [`IKeywordsDataGoogleTrendsExploreLiveRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md)
 
 #### Returns
 
 [`KeywordsDataGoogleTrendsExploreLiveRequestInfo`](KeywordsDataGoogleTrendsExploreLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:123675
+main.ts:123683
 
 ## Properties
 
-### category\_code
+### category\_code?
 
-• `Optional` **category\_code**: `number`
+> **`optional`** **category\_code**: `number`
 
 google trends search category
 optional field
@@ -70,17 +45,17 @@ you can receive the list of available categories with their category_code by mak
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsExploreLiveRequestInfo](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md).[category_code](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md#category_code)
+[`IKeywordsDataGoogleTrendsExploreLiveRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md).[`category_code`](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md#category_code)
 
-#### Defined in
+#### Source
 
-main.ts:123627
+main.ts:123635
 
-___
+***
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -93,17 +68,17 @@ example:
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsExploreLiveRequestInfo](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md).[date_from](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md#date_from)
+[`IKeywordsDataGoogleTrendsExploreLiveRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md).[`date_from`](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md#date_from)
 
-#### Defined in
+#### Source
 
-main.ts:123636
+main.ts:123644
 
-___
+***
 
-### date\_to
+### date\_to?
 
-• `Optional` **date\_to**: `string`
+> **`optional`** **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -114,17 +89,17 @@ example:
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsExploreLiveRequestInfo](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md).[date_to](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md#date_to)
+[`IKeywordsDataGoogleTrendsExploreLiveRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md).[`date_to`](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md#date_to)
 
-#### Defined in
+#### Source
 
-main.ts:123643
+main.ts:123651
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 types of items returned
 optional field
@@ -140,17 +115,17 @@ possible values:
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsExploreLiveRequestInfo](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md).[item_types](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md#item_types)
+[`IKeywordsDataGoogleTrendsExploreLiveRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md).[`item_types`](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md#item_types)
 
-#### Defined in
+#### Source
 
-main.ts:123665
+main.ts:123673
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 keywords
 optional field
@@ -160,17 +135,17 @@ Note: comma symbols (,) in the specified keywords will be unset and ignored
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsExploreLiveRequestInfo](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md).[keywords](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md#keywords)
+[`IKeywordsDataGoogleTrendsExploreLiveRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md).[`keywords`](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md#keywords)
 
-#### Defined in
+#### Source
 
-main.ts:123588
+main.ts:123596
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 optional field
@@ -182,17 +157,17 @@ en
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsExploreLiveRequestInfo](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md).[language_code](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md#language_code)
+[`IKeywordsDataGoogleTrendsExploreLiveRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md).[`language_code`](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:123620
+main.ts:123628
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -204,17 +179,17 @@ English
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsExploreLiveRequestInfo](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md).[language_name](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md#language_name)
+[`IKeywordsDataGoogleTrendsExploreLiveRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md).[`language_name`](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:123612
+main.ts:123620
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 optional field
@@ -226,17 +201,17 @@ example:
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsExploreLiveRequestInfo](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md).[location_code](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md#location_code)
+[`IKeywordsDataGoogleTrendsExploreLiveRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md).[`location_code`](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:123604
+main.ts:123612
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 optional field
@@ -248,17 +223,17 @@ United Kingdom
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsExploreLiveRequestInfo](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md).[location_name](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md#location_name)
+[`IKeywordsDataGoogleTrendsExploreLiveRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md).[`location_name`](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:123596
+main.ts:123604
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -268,17 +243,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsExploreLiveRequestInfo](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md).[tag](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md#tag)
+[`IKeywordsDataGoogleTrendsExploreLiveRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md).[`tag`](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:123671
+main.ts:123679
 
-___
+***
 
-### time\_range
+### time\_range?
 
-• `Optional` **time\_range**: `string`
+> **`optional`** **time\_range**: `string`
 
 preset time ranges
 optional field
@@ -292,84 +267,78 @@ possible values for news, youtube, images, froogle:
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsExploreLiveRequestInfo](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md).[time_range](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md#time_range)
+[`IKeywordsDataGoogleTrendsExploreLiveRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md).[`time_range`](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md#time_range)
 
-#### Defined in
+#### Source
 
-main.ts:123653
+main.ts:123661
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsExploreLiveRequestInfo](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md).[type](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md#type)
+[`IKeywordsDataGoogleTrendsExploreLiveRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md).[`type`](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:123622
+main.ts:123630
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:123684
+main.ts:123692
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:123720
+main.ts:123728
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordsDataGoogleTrendsExploreLiveRequestInfo`](KeywordsDataGoogleTrendsExploreLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordsDataGoogleTrendsExploreLiveRequestInfo`](KeywordsDataGoogleTrendsExploreLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`KeywordsDataGoogleTrendsExploreLiveRequestInfo`](KeywordsDataGoogleTrendsExploreLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:123713
+main.ts:123721

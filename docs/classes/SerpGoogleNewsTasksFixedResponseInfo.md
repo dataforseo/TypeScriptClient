@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleNewsTasksFixedResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleNewsTasksFixedResponseInfo
 
 # Class: SerpGoogleNewsTasksFixedResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`SerpGoogleNewsTasksFixedResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleNewsTasksFixedResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](SerpGoogleNewsTasksFixedResponseInfo.md#cost)
-- [status\_code](SerpGoogleNewsTasksFixedResponseInfo.md#status_code)
-- [status\_message](SerpGoogleNewsTasksFixedResponseInfo.md#status_message)
-- [tasks](SerpGoogleNewsTasksFixedResponseInfo.md#tasks)
-- [tasks\_count](SerpGoogleNewsTasksFixedResponseInfo.md#tasks_count)
-- [tasks\_error](SerpGoogleNewsTasksFixedResponseInfo.md#tasks_error)
-- [time](SerpGoogleNewsTasksFixedResponseInfo.md#time)
-- [version](SerpGoogleNewsTasksFixedResponseInfo.md#version)
-
-### Methods
-
-- [init](SerpGoogleNewsTasksFixedResponseInfo.md#init)
-- [toJSON](SerpGoogleNewsTasksFixedResponseInfo.md#tojson)
-- [fromJS](SerpGoogleNewsTasksFixedResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleNewsTasksFixedResponseInfo(data)
 
-• **new SerpGoogleNewsTasksFixedResponseInfo**(`data?`): [`SerpGoogleNewsTasksFixedResponseInfo`](SerpGoogleNewsTasksFixedResponseInfo.md)
+> **new SerpGoogleNewsTasksFixedResponseInfo**(`data`?): [`SerpGoogleNewsTasksFixedResponseInfo`](SerpGoogleNewsTasksFixedResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleNewsTasksFixedResponseInfo`](../interfaces/ISerpGoogleNewsTasksFixedResponseInfo.md) |
+• **data?**: [`ISerpGoogleNewsTasksFixedResponseInfo`](../interfaces/ISerpGoogleNewsTasksFixedResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:43190
+main.ts:43196
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[ISerpGoogleNewsTasksFixedResponseInfo](../interfaces/ISerpGoogleNewsTasksFixedResponseInfo.md).[cost](../interfaces/ISerpGoogleNewsTasksFixedResponseInfo.md#cost)
+[`ISerpGoogleNewsTasksFixedResponseInfo`](../interfaces/ISerpGoogleNewsTasksFixedResponseInfo.md).[`cost`](../interfaces/ISerpGoogleNewsTasksFixedResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[ISerpGoogleNewsTasksFixedResponseInfo](../interfaces/ISerpGoogleNewsTasksFixedResponseInfo.md).[status_code](../interfaces/ISerpGoogleNewsTasksFixedResponseInfo.md#status_code)
+[`ISerpGoogleNewsTasksFixedResponseInfo`](../interfaces/ISerpGoogleNewsTasksFixedResponseInfo.md).[`status_code`](../interfaces/ISerpGoogleNewsTasksFixedResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[ISerpGoogleNewsTasksFixedResponseInfo](../interfaces/ISerpGoogleNewsTasksFixedResponseInfo.md).[status_message](../interfaces/ISerpGoogleNewsTasksFixedResponseInfo.md#status_message)
+[`ISerpGoogleNewsTasksFixedResponseInfo`](../interfaces/ISerpGoogleNewsTasksFixedResponseInfo.md).[`status_message`](../interfaces/ISerpGoogleNewsTasksFixedResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`SerpGoogleNewsTasksFixedTaskInfo`](SerpGoogleNewsTasksFixedTaskInfo.md)[]
+> **`optional`** **tasks**: [`SerpGoogleNewsTasksFixedTaskInfo`](SerpGoogleNewsTasksFixedTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[ISerpGoogleNewsTasksFixedResponseInfo](../interfaces/ISerpGoogleNewsTasksFixedResponseInfo.md).[tasks](../interfaces/ISerpGoogleNewsTasksFixedResponseInfo.md#tasks)
+[`ISerpGoogleNewsTasksFixedResponseInfo`](../interfaces/ISerpGoogleNewsTasksFixedResponseInfo.md).[`tasks`](../interfaces/ISerpGoogleNewsTasksFixedResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:43186
+main.ts:43192
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[ISerpGoogleNewsTasksFixedResponseInfo](../interfaces/ISerpGoogleNewsTasksFixedResponseInfo.md).[tasks_count](../interfaces/ISerpGoogleNewsTasksFixedResponseInfo.md#tasks_count)
+[`ISerpGoogleNewsTasksFixedResponseInfo`](../interfaces/ISerpGoogleNewsTasksFixedResponseInfo.md).[`tasks_count`](../interfaces/ISerpGoogleNewsTasksFixedResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[ISerpGoogleNewsTasksFixedResponseInfo](../interfaces/ISerpGoogleNewsTasksFixedResponseInfo.md).[tasks_error](../interfaces/ISerpGoogleNewsTasksFixedResponseInfo.md#tasks_error)
+[`ISerpGoogleNewsTasksFixedResponseInfo`](../interfaces/ISerpGoogleNewsTasksFixedResponseInfo.md).[`tasks_error`](../interfaces/ISerpGoogleNewsTasksFixedResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[ISerpGoogleNewsTasksFixedResponseInfo](../interfaces/ISerpGoogleNewsTasksFixedResponseInfo.md).[time](../interfaces/ISerpGoogleNewsTasksFixedResponseInfo.md#time)
+[`ISerpGoogleNewsTasksFixedResponseInfo`](../interfaces/ISerpGoogleNewsTasksFixedResponseInfo.md).[`time`](../interfaces/ISerpGoogleNewsTasksFixedResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[ISerpGoogleNewsTasksFixedResponseInfo](../interfaces/ISerpGoogleNewsTasksFixedResponseInfo.md).[version](../interfaces/ISerpGoogleNewsTasksFixedResponseInfo.md#version)
+[`ISerpGoogleNewsTasksFixedResponseInfo`](../interfaces/ISerpGoogleNewsTasksFixedResponseInfo.md).[`version`](../interfaces/ISerpGoogleNewsTasksFixedResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:43194
+main.ts:43200
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:43216
+main.ts:43222
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleNewsTasksFixedResponseInfo`](SerpGoogleNewsTasksFixedResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleNewsTasksFixedResponseInfo`](SerpGoogleNewsTasksFixedResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:43209
+main.ts:43215

@@ -1,82 +1,71 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixMerchantLimitsRatesDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppendixMerchantLimitsRatesDataInfo
 
 # Interface: IAppendixMerchantLimitsRatesDataInfo
 
-## Implemented by
-
-- [`AppendixMerchantLimitsRatesDataInfo`](../classes/AppendixMerchantLimitsRatesDataInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [amazon](IAppendixMerchantLimitsRatesDataInfo.md#amazon)
-- [errors](IAppendixMerchantLimitsRatesDataInfo.md#errors)
-- [google](IAppendixMerchantLimitsRatesDataInfo.md#google)
-- [languages](IAppendixMerchantLimitsRatesDataInfo.md#languages)
-- [locations](IAppendixMerchantLimitsRatesDataInfo.md#locations)
-- [reviews](IAppendixMerchantLimitsRatesDataInfo.md#reviews)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### amazon
+### amazon?
 
-• `Optional` **amazon**: [`AppendixMerchantAmazonInfo`](../classes/AppendixMerchantAmazonInfo.md)
+> **`optional`** **amazon**: [`AppendixMerchantAmazonInfo`](../classes/AppendixMerchantAmazonInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:213192
 
-___
+***
 
-### errors
+### errors?
 
-• `Optional` **errors**: `number`
+> **`optional`** **errors**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:213195
 
-___
+***
 
-### google
+### google?
 
-• `Optional` **google**: [`AppendixMerchantGoogleInfo`](../classes/AppendixMerchantGoogleInfo.md)
+> **`optional`** **google**: [`AppendixMerchantGoogleInfo`](../classes/AppendixMerchantGoogleInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:213191
 
-___
+***
 
-### languages
+### languages?
 
-• `Optional` **languages**: `number`
+> **`optional`** **languages**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:213194
 
-___
+***
 
-### locations
+### locations?
 
-• `Optional` **locations**: `number`
+> **`optional`** **locations**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:213193
 
-___
+***
 
-### reviews
+### reviews?
 
-• `Optional` **reviews**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
+> **`optional`** **reviews**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:213196

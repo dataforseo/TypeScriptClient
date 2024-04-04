@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / RankChanges
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / RankChanges
 
 # Class: RankChanges
 
@@ -8,103 +12,82 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](RankChanges.md#constructor)
-
-### Properties
-
-- [is\_down](RankChanges.md#is_down)
-- [is\_new](RankChanges.md#is_new)
-- [is\_up](RankChanges.md#is_up)
-- [previous\_rank\_absolute](RankChanges.md#previous_rank_absolute)
-
-### Methods
-
-- [init](RankChanges.md#init)
-- [toJSON](RankChanges.md#tojson)
-- [fromJS](RankChanges.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new RankChanges(data)
 
-• **new RankChanges**(`data?`): [`RankChanges`](RankChanges.md)
+> **new RankChanges**(`data`?): [`RankChanges`](RankChanges.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IRankChanges`](../interfaces/IRankChanges.md) |
+• **data?**: [`IRankChanges`](../interfaces/IRankChanges.md)
 
 #### Returns
 
 [`RankChanges`](RankChanges.md)
 
-#### Defined in
+#### Source
 
-main.ts:88874
+main.ts:88882
 
 ## Properties
 
-### is\_down
+### is\_down?
 
-• `Optional` **is\_down**: `boolean`
+> **`optional`** **is\_down**: `boolean`
 
 rank of this element went down
 if the value is true, position of the element in SERP is lower compared to the previous check
 
 #### Implementation of
 
-[IRankChanges](../interfaces/IRankChanges.md).[is_down](../interfaces/IRankChanges.md#is_down)
+[`IRankChanges`](../interfaces/IRankChanges.md).[`is_down`](../interfaces/IRankChanges.md#is_down)
 
-#### Defined in
+#### Source
 
-main.ts:88870
+main.ts:88878
 
-___
+***
 
-### is\_new
+### is\_new?
 
-• `Optional` **is\_new**: `boolean`
+> **`optional`** **is\_new**: `boolean`
 
 element was previously present in SERP
 if the value is true, previously collected SERP didn’t contain this element
 
 #### Implementation of
 
-[IRankChanges](../interfaces/IRankChanges.md).[is_new](../interfaces/IRankChanges.md#is_new)
+[`IRankChanges`](../interfaces/IRankChanges.md).[`is_new`](../interfaces/IRankChanges.md#is_new)
 
-#### Defined in
+#### Source
 
-main.ts:88864
+main.ts:88872
 
-___
+***
 
-### is\_up
+### is\_up?
 
-• `Optional` **is\_up**: `boolean`
+> **`optional`** **is\_up**: `boolean`
 
 rank of this element went up
 if the value is true, position of the element in SERP is higher compared to the previous check
 
 #### Implementation of
 
-[IRankChanges](../interfaces/IRankChanges.md).[is_up](../interfaces/IRankChanges.md#is_up)
+[`IRankChanges`](../interfaces/IRankChanges.md).[`is_up`](../interfaces/IRankChanges.md#is_up)
 
-#### Defined in
+#### Source
 
-main.ts:88867
+main.ts:88875
 
-___
+***
 
-### previous\_rank\_absolute
+### previous\_rank\_absolute?
 
-• `Optional` **previous\_rank\_absolute**: `number`
+> **`optional`** **previous\_rank\_absolute**: `number`
 
 previous absolute rank in SERP
 indicates previous rank of the element in Google SERP;
@@ -112,68 +95,62 @@ if this element is new, the value will be null
 
 #### Implementation of
 
-[IRankChanges](../interfaces/IRankChanges.md).[previous_rank_absolute](../interfaces/IRankChanges.md#previous_rank_absolute)
+[`IRankChanges`](../interfaces/IRankChanges.md).[`previous_rank_absolute`](../interfaces/IRankChanges.md#previous_rank_absolute)
 
-#### Defined in
+#### Source
 
-main.ts:88861
+main.ts:88869
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:88883
+main.ts:88891
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:88903
+main.ts:88911
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`RankChanges`](RankChanges.md)
+> **`static`** **fromJS**(`data`): [`RankChanges`](RankChanges.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`RankChanges`](RankChanges.md)
 
-#### Defined in
+#### Source
 
-main.ts:88896
+main.ts:88904

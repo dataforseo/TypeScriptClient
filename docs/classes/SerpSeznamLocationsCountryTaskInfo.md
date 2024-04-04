@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpSeznamLocationsCountryTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpSeznamLocationsCountryTaskInfo
 
 # Class: SerpSeznamLocationsCountryTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`SerpSeznamLocationsCountryTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpSeznamLocationsCountryTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](SerpSeznamLocationsCountryTaskInfo.md#cost)
-- [data](SerpSeznamLocationsCountryTaskInfo.md#data)
-- [id](SerpSeznamLocationsCountryTaskInfo.md#id)
-- [path](SerpSeznamLocationsCountryTaskInfo.md#path)
-- [result](SerpSeznamLocationsCountryTaskInfo.md#result)
-- [result\_count](SerpSeznamLocationsCountryTaskInfo.md#result_count)
-- [status\_code](SerpSeznamLocationsCountryTaskInfo.md#status_code)
-- [status\_message](SerpSeznamLocationsCountryTaskInfo.md#status_message)
-- [time](SerpSeznamLocationsCountryTaskInfo.md#time)
-
-### Methods
-
-- [init](SerpSeznamLocationsCountryTaskInfo.md#init)
-- [toJSON](SerpSeznamLocationsCountryTaskInfo.md#tojson)
-- [fromJS](SerpSeznamLocationsCountryTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpSeznamLocationsCountryTaskInfo(data)
 
-• **new SerpSeznamLocationsCountryTaskInfo**(`data?`): [`SerpSeznamLocationsCountryTaskInfo`](SerpSeznamLocationsCountryTaskInfo.md)
+> **new SerpSeznamLocationsCountryTaskInfo**(`data`?): [`SerpSeznamLocationsCountryTaskInfo`](SerpSeznamLocationsCountryTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpSeznamLocationsCountryTaskInfo`](../interfaces/ISerpSeznamLocationsCountryTaskInfo.md) |
+• **data?**: [`ISerpSeznamLocationsCountryTaskInfo`](../interfaces/ISerpSeznamLocationsCountryTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:71401
+main.ts:71409
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[ISerpSeznamLocationsCountryTaskInfo](../interfaces/ISerpSeznamLocationsCountryTaskInfo.md).[cost](../interfaces/ISerpSeznamLocationsCountryTaskInfo.md#cost)
+[`ISerpSeznamLocationsCountryTaskInfo`](../interfaces/ISerpSeznamLocationsCountryTaskInfo.md).[`cost`](../interfaces/ISerpSeznamLocationsCountryTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[ISerpSeznamLocationsCountryTaskInfo](../interfaces/ISerpSeznamLocationsCountryTaskInfo.md).[data](../interfaces/ISerpSeznamLocationsCountryTaskInfo.md#data)
+[`ISerpSeznamLocationsCountryTaskInfo`](../interfaces/ISerpSeznamLocationsCountryTaskInfo.md).[`data`](../interfaces/ISerpSeznamLocationsCountryTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[ISerpSeznamLocationsCountryTaskInfo](../interfaces/ISerpSeznamLocationsCountryTaskInfo.md).[id](../interfaces/ISerpSeznamLocationsCountryTaskInfo.md#id)
+[`ISerpSeznamLocationsCountryTaskInfo`](../interfaces/ISerpSeznamLocationsCountryTaskInfo.md).[`id`](../interfaces/ISerpSeznamLocationsCountryTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[ISerpSeznamLocationsCountryTaskInfo](../interfaces/ISerpSeznamLocationsCountryTaskInfo.md).[path](../interfaces/ISerpSeznamLocationsCountryTaskInfo.md#path)
+[`ISerpSeznamLocationsCountryTaskInfo`](../interfaces/ISerpSeznamLocationsCountryTaskInfo.md).[`path`](../interfaces/ISerpSeznamLocationsCountryTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`SerpSeznamLocationsCountryResultInfo`](SerpSeznamLocationsCountryResultInfo.md)[]
+> **`optional`** **result**: [`SerpSeznamLocationsCountryResultInfo`](SerpSeznamLocationsCountryResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[ISerpSeznamLocationsCountryTaskInfo](../interfaces/ISerpSeznamLocationsCountryTaskInfo.md).[result](../interfaces/ISerpSeznamLocationsCountryTaskInfo.md#result)
+[`ISerpSeznamLocationsCountryTaskInfo`](../interfaces/ISerpSeznamLocationsCountryTaskInfo.md).[`result`](../interfaces/ISerpSeznamLocationsCountryTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:71397
+main.ts:71405
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[ISerpSeznamLocationsCountryTaskInfo](../interfaces/ISerpSeznamLocationsCountryTaskInfo.md).[result_count](../interfaces/ISerpSeznamLocationsCountryTaskInfo.md#result_count)
+[`ISerpSeznamLocationsCountryTaskInfo`](../interfaces/ISerpSeznamLocationsCountryTaskInfo.md).[`result_count`](../interfaces/ISerpSeznamLocationsCountryTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[ISerpSeznamLocationsCountryTaskInfo](../interfaces/ISerpSeznamLocationsCountryTaskInfo.md).[status_code](../interfaces/ISerpSeznamLocationsCountryTaskInfo.md#status_code)
+[`ISerpSeznamLocationsCountryTaskInfo`](../interfaces/ISerpSeznamLocationsCountryTaskInfo.md).[`status_code`](../interfaces/ISerpSeznamLocationsCountryTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[ISerpSeznamLocationsCountryTaskInfo](../interfaces/ISerpSeznamLocationsCountryTaskInfo.md).[status_message](../interfaces/ISerpSeznamLocationsCountryTaskInfo.md#status_message)
+[`ISerpSeznamLocationsCountryTaskInfo`](../interfaces/ISerpSeznamLocationsCountryTaskInfo.md).[`status_message`](../interfaces/ISerpSeznamLocationsCountryTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[ISerpSeznamLocationsCountryTaskInfo](../interfaces/ISerpSeznamLocationsCountryTaskInfo.md).[time](../interfaces/ISerpSeznamLocationsCountryTaskInfo.md#time)
+[`ISerpSeznamLocationsCountryTaskInfo`](../interfaces/ISerpSeznamLocationsCountryTaskInfo.md).[`time`](../interfaces/ISerpSeznamLocationsCountryTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:71405
+main.ts:71413
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:71427
+main.ts:71435
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpSeznamLocationsCountryTaskInfo`](SerpSeznamLocationsCountryTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpSeznamLocationsCountryTaskInfo`](SerpSeznamLocationsCountryTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:71420
+main.ts:71428

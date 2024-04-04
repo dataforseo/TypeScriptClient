@@ -1,33 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataTripadvisorSearchTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBusinessDataTripadvisorSearchTaskPostRequestInfo
 
 # Interface: IBusinessDataTripadvisorSearchTaskPostRequestInfo
 
-## Implemented by
-
-- [`BusinessDataTripadvisorSearchTaskPostRequestInfo`](../classes/BusinessDataTripadvisorSearchTaskPostRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [depth](IBusinessDataTripadvisorSearchTaskPostRequestInfo.md#depth)
-- [keyword](IBusinessDataTripadvisorSearchTaskPostRequestInfo.md#keyword)
-- [location\_code](IBusinessDataTripadvisorSearchTaskPostRequestInfo.md#location_code)
-- [location\_name](IBusinessDataTripadvisorSearchTaskPostRequestInfo.md#location_name)
-- [pingback\_url](IBusinessDataTripadvisorSearchTaskPostRequestInfo.md#pingback_url)
-- [postback\_url](IBusinessDataTripadvisorSearchTaskPostRequestInfo.md#postback_url)
-- [priority](IBusinessDataTripadvisorSearchTaskPostRequestInfo.md#priority)
-- [tag](IBusinessDataTripadvisorSearchTaskPostRequestInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### depth
+### depth?
 
-• `Optional` **depth**: `number`
+> **`optional`** **depth**: `number`
 
 parsing depth
 optional field
@@ -36,15 +23,15 @@ we strongly recommend setting the parsing depth in the multiples of thirty becau
 default value: 30;
 maximum value: 210
 
-#### Defined in
+#### Source
 
 main.ts:206504
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword
 required field
@@ -53,15 +40,15 @@ you can specify up to 700 symbols in the keyword filed;
 all %## will be decoded (plus symbol ‘+’ will be decoded to a space character);
 if you need to use the “%” symbol for your keyword, please specify it as “%25”
 
-#### Defined in
+#### Source
 
 main.ts:206477
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name
@@ -69,15 +56,15 @@ you can receive the list of available locations with location_code by making a s
 example:
 1003854
 
-#### Defined in
+#### Source
 
 main.ts:206489
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -85,15 +72,15 @@ you can receive the list of available locations with location_name by making a s
 example:
 London,England,United Kingdom
 
-#### Defined in
+#### Source
 
 main.ts:206483
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -105,15 +92,15 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special symbols in pingback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
 main.ts:206530
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -125,15 +112,15 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special symbols in postback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
 main.ts:206520
 
-___
+***
 
-### priority
+### priority?
 
-• `Optional` **priority**: `number`
+> **`optional`** **priority**: `number`
 
 task priority
 optional field
@@ -143,15 +130,15 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page.
 
-#### Defined in
+#### Source
 
 main.ts:206497
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -159,6 +146,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
 main.ts:206510

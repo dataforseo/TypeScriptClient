@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AnchorLinkElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AnchorLinkElementItem
 
 # Class: AnchorLinkElementItem
 
-## Hierarchy
+## Extends
 
 - [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md)
-
-  ↳ **`AnchorLinkElementItem`**
 
 ## Implements
 
@@ -14,50 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AnchorLinkElementItem.md#constructor)
-
-### Properties
-
-- [\_discriminator](AnchorLinkElementItem.md#_discriminator)
-- [direction](AnchorLinkElementItem.md#direction)
-- [dofollow](AnchorLinkElementItem.md#dofollow)
-- [domain\_from](AnchorLinkElementItem.md#domain_from)
-- [domain\_to](AnchorLinkElementItem.md#domain_to)
-- [is\_broken](AnchorLinkElementItem.md#is_broken)
-- [is\_link\_relation\_conflict](AnchorLinkElementItem.md#is_link_relation_conflict)
-- [link\_attribute](AnchorLinkElementItem.md#link_attribute)
-- [link\_from](AnchorLinkElementItem.md#link_from)
-- [link\_to](AnchorLinkElementItem.md#link_to)
-- [page\_from](AnchorLinkElementItem.md#page_from)
-- [page\_from\_scheme](AnchorLinkElementItem.md#page_from_scheme)
-- [page\_to](AnchorLinkElementItem.md#page_to)
-- [page\_to\_scheme](AnchorLinkElementItem.md#page_to_scheme)
-- [page\_to\_status\_code](AnchorLinkElementItem.md#page_to_status_code)
-- [text](AnchorLinkElementItem.md#text)
-
-### Methods
-
-- [init](AnchorLinkElementItem.md#init)
-- [toJSON](AnchorLinkElementItem.md#tojson)
-- [fromJS](AnchorLinkElementItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AnchorLinkElementItem(data)
 
-• **new AnchorLinkElementItem**(`data?`): [`AnchorLinkElementItem`](AnchorLinkElementItem.md)
+> **new AnchorLinkElementItem**(`data`?): [`AnchorLinkElementItem`](AnchorLinkElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAnchorLinkElementItem`](../interfaces/IAnchorLinkElementItem.md) |
+• **data?**: [`IAnchorLinkElementItem`](../interfaces/IAnchorLinkElementItem.md)
 
 #### Returns
 
@@ -65,133 +34,133 @@
 
 #### Overrides
 
-[BaseOnPageLinkItemInfo](BaseOnPageLinkItemInfo.md).[constructor](BaseOnPageLinkItemInfo.md#constructor)
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`constructor`](BaseOnPageLinkItemInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:153510
+main.ts:153518
 
 ## Properties
 
 ### \_discriminator
 
-• `Protected` **\_discriminator**: `string`
+> **`protected`** **\_discriminator**: `string`
 
 #### Inherited from
 
-[BaseOnPageLinkItemInfo](BaseOnPageLinkItemInfo.md).[_discriminator](BaseOnPageLinkItemInfo.md#_discriminator)
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`_discriminator`](BaseOnPageLinkItemInfo.md#_discriminator)
 
-#### Defined in
+#### Source
 
 main.ts:20770
 
-___
+***
 
-### direction
+### direction?
 
-• `Optional` **direction**: `string`
+> **`optional`** **direction**: `string`
 
 direction of the link
 possible values: internal, external
 
 #### Implementation of
 
-[IAnchorLinkElementItem](../interfaces/IAnchorLinkElementItem.md).[direction](../interfaces/IAnchorLinkElementItem.md#direction)
+[`IAnchorLinkElementItem`](../interfaces/IAnchorLinkElementItem.md).[`direction`](../interfaces/IAnchorLinkElementItem.md#direction)
 
-#### Defined in
+#### Source
 
-main.ts:153495
+main.ts:153503
 
-___
+***
 
-### dofollow
+### dofollow?
 
-• `Optional` **dofollow**: `boolean`
+> **`optional`** **dofollow**: `boolean`
 
 indicates whether the link is dofollow
 if the value is true, the link doesn’t have a rel="nofollow" attribute
 
 #### Implementation of
 
-[IAnchorLinkElementItem](../interfaces/IAnchorLinkElementItem.md).[dofollow](../interfaces/IAnchorLinkElementItem.md#dofollow)
+[`IAnchorLinkElementItem`](../interfaces/IAnchorLinkElementItem.md).[`dofollow`](../interfaces/IAnchorLinkElementItem.md#dofollow)
 
-#### Defined in
+#### Source
 
-main.ts:153488
+main.ts:153496
 
-___
+***
 
-### domain\_from
+### domain\_from?
 
-• `Optional` **domain\_from**: `string`
+> **`optional`** **domain\_from**: `string`
 
 referring domain
 the link was found on this domain
 
 #### Implementation of
 
-[IAnchorLinkElementItem](../interfaces/IAnchorLinkElementItem.md).[domain_from](../interfaces/IAnchorLinkElementItem.md#domain_from)
+[`IAnchorLinkElementItem`](../interfaces/IAnchorLinkElementItem.md).[`domain_from`](../interfaces/IAnchorLinkElementItem.md#domain_from)
 
-#### Defined in
+#### Source
 
-main.ts:153465
+main.ts:153473
 
-___
+***
 
-### domain\_to
+### domain\_to?
 
-• `Optional` **domain\_to**: `string`
+> **`optional`** **domain\_to**: `string`
 
 referenced domain
 the link is pointing to this domain
 
 #### Implementation of
 
-[IAnchorLinkElementItem](../interfaces/IAnchorLinkElementItem.md).[domain_to](../interfaces/IAnchorLinkElementItem.md#domain_to)
+[`IAnchorLinkElementItem`](../interfaces/IAnchorLinkElementItem.md).[`domain_to`](../interfaces/IAnchorLinkElementItem.md#domain_to)
 
-#### Defined in
+#### Source
 
-main.ts:153468
+main.ts:153476
 
-___
+***
 
-### is\_broken
+### is\_broken?
 
-• `Optional` **is\_broken**: `boolean`
+> **`optional`** **is\_broken**: `boolean`
 
 link is broken
 indicates whether a link is directing to a broken page or resource
 
 #### Implementation of
 
-[IAnchorLinkElementItem](../interfaces/IAnchorLinkElementItem.md).[is_broken](../interfaces/IAnchorLinkElementItem.md#is_broken)
+[`IAnchorLinkElementItem`](../interfaces/IAnchorLinkElementItem.md).[`is_broken`](../interfaces/IAnchorLinkElementItem.md#is_broken)
 
-#### Defined in
+#### Source
 
-main.ts:153498
+main.ts:153506
 
-___
+***
 
-### is\_link\_relation\_conflict
+### is\_link\_relation\_conflict?
 
-• `Optional` **is\_link\_relation\_conflict**: `boolean`
+> **`optional`** **is\_link\_relation\_conflict**: `boolean`
 
 indicates that the link may have a conflict with another link
 if true, at least one link pointing to link_to has a rel="nofollow" attribute and at least one is dofollow
 
 #### Implementation of
 
-[IAnchorLinkElementItem](../interfaces/IAnchorLinkElementItem.md).[is_link_relation_conflict](../interfaces/IAnchorLinkElementItem.md#is_link_relation_conflict)
+[`IAnchorLinkElementItem`](../interfaces/IAnchorLinkElementItem.md).[`is_link_relation_conflict`](../interfaces/IAnchorLinkElementItem.md#is_link_relation_conflict)
 
-#### Defined in
+#### Source
 
-main.ts:153503
+main.ts:153511
 
-___
+***
 
-### link\_attribute
+### link\_attribute?
 
-• `Optional` **link\_attribute**: `string`[]
+> **`optional`** **link\_attribute**: `string`[]
 
 link attribute added to external link
 indicates link attributes added to the link_to on the page_from
@@ -200,156 +169,154 @@ example:
 
 #### Implementation of
 
-[IAnchorLinkElementItem](../interfaces/IAnchorLinkElementItem.md).[link_attribute](../interfaces/IAnchorLinkElementItem.md#link_attribute)
+[`IAnchorLinkElementItem`](../interfaces/IAnchorLinkElementItem.md).[`link_attribute`](../interfaces/IAnchorLinkElementItem.md#link_attribute)
 
-#### Defined in
+#### Source
 
-main.ts:153485
+main.ts:153493
 
-___
+***
 
-### link\_from
+### link\_from?
 
-• `Optional` **link\_from**: `string`
+> **`optional`** **link\_from**: `string`
 
 referring page
 absolute URL of the page on which the link was found
 
 #### Implementation of
 
-[IAnchorLinkElementItem](../interfaces/IAnchorLinkElementItem.md).[link_from](../interfaces/IAnchorLinkElementItem.md#link_from)
+[`IAnchorLinkElementItem`](../interfaces/IAnchorLinkElementItem.md).[`link_from`](../interfaces/IAnchorLinkElementItem.md#link_from)
 
-#### Defined in
+#### Source
 
-main.ts:153477
+main.ts:153485
 
-___
+***
 
-### link\_to
+### link\_to?
 
-• `Optional` **link\_to**: `string`
+> **`optional`** **link\_to**: `string`
 
 referenced page
 absolute URL of the page to which the link is pointing
 
 #### Implementation of
 
-[IAnchorLinkElementItem](../interfaces/IAnchorLinkElementItem.md).[link_to](../interfaces/IAnchorLinkElementItem.md#link_to)
+[`IAnchorLinkElementItem`](../interfaces/IAnchorLinkElementItem.md).[`link_to`](../interfaces/IAnchorLinkElementItem.md#link_to)
 
-#### Defined in
+#### Source
 
-main.ts:153480
+main.ts:153488
 
-___
+***
 
-### page\_from
+### page\_from?
 
-• `Optional` **page\_from**: `string`
+> **`optional`** **page\_from**: `string`
 
 referring page
 relative URL of the page on which the link was found
 
 #### Implementation of
 
-[IAnchorLinkElementItem](../interfaces/IAnchorLinkElementItem.md).[page_from](../interfaces/IAnchorLinkElementItem.md#page_from)
+[`IAnchorLinkElementItem`](../interfaces/IAnchorLinkElementItem.md).[`page_from`](../interfaces/IAnchorLinkElementItem.md#page_from)
 
-#### Defined in
+#### Source
 
-main.ts:153471
+main.ts:153479
 
-___
+***
 
-### page\_from\_scheme
+### page\_from\_scheme?
 
-• `Optional` **page\_from\_scheme**: `string`
+> **`optional`** **page\_from\_scheme**: `string`
 
 url scheme of the referring page
 
 #### Implementation of
 
-[IAnchorLinkElementItem](../interfaces/IAnchorLinkElementItem.md).[page_from_scheme](../interfaces/IAnchorLinkElementItem.md#page_from_scheme)
+[`IAnchorLinkElementItem`](../interfaces/IAnchorLinkElementItem.md).[`page_from_scheme`](../interfaces/IAnchorLinkElementItem.md#page_from_scheme)
 
-#### Defined in
+#### Source
 
-main.ts:153490
+main.ts:153498
 
-___
+***
 
-### page\_to
+### page\_to?
 
-• `Optional` **page\_to**: `string`
+> **`optional`** **page\_to**: `string`
 
 referenced page
 relative URL of the page to which the link is pointing
 
 #### Implementation of
 
-[IAnchorLinkElementItem](../interfaces/IAnchorLinkElementItem.md).[page_to](../interfaces/IAnchorLinkElementItem.md#page_to)
+[`IAnchorLinkElementItem`](../interfaces/IAnchorLinkElementItem.md).[`page_to`](../interfaces/IAnchorLinkElementItem.md#page_to)
 
-#### Defined in
+#### Source
 
-main.ts:153474
+main.ts:153482
 
-___
+***
 
-### page\_to\_scheme
+### page\_to\_scheme?
 
-• `Optional` **page\_to\_scheme**: `string`
+> **`optional`** **page\_to\_scheme**: `string`
 
 url scheme of the referenced page
 
 #### Implementation of
 
-[IAnchorLinkElementItem](../interfaces/IAnchorLinkElementItem.md).[page_to_scheme](../interfaces/IAnchorLinkElementItem.md#page_to_scheme)
+[`IAnchorLinkElementItem`](../interfaces/IAnchorLinkElementItem.md).[`page_to_scheme`](../interfaces/IAnchorLinkElementItem.md#page_to_scheme)
 
-#### Defined in
+#### Source
 
-main.ts:153492
+main.ts:153500
 
-___
+***
 
-### page\_to\_status\_code
+### page\_to\_status\_code?
 
-• `Optional` **page\_to\_status\_code**: `number`
+> **`optional`** **page\_to\_status\_code**: `number`
 
 status code of the referenced page
 status code of the page to which the link is pointing
 
 #### Implementation of
 
-[IAnchorLinkElementItem](../interfaces/IAnchorLinkElementItem.md).[page_to_status_code](../interfaces/IAnchorLinkElementItem.md#page_to_status_code)
+[`IAnchorLinkElementItem`](../interfaces/IAnchorLinkElementItem.md).[`page_to_status_code`](../interfaces/IAnchorLinkElementItem.md#page_to_status_code)
 
-#### Defined in
+#### Source
 
-main.ts:153506
+main.ts:153514
 
-___
+***
 
-### text
+### text?
 
-• `Optional` **text**: `string`
+> **`optional`** **text**: `string`
 
 anchor text
 
 #### Implementation of
 
-[IAnchorLinkElementItem](../interfaces/IAnchorLinkElementItem.md).[text](../interfaces/IAnchorLinkElementItem.md#text)
+[`IAnchorLinkElementItem`](../interfaces/IAnchorLinkElementItem.md).[`text`](../interfaces/IAnchorLinkElementItem.md#text)
 
-#### Defined in
+#### Source
 
-main.ts:153500
+main.ts:153508
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -357,23 +324,21 @@ main.ts:153500
 
 #### Overrides
 
-[BaseOnPageLinkItemInfo](BaseOnPageLinkItemInfo.md).[init](BaseOnPageLinkItemInfo.md#init)
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`init`](BaseOnPageLinkItemInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:153515
+main.ts:153523
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -381,23 +346,21 @@ ___
 
 #### Overrides
 
-[BaseOnPageLinkItemInfo](BaseOnPageLinkItemInfo.md).[toJSON](BaseOnPageLinkItemInfo.md#tojson)
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`toJSON`](BaseOnPageLinkItemInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:153551
+main.ts:153559
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AnchorLinkElementItem`](AnchorLinkElementItem.md)
+> **`static`** **fromJS**(`data`): [`AnchorLinkElementItem`](AnchorLinkElementItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -405,8 +368,8 @@ ___
 
 #### Overrides
 
-[BaseOnPageLinkItemInfo](BaseOnPageLinkItemInfo.md).[fromJS](BaseOnPageLinkItemInfo.md#fromjs)
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`fromJS`](BaseOnPageLinkItemInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:153544
+main.ts:153552

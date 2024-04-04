@@ -1,55 +1,47 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataBusinessListingsLocationsResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBusinessDataBusinessListingsLocationsResultInfo
 
 # Interface: IBusinessDataBusinessListingsLocationsResultInfo
 
-## Implemented by
-
-- [`BusinessDataBusinessListingsLocationsResultInfo`](../classes/BusinessDataBusinessListingsLocationsResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [business\_count](IBusinessDataBusinessListingsLocationsResultInfo.md#business_count)
-- [country\_iso\_code](IBusinessDataBusinessListingsLocationsResultInfo.md#country_iso_code)
-- [location\_name](IBusinessDataBusinessListingsLocationsResultInfo.md#location_name)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### business\_count
+### business\_count?
 
-• `Optional` **business\_count**: `number`
+> **`optional`** **business\_count**: `number`
 
 number of businesses in this location in our database
 
-#### Defined in
+#### Source
 
 main.ts:193342
 
-___
+***
 
-### country\_iso\_code
+### country\_iso\_code?
 
-• `Optional` **country\_iso\_code**: `string`
+> **`optional`** **country\_iso\_code**: `string`
 
 ISO country code of the location
 
-#### Defined in
+#### Source
 
 main.ts:193340
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 
-#### Defined in
+#### Source
 
 main.ts:193338

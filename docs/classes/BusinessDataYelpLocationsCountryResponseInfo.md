@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataYelpLocationsCountryResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataYelpLocationsCountryResponseInfo
 
 # Class: BusinessDataYelpLocationsCountryResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`BusinessDataYelpLocationsCountryResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataYelpLocationsCountryResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](BusinessDataYelpLocationsCountryResponseInfo.md#cost)
-- [status\_code](BusinessDataYelpLocationsCountryResponseInfo.md#status_code)
-- [status\_message](BusinessDataYelpLocationsCountryResponseInfo.md#status_message)
-- [tasks](BusinessDataYelpLocationsCountryResponseInfo.md#tasks)
-- [tasks\_count](BusinessDataYelpLocationsCountryResponseInfo.md#tasks_count)
-- [tasks\_error](BusinessDataYelpLocationsCountryResponseInfo.md#tasks_error)
-- [time](BusinessDataYelpLocationsCountryResponseInfo.md#time)
-- [version](BusinessDataYelpLocationsCountryResponseInfo.md#version)
-
-### Methods
-
-- [init](BusinessDataYelpLocationsCountryResponseInfo.md#init)
-- [toJSON](BusinessDataYelpLocationsCountryResponseInfo.md#tojson)
-- [fromJS](BusinessDataYelpLocationsCountryResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataYelpLocationsCountryResponseInfo(data)
 
-• **new BusinessDataYelpLocationsCountryResponseInfo**(`data?`): [`BusinessDataYelpLocationsCountryResponseInfo`](BusinessDataYelpLocationsCountryResponseInfo.md)
+> **new BusinessDataYelpLocationsCountryResponseInfo**(`data`?): [`BusinessDataYelpLocationsCountryResponseInfo`](BusinessDataYelpLocationsCountryResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataYelpLocationsCountryResponseInfo`](../interfaces/IBusinessDataYelpLocationsCountryResponseInfo.md) |
+• **data?**: [`IBusinessDataYelpLocationsCountryResponseInfo`](../interfaces/IBusinessDataYelpLocationsCountryResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:208580
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IBusinessDataYelpLocationsCountryResponseInfo](../interfaces/IBusinessDataYelpLocationsCountryResponseInfo.md).[cost](../interfaces/IBusinessDataYelpLocationsCountryResponseInfo.md#cost)
+[`IBusinessDataYelpLocationsCountryResponseInfo`](../interfaces/IBusinessDataYelpLocationsCountryResponseInfo.md).[`cost`](../interfaces/IBusinessDataYelpLocationsCountryResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[IBusinessDataYelpLocationsCountryResponseInfo](../interfaces/IBusinessDataYelpLocationsCountryResponseInfo.md).[status_code](../interfaces/IBusinessDataYelpLocationsCountryResponseInfo.md#status_code)
+[`IBusinessDataYelpLocationsCountryResponseInfo`](../interfaces/IBusinessDataYelpLocationsCountryResponseInfo.md).[`status_code`](../interfaces/IBusinessDataYelpLocationsCountryResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IBusinessDataYelpLocationsCountryResponseInfo](../interfaces/IBusinessDataYelpLocationsCountryResponseInfo.md).[status_message](../interfaces/IBusinessDataYelpLocationsCountryResponseInfo.md#status_message)
+[`IBusinessDataYelpLocationsCountryResponseInfo`](../interfaces/IBusinessDataYelpLocationsCountryResponseInfo.md).[`status_message`](../interfaces/IBusinessDataYelpLocationsCountryResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`BusinessDataYelpLocationsCountryTaskInfo`](BusinessDataYelpLocationsCountryTaskInfo.md)[]
+> **`optional`** **tasks**: [`BusinessDataYelpLocationsCountryTaskInfo`](BusinessDataYelpLocationsCountryTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[IBusinessDataYelpLocationsCountryResponseInfo](../interfaces/IBusinessDataYelpLocationsCountryResponseInfo.md).[tasks](../interfaces/IBusinessDataYelpLocationsCountryResponseInfo.md#tasks)
+[`IBusinessDataYelpLocationsCountryResponseInfo`](../interfaces/IBusinessDataYelpLocationsCountryResponseInfo.md).[`tasks`](../interfaces/IBusinessDataYelpLocationsCountryResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
 main.ts:208576
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[IBusinessDataYelpLocationsCountryResponseInfo](../interfaces/IBusinessDataYelpLocationsCountryResponseInfo.md).[tasks_count](../interfaces/IBusinessDataYelpLocationsCountryResponseInfo.md#tasks_count)
+[`IBusinessDataYelpLocationsCountryResponseInfo`](../interfaces/IBusinessDataYelpLocationsCountryResponseInfo.md).[`tasks_count`](../interfaces/IBusinessDataYelpLocationsCountryResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[IBusinessDataYelpLocationsCountryResponseInfo](../interfaces/IBusinessDataYelpLocationsCountryResponseInfo.md).[tasks_error](../interfaces/IBusinessDataYelpLocationsCountryResponseInfo.md#tasks_error)
+[`IBusinessDataYelpLocationsCountryResponseInfo`](../interfaces/IBusinessDataYelpLocationsCountryResponseInfo.md).[`tasks_error`](../interfaces/IBusinessDataYelpLocationsCountryResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[IBusinessDataYelpLocationsCountryResponseInfo](../interfaces/IBusinessDataYelpLocationsCountryResponseInfo.md).[time](../interfaces/IBusinessDataYelpLocationsCountryResponseInfo.md#time)
+[`IBusinessDataYelpLocationsCountryResponseInfo`](../interfaces/IBusinessDataYelpLocationsCountryResponseInfo.md).[`time`](../interfaces/IBusinessDataYelpLocationsCountryResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[IBusinessDataYelpLocationsCountryResponseInfo](../interfaces/IBusinessDataYelpLocationsCountryResponseInfo.md).[version](../interfaces/IBusinessDataYelpLocationsCountryResponseInfo.md#version)
+[`IBusinessDataYelpLocationsCountryResponseInfo`](../interfaces/IBusinessDataYelpLocationsCountryResponseInfo.md).[`version`](../interfaces/IBusinessDataYelpLocationsCountryResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:208584
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:208606
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataYelpLocationsCountryResponseInfo`](BusinessDataYelpLocationsCountryResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataYelpLocationsCountryResponseInfo`](BusinessDataYelpLocationsCountryResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:208599

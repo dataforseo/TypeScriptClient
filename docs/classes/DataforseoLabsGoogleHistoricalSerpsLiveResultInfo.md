@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalSerpsLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsGoogleHistoricalSerpsLiveResultInfo
 
 # Class: DataforseoLabsGoogleHistoricalSerpsLiveResultInfo
 
@@ -8,219 +12,189 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md#constructor)
-
-### Properties
-
-- [items](DataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md#items)
-- [items\_count](DataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md#items_count)
-- [keyword](DataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md#keyword)
-- [language\_code](DataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md#language_code)
-- [location\_code](DataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md#location_code)
-- [se\_type](DataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md#se_type)
-- [total\_count](DataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md#total_count)
-
-### Methods
-
-- [init](DataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md#init)
-- [toJSON](DataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md#tojson)
-- [fromJS](DataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsGoogleHistoricalSerpsLiveResultInfo(data)
 
-• **new DataforseoLabsGoogleHistoricalSerpsLiveResultInfo**(`data?`): [`DataforseoLabsGoogleHistoricalSerpsLiveResultInfo`](DataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md)
+> **new DataforseoLabsGoogleHistoricalSerpsLiveResultInfo**(`data`?): [`DataforseoLabsGoogleHistoricalSerpsLiveResultInfo`](DataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md) |
+• **data?**: [`IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleHistoricalSerpsLiveResultInfo`](DataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:94642
+main.ts:94650
 
 ## Properties
 
-### items
+### items?
 
-• `Optional` **items**: [`DataforseoLabsGoogleHistoricalSerpsLiveItem`](DataforseoLabsGoogleHistoricalSerpsLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsGoogleHistoricalSerpsLiveItem`](DataforseoLabsGoogleHistoricalSerpsLiveItem.md)[]
 
 contains results featured in the ‘hotels_pack’ element of SERP
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md).[items](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md#items)
+[`IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:94638
+main.ts:94646
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md).[items_count](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md#items_count)
+[`IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:94636
+main.ts:94644
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword received in a POST array
 the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md).[keyword](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md#keyword)
+[`IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md).[`keyword`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:94628
+main.ts:94636
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md).[language_code](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md#language_code)
+[`IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:94632
+main.ts:94640
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md).[location_code](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md#location_code)
+[`IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:94630
+main.ts:94638
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md).[se_type](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md#se_type)
+[`IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md#se_type)
 
-#### Defined in
+#### Source
 
-main.ts:94625
+main.ts:94633
 
-___
+***
 
-### total\_count
+### total\_count?
 
-• `Optional` **total\_count**: `number`
+> **`optional`** **total\_count**: `number`
 
 the number of results returned in the items array
 
 #### Implementation of
 
-[IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md).[total_count](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md#total_count)
+[`IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md#total_count)
 
-#### Defined in
+#### Source
 
-main.ts:94634
+main.ts:94642
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:94651
+main.ts:94659
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:94678
+main.ts:94686
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalSerpsLiveResultInfo`](DataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalSerpsLiveResultInfo`](DataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsGoogleHistoricalSerpsLiveResultInfo`](DataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:94671
+main.ts:94679

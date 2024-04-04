@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SocialMetricsInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SocialMetricsInfo
 
 # Class: SocialMetricsInfo
 
@@ -8,133 +12,108 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SocialMetricsInfo.md#constructor)
-
-### Properties
-
-- [like\_count](SocialMetricsInfo.md#like_count)
-- [type](SocialMetricsInfo.md#type)
-
-### Methods
-
-- [init](SocialMetricsInfo.md#init)
-- [toJSON](SocialMetricsInfo.md#tojson)
-- [fromJS](SocialMetricsInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SocialMetricsInfo(data)
 
-• **new SocialMetricsInfo**(`data?`): [`SocialMetricsInfo`](SocialMetricsInfo.md)
+> **new SocialMetricsInfo**(`data`?): [`SocialMetricsInfo`](SocialMetricsInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISocialMetricsInfo`](../interfaces/ISocialMetricsInfo.md) |
+• **data?**: [`ISocialMetricsInfo`](../interfaces/ISocialMetricsInfo.md)
 
 #### Returns
 
 [`SocialMetricsInfo`](SocialMetricsInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:22070
 
 ## Properties
 
-### like\_count
+### like\_count?
 
-• `Optional` **like\_count**: `number`
+> **`optional`** **like\_count**: `number`
 
 likes count
 
 #### Implementation of
 
-[ISocialMetricsInfo](../interfaces/ISocialMetricsInfo.md).[like_count](../interfaces/ISocialMetricsInfo.md#like_count)
+[`ISocialMetricsInfo`](../interfaces/ISocialMetricsInfo.md).[`like_count`](../interfaces/ISocialMetricsInfo.md#like_count)
 
-#### Defined in
+#### Source
 
 main.ts:22066
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[ISocialMetricsInfo](../interfaces/ISocialMetricsInfo.md).[type](../interfaces/ISocialMetricsInfo.md#type)
+[`ISocialMetricsInfo`](../interfaces/ISocialMetricsInfo.md).[`type`](../interfaces/ISocialMetricsInfo.md#type)
 
-#### Defined in
+#### Source
 
 main.ts:22064
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:22079
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:22097
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SocialMetricsInfo`](SocialMetricsInfo.md)
+> **`static`** **fromJS**(`data`): [`SocialMetricsInfo`](SocialMetricsInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SocialMetricsInfo`](SocialMetricsInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:22090

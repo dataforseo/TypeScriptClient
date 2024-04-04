@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsIdListRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DomainAnalyticsIdListRequestInfo
 
 # Class: DomainAnalyticsIdListRequestInfo
 
@@ -8,54 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DomainAnalyticsIdListRequestInfo.md#constructor)
-
-### Properties
-
-- [datetime\_from](DomainAnalyticsIdListRequestInfo.md#datetime_from)
-- [datetime\_to](DomainAnalyticsIdListRequestInfo.md#datetime_to)
-- [include\_metadata](DomainAnalyticsIdListRequestInfo.md#include_metadata)
-- [limit](DomainAnalyticsIdListRequestInfo.md#limit)
-- [offset](DomainAnalyticsIdListRequestInfo.md#offset)
-- [sort](DomainAnalyticsIdListRequestInfo.md#sort)
-
-### Methods
-
-- [init](DomainAnalyticsIdListRequestInfo.md#init)
-- [toJSON](DomainAnalyticsIdListRequestInfo.md#tojson)
-- [fromJS](DomainAnalyticsIdListRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DomainAnalyticsIdListRequestInfo(data)
 
-• **new DomainAnalyticsIdListRequestInfo**(`data?`): [`DomainAnalyticsIdListRequestInfo`](DomainAnalyticsIdListRequestInfo.md)
+> **new DomainAnalyticsIdListRequestInfo**(`data`?): [`DomainAnalyticsIdListRequestInfo`](DomainAnalyticsIdListRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDomainAnalyticsIdListRequestInfo`](../interfaces/IDomainAnalyticsIdListRequestInfo.md) |
+• **data?**: [`IDomainAnalyticsIdListRequestInfo`](../interfaces/IDomainAnalyticsIdListRequestInfo.md)
 
 #### Returns
 
 [`DomainAnalyticsIdListRequestInfo`](DomainAnalyticsIdListRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:73277
+main.ts:73285
 
 ## Properties
 
-### datetime\_from
+### datetime\_from?
 
-• `Optional` **datetime\_from**: `string`
+> **`optional`** **datetime\_from**: `string`
 
 start time for filtering results
 required field
@@ -67,17 +48,17 @@ example:
 
 #### Implementation of
 
-[IDomainAnalyticsIdListRequestInfo](../interfaces/IDomainAnalyticsIdListRequestInfo.md).[datetime_from](../interfaces/IDomainAnalyticsIdListRequestInfo.md#datetime_from)
+[`IDomainAnalyticsIdListRequestInfo`](../interfaces/IDomainAnalyticsIdListRequestInfo.md).[`datetime_from`](../interfaces/IDomainAnalyticsIdListRequestInfo.md#datetime_from)
 
-#### Defined in
+#### Source
 
-main.ts:73247
+main.ts:73255
 
-___
+***
 
-### datetime\_to
+### datetime\_to?
 
-• `Optional` **datetime\_to**: `string`
+> **`optional`** **datetime\_to**: `string`
 
 finish time for filtering results
 required field
@@ -88,17 +69,17 @@ example:
 
 #### Implementation of
 
-[IDomainAnalyticsIdListRequestInfo](../interfaces/IDomainAnalyticsIdListRequestInfo.md).[datetime_to](../interfaces/IDomainAnalyticsIdListRequestInfo.md#datetime_to)
+[`IDomainAnalyticsIdListRequestInfo`](../interfaces/IDomainAnalyticsIdListRequestInfo.md).[`datetime_to`](../interfaces/IDomainAnalyticsIdListRequestInfo.md#datetime_to)
 
-#### Defined in
+#### Source
 
-main.ts:73254
+main.ts:73262
 
-___
+***
 
-### include\_metadata
+### include\_metadata?
 
-• `Optional` **include\_metadata**: `boolean`
+> **`optional`** **include\_metadata**: `boolean`
 
 include task metadata in the respond
 optional field
@@ -106,17 +87,17 @@ default value: false
 
 #### Implementation of
 
-[IDomainAnalyticsIdListRequestInfo](../interfaces/IDomainAnalyticsIdListRequestInfo.md).[include_metadata](../interfaces/IDomainAnalyticsIdListRequestInfo.md#include_metadata)
+[`IDomainAnalyticsIdListRequestInfo`](../interfaces/IDomainAnalyticsIdListRequestInfo.md).[`include_metadata`](../interfaces/IDomainAnalyticsIdListRequestInfo.md#include_metadata)
 
-#### Defined in
+#### Source
 
-main.ts:73273
+main.ts:73281
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned task IDs
 optional field
@@ -125,17 +106,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IDomainAnalyticsIdListRequestInfo](../interfaces/IDomainAnalyticsIdListRequestInfo.md).[limit](../interfaces/IDomainAnalyticsIdListRequestInfo.md#limit)
+[`IDomainAnalyticsIdListRequestInfo`](../interfaces/IDomainAnalyticsIdListRequestInfo.md).[`limit`](../interfaces/IDomainAnalyticsIdListRequestInfo.md#limit)
 
-#### Defined in
+#### Source
 
-main.ts:73259
+main.ts:73267
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned task IDs
 optional field
@@ -144,17 +125,17 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Implementation of
 
-[IDomainAnalyticsIdListRequestInfo](../interfaces/IDomainAnalyticsIdListRequestInfo.md).[offset](../interfaces/IDomainAnalyticsIdListRequestInfo.md#offset)
+[`IDomainAnalyticsIdListRequestInfo`](../interfaces/IDomainAnalyticsIdListRequestInfo.md).[`offset`](../interfaces/IDomainAnalyticsIdListRequestInfo.md#offset)
 
-#### Defined in
+#### Source
 
-main.ts:73264
+main.ts:73272
 
-___
+***
 
-### sort
+### sort?
 
-• `Optional` **sort**: `string`
+> **`optional`** **sort**: `string`
 
 sorting by task execution time
 optional field
@@ -163,68 +144,62 @@ default value: "asc"
 
 #### Implementation of
 
-[IDomainAnalyticsIdListRequestInfo](../interfaces/IDomainAnalyticsIdListRequestInfo.md).[sort](../interfaces/IDomainAnalyticsIdListRequestInfo.md#sort)
+[`IDomainAnalyticsIdListRequestInfo`](../interfaces/IDomainAnalyticsIdListRequestInfo.md).[`sort`](../interfaces/IDomainAnalyticsIdListRequestInfo.md#sort)
 
-#### Defined in
+#### Source
 
-main.ts:73269
+main.ts:73277
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:73286
+main.ts:73294
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:73308
+main.ts:73316
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DomainAnalyticsIdListRequestInfo`](DomainAnalyticsIdListRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`DomainAnalyticsIdListRequestInfo`](DomainAnalyticsIdListRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DomainAnalyticsIdListRequestInfo`](DomainAnalyticsIdListRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:73301
+main.ts:73309

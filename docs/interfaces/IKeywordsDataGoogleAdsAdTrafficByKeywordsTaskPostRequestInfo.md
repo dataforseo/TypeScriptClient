@@ -1,41 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo
 
 # Interface: IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo
 
-## Implemented by
-
-- [`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](../classes/KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [bid](IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#bid)
-- [date\_from](IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#date_from)
-- [date\_interval](IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#date_interval)
-- [date\_to](IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#date_to)
-- [keywords](IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#keywords)
-- [language\_code](IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#language_code)
-- [language\_name](IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#language_name)
-- [location\_code](IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#location_code)
-- [location\_coordinate](IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#location_coordinate)
-- [location\_name](IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#location_name)
-- [match](IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#match)
-- [pingback\_url](IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#pingback_url)
-- [postback\_url](IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#postback_url)
-- [search\_partners](IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#search_partners)
-- [sort\_by](IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#sort_by)
-- [tag](IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### bid
+### bid?
 
-• `Optional` **bid**: `number`
+> **`optional`** **bid**: `number`
 
 the maximum custom bid
 required field
@@ -43,15 +22,15 @@ the collected data will be based on this value
 it stands for the price you are willing to pay for an ad; the higher value you specify here, the higher values you will get in the returned metrics
 learn more in this help center article
 
-#### Defined in
+#### Source
 
-main.ts:120159
+main.ts:120167
 
-___
+***
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of the forecasting time range
 required field if you specify date_to
@@ -63,15 +42,15 @@ example:
 "2021-10-30"if Status endpoint returns false in the actual_data field, date_from can be set to the month before last and prior;
 if Status endpoint returns true in the actual_data field, date_from can be set to the last month and prior
 
-#### Defined in
+#### Source
 
-main.ts:120215
+main.ts:120223
 
-___
+***
 
-### date\_interval
+### date\_interval?
 
-• `Optional` **date\_interval**: `string`
+> **`optional`** **date\_interval**: `string`
 
 forecasting date interval
 optional field
@@ -79,15 +58,15 @@ if you specify date_interval, you don’t need to indicate date_from and date_to
 possible values: next_week, next_month, next_quarter
 default value: next_month
 
-#### Defined in
+#### Source
 
-main.ts:120230
+main.ts:120238
 
-___
+***
 
-### date\_to
+### date\_to?
 
-• `Optional` **date\_to**: `string`
+> **`optional`** **date\_to**: `string`
 
 ending date of the forecasting time range
 required field if you specify date_from
@@ -98,15 +77,15 @@ date format: "yyyy-mm-dd"
 example:
 "2022-10-30"
 
-#### Defined in
+#### Source
 
-main.ts:120224
+main.ts:120232
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 keywords
 required field
@@ -120,15 +99,15 @@ to obtain search volume for similar keywords, we recommend submitting such keywo
 Note #3: Google Ads doesn’t allow using certain symbols and characters (e.g., UTF symbols, emojis), so you can’t use them when setting a task;
 to learn more about which symbols can be used, please refer to this article
 
-#### Defined in
+#### Source
 
-main.ts:120153
+main.ts:120161
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 optional field
@@ -136,15 +115,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:120205
+main.ts:120213
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -152,15 +131,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:120199
+main.ts:120207
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 optional field
@@ -170,15 +149,15 @@ you can receive the list of available locations of the search engines with their
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:120184
+main.ts:120192
 
-___
+***
 
-### location\_coordinate
+### location\_coordinate?
 
-• `Optional` **location\_coordinate**: `string`
+> **`optional`** **location\_coordinate**: `string`
 
 GPS coordinates of a location
 optional field
@@ -189,15 +168,15 @@ the data will be provided for the country the specified coordinates belong to;
 example:
 52.6178549,-155.352142
 
-#### Defined in
+#### Source
 
-main.ts:120193
+main.ts:120201
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 optional field
@@ -207,29 +186,29 @@ you can receive the list of available locations of the search engine with their 
 example:
 London,England,United Kingdom
 
-#### Defined in
+#### Source
 
-main.ts:120176
+main.ts:120184
 
-___
+***
 
-### match
+### match?
 
-• `Optional` **match**: `string`
+> **`optional`** **match**: `string`
 
 keywords match-type
 required field
 can take the following values: exact, broad, phrase
 
-#### Defined in
+#### Source
 
-main.ts:120163
+main.ts:120171
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -241,15 +220,15 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special symbols in pingback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
-main.ts:120255
+main.ts:120263
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -261,45 +240,45 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special symbols in postback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
-main.ts:120245
+main.ts:120253
 
-___
+***
 
-### search\_partners
+### search\_partners?
 
-• `Optional` **search\_partners**: `boolean`
+> **`optional`** **search\_partners**: `boolean`
 
 include Google search partners
 optional field
 if you specify true, the results will be delivered for owned, operated, and syndicated networks across Google and partner sites that host Google search;
 default value: false – results are returned for Google search sites
 
-#### Defined in
+#### Source
 
-main.ts:120168
+main.ts:120176
 
-___
+***
 
-### sort\_by
+### sort\_by?
 
-• `Optional` **sort\_by**: `string`
+> **`optional`** **sort\_by**: `string`
 
 results sorting parameters
 optional field
 Use these parameters to sort the results by relevance, impressions, ctr, average_cpc, cost, or clicks in the descending order
 default value: relevance
 
-#### Defined in
+#### Source
 
-main.ts:120235
+main.ts:120243
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -307,6 +286,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:120261
+main.ts:120269

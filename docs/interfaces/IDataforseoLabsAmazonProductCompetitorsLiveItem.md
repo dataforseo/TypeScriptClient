@@ -1,116 +1,104 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonProductCompetitorsLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDataforseoLabsAmazonProductCompetitorsLiveItem
 
 # Interface: IDataforseoLabsAmazonProductCompetitorsLiveItem
 
-## Implemented by
-
-- [`DataforseoLabsAmazonProductCompetitorsLiveItem`](../classes/DataforseoLabsAmazonProductCompetitorsLiveItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [asin](IDataforseoLabsAmazonProductCompetitorsLiveItem.md#asin)
-- [avg\_position](IDataforseoLabsAmazonProductCompetitorsLiveItem.md#avg_position)
-- [competitor\_metrics](IDataforseoLabsAmazonProductCompetitorsLiveItem.md#competitor_metrics)
-- [full\_metrics](IDataforseoLabsAmazonProductCompetitorsLiveItem.md#full_metrics)
-- [intersections](IDataforseoLabsAmazonProductCompetitorsLiveItem.md#intersections)
-- [se\_type](IDataforseoLabsAmazonProductCompetitorsLiveItem.md#se_type)
-- [sum\_position](IDataforseoLabsAmazonProductCompetitorsLiveItem.md#sum_position)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### asin
+### asin?
 
-• `Optional` **asin**: `string`
+> **`optional`** **asin**: `string`
 
 ASIN of the product
 unique product identifier on Amazon;
 for more information, refer to this help center guide
 
-#### Defined in
+#### Source
 
-main.ts:103667
+main.ts:103675
 
-___
+***
 
-### avg\_position
+### avg\_position?
 
-• `Optional` **avg\_position**: `number`
+> **`optional`** **avg\_position**: `number`
 
 average position of the product in Amazon SERP
 Note: average position is calculated for intersected keywords only;
 the value for a given product may differ when combined with different target products
 
-#### Defined in
+#### Source
 
-main.ts:103671
+main.ts:103679
 
-___
+***
 
-### competitor\_metrics
+### competitor\_metrics?
 
-• `Optional` **competitor\_metrics**: [`AmazonMetricsBundleInfo`](../classes/AmazonMetricsBundleInfo.md)
+> **`optional`** **competitor\_metrics**: [`AmazonMetricsBundleInfo`](../classes/AmazonMetricsBundleInfo.md)
 
 metrics for intersecting keywords
 ranking data relevant to the keywords that the provided asin shares with the target asin;
 Note: in this object ranking data is provided for the returned competitor’s asin
 
-#### Defined in
+#### Source
 
-main.ts:103681
+main.ts:103689
 
-___
+***
 
-### full\_metrics
+### full\_metrics?
 
-• `Optional` **full\_metrics**: [`AmazonMetricsBundleInfo`](../classes/AmazonMetricsBundleInfo.md)
+> **`optional`** **full\_metrics**: [`AmazonMetricsBundleInfo`](../classes/AmazonMetricsBundleInfo.md)
 
 metrics for all keywords of the product
 full overview of ranking data relevant to all keywords that the provided asin is ranking for
 
-#### Defined in
+#### Source
 
-main.ts:103684
+main.ts:103692
 
-___
+***
 
-### intersections
+### intersections?
 
-• `Optional` **intersections**: `number`
+> **`optional`** **intersections**: `number`
 
 number of intersecting keywords
 
-#### Defined in
+#### Source
 
-main.ts:103677
+main.ts:103685
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:103663
+main.ts:103671
 
-___
+***
 
-### sum\_position
+### sum\_position?
 
-• `Optional` **sum\_position**: `number`
+> **`optional`** **sum\_position**: `number`
 
 sum of all product positions in Amazon SERP
 Note: average position is calculated for intersected keywords only;
 the value for a given product may differ when combined with different target products
 
-#### Defined in
+#### Source
 
-main.ts:103675
+main.ts:103683

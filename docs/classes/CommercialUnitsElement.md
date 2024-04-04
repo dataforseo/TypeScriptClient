@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / CommercialUnitsElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / CommercialUnitsElement
 
 # Class: CommercialUnitsElement
 
@@ -8,220 +12,190 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](CommercialUnitsElement.md#constructor)
-
-### Properties
-
-- [domain](CommercialUnitsElement.md#domain)
-- [price](CommercialUnitsElement.md#price)
-- [rating](CommercialUnitsElement.md#rating)
-- [source](CommercialUnitsElement.md#source)
-- [title](CommercialUnitsElement.md#title)
-- [type](CommercialUnitsElement.md#type)
-- [url](CommercialUnitsElement.md#url)
-
-### Methods
-
-- [init](CommercialUnitsElement.md#init)
-- [toJSON](CommercialUnitsElement.md#tojson)
-- [fromJS](CommercialUnitsElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new CommercialUnitsElement(data)
 
-• **new CommercialUnitsElement**(`data?`): [`CommercialUnitsElement`](CommercialUnitsElement.md)
+> **new CommercialUnitsElement**(`data`?): [`CommercialUnitsElement`](CommercialUnitsElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ICommercialUnitsElement`](../interfaces/ICommercialUnitsElement.md) |
+• **data?**: [`ICommercialUnitsElement`](../interfaces/ICommercialUnitsElement.md)
 
 #### Returns
 
 [`CommercialUnitsElement`](CommercialUnitsElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:34311
+main.ts:34317
 
 ## Properties
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 website domain
 
 #### Implementation of
 
-[ICommercialUnitsElement](../interfaces/ICommercialUnitsElement.md).[domain](../interfaces/ICommercialUnitsElement.md#domain)
+[`ICommercialUnitsElement`](../interfaces/ICommercialUnitsElement.md).[`domain`](../interfaces/ICommercialUnitsElement.md#domain)
 
-#### Defined in
+#### Source
 
-main.ts:34299
+main.ts:34305
 
-___
+***
 
-### price
+### price?
 
-• `Optional` **price**: [`PriceInfo`](PriceInfo.md)
+> **`optional`** **price**: [`PriceInfo`](PriceInfo.md)
 
 price indicated in the element
 
 #### Implementation of
 
-[ICommercialUnitsElement](../interfaces/ICommercialUnitsElement.md).[price](../interfaces/ICommercialUnitsElement.md#price)
+[`ICommercialUnitsElement`](../interfaces/ICommercialUnitsElement.md).[`price`](../interfaces/ICommercialUnitsElement.md#price)
 
-#### Defined in
+#### Source
 
-main.ts:34301
+main.ts:34307
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](RatingInfo.md)
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
 
-[ICommercialUnitsElement](../interfaces/ICommercialUnitsElement.md).[rating](../interfaces/ICommercialUnitsElement.md#rating)
+[`ICommercialUnitsElement`](../interfaces/ICommercialUnitsElement.md).[`rating`](../interfaces/ICommercialUnitsElement.md#rating)
 
-#### Defined in
+#### Source
 
-main.ts:34307
+main.ts:34313
 
-___
+***
 
-### source
+### source?
 
-• `Optional` **source**: `string`
+> **`optional`** **source**: `string`
 
 source of the element
 indicates the source of information included in the top_stories_element
 
 #### Implementation of
 
-[ICommercialUnitsElement](../interfaces/ICommercialUnitsElement.md).[source](../interfaces/ICommercialUnitsElement.md#source)
+[`ICommercialUnitsElement`](../interfaces/ICommercialUnitsElement.md).[`source`](../interfaces/ICommercialUnitsElement.md#source)
 
-#### Defined in
+#### Source
 
-main.ts:34304
+main.ts:34310
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
 #### Implementation of
 
-[ICommercialUnitsElement](../interfaces/ICommercialUnitsElement.md).[title](../interfaces/ICommercialUnitsElement.md#title)
+[`ICommercialUnitsElement`](../interfaces/ICommercialUnitsElement.md).[`title`](../interfaces/ICommercialUnitsElement.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:34295
+main.ts:34301
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[ICommercialUnitsElement](../interfaces/ICommercialUnitsElement.md).[type](../interfaces/ICommercialUnitsElement.md#type)
+[`ICommercialUnitsElement`](../interfaces/ICommercialUnitsElement.md).[`type`](../interfaces/ICommercialUnitsElement.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:34293
+main.ts:34299
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL
 
 #### Implementation of
 
-[ICommercialUnitsElement](../interfaces/ICommercialUnitsElement.md).[url](../interfaces/ICommercialUnitsElement.md#url)
+[`ICommercialUnitsElement`](../interfaces/ICommercialUnitsElement.md).[`url`](../interfaces/ICommercialUnitsElement.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:34297
+main.ts:34303
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:34320
+main.ts:34326
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:34343
+main.ts:34349
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`CommercialUnitsElement`](CommercialUnitsElement.md)
+> **`static`** **fromJS**(`data`): [`CommercialUnitsElement`](CommercialUnitsElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`CommercialUnitsElement`](CommercialUnitsElement.md)
 
-#### Defined in
+#### Source
 
-main.ts:34336
+main.ts:34342

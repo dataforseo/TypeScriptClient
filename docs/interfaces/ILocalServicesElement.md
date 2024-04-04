@@ -1,108 +1,96 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ILocalServicesElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ILocalServicesElement
 
 # Interface: ILocalServicesElement
 
-## Implemented by
-
-- [`LocalServicesElement`](../classes/LocalServicesElement.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [description](ILocalServicesElement.md#description)
-- [domain](ILocalServicesElement.md#domain)
-- [profile\_image\_url](ILocalServicesElement.md#profile_image_url)
-- [rating](ILocalServicesElement.md#rating)
-- [title](ILocalServicesElement.md#title)
-- [type](ILocalServicesElement.md#type)
-- [url](ILocalServicesElement.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description
 
-#### Defined in
+#### Source
 
-main.ts:34571
+main.ts:34577
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 website domain
 
-#### Defined in
+#### Source
 
-main.ts:34569
+main.ts:34575
 
-___
+***
 
-### profile\_image\_url
+### profile\_image\_url?
 
-• `Optional` **profile\_image\_url**: `string`
+> **`optional`** **profile\_image\_url**: `string`
 
 URL of the image featured in the element
 
-#### Defined in
+#### Source
 
-main.ts:34576
+main.ts:34582
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
-#### Defined in
+#### Source
 
-main.ts:34574
+main.ts:34580
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
-#### Defined in
+#### Source
 
-main.ts:34565
+main.ts:34571
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:34563
+main.ts:34569
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL
 
-#### Defined in
+#### Source
 
-main.ts:34567
+main.ts:34573

@@ -1,82 +1,72 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IShortVideosElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IShortVideosElement
 
 # Interface: IShortVideosElement
 
-## Implemented by
-
-- [`ShortVideosElement`](../classes/ShortVideosElement.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [domain](IShortVideosElement.md#domain)
-- [source](IShortVideosElement.md#source)
-- [title](IShortVideosElement.md#title)
-- [type](IShortVideosElement.md#type)
-- [url](IShortVideosElement.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 website domain
 
-#### Defined in
+#### Source
 
-main.ts:33567
+main.ts:33573
 
-___
+***
 
-### source
+### source?
 
-• `Optional` **source**: `string`
+> **`optional`** **source**: `string`
 
 source of the element
 indicates the source of information included in the top_stories_element
 
-#### Defined in
+#### Source
 
-main.ts:33572
+main.ts:33578
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
-#### Defined in
+#### Source
 
-main.ts:33565
+main.ts:33571
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:33563
+main.ts:33569
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL
 
-#### Defined in
+#### Source
 
-main.ts:33569
+main.ts:33575

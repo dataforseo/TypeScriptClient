@@ -1,34 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo
 
 # Interface: ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo
 
-## Implemented by
-
-- [`SerpYoutubeVideoCommentsLiveAdvancedRequestInfo`](../classes/SerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [depth](ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md#depth)
-- [device](ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md#device)
-- [language\_code](ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md#language_code)
-- [language\_name](ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md#language_name)
-- [location\_code](ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md#location_code)
-- [location\_name](ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md#location_name)
-- [os](ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md#os)
-- [tag](ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md#tag)
-- [video\_id](ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md#video_id)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### depth
+### depth?
 
-• `Optional` **depth**: `number`
+> **`optional`** **depth**: `number`
 
 parsing depth
 optional field
@@ -39,29 +25,29 @@ Note: your account will be billed per each SERP containing up to 20 results;
 thus, setting a depth above 20 may result in additional charges if the search engine returns more than 20 results;
 if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance
 
-#### Defined in
+#### Source
 
-main.ts:64738
+main.ts:64746
 
-___
+***
 
-### device
+### device?
 
-• `Optional` **device**: `string`
+> **`optional`** **device**: `string`
 
 device type
 optional field
 only value: desktop
 
-#### Defined in
+#### Source
 
-main.ts:64724
+main.ts:64732
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -70,15 +56,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 en
 
-#### Defined in
+#### Source
 
-main.ts:64720
+main.ts:64728
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -87,15 +73,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 English
 
-#### Defined in
+#### Source
 
-main.ts:64713
+main.ts:64721
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name 
@@ -104,15 +90,15 @@ you can receive the list of available locations of the search engines with their
 example:
 2840
 
-#### Defined in
+#### Source
 
-main.ts:64706
+main.ts:64714
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -121,30 +107,30 @@ you can receive the list of available locations of the search engine with their 
 example:
 United States
 
-#### Defined in
+#### Source
 
-main.ts:64699
+main.ts:64707
 
-___
+***
 
-### os
+### os?
 
-• `Optional` **os**: `string`
+> **`optional`** **os**: `string`
 
 device operating system
 optional field
 choose from the following values: windows, macos
 default value: windows
 
-#### Defined in
+#### Source
 
-main.ts:64729
+main.ts:64737
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -152,15 +138,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:64744
+main.ts:64752
 
-___
+***
 
-### video\_id
+### video\_id?
 
-• `Optional` **video\_id**: `string`
+> **`optional`** **video\_id**: `string`
 
 ID of the video
 required field
@@ -168,6 +154,6 @@ you can find video ID in the URL or ‘youtube_video’ item of YouTube Organic 
 example:
 vQXvyV0zIP4
 
-#### Defined in
+#### Source
 
-main.ts:64692
+main.ts:64700

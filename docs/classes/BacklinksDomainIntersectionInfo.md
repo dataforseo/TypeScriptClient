@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksDomainIntersectionInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BacklinksDomainIntersectionInfo
 
 # Class: BacklinksDomainIntersectionInfo
 
@@ -8,136 +12,96 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BacklinksDomainIntersectionInfo.md#constructor)
-
-### Properties
-
-- [backlinks](BacklinksDomainIntersectionInfo.md#backlinks)
-- [backlinks\_spam\_score](BacklinksDomainIntersectionInfo.md#backlinks_spam_score)
-- [broken\_backlinks](BacklinksDomainIntersectionInfo.md#broken_backlinks)
-- [broken\_pages](BacklinksDomainIntersectionInfo.md#broken_pages)
-- [first\_seen](BacklinksDomainIntersectionInfo.md#first_seen)
-- [lost\_date](BacklinksDomainIntersectionInfo.md#lost_date)
-- [rank](BacklinksDomainIntersectionInfo.md#rank)
-- [referring\_domains](BacklinksDomainIntersectionInfo.md#referring_domains)
-- [referring\_domains\_nofollow](BacklinksDomainIntersectionInfo.md#referring_domains_nofollow)
-- [referring\_ips](BacklinksDomainIntersectionInfo.md#referring_ips)
-- [referring\_links\_attributes](BacklinksDomainIntersectionInfo.md#referring_links_attributes)
-- [referring\_links\_countries](BacklinksDomainIntersectionInfo.md#referring_links_countries)
-- [referring\_links\_platform\_types](BacklinksDomainIntersectionInfo.md#referring_links_platform_types)
-- [referring\_links\_semantic\_locations](BacklinksDomainIntersectionInfo.md#referring_links_semantic_locations)
-- [referring\_links\_tld](BacklinksDomainIntersectionInfo.md#referring_links_tld)
-- [referring\_links\_types](BacklinksDomainIntersectionInfo.md#referring_links_types)
-- [referring\_main\_domains](BacklinksDomainIntersectionInfo.md#referring_main_domains)
-- [referring\_main\_domains\_nofollow](BacklinksDomainIntersectionInfo.md#referring_main_domains_nofollow)
-- [referring\_pages](BacklinksDomainIntersectionInfo.md#referring_pages)
-- [referring\_pages\_nofollow](BacklinksDomainIntersectionInfo.md#referring_pages_nofollow)
-- [referring\_subnets](BacklinksDomainIntersectionInfo.md#referring_subnets)
-- [target](BacklinksDomainIntersectionInfo.md#target)
-- [type](BacklinksDomainIntersectionInfo.md#type)
-
-### Methods
-
-- [init](BacklinksDomainIntersectionInfo.md#init)
-- [toJSON](BacklinksDomainIntersectionInfo.md#tojson)
-- [fromJS](BacklinksDomainIntersectionInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BacklinksDomainIntersectionInfo(data)
 
-• **new BacklinksDomainIntersectionInfo**(`data?`): [`BacklinksDomainIntersectionInfo`](BacklinksDomainIntersectionInfo.md)
+> **new BacklinksDomainIntersectionInfo**(`data`?): [`BacklinksDomainIntersectionInfo`](BacklinksDomainIntersectionInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md) |
+• **data?**: [`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md)
 
 #### Returns
 
 [`BacklinksDomainIntersectionInfo`](BacklinksDomainIntersectionInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:142213
+main.ts:142221
 
 ## Properties
 
-### backlinks
+### backlinks?
 
-• `Optional` **backlinks**: `number`
+> **`optional`** **backlinks**: `number`
 
 indicates the number of backlinks
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionInfo](../interfaces/IBacklinksDomainIntersectionInfo.md).[backlinks](../interfaces/IBacklinksDomainIntersectionInfo.md#backlinks)
+[`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`backlinks`](../interfaces/IBacklinksDomainIntersectionInfo.md#backlinks)
 
-#### Defined in
+#### Source
 
-main.ts:142154
+main.ts:142162
 
-___
+***
 
-### backlinks\_spam\_score
+### backlinks\_spam\_score?
 
-• `Optional` **backlinks\_spam\_score**: `number`
+> **`optional`** **backlinks\_spam\_score**: `number`
 
 average spam score of the backlinks pointing to the target
 learn more about how the metric is calculated on this help center page
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionInfo](../interfaces/IBacklinksDomainIntersectionInfo.md).[backlinks_spam_score](../interfaces/IBacklinksDomainIntersectionInfo.md#backlinks_spam_score)
+[`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`backlinks_spam_score`](../interfaces/IBacklinksDomainIntersectionInfo.md#backlinks_spam_score)
 
-#### Defined in
+#### Source
 
-main.ts:142168
+main.ts:142176
 
-___
+***
 
-### broken\_backlinks
+### broken\_backlinks?
 
-• `Optional` **broken\_backlinks**: `number`
+> **`optional`** **broken\_backlinks**: `number`
 
 number of broken backlinks
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionInfo](../interfaces/IBacklinksDomainIntersectionInfo.md).[broken_backlinks](../interfaces/IBacklinksDomainIntersectionInfo.md#broken_backlinks)
+[`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`broken_backlinks`](../interfaces/IBacklinksDomainIntersectionInfo.md#broken_backlinks)
 
-#### Defined in
+#### Source
 
-main.ts:142170
+main.ts:142178
 
-___
+***
 
-### broken\_pages
+### broken\_pages?
 
-• `Optional` **broken\_pages**: `number`
+> **`optional`** **broken\_pages**: `number`
 
 number of broken pages
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionInfo](../interfaces/IBacklinksDomainIntersectionInfo.md).[broken_pages](../interfaces/IBacklinksDomainIntersectionInfo.md#broken_pages)
+[`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`broken_pages`](../interfaces/IBacklinksDomainIntersectionInfo.md#broken_pages)
 
-#### Defined in
+#### Source
 
-main.ts:142172
+main.ts:142180
 
-___
+***
 
-### first\_seen
+### first\_seen?
 
-• `Optional` **first\_seen**: `string`
+> **`optional`** **first\_seen**: `string`
 
 date and time when our crawler found the backlink from this target for the first time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -146,17 +110,17 @@ example:
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionInfo](../interfaces/IBacklinksDomainIntersectionInfo.md).[first_seen](../interfaces/IBacklinksDomainIntersectionInfo.md#first_seen)
+[`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`first_seen`](../interfaces/IBacklinksDomainIntersectionInfo.md#first_seen)
 
-#### Defined in
+#### Source
 
-main.ts:142159
+main.ts:142167
 
-___
+***
 
-### lost\_date
+### lost\_date?
 
-• `Optional` **lost\_date**: `number`
+> **`optional`** **lost\_date**: `number`
 
 date and time when the last backlink from this target was lost
 indicates the date and time when our crawler visited the page and it responded with 4xx or 5xx status code or the last backlink was removed
@@ -166,17 +130,17 @@ example:
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionInfo](../interfaces/IBacklinksDomainIntersectionInfo.md).[lost_date](../interfaces/IBacklinksDomainIntersectionInfo.md#lost_date)
+[`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`lost_date`](../interfaces/IBacklinksDomainIntersectionInfo.md#lost_date)
 
-#### Defined in
+#### Source
 
-main.ts:142165
+main.ts:142173
 
-___
+***
 
-### rank
+### rank?
 
-• `Optional` **rank**: `number`
+> **`optional`** **rank**: `number`
 
 rank of the target
 rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm
@@ -184,128 +148,128 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionInfo](../interfaces/IBacklinksDomainIntersectionInfo.md).[rank](../interfaces/IBacklinksDomainIntersectionInfo.md#rank)
+[`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`rank`](../interfaces/IBacklinksDomainIntersectionInfo.md#rank)
 
-#### Defined in
+#### Source
 
-main.ts:142152
+main.ts:142160
 
-___
+***
 
-### referring\_domains
+### referring\_domains?
 
-• `Optional` **referring\_domains**: `number`
+> **`optional`** **referring\_domains**: `number`
 
 number of referring domains
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionInfo](../interfaces/IBacklinksDomainIntersectionInfo.md).[referring_domains](../interfaces/IBacklinksDomainIntersectionInfo.md#referring_domains)
+[`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`referring_domains`](../interfaces/IBacklinksDomainIntersectionInfo.md#referring_domains)
 
-#### Defined in
+#### Source
 
-main.ts:142174
+main.ts:142182
 
-___
+***
 
-### referring\_domains\_nofollow
+### referring\_domains\_nofollow?
 
-• `Optional` **referring\_domains\_nofollow**: `number`
+> **`optional`** **referring\_domains\_nofollow**: `number`
 
 number of domains pointing at least one nofollow link to the corresponding target
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionInfo](../interfaces/IBacklinksDomainIntersectionInfo.md).[referring_domains_nofollow](../interfaces/IBacklinksDomainIntersectionInfo.md#referring_domains_nofollow)
+[`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`referring_domains_nofollow`](../interfaces/IBacklinksDomainIntersectionInfo.md#referring_domains_nofollow)
 
-#### Defined in
+#### Source
 
-main.ts:142176
+main.ts:142184
 
-___
+***
 
-### referring\_ips
+### referring\_ips?
 
-• `Optional` **referring\_ips**: `number`
+> **`optional`** **referring\_ips**: `number`
 
 number of referring IP addresses
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionInfo](../interfaces/IBacklinksDomainIntersectionInfo.md).[referring_ips](../interfaces/IBacklinksDomainIntersectionInfo.md#referring_ips)
+[`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`referring_ips`](../interfaces/IBacklinksDomainIntersectionInfo.md#referring_ips)
 
-#### Defined in
+#### Source
 
-main.ts:142182
+main.ts:142190
 
-___
+***
 
-### referring\_links\_attributes
+### referring\_links\_attributes?
 
-• `Optional` **referring\_links\_attributes**: `Object`
+> **`optional`** **referring\_links\_attributes**: `Object`
 
 link attributes of the referring links
 indicates link attributes of the referring links and the link count per each attribute
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionInfo](../interfaces/IBacklinksDomainIntersectionInfo.md).[referring_links_attributes](../interfaces/IBacklinksDomainIntersectionInfo.md#referring_links_attributes)
+[`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`referring_links_attributes`](../interfaces/IBacklinksDomainIntersectionInfo.md#referring_links_attributes)
 
-#### Defined in
+#### Source
 
-main.ts:142199
+main.ts:142207
 
-___
+***
 
-### referring\_links\_countries
+### referring\_links\_countries?
 
-• `Optional` **referring\_links\_countries**: `Object`
+> **`optional`** **referring\_links\_countries**: `Object`
 
 ISO country codes of the referring links
 indicates ISO country codes of the domains where the referring links are located and the link count per each country
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionInfo](../interfaces/IBacklinksDomainIntersectionInfo.md).[referring_links_countries](../interfaces/IBacklinksDomainIntersectionInfo.md#referring_links_countries)
+[`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`referring_links_countries`](../interfaces/IBacklinksDomainIntersectionInfo.md#referring_links_countries)
 
-#### Defined in
+#### Source
 
-main.ts:142209
+main.ts:142217
 
-___
+***
 
-### referring\_links\_platform\_types
+### referring\_links\_platform\_types?
 
-• `Optional` **referring\_links\_platform\_types**: `Object`
+> **`optional`** **referring\_links\_platform\_types**: `Object`
 
 types of referring platforms
 indicates referring platform types and link count per each platform
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionInfo](../interfaces/IBacklinksDomainIntersectionInfo.md).[referring_links_platform_types](../interfaces/IBacklinksDomainIntersectionInfo.md#referring_links_platform_types)
+[`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`referring_links_platform_types`](../interfaces/IBacklinksDomainIntersectionInfo.md#referring_links_platform_types)
 
-#### Defined in
+#### Source
 
-main.ts:142202
+main.ts:142210
 
-___
+***
 
-### referring\_links\_semantic\_locations
+### referring\_links\_semantic\_locations?
 
-• `Optional` **referring\_links\_semantic\_locations**: `Object`
+> **`optional`** **referring\_links\_semantic\_locations**: `Object`
 
 semantic locations of the referring links
 indicates semantic elements in HTML where the referring links are located and the link count per each semantic location
@@ -313,42 +277,42 @@ you can get the full list of semantic elements here
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionInfo](../interfaces/IBacklinksDomainIntersectionInfo.md).[referring_links_semantic_locations](../interfaces/IBacklinksDomainIntersectionInfo.md#referring_links_semantic_locations)
+[`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`referring_links_semantic_locations`](../interfaces/IBacklinksDomainIntersectionInfo.md#referring_links_semantic_locations)
 
-#### Defined in
+#### Source
 
-main.ts:142206
+main.ts:142214
 
-___
+***
 
-### referring\_links\_tld
+### referring\_links\_tld?
 
-• `Optional` **referring\_links\_tld**: `Object`
+> **`optional`** **referring\_links\_tld**: `Object`
 
 top level domains of the referring links
 contains top-level domains and referring link count per each
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionInfo](../interfaces/IBacklinksDomainIntersectionInfo.md).[referring_links_tld](../interfaces/IBacklinksDomainIntersectionInfo.md#referring_links_tld)
+[`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`referring_links_tld`](../interfaces/IBacklinksDomainIntersectionInfo.md#referring_links_tld)
 
-#### Defined in
+#### Source
 
-main.ts:142191
+main.ts:142199
 
-___
+***
 
-### referring\_links\_types
+### referring\_links\_types?
 
-• `Optional` **referring\_links\_types**: `Object`
+> **`optional`** **referring\_links\_types**: `Object`
 
 types of the referring links
 indicates the types of referring links and link count per each type
@@ -357,184 +321,178 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionInfo](../interfaces/IBacklinksDomainIntersectionInfo.md).[referring_links_types](../interfaces/IBacklinksDomainIntersectionInfo.md#referring_links_types)
+[`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`referring_links_types`](../interfaces/IBacklinksDomainIntersectionInfo.md#referring_links_types)
 
-#### Defined in
+#### Source
 
-main.ts:142196
+main.ts:142204
 
-___
+***
 
-### referring\_main\_domains
+### referring\_main\_domains?
 
-• `Optional` **referring\_main\_domains**: `number`
+> **`optional`** **referring\_main\_domains**: `number`
 
 number of referring main domains
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionInfo](../interfaces/IBacklinksDomainIntersectionInfo.md).[referring_main_domains](../interfaces/IBacklinksDomainIntersectionInfo.md#referring_main_domains)
+[`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`referring_main_domains`](../interfaces/IBacklinksDomainIntersectionInfo.md#referring_main_domains)
 
-#### Defined in
+#### Source
 
-main.ts:142178
+main.ts:142186
 
-___
+***
 
-### referring\_main\_domains\_nofollow
+### referring\_main\_domains\_nofollow?
 
-• `Optional` **referring\_main\_domains\_nofollow**: `number`
+> **`optional`** **referring\_main\_domains\_nofollow**: `number`
 
 number of main domains pointing at least one nofollow link to the target
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionInfo](../interfaces/IBacklinksDomainIntersectionInfo.md).[referring_main_domains_nofollow](../interfaces/IBacklinksDomainIntersectionInfo.md#referring_main_domains_nofollow)
+[`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`referring_main_domains_nofollow`](../interfaces/IBacklinksDomainIntersectionInfo.md#referring_main_domains_nofollow)
 
-#### Defined in
+#### Source
 
-main.ts:142180
+main.ts:142188
 
-___
+***
 
-### referring\_pages
+### referring\_pages?
 
-• `Optional` **referring\_pages**: `number`
+> **`optional`** **referring\_pages**: `number`
 
 indicates the number of pages pointing to the target
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionInfo](../interfaces/IBacklinksDomainIntersectionInfo.md).[referring_pages](../interfaces/IBacklinksDomainIntersectionInfo.md#referring_pages)
+[`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`referring_pages`](../interfaces/IBacklinksDomainIntersectionInfo.md#referring_pages)
 
-#### Defined in
+#### Source
 
-main.ts:142186
+main.ts:142194
 
-___
+***
 
-### referring\_pages\_nofollow
+### referring\_pages\_nofollow?
 
-• `Optional` **referring\_pages\_nofollow**: `number`
+> **`optional`** **referring\_pages\_nofollow**: `number`
 
 number of referring pages pointing at least one nofollow link to the target
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionInfo](../interfaces/IBacklinksDomainIntersectionInfo.md).[referring_pages_nofollow](../interfaces/IBacklinksDomainIntersectionInfo.md#referring_pages_nofollow)
+[`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`referring_pages_nofollow`](../interfaces/IBacklinksDomainIntersectionInfo.md#referring_pages_nofollow)
 
-#### Defined in
+#### Source
 
-main.ts:142188
+main.ts:142196
 
-___
+***
 
-### referring\_subnets
+### referring\_subnets?
 
-• `Optional` **referring\_subnets**: `number`
+> **`optional`** **referring\_subnets**: `number`
 
 number of referring subnetworks
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionInfo](../interfaces/IBacklinksDomainIntersectionInfo.md).[referring_subnets](../interfaces/IBacklinksDomainIntersectionInfo.md#referring_subnets)
+[`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`referring_subnets`](../interfaces/IBacklinksDomainIntersectionInfo.md#referring_subnets)
 
-#### Defined in
+#### Source
 
-main.ts:142184
+main.ts:142192
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 domain that links to the corresponding target from the POST array
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionInfo](../interfaces/IBacklinksDomainIntersectionInfo.md).[target](../interfaces/IBacklinksDomainIntersectionInfo.md#target)
+[`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`target`](../interfaces/IBacklinksDomainIntersectionInfo.md#target)
 
-#### Defined in
+#### Source
 
-main.ts:142148
+main.ts:142156
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IBacklinksDomainIntersectionInfo](../interfaces/IBacklinksDomainIntersectionInfo.md).[type](../interfaces/IBacklinksDomainIntersectionInfo.md#type)
+[`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`type`](../interfaces/IBacklinksDomainIntersectionInfo.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:142146
+main.ts:142154
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:142222
+main.ts:142230
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:142297
+main.ts:142305
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BacklinksDomainIntersectionInfo`](BacklinksDomainIntersectionInfo.md)
+> **`static`** **fromJS**(`data`): [`BacklinksDomainIntersectionInfo`](BacklinksDomainIntersectionInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BacklinksDomainIntersectionInfo`](BacklinksDomainIntersectionInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:142290
+main.ts:142298

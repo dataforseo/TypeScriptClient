@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / JobsElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / JobsElement
 
 # Class: JobsElement
 
@@ -8,137 +12,111 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](JobsElement.md#constructor)
-
-### Properties
-
-- [author](JobsElement.md#author)
-- [contract\_type](JobsElement.md#contract_type)
-- [description](JobsElement.md#description)
-- [job\_posted\_time](JobsElement.md#job_posted_time)
-- [salary](JobsElement.md#salary)
-- [timestamp](JobsElement.md#timestamp)
-- [title](JobsElement.md#title)
-- [type](JobsElement.md#type)
-- [url](JobsElement.md#url)
-
-### Methods
-
-- [init](JobsElement.md#init)
-- [toJSON](JobsElement.md#tojson)
-- [fromJS](JobsElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new JobsElement(data)
 
-• **new JobsElement**(`data?`): [`JobsElement`](JobsElement.md)
+> **new JobsElement**(`data`?): [`JobsElement`](JobsElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IJobsElement`](../interfaces/IJobsElement.md) |
+• **data?**: [`IJobsElement`](../interfaces/IJobsElement.md)
 
 #### Returns
 
 [`JobsElement`](JobsElement.md)
 
-#### Defined in
+#### Source
 
 main.ts:30096
 
 ## Properties
 
-### author
+### author?
 
-• `Optional` **author**: `string`
+> **`optional`** **author**: `string`
 
 author
 
 #### Implementation of
 
-[IJobsElement](../interfaces/IJobsElement.md).[author](../interfaces/IJobsElement.md#author)
+[`IJobsElement`](../interfaces/IJobsElement.md).[`author`](../interfaces/IJobsElement.md#author)
 
-#### Defined in
+#### Source
 
 main.ts:30079
 
-___
+***
 
-### contract\_type
+### contract\_type?
 
-• `Optional` **contract\_type**: `string`
+> **`optional`** **contract\_type**: `string`
 
 contract type
 
 #### Implementation of
 
-[IJobsElement](../interfaces/IJobsElement.md).[contract_type](../interfaces/IJobsElement.md#contract_type)
+[`IJobsElement`](../interfaces/IJobsElement.md).[`contract_type`](../interfaces/IJobsElement.md#contract_type)
 
-#### Defined in
+#### Source
 
 main.ts:30088
 
-___
+***
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description
 
 #### Implementation of
 
-[IJobsElement](../interfaces/IJobsElement.md).[description](../interfaces/IJobsElement.md#description)
+[`IJobsElement`](../interfaces/IJobsElement.md).[`description`](../interfaces/IJobsElement.md#description)
 
-#### Defined in
+#### Source
 
 main.ts:30077
 
-___
+***
 
-### job\_posted\_time
+### job\_posted\_time?
 
-• `Optional` **job\_posted\_time**: `string`
+> **`optional`** **job\_posted\_time**: `string`
 
 the time when the job was posted
 
 #### Implementation of
 
-[IJobsElement](../interfaces/IJobsElement.md).[job_posted_time](../interfaces/IJobsElement.md#job_posted_time)
+[`IJobsElement`](../interfaces/IJobsElement.md).[`job_posted_time`](../interfaces/IJobsElement.md#job_posted_time)
 
-#### Defined in
+#### Source
 
 main.ts:30081
 
-___
+***
 
-### salary
+### salary?
 
-• `Optional` **salary**: `string`
+> **`optional`** **salary**: `string`
 
 salary
 
 #### Implementation of
 
-[IJobsElement](../interfaces/IJobsElement.md).[salary](../interfaces/IJobsElement.md#salary)
+[`IJobsElement`](../interfaces/IJobsElement.md).[`salary`](../interfaces/IJobsElement.md#salary)
 
-#### Defined in
+#### Source
 
 main.ts:30090
 
-___
+***
 
-### timestamp
+### timestamp?
 
-• `Optional` **timestamp**: `string`
+> **`optional`** **timestamp**: `string`
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -147,116 +125,110 @@ example:
 
 #### Implementation of
 
-[IJobsElement](../interfaces/IJobsElement.md).[timestamp](../interfaces/IJobsElement.md#timestamp)
+[`IJobsElement`](../interfaces/IJobsElement.md).[`timestamp`](../interfaces/IJobsElement.md#timestamp)
 
-#### Defined in
+#### Source
 
 main.ts:30086
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
 #### Implementation of
 
-[IJobsElement](../interfaces/IJobsElement.md).[title](../interfaces/IJobsElement.md#title)
+[`IJobsElement`](../interfaces/IJobsElement.md).[`title`](../interfaces/IJobsElement.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:30075
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IJobsElement](../interfaces/IJobsElement.md).[type](../interfaces/IJobsElement.md#type)
+[`IJobsElement`](../interfaces/IJobsElement.md).[`type`](../interfaces/IJobsElement.md#type)
 
-#### Defined in
+#### Source
 
 main.ts:30073
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL
 
 #### Implementation of
 
-[IJobsElement](../interfaces/IJobsElement.md).[url](../interfaces/IJobsElement.md#url)
+[`IJobsElement`](../interfaces/IJobsElement.md).[`url`](../interfaces/IJobsElement.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:30092
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:30105
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:30130
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`JobsElement`](JobsElement.md)
+> **`static`** **fromJS**(`data`): [`JobsElement`](JobsElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`JobsElement`](JobsElement.md)
 
-#### Defined in
+#### Source
 
 main.ts:30123

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo
 
 # Class: SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo
 
@@ -8,58 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#constructor)
-
-### Properties
-
-- [device](SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#device)
-- [language\_code](SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#language_code)
-- [language\_name](SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#language_name)
-- [location\_code](SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#location_code)
-- [location\_name](SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#location_name)
-- [os](SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#os)
-- [subtitles\_language](SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#subtitles_language)
-- [subtitles\_translate\_language](SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#subtitles_translate_language)
-- [tag](SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#tag)
-- [video\_id](SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#video_id)
-
-### Methods
-
-- [init](SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#init)
-- [toJSON](SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#tojson)
-- [fromJS](SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo(data)
 
-• **new SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo**(`data?`): [`SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md)
+> **new SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo**(`data`?): [`SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md) |
+• **data?**: [`ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md)
 
 #### Returns
 
 [`SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:63019
+main.ts:63027
 
 ## Properties
 
-### device
+### device?
 
-• `Optional` **device**: `string`
+> **`optional`** **device**: `string`
 
 device type
 optional field
@@ -67,17 +44,17 @@ only value: desktop
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md).[device](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#device)
+[`ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md).[`device`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#device)
 
-#### Defined in
+#### Source
 
-main.ts:63004
+main.ts:63012
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -88,17 +65,17 @@ en
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md).[language_code](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#language_code)
+[`ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md).[`language_code`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:63000
+main.ts:63008
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -109,17 +86,17 @@ English
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md).[language_name](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#language_name)
+[`ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md).[`language_name`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:62993
+main.ts:63001
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name 
@@ -130,17 +107,17 @@ example:
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md).[location_code](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#location_code)
+[`ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md).[`location_code`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:62986
+main.ts:62994
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -151,17 +128,17 @@ United States
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md).[location_name](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#location_name)
+[`ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md).[`location_name`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:62979
+main.ts:62987
 
-___
+***
 
-### os
+### os?
 
-• `Optional` **os**: `string`
+> **`optional`** **os**: `string`
 
 device operating system
 optional field
@@ -170,34 +147,34 @@ default value: windows
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md).[os](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#os)
+[`ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md).[`os`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#os)
 
-#### Defined in
+#### Source
 
-main.ts:63009
+main.ts:63017
 
-___
+***
 
-### subtitles\_language
+### subtitles\_language?
 
-• `Optional` **subtitles\_language**: `string`
+> **`optional`** **subtitles\_language**: `string`
 
 language code of original text
 you can get the language code from YouTube Video Info result
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md).[subtitles_language](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#subtitles_language)
+[`ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md).[`subtitles_language`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#subtitles_language)
 
-#### Defined in
+#### Source
 
-main.ts:62968
+main.ts:62976
 
-___
+***
 
-### subtitles\_translate\_language
+### subtitles\_translate\_language?
 
-• `Optional` **subtitles\_translate\_language**: `string`
+> **`optional`** **subtitles\_translate\_language**: `string`
 
 language code of translated text
 possible values:
@@ -205,17 +182,17 @@ possible values:
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md).[subtitles_translate_language](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#subtitles_translate_language)
+[`ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md).[`subtitles_translate_language`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#subtitles_translate_language)
 
-#### Defined in
+#### Source
 
-main.ts:62972
+main.ts:62980
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -225,17 +202,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md).[tag](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#tag)
+[`ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md).[`tag`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:63015
+main.ts:63023
 
-___
+***
 
-### video\_id
+### video\_id?
 
-• `Optional` **video\_id**: `string`
+> **`optional`** **video\_id**: `string`
 
 ID of the video
 required field
@@ -245,68 +222,62 @@ Y8Wu4rSNJms
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md).[video_id](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#video_id)
+[`ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md).[`video_id`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#video_id)
 
-#### Defined in
+#### Source
 
-main.ts:62965
+main.ts:62973
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:63028
+main.ts:63036
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:63054
+main.ts:63062
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:63047
+main.ts:63055

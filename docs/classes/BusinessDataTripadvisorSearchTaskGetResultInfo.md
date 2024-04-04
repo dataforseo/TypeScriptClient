@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataTripadvisorSearchTaskGetResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataTripadvisorSearchTaskGetResultInfo
 
 # Class: BusinessDataTripadvisorSearchTaskGetResultInfo
 
@@ -8,75 +12,48 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataTripadvisorSearchTaskGetResultInfo.md#constructor)
-
-### Properties
-
-- [check\_url](BusinessDataTripadvisorSearchTaskGetResultInfo.md#check_url)
-- [datetime](BusinessDataTripadvisorSearchTaskGetResultInfo.md#datetime)
-- [item\_types](BusinessDataTripadvisorSearchTaskGetResultInfo.md#item_types)
-- [items](BusinessDataTripadvisorSearchTaskGetResultInfo.md#items)
-- [items\_count](BusinessDataTripadvisorSearchTaskGetResultInfo.md#items_count)
-- [keyword](BusinessDataTripadvisorSearchTaskGetResultInfo.md#keyword)
-- [language\_code](BusinessDataTripadvisorSearchTaskGetResultInfo.md#language_code)
-- [location\_code](BusinessDataTripadvisorSearchTaskGetResultInfo.md#location_code)
-- [se\_domain](BusinessDataTripadvisorSearchTaskGetResultInfo.md#se_domain)
-- [se\_results\_count](BusinessDataTripadvisorSearchTaskGetResultInfo.md#se_results_count)
-
-### Methods
-
-- [init](BusinessDataTripadvisorSearchTaskGetResultInfo.md#init)
-- [toJSON](BusinessDataTripadvisorSearchTaskGetResultInfo.md#tojson)
-- [fromJS](BusinessDataTripadvisorSearchTaskGetResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataTripadvisorSearchTaskGetResultInfo(data)
 
-• **new BusinessDataTripadvisorSearchTaskGetResultInfo**(`data?`): [`BusinessDataTripadvisorSearchTaskGetResultInfo`](BusinessDataTripadvisorSearchTaskGetResultInfo.md)
+> **new BusinessDataTripadvisorSearchTaskGetResultInfo**(`data`?): [`BusinessDataTripadvisorSearchTaskGetResultInfo`](BusinessDataTripadvisorSearchTaskGetResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataTripadvisorSearchTaskGetResultInfo`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md) |
+• **data?**: [`IBusinessDataTripadvisorSearchTaskGetResultInfo`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md)
 
 #### Returns
 
 [`BusinessDataTripadvisorSearchTaskGetResultInfo`](BusinessDataTripadvisorSearchTaskGetResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:206965
 
 ## Properties
 
-### check\_url
+### check\_url?
 
-• `Optional` **check\_url**: `string`
+> **`optional`** **check\_url**: `string`
 
 direct URL to Tripadvisor results
 you can use it to make sure that we provided accurate results
 
 #### Implementation of
 
-[IBusinessDataTripadvisorSearchTaskGetResultInfo](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md).[check_url](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md#check_url)
+[`IBusinessDataTripadvisorSearchTaskGetResultInfo`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md).[`check_url`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md#check_url)
 
-#### Defined in
+#### Source
 
 main.ts:206945
 
-___
+***
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -85,200 +62,194 @@ example:
 
 #### Implementation of
 
-[IBusinessDataTripadvisorSearchTaskGetResultInfo](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md).[datetime](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md#datetime)
+[`IBusinessDataTripadvisorSearchTaskGetResultInfo`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md).[`datetime`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
 main.ts:206950
 
-___
+***
 
-### item\_types
+### item\_types?
 
-• `Optional` **item\_types**: `string`[]
+> **`optional`** **item\_types**: `string`[]
 
 item types encountered in the result
 possible item types: tripadvisor_search_organic
 
 #### Implementation of
 
-[IBusinessDataTripadvisorSearchTaskGetResultInfo](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md).[item_types](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md#item_types)
+[`IBusinessDataTripadvisorSearchTaskGetResultInfo`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md).[`item_types`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md#item_types)
 
-#### Defined in
+#### Source
 
 main.ts:206953
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)[]
+> **`optional`** **items**: [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)[]
 
 Tripadvisor search listing results
 you can get more results by using the depth parameter when setting a task
 
 #### Implementation of
 
-[IBusinessDataTripadvisorSearchTaskGetResultInfo](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md).[items](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md#items)
+[`IBusinessDataTripadvisorSearchTaskGetResultInfo`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md).[`items`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md#items)
 
-#### Defined in
+#### Source
 
 main.ts:206961
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 the number of items in the results array
 you can get more results by using the depth parameter when setting a task
 
 #### Implementation of
 
-[IBusinessDataTripadvisorSearchTaskGetResultInfo](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md).[items_count](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md#items_count)
+[`IBusinessDataTripadvisorSearchTaskGetResultInfo`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md).[`items_count`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
 main.ts:206958
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword received in a POST array
 this field will contain the alias parameter if it was specified in a POST array
 
 #### Implementation of
 
-[IBusinessDataTripadvisorSearchTaskGetResultInfo](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md).[keyword](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md#keyword)
+[`IBusinessDataTripadvisorSearchTaskGetResultInfo`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md).[`keyword`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md#keyword)
 
-#### Defined in
+#### Source
 
 main.ts:206936
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 
 #### Implementation of
 
-[IBusinessDataTripadvisorSearchTaskGetResultInfo](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md).[language_code](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md#language_code)
+[`IBusinessDataTripadvisorSearchTaskGetResultInfo`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md).[`language_code`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
 main.ts:206942
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `string`
+> **`optional`** **location\_code**: `string`
 
 location code in a POST array
 
 #### Implementation of
 
-[IBusinessDataTripadvisorSearchTaskGetResultInfo](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md).[location_code](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md#location_code)
+[`IBusinessDataTripadvisorSearchTaskGetResultInfo`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md).[`location_code`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
 main.ts:206940
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain in a POST array
 
 #### Implementation of
 
-[IBusinessDataTripadvisorSearchTaskGetResultInfo](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md).[se_domain](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md#se_domain)
+[`IBusinessDataTripadvisorSearchTaskGetResultInfo`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md).[`se_domain`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md#se_domain)
 
-#### Defined in
+#### Source
 
 main.ts:206938
 
-___
+***
 
-### se\_results\_count
+### se\_results\_count?
 
-• `Optional` **se\_results\_count**: `number`
+> **`optional`** **se\_results\_count**: `number`
 
 the total number of results
 
 #### Implementation of
 
-[IBusinessDataTripadvisorSearchTaskGetResultInfo](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md).[se_results_count](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md#se_results_count)
+[`IBusinessDataTripadvisorSearchTaskGetResultInfo`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md).[`se_results_count`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md#se_results_count)
 
-#### Defined in
+#### Source
 
 main.ts:206955
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:206974
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:207008
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataTripadvisorSearchTaskGetResultInfo`](BusinessDataTripadvisorSearchTaskGetResultInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataTripadvisorSearchTaskGetResultInfo`](BusinessDataTripadvisorSearchTaskGetResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`BusinessDataTripadvisorSearchTaskGetResultInfo`](BusinessDataTripadvisorSearchTaskGetResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:207001

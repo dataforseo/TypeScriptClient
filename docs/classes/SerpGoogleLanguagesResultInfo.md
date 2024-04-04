@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleLanguagesResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleLanguagesResultInfo
 
 # Class: SerpGoogleLanguagesResultInfo
 
@@ -8,133 +12,108 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleLanguagesResultInfo.md#constructor)
-
-### Properties
-
-- [language\_code](SerpGoogleLanguagesResultInfo.md#language_code)
-- [language\_name](SerpGoogleLanguagesResultInfo.md#language_name)
-
-### Methods
-
-- [init](SerpGoogleLanguagesResultInfo.md#init)
-- [toJSON](SerpGoogleLanguagesResultInfo.md#tojson)
-- [fromJS](SerpGoogleLanguagesResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleLanguagesResultInfo(data)
 
-• **new SerpGoogleLanguagesResultInfo**(`data?`): [`SerpGoogleLanguagesResultInfo`](SerpGoogleLanguagesResultInfo.md)
+> **new SerpGoogleLanguagesResultInfo**(`data`?): [`SerpGoogleLanguagesResultInfo`](SerpGoogleLanguagesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleLanguagesResultInfo`](../interfaces/ISerpGoogleLanguagesResultInfo.md) |
+• **data?**: [`ISerpGoogleLanguagesResultInfo`](../interfaces/ISerpGoogleLanguagesResultInfo.md)
 
 #### Returns
 
 [`SerpGoogleLanguagesResultInfo`](SerpGoogleLanguagesResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:24981
 
 ## Properties
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code according to ISO 639-1
 
 #### Implementation of
 
-[ISerpGoogleLanguagesResultInfo](../interfaces/ISerpGoogleLanguagesResultInfo.md).[language_code](../interfaces/ISerpGoogleLanguagesResultInfo.md#language_code)
+[`ISerpGoogleLanguagesResultInfo`](../interfaces/ISerpGoogleLanguagesResultInfo.md).[`language_code`](../interfaces/ISerpGoogleLanguagesResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
 main.ts:24977
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 language name
 
 #### Implementation of
 
-[ISerpGoogleLanguagesResultInfo](../interfaces/ISerpGoogleLanguagesResultInfo.md).[language_name](../interfaces/ISerpGoogleLanguagesResultInfo.md#language_name)
+[`ISerpGoogleLanguagesResultInfo`](../interfaces/ISerpGoogleLanguagesResultInfo.md).[`language_name`](../interfaces/ISerpGoogleLanguagesResultInfo.md#language_name)
 
-#### Defined in
+#### Source
 
 main.ts:24975
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:24990
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:25008
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleLanguagesResultInfo`](SerpGoogleLanguagesResultInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleLanguagesResultInfo`](SerpGoogleLanguagesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpGoogleLanguagesResultInfo`](SerpGoogleLanguagesResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:25001

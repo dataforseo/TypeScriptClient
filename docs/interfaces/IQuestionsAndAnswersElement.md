@@ -1,108 +1,96 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IQuestionsAndAnswersElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IQuestionsAndAnswersElement
 
 # Interface: IQuestionsAndAnswersElement
 
-## Implemented by
-
-- [`QuestionsAndAnswersElement`](../classes/QuestionsAndAnswersElement.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [answer\_text](IQuestionsAndAnswersElement.md#answer_text)
-- [domain](IQuestionsAndAnswersElement.md#domain)
-- [question\_text](IQuestionsAndAnswersElement.md#question_text)
-- [source](IQuestionsAndAnswersElement.md#source)
-- [type](IQuestionsAndAnswersElement.md#type)
-- [url](IQuestionsAndAnswersElement.md#url)
-- [votes](IQuestionsAndAnswersElement.md#votes)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### answer\_text
+### answer\_text?
 
-• `Optional` **answer\_text**: `string`
+> **`optional`** **answer\_text**: `string`
 
 answer included in the item
 
-#### Defined in
+#### Source
 
-main.ts:33759
+main.ts:33765
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 website domain
 
-#### Defined in
+#### Source
 
-main.ts:33764
+main.ts:33770
 
-___
+***
 
-### question\_text
+### question\_text?
 
-• `Optional` **question\_text**: `string`
+> **`optional`** **question\_text**: `string`
 
 question included in the item
 
-#### Defined in
+#### Source
 
-main.ts:33757
+main.ts:33763
 
-___
+***
 
-### source
+### source?
 
-• `Optional` **source**: `string`
+> **`optional`** **source**: `string`
 
 source of the element
 indicates the source of information included in the top_stories_element
 
-#### Defined in
+#### Source
 
-main.ts:33762
+main.ts:33768
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:33753
+main.ts:33759
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL
 
-#### Defined in
+#### Source
 
-main.ts:33755
+main.ts:33761
 
-___
+***
 
-### votes
+### votes?
 
-• `Optional` **votes**: `number`
+> **`optional`** **votes**: `number`
 
 answer upvotes from the source
 
-#### Defined in
+#### Source
 
-main.ts:33766
+main.ts:33772

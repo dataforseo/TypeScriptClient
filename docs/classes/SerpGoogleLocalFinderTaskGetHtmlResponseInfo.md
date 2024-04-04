@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleLocalFinderTaskGetHtmlResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleLocalFinderTaskGetHtmlResponseInfo
 
 # Class: SerpGoogleLocalFinderTaskGetHtmlResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`SerpGoogleLocalFinderTaskGetHtmlResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleLocalFinderTaskGetHtmlResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](SerpGoogleLocalFinderTaskGetHtmlResponseInfo.md#cost)
-- [status\_code](SerpGoogleLocalFinderTaskGetHtmlResponseInfo.md#status_code)
-- [status\_message](SerpGoogleLocalFinderTaskGetHtmlResponseInfo.md#status_message)
-- [tasks](SerpGoogleLocalFinderTaskGetHtmlResponseInfo.md#tasks)
-- [tasks\_count](SerpGoogleLocalFinderTaskGetHtmlResponseInfo.md#tasks_count)
-- [tasks\_error](SerpGoogleLocalFinderTaskGetHtmlResponseInfo.md#tasks_error)
-- [time](SerpGoogleLocalFinderTaskGetHtmlResponseInfo.md#time)
-- [version](SerpGoogleLocalFinderTaskGetHtmlResponseInfo.md#version)
-
-### Methods
-
-- [init](SerpGoogleLocalFinderTaskGetHtmlResponseInfo.md#init)
-- [toJSON](SerpGoogleLocalFinderTaskGetHtmlResponseInfo.md#tojson)
-- [fromJS](SerpGoogleLocalFinderTaskGetHtmlResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleLocalFinderTaskGetHtmlResponseInfo(data)
 
-• **new SerpGoogleLocalFinderTaskGetHtmlResponseInfo**(`data?`): [`SerpGoogleLocalFinderTaskGetHtmlResponseInfo`](SerpGoogleLocalFinderTaskGetHtmlResponseInfo.md)
+> **new SerpGoogleLocalFinderTaskGetHtmlResponseInfo**(`data`?): [`SerpGoogleLocalFinderTaskGetHtmlResponseInfo`](SerpGoogleLocalFinderTaskGetHtmlResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleLocalFinderTaskGetHtmlResponseInfo`](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResponseInfo.md) |
+• **data?**: [`ISerpGoogleLocalFinderTaskGetHtmlResponseInfo`](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:41660
+main.ts:41666
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderTaskGetHtmlResponseInfo](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResponseInfo.md).[cost](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResponseInfo.md#cost)
+[`ISerpGoogleLocalFinderTaskGetHtmlResponseInfo`](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResponseInfo.md).[`cost`](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderTaskGetHtmlResponseInfo](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResponseInfo.md).[status_code](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResponseInfo.md#status_code)
+[`ISerpGoogleLocalFinderTaskGetHtmlResponseInfo`](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResponseInfo.md).[`status_code`](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderTaskGetHtmlResponseInfo](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResponseInfo.md).[status_message](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResponseInfo.md#status_message)
+[`ISerpGoogleLocalFinderTaskGetHtmlResponseInfo`](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResponseInfo.md).[`status_message`](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`SerpGoogleLocalFinderTaskGetHtmlTaskInfo`](SerpGoogleLocalFinderTaskGetHtmlTaskInfo.md)[]
+> **`optional`** **tasks**: [`SerpGoogleLocalFinderTaskGetHtmlTaskInfo`](SerpGoogleLocalFinderTaskGetHtmlTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderTaskGetHtmlResponseInfo](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResponseInfo.md).[tasks](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResponseInfo.md#tasks)
+[`ISerpGoogleLocalFinderTaskGetHtmlResponseInfo`](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResponseInfo.md).[`tasks`](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:41656
+main.ts:41662
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderTaskGetHtmlResponseInfo](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResponseInfo.md).[tasks_count](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResponseInfo.md#tasks_count)
+[`ISerpGoogleLocalFinderTaskGetHtmlResponseInfo`](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResponseInfo.md).[`tasks_count`](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderTaskGetHtmlResponseInfo](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResponseInfo.md).[tasks_error](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResponseInfo.md#tasks_error)
+[`ISerpGoogleLocalFinderTaskGetHtmlResponseInfo`](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResponseInfo.md).[`tasks_error`](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderTaskGetHtmlResponseInfo](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResponseInfo.md).[time](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResponseInfo.md#time)
+[`ISerpGoogleLocalFinderTaskGetHtmlResponseInfo`](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResponseInfo.md).[`time`](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[ISerpGoogleLocalFinderTaskGetHtmlResponseInfo](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResponseInfo.md).[version](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResponseInfo.md#version)
+[`ISerpGoogleLocalFinderTaskGetHtmlResponseInfo`](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResponseInfo.md).[`version`](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:41664
+main.ts:41670
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:41686
+main.ts:41692
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleLocalFinderTaskGetHtmlResponseInfo`](SerpGoogleLocalFinderTaskGetHtmlResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleLocalFinderTaskGetHtmlResponseInfo`](SerpGoogleLocalFinderTaskGetHtmlResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:41679
+main.ts:41685

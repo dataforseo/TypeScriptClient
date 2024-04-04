@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MerchantGoogleLanguagesResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / MerchantGoogleLanguagesResponseInfo
 
 # Class: MerchantGoogleLanguagesResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`MerchantGoogleLanguagesResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](MerchantGoogleLanguagesResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](MerchantGoogleLanguagesResponseInfo.md#cost)
-- [status\_code](MerchantGoogleLanguagesResponseInfo.md#status_code)
-- [status\_message](MerchantGoogleLanguagesResponseInfo.md#status_message)
-- [tasks](MerchantGoogleLanguagesResponseInfo.md#tasks)
-- [tasks\_count](MerchantGoogleLanguagesResponseInfo.md#tasks_count)
-- [tasks\_error](MerchantGoogleLanguagesResponseInfo.md#tasks_error)
-- [time](MerchantGoogleLanguagesResponseInfo.md#time)
-- [version](MerchantGoogleLanguagesResponseInfo.md#version)
-
-### Methods
-
-- [init](MerchantGoogleLanguagesResponseInfo.md#init)
-- [toJSON](MerchantGoogleLanguagesResponseInfo.md#tojson)
-- [fromJS](MerchantGoogleLanguagesResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new MerchantGoogleLanguagesResponseInfo(data)
 
-• **new MerchantGoogleLanguagesResponseInfo**(`data?`): [`MerchantGoogleLanguagesResponseInfo`](MerchantGoogleLanguagesResponseInfo.md)
+> **new MerchantGoogleLanguagesResponseInfo**(`data`?): [`MerchantGoogleLanguagesResponseInfo`](MerchantGoogleLanguagesResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IMerchantGoogleLanguagesResponseInfo`](../interfaces/IMerchantGoogleLanguagesResponseInfo.md) |
+• **data?**: [`IMerchantGoogleLanguagesResponseInfo`](../interfaces/IMerchantGoogleLanguagesResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:168885
+main.ts:168893
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IMerchantGoogleLanguagesResponseInfo](../interfaces/IMerchantGoogleLanguagesResponseInfo.md).[cost](../interfaces/IMerchantGoogleLanguagesResponseInfo.md#cost)
+[`IMerchantGoogleLanguagesResponseInfo`](../interfaces/IMerchantGoogleLanguagesResponseInfo.md).[`cost`](../interfaces/IMerchantGoogleLanguagesResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[IMerchantGoogleLanguagesResponseInfo](../interfaces/IMerchantGoogleLanguagesResponseInfo.md).[status_code](../interfaces/IMerchantGoogleLanguagesResponseInfo.md#status_code)
+[`IMerchantGoogleLanguagesResponseInfo`](../interfaces/IMerchantGoogleLanguagesResponseInfo.md).[`status_code`](../interfaces/IMerchantGoogleLanguagesResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IMerchantGoogleLanguagesResponseInfo](../interfaces/IMerchantGoogleLanguagesResponseInfo.md).[status_message](../interfaces/IMerchantGoogleLanguagesResponseInfo.md#status_message)
+[`IMerchantGoogleLanguagesResponseInfo`](../interfaces/IMerchantGoogleLanguagesResponseInfo.md).[`status_message`](../interfaces/IMerchantGoogleLanguagesResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`MerchantGoogleLanguagesTaskInfo`](MerchantGoogleLanguagesTaskInfo.md)[]
+> **`optional`** **tasks**: [`MerchantGoogleLanguagesTaskInfo`](MerchantGoogleLanguagesTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[IMerchantGoogleLanguagesResponseInfo](../interfaces/IMerchantGoogleLanguagesResponseInfo.md).[tasks](../interfaces/IMerchantGoogleLanguagesResponseInfo.md#tasks)
+[`IMerchantGoogleLanguagesResponseInfo`](../interfaces/IMerchantGoogleLanguagesResponseInfo.md).[`tasks`](../interfaces/IMerchantGoogleLanguagesResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
-main.ts:168881
+main.ts:168889
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[IMerchantGoogleLanguagesResponseInfo](../interfaces/IMerchantGoogleLanguagesResponseInfo.md).[tasks_count](../interfaces/IMerchantGoogleLanguagesResponseInfo.md#tasks_count)
+[`IMerchantGoogleLanguagesResponseInfo`](../interfaces/IMerchantGoogleLanguagesResponseInfo.md).[`tasks_count`](../interfaces/IMerchantGoogleLanguagesResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[IMerchantGoogleLanguagesResponseInfo](../interfaces/IMerchantGoogleLanguagesResponseInfo.md).[tasks_error](../interfaces/IMerchantGoogleLanguagesResponseInfo.md#tasks_error)
+[`IMerchantGoogleLanguagesResponseInfo`](../interfaces/IMerchantGoogleLanguagesResponseInfo.md).[`tasks_error`](../interfaces/IMerchantGoogleLanguagesResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[IMerchantGoogleLanguagesResponseInfo](../interfaces/IMerchantGoogleLanguagesResponseInfo.md).[time](../interfaces/IMerchantGoogleLanguagesResponseInfo.md#time)
+[`IMerchantGoogleLanguagesResponseInfo`](../interfaces/IMerchantGoogleLanguagesResponseInfo.md).[`time`](../interfaces/IMerchantGoogleLanguagesResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[IMerchantGoogleLanguagesResponseInfo](../interfaces/IMerchantGoogleLanguagesResponseInfo.md).[version](../interfaces/IMerchantGoogleLanguagesResponseInfo.md#version)
+[`IMerchantGoogleLanguagesResponseInfo`](../interfaces/IMerchantGoogleLanguagesResponseInfo.md).[`version`](../interfaces/IMerchantGoogleLanguagesResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:168889
+main.ts:168897
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:168911
+main.ts:168919
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`MerchantGoogleLanguagesResponseInfo`](MerchantGoogleLanguagesResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`MerchantGoogleLanguagesResponseInfo`](MerchantGoogleLanguagesResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:168904
+main.ts:168912

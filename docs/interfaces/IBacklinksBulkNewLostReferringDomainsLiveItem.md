@@ -1,83 +1,73 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksBulkNewLostReferringDomainsLiveItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBacklinksBulkNewLostReferringDomainsLiveItem
 
 # Interface: IBacklinksBulkNewLostReferringDomainsLiveItem
 
-## Implemented by
-
-- [`BacklinksBulkNewLostReferringDomainsLiveItem`](../classes/BacklinksBulkNewLostReferringDomainsLiveItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [lost\_referring\_domains](IBacklinksBulkNewLostReferringDomainsLiveItem.md#lost_referring_domains)
-- [lost\_referring\_main\_domains](IBacklinksBulkNewLostReferringDomainsLiveItem.md#lost_referring_main_domains)
-- [new\_referring\_domains](IBacklinksBulkNewLostReferringDomainsLiveItem.md#new_referring_domains)
-- [new\_referring\_main\_domains](IBacklinksBulkNewLostReferringDomainsLiveItem.md#new_referring_main_domains)
-- [target](IBacklinksBulkNewLostReferringDomainsLiveItem.md#target)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### lost\_referring\_domains
+### lost\_referring\_domains?
 
-• `Optional` **lost\_referring\_domains**: `number`
+> **`optional`** **lost\_referring\_domains**: `number`
 
 number of lost referring domains
 number of lost referring domains of the target
 
-#### Defined in
+#### Source
 
-main.ts:146679
+main.ts:146687
 
-___
+***
 
-### lost\_referring\_main\_domains
+### lost\_referring\_main\_domains?
 
-• `Optional` **lost\_referring\_main\_domains**: `number`
+> **`optional`** **lost\_referring\_main\_domains**: `number`
 
 number of lost referring main domains pointing to the target
 
-#### Defined in
+#### Source
 
-main.ts:146683
+main.ts:146691
 
-___
+***
 
-### new\_referring\_domains
+### new\_referring\_domains?
 
-• `Optional` **new\_referring\_domains**: `number`
+> **`optional`** **new\_referring\_domains**: `number`
 
 number of new referring domains
 number of new referring domains pointing to the target
 
-#### Defined in
+#### Source
 
-main.ts:146676
+main.ts:146684
 
-___
+***
 
-### new\_referring\_main\_domains
+### new\_referring\_main\_domains?
 
-• `Optional` **new\_referring\_main\_domains**: `number`
+> **`optional`** **new\_referring\_main\_domains**: `number`
 
 number of new referring main domains pointing to the target
 
-#### Defined in
+#### Source
 
-main.ts:146681
+main.ts:146689
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 domain, subdomain or webpage from a POST array
 
-#### Defined in
+#### Source
 
-main.ts:146673
+main.ts:146681

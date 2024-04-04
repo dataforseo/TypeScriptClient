@@ -1,115 +1,101 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixBusinessDataLimitsRatesDataInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAppendixBusinessDataLimitsRatesDataInfo
 
 # Interface: IAppendixBusinessDataLimitsRatesDataInfo
 
-## Implemented by
-
-- [`AppendixBusinessDataLimitsRatesDataInfo`](../classes/AppendixBusinessDataLimitsRatesDataInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [business\_listings](IAppendixBusinessDataLimitsRatesDataInfo.md#business_listings)
-- [errors](IAppendixBusinessDataLimitsRatesDataInfo.md#errors)
-- [google](IAppendixBusinessDataLimitsRatesDataInfo.md#google)
-- [languages](IAppendixBusinessDataLimitsRatesDataInfo.md#languages)
-- [locations](IAppendixBusinessDataLimitsRatesDataInfo.md#locations)
-- [social\_media](IAppendixBusinessDataLimitsRatesDataInfo.md#social_media)
-- [tripadvisor](IAppendixBusinessDataLimitsRatesDataInfo.md#tripadvisor)
-- [trustpilot](IAppendixBusinessDataLimitsRatesDataInfo.md#trustpilot)
-- [yelp](IAppendixBusinessDataLimitsRatesDataInfo.md#yelp)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### business\_listings
+### business\_listings?
 
-• `Optional` **business\_listings**: [`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](../classes/AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
+> **`optional`** **business\_listings**: [`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](../classes/AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:213632
 
-___
+***
 
-### errors
+### errors?
 
-• `Optional` **errors**: `number`
+> **`optional`** **errors**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:213627
 
-___
+***
 
-### google
+### google?
 
-• `Optional` **google**: [`AppendixBusinessDataGoogleInfo`](../classes/AppendixBusinessDataGoogleInfo.md)
+> **`optional`** **google**: [`AppendixBusinessDataGoogleInfo`](../classes/AppendixBusinessDataGoogleInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:213624
 
-___
+***
 
-### languages
+### languages?
 
-• `Optional` **languages**: `number`
+> **`optional`** **languages**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:213626
 
-___
+***
 
-### locations
+### locations?
 
-• `Optional` **locations**: `number`
+> **`optional`** **locations**: `number`
 
-#### Defined in
+#### Source
 
 main.ts:213625
 
-___
+***
 
-### social\_media
+### social\_media?
 
-• `Optional` **social\_media**: [`AppendixSocialMediaBusinessDataLimitsRatesDataInfo`](../classes/AppendixSocialMediaBusinessDataLimitsRatesDataInfo.md)
+> **`optional`** **social\_media**: [`AppendixSocialMediaBusinessDataLimitsRatesDataInfo`](../classes/AppendixSocialMediaBusinessDataLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:213629
 
-___
+***
 
-### tripadvisor
+### tripadvisor?
 
-• `Optional` **tripadvisor**: [`AppendixBusinessDataDayLimitsRatesDataInfo`](../classes/AppendixBusinessDataDayLimitsRatesDataInfo.md)
+> **`optional`** **tripadvisor**: [`AppendixBusinessDataDayLimitsRatesDataInfo`](../classes/AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:213630
 
-___
+***
 
-### trustpilot
+### trustpilot?
 
-• `Optional` **trustpilot**: [`AppendixBusinessDataDayLimitsRatesDataInfo`](../classes/AppendixBusinessDataDayLimitsRatesDataInfo.md)
+> **`optional`** **trustpilot**: [`AppendixBusinessDataDayLimitsRatesDataInfo`](../classes/AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:213631
 
-___
+***
 
-### yelp
+### yelp?
 
-• `Optional` **yelp**: [`AppendixBusinessDataDayLimitsRatesDataInfo`](../classes/AppendixBusinessDataDayLimitsRatesDataInfo.md)
+> **`optional`** **yelp**: [`AppendixBusinessDataDayLimitsRatesDataInfo`](../classes/AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:213628

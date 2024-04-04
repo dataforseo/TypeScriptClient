@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageContentParsingResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPageContentParsingResultInfo
 
 # Class: OnPageContentParsingResultInfo
 
@@ -8,168 +12,141 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPageContentParsingResultInfo.md#constructor)
-
-### Properties
-
-- [crawl\_progress](OnPageContentParsingResultInfo.md#crawl_progress)
-- [crawl\_status](OnPageContentParsingResultInfo.md#crawl_status)
-- [items](OnPageContentParsingResultInfo.md#items)
-- [items\_count](OnPageContentParsingResultInfo.md#items_count)
-
-### Methods
-
-- [init](OnPageContentParsingResultInfo.md#init)
-- [toJSON](OnPageContentParsingResultInfo.md#tojson)
-- [fromJS](OnPageContentParsingResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPageContentParsingResultInfo(data)
 
-• **new OnPageContentParsingResultInfo**(`data?`): [`OnPageContentParsingResultInfo`](OnPageContentParsingResultInfo.md)
+> **new OnPageContentParsingResultInfo**(`data`?): [`OnPageContentParsingResultInfo`](OnPageContentParsingResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPageContentParsingResultInfo`](../interfaces/IOnPageContentParsingResultInfo.md) |
+• **data?**: [`IOnPageContentParsingResultInfo`](../interfaces/IOnPageContentParsingResultInfo.md)
 
 #### Returns
 
 [`OnPageContentParsingResultInfo`](OnPageContentParsingResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:157793
+main.ts:157801
 
 ## Properties
 
-### crawl\_progress
+### crawl\_progress?
 
-• `Optional` **crawl\_progress**: `string`
+> **`optional`** **crawl\_progress**: `string`
 
 status of the crawling session
 possible values: in_progress, finished
 
 #### Implementation of
 
-[IOnPageContentParsingResultInfo](../interfaces/IOnPageContentParsingResultInfo.md).[crawl_progress](../interfaces/IOnPageContentParsingResultInfo.md#crawl_progress)
+[`IOnPageContentParsingResultInfo`](../interfaces/IOnPageContentParsingResultInfo.md).[`crawl_progress`](../interfaces/IOnPageContentParsingResultInfo.md#crawl_progress)
 
-#### Defined in
+#### Source
 
-main.ts:157783
+main.ts:157791
 
-___
+***
 
-### crawl\_status
+### crawl\_status?
 
-• `Optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
+> **`optional`** **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
 details of the crawling session
 
 #### Implementation of
 
-[IOnPageContentParsingResultInfo](../interfaces/IOnPageContentParsingResultInfo.md).[crawl_status](../interfaces/IOnPageContentParsingResultInfo.md#crawl_status)
+[`IOnPageContentParsingResultInfo`](../interfaces/IOnPageContentParsingResultInfo.md).[`crawl_status`](../interfaces/IOnPageContentParsingResultInfo.md#crawl_status)
 
-#### Defined in
+#### Source
 
-main.ts:157785
+main.ts:157793
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`OnPageContentParsingItem`](OnPageContentParsingItem.md)[]
+> **`optional`** **items**: [`OnPageContentParsingItem`](OnPageContentParsingItem.md)[]
 
 items array
 
 #### Implementation of
 
-[IOnPageContentParsingResultInfo](../interfaces/IOnPageContentParsingResultInfo.md).[items](../interfaces/IOnPageContentParsingResultInfo.md#items)
+[`IOnPageContentParsingResultInfo`](../interfaces/IOnPageContentParsingResultInfo.md).[`items`](../interfaces/IOnPageContentParsingResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:157789
+main.ts:157797
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 number of items in the results array
 
 #### Implementation of
 
-[IOnPageContentParsingResultInfo](../interfaces/IOnPageContentParsingResultInfo.md).[items_count](../interfaces/IOnPageContentParsingResultInfo.md#items_count)
+[`IOnPageContentParsingResultInfo`](../interfaces/IOnPageContentParsingResultInfo.md).[`items_count`](../interfaces/IOnPageContentParsingResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:157787
+main.ts:157795
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:157802
+main.ts:157810
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:157826
+main.ts:157834
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPageContentParsingResultInfo`](OnPageContentParsingResultInfo.md)
+> **`static`** **fromJS**(`data`): [`OnPageContentParsingResultInfo`](OnPageContentParsingResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`OnPageContentParsingResultInfo`](OnPageContentParsingResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:157819
+main.ts:157827

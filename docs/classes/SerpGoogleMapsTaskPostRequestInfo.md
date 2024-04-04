@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleMapsTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleMapsTaskPostRequestInfo
 
 # Class: SerpGoogleMapsTaskPostRequestInfo
 
@@ -8,67 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleMapsTaskPostRequestInfo.md#constructor)
-
-### Properties
-
-- [depth](SerpGoogleMapsTaskPostRequestInfo.md#depth)
-- [device](SerpGoogleMapsTaskPostRequestInfo.md#device)
-- [keyword](SerpGoogleMapsTaskPostRequestInfo.md#keyword)
-- [language\_code](SerpGoogleMapsTaskPostRequestInfo.md#language_code)
-- [language\_name](SerpGoogleMapsTaskPostRequestInfo.md#language_name)
-- [location\_code](SerpGoogleMapsTaskPostRequestInfo.md#location_code)
-- [location\_coordinate](SerpGoogleMapsTaskPostRequestInfo.md#location_coordinate)
-- [location\_name](SerpGoogleMapsTaskPostRequestInfo.md#location_name)
-- [max\_crawl\_pages](SerpGoogleMapsTaskPostRequestInfo.md#max_crawl_pages)
-- [os](SerpGoogleMapsTaskPostRequestInfo.md#os)
-- [pingback\_url](SerpGoogleMapsTaskPostRequestInfo.md#pingback_url)
-- [postback\_data](SerpGoogleMapsTaskPostRequestInfo.md#postback_data)
-- [postback\_url](SerpGoogleMapsTaskPostRequestInfo.md#postback_url)
-- [priority](SerpGoogleMapsTaskPostRequestInfo.md#priority)
-- [se\_domain](SerpGoogleMapsTaskPostRequestInfo.md#se_domain)
-- [search\_places](SerpGoogleMapsTaskPostRequestInfo.md#search_places)
-- [search\_this\_area](SerpGoogleMapsTaskPostRequestInfo.md#search_this_area)
-- [tag](SerpGoogleMapsTaskPostRequestInfo.md#tag)
-- [url](SerpGoogleMapsTaskPostRequestInfo.md#url)
-
-### Methods
-
-- [init](SerpGoogleMapsTaskPostRequestInfo.md#init)
-- [toJSON](SerpGoogleMapsTaskPostRequestInfo.md#tojson)
-- [fromJS](SerpGoogleMapsTaskPostRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleMapsTaskPostRequestInfo(data)
 
-• **new SerpGoogleMapsTaskPostRequestInfo**(`data?`): [`SerpGoogleMapsTaskPostRequestInfo`](SerpGoogleMapsTaskPostRequestInfo.md)
+> **new SerpGoogleMapsTaskPostRequestInfo**(`data`?): [`SerpGoogleMapsTaskPostRequestInfo`](SerpGoogleMapsTaskPostRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleMapsTaskPostRequestInfo`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md) |
+• **data?**: [`ISerpGoogleMapsTaskPostRequestInfo`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md)
 
 #### Returns
 
 [`SerpGoogleMapsTaskPostRequestInfo`](SerpGoogleMapsTaskPostRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:38210
+main.ts:38216
 
 ## Properties
 
-### depth
+### depth?
 
-• `Optional` **depth**: `number`
+> **`optional`** **depth**: `number`
 
 parsing depth
 optional field
@@ -81,17 +49,17 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Implementation of
 
-[ISerpGoogleMapsTaskPostRequestInfo](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[depth](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#depth)
+[`ISerpGoogleMapsTaskPostRequestInfo`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[`depth`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#depth)
 
-#### Defined in
+#### Source
 
-main.ts:38154
+main.ts:38160
 
-___
+***
 
-### device
+### device?
 
-• `Optional` **device**: `string`
+> **`optional`** **device**: `string`
 
 device type
 optional field
@@ -101,17 +69,17 @@ note: for mobile device, only 20 results are returned for every SERP
 
 #### Implementation of
 
-[ISerpGoogleMapsTaskPostRequestInfo](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[device](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#device)
+[`ISerpGoogleMapsTaskPostRequestInfo`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[`device`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#device)
 
-#### Defined in
+#### Source
 
-main.ts:38131
+main.ts:38137
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword
 required field
@@ -124,17 +92,17 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 
 #### Implementation of
 
-[ISerpGoogleMapsTaskPostRequestInfo](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[keyword](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#keyword)
+[`ISerpGoogleMapsTaskPostRequestInfo`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[`keyword`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:38078
+main.ts:38084
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -145,17 +113,17 @@ en
 
 #### Implementation of
 
-[ISerpGoogleMapsTaskPostRequestInfo](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[language_code](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#language_code)
+[`ISerpGoogleMapsTaskPostRequestInfo`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[`language_code`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:38125
+main.ts:38131
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -166,17 +134,17 @@ English
 
 #### Implementation of
 
-[ISerpGoogleMapsTaskPostRequestInfo](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[language_name](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#language_name)
+[`ISerpGoogleMapsTaskPostRequestInfo`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[`language_name`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:38118
+main.ts:38124
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -187,17 +155,17 @@ example:
 
 #### Implementation of
 
-[ISerpGoogleMapsTaskPostRequestInfo](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[location_code](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#location_code)
+[`ISerpGoogleMapsTaskPostRequestInfo`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[`location_code`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:38100
+main.ts:38106
 
-___
+***
 
-### location\_coordinate
+### location\_coordinate?
 
-• `Optional` **location\_coordinate**: `string`
+> **`optional`** **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -212,17 +180,17 @@ example:
 
 #### Implementation of
 
-[ISerpGoogleMapsTaskPostRequestInfo](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[location_coordinate](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#location_coordinate)
+[`ISerpGoogleMapsTaskPostRequestInfo`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[`location_coordinate`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#location_coordinate)
 
-#### Defined in
+#### Source
 
-main.ts:38111
+main.ts:38117
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -233,17 +201,17 @@ London,England,United Kingdom
 
 #### Implementation of
 
-[ISerpGoogleMapsTaskPostRequestInfo](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[location_name](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#location_name)
+[`ISerpGoogleMapsTaskPostRequestInfo`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[`location_name`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:38093
+main.ts:38099
 
-___
+***
 
-### max\_crawl\_pages
+### max\_crawl\_pages?
 
-• `Optional` **max\_crawl\_pages**: `number`
+> **`optional`** **max\_crawl\_pages**: `number`
 
 page crawl limit
 optional field
@@ -254,17 +222,17 @@ learn more at our help center
 
 #### Implementation of
 
-[ISerpGoogleMapsTaskPostRequestInfo](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[max_crawl_pages](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#max_crawl_pages)
+[`ISerpGoogleMapsTaskPostRequestInfo`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[`max_crawl_pages`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#max_crawl_pages)
 
-#### Defined in
+#### Source
 
-main.ts:38161
+main.ts:38167
 
-___
+***
 
-### os
+### os?
 
-• `Optional` **os**: `string`
+> **`optional`** **os**: `string`
 
 device operating system
 optional field
@@ -275,17 +243,17 @@ default value: android
 
 #### Implementation of
 
-[ISerpGoogleMapsTaskPostRequestInfo](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[os](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#os)
+[`ISerpGoogleMapsTaskPostRequestInfo`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[`os`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#os)
 
-#### Defined in
+#### Source
 
-main.ts:38138
+main.ts:38144
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -299,17 +267,17 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[ISerpGoogleMapsTaskPostRequestInfo](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[pingback_url](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#pingback_url)
+[`ISerpGoogleMapsTaskPostRequestInfo`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[`pingback_url`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#pingback_url)
 
-#### Defined in
+#### Source
 
-main.ts:38206
+main.ts:38212
 
-___
+***
 
-### postback\_data
+### postback\_data?
 
-• `Optional` **postback\_data**: `string`
+> **`optional`** **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -319,17 +287,17 @@ advanced
 
 #### Implementation of
 
-[ISerpGoogleMapsTaskPostRequestInfo](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[postback_data](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#postback_data)
+[`ISerpGoogleMapsTaskPostRequestInfo`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[`postback_data`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#postback_data)
 
-#### Defined in
+#### Source
 
-main.ts:38196
+main.ts:38202
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -343,17 +311,17 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[ISerpGoogleMapsTaskPostRequestInfo](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[postback_url](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#postback_url)
+[`ISerpGoogleMapsTaskPostRequestInfo`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[`postback_url`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#postback_url)
 
-#### Defined in
+#### Source
 
-main.ts:38190
+main.ts:38196
 
-___
+***
 
-### priority
+### priority?
 
-• `Optional` **priority**: `number`
+> **`optional`** **priority**: `number`
 
 task priority
 optional field
@@ -365,17 +333,17 @@ The cost can be calculated on the Pricing page.
 
 #### Implementation of
 
-[ISerpGoogleMapsTaskPostRequestInfo](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[priority](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#priority)
+[`ISerpGoogleMapsTaskPostRequestInfo`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[`priority`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#priority)
 
-#### Defined in
+#### Source
 
-main.ts:38086
+main.ts:38092
 
-___
+***
 
-### se\_domain
+### se\_domain?
 
-• `Optional` **se\_domain**: `string`
+> **`optional`** **se\_domain**: `string`
 
 search engine domain
 optional field
@@ -386,17 +354,17 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Implementation of
 
-[ISerpGoogleMapsTaskPostRequestInfo](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[se_domain](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#se_domain)
+[`ISerpGoogleMapsTaskPostRequestInfo`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[`se_domain`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#se_domain)
 
-#### Defined in
+#### Source
 
-main.ts:38145
+main.ts:38151
 
-___
+***
 
-### search\_places
+### search\_places?
 
-• `Optional` **search\_places**: `boolean`
+> **`optional`** **search\_places**: `boolean`
 
 search places mode
 optional field
@@ -407,17 +375,17 @@ Note: if the search_places mode is turned off and no results were found in the s
 
 #### Implementation of
 
-[ISerpGoogleMapsTaskPostRequestInfo](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[search_places](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#search_places)
+[`ISerpGoogleMapsTaskPostRequestInfo`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[`search_places`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#search_places)
 
-#### Defined in
+#### Source
 
-main.ts:38174
+main.ts:38180
 
-___
+***
 
-### search\_this\_area
+### search\_this\_area?
 
-• `Optional` **search\_this\_area**: `boolean`
+> **`optional`** **search\_this\_area**: `boolean`
 
 search this area
 optional field
@@ -427,17 +395,17 @@ Note: if the search_this_area mode is turned off, Google Maps listings might con
 
 #### Implementation of
 
-[ISerpGoogleMapsTaskPostRequestInfo](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[search_this_area](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#search_this_area)
+[`ISerpGoogleMapsTaskPostRequestInfo`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[`search_this_area`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#search_this_area)
 
-#### Defined in
+#### Source
 
-main.ts:38167
+main.ts:38173
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -447,17 +415,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[ISerpGoogleMapsTaskPostRequestInfo](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[tag](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#tag)
+[`ISerpGoogleMapsTaskPostRequestInfo`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[`tag`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:38180
+main.ts:38186
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 direct URL of the search query
 optional field
@@ -467,68 +435,62 @@ https://google.com/maps/search/pizza/@37.09024,-95.712891,4z
 
 #### Implementation of
 
-[ISerpGoogleMapsTaskPostRequestInfo](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[url](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#url)
+[`ISerpGoogleMapsTaskPostRequestInfo`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[`url`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#url)
 
-#### Defined in
+#### Source
 
-main.ts:38069
+main.ts:38075
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:38219
+main.ts:38225
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:38254
+main.ts:38260
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleMapsTaskPostRequestInfo`](SerpGoogleMapsTaskPostRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleMapsTaskPostRequestInfo`](SerpGoogleMapsTaskPostRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpGoogleMapsTaskPostRequestInfo`](SerpGoogleMapsTaskPostRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:38247
+main.ts:38253

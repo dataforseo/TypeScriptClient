@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataBingKeywordPerformanceTasksReadyTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataBingKeywordPerformanceTasksReadyTaskInfo
 
 # Class: KeywordsDataBingKeywordPerformanceTasksReadyTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`KeywordsDataBingKeywordPerformanceTasksReadyTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](KeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md#cost)
-- [data](KeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md#data)
-- [id](KeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md#id)
-- [path](KeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md#path)
-- [result](KeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md#result)
-- [result\_count](KeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md#result_count)
-- [status\_code](KeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md#status_code)
-- [status\_message](KeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md#status_message)
-- [time](KeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md#time)
-
-### Methods
-
-- [init](KeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md#init)
-- [toJSON](KeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md#tojson)
-- [fromJS](KeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordsDataBingKeywordPerformanceTasksReadyTaskInfo(data)
 
-• **new KeywordsDataBingKeywordPerformanceTasksReadyTaskInfo**(`data?`): [`KeywordsDataBingKeywordPerformanceTasksReadyTaskInfo`](KeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md)
+> **new KeywordsDataBingKeywordPerformanceTasksReadyTaskInfo**(`data`?): [`KeywordsDataBingKeywordPerformanceTasksReadyTaskInfo`](KeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md) |
+• **data?**: [`IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:132384
+main.ts:132392
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md).[cost](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md#cost)
+[`IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md).[`cost`](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md).[data](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md#data)
+[`IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md).[`data`](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md).[id](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md#id)
+[`IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md).[`id`](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md).[path](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md#path)
+[`IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md).[`path`](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`KeywordsDataBingKeywordPerformanceTasksReadyResultInfo`](KeywordsDataBingKeywordPerformanceTasksReadyResultInfo.md)[]
+> **`optional`** **result**: [`KeywordsDataBingKeywordPerformanceTasksReadyResultInfo`](KeywordsDataBingKeywordPerformanceTasksReadyResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md).[result](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md#result)
+[`IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md).[`result`](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:132380
+main.ts:132388
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md).[result_count](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md#result_count)
+[`IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md).[`result_count`](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md).[status_code](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md#status_code)
+[`IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md).[`status_code`](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md).[status_message](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md#status_message)
+[`IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md).[`status_message`](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md).[time](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md#time)
+[`IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md).[`time`](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:132388
+main.ts:132396
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:132410
+main.ts:132418
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordsDataBingKeywordPerformanceTasksReadyTaskInfo`](KeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordsDataBingKeywordPerformanceTasksReadyTaskInfo`](KeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:132403
+main.ts:132411

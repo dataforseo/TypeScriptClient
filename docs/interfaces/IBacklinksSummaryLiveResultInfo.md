@@ -1,182 +1,150 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksSummaryLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBacklinksSummaryLiveResultInfo
 
 # Interface: IBacklinksSummaryLiveResultInfo
 
-## Implemented by
-
-- [`BacklinksSummaryLiveResultInfo`](../classes/BacklinksSummaryLiveResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [backlinks](IBacklinksSummaryLiveResultInfo.md#backlinks)
-- [backlinks\_nofollow](IBacklinksSummaryLiveResultInfo.md#backlinks_nofollow)
-- [backlinks\_spam\_score](IBacklinksSummaryLiveResultInfo.md#backlinks_spam_score)
-- [broken\_backlinks](IBacklinksSummaryLiveResultInfo.md#broken_backlinks)
-- [broken\_pages](IBacklinksSummaryLiveResultInfo.md#broken_pages)
-- [crawled\_pages](IBacklinksSummaryLiveResultInfo.md#crawled_pages)
-- [external\_links\_count](IBacklinksSummaryLiveResultInfo.md#external_links_count)
-- [first\_seen](IBacklinksSummaryLiveResultInfo.md#first_seen)
-- [info](IBacklinksSummaryLiveResultInfo.md#info)
-- [internal\_links\_count](IBacklinksSummaryLiveResultInfo.md#internal_links_count)
-- [lost\_date](IBacklinksSummaryLiveResultInfo.md#lost_date)
-- [rank](IBacklinksSummaryLiveResultInfo.md#rank)
-- [referring\_domains](IBacklinksSummaryLiveResultInfo.md#referring_domains)
-- [referring\_domains\_nofollow](IBacklinksSummaryLiveResultInfo.md#referring_domains_nofollow)
-- [referring\_ips](IBacklinksSummaryLiveResultInfo.md#referring_ips)
-- [referring\_links\_attributes](IBacklinksSummaryLiveResultInfo.md#referring_links_attributes)
-- [referring\_links\_countries](IBacklinksSummaryLiveResultInfo.md#referring_links_countries)
-- [referring\_links\_platform\_types](IBacklinksSummaryLiveResultInfo.md#referring_links_platform_types)
-- [referring\_links\_semantic\_locations](IBacklinksSummaryLiveResultInfo.md#referring_links_semantic_locations)
-- [referring\_links\_tld](IBacklinksSummaryLiveResultInfo.md#referring_links_tld)
-- [referring\_links\_types](IBacklinksSummaryLiveResultInfo.md#referring_links_types)
-- [referring\_main\_domains](IBacklinksSummaryLiveResultInfo.md#referring_main_domains)
-- [referring\_main\_domains\_nofollow](IBacklinksSummaryLiveResultInfo.md#referring_main_domains_nofollow)
-- [referring\_pages](IBacklinksSummaryLiveResultInfo.md#referring_pages)
-- [referring\_pages\_nofollow](IBacklinksSummaryLiveResultInfo.md#referring_pages_nofollow)
-- [referring\_subnets](IBacklinksSummaryLiveResultInfo.md#referring_subnets)
-- [target](IBacklinksSummaryLiveResultInfo.md#target)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### backlinks
+### backlinks?
 
-• `Optional` **backlinks**: `number`
+> **`optional`** **backlinks**: `number`
 
 indicates the number of backlinks
 
-#### Defined in
+#### Source
 
-main.ts:135099
+main.ts:135107
 
-___
+***
 
-### backlinks\_nofollow
+### backlinks\_nofollow?
 
-• `Optional` **backlinks\_nofollow**: `number`
+> **`optional`** **backlinks\_nofollow**: `number`
 
 number of nofollow backlinks pointing to the target
 
-#### Defined in
+#### Source
 
-main.ts:135167
+main.ts:135175
 
-___
+***
 
-### backlinks\_spam\_score
+### backlinks\_spam\_score?
 
-• `Optional` **backlinks\_spam\_score**: `number`
+> **`optional`** **backlinks\_spam\_score**: `number`
 
 spam score of the backlinks
 displays the total spam score of all backlinks pointing to the target domain, subdomain, or webpage;
 to learn more about how the metric is calculated, refer to this Help Center page
 
-#### Defined in
+#### Source
 
-main.ts:135103
+main.ts:135111
 
-___
+***
 
-### broken\_backlinks
+### broken\_backlinks?
 
-• `Optional` **broken\_backlinks**: `number`
+> **`optional`** **broken\_backlinks**: `number`
 
 number of broken backlinks
 number of broken backlinks pointing to the target
 
-#### Defined in
+#### Source
 
-main.ts:135116
+main.ts:135124
 
-___
+***
 
-### broken\_pages
+### broken\_pages?
 
-• `Optional` **broken\_pages**: `number`
+> **`optional`** **broken\_pages**: `number`
 
 number of broken pages
 number of pages on the target that respond with 4xx or 5xx status codes
 note that the number of broken pages includes pages on the target discovered by following external links, but it may also include pages discovered by following the target’s sitemap
 
-#### Defined in
+#### Source
 
-main.ts:135120
+main.ts:135128
 
-___
+***
 
-### crawled\_pages
+### crawled\_pages?
 
-• `Optional` **crawled\_pages**: `number`
+> **`optional`** **crawled\_pages**: `number`
 
 number of crawled pages for the target
 
-#### Defined in
+#### Source
 
-main.ts:135105
+main.ts:135113
 
-___
+***
 
-### external\_links\_count
+### external\_links\_count?
 
-• `Optional` **external\_links\_count**: `number`
+> **`optional`** **external\_links\_count**: `number`
 
 number of external links on the page
 calculated as the sum of external links on the pages of the specified target
 
-#### Defined in
+#### Source
 
-main.ts:135113
+main.ts:135121
 
-___
+***
 
-### first\_seen
+### first\_seen?
 
-• `Optional` **first\_seen**: `string`
+> **`optional`** **first\_seen**: `string`
 
 date and time when our crawler found the backlink for the target for the first time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
-main.ts:135088
+main.ts:135096
 
-___
+***
 
-### info
+### info?
 
-• `Optional` **info**: [`TargetInfo`](../classes/TargetInfo.md)
+> **`optional`** **info**: [`TargetInfo`](../classes/TargetInfo.md)
 
 information about the target
 
-#### Defined in
+#### Source
 
-main.ts:135107
+main.ts:135115
 
-___
+***
 
-### internal\_links\_count
+### internal\_links\_count?
 
-• `Optional` **internal\_links\_count**: `number`
+> **`optional`** **internal\_links\_count**: `number`
 
 number of internal links
 calculated as the sum of internal links on the pages of the specified target
 
-#### Defined in
+#### Source
 
-main.ts:135110
+main.ts:135118
 
-___
+***
 
-### lost\_date
+### lost\_date?
 
-• `Optional` **lost\_date**: `string`
+> **`optional`** **lost\_date**: `string`
 
 date and time when the backlink was lost
 indicates the date and time when our crawler visited the target and it responded with a 4xx or 5xx status code or when its last backlink was removed
@@ -184,66 +152,66 @@ in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
-main.ts:135094
+main.ts:135102
 
-___
+***
 
-### rank
+### rank?
 
-• `Optional` **rank**: `number`
+> **`optional`** **rank**: `number`
 
 target rank
 learn more about the metric and how it is calculated in this help center article
 
-#### Defined in
+#### Source
 
-main.ts:135097
+main.ts:135105
 
-___
+***
 
-### referring\_domains
+### referring\_domains?
 
-• `Optional` **referring\_domains**: `number`
+> **`optional`** **referring\_domains**: `number`
 
 indicates the number of referring domains
 referring domains include subdomains that are counted as separate domains for this metric
 
-#### Defined in
+#### Source
 
-main.ts:135123
+main.ts:135131
 
-___
+***
 
-### referring\_domains\_nofollow
+### referring\_domains\_nofollow?
 
-• `Optional` **referring\_domains\_nofollow**: `number`
+> **`optional`** **referring\_domains\_nofollow**: `number`
 
 number of domains pointing at least one nofollow link to the target
 
-#### Defined in
+#### Source
 
-main.ts:135125
+main.ts:135133
 
-___
+***
 
-### referring\_ips
+### referring\_ips?
 
-• `Optional` **referring\_ips**: `number`
+> **`optional`** **referring\_ips**: `number`
 
 number of referring IP addresses
 number of IP addresses pointing to this page
 
-#### Defined in
+#### Source
 
-main.ts:135132
+main.ts:135140
 
-___
+***
 
-### referring\_links\_attributes
+### referring\_links\_attributes?
 
-• `Optional` **referring\_links\_attributes**: `Object`
+> **`optional`** **referring\_links\_attributes**: `Object`
 
 link attributes of the referring links
 indicates link attributes of the referring links and link count per each attribute
@@ -252,34 +220,34 @@ nofollow, noopener, noreferrer, external, ugc, sponsored
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
-#### Defined in
+#### Source
 
-main.ts:135149
+main.ts:135157
 
-___
+***
 
-### referring\_links\_countries
+### referring\_links\_countries?
 
-• `Optional` **referring\_links\_countries**: `Object`
+> **`optional`** **referring\_links\_countries**: `Object`
 
 ISO country codes of the referring links
 indicates ISO country codes of the domains where the referring links are located and the link count per each country
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
-#### Defined in
+#### Source
 
-main.ts:135163
+main.ts:135171
 
-___
+***
 
-### referring\_links\_platform\_types
+### referring\_links\_platform\_types?
 
-• `Optional` **referring\_links\_platform\_types**: `Object`
+> **`optional`** **referring\_links\_platform\_types**: `Object`
 
 types of referring platforms
 indicates referring platform types and and link count per each platform
@@ -288,17 +256,17 @@ cms, blogs, unknown, ecommerce, message-boards
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
-#### Defined in
+#### Source
 
-main.ts:135154
+main.ts:135162
 
-___
+***
 
-### referring\_links\_semantic\_locations
+### referring\_links\_semantic\_locations?
 
-• `Optional` **referring\_links\_semantic\_locations**: `Object`
+> **`optional`** **referring\_links\_semantic\_locations**: `Object`
 
 semantic locations of the referring links
 indicates semantic elements in HTML where the referring links are located and link count per each semantic location
@@ -308,34 +276,34 @@ article, section, summary, ""
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
-#### Defined in
+#### Source
 
-main.ts:135160
+main.ts:135168
 
-___
+***
 
-### referring\_links\_tld
+### referring\_links\_tld?
 
-• `Optional` **referring\_links\_tld**: `Object`
+> **`optional`** **referring\_links\_tld**: `Object`
 
 top-level domains of the referring links
 contains top level domains and referring link count per each
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
-#### Defined in
+#### Source
 
-main.ts:135139
+main.ts:135147
 
-___
+***
 
-### referring\_links\_types
+### referring\_links\_types?
 
-• `Optional` **referring\_links\_types**: `Object`
+> **`optional`** **referring\_links\_types**: `Object`
 
 types of referring links
 indicates the types of the referring links and link count per each type
@@ -344,80 +312,80 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 #### Index signature
 
-▪ [key: `string`]: `number`
+ \[`key`: `string`\]: `number`
 
-#### Defined in
+#### Source
 
-main.ts:135144
+main.ts:135152
 
-___
+***
 
-### referring\_main\_domains
+### referring\_main\_domains?
 
-• `Optional` **referring\_main\_domains**: `number`
+> **`optional`** **referring\_main\_domains**: `number`
 
 indicates the number of referring main domains
 
-#### Defined in
+#### Source
 
-main.ts:135127
+main.ts:135135
 
-___
+***
 
-### referring\_main\_domains\_nofollow
+### referring\_main\_domains\_nofollow?
 
-• `Optional` **referring\_main\_domains\_nofollow**: `number`
+> **`optional`** **referring\_main\_domains\_nofollow**: `number`
 
 number of main domains pointing at least one nofollow link to the target
 
-#### Defined in
+#### Source
 
-main.ts:135129
+main.ts:135137
 
-___
+***
 
-### referring\_pages
+### referring\_pages?
 
-• `Optional` **referring\_pages**: `number`
+> **`optional`** **referring\_pages**: `number`
 
 indicates the number of pages pointing to the target
 
-#### Defined in
+#### Source
 
-main.ts:135136
+main.ts:135144
 
-___
+***
 
-### referring\_pages\_nofollow
+### referring\_pages\_nofollow?
 
-• `Optional` **referring\_pages\_nofollow**: `number`
+> **`optional`** **referring\_pages\_nofollow**: `number`
 
 number of referring pages pointing at least one nofollow link to the target
 
-#### Defined in
+#### Source
 
-main.ts:135165
+main.ts:135173
 
-___
+***
 
-### referring\_subnets
+### referring\_subnets?
 
-• `Optional` **referring\_subnets**: `number`
+> **`optional`** **referring\_subnets**: `number`
 
 number of referring subnetworks
 
-#### Defined in
+#### Source
 
-main.ts:135134
+main.ts:135142
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 target in a POST array
 
-#### Defined in
+#### Source
 
-main.ts:135083
+main.ts:135091

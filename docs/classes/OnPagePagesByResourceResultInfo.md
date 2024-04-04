@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPagePagesByResourceResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPagePagesByResourceResultInfo
 
 # Class: OnPagePagesByResourceResultInfo
 
@@ -8,185 +12,157 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPagePagesByResourceResultInfo.md#constructor)
-
-### Properties
-
-- [crawl\_progress](OnPagePagesByResourceResultInfo.md#crawl_progress)
-- [crawl\_status](OnPagePagesByResourceResultInfo.md#crawl_status)
-- [items](OnPagePagesByResourceResultInfo.md#items)
-- [items\_count](OnPagePagesByResourceResultInfo.md#items_count)
-- [total\_items\_count](OnPagePagesByResourceResultInfo.md#total_items_count)
-
-### Methods
-
-- [init](OnPagePagesByResourceResultInfo.md#init)
-- [toJSON](OnPagePagesByResourceResultInfo.md#tojson)
-- [fromJS](OnPagePagesByResourceResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPagePagesByResourceResultInfo(data)
 
-• **new OnPagePagesByResourceResultInfo**(`data?`): [`OnPagePagesByResourceResultInfo`](OnPagePagesByResourceResultInfo.md)
+> **new OnPagePagesByResourceResultInfo**(`data`?): [`OnPagePagesByResourceResultInfo`](OnPagePagesByResourceResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPagePagesByResourceResultInfo`](../interfaces/IOnPagePagesByResourceResultInfo.md) |
+• **data?**: [`IOnPagePagesByResourceResultInfo`](../interfaces/IOnPagePagesByResourceResultInfo.md)
 
 #### Returns
 
 [`OnPagePagesByResourceResultInfo`](OnPagePagesByResourceResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:150957
+main.ts:150965
 
 ## Properties
 
-### crawl\_progress
+### crawl\_progress?
 
-• `Optional` **crawl\_progress**: `string`
+> **`optional`** **crawl\_progress**: `string`
 
 status of the crawling session
 possible values: in_progress, finished
 
 #### Implementation of
 
-[IOnPagePagesByResourceResultInfo](../interfaces/IOnPagePagesByResourceResultInfo.md).[crawl_progress](../interfaces/IOnPagePagesByResourceResultInfo.md#crawl_progress)
+[`IOnPagePagesByResourceResultInfo`](../interfaces/IOnPagePagesByResourceResultInfo.md).[`crawl_progress`](../interfaces/IOnPagePagesByResourceResultInfo.md#crawl_progress)
 
-#### Defined in
+#### Source
 
-main.ts:150945
+main.ts:150953
 
-___
+***
 
-### crawl\_status
+### crawl\_status?
 
-• `Optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
+> **`optional`** **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
 details of the crawling session
 
 #### Implementation of
 
-[IOnPagePagesByResourceResultInfo](../interfaces/IOnPagePagesByResourceResultInfo.md).[crawl_status](../interfaces/IOnPagePagesByResourceResultInfo.md#crawl_status)
+[`IOnPagePagesByResourceResultInfo`](../interfaces/IOnPagePagesByResourceResultInfo.md).[`crawl_status`](../interfaces/IOnPagePagesByResourceResultInfo.md#crawl_status)
 
-#### Defined in
+#### Source
 
-main.ts:150947
+main.ts:150955
 
-___
+***
 
-### items
+### items?
 
-• `Optional` **items**: [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)[]
+> **`optional`** **items**: [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)[]
 
 items array
 
 #### Implementation of
 
-[IOnPagePagesByResourceResultInfo](../interfaces/IOnPagePagesByResourceResultInfo.md).[items](../interfaces/IOnPagePagesByResourceResultInfo.md#items)
+[`IOnPagePagesByResourceResultInfo`](../interfaces/IOnPagePagesByResourceResultInfo.md).[`items`](../interfaces/IOnPagePagesByResourceResultInfo.md#items)
 
-#### Defined in
+#### Source
 
-main.ts:150953
+main.ts:150961
 
-___
+***
 
-### items\_count
+### items\_count?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **items\_count**: `number`
 
 number of items in the results array
 
 #### Implementation of
 
-[IOnPagePagesByResourceResultInfo](../interfaces/IOnPagePagesByResourceResultInfo.md).[items_count](../interfaces/IOnPagePagesByResourceResultInfo.md#items_count)
+[`IOnPagePagesByResourceResultInfo`](../interfaces/IOnPagePagesByResourceResultInfo.md).[`items_count`](../interfaces/IOnPagePagesByResourceResultInfo.md#items_count)
 
-#### Defined in
+#### Source
 
-main.ts:150951
+main.ts:150959
 
-___
+***
 
-### total\_items\_count
+### total\_items\_count?
 
-• `Optional` **total\_items\_count**: `number`
+> **`optional`** **total\_items\_count**: `number`
 
 total number of relevant items in the database
 
 #### Implementation of
 
-[IOnPagePagesByResourceResultInfo](../interfaces/IOnPagePagesByResourceResultInfo.md).[total_items_count](../interfaces/IOnPagePagesByResourceResultInfo.md#total_items_count)
+[`IOnPagePagesByResourceResultInfo`](../interfaces/IOnPagePagesByResourceResultInfo.md).[`total_items_count`](../interfaces/IOnPagePagesByResourceResultInfo.md#total_items_count)
 
-#### Defined in
+#### Source
 
-main.ts:150949
+main.ts:150957
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:150966
+main.ts:150974
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:150991
+main.ts:150999
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPagePagesByResourceResultInfo`](OnPagePagesByResourceResultInfo.md)
+> **`static`** **fromJS**(`data`): [`OnPagePagesByResourceResultInfo`](OnPagePagesByResourceResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`OnPagePagesByResourceResultInfo`](OnPagePagesByResourceResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:150984
+main.ts:150992

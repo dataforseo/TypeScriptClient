@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataErrorsResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataErrorsResultInfo
 
 # Class: KeywordsDataErrorsResultInfo
 
@@ -8,58 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataErrorsResultInfo.md#constructor)
-
-### Properties
-
-- [datetime](KeywordsDataErrorsResultInfo.md#datetime)
-- [error\_code](KeywordsDataErrorsResultInfo.md#error_code)
-- [error\_message](KeywordsDataErrorsResultInfo.md#error_message)
-- [function](KeywordsDataErrorsResultInfo.md#function)
-- [http\_code](KeywordsDataErrorsResultInfo.md#http_code)
-- [http\_method](KeywordsDataErrorsResultInfo.md#http_method)
-- [http\_response](KeywordsDataErrorsResultInfo.md#http_response)
-- [http\_time](KeywordsDataErrorsResultInfo.md#http_time)
-- [http\_url](KeywordsDataErrorsResultInfo.md#http_url)
-- [id](KeywordsDataErrorsResultInfo.md#id)
-
-### Methods
-
-- [init](KeywordsDataErrorsResultInfo.md#init)
-- [toJSON](KeywordsDataErrorsResultInfo.md#tojson)
-- [fromJS](KeywordsDataErrorsResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordsDataErrorsResultInfo(data)
 
-• **new KeywordsDataErrorsResultInfo**(`data?`): [`KeywordsDataErrorsResultInfo`](KeywordsDataErrorsResultInfo.md)
+> **new KeywordsDataErrorsResultInfo**(`data`?): [`KeywordsDataErrorsResultInfo`](KeywordsDataErrorsResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordsDataErrorsResultInfo`](../interfaces/IKeywordsDataErrorsResultInfo.md) |
+• **data?**: [`IKeywordsDataErrorsResultInfo`](../interfaces/IKeywordsDataErrorsResultInfo.md)
 
 #### Returns
 
 [`KeywordsDataErrorsResultInfo`](KeywordsDataErrorsResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:115088
+main.ts:115096
 
 ## Properties
 
-### datetime
+### datetime?
 
-• `Optional` **datetime**: `string`
+> **`optional`** **datetime**: `string`
 
 date and time when an error occurred
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -68,216 +45,210 @@ example:
 
 #### Implementation of
 
-[IKeywordsDataErrorsResultInfo](../interfaces/IKeywordsDataErrorsResultInfo.md).[datetime](../interfaces/IKeywordsDataErrorsResultInfo.md#datetime)
+[`IKeywordsDataErrorsResultInfo`](../interfaces/IKeywordsDataErrorsResultInfo.md).[`datetime`](../interfaces/IKeywordsDataErrorsResultInfo.md#datetime)
 
-#### Defined in
+#### Source
 
-main.ts:115064
+main.ts:115072
 
-___
+***
 
-### error\_code
+### error\_code?
 
-• `Optional` **error\_code**: `number`
+> **`optional`** **error\_code**: `number`
 
 error code
 
 #### Implementation of
 
-[IKeywordsDataErrorsResultInfo](../interfaces/IKeywordsDataErrorsResultInfo.md).[error_code](../interfaces/IKeywordsDataErrorsResultInfo.md#error_code)
+[`IKeywordsDataErrorsResultInfo`](../interfaces/IKeywordsDataErrorsResultInfo.md).[`error_code`](../interfaces/IKeywordsDataErrorsResultInfo.md#error_code)
 
-#### Defined in
+#### Source
 
-main.ts:115068
+main.ts:115076
 
-___
+***
 
-### error\_message
+### error\_message?
 
-• `Optional` **error\_message**: `string`
+> **`optional`** **error\_message**: `string`
 
 error message or error URL
 error message (see full list) or URL that caused an error
 
 #### Implementation of
 
-[IKeywordsDataErrorsResultInfo](../interfaces/IKeywordsDataErrorsResultInfo.md).[error_message](../interfaces/IKeywordsDataErrorsResultInfo.md#error_message)
+[`IKeywordsDataErrorsResultInfo`](../interfaces/IKeywordsDataErrorsResultInfo.md).[`error_message`](../interfaces/IKeywordsDataErrorsResultInfo.md#error_message)
 
-#### Defined in
+#### Source
 
-main.ts:115071
+main.ts:115079
 
-___
+***
 
-### function
+### function?
 
-• `Optional` **function**: `string`
+> **`optional`** **function**: `string`
 
 corresponding API function
 
 #### Implementation of
 
-[IKeywordsDataErrorsResultInfo](../interfaces/IKeywordsDataErrorsResultInfo.md).[function](../interfaces/IKeywordsDataErrorsResultInfo.md#function)
+[`IKeywordsDataErrorsResultInfo`](../interfaces/IKeywordsDataErrorsResultInfo.md).[`function`](../interfaces/IKeywordsDataErrorsResultInfo.md#function)
 
-#### Defined in
+#### Source
 
-main.ts:115066
+main.ts:115074
 
-___
+***
 
-### http\_code
+### http\_code?
 
-• `Optional` **http\_code**: `number`
+> **`optional`** **http\_code**: `number`
 
 HTTP status code
 
 #### Implementation of
 
-[IKeywordsDataErrorsResultInfo](../interfaces/IKeywordsDataErrorsResultInfo.md).[http_code](../interfaces/IKeywordsDataErrorsResultInfo.md#http_code)
+[`IKeywordsDataErrorsResultInfo`](../interfaces/IKeywordsDataErrorsResultInfo.md).[`http_code`](../interfaces/IKeywordsDataErrorsResultInfo.md#http_code)
 
-#### Defined in
+#### Source
 
-main.ts:115078
+main.ts:115086
 
-___
+***
 
-### http\_method
+### http\_method?
 
-• `Optional` **http\_method**: `string`
+> **`optional`** **http\_method**: `string`
 
 HTTP method
 
 #### Implementation of
 
-[IKeywordsDataErrorsResultInfo](../interfaces/IKeywordsDataErrorsResultInfo.md).[http_method](../interfaces/IKeywordsDataErrorsResultInfo.md#http_method)
+[`IKeywordsDataErrorsResultInfo`](../interfaces/IKeywordsDataErrorsResultInfo.md).[`http_method`](../interfaces/IKeywordsDataErrorsResultInfo.md#http_method)
 
-#### Defined in
+#### Source
 
-main.ts:115076
+main.ts:115084
 
-___
+***
 
-### http\_response
+### http\_response?
 
-• `Optional` **http\_response**: `string`
+> **`optional`** **http\_response**: `string`
 
 HTTP response
 server response
 
 #### Implementation of
 
-[IKeywordsDataErrorsResultInfo](../interfaces/IKeywordsDataErrorsResultInfo.md).[http_response](../interfaces/IKeywordsDataErrorsResultInfo.md#http_response)
+[`IKeywordsDataErrorsResultInfo`](../interfaces/IKeywordsDataErrorsResultInfo.md).[`http_response`](../interfaces/IKeywordsDataErrorsResultInfo.md#http_response)
 
-#### Defined in
+#### Source
 
-main.ts:115084
+main.ts:115092
 
-___
+***
 
-### http\_time
+### http\_time?
 
-• `Optional` **http\_time**: `number`
+> **`optional`** **http\_time**: `number`
 
 time taken by HTTP request
 for tasks set with a pingback/postback, this field will show the time it took your server to respond
 
 #### Implementation of
 
-[IKeywordsDataErrorsResultInfo](../interfaces/IKeywordsDataErrorsResultInfo.md).[http_time](../interfaces/IKeywordsDataErrorsResultInfo.md#http_time)
+[`IKeywordsDataErrorsResultInfo`](../interfaces/IKeywordsDataErrorsResultInfo.md).[`http_time`](../interfaces/IKeywordsDataErrorsResultInfo.md#http_time)
 
-#### Defined in
+#### Source
 
-main.ts:115081
+main.ts:115089
 
-___
+***
 
-### http\_url
+### http\_url?
 
-• `Optional` **http\_url**: `string`
+> **`optional`** **http\_url**: `string`
 
 URL that caused an error
 URL you used for making an API call or pingback/postback URL
 
 #### Implementation of
 
-[IKeywordsDataErrorsResultInfo](../interfaces/IKeywordsDataErrorsResultInfo.md).[http_url](../interfaces/IKeywordsDataErrorsResultInfo.md#http_url)
+[`IKeywordsDataErrorsResultInfo`](../interfaces/IKeywordsDataErrorsResultInfo.md).[`http_url`](../interfaces/IKeywordsDataErrorsResultInfo.md#http_url)
 
-#### Defined in
+#### Source
 
-main.ts:115074
+main.ts:115082
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 id of the task
 
 #### Implementation of
 
-[IKeywordsDataErrorsResultInfo](../interfaces/IKeywordsDataErrorsResultInfo.md).[id](../interfaces/IKeywordsDataErrorsResultInfo.md#id)
+[`IKeywordsDataErrorsResultInfo`](../interfaces/IKeywordsDataErrorsResultInfo.md).[`id`](../interfaces/IKeywordsDataErrorsResultInfo.md#id)
 
-#### Defined in
+#### Source
 
-main.ts:115059
+main.ts:115067
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:115097
+main.ts:115105
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:115123
+main.ts:115131
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordsDataErrorsResultInfo`](KeywordsDataErrorsResultInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordsDataErrorsResultInfo`](KeywordsDataErrorsResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`KeywordsDataErrorsResultInfo`](KeywordsDataErrorsResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:115116
+main.ts:115124

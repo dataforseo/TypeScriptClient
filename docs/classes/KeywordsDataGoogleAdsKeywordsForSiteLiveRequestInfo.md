@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo
 
 # Class: KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo
 
@@ -8,61 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [date\_from](KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#date_from)
-- [date\_to](KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#date_to)
-- [include\_adult\_keywords](KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#include_adult_keywords)
-- [language\_code](KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#language_code)
-- [language\_name](KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#language_name)
-- [location\_code](KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#location_code)
-- [location\_coordinate](KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#location_coordinate)
-- [location\_name](KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#location_name)
-- [search\_partners](KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#search_partners)
-- [sort\_by](KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#sort_by)
-- [tag](KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#tag)
-- [target](KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#target)
-- [target\_type](KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#target_type)
-
-### Methods
-
-- [init](KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#init)
-- [toJSON](KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#tojson)
-- [fromJS](KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo(data)
 
-• **new KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo**(`data?`): [`KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo`](KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md)
+> **new KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo**(`data`?): [`KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo`](KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md) |
+• **data?**: [`IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md)
 
 #### Returns
 
 [`KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo`](KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:117814
+main.ts:117822
 
 ## Properties
 
-### date\_from
+### date\_from?
 
-• `Optional` **date\_from**: `string`
+> **`optional`** **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -74,17 +48,17 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md).[date_from](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#date_from)
+[`IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md).[`date_from`](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#date_from)
 
-#### Defined in
+#### Source
 
-main.ts:117785
+main.ts:117793
 
-___
+***
 
-### date\_to
+### date\_to?
 
-• `Optional` **date\_to**: `string`
+> **`optional`** **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -96,17 +70,17 @@ example:
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md).[date_to](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#date_to)
+[`IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md).[`date_to`](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#date_to)
 
-#### Defined in
+#### Source
 
-main.ts:117793
+main.ts:117801
 
-___
+***
 
-### include\_adult\_keywords
+### include\_adult\_keywords?
 
-• `Optional` **include\_adult\_keywords**: `boolean`
+> **`optional`** **include\_adult\_keywords**: `boolean`
 
 include keywords associated with adult content
 optional field
@@ -116,17 +90,17 @@ note that the API may return no data for such keywords due to Google Ads restric
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md).[include_adult_keywords](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#include_adult_keywords)
+[`IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md).[`include_adult_keywords`](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#include_adult_keywords)
 
-#### Defined in
+#### Source
 
-main.ts:117799
+main.ts:117807
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 optional field
@@ -136,17 +110,17 @@ en
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md).[language_code](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#language_code)
+[`IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md).[`language_code`](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:117772
+main.ts:117780
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -156,17 +130,17 @@ English
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md).[language_name](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#language_name)
+[`IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md).[`language_name`](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:117766
+main.ts:117774
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 optional field
@@ -178,17 +152,17 @@ example:
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md).[location_code](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#location_code)
+[`IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md).[`location_code`](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:117751
+main.ts:117759
 
-___
+***
 
-### location\_coordinate
+### location\_coordinate?
 
-• `Optional` **location\_coordinate**: `string`
+> **`optional`** **location\_coordinate**: `string`
 
 GPS coordinates of a location
 optional field
@@ -201,17 +175,17 @@ example:
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md).[location_coordinate](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#location_coordinate)
+[`IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md).[`location_coordinate`](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#location_coordinate)
 
-#### Defined in
+#### Source
 
-main.ts:117760
+main.ts:117768
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 optional field
@@ -223,17 +197,17 @@ London,England,United Kingdom
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md).[location_name](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#location_name)
+[`IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md).[`location_name`](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:117743
+main.ts:117751
 
-___
+***
 
-### search\_partners
+### search\_partners?
 
-• `Optional` **search\_partners**: `boolean`
+> **`optional`** **search\_partners**: `boolean`
 
 include Google search partners
 optional field
@@ -242,17 +216,17 @@ default value: false – results are returned for Google search sites
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md).[search_partners](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#search_partners)
+[`IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md).[`search_partners`](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#search_partners)
 
-#### Defined in
+#### Source
 
-main.ts:117777
+main.ts:117785
 
-___
+***
 
-### sort\_by
+### sort\_by?
 
-• `Optional` **sort\_by**: `string`
+> **`optional`** **sort\_by**: `string`
 
 results sorting parameters
 optional field
@@ -261,17 +235,17 @@ default value: relevance
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md).[sort_by](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#sort_by)
+[`IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md).[`sort_by`](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#sort_by)
 
-#### Defined in
+#### Source
 
-main.ts:117804
+main.ts:117812
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -281,17 +255,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md).[tag](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#tag)
+[`IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md).[`tag`](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:117810
+main.ts:117818
 
-___
+***
 
-### target
+### target?
 
-• `Optional` **target**: `string`
+> **`optional`** **target**: `string`
 
 domain or page
 required field
@@ -300,17 +274,17 @@ note: to obtain keywords for the target website, use the target_type parameter
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md).[target](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#target)
+[`IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md).[`target`](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#target)
 
-#### Defined in
+#### Source
 
-main.ts:117728
+main.ts:117736
 
-___
+***
 
-### target\_type
+### target\_type?
 
-• `Optional` **target\_type**: `string`
+> **`optional`** **target\_type**: `string`
 
 search keywords for site or for url
 optional field
@@ -321,68 +295,62 @@ if set to page, keywords will be provided for the specified webpage
 
 #### Implementation of
 
-[IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md).[target_type](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#target_type)
+[`IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md).[`target_type`](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md#target_type)
 
-#### Defined in
+#### Source
 
-main.ts:117735
+main.ts:117743
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:117823
+main.ts:117831
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:117852
+main.ts:117860
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo`](KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo`](KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo`](KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:117845
+main.ts:117853

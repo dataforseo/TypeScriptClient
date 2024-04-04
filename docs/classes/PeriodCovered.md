@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / PeriodCovered
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / PeriodCovered
 
 # Class: PeriodCovered
 
@@ -8,51 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](PeriodCovered.md#constructor)
-
-### Properties
-
-- [displayed\_date](PeriodCovered.md#displayed_date)
-- [end\_date](PeriodCovered.md#end_date)
-- [start\_date](PeriodCovered.md#start_date)
-
-### Methods
-
-- [init](PeriodCovered.md#init)
-- [toJSON](PeriodCovered.md#tojson)
-- [fromJS](PeriodCovered.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new PeriodCovered(data)
 
-• **new PeriodCovered**(`data?`): [`PeriodCovered`](PeriodCovered.md)
+> **new PeriodCovered**(`data`?): [`PeriodCovered`](PeriodCovered.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IPeriodCovered`](../interfaces/IPeriodCovered.md) |
+• **data?**: [`IPeriodCovered`](../interfaces/IPeriodCovered.md)
 
 #### Returns
 
 [`PeriodCovered`](PeriodCovered.md)
 
-#### Defined in
+#### Source
 
-main.ts:53085
+main.ts:53093
 
 ## Properties
 
-### displayed\_date
+### displayed\_date?
 
-• `Optional` **displayed\_date**: `string`
+> **`optional`** **displayed\_date**: `string`
 
 period displayed in SERP
 example:
@@ -60,17 +44,17 @@ Mar 2, 2020 - Dec 9, 2022
 
 #### Implementation of
 
-[IPeriodCovered](../interfaces/IPeriodCovered.md).[displayed_date](../interfaces/IPeriodCovered.md#displayed_date)
+[`IPeriodCovered`](../interfaces/IPeriodCovered.md).[`displayed_date`](../interfaces/IPeriodCovered.md#displayed_date)
 
-#### Defined in
+#### Source
 
-main.ts:53081
+main.ts:53089
 
-___
+***
 
-### end\_date
+### end\_date?
 
-• `Optional` **end\_date**: `string`
+> **`optional`** **end\_date**: `string`
 
 date and time when the period ends
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -79,17 +63,17 @@ example:
 
 #### Implementation of
 
-[IPeriodCovered](../interfaces/IPeriodCovered.md).[end_date](../interfaces/IPeriodCovered.md#end_date)
+[`IPeriodCovered`](../interfaces/IPeriodCovered.md).[`end_date`](../interfaces/IPeriodCovered.md#end_date)
 
-#### Defined in
+#### Source
 
-main.ts:53077
+main.ts:53085
 
-___
+***
 
-### start\_date
+### start\_date?
 
-• `Optional` **start\_date**: `string`
+> **`optional`** **start\_date**: `string`
 
 date and time when the period starts
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -98,68 +82,62 @@ example:
 
 #### Implementation of
 
-[IPeriodCovered](../interfaces/IPeriodCovered.md).[start_date](../interfaces/IPeriodCovered.md#start_date)
+[`IPeriodCovered`](../interfaces/IPeriodCovered.md).[`start_date`](../interfaces/IPeriodCovered.md#start_date)
 
-#### Defined in
+#### Source
 
-main.ts:53072
+main.ts:53080
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:53094
+main.ts:53102
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:53113
+main.ts:53121
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`PeriodCovered`](PeriodCovered.md)
+> **`static`** **fromJS**(`data`): [`PeriodCovered`](PeriodCovered.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`PeriodCovered`](PeriodCovered.md)
 
-#### Defined in
+#### Source
 
-main.ts:53106
+main.ts:53114

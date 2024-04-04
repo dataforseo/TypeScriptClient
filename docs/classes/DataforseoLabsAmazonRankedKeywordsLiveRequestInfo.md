@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonRankedKeywordsLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoLabsAmazonRankedKeywordsLiveRequestInfo
 
 # Class: DataforseoLabsAmazonRankedKeywordsLiveRequestInfo
 
@@ -8,59 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [asin](DataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#asin)
-- [filters](DataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#filters)
-- [ignore\_synonyms](DataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#ignore_synonyms)
-- [language\_code](DataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#language_code)
-- [language\_name](DataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#language_name)
-- [limit](DataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#limit)
-- [location\_code](DataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#location_code)
-- [location\_name](DataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#location_name)
-- [offset](DataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#offset)
-- [order\_by](DataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#order_by)
-- [tag](DataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#tag)
-
-### Methods
-
-- [init](DataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#init)
-- [toJSON](DataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#tojson)
-- [fromJS](DataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoLabsAmazonRankedKeywordsLiveRequestInfo(data)
 
-• **new DataforseoLabsAmazonRankedKeywordsLiveRequestInfo**(`data?`): [`DataforseoLabsAmazonRankedKeywordsLiveRequestInfo`](DataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md)
+> **new DataforseoLabsAmazonRankedKeywordsLiveRequestInfo**(`data`?): [`DataforseoLabsAmazonRankedKeywordsLiveRequestInfo`](DataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md) |
+• **data?**: [`IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsAmazonRankedKeywordsLiveRequestInfo`](DataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:102036
+main.ts:102044
 
 ## Properties
 
-### asin
+### asin?
 
-• `Optional` **asin**: `string`
+> **`optional`** **asin**: `string`
 
 product ID
 required field
@@ -69,24 +45,24 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md).[asin](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#asin)
+[`IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md).[`asin`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#asin)
 
-#### Defined in
+#### Source
 
-main.ts:101954
+main.ts:101962
 
-___
+***
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, <=, >, >=, =, <>, in, not_in, like, not_like
+regex, <, `<=, >`, >=, =, <>, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["keyword_data.keyword_info.search_volume","in",[100,1000]];
@@ -94,17 +70,17 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md).[filters](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#filters)
+[`IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md).[`filters`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#filters)
 
-#### Defined in
+#### Source
 
-main.ts:102005
+main.ts:102013
 
-___
+***
 
-### ignore\_synonyms
+### ignore\_synonyms?
 
-• `Optional` **ignore\_synonyms**: `boolean`
+> **`optional`** **ignore\_synonyms**: `boolean`
 
 ignore highly similar keywords
 optional field
@@ -113,17 +89,17 @@ default value: false
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md).[ignore_synonyms](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#ignore_synonyms)
+[`IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md).[`ignore_synonyms`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#ignore_synonyms)
 
-#### Defined in
+#### Source
 
-main.ts:101994
+main.ts:102002
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code
 required field if don’t specify language_name
@@ -134,17 +110,17 @@ en
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md).[language_code](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#language_code)
+[`IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:101984
+main.ts:101992
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of the language
 required field if don’t specify language_code
@@ -155,17 +131,17 @@ English
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md).[language_name](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#language_name)
+[`IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:101977
+main.ts:101985
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of products in the results array
 optional field
@@ -174,17 +150,17 @@ maximum value: 1000
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md).[limit](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#limit)
+[`IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md).[`limit`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#limit)
 
-#### Defined in
+#### Source
 
-main.ts:101989
+main.ts:101997
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 required field if don’t specify location_name
@@ -196,17 +172,17 @@ example:
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md).[location_code](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#location_code)
+[`IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:101970
+main.ts:101978
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 required field if don’t specify location_code
@@ -218,17 +194,17 @@ United States
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md).[location_name](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#location_name)
+[`IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:101962
+main.ts:101970
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned keywords
 optional field
@@ -237,17 +213,17 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md).[offset](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#offset)
+[`IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md).[`offset`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#offset)
 
-#### Defined in
+#### Source
 
-main.ts:102026
+main.ts:102034
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -267,17 +243,17 @@ example:
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md).[order_by](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#order_by)
+[`IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md).[`order_by`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#order_by)
 
-#### Defined in
+#### Source
 
-main.ts:102021
+main.ts:102029
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -287,68 +263,62 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md).[tag](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#tag)
+[`IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:102032
+main.ts:102040
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:102045
+main.ts:102053
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:102080
+main.ts:102088
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoLabsAmazonRankedKeywordsLiveRequestInfo`](DataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoLabsAmazonRankedKeywordsLiveRequestInfo`](DataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoLabsAmazonRankedKeywordsLiveRequestInfo`](DataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:102073
+main.ts:102081

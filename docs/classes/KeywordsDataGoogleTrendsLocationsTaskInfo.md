@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleTrendsLocationsTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataGoogleTrendsLocationsTaskInfo
 
 # Class: KeywordsDataGoogleTrendsLocationsTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`KeywordsDataGoogleTrendsLocationsTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataGoogleTrendsLocationsTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](KeywordsDataGoogleTrendsLocationsTaskInfo.md#cost)
-- [data](KeywordsDataGoogleTrendsLocationsTaskInfo.md#data)
-- [id](KeywordsDataGoogleTrendsLocationsTaskInfo.md#id)
-- [path](KeywordsDataGoogleTrendsLocationsTaskInfo.md#path)
-- [result](KeywordsDataGoogleTrendsLocationsTaskInfo.md#result)
-- [result\_count](KeywordsDataGoogleTrendsLocationsTaskInfo.md#result_count)
-- [status\_code](KeywordsDataGoogleTrendsLocationsTaskInfo.md#status_code)
-- [status\_message](KeywordsDataGoogleTrendsLocationsTaskInfo.md#status_message)
-- [time](KeywordsDataGoogleTrendsLocationsTaskInfo.md#time)
-
-### Methods
-
-- [init](KeywordsDataGoogleTrendsLocationsTaskInfo.md#init)
-- [toJSON](KeywordsDataGoogleTrendsLocationsTaskInfo.md#tojson)
-- [fromJS](KeywordsDataGoogleTrendsLocationsTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordsDataGoogleTrendsLocationsTaskInfo(data)
 
-• **new KeywordsDataGoogleTrendsLocationsTaskInfo**(`data?`): [`KeywordsDataGoogleTrendsLocationsTaskInfo`](KeywordsDataGoogleTrendsLocationsTaskInfo.md)
+> **new KeywordsDataGoogleTrendsLocationsTaskInfo**(`data`?): [`KeywordsDataGoogleTrendsLocationsTaskInfo`](KeywordsDataGoogleTrendsLocationsTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordsDataGoogleTrendsLocationsTaskInfo`](../interfaces/IKeywordsDataGoogleTrendsLocationsTaskInfo.md) |
+• **data?**: [`IKeywordsDataGoogleTrendsLocationsTaskInfo`](../interfaces/IKeywordsDataGoogleTrendsLocationsTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:121490
+main.ts:121498
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsLocationsTaskInfo](../interfaces/IKeywordsDataGoogleTrendsLocationsTaskInfo.md).[cost](../interfaces/IKeywordsDataGoogleTrendsLocationsTaskInfo.md#cost)
+[`IKeywordsDataGoogleTrendsLocationsTaskInfo`](../interfaces/IKeywordsDataGoogleTrendsLocationsTaskInfo.md).[`cost`](../interfaces/IKeywordsDataGoogleTrendsLocationsTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsLocationsTaskInfo](../interfaces/IKeywordsDataGoogleTrendsLocationsTaskInfo.md).[data](../interfaces/IKeywordsDataGoogleTrendsLocationsTaskInfo.md#data)
+[`IKeywordsDataGoogleTrendsLocationsTaskInfo`](../interfaces/IKeywordsDataGoogleTrendsLocationsTaskInfo.md).[`data`](../interfaces/IKeywordsDataGoogleTrendsLocationsTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsLocationsTaskInfo](../interfaces/IKeywordsDataGoogleTrendsLocationsTaskInfo.md).[id](../interfaces/IKeywordsDataGoogleTrendsLocationsTaskInfo.md#id)
+[`IKeywordsDataGoogleTrendsLocationsTaskInfo`](../interfaces/IKeywordsDataGoogleTrendsLocationsTaskInfo.md).[`id`](../interfaces/IKeywordsDataGoogleTrendsLocationsTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsLocationsTaskInfo](../interfaces/IKeywordsDataGoogleTrendsLocationsTaskInfo.md).[path](../interfaces/IKeywordsDataGoogleTrendsLocationsTaskInfo.md#path)
+[`IKeywordsDataGoogleTrendsLocationsTaskInfo`](../interfaces/IKeywordsDataGoogleTrendsLocationsTaskInfo.md).[`path`](../interfaces/IKeywordsDataGoogleTrendsLocationsTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`KeywordsDataGoogleTrendsLocationsResultInfo`](KeywordsDataGoogleTrendsLocationsResultInfo.md)[]
+> **`optional`** **result**: [`KeywordsDataGoogleTrendsLocationsResultInfo`](KeywordsDataGoogleTrendsLocationsResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsLocationsTaskInfo](../interfaces/IKeywordsDataGoogleTrendsLocationsTaskInfo.md).[result](../interfaces/IKeywordsDataGoogleTrendsLocationsTaskInfo.md#result)
+[`IKeywordsDataGoogleTrendsLocationsTaskInfo`](../interfaces/IKeywordsDataGoogleTrendsLocationsTaskInfo.md).[`result`](../interfaces/IKeywordsDataGoogleTrendsLocationsTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:121486
+main.ts:121494
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsLocationsTaskInfo](../interfaces/IKeywordsDataGoogleTrendsLocationsTaskInfo.md).[result_count](../interfaces/IKeywordsDataGoogleTrendsLocationsTaskInfo.md#result_count)
+[`IKeywordsDataGoogleTrendsLocationsTaskInfo`](../interfaces/IKeywordsDataGoogleTrendsLocationsTaskInfo.md).[`result_count`](../interfaces/IKeywordsDataGoogleTrendsLocationsTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsLocationsTaskInfo](../interfaces/IKeywordsDataGoogleTrendsLocationsTaskInfo.md).[status_code](../interfaces/IKeywordsDataGoogleTrendsLocationsTaskInfo.md#status_code)
+[`IKeywordsDataGoogleTrendsLocationsTaskInfo`](../interfaces/IKeywordsDataGoogleTrendsLocationsTaskInfo.md).[`status_code`](../interfaces/IKeywordsDataGoogleTrendsLocationsTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsLocationsTaskInfo](../interfaces/IKeywordsDataGoogleTrendsLocationsTaskInfo.md).[status_message](../interfaces/IKeywordsDataGoogleTrendsLocationsTaskInfo.md#status_message)
+[`IKeywordsDataGoogleTrendsLocationsTaskInfo`](../interfaces/IKeywordsDataGoogleTrendsLocationsTaskInfo.md).[`status_message`](../interfaces/IKeywordsDataGoogleTrendsLocationsTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[IKeywordsDataGoogleTrendsLocationsTaskInfo](../interfaces/IKeywordsDataGoogleTrendsLocationsTaskInfo.md).[time](../interfaces/IKeywordsDataGoogleTrendsLocationsTaskInfo.md#time)
+[`IKeywordsDataGoogleTrendsLocationsTaskInfo`](../interfaces/IKeywordsDataGoogleTrendsLocationsTaskInfo.md).[`time`](../interfaces/IKeywordsDataGoogleTrendsLocationsTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:121494
+main.ts:121502
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:121516
+main.ts:121524
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordsDataGoogleTrendsLocationsTaskInfo`](KeywordsDataGoogleTrendsLocationsTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordsDataGoogleTrendsLocationsTaskInfo`](KeywordsDataGoogleTrendsLocationsTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:121509
+main.ts:121517

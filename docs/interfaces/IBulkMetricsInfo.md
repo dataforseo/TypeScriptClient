@@ -1,45 +1,38 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBulkMetricsInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBulkMetricsInfo
 
 # Interface: IBulkMetricsInfo
 
-## Implemented by
-
-- [`BulkMetricsInfo`](../classes/BulkMetricsInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [count](IBulkMetricsInfo.md#count)
-- [etv](IBulkMetricsInfo.md#etv)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### count
+### count?
 
-• `Optional` **count**: `number`
+> **`optional`** **count**: `number`
 
 total count of organic SERPs that contain the domain
 
-#### Defined in
+#### Source
 
-main.ts:100062
+main.ts:100070
 
-___
+***
 
-### etv
+### etv?
 
-• `Optional` **etv**: `number`
+> **`optional`** **etv**: `number`
 
 estimated traffic volume
 estimated organic monthly traffic to the domain
 calculated as the product of CTR (click-through-rate) and search volume values of all keywords the domain ranks for
 learn more about how the metric is calculated in this help center article
 
-#### Defined in
+#### Source
 
-main.ts:100060
+main.ts:100068

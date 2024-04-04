@@ -1,41 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpBaiduOrganicTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ISerpBaiduOrganicTaskPostRequestInfo
 
 # Interface: ISerpBaiduOrganicTaskPostRequestInfo
 
-## Implemented by
-
-- [`SerpBaiduOrganicTaskPostRequestInfo`](../classes/SerpBaiduOrganicTaskPostRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [depth](ISerpBaiduOrganicTaskPostRequestInfo.md#depth)
-- [device](ISerpBaiduOrganicTaskPostRequestInfo.md#device)
-- [get\_website\_url](ISerpBaiduOrganicTaskPostRequestInfo.md#get_website_url)
-- [keyword](ISerpBaiduOrganicTaskPostRequestInfo.md#keyword)
-- [language\_code](ISerpBaiduOrganicTaskPostRequestInfo.md#language_code)
-- [language\_name](ISerpBaiduOrganicTaskPostRequestInfo.md#language_name)
-- [location\_code](ISerpBaiduOrganicTaskPostRequestInfo.md#location_code)
-- [location\_coordinate](ISerpBaiduOrganicTaskPostRequestInfo.md#location_coordinate)
-- [location\_name](ISerpBaiduOrganicTaskPostRequestInfo.md#location_name)
-- [max\_crawl\_pages](ISerpBaiduOrganicTaskPostRequestInfo.md#max_crawl_pages)
-- [os](ISerpBaiduOrganicTaskPostRequestInfo.md#os)
-- [pingback\_url](ISerpBaiduOrganicTaskPostRequestInfo.md#pingback_url)
-- [postback\_data](ISerpBaiduOrganicTaskPostRequestInfo.md#postback_data)
-- [postback\_url](ISerpBaiduOrganicTaskPostRequestInfo.md#postback_url)
-- [priority](ISerpBaiduOrganicTaskPostRequestInfo.md#priority)
-- [tag](ISerpBaiduOrganicTaskPostRequestInfo.md#tag)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### depth
+### depth?
 
-• `Optional` **depth**: `number`
+> **`optional`** **depth**: `number`
 
 parsing depth
 optional field
@@ -46,30 +25,30 @@ Note: your account will be billed per each SERP containing up to 100 results;
 thus, setting a depth above 100 may result in additional charges if the search engine returns more than 100 results;
 if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance
 
-#### Defined in
+#### Source
 
-main.ts:68339
+main.ts:68347
 
-___
+***
 
-### device
+### device?
 
-• `Optional` **device**: `string`
+> **`optional`** **device**: `string`
 
 device type
 optional field
 can take the values: desktop, mobile, tablet
 default value: desktop
 
-#### Defined in
+#### Source
 
-main.ts:68387
+main.ts:68395
 
-___
+***
 
-### get\_website\_url
+### get\_website\_url?
 
-• `Optional` **get\_website\_url**: `boolean`
+> **`optional`** **get\_website\_url**: `boolean`
 
 include direct URL for each ranked result
 optional field
@@ -79,15 +58,15 @@ for example:
 http://www.baidu.com/link?url=KQt6LSwU5OHnPtB8210R8flBP40grY6lTPxH_0UO7S2kgiZMTmw3ztV0hCo5c1kLdefault value: false
 Note: if set to true, the charge per task will be multiplied by 10 as our system runs a separate request for each ranked website to return its direct URL
 
-#### Defined in
+#### Source
 
-main.ts:68404
+main.ts:68412
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword
 required field
@@ -96,15 +75,15 @@ all %## will be decoded (plus symbol ‘+’ will be decoded to a space characte
 if you need to use the “%” symbol for your keyword, please specify it as “%25”;
 if you need to use the “+” symbol for your keyword, please specify it as “%2B”
 
-#### Defined in
+#### Source
 
-main.ts:68322
+main.ts:68330
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -112,15 +91,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 zh_CN
 
-#### Defined in
+#### Source
 
-main.ts:68358
+main.ts:68366
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -128,15 +107,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 Chinese (Simplified)
 
-#### Defined in
+#### Source
 
-main.ts:68352
+main.ts:68360
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -145,15 +124,15 @@ you can receive the list of available locations of the search engines with their
 example:
 2156
 
-#### Defined in
+#### Source
 
-main.ts:68372
+main.ts:68380
 
-___
+***
 
-### location\_coordinate
+### location\_coordinate?
 
-• `Optional` **location\_coordinate**: `string`
+> **`optional`** **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -165,15 +144,15 @@ the maximum value for “radius”: 199999 (mm)if you use this field, the return
 example:
 53.476225,-2.243572,200
 
-#### Defined in
+#### Source
 
-main.ts:68382
+main.ts:68390
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -182,15 +161,15 @@ you can receive the list of available locations of the search engine with their 
 example:
 New York,New York,United States
 
-#### Defined in
+#### Source
 
-main.ts:68365
+main.ts:68373
 
-___
+***
 
-### max\_crawl\_pages
+### max\_crawl\_pages?
 
-• `Optional` **max\_crawl\_pages**: `number`
+> **`optional`** **max\_crawl\_pages**: `number`
 
 page crawl limit
 optional field
@@ -199,15 +178,15 @@ max value: 100
 Note: the max_crawl_pages and depth parameters complement each other;
 learn more at our help center
 
-#### Defined in
+#### Source
 
-main.ts:68346
+main.ts:68354
 
-___
+***
 
-### os
+### os?
 
-• `Optional` **os**: `string`
+> **`optional`** **os**: `string`
 
 device operating system
 optional field
@@ -218,15 +197,15 @@ default value: android
 if you specify tablet in the device field, choose from the following values: android, ios
 default value: android
 
-#### Defined in
+#### Source
 
-main.ts:68396
+main.ts:68404
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -238,15 +217,15 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special symbols in pingback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
-main.ts:68436
+main.ts:68444
 
-___
+***
 
-### postback\_data
+### postback\_data?
 
-• `Optional` **postback\_data**: `string`
+> **`optional`** **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -254,15 +233,15 @@ corresponds to the datatype that will be sent to your server
 possible values:
 regular, html
 
-#### Defined in
+#### Source
 
-main.ts:68426
+main.ts:68434
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -274,15 +253,15 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special symbols in postback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Defined in
+#### Source
 
-main.ts:68420
+main.ts:68428
 
-___
+***
 
-### priority
+### priority?
 
-• `Optional` **priority**: `number`
+> **`optional`** **priority**: `number`
 
 task priority
 optional field
@@ -292,15 +271,15 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page.
 
-#### Defined in
+#### Source
 
-main.ts:68330
+main.ts:68338
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -308,6 +287,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:68410
+main.ts:68418

@@ -1,68 +1,59 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IEventsElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IEventsElement
 
 # Interface: IEventsElement
 
-## Implemented by
-
-- [`EventsElement`](../classes/EventsElement.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [snippet](IEventsElement.md#snippet)
-- [title](IEventsElement.md#title)
-- [type](IEventsElement.md#type)
-- [url](IEventsElement.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### snippet
+### snippet?
 
-• `Optional` **snippet**: `string`
+> **`optional`** **snippet**: `string`
 
 text alongside the link title
 
-#### Defined in
+#### Source
 
 main.ts:31860
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of a given link element
 
-#### Defined in
+#### Source
 
 main.ts:31858
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
 main.ts:31856
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL
 
-#### Defined in
+#### Source
 
 main.ts:31862

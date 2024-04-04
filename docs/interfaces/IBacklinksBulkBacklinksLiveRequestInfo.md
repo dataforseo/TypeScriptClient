@@ -1,27 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksBulkBacklinksLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBacklinksBulkBacklinksLiveRequestInfo
 
 # Interface: IBacklinksBulkBacklinksLiveRequestInfo
 
-## Implemented by
-
-- [`BacklinksBulkBacklinksLiveRequestInfo`](../classes/BacklinksBulkBacklinksLiveRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [tag](IBacklinksBulkBacklinksLiveRequestInfo.md#tag)
-- [targets](IBacklinksBulkBacklinksLiveRequestInfo.md#targets)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -29,15 +22,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:145165
+main.ts:145173
 
-___
+***
 
-### targets
+### targets?
 
-• `Optional` **targets**: `string`[]
+> **`optional`** **targets**: `string`[]
 
 domains, subdomains or webpages to get the number of backlinks for
 required field
@@ -58,6 +51,6 @@ example:
   "www.trustpilot.com"
 ]
 
-#### Defined in
+#### Source
 
-main.ts:145159
+main.ts:145167

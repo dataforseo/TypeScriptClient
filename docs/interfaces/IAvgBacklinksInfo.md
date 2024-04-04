@@ -1,138 +1,124 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAvgBacklinksInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAvgBacklinksInfo
 
 # Interface: IAvgBacklinksInfo
 
-## Implemented by
-
-- [`AvgBacklinksInfo`](../classes/AvgBacklinksInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [backlinks](IAvgBacklinksInfo.md#backlinks)
-- [dofollow](IAvgBacklinksInfo.md#dofollow)
-- [last\_updated\_time](IAvgBacklinksInfo.md#last_updated_time)
-- [main\_domain\_rank](IAvgBacklinksInfo.md#main_domain_rank)
-- [rank](IAvgBacklinksInfo.md#rank)
-- [referring\_domains](IAvgBacklinksInfo.md#referring_domains)
-- [referring\_main\_domains](IAvgBacklinksInfo.md#referring_main_domains)
-- [referring\_pages](IAvgBacklinksInfo.md#referring_pages)
-- [se\_type](IAvgBacklinksInfo.md#se_type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### backlinks
+### backlinks?
 
-• `Optional` **backlinks**: `number`
+> **`optional`** **backlinks**: `number`
 
 average number of backlinks
 
-#### Defined in
+#### Source
 
-main.ts:81895
+main.ts:81903
 
-___
+***
 
-### dofollow
+### dofollow?
 
-• `Optional` **dofollow**: `number`
+> **`optional`** **dofollow**: `number`
 
 average number of dofollow links
 
-#### Defined in
+#### Source
 
-main.ts:81897
+main.ts:81905
 
-___
+***
 
-### last\_updated\_time
+### last\_updated\_time?
 
-• `Optional` **last\_updated\_time**: `string`
+> **`optional`** **last\_updated\_time**: `string`
 
 date and time when backlink data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
-main.ts:81914
+main.ts:81922
 
-___
+***
 
-### main\_domain\_rank
+### main\_domain\_rank?
 
-• `Optional` **main\_domain\_rank**: `number`
+> **`optional`** **main\_domain\_rank**: `number`
 
 average main domain rank
 learn more about the metric and its calculation formula in this help center article
 
-#### Defined in
+#### Source
 
-main.ts:81909
+main.ts:81917
 
-___
+***
 
-### rank
+### rank?
 
-• `Optional` **rank**: `number`
+> **`optional`** **rank**: `number`
 
 average rank
 learn more about the metric and its calculation formula in this help center article
 
-#### Defined in
+#### Source
 
-main.ts:81906
+main.ts:81914
 
-___
+***
 
-### referring\_domains
+### referring\_domains?
 
-• `Optional` **referring\_domains**: `number`
+> **`optional`** **referring\_domains**: `number`
 
 average number of referring domains
 
-#### Defined in
+#### Source
 
-main.ts:81901
+main.ts:81909
 
-___
+***
 
-### referring\_main\_domains
+### referring\_main\_domains?
 
-• `Optional` **referring\_main\_domains**: `number`
+> **`optional`** **referring\_main\_domains**: `number`
 
 average number of referring main domains
 
-#### Defined in
+#### Source
 
-main.ts:81903
+main.ts:81911
 
-___
+***
 
-### referring\_pages
+### referring\_pages?
 
-• `Optional` **referring\_pages**: `number`
+> **`optional`** **referring\_pages**: `number`
 
 average number of referring pages
 
-#### Defined in
+#### Source
 
-main.ts:81899
+main.ts:81907
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:81893
+main.ts:81901

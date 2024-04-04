@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksIdListTaskInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BacklinksIdListTaskInfo
 
 # Class: BacklinksIdListTaskInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-  ↳ **`BacklinksIdListTaskInfo`**
 
 ## Implements
 
@@ -14,43 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BacklinksIdListTaskInfo.md#constructor)
-
-### Properties
-
-- [cost](BacklinksIdListTaskInfo.md#cost)
-- [data](BacklinksIdListTaskInfo.md#data)
-- [id](BacklinksIdListTaskInfo.md#id)
-- [path](BacklinksIdListTaskInfo.md#path)
-- [result](BacklinksIdListTaskInfo.md#result)
-- [result\_count](BacklinksIdListTaskInfo.md#result_count)
-- [status\_code](BacklinksIdListTaskInfo.md#status_code)
-- [status\_message](BacklinksIdListTaskInfo.md#status_message)
-- [time](BacklinksIdListTaskInfo.md#time)
-
-### Methods
-
-- [init](BacklinksIdListTaskInfo.md#init)
-- [toJSON](BacklinksIdListTaskInfo.md#tojson)
-- [fromJS](BacklinksIdListTaskInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BacklinksIdListTaskInfo(data)
 
-• **new BacklinksIdListTaskInfo**(`data?`): [`BacklinksIdListTaskInfo`](BacklinksIdListTaskInfo.md)
+> **new BacklinksIdListTaskInfo**(`data`?): [`BacklinksIdListTaskInfo`](BacklinksIdListTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBacklinksIdListTaskInfo`](../interfaces/IBacklinksIdListTaskInfo.md) |
+• **data?**: [`IBacklinksIdListTaskInfo`](../interfaces/IBacklinksIdListTaskInfo.md)
 
 #### Returns
 
@@ -58,138 +34,138 @@
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`constructor`](BaseResponseTaskInfo.md#constructors)
 
-#### Defined in
+#### Source
 
-main.ts:133550
+main.ts:133558
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IBacklinksIdListTaskInfo](../interfaces/IBacklinksIdListTaskInfo.md).[cost](../interfaces/IBacklinksIdListTaskInfo.md#cost)
+[`IBacklinksIdListTaskInfo`](../interfaces/IBacklinksIdListTaskInfo.md).[`cost`](../interfaces/IBacklinksIdListTaskInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`cost`](BaseResponseTaskInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23121
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `Object`
+> **`optional`** **data**: `Object`
 
 contains the same parameters that you specified in the POST request
 
 #### Index signature
 
-▪ [key: `string`]: `any`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
-[IBacklinksIdListTaskInfo](../interfaces/IBacklinksIdListTaskInfo.md).[data](../interfaces/IBacklinksIdListTaskInfo.md#data)
+[`IBacklinksIdListTaskInfo`](../interfaces/IBacklinksIdListTaskInfo.md).[`data`](../interfaces/IBacklinksIdListTaskInfo.md#data)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`data`](BaseResponseTaskInfo.md#data)
 
-#### Defined in
+#### Source
 
 main.ts:23127
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[IBacklinksIdListTaskInfo](../interfaces/IBacklinksIdListTaskInfo.md).[id](../interfaces/IBacklinksIdListTaskInfo.md#id)
+[`IBacklinksIdListTaskInfo`](../interfaces/IBacklinksIdListTaskInfo.md).[`id`](../interfaces/IBacklinksIdListTaskInfo.md#id)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`id`](BaseResponseTaskInfo.md#id)
 
-#### Defined in
+#### Source
 
 main.ts:23110
 
-___
+***
 
-### path
+### path?
 
-• `Optional` **path**: `string`[]
+> **`optional`** **path**: `string`[]
 
 URL path
 
 #### Implementation of
 
-[IBacklinksIdListTaskInfo](../interfaces/IBacklinksIdListTaskInfo.md).[path](../interfaces/IBacklinksIdListTaskInfo.md#path)
+[`IBacklinksIdListTaskInfo`](../interfaces/IBacklinksIdListTaskInfo.md).[`path`](../interfaces/IBacklinksIdListTaskInfo.md#path)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`path`](BaseResponseTaskInfo.md#path)
 
-#### Defined in
+#### Source
 
 main.ts:23125
 
-___
+***
 
-### result
+### result?
 
-• `Optional` **result**: [`BacklinksIdListResultInfo`](BacklinksIdListResultInfo.md)[]
+> **`optional`** **result**: [`BacklinksIdListResultInfo`](BacklinksIdListResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[IBacklinksIdListTaskInfo](../interfaces/IBacklinksIdListTaskInfo.md).[result](../interfaces/IBacklinksIdListTaskInfo.md#result)
+[`IBacklinksIdListTaskInfo`](../interfaces/IBacklinksIdListTaskInfo.md).[`result`](../interfaces/IBacklinksIdListTaskInfo.md#result)
 
-#### Defined in
+#### Source
 
-main.ts:133546
+main.ts:133554
 
-___
+***
 
-### result\_count
+### result\_count?
 
-• `Optional` **result\_count**: `number`
+> **`optional`** **result\_count**: `number`
 
 number of elements in the result array
 
 #### Implementation of
 
-[IBacklinksIdListTaskInfo](../interfaces/IBacklinksIdListTaskInfo.md).[result_count](../interfaces/IBacklinksIdListTaskInfo.md#result_count)
+[`IBacklinksIdListTaskInfo`](../interfaces/IBacklinksIdListTaskInfo.md).[`result_count`](../interfaces/IBacklinksIdListTaskInfo.md#result_count)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`result_count`](BaseResponseTaskInfo.md#result_count)
 
-#### Defined in
+#### Source
 
 main.ts:23123
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -197,68 +173,66 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[IBacklinksIdListTaskInfo](../interfaces/IBacklinksIdListTaskInfo.md).[status_code](../interfaces/IBacklinksIdListTaskInfo.md#status_code)
+[`IBacklinksIdListTaskInfo`](../interfaces/IBacklinksIdListTaskInfo.md).[`status_code`](../interfaces/IBacklinksIdListTaskInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_code`](BaseResponseTaskInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23114
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IBacklinksIdListTaskInfo](../interfaces/IBacklinksIdListTaskInfo.md).[status_message](../interfaces/IBacklinksIdListTaskInfo.md#status_message)
+[`IBacklinksIdListTaskInfo`](../interfaces/IBacklinksIdListTaskInfo.md).[`status_message`](../interfaces/IBacklinksIdListTaskInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`status_message`](BaseResponseTaskInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23117
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 execution time, seconds
 
 #### Implementation of
 
-[IBacklinksIdListTaskInfo](../interfaces/IBacklinksIdListTaskInfo.md).[time](../interfaces/IBacklinksIdListTaskInfo.md#time)
+[`IBacklinksIdListTaskInfo`](../interfaces/IBacklinksIdListTaskInfo.md).[`time`](../interfaces/IBacklinksIdListTaskInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`time`](BaseResponseTaskInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23119
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -266,23 +240,21 @@ main.ts:23119
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`init`](BaseResponseTaskInfo.md#init)
 
-#### Defined in
+#### Source
 
-main.ts:133554
+main.ts:133562
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -290,23 +262,21 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`toJSON`](BaseResponseTaskInfo.md#tojson)
 
-#### Defined in
+#### Source
 
-main.ts:133576
+main.ts:133584
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BacklinksIdListTaskInfo`](BacklinksIdListTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`BacklinksIdListTaskInfo`](BacklinksIdListTaskInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -314,8 +284,8 @@ ___
 
 #### Overrides
 
-[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+[`BaseResponseTaskInfo`](BaseResponseTaskInfo.md).[`fromJS`](BaseResponseTaskInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
-main.ts:133569
+main.ts:133577

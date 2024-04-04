@@ -1,66 +1,56 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataYelpLocationsCountryResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IBusinessDataYelpLocationsCountryResultInfo
 
 # Interface: IBusinessDataYelpLocationsCountryResultInfo
 
-## Implemented by
-
-- [`BusinessDataYelpLocationsCountryResultInfo`](../classes/BusinessDataYelpLocationsCountryResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [country\_iso\_code](IBusinessDataYelpLocationsCountryResultInfo.md#country_iso_code)
-- [location\_code](IBusinessDataYelpLocationsCountryResultInfo.md#location_code)
-- [location\_name](IBusinessDataYelpLocationsCountryResultInfo.md#location_name)
-- [location\_name\_parent](IBusinessDataYelpLocationsCountryResultInfo.md#location_name_parent)
-- [location\_type](IBusinessDataYelpLocationsCountryResultInfo.md#location_type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### country\_iso\_code
+### country\_iso\_code?
 
-• `Optional` **country\_iso\_code**: `string`
+> **`optional`** **country\_iso\_code**: `string`
 
 ISO country code of the location
 
-#### Defined in
+#### Source
 
 main.ts:208512
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code
 
-#### Defined in
+#### Source
 
 main.ts:208502
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of the location
 
-#### Defined in
+#### Source
 
 main.ts:208504
 
-___
+***
 
-### location\_name\_parent
+### location\_name\_parent?
 
-• `Optional` **location\_name\_parent**: `string`
+> **`optional`** **location\_name\_parent**: `string`
 
 the name of the superordinate location
 example:
@@ -68,18 +58,18 @@ example:
 "location_name": "Vienna International Airport,Lower Austria,Austria",
 "location_name_parent": "Lower Austria,Austria"
 
-#### Defined in
+#### Source
 
 main.ts:208510
 
-___
+***
 
-### location\_type
+### location\_type?
 
-• `Optional` **location\_type**: `string`
+> **`optional`** **location\_type**: `string`
 
 location type
 
-#### Defined in
+#### Source
 
 main.ts:208514

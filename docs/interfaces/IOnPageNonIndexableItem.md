@@ -1,43 +1,36 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageNonIndexableItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IOnPageNonIndexableItem
 
 # Interface: IOnPageNonIndexableItem
 
-## Implemented by
-
-- [`OnPageNonIndexableItem`](../classes/OnPageNonIndexableItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [reason](IOnPageNonIndexableItem.md#reason)
-- [url](IOnPageNonIndexableItem.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### reason
+### reason?
 
-• `Optional` **reason**: `string`
+> **`optional`** **reason**: `string`
 
 the reason why the page is non-indexable
 can take the following values: robots_txt, meta_tag, http_header, attribute, too_many_redirects
 
-#### Defined in
+#### Source
 
-main.ts:154855
+main.ts:154863
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 url of the non-indexable page
 
-#### Defined in
+#### Source
 
-main.ts:154857
+main.ts:154865

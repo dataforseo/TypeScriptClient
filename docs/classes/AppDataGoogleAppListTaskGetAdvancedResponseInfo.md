@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataGoogleAppListTaskGetAdvancedResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppDataGoogleAppListTaskGetAdvancedResponseInfo
 
 # Class: AppDataGoogleAppListTaskGetAdvancedResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`AppDataGoogleAppListTaskGetAdvancedResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppDataGoogleAppListTaskGetAdvancedResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](AppDataGoogleAppListTaskGetAdvancedResponseInfo.md#cost)
-- [status\_code](AppDataGoogleAppListTaskGetAdvancedResponseInfo.md#status_code)
-- [status\_message](AppDataGoogleAppListTaskGetAdvancedResponseInfo.md#status_message)
-- [tasks](AppDataGoogleAppListTaskGetAdvancedResponseInfo.md#tasks)
-- [tasks\_count](AppDataGoogleAppListTaskGetAdvancedResponseInfo.md#tasks_count)
-- [tasks\_error](AppDataGoogleAppListTaskGetAdvancedResponseInfo.md#tasks_error)
-- [time](AppDataGoogleAppListTaskGetAdvancedResponseInfo.md#time)
-- [version](AppDataGoogleAppListTaskGetAdvancedResponseInfo.md#version)
-
-### Methods
-
-- [init](AppDataGoogleAppListTaskGetAdvancedResponseInfo.md#init)
-- [toJSON](AppDataGoogleAppListTaskGetAdvancedResponseInfo.md#tojson)
-- [fromJS](AppDataGoogleAppListTaskGetAdvancedResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppDataGoogleAppListTaskGetAdvancedResponseInfo(data)
 
-• **new AppDataGoogleAppListTaskGetAdvancedResponseInfo**(`data?`): [`AppDataGoogleAppListTaskGetAdvancedResponseInfo`](AppDataGoogleAppListTaskGetAdvancedResponseInfo.md)
+> **new AppDataGoogleAppListTaskGetAdvancedResponseInfo**(`data`?): [`AppDataGoogleAppListTaskGetAdvancedResponseInfo`](AppDataGoogleAppListTaskGetAdvancedResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppDataGoogleAppListTaskGetAdvancedResponseInfo`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResponseInfo.md) |
+• **data?**: [`IAppDataGoogleAppListTaskGetAdvancedResponseInfo`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:184432
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IAppDataGoogleAppListTaskGetAdvancedResponseInfo](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResponseInfo.md).[cost](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResponseInfo.md#cost)
+[`IAppDataGoogleAppListTaskGetAdvancedResponseInfo`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResponseInfo.md).[`cost`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[IAppDataGoogleAppListTaskGetAdvancedResponseInfo](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResponseInfo.md).[status_code](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResponseInfo.md#status_code)
+[`IAppDataGoogleAppListTaskGetAdvancedResponseInfo`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResponseInfo.md).[`status_code`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IAppDataGoogleAppListTaskGetAdvancedResponseInfo](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResponseInfo.md).[status_message](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResponseInfo.md#status_message)
+[`IAppDataGoogleAppListTaskGetAdvancedResponseInfo`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResponseInfo.md).[`status_message`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`AppDataGoogleAppListTaskGetAdvancedTaskInfo`](AppDataGoogleAppListTaskGetAdvancedTaskInfo.md)[]
+> **`optional`** **tasks**: [`AppDataGoogleAppListTaskGetAdvancedTaskInfo`](AppDataGoogleAppListTaskGetAdvancedTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[IAppDataGoogleAppListTaskGetAdvancedResponseInfo](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResponseInfo.md).[tasks](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResponseInfo.md#tasks)
+[`IAppDataGoogleAppListTaskGetAdvancedResponseInfo`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResponseInfo.md).[`tasks`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
 main.ts:184428
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[IAppDataGoogleAppListTaskGetAdvancedResponseInfo](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResponseInfo.md).[tasks_count](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResponseInfo.md#tasks_count)
+[`IAppDataGoogleAppListTaskGetAdvancedResponseInfo`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResponseInfo.md).[`tasks_count`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[IAppDataGoogleAppListTaskGetAdvancedResponseInfo](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResponseInfo.md).[tasks_error](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResponseInfo.md#tasks_error)
+[`IAppDataGoogleAppListTaskGetAdvancedResponseInfo`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResponseInfo.md).[`tasks_error`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[IAppDataGoogleAppListTaskGetAdvancedResponseInfo](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResponseInfo.md).[time](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResponseInfo.md#time)
+[`IAppDataGoogleAppListTaskGetAdvancedResponseInfo`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResponseInfo.md).[`time`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[IAppDataGoogleAppListTaskGetAdvancedResponseInfo](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResponseInfo.md).[version](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResponseInfo.md#version)
+[`IAppDataGoogleAppListTaskGetAdvancedResponseInfo`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResponseInfo.md).[`version`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:184436
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:184458
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppDataGoogleAppListTaskGetAdvancedResponseInfo`](AppDataGoogleAppListTaskGetAdvancedResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`AppDataGoogleAppListTaskGetAdvancedResponseInfo`](AppDataGoogleAppListTaskGetAdvancedResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:184451

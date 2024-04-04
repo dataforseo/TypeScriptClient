@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixErrorsResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / AppendixErrorsResultInfo
 
 # Class: AppendixErrorsResultInfo
 
@@ -8,133 +12,108 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixErrorsResultInfo.md#constructor)
-
-### Properties
-
-- [code](AppendixErrorsResultInfo.md#code)
-- [message](AppendixErrorsResultInfo.md#message)
-
-### Methods
-
-- [init](AppendixErrorsResultInfo.md#init)
-- [toJSON](AppendixErrorsResultInfo.md#tojson)
-- [fromJS](AppendixErrorsResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixErrorsResultInfo(data)
 
-• **new AppendixErrorsResultInfo**(`data?`): [`AppendixErrorsResultInfo`](AppendixErrorsResultInfo.md)
+> **new AppendixErrorsResultInfo**(`data`?): [`AppendixErrorsResultInfo`](AppendixErrorsResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixErrorsResultInfo`](../interfaces/IAppendixErrorsResultInfo.md) |
+• **data?**: [`IAppendixErrorsResultInfo`](../interfaces/IAppendixErrorsResultInfo.md)
 
 #### Returns
 
 [`AppendixErrorsResultInfo`](AppendixErrorsResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:218009
 
 ## Properties
 
-### code
+### code?
 
-• `Optional` **code**: `number`
+> **`optional`** **code**: `number`
 
 code
 
 #### Implementation of
 
-[IAppendixErrorsResultInfo](../interfaces/IAppendixErrorsResultInfo.md).[code](../interfaces/IAppendixErrorsResultInfo.md#code)
+[`IAppendixErrorsResultInfo`](../interfaces/IAppendixErrorsResultInfo.md).[`code`](../interfaces/IAppendixErrorsResultInfo.md#code)
 
-#### Defined in
+#### Source
 
 main.ts:218003
 
-___
+***
 
-### message
+### message?
 
-• `Optional` **message**: `string`
+> **`optional`** **message**: `string`
 
 message
 
 #### Implementation of
 
-[IAppendixErrorsResultInfo](../interfaces/IAppendixErrorsResultInfo.md).[message](../interfaces/IAppendixErrorsResultInfo.md#message)
+[`IAppendixErrorsResultInfo`](../interfaces/IAppendixErrorsResultInfo.md).[`message`](../interfaces/IAppendixErrorsResultInfo.md#message)
 
-#### Defined in
+#### Source
 
 main.ts:218005
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:218018
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:218036
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`AppendixErrorsResultInfo`](AppendixErrorsResultInfo.md)
+> **`static`** **fromJS**(`data`): [`AppendixErrorsResultInfo`](AppendixErrorsResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppendixErrorsResultInfo`](AppendixErrorsResultInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:218029

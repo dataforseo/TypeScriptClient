@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoTrendsDemographyInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DataforseoTrendsDemographyInfo
 
 # Class: DataforseoTrendsDemographyInfo
 
@@ -8,70 +12,48 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DataforseoTrendsDemographyInfo.md#constructor)
-
-### Properties
-
-- [demography](DataforseoTrendsDemographyInfo.md#demography)
-- [demography\_comparison](DataforseoTrendsDemographyInfo.md#demography_comparison)
-- [keywords](DataforseoTrendsDemographyInfo.md#keywords)
-- [position](DataforseoTrendsDemographyInfo.md#position)
-- [type](DataforseoTrendsDemographyInfo.md#type)
-
-### Methods
-
-- [init](DataforseoTrendsDemographyInfo.md#init)
-- [toJSON](DataforseoTrendsDemographyInfo.md#tojson)
-- [fromJS](DataforseoTrendsDemographyInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DataforseoTrendsDemographyInfo(data)
 
-• **new DataforseoTrendsDemographyInfo**(`data?`): [`DataforseoTrendsDemographyInfo`](DataforseoTrendsDemographyInfo.md)
+> **new DataforseoTrendsDemographyInfo**(`data`?): [`DataforseoTrendsDemographyInfo`](DataforseoTrendsDemographyInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDataforseoTrendsDemographyInfo`](../interfaces/IDataforseoTrendsDemographyInfo.md) |
+• **data?**: [`IDataforseoTrendsDemographyInfo`](../interfaces/IDataforseoTrendsDemographyInfo.md)
 
 #### Returns
 
 [`DataforseoTrendsDemographyInfo`](DataforseoTrendsDemographyInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:126513
+main.ts:126521
 
 ## Properties
 
-### demography
+### demography?
 
-• `Optional` **demography**: [`Demography`](Demography.md)
+> **`optional`** **demography**: [`Demography`](Demography.md)
 
 demographic breakdown of keyword popularity data per each specified term
 conains keyword popularity data by age and gender
 
 #### Implementation of
 
-[IDataforseoTrendsDemographyInfo](../interfaces/IDataforseoTrendsDemographyInfo.md).[demography](../interfaces/IDataforseoTrendsDemographyInfo.md#demography)
+[`IDataforseoTrendsDemographyInfo`](../interfaces/IDataforseoTrendsDemographyInfo.md).[`demography`](../interfaces/IDataforseoTrendsDemographyInfo.md#demography)
 
-#### Defined in
+#### Source
 
-main.ts:126505
+main.ts:126513
 
-___
+***
 
-### demography\_comparison
+### demography\_comparison?
 
-• `Optional` **demography\_comparison**: [`DemographyComparison`](DemographyComparison.md)
+> **`optional`** **demography\_comparison**: [`DemographyComparison`](DemographyComparison.md)
 
 comparison of demographic data on keyword popularity for the specified parameters
 conains keyword popularity data by age and gender
@@ -79,118 +61,112 @@ if you specified a single keyword, the value will be null
 
 #### Implementation of
 
-[IDataforseoTrendsDemographyInfo](../interfaces/IDataforseoTrendsDemographyInfo.md).[demography_comparison](../interfaces/IDataforseoTrendsDemographyInfo.md#demography_comparison)
+[`IDataforseoTrendsDemographyInfo`](../interfaces/IDataforseoTrendsDemographyInfo.md).[`demography_comparison`](../interfaces/IDataforseoTrendsDemographyInfo.md#demography_comparison)
 
-#### Defined in
+#### Source
 
-main.ts:126509
+main.ts:126517
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 relevant keywords
 the data included in the demography and demography_comparison is based on the keywords listed in this array
 
 #### Implementation of
 
-[IDataforseoTrendsDemographyInfo](../interfaces/IDataforseoTrendsDemographyInfo.md).[keywords](../interfaces/IDataforseoTrendsDemographyInfo.md#keywords)
+[`IDataforseoTrendsDemographyInfo`](../interfaces/IDataforseoTrendsDemographyInfo.md).[`keywords`](../interfaces/IDataforseoTrendsDemographyInfo.md#keywords)
 
-#### Defined in
+#### Source
 
-main.ts:126502
+main.ts:126510
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `number`
+> **`optional`** **position**: `number`
 
 the alignment of the element
 can take the following values: 1, 2, 3, 4, etc.
 
 #### Implementation of
 
-[IDataforseoTrendsDemographyInfo](../interfaces/IDataforseoTrendsDemographyInfo.md).[position](../interfaces/IDataforseoTrendsDemographyInfo.md#position)
+[`IDataforseoTrendsDemographyInfo`](../interfaces/IDataforseoTrendsDemographyInfo.md).[`position`](../interfaces/IDataforseoTrendsDemographyInfo.md#position)
 
-#### Defined in
+#### Source
 
-main.ts:126497
+main.ts:126505
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[IDataforseoTrendsDemographyInfo](../interfaces/IDataforseoTrendsDemographyInfo.md).[type](../interfaces/IDataforseoTrendsDemographyInfo.md#type)
+[`IDataforseoTrendsDemographyInfo`](../interfaces/IDataforseoTrendsDemographyInfo.md).[`type`](../interfaces/IDataforseoTrendsDemographyInfo.md#type)
 
-#### Defined in
+#### Source
 
-main.ts:126499
+main.ts:126507
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:126522
+main.ts:126530
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:126547
+main.ts:126555
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DataforseoTrendsDemographyInfo`](DataforseoTrendsDemographyInfo.md)
+> **`static`** **fromJS**(`data`): [`DataforseoTrendsDemographyInfo`](DataforseoTrendsDemographyInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DataforseoTrendsDemographyInfo`](DataforseoTrendsDemographyInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:126540
+main.ts:126548

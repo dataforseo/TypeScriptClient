@@ -1,56 +1,48 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMathSolverExpandedElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IMathSolverExpandedElement
 
 # Interface: IMathSolverExpandedElement
 
-## Implemented by
-
-- [`MathSolverExpandedElement`](../classes/MathSolverExpandedElement.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [solution](IMathSolverExpandedElement.md#solution)
-- [title](IMathSolverExpandedElement.md#title)
-- [type](IMathSolverExpandedElement.md#type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### solution
+### solution?
 
-• `Optional` **solution**: `string`[]
+> **`optional`** **solution**: `string`[]
 
 solution of the element
 displays steps to solve the mathematical equation as specified in the element
 
-#### Defined in
+#### Source
 
-main.ts:34884
+main.ts:34890
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the carousel item
 
-#### Defined in
+#### Source
 
-main.ts:34881
+main.ts:34887
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
-main.ts:34879
+main.ts:34885

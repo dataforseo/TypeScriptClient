@@ -1,59 +1,51 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDeliveryInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IDeliveryInfo
 
 # Interface: IDeliveryInfo
 
-## Implemented by
-
-- [`DeliveryInfo`](../classes/DeliveryInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [delivery\_message](IDeliveryInfo.md#delivery_message)
-- [delivery\_price](IDeliveryInfo.md#delivery_price)
-- [stores\_count\_info](IDeliveryInfo.md#stores_count_info)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### delivery\_message
+### delivery\_message?
 
-• `Optional` **delivery\_message**: `string`
+> **`optional`** **delivery\_message**: `string`
 
 delivery information
 message accompanying the delivery information as posted by the seller
 
-#### Defined in
+#### Source
 
-main.ts:169998
+main.ts:170006
 
-___
+***
 
-### delivery\_price
+### delivery\_price?
 
-• `Optional` **delivery\_price**: [`PriceInfo`](../classes/PriceInfo.md)
+> **`optional`** **delivery\_price**: [`PriceInfo`](../classes/PriceInfo.md)
 
 price for the delivery
 price of the delivery based on the location you specified in the POST request;
 if free delivery is available, the value is null
 
-#### Defined in
+#### Source
 
-main.ts:170002
+main.ts:170010
 
-___
+***
 
-### stores\_count\_info
+### stores\_count\_info?
 
-• `Optional` **stores\_count\_info**: [`StoresCountInfo`](../classes/StoresCountInfo.md)
+> **`optional`** **stores\_count\_info**: [`StoresCountInfo`](../classes/StoresCountInfo.md)
 
 stores count information
 contains information about the number of stores that offer the same product
 
-#### Defined in
+#### Source
 
-main.ts:170005
+main.ts:170013

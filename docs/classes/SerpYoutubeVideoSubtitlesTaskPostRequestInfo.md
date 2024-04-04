@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoSubtitlesTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpYoutubeVideoSubtitlesTaskPostRequestInfo
 
 # Class: SerpYoutubeVideoSubtitlesTaskPostRequestInfo
 
@@ -8,62 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#constructor)
-
-### Properties
-
-- [device](SerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#device)
-- [language\_code](SerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#language_code)
-- [language\_name](SerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#language_name)
-- [location\_code](SerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#location_code)
-- [location\_name](SerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#location_name)
-- [os](SerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#os)
-- [pingback\_url](SerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#pingback_url)
-- [postback\_data](SerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#postback_data)
-- [postback\_url](SerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#postback_url)
-- [priority](SerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#priority)
-- [subtitles\_language](SerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#subtitles_language)
-- [subtitles\_translate\_language](SerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#subtitles_translate_language)
-- [tag](SerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#tag)
-- [video\_id](SerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#video_id)
-
-### Methods
-
-- [init](SerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#init)
-- [toJSON](SerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#tojson)
-- [fromJS](SerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpYoutubeVideoSubtitlesTaskPostRequestInfo(data)
 
-• **new SerpYoutubeVideoSubtitlesTaskPostRequestInfo**(`data?`): [`SerpYoutubeVideoSubtitlesTaskPostRequestInfo`](SerpYoutubeVideoSubtitlesTaskPostRequestInfo.md)
+> **new SerpYoutubeVideoSubtitlesTaskPostRequestInfo**(`data`?): [`SerpYoutubeVideoSubtitlesTaskPostRequestInfo`](SerpYoutubeVideoSubtitlesTaskPostRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpYoutubeVideoSubtitlesTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md) |
+• **data?**: [`ISerpYoutubeVideoSubtitlesTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md)
 
 #### Returns
 
 [`SerpYoutubeVideoSubtitlesTaskPostRequestInfo`](SerpYoutubeVideoSubtitlesTaskPostRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:61907
+main.ts:61915
 
 ## Properties
 
-### device
+### device?
 
-• `Optional` **device**: `string`
+> **`optional`** **device**: `string`
 
 device type
 optional field
@@ -71,17 +44,17 @@ only value: desktop
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTaskPostRequestInfo](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md).[device](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#device)
+[`ISerpYoutubeVideoSubtitlesTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md).[`device`](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#device)
 
-#### Defined in
+#### Source
 
-main.ts:61866
+main.ts:61874
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -92,17 +65,17 @@ en
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTaskPostRequestInfo](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md).[language_code](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#language_code)
+[`ISerpYoutubeVideoSubtitlesTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md).[`language_code`](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:61862
+main.ts:61870
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -113,17 +86,17 @@ English
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTaskPostRequestInfo](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md).[language_name](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#language_name)
+[`ISerpYoutubeVideoSubtitlesTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md).[`language_name`](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:61855
+main.ts:61863
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name
@@ -134,17 +107,17 @@ example:
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTaskPostRequestInfo](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md).[location_code](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#location_code)
+[`ISerpYoutubeVideoSubtitlesTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md).[`location_code`](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:61848
+main.ts:61856
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -155,17 +128,17 @@ United States
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTaskPostRequestInfo](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md).[location_name](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#location_name)
+[`ISerpYoutubeVideoSubtitlesTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md).[`location_name`](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:61841
+main.ts:61849
 
-___
+***
 
-### os
+### os?
 
-• `Optional` **os**: `string`
+> **`optional`** **os**: `string`
 
 device operating system
 optional field
@@ -174,17 +147,17 @@ default value: windows
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTaskPostRequestInfo](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md).[os](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#os)
+[`ISerpYoutubeVideoSubtitlesTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md).[`os`](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#os)
 
-#### Defined in
+#### Source
 
-main.ts:61871
+main.ts:61879
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -198,17 +171,17 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTaskPostRequestInfo](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md).[pingback_url](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#pingback_url)
+[`ISerpYoutubeVideoSubtitlesTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md).[`pingback_url`](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#pingback_url)
 
-#### Defined in
+#### Source
 
-main.ts:61903
+main.ts:61911
 
-___
+***
 
-### postback\_data
+### postback\_data?
 
-• `Optional` **postback\_data**: `string`
+> **`optional`** **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -218,17 +191,17 @@ advanced
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTaskPostRequestInfo](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md).[postback_data](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#postback_data)
+[`ISerpYoutubeVideoSubtitlesTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md).[`postback_data`](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#postback_data)
 
-#### Defined in
+#### Source
 
-main.ts:61893
+main.ts:61901
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -242,17 +215,17 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTaskPostRequestInfo](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md).[postback_url](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#postback_url)
+[`ISerpYoutubeVideoSubtitlesTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md).[`postback_url`](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#postback_url)
 
-#### Defined in
+#### Source
 
-main.ts:61887
+main.ts:61895
 
-___
+***
 
-### priority
+### priority?
 
-• `Optional` **priority**: `number`
+> **`optional`** **priority**: `number`
 
 task priority
 optional field
@@ -264,34 +237,34 @@ The cost can be calculated on the Pricing page.
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTaskPostRequestInfo](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md).[priority](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#priority)
+[`ISerpYoutubeVideoSubtitlesTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md).[`priority`](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#priority)
 
-#### Defined in
+#### Source
 
-main.ts:61827
+main.ts:61835
 
-___
+***
 
-### subtitles\_language
+### subtitles\_language?
 
-• `Optional` **subtitles\_language**: `string`
+> **`optional`** **subtitles\_language**: `string`
 
 language code of original text
 you can get the language code from YouTube Video Info result
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTaskPostRequestInfo](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md).[subtitles_language](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#subtitles_language)
+[`ISerpYoutubeVideoSubtitlesTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md).[`subtitles_language`](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#subtitles_language)
 
-#### Defined in
+#### Source
 
-main.ts:61830
+main.ts:61838
 
-___
+***
 
-### subtitles\_translate\_language
+### subtitles\_translate\_language?
 
-• `Optional` **subtitles\_translate\_language**: `string`
+> **`optional`** **subtitles\_translate\_language**: `string`
 
 language code of translated text
 possible values:
@@ -299,17 +272,17 @@ possible values:
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTaskPostRequestInfo](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md).[subtitles_translate_language](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#subtitles_translate_language)
+[`ISerpYoutubeVideoSubtitlesTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md).[`subtitles_translate_language`](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#subtitles_translate_language)
 
-#### Defined in
+#### Source
 
-main.ts:61834
+main.ts:61842
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -319,17 +292,17 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTaskPostRequestInfo](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md).[tag](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#tag)
+[`ISerpYoutubeVideoSubtitlesTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md).[`tag`](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:61877
+main.ts:61885
 
-___
+***
 
-### video\_id
+### video\_id?
 
-• `Optional` **video\_id**: `string`
+> **`optional`** **video\_id**: `string`
 
 ID of the video
 required field
@@ -339,68 +312,62 @@ Y8Wu4rSNJms
 
 #### Implementation of
 
-[ISerpYoutubeVideoSubtitlesTaskPostRequestInfo](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md).[video_id](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#video_id)
+[`ISerpYoutubeVideoSubtitlesTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md).[`video_id`](../interfaces/ISerpYoutubeVideoSubtitlesTaskPostRequestInfo.md#video_id)
 
-#### Defined in
+#### Source
 
-main.ts:61819
+main.ts:61827
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:61916
+main.ts:61924
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:61946
+main.ts:61954
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpYoutubeVideoSubtitlesTaskPostRequestInfo`](SerpYoutubeVideoSubtitlesTaskPostRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpYoutubeVideoSubtitlesTaskPostRequestInfo`](SerpYoutubeVideoSubtitlesTaskPostRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpYoutubeVideoSubtitlesTaskPostRequestInfo`](SerpYoutubeVideoSubtitlesTaskPostRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:61939
+main.ts:61947

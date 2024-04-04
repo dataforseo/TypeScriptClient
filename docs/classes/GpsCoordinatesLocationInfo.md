@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / GpsCoordinatesLocationInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / GpsCoordinatesLocationInfo
 
 # Class: GpsCoordinatesLocationInfo
 
@@ -8,50 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](GpsCoordinatesLocationInfo.md#constructor)
-
-### Properties
-
-- [latitude](GpsCoordinatesLocationInfo.md#latitude)
-- [longitude](GpsCoordinatesLocationInfo.md#longitude)
-
-### Methods
-
-- [init](GpsCoordinatesLocationInfo.md#init)
-- [toJSON](GpsCoordinatesLocationInfo.md#tojson)
-- [fromJS](GpsCoordinatesLocationInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new GpsCoordinatesLocationInfo(data)
 
-• **new GpsCoordinatesLocationInfo**(`data?`): [`GpsCoordinatesLocationInfo`](GpsCoordinatesLocationInfo.md)
+> **new GpsCoordinatesLocationInfo**(`data`?): [`GpsCoordinatesLocationInfo`](GpsCoordinatesLocationInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IGpsCoordinatesLocationInfo`](../interfaces/IGpsCoordinatesLocationInfo.md) |
+• **data?**: [`IGpsCoordinatesLocationInfo`](../interfaces/IGpsCoordinatesLocationInfo.md)
 
 #### Returns
 
 [`GpsCoordinatesLocationInfo`](GpsCoordinatesLocationInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:198861
 
 ## Properties
 
-### latitude
+### latitude?
 
-• `Optional` **latitude**: `number`
+> **`optional`** **latitude**: `number`
 
 latitude coordinate of the hotel in google maps
 example:
@@ -59,17 +44,17 @@ example:
 
 #### Implementation of
 
-[IGpsCoordinatesLocationInfo](../interfaces/IGpsCoordinatesLocationInfo.md).[latitude](../interfaces/IGpsCoordinatesLocationInfo.md#latitude)
+[`IGpsCoordinatesLocationInfo`](../interfaces/IGpsCoordinatesLocationInfo.md).[`latitude`](../interfaces/IGpsCoordinatesLocationInfo.md#latitude)
 
-#### Defined in
+#### Source
 
 main.ts:198853
 
-___
+***
 
-### longitude
+### longitude?
 
-• `Optional` **longitude**: `number`
+> **`optional`** **longitude**: `number`
 
 longitude coordinate of the hotel in google maps
 example:
@@ -77,68 +62,62 @@ example:
 
 #### Implementation of
 
-[IGpsCoordinatesLocationInfo](../interfaces/IGpsCoordinatesLocationInfo.md).[longitude](../interfaces/IGpsCoordinatesLocationInfo.md#longitude)
+[`IGpsCoordinatesLocationInfo`](../interfaces/IGpsCoordinatesLocationInfo.md).[`longitude`](../interfaces/IGpsCoordinatesLocationInfo.md#longitude)
 
-#### Defined in
+#### Source
 
 main.ts:198857
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:198870
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:198888
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`GpsCoordinatesLocationInfo`](GpsCoordinatesLocationInfo.md)
+> **`static`** **fromJS**(`data`): [`GpsCoordinatesLocationInfo`](GpsCoordinatesLocationInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`GpsCoordinatesLocationInfo`](GpsCoordinatesLocationInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:198881

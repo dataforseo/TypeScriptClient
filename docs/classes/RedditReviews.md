@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / RedditReviews
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / RedditReviews
 
 # Class: RedditReviews
 
@@ -8,185 +12,157 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](RedditReviews.md#constructor)
-
-### Properties
-
-- [author\_name](RedditReviews.md#author_name)
-- [permalink](RedditReviews.md#permalink)
-- [subreddit](RedditReviews.md#subreddit)
-- [subreddit\_members](RedditReviews.md#subreddit_members)
-- [title](RedditReviews.md#title)
-
-### Methods
-
-- [init](RedditReviews.md#init)
-- [toJSON](RedditReviews.md#tojson)
-- [fromJS](RedditReviews.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new RedditReviews(data)
 
-• **new RedditReviews**(`data?`): [`RedditReviews`](RedditReviews.md)
+> **new RedditReviews**(`data`?): [`RedditReviews`](RedditReviews.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IRedditReviews`](../interfaces/IRedditReviews.md) |
+• **data?**: [`IRedditReviews`](../interfaces/IRedditReviews.md)
 
 #### Returns
 
 [`RedditReviews`](RedditReviews.md)
 
-#### Defined in
+#### Source
 
 main.ts:211698
 
 ## Properties
 
-### author\_name
+### author\_name?
 
-• `Optional` **author\_name**: `string`
+> **`optional`** **author\_name**: `string`
 
 nickname of the author
 nicknname of the user who published the post in the subreddit and shared the URL
 
 #### Implementation of
 
-[IRedditReviews](../interfaces/IRedditReviews.md).[author_name](../interfaces/IRedditReviews.md#author_name)
+[`IRedditReviews`](../interfaces/IRedditReviews.md).[`author_name`](../interfaces/IRedditReviews.md#author_name)
 
-#### Defined in
+#### Source
 
 main.ts:211688
 
-___
+***
 
-### permalink
+### permalink?
 
-• `Optional` **permalink**: `string`
+> **`optional`** **permalink**: `string`
 
 URL to the subreddit post
 
 #### Implementation of
 
-[IRedditReviews](../interfaces/IRedditReviews.md).[permalink](../interfaces/IRedditReviews.md#permalink)
+[`IRedditReviews`](../interfaces/IRedditReviews.md).[`permalink`](../interfaces/IRedditReviews.md#permalink)
 
-#### Defined in
+#### Source
 
 main.ts:211692
 
-___
+***
 
-### subreddit
+### subreddit?
 
-• `Optional` **subreddit**: `string`
+> **`optional`** **subreddit**: `string`
 
 the name of the subreddit
 
 #### Implementation of
 
-[IRedditReviews](../interfaces/IRedditReviews.md).[subreddit](../interfaces/IRedditReviews.md#subreddit)
+[`IRedditReviews`](../interfaces/IRedditReviews.md).[`subreddit`](../interfaces/IRedditReviews.md#subreddit)
 
-#### Defined in
+#### Source
 
 main.ts:211685
 
-___
+***
 
-### subreddit\_members
+### subreddit\_members?
 
-• `Optional` **subreddit\_members**: `number`
+> **`optional`** **subreddit\_members**: `number`
 
 number of subreddit members
 
 #### Implementation of
 
-[IRedditReviews](../interfaces/IRedditReviews.md).[subreddit_members](../interfaces/IRedditReviews.md#subreddit_members)
+[`IRedditReviews`](../interfaces/IRedditReviews.md).[`subreddit_members`](../interfaces/IRedditReviews.md#subreddit_members)
 
-#### Defined in
+#### Source
 
 main.ts:211694
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the subreddit post
 
 #### Implementation of
 
-[IRedditReviews](../interfaces/IRedditReviews.md).[title](../interfaces/IRedditReviews.md#title)
+[`IRedditReviews`](../interfaces/IRedditReviews.md).[`title`](../interfaces/IRedditReviews.md#title)
 
-#### Defined in
+#### Source
 
 main.ts:211690
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:211707
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:211728
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`RedditReviews`](RedditReviews.md)
+> **`static`** **fromJS**(`data`): [`RedditReviews`](RedditReviews.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`RedditReviews`](RedditReviews.md)
 
-#### Defined in
+#### Source
 
 main.ts:211721

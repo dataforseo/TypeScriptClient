@@ -1,298 +1,271 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ILocalPackDataforseoLabsSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ILocalPackDataforseoLabsSerpElementItem
 
 # Interface: ILocalPackDataforseoLabsSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md)
 
-  ↳ **`ILocalPackDataforseoLabsSerpElementItem`**
-
-## Implemented by
-
-- [`LocalPackDataforseoLabsSerpElementItem`](../classes/LocalPackDataforseoLabsSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [backlinks\_info](ILocalPackDataforseoLabsSerpElementItem.md#backlinks_info)
-- [description](ILocalPackDataforseoLabsSerpElementItem.md#description)
-- [domain](ILocalPackDataforseoLabsSerpElementItem.md#domain)
-- [estimated\_paid\_traffic\_cost](ILocalPackDataforseoLabsSerpElementItem.md#estimated_paid_traffic_cost)
-- [etv](ILocalPackDataforseoLabsSerpElementItem.md#etv)
-- [impressions\_etv](ILocalPackDataforseoLabsSerpElementItem.md#impressions_etv)
-- [is\_paid](ILocalPackDataforseoLabsSerpElementItem.md#is_paid)
-- [main\_domain](ILocalPackDataforseoLabsSerpElementItem.md#main_domain)
-- [phone](ILocalPackDataforseoLabsSerpElementItem.md#phone)
-- [position](ILocalPackDataforseoLabsSerpElementItem.md#position)
-- [rank\_absolute](ILocalPackDataforseoLabsSerpElementItem.md#rank_absolute)
-- [rank\_changes](ILocalPackDataforseoLabsSerpElementItem.md#rank_changes)
-- [rank\_group](ILocalPackDataforseoLabsSerpElementItem.md#rank_group)
-- [rank\_info](ILocalPackDataforseoLabsSerpElementItem.md#rank_info)
-- [rating](ILocalPackDataforseoLabsSerpElementItem.md#rating)
-- [relative\_url](ILocalPackDataforseoLabsSerpElementItem.md#relative_url)
-- [se\_type](ILocalPackDataforseoLabsSerpElementItem.md#se_type)
-- [title](ILocalPackDataforseoLabsSerpElementItem.md#title)
-- [url](ILocalPackDataforseoLabsSerpElementItem.md#url)
-- [xpath](ILocalPackDataforseoLabsSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### backlinks\_info
+### backlinks\_info?
 
-• `Optional` **backlinks\_info**: [`BacklinksInfo`](../classes/BacklinksInfo.md)
+> **`optional`** **backlinks\_info**: [`BacklinksInfo`](../classes/BacklinksInfo.md)
 
 backlinks information for the target website
 
-#### Defined in
+#### Source
 
-main.ts:95829
+main.ts:95837
 
-___
+***
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 description of the results element in SERP
 
-#### Defined in
+#### Source
 
-main.ts:95791
+main.ts:95799
 
-___
+***
 
-### domain
+### domain?
 
-• `Optional` **domain**: `string`
+> **`optional`** **domain**: `string`
 
 domain where a link points
 
-#### Defined in
+#### Source
 
-main.ts:95793
+main.ts:95801
 
-___
+***
 
-### estimated\_paid\_traffic\_cost
+### estimated\_paid\_traffic\_cost?
 
-• `Optional` **estimated\_paid\_traffic\_cost**: `number`
+> **`optional`** **estimated\_paid\_traffic\_cost**: `number`
 
 estimated cost of converting organic search traffic into paid
 represents the estimated monthly cost of running ads for the returned keyword
 the metric is calculated as the product of organic etv and paid cpc values and indicates the cost of driving the estimated volume of monthly organic traffic through PPC advertising in Google Search
 learn more about how the metric is calculated in this help center article
 
-#### Defined in
+#### Source
 
-main.ts:95821
+main.ts:95829
 
-___
+***
 
-### etv
+### etv?
 
-• `Optional` **etv**: `number`
+> **`optional`** **etv**: `number`
 
 estimated traffic volume
 estimated organic monthly traffic to the domain
 calculated as the product of CTR (click-through-rate) and search volume values of the returned keyword
 learn more about how the metric is calculated in this help center article
 
-#### Defined in
+#### Source
 
-main.ts:95811
+main.ts:95819
 
-___
+***
 
-### impressions\_etv
+### impressions\_etv?
 
-• `Optional` **impressions\_etv**: `number`
+> **`optional`** **impressions\_etv**: `number`
 
 estimated traffic volume based on impressions
 estimated organic monthly traffic to the domain
 calculated as the product of CTR (click-through-rate) and impressions values of the returned keyword
 learn more about how the metric is calculated in this help center article
 
-#### Defined in
+#### Source
 
-main.ts:95816
+main.ts:95824
 
-___
+***
 
-### is\_paid
+### is\_paid?
 
-• `Optional` **is\_paid**: `boolean`
+> **`optional`** **is\_paid**: `boolean`
 
 indicates whether the element is an ad
 
-#### Defined in
+#### Source
 
-main.ts:95799
+main.ts:95807
 
-___
+***
 
-### main\_domain
+### main\_domain?
 
-• `Optional` **main\_domain**: `string`
+> **`optional`** **main\_domain**: `string`
 
 primary domain name in SERP
 
-#### Defined in
+#### Source
 
-main.ts:95804
+main.ts:95812
 
-___
+***
 
-### phone
+### phone?
 
-• `Optional` **phone**: `string`
+> **`optional`** **phone**: `string`
 
 phone number
 
-#### Defined in
+#### Source
 
-main.ts:95795
+main.ts:95803
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Defined in
+#### Source
 
-main.ts:95785
+main.ts:95793
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Defined in
+#### Source
 
-main.ts:95781
+main.ts:95789
 
-___
+***
 
-### rank\_changes
+### rank\_changes?
 
-• `Optional` **rank\_changes**: [`RankChanges`](../classes/RankChanges.md)
+> **`optional`** **rank\_changes**: [`RankChanges`](../classes/RankChanges.md)
 
 changes in rankings
 ranking changes of the SERP element compared to the preceding month;
 Note: the changes are calculated even if the preceding month is not included in a POST request
 
-#### Defined in
+#### Source
 
-main.ts:95825
+main.ts:95833
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
-main.ts:95778
+main.ts:95786
 
-___
+***
 
-### rank\_info
+### rank\_info?
 
-• `Optional` **rank\_info**: [`RankInfo`](../classes/RankInfo.md)
+> **`optional`** **rank\_info**: [`RankInfo`](../classes/RankInfo.md)
 
 page and domain rank information
 
-#### Defined in
+#### Source
 
-main.ts:95831
+main.ts:95839
 
-___
+***
 
-### rating
+### rating?
 
-• `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+> **`optional`** **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
-#### Defined in
+#### Source
 
-main.ts:95802
+main.ts:95810
 
-___
+***
 
-### relative\_url
+### relative\_url?
 
-• `Optional` **relative\_url**: `string`
+> **`optional`** **relative\_url**: `string`
 
 URL in SERP that does not specify the HTTPs protocol and domain name
 
-#### Defined in
+#### Source
 
-main.ts:95806
+main.ts:95814
 
-___
+***
 
-### se\_type
+### se\_type?
 
-• `Optional` **se\_type**: `string`
+> **`optional`** **se\_type**: `string`
 
 search engine type
 
-#### Defined in
+#### Source
 
-main.ts:95827
+main.ts:95835
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the result in SERP
 
-#### Defined in
-
-main.ts:95789
-
-___
-
-### url
-
-• `Optional` **url**: `string`
-
-relevant URL of the Ad element in SERP
-
-#### Defined in
+#### Source
 
 main.ts:95797
 
-___
+***
 
-### xpath
+### url?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **url**: `string`
+
+relevant URL of the Ad element in SERP
+
+#### Source
+
+main.ts:95805
+
+***
+
+### xpath?
+
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
-main.ts:95787
+main.ts:95795

@@ -1,128 +1,115 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IHotelInfoPriceOffer
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IHotelInfoPriceOffer
 
 # Interface: IHotelInfoPriceOffer
 
 featured price offers
 
-## Implemented by
-
-- [`HotelInfoPriceOffer`](../classes/HotelInfoPriceOffer.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [currency](IHotelInfoPriceOffer.md#currency)
-- [free\_cancellation\_until](IHotelInfoPriceOffer.md#free_cancellation_until)
-- [max\_visitors](IHotelInfoPriceOffer.md#max_visitors)
-- [offer\_images](IHotelInfoPriceOffer.md#offer_images)
-- [price](IHotelInfoPriceOffer.md#price)
-- [title](IHotelInfoPriceOffer.md#title)
-- [type](IHotelInfoPriceOffer.md#type)
-- [url](IHotelInfoPriceOffer.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### currency
+### currency?
 
-• `Optional` **currency**: `string`
+> **`optional`** **currency**: `string`
 
 price currency
 USD is applied by default, unless specified in the POST array
 
-#### Defined in
+#### Source
 
 main.ts:199009
 
-___
+***
 
-### free\_cancellation\_until
+### free\_cancellation\_until?
 
-• `Optional` **free\_cancellation\_until**: `string`
+> **`optional`** **free\_cancellation\_until**: `string`
 
 date until free cancellation is available
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 equals null if free cancellation is not available for the selected dates
 
-#### Defined in
+#### Source
 
 main.ts:199022
 
-___
+***
 
-### max\_visitors
+### max\_visitors?
 
-• `Optional` **max\_visitors**: `number`
+> **`optional`** **max\_visitors**: `number`
 
 the maximal number of visitors
 the maximum number of visitors for which the price offer is valid
 
-#### Defined in
+#### Source
 
 main.ts:199015
 
-___
+***
 
-### offer\_images
+### offer\_images?
 
-• `Optional` **offer\_images**: `string`[]
+> **`optional`** **offer\_images**: `string`[]
 
 price offer images
 URLs of the images featured in the price offer
 
-#### Defined in
+#### Source
 
 main.ts:199018
 
-___
+***
 
-### price
+### price?
 
-• `Optional` **price**: `number`
+> **`optional`** **price**: `number`
 
 price per night
 
-#### Defined in
+#### Source
 
 main.ts:199006
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 title of the hotel
 
-#### Defined in
+#### Source
 
 main.ts:199004
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
-#### Defined in
+#### Source
 
 main.ts:199002
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 url of the price offer
 URL to the page of the website where price offer appears
 
-#### Defined in
+#### Source
 
 main.ts:199012

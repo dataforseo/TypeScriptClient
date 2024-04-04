@@ -1,31 +1,20 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageRedirectChainsRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IOnPageRedirectChainsRequestInfo
 
 # Interface: IOnPageRedirectChainsRequestInfo
 
-## Implemented by
-
-- [`OnPageRedirectChainsRequestInfo`](../classes/OnPageRedirectChainsRequestInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [filters](IOnPageRedirectChainsRequestInfo.md#filters)
-- [id](IOnPageRedirectChainsRequestInfo.md#id)
-- [limit](IOnPageRedirectChainsRequestInfo.md#limit)
-- [offset](IOnPageRedirectChainsRequestInfo.md#offset)
-- [tag](IOnPageRedirectChainsRequestInfo.md#tag)
-- [url](IOnPageRedirectChainsRequestInfo.md#url)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
@@ -38,15 +27,15 @@ examples:
 ["is_redirect_loop","=","true"]
 ["is_redirect_loop","<>","false"]
 
-#### Defined in
+#### Source
 
-main.ts:154275
+main.ts:154283
 
-___
+***
 
-### id
+### id?
 
-• `Optional` **id**: `string`
+> **`optional`** **id**: `string`
 
 ID of the task
 required field
@@ -54,45 +43,45 @@ you can get this ID in the response of the Task POST endpoint
 example:
 “07131248-1535-0216-1000-17384017ad04”
 
-#### Defined in
+#### Source
 
-main.ts:154249
+main.ts:154257
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned redirect chains
 optional field
 default value: 100
 maximum value: 1000
 
-#### Defined in
+#### Source
 
-main.ts:154259
+main.ts:154267
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned redirect chains
 optional field
 default value: 0
 if you specify the 10 value, the first ten redirect chains in the results array will be omitted and the data will be provided for the successive redirect chains
 
-#### Defined in
+#### Source
 
-main.ts:154264
+main.ts:154272
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -100,21 +89,21 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
+#### Source
 
-main.ts:154281
+main.ts:154289
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 page URL
 optional field
 absolute URL of the target page
 if you use this field, the API response will return only redirect chains which contain the specified URL
 
-#### Defined in
+#### Source
 
-main.ts:154254
+main.ts:154262

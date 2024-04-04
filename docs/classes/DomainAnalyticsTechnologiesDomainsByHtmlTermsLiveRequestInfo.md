@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo
 
 # Class: DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo
 
@@ -8,69 +12,44 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md#constructor)
-
-### Properties
-
-- [filters](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md#filters)
-- [keywords](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md#keywords)
-- [limit](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md#limit)
-- [mode](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md#mode)
-- [offset](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md#offset)
-- [offset\_token](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md#offset_token)
-- [order\_by](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md#order_by)
-- [search\_terms](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md#search_terms)
-
-### Methods
-
-- [init](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md#init)
-- [toJSON](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md#tojson)
-- [fromJS](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo(data)
 
-• **new DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo**(`data?`): [`DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo`](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md)
+> **new DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo**(`data`?): [`DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo`](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md) |
+• **data?**: [`IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md)
 
 #### Returns
 
 [`DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo`](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:77074
+main.ts:77082
 
 ## Properties
 
-### filters
+### filters?
 
-• `Optional` **filters**: `any`[]
+> **`optional`** **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-<, <=, >, >=, =, <>, in, not_in, like, not_like
+<, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["domain","like","%seo%"]
 [["country_iso_code","=","US"],
 "and",
-["domain_rank",">",100]]
+["domain_rank",">`",100]]
 [["domain_rank",">",100],
 "and",
 [["country_iso_code","=","US"],"or",["country_iso_code","=","CA"]]]
@@ -78,17 +57,17 @@ for more information about filters, please refer to Domain Analytics Technologie
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md).[filters](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md#filters)
+[`IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md).[`filters`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md#filters)
 
-#### Defined in
+#### Source
 
-main.ts:77033
+main.ts:77041
 
-___
+***
 
-### keywords
+### keywords?
 
-• `Optional` **keywords**: `string`[]
+> **`optional`** **keywords**: `string`[]
 
 target keywords in the domain’s title, description or meta keywords
 optional field
@@ -100,17 +79,17 @@ example:
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md).[keywords](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md#keywords)
+[`IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md).[`keywords`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md#keywords)
 
-#### Defined in
+#### Source
 
-main.ts:77009
+main.ts:77017
 
-___
+***
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> **`optional`** **limit**: `number`
 
 the maximum number of returned domains
 optional field
@@ -119,17 +98,17 @@ maximum value: 10000
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md).[limit](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md#limit)
+[`IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md).[`limit`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md#limit)
 
-#### Defined in
+#### Source
 
-main.ts:77055
+main.ts:77063
 
-___
+***
 
-### mode
+### mode?
 
-• `Optional` **mode**: `string`
+> **`optional`** **mode**: `string`
 
 search mode
 optional field
@@ -140,17 +119,17 @@ default value: entry
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md).[mode](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md#mode)
+[`IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md).[`mode`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md#mode)
 
-#### Defined in
+#### Source
 
-main.ts:77016
+main.ts:77024
 
-___
+***
 
-### offset
+### offset?
 
-• `Optional` **offset**: `number`
+> **`optional`** **offset**: `number`
 
 offset in the results array of returned domains
 optional field
@@ -161,17 +140,17 @@ use the offset_token if you would like to offset more results
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md).[offset](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md#offset)
+[`IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md).[`offset`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md#offset)
 
-#### Defined in
+#### Source
 
-main.ts:77062
+main.ts:77070
 
-___
+***
 
-### offset\_token
+### offset\_token?
 
-• `Optional` **offset\_token**: `string`
+> **`optional`** **offset\_token**: `string`
 
 token for subsequent requests
 optional field
@@ -183,17 +162,17 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md).[offset_token](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md#offset_token)
+[`IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md).[`offset_token`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md#offset_token)
 
-#### Defined in
+#### Source
 
-main.ts:77070
+main.ts:77078
 
-___
+***
 
-### order\_by
+### order\_by?
 
-• `Optional` **order\_by**: `string`[]
+> **`optional`** **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -214,17 +193,17 @@ example:
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md).[order_by](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md#order_by)
+[`IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md).[`order_by`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md#order_by)
 
-#### Defined in
+#### Source
 
-main.ts:77050
+main.ts:77058
 
-___
+***
 
-### search\_terms
+### search\_terms?
 
-• `Optional` **search\_terms**: `string`[]
+> **`optional`** **search\_terms**: `string`[]
 
 target search terms
 required field
@@ -236,68 +215,62 @@ example:
 
 #### Implementation of
 
-[IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md).[search_terms](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md#search_terms)
+[`IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md).[`search_terms`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md#search_terms)
 
-#### Defined in
+#### Source
 
-main.ts:77001
+main.ts:77009
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:77083
+main.ts:77091
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:77123
+main.ts:77131
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo`](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo`](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo`](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:77116
+main.ts:77124

@@ -1,75 +1,61 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAutocompleteSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IAutocompleteSerpElementItem
 
 # Interface: IAutocompleteSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
 
-  ↳ **`IAutocompleteSerpElementItem`**
-
-## Implemented by
-
-- [`AutocompleteSerpElementItem`](../classes/AutocompleteSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [highlighted](IAutocompleteSerpElementItem.md#highlighted)
-- [rank\_absolute](IAutocompleteSerpElementItem.md#rank_absolute)
-- [rank\_group](IAutocompleteSerpElementItem.md#rank_group)
-- [relevance](IAutocompleteSerpElementItem.md#relevance)
-- [search\_query\_url](IAutocompleteSerpElementItem.md#search_query_url)
-- [suggestion](IAutocompleteSerpElementItem.md#suggestion)
-- [suggestion\_type](IAutocompleteSerpElementItem.md#suggestion_type)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### highlighted
+### highlighted?
 
-• `Optional` **highlighted**: `string`[]
+> **`optional`** **highlighted**: `string`[]
 
-#### Defined in
+#### Source
 
-main.ts:51406
+main.ts:51414
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Defined in
+#### Source
 
-main.ts:51389
+main.ts:51397
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
-main.ts:51386
+main.ts:51394
 
-___
+***
 
-### relevance
+### relevance?
 
-• `Optional` **relevance**: `number`
+> **`optional`** **relevance**: `number`
 
 relevance of suggested keyword
 represents the relevant of the autocomplete suggestion to the target keyword
@@ -78,45 +64,45 @@ the higher the value, the more relevant is the suggestion
 Note: only available for the following client:
 chrome/chrome-omni
 
-#### Defined in
+#### Source
 
-main.ts:51396
+main.ts:51404
 
-___
+***
 
-### search\_query\_url
+### search\_query\_url?
 
-• `Optional` **search\_query\_url**: `string`
+> **`optional`** **search\_query\_url**: `string`
 
 url to search results
 url to search results relevant to the google autocomplete suggestion
 
-#### Defined in
+#### Source
 
-main.ts:51405
+main.ts:51413
 
-___
+***
 
-### suggestion
+### suggestion?
 
-• `Optional` **suggestion**: `string`
+> **`optional`** **suggestion**: `string`
 
 google autocomplete keyword suggestion
 
-#### Defined in
+#### Source
 
-main.ts:51398
+main.ts:51406
 
-___
+***
 
-### suggestion\_type
+### suggestion\_type?
 
-• `Optional` **suggestion\_type**: `string`
+> **`optional`** **suggestion\_type**: `string`
 
 google autocomplete suggestion type
 Note: only available for the following client:
 chrome/chrome-omni
 
-#### Defined in
+#### Source
 
-main.ts:51402
+main.ts:51410

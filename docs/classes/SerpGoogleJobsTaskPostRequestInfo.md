@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleJobsTaskPostRequestInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / SerpGoogleJobsTaskPostRequestInfo
 
 # Class: SerpGoogleJobsTaskPostRequestInfo
 
@@ -8,62 +12,31 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](SerpGoogleJobsTaskPostRequestInfo.md#constructor)
-
-### Properties
-
-- [date\_posted](SerpGoogleJobsTaskPostRequestInfo.md#date_posted)
-- [depth](SerpGoogleJobsTaskPostRequestInfo.md#depth)
-- [employment\_type](SerpGoogleJobsTaskPostRequestInfo.md#employment_type)
-- [keyword](SerpGoogleJobsTaskPostRequestInfo.md#keyword)
-- [language\_code](SerpGoogleJobsTaskPostRequestInfo.md#language_code)
-- [language\_name](SerpGoogleJobsTaskPostRequestInfo.md#language_name)
-- [location\_code](SerpGoogleJobsTaskPostRequestInfo.md#location_code)
-- [location\_name](SerpGoogleJobsTaskPostRequestInfo.md#location_name)
-- [location\_radius](SerpGoogleJobsTaskPostRequestInfo.md#location_radius)
-- [pingback\_url](SerpGoogleJobsTaskPostRequestInfo.md#pingback_url)
-- [postback\_data](SerpGoogleJobsTaskPostRequestInfo.md#postback_data)
-- [postback\_url](SerpGoogleJobsTaskPostRequestInfo.md#postback_url)
-- [priority](SerpGoogleJobsTaskPostRequestInfo.md#priority)
-- [tag](SerpGoogleJobsTaskPostRequestInfo.md#tag)
-
-### Methods
-
-- [init](SerpGoogleJobsTaskPostRequestInfo.md#init)
-- [toJSON](SerpGoogleJobsTaskPostRequestInfo.md#tojson)
-- [fromJS](SerpGoogleJobsTaskPostRequestInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new SerpGoogleJobsTaskPostRequestInfo(data)
 
-• **new SerpGoogleJobsTaskPostRequestInfo**(`data?`): [`SerpGoogleJobsTaskPostRequestInfo`](SerpGoogleJobsTaskPostRequestInfo.md)
+> **new SerpGoogleJobsTaskPostRequestInfo**(`data`?): [`SerpGoogleJobsTaskPostRequestInfo`](SerpGoogleJobsTaskPostRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ISerpGoogleJobsTaskPostRequestInfo`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md) |
+• **data?**: [`ISerpGoogleJobsTaskPostRequestInfo`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md)
 
 #### Returns
 
 [`SerpGoogleJobsTaskPostRequestInfo`](SerpGoogleJobsTaskPostRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:49145
+main.ts:49153
 
 ## Properties
 
-### date\_posted
+### date\_posted?
 
-• `Optional` **date\_posted**: `string`
+> **`optional`** **date\_posted**: `string`
 
 job posting date
 optional field
@@ -76,17 +49,17 @@ month — return job vacancies posted no longer than a month ago
 
 #### Implementation of
 
-[ISerpGoogleJobsTaskPostRequestInfo](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md).[date_posted](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md#date_posted)
+[`ISerpGoogleJobsTaskPostRequestInfo`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md).[`date_posted`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md#date_posted)
 
-#### Defined in
+#### Source
 
-main.ts:49109
+main.ts:49117
 
-___
+***
 
-### depth
+### depth?
 
-• `Optional` **depth**: `number`
+> **`optional`** **depth**: `number`
 
 parsing depth
 optional field
@@ -99,17 +72,17 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Implementation of
 
-[ISerpGoogleJobsTaskPostRequestInfo](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md).[depth](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md#depth)
+[`ISerpGoogleJobsTaskPostRequestInfo`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md).[`depth`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md#depth)
 
-#### Defined in
+#### Source
 
-main.ts:49094
+main.ts:49102
 
-___
+***
 
-### employment\_type
+### employment\_type?
 
-• `Optional` **employment\_type**: `string`[]
+> **`optional`** **employment\_type**: `string`[]
 
 employment contract type
 optional field
@@ -119,17 +92,17 @@ fulltime, partime, contractor, intern
 
 #### Implementation of
 
-[ISerpGoogleJobsTaskPostRequestInfo](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md).[employment_type](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md#employment_type)
+[`ISerpGoogleJobsTaskPostRequestInfo`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md).[`employment_type`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md#employment_type)
 
-#### Defined in
+#### Source
 
-main.ts:49100
+main.ts:49108
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword
 required field
@@ -142,17 +115,17 @@ example: .net developer
 
 #### Implementation of
 
-[ISerpGoogleJobsTaskPostRequestInfo](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md).[keyword](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md#keyword)
+[`ISerpGoogleJobsTaskPostRequestInfo`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md).[`keyword`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:49042
+main.ts:49050
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -163,17 +136,17 @@ en
 
 #### Implementation of
 
-[ISerpGoogleJobsTaskPostRequestInfo](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md).[language_code](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md#language_code)
+[`ISerpGoogleJobsTaskPostRequestInfo`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md).[`language_code`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:49085
+main.ts:49093
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -184,17 +157,17 @@ English
 
 #### Implementation of
 
-[ISerpGoogleJobsTaskPostRequestInfo](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md).[language_name](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md#language_name)
+[`ISerpGoogleJobsTaskPostRequestInfo`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md).[`language_name`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:49078
+main.ts:49086
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name;
@@ -204,17 +177,17 @@ example:
 
 #### Implementation of
 
-[ISerpGoogleJobsTaskPostRequestInfo](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md).[location_code](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md#location_code)
+[`ISerpGoogleJobsTaskPostRequestInfo`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md).[`location_code`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:49063
+main.ts:49071
 
-___
+***
 
-### location\_name
+### location\_name?
 
-• `Optional` **location\_name**: `string`
+> **`optional`** **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -225,17 +198,17 @@ London,England,United Kingdom
 
 #### Implementation of
 
-[ISerpGoogleJobsTaskPostRequestInfo](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md).[location_name](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md#location_name)
+[`ISerpGoogleJobsTaskPostRequestInfo`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md).[`location_name`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md#location_name)
 
-#### Defined in
+#### Source
 
-main.ts:49057
+main.ts:49065
 
-___
+***
 
-### location\_radius
+### location\_radius?
 
-• `Optional` **location\_radius**: `number`
+> **`optional`** **location\_radius**: `number`
 
 location search radius
 optional field
@@ -247,17 +220,17 @@ minimal value: > 0
 
 #### Implementation of
 
-[ISerpGoogleJobsTaskPostRequestInfo](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md).[location_radius](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md#location_radius)
+[`ISerpGoogleJobsTaskPostRequestInfo`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md).[`location_radius`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md#location_radius)
 
-#### Defined in
+#### Source
 
-main.ts:49071
+main.ts:49079
 
-___
+***
 
-### pingback\_url
+### pingback\_url?
 
-• `Optional` **pingback\_url**: `string`
+> **`optional`** **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -271,17 +244,17 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[ISerpGoogleJobsTaskPostRequestInfo](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md).[pingback_url](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md#pingback_url)
+[`ISerpGoogleJobsTaskPostRequestInfo`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md).[`pingback_url`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md#pingback_url)
 
-#### Defined in
+#### Source
 
-main.ts:49141
+main.ts:49149
 
-___
+***
 
-### postback\_data
+### postback\_data?
 
-• `Optional` **postback\_data**: `string`
+> **`optional`** **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -291,17 +264,17 @@ regular, advanced, html
 
 #### Implementation of
 
-[ISerpGoogleJobsTaskPostRequestInfo](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md).[postback_data](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md#postback_data)
+[`ISerpGoogleJobsTaskPostRequestInfo`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md).[`postback_data`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md#postback_data)
 
-#### Defined in
+#### Source
 
-main.ts:49131
+main.ts:49139
 
-___
+***
 
-### postback\_url
+### postback\_url?
 
-• `Optional` **postback\_url**: `string`
+> **`optional`** **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -315,17 +288,17 @@ i.a., the # symbol will be encoded into %23
 
 #### Implementation of
 
-[ISerpGoogleJobsTaskPostRequestInfo](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md).[postback_url](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md#postback_url)
+[`ISerpGoogleJobsTaskPostRequestInfo`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md).[`postback_url`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md#postback_url)
 
-#### Defined in
+#### Source
 
-main.ts:49125
+main.ts:49133
 
-___
+***
 
-### priority
+### priority?
 
-• `Optional` **priority**: `number`
+> **`optional`** **priority**: `number`
 
 task priority
 optional field
@@ -337,17 +310,17 @@ The cost can be calculated on the Pricing page
 
 #### Implementation of
 
-[ISerpGoogleJobsTaskPostRequestInfo](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md).[priority](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md#priority)
+[`ISerpGoogleJobsTaskPostRequestInfo`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md).[`priority`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md#priority)
 
-#### Defined in
+#### Source
 
-main.ts:49050
+main.ts:49058
 
-___
+***
 
-### tag
+### tag?
 
-• `Optional` **tag**: `string`
+> **`optional`** **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -357,68 +330,62 @@ you will find the specified tag value in the data object of the response
 
 #### Implementation of
 
-[ISerpGoogleJobsTaskPostRequestInfo](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md).[tag](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md#tag)
+[`ISerpGoogleJobsTaskPostRequestInfo`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md).[`tag`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md#tag)
 
-#### Defined in
+#### Source
 
-main.ts:49115
+main.ts:49123
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:49154
+main.ts:49162
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:49188
+main.ts:49196
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`SerpGoogleJobsTaskPostRequestInfo`](SerpGoogleJobsTaskPostRequestInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpGoogleJobsTaskPostRequestInfo`](SerpGoogleJobsTaskPostRequestInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`SerpGoogleJobsTaskPostRequestInfo`](SerpGoogleJobsTaskPostRequestInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:49181
+main.ts:49189

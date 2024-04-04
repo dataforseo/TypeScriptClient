@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / CrawlStatusInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / CrawlStatusInfo
 
 # Class: CrawlStatusInfo
 
@@ -8,151 +12,125 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](CrawlStatusInfo.md#constructor)
-
-### Properties
-
-- [max\_crawl\_pages](CrawlStatusInfo.md#max_crawl_pages)
-- [pages\_crawled](CrawlStatusInfo.md#pages_crawled)
-- [pages\_in\_queue](CrawlStatusInfo.md#pages_in_queue)
-
-### Methods
-
-- [init](CrawlStatusInfo.md#init)
-- [toJSON](CrawlStatusInfo.md#tojson)
-- [fromJS](CrawlStatusInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new CrawlStatusInfo(data)
 
-• **new CrawlStatusInfo**(`data?`): [`CrawlStatusInfo`](CrawlStatusInfo.md)
+> **new CrawlStatusInfo**(`data`?): [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ICrawlStatusInfo`](../interfaces/ICrawlStatusInfo.md) |
+• **data?**: [`ICrawlStatusInfo`](../interfaces/ICrawlStatusInfo.md)
 
 #### Returns
 
 [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:21447
 
 ## Properties
 
-### max\_crawl\_pages
+### max\_crawl\_pages?
 
-• `Optional` **max\_crawl\_pages**: `number`
+> **`optional`** **max\_crawl\_pages**: `number`
 
 maximum number of pages to crawl
 indicates the max_crawl_pages limit you specified when setting a task
 
 #### Implementation of
 
-[ICrawlStatusInfo](../interfaces/ICrawlStatusInfo.md).[max_crawl_pages](../interfaces/ICrawlStatusInfo.md#max_crawl_pages)
+[`ICrawlStatusInfo`](../interfaces/ICrawlStatusInfo.md).[`max_crawl_pages`](../interfaces/ICrawlStatusInfo.md#max_crawl_pages)
 
-#### Defined in
+#### Source
 
 main.ts:21439
 
-___
+***
 
-### pages\_crawled
+### pages\_crawled?
 
-• `Optional` **pages\_crawled**: `number`
+> **`optional`** **pages\_crawled**: `number`
 
 number of crawled pages
 
 #### Implementation of
 
-[ICrawlStatusInfo](../interfaces/ICrawlStatusInfo.md).[pages_crawled](../interfaces/ICrawlStatusInfo.md#pages_crawled)
+[`ICrawlStatusInfo`](../interfaces/ICrawlStatusInfo.md).[`pages_crawled`](../interfaces/ICrawlStatusInfo.md#pages_crawled)
 
-#### Defined in
+#### Source
 
 main.ts:21443
 
-___
+***
 
-### pages\_in\_queue
+### pages\_in\_queue?
 
-• `Optional` **pages\_in\_queue**: `number`
+> **`optional`** **pages\_in\_queue**: `number`
 
 number of pages that are currently in the crawling queue
 
 #### Implementation of
 
-[ICrawlStatusInfo](../interfaces/ICrawlStatusInfo.md).[pages_in_queue](../interfaces/ICrawlStatusInfo.md#pages_in_queue)
+[`ICrawlStatusInfo`](../interfaces/ICrawlStatusInfo.md).[`pages_in_queue`](../interfaces/ICrawlStatusInfo.md#pages_in_queue)
 
-#### Defined in
+#### Source
 
 main.ts:21441
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:21456
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:21475
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`CrawlStatusInfo`](CrawlStatusInfo.md)
+> **`static`** **fromJS**(`data`): [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
-#### Defined in
+#### Source
 
 main.ts:21468

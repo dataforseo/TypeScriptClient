@@ -1,82 +1,72 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageNonIndexableResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IOnPageNonIndexableResultInfo
 
 # Interface: IOnPageNonIndexableResultInfo
 
-## Implemented by
-
-- [`OnPageNonIndexableResultInfo`](../classes/OnPageNonIndexableResultInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [crawl\_progress](IOnPageNonIndexableResultInfo.md#crawl_progress)
-- [crawl\_status](IOnPageNonIndexableResultInfo.md#crawl_status)
-- [items](IOnPageNonIndexableResultInfo.md#items)
-- [items\_count](IOnPageNonIndexableResultInfo.md#items_count)
-- [total\_items\_count](IOnPageNonIndexableResultInfo.md#total_items_count)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### crawl\_progress
+### crawl\_progress?
 
-• `Optional` **crawl\_progress**: `string`
+> **`optional`** **crawl\_progress**: `string`
 
 status of the crawling session
 possible values: in_progress, finished
 
-#### Defined in
-
-main.ts:154933
-
-___
-
-### crawl\_status
-
-• `Optional` **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
-
-details of the crawling session
-
-#### Defined in
-
-main.ts:154935
-
-___
-
-### items
-
-• `Optional` **items**: [`OnPageNonIndexableItem`](../classes/OnPageNonIndexableItem.md)[]
-
-items array
-
-#### Defined in
+#### Source
 
 main.ts:154941
 
-___
+***
 
-### items\_count
+### crawl\_status?
 
-• `Optional` **items\_count**: `number`
+> **`optional`** **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
+
+details of the crawling session
+
+#### Source
+
+main.ts:154943
+
+***
+
+### items?
+
+> **`optional`** **items**: [`OnPageNonIndexableItem`](../classes/OnPageNonIndexableItem.md)[]
+
+items array
+
+#### Source
+
+main.ts:154949
+
+***
+
+### items\_count?
+
+> **`optional`** **items\_count**: `number`
 
 number of items in the results array
 
-#### Defined in
+#### Source
 
-main.ts:154939
+main.ts:154947
 
-___
+***
 
-### total\_items\_count
+### total\_items\_count?
 
-• `Optional` **total\_items\_count**: `number`
+> **`optional`** **total\_items\_count**: `number`
 
 total number of relevant items in the database
 
-#### Defined in
+#### Source
 
-main.ts:154937
+main.ts:154945

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentGenerationTextSummaryLanguagesResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ContentGenerationTextSummaryLanguagesResultInfo
 
 # Class: ContentGenerationTextSummaryLanguagesResultInfo
 
@@ -8,133 +12,108 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ContentGenerationTextSummaryLanguagesResultInfo.md#constructor)
-
-### Properties
-
-- [language\_code](ContentGenerationTextSummaryLanguagesResultInfo.md#language_code)
-- [language\_name](ContentGenerationTextSummaryLanguagesResultInfo.md#language_name)
-
-### Methods
-
-- [init](ContentGenerationTextSummaryLanguagesResultInfo.md#init)
-- [toJSON](ContentGenerationTextSummaryLanguagesResultInfo.md#tojson)
-- [fromJS](ContentGenerationTextSummaryLanguagesResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ContentGenerationTextSummaryLanguagesResultInfo(data)
 
-• **new ContentGenerationTextSummaryLanguagesResultInfo**(`data?`): [`ContentGenerationTextSummaryLanguagesResultInfo`](ContentGenerationTextSummaryLanguagesResultInfo.md)
+> **new ContentGenerationTextSummaryLanguagesResultInfo**(`data`?): [`ContentGenerationTextSummaryLanguagesResultInfo`](ContentGenerationTextSummaryLanguagesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IContentGenerationTextSummaryLanguagesResultInfo`](../interfaces/IContentGenerationTextSummaryLanguagesResultInfo.md) |
+• **data?**: [`IContentGenerationTextSummaryLanguagesResultInfo`](../interfaces/IContentGenerationTextSummaryLanguagesResultInfo.md)
 
 #### Returns
 
 [`ContentGenerationTextSummaryLanguagesResultInfo`](ContentGenerationTextSummaryLanguagesResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:167920
+main.ts:167928
 
 ## Properties
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code according to ISO 639-1
 
 #### Implementation of
 
-[IContentGenerationTextSummaryLanguagesResultInfo](../interfaces/IContentGenerationTextSummaryLanguagesResultInfo.md).[language_code](../interfaces/IContentGenerationTextSummaryLanguagesResultInfo.md#language_code)
+[`IContentGenerationTextSummaryLanguagesResultInfo`](../interfaces/IContentGenerationTextSummaryLanguagesResultInfo.md).[`language_code`](../interfaces/IContentGenerationTextSummaryLanguagesResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:167916
+main.ts:167924
 
-___
+***
 
-### language\_name
+### language\_name?
 
-• `Optional` **language\_name**: `string`
+> **`optional`** **language\_name**: `string`
 
 language name
 
 #### Implementation of
 
-[IContentGenerationTextSummaryLanguagesResultInfo](../interfaces/IContentGenerationTextSummaryLanguagesResultInfo.md).[language_name](../interfaces/IContentGenerationTextSummaryLanguagesResultInfo.md#language_name)
+[`IContentGenerationTextSummaryLanguagesResultInfo`](../interfaces/IContentGenerationTextSummaryLanguagesResultInfo.md).[`language_name`](../interfaces/IContentGenerationTextSummaryLanguagesResultInfo.md#language_name)
 
-#### Defined in
+#### Source
 
-main.ts:167914
+main.ts:167922
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:167929
+main.ts:167937
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:167947
+main.ts:167955
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ContentGenerationTextSummaryLanguagesResultInfo`](ContentGenerationTextSummaryLanguagesResultInfo.md)
+> **`static`** **fromJS**(`data`): [`ContentGenerationTextSummaryLanguagesResultInfo`](ContentGenerationTextSummaryLanguagesResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ContentGenerationTextSummaryLanguagesResultInfo`](ContentGenerationTextSummaryLanguagesResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:167940
+main.ts:167948

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentGenerationGenerateMetaTagsLiveResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / ContentGenerationGenerateMetaTagsLiveResultInfo
 
 # Class: ContentGenerationGenerateMetaTagsLiveResultInfo
 
@@ -8,184 +12,156 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](ContentGenerationGenerateMetaTagsLiveResultInfo.md#constructor)
-
-### Properties
-
-- [description](ContentGenerationGenerateMetaTagsLiveResultInfo.md#description)
-- [input\_tokens](ContentGenerationGenerateMetaTagsLiveResultInfo.md#input_tokens)
-- [new\_tokens](ContentGenerationGenerateMetaTagsLiveResultInfo.md#new_tokens)
-- [output\_tokens](ContentGenerationGenerateMetaTagsLiveResultInfo.md#output_tokens)
-- [title](ContentGenerationGenerateMetaTagsLiveResultInfo.md#title)
-
-### Methods
-
-- [init](ContentGenerationGenerateMetaTagsLiveResultInfo.md#init)
-- [toJSON](ContentGenerationGenerateMetaTagsLiveResultInfo.md#tojson)
-- [fromJS](ContentGenerationGenerateMetaTagsLiveResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new ContentGenerationGenerateMetaTagsLiveResultInfo(data)
 
-• **new ContentGenerationGenerateMetaTagsLiveResultInfo**(`data?`): [`ContentGenerationGenerateMetaTagsLiveResultInfo`](ContentGenerationGenerateMetaTagsLiveResultInfo.md)
+> **new ContentGenerationGenerateMetaTagsLiveResultInfo**(`data`?): [`ContentGenerationGenerateMetaTagsLiveResultInfo`](ContentGenerationGenerateMetaTagsLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IContentGenerationGenerateMetaTagsLiveResultInfo`](../interfaces/IContentGenerationGenerateMetaTagsLiveResultInfo.md) |
+• **data?**: [`IContentGenerationGenerateMetaTagsLiveResultInfo`](../interfaces/IContentGenerationGenerateMetaTagsLiveResultInfo.md)
 
 #### Returns
 
 [`ContentGenerationGenerateMetaTagsLiveResultInfo`](ContentGenerationGenerateMetaTagsLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:166098
+main.ts:166106
 
 ## Properties
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> **`optional`** **description**: `string`
 
 generated description
 
 #### Implementation of
 
-[IContentGenerationGenerateMetaTagsLiveResultInfo](../interfaces/IContentGenerationGenerateMetaTagsLiveResultInfo.md).[description](../interfaces/IContentGenerationGenerateMetaTagsLiveResultInfo.md#description)
+[`IContentGenerationGenerateMetaTagsLiveResultInfo`](../interfaces/IContentGenerationGenerateMetaTagsLiveResultInfo.md).[`description`](../interfaces/IContentGenerationGenerateMetaTagsLiveResultInfo.md#description)
 
-#### Defined in
+#### Source
 
-main.ts:166094
+main.ts:166102
 
-___
+***
 
-### input\_tokens
+### input\_tokens?
 
-• `Optional` **input\_tokens**: `number`
+> **`optional`** **input\_tokens**: `number`
 
 number of input tokens
 
 #### Implementation of
 
-[IContentGenerationGenerateMetaTagsLiveResultInfo](../interfaces/IContentGenerationGenerateMetaTagsLiveResultInfo.md).[input_tokens](../interfaces/IContentGenerationGenerateMetaTagsLiveResultInfo.md#input_tokens)
+[`IContentGenerationGenerateMetaTagsLiveResultInfo`](../interfaces/IContentGenerationGenerateMetaTagsLiveResultInfo.md).[`input_tokens`](../interfaces/IContentGenerationGenerateMetaTagsLiveResultInfo.md#input_tokens)
 
-#### Defined in
+#### Source
 
-main.ts:166086
+main.ts:166094
 
-___
+***
 
-### new\_tokens
+### new\_tokens?
 
-• `Optional` **new\_tokens**: `number`
+> **`optional`** **new\_tokens**: `number`
 
 number of new tokens
 
 #### Implementation of
 
-[IContentGenerationGenerateMetaTagsLiveResultInfo](../interfaces/IContentGenerationGenerateMetaTagsLiveResultInfo.md).[new_tokens](../interfaces/IContentGenerationGenerateMetaTagsLiveResultInfo.md#new_tokens)
+[`IContentGenerationGenerateMetaTagsLiveResultInfo`](../interfaces/IContentGenerationGenerateMetaTagsLiveResultInfo.md).[`new_tokens`](../interfaces/IContentGenerationGenerateMetaTagsLiveResultInfo.md#new_tokens)
 
-#### Defined in
+#### Source
 
-main.ts:166090
+main.ts:166098
 
-___
+***
 
-### output\_tokens
+### output\_tokens?
 
-• `Optional` **output\_tokens**: `number`
+> **`optional`** **output\_tokens**: `number`
 
 number of output tokens
 
 #### Implementation of
 
-[IContentGenerationGenerateMetaTagsLiveResultInfo](../interfaces/IContentGenerationGenerateMetaTagsLiveResultInfo.md).[output_tokens](../interfaces/IContentGenerationGenerateMetaTagsLiveResultInfo.md#output_tokens)
+[`IContentGenerationGenerateMetaTagsLiveResultInfo`](../interfaces/IContentGenerationGenerateMetaTagsLiveResultInfo.md).[`output_tokens`](../interfaces/IContentGenerationGenerateMetaTagsLiveResultInfo.md#output_tokens)
 
-#### Defined in
+#### Source
 
-main.ts:166088
+main.ts:166096
 
-___
+***
 
-### title
+### title?
 
-• `Optional` **title**: `string`
+> **`optional`** **title**: `string`
 
 generated title
 
 #### Implementation of
 
-[IContentGenerationGenerateMetaTagsLiveResultInfo](../interfaces/IContentGenerationGenerateMetaTagsLiveResultInfo.md).[title](../interfaces/IContentGenerationGenerateMetaTagsLiveResultInfo.md#title)
+[`IContentGenerationGenerateMetaTagsLiveResultInfo`](../interfaces/IContentGenerationGenerateMetaTagsLiveResultInfo.md).[`title`](../interfaces/IContentGenerationGenerateMetaTagsLiveResultInfo.md#title)
 
-#### Defined in
+#### Source
 
-main.ts:166092
+main.ts:166100
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:166107
+main.ts:166115
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:166128
+main.ts:166136
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`ContentGenerationGenerateMetaTagsLiveResultInfo`](ContentGenerationGenerateMetaTagsLiveResultInfo.md)
+> **`static`** **fromJS**(`data`): [`ContentGenerationGenerateMetaTagsLiveResultInfo`](ContentGenerationGenerateMetaTagsLiveResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`ContentGenerationGenerateMetaTagsLiveResultInfo`](ContentGenerationGenerateMetaTagsLiveResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:166121
+main.ts:166129

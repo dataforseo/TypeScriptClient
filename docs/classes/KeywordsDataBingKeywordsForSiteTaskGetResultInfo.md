@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataBingKeywordsForSiteTaskGetResultInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / KeywordsDataBingKeywordsForSiteTaskGetResultInfo
 
 # Class: KeywordsDataBingKeywordsForSiteTaskGetResultInfo
 
@@ -8,75 +12,48 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](KeywordsDataBingKeywordsForSiteTaskGetResultInfo.md#constructor)
-
-### Properties
-
-- [categories](KeywordsDataBingKeywordsForSiteTaskGetResultInfo.md#categories)
-- [competition](KeywordsDataBingKeywordsForSiteTaskGetResultInfo.md#competition)
-- [cpc](KeywordsDataBingKeywordsForSiteTaskGetResultInfo.md#cpc)
-- [device](KeywordsDataBingKeywordsForSiteTaskGetResultInfo.md#device)
-- [keyword](KeywordsDataBingKeywordsForSiteTaskGetResultInfo.md#keyword)
-- [language\_code](KeywordsDataBingKeywordsForSiteTaskGetResultInfo.md#language_code)
-- [location\_code](KeywordsDataBingKeywordsForSiteTaskGetResultInfo.md#location_code)
-- [monthly\_searches](KeywordsDataBingKeywordsForSiteTaskGetResultInfo.md#monthly_searches)
-- [search\_partners](KeywordsDataBingKeywordsForSiteTaskGetResultInfo.md#search_partners)
-- [search\_volume](KeywordsDataBingKeywordsForSiteTaskGetResultInfo.md#search_volume)
-
-### Methods
-
-- [init](KeywordsDataBingKeywordsForSiteTaskGetResultInfo.md#init)
-- [toJSON](KeywordsDataBingKeywordsForSiteTaskGetResultInfo.md#tojson)
-- [fromJS](KeywordsDataBingKeywordsForSiteTaskGetResultInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new KeywordsDataBingKeywordsForSiteTaskGetResultInfo(data)
 
-• **new KeywordsDataBingKeywordsForSiteTaskGetResultInfo**(`data?`): [`KeywordsDataBingKeywordsForSiteTaskGetResultInfo`](KeywordsDataBingKeywordsForSiteTaskGetResultInfo.md)
+> **new KeywordsDataBingKeywordsForSiteTaskGetResultInfo**(`data`?): [`KeywordsDataBingKeywordsForSiteTaskGetResultInfo`](KeywordsDataBingKeywordsForSiteTaskGetResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IKeywordsDataBingKeywordsForSiteTaskGetResultInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskGetResultInfo.md) |
+• **data?**: [`IKeywordsDataBingKeywordsForSiteTaskGetResultInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskGetResultInfo.md)
 
 #### Returns
 
 [`KeywordsDataBingKeywordsForSiteTaskGetResultInfo`](KeywordsDataBingKeywordsForSiteTaskGetResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:129607
+main.ts:129615
 
 ## Properties
 
-### categories
+### categories?
 
-• `Optional` **categories**: `string`[]
+> **`optional`** **categories**: `string`[]
 
 product and service categories
 legacy field, the value will always be null
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordsForSiteTaskGetResultInfo](../interfaces/IKeywordsDataBingKeywordsForSiteTaskGetResultInfo.md).[categories](../interfaces/IKeywordsDataBingKeywordsForSiteTaskGetResultInfo.md#categories)
+[`IKeywordsDataBingKeywordsForSiteTaskGetResultInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskGetResultInfo.md).[`categories`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskGetResultInfo.md#categories)
 
-#### Defined in
+#### Source
 
-main.ts:129598
+main.ts:129606
 
-___
+***
 
-### competition
+### competition?
 
-• `Optional` **competition**: `number`
+> **`optional`** **competition**: `number`
 
 competition
 represents the relative amount of competition associated with the given keyword in paid SERP only. This value is based on Bing Ads data.
@@ -88,17 +65,17 @@ if there is no data the value is null
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordsForSiteTaskGetResultInfo](../interfaces/IKeywordsDataBingKeywordsForSiteTaskGetResultInfo.md).[competition](../interfaces/IKeywordsDataBingKeywordsForSiteTaskGetResultInfo.md#competition)
+[`IKeywordsDataBingKeywordsForSiteTaskGetResultInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskGetResultInfo.md).[`competition`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskGetResultInfo.md#competition)
 
-#### Defined in
+#### Source
 
-main.ts:129587
+main.ts:129595
 
-___
+***
 
-### cpc
+### cpc?
 
-• `Optional` **cpc**: `number`
+> **`optional`** **cpc**: `number`
 
 cost-per-click
 represents the average cost per click (USD) historically paid for the keyword.
@@ -106,84 +83,84 @@ if there is no data the value is null
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordsForSiteTaskGetResultInfo](../interfaces/IKeywordsDataBingKeywordsForSiteTaskGetResultInfo.md).[cpc](../interfaces/IKeywordsDataBingKeywordsForSiteTaskGetResultInfo.md#cpc)
+[`IKeywordsDataBingKeywordsForSiteTaskGetResultInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskGetResultInfo.md).[`cpc`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskGetResultInfo.md#cpc)
 
-#### Defined in
+#### Source
 
-main.ts:129591
+main.ts:129599
 
-___
+***
 
-### device
+### device?
 
-• `Optional` **device**: `string`
+> **`optional`** **device**: `string`
 
 device type in a POST array
 if there is no data, then the value is null
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordsForSiteTaskGetResultInfo](../interfaces/IKeywordsDataBingKeywordsForSiteTaskGetResultInfo.md).[device](../interfaces/IKeywordsDataBingKeywordsForSiteTaskGetResultInfo.md#device)
+[`IKeywordsDataBingKeywordsForSiteTaskGetResultInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskGetResultInfo.md).[`device`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskGetResultInfo.md#device)
 
-#### Defined in
+#### Source
 
-main.ts:129579
+main.ts:129587
 
-___
+***
 
-### keyword
+### keyword?
 
-• `Optional` **keyword**: `string`
+> **`optional`** **keyword**: `string`
 
 keyword in a POST array
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordsForSiteTaskGetResultInfo](../interfaces/IKeywordsDataBingKeywordsForSiteTaskGetResultInfo.md).[keyword](../interfaces/IKeywordsDataBingKeywordsForSiteTaskGetResultInfo.md#keyword)
+[`IKeywordsDataBingKeywordsForSiteTaskGetResultInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskGetResultInfo.md).[`keyword`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskGetResultInfo.md#keyword)
 
-#### Defined in
+#### Source
 
-main.ts:129568
+main.ts:129576
 
-___
+***
 
-### language\_code
+### language\_code?
 
-• `Optional` **language\_code**: `string`
+> **`optional`** **language\_code**: `string`
 
 language code in a POST array
 if there is no data the value is null
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordsForSiteTaskGetResultInfo](../interfaces/IKeywordsDataBingKeywordsForSiteTaskGetResultInfo.md).[language_code](../interfaces/IKeywordsDataBingKeywordsForSiteTaskGetResultInfo.md#language_code)
+[`IKeywordsDataBingKeywordsForSiteTaskGetResultInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskGetResultInfo.md).[`language_code`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskGetResultInfo.md#language_code)
 
-#### Defined in
+#### Source
 
-main.ts:129574
+main.ts:129582
 
-___
+***
 
-### location\_code
+### location\_code?
 
-• `Optional` **location\_code**: `number`
+> **`optional`** **location\_code**: `number`
 
 location code in a POST array
 if there is no data the value is null
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordsForSiteTaskGetResultInfo](../interfaces/IKeywordsDataBingKeywordsForSiteTaskGetResultInfo.md).[location_code](../interfaces/IKeywordsDataBingKeywordsForSiteTaskGetResultInfo.md#location_code)
+[`IKeywordsDataBingKeywordsForSiteTaskGetResultInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskGetResultInfo.md).[`location_code`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskGetResultInfo.md#location_code)
 
-#### Defined in
+#### Source
 
-main.ts:129571
+main.ts:129579
 
-___
+***
 
-### monthly\_searches
+### monthly\_searches?
 
-• `Optional` **monthly\_searches**: [`MonthlySearches`](MonthlySearches.md)[]
+> **`optional`** **monthly\_searches**: [`MonthlySearches`](MonthlySearches.md)[]
 
 monthly searches
 represents the (approximate) number of searches on this keyword idea (as available for the past twelve months), targeted to the specified geographic locations
@@ -192,33 +169,33 @@ if there is no data the value is null
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordsForSiteTaskGetResultInfo](../interfaces/IKeywordsDataBingKeywordsForSiteTaskGetResultInfo.md).[monthly_searches](../interfaces/IKeywordsDataBingKeywordsForSiteTaskGetResultInfo.md#monthly_searches)
+[`IKeywordsDataBingKeywordsForSiteTaskGetResultInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskGetResultInfo.md).[`monthly_searches`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskGetResultInfo.md#monthly_searches)
 
-#### Defined in
+#### Source
 
-main.ts:129603
+main.ts:129611
 
-___
+***
 
-### search\_partners
+### search\_partners?
 
-• `Optional` **search\_partners**: `boolean`
+> **`optional`** **search\_partners**: `boolean`
 
 indicates whether data from partner networks included in the response
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordsForSiteTaskGetResultInfo](../interfaces/IKeywordsDataBingKeywordsForSiteTaskGetResultInfo.md).[search_partners](../interfaces/IKeywordsDataBingKeywordsForSiteTaskGetResultInfo.md#search_partners)
+[`IKeywordsDataBingKeywordsForSiteTaskGetResultInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskGetResultInfo.md).[`search_partners`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskGetResultInfo.md#search_partners)
 
-#### Defined in
+#### Source
 
-main.ts:129576
+main.ts:129584
 
-___
+***
 
-### search\_volume
+### search\_volume?
 
-• `Optional` **search\_volume**: `number`
+> **`optional`** **search\_volume**: `number`
 
 monthly average search volume rate
 represents the (approximate) number of searches for the given keyword idea on Bing search engine depending on the user’s targeting
@@ -226,68 +203,62 @@ if there is no data then the value is null
 
 #### Implementation of
 
-[IKeywordsDataBingKeywordsForSiteTaskGetResultInfo](../interfaces/IKeywordsDataBingKeywordsForSiteTaskGetResultInfo.md).[search_volume](../interfaces/IKeywordsDataBingKeywordsForSiteTaskGetResultInfo.md#search_volume)
+[`IKeywordsDataBingKeywordsForSiteTaskGetResultInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskGetResultInfo.md).[`search_volume`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskGetResultInfo.md#search_volume)
 
-#### Defined in
+#### Source
 
-main.ts:129595
+main.ts:129603
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:129616
+main.ts:129624
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:129650
+main.ts:129658
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`KeywordsDataBingKeywordsForSiteTaskGetResultInfo`](KeywordsDataBingKeywordsForSiteTaskGetResultInfo.md)
+> **`static`** **fromJS**(`data`): [`KeywordsDataBingKeywordsForSiteTaskGetResultInfo`](KeywordsDataBingKeywordsForSiteTaskGetResultInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`KeywordsDataBingKeywordsForSiteTaskGetResultInfo`](KeywordsDataBingKeywordsForSiteTaskGetResultInfo.md)
 
-#### Defined in
+#### Source
 
-main.ts:129643
+main.ts:129651

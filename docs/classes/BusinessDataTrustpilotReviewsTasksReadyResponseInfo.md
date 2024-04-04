@@ -1,12 +1,14 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataTrustpilotReviewsTasksReadyResponseInfo
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataTrustpilotReviewsTasksReadyResponseInfo
 
 # Class: BusinessDataTrustpilotReviewsTasksReadyResponseInfo
 
-## Hierarchy
+## Extends
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
-  ↳ **`BusinessDataTrustpilotReviewsTasksReadyResponseInfo`**
 
 ## Implements
 
@@ -14,42 +16,17 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BusinessDataTrustpilotReviewsTasksReadyResponseInfo.md#constructor)
-
-### Properties
-
-- [cost](BusinessDataTrustpilotReviewsTasksReadyResponseInfo.md#cost)
-- [status\_code](BusinessDataTrustpilotReviewsTasksReadyResponseInfo.md#status_code)
-- [status\_message](BusinessDataTrustpilotReviewsTasksReadyResponseInfo.md#status_message)
-- [tasks](BusinessDataTrustpilotReviewsTasksReadyResponseInfo.md#tasks)
-- [tasks\_count](BusinessDataTrustpilotReviewsTasksReadyResponseInfo.md#tasks_count)
-- [tasks\_error](BusinessDataTrustpilotReviewsTasksReadyResponseInfo.md#tasks_error)
-- [time](BusinessDataTrustpilotReviewsTasksReadyResponseInfo.md#time)
-- [version](BusinessDataTrustpilotReviewsTasksReadyResponseInfo.md#version)
-
-### Methods
-
-- [init](BusinessDataTrustpilotReviewsTasksReadyResponseInfo.md#init)
-- [toJSON](BusinessDataTrustpilotReviewsTasksReadyResponseInfo.md#tojson)
-- [fromJS](BusinessDataTrustpilotReviewsTasksReadyResponseInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new BusinessDataTrustpilotReviewsTasksReadyResponseInfo(data)
 
-• **new BusinessDataTrustpilotReviewsTasksReadyResponseInfo**(`data?`): [`BusinessDataTrustpilotReviewsTasksReadyResponseInfo`](BusinessDataTrustpilotReviewsTasksReadyResponseInfo.md)
+> **new BusinessDataTrustpilotReviewsTasksReadyResponseInfo**(`data`?): [`BusinessDataTrustpilotReviewsTasksReadyResponseInfo`](BusinessDataTrustpilotReviewsTasksReadyResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IBusinessDataTrustpilotReviewsTasksReadyResponseInfo`](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResponseInfo.md) |
+• **data?**: [`IBusinessDataTrustpilotReviewsTasksReadyResponseInfo`](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResponseInfo.md)
 
 #### Returns
 
@@ -57,181 +34,179 @@
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
+#### Source
 
 main.ts:205284
 
 ## Properties
 
-### cost
+### cost?
 
-• `Optional` **cost**: `number`
+> **`optional`** **cost**: `number`
 
 total tasks cost, USD
 
 #### Implementation of
 
-[IBusinessDataTrustpilotReviewsTasksReadyResponseInfo](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResponseInfo.md).[cost](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResponseInfo.md#cost)
+[`IBusinessDataTrustpilotReviewsTasksReadyResponseInfo`](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResponseInfo.md).[`cost`](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResponseInfo.md#cost)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
+#### Source
 
 main.ts:23029
 
-___
+***
 
-### status\_code
+### status\_code?
 
-• `Optional` **status\_code**: `number`
+> **`optional`** **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
 
 #### Implementation of
 
-[IBusinessDataTrustpilotReviewsTasksReadyResponseInfo](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResponseInfo.md).[status_code](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResponseInfo.md#status_code)
+[`IBusinessDataTrustpilotReviewsTasksReadyResponseInfo`](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResponseInfo.md).[`status_code`](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResponseInfo.md#status_code)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
+#### Source
 
 main.ts:23022
 
-___
+***
 
-### status\_message
+### status\_message?
 
-• `Optional` **status\_message**: `string`
+> **`optional`** **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
 
 #### Implementation of
 
-[IBusinessDataTrustpilotReviewsTasksReadyResponseInfo](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResponseInfo.md).[status_message](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResponseInfo.md#status_message)
+[`IBusinessDataTrustpilotReviewsTasksReadyResponseInfo`](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResponseInfo.md).[`status_message`](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResponseInfo.md#status_message)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
+#### Source
 
 main.ts:23025
 
-___
+***
 
-### tasks
+### tasks?
 
-• `Optional` **tasks**: [`BusinessDataTrustpilotReviewsTasksReadyTaskInfo`](BusinessDataTrustpilotReviewsTasksReadyTaskInfo.md)[]
+> **`optional`** **tasks**: [`BusinessDataTrustpilotReviewsTasksReadyTaskInfo`](BusinessDataTrustpilotReviewsTasksReadyTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[IBusinessDataTrustpilotReviewsTasksReadyResponseInfo](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResponseInfo.md).[tasks](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResponseInfo.md#tasks)
+[`IBusinessDataTrustpilotReviewsTasksReadyResponseInfo`](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResponseInfo.md).[`tasks`](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResponseInfo.md#tasks)
 
-#### Defined in
+#### Source
 
 main.ts:205280
 
-___
+***
 
-### tasks\_count
+### tasks\_count?
 
-• `Optional` **tasks\_count**: `number`
+> **`optional`** **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
 #### Implementation of
 
-[IBusinessDataTrustpilotReviewsTasksReadyResponseInfo](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResponseInfo.md).[tasks_count](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResponseInfo.md#tasks_count)
+[`IBusinessDataTrustpilotReviewsTasksReadyResponseInfo`](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResponseInfo.md).[`tasks_count`](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResponseInfo.md#tasks_count)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
+#### Source
 
 main.ts:23031
 
-___
+***
 
-### tasks\_error
+### tasks\_error?
 
-• `Optional` **tasks\_error**: `number`
+> **`optional`** **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[IBusinessDataTrustpilotReviewsTasksReadyResponseInfo](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResponseInfo.md).[tasks_error](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResponseInfo.md#tasks_error)
+[`IBusinessDataTrustpilotReviewsTasksReadyResponseInfo`](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResponseInfo.md).[`tasks_error`](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResponseInfo.md#tasks_error)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
+#### Source
 
 main.ts:23033
 
-___
+***
 
-### time
+### time?
 
-• `Optional` **time**: `string`
+> **`optional`** **time**: `string`
 
 total execution time, seconds
 
 #### Implementation of
 
-[IBusinessDataTrustpilotReviewsTasksReadyResponseInfo](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResponseInfo.md).[time](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResponseInfo.md#time)
+[`IBusinessDataTrustpilotReviewsTasksReadyResponseInfo`](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResponseInfo.md).[`time`](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResponseInfo.md#time)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
+#### Source
 
 main.ts:23027
 
-___
+***
 
-### version
+### version?
 
-• `Optional` **version**: `string`
+> **`optional`** **version**: `string`
 
 the current version of the API
 
 #### Implementation of
 
-[IBusinessDataTrustpilotReviewsTasksReadyResponseInfo](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResponseInfo.md).[version](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResponseInfo.md#version)
+[`IBusinessDataTrustpilotReviewsTasksReadyResponseInfo`](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResponseInfo.md).[`version`](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResponseInfo.md#version)
 
 #### Inherited from
 
-[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
+#### Source
 
 main.ts:23019
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
@@ -239,23 +214,21 @@ main.ts:23019
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
+#### Source
 
 main.ts:205288
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
@@ -263,23 +236,21 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
+#### Source
 
 main.ts:205310
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`BusinessDataTrustpilotReviewsTasksReadyResponseInfo`](BusinessDataTrustpilotReviewsTasksReadyResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`BusinessDataTrustpilotReviewsTasksReadyResponseInfo`](BusinessDataTrustpilotReviewsTasksReadyResponseInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
@@ -287,8 +258,8 @@ ___
 
 #### Overrides
 
-[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Defined in
+#### Source
 
 main.ts:205303

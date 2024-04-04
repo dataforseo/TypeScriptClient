@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / TwitterElement
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / TwitterElement
 
 # Class: TwitterElement
 
@@ -8,69 +12,47 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](TwitterElement.md#constructor)
-
-### Properties
-
-- [date](TwitterElement.md#date)
-- [timestamp](TwitterElement.md#timestamp)
-- [tweet](TwitterElement.md#tweet)
-- [type](TwitterElement.md#type)
-- [url](TwitterElement.md#url)
-
-### Methods
-
-- [init](TwitterElement.md#init)
-- [toJSON](TwitterElement.md#tojson)
-- [fromJS](TwitterElement.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new TwitterElement(data)
 
-• **new TwitterElement**(`data?`): [`TwitterElement`](TwitterElement.md)
+> **new TwitterElement**(`data`?): [`TwitterElement`](TwitterElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`ITwitterElement`](../interfaces/ITwitterElement.md) |
+• **data?**: [`ITwitterElement`](../interfaces/ITwitterElement.md)
 
 #### Returns
 
 [`TwitterElement`](TwitterElement.md)
 
-#### Defined in
+#### Source
 
 main.ts:29768
 
 ## Properties
 
-### date
+### date?
 
-• `Optional` **date**: `string`
+> **`optional`** **date**: `string`
 
 the date when the page source of the element was published
 
 #### Implementation of
 
-[ITwitterElement](../interfaces/ITwitterElement.md).[date](../interfaces/ITwitterElement.md#date)
+[`ITwitterElement`](../interfaces/ITwitterElement.md).[`date`](../interfaces/ITwitterElement.md#date)
 
-#### Defined in
+#### Source
 
 main.ts:29757
 
-___
+***
 
-### timestamp
+### timestamp?
 
-• `Optional` **timestamp**: `string`
+> **`optional`** **timestamp**: `string`
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -79,116 +61,110 @@ example:
 
 #### Implementation of
 
-[ITwitterElement](../interfaces/ITwitterElement.md).[timestamp](../interfaces/ITwitterElement.md#timestamp)
+[`ITwitterElement`](../interfaces/ITwitterElement.md).[`timestamp`](../interfaces/ITwitterElement.md#timestamp)
 
-#### Defined in
+#### Source
 
 main.ts:29762
 
-___
+***
 
-### tweet
+### tweet?
 
-• `Optional` **tweet**: `string`
+> **`optional`** **tweet**: `string`
 
 tweet message
 
 #### Implementation of
 
-[ITwitterElement](../interfaces/ITwitterElement.md).[tweet](../interfaces/ITwitterElement.md#tweet)
+[`ITwitterElement`](../interfaces/ITwitterElement.md).[`tweet`](../interfaces/ITwitterElement.md#tweet)
 
-#### Defined in
+#### Source
 
 main.ts:29755
 
-___
+***
 
-### type
+### type?
 
-• `Optional` **type**: `string`
+> **`optional`** **type**: `string`
 
 type of element
 
 #### Implementation of
 
-[ITwitterElement](../interfaces/ITwitterElement.md).[type](../interfaces/ITwitterElement.md#type)
+[`ITwitterElement`](../interfaces/ITwitterElement.md).[`type`](../interfaces/ITwitterElement.md#type)
 
-#### Defined in
+#### Source
 
 main.ts:29753
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 URL
 
 #### Implementation of
 
-[ITwitterElement](../interfaces/ITwitterElement.md).[url](../interfaces/ITwitterElement.md#url)
+[`ITwitterElement`](../interfaces/ITwitterElement.md).[`url`](../interfaces/ITwitterElement.md#url)
 
-#### Defined in
+#### Source
 
 main.ts:29764
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
 main.ts:29777
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
 main.ts:29798
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`TwitterElement`](TwitterElement.md)
+> **`static`** **fromJS**(`data`): [`TwitterElement`](TwitterElement.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`TwitterElement`](TwitterElement.md)
 
-#### Defined in
+#### Source
 
 main.ts:29791

@@ -1,4 +1,8 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageRedirectChainsItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / OnPageRedirectChainsItem
 
 # Class: OnPageRedirectChainsItem
 
@@ -8,134 +12,109 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](OnPageRedirectChainsItem.md#constructor)
-
-### Properties
-
-- [chain](OnPageRedirectChainsItem.md#chain)
-- [is\_redirect\_loop](OnPageRedirectChainsItem.md#is_redirect_loop)
-
-### Methods
-
-- [init](OnPageRedirectChainsItem.md#init)
-- [toJSON](OnPageRedirectChainsItem.md#tojson)
-- [fromJS](OnPageRedirectChainsItem.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new OnPageRedirectChainsItem(data)
 
-• **new OnPageRedirectChainsItem**(`data?`): [`OnPageRedirectChainsItem`](OnPageRedirectChainsItem.md)
+> **new OnPageRedirectChainsItem**(`data`?): [`OnPageRedirectChainsItem`](OnPageRedirectChainsItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IOnPageRedirectChainsItem`](../interfaces/IOnPageRedirectChainsItem.md) |
+• **data?**: [`IOnPageRedirectChainsItem`](../interfaces/IOnPageRedirectChainsItem.md)
 
 #### Returns
 
 [`OnPageRedirectChainsItem`](OnPageRedirectChainsItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:154429
+main.ts:154437
 
 ## Properties
 
-### chain
+### chain?
 
-• `Optional` **chain**: [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md)[]
+> **`optional`** **chain**: [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md)[]
 
 contains links that form a chain
 
 #### Implementation of
 
-[IOnPageRedirectChainsItem](../interfaces/IOnPageRedirectChainsItem.md).[chain](../interfaces/IOnPageRedirectChainsItem.md#chain)
+[`IOnPageRedirectChainsItem`](../interfaces/IOnPageRedirectChainsItem.md).[`chain`](../interfaces/IOnPageRedirectChainsItem.md#chain)
 
-#### Defined in
+#### Source
 
-main.ts:154425
+main.ts:154433
 
-___
+***
 
-### is\_redirect\_loop
+### is\_redirect\_loop?
 
-• `Optional` **is\_redirect\_loop**: `boolean`
+> **`optional`** **is\_redirect\_loop**: `boolean`
 
 indicates if redirects in chain start and end at the same URL
 if true, the last URL from the chain redirects back to the original URL
 
 #### Implementation of
 
-[IOnPageRedirectChainsItem](../interfaces/IOnPageRedirectChainsItem.md).[is_redirect_loop](../interfaces/IOnPageRedirectChainsItem.md#is_redirect_loop)
+[`IOnPageRedirectChainsItem`](../interfaces/IOnPageRedirectChainsItem.md).[`is_redirect_loop`](../interfaces/IOnPageRedirectChainsItem.md#is_redirect_loop)
 
-#### Defined in
+#### Source
 
-main.ts:154423
+main.ts:154431
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-main.ts:154438
+main.ts:154446
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-main.ts:154460
+main.ts:154468
 
-___
+***
 
-### fromJS
+### fromJS()
 
-▸ **fromJS**(`data`): [`OnPageRedirectChainsItem`](OnPageRedirectChainsItem.md)
+> **`static`** **fromJS**(`data`): [`OnPageRedirectChainsItem`](OnPageRedirectChainsItem.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`OnPageRedirectChainsItem`](OnPageRedirectChainsItem.md)
 
-#### Defined in
+#### Source
 
-main.ts:154453
+main.ts:154461

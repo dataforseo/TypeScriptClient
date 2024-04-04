@@ -1,186 +1,167 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IGoogleBusinessPostBusinessDataSerpElementItem
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / IGoogleBusinessPostBusinessDataSerpElementItem
 
 # Interface: IGoogleBusinessPostBusinessDataSerpElementItem
 
-## Hierarchy
+## Extends
 
 - [`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md)
 
-  ↳ **`IGoogleBusinessPostBusinessDataSerpElementItem`**
-
-## Implemented by
-
-- [`GoogleBusinessPostBusinessDataSerpElementItem`](../classes/GoogleBusinessPostBusinessDataSerpElementItem.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [author](IGoogleBusinessPostBusinessDataSerpElementItem.md#author)
-- [images\_url](IGoogleBusinessPostBusinessDataSerpElementItem.md#images_url)
-- [links](IGoogleBusinessPostBusinessDataSerpElementItem.md#links)
-- [position](IGoogleBusinessPostBusinessDataSerpElementItem.md#position)
-- [post\_date](IGoogleBusinessPostBusinessDataSerpElementItem.md#post_date)
-- [post\_text](IGoogleBusinessPostBusinessDataSerpElementItem.md#post_text)
-- [rank\_absolute](IGoogleBusinessPostBusinessDataSerpElementItem.md#rank_absolute)
-- [rank\_group](IGoogleBusinessPostBusinessDataSerpElementItem.md#rank_group)
-- [snippet](IGoogleBusinessPostBusinessDataSerpElementItem.md#snippet)
-- [timestamp](IGoogleBusinessPostBusinessDataSerpElementItem.md#timestamp)
-- [url](IGoogleBusinessPostBusinessDataSerpElementItem.md#url)
-- [xpath](IGoogleBusinessPostBusinessDataSerpElementItem.md#xpath)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### author
+### author?
 
-• `Optional` **author**: `string`
+> **`optional`** **author**: `string`
 
 author of the post
 
-#### Defined in
+#### Source
 
 main.ts:197922
 
-___
+***
 
-### images\_url
+### images\_url?
 
-• `Optional` **images\_url**: `string`
+> **`optional`** **images\_url**: `string`
 
 url of an image included in the post
 
-#### Defined in
+#### Source
 
 main.ts:197930
 
-___
+***
 
-### links
+### links?
 
-• `Optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
+> **`optional`** **links**: [`LinkElement`](../classes/LinkElement.md)[]
 
 links included in the post
 
-#### Defined in
+#### Source
 
 main.ts:197941
 
-___
+***
 
-### position
+### position?
 
-• `Optional` **position**: `string`
+> **`optional`** **position**: `string`
 
 the alignment of the element in SERP
 can take the following values: right
 
-#### Defined in
+#### Source
 
 main.ts:197918
 
-___
+***
 
-### post\_date
+### post\_date?
 
-• `Optional` **post\_date**: `string`
+> **`optional`** **post\_date**: `string`
 
 date when a post was published
 in the following format:
 "mm/dd/yyyy hh:mm:ss"
 
-#### Defined in
+#### Source
 
 main.ts:197934
 
-___
+***
 
-### post\_text
+### post\_text?
 
-• `Optional` **post\_text**: `string`
+> **`optional`** **post\_text**: `string`
 
 main content of a post
 
-#### Defined in
+#### Source
 
 main.ts:197926
 
-___
+***
 
-### rank\_absolute
+### rank\_absolute?
 
-• `Optional` **rank\_absolute**: `number`
+> **`optional`** **rank\_absolute**: `number`
 
 absolute rank among all the listed updates
 absolute position among all present elements
 
-#### Defined in
+#### Source
 
 main.ts:197915
 
-___
+***
 
-### rank\_group
+### rank\_group?
 
-• `Optional` **rank\_group**: `number`
+> **`optional`** **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Defined in
+#### Source
 
 main.ts:197912
 
-___
+***
 
-### snippet
+### snippet?
 
-• `Optional` **snippet**: `string`
+> **`optional`** **snippet**: `string`
 
 additional content of a post
 
-#### Defined in
+#### Source
 
 main.ts:197924
 
-___
+***
 
-### timestamp
+### timestamp?
 
-• `Optional` **timestamp**: `string`
+> **`optional`** **timestamp**: `string`
 
 time when a post was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
+#### Source
 
 main.ts:197939
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> **`optional`** **url**: `string`
 
 url of a post
 
-#### Defined in
+#### Source
 
 main.ts:197928
 
-___
+***
 
-### xpath
+### xpath?
 
-• `Optional` **xpath**: `string`
+> **`optional`** **xpath**: `string`
 
 the XPath of the element
 
-#### Defined in
+#### Source
 
 main.ts:197920
