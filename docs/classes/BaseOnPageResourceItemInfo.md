@@ -9,8 +9,8 @@
 ## Extended by
 
 - [`HtmlResourceElementItem`](HtmlResourceElementItem.md)
-- [`ScriptResourceElementItem`](ScriptResourceElementItem.md)
 - [`StylesheetResourceElementItem`](StylesheetResourceElementItem.md)
+- [`ScriptResourceElementItem`](ScriptResourceElementItem.md)
 - [`ImageResourceElementItem`](ImageResourceElementItem.md)
 - [`BrokenResourceElementItem`](BrokenResourceElementItem.md)
 

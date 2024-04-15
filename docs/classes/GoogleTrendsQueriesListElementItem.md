@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:123471
+main.ts:123621
 
 ## Properties
 
@@ -68,7 +68,7 @@ Google Trends data from the corresponding item
 
 #### Source
 
-main.ts:123467
+main.ts:123617
 
 ***
 
@@ -85,7 +85,7 @@ the data included in the google_trends_topics_list element is based on the keywo
 
 #### Source
 
-main.ts:123465
+main.ts:123615
 
 ***
 
@@ -102,7 +102,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Source
 
-main.ts:123460
+main.ts:123610
 
 ***
 
@@ -118,7 +118,7 @@ title of the element in Google Trends
 
 #### Source
 
-main.ts:123462
+main.ts:123612
 
 ## Methods
 
@@ -140,7 +140,7 @@ main.ts:123462
 
 #### Source
 
-main.ts:123476
+main.ts:123626
 
 ***
 
@@ -162,7 +162,7 @@ main.ts:123476
 
 #### Source
 
-main.ts:123501
+main.ts:123651
 
 ***
 
@@ -184,4 +184,4 @@ main.ts:123501
 
 #### Source
 
-main.ts:123494
+main.ts:123644

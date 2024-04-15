@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:79221
+main.ts:79233
 
 ## Properties
 
@@ -46,7 +46,7 @@ update information for the Amazon endpoints
 
 #### Source
 
-main.ts:79217
+main.ts:79229
 
 ***
 
@@ -62,7 +62,7 @@ update information for the Bing endpoints
 
 #### Source
 
-main.ts:79215
+main.ts:79227
 
 ***
 
@@ -78,7 +78,7 @@ update information for the Google endpoints
 
 #### Source
 
-main.ts:79213
+main.ts:79225
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:79213
 
 #### Source
 
-main.ts:79230
+main.ts:79242
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:79230
 
 #### Source
 
-main.ts:79249
+main.ts:79261
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:79249
 
 #### Source
 
-main.ts:79242
+main.ts:79254

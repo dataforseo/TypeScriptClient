@@ -14,13 +14,13 @@
 
 ### keyword\_data?
 
-> **`optional`** **keyword\_data**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)
+> **`optional`** **keyword\_data**: [`KeywordDataKeywordDataInfo`](../classes/KeywordDataKeywordDataInfo.md)
 
 keyword data for the returned keyword
 
 #### Source
 
-main.ts:107750
+main.ts:107900
 
 ***
 
@@ -32,7 +32,7 @@ contains data on the domain’s SERP element found for the returned keyword
 
 #### Source
 
-main.ts:107752
+main.ts:107902
 
 ***
 
@@ -44,4 +44,4 @@ search engine type
 
 #### Source
 
-main.ts:107748
+main.ts:107898

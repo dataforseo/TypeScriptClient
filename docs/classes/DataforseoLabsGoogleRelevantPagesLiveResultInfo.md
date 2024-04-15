@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:92679
+main.ts:92565
 
 ## Properties
 
@@ -46,7 +46,7 @@ relevant pages and related data
 
 #### Source
 
-main.ts:92675
+main.ts:92561
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:92673
+main.ts:92559
 
 ***
 
@@ -79,7 +79,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:92669
+main.ts:92555
 
 ***
 
@@ -96,7 +96,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:92666
+main.ts:92552
 
 ***
 
@@ -112,7 +112,7 @@ search engine type
 
 #### Source
 
-main.ts:92661
+main.ts:92547
 
 ***
 
@@ -128,7 +128,7 @@ target domain in a POST array
 
 #### Source
 
-main.ts:92663
+main.ts:92549
 
 ***
 
@@ -144,7 +144,7 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:92671
+main.ts:92557
 
 ## Methods
 
@@ -162,7 +162,7 @@ main.ts:92671
 
 #### Source
 
-main.ts:92688
+main.ts:92574
 
 ***
 
@@ -180,7 +180,7 @@ main.ts:92688
 
 #### Source
 
-main.ts:92715
+main.ts:92601
 
 ***
 
@@ -198,4 +198,4 @@ main.ts:92715
 
 #### Source
 
-main.ts:92708
+main.ts:92594

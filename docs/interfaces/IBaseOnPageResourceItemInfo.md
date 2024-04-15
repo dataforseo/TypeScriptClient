@@ -9,8 +9,8 @@
 ## Extended by
 
 - [`IHtmlResourceElementItem`](IHtmlResourceElementItem.md)
-- [`IScriptResourceElementItem`](IScriptResourceElementItem.md)
 - [`IStylesheetResourceElementItem`](IStylesheetResourceElementItem.md)
+- [`IScriptResourceElementItem`](IScriptResourceElementItem.md)
 - [`IImageResourceElementItem`](IImageResourceElementItem.md)
 - [`IBrokenResourceElementItem`](IBrokenResourceElementItem.md)
 

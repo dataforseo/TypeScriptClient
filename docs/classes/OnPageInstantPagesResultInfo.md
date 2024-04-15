@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:158762
+main.ts:158912
 
 ## Properties
 
@@ -48,7 +48,7 @@ you can find the full list of IPs used by our crawler in the Overview section
 
 #### Source
 
-main.ts:158754
+main.ts:158904
 
 ***
 
@@ -65,7 +65,7 @@ possible values: in_progress, finished
 
 #### Source
 
-main.ts:158747
+main.ts:158897
 
 ***
 
@@ -82,7 +82,7 @@ in this case the value will be null
 
 #### Source
 
-main.ts:158750
+main.ts:158900
 
 ***
 
@@ -98,7 +98,7 @@ items array
 
 #### Source
 
-main.ts:158758
+main.ts:158908
 
 ***
 
@@ -114,7 +114,7 @@ number of items in the results array
 
 #### Source
 
-main.ts:158756
+main.ts:158906
 
 ## Methods
 
@@ -132,7 +132,7 @@ main.ts:158756
 
 #### Source
 
-main.ts:158771
+main.ts:158921
 
 ***
 
@@ -150,7 +150,7 @@ main.ts:158771
 
 #### Source
 
-main.ts:158796
+main.ts:158946
 
 ***
 
@@ -168,4 +168,4 @@ main.ts:158796
 
 #### Source
 
-main.ts:158789
+main.ts:158939

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:186615
+main.ts:186765
 
 ## Properties
 
@@ -46,7 +46,7 @@ URL to the reviewer’s profile image
 
 #### Source
 
-main.ts:186611
+main.ts:186761
 
 ***
 
@@ -62,7 +62,7 @@ profile name of the reviewer
 
 #### Source
 
-main.ts:186609
+main.ts:186759
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:186609
 
 #### Source
 
-main.ts:186624
+main.ts:186774
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:186624
 
 #### Source
 
-main.ts:186642
+main.ts:186792
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:186642
 
 #### Source
 
-main.ts:186635
+main.ts:186785

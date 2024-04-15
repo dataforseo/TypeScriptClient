@@ -27,7 +27,7 @@ en
 
 #### Source
 
-main.ts:106464
+main.ts:106532
 
 ***
 
@@ -46,7 +46,7 @@ English
 
 #### Source
 
-main.ts:106455
+main.ts:106523
 
 ***
 
@@ -61,7 +61,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:106469
+main.ts:106537
 
 ***
 
@@ -81,7 +81,7 @@ example:
 
 #### Source
 
-main.ts:106446
+main.ts:106514
 
 ***
 
@@ -101,7 +101,7 @@ United States
 
 #### Source
 
-main.ts:106436
+main.ts:106504
 
 ***
 
@@ -116,7 +116,7 @@ if you specify the 10 value, the first ten items in the results array will be om
 
 #### Source
 
-main.ts:106474
+main.ts:106542
 
 ***
 
@@ -132,7 +132,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:106480
+main.ts:106548
 
 ***
 
@@ -147,4 +147,4 @@ the domain should be specified without https:// and www.
 
 #### Source
 
-main.ts:106426
+main.ts:106494

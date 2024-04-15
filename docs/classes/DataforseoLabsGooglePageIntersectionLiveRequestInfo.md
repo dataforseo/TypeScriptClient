@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:99258
+main.ts:99138
 
 ## Properties
 
@@ -57,7 +57,7 @@ example:
 
 #### Source
 
-main.ts:99139
+main.ts:99019
 
 ***
 
@@ -91,7 +91,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:99232
+main.ts:99112
 
 ***
 
@@ -110,7 +110,7 @@ default value: false
 
 #### Source
 
-main.ts:99212
+main.ts:99092
 
 ***
 
@@ -129,7 +129,7 @@ default value: false
 
 #### Source
 
-main.ts:99207
+main.ts:99087
 
 ***
 
@@ -148,7 +148,7 @@ default value: true
 
 #### Source
 
-main.ts:99194
+main.ts:99074
 
 ***
 
@@ -170,7 +170,7 @@ by default, results are based on the intersect mode if you specify only pages ar
 
 #### Source
 
-main.ts:99202
+main.ts:99082
 
 ***
 
@@ -192,7 +192,7 @@ default value:
 
 #### Source
 
-main.ts:99179
+main.ts:99059
 
 ***
 
@@ -214,7 +214,7 @@ en
 
 #### Source
 
-main.ts:99171
+main.ts:99051
 
 ***
 
@@ -236,7 +236,7 @@ English
 
 #### Source
 
-main.ts:99163
+main.ts:99043
 
 ***
 
@@ -255,7 +255,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:99184
+main.ts:99064
 
 ***
 
@@ -277,7 +277,7 @@ example:
 
 #### Source
 
-main.ts:99155
+main.ts:99035
 
 ***
 
@@ -299,7 +299,7 @@ United Kingdom
 
 #### Source
 
-main.ts:99147
+main.ts:99027
 
 ***
 
@@ -318,7 +318,7 @@ if you specify 10 here, the first ten keywords in the results array will be omit
 
 #### Source
 
-main.ts:99189
+main.ts:99069
 
 ***
 
@@ -348,7 +348,7 @@ example:
 
 #### Source
 
-main.ts:99248
+main.ts:99128
 
 ***
 
@@ -387,7 +387,7 @@ Note: this endpoint will not provide results if the number of intersecting keywo
 
 #### Source
 
-main.ts:99126
+main.ts:99006
 
 ***
 
@@ -407,7 +407,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:99254
+main.ts:99134
 
 ## Methods
 
@@ -425,7 +425,7 @@ main.ts:99254
 
 #### Source
 
-main.ts:99267
+main.ts:99147
 
 ***
 
@@ -443,7 +443,7 @@ main.ts:99267
 
 #### Source
 
-main.ts:99321
+main.ts:99201
 
 ***
 
@@ -461,4 +461,4 @@ main.ts:99321
 
 #### Source
 
-main.ts:99314
+main.ts:99194

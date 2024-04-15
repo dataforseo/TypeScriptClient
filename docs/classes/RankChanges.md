@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:88882
+main.ts:88776
 
 ## Properties
 
@@ -47,7 +47,7 @@ if the value is true, position of the element in SERP is lower compared to the p
 
 #### Source
 
-main.ts:88878
+main.ts:88772
 
 ***
 
@@ -64,7 +64,7 @@ if the value is true, previously collected SERP didn’t contain this element
 
 #### Source
 
-main.ts:88872
+main.ts:88766
 
 ***
 
@@ -81,7 +81,7 @@ if the value is true, position of the element in SERP is higher compared to the 
 
 #### Source
 
-main.ts:88875
+main.ts:88769
 
 ***
 
@@ -99,7 +99,7 @@ if this element is new, the value will be null
 
 #### Source
 
-main.ts:88869
+main.ts:88763
 
 ## Methods
 
@@ -117,7 +117,7 @@ main.ts:88869
 
 #### Source
 
-main.ts:88891
+main.ts:88785
 
 ***
 
@@ -135,7 +135,7 @@ main.ts:88891
 
 #### Source
 
-main.ts:88911
+main.ts:88805
 
 ***
 
@@ -153,4 +153,4 @@ main.ts:88911
 
 #### Source
 
-main.ts:88904
+main.ts:88798

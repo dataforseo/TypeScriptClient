@@ -21,7 +21,7 @@ possible values: informational, navigational, commercial, transactional
 
 #### Source
 
-main.ts:82005
+main.ts:82017
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Source
 
-main.ts:82010
+main.ts:82022
 
 ***
 
@@ -49,7 +49,7 @@ possible values: informational, navigational, commercial, transactional
 
 #### Source
 
-main.ts:82002
+main.ts:82014
 
 ***
 
@@ -62,4 +62,4 @@ possible values: google
 
 #### Source
 
-main.ts:81999
+main.ts:82011

@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:95529
+main.ts:95415
 
 ## Properties
 
@@ -68,7 +68,7 @@ backlinks information for the target website
 
 #### Source
 
-main.ts:95523
+main.ts:95409
 
 ***
 
@@ -84,7 +84,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:95500
+main.ts:95386
 
 ***
 
@@ -100,7 +100,7 @@ subdomain in SERP
 
 #### Source
 
-main.ts:95494
+main.ts:95380
 
 ***
 
@@ -118,7 +118,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:95518
+main.ts:95404
 
 ***
 
@@ -137,7 +137,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:95514
+main.ts:95400
 
 ***
 
@@ -153,7 +153,7 @@ the title of the featured snippets source page
 
 #### Source
 
-main.ts:95498
+main.ts:95384
 
 ***
 
@@ -169,7 +169,7 @@ primary domain name in SERP
 
 #### Source
 
-main.ts:95507
+main.ts:95393
 
 ***
 
@@ -187,7 +187,7 @@ left, right
 
 #### Source
 
-main.ts:95490
+main.ts:95376
 
 ***
 
@@ -204,7 +204,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:95486
+main.ts:95372
 
 ***
 
@@ -221,7 +221,7 @@ contains information about the ranking changes of the SERP element since the pre
 
 #### Source
 
-main.ts:95521
+main.ts:95407
 
 ***
 
@@ -238,7 +238,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:95483
+main.ts:95369
 
 ***
 
@@ -254,7 +254,7 @@ page and domain rank information
 
 #### Source
 
-main.ts:95525
+main.ts:95411
 
 ***
 
@@ -270,7 +270,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Source
 
-main.ts:95509
+main.ts:95395
 
 ***
 
@@ -286,7 +286,7 @@ search engine type
 
 #### Source
 
-main.ts:95480
+main.ts:95366
 
 ***
 
@@ -303,7 +303,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:95505
+main.ts:95391
 
 ***
 
@@ -319,7 +319,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:95496
+main.ts:95382
 
 ***
 
@@ -335,7 +335,7 @@ relevant URL in SERP
 
 #### Source
 
-main.ts:95502
+main.ts:95388
 
 ***
 
@@ -351,7 +351,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:95492
+main.ts:95378
 
 ## Methods
 
@@ -373,7 +373,7 @@ main.ts:95492
 
 #### Source
 
-main.ts:95534
+main.ts:95420
 
 ***
 
@@ -395,7 +395,7 @@ main.ts:95534
 
 #### Source
 
-main.ts:95569
+main.ts:95455
 
 ***
 
@@ -417,4 +417,4 @@ main.ts:95569
 
 #### Source
 
-main.ts:95562
+main.ts:95448

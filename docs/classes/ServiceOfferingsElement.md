@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:209415
+main.ts:209565
 
 ## Properties
 
@@ -47,7 +47,7 @@ if the value is false, the offering is not available
 
 #### Source
 
-main.ts:209411
+main.ts:209561
 
 ***
 
@@ -64,7 +64,7 @@ example: Delivery
 
 #### Source
 
-main.ts:209408
+main.ts:209558
 
 ***
 
@@ -80,7 +80,7 @@ type of element
 
 #### Source
 
-main.ts:209405
+main.ts:209555
 
 ## Methods
 
@@ -98,7 +98,7 @@ main.ts:209405
 
 #### Source
 
-main.ts:209424
+main.ts:209574
 
 ***
 
@@ -116,7 +116,7 @@ main.ts:209424
 
 #### Source
 
-main.ts:209443
+main.ts:209593
 
 ***
 
@@ -134,4 +134,4 @@ main.ts:209443
 
 #### Source
 
-main.ts:209436
+main.ts:209586

@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:96460
+main.ts:96328
 
 ## Properties
 
@@ -68,7 +68,7 @@ backlinks information for the target website
 
 #### Source
 
-main.ts:96454
+main.ts:96322
 
 ***
 
@@ -84,7 +84,7 @@ breadcrumb of the Ad element in SERP
 
 #### Source
 
-main.ts:96416
+main.ts:96284
 
 ***
 
@@ -100,7 +100,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:96414
+main.ts:96282
 
 ***
 
@@ -117,7 +117,7 @@ if there is none, equals null
 
 #### Source
 
-main.ts:96425
+main.ts:96293
 
 ***
 
@@ -133,7 +133,7 @@ domain where a link points
 
 #### Source
 
-main.ts:96412
+main.ts:96280
 
 ***
 
@@ -152,7 +152,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:96446
+main.ts:96314
 
 ***
 
@@ -171,7 +171,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:96436
+main.ts:96304
 
 ***
 
@@ -191,7 +191,7 @@ additional information about the result
 
 #### Source
 
-main.ts:96422
+main.ts:96290
 
 ***
 
@@ -207,7 +207,7 @@ words highlighted in bold within the results description
 
 #### Source
 
-main.ts:96420
+main.ts:96288
 
 ***
 
@@ -226,7 +226,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:96441
+main.ts:96309
 
 ***
 
@@ -242,7 +242,7 @@ link of the element
 
 #### Source
 
-main.ts:96427
+main.ts:96295
 
 ***
 
@@ -258,7 +258,7 @@ primary domain name in SERP
 
 #### Source
 
-main.ts:96429
+main.ts:96297
 
 ***
 
@@ -276,7 +276,7 @@ left, right
 
 #### Source
 
-main.ts:96406
+main.ts:96274
 
 ***
 
@@ -293,7 +293,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:96402
+main.ts:96270
 
 ***
 
@@ -311,7 +311,7 @@ Note: the changes are calculated even if the preceding month is not included in 
 
 #### Source
 
-main.ts:96450
+main.ts:96318
 
 ***
 
@@ -328,7 +328,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:96399
+main.ts:96267
 
 ***
 
@@ -344,7 +344,7 @@ page and domain rank information
 
 #### Source
 
-main.ts:96456
+main.ts:96324
 
 ***
 
@@ -360,7 +360,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Source
 
-main.ts:96431
+main.ts:96299
 
 ***
 
@@ -376,7 +376,7 @@ search engine type
 
 #### Source
 
-main.ts:96452
+main.ts:96320
 
 ***
 
@@ -392,7 +392,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:96410
+main.ts:96278
 
 ***
 
@@ -408,7 +408,7 @@ relevant URL of the Ad element in SERP
 
 #### Source
 
-main.ts:96418
+main.ts:96286
 
 ***
 
@@ -424,7 +424,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:96408
+main.ts:96276
 
 ## Methods
 
@@ -446,7 +446,7 @@ main.ts:96408
 
 #### Source
 
-main.ts:96465
+main.ts:96333
 
 ***
 
@@ -468,7 +468,7 @@ main.ts:96465
 
 #### Source
 
-main.ts:96522
+main.ts:96390
 
 ***
 
@@ -490,4 +490,4 @@ main.ts:96522
 
 #### Source
 
-main.ts:96515
+main.ts:96383

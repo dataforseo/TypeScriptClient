@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:126430
+main.ts:126580
 
 ## Properties
 
@@ -50,7 +50,7 @@ comparison of keyword popularity data by age
 
 #### Source
 
-main.ts:126424
+main.ts:126574
 
 ***
 
@@ -70,7 +70,7 @@ comparison of keyword popularity data by gender
 
 #### Source
 
-main.ts:126426
+main.ts:126576
 
 ## Methods
 
@@ -88,7 +88,7 @@ main.ts:126426
 
 #### Source
 
-main.ts:126439
+main.ts:126589
 
 ***
 
@@ -106,7 +106,7 @@ main.ts:126439
 
 #### Source
 
-main.ts:126469
+main.ts:126619
 
 ***
 
@@ -124,4 +124,4 @@ main.ts:126469
 
 #### Source
 
-main.ts:126462
+main.ts:126612

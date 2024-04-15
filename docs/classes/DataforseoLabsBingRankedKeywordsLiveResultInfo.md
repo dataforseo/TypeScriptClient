@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:107783
+main.ts:107933
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains ranked keywords and related data
 
 #### Source
 
-main.ts:107779
+main.ts:107929
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:107771
+main.ts:107921
 
 ***
 
@@ -79,7 +79,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:107767
+main.ts:107917
 
 ***
 
@@ -96,7 +96,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:107764
+main.ts:107914
 
 ***
 
@@ -117,7 +117,7 @@ ranking data is provided by the rank_group parameters that show the result’s r
 
 #### Source
 
-main.ts:107774
+main.ts:107924
 
 ***
 
@@ -138,7 +138,7 @@ ranking data is provided by the rank_absolute parameters that indicate the resul
 
 #### Source
 
-main.ts:107777
+main.ts:107927
 
 ***
 
@@ -154,7 +154,7 @@ search engine type
 
 #### Source
 
-main.ts:107759
+main.ts:107909
 
 ***
 
@@ -170,7 +170,7 @@ target domain in a POST array
 
 #### Source
 
-main.ts:107761
+main.ts:107911
 
 ***
 
@@ -186,7 +186,7 @@ total number of results in our database relevant to your request
 
 #### Source
 
-main.ts:107769
+main.ts:107919
 
 ## Methods
 
@@ -204,7 +204,7 @@ main.ts:107769
 
 #### Source
 
-main.ts:107792
+main.ts:107942
 
 ***
 
@@ -222,7 +222,7 @@ main.ts:107792
 
 #### Source
 
-main.ts:107833
+main.ts:107983
 
 ***
 
@@ -240,4 +240,4 @@ main.ts:107833
 
 #### Source
 
-main.ts:107826
+main.ts:107976

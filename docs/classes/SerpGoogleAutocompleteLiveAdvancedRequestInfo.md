@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:51750
+main.ts:51760
 
 ## Properties
 
@@ -60,7 +60,7 @@ products-cc — used in google shopping search
 
 #### Source
 
-main.ts:51740
+main.ts:51750
 
 ***
 
@@ -85,7 +85,7 @@ which que|ry is s – "cursor_pointer": 9
 
 #### Source
 
-main.ts:51724
+main.ts:51734
 
 ***
 
@@ -106,7 +106,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Source
 
-main.ts:51686
+main.ts:51696
 
 ***
 
@@ -127,7 +127,7 @@ en
 
 #### Source
 
-main.ts:51713
+main.ts:51723
 
 ***
 
@@ -148,7 +148,7 @@ English
 
 #### Source
 
-main.ts:51706
+main.ts:51716
 
 ***
 
@@ -168,7 +168,7 @@ example:
 
 #### Source
 
-main.ts:51699
+main.ts:51709
 
 ***
 
@@ -189,7 +189,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:51693
+main.ts:51703
 
 ***
 
@@ -209,7 +209,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:51746
+main.ts:51756
 
 ## Methods
 
@@ -227,7 +227,7 @@ main.ts:51746
 
 #### Source
 
-main.ts:51759
+main.ts:51769
 
 ***
 
@@ -245,7 +245,7 @@ main.ts:51759
 
 #### Source
 
-main.ts:51783
+main.ts:51793
 
 ***
 
@@ -263,4 +263,4 @@ main.ts:51783
 
 #### Source
 
-main.ts:51776
+main.ts:51786

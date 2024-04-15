@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:173970
+main.ts:174120
 
 ## Properties
 
@@ -51,7 +51,7 @@ en
 
 #### Source
 
-main.ts:173927
+main.ts:174077
 
 ***
 
@@ -72,7 +72,7 @@ English
 
 #### Source
 
-main.ts:173920
+main.ts:174070
 
 ***
 
@@ -93,7 +93,7 @@ example:
 
 #### Source
 
-main.ts:173904
+main.ts:174054
 
 ***
 
@@ -116,7 +116,7 @@ example:
 
 #### Source
 
-main.ts:173913
+main.ts:174063
 
 ***
 
@@ -137,7 +137,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:173897
+main.ts:174047
 
 ***
 
@@ -161,7 +161,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:173966
+main.ts:174116
 
 ***
 
@@ -181,7 +181,7 @@ advanced, html
 
 #### Source
 
-main.ts:173956
+main.ts:174106
 
 ***
 
@@ -205,7 +205,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:173950
+main.ts:174100
 
 ***
 
@@ -227,7 +227,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:173890
+main.ts:174040
 
 ***
 
@@ -247,7 +247,7 @@ learn more about the parameter in this help center guide
 
 #### Source
 
-main.ts:173882
+main.ts:174032
 
 ***
 
@@ -268,7 +268,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Source
 
-main.ts:173934
+main.ts:174084
 
 ***
 
@@ -288,7 +288,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:173940
+main.ts:174090
 
 ## Methods
 
@@ -306,7 +306,7 @@ main.ts:173940
 
 #### Source
 
-main.ts:173979
+main.ts:174129
 
 ***
 
@@ -324,7 +324,7 @@ main.ts:173979
 
 #### Source
 
-main.ts:174007
+main.ts:174157
 
 ***
 
@@ -342,4 +342,4 @@ main.ts:174007
 
 #### Source
 
-main.ts:174000
+main.ts:174150

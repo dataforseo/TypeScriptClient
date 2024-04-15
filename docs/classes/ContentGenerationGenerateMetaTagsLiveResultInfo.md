@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:166106
+main.ts:166256
 
 ## Properties
 
@@ -46,7 +46,7 @@ generated description
 
 #### Source
 
-main.ts:166102
+main.ts:166252
 
 ***
 
@@ -62,7 +62,7 @@ number of input tokens
 
 #### Source
 
-main.ts:166094
+main.ts:166244
 
 ***
 
@@ -78,7 +78,7 @@ number of new tokens
 
 #### Source
 
-main.ts:166098
+main.ts:166248
 
 ***
 
@@ -94,7 +94,7 @@ number of output tokens
 
 #### Source
 
-main.ts:166096
+main.ts:166246
 
 ***
 
@@ -110,7 +110,7 @@ generated title
 
 #### Source
 
-main.ts:166100
+main.ts:166250
 
 ## Methods
 
@@ -128,7 +128,7 @@ main.ts:166100
 
 #### Source
 
-main.ts:166115
+main.ts:166265
 
 ***
 
@@ -146,7 +146,7 @@ main.ts:166115
 
 #### Source
 
-main.ts:166136
+main.ts:166286
 
 ***
 
@@ -164,4 +164,4 @@ main.ts:166136
 
 #### Source
 
-main.ts:166129
+main.ts:166279

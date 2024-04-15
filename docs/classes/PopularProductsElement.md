@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:32866
+main.ts:32868
 
 ## Properties
 
@@ -50,6 +50,22 @@ main.ts:32855
 
 ***
 
+### image\_url?
+
+> **`optional`** **image\_url**: `string`
+
+URL of the image
+
+#### Implementation of
+
+[`IPopularProductsElement`](../interfaces/IPopularProductsElement.md).[`image_url`](../interfaces/IPopularProductsElement.md#image_url)
+
+#### Source
+
+main.ts:32859
+
+***
+
 ### price?
 
 > **`optional`** **price**: [`PriceInfo`](PriceInfo.md)
@@ -62,7 +78,7 @@ price indicated in the element
 
 #### Source
 
-main.ts:32859
+main.ts:32861
 
 ***
 
@@ -79,7 +95,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:32862
+main.ts:32864
 
 ***
 
@@ -145,7 +161,7 @@ main.ts:32851
 
 #### Source
 
-main.ts:32875
+main.ts:32877
 
 ***
 
@@ -163,7 +179,7 @@ main.ts:32875
 
 #### Source
 
-main.ts:32897
+main.ts:32900
 
 ***
 
@@ -181,4 +197,4 @@ main.ts:32897
 
 #### Source
 
-main.ts:32890
+main.ts:32893

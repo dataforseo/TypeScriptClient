@@ -20,7 +20,7 @@ contains keywords and related data
 
 #### Source
 
-main.ts:82874
+main.ts:82886
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:82872
+main.ts:82884
 
 ***
 
@@ -44,7 +44,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:82868
+main.ts:82880
 
 ***
 
@@ -56,7 +56,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:82866
+main.ts:82878
 
 ***
 
@@ -68,7 +68,7 @@ search engine type
 
 #### Source
 
-main.ts:82859
+main.ts:82871
 
 ***
 
@@ -80,7 +80,7 @@ keyword in a POST array
 
 #### Source
 
-main.ts:82861
+main.ts:82873
 
 ***
 
@@ -97,7 +97,7 @@ fields in the array are identical to that of keyword_data
 
 #### Source
 
-main.ts:82864
+main.ts:82876
 
 ***
 
@@ -109,4 +109,4 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:82870
+main.ts:82882

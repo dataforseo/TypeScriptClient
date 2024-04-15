@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:59772
+main.ts:59784
 
 ## Properties
 
@@ -46,7 +46,7 @@ ISO country code of the location
 
 #### Source
 
-main.ts:59766
+main.ts:59778
 
 ***
 
@@ -62,7 +62,7 @@ location code
 
 #### Source
 
-main.ts:59753
+main.ts:59765
 
 ***
 
@@ -85,7 +85,7 @@ where location_code_parent corresponds to:
 
 #### Source
 
-main.ts:59764
+main.ts:59776
 
 ***
 
@@ -101,7 +101,7 @@ full name of the location
 
 #### Source
 
-main.ts:59755
+main.ts:59767
 
 ***
 
@@ -117,7 +117,7 @@ location type
 
 #### Source
 
-main.ts:59768
+main.ts:59780
 
 ## Methods
 
@@ -135,7 +135,7 @@ main.ts:59768
 
 #### Source
 
-main.ts:59781
+main.ts:59793
 
 ***
 
@@ -153,7 +153,7 @@ main.ts:59781
 
 #### Source
 
-main.ts:59802
+main.ts:59814
 
 ***
 
@@ -171,4 +171,4 @@ main.ts:59802
 
 #### Source
 
-main.ts:59795
+main.ts:59807

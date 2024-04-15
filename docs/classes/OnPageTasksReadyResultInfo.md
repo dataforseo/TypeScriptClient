@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:148469
+main.ts:148619
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Source
 
-main.ts:148463
+main.ts:148613
 
 ***
 
@@ -63,7 +63,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:148459
+main.ts:148609
 
 ***
 
@@ -79,7 +79,7 @@ user-defined task identifier
 
 #### Source
 
-main.ts:148465
+main.ts:148615
 
 ***
 
@@ -95,7 +95,7 @@ target website specified when setting a task
 
 #### Source
 
-main.ts:148461
+main.ts:148611
 
 ## Methods
 
@@ -113,7 +113,7 @@ main.ts:148461
 
 #### Source
 
-main.ts:148478
+main.ts:148628
 
 ***
 
@@ -131,7 +131,7 @@ main.ts:148478
 
 #### Source
 
-main.ts:148498
+main.ts:148648
 
 ***
 
@@ -149,4 +149,4 @@ main.ts:148498
 
 #### Source
 
-main.ts:148491
+main.ts:148641

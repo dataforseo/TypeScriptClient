@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:157730
+main.ts:157880
 
 ## Properties
 
@@ -48,7 +48,7 @@ example:
 
 #### Source
 
-main.ts:157722
+main.ts:157872
 
 ***
 
@@ -64,7 +64,7 @@ parsed content of the page
 
 #### Source
 
-main.ts:157726
+main.ts:157876
 
 ***
 
@@ -80,7 +80,7 @@ status code of the page
 
 #### Source
 
-main.ts:157724
+main.ts:157874
 
 ***
 
@@ -96,7 +96,7 @@ type of element
 
 #### Source
 
-main.ts:157718
+main.ts:157868
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:157718
 
 #### Source
 
-main.ts:157739
+main.ts:157889
 
 ***
 
@@ -132,7 +132,7 @@ main.ts:157739
 
 #### Source
 
-main.ts:157759
+main.ts:157909
 
 ***
 
@@ -150,4 +150,4 @@ main.ts:157759
 
 #### Source
 
-main.ts:157752
+main.ts:157902

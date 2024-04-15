@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:81945
+main.ts:81957
 
 ## Properties
 
@@ -47,7 +47,7 @@ possible values: informational, navigational, commercial, transactional
 
 #### Source
 
-main.ts:81936
+main.ts:81948
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Source
 
-main.ts:81941
+main.ts:81953
 
 ***
 
@@ -83,7 +83,7 @@ possible values: informational, navigational, commercial, transactional
 
 #### Source
 
-main.ts:81933
+main.ts:81945
 
 ***
 
@@ -100,7 +100,7 @@ possible values: google
 
 #### Source
 
-main.ts:81930
+main.ts:81942
 
 ## Methods
 
@@ -118,7 +118,7 @@ main.ts:81930
 
 #### Source
 
-main.ts:81954
+main.ts:81966
 
 ***
 
@@ -136,7 +136,7 @@ main.ts:81954
 
 #### Source
 
-main.ts:81978
+main.ts:81990
 
 ***
 
@@ -154,4 +154,4 @@ main.ts:81978
 
 #### Source
 
-main.ts:81971
+main.ts:81983

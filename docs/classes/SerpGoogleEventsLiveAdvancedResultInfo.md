@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:46101
+main.ts:46111
 
 ## Properties
 
@@ -46,7 +46,7 @@ direct URL to search engine results
 
 #### Source
 
-main.ts:46077
+main.ts:46087
 
 ***
 
@@ -65,7 +65,7 @@ example:
 
 #### Source
 
-main.ts:46082
+main.ts:46092
 
 ***
 
@@ -83,7 +83,7 @@ event_item
 
 #### Source
 
-main.ts:46089
+main.ts:46099
 
 ***
 
@@ -99,7 +99,7 @@ items in SERP
 
 #### Source
 
-main.ts:46097
+main.ts:46107
 
 ***
 
@@ -115,7 +115,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:46095
+main.ts:46105
 
 ***
 
@@ -132,7 +132,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Source
 
-main.ts:46066
+main.ts:46076
 
 ***
 
@@ -149,7 +149,7 @@ in this case, the value will be null
 
 #### Source
 
-main.ts:46075
+main.ts:46085
 
 ***
 
@@ -165,7 +165,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:46072
+main.ts:46082
 
 ***
 
@@ -181,7 +181,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:46070
+main.ts:46080
 
 ***
 
@@ -199,7 +199,7 @@ this search engine does not indicate the total number of results
 
 #### Source
 
-main.ts:46093
+main.ts:46103
 
 ***
 
@@ -216,7 +216,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Source
 
-main.ts:46085
+main.ts:46095
 
 ***
 
@@ -232,7 +232,7 @@ type of element
 
 #### Source
 
-main.ts:46068
+main.ts:46078
 
 ## Methods
 
@@ -250,7 +250,7 @@ main.ts:46068
 
 #### Source
 
-main.ts:46110
+main.ts:46120
 
 ***
 
@@ -268,7 +268,7 @@ main.ts:46110
 
 #### Source
 
-main.ts:46146
+main.ts:46156
 
 ***
 
@@ -286,4 +286,4 @@ main.ts:46146
 
 #### Source
 
-main.ts:46139
+main.ts:46149

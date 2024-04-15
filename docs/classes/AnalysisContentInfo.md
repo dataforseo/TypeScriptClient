@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:161899
+main.ts:162049
 
 ## Properties
 
@@ -46,7 +46,7 @@ author of the content
 
 #### Source
 
-main.ts:161849
+main.ts:161999
 
 ***
 
@@ -68,7 +68,7 @@ possible sentiment connotation types: positive, negative, neutral
 
 #### Source
 
-main.ts:161869
+main.ts:162019
 
 ***
 
@@ -85,7 +85,7 @@ this value is calculated based on the number of words, sentences and characters 
 
 #### Source
 
-main.ts:161880
+main.ts:162030
 
 ***
 
@@ -103,7 +103,7 @@ page_content, comment
 
 #### Source
 
-main.ts:161838
+main.ts:161988
 
 ***
 
@@ -122,7 +122,7 @@ example:
 
 #### Source
 
-main.ts:161877
+main.ts:162027
 
 ***
 
@@ -143,7 +143,7 @@ example:
 
 #### Source
 
-main.ts:161895
+main.ts:162045
 
 ***
 
@@ -159,7 +159,7 @@ highlighted text from the snippet
 
 #### Source
 
-main.ts:161858
+main.ts:162008
 
 ***
 
@@ -176,7 +176,7 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 #### Source
 
-main.ts:161861
+main.ts:162011
 
 ***
 
@@ -193,7 +193,7 @@ indicates h-tag level from 1 (top) to 6 (bottom)
 
 #### Source
 
-main.ts:161847
+main.ts:161997
 
 ***
 
@@ -209,7 +209,7 @@ page title
 
 #### Source
 
-main.ts:161842
+main.ts:161992
 
 ***
 
@@ -225,7 +225,7 @@ title of the previous content block
 
 #### Source
 
-main.ts:161844
+main.ts:161994
 
 ***
 
@@ -242,7 +242,7 @@ rating related to content_info
 
 #### Source
 
-main.ts:161888
+main.ts:162038
 
 ***
 
@@ -261,7 +261,7 @@ article, header
 
 #### Source
 
-main.ts:161885
+main.ts:162035
 
 ***
 
@@ -283,7 +283,7 @@ possible sentiment connotations: anger, happiness, love, sadness, share, fun
 
 #### Source
 
-main.ts:161865
+main.ts:162015
 
 ***
 
@@ -299,7 +299,7 @@ content snippet
 
 #### Source
 
-main.ts:161851
+main.ts:162001
 
 ***
 
@@ -315,7 +315,7 @@ character length of the snippet
 
 #### Source
 
-main.ts:161853
+main.ts:162003
 
 ***
 
@@ -332,7 +332,7 @@ data on social media interactions associated with the content based on website e
 
 #### Source
 
-main.ts:161856
+main.ts:162006
 
 ***
 
@@ -349,7 +349,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Source
 
-main.ts:161872
+main.ts:162022
 
 ***
 
@@ -365,7 +365,7 @@ title of the result
 
 #### Source
 
-main.ts:161840
+main.ts:161990
 
 ## Methods
 
@@ -383,7 +383,7 @@ main.ts:161840
 
 #### Source
 
-main.ts:161908
+main.ts:162058
 
 ***
 
@@ -401,7 +401,7 @@ main.ts:161908
 
 #### Source
 
-main.ts:161963
+main.ts:162113
 
 ***
 
@@ -419,4 +419,4 @@ main.ts:161963
 
 #### Source
 
-main.ts:161956
+main.ts:162106

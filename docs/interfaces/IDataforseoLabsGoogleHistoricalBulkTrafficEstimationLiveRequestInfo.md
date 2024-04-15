@@ -24,7 +24,7 @@ date format: "yyyy-mm-dd"
 
 #### Source
 
-main.ts:100534
+main.ts:100421
 
 ***
 
@@ -41,7 +41,22 @@ example:
 
 #### Source
 
-main.ts:100541
+main.ts:100428
+
+***
+
+### ignore\_synonyms?
+
+> **`optional`** **ignore\_synonyms**: `boolean`
+
+ignore highly similar keywords
+optional field
+if set to true only core keywords will be returned, all highly similar keywords will be excluded;
+default value: false
+
+#### Source
+
+main.ts:100433
 
 ***
 
@@ -60,7 +75,7 @@ default value:
 
 #### Source
 
-main.ts:100550
+main.ts:100442
 
 ***
 
@@ -78,7 +93,7 @@ en
 
 #### Source
 
-main.ts:100528
+main.ts:100415
 
 ***
 
@@ -96,7 +111,7 @@ English
 
 #### Source
 
-main.ts:100520
+main.ts:100407
 
 ***
 
@@ -114,7 +129,7 @@ example:
 
 #### Source
 
-main.ts:100512
+main.ts:100399
 
 ***
 
@@ -132,7 +147,7 @@ United Kingdom
 
 #### Source
 
-main.ts:100504
+main.ts:100391
 
 ***
 
@@ -148,7 +163,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:100556
+main.ts:100448
 
 ***
 
@@ -164,4 +179,4 @@ you can set up to 1000 domains or subdomains
 
 #### Source
 
-main.ts:100496
+main.ts:100383

@@ -28,7 +28,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:40658
+main.ts:40670
 
 ***
 
@@ -43,7 +43,7 @@ default value: desktop
 
 #### Source
 
-main.ts:40641
+main.ts:40653
 
 ***
 
@@ -60,7 +60,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Source
 
-main.ts:40590
+main.ts:40602
 
 ***
 
@@ -76,7 +76,7 @@ example:en
 
 #### Source
 
-main.ts:40636
+main.ts:40648
 
 ***
 
@@ -93,7 +93,7 @@ English
 
 #### Source
 
-main.ts:40630
+main.ts:40642
 
 ***
 
@@ -110,7 +110,7 @@ example:
 
 #### Source
 
-main.ts:40612
+main.ts:40624
 
 ***
 
@@ -131,7 +131,7 @@ example:
 
 #### Source
 
-main.ts:40623
+main.ts:40635
 
 ***
 
@@ -148,7 +148,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:40605
+main.ts:40617
 
 ***
 
@@ -163,7 +163,7 @@ possible values for mobile: 2, 2.5, 3, 3.5, 4, 4.5
 
 #### Source
 
-main.ts:40663
+main.ts:40675
 
 ***
 
@@ -180,7 +180,7 @@ default value: android
 
 #### Source
 
-main.ts:40648
+main.ts:40660
 
 ***
 
@@ -200,7 +200,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:40704
+main.ts:40716
 
 ***
 
@@ -216,7 +216,7 @@ advanced, html
 
 #### Source
 
-main.ts:40694
+main.ts:40706
 
 ***
 
@@ -236,7 +236,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:40688
+main.ts:40700
 
 ***
 
@@ -254,7 +254,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:40598
+main.ts:40610
 
 ***
 
@@ -270,7 +270,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:40678
+main.ts:40690
 
 ***
 
@@ -289,4 +289,4 @@ example: "tuesday;18"
 
 #### Source
 
-main.ts:40672
+main.ts:40684

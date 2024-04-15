@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:178816
+main.ts:178966
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Source
 
-main.ts:178808
+main.ts:178958
 
 ***
 
@@ -65,7 +65,7 @@ HTML pages and related data
 
 #### Source
 
-main.ts:178812
+main.ts:178962
 
 ***
 
@@ -81,7 +81,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:178810
+main.ts:178960
 
 ***
 
@@ -97,7 +97,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:178803
+main.ts:178953
 
 ***
 
@@ -113,7 +113,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:178801
+main.ts:178951
 
 ***
 
@@ -129,7 +129,7 @@ ASIN received in a POST array
 
 #### Source
 
-main.ts:178795
+main.ts:178945
 
 ***
 
@@ -145,7 +145,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:178799
+main.ts:178949
 
 ***
 
@@ -161,7 +161,7 @@ type of element
 
 #### Source
 
-main.ts:178797
+main.ts:178947
 
 ## Methods
 
@@ -179,7 +179,7 @@ main.ts:178797
 
 #### Source
 
-main.ts:178825
+main.ts:178975
 
 ***
 
@@ -197,7 +197,7 @@ main.ts:178825
 
 #### Source
 
-main.ts:178853
+main.ts:179003
 
 ***
 
@@ -215,4 +215,4 @@ main.ts:178853
 
 #### Source
 
-main.ts:178846
+main.ts:178996

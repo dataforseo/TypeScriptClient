@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:146256
+main.ts:146406
 
 ## Properties
 
@@ -47,7 +47,7 @@ number of lost backlinks of the target
 
 #### Source
 
-main.ts:146252
+main.ts:146402
 
 ***
 
@@ -64,7 +64,7 @@ number of new backlinks pointing to the target
 
 #### Source
 
-main.ts:146249
+main.ts:146399
 
 ***
 
@@ -80,7 +80,7 @@ domain, subdomain or webpage from a POST array
 
 #### Source
 
-main.ts:146246
+main.ts:146396
 
 ## Methods
 
@@ -98,7 +98,7 @@ main.ts:146246
 
 #### Source
 
-main.ts:146265
+main.ts:146415
 
 ***
 
@@ -116,7 +116,7 @@ main.ts:146265
 
 #### Source
 
-main.ts:146284
+main.ts:146434
 
 ***
 
@@ -134,4 +134,4 @@ main.ts:146284
 
 #### Source
 
-main.ts:146277
+main.ts:146427

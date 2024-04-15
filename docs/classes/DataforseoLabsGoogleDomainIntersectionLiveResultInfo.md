@@ -30,13 +30,13 @@
 
 #### Source
 
-main.ts:91509
+main.ts:91395
 
 ## Properties
 
 ### items?
 
-> **`optional`** **items**: [`DataforseoLabsDomainIntersectionLiveItem`](DataforseoLabsDomainIntersectionLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsGoogleDomainIntersectionLiveItem`](DataforseoLabsGoogleDomainIntersectionLiveItem.md)[]
 
 contains keywords, relevant SERP elements and related data
 
@@ -46,7 +46,7 @@ contains keywords, relevant SERP elements and related data
 
 #### Source
 
-main.ts:91505
+main.ts:91391
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:91503
+main.ts:91389
 
 ***
 
@@ -78,7 +78,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:91499
+main.ts:91385
 
 ***
 
@@ -94,7 +94,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:91497
+main.ts:91383
 
 ***
 
@@ -110,7 +110,7 @@ search engine type
 
 #### Source
 
-main.ts:91491
+main.ts:91377
 
 ***
 
@@ -126,7 +126,7 @@ the first target domain in a POST array
 
 #### Source
 
-main.ts:91493
+main.ts:91379
 
 ***
 
@@ -142,7 +142,7 @@ the second target domain in a POST array
 
 #### Source
 
-main.ts:91495
+main.ts:91381
 
 ***
 
@@ -158,7 +158,7 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:91501
+main.ts:91387
 
 ## Methods
 
@@ -176,7 +176,7 @@ main.ts:91501
 
 #### Source
 
-main.ts:91518
+main.ts:91404
 
 ***
 
@@ -194,7 +194,7 @@ main.ts:91518
 
 #### Source
 
-main.ts:91546
+main.ts:91432
 
 ***
 
@@ -212,4 +212,4 @@ main.ts:91546
 
 #### Source
 
-main.ts:91539
+main.ts:91425

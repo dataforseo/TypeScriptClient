@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:166929
+main.ts:167079
 
 ## Properties
 
@@ -46,7 +46,7 @@ description of the grammar or spelling error
 
 #### Source
 
-main.ts:166906
+main.ts:167056
 
 ***
 
@@ -62,7 +62,7 @@ offset token for subsequent requests
 
 #### Source
 
-main.ts:166912
+main.ts:167062
 
 ***
 
@@ -78,7 +78,7 @@ message of the grammar or spelling error
 
 #### Source
 
-main.ts:166904
+main.ts:167054
 
 ***
 
@@ -94,7 +94,7 @@ offset token for subsequent requests
 
 #### Source
 
-main.ts:166910
+main.ts:167060
 
 ***
 
@@ -110,7 +110,7 @@ id of the rule category
 
 #### Source
 
-main.ts:166923
+main.ts:167073
 
 ***
 
@@ -126,7 +126,7 @@ name of the rule category
 
 #### Source
 
-main.ts:166925
+main.ts:167075
 
 ***
 
@@ -142,7 +142,7 @@ description of the grammar or spelling rule
 
 #### Source
 
-main.ts:166919
+main.ts:167069
 
 ***
 
@@ -159,7 +159,7 @@ see the List of Grammar Rules for Content Generation API
 
 #### Source
 
-main.ts:166917
+main.ts:167067
 
 ***
 
@@ -175,7 +175,7 @@ type of the issue found by the relevant rule
 
 #### Source
 
-main.ts:166921
+main.ts:167071
 
 ***
 
@@ -191,7 +191,7 @@ suggested corrections
 
 #### Source
 
-main.ts:166908
+main.ts:167058
 
 ***
 
@@ -207,7 +207,7 @@ type of element
 
 #### Source
 
-main.ts:166914
+main.ts:167064
 
 ## Methods
 
@@ -225,7 +225,7 @@ main.ts:166914
 
 #### Source
 
-main.ts:166938
+main.ts:167088
 
 ***
 
@@ -243,7 +243,7 @@ main.ts:166938
 
 #### Source
 
-main.ts:166969
+main.ts:167119
 
 ***
 
@@ -261,4 +261,4 @@ main.ts:166969
 
 #### Source
 
-main.ts:166962
+main.ts:167112

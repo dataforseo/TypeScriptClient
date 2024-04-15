@@ -24,7 +24,7 @@ example:
 
 #### Source
 
-main.ts:75011
+main.ts:75023
 
 ***
 
@@ -47,7 +47,7 @@ example:
 
 #### Source
 
-main.ts:75044
+main.ts:75056
 
 ***
 
@@ -63,7 +63,7 @@ example:
 
 #### Source
 
-main.ts:75005
+main.ts:75017
 
 ***
 
@@ -79,7 +79,7 @@ maximum value: 10000
 
 #### Source
 
-main.ts:75072
+main.ts:75084
 
 ***
 
@@ -95,7 +95,7 @@ maximum value: 10000
 
 #### Source
 
-main.ts:75066
+main.ts:75078
 
 ***
 
@@ -112,7 +112,7 @@ maximum value: 10000
 
 #### Source
 
-main.ts:75085
+main.ts:75097
 
 ***
 
@@ -128,7 +128,7 @@ maximum value: 10000
 
 #### Source
 
-main.ts:75078
+main.ts:75090
 
 ***
 
@@ -145,7 +145,7 @@ example:
 
 #### Source
 
-main.ts:75024
+main.ts:75036
 
 ***
 
@@ -160,7 +160,7 @@ maximum value: 10000
 
 #### Source
 
-main.ts:75090
+main.ts:75102
 
 ***
 
@@ -177,7 +177,7 @@ default value: as_is
 
 #### Source
 
-main.ts:75031
+main.ts:75043
 
 ***
 
@@ -193,7 +193,7 @@ if you specify the 10 value, the first ten technologies in the results array wil
 
 #### Source
 
-main.ts:75096
+main.ts:75108
 
 ***
 
@@ -219,7 +219,7 @@ default value:
 
 #### Source
 
-main.ts:75060
+main.ts:75072
 
 ***
 
@@ -235,7 +235,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:75102
+main.ts:75114
 
 ***
 
@@ -251,4 +251,4 @@ example:
 
 #### Source
 
-main.ts:75017
+main.ts:75029

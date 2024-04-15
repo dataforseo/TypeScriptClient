@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:87914
+main.ts:87926
 
 ## Properties
 
@@ -59,7 +59,7 @@ for more information about filters, please refer to Dataforseo Labs - Filters or
 
 #### Source
 
-main.ts:87888
+main.ts:87900
 
 ***
 
@@ -78,7 +78,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:87868
+main.ts:87880
 
 ***
 
@@ -97,7 +97,7 @@ if you specify the 10 value, the first ten items in the results array will be om
 
 #### Source
 
-main.ts:87873
+main.ts:87885
 
 ***
 
@@ -127,7 +127,7 @@ example:
 
 #### Source
 
-main.ts:87904
+main.ts:87916
 
 ***
 
@@ -147,7 +147,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:87910
+main.ts:87922
 
 ## Methods
 
@@ -165,7 +165,7 @@ main.ts:87910
 
 #### Source
 
-main.ts:87923
+main.ts:87935
 
 ***
 
@@ -183,7 +183,7 @@ main.ts:87923
 
 #### Source
 
-main.ts:87952
+main.ts:87964
 
 ***
 
@@ -201,4 +201,4 @@ main.ts:87952
 
 #### Source
 
-main.ts:87945
+main.ts:87957

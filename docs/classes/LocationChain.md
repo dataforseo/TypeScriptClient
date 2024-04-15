@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:201030
+main.ts:201180
 
 ## Properties
 
@@ -46,7 +46,7 @@ card identifier
 
 #### Source
 
-main.ts:201018
+main.ts:201168
 
 ***
 
@@ -63,7 +63,7 @@ learn more about the identifier in this help center article
 
 #### Source
 
-main.ts:201024
+main.ts:201174
 
 ***
 
@@ -80,7 +80,7 @@ learn more about the identifier in this help center article
 
 #### Source
 
-main.ts:201021
+main.ts:201171
 
 ***
 
@@ -96,7 +96,7 @@ title of the element in the location chain
 
 #### Source
 
-main.ts:201026
+main.ts:201176
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:201026
 
 #### Source
 
-main.ts:201039
+main.ts:201189
 
 ***
 
@@ -132,7 +132,7 @@ main.ts:201039
 
 #### Source
 
-main.ts:201059
+main.ts:201209
 
 ***
 
@@ -150,4 +150,4 @@ main.ts:201059
 
 #### Source
 
-main.ts:201052
+main.ts:201202

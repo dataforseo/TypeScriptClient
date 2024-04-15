@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:181879
+main.ts:182029
 
 ## Properties
 
@@ -46,7 +46,7 @@ cost of the task, USD
 
 #### Source
 
-main.ts:181873
+main.ts:182023
 
 ***
 
@@ -65,7 +65,7 @@ example:
 
 #### Source
 
-main.ts:181868
+main.ts:182018
 
 ***
 
@@ -84,7 +84,7 @@ example:
 
 #### Source
 
-main.ts:181863
+main.ts:182013
 
 ***
 
@@ -100,7 +100,7 @@ id of the task
 
 #### Source
 
-main.ts:181855
+main.ts:182005
 
 ***
 
@@ -120,7 +120,7 @@ contains parameters you specified in the POST request
 
 #### Source
 
-main.ts:181875
+main.ts:182025
 
 ***
 
@@ -137,7 +137,7 @@ you can find the full list of general informational messages here
 
 #### Source
 
-main.ts:181871
+main.ts:182021
 
 ***
 
@@ -154,7 +154,7 @@ URL you used for making an API call
 
 #### Source
 
-main.ts:181858
+main.ts:182008
 
 ## Methods
 
@@ -172,7 +172,7 @@ main.ts:181858
 
 #### Source
 
-main.ts:181888
+main.ts:182038
 
 ***
 
@@ -190,7 +190,7 @@ main.ts:181888
 
 #### Source
 
-main.ts:181917
+main.ts:182067
 
 ***
 
@@ -208,4 +208,4 @@ main.ts:181917
 
 #### Source
 
-main.ts:181910
+main.ts:182060

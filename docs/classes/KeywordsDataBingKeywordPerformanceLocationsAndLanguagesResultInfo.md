@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:131793
+main.ts:131943
 
 ## Properties
 
@@ -47,7 +47,7 @@ contains locations supported in combination with a specific language
 
 #### Source
 
-main.ts:131789
+main.ts:131939
 
 ***
 
@@ -63,7 +63,7 @@ language code
 
 #### Source
 
-main.ts:131786
+main.ts:131936
 
 ***
 
@@ -79,7 +79,7 @@ language name
 
 #### Source
 
-main.ts:131784
+main.ts:131934
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:131784
 
 #### Source
 
-main.ts:131802
+main.ts:131952
 
 ***
 
@@ -115,7 +115,7 @@ main.ts:131802
 
 #### Source
 
-main.ts:131825
+main.ts:131975
 
 ***
 
@@ -133,4 +133,4 @@ main.ts:131825
 
 #### Source
 
-main.ts:131818
+main.ts:131968

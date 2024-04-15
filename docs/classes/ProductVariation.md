@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:174538
+main.ts:174688
 
 ## Properties
 
@@ -47,7 +47,7 @@ learn more about the parameter in this help center guide
 
 #### Source
 
-main.ts:174529
+main.ts:174679
 
 ***
 
@@ -63,7 +63,7 @@ name of the product seller
 
 #### Source
 
-main.ts:174531
+main.ts:174681
 
 ***
 
@@ -79,7 +79,7 @@ type of element
 
 #### Source
 
-main.ts:174526
+main.ts:174676
 
 ***
 
@@ -96,7 +96,7 @@ url of the webpage on the seller’s website where the product is sold
 
 #### Source
 
-main.ts:174534
+main.ts:174684
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:174534
 
 #### Source
 
-main.ts:174547
+main.ts:174697
 
 ***
 
@@ -132,7 +132,7 @@ main.ts:174547
 
 #### Source
 
-main.ts:174567
+main.ts:174717
 
 ***
 
@@ -150,4 +150,4 @@ main.ts:174567
 
 #### Source
 
-main.ts:174560
+main.ts:174710

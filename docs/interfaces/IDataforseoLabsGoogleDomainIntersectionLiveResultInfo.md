@@ -14,13 +14,13 @@
 
 ### items?
 
-> **`optional`** **items**: [`DataforseoLabsDomainIntersectionLiveItem`](../classes/DataforseoLabsDomainIntersectionLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsGoogleDomainIntersectionLiveItem`](../classes/DataforseoLabsGoogleDomainIntersectionLiveItem.md)[]
 
 contains keywords, relevant SERP elements and related data
 
 #### Source
 
-main.ts:91584
+main.ts:91470
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:91582
+main.ts:91468
 
 ***
 
@@ -44,7 +44,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:91578
+main.ts:91464
 
 ***
 
@@ -56,7 +56,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:91576
+main.ts:91462
 
 ***
 
@@ -68,7 +68,7 @@ search engine type
 
 #### Source
 
-main.ts:91570
+main.ts:91456
 
 ***
 
@@ -80,7 +80,7 @@ the first target domain in a POST array
 
 #### Source
 
-main.ts:91572
+main.ts:91458
 
 ***
 
@@ -92,7 +92,7 @@ the second target domain in a POST array
 
 #### Source
 
-main.ts:91574
+main.ts:91460
 
 ***
 
@@ -104,4 +104,4 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:91580
+main.ts:91466

@@ -16,18 +16,6 @@
 
 ## Properties
 
-### backlinks\_info?
-
-> **`optional`** **backlinks\_info**: [`BacklinksInfo`](../classes/BacklinksInfo.md)
-
-backlinks information for the target website
-
-#### Source
-
-main.ts:95837
-
-***
-
 ### description?
 
 > **`optional`** **description**: `string`
@@ -36,7 +24,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:95799
+main.ts:95673
 
 ***
 
@@ -48,7 +36,7 @@ domain where a link points
 
 #### Source
 
-main.ts:95801
+main.ts:95675
 
 ***
 
@@ -63,7 +51,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:95829
+main.ts:95703
 
 ***
 
@@ -78,7 +66,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:95819
+main.ts:95693
 
 ***
 
@@ -93,7 +81,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:95824
+main.ts:95698
 
 ***
 
@@ -105,7 +93,7 @@ indicates whether the element is an ad
 
 #### Source
 
-main.ts:95807
+main.ts:95681
 
 ***
 
@@ -117,7 +105,7 @@ primary domain name in SERP
 
 #### Source
 
-main.ts:95812
+main.ts:95686
 
 ***
 
@@ -129,7 +117,7 @@ phone number
 
 #### Source
 
-main.ts:95803
+main.ts:95677
 
 ***
 
@@ -143,7 +131,7 @@ left, right
 
 #### Source
 
-main.ts:95793
+main.ts:95667
 
 ***
 
@@ -156,7 +144,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:95789
+main.ts:95663
 
 ***
 
@@ -170,7 +158,7 @@ Note: the changes are calculated even if the preceding month is not included in 
 
 #### Source
 
-main.ts:95833
+main.ts:95707
 
 ***
 
@@ -183,19 +171,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:95786
-
-***
-
-### rank\_info?
-
-> **`optional`** **rank\_info**: [`RankInfo`](../classes/RankInfo.md)
-
-page and domain rank information
-
-#### Source
-
-main.ts:95839
+main.ts:95660
 
 ***
 
@@ -208,7 +184,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:95810
+main.ts:95684
 
 ***
 
@@ -220,19 +196,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Source
 
-main.ts:95814
-
-***
-
-### se\_type?
-
-> **`optional`** **se\_type**: `string`
-
-search engine type
-
-#### Source
-
-main.ts:95835
+main.ts:95688
 
 ***
 
@@ -244,7 +208,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:95797
+main.ts:95671
 
 ***
 
@@ -256,7 +220,7 @@ relevant URL of the Ad element in SERP
 
 #### Source
 
-main.ts:95805
+main.ts:95679
 
 ***
 
@@ -268,4 +232,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:95795
+main.ts:95669

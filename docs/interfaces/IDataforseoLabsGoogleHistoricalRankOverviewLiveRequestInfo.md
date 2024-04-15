@@ -25,7 +25,7 @@ we recommend always setting correlate to true
 
 #### Source
 
-main.ts:98810
+main.ts:98685
 
 ***
 
@@ -41,7 +41,7 @@ date format: "yyyy-mm-dd"
 
 #### Source
 
-main.ts:98796
+main.ts:98671
 
 ***
 
@@ -58,7 +58,22 @@ example:
 
 #### Source
 
-main.ts:98803
+main.ts:98678
+
+***
+
+### ignore\_synonyms?
+
+> **`optional`** **ignore\_synonyms**: `boolean`
+
+ignore highly similar keywords
+optional field
+if set to true, only data based on core keywords will be returned, data for all highly similar keywords will be excluded;
+default value: false
+
+#### Source
+
+main.ts:98690
 
 ***
 
@@ -76,7 +91,7 @@ en
 
 #### Source
 
-main.ts:98790
+main.ts:98665
 
 ***
 
@@ -94,7 +109,7 @@ English
 
 #### Source
 
-main.ts:98782
+main.ts:98657
 
 ***
 
@@ -112,7 +127,7 @@ example:
 
 #### Source
 
-main.ts:98774
+main.ts:98649
 
 ***
 
@@ -130,7 +145,7 @@ United Kingdom
 
 #### Source
 
-main.ts:98766
+main.ts:98641
 
 ***
 
@@ -146,7 +161,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:98816
+main.ts:98696
 
 ***
 
@@ -161,4 +176,4 @@ the domain should be specified without https:// and www.
 
 #### Source
 
-main.ts:98758
+main.ts:98633

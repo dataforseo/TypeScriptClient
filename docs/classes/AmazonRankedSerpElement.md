@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:102448
+main.ts:102440
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:102427
+main.ts:102419
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Source
 
-main.ts:102439
+main.ts:102431
 
 ***
 
@@ -85,7 +85,7 @@ example:
 
 #### Source
 
-main.ts:102444
+main.ts:102436
 
 ***
 
@@ -101,7 +101,7 @@ total number of results in Amazon SERP
 
 #### Source
 
-main.ts:102434
+main.ts:102426
 
 ***
 
@@ -117,7 +117,7 @@ search engine type
 
 #### Source
 
-main.ts:102421
+main.ts:102413
 
 ***
 
@@ -134,7 +134,7 @@ the list of supported SERP elements can be found below
 
 #### Source
 
-main.ts:102424
+main.ts:102416
 
 ***
 
@@ -153,7 +153,7 @@ amazon_serp, amazon_paid, editorial_recommendations, top_rated_from_our_brands, 
 
 #### Source
 
-main.ts:102432
+main.ts:102424
 
 ## Methods
 
@@ -171,7 +171,7 @@ main.ts:102432
 
 #### Source
 
-main.ts:102457
+main.ts:102449
 
 ***
 
@@ -189,7 +189,7 @@ main.ts:102457
 
 #### Source
 
-main.ts:102484
+main.ts:102476
 
 ***
 
@@ -207,4 +207,4 @@ main.ts:102484
 
 #### Source
 
-main.ts:102477
+main.ts:102469

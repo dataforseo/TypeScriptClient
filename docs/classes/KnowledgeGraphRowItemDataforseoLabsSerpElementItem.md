@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:94130
+main.ts:94016
 
 ## Properties
 
@@ -70,7 +70,7 @@ action:listen_artist
 
 #### Source
 
-main.ts:94120
+main.ts:94006
 
 ***
 
@@ -88,7 +88,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:94126
+main.ts:94012
 
 ***
 
@@ -106,7 +106,7 @@ left, right
 
 #### Source
 
-main.ts:94112
+main.ts:93998
 
 ***
 
@@ -123,7 +123,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:94108
+main.ts:93994
 
 ***
 
@@ -141,7 +141,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:94105
+main.ts:93991
 
 ***
 
@@ -157,7 +157,7 @@ row content
 
 #### Source
 
-main.ts:94122
+main.ts:94008
 
 ***
 
@@ -173,7 +173,7 @@ title of the item
 
 #### Source
 
-main.ts:94116
+main.ts:94002
 
 ***
 
@@ -189,7 +189,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:94114
+main.ts:94000
 
 ## Methods
 
@@ -211,7 +211,7 @@ main.ts:94114
 
 #### Source
 
-main.ts:94135
+main.ts:94021
 
 ***
 
@@ -233,7 +233,7 @@ main.ts:94135
 
 #### Source
 
-main.ts:94164
+main.ts:94050
 
 ***
 
@@ -255,4 +255,4 @@ main.ts:94164
 
 #### Source
 
-main.ts:94157
+main.ts:94043

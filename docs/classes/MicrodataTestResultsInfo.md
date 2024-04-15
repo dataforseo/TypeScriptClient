@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:156092
+main.ts:156242
 
 ## Properties
 
@@ -47,7 +47,7 @@ can take the following values: fatal, error, warning, info
 
 #### Source
 
-main.ts:156085
+main.ts:156235
 
 ***
 
@@ -64,7 +64,7 @@ message providing the details of the detected error
 
 #### Source
 
-main.ts:156088
+main.ts:156238
 
 ## Methods
 
@@ -82,7 +82,7 @@ main.ts:156088
 
 #### Source
 
-main.ts:156101
+main.ts:156251
 
 ***
 
@@ -100,7 +100,7 @@ main.ts:156101
 
 #### Source
 
-main.ts:156119
+main.ts:156269
 
 ***
 
@@ -118,4 +118,4 @@ main.ts:156119
 
 #### Source
 
-main.ts:156112
+main.ts:156262

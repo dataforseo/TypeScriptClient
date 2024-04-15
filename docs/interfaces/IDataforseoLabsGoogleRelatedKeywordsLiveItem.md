@@ -20,7 +20,7 @@ keyword search depth
 
 #### Source
 
-main.ts:82757
+main.ts:82769
 
 ***
 
@@ -32,7 +32,7 @@ keyword data for the returned keyword
 
 #### Source
 
-main.ts:82755
+main.ts:82767
 
 ***
 
@@ -45,7 +45,7 @@ represents the list of search queries which are related to the keyword returned 
 
 #### Source
 
-main.ts:82760
+main.ts:82772
 
 ***
 
@@ -57,4 +57,4 @@ search engine type
 
 #### Source
 
-main.ts:82753
+main.ts:82765

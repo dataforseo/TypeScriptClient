@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:95710
+main.ts:95590
 
 ## Properties
 
@@ -56,22 +56,6 @@ main.ts:20171
 
 ***
 
-### backlinks\_info?
-
-> **`optional`** **backlinks\_info**: [`BacklinksInfo`](BacklinksInfo.md)
-
-backlinks information for the target website
-
-#### Implementation of
-
-[`ILocalPackDataforseoLabsSerpElementItem`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[`backlinks_info`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#backlinks_info)
-
-#### Source
-
-main.ts:95704
-
-***
-
 ### description?
 
 > **`optional`** **description**: `string`
@@ -84,7 +68,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:95666
+main.ts:95552
 
 ***
 
@@ -100,7 +84,7 @@ domain where a link points
 
 #### Source
 
-main.ts:95668
+main.ts:95554
 
 ***
 
@@ -119,7 +103,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:95696
+main.ts:95582
 
 ***
 
@@ -138,7 +122,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:95686
+main.ts:95572
 
 ***
 
@@ -157,7 +141,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:95691
+main.ts:95577
 
 ***
 
@@ -173,7 +157,7 @@ indicates whether the element is an ad
 
 #### Source
 
-main.ts:95674
+main.ts:95560
 
 ***
 
@@ -189,7 +173,7 @@ primary domain name in SERP
 
 #### Source
 
-main.ts:95679
+main.ts:95565
 
 ***
 
@@ -205,7 +189,7 @@ phone number
 
 #### Source
 
-main.ts:95670
+main.ts:95556
 
 ***
 
@@ -223,7 +207,7 @@ left, right
 
 #### Source
 
-main.ts:95660
+main.ts:95546
 
 ***
 
@@ -240,7 +224,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:95656
+main.ts:95542
 
 ***
 
@@ -258,7 +242,7 @@ Note: the changes are calculated even if the preceding month is not included in 
 
 #### Source
 
-main.ts:95700
+main.ts:95586
 
 ***
 
@@ -275,23 +259,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:95653
-
-***
-
-### rank\_info?
-
-> **`optional`** **rank\_info**: [`RankInfo`](RankInfo.md)
-
-page and domain rank information
-
-#### Implementation of
-
-[`ILocalPackDataforseoLabsSerpElementItem`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[`rank_info`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#rank_info)
-
-#### Source
-
-main.ts:95706
+main.ts:95539
 
 ***
 
@@ -308,7 +276,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:95677
+main.ts:95563
 
 ***
 
@@ -324,23 +292,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Source
 
-main.ts:95681
-
-***
-
-### se\_type?
-
-> **`optional`** **se\_type**: `string`
-
-search engine type
-
-#### Implementation of
-
-[`ILocalPackDataforseoLabsSerpElementItem`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[`se_type`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#se_type)
-
-#### Source
-
-main.ts:95702
+main.ts:95567
 
 ***
 
@@ -356,7 +308,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:95664
+main.ts:95550
 
 ***
 
@@ -372,7 +324,7 @@ relevant URL of the Ad element in SERP
 
 #### Source
 
-main.ts:95672
+main.ts:95558
 
 ***
 
@@ -388,7 +340,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:95662
+main.ts:95548
 
 ## Methods
 
@@ -410,7 +362,7 @@ main.ts:95662
 
 #### Source
 
-main.ts:95715
+main.ts:95595
 
 ***
 
@@ -432,7 +384,7 @@ main.ts:95715
 
 #### Source
 
-main.ts:95752
+main.ts:95629
 
 ***
 
@@ -454,4 +406,4 @@ main.ts:95752
 
 #### Source
 
-main.ts:95745
+main.ts:95622

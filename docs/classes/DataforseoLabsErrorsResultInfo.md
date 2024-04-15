@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:79527
+main.ts:79539
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Source
 
-main.ts:79504
+main.ts:79516
 
 ***
 
@@ -65,7 +65,7 @@ error code
 
 #### Source
 
-main.ts:79508
+main.ts:79520
 
 ***
 
@@ -82,7 +82,7 @@ error message (see full list) or URL that caused an error
 
 #### Source
 
-main.ts:79511
+main.ts:79523
 
 ***
 
@@ -98,7 +98,7 @@ corresponding API function
 
 #### Source
 
-main.ts:79506
+main.ts:79518
 
 ***
 
@@ -114,7 +114,7 @@ HTTP status code
 
 #### Source
 
-main.ts:79518
+main.ts:79530
 
 ***
 
@@ -130,7 +130,7 @@ HTTP method
 
 #### Source
 
-main.ts:79516
+main.ts:79528
 
 ***
 
@@ -147,7 +147,7 @@ server response
 
 #### Source
 
-main.ts:79523
+main.ts:79535
 
 ***
 
@@ -163,7 +163,7 @@ time taken by HTTP request
 
 #### Source
 
-main.ts:79520
+main.ts:79532
 
 ***
 
@@ -180,7 +180,7 @@ URL you used for making an API call
 
 #### Source
 
-main.ts:79514
+main.ts:79526
 
 ***
 
@@ -196,7 +196,7 @@ id of the task
 
 #### Source
 
-main.ts:79499
+main.ts:79511
 
 ## Methods
 
@@ -214,7 +214,7 @@ main.ts:79499
 
 #### Source
 
-main.ts:79536
+main.ts:79548
 
 ***
 
@@ -232,7 +232,7 @@ main.ts:79536
 
 #### Source
 
-main.ts:79562
+main.ts:79574
 
 ***
 
@@ -250,4 +250,4 @@ main.ts:79562
 
 #### Source
 
-main.ts:79555
+main.ts:79567

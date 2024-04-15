@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:178305
+main.ts:178455
 
 ## Properties
 
@@ -68,7 +68,7 @@ product brand name
 
 #### Source
 
-main.ts:178261
+main.ts:178411
 
 ***
 
@@ -84,7 +84,7 @@ contains related product categories
 
 #### Source
 
-main.ts:178290
+main.ts:178440
 
 ***
 
@@ -102,7 +102,7 @@ USD
 
 #### Source
 
-main.ts:178279
+main.ts:178429
 
 ***
 
@@ -118,7 +118,7 @@ ASIN of the product received in a POST array
 
 #### Source
 
-main.ts:178263
+main.ts:178413
 
 ***
 
@@ -134,7 +134,7 @@ contains description of the product
 
 #### Source
 
-main.ts:178298
+main.ts:178448
 
 ***
 
@@ -150,7 +150,7 @@ product specs and other details
 
 #### Source
 
-main.ts:178257
+main.ts:178407
 
 ***
 
@@ -166,7 +166,7 @@ the URL of the product image
 
 #### Source
 
-main.ts:178259
+main.ts:178409
 
 ***
 
@@ -183,7 +183,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 #### Source
 
-main.ts:178282
+main.ts:178432
 
 ***
 
@@ -200,7 +200,7 @@ if the value is true, the product can be ordered
 
 #### Source
 
-main.ts:178301
+main.ts:178451
 
 ***
 
@@ -216,7 +216,7 @@ indicates whether the newer model of the product is available
 
 #### Source
 
-main.ts:178286
+main.ts:178436
 
 ***
 
@@ -232,7 +232,7 @@ information about the newer model of the product
 
 #### Source
 
-main.ts:178288
+main.ts:178438
 
 ***
 
@@ -248,7 +248,7 @@ parent ASIN of the product
 
 #### Source
 
-main.ts:178265
+main.ts:178415
 
 ***
 
@@ -266,7 +266,7 @@ left, right
 
 #### Source
 
-main.ts:178251
+main.ts:178401
 
 ***
 
@@ -284,7 +284,7 @@ example:
 
 #### Source
 
-main.ts:178271
+main.ts:178421
 
 ***
 
@@ -302,7 +302,7 @@ example:
 
 #### Source
 
-main.ts:178275
+main.ts:178425
 
 ***
 
@@ -318,7 +318,7 @@ ASINs of all found product modifications
 
 #### Source
 
-main.ts:178267
+main.ts:178417
 
 ***
 
@@ -334,7 +334,7 @@ contains URLs for all images of the product displayed on the left side of the ma
 
 #### Source
 
-main.ts:178294
+main.ts:178444
 
 ***
 
@@ -350,7 +350,7 @@ contains related product information
 
 #### Source
 
-main.ts:178292
+main.ts:178442
 
 ***
 
@@ -366,7 +366,7 @@ contains URLs for all videos of the product displayed on the right side of the m
 
 #### Source
 
-main.ts:178296
+main.ts:178446
 
 ***
 
@@ -383,7 +383,7 @@ absolute position among all the elements in the response array
 
 #### Source
 
-main.ts:178247
+main.ts:178397
 
 ***
 
@@ -400,7 +400,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:178244
+main.ts:178394
 
 ***
 
@@ -416,7 +416,7 @@ product rating info
 
 #### Source
 
-main.ts:178284
+main.ts:178434
 
 ***
 
@@ -432,7 +432,7 @@ product title
 
 #### Source
 
-main.ts:178255
+main.ts:178405
 
 ***
 
@@ -448,7 +448,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:178253
+main.ts:178403
 
 ## Methods
 
@@ -470,7 +470,7 @@ main.ts:178253
 
 #### Source
 
-main.ts:178310
+main.ts:178460
 
 ***
 
@@ -492,7 +492,7 @@ main.ts:178310
 
 #### Source
 
-main.ts:178371
+main.ts:178521
 
 ***
 
@@ -514,4 +514,4 @@ main.ts:178371
 
 #### Source
 
-main.ts:178364
+main.ts:178514

@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:32957
+main.ts:32965
 
 ## Properties
 
@@ -69,7 +69,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:32949
+main.ts:32957
 
 ***
 
@@ -87,7 +87,7 @@ left, right
 
 #### Source
 
-main.ts:32944
+main.ts:32950
 
 ***
 
@@ -105,7 +105,7 @@ always equals 0 for desktop
 
 #### Source
 
-main.ts:32940
+main.ts:32946
 
 ***
 
@@ -124,7 +124,7 @@ always equals 0 for desktop
 
 #### Source
 
-main.ts:32936
+main.ts:32942
 
 ***
 
@@ -142,7 +142,23 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Source
 
-main.ts:32953
+main.ts:32961
+
+***
+
+### title?
+
+> **`optional`** **title**: `string`
+
+title of the row
+
+#### Implementation of
+
+[`IPopularProductsSerpElementItem`](../interfaces/IPopularProductsSerpElementItem.md).[`title`](../interfaces/IPopularProductsSerpElementItem.md#title)
+
+#### Source
+
+main.ts:32954
 
 ***
 
@@ -158,7 +174,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:32946
+main.ts:32952
 
 ## Methods
 
@@ -180,7 +196,7 @@ main.ts:32946
 
 #### Source
 
-main.ts:32962
+main.ts:32970
 
 ***
 
@@ -202,7 +218,7 @@ main.ts:32962
 
 #### Source
 
-main.ts:32989
+main.ts:32998
 
 ***
 
@@ -224,4 +240,4 @@ main.ts:32989
 
 #### Source
 
-main.ts:32982
+main.ts:32991

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:52232
+main.ts:52242
 
 ## Properties
 
@@ -53,7 +53,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:52157
+main.ts:52167
 
 ***
 
@@ -71,7 +71,7 @@ possible value: desktop
 
 #### Source
 
-main.ts:52172
+main.ts:52182
 
 ***
 
@@ -89,7 +89,7 @@ possible values: other, archive, text, image, document, tabular
 
 #### Source
 
-main.ts:52185
+main.ts:52195
 
 ***
 
@@ -107,7 +107,7 @@ possible values: true, false
 
 #### Source
 
-main.ts:52193
+main.ts:52203
 
 ***
 
@@ -128,7 +128,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Source
 
-main.ts:52140
+main.ts:52150
 
 ***
 
@@ -147,7 +147,7 @@ en
 
 #### Source
 
-main.ts:52168
+main.ts:52178
 
 ***
 
@@ -167,7 +167,7 @@ English
 
 #### Source
 
-main.ts:52163
+main.ts:52173
 
 ***
 
@@ -185,7 +185,7 @@ possible values: 1m, 1y, 3y
 
 #### Source
 
-main.ts:52181
+main.ts:52191
 
 ***
 
@@ -204,7 +204,7 @@ default value: windows
 
 #### Source
 
-main.ts:52177
+main.ts:52187
 
 ***
 
@@ -228,7 +228,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:52228
+main.ts:52238
 
 ***
 
@@ -247,7 +247,7 @@ only value: advanced
 
 #### Source
 
-main.ts:52218
+main.ts:52228
 
 ***
 
@@ -271,7 +271,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:52213
+main.ts:52223
 
 ***
 
@@ -293,7 +293,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:52148
+main.ts:52158
 
 ***
 
@@ -313,7 +313,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:52203
+main.ts:52213
 
 ***
 
@@ -331,7 +331,7 @@ possible values: humanities, social_sciences, life_sciences, agriculture, natura
 
 #### Source
 
-main.ts:52197
+main.ts:52207
 
 ***
 
@@ -349,7 +349,7 @@ possible values: commercial, noncommercial
 
 #### Source
 
-main.ts:52189
+main.ts:52199
 
 ## Methods
 
@@ -367,7 +367,7 @@ main.ts:52189
 
 #### Source
 
-main.ts:52241
+main.ts:52251
 
 ***
 
@@ -385,7 +385,7 @@ main.ts:52241
 
 #### Source
 
-main.ts:52281
+main.ts:52291
 
 ***
 
@@ -403,4 +403,4 @@ main.ts:52281
 
 #### Source
 
-main.ts:52274
+main.ts:52284

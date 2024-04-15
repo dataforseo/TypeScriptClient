@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:177838
+main.ts:177988
 
 ## Properties
 
@@ -46,7 +46,7 @@ product category name
 
 #### Source
 
-main.ts:177831
+main.ts:177981
 
 ***
 
@@ -63,7 +63,7 @@ indicates the browse path on Amazon with the unique browse node ID (product cate
 
 #### Source
 
-main.ts:177834
+main.ts:177984
 
 ## Methods
 
@@ -81,7 +81,7 @@ main.ts:177834
 
 #### Source
 
-main.ts:177847
+main.ts:177997
 
 ***
 
@@ -99,7 +99,7 @@ main.ts:177847
 
 #### Source
 
-main.ts:177865
+main.ts:178015
 
 ***
 
@@ -117,4 +117,4 @@ main.ts:177865
 
 #### Source
 
-main.ts:177858
+main.ts:178008

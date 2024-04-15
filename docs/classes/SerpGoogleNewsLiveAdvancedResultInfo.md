@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:43889
+main.ts:43900
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:43865
+main.ts:43877
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Source
 
-main.ts:43870
+main.ts:43882
 
 ***
 
@@ -85,7 +85,7 @@ top_stories, news_search
 
 #### Source
 
-main.ts:43878
+main.ts:43890
 
 ***
 
@@ -93,8 +93,7 @@ main.ts:43878
 
 > **`optional`** **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
-additional items present in the element
-if there are none, equals null
+elements of search results found in SERP
 
 #### Implementation of
 
@@ -102,7 +101,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:43885
+main.ts:43896
 
 ***
 
@@ -118,7 +117,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:43882
+main.ts:43894
 
 ***
 
@@ -135,7 +134,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Source
 
-main.ts:43854
+main.ts:43866
 
 ***
 
@@ -151,7 +150,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:43862
+main.ts:43874
 
 ***
 
@@ -167,7 +166,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:43860
+main.ts:43872
 
 ***
 
@@ -183,7 +182,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:43858
+main.ts:43870
 
 ***
 
@@ -199,7 +198,7 @@ total number of results in SERP
 
 #### Source
 
-main.ts:43880
+main.ts:43892
 
 ***
 
@@ -216,7 +215,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Source
 
-main.ts:43873
+main.ts:43885
 
 ***
 
@@ -232,7 +231,7 @@ type of element
 
 #### Source
 
-main.ts:43856
+main.ts:43868
 
 ## Methods
 
@@ -250,7 +249,7 @@ main.ts:43856
 
 #### Source
 
-main.ts:43898
+main.ts:43909
 
 ***
 
@@ -268,7 +267,7 @@ main.ts:43898
 
 #### Source
 
-main.ts:43934
+main.ts:43945
 
 ***
 
@@ -286,4 +285,4 @@ main.ts:43934
 
 #### Source
 
-main.ts:43927
+main.ts:43938

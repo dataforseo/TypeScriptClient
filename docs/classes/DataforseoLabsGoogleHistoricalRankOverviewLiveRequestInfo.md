@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:98700
+main.ts:98573
 
 ## Properties
 
@@ -51,7 +51,7 @@ we recommend always setting correlate to true
 
 #### Source
 
-main.ts:98690
+main.ts:98558
 
 ***
 
@@ -71,7 +71,7 @@ date format: "yyyy-mm-dd"
 
 #### Source
 
-main.ts:98676
+main.ts:98544
 
 ***
 
@@ -92,7 +92,26 @@ example:
 
 #### Source
 
-main.ts:98683
+main.ts:98551
+
+***
+
+### ignore\_synonyms?
+
+> **`optional`** **ignore\_synonyms**: `boolean`
+
+ignore highly similar keywords
+optional field
+if set to true, only data based on core keywords will be returned, data for all highly similar keywords will be excluded;
+default value: false
+
+#### Implementation of
+
+[`IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md).[`ignore_synonyms`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md#ignore_synonyms)
+
+#### Source
+
+main.ts:98563
 
 ***
 
@@ -114,7 +133,7 @@ en
 
 #### Source
 
-main.ts:98670
+main.ts:98538
 
 ***
 
@@ -136,7 +155,7 @@ English
 
 #### Source
 
-main.ts:98662
+main.ts:98530
 
 ***
 
@@ -158,7 +177,7 @@ example:
 
 #### Source
 
-main.ts:98654
+main.ts:98522
 
 ***
 
@@ -180,7 +199,7 @@ United Kingdom
 
 #### Source
 
-main.ts:98646
+main.ts:98514
 
 ***
 
@@ -200,7 +219,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:98696
+main.ts:98569
 
 ***
 
@@ -219,7 +238,7 @@ the domain should be specified without https:// and www.
 
 #### Source
 
-main.ts:98638
+main.ts:98506
 
 ## Methods
 
@@ -237,7 +256,7 @@ main.ts:98638
 
 #### Source
 
-main.ts:98709
+main.ts:98582
 
 ***
 
@@ -255,7 +274,7 @@ main.ts:98709
 
 #### Source
 
-main.ts:98734
+main.ts:98608
 
 ***
 
@@ -273,4 +292,4 @@ main.ts:98734
 
 #### Source
 
-main.ts:98727
+main.ts:98601

@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:123251
+main.ts:123401
 
 ## Properties
 
@@ -68,7 +68,7 @@ Google Trends data from the corresponding item
 
 #### Source
 
-main.ts:123247
+main.ts:123397
 
 ***
 
@@ -85,7 +85,7 @@ the data included in the google_trends_map element is based on the keywords list
 
 #### Source
 
-main.ts:123245
+main.ts:123395
 
 ***
 
@@ -102,7 +102,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Source
 
-main.ts:123240
+main.ts:123390
 
 ***
 
@@ -118,7 +118,7 @@ title of the element in Google Trends
 
 #### Source
 
-main.ts:123242
+main.ts:123392
 
 ## Methods
 
@@ -140,7 +140,7 @@ main.ts:123242
 
 #### Source
 
-main.ts:123256
+main.ts:123406
 
 ***
 
@@ -162,7 +162,7 @@ main.ts:123256
 
 #### Source
 
-main.ts:123285
+main.ts:123435
 
 ***
 
@@ -184,4 +184,4 @@ main.ts:123285
 
 #### Source
 
-main.ts:123278
+main.ts:123428

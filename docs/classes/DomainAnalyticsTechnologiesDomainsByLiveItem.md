@@ -32,7 +32,7 @@ items array
 
 #### Source
 
-main.ts:76664
+main.ts:76676
 
 ## Properties
 
@@ -49,7 +49,7 @@ code of the language that content on the target domain is written with
 
 #### Source
 
-main.ts:76647
+main.ts:76659
 
 ***
 
@@ -66,7 +66,7 @@ ISO code of the country that target domain is determined to belong to
 
 #### Source
 
-main.ts:76641
+main.ts:76653
 
 ***
 
@@ -82,7 +82,7 @@ domain meta description
 
 #### Source
 
-main.ts:76628
+main.ts:76640
 
 ***
 
@@ -98,7 +98,7 @@ specified domain name
 
 #### Source
 
-main.ts:76624
+main.ts:76636
 
 ***
 
@@ -115,7 +115,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Source
 
-main.ts:76633
+main.ts:76645
 
 ***
 
@@ -132,7 +132,7 @@ emails indicated on the target website
 
 #### Source
 
-main.ts:76653
+main.ts:76665
 
 ***
 
@@ -149,7 +149,7 @@ code of the language that target domain is determined to be associated with
 
 #### Source
 
-main.ts:76644
+main.ts:76656
 
 ***
 
@@ -168,7 +168,7 @@ example:
 
 #### Source
 
-main.ts:76638
+main.ts:76650
 
 ***
 
@@ -184,7 +184,7 @@ domain meta keywords
 
 #### Source
 
-main.ts:76630
+main.ts:76642
 
 ***
 
@@ -201,7 +201,7 @@ contact phone numbers indicated on the target website
 
 #### Source
 
-main.ts:76650
+main.ts:76662
 
 ***
 
@@ -218,7 +218,7 @@ social media URLs detected in the social graphs of the target website
 
 #### Source
 
-main.ts:76656
+main.ts:76668
 
 ***
 
@@ -236,7 +236,7 @@ to get a full list of technologies and their structure, refer to the technologie
 
 #### Source
 
-main.ts:76660
+main.ts:76672
 
 ***
 
@@ -252,7 +252,7 @@ domain meta title
 
 #### Source
 
-main.ts:76626
+main.ts:76638
 
 ***
 
@@ -268,7 +268,7 @@ type of element
 
 #### Source
 
-main.ts:76622
+main.ts:76634
 
 ## Methods
 
@@ -286,7 +286,7 @@ main.ts:76622
 
 #### Source
 
-main.ts:76673
+main.ts:76685
 
 ***
 
@@ -304,7 +304,7 @@ main.ts:76673
 
 #### Source
 
-main.ts:76719
+main.ts:76731
 
 ***
 
@@ -322,4 +322,4 @@ main.ts:76719
 
 #### Source
 
-main.ts:76712
+main.ts:76724

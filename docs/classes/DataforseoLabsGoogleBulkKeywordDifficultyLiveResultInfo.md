@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:84831
+main.ts:84843
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains keywords and related keyword difficulty scores
 
 #### Source
 
-main.ts:84827
+main.ts:84839
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:84825
+main.ts:84837
 
 ***
 
@@ -79,7 +79,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:84821
+main.ts:84833
 
 ***
 
@@ -96,7 +96,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:84818
+main.ts:84830
 
 ***
 
@@ -112,7 +112,7 @@ search engine type
 
 #### Source
 
-main.ts:84815
+main.ts:84827
 
 ***
 
@@ -128,7 +128,7 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:84823
+main.ts:84835
 
 ## Methods
 
@@ -146,7 +146,7 @@ main.ts:84823
 
 #### Source
 
-main.ts:84840
+main.ts:84852
 
 ***
 
@@ -164,7 +164,7 @@ main.ts:84840
 
 #### Source
 
-main.ts:84866
+main.ts:84878
 
 ***
 
@@ -182,4 +182,4 @@ main.ts:84866
 
 #### Source
 
-main.ts:84859
+main.ts:84871

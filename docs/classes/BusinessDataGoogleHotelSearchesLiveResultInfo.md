@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:200084
+main.ts:200234
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:200069
+main.ts:200219
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Source
 
-main.ts:200074
+main.ts:200224
 
 ***
 
@@ -83,7 +83,7 @@ note: this field always equals null; use it to facilitate integration and ensure
 
 #### Source
 
-main.ts:200080
+main.ts:200230
 
 ***
 
@@ -100,7 +100,7 @@ the number of items in the items array
 
 #### Source
 
-main.ts:200077
+main.ts:200227
 
 ***
 
@@ -117,7 +117,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Source
 
-main.ts:200062
+main.ts:200212
 
 ***
 
@@ -133,7 +133,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:200066
+main.ts:200216
 
 ***
 
@@ -149,7 +149,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:200064
+main.ts:200214
 
 ## Methods
 
@@ -167,7 +167,7 @@ main.ts:200064
 
 #### Source
 
-main.ts:200093
+main.ts:200243
 
 ***
 
@@ -185,7 +185,7 @@ main.ts:200093
 
 #### Source
 
-main.ts:200120
+main.ts:200270
 
 ***
 
@@ -203,4 +203,4 @@ main.ts:200120
 
 #### Source
 
-main.ts:200113
+main.ts:200263

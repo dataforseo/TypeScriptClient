@@ -31,7 +31,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:148278
+main.ts:148428
 
 ***
 
@@ -48,7 +48,7 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Source
 
-main.ts:148211
+main.ts:148361
 
 ***
 
@@ -65,7 +65,7 @@ en
 
 #### Source
 
-main.ts:148262
+main.ts:148412
 
 ***
 
@@ -82,7 +82,7 @@ English
 
 #### Source
 
-main.ts:148255
+main.ts:148405
 
 ***
 
@@ -99,7 +99,7 @@ example:
 
 #### Source
 
-main.ts:148239
+main.ts:148389
 
 ***
 
@@ -118,7 +118,7 @@ example:
 
 #### Source
 
-main.ts:148248
+main.ts:148398
 
 ***
 
@@ -135,7 +135,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:148232
+main.ts:148382
 
 ***
 
@@ -152,7 +152,7 @@ learn more at our help center
 
 #### Source
 
-main.ts:148285
+main.ts:148435
 
 ***
 
@@ -172,7 +172,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:148347
+main.ts:148497
 
 ***
 
@@ -188,7 +188,7 @@ advanced, html
 
 #### Source
 
-main.ts:148337
+main.ts:148487
 
 ***
 
@@ -208,7 +208,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:148331
+main.ts:148481
 
 ***
 
@@ -224,7 +224,7 @@ example:
 
 #### Source
 
-main.ts:148308
+main.ts:148458
 
 ***
 
@@ -240,7 +240,7 @@ example:
 
 #### Source
 
-main.ts:148302
+main.ts:148452
 
 ***
 
@@ -258,7 +258,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:148225
+main.ts:148375
 
 ***
 
@@ -275,7 +275,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Source
 
-main.ts:148269
+main.ts:148419
 
 ***
 
@@ -296,7 +296,7 @@ example:
 
 #### Source
 
-main.ts:148296
+main.ts:148446
 
 ***
 
@@ -313,7 +313,7 @@ sort_by:"review_score"
 
 #### Source
 
-main.ts:148315
+main.ts:148465
 
 ***
 
@@ -329,7 +329,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:148321
+main.ts:148471
 
 ***
 
@@ -345,4 +345,4 @@ https://www.google.com/search?q=iphone&num=100&tbm=shop&ie=UTF-8&oe=UTF-8&tbs=vw
 
 #### Source
 
-main.ts:148217
+main.ts:148367

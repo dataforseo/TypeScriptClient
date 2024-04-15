@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:157542
+main.ts:157692
 
 ## Properties
 
@@ -46,7 +46,7 @@ content author name
 
 #### Source
 
-main.ts:157528
+main.ts:157678
 
 ***
 
@@ -62,7 +62,7 @@ meta title
 
 #### Source
 
-main.ts:157524
+main.ts:157674
 
 ***
 
@@ -78,7 +78,7 @@ content language
 
 #### Source
 
-main.ts:157530
+main.ts:157680
 
 ***
 
@@ -94,7 +94,7 @@ HTML level
 
 #### Source
 
-main.ts:157532
+main.ts:157682
 
 ***
 
@@ -110,7 +110,7 @@ main title of the block
 
 #### Source
 
-main.ts:157526
+main.ts:157676
 
 ***
 
@@ -127,7 +127,7 @@ you can find more information about content priority calculation in this help ce
 
 #### Source
 
-main.ts:157535
+main.ts:157685
 
 ***
 
@@ -144,7 +144,7 @@ you can find more information about content priority calculation in this help ce
 
 #### Source
 
-main.ts:157538
+main.ts:157688
 
 ## Methods
 
@@ -162,7 +162,7 @@ main.ts:157538
 
 #### Source
 
-main.ts:157551
+main.ts:157701
 
 ***
 
@@ -180,7 +180,7 @@ main.ts:157551
 
 #### Source
 
-main.ts:157582
+main.ts:157732
 
 ***
 
@@ -198,4 +198,4 @@ main.ts:157582
 
 #### Source
 
-main.ts:157575
+main.ts:157725

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:178524
+main.ts:178674
 
 ## Properties
 
@@ -48,7 +48,7 @@ learn more about the identified in this help center guide
 
 #### Source
 
-main.ts:178495
+main.ts:178645
 
 ***
 
@@ -65,7 +65,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:178506
+main.ts:178656
 
 ***
 
@@ -84,7 +84,7 @@ example:
 
 #### Source
 
-main.ts:178511
+main.ts:178661
 
 ***
 
@@ -103,7 +103,7 @@ amazon_product_info
 
 #### Source
 
-main.ts:178516
+main.ts:178666
 
 ***
 
@@ -119,7 +119,7 @@ Amazon product info items
 
 #### Source
 
-main.ts:178520
+main.ts:178670
 
 ***
 
@@ -135,7 +135,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:178518
+main.ts:178668
 
 ***
 
@@ -151,7 +151,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:178503
+main.ts:178653
 
 ***
 
@@ -167,7 +167,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:178501
+main.ts:178651
 
 ***
 
@@ -183,7 +183,7 @@ Amazon domain in a POST array
 
 #### Source
 
-main.ts:178499
+main.ts:178649
 
 ***
 
@@ -199,7 +199,7 @@ type of element
 
 #### Source
 
-main.ts:178497
+main.ts:178647
 
 ## Methods
 
@@ -217,7 +217,7 @@ main.ts:178497
 
 #### Source
 
-main.ts:178533
+main.ts:178683
 
 ***
 
@@ -235,7 +235,7 @@ main.ts:178533
 
 #### Source
 
-main.ts:178567
+main.ts:178717
 
 ***
 
@@ -253,4 +253,4 @@ main.ts:178567
 
 #### Source
 
-main.ts:178560
+main.ts:178710

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:203025
+main.ts:203175
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Source
 
-main.ts:203017
+main.ts:203167
 
 ***
 
@@ -65,7 +65,7 @@ HTML pages
 
 #### Source
 
-main.ts:203021
+main.ts:203171
 
 ***
 
@@ -81,7 +81,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:203019
+main.ts:203169
 
 ***
 
@@ -97,7 +97,7 @@ unique hotel identifier specified as "hotel_id:$"
 
 #### Source
 
-main.ts:203004
+main.ts:203154
 
 ***
 
@@ -113,7 +113,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:203012
+main.ts:203162
 
 ***
 
@@ -129,7 +129,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:203010
+main.ts:203160
 
 ***
 
@@ -145,7 +145,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:203008
+main.ts:203158
 
 ***
 
@@ -161,7 +161,7 @@ type of element
 
 #### Source
 
-main.ts:203006
+main.ts:203156
 
 ## Methods
 
@@ -179,7 +179,7 @@ main.ts:203006
 
 #### Source
 
-main.ts:203034
+main.ts:203184
 
 ***
 
@@ -197,7 +197,7 @@ main.ts:203034
 
 #### Source
 
-main.ts:203062
+main.ts:203212
 
 ***
 
@@ -215,4 +215,4 @@ main.ts:203062
 
 #### Source
 
-main.ts:203055
+main.ts:203205

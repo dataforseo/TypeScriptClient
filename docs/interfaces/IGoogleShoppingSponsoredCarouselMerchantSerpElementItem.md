@@ -24,7 +24,7 @@ items in SERP
 
 #### Source
 
-main.ts:170709
+main.ts:170859
 
 ***
 
@@ -38,7 +38,7 @@ left, right
 
 #### Source
 
-main.ts:170703
+main.ts:170853
 
 ***
 
@@ -51,7 +51,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 #### Source
 
-main.ts:170699
+main.ts:170849
 
 ***
 
@@ -64,7 +64,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:170696
+main.ts:170846
 
 ***
 
@@ -76,7 +76,7 @@ product title
 
 #### Source
 
-main.ts:170707
+main.ts:170857
 
 ***
 
@@ -88,4 +88,4 @@ XPath of the element
 
 #### Source
 
-main.ts:170705
+main.ts:170855

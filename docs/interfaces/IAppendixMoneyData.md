@@ -20,7 +20,7 @@ amount of money left in your account
 
 #### Source
 
-main.ts:215028
+main.ts:215178
 
 ***
 
@@ -32,7 +32,7 @@ cost limits
 
 #### Source
 
-main.ts:215030
+main.ts:215180
 
 ***
 
@@ -44,7 +44,7 @@ statistics of your spending
 
 #### Source
 
-main.ts:215032
+main.ts:215182
 
 ***
 
@@ -56,4 +56,4 @@ total amount of money deposited to your account
 
 #### Source
 
-main.ts:215026
+main.ts:215176

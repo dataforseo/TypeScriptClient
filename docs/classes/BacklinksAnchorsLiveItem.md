@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:137437
+main.ts:137587
 
 ## Properties
 
@@ -46,7 +46,7 @@ anchor of the backlink
 
 #### Source
 
-main.ts:137366
+main.ts:137516
 
 ***
 
@@ -62,7 +62,7 @@ indicates the number of backlinks
 
 #### Source
 
-main.ts:137373
+main.ts:137523
 
 ***
 
@@ -79,7 +79,7 @@ learn more about how the metric is calculated on this help center page
 
 #### Source
 
-main.ts:137387
+main.ts:137537
 
 ***
 
@@ -96,7 +96,7 @@ number of broken backlinks pointing to the target
 
 #### Source
 
-main.ts:137390
+main.ts:137540
 
 ***
 
@@ -113,7 +113,7 @@ number of pages that respond with 4xx or 5xx status codes where backlinks are po
 
 #### Source
 
-main.ts:137393
+main.ts:137543
 
 ***
 
@@ -132,7 +132,7 @@ example:
 
 #### Source
 
-main.ts:137378
+main.ts:137528
 
 ***
 
@@ -152,7 +152,7 @@ example:
 
 #### Source
 
-main.ts:137384
+main.ts:137534
 
 ***
 
@@ -171,7 +171,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Source
 
-main.ts:137371
+main.ts:137521
 
 ***
 
@@ -187,7 +187,7 @@ indicates the number of referring domains
 
 #### Source
 
-main.ts:137395
+main.ts:137545
 
 ***
 
@@ -203,7 +203,7 @@ number of domains pointing at least one nofollow link to the target
 
 #### Source
 
-main.ts:137397
+main.ts:137547
 
 ***
 
@@ -220,7 +220,7 @@ number of IP addresses pointing to this page
 
 #### Source
 
-main.ts:137404
+main.ts:137554
 
 ***
 
@@ -241,7 +241,7 @@ indicates link attributes of the referring links and link count per each attribu
 
 #### Source
 
-main.ts:137421
+main.ts:137571
 
 ***
 
@@ -262,7 +262,7 @@ indicates ISO country codes of the domains where the referring links are located
 
 #### Source
 
-main.ts:137433
+main.ts:137583
 
 ***
 
@@ -283,7 +283,7 @@ indicates referring platform types and and link count per each platform
 
 #### Source
 
-main.ts:137424
+main.ts:137574
 
 ***
 
@@ -307,7 +307,7 @@ article, section, summary
 
 #### Source
 
-main.ts:137430
+main.ts:137580
 
 ***
 
@@ -328,7 +328,7 @@ contains top level domains and referring link count per each
 
 #### Source
 
-main.ts:137413
+main.ts:137563
 
 ***
 
@@ -351,7 +351,7 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 #### Source
 
-main.ts:137418
+main.ts:137568
 
 ***
 
@@ -367,7 +367,7 @@ indicates the number of referring main domains
 
 #### Source
 
-main.ts:137399
+main.ts:137549
 
 ***
 
@@ -383,7 +383,7 @@ number of main domains pointing at least one nofollow link to the target
 
 #### Source
 
-main.ts:137401
+main.ts:137551
 
 ***
 
@@ -399,7 +399,7 @@ indicates the number of pages pointing to target with this anchor
 
 #### Source
 
-main.ts:137408
+main.ts:137558
 
 ***
 
@@ -415,7 +415,7 @@ number of referring pages pointing at least one nofollow link to the target with
 
 #### Source
 
-main.ts:137410
+main.ts:137560
 
 ***
 
@@ -431,7 +431,7 @@ number of referring subnetworks
 
 #### Source
 
-main.ts:137406
+main.ts:137556
 
 ***
 
@@ -447,7 +447,7 @@ type of element
 
 #### Source
 
-main.ts:137364
+main.ts:137514
 
 ## Methods
 
@@ -465,7 +465,7 @@ main.ts:137364
 
 #### Source
 
-main.ts:137446
+main.ts:137596
 
 ***
 
@@ -483,7 +483,7 @@ main.ts:137446
 
 #### Source
 
-main.ts:137521
+main.ts:137671
 
 ***
 
@@ -501,4 +501,4 @@ main.ts:137521
 
 #### Source
 
-main.ts:137514
+main.ts:137664

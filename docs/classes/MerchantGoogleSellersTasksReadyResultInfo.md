@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:171696
+main.ts:171846
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Source
 
-main.ts:171686
+main.ts:171836
 
 ***
 
@@ -62,7 +62,7 @@ URL for collecting the results of Google Shopping Sellers Advanced task
 
 #### Source
 
-main.ts:171690
+main.ts:171840
 
 ***
 
@@ -78,7 +78,7 @@ URL for collecting the results of Google Shopping Sellers HTML task
 
 #### Source
 
-main.ts:171692
+main.ts:171842
 
 ***
 
@@ -95,7 +95,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:171679
+main.ts:171829
 
 ***
 
@@ -111,7 +111,7 @@ search engine specified when setting the task
 
 #### Source
 
-main.ts:171681
+main.ts:171831
 
 ***
 
@@ -128,7 +128,7 @@ can take the following values: shopping
 
 #### Source
 
-main.ts:171684
+main.ts:171834
 
 ***
 
@@ -144,7 +144,7 @@ user-defined task identifier
 
 #### Source
 
-main.ts:171688
+main.ts:171838
 
 ## Methods
 
@@ -162,7 +162,7 @@ main.ts:171688
 
 #### Source
 
-main.ts:171705
+main.ts:171855
 
 ***
 
@@ -180,7 +180,7 @@ main.ts:171705
 
 #### Source
 
-main.ts:171728
+main.ts:171878
 
 ***
 
@@ -198,4 +198,4 @@ main.ts:171728
 
 #### Source
 
-main.ts:171721
+main.ts:171871

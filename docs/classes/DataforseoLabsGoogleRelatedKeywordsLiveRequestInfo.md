@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:82478
+main.ts:82490
 
 ## Properties
 
@@ -56,7 +56,7 @@ estimated number of keywords for each level (maximum):
 
 #### Source
 
-main.ts:82401
+main.ts:82413
 
 ***
 
@@ -89,7 +89,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:82442
+main.ts:82454
 
 ***
 
@@ -108,7 +108,7 @@ default value: false
 
 #### Source
 
-main.ts:82416
+main.ts:82428
 
 ***
 
@@ -127,7 +127,7 @@ default value: false
 
 #### Source
 
-main.ts:82406
+main.ts:82418
 
 ***
 
@@ -146,7 +146,7 @@ default value: false
 
 #### Source
 
-main.ts:82411
+main.ts:82423
 
 ***
 
@@ -166,7 +166,7 @@ the keywords will be converted to lowercase format
 
 #### Source
 
-main.ts:82357
+main.ts:82369
 
 ***
 
@@ -188,7 +188,7 @@ en
 
 #### Source
 
-main.ts:82389
+main.ts:82401
 
 ***
 
@@ -210,7 +210,7 @@ English
 
 #### Source
 
-main.ts:82381
+main.ts:82393
 
 ***
 
@@ -229,7 +229,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:82463
+main.ts:82475
 
 ***
 
@@ -251,7 +251,7 @@ example:
 
 #### Source
 
-main.ts:82373
+main.ts:82385
 
 ***
 
@@ -273,7 +273,7 @@ United Kingdom
 
 #### Source
 
-main.ts:82365
+main.ts:82377
 
 ***
 
@@ -292,7 +292,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:82468
+main.ts:82480
 
 ***
 
@@ -322,7 +322,7 @@ example:
 
 #### Source
 
-main.ts:82458
+main.ts:82470
 
 ***
 
@@ -343,7 +343,7 @@ default value: false
 
 #### Source
 
-main.ts:82423
+main.ts:82435
 
 ***
 
@@ -363,7 +363,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:82474
+main.ts:82486
 
 ## Methods
 
@@ -381,7 +381,7 @@ main.ts:82474
 
 #### Source
 
-main.ts:82487
+main.ts:82499
 
 ***
 
@@ -399,7 +399,7 @@ main.ts:82487
 
 #### Source
 
-main.ts:82526
+main.ts:82538
 
 ***
 
@@ -417,4 +417,4 @@ main.ts:82526
 
 #### Source
 
-main.ts:82519
+main.ts:82531

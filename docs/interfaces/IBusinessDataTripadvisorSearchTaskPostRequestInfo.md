@@ -25,7 +25,7 @@ maximum value: 210
 
 #### Source
 
-main.ts:206504
+main.ts:206654
 
 ***
 
@@ -42,7 +42,7 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Source
 
-main.ts:206477
+main.ts:206627
 
 ***
 
@@ -58,7 +58,7 @@ example:
 
 #### Source
 
-main.ts:206489
+main.ts:206639
 
 ***
 
@@ -74,7 +74,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:206483
+main.ts:206633
 
 ***
 
@@ -94,7 +94,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:206530
+main.ts:206680
 
 ***
 
@@ -114,7 +114,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:206520
+main.ts:206670
 
 ***
 
@@ -132,7 +132,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:206497
+main.ts:206647
 
 ***
 
@@ -148,4 +148,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:206510
+main.ts:206660

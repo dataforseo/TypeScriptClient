@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:75657
+main.ts:75669
 
 ## Properties
 
@@ -51,7 +51,7 @@ contains content language codes and number of websites per language
 
 #### Source
 
-main.ts:75650
+main.ts:75662
 
 ***
 
@@ -72,7 +72,7 @@ contains country codes and number of websites per country
 
 #### Source
 
-main.ts:75644
+main.ts:75656
 
 ***
 
@@ -93,7 +93,7 @@ contains keywords found in the websites’ titles, descriptions or meta keywords
 
 #### Source
 
-main.ts:75653
+main.ts:75665
 
 ***
 
@@ -114,7 +114,7 @@ contains language codes and number of websites per language
 
 #### Source
 
-main.ts:75647
+main.ts:75659
 
 ## Methods
 
@@ -132,7 +132,7 @@ main.ts:75647
 
 #### Source
 
-main.ts:75666
+main.ts:75678
 
 ***
 
@@ -150,7 +150,7 @@ main.ts:75666
 
 #### Source
 
-main.ts:75710
+main.ts:75722
 
 ***
 
@@ -168,4 +168,4 @@ main.ts:75710
 
 #### Source
 
-main.ts:75703
+main.ts:75715

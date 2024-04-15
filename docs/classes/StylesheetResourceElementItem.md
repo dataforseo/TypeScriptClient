@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:151763
+main.ts:151727
 
 ## Properties
 
@@ -71,7 +71,7 @@ any, none, image, sitemap, robots, script, stylesheet, redirect, html, text, oth
 
 #### Source
 
-main.ts:151742
+main.ts:151706
 
 ***
 
@@ -87,7 +87,7 @@ instructions for caching
 
 #### Source
 
-main.ts:151728
+main.ts:151692
 
 ***
 
@@ -108,7 +108,7 @@ contents of the array depend on the resource_type
 
 #### Source
 
-main.ts:151731
+main.ts:151695
 
 ***
 
@@ -124,7 +124,7 @@ type of encoding
 
 #### Source
 
-main.ts:151735
+main.ts:151699
 
 ***
 
@@ -140,7 +140,7 @@ total time it takes until a browser receives a complete response from a server (
 
 #### Source
 
-main.ts:151751
+main.ts:151715
 
 ***
 
@@ -157,7 +157,7 @@ indicates the size of the encoded resource measured in bytes
 
 #### Source
 
-main.ts:151716
+main.ts:151680
 
 ***
 
@@ -174,7 +174,7 @@ the amount of time the browser needs to complete downloading a resource
 
 #### Source
 
-main.ts:151757
+main.ts:151721
 
 ***
 
@@ -191,7 +191,7 @@ the amount of time the browser needs to start downloading a resource
 
 #### Source
 
-main.ts:151754
+main.ts:151718
 
 ***
 
@@ -210,7 +210,7 @@ example:
 
 #### Source
 
-main.ts:151724
+main.ts:151688
 
 ***
 
@@ -226,7 +226,7 @@ resource fething time range
 
 #### Source
 
-main.ts:151726
+main.ts:151690
 
 ***
 
@@ -242,7 +242,7 @@ resource initiator
 
 #### Source
 
-main.ts:151749
+main.ts:151713
 
 ***
 
@@ -258,7 +258,7 @@ indicates whether the resource blocks rendering
 
 #### Source
 
-main.ts:151759
+main.ts:151723
 
 ***
 
@@ -275,7 +275,7 @@ if there is no data, the value will be null
 
 #### Source
 
-main.ts:151747
+main.ts:151711
 
 ***
 
@@ -292,7 +292,7 @@ indicates the URL to redirect a page to
 
 #### Source
 
-main.ts:151708
+main.ts:151672
 
 ***
 
@@ -308,7 +308,7 @@ types of media used to display a resource
 
 #### Source
 
-main.ts:151737
+main.ts:151701
 
 ***
 
@@ -327,7 +327,7 @@ to obtain resource’s meta from a particular url, specify that URL when setting
 
 #### Source
 
-main.ts:151703
+main.ts:151667
 
 ***
 
@@ -343,7 +343,7 @@ resource errors and warnings
 
 #### Source
 
-main.ts:151733
+main.ts:151697
 
 ***
 
@@ -359,7 +359,7 @@ server version
 
 #### Source
 
-main.ts:151744
+main.ts:151708
 
 ***
 
@@ -376,7 +376,7 @@ indicates the size of a given resource measured in bytes
 
 #### Source
 
-main.ts:151713
+main.ts:151677
 
 ***
 
@@ -392,7 +392,7 @@ status code of the page where a given resource is located
 
 #### Source
 
-main.ts:151705
+main.ts:151669
 
 ***
 
@@ -409,7 +409,7 @@ indicates the compressed size of a given resource in bytes
 
 #### Source
 
-main.ts:151719
+main.ts:151683
 
 ***
 
@@ -425,7 +425,7 @@ resource URL
 
 #### Source
 
-main.ts:151710
+main.ts:151674
 
 ## Methods
 
@@ -447,7 +447,7 @@ main.ts:151710
 
 #### Source
 
-main.ts:151768
+main.ts:151732
 
 ***
 
@@ -469,7 +469,7 @@ main.ts:151768
 
 #### Source
 
-main.ts:151813
+main.ts:151777
 
 ***
 
@@ -491,4 +491,4 @@ main.ts:151813
 
 #### Source
 
-main.ts:151806
+main.ts:151770

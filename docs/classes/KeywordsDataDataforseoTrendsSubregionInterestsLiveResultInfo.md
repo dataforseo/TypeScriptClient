@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:125846
+main.ts:125996
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Source
 
-main.ts:125837
+main.ts:125987
 
 ***
 
@@ -66,7 +66,7 @@ values in this array represent percentages relative to the maximum value within 
 
 #### Source
 
-main.ts:125842
+main.ts:125992
 
 ***
 
@@ -82,7 +82,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:125839
+main.ts:125989
 
 ***
 
@@ -98,7 +98,7 @@ keywords in a POST array
 
 #### Source
 
-main.ts:125824
+main.ts:125974
 
 ***
 
@@ -115,7 +115,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:125832
+main.ts:125982
 
 ***
 
@@ -132,7 +132,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:125829
+main.ts:125979
 
 ***
 
@@ -148,7 +148,7 @@ type of element
 
 #### Source
 
-main.ts:125826
+main.ts:125976
 
 ## Methods
 
@@ -166,7 +166,7 @@ main.ts:125826
 
 #### Source
 
-main.ts:125855
+main.ts:126005
 
 ***
 
@@ -184,7 +184,7 @@ main.ts:125855
 
 #### Source
 
-main.ts:125886
+main.ts:126036
 
 ***
 
@@ -202,4 +202,4 @@ main.ts:125886
 
 #### Source
 
-main.ts:125879
+main.ts:126029

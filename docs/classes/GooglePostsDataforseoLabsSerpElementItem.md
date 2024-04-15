@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:96766
+main.ts:96634
 
 ## Properties
 
@@ -68,7 +68,7 @@ google-defined client id
 
 #### Source
 
-main.ts:96762
+main.ts:96630
 
 ***
 
@@ -84,7 +84,7 @@ the additional feature of the review
 
 #### Source
 
-main.ts:96760
+main.ts:96628
 
 ***
 
@@ -102,7 +102,7 @@ left, right
 
 #### Source
 
-main.ts:96754
+main.ts:96622
 
 ***
 
@@ -118,7 +118,7 @@ the identifier of the google_posts feature
 
 #### Source
 
-main.ts:96758
+main.ts:96626
 
 ***
 
@@ -135,7 +135,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:96750
+main.ts:96618
 
 ***
 
@@ -152,7 +152,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:96747
+main.ts:96615
 
 ***
 
@@ -168,7 +168,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:96756
+main.ts:96624
 
 ## Methods
 
@@ -190,7 +190,7 @@ main.ts:96756
 
 #### Source
 
-main.ts:96771
+main.ts:96639
 
 ***
 
@@ -212,7 +212,7 @@ main.ts:96771
 
 #### Source
 
-main.ts:96795
+main.ts:96663
 
 ***
 
@@ -234,4 +234,4 @@ main.ts:96795
 
 #### Source
 
-main.ts:96788
+main.ts:96656

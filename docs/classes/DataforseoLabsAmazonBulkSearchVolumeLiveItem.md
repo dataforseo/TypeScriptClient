@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:101194
+main.ts:101086
 
 ## Properties
 
@@ -46,7 +46,7 @@ keyword in a POST array
 
 #### Source
 
-main.ts:101187
+main.ts:101079
 
 ***
 
@@ -62,7 +62,7 @@ search engine type
 
 #### Source
 
-main.ts:101185
+main.ts:101077
 
 ***
 
@@ -79,7 +79,7 @@ represents the (approximate) number of searches for the returned keyword on Amaz
 
 #### Source
 
-main.ts:101190
+main.ts:101082
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:101190
 
 #### Source
 
-main.ts:101203
+main.ts:101095
 
 ***
 
@@ -115,7 +115,7 @@ main.ts:101203
 
 #### Source
 
-main.ts:101222
+main.ts:101114
 
 ***
 
@@ -133,4 +133,4 @@ main.ts:101222
 
 #### Source
 
-main.ts:101215
+main.ts:101107

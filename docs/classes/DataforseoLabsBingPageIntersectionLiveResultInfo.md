@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:107131
+main.ts:107281
 
 ## Properties
 
@@ -46,13 +46,13 @@ URLs you specified in a POST array that will be excluded from the results
 
 #### Source
 
-main.ts:107117
+main.ts:107267
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`DataforseoLabsPageIntersectionLiveItem`](DataforseoLabsPageIntersectionLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsBingPageIntersectionLiveItem`](DataforseoLabsBingPageIntersectionLiveItem.md)[]
 
 contains keywords, relevant SERP elements and related data
 
@@ -62,7 +62,7 @@ contains keywords, relevant SERP elements and related data
 
 #### Source
 
-main.ts:107127
+main.ts:107277
 
 ***
 
@@ -78,7 +78,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:107125
+main.ts:107275
 
 ***
 
@@ -94,7 +94,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:107121
+main.ts:107271
 
 ***
 
@@ -110,7 +110,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:107119
+main.ts:107269
 
 ***
 
@@ -130,7 +130,7 @@ URLs you specified a POST array
 
 #### Source
 
-main.ts:107115
+main.ts:107265
 
 ***
 
@@ -148,7 +148,7 @@ for this endpoint, the field equals bing
 
 #### Source
 
-main.ts:107113
+main.ts:107263
 
 ***
 
@@ -164,7 +164,7 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:107123
+main.ts:107273
 
 ## Methods
 
@@ -182,7 +182,7 @@ main.ts:107123
 
 #### Source
 
-main.ts:107140
+main.ts:107290
 
 ***
 
@@ -200,7 +200,7 @@ main.ts:107140
 
 #### Source
 
-main.ts:107178
+main.ts:107328
 
 ***
 
@@ -218,4 +218,4 @@ main.ts:107178
 
 #### Source
 
-main.ts:107171
+main.ts:107321

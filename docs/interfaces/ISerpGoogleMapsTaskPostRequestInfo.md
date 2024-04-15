@@ -27,7 +27,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:38380
+main.ts:38392
 
 ***
 
@@ -43,7 +43,7 @@ note: for mobile device, only 20 results are returned for every SERP
 
 #### Source
 
-main.ts:38357
+main.ts:38369
 
 ***
 
@@ -62,7 +62,7 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 
 #### Source
 
-main.ts:38304
+main.ts:38316
 
 ***
 
@@ -79,7 +79,7 @@ en
 
 #### Source
 
-main.ts:38351
+main.ts:38363
 
 ***
 
@@ -96,7 +96,7 @@ English
 
 #### Source
 
-main.ts:38344
+main.ts:38356
 
 ***
 
@@ -113,7 +113,7 @@ example:
 
 #### Source
 
-main.ts:38326
+main.ts:38338
 
 ***
 
@@ -134,7 +134,7 @@ example:
 
 #### Source
 
-main.ts:38337
+main.ts:38349
 
 ***
 
@@ -151,7 +151,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:38319
+main.ts:38331
 
 ***
 
@@ -168,7 +168,7 @@ learn more at our help center
 
 #### Source
 
-main.ts:38387
+main.ts:38399
 
 ***
 
@@ -185,7 +185,7 @@ default value: android
 
 #### Source
 
-main.ts:38364
+main.ts:38376
 
 ***
 
@@ -205,7 +205,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:38432
+main.ts:38444
 
 ***
 
@@ -221,7 +221,7 @@ advanced
 
 #### Source
 
-main.ts:38422
+main.ts:38434
 
 ***
 
@@ -241,7 +241,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:38416
+main.ts:38428
 
 ***
 
@@ -259,7 +259,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:38312
+main.ts:38324
 
 ***
 
@@ -276,7 +276,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Source
 
-main.ts:38371
+main.ts:38383
 
 ***
 
@@ -293,7 +293,7 @@ Note: if the search_places mode is turned off and no results were found in the s
 
 #### Source
 
-main.ts:38400
+main.ts:38412
 
 ***
 
@@ -309,7 +309,7 @@ Note: if the search_this_area mode is turned off, Google Maps listings might con
 
 #### Source
 
-main.ts:38393
+main.ts:38405
 
 ***
 
@@ -325,7 +325,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:38406
+main.ts:38418
 
 ***
 
@@ -341,4 +341,4 @@ https://google.com/maps/search/pizza/@37.09024,-95.712891,4z
 
 #### Source
 
-main.ts:38295
+main.ts:38307

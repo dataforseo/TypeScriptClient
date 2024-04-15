@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:176160
+main.ts:176310
 
 ## Properties
 
@@ -68,7 +68,7 @@ number of product purchases in the past month
 
 #### Source
 
-main.ts:176125
+main.ts:176275
 
 ***
 
@@ -86,7 +86,7 @@ USD
 
 #### Source
 
-main.ts:176137
+main.ts:176287
 
 ***
 
@@ -105,7 +105,7 @@ B07G82D89J
 
 #### Source
 
-main.ts:176145
+main.ts:176295
 
 ***
 
@@ -122,7 +122,7 @@ delivery information including free and fast delivery date ranges
 
 #### Source
 
-main.ts:176156
+main.ts:176306
 
 ***
 
@@ -138,7 +138,7 @@ Amazon domain
 
 #### Source
 
-main.ts:176117
+main.ts:176267
 
 ***
 
@@ -154,7 +154,7 @@ URL of the product image featured in the results
 
 #### Source
 
-main.ts:176123
+main.ts:176273
 
 ***
 
@@ -171,7 +171,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 #### Source
 
-main.ts:176150
+main.ts:176300
 
 ***
 
@@ -188,7 +188,7 @@ if the value is true, the product is marked with the “Best Seller” label
 
 #### Source
 
-main.ts:176153
+main.ts:176303
 
 ***
 
@@ -206,7 +206,7 @@ example:
 
 #### Source
 
-main.ts:176129
+main.ts:176279
 
 ***
 
@@ -224,7 +224,7 @@ example:
 
 #### Source
 
-main.ts:176133
+main.ts:176283
 
 ***
 
@@ -241,7 +241,7 @@ absolute position among all the elements found in Amazon SERP
 
 #### Source
 
-main.ts:176113
+main.ts:176263
 
 ***
 
@@ -258,7 +258,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:176110
+main.ts:176260
 
 ***
 
@@ -274,7 +274,7 @@ product rating info
 
 #### Source
 
-main.ts:176147
+main.ts:176297
 
 ***
 
@@ -291,7 +291,7 @@ contains special offer details, including coupon and Subscribe & Save discounts
 
 #### Source
 
-main.ts:176140
+main.ts:176290
 
 ***
 
@@ -307,7 +307,7 @@ product title
 
 #### Source
 
-main.ts:176119
+main.ts:176269
 
 ***
 
@@ -323,7 +323,7 @@ the URL of the product page
 
 #### Source
 
-main.ts:176121
+main.ts:176271
 
 ***
 
@@ -339,7 +339,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:176115
+main.ts:176265
 
 ## Methods
 
@@ -361,7 +361,7 @@ main.ts:176115
 
 #### Source
 
-main.ts:176165
+main.ts:176315
 
 ***
 
@@ -383,7 +383,7 @@ main.ts:176165
 
 #### Source
 
-main.ts:176203
+main.ts:176353
 
 ***
 
@@ -405,4 +405,4 @@ main.ts:176203
 
 #### Source
 
-main.ts:176196
+main.ts:176346

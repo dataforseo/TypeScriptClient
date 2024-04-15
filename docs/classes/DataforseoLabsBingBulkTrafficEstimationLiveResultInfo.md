@@ -30,13 +30,13 @@
 
 #### Source
 
-main.ts:105021
+main.ts:105013
 
 ## Properties
 
 ### items?
 
-> **`optional`** **items**: [`DataforseoLabsBulkTrafficEstimationLiveItem`](DataforseoLabsBulkTrafficEstimationLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsBBulkTrafficEstimationLiveItem`](DataforseoLabsBBulkTrafficEstimationLiveItem.md)[]
 
 array of items with relevant traffic estimation data
 
@@ -46,7 +46,7 @@ array of items with relevant traffic estimation data
 
 #### Source
 
-main.ts:105017
+main.ts:105009
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:105015
+main.ts:105007
 
 ***
 
@@ -79,7 +79,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:105011
+main.ts:105003
 
 ***
 
@@ -96,7 +96,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:105008
+main.ts:105000
 
 ***
 
@@ -112,7 +112,7 @@ search engine type
 
 #### Source
 
-main.ts:105005
+main.ts:104997
 
 ***
 
@@ -128,7 +128,7 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:105013
+main.ts:105005
 
 ## Methods
 
@@ -146,7 +146,7 @@ main.ts:105013
 
 #### Source
 
-main.ts:105030
+main.ts:105022
 
 ***
 
@@ -164,7 +164,7 @@ main.ts:105030
 
 #### Source
 
-main.ts:105056
+main.ts:105048
 
 ***
 
@@ -182,4 +182,4 @@ main.ts:105056
 
 #### Source
 
-main.ts:105049
+main.ts:105041

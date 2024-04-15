@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:49914
+main.ts:49924
 
 ## Properties
 
@@ -68,7 +68,7 @@ employment contract type
 
 #### Source
 
-main.ts:49899
+main.ts:49909
 
 ***
 
@@ -84,7 +84,7 @@ URL to the image used in the job posting
 
 #### Source
 
-main.ts:49888
+main.ts:49898
 
 ***
 
@@ -100,7 +100,7 @@ name of the employer
 
 #### Source
 
-main.ts:49884
+main.ts:49894
 
 ***
 
@@ -116,7 +116,7 @@ URL to the employer’s website
 
 #### Source
 
-main.ts:49886
+main.ts:49896
 
 ***
 
@@ -132,7 +132,7 @@ ID of the job on Google Jobs
 
 #### Source
 
-main.ts:49880
+main.ts:49890
 
 ***
 
@@ -148,7 +148,7 @@ location for which the job vacancy is posted
 
 #### Source
 
-main.ts:49890
+main.ts:49900
 
 ***
 
@@ -166,7 +166,7 @@ left, right
 
 #### Source
 
-main.ts:49876
+main.ts:49886
 
 ***
 
@@ -183,7 +183,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:49872
+main.ts:49882
 
 ***
 
@@ -201,7 +201,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:49869
+main.ts:49879
 
 ***
 
@@ -219,7 +219,7 @@ in this case, will equal null
 
 #### Source
 
-main.ts:49910
+main.ts:49920
 
 ***
 
@@ -236,7 +236,7 @@ if the salary isn’t indicated, this field will equal null
 
 #### Source
 
-main.ts:49897
+main.ts:49907
 
 ***
 
@@ -252,7 +252,7 @@ original source of the job vacancy
 
 #### Source
 
-main.ts:49892
+main.ts:49902
 
 ***
 
@@ -268,7 +268,7 @@ URL to the original source of the job vacancy
 
 #### Source
 
-main.ts:49894
+main.ts:49904
 
 ***
 
@@ -284,7 +284,7 @@ indicates how long ago the job vacancy was posted
 
 #### Source
 
-main.ts:49906
+main.ts:49916
 
 ***
 
@@ -303,7 +303,7 @@ example:
 
 #### Source
 
-main.ts:49904
+main.ts:49914
 
 ***
 
@@ -319,7 +319,7 @@ title of the job
 
 #### Source
 
-main.ts:49882
+main.ts:49892
 
 ***
 
@@ -335,7 +335,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:49878
+main.ts:49888
 
 ## Methods
 
@@ -357,7 +357,7 @@ main.ts:49878
 
 #### Source
 
-main.ts:49919
+main.ts:49929
 
 ***
 
@@ -379,7 +379,7 @@ main.ts:49919
 
 #### Source
 
-main.ts:49953
+main.ts:49963
 
 ***
 
@@ -401,4 +401,4 @@ main.ts:49953
 
 #### Source
 
-main.ts:49946
+main.ts:49956

@@ -20,7 +20,7 @@ ISO country code of the location
 
 #### Source
 
-main.ts:131773
+main.ts:131923
 
 ***
 
@@ -32,7 +32,7 @@ location code
 
 #### Source
 
-main.ts:131769
+main.ts:131919
 
 ***
 
@@ -44,7 +44,7 @@ location name
 
 #### Source
 
-main.ts:131771
+main.ts:131921
 
 ***
 
@@ -58,4 +58,4 @@ Country, Region
 
 #### Source
 
-main.ts:131777
+main.ts:131927

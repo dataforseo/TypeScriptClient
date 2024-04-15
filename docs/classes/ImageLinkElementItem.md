@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:153829
+main.ts:153979
 
 ## Properties
 
@@ -69,7 +69,7 @@ possible values: internal, external
 
 #### Source
 
-main.ts:153810
+main.ts:153960
 
 ***
 
@@ -86,7 +86,7 @@ if the value is true, the link doesn’t have a rel="nofollow" attribute
 
 #### Source
 
-main.ts:153803
+main.ts:153953
 
 ***
 
@@ -103,7 +103,7 @@ the link was found on this domain
 
 #### Source
 
-main.ts:153780
+main.ts:153930
 
 ***
 
@@ -120,7 +120,7 @@ the link is pointing to this domain
 
 #### Source
 
-main.ts:153783
+main.ts:153933
 
 ***
 
@@ -136,7 +136,7 @@ alternative text for the image
 
 #### Source
 
-main.ts:153817
+main.ts:153967
 
 ***
 
@@ -152,7 +152,7 @@ url of the image
 
 #### Source
 
-main.ts:153819
+main.ts:153969
 
 ***
 
@@ -169,7 +169,7 @@ indicates whether a link is directing to a broken page or resource
 
 #### Source
 
-main.ts:153813
+main.ts:153963
 
 ***
 
@@ -186,7 +186,7 @@ if true, at least one link pointing to link_to has a rel="nofollow" attribute an
 
 #### Source
 
-main.ts:153822
+main.ts:153972
 
 ***
 
@@ -205,7 +205,7 @@ example:
 
 #### Source
 
-main.ts:153800
+main.ts:153950
 
 ***
 
@@ -222,7 +222,7 @@ absolute URL of the page on which the link was found
 
 #### Source
 
-main.ts:153792
+main.ts:153942
 
 ***
 
@@ -239,7 +239,7 @@ absolute URL of the page to which the link is pointing
 
 #### Source
 
-main.ts:153795
+main.ts:153945
 
 ***
 
@@ -256,7 +256,7 @@ relative URL of the page on which the link was found
 
 #### Source
 
-main.ts:153786
+main.ts:153936
 
 ***
 
@@ -272,7 +272,7 @@ url scheme of the referring page
 
 #### Source
 
-main.ts:153805
+main.ts:153955
 
 ***
 
@@ -289,7 +289,7 @@ relative URL of the page to which the link is pointing
 
 #### Source
 
-main.ts:153789
+main.ts:153939
 
 ***
 
@@ -305,7 +305,7 @@ url scheme of the referenced page
 
 #### Source
 
-main.ts:153807
+main.ts:153957
 
 ***
 
@@ -322,7 +322,7 @@ status code of the page to which the link is pointing
 
 #### Source
 
-main.ts:153825
+main.ts:153975
 
 ***
 
@@ -338,7 +338,7 @@ anchor text
 
 #### Source
 
-main.ts:153815
+main.ts:153965
 
 ## Methods
 
@@ -360,7 +360,7 @@ main.ts:153815
 
 #### Source
 
-main.ts:153834
+main.ts:153984
 
 ***
 
@@ -382,7 +382,7 @@ main.ts:153834
 
 #### Source
 
-main.ts:153872
+main.ts:154022
 
 ***
 
@@ -404,4 +404,4 @@ main.ts:153872
 
 #### Source
 
-main.ts:153865
+main.ts:154015

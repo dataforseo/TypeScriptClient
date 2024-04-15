@@ -30,13 +30,13 @@
 
 #### Source
 
-main.ts:106115
+main.ts:106183
 
 ## Properties
 
 ### items?
 
-> **`optional`** **items**: [`DataforseoLabsDomainIntersectionLiveItem`](DataforseoLabsDomainIntersectionLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsBingDomainIntersectionLiveItem`](DataforseoLabsBingDomainIntersectionLiveItem.md)[]
 
 contains keywords, relevant SERP elements and related data
 
@@ -46,7 +46,7 @@ contains keywords, relevant SERP elements and related data
 
 #### Source
 
-main.ts:106111
+main.ts:106179
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:106109
+main.ts:106177
 
 ***
 
@@ -78,7 +78,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:106105
+main.ts:106173
 
 ***
 
@@ -94,7 +94,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:106103
+main.ts:106171
 
 ***
 
@@ -112,7 +112,7 @@ for this endpoint, the field equals bing
 
 #### Source
 
-main.ts:106097
+main.ts:106165
 
 ***
 
@@ -128,7 +128,7 @@ target specified in a POST array
 
 #### Source
 
-main.ts:106099
+main.ts:106167
 
 ***
 
@@ -144,7 +144,7 @@ target specified in a POST array
 
 #### Source
 
-main.ts:106101
+main.ts:106169
 
 ***
 
@@ -160,7 +160,7 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:106107
+main.ts:106175
 
 ## Methods
 
@@ -178,7 +178,7 @@ main.ts:106107
 
 #### Source
 
-main.ts:106124
+main.ts:106192
 
 ***
 
@@ -196,7 +196,7 @@ main.ts:106124
 
 #### Source
 
-main.ts:106152
+main.ts:106220
 
 ***
 
@@ -214,4 +214,4 @@ main.ts:106152
 
 #### Source
 
-main.ts:106145
+main.ts:106213

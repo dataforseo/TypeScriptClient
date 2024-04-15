@@ -30,13 +30,13 @@
 
 #### Source
 
-main.ts:111101
+main.ts:111251
 
 ## Properties
 
 ### keyword\_data?
 
-> **`optional`** **keyword\_data**: [`KeywordData`](KeywordData.md)
+> **`optional`** **keyword\_data**: [`KeywordDataKeywordDataInfo`](KeywordDataKeywordDataInfo.md)
 
 keyword data for the returned keyword
 
@@ -46,7 +46,7 @@ keyword data for the returned keyword
 
 #### Source
 
-main.ts:111095
+main.ts:111245
 
 ***
 
@@ -62,7 +62,7 @@ contains data on the domain’s SERP element found for the returned keyword
 
 #### Source
 
-main.ts:111097
+main.ts:111247
 
 ***
 
@@ -78,7 +78,7 @@ search engine type
 
 #### Source
 
-main.ts:111093
+main.ts:111243
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:111093
 
 #### Source
 
-main.ts:111110
+main.ts:111260
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:111110
 
 #### Source
 
-main.ts:111129
+main.ts:111279
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:111129
 
 #### Source
 
-main.ts:111122
+main.ts:111272

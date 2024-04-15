@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:100421
+main.ts:100306
 
 ## Properties
 
@@ -50,7 +50,7 @@ date format: "yyyy-mm-dd"
 
 #### Source
 
-main.ts:100395
+main.ts:100275
 
 ***
 
@@ -71,7 +71,26 @@ example:
 
 #### Source
 
-main.ts:100402
+main.ts:100282
+
+***
+
+### ignore\_synonyms?
+
+> **`optional`** **ignore\_synonyms**: `boolean`
+
+ignore highly similar keywords
+optional field
+if set to true only core keywords will be returned, all highly similar keywords will be excluded;
+default value: false
+
+#### Implementation of
+
+[`IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md).[`ignore_synonyms`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md#ignore_synonyms)
+
+#### Source
+
+main.ts:100287
 
 ***
 
@@ -94,7 +113,7 @@ default value:
 
 #### Source
 
-main.ts:100411
+main.ts:100296
 
 ***
 
@@ -116,7 +135,7 @@ en
 
 #### Source
 
-main.ts:100389
+main.ts:100269
 
 ***
 
@@ -138,7 +157,7 @@ English
 
 #### Source
 
-main.ts:100381
+main.ts:100261
 
 ***
 
@@ -160,7 +179,7 @@ example:
 
 #### Source
 
-main.ts:100373
+main.ts:100253
 
 ***
 
@@ -182,7 +201,7 @@ United Kingdom
 
 #### Source
 
-main.ts:100365
+main.ts:100245
 
 ***
 
@@ -202,7 +221,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:100417
+main.ts:100302
 
 ***
 
@@ -222,7 +241,7 @@ you can set up to 1000 domains or subdomains
 
 #### Source
 
-main.ts:100357
+main.ts:100237
 
 ## Methods
 
@@ -240,7 +259,7 @@ main.ts:100357
 
 #### Source
 
-main.ts:100430
+main.ts:100315
 
 ***
 
@@ -258,7 +277,7 @@ main.ts:100430
 
 #### Source
 
-main.ts:100463
+main.ts:100349
 
 ***
 
@@ -276,4 +295,4 @@ main.ts:100463
 
 #### Source
 
-main.ts:100456
+main.ts:100342

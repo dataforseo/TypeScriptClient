@@ -23,7 +23,7 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 #### Source
 
-main.ts:158681
+main.ts:158831
 
 ***
 
@@ -50,7 +50,7 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 #### Source
 
-main.ts:158653
+main.ts:158803
 
 ***
 
@@ -66,7 +66,7 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:158665
+main.ts:158815
 
 ***
 
@@ -82,7 +82,7 @@ maximum value: 3
 
 #### Source
 
-main.ts:158671
+main.ts:158821
 
 ***
 
@@ -98,7 +98,7 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:158659
+main.ts:158809
 
 ***
 
@@ -113,7 +113,7 @@ default value: false
 
 #### Source
 
-main.ts:158734
+main.ts:158884
 
 ***
 
@@ -132,7 +132,7 @@ Note: only integer threshold values can be modified;
 
 #### Source
 
-main.ts:158739
+main.ts:158889
 
 ***
 
@@ -153,7 +153,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:158724
+main.ts:158874
 
 ***
 
@@ -170,7 +170,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 #### Source
 
-main.ts:158636
+main.ts:158786
 
 ***
 
@@ -186,7 +186,7 @@ false
 
 #### Source
 
-main.ts:158702
+main.ts:158852
 
 ***
 
@@ -205,7 +205,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:158696
+main.ts:158846
 
 ***
 
@@ -221,7 +221,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:158687
+main.ts:158837
 
 ***
 
@@ -237,7 +237,7 @@ falseif you use this field, enable_javascript must be set to true;
 
 #### Source
 
-main.ts:158713
+main.ts:158863
 
 ***
 
@@ -252,7 +252,7 @@ default value: false
 
 #### Source
 
-main.ts:158707
+main.ts:158857
 
 ***
 
@@ -267,7 +267,7 @@ default value: false
 
 #### Source
 
-main.ts:158676
+main.ts:158826
 
 ***
 
@@ -284,7 +284,7 @@ to prevent this error from occuring, avoid setting tasks with the same domain if
 
 #### Source
 
-main.ts:158629
+main.ts:158779
 
 ***
 
@@ -299,4 +299,4 @@ default value: false
 
 #### Source
 
-main.ts:158729
+main.ts:158879

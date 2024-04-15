@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:153058
+main.ts:153208
 
 ## Properties
 
@@ -46,7 +46,7 @@ pages with duplicate content
 
 #### Source
 
-main.ts:153054
+main.ts:153204
 
 ***
 
@@ -62,7 +62,7 @@ total count of duplicate pages
 
 #### Source
 
-main.ts:153052
+main.ts:153202
 
 ***
 
@@ -78,7 +78,7 @@ URL of the specified page
 
 #### Source
 
-main.ts:153050
+main.ts:153200
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:153050
 
 #### Source
 
-main.ts:153067
+main.ts:153217
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:153067
 
 #### Source
 
-main.ts:153090
+main.ts:153240
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:153090
 
 #### Source
 
-main.ts:153083
+main.ts:153233

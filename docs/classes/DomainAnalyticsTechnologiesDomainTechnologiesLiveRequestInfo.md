@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:77452
+main.ts:77464
 
 ## Properties
 
@@ -49,7 +49,7 @@ Note: results will be returned for the specified domain only
 
 #### Source
 
-main.ts:77448
+main.ts:77460
 
 ## Methods
 
@@ -67,7 +67,7 @@ main.ts:77448
 
 #### Source
 
-main.ts:77461
+main.ts:77473
 
 ***
 
@@ -85,7 +85,7 @@ main.ts:77461
 
 #### Source
 
-main.ts:77478
+main.ts:77490
 
 ***
 
@@ -103,4 +103,4 @@ main.ts:77478
 
 #### Source
 
-main.ts:77471
+main.ts:77483

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:110346
+main.ts:110496
 
 ## Properties
 
@@ -46,7 +46,7 @@ id of the app in a POST array
 
 #### Source
 
-main.ts:110339
+main.ts:110489
 
 ***
 
@@ -67,7 +67,7 @@ ranking data relevant to the keywords that the provided application ranks for on
 
 #### Source
 
-main.ts:110342
+main.ts:110492
 
 ***
 
@@ -83,7 +83,7 @@ search engine type
 
 #### Source
 
-main.ts:110337
+main.ts:110487
 
 ## Methods
 
@@ -101,7 +101,7 @@ main.ts:110337
 
 #### Source
 
-main.ts:110355
+main.ts:110505
 
 ***
 
@@ -119,7 +119,7 @@ main.ts:110355
 
 #### Source
 
-main.ts:110380
+main.ts:110530
 
 ***
 
@@ -137,4 +137,4 @@ main.ts:110380
 
 #### Source
 
-main.ts:110373
+main.ts:110523

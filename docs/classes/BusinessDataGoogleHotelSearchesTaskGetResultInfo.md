@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:199407
+main.ts:199557
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:199392
+main.ts:199542
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Source
 
-main.ts:199397
+main.ts:199547
 
 ***
 
@@ -83,7 +83,7 @@ note: this field always equals null; use it to facilitate integration and ensure
 
 #### Source
 
-main.ts:199403
+main.ts:199553
 
 ***
 
@@ -100,7 +100,7 @@ the number of items in the items array
 
 #### Source
 
-main.ts:199400
+main.ts:199550
 
 ***
 
@@ -118,7 +118,7 @@ in order to obtain accurate search results, the location name is appended to the
 
 #### Source
 
-main.ts:199385
+main.ts:199535
 
 ***
 
@@ -134,7 +134,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:199389
+main.ts:199539
 
 ***
 
@@ -150,7 +150,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:199387
+main.ts:199537
 
 ## Methods
 
@@ -168,7 +168,7 @@ main.ts:199387
 
 #### Source
 
-main.ts:199416
+main.ts:199566
 
 ***
 
@@ -186,7 +186,7 @@ main.ts:199416
 
 #### Source
 
-main.ts:199443
+main.ts:199593
 
 ***
 
@@ -204,4 +204,4 @@ main.ts:199443
 
 #### Source
 
-main.ts:199436
+main.ts:199586

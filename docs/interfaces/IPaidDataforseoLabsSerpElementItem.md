@@ -24,7 +24,7 @@ backlinks information for the target website
 
 #### Source
 
-main.ts:96631
+main.ts:96499
 
 ***
 
@@ -36,7 +36,7 @@ breadcrumb of the Ad element in SERP
 
 #### Source
 
-main.ts:96593
+main.ts:96461
 
 ***
 
@@ -48,7 +48,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:96591
+main.ts:96459
 
 ***
 
@@ -61,7 +61,7 @@ if there is none, equals null
 
 #### Source
 
-main.ts:96602
+main.ts:96470
 
 ***
 
@@ -73,7 +73,7 @@ domain where a link points
 
 #### Source
 
-main.ts:96589
+main.ts:96457
 
 ***
 
@@ -88,7 +88,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:96623
+main.ts:96491
 
 ***
 
@@ -103,7 +103,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:96613
+main.ts:96481
 
 ***
 
@@ -119,7 +119,7 @@ additional information about the result
 
 #### Source
 
-main.ts:96599
+main.ts:96467
 
 ***
 
@@ -131,7 +131,7 @@ words highlighted in bold within the results description
 
 #### Source
 
-main.ts:96597
+main.ts:96465
 
 ***
 
@@ -146,7 +146,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:96618
+main.ts:96486
 
 ***
 
@@ -158,7 +158,7 @@ link of the element
 
 #### Source
 
-main.ts:96604
+main.ts:96472
 
 ***
 
@@ -170,7 +170,7 @@ primary domain name in SERP
 
 #### Source
 
-main.ts:96606
+main.ts:96474
 
 ***
 
@@ -184,7 +184,7 @@ left, right
 
 #### Source
 
-main.ts:96583
+main.ts:96451
 
 ***
 
@@ -197,7 +197,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:96579
+main.ts:96447
 
 ***
 
@@ -211,7 +211,7 @@ Note: the changes are calculated even if the preceding month is not included in 
 
 #### Source
 
-main.ts:96627
+main.ts:96495
 
 ***
 
@@ -224,7 +224,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:96576
+main.ts:96444
 
 ***
 
@@ -236,7 +236,7 @@ page and domain rank information
 
 #### Source
 
-main.ts:96633
+main.ts:96501
 
 ***
 
@@ -248,7 +248,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Source
 
-main.ts:96608
+main.ts:96476
 
 ***
 
@@ -260,7 +260,7 @@ search engine type
 
 #### Source
 
-main.ts:96629
+main.ts:96497
 
 ***
 
@@ -272,7 +272,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:96587
+main.ts:96455
 
 ***
 
@@ -284,7 +284,7 @@ relevant URL of the Ad element in SERP
 
 #### Source
 
-main.ts:96595
+main.ts:96463
 
 ***
 
@@ -296,4 +296,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:96585
+main.ts:96453

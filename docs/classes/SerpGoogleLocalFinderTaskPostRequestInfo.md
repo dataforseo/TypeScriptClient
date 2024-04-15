@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:40516
+main.ts:40528
 
 ## Properties
 
@@ -54,7 +54,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:40466
+main.ts:40478
 
 ***
 
@@ -73,7 +73,7 @@ default value: desktop
 
 #### Source
 
-main.ts:40449
+main.ts:40461
 
 ***
 
@@ -94,7 +94,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Source
 
-main.ts:40398
+main.ts:40410
 
 ***
 
@@ -114,7 +114,7 @@ example:en
 
 #### Source
 
-main.ts:40444
+main.ts:40456
 
 ***
 
@@ -135,7 +135,7 @@ English
 
 #### Source
 
-main.ts:40438
+main.ts:40450
 
 ***
 
@@ -156,7 +156,7 @@ example:
 
 #### Source
 
-main.ts:40420
+main.ts:40432
 
 ***
 
@@ -181,7 +181,7 @@ example:
 
 #### Source
 
-main.ts:40431
+main.ts:40443
 
 ***
 
@@ -202,7 +202,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:40413
+main.ts:40425
 
 ***
 
@@ -221,7 +221,7 @@ possible values for mobile: 2, 2.5, 3, 3.5, 4, 4.5
 
 #### Source
 
-main.ts:40471
+main.ts:40483
 
 ***
 
@@ -242,7 +242,7 @@ default value: android
 
 #### Source
 
-main.ts:40456
+main.ts:40468
 
 ***
 
@@ -266,7 +266,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:40512
+main.ts:40524
 
 ***
 
@@ -286,7 +286,7 @@ advanced, html
 
 #### Source
 
-main.ts:40502
+main.ts:40514
 
 ***
 
@@ -310,7 +310,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:40496
+main.ts:40508
 
 ***
 
@@ -332,7 +332,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:40406
+main.ts:40418
 
 ***
 
@@ -352,7 +352,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:40486
+main.ts:40498
 
 ***
 
@@ -375,7 +375,7 @@ example: "tuesday;18"
 
 #### Source
 
-main.ts:40480
+main.ts:40492
 
 ## Methods
 
@@ -393,7 +393,7 @@ main.ts:40480
 
 #### Source
 
-main.ts:40525
+main.ts:40537
 
 ***
 
@@ -411,7 +411,7 @@ main.ts:40525
 
 #### Source
 
-main.ts:40557
+main.ts:40569
 
 ***
 
@@ -429,4 +429,4 @@ main.ts:40557
 
 #### Source
 
-main.ts:40550
+main.ts:40562

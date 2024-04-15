@@ -20,7 +20,7 @@ contains keywords and related data
 
 #### Source
 
-main.ts:84484
+main.ts:84496
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:84482
+main.ts:84494
 
 ***
 
@@ -44,7 +44,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:84480
+main.ts:84492
 
 ***
 
@@ -56,7 +56,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:84478
+main.ts:84490
 
 ***
 
@@ -68,4 +68,4 @@ search engine type
 
 #### Source
 
-main.ts:84476
+main.ts:84488

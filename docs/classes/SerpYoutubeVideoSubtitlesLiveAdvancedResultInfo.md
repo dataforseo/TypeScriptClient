@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:63187
+main.ts:63199
 
 ## Properties
 
@@ -46,7 +46,7 @@ the category the video belongs to
 
 #### Source
 
-main.ts:63175
+main.ts:63187
 
 ***
 
@@ -63,7 +63,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:63154
+main.ts:63166
 
 ***
 
@@ -82,7 +82,7 @@ example:
 
 #### Source
 
-main.ts:63159
+main.ts:63171
 
 ***
 
@@ -101,7 +101,7 @@ youtube_subtitles
 
 #### Source
 
-main.ts:63167
+main.ts:63179
 
 ***
 
@@ -117,7 +117,7 @@ elements of search results found in SERP
 
 #### Source
 
-main.ts:63183
+main.ts:63195
 
 ***
 
@@ -133,7 +133,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:63181
+main.ts:63193
 
 ***
 
@@ -149,7 +149,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:63151
+main.ts:63163
 
 ***
 
@@ -165,7 +165,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:63149
+main.ts:63161
 
 ***
 
@@ -181,7 +181,7 @@ language code of original text
 
 #### Source
 
-main.ts:63173
+main.ts:63185
 
 ***
 
@@ -197,7 +197,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:63147
+main.ts:63159
 
 ***
 
@@ -214,7 +214,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Source
 
-main.ts:63162
+main.ts:63174
 
 ***
 
@@ -230,7 +230,7 @@ number of subtitles in the video
 
 #### Source
 
-main.ts:63177
+main.ts:63189
 
 ***
 
@@ -246,7 +246,7 @@ title of the video
 
 #### Source
 
-main.ts:63179
+main.ts:63191
 
 ***
 
@@ -262,7 +262,7 @@ language code of translated text
 
 #### Source
 
-main.ts:63171
+main.ts:63183
 
 ***
 
@@ -278,7 +278,7 @@ indicates whether the language is unsupported by the system
 
 #### Source
 
-main.ts:63169
+main.ts:63181
 
 ***
 
@@ -294,7 +294,7 @@ ID of the video received in a POST array
 
 #### Source
 
-main.ts:63145
+main.ts:63157
 
 ## Methods
 
@@ -312,7 +312,7 @@ main.ts:63145
 
 #### Source
 
-main.ts:63196
+main.ts:63208
 
 ***
 
@@ -330,7 +330,7 @@ main.ts:63196
 
 #### Source
 
-main.ts:63236
+main.ts:63248
 
 ***
 
@@ -348,4 +348,4 @@ main.ts:63236
 
 #### Source
 
-main.ts:63229
+main.ts:63241

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:84322
+main.ts:84334
 
 ## Properties
 
@@ -50,7 +50,7 @@ learn more about impressions in this help center article
 
 #### Source
 
-main.ts:84315
+main.ts:84327
 
 ***
 
@@ -67,7 +67,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Source
 
-main.ts:84296
+main.ts:84308
 
 ***
 
@@ -83,7 +83,7 @@ keyword data for the returned keyword idea
 
 #### Source
 
-main.ts:84307
+main.ts:84319
 
 ***
 
@@ -99,7 +99,7 @@ additional information about the keyword
 
 #### Source
 
-main.ts:84309
+main.ts:84321
 
 ***
 
@@ -115,7 +115,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:84301
+main.ts:84313
 
 ***
 
@@ -132,7 +132,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:84299
+main.ts:84311
 
 ***
 
@@ -148,7 +148,7 @@ search engine type
 
 #### Source
 
-main.ts:84293
+main.ts:84305
 
 ***
 
@@ -166,7 +166,7 @@ if false, the results are returned for Google search sites only
 
 #### Source
 
-main.ts:84305
+main.ts:84317
 
 ***
 
@@ -183,7 +183,7 @@ the value will be null if you didn’t set the field include_serp_info to true i
 
 #### Source
 
-main.ts:84318
+main.ts:84330
 
 ## Methods
 
@@ -201,7 +201,7 @@ main.ts:84318
 
 #### Source
 
-main.ts:84331
+main.ts:84343
 
 ***
 
@@ -219,7 +219,7 @@ main.ts:84331
 
 #### Source
 
-main.ts:84356
+main.ts:84368
 
 ***
 
@@ -237,4 +237,4 @@ main.ts:84356
 
 #### Source
 
-main.ts:84349
+main.ts:84361

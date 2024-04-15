@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:152294
+main.ts:152444
 
 ## Properties
 
@@ -71,7 +71,7 @@ any, none, image, sitemap, robots, script, stylesheet, redirect, html, text, oth
 
 #### Source
 
-main.ts:152285
+main.ts:152435
 
 ***
 
@@ -87,7 +87,7 @@ instructions for caching
 
 #### Source
 
-main.ts:152273
+main.ts:152423
 
 ***
 
@@ -108,7 +108,7 @@ contents of the array depend on the resource_type
 
 #### Source
 
-main.ts:152276
+main.ts:152426
 
 ***
 
@@ -124,7 +124,7 @@ type of encoding
 
 #### Source
 
-main.ts:152278
+main.ts:152428
 
 ***
 
@@ -141,7 +141,7 @@ indicates the size of the encoded resource measured in bytes
 
 #### Source
 
-main.ts:152261
+main.ts:152411
 
 ***
 
@@ -160,7 +160,7 @@ example:
 
 #### Source
 
-main.ts:152269
+main.ts:152419
 
 ***
 
@@ -176,7 +176,7 @@ resource fething time range
 
 #### Source
 
-main.ts:152271
+main.ts:152421
 
 ***
 
@@ -193,7 +193,7 @@ if there is no data, the value will be null
 
 #### Source
 
-main.ts:152290
+main.ts:152440
 
 ***
 
@@ -210,7 +210,7 @@ indicates the URL to redirect a page to
 
 #### Source
 
-main.ts:152253
+main.ts:152403
 
 ***
 
@@ -226,7 +226,7 @@ types of media used to display a resource
 
 #### Source
 
-main.ts:152280
+main.ts:152430
 
 ***
 
@@ -245,7 +245,7 @@ to obtain resource’s meta from a particular url, specify that URL when setting
 
 #### Source
 
-main.ts:152248
+main.ts:152398
 
 ***
 
@@ -261,7 +261,7 @@ server version
 
 #### Source
 
-main.ts:152287
+main.ts:152437
 
 ***
 
@@ -278,7 +278,7 @@ indicates the size of a given resource measured in bytes
 
 #### Source
 
-main.ts:152258
+main.ts:152408
 
 ***
 
@@ -294,7 +294,7 @@ status code of the page where a given resource is located
 
 #### Source
 
-main.ts:152250
+main.ts:152400
 
 ***
 
@@ -311,7 +311,7 @@ indicates the compressed size of a given resource in bytes
 
 #### Source
 
-main.ts:152264
+main.ts:152414
 
 ***
 
@@ -327,7 +327,7 @@ resource URL
 
 #### Source
 
-main.ts:152255
+main.ts:152405
 
 ## Methods
 
@@ -349,7 +349,7 @@ main.ts:152255
 
 #### Source
 
-main.ts:152299
+main.ts:152449
 
 ***
 
@@ -371,7 +371,7 @@ main.ts:152299
 
 #### Source
 
-main.ts:152338
+main.ts:152488
 
 ***
 
@@ -393,4 +393,4 @@ main.ts:152338
 
 #### Source
 
-main.ts:152331
+main.ts:152481

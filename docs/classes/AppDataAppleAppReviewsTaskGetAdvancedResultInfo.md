@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:191805
+main.ts:191955
 
 ## Properties
 
@@ -46,7 +46,7 @@ application id received in a POST array
 
 #### Source
 
-main.ts:191771
+main.ts:191921
 
 ***
 
@@ -63,7 +63,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:191782
+main.ts:191932
 
 ***
 
@@ -82,7 +82,7 @@ example:
 
 #### Source
 
-main.ts:191787
+main.ts:191937
 
 ***
 
@@ -98,7 +98,7 @@ found reviews
 
 #### Source
 
-main.ts:191801
+main.ts:191951
 
 ***
 
@@ -115,7 +115,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Source
 
-main.ts:191799
+main.ts:191949
 
 ***
 
@@ -131,7 +131,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:191779
+main.ts:191929
 
 ***
 
@@ -147,7 +147,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:191777
+main.ts:191927
 
 ***
 
@@ -164,7 +164,7 @@ rating of the application for which the reviews are collected
 
 #### Source
 
-main.ts:191793
+main.ts:191943
 
 ***
 
@@ -181,7 +181,7 @@ in this case, the value will be null as App Store does not indicate the total nu
 
 #### Source
 
-main.ts:191796
+main.ts:191946
 
 ***
 
@@ -197,7 +197,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:191775
+main.ts:191925
 
 ***
 
@@ -214,7 +214,7 @@ title of the application for which the reviews are collected
 
 #### Source
 
-main.ts:191790
+main.ts:191940
 
 ***
 
@@ -230,7 +230,7 @@ type of element
 
 #### Source
 
-main.ts:191773
+main.ts:191923
 
 ## Methods
 
@@ -248,7 +248,7 @@ main.ts:191773
 
 #### Source
 
-main.ts:191814
+main.ts:191964
 
 ***
 
@@ -266,7 +266,7 @@ main.ts:191814
 
 #### Source
 
-main.ts:191846
+main.ts:191996
 
 ***
 
@@ -284,4 +284,4 @@ main.ts:191846
 
 #### Source
 
-main.ts:191839
+main.ts:191989

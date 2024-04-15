@@ -21,7 +21,7 @@ additional Google My Business categories that describe the services provided by 
 
 #### Source
 
-main.ts:194730
+main.ts:194880
 
 ***
 
@@ -33,7 +33,7 @@ address of the business entity
 
 #### Source
 
-main.ts:194739
+main.ts:194889
 
 ***
 
@@ -45,7 +45,7 @@ object containing address components of the business entity
 
 #### Source
 
-main.ts:194741
+main.ts:194891
 
 ***
 
@@ -58,7 +58,7 @@ service details of a business entity displayed in a form of checks and based on 
 
 #### Source
 
-main.ts:194772
+main.ts:194922
 
 ***
 
@@ -71,7 +71,7 @@ Google My Business general category that best describes the services provided by
 
 #### Source
 
-main.ts:194724
+main.ts:194874
 
 ***
 
@@ -84,7 +84,7 @@ universal category IDs that do not change based on the selected country
 
 #### Source
 
-main.ts:194727
+main.ts:194877
 
 ***
 
@@ -97,7 +97,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:194803
+main.ts:194953
 
 ***
 
@@ -111,7 +111,7 @@ learn more about the identifier in this help center article
 
 #### Source
 
-main.ts:194734
+main.ts:194884
 
 ***
 
@@ -124,7 +124,7 @@ list of contacts to interact with the business
 
 #### Source
 
-main.ts:194800
+main.ts:194950
 
 ***
 
@@ -137,7 +137,7 @@ the description of the business entity for which the results are collected
 
 #### Source
 
-main.ts:194721
+main.ts:194871
 
 ***
 
@@ -149,7 +149,7 @@ domain of the business entity
 
 #### Source
 
-main.ts:194751
+main.ts:194901
 
 ***
 
@@ -162,7 +162,7 @@ learn more about the identifier in this help center article
 
 #### Source
 
-main.ts:194737
+main.ts:194887
 
 ***
 
@@ -174,7 +174,7 @@ shows whether the entity is verified by its owner on Google Maps
 
 #### Source
 
-main.ts:194769
+main.ts:194919
 
 ***
 
@@ -189,7 +189,7 @@ example:
 
 #### Source
 
-main.ts:194808
+main.ts:194958
 
 ***
 
@@ -203,7 +203,7 @@ example:
 
 #### Source
 
-main.ts:194763
+main.ts:194913
 
 ***
 
@@ -216,7 +216,7 @@ list of options to interact with the business directly from search results
 
 #### Source
 
-main.ts:194797
+main.ts:194947
 
 ***
 
@@ -228,7 +228,7 @@ URL of the logo featured in Google My Business profile
 
 #### Source
 
-main.ts:194753
+main.ts:194903
 
 ***
 
@@ -242,7 +242,7 @@ example:
 
 #### Source
 
-main.ts:194767
+main.ts:194917
 
 ***
 
@@ -254,7 +254,7 @@ URL of the main image featured in Google My Business profile
 
 #### Source
 
-main.ts:194755
+main.ts:194905
 
 ***
 
@@ -266,7 +266,7 @@ related business entities
 
 #### Source
 
-main.ts:194788
+main.ts:194938
 
 ***
 
@@ -278,7 +278,7 @@ phone number of the business entity
 
 #### Source
 
-main.ts:194747
+main.ts:194897
 
 ***
 
@@ -292,7 +292,7 @@ learn more about the identifier in this help center article
 
 #### Source
 
-main.ts:194745
+main.ts:194895
 
 ***
 
@@ -314,7 +314,7 @@ example:
 
 #### Source
 
-main.ts:194780
+main.ts:194930
 
 ***
 
@@ -327,7 +327,7 @@ information related to busy hours of the business entity
 
 #### Source
 
-main.ts:194794
+main.ts:194944
 
 ***
 
@@ -340,7 +340,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:194783
+main.ts:194933
 
 ***
 
@@ -357,7 +357,7 @@ the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 #### Source
 
-main.ts:194786
+main.ts:194936
 
 ***
 
@@ -369,7 +369,7 @@ additional information on the business entity
 
 #### Source
 
-main.ts:194759
+main.ts:194909
 
 ***
 
@@ -382,7 +382,7 @@ the name of the business entity for which the results are collected
 
 #### Source
 
-main.ts:194718
+main.ts:194868
 
 ***
 
@@ -394,7 +394,7 @@ total count of images featured in Google My Business profile
 
 #### Source
 
-main.ts:194757
+main.ts:194907
 
 ***
 
@@ -406,7 +406,7 @@ type of element
 
 #### Source
 
-main.ts:194715
+main.ts:194865
 
 ***
 
@@ -418,7 +418,7 @@ absolute url of the business entity
 
 #### Source
 
-main.ts:194749
+main.ts:194899
 
 ***
 
@@ -431,4 +431,4 @@ information related to operational hours of the business entity
 
 #### Source
 
-main.ts:194791
+main.ts:194941

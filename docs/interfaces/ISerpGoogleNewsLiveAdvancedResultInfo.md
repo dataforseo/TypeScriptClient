@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:43978
+main.ts:43989
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Source
 
-main.ts:43983
+main.ts:43994
 
 ***
 
@@ -51,7 +51,7 @@ top_stories, news_search
 
 #### Source
 
-main.ts:43991
+main.ts:44002
 
 ***
 
@@ -59,12 +59,11 @@ main.ts:43991
 
 > **`optional`** **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
 
-additional items present in the element
-if there are none, equals null
+elements of search results found in SERP
 
 #### Source
 
-main.ts:43998
+main.ts:44008
 
 ***
 
@@ -76,7 +75,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:43995
+main.ts:44006
 
 ***
 
@@ -89,7 +88,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Source
 
-main.ts:43967
+main.ts:43978
 
 ***
 
@@ -101,7 +100,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:43975
+main.ts:43986
 
 ***
 
@@ -113,7 +112,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:43973
+main.ts:43984
 
 ***
 
@@ -125,7 +124,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:43971
+main.ts:43982
 
 ***
 
@@ -137,7 +136,7 @@ total number of results in SERP
 
 #### Source
 
-main.ts:43993
+main.ts:44004
 
 ***
 
@@ -150,7 +149,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Source
 
-main.ts:43986
+main.ts:43997
 
 ***
 
@@ -162,4 +161,4 @@ type of element
 
 #### Source
 
-main.ts:43969
+main.ts:43980

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:218176
+main.ts:218326
 
 ## Properties
 
@@ -49,7 +49,7 @@ each identifier in the task array must be specified as a separate object
 
 #### Source
 
-main.ts:218172
+main.ts:218322
 
 ## Methods
 
@@ -67,7 +67,7 @@ main.ts:218172
 
 #### Source
 
-main.ts:218185
+main.ts:218335
 
 ***
 
@@ -85,7 +85,7 @@ main.ts:218185
 
 #### Source
 
-main.ts:218202
+main.ts:218352
 
 ***
 
@@ -103,4 +103,4 @@ main.ts:218202
 
 #### Source
 
-main.ts:218195
+main.ts:218345

@@ -22,7 +22,7 @@ possible item types: google_business_info
 
 #### Source
 
-main.ts:196820
+main.ts:196970
 
 ***
 
@@ -35,4 +35,4 @@ domain of the online menu system
 
 #### Source
 
-main.ts:196816
+main.ts:196966

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:113826
+main.ts:113976
 
 ## Properties
 
@@ -46,7 +46,7 @@ id of the competitor app
 
 #### Source
 
-main.ts:113805
+main.ts:113955
 
 ***
 
@@ -64,7 +64,7 @@ the value for a given application may differ when combined with different target
 
 #### Source
 
-main.ts:113809
+main.ts:113959
 
 ***
 
@@ -82,7 +82,7 @@ note: in this array ranking data is provided for the returned competitor’s app
 
 #### Source
 
-main.ts:113819
+main.ts:113969
 
 ***
 
@@ -99,7 +99,7 @@ full overview of ranking data relevant to all keywords that the provided app_id 
 
 #### Source
 
-main.ts:113822
+main.ts:113972
 
 ***
 
@@ -115,7 +115,7 @@ number of intersecting keywords
 
 #### Source
 
-main.ts:113815
+main.ts:113965
 
 ***
 
@@ -131,7 +131,7 @@ search engine type
 
 #### Source
 
-main.ts:113803
+main.ts:113953
 
 ***
 
@@ -149,7 +149,7 @@ the value for a given application may differ when combined with different target
 
 #### Source
 
-main.ts:113813
+main.ts:113963
 
 ## Methods
 
@@ -167,7 +167,7 @@ main.ts:113813
 
 #### Source
 
-main.ts:113835
+main.ts:113985
 
 ***
 
@@ -185,7 +185,7 @@ main.ts:113835
 
 #### Source
 
-main.ts:113858
+main.ts:114008
 
 ***
 
@@ -203,4 +203,4 @@ main.ts:113858
 
 #### Source
 
-main.ts:113851
+main.ts:114001

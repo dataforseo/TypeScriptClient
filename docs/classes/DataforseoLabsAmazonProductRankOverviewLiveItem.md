@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:103101
+main.ts:103093
 
 ## Properties
 
@@ -48,7 +48,7 @@ for more information, refer to this help center guide
 
 #### Source
 
-main.ts:103095
+main.ts:103087
 
 ***
 
@@ -64,7 +64,7 @@ average keyword position of the product
 
 #### Source
 
-main.ts:103097
+main.ts:103089
 
 ***
 
@@ -80,7 +80,7 @@ search engine type
 
 #### Source
 
-main.ts:103091
+main.ts:103083
 
 ## Methods
 
@@ -98,7 +98,7 @@ main.ts:103091
 
 #### Source
 
-main.ts:103110
+main.ts:103102
 
 ***
 
@@ -116,7 +116,7 @@ main.ts:103110
 
 #### Source
 
-main.ts:103129
+main.ts:103121
 
 ***
 
@@ -134,4 +134,4 @@ main.ts:103129
 
 #### Source
 
-main.ts:103122
+main.ts:103114

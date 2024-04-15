@@ -25,7 +25,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:95291
+main.ts:95177
 
 ***
 
@@ -39,7 +39,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:95295
+main.ts:95181
 
 ***
 
@@ -53,7 +53,7 @@ left, right
 
 #### Source
 
-main.ts:95281
+main.ts:95167
 
 ***
 
@@ -66,7 +66,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:95277
+main.ts:95163
 
 ***
 
@@ -80,7 +80,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:95274
+main.ts:95160
 
 ***
 
@@ -93,7 +93,7 @@ solution to the mathematical equation specified in the keyword field when settin
 
 #### Source
 
-main.ts:95288
+main.ts:95174
 
 ***
 
@@ -105,7 +105,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:95285
+main.ts:95171
 
 ***
 
@@ -117,4 +117,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:95283
+main.ts:95169

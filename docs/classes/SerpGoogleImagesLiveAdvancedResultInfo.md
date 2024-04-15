@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:47470
+main.ts:47480
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:47447
+main.ts:47457
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Source
 
-main.ts:47452
+main.ts:47462
 
 ***
 
@@ -85,7 +85,7 @@ carousel, images_search, related_searches
 
 #### Source
 
-main.ts:47460
+main.ts:47470
 
 ***
 
@@ -101,7 +101,7 @@ contains keywords and images related to the specified search term
 
 #### Source
 
-main.ts:47466
+main.ts:47476
 
 ***
 
@@ -117,7 +117,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:47464
+main.ts:47474
 
 ***
 
@@ -134,7 +134,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Source
 
-main.ts:47436
+main.ts:47446
 
 ***
 
@@ -150,7 +150,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:47444
+main.ts:47454
 
 ***
 
@@ -166,7 +166,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:47442
+main.ts:47452
 
 ***
 
@@ -182,7 +182,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:47440
+main.ts:47450
 
 ***
 
@@ -198,7 +198,7 @@ total number of results in SERP
 
 #### Source
 
-main.ts:47462
+main.ts:47472
 
 ***
 
@@ -215,7 +215,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Source
 
-main.ts:47455
+main.ts:47465
 
 ***
 
@@ -231,7 +231,7 @@ type of element
 
 #### Source
 
-main.ts:47438
+main.ts:47448
 
 ## Methods
 
@@ -249,7 +249,7 @@ main.ts:47438
 
 #### Source
 
-main.ts:47479
+main.ts:47489
 
 ***
 
@@ -267,7 +267,7 @@ main.ts:47479
 
 #### Source
 
-main.ts:47515
+main.ts:47525
 
 ***
 
@@ -285,4 +285,4 @@ main.ts:47515
 
 #### Source
 
-main.ts:47508
+main.ts:47518

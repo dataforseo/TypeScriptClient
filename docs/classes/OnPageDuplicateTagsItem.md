@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:152600
+main.ts:152750
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains the value of duplicated tag
 
 #### Source
 
-main.ts:152592
+main.ts:152742
 
 ***
 
@@ -62,7 +62,7 @@ pages with duplicate tags
 
 #### Source
 
-main.ts:152596
+main.ts:152746
 
 ***
 
@@ -78,7 +78,7 @@ total count of duplicate pages
 
 #### Source
 
-main.ts:152594
+main.ts:152744
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:152594
 
 #### Source
 
-main.ts:152609
+main.ts:152759
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:152609
 
 #### Source
 
-main.ts:152632
+main.ts:152782
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:152632
 
 #### Source
 
-main.ts:152625
+main.ts:152775

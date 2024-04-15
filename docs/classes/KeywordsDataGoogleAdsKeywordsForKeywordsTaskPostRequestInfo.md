@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:118264
+main.ts:118414
 
 ## Properties
 
@@ -64,7 +64,7 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 #### Source
 
-main.ts:71741
+main.ts:71753
 
 ***
 
@@ -90,7 +90,7 @@ example:
 
 #### Source
 
-main.ts:71749
+main.ts:71761
 
 ***
 
@@ -114,7 +114,7 @@ note that the API may return no data for such keywords due to Google Ads restr
 
 #### Source
 
-main.ts:71755
+main.ts:71767
 
 ***
 
@@ -144,7 +144,7 @@ to learn more about which symbols can be used, please refer to this article
 
 #### Source
 
-main.ts:71691
+main.ts:71703
 
 ***
 
@@ -168,7 +168,7 @@ en
 
 #### Source
 
-main.ts:71728
+main.ts:71740
 
 ***
 
@@ -192,7 +192,7 @@ English
 
 #### Source
 
-main.ts:71722
+main.ts:71734
 
 ***
 
@@ -218,7 +218,7 @@ example:
 
 #### Source
 
-main.ts:71707
+main.ts:71719
 
 ***
 
@@ -245,7 +245,7 @@ example:
 
 #### Source
 
-main.ts:71716
+main.ts:71728
 
 ***
 
@@ -271,7 +271,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:71699
+main.ts:71711
 
 ***
 
@@ -299,7 +299,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:71780
+main.ts:71792
 
 ***
 
@@ -327,7 +327,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:71770
+main.ts:71782
 
 ***
 
@@ -350,7 +350,7 @@ default value: false – results are returned for Google search sites
 
 #### Source
 
-main.ts:71733
+main.ts:71745
 
 ***
 
@@ -373,7 +373,7 @@ default value: relevance
 
 #### Source
 
-main.ts:71760
+main.ts:71772
 
 ***
 
@@ -397,7 +397,7 @@ you will find the specified tag value in the data array of the response
 
 #### Source
 
-main.ts:71786
+main.ts:71798
 
 ***
 
@@ -416,7 +416,7 @@ Note: if a website url is specified, you will still get keywords relevant for th
 
 #### Source
 
-main.ts:118260
+main.ts:118410
 
 ## Methods
 
@@ -438,7 +438,7 @@ main.ts:118260
 
 #### Source
 
-main.ts:118268
+main.ts:118418
 
 ***
 
@@ -460,7 +460,7 @@ main.ts:118268
 
 #### Source
 
-main.ts:118286
+main.ts:118436
 
 ***
 
@@ -482,4 +482,4 @@ main.ts:118286
 
 #### Source
 
-main.ts:118279
+main.ts:118429

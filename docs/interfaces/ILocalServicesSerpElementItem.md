@@ -24,7 +24,7 @@ source domain
 
 #### Source
 
-main.ts:34699
+main.ts:34711
 
 ***
 
@@ -37,7 +37,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:34702
+main.ts:34714
 
 ***
 
@@ -51,7 +51,7 @@ left, right
 
 #### Source
 
-main.ts:34691
+main.ts:34703
 
 ***
 
@@ -65,7 +65,7 @@ always equals 0 for desktop
 
 #### Source
 
-main.ts:34687
+main.ts:34699
 
 ***
 
@@ -80,7 +80,7 @@ always equals 0 for desktop
 
 #### Source
 
-main.ts:34683
+main.ts:34695
 
 ***
 
@@ -94,7 +94,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Source
 
-main.ts:34706
+main.ts:34718
 
 ***
 
@@ -106,7 +106,7 @@ title of the row
 
 #### Source
 
-main.ts:34695
+main.ts:34707
 
 ***
 
@@ -118,7 +118,7 @@ source URL
 
 #### Source
 
-main.ts:34697
+main.ts:34709
 
 ***
 
@@ -130,4 +130,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:34693
+main.ts:34705

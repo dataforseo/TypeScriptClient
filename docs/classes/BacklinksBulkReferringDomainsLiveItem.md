@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:145874
+main.ts:146024
 
 ## Properties
 
@@ -47,7 +47,7 @@ note that we calculate main domains (root domains, like example.com) and their s
 
 #### Source
 
-main.ts:145863
+main.ts:146013
 
 ***
 
@@ -63,7 +63,7 @@ number of domains pointing at least one nofollow link to the target
 
 #### Source
 
-main.ts:145865
+main.ts:146015
 
 ***
 
@@ -80,7 +80,7 @@ the number of primary (root) domains referring to your target
 
 #### Source
 
-main.ts:145868
+main.ts:146018
 
 ***
 
@@ -96,7 +96,7 @@ number of main domains pointing at least one nofollow link to the target
 
 #### Source
 
-main.ts:145870
+main.ts:146020
 
 ***
 
@@ -112,7 +112,7 @@ domain, subdomain or webpage from a POST array
 
 #### Source
 
-main.ts:145860
+main.ts:146010
 
 ## Methods
 
@@ -130,7 +130,7 @@ main.ts:145860
 
 #### Source
 
-main.ts:145883
+main.ts:146033
 
 ***
 
@@ -148,7 +148,7 @@ main.ts:145883
 
 #### Source
 
-main.ts:145904
+main.ts:146054
 
 ***
 
@@ -166,4 +166,4 @@ main.ts:145904
 
 #### Source
 
-main.ts:145897
+main.ts:146047

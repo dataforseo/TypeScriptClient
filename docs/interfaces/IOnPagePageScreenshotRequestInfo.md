@@ -23,7 +23,7 @@ note: if you do not specify this parameter, some websites may deny access; in th
 
 #### Source
 
-main.ts:157034
+main.ts:157184
 
 ***
 
@@ -51,7 +51,7 @@ browser_screen_scale_factor: 2
 
 #### Source
 
-main.ts:157059
+main.ts:157209
 
 ***
 
@@ -68,7 +68,7 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:157073
+main.ts:157223
 
 ***
 
@@ -85,7 +85,7 @@ maximum value: 3
 
 #### Source
 
-main.ts:157080
+main.ts:157230
 
 ***
 
@@ -102,7 +102,7 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:157066
+main.ts:157216
 
 ***
 
@@ -126,7 +126,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:157111
+main.ts:157261
 
 ***
 
@@ -143,7 +143,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 #### Source
 
-main.ts:157041
+main.ts:157191
 
 ***
 
@@ -159,7 +159,7 @@ false
 
 #### Source
 
-main.ts:157091
+main.ts:157241
 
 ***
 
@@ -175,7 +175,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:157097
+main.ts:157247
 
 ***
 
@@ -190,7 +190,7 @@ default value: true
 
 #### Source
 
-main.ts:157085
+main.ts:157235
 
 ***
 
@@ -206,7 +206,7 @@ possible values: us, de
 
 #### Source
 
-main.ts:157117
+main.ts:157267
 
 ***
 
@@ -221,4 +221,4 @@ note: if the URL you indicate here returns a 404 status code or the indicated va
 
 #### Source
 
-main.ts:157029
+main.ts:157179

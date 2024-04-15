@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:155950
+main.ts:156100
 
 ## Properties
 
@@ -50,7 +50,7 @@ example:
 
 #### Source
 
-main.ts:155934
+main.ts:156084
 
 ***
 
@@ -70,7 +70,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:155946
+main.ts:156096
 
 ***
 
@@ -90,7 +90,7 @@ https://dataforseo.com/apis
 
 #### Source
 
-main.ts:155940
+main.ts:156090
 
 ## Methods
 
@@ -108,7 +108,7 @@ main.ts:155940
 
 #### Source
 
-main.ts:155959
+main.ts:156109
 
 ***
 
@@ -126,7 +126,7 @@ main.ts:155959
 
 #### Source
 
-main.ts:155978
+main.ts:156128
 
 ***
 
@@ -144,4 +144,4 @@ main.ts:155978
 
 #### Source
 
-main.ts:155971
+main.ts:156121

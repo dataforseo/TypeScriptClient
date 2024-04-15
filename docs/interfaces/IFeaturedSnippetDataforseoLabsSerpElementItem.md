@@ -24,7 +24,7 @@ backlinks information for the target website
 
 #### Source
 
-main.ts:95643
+main.ts:95529
 
 ***
 
@@ -36,7 +36,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:95620
+main.ts:95506
 
 ***
 
@@ -48,7 +48,7 @@ subdomain in SERP
 
 #### Source
 
-main.ts:95614
+main.ts:95500
 
 ***
 
@@ -62,7 +62,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:95638
+main.ts:95524
 
 ***
 
@@ -77,7 +77,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:95634
+main.ts:95520
 
 ***
 
@@ -89,7 +89,7 @@ the title of the featured snippets source page
 
 #### Source
 
-main.ts:95618
+main.ts:95504
 
 ***
 
@@ -101,7 +101,7 @@ primary domain name in SERP
 
 #### Source
 
-main.ts:95627
+main.ts:95513
 
 ***
 
@@ -115,7 +115,7 @@ left, right
 
 #### Source
 
-main.ts:95610
+main.ts:95496
 
 ***
 
@@ -128,7 +128,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:95606
+main.ts:95492
 
 ***
 
@@ -141,7 +141,7 @@ contains information about the ranking changes of the SERP element since the pre
 
 #### Source
 
-main.ts:95641
+main.ts:95527
 
 ***
 
@@ -154,7 +154,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:95603
+main.ts:95489
 
 ***
 
@@ -166,7 +166,7 @@ page and domain rank information
 
 #### Source
 
-main.ts:95645
+main.ts:95531
 
 ***
 
@@ -178,7 +178,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Source
 
-main.ts:95629
+main.ts:95515
 
 ***
 
@@ -190,7 +190,7 @@ search engine type
 
 #### Source
 
-main.ts:95600
+main.ts:95486
 
 ***
 
@@ -203,7 +203,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:95625
+main.ts:95511
 
 ***
 
@@ -215,7 +215,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:95616
+main.ts:95502
 
 ***
 
@@ -227,7 +227,7 @@ relevant URL in SERP
 
 #### Source
 
-main.ts:95622
+main.ts:95508
 
 ***
 
@@ -239,4 +239,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:95612
+main.ts:95498

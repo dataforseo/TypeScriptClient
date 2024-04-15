@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:210002
+main.ts:210152
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Source
 
-main.ts:210007
+main.ts:210157
 
 ***
 
@@ -49,7 +49,7 @@ possible item types: yelp_search_organic, yelp_search_paid
 
 #### Source
 
-main.ts:210010
+main.ts:210160
 
 ***
 
@@ -62,7 +62,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Source
 
-main.ts:210018
+main.ts:210168
 
 ***
 
@@ -75,7 +75,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Source
 
-main.ts:210015
+main.ts:210165
 
 ***
 
@@ -88,7 +88,7 @@ this field will contain the alias parameter if it was specified in a POST array
 
 #### Source
 
-main.ts:209992
+main.ts:210142
 
 ***
 
@@ -100,7 +100,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:209999
+main.ts:210149
 
 ***
 
@@ -113,7 +113,7 @@ if location_code was not specified in a POST array, the value equals null
 
 #### Source
 
-main.ts:209997
+main.ts:210147
 
 ***
 
@@ -125,7 +125,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:209994
+main.ts:210144
 
 ***
 
@@ -137,4 +137,4 @@ the total number of results
 
 #### Source
 
-main.ts:210012
+main.ts:210162

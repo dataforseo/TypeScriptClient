@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:57717
+main.ts:57728
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Source
 
-main.ts:57722
+main.ts:57733
 
 ***
 
@@ -51,7 +51,7 @@ answer_box, carousel, events, featured_snippet, hotels_pack, images, jobs, local
 
 #### Source
 
-main.ts:57730
+main.ts:57741
 
 ***
 
@@ -59,11 +59,12 @@ main.ts:57730
 
 > **`optional`** **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
 
-items featured in the faq_box
+additional items present in the element
+if there are none, equals null
 
 #### Source
 
-main.ts:57736
+main.ts:57748
 
 ***
 
@@ -75,7 +76,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:57734
+main.ts:57745
 
 ***
 
@@ -88,7 +89,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Source
 
-main.ts:57706
+main.ts:57717
 
 ***
 
@@ -100,7 +101,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:57714
+main.ts:57725
 
 ***
 
@@ -112,7 +113,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:57712
+main.ts:57723
 
 ***
 
@@ -124,7 +125,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:57710
+main.ts:57721
 
 ***
 
@@ -136,7 +137,7 @@ total number of results in SERP
 
 #### Source
 
-main.ts:57732
+main.ts:57743
 
 ***
 
@@ -149,7 +150,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Source
 
-main.ts:57725
+main.ts:57736
 
 ***
 
@@ -161,4 +162,4 @@ type of element
 
 #### Source
 
-main.ts:57708
+main.ts:57719

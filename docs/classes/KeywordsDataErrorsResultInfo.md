@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:115096
+main.ts:115246
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Source
 
-main.ts:115072
+main.ts:115222
 
 ***
 
@@ -65,7 +65,7 @@ error code
 
 #### Source
 
-main.ts:115076
+main.ts:115226
 
 ***
 
@@ -82,7 +82,7 @@ error message (see full list) or URL that caused an error
 
 #### Source
 
-main.ts:115079
+main.ts:115229
 
 ***
 
@@ -98,7 +98,7 @@ corresponding API function
 
 #### Source
 
-main.ts:115074
+main.ts:115224
 
 ***
 
@@ -114,7 +114,7 @@ HTTP status code
 
 #### Source
 
-main.ts:115086
+main.ts:115236
 
 ***
 
@@ -130,7 +130,7 @@ HTTP method
 
 #### Source
 
-main.ts:115084
+main.ts:115234
 
 ***
 
@@ -147,7 +147,7 @@ server response
 
 #### Source
 
-main.ts:115092
+main.ts:115242
 
 ***
 
@@ -164,7 +164,7 @@ for tasks set with a pingback/postback, this field will show the time it took yo
 
 #### Source
 
-main.ts:115089
+main.ts:115239
 
 ***
 
@@ -181,7 +181,7 @@ URL you used for making an API call or pingback/postback URL
 
 #### Source
 
-main.ts:115082
+main.ts:115232
 
 ***
 
@@ -197,7 +197,7 @@ id of the task
 
 #### Source
 
-main.ts:115067
+main.ts:115217
 
 ## Methods
 
@@ -215,7 +215,7 @@ main.ts:115067
 
 #### Source
 
-main.ts:115105
+main.ts:115255
 
 ***
 
@@ -233,7 +233,7 @@ main.ts:115105
 
 #### Source
 
-main.ts:115131
+main.ts:115281
 
 ***
 
@@ -251,4 +251,4 @@ main.ts:115131
 
 #### Source
 
-main.ts:115124
+main.ts:115274

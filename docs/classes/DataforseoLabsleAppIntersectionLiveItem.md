@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:112267
+main.ts:112417
 
 ## Properties
 
@@ -52,13 +52,13 @@ depending on the number of specified app IDs, it can contain from 1 to 20 arrays
 
 #### Source
 
-main.ts:112263
+main.ts:112413
 
 ***
 
 ### keyword\_data?
 
-> **`optional`** **keyword\_data**: [`KeywordData`](KeywordData.md)
+> **`optional`** **keyword\_data**: [`KeywordDataKeywordDataInfo`](KeywordDataKeywordDataInfo.md)
 
 keyword data for the returned keyword
 
@@ -68,7 +68,7 @@ keyword data for the returned keyword
 
 #### Source
 
-main.ts:112259
+main.ts:112409
 
 ***
 
@@ -84,7 +84,7 @@ search engine type
 
 #### Source
 
-main.ts:112257
+main.ts:112407
 
 ## Methods
 
@@ -102,7 +102,7 @@ main.ts:112257
 
 #### Source
 
-main.ts:112276
+main.ts:112426
 
 ***
 
@@ -120,7 +120,7 @@ main.ts:112276
 
 #### Source
 
-main.ts:112301
+main.ts:112451
 
 ***
 
@@ -138,4 +138,4 @@ main.ts:112301
 
 #### Source
 
-main.ts:112294
+main.ts:112444

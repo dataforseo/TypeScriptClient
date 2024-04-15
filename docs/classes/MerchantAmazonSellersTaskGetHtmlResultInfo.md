@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:180114
+main.ts:180264
 
 ## Properties
 
@@ -46,7 +46,7 @@ ASIN received in a POST array
 
 #### Source
 
-main.ts:180093
+main.ts:180243
 
 ***
 
@@ -65,7 +65,7 @@ example:
 
 #### Source
 
-main.ts:180106
+main.ts:180256
 
 ***
 
@@ -81,7 +81,7 @@ elements of search results found on Amazon
 
 #### Source
 
-main.ts:180110
+main.ts:180260
 
 ***
 
@@ -97,7 +97,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:180108
+main.ts:180258
 
 ***
 
@@ -113,7 +113,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:180101
+main.ts:180251
 
 ***
 
@@ -129,7 +129,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:180099
+main.ts:180249
 
 ***
 
@@ -145,7 +145,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:180097
+main.ts:180247
 
 ***
 
@@ -161,7 +161,7 @@ type of element
 
 #### Source
 
-main.ts:180095
+main.ts:180245
 
 ## Methods
 
@@ -179,7 +179,7 @@ main.ts:180095
 
 #### Source
 
-main.ts:180123
+main.ts:180273
 
 ***
 
@@ -197,7 +197,7 @@ main.ts:180123
 
 #### Source
 
-main.ts:180151
+main.ts:180301
 
 ***
 
@@ -215,4 +215,4 @@ main.ts:180151
 
 #### Source
 
-main.ts:180144
+main.ts:180294

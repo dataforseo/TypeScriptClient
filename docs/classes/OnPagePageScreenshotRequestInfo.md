@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:156965
+main.ts:157115
 
 ## Properties
 
@@ -49,7 +49,7 @@ note: if you do not specify this parameter, some websites may deny access; in th
 
 #### Source
 
-main.ts:156878
+main.ts:157028
 
 ***
 
@@ -81,7 +81,7 @@ browser_screen_scale_factor: 2
 
 #### Source
 
-main.ts:156903
+main.ts:157053
 
 ***
 
@@ -102,7 +102,7 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:156917
+main.ts:157067
 
 ***
 
@@ -123,7 +123,7 @@ maximum value: 3
 
 #### Source
 
-main.ts:156924
+main.ts:157074
 
 ***
 
@@ -144,7 +144,7 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:156910
+main.ts:157060
 
 ***
 
@@ -172,7 +172,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:156955
+main.ts:157105
 
 ***
 
@@ -193,7 +193,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 #### Source
 
-main.ts:156885
+main.ts:157035
 
 ***
 
@@ -213,7 +213,7 @@ false
 
 #### Source
 
-main.ts:156935
+main.ts:157085
 
 ***
 
@@ -233,7 +233,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:156941
+main.ts:157091
 
 ***
 
@@ -252,7 +252,7 @@ default value: true
 
 #### Source
 
-main.ts:156929
+main.ts:157079
 
 ***
 
@@ -272,7 +272,7 @@ possible values: us, de
 
 #### Source
 
-main.ts:156961
+main.ts:157111
 
 ***
 
@@ -291,7 +291,7 @@ note: if the URL you indicate here returns a 404 status code or the indicated va
 
 #### Source
 
-main.ts:156873
+main.ts:157023
 
 ## Methods
 
@@ -309,7 +309,7 @@ main.ts:156873
 
 #### Source
 
-main.ts:156974
+main.ts:157124
 
 ***
 
@@ -327,7 +327,7 @@ main.ts:156974
 
 #### Source
 
-main.ts:157002
+main.ts:157152
 
 ***
 
@@ -345,4 +345,4 @@ main.ts:157002
 
 #### Source
 
-main.ts:156995
+main.ts:157145

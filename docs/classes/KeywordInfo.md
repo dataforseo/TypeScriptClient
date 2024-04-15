@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:81285
+main.ts:81297
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can download the full list of possible categories
 
 #### Source
 
-main.ts:81278
+main.ts:81290
 
 ***
 
@@ -64,7 +64,7 @@ represents the relative amount of competition associated with the given keyword.
 
 #### Source
 
-main.ts:81255
+main.ts:81267
 
 ***
 
@@ -84,7 +84,7 @@ learn more about the metric in this help center article
 
 #### Source
 
-main.ts:81261
+main.ts:81273
 
 ***
 
@@ -101,7 +101,7 @@ represents the average cost per click (USD) historically paid for the keyword
 
 #### Source
 
-main.ts:81264
+main.ts:81276
 
 ***
 
@@ -119,7 +119,7 @@ the value may differ depending on the location specified in a POST request
 
 #### Source
 
-main.ts:81275
+main.ts:81287
 
 ***
 
@@ -138,7 +138,7 @@ example:
 
 #### Source
 
-main.ts:81252
+main.ts:81264
 
 ***
 
@@ -156,7 +156,7 @@ the value may differ depending on the location specified in a POST request
 
 #### Source
 
-main.ts:81271
+main.ts:81283
 
 ***
 
@@ -173,7 +173,7 @@ represents the (approximate) number of searches on this keyword idea (as availab
 
 #### Source
 
-main.ts:81281
+main.ts:81293
 
 ***
 
@@ -189,7 +189,7 @@ search engine type
 
 #### Source
 
-main.ts:81247
+main.ts:81259
 
 ***
 
@@ -206,7 +206,7 @@ represents the (approximate) number of searches for the given keyword idea on go
 
 #### Source
 
-main.ts:81267
+main.ts:81279
 
 ## Methods
 
@@ -224,7 +224,7 @@ main.ts:81267
 
 #### Source
 
-main.ts:81294
+main.ts:81306
 
 ***
 
@@ -242,7 +242,7 @@ main.ts:81294
 
 #### Source
 
-main.ts:81328
+main.ts:81340
 
 ***
 
@@ -260,4 +260,4 @@ main.ts:81328
 
 #### Source
 
-main.ts:81321
+main.ts:81333

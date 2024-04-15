@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:149129
+main.ts:149279
 
 ## Properties
 
@@ -48,7 +48,7 @@ you can find the full list of IPs used by our crawler in the Overview section
 
 #### Source
 
-main.ts:149111
+main.ts:149261
 
 ***
 
@@ -65,7 +65,7 @@ possible values: in_progress, finished
 
 #### Source
 
-main.ts:149105
+main.ts:149255
 
 ***
 
@@ -81,7 +81,7 @@ details of the crawling session
 
 #### Source
 
-main.ts:149107
+main.ts:149257
 
 ***
 
@@ -103,7 +103,7 @@ unexpected_exception – an internal error was encountered while crawling the ta
 
 #### Source
 
-main.ts:149119
+main.ts:149269
 
 ***
 
@@ -120,7 +120,7 @@ on-page information about the target domain and crawling process
 
 #### Source
 
-main.ts:149122
+main.ts:149272
 
 ***
 
@@ -137,7 +137,7 @@ metrics information on the target website pages
 
 #### Source
 
-main.ts:149125
+main.ts:149275
 
 ## Methods
 
@@ -155,7 +155,7 @@ main.ts:149125
 
 #### Source
 
-main.ts:149138
+main.ts:149288
 
 ***
 
@@ -173,7 +173,7 @@ main.ts:149138
 
 #### Source
 
-main.ts:149160
+main.ts:149310
 
 ***
 
@@ -191,4 +191,4 @@ main.ts:149160
 
 #### Source
 
-main.ts:149153
+main.ts:149303

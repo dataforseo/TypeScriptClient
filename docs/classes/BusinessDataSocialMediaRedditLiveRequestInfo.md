@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:211618
+main.ts:211768
 
 ## Properties
 
@@ -50,7 +50,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:211614
+main.ts:211764
 
 ***
 
@@ -71,7 +71,7 @@ Note: you can specify 10 targets maximum. You will be charged per earch URL you 
 
 #### Source
 
-main.ts:211608
+main.ts:211758
 
 ## Methods
 
@@ -89,7 +89,7 @@ main.ts:211608
 
 #### Source
 
-main.ts:211627
+main.ts:211777
 
 ***
 
@@ -107,7 +107,7 @@ main.ts:211627
 
 #### Source
 
-main.ts:211649
+main.ts:211799
 
 ***
 
@@ -125,4 +125,4 @@ main.ts:211649
 
 #### Source
 
-main.ts:211642
+main.ts:211792

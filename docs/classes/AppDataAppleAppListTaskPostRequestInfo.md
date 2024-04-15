@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:190424
+main.ts:190574
 
 ## Properties
 
@@ -51,7 +51,7 @@ you can review the full list of available categories here or by making a separat
 
 #### Source
 
-main.ts:190388
+main.ts:190538
 
 ***
 
@@ -71,7 +71,7 @@ top_free_ios, top_paid_ios, top_grossing_ios, new_ios, new_free_ios, new_paid_io
 
 #### Source
 
-main.ts:190335
+main.ts:190485
 
 ***
 
@@ -95,7 +95,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:190381
+main.ts:190531
 
 ***
 
@@ -116,7 +116,7 @@ en
 
 #### Source
 
-main.ts:190363
+main.ts:190513
 
 ***
 
@@ -137,7 +137,7 @@ English
 
 #### Source
 
-main.ts:190356
+main.ts:190506
 
 ***
 
@@ -158,7 +158,7 @@ example:
 
 #### Source
 
-main.ts:190349
+main.ts:190499
 
 ***
 
@@ -179,7 +179,7 @@ West Los Angeles,California,United States
 
 #### Source
 
-main.ts:190342
+main.ts:190492
 
 ***
 
@@ -203,7 +203,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:190420
+main.ts:190570
 
 ***
 
@@ -223,7 +223,7 @@ advanced
 
 #### Source
 
-main.ts:190410
+main.ts:190560
 
 ***
 
@@ -247,7 +247,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:190404
+main.ts:190554
 
 ***
 
@@ -269,7 +269,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:190371
+main.ts:190521
 
 ***
 
@@ -289,7 +289,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:190394
+main.ts:190544
 
 ## Methods
 
@@ -307,7 +307,7 @@ main.ts:190394
 
 #### Source
 
-main.ts:190433
+main.ts:190583
 
 ***
 
@@ -325,7 +325,7 @@ main.ts:190433
 
 #### Source
 
-main.ts:190461
+main.ts:190611
 
 ***
 
@@ -343,4 +343,4 @@ main.ts:190461
 
 #### Source
 
-main.ts:190454
+main.ts:190604

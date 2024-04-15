@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:92013
+main.ts:91899
 
 ## Properties
 
@@ -50,7 +50,7 @@ ranking data relevant to subdomain
 
 #### Source
 
-main.ts:92009
+main.ts:91895
 
 ***
 
@@ -66,7 +66,7 @@ search engine type
 
 #### Source
 
-main.ts:92005
+main.ts:91891
 
 ***
 
@@ -82,7 +82,7 @@ returned subdomain
 
 #### Source
 
-main.ts:92007
+main.ts:91893
 
 ## Methods
 
@@ -100,7 +100,7 @@ main.ts:92007
 
 #### Source
 
-main.ts:92022
+main.ts:91908
 
 ***
 
@@ -118,7 +118,7 @@ main.ts:92022
 
 #### Source
 
-main.ts:92047
+main.ts:91933
 
 ***
 
@@ -136,4 +136,4 @@ main.ts:92047
 
 #### Source
 
-main.ts:92040
+main.ts:91926

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:158541
+main.ts:158691
 
 ## Properties
 
@@ -49,7 +49,7 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 #### Source
 
-main.ts:158479
+main.ts:158629
 
 ***
 
@@ -80,7 +80,7 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 #### Source
 
-main.ts:158451
+main.ts:158601
 
 ***
 
@@ -100,7 +100,7 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:158463
+main.ts:158613
 
 ***
 
@@ -120,7 +120,7 @@ maximum value: 3
 
 #### Source
 
-main.ts:158469
+main.ts:158619
 
 ***
 
@@ -140,7 +140,7 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:158457
+main.ts:158607
 
 ***
 
@@ -159,7 +159,7 @@ default value: false
 
 #### Source
 
-main.ts:158532
+main.ts:158682
 
 ***
 
@@ -182,7 +182,7 @@ Note: only integer threshold values can be modified;
 
 #### Source
 
-main.ts:158537
+main.ts:158687
 
 ***
 
@@ -207,7 +207,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:158522
+main.ts:158672
 
 ***
 
@@ -228,7 +228,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 #### Source
 
-main.ts:158434
+main.ts:158584
 
 ***
 
@@ -248,7 +248,7 @@ false
 
 #### Source
 
-main.ts:158500
+main.ts:158650
 
 ***
 
@@ -271,7 +271,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:158494
+main.ts:158644
 
 ***
 
@@ -291,7 +291,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:158485
+main.ts:158635
 
 ***
 
@@ -311,7 +311,7 @@ falseif you use this field, enable_javascript must be set to true;
 
 #### Source
 
-main.ts:158511
+main.ts:158661
 
 ***
 
@@ -330,7 +330,7 @@ default value: false
 
 #### Source
 
-main.ts:158505
+main.ts:158655
 
 ***
 
@@ -349,7 +349,7 @@ default value: false
 
 #### Source
 
-main.ts:158474
+main.ts:158624
 
 ***
 
@@ -370,7 +370,7 @@ to prevent this error from occuring, avoid setting tasks with the same domain if
 
 #### Source
 
-main.ts:158427
+main.ts:158577
 
 ***
 
@@ -389,7 +389,7 @@ default value: false
 
 #### Source
 
-main.ts:158527
+main.ts:158677
 
 ## Methods
 
@@ -407,7 +407,7 @@ main.ts:158527
 
 #### Source
 
-main.ts:158550
+main.ts:158700
 
 ***
 
@@ -425,7 +425,7 @@ main.ts:158550
 
 #### Source
 
-main.ts:158589
+main.ts:158739
 
 ***
 
@@ -443,4 +443,4 @@ main.ts:158589
 
 #### Source
 
-main.ts:158582
+main.ts:158732

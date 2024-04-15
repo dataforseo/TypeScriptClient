@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:103041
+main.ts:103033
 
 ## Properties
 
@@ -46,7 +46,7 @@ ranking data from Amazon paid SERP
 
 #### Source
 
-main.ts:103037
+main.ts:103029
 
 ***
 
@@ -62,7 +62,7 @@ ranking data from Amazon organic SERP
 
 #### Source
 
-main.ts:103035
+main.ts:103027
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:103035
 
 #### Source
 
-main.ts:103050
+main.ts:103042
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:103050
 
 #### Source
 
-main.ts:103068
+main.ts:103060
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:103068
 
 #### Source
 
-main.ts:103061
+main.ts:103053

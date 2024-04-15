@@ -20,7 +20,7 @@ expanded element
 
 #### Source
 
-main.ts:34960
+main.ts:34972
 
 ***
 
@@ -32,7 +32,7 @@ title of a given link element
 
 #### Source
 
-main.ts:34958
+main.ts:34970
 
 ***
 
@@ -44,4 +44,4 @@ type of element
 
 #### Source
 
-main.ts:34956
+main.ts:34968

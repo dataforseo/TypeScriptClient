@@ -20,19 +20,19 @@ URLs you specified in a POST array that will be excluded from the results
 
 #### Source
 
-main.ts:99706
+main.ts:99586
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`DataforseoLabsPageIntersectionLiveItem`](../classes/DataforseoLabsPageIntersectionLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsGooglePageIntersectionLiveItem`](../classes/DataforseoLabsGooglePageIntersectionLiveItem.md)[]
 
 contains keywords, relevant SERP elements and related data
 
 #### Source
 
-main.ts:99716
+main.ts:99596
 
 ***
 
@@ -44,7 +44,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:99714
+main.ts:99594
 
 ***
 
@@ -56,7 +56,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:99710
+main.ts:99590
 
 ***
 
@@ -68,7 +68,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:99708
+main.ts:99588
 
 ***
 
@@ -84,7 +84,7 @@ URLs you specified a POST array
 
 #### Source
 
-main.ts:99704
+main.ts:99584
 
 ***
 
@@ -96,7 +96,7 @@ search engine type
 
 #### Source
 
-main.ts:99702
+main.ts:99582
 
 ***
 
@@ -108,4 +108,4 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:99712
+main.ts:99592

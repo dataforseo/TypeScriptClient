@@ -20,19 +20,19 @@ keyword search depth
 
 #### Source
 
-main.ts:108399
+main.ts:108549
 
 ***
 
 ### keyword\_data?
 
-> **`optional`** **keyword\_data**: [`KeywordData`](../classes/KeywordData.md)
+> **`optional`** **keyword\_data**: [`KeywordDataKeywordDataInfo`](../classes/KeywordDataKeywordDataInfo.md)
 
 keyword data for the returned keyword
 
 #### Source
 
-main.ts:108397
+main.ts:108547
 
 ***
 
@@ -45,7 +45,7 @@ represents the list of search queries which are related to the keyword returned 
 
 #### Source
 
-main.ts:108402
+main.ts:108552
 
 ***
 
@@ -57,4 +57,4 @@ search engine type
 
 #### Source
 
-main.ts:108395
+main.ts:108545

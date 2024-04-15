@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:90776
+main.ts:90662
 
 ## Properties
 
@@ -48,7 +48,7 @@ the value for a given domain may differ when combined with different target webs
 
 #### Source
 
-main.ts:90755
+main.ts:90641
 
 ***
 
@@ -70,7 +70,7 @@ note: in this array ranking and traffic data is provided for the returned compet
 
 #### Source
 
-main.ts:90772
+main.ts:90658
 
 ***
 
@@ -86,7 +86,7 @@ domain name
 
 #### Source
 
-main.ts:90751
+main.ts:90637
 
 ***
 
@@ -107,7 +107,7 @@ full overview of ranking and traffic data relevant to all keywords that the prov
 
 #### Source
 
-main.ts:90764
+main.ts:90650
 
 ***
 
@@ -123,7 +123,7 @@ number of intersecting keywords
 
 #### Source
 
-main.ts:90761
+main.ts:90647
 
 ***
 
@@ -145,7 +145,7 @@ note: in this array ranking and traffic data is provided for the target consider
 
 #### Source
 
-main.ts:90768
+main.ts:90654
 
 ***
 
@@ -161,7 +161,7 @@ search engine type
 
 #### Source
 
-main.ts:90749
+main.ts:90635
 
 ***
 
@@ -179,7 +179,7 @@ the value for a given domain may differ when combined with different target webs
 
 #### Source
 
-main.ts:90759
+main.ts:90645
 
 ## Methods
 
@@ -197,7 +197,7 @@ main.ts:90759
 
 #### Source
 
-main.ts:90785
+main.ts:90671
 
 ***
 
@@ -215,7 +215,7 @@ main.ts:90785
 
 #### Source
 
-main.ts:90827
+main.ts:90713
 
 ***
 
@@ -233,4 +233,4 @@ main.ts:90827
 
 #### Source
 
-main.ts:90820
+main.ts:90706

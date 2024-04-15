@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:134398
+main.ts:134548
 
 ## Properties
 
@@ -46,7 +46,7 @@ index volume data for the past 12 months
 
 #### Source
 
-main.ts:134394
+main.ts:134544
 
 ***
 
@@ -62,7 +62,7 @@ total number of backlinks our database contains for the moment of checking
 
 #### Source
 
-main.ts:134388
+main.ts:134538
 
 ***
 
@@ -78,7 +78,7 @@ total number of domains our database contains for the moment of checking
 
 #### Source
 
-main.ts:134392
+main.ts:134542
 
 ***
 
@@ -94,7 +94,7 @@ total number of pages our database contains for the moment of checking
 
 #### Source
 
-main.ts:134390
+main.ts:134540
 
 ## Methods
 
@@ -112,7 +112,7 @@ main.ts:134390
 
 #### Source
 
-main.ts:134407
+main.ts:134557
 
 ***
 
@@ -130,7 +130,7 @@ main.ts:134407
 
 #### Source
 
-main.ts:134431
+main.ts:134581
 
 ***
 
@@ -148,4 +148,4 @@ main.ts:134431
 
 #### Source
 
-main.ts:134424
+main.ts:134574

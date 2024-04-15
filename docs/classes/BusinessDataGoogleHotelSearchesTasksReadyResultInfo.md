@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:198677
+main.ts:198827
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Source
 
-main.ts:198669
+main.ts:198819
 
 ***
 
@@ -62,7 +62,7 @@ URL for collecting the results of the task
 
 #### Source
 
-main.ts:198673
+main.ts:198823
 
 ***
 
@@ -79,7 +79,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:198664
+main.ts:198814
 
 ***
 
@@ -96,7 +96,7 @@ can take the following values: google
 
 #### Source
 
-main.ts:198667
+main.ts:198817
 
 ***
 
@@ -112,7 +112,7 @@ user-defined task identifier
 
 #### Source
 
-main.ts:198671
+main.ts:198821
 
 ## Methods
 
@@ -130,7 +130,7 @@ main.ts:198671
 
 #### Source
 
-main.ts:198686
+main.ts:198836
 
 ***
 
@@ -148,7 +148,7 @@ main.ts:198686
 
 #### Source
 
-main.ts:198707
+main.ts:198857
 
 ***
 
@@ -166,4 +166,4 @@ main.ts:198707
 
 #### Source
 
-main.ts:198700
+main.ts:198850
