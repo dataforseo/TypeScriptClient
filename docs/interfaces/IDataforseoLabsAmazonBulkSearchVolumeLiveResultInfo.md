@@ -20,7 +20,7 @@ contains keyword search volume data data
 
 #### Source
 
-main.ts:101226
+main.ts:101362
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:101224
+main.ts:101360
 
 ***
 
@@ -45,7 +45,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:101220
+main.ts:101356
 
 ***
 
@@ -58,7 +58,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:101217
+main.ts:101353
 
 ***
 
@@ -70,7 +70,7 @@ search engine type
 
 #### Source
 
-main.ts:101214
+main.ts:101350
 
 ***
 
@@ -82,4 +82,4 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:101222
+main.ts:101358

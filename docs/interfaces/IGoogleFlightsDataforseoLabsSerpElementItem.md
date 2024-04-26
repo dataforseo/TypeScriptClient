@@ -24,7 +24,7 @@ elements of search results found in SERP
 
 #### Source
 
-main.ts:96799
+main.ts:96935
 
 ***
 
@@ -38,7 +38,7 @@ left, right
 
 #### Source
 
-main.ts:96791
+main.ts:96927
 
 ***
 
@@ -51,7 +51,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:96787
+main.ts:96923
 
 ***
 
@@ -64,7 +64,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:96784
+main.ts:96920
 
 ***
 
@@ -76,7 +76,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:96795
+main.ts:96931
 
 ***
 
@@ -88,7 +88,7 @@ relevant URL of the Ad element in SERP
 
 #### Source
 
-main.ts:96797
+main.ts:96933
 
 ***
 
@@ -100,4 +100,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:96793
+main.ts:96929

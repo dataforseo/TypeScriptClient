@@ -20,7 +20,7 @@ ranking and traffic data from organic search
 
 #### Source
 
-main.ts:78374
+main.ts:78502
 
 ***
 
@@ -32,4 +32,4 @@ ranking and traffic data from paid search
 
 #### Source
 
-main.ts:78376
+main.ts:78504

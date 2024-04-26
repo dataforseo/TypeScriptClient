@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:171538
+main.ts:172396
 
 ## Properties
 
@@ -55,7 +55,7 @@ example:
 
 #### Source
 
-main.ts:171502
+main.ts:172360
 
 ***
 
@@ -74,7 +74,7 @@ Note: if set to true, the cost of a task will be doubled
 
 #### Source
 
-main.ts:171495
+main.ts:172353
 
 ***
 
@@ -95,7 +95,7 @@ en
 
 #### Source
 
-main.ts:171483
+main.ts:172341
 
 ***
 
@@ -116,7 +116,7 @@ English
 
 #### Source
 
-main.ts:171476
+main.ts:172334
 
 ***
 
@@ -137,7 +137,7 @@ example:
 
 #### Source
 
-main.ts:171460
+main.ts:172318
 
 ***
 
@@ -160,7 +160,7 @@ example:
 
 #### Source
 
-main.ts:171469
+main.ts:172327
 
 ***
 
@@ -181,7 +181,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:171453
+main.ts:172311
 
 ***
 
@@ -205,7 +205,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:171534
+main.ts:172392
 
 ***
 
@@ -225,7 +225,7 @@ advanced, html
 
 #### Source
 
-main.ts:171524
+main.ts:172382
 
 ***
 
@@ -249,7 +249,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:171518
+main.ts:172376
 
 ***
 
@@ -271,7 +271,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:171446
+main.ts:172304
 
 ***
 
@@ -293,7 +293,7 @@ learn more about the parameter in this help center guide
 
 #### Source
 
-main.ts:171438
+main.ts:172296
 
 ***
 
@@ -314,7 +314,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Source
 
-main.ts:171490
+main.ts:172348
 
 ***
 
@@ -334,7 +334,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:171508
+main.ts:172366
 
 ## Methods
 
@@ -352,7 +352,7 @@ main.ts:171508
 
 #### Source
 
-main.ts:171547
+main.ts:172405
 
 ***
 
@@ -370,7 +370,7 @@ main.ts:171547
 
 #### Source
 
-main.ts:171583
+main.ts:172441
 
 ***
 
@@ -388,4 +388,4 @@ main.ts:171583
 
 #### Source
 
-main.ts:171576
+main.ts:172434

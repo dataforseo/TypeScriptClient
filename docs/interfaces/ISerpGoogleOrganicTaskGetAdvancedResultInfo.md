@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:36915
+main.ts:37043
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Source
 
-main.ts:36920
+main.ts:37048
 
 ***
 
@@ -51,7 +51,7 @@ answer_box, app, carousel, multi_carousel, featured_snippet, google_flights, goo
 
 #### Source
 
-main.ts:36928
+main.ts:37056
 
 ***
 
@@ -63,7 +63,7 @@ contains arrays of elements available in the list
 
 #### Source
 
-main.ts:36934
+main.ts:37062
 
 ***
 
@@ -75,7 +75,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:36932
+main.ts:37060
 
 ***
 
@@ -88,7 +88,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Source
 
-main.ts:36904
+main.ts:37032
 
 ***
 
@@ -100,7 +100,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:36912
+main.ts:37040
 
 ***
 
@@ -112,7 +112,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:36910
+main.ts:37038
 
 ***
 
@@ -124,7 +124,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:36908
+main.ts:37036
 
 ***
 
@@ -136,7 +136,7 @@ total number of results in SERP
 
 #### Source
 
-main.ts:36930
+main.ts:37058
 
 ***
 
@@ -149,7 +149,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Source
 
-main.ts:36923
+main.ts:37051
 
 ***
 
@@ -161,4 +161,4 @@ type of element
 
 #### Source
 
-main.ts:36906
+main.ts:37034

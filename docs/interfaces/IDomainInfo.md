@@ -22,7 +22,7 @@ in most cases, it is recommended that canonicalized pages respond with a 301 or 
 
 #### Source
 
-main.ts:149085
+main.ts:150029
 
 ***
 
@@ -39,7 +39,7 @@ other on-page check-ups related to the website
 
 #### Source
 
-main.ts:149075
+main.ts:150019
 
 ***
 
@@ -55,7 +55,7 @@ if our crawler was unable to identify the cms, the value would be null
 
 #### Source
 
-main.ts:149038
+main.ts:149982
 
 ***
 
@@ -72,7 +72,7 @@ if "crawl_progress" is in_progress, the value will be null
 
 #### Source
 
-main.ts:149058
+main.ts:150002
 
 ***
 
@@ -88,7 +88,7 @@ example:
 
 #### Source
 
-main.ts:149051
+main.ts:149995
 
 ***
 
@@ -102,7 +102,7 @@ in most cases, it is recommended that directories respond with a 403 or 401 stat
 
 #### Source
 
-main.ts:149089
+main.ts:150033
 
 ***
 
@@ -123,7 +123,7 @@ unknown – the reason is unknown
 
 #### Source
 
-main.ts:149069
+main.ts:150013
 
 ***
 
@@ -135,7 +135,7 @@ domain ip address
 
 #### Source
 
-main.ts:149040
+main.ts:149984
 
 ***
 
@@ -147,7 +147,7 @@ root domain name
 
 #### Source
 
-main.ts:149095
+main.ts:150039
 
 ***
 
@@ -159,7 +159,7 @@ domain name
 
 #### Source
 
-main.ts:149032
+main.ts:149976
 
 ***
 
@@ -172,7 +172,7 @@ in most cases, it is recommended a server returns a 404 response code
 
 #### Source
 
-main.ts:149081
+main.ts:150025
 
 ***
 
@@ -187,7 +187,7 @@ the information is taken from the first page which response code is 200
 
 #### Source
 
-main.ts:149045
+main.ts:149989
 
 ***
 
@@ -200,7 +200,7 @@ information about the Secure Sockets Layer protocol detected on a website
 
 #### Source
 
-main.ts:149072
+main.ts:150016
 
 ***
 
@@ -213,7 +213,7 @@ the total number of crawled pages
 
 #### Source
 
-main.ts:149078
+main.ts:150022
 
 ***
 
@@ -227,4 +227,4 @@ in most cases, it is recommended that redirect returns a 301 status code
 
 #### Source
 
-main.ts:149093
+main.ts:150037

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:112417
+main.ts:112553
 
 ## Properties
 
@@ -52,7 +52,7 @@ depending on the number of specified app IDs, it can contain from 1 to 20 arrays
 
 #### Source
 
-main.ts:112413
+main.ts:112549
 
 ***
 
@@ -68,7 +68,7 @@ keyword data for the returned keyword
 
 #### Source
 
-main.ts:112409
+main.ts:112545
 
 ***
 
@@ -84,7 +84,7 @@ search engine type
 
 #### Source
 
-main.ts:112407
+main.ts:112543
 
 ## Methods
 
@@ -102,7 +102,7 @@ main.ts:112407
 
 #### Source
 
-main.ts:112426
+main.ts:112562
 
 ***
 
@@ -120,7 +120,7 @@ main.ts:112426
 
 #### Source
 
-main.ts:112451
+main.ts:112587
 
 ***
 
@@ -138,4 +138,4 @@ main.ts:112451
 
 #### Source
 
-main.ts:112444
+main.ts:112580

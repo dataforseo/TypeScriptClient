@@ -34,7 +34,7 @@
 
 #### Source
 
-main.ts:71802
+main.ts:71930
 
 ## Properties
 
@@ -56,7 +56,7 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 #### Source
 
-main.ts:71753
+main.ts:71881
 
 ***
 
@@ -78,7 +78,7 @@ example:
 
 #### Source
 
-main.ts:71761
+main.ts:71889
 
 ***
 
@@ -98,7 +98,7 @@ note that the API may return no data for such keywords due to Google Ads restr
 
 #### Source
 
-main.ts:71767
+main.ts:71895
 
 ***
 
@@ -124,7 +124,7 @@ to learn more about which symbols can be used, please refer to this article
 
 #### Source
 
-main.ts:71703
+main.ts:71831
 
 ***
 
@@ -144,7 +144,7 @@ en
 
 #### Source
 
-main.ts:71740
+main.ts:71868
 
 ***
 
@@ -164,7 +164,7 @@ English
 
 #### Source
 
-main.ts:71734
+main.ts:71862
 
 ***
 
@@ -186,7 +186,7 @@ example:
 
 #### Source
 
-main.ts:71719
+main.ts:71847
 
 ***
 
@@ -209,7 +209,7 @@ example:
 
 #### Source
 
-main.ts:71728
+main.ts:71856
 
 ***
 
@@ -231,7 +231,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:71711
+main.ts:71839
 
 ***
 
@@ -255,7 +255,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:71792
+main.ts:71920
 
 ***
 
@@ -279,7 +279,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:71782
+main.ts:71910
 
 ***
 
@@ -298,7 +298,7 @@ default value: false – results are returned for Google search sites
 
 #### Source
 
-main.ts:71745
+main.ts:71873
 
 ***
 
@@ -317,7 +317,7 @@ default value: relevance
 
 #### Source
 
-main.ts:71772
+main.ts:71900
 
 ***
 
@@ -337,7 +337,7 @@ you will find the specified tag value in the data array of the response
 
 #### Source
 
-main.ts:71798
+main.ts:71926
 
 ## Methods
 
@@ -355,7 +355,7 @@ main.ts:71798
 
 #### Source
 
-main.ts:71811
+main.ts:71939
 
 ***
 
@@ -373,7 +373,7 @@ main.ts:71811
 
 #### Source
 
-main.ts:71845
+main.ts:71973
 
 ***
 
@@ -391,4 +391,4 @@ main.ts:71845
 
 #### Source
 
-main.ts:71838
+main.ts:71966

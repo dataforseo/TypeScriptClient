@@ -24,7 +24,7 @@ learn more about the metric in this help center article
 
 #### Source
 
-main.ts:119957
+main.ts:120093
 
 ***
 
@@ -41,7 +41,7 @@ learn more about the metric in this help center article
 
 #### Source
 
-main.ts:119964
+main.ts:120100
 
 ***
 
@@ -54,7 +54,7 @@ indicates the amount paid for each click on the ad displayed for a given keyword
 
 #### Source
 
-main.ts:119979
+main.ts:120115
 
 ***
 
@@ -68,7 +68,7 @@ the value may differ depending on the location specified in a POST request
 
 #### Source
 
-main.ts:119976
+main.ts:120112
 
 ***
 
@@ -80,7 +80,7 @@ keyword in a POST array
 
 #### Source
 
-main.ts:119940
+main.ts:120076
 
 ***
 
@@ -92,7 +92,7 @@ the annotations for the keyword
 
 #### Source
 
-main.ts:119985
+main.ts:120121
 
 ***
 
@@ -105,7 +105,7 @@ if there is no data, the value is null
 
 #### Source
 
-main.ts:119946
+main.ts:120082
 
 ***
 
@@ -118,7 +118,7 @@ if there is no data, the value is null
 
 #### Source
 
-main.ts:119943
+main.ts:120079
 
 ***
 
@@ -132,7 +132,7 @@ the value may differ depending on the location specified in a POST request
 
 #### Source
 
-main.ts:119972
+main.ts:120108
 
 ***
 
@@ -146,7 +146,7 @@ if there is no data, the value is null
 
 #### Source
 
-main.ts:119983
+main.ts:120119
 
 ***
 
@@ -161,7 +161,7 @@ if false, the results are returned for Google search sites only
 
 #### Source
 
-main.ts:119951
+main.ts:120087
 
 ***
 
@@ -175,4 +175,4 @@ if there is no data, the value is null
 
 #### Source
 
-main.ts:119968
+main.ts:120104

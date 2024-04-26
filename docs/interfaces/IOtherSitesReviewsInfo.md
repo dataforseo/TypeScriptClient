@@ -21,7 +21,7 @@ information about the rating enclosed in the review on a third-party site
 
 #### Source
 
-main.ts:201525
+main.ts:202385
 
 ***
 
@@ -34,7 +34,7 @@ text of the review
 
 #### Source
 
-main.ts:201522
+main.ts:202382
 
 ***
 
@@ -47,7 +47,7 @@ contains a name of the third-party site where review initially appeared
 
 #### Source
 
-main.ts:201516
+main.ts:202376
 
 ***
 
@@ -60,4 +60,4 @@ URL to the a third-party site where review initially appeared
 
 #### Source
 
-main.ts:201519
+main.ts:202379

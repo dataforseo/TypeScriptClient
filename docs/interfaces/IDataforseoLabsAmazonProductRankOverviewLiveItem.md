@@ -22,7 +22,7 @@ for more information, refer to this help center guide
 
 #### Source
 
-main.ts:103140
+main.ts:103276
 
 ***
 
@@ -34,7 +34,7 @@ average keyword position of the product
 
 #### Source
 
-main.ts:103142
+main.ts:103278
 
 ***
 
@@ -46,4 +46,4 @@ search engine type
 
 #### Source
 
-main.ts:103136
+main.ts:103272

@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:198497
+main.ts:199357
 
 ## Properties
 
@@ -59,7 +59,7 @@ example:
 
 #### Source
 
-main.ts:198410
+main.ts:199270
 
 ***
 
@@ -102,7 +102,7 @@ possible values:
 
 #### Source
 
-main.ts:198493
+main.ts:199353
 
 ***
 
@@ -124,7 +124,7 @@ Note: the value cannot precede the today’s date
 
 #### Source
 
-main.ts:198389
+main.ts:199249
 
 ***
 
@@ -147,7 +147,7 @@ the range between check_in and check_out values cannot exceed 30 days
 
 #### Source
 
-main.ts:198398
+main.ts:199258
 
 ***
 
@@ -171,7 +171,7 @@ set the following value if you want to include one 13-year-old child and one 8-y
 
 #### Source
 
-main.ts:198420
+main.ts:199280
 
 ***
 
@@ -190,7 +190,7 @@ example:
 
 #### Source
 
-main.ts:198403
+main.ts:199263
 
 ***
 
@@ -213,7 +213,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:198381
+main.ts:199241
 
 ***
 
@@ -232,7 +232,7 @@ default value: false
 
 #### Source
 
-main.ts:198459
+main.ts:199319
 
 ***
 
@@ -251,7 +251,7 @@ default value: false
 
 #### Source
 
-main.ts:198464
+main.ts:199324
 
 ***
 
@@ -285,7 +285,7 @@ learn more about the cid and place_id identifiers in this help center article
 
 #### Source
 
-main.ts:188713
+main.ts:189571
 
 ***
 
@@ -310,7 +310,7 @@ en
 
 #### Source
 
-main.ts:188758
+main.ts:189617
 
 ***
 
@@ -335,7 +335,7 @@ English
 
 #### Source
 
-main.ts:188751
+main.ts:189610
 
 ***
 
@@ -360,7 +360,7 @@ example:
 
 #### Source
 
-main.ts:188735
+main.ts:189593
 
 ***
 
@@ -373,7 +373,8 @@ required field if you don’t specify location_name or location_code
 if you use this field, you don’t need to specify location_name or location_code
 location_coordinate parameter should be specified in the “latitude,longitude,radius” format
 the maximum number of decimal digits for “latitude” and “longitude”: 7
-the minimum value for “radius”: 199.9
+the minimum value for “radius”: 199.9 (mm)
+the maximum value for “radius”: 199999 (mm)
 example:
 53.476225,-2.243572,200
 
@@ -387,7 +388,7 @@ example:
 
 #### Source
 
-main.ts:188744
+main.ts:189603
 
 ***
 
@@ -412,7 +413,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:188728
+main.ts:189586
 
 ***
 
@@ -432,7 +433,7 @@ example:
 
 #### Source
 
-main.ts:198454
+main.ts:199314
 
 ***
 
@@ -452,7 +453,7 @@ example:
 
 #### Source
 
-main.ts:198448
+main.ts:199308
 
 ***
 
@@ -472,7 +473,7 @@ example:
 
 #### Source
 
-main.ts:198432
+main.ts:199292
 
 ***
 
@@ -500,7 +501,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:188784
+main.ts:189643
 
 ***
 
@@ -528,7 +529,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:188774
+main.ts:189633
 
 ***
 
@@ -554,7 +555,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:188721
+main.ts:189579
 
 ***
 
@@ -578,7 +579,7 @@ default value: relevance
 
 #### Source
 
-main.ts:198442
+main.ts:199302
 
 ***
 
@@ -598,7 +599,7 @@ example:
 
 #### Source
 
-main.ts:198426
+main.ts:199286
 
 ***
 
@@ -622,7 +623,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:188764
+main.ts:189623
 
 ## Methods
 
@@ -644,7 +645,7 @@ main.ts:188764
 
 #### Source
 
-main.ts:198501
+main.ts:199361
 
 ***
 
@@ -666,7 +667,7 @@ main.ts:198501
 
 #### Source
 
-main.ts:198544
+main.ts:199404
 
 ***
 
@@ -688,4 +689,4 @@ main.ts:198544
 
 #### Source
 
-main.ts:198537
+main.ts:199397

@@ -27,7 +27,7 @@ any, none, image, sitemap, robots, script, stylesheet, redirect, html, text, oth
 
 #### Source
 
-main.ts:152381
+main.ts:153325
 
 ***
 
@@ -39,7 +39,7 @@ instructions for caching
 
 #### Source
 
-main.ts:152369
+main.ts:153313
 
 ***
 
@@ -56,7 +56,7 @@ contents of the array depend on the resource_type
 
 #### Source
 
-main.ts:152372
+main.ts:153316
 
 ***
 
@@ -68,7 +68,7 @@ type of encoding
 
 #### Source
 
-main.ts:152374
+main.ts:153318
 
 ***
 
@@ -81,7 +81,7 @@ indicates the size of the encoded resource measured in bytes
 
 #### Source
 
-main.ts:152357
+main.ts:153301
 
 ***
 
@@ -96,7 +96,7 @@ example:
 
 #### Source
 
-main.ts:152365
+main.ts:153309
 
 ***
 
@@ -108,7 +108,7 @@ resource fething time range
 
 #### Source
 
-main.ts:152367
+main.ts:153311
 
 ***
 
@@ -121,7 +121,7 @@ if there is no data, the value will be null
 
 #### Source
 
-main.ts:152386
+main.ts:153330
 
 ***
 
@@ -134,7 +134,7 @@ indicates the URL to redirect a page to
 
 #### Source
 
-main.ts:152349
+main.ts:153293
 
 ***
 
@@ -146,7 +146,7 @@ types of media used to display a resource
 
 #### Source
 
-main.ts:152376
+main.ts:153320
 
 ***
 
@@ -161,7 +161,7 @@ to obtain resource’s meta from a particular url, specify that URL when setting
 
 #### Source
 
-main.ts:152344
+main.ts:153288
 
 ***
 
@@ -173,7 +173,7 @@ resource errors and warnings
 
 #### Source
 
-main.ts:152388
+main.ts:153332
 
 ***
 
@@ -185,7 +185,7 @@ server version
 
 #### Source
 
-main.ts:152383
+main.ts:153327
 
 ***
 
@@ -198,7 +198,7 @@ indicates the size of a given resource measured in bytes
 
 #### Source
 
-main.ts:152354
+main.ts:153298
 
 ***
 
@@ -210,7 +210,7 @@ status code of the page where a given resource is located
 
 #### Source
 
-main.ts:152346
+main.ts:153290
 
 ***
 
@@ -223,7 +223,7 @@ indicates the compressed size of a given resource in bytes
 
 #### Source
 
-main.ts:152360
+main.ts:153304
 
 ***
 
@@ -235,4 +235,4 @@ resource URL
 
 #### Source
 
-main.ts:152351
+main.ts:153295

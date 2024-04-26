@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:178455
+main.ts:179313
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:178455
 
 #### Source
 
-main.ts:21275
+main.ts:21403
 
 ***
 
@@ -68,7 +68,7 @@ product brand name
 
 #### Source
 
-main.ts:178411
+main.ts:179269
 
 ***
 
@@ -84,7 +84,7 @@ contains related product categories
 
 #### Source
 
-main.ts:178440
+main.ts:179298
 
 ***
 
@@ -102,7 +102,7 @@ USD
 
 #### Source
 
-main.ts:178429
+main.ts:179287
 
 ***
 
@@ -118,7 +118,7 @@ ASIN of the product received in a POST array
 
 #### Source
 
-main.ts:178413
+main.ts:179271
 
 ***
 
@@ -134,7 +134,7 @@ contains description of the product
 
 #### Source
 
-main.ts:178448
+main.ts:179306
 
 ***
 
@@ -150,7 +150,7 @@ product specs and other details
 
 #### Source
 
-main.ts:178407
+main.ts:179265
 
 ***
 
@@ -166,7 +166,7 @@ the URL of the product image
 
 #### Source
 
-main.ts:178409
+main.ts:179267
 
 ***
 
@@ -183,7 +183,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 #### Source
 
-main.ts:178432
+main.ts:179290
 
 ***
 
@@ -200,7 +200,7 @@ if the value is true, the product can be ordered
 
 #### Source
 
-main.ts:178451
+main.ts:179309
 
 ***
 
@@ -216,7 +216,7 @@ indicates whether the newer model of the product is available
 
 #### Source
 
-main.ts:178436
+main.ts:179294
 
 ***
 
@@ -232,7 +232,7 @@ information about the newer model of the product
 
 #### Source
 
-main.ts:178438
+main.ts:179296
 
 ***
 
@@ -248,7 +248,7 @@ parent ASIN of the product
 
 #### Source
 
-main.ts:178415
+main.ts:179273
 
 ***
 
@@ -266,7 +266,7 @@ left, right
 
 #### Source
 
-main.ts:178401
+main.ts:179259
 
 ***
 
@@ -284,7 +284,7 @@ example:
 
 #### Source
 
-main.ts:178421
+main.ts:179279
 
 ***
 
@@ -302,7 +302,7 @@ example:
 
 #### Source
 
-main.ts:178425
+main.ts:179283
 
 ***
 
@@ -318,7 +318,7 @@ ASINs of all found product modifications
 
 #### Source
 
-main.ts:178417
+main.ts:179275
 
 ***
 
@@ -334,7 +334,7 @@ contains URLs for all images of the product displayed on the left side of the ma
 
 #### Source
 
-main.ts:178444
+main.ts:179302
 
 ***
 
@@ -350,7 +350,7 @@ contains related product information
 
 #### Source
 
-main.ts:178442
+main.ts:179300
 
 ***
 
@@ -366,7 +366,7 @@ contains URLs for all videos of the product displayed on the right side of the m
 
 #### Source
 
-main.ts:178446
+main.ts:179304
 
 ***
 
@@ -383,7 +383,7 @@ absolute position among all the elements in the response array
 
 #### Source
 
-main.ts:178397
+main.ts:179255
 
 ***
 
@@ -400,7 +400,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:178394
+main.ts:179252
 
 ***
 
@@ -416,7 +416,7 @@ product rating info
 
 #### Source
 
-main.ts:178434
+main.ts:179292
 
 ***
 
@@ -432,7 +432,7 @@ product title
 
 #### Source
 
-main.ts:178405
+main.ts:179263
 
 ***
 
@@ -448,7 +448,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:178403
+main.ts:179261
 
 ## Methods
 
@@ -470,7 +470,7 @@ main.ts:178403
 
 #### Source
 
-main.ts:178460
+main.ts:179318
 
 ***
 
@@ -492,7 +492,7 @@ main.ts:178460
 
 #### Source
 
-main.ts:178521
+main.ts:179379
 
 ***
 
@@ -514,4 +514,4 @@ main.ts:178521
 
 #### Source
 
-main.ts:178514
+main.ts:179372

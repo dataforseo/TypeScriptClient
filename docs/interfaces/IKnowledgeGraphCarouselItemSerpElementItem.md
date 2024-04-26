@@ -26,7 +26,7 @@ action:listen_artist
 
 #### Source
 
-main.ts:26828
+main.ts:26956
 
 ***
 
@@ -38,7 +38,7 @@ elements of search results found in SERP
 
 #### Source
 
-main.ts:26832
+main.ts:26960
 
 ***
 
@@ -50,7 +50,7 @@ link of the element
 
 #### Source
 
-main.ts:26830
+main.ts:26958
 
 ***
 
@@ -64,7 +64,7 @@ left, right
 
 #### Source
 
-main.ts:26820
+main.ts:26948
 
 ***
 
@@ -77,7 +77,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:26816
+main.ts:26944
 
 ***
 
@@ -91,7 +91,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:26813
+main.ts:26941
 
 ***
 
@@ -105,7 +105,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Source
 
-main.ts:26836
+main.ts:26964
 
 ***
 
@@ -117,7 +117,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:26824
+main.ts:26952
 
 ***
 
@@ -129,4 +129,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:26822
+main.ts:26950

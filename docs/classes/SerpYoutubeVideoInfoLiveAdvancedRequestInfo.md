@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:61482
+main.ts:61612
 
 ## Properties
 
@@ -48,7 +48,7 @@ only value: desktop
 
 #### Source
 
-main.ts:61467
+main.ts:61597
 
 ***
 
@@ -69,7 +69,7 @@ en
 
 #### Source
 
-main.ts:61463
+main.ts:61593
 
 ***
 
@@ -90,7 +90,7 @@ English
 
 #### Source
 
-main.ts:61456
+main.ts:61586
 
 ***
 
@@ -111,7 +111,7 @@ example:
 
 #### Source
 
-main.ts:61449
+main.ts:61579
 
 ***
 
@@ -132,7 +132,7 @@ United States
 
 #### Source
 
-main.ts:61442
+main.ts:61572
 
 ***
 
@@ -151,7 +151,7 @@ default value: windows
 
 #### Source
 
-main.ts:61472
+main.ts:61602
 
 ***
 
@@ -171,7 +171,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:61478
+main.ts:61608
 
 ***
 
@@ -191,7 +191,7 @@ vQXvyV0zIP4
 
 #### Source
 
-main.ts:61435
+main.ts:61565
 
 ## Methods
 
@@ -209,7 +209,7 @@ main.ts:61435
 
 #### Source
 
-main.ts:61491
+main.ts:61621
 
 ***
 
@@ -227,7 +227,7 @@ main.ts:61491
 
 #### Source
 
-main.ts:61515
+main.ts:61645
 
 ***
 
@@ -245,4 +245,4 @@ main.ts:61515
 
 #### Source
 
-main.ts:61508
+main.ts:61638

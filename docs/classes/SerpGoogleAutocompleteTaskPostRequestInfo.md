@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:50624
+main.ts:50754
 
 ## Properties
 
@@ -60,7 +60,7 @@ products-cc — used in google shopping search
 
 #### Source
 
-main.ts:50588
+main.ts:50718
 
 ***
 
@@ -85,7 +85,7 @@ which que|ry is s – "cursor_pointer": 9
 
 #### Source
 
-main.ts:50572
+main.ts:50702
 
 ***
 
@@ -106,7 +106,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Source
 
-main.ts:50526
+main.ts:50656
 
 ***
 
@@ -127,7 +127,7 @@ en
 
 #### Source
 
-main.ts:50561
+main.ts:50691
 
 ***
 
@@ -148,7 +148,7 @@ English
 
 #### Source
 
-main.ts:50554
+main.ts:50684
 
 ***
 
@@ -168,7 +168,7 @@ example:
 
 #### Source
 
-main.ts:50547
+main.ts:50677
 
 ***
 
@@ -189,7 +189,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:50541
+main.ts:50671
 
 ***
 
@@ -213,7 +213,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:50620
+main.ts:50750
 
 ***
 
@@ -233,7 +233,7 @@ advanced
 
 #### Source
 
-main.ts:50610
+main.ts:50740
 
 ***
 
@@ -257,7 +257,7 @@ i.e., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:50604
+main.ts:50734
 
 ***
 
@@ -279,7 +279,7 @@ The cost can be calculated on the Pricing page
 
 #### Source
 
-main.ts:50534
+main.ts:50664
 
 ***
 
@@ -299,7 +299,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:50594
+main.ts:50724
 
 ## Methods
 
@@ -317,7 +317,7 @@ main.ts:50594
 
 #### Source
 
-main.ts:50633
+main.ts:50763
 
 ***
 
@@ -335,7 +335,7 @@ main.ts:50633
 
 #### Source
 
-main.ts:50661
+main.ts:50791
 
 ***
 
@@ -353,4 +353,4 @@ main.ts:50661
 
 #### Source
 
-main.ts:50654
+main.ts:50784

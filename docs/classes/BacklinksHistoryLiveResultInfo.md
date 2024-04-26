@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:135914
+main.ts:136044
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Source
 
-main.ts:135899
+main.ts:136029
 
 ***
 
@@ -68,7 +68,7 @@ example:
 
 #### Source
 
-main.ts:135904
+main.ts:136034
 
 ***
 
@@ -86,7 +86,7 @@ the metrics are aggregated according to the backlinks the specified domain had o
 
 #### Source
 
-main.ts:135910
+main.ts:136040
 
 ***
 
@@ -102,7 +102,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:135906
+main.ts:136036
 
 ***
 
@@ -118,7 +118,7 @@ target from the POST array
 
 #### Source
 
-main.ts:135894
+main.ts:136024
 
 ## Methods
 
@@ -136,7 +136,7 @@ main.ts:135894
 
 #### Source
 
-main.ts:135923
+main.ts:136053
 
 ***
 
@@ -154,7 +154,7 @@ main.ts:135923
 
 #### Source
 
-main.ts:135948
+main.ts:136078
 
 ***
 
@@ -172,4 +172,4 @@ main.ts:135948
 
 #### Source
 
-main.ts:135941
+main.ts:136071

@@ -27,7 +27,7 @@ https://www.yelp.com/biz/vatos-urban-tacos-singapore?rl=en
 
 #### Source
 
-main.ts:210451
+main.ts:211311
 
 ***
 
@@ -44,7 +44,7 @@ maximum value: 4490
 
 #### Source
 
-main.ts:210501
+main.ts:211361
 
 ***
 
@@ -61,7 +61,7 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Source
 
-main.ts:210458
+main.ts:211318
 
 ***
 
@@ -78,7 +78,7 @@ en
 
 #### Source
 
-main.ts:210494
+main.ts:211354
 
 ***
 
@@ -95,7 +95,7 @@ English
 
 #### Source
 
-main.ts:210487
+main.ts:211347
 
 ***
 
@@ -112,7 +112,7 @@ example:
 
 #### Source
 
-main.ts:210480
+main.ts:211340
 
 ***
 
@@ -129,7 +129,7 @@ West Los Angeles,California,United States
 
 #### Source
 
-main.ts:210473
+main.ts:211333
 
 ***
 
@@ -149,7 +149,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:210538
+main.ts:211398
 
 ***
 
@@ -169,7 +169,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:210528
+main.ts:211388
 
 ***
 
@@ -187,7 +187,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:210466
+main.ts:211326
 
 ***
 
@@ -208,7 +208,7 @@ default value: relevant
 
 #### Source
 
-main.ts:210512
+main.ts:211372
 
 ***
 
@@ -224,4 +224,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:210518
+main.ts:211378

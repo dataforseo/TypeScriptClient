@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:81858
+main.ts:81986
 
 ## Properties
 
@@ -46,7 +46,7 @@ average number of backlinks
 
 #### Source
 
-main.ts:81835
+main.ts:81963
 
 ***
 
@@ -62,7 +62,7 @@ average number of dofollow links
 
 #### Source
 
-main.ts:81837
+main.ts:81965
 
 ***
 
@@ -81,7 +81,7 @@ example:
 
 #### Source
 
-main.ts:81854
+main.ts:81982
 
 ***
 
@@ -98,7 +98,7 @@ learn more about the metric and its calculation formula in this help center arti
 
 #### Source
 
-main.ts:81849
+main.ts:81977
 
 ***
 
@@ -115,7 +115,7 @@ learn more about the metric and its calculation formula in this help center arti
 
 #### Source
 
-main.ts:81846
+main.ts:81974
 
 ***
 
@@ -131,7 +131,7 @@ average number of referring domains
 
 #### Source
 
-main.ts:81841
+main.ts:81969
 
 ***
 
@@ -147,7 +147,7 @@ average number of referring main domains
 
 #### Source
 
-main.ts:81843
+main.ts:81971
 
 ***
 
@@ -163,7 +163,7 @@ average number of referring pages
 
 #### Source
 
-main.ts:81839
+main.ts:81967
 
 ***
 
@@ -179,7 +179,7 @@ search engine type
 
 #### Source
 
-main.ts:81833
+main.ts:81961
 
 ## Methods
 
@@ -197,7 +197,7 @@ main.ts:81833
 
 #### Source
 
-main.ts:81867
+main.ts:81995
 
 ***
 
@@ -215,7 +215,7 @@ main.ts:81867
 
 #### Source
 
-main.ts:81892
+main.ts:82020
 
 ***
 
@@ -233,4 +233,4 @@ main.ts:81892
 
 #### Source
 
-main.ts:81885
+main.ts:82013

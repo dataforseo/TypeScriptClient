@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:185371
+main.ts:186229
 
 ## Properties
 
@@ -46,7 +46,7 @@ ID of the app
 
 #### Source
 
-main.ts:185363
+main.ts:186221
 
 ***
 
@@ -62,7 +62,7 @@ title of the app
 
 #### Source
 
-main.ts:185365
+main.ts:186223
 
 ***
 
@@ -78,7 +78,7 @@ URL to the app page on Google Play
 
 #### Source
 
-main.ts:185367
+main.ts:186225
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:185367
 
 #### Source
 
-main.ts:185380
+main.ts:186238
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:185380
 
 #### Source
 
-main.ts:185399
+main.ts:186257
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:185399
 
 #### Source
 
-main.ts:185392
+main.ts:186250

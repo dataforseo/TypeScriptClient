@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:101157
+main.ts:101293
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains keyword search volume data data
 
 #### Source
 
-main.ts:101153
+main.ts:101289
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:101151
+main.ts:101287
 
 ***
 
@@ -79,7 +79,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:101147
+main.ts:101283
 
 ***
 
@@ -96,7 +96,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:101144
+main.ts:101280
 
 ***
 
@@ -112,7 +112,7 @@ search engine type
 
 #### Source
 
-main.ts:101141
+main.ts:101277
 
 ***
 
@@ -128,7 +128,7 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:101149
+main.ts:101285
 
 ## Methods
 
@@ -146,7 +146,7 @@ main.ts:101149
 
 #### Source
 
-main.ts:101166
+main.ts:101302
 
 ***
 
@@ -164,7 +164,7 @@ main.ts:101166
 
 #### Source
 
-main.ts:101192
+main.ts:101328
 
 ***
 
@@ -182,4 +182,4 @@ main.ts:101192
 
 #### Source
 
-main.ts:101185
+main.ts:101321

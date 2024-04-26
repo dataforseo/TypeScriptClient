@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:55180
+main.ts:55310
 
 ## Properties
 
@@ -50,7 +50,7 @@ L2cvMTFqbl85ZHN6MQ==
 
 #### Source
 
-main.ts:55149
+main.ts:55279
 
 ***
 
@@ -68,7 +68,7 @@ possible value: desktop
 
 #### Source
 
-main.ts:55165
+main.ts:55295
 
 ***
 
@@ -88,7 +88,7 @@ en
 
 #### Source
 
-main.ts:55161
+main.ts:55291
 
 ***
 
@@ -108,7 +108,7 @@ English
 
 #### Source
 
-main.ts:55155
+main.ts:55285
 
 ***
 
@@ -127,7 +127,7 @@ default value: windows
 
 #### Source
 
-main.ts:55170
+main.ts:55300
 
 ***
 
@@ -147,7 +147,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:55176
+main.ts:55306
 
 ## Methods
 
@@ -165,7 +165,7 @@ main.ts:55176
 
 #### Source
 
-main.ts:55189
+main.ts:55319
 
 ***
 
@@ -183,7 +183,7 @@ main.ts:55189
 
 #### Source
 
-main.ts:55211
+main.ts:55341
 
 ***
 
@@ -201,4 +201,4 @@ main.ts:55211
 
 #### Source
 
-main.ts:55204
+main.ts:55334

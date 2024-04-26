@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:21842
+main.ts:21970
 
 ## Properties
 
@@ -46,7 +46,7 @@ related keyword
 
 #### Source
 
-main.ts:21832
+main.ts:21960
 
 ***
 
@@ -62,7 +62,7 @@ keyword info for the returned keyword
 
 #### Source
 
-main.ts:21838
+main.ts:21966
 
 ***
 
@@ -78,7 +78,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:21836
+main.ts:21964
 
 ***
 
@@ -94,7 +94,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:21834
+main.ts:21962
 
 ***
 
@@ -110,7 +110,7 @@ search engine type
 
 #### Source
 
-main.ts:21830
+main.ts:21958
 
 ## Methods
 
@@ -128,7 +128,7 @@ main.ts:21830
 
 #### Source
 
-main.ts:21851
+main.ts:21979
 
 ***
 
@@ -146,7 +146,7 @@ main.ts:21851
 
 #### Source
 
-main.ts:21872
+main.ts:22000
 
 ***
 
@@ -164,4 +164,4 @@ main.ts:21872
 
 #### Source
 
-main.ts:21865
+main.ts:21993

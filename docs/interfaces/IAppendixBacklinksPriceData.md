@@ -18,7 +18,7 @@
 
 #### Source
 
-main.ts:216657
+main.ts:217524
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:216657
 
 #### Source
 
-main.ts:216658
+main.ts:217525
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:216658
 
 #### Source
 
-main.ts:216659
+main.ts:217526
 
 ***
 
@@ -48,7 +48,7 @@ main.ts:216659
 
 #### Source
 
-main.ts:216660
+main.ts:217527
 
 ***
 
@@ -58,7 +58,17 @@ main.ts:216660
 
 #### Source
 
-main.ts:216661
+main.ts:217528
+
+***
+
+### bulk\_pages\_summary?
+
+> **`optional`** **bulk\_pages\_summary**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+
+#### Source
+
+main.ts:217529
 
 ***
 
@@ -68,7 +78,7 @@ main.ts:216661
 
 #### Source
 
-main.ts:216662
+main.ts:217530
 
 ***
 
@@ -78,7 +88,7 @@ main.ts:216662
 
 #### Source
 
-main.ts:216663
+main.ts:217531
 
 ***
 
@@ -88,7 +98,7 @@ main.ts:216663
 
 #### Source
 
-main.ts:216664
+main.ts:217532
 
 ***
 
@@ -98,7 +108,7 @@ main.ts:216664
 
 #### Source
 
-main.ts:216665
+main.ts:217533
 
 ***
 
@@ -108,7 +118,7 @@ main.ts:216665
 
 #### Source
 
-main.ts:216666
+main.ts:217534
 
 ***
 
@@ -118,7 +128,7 @@ main.ts:216666
 
 #### Source
 
-main.ts:216667
+main.ts:217535
 
 ***
 
@@ -128,7 +138,7 @@ main.ts:216667
 
 #### Source
 
-main.ts:216668
+main.ts:217536
 
 ***
 
@@ -138,7 +148,7 @@ main.ts:216668
 
 #### Source
 
-main.ts:216669
+main.ts:217537
 
 ***
 
@@ -148,7 +158,7 @@ main.ts:216669
 
 #### Source
 
-main.ts:216670
+main.ts:217538
 
 ***
 
@@ -158,7 +168,7 @@ main.ts:216670
 
 #### Source
 
-main.ts:216671
+main.ts:217539
 
 ***
 
@@ -168,7 +178,7 @@ main.ts:216671
 
 #### Source
 
-main.ts:216672
+main.ts:217540
 
 ***
 
@@ -178,7 +188,7 @@ main.ts:216672
 
 #### Source
 
-main.ts:216673
+main.ts:217541
 
 ***
 
@@ -188,7 +198,7 @@ main.ts:216673
 
 #### Source
 
-main.ts:216674
+main.ts:217542
 
 ***
 
@@ -198,7 +208,7 @@ main.ts:216674
 
 #### Source
 
-main.ts:216675
+main.ts:217543
 
 ***
 
@@ -208,4 +218,4 @@ main.ts:216675
 
 #### Source
 
-main.ts:216676
+main.ts:217544

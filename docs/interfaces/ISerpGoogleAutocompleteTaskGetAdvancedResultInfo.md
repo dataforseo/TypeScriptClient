@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:51555
+main.ts:51685
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Source
 
-main.ts:51560
+main.ts:51690
 
 ***
 
@@ -51,7 +51,7 @@ autocomplete
 
 #### Source
 
-main.ts:51568
+main.ts:51698
 
 ***
 
@@ -63,7 +63,7 @@ elements of search results found in SERP
 
 #### Source
 
-main.ts:51574
+main.ts:51704
 
 ***
 
@@ -75,7 +75,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:51572
+main.ts:51702
 
 ***
 
@@ -88,7 +88,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Source
 
-main.ts:51544
+main.ts:51674
 
 ***
 
@@ -100,7 +100,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:51552
+main.ts:51682
 
 ***
 
@@ -112,7 +112,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:51550
+main.ts:51680
 
 ***
 
@@ -124,7 +124,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:51548
+main.ts:51678
 
 ***
 
@@ -136,7 +136,7 @@ total number of results in SERP
 
 #### Source
 
-main.ts:51570
+main.ts:51700
 
 ***
 
@@ -149,7 +149,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Source
 
-main.ts:51563
+main.ts:51693
 
 ***
 
@@ -161,4 +161,4 @@ type of element
 
 #### Source
 
-main.ts:51546
+main.ts:51676

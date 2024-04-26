@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:142070
+main.ts:142200
 
 ## Properties
 
@@ -52,7 +52,7 @@ example:
 
 #### Source
 
-main.ts:142036
+main.ts:142166
 
 ***
 
@@ -75,7 +75,7 @@ default value: live
 
 #### Source
 
-main.ts:142028
+main.ts:142158
 
 ***
 
@@ -94,7 +94,7 @@ default value: true
 
 #### Source
 
-main.ts:142052
+main.ts:142182
 
 ***
 
@@ -118,7 +118,7 @@ example:
 
 #### Source
 
-main.ts:141967
+main.ts:142097
 
 ***
 
@@ -149,7 +149,7 @@ The full list of possible filters is available here.
 
 #### Source
 
-main.ts:141984
+main.ts:142114
 
 ***
 
@@ -169,7 +169,7 @@ default value: true
 
 #### Source
 
-main.ts:142047
+main.ts:142177
 
 ***
 
@@ -188,7 +188,7 @@ default value: true
 
 #### Source
 
-main.ts:142041
+main.ts:142171
 
 ***
 
@@ -213,7 +213,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:142019
+main.ts:142149
 
 ***
 
@@ -235,7 +235,7 @@ default value: all
 
 #### Source
 
-main.ts:142060
+main.ts:142190
 
 ***
 
@@ -254,7 +254,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:142008
+main.ts:142138
 
 ***
 
@@ -273,7 +273,7 @@ if you specify the 10 value, the first ten backlinks in the results array will b
 
 #### Source
 
-main.ts:142003
+main.ts:142133
 
 ***
 
@@ -301,7 +301,7 @@ example:
 
 #### Source
 
-main.ts:141998
+main.ts:142128
 
 ***
 
@@ -321,7 +321,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:142066
+main.ts:142196
 
 ***
 
@@ -350,7 +350,7 @@ example:
 
 #### Source
 
-main.ts:141957
+main.ts:142087
 
 ## Methods
 
@@ -368,7 +368,7 @@ main.ts:141957
 
 #### Source
 
-main.ts:142079
+main.ts:142209
 
 ***
 
@@ -386,7 +386,7 @@ main.ts:142079
 
 #### Source
 
-main.ts:142131
+main.ts:142261
 
 ***
 
@@ -404,4 +404,4 @@ main.ts:142131
 
 #### Source
 
-main.ts:142124
+main.ts:142254

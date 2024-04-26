@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:92819
+main.ts:93197
 
 ## Properties
 
@@ -49,7 +49,7 @@ default value: false
 
 #### Source
 
-main.ts:92799
+main.ts:93177
 
 ***
 
@@ -72,7 +72,7 @@ en
 
 #### Source
 
-main.ts:92794
+main.ts:93172
 
 ***
 
@@ -95,7 +95,7 @@ English
 
 #### Source
 
-main.ts:92785
+main.ts:93163
 
 ***
 
@@ -114,7 +114,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:92804
+main.ts:93182
 
 ***
 
@@ -137,7 +137,7 @@ example:
 
 #### Source
 
-main.ts:92776
+main.ts:93154
 
 ***
 
@@ -160,7 +160,7 @@ United Kingdom
 
 #### Source
 
-main.ts:92767
+main.ts:93145
 
 ***
 
@@ -179,7 +179,7 @@ if you specify the 10 value, the first ten items in the results array will be om
 
 #### Source
 
-main.ts:92809
+main.ts:93187
 
 ***
 
@@ -199,7 +199,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:92815
+main.ts:93193
 
 ***
 
@@ -218,7 +218,7 @@ the domain should be specified without https:// and www.
 
 #### Source
 
-main.ts:92758
+main.ts:93136
 
 ## Methods
 
@@ -236,7 +236,7 @@ main.ts:92758
 
 #### Source
 
-main.ts:92828
+main.ts:93206
 
 ***
 
@@ -254,7 +254,7 @@ main.ts:92828
 
 #### Source
 
-main.ts:92853
+main.ts:93231
 
 ***
 
@@ -272,4 +272,4 @@ main.ts:92853
 
 #### Source
 
-main.ts:92846
+main.ts:93224

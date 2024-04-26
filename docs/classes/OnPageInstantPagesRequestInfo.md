@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:158691
+main.ts:159635
 
 ## Properties
 
@@ -49,7 +49,7 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 #### Source
 
-main.ts:158629
+main.ts:159573
 
 ***
 
@@ -80,7 +80,7 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 #### Source
 
-main.ts:158601
+main.ts:159545
 
 ***
 
@@ -100,7 +100,7 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:158613
+main.ts:159557
 
 ***
 
@@ -120,7 +120,7 @@ maximum value: 3
 
 #### Source
 
-main.ts:158619
+main.ts:159563
 
 ***
 
@@ -140,7 +140,7 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:158607
+main.ts:159551
 
 ***
 
@@ -159,7 +159,7 @@ default value: false
 
 #### Source
 
-main.ts:158682
+main.ts:159626
 
 ***
 
@@ -182,7 +182,7 @@ Note: only integer threshold values can be modified;
 
 #### Source
 
-main.ts:158687
+main.ts:159631
 
 ***
 
@@ -207,7 +207,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:158672
+main.ts:159616
 
 ***
 
@@ -228,7 +228,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 #### Source
 
-main.ts:158584
+main.ts:159528
 
 ***
 
@@ -248,7 +248,7 @@ false
 
 #### Source
 
-main.ts:158650
+main.ts:159594
 
 ***
 
@@ -271,7 +271,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:158644
+main.ts:159588
 
 ***
 
@@ -291,7 +291,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:158635
+main.ts:159579
 
 ***
 
@@ -311,7 +311,7 @@ falseif you use this field, enable_javascript must be set to true;
 
 #### Source
 
-main.ts:158661
+main.ts:159605
 
 ***
 
@@ -330,7 +330,7 @@ default value: false
 
 #### Source
 
-main.ts:158655
+main.ts:159599
 
 ***
 
@@ -349,7 +349,7 @@ default value: false
 
 #### Source
 
-main.ts:158624
+main.ts:159568
 
 ***
 
@@ -359,10 +359,10 @@ main.ts:158624
 
 target page url
 required field
-absolute URL of the target page
-Note: results will be returned for the specified URL only
-Note: to prevent denial-of-service events, tasks that contain a duplicate crawl host will be returned with a 40501 error;
-to prevent this error from occuring, avoid setting tasks with the same domain if at least one of your previous tasks with this domain (including a page URL on the domain) is still in a crawling queue
+absolute URL of the target page;
+Note #1: results will be returned for the specified URL only;
+Note #2: to prevent denial-of-service events, tasks that contain a duplicate crawl host will be returned with a 40501 error;
+to prevent this error from occurring, avoid setting tasks with the same domain if at least one of your previous tasks with this domain (including a page URL on the domain) is still in a crawling queue
 
 #### Implementation of
 
@@ -370,7 +370,7 @@ to prevent this error from occuring, avoid setting tasks with the same domain if
 
 #### Source
 
-main.ts:158577
+main.ts:159521
 
 ***
 
@@ -389,7 +389,7 @@ default value: false
 
 #### Source
 
-main.ts:158677
+main.ts:159621
 
 ## Methods
 
@@ -407,7 +407,7 @@ main.ts:158677
 
 #### Source
 
-main.ts:158700
+main.ts:159644
 
 ***
 
@@ -425,7 +425,7 @@ main.ts:158700
 
 #### Source
 
-main.ts:158739
+main.ts:159683
 
 ***
 
@@ -443,4 +443,4 @@ main.ts:158739
 
 #### Source
 
-main.ts:158732
+main.ts:159676

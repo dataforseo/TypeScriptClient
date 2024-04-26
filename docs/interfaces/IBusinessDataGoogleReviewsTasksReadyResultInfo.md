@@ -20,7 +20,7 @@ date when the task was posted (in the UTC format)
 
 #### Source
 
-main.ts:203656
+main.ts:204516
 
 ***
 
@@ -32,7 +32,7 @@ URL for collecting the results of the task
 
 #### Source
 
-main.ts:203660
+main.ts:204520
 
 ***
 
@@ -45,7 +45,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:203648
+main.ts:204508
 
 ***
 
@@ -58,7 +58,7 @@ can take the following values: google
 
 #### Source
 
-main.ts:203651
+main.ts:204511
 
 ***
 
@@ -71,7 +71,7 @@ can take the following values: reviews
 
 #### Source
 
-main.ts:203654
+main.ts:204514
 
 ***
 
@@ -83,4 +83,4 @@ user-defined task identifier
 
 #### Source
 
-main.ts:203658
+main.ts:204518

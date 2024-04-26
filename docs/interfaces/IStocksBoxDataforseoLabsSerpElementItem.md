@@ -24,7 +24,7 @@ domain where a link points
 
 #### Source
 
-main.ts:98058
+main.ts:98194
 
 ***
 
@@ -36,7 +36,7 @@ contains data provided in the graph of the element
 
 #### Source
 
-main.ts:98063
+main.ts:98199
 
 ***
 
@@ -50,7 +50,7 @@ left, right
 
 #### Source
 
-main.ts:98043
+main.ts:98179
 
 ***
 
@@ -62,7 +62,7 @@ price of the shopping element
 
 #### Source
 
-main.ts:98054
+main.ts:98190
 
 ***
 
@@ -75,7 +75,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:98039
+main.ts:98175
 
 ***
 
@@ -88,7 +88,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:98036
+main.ts:98172
 
 ***
 
@@ -100,7 +100,7 @@ text alongside the link title
 
 #### Source
 
-main.ts:98052
+main.ts:98188
 
 ***
 
@@ -113,7 +113,7 @@ indicates the source of information included in the shopping_element
 
 #### Source
 
-main.ts:98050
+main.ts:98186
 
 ***
 
@@ -126,7 +126,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:98061
+main.ts:98197
 
 ***
 
@@ -138,7 +138,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:98047
+main.ts:98183
 
 ***
 
@@ -150,7 +150,7 @@ relevant URL of the Ad element in SERP
 
 #### Source
 
-main.ts:98056
+main.ts:98192
 
 ***
 
@@ -162,4 +162,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:98045
+main.ts:98181

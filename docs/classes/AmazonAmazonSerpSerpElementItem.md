@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:102262
+main.ts:102398
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:102262
 
 #### Source
 
-main.ts:21275
+main.ts:21403
 
 ***
 
@@ -69,7 +69,7 @@ learn more about ASIN in this help center guide
 
 #### Source
 
-main.ts:102222
+main.ts:102358
 
 ***
 
@@ -85,7 +85,7 @@ number of product purchases in the past month
 
 #### Source
 
-main.ts:102253
+main.ts:102389
 
 ***
 
@@ -103,7 +103,7 @@ USD
 
 #### Source
 
-main.ts:102236
+main.ts:102372
 
 ***
 
@@ -122,7 +122,7 @@ B07G82D89J
 
 #### Source
 
-main.ts:102258
+main.ts:102394
 
 ***
 
@@ -139,7 +139,7 @@ delivery information including free and fast delivery date ranges
 
 #### Source
 
-main.ts:102251
+main.ts:102387
 
 ***
 
@@ -155,7 +155,7 @@ description of the product
 
 #### Source
 
-main.ts:102219
+main.ts:102355
 
 ***
 
@@ -171,7 +171,7 @@ Amazon domain
 
 #### Source
 
-main.ts:102213
+main.ts:102349
 
 ***
 
@@ -187,7 +187,7 @@ URL of the product image featured in the results
 
 #### Source
 
-main.ts:102224
+main.ts:102360
 
 ***
 
@@ -204,7 +204,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 #### Source
 
-main.ts:102245
+main.ts:102381
 
 ***
 
@@ -221,7 +221,7 @@ if the value is true, the product is marked with the “Best Seller” label
 
 #### Source
 
-main.ts:102242
+main.ts:102378
 
 ***
 
@@ -239,7 +239,7 @@ left, right
 
 #### Source
 
-main.ts:102209
+main.ts:102345
 
 ***
 
@@ -257,7 +257,7 @@ example:
 
 #### Source
 
-main.ts:102228
+main.ts:102364
 
 ***
 
@@ -275,7 +275,7 @@ example:
 
 #### Source
 
-main.ts:102232
+main.ts:102368
 
 ***
 
@@ -292,7 +292,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:102205
+main.ts:102341
 
 ***
 
@@ -309,7 +309,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:102202
+main.ts:102338
 
 ***
 
@@ -326,7 +326,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:102248
+main.ts:102384
 
 ***
 
@@ -342,7 +342,7 @@ search engine type
 
 #### Source
 
-main.ts:102199
+main.ts:102335
 
 ***
 
@@ -359,7 +359,7 @@ contains special offer details, including coupon and Subscribe & Save discounts
 
 #### Source
 
-main.ts:102239
+main.ts:102375
 
 ***
 
@@ -375,7 +375,7 @@ product title
 
 #### Source
 
-main.ts:102215
+main.ts:102351
 
 ***
 
@@ -391,7 +391,7 @@ URL of the product page
 
 #### Source
 
-main.ts:102217
+main.ts:102353
 
 ***
 
@@ -407,7 +407,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:102211
+main.ts:102347
 
 ## Methods
 
@@ -429,7 +429,7 @@ main.ts:102211
 
 #### Source
 
-main.ts:102267
+main.ts:102403
 
 ***
 
@@ -451,7 +451,7 @@ main.ts:102267
 
 #### Source
 
-main.ts:102309
+main.ts:102445
 
 ***
 
@@ -473,4 +473,4 @@ main.ts:102309
 
 #### Source
 
-main.ts:102302
+main.ts:102438

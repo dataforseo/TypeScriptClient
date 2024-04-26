@@ -25,7 +25,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:29420
+main.ts:29548
 
 ***
 
@@ -39,7 +39,7 @@ left, right
 
 #### Source
 
-main.ts:29415
+main.ts:29543
 
 ***
 
@@ -53,7 +53,7 @@ always equals 0 for desktop
 
 #### Source
 
-main.ts:29411
+main.ts:29539
 
 ***
 
@@ -68,7 +68,7 @@ always equals 0 for desktop
 
 #### Source
 
-main.ts:29407
+main.ts:29535
 
 ***
 
@@ -82,7 +82,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Source
 
-main.ts:29424
+main.ts:29552
 
 ***
 
@@ -94,4 +94,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:29417
+main.ts:29545

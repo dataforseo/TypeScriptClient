@@ -20,7 +20,7 @@ indicates how many milliseconds it took to fetch a resource
 
 #### Source
 
-main.ts:151651
+main.ts:152595
 
 ***
 
@@ -33,7 +33,7 @@ the amount of time a browser needs to complete downloading a resource
 
 #### Source
 
-main.ts:151657
+main.ts:152601
 
 ***
 
@@ -46,4 +46,4 @@ the amount of time a browser needs to start downloading a resource
 
 #### Source
 
-main.ts:151654
+main.ts:152598

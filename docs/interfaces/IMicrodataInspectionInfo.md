@@ -21,7 +21,7 @@ an array of objects containing data fields related to the certain microdata type
 
 #### Source
 
-main.ts:156463
+main.ts:157407
 
 ***
 
@@ -34,4 +34,4 @@ for a full list of available types, please visit schema.org
 
 #### Source
 
-main.ts:156460
+main.ts:157404

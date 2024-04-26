@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:115461
+main.ts:115597
 
 ## Properties
 
@@ -49,7 +49,7 @@ if the value is false, we are not able to provide data for the previous month
 
 #### Source
 
-main.ts:115448
+main.ts:115584
 
 ***
 
@@ -68,7 +68,7 @@ example:
 
 #### Source
 
-main.ts:115453
+main.ts:115589
 
 ***
 
@@ -84,7 +84,7 @@ the latest month for which search volume data is available
 
 #### Source
 
-main.ts:115457
+main.ts:115593
 
 ***
 
@@ -100,7 +100,7 @@ the latest year for which search volume data is available
 
 #### Source
 
-main.ts:115455
+main.ts:115591
 
 ## Methods
 
@@ -118,7 +118,7 @@ main.ts:115455
 
 #### Source
 
-main.ts:115470
+main.ts:115606
 
 ***
 
@@ -136,7 +136,7 @@ main.ts:115470
 
 #### Source
 
-main.ts:115490
+main.ts:115626
 
 ***
 
@@ -154,4 +154,4 @@ main.ts:115490
 
 #### Source
 
-main.ts:115483
+main.ts:115619

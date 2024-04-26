@@ -29,7 +29,7 @@ default value: 10
 
 #### Source
 
-main.ts:197661
+main.ts:198521
 
 ***
 
@@ -59,7 +59,7 @@ learn more about the cid and place_id identifiers in this help center article
 
 #### Source
 
-main.ts:188859
+main.ts:189718
 
 ***
 
@@ -80,7 +80,7 @@ en
 
 #### Source
 
-main.ts:188904
+main.ts:189764
 
 ***
 
@@ -101,7 +101,7 @@ English
 
 #### Source
 
-main.ts:188897
+main.ts:189757
 
 ***
 
@@ -122,7 +122,7 @@ example:
 
 #### Source
 
-main.ts:188881
+main.ts:189740
 
 ***
 
@@ -135,7 +135,8 @@ required field if you don’t specify location_name or location_code
 if you use this field, you don’t need to specify location_name or location_code
 location_coordinate parameter should be specified in the “latitude,longitude,radius” format
 the maximum number of decimal digits for “latitude” and “longitude”: 7
-the minimum value for “radius”: 199.9
+the minimum value for “radius”: 199.9 (mm)
+the maximum value for “radius”: 199999 (mm)
 example:
 53.476225,-2.243572,200
 
@@ -145,7 +146,7 @@ example:
 
 #### Source
 
-main.ts:188890
+main.ts:189750
 
 ***
 
@@ -166,7 +167,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:188874
+main.ts:189733
 
 ***
 
@@ -190,7 +191,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:188930
+main.ts:189790
 
 ***
 
@@ -214,7 +215,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:188920
+main.ts:189780
 
 ***
 
@@ -236,7 +237,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:188867
+main.ts:189726
 
 ***
 
@@ -256,4 +257,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:188910
+main.ts:189770

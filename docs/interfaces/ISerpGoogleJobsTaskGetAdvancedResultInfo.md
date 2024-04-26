@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:50167
+main.ts:50297
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Source
 
-main.ts:50172
+main.ts:50302
 
 ***
 
@@ -51,7 +51,7 @@ google_jobs_item
 
 #### Source
 
-main.ts:50180
+main.ts:50310
 
 ***
 
@@ -63,7 +63,7 @@ elements of search results found in SERP
 
 #### Source
 
-main.ts:50186
+main.ts:50316
 
 ***
 
@@ -75,7 +75,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:50184
+main.ts:50314
 
 ***
 
@@ -88,7 +88,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Source
 
-main.ts:50156
+main.ts:50286
 
 ***
 
@@ -100,7 +100,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:50164
+main.ts:50294
 
 ***
 
@@ -112,7 +112,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:50162
+main.ts:50292
 
 ***
 
@@ -124,7 +124,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:50160
+main.ts:50290
 
 ***
 
@@ -136,7 +136,7 @@ total number of results in SERP
 
 #### Source
 
-main.ts:50182
+main.ts:50312
 
 ***
 
@@ -149,7 +149,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Source
 
-main.ts:50175
+main.ts:50305
 
 ***
 
@@ -161,4 +161,4 @@ type of element
 
 #### Source
 
-main.ts:50158
+main.ts:50288

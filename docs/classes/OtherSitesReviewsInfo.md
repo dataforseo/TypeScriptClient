@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:201470
+main.ts:202330
 
 ## Properties
 
@@ -47,7 +47,7 @@ information about the rating enclosed in the review on a third-party site
 
 #### Source
 
-main.ts:201466
+main.ts:202326
 
 ***
 
@@ -64,7 +64,7 @@ text of the review
 
 #### Source
 
-main.ts:201463
+main.ts:202323
 
 ***
 
@@ -81,7 +81,7 @@ contains a name of the third-party site where review initially appeared
 
 #### Source
 
-main.ts:201457
+main.ts:202317
 
 ***
 
@@ -98,7 +98,7 @@ URL to the a third-party site where review initially appeared
 
 #### Source
 
-main.ts:201460
+main.ts:202320
 
 ## Methods
 
@@ -116,7 +116,7 @@ main.ts:201460
 
 #### Source
 
-main.ts:201479
+main.ts:202339
 
 ***
 
@@ -134,7 +134,7 @@ main.ts:201479
 
 #### Source
 
-main.ts:201499
+main.ts:202359
 
 ***
 
@@ -152,4 +152,4 @@ main.ts:201499
 
 #### Source
 
-main.ts:201492
+main.ts:202352

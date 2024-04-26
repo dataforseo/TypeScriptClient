@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:157547
+main.ts:158491
 
 ## Properties
 
@@ -46,7 +46,7 @@ content text
 
 #### Source
 
-main.ts:157540
+main.ts:158484
 
 ***
 
@@ -63,7 +63,7 @@ displayed in case the text is a link anchor
 
 #### Source
 
-main.ts:157543
+main.ts:158487
 
 ## Methods
 
@@ -81,7 +81,7 @@ main.ts:157543
 
 #### Source
 
-main.ts:157556
+main.ts:158500
 
 ***
 
@@ -99,7 +99,7 @@ main.ts:157556
 
 #### Source
 
-main.ts:157574
+main.ts:158518
 
 ***
 
@@ -117,4 +117,4 @@ main.ts:157574
 
 #### Source
 
-main.ts:157567
+main.ts:158511

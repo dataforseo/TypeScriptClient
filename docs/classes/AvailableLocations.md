@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:131874
+main.ts:132010
 
 ## Properties
 
@@ -46,7 +46,7 @@ ISO country code of the location
 
 #### Source
 
-main.ts:131866
+main.ts:132002
 
 ***
 
@@ -62,7 +62,7 @@ location code
 
 #### Source
 
-main.ts:131862
+main.ts:131998
 
 ***
 
@@ -78,7 +78,7 @@ location name
 
 #### Source
 
-main.ts:131864
+main.ts:132000
 
 ***
 
@@ -96,7 +96,7 @@ Country, Region
 
 #### Source
 
-main.ts:131870
+main.ts:132006
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:131870
 
 #### Source
 
-main.ts:131883
+main.ts:132019
 
 ***
 
@@ -132,7 +132,7 @@ main.ts:131883
 
 #### Source
 
-main.ts:131903
+main.ts:132039
 
 ***
 
@@ -150,4 +150,4 @@ main.ts:131903
 
 #### Source
 
-main.ts:131896
+main.ts:132032

@@ -21,7 +21,7 @@ product delivery information
 
 #### Source
 
-main.ts:174669
+main.ts:175527
 
 ***
 
@@ -34,7 +34,7 @@ product price details on the seller’s website
 
 #### Source
 
-main.ts:174666
+main.ts:175524
 
 ***
 
@@ -46,7 +46,7 @@ rating of the seller
 
 #### Source
 
-main.ts:174660
+main.ts:175518
 
 ***
 
@@ -59,7 +59,7 @@ number of reviews on the product seller’s account
 
 #### Source
 
-main.ts:174663
+main.ts:175521
 
 ***
 
@@ -71,7 +71,7 @@ product title
 
 #### Source
 
-main.ts:174655
+main.ts:175513
 
 ***
 
@@ -83,7 +83,7 @@ type of element
 
 #### Source
 
-main.ts:174653
+main.ts:175511
 
 ***
 
@@ -96,4 +96,4 @@ url of the page where the product is sold
 
 #### Source
 
-main.ts:174658
+main.ts:175516

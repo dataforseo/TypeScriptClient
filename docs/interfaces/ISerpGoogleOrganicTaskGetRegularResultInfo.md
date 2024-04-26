@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:26494
+main.ts:26622
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Source
 
-main.ts:26499
+main.ts:26627
 
 ***
 
@@ -54,7 +54,7 @@ to get all items (inlcuding SERP features and rich snippets) found in the return
 
 #### Source
 
-main.ts:26510
+main.ts:26638
 
 ***
 
@@ -66,7 +66,7 @@ items in SERP
 
 #### Source
 
-main.ts:26516
+main.ts:26644
 
 ***
 
@@ -78,7 +78,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:26514
+main.ts:26642
 
 ***
 
@@ -91,7 +91,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Source
 
-main.ts:26483
+main.ts:26611
 
 ***
 
@@ -103,7 +103,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:26491
+main.ts:26619
 
 ***
 
@@ -115,7 +115,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:26489
+main.ts:26617
 
 ***
 
@@ -127,7 +127,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:26487
+main.ts:26615
 
 ***
 
@@ -139,7 +139,7 @@ total number of results in SERP
 
 #### Source
 
-main.ts:26512
+main.ts:26640
 
 ***
 
@@ -152,7 +152,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Source
 
-main.ts:26502
+main.ts:26630
 
 ***
 
@@ -164,4 +164,4 @@ type of element
 
 #### Source
 
-main.ts:26485
+main.ts:26613

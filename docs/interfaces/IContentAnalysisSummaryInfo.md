@@ -26,7 +26,7 @@ possible sentiment connotation types: positive, negative, neutral
 
 #### Source
 
-main.ts:163060
+main.ts:164004
 
 ***
 
@@ -44,7 +44,7 @@ to obtain a full list of available countries, refer to the Locations endpoint
 
 #### Source
 
-main.ts:163075
+main.ts:164019
 
 ***
 
@@ -62,7 +62,7 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 #### Source
 
-main.ts:163079
+main.ts:164023
 
 ***
 
@@ -76,7 +76,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Source
 
-main.ts:163068
+main.ts:164012
 
 ***
 
@@ -93,7 +93,7 @@ contains page types and citation count per each page type
 
 #### Source
 
-main.ts:163071
+main.ts:164015
 
 ***
 
@@ -106,7 +106,7 @@ normalized sum of ranks of all URLs citing the target keyword
 
 #### Source
 
-main.ts:163049
+main.ts:163993
 
 ***
 
@@ -124,7 +124,7 @@ possible sentiment connotations: anger, happiness, love, sadness, share, fun
 
 #### Source
 
-main.ts:163056
+main.ts:164000
 
 ***
 
@@ -138,7 +138,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Source
 
-main.ts:163064
+main.ts:164008
 
 ***
 
@@ -151,7 +151,7 @@ contains objects with top domains citing the target keword and citation count pe
 
 #### Source
 
-main.ts:163052
+main.ts:163996
 
 ***
 
@@ -163,7 +163,7 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:163046
+main.ts:163990
 
 ***
 
@@ -175,4 +175,4 @@ type of element
 
 #### Source
 
-main.ts:163044
+main.ts:163988

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:48052
+main.ts:48182
 
 ## Properties
 
@@ -50,7 +50,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Source
 
-main.ts:48006
+main.ts:48136
 
 ***
 
@@ -70,7 +70,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Source
 
-main.ts:48012
+main.ts:48142
 
 ***
 
@@ -90,7 +90,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Source
 
-main.ts:48000
+main.ts:48130
 
 ***
 
@@ -111,7 +111,7 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 #### Source
 
-main.ts:47994
+main.ts:48124
 
 ***
 
@@ -131,7 +131,7 @@ https://upload.wikimedia.org/wikipedia/commons/e/ed/Elon_Musk_Royal_Society.jpg
 
 #### Source
 
-main.ts:47927
+main.ts:48057
 
 ***
 
@@ -152,7 +152,7 @@ en
 
 #### Source
 
-main.ts:47980
+main.ts:48110
 
 ***
 
@@ -173,7 +173,7 @@ English
 
 #### Source
 
-main.ts:47973
+main.ts:48103
 
 ***
 
@@ -194,7 +194,7 @@ example:
 
 #### Source
 
-main.ts:47956
+main.ts:48086
 
 ***
 
@@ -218,7 +218,7 @@ example:
 
 #### Source
 
-main.ts:47966
+main.ts:48096
 
 ***
 
@@ -239,7 +239,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:47949
+main.ts:48079
 
 ***
 
@@ -260,7 +260,7 @@ learn more at our help center
 
 #### Source
 
-main.ts:47942
+main.ts:48072
 
 ***
 
@@ -284,7 +284,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:48048
+main.ts:48178
 
 ***
 
@@ -304,7 +304,7 @@ advanced
 
 #### Source
 
-main.ts:48038
+main.ts:48168
 
 ***
 
@@ -328,7 +328,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:48032
+main.ts:48162
 
 ***
 
@@ -350,7 +350,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:47935
+main.ts:48065
 
 ***
 
@@ -371,7 +371,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Source
 
-main.ts:47987
+main.ts:48117
 
 ***
 
@@ -389,7 +389,7 @@ get the list of available parameters and additional details here
 
 #### Source
 
-main.ts:48016
+main.ts:48146
 
 ***
 
@@ -409,7 +409,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:48022
+main.ts:48152
 
 ## Methods
 
@@ -427,7 +427,7 @@ main.ts:48022
 
 #### Source
 
-main.ts:48061
+main.ts:48191
 
 ***
 
@@ -445,7 +445,7 @@ main.ts:48061
 
 #### Source
 
-main.ts:48095
+main.ts:48225
 
 ***
 
@@ -463,4 +463,4 @@ main.ts:48095
 
 #### Source
 
-main.ts:48088
+main.ts:48218

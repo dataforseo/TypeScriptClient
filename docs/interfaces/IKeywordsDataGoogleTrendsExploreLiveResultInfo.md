@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:124108
+main.ts:124244
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Source
 
-main.ts:124113
+main.ts:124249
 
 ***
 
@@ -48,7 +48,7 @@ items on the Google Trends page
 
 #### Source
 
-main.ts:124117
+main.ts:124253
 
 ***
 
@@ -60,7 +60,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:124115
+main.ts:124251
 
 ***
 
@@ -72,7 +72,7 @@ keywords in a POST array
 
 #### Source
 
-main.ts:124097
+main.ts:124233
 
 ***
 
@@ -85,7 +85,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:124105
+main.ts:124241
 
 ***
 
@@ -98,7 +98,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:124102
+main.ts:124238
 
 ***
 
@@ -110,4 +110,4 @@ type of element
 
 #### Source
 
-main.ts:124099
+main.ts:124235

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:170661
+main.ts:171519
 
 ## Properties
 
@@ -48,7 +48,7 @@ USD
 
 #### Source
 
-main.ts:170645
+main.ts:171503
 
 ***
 
@@ -65,7 +65,7 @@ delivery information including free and fast delivery date ranges
 
 #### Source
 
-main.ts:170657
+main.ts:171515
 
 ***
 
@@ -83,7 +83,7 @@ example:
 
 #### Source
 
-main.ts:170641
+main.ts:171499
 
 ***
 
@@ -100,7 +100,7 @@ the first URL in the array is the featured image of the product
 
 #### Source
 
-main.ts:170651
+main.ts:171509
 
 ***
 
@@ -117,7 +117,7 @@ the product popularity rate based on product reviews
 
 #### Source
 
-main.ts:170648
+main.ts:171506
 
 ***
 
@@ -134,7 +134,7 @@ the name of the company that placed a corresponding product on Google Shopping
 
 #### Source
 
-main.ts:170637
+main.ts:171495
 
 ***
 
@@ -151,7 +151,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 #### Source
 
-main.ts:170654
+main.ts:171512
 
 ***
 
@@ -167,7 +167,7 @@ tags assigned to the product
 
 #### Source
 
-main.ts:170634
+main.ts:171492
 
 ***
 
@@ -183,7 +183,7 @@ product title
 
 #### Source
 
-main.ts:170632
+main.ts:171490
 
 ***
 
@@ -199,7 +199,7 @@ type of element
 
 #### Source
 
-main.ts:170628
+main.ts:171486
 
 ***
 
@@ -215,7 +215,7 @@ XPath of the element
 
 #### Source
 
-main.ts:170630
+main.ts:171488
 
 ## Methods
 
@@ -233,7 +233,7 @@ main.ts:170630
 
 #### Source
 
-main.ts:170670
+main.ts:171528
 
 ***
 
@@ -251,7 +251,7 @@ main.ts:170670
 
 #### Source
 
-main.ts:170705
+main.ts:171563
 
 ***
 
@@ -269,4 +269,4 @@ main.ts:170705
 
 #### Source
 
-main.ts:170698
+main.ts:171556

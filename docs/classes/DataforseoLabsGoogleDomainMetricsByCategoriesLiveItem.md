@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:87046
+main.ts:87174
 
 ## Properties
 
@@ -46,7 +46,7 @@ domain found for the specified category
 
 #### Source
 
-main.ts:87035
+main.ts:87163
 
 ***
 
@@ -62,7 +62,7 @@ primary domain
 
 #### Source
 
-main.ts:87037
+main.ts:87165
 
 ***
 
@@ -83,7 +83,7 @@ calculated by subtracting domain metrics as of the greater date from domain metr
 
 #### Source
 
-main.ts:87042
+main.ts:87170
 
 ***
 
@@ -103,7 +103,7 @@ historical ranking and traffic data of the domain
 
 #### Source
 
-main.ts:87039
+main.ts:87167
 
 ***
 
@@ -119,7 +119,7 @@ current total count of organic SERPs that contain the domain
 
 #### Source
 
-main.ts:87027
+main.ts:87155
 
 ***
 
@@ -135,7 +135,7 @@ current organic ETV of the domain
 
 #### Source
 
-main.ts:87025
+main.ts:87153
 
 ***
 
@@ -152,7 +152,7 @@ indicates how many ranked elements of the domain were previously presented in SE
 
 #### Source
 
-main.ts:87030
+main.ts:87158
 
 ***
 
@@ -169,7 +169,7 @@ indicates how many new ranked elements were found for the domain
 
 #### Source
 
-main.ts:87033
+main.ts:87161
 
 ***
 
@@ -185,7 +185,7 @@ search engine type
 
 #### Source
 
-main.ts:87021
+main.ts:87149
 
 ***
 
@@ -201,7 +201,7 @@ categories for which domains are collected
 
 #### Source
 
-main.ts:87023
+main.ts:87151
 
 ## Methods
 
@@ -219,7 +219,7 @@ main.ts:87023
 
 #### Source
 
-main.ts:87055
+main.ts:87183
 
 ***
 
@@ -237,7 +237,7 @@ main.ts:87055
 
 #### Source
 
-main.ts:87097
+main.ts:87225
 
 ***
 
@@ -255,4 +255,4 @@ main.ts:87097
 
 #### Source
 
-main.ts:87090
+main.ts:87218

@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:113590
+main.ts:113726
 
 ## Properties
 
@@ -58,7 +58,7 @@ total tasks cost, USD
 
 #### Source
 
-main.ts:23029
+main.ts:23157
 
 ***
 
@@ -79,7 +79,7 @@ you can find the full list of the response codes here
 
 #### Source
 
-main.ts:23022
+main.ts:23150
 
 ***
 
@@ -100,7 +100,7 @@ you can find the full list of general informational messages here
 
 #### Source
 
-main.ts:23025
+main.ts:23153
 
 ***
 
@@ -116,7 +116,7 @@ array of tasks
 
 #### Source
 
-main.ts:113586
+main.ts:113722
 
 ***
 
@@ -136,7 +136,7 @@ the number of tasks in the tasks array
 
 #### Source
 
-main.ts:23031
+main.ts:23159
 
 ***
 
@@ -156,7 +156,7 @@ the number of tasks in the tasks array returned with an error
 
 #### Source
 
-main.ts:23033
+main.ts:23161
 
 ***
 
@@ -176,7 +176,7 @@ total execution time, seconds
 
 #### Source
 
-main.ts:23027
+main.ts:23155
 
 ***
 
@@ -196,7 +196,7 @@ the current version of the API
 
 #### Source
 
-main.ts:23019
+main.ts:23147
 
 ## Methods
 
@@ -218,7 +218,7 @@ main.ts:23019
 
 #### Source
 
-main.ts:113594
+main.ts:113730
 
 ***
 
@@ -240,7 +240,7 @@ main.ts:113594
 
 #### Source
 
-main.ts:113616
+main.ts:113752
 
 ***
 
@@ -262,4 +262,4 @@ main.ts:113616
 
 #### Source
 
-main.ts:113609
+main.ts:113745

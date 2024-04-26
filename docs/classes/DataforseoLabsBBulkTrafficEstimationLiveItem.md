@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:99965
+main.ts:100101
 
 ## Properties
 
@@ -50,7 +50,7 @@ traffic data relevant to the specified domain
 
 #### Source
 
-main.ts:99961
+main.ts:100097
 
 ***
 
@@ -66,7 +66,7 @@ search engine type
 
 #### Source
 
-main.ts:99957
+main.ts:100093
 
 ***
 
@@ -82,7 +82,7 @@ target domain in a POST array
 
 #### Source
 
-main.ts:99959
+main.ts:100095
 
 ## Methods
 
@@ -100,7 +100,7 @@ main.ts:99959
 
 #### Source
 
-main.ts:99974
+main.ts:100110
 
 ***
 
@@ -118,7 +118,7 @@ main.ts:99974
 
 #### Source
 
-main.ts:99999
+main.ts:100135
 
 ***
 
@@ -136,4 +136,4 @@ main.ts:99999
 
 #### Source
 
-main.ts:99992
+main.ts:100128

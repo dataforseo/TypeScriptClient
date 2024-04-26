@@ -21,7 +21,7 @@ the list of supported SERP elements can be found below
 
 #### Source
 
-main.ts:106153
+main.ts:106289
 
 ***
 
@@ -33,7 +33,7 @@ keyword data for the returned keyword
 
 #### Source
 
-main.ts:106150
+main.ts:106286
 
 ***
 
@@ -47,7 +47,7 @@ for this endpoint, the field equals bing
 
 #### Source
 
-main.ts:106148
+main.ts:106284
 
 ***
 
@@ -60,4 +60,4 @@ the list of supported SERP elements can be found below
 
 #### Source
 
-main.ts:106156
+main.ts:106292

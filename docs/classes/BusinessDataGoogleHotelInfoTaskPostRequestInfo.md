@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:200481
+main.ts:201341
 
 ## Properties
 
@@ -58,7 +58,7 @@ example:
 
 #### Source
 
-main.ts:200463
+main.ts:201323
 
 ***
 
@@ -80,7 +80,7 @@ example:
 
 #### Source
 
-main.ts:200443
+main.ts:201303
 
 ***
 
@@ -103,7 +103,7 @@ example:
 
 #### Source
 
-main.ts:200452
+main.ts:201312
 
 ***
 
@@ -125,7 +125,7 @@ set the following value if you want to include one 13-years-old child and one 8-
 
 #### Source
 
-main.ts:200471
+main.ts:201331
 
 ***
 
@@ -144,7 +144,7 @@ example:
 
 #### Source
 
-main.ts:200457
+main.ts:201317
 
 ***
 
@@ -166,7 +166,7 @@ ChYIq6SB--i6p6cpGgovbS8wN2s5ODZfEAE
 
 #### Source
 
-main.ts:200435
+main.ts:201295
 
 ***
 
@@ -200,7 +200,7 @@ learn more about the cid and place_id identifiers in this help center article
 
 #### Source
 
-main.ts:188713
+main.ts:189571
 
 ***
 
@@ -225,7 +225,7 @@ en
 
 #### Source
 
-main.ts:188758
+main.ts:189617
 
 ***
 
@@ -250,7 +250,7 @@ English
 
 #### Source
 
-main.ts:188751
+main.ts:189610
 
 ***
 
@@ -275,7 +275,7 @@ example:
 
 #### Source
 
-main.ts:188735
+main.ts:189593
 
 ***
 
@@ -288,7 +288,8 @@ required field if you don’t specify location_name or location_code
 if you use this field, you don’t need to specify location_name or location_code
 location_coordinate parameter should be specified in the “latitude,longitude,radius” format
 the maximum number of decimal digits for “latitude” and “longitude”: 7
-the minimum value for “radius”: 199.9
+the minimum value for “radius”: 199.9 (mm)
+the maximum value for “radius”: 199999 (mm)
 example:
 53.476225,-2.243572,200
 
@@ -302,7 +303,7 @@ example:
 
 #### Source
 
-main.ts:188744
+main.ts:189603
 
 ***
 
@@ -327,7 +328,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:188728
+main.ts:189586
 
 ***
 
@@ -355,7 +356,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:188784
+main.ts:189643
 
 ***
 
@@ -375,7 +376,7 @@ advanced, html
 
 #### Source
 
-main.ts:200477
+main.ts:201337
 
 ***
 
@@ -403,7 +404,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:188774
+main.ts:189633
 
 ***
 
@@ -429,7 +430,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:188721
+main.ts:189579
 
 ***
 
@@ -453,7 +454,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:188764
+main.ts:189623
 
 ## Methods
 
@@ -475,7 +476,7 @@ main.ts:188764
 
 #### Source
 
-main.ts:200485
+main.ts:201345
 
 ***
 
@@ -497,7 +498,7 @@ main.ts:200485
 
 #### Source
 
-main.ts:200513
+main.ts:201373
 
 ***
 
@@ -519,4 +520,4 @@ main.ts:200513
 
 #### Source
 
-main.ts:200506
+main.ts:201366

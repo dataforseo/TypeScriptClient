@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:164845
+main.ts:165789
 
 ## Properties
 
@@ -48,7 +48,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Source
 
-main.ts:164776
+main.ts:165720
 
 ***
 
@@ -68,7 +68,7 @@ example:
 
 #### Source
 
-main.ts:164806
+main.ts:165750
 
 ***
 
@@ -87,7 +87,7 @@ possible values: day, week, month
 
 #### Source
 
-main.ts:164818
+main.ts:165762
 
 ***
 
@@ -108,7 +108,7 @@ example:
 
 #### Source
 
-main.ts:164813
+main.ts:165757
 
 ***
 
@@ -139,7 +139,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 #### Source
 
-main.ts:164835
+main.ts:165779
 
 ***
 
@@ -164,7 +164,7 @@ maximum value: 20
 
 #### Source
 
-main.ts:164800
+main.ts:165744
 
 ***
 
@@ -184,7 +184,7 @@ possible values:
 
 #### Source
 
-main.ts:164782
+main.ts:165726
 
 ***
 
@@ -205,7 +205,7 @@ default value: as_is
 
 #### Source
 
-main.ts:164789
+main.ts:165733
 
 ***
 
@@ -225,7 +225,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:164841
+main.ts:165785
 
 ## Methods
 
@@ -243,7 +243,7 @@ main.ts:164841
 
 #### Source
 
-main.ts:164854
+main.ts:165798
 
 ***
 
@@ -261,7 +261,7 @@ main.ts:164854
 
 #### Source
 
-main.ts:164887
+main.ts:165831
 
 ***
 
@@ -279,4 +279,4 @@ main.ts:164887
 
 #### Source
 
-main.ts:164880
+main.ts:165824

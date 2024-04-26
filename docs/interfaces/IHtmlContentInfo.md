@@ -20,7 +20,7 @@ Automated Readability Index
 
 #### Source
 
-main.ts:149726
+main.ts:150670
 
 ***
 
@@ -32,7 +32,7 @@ Coleman–Liau Index
 
 #### Source
 
-main.ts:149728
+main.ts:150672
 
 ***
 
@@ -44,7 +44,7 @@ Dale–Chall Readability Index
 
 #### Source
 
-main.ts:149730
+main.ts:150674
 
 ***
 
@@ -57,7 +57,7 @@ measured from 0 to 1
 
 #### Source
 
-main.ts:149737
+main.ts:150681
 
 ***
 
@@ -69,7 +69,7 @@ Flesch–Kincaid Readability Index
 
 #### Source
 
-main.ts:149732
+main.ts:150676
 
 ***
 
@@ -82,7 +82,7 @@ measured from 0 to 1
 
 #### Source
 
-main.ts:149743
+main.ts:150687
 
 ***
 
@@ -95,7 +95,7 @@ plain_text_size to size ratio
 
 #### Source
 
-main.ts:149722
+main.ts:150666
 
 ***
 
@@ -107,7 +107,7 @@ total size of the text on the page measured in bytes
 
 #### Source
 
-main.ts:149719
+main.ts:150663
 
 ***
 
@@ -119,7 +119,7 @@ number of words on the page
 
 #### Source
 
-main.ts:149724
+main.ts:150668
 
 ***
 
@@ -131,7 +131,7 @@ SMOG Readability Index
 
 #### Source
 
-main.ts:149734
+main.ts:150678
 
 ***
 
@@ -144,4 +144,4 @@ measured from 0 to 1
 
 #### Source
 
-main.ts:149740
+main.ts:150684

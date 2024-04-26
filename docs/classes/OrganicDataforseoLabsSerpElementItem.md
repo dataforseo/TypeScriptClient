@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:88984
+main.ts:89112
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:88984
 
 #### Source
 
-main.ts:20171
+main.ts:20213
 
 ***
 
@@ -70,7 +70,7 @@ this feature appears after clicking on the three dots next to most results
 
 #### Source
 
-main.ts:88955
+main.ts:89083
 
 ***
 
@@ -87,7 +87,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 #### Source
 
-main.ts:88942
+main.ts:89070
 
 ***
 
@@ -103,7 +103,7 @@ backlinks information for the target website
 
 #### Source
 
-main.ts:88978
+main.ts:89106
 
 ***
 
@@ -119,7 +119,7 @@ breadcrumb in SERP
 
 #### Source
 
-main.ts:88923
+main.ts:89051
 
 ***
 
@@ -135,7 +135,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:88935
+main.ts:89063
 
 ***
 
@@ -151,7 +151,7 @@ subdomain in SERP
 
 #### Source
 
-main.ts:88917
+main.ts:89045
 
 ***
 
@@ -169,7 +169,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:88973
+main.ts:89101
 
 ***
 
@@ -188,7 +188,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:88964
+main.ts:89092
 
 ***
 
@@ -204,7 +204,7 @@ includes additional information appended after the result description in SERP
 
 #### Source
 
-main.ts:88939
+main.ts:89067
 
 ***
 
@@ -220,7 +220,7 @@ words highlighted in bold within the results description
 
 #### Source
 
-main.ts:88947
+main.ts:89075
 
 ***
 
@@ -239,7 +239,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:88969
+main.ts:89097
 
 ***
 
@@ -255,7 +255,7 @@ indicates whether the element is a featured_snippet
 
 #### Source
 
-main.ts:88931
+main.ts:89059
 
 ***
 
@@ -271,7 +271,7 @@ indicates whether the element contains an image
 
 #### Source
 
-main.ts:88927
+main.ts:89055
 
 ***
 
@@ -287,7 +287,7 @@ indicates whether the element is marked as malicious
 
 #### Source
 
-main.ts:88933
+main.ts:89061
 
 ***
 
@@ -303,13 +303,13 @@ indicates whether the element contains a video
 
 #### Source
 
-main.ts:88929
+main.ts:89057
 
 ***
 
 ### links?
 
-> **`optional`** **links**: `any`
+> **`optional`** **links**: [`AdLinkElement`](AdLinkElement.md)[]
 
 sitelinks
 the links shown below some of Google’s search results
@@ -321,7 +321,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:88951
+main.ts:89079
 
 ***
 
@@ -337,7 +337,7 @@ primary domain name in SERP
 
 #### Source
 
-main.ts:88957
+main.ts:89085
 
 ***
 
@@ -355,7 +355,7 @@ left, right
 
 #### Source
 
-main.ts:88913
+main.ts:89041
 
 ***
 
@@ -371,7 +371,7 @@ includes additional information appended before the result description in SERP
 
 #### Source
 
-main.ts:88937
+main.ts:89065
 
 ***
 
@@ -388,7 +388,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:88909
+main.ts:89037
 
 ***
 
@@ -405,7 +405,7 @@ contains information about the ranking changes of the SERP element since the pre
 
 #### Source
 
-main.ts:88976
+main.ts:89104
 
 ***
 
@@ -422,7 +422,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:88906
+main.ts:89034
 
 ***
 
@@ -438,7 +438,7 @@ page and domain rank information
 
 #### Source
 
-main.ts:88980
+main.ts:89108
 
 ***
 
@@ -455,7 +455,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:88945
+main.ts:89073
 
 ***
 
@@ -471,7 +471,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Source
 
-main.ts:88959
+main.ts:89087
 
 ***
 
@@ -487,7 +487,7 @@ search engine type
 
 #### Source
 
-main.ts:88903
+main.ts:89031
 
 ***
 
@@ -503,7 +503,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:88919
+main.ts:89047
 
 ***
 
@@ -519,7 +519,7 @@ relevant URL in SERP
 
 #### Source
 
-main.ts:88921
+main.ts:89049
 
 ***
 
@@ -535,7 +535,7 @@ relevant website name in SERP
 
 #### Source
 
-main.ts:88925
+main.ts:89053
 
 ***
 
@@ -551,7 +551,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:88915
+main.ts:89043
 
 ## Methods
 
@@ -573,7 +573,7 @@ main.ts:88915
 
 #### Source
 
-main.ts:88989
+main.ts:89117
 
 ***
 
@@ -595,7 +595,7 @@ main.ts:88989
 
 #### Source
 
-main.ts:89040
+main.ts:89172
 
 ***
 
@@ -617,4 +617,4 @@ main.ts:89040
 
 #### Source
 
-main.ts:89033
+main.ts:89165

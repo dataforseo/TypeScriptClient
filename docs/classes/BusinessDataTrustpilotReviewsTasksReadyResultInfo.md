@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:205311
+main.ts:206171
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Source
 
-main.ts:205303
+main.ts:206163
 
 ***
 
@@ -62,7 +62,7 @@ URL for collecting the results of the task
 
 #### Source
 
-main.ts:205307
+main.ts:206167
 
 ***
 
@@ -79,7 +79,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:205298
+main.ts:206158
 
 ***
 
@@ -96,7 +96,7 @@ can take the following values: trustpilot
 
 #### Source
 
-main.ts:205301
+main.ts:206161
 
 ***
 
@@ -112,7 +112,7 @@ user-defined task identifier
 
 #### Source
 
-main.ts:205305
+main.ts:206165
 
 ## Methods
 
@@ -130,7 +130,7 @@ main.ts:205305
 
 #### Source
 
-main.ts:205320
+main.ts:206180
 
 ***
 
@@ -148,7 +148,7 @@ main.ts:205320
 
 #### Source
 
-main.ts:205341
+main.ts:206201
 
 ***
 
@@ -166,4 +166,4 @@ main.ts:205341
 
 #### Source
 
-main.ts:205334
+main.ts:206194

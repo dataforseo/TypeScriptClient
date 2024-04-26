@@ -24,7 +24,7 @@ breadcrumb of the Ad element in SERP
 
 #### Source
 
-main.ts:69376
+main.ts:69504
 
 ***
 
@@ -36,7 +36,7 @@ domain in SERP
 
 #### Source
 
-main.ts:69374
+main.ts:69502
 
 ***
 
@@ -48,7 +48,7 @@ keyword highlighted in the result
 
 #### Source
 
-main.ts:69378
+main.ts:69506
 
 ***
 
@@ -62,7 +62,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:69386
+main.ts:69514
 
 ***
 
@@ -76,7 +76,7 @@ left, right
 
 #### Source
 
-main.ts:69366
+main.ts:69494
 
 ***
 
@@ -89,7 +89,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:69362
+main.ts:69490
 
 ***
 
@@ -103,7 +103,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:69359
+main.ts:69487
 
 ***
 
@@ -117,7 +117,7 @@ note: calculate_rectangles parameter is not yet available when setting tasks for
 
 #### Source
 
-main.ts:69390
+main.ts:69518
 
 ***
 
@@ -129,7 +129,7 @@ snippet of the element
 
 #### Source
 
-main.ts:69380
+main.ts:69508
 
 ***
 
@@ -141,7 +141,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:69382
+main.ts:69510
 
 ***
 
@@ -153,7 +153,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:69370
+main.ts:69498
 
 ***
 
@@ -165,7 +165,7 @@ relevant URL of the Ad element in SERP
 
 #### Source
 
-main.ts:69372
+main.ts:69500
 
 ***
 
@@ -177,4 +177,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:69368
+main.ts:69496

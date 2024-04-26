@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:113155
+main.ts:113291
 
 ## Properties
 
@@ -52,7 +52,7 @@ the id is 835599320
 
 #### Source
 
-main.ts:113071
+main.ts:113207
 
 ***
 
@@ -77,7 +77,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:113118
+main.ts:113254
 
 ***
 
@@ -100,7 +100,7 @@ en
 
 #### Source
 
-main.ts:113107
+main.ts:113243
 
 ***
 
@@ -123,7 +123,7 @@ English
 
 #### Source
 
-main.ts:113098
+main.ts:113234
 
 ***
 
@@ -142,7 +142,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:113140
+main.ts:113276
 
 ***
 
@@ -165,7 +165,7 @@ example:
 
 #### Source
 
-main.ts:113089
+main.ts:113225
 
 ***
 
@@ -188,7 +188,7 @@ United States
 
 #### Source
 
-main.ts:113080
+main.ts:113216
 
 ***
 
@@ -207,7 +207,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:113145
+main.ts:113281
 
 ***
 
@@ -238,7 +238,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Source
 
-main.ts:113135
+main.ts:113271
 
 ***
 
@@ -258,7 +258,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:113151
+main.ts:113287
 
 ## Methods
 
@@ -276,7 +276,7 @@ main.ts:113151
 
 #### Source
 
-main.ts:113164
+main.ts:113300
 
 ***
 
@@ -294,7 +294,7 @@ main.ts:113164
 
 #### Source
 
-main.ts:113198
+main.ts:113334
 
 ***
 
@@ -312,4 +312,4 @@ main.ts:113198
 
 #### Source
 
-main.ts:113191
+main.ts:113327

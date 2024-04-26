@@ -252,6 +252,28 @@ main.ts:11906
 
 ***
 
+### bulkPagesSummaryLive()
+
+> **bulkPagesSummaryLive**(`body`): `Promise`\<[`BacklinksBulkPagesSummaryLiveResponseInfo`](BacklinksBulkPagesSummaryLiveResponseInfo.md)\>
+
+#### Parameters
+
+• **body**: [`BacklinksBulkPagesSummaryLiveRequestInfo`](BacklinksBulkPagesSummaryLiveRequestInfo.md)[]
+
+(optional)
+
+#### Returns
+
+`Promise`\<[`BacklinksBulkPagesSummaryLiveResponseInfo`](BacklinksBulkPagesSummaryLiveResponseInfo.md)\>
+
+Successful operation
+
+#### Source
+
+main.ts:11948
+
+***
+
 ### bulkRanksLive()
 
 > **bulkRanksLive**(`body`): `Promise`\<[`BacklinksBulkRanksLiveResponseInfo`](BacklinksBulkRanksLiveResponseInfo.md)\>
@@ -607,6 +629,24 @@ main.ts:11884
 #### Source
 
 main.ts:11926
+
+***
+
+### processBulkPagesSummaryLive()
+
+> **`protected`** **processBulkPagesSummaryLive**(`response`): `Promise`\<[`BacklinksBulkPagesSummaryLiveResponseInfo`](BacklinksBulkPagesSummaryLiveResponseInfo.md)\>
+
+#### Parameters
+
+• **response**: `Response`
+
+#### Returns
+
+`Promise`\<[`BacklinksBulkPagesSummaryLiveResponseInfo`](BacklinksBulkPagesSummaryLiveResponseInfo.md)\>
+
+#### Source
+
+main.ts:11968
 
 ***
 

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:208180
+main.ts:209040
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:208152
+main.ts:209012
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Source
 
-main.ts:208157
+main.ts:209017
 
 ***
 
@@ -83,7 +83,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Source
 
-main.ts:208174
+main.ts:209034
 
 ***
 
@@ -100,7 +100,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Source
 
-main.ts:208171
+main.ts:209031
 
 ***
 
@@ -116,7 +116,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:208176
+main.ts:209036
 
 ***
 
@@ -133,7 +133,7 @@ address of the local establishment for which the reviews are collected
 
 #### Source
 
-main.ts:208163
+main.ts:209023
 
 ***
 
@@ -150,7 +150,7 @@ popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:208168
+main.ts:209028
 
 ***
 
@@ -166,7 +166,7 @@ the total number of reviews
 
 #### Source
 
-main.ts:208165
+main.ts:209025
 
 ***
 
@@ -182,7 +182,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:208149
+main.ts:209009
 
 ***
 
@@ -199,7 +199,7 @@ the name of the local establishment for which the reviews are collected
 
 #### Source
 
-main.ts:208160
+main.ts:209020
 
 ***
 
@@ -215,7 +215,7 @@ type of element
 
 #### Source
 
-main.ts:208147
+main.ts:209007
 
 ***
 
@@ -231,7 +231,7 @@ URL path received in a POST array
 
 #### Source
 
-main.ts:208145
+main.ts:209005
 
 ## Methods
 
@@ -249,7 +249,7 @@ main.ts:208145
 
 #### Source
 
-main.ts:208189
+main.ts:209049
 
 ***
 
@@ -267,7 +267,7 @@ main.ts:208189
 
 #### Source
 
-main.ts:208221
+main.ts:209081
 
 ***
 
@@ -285,4 +285,4 @@ main.ts:208221
 
 #### Source
 
-main.ts:208214
+main.ts:209074

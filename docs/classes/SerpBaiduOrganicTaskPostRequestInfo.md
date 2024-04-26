@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:68268
+main.ts:68396
 
 ## Properties
 
@@ -53,7 +53,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:68167
+main.ts:68295
 
 ***
 
@@ -72,7 +72,7 @@ default value: desktop
 
 #### Source
 
-main.ts:68215
+main.ts:68343
 
 ***
 
@@ -94,7 +94,7 @@ Note: if set to true, the charge per task will be multiplied by 10 as our system
 
 #### Source
 
-main.ts:68232
+main.ts:68360
 
 ***
 
@@ -115,7 +115,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Source
 
-main.ts:68150
+main.ts:68278
 
 ***
 
@@ -135,7 +135,7 @@ zh_CN
 
 #### Source
 
-main.ts:68186
+main.ts:68314
 
 ***
 
@@ -155,7 +155,7 @@ Chinese (Simplified)
 
 #### Source
 
-main.ts:68180
+main.ts:68308
 
 ***
 
@@ -176,7 +176,7 @@ example:
 
 #### Source
 
-main.ts:68200
+main.ts:68328
 
 ***
 
@@ -200,7 +200,7 @@ example:
 
 #### Source
 
-main.ts:68210
+main.ts:68338
 
 ***
 
@@ -221,7 +221,7 @@ New York,New York,United States
 
 #### Source
 
-main.ts:68193
+main.ts:68321
 
 ***
 
@@ -242,7 +242,7 @@ learn more at our help center
 
 #### Source
 
-main.ts:68174
+main.ts:68302
 
 ***
 
@@ -265,7 +265,7 @@ default value: android
 
 #### Source
 
-main.ts:68224
+main.ts:68352
 
 ***
 
@@ -289,7 +289,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:68264
+main.ts:68392
 
 ***
 
@@ -309,7 +309,7 @@ regular, html
 
 #### Source
 
-main.ts:68254
+main.ts:68382
 
 ***
 
@@ -333,7 +333,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:68248
+main.ts:68376
 
 ***
 
@@ -355,7 +355,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:68158
+main.ts:68286
 
 ***
 
@@ -375,7 +375,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:68238
+main.ts:68366
 
 ## Methods
 
@@ -393,7 +393,7 @@ main.ts:68238
 
 #### Source
 
-main.ts:68277
+main.ts:68405
 
 ***
 
@@ -411,7 +411,7 @@ main.ts:68277
 
 #### Source
 
-main.ts:68309
+main.ts:68437
 
 ***
 
@@ -429,4 +429,4 @@ main.ts:68309
 
 #### Source
 
-main.ts:68302
+main.ts:68430

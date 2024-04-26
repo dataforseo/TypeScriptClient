@@ -24,7 +24,7 @@ ids of the apps in a POST array
 
 #### Source
 
-main.ts:114628
+main.ts:114764
 
 ***
 
@@ -36,7 +36,7 @@ contains data related to the ranking keywords for the app specified in the app_i
 
 #### Source
 
-main.ts:114638
+main.ts:114774
 
 ***
 
@@ -48,7 +48,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:114636
+main.ts:114772
 
 ***
 
@@ -60,7 +60,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:114632
+main.ts:114768
 
 ***
 
@@ -72,7 +72,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:114630
+main.ts:114766
 
 ***
 
@@ -84,7 +84,7 @@ search engine type
 
 #### Source
 
-main.ts:114626
+main.ts:114762
 
 ***
 
@@ -96,4 +96,4 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:114634
+main.ts:114770

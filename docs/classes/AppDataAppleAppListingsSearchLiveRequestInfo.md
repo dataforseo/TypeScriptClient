@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:192404
+main.ts:193264
 
 ## Properties
 
@@ -50,7 +50,7 @@ you can specify up to 10 categories
 
 #### Source
 
-main.ts:192341
+main.ts:193201
 
 ***
 
@@ -69,7 +69,7 @@ can contain up to 200 symbols
 
 #### Source
 
-main.ts:192346
+main.ts:193206
 
 ***
 
@@ -94,7 +94,7 @@ you can receive the list of available filters by making a separate request to h
 
 #### Source
 
-main.ts:192362
+main.ts:193222
 
 ***
 
@@ -113,7 +113,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:192381
+main.ts:193241
 
 ***
 
@@ -132,7 +132,7 @@ if you specify the 10 value, the first ten entities in the results array will be
 
 #### Source
 
-main.ts:192386
+main.ts:193246
 
 ***
 
@@ -154,7 +154,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 #### Source
 
-main.ts:192394
+main.ts:193254
 
 ***
 
@@ -182,7 +182,7 @@ example:
 
 #### Source
 
-main.ts:192376
+main.ts:193236
 
 ***
 
@@ -202,7 +202,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:192400
+main.ts:193260
 
 ***
 
@@ -221,7 +221,7 @@ can contain up to 200 symbols
 
 #### Source
 
-main.ts:192351
+main.ts:193211
 
 ## Methods
 
@@ -239,7 +239,7 @@ main.ts:192351
 
 #### Source
 
-main.ts:192413
+main.ts:193273
 
 ***
 
@@ -257,7 +257,7 @@ main.ts:192413
 
 #### Source
 
-main.ts:192450
+main.ts:193310
 
 ***
 
@@ -275,4 +275,4 @@ main.ts:192450
 
 #### Source
 
-main.ts:192443
+main.ts:193303

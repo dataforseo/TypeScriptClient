@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:95590
+main.ts:95968
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:95590
 
 #### Source
 
-main.ts:20171
+main.ts:20213
 
 ***
 
@@ -68,7 +68,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:95552
+main.ts:95930
 
 ***
 
@@ -84,7 +84,7 @@ domain where a link points
 
 #### Source
 
-main.ts:95554
+main.ts:95932
 
 ***
 
@@ -103,7 +103,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:95582
+main.ts:95960
 
 ***
 
@@ -122,7 +122,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:95572
+main.ts:95950
 
 ***
 
@@ -141,7 +141,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:95577
+main.ts:95955
 
 ***
 
@@ -157,7 +157,7 @@ indicates whether the element is an ad
 
 #### Source
 
-main.ts:95560
+main.ts:95938
 
 ***
 
@@ -173,7 +173,7 @@ primary domain name in SERP
 
 #### Source
 
-main.ts:95565
+main.ts:95943
 
 ***
 
@@ -189,7 +189,7 @@ phone number
 
 #### Source
 
-main.ts:95556
+main.ts:95934
 
 ***
 
@@ -207,7 +207,7 @@ left, right
 
 #### Source
 
-main.ts:95546
+main.ts:95924
 
 ***
 
@@ -224,7 +224,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:95542
+main.ts:95920
 
 ***
 
@@ -242,7 +242,7 @@ Note: the changes are calculated even if the preceding month is not included in 
 
 #### Source
 
-main.ts:95586
+main.ts:95964
 
 ***
 
@@ -259,7 +259,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:95539
+main.ts:95917
 
 ***
 
@@ -276,7 +276,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:95563
+main.ts:95941
 
 ***
 
@@ -292,7 +292,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Source
 
-main.ts:95567
+main.ts:95945
 
 ***
 
@@ -308,7 +308,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:95550
+main.ts:95928
 
 ***
 
@@ -324,7 +324,7 @@ relevant URL of the Ad element in SERP
 
 #### Source
 
-main.ts:95558
+main.ts:95936
 
 ***
 
@@ -340,7 +340,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:95548
+main.ts:95926
 
 ## Methods
 
@@ -362,7 +362,7 @@ main.ts:95548
 
 #### Source
 
-main.ts:95595
+main.ts:95973
 
 ***
 
@@ -384,7 +384,7 @@ main.ts:95595
 
 #### Source
 
-main.ts:95629
+main.ts:96007
 
 ***
 
@@ -406,4 +406,4 @@ main.ts:95629
 
 #### Source
 
-main.ts:95622
+main.ts:96000

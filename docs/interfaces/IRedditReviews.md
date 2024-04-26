@@ -21,7 +21,7 @@ nicknname of the user who published the post in the subreddit and shared the URL
 
 #### Source
 
-main.ts:211898
+main.ts:212758
 
 ***
 
@@ -33,7 +33,7 @@ URL to the subreddit post
 
 #### Source
 
-main.ts:211902
+main.ts:212762
 
 ***
 
@@ -45,7 +45,7 @@ the name of the subreddit
 
 #### Source
 
-main.ts:211895
+main.ts:212755
 
 ***
 
@@ -57,7 +57,7 @@ number of subreddit members
 
 #### Source
 
-main.ts:211904
+main.ts:212764
 
 ***
 
@@ -69,4 +69,4 @@ title of the subreddit post
 
 #### Source
 
-main.ts:211900
+main.ts:212760

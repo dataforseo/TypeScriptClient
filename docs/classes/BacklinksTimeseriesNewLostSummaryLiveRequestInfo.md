@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:144467
+main.ts:144614
 
 ## Properties
 
@@ -55,7 +55,7 @@ example:
 
 #### Source
 
-main.ts:144435
+main.ts:144577
 
 ***
 
@@ -78,7 +78,7 @@ example:
 
 #### Source
 
-main.ts:144444
+main.ts:144586
 
 ***
 
@@ -105,7 +105,26 @@ if there is no data for a certain  day/week/month/year, we will return 0
 
 #### Source
 
-main.ts:144457
+main.ts:144599
+
+***
+
+### include\_subdomains?
+
+> **`optional`** **include\_subdomains**: `boolean`
+
+indicates if the subdomains of the target will be included in the search
+optional field
+if set to false, the subdomains will be ignored
+default value: true
+
+#### Implementation of
+
+[`IBacklinksTimeseriesNewLostSummaryLiveRequestInfo`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md).[`include_subdomains`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md#include_subdomains)
+
+#### Source
+
+main.ts:144604
 
 ***
 
@@ -125,7 +144,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:144463
+main.ts:144610
 
 ***
 
@@ -145,7 +164,7 @@ example:
 
 #### Source
 
-main.ts:144424
+main.ts:144566
 
 ## Methods
 
@@ -163,7 +182,7 @@ main.ts:144424
 
 #### Source
 
-main.ts:144476
+main.ts:144623
 
 ***
 
@@ -181,7 +200,7 @@ main.ts:144476
 
 #### Source
 
-main.ts:144497
+main.ts:144645
 
 ***
 
@@ -199,4 +218,4 @@ main.ts:144497
 
 #### Source
 
-main.ts:144490
+main.ts:144638

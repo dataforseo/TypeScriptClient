@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:215019
+main.ts:215883
 
 ## Properties
 
@@ -46,7 +46,7 @@ rate limits for API calls per a certain period of time
 
 #### Source
 
-main.ts:215013
+main.ts:215877
 
 ***
 
@@ -62,7 +62,7 @@ statisctics for API calls
 
 #### Source
 
-main.ts:215015
+main.ts:215879
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:215015
 
 #### Source
 
-main.ts:215028
+main.ts:215892
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:215028
 
 #### Source
 
-main.ts:215046
+main.ts:215910
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:215046
 
 #### Source
 
-main.ts:215039
+main.ts:215903

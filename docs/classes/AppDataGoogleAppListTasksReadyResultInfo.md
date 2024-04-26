@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:184229
+main.ts:185087
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Source
 
-main.ts:184218
+main.ts:185076
 
 ***
 
@@ -62,7 +62,7 @@ URL for collecting the results of the Google App List task
 
 #### Source
 
-main.ts:184222
+main.ts:185080
 
 ***
 
@@ -79,7 +79,7 @@ if HTML tasks are not supported in the specified endpoint, the value will be nul
 
 #### Source
 
-main.ts:184225
+main.ts:185083
 
 ***
 
@@ -96,7 +96,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:184214
+main.ts:185072
 
 ***
 
@@ -112,7 +112,7 @@ search engine specified when setting the task
 
 #### Source
 
-main.ts:184216
+main.ts:185074
 
 ***
 
@@ -128,7 +128,7 @@ user-defined task identifier
 
 #### Source
 
-main.ts:184220
+main.ts:185078
 
 ## Methods
 
@@ -146,7 +146,7 @@ main.ts:184220
 
 #### Source
 
-main.ts:184238
+main.ts:185096
 
 ***
 
@@ -164,7 +164,7 @@ main.ts:184238
 
 #### Source
 
-main.ts:184260
+main.ts:185118
 
 ***
 
@@ -182,4 +182,4 @@ main.ts:184260
 
 #### Source
 
-main.ts:184253
+main.ts:185111

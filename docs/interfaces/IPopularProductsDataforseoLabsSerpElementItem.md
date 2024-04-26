@@ -24,7 +24,7 @@ elements of search results found in SERP
 
 #### Source
 
-main.ts:97673
+main.ts:97809
 
 ***
 
@@ -38,7 +38,7 @@ left, right
 
 #### Source
 
-main.ts:97669
+main.ts:97805
 
 ***
 
@@ -51,7 +51,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:97665
+main.ts:97801
 
 ***
 
@@ -64,7 +64,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:97662
+main.ts:97798
 
 ***
 
@@ -76,4 +76,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:97671
+main.ts:97807

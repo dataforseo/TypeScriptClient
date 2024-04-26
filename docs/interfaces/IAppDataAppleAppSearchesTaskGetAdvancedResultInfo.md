@@ -21,7 +21,7 @@ in this case, the value will be null
 
 #### Source
 
-main.ts:189331
+main.ts:190191
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Source
 
-main.ts:189336
+main.ts:190196
 
 ***
 
@@ -48,7 +48,7 @@ found apps
 
 #### Source
 
-main.ts:189342
+main.ts:190202
 
 ***
 
@@ -60,7 +60,7 @@ the number of items in the results array
 
 #### Source
 
-main.ts:189340
+main.ts:190200
 
 ***
 
@@ -72,7 +72,7 @@ keyword received in a POST request
 
 #### Source
 
-main.ts:189322
+main.ts:190182
 
 ***
 
@@ -84,7 +84,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:189328
+main.ts:190188
 
 ***
 
@@ -96,7 +96,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:189326
+main.ts:190186
 
 ***
 
@@ -108,7 +108,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:189324
+main.ts:190184
 
 ***
 
@@ -120,4 +120,4 @@ the total number of results
 
 #### Source
 
-main.ts:189338
+main.ts:190198

@@ -24,7 +24,7 @@ product price without tax and shipping
 
 #### Source
 
-main.ts:172174
+main.ts:173032
 
 ***
 
@@ -38,7 +38,7 @@ USD
 
 #### Source
 
-main.ts:172185
+main.ts:173043
 
 ***
 
@@ -51,7 +51,7 @@ if there are no details, the value will be null
 
 #### Source
 
-main.ts:172172
+main.ts:173030
 
 ***
 
@@ -63,7 +63,7 @@ domain in SERP
 
 #### Source
 
-main.ts:172164
+main.ts:173022
 
 ***
 
@@ -77,7 +77,7 @@ left, right
 
 #### Source
 
-main.ts:172160
+main.ts:173018
 
 ***
 
@@ -91,7 +91,7 @@ examples: LOW PRICE, SPECIAL OFFER, SALE, PRICE DROP
 
 #### Source
 
-main.ts:172201
+main.ts:173059
 
 ***
 
@@ -104,7 +104,7 @@ possible values: Used, Refurbished, New, null
 
 #### Source
 
-main.ts:172197
+main.ts:173055
 
 ***
 
@@ -117,7 +117,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 #### Source
 
-main.ts:172156
+main.ts:173014
 
 ***
 
@@ -130,7 +130,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:172153
+main.ts:173011
 
 ***
 
@@ -143,7 +143,7 @@ the shop popularity rate based on product reviews
 
 #### Source
 
-main.ts:172191
+main.ts:173049
 
 ***
 
@@ -156,7 +156,7 @@ the name of the company that placed a corresponding product on Google Shopping
 
 #### Source
 
-main.ts:172188
+main.ts:173046
 
 ***
 
@@ -168,7 +168,7 @@ product shipping price
 
 #### Source
 
-main.ts:172179
+main.ts:173037
 
 ***
 
@@ -181,7 +181,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 #### Source
 
-main.ts:172194
+main.ts:173052
 
 ***
 
@@ -194,7 +194,7 @@ tax is specified as the actual amount of money, not as the percentage
 
 #### Source
 
-main.ts:172177
+main.ts:173035
 
 ***
 
@@ -206,7 +206,7 @@ product title
 
 #### Source
 
-main.ts:172166
+main.ts:173024
 
 ***
 
@@ -218,7 +218,7 @@ product price including tax and shipping
 
 #### Source
 
-main.ts:172181
+main.ts:173039
 
 ***
 
@@ -231,7 +231,7 @@ if you want to obtain a URL of the advertisement forwarding to the product page 
 
 #### Source
 
-main.ts:172169
+main.ts:173027
 
 ***
 
@@ -243,4 +243,4 @@ XPath of the element
 
 #### Source
 
-main.ts:172162
+main.ts:173020

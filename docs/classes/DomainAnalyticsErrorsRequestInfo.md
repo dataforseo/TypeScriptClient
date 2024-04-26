@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:73641
+main.ts:73769
 
 ## Properties
 
@@ -51,7 +51,7 @@ example:
 
 #### Source
 
-main.ts:73630
+main.ts:73758
 
 ***
 
@@ -72,7 +72,7 @@ example:
 
 #### Source
 
-main.ts:73637
+main.ts:73765
 
 ***
 
@@ -92,7 +92,7 @@ example: domain_analytics/task_get, postback_url, pingback_url
 
 #### Source
 
-main.ts:73623
+main.ts:73751
 
 ***
 
@@ -111,7 +111,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:73612
+main.ts:73740
 
 ***
 
@@ -130,7 +130,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Source
 
-main.ts:73617
+main.ts:73745
 
 ## Methods
 
@@ -148,7 +148,7 @@ main.ts:73617
 
 #### Source
 
-main.ts:73650
+main.ts:73778
 
 ***
 
@@ -166,7 +166,7 @@ main.ts:73650
 
 #### Source
 
-main.ts:73671
+main.ts:73799
 
 ***
 
@@ -184,4 +184,4 @@ main.ts:73671
 
 #### Source
 
-main.ts:73664
+main.ts:73792

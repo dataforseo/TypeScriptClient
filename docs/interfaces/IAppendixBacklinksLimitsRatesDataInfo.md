@@ -18,7 +18,7 @@
 
 #### Source
 
-main.ts:213893
+main.ts:214756
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:213893
 
 #### Source
 
-main.ts:213891
+main.ts:214754
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:213891
 
 #### Source
 
-main.ts:213898
+main.ts:214761
 
 ***
 
@@ -48,7 +48,7 @@ main.ts:213898
 
 #### Source
 
-main.ts:213899
+main.ts:214762
 
 ***
 
@@ -58,7 +58,17 @@ main.ts:213899
 
 #### Source
 
-main.ts:213900
+main.ts:214763
+
+***
+
+### bulk\_pages\_summary?
+
+> **`optional`** **bulk\_pages\_summary**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+
+#### Source
+
+main.ts:214770
 
 ***
 
@@ -68,7 +78,7 @@ main.ts:213900
 
 #### Source
 
-main.ts:213897
+main.ts:214760
 
 ***
 
@@ -78,7 +88,7 @@ main.ts:213897
 
 #### Source
 
-main.ts:213901
+main.ts:214764
 
 ***
 
@@ -88,7 +98,7 @@ main.ts:213901
 
 #### Source
 
-main.ts:213906
+main.ts:214769
 
 ***
 
@@ -98,7 +108,7 @@ main.ts:213906
 
 #### Source
 
-main.ts:213889
+main.ts:214752
 
 ***
 
@@ -108,7 +118,7 @@ main.ts:213889
 
 #### Source
 
-main.ts:213890
+main.ts:214753
 
 ***
 
@@ -118,7 +128,7 @@ main.ts:213890
 
 #### Source
 
-main.ts:213892
+main.ts:214755
 
 ***
 
@@ -128,7 +138,7 @@ main.ts:213892
 
 #### Source
 
-main.ts:213903
+main.ts:214766
 
 ***
 
@@ -138,7 +148,7 @@ main.ts:213903
 
 #### Source
 
-main.ts:213902
+main.ts:214765
 
 ***
 
@@ -148,7 +158,7 @@ main.ts:213902
 
 #### Source
 
-main.ts:213888
+main.ts:214751
 
 ***
 
@@ -158,7 +168,7 @@ main.ts:213888
 
 #### Source
 
-main.ts:213895
+main.ts:214758
 
 ***
 
@@ -168,7 +178,7 @@ main.ts:213895
 
 #### Source
 
-main.ts:213894
+main.ts:214757
 
 ***
 
@@ -178,7 +188,7 @@ main.ts:213894
 
 #### Source
 
-main.ts:213896
+main.ts:214759
 
 ***
 
@@ -188,7 +198,7 @@ main.ts:213896
 
 #### Source
 
-main.ts:213887
+main.ts:214750
 
 ***
 
@@ -198,7 +208,7 @@ main.ts:213887
 
 #### Source
 
-main.ts:213905
+main.ts:214768
 
 ***
 
@@ -208,4 +218,4 @@ main.ts:213905
 
 #### Source
 
-main.ts:213904
+main.ts:214767

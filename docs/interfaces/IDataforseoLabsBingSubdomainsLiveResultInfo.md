@@ -20,7 +20,7 @@ contains subdomains and related data
 
 #### Source
 
-main.ts:110204
+main.ts:110340
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:110202
+main.ts:110338
 
 ***
 
@@ -44,7 +44,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:110198
+main.ts:110334
 
 ***
 
@@ -56,7 +56,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:110196
+main.ts:110332
 
 ***
 
@@ -68,7 +68,7 @@ search engine type
 
 #### Source
 
-main.ts:110192
+main.ts:110328
 
 ***
 
@@ -80,7 +80,7 @@ domain in a POST array
 
 #### Source
 
-main.ts:110194
+main.ts:110330
 
 ***
 
@@ -92,4 +92,4 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:110200
+main.ts:110336

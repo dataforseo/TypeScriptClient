@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:218500
+main.ts:219368
 
 ## Properties
 
@@ -51,7 +51,7 @@ postback/pingback
 
 #### Source
 
-main.ts:218486
+main.ts:219354
 
 ***
 
@@ -75,7 +75,7 @@ send_delay
 
 #### Source
 
-main.ts:218496
+main.ts:219364
 
 ## Methods
 
@@ -93,7 +93,7 @@ main.ts:218496
 
 #### Source
 
-main.ts:218509
+main.ts:219377
 
 ***
 
@@ -111,7 +111,7 @@ main.ts:218509
 
 #### Source
 
-main.ts:218527
+main.ts:219395
 
 ***
 
@@ -129,4 +129,4 @@ main.ts:218527
 
 #### Source
 
-main.ts:218520
+main.ts:219388

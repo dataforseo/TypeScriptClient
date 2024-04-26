@@ -23,7 +23,7 @@ number of domains that match the parameters you specified and are using technolo
 
 #### Source
 
-main.ts:75205
+main.ts:75333
 
 ***
 
@@ -35,7 +35,7 @@ technology category id
 
 #### Source
 
-main.ts:75197
+main.ts:75325
 
 ***
 
@@ -47,7 +47,7 @@ technology group id
 
 #### Source
 
-main.ts:75195
+main.ts:75323
 
 ***
 
@@ -60,7 +60,7 @@ number of domains that match the parameters you specified and are using technolo
 
 #### Source
 
-main.ts:75202
+main.ts:75330
 
 ***
 
@@ -73,7 +73,7 @@ number of domains that match the parameters you specified and are using the indi
 
 #### Source
 
-main.ts:75208
+main.ts:75336
 
 ***
 
@@ -85,7 +85,7 @@ technology name
 
 #### Source
 
-main.ts:75199
+main.ts:75327
 
 ***
 
@@ -97,4 +97,4 @@ type of element
 
 #### Source
 
-main.ts:75193
+main.ts:75321

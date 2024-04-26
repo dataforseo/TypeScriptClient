@@ -20,7 +20,7 @@ keyword data for the returned keyword
 
 #### Source
 
-main.ts:102582
+main.ts:102718
 
 ***
 
@@ -32,7 +32,7 @@ contains data on the products’s SERP element found for the returned keyword
 
 #### Source
 
-main.ts:102584
+main.ts:102720
 
 ***
 
@@ -44,4 +44,4 @@ search engine type
 
 #### Source
 
-main.ts:102580
+main.ts:102716

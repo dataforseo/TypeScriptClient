@@ -20,4 +20,4 @@ ranking data from App Store organic search
 
 #### Source
 
-main.ts:113946
+main.ts:114082

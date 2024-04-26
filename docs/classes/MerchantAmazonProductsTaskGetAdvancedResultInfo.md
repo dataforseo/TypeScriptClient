@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:176916
+main.ts:177774
 
 ## Properties
 
@@ -46,7 +46,7 @@ amazon product departments and subcategories
 
 #### Source
 
-main.ts:176908
+main.ts:177766
 
 ***
 
@@ -63,7 +63,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:176891
+main.ts:177749
 
 ***
 
@@ -82,7 +82,7 @@ example:
 
 #### Source
 
-main.ts:176896
+main.ts:177754
 
 ***
 
@@ -101,7 +101,7 @@ amazon_serp, amazon_paid, editorial_recommendations, top_rated_from_our_brands, 
 
 #### Source
 
-main.ts:176904
+main.ts:177762
 
 ***
 
@@ -117,7 +117,7 @@ Amazon product items within the editorial_recommendations element
 
 #### Source
 
-main.ts:176912
+main.ts:177770
 
 ***
 
@@ -133,7 +133,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:176910
+main.ts:177768
 
 ***
 
@@ -150,7 +150,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Source
 
-main.ts:176880
+main.ts:177738
 
 ***
 
@@ -166,7 +166,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:176888
+main.ts:177746
 
 ***
 
@@ -182,7 +182,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:176886
+main.ts:177744
 
 ***
 
@@ -198,7 +198,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:176884
+main.ts:177742
 
 ***
 
@@ -214,7 +214,7 @@ search engine results count
 
 #### Source
 
-main.ts:176906
+main.ts:177764
 
 ***
 
@@ -231,7 +231,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Source
 
-main.ts:176899
+main.ts:177757
 
 ***
 
@@ -247,7 +247,7 @@ type of element
 
 #### Source
 
-main.ts:176882
+main.ts:177740
 
 ## Methods
 
@@ -265,7 +265,7 @@ main.ts:176882
 
 #### Source
 
-main.ts:176925
+main.ts:177783
 
 ***
 
@@ -283,7 +283,7 @@ main.ts:176925
 
 #### Source
 
-main.ts:176966
+main.ts:177824
 
 ***
 
@@ -301,4 +301,4 @@ main.ts:176966
 
 #### Source
 
-main.ts:176959
+main.ts:177817

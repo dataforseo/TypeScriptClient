@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:209492
+main.ts:210352
 
 ## Properties
 
@@ -47,7 +47,7 @@ contains few address lines specified by the business entity
 
 #### Source
 
-main.ts:209484
+main.ts:210344
 
 ***
 
@@ -63,7 +63,7 @@ latitude in GPS coordinates
 
 #### Source
 
-main.ts:209486
+main.ts:210346
 
 ***
 
@@ -79,7 +79,7 @@ longitude in GPS coordinates
 
 #### Source
 
-main.ts:209488
+main.ts:210348
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:209488
 
 #### Source
 
-main.ts:209501
+main.ts:210361
 
 ***
 
@@ -115,7 +115,7 @@ main.ts:209501
 
 #### Source
 
-main.ts:209524
+main.ts:210384
 
 ***
 
@@ -133,4 +133,4 @@ main.ts:209524
 
 #### Source
 
-main.ts:209517
+main.ts:210377

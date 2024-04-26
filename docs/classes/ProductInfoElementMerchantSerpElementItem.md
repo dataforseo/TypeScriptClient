@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:174788
+main.ts:175646
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:174788
 
 #### Source
 
-main.ts:20444
+main.ts:20486
 
 ***
 
@@ -68,7 +68,7 @@ description of the product
 
 #### Source
 
-main.ts:174763
+main.ts:175621
 
 ***
 
@@ -85,7 +85,7 @@ contains snippets with the description of product features
 
 #### Source
 
-main.ts:174772
+main.ts:175630
 
 ***
 
@@ -102,7 +102,7 @@ contains urls to product images
 
 #### Source
 
-main.ts:174769
+main.ts:175627
 
 ***
 
@@ -120,7 +120,7 @@ right, left
 
 #### Source
 
-main.ts:174756
+main.ts:175614
 
 ***
 
@@ -137,7 +137,7 @@ ilearn more about the parameter in this help center guide
 
 #### Source
 
-main.ts:174759
+main.ts:175617
 
 ***
 
@@ -154,7 +154,7 @@ absolute position among all the elements found on the product specification page
 
 #### Source
 
-main.ts:174752
+main.ts:175610
 
 ***
 
@@ -171,7 +171,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:174749
+main.ts:175607
 
 ***
 
@@ -188,7 +188,7 @@ the popularity rate based on reviews
 
 #### Source
 
-main.ts:174775
+main.ts:175633
 
 ***
 
@@ -205,7 +205,7 @@ number of reviews on the product seller’s account
 
 #### Source
 
-main.ts:174778
+main.ts:175636
 
 ***
 
@@ -222,7 +222,7 @@ number of reviews on the product seller’s account
 
 #### Source
 
-main.ts:174781
+main.ts:175639
 
 ***
 
@@ -238,7 +238,7 @@ title of the product
 
 #### Source
 
-main.ts:174761
+main.ts:175619
 
 ***
 
@@ -255,7 +255,7 @@ url of the product on Google Shopping
 
 #### Source
 
-main.ts:174766
+main.ts:175624
 
 ***
 
@@ -272,7 +272,7 @@ contains brief information about different product variations
 
 #### Source
 
-main.ts:174784
+main.ts:175642
 
 ## Methods
 
@@ -294,7 +294,7 @@ main.ts:174784
 
 #### Source
 
-main.ts:174793
+main.ts:175651
 
 ***
 
@@ -316,7 +316,7 @@ main.ts:174793
 
 #### Source
 
-main.ts:174839
+main.ts:175697
 
 ***
 
@@ -338,4 +338,4 @@ main.ts:174839
 
 #### Source
 
-main.ts:174832
+main.ts:175690

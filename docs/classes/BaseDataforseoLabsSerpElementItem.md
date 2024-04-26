@@ -9,6 +9,7 @@
 ## Extended by
 
 - [`OrganicDataforseoLabsSerpElementItem`](OrganicDataforseoLabsSerpElementItem.md)
+- [`PaidDataforseoLabsSerpElementItem`](PaidDataforseoLabsSerpElementItem.md)
 - [`PeopleAlsoAskDataforseoLabsSerpElementItem`](PeopleAlsoAskDataforseoLabsSerpElementItem.md)
 - [`TwitterDataforseoLabsSerpElementItem`](TwitterDataforseoLabsSerpElementItem.md)
 - [`PeopleAlsoSearchDataforseoLabsSerpElementItem`](PeopleAlsoSearchDataforseoLabsSerpElementItem.md)
@@ -32,7 +33,6 @@
 - [`KnowledgeGraphPartItemDataforseoLabsSerpElementItem`](KnowledgeGraphPartItemDataforseoLabsSerpElementItem.md)
 - [`KnowledgeGraphExpandedItemDataforseoLabsSerpElementItem`](KnowledgeGraphExpandedItemDataforseoLabsSerpElementItem.md)
 - [`KnowledgeGraphShoppingItemDataforseoLabsSerpElementItem`](KnowledgeGraphShoppingItemDataforseoLabsSerpElementItem.md)
-- [`PaidDataforseoLabsSerpElementItem`](PaidDataforseoLabsSerpElementItem.md)
 - [`GoogleReviewsDataforseoLabsSerpElementItem`](GoogleReviewsDataforseoLabsSerpElementItem.md)
 - [`GooglePostsDataforseoLabsSerpElementItem`](GooglePostsDataforseoLabsSerpElementItem.md)
 - [`GoogleFlightsDataforseoLabsSerpElementItem`](GoogleFlightsDataforseoLabsSerpElementItem.md)
@@ -78,7 +78,7 @@
 
 #### Source
 
-main.ts:20173
+main.ts:20215
 
 ## Properties
 
@@ -88,7 +88,7 @@ main.ts:20173
 
 #### Source
 
-main.ts:20171
+main.ts:20213
 
 ## Methods
 
@@ -106,7 +106,7 @@ main.ts:20171
 
 #### Source
 
-main.ts:20183
+main.ts:20225
 
 ***
 
@@ -124,7 +124,7 @@ main.ts:20183
 
 #### Source
 
-main.ts:20424
+main.ts:20466
 
 ***
 
@@ -142,4 +142,4 @@ main.ts:20424
 
 #### Source
 
-main.ts:20192
+main.ts:20234

@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:209669
+main.ts:210529
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:209669
 
 #### Source
 
-main.ts:20532
+main.ts:20660
 
 ***
 
@@ -69,7 +69,7 @@ displayed only if the request contained the corresponding field
 
 #### Source
 
-main.ts:209634
+main.ts:210494
 
 ***
 
@@ -87,7 +87,7 @@ example:
 
 #### Source
 
-main.ts:209663
+main.ts:210523
 
 ***
 
@@ -103,7 +103,7 @@ link to the Yelp profile of the business entity
 
 #### Source
 
-main.ts:209631
+main.ts:210491
 
 ***
 
@@ -119,7 +119,7 @@ categories related to the business entity
 
 #### Source
 
-main.ts:209653
+main.ts:210513
 
 ***
 
@@ -135,7 +135,7 @@ description containing the featured review
 
 #### Source
 
-main.ts:209638
+main.ts:210498
 
 ***
 
@@ -151,7 +151,7 @@ Yelp guaranteed label
 
 #### Source
 
-main.ts:209649
+main.ts:210509
 
 ***
 
@@ -167,7 +167,7 @@ information about the location of the business entity
 
 #### Source
 
-main.ts:209640
+main.ts:210500
 
 ***
 
@@ -183,7 +183,7 @@ name of the business entity
 
 #### Source
 
-main.ts:209636
+main.ts:210496
 
 ***
 
@@ -201,7 +201,7 @@ example:
 
 #### Source
 
-main.ts:209647
+main.ts:210507
 
 ***
 
@@ -217,7 +217,7 @@ links to photos appearing in the result
 
 #### Source
 
-main.ts:209655
+main.ts:210515
 
 ***
 
@@ -234,7 +234,7 @@ indicates the number of currency signs next to the business listing correspondin
 
 #### Source
 
-main.ts:209643
+main.ts:210503
 
 ***
 
@@ -251,7 +251,7 @@ absolute position among all reviews on the list
 
 #### Source
 
-main.ts:209625
+main.ts:210485
 
 ***
 
@@ -268,7 +268,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:209622
+main.ts:210482
 
 ***
 
@@ -284,7 +284,7 @@ the rating score submitted by the reviewer
 
 #### Source
 
-main.ts:209651
+main.ts:210511
 
 ***
 
@@ -300,7 +300,7 @@ tags corresponding to the availability of certain business offerings
 
 #### Source
 
-main.ts:209665
+main.ts:210525
 
 ***
 
@@ -318,7 +318,7 @@ example:
 
 #### Source
 
-main.ts:209659
+main.ts:210519
 
 ***
 
@@ -336,7 +336,7 @@ example:
 
 #### Source
 
-main.ts:209629
+main.ts:210489
 
 ## Methods
 
@@ -358,7 +358,7 @@ main.ts:209629
 
 #### Source
 
-main.ts:209674
+main.ts:210534
 
 ***
 
@@ -380,7 +380,7 @@ main.ts:209674
 
 #### Source
 
-main.ts:209728
+main.ts:210588
 
 ***
 
@@ -402,4 +402,4 @@ main.ts:209728
 
 #### Source
 
-main.ts:209721
+main.ts:210581

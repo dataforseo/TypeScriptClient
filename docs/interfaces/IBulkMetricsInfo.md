@@ -20,7 +20,7 @@ total count of organic SERPs that contain the domain
 
 #### Source
 
-main.ts:99950
+main.ts:100086
 
 ***
 
@@ -35,4 +35,4 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:99948
+main.ts:100084

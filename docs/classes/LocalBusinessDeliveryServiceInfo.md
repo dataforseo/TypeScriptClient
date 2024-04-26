@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:22908
+main.ts:23036
 
 ## Properties
 
@@ -47,7 +47,7 @@ domain of the online food ordering system
 
 #### Source
 
-main.ts:22902
+main.ts:23030
 
 ***
 
@@ -63,7 +63,7 @@ type of element
 
 #### Source
 
-main.ts:22899
+main.ts:23027
 
 ***
 
@@ -79,7 +79,7 @@ URL to place an order
 
 #### Source
 
-main.ts:22904
+main.ts:23032
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:22904
 
 #### Source
 
-main.ts:22917
+main.ts:23045
 
 ***
 
@@ -115,7 +115,7 @@ main.ts:22917
 
 #### Source
 
-main.ts:22936
+main.ts:23064
 
 ***
 
@@ -133,4 +133,4 @@ main.ts:22936
 
 #### Source
 
-main.ts:22929
+main.ts:23057

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:194035
+main.ts:194895
 
 ## Properties
 
@@ -50,7 +50,7 @@ you can specify up to 10 categories
 
 #### Source
 
-main.ts:193961
+main.ts:194821
 
 ***
 
@@ -69,7 +69,7 @@ can contain up to 200 symbols
 
 #### Source
 
-main.ts:193966
+main.ts:194826
 
 ***
 
@@ -94,7 +94,7 @@ you can receive the list of available filters by making a separate request to h
 
 #### Source
 
-main.ts:193994
+main.ts:194854
 
 ***
 
@@ -111,7 +111,7 @@ optional field
 
 #### Source
 
-main.ts:193974
+main.ts:194834
 
 ***
 
@@ -130,7 +130,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:194012
+main.ts:194872
 
 ***
 
@@ -153,7 +153,7 @@ example:
 
 #### Source
 
-main.ts:193983
+main.ts:194843
 
 ***
 
@@ -172,7 +172,7 @@ if you specify the 10 value, the first ten entities in the results array will be
 
 #### Source
 
-main.ts:194017
+main.ts:194877
 
 ***
 
@@ -194,7 +194,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 #### Source
 
-main.ts:194025
+main.ts:194885
 
 ***
 
@@ -221,7 +221,7 @@ example:
 
 #### Source
 
-main.ts:194007
+main.ts:194867
 
 ***
 
@@ -241,7 +241,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:194031
+main.ts:194891
 
 ***
 
@@ -260,7 +260,7 @@ can contain up to 200 symbols
 
 #### Source
 
-main.ts:193971
+main.ts:194831
 
 ## Methods
 
@@ -278,7 +278,7 @@ main.ts:193971
 
 #### Source
 
-main.ts:194044
+main.ts:194904
 
 ***
 
@@ -296,7 +296,7 @@ main.ts:194044
 
 #### Source
 
-main.ts:194083
+main.ts:194943
 
 ***
 
@@ -314,4 +314,4 @@ main.ts:194083
 
 #### Source
 
-main.ts:194076
+main.ts:194936

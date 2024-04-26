@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:135078
+main.ts:135212
 
 ## Properties
 
@@ -46,23 +46,7 @@ indicates the number of backlinks
 
 #### Source
 
-main.ts:135006
-
-***
-
-### backlinks\_nofollow?
-
-> **`optional`** **backlinks\_nofollow**: `number`
-
-number of nofollow backlinks pointing to the target
-
-#### Implementation of
-
-[`IBacklinksSummaryLiveResultInfo`](../interfaces/IBacklinksSummaryLiveResultInfo.md).[`backlinks_nofollow`](../interfaces/IBacklinksSummaryLiveResultInfo.md#backlinks_nofollow)
-
-#### Source
-
-main.ts:135074
+main.ts:135142
 
 ***
 
@@ -80,7 +64,7 @@ to learn more about how the metric is calculated, refer to this Help Center page
 
 #### Source
 
-main.ts:135010
+main.ts:135146
 
 ***
 
@@ -97,7 +81,7 @@ number of broken backlinks pointing to the target
 
 #### Source
 
-main.ts:135023
+main.ts:135159
 
 ***
 
@@ -115,7 +99,7 @@ note that the number of broken pages includes pages on the target discovered by 
 
 #### Source
 
-main.ts:135027
+main.ts:135163
 
 ***
 
@@ -131,7 +115,7 @@ number of crawled pages for the target
 
 #### Source
 
-main.ts:135012
+main.ts:135148
 
 ***
 
@@ -148,7 +132,7 @@ calculated as the sum of external links on the pages of the specified target
 
 #### Source
 
-main.ts:135020
+main.ts:135156
 
 ***
 
@@ -167,7 +151,7 @@ example:
 
 #### Source
 
-main.ts:134995
+main.ts:135131
 
 ***
 
@@ -183,7 +167,7 @@ information about the target
 
 #### Source
 
-main.ts:135014
+main.ts:135150
 
 ***
 
@@ -200,7 +184,7 @@ calculated as the sum of internal links on the pages of the specified target
 
 #### Source
 
-main.ts:135017
+main.ts:135153
 
 ***
 
@@ -220,7 +204,7 @@ example:
 
 #### Source
 
-main.ts:135001
+main.ts:135137
 
 ***
 
@@ -237,7 +221,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Source
 
-main.ts:135004
+main.ts:135140
 
 ***
 
@@ -254,7 +238,7 @@ referring domains include subdomains that are counted as separate domains for th
 
 #### Source
 
-main.ts:135030
+main.ts:135166
 
 ***
 
@@ -270,7 +254,7 @@ number of domains pointing at least one nofollow link to the target
 
 #### Source
 
-main.ts:135032
+main.ts:135168
 
 ***
 
@@ -287,7 +271,7 @@ number of IP addresses pointing to this page
 
 #### Source
 
-main.ts:135039
+main.ts:135175
 
 ***
 
@@ -310,7 +294,7 @@ nofollow, noopener, noreferrer, external, ugc, sponsored
 
 #### Source
 
-main.ts:135056
+main.ts:135192
 
 ***
 
@@ -331,7 +315,7 @@ indicates ISO country codes of the domains where the referring links are located
 
 #### Source
 
-main.ts:135070
+main.ts:135206
 
 ***
 
@@ -354,7 +338,7 @@ cms, blogs, unknown, ecommerce, message-boards
 
 #### Source
 
-main.ts:135061
+main.ts:135197
 
 ***
 
@@ -378,7 +362,7 @@ article, section, summary, ""
 
 #### Source
 
-main.ts:135067
+main.ts:135203
 
 ***
 
@@ -399,7 +383,7 @@ contains top level domains and referring link count per each
 
 #### Source
 
-main.ts:135046
+main.ts:135182
 
 ***
 
@@ -422,7 +406,7 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 #### Source
 
-main.ts:135051
+main.ts:135187
 
 ***
 
@@ -438,7 +422,7 @@ indicates the number of referring main domains
 
 #### Source
 
-main.ts:135034
+main.ts:135170
 
 ***
 
@@ -454,7 +438,7 @@ number of main domains pointing at least one nofollow link to the target
 
 #### Source
 
-main.ts:135036
+main.ts:135172
 
 ***
 
@@ -470,7 +454,7 @@ indicates the number of pages pointing to the target
 
 #### Source
 
-main.ts:135043
+main.ts:135179
 
 ***
 
@@ -486,7 +470,7 @@ number of referring pages pointing at least one nofollow link to the target
 
 #### Source
 
-main.ts:135072
+main.ts:135208
 
 ***
 
@@ -502,7 +486,7 @@ number of referring subnetworks
 
 #### Source
 
-main.ts:135041
+main.ts:135177
 
 ***
 
@@ -518,7 +502,7 @@ target in a POST array
 
 #### Source
 
-main.ts:134990
+main.ts:135126
 
 ## Methods
 
@@ -536,7 +520,7 @@ main.ts:134990
 
 #### Source
 
-main.ts:135087
+main.ts:135221
 
 ***
 
@@ -554,7 +538,7 @@ main.ts:135087
 
 #### Source
 
-main.ts:135166
+main.ts:135299
 
 ***
 
@@ -572,4 +556,4 @@ main.ts:135166
 
 #### Source
 
-main.ts:135159
+main.ts:135292

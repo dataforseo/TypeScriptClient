@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:197620
+main.ts:198480
 
 ## Properties
 
@@ -59,7 +59,7 @@ default value: 10
 
 #### Source
 
-main.ts:197616
+main.ts:198476
 
 ***
 
@@ -93,7 +93,7 @@ learn more about the cid and place_id identifiers in this help center article
 
 #### Source
 
-main.ts:188713
+main.ts:189571
 
 ***
 
@@ -118,7 +118,7 @@ en
 
 #### Source
 
-main.ts:188758
+main.ts:189617
 
 ***
 
@@ -143,7 +143,7 @@ English
 
 #### Source
 
-main.ts:188751
+main.ts:189610
 
 ***
 
@@ -168,7 +168,7 @@ example:
 
 #### Source
 
-main.ts:188735
+main.ts:189593
 
 ***
 
@@ -181,7 +181,8 @@ required field if you don’t specify location_name or location_code
 if you use this field, you don’t need to specify location_name or location_code
 location_coordinate parameter should be specified in the “latitude,longitude,radius” format
 the maximum number of decimal digits for “latitude” and “longitude”: 7
-the minimum value for “radius”: 199.9
+the minimum value for “radius”: 199.9 (mm)
+the maximum value for “radius”: 199999 (mm)
 example:
 53.476225,-2.243572,200
 
@@ -195,7 +196,7 @@ example:
 
 #### Source
 
-main.ts:188744
+main.ts:189603
 
 ***
 
@@ -220,7 +221,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:188728
+main.ts:189586
 
 ***
 
@@ -248,7 +249,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:188784
+main.ts:189643
 
 ***
 
@@ -276,7 +277,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:188774
+main.ts:189633
 
 ***
 
@@ -302,7 +303,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:188721
+main.ts:189579
 
 ***
 
@@ -326,7 +327,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:188764
+main.ts:189623
 
 ## Methods
 
@@ -348,7 +349,7 @@ main.ts:188764
 
 #### Source
 
-main.ts:197624
+main.ts:198484
 
 ***
 
@@ -370,7 +371,7 @@ main.ts:197624
 
 #### Source
 
-main.ts:197642
+main.ts:198502
 
 ***
 
@@ -392,4 +393,4 @@ main.ts:197642
 
 #### Source
 
-main.ts:197635
+main.ts:198495

@@ -20,7 +20,7 @@ index volume data for the past 12 months
 
 #### Source
 
-main.ts:134607
+main.ts:134743
 
 ***
 
@@ -32,7 +32,7 @@ total number of backlinks our database contains for the moment of checking
 
 #### Source
 
-main.ts:134601
+main.ts:134737
 
 ***
 
@@ -44,7 +44,7 @@ total number of domains our database contains for the moment of checking
 
 #### Source
 
-main.ts:134605
+main.ts:134741
 
 ***
 
@@ -56,4 +56,4 @@ total number of pages our database contains for the moment of checking
 
 #### Source
 
-main.ts:134603
+main.ts:134739

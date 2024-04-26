@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:82057
+main.ts:82185
 
 ## Properties
 
@@ -47,7 +47,7 @@ this object provides the average number of backlinks, referring pages and domain
 
 #### Source
 
-main.ts:82050
+main.ts:82178
 
 ***
 
@@ -66,7 +66,7 @@ learn more about impressions in this help center article
 
 #### Source
 
-main.ts:82044
+main.ts:82172
 
 ***
 
@@ -82,7 +82,7 @@ returned keyword idea
 
 #### Source
 
-main.ts:82031
+main.ts:82159
 
 ***
 
@@ -98,7 +98,7 @@ keyword data for the returned keyword idea
 
 #### Source
 
-main.ts:82037
+main.ts:82165
 
 ***
 
@@ -114,7 +114,7 @@ additional information about the keyword
 
 #### Source
 
-main.ts:82039
+main.ts:82167
 
 ***
 
@@ -130,7 +130,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:82035
+main.ts:82163
 
 ***
 
@@ -146,7 +146,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:82033
+main.ts:82161
 
 ***
 
@@ -162,7 +162,7 @@ search engine type
 
 #### Source
 
-main.ts:82029
+main.ts:82157
 
 ***
 
@@ -179,7 +179,7 @@ learn about search intent in this help center article
 
 #### Source
 
-main.ts:82053
+main.ts:82181
 
 ***
 
@@ -196,7 +196,7 @@ the value will be null if you didn’t set the field include_serp_info to true i
 
 #### Source
 
-main.ts:82047
+main.ts:82175
 
 ## Methods
 
@@ -214,7 +214,7 @@ main.ts:82047
 
 #### Source
 
-main.ts:82066
+main.ts:82194
 
 ***
 
@@ -232,7 +232,7 @@ main.ts:82066
 
 #### Source
 
-main.ts:82092
+main.ts:82220
 
 ***
 
@@ -250,4 +250,4 @@ main.ts:82092
 
 #### Source
 
-main.ts:82085
+main.ts:82213

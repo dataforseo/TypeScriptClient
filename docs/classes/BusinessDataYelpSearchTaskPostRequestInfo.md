@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:209034
+main.ts:209894
 
 ## Properties
 
@@ -51,7 +51,7 @@ maximal value: 70
 
 #### Source
 
-main.ts:208995
+main.ts:209855
 
 ***
 
@@ -72,7 +72,7 @@ Note: if the keyword is not specified, the results will be returned based on the
 
 #### Source
 
-main.ts:208952
+main.ts:209812
 
 ***
 
@@ -93,7 +93,7 @@ en
 
 #### Source
 
-main.ts:208988
+main.ts:209848
 
 ***
 
@@ -114,7 +114,7 @@ English
 
 #### Source
 
-main.ts:208981
+main.ts:209841
 
 ***
 
@@ -135,7 +135,7 @@ example:
 
 #### Source
 
-main.ts:208974
+main.ts:209834
 
 ***
 
@@ -156,7 +156,7 @@ West Los Angeles,California,United States
 
 #### Source
 
-main.ts:208967
+main.ts:209827
 
 ***
 
@@ -180,7 +180,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:209030
+main.ts:209890
 
 ***
 
@@ -204,7 +204,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:209020
+main.ts:209880
 
 ***
 
@@ -226,7 +226,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:208960
+main.ts:209820
 
 ***
 
@@ -249,7 +249,7 @@ default value: recommended
 
 #### Source
 
-main.ts:209004
+main.ts:209864
 
 ***
 
@@ -269,7 +269,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:209010
+main.ts:209870
 
 ## Methods
 
@@ -287,7 +287,7 @@ main.ts:209010
 
 #### Source
 
-main.ts:209043
+main.ts:209903
 
 ***
 
@@ -305,7 +305,7 @@ main.ts:209043
 
 #### Source
 
-main.ts:209070
+main.ts:209930
 
 ***
 
@@ -323,4 +323,4 @@ main.ts:209070
 
 #### Source
 
-main.ts:209063
+main.ts:209923

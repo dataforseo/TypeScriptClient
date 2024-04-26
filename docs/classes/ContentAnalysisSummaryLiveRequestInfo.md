@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:162700
+main.ts:163644
 
 ## Properties
 
@@ -61,7 +61,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 #### Source
 
-main.ts:162690
+main.ts:163634
 
 ***
 
@@ -86,7 +86,7 @@ maximum value: 20
 
 #### Source
 
-main.ts:162658
+main.ts:163602
 
 ***
 
@@ -109,7 +109,7 @@ example:
 
 #### Source
 
-main.ts:162629
+main.ts:163573
 
 ***
 
@@ -139,7 +139,7 @@ example:
 
 #### Source
 
-main.ts:162641
+main.ts:163585
 
 ***
 
@@ -159,7 +159,7 @@ possible values:
 
 #### Source
 
-main.ts:162647
+main.ts:163591
 
 ***
 
@@ -180,7 +180,7 @@ default value: 0.4
 
 #### Source
 
-main.ts:162665
+main.ts:163609
 
 ***
 
@@ -202,7 +202,7 @@ default value: 0.4
 
 #### Source
 
-main.ts:162673
+main.ts:163617
 
 ***
 
@@ -222,7 +222,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:162696
+main.ts:163640
 
 ## Methods
 
@@ -240,7 +240,7 @@ main.ts:162696
 
 #### Source
 
-main.ts:162709
+main.ts:163653
 
 ***
 
@@ -258,7 +258,7 @@ main.ts:162709
 
 #### Source
 
-main.ts:162747
+main.ts:163691
 
 ***
 
@@ -276,4 +276,4 @@ main.ts:162747
 
 #### Source
 
-main.ts:162740
+main.ts:163684

@@ -9,6 +9,7 @@
 ## Extended by
 
 - [`IOrganicDataforseoLabsSerpElementItem`](IOrganicDataforseoLabsSerpElementItem.md)
+- [`IPaidDataforseoLabsSerpElementItem`](IPaidDataforseoLabsSerpElementItem.md)
 - [`IPeopleAlsoAskDataforseoLabsSerpElementItem`](IPeopleAlsoAskDataforseoLabsSerpElementItem.md)
 - [`ITwitterDataforseoLabsSerpElementItem`](ITwitterDataforseoLabsSerpElementItem.md)
 - [`IPeopleAlsoSearchDataforseoLabsSerpElementItem`](IPeopleAlsoSearchDataforseoLabsSerpElementItem.md)
@@ -32,7 +33,6 @@
 - [`IKnowledgeGraphPartItemDataforseoLabsSerpElementItem`](IKnowledgeGraphPartItemDataforseoLabsSerpElementItem.md)
 - [`IKnowledgeGraphExpandedItemDataforseoLabsSerpElementItem`](IKnowledgeGraphExpandedItemDataforseoLabsSerpElementItem.md)
 - [`IKnowledgeGraphShoppingItemDataforseoLabsSerpElementItem`](IKnowledgeGraphShoppingItemDataforseoLabsSerpElementItem.md)
-- [`IPaidDataforseoLabsSerpElementItem`](IPaidDataforseoLabsSerpElementItem.md)
 - [`IGoogleReviewsDataforseoLabsSerpElementItem`](IGoogleReviewsDataforseoLabsSerpElementItem.md)
 - [`IGooglePostsDataforseoLabsSerpElementItem`](IGooglePostsDataforseoLabsSerpElementItem.md)
 - [`IGoogleFlightsDataforseoLabsSerpElementItem`](IGoogleFlightsDataforseoLabsSerpElementItem.md)

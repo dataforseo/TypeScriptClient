@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:99769
+main.ts:99905
 
 ## Properties
 
@@ -53,7 +53,7 @@ default value:
 
 #### Source
 
-main.ts:99759
+main.ts:99895
 
 ***
 
@@ -75,7 +75,7 @@ en
 
 #### Source
 
-main.ts:99750
+main.ts:99886
 
 ***
 
@@ -97,7 +97,7 @@ English
 
 #### Source
 
-main.ts:99742
+main.ts:99878
 
 ***
 
@@ -119,7 +119,7 @@ example:
 
 #### Source
 
-main.ts:99734
+main.ts:99870
 
 ***
 
@@ -141,7 +141,7 @@ United Kingdom
 
 #### Source
 
-main.ts:99726
+main.ts:99862
 
 ***
 
@@ -161,7 +161,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:99765
+main.ts:99901
 
 ***
 
@@ -182,7 +182,7 @@ you can set up to 1000 domains, subdomains or webpages
 
 #### Source
 
-main.ts:99718
+main.ts:99854
 
 ## Methods
 
@@ -200,7 +200,7 @@ main.ts:99718
 
 #### Source
 
-main.ts:99778
+main.ts:99914
 
 ***
 
@@ -218,7 +218,7 @@ main.ts:99778
 
 #### Source
 
-main.ts:99809
+main.ts:99945
 
 ***
 
@@ -236,4 +236,4 @@ main.ts:99809
 
 #### Source
 
-main.ts:99802
+main.ts:99938

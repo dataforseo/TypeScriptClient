@@ -20,7 +20,7 @@ website domain
 
 #### Source
 
-main.ts:34386
+main.ts:34514
 
 ***
 
@@ -32,7 +32,7 @@ price indicated in the element
 
 #### Source
 
-main.ts:34388
+main.ts:34516
 
 ***
 
@@ -45,7 +45,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:34394
+main.ts:34522
 
 ***
 
@@ -58,7 +58,7 @@ indicates the source of information included in the top_stories_element
 
 #### Source
 
-main.ts:34391
+main.ts:34519
 
 ***
 
@@ -70,7 +70,7 @@ title of a given link element
 
 #### Source
 
-main.ts:34382
+main.ts:34510
 
 ***
 
@@ -82,7 +82,7 @@ type of element
 
 #### Source
 
-main.ts:34380
+main.ts:34508
 
 ***
 
@@ -94,4 +94,4 @@ URL
 
 #### Source
 
-main.ts:34384
+main.ts:34512

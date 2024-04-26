@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:174954
+main.ts:175812
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:174936
+main.ts:175794
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Source
 
-main.ts:174941
+main.ts:175799
 
 ***
 
@@ -84,7 +84,7 @@ product_info_element
 
 #### Source
 
-main.ts:174945
+main.ts:175803
 
 ***
 
@@ -101,7 +101,7 @@ contains all product attributes and related data listed on the product page
 
 #### Source
 
-main.ts:174950
+main.ts:175808
 
 ***
 
@@ -117,7 +117,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:174947
+main.ts:175805
 
 ***
 
@@ -133,7 +133,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:174933
+main.ts:175791
 
 ***
 
@@ -149,7 +149,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:174931
+main.ts:175789
 
 ***
 
@@ -166,7 +166,7 @@ learn more about the parameter in this help center guide
 
 #### Source
 
-main.ts:174925
+main.ts:175783
 
 ***
 
@@ -182,7 +182,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:174929
+main.ts:175787
 
 ***
 
@@ -198,7 +198,7 @@ type of element
 
 #### Source
 
-main.ts:174927
+main.ts:175785
 
 ## Methods
 
@@ -216,7 +216,7 @@ main.ts:174927
 
 #### Source
 
-main.ts:174963
+main.ts:175821
 
 ***
 
@@ -234,7 +234,7 @@ main.ts:174963
 
 #### Source
 
-main.ts:174997
+main.ts:175855
 
 ***
 
@@ -252,4 +252,4 @@ main.ts:174997
 
 #### Source
 
-main.ts:174990
+main.ts:175848

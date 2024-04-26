@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:26868
+main.ts:26996
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:26868
 
 #### Source
 
-main.ts:19788
+main.ts:19830
 
 ***
 
@@ -70,7 +70,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:26860
+main.ts:26988
 
 ***
 
@@ -88,7 +88,7 @@ left, right
 
 #### Source
 
-main.ts:26852
+main.ts:26980
 
 ***
 
@@ -105,7 +105,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:26848
+main.ts:26976
 
 ***
 
@@ -123,7 +123,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:26845
+main.ts:26973
 
 ***
 
@@ -141,7 +141,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Source
 
-main.ts:26864
+main.ts:26992
 
 ***
 
@@ -157,7 +157,7 @@ description content
 
 #### Source
 
-main.ts:26856
+main.ts:26984
 
 ***
 
@@ -173,7 +173,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:26854
+main.ts:26982
 
 ## Methods
 
@@ -195,7 +195,7 @@ main.ts:26854
 
 #### Source
 
-main.ts:26873
+main.ts:27001
 
 ***
 
@@ -217,7 +217,7 @@ main.ts:26873
 
 #### Source
 
-main.ts:26901
+main.ts:27029
 
 ***
 
@@ -239,4 +239,4 @@ main.ts:26901
 
 #### Source
 
-main.ts:26894
+main.ts:27022

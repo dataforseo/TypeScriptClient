@@ -23,7 +23,7 @@ you can download the full list of possible categories
 
 #### Source
 
-main.ts:86881
+main.ts:87009
 
 ***
 
@@ -40,7 +40,7 @@ Note: we do not recommend setting correlate to false
 
 #### Source
 
-main.ts:86972
+main.ts:87100
 
 ***
 
@@ -54,7 +54,7 @@ if specified, the API will return only domains with organic_etv lesser than the 
 
 #### Source
 
-main.ts:86965
+main.ts:87093
 
 ***
 
@@ -68,7 +68,7 @@ if specified, the API will return only domains with organic_etv greater than the
 
 #### Source
 
-main.ts:86961
+main.ts:87089
 
 ***
 
@@ -89,7 +89,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:86993
+main.ts:87121
 
 ***
 
@@ -110,7 +110,7 @@ minimum date: "2020-10-01"
 
 #### Source
 
-main.ts:86892
+main.ts:87020
 
 ***
 
@@ -126,7 +126,7 @@ default value: true
 
 #### Source
 
-main.ts:86957
+main.ts:87085
 
 ***
 
@@ -145,7 +145,7 @@ default value:
 
 #### Source
 
-main.ts:86943
+main.ts:87071
 
 ***
 
@@ -162,7 +162,7 @@ en
 
 #### Source
 
-main.ts:86934
+main.ts:87062
 
 ***
 
@@ -180,7 +180,7 @@ English
 
 #### Source
 
-main.ts:86927
+main.ts:87055
 
 ***
 
@@ -195,7 +195,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:86977
+main.ts:87105
 
 ***
 
@@ -213,7 +213,7 @@ example:
 
 #### Source
 
-main.ts:86919
+main.ts:87047
 
 ***
 
@@ -231,7 +231,7 @@ United Kingdom
 
 #### Source
 
-main.ts:86911
+main.ts:87039
 
 ***
 
@@ -246,7 +246,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 #### Source
 
-main.ts:86982
+main.ts:87110
 
 ***
 
@@ -271,7 +271,7 @@ example:
 
 #### Source
 
-main.ts:87008
+main.ts:87136
 
 ***
 
@@ -292,7 +292,7 @@ minimum date: "2020-10-01"
 
 #### Source
 
-main.ts:86903
+main.ts:87031
 
 ***
 
@@ -308,7 +308,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:87014
+main.ts:87142
 
 ***
 
@@ -326,4 +326,4 @@ maximum value: 5
 
 #### Source
 
-main.ts:86951
+main.ts:87079

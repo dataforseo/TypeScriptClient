@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:165616
+main.ts:166560
 
 ## Properties
 
@@ -46,7 +46,7 @@ resulting text
 
 #### Source
 
-main.ts:165608
+main.ts:166552
 
 ***
 
@@ -62,7 +62,7 @@ number of input tokens
 
 #### Source
 
-main.ts:165602
+main.ts:166546
 
 ***
 
@@ -78,7 +78,7 @@ number of new tokens
 
 #### Source
 
-main.ts:165606
+main.ts:166550
 
 ***
 
@@ -94,7 +94,7 @@ number of output tokens
 
 #### Source
 
-main.ts:165604
+main.ts:166548
 
 ***
 
@@ -112,7 +112,7 @@ supplement_token values are unique for each subsequent task
 
 #### Source
 
-main.ts:165612
+main.ts:166556
 
 ## Methods
 
@@ -130,7 +130,7 @@ main.ts:165612
 
 #### Source
 
-main.ts:165625
+main.ts:166569
 
 ***
 
@@ -148,7 +148,7 @@ main.ts:165625
 
 #### Source
 
-main.ts:165646
+main.ts:166590
 
 ***
 
@@ -166,4 +166,4 @@ main.ts:165646
 
 #### Source
 
-main.ts:165639
+main.ts:166583

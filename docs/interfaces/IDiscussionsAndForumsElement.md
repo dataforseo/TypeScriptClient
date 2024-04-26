@@ -20,7 +20,7 @@ description
 
 #### Source
 
-main.ts:36665
+main.ts:36793
 
 ***
 
@@ -32,7 +32,7 @@ website domain
 
 #### Source
 
-main.ts:36660
+main.ts:36788
 
 ***
 
@@ -44,7 +44,7 @@ number of posts from the discussion on the related source
 
 #### Source
 
-main.ts:36672
+main.ts:36800
 
 ***
 
@@ -57,7 +57,7 @@ indicates the source of information included in the top_stories_element
 
 #### Source
 
-main.ts:36663
+main.ts:36791
 
 ***
 
@@ -72,7 +72,7 @@ example:
 
 #### Source
 
-main.ts:36670
+main.ts:36798
 
 ***
 
@@ -84,7 +84,7 @@ title of a given link element
 
 #### Source
 
-main.ts:36656
+main.ts:36784
 
 ***
 
@@ -96,7 +96,7 @@ type of element
 
 #### Source
 
-main.ts:36654
+main.ts:36782
 
 ***
 
@@ -108,4 +108,4 @@ URL
 
 #### Source
 
-main.ts:36658
+main.ts:36786

@@ -20,7 +20,7 @@ traffic data from the local pack results in SERP
 
 #### Source
 
-main.ts:100622
+main.ts:100758
 
 ***
 
@@ -32,7 +32,7 @@ traffic data from the featured snippet results in Google SERP
 
 #### Source
 
-main.ts:100620
+main.ts:100756
 
 ***
 
@@ -44,7 +44,7 @@ traffic data from organic search
 
 #### Source
 
-main.ts:100616
+main.ts:100752
 
 ***
 
@@ -56,4 +56,4 @@ traffic data from paid search
 
 #### Source
 
-main.ts:100618
+main.ts:100754

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:30096
+main.ts:30224
 
 ## Properties
 
@@ -46,7 +46,7 @@ author
 
 #### Source
 
-main.ts:30079
+main.ts:30207
 
 ***
 
@@ -62,7 +62,7 @@ contract type
 
 #### Source
 
-main.ts:30088
+main.ts:30216
 
 ***
 
@@ -78,7 +78,7 @@ description
 
 #### Source
 
-main.ts:30077
+main.ts:30205
 
 ***
 
@@ -94,7 +94,7 @@ the time when the job was posted
 
 #### Source
 
-main.ts:30081
+main.ts:30209
 
 ***
 
@@ -110,7 +110,7 @@ salary
 
 #### Source
 
-main.ts:30090
+main.ts:30218
 
 ***
 
@@ -129,7 +129,7 @@ example:
 
 #### Source
 
-main.ts:30086
+main.ts:30214
 
 ***
 
@@ -145,7 +145,7 @@ title of a given link element
 
 #### Source
 
-main.ts:30075
+main.ts:30203
 
 ***
 
@@ -161,7 +161,7 @@ type of element
 
 #### Source
 
-main.ts:30073
+main.ts:30201
 
 ***
 
@@ -177,7 +177,7 @@ URL
 
 #### Source
 
-main.ts:30092
+main.ts:30220
 
 ## Methods
 
@@ -195,7 +195,7 @@ main.ts:30092
 
 #### Source
 
-main.ts:30105
+main.ts:30233
 
 ***
 
@@ -213,7 +213,7 @@ main.ts:30105
 
 #### Source
 
-main.ts:30130
+main.ts:30258
 
 ***
 
@@ -231,4 +231,4 @@ main.ts:30130
 
 #### Source
 
-main.ts:30123
+main.ts:30251

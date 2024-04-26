@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:97136
+main.ts:97272
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:97136
 
 #### Source
 
-main.ts:20171
+main.ts:20213
 
 ***
 
@@ -68,7 +68,7 @@ elements of search results found in SERP
 
 #### Source
 
-main.ts:97132
+main.ts:97268
 
 ***
 
@@ -86,7 +86,7 @@ left, right
 
 #### Source
 
-main.ts:97124
+main.ts:97260
 
 ***
 
@@ -103,7 +103,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:97120
+main.ts:97256
 
 ***
 
@@ -120,7 +120,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:97117
+main.ts:97253
 
 ***
 
@@ -136,7 +136,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:97128
+main.ts:97264
 
 ***
 
@@ -152,7 +152,7 @@ relevant URL of the Ad element in SERP
 
 #### Source
 
-main.ts:97130
+main.ts:97266
 
 ***
 
@@ -168,7 +168,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:97126
+main.ts:97262
 
 ## Methods
 
@@ -190,7 +190,7 @@ main.ts:97126
 
 #### Source
 
-main.ts:97141
+main.ts:97277
 
 ***
 
@@ -212,7 +212,7 @@ main.ts:97141
 
 #### Source
 
-main.ts:97169
+main.ts:97305
 
 ***
 
@@ -234,4 +234,4 @@ main.ts:97169
 
 #### Source
 
-main.ts:97162
+main.ts:97298

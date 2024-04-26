@@ -20,7 +20,7 @@ website domain
 
 #### Source
 
-main.ts:27897
+main.ts:28025
 
 ***
 
@@ -35,7 +35,7 @@ by Google
 
 #### Source
 
-main.ts:27909
+main.ts:28037
 
 ***
 
@@ -48,7 +48,7 @@ ecommerce site that hosts products or websites of individual sellers under the s
 
 #### Source
 
-main.ts:27912
+main.ts:28040
 
 ***
 
@@ -61,7 +61,7 @@ contains the pricing details of the product or service featured in the result
 
 #### Source
 
-main.ts:27900
+main.ts:28028
 
 ***
 
@@ -73,7 +73,7 @@ text alongside the link title
 
 #### Source
 
-main.ts:27904
+main.ts:28032
 
 ***
 
@@ -85,7 +85,7 @@ source of additional information about the result
 
 #### Source
 
-main.ts:27902
+main.ts:28030
 
 ***
 
@@ -97,7 +97,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:27893
+main.ts:28021
 
 ***
 
@@ -109,7 +109,7 @@ type of element
 
 #### Source
 
-main.ts:27891
+main.ts:28019
 
 ***
 
@@ -121,4 +121,4 @@ relevant URL
 
 #### Source
 
-main.ts:27895
+main.ts:28023

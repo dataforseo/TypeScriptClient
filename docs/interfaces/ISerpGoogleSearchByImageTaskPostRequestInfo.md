@@ -24,7 +24,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Source
 
-main.ts:48208
+main.ts:48338
 
 ***
 
@@ -40,7 +40,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Source
 
-main.ts:48214
+main.ts:48344
 
 ***
 
@@ -56,7 +56,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Source
 
-main.ts:48202
+main.ts:48332
 
 ***
 
@@ -73,7 +73,7 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 #### Source
 
-main.ts:48196
+main.ts:48326
 
 ***
 
@@ -89,7 +89,7 @@ https://upload.wikimedia.org/wikipedia/commons/e/ed/Elon_Musk_Royal_Society.jpg
 
 #### Source
 
-main.ts:48129
+main.ts:48259
 
 ***
 
@@ -106,7 +106,7 @@ en
 
 #### Source
 
-main.ts:48182
+main.ts:48312
 
 ***
 
@@ -123,7 +123,7 @@ English
 
 #### Source
 
-main.ts:48175
+main.ts:48305
 
 ***
 
@@ -140,7 +140,7 @@ example:
 
 #### Source
 
-main.ts:48158
+main.ts:48288
 
 ***
 
@@ -160,7 +160,7 @@ example:
 
 #### Source
 
-main.ts:48168
+main.ts:48298
 
 ***
 
@@ -177,7 +177,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:48151
+main.ts:48281
 
 ***
 
@@ -194,7 +194,7 @@ learn more at our help center
 
 #### Source
 
-main.ts:48144
+main.ts:48274
 
 ***
 
@@ -214,7 +214,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:48250
+main.ts:48380
 
 ***
 
@@ -230,7 +230,7 @@ advanced
 
 #### Source
 
-main.ts:48240
+main.ts:48370
 
 ***
 
@@ -250,7 +250,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:48234
+main.ts:48364
 
 ***
 
@@ -268,7 +268,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:48137
+main.ts:48267
 
 ***
 
@@ -285,7 +285,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Source
 
-main.ts:48189
+main.ts:48319
 
 ***
 
@@ -299,7 +299,7 @@ get the list of available parameters and additional details here
 
 #### Source
 
-main.ts:48218
+main.ts:48348
 
 ***
 
@@ -315,4 +315,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:48224
+main.ts:48354

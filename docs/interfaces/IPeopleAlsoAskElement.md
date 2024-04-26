@@ -20,7 +20,7 @@ expanded element
 
 #### Source
 
-main.ts:29318
+main.ts:29446
 
 ***
 
@@ -32,7 +32,7 @@ question that triggered additional expanded elements
 
 #### Source
 
-main.ts:29314
+main.ts:29442
 
 ***
 
@@ -44,7 +44,7 @@ title of a given link element
 
 #### Source
 
-main.ts:29312
+main.ts:29440
 
 ***
 
@@ -56,7 +56,7 @@ type of element
 
 #### Source
 
-main.ts:29310
+main.ts:29438
 
 ***
 
@@ -68,4 +68,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:29316
+main.ts:29444

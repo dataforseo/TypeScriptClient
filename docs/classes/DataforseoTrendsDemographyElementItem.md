@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:127159
+main.ts:127295
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:127159
 
 #### Source
 
-main.ts:20906
+main.ts:21034
 
 ***
 
@@ -69,7 +69,7 @@ conains keyword popularity data by age and gender
 
 #### Source
 
-main.ts:127151
+main.ts:127287
 
 ***
 
@@ -87,7 +87,7 @@ if you specified a single keyword, the value will be null
 
 #### Source
 
-main.ts:127155
+main.ts:127291
 
 ***
 
@@ -104,7 +104,7 @@ the data included in the interests and interests_comparison is based on the keyw
 
 #### Source
 
-main.ts:127148
+main.ts:127284
 
 ***
 
@@ -121,7 +121,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Source
 
-main.ts:127145
+main.ts:127281
 
 ## Methods
 
@@ -143,7 +143,7 @@ main.ts:127145
 
 #### Source
 
-main.ts:127164
+main.ts:127300
 
 ***
 
@@ -165,7 +165,7 @@ main.ts:127164
 
 #### Source
 
-main.ts:127189
+main.ts:127325
 
 ***
 
@@ -187,4 +187,4 @@ main.ts:127189
 
 #### Source
 
-main.ts:127182
+main.ts:127318

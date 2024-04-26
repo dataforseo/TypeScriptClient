@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:102609
+main.ts:102745
 
 ## Properties
 
@@ -46,7 +46,7 @@ ASIN in a POST array
 
 #### Source
 
-main.ts:102593
+main.ts:102729
 
 ***
 
@@ -62,7 +62,7 @@ contains detected Amazon product competitors and related data
 
 #### Source
 
-main.ts:102605
+main.ts:102741
 
 ***
 
@@ -78,7 +78,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:102603
+main.ts:102739
 
 ***
 
@@ -95,7 +95,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:102599
+main.ts:102735
 
 ***
 
@@ -112,7 +112,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:102596
+main.ts:102732
 
 ***
 
@@ -128,7 +128,7 @@ search engine type
 
 #### Source
 
-main.ts:102591
+main.ts:102727
 
 ***
 
@@ -144,7 +144,7 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:102601
+main.ts:102737
 
 ## Methods
 
@@ -162,7 +162,7 @@ main.ts:102601
 
 #### Source
 
-main.ts:102618
+main.ts:102754
 
 ***
 
@@ -180,7 +180,7 @@ main.ts:102618
 
 #### Source
 
-main.ts:102645
+main.ts:102781
 
 ***
 
@@ -198,4 +198,4 @@ main.ts:102645
 
 #### Source
 
-main.ts:102638
+main.ts:102774

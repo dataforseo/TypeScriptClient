@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:42858
+main.ts:42986
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Source
 
-main.ts:42843
+main.ts:42971
 
 ***
 
@@ -63,7 +63,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Source
 
-main.ts:42851
+main.ts:42979
 
 ***
 
@@ -80,7 +80,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Source
 
-main.ts:42854
+main.ts:42982
 
 ***
 
@@ -97,7 +97,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Source
 
-main.ts:42848
+main.ts:42976
 
 ***
 
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:42836
+main.ts:42964
 
 ***
 
@@ -130,7 +130,7 @@ search engine specified when setting the task
 
 #### Source
 
-main.ts:42838
+main.ts:42966
 
 ***
 
@@ -147,7 +147,7 @@ can take the following values: news
 
 #### Source
 
-main.ts:42841
+main.ts:42969
 
 ***
 
@@ -163,7 +163,7 @@ user-defined task identifier
 
 #### Source
 
-main.ts:42845
+main.ts:42973
 
 ## Methods
 
@@ -181,7 +181,7 @@ main.ts:42845
 
 #### Source
 
-main.ts:42867
+main.ts:42995
 
 ***
 
@@ -199,7 +199,7 @@ main.ts:42867
 
 #### Source
 
-main.ts:42891
+main.ts:43019
 
 ***
 
@@ -217,4 +217,4 @@ main.ts:42891
 
 #### Source
 
-main.ts:42884
+main.ts:43012

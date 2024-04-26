@@ -21,7 +21,7 @@ contains the languages which are supported for a specific location
 
 #### Source
 
-main.ts:80414
+main.ts:80542
 
 ***
 
@@ -33,7 +33,7 @@ ISO country code of the location
 
 #### Source
 
-main.ts:80407
+main.ts:80535
 
 ***
 
@@ -45,7 +45,7 @@ location code
 
 #### Source
 
-main.ts:80400
+main.ts:80528
 
 ***
 
@@ -58,7 +58,7 @@ the value will be null as Country is the only supported location_type for this A
 
 #### Source
 
-main.ts:80405
+main.ts:80533
 
 ***
 
@@ -70,7 +70,7 @@ full name of the location
 
 #### Source
 
-main.ts:80402
+main.ts:80530
 
 ***
 
@@ -84,4 +84,4 @@ Country
 
 #### Source
 
-main.ts:80411
+main.ts:80539

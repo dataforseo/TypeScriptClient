@@ -20,7 +20,7 @@ target keyword in a POST array
 
 #### Source
 
-main.ts:85310
+main.ts:85438
 
 ***
 
@@ -32,7 +32,7 @@ search intent data relevant for the specified keyword
 
 #### Source
 
-main.ts:85312
+main.ts:85440
 
 ***
 
@@ -44,4 +44,4 @@ contains objects with other possible search intents for the specified keyword
 
 #### Source
 
-main.ts:85314
+main.ts:85442

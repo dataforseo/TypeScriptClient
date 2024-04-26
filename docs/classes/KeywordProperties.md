@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:81436
+main.ts:81564
 
 ## Properties
 
@@ -48,7 +48,7 @@ if the value is null, our database does not contain any keywords the correspondi
 
 #### Source
 
-main.ts:81415
+main.ts:81543
 
 ***
 
@@ -65,7 +65,7 @@ indicates the language of the keyword as identified by our system
 
 #### Source
 
-main.ts:81429
+main.ts:81557
 
 ***
 
@@ -82,7 +82,7 @@ if true, the language set in the request does not match the language determined 
 
 #### Source
 
-main.ts:81432
+main.ts:81560
 
 ***
 
@@ -101,7 +101,7 @@ learn more about the metric in this help center guide
 
 #### Source
 
-main.ts:81426
+main.ts:81554
 
 ***
 
@@ -117,7 +117,7 @@ search engine type
 
 #### Source
 
-main.ts:81411
+main.ts:81539
 
 ***
 
@@ -137,7 +137,7 @@ if the value is null, our database does not contain any keywords the correspondi
 
 #### Source
 
-main.ts:81421
+main.ts:81549
 
 ## Methods
 
@@ -155,7 +155,7 @@ main.ts:81421
 
 #### Source
 
-main.ts:81445
+main.ts:81573
 
 ***
 
@@ -173,7 +173,7 @@ main.ts:81445
 
 #### Source
 
-main.ts:81467
+main.ts:81595
 
 ***
 
@@ -191,4 +191,4 @@ main.ts:81467
 
 #### Source
 
-main.ts:81460
+main.ts:81588

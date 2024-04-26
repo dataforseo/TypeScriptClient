@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:181039
+main.ts:181897
 
 ## Properties
 
@@ -58,7 +58,7 @@ total tasks cost, USD
 
 #### Source
 
-main.ts:23121
+main.ts:23249
 
 ***
 
@@ -82,7 +82,7 @@ contains the same parameters that you specified in the POST request
 
 #### Source
 
-main.ts:23127
+main.ts:23255
 
 ***
 
@@ -103,7 +103,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:23110
+main.ts:23238
 
 ***
 
@@ -123,7 +123,7 @@ URL path
 
 #### Source
 
-main.ts:23125
+main.ts:23253
 
 ***
 
@@ -139,7 +139,7 @@ array of results
 
 #### Source
 
-main.ts:181035
+main.ts:181893
 
 ***
 
@@ -159,7 +159,7 @@ number of elements in the result array
 
 #### Source
 
-main.ts:23123
+main.ts:23251
 
 ***
 
@@ -181,7 +181,7 @@ you can find the full list of the response codes here
 
 #### Source
 
-main.ts:23114
+main.ts:23242
 
 ***
 
@@ -202,7 +202,7 @@ you can find the full list of general informational messages here
 
 #### Source
 
-main.ts:23117
+main.ts:23245
 
 ***
 
@@ -222,7 +222,7 @@ execution time, seconds
 
 #### Source
 
-main.ts:23119
+main.ts:23247
 
 ## Methods
 
@@ -244,7 +244,7 @@ main.ts:23119
 
 #### Source
 
-main.ts:181043
+main.ts:181901
 
 ***
 
@@ -266,7 +266,7 @@ main.ts:181043
 
 #### Source
 
-main.ts:181065
+main.ts:181923
 
 ***
 
@@ -288,4 +288,4 @@ main.ts:181065
 
 #### Source
 
-main.ts:181058
+main.ts:181916

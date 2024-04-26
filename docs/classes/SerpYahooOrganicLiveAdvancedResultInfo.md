@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:67155
+main.ts:67284
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:67131
+main.ts:67261
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Source
 
-main.ts:67136
+main.ts:67266
 
 ***
 
@@ -85,7 +85,7 @@ featured_snippet, images, local_pack, hotels_pack, organic, paid, people_also_as
 
 #### Source
 
-main.ts:67144
+main.ts:67274
 
 ***
 
@@ -93,8 +93,7 @@ main.ts:67144
 
 > **`optional`** **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
-additional items present in the element
-if there are none, equals null
+items featured in the faq_box
 
 #### Implementation of
 
@@ -102,7 +101,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:67151
+main.ts:67280
 
 ***
 
@@ -118,7 +117,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:67148
+main.ts:67278
 
 ***
 
@@ -135,7 +134,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Source
 
-main.ts:67120
+main.ts:67250
 
 ***
 
@@ -151,7 +150,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:67128
+main.ts:67258
 
 ***
 
@@ -167,7 +166,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:67126
+main.ts:67256
 
 ***
 
@@ -183,7 +182,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:67124
+main.ts:67254
 
 ***
 
@@ -199,7 +198,7 @@ total number of results in SERP
 
 #### Source
 
-main.ts:67146
+main.ts:67276
 
 ***
 
@@ -216,7 +215,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Source
 
-main.ts:67139
+main.ts:67269
 
 ***
 
@@ -232,7 +231,7 @@ type of element
 
 #### Source
 
-main.ts:67122
+main.ts:67252
 
 ## Methods
 
@@ -250,7 +249,7 @@ main.ts:67122
 
 #### Source
 
-main.ts:67164
+main.ts:67293
 
 ***
 
@@ -268,7 +267,7 @@ main.ts:67164
 
 #### Source
 
-main.ts:67200
+main.ts:67329
 
 ***
 
@@ -286,4 +285,4 @@ main.ts:67200
 
 #### Source
 
-main.ts:67193
+main.ts:67322

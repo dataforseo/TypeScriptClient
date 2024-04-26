@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:21592
+main.ts:21720
 
 ## Properties
 
@@ -46,7 +46,7 @@ description of the results element
 
 #### Source
 
-main.ts:21582
+main.ts:21710
 
 ***
 
@@ -62,7 +62,7 @@ domain where a link points
 
 #### Source
 
-main.ts:21586
+main.ts:21714
 
 ***
 
@@ -78,7 +78,7 @@ text alongside the link title
 
 #### Source
 
-main.ts:21580
+main.ts:21708
 
 ***
 
@@ -94,7 +94,7 @@ title of a given link element
 
 #### Source
 
-main.ts:21578
+main.ts:21706
 
 ***
 
@@ -110,7 +110,7 @@ type of element
 
 #### Source
 
-main.ts:21576
+main.ts:21704
 
 ***
 
@@ -126,7 +126,7 @@ URL
 
 #### Source
 
-main.ts:21584
+main.ts:21712
 
 ***
 
@@ -142,7 +142,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:21588
+main.ts:21716
 
 ## Methods
 
@@ -160,7 +160,7 @@ main.ts:21588
 
 #### Source
 
-main.ts:21601
+main.ts:21729
 
 ***
 
@@ -178,7 +178,7 @@ main.ts:21601
 
 #### Source
 
-main.ts:21624
+main.ts:21752
 
 ***
 
@@ -196,4 +196,4 @@ main.ts:21624
 
 #### Source
 
-main.ts:21617
+main.ts:21745

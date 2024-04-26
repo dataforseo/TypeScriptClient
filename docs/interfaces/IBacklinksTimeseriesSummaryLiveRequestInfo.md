@@ -27,7 +27,7 @@ example:
 
 #### Source
 
-main.ts:144041
+main.ts:144178
 
 ***
 
@@ -46,7 +46,7 @@ example:
 
 #### Source
 
-main.ts:144050
+main.ts:144187
 
 ***
 
@@ -69,7 +69,22 @@ if there is no data for a certain  day/week/month/year, we will return 0
 
 #### Source
 
-main.ts:144063
+main.ts:144200
+
+***
+
+### include\_subdomains?
+
+> **`optional`** **include\_subdomains**: `boolean`
+
+indicates if the subdomains of the target will be included in the search
+optional field
+if set to false, the subdomains will be ignored
+default value: true
+
+#### Source
+
+main.ts:144205
 
 ***
 
@@ -85,7 +100,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:144069
+main.ts:144211
 
 ***
 
@@ -101,4 +116,4 @@ example:
 
 #### Source
 
-main.ts:144032
+main.ts:144169

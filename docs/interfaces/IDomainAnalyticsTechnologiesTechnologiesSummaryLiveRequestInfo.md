@@ -25,7 +25,7 @@ example:
 
 #### Source
 
-main.ts:75600
+main.ts:75728
 
 ***
 
@@ -49,7 +49,7 @@ for more information about filters, please refer to Domain Analytics Technologie
 
 #### Source
 
-main.ts:75635
+main.ts:75763
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Source
 
-main.ts:75593
+main.ts:75721
 
 ***
 
@@ -83,7 +83,7 @@ maximum value: 10000
 
 #### Source
 
-main.ts:75642
+main.ts:75770
 
 ***
 
@@ -100,7 +100,7 @@ example:
 
 #### Source
 
-main.ts:75614
+main.ts:75742
 
 ***
 
@@ -117,7 +117,7 @@ default value: as_is
 
 #### Source
 
-main.ts:75621
+main.ts:75749
 
 ***
 
@@ -133,7 +133,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:75648
+main.ts:75776
 
 ***
 
@@ -150,7 +150,7 @@ example:
 
 #### Source
 
-main.ts:75607
+main.ts:75735
 
 ***
 
@@ -170,4 +170,4 @@ example:
 
 #### Source
 
-main.ts:75586
+main.ts:75714

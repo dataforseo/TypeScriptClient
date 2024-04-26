@@ -26,7 +26,7 @@ depending on the number of specified app IDs, it can contain from 1 to 20 arrays
 
 #### Source
 
-main.ts:112478
+main.ts:112614
 
 ***
 
@@ -38,7 +38,7 @@ keyword data for the returned keyword
 
 #### Source
 
-main.ts:112474
+main.ts:112610
 
 ***
 
@@ -50,4 +50,4 @@ search engine type
 
 #### Source
 
-main.ts:112472
+main.ts:112608

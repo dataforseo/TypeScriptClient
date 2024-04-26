@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:103612
+main.ts:103748
 
 ## Properties
 
@@ -48,7 +48,7 @@ for more information, refer to this help center guide
 
 #### Source
 
-main.ts:103591
+main.ts:103727
 
 ***
 
@@ -66,7 +66,7 @@ the value for a given product may differ when combined with different target pro
 
 #### Source
 
-main.ts:103595
+main.ts:103731
 
 ***
 
@@ -84,7 +84,7 @@ Note: in this object ranking data is provided for the returned competitor’s as
 
 #### Source
 
-main.ts:103605
+main.ts:103741
 
 ***
 
@@ -101,7 +101,7 @@ full overview of ranking data relevant to all keywords that the provided asin is
 
 #### Source
 
-main.ts:103608
+main.ts:103744
 
 ***
 
@@ -117,7 +117,7 @@ number of intersecting keywords
 
 #### Source
 
-main.ts:103601
+main.ts:103737
 
 ***
 
@@ -133,7 +133,7 @@ search engine type
 
 #### Source
 
-main.ts:103587
+main.ts:103723
 
 ***
 
@@ -151,7 +151,7 @@ the value for a given product may differ when combined with different target pro
 
 #### Source
 
-main.ts:103599
+main.ts:103735
 
 ## Methods
 
@@ -169,7 +169,7 @@ main.ts:103599
 
 #### Source
 
-main.ts:103621
+main.ts:103757
 
 ***
 
@@ -187,7 +187,7 @@ main.ts:103621
 
 #### Source
 
-main.ts:103644
+main.ts:103780
 
 ***
 
@@ -205,4 +205,4 @@ main.ts:103644
 
 #### Source
 
-main.ts:103637
+main.ts:103773

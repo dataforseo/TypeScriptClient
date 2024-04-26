@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:22970
+main.ts:23098
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:22970
 
 #### Source
 
-main.ts:22726
+main.ts:22854
 
 ***
 
@@ -69,7 +69,7 @@ domain of the online menu system
 
 #### Source
 
-main.ts:22964
+main.ts:23092
 
 ***
 
@@ -85,7 +85,7 @@ URL to view the menu
 
 #### Source
 
-main.ts:22966
+main.ts:23094
 
 ## Methods
 
@@ -107,7 +107,7 @@ main.ts:22966
 
 #### Source
 
-main.ts:22975
+main.ts:23103
 
 ***
 
@@ -129,7 +129,7 @@ main.ts:22975
 
 #### Source
 
-main.ts:22994
+main.ts:23122
 
 ***
 
@@ -151,4 +151,4 @@ main.ts:22994
 
 #### Source
 
-main.ts:22987
+main.ts:23115

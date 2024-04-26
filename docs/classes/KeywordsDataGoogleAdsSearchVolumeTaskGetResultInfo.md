@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:116344
+main.ts:116480
 
 ## Properties
 
@@ -50,7 +50,7 @@ learn more about the metric in this help center article
 
 #### Source
 
-main.ts:116315
+main.ts:116451
 
 ***
 
@@ -70,7 +70,7 @@ learn more about the metric in this help center article
 
 #### Source
 
-main.ts:116321
+main.ts:116457
 
 ***
 
@@ -87,7 +87,7 @@ indicates the amount paid for each click on the ad displayed for a given keyword
 
 #### Source
 
-main.ts:116336
+main.ts:116472
 
 ***
 
@@ -105,7 +105,7 @@ the value may differ depending on the location specified in a POST request
 
 #### Source
 
-main.ts:116333
+main.ts:116469
 
 ***
 
@@ -122,7 +122,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Source
 
-main.ts:116298
+main.ts:116434
 
 ***
 
@@ -139,7 +139,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:116307
+main.ts:116443
 
 ***
 
@@ -156,7 +156,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:116304
+main.ts:116440
 
 ***
 
@@ -174,7 +174,7 @@ the value may differ depending on the location specified in a POST request
 
 #### Source
 
-main.ts:116329
+main.ts:116465
 
 ***
 
@@ -192,7 +192,7 @@ if there is no data then the value is null
 
 #### Source
 
-main.ts:116340
+main.ts:116476
 
 ***
 
@@ -208,7 +208,7 @@ indicates whether data from partner networks included in the response
 
 #### Source
 
-main.ts:116309
+main.ts:116445
 
 ***
 
@@ -226,7 +226,7 @@ if there is no data then the value is null
 
 #### Source
 
-main.ts:116325
+main.ts:116461
 
 ***
 
@@ -243,7 +243,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Source
 
-main.ts:116301
+main.ts:116437
 
 ## Methods
 
@@ -261,7 +261,7 @@ main.ts:116301
 
 #### Source
 
-main.ts:116353
+main.ts:116489
 
 ***
 
@@ -279,7 +279,7 @@ main.ts:116353
 
 #### Source
 
-main.ts:116385
+main.ts:116521
 
 ***
 
@@ -297,4 +297,4 @@ main.ts:116385
 
 #### Source
 
-main.ts:116378
+main.ts:116514

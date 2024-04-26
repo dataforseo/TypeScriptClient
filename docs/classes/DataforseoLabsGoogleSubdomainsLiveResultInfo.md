@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:91981
+main.ts:92359
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains subdomains and related data
 
 #### Source
 
-main.ts:91977
+main.ts:92355
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:91975
+main.ts:92353
 
 ***
 
@@ -78,7 +78,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:91971
+main.ts:92349
 
 ***
 
@@ -94,7 +94,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:91969
+main.ts:92347
 
 ***
 
@@ -110,7 +110,7 @@ search engine type
 
 #### Source
 
-main.ts:91965
+main.ts:92343
 
 ***
 
@@ -126,7 +126,7 @@ domain in a POST array
 
 #### Source
 
-main.ts:91967
+main.ts:92345
 
 ***
 
@@ -142,7 +142,7 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:91973
+main.ts:92351
 
 ## Methods
 
@@ -160,7 +160,7 @@ main.ts:91973
 
 #### Source
 
-main.ts:91990
+main.ts:92368
 
 ***
 
@@ -178,7 +178,7 @@ main.ts:91990
 
 #### Source
 
-main.ts:92017
+main.ts:92395
 
 ***
 
@@ -196,4 +196,4 @@ main.ts:92017
 
 #### Source
 
-main.ts:92010
+main.ts:92388

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:149140
+main.ts:150084
 
 ## Properties
 
@@ -47,7 +47,7 @@ number of broken links across all crawled pages on a target website
 
 #### Source
 
-main.ts:149115
+main.ts:150059
 
 ***
 
@@ -64,7 +64,7 @@ the number of images and other resources with broken links
 
 #### Source
 
-main.ts:149118
+main.ts:150062
 
 ***
 
@@ -84,7 +84,7 @@ page-specific on-page check-ups
 
 #### Source
 
-main.ts:149136
+main.ts:150080
 
 ***
 
@@ -100,7 +100,7 @@ number of pages with duplicate content
 
 #### Source
 
-main.ts:149112
+main.ts:150056
 
 ***
 
@@ -116,7 +116,7 @@ number of pages with duplicate descriptions
 
 #### Source
 
-main.ts:149110
+main.ts:150054
 
 ***
 
@@ -132,7 +132,7 @@ number of pages with duplicate titles
 
 #### Source
 
-main.ts:149108
+main.ts:150052
 
 ***
 
@@ -149,7 +149,7 @@ the number of links pointing to other websites
 
 #### Source
 
-main.ts:149103
+main.ts:150047
 
 ***
 
@@ -166,7 +166,7 @@ the number of links pointing to other pages within the target website
 
 #### Source
 
-main.ts:149106
+main.ts:150050
 
 ***
 
@@ -183,7 +183,7 @@ for example, if "links_relation_conflict": 2, the target website is referring to
 
 #### Source
 
-main.ts:149121
+main.ts:150065
 
 ***
 
@@ -201,7 +201,7 @@ you can receive a list of non-indexable URLs using this endpoint
 
 #### Source
 
-main.ts:149134
+main.ts:150078
 
 ***
 
@@ -221,7 +221,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:149130
+main.ts:150074
 
 ***
 
@@ -238,7 +238,7 @@ number of redirect chains where the destination URL redirects back to the origin
 
 #### Source
 
-main.ts:149124
+main.ts:150068
 
 ## Methods
 
@@ -256,7 +256,7 @@ main.ts:149124
 
 #### Source
 
-main.ts:149149
+main.ts:150093
 
 ***
 
@@ -274,7 +274,7 @@ main.ts:149149
 
 #### Source
 
-main.ts:149183
+main.ts:150127
 
 ***
 
@@ -292,4 +292,4 @@ main.ts:149183
 
 #### Source
 
-main.ts:149176
+main.ts:150120

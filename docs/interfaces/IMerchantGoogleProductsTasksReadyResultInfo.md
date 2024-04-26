@@ -20,7 +20,7 @@ date when the task was posted (in the UTC format)
 
 #### Source
 
-main.ts:169891
+main.ts:170835
 
 ***
 
@@ -32,7 +32,7 @@ URL for collecting the results of Google Shopping Products Advanced task
 
 #### Source
 
-main.ts:169895
+main.ts:170839
 
 ***
 
@@ -44,7 +44,7 @@ URL for collecting the results of Google Shopping Products HTML task
 
 #### Source
 
-main.ts:169897
+main.ts:170841
 
 ***
 
@@ -57,7 +57,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:169884
+main.ts:170828
 
 ***
 
@@ -69,7 +69,7 @@ search engine specified when setting the task
 
 #### Source
 
-main.ts:169886
+main.ts:170830
 
 ***
 
@@ -82,7 +82,7 @@ can take the following values: shopping
 
 #### Source
 
-main.ts:169889
+main.ts:170833
 
 ***
 
@@ -94,4 +94,4 @@ user-defined task identifier
 
 #### Source
 
-main.ts:169893
+main.ts:170837

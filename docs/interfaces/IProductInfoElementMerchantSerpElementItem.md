@@ -24,7 +24,7 @@ description of the product
 
 #### Source
 
-main.ts:174896
+main.ts:175754
 
 ***
 
@@ -37,7 +37,7 @@ contains snippets with the description of product features
 
 #### Source
 
-main.ts:174905
+main.ts:175763
 
 ***
 
@@ -50,7 +50,7 @@ contains urls to product images
 
 #### Source
 
-main.ts:174902
+main.ts:175760
 
 ***
 
@@ -64,7 +64,7 @@ right, left
 
 #### Source
 
-main.ts:174889
+main.ts:175747
 
 ***
 
@@ -77,7 +77,7 @@ ilearn more about the parameter in this help center guide
 
 #### Source
 
-main.ts:174892
+main.ts:175750
 
 ***
 
@@ -90,7 +90,7 @@ absolute position among all the elements found on the product specification page
 
 #### Source
 
-main.ts:174885
+main.ts:175743
 
 ***
 
@@ -103,7 +103,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:174882
+main.ts:175740
 
 ***
 
@@ -116,7 +116,7 @@ the popularity rate based on reviews
 
 #### Source
 
-main.ts:174908
+main.ts:175766
 
 ***
 
@@ -129,7 +129,7 @@ number of reviews on the product seller’s account
 
 #### Source
 
-main.ts:174911
+main.ts:175769
 
 ***
 
@@ -142,7 +142,7 @@ number of reviews on the product seller’s account
 
 #### Source
 
-main.ts:174914
+main.ts:175772
 
 ***
 
@@ -154,7 +154,7 @@ title of the product
 
 #### Source
 
-main.ts:174894
+main.ts:175752
 
 ***
 
@@ -167,7 +167,7 @@ url of the product on Google Shopping
 
 #### Source
 
-main.ts:174899
+main.ts:175757
 
 ***
 
@@ -180,4 +180,4 @@ contains brief information about different product variations
 
 #### Source
 
-main.ts:174917
+main.ts:175775

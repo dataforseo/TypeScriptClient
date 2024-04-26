@@ -299,6 +299,7 @@
 - [`IBacklinksBulkReferringDomainsLiveTaskInfo`](IBacklinksBulkReferringDomainsLiveTaskInfo.md)
 - [`IBacklinksBulkNewLostBacklinksLiveTaskInfo`](IBacklinksBulkNewLostBacklinksLiveTaskInfo.md)
 - [`IBacklinksBulkNewLostReferringDomainsLiveTaskInfo`](IBacklinksBulkNewLostReferringDomainsLiveTaskInfo.md)
+- [`IBacklinksBulkPagesSummaryLiveTaskInfo`](IBacklinksBulkPagesSummaryLiveTaskInfo.md)
 - [`IOnPageIdListTaskInfo`](IOnPageIdListTaskInfo.md)
 - [`IOnPageErrorsTaskInfo`](IOnPageErrorsTaskInfo.md)
 - [`IOnPageForceStopTaskInfo`](IOnPageForceStopTaskInfo.md)
@@ -505,7 +506,7 @@ total tasks cost, USD
 
 #### Source
 
-main.ts:23216
+main.ts:23344
 
 ***
 
@@ -521,7 +522,7 @@ contains the same parameters that you specified in the POST request
 
 #### Source
 
-main.ts:23222
+main.ts:23350
 
 ***
 
@@ -534,7 +535,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:23205
+main.ts:23333
 
 ***
 
@@ -546,7 +547,7 @@ URL path
 
 #### Source
 
-main.ts:23220
+main.ts:23348
 
 ***
 
@@ -558,7 +559,7 @@ number of elements in the result array
 
 #### Source
 
-main.ts:23218
+main.ts:23346
 
 ***
 
@@ -572,7 +573,7 @@ you can find the full list of the response codes here
 
 #### Source
 
-main.ts:23209
+main.ts:23337
 
 ***
 
@@ -585,7 +586,7 @@ you can find the full list of general informational messages here
 
 #### Source
 
-main.ts:23212
+main.ts:23340
 
 ***
 
@@ -597,4 +598,4 @@ execution time, seconds
 
 #### Source
 
-main.ts:23214
+main.ts:23342

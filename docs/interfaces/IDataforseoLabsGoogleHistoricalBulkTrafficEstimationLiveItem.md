@@ -20,7 +20,7 @@ traffic data relevant to the specified domain
 
 #### Source
 
-main.ts:100684
+main.ts:100820
 
 ***
 
@@ -32,7 +32,7 @@ search engine type
 
 #### Source
 
-main.ts:100680
+main.ts:100816
 
 ***
 
@@ -44,4 +44,4 @@ target domain in a POST array
 
 #### Source
 
-main.ts:100682
+main.ts:100818

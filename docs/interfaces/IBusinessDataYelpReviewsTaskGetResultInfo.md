@@ -20,7 +20,7 @@ Yelp business identifier
 
 #### Source
 
-main.ts:211088
+main.ts:211948
 
 ***
 
@@ -33,7 +33,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:211100
+main.ts:211960
 
 ***
 
@@ -48,7 +48,7 @@ example:
 
 #### Source
 
-main.ts:211105
+main.ts:211965
 
 ***
 
@@ -61,7 +61,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Source
 
-main.ts:211118
+main.ts:211978
 
 ***
 
@@ -74,7 +74,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Source
 
-main.ts:211115
+main.ts:211975
 
 ***
 
@@ -87,7 +87,7 @@ this field will contain the alias parameter if it was specified in a POST array
 
 #### Source
 
-main.ts:211086
+main.ts:211946
 
 ***
 
@@ -99,7 +99,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:211097
+main.ts:211957
 
 ***
 
@@ -112,7 +112,7 @@ if location_code was not specified in a POST array, the value equals null
 
 #### Source
 
-main.ts:211095
+main.ts:211955
 
 ***
 
@@ -124,7 +124,7 @@ the rating score submitted by the reviewer
 
 #### Source
 
-main.ts:211110
+main.ts:211970
 
 ***
 
@@ -136,7 +136,7 @@ the total number of reviews
 
 #### Source
 
-main.ts:211112
+main.ts:211972
 
 ***
 
@@ -148,7 +148,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:211092
+main.ts:211952
 
 ***
 
@@ -161,7 +161,7 @@ the name of the local establishment for which the reviews are collected
 
 #### Source
 
-main.ts:211108
+main.ts:211968
 
 ***
 
@@ -173,4 +173,4 @@ type of element
 
 #### Source
 
-main.ts:211090
+main.ts:211950

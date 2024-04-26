@@ -20,7 +20,7 @@ URL of the image
 
 #### Source
 
-main.ts:36044
+main.ts:36172
 
 ***
 
@@ -32,7 +32,7 @@ keyword for the related refined search
 
 #### Source
 
-main.ts:36046
+main.ts:36174
 
 ***
 
@@ -44,7 +44,7 @@ type of search refinement
 
 #### Source
 
-main.ts:36048
+main.ts:36176
 
 ***
 
@@ -56,7 +56,7 @@ title of a given link element
 
 #### Source
 
-main.ts:36042
+main.ts:36170
 
 ***
 
@@ -68,7 +68,7 @@ type of element
 
 #### Source
 
-main.ts:36040
+main.ts:36168
 
 ***
 
@@ -80,4 +80,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:36050
+main.ts:36178

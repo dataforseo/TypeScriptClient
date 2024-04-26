@@ -20,7 +20,7 @@ contains data related to the target and competitor domains
 
 #### Source
 
-main.ts:90868
+main.ts:91246
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:90866
+main.ts:91244
 
 ***
 
@@ -44,7 +44,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:90862
+main.ts:91240
 
 ***
 
@@ -56,7 +56,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:90860
+main.ts:91238
 
 ***
 
@@ -68,7 +68,7 @@ search engine type
 
 #### Source
 
-main.ts:90856
+main.ts:91234
 
 ***
 
@@ -80,7 +80,7 @@ target domain in a POST array
 
 #### Source
 
-main.ts:90858
+main.ts:91236
 
 ***
 
@@ -92,4 +92,4 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:90864
+main.ts:91242

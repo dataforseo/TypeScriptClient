@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:39267
+main.ts:39395
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:39267
 
 #### Source
 
-main.ts:19788
+main.ts:19830
 
 ***
 
@@ -69,7 +69,7 @@ additional Google My Business categories that describe the services provided by 
 
 #### Source
 
-main.ts:39236
+main.ts:39364
 
 ***
 
@@ -86,7 +86,7 @@ address of the local establishment featured in the element
 
 #### Source
 
-main.ts:39218
+main.ts:39346
 
 ***
 
@@ -102,7 +102,7 @@ object containing address components of the local establishment
 
 #### Source
 
-main.ts:39220
+main.ts:39348
 
 ***
 
@@ -119,7 +119,7 @@ Google My Business general category that best describes the services provided by
 
 #### Source
 
-main.ts:39233
+main.ts:39361
 
 ***
 
@@ -136,7 +136,7 @@ universal category IDs that do not change based on the selected country
 
 #### Source
 
-main.ts:39239
+main.ts:39367
 
 ***
 
@@ -154,7 +154,7 @@ can be used with Google Reviews API to get a full list of reviews
 
 #### Source
 
-main.ts:39248
+main.ts:39376
 
 ***
 
@@ -170,7 +170,7 @@ URL of the preferred contact page
 
 #### Source
 
-main.ts:39198
+main.ts:39326
 
 ***
 
@@ -186,7 +186,7 @@ domain in the SERP element
 
 #### Source
 
-main.ts:39192
+main.ts:39320
 
 ***
 
@@ -202,7 +202,7 @@ the unique identifier of the element in SERP
 
 #### Source
 
-main.ts:39244
+main.ts:39372
 
 ***
 
@@ -220,7 +220,7 @@ if there is no hotel class rating information, the value will be null
 
 #### Source
 
-main.ts:39205
+main.ts:39333
 
 ***
 
@@ -236,7 +236,7 @@ indicates whether ownership of this local establishment is claimed
 
 #### Source
 
-main.ts:39258
+main.ts:39386
 
 ***
 
@@ -252,7 +252,7 @@ indicates whether this local establishment is a directory
 
 #### Source
 
-main.ts:39263
+main.ts:39391
 
 ***
 
@@ -270,7 +270,7 @@ example:
 
 #### Source
 
-main.ts:39252
+main.ts:39380
 
 ***
 
@@ -287,7 +287,7 @@ snippets of text that “justify” why the business is showing up for search qu
 
 #### Source
 
-main.ts:39261
+main.ts:39389
 
 ***
 
@@ -305,7 +305,7 @@ example:
 
 #### Source
 
-main.ts:39256
+main.ts:39384
 
 ***
 
@@ -321,7 +321,7 @@ URL of the main image featured in Google My Business profile
 
 #### Source
 
-main.ts:39228
+main.ts:39356
 
 ***
 
@@ -338,7 +338,7 @@ phone number of the local establishment featured in the element
 
 #### Source
 
-main.ts:39226
+main.ts:39354
 
 ***
 
@@ -355,7 +355,7 @@ place id of the local establishment featured in the element
 
 #### Source
 
-main.ts:39223
+main.ts:39351
 
 ***
 
@@ -373,7 +373,7 @@ if there is no price level information, the value will be null
 
 #### Source
 
-main.ts:39209
+main.ts:39337
 
 ***
 
@@ -390,7 +390,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:39190
+main.ts:39318
 
 ***
 
@@ -408,7 +408,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:39187
+main.ts:39315
 
 ***
 
@@ -425,7 +425,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:39201
+main.ts:39329
 
 ***
 
@@ -446,7 +446,7 @@ the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 #### Source
 
-main.ts:39212
+main.ts:39340
 
 ***
 
@@ -463,7 +463,7 @@ contains the address and other information about the local establishment feature
 
 #### Source
 
-main.ts:39215
+main.ts:39343
 
 ***
 
@@ -479,7 +479,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:39194
+main.ts:39322
 
 ***
 
@@ -495,7 +495,7 @@ total count of images featured in Google My Business profile
 
 #### Source
 
-main.ts:39230
+main.ts:39358
 
 ***
 
@@ -511,7 +511,7 @@ relevant URL in SERP
 
 #### Source
 
-main.ts:39196
+main.ts:39324
 
 ***
 
@@ -528,7 +528,7 @@ information about work hours of the local establishment
 
 #### Source
 
-main.ts:39242
+main.ts:39370
 
 ## Methods
 
@@ -550,7 +550,7 @@ main.ts:39242
 
 #### Source
 
-main.ts:39272
+main.ts:39400
 
 ***
 
@@ -572,7 +572,7 @@ main.ts:39272
 
 #### Source
 
-main.ts:39335
+main.ts:39463
 
 ***
 
@@ -594,4 +594,4 @@ main.ts:39335
 
 #### Source
 
-main.ts:39328
+main.ts:39456

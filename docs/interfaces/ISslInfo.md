@@ -24,7 +24,7 @@ example:
 
 #### Source
 
-main.ts:148879
+main.ts:149823
 
 ***
 
@@ -37,7 +37,7 @@ the version of the ssl certificate’s hash function
 
 #### Source
 
-main.ts:148873
+main.ts:149817
 
 ***
 
@@ -50,7 +50,7 @@ the entity that issued the detected ssl certificate
 
 #### Source
 
-main.ts:148864
+main.ts:149808
 
 ***
 
@@ -63,7 +63,7 @@ the entity associated with the public key
 
 #### Source
 
-main.ts:148867
+main.ts:149811
 
 ***
 
@@ -76,7 +76,7 @@ indicates the version of X.509 used by an ssl certificate
 
 #### Source
 
-main.ts:148870
+main.ts:149814
 
 ***
 
@@ -89,4 +89,4 @@ indicates whether the ssl certificate detected on a website is not expired, susp
 
 #### Source
 
-main.ts:148861
+main.ts:149805

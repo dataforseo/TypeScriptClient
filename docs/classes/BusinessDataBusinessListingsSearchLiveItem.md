@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:194700
+main.ts:195560
 
 ## Properties
 
@@ -47,7 +47,7 @@ additional Google My Business categories that describe the services provided by 
 
 #### Source
 
-main.ts:194618
+main.ts:195478
 
 ***
 
@@ -63,7 +63,7 @@ address of the business entity
 
 #### Source
 
-main.ts:194627
+main.ts:195487
 
 ***
 
@@ -79,7 +79,7 @@ object containing address components of the business entity
 
 #### Source
 
-main.ts:194629
+main.ts:195489
 
 ***
 
@@ -96,7 +96,7 @@ service details of a business entity displayed in a form of checks and based on 
 
 #### Source
 
-main.ts:194660
+main.ts:195520
 
 ***
 
@@ -113,7 +113,7 @@ Google My Business general category that best describes the services provided by
 
 #### Source
 
-main.ts:194612
+main.ts:195472
 
 ***
 
@@ -130,7 +130,7 @@ universal category IDs that do not change based on the selected country
 
 #### Source
 
-main.ts:194615
+main.ts:195475
 
 ***
 
@@ -147,7 +147,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:194691
+main.ts:195551
 
 ***
 
@@ -165,7 +165,7 @@ learn more about the identifier in this help center article
 
 #### Source
 
-main.ts:194622
+main.ts:195482
 
 ***
 
@@ -182,7 +182,7 @@ list of contacts to interact with the business
 
 #### Source
 
-main.ts:194688
+main.ts:195548
 
 ***
 
@@ -199,7 +199,7 @@ the description of the business entity for which the results are collected
 
 #### Source
 
-main.ts:194609
+main.ts:195469
 
 ***
 
@@ -215,7 +215,7 @@ domain of the business entity
 
 #### Source
 
-main.ts:194639
+main.ts:195499
 
 ***
 
@@ -232,7 +232,7 @@ learn more about the identifier in this help center article
 
 #### Source
 
-main.ts:194625
+main.ts:195485
 
 ***
 
@@ -248,7 +248,7 @@ shows whether the entity is verified by its owner on Google Maps
 
 #### Source
 
-main.ts:194657
+main.ts:195517
 
 ***
 
@@ -267,7 +267,7 @@ example:
 
 #### Source
 
-main.ts:194696
+main.ts:195556
 
 ***
 
@@ -285,7 +285,7 @@ example:
 
 #### Source
 
-main.ts:194651
+main.ts:195511
 
 ***
 
@@ -302,7 +302,7 @@ list of options to interact with the business directly from search results
 
 #### Source
 
-main.ts:194685
+main.ts:195545
 
 ***
 
@@ -318,7 +318,7 @@ URL of the logo featured in Google My Business profile
 
 #### Source
 
-main.ts:194641
+main.ts:195501
 
 ***
 
@@ -336,7 +336,7 @@ example:
 
 #### Source
 
-main.ts:194655
+main.ts:195515
 
 ***
 
@@ -352,7 +352,7 @@ URL of the main image featured in Google My Business profile
 
 #### Source
 
-main.ts:194643
+main.ts:195503
 
 ***
 
@@ -368,7 +368,7 @@ related business entities
 
 #### Source
 
-main.ts:194676
+main.ts:195536
 
 ***
 
@@ -384,7 +384,7 @@ phone number of the business entity
 
 #### Source
 
-main.ts:194635
+main.ts:195495
 
 ***
 
@@ -402,7 +402,7 @@ learn more about the identifier in this help center article
 
 #### Source
 
-main.ts:194633
+main.ts:195493
 
 ***
 
@@ -428,7 +428,7 @@ example:
 
 #### Source
 
-main.ts:194668
+main.ts:195528
 
 ***
 
@@ -445,7 +445,7 @@ information related to busy hours of the business entity
 
 #### Source
 
-main.ts:194682
+main.ts:195542
 
 ***
 
@@ -462,7 +462,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:194671
+main.ts:195531
 
 ***
 
@@ -483,7 +483,7 @@ the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 #### Source
 
-main.ts:194674
+main.ts:195534
 
 ***
 
@@ -499,7 +499,7 @@ additional information on the business entity
 
 #### Source
 
-main.ts:194647
+main.ts:195507
 
 ***
 
@@ -516,7 +516,7 @@ the name of the business entity for which the results are collected
 
 #### Source
 
-main.ts:194606
+main.ts:195466
 
 ***
 
@@ -532,7 +532,7 @@ total count of images featured in Google My Business profile
 
 #### Source
 
-main.ts:194645
+main.ts:195505
 
 ***
 
@@ -548,7 +548,7 @@ type of element
 
 #### Source
 
-main.ts:194603
+main.ts:195463
 
 ***
 
@@ -564,7 +564,7 @@ absolute url of the business entity
 
 #### Source
 
-main.ts:194637
+main.ts:195497
 
 ***
 
@@ -581,7 +581,7 @@ information related to operational hours of the business entity
 
 #### Source
 
-main.ts:194679
+main.ts:195539
 
 ## Methods
 
@@ -599,7 +599,7 @@ main.ts:194679
 
 #### Source
 
-main.ts:194709
+main.ts:195569
 
 ***
 
@@ -617,7 +617,7 @@ main.ts:194709
 
 #### Source
 
-main.ts:194789
+main.ts:195649
 
 ***
 
@@ -635,4 +635,4 @@ main.ts:194789
 
 #### Source
 
-main.ts:194782
+main.ts:195642

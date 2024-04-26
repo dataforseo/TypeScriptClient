@@ -21,7 +21,7 @@ possible values: in_progress, finished
 
 #### Source
 
-main.ts:155091
+main.ts:156035
 
 ***
 
@@ -33,7 +33,7 @@ details of the crawling session
 
 #### Source
 
-main.ts:155093
+main.ts:156037
 
 ***
 
@@ -45,7 +45,7 @@ items array
 
 #### Source
 
-main.ts:155099
+main.ts:156043
 
 ***
 
@@ -57,7 +57,7 @@ number of items in the results array
 
 #### Source
 
-main.ts:155097
+main.ts:156041
 
 ***
 
@@ -69,4 +69,4 @@ total number of relevant items in the database
 
 #### Source
 
-main.ts:155095
+main.ts:156039

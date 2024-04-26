@@ -20,7 +20,7 @@ month
 
 #### Source
 
-main.ts:81250
+main.ts:81378
 
 ***
 
@@ -32,7 +32,7 @@ monthly average search volume rate
 
 #### Source
 
-main.ts:81252
+main.ts:81380
 
 ***
 
@@ -44,4 +44,4 @@ year
 
 #### Source
 
-main.ts:81248
+main.ts:81376

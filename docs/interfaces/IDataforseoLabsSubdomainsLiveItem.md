@@ -24,7 +24,7 @@ ranking data relevant to subdomain
 
 #### Source
 
-main.ts:91958
+main.ts:92336
 
 ***
 
@@ -36,7 +36,7 @@ search engine type
 
 #### Source
 
-main.ts:91954
+main.ts:92332
 
 ***
 
@@ -48,4 +48,4 @@ returned subdomain
 
 #### Source
 
-main.ts:91956
+main.ts:92334

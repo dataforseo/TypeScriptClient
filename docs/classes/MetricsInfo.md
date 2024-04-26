@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:78192
+main.ts:78320
 
 ## Properties
 
@@ -46,7 +46,7 @@ total count of organic SERPs that contain the domain
 
 #### Source
 
-main.ts:78171
+main.ts:78299
 
 ***
 
@@ -65,7 +65,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:78176
+main.ts:78304
 
 ***
 
@@ -84,7 +84,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:78164
+main.ts:78292
 
 ***
 
@@ -103,7 +103,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:78169
+main.ts:78297
 
 ***
 
@@ -120,7 +120,7 @@ indicates how many ranked elements of this domain went down in Google Search
 
 #### Source
 
-main.ts:78185
+main.ts:78313
 
 ***
 
@@ -137,7 +137,7 @@ indicates how many ranked elements of this domain were previously presented in S
 
 #### Source
 
-main.ts:78188
+main.ts:78316
 
 ***
 
@@ -154,7 +154,7 @@ indicates how many new ranked elements were found for this domain
 
 #### Source
 
-main.ts:78179
+main.ts:78307
 
 ***
 
@@ -171,7 +171,7 @@ indicates how many ranked elements of this domain went up in Google Search
 
 #### Source
 
-main.ts:78182
+main.ts:78310
 
 ***
 
@@ -187,7 +187,7 @@ number of organic SERPs where the domain ranks #1
 
 #### Source
 
-main.ts:78137
+main.ts:78265
 
 ***
 
@@ -203,7 +203,7 @@ number of organic SERPs where the domain ranks #11-20
 
 #### Source
 
-main.ts:78143
+main.ts:78271
 
 ***
 
@@ -219,7 +219,7 @@ number of organic SERPs where the domain ranks #21-30
 
 #### Source
 
-main.ts:78145
+main.ts:78273
 
 ***
 
@@ -235,7 +235,7 @@ number of organic SERPs where the domain ranks #2-3
 
 #### Source
 
-main.ts:78139
+main.ts:78267
 
 ***
 
@@ -251,7 +251,7 @@ number of organic SERPs where the domain ranks #31-40
 
 #### Source
 
-main.ts:78147
+main.ts:78275
 
 ***
 
@@ -267,7 +267,7 @@ number of organic SERPs where the domain ranks #41-50
 
 #### Source
 
-main.ts:78149
+main.ts:78277
 
 ***
 
@@ -283,7 +283,7 @@ number of organic SERPs where the domain ranks #4-10
 
 #### Source
 
-main.ts:78141
+main.ts:78269
 
 ***
 
@@ -299,7 +299,7 @@ number of organic SERPs where the domain ranks #51-60
 
 #### Source
 
-main.ts:78151
+main.ts:78279
 
 ***
 
@@ -315,7 +315,7 @@ number of organic SERPs where the domain ranks #61-70
 
 #### Source
 
-main.ts:78153
+main.ts:78281
 
 ***
 
@@ -331,7 +331,7 @@ number of organic SERPs where the domain ranks #71-80
 
 #### Source
 
-main.ts:78155
+main.ts:78283
 
 ***
 
@@ -347,7 +347,7 @@ number of organic SERPs where the domain ranks #81-90
 
 #### Source
 
-main.ts:78157
+main.ts:78285
 
 ***
 
@@ -363,7 +363,7 @@ number of organic SERPs where the domain ranks #91-100
 
 #### Source
 
-main.ts:78159
+main.ts:78287
 
 ## Methods
 
@@ -381,7 +381,7 @@ main.ts:78159
 
 #### Source
 
-main.ts:78201
+main.ts:78329
 
 ***
 
@@ -399,7 +399,7 @@ main.ts:78201
 
 #### Source
 
-main.ts:78237
+main.ts:78365
 
 ***
 
@@ -417,4 +417,4 @@ main.ts:78237
 
 #### Source
 
-main.ts:78230
+main.ts:78358

@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:96328
+main.ts:89569
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:96328
 
 #### Source
 
-main.ts:20171
+main.ts:20213
 
 ***
 
@@ -68,7 +68,7 @@ backlinks information for the target website
 
 #### Source
 
-main.ts:96322
+main.ts:89563
 
 ***
 
@@ -76,7 +76,7 @@ main.ts:96322
 
 > **`optional`** **breadcrumb**: `string`
 
-breadcrumb of the Ad element in SERP
+breadcrumb in SERP
 
 #### Implementation of
 
@@ -84,7 +84,7 @@ breadcrumb of the Ad element in SERP
 
 #### Source
 
-main.ts:96284
+main.ts:89527
 
 ***
 
@@ -100,7 +100,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:96282
+main.ts:89525
 
 ***
 
@@ -117,7 +117,7 @@ if there is none, equals null
 
 #### Source
 
-main.ts:96293
+main.ts:89536
 
 ***
 
@@ -125,7 +125,7 @@ main.ts:96293
 
 > **`optional`** **domain**: `string`
 
-domain where a link points
+subdomain in SERP
 
 #### Implementation of
 
@@ -133,7 +133,7 @@ domain where a link points
 
 #### Source
 
-main.ts:96280
+main.ts:89523
 
 ***
 
@@ -141,9 +141,8 @@ main.ts:96280
 
 > **`optional`** **estimated\_paid\_traffic\_cost**: `number`
 
-estimated cost of converting organic search traffic into paid
-represents the estimated monthly cost of running ads for the returned keyword
-the metric is calculated as the product of organic etv and paid cpc values and indicates the cost of driving the estimated volume of monthly organic traffic through PPC advertising in Google Search
+estimated cost of monthly search traffic
+represents the estimated cost of paid monthly traffic (USD) based on etv and cpc values of all keywords in the category that the domain ranks for
 learn more about how the metric is calculated in this help center article
 
 #### Implementation of
@@ -152,7 +151,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:96314
+main.ts:89558
 
 ***
 
@@ -161,8 +160,8 @@ main.ts:96314
 > **`optional`** **etv**: `number`
 
 estimated traffic volume
-estimated organic monthly traffic to the domain
-calculated as the product of CTR (click-through-rate) and search volume values of the returned keyword
+estimated paid monthly traffic to the domain
+calculated as the product of CTR (click-through-rate) and search volume values of all keywords in the category that the domain ranks for
 learn more about how the metric is calculated in this help center article
 
 #### Implementation of
@@ -171,7 +170,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:96304
+main.ts:89549
 
 ***
 
@@ -191,7 +190,7 @@ additional information about the result
 
 #### Source
 
-main.ts:96290
+main.ts:89533
 
 ***
 
@@ -207,7 +206,7 @@ words highlighted in bold within the results description
 
 #### Source
 
-main.ts:96288
+main.ts:89531
 
 ***
 
@@ -216,8 +215,8 @@ main.ts:96288
 > **`optional`** **impressions\_etv**: `number`
 
 estimated traffic volume based on impressions
-estimated organic monthly traffic to the domain
-calculated as the product of CTR (click-through-rate) and impressions values of the returned keyword
+estimated paid monthly traffic to the domain
+calculated as the product of CTR (click-through-rate) and impressions values of all keywords in the category that the domain ranks for
 learn more about how the metric is calculated in this help center article
 
 #### Implementation of
@@ -226,7 +225,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:96309
+main.ts:89554
 
 ***
 
@@ -234,7 +233,9 @@ main.ts:96309
 
 > **`optional`** **links**: [`AdLinkElement`](AdLinkElement.md)[]
 
-link of the element
+sitelinks
+the links shown below some of Google’s search results
+if there are none, equals null
 
 #### Implementation of
 
@@ -242,7 +243,7 @@ link of the element
 
 #### Source
 
-main.ts:96295
+main.ts:89540
 
 ***
 
@@ -258,7 +259,7 @@ primary domain name in SERP
 
 #### Source
 
-main.ts:96297
+main.ts:89542
 
 ***
 
@@ -276,7 +277,7 @@ left, right
 
 #### Source
 
-main.ts:96274
+main.ts:89517
 
 ***
 
@@ -293,7 +294,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:96270
+main.ts:89513
 
 ***
 
@@ -302,8 +303,7 @@ main.ts:96270
 > **`optional`** **rank\_changes**: [`RankChanges`](RankChanges.md)
 
 changes in rankings
-ranking changes of the SERP element compared to the preceding month;
-Note: the changes are calculated even if the preceding month is not included in a POST request
+contains information about the ranking changes of the SERP element since the previous_updated_time
 
 #### Implementation of
 
@@ -311,7 +311,7 @@ Note: the changes are calculated even if the preceding month is not included in 
 
 #### Source
 
-main.ts:96318
+main.ts:89561
 
 ***
 
@@ -328,7 +328,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:96267
+main.ts:89510
 
 ***
 
@@ -344,7 +344,7 @@ page and domain rank information
 
 #### Source
 
-main.ts:96324
+main.ts:89565
 
 ***
 
@@ -360,7 +360,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Source
 
-main.ts:96299
+main.ts:89544
 
 ***
 
@@ -376,7 +376,7 @@ search engine type
 
 #### Source
 
-main.ts:96320
+main.ts:89507
 
 ***
 
@@ -392,7 +392,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:96278
+main.ts:89521
 
 ***
 
@@ -400,7 +400,7 @@ main.ts:96278
 
 > **`optional`** **url**: `string`
 
-relevant URL of the Ad element in SERP
+relevant URL in SERP
 
 #### Implementation of
 
@@ -408,7 +408,7 @@ relevant URL of the Ad element in SERP
 
 #### Source
 
-main.ts:96286
+main.ts:89529
 
 ***
 
@@ -424,7 +424,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:96276
+main.ts:89519
 
 ## Methods
 
@@ -446,7 +446,7 @@ main.ts:96276
 
 #### Source
 
-main.ts:96333
+main.ts:89574
 
 ***
 
@@ -468,7 +468,7 @@ main.ts:96333
 
 #### Source
 
-main.ts:96390
+main.ts:89631
 
 ***
 
@@ -490,4 +490,4 @@ main.ts:96390
 
 #### Source
 
-main.ts:96383
+main.ts:89624

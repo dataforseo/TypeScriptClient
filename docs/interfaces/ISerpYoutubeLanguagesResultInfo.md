@@ -20,7 +20,7 @@ language code according to ISO 639-1
 
 #### Source
 
-main.ts:60012
+main.ts:60142
 
 ***
 
@@ -32,4 +32,4 @@ language name
 
 #### Source
 
-main.ts:60010
+main.ts:60140

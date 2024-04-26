@@ -24,7 +24,7 @@ Google Trends data from the corresponding item
 
 #### Source
 
-main.ts:124398
+main.ts:124534
 
 ***
 
@@ -37,7 +37,7 @@ the data included in the google_trends_topics_list element is based on the keywo
 
 #### Source
 
-main.ts:124396
+main.ts:124532
 
 ***
 
@@ -50,7 +50,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Source
 
-main.ts:124391
+main.ts:124527
 
 ***
 
@@ -62,4 +62,4 @@ title of the element in Google Trends
 
 #### Source
 
-main.ts:124393
+main.ts:124529

@@ -22,7 +22,7 @@
 
 #### Source
 
-main.ts:51424
+main.ts:51554
 
 ***
 
@@ -35,7 +35,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:51407
+main.ts:51537
 
 ***
 
@@ -49,7 +49,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:51404
+main.ts:51534
 
 ***
 
@@ -66,7 +66,7 @@ chrome/chrome-omni
 
 #### Source
 
-main.ts:51414
+main.ts:51544
 
 ***
 
@@ -79,7 +79,7 @@ url to search results relevant to the google autocomplete suggestion
 
 #### Source
 
-main.ts:51423
+main.ts:51553
 
 ***
 
@@ -91,7 +91,7 @@ google autocomplete keyword suggestion
 
 #### Source
 
-main.ts:51416
+main.ts:51546
 
 ***
 
@@ -105,4 +105,4 @@ chrome/chrome-omni
 
 #### Source
 
-main.ts:51420
+main.ts:51550

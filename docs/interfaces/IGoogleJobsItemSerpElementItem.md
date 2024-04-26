@@ -24,7 +24,7 @@ employment contract type
 
 #### Source
 
-main.ts:50025
+main.ts:50155
 
 ***
 
@@ -36,7 +36,7 @@ URL to the image used in the job posting
 
 #### Source
 
-main.ts:50014
+main.ts:50144
 
 ***
 
@@ -48,7 +48,7 @@ name of the employer
 
 #### Source
 
-main.ts:50010
+main.ts:50140
 
 ***
 
@@ -60,7 +60,7 @@ URL to the employer’s website
 
 #### Source
 
-main.ts:50012
+main.ts:50142
 
 ***
 
@@ -72,7 +72,7 @@ ID of the job on Google Jobs
 
 #### Source
 
-main.ts:50006
+main.ts:50136
 
 ***
 
@@ -84,7 +84,7 @@ location for which the job vacancy is posted
 
 #### Source
 
-main.ts:50016
+main.ts:50146
 
 ***
 
@@ -98,7 +98,7 @@ left, right
 
 #### Source
 
-main.ts:50002
+main.ts:50132
 
 ***
 
@@ -111,7 +111,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:49998
+main.ts:50128
 
 ***
 
@@ -125,7 +125,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:49995
+main.ts:50125
 
 ***
 
@@ -139,7 +139,7 @@ in this case, will equal null
 
 #### Source
 
-main.ts:50036
+main.ts:50166
 
 ***
 
@@ -152,7 +152,7 @@ if the salary isn’t indicated, this field will equal null
 
 #### Source
 
-main.ts:50023
+main.ts:50153
 
 ***
 
@@ -164,7 +164,7 @@ original source of the job vacancy
 
 #### Source
 
-main.ts:50018
+main.ts:50148
 
 ***
 
@@ -176,7 +176,7 @@ URL to the original source of the job vacancy
 
 #### Source
 
-main.ts:50020
+main.ts:50150
 
 ***
 
@@ -188,7 +188,7 @@ indicates how long ago the job vacancy was posted
 
 #### Source
 
-main.ts:50032
+main.ts:50162
 
 ***
 
@@ -203,7 +203,7 @@ example:
 
 #### Source
 
-main.ts:50030
+main.ts:50160
 
 ***
 
@@ -215,7 +215,7 @@ title of the job
 
 #### Source
 
-main.ts:50008
+main.ts:50138
 
 ***
 
@@ -227,4 +227,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:50004
+main.ts:50134

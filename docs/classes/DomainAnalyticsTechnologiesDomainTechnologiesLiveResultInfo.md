@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:77555
+main.ts:77683
 
 ## Properties
 
@@ -47,7 +47,7 @@ code of the language that content on the target domain is written in
 
 #### Source
 
-main.ts:77538
+main.ts:77666
 
 ***
 
@@ -64,7 +64,7 @@ ISO code of the country that the target domain is determined to belong to
 
 #### Source
 
-main.ts:77532
+main.ts:77660
 
 ***
 
@@ -80,7 +80,7 @@ domain meta description
 
 #### Source
 
-main.ts:77519
+main.ts:77647
 
 ***
 
@@ -96,7 +96,7 @@ specified domain name
 
 #### Source
 
-main.ts:77515
+main.ts:77643
 
 ***
 
@@ -113,7 +113,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Source
 
-main.ts:77524
+main.ts:77652
 
 ***
 
@@ -130,7 +130,7 @@ emails indicated on the target website
 
 #### Source
 
-main.ts:77544
+main.ts:77672
 
 ***
 
@@ -147,7 +147,7 @@ code of the language that the target domain is determined to be associated with
 
 #### Source
 
-main.ts:77535
+main.ts:77663
 
 ***
 
@@ -166,7 +166,7 @@ example:
 
 #### Source
 
-main.ts:77529
+main.ts:77657
 
 ***
 
@@ -182,7 +182,7 @@ domain meta keywords
 
 #### Source
 
-main.ts:77521
+main.ts:77649
 
 ***
 
@@ -199,7 +199,7 @@ contact phone numbers indicated on the target website
 
 #### Source
 
-main.ts:77541
+main.ts:77669
 
 ***
 
@@ -216,7 +216,7 @@ social media URLs detected in the social graphs of the target website
 
 #### Source
 
-main.ts:77547
+main.ts:77675
 
 ***
 
@@ -234,7 +234,7 @@ see the full list of available technologies structured by groups and categories
 
 #### Source
 
-main.ts:77551
+main.ts:77679
 
 ***
 
@@ -250,7 +250,7 @@ domain meta title
 
 #### Source
 
-main.ts:77517
+main.ts:77645
 
 ***
 
@@ -266,7 +266,7 @@ type of element
 
 #### Source
 
-main.ts:77513
+main.ts:77641
 
 ## Methods
 
@@ -284,7 +284,7 @@ main.ts:77513
 
 #### Source
 
-main.ts:77564
+main.ts:77692
 
 ***
 
@@ -302,7 +302,7 @@ main.ts:77564
 
 #### Source
 
-main.ts:77610
+main.ts:77738
 
 ***
 
@@ -320,4 +320,4 @@ main.ts:77610
 
 #### Source
 
-main.ts:77603
+main.ts:77731

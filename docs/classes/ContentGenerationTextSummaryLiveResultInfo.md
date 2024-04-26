@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:167847
+main.ts:168791
 
 ## Properties
 
@@ -46,7 +46,7 @@ Automated Readability Index
 
 #### Source
 
-main.ts:167833
+main.ts:168777
 
 ***
 
@@ -62,7 +62,7 @@ average number of characters per word in the target text
 
 #### Source
 
-main.ts:167826
+main.ts:168770
 
 ***
 
@@ -78,7 +78,7 @@ number of characters with spaces found in the target text
 
 #### Source
 
-main.ts:167822
+main.ts:168766
 
 ***
 
@@ -94,7 +94,7 @@ number of characters without spaces found in the target text
 
 #### Source
 
-main.ts:167820
+main.ts:168764
 
 ***
 
@@ -110,7 +110,7 @@ Coleman–Liau Index
 
 #### Source
 
-main.ts:167835
+main.ts:168779
 
 ***
 
@@ -126,7 +126,7 @@ Flesch–Kincaid Readability Index
 
 #### Source
 
-main.ts:167837
+main.ts:168781
 
 ***
 
@@ -142,7 +142,7 @@ number of grammar errors found in the target text
 
 #### Source
 
-main.ts:167843
+main.ts:168787
 
 ***
 
@@ -163,7 +163,7 @@ contains most common words and their count
 
 #### Source
 
-main.ts:167831
+main.ts:168775
 
 ***
 
@@ -179,7 +179,7 @@ number of paragraphs found in the target text
 
 #### Source
 
-main.ts:167816
+main.ts:168760
 
 ***
 
@@ -195,7 +195,7 @@ number of sentences found in the target text
 
 #### Source
 
-main.ts:167814
+main.ts:168758
 
 ***
 
@@ -211,7 +211,7 @@ SMOG Readability Index
 
 #### Source
 
-main.ts:167839
+main.ts:168783
 
 ***
 
@@ -227,7 +227,7 @@ number of spelling errors found in the target text
 
 #### Source
 
-main.ts:167841
+main.ts:168785
 
 ***
 
@@ -243,7 +243,7 @@ vocabulary density of the target text
 
 #### Source
 
-main.ts:167828
+main.ts:168772
 
 ***
 
@@ -259,7 +259,7 @@ number of words found in the target text
 
 #### Source
 
-main.ts:167818
+main.ts:168762
 
 ***
 
@@ -275,7 +275,7 @@ average number of words per sentence in the target text
 
 #### Source
 
-main.ts:167824
+main.ts:168768
 
 ## Methods
 
@@ -293,7 +293,7 @@ main.ts:167824
 
 #### Source
 
-main.ts:167856
+main.ts:168800
 
 ***
 
@@ -311,7 +311,7 @@ main.ts:167856
 
 #### Source
 
-main.ts:167893
+main.ts:168837
 
 ***
 
@@ -329,4 +329,4 @@ main.ts:167893
 
 #### Source
 
-main.ts:167886
+main.ts:168830

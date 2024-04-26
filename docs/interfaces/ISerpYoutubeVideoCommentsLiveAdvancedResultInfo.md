@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:64891
+main.ts:65021
 
 ***
 
@@ -33,7 +33,7 @@ number of comments on the video
 
 #### Source
 
-main.ts:64908
+main.ts:65038
 
 ***
 
@@ -48,7 +48,7 @@ example:
 
 #### Source
 
-main.ts:64896
+main.ts:65026
 
 ***
 
@@ -63,7 +63,7 @@ youtube_comment
 
 #### Source
 
-main.ts:64904
+main.ts:65034
 
 ***
 
@@ -75,7 +75,7 @@ elements of search results found in SERP
 
 #### Source
 
-main.ts:64912
+main.ts:65042
 
 ***
 
@@ -87,7 +87,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:64910
+main.ts:65040
 
 ***
 
@@ -99,7 +99,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:64888
+main.ts:65018
 
 ***
 
@@ -111,7 +111,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:64886
+main.ts:65016
 
 ***
 
@@ -123,7 +123,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:64884
+main.ts:65014
 
 ***
 
@@ -136,7 +136,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Source
 
-main.ts:64899
+main.ts:65029
 
 ***
 
@@ -148,7 +148,7 @@ title of the video
 
 #### Source
 
-main.ts:64906
+main.ts:65036
 
 ***
 
@@ -160,4 +160,4 @@ ID of the video received in a POST array
 
 #### Source
 
-main.ts:64882
+main.ts:65012

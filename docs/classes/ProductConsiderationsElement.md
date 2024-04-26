@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:35500
+main.ts:35628
 
 ## Properties
 
@@ -47,7 +47,7 @@ the category is indicated just above the title fo the consideration element
 
 #### Source
 
-main.ts:35494
+main.ts:35622
 
 ***
 
@@ -63,7 +63,7 @@ expanded element
 
 #### Source
 
-main.ts:35496
+main.ts:35624
 
 ***
 
@@ -79,7 +79,7 @@ title of a given link element
 
 #### Source
 
-main.ts:35491
+main.ts:35619
 
 ***
 
@@ -95,7 +95,7 @@ type of element
 
 #### Source
 
-main.ts:35489
+main.ts:35617
 
 ## Methods
 
@@ -113,7 +113,7 @@ main.ts:35489
 
 #### Source
 
-main.ts:35509
+main.ts:35637
 
 ***
 
@@ -131,7 +131,7 @@ main.ts:35509
 
 #### Source
 
-main.ts:35529
+main.ts:35657
 
 ***
 
@@ -149,4 +149,4 @@ main.ts:35529
 
 #### Source
 
-main.ts:35522
+main.ts:35650

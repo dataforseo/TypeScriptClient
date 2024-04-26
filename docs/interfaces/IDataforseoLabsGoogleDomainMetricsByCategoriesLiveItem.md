@@ -20,7 +20,7 @@ domain found for the specified category
 
 #### Source
 
-main.ts:87149
+main.ts:87277
 
 ***
 
@@ -32,7 +32,7 @@ primary domain
 
 #### Source
 
-main.ts:87151
+main.ts:87279
 
 ***
 
@@ -49,7 +49,7 @@ calculated by subtracting domain metrics as of the greater date from domain metr
 
 #### Source
 
-main.ts:87156
+main.ts:87284
 
 ***
 
@@ -65,7 +65,7 @@ historical ranking and traffic data of the domain
 
 #### Source
 
-main.ts:87153
+main.ts:87281
 
 ***
 
@@ -77,7 +77,7 @@ current total count of organic SERPs that contain the domain
 
 #### Source
 
-main.ts:87141
+main.ts:87269
 
 ***
 
@@ -89,7 +89,7 @@ current organic ETV of the domain
 
 #### Source
 
-main.ts:87139
+main.ts:87267
 
 ***
 
@@ -102,7 +102,7 @@ indicates how many ranked elements of the domain were previously presented in SE
 
 #### Source
 
-main.ts:87144
+main.ts:87272
 
 ***
 
@@ -115,7 +115,7 @@ indicates how many new ranked elements were found for the domain
 
 #### Source
 
-main.ts:87147
+main.ts:87275
 
 ***
 
@@ -127,7 +127,7 @@ search engine type
 
 #### Source
 
-main.ts:87135
+main.ts:87263
 
 ***
 
@@ -139,4 +139,4 @@ categories for which domains are collected
 
 #### Source
 
-main.ts:87137
+main.ts:87265

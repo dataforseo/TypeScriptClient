@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:28308
+main.ts:28436
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:28308
 
 #### Source
 
-main.ts:19788
+main.ts:19830
 
 ***
 
@@ -68,7 +68,7 @@ card id
 
 #### Source
 
-main.ts:28286
+main.ts:28414
 
 ***
 
@@ -86,7 +86,7 @@ can be used with Google Reviews API to get a full list of reviews
 
 #### Source
 
-main.ts:28297
+main.ts:28425
 
 ***
 
@@ -102,7 +102,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:28284
+main.ts:28412
 
 ***
 
@@ -119,7 +119,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Source
 
-main.ts:28291
+main.ts:28419
 
 ***
 
@@ -136,7 +136,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:28300
+main.ts:28428
 
 ***
 
@@ -152,7 +152,7 @@ URL of the logo from knowledge graph
 
 #### Source
 
-main.ts:28293
+main.ts:28421
 
 ***
 
@@ -170,7 +170,7 @@ left, right
 
 #### Source
 
-main.ts:28276
+main.ts:28404
 
 ***
 
@@ -187,7 +187,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:28272
+main.ts:28400
 
 ***
 
@@ -205,7 +205,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:28269
+main.ts:28397
 
 ***
 
@@ -223,7 +223,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Source
 
-main.ts:28304
+main.ts:28432
 
 ***
 
@@ -239,7 +239,7 @@ subtitle of the item
 
 #### Source
 
-main.ts:28282
+main.ts:28410
 
 ***
 
@@ -255,7 +255,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:28280
+main.ts:28408
 
 ***
 
@@ -271,7 +271,7 @@ relevant URL in SERP
 
 #### Source
 
-main.ts:28288
+main.ts:28416
 
 ***
 
@@ -287,7 +287,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:28278
+main.ts:28406
 
 ## Methods
 
@@ -309,7 +309,7 @@ main.ts:28278
 
 #### Source
 
-main.ts:28313
+main.ts:28441
 
 ***
 
@@ -331,7 +331,7 @@ main.ts:28313
 
 #### Source
 
-main.ts:28348
+main.ts:28476
 
 ***
 
@@ -353,4 +353,4 @@ main.ts:28348
 
 #### Source
 
-main.ts:28341
+main.ts:28469

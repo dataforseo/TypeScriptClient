@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:21051
+main.ts:21179
 
 ## Properties
 
@@ -46,7 +46,7 @@ closing time
 
 #### Source
 
-main.ts:21047
+main.ts:21175
 
 ***
 
@@ -62,7 +62,7 @@ opening time
 
 #### Source
 
-main.ts:21045
+main.ts:21173
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:21045
 
 #### Source
 
-main.ts:21060
+main.ts:21188
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:21060
 
 #### Source
 
-main.ts:21078
+main.ts:21206
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:21078
 
 #### Source
 
-main.ts:21071
+main.ts:21199

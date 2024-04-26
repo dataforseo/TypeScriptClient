@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:85199
+main.ts:85327
 
 ## Properties
 
@@ -47,7 +47,7 @@ possible values: informational, navigational, commercial, transactional
 
 #### Source
 
-main.ts:85192
+main.ts:85320
 
 ***
 
@@ -64,7 +64,7 @@ search intent probability
 
 #### Source
 
-main.ts:85195
+main.ts:85323
 
 ## Methods
 
@@ -82,7 +82,7 @@ main.ts:85195
 
 #### Source
 
-main.ts:85208
+main.ts:85336
 
 ***
 
@@ -100,7 +100,7 @@ main.ts:85208
 
 #### Source
 
-main.ts:85226
+main.ts:85354
 
 ***
 
@@ -118,4 +118,4 @@ main.ts:85226
 
 #### Source
 
-main.ts:85219
+main.ts:85347

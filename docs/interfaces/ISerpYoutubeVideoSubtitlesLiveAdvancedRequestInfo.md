@@ -22,7 +22,7 @@ only value: desktop
 
 #### Source
 
-main.ts:63139
+main.ts:63269
 
 ***
 
@@ -39,7 +39,7 @@ en
 
 #### Source
 
-main.ts:63135
+main.ts:63265
 
 ***
 
@@ -56,7 +56,7 @@ English
 
 #### Source
 
-main.ts:63128
+main.ts:63258
 
 ***
 
@@ -73,7 +73,7 @@ example:
 
 #### Source
 
-main.ts:63121
+main.ts:63251
 
 ***
 
@@ -90,7 +90,7 @@ United States
 
 #### Source
 
-main.ts:63114
+main.ts:63244
 
 ***
 
@@ -105,7 +105,7 @@ default value: windows
 
 #### Source
 
-main.ts:63144
+main.ts:63274
 
 ***
 
@@ -118,7 +118,7 @@ you can get the language code from YouTube Video Info result
 
 #### Source
 
-main.ts:63103
+main.ts:63233
 
 ***
 
@@ -132,7 +132,7 @@ possible values:
 
 #### Source
 
-main.ts:63107
+main.ts:63237
 
 ***
 
@@ -148,7 +148,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:63150
+main.ts:63280
 
 ***
 
@@ -164,4 +164,4 @@ Y8Wu4rSNJms
 
 #### Source
 
-main.ts:63100
+main.ts:63230
