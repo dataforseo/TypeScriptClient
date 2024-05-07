@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:49293
+main.ts:50153
 
 ## Properties
 
@@ -53,7 +53,7 @@ month — return job vacancies posted no longer than a month ago
 
 #### Source
 
-main.ts:49257
+main.ts:50117
 
 ***
 
@@ -76,7 +76,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:49242
+main.ts:50102
 
 ***
 
@@ -96,7 +96,7 @@ fulltime, partime, contractor, intern
 
 #### Source
 
-main.ts:49248
+main.ts:50108
 
 ***
 
@@ -119,7 +119,7 @@ example: .net developer
 
 #### Source
 
-main.ts:49190
+main.ts:50050
 
 ***
 
@@ -140,7 +140,7 @@ en
 
 #### Source
 
-main.ts:49233
+main.ts:50093
 
 ***
 
@@ -161,7 +161,7 @@ English
 
 #### Source
 
-main.ts:49226
+main.ts:50086
 
 ***
 
@@ -181,7 +181,7 @@ example:
 
 #### Source
 
-main.ts:49211
+main.ts:50071
 
 ***
 
@@ -202,7 +202,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:49205
+main.ts:50065
 
 ***
 
@@ -224,7 +224,7 @@ minimal value: > 0
 
 #### Source
 
-main.ts:49219
+main.ts:50079
 
 ***
 
@@ -248,7 +248,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:49289
+main.ts:50149
 
 ***
 
@@ -268,7 +268,7 @@ regular, advanced, html
 
 #### Source
 
-main.ts:49279
+main.ts:50139
 
 ***
 
@@ -292,7 +292,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:49273
+main.ts:50133
 
 ***
 
@@ -314,7 +314,7 @@ The cost can be calculated on the Pricing page
 
 #### Source
 
-main.ts:49198
+main.ts:50058
 
 ***
 
@@ -334,7 +334,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:49263
+main.ts:50123
 
 ## Methods
 
@@ -352,7 +352,7 @@ main.ts:49263
 
 #### Source
 
-main.ts:49302
+main.ts:50162
 
 ***
 
@@ -370,7 +370,7 @@ main.ts:49302
 
 #### Source
 
-main.ts:49336
+main.ts:50196
 
 ***
 
@@ -388,4 +388,4 @@ main.ts:49336
 
 #### Source
 
-main.ts:49329
+main.ts:50189

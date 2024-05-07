@@ -23,7 +23,7 @@ USD is applied by default, unless specified in the POST array
 
 #### Source
 
-main.ts:200019
+main.ts:200897
 
 ***
 
@@ -37,7 +37,7 @@ equals null if free cancellation is not available for the selected dates
 
 #### Source
 
-main.ts:200032
+main.ts:200910
 
 ***
 
@@ -50,7 +50,7 @@ the maximum number of visitors for which the price offer is valid
 
 #### Source
 
-main.ts:200025
+main.ts:200903
 
 ***
 
@@ -63,7 +63,7 @@ URLs of the images featured in the price offer
 
 #### Source
 
-main.ts:200028
+main.ts:200906
 
 ***
 
@@ -75,7 +75,7 @@ price per night
 
 #### Source
 
-main.ts:200016
+main.ts:200894
 
 ***
 
@@ -87,7 +87,7 @@ title of the hotel
 
 #### Source
 
-main.ts:200014
+main.ts:200892
 
 ***
 
@@ -99,7 +99,7 @@ type of element
 
 #### Source
 
-main.ts:200012
+main.ts:200890
 
 ***
 
@@ -112,4 +112,4 @@ URL to the page of the website where price offer appears
 
 #### Source
 
-main.ts:200022
+main.ts:200900

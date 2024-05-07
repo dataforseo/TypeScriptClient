@@ -212,7 +212,7 @@ Successful operation
 
 #### Source
 
-main.ts:18894
+main.ts:19058
 
 ***
 
@@ -228,7 +228,7 @@ Successful operation
 
 #### Source
 
-main.ts:18812
+main.ts:18976
 
 ***
 
@@ -254,7 +254,7 @@ Successful operation
 
 #### Source
 
-main.ts:18854
+main.ts:19018
 
 ***
 
@@ -270,7 +270,7 @@ Successful operation
 
 #### Source
 
-main.ts:19257
+main.ts:19421
 
 ***
 
@@ -286,7 +286,7 @@ Successful operation
 
 #### Source
 
-main.ts:19175
+main.ts:19339
 
 ***
 
@@ -312,7 +312,7 @@ Successful operation
 
 #### Source
 
-main.ts:19217
+main.ts:19381
 
 ***
 
@@ -730,6 +730,90 @@ main.ts:17953
 
 ***
 
+### googleQuestionsAndAnswersLive()
+
+> **googleQuestionsAndAnswersLive**(`body`): `Promise`\<[`BusinessDataGoogleQuestionsAndAnswersLiveResponseInfo`](BusinessDataGoogleQuestionsAndAnswersLiveResponseInfo.md)\>
+
+#### Parameters
+
+• **body**: [`BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo`](BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md)[]
+
+(optional)
+
+#### Returns
+
+`Promise`\<[`BusinessDataGoogleQuestionsAndAnswersLiveResponseInfo`](BusinessDataGoogleQuestionsAndAnswersLiveResponseInfo.md)\>
+
+Successful operation
+
+#### Source
+
+main.ts:18691
+
+***
+
+### googleQuestionsAndAnswersTaskGet()
+
+> **googleQuestionsAndAnswersTaskGet**(`id`): `Promise`\<[`BusinessDataGoogleQuestionsAndAnswersTaskGetResponseInfo`](BusinessDataGoogleQuestionsAndAnswersTaskGetResponseInfo.md)\>
+
+#### Parameters
+
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
+
+#### Returns
+
+`Promise`\<[`BusinessDataGoogleQuestionsAndAnswersTaskGetResponseInfo`](BusinessDataGoogleQuestionsAndAnswersTaskGetResponseInfo.md)\>
+
+Successful operation
+
+#### Source
+
+main.ts:18650
+
+***
+
+### googleQuestionsAndAnswersTaskPost()
+
+> **googleQuestionsAndAnswersTaskPost**(`body`): `Promise`\<[`BusinessDataGoogleQuestionsAndAnswersTaskPostResponseInfo`](BusinessDataGoogleQuestionsAndAnswersTaskPostResponseInfo.md)\>
+
+#### Parameters
+
+• **body**: [`BusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo`](BusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo.md)[]
+
+(optional)
+
+#### Returns
+
+`Promise`\<[`BusinessDataGoogleQuestionsAndAnswersTaskPostResponseInfo`](BusinessDataGoogleQuestionsAndAnswersTaskPostResponseInfo.md)\>
+
+Successful operation
+
+#### Source
+
+main.ts:18569
+
+***
+
+### googleQuestionsAndAnswersTasksReady()
+
+> **googleQuestionsAndAnswersTasksReady**(): `Promise`\<[`BusinessDataGoogleQuestionsAndAnswersTasksReadyResponseInfo`](BusinessDataGoogleQuestionsAndAnswersTasksReadyResponseInfo.md)\>
+
+#### Returns
+
+`Promise`\<[`BusinessDataGoogleQuestionsAndAnswersTasksReadyResponseInfo`](BusinessDataGoogleQuestionsAndAnswersTasksReadyResponseInfo.md)\>
+
+Successful operation
+
+#### Source
+
+main.ts:18610
+
+***
+
 ### googleReviewsTaskGet()
 
 > **googleReviewsTaskGet**(`id`): `Promise`\<[`BusinessDataGoogleReviewsTaskGetResponseInfo`](BusinessDataGoogleReviewsTaskGetResponseInfo.md)\>
@@ -914,7 +998,7 @@ main.ts:17412
 
 #### Source
 
-main.ts:18910
+main.ts:19074
 
 ***
 
@@ -932,7 +1016,7 @@ main.ts:18910
 
 #### Source
 
-main.ts:18828
+main.ts:18992
 
 ***
 
@@ -950,7 +1034,7 @@ main.ts:18828
 
 #### Source
 
-main.ts:18873
+main.ts:19037
 
 ***
 
@@ -968,7 +1052,7 @@ main.ts:18873
 
 #### Source
 
-main.ts:19273
+main.ts:19437
 
 ***
 
@@ -986,7 +1070,7 @@ main.ts:19273
 
 #### Source
 
-main.ts:19191
+main.ts:19355
 
 ***
 
@@ -1004,7 +1088,7 @@ main.ts:19191
 
 #### Source
 
-main.ts:19236
+main.ts:19400
 
 ***
 
@@ -1368,6 +1452,78 @@ main.ts:17969
 
 ***
 
+### processGoogleQuestionsAndAnswersLive()
+
+> **`protected`** **processGoogleQuestionsAndAnswersLive**(`response`): `Promise`\<[`BusinessDataGoogleQuestionsAndAnswersLiveResponseInfo`](BusinessDataGoogleQuestionsAndAnswersLiveResponseInfo.md)\>
+
+#### Parameters
+
+• **response**: `Response`
+
+#### Returns
+
+`Promise`\<[`BusinessDataGoogleQuestionsAndAnswersLiveResponseInfo`](BusinessDataGoogleQuestionsAndAnswersLiveResponseInfo.md)\>
+
+#### Source
+
+main.ts:18711
+
+***
+
+### processGoogleQuestionsAndAnswersTaskGet()
+
+> **`protected`** **processGoogleQuestionsAndAnswersTaskGet**(`response`): `Promise`\<[`BusinessDataGoogleQuestionsAndAnswersTaskGetResponseInfo`](BusinessDataGoogleQuestionsAndAnswersTaskGetResponseInfo.md)\>
+
+#### Parameters
+
+• **response**: `Response`
+
+#### Returns
+
+`Promise`\<[`BusinessDataGoogleQuestionsAndAnswersTaskGetResponseInfo`](BusinessDataGoogleQuestionsAndAnswersTaskGetResponseInfo.md)\>
+
+#### Source
+
+main.ts:18669
+
+***
+
+### processGoogleQuestionsAndAnswersTaskPost()
+
+> **`protected`** **processGoogleQuestionsAndAnswersTaskPost**(`response`): `Promise`\<[`BusinessDataGoogleQuestionsAndAnswersTaskPostResponseInfo`](BusinessDataGoogleQuestionsAndAnswersTaskPostResponseInfo.md)\>
+
+#### Parameters
+
+• **response**: `Response`
+
+#### Returns
+
+`Promise`\<[`BusinessDataGoogleQuestionsAndAnswersTaskPostResponseInfo`](BusinessDataGoogleQuestionsAndAnswersTaskPostResponseInfo.md)\>
+
+#### Source
+
+main.ts:18589
+
+***
+
+### processGoogleQuestionsAndAnswersTasksReady()
+
+> **`protected`** **processGoogleQuestionsAndAnswersTasksReady**(`response`): `Promise`\<[`BusinessDataGoogleQuestionsAndAnswersTasksReadyResponseInfo`](BusinessDataGoogleQuestionsAndAnswersTasksReadyResponseInfo.md)\>
+
+#### Parameters
+
+• **response**: `Response`
+
+#### Returns
+
+`Promise`\<[`BusinessDataGoogleQuestionsAndAnswersTasksReadyResponseInfo`](BusinessDataGoogleQuestionsAndAnswersTasksReadyResponseInfo.md)\>
+
+#### Source
+
+main.ts:18626
+
+***
+
 ### processGoogleReviewsTaskGet()
 
 > **`protected`** **processGoogleReviewsTaskGet**(`response`): `Promise`\<[`BusinessDataGoogleReviewsTaskGetResponseInfo`](BusinessDataGoogleReviewsTaskGetResponseInfo.md)\>
@@ -1436,7 +1592,7 @@ main.ts:18504
 
 #### Source
 
-main.ts:19601
+main.ts:19765
 
 ***
 
@@ -1454,7 +1610,7 @@ main.ts:19601
 
 #### Source
 
-main.ts:19559
+main.ts:19723
 
 ***
 
@@ -1472,7 +1628,7 @@ main.ts:19559
 
 #### Source
 
-main.ts:19643
+main.ts:19807
 
 ***
 
@@ -1490,7 +1646,7 @@ main.ts:19643
 
 #### Source
 
-main.ts:19154
+main.ts:19318
 
 ***
 
@@ -1508,7 +1664,7 @@ main.ts:19154
 
 #### Source
 
-main.ts:19074
+main.ts:19238
 
 ***
 
@@ -1526,7 +1682,7 @@ main.ts:19074
 
 #### Source
 
-main.ts:19111
+main.ts:19275
 
 ***
 
@@ -1544,7 +1700,7 @@ main.ts:19111
 
 #### Source
 
-main.ts:19032
+main.ts:19196
 
 ***
 
@@ -1562,7 +1718,7 @@ main.ts:19032
 
 #### Source
 
-main.ts:18952
+main.ts:19116
 
 ***
 
@@ -1580,7 +1736,7 @@ main.ts:18952
 
 #### Source
 
-main.ts:18989
+main.ts:19153
 
 ***
 
@@ -1598,7 +1754,7 @@ main.ts:18989
 
 #### Source
 
-main.ts:18791
+main.ts:18955
 
 ***
 
@@ -1616,7 +1772,7 @@ main.ts:18791
 
 #### Source
 
-main.ts:18711
+main.ts:18875
 
 ***
 
@@ -1634,7 +1790,7 @@ main.ts:18711
 
 #### Source
 
-main.ts:18748
+main.ts:18912
 
 ***
 
@@ -1652,7 +1808,7 @@ main.ts:18748
 
 #### Source
 
-main.ts:18669
+main.ts:18833
 
 ***
 
@@ -1670,7 +1826,7 @@ main.ts:18669
 
 #### Source
 
-main.ts:18589
+main.ts:18753
 
 ***
 
@@ -1688,7 +1844,7 @@ main.ts:18589
 
 #### Source
 
-main.ts:18626
+main.ts:18790
 
 ***
 
@@ -1706,7 +1862,7 @@ main.ts:18626
 
 #### Source
 
-main.ts:19517
+main.ts:19681
 
 ***
 
@@ -1724,7 +1880,7 @@ main.ts:19517
 
 #### Source
 
-main.ts:19437
+main.ts:19601
 
 ***
 
@@ -1742,7 +1898,7 @@ main.ts:19437
 
 #### Source
 
-main.ts:19474
+main.ts:19638
 
 ***
 
@@ -1760,7 +1916,7 @@ main.ts:19474
 
 #### Source
 
-main.ts:19395
+main.ts:19559
 
 ***
 
@@ -1778,7 +1934,7 @@ main.ts:19395
 
 #### Source
 
-main.ts:19315
+main.ts:19479
 
 ***
 
@@ -1796,7 +1952,7 @@ main.ts:19315
 
 #### Source
 
-main.ts:19352
+main.ts:19516
 
 ***
 
@@ -1818,7 +1974,7 @@ Successful operation
 
 #### Source
 
-main.ts:19581
+main.ts:19745
 
 ***
 
@@ -1840,7 +1996,7 @@ Successful operation
 
 #### Source
 
-main.ts:19539
+main.ts:19703
 
 ***
 
@@ -1862,7 +2018,7 @@ Successful operation
 
 #### Source
 
-main.ts:19623
+main.ts:19787
 
 ***
 
@@ -1886,7 +2042,7 @@ Successful operation
 
 #### Source
 
-main.ts:19135
+main.ts:19299
 
 ***
 
@@ -1908,7 +2064,7 @@ Successful operation
 
 #### Source
 
-main.ts:19054
+main.ts:19218
 
 ***
 
@@ -1924,7 +2080,7 @@ Successful operation
 
 #### Source
 
-main.ts:19095
+main.ts:19259
 
 ***
 
@@ -1948,7 +2104,7 @@ Successful operation
 
 #### Source
 
-main.ts:19013
+main.ts:19177
 
 ***
 
@@ -1970,7 +2126,7 @@ Successful operation
 
 #### Source
 
-main.ts:18932
+main.ts:19096
 
 ***
 
@@ -1986,7 +2142,7 @@ Successful operation
 
 #### Source
 
-main.ts:18973
+main.ts:19137
 
 ***
 
@@ -2010,7 +2166,7 @@ Successful operation
 
 #### Source
 
-main.ts:18772
+main.ts:18936
 
 ***
 
@@ -2032,7 +2188,7 @@ Successful operation
 
 #### Source
 
-main.ts:18691
+main.ts:18855
 
 ***
 
@@ -2048,7 +2204,7 @@ Successful operation
 
 #### Source
 
-main.ts:18732
+main.ts:18896
 
 ***
 
@@ -2072,7 +2228,7 @@ Successful operation
 
 #### Source
 
-main.ts:18650
+main.ts:18814
 
 ***
 
@@ -2094,7 +2250,7 @@ Successful operation
 
 #### Source
 
-main.ts:18569
+main.ts:18733
 
 ***
 
@@ -2110,7 +2266,7 @@ Successful operation
 
 #### Source
 
-main.ts:18610
+main.ts:18774
 
 ***
 
@@ -2134,7 +2290,7 @@ Successful operation
 
 #### Source
 
-main.ts:19498
+main.ts:19662
 
 ***
 
@@ -2156,7 +2312,7 @@ Successful operation
 
 #### Source
 
-main.ts:19417
+main.ts:19581
 
 ***
 
@@ -2172,7 +2328,7 @@ Successful operation
 
 #### Source
 
-main.ts:19458
+main.ts:19622
 
 ***
 
@@ -2196,7 +2352,7 @@ Successful operation
 
 #### Source
 
-main.ts:19376
+main.ts:19540
 
 ***
 
@@ -2218,7 +2374,7 @@ Successful operation
 
 #### Source
 
-main.ts:19295
+main.ts:19459
 
 ***
 
@@ -2234,4 +2390,4 @@ Successful operation
 
 #### Source
 
-main.ts:19336
+main.ts:19500

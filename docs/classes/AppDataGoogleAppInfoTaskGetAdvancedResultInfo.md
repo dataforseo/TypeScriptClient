@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:186631
+main.ts:187489
 
 ## Properties
 
@@ -46,7 +46,7 @@ application id received in a POST request
 
 #### Source
 
-main.ts:186607
+main.ts:187465
 
 ***
 
@@ -63,7 +63,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:186616
+main.ts:187474
 
 ***
 
@@ -82,7 +82,7 @@ example:
 
 #### Source
 
-main.ts:186621
+main.ts:187479
 
 ***
 
@@ -98,7 +98,7 @@ found app info
 
 #### Source
 
-main.ts:186627
+main.ts:187485
 
 ***
 
@@ -114,7 +114,7 @@ the number of items in the results array
 
 #### Source
 
-main.ts:186625
+main.ts:187483
 
 ***
 
@@ -130,7 +130,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:186613
+main.ts:187471
 
 ***
 
@@ -146,7 +146,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:186611
+main.ts:187469
 
 ***
 
@@ -162,7 +162,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:186609
+main.ts:187467
 
 ***
 
@@ -178,7 +178,7 @@ the total number of results
 
 #### Source
 
-main.ts:186623
+main.ts:187481
 
 ## Methods
 
@@ -196,7 +196,7 @@ main.ts:186623
 
 #### Source
 
-main.ts:186640
+main.ts:187498
 
 ***
 
@@ -214,7 +214,7 @@ main.ts:186640
 
 #### Source
 
-main.ts:186669
+main.ts:187527
 
 ***
 
@@ -232,4 +232,4 @@ main.ts:186669
 
 #### Source
 
-main.ts:186662
+main.ts:187520

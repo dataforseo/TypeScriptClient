@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:85734
+main.ts:86592
 
 ## Properties
 
@@ -60,7 +60,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:85697
+main.ts:86555
 
 ***
 
@@ -80,7 +80,7 @@ learn more about the parameter in this help center article
 
 #### Source
 
-main.ts:85672
+main.ts:86530
 
 ***
 
@@ -103,7 +103,7 @@ default value:
 
 #### Source
 
-main.ts:85681
+main.ts:86539
 
 ***
 
@@ -125,7 +125,7 @@ en
 
 #### Source
 
-main.ts:85666
+main.ts:86524
 
 ***
 
@@ -147,7 +147,7 @@ English
 
 #### Source
 
-main.ts:85658
+main.ts:86516
 
 ***
 
@@ -166,7 +166,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:85719
+main.ts:86577
 
 ***
 
@@ -188,7 +188,7 @@ example:
 
 #### Source
 
-main.ts:85650
+main.ts:86508
 
 ***
 
@@ -210,7 +210,7 @@ United Kingdom
 
 #### Source
 
-main.ts:85642
+main.ts:86500
 
 ***
 
@@ -229,7 +229,7 @@ if you specify the 10 value, the first ten categories in the results array will 
 
 #### Source
 
-main.ts:85724
+main.ts:86582
 
 ***
 
@@ -260,7 +260,7 @@ Note: if the item_types array contains item types that are different from the or
 
 #### Source
 
-main.ts:85714
+main.ts:86572
 
 ***
 
@@ -280,7 +280,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:85730
+main.ts:86588
 
 ***
 
@@ -299,7 +299,7 @@ the domain or subdomain should be specified without https:// and www.
 
 #### Source
 
-main.ts:85634
+main.ts:86492
 
 ## Methods
 
@@ -317,7 +317,7 @@ main.ts:85634
 
 #### Source
 
-main.ts:85743
+main.ts:86601
 
 ***
 
@@ -335,7 +335,7 @@ main.ts:85743
 
 #### Source
 
-main.ts:85783
+main.ts:86641
 
 ***
 
@@ -353,4 +353,4 @@ main.ts:85783
 
 #### Source
 
-main.ts:85776
+main.ts:86634

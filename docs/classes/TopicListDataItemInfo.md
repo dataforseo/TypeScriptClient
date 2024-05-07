@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:124327
+main.ts:125185
 
 ## Properties
 
@@ -46,7 +46,7 @@ unique topic identifier in Google Trends
 
 #### Source
 
-main.ts:124315
+main.ts:125173
 
 ***
 
@@ -62,7 +62,7 @@ title of the topic
 
 #### Source
 
-main.ts:124317
+main.ts:125175
 
 ***
 
@@ -79,7 +79,7 @@ represents the general type of the topic
 
 #### Source
 
-main.ts:124320
+main.ts:125178
 
 ***
 
@@ -96,7 +96,7 @@ represents the popularity of the topic. Scoring is on a relative scale where a v
 
 #### Source
 
-main.ts:124323
+main.ts:125181
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:124323
 
 #### Source
 
-main.ts:124336
+main.ts:125194
 
 ***
 
@@ -132,7 +132,7 @@ main.ts:124336
 
 #### Source
 
-main.ts:124356
+main.ts:125214
 
 ***
 
@@ -150,4 +150,4 @@ main.ts:124356
 
 #### Source
 
-main.ts:124349
+main.ts:125207

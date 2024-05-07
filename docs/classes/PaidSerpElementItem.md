@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:25848
+main.ts:26012
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:25848
 
 #### Source
 
-main.ts:19830
+main.ts:19994
 
 ***
 
@@ -68,7 +68,7 @@ breadcrumb in SERP
 
 #### Source
 
-main.ts:25814
+main.ts:25978
 
 ***
 
@@ -84,7 +84,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:25828
+main.ts:25992
 
 ***
 
@@ -101,7 +101,7 @@ if there is none, equals null
 
 #### Source
 
-main.ts:25831
+main.ts:25995
 
 ***
 
@@ -117,7 +117,7 @@ website domain
 
 #### Source
 
-main.ts:25812
+main.ts:25976
 
 ***
 
@@ -137,7 +137,7 @@ additional information about the result
 
 #### Source
 
-main.ts:25826
+main.ts:25990
 
 ***
 
@@ -153,7 +153,7 @@ words highlighted in bold within the results description
 
 #### Source
 
-main.ts:25824
+main.ts:25988
 
 ***
 
@@ -169,7 +169,7 @@ images of the element
 
 #### Source
 
-main.ts:25820
+main.ts:25984
 
 ***
 
@@ -185,7 +185,7 @@ indicates whether the element contains an image
 
 #### Source
 
-main.ts:25816
+main.ts:25980
 
 ***
 
@@ -201,7 +201,7 @@ indicates whether the element contains a video
 
 #### Source
 
-main.ts:25818
+main.ts:25982
 
 ***
 
@@ -219,7 +219,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:25835
+main.ts:25999
 
 ***
 
@@ -237,7 +237,7 @@ left, right
 
 #### Source
 
-main.ts:25806
+main.ts:25970
 
 ***
 
@@ -254,7 +254,7 @@ contains the pricing details of the product or service featured in the result
 
 #### Source
 
-main.ts:25838
+main.ts:26002
 
 ***
 
@@ -271,7 +271,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:25802
+main.ts:25966
 
 ***
 
@@ -289,7 +289,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:25799
+main.ts:25963
 
 ***
 
@@ -307,7 +307,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Source
 
-main.ts:25842
+main.ts:26006
 
 ***
 
@@ -323,7 +323,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:25810
+main.ts:25974
 
 ***
 
@@ -339,7 +339,7 @@ relevant URL in SERP
 
 #### Source
 
-main.ts:25822
+main.ts:25986
 
 ***
 
@@ -355,7 +355,7 @@ website name in SERP
 
 #### Source
 
-main.ts:25844
+main.ts:26008
 
 ***
 
@@ -371,7 +371,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:25808
+main.ts:25972
 
 ## Methods
 
@@ -393,7 +393,7 @@ main.ts:25808
 
 #### Source
 
-main.ts:25853
+main.ts:26017
 
 ***
 
@@ -415,7 +415,7 @@ main.ts:25853
 
 #### Source
 
-main.ts:25911
+main.ts:26075
 
 ***
 
@@ -437,4 +437,4 @@ main.ts:25911
 
 #### Source
 
-main.ts:25904
+main.ts:26068

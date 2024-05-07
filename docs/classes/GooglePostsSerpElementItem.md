@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:35414
+main.ts:35578
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:35414
 
 #### Source
 
-main.ts:19830
+main.ts:19994
 
 ***
 
@@ -68,7 +68,7 @@ google-defined client id
 
 #### Source
 
-main.ts:35406
+main.ts:35570
 
 ***
 
@@ -84,7 +84,7 @@ the additional feature of the review
 
 #### Source
 
-main.ts:35404
+main.ts:35568
 
 ***
 
@@ -102,7 +102,7 @@ left, right
 
 #### Source
 
-main.ts:35398
+main.ts:35562
 
 ***
 
@@ -118,7 +118,7 @@ the identifier of the google_posts feature
 
 #### Source
 
-main.ts:35402
+main.ts:35566
 
 ***
 
@@ -136,7 +136,7 @@ always equals 0 for desktop
 
 #### Source
 
-main.ts:35394
+main.ts:35558
 
 ***
 
@@ -155,7 +155,7 @@ always equals 0 for desktop
 
 #### Source
 
-main.ts:35390
+main.ts:35554
 
 ***
 
@@ -173,7 +173,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Source
 
-main.ts:35410
+main.ts:35574
 
 ***
 
@@ -189,7 +189,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:35400
+main.ts:35564
 
 ## Methods
 
@@ -211,7 +211,7 @@ main.ts:35400
 
 #### Source
 
-main.ts:35419
+main.ts:35583
 
 ***
 
@@ -233,7 +233,7 @@ main.ts:35419
 
 #### Source
 
-main.ts:35444
+main.ts:35608
 
 ***
 
@@ -255,4 +255,4 @@ main.ts:35444
 
 #### Source
 
-main.ts:35437
+main.ts:35601

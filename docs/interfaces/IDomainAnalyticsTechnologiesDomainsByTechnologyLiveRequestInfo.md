@@ -25,7 +25,7 @@ example:
 
 #### Source
 
-main.ts:76679
+main.ts:77537
 
 ***
 
@@ -52,7 +52,7 @@ for more information about filters, please refer to Domain Analytics Technologie
 
 #### Source
 
-main.ts:76717
+main.ts:77575
 
 ***
 
@@ -69,7 +69,7 @@ example:
 
 #### Source
 
-main.ts:76672
+main.ts:77530
 
 ***
 
@@ -86,7 +86,7 @@ example:
 
 #### Source
 
-main.ts:76693
+main.ts:77551
 
 ***
 
@@ -101,7 +101,7 @@ maximum value: 10000
 
 #### Source
 
-main.ts:76739
+main.ts:77597
 
 ***
 
@@ -118,7 +118,7 @@ default value: as_is
 
 #### Source
 
-main.ts:76700
+main.ts:77558
 
 ***
 
@@ -135,7 +135,7 @@ use the offset_token if you would like to offset more results
 
 #### Source
 
-main.ts:76746
+main.ts:77604
 
 ***
 
@@ -153,7 +153,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 #### Source
 
-main.ts:76754
+main.ts:77612
 
 ***
 
@@ -180,7 +180,7 @@ example:
 
 #### Source
 
-main.ts:76734
+main.ts:77592
 
 ***
 
@@ -197,7 +197,7 @@ example:
 
 #### Source
 
-main.ts:76686
+main.ts:77544
 
 ***
 
@@ -217,4 +217,4 @@ example:
 
 #### Source
 
-main.ts:76665
+main.ts:77523

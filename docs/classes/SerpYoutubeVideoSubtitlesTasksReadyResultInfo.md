@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:62344
+main.ts:63202
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Source
 
-main.ts:62329
+main.ts:63187
 
 ***
 
@@ -63,7 +63,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Source
 
-main.ts:62337
+main.ts:63195
 
 ***
 
@@ -80,7 +80,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Source
 
-main.ts:62340
+main.ts:63198
 
 ***
 
@@ -97,7 +97,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Source
 
-main.ts:62334
+main.ts:63192
 
 ***
 
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:62322
+main.ts:63180
 
 ***
 
@@ -130,7 +130,7 @@ search engine specified when setting the task
 
 #### Source
 
-main.ts:62324
+main.ts:63182
 
 ***
 
@@ -147,7 +147,7 @@ can take the following values: video_subtitles
 
 #### Source
 
-main.ts:62327
+main.ts:63185
 
 ***
 
@@ -163,7 +163,7 @@ user-defined task identifier
 
 #### Source
 
-main.ts:62331
+main.ts:63189
 
 ## Methods
 
@@ -181,7 +181,7 @@ main.ts:62331
 
 #### Source
 
-main.ts:62353
+main.ts:63211
 
 ***
 
@@ -199,7 +199,7 @@ main.ts:62353
 
 #### Source
 
-main.ts:62377
+main.ts:63235
 
 ***
 
@@ -217,4 +217,4 @@ main.ts:62377
 
 #### Source
 
-main.ts:62370
+main.ts:63228

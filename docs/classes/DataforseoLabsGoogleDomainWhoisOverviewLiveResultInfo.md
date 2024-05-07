@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:88365
+main.ts:89223
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains ranking and traffic data
 
 #### Source
 
-main.ts:88361
+main.ts:89219
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:88359
+main.ts:89217
 
 ***
 
@@ -78,7 +78,7 @@ search engine type
 
 #### Source
 
-main.ts:88355
+main.ts:89213
 
 ***
 
@@ -94,7 +94,7 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:88357
+main.ts:89215
 
 ## Methods
 
@@ -112,7 +112,7 @@ main.ts:88357
 
 #### Source
 
-main.ts:88374
+main.ts:89232
 
 ***
 
@@ -130,7 +130,7 @@ main.ts:88374
 
 #### Source
 
-main.ts:88398
+main.ts:89256
 
 ***
 
@@ -148,4 +148,4 @@ main.ts:88398
 
 #### Source
 
-main.ts:88391
+main.ts:89249

@@ -24,7 +24,7 @@ name of the author of the comment
 
 #### Source
 
-main.ts:64441
+main.ts:65299
 
 ***
 
@@ -36,7 +36,7 @@ the URL of the page where the author’s channel logo is hosted
 
 #### Source
 
-main.ts:64443
+main.ts:65301
 
 ***
 
@@ -48,7 +48,7 @@ URL of the author’s channel
 
 #### Source
 
-main.ts:64445
+main.ts:65303
 
 ***
 
@@ -60,7 +60,7 @@ number of likes on the comment
 
 #### Source
 
-main.ts:64456
+main.ts:65314
 
 ***
 
@@ -72,7 +72,7 @@ displayed publication date
 
 #### Source
 
-main.ts:64449
+main.ts:65307
 
 ***
 
@@ -85,7 +85,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:64439
+main.ts:65297
 
 ***
 
@@ -99,7 +99,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:64436
+main.ts:65294
 
 ***
 
@@ -111,7 +111,7 @@ number of replies on the comment
 
 #### Source
 
-main.ts:64458
+main.ts:65316
 
 ***
 
@@ -123,7 +123,7 @@ text of the comment
 
 #### Source
 
-main.ts:64447
+main.ts:65305
 
 ***
 
@@ -138,4 +138,4 @@ example:
 
 #### Source
 
-main.ts:64454
+main.ts:65312

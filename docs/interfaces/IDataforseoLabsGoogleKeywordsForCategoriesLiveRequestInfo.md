@@ -23,7 +23,7 @@ you can download the full list of possible categories
 
 #### Source
 
-main.ts:86419
+main.ts:87277
 
 ***
 
@@ -39,7 +39,7 @@ default value: true
 
 #### Source
 
-main.ts:86457
+main.ts:87315
 
 ***
 
@@ -68,7 +68,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:86504
+main.ts:87362
 
 ***
 
@@ -83,7 +83,7 @@ default value: false
 
 #### Source
 
-main.ts:86467
+main.ts:87325
 
 ***
 
@@ -98,7 +98,7 @@ default value: false
 
 #### Source
 
-main.ts:86462
+main.ts:87320
 
 ***
 
@@ -116,7 +116,7 @@ en
 
 #### Source
 
-main.ts:86451
+main.ts:87309
 
 ***
 
@@ -134,7 +134,7 @@ English
 
 #### Source
 
-main.ts:86443
+main.ts:87301
 
 ***
 
@@ -149,7 +149,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:86472
+main.ts:87330
 
 ***
 
@@ -167,7 +167,7 @@ example:
 
 #### Source
 
-main.ts:86435
+main.ts:87293
 
 ***
 
@@ -185,7 +185,7 @@ United Kingdom
 
 #### Source
 
-main.ts:86427
+main.ts:87285
 
 ***
 
@@ -200,7 +200,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:86477
+main.ts:87335
 
 ***
 
@@ -218,7 +218,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Source
 
-main.ts:86485
+main.ts:87343
 
 ***
 
@@ -244,7 +244,7 @@ example:
 
 #### Source
 
-main.ts:86520
+main.ts:87378
 
 ***
 
@@ -260,4 +260,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:86526
+main.ts:87384

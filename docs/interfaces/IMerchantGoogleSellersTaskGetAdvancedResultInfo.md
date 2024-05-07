@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:173360
+main.ts:174218
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Source
 
-main.ts:173365
+main.ts:174223
 
 ***
 
@@ -48,7 +48,7 @@ URL to the product image
 
 #### Source
 
-main.ts:173371
+main.ts:174229
 
 ***
 
@@ -63,7 +63,7 @@ shops_list, buy_on_google
 
 #### Source
 
-main.ts:173379
+main.ts:174237
 
 ***
 
@@ -75,7 +75,7 @@ items in SERP
 
 #### Source
 
-main.ts:173383
+main.ts:174241
 
 ***
 
@@ -87,7 +87,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:173381
+main.ts:174239
 
 ***
 
@@ -99,7 +99,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:173357
+main.ts:174215
 
 ***
 
@@ -111,7 +111,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:173355
+main.ts:174213
 
 ***
 
@@ -124,7 +124,7 @@ learn more about the parameter in this help center guide
 
 #### Source
 
-main.ts:173349
+main.ts:174207
 
 ***
 
@@ -137,7 +137,7 @@ the product popularity rate based on product reviews
 
 #### Source
 
-main.ts:173374
+main.ts:174232
 
 ***
 
@@ -149,7 +149,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:173353
+main.ts:174211
 
 ***
 
@@ -161,7 +161,7 @@ title of the product
 
 #### Source
 
-main.ts:173367
+main.ts:174225
 
 ***
 
@@ -173,7 +173,7 @@ type of element
 
 #### Source
 
-main.ts:173351
+main.ts:174209
 
 ***
 
@@ -185,4 +185,4 @@ URL to the product page
 
 #### Source
 
-main.ts:173369
+main.ts:174227

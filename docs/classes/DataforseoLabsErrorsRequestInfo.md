@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:79557
+main.ts:80415
 
 ## Properties
 
@@ -51,7 +51,7 @@ example:
 
 #### Source
 
-main.ts:79546
+main.ts:80404
 
 ***
 
@@ -72,7 +72,7 @@ example:
 
 #### Source
 
-main.ts:79553
+main.ts:80411
 
 ***
 
@@ -92,7 +92,7 @@ example: dataforseo_labs/related_keywords/live
 
 #### Source
 
-main.ts:79539
+main.ts:80397
 
 ***
 
@@ -111,7 +111,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:79528
+main.ts:80386
 
 ***
 
@@ -130,7 +130,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Source
 
-main.ts:79533
+main.ts:80391
 
 ## Methods
 
@@ -148,7 +148,7 @@ main.ts:79533
 
 #### Source
 
-main.ts:79566
+main.ts:80424
 
 ***
 
@@ -166,7 +166,7 @@ main.ts:79566
 
 #### Source
 
-main.ts:79587
+main.ts:80445
 
 ***
 
@@ -184,4 +184,4 @@ main.ts:79587
 
 #### Source
 
-main.ts:79580
+main.ts:80438

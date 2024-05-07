@@ -25,7 +25,7 @@ learn more about ASIN in this help center guide
 
 #### Source
 
-main.ts:102506
+main.ts:103364
 
 ***
 
@@ -37,7 +37,7 @@ number of product purchases in the past month
 
 #### Source
 
-main.ts:102537
+main.ts:103395
 
 ***
 
@@ -51,7 +51,7 @@ USD
 
 #### Source
 
-main.ts:102520
+main.ts:103378
 
 ***
 
@@ -66,7 +66,7 @@ B07G82D89J
 
 #### Source
 
-main.ts:102542
+main.ts:103400
 
 ***
 
@@ -79,7 +79,7 @@ delivery information including free and fast delivery date ranges
 
 #### Source
 
-main.ts:102535
+main.ts:103393
 
 ***
 
@@ -91,7 +91,7 @@ description of the product
 
 #### Source
 
-main.ts:102503
+main.ts:103361
 
 ***
 
@@ -103,7 +103,7 @@ Amazon domain
 
 #### Source
 
-main.ts:102497
+main.ts:103355
 
 ***
 
@@ -115,7 +115,7 @@ URL of the product image featured in the results
 
 #### Source
 
-main.ts:102508
+main.ts:103366
 
 ***
 
@@ -128,7 +128,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 #### Source
 
-main.ts:102529
+main.ts:103387
 
 ***
 
@@ -141,7 +141,7 @@ if the value is true, the product is marked with the “Best Seller” label
 
 #### Source
 
-main.ts:102526
+main.ts:103384
 
 ***
 
@@ -155,7 +155,7 @@ left, right
 
 #### Source
 
-main.ts:102493
+main.ts:103351
 
 ***
 
@@ -169,7 +169,7 @@ example:
 
 #### Source
 
-main.ts:102512
+main.ts:103370
 
 ***
 
@@ -183,7 +183,7 @@ example:
 
 #### Source
 
-main.ts:102516
+main.ts:103374
 
 ***
 
@@ -196,7 +196,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:102489
+main.ts:103347
 
 ***
 
@@ -209,7 +209,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:102486
+main.ts:103344
 
 ***
 
@@ -222,7 +222,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:102532
+main.ts:103390
 
 ***
 
@@ -234,7 +234,7 @@ search engine type
 
 #### Source
 
-main.ts:102483
+main.ts:103341
 
 ***
 
@@ -247,7 +247,7 @@ contains special offer details, including coupon and Subscribe & Save discounts
 
 #### Source
 
-main.ts:102523
+main.ts:103381
 
 ***
 
@@ -259,7 +259,7 @@ product title
 
 #### Source
 
-main.ts:102499
+main.ts:103357
 
 ***
 
@@ -271,7 +271,7 @@ URL of the product page
 
 #### Source
 
-main.ts:102501
+main.ts:103359
 
 ***
 
@@ -283,4 +283,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:102495
+main.ts:103353

@@ -26,7 +26,7 @@ the id is org.telegram.messenger
 
 #### Source
 
-main.ts:185848
+main.ts:186706
 
 ***
 
@@ -43,7 +43,7 @@ en
 
 #### Source
 
-main.ts:185876
+main.ts:186734
 
 ***
 
@@ -60,7 +60,7 @@ English
 
 #### Source
 
-main.ts:185869
+main.ts:186727
 
 ***
 
@@ -77,7 +77,7 @@ example:
 
 #### Source
 
-main.ts:185862
+main.ts:186720
 
 ***
 
@@ -94,7 +94,7 @@ West Los Angeles,California,United States
 
 #### Source
 
-main.ts:185855
+main.ts:186713
 
 ***
 
@@ -114,7 +114,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:185916
+main.ts:186774
 
 ***
 
@@ -130,7 +130,7 @@ advanced, html
 
 #### Source
 
-main.ts:185906
+main.ts:186764
 
 ***
 
@@ -150,7 +150,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:185900
+main.ts:186758
 
 ***
 
@@ -168,7 +168,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:185884
+main.ts:186742
 
 ***
 
@@ -184,4 +184,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:185890
+main.ts:186748

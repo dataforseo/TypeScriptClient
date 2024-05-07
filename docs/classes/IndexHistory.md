@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:134613
+main.ts:135471
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Source
 
-main.ts:134603
+main.ts:135461
 
 ***
 
@@ -65,7 +65,7 @@ total number of backlinks our database contained on the given date
 
 #### Source
 
-main.ts:134605
+main.ts:135463
 
 ***
 
@@ -81,7 +81,7 @@ total number of domains our database contained on the given date
 
 #### Source
 
-main.ts:134609
+main.ts:135467
 
 ***
 
@@ -97,7 +97,7 @@ total number of pages our database contained on the given date
 
 #### Source
 
-main.ts:134607
+main.ts:135465
 
 ## Methods
 
@@ -115,7 +115,7 @@ main.ts:134607
 
 #### Source
 
-main.ts:134622
+main.ts:135480
 
 ***
 
@@ -133,7 +133,7 @@ main.ts:134622
 
 #### Source
 
-main.ts:134642
+main.ts:135500
 
 ***
 
@@ -151,4 +151,4 @@ main.ts:134642
 
 #### Source
 
-main.ts:134635
+main.ts:135493

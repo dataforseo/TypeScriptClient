@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:30111
+main.ts:30275
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:30111
 
 #### Source
 
-main.ts:19830
+main.ts:19994
 
 ***
 
@@ -68,7 +68,7 @@ google-defined client id
 
 #### Source
 
-main.ts:30103
+main.ts:30267
 
 ***
 
@@ -84,7 +84,7 @@ the additional feature of the review
 
 #### Source
 
-main.ts:30101
+main.ts:30265
 
 ***
 
@@ -100,7 +100,7 @@ the identifier of a place
 
 #### Source
 
-main.ts:30099
+main.ts:30263
 
 ***
 
@@ -118,7 +118,7 @@ left, right
 
 #### Source
 
-main.ts:30090
+main.ts:30254
 
 ***
 
@@ -136,7 +136,7 @@ always equals 0 for desktop
 
 #### Source
 
-main.ts:30086
+main.ts:30250
 
 ***
 
@@ -155,7 +155,7 @@ always equals 0 for desktop
 
 #### Source
 
-main.ts:30082
+main.ts:30246
 
 ***
 
@@ -172,7 +172,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:30097
+main.ts:30261
 
 ***
 
@@ -190,7 +190,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Source
 
-main.ts:30107
+main.ts:30271
 
 ***
 
@@ -206,7 +206,7 @@ the number of reviews
 
 #### Source
 
-main.ts:30094
+main.ts:30258
 
 ***
 
@@ -222,7 +222,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:30092
+main.ts:30256
 
 ## Methods
 
@@ -244,7 +244,7 @@ main.ts:30092
 
 #### Source
 
-main.ts:30116
+main.ts:30280
 
 ***
 
@@ -266,7 +266,7 @@ main.ts:30116
 
 #### Source
 
-main.ts:30143
+main.ts:30307
 
 ***
 
@@ -288,4 +288,4 @@ main.ts:30143
 
 #### Source
 
-main.ts:30136
+main.ts:30300

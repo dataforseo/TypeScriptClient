@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:178322
+main.ts:179180
 
 ## Properties
 
@@ -49,7 +49,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 #### Source
 
-main.ts:178232
+main.ts:179090
 
 ***
 
@@ -70,7 +70,7 @@ en_GB
 
 #### Source
 
-main.ts:178279
+main.ts:179137
 
 ***
 
@@ -92,7 +92,7 @@ English (United Kingdom)
 
 #### Source
 
-main.ts:178272
+main.ts:179130
 
 ***
 
@@ -114,7 +114,7 @@ example:
 
 #### Source
 
-main.ts:178255
+main.ts:179113
 
 ***
 
@@ -137,7 +137,7 @@ example:
 
 #### Source
 
-main.ts:178264
+main.ts:179122
 
 ***
 
@@ -158,7 +158,7 @@ HA1,England,United Kingdom
 
 #### Source
 
-main.ts:178247
+main.ts:179105
 
 ***
 
@@ -182,7 +182,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:178318
+main.ts:179176
 
 ***
 
@@ -202,7 +202,7 @@ advanced, html
 
 #### Source
 
-main.ts:178308
+main.ts:179166
 
 ***
 
@@ -226,7 +226,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:178302
+main.ts:179160
 
 ***
 
@@ -248,7 +248,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:178240
+main.ts:179098
 
 ***
 
@@ -269,7 +269,7 @@ amazon.com, amazon.co.uk, amazon.fr, etc.
 
 #### Source
 
-main.ts:178286
+main.ts:179144
 
 ***
 
@@ -289,7 +289,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:178292
+main.ts:179150
 
 ## Methods
 
@@ -307,7 +307,7 @@ main.ts:178292
 
 #### Source
 
-main.ts:178331
+main.ts:179189
 
 ***
 
@@ -325,7 +325,7 @@ main.ts:178331
 
 #### Source
 
-main.ts:178359
+main.ts:179217
 
 ***
 
@@ -343,4 +343,4 @@ main.ts:178359
 
 #### Source
 
-main.ts:178352
+main.ts:179210

@@ -24,7 +24,7 @@ breadcrumb in SERP
 
 #### Source
 
-main.ts:25982
+main.ts:26146
 
 ***
 
@@ -36,7 +36,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:25996
+main.ts:26160
 
 ***
 
@@ -49,7 +49,7 @@ if there is none, equals null
 
 #### Source
 
-main.ts:25999
+main.ts:26163
 
 ***
 
@@ -61,7 +61,7 @@ website domain
 
 #### Source
 
-main.ts:25980
+main.ts:26144
 
 ***
 
@@ -77,7 +77,7 @@ additional information about the result
 
 #### Source
 
-main.ts:25994
+main.ts:26158
 
 ***
 
@@ -89,7 +89,7 @@ words highlighted in bold within the results description
 
 #### Source
 
-main.ts:25992
+main.ts:26156
 
 ***
 
@@ -101,7 +101,7 @@ images of the element
 
 #### Source
 
-main.ts:25988
+main.ts:26152
 
 ***
 
@@ -113,7 +113,7 @@ indicates whether the element contains an image
 
 #### Source
 
-main.ts:25984
+main.ts:26148
 
 ***
 
@@ -125,7 +125,7 @@ indicates whether the element contains a video
 
 #### Source
 
-main.ts:25986
+main.ts:26150
 
 ***
 
@@ -139,7 +139,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:26003
+main.ts:26167
 
 ***
 
@@ -153,7 +153,7 @@ left, right
 
 #### Source
 
-main.ts:25974
+main.ts:26138
 
 ***
 
@@ -166,7 +166,7 @@ contains the pricing details of the product or service featured in the result
 
 #### Source
 
-main.ts:26006
+main.ts:26170
 
 ***
 
@@ -179,7 +179,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:25970
+main.ts:26134
 
 ***
 
@@ -193,7 +193,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:25967
+main.ts:26131
 
 ***
 
@@ -207,7 +207,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Source
 
-main.ts:26010
+main.ts:26174
 
 ***
 
@@ -219,7 +219,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:25978
+main.ts:26142
 
 ***
 
@@ -231,7 +231,7 @@ relevant URL in SERP
 
 #### Source
 
-main.ts:25990
+main.ts:26154
 
 ***
 
@@ -243,7 +243,7 @@ website name in SERP
 
 #### Source
 
-main.ts:26012
+main.ts:26176
 
 ***
 
@@ -255,4 +255,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:25976
+main.ts:26140

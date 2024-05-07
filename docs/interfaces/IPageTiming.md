@@ -21,7 +21,7 @@ the time it takes until the connection with a server is established (in millisec
 
 #### Source
 
-main.ts:151081
+main.ts:151939
 
 ***
 
@@ -34,7 +34,7 @@ the time it takes until the page and all of its subresources are downloaded (in 
 
 #### Source
 
-main.ts:151072
+main.ts:151930
 
 ***
 
@@ -46,7 +46,7 @@ time it takes for a browser to receive a response (in milliseconds)
 
 #### Source
 
-main.ts:151091
+main.ts:151949
 
 ***
 
@@ -58,7 +58,7 @@ total time it takes until a browser receives a complete response from a server (
 
 #### Source
 
-main.ts:151093
+main.ts:151951
 
 ***
 
@@ -71,7 +71,7 @@ the amount of time the browser needs to complete downloading a page
 
 #### Source
 
-main.ts:151099
+main.ts:151957
 
 ***
 
@@ -84,7 +84,7 @@ the amount of time the browser needs to start downloading a page
 
 #### Source
 
-main.ts:151096
+main.ts:151954
 
 ***
 
@@ -97,7 +97,7 @@ The time (in milliseconds) from when a user first interacts with your page to th
 
 #### Source
 
-main.ts:151078
+main.ts:151936
 
 ***
 
@@ -110,7 +110,7 @@ The amount of time (in milliseconds) to render the largest content element visib
 
 #### Source
 
-main.ts:151075
+main.ts:151933
 
 ***
 
@@ -123,7 +123,7 @@ the time it takes until the request to a server is sent (in milliseconds)
 
 #### Source
 
-main.ts:151087
+main.ts:151945
 
 ***
 
@@ -136,7 +136,7 @@ the time it takes until the user can interact with a page (in milliseconds)
 
 #### Source
 
-main.ts:151069
+main.ts:151927
 
 ***
 
@@ -149,7 +149,7 @@ the time it takes until the secure connection with a server is established (in m
 
 #### Source
 
-main.ts:151084
+main.ts:151942
 
 ***
 
@@ -161,4 +161,4 @@ time to first byte (TTFB) in milliseconds
 
 #### Source
 
-main.ts:151089
+main.ts:151947

@@ -25,7 +25,7 @@ displayed only if the request contained the corresponding field
 
 #### Source
 
-main.ts:210651
+main.ts:213000
 
 ***
 
@@ -39,7 +39,7 @@ example:
 
 #### Source
 
-main.ts:210680
+main.ts:213029
 
 ***
 
@@ -51,7 +51,7 @@ link to the Yelp profile of the business entity
 
 #### Source
 
-main.ts:210648
+main.ts:212997
 
 ***
 
@@ -63,7 +63,7 @@ categories related to the business entity
 
 #### Source
 
-main.ts:210670
+main.ts:213019
 
 ***
 
@@ -75,7 +75,7 @@ description containing the featured review
 
 #### Source
 
-main.ts:210655
+main.ts:213004
 
 ***
 
@@ -87,7 +87,7 @@ Yelp guaranteed label
 
 #### Source
 
-main.ts:210666
+main.ts:213015
 
 ***
 
@@ -99,7 +99,7 @@ information about the location of the business entity
 
 #### Source
 
-main.ts:210657
+main.ts:213006
 
 ***
 
@@ -111,7 +111,7 @@ name of the business entity
 
 #### Source
 
-main.ts:210653
+main.ts:213002
 
 ***
 
@@ -125,7 +125,7 @@ example:
 
 #### Source
 
-main.ts:210664
+main.ts:213013
 
 ***
 
@@ -137,7 +137,7 @@ links to photos appearing in the result
 
 #### Source
 
-main.ts:210672
+main.ts:213021
 
 ***
 
@@ -150,7 +150,7 @@ indicates the number of currency signs next to the business listing correspondin
 
 #### Source
 
-main.ts:210660
+main.ts:213009
 
 ***
 
@@ -163,7 +163,7 @@ absolute position among all reviews on the list
 
 #### Source
 
-main.ts:210642
+main.ts:212991
 
 ***
 
@@ -176,7 +176,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:210639
+main.ts:212988
 
 ***
 
@@ -188,7 +188,7 @@ the rating score submitted by the reviewer
 
 #### Source
 
-main.ts:210668
+main.ts:213017
 
 ***
 
@@ -200,7 +200,7 @@ tags corresponding to the availability of certain business offerings
 
 #### Source
 
-main.ts:210682
+main.ts:213031
 
 ***
 
@@ -214,7 +214,7 @@ example:
 
 #### Source
 
-main.ts:210676
+main.ts:213025
 
 ***
 
@@ -228,4 +228,4 @@ example:
 
 #### Source
 
-main.ts:210646
+main.ts:212995

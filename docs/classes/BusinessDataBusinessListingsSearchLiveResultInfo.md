@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:195842
+main.ts:196716
 
 ## Properties
 
@@ -47,7 +47,7 @@ the number of items in the items array
 
 #### Source
 
-main.ts:195828
+main.ts:196702
 
 ***
 
@@ -65,7 +65,7 @@ possible item types: business_listing
 
 #### Source
 
-main.ts:195838
+main.ts:196712
 
 ***
 
@@ -81,7 +81,7 @@ offset in the results array of returned businesses
 
 #### Source
 
-main.ts:195830
+main.ts:196704
 
 ***
 
@@ -99,7 +99,7 @@ offset_token values are unique for each subsequent task
 
 #### Source
 
-main.ts:195834
+main.ts:196708
 
 ***
 
@@ -115,7 +115,7 @@ total number of results in our database relevant to your request
 
 #### Source
 
-main.ts:195825
+main.ts:196699
 
 ## Methods
 
@@ -133,7 +133,7 @@ main.ts:195825
 
 #### Source
 
-main.ts:195851
+main.ts:196725
 
 ***
 
@@ -151,7 +151,7 @@ main.ts:195851
 
 #### Source
 
-main.ts:195876
+main.ts:196750
 
 ***
 
@@ -169,4 +169,4 @@ main.ts:195876
 
 #### Source
 
-main.ts:195869
+main.ts:196743

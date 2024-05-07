@@ -20,7 +20,7 @@ ISO country code of the location
 
 #### Source
 
-main.ts:67797
+main.ts:68655
 
 ***
 
@@ -32,7 +32,7 @@ location code
 
 #### Source
 
-main.ts:67789
+main.ts:68647
 
 ***
 
@@ -46,7 +46,7 @@ don’t match locations by location_code_parent because the results for Region a
 
 #### Source
 
-main.ts:67795
+main.ts:68653
 
 ***
 
@@ -58,7 +58,7 @@ full name of the location
 
 #### Source
 
-main.ts:67791
+main.ts:68649
 
 ***
 
@@ -71,4 +71,4 @@ only City is supported for all countries except China (where Country is also sup
 
 #### Source
 
-main.ts:67800
+main.ts:68658

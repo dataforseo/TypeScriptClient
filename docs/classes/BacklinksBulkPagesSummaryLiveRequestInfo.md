@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:147276
+main.ts:148134
 
 ## Properties
 
@@ -52,7 +52,7 @@ example:
 
 #### Source
 
-main.ts:147250
+main.ts:148108
 
 ***
 
@@ -75,7 +75,7 @@ default value: live
 
 #### Source
 
-main.ts:147211
+main.ts:148069
 
 ***
 
@@ -94,7 +94,7 @@ default value: true
 
 #### Source
 
-main.ts:147266
+main.ts:148124
 
 ***
 
@@ -125,7 +125,7 @@ The full list of possible filters is available here.
 
 #### Source
 
-main.ts:147228
+main.ts:148086
 
 ***
 
@@ -145,7 +145,7 @@ default value: true
 
 #### Source
 
-main.ts:147261
+main.ts:148119
 
 ***
 
@@ -164,7 +164,7 @@ default value: true
 
 #### Source
 
-main.ts:147255
+main.ts:148113
 
 ***
 
@@ -189,7 +189,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:147202
+main.ts:148060
 
 ***
 
@@ -208,7 +208,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:147186
+main.ts:148044
 
 ***
 
@@ -227,7 +227,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Source
 
-main.ts:147191
+main.ts:148049
 
 ***
 
@@ -255,7 +255,7 @@ example:
 
 #### Source
 
-main.ts:147242
+main.ts:148100
 
 ***
 
@@ -275,7 +275,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:147272
+main.ts:148130
 
 ***
 
@@ -296,7 +296,7 @@ note that the URLs you set in a single request cannot belong to more than 100 di
 
 #### Source
 
-main.ts:147181
+main.ts:148039
 
 ## Methods
 
@@ -314,7 +314,7 @@ main.ts:147181
 
 #### Source
 
-main.ts:147285
+main.ts:148143
 
 ***
 
@@ -332,7 +332,7 @@ main.ts:147285
 
 #### Source
 
-main.ts:147329
+main.ts:148187
 
 ***
 
@@ -350,4 +350,4 @@ main.ts:147329
 
 #### Source
 
-main.ts:147322
+main.ts:148180

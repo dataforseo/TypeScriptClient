@@ -20,7 +20,7 @@ information about the page with duplicate content
 
 #### Source
 
-main.ts:154137
+main.ts:154995
 
 ***
 
@@ -34,4 +34,4 @@ can take values from 0 to 10
 
 #### Source
 
-main.ts:154135
+main.ts:154993

@@ -18,7 +18,7 @@
 
 #### Source
 
-main.ts:218719
+main.ts:221016
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:218719
 
 #### Source
 
-main.ts:218720
+main.ts:221017
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:218720
 
 #### Source
 
-main.ts:218721
+main.ts:221018
 
 ***
 
@@ -48,7 +48,7 @@ main.ts:218721
 
 #### Source
 
-main.ts:218722
+main.ts:221019
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:218722
 
 #### Source
 
-main.ts:218717
+main.ts:221014
 
 ***
 
@@ -68,7 +68,7 @@ main.ts:218717
 
 #### Source
 
-main.ts:218723
+main.ts:221020
 
 ***
 
@@ -78,17 +78,17 @@ main.ts:218723
 
 #### Source
 
-main.ts:218724
+main.ts:221021
 
 ***
 
 ### lighthouse?
 
-> **`optional`** **lighthouse**: [`AppendixLighthouseOnPagePriceData`](../classes/AppendixLighthouseOnPagePriceData.md)
+> **`optional`** **lighthouse**: [`AppendixsGoogleBusinessDataPriceDataInfo`](../classes/AppendixsGoogleBusinessDataPriceDataInfo.md)
 
 #### Source
 
-main.ts:218718
+main.ts:221015
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:218718
 
 #### Source
 
-main.ts:218725
+main.ts:221022
 
 ***
 
@@ -108,7 +108,7 @@ main.ts:218725
 
 #### Source
 
-main.ts:218726
+main.ts:221023
 
 ***
 
@@ -118,7 +118,7 @@ main.ts:218726
 
 #### Source
 
-main.ts:218729
+main.ts:221026
 
 ***
 
@@ -128,7 +128,7 @@ main.ts:218729
 
 #### Source
 
-main.ts:218727
+main.ts:221024
 
 ***
 
@@ -138,7 +138,7 @@ main.ts:218727
 
 #### Source
 
-main.ts:218728
+main.ts:221025
 
 ***
 
@@ -148,7 +148,7 @@ main.ts:218728
 
 #### Source
 
-main.ts:218730
+main.ts:221027
 
 ***
 
@@ -158,7 +158,7 @@ main.ts:218730
 
 #### Source
 
-main.ts:218731
+main.ts:221028
 
 ***
 
@@ -168,7 +168,7 @@ main.ts:218731
 
 #### Source
 
-main.ts:218732
+main.ts:221029
 
 ***
 
@@ -178,7 +178,7 @@ main.ts:218732
 
 #### Source
 
-main.ts:218733
+main.ts:221030
 
 ***
 
@@ -188,7 +188,7 @@ main.ts:218733
 
 #### Source
 
-main.ts:218734
+main.ts:221031
 
 ***
 
@@ -198,7 +198,7 @@ main.ts:218734
 
 #### Source
 
-main.ts:218735
+main.ts:221032
 
 ***
 
@@ -208,4 +208,4 @@ main.ts:218735
 
 #### Source
 
-main.ts:218736
+main.ts:221033

@@ -22,7 +22,7 @@ learn more about the identifier in this help center article
 
 #### Source
 
-main.ts:195205
+main.ts:196063
 
 ***
 
@@ -35,7 +35,7 @@ learn more about the identifier in this help center article
 
 #### Source
 
-main.ts:195208
+main.ts:196066
 
 ***
 
@@ -48,7 +48,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:195214
+main.ts:196072
 
 ***
 
@@ -61,4 +61,4 @@ the name of the business entity for which the results are collected
 
 #### Source
 
-main.ts:195211
+main.ts:196069

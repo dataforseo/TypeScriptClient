@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:201341
+main.ts:202219
 
 ## Properties
 
@@ -58,7 +58,7 @@ example:
 
 #### Source
 
-main.ts:201323
+main.ts:202201
 
 ***
 
@@ -80,7 +80,7 @@ example:
 
 #### Source
 
-main.ts:201303
+main.ts:202181
 
 ***
 
@@ -103,7 +103,7 @@ example:
 
 #### Source
 
-main.ts:201312
+main.ts:202190
 
 ***
 
@@ -125,7 +125,7 @@ set the following value if you want to include one 13-years-old child and one 8-
 
 #### Source
 
-main.ts:201331
+main.ts:202209
 
 ***
 
@@ -144,7 +144,7 @@ example:
 
 #### Source
 
-main.ts:201317
+main.ts:202195
 
 ***
 
@@ -166,7 +166,7 @@ ChYIq6SB--i6p6cpGgovbS8wN2s5ODZfEAE
 
 #### Source
 
-main.ts:201295
+main.ts:202173
 
 ***
 
@@ -200,7 +200,7 @@ learn more about the cid and place_id identifiers in this help center article
 
 #### Source
 
-main.ts:189571
+main.ts:190429
 
 ***
 
@@ -225,7 +225,7 @@ en
 
 #### Source
 
-main.ts:189617
+main.ts:190475
 
 ***
 
@@ -250,7 +250,7 @@ English
 
 #### Source
 
-main.ts:189610
+main.ts:190468
 
 ***
 
@@ -275,7 +275,7 @@ example:
 
 #### Source
 
-main.ts:189593
+main.ts:190451
 
 ***
 
@@ -303,7 +303,7 @@ example:
 
 #### Source
 
-main.ts:189603
+main.ts:190461
 
 ***
 
@@ -328,7 +328,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:189586
+main.ts:190444
 
 ***
 
@@ -356,7 +356,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:189643
+main.ts:190501
 
 ***
 
@@ -376,7 +376,7 @@ advanced, html
 
 #### Source
 
-main.ts:201337
+main.ts:202215
 
 ***
 
@@ -404,7 +404,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:189633
+main.ts:190491
 
 ***
 
@@ -430,7 +430,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:189579
+main.ts:190437
 
 ***
 
@@ -454,7 +454,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:189623
+main.ts:190481
 
 ## Methods
 
@@ -476,7 +476,7 @@ main.ts:189623
 
 #### Source
 
-main.ts:201345
+main.ts:202223
 
 ***
 
@@ -498,7 +498,7 @@ main.ts:201345
 
 #### Source
 
-main.ts:201373
+main.ts:202251
 
 ***
 
@@ -520,4 +520,4 @@ main.ts:201373
 
 #### Source
 
-main.ts:201366
+main.ts:202244

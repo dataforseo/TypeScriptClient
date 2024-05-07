@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:202040
+main.ts:202918
 
 ## Properties
 
@@ -46,7 +46,7 @@ card identifier
 
 #### Source
 
-main.ts:202028
+main.ts:202906
 
 ***
 
@@ -63,7 +63,7 @@ learn more about the identifier in this help center article
 
 #### Source
 
-main.ts:202034
+main.ts:202912
 
 ***
 
@@ -80,7 +80,7 @@ learn more about the identifier in this help center article
 
 #### Source
 
-main.ts:202031
+main.ts:202909
 
 ***
 
@@ -96,7 +96,7 @@ title of the element in the location chain
 
 #### Source
 
-main.ts:202036
+main.ts:202914
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:202036
 
 #### Source
 
-main.ts:202049
+main.ts:202927
 
 ***
 
@@ -132,7 +132,7 @@ main.ts:202049
 
 #### Source
 
-main.ts:202069
+main.ts:202947
 
 ***
 
@@ -150,4 +150,4 @@ main.ts:202069
 
 #### Source
 
-main.ts:202062
+main.ts:202940

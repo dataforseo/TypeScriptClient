@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:184799
+main.ts:185657
 
 ## Properties
 
@@ -54,7 +54,7 @@ Note: this filter works only in conjunction with the "category": "family" parame
 
 #### Source
 
-main.ts:184763
+main.ts:185621
 
 ***
 
@@ -76,7 +76,7 @@ Note: app_category cannot be used if app_collection parameter is set to featured
 
 #### Source
 
-main.ts:184753
+main.ts:185611
 
 ***
 
@@ -97,7 +97,7 @@ Note: if featured is selected, the app_category parameter cannot be used
 
 #### Source
 
-main.ts:184702
+main.ts:185560
 
 ***
 
@@ -118,7 +118,7 @@ maximum value: 200
 
 #### Source
 
-main.ts:184745
+main.ts:185603
 
 ***
 
@@ -139,7 +139,7 @@ en
 
 #### Source
 
-main.ts:184730
+main.ts:185588
 
 ***
 
@@ -160,7 +160,7 @@ English
 
 #### Source
 
-main.ts:184723
+main.ts:185581
 
 ***
 
@@ -181,7 +181,7 @@ example:
 
 #### Source
 
-main.ts:184716
+main.ts:185574
 
 ***
 
@@ -202,7 +202,7 @@ West Los Angeles,California,United States
 
 #### Source
 
-main.ts:184709
+main.ts:185567
 
 ***
 
@@ -226,7 +226,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:184795
+main.ts:185653
 
 ***
 
@@ -246,7 +246,7 @@ advanced, html
 
 #### Source
 
-main.ts:184785
+main.ts:185643
 
 ***
 
@@ -270,7 +270,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:184779
+main.ts:185637
 
 ***
 
@@ -292,7 +292,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:184738
+main.ts:185596
 
 ***
 
@@ -312,7 +312,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:184769
+main.ts:185627
 
 ## Methods
 
@@ -330,7 +330,7 @@ main.ts:184769
 
 #### Source
 
-main.ts:184808
+main.ts:185666
 
 ***
 
@@ -348,7 +348,7 @@ main.ts:184808
 
 #### Source
 
-main.ts:184837
+main.ts:185695
 
 ***
 
@@ -366,4 +366,4 @@ main.ts:184837
 
 #### Source
 
-main.ts:184830
+main.ts:185688

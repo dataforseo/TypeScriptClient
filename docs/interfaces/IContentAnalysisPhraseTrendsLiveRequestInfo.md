@@ -24,7 +24,7 @@ example:
 
 #### Source
 
-main.ts:165336
+main.ts:166194
 
 ***
 
@@ -39,7 +39,7 @@ possible values: day, week, month
 
 #### Source
 
-main.ts:165348
+main.ts:166206
 
 ***
 
@@ -56,7 +56,7 @@ example:
 
 #### Source
 
-main.ts:165343
+main.ts:166201
 
 ***
 
@@ -83,7 +83,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 #### Source
 
-main.ts:165365
+main.ts:166223
 
 ***
 
@@ -104,7 +104,7 @@ maximum value: 20
 
 #### Source
 
-main.ts:165330
+main.ts:166188
 
 ***
 
@@ -123,7 +123,7 @@ example:
 
 #### Source
 
-main.ts:165294
+main.ts:166152
 
 ***
 
@@ -149,7 +149,7 @@ example:
 
 #### Source
 
-main.ts:165306
+main.ts:166164
 
 ***
 
@@ -165,7 +165,7 @@ possible values:
 
 #### Source
 
-main.ts:165312
+main.ts:166170
 
 ***
 
@@ -182,7 +182,7 @@ default value: as_is
 
 #### Source
 
-main.ts:165319
+main.ts:166177
 
 ***
 
@@ -198,4 +198,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:165371
+main.ts:166229

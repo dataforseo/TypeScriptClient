@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:77683
+main.ts:78541
 
 ## Properties
 
@@ -47,7 +47,7 @@ code of the language that content on the target domain is written in
 
 #### Source
 
-main.ts:77666
+main.ts:78524
 
 ***
 
@@ -64,7 +64,7 @@ ISO code of the country that the target domain is determined to belong to
 
 #### Source
 
-main.ts:77660
+main.ts:78518
 
 ***
 
@@ -80,7 +80,7 @@ domain meta description
 
 #### Source
 
-main.ts:77647
+main.ts:78505
 
 ***
 
@@ -96,7 +96,7 @@ specified domain name
 
 #### Source
 
-main.ts:77643
+main.ts:78501
 
 ***
 
@@ -113,7 +113,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Source
 
-main.ts:77652
+main.ts:78510
 
 ***
 
@@ -130,7 +130,7 @@ emails indicated on the target website
 
 #### Source
 
-main.ts:77672
+main.ts:78530
 
 ***
 
@@ -147,7 +147,7 @@ code of the language that the target domain is determined to be associated with
 
 #### Source
 
-main.ts:77663
+main.ts:78521
 
 ***
 
@@ -166,7 +166,7 @@ example:
 
 #### Source
 
-main.ts:77657
+main.ts:78515
 
 ***
 
@@ -182,7 +182,7 @@ domain meta keywords
 
 #### Source
 
-main.ts:77649
+main.ts:78507
 
 ***
 
@@ -199,7 +199,7 @@ contact phone numbers indicated on the target website
 
 #### Source
 
-main.ts:77669
+main.ts:78527
 
 ***
 
@@ -216,7 +216,7 @@ social media URLs detected in the social graphs of the target website
 
 #### Source
 
-main.ts:77675
+main.ts:78533
 
 ***
 
@@ -234,7 +234,7 @@ see the full list of available technologies structured by groups and categories
 
 #### Source
 
-main.ts:77679
+main.ts:78537
 
 ***
 
@@ -250,7 +250,7 @@ domain meta title
 
 #### Source
 
-main.ts:77645
+main.ts:78503
 
 ***
 
@@ -266,7 +266,7 @@ type of element
 
 #### Source
 
-main.ts:77641
+main.ts:78499
 
 ## Methods
 
@@ -284,7 +284,7 @@ main.ts:77641
 
 #### Source
 
-main.ts:77692
+main.ts:78550
 
 ***
 
@@ -302,7 +302,7 @@ main.ts:77692
 
 #### Source
 
-main.ts:77738
+main.ts:78596
 
 ***
 
@@ -320,4 +320,4 @@ main.ts:77738
 
 #### Source
 
-main.ts:77731
+main.ts:78589

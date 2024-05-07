@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:22198
+main.ts:22362
 
 ## Properties
 
@@ -46,7 +46,7 @@ likes count
 
 #### Source
 
-main.ts:22194
+main.ts:22358
 
 ***
 
@@ -62,7 +62,7 @@ type of element
 
 #### Source
 
-main.ts:22192
+main.ts:22356
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:22192
 
 #### Source
 
-main.ts:22207
+main.ts:22371
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:22207
 
 #### Source
 
-main.ts:22225
+main.ts:22389
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:22225
 
 #### Source
 
-main.ts:22218
+main.ts:22382

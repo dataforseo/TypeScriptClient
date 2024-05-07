@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:174318
+main.ts:175176
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:174318
 
 #### Source
 
-main.ts:20486
+main.ts:20650
 
 ***
 
@@ -69,7 +69,7 @@ indicates the name of the product specification section in which the related ele
 
 #### Source
 
-main.ts:174309
+main.ts:175167
 
 ***
 
@@ -87,7 +87,7 @@ right
 
 #### Source
 
-main.ts:174304
+main.ts:175162
 
 ***
 
@@ -104,7 +104,7 @@ absolute position among all the elements found on the product specification page
 
 #### Source
 
-main.ts:174300
+main.ts:175158
 
 ***
 
@@ -121,7 +121,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:174297
+main.ts:175155
 
 ***
 
@@ -138,7 +138,7 @@ attribute name of the product data specification
 
 #### Source
 
-main.ts:174312
+main.ts:175170
 
 ***
 
@@ -154,7 +154,7 @@ content of the specification
 
 #### Source
 
-main.ts:174314
+main.ts:175172
 
 ***
 
@@ -170,7 +170,7 @@ XPath of the element
 
 #### Source
 
-main.ts:174306
+main.ts:175164
 
 ## Methods
 
@@ -192,7 +192,7 @@ main.ts:174306
 
 #### Source
 
-main.ts:174323
+main.ts:175181
 
 ***
 
@@ -214,7 +214,7 @@ main.ts:174323
 
 #### Source
 
-main.ts:174347
+main.ts:175205
 
 ***
 
@@ -236,4 +236,4 @@ main.ts:174347
 
 #### Source
 
-main.ts:174340
+main.ts:175198

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:195560
+main.ts:196424
 
 ## Properties
 
@@ -47,7 +47,7 @@ additional Google My Business categories that describe the services provided by 
 
 #### Source
 
-main.ts:195478
+main.ts:196336
 
 ***
 
@@ -63,7 +63,7 @@ address of the business entity
 
 #### Source
 
-main.ts:195487
+main.ts:196345
 
 ***
 
@@ -79,7 +79,7 @@ object containing address components of the business entity
 
 #### Source
 
-main.ts:195489
+main.ts:196347
 
 ***
 
@@ -96,7 +96,7 @@ service details of a business entity displayed in a form of checks and based on 
 
 #### Source
 
-main.ts:195520
+main.ts:196378
 
 ***
 
@@ -113,7 +113,7 @@ Google My Business general category that best describes the services provided by
 
 #### Source
 
-main.ts:195472
+main.ts:196330
 
 ***
 
@@ -130,7 +130,7 @@ universal category IDs that do not change based on the selected country
 
 #### Source
 
-main.ts:195475
+main.ts:196333
 
 ***
 
@@ -147,7 +147,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:195551
+main.ts:196415
 
 ***
 
@@ -165,7 +165,7 @@ learn more about the identifier in this help center article
 
 #### Source
 
-main.ts:195482
+main.ts:196340
 
 ***
 
@@ -182,7 +182,7 @@ list of contacts to interact with the business
 
 #### Source
 
-main.ts:195548
+main.ts:196412
 
 ***
 
@@ -199,7 +199,7 @@ the description of the business entity for which the results are collected
 
 #### Source
 
-main.ts:195469
+main.ts:196327
 
 ***
 
@@ -215,7 +215,7 @@ domain of the business entity
 
 #### Source
 
-main.ts:195499
+main.ts:196357
 
 ***
 
@@ -232,7 +232,25 @@ learn more about the identifier in this help center article
 
 #### Source
 
-main.ts:195485
+main.ts:196343
+
+***
+
+### hotel\_rating?
+
+> **`optional`** **hotel\_rating**: `number`
+
+hotel class rating
+class ratings range between 1-5 stars, learn more
+if there is no hotel class rating information, the value will be null
+
+#### Implementation of
+
+[`IBusinessDataBusinessListingsSearchLiveItem`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md).[`hotel_rating`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md#hotel_rating)
+
+#### Source
+
+main.ts:196393
 
 ***
 
@@ -248,7 +266,7 @@ shows whether the entity is verified by its owner on Google Maps
 
 #### Source
 
-main.ts:195517
+main.ts:196375
 
 ***
 
@@ -267,7 +285,7 @@ example:
 
 #### Source
 
-main.ts:195556
+main.ts:196420
 
 ***
 
@@ -285,7 +303,7 @@ example:
 
 #### Source
 
-main.ts:195511
+main.ts:196369
 
 ***
 
@@ -293,16 +311,13 @@ main.ts:195511
 
 > **`optional`** **local\_business\_links**: [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md)[]
 
-available interactions with the business
-list of options to interact with the business directly from search results
-
 #### Implementation of
 
 [`IBusinessDataBusinessListingsSearchLiveItem`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md).[`local_business_links`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md#local_business_links)
 
 #### Source
 
-main.ts:195545
+main.ts:196409
 
 ***
 
@@ -318,7 +333,7 @@ URL of the logo featured in Google My Business profile
 
 #### Source
 
-main.ts:195501
+main.ts:196359
 
 ***
 
@@ -336,7 +351,7 @@ example:
 
 #### Source
 
-main.ts:195515
+main.ts:196373
 
 ***
 
@@ -352,7 +367,7 @@ URL of the main image featured in Google My Business profile
 
 #### Source
 
-main.ts:195503
+main.ts:196361
 
 ***
 
@@ -368,7 +383,7 @@ related business entities
 
 #### Source
 
-main.ts:195536
+main.ts:196402
 
 ***
 
@@ -384,7 +399,7 @@ phone number of the business entity
 
 #### Source
 
-main.ts:195495
+main.ts:196353
 
 ***
 
@@ -402,7 +417,7 @@ learn more about the identifier in this help center article
 
 #### Source
 
-main.ts:195493
+main.ts:196351
 
 ***
 
@@ -428,7 +443,7 @@ example:
 
 #### Source
 
-main.ts:195528
+main.ts:196386
 
 ***
 
@@ -445,7 +460,25 @@ information related to busy hours of the business entity
 
 #### Source
 
-main.ts:195542
+main.ts:196408
+
+***
+
+### price\_level?
+
+> **`optional`** **price\_level**: `string`
+
+property price level
+can take values: inexpensive, moderate, expensive, very_expensive
+if there is no price level information, the value will be null
+
+#### Implementation of
+
+[`IBusinessDataBusinessListingsSearchLiveItem`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md).[`price_level`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md#price_level)
+
+#### Source
+
+main.ts:196397
 
 ***
 
@@ -462,7 +495,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:195531
+main.ts:196389
 
 ***
 
@@ -483,7 +516,7 @@ the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 #### Source
 
-main.ts:195534
+main.ts:196400
 
 ***
 
@@ -499,7 +532,7 @@ additional information on the business entity
 
 #### Source
 
-main.ts:195507
+main.ts:196365
 
 ***
 
@@ -516,7 +549,7 @@ the name of the business entity for which the results are collected
 
 #### Source
 
-main.ts:195466
+main.ts:196324
 
 ***
 
@@ -532,7 +565,7 @@ total count of images featured in Google My Business profile
 
 #### Source
 
-main.ts:195505
+main.ts:196363
 
 ***
 
@@ -548,7 +581,7 @@ type of element
 
 #### Source
 
-main.ts:195463
+main.ts:196321
 
 ***
 
@@ -564,7 +597,7 @@ absolute url of the business entity
 
 #### Source
 
-main.ts:195497
+main.ts:196355
 
 ***
 
@@ -581,7 +614,7 @@ information related to operational hours of the business entity
 
 #### Source
 
-main.ts:195539
+main.ts:196405
 
 ## Methods
 
@@ -599,7 +632,7 @@ main.ts:195539
 
 #### Source
 
-main.ts:195569
+main.ts:196433
 
 ***
 
@@ -617,7 +650,7 @@ main.ts:195569
 
 #### Source
 
-main.ts:195649
+main.ts:196515
 
 ***
 
@@ -635,4 +668,4 @@ main.ts:195649
 
 #### Source
 
-main.ts:195642
+main.ts:196508

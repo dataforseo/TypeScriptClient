@@ -32,7 +32,7 @@ items array
 
 #### Source
 
-main.ts:78648
+main.ts:79506
 
 ## Properties
 
@@ -48,7 +48,7 @@ backlink data for the returned domain
 
 #### Source
 
-main.ts:78644
+main.ts:79502
 
 ***
 
@@ -67,7 +67,7 @@ example:
 
 #### Source
 
-main.ts:78610
+main.ts:79468
 
 ***
 
@@ -86,7 +86,7 @@ example:
 
 #### Source
 
-main.ts:78605
+main.ts:79463
 
 ***
 
@@ -102,7 +102,7 @@ domain name
 
 #### Source
 
-main.ts:78600
+main.ts:79458
 
 ***
 
@@ -119,7 +119,7 @@ the status of a domain name registration as defined by ICANN
 
 #### Source
 
-main.ts:78628
+main.ts:79486
 
 ***
 
@@ -138,7 +138,7 @@ example:
 
 #### Source
 
-main.ts:78615
+main.ts:79473
 
 ***
 
@@ -157,7 +157,7 @@ example:
 
 #### Source
 
-main.ts:78625
+main.ts:79483
 
 ***
 
@@ -173,7 +173,7 @@ ranking data relevant to the specified domain
 
 #### Source
 
-main.ts:78642
+main.ts:79500
 
 ***
 
@@ -191,7 +191,7 @@ Note: expired domains will remain in the database for only a short period of tim
 
 #### Source
 
-main.ts:78635
+main.ts:79493
 
 ***
 
@@ -210,7 +210,7 @@ NameCheap, Inc.
 
 #### Source
 
-main.ts:78640
+main.ts:79498
 
 ***
 
@@ -227,7 +227,7 @@ top-level domain in the DNS root zone
 
 #### Source
 
-main.ts:78631
+main.ts:79489
 
 ***
 
@@ -246,7 +246,7 @@ example:
 
 #### Source
 
-main.ts:78620
+main.ts:79478
 
 ## Methods
 
@@ -264,7 +264,7 @@ main.ts:78620
 
 #### Source
 
-main.ts:78657
+main.ts:79515
 
 ***
 
@@ -282,7 +282,7 @@ main.ts:78657
 
 #### Source
 
-main.ts:78689
+main.ts:79547
 
 ***
 
@@ -300,4 +300,4 @@ main.ts:78689
 
 #### Source
 
-main.ts:78682
+main.ts:79540

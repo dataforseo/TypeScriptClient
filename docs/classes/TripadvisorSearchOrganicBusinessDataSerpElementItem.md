@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:207864
+main.ts:210213
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:207864
 
 #### Source
 
-main.ts:20660
+main.ts:20824
 
 ***
 
@@ -68,7 +68,7 @@ place category
 
 #### Source
 
-main.ts:207856
+main.ts:210205
 
 ***
 
@@ -85,7 +85,7 @@ if true, related tripadvisor_search_organic item is a paid advertising on Tripad
 
 #### Source
 
-main.ts:207852
+main.ts:210201
 
 ***
 
@@ -101,7 +101,7 @@ average price rate
 
 #### Source
 
-main.ts:207858
+main.ts:210207
 
 ***
 
@@ -118,7 +118,7 @@ absolute position among all reviews on the list
 
 #### Source
 
-main.ts:207843
+main.ts:210192
 
 ***
 
@@ -135,7 +135,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:207840
+main.ts:210189
 
 ***
 
@@ -151,7 +151,7 @@ the rating score of the establishment submitted by the reviewers
 
 #### Source
 
-main.ts:207860
+main.ts:210209
 
 ***
 
@@ -167,7 +167,7 @@ the total number of reviews
 
 #### Source
 
-main.ts:207854
+main.ts:210203
 
 ***
 
@@ -183,7 +183,7 @@ name of the business entity
 
 #### Source
 
-main.ts:207845
+main.ts:210194
 
 ***
 
@@ -201,7 +201,7 @@ you can use this identifier to collect reviews for the business entity using Tri
 
 #### Source
 
-main.ts:207849
+main.ts:210198
 
 ## Methods
 
@@ -223,7 +223,7 @@ main.ts:207849
 
 #### Source
 
-main.ts:207869
+main.ts:210218
 
 ***
 
@@ -245,7 +245,7 @@ main.ts:207869
 
 #### Source
 
-main.ts:207895
+main.ts:210244
 
 ***
 
@@ -267,4 +267,4 @@ main.ts:207895
 
 #### Source
 
-main.ts:207888
+main.ts:210237

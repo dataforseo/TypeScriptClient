@@ -25,7 +25,7 @@ https://play.google.com/store/apps/details?id=org.telegram.messenger
 
 #### Source
 
-main.ts:187218
+main.ts:188076
 
 ***
 
@@ -42,7 +42,7 @@ maximum value: 100000
 
 #### Source
 
-main.ts:187261
+main.ts:188119
 
 ***
 
@@ -59,7 +59,7 @@ en
 
 #### Source
 
-main.ts:187246
+main.ts:188104
 
 ***
 
@@ -76,7 +76,7 @@ English
 
 #### Source
 
-main.ts:187239
+main.ts:188097
 
 ***
 
@@ -93,7 +93,7 @@ example:
 
 #### Source
 
-main.ts:187232
+main.ts:188090
 
 ***
 
@@ -110,7 +110,7 @@ West Los Angeles,California,United States
 
 #### Source
 
-main.ts:187225
+main.ts:188083
 
 ***
 
@@ -130,7 +130,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:187312
+main.ts:188170
 
 ***
 
@@ -146,7 +146,7 @@ advanced, html
 
 #### Source
 
-main.ts:187302
+main.ts:188160
 
 ***
 
@@ -166,7 +166,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:187296
+main.ts:188154
 
 ***
 
@@ -184,7 +184,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:187254
+main.ts:188112
 
 ***
 
@@ -205,7 +205,7 @@ by default, the API returns all reviews regardless of the number of stars
 
 #### Source
 
-main.ts:187272
+main.ts:188130
 
 ***
 
@@ -223,7 +223,7 @@ default rule: most_relevant
 
 #### Source
 
-main.ts:187280
+main.ts:188138
 
 ***
 
@@ -239,4 +239,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:187286
+main.ts:188144

@@ -24,7 +24,7 @@ L2cvMTFqbl85ZHN6MQ==
 
 #### Source
 
-main.ts:55363
+main.ts:56223
 
 ***
 
@@ -38,7 +38,7 @@ possible value: desktop
 
 #### Source
 
-main.ts:55379
+main.ts:56239
 
 ***
 
@@ -54,7 +54,7 @@ en
 
 #### Source
 
-main.ts:55375
+main.ts:56235
 
 ***
 
@@ -70,7 +70,7 @@ English
 
 #### Source
 
-main.ts:55369
+main.ts:56229
 
 ***
 
@@ -85,7 +85,7 @@ default value: windows
 
 #### Source
 
-main.ts:55384
+main.ts:56244
 
 ***
 
@@ -101,4 +101,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:55390
+main.ts:56250

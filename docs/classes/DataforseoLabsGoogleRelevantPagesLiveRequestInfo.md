@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:92655
+main.ts:93513
 
 ## Properties
 
@@ -58,7 +58,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:92628
+main.ts:93486
 
 ***
 
@@ -81,7 +81,7 @@ default value: live
 
 #### Source
 
-main.ts:92614
+main.ts:93472
 
 ***
 
@@ -104,7 +104,7 @@ default value:
 
 #### Source
 
-main.ts:92595
+main.ts:93453
 
 ***
 
@@ -127,7 +127,7 @@ en
 
 #### Source
 
-main.ts:92586
+main.ts:93444
 
 ***
 
@@ -150,7 +150,7 @@ English
 
 #### Source
 
-main.ts:92577
+main.ts:93435
 
 ***
 
@@ -169,7 +169,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:92600
+main.ts:93458
 
 ***
 
@@ -192,7 +192,7 @@ example:
 
 #### Source
 
-main.ts:92568
+main.ts:93426
 
 ***
 
@@ -215,7 +215,7 @@ United Kingdom
 
 #### Source
 
-main.ts:92559
+main.ts:93417
 
 ***
 
@@ -234,7 +234,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Source
 
-main.ts:92605
+main.ts:93463
 
 ***
 
@@ -265,7 +265,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Source
 
-main.ts:92645
+main.ts:93503
 
 ***
 
@@ -285,7 +285,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:92651
+main.ts:93509
 
 ***
 
@@ -304,7 +304,7 @@ the domain should be specified without https:// and www.
 
 #### Source
 
-main.ts:92550
+main.ts:93408
 
 ## Methods
 
@@ -322,7 +322,7 @@ main.ts:92550
 
 #### Source
 
-main.ts:92664
+main.ts:93522
 
 ***
 
@@ -340,7 +340,7 @@ main.ts:92664
 
 #### Source
 
-main.ts:92704
+main.ts:93562
 
 ***
 
@@ -358,4 +358,4 @@ main.ts:92704
 
 #### Source
 
-main.ts:92697
+main.ts:93555

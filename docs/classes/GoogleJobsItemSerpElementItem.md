@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:50054
+main.ts:50914
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:50054
 
 #### Source
 
-main.ts:19830
+main.ts:19994
 
 ***
 
@@ -68,7 +68,7 @@ employment contract type
 
 #### Source
 
-main.ts:50039
+main.ts:50899
 
 ***
 
@@ -84,7 +84,7 @@ URL to the image used in the job posting
 
 #### Source
 
-main.ts:50028
+main.ts:50888
 
 ***
 
@@ -100,7 +100,7 @@ name of the employer
 
 #### Source
 
-main.ts:50024
+main.ts:50884
 
 ***
 
@@ -116,7 +116,7 @@ URL to the employer’s website
 
 #### Source
 
-main.ts:50026
+main.ts:50886
 
 ***
 
@@ -132,7 +132,7 @@ ID of the job on Google Jobs
 
 #### Source
 
-main.ts:50020
+main.ts:50880
 
 ***
 
@@ -148,7 +148,7 @@ location for which the job vacancy is posted
 
 #### Source
 
-main.ts:50030
+main.ts:50890
 
 ***
 
@@ -166,7 +166,7 @@ left, right
 
 #### Source
 
-main.ts:50016
+main.ts:50876
 
 ***
 
@@ -183,7 +183,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:50012
+main.ts:50872
 
 ***
 
@@ -201,7 +201,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:50009
+main.ts:50869
 
 ***
 
@@ -219,7 +219,7 @@ in this case, will equal null
 
 #### Source
 
-main.ts:50050
+main.ts:50910
 
 ***
 
@@ -236,7 +236,7 @@ if the salary isn’t indicated, this field will equal null
 
 #### Source
 
-main.ts:50037
+main.ts:50897
 
 ***
 
@@ -252,7 +252,7 @@ original source of the job vacancy
 
 #### Source
 
-main.ts:50032
+main.ts:50892
 
 ***
 
@@ -268,7 +268,7 @@ URL to the original source of the job vacancy
 
 #### Source
 
-main.ts:50034
+main.ts:50894
 
 ***
 
@@ -284,7 +284,7 @@ indicates how long ago the job vacancy was posted
 
 #### Source
 
-main.ts:50046
+main.ts:50906
 
 ***
 
@@ -303,7 +303,7 @@ example:
 
 #### Source
 
-main.ts:50044
+main.ts:50904
 
 ***
 
@@ -319,7 +319,7 @@ title of the job
 
 #### Source
 
-main.ts:50022
+main.ts:50882
 
 ***
 
@@ -335,7 +335,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:50018
+main.ts:50878
 
 ## Methods
 
@@ -357,7 +357,7 @@ main.ts:50018
 
 #### Source
 
-main.ts:50059
+main.ts:50919
 
 ***
 
@@ -379,7 +379,7 @@ main.ts:50059
 
 #### Source
 
-main.ts:50093
+main.ts:50953
 
 ***
 
@@ -401,4 +401,4 @@ main.ts:50093
 
 #### Source
 
-main.ts:50086
+main.ts:50946

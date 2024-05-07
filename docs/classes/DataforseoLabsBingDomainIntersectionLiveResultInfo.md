@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:106319
+main.ts:107177
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains keywords, relevant SERP elements and related data
 
 #### Source
 
-main.ts:106315
+main.ts:107173
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:106313
+main.ts:107171
 
 ***
 
@@ -78,7 +78,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:106309
+main.ts:107167
 
 ***
 
@@ -94,7 +94,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:106307
+main.ts:107165
 
 ***
 
@@ -112,7 +112,7 @@ for this endpoint, the field equals bing
 
 #### Source
 
-main.ts:106301
+main.ts:107159
 
 ***
 
@@ -128,7 +128,7 @@ target specified in a POST array
 
 #### Source
 
-main.ts:106303
+main.ts:107161
 
 ***
 
@@ -144,7 +144,7 @@ target specified in a POST array
 
 #### Source
 
-main.ts:106305
+main.ts:107163
 
 ***
 
@@ -160,7 +160,7 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:106311
+main.ts:107169
 
 ## Methods
 
@@ -178,7 +178,7 @@ main.ts:106311
 
 #### Source
 
-main.ts:106328
+main.ts:107186
 
 ***
 
@@ -196,7 +196,7 @@ main.ts:106328
 
 #### Source
 
-main.ts:106356
+main.ts:107214
 
 ***
 
@@ -214,4 +214,4 @@ main.ts:106356
 
 #### Source
 
-main.ts:106349
+main.ts:107207

@@ -21,7 +21,7 @@ possible values: informational, navigational, commercial, transactional
 
 #### Source
 
-main.ts:85369
+main.ts:86227
 
 ***
 
@@ -34,4 +34,4 @@ search intent probability
 
 #### Source
 
-main.ts:85372
+main.ts:86230

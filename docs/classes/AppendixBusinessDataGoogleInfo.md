@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:214344
+main.ts:216694
 
 ## Properties
 
@@ -44,7 +44,7 @@ main.ts:214344
 
 #### Source
 
-main.ts:214338
+main.ts:216687
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:214338
 
 #### Source
 
-main.ts:214339
+main.ts:216688
 
 ***
 
@@ -72,7 +72,7 @@ main.ts:214339
 
 #### Source
 
-main.ts:214336
+main.ts:216685
 
 ***
 
@@ -86,7 +86,21 @@ main.ts:214336
 
 #### Source
 
-main.ts:214337
+main.ts:216686
+
+***
+
+### questions\_and\_answers?
+
+> **`optional`** **questions\_and\_answers**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+
+#### Implementation of
+
+[`IAppendixBusinessDataGoogleInfo`](../interfaces/IAppendixBusinessDataGoogleInfo.md).[`questions_and_answers`](../interfaces/IAppendixBusinessDataGoogleInfo.md#questions_and_answers)
+
+#### Source
+
+main.ts:216690
 
 ***
 
@@ -100,7 +114,7 @@ main.ts:214337
 
 #### Source
 
-main.ts:214340
+main.ts:216689
 
 ## Methods
 
@@ -118,7 +132,7 @@ main.ts:214340
 
 #### Source
 
-main.ts:214353
+main.ts:216703
 
 ***
 
@@ -136,7 +150,7 @@ main.ts:214353
 
 #### Source
 
-main.ts:214374
+main.ts:216725
 
 ***
 
@@ -154,4 +168,4 @@ main.ts:214374
 
 #### Source
 
-main.ts:214367
+main.ts:216718

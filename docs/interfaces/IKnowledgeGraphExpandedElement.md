@@ -20,7 +20,7 @@ domain in SERP
 
 #### Source
 
-main.ts:27677
+main.ts:27841
 
 ***
 
@@ -32,7 +32,7 @@ title of a given element
 
 #### Source
 
-main.ts:27673
+main.ts:27837
 
 ***
 
@@ -44,7 +44,7 @@ images of the element
 
 #### Source
 
-main.ts:27683
+main.ts:27847
 
 ***
 
@@ -56,7 +56,7 @@ text alongside the link title
 
 #### Source
 
-main.ts:27681
+main.ts:27845
 
 ***
 
@@ -68,7 +68,7 @@ table element
 
 #### Source
 
-main.ts:27690
+main.ts:27854
 
 ***
 
@@ -83,7 +83,7 @@ example:
 
 #### Source
 
-main.ts:27688
+main.ts:27852
 
 ***
 
@@ -95,7 +95,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:27679
+main.ts:27843
 
 ***
 
@@ -107,7 +107,7 @@ type of element
 
 #### Source
 
-main.ts:27671
+main.ts:27835
 
 ***
 
@@ -119,4 +119,4 @@ relevant URL
 
 #### Source
 
-main.ts:27675
+main.ts:27839

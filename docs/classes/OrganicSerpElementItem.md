@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:26107
+main.ts:26271
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:26107
 
 #### Source
 
-main.ts:19830
+main.ts:19994
 
 ***
 
@@ -70,7 +70,7 @@ this feature appears after clicking on the three dots next to most results
 
 #### Source
 
-main.ts:26090
+main.ts:26254
 
 ***
 
@@ -87,7 +87,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 #### Source
 
-main.ts:26066
+main.ts:26230
 
 ***
 
@@ -103,7 +103,7 @@ breadcrumb in SERP
 
 #### Source
 
-main.ts:26043
+main.ts:26207
 
 ***
 
@@ -119,7 +119,7 @@ cached version of the page
 
 #### Source
 
-main.ts:26038
+main.ts:26202
 
 ***
 
@@ -135,7 +135,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:26057
+main.ts:26221
 
 ***
 
@@ -151,7 +151,7 @@ website domain
 
 #### Source
 
-main.ts:26032
+main.ts:26196
 
 ***
 
@@ -169,7 +169,7 @@ Note: extension appears in SERP upon clicking on the result and then bouncing ba
 
 #### Source
 
-main.ts:26086
+main.ts:26250
 
 ***
 
@@ -185,7 +185,7 @@ includes additional information appended after the result description in SERP
 
 #### Source
 
-main.ts:26061
+main.ts:26225
 
 ***
 
@@ -203,7 +203,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:26082
+main.ts:26246
 
 ***
 
@@ -219,7 +219,7 @@ words highlighted in bold within the results description
 
 #### Source
 
-main.ts:26074
+main.ts:26238
 
 ***
 
@@ -235,7 +235,7 @@ images of the element
 
 #### Source
 
-main.ts:26063
+main.ts:26227
 
 ***
 
@@ -251,7 +251,7 @@ indicates whether the element is a featured_snippet
 
 #### Source
 
-main.ts:26051
+main.ts:26215
 
 ***
 
@@ -267,7 +267,7 @@ indicates whether the element contains an image
 
 #### Source
 
-main.ts:26047
+main.ts:26211
 
 ***
 
@@ -283,7 +283,7 @@ indicates whether the element is marked as malicious
 
 #### Source
 
-main.ts:26053
+main.ts:26217
 
 ***
 
@@ -299,7 +299,7 @@ indicates whether the element contains a video
 
 #### Source
 
-main.ts:26049
+main.ts:26213
 
 ***
 
@@ -315,7 +315,7 @@ indicates whether the element is marked as Google web story
 
 #### Source
 
-main.ts:26055
+main.ts:26219
 
 ***
 
@@ -333,7 +333,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:26078
+main.ts:26242
 
 ***
 
@@ -351,7 +351,7 @@ left, right
 
 #### Source
 
-main.ts:26028
+main.ts:26192
 
 ***
 
@@ -367,7 +367,7 @@ includes additional information appended before the result description in SERP
 
 #### Source
 
-main.ts:26059
+main.ts:26223
 
 ***
 
@@ -384,7 +384,7 @@ contains the pricing details of the product or service featured in the result
 
 #### Source
 
-main.ts:26072
+main.ts:26236
 
 ***
 
@@ -401,7 +401,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:26024
+main.ts:26188
 
 ***
 
@@ -419,7 +419,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:26021
+main.ts:26185
 
 ***
 
@@ -436,7 +436,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:26069
+main.ts:26233
 
 ***
 
@@ -454,7 +454,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Source
 
-main.ts:26103
+main.ts:26267
 
 ***
 
@@ -472,7 +472,7 @@ you can derive the related_result snippets as "type": "organic" results by setti
 
 #### Source
 
-main.ts:26094
+main.ts:26258
 
 ***
 
@@ -489,7 +489,7 @@ URL to a new search for the same keyword(s) on related sites
 
 #### Source
 
-main.ts:26041
+main.ts:26205
 
 ***
 
@@ -508,7 +508,7 @@ example:
 
 #### Source
 
-main.ts:26099
+main.ts:26263
 
 ***
 
@@ -524,7 +524,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:26034
+main.ts:26198
 
 ***
 
@@ -540,7 +540,7 @@ relevant URL in SERP
 
 #### Source
 
-main.ts:26036
+main.ts:26200
 
 ***
 
@@ -556,7 +556,7 @@ name of the website in SERP
 
 #### Source
 
-main.ts:26045
+main.ts:26209
 
 ***
 
@@ -572,7 +572,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:26030
+main.ts:26194
 
 ## Methods
 
@@ -594,7 +594,7 @@ main.ts:26030
 
 #### Source
 
-main.ts:26112
+main.ts:26276
 
 ***
 
@@ -616,7 +616,7 @@ main.ts:26112
 
 #### Source
 
-main.ts:26180
+main.ts:26344
 
 ***
 
@@ -638,4 +638,4 @@ main.ts:26180
 
 #### Source
 
-main.ts:26173
+main.ts:26337

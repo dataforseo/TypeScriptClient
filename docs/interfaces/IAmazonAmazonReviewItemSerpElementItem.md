@@ -25,7 +25,7 @@ number of users who clicked on the ‘Helpful” button under the review text
 
 #### Source
 
-main.ts:182213
+main.ts:183071
 
 ***
 
@@ -37,7 +37,7 @@ images of the product submitted by the reviewer
 
 #### Source
 
-main.ts:182215
+main.ts:183073
 
 ***
 
@@ -50,7 +50,7 @@ can take the following values: right
 
 #### Source
 
-main.ts:182204
+main.ts:183062
 
 ***
 
@@ -65,7 +65,7 @@ example:
 
 #### Source
 
-main.ts:182230
+main.ts:183088
 
 ***
 
@@ -78,7 +78,7 @@ absolute position among all reviews on the list
 
 #### Source
 
-main.ts:182201
+main.ts:183059
 
 ***
 
@@ -91,7 +91,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:182198
+main.ts:183056
 
 ***
 
@@ -103,7 +103,7 @@ the rating score submitted by the reviewer
 
 #### Source
 
-main.ts:182232
+main.ts:183090
 
 ***
 
@@ -115,7 +115,7 @@ content of the review
 
 #### Source
 
-main.ts:182225
+main.ts:183083
 
 ***
 
@@ -127,7 +127,7 @@ subtitle of the review
 
 #### Source
 
-main.ts:182210
+main.ts:183068
 
 ***
 
@@ -139,7 +139,7 @@ title of the review
 
 #### Source
 
-main.ts:182221
+main.ts:183079
 
 ***
 
@@ -151,7 +151,7 @@ URL to the review
 
 #### Source
 
-main.ts:182223
+main.ts:183081
 
 ***
 
@@ -163,7 +163,7 @@ user profile of the reviewer
 
 #### Source
 
-main.ts:182219
+main.ts:183077
 
 ***
 
@@ -175,7 +175,7 @@ indicates whether the review has the “Verified Purchase” mark
 
 #### Source
 
-main.ts:182208
+main.ts:183066
 
 ***
 
@@ -187,7 +187,7 @@ videos of the product submitted by the reviewer
 
 #### Source
 
-main.ts:182217
+main.ts:183075
 
 ***
 
@@ -199,4 +199,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:182206
+main.ts:183064

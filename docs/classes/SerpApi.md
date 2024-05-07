@@ -1616,7 +1616,7 @@ main.ts:1213
 
 #### Parameters
 
-• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+• **body**: [`SerpGoogleOrganicLiveAdvancedRequestInfo`](SerpGoogleOrganicLiveAdvancedRequestInfo.md)[]
 
 (optional)
 
@@ -1660,7 +1660,7 @@ main.ts:641
 
 #### Parameters
 
-• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+• **body**: [`SerpGoogleOrganicLiveRegularRequestInfo`](SerpGoogleOrganicLiveRegularRequestInfo.md)[]
 
 (optional)
 

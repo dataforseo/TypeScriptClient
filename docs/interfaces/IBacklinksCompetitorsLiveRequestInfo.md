@@ -23,7 +23,7 @@ default value: true
 
 #### Source
 
-main.ts:141811
+main.ts:142669
 
 ***
 
@@ -47,7 +47,7 @@ The full list of possible filters is available here.
 
 #### Source
 
-main.ts:141787
+main.ts:142645
 
 ***
 
@@ -62,7 +62,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:141768
+main.ts:142626
 
 ***
 
@@ -77,7 +77,7 @@ default value: true
 
 #### Source
 
-main.ts:141806
+main.ts:142664
 
 ***
 
@@ -92,7 +92,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 #### Source
 
-main.ts:141773
+main.ts:142631
 
 ***
 
@@ -116,7 +116,7 @@ example:
 
 #### Source
 
-main.ts:141801
+main.ts:142659
 
 ***
 
@@ -132,7 +132,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:141817
+main.ts:142675
 
 ***
 
@@ -147,4 +147,4 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Source
 
-main.ts:141763
+main.ts:142621

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:195226
+main.ts:196084
 
 ## Properties
 
@@ -47,7 +47,7 @@ information about work hours of the local establishment
 
 #### Source
 
-main.ts:195222
+main.ts:196080
 
 ## Methods
 
@@ -65,7 +65,7 @@ main.ts:195222
 
 #### Source
 
-main.ts:195235
+main.ts:196093
 
 ***
 
@@ -83,7 +83,7 @@ main.ts:195235
 
 #### Source
 
-main.ts:195252
+main.ts:196110
 
 ***
 
@@ -101,4 +101,4 @@ main.ts:195252
 
 #### Source
 
-main.ts:195245
+main.ts:196103

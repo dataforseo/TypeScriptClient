@@ -18,7 +18,7 @@
 
 #### Source
 
-main.ts:214392
+main.ts:216744
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:214392
 
 #### Source
 
-main.ts:214393
+main.ts:216745
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:214393
 
 #### Source
 
-main.ts:214390
+main.ts:216742
 
 ***
 
@@ -48,7 +48,17 @@ main.ts:214390
 
 #### Source
 
-main.ts:214391
+main.ts:216743
+
+***
+
+### questions\_and\_answers?
+
+> **`optional`** **questions\_and\_answers**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+
+#### Source
+
+main.ts:216747
 
 ***
 
@@ -58,4 +68,4 @@ main.ts:214391
 
 #### Source
 
-main.ts:214394
+main.ts:216746

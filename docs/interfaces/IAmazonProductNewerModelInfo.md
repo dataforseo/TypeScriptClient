@@ -20,7 +20,7 @@ ASIN of the newer product model
 
 #### Source
 
-main.ts:178832
+main.ts:179690
 
 ***
 
@@ -32,4 +32,4 @@ product title
 
 #### Source
 
-main.ts:178830
+main.ts:179688

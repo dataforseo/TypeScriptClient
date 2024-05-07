@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:30855
+main.ts:31019
 
 ## Properties
 
@@ -46,7 +46,7 @@ URL of the image
 
 #### Source
 
-main.ts:30851
+main.ts:31015
 
 ***
 
@@ -62,7 +62,7 @@ subtitle of the element
 
 #### Source
 
-main.ts:30849
+main.ts:31013
 
 ***
 
@@ -78,7 +78,7 @@ title of a given link element
 
 #### Source
 
-main.ts:30847
+main.ts:31011
 
 ***
 
@@ -94,7 +94,7 @@ type of element
 
 #### Source
 
-main.ts:30845
+main.ts:31009
 
 ## Methods
 
@@ -112,7 +112,7 @@ main.ts:30845
 
 #### Source
 
-main.ts:30864
+main.ts:31028
 
 ***
 
@@ -130,7 +130,7 @@ main.ts:30864
 
 #### Source
 
-main.ts:30884
+main.ts:31048
 
 ***
 
@@ -148,4 +148,4 @@ main.ts:30884
 
 #### Source
 
-main.ts:30877
+main.ts:31041

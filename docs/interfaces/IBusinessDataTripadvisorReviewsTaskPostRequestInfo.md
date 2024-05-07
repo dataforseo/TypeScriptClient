@@ -24,7 +24,7 @@ default value: 10
 
 #### Source
 
-main.ts:208455
+main.ts:210804
 
 ***
 
@@ -41,7 +41,7 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Source
 
-main.ts:208411
+main.ts:210760
 
 ***
 
@@ -60,7 +60,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:208449
+main.ts:210798
 
 ***
 
@@ -79,7 +79,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:208440
+main.ts:210789
 
 ***
 
@@ -95,7 +95,7 @@ example:
 
 #### Source
 
-main.ts:208423
+main.ts:210772
 
 ***
 
@@ -111,7 +111,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:208417
+main.ts:210766
 
 ***
 
@@ -126,7 +126,7 @@ you can specify several values at once
 
 #### Source
 
-main.ts:208471
+main.ts:210820
 
 ***
 
@@ -146,7 +146,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:208508
+main.ts:210857
 
 ***
 
@@ -166,7 +166,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:208498
+main.ts:210847
 
 ***
 
@@ -184,7 +184,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:208431
+main.ts:210780
 
 ***
 
@@ -200,7 +200,7 @@ you can specify several values at once
 
 #### Source
 
-main.ts:208461
+main.ts:210810
 
 ***
 
@@ -214,7 +214,7 @@ dessert
 
 #### Source
 
-main.ts:208475
+main.ts:210824
 
 ***
 
@@ -231,7 +231,7 @@ detailed_reviews
 
 #### Source
 
-main.ts:208482
+main.ts:210831
 
 ***
 
@@ -247,7 +247,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:208488
+main.ts:210837
 
 ***
 
@@ -265,7 +265,7 @@ https://www.tripadvisor.com/Hotel_Review-g60763-d23462501-Reviews-Margaritaville
 
 #### Source
 
-main.ts:208404
+main.ts:210753
 
 ***
 
@@ -280,4 +280,4 @@ you can specify several values at once
 
 #### Source
 
-main.ts:208466
+main.ts:210815

@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:95793
+main.ts:96651
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:95793
 
 #### Source
 
-main.ts:20213
+main.ts:20377
 
 ***
 
@@ -68,7 +68,7 @@ backlinks information for the target website
 
 #### Source
 
-main.ts:95787
+main.ts:96645
 
 ***
 
@@ -84,7 +84,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:95764
+main.ts:96622
 
 ***
 
@@ -100,7 +100,7 @@ subdomain in SERP
 
 #### Source
 
-main.ts:95758
+main.ts:96616
 
 ***
 
@@ -118,7 +118,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:95782
+main.ts:96640
 
 ***
 
@@ -137,7 +137,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:95778
+main.ts:96636
 
 ***
 
@@ -153,7 +153,7 @@ the title of the featured snippets source page
 
 #### Source
 
-main.ts:95762
+main.ts:96620
 
 ***
 
@@ -169,7 +169,7 @@ primary domain name in SERP
 
 #### Source
 
-main.ts:95771
+main.ts:96629
 
 ***
 
@@ -187,7 +187,7 @@ left, right
 
 #### Source
 
-main.ts:95754
+main.ts:96612
 
 ***
 
@@ -204,7 +204,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:95750
+main.ts:96608
 
 ***
 
@@ -221,7 +221,7 @@ contains information about the ranking changes of the SERP element since the pre
 
 #### Source
 
-main.ts:95785
+main.ts:96643
 
 ***
 
@@ -238,7 +238,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:95747
+main.ts:96605
 
 ***
 
@@ -254,7 +254,7 @@ page and domain rank information
 
 #### Source
 
-main.ts:95789
+main.ts:96647
 
 ***
 
@@ -270,7 +270,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Source
 
-main.ts:95773
+main.ts:96631
 
 ***
 
@@ -286,7 +286,7 @@ search engine type
 
 #### Source
 
-main.ts:95744
+main.ts:96602
 
 ***
 
@@ -303,7 +303,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:95769
+main.ts:96627
 
 ***
 
@@ -319,7 +319,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:95760
+main.ts:96618
 
 ***
 
@@ -335,7 +335,7 @@ relevant URL in SERP
 
 #### Source
 
-main.ts:95766
+main.ts:96624
 
 ***
 
@@ -351,7 +351,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:95756
+main.ts:96614
 
 ## Methods
 
@@ -373,7 +373,7 @@ main.ts:95756
 
 #### Source
 
-main.ts:95798
+main.ts:96656
 
 ***
 
@@ -395,7 +395,7 @@ main.ts:95798
 
 #### Source
 
-main.ts:95833
+main.ts:96691
 
 ***
 
@@ -417,4 +417,4 @@ main.ts:95833
 
 #### Source
 
-main.ts:95826
+main.ts:96684

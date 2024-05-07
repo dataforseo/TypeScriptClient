@@ -21,7 +21,7 @@ in this case, the value will be null
 
 #### Source
 
-main.ts:191987
+main.ts:192845
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Source
 
-main.ts:191992
+main.ts:192850
 
 ***
 
@@ -49,7 +49,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Source
 
-main.ts:192000
+main.ts:192858
 
 ***
 
@@ -62,7 +62,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Source
 
-main.ts:191997
+main.ts:192855
 
 ***
 
@@ -74,7 +74,7 @@ app collection received in a POST array
 
 #### Source
 
-main.ts:191978
+main.ts:192836
 
 ***
 
@@ -86,7 +86,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:191984
+main.ts:192842
 
 ***
 
@@ -98,7 +98,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:191982
+main.ts:192840
 
 ***
 
@@ -110,7 +110,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:191980
+main.ts:192838
 
 ***
 
@@ -122,4 +122,4 @@ the total number of results
 
 #### Source
 
-main.ts:191994
+main.ts:192852

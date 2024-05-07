@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:45345
+main.ts:46205
 
 ## Properties
 
@@ -46,7 +46,7 @@ date or date range as it is displayed in SERP
 
 #### Source
 
-main.ts:45341
+main.ts:46201
 
 ***
 
@@ -70,7 +70,7 @@ example:
 
 #### Source
 
-main.ts:45339
+main.ts:46199
 
 ***
 
@@ -94,7 +94,7 @@ example:
 
 #### Source
 
-main.ts:45329
+main.ts:46189
 
 ## Methods
 
@@ -112,7 +112,7 @@ main.ts:45329
 
 #### Source
 
-main.ts:45354
+main.ts:46214
 
 ***
 
@@ -130,7 +130,7 @@ main.ts:45354
 
 #### Source
 
-main.ts:45373
+main.ts:46233
 
 ***
 
@@ -148,4 +148,4 @@ main.ts:45373
 
 #### Source
 
-main.ts:45366
+main.ts:46226

@@ -20,7 +20,7 @@ number of backlinks
 
 #### Source
 
-main.ts:139815
+main.ts:140673
 
 ***
 
@@ -33,7 +33,7 @@ learn more about how the metric is calculated on this help center page
 
 #### Source
 
-main.ts:139829
+main.ts:140687
 
 ***
 
@@ -46,7 +46,7 @@ number of broken backlinks pointing to the page
 
 #### Source
 
-main.ts:139832
+main.ts:140690
 
 ***
 
@@ -59,7 +59,7 @@ number of pages that respond with 4xx or 5xx status codes where backlinks are po
 
 #### Source
 
-main.ts:139835
+main.ts:140693
 
 ***
 
@@ -74,7 +74,7 @@ example:
 
 #### Source
 
-main.ts:139820
+main.ts:140678
 
 ***
 
@@ -90,7 +90,7 @@ example:
 
 #### Source
 
-main.ts:139826
+main.ts:140684
 
 ***
 
@@ -105,7 +105,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Source
 
-main.ts:139813
+main.ts:140671
 
 ***
 
@@ -117,7 +117,7 @@ indicates the number domains referring to the page
 
 #### Source
 
-main.ts:139837
+main.ts:140695
 
 ***
 
@@ -129,7 +129,7 @@ number of domains pointing at least one nofollow link to the target
 
 #### Source
 
-main.ts:139839
+main.ts:140697
 
 ***
 
@@ -142,7 +142,7 @@ number of IP addresses pointing to this page
 
 #### Source
 
-main.ts:139846
+main.ts:140704
 
 ***
 
@@ -159,7 +159,7 @@ indicates link attributes of the referring links and link count per each attribu
 
 #### Source
 
-main.ts:139861
+main.ts:140719
 
 ***
 
@@ -176,7 +176,7 @@ indicates ISO country codes of the domains where the referring links are located
 
 #### Source
 
-main.ts:139873
+main.ts:140731
 
 ***
 
@@ -193,7 +193,7 @@ indicates referring platform types and and link count per each platform
 
 #### Source
 
-main.ts:139864
+main.ts:140722
 
 ***
 
@@ -213,7 +213,7 @@ article, section, footer
 
 #### Source
 
-main.ts:139870
+main.ts:140728
 
 ***
 
@@ -230,7 +230,7 @@ contains top level domains and referring link count per each
 
 #### Source
 
-main.ts:139853
+main.ts:140711
 
 ***
 
@@ -249,7 +249,7 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 #### Source
 
-main.ts:139858
+main.ts:140716
 
 ***
 
@@ -261,7 +261,7 @@ indicates the number of referring main domains
 
 #### Source
 
-main.ts:139841
+main.ts:140699
 
 ***
 
@@ -273,7 +273,7 @@ number of main domains pointing at least one nofollow link to the target
 
 #### Source
 
-main.ts:139843
+main.ts:140701
 
 ***
 
@@ -285,7 +285,7 @@ indicates the number of pages pointing to the relevant url
 
 #### Source
 
-main.ts:139850
+main.ts:140708
 
 ***
 
@@ -297,7 +297,7 @@ number of referring pages pointing at least one nofollow link to the target
 
 #### Source
 
-main.ts:139875
+main.ts:140733
 
 ***
 
@@ -309,7 +309,7 @@ number of referring subnetworks
 
 #### Source
 
-main.ts:139848
+main.ts:140706
 
 ***
 
@@ -321,7 +321,7 @@ type of element
 
 #### Source
 
-main.ts:139806
+main.ts:140664
 
 ***
 
@@ -333,4 +333,4 @@ page URL
 
 #### Source
 
-main.ts:139808
+main.ts:140666

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:98709
+main.ts:99567
 
 ## Properties
 
@@ -51,7 +51,7 @@ we recommend always setting correlate to true
 
 #### Source
 
-main.ts:98694
+main.ts:99552
 
 ***
 
@@ -71,7 +71,7 @@ date format: "yyyy-mm-dd"
 
 #### Source
 
-main.ts:98680
+main.ts:99538
 
 ***
 
@@ -92,7 +92,7 @@ example:
 
 #### Source
 
-main.ts:98687
+main.ts:99545
 
 ***
 
@@ -111,7 +111,7 @@ default value: false
 
 #### Source
 
-main.ts:98699
+main.ts:99557
 
 ***
 
@@ -133,7 +133,7 @@ en
 
 #### Source
 
-main.ts:98674
+main.ts:99532
 
 ***
 
@@ -155,7 +155,7 @@ English
 
 #### Source
 
-main.ts:98666
+main.ts:99524
 
 ***
 
@@ -177,7 +177,7 @@ example:
 
 #### Source
 
-main.ts:98658
+main.ts:99516
 
 ***
 
@@ -199,7 +199,7 @@ United Kingdom
 
 #### Source
 
-main.ts:98650
+main.ts:99508
 
 ***
 
@@ -219,7 +219,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:98705
+main.ts:99563
 
 ***
 
@@ -238,7 +238,7 @@ the domain should be specified without https:// and www.
 
 #### Source
 
-main.ts:98642
+main.ts:99500
 
 ## Methods
 
@@ -256,7 +256,7 @@ main.ts:98642
 
 #### Source
 
-main.ts:98718
+main.ts:99576
 
 ***
 
@@ -274,7 +274,7 @@ main.ts:98718
 
 #### Source
 
-main.ts:98744
+main.ts:99602
 
 ***
 
@@ -292,4 +292,4 @@ main.ts:98744
 
 #### Source
 
-main.ts:98737
+main.ts:99595

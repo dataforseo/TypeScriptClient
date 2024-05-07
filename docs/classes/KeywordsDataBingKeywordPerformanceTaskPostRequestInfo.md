@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:132335
+main.ts:133193
 
 ## Properties
 
@@ -49,7 +49,7 @@ default value: all
 
 #### Source
 
-main.ts:132262
+main.ts:133120
 
 ***
 
@@ -70,7 +70,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 #### Source
 
-main.ts:132257
+main.ts:133115
 
 ***
 
@@ -90,7 +90,7 @@ example:
 
 #### Source
 
-main.ts:132305
+main.ts:133163
 
 ***
 
@@ -111,7 +111,7 @@ English
 
 #### Source
 
-main.ts:132299
+main.ts:133157
 
 ***
 
@@ -132,7 +132,7 @@ example:
 
 #### Source
 
-main.ts:132284
+main.ts:133142
 
 ***
 
@@ -154,7 +154,7 @@ example:
 
 #### Source
 
-main.ts:132292
+main.ts:133150
 
 ***
 
@@ -175,7 +175,7 @@ example:
 
 #### Source
 
-main.ts:132277
+main.ts:133135
 
 ***
 
@@ -197,7 +197,7 @@ exact returns data for user query that matches the specified keyword;Note: the a
 
 #### Source
 
-main.ts:132270
+main.ts:133128
 
 ***
 
@@ -221,7 +221,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:132325
+main.ts:133183
 
 ***
 
@@ -245,7 +245,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:132315
+main.ts:133173
 
 ***
 
@@ -265,7 +265,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:132331
+main.ts:133189
 
 ## Methods
 
@@ -283,7 +283,7 @@ main.ts:132331
 
 #### Source
 
-main.ts:132344
+main.ts:133202
 
 ***
 
@@ -301,7 +301,7 @@ main.ts:132344
 
 #### Source
 
-main.ts:132375
+main.ts:133233
 
 ***
 
@@ -319,4 +319,4 @@ main.ts:132375
 
 #### Source
 
-main.ts:132368
+main.ts:133226

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:21806
+main.ts:21970
 
 ## Properties
 
@@ -46,7 +46,7 @@ the earliest date when the product can be shipped
 
 #### Source
 
-main.ts:21792
+main.ts:21956
 
 ***
 
@@ -62,7 +62,7 @@ the latest date when the product can be delivered
 
 #### Source
 
-main.ts:21794
+main.ts:21958
 
 ***
 
@@ -78,7 +78,7 @@ message accompanying the delivery information as posted by the seller
 
 #### Source
 
-main.ts:21790
+main.ts:21954
 
 ***
 
@@ -96,7 +96,7 @@ if free delivery is available, the value is null
 
 #### Source
 
-main.ts:21802
+main.ts:21966
 
 ***
 
@@ -112,7 +112,7 @@ the earliest date when the product can be delivered with a fast delivery option
 
 #### Source
 
-main.ts:21796
+main.ts:21960
 
 ***
 
@@ -128,7 +128,7 @@ the latest date when the product can be delivered with a fast delivery option
 
 #### Source
 
-main.ts:21798
+main.ts:21962
 
 ## Methods
 
@@ -146,7 +146,7 @@ main.ts:21798
 
 #### Source
 
-main.ts:21815
+main.ts:21979
 
 ***
 
@@ -164,7 +164,7 @@ main.ts:21815
 
 #### Source
 
-main.ts:21837
+main.ts:22001
 
 ***
 
@@ -182,4 +182,4 @@ main.ts:21837
 
 #### Source
 
-main.ts:21830
+main.ts:21994

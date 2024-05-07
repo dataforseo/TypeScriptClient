@@ -31,7 +31,7 @@ example:
 
 #### Source
 
-main.ts:107192
+main.ts:108050
 
 ***
 
@@ -60,7 +60,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:107286
+main.ts:108144
 
 ***
 
@@ -75,7 +75,7 @@ default value: false
 
 #### Source
 
-main.ts:107239
+main.ts:108097
 
 ***
 
@@ -90,7 +90,7 @@ default value: false
 
 #### Source
 
-main.ts:107267
+main.ts:108125
 
 ***
 
@@ -105,7 +105,7 @@ default value: true
 
 #### Source
 
-main.ts:107254
+main.ts:108112
 
 ***
 
@@ -123,7 +123,7 @@ by default, results are based on the intersect mode if you specify only pages ar
 
 #### Source
 
-main.ts:107262
+main.ts:108120
 
 ***
 
@@ -141,7 +141,7 @@ default value:
 
 #### Source
 
-main.ts:107234
+main.ts:108092
 
 ***
 
@@ -159,7 +159,7 @@ en
 
 #### Source
 
-main.ts:107226
+main.ts:108084
 
 ***
 
@@ -177,7 +177,7 @@ English
 
 #### Source
 
-main.ts:107218
+main.ts:108076
 
 ***
 
@@ -192,7 +192,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:107244
+main.ts:108102
 
 ***
 
@@ -211,7 +211,7 @@ example:
 
 #### Source
 
-main.ts:107210
+main.ts:108068
 
 ***
 
@@ -230,7 +230,7 @@ United States
 
 #### Source
 
-main.ts:107201
+main.ts:108059
 
 ***
 
@@ -245,7 +245,7 @@ if you specify 10 here, the first ten keywords in the results array will be omit
 
 #### Source
 
-main.ts:107249
+main.ts:108107
 
 ***
 
@@ -271,7 +271,7 @@ example:
 
 #### Source
 
-main.ts:107302
+main.ts:108160
 
 ***
 
@@ -306,7 +306,7 @@ Note: this endpoint will not provide results if the number of intersecting keywo
 
 #### Source
 
-main.ts:107179
+main.ts:108037
 
 ***
 
@@ -322,4 +322,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:107308
+main.ts:108166

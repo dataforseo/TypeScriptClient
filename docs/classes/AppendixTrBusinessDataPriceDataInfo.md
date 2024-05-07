@@ -30,13 +30,13 @@
 
 #### Source
 
-main.ts:217855
+main.ts:220212
 
 ## Properties
 
 ### reviews?
 
-> **`optional`** **reviews**: [`AppendixHotelSearchesGoogleBusinessDataPriceData`](AppendixHotelSearchesGoogleBusinessDataPriceData.md)
+> **`optional`** **reviews**: [`AppendixsGoogleBusinessDataPriceDataInfo`](AppendixsGoogleBusinessDataPriceDataInfo.md)
 
 #### Implementation of
 
@@ -44,13 +44,13 @@ main.ts:217855
 
 #### Source
 
-main.ts:217850
+main.ts:220207
 
 ***
 
 ### search?
 
-> **`optional`** **search**: [`AppendixHotelSearchesGoogleBusinessDataPriceData`](AppendixHotelSearchesGoogleBusinessDataPriceData.md)
+> **`optional`** **search**: [`AppendixsGoogleBusinessDataPriceDataInfo`](AppendixsGoogleBusinessDataPriceDataInfo.md)
 
 #### Implementation of
 
@@ -58,7 +58,7 @@ main.ts:217850
 
 #### Source
 
-main.ts:217851
+main.ts:220208
 
 ## Methods
 
@@ -76,7 +76,7 @@ main.ts:217851
 
 #### Source
 
-main.ts:217864
+main.ts:220221
 
 ***
 
@@ -94,7 +94,7 @@ main.ts:217864
 
 #### Source
 
-main.ts:217882
+main.ts:220239
 
 ***
 
@@ -112,4 +112,4 @@ main.ts:217882
 
 #### Source
 
-main.ts:217875
+main.ts:220232

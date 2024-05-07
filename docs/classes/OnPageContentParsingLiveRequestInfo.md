@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:159168
+main.ts:160026
 
 ## Properties
 
@@ -49,7 +49,7 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 #### Source
 
-main.ts:159142
+main.ts:160000
 
 ***
 
@@ -82,7 +82,7 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 #### Source
 
-main.ts:159102
+main.ts:159960
 
 ***
 
@@ -104,7 +104,7 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:159118
+main.ts:159976
 
 ***
 
@@ -126,7 +126,7 @@ maximum value: 3
 
 #### Source
 
-main.ts:159126
+main.ts:159984
 
 ***
 
@@ -148,7 +148,7 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:159110
+main.ts:159968
 
 ***
 
@@ -169,7 +169,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 #### Source
 
-main.ts:159083
+main.ts:159941
 
 ***
 
@@ -189,7 +189,7 @@ false
 
 #### Source
 
-main.ts:159137
+main.ts:159995
 
 ***
 
@@ -212,7 +212,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:159157
+main.ts:160015
 
 ***
 
@@ -232,7 +232,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:159148
+main.ts:160006
 
 ***
 
@@ -253,7 +253,7 @@ if you use this field, enable_javascript must be set to true;
 
 #### Source
 
-main.ts:159164
+main.ts:160022
 
 ***
 
@@ -272,7 +272,7 @@ default value: false
 
 #### Source
 
-main.ts:159131
+main.ts:159989
 
 ***
 
@@ -292,7 +292,7 @@ https://www.fujielectric.com/
 
 #### Source
 
-main.ts:159076
+main.ts:159934
 
 ## Methods
 
@@ -310,7 +310,7 @@ main.ts:159076
 
 #### Source
 
-main.ts:159177
+main.ts:160035
 
 ***
 
@@ -328,7 +328,7 @@ main.ts:159177
 
 #### Source
 
-main.ts:159205
+main.ts:160063
 
 ***
 
@@ -346,4 +346,4 @@ main.ts:159205
 
 #### Source
 
-main.ts:159198
+main.ts:160056

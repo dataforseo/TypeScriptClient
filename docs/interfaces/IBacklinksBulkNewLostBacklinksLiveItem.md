@@ -21,7 +21,7 @@ number of lost backlinks of the target
 
 #### Source
 
-main.ts:146609
+main.ts:147467
 
 ***
 
@@ -34,7 +34,7 @@ number of new backlinks pointing to the target
 
 #### Source
 
-main.ts:146606
+main.ts:147464
 
 ***
 
@@ -46,4 +46,4 @@ domain, subdomain or webpage from a POST array
 
 #### Source
 
-main.ts:146603
+main.ts:147461

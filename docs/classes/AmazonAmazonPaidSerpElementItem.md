@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:177168
+main.ts:178026
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:177168
 
 #### Source
 
-main.ts:21403
+main.ts:21567
 
 ***
 
@@ -68,7 +68,7 @@ number of product purchases in the past month
 
 #### Source
 
-main.ts:177133
+main.ts:177991
 
 ***
 
@@ -86,7 +86,7 @@ USD
 
 #### Source
 
-main.ts:177145
+main.ts:178003
 
 ***
 
@@ -105,7 +105,7 @@ B07G82D89J
 
 #### Source
 
-main.ts:177153
+main.ts:178011
 
 ***
 
@@ -122,7 +122,7 @@ delivery information including free and fast delivery date ranges
 
 #### Source
 
-main.ts:177164
+main.ts:178022
 
 ***
 
@@ -138,7 +138,7 @@ Amazon domain
 
 #### Source
 
-main.ts:177125
+main.ts:177983
 
 ***
 
@@ -154,7 +154,7 @@ URL of the product image featured in the results
 
 #### Source
 
-main.ts:177131
+main.ts:177989
 
 ***
 
@@ -171,7 +171,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 #### Source
 
-main.ts:177158
+main.ts:178016
 
 ***
 
@@ -188,7 +188,7 @@ if the value is true, the product is marked with the “Best Seller” label
 
 #### Source
 
-main.ts:177161
+main.ts:178019
 
 ***
 
@@ -206,7 +206,7 @@ example:
 
 #### Source
 
-main.ts:177137
+main.ts:177995
 
 ***
 
@@ -224,7 +224,7 @@ example:
 
 #### Source
 
-main.ts:177141
+main.ts:177999
 
 ***
 
@@ -241,7 +241,7 @@ absolute position among all the elements found in Amazon SERP
 
 #### Source
 
-main.ts:177121
+main.ts:177979
 
 ***
 
@@ -258,7 +258,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:177118
+main.ts:177976
 
 ***
 
@@ -274,7 +274,7 @@ product rating info
 
 #### Source
 
-main.ts:177155
+main.ts:178013
 
 ***
 
@@ -291,7 +291,7 @@ contains special offer details, including coupon and Subscribe & Save discounts
 
 #### Source
 
-main.ts:177148
+main.ts:178006
 
 ***
 
@@ -307,7 +307,7 @@ product title
 
 #### Source
 
-main.ts:177127
+main.ts:177985
 
 ***
 
@@ -323,7 +323,7 @@ the URL of the product page
 
 #### Source
 
-main.ts:177129
+main.ts:177987
 
 ***
 
@@ -339,7 +339,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:177123
+main.ts:177981
 
 ## Methods
 
@@ -361,7 +361,7 @@ main.ts:177123
 
 #### Source
 
-main.ts:177173
+main.ts:178031
 
 ***
 
@@ -383,7 +383,7 @@ main.ts:177173
 
 #### Source
 
-main.ts:177211
+main.ts:178069
 
 ***
 
@@ -405,4 +405,4 @@ main.ts:177211
 
 #### Source
 
-main.ts:177204
+main.ts:178062

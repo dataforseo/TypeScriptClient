@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:170970
+main.ts:171828
 
 ## Properties
 
@@ -47,7 +47,7 @@ message accompanying the delivery information as posted by the seller
 
 #### Source
 
-main.ts:170959
+main.ts:171817
 
 ***
 
@@ -65,7 +65,7 @@ if free delivery is available, the value is null
 
 #### Source
 
-main.ts:170963
+main.ts:171821
 
 ***
 
@@ -82,7 +82,7 @@ contains information about the number of stores that offer the same product
 
 #### Source
 
-main.ts:170966
+main.ts:171824
 
 ## Methods
 
@@ -100,7 +100,7 @@ main.ts:170966
 
 #### Source
 
-main.ts:170979
+main.ts:171837
 
 ***
 
@@ -118,7 +118,7 @@ main.ts:170979
 
 #### Source
 
-main.ts:170998
+main.ts:171856
 
 ***
 
@@ -136,4 +136,4 @@ main.ts:170998
 
 #### Source
 
-main.ts:170991
+main.ts:171849

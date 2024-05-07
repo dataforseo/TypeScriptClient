@@ -24,7 +24,7 @@ card id
 
 #### Source
 
-main.ts:28526
+main.ts:28690
 
 ***
 
@@ -38,7 +38,7 @@ can be used with Google Reviews API to get a full list of reviews
 
 #### Source
 
-main.ts:28537
+main.ts:28701
 
 ***
 
@@ -50,7 +50,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:28524
+main.ts:28688
 
 ***
 
@@ -63,7 +63,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Source
 
-main.ts:28531
+main.ts:28695
 
 ***
 
@@ -76,7 +76,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:28540
+main.ts:28704
 
 ***
 
@@ -88,7 +88,7 @@ URL of the logo from knowledge graph
 
 #### Source
 
-main.ts:28533
+main.ts:28697
 
 ***
 
@@ -102,7 +102,7 @@ left, right
 
 #### Source
 
-main.ts:28516
+main.ts:28680
 
 ***
 
@@ -115,7 +115,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:28512
+main.ts:28676
 
 ***
 
@@ -129,7 +129,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:28509
+main.ts:28673
 
 ***
 
@@ -143,7 +143,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Source
 
-main.ts:28544
+main.ts:28708
 
 ***
 
@@ -155,7 +155,7 @@ subtitle of the item
 
 #### Source
 
-main.ts:28522
+main.ts:28686
 
 ***
 
@@ -167,7 +167,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:28520
+main.ts:28684
 
 ***
 
@@ -179,7 +179,7 @@ relevant URL in SERP
 
 #### Source
 
-main.ts:28528
+main.ts:28692
 
 ***
 
@@ -191,4 +191,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:28518
+main.ts:28682

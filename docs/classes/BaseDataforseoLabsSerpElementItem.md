@@ -17,8 +17,8 @@
 - [`KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem`](KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem.md)
 - [`KnowledgeGraphImagesItemDataforseoLabsSerpElementItem`](KnowledgeGraphImagesItemDataforseoLabsSerpElementItem.md)
 - [`KnowledgeGraphRowItemDataforseoLabsSerpElementItem`](KnowledgeGraphRowItemDataforseoLabsSerpElementItem.md)
-- [`KnowledgeGraphDataforseoLabsSerpElementItem`](KnowledgeGraphDataforseoLabsSerpElementItem.md)
 - [`KnowledgeGraphCarouselItemDataforseoLabsSerpElementItem`](KnowledgeGraphCarouselItemDataforseoLabsSerpElementItem.md)
+- [`KnowledgeGraphDataforseoLabsSerpElementItem`](KnowledgeGraphDataforseoLabsSerpElementItem.md)
 - [`CarouselDataforseoLabsSerpElementItem`](CarouselDataforseoLabsSerpElementItem.md)
 - [`MultiCarouselDataforseoLabsSerpElementItem`](MultiCarouselDataforseoLabsSerpElementItem.md)
 - [`TopStoriesDataforseoLabsSerpElementItem`](TopStoriesDataforseoLabsSerpElementItem.md)
@@ -78,7 +78,7 @@
 
 #### Source
 
-main.ts:20215
+main.ts:20379
 
 ## Properties
 
@@ -88,7 +88,7 @@ main.ts:20215
 
 #### Source
 
-main.ts:20213
+main.ts:20377
 
 ## Methods
 
@@ -106,7 +106,7 @@ main.ts:20213
 
 #### Source
 
-main.ts:20225
+main.ts:20389
 
 ***
 
@@ -124,7 +124,7 @@ main.ts:20225
 
 #### Source
 
-main.ts:20466
+main.ts:20630
 
 ***
 
@@ -142,4 +142,4 @@ main.ts:20466
 
 #### Source
 
-main.ts:20234
+main.ts:20398

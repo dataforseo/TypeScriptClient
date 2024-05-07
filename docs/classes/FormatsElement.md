@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:53094
+main.ts:53954
 
 ## Properties
 
@@ -47,7 +47,7 @@ for example: zip, html, csv
 
 #### Source
 
-main.ts:53088
+main.ts:53948
 
 ***
 
@@ -63,7 +63,7 @@ file size in bytes
 
 #### Source
 
-main.ts:53090
+main.ts:53950
 
 ***
 
@@ -79,7 +79,7 @@ type of element
 
 #### Source
 
-main.ts:53085
+main.ts:53945
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:53085
 
 #### Source
 
-main.ts:53103
+main.ts:53963
 
 ***
 
@@ -115,7 +115,7 @@ main.ts:53103
 
 #### Source
 
-main.ts:53122
+main.ts:53982
 
 ***
 
@@ -133,4 +133,4 @@ main.ts:53122
 
 #### Source
 
-main.ts:53115
+main.ts:53975

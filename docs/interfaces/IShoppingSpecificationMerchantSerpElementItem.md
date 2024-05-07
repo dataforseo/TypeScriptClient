@@ -25,7 +25,7 @@ indicates the name of the product specification section in which the related ele
 
 #### Source
 
-main.ts:174380
+main.ts:175238
 
 ***
 
@@ -39,7 +39,7 @@ right
 
 #### Source
 
-main.ts:174375
+main.ts:175233
 
 ***
 
@@ -52,7 +52,7 @@ absolute position among all the elements found on the product specification page
 
 #### Source
 
-main.ts:174371
+main.ts:175229
 
 ***
 
@@ -65,7 +65,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:174368
+main.ts:175226
 
 ***
 
@@ -78,7 +78,7 @@ attribute name of the product data specification
 
 #### Source
 
-main.ts:174383
+main.ts:175241
 
 ***
 
@@ -90,7 +90,7 @@ content of the specification
 
 #### Source
 
-main.ts:174385
+main.ts:175243
 
 ***
 
@@ -102,4 +102,4 @@ XPath of the element
 
 #### Source
 
-main.ts:174377
+main.ts:175235

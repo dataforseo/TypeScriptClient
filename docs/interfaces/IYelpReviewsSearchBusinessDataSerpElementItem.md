@@ -25,7 +25,7 @@ can take the following values: left
 
 #### Source
 
-main.ts:211812
+main.ts:214161
 
 ***
 
@@ -38,7 +38,7 @@ absolute position among all reviews on the list
 
 #### Source
 
-main.ts:211809
+main.ts:214158
 
 ***
 
@@ -51,7 +51,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:211806
+main.ts:214155
 
 ***
 
@@ -63,7 +63,7 @@ the rating score submitted by the reviewer
 
 #### Source
 
-main.ts:211818
+main.ts:214167
 
 ***
 
@@ -75,7 +75,7 @@ text of the owner’s response
 
 #### Source
 
-main.ts:211830
+main.ts:214179
 
 ***
 
@@ -89,7 +89,7 @@ WvjNtncj8PDZytbofWlC5A
 
 #### Source
 
-main.ts:211816
+main.ts:214165
 
 ***
 
@@ -102,7 +102,7 @@ you will find URLs to the images provided by the author of this review
 
 #### Source
 
-main.ts:211826
+main.ts:214175
 
 ***
 
@@ -114,7 +114,7 @@ the content of the review
 
 #### Source
 
-main.ts:211823
+main.ts:214172
 
 ***
 
@@ -127,7 +127,7 @@ indicates timestamp of when the review was listed
 
 #### Source
 
-main.ts:211821
+main.ts:214170
 
 ***
 
@@ -139,4 +139,4 @@ information listed in the reviewer’s profile
 
 #### Source
 
-main.ts:211828
+main.ts:214177

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:140166
+main.ts:141024
 
 ## Properties
 
@@ -52,7 +52,7 @@ example:
 
 #### Source
 
-main.ts:140140
+main.ts:140998
 
 ***
 
@@ -75,7 +75,7 @@ default value: live
 
 #### Source
 
-main.ts:140101
+main.ts:140959
 
 ***
 
@@ -94,7 +94,7 @@ default value: true
 
 #### Source
 
-main.ts:140156
+main.ts:141014
 
 ***
 
@@ -125,7 +125,7 @@ The full list of possible filters is available here.
 
 #### Source
 
-main.ts:140118
+main.ts:140976
 
 ***
 
@@ -145,7 +145,7 @@ default value: true
 
 #### Source
 
-main.ts:140151
+main.ts:141009
 
 ***
 
@@ -164,7 +164,7 @@ default value: true
 
 #### Source
 
-main.ts:140145
+main.ts:141003
 
 ***
 
@@ -189,7 +189,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:140092
+main.ts:140950
 
 ***
 
@@ -208,7 +208,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:140076
+main.ts:140934
 
 ***
 
@@ -227,7 +227,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 #### Source
 
-main.ts:140081
+main.ts:140939
 
 ***
 
@@ -255,7 +255,7 @@ example:
 
 #### Source
 
-main.ts:140132
+main.ts:140990
 
 ***
 
@@ -275,7 +275,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:140162
+main.ts:141020
 
 ***
 
@@ -294,7 +294,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Source
 
-main.ts:140071
+main.ts:140929
 
 ## Methods
 
@@ -312,7 +312,7 @@ main.ts:140071
 
 #### Source
 
-main.ts:140175
+main.ts:141033
 
 ***
 
@@ -330,7 +330,7 @@ main.ts:140175
 
 #### Source
 
-main.ts:140215
+main.ts:141073
 
 ***
 
@@ -348,4 +348,4 @@ main.ts:140215
 
 #### Source
 
-main.ts:140208
+main.ts:141066

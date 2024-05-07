@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:204458
+main.ts:205336
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Source
 
-main.ts:204450
+main.ts:205328
 
 ***
 
@@ -62,7 +62,7 @@ URL for collecting the results of the task
 
 #### Source
 
-main.ts:204454
+main.ts:205332
 
 ***
 
@@ -79,7 +79,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:204442
+main.ts:205320
 
 ***
 
@@ -96,7 +96,7 @@ can take the following values: google
 
 #### Source
 
-main.ts:204445
+main.ts:205323
 
 ***
 
@@ -113,7 +113,7 @@ can take the following values: reviews
 
 #### Source
 
-main.ts:204448
+main.ts:205326
 
 ***
 
@@ -129,7 +129,7 @@ user-defined task identifier
 
 #### Source
 
-main.ts:204452
+main.ts:205330
 
 ## Methods
 
@@ -147,7 +147,7 @@ main.ts:204452
 
 #### Source
 
-main.ts:204467
+main.ts:205345
 
 ***
 
@@ -165,7 +165,7 @@ main.ts:204467
 
 #### Source
 
-main.ts:204489
+main.ts:205367
 
 ***
 
@@ -183,4 +183,4 @@ main.ts:204489
 
 #### Source
 
-main.ts:204482
+main.ts:205360

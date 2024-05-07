@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:217794
+main.ts:220148
 
 ## Properties
 
@@ -44,13 +44,13 @@ main.ts:217794
 
 #### Source
 
-main.ts:217786
+main.ts:220139
 
 ***
 
 ### hotel\_searches?
 
-> **`optional`** **hotel\_searches**: [`AppendixHotelSearchesGoogleBusinessDataPriceData`](AppendixHotelSearchesGoogleBusinessDataPriceData.md)
+> **`optional`** **hotel\_searches**: [`AppendixsGoogleBusinessDataPriceDataInfo`](AppendixsGoogleBusinessDataPriceDataInfo.md)
 
 #### Implementation of
 
@@ -58,13 +58,13 @@ main.ts:217786
 
 #### Source
 
-main.ts:217787
+main.ts:220140
 
 ***
 
 ### my\_business\_info?
 
-> **`optional`** **my\_business\_info**: [`AppendixHotelSearchesGoogleBusinessDataPriceData`](AppendixHotelSearchesGoogleBusinessDataPriceData.md)
+> **`optional`** **my\_business\_info**: [`AppendixsGoogleBusinessDataPriceDataInfo`](AppendixsGoogleBusinessDataPriceDataInfo.md)
 
 #### Implementation of
 
@@ -72,13 +72,13 @@ main.ts:217787
 
 #### Source
 
-main.ts:217788
+main.ts:220141
 
 ***
 
 ### my\_business\_updates?
 
-> **`optional`** **my\_business\_updates**: [`AppendixHotelSearchesGoogleBusinessDataPriceData`](AppendixHotelSearchesGoogleBusinessDataPriceData.md)
+> **`optional`** **my\_business\_updates**: [`AppendixsGoogleBusinessDataPriceDataInfo`](AppendixsGoogleBusinessDataPriceDataInfo.md)
 
 #### Implementation of
 
@@ -86,13 +86,27 @@ main.ts:217788
 
 #### Source
 
-main.ts:217789
+main.ts:220142
+
+***
+
+### questions\_and\_answers?
+
+> **`optional`** **questions\_and\_answers**: [`AppendixsGoogleBusinessDataPriceDataInfo`](AppendixsGoogleBusinessDataPriceDataInfo.md)
+
+#### Implementation of
+
+[`IAppendixGoogleBusinessDataPriceData`](../interfaces/IAppendixGoogleBusinessDataPriceData.md).[`questions_and_answers`](../interfaces/IAppendixGoogleBusinessDataPriceData.md#questions_and_answers)
+
+#### Source
+
+main.ts:220143
 
 ***
 
 ### reviews?
 
-> **`optional`** **reviews**: [`AppendixHotelSearchesGoogleBusinessDataPriceData`](AppendixHotelSearchesGoogleBusinessDataPriceData.md)
+> **`optional`** **reviews**: [`AppendixsGoogleBusinessDataPriceDataInfo`](AppendixsGoogleBusinessDataPriceDataInfo.md)
 
 #### Implementation of
 
@@ -100,7 +114,7 @@ main.ts:217789
 
 #### Source
 
-main.ts:217790
+main.ts:220144
 
 ## Methods
 
@@ -118,7 +132,7 @@ main.ts:217790
 
 #### Source
 
-main.ts:217803
+main.ts:220157
 
 ***
 
@@ -136,7 +150,7 @@ main.ts:217803
 
 #### Source
 
-main.ts:217824
+main.ts:220179
 
 ***
 
@@ -154,4 +168,4 @@ main.ts:217824
 
 #### Source
 
-main.ts:217817
+main.ts:220172

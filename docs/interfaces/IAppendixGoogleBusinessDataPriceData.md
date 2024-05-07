@@ -18,44 +18,54 @@
 
 #### Source
 
-main.ts:217840
+main.ts:220196
 
 ***
 
 ### hotel\_searches?
 
-> **`optional`** **hotel\_searches**: [`AppendixHotelSearchesGoogleBusinessDataPriceData`](../classes/AppendixHotelSearchesGoogleBusinessDataPriceData.md)
+> **`optional`** **hotel\_searches**: [`AppendixsGoogleBusinessDataPriceDataInfo`](../classes/AppendixsGoogleBusinessDataPriceDataInfo.md)
 
 #### Source
 
-main.ts:217841
+main.ts:220197
 
 ***
 
 ### my\_business\_info?
 
-> **`optional`** **my\_business\_info**: [`AppendixHotelSearchesGoogleBusinessDataPriceData`](../classes/AppendixHotelSearchesGoogleBusinessDataPriceData.md)
+> **`optional`** **my\_business\_info**: [`AppendixsGoogleBusinessDataPriceDataInfo`](../classes/AppendixsGoogleBusinessDataPriceDataInfo.md)
 
 #### Source
 
-main.ts:217842
+main.ts:220198
 
 ***
 
 ### my\_business\_updates?
 
-> **`optional`** **my\_business\_updates**: [`AppendixHotelSearchesGoogleBusinessDataPriceData`](../classes/AppendixHotelSearchesGoogleBusinessDataPriceData.md)
+> **`optional`** **my\_business\_updates**: [`AppendixsGoogleBusinessDataPriceDataInfo`](../classes/AppendixsGoogleBusinessDataPriceDataInfo.md)
 
 #### Source
 
-main.ts:217843
+main.ts:220199
+
+***
+
+### questions\_and\_answers?
+
+> **`optional`** **questions\_and\_answers**: [`AppendixsGoogleBusinessDataPriceDataInfo`](../classes/AppendixsGoogleBusinessDataPriceDataInfo.md)
+
+#### Source
+
+main.ts:220200
 
 ***
 
 ### reviews?
 
-> **`optional`** **reviews**: [`AppendixHotelSearchesGoogleBusinessDataPriceData`](../classes/AppendixHotelSearchesGoogleBusinessDataPriceData.md)
+> **`optional`** **reviews**: [`AppendixsGoogleBusinessDataPriceDataInfo`](../classes/AppendixsGoogleBusinessDataPriceDataInfo.md)
 
 #### Source
 
-main.ts:217844
+main.ts:220201

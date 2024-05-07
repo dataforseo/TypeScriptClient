@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:96562
+main.ts:97420
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:96562
 
 #### Source
 
-main.ts:20213
+main.ts:20377
 
 ***
 
@@ -70,7 +70,7 @@ kc:/shopping/gpc:organic-offers
 
 #### Source
 
-main.ts:96556
+main.ts:97414
 
 ***
 
@@ -86,7 +86,7 @@ elements of search results found in SERP
 
 #### Source
 
-main.ts:96558
+main.ts:97416
 
 ***
 
@@ -104,7 +104,7 @@ left, right
 
 #### Source
 
-main.ts:96548
+main.ts:97406
 
 ***
 
@@ -121,7 +121,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:96544
+main.ts:97402
 
 ***
 
@@ -138,7 +138,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:96541
+main.ts:97399
 
 ***
 
@@ -154,7 +154,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:96552
+main.ts:97410
 
 ***
 
@@ -170,7 +170,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:96550
+main.ts:97408
 
 ## Methods
 
@@ -192,7 +192,7 @@ main.ts:96550
 
 #### Source
 
-main.ts:96567
+main.ts:97425
 
 ***
 
@@ -214,7 +214,7 @@ main.ts:96567
 
 #### Source
 
-main.ts:96595
+main.ts:97453
 
 ***
 
@@ -236,4 +236,4 @@ main.ts:96595
 
 #### Source
 
-main.ts:96588
+main.ts:97446

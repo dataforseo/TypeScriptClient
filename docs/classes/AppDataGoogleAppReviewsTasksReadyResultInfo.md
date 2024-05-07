@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:187439
+main.ts:188297
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Source
 
-main.ts:187428
+main.ts:188286
 
 ***
 
@@ -62,7 +62,7 @@ URL for collecting the results of the Google App Reviews task
 
 #### Source
 
-main.ts:187432
+main.ts:188290
 
 ***
 
@@ -79,7 +79,7 @@ if HTML tasks are not supported in the specified endpoint, the value will be nul
 
 #### Source
 
-main.ts:187435
+main.ts:188293
 
 ***
 
@@ -96,7 +96,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:187424
+main.ts:188282
 
 ***
 
@@ -112,7 +112,7 @@ search engine specified when setting the task
 
 #### Source
 
-main.ts:187426
+main.ts:188284
 
 ***
 
@@ -128,7 +128,7 @@ user-defined task identifier
 
 #### Source
 
-main.ts:187430
+main.ts:188288
 
 ## Methods
 
@@ -146,7 +146,7 @@ main.ts:187430
 
 #### Source
 
-main.ts:187448
+main.ts:188306
 
 ***
 
@@ -164,7 +164,7 @@ main.ts:187448
 
 #### Source
 
-main.ts:187470
+main.ts:188328
 
 ***
 
@@ -182,4 +182,4 @@ main.ts:187470
 
 #### Source
 
-main.ts:187463
+main.ts:188321

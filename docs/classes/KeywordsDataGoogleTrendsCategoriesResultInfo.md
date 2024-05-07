@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:122287
+main.ts:123145
 
 ## Properties
 
@@ -46,7 +46,7 @@ unique google trends category identifier
 
 #### Source
 
-main.ts:122272
+main.ts:123130
 
 ***
 
@@ -69,7 +69,7 @@ where category_code_parent corresponds to:
 
 #### Source
 
-main.ts:122283
+main.ts:123141
 
 ***
 
@@ -85,7 +85,7 @@ name of the google trends category
 
 #### Source
 
-main.ts:122274
+main.ts:123132
 
 ## Methods
 
@@ -103,7 +103,7 @@ main.ts:122274
 
 #### Source
 
-main.ts:122296
+main.ts:123154
 
 ***
 
@@ -121,7 +121,7 @@ main.ts:122296
 
 #### Source
 
-main.ts:122315
+main.ts:123173
 
 ***
 
@@ -139,4 +139,4 @@ main.ts:122315
 
 #### Source
 
-main.ts:122308
+main.ts:123166

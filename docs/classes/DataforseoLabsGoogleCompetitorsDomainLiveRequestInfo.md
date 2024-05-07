@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:90785
+main.ts:91643
 
 ## Properties
 
@@ -66,7 +66,7 @@ slideshare.net
 
 #### Source
 
-main.ts:90769
+main.ts:91627
 
 ***
 
@@ -94,7 +94,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:90715
+main.ts:91573
 
 ***
 
@@ -114,7 +114,7 @@ Note: you can specify up to 20 domains in this array
 
 #### Source
 
-main.ts:90775
+main.ts:91633
 
 ***
 
@@ -137,7 +137,7 @@ default value:
 
 #### Source
 
-main.ts:90701
+main.ts:91559
 
 ***
 
@@ -159,7 +159,7 @@ en
 
 #### Source
 
-main.ts:90692
+main.ts:91550
 
 ***
 
@@ -181,7 +181,7 @@ English
 
 #### Source
 
-main.ts:90684
+main.ts:91542
 
 ***
 
@@ -200,7 +200,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:90737
+main.ts:91595
 
 ***
 
@@ -222,7 +222,7 @@ example:
 
 #### Source
 
-main.ts:90676
+main.ts:91534
 
 ***
 
@@ -244,7 +244,7 @@ United Kingdom
 
 #### Source
 
-main.ts:90668
+main.ts:91526
 
 ***
 
@@ -263,7 +263,7 @@ if you specify 10 here, we will extract competitors from the top 10 Google searc
 
 #### Source
 
-main.ts:90747
+main.ts:91605
 
 ***
 
@@ -282,7 +282,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:90742
+main.ts:91600
 
 ***
 
@@ -313,7 +313,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Source
 
-main.ts:90732
+main.ts:91590
 
 ***
 
@@ -333,7 +333,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:90781
+main.ts:91639
 
 ***
 
@@ -352,7 +352,7 @@ the domain should be specified without https:// and www.
 
 #### Source
 
-main.ts:90660
+main.ts:91518
 
 ## Methods
 
@@ -370,7 +370,7 @@ main.ts:90660
 
 #### Source
 
-main.ts:90794
+main.ts:91652
 
 ***
 
@@ -388,7 +388,7 @@ main.ts:90794
 
 #### Source
 
-main.ts:90840
+main.ts:91698
 
 ***
 
@@ -406,4 +406,4 @@ main.ts:90840
 
 #### Source
 
-main.ts:90833
+main.ts:91691

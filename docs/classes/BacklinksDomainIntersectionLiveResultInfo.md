@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:142856
+main.ts:143714
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains domain that link to all targets from the POST array
 
 #### Source
 
-main.ts:142852
+main.ts:143710
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:142850
+main.ts:143708
 
 ***
 
@@ -82,7 +82,7 @@ target domains, subdomains or webpages in a POST array
 
 #### Source
 
-main.ts:142846
+main.ts:143704
 
 ***
 
@@ -98,7 +98,7 @@ total amount of results relevant to your request
 
 #### Source
 
-main.ts:142848
+main.ts:143706
 
 ## Methods
 
@@ -116,7 +116,7 @@ main.ts:142848
 
 #### Source
 
-main.ts:142865
+main.ts:143723
 
 ***
 
@@ -134,7 +134,7 @@ main.ts:142865
 
 #### Source
 
-main.ts:142895
+main.ts:143753
 
 ***
 
@@ -152,4 +152,4 @@ main.ts:142895
 
 #### Source
 
-main.ts:142888
+main.ts:143746

@@ -20,7 +20,7 @@ pages with duplicate content
 
 #### Source
 
-main.ts:154207
+main.ts:155065
 
 ***
 
@@ -32,7 +32,7 @@ total count of duplicate pages
 
 #### Source
 
-main.ts:154205
+main.ts:155063
 
 ***
 
@@ -44,4 +44,4 @@ URL of the specified page
 
 #### Source
 
-main.ts:154203
+main.ts:155061

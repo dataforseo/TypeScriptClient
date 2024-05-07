@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:118312
+main.ts:119170
 
 ## Properties
 
@@ -50,7 +50,7 @@ learn more about the metric in this help center article
 
 #### Source
 
-main.ts:118280
+main.ts:119138
 
 ***
 
@@ -71,7 +71,7 @@ learn more about the metric in this help center article
 
 #### Source
 
-main.ts:118287
+main.ts:119145
 
 ***
 
@@ -88,7 +88,7 @@ indicates the amount paid for each click on the ad displayed for a given keyword
 
 #### Source
 
-main.ts:118302
+main.ts:119160
 
 ***
 
@@ -106,7 +106,7 @@ the value may differ depending on the location specified in a POST request
 
 #### Source
 
-main.ts:118299
+main.ts:119157
 
 ***
 
@@ -122,7 +122,7 @@ keyword in a POST array
 
 #### Source
 
-main.ts:118263
+main.ts:119121
 
 ***
 
@@ -138,7 +138,7 @@ the annotations for the keyword
 
 #### Source
 
-main.ts:118308
+main.ts:119166
 
 ***
 
@@ -155,7 +155,7 @@ if there is no data, the value is null
 
 #### Source
 
-main.ts:118269
+main.ts:119127
 
 ***
 
@@ -172,7 +172,7 @@ if there is no data, the value is null
 
 #### Source
 
-main.ts:118266
+main.ts:119124
 
 ***
 
@@ -190,7 +190,7 @@ the value may differ depending on the location specified in a POST request
 
 #### Source
 
-main.ts:118295
+main.ts:119153
 
 ***
 
@@ -208,7 +208,7 @@ if there is no data, the value is null
 
 #### Source
 
-main.ts:118306
+main.ts:119164
 
 ***
 
@@ -227,7 +227,7 @@ if false, the results are returned for Google search sites only
 
 #### Source
 
-main.ts:118274
+main.ts:119132
 
 ***
 
@@ -245,7 +245,7 @@ if there is no data, the value is null
 
 #### Source
 
-main.ts:118291
+main.ts:119149
 
 ## Methods
 
@@ -263,7 +263,7 @@ main.ts:118291
 
 #### Source
 
-main.ts:118321
+main.ts:119179
 
 ***
 
@@ -281,7 +281,7 @@ main.ts:118321
 
 #### Source
 
-main.ts:118353
+main.ts:119211
 
 ***
 
@@ -299,4 +299,4 @@ main.ts:118353
 
 #### Source
 
-main.ts:118346
+main.ts:119204

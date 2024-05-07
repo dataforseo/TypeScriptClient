@@ -23,7 +23,7 @@ code of the language that content on the target domain is written with
 
 #### Source
 
-main.ts:76927
+main.ts:77785
 
 ***
 
@@ -36,7 +36,7 @@ ISO code of the country that target domain is determined to belong to
 
 #### Source
 
-main.ts:76921
+main.ts:77779
 
 ***
 
@@ -48,7 +48,7 @@ domain meta description
 
 #### Source
 
-main.ts:76908
+main.ts:77766
 
 ***
 
@@ -60,7 +60,7 @@ specified domain name
 
 #### Source
 
-main.ts:76904
+main.ts:77762
 
 ***
 
@@ -73,7 +73,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Source
 
-main.ts:76913
+main.ts:77771
 
 ***
 
@@ -86,7 +86,7 @@ emails indicated on the target website
 
 #### Source
 
-main.ts:76933
+main.ts:77791
 
 ***
 
@@ -99,7 +99,7 @@ code of the language that target domain is determined to be associated with
 
 #### Source
 
-main.ts:76924
+main.ts:77782
 
 ***
 
@@ -114,7 +114,7 @@ example:
 
 #### Source
 
-main.ts:76918
+main.ts:77776
 
 ***
 
@@ -126,7 +126,7 @@ domain meta keywords
 
 #### Source
 
-main.ts:76910
+main.ts:77768
 
 ***
 
@@ -139,7 +139,7 @@ contact phone numbers indicated on the target website
 
 #### Source
 
-main.ts:76930
+main.ts:77788
 
 ***
 
@@ -152,7 +152,7 @@ social media URLs detected in the social graphs of the target website
 
 #### Source
 
-main.ts:76936
+main.ts:77794
 
 ***
 
@@ -166,7 +166,7 @@ to get a full list of technologies and their structure, refer to the technologie
 
 #### Source
 
-main.ts:76940
+main.ts:77798
 
 ***
 
@@ -178,7 +178,7 @@ domain meta title
 
 #### Source
 
-main.ts:76906
+main.ts:77764
 
 ***
 
@@ -190,4 +190,4 @@ type of element
 
 #### Source
 
-main.ts:76902
+main.ts:77760

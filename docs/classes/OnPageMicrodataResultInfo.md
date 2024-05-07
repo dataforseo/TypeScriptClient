@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:157483
+main.ts:158341
 
 ## Properties
 
@@ -47,7 +47,7 @@ possible values: in_progress, finished
 
 #### Source
 
-main.ts:157471
+main.ts:158329
 
 ***
 
@@ -63,7 +63,7 @@ details of the crawling session
 
 #### Source
 
-main.ts:157473
+main.ts:158331
 
 ***
 
@@ -79,7 +79,7 @@ items array
 
 #### Source
 
-main.ts:157479
+main.ts:158337
 
 ***
 
@@ -95,7 +95,7 @@ number of items in the results array
 
 #### Source
 
-main.ts:157477
+main.ts:158335
 
 ***
 
@@ -111,7 +111,7 @@ microdata validation test results
 
 #### Source
 
-main.ts:157475
+main.ts:158333
 
 ## Methods
 
@@ -129,7 +129,7 @@ main.ts:157475
 
 #### Source
 
-main.ts:157492
+main.ts:158350
 
 ***
 
@@ -147,7 +147,7 @@ main.ts:157492
 
 #### Source
 
-main.ts:157517
+main.ts:158375
 
 ***
 
@@ -165,4 +165,4 @@ main.ts:157517
 
 #### Source
 
-main.ts:157510
+main.ts:158368

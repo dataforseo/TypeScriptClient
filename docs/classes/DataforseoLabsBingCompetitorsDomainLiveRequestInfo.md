@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:105465
+main.ts:106323
 
 ## Properties
 
@@ -66,7 +66,7 @@ slideshare.net
 
 #### Source
 
-main.ts:105449
+main.ts:106307
 
 ***
 
@@ -94,7 +94,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:105395
+main.ts:106253
 
 ***
 
@@ -114,7 +114,7 @@ Note: you can specify up to 20 domains in this array
 
 #### Source
 
-main.ts:105455
+main.ts:106313
 
 ***
 
@@ -137,7 +137,7 @@ default value:
 
 #### Source
 
-main.ts:105381
+main.ts:106239
 
 ***
 
@@ -159,7 +159,7 @@ en
 
 #### Source
 
-main.ts:105372
+main.ts:106230
 
 ***
 
@@ -181,7 +181,7 @@ English
 
 #### Source
 
-main.ts:105364
+main.ts:106222
 
 ***
 
@@ -200,7 +200,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:105417
+main.ts:106275
 
 ***
 
@@ -223,7 +223,7 @@ example:
 
 #### Source
 
-main.ts:105356
+main.ts:106214
 
 ***
 
@@ -246,7 +246,7 @@ United States
 
 #### Source
 
-main.ts:105347
+main.ts:106205
 
 ***
 
@@ -265,7 +265,7 @@ if you specify 10 here, we will extract competitors from the top 10 Bing search 
 
 #### Source
 
-main.ts:105427
+main.ts:106285
 
 ***
 
@@ -284,7 +284,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:105422
+main.ts:106280
 
 ***
 
@@ -315,7 +315,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Source
 
-main.ts:105412
+main.ts:106270
 
 ***
 
@@ -335,7 +335,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:105461
+main.ts:106319
 
 ***
 
@@ -354,7 +354,7 @@ the domain should be specified without https:// and www.
 
 #### Source
 
-main.ts:105338
+main.ts:106196
 
 ## Methods
 
@@ -372,7 +372,7 @@ main.ts:105338
 
 #### Source
 
-main.ts:105474
+main.ts:106332
 
 ***
 
@@ -390,7 +390,7 @@ main.ts:105474
 
 #### Source
 
-main.ts:105520
+main.ts:106378
 
 ***
 
@@ -408,4 +408,4 @@ main.ts:105520
 
 #### Source
 
-main.ts:105513
+main.ts:106371

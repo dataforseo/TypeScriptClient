@@ -20,7 +20,7 @@ contains ranking and traffic data
 
 #### Source
 
-main.ts:88424
+main.ts:89282
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:88422
+main.ts:89280
 
 ***
 
@@ -44,7 +44,7 @@ search engine type
 
 #### Source
 
-main.ts:88418
+main.ts:89276
 
 ***
 
@@ -56,4 +56,4 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:88420
+main.ts:89278

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:158425
+main.ts:159283
 
 ## Properties
 
@@ -51,7 +51,7 @@ example:
 
 #### Source
 
-main.ts:158421
+main.ts:159279
 
 ***
 
@@ -71,7 +71,7 @@ https://www.fujielectric.com/
 
 #### Source
 
-main.ts:158414
+main.ts:159272
 
 ## Methods
 
@@ -89,7 +89,7 @@ main.ts:158414
 
 #### Source
 
-main.ts:158434
+main.ts:159292
 
 ***
 
@@ -107,7 +107,7 @@ main.ts:158434
 
 #### Source
 
-main.ts:158452
+main.ts:159310
 
 ***
 
@@ -125,4 +125,4 @@ main.ts:158452
 
 #### Source
 
-main.ts:158445
+main.ts:159303

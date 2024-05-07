@@ -20,7 +20,7 @@ contains domain that link to all targets from the POST array
 
 #### Source
 
-main.ts:142927
+main.ts:143785
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:142925
+main.ts:143783
 
 ***
 
@@ -48,7 +48,7 @@ target domains, subdomains or webpages in a POST array
 
 #### Source
 
-main.ts:142921
+main.ts:143779
 
 ***
 
@@ -60,4 +60,4 @@ total amount of results relevant to your request
 
 #### Source
 
-main.ts:142923
+main.ts:143781

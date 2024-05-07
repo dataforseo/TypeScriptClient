@@ -24,7 +24,7 @@ indicates whether a page contains broken links
 
 #### Source
 
-main.ts:151616
+main.ts:152474
 
 ***
 
@@ -36,7 +36,7 @@ indicates whether a page contains broken resources
 
 #### Source
 
-main.ts:151614
+main.ts:152472
 
 ***
 
@@ -48,7 +48,7 @@ instructions for caching
 
 #### Source
 
-main.ts:151641
+main.ts:152499
 
 ***
 
@@ -65,7 +65,7 @@ on-page check-ups related to the page
 
 #### Source
 
-main.ts:151644
+main.ts:152502
 
 ***
 
@@ -78,7 +78,7 @@ indicates the number of clicks from the homepage needed before landing at the ta
 
 #### Source
 
-main.ts:151625
+main.ts:152483
 
 ***
 
@@ -90,7 +90,7 @@ type of encoding
 
 #### Source
 
-main.ts:151646
+main.ts:152504
 
 ***
 
@@ -104,7 +104,7 @@ note that you should specify a custom_js field when setting a task to receive th
 
 #### Source
 
-main.ts:151610
+main.ts:152468
 
 ***
 
@@ -116,7 +116,7 @@ indicates whether a page has duplicate content
 
 #### Source
 
-main.ts:151622
+main.ts:152480
 
 ***
 
@@ -128,7 +128,7 @@ indicates whether a page has a duplicate description
 
 #### Source
 
-main.ts:151620
+main.ts:152478
 
 ***
 
@@ -140,7 +140,7 @@ indicates whether a page has duplicate title tags
 
 #### Source
 
-main.ts:151618
+main.ts:152476
 
 ***
 
@@ -153,7 +153,7 @@ indicates the size of the encoded page measured in bytes
 
 #### Source
 
-main.ts:151631
+main.ts:152489
 
 ***
 
@@ -168,7 +168,7 @@ example:
 
 #### Source
 
-main.ts:151639
+main.ts:152497
 
 ***
 
@@ -180,7 +180,7 @@ indicates whether a page is a single resource
 
 #### Source
 
-main.ts:151652
+main.ts:152510
 
 ***
 
@@ -193,7 +193,7 @@ if there is no data, the value will be null
 
 #### Source
 
-main.ts:151659
+main.ts:152517
 
 ***
 
@@ -206,7 +206,7 @@ indicates the URL to redirect a page to
 
 #### Source
 
-main.ts:151592
+main.ts:152450
 
 ***
 
@@ -218,7 +218,7 @@ types of media used to display a page
 
 #### Source
 
-main.ts:151648
+main.ts:152506
 
 ***
 
@@ -231,7 +231,7 @@ the value depends on the resource_type
 
 #### Source
 
-main.ts:151597
+main.ts:152455
 
 ***
 
@@ -246,7 +246,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:151604
+main.ts:152462
 
 ***
 
@@ -258,7 +258,7 @@ object of page load metrics
 
 #### Source
 
-main.ts:151599
+main.ts:152457
 
 ***
 
@@ -270,7 +270,7 @@ relative URL length in characters
 
 #### Source
 
-main.ts:151656
+main.ts:152514
 
 ***
 
@@ -282,7 +282,7 @@ resource errors and warnings
 
 #### Source
 
-main.ts:151612
+main.ts:152470
 
 ***
 
@@ -294,7 +294,7 @@ server version
 
 #### Source
 
-main.ts:151650
+main.ts:152508
 
 ***
 
@@ -307,7 +307,7 @@ indicates the size of a given page measured in bytes
 
 #### Source
 
-main.ts:151628
+main.ts:152486
 
 ***
 
@@ -319,7 +319,7 @@ status code of the page
 
 #### Source
 
-main.ts:151589
+main.ts:152447
 
 ***
 
@@ -331,7 +331,7 @@ total DOM size of a page
 
 #### Source
 
-main.ts:151606
+main.ts:152464
 
 ***
 
@@ -344,7 +344,7 @@ indicates the compressed size of a given page
 
 #### Source
 
-main.ts:151634
+main.ts:152492
 
 ***
 
@@ -356,7 +356,7 @@ page URL
 
 #### Source
 
-main.ts:151594
+main.ts:152452
 
 ***
 
@@ -368,4 +368,4 @@ page URL length in characters
 
 #### Source
 
-main.ts:151654
+main.ts:152512

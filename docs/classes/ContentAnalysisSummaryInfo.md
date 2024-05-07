@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:163845
+main.ts:164703
 
 ## Properties
 
@@ -52,7 +52,7 @@ possible sentiment connotation types: positive, negative, neutral
 
 #### Source
 
-main.ts:163822
+main.ts:164680
 
 ***
 
@@ -74,7 +74,7 @@ to obtain a full list of available countries, refer to the Locations endpoint
 
 #### Source
 
-main.ts:163837
+main.ts:164695
 
 ***
 
@@ -96,7 +96,7 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 #### Source
 
-main.ts:163841
+main.ts:164699
 
 ***
 
@@ -114,7 +114,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Source
 
-main.ts:163830
+main.ts:164688
 
 ***
 
@@ -135,7 +135,7 @@ contains page types and citation count per each page type
 
 #### Source
 
-main.ts:163833
+main.ts:164691
 
 ***
 
@@ -152,7 +152,7 @@ normalized sum of ranks of all URLs citing the target keyword
 
 #### Source
 
-main.ts:163811
+main.ts:164669
 
 ***
 
@@ -174,7 +174,7 @@ possible sentiment connotations: anger, happiness, love, sadness, share, fun
 
 #### Source
 
-main.ts:163818
+main.ts:164676
 
 ***
 
@@ -192,7 +192,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Source
 
-main.ts:163826
+main.ts:164684
 
 ***
 
@@ -209,7 +209,7 @@ contains objects with top domains citing the target keword and citation count pe
 
 #### Source
 
-main.ts:163814
+main.ts:164672
 
 ***
 
@@ -225,7 +225,7 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:163808
+main.ts:164666
 
 ***
 
@@ -241,7 +241,7 @@ type of element
 
 #### Source
 
-main.ts:163806
+main.ts:164664
 
 ## Methods
 
@@ -259,7 +259,7 @@ main.ts:163806
 
 #### Source
 
-main.ts:163854
+main.ts:164712
 
 ***
 
@@ -277,7 +277,7 @@ main.ts:163854
 
 #### Source
 
-main.ts:163923
+main.ts:164781
 
 ***
 
@@ -295,4 +295,4 @@ main.ts:163923
 
 #### Source
 
-main.ts:163916
+main.ts:164774

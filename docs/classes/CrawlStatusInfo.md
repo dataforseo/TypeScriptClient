@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:21575
+main.ts:21739
 
 ## Properties
 
@@ -47,7 +47,7 @@ indicates the max_crawl_pages limit you specified when setting a task
 
 #### Source
 
-main.ts:21567
+main.ts:21731
 
 ***
 
@@ -63,7 +63,7 @@ number of crawled pages
 
 #### Source
 
-main.ts:21571
+main.ts:21735
 
 ***
 
@@ -79,7 +79,7 @@ number of pages that are currently in the crawling queue
 
 #### Source
 
-main.ts:21569
+main.ts:21733
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:21569
 
 #### Source
 
-main.ts:21584
+main.ts:21748
 
 ***
 
@@ -115,7 +115,7 @@ main.ts:21584
 
 #### Source
 
-main.ts:21603
+main.ts:21767
 
 ***
 
@@ -133,4 +133,4 @@ main.ts:21603
 
 #### Source
 
-main.ts:21596
+main.ts:21760

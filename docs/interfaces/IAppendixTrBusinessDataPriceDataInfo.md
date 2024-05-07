@@ -14,18 +14,18 @@
 
 ### reviews?
 
-> **`optional`** **reviews**: [`AppendixHotelSearchesGoogleBusinessDataPriceData`](../classes/AppendixHotelSearchesGoogleBusinessDataPriceData.md)
+> **`optional`** **reviews**: [`AppendixsGoogleBusinessDataPriceDataInfo`](../classes/AppendixsGoogleBusinessDataPriceDataInfo.md)
 
 #### Source
 
-main.ts:217895
+main.ts:220252
 
 ***
 
 ### search?
 
-> **`optional`** **search**: [`AppendixHotelSearchesGoogleBusinessDataPriceData`](../classes/AppendixHotelSearchesGoogleBusinessDataPriceData.md)
+> **`optional`** **search**: [`AppendixsGoogleBusinessDataPriceDataInfo`](../classes/AppendixsGoogleBusinessDataPriceDataInfo.md)
 
 #### Source
 
-main.ts:217896
+main.ts:220253

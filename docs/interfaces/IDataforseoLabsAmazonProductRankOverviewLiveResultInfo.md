@@ -20,7 +20,7 @@ contains detected Amazon product competitors and related data
 
 #### Source
 
-main.ts:103370
+main.ts:104228
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:103368
+main.ts:104226
 
 ***
 
@@ -45,7 +45,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:103364
+main.ts:104222
 
 ***
 
@@ -58,7 +58,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:103361
+main.ts:104219
 
 ***
 
@@ -70,7 +70,7 @@ search engine type
 
 #### Source
 
-main.ts:103358
+main.ts:104216
 
 ***
 
@@ -82,4 +82,4 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:103366
+main.ts:104224

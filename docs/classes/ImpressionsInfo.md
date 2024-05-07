@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:81707
+main.ts:82565
 
 ## Properties
 
@@ -47,7 +47,7 @@ represents the average position of the advertisement
 
 #### Source
 
-main.ts:81661
+main.ts:82519
 
 ***
 
@@ -64,7 +64,7 @@ represents the maximum position of the advertisement
 
 #### Source
 
-main.ts:81658
+main.ts:82516
 
 ***
 
@@ -81,7 +81,7 @@ represents the minimum position of the advertisement
 
 #### Source
 
-main.ts:81655
+main.ts:82513
 
 ***
 
@@ -98,7 +98,7 @@ it stands for the price you are willing to pay for an ad. The higher value, the 
 
 #### Source
 
-main.ts:81649
+main.ts:82507
 
 ***
 
@@ -117,7 +117,7 @@ you can find an actual CPC value for a keyword in the cpc field of the keyword_i
 
 #### Source
 
-main.ts:81676
+main.ts:82534
 
 ***
 
@@ -136,7 +136,7 @@ you can find an actual CPC value for a keyword in the cpc field of the keyword_i
 
 #### Source
 
-main.ts:81671
+main.ts:82529
 
 ***
 
@@ -155,7 +155,7 @@ you can find an actual CPC value for a keyword in the cpc field of the keyword_i
 
 #### Source
 
-main.ts:81666
+main.ts:82524
 
 ***
 
@@ -172,7 +172,7 @@ represents the average number of daily clicks on the advertisement
 
 #### Source
 
-main.ts:81694
+main.ts:82552
 
 ***
 
@@ -189,7 +189,7 @@ represents the maximum number of daily clicks on the advertisement
 
 #### Source
 
-main.ts:81691
+main.ts:82549
 
 ***
 
@@ -206,7 +206,7 @@ represents the minimum number of daily clicks on the advertisement
 
 #### Source
 
-main.ts:81688
+main.ts:82546
 
 ***
 
@@ -223,7 +223,7 @@ represents the average daily cost of the advertisement (USD)
 
 #### Source
 
-main.ts:81703
+main.ts:82561
 
 ***
 
@@ -240,7 +240,7 @@ represents the maximum daily cost of the advertisement (USD)
 
 #### Source
 
-main.ts:81700
+main.ts:82558
 
 ***
 
@@ -257,7 +257,7 @@ represents the minimum daily cost of the advertisement (USD)
 
 #### Source
 
-main.ts:81697
+main.ts:82555
 
 ***
 
@@ -274,7 +274,7 @@ represents the average number of daily impressions of the advertisement given th
 
 #### Source
 
-main.ts:81685
+main.ts:82543
 
 ***
 
@@ -291,7 +291,7 @@ represents the maximum number of daily impressions of the advertisement given th
 
 #### Source
 
-main.ts:81682
+main.ts:82540
 
 ***
 
@@ -308,7 +308,7 @@ represents the minimum number of daily impressions of the advertisement given th
 
 #### Source
 
-main.ts:81679
+main.ts:82537
 
 ***
 
@@ -327,7 +327,7 @@ example:
 
 #### Source
 
-main.ts:81646
+main.ts:82504
 
 ***
 
@@ -344,7 +344,7 @@ can take the following values: exact, broad, phrase
 
 #### Source
 
-main.ts:81652
+main.ts:82510
 
 ***
 
@@ -360,7 +360,7 @@ search engine type
 
 #### Source
 
-main.ts:81641
+main.ts:82499
 
 ## Methods
 
@@ -378,7 +378,7 @@ main.ts:81641
 
 #### Source
 
-main.ts:81716
+main.ts:82574
 
 ***
 
@@ -396,7 +396,7 @@ main.ts:81716
 
 #### Source
 
-main.ts:81751
+main.ts:82609
 
 ***
 
@@ -414,4 +414,4 @@ main.ts:81751
 
 #### Source
 
-main.ts:81744
+main.ts:82602

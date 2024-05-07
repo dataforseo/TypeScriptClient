@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:186369
+main.ts:187227
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:186369
 
 #### Source
 
-main.ts:21097
+main.ts:21261
 
 ***
 
@@ -68,7 +68,7 @@ ID of the app
 
 #### Source
 
-main.ts:186292
+main.ts:187150
 
 ***
 
@@ -84,7 +84,7 @@ description of the app
 
 #### Source
 
-main.ts:186300
+main.ts:187158
 
 ***
 
@@ -100,7 +100,7 @@ name of the app developer
 
 #### Source
 
-main.ts:186318
+main.ts:187176
 
 ***
 
@@ -116,7 +116,7 @@ physical address of the developer
 
 #### Source
 
-main.ts:186326
+main.ts:187184
 
 ***
 
@@ -132,7 +132,7 @@ email address of the developer
 
 #### Source
 
-main.ts:186324
+main.ts:187182
 
 ***
 
@@ -148,7 +148,7 @@ ID of the app developer
 
 #### Source
 
-main.ts:186320
+main.ts:187178
 
 ***
 
@@ -164,7 +164,7 @@ URL to the developer page on Google Play
 
 #### Source
 
-main.ts:186322
+main.ts:187180
 
 ***
 
@@ -180,7 +180,7 @@ official website of the developer
 
 #### Source
 
-main.ts:186328
+main.ts:187186
 
 ***
 
@@ -197,7 +197,7 @@ contains relevant app categories
 
 #### Source
 
-main.ts:186362
+main.ts:187220
 
 ***
 
@@ -213,7 +213,7 @@ URL to the app icon
 
 #### Source
 
-main.ts:186298
+main.ts:187156
 
 ***
 
@@ -230,7 +230,7 @@ contains URLs to the images published on the app page on Google Play
 
 #### Source
 
-main.ts:186350
+main.ts:187208
 
 ***
 
@@ -247,7 +247,7 @@ approximate number of installs as displayed on the app page
 
 #### Source
 
-main.ts:186313
+main.ts:187171
 
 ***
 
@@ -264,7 +264,7 @@ the exact number of installs of the app
 
 #### Source
 
-main.ts:186316
+main.ts:187174
 
 ***
 
@@ -280,7 +280,7 @@ indicates whether the app is free
 
 #### Source
 
-main.ts:186308
+main.ts:187166
 
 ***
 
@@ -299,7 +299,7 @@ example:
 
 #### Source
 
-main.ts:186344
+main.ts:187202
 
 ***
 
@@ -315,7 +315,7 @@ main category of the app
 
 #### Source
 
-main.ts:186310
+main.ts:187168
 
 ***
 
@@ -331,7 +331,7 @@ minimum OS version required to install the app
 
 #### Source
 
-main.ts:186332
+main.ts:187190
 
 ***
 
@@ -348,7 +348,7 @@ information about apps built by the same developer
 
 #### Source
 
-main.ts:186359
+main.ts:187217
 
 ***
 
@@ -365,7 +365,7 @@ can take the following values: left
 
 #### Source
 
-main.ts:186290
+main.ts:187148
 
 ***
 
@@ -381,7 +381,7 @@ price of the app
 
 #### Source
 
-main.ts:186306
+main.ts:187164
 
 ***
 
@@ -398,7 +398,7 @@ absolute position among all apps on the list
 
 #### Source
 
-main.ts:186287
+main.ts:187145
 
 ***
 
@@ -415,7 +415,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:186284
+main.ts:187142
 
 ***
 
@@ -431,7 +431,7 @@ average rating of the app
 
 #### Source
 
-main.ts:186304
+main.ts:187162
 
 ***
 
@@ -450,7 +450,7 @@ example:
 
 #### Source
 
-main.ts:186339
+main.ts:187197
 
 ***
 
@@ -466,7 +466,7 @@ the total number of reviews the app has
 
 #### Source
 
-main.ts:186302
+main.ts:187160
 
 ***
 
@@ -483,7 +483,7 @@ displays apps similar to the app in a POST request
 
 #### Source
 
-main.ts:186356
+main.ts:187214
 
 ***
 
@@ -499,7 +499,7 @@ size of the app
 
 #### Source
 
-main.ts:186334
+main.ts:187192
 
 ***
 
@@ -516,7 +516,7 @@ contains relevant app tags
 
 #### Source
 
-main.ts:186365
+main.ts:187223
 
 ***
 
@@ -532,7 +532,7 @@ title of the app
 
 #### Source
 
-main.ts:186294
+main.ts:187152
 
 ***
 
@@ -549,7 +549,7 @@ contains the latest update notes from the developer
 
 #### Source
 
-main.ts:186347
+main.ts:187205
 
 ***
 
@@ -565,7 +565,7 @@ URL to the app page on Google Play
 
 #### Source
 
-main.ts:186296
+main.ts:187154
 
 ***
 
@@ -581,7 +581,7 @@ current version of the app
 
 #### Source
 
-main.ts:186330
+main.ts:187188
 
 ***
 
@@ -598,7 +598,7 @@ contains URLs to the video published on the app page on Google Play
 
 #### Source
 
-main.ts:186353
+main.ts:187211
 
 ## Methods
 
@@ -620,7 +620,7 @@ main.ts:186353
 
 #### Source
 
-main.ts:186374
+main.ts:187232
 
 ***
 
@@ -642,7 +642,7 @@ main.ts:186374
 
 #### Source
 
-main.ts:186448
+main.ts:187306
 
 ***
 
@@ -664,4 +664,4 @@ main.ts:186448
 
 #### Source
 
-main.ts:186441
+main.ts:187299

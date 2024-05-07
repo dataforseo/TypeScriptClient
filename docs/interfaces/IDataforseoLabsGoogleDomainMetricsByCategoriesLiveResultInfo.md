@@ -20,7 +20,7 @@ categories in a POST array
 
 #### Source
 
-main.ts:87376
+main.ts:88234
 
 ***
 
@@ -32,7 +32,7 @@ contains historical ranking and traffic data
 
 #### Source
 
-main.ts:87386
+main.ts:88244
 
 ***
 
@@ -44,7 +44,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:87384
+main.ts:88242
 
 ***
 
@@ -56,7 +56,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:87380
+main.ts:88238
 
 ***
 
@@ -68,7 +68,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:87378
+main.ts:88236
 
 ***
 
@@ -80,7 +80,7 @@ search engine type
 
 #### Source
 
-main.ts:87374
+main.ts:88232
 
 ***
 
@@ -92,4 +92,4 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:87382
+main.ts:88240

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:185785
+main.ts:186643
 
 ## Properties
 
@@ -52,7 +52,7 @@ the id is org.telegram.messenger
 
 #### Source
 
-main.ts:185713
+main.ts:186571
 
 ***
 
@@ -73,7 +73,7 @@ en
 
 #### Source
 
-main.ts:185741
+main.ts:186599
 
 ***
 
@@ -94,7 +94,7 @@ English
 
 #### Source
 
-main.ts:185734
+main.ts:186592
 
 ***
 
@@ -115,7 +115,7 @@ example:
 
 #### Source
 
-main.ts:185727
+main.ts:186585
 
 ***
 
@@ -136,7 +136,7 @@ West Los Angeles,California,United States
 
 #### Source
 
-main.ts:185720
+main.ts:186578
 
 ***
 
@@ -160,7 +160,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:185781
+main.ts:186639
 
 ***
 
@@ -180,7 +180,7 @@ advanced, html
 
 #### Source
 
-main.ts:185771
+main.ts:186629
 
 ***
 
@@ -204,7 +204,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:185765
+main.ts:186623
 
 ***
 
@@ -226,7 +226,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:185749
+main.ts:186607
 
 ***
 
@@ -246,7 +246,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:185755
+main.ts:186613
 
 ## Methods
 
@@ -264,7 +264,7 @@ main.ts:185755
 
 #### Source
 
-main.ts:185794
+main.ts:186652
 
 ***
 
@@ -282,7 +282,7 @@ main.ts:185794
 
 #### Source
 
-main.ts:185820
+main.ts:186678
 
 ***
 
@@ -300,4 +300,4 @@ main.ts:185820
 
 #### Source
 
-main.ts:185813
+main.ts:186671

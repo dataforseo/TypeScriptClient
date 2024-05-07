@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:33379
+main.ts:33543
 
 ## Properties
 
@@ -46,7 +46,7 @@ the posting date
 
 #### Source
 
-main.ts:33373
+main.ts:33537
 
 ***
 
@@ -62,7 +62,7 @@ type of element
 
 #### Source
 
-main.ts:33371
+main.ts:33535
 
 ***
 
@@ -78,7 +78,7 @@ the value of the rating
 
 #### Source
 
-main.ts:33375
+main.ts:33539
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:33375
 
 #### Source
 
-main.ts:33388
+main.ts:33552
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:33388
 
 #### Source
 
-main.ts:33407
+main.ts:33571
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:33407
 
 #### Source
 
-main.ts:33400
+main.ts:33564

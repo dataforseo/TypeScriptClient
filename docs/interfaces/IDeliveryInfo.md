@@ -21,7 +21,7 @@ message accompanying the delivery information as posted by the seller
 
 #### Source
 
-main.ts:171014
+main.ts:171872
 
 ***
 
@@ -35,7 +35,7 @@ if free delivery is available, the value is null
 
 #### Source
 
-main.ts:171018
+main.ts:171876
 
 ***
 
@@ -48,4 +48,4 @@ contains information about the number of stores that offer the same product
 
 #### Source
 
-main.ts:171021
+main.ts:171879

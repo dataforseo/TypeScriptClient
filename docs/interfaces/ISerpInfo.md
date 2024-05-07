@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:81936
+main.ts:82794
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Source
 
-main.ts:81949
+main.ts:82807
 
 ***
 
@@ -51,7 +51,7 @@ example:
 
 #### Source
 
-main.ts:81954
+main.ts:82812
 
 ***
 
@@ -63,7 +63,7 @@ number of search results for the returned keyword
 
 #### Source
 
-main.ts:81944
+main.ts:82802
 
 ***
 
@@ -75,7 +75,7 @@ search engine type
 
 #### Source
 
-main.ts:81933
+main.ts:82791
 
 ***
 
@@ -91,4 +91,4 @@ note that the actual results will be returned only for organic, paid, featured_s
 
 #### Source
 
-main.ts:81942
+main.ts:82800

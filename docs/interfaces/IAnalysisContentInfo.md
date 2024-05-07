@@ -20,7 +20,7 @@ author of the content
 
 #### Source
 
-main.ts:163121
+main.ts:163979
 
 ***
 
@@ -38,7 +38,7 @@ possible sentiment connotation types: positive, negative, neutral
 
 #### Source
 
-main.ts:163141
+main.ts:163999
 
 ***
 
@@ -51,7 +51,7 @@ this value is calculated based on the number of words, sentences and characters 
 
 #### Source
 
-main.ts:163152
+main.ts:164010
 
 ***
 
@@ -65,7 +65,7 @@ page_content, comment
 
 #### Source
 
-main.ts:163110
+main.ts:163968
 
 ***
 
@@ -80,7 +80,7 @@ example:
 
 #### Source
 
-main.ts:163149
+main.ts:164007
 
 ***
 
@@ -97,7 +97,7 @@ example:
 
 #### Source
 
-main.ts:163167
+main.ts:164025
 
 ***
 
@@ -109,7 +109,7 @@ highlighted text from the snippet
 
 #### Source
 
-main.ts:163130
+main.ts:163988
 
 ***
 
@@ -122,7 +122,7 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 #### Source
 
-main.ts:163133
+main.ts:163991
 
 ***
 
@@ -135,7 +135,7 @@ indicates h-tag level from 1 (top) to 6 (bottom)
 
 #### Source
 
-main.ts:163119
+main.ts:163977
 
 ***
 
@@ -147,7 +147,7 @@ page title
 
 #### Source
 
-main.ts:163114
+main.ts:163972
 
 ***
 
@@ -159,7 +159,7 @@ title of the previous content block
 
 #### Source
 
-main.ts:163116
+main.ts:163974
 
 ***
 
@@ -172,7 +172,7 @@ rating related to content_info
 
 #### Source
 
-main.ts:163160
+main.ts:164018
 
 ***
 
@@ -187,7 +187,7 @@ article, header
 
 #### Source
 
-main.ts:163157
+main.ts:164015
 
 ***
 
@@ -205,7 +205,7 @@ possible sentiment connotations: anger, happiness, love, sadness, share, fun
 
 #### Source
 
-main.ts:163137
+main.ts:163995
 
 ***
 
@@ -217,7 +217,7 @@ content snippet
 
 #### Source
 
-main.ts:163123
+main.ts:163981
 
 ***
 
@@ -229,7 +229,7 @@ character length of the snippet
 
 #### Source
 
-main.ts:163125
+main.ts:163983
 
 ***
 
@@ -242,7 +242,7 @@ data on social media interactions associated with the content based on website e
 
 #### Source
 
-main.ts:163128
+main.ts:163986
 
 ***
 
@@ -255,7 +255,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Source
 
-main.ts:163144
+main.ts:164002
 
 ***
 
@@ -267,4 +267,4 @@ title of the result
 
 #### Source
 
-main.ts:163112
+main.ts:163970

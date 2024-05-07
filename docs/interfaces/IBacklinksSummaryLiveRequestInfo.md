@@ -26,7 +26,7 @@ example:
 
 #### Source
 
-main.ts:135013
+main.ts:135871
 
 ***
 
@@ -45,7 +45,7 @@ default value: live
 
 #### Source
 
-main.ts:135005
+main.ts:135863
 
 ***
 
@@ -61,7 +61,7 @@ default value: true
 
 #### Source
 
-main.ts:134985
+main.ts:135843
 
 ***
 
@@ -76,7 +76,7 @@ default value: true
 
 #### Source
 
-main.ts:134979
+main.ts:135837
 
 ***
 
@@ -97,7 +97,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:134996
+main.ts:135854
 
 ***
 
@@ -113,7 +113,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:135019
+main.ts:135877
 
 ***
 
@@ -128,4 +128,4 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Source
 
-main.ts:134974
+main.ts:135832

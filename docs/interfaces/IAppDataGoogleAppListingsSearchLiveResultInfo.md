@@ -20,7 +20,7 @@ the number of items in the results array
 
 #### Source
 
-main.ts:188901
+main.ts:189759
 
 ***
 
@@ -32,7 +32,7 @@ array of apps and related data
 
 #### Source
 
-main.ts:188908
+main.ts:189766
 
 ***
 
@@ -44,7 +44,7 @@ offset in the results array of returned apps
 
 #### Source
 
-main.ts:188903
+main.ts:189761
 
 ***
 
@@ -57,7 +57,7 @@ you can use this parameter in the POST request to avoid timeouts while trying to
 
 #### Source
 
-main.ts:188906
+main.ts:189764
 
 ***
 
@@ -69,4 +69,4 @@ the total number of relevant results in the database
 
 #### Source
 
-main.ts:188899
+main.ts:189757

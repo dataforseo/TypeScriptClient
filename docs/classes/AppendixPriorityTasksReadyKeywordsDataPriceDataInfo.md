@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:216062
+main.ts:218415
 
 ## Properties
 
@@ -46,7 +46,7 @@ cost, USD
 
 #### Source
 
-main.ts:216058
+main.ts:218411
 
 ***
 
@@ -65,7 +65,7 @@ per_request – charge for a GET or POST request
 
 #### Source
 
-main.ts:216056
+main.ts:218409
 
 ## Methods
 
@@ -83,7 +83,7 @@ main.ts:216056
 
 #### Source
 
-main.ts:216071
+main.ts:218424
 
 ***
 
@@ -101,7 +101,7 @@ main.ts:216071
 
 #### Source
 
-main.ts:216089
+main.ts:218442
 
 ***
 
@@ -119,4 +119,4 @@ main.ts:216089
 
 #### Source
 
-main.ts:216082
+main.ts:218435

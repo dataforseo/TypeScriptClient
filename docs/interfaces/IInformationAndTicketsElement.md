@@ -20,7 +20,7 @@ description of the element
 
 #### Source
 
-main.ts:45556
+main.ts:46416
 
 ***
 
@@ -32,7 +32,7 @@ domain in SERP
 
 #### Source
 
-main.ts:45560
+main.ts:46420
 
 ***
 
@@ -44,7 +44,7 @@ title of the element
 
 #### Source
 
-main.ts:45554
+main.ts:46414
 
 ***
 
@@ -56,7 +56,7 @@ type of element
 
 #### Source
 
-main.ts:45552
+main.ts:46412
 
 ***
 
@@ -68,4 +68,4 @@ relevant URL
 
 #### Source
 
-main.ts:45558
+main.ts:46418

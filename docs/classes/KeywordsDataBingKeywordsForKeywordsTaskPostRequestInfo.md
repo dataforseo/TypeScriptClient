@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:130729
+main.ts:131587
 
 ## Properties
 
@@ -52,7 +52,7 @@ example:
 
 #### Source
 
-main.ts:130684
+main.ts:131542
 
 ***
 
@@ -76,7 +76,7 @@ example:
 
 #### Source
 
-main.ts:130694
+main.ts:131552
 
 ***
 
@@ -96,7 +96,7 @@ default value: all
 
 #### Source
 
-main.ts:130676
+main.ts:131534
 
 ***
 
@@ -115,7 +115,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 #### Source
 
-main.ts:130625
+main.ts:131483
 
 ***
 
@@ -135,7 +135,7 @@ the specified keywords will be converted to lowercase format
 
 #### Source
 
-main.ts:130670
+main.ts:131528
 
 ***
 
@@ -155,7 +155,7 @@ en, fr, de
 
 #### Source
 
-main.ts:130659
+main.ts:131517
 
 ***
 
@@ -175,7 +175,7 @@ English, French, German
 
 #### Source
 
-main.ts:130653
+main.ts:131511
 
 ***
 
@@ -196,7 +196,7 @@ example:
 
 #### Source
 
-main.ts:130639
+main.ts:131497
 
 ***
 
@@ -218,7 +218,7 @@ example:
 
 #### Source
 
-main.ts:130647
+main.ts:131505
 
 ***
 
@@ -239,7 +239,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:130632
+main.ts:131490
 
 ***
 
@@ -263,7 +263,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:130719
+main.ts:131577
 
 ***
 
@@ -287,7 +287,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:130709
+main.ts:131567
 
 ***
 
@@ -306,7 +306,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 #### Source
 
-main.ts:130699
+main.ts:131557
 
 ***
 
@@ -325,7 +325,7 @@ default value: relevance
 
 #### Source
 
-main.ts:130664
+main.ts:131522
 
 ***
 
@@ -345,7 +345,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:130725
+main.ts:131583
 
 ## Methods
 
@@ -363,7 +363,7 @@ main.ts:130725
 
 #### Source
 
-main.ts:130738
+main.ts:131596
 
 ***
 
@@ -381,7 +381,7 @@ main.ts:130738
 
 #### Source
 
-main.ts:130777
+main.ts:131635
 
 ***
 
@@ -399,4 +399,4 @@ main.ts:130777
 
 #### Source
 
-main.ts:130770
+main.ts:131628

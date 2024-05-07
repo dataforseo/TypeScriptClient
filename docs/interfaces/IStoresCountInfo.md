@@ -20,7 +20,7 @@ number of stores that offer the product
 
 #### Source
 
-main.ts:171083
+main.ts:171941
 
 ***
 
@@ -36,7 +36,7 @@ in this case, the parameter is true
 
 #### Source
 
-main.ts:171091
+main.ts:171949
 
 ***
 
@@ -48,4 +48,4 @@ text displayed on the Google Shopping page
 
 #### Source
 
-main.ts:171085
+main.ts:171943

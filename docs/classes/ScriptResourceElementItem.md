@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:153018
+main.ts:153876
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:153018
 
 #### Source
 
-main.ts:20763
+main.ts:20927
 
 ***
 
@@ -71,7 +71,7 @@ any, none, image, sitemap, robots, script, stylesheet, redirect, html, text, oth
 
 #### Source
 
-main.ts:153007
+main.ts:153865
 
 ***
 
@@ -87,7 +87,7 @@ instructions for caching
 
 #### Source
 
-main.ts:152995
+main.ts:153853
 
 ***
 
@@ -108,7 +108,7 @@ contents of the array depend on the resource_type
 
 #### Source
 
-main.ts:152998
+main.ts:153856
 
 ***
 
@@ -124,7 +124,7 @@ type of encoding
 
 #### Source
 
-main.ts:153000
+main.ts:153858
 
 ***
 
@@ -141,7 +141,7 @@ indicates the size of the encoded resource measured in bytes
 
 #### Source
 
-main.ts:152983
+main.ts:153841
 
 ***
 
@@ -160,7 +160,7 @@ example:
 
 #### Source
 
-main.ts:152991
+main.ts:153849
 
 ***
 
@@ -176,7 +176,7 @@ resource fething time range
 
 #### Source
 
-main.ts:152993
+main.ts:153851
 
 ***
 
@@ -193,7 +193,7 @@ if there is no data, the value will be null
 
 #### Source
 
-main.ts:153012
+main.ts:153870
 
 ***
 
@@ -210,7 +210,7 @@ indicates the URL to redirect a page to
 
 #### Source
 
-main.ts:152975
+main.ts:153833
 
 ***
 
@@ -226,7 +226,7 @@ types of media used to display a resource
 
 #### Source
 
-main.ts:153002
+main.ts:153860
 
 ***
 
@@ -245,7 +245,7 @@ to obtain resource’s meta from a particular url, specify that URL when setting
 
 #### Source
 
-main.ts:152970
+main.ts:153828
 
 ***
 
@@ -261,7 +261,7 @@ resource errors and warnings
 
 #### Source
 
-main.ts:153014
+main.ts:153872
 
 ***
 
@@ -277,7 +277,7 @@ server version
 
 #### Source
 
-main.ts:153009
+main.ts:153867
 
 ***
 
@@ -294,7 +294,7 @@ indicates the size of a given resource measured in bytes
 
 #### Source
 
-main.ts:152980
+main.ts:153838
 
 ***
 
@@ -310,7 +310,7 @@ status code of the page where a given resource is located
 
 #### Source
 
-main.ts:152972
+main.ts:153830
 
 ***
 
@@ -327,7 +327,7 @@ indicates the compressed size of a given resource in bytes
 
 #### Source
 
-main.ts:152986
+main.ts:153844
 
 ***
 
@@ -343,7 +343,7 @@ resource URL
 
 #### Source
 
-main.ts:152977
+main.ts:153835
 
 ## Methods
 
@@ -365,7 +365,7 @@ main.ts:152977
 
 #### Source
 
-main.ts:153023
+main.ts:153881
 
 ***
 
@@ -387,7 +387,7 @@ main.ts:153023
 
 #### Source
 
-main.ts:153063
+main.ts:153921
 
 ***
 
@@ -409,4 +409,4 @@ main.ts:153063
 
 #### Source
 
-main.ts:153056
+main.ts:153914

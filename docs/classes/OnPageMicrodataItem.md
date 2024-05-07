@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:157420
+main.ts:158278
 
 ## Properties
 
@@ -46,7 +46,7 @@ information related to microdata validation
 
 #### Source
 
-main.ts:157416
+main.ts:158274
 
 ***
 
@@ -62,7 +62,7 @@ type of element
 
 #### Source
 
-main.ts:157414
+main.ts:158272
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:157414
 
 #### Source
 
-main.ts:157429
+main.ts:158287
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:157429
 
 #### Source
 
-main.ts:157447
+main.ts:158305
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:157447
 
 #### Source
 
-main.ts:157440
+main.ts:158298

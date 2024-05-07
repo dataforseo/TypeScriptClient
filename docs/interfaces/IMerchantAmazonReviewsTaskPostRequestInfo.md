@@ -23,7 +23,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 #### Source
 
-main.ts:181547
+main.ts:182405
 
 ***
 
@@ -40,7 +40,7 @@ default value: 10
 
 #### Source
 
-main.ts:181608
+main.ts:182466
 
 ***
 
@@ -55,7 +55,7 @@ if you use this field, the response will only include reviews that contain the s
 
 #### Source
 
-main.ts:181643
+main.ts:182501
 
 ***
 
@@ -79,7 +79,7 @@ default rule: all_stars
 
 #### Source
 
-main.ts:181638
+main.ts:182496
 
 ***
 
@@ -98,7 +98,7 @@ Note: ASINs vary depending on a product modification. Thus, two modifications of
 
 #### Source
 
-main.ts:181660
+main.ts:182518
 
 ***
 
@@ -115,7 +115,7 @@ en_GB
 
 #### Source
 
-main.ts:181594
+main.ts:182452
 
 ***
 
@@ -133,7 +133,7 @@ English (United Kingdom)
 
 #### Source
 
-main.ts:181587
+main.ts:182445
 
 ***
 
@@ -151,7 +151,7 @@ example:
 
 #### Source
 
-main.ts:181570
+main.ts:182428
 
 ***
 
@@ -170,7 +170,7 @@ example:
 
 #### Source
 
-main.ts:181579
+main.ts:182437
 
 ***
 
@@ -187,7 +187,7 @@ HA1,England,United Kingdom
 
 #### Source
 
-main.ts:181562
+main.ts:182420
 
 ***
 
@@ -205,7 +205,7 @@ default rule: all_contents
 
 #### Source
 
-main.ts:181651
+main.ts:182509
 
 ***
 
@@ -225,7 +225,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:181692
+main.ts:182550
 
 ***
 
@@ -241,7 +241,7 @@ advanced, html
 
 #### Source
 
-main.ts:181682
+main.ts:182540
 
 ***
 
@@ -261,7 +261,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:181676
+main.ts:182534
 
 ***
 
@@ -279,7 +279,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:181555
+main.ts:182413
 
 ***
 
@@ -297,7 +297,7 @@ default rule: all_reviews
 
 #### Source
 
-main.ts:181624
+main.ts:182482
 
 ***
 
@@ -314,7 +314,7 @@ amazon.com, amazon.co.uk, amazon.fr, etc.
 
 #### Source
 
-main.ts:181601
+main.ts:182459
 
 ***
 
@@ -332,7 +332,7 @@ default rule: helpful
 
 #### Source
 
-main.ts:181616
+main.ts:182474
 
 ***
 
@@ -348,4 +348,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:181666
+main.ts:182524

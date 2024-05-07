@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:48953
+main.ts:49813
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:48928
+main.ts:49788
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Source
 
-main.ts:48933
+main.ts:49793
 
 ***
 
@@ -82,7 +82,7 @@ URL specified in a POST array
 
 #### Source
 
-main.ts:48915
+main.ts:49775
 
 ***
 
@@ -102,7 +102,7 @@ images
 
 #### Source
 
-main.ts:48942
+main.ts:49802
 
 ***
 
@@ -119,7 +119,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:48949
+main.ts:49809
 
 ***
 
@@ -135,7 +135,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:48946
+main.ts:49806
 
 ***
 
@@ -151,7 +151,7 @@ keyword Google associated with the specified image
 
 #### Source
 
-main.ts:48917
+main.ts:49777
 
 ***
 
@@ -167,7 +167,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:48925
+main.ts:49785
 
 ***
 
@@ -183,7 +183,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:48923
+main.ts:49783
 
 ***
 
@@ -199,7 +199,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:48921
+main.ts:49781
 
 ***
 
@@ -215,7 +215,7 @@ total number of results in SERP
 
 #### Source
 
-main.ts:48944
+main.ts:49804
 
 ***
 
@@ -232,7 +232,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Source
 
-main.ts:48936
+main.ts:49796
 
 ***
 
@@ -248,7 +248,7 @@ type of element
 
 #### Source
 
-main.ts:48919
+main.ts:49779
 
 ## Methods
 
@@ -266,7 +266,7 @@ main.ts:48919
 
 #### Source
 
-main.ts:48962
+main.ts:49822
 
 ***
 
@@ -284,7 +284,7 @@ main.ts:48962
 
 #### Source
 
-main.ts:48999
+main.ts:49859
 
 ***
 
@@ -302,4 +302,4 @@ main.ts:48999
 
 #### Source
 
-main.ts:48992
+main.ts:49852

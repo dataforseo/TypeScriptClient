@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:190655
+main.ts:191513
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Source
 
-main.ts:190644
+main.ts:191502
 
 ***
 
@@ -62,7 +62,7 @@ URL for collecting the results of the Apple App Info task
 
 #### Source
 
-main.ts:190648
+main.ts:191506
 
 ***
 
@@ -79,7 +79,7 @@ if HTML tasks are not supported in the specified endpoint, the value will be nul
 
 #### Source
 
-main.ts:190651
+main.ts:191509
 
 ***
 
@@ -96,7 +96,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:190640
+main.ts:191498
 
 ***
 
@@ -112,7 +112,7 @@ search engine specified when setting the task
 
 #### Source
 
-main.ts:190642
+main.ts:191500
 
 ***
 
@@ -128,7 +128,7 @@ user-defined task identifier
 
 #### Source
 
-main.ts:190646
+main.ts:191504
 
 ## Methods
 
@@ -146,7 +146,7 @@ main.ts:190646
 
 #### Source
 
-main.ts:190664
+main.ts:191522
 
 ***
 
@@ -164,7 +164,7 @@ main.ts:190664
 
 #### Source
 
-main.ts:190686
+main.ts:191544
 
 ***
 
@@ -182,4 +182,4 @@ main.ts:190686
 
 #### Source
 
-main.ts:190679
+main.ts:191537

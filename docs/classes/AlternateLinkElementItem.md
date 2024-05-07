@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:155092
+main.ts:155950
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:155092
 
 #### Source
 
-main.ts:20898
+main.ts:21062
 
 ***
 
@@ -69,7 +69,7 @@ possible values: internal, external
 
 #### Source
 
-main.ts:155079
+main.ts:155937
 
 ***
 
@@ -86,7 +86,7 @@ if the value is true, the link doesn’t have a rel="nofollow" attribute
 
 #### Source
 
-main.ts:155072
+main.ts:155930
 
 ***
 
@@ -103,7 +103,7 @@ the link was found on this domain
 
 #### Source
 
-main.ts:155054
+main.ts:155912
 
 ***
 
@@ -120,7 +120,7 @@ the link is pointing to this domain
 
 #### Source
 
-main.ts:155057
+main.ts:155915
 
 ***
 
@@ -137,7 +137,7 @@ indicates whether a link is directing to a broken page or resource
 
 #### Source
 
-main.ts:155082
+main.ts:155940
 
 ***
 
@@ -154,7 +154,7 @@ if true, at least one link pointing to link_to has a rel="nofollow" attribute an
 
 #### Source
 
-main.ts:155085
+main.ts:155943
 
 ***
 
@@ -171,7 +171,7 @@ absolute URL of the page on which the link was found
 
 #### Source
 
-main.ts:155066
+main.ts:155924
 
 ***
 
@@ -188,7 +188,7 @@ absolute URL of the page to which the link is pointing
 
 #### Source
 
-main.ts:155069
+main.ts:155927
 
 ***
 
@@ -205,7 +205,7 @@ relative URL of the page on which the link was found
 
 #### Source
 
-main.ts:155060
+main.ts:155918
 
 ***
 
@@ -221,7 +221,7 @@ url scheme of the referring page
 
 #### Source
 
-main.ts:155074
+main.ts:155932
 
 ***
 
@@ -238,7 +238,7 @@ relative URL of the page to which the link is pointing
 
 #### Source
 
-main.ts:155063
+main.ts:155921
 
 ***
 
@@ -254,7 +254,7 @@ url scheme of the referenced page
 
 #### Source
 
-main.ts:155076
+main.ts:155934
 
 ***
 
@@ -271,7 +271,7 @@ status code of the page to which the link is pointing
 
 #### Source
 
-main.ts:155088
+main.ts:155946
 
 ## Methods
 
@@ -293,7 +293,7 @@ main.ts:155088
 
 #### Source
 
-main.ts:155097
+main.ts:155955
 
 ***
 
@@ -315,7 +315,7 @@ main.ts:155097
 
 #### Source
 
-main.ts:155127
+main.ts:155985
 
 ***
 
@@ -337,4 +337,4 @@ main.ts:155127
 
 #### Source
 
-main.ts:155120
+main.ts:155978

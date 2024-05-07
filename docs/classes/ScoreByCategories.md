@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:203275
+main.ts:204153
 
 ## Properties
 
@@ -48,7 +48,7 @@ calculated based on data from the hotel’s proximity to nearby airports
 
 #### Source
 
-main.ts:203271
+main.ts:204149
 
 ***
 
@@ -67,7 +67,7 @@ note that the criteria are not weighted equally in the overall score
 
 #### Source
 
-main.ts:203255
+main.ts:204133
 
 ***
 
@@ -85,7 +85,7 @@ calculated based on data from the hotel’s proximity to nearby restaurants
 
 #### Source
 
-main.ts:203263
+main.ts:204141
 
 ***
 
@@ -103,7 +103,7 @@ calculated based on data from the hotel’s proximity to nearby things to do
 
 #### Source
 
-main.ts:203259
+main.ts:204137
 
 ***
 
@@ -121,7 +121,7 @@ calculated based on data from the hotel’s proximity to nearby transit options
 
 #### Source
 
-main.ts:203267
+main.ts:204145
 
 ## Methods
 
@@ -139,7 +139,7 @@ main.ts:203267
 
 #### Source
 
-main.ts:203284
+main.ts:204162
 
 ***
 
@@ -157,7 +157,7 @@ main.ts:203284
 
 #### Source
 
-main.ts:203305
+main.ts:204183
 
 ***
 
@@ -175,4 +175,4 @@ main.ts:203305
 
 #### Source
 
-main.ts:203298
+main.ts:204176

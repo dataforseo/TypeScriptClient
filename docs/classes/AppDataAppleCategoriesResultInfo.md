@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:189029
+main.ts:189887
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains full list of supported app categories
 
 #### Source
 
-main.ts:189025
+main.ts:189883
 
 ## Methods
 
@@ -64,7 +64,7 @@ main.ts:189025
 
 #### Source
 
-main.ts:189038
+main.ts:189896
 
 ***
 
@@ -82,7 +82,7 @@ main.ts:189038
 
 #### Source
 
-main.ts:189059
+main.ts:189917
 
 ***
 
@@ -100,4 +100,4 @@ main.ts:189059
 
 #### Source
 
-main.ts:189052
+main.ts:189910

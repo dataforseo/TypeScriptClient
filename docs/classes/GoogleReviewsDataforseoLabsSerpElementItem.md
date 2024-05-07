@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:96669
+main.ts:97527
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:96669
 
 #### Source
 
-main.ts:20213
+main.ts:20377
 
 ***
 
@@ -68,7 +68,7 @@ google-defined client id
 
 #### Source
 
-main.ts:96665
+main.ts:97523
 
 ***
 
@@ -84,7 +84,7 @@ the additional feature of the review
 
 #### Source
 
-main.ts:96663
+main.ts:97521
 
 ***
 
@@ -100,7 +100,7 @@ the identifier of a place
 
 #### Source
 
-main.ts:96661
+main.ts:97519
 
 ***
 
@@ -118,7 +118,7 @@ left, right
 
 #### Source
 
-main.ts:96652
+main.ts:97510
 
 ***
 
@@ -135,7 +135,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:96648
+main.ts:97506
 
 ***
 
@@ -152,7 +152,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:96645
+main.ts:97503
 
 ***
 
@@ -169,7 +169,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:96659
+main.ts:97517
 
 ***
 
@@ -185,7 +185,7 @@ the number of reviews
 
 #### Source
 
-main.ts:96656
+main.ts:97514
 
 ***
 
@@ -201,7 +201,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:96654
+main.ts:97512
 
 ## Methods
 
@@ -223,7 +223,7 @@ main.ts:96654
 
 #### Source
 
-main.ts:96674
+main.ts:97532
 
 ***
 
@@ -245,7 +245,7 @@ main.ts:96674
 
 #### Source
 
-main.ts:96700
+main.ts:97558
 
 ***
 
@@ -267,4 +267,4 @@ main.ts:96700
 
 #### Source
 
-main.ts:96693
+main.ts:97551
