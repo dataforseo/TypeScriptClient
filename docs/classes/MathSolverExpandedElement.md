@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:35138
+main.ts:35218
 
 ## Properties
 
@@ -47,7 +47,7 @@ displays steps to solve the mathematical equation as specified in the element
 
 #### Source
 
-main.ts:35134
+main.ts:35214
 
 ***
 
@@ -63,7 +63,7 @@ title of the carousel item
 
 #### Source
 
-main.ts:35131
+main.ts:35211
 
 ***
 
@@ -79,7 +79,7 @@ type of element
 
 #### Source
 
-main.ts:35129
+main.ts:35209
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:35129
 
 #### Source
 
-main.ts:35147
+main.ts:35227
 
 ***
 
@@ -115,7 +115,7 @@ main.ts:35147
 
 #### Source
 
-main.ts:35170
+main.ts:35250
 
 ***
 
@@ -133,4 +133,4 @@ main.ts:35170
 
 #### Source
 
-main.ts:35163
+main.ts:35243

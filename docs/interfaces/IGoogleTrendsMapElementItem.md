@@ -24,7 +24,7 @@ Google Trends data from the corresponding item
 
 #### Source
 
-main.ts:124462
+main.ts:124556
 
 ***
 
@@ -37,7 +37,7 @@ the data included in the google_trends_map element is based on the keywords list
 
 #### Source
 
-main.ts:124460
+main.ts:124554
 
 ***
 
@@ -50,7 +50,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Source
 
-main.ts:124455
+main.ts:124549
 
 ***
 
@@ -62,4 +62,4 @@ title of the element in Google Trends
 
 #### Source
 
-main.ts:124457
+main.ts:124551

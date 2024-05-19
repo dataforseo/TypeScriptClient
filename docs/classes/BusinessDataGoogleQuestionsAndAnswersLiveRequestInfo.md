@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:207079
+main.ts:207589
 
 ## Properties
 
@@ -53,7 +53,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:207069
+main.ts:207579
 
 ***
 
@@ -83,7 +83,7 @@ learn more about the cid and place_id identifiers in this help center article
 
 #### Source
 
-main.ts:207022
+main.ts:207532
 
 ***
 
@@ -104,7 +104,7 @@ en
 
 #### Source
 
-main.ts:207060
+main.ts:207570
 
 ***
 
@@ -125,7 +125,7 @@ English
 
 #### Source
 
-main.ts:207053
+main.ts:207563
 
 ***
 
@@ -146,7 +146,7 @@ example:
 
 #### Source
 
-main.ts:207036
+main.ts:207546
 
 ***
 
@@ -170,7 +170,7 @@ example:
 
 #### Source
 
-main.ts:207046
+main.ts:207556
 
 ***
 
@@ -191,7 +191,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:207029
+main.ts:207539
 
 ***
 
@@ -211,7 +211,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:207075
+main.ts:207585
 
 ## Methods
 
@@ -229,7 +229,7 @@ main.ts:207075
 
 #### Source
 
-main.ts:207088
+main.ts:207598
 
 ***
 
@@ -247,7 +247,7 @@ main.ts:207088
 
 #### Source
 
-main.ts:207112
+main.ts:207622
 
 ***
 
@@ -265,4 +265,4 @@ main.ts:207112
 
 #### Source
 
-main.ts:207105
+main.ts:207615

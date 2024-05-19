@@ -21,7 +21,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, <>, in, not_in, like, not_like
+regex, not_regex, <, `<=, >`, >=, =, <>, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["ranked_serp_element.serp_item.rank_group","<=",10]
@@ -38,7 +38,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:108812
+main.ts:108906
 
 ***
 
@@ -57,7 +57,7 @@ default value: live
 
 #### Source
 
-main.ts:108792
+main.ts:108886
 
 ***
 
@@ -72,7 +72,7 @@ default value: false
 
 #### Source
 
-main.ts:108768
+main.ts:108862
 
 ***
 
@@ -91,7 +91,7 @@ default value:
 
 #### Source
 
-main.ts:108763
+main.ts:108857
 
 ***
 
@@ -110,7 +110,7 @@ en
 
 #### Source
 
-main.ts:108754
+main.ts:108848
 
 ***
 
@@ -129,7 +129,7 @@ English
 
 #### Source
 
-main.ts:108745
+main.ts:108839
 
 ***
 
@@ -144,7 +144,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:108773
+main.ts:108867
 
 ***
 
@@ -159,7 +159,7 @@ if set to true, we will return the field metrics_absolute containing rankings di
 
 #### Source
 
-main.ts:108783
+main.ts:108877
 
 ***
 
@@ -179,7 +179,7 @@ example:
 
 #### Source
 
-main.ts:108736
+main.ts:108830
 
 ***
 
@@ -199,7 +199,7 @@ United States
 
 #### Source
 
-main.ts:108726
+main.ts:108820
 
 ***
 
@@ -214,7 +214,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:108778
+main.ts:108872
 
 ***
 
@@ -240,7 +240,7 @@ example:
 
 #### Source
 
-main.ts:108828
+main.ts:108922
 
 ***
 
@@ -256,7 +256,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:108834
+main.ts:108928
 
 ***
 
@@ -276,4 +276,4 @@ example:
 
 #### Source
 
-main.ts:108716
+main.ts:108810

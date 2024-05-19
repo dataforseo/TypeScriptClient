@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:174125
+main.ts:174615
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:174098
+main.ts:174588
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Source
 
-main.ts:174103
+main.ts:174593
 
 ***
 
@@ -82,7 +82,7 @@ URL to the product image
 
 #### Source
 
-main.ts:174109
+main.ts:174599
 
 ***
 
@@ -101,7 +101,7 @@ shops_list, buy_on_google
 
 #### Source
 
-main.ts:174117
+main.ts:174607
 
 ***
 
@@ -117,7 +117,7 @@ items in SERP
 
 #### Source
 
-main.ts:174121
+main.ts:174611
 
 ***
 
@@ -133,7 +133,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:174119
+main.ts:174609
 
 ***
 
@@ -149,7 +149,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:174095
+main.ts:174585
 
 ***
 
@@ -165,7 +165,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:174093
+main.ts:174583
 
 ***
 
@@ -182,7 +182,7 @@ learn more about the parameter in this help center guide
 
 #### Source
 
-main.ts:174087
+main.ts:174577
 
 ***
 
@@ -199,7 +199,7 @@ the product popularity rate based on product reviews
 
 #### Source
 
-main.ts:174112
+main.ts:174602
 
 ***
 
@@ -215,7 +215,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:174091
+main.ts:174581
 
 ***
 
@@ -231,7 +231,7 @@ title of the product
 
 #### Source
 
-main.ts:174105
+main.ts:174595
 
 ***
 
@@ -247,7 +247,7 @@ type of element
 
 #### Source
 
-main.ts:174089
+main.ts:174579
 
 ***
 
@@ -263,7 +263,7 @@ URL to the product page
 
 #### Source
 
-main.ts:174107
+main.ts:174597
 
 ## Methods
 
@@ -281,7 +281,7 @@ main.ts:174107
 
 #### Source
 
-main.ts:174134
+main.ts:174624
 
 ***
 
@@ -299,7 +299,7 @@ main.ts:174134
 
 #### Source
 
-main.ts:174172
+main.ts:174662
 
 ***
 
@@ -317,4 +317,4 @@ main.ts:174172
 
 #### Source
 
-main.ts:174165
+main.ts:174655

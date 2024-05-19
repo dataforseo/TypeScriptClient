@@ -21,7 +21,7 @@ learn more about the parameter in this help center guide
 
 #### Source
 
-main.ts:176452
+main.ts:176942
 
 ***
 
@@ -33,7 +33,7 @@ name of the product seller
 
 #### Source
 
-main.ts:176454
+main.ts:176944
 
 ***
 
@@ -45,7 +45,7 @@ type of element
 
 #### Source
 
-main.ts:176449
+main.ts:176939
 
 ***
 
@@ -58,4 +58,4 @@ url of the webpage on the seller’s website where the product is sold
 
 #### Source
 
-main.ts:176457
+main.ts:176947

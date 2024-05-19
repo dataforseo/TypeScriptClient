@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:106569
+main.ts:106663
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains data related to the target and competitor domains
 
 #### Source
 
-main.ts:106565
+main.ts:106659
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:106563
+main.ts:106657
 
 ***
 
@@ -78,7 +78,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:106559
+main.ts:106653
 
 ***
 
@@ -94,7 +94,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:106557
+main.ts:106651
 
 ***
 
@@ -110,7 +110,7 @@ search engine type
 
 #### Source
 
-main.ts:106553
+main.ts:106647
 
 ***
 
@@ -126,7 +126,7 @@ target domain in a POST array
 
 #### Source
 
-main.ts:106555
+main.ts:106649
 
 ***
 
@@ -142,7 +142,7 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:106561
+main.ts:106655
 
 ## Methods
 
@@ -160,7 +160,7 @@ main.ts:106561
 
 #### Source
 
-main.ts:106578
+main.ts:106672
 
 ***
 
@@ -178,7 +178,7 @@ main.ts:106578
 
 #### Source
 
-main.ts:106605
+main.ts:106699
 
 ***
 
@@ -196,4 +196,4 @@ main.ts:106605
 
 #### Source
 
-main.ts:106598
+main.ts:106692

@@ -20,7 +20,7 @@ unique google trends category identifier
 
 #### Source
 
-main.ts:123188
+main.ts:123282
 
 ***
 
@@ -39,7 +39,7 @@ where category_code_parent corresponds to:
 
 #### Source
 
-main.ts:123199
+main.ts:123293
 
 ***
 
@@ -51,4 +51,4 @@ name of the google trends category
 
 #### Source
 
-main.ts:123190
+main.ts:123284

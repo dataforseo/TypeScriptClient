@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:104159
+main.ts:104253
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains detected Amazon product competitors and related data
 
 #### Source
 
-main.ts:104155
+main.ts:104249
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:104153
+main.ts:104247
 
 ***
 
@@ -79,7 +79,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:104149
+main.ts:104243
 
 ***
 
@@ -96,7 +96,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:104146
+main.ts:104240
 
 ***
 
@@ -112,7 +112,7 @@ search engine type
 
 #### Source
 
-main.ts:104143
+main.ts:104237
 
 ***
 
@@ -128,7 +128,7 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:104151
+main.ts:104245
 
 ## Methods
 
@@ -146,7 +146,7 @@ main.ts:104151
 
 #### Source
 
-main.ts:104168
+main.ts:104262
 
 ***
 
@@ -164,7 +164,7 @@ main.ts:104168
 
 #### Source
 
-main.ts:104194
+main.ts:104288
 
 ***
 
@@ -182,4 +182,4 @@ main.ts:104194
 
 #### Source
 
-main.ts:104187
+main.ts:104281

@@ -21,7 +21,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, =, <>, in, not_in, like, not_like
+regex, not_regex, =, <>, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["direction","=","external"]
@@ -35,7 +35,7 @@ The full list of possible filters is available by this link.
 
 #### Source
 
-main.ts:155411
+main.ts:155407
 
 ***
 
@@ -51,7 +51,7 @@ example:
 
 #### Source
 
-main.ts:155374
+main.ts:155370
 
 ***
 
@@ -66,7 +66,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:155389
+main.ts:155385
 
 ***
 
@@ -81,7 +81,7 @@ if you specify the 10 value, the first ten links in the results array will be om
 
 #### Source
 
-main.ts:155394
+main.ts:155390
 
 ***
 
@@ -96,7 +96,7 @@ note that in this field you can specify relative URLs only
 
 #### Source
 
-main.ts:155379
+main.ts:155375
 
 ***
 
@@ -111,7 +111,7 @@ note that in this field you can specify relative URLs only
 
 #### Source
 
-main.ts:155384
+main.ts:155380
 
 ***
 
@@ -127,4 +127,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:155417
+main.ts:155413

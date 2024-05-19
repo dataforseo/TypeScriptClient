@@ -26,7 +26,7 @@ example:
 
 #### Source
 
-main.ts:140407
+main.ts:140415
 
 ***
 
@@ -45,7 +45,7 @@ default value: live
 
 #### Source
 
-main.ts:140368
+main.ts:140376
 
 ***
 
@@ -60,7 +60,7 @@ default value: true
 
 #### Source
 
-main.ts:140423
+main.ts:140431
 
 ***
 
@@ -73,7 +73,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, =, `<>`, in, not_in, like, not_like, ilike, not_ilike
+regex, not_regex, =, `<>`, in, not_in, like, not_like, ilike, not_ilike
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["referring_links_types.anchors",">`","1"]
@@ -87,7 +87,7 @@ The full list of possible filters is available here.
 
 #### Source
 
-main.ts:140385
+main.ts:140393
 
 ***
 
@@ -103,7 +103,7 @@ default value: true
 
 #### Source
 
-main.ts:140418
+main.ts:140426
 
 ***
 
@@ -118,7 +118,7 @@ default value: true
 
 #### Source
 
-main.ts:140412
+main.ts:140420
 
 ***
 
@@ -139,7 +139,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:140359
+main.ts:140367
 
 ***
 
@@ -154,7 +154,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:140343
+main.ts:140351
 
 ***
 
@@ -169,7 +169,7 @@ if you specify the 10 value, the first ten anchors in the results array will be 
 
 #### Source
 
-main.ts:140348
+main.ts:140356
 
 ***
 
@@ -193,7 +193,7 @@ example:
 
 #### Source
 
-main.ts:140399
+main.ts:140407
 
 ***
 
@@ -209,7 +209,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:140429
+main.ts:140437
 
 ***
 
@@ -224,4 +224,4 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Source
 
-main.ts:140338
+main.ts:140346

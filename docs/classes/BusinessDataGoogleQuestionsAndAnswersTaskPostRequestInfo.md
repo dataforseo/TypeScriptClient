@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:206026
+main.ts:206532
 
 ## Properties
 
@@ -61,7 +61,7 @@ if the specified depth is higher than the number of questions in the response, t
 
 #### Source
 
-main.ts:206022
+main.ts:206528
 
 ***
 
@@ -95,7 +95,7 @@ learn more about the cid and place_id identifiers in this help center article
 
 #### Source
 
-main.ts:190429
+main.ts:190919
 
 ***
 
@@ -120,7 +120,7 @@ en
 
 #### Source
 
-main.ts:190475
+main.ts:190965
 
 ***
 
@@ -145,7 +145,7 @@ English
 
 #### Source
 
-main.ts:190468
+main.ts:190958
 
 ***
 
@@ -170,7 +170,7 @@ example:
 
 #### Source
 
-main.ts:190451
+main.ts:190941
 
 ***
 
@@ -198,7 +198,7 @@ example:
 
 #### Source
 
-main.ts:190461
+main.ts:190951
 
 ***
 
@@ -223,7 +223,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:190444
+main.ts:190934
 
 ***
 
@@ -251,7 +251,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:190501
+main.ts:190991
 
 ***
 
@@ -279,7 +279,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:190491
+main.ts:190981
 
 ***
 
@@ -305,7 +305,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:190437
+main.ts:190927
 
 ***
 
@@ -329,7 +329,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:190481
+main.ts:190971
 
 ## Methods
 
@@ -351,7 +351,7 @@ main.ts:190481
 
 #### Source
 
-main.ts:206030
+main.ts:206536
 
 ***
 
@@ -373,7 +373,7 @@ main.ts:206030
 
 #### Source
 
-main.ts:206048
+main.ts:206554
 
 ***
 
@@ -395,4 +395,4 @@ main.ts:206048
 
 #### Source
 
-main.ts:206041
+main.ts:206547

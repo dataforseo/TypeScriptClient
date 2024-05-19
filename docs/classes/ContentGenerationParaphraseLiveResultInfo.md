@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:168598
+main.ts:169088
 
 ## Properties
 
@@ -46,7 +46,7 @@ paraphrased version of the given text
 
 #### Source
 
-main.ts:168594
+main.ts:169084
 
 ***
 
@@ -62,7 +62,7 @@ number of input tokens in the POST request
 
 #### Source
 
-main.ts:168588
+main.ts:169078
 
 ***
 
@@ -78,7 +78,7 @@ number of new tokens in the response
 
 #### Source
 
-main.ts:168592
+main.ts:169082
 
 ***
 
@@ -94,7 +94,7 @@ number of output tokens in the response
 
 #### Source
 
-main.ts:168590
+main.ts:169080
 
 ## Methods
 
@@ -112,7 +112,7 @@ main.ts:168590
 
 #### Source
 
-main.ts:168607
+main.ts:169097
 
 ***
 
@@ -130,7 +130,7 @@ main.ts:168607
 
 #### Source
 
-main.ts:168627
+main.ts:169117
 
 ***
 
@@ -148,4 +148,4 @@ main.ts:168627
 
 #### Source
 
-main.ts:168620
+main.ts:169110

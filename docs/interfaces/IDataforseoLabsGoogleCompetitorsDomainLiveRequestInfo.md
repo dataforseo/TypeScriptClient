@@ -40,7 +40,7 @@ slideshare.net
 
 #### Source
 
-main.ts:91852
+main.ts:91946
 
 ***
 
@@ -53,7 +53,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, `<>`, in, not_in
+regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in
 example:
 ["metrics.organic.count",">`",50]
 [["metrics.organic.pos_1","`<>`",0],"and",["metrics.organic.impressions_etv",">`=","10"]]
@@ -64,7 +64,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:91798
+main.ts:91892
 
 ***
 
@@ -80,7 +80,7 @@ Note: you can specify up to 20 domains in this array
 
 #### Source
 
-main.ts:91858
+main.ts:91952
 
 ***
 
@@ -99,7 +99,7 @@ default value:
 
 #### Source
 
-main.ts:91784
+main.ts:91878
 
 ***
 
@@ -117,7 +117,7 @@ en
 
 #### Source
 
-main.ts:91775
+main.ts:91869
 
 ***
 
@@ -135,7 +135,7 @@ English
 
 #### Source
 
-main.ts:91767
+main.ts:91861
 
 ***
 
@@ -150,7 +150,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:91820
+main.ts:91914
 
 ***
 
@@ -168,7 +168,7 @@ example:
 
 #### Source
 
-main.ts:91759
+main.ts:91853
 
 ***
 
@@ -186,7 +186,7 @@ United Kingdom
 
 #### Source
 
-main.ts:91751
+main.ts:91845
 
 ***
 
@@ -201,7 +201,7 @@ if you specify 10 here, we will extract competitors from the top 10 Google searc
 
 #### Source
 
-main.ts:91830
+main.ts:91924
 
 ***
 
@@ -216,7 +216,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:91825
+main.ts:91919
 
 ***
 
@@ -243,7 +243,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Source
 
-main.ts:91815
+main.ts:91909
 
 ***
 
@@ -259,7 +259,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:91864
+main.ts:91958
 
 ***
 
@@ -274,4 +274,4 @@ the domain should be specified without https:// and www.
 
 #### Source
 
-main.ts:91743
+main.ts:91837

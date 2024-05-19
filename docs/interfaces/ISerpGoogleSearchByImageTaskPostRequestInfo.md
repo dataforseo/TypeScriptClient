@@ -24,7 +24,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Source
 
-main.ts:49198
+main.ts:49278
 
 ***
 
@@ -40,7 +40,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Source
 
-main.ts:49204
+main.ts:49284
 
 ***
 
@@ -56,7 +56,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Source
 
-main.ts:49192
+main.ts:49272
 
 ***
 
@@ -73,7 +73,7 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 #### Source
 
-main.ts:49186
+main.ts:49266
 
 ***
 
@@ -89,7 +89,7 @@ https://upload.wikimedia.org/wikipedia/commons/e/ed/Elon_Musk_Royal_Society.jpg
 
 #### Source
 
-main.ts:49119
+main.ts:49199
 
 ***
 
@@ -106,7 +106,7 @@ en
 
 #### Source
 
-main.ts:49172
+main.ts:49252
 
 ***
 
@@ -123,7 +123,7 @@ English
 
 #### Source
 
-main.ts:49165
+main.ts:49245
 
 ***
 
@@ -140,7 +140,7 @@ example:
 
 #### Source
 
-main.ts:49148
+main.ts:49228
 
 ***
 
@@ -160,7 +160,7 @@ example:
 
 #### Source
 
-main.ts:49158
+main.ts:49238
 
 ***
 
@@ -177,7 +177,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:49141
+main.ts:49221
 
 ***
 
@@ -194,7 +194,7 @@ learn more at our help center
 
 #### Source
 
-main.ts:49134
+main.ts:49214
 
 ***
 
@@ -214,7 +214,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:49240
+main.ts:49320
 
 ***
 
@@ -226,11 +226,11 @@ postback_url datatype
 required field if you specify postback_url
 corresponds to the datatype that will be sent to your server
 possible values:
-advanced
+advanced, html
 
 #### Source
 
-main.ts:49230
+main.ts:49310
 
 ***
 
@@ -250,7 +250,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:49224
+main.ts:49304
 
 ***
 
@@ -268,7 +268,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:49127
+main.ts:49207
 
 ***
 
@@ -285,7 +285,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Source
 
-main.ts:49179
+main.ts:49259
 
 ***
 
@@ -299,7 +299,7 @@ get the list of available parameters and additional details here
 
 #### Source
 
-main.ts:49208
+main.ts:49288
 
 ***
 
@@ -315,4 +315,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:49214
+main.ts:49294

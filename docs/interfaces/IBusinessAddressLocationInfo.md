@@ -21,7 +21,7 @@ contains few address lines specified by the business entity
 
 #### Source
 
-main.ts:212753
+main.ts:213279
 
 ***
 
@@ -33,7 +33,7 @@ latitude in GPS coordinates
 
 #### Source
 
-main.ts:212755
+main.ts:213281
 
 ***
 
@@ -45,4 +45,4 @@ longitude in GPS coordinates
 
 #### Source
 
-main.ts:212757
+main.ts:213283

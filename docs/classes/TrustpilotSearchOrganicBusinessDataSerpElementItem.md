@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:207950
+main.ts:208464
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:207950
 
 #### Source
 
-main.ts:20824
+main.ts:20904
 
 ***
 
@@ -68,7 +68,7 @@ domain of the establishment
 
 #### Source
 
-main.ts:207940
+main.ts:208454
 
 ***
 
@@ -85,7 +85,7 @@ absolute position among all reviews on the list
 
 #### Source
 
-main.ts:207936
+main.ts:208450
 
 ***
 
@@ -102,7 +102,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:207933
+main.ts:208447
 
 ***
 
@@ -118,7 +118,7 @@ the rating score of the establishment submitted by reviewers
 
 #### Source
 
-main.ts:207946
+main.ts:208460
 
 ***
 
@@ -134,7 +134,7 @@ the total number of reviews
 
 #### Source
 
-main.ts:207944
+main.ts:208458
 
 ***
 
@@ -150,7 +150,7 @@ title of the establishment
 
 #### Source
 
-main.ts:207938
+main.ts:208452
 
 ***
 
@@ -166,7 +166,7 @@ URL to the establishment
 
 #### Source
 
-main.ts:207942
+main.ts:208456
 
 ## Methods
 
@@ -188,7 +188,7 @@ main.ts:207942
 
 #### Source
 
-main.ts:207955
+main.ts:208469
 
 ***
 
@@ -210,7 +210,7 @@ main.ts:207955
 
 #### Source
 
-main.ts:207979
+main.ts:208493
 
 ***
 
@@ -232,4 +232,4 @@ main.ts:207979
 
 #### Source
 
-main.ts:207972
+main.ts:208486

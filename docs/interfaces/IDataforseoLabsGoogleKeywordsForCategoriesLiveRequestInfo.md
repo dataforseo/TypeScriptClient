@@ -23,7 +23,7 @@ you can download the full list of possible categories
 
 #### Source
 
-main.ts:87277
+main.ts:87359
 
 ***
 
@@ -39,7 +39,7 @@ default value: true
 
 #### Source
 
-main.ts:87315
+main.ts:87397
 
 ***
 
@@ -52,7 +52,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
+regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["keyword_info.search_volume",">`",0]
@@ -68,7 +68,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:87362
+main.ts:87444
 
 ***
 
@@ -83,7 +83,7 @@ default value: false
 
 #### Source
 
-main.ts:87325
+main.ts:87407
 
 ***
 
@@ -98,7 +98,7 @@ default value: false
 
 #### Source
 
-main.ts:87320
+main.ts:87402
 
 ***
 
@@ -116,7 +116,7 @@ en
 
 #### Source
 
-main.ts:87309
+main.ts:87391
 
 ***
 
@@ -134,7 +134,7 @@ English
 
 #### Source
 
-main.ts:87301
+main.ts:87383
 
 ***
 
@@ -149,7 +149,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:87330
+main.ts:87412
 
 ***
 
@@ -167,7 +167,7 @@ example:
 
 #### Source
 
-main.ts:87293
+main.ts:87375
 
 ***
 
@@ -185,7 +185,7 @@ United Kingdom
 
 #### Source
 
-main.ts:87285
+main.ts:87367
 
 ***
 
@@ -200,7 +200,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:87335
+main.ts:87417
 
 ***
 
@@ -218,7 +218,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Source
 
-main.ts:87343
+main.ts:87425
 
 ***
 
@@ -244,7 +244,7 @@ example:
 
 #### Source
 
-main.ts:87378
+main.ts:87460
 
 ***
 
@@ -260,4 +260,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:87384
+main.ts:87466

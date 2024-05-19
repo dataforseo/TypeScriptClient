@@ -21,7 +21,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, <>, in, not_in, like, not_like
+regex, not_regex, <, `<=, >`, >=, =, <>, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 examples:
 ["expiration_datetime", "<", "2021-02-15 01:00:00 +00:00"]
@@ -33,7 +33,7 @@ for more information about filters, please refer to Dataforseo Labs - Filters or
 
 #### Source
 
-main.ts:88998
+main.ts:89080
 
 ***
 
@@ -48,7 +48,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:88978
+main.ts:89060
 
 ***
 
@@ -63,7 +63,7 @@ if you specify the 10 value, the first ten items in the results array will be om
 
 #### Source
 
-main.ts:88983
+main.ts:89065
 
 ***
 
@@ -89,7 +89,7 @@ example:
 
 #### Source
 
-main.ts:89014
+main.ts:89096
 
 ***
 
@@ -105,4 +105,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:89020
+main.ts:89102

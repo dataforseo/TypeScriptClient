@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:154942
+main.ts:154938
 
 ## Properties
 
@@ -46,7 +46,7 @@ information about the page with duplicate content
 
 #### Source
 
-main.ts:154938
+main.ts:154934
 
 ***
 
@@ -64,7 +64,7 @@ can take values from 0 to 10
 
 #### Source
 
-main.ts:154936
+main.ts:154932
 
 ## Methods
 
@@ -82,7 +82,7 @@ main.ts:154936
 
 #### Source
 
-main.ts:154951
+main.ts:154947
 
 ***
 
@@ -100,7 +100,7 @@ main.ts:154951
 
 #### Source
 
-main.ts:154973
+main.ts:154969
 
 ***
 
@@ -118,4 +118,4 @@ main.ts:154973
 
 #### Source
 
-main.ts:154966
+main.ts:154962

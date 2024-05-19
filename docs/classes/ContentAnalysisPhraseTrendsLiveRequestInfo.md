@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:166060
+main.ts:166550
 
 ## Properties
 
@@ -50,7 +50,7 @@ example:
 
 #### Source
 
-main.ts:166021
+main.ts:166511
 
 ***
 
@@ -69,7 +69,7 @@ possible values: day, week, month
 
 #### Source
 
-main.ts:166033
+main.ts:166523
 
 ***
 
@@ -90,7 +90,7 @@ example:
 
 #### Source
 
-main.ts:166028
+main.ts:166518
 
 ***
 
@@ -103,7 +103,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, <>, in, not_in, like,not_like, has, has_not
+regex, not_regex, <, `<=, >`, >=, =, <>, in, not_in, like,not_like, has, has_not
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["domain","<>", "logitech.com"]
@@ -121,7 +121,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 #### Source
 
-main.ts:166050
+main.ts:166540
 
 ***
 
@@ -146,7 +146,7 @@ maximum value: 20
 
 #### Source
 
-main.ts:166015
+main.ts:166505
 
 ***
 
@@ -169,7 +169,7 @@ example:
 
 #### Source
 
-main.ts:165979
+main.ts:166469
 
 ***
 
@@ -199,7 +199,7 @@ example:
 
 #### Source
 
-main.ts:165991
+main.ts:166481
 
 ***
 
@@ -219,7 +219,7 @@ possible values:
 
 #### Source
 
-main.ts:165997
+main.ts:166487
 
 ***
 
@@ -240,7 +240,7 @@ default value: as_is
 
 #### Source
 
-main.ts:166004
+main.ts:166494
 
 ***
 
@@ -260,7 +260,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:166056
+main.ts:166546
 
 ## Methods
 
@@ -278,7 +278,7 @@ main.ts:166056
 
 #### Source
 
-main.ts:166069
+main.ts:166559
 
 ***
 
@@ -296,7 +296,7 @@ main.ts:166069
 
 #### Source
 
-main.ts:166109
+main.ts:166599
 
 ***
 
@@ -314,4 +314,4 @@ main.ts:166109
 
 #### Source
 
-main.ts:166102
+main.ts:166592

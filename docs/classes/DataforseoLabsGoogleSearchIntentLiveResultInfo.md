@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:86316
+main.ts:86398
 
 ## Properties
 
@@ -46,7 +46,7 @@ array of items with relevant traffic estimation data
 
 #### Source
 
-main.ts:86312
+main.ts:86394
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:86310
+main.ts:86392
 
 ***
 
@@ -79,7 +79,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:86308
+main.ts:86390
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:86308
 
 #### Source
 
-main.ts:86325
+main.ts:86407
 
 ***
 
@@ -115,7 +115,7 @@ main.ts:86325
 
 #### Source
 
-main.ts:86348
+main.ts:86430
 
 ***
 
@@ -133,4 +133,4 @@ main.ts:86348
 
 #### Source
 
-main.ts:86341
+main.ts:86423

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:216502
+main.ts:217029
 
 ## Properties
 
@@ -44,7 +44,7 @@ main.ts:216502
 
 #### Source
 
-main.ts:216494
+main.ts:217020
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:216494
 
 #### Source
 
-main.ts:216497
+main.ts:217023
 
 ***
 
@@ -72,7 +72,7 @@ main.ts:216497
 
 #### Source
 
-main.ts:216493
+main.ts:217019
 
 ***
 
@@ -86,7 +86,7 @@ main.ts:216493
 
 #### Source
 
-main.ts:216496
+main.ts:217022
 
 ***
 
@@ -100,7 +100,7 @@ main.ts:216496
 
 #### Source
 
-main.ts:216495
+main.ts:217021
 
 ***
 
@@ -114,7 +114,21 @@ main.ts:216495
 
 #### Source
 
-main.ts:216498
+main.ts:217024
+
+***
+
+### tasks\_ready?
+
+> **`optional`** **tasks\_ready**: `number`
+
+#### Implementation of
+
+[`IAppendixMerchantLimitsRatesDataInfo`](../interfaces/IAppendixMerchantLimitsRatesDataInfo.md).[`tasks_ready`](../interfaces/IAppendixMerchantLimitsRatesDataInfo.md#tasks_ready)
+
+#### Source
+
+main.ts:217025
 
 ## Methods
 
@@ -132,7 +146,7 @@ main.ts:216498
 
 #### Source
 
-main.ts:216511
+main.ts:217038
 
 ***
 
@@ -150,7 +164,7 @@ main.ts:216511
 
 #### Source
 
-main.ts:216533
+main.ts:217061
 
 ***
 
@@ -168,4 +182,4 @@ main.ts:216533
 
 #### Source
 
-main.ts:216526
+main.ts:217054

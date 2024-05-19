@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:63620
+main.ts:63702
 
 ## Properties
 
@@ -68,7 +68,7 @@ duration of subtitles in seconds
 
 #### Source
 
-main.ts:63616
+main.ts:63698
 
 ***
 
@@ -84,7 +84,7 @@ the second subtitled text ends
 
 #### Source
 
-main.ts:63614
+main.ts:63696
 
 ***
 
@@ -101,7 +101,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:63608
+main.ts:63690
 
 ***
 
@@ -119,7 +119,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:63605
+main.ts:63687
 
 ***
 
@@ -135,7 +135,7 @@ the second subtitled text starts
 
 #### Source
 
-main.ts:63612
+main.ts:63694
 
 ***
 
@@ -151,7 +151,7 @@ text translated in subtitles
 
 #### Source
 
-main.ts:63610
+main.ts:63692
 
 ## Methods
 
@@ -173,7 +173,7 @@ main.ts:63610
 
 #### Source
 
-main.ts:63625
+main.ts:63707
 
 ***
 
@@ -195,7 +195,7 @@ main.ts:63625
 
 #### Source
 
-main.ts:63648
+main.ts:63730
 
 ***
 
@@ -217,4 +217,4 @@ main.ts:63648
 
 #### Source
 
-main.ts:63641
+main.ts:63723

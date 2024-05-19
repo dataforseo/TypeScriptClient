@@ -21,7 +21,7 @@ you can find more information about content priority calculation in this help ce
 
 #### Source
 
-main.ts:159466
+main.ts:159544
 
 ***
 
@@ -34,4 +34,16 @@ you can find more information about content priority calculation in this help ce
 
 #### Source
 
-main.ts:159469
+main.ts:159547
+
+***
+
+### table\_content?
+
+> **`optional`** **table\_content**: [`TableContent`](../classes/TableContent.md)[]
+
+content of the table on the page
+
+#### Source
+
+main.ts:159549

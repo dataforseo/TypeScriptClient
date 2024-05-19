@@ -24,7 +24,7 @@ rankings and traffic metrics for the relevant page
 
 #### Source
 
-main.ts:93776
+main.ts:93870
 
 ***
 
@@ -36,7 +36,7 @@ absolute URL of the relevant page
 
 #### Source
 
-main.ts:93774
+main.ts:93868
 
 ***
 
@@ -48,4 +48,4 @@ search engine type
 
 #### Source
 
-main.ts:93772
+main.ts:93866

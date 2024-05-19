@@ -20,7 +20,7 @@ number of product purchases in the past month
 
 #### Source
 
-main.ts:178293
+main.ts:178783
 
 ***
 
@@ -34,7 +34,7 @@ USD
 
 #### Source
 
-main.ts:178305
+main.ts:178795
 
 ***
 
@@ -49,7 +49,7 @@ B07G82D89J
 
 #### Source
 
-main.ts:178313
+main.ts:178803
 
 ***
 
@@ -62,7 +62,7 @@ delivery information including free and fast delivery date ranges
 
 #### Source
 
-main.ts:178324
+main.ts:178814
 
 ***
 
@@ -74,7 +74,7 @@ Amazon domain
 
 #### Source
 
-main.ts:178285
+main.ts:178775
 
 ***
 
@@ -86,7 +86,7 @@ URL of the product image featured in the results
 
 #### Source
 
-main.ts:178291
+main.ts:178781
 
 ***
 
@@ -99,7 +99,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 #### Source
 
-main.ts:178318
+main.ts:178808
 
 ***
 
@@ -112,7 +112,7 @@ if the value is true, the product is marked with the “Best Seller” label
 
 #### Source
 
-main.ts:178321
+main.ts:178811
 
 ***
 
@@ -126,7 +126,7 @@ example:
 
 #### Source
 
-main.ts:178297
+main.ts:178787
 
 ***
 
@@ -140,7 +140,7 @@ example:
 
 #### Source
 
-main.ts:178301
+main.ts:178791
 
 ***
 
@@ -152,7 +152,7 @@ product rating info
 
 #### Source
 
-main.ts:178315
+main.ts:178805
 
 ***
 
@@ -165,7 +165,7 @@ contains special offer details, including coupon and Subscribe & Save discounts
 
 #### Source
 
-main.ts:178308
+main.ts:178798
 
 ***
 
@@ -177,7 +177,7 @@ product title
 
 #### Source
 
-main.ts:178287
+main.ts:178777
 
 ***
 
@@ -189,7 +189,7 @@ type of element
 
 #### Source
 
-main.ts:178281
+main.ts:178771
 
 ***
 
@@ -201,7 +201,7 @@ the URL of the product page
 
 #### Source
 
-main.ts:178289
+main.ts:178779
 
 ***
 
@@ -213,4 +213,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:178283
+main.ts:178773

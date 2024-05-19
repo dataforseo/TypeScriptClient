@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:26542
+main.ts:26622
 
 ## Properties
 
@@ -68,7 +68,7 @@ breadcrumb of the ad element in SERP
 
 #### Source
 
-main.ts:26516
+main.ts:26596
 
 ***
 
@@ -84,7 +84,7 @@ description of the ad element in SERP
 
 #### Source
 
-main.ts:26512
+main.ts:26592
 
 ***
 
@@ -100,7 +100,7 @@ domain of the ad element in SERP
 
 #### Source
 
-main.ts:26508
+main.ts:26588
 
 ***
 
@@ -116,7 +116,7 @@ title
 
 #### Source
 
-main.ts:26524
+main.ts:26604
 
 ***
 
@@ -132,7 +132,7 @@ images of the element
 
 #### Source
 
-main.ts:26531
+main.ts:26611
 
 ***
 
@@ -150,7 +150,7 @@ left, right
 
 #### Source
 
-main.ts:26520
+main.ts:26600
 
 ***
 
@@ -169,7 +169,7 @@ to get all items (including SERP features and rich snippets) with their position
 
 #### Source
 
-main.ts:26506
+main.ts:26586
 
 ***
 
@@ -187,7 +187,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:26501
+main.ts:26581
 
 ***
 
@@ -205,7 +205,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Source
 
-main.ts:26538
+main.ts:26618
 
 ***
 
@@ -222,7 +222,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:26534
+main.ts:26614
 
 ***
 
@@ -241,7 +241,7 @@ example:
 
 #### Source
 
-main.ts:26529
+main.ts:26609
 
 ***
 
@@ -257,7 +257,7 @@ title of the ad element in SERP
 
 #### Source
 
-main.ts:26510
+main.ts:26590
 
 ***
 
@@ -273,7 +273,7 @@ relevant URL of the ad element in SERP
 
 #### Source
 
-main.ts:26514
+main.ts:26594
 
 ***
 
@@ -289,7 +289,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:26522
+main.ts:26602
 
 ## Methods
 
@@ -311,7 +311,7 @@ main.ts:26522
 
 #### Source
 
-main.ts:26547
+main.ts:26627
 
 ***
 
@@ -333,7 +333,7 @@ main.ts:26547
 
 #### Source
 
-main.ts:26582
+main.ts:26662
 
 ***
 
@@ -355,4 +355,4 @@ main.ts:26582
 
 #### Source
 
-main.ts:26575
+main.ts:26655

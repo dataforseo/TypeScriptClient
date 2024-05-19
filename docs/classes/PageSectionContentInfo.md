@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:159408
+main.ts:159476
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can find more information about content priority calculation in this help ce
 
 #### Source
 
-main.ts:159401
+main.ts:159467
 
 ***
 
@@ -64,7 +64,23 @@ you can find more information about content priority calculation in this help ce
 
 #### Source
 
-main.ts:159404
+main.ts:159470
+
+***
+
+### table\_content?
+
+> **`optional`** **table\_content**: [`TableContent`](TableContent.md)[]
+
+content of the table on the page
+
+#### Implementation of
+
+[`IPageSectionContentInfo`](../interfaces/IPageSectionContentInfo.md).[`table_content`](../interfaces/IPageSectionContentInfo.md#table_content)
+
+#### Source
+
+main.ts:159472
 
 ## Methods
 
@@ -82,7 +98,7 @@ main.ts:159404
 
 #### Source
 
-main.ts:159417
+main.ts:159485
 
 ***
 
@@ -100,7 +116,7 @@ main.ts:159417
 
 #### Source
 
-main.ts:159443
+main.ts:159516
 
 ***
 
@@ -118,4 +134,4 @@ main.ts:159443
 
 #### Source
 
-main.ts:159436
+main.ts:159509

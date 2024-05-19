@@ -20,7 +20,7 @@ resource errors and warnings
 
 #### Source
 
-main.ts:151823
+main.ts:151819
 
 ***
 
@@ -32,7 +32,7 @@ canonical page
 
 #### Source
 
-main.ts:151776
+main.ts:151772
 
 ***
 
@@ -45,7 +45,7 @@ example: 65001
 
 #### Source
 
-main.ts:151761
+main.ts:151757
 
 ***
 
@@ -57,7 +57,7 @@ overall information about content of the page
 
 #### Source
 
-main.ts:151810
+main.ts:151806
 
 ***
 
@@ -70,7 +70,7 @@ measures the sum total of all individual layout shift scores for every unexpecte
 
 #### Source
 
-main.ts:151805
+main.ts:151801
 
 ***
 
@@ -82,7 +82,7 @@ deprecated tags on the page
 
 #### Source
 
-main.ts:151812
+main.ts:151808
 
 ***
 
@@ -94,7 +94,7 @@ content of the meta description tag
 
 #### Source
 
-main.ts:151770
+main.ts:151766
 
 ***
 
@@ -106,7 +106,7 @@ length of the description tag in characters
 
 #### Source
 
-main.ts:151798
+main.ts:151794
 
 ***
 
@@ -118,7 +118,7 @@ duplicate meta tags on the page
 
 #### Source
 
-main.ts:151814
+main.ts:151810
 
 ***
 
@@ -130,7 +130,7 @@ number of external links on the page
 
 #### Source
 
-main.ts:151780
+main.ts:151776
 
 ***
 
@@ -142,7 +142,7 @@ favicon of the page
 
 #### Source
 
-main.ts:151772
+main.ts:151768
 
 ***
 
@@ -155,7 +155,7 @@ if false, the page’s ‘meta robots’ tag contains “nofollow” parameter i
 
 #### Source
 
-main.ts:151764
+main.ts:151760
 
 ***
 
@@ -167,7 +167,7 @@ meta tag generator
 
 #### Source
 
-main.ts:151766
+main.ts:151762
 
 ***
 
@@ -183,7 +183,7 @@ HTML header tags
 
 #### Source
 
-main.ts:151768
+main.ts:151764
 
 ***
 
@@ -195,7 +195,7 @@ number of images on the page
 
 #### Source
 
-main.ts:151784
+main.ts:151780
 
 ***
 
@@ -207,7 +207,7 @@ total size of images on the page measured in bytes
 
 #### Source
 
-main.ts:151786
+main.ts:151782
 
 ***
 
@@ -219,7 +219,7 @@ number of internal links pointing at the page
 
 #### Source
 
-main.ts:151782
+main.ts:151778
 
 ***
 
@@ -231,7 +231,7 @@ number of internal links on the page
 
 #### Source
 
-main.ts:151778
+main.ts:151774
 
 ***
 
@@ -243,7 +243,7 @@ content of the keywords meta tag
 
 #### Source
 
-main.ts:151774
+main.ts:151770
 
 ***
 
@@ -256,7 +256,7 @@ meta tag in the head section of an HTML document that defines the title of a pag
 
 #### Source
 
-main.ts:151808
+main.ts:151804
 
 ***
 
@@ -268,7 +268,7 @@ number of scripts on the page that block page rendering
 
 #### Source
 
-main.ts:151800
+main.ts:151796
 
 ***
 
@@ -280,7 +280,7 @@ number of CSS styles on the page that block page rendering
 
 #### Source
 
-main.ts:151802
+main.ts:151798
 
 ***
 
@@ -292,7 +292,7 @@ number of scripts on the page
 
 #### Source
 
-main.ts:151788
+main.ts:151784
 
 ***
 
@@ -304,7 +304,7 @@ total size of scripts on the page measured in bytes
 
 #### Source
 
-main.ts:151790
+main.ts:151786
 
 ***
 
@@ -322,7 +322,7 @@ supported tags include but are not limited to Open Graph and Twitter card
 
 #### Source
 
-main.ts:151821
+main.ts:151817
 
 ***
 
@@ -335,7 +335,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Source
 
-main.ts:151817
+main.ts:151813
 
 ***
 
@@ -347,7 +347,7 @@ number of stylesheets on the page
 
 #### Source
 
-main.ts:151792
+main.ts:151788
 
 ***
 
@@ -359,7 +359,7 @@ total size of stylesheets on the page measured in bytes
 
 #### Source
 
-main.ts:151794
+main.ts:151790
 
 ***
 
@@ -371,7 +371,7 @@ page title
 
 #### Source
 
-main.ts:151758
+main.ts:151754
 
 ***
 
@@ -383,4 +383,4 @@ length of the title tag in characters
 
 #### Source
 
-main.ts:151796
+main.ts:151792

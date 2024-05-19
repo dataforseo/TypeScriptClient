@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:128153
+main.ts:128164
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:128153
 
 #### Source
 
-main.ts:21198
+main.ts:21278
 
 ***
 
@@ -69,17 +69,13 @@ conains keyword popularity data by age and gender
 
 #### Source
 
-main.ts:128145
+main.ts:128159
 
 ***
 
 ### demography\_comparison?
 
-> **`optional`** **demography\_comparison**: `any`
-
-comparison of demographic data on keyword popularity for the specified parameters
-conains keyword popularity data by age and gender
-if you specified a single keyword, the value will be null
+> **`optional`** **demography\_comparison**: [`DemographyComparisonInfo`](DemographyComparisonInfo.md)
 
 #### Implementation of
 
@@ -87,7 +83,7 @@ if you specified a single keyword, the value will be null
 
 #### Source
 
-main.ts:128149
+main.ts:128160
 
 ***
 
@@ -104,7 +100,7 @@ the data included in the interests and interests_comparison is based on the keyw
 
 #### Source
 
-main.ts:128142
+main.ts:128156
 
 ***
 
@@ -121,7 +117,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Source
 
-main.ts:128139
+main.ts:128153
 
 ## Methods
 
@@ -143,7 +139,7 @@ main.ts:128139
 
 #### Source
 
-main.ts:128158
+main.ts:128169
 
 ***
 
@@ -165,7 +161,7 @@ main.ts:128158
 
 #### Source
 
-main.ts:128183
+main.ts:128194
 
 ***
 
@@ -187,4 +183,4 @@ main.ts:128183
 
 #### Source
 
-main.ts:128176
+main.ts:128187

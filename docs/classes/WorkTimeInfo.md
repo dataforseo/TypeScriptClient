@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:21399
+main.ts:21479
 
 ## Properties
 
@@ -46,7 +46,7 @@ hours in the 24-hour format
 
 #### Source
 
-main.ts:21393
+main.ts:21473
 
 ***
 
@@ -62,7 +62,7 @@ minutes
 
 #### Source
 
-main.ts:21395
+main.ts:21475
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:21395
 
 #### Source
 
-main.ts:21408
+main.ts:21488
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:21408
 
 #### Source
 
-main.ts:21426
+main.ts:21506
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:21426
 
 #### Source
 
-main.ts:21419
+main.ts:21499

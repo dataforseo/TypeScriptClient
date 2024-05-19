@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:124476
+main.ts:124570
 
 ## Properties
 
@@ -46,7 +46,7 @@ related query
 
 #### Source
 
-main.ts:124469
+main.ts:124563
 
 ***
 
@@ -63,7 +63,7 @@ represents the popularity of the topic. Scoring is on a relative scale where a v
 
 #### Source
 
-main.ts:124472
+main.ts:124566
 
 ## Methods
 
@@ -81,7 +81,7 @@ main.ts:124472
 
 #### Source
 
-main.ts:124485
+main.ts:124579
 
 ***
 
@@ -99,7 +99,7 @@ main.ts:124485
 
 #### Source
 
-main.ts:124503
+main.ts:124597
 
 ***
 
@@ -117,4 +117,4 @@ main.ts:124503
 
 #### Source
 
-main.ts:124496
+main.ts:124590

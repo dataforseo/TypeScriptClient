@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:93513
+main.ts:93607
 
 ## Properties
 
@@ -43,7 +43,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, `<>`, in, not_in
+regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in
 example:
 ["metrics.paid.count",">`",0]
 [["metrics.organic.count",">",50],"and",["metrics.organic.pos_1","`<>`",0]]
@@ -58,7 +58,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:93486
+main.ts:93580
 
 ***
 
@@ -81,7 +81,7 @@ default value: live
 
 #### Source
 
-main.ts:93472
+main.ts:93566
 
 ***
 
@@ -104,7 +104,7 @@ default value:
 
 #### Source
 
-main.ts:93453
+main.ts:93547
 
 ***
 
@@ -127,7 +127,7 @@ en
 
 #### Source
 
-main.ts:93444
+main.ts:93538
 
 ***
 
@@ -150,7 +150,7 @@ English
 
 #### Source
 
-main.ts:93435
+main.ts:93529
 
 ***
 
@@ -169,7 +169,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:93458
+main.ts:93552
 
 ***
 
@@ -192,7 +192,7 @@ example:
 
 #### Source
 
-main.ts:93426
+main.ts:93520
 
 ***
 
@@ -215,7 +215,7 @@ United Kingdom
 
 #### Source
 
-main.ts:93417
+main.ts:93511
 
 ***
 
@@ -234,7 +234,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Source
 
-main.ts:93463
+main.ts:93557
 
 ***
 
@@ -265,7 +265,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Source
 
-main.ts:93503
+main.ts:93597
 
 ***
 
@@ -285,7 +285,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:93509
+main.ts:93603
 
 ***
 
@@ -304,7 +304,7 @@ the domain should be specified without https:// and www.
 
 #### Source
 
-main.ts:93408
+main.ts:93502
 
 ## Methods
 
@@ -322,7 +322,7 @@ main.ts:93408
 
 #### Source
 
-main.ts:93522
+main.ts:93616
 
 ***
 
@@ -340,7 +340,7 @@ main.ts:93522
 
 #### Source
 
-main.ts:93562
+main.ts:93656
 
 ***
 
@@ -358,4 +358,4 @@ main.ts:93562
 
 #### Source
 
-main.ts:93555
+main.ts:93649

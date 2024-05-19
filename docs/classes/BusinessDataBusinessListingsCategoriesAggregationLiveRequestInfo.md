@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:196961
+main.ts:197451
 
 ## Properties
 
@@ -50,7 +50,7 @@ you can specify up to 10 categories
 
 #### Source
 
-main.ts:196905
+main.ts:197395
 
 ***
 
@@ -69,7 +69,7 @@ can contain up to 200 symbols
 
 #### Source
 
-main.ts:196910
+main.ts:197400
 
 ***
 
@@ -82,7 +82,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
+regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["rating.value",">`",3]
@@ -94,7 +94,7 @@ you can receive the list of available filters by making a separate request to h
 
 #### Source
 
-main.ts:196938
+main.ts:197428
 
 ***
 
@@ -113,7 +113,7 @@ default value: 10
 
 #### Source
 
-main.ts:196943
+main.ts:197433
 
 ***
 
@@ -130,7 +130,7 @@ optional field
 
 #### Source
 
-main.ts:196918
+main.ts:197408
 
 ***
 
@@ -149,7 +149,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:196948
+main.ts:197438
 
 ***
 
@@ -172,7 +172,7 @@ example:
 
 #### Source
 
-main.ts:196927
+main.ts:197417
 
 ***
 
@@ -189,7 +189,7 @@ optional field
 
 #### Source
 
-main.ts:196951
+main.ts:197441
 
 ***
 
@@ -209,7 +209,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:196957
+main.ts:197447
 
 ***
 
@@ -228,7 +228,7 @@ can contain up to 200 symbols
 
 #### Source
 
-main.ts:196915
+main.ts:197405
 
 ## Methods
 
@@ -246,7 +246,7 @@ main.ts:196915
 
 #### Source
 
-main.ts:196970
+main.ts:197460
 
 ***
 
@@ -264,7 +264,7 @@ main.ts:196970
 
 #### Source
 
-main.ts:197004
+main.ts:197494
 
 ***
 
@@ -282,4 +282,4 @@ main.ts:197004
 
 #### Source
 
-main.ts:196997
+main.ts:197487

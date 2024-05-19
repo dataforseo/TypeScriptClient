@@ -21,7 +21,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, `<>`, in, not_in
+regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in
 example:
 ["metrics.paid.count",">`",0]
 [["metrics.paid.count",">",0],"and",["metrics.paid.etv",">","50"]]
@@ -32,7 +32,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:93087
+main.ts:93181
 
 ***
 
@@ -51,7 +51,7 @@ default value: live
 
 #### Source
 
-main.ts:93073
+main.ts:93167
 
 ***
 
@@ -70,7 +70,7 @@ default value:
 
 #### Source
 
-main.ts:93064
+main.ts:93158
 
 ***
 
@@ -89,7 +89,7 @@ en
 
 #### Source
 
-main.ts:93055
+main.ts:93149
 
 ***
 
@@ -108,7 +108,7 @@ English
 
 #### Source
 
-main.ts:93046
+main.ts:93140
 
 ***
 
@@ -123,7 +123,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:93109
+main.ts:93203
 
 ***
 
@@ -142,7 +142,7 @@ example:
 
 #### Source
 
-main.ts:93037
+main.ts:93131
 
 ***
 
@@ -161,7 +161,7 @@ United Kingdom
 
 #### Source
 
-main.ts:93028
+main.ts:93122
 
 ***
 
@@ -176,7 +176,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:93114
+main.ts:93208
 
 ***
 
@@ -203,7 +203,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Source
 
-main.ts:93104
+main.ts:93198
 
 ***
 
@@ -219,7 +219,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:93120
+main.ts:93214
 
 ***
 
@@ -234,4 +234,4 @@ the domain should be specified without https:// and www.
 
 #### Source
 
-main.ts:93019
+main.ts:93113

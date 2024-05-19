@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:24236
+main.ts:24316
 
 ## Properties
 
@@ -50,7 +50,7 @@ note: by default, browser preset corresponds to the device type specified in the
 
 #### Source
 
-main.ts:24220
+main.ts:24300
 
 ***
 
@@ -68,7 +68,7 @@ can be specified in the following range: 240-9999
 
 #### Source
 
-main.ts:24228
+main.ts:24308
 
 ***
 
@@ -86,7 +86,7 @@ can be specified in the following range: 0.5-3
 
 #### Source
 
-main.ts:24232
+main.ts:24312
 
 ***
 
@@ -104,7 +104,7 @@ can be specified in the following range: 240-9999
 
 #### Source
 
-main.ts:24224
+main.ts:24304
 
 ***
 
@@ -123,7 +123,7 @@ you will be able to use it within 7 days to request the results of the task at a
 
 #### Source
 
-main.ts:24214
+main.ts:24294
 
 ## Methods
 
@@ -141,7 +141,7 @@ main.ts:24214
 
 #### Source
 
-main.ts:24245
+main.ts:24325
 
 ***
 
@@ -159,7 +159,7 @@ main.ts:24245
 
 #### Source
 
-main.ts:24266
+main.ts:24346
 
 ***
 
@@ -177,4 +177,4 @@ main.ts:24266
 
 #### Source
 
-main.ts:24259
+main.ts:24339

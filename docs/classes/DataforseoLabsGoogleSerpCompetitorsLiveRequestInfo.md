@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:90957
+main.ts:91051
 
 ## Properties
 
@@ -43,7 +43,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
+regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["median_position","in",[1,10]]
@@ -59,7 +59,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:90931
+main.ts:91025
 
 ***
 
@@ -78,7 +78,7 @@ default value: true
 
 #### Source
 
-main.ts:90898
+main.ts:90992
 
 ***
 
@@ -100,7 +100,7 @@ default value:
 
 #### Source
 
-main.ts:90906
+main.ts:91000
 
 ***
 
@@ -122,7 +122,7 @@ you can specify the maximum of 200 keywords
 
 #### Source
 
-main.ts:90861
+main.ts:90955
 
 ***
 
@@ -144,7 +144,7 @@ en
 
 #### Source
 
-main.ts:90893
+main.ts:90987
 
 ***
 
@@ -166,7 +166,7 @@ English
 
 #### Source
 
-main.ts:90885
+main.ts:90979
 
 ***
 
@@ -185,7 +185,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:90911
+main.ts:91005
 
 ***
 
@@ -207,7 +207,7 @@ example:
 
 #### Source
 
-main.ts:90877
+main.ts:90971
 
 ***
 
@@ -229,7 +229,7 @@ United Kingdom
 
 #### Source
 
-main.ts:90869
+main.ts:90963
 
 ***
 
@@ -248,7 +248,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 #### Source
 
-main.ts:90916
+main.ts:91010
 
 ***
 
@@ -278,7 +278,7 @@ example:
 
 #### Source
 
-main.ts:90947
+main.ts:91041
 
 ***
 
@@ -298,7 +298,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:90953
+main.ts:91047
 
 ## Methods
 
@@ -316,7 +316,7 @@ main.ts:90953
 
 #### Source
 
-main.ts:90966
+main.ts:91060
 
 ***
 
@@ -334,7 +334,7 @@ main.ts:90966
 
 #### Source
 
-main.ts:91010
+main.ts:91104
 
 ***
 
@@ -352,4 +352,4 @@ main.ts:91010
 
 #### Source
 
-main.ts:91003
+main.ts:91097

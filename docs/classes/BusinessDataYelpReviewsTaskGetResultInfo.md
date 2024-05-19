@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:214223
+main.ts:214749
 
 ## Properties
 
@@ -46,7 +46,7 @@ Yelp business identifier
 
 #### Source
 
-main.ts:214189
+main.ts:214715
 
 ***
 
@@ -63,7 +63,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:214201
+main.ts:214727
 
 ***
 
@@ -82,7 +82,7 @@ example:
 
 #### Source
 
-main.ts:214206
+main.ts:214732
 
 ***
 
@@ -99,7 +99,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Source
 
-main.ts:214219
+main.ts:214745
 
 ***
 
@@ -116,7 +116,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Source
 
-main.ts:214216
+main.ts:214742
 
 ***
 
@@ -133,7 +133,7 @@ this field will contain the alias parameter if it was specified in a POST array
 
 #### Source
 
-main.ts:214187
+main.ts:214713
 
 ***
 
@@ -149,7 +149,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:214198
+main.ts:214724
 
 ***
 
@@ -166,7 +166,7 @@ if location_code was not specified in a POST array, the value equals null
 
 #### Source
 
-main.ts:214196
+main.ts:214722
 
 ***
 
@@ -182,7 +182,7 @@ the rating score submitted by the reviewer
 
 #### Source
 
-main.ts:214211
+main.ts:214737
 
 ***
 
@@ -198,7 +198,7 @@ the total number of reviews
 
 #### Source
 
-main.ts:214213
+main.ts:214739
 
 ***
 
@@ -214,7 +214,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:214193
+main.ts:214719
 
 ***
 
@@ -231,7 +231,7 @@ the name of the local establishment for which the reviews are collected
 
 #### Source
 
-main.ts:214209
+main.ts:214735
 
 ***
 
@@ -247,7 +247,7 @@ type of element
 
 #### Source
 
-main.ts:214191
+main.ts:214717
 
 ## Methods
 
@@ -265,7 +265,7 @@ main.ts:214191
 
 #### Source
 
-main.ts:214232
+main.ts:214758
 
 ***
 
@@ -283,7 +283,7 @@ main.ts:214232
 
 #### Source
 
-main.ts:214265
+main.ts:214791
 
 ***
 
@@ -301,4 +301,4 @@ main.ts:214265
 
 #### Source
 
-main.ts:214258
+main.ts:214784

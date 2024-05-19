@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:116129
+main.ts:116223
 
 ## Properties
 
@@ -51,7 +51,7 @@ example:
 
 #### Source
 
-main.ts:116118
+main.ts:116212
 
 ***
 
@@ -72,7 +72,7 @@ example:
 
 #### Source
 
-main.ts:116125
+main.ts:116219
 
 ***
 
@@ -92,7 +92,7 @@ example: keywords_data/keywords_for_site/task_post, postback_url, pingback_url
 
 #### Source
 
-main.ts:116111
+main.ts:116205
 
 ***
 
@@ -111,7 +111,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:116100
+main.ts:116194
 
 ***
 
@@ -130,7 +130,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Source
 
-main.ts:116105
+main.ts:116199
 
 ## Methods
 
@@ -148,7 +148,7 @@ main.ts:116105
 
 #### Source
 
-main.ts:116138
+main.ts:116232
 
 ***
 
@@ -166,7 +166,7 @@ main.ts:116138
 
 #### Source
 
-main.ts:116159
+main.ts:116253
 
 ***
 
@@ -184,4 +184,4 @@ main.ts:116159
 
 #### Source
 
-main.ts:116152
+main.ts:116246

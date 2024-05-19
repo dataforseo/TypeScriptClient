@@ -25,21 +25,17 @@ conains keyword popularity data by age and gender
 
 #### Source
 
-main.ts:128211
+main.ts:128222
 
 ***
 
 ### demography\_comparison?
 
-> **`optional`** **demography\_comparison**: `any`
-
-comparison of demographic data on keyword popularity for the specified parameters
-conains keyword popularity data by age and gender
-if you specified a single keyword, the value will be null
+> **`optional`** **demography\_comparison**: [`DemographyComparisonInfo`](../classes/DemographyComparisonInfo.md)
 
 #### Source
 
-main.ts:128215
+main.ts:128223
 
 ***
 
@@ -52,7 +48,7 @@ the data included in the interests and interests_comparison is based on the keyw
 
 #### Source
 
-main.ts:128208
+main.ts:128219
 
 ***
 
@@ -65,4 +61,4 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Source
 
-main.ts:128205
+main.ts:128216

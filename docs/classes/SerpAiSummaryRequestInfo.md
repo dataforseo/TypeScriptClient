@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:24567
+main.ts:24647
 
 ## Properties
 
@@ -49,7 +49,7 @@ default value: false
 
 #### Source
 
-main.ts:24558
+main.ts:24638
 
 ***
 
@@ -68,7 +68,7 @@ default value: false
 
 #### Source
 
-main.ts:24563
+main.ts:24643
 
 ***
 
@@ -88,7 +88,7 @@ note: your prompt has to be relevant to the keyword specified in the POST reques
 
 #### Source
 
-main.ts:24548
+main.ts:24628
 
 ***
 
@@ -107,7 +107,7 @@ default value: true
 
 #### Source
 
-main.ts:24553
+main.ts:24633
 
 ***
 
@@ -126,7 +126,7 @@ you will be able to use it within 30 days to request the results of the task at 
 
 #### Source
 
-main.ts:24542
+main.ts:24622
 
 ## Methods
 
@@ -144,7 +144,7 @@ main.ts:24542
 
 #### Source
 
-main.ts:24576
+main.ts:24656
 
 ***
 
@@ -162,7 +162,7 @@ main.ts:24576
 
 #### Source
 
-main.ts:24597
+main.ts:24677
 
 ***
 
@@ -180,4 +180,4 @@ main.ts:24597
 
 #### Source
 
-main.ts:24590
+main.ts:24670

@@ -20,7 +20,7 @@ contains data on citations from the given url
 
 #### Source
 
-main.ts:164227
+main.ts:164717
 
 ***
 
@@ -33,7 +33,7 @@ to obtain a full list of available countries, refer to the Locations endpoint
 
 #### Source
 
-main.ts:164206
+main.ts:164696
 
 ***
 
@@ -45,7 +45,7 @@ domain name
 
 #### Source
 
-main.ts:164182
+main.ts:164672
 
 ***
 
@@ -60,7 +60,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Source
 
-main.ts:164198
+main.ts:164688
 
 ***
 
@@ -75,7 +75,7 @@ example:
 
 #### Source
 
-main.ts:164203
+main.ts:164693
 
 ***
 
@@ -88,7 +88,7 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 #### Source
 
-main.ts:164209
+main.ts:164699
 
 ***
 
@@ -100,7 +100,7 @@ main domain
 
 #### Source
 
-main.ts:164184
+main.ts:164674
 
 ***
 
@@ -114,7 +114,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Source
 
-main.ts:164217
+main.ts:164707
 
 ***
 
@@ -126,20 +126,20 @@ page types
 
 #### Source
 
-main.ts:164219
+main.ts:164709
 
 ***
 
 ### ratings?
 
-> **`optional`** **ratings**: `any`
+> **`optional`** **ratings**: [`RatingInfo`](../classes/RatingInfo.md)[]
 
 ratings found on the page
 all ratings found on the page based on microdata
 
 #### Source
 
-main.ts:164222
+main.ts:164712
 
 ***
 
@@ -153,7 +153,7 @@ the higher the score, the more value the related citation has
 
 #### Source
 
-main.ts:164213
+main.ts:164703
 
 ***
 
@@ -166,7 +166,7 @@ data on social media interactions associated with the content based on website e
 
 #### Source
 
-main.ts:164225
+main.ts:164715
 
 ***
 
@@ -180,7 +180,7 @@ learn more about how the metric is calculated on this help center page
 
 #### Source
 
-main.ts:164193
+main.ts:164683
 
 ***
 
@@ -192,7 +192,7 @@ type of element
 
 #### Source
 
-main.ts:164178
+main.ts:164668
 
 ***
 
@@ -204,7 +204,7 @@ URL where the citation was found
 
 #### Source
 
-main.ts:164180
+main.ts:164670
 
 ***
 
@@ -219,4 +219,4 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Source
 
-main.ts:164189
+main.ts:164679

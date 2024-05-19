@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:112162
+main.ts:112256
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:112145
+main.ts:112239
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Source
 
-main.ts:112152
+main.ts:112246
 
 ***
 
@@ -86,7 +86,7 @@ in this case, will equal null
 
 #### Source
 
-main.ts:112158
+main.ts:112252
 
 ***
 
@@ -102,7 +102,7 @@ number of search results for the returned keyword
 
 #### Source
 
-main.ts:112147
+main.ts:112241
 
 ***
 
@@ -118,7 +118,7 @@ search engine type
 
 #### Source
 
-main.ts:112139
+main.ts:112233
 
 ***
 
@@ -135,7 +135,7 @@ the list of supported SERP elements can be found below
 
 #### Source
 
-main.ts:112142
+main.ts:112236
 
 ## Methods
 
@@ -153,7 +153,7 @@ main.ts:112142
 
 #### Source
 
-main.ts:112171
+main.ts:112265
 
 ***
 
@@ -171,7 +171,7 @@ main.ts:112171
 
 #### Source
 
-main.ts:112193
+main.ts:112287
 
 ***
 
@@ -189,4 +189,4 @@ main.ts:112193
 
 #### Source
 
-main.ts:112186
+main.ts:112280

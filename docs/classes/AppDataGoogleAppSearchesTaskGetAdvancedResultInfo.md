@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:185139
+main.ts:185629
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:185124
+main.ts:185614
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Source
 
-main.ts:185129
+main.ts:185619
 
 ***
 
@@ -82,7 +82,7 @@ found apps
 
 #### Source
 
-main.ts:185135
+main.ts:185625
 
 ***
 
@@ -98,7 +98,7 @@ the number of items in the results array
 
 #### Source
 
-main.ts:185133
+main.ts:185623
 
 ***
 
@@ -114,7 +114,7 @@ keyword received in a POST request
 
 #### Source
 
-main.ts:185115
+main.ts:185605
 
 ***
 
@@ -130,7 +130,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:185121
+main.ts:185611
 
 ***
 
@@ -146,7 +146,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:185119
+main.ts:185609
 
 ***
 
@@ -162,7 +162,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:185117
+main.ts:185607
 
 ***
 
@@ -178,7 +178,7 @@ the total number of results
 
 #### Source
 
-main.ts:185131
+main.ts:185621
 
 ## Methods
 
@@ -196,7 +196,7 @@ main.ts:185131
 
 #### Source
 
-main.ts:185148
+main.ts:185638
 
 ***
 
@@ -214,7 +214,7 @@ main.ts:185148
 
 #### Source
 
-main.ts:185177
+main.ts:185667
 
 ***
 
@@ -232,4 +232,4 @@ main.ts:185177
 
 #### Source
 
-main.ts:185170
+main.ts:185660

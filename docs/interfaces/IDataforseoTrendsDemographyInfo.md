@@ -21,13 +21,13 @@ conains keyword popularity data by age and gender
 
 #### Source
 
-main.ts:127729
+main.ts:127743
 
 ***
 
 ### demography\_comparison?
 
-> **`optional`** **demography\_comparison**: [`DemographyComparison`](../classes/DemographyComparison.md)
+> **`optional`** **demography\_comparison**: [`DemographyComparisonInfo`](../classes/DemographyComparisonInfo.md)
 
 comparison of demographic data on keyword popularity for the specified parameters
 conains keyword popularity data by age and gender
@@ -35,7 +35,7 @@ if you specified a single keyword, the value will be null
 
 #### Source
 
-main.ts:127733
+main.ts:127747
 
 ***
 
@@ -48,7 +48,7 @@ the data included in the demography and demography_comparison is based on the ke
 
 #### Source
 
-main.ts:127726
+main.ts:127740
 
 ***
 
@@ -61,7 +61,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Source
 
-main.ts:127721
+main.ts:127735
 
 ***
 
@@ -73,4 +73,4 @@ type of element
 
 #### Source
 
-main.ts:127723
+main.ts:127737

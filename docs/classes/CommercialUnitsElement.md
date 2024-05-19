@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:34621
+main.ts:34701
 
 ## Properties
 
@@ -46,7 +46,7 @@ website domain
 
 #### Source
 
-main.ts:34609
+main.ts:34689
 
 ***
 
@@ -62,7 +62,7 @@ price indicated in the element
 
 #### Source
 
-main.ts:34611
+main.ts:34691
 
 ***
 
@@ -79,7 +79,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:34617
+main.ts:34697
 
 ***
 
@@ -96,7 +96,7 @@ indicates the source of information included in the top_stories_element
 
 #### Source
 
-main.ts:34614
+main.ts:34694
 
 ***
 
@@ -112,7 +112,7 @@ title of a given link element
 
 #### Source
 
-main.ts:34605
+main.ts:34685
 
 ***
 
@@ -128,7 +128,7 @@ type of element
 
 #### Source
 
-main.ts:34603
+main.ts:34683
 
 ***
 
@@ -144,7 +144,7 @@ URL
 
 #### Source
 
-main.ts:34607
+main.ts:34687
 
 ## Methods
 
@@ -162,7 +162,7 @@ main.ts:34607
 
 #### Source
 
-main.ts:34630
+main.ts:34710
 
 ***
 
@@ -180,7 +180,7 @@ main.ts:34630
 
 #### Source
 
-main.ts:34653
+main.ts:34733
 
 ***
 
@@ -198,4 +198,4 @@ main.ts:34653
 
 #### Source
 
-main.ts:34646
+main.ts:34726

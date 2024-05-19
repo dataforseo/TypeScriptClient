@@ -26,7 +26,7 @@ example:
 
 #### Source
 
-main.ts:141975
+main.ts:141983
 
 ***
 
@@ -45,7 +45,7 @@ default value: live
 
 #### Source
 
-main.ts:141936
+main.ts:141944
 
 ***
 
@@ -60,7 +60,7 @@ default value: true
 
 #### Source
 
-main.ts:141991
+main.ts:141999
 
 ***
 
@@ -73,7 +73,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, =, `<>`, in, not_in, like, not_like, ilike, not_ilike
+regex, not_regex, =, `<>`, in, not_in, like, not_like, ilike, not_ilike
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["referring_pages",">`","1"]
@@ -87,7 +87,7 @@ The full list of possible filters is available here.
 
 #### Source
 
-main.ts:141953
+main.ts:141961
 
 ***
 
@@ -103,7 +103,7 @@ default value: true
 
 #### Source
 
-main.ts:141986
+main.ts:141994
 
 ***
 
@@ -118,7 +118,7 @@ default value: true
 
 #### Source
 
-main.ts:141980
+main.ts:141988
 
 ***
 
@@ -139,7 +139,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:141927
+main.ts:141935
 
 ***
 
@@ -154,7 +154,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:141911
+main.ts:141919
 
 ***
 
@@ -169,7 +169,7 @@ default value: ip
 
 #### Source
 
-main.ts:141906
+main.ts:141914
 
 ***
 
@@ -184,7 +184,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 #### Source
 
-main.ts:141916
+main.ts:141924
 
 ***
 
@@ -208,7 +208,7 @@ example:
 
 #### Source
 
-main.ts:141967
+main.ts:141975
 
 ***
 
@@ -224,7 +224,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:141997
+main.ts:142005
 
 ***
 
@@ -239,4 +239,4 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Source
 
-main.ts:141901
+main.ts:141909

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:37742
+main.ts:37822
 
 ## Properties
 
@@ -53,7 +53,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:37708
+main.ts:37788
 
 ***
 
@@ -72,7 +72,7 @@ default value: desktop
 
 #### Source
 
-main.ts:37685
+main.ts:37765
 
 ***
 
@@ -95,7 +95,7 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 
 #### Source
 
-main.ts:37642
+main.ts:37722
 
 ***
 
@@ -116,7 +116,7 @@ en
 
 #### Source
 
-main.ts:37680
+main.ts:37760
 
 ***
 
@@ -137,7 +137,7 @@ English
 
 #### Source
 
-main.ts:37673
+main.ts:37753
 
 ***
 
@@ -158,7 +158,7 @@ example:
 
 #### Source
 
-main.ts:37656
+main.ts:37736
 
 ***
 
@@ -182,7 +182,7 @@ example:
 
 #### Source
 
-main.ts:37666
+main.ts:37746
 
 ***
 
@@ -203,7 +203,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:37649
+main.ts:37729
 
 ***
 
@@ -224,7 +224,7 @@ learn more at our help center
 
 #### Source
 
-main.ts:37728
+main.ts:37808
 
 ***
 
@@ -245,7 +245,7 @@ default value: android
 
 #### Source
 
-main.ts:37692
+main.ts:37772
 
 ***
 
@@ -266,7 +266,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Source
 
-main.ts:37699
+main.ts:37779
 
 ***
 
@@ -284,7 +284,7 @@ get the list of available parameters and additional details here
 
 #### Source
 
-main.ts:37732
+main.ts:37812
 
 ***
 
@@ -304,7 +304,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:37738
+main.ts:37818
 
 ***
 
@@ -331,7 +331,7 @@ example.com/example-page*  – returns results for all domain’s URLs that star
 
 #### Source
 
-main.ts:37721
+main.ts:37801
 
 ***
 
@@ -351,7 +351,7 @@ https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAI
 
 #### Source
 
-main.ts:37633
+main.ts:37713
 
 ## Methods
 
@@ -369,7 +369,7 @@ main.ts:37633
 
 #### Source
 
-main.ts:37751
+main.ts:37831
 
 ***
 
@@ -387,7 +387,7 @@ main.ts:37751
 
 #### Source
 
-main.ts:37782
+main.ts:37862
 
 ***
 
@@ -405,4 +405,4 @@ main.ts:37782
 
 #### Source
 
-main.ts:37775
+main.ts:37855

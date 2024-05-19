@@ -21,7 +21,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
+regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["resource_type","=","stylesheet"]
@@ -32,7 +32,7 @@ The full list of possible filters is available by this link.
 
 #### Source
 
-main.ts:153279
+main.ts:153275
 
 ***
 
@@ -48,7 +48,7 @@ example:
 
 #### Source
 
-main.ts:153249
+main.ts:153245
 
 ***
 
@@ -63,7 +63,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:153260
+main.ts:153256
 
 ***
 
@@ -78,7 +78,7 @@ if you specify the 10 value, the first ten resources in the results array will b
 
 #### Source
 
-main.ts:153265
+main.ts:153261
 
 ***
 
@@ -102,7 +102,7 @@ example:
 
 #### Source
 
-main.ts:153305
+main.ts:153301
 
 ***
 
@@ -117,14 +117,14 @@ you can apply the same filters here as available for the pages endpoint
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, <>, in, not_in, like, not_like
+regex, not_regex, <, `<=, >`, >=, =, <>, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["checks.no_image_title","=",true]
 
 #### Source
 
-main.ts:153291
+main.ts:153287
 
 ***
 
@@ -140,7 +140,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:153311
+main.ts:153307
 
 ***
 
@@ -156,4 +156,4 @@ if you do not indicate a url when setting a task, resource’s meta in the resul
 
 #### Source
 
-main.ts:153255
+main.ts:153251

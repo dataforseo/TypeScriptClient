@@ -21,7 +21,7 @@ information about hotel reviews by criteria
 
 #### Source
 
-main.ts:203367
+main.ts:203873
 
 ***
 
@@ -34,7 +34,7 @@ reviews from third-paty sites
 
 #### Source
 
-main.ts:203373
+main.ts:203879
 
 ***
 
@@ -51,7 +51,7 @@ the distribution of votes across the rating in the range from 1 to 5
 
 #### Source
 
-main.ts:203370
+main.ts:203876
 
 ***
 
@@ -63,7 +63,7 @@ overall hotel rating based on customer votes
 
 #### Source
 
-main.ts:203361
+main.ts:203867
 
 ***
 
@@ -76,4 +76,4 @@ the number of customer votes included in the calculation of the hotel rating
 
 #### Source
 
-main.ts:203364
+main.ts:203870

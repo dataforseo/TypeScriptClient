@@ -24,7 +24,7 @@ backlinks information for the target website
 
 #### Source
 
-main.ts:90598
+main.ts:90692
 
 ***
 
@@ -36,7 +36,7 @@ breadcrumb in SERP
 
 #### Source
 
-main.ts:90562
+main.ts:90656
 
 ***
 
@@ -48,7 +48,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:90560
+main.ts:90654
 
 ***
 
@@ -61,7 +61,7 @@ if there is none, equals null
 
 #### Source
 
-main.ts:90571
+main.ts:90665
 
 ***
 
@@ -73,7 +73,7 @@ subdomain in SERP
 
 #### Source
 
-main.ts:90558
+main.ts:90652
 
 ***
 
@@ -87,7 +87,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:90593
+main.ts:90687
 
 ***
 
@@ -102,7 +102,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:90584
+main.ts:90678
 
 ***
 
@@ -118,7 +118,7 @@ additional information about the result
 
 #### Source
 
-main.ts:90568
+main.ts:90662
 
 ***
 
@@ -130,7 +130,7 @@ words highlighted in bold within the results description
 
 #### Source
 
-main.ts:90566
+main.ts:90660
 
 ***
 
@@ -145,7 +145,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:90589
+main.ts:90683
 
 ***
 
@@ -159,7 +159,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:90575
+main.ts:90669
 
 ***
 
@@ -171,7 +171,7 @@ primary domain name in SERP
 
 #### Source
 
-main.ts:90577
+main.ts:90671
 
 ***
 
@@ -185,7 +185,7 @@ left, right
 
 #### Source
 
-main.ts:90552
+main.ts:90646
 
 ***
 
@@ -198,7 +198,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:90548
+main.ts:90642
 
 ***
 
@@ -211,7 +211,7 @@ contains information about the ranking changes of the SERP element since the pre
 
 #### Source
 
-main.ts:90596
+main.ts:90690
 
 ***
 
@@ -224,7 +224,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:90545
+main.ts:90639
 
 ***
 
@@ -236,7 +236,7 @@ page and domain rank information
 
 #### Source
 
-main.ts:90600
+main.ts:90694
 
 ***
 
@@ -248,7 +248,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Source
 
-main.ts:90579
+main.ts:90673
 
 ***
 
@@ -260,7 +260,7 @@ search engine type
 
 #### Source
 
-main.ts:90542
+main.ts:90636
 
 ***
 
@@ -272,7 +272,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:90556
+main.ts:90650
 
 ***
 
@@ -284,7 +284,7 @@ relevant URL in SERP
 
 #### Source
 
-main.ts:90564
+main.ts:90658
 
 ***
 
@@ -296,4 +296,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:90554
+main.ts:90648

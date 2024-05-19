@@ -21,7 +21,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, `<>`, in, not_in
+regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in
 example:
 ["metrics.organic.pos_1,">`",0]
 [["metrics.organic.count",">=",100],
@@ -34,7 +34,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:86743
+main.ts:86825
 
 ***
 
@@ -50,7 +50,7 @@ learn more about the parameter in this help center article
 
 #### Source
 
-main.ts:86718
+main.ts:86800
 
 ***
 
@@ -69,7 +69,7 @@ default value:
 
 #### Source
 
-main.ts:86727
+main.ts:86809
 
 ***
 
@@ -87,7 +87,7 @@ en
 
 #### Source
 
-main.ts:86712
+main.ts:86794
 
 ***
 
@@ -105,7 +105,7 @@ English
 
 #### Source
 
-main.ts:86704
+main.ts:86786
 
 ***
 
@@ -120,7 +120,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:86765
+main.ts:86847
 
 ***
 
@@ -138,7 +138,7 @@ example:
 
 #### Source
 
-main.ts:86696
+main.ts:86778
 
 ***
 
@@ -156,7 +156,7 @@ United Kingdom
 
 #### Source
 
-main.ts:86688
+main.ts:86770
 
 ***
 
@@ -171,7 +171,7 @@ if you specify the 10 value, the first ten categories in the results array will 
 
 #### Source
 
-main.ts:86770
+main.ts:86852
 
 ***
 
@@ -198,7 +198,7 @@ Note: if the item_types array contains item types that are different from the or
 
 #### Source
 
-main.ts:86760
+main.ts:86842
 
 ***
 
@@ -214,7 +214,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:86776
+main.ts:86858
 
 ***
 
@@ -229,4 +229,4 @@ the domain or subdomain should be specified without https:// and www.
 
 #### Source
 
-main.ts:86680
+main.ts:86762

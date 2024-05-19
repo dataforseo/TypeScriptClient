@@ -24,7 +24,7 @@ id of the review
 
 #### Source
 
-main.ts:193626
+main.ts:194116
 
 ***
 
@@ -37,7 +37,7 @@ can take the following values: left
 
 #### Source
 
-main.ts:193614
+main.ts:194104
 
 ***
 
@@ -50,7 +50,7 @@ absolute position among all reviews on the list
 
 #### Source
 
-main.ts:193611
+main.ts:194101
 
 ***
 
@@ -63,7 +63,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:193608
+main.ts:194098
 
 ***
 
@@ -75,7 +75,7 @@ the rating score submitted by the reviewer
 
 #### Source
 
-main.ts:193619
+main.ts:194109
 
 ***
 
@@ -87,7 +87,7 @@ content of the review
 
 #### Source
 
-main.ts:193630
+main.ts:194120
 
 ***
 
@@ -102,7 +102,7 @@ example:
 
 #### Source
 
-main.ts:193624
+main.ts:194114
 
 ***
 
@@ -114,7 +114,7 @@ title of the review
 
 #### Source
 
-main.ts:193628
+main.ts:194118
 
 ***
 
@@ -126,7 +126,7 @@ user profile of the reviewer
 
 #### Source
 
-main.ts:193632
+main.ts:194122
 
 ***
 
@@ -139,4 +139,4 @@ version of the app for which the review is submitted
 
 #### Source
 
-main.ts:193617
+main.ts:194107

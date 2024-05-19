@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:192773
+main.ts:193263
 
 ## Properties
 
@@ -47,7 +47,7 @@ in this case, the value will be null
 
 #### Source
 
-main.ts:192756
+main.ts:193246
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Source
 
-main.ts:192761
+main.ts:193251
 
 ***
 
@@ -83,7 +83,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Source
 
-main.ts:192769
+main.ts:193259
 
 ***
 
@@ -100,7 +100,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Source
 
-main.ts:192766
+main.ts:193256
 
 ***
 
@@ -116,7 +116,7 @@ app collection received in a POST array
 
 #### Source
 
-main.ts:192747
+main.ts:193237
 
 ***
 
@@ -132,7 +132,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:192753
+main.ts:193243
 
 ***
 
@@ -148,7 +148,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:192751
+main.ts:193241
 
 ***
 
@@ -164,7 +164,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:192749
+main.ts:193239
 
 ***
 
@@ -180,7 +180,7 @@ the total number of results
 
 #### Source
 
-main.ts:192763
+main.ts:193253
 
 ## Methods
 
@@ -198,7 +198,7 @@ main.ts:192763
 
 #### Source
 
-main.ts:192782
+main.ts:193272
 
 ***
 
@@ -216,7 +216,7 @@ main.ts:192782
 
 #### Source
 
-main.ts:192811
+main.ts:193301
 
 ***
 
@@ -234,4 +234,4 @@ main.ts:192811
 
 #### Source
 
-main.ts:192804
+main.ts:193294

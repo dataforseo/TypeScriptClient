@@ -25,7 +25,7 @@ example:
 
 #### Source
 
-main.ts:159335
+main.ts:159331
 
 ***
 
@@ -37,8 +37,8 @@ URL of the content to parse
 required field
 URL of the page to parse
 example:
-https://www.fujielectric.com/
+https://dataforseo.com/blog/a-versatile-alternative-to-google-trends-exploring-the-power-of-dataforseo-trends-api
 
 #### Source
 
-main.ts:159328
+main.ts:159324

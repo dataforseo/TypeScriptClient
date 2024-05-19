@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:191762
+main.ts:192252
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:191762
 
 #### Source
 
-main.ts:21261
+main.ts:21341
 
 ***
 
@@ -68,7 +68,7 @@ age rating and age-based content advisories
 
 #### Source
 
-main.ts:191724
+main.ts:192214
 
 ***
 
@@ -84,7 +84,7 @@ ID of the app
 
 #### Source
 
-main.ts:191700
+main.ts:192190
 
 ***
 
@@ -100,7 +100,7 @@ all relevant categories/genres of the app
 
 #### Source
 
-main.ts:191720
+main.ts:192210
 
 ***
 
@@ -116,7 +116,7 @@ description of the app
 
 #### Source
 
-main.ts:191708
+main.ts:192198
 
 ***
 
@@ -132,7 +132,7 @@ name of the app developer
 
 #### Source
 
-main.ts:191726
+main.ts:192216
 
 ***
 
@@ -148,7 +148,7 @@ ID of the app developer
 
 #### Source
 
-main.ts:191728
+main.ts:192218
 
 ***
 
@@ -164,7 +164,7 @@ URL to the developer page on App Store
 
 #### Source
 
-main.ts:191730
+main.ts:192220
 
 ***
 
@@ -180,7 +180,7 @@ URL to the app icon
 
 #### Source
 
-main.ts:191706
+main.ts:192196
 
 ***
 
@@ -197,7 +197,7 @@ contains URLs to the images used on the app page on App Store
 
 #### Source
 
-main.ts:191752
+main.ts:192242
 
 ***
 
@@ -213,7 +213,7 @@ indicates whether the app is free
 
 #### Source
 
-main.ts:191716
+main.ts:192206
 
 ***
 
@@ -229,7 +229,7 @@ languages supported in the app
 
 #### Source
 
-main.ts:191722
+main.ts:192212
 
 ***
 
@@ -248,7 +248,7 @@ example:
 
 #### Source
 
-main.ts:191746
+main.ts:192236
 
 ***
 
@@ -264,7 +264,7 @@ main category/genre of the app
 
 #### Source
 
-main.ts:191718
+main.ts:192208
 
 ***
 
@@ -280,7 +280,7 @@ minimum OS version required to install the app
 
 #### Source
 
-main.ts:191734
+main.ts:192224
 
 ***
 
@@ -297,7 +297,7 @@ information about apps built by the same developer
 
 #### Source
 
-main.ts:191758
+main.ts:192248
 
 ***
 
@@ -314,7 +314,7 @@ can take the following values: left
 
 #### Source
 
-main.ts:191698
+main.ts:192188
 
 ***
 
@@ -330,7 +330,7 @@ price of the app
 
 #### Source
 
-main.ts:191714
+main.ts:192204
 
 ***
 
@@ -347,7 +347,7 @@ absolute position among all apps on the list
 
 #### Source
 
-main.ts:191695
+main.ts:192185
 
 ***
 
@@ -364,7 +364,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:191692
+main.ts:192182
 
 ***
 
@@ -380,7 +380,7 @@ average rating of the app
 
 #### Source
 
-main.ts:191712
+main.ts:192202
 
 ***
 
@@ -399,7 +399,7 @@ example:
 
 #### Source
 
-main.ts:191741
+main.ts:192231
 
 ***
 
@@ -415,7 +415,7 @@ the total number of reviews of the app
 
 #### Source
 
-main.ts:191710
+main.ts:192200
 
 ***
 
@@ -432,7 +432,7 @@ displays apps similar to the app in a POST request
 
 #### Source
 
-main.ts:191755
+main.ts:192245
 
 ***
 
@@ -448,7 +448,7 @@ size of the app
 
 #### Source
 
-main.ts:191736
+main.ts:192226
 
 ***
 
@@ -464,7 +464,7 @@ title of the app
 
 #### Source
 
-main.ts:191702
+main.ts:192192
 
 ***
 
@@ -481,7 +481,7 @@ contains the latest update notes from the developer
 
 #### Source
 
-main.ts:191749
+main.ts:192239
 
 ***
 
@@ -497,7 +497,7 @@ URL to the app page on App Store
 
 #### Source
 
-main.ts:191704
+main.ts:192194
 
 ***
 
@@ -513,7 +513,7 @@ current version of the app
 
 #### Source
 
-main.ts:191732
+main.ts:192222
 
 ## Methods
 
@@ -535,7 +535,7 @@ main.ts:191732
 
 #### Source
 
-main.ts:191767
+main.ts:192257
 
 ***
 
@@ -557,7 +557,7 @@ main.ts:191767
 
 #### Source
 
-main.ts:191836
+main.ts:192326
 
 ***
 
@@ -579,4 +579,4 @@ main.ts:191836
 
 #### Source
 
-main.ts:191829
+main.ts:192319

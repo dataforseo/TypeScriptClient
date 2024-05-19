@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:159349
+main.ts:159403
 
 ## Properties
 
@@ -46,7 +46,7 @@ content text
 
 #### Source
 
-main.ts:159342
+main.ts:159394
 
 ***
 
@@ -63,7 +63,23 @@ displayed in case the text is a link anchor
 
 #### Source
 
-main.ts:159345
+main.ts:159397
+
+***
+
+### urls?
+
+> **`optional`** **urls**: [`ContentUrlInfo`](ContentUrlInfo.md)[]
+
+contains other URLs and anchors found in the content element
+
+#### Implementation of
+
+[`IContentItemInfo`](../interfaces/IContentItemInfo.md).[`urls`](../interfaces/IContentItemInfo.md#urls)
+
+#### Source
+
+main.ts:159399
 
 ## Methods
 
@@ -81,7 +97,7 @@ main.ts:159345
 
 #### Source
 
-main.ts:159358
+main.ts:159412
 
 ***
 
@@ -99,7 +115,7 @@ main.ts:159358
 
 #### Source
 
-main.ts:159376
+main.ts:159435
 
 ***
 
@@ -117,4 +133,4 @@ main.ts:159376
 
 #### Source
 
-main.ts:159369
+main.ts:159428

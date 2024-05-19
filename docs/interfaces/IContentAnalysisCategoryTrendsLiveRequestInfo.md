@@ -22,7 +22,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Source
 
-main.ts:166720
+main.ts:167210
 
 ***
 
@@ -38,7 +38,7 @@ example:
 
 #### Source
 
-main.ts:166750
+main.ts:167240
 
 ***
 
@@ -53,7 +53,7 @@ possible values: day, week, month
 
 #### Source
 
-main.ts:166762
+main.ts:167252
 
 ***
 
@@ -70,7 +70,7 @@ example:
 
 #### Source
 
-main.ts:166757
+main.ts:167247
 
 ***
 
@@ -83,7 +83,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, <>, in, not_in, like,not_like, has, has_not
+regex, not_regex, <, `<=, >`, >=, =, <>, in, not_in, like,not_like, has, has_not
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["domain","<>", "logitech.com"]
@@ -97,7 +97,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 #### Source
 
-main.ts:166779
+main.ts:167269
 
 ***
 
@@ -118,7 +118,7 @@ maximum value: 20
 
 #### Source
 
-main.ts:166744
+main.ts:167234
 
 ***
 
@@ -134,7 +134,7 @@ possible values:
 
 #### Source
 
-main.ts:166726
+main.ts:167216
 
 ***
 
@@ -151,7 +151,7 @@ default value: as_is
 
 #### Source
 
-main.ts:166733
+main.ts:167223
 
 ***
 
@@ -167,4 +167,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:166785
+main.ts:167275

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:219448
+main.ts:219987
 
 ## Properties
 
@@ -44,7 +44,7 @@ main.ts:219448
 
 #### Source
 
-main.ts:219440
+main.ts:219978
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:219440
 
 #### Source
 
-main.ts:219441
+main.ts:219979
 
 ***
 
@@ -72,7 +72,7 @@ main.ts:219441
 
 #### Source
 
-main.ts:219439
+main.ts:219977
 
 ***
 
@@ -86,7 +86,7 @@ main.ts:219439
 
 #### Source
 
-main.ts:219442
+main.ts:219980
 
 ***
 
@@ -100,7 +100,7 @@ main.ts:219442
 
 #### Source
 
-main.ts:219443
+main.ts:219981
 
 ***
 
@@ -114,7 +114,21 @@ main.ts:219443
 
 #### Source
 
-main.ts:219444
+main.ts:219982
+
+***
+
+### tasks\_ready?
+
+> **`optional`** **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+
+#### Implementation of
+
+[`IAppendixMerchantPriceData`](../interfaces/IAppendixMerchantPriceData.md).[`tasks_ready`](../interfaces/IAppendixMerchantPriceData.md#tasks_ready)
+
+#### Source
+
+main.ts:219983
 
 ## Methods
 
@@ -132,7 +146,7 @@ main.ts:219444
 
 #### Source
 
-main.ts:219457
+main.ts:219996
 
 ***
 
@@ -150,7 +164,7 @@ main.ts:219457
 
 #### Source
 
-main.ts:219479
+main.ts:220019
 
 ***
 
@@ -168,4 +182,4 @@ main.ts:219479
 
 #### Source
 
-main.ts:219472
+main.ts:220012

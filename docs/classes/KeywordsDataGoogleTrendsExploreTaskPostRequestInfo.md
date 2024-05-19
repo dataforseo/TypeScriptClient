@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:123426
+main.ts:123520
 
 ## Properties
 
@@ -49,7 +49,7 @@ you can receive the list of available categories with their category_code by mak
 
 #### Source
 
-main.ts:123358
+main.ts:123452
 
 ***
 
@@ -72,7 +72,7 @@ example:
 
 #### Source
 
-main.ts:123367
+main.ts:123461
 
 ***
 
@@ -93,7 +93,7 @@ example:
 
 #### Source
 
-main.ts:123374
+main.ts:123468
 
 ***
 
@@ -119,7 +119,7 @@ possible values:
 
 #### Source
 
-main.ts:123396
+main.ts:123490
 
 ***
 
@@ -138,7 +138,7 @@ Note: comma symbols (,) in the specified keywords will be unset and ignored
 
 #### Source
 
-main.ts:123319
+main.ts:123413
 
 ***
 
@@ -160,7 +160,7 @@ en
 
 #### Source
 
-main.ts:123351
+main.ts:123445
 
 ***
 
@@ -182,7 +182,7 @@ English
 
 #### Source
 
-main.ts:123343
+main.ts:123437
 
 ***
 
@@ -204,7 +204,7 @@ example:
 
 #### Source
 
-main.ts:123335
+main.ts:123429
 
 ***
 
@@ -226,7 +226,7 @@ United Kingdom
 
 #### Source
 
-main.ts:123327
+main.ts:123421
 
 ***
 
@@ -250,7 +250,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:123416
+main.ts:123510
 
 ***
 
@@ -274,7 +274,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:123406
+main.ts:123500
 
 ***
 
@@ -294,7 +294,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:123422
+main.ts:123516
 
 ***
 
@@ -318,7 +318,7 @@ possible values for news, youtube, images, froogle:
 
 #### Source
 
-main.ts:123384
+main.ts:123478
 
 ***
 
@@ -334,7 +334,7 @@ type of element
 
 #### Source
 
-main.ts:123353
+main.ts:123447
 
 ## Methods
 
@@ -352,7 +352,7 @@ main.ts:123353
 
 #### Source
 
-main.ts:123435
+main.ts:123529
 
 ***
 
@@ -370,7 +370,7 @@ main.ts:123435
 
 #### Source
 
-main.ts:123473
+main.ts:123567
 
 ***
 
@@ -388,4 +388,4 @@ main.ts:123473
 
 #### Source
 
-main.ts:123466
+main.ts:123560

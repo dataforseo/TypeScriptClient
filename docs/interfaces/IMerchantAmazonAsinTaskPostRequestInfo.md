@@ -23,7 +23,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 #### Source
 
-main.ts:179244
+main.ts:179734
 
 ***
 
@@ -40,7 +40,7 @@ en_GB
 
 #### Source
 
-main.ts:179291
+main.ts:179781
 
 ***
 
@@ -58,7 +58,7 @@ English (United Kingdom)
 
 #### Source
 
-main.ts:179284
+main.ts:179774
 
 ***
 
@@ -76,7 +76,7 @@ example:
 
 #### Source
 
-main.ts:179267
+main.ts:179757
 
 ***
 
@@ -95,7 +95,7 @@ example:
 
 #### Source
 
-main.ts:179276
+main.ts:179766
 
 ***
 
@@ -112,7 +112,7 @@ HA1,England,United Kingdom
 
 #### Source
 
-main.ts:179259
+main.ts:179749
 
 ***
 
@@ -132,7 +132,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:179330
+main.ts:179820
 
 ***
 
@@ -148,7 +148,7 @@ advanced, html
 
 #### Source
 
-main.ts:179320
+main.ts:179810
 
 ***
 
@@ -168,7 +168,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:179314
+main.ts:179804
 
 ***
 
@@ -186,7 +186,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:179252
+main.ts:179742
 
 ***
 
@@ -203,7 +203,7 @@ amazon.com, amazon.co.uk, amazon.fr, etc.
 
 #### Source
 
-main.ts:179298
+main.ts:179788
 
 ***
 
@@ -219,4 +219,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:179304
+main.ts:179794

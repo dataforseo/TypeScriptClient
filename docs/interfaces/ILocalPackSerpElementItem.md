@@ -24,7 +24,7 @@ google-defined client id
 
 #### Source
 
-main.ts:30998
+main.ts:31078
 
 ***
 
@@ -36,7 +36,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:30985
+main.ts:31065
 
 ***
 
@@ -48,7 +48,7 @@ source domain
 
 #### Source
 
-main.ts:30987
+main.ts:31067
 
 ***
 
@@ -60,7 +60,7 @@ indicates whether the element is an ad
 
 #### Source
 
-main.ts:30993
+main.ts:31073
 
 ***
 
@@ -72,7 +72,7 @@ phone number
 
 #### Source
 
-main.ts:30989
+main.ts:31069
 
 ***
 
@@ -86,7 +86,7 @@ left, right
 
 #### Source
 
-main.ts:30979
+main.ts:31059
 
 ***
 
@@ -100,7 +100,7 @@ always equals 0 for desktop
 
 #### Source
 
-main.ts:30975
+main.ts:31055
 
 ***
 
@@ -115,7 +115,7 @@ always equals 0 for desktop
 
 #### Source
 
-main.ts:30971
+main.ts:31051
 
 ***
 
@@ -128,7 +128,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:30996
+main.ts:31076
 
 ***
 
@@ -142,7 +142,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Source
 
-main.ts:31002
+main.ts:31082
 
 ***
 
@@ -154,7 +154,7 @@ title of the row
 
 #### Source
 
-main.ts:30983
+main.ts:31063
 
 ***
 
@@ -166,7 +166,7 @@ source URL
 
 #### Source
 
-main.ts:30991
+main.ts:31071
 
 ***
 
@@ -178,4 +178,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:30981
+main.ts:31061

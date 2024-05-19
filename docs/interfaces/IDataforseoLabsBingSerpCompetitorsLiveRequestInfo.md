@@ -21,7 +21,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
+regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["median_position","in",[1,10]]
@@ -33,7 +33,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:110556
+main.ts:110650
 
 ***
 
@@ -48,7 +48,7 @@ default value: true
 
 #### Source
 
-main.ts:110523
+main.ts:110617
 
 ***
 
@@ -66,7 +66,7 @@ default value:
 
 #### Source
 
-main.ts:110531
+main.ts:110625
 
 ***
 
@@ -84,7 +84,7 @@ you can specify the maximum of 200 keywords
 
 #### Source
 
-main.ts:110484
+main.ts:110578
 
 ***
 
@@ -102,7 +102,7 @@ en
 
 #### Source
 
-main.ts:110518
+main.ts:110612
 
 ***
 
@@ -120,7 +120,7 @@ English
 
 #### Source
 
-main.ts:110510
+main.ts:110604
 
 ***
 
@@ -135,7 +135,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:110536
+main.ts:110630
 
 ***
 
@@ -154,7 +154,7 @@ example:
 
 #### Source
 
-main.ts:110502
+main.ts:110596
 
 ***
 
@@ -173,7 +173,7 @@ United States
 
 #### Source
 
-main.ts:110493
+main.ts:110587
 
 ***
 
@@ -188,7 +188,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 #### Source
 
-main.ts:110541
+main.ts:110635
 
 ***
 
@@ -214,7 +214,7 @@ example:
 
 #### Source
 
-main.ts:110572
+main.ts:110666
 
 ***
 
@@ -230,4 +230,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:110578
+main.ts:110672

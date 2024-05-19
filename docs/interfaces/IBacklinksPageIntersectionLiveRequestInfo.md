@@ -27,7 +27,7 @@ default value: live
 
 #### Source
 
-main.ts:144133
+main.ts:144141
 
 ***
 
@@ -47,7 +47,7 @@ example:
 
 #### Source
 
-main.ts:144124
+main.ts:144132
 
 ***
 
@@ -60,7 +60,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, =, `<>`, in, not_in, like, not_like, ilike, not_ilike
+regex, not_regex, =, `<>`, in, not_in, like, not_like, ilike, not_ilike
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["1.rank",">`","80"]
@@ -74,7 +74,7 @@ The full list of possible filters is available here.
 
 #### Source
 
-main.ts:144150
+main.ts:144158
 
 ***
 
@@ -90,7 +90,7 @@ default value: true
 
 #### Source
 
-main.ts:144193
+main.ts:144201
 
 ***
 
@@ -105,7 +105,7 @@ default value: true
 
 #### Source
 
-main.ts:144187
+main.ts:144195
 
 ***
 
@@ -123,7 +123,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:144182
+main.ts:144190
 
 ***
 
@@ -134,14 +134,14 @@ main.ts:144182
 indicates whether to intersect backlinks
 optional field
 use this field to intersect or merge results for the specified URLs
-possible values: all, partical
+possible values: all, partial
 all – results are based on all backlinks;
 partial – results are based on the intersecting backlinks only;
 default value: all
 
 #### Source
 
-main.ts:144201
+main.ts:144209
 
 ***
 
@@ -156,7 +156,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:144174
+main.ts:144182
 
 ***
 
@@ -171,7 +171,7 @@ if you specify the 10 value, the first ten backlinks in the results array will b
 
 #### Source
 
-main.ts:144169
+main.ts:144177
 
 ***
 
@@ -195,7 +195,7 @@ example:
 
 #### Source
 
-main.ts:144164
+main.ts:144172
 
 ***
 
@@ -211,7 +211,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:144207
+main.ts:144215
 
 ***
 
@@ -236,4 +236,4 @@ example:
 
 #### Source
 
-main.ts:144114
+main.ts:144122

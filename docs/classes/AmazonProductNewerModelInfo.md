@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:179647
+main.ts:180137
 
 ## Properties
 
@@ -46,7 +46,7 @@ ASIN of the newer product model
 
 #### Source
 
-main.ts:179643
+main.ts:180133
 
 ***
 
@@ -62,7 +62,7 @@ product title
 
 #### Source
 
-main.ts:179641
+main.ts:180131
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:179641
 
 #### Source
 
-main.ts:179656
+main.ts:180146
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:179656
 
 #### Source
 
-main.ts:179674
+main.ts:180164
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:179674
 
 #### Source
 
-main.ts:179667
+main.ts:180157

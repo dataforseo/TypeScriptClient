@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:143058
+main.ts:143066
 
 ## Properties
 
@@ -52,7 +52,7 @@ example:
 
 #### Source
 
-main.ts:143024
+main.ts:143032
 
 ***
 
@@ -75,7 +75,7 @@ default value: live
 
 #### Source
 
-main.ts:143016
+main.ts:143024
 
 ***
 
@@ -94,7 +94,7 @@ default value: true
 
 #### Source
 
-main.ts:143040
+main.ts:143048
 
 ***
 
@@ -118,7 +118,7 @@ example:
 
 #### Source
 
-main.ts:142955
+main.ts:142963
 
 ***
 
@@ -131,7 +131,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, =, `<>`, in, not_in, like, not_like, ilike, not_ilike
+regex, not_regex, =, `<>`, in, not_in, like, not_like, ilike, not_ilike
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["1.internal_links_count",">`","1"]
@@ -149,7 +149,7 @@ The full list of possible filters is available here.
 
 #### Source
 
-main.ts:142972
+main.ts:142980
 
 ***
 
@@ -169,7 +169,7 @@ default value: true
 
 #### Source
 
-main.ts:143035
+main.ts:143043
 
 ***
 
@@ -188,7 +188,7 @@ default value: true
 
 #### Source
 
-main.ts:143029
+main.ts:143037
 
 ***
 
@@ -213,7 +213,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:143007
+main.ts:143015
 
 ***
 
@@ -224,7 +224,7 @@ main.ts:143007
 indicates whether to intersect backlinks
 optional field
 use this field to intersect or merge results for the specified domains
-possible values: all, partical
+possible values: all, partial
 all – results are based on all backlinks;
 partial – results are based on the intersecting backlinks only;
 default value: all
@@ -235,7 +235,7 @@ default value: all
 
 #### Source
 
-main.ts:143048
+main.ts:143056
 
 ***
 
@@ -254,7 +254,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:142996
+main.ts:143004
 
 ***
 
@@ -273,7 +273,7 @@ if you specify the 10 value, the first ten backlinks in the results array will b
 
 #### Source
 
-main.ts:142991
+main.ts:142999
 
 ***
 
@@ -301,7 +301,7 @@ example:
 
 #### Source
 
-main.ts:142986
+main.ts:142994
 
 ***
 
@@ -321,7 +321,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:143054
+main.ts:143062
 
 ***
 
@@ -350,7 +350,7 @@ example:
 
 #### Source
 
-main.ts:142945
+main.ts:142953
 
 ## Methods
 
@@ -368,7 +368,7 @@ main.ts:142945
 
 #### Source
 
-main.ts:143067
+main.ts:143075
 
 ***
 
@@ -386,7 +386,7 @@ main.ts:143067
 
 #### Source
 
-main.ts:143119
+main.ts:143127
 
 ***
 
@@ -404,4 +404,4 @@ main.ts:143119
 
 #### Source
 
-main.ts:143112
+main.ts:143120

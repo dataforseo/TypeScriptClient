@@ -20,7 +20,7 @@ number of backlinks for the given date
 
 #### Source
 
-main.ts:145183
+main.ts:145191
 
 ***
 
@@ -32,7 +32,7 @@ number of nofollow backlinks for the given date
 
 #### Source
 
-main.ts:145185
+main.ts:145193
 
 ***
 
@@ -47,7 +47,7 @@ example:
 
 #### Source
 
-main.ts:145178
+main.ts:145186
 
 ***
 
@@ -60,7 +60,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Source
 
-main.ts:145181
+main.ts:145189
 
 ***
 
@@ -73,7 +73,7 @@ referring domains include subdomains that are counted as separate domains for th
 
 #### Source
 
-main.ts:145192
+main.ts:145200
 
 ***
 
@@ -85,7 +85,7 @@ number of domains pointing at least one nofollow link to the target for the give
 
 #### Source
 
-main.ts:145194
+main.ts:145202
 
 ***
 
@@ -98,7 +98,7 @@ number of IP addresses pointing to this page
 
 #### Source
 
-main.ts:145201
+main.ts:145209
 
 ***
 
@@ -110,7 +110,7 @@ number of referring main domains for the given date
 
 #### Source
 
-main.ts:145196
+main.ts:145204
 
 ***
 
@@ -122,7 +122,7 @@ number of main domains pointing at least one nofollow link to the target for the
 
 #### Source
 
-main.ts:145198
+main.ts:145206
 
 ***
 
@@ -134,7 +134,7 @@ number of pages pointing to target for the given date
 
 #### Source
 
-main.ts:145187
+main.ts:145195
 
 ***
 
@@ -146,7 +146,7 @@ number of referring pages pointing at least one nofollow link to the target for 
 
 #### Source
 
-main.ts:145189
+main.ts:145197
 
 ***
 
@@ -158,7 +158,7 @@ number of referring subnetworks for the given date
 
 #### Source
 
-main.ts:145203
+main.ts:145211
 
 ***
 
@@ -170,4 +170,4 @@ type of element
 
 #### Source
 
-main.ts:145173
+main.ts:145181

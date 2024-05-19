@@ -21,7 +21,7 @@ for example: zip, html, csv
 
 #### Source
 
-main.ts:54000
+main.ts:54080
 
 ***
 
@@ -33,7 +33,7 @@ file size in bytes
 
 #### Source
 
-main.ts:54002
+main.ts:54082
 
 ***
 
@@ -45,4 +45,4 @@ type of element
 
 #### Source
 
-main.ts:53997
+main.ts:54077

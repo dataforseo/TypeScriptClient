@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:30060
+main.ts:30140
 
 ## Properties
 
@@ -46,7 +46,7 @@ the date when the page source of the element was published
 
 #### Source
 
-main.ts:30049
+main.ts:30129
 
 ***
 
@@ -65,7 +65,7 @@ example:
 
 #### Source
 
-main.ts:30054
+main.ts:30134
 
 ***
 
@@ -81,7 +81,7 @@ tweet message
 
 #### Source
 
-main.ts:30047
+main.ts:30127
 
 ***
 
@@ -97,7 +97,7 @@ type of element
 
 #### Source
 
-main.ts:30045
+main.ts:30125
 
 ***
 
@@ -113,7 +113,7 @@ URL
 
 #### Source
 
-main.ts:30056
+main.ts:30136
 
 ## Methods
 
@@ -131,7 +131,7 @@ main.ts:30056
 
 #### Source
 
-main.ts:30069
+main.ts:30149
 
 ***
 
@@ -149,7 +149,7 @@ main.ts:30069
 
 #### Source
 
-main.ts:30090
+main.ts:30170
 
 ***
 
@@ -167,4 +167,4 @@ main.ts:30090
 
 #### Source
 
-main.ts:30083
+main.ts:30163

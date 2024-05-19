@@ -24,7 +24,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:96909
+main.ts:97003
 
 ***
 
@@ -36,7 +36,7 @@ domain where a link points
 
 #### Source
 
-main.ts:96911
+main.ts:97005
 
 ***
 
@@ -51,7 +51,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:96939
+main.ts:97033
 
 ***
 
@@ -66,7 +66,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:96929
+main.ts:97023
 
 ***
 
@@ -81,7 +81,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:96934
+main.ts:97028
 
 ***
 
@@ -93,7 +93,7 @@ indicates whether the element is an ad
 
 #### Source
 
-main.ts:96917
+main.ts:97011
 
 ***
 
@@ -105,7 +105,7 @@ primary domain name in SERP
 
 #### Source
 
-main.ts:96922
+main.ts:97016
 
 ***
 
@@ -117,7 +117,7 @@ phone number
 
 #### Source
 
-main.ts:96913
+main.ts:97007
 
 ***
 
@@ -131,7 +131,7 @@ left, right
 
 #### Source
 
-main.ts:96903
+main.ts:96997
 
 ***
 
@@ -144,7 +144,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:96899
+main.ts:96993
 
 ***
 
@@ -158,7 +158,7 @@ Note: the changes are calculated even if the preceding month is not included in 
 
 #### Source
 
-main.ts:96943
+main.ts:97037
 
 ***
 
@@ -171,7 +171,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:96896
+main.ts:96990
 
 ***
 
@@ -184,7 +184,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:96920
+main.ts:97014
 
 ***
 
@@ -196,7 +196,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Source
 
-main.ts:96924
+main.ts:97018
 
 ***
 
@@ -208,7 +208,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:96907
+main.ts:97001
 
 ***
 
@@ -220,7 +220,7 @@ relevant URL of the Ad element in SERP
 
 #### Source
 
-main.ts:96915
+main.ts:97009
 
 ***
 
@@ -232,4 +232,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:96905
+main.ts:96999

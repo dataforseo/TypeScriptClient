@@ -28,7 +28,7 @@ contains information specified about the product within the section_name
 
 #### Source
 
-main.ts:179814
+main.ts:180304
 
 ***
 
@@ -40,4 +40,4 @@ name of the section related to product information specified in the contents
 
 #### Source
 
-main.ts:179812
+main.ts:180302

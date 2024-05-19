@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:152776
+main.ts:152772
 
 ## Properties
 
@@ -43,7 +43,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, <>, in, not_in, like, not_like
+regex, not_regex, <, `<=, >`, >=, =, <>, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["meta.external_links_count","<=",50]["url","like","https://dataforseo.com/apis/dataforseo-labs-api"]
@@ -58,7 +58,7 @@ The full list of possible filters is available by this link.
 
 #### Source
 
-main.ts:152752
+main.ts:152748
 
 ***
 
@@ -78,7 +78,7 @@ example:
 
 #### Source
 
-main.ts:152722
+main.ts:152718
 
 ***
 
@@ -97,7 +97,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:152733
+main.ts:152729
 
 ***
 
@@ -116,7 +116,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Source
 
-main.ts:152738
+main.ts:152734
 
 ***
 
@@ -144,7 +144,7 @@ example:
 
 #### Source
 
-main.ts:152766
+main.ts:152762
 
 ***
 
@@ -164,7 +164,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:152772
+main.ts:152768
 
 ***
 
@@ -184,7 +184,7 @@ https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js
 
 #### Source
 
-main.ts:152728
+main.ts:152724
 
 ## Methods
 
@@ -202,7 +202,7 @@ main.ts:152728
 
 #### Source
 
-main.ts:152785
+main.ts:152781
 
 ***
 
@@ -220,7 +220,7 @@ main.ts:152785
 
 #### Source
 
-main.ts:152816
+main.ts:152812
 
 ***
 
@@ -238,4 +238,4 @@ main.ts:152816
 
 #### Source
 
-main.ts:152809
+main.ts:152805

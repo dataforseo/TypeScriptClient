@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:100132
+main.ts:100226
 
 ## Properties
 
@@ -57,7 +57,7 @@ example:
 
 #### Source
 
-main.ts:100013
+main.ts:100107
 
 ***
 
@@ -70,7 +70,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
+regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 note that if you want to filter by any field in the intersection_result array you need to specify the number of corresponding page
 for instance, if you want to filter results by the ranking of the first specified URL, you should set the following filter:
@@ -91,7 +91,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:100106
+main.ts:100200
 
 ***
 
@@ -110,7 +110,7 @@ default value: false
 
 #### Source
 
-main.ts:100086
+main.ts:100180
 
 ***
 
@@ -129,7 +129,7 @@ default value: false
 
 #### Source
 
-main.ts:100081
+main.ts:100175
 
 ***
 
@@ -148,7 +148,7 @@ default value: true
 
 #### Source
 
-main.ts:100068
+main.ts:100162
 
 ***
 
@@ -170,7 +170,7 @@ by default, results are based on the intersect mode if you specify only pages ar
 
 #### Source
 
-main.ts:100076
+main.ts:100170
 
 ***
 
@@ -192,7 +192,7 @@ default value:
 
 #### Source
 
-main.ts:100053
+main.ts:100147
 
 ***
 
@@ -214,7 +214,7 @@ en
 
 #### Source
 
-main.ts:100045
+main.ts:100139
 
 ***
 
@@ -236,7 +236,7 @@ English
 
 #### Source
 
-main.ts:100037
+main.ts:100131
 
 ***
 
@@ -255,7 +255,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:100058
+main.ts:100152
 
 ***
 
@@ -277,7 +277,7 @@ example:
 
 #### Source
 
-main.ts:100029
+main.ts:100123
 
 ***
 
@@ -299,7 +299,7 @@ United Kingdom
 
 #### Source
 
-main.ts:100021
+main.ts:100115
 
 ***
 
@@ -318,7 +318,7 @@ if you specify 10 here, the first ten keywords in the results array will be omit
 
 #### Source
 
-main.ts:100063
+main.ts:100157
 
 ***
 
@@ -348,7 +348,7 @@ example:
 
 #### Source
 
-main.ts:100122
+main.ts:100216
 
 ***
 
@@ -387,7 +387,7 @@ Note: this endpoint will not provide results if the number of intersecting keywo
 
 #### Source
 
-main.ts:100000
+main.ts:100094
 
 ***
 
@@ -407,7 +407,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:100128
+main.ts:100222
 
 ## Methods
 
@@ -425,7 +425,7 @@ main.ts:100128
 
 #### Source
 
-main.ts:100141
+main.ts:100235
 
 ***
 
@@ -443,7 +443,7 @@ main.ts:100141
 
 #### Source
 
-main.ts:100195
+main.ts:100289
 
 ***
 
@@ -461,4 +461,4 @@ main.ts:100195
 
 #### Source
 
-main.ts:100188
+main.ts:100282

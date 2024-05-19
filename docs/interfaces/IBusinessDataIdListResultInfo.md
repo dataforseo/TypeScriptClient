@@ -20,7 +20,7 @@ cost of the task, USD
 
 #### Source
 
-main.ts:194694
+main.ts:195184
 
 ***
 
@@ -35,7 +35,7 @@ example:
 
 #### Source
 
-main.ts:194689
+main.ts:195179
 
 ***
 
@@ -50,7 +50,7 @@ example:
 
 #### Source
 
-main.ts:194684
+main.ts:195174
 
 ***
 
@@ -62,7 +62,7 @@ id of the task
 
 #### Source
 
-main.ts:194676
+main.ts:195166
 
 ***
 
@@ -78,7 +78,7 @@ contains parameters you specified in the POST request
 
 #### Source
 
-main.ts:194696
+main.ts:195186
 
 ***
 
@@ -91,7 +91,7 @@ you can find the full list of general informational messages here
 
 #### Source
 
-main.ts:194692
+main.ts:195182
 
 ***
 
@@ -104,4 +104,4 @@ URL you used for making an API call
 
 #### Source
 
-main.ts:194679
+main.ts:195169

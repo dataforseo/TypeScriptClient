@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:122087
+main.ts:122181
 
 ## Properties
 
@@ -50,7 +50,7 @@ learn more in this help center article
 
 #### Source
 
-main.ts:122001
+main.ts:122095
 
 ***
 
@@ -74,7 +74,7 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 #### Source
 
-main.ts:122057
+main.ts:122151
 
 ***
 
@@ -94,7 +94,7 @@ default value: next_month
 
 #### Source
 
-main.ts:122072
+main.ts:122166
 
 ***
 
@@ -117,7 +117,7 @@ example:
 
 #### Source
 
-main.ts:122066
+main.ts:122160
 
 ***
 
@@ -142,7 +142,7 @@ to learn more about which symbols can be used, please refer to this article
 
 #### Source
 
-main.ts:121995
+main.ts:122089
 
 ***
 
@@ -162,7 +162,7 @@ en
 
 #### Source
 
-main.ts:122047
+main.ts:122141
 
 ***
 
@@ -182,7 +182,7 @@ English
 
 #### Source
 
-main.ts:122041
+main.ts:122135
 
 ***
 
@@ -204,7 +204,7 @@ example:
 
 #### Source
 
-main.ts:122026
+main.ts:122120
 
 ***
 
@@ -227,7 +227,7 @@ example:
 
 #### Source
 
-main.ts:122035
+main.ts:122129
 
 ***
 
@@ -249,7 +249,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:122018
+main.ts:122112
 
 ***
 
@@ -267,7 +267,7 @@ can take the following values: exact, broad, phrase
 
 #### Source
 
-main.ts:122005
+main.ts:122099
 
 ***
 
@@ -286,7 +286,7 @@ default value: false – results are returned for Google search sites
 
 #### Source
 
-main.ts:122010
+main.ts:122104
 
 ***
 
@@ -305,7 +305,7 @@ default value: relevance
 
 #### Source
 
-main.ts:122077
+main.ts:122171
 
 ***
 
@@ -325,7 +325,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:122083
+main.ts:122177
 
 ## Methods
 
@@ -343,7 +343,7 @@ main.ts:122083
 
 #### Source
 
-main.ts:122096
+main.ts:122190
 
 ***
 
@@ -361,7 +361,7 @@ main.ts:122096
 
 #### Source
 
-main.ts:122130
+main.ts:122224
 
 ***
 
@@ -379,4 +379,4 @@ main.ts:122130
 
 #### Source
 
-main.ts:122123
+main.ts:122217

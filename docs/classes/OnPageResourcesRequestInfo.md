@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:153168
+main.ts:153164
 
 ## Properties
 
@@ -43,7 +43,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
+regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["resource_type","=","stylesheet"]
@@ -58,7 +58,7 @@ The full list of possible filters is available by this link.
 
 #### Source
 
-main.ts:153132
+main.ts:153128
 
 ***
 
@@ -78,7 +78,7 @@ example:
 
 #### Source
 
-main.ts:153102
+main.ts:153098
 
 ***
 
@@ -97,7 +97,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:153113
+main.ts:153109
 
 ***
 
@@ -116,7 +116,7 @@ if you specify the 10 value, the first ten resources in the results array will b
 
 #### Source
 
-main.ts:153118
+main.ts:153114
 
 ***
 
@@ -144,7 +144,7 @@ example:
 
 #### Source
 
-main.ts:153158
+main.ts:153154
 
 ***
 
@@ -159,7 +159,7 @@ you can apply the same filters here as available for the pages endpoint
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, <>, in, not_in, like, not_like
+regex, not_regex, <, `<=, >`, >=, =, <>, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["checks.no_image_title","=",true]
@@ -170,7 +170,7 @@ example:
 
 #### Source
 
-main.ts:153144
+main.ts:153140
 
 ***
 
@@ -190,7 +190,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:153164
+main.ts:153160
 
 ***
 
@@ -210,7 +210,7 @@ if you do not indicate a url when setting a task, resource’s meta in the resul
 
 #### Source
 
-main.ts:153108
+main.ts:153104
 
 ## Methods
 
@@ -228,7 +228,7 @@ main.ts:153108
 
 #### Source
 
-main.ts:153177
+main.ts:153173
 
 ***
 
@@ -246,7 +246,7 @@ main.ts:153177
 
 #### Source
 
-main.ts:153213
+main.ts:153209
 
 ***
 
@@ -264,4 +264,4 @@ main.ts:153213
 
 #### Source
 
-main.ts:153206
+main.ts:153202

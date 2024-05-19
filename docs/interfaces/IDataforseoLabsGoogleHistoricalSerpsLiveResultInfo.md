@@ -20,7 +20,7 @@ contains results featured in the ‘hotels_pack’ element of SERP
 
 #### Source
 
-main.ts:95844
+main.ts:95938
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:95842
+main.ts:95936
 
 ***
 
@@ -45,7 +45,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Source
 
-main.ts:95834
+main.ts:95928
 
 ***
 
@@ -57,7 +57,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:95838
+main.ts:95932
 
 ***
 
@@ -69,7 +69,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:95836
+main.ts:95930
 
 ***
 
@@ -81,7 +81,7 @@ search engine type
 
 #### Source
 
-main.ts:95831
+main.ts:95925
 
 ***
 
@@ -93,4 +93,4 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:95840
+main.ts:95934

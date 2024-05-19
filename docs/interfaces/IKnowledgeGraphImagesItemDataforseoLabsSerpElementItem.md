@@ -25,19 +25,19 @@ if there are none, equals null
 
 #### Source
 
-main.ts:95218
+main.ts:95312
 
 ***
 
 ### link?
 
-> **`optional`** **link**: `any`
+> **`optional`** **link**: [`LinkElement`](../classes/LinkElement.md)
 
 link of the element
 
 #### Source
 
-main.ts:95215
+main.ts:95309
 
 ***
 
@@ -51,7 +51,7 @@ left, right
 
 #### Source
 
-main.ts:95211
+main.ts:95305
 
 ***
 
@@ -64,7 +64,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:95207
+main.ts:95301
 
 ***
 
@@ -78,7 +78,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:95204
+main.ts:95298
 
 ***
 
@@ -90,4 +90,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:95213
+main.ts:95307

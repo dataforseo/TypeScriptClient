@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:154246
+main.ts:154242
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:154246
 
 #### Source
 
-main.ts:20927
+main.ts:21007
 
 ***
 
@@ -71,7 +71,7 @@ any, none, image, sitemap, robots, script, stylesheet, redirect, html, text, oth
 
 #### Source
 
-main.ts:154237
+main.ts:154233
 
 ***
 
@@ -87,7 +87,7 @@ instructions for caching
 
 #### Source
 
-main.ts:154225
+main.ts:154221
 
 ***
 
@@ -108,7 +108,7 @@ contents of the array depend on the resource_type
 
 #### Source
 
-main.ts:154228
+main.ts:154224
 
 ***
 
@@ -124,7 +124,7 @@ type of encoding
 
 #### Source
 
-main.ts:154230
+main.ts:154226
 
 ***
 
@@ -141,7 +141,7 @@ indicates the size of the encoded resource measured in bytes
 
 #### Source
 
-main.ts:154213
+main.ts:154209
 
 ***
 
@@ -160,7 +160,7 @@ example:
 
 #### Source
 
-main.ts:154221
+main.ts:154217
 
 ***
 
@@ -176,7 +176,7 @@ resource fething time range
 
 #### Source
 
-main.ts:154223
+main.ts:154219
 
 ***
 
@@ -193,7 +193,7 @@ if there is no data, the value will be null
 
 #### Source
 
-main.ts:154242
+main.ts:154238
 
 ***
 
@@ -210,7 +210,7 @@ indicates the URL to redirect a page to
 
 #### Source
 
-main.ts:154205
+main.ts:154201
 
 ***
 
@@ -226,7 +226,7 @@ types of media used to display a resource
 
 #### Source
 
-main.ts:154232
+main.ts:154228
 
 ***
 
@@ -245,7 +245,7 @@ to obtain resource’s meta from a particular url, specify that URL when setting
 
 #### Source
 
-main.ts:154200
+main.ts:154196
 
 ***
 
@@ -261,7 +261,7 @@ server version
 
 #### Source
 
-main.ts:154239
+main.ts:154235
 
 ***
 
@@ -278,7 +278,7 @@ indicates the size of a given resource measured in bytes
 
 #### Source
 
-main.ts:154210
+main.ts:154206
 
 ***
 
@@ -294,7 +294,7 @@ status code of the page where a given resource is located
 
 #### Source
 
-main.ts:154202
+main.ts:154198
 
 ***
 
@@ -311,7 +311,7 @@ indicates the compressed size of a given resource in bytes
 
 #### Source
 
-main.ts:154216
+main.ts:154212
 
 ***
 
@@ -327,7 +327,7 @@ resource URL
 
 #### Source
 
-main.ts:154207
+main.ts:154203
 
 ## Methods
 
@@ -349,7 +349,7 @@ main.ts:154207
 
 #### Source
 
-main.ts:154251
+main.ts:154247
 
 ***
 
@@ -371,7 +371,7 @@ main.ts:154251
 
 #### Source
 
-main.ts:154290
+main.ts:154286
 
 ***
 
@@ -393,4 +393,4 @@ main.ts:154290
 
 #### Source
 
-main.ts:154283
+main.ts:154279

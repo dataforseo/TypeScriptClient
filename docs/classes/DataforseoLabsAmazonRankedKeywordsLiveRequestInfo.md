@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:103030
+main.ts:103124
 
 ## Properties
 
@@ -49,7 +49,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 #### Source
 
-main.ts:102948
+main.ts:103042
 
 ***
 
@@ -62,7 +62,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, <>, in, not_in, like, not_like
+regex, not_regex, <, `<=, >`, >=, =, <>, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["keyword_data.keyword_info.search_volume","in",[100,1000]];
@@ -74,7 +74,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:102999
+main.ts:103093
 
 ***
 
@@ -93,7 +93,7 @@ default value: false
 
 #### Source
 
-main.ts:102988
+main.ts:103082
 
 ***
 
@@ -114,7 +114,7 @@ en
 
 #### Source
 
-main.ts:102978
+main.ts:103072
 
 ***
 
@@ -135,7 +135,7 @@ English
 
 #### Source
 
-main.ts:102971
+main.ts:103065
 
 ***
 
@@ -154,7 +154,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:102983
+main.ts:103077
 
 ***
 
@@ -176,7 +176,7 @@ example:
 
 #### Source
 
-main.ts:102964
+main.ts:103058
 
 ***
 
@@ -198,7 +198,7 @@ United States
 
 #### Source
 
-main.ts:102956
+main.ts:103050
 
 ***
 
@@ -217,7 +217,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:103020
+main.ts:103114
 
 ***
 
@@ -247,7 +247,7 @@ example:
 
 #### Source
 
-main.ts:103015
+main.ts:103109
 
 ***
 
@@ -267,7 +267,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:103026
+main.ts:103120
 
 ## Methods
 
@@ -285,7 +285,7 @@ main.ts:103026
 
 #### Source
 
-main.ts:103039
+main.ts:103133
 
 ***
 
@@ -303,7 +303,7 @@ main.ts:103039
 
 #### Source
 
-main.ts:103074
+main.ts:103168
 
 ***
 
@@ -321,4 +321,4 @@ main.ts:103074
 
 #### Source
 
-main.ts:103067
+main.ts:103161

@@ -20,7 +20,7 @@ cost, USD
 
 #### Source
 
-main.ts:218461
+main.ts:218999
 
 ***
 
@@ -35,4 +35,4 @@ per_request – charge for a GET or POST request
 
 #### Source
 
-main.ts:218459
+main.ts:218997

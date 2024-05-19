@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:65641
+main.ts:65723
 
 ## Properties
 
@@ -53,7 +53,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:65631
+main.ts:65713
 
 ***
 
@@ -71,7 +71,7 @@ only value: desktop
 
 #### Source
 
-main.ts:65617
+main.ts:65699
 
 ***
 
@@ -92,7 +92,7 @@ en
 
 #### Source
 
-main.ts:65613
+main.ts:65695
 
 ***
 
@@ -113,7 +113,7 @@ English
 
 #### Source
 
-main.ts:65606
+main.ts:65688
 
 ***
 
@@ -134,7 +134,7 @@ example:
 
 #### Source
 
-main.ts:65599
+main.ts:65681
 
 ***
 
@@ -155,7 +155,7 @@ United States
 
 #### Source
 
-main.ts:65592
+main.ts:65674
 
 ***
 
@@ -174,7 +174,7 @@ default value: windows
 
 #### Source
 
-main.ts:65622
+main.ts:65704
 
 ***
 
@@ -194,7 +194,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:65637
+main.ts:65719
 
 ***
 
@@ -214,7 +214,7 @@ vQXvyV0zIP4
 
 #### Source
 
-main.ts:65585
+main.ts:65667
 
 ## Methods
 
@@ -232,7 +232,7 @@ main.ts:65585
 
 #### Source
 
-main.ts:65650
+main.ts:65732
 
 ***
 
@@ -250,7 +250,7 @@ main.ts:65650
 
 #### Source
 
-main.ts:65675
+main.ts:65757
 
 ***
 
@@ -268,4 +268,4 @@ main.ts:65675
 
 #### Source
 
-main.ts:65668
+main.ts:65750

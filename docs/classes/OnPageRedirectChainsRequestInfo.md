@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:156148
+main.ts:156144
 
 ## Properties
 
@@ -44,7 +44,7 @@ you can use only one filtering parameter with this endpoint
 the following filtering parameter is supported:
 is_redirect_loop
 the following operators are supported:
-regex, =, <>
+regex, not_regex, =, <>
 examples:
 ["is_redirect_loop","=","true"]
 ["is_redirect_loop","<>","false"]
@@ -55,7 +55,7 @@ examples:
 
 #### Source
 
-main.ts:156138
+main.ts:156134
 
 ***
 
@@ -75,7 +75,7 @@ example:
 
 #### Source
 
-main.ts:156112
+main.ts:156108
 
 ***
 
@@ -94,7 +94,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:156122
+main.ts:156118
 
 ***
 
@@ -113,7 +113,7 @@ if you specify the 10 value, the first ten redirect chains in the results array 
 
 #### Source
 
-main.ts:156127
+main.ts:156123
 
 ***
 
@@ -133,7 +133,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:156144
+main.ts:156140
 
 ***
 
@@ -152,7 +152,7 @@ if you use this field, the API response will return only redirect chains which c
 
 #### Source
 
-main.ts:156117
+main.ts:156113
 
 ## Methods
 
@@ -170,7 +170,7 @@ main.ts:156117
 
 #### Source
 
-main.ts:156157
+main.ts:156153
 
 ***
 
@@ -188,7 +188,7 @@ main.ts:156157
 
 #### Source
 
-main.ts:156183
+main.ts:156179
 
 ***
 
@@ -206,4 +206,4 @@ main.ts:156183
 
 #### Source
 
-main.ts:156176
+main.ts:156172

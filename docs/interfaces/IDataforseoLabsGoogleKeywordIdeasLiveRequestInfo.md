@@ -24,7 +24,7 @@ default value: false
 
 #### Source
 
-main.ts:84813
+main.ts:84895
 
 ***
 
@@ -37,7 +37,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
+regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 note that you can not filter the results by relevance
 example:
@@ -54,7 +54,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:84861
+main.ts:84943
 
 ***
 
@@ -69,7 +69,7 @@ default value: false
 
 #### Source
 
-main.ts:84818
+main.ts:84900
 
 ***
 
@@ -84,7 +84,7 @@ default value: false
 
 #### Source
 
-main.ts:84823
+main.ts:84905
 
 ***
 
@@ -101,7 +101,7 @@ The keywords will be converted to lowercase format
 
 #### Source
 
-main.ts:84773
+main.ts:84855
 
 ***
 
@@ -120,7 +120,7 @@ en
 
 #### Source
 
-main.ts:84807
+main.ts:84889
 
 ***
 
@@ -139,7 +139,7 @@ English
 
 #### Source
 
-main.ts:84798
+main.ts:84880
 
 ***
 
@@ -154,7 +154,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:84828
+main.ts:84910
 
 ***
 
@@ -172,7 +172,7 @@ example:
 
 #### Source
 
-main.ts:84789
+main.ts:84871
 
 ***
 
@@ -190,7 +190,7 @@ United Kingdom
 
 #### Source
 
-main.ts:84781
+main.ts:84863
 
 ***
 
@@ -205,7 +205,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:84833
+main.ts:84915
 
 ***
 
@@ -223,7 +223,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Source
 
-main.ts:84841
+main.ts:84923
 
 ***
 
@@ -250,7 +250,7 @@ example:
 
 #### Source
 
-main.ts:84878
+main.ts:84960
 
 ***
 
@@ -266,4 +266,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:84884
+main.ts:84966

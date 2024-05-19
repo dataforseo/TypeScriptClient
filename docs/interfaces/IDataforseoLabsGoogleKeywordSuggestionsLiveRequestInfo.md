@@ -23,7 +23,7 @@ default value: false
 
 #### Source
 
-main.ts:84249
+main.ts:84331
 
 ***
 
@@ -36,7 +36,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
+regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["keyword_info.search_volume",">`",0]
@@ -51,7 +51,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:84272
+main.ts:84354
 
 ***
 
@@ -66,7 +66,7 @@ default value: false
 
 #### Source
 
-main.ts:84254
+main.ts:84336
 
 ***
 
@@ -81,7 +81,7 @@ default value: false
 
 #### Source
 
-main.ts:84239
+main.ts:84321
 
 ***
 
@@ -96,7 +96,7 @@ default value: false
 
 #### Source
 
-main.ts:84244
+main.ts:84326
 
 ***
 
@@ -112,7 +112,7 @@ the keywords will be converted to lowercase format
 
 #### Source
 
-main.ts:84198
+main.ts:84280
 
 ***
 
@@ -131,7 +131,7 @@ en
 
 #### Source
 
-main.ts:84234
+main.ts:84316
 
 ***
 
@@ -150,7 +150,7 @@ English
 
 #### Source
 
-main.ts:84225
+main.ts:84307
 
 ***
 
@@ -165,7 +165,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:84293
+main.ts:84375
 
 ***
 
@@ -184,7 +184,7 @@ example:
 
 #### Source
 
-main.ts:84216
+main.ts:84298
 
 ***
 
@@ -203,7 +203,7 @@ United Kingdom
 
 #### Source
 
-main.ts:84207
+main.ts:84289
 
 ***
 
@@ -218,7 +218,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:84298
+main.ts:84380
 
 ***
 
@@ -236,7 +236,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Source
 
-main.ts:84306
+main.ts:84388
 
 ***
 
@@ -262,7 +262,7 @@ example:
 
 #### Source
 
-main.ts:84288
+main.ts:84370
 
 ***
 
@@ -278,4 +278,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:84312
+main.ts:84394

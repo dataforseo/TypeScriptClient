@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:86592
+main.ts:86674
 
 ## Properties
 
@@ -43,7 +43,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, `<>`, in, not_in
+regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in
 example:
 ["metrics.organic.pos_1,">`",0]
 [["metrics.organic.count",">=",100],
@@ -60,7 +60,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:86555
+main.ts:86637
 
 ***
 
@@ -80,7 +80,7 @@ learn more about the parameter in this help center article
 
 #### Source
 
-main.ts:86530
+main.ts:86612
 
 ***
 
@@ -103,7 +103,7 @@ default value:
 
 #### Source
 
-main.ts:86539
+main.ts:86621
 
 ***
 
@@ -125,7 +125,7 @@ en
 
 #### Source
 
-main.ts:86524
+main.ts:86606
 
 ***
 
@@ -147,7 +147,7 @@ English
 
 #### Source
 
-main.ts:86516
+main.ts:86598
 
 ***
 
@@ -166,7 +166,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:86577
+main.ts:86659
 
 ***
 
@@ -188,7 +188,7 @@ example:
 
 #### Source
 
-main.ts:86508
+main.ts:86590
 
 ***
 
@@ -210,7 +210,7 @@ United Kingdom
 
 #### Source
 
-main.ts:86500
+main.ts:86582
 
 ***
 
@@ -229,7 +229,7 @@ if you specify the 10 value, the first ten categories in the results array will 
 
 #### Source
 
-main.ts:86582
+main.ts:86664
 
 ***
 
@@ -260,7 +260,7 @@ Note: if the item_types array contains item types that are different from the or
 
 #### Source
 
-main.ts:86572
+main.ts:86654
 
 ***
 
@@ -280,7 +280,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:86588
+main.ts:86670
 
 ***
 
@@ -299,7 +299,7 @@ the domain or subdomain should be specified without https:// and www.
 
 #### Source
 
-main.ts:86492
+main.ts:86574
 
 ## Methods
 
@@ -317,7 +317,7 @@ main.ts:86492
 
 #### Source
 
-main.ts:86601
+main.ts:86683
 
 ***
 
@@ -335,7 +335,7 @@ main.ts:86601
 
 #### Source
 
-main.ts:86641
+main.ts:86723
 
 ***
 
@@ -353,4 +353,4 @@ main.ts:86641
 
 #### Source
 
-main.ts:86634
+main.ts:86716

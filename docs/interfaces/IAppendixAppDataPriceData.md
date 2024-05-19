@@ -18,7 +18,7 @@
 
 #### Source
 
-main.ts:219762
+main.ts:220307
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:219762
 
 #### Source
 
-main.ts:219763
+main.ts:220308
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:219763
 
 #### Source
 
-main.ts:219764
+main.ts:220309
 
 ***
 
@@ -48,7 +48,7 @@ main.ts:219764
 
 #### Source
 
-main.ts:219765
+main.ts:220310
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:219765
 
 #### Source
 
-main.ts:219766
+main.ts:220311
 
 ***
 
@@ -68,7 +68,7 @@ main.ts:219766
 
 #### Source
 
-main.ts:219767
+main.ts:220312
 
 ***
 
@@ -78,7 +78,7 @@ main.ts:219767
 
 #### Source
 
-main.ts:219768
+main.ts:220313
 
 ***
 
@@ -88,4 +88,14 @@ main.ts:219768
 
 #### Source
 
-main.ts:219769
+main.ts:220314
+
+***
+
+### tasks\_ready?
+
+> **`optional`** **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
+
+#### Source
+
+main.ts:220315

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:218054
+main.ts:218592
 
 ## Properties
 
@@ -44,7 +44,7 @@ main.ts:218054
 
 #### Source
 
-main.ts:218041
+main.ts:218579
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:218041
 
 #### Source
 
-main.ts:218027
+main.ts:218565
 
 ***
 
@@ -72,7 +72,7 @@ main.ts:218027
 
 #### Source
 
-main.ts:218039
+main.ts:218577
 
 ***
 
@@ -86,7 +86,7 @@ main.ts:218039
 
 #### Source
 
-main.ts:218037
+main.ts:218575
 
 ***
 
@@ -100,7 +100,7 @@ main.ts:218037
 
 #### Source
 
-main.ts:218043
+main.ts:218581
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:218043
 
 #### Source
 
-main.ts:218045
+main.ts:218583
 
 ***
 
@@ -128,7 +128,7 @@ main.ts:218045
 
 #### Source
 
-main.ts:218029
+main.ts:218567
 
 ***
 
@@ -142,7 +142,7 @@ main.ts:218029
 
 #### Source
 
-main.ts:218031
+main.ts:218569
 
 ***
 
@@ -156,7 +156,7 @@ main.ts:218031
 
 #### Source
 
-main.ts:218025
+main.ts:218563
 
 ***
 
@@ -170,7 +170,7 @@ main.ts:218025
 
 #### Source
 
-main.ts:218033
+main.ts:218571
 
 ***
 
@@ -184,7 +184,7 @@ main.ts:218033
 
 #### Source
 
-main.ts:218035
+main.ts:218573
 
 ***
 
@@ -198,7 +198,7 @@ main.ts:218035
 
 #### Source
 
-main.ts:218021
+main.ts:218559
 
 ***
 
@@ -214,7 +214,7 @@ total amount of money deposited to your account
 
 #### Source
 
-main.ts:218023
+main.ts:218561
 
 ***
 
@@ -228,7 +228,7 @@ main.ts:218023
 
 #### Source
 
-main.ts:218042
+main.ts:218580
 
 ***
 
@@ -242,7 +242,7 @@ main.ts:218042
 
 #### Source
 
-main.ts:218028
+main.ts:218566
 
 ***
 
@@ -256,7 +256,7 @@ main.ts:218028
 
 #### Source
 
-main.ts:218040
+main.ts:218578
 
 ***
 
@@ -270,7 +270,7 @@ main.ts:218040
 
 #### Source
 
-main.ts:218038
+main.ts:218576
 
 ***
 
@@ -284,7 +284,7 @@ main.ts:218038
 
 #### Source
 
-main.ts:218044
+main.ts:218582
 
 ***
 
@@ -298,7 +298,7 @@ main.ts:218044
 
 #### Source
 
-main.ts:218046
+main.ts:218584
 
 ***
 
@@ -312,7 +312,7 @@ main.ts:218046
 
 #### Source
 
-main.ts:218030
+main.ts:218568
 
 ***
 
@@ -326,7 +326,7 @@ main.ts:218030
 
 #### Source
 
-main.ts:218032
+main.ts:218570
 
 ***
 
@@ -340,7 +340,7 @@ main.ts:218032
 
 #### Source
 
-main.ts:218026
+main.ts:218564
 
 ***
 
@@ -354,7 +354,7 @@ main.ts:218026
 
 #### Source
 
-main.ts:218034
+main.ts:218572
 
 ***
 
@@ -368,7 +368,7 @@ main.ts:218034
 
 #### Source
 
-main.ts:218036
+main.ts:218574
 
 ***
 
@@ -382,7 +382,7 @@ main.ts:218036
 
 #### Source
 
-main.ts:218024
+main.ts:218562
 
 ***
 
@@ -400,7 +400,7 @@ minute in the yyyy-MM-dd HH:mm format
 
 #### Source
 
-main.ts:218050
+main.ts:218588
 
 ## Methods
 
@@ -418,7 +418,7 @@ main.ts:218050
 
 #### Source
 
-main.ts:218063
+main.ts:218601
 
 ***
 
@@ -436,7 +436,7 @@ main.ts:218063
 
 #### Source
 
-main.ts:218105
+main.ts:218643
 
 ***
 
@@ -454,4 +454,4 @@ main.ts:218105
 
 #### Source
 
-main.ts:218098
+main.ts:218636

@@ -24,7 +24,7 @@ ASINs in a POST array
 
 #### Source
 
-main.ts:105332
+main.ts:105426
 
 ***
 
@@ -36,7 +36,7 @@ contains detected Amazon product competitors and related data
 
 #### Source
 
-main.ts:105344
+main.ts:105438
 
 ***
 
@@ -48,7 +48,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:105342
+main.ts:105436
 
 ***
 
@@ -61,7 +61,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:105338
+main.ts:105432
 
 ***
 
@@ -74,7 +74,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:105335
+main.ts:105429
 
 ***
 
@@ -86,7 +86,7 @@ search engine type
 
 #### Source
 
-main.ts:105330
+main.ts:105424
 
 ***
 
@@ -98,4 +98,4 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:105340
+main.ts:105434

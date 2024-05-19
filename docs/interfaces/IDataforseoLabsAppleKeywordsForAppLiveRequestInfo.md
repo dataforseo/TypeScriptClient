@@ -26,7 +26,7 @@ the id is 835599320
 
 #### Source
 
-main.ts:114228
+main.ts:114322
 
 ***
 
@@ -47,7 +47,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:114275
+main.ts:114369
 
 ***
 
@@ -66,7 +66,7 @@ en
 
 #### Source
 
-main.ts:114264
+main.ts:114358
 
 ***
 
@@ -85,7 +85,7 @@ English
 
 #### Source
 
-main.ts:114255
+main.ts:114349
 
 ***
 
@@ -100,7 +100,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:114297
+main.ts:114391
 
 ***
 
@@ -119,7 +119,7 @@ example:
 
 #### Source
 
-main.ts:114246
+main.ts:114340
 
 ***
 
@@ -138,7 +138,7 @@ United States
 
 #### Source
 
-main.ts:114237
+main.ts:114331
 
 ***
 
@@ -153,7 +153,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:114302
+main.ts:114396
 
 ***
 
@@ -180,7 +180,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Source
 
-main.ts:114292
+main.ts:114386
 
 ***
 
@@ -196,4 +196,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:114308
+main.ts:114402

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:159283
+main.ts:159279
 
 ## Properties
 
@@ -51,7 +51,7 @@ example:
 
 #### Source
 
-main.ts:159279
+main.ts:159275
 
 ***
 
@@ -63,7 +63,7 @@ URL of the content to parse
 required field
 URL of the page to parse
 example:
-https://www.fujielectric.com/
+https://dataforseo.com/blog/a-versatile-alternative-to-google-trends-exploring-the-power-of-dataforseo-trends-api
 
 #### Implementation of
 
@@ -71,7 +71,7 @@ https://www.fujielectric.com/
 
 #### Source
 
-main.ts:159272
+main.ts:159268
 
 ## Methods
 
@@ -89,7 +89,7 @@ main.ts:159272
 
 #### Source
 
-main.ts:159292
+main.ts:159288
 
 ***
 
@@ -107,7 +107,7 @@ main.ts:159292
 
 #### Source
 
-main.ts:159310
+main.ts:159306
 
 ***
 
@@ -125,4 +125,4 @@ main.ts:159310
 
 #### Source
 
-main.ts:159303
+main.ts:159299

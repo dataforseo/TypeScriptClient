@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:84679
+main.ts:84761
 
 ## Properties
 
@@ -50,7 +50,7 @@ default value: false
 
 #### Source
 
-main.ts:84604
+main.ts:84686
 
 ***
 
@@ -63,7 +63,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
+regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 note that you can not filter the results by relevance
 example:
@@ -84,7 +84,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:84652
+main.ts:84734
 
 ***
 
@@ -103,7 +103,7 @@ default value: false
 
 #### Source
 
-main.ts:84609
+main.ts:84691
 
 ***
 
@@ -122,7 +122,7 @@ default value: false
 
 #### Source
 
-main.ts:84614
+main.ts:84696
 
 ***
 
@@ -143,7 +143,7 @@ The keywords will be converted to lowercase format
 
 #### Source
 
-main.ts:84564
+main.ts:84646
 
 ***
 
@@ -166,7 +166,7 @@ en
 
 #### Source
 
-main.ts:84598
+main.ts:84680
 
 ***
 
@@ -189,7 +189,7 @@ English
 
 #### Source
 
-main.ts:84589
+main.ts:84671
 
 ***
 
@@ -208,7 +208,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:84619
+main.ts:84701
 
 ***
 
@@ -230,7 +230,7 @@ example:
 
 #### Source
 
-main.ts:84580
+main.ts:84662
 
 ***
 
@@ -252,7 +252,7 @@ United Kingdom
 
 #### Source
 
-main.ts:84572
+main.ts:84654
 
 ***
 
@@ -271,7 +271,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:84624
+main.ts:84706
 
 ***
 
@@ -293,7 +293,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Source
 
-main.ts:84632
+main.ts:84714
 
 ***
 
@@ -324,7 +324,7 @@ example:
 
 #### Source
 
-main.ts:84669
+main.ts:84751
 
 ***
 
@@ -344,7 +344,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:84675
+main.ts:84757
 
 ## Methods
 
@@ -362,7 +362,7 @@ main.ts:84675
 
 #### Source
 
-main.ts:84688
+main.ts:84770
 
 ***
 
@@ -380,7 +380,7 @@ main.ts:84688
 
 #### Source
 
-main.ts:84730
+main.ts:84812
 
 ***
 
@@ -398,4 +398,4 @@ main.ts:84730
 
 #### Source
 
-main.ts:84723
+main.ts:84805

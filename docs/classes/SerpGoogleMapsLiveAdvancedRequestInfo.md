@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:40950
+main.ts:41030
 
 ## Properties
 
@@ -53,7 +53,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:40918
+main.ts:40998
 
 ***
 
@@ -73,7 +73,7 @@ note: for mobile device, only 20 results are returned for every SERP
 
 #### Source
 
-main.ts:40895
+main.ts:40975
 
 ***
 
@@ -96,7 +96,7 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 
 #### Source
 
-main.ts:40850
+main.ts:40930
 
 ***
 
@@ -117,7 +117,7 @@ en
 
 #### Source
 
-main.ts:40889
+main.ts:40969
 
 ***
 
@@ -138,7 +138,7 @@ English
 
 #### Source
 
-main.ts:40882
+main.ts:40962
 
 ***
 
@@ -159,7 +159,7 @@ example:
 
 #### Source
 
-main.ts:40864
+main.ts:40944
 
 ***
 
@@ -184,7 +184,7 @@ example:
 
 #### Source
 
-main.ts:40875
+main.ts:40955
 
 ***
 
@@ -205,7 +205,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:40857
+main.ts:40937
 
 ***
 
@@ -226,7 +226,7 @@ learn more at our help center
 
 #### Source
 
-main.ts:40925
+main.ts:41005
 
 ***
 
@@ -247,7 +247,7 @@ default value: android
 
 #### Source
 
-main.ts:40902
+main.ts:40982
 
 ***
 
@@ -268,7 +268,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Source
 
-main.ts:40909
+main.ts:40989
 
 ***
 
@@ -290,7 +290,7 @@ Note: if the search_places mode is turned off and no results were found in the s
 
 #### Source
 
-main.ts:40940
+main.ts:41020
 
 ***
 
@@ -311,7 +311,7 @@ Note: if the search_this_area mode is turned off, Google Maps listings might con
 
 #### Source
 
-main.ts:40932
+main.ts:41012
 
 ***
 
@@ -331,7 +331,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:40946
+main.ts:41026
 
 ***
 
@@ -351,7 +351,7 @@ https://google.com/maps/search/pizza/@37.09024,-95.712891,4z
 
 #### Source
 
-main.ts:40841
+main.ts:40921
 
 ## Methods
 
@@ -369,7 +369,7 @@ main.ts:40841
 
 #### Source
 
-main.ts:40959
+main.ts:41039
 
 ***
 
@@ -387,7 +387,7 @@ main.ts:40959
 
 #### Source
 
-main.ts:40990
+main.ts:41070
 
 ***
 
@@ -405,4 +405,4 @@ main.ts:40990
 
 #### Source
 
-main.ts:40983
+main.ts:41063

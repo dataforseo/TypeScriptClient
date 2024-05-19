@@ -24,7 +24,7 @@ author of the post
 
 #### Source
 
-main.ts:199810
+main.ts:200308
 
 ***
 
@@ -36,7 +36,7 @@ url of an image included in the post
 
 #### Source
 
-main.ts:199818
+main.ts:200316
 
 ***
 
@@ -48,7 +48,7 @@ links included in the post
 
 #### Source
 
-main.ts:199829
+main.ts:200327
 
 ***
 
@@ -61,7 +61,7 @@ can take the following values: right
 
 #### Source
 
-main.ts:199806
+main.ts:200304
 
 ***
 
@@ -75,7 +75,7 @@ in the following format:
 
 #### Source
 
-main.ts:199822
+main.ts:200320
 
 ***
 
@@ -87,7 +87,7 @@ main content of a post
 
 #### Source
 
-main.ts:199814
+main.ts:200312
 
 ***
 
@@ -100,7 +100,7 @@ absolute position among all present elements
 
 #### Source
 
-main.ts:199803
+main.ts:200301
 
 ***
 
@@ -113,7 +113,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:199800
+main.ts:200298
 
 ***
 
@@ -125,7 +125,7 @@ additional content of a post
 
 #### Source
 
-main.ts:199812
+main.ts:200310
 
 ***
 
@@ -140,7 +140,7 @@ example:
 
 #### Source
 
-main.ts:199827
+main.ts:200325
 
 ***
 
@@ -152,7 +152,7 @@ url of a post
 
 #### Source
 
-main.ts:199816
+main.ts:200314
 
 ***
 
@@ -164,4 +164,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:199808
+main.ts:200306

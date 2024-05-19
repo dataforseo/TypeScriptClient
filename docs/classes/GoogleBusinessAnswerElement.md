@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:206514
+main.ts:207024
 
 ## Properties
 
@@ -46,7 +46,7 @@ ID of the answer
 
 #### Source
 
-main.ts:206496
+main.ts:207006
 
 ***
 
@@ -62,7 +62,7 @@ current text of the answer
 
 #### Source
 
-main.ts:206504
+main.ts:207014
 
 ***
 
@@ -78,7 +78,7 @@ original text of the answer
 
 #### Source
 
-main.ts:206506
+main.ts:207016
 
 ***
 
@@ -94,7 +94,7 @@ URL of the user’s profile image
 
 #### Source
 
-main.ts:206498
+main.ts:207008
 
 ***
 
@@ -110,7 +110,7 @@ displayed name of the user
 
 #### Source
 
-main.ts:206502
+main.ts:207012
 
 ***
 
@@ -126,7 +126,7 @@ URL of the user’s profile
 
 #### Source
 
-main.ts:206500
+main.ts:207010
 
 ***
 
@@ -142,7 +142,7 @@ estimated time when the answer was posted
 
 #### Source
 
-main.ts:206508
+main.ts:207018
 
 ***
 
@@ -158,7 +158,7 @@ exact time when the answer was posted
 
 #### Source
 
-main.ts:206510
+main.ts:207020
 
 ***
 
@@ -174,7 +174,7 @@ type of element
 
 #### Source
 
-main.ts:206494
+main.ts:207004
 
 ## Methods
 
@@ -192,7 +192,7 @@ main.ts:206494
 
 #### Source
 
-main.ts:206523
+main.ts:207033
 
 ***
 
@@ -210,7 +210,7 @@ main.ts:206523
 
 #### Source
 
-main.ts:206548
+main.ts:207058
 
 ***
 
@@ -228,4 +228,4 @@ main.ts:206548
 
 #### Source
 
-main.ts:206541
+main.ts:207051

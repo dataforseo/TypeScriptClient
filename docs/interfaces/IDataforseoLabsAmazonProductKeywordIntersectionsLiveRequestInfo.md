@@ -33,7 +33,7 @@ learn more about the parameter on this help center page
 
 #### Source
 
-main.ts:105081
+main.ts:105175
 
 ***
 
@@ -46,7 +46,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, <>, in, not_in, like, not_like
+regex, not_regex, <, `<=, >`, >=, =, <>, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["avg_position","<", 10]
@@ -54,7 +54,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:105133
+main.ts:105227
 
 ***
 
@@ -70,7 +70,7 @@ learn more about the parameter in this help center guide
 
 #### Source
 
-main.ts:105122
+main.ts:105216
 
 ***
 
@@ -87,7 +87,7 @@ en
 
 #### Source
 
-main.ts:105111
+main.ts:105205
 
 ***
 
@@ -104,7 +104,7 @@ English
 
 #### Source
 
-main.ts:105104
+main.ts:105198
 
 ***
 
@@ -119,7 +119,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:105116
+main.ts:105210
 
 ***
 
@@ -137,7 +137,7 @@ example:
 
 #### Source
 
-main.ts:105097
+main.ts:105191
 
 ***
 
@@ -155,7 +155,7 @@ United Kingdom
 
 #### Source
 
-main.ts:105089
+main.ts:105183
 
 ***
 
@@ -170,7 +170,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:105154
+main.ts:105248
 
 ***
 
@@ -196,7 +196,7 @@ default rule:
 
 #### Source
 
-main.ts:105149
+main.ts:105243
 
 ***
 
@@ -212,4 +212,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:105160
+main.ts:105254

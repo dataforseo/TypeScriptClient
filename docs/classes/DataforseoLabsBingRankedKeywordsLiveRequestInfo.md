@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:108619
+main.ts:108713
 
 ## Properties
 
@@ -43,7 +43,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, <>, in, not_in, like, not_like
+regex, not_regex, <, `<=, >`, >=, =, <>, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["ranked_serp_element.serp_item.rank_group","<=",10]
@@ -64,7 +64,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:108593
+main.ts:108687
 
 ***
 
@@ -87,7 +87,7 @@ default value: live
 
 #### Source
 
-main.ts:108573
+main.ts:108667
 
 ***
 
@@ -106,7 +106,7 @@ default value: false
 
 #### Source
 
-main.ts:108549
+main.ts:108643
 
 ***
 
@@ -129,7 +129,7 @@ default value:
 
 #### Source
 
-main.ts:108544
+main.ts:108638
 
 ***
 
@@ -152,7 +152,7 @@ en
 
 #### Source
 
-main.ts:108535
+main.ts:108629
 
 ***
 
@@ -175,7 +175,7 @@ English
 
 #### Source
 
-main.ts:108526
+main.ts:108620
 
 ***
 
@@ -194,7 +194,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:108554
+main.ts:108648
 
 ***
 
@@ -213,7 +213,7 @@ if set to true, we will return the field metrics_absolute containing rankings di
 
 #### Source
 
-main.ts:108564
+main.ts:108658
 
 ***
 
@@ -237,7 +237,7 @@ example:
 
 #### Source
 
-main.ts:108517
+main.ts:108611
 
 ***
 
@@ -261,7 +261,7 @@ United States
 
 #### Source
 
-main.ts:108507
+main.ts:108601
 
 ***
 
@@ -280,7 +280,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:108559
+main.ts:108653
 
 ***
 
@@ -310,7 +310,7 @@ example:
 
 #### Source
 
-main.ts:108609
+main.ts:108703
 
 ***
 
@@ -330,7 +330,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:108615
+main.ts:108709
 
 ***
 
@@ -354,7 +354,7 @@ example:
 
 #### Source
 
-main.ts:108497
+main.ts:108591
 
 ## Methods
 
@@ -372,7 +372,7 @@ main.ts:108497
 
 #### Source
 
-main.ts:108628
+main.ts:108722
 
 ***
 
@@ -390,7 +390,7 @@ main.ts:108628
 
 #### Source
 
-main.ts:108670
+main.ts:108764
 
 ***
 
@@ -408,4 +408,4 @@ main.ts:108670
 
 #### Source
 
-main.ts:108663
+main.ts:108757

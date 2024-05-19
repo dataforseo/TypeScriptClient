@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:36573
+main.ts:36653
 
 ## Properties
 
@@ -69,7 +69,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:36565
+main.ts:36645
 
 ***
 
@@ -87,7 +87,7 @@ left, right
 
 #### Source
 
-main.ts:36558
+main.ts:36638
 
 ***
 
@@ -105,7 +105,7 @@ always equals 0 for desktop
 
 #### Source
 
-main.ts:36554
+main.ts:36634
 
 ***
 
@@ -124,7 +124,7 @@ always equals 0 for desktop
 
 #### Source
 
-main.ts:36550
+main.ts:36630
 
 ***
 
@@ -142,7 +142,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Source
 
-main.ts:36569
+main.ts:36649
 
 ***
 
@@ -158,7 +158,7 @@ title of the row
 
 #### Source
 
-main.ts:36562
+main.ts:36642
 
 ***
 
@@ -174,7 +174,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:36560
+main.ts:36640
 
 ## Methods
 
@@ -196,7 +196,7 @@ main.ts:36560
 
 #### Source
 
-main.ts:36578
+main.ts:36658
 
 ***
 
@@ -218,7 +218,7 @@ main.ts:36578
 
 #### Source
 
-main.ts:36606
+main.ts:36686
 
 ***
 
@@ -240,4 +240,4 @@ main.ts:36606
 
 #### Source
 
-main.ts:36599
+main.ts:36679

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:170420
+main.ts:170910
 
 ## Properties
 
@@ -51,7 +51,7 @@ example:
 
 #### Source
 
-main.ts:170409
+main.ts:170899
 
 ***
 
@@ -72,7 +72,7 @@ example:
 
 #### Source
 
-main.ts:170416
+main.ts:170906
 
 ***
 
@@ -92,7 +92,7 @@ example: sellers/ad_url, postback_url, pingback_url
 
 #### Source
 
-main.ts:170402
+main.ts:170892
 
 ***
 
@@ -111,7 +111,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:170391
+main.ts:170881
 
 ***
 
@@ -130,7 +130,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Source
 
-main.ts:170396
+main.ts:170886
 
 ## Methods
 
@@ -148,7 +148,7 @@ main.ts:170396
 
 #### Source
 
-main.ts:170429
+main.ts:170919
 
 ***
 
@@ -166,7 +166,7 @@ main.ts:170429
 
 #### Source
 
-main.ts:170450
+main.ts:170940
 
 ***
 
@@ -184,4 +184,4 @@ main.ts:170450
 
 #### Source
 
-main.ts:170443
+main.ts:170933

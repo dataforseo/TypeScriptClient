@@ -27,7 +27,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:64642
+main.ts:64724
 
 ***
 
@@ -41,7 +41,7 @@ only value: desktop
 
 #### Source
 
-main.ts:64628
+main.ts:64710
 
 ***
 
@@ -58,7 +58,7 @@ en
 
 #### Source
 
-main.ts:64624
+main.ts:64706
 
 ***
 
@@ -75,7 +75,7 @@ English
 
 #### Source
 
-main.ts:64617
+main.ts:64699
 
 ***
 
@@ -92,7 +92,7 @@ example:
 
 #### Source
 
-main.ts:64610
+main.ts:64692
 
 ***
 
@@ -109,7 +109,7 @@ United States
 
 #### Source
 
-main.ts:64603
+main.ts:64685
 
 ***
 
@@ -124,7 +124,7 @@ default value: windows
 
 #### Source
 
-main.ts:64633
+main.ts:64715
 
 ***
 
@@ -144,7 +144,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:64674
+main.ts:64756
 
 ***
 
@@ -160,7 +160,7 @@ advanced
 
 #### Source
 
-main.ts:64664
+main.ts:64746
 
 ***
 
@@ -180,7 +180,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:64658
+main.ts:64740
 
 ***
 
@@ -198,7 +198,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:64596
+main.ts:64678
 
 ***
 
@@ -214,7 +214,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:64648
+main.ts:64730
 
 ***
 
@@ -230,4 +230,4 @@ vQXvyV0zIP4
 
 #### Source
 
-main.ts:64588
+main.ts:64670

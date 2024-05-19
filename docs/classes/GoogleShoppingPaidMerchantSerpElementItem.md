@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:172263
+main.ts:172753
 
 ## Properties
 
@@ -68,7 +68,7 @@ description of the product in Google Shopping SERP
 
 #### Source
 
-main.ts:172254
+main.ts:172744
 
 ***
 
@@ -84,7 +84,7 @@ domain in SERP
 
 #### Source
 
-main.ts:172250
+main.ts:172740
 
 ***
 
@@ -102,7 +102,7 @@ left, right
 
 #### Source
 
-main.ts:172246
+main.ts:172736
 
 ***
 
@@ -119,7 +119,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 #### Source
 
-main.ts:172242
+main.ts:172732
 
 ***
 
@@ -136,7 +136,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:172239
+main.ts:172729
 
 ***
 
@@ -153,7 +153,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 #### Source
 
-main.ts:172259
+main.ts:172749
 
 ***
 
@@ -169,7 +169,7 @@ product title
 
 #### Source
 
-main.ts:172252
+main.ts:172742
 
 ***
 
@@ -185,7 +185,7 @@ URL to the product page on the seller’s website
 
 #### Source
 
-main.ts:172256
+main.ts:172746
 
 ***
 
@@ -201,7 +201,7 @@ XPath of the element
 
 #### Source
 
-main.ts:172248
+main.ts:172738
 
 ## Methods
 
@@ -223,7 +223,7 @@ main.ts:172248
 
 #### Source
 
-main.ts:172268
+main.ts:172758
 
 ***
 
@@ -245,7 +245,7 @@ main.ts:172268
 
 #### Source
 
-main.ts:172294
+main.ts:172784
 
 ***
 
@@ -267,4 +267,4 @@ main.ts:172294
 
 #### Source
 
-main.ts:172287
+main.ts:172777

@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:96826
+main.ts:96920
 
 ## Properties
 
@@ -68,7 +68,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:96788
+main.ts:96882
 
 ***
 
@@ -84,7 +84,7 @@ domain where a link points
 
 #### Source
 
-main.ts:96790
+main.ts:96884
 
 ***
 
@@ -103,7 +103,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:96818
+main.ts:96912
 
 ***
 
@@ -122,7 +122,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:96808
+main.ts:96902
 
 ***
 
@@ -141,7 +141,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:96813
+main.ts:96907
 
 ***
 
@@ -157,7 +157,7 @@ indicates whether the element is an ad
 
 #### Source
 
-main.ts:96796
+main.ts:96890
 
 ***
 
@@ -173,7 +173,7 @@ primary domain name in SERP
 
 #### Source
 
-main.ts:96801
+main.ts:96895
 
 ***
 
@@ -189,7 +189,7 @@ phone number
 
 #### Source
 
-main.ts:96792
+main.ts:96886
 
 ***
 
@@ -207,7 +207,7 @@ left, right
 
 #### Source
 
-main.ts:96782
+main.ts:96876
 
 ***
 
@@ -224,7 +224,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:96778
+main.ts:96872
 
 ***
 
@@ -242,7 +242,7 @@ Note: the changes are calculated even if the preceding month is not included in 
 
 #### Source
 
-main.ts:96822
+main.ts:96916
 
 ***
 
@@ -259,7 +259,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:96775
+main.ts:96869
 
 ***
 
@@ -276,7 +276,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:96799
+main.ts:96893
 
 ***
 
@@ -292,7 +292,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Source
 
-main.ts:96803
+main.ts:96897
 
 ***
 
@@ -308,7 +308,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:96786
+main.ts:96880
 
 ***
 
@@ -324,7 +324,7 @@ relevant URL of the Ad element in SERP
 
 #### Source
 
-main.ts:96794
+main.ts:96888
 
 ***
 
@@ -340,7 +340,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:96784
+main.ts:96878
 
 ## Methods
 
@@ -362,7 +362,7 @@ main.ts:96784
 
 #### Source
 
-main.ts:96831
+main.ts:96925
 
 ***
 
@@ -384,7 +384,7 @@ main.ts:96831
 
 #### Source
 
-main.ts:96865
+main.ts:96959
 
 ***
 
@@ -406,4 +406,4 @@ main.ts:96865
 
 #### Source
 
-main.ts:96858
+main.ts:96952

@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:89970
+main.ts:90052
 
 ## Properties
 
@@ -58,11 +58,15 @@ main.ts:20377
 
 ### about\_this\_result?
 
-> **`optional`** **about\_this\_result**: `any`
+> **`optional`** **about\_this\_result**: `Object`
 
 contains information from the ‘About this result’ panel
 ‘About this result’ panel provides additional context about why Google returned this result for the given query;
 this feature appears after clicking on the three dots next to most results
+
+#### Index signature
+
+ \[`key`: `string`\]: [`AboutThisResultElement`](AboutThisResultElement.md)
 
 #### Implementation of
 
@@ -70,7 +74,7 @@ this feature appears after clicking on the three dots next to most results
 
 #### Source
 
-main.ts:89941
+main.ts:90023
 
 ***
 
@@ -87,7 +91,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 #### Source
 
-main.ts:89928
+main.ts:90010
 
 ***
 
@@ -103,7 +107,7 @@ backlinks information for the target website
 
 #### Source
 
-main.ts:89964
+main.ts:90046
 
 ***
 
@@ -119,7 +123,7 @@ breadcrumb in SERP
 
 #### Source
 
-main.ts:89909
+main.ts:89991
 
 ***
 
@@ -135,7 +139,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:89921
+main.ts:90003
 
 ***
 
@@ -151,7 +155,7 @@ subdomain in SERP
 
 #### Source
 
-main.ts:89903
+main.ts:89985
 
 ***
 
@@ -169,7 +173,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:89959
+main.ts:90041
 
 ***
 
@@ -188,7 +192,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:89950
+main.ts:90032
 
 ***
 
@@ -204,7 +208,7 @@ includes additional information appended after the result description in SERP
 
 #### Source
 
-main.ts:89925
+main.ts:90007
 
 ***
 
@@ -220,7 +224,7 @@ words highlighted in bold within the results description
 
 #### Source
 
-main.ts:89933
+main.ts:90015
 
 ***
 
@@ -239,7 +243,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:89955
+main.ts:90037
 
 ***
 
@@ -255,7 +259,7 @@ indicates whether the element is a featured_snippet
 
 #### Source
 
-main.ts:89917
+main.ts:89999
 
 ***
 
@@ -271,7 +275,7 @@ indicates whether the element contains an image
 
 #### Source
 
-main.ts:89913
+main.ts:89995
 
 ***
 
@@ -287,7 +291,7 @@ indicates whether the element is marked as malicious
 
 #### Source
 
-main.ts:89919
+main.ts:90001
 
 ***
 
@@ -303,7 +307,7 @@ indicates whether the element contains a video
 
 #### Source
 
-main.ts:89915
+main.ts:89997
 
 ***
 
@@ -321,7 +325,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:89937
+main.ts:90019
 
 ***
 
@@ -337,7 +341,7 @@ primary domain name in SERP
 
 #### Source
 
-main.ts:89943
+main.ts:90025
 
 ***
 
@@ -355,7 +359,7 @@ left, right
 
 #### Source
 
-main.ts:89899
+main.ts:89981
 
 ***
 
@@ -371,7 +375,7 @@ includes additional information appended before the result description in SERP
 
 #### Source
 
-main.ts:89923
+main.ts:90005
 
 ***
 
@@ -388,7 +392,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:89895
+main.ts:89977
 
 ***
 
@@ -405,7 +409,7 @@ contains information about the ranking changes of the SERP element since the pre
 
 #### Source
 
-main.ts:89962
+main.ts:90044
 
 ***
 
@@ -422,7 +426,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:89892
+main.ts:89974
 
 ***
 
@@ -438,7 +442,7 @@ page and domain rank information
 
 #### Source
 
-main.ts:89966
+main.ts:90048
 
 ***
 
@@ -455,7 +459,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:89931
+main.ts:90013
 
 ***
 
@@ -471,7 +475,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Source
 
-main.ts:89945
+main.ts:90027
 
 ***
 
@@ -487,7 +491,7 @@ search engine type
 
 #### Source
 
-main.ts:89889
+main.ts:89971
 
 ***
 
@@ -503,7 +507,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:89905
+main.ts:89987
 
 ***
 
@@ -519,7 +523,7 @@ relevant URL in SERP
 
 #### Source
 
-main.ts:89907
+main.ts:89989
 
 ***
 
@@ -535,7 +539,7 @@ relevant website name in SERP
 
 #### Source
 
-main.ts:89911
+main.ts:89993
 
 ***
 
@@ -551,7 +555,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:89901
+main.ts:89983
 
 ## Methods
 
@@ -573,7 +577,7 @@ main.ts:89901
 
 #### Source
 
-main.ts:89975
+main.ts:90057
 
 ***
 
@@ -595,7 +599,7 @@ main.ts:89975
 
 #### Source
 
-main.ts:90030
+main.ts:90118
 
 ***
 
@@ -617,4 +621,4 @@ main.ts:90030
 
 #### Source
 
-main.ts:90023
+main.ts:90111

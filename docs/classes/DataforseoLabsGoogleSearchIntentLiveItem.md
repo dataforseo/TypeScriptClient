@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:86245
+main.ts:86327
 
 ## Properties
 
@@ -46,7 +46,7 @@ target keyword in a POST array
 
 #### Source
 
-main.ts:86237
+main.ts:86319
 
 ***
 
@@ -62,7 +62,7 @@ search intent data relevant for the specified keyword
 
 #### Source
 
-main.ts:86239
+main.ts:86321
 
 ***
 
@@ -78,7 +78,7 @@ contains objects with other possible search intents for the specified keyword
 
 #### Source
 
-main.ts:86241
+main.ts:86323
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:86241
 
 #### Source
 
-main.ts:86254
+main.ts:86336
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:86254
 
 #### Source
 
-main.ts:86277
+main.ts:86359
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:86277
 
 #### Source
 
-main.ts:86270
+main.ts:86352

@@ -30,7 +30,7 @@ estimated number of keywords for each level (maximum):
 
 #### Source
 
-main.ts:109403
+main.ts:109497
 
 ***
 
@@ -43,7 +43,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, `<>`, in, not_in, like,not_like
+regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in, like,not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["keyword_data.keyword_info.search_volume",">`",0]
@@ -51,7 +51,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:109436
+main.ts:109530
 
 ***
 
@@ -66,7 +66,7 @@ default value: false
 
 #### Source
 
-main.ts:109425
+main.ts:109519
 
 ***
 
@@ -81,7 +81,7 @@ default value: false
 
 #### Source
 
-main.ts:109408
+main.ts:109502
 
 ***
 
@@ -96,7 +96,7 @@ default value: false
 
 #### Source
 
-main.ts:109413
+main.ts:109507
 
 ***
 
@@ -112,7 +112,7 @@ the keywords will be converted to lowercase format
 
 #### Source
 
-main.ts:109357
+main.ts:109451
 
 ***
 
@@ -130,7 +130,7 @@ en
 
 #### Source
 
-main.ts:109391
+main.ts:109485
 
 ***
 
@@ -148,7 +148,7 @@ English
 
 #### Source
 
-main.ts:109383
+main.ts:109477
 
 ***
 
@@ -163,7 +163,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:109457
+main.ts:109551
 
 ***
 
@@ -182,7 +182,7 @@ example:
 
 #### Source
 
-main.ts:109375
+main.ts:109469
 
 ***
 
@@ -201,7 +201,7 @@ United States
 
 #### Source
 
-main.ts:109366
+main.ts:109460
 
 ***
 
@@ -216,7 +216,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:109462
+main.ts:109556
 
 ***
 
@@ -242,7 +242,7 @@ example:
 
 #### Source
 
-main.ts:109452
+main.ts:109546
 
 ***
 
@@ -259,7 +259,7 @@ default value: false
 
 #### Source
 
-main.ts:109420
+main.ts:109514
 
 ***
 
@@ -275,4 +275,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:109468
+main.ts:109562

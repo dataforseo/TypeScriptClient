@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:92335
+main.ts:92429
 
 ## Properties
 
@@ -43,7 +43,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
+regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["keyword_data.keyword_info.search_volume","in",[100,1000]]
@@ -61,7 +61,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:92309
+main.ts:92403
 
 ***
 
@@ -80,7 +80,7 @@ default value: false
 
 #### Source
 
-main.ts:92282
+main.ts:92376
 
 ***
 
@@ -102,7 +102,7 @@ default value: true
 
 #### Source
 
-main.ts:92269
+main.ts:92363
 
 ***
 
@@ -124,7 +124,7 @@ default value:
 
 #### Source
 
-main.ts:92277
+main.ts:92371
 
 ***
 
@@ -146,7 +146,7 @@ en
 
 #### Source
 
-main.ts:92261
+main.ts:92355
 
 ***
 
@@ -168,7 +168,7 @@ English
 
 #### Source
 
-main.ts:92253
+main.ts:92347
 
 ***
 
@@ -187,7 +187,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:92287
+main.ts:92381
 
 ***
 
@@ -209,7 +209,7 @@ example:
 
 #### Source
 
-main.ts:92245
+main.ts:92339
 
 ***
 
@@ -231,7 +231,7 @@ United Kingdom
 
 #### Source
 
-main.ts:92237
+main.ts:92331
 
 ***
 
@@ -250,7 +250,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:92292
+main.ts:92386
 
 ***
 
@@ -280,7 +280,7 @@ example:
 
 #### Source
 
-main.ts:92325
+main.ts:92419
 
 ***
 
@@ -300,7 +300,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:92331
+main.ts:92425
 
 ***
 
@@ -319,7 +319,7 @@ the domain should be specified without https:// and www.
 
 #### Source
 
-main.ts:92224
+main.ts:92318
 
 ***
 
@@ -338,7 +338,7 @@ the domain should be specified without https:// and www.
 
 #### Source
 
-main.ts:92229
+main.ts:92323
 
 ## Methods
 
@@ -356,7 +356,7 @@ main.ts:92229
 
 #### Source
 
-main.ts:92344
+main.ts:92438
 
 ***
 
@@ -374,7 +374,7 @@ main.ts:92344
 
 #### Source
 
-main.ts:92386
+main.ts:92480
 
 ***
 
@@ -392,4 +392,4 @@ main.ts:92386
 
 #### Source
 
-main.ts:92379
+main.ts:92473

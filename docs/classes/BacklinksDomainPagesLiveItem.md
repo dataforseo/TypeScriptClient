@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:139836
+main.ts:139844
 
 ## Properties
 
@@ -46,7 +46,7 @@ type of encoding
 
 #### Source
 
-main.ts:139824
+main.ts:139832
 
 ***
 
@@ -63,7 +63,7 @@ domain where the page was found
 
 #### Source
 
-main.ts:139788
+main.ts:139796
 
 ***
 
@@ -80,7 +80,7 @@ indicates the size of the encoded page, in bytes
 
 #### Source
 
-main.ts:139822
+main.ts:139830
 
 ***
 
@@ -99,7 +99,7 @@ example:
 
 #### Source
 
-main.ts:139812
+main.ts:139820
 
 ***
 
@@ -119,7 +119,7 @@ example:
 
 #### Source
 
-main.ts:139802
+main.ts:139810
 
 ***
 
@@ -135,7 +135,7 @@ Internet Protocol address
 
 #### Source
 
-main.ts:139796
+main.ts:139804
 
 ***
 
@@ -152,7 +152,7 @@ indicates the URL to redirect a page to if exists
 
 #### Source
 
-main.ts:139817
+main.ts:139825
 
 ***
 
@@ -169,7 +169,7 @@ main website domain does not include subdomains
 
 #### Source
 
-main.ts:139785
+main.ts:139793
 
 ***
 
@@ -185,7 +185,7 @@ types of media used to display a page
 
 #### Source
 
-main.ts:139826
+main.ts:139834
 
 ***
 
@@ -201,7 +201,7 @@ page meta data
 
 #### Source
 
-main.ts:139830
+main.ts:139838
 
 ***
 
@@ -218,7 +218,7 @@ relevant page URL
 
 #### Source
 
-main.ts:139794
+main.ts:139802
 
 ***
 
@@ -234,7 +234,7 @@ contains backlink data for this page
 
 #### Source
 
-main.ts:139832
+main.ts:139840
 
 ***
 
@@ -253,7 +253,7 @@ example:
 
 #### Source
 
-main.ts:139807
+main.ts:139815
 
 ***
 
@@ -269,7 +269,7 @@ server version
 
 #### Source
 
-main.ts:139828
+main.ts:139836
 
 ***
 
@@ -285,7 +285,7 @@ indicates the page size, in bytes
 
 #### Source
 
-main.ts:139819
+main.ts:139827
 
 ***
 
@@ -301,7 +301,7 @@ HTTP status code of the page
 
 #### Source
 
-main.ts:139814
+main.ts:139822
 
 ***
 
@@ -318,7 +318,7 @@ top-level domain in the DNS root zone
 
 #### Source
 
-main.ts:139791
+main.ts:139799
 
 ***
 
@@ -334,7 +334,7 @@ type of element
 
 #### Source
 
-main.ts:139782
+main.ts:139790
 
 ## Methods
 
@@ -352,7 +352,7 @@ main.ts:139782
 
 #### Source
 
-main.ts:139845
+main.ts:139853
 
 ***
 
@@ -370,7 +370,7 @@ main.ts:139845
 
 #### Source
 
-main.ts:139879
+main.ts:139887
 
 ***
 
@@ -388,4 +388,4 @@ main.ts:139879
 
 #### Source
 
-main.ts:139872
+main.ts:139880

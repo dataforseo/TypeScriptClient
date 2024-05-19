@@ -21,7 +21,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, `<>`, in, not_in
+regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in
 example:
 ["metrics.paid.count",">`",0]
 [["metrics.organic.count",">",50],"and",["metrics.organic.pos_1","`<>`",0]]
@@ -32,7 +32,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:93679
+main.ts:93773
 
 ***
 
@@ -51,7 +51,7 @@ default value: live
 
 #### Source
 
-main.ts:93665
+main.ts:93759
 
 ***
 
@@ -70,7 +70,7 @@ default value:
 
 #### Source
 
-main.ts:93646
+main.ts:93740
 
 ***
 
@@ -89,7 +89,7 @@ en
 
 #### Source
 
-main.ts:93637
+main.ts:93731
 
 ***
 
@@ -108,7 +108,7 @@ English
 
 #### Source
 
-main.ts:93628
+main.ts:93722
 
 ***
 
@@ -123,7 +123,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:93651
+main.ts:93745
 
 ***
 
@@ -142,7 +142,7 @@ example:
 
 #### Source
 
-main.ts:93619
+main.ts:93713
 
 ***
 
@@ -161,7 +161,7 @@ United Kingdom
 
 #### Source
 
-main.ts:93610
+main.ts:93704
 
 ***
 
@@ -176,7 +176,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Source
 
-main.ts:93656
+main.ts:93750
 
 ***
 
@@ -203,7 +203,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Source
 
-main.ts:93696
+main.ts:93790
 
 ***
 
@@ -219,7 +219,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:93702
+main.ts:93796
 
 ***
 
@@ -234,4 +234,4 @@ the domain should be specified without https:// and www.
 
 #### Source
 
-main.ts:93601
+main.ts:93695

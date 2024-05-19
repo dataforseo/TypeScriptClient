@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:200235
+main.ts:200733
 
 ## Properties
 
@@ -59,7 +59,7 @@ example:
 
 #### Source
 
-main.ts:200148
+main.ts:200646
 
 ***
 
@@ -102,7 +102,7 @@ possible values:
 
 #### Source
 
-main.ts:200231
+main.ts:200729
 
 ***
 
@@ -124,7 +124,7 @@ Note: the value cannot precede the today’s date
 
 #### Source
 
-main.ts:200127
+main.ts:200625
 
 ***
 
@@ -147,7 +147,7 @@ the range between check_in and check_out values cannot exceed 30 days
 
 #### Source
 
-main.ts:200136
+main.ts:200634
 
 ***
 
@@ -171,7 +171,7 @@ set the following value if you want to include one 13-year-old child and one 8-y
 
 #### Source
 
-main.ts:200158
+main.ts:200656
 
 ***
 
@@ -190,7 +190,7 @@ example:
 
 #### Source
 
-main.ts:200141
+main.ts:200639
 
 ***
 
@@ -213,7 +213,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:200119
+main.ts:200617
 
 ***
 
@@ -232,7 +232,7 @@ default value: false
 
 #### Source
 
-main.ts:200197
+main.ts:200695
 
 ***
 
@@ -251,7 +251,7 @@ default value: false
 
 #### Source
 
-main.ts:200202
+main.ts:200700
 
 ***
 
@@ -285,7 +285,7 @@ learn more about the cid and place_id identifiers in this help center article
 
 #### Source
 
-main.ts:190429
+main.ts:190919
 
 ***
 
@@ -310,7 +310,7 @@ en
 
 #### Source
 
-main.ts:190475
+main.ts:190965
 
 ***
 
@@ -335,7 +335,7 @@ English
 
 #### Source
 
-main.ts:190468
+main.ts:190958
 
 ***
 
@@ -360,7 +360,7 @@ example:
 
 #### Source
 
-main.ts:190451
+main.ts:190941
 
 ***
 
@@ -388,7 +388,7 @@ example:
 
 #### Source
 
-main.ts:190461
+main.ts:190951
 
 ***
 
@@ -413,7 +413,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:190444
+main.ts:190934
 
 ***
 
@@ -433,7 +433,7 @@ example:
 
 #### Source
 
-main.ts:200192
+main.ts:200690
 
 ***
 
@@ -453,7 +453,7 @@ example:
 
 #### Source
 
-main.ts:200186
+main.ts:200684
 
 ***
 
@@ -473,7 +473,7 @@ example:
 
 #### Source
 
-main.ts:200170
+main.ts:200668
 
 ***
 
@@ -501,7 +501,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:190501
+main.ts:190991
 
 ***
 
@@ -529,7 +529,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:190491
+main.ts:190981
 
 ***
 
@@ -555,7 +555,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:190437
+main.ts:190927
 
 ***
 
@@ -579,7 +579,7 @@ default value: relevance
 
 #### Source
 
-main.ts:200180
+main.ts:200678
 
 ***
 
@@ -599,7 +599,7 @@ example:
 
 #### Source
 
-main.ts:200164
+main.ts:200662
 
 ***
 
@@ -623,7 +623,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:190481
+main.ts:190971
 
 ## Methods
 
@@ -645,7 +645,7 @@ main.ts:190481
 
 #### Source
 
-main.ts:200239
+main.ts:200737
 
 ***
 
@@ -667,7 +667,7 @@ main.ts:200239
 
 #### Source
 
-main.ts:200282
+main.ts:200780
 
 ***
 
@@ -689,4 +689,4 @@ main.ts:200282
 
 #### Source
 
-main.ts:200275
+main.ts:200773

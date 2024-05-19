@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:148134
+main.ts:148137
 
 ## Properties
 
@@ -52,7 +52,7 @@ example:
 
 #### Source
 
-main.ts:148108
+main.ts:148111
 
 ***
 
@@ -75,7 +75,7 @@ default value: live
 
 #### Source
 
-main.ts:148069
+main.ts:148072
 
 ***
 
@@ -94,7 +94,7 @@ default value: true
 
 #### Source
 
-main.ts:148124
+main.ts:148127
 
 ***
 
@@ -107,7 +107,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, =, `<>`, in, not_in, like, not_like, ilike, not_ilike
+regex, not_regex, =, `<>`, in, not_in, like, not_like, ilike, not_ilike
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["referring_links_types.anchors",">`","1"]
@@ -125,7 +125,7 @@ The full list of possible filters is available here.
 
 #### Source
 
-main.ts:148086
+main.ts:148089
 
 ***
 
@@ -145,7 +145,7 @@ default value: true
 
 #### Source
 
-main.ts:148119
+main.ts:148122
 
 ***
 
@@ -164,7 +164,7 @@ default value: true
 
 #### Source
 
-main.ts:148113
+main.ts:148116
 
 ***
 
@@ -189,26 +189,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:148060
-
-***
-
-### limit?
-
-> **`optional`** **limit**: `number`
-
-the maximum number of returned pages
-optional field
-default value: 100
-maximum value: 1000
-
-#### Implementation of
-
-[`IBacklinksBulkPagesSummaryLiveRequestInfo`](../interfaces/IBacklinksBulkPagesSummaryLiveRequestInfo.md).[`limit`](../interfaces/IBacklinksBulkPagesSummaryLiveRequestInfo.md#limit)
-
-#### Source
-
-main.ts:148044
+main.ts:148063
 
 ***
 
@@ -227,7 +208,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Source
 
-main.ts:148049
+main.ts:148052
 
 ***
 
@@ -255,7 +236,7 @@ example:
 
 #### Source
 
-main.ts:148100
+main.ts:148103
 
 ***
 
@@ -275,7 +256,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:148130
+main.ts:148133
 
 ***
 
@@ -296,7 +277,7 @@ note that the URLs you set in a single request cannot belong to more than 100 di
 
 #### Source
 
-main.ts:148039
+main.ts:148047
 
 ## Methods
 
@@ -314,7 +295,7 @@ main.ts:148039
 
 #### Source
 
-main.ts:148143
+main.ts:148146
 
 ***
 
@@ -332,7 +313,7 @@ main.ts:148143
 
 #### Source
 
-main.ts:148187
+main.ts:148189
 
 ***
 
@@ -350,4 +331,4 @@ main.ts:148187
 
 #### Source
 
-main.ts:148180
+main.ts:148182

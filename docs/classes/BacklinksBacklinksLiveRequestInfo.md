@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:137205
+main.ts:137213
 
 ## Properties
 
@@ -53,7 +53,7 @@ default value: live
 
 #### Source
 
-main.ts:137184
+main.ts:137192
 
 ***
 
@@ -78,7 +78,7 @@ example:
 
 #### Source
 
-main.ts:137108
+main.ts:137116
 
 ***
 
@@ -105,7 +105,7 @@ semantic_location
 
 #### Source
 
-main.ts:137121
+main.ts:137129
 
 ***
 
@@ -118,7 +118,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, =, `<>`, in, not_in, like, not_like, ilike, not_ilike
+regex, =, `<>`, in, not_in, like, not_like, ilike, not_ilike, regex, not_regex
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["rank",">`","80"]
@@ -136,7 +136,7 @@ The full list of possible filters is available here.
 
 #### Source
 
-main.ts:137142
+main.ts:137150
 
 ***
 
@@ -156,7 +156,7 @@ default value: true
 
 #### Source
 
-main.ts:137195
+main.ts:137203
 
 ***
 
@@ -175,7 +175,7 @@ default value: true
 
 #### Source
 
-main.ts:137189
+main.ts:137197
 
 ***
 
@@ -194,7 +194,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:137175
+main.ts:137183
 
 ***
 
@@ -216,7 +216,7 @@ default value: as_is
 
 #### Source
 
-main.ts:137101
+main.ts:137109
 
 ***
 
@@ -236,7 +236,7 @@ Note: the maximum value is 20,000, use the search_after_token if you would like 
 
 #### Source
 
-main.ts:137162
+main.ts:137170
 
 ***
 
@@ -264,7 +264,7 @@ example:
 
 #### Source
 
-main.ts:137156
+main.ts:137164
 
 ***
 
@@ -286,7 +286,7 @@ Note: if the search_after_token is specified in the request, all other parameter
 
 #### Source
 
-main.ts:137170
+main.ts:137178
 
 ***
 
@@ -306,7 +306,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:137201
+main.ts:137209
 
 ***
 
@@ -325,7 +325,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Source
 
-main.ts:137093
+main.ts:137101
 
 ***
 
@@ -343,7 +343,7 @@ can be set from 1 to 1000
 
 #### Source
 
-main.ts:137125
+main.ts:137133
 
 ## Methods
 
@@ -361,7 +361,7 @@ main.ts:137125
 
 #### Source
 
-main.ts:137214
+main.ts:137222
 
 ***
 
@@ -379,7 +379,7 @@ main.ts:137214
 
 #### Source
 
-main.ts:137258
+main.ts:137266
 
 ***
 
@@ -397,4 +397,4 @@ main.ts:137258
 
 #### Source
 
-main.ts:137251
+main.ts:137259

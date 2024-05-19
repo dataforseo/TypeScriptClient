@@ -21,7 +21,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, <>, in, not_in, like,not_like, has, has_not
+regex, not_regex, <, `<=, >`, >=, =, <>, in, not_in, like,not_like, has, has_not
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["domain","<>", "logitech.com"]
@@ -35,7 +35,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 #### Source
 
-main.ts:165223
+main.ts:165713
 
 ***
 
@@ -56,7 +56,7 @@ maximum value: 20
 
 #### Source
 
-main.ts:165192
+main.ts:165682
 
 ***
 
@@ -75,7 +75,7 @@ example:
 
 #### Source
 
-main.ts:165163
+main.ts:165653
 
 ***
 
@@ -101,7 +101,7 @@ example:
 
 #### Source
 
-main.ts:165175
+main.ts:165665
 
 ***
 
@@ -117,7 +117,7 @@ possible values:
 
 #### Source
 
-main.ts:165181
+main.ts:165671
 
 ***
 
@@ -134,7 +134,7 @@ default value: 0.4
 
 #### Source
 
-main.ts:165199
+main.ts:165689
 
 ***
 
@@ -151,7 +151,7 @@ default value: 0.4
 
 #### Source
 
-main.ts:165206
+main.ts:165696
 
 ***
 
@@ -167,4 +167,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:165229
+main.ts:165719

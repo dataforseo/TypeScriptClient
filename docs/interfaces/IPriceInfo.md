@@ -21,7 +21,7 @@ ISO code of the currency applied to the price
 
 #### Source
 
-main.ts:22343
+main.ts:22423
 
 ***
 
@@ -34,7 +34,7 @@ indicates the current price of the product or service featured in the result
 
 #### Source
 
-main.ts:22334
+main.ts:22414
 
 ***
 
@@ -47,7 +47,7 @@ raw price string as provided in the result
 
 #### Source
 
-main.ts:22349
+main.ts:22429
 
 ***
 
@@ -60,7 +60,7 @@ indicates whether a price is provided in a range
 
 #### Source
 
-main.ts:22346
+main.ts:22426
 
 ***
 
@@ -73,7 +73,7 @@ the maximum price of the product or service as indicated in the result
 
 #### Source
 
-main.ts:22340
+main.ts:22420
 
 ***
 
@@ -86,4 +86,4 @@ indicates the regular price of the product or service with no discounts applied
 
 #### Source
 
-main.ts:22337
+main.ts:22417

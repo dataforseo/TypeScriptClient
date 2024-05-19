@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:104985
+main.ts:105079
 
 ## Properties
 
@@ -59,7 +59,7 @@ learn more about the parameter on this help center page
 
 #### Source
 
-main.ts:104902
+main.ts:104996
 
 ***
 
@@ -72,7 +72,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, <>, in, not_in, like, not_like
+regex, not_regex, <, `<=, >`, >=, =, <>, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["avg_position","<", 10]
@@ -84,7 +84,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:104954
+main.ts:105048
 
 ***
 
@@ -104,7 +104,7 @@ learn more about the parameter in this help center guide
 
 #### Source
 
-main.ts:104943
+main.ts:105037
 
 ***
 
@@ -125,7 +125,7 @@ en
 
 #### Source
 
-main.ts:104932
+main.ts:105026
 
 ***
 
@@ -146,7 +146,7 @@ English
 
 #### Source
 
-main.ts:104925
+main.ts:105019
 
 ***
 
@@ -165,7 +165,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:104937
+main.ts:105031
 
 ***
 
@@ -187,7 +187,7 @@ example:
 
 #### Source
 
-main.ts:104918
+main.ts:105012
 
 ***
 
@@ -209,7 +209,7 @@ United Kingdom
 
 #### Source
 
-main.ts:104910
+main.ts:105004
 
 ***
 
@@ -228,7 +228,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:104975
+main.ts:105069
 
 ***
 
@@ -258,7 +258,7 @@ default rule:
 
 #### Source
 
-main.ts:104970
+main.ts:105064
 
 ***
 
@@ -278,7 +278,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:104981
+main.ts:105075
 
 ## Methods
 
@@ -296,7 +296,7 @@ main.ts:104981
 
 #### Source
 
-main.ts:104994
+main.ts:105088
 
 ***
 
@@ -314,7 +314,7 @@ main.ts:104994
 
 #### Source
 
-main.ts:105035
+main.ts:105129
 
 ***
 
@@ -332,4 +332,4 @@ main.ts:105035
 
 #### Source
 
-main.ts:105028
+main.ts:105122

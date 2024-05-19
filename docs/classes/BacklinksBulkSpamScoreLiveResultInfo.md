@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:146748
+main.ts:146756
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains relevant backlinks and referring domains data
 
 #### Source
 
-main.ts:146744
+main.ts:146752
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:146742
+main.ts:146750
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:146742
 
 #### Source
 
-main.ts:146757
+main.ts:146765
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:146757
 
 #### Source
 
-main.ts:146779
+main.ts:146787
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:146779
 
 #### Source
 
-main.ts:146772
+main.ts:146780

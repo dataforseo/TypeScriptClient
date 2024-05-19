@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:217140
+main.ts:217675
 
 ## Properties
 
@@ -44,7 +44,7 @@ main.ts:217140
 
 #### Source
 
-main.ts:217129
+main.ts:217663
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:217129
 
 #### Source
 
-main.ts:217130
+main.ts:217664
 
 ***
 
@@ -72,7 +72,7 @@ main.ts:217130
 
 #### Source
 
-main.ts:217131
+main.ts:217665
 
 ***
 
@@ -86,7 +86,7 @@ main.ts:217131
 
 #### Source
 
-main.ts:217132
+main.ts:217666
 
 ***
 
@@ -100,7 +100,7 @@ main.ts:217132
 
 #### Source
 
-main.ts:217136
+main.ts:217670
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:217136
 
 #### Source
 
-main.ts:217133
+main.ts:217667
 
 ***
 
@@ -128,7 +128,7 @@ main.ts:217133
 
 #### Source
 
-main.ts:217134
+main.ts:217668
 
 ***
 
@@ -142,7 +142,21 @@ main.ts:217134
 
 #### Source
 
-main.ts:217135
+main.ts:217669
+
+***
+
+### tasks\_ready?
+
+> **`optional`** **tasks\_ready**: `number`
+
+#### Implementation of
+
+[`IAppendixAppDataLimitsRatesDataInfo`](../interfaces/IAppendixAppDataLimitsRatesDataInfo.md).[`tasks_ready`](../interfaces/IAppendixAppDataLimitsRatesDataInfo.md#tasks_ready)
+
+#### Source
+
+main.ts:217671
 
 ## Methods
 
@@ -160,7 +174,7 @@ main.ts:217135
 
 #### Source
 
-main.ts:217149
+main.ts:217684
 
 ***
 
@@ -178,7 +192,7 @@ main.ts:217149
 
 #### Source
 
-main.ts:217173
+main.ts:217709
 
 ***
 
@@ -196,4 +210,4 @@ main.ts:217173
 
 #### Source
 
-main.ts:217166
+main.ts:217702

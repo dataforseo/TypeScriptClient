@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:195753
+main.ts:196243
 
 ## Properties
 
@@ -50,7 +50,7 @@ you can specify up to 10 categories
 
 #### Source
 
-main.ts:195679
+main.ts:196169
 
 ***
 
@@ -69,7 +69,7 @@ can contain up to 200 symbols
 
 #### Source
 
-main.ts:195684
+main.ts:196174
 
 ***
 
@@ -82,7 +82,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
+regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["rating.value",">`",3]
@@ -94,7 +94,7 @@ you can receive the list of available filters by making a separate request to h
 
 #### Source
 
-main.ts:195712
+main.ts:196202
 
 ***
 
@@ -111,7 +111,7 @@ optional field
 
 #### Source
 
-main.ts:195692
+main.ts:196182
 
 ***
 
@@ -130,7 +130,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:195730
+main.ts:196220
 
 ***
 
@@ -153,7 +153,7 @@ example:
 
 #### Source
 
-main.ts:195701
+main.ts:196191
 
 ***
 
@@ -172,7 +172,7 @@ if you specify the 10 value, the first ten entities in the results array will be
 
 #### Source
 
-main.ts:195735
+main.ts:196225
 
 ***
 
@@ -194,7 +194,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 #### Source
 
-main.ts:195743
+main.ts:196233
 
 ***
 
@@ -221,7 +221,7 @@ example:
 
 #### Source
 
-main.ts:195725
+main.ts:196215
 
 ***
 
@@ -241,7 +241,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:195749
+main.ts:196239
 
 ***
 
@@ -260,7 +260,7 @@ can contain up to 200 symbols
 
 #### Source
 
-main.ts:195689
+main.ts:196179
 
 ## Methods
 
@@ -278,7 +278,7 @@ main.ts:195689
 
 #### Source
 
-main.ts:195762
+main.ts:196252
 
 ***
 
@@ -296,7 +296,7 @@ main.ts:195762
 
 #### Source
 
-main.ts:195801
+main.ts:196291
 
 ***
 
@@ -314,4 +314,4 @@ main.ts:195801
 
 #### Source
 
-main.ts:195794
+main.ts:196284

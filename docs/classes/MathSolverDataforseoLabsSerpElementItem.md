@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:96327
+main.ts:96421
 
 ## Properties
 
@@ -69,7 +69,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:96319
+main.ts:96413
 
 ***
 
@@ -87,7 +87,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:96323
+main.ts:96417
 
 ***
 
@@ -105,7 +105,7 @@ left, right
 
 #### Source
 
-main.ts:96309
+main.ts:96403
 
 ***
 
@@ -122,7 +122,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:96305
+main.ts:96399
 
 ***
 
@@ -140,7 +140,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:96302
+main.ts:96396
 
 ***
 
@@ -157,7 +157,7 @@ solution to the mathematical equation specified in the keyword field when settin
 
 #### Source
 
-main.ts:96316
+main.ts:96410
 
 ***
 
@@ -173,7 +173,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:96313
+main.ts:96407
 
 ***
 
@@ -189,7 +189,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:96311
+main.ts:96405
 
 ## Methods
 
@@ -211,7 +211,7 @@ main.ts:96311
 
 #### Source
 
-main.ts:96332
+main.ts:96426
 
 ***
 
@@ -233,7 +233,7 @@ main.ts:96332
 
 #### Source
 
-main.ts:96365
+main.ts:96459
 
 ***
 
@@ -255,4 +255,4 @@ main.ts:96365
 
 #### Source
 
-main.ts:96358
+main.ts:96452

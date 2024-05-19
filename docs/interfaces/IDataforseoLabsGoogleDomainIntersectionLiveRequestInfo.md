@@ -21,7 +21,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
+regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["keyword_data.keyword_info.search_volume","in",[100,1000]]
@@ -35,7 +35,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:92512
+main.ts:92606
 
 ***
 
@@ -50,7 +50,7 @@ default value: false
 
 #### Source
 
-main.ts:92485
+main.ts:92579
 
 ***
 
@@ -68,7 +68,7 @@ default value: true
 
 #### Source
 
-main.ts:92472
+main.ts:92566
 
 ***
 
@@ -86,7 +86,7 @@ default value:
 
 #### Source
 
-main.ts:92480
+main.ts:92574
 
 ***
 
@@ -104,7 +104,7 @@ en
 
 #### Source
 
-main.ts:92464
+main.ts:92558
 
 ***
 
@@ -122,7 +122,7 @@ English
 
 #### Source
 
-main.ts:92456
+main.ts:92550
 
 ***
 
@@ -137,7 +137,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:92490
+main.ts:92584
 
 ***
 
@@ -155,7 +155,7 @@ example:
 
 #### Source
 
-main.ts:92448
+main.ts:92542
 
 ***
 
@@ -173,7 +173,7 @@ United Kingdom
 
 #### Source
 
-main.ts:92440
+main.ts:92534
 
 ***
 
@@ -188,7 +188,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:92495
+main.ts:92589
 
 ***
 
@@ -214,7 +214,7 @@ example:
 
 #### Source
 
-main.ts:92528
+main.ts:92622
 
 ***
 
@@ -230,7 +230,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:92534
+main.ts:92628
 
 ***
 
@@ -245,7 +245,7 @@ the domain should be specified without https:// and www.
 
 #### Source
 
-main.ts:92427
+main.ts:92521
 
 ***
 
@@ -260,4 +260,4 @@ the domain should be specified without https:// and www.
 
 #### Source
 
-main.ts:92432
+main.ts:92526

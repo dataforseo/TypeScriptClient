@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:43016
+main.ts:43096
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided exact results
 
 #### Source
 
-main.ts:42993
+main.ts:43073
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Source
 
-main.ts:42998
+main.ts:43078
 
 ***
 
@@ -85,7 +85,7 @@ local_pack
 
 #### Source
 
-main.ts:43006
+main.ts:43086
 
 ***
 
@@ -101,7 +101,7 @@ elements of search results found in SERP
 
 #### Source
 
-main.ts:43012
+main.ts:43092
 
 ***
 
@@ -117,7 +117,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:43010
+main.ts:43090
 
 ***
 
@@ -134,7 +134,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Source
 
-main.ts:42982
+main.ts:43062
 
 ***
 
@@ -150,7 +150,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:42990
+main.ts:43070
 
 ***
 
@@ -166,7 +166,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:42988
+main.ts:43068
 
 ***
 
@@ -182,7 +182,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:42986
+main.ts:43066
 
 ***
 
@@ -198,7 +198,7 @@ total number of results in SERP
 
 #### Source
 
-main.ts:43008
+main.ts:43088
 
 ***
 
@@ -215,7 +215,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Source
 
-main.ts:43001
+main.ts:43081
 
 ***
 
@@ -231,7 +231,7 @@ type of element
 
 #### Source
 
-main.ts:42984
+main.ts:43064
 
 ## Methods
 
@@ -249,7 +249,7 @@ main.ts:42984
 
 #### Source
 
-main.ts:43025
+main.ts:43105
 
 ***
 
@@ -267,7 +267,7 @@ main.ts:43025
 
 #### Source
 
-main.ts:43061
+main.ts:43141
 
 ***
 
@@ -285,4 +285,4 @@ main.ts:43061
 
 #### Source
 
-main.ts:43054
+main.ts:43134

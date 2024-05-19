@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:61895
+main.ts:61977
 
 ## Properties
 
@@ -46,7 +46,7 @@ bit rate of the video
 
 #### Source
 
-main.ts:61887
+main.ts:61969
 
 ***
 
@@ -62,7 +62,7 @@ frame rate of the video
 
 #### Source
 
-main.ts:61891
+main.ts:61973
 
 ***
 
@@ -78,7 +78,7 @@ video height in pixels
 
 #### Source
 
-main.ts:61885
+main.ts:61967
 
 ***
 
@@ -94,7 +94,7 @@ label of the quality element
 
 #### Source
 
-main.ts:61881
+main.ts:61963
 
 ***
 
@@ -110,7 +110,7 @@ media type of the video
 
 #### Source
 
-main.ts:61889
+main.ts:61971
 
 ***
 
@@ -126,7 +126,7 @@ type of element
 
 #### Source
 
-main.ts:61879
+main.ts:61961
 
 ***
 
@@ -142,7 +142,7 @@ video width in pixels
 
 #### Source
 
-main.ts:61883
+main.ts:61965
 
 ## Methods
 
@@ -160,7 +160,7 @@ main.ts:61883
 
 #### Source
 
-main.ts:61904
+main.ts:61986
 
 ***
 
@@ -178,7 +178,7 @@ main.ts:61904
 
 #### Source
 
-main.ts:61927
+main.ts:62009
 
 ***
 
@@ -196,4 +196,4 @@ main.ts:61927
 
 #### Source
 
-main.ts:61920
+main.ts:62002

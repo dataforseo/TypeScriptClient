@@ -24,7 +24,7 @@ card id
 
 #### Source
 
-main.ts:95580
+main.ts:95674
 
 ***
 
@@ -36,7 +36,7 @@ google-defined client id
 
 #### Source
 
-main.ts:95588
+main.ts:95682
 
 ***
 
@@ -48,7 +48,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:95578
+main.ts:95672
 
 ***
 
@@ -60,7 +60,7 @@ URL of the image from knowledge graph
 
 #### Source
 
-main.ts:95584
+main.ts:95678
 
 ***
 
@@ -72,7 +72,7 @@ elements of search results found in SERP
 
 #### Source
 
-main.ts:95590
+main.ts:95684
 
 ***
 
@@ -84,7 +84,7 @@ URL of the logo from knowledge graph
 
 #### Source
 
-main.ts:95586
+main.ts:95680
 
 ***
 
@@ -98,7 +98,7 @@ left, right
 
 #### Source
 
-main.ts:95570
+main.ts:95664
 
 ***
 
@@ -111,7 +111,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:95566
+main.ts:95660
 
 ***
 
@@ -124,7 +124,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:95563
+main.ts:95657
 
 ***
 
@@ -136,7 +136,7 @@ search engine type
 
 #### Source
 
-main.ts:95560
+main.ts:95654
 
 ***
 
@@ -148,7 +148,7 @@ subtitle of the item
 
 #### Source
 
-main.ts:95576
+main.ts:95670
 
 ***
 
@@ -160,7 +160,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:95574
+main.ts:95668
 
 ***
 
@@ -172,7 +172,7 @@ relevant URL of the Ad element in SERP
 
 #### Source
 
-main.ts:95582
+main.ts:95676
 
 ***
 
@@ -184,4 +184,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:95572
+main.ts:95666

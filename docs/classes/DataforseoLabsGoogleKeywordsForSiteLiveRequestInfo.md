@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:81986
+main.ts:82068
 
 ## Properties
 
@@ -43,7 +43,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
+regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 note that you can not filter the results by relevance
 example:
@@ -61,7 +61,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:81960
+main.ts:82042
 
 ***
 
@@ -80,7 +80,7 @@ default value: false
 
 #### Source
 
-main.ts:81925
+main.ts:82007
 
 ***
 
@@ -99,7 +99,7 @@ default value: false
 
 #### Source
 
-main.ts:81915
+main.ts:81997
 
 ***
 
@@ -118,7 +118,7 @@ default value: true
 
 #### Source
 
-main.ts:81920
+main.ts:82002
 
 ***
 
@@ -141,7 +141,7 @@ en
 
 #### Source
 
-main.ts:81910
+main.ts:81992
 
 ***
 
@@ -164,7 +164,7 @@ English
 
 #### Source
 
-main.ts:81901
+main.ts:81983
 
 ***
 
@@ -183,7 +183,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:81930
+main.ts:82012
 
 ***
 
@@ -205,7 +205,7 @@ example:
 
 #### Source
 
-main.ts:81892
+main.ts:81974
 
 ***
 
@@ -227,7 +227,7 @@ United Kingdom
 
 #### Source
 
-main.ts:81884
+main.ts:81966
 
 ***
 
@@ -246,7 +246,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:81935
+main.ts:82017
 
 ***
 
@@ -268,7 +268,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Source
 
-main.ts:81943
+main.ts:82025
 
 ***
 
@@ -298,7 +298,7 @@ example:
 
 #### Source
 
-main.ts:81976
+main.ts:82058
 
 ***
 
@@ -318,7 +318,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:81982
+main.ts:82064
 
 ***
 
@@ -337,7 +337,7 @@ the domain should be specified without https:// or www.
 
 #### Source
 
-main.ts:81876
+main.ts:81958
 
 ## Methods
 
@@ -355,7 +355,7 @@ main.ts:81876
 
 #### Source
 
-main.ts:81995
+main.ts:82077
 
 ***
 
@@ -373,7 +373,7 @@ main.ts:81995
 
 #### Source
 
-main.ts:82033
+main.ts:82115
 
 ***
 
@@ -391,4 +391,4 @@ main.ts:82033
 
 #### Source
 
-main.ts:82026
+main.ts:82108

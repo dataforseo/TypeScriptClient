@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:182873
+main.ts:183363
 
 ## Properties
 
@@ -46,7 +46,7 @@ URL to the profile picture of the reviewer
 
 #### Source
 
-main.ts:182863
+main.ts:183353
 
 ***
 
@@ -62,7 +62,7 @@ country of the reviewer
 
 #### Source
 
-main.ts:182869
+main.ts:183359
 
 ***
 
@@ -78,7 +78,7 @@ the name of the reviewer
 
 #### Source
 
-main.ts:182861
+main.ts:183351
 
 ***
 
@@ -94,7 +94,7 @@ total number of reviews submitted by the reviewer
 
 #### Source
 
-main.ts:182867
+main.ts:183357
 
 ***
 
@@ -110,7 +110,7 @@ URL to the reviewer’s profile
 
 #### Source
 
-main.ts:182865
+main.ts:183355
 
 ## Methods
 
@@ -128,7 +128,7 @@ main.ts:182865
 
 #### Source
 
-main.ts:182882
+main.ts:183372
 
 ***
 
@@ -146,7 +146,7 @@ main.ts:182882
 
 #### Source
 
-main.ts:182903
+main.ts:183393
 
 ***
 
@@ -164,4 +164,4 @@ main.ts:182903
 
 #### Source
 
-main.ts:182896
+main.ts:183386

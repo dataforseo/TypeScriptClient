@@ -22,14 +22,14 @@ you can use only one filtering parameter with this endpoint
 the following filtering parameter is supported:
 is_redirect_loop
 the following operators are supported:
-regex, =, <>
+regex, not_regex, =, <>
 examples:
 ["is_redirect_loop","=","true"]
 ["is_redirect_loop","<>","false"]
 
 #### Source
 
-main.ts:156235
+main.ts:156231
 
 ***
 
@@ -45,7 +45,7 @@ example:
 
 #### Source
 
-main.ts:156209
+main.ts:156205
 
 ***
 
@@ -60,7 +60,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:156219
+main.ts:156215
 
 ***
 
@@ -75,7 +75,7 @@ if you specify the 10 value, the first ten redirect chains in the results array 
 
 #### Source
 
-main.ts:156224
+main.ts:156220
 
 ***
 
@@ -91,7 +91,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:156241
+main.ts:156237
 
 ***
 
@@ -106,4 +106,4 @@ if you use this field, the API response will return only redirect chains which c
 
 #### Source
 
-main.ts:156214
+main.ts:156210

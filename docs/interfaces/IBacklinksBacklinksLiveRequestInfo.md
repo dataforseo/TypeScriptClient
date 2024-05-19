@@ -27,7 +27,7 @@ default value: live
 
 #### Source
 
-main.ts:137392
+main.ts:137400
 
 ***
 
@@ -48,7 +48,7 @@ example:
 
 #### Source
 
-main.ts:137316
+main.ts:137324
 
 ***
 
@@ -71,7 +71,7 @@ semantic_location
 
 #### Source
 
-main.ts:137329
+main.ts:137337
 
 ***
 
@@ -84,7 +84,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, =, `<>`, in, not_in, like, not_like, ilike, not_ilike
+regex, =, `<>`, in, not_in, like, not_like, ilike, not_ilike, regex, not_regex
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["rank",">`","80"]
@@ -98,7 +98,7 @@ The full list of possible filters is available here.
 
 #### Source
 
-main.ts:137350
+main.ts:137358
 
 ***
 
@@ -114,7 +114,7 @@ default value: true
 
 #### Source
 
-main.ts:137403
+main.ts:137411
 
 ***
 
@@ -129,7 +129,7 @@ default value: true
 
 #### Source
 
-main.ts:137397
+main.ts:137405
 
 ***
 
@@ -144,7 +144,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:137383
+main.ts:137391
 
 ***
 
@@ -162,7 +162,7 @@ default value: as_is
 
 #### Source
 
-main.ts:137309
+main.ts:137317
 
 ***
 
@@ -178,7 +178,7 @@ Note: the maximum value is 20,000, use the search_after_token if you would like 
 
 #### Source
 
-main.ts:137370
+main.ts:137378
 
 ***
 
@@ -202,7 +202,7 @@ example:
 
 #### Source
 
-main.ts:137364
+main.ts:137372
 
 ***
 
@@ -220,7 +220,7 @@ Note: if the search_after_token is specified in the request, all other parameter
 
 #### Source
 
-main.ts:137378
+main.ts:137386
 
 ***
 
@@ -236,7 +236,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:137409
+main.ts:137417
 
 ***
 
@@ -251,7 +251,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Source
 
-main.ts:137301
+main.ts:137309
 
 ***
 
@@ -265,4 +265,4 @@ can be set from 1 to 1000
 
 #### Source
 
-main.ts:137333
+main.ts:137341

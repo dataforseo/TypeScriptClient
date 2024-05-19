@@ -25,7 +25,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:172665
+main.ts:173155
 
 ***
 
@@ -39,7 +39,7 @@ left, right
 
 #### Source
 
-main.ts:172660
+main.ts:173150
 
 ***
 
@@ -52,7 +52,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 #### Source
 
-main.ts:172656
+main.ts:173146
 
 ***
 
@@ -65,7 +65,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:172653
+main.ts:173143
 
 ***
 
@@ -77,4 +77,4 @@ XPath of the element
 
 #### Source
 
-main.ts:172662
+main.ts:173152

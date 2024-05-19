@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:157700
+main.ts:157696
 
 ## Properties
 
@@ -47,7 +47,7 @@ possible values: in_progress, finished
 
 #### Source
 
-main.ts:157687
+main.ts:157683
 
 ***
 
@@ -63,7 +63,7 @@ details of the crawling session
 
 #### Source
 
-main.ts:157689
+main.ts:157685
 
 ***
 
@@ -79,7 +79,7 @@ items array
 
 #### Source
 
-main.ts:157696
+main.ts:157692
 
 ***
 
@@ -95,7 +95,7 @@ number of items in the results array
 
 #### Source
 
-main.ts:157694
+main.ts:157690
 
 ***
 
@@ -112,7 +112,7 @@ total number of keywords on the specified website or web page matching the set k
 
 #### Source
 
-main.ts:157692
+main.ts:157688
 
 ## Methods
 
@@ -130,7 +130,7 @@ main.ts:157692
 
 #### Source
 
-main.ts:157709
+main.ts:157705
 
 ***
 
@@ -148,7 +148,7 @@ main.ts:157709
 
 #### Source
 
-main.ts:157734
+main.ts:157730
 
 ***
 
@@ -166,4 +166,4 @@ main.ts:157734
 
 #### Source
 
-main.ts:157727
+main.ts:157723

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:212513
+main.ts:213039
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Source
 
-main.ts:212505
+main.ts:213031
 
 ***
 
@@ -62,7 +62,7 @@ URL for collecting the results of the task
 
 #### Source
 
-main.ts:212509
+main.ts:213035
 
 ***
 
@@ -79,7 +79,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:212497
+main.ts:213023
 
 ***
 
@@ -96,7 +96,7 @@ can take the following values: yelp
 
 #### Source
 
-main.ts:212500
+main.ts:213026
 
 ***
 
@@ -113,7 +113,7 @@ can take the following values: search
 
 #### Source
 
-main.ts:212503
+main.ts:213029
 
 ***
 
@@ -129,7 +129,7 @@ user-defined task identifier
 
 #### Source
 
-main.ts:212507
+main.ts:213033
 
 ## Methods
 
@@ -147,7 +147,7 @@ main.ts:212507
 
 #### Source
 
-main.ts:212522
+main.ts:213048
 
 ***
 
@@ -165,7 +165,7 @@ main.ts:212522
 
 #### Source
 
-main.ts:212544
+main.ts:213070
 
 ***
 
@@ -183,4 +183,4 @@ main.ts:212544
 
 #### Source
 
-main.ts:212537
+main.ts:213063

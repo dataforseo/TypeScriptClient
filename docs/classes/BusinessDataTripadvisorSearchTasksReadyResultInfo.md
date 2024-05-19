@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:210014
+main.ts:210533
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Source
 
-main.ts:210006
+main.ts:210525
 
 ***
 
@@ -62,7 +62,7 @@ URL for collecting the results of the task
 
 #### Source
 
-main.ts:210010
+main.ts:210529
 
 ***
 
@@ -79,7 +79,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:210001
+main.ts:210519
 
 ***
 
@@ -96,7 +96,21 @@ can take the following values: tripadvisor
 
 #### Source
 
-main.ts:210004
+main.ts:210522
+
+***
+
+### se\_type?
+
+> **`optional`** **se\_type**: `string`
+
+#### Implementation of
+
+[`IBusinessDataTripadvisorSearchTasksReadyResultInfo`](../interfaces/IBusinessDataTripadvisorSearchTasksReadyResultInfo.md).[`se_type`](../interfaces/IBusinessDataTripadvisorSearchTasksReadyResultInfo.md#se_type)
+
+#### Source
+
+main.ts:210523
 
 ***
 
@@ -112,7 +126,7 @@ user-defined task identifier
 
 #### Source
 
-main.ts:210008
+main.ts:210527
 
 ## Methods
 
@@ -130,7 +144,7 @@ main.ts:210008
 
 #### Source
 
-main.ts:210023
+main.ts:210542
 
 ***
 
@@ -148,7 +162,7 @@ main.ts:210023
 
 #### Source
 
-main.ts:210044
+main.ts:210564
 
 ***
 
@@ -166,4 +180,4 @@ main.ts:210044
 
 #### Source
 
-main.ts:210037
+main.ts:210557

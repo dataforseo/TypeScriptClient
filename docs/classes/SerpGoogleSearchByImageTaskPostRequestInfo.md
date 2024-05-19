@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:49042
+main.ts:49122
 
 ## Properties
 
@@ -50,7 +50,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Source
 
-main.ts:48996
+main.ts:49076
 
 ***
 
@@ -70,7 +70,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Source
 
-main.ts:49002
+main.ts:49082
 
 ***
 
@@ -90,7 +90,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Source
 
-main.ts:48990
+main.ts:49070
 
 ***
 
@@ -111,7 +111,7 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 #### Source
 
-main.ts:48984
+main.ts:49064
 
 ***
 
@@ -131,7 +131,7 @@ https://upload.wikimedia.org/wikipedia/commons/e/ed/Elon_Musk_Royal_Society.jpg
 
 #### Source
 
-main.ts:48917
+main.ts:48997
 
 ***
 
@@ -152,7 +152,7 @@ en
 
 #### Source
 
-main.ts:48970
+main.ts:49050
 
 ***
 
@@ -173,7 +173,7 @@ English
 
 #### Source
 
-main.ts:48963
+main.ts:49043
 
 ***
 
@@ -194,7 +194,7 @@ example:
 
 #### Source
 
-main.ts:48946
+main.ts:49026
 
 ***
 
@@ -218,7 +218,7 @@ example:
 
 #### Source
 
-main.ts:48956
+main.ts:49036
 
 ***
 
@@ -239,7 +239,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:48939
+main.ts:49019
 
 ***
 
@@ -260,7 +260,7 @@ learn more at our help center
 
 #### Source
 
-main.ts:48932
+main.ts:49012
 
 ***
 
@@ -284,7 +284,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:49038
+main.ts:49118
 
 ***
 
@@ -296,7 +296,7 @@ postback_url datatype
 required field if you specify postback_url
 corresponds to the datatype that will be sent to your server
 possible values:
-advanced
+advanced, html
 
 #### Implementation of
 
@@ -304,7 +304,7 @@ advanced
 
 #### Source
 
-main.ts:49028
+main.ts:49108
 
 ***
 
@@ -328,7 +328,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:49022
+main.ts:49102
 
 ***
 
@@ -350,7 +350,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:48925
+main.ts:49005
 
 ***
 
@@ -371,7 +371,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Source
 
-main.ts:48977
+main.ts:49057
 
 ***
 
@@ -389,7 +389,7 @@ get the list of available parameters and additional details here
 
 #### Source
 
-main.ts:49006
+main.ts:49086
 
 ***
 
@@ -409,7 +409,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:49012
+main.ts:49092
 
 ## Methods
 
@@ -427,7 +427,7 @@ main.ts:49012
 
 #### Source
 
-main.ts:49051
+main.ts:49131
 
 ***
 
@@ -445,7 +445,7 @@ main.ts:49051
 
 #### Source
 
-main.ts:49085
+main.ts:49165
 
 ***
 
@@ -463,4 +463,4 @@ main.ts:49085
 
 #### Source
 
-main.ts:49078
+main.ts:49158

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:37354
+main.ts:37434
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Source
 
-main.ts:37348
+main.ts:37428
 
 ***
 
@@ -65,7 +65,7 @@ HTML page
 
 #### Source
 
-main.ts:37350
+main.ts:37430
 
 ***
 
@@ -81,7 +81,7 @@ serial number of the returned HTML page
 
 #### Source
 
-main.ts:37343
+main.ts:37423
 
 ## Methods
 
@@ -99,7 +99,7 @@ main.ts:37343
 
 #### Source
 
-main.ts:37363
+main.ts:37443
 
 ***
 
@@ -117,7 +117,7 @@ main.ts:37363
 
 #### Source
 
-main.ts:37382
+main.ts:37462
 
 ***
 
@@ -135,4 +135,4 @@ main.ts:37382
 
 #### Source
 
-main.ts:37375
+main.ts:37455

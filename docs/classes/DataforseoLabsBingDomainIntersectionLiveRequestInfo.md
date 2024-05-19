@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:106873
+main.ts:106967
 
 ## Properties
 
@@ -43,7 +43,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
+regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["keyword_data.keyword_info.search_volume","in",[100,1000]]
@@ -61,7 +61,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:106847
+main.ts:106941
 
 ***
 
@@ -80,7 +80,7 @@ default value: false
 
 #### Source
 
-main.ts:106820
+main.ts:106914
 
 ***
 
@@ -102,7 +102,7 @@ default value: true
 
 #### Source
 
-main.ts:106807
+main.ts:106901
 
 ***
 
@@ -124,7 +124,7 @@ default value:
 
 #### Source
 
-main.ts:106815
+main.ts:106909
 
 ***
 
@@ -146,7 +146,7 @@ en
 
 #### Source
 
-main.ts:106799
+main.ts:106893
 
 ***
 
@@ -168,7 +168,7 @@ English
 
 #### Source
 
-main.ts:106791
+main.ts:106885
 
 ***
 
@@ -187,7 +187,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:106825
+main.ts:106919
 
 ***
 
@@ -210,7 +210,7 @@ example:
 
 #### Source
 
-main.ts:106783
+main.ts:106877
 
 ***
 
@@ -233,7 +233,7 @@ United States
 
 #### Source
 
-main.ts:106774
+main.ts:106868
 
 ***
 
@@ -252,7 +252,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:106830
+main.ts:106924
 
 ***
 
@@ -282,7 +282,7 @@ example:
 
 #### Source
 
-main.ts:106863
+main.ts:106957
 
 ***
 
@@ -302,7 +302,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:106869
+main.ts:106963
 
 ***
 
@@ -321,7 +321,7 @@ the domain should be specified without https:// and www.
 
 #### Source
 
-main.ts:106760
+main.ts:106854
 
 ***
 
@@ -340,7 +340,7 @@ the domain should be specified without https:// and www.
 
 #### Source
 
-main.ts:106765
+main.ts:106859
 
 ## Methods
 
@@ -358,7 +358,7 @@ main.ts:106765
 
 #### Source
 
-main.ts:106882
+main.ts:106976
 
 ***
 
@@ -376,7 +376,7 @@ main.ts:106882
 
 #### Source
 
-main.ts:106924
+main.ts:107018
 
 ***
 
@@ -394,4 +394,4 @@ main.ts:106924
 
 #### Source
 
-main.ts:106917
+main.ts:107011

@@ -23,7 +23,7 @@ you can download the full list of possible categories
 
 #### Source
 
-main.ts:87867
+main.ts:87949
 
 ***
 
@@ -40,7 +40,7 @@ Note: we do not recommend setting correlate to false
 
 #### Source
 
-main.ts:87958
+main.ts:88040
 
 ***
 
@@ -54,7 +54,7 @@ if specified, the API will return only domains with organic_etv lesser than the 
 
 #### Source
 
-main.ts:87951
+main.ts:88033
 
 ***
 
@@ -68,7 +68,7 @@ if specified, the API will return only domains with organic_etv greater than the
 
 #### Source
 
-main.ts:87947
+main.ts:88029
 
 ***
 
@@ -81,7 +81,7 @@ optional field
 you can add several filters at once (8 filters maximum);
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like;
+regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like;
 you can use the % operator with like and not_like to match any string of zero or more characters;
 example:
 ["metrics_history.202110.organic.pos_1", ">`", 15];
@@ -89,7 +89,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:87979
+main.ts:88061
 
 ***
 
@@ -110,7 +110,7 @@ minimum date: "2020-10-01"
 
 #### Source
 
-main.ts:87878
+main.ts:87960
 
 ***
 
@@ -126,7 +126,7 @@ default value: true
 
 #### Source
 
-main.ts:87943
+main.ts:88025
 
 ***
 
@@ -145,7 +145,7 @@ default value:
 
 #### Source
 
-main.ts:87929
+main.ts:88011
 
 ***
 
@@ -162,7 +162,7 @@ en
 
 #### Source
 
-main.ts:87920
+main.ts:88002
 
 ***
 
@@ -180,7 +180,7 @@ English
 
 #### Source
 
-main.ts:87913
+main.ts:87995
 
 ***
 
@@ -195,7 +195,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:87963
+main.ts:88045
 
 ***
 
@@ -213,7 +213,7 @@ example:
 
 #### Source
 
-main.ts:87905
+main.ts:87987
 
 ***
 
@@ -231,7 +231,7 @@ United Kingdom
 
 #### Source
 
-main.ts:87897
+main.ts:87979
 
 ***
 
@@ -246,7 +246,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 #### Source
 
-main.ts:87968
+main.ts:88050
 
 ***
 
@@ -271,7 +271,7 @@ example:
 
 #### Source
 
-main.ts:87994
+main.ts:88076
 
 ***
 
@@ -292,7 +292,7 @@ minimum date: "2020-10-01"
 
 #### Source
 
-main.ts:87889
+main.ts:87971
 
 ***
 
@@ -308,7 +308,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:88000
+main.ts:88082
 
 ***
 
@@ -326,4 +326,4 @@ maximum value: 5
 
 #### Source
 
-main.ts:87937
+main.ts:88019

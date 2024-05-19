@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:110385
+main.ts:110479
 
 ## Properties
 
@@ -43,7 +43,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
+regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["median_position","in",[1,10]]
@@ -59,7 +59,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:110359
+main.ts:110453
 
 ***
 
@@ -78,7 +78,7 @@ default value: true
 
 #### Source
 
-main.ts:110326
+main.ts:110420
 
 ***
 
@@ -100,7 +100,7 @@ default value:
 
 #### Source
 
-main.ts:110334
+main.ts:110428
 
 ***
 
@@ -122,7 +122,7 @@ you can specify the maximum of 200 keywords
 
 #### Source
 
-main.ts:110287
+main.ts:110381
 
 ***
 
@@ -144,7 +144,7 @@ en
 
 #### Source
 
-main.ts:110321
+main.ts:110415
 
 ***
 
@@ -166,7 +166,7 @@ English
 
 #### Source
 
-main.ts:110313
+main.ts:110407
 
 ***
 
@@ -185,7 +185,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:110339
+main.ts:110433
 
 ***
 
@@ -208,7 +208,7 @@ example:
 
 #### Source
 
-main.ts:110305
+main.ts:110399
 
 ***
 
@@ -231,7 +231,7 @@ United States
 
 #### Source
 
-main.ts:110296
+main.ts:110390
 
 ***
 
@@ -250,7 +250,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 #### Source
 
-main.ts:110344
+main.ts:110438
 
 ***
 
@@ -280,7 +280,7 @@ example:
 
 #### Source
 
-main.ts:110375
+main.ts:110469
 
 ***
 
@@ -300,7 +300,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:110381
+main.ts:110475
 
 ## Methods
 
@@ -318,7 +318,7 @@ main.ts:110381
 
 #### Source
 
-main.ts:110394
+main.ts:110488
 
 ***
 
@@ -336,7 +336,7 @@ main.ts:110394
 
 #### Source
 
-main.ts:110438
+main.ts:110532
 
 ***
 
@@ -354,4 +354,4 @@ main.ts:110438
 
 #### Source
 
-main.ts:110431
+main.ts:110525

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:155311
+main.ts:155307
 
 ## Properties
 
@@ -43,7 +43,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, =, <>, in, not_in, like, not_like
+regex, not_regex, =, <>, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["direction","=","external"]
@@ -61,7 +61,7 @@ The full list of possible filters is available by this link.
 
 #### Source
 
-main.ts:155301
+main.ts:155297
 
 ***
 
@@ -81,7 +81,7 @@ example:
 
 #### Source
 
-main.ts:155264
+main.ts:155260
 
 ***
 
@@ -100,7 +100,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:155279
+main.ts:155275
 
 ***
 
@@ -119,7 +119,7 @@ if you specify the 10 value, the first ten links in the results array will be om
 
 #### Source
 
-main.ts:155284
+main.ts:155280
 
 ***
 
@@ -138,7 +138,7 @@ note that in this field you can specify relative URLs only
 
 #### Source
 
-main.ts:155269
+main.ts:155265
 
 ***
 
@@ -157,7 +157,7 @@ note that in this field you can specify relative URLs only
 
 #### Source
 
-main.ts:155274
+main.ts:155270
 
 ***
 
@@ -177,7 +177,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:155307
+main.ts:155303
 
 ## Methods
 
@@ -195,7 +195,7 @@ main.ts:155307
 
 #### Source
 
-main.ts:155320
+main.ts:155316
 
 ***
 
@@ -213,7 +213,7 @@ main.ts:155320
 
 #### Source
 
-main.ts:155347
+main.ts:155343
 
 ***
 
@@ -231,4 +231,4 @@ main.ts:155347
 
 #### Source
 
-main.ts:155340
+main.ts:155336

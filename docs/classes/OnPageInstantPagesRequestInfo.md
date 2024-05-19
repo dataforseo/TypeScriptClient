@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:160493
+main.ts:160975
 
 ## Properties
 
@@ -49,7 +49,7 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 #### Source
 
-main.ts:160431
+main.ts:160913
 
 ***
 
@@ -80,7 +80,7 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 #### Source
 
-main.ts:160403
+main.ts:160885
 
 ***
 
@@ -100,7 +100,7 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:160415
+main.ts:160897
 
 ***
 
@@ -120,7 +120,7 @@ maximum value: 3
 
 #### Source
 
-main.ts:160421
+main.ts:160903
 
 ***
 
@@ -140,7 +140,7 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:160409
+main.ts:160891
 
 ***
 
@@ -159,7 +159,7 @@ default value: false
 
 #### Source
 
-main.ts:160484
+main.ts:160966
 
 ***
 
@@ -182,7 +182,7 @@ Note: only integer threshold values can be modified;
 
 #### Source
 
-main.ts:160489
+main.ts:160971
 
 ***
 
@@ -207,7 +207,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:160474
+main.ts:160956
 
 ***
 
@@ -228,7 +228,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 #### Source
 
-main.ts:160386
+main.ts:160868
 
 ***
 
@@ -248,7 +248,7 @@ false
 
 #### Source
 
-main.ts:160452
+main.ts:160934
 
 ***
 
@@ -271,7 +271,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:160446
+main.ts:160928
 
 ***
 
@@ -291,7 +291,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:160437
+main.ts:160919
 
 ***
 
@@ -311,7 +311,7 @@ falseif you use this field, enable_javascript must be set to true;
 
 #### Source
 
-main.ts:160463
+main.ts:160945
 
 ***
 
@@ -330,7 +330,7 @@ default value: false
 
 #### Source
 
-main.ts:160457
+main.ts:160939
 
 ***
 
@@ -349,7 +349,7 @@ default value: false
 
 #### Source
 
-main.ts:160426
+main.ts:160908
 
 ***
 
@@ -370,7 +370,7 @@ to prevent this error from occurring, avoid setting tasks with the same domain i
 
 #### Source
 
-main.ts:160379
+main.ts:160861
 
 ***
 
@@ -389,7 +389,7 @@ default value: false
 
 #### Source
 
-main.ts:160479
+main.ts:160961
 
 ## Methods
 
@@ -407,7 +407,7 @@ main.ts:160479
 
 #### Source
 
-main.ts:160502
+main.ts:160984
 
 ***
 
@@ -425,7 +425,7 @@ main.ts:160502
 
 #### Source
 
-main.ts:160541
+main.ts:161023
 
 ***
 
@@ -443,4 +443,4 @@ main.ts:160541
 
 #### Source
 
-main.ts:160534
+main.ts:161016

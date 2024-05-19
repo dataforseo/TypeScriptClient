@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:163521
+main.ts:164003
 
 ## Properties
 
@@ -43,7 +43,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, `<>`, in, not_in, like,not_like
+regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in, like,not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["country","=", "US"]
@@ -61,7 +61,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 #### Source
 
-main.ts:163482
+main.ts:163964
 
 ***
 
@@ -84,7 +84,7 @@ example:
 
 #### Source
 
-main.ts:163435
+main.ts:163917
 
 ***
 
@@ -114,7 +114,7 @@ example:
 
 #### Source
 
-main.ts:163447
+main.ts:163929
 
 ***
 
@@ -133,7 +133,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:163465
+main.ts:163947
 
 ***
 
@@ -152,7 +152,7 @@ if you specify the 10 value, the first ten citations in the results array will b
 
 #### Source
 
-main.ts:163503
+main.ts:163985
 
 ***
 
@@ -174,7 +174,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Source
 
-main.ts:163511
+main.ts:163993
 
 ***
 
@@ -204,7 +204,7 @@ example:
 
 #### Source
 
-main.ts:163498
+main.ts:163980
 
 ***
 
@@ -224,7 +224,7 @@ possible values:
 
 #### Source
 
-main.ts:163453
+main.ts:163935
 
 ***
 
@@ -245,7 +245,7 @@ default value: as_is
 
 #### Source
 
-main.ts:163460
+main.ts:163942
 
 ***
 
@@ -265,7 +265,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:163517
+main.ts:163999
 
 ## Methods
 
@@ -283,7 +283,7 @@ main.ts:163517
 
 #### Source
 
-main.ts:163530
+main.ts:164012
 
 ***
 
@@ -301,7 +301,7 @@ main.ts:163530
 
 #### Source
 
-main.ts:163574
+main.ts:164056
 
 ***
 
@@ -319,4 +319,4 @@ main.ts:163574
 
 #### Source
 
-main.ts:163567
+main.ts:164049

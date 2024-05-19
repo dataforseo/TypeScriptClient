@@ -20,7 +20,7 @@ type of encoding
 
 #### Source
 
-main.ts:139951
+main.ts:139959
 
 ***
 
@@ -33,7 +33,7 @@ domain where the page was found
 
 #### Source
 
-main.ts:139915
+main.ts:139923
 
 ***
 
@@ -46,7 +46,7 @@ indicates the size of the encoded page, in bytes
 
 #### Source
 
-main.ts:139949
+main.ts:139957
 
 ***
 
@@ -61,7 +61,7 @@ example:
 
 #### Source
 
-main.ts:139939
+main.ts:139947
 
 ***
 
@@ -77,7 +77,7 @@ example:
 
 #### Source
 
-main.ts:139929
+main.ts:139937
 
 ***
 
@@ -89,7 +89,7 @@ Internet Protocol address
 
 #### Source
 
-main.ts:139923
+main.ts:139931
 
 ***
 
@@ -102,7 +102,7 @@ indicates the URL to redirect a page to if exists
 
 #### Source
 
-main.ts:139944
+main.ts:139952
 
 ***
 
@@ -115,7 +115,7 @@ main website domain does not include subdomains
 
 #### Source
 
-main.ts:139912
+main.ts:139920
 
 ***
 
@@ -127,7 +127,7 @@ types of media used to display a page
 
 #### Source
 
-main.ts:139953
+main.ts:139961
 
 ***
 
@@ -139,7 +139,7 @@ page meta data
 
 #### Source
 
-main.ts:139957
+main.ts:139965
 
 ***
 
@@ -152,7 +152,7 @@ relevant page URL
 
 #### Source
 
-main.ts:139921
+main.ts:139929
 
 ***
 
@@ -164,7 +164,7 @@ contains backlink data for this page
 
 #### Source
 
-main.ts:139959
+main.ts:139967
 
 ***
 
@@ -179,7 +179,7 @@ example:
 
 #### Source
 
-main.ts:139934
+main.ts:139942
 
 ***
 
@@ -191,7 +191,7 @@ server version
 
 #### Source
 
-main.ts:139955
+main.ts:139963
 
 ***
 
@@ -203,7 +203,7 @@ indicates the page size, in bytes
 
 #### Source
 
-main.ts:139946
+main.ts:139954
 
 ***
 
@@ -215,7 +215,7 @@ HTTP status code of the page
 
 #### Source
 
-main.ts:139941
+main.ts:139949
 
 ***
 
@@ -228,7 +228,7 @@ top-level domain in the DNS root zone
 
 #### Source
 
-main.ts:139918
+main.ts:139926
 
 ***
 
@@ -240,4 +240,4 @@ type of element
 
 #### Source
 
-main.ts:139909
+main.ts:139917

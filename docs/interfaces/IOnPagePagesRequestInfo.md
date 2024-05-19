@@ -21,7 +21,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, <>, in, not_in, like, not_like
+regex, not_regex, <, `<=, >`, >=, =, <>, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["meta.external_links_count","<=",50]["url","like","https://dataforseo.com/apis/dataforseo-labs-api"][["checks.high_waiting_time","=",false],
@@ -29,7 +29,7 @@ example:
 
 #### Source
 
-main.ts:151407
+main.ts:151403
 
 ***
 
@@ -45,7 +45,7 @@ example:
 
 #### Source
 
-main.ts:151386
+main.ts:151382
 
 ***
 
@@ -60,7 +60,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:151391
+main.ts:151387
 
 ***
 
@@ -75,7 +75,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Source
 
-main.ts:151396
+main.ts:151392
 
 ***
 
@@ -99,7 +99,7 @@ example:
 
 #### Source
 
-main.ts:151421
+main.ts:151417
 
 ***
 
@@ -115,4 +115,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:151427
+main.ts:151423

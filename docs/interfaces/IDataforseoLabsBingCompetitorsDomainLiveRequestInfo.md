@@ -40,7 +40,7 @@ slideshare.net
 
 #### Source
 
-main.ts:106534
+main.ts:106628
 
 ***
 
@@ -53,7 +53,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, `<>`, in, not_in
+regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in
 example:
 ["metrics.organic.count",">`",50]
 [["metrics.organic.pos_1","`<>`",0],"and",["metrics.organic.etv",">`=","10"]]
@@ -64,7 +64,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:106480
+main.ts:106574
 
 ***
 
@@ -80,7 +80,7 @@ Note: you can specify up to 20 domains in this array
 
 #### Source
 
-main.ts:106540
+main.ts:106634
 
 ***
 
@@ -99,7 +99,7 @@ default value:
 
 #### Source
 
-main.ts:106466
+main.ts:106560
 
 ***
 
@@ -117,7 +117,7 @@ en
 
 #### Source
 
-main.ts:106457
+main.ts:106551
 
 ***
 
@@ -135,7 +135,7 @@ English
 
 #### Source
 
-main.ts:106449
+main.ts:106543
 
 ***
 
@@ -150,7 +150,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:106502
+main.ts:106596
 
 ***
 
@@ -169,7 +169,7 @@ example:
 
 #### Source
 
-main.ts:106441
+main.ts:106535
 
 ***
 
@@ -188,7 +188,7 @@ United States
 
 #### Source
 
-main.ts:106432
+main.ts:106526
 
 ***
 
@@ -203,7 +203,7 @@ if you specify 10 here, we will extract competitors from the top 10 Bing search 
 
 #### Source
 
-main.ts:106512
+main.ts:106606
 
 ***
 
@@ -218,7 +218,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:106507
+main.ts:106601
 
 ***
 
@@ -245,7 +245,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Source
 
-main.ts:106497
+main.ts:106591
 
 ***
 
@@ -261,7 +261,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:106546
+main.ts:106640
 
 ***
 
@@ -276,4 +276,4 @@ the domain should be specified without https:// and www.
 
 #### Source
 
-main.ts:106423
+main.ts:106517

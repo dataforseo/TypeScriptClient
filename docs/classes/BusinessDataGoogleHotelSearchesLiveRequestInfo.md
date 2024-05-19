@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:201667
+main.ts:202169
 
 ## Properties
 
@@ -51,7 +51,7 @@ example:
 
 #### Source
 
-main.ts:201574
+main.ts:202076
 
 ***
 
@@ -94,7 +94,7 @@ possible values:
 
 #### Source
 
-main.ts:201657
+main.ts:202159
 
 ***
 
@@ -116,7 +116,7 @@ Note: the value cannot precede the today’s date
 
 #### Source
 
-main.ts:201553
+main.ts:202055
 
 ***
 
@@ -139,7 +139,7 @@ the range between check_in and check_out values cannot exceed 30 days
 
 #### Source
 
-main.ts:201562
+main.ts:202064
 
 ***
 
@@ -163,7 +163,7 @@ set the following value if you want to include one 13-year-old child and one 8-y
 
 #### Source
 
-main.ts:201584
+main.ts:202086
 
 ***
 
@@ -182,7 +182,7 @@ example:
 
 #### Source
 
-main.ts:201567
+main.ts:202069
 
 ***
 
@@ -205,7 +205,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:201545
+main.ts:202047
 
 ***
 
@@ -224,7 +224,7 @@ default value: false
 
 #### Source
 
-main.ts:201623
+main.ts:202125
 
 ***
 
@@ -243,7 +243,7 @@ default value: false
 
 #### Source
 
-main.ts:201628
+main.ts:202130
 
 ***
 
@@ -266,7 +266,7 @@ Note: in order to obtain accurate search results, the location name is appended 
 
 #### Source
 
-main.ts:201498
+main.ts:202000
 
 ***
 
@@ -287,7 +287,7 @@ en
 
 #### Source
 
-main.ts:201536
+main.ts:202038
 
 ***
 
@@ -308,7 +308,7 @@ English
 
 #### Source
 
-main.ts:201529
+main.ts:202031
 
 ***
 
@@ -329,7 +329,7 @@ example:
 
 #### Source
 
-main.ts:201513
+main.ts:202015
 
 ***
 
@@ -352,7 +352,7 @@ example:
 
 #### Source
 
-main.ts:201522
+main.ts:202024
 
 ***
 
@@ -374,7 +374,7 @@ Note: in order to obtain accurate search results, the location_name you specify 
 
 #### Source
 
-main.ts:201506
+main.ts:202008
 
 ***
 
@@ -394,7 +394,7 @@ example:
 
 #### Source
 
-main.ts:201618
+main.ts:202120
 
 ***
 
@@ -414,7 +414,7 @@ example:
 
 #### Source
 
-main.ts:201612
+main.ts:202114
 
 ***
 
@@ -434,7 +434,7 @@ example:
 
 #### Source
 
-main.ts:201596
+main.ts:202098
 
 ***
 
@@ -458,7 +458,7 @@ default value: relevance
 
 #### Source
 
-main.ts:201606
+main.ts:202108
 
 ***
 
@@ -478,7 +478,7 @@ example:
 
 #### Source
 
-main.ts:201590
+main.ts:202092
 
 ***
 
@@ -498,7 +498,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:201663
+main.ts:202165
 
 ## Methods
 
@@ -516,7 +516,7 @@ main.ts:201663
 
 #### Source
 
-main.ts:201676
+main.ts:202178
 
 ***
 
@@ -534,7 +534,7 @@ main.ts:201676
 
 #### Source
 
-main.ts:201725
+main.ts:202227
 
 ***
 
@@ -552,4 +552,4 @@ main.ts:201725
 
 #### Source
 
-main.ts:201718
+main.ts:202220

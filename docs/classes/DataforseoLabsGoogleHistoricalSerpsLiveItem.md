@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:95635
+main.ts:95729
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:95611
+main.ts:95705
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Source
 
-main.ts:95616
+main.ts:95710
 
 ***
 
@@ -85,7 +85,7 @@ answer_box, carousel, multi_carousel, featured_snippet, google_flights, google_r
 
 #### Source
 
-main.ts:95624
+main.ts:95718
 
 ***
 
@@ -102,7 +102,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:95631
+main.ts:95725
 
 ***
 
@@ -118,7 +118,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:95628
+main.ts:95722
 
 ***
 
@@ -135,7 +135,7 @@ the results will be provided for the corrected keyword
 
 #### Source
 
-main.ts:95600
+main.ts:95694
 
 ***
 
@@ -151,7 +151,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:95608
+main.ts:95702
 
 ***
 
@@ -167,7 +167,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:95606
+main.ts:95700
 
 ***
 
@@ -183,7 +183,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:95604
+main.ts:95698
 
 ***
 
@@ -199,7 +199,7 @@ total number of results in SERP
 
 #### Source
 
-main.ts:95626
+main.ts:95720
 
 ***
 
@@ -215,7 +215,7 @@ search engine type
 
 #### Source
 
-main.ts:95597
+main.ts:95691
 
 ***
 
@@ -232,7 +232,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Source
 
-main.ts:95619
+main.ts:95713
 
 ***
 
@@ -248,7 +248,7 @@ type of element
 
 #### Source
 
-main.ts:95602
+main.ts:95696
 
 ## Methods
 
@@ -266,7 +266,7 @@ main.ts:95602
 
 #### Source
 
-main.ts:95644
+main.ts:95738
 
 ***
 
@@ -284,7 +284,7 @@ main.ts:95644
 
 #### Source
 
-main.ts:95681
+main.ts:95775
 
 ***
 
@@ -302,4 +302,4 @@ main.ts:95681
 
 #### Source
 
-main.ts:95674
+main.ts:95768

@@ -23,7 +23,7 @@ default value: true
 
 #### Source
 
-main.ts:142669
+main.ts:142677
 
 ***
 
@@ -36,7 +36,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, =, `<>`, in, not_in, like, not_like, ilike, not_ilike
+regex, not_regex, =, `<>`, in, not_in, like, not_like, ilike, not_ilike
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["rank",">`","100"]
@@ -47,7 +47,7 @@ The full list of possible filters is available here.
 
 #### Source
 
-main.ts:142645
+main.ts:142653
 
 ***
 
@@ -62,7 +62,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:142626
+main.ts:142634
 
 ***
 
@@ -77,7 +77,7 @@ default value: true
 
 #### Source
 
-main.ts:142664
+main.ts:142672
 
 ***
 
@@ -92,7 +92,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 #### Source
 
-main.ts:142631
+main.ts:142639
 
 ***
 
@@ -116,7 +116,7 @@ example:
 
 #### Source
 
-main.ts:142659
+main.ts:142667
 
 ***
 
@@ -132,7 +132,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:142675
+main.ts:142683
 
 ***
 
@@ -147,4 +147,4 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Source
 
-main.ts:142621
+main.ts:142629

@@ -18,15 +18,19 @@
 
 ### about\_this\_result?
 
-> **`optional`** **about\_this\_result**: `any`
+> **`optional`** **about\_this\_result**: `Object`
 
 contains information from the ‘About this result’ panel
 ‘About this result’ panel provides additional context about why Google returned this result for the given query;
 this feature appears after clicking on the three dots next to most results
 
+#### Index signature
+
+ \[`key`: `string`\]: [`AboutThisResultElement`](../classes/AboutThisResultElement.md)
+
 #### Source
 
-main.ts:90133
+main.ts:90227
 
 ***
 
@@ -39,7 +43,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 #### Source
 
-main.ts:90120
+main.ts:90214
 
 ***
 
@@ -51,7 +55,7 @@ backlinks information for the target website
 
 #### Source
 
-main.ts:90156
+main.ts:90250
 
 ***
 
@@ -63,7 +67,7 @@ breadcrumb in SERP
 
 #### Source
 
-main.ts:90101
+main.ts:90195
 
 ***
 
@@ -75,7 +79,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:90113
+main.ts:90207
 
 ***
 
@@ -87,7 +91,7 @@ subdomain in SERP
 
 #### Source
 
-main.ts:90095
+main.ts:90189
 
 ***
 
@@ -101,7 +105,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:90151
+main.ts:90245
 
 ***
 
@@ -116,7 +120,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:90142
+main.ts:90236
 
 ***
 
@@ -128,7 +132,7 @@ includes additional information appended after the result description in SERP
 
 #### Source
 
-main.ts:90117
+main.ts:90211
 
 ***
 
@@ -140,7 +144,7 @@ words highlighted in bold within the results description
 
 #### Source
 
-main.ts:90125
+main.ts:90219
 
 ***
 
@@ -155,7 +159,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:90147
+main.ts:90241
 
 ***
 
@@ -167,7 +171,7 @@ indicates whether the element is a featured_snippet
 
 #### Source
 
-main.ts:90109
+main.ts:90203
 
 ***
 
@@ -179,7 +183,7 @@ indicates whether the element contains an image
 
 #### Source
 
-main.ts:90105
+main.ts:90199
 
 ***
 
@@ -191,7 +195,7 @@ indicates whether the element is marked as malicious
 
 #### Source
 
-main.ts:90111
+main.ts:90205
 
 ***
 
@@ -203,7 +207,7 @@ indicates whether the element contains a video
 
 #### Source
 
-main.ts:90107
+main.ts:90201
 
 ***
 
@@ -217,7 +221,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:90129
+main.ts:90223
 
 ***
 
@@ -229,7 +233,7 @@ primary domain name in SERP
 
 #### Source
 
-main.ts:90135
+main.ts:90229
 
 ***
 
@@ -243,7 +247,7 @@ left, right
 
 #### Source
 
-main.ts:90091
+main.ts:90185
 
 ***
 
@@ -255,7 +259,7 @@ includes additional information appended before the result description in SERP
 
 #### Source
 
-main.ts:90115
+main.ts:90209
 
 ***
 
@@ -268,7 +272,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:90087
+main.ts:90181
 
 ***
 
@@ -281,7 +285,7 @@ contains information about the ranking changes of the SERP element since the pre
 
 #### Source
 
-main.ts:90154
+main.ts:90248
 
 ***
 
@@ -294,7 +298,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:90084
+main.ts:90178
 
 ***
 
@@ -306,7 +310,7 @@ page and domain rank information
 
 #### Source
 
-main.ts:90158
+main.ts:90252
 
 ***
 
@@ -319,7 +323,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:90123
+main.ts:90217
 
 ***
 
@@ -331,7 +335,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Source
 
-main.ts:90137
+main.ts:90231
 
 ***
 
@@ -343,7 +347,7 @@ search engine type
 
 #### Source
 
-main.ts:90081
+main.ts:90175
 
 ***
 
@@ -355,7 +359,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:90097
+main.ts:90191
 
 ***
 
@@ -367,7 +371,7 @@ relevant URL in SERP
 
 #### Source
 
-main.ts:90099
+main.ts:90193
 
 ***
 
@@ -379,7 +383,7 @@ relevant website name in SERP
 
 #### Source
 
-main.ts:90103
+main.ts:90197
 
 ***
 
@@ -391,4 +395,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:90093
+main.ts:90187

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:101533
+main.ts:101627
 
 ## Properties
 
@@ -46,7 +46,7 @@ traffic data from the local pack results in SERP
 
 #### Source
 
-main.ts:101529
+main.ts:101623
 
 ***
 
@@ -62,7 +62,7 @@ traffic data from the featured snippet results in Google SERP
 
 #### Source
 
-main.ts:101527
+main.ts:101621
 
 ***
 
@@ -78,7 +78,7 @@ traffic data from organic search
 
 #### Source
 
-main.ts:101523
+main.ts:101617
 
 ***
 
@@ -94,7 +94,7 @@ traffic data from paid search
 
 #### Source
 
-main.ts:101525
+main.ts:101619
 
 ## Methods
 
@@ -112,7 +112,7 @@ main.ts:101525
 
 #### Source
 
-main.ts:101542
+main.ts:101636
 
 ***
 
@@ -130,7 +130,7 @@ main.ts:101542
 
 #### Source
 
-main.ts:101578
+main.ts:101672
 
 ***
 
@@ -148,4 +148,4 @@ main.ts:101578
 
 #### Source
 
-main.ts:101571
+main.ts:101665

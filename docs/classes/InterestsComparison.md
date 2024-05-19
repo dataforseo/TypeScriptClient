@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:126813
+main.ts:126907
 
 ## Properties
 
@@ -47,7 +47,7 @@ values in this array represent percentages relative to the maximum value across 
 
 #### Source
 
-main.ts:126809
+main.ts:126903
 
 ***
 
@@ -63,7 +63,7 @@ contains keyword popularity and related data
 
 #### Source
 
-main.ts:126806
+main.ts:126900
 
 ## Methods
 
@@ -81,7 +81,7 @@ main.ts:126806
 
 #### Source
 
-main.ts:126822
+main.ts:126916
 
 ***
 
@@ -99,7 +99,7 @@ main.ts:126822
 
 #### Source
 
-main.ts:126848
+main.ts:126942
 
 ***
 
@@ -117,4 +117,4 @@ main.ts:126848
 
 #### Source
 
-main.ts:126841
+main.ts:126935

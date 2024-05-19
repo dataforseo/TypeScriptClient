@@ -21,7 +21,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, `<>`, in, not_in, like,not_like
+regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in, like,not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["keyword_info.search_volume",">`",0]
@@ -37,7 +37,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:88601
+main.ts:88683
 
 ***
 
@@ -52,7 +52,7 @@ default value: false
 
 #### Source
 
-main.ts:88582
+main.ts:88664
 
 ***
 
@@ -67,7 +67,7 @@ default value: false
 
 #### Source
 
-main.ts:88577
+main.ts:88659
 
 ***
 
@@ -85,7 +85,7 @@ en
 
 #### Source
 
-main.ts:88572
+main.ts:88654
 
 ***
 
@@ -103,7 +103,7 @@ English
 
 #### Source
 
-main.ts:88564
+main.ts:88646
 
 ***
 
@@ -119,7 +119,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:88629
+main.ts:88711
 
 ***
 
@@ -137,7 +137,7 @@ example:
 
 #### Source
 
-main.ts:88556
+main.ts:88638
 
 ***
 
@@ -155,7 +155,7 @@ United Kingdom
 
 #### Source
 
-main.ts:88548
+main.ts:88630
 
 ***
 
@@ -170,7 +170,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:88634
+main.ts:88716
 
 ***
 
@@ -188,7 +188,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Source
 
-main.ts:88642
+main.ts:88724
 
 ***
 
@@ -214,7 +214,7 @@ example:
 
 #### Source
 
-main.ts:88617
+main.ts:88699
 
 ***
 
@@ -230,4 +230,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:88623
+main.ts:88705

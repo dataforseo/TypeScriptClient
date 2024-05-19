@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:159594
+main.ts:160014
 
 ## Properties
 
@@ -38,7 +38,7 @@ main.ts:159594
 
 > **`optional`** **footer**: [`PageSectionContentInfo`](PageSectionContentInfo.md)
 
-parsed content of the footer
+content of the footer of the table
 
 #### Implementation of
 
@@ -46,7 +46,7 @@ parsed content of the footer
 
 #### Source
 
-main.ts:159584
+main.ts:160004
 
 ***
 
@@ -62,13 +62,13 @@ parsed content of the header
 
 #### Source
 
-main.ts:159582
+main.ts:160002
 
 ***
 
 ### main\_topic?
 
-> **`optional`** **main\_topic**: [`TopicInfo`](TopicInfo.md)[]
+> **`optional`** **main\_topic**: [`MainTopic`](MainTopic.md)[]
 
 main topic on the page
 you can find more information about topic priority calculation in this help center article
@@ -79,13 +79,13 @@ you can find more information about topic priority calculation in this help cent
 
 #### Source
 
-main.ts:159587
+main.ts:160007
 
 ***
 
 ### secondary\_topic?
 
-> **`optional`** **secondary\_topic**: [`TopicInfo`](TopicInfo.md)[]
+> **`optional`** **secondary\_topic**: [`SecondaryTopic`](SecondaryTopic.md)[]
 
 secondary topic on the page
 you can find more information about topic priority calculation in this help center article
@@ -96,7 +96,7 @@ you can find more information about topic priority calculation in this help cent
 
 #### Source
 
-main.ts:159590
+main.ts:160010
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:159590
 
 #### Source
 
-main.ts:159603
+main.ts:160023
 
 ***
 
@@ -132,7 +132,7 @@ main.ts:159603
 
 #### Source
 
-main.ts:159631
+main.ts:160051
 
 ***
 
@@ -150,4 +150,4 @@ main.ts:159631
 
 #### Source
 
-main.ts:159624
+main.ts:160044

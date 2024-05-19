@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:157489
+main.ts:157485
 
 ## Properties
 
@@ -43,7 +43,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, =, <>, in, not_in, like, not_like
+regex, not_regex, =, <>, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["keyword","=","%seo%"]
@@ -61,7 +61,7 @@ The full list of possible filters is available by this link.
 
 #### Source
 
-main.ts:157465
+main.ts:157461
 
 ***
 
@@ -81,7 +81,7 @@ example:
 
 #### Source
 
-main.ts:157432
+main.ts:157428
 
 ***
 
@@ -100,7 +100,7 @@ possible values:
 
 #### Source
 
-main.ts:157437
+main.ts:157433
 
 ***
 
@@ -119,7 +119,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:157448
+main.ts:157444
 
 ***
 
@@ -147,7 +147,7 @@ example:
 
 #### Source
 
-main.ts:157479
+main.ts:157475
 
 ***
 
@@ -167,7 +167,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:157485
+main.ts:157481
 
 ***
 
@@ -187,7 +187,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Source
 
-main.ts:157443
+main.ts:157439
 
 ## Methods
 
@@ -205,7 +205,7 @@ main.ts:157443
 
 #### Source
 
-main.ts:157498
+main.ts:157494
 
 ***
 
@@ -223,7 +223,7 @@ main.ts:157498
 
 #### Source
 
-main.ts:157529
+main.ts:157525
 
 ***
 
@@ -241,4 +241,4 @@ main.ts:157529
 
 #### Source
 
-main.ts:157522
+main.ts:157518

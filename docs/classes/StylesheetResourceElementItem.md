@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:153529
+main.ts:153525
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:153529
 
 #### Source
 
-main.ts:20927
+main.ts:21007
 
 ***
 
@@ -71,7 +71,7 @@ any, none, image, sitemap, robots, script, stylesheet, redirect, html, text, oth
 
 #### Source
 
-main.ts:153508
+main.ts:153504
 
 ***
 
@@ -87,7 +87,7 @@ instructions for caching
 
 #### Source
 
-main.ts:153494
+main.ts:153490
 
 ***
 
@@ -108,7 +108,7 @@ contents of the array depend on the resource_type
 
 #### Source
 
-main.ts:153497
+main.ts:153493
 
 ***
 
@@ -124,7 +124,7 @@ type of encoding
 
 #### Source
 
-main.ts:153501
+main.ts:153497
 
 ***
 
@@ -140,7 +140,7 @@ total time it takes until a browser receives a complete response from a server (
 
 #### Source
 
-main.ts:153517
+main.ts:153513
 
 ***
 
@@ -157,7 +157,7 @@ indicates the size of the encoded resource measured in bytes
 
 #### Source
 
-main.ts:153482
+main.ts:153478
 
 ***
 
@@ -174,7 +174,7 @@ the amount of time the browser needs to complete downloading a resource
 
 #### Source
 
-main.ts:153523
+main.ts:153519
 
 ***
 
@@ -191,7 +191,7 @@ the amount of time the browser needs to start downloading a resource
 
 #### Source
 
-main.ts:153520
+main.ts:153516
 
 ***
 
@@ -210,7 +210,7 @@ example:
 
 #### Source
 
-main.ts:153490
+main.ts:153486
 
 ***
 
@@ -226,7 +226,7 @@ resource fething time range
 
 #### Source
 
-main.ts:153492
+main.ts:153488
 
 ***
 
@@ -242,7 +242,7 @@ resource initiator
 
 #### Source
 
-main.ts:153515
+main.ts:153511
 
 ***
 
@@ -258,7 +258,7 @@ indicates whether the resource blocks rendering
 
 #### Source
 
-main.ts:153525
+main.ts:153521
 
 ***
 
@@ -275,7 +275,7 @@ if there is no data, the value will be null
 
 #### Source
 
-main.ts:153513
+main.ts:153509
 
 ***
 
@@ -292,7 +292,7 @@ indicates the URL to redirect a page to
 
 #### Source
 
-main.ts:153474
+main.ts:153470
 
 ***
 
@@ -308,7 +308,7 @@ types of media used to display a resource
 
 #### Source
 
-main.ts:153503
+main.ts:153499
 
 ***
 
@@ -327,7 +327,7 @@ to obtain resource’s meta from a particular url, specify that URL when setting
 
 #### Source
 
-main.ts:153469
+main.ts:153465
 
 ***
 
@@ -343,7 +343,7 @@ resource errors and warnings
 
 #### Source
 
-main.ts:153499
+main.ts:153495
 
 ***
 
@@ -359,7 +359,7 @@ server version
 
 #### Source
 
-main.ts:153510
+main.ts:153506
 
 ***
 
@@ -376,7 +376,7 @@ indicates the size of a given resource measured in bytes
 
 #### Source
 
-main.ts:153479
+main.ts:153475
 
 ***
 
@@ -392,7 +392,7 @@ status code of the page where a given resource is located
 
 #### Source
 
-main.ts:153471
+main.ts:153467
 
 ***
 
@@ -409,7 +409,7 @@ indicates the compressed size of a given resource in bytes
 
 #### Source
 
-main.ts:153485
+main.ts:153481
 
 ***
 
@@ -425,7 +425,7 @@ resource URL
 
 #### Source
 
-main.ts:153476
+main.ts:153472
 
 ## Methods
 
@@ -447,7 +447,7 @@ main.ts:153476
 
 #### Source
 
-main.ts:153534
+main.ts:153530
 
 ***
 
@@ -469,7 +469,7 @@ main.ts:153534
 
 #### Source
 
-main.ts:153579
+main.ts:153575
 
 ***
 
@@ -491,4 +491,4 @@ main.ts:153579
 
 #### Source
 
-main.ts:153572
+main.ts:153568

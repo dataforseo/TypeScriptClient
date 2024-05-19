@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:202450
+main.ts:202953
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Source
 
-main.ts:202440
+main.ts:202943
 
 ***
 
@@ -62,7 +62,7 @@ URL for collecting the results of the task
 
 #### Source
 
-main.ts:202444
+main.ts:202947
 
 ***
 
@@ -78,7 +78,7 @@ URL for collecting the results of the task
 
 #### Source
 
-main.ts:202446
+main.ts:202949
 
 ***
 
@@ -95,7 +95,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:202435
+main.ts:202937
 
 ***
 
@@ -112,7 +112,21 @@ can take the following values: google
 
 #### Source
 
-main.ts:202438
+main.ts:202940
+
+***
+
+### se\_type?
+
+> **`optional`** **se\_type**: `string`
+
+#### Implementation of
+
+[`IBusinessDataGoogleHotelInfoTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleHotelInfoTasksReadyResultInfo.md).[`se_type`](../interfaces/IBusinessDataGoogleHotelInfoTasksReadyResultInfo.md#se_type)
+
+#### Source
+
+main.ts:202941
 
 ***
 
@@ -128,7 +142,7 @@ user-defined task identifier
 
 #### Source
 
-main.ts:202442
+main.ts:202945
 
 ## Methods
 
@@ -146,7 +160,7 @@ main.ts:202442
 
 #### Source
 
-main.ts:202459
+main.ts:202962
 
 ***
 
@@ -164,7 +178,7 @@ main.ts:202459
 
 #### Source
 
-main.ts:202481
+main.ts:202985
 
 ***
 
@@ -182,4 +196,4 @@ main.ts:202481
 
 #### Source
 
-main.ts:202474
+main.ts:202978

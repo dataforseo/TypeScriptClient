@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:97315
+main.ts:97409
 
 ## Properties
 
@@ -70,7 +70,7 @@ kc:/local:place qa
 
 #### Source
 
-main.ts:97309
+main.ts:97403
 
 ***
 
@@ -86,7 +86,7 @@ link of the element
 
 #### Source
 
-main.ts:97311
+main.ts:97405
 
 ***
 
@@ -104,7 +104,7 @@ left, right
 
 #### Source
 
-main.ts:97301
+main.ts:97395
 
 ***
 
@@ -121,7 +121,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:97297
+main.ts:97391
 
 ***
 
@@ -139,7 +139,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:97294
+main.ts:97388
 
 ***
 
@@ -155,7 +155,7 @@ title of a given link element
 
 #### Source
 
-main.ts:97305
+main.ts:97399
 
 ***
 
@@ -171,7 +171,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:97303
+main.ts:97397
 
 ## Methods
 
@@ -193,7 +193,7 @@ main.ts:97303
 
 #### Source
 
-main.ts:97320
+main.ts:97414
 
 ***
 
@@ -215,7 +215,7 @@ main.ts:97320
 
 #### Source
 
-main.ts:97348
+main.ts:97442
 
 ***
 
@@ -237,4 +237,4 @@ main.ts:97348
 
 #### Source
 
-main.ts:97341
+main.ts:97435

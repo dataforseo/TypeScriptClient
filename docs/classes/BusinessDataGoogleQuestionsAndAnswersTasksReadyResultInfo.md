@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:206194
+main.ts:206701
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Source
 
-main.ts:206186
+main.ts:206693
 
 ***
 
@@ -62,7 +62,7 @@ URL for collecting the results of the task
 
 #### Source
 
-main.ts:206190
+main.ts:206697
 
 ***
 
@@ -79,7 +79,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:206181
+main.ts:206687
 
 ***
 
@@ -96,7 +96,21 @@ can take the following values: google
 
 #### Source
 
-main.ts:206184
+main.ts:206690
+
+***
+
+### se\_type?
+
+> **`optional`** **se\_type**: `string`
+
+#### Implementation of
+
+[`IBusinessDataGoogleQuestionsAndAnswersTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTasksReadyResultInfo.md).[`se_type`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTasksReadyResultInfo.md#se_type)
+
+#### Source
+
+main.ts:206691
 
 ***
 
@@ -112,7 +126,7 @@ user-defined task identifier
 
 #### Source
 
-main.ts:206188
+main.ts:206695
 
 ## Methods
 
@@ -130,7 +144,7 @@ main.ts:206188
 
 #### Source
 
-main.ts:206203
+main.ts:206710
 
 ***
 
@@ -148,7 +162,7 @@ main.ts:206203
 
 #### Source
 
-main.ts:206224
+main.ts:206732
 
 ***
 
@@ -166,4 +180,4 @@ main.ts:206224
 
 #### Source
 
-main.ts:206217
+main.ts:206725

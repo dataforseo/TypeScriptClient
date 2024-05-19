@@ -27,7 +27,7 @@ example:
 
 #### Source
 
-main.ts:126524
+main.ts:126618
 
 ***
 
@@ -44,7 +44,7 @@ example:
 
 #### Source
 
-main.ts:126531
+main.ts:126625
 
 ***
 
@@ -60,7 +60,7 @@ specifying non-Latin characters, you’ll get data for the countries where they 
 
 #### Source
 
-main.ts:126495
+main.ts:126589
 
 ***
 
@@ -79,7 +79,7 @@ example:
 
 #### Source
 
-main.ts:126513
+main.ts:126607
 
 ***
 
@@ -98,7 +98,7 @@ United Kingdom
 
 #### Source
 
-main.ts:126504
+main.ts:126598
 
 ***
 
@@ -114,7 +114,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:126543
+main.ts:126637
 
 ***
 
@@ -130,7 +130,7 @@ past_4_hours, past_day, past_7_days, past_30_days, past_90_days, past_12_months,
 
 #### Source
 
-main.ts:126537
+main.ts:126631
 
 ***
 
@@ -142,4 +142,4 @@ type of element
 
 #### Source
 
-main.ts:126515
+main.ts:126609

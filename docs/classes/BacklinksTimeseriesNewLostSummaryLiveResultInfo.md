@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:145706
+main.ts:145714
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Source
 
-main.ts:145691
+main.ts:145699
 
 ***
 
@@ -68,7 +68,7 @@ example:
 
 #### Source
 
-main.ts:145696
+main.ts:145704
 
 ***
 
@@ -84,7 +84,7 @@ group_range from the POST array
 
 #### Source
 
-main.ts:145698
+main.ts:145706
 
 ***
 
@@ -100,7 +100,7 @@ contains relevant backlinks and referring domains data
 
 #### Source
 
-main.ts:145702
+main.ts:145710
 
 ***
 
@@ -116,7 +116,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:145700
+main.ts:145708
 
 ***
 
@@ -132,7 +132,7 @@ target from a POST array
 
 #### Source
 
-main.ts:145686
+main.ts:145694
 
 ## Methods
 
@@ -150,7 +150,7 @@ main.ts:145686
 
 #### Source
 
-main.ts:145715
+main.ts:145723
 
 ***
 
@@ -168,7 +168,7 @@ main.ts:145715
 
 #### Source
 
-main.ts:145741
+main.ts:145749
 
 ***
 
@@ -186,4 +186,4 @@ main.ts:145741
 
 #### Source
 
-main.ts:145734
+main.ts:145742

@@ -26,7 +26,7 @@ example:
 
 #### Source
 
-main.ts:143255
+main.ts:143263
 
 ***
 
@@ -45,7 +45,7 @@ default value: live
 
 #### Source
 
-main.ts:143247
+main.ts:143255
 
 ***
 
@@ -60,7 +60,7 @@ default value: true
 
 #### Source
 
-main.ts:143271
+main.ts:143279
 
 ***
 
@@ -80,7 +80,7 @@ example:
 
 #### Source
 
-main.ts:143186
+main.ts:143194
 
 ***
 
@@ -93,7 +93,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, =, `<>`, in, not_in, like, not_like, ilike, not_ilike
+regex, not_regex, =, `<>`, in, not_in, like, not_like, ilike, not_ilike
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["1.internal_links_count",">`","1"]
@@ -107,7 +107,7 @@ The full list of possible filters is available here.
 
 #### Source
 
-main.ts:143203
+main.ts:143211
 
 ***
 
@@ -123,7 +123,7 @@ default value: true
 
 #### Source
 
-main.ts:143266
+main.ts:143274
 
 ***
 
@@ -138,7 +138,7 @@ default value: true
 
 #### Source
 
-main.ts:143260
+main.ts:143268
 
 ***
 
@@ -159,7 +159,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:143238
+main.ts:143246
 
 ***
 
@@ -170,14 +170,14 @@ main.ts:143238
 indicates whether to intersect backlinks
 optional field
 use this field to intersect or merge results for the specified domains
-possible values: all, partical
+possible values: all, partial
 all – results are based on all backlinks;
 partial – results are based on the intersecting backlinks only;
 default value: all
 
 #### Source
 
-main.ts:143279
+main.ts:143287
 
 ***
 
@@ -192,7 +192,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:143227
+main.ts:143235
 
 ***
 
@@ -207,7 +207,7 @@ if you specify the 10 value, the first ten backlinks in the results array will b
 
 #### Source
 
-main.ts:143222
+main.ts:143230
 
 ***
 
@@ -231,7 +231,7 @@ example:
 
 #### Source
 
-main.ts:143217
+main.ts:143225
 
 ***
 
@@ -247,7 +247,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:143285
+main.ts:143293
 
 ***
 
@@ -272,4 +272,4 @@ example:
 
 #### Source
 
-main.ts:143176
+main.ts:143184

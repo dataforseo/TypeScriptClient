@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:88465
+main.ts:88547
 
 ## Properties
 
@@ -43,7 +43,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, `<>`, in, not_in, like,not_like
+regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in, like,not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["keyword_info.search_volume",">`",0]
@@ -63,7 +63,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:88420
+main.ts:88502
 
 ***
 
@@ -82,7 +82,7 @@ default value: false
 
 #### Source
 
-main.ts:88401
+main.ts:88483
 
 ***
 
@@ -101,7 +101,7 @@ default value: false
 
 #### Source
 
-main.ts:88396
+main.ts:88478
 
 ***
 
@@ -123,7 +123,7 @@ en
 
 #### Source
 
-main.ts:88391
+main.ts:88473
 
 ***
 
@@ -145,7 +145,7 @@ English
 
 #### Source
 
-main.ts:88383
+main.ts:88465
 
 ***
 
@@ -165,7 +165,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:88448
+main.ts:88530
 
 ***
 
@@ -187,7 +187,7 @@ example:
 
 #### Source
 
-main.ts:88375
+main.ts:88457
 
 ***
 
@@ -209,7 +209,7 @@ United Kingdom
 
 #### Source
 
-main.ts:88367
+main.ts:88449
 
 ***
 
@@ -228,7 +228,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:88453
+main.ts:88535
 
 ***
 
@@ -250,7 +250,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Source
 
-main.ts:88461
+main.ts:88543
 
 ***
 
@@ -280,7 +280,7 @@ example:
 
 #### Source
 
-main.ts:88436
+main.ts:88518
 
 ***
 
@@ -300,7 +300,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:88442
+main.ts:88524
 
 ## Methods
 
@@ -318,7 +318,7 @@ main.ts:88442
 
 #### Source
 
-main.ts:88474
+main.ts:88556
 
 ***
 
@@ -336,7 +336,7 @@ main.ts:88474
 
 #### Source
 
-main.ts:88510
+main.ts:88592
 
 ***
 
@@ -354,4 +354,4 @@ main.ts:88510
 
 #### Source
 
-main.ts:88503
+main.ts:88585

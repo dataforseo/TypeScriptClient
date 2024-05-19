@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:79387
+main.ts:79469
 
 ## Properties
 
@@ -47,7 +47,7 @@ the total number of backlinks, including dofollow and nofollow links
 
 #### Source
 
-main.ts:79378
+main.ts:79460
 
 ***
 
@@ -63,7 +63,7 @@ number of dofollow links
 
 #### Source
 
-main.ts:79375
+main.ts:79457
 
 ***
 
@@ -79,7 +79,7 @@ number of referring domains
 
 #### Source
 
-main.ts:79369
+main.ts:79451
 
 ***
 
@@ -95,7 +95,7 @@ number of referring main domains
 
 #### Source
 
-main.ts:79371
+main.ts:79453
 
 ***
 
@@ -111,7 +111,7 @@ number of referring pages
 
 #### Source
 
-main.ts:79373
+main.ts:79455
 
 ***
 
@@ -130,7 +130,7 @@ example:
 
 #### Source
 
-main.ts:79383
+main.ts:79465
 
 ## Methods
 
@@ -148,7 +148,7 @@ main.ts:79383
 
 #### Source
 
-main.ts:79396
+main.ts:79478
 
 ***
 
@@ -166,7 +166,7 @@ main.ts:79396
 
 #### Source
 
-main.ts:79418
+main.ts:79500
 
 ***
 
@@ -184,4 +184,4 @@ main.ts:79418
 
 #### Source
 
-main.ts:79411
+main.ts:79493

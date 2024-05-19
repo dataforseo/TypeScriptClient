@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:189446
+main.ts:189936
 
 ## Properties
 
@@ -50,7 +50,7 @@ you can specify up to 10 categories
 
 #### Source
 
-main.ts:189383
+main.ts:189873
 
 ***
 
@@ -69,7 +69,7 @@ can contain up to 200 symbols
 
 #### Source
 
-main.ts:189388
+main.ts:189878
 
 ***
 
@@ -82,7 +82,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
+regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["item.rating.value",">`",3]
@@ -94,7 +94,7 @@ you can receive the list of available filters by making a separate request to h
 
 #### Source
 
-main.ts:189404
+main.ts:189894
 
 ***
 
@@ -113,7 +113,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:189423
+main.ts:189913
 
 ***
 
@@ -132,7 +132,7 @@ if you specify the 10 value, the first ten entities in the results array will be
 
 #### Source
 
-main.ts:189428
+main.ts:189918
 
 ***
 
@@ -154,7 +154,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 #### Source
 
-main.ts:189436
+main.ts:189926
 
 ***
 
@@ -182,7 +182,7 @@ example:
 
 #### Source
 
-main.ts:189418
+main.ts:189908
 
 ***
 
@@ -202,7 +202,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:189442
+main.ts:189932
 
 ***
 
@@ -221,7 +221,7 @@ can contain up to 200 symbols
 
 #### Source
 
-main.ts:189393
+main.ts:189883
 
 ## Methods
 
@@ -239,7 +239,7 @@ main.ts:189393
 
 #### Source
 
-main.ts:189455
+main.ts:189945
 
 ***
 
@@ -257,7 +257,7 @@ main.ts:189455
 
 #### Source
 
-main.ts:189492
+main.ts:189982
 
 ***
 
@@ -275,4 +275,4 @@ main.ts:189492
 
 #### Source
 
-main.ts:189485
+main.ts:189975

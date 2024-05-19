@@ -25,7 +25,7 @@ example:
 
 #### Source
 
-main.ts:201853
+main.ts:202355
 
 ***
 
@@ -64,7 +64,7 @@ possible values:
 
 #### Source
 
-main.ts:201936
+main.ts:202438
 
 ***
 
@@ -82,7 +82,7 @@ Note: the value cannot precede the today’s date
 
 #### Source
 
-main.ts:201832
+main.ts:202334
 
 ***
 
@@ -101,7 +101,7 @@ the range between check_in and check_out values cannot exceed 30 days
 
 #### Source
 
-main.ts:201841
+main.ts:202343
 
 ***
 
@@ -121,7 +121,7 @@ set the following value if you want to include one 13-year-old child and one 8-y
 
 #### Source
 
-main.ts:201863
+main.ts:202365
 
 ***
 
@@ -136,7 +136,7 @@ example:
 
 #### Source
 
-main.ts:201846
+main.ts:202348
 
 ***
 
@@ -155,7 +155,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:201824
+main.ts:202326
 
 ***
 
@@ -170,7 +170,7 @@ default value: false
 
 #### Source
 
-main.ts:201902
+main.ts:202404
 
 ***
 
@@ -185,7 +185,7 @@ default value: false
 
 #### Source
 
-main.ts:201907
+main.ts:202409
 
 ***
 
@@ -204,7 +204,7 @@ Note: in order to obtain accurate search results, the location name is appended 
 
 #### Source
 
-main.ts:201777
+main.ts:202279
 
 ***
 
@@ -221,7 +221,7 @@ en
 
 #### Source
 
-main.ts:201815
+main.ts:202317
 
 ***
 
@@ -238,7 +238,7 @@ English
 
 #### Source
 
-main.ts:201808
+main.ts:202310
 
 ***
 
@@ -255,7 +255,7 @@ example:
 
 #### Source
 
-main.ts:201792
+main.ts:202294
 
 ***
 
@@ -274,7 +274,7 @@ example:
 
 #### Source
 
-main.ts:201801
+main.ts:202303
 
 ***
 
@@ -292,7 +292,7 @@ Note: in order to obtain accurate search results, the location_name you specify 
 
 #### Source
 
-main.ts:201785
+main.ts:202287
 
 ***
 
@@ -308,7 +308,7 @@ example:
 
 #### Source
 
-main.ts:201897
+main.ts:202399
 
 ***
 
@@ -324,7 +324,7 @@ example:
 
 #### Source
 
-main.ts:201891
+main.ts:202393
 
 ***
 
@@ -340,7 +340,7 @@ example:
 
 #### Source
 
-main.ts:201875
+main.ts:202377
 
 ***
 
@@ -360,7 +360,7 @@ default value: relevance
 
 #### Source
 
-main.ts:201885
+main.ts:202387
 
 ***
 
@@ -376,7 +376,7 @@ example:
 
 #### Source
 
-main.ts:201869
+main.ts:202371
 
 ***
 
@@ -392,4 +392,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:201942
+main.ts:202444

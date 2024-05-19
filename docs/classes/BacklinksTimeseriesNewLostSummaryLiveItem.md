@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:145603
+main.ts:145611
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Source
 
-main.ts:145581
+main.ts:145589
 
 ***
 
@@ -66,7 +66,7 @@ number of lost backlinks of the target
 
 #### Source
 
-main.ts:145587
+main.ts:145595
 
 ***
 
@@ -83,7 +83,7 @@ number of lost referring domains of the target
 
 #### Source
 
-main.ts:145593
+main.ts:145601
 
 ***
 
@@ -100,7 +100,7 @@ number of lost referring main domains of the target
 
 #### Source
 
-main.ts:145599
+main.ts:145607
 
 ***
 
@@ -117,7 +117,7 @@ number of new backlinks pointing to the target
 
 #### Source
 
-main.ts:145584
+main.ts:145592
 
 ***
 
@@ -134,7 +134,7 @@ number of new referring domains pointing to the target
 
 #### Source
 
-main.ts:145590
+main.ts:145598
 
 ***
 
@@ -151,7 +151,7 @@ number of new referring main domains pointing to the target
 
 #### Source
 
-main.ts:145596
+main.ts:145604
 
 ***
 
@@ -167,7 +167,7 @@ type of element
 
 #### Source
 
-main.ts:145576
+main.ts:145584
 
 ## Methods
 
@@ -185,7 +185,7 @@ main.ts:145576
 
 #### Source
 
-main.ts:145612
+main.ts:145620
 
 ***
 
@@ -203,7 +203,7 @@ main.ts:145612
 
 #### Source
 
-main.ts:145636
+main.ts:145644
 
 ***
 
@@ -221,4 +221,4 @@ main.ts:145636
 
 #### Source
 
-main.ts:145629
+main.ts:145637

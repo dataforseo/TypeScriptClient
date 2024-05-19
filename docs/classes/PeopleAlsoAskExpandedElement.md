@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:29445
+main.ts:29525
 
 ## Properties
 
@@ -46,7 +46,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:29431
+main.ts:29511
 
 ***
 
@@ -62,7 +62,7 @@ domain where a link points
 
 #### Source
 
-main.ts:29427
+main.ts:29507
 
 ***
 
@@ -78,7 +78,7 @@ the title of the featured snippets source page
 
 #### Source
 
-main.ts:29423
+main.ts:29503
 
 ***
 
@@ -94,7 +94,7 @@ images of the element
 
 #### Source
 
-main.ts:29433
+main.ts:29513
 
 ***
 
@@ -111,7 +111,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:29441
+main.ts:29521
 
 ***
 
@@ -130,7 +130,7 @@ example:
 
 #### Source
 
-main.ts:29438
+main.ts:29518
 
 ***
 
@@ -146,7 +146,7 @@ title of the carousel item
 
 #### Source
 
-main.ts:29429
+main.ts:29509
 
 ***
 
@@ -162,7 +162,7 @@ type of element
 
 #### Source
 
-main.ts:29421
+main.ts:29501
 
 ***
 
@@ -178,7 +178,7 @@ URL of element
 
 #### Source
 
-main.ts:29425
+main.ts:29505
 
 ## Methods
 
@@ -196,7 +196,7 @@ main.ts:29425
 
 #### Source
 
-main.ts:29454
+main.ts:29534
 
 ***
 
@@ -214,7 +214,7 @@ main.ts:29454
 
 #### Source
 
-main.ts:29483
+main.ts:29563
 
 ***
 
@@ -232,4 +232,4 @@ main.ts:29483
 
 #### Source
 
-main.ts:29476
+main.ts:29556

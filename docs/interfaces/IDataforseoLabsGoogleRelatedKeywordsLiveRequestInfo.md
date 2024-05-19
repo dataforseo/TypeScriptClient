@@ -30,7 +30,7 @@ estimated number of keywords for each level (maximum):
 
 #### Source
 
-main.ts:83607
+main.ts:83689
 
 ***
 
@@ -43,7 +43,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, `<>`, in, not_in, like,not_like
+regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in, like,not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["keyword_info.search_volume",">`",0]
@@ -59,7 +59,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:83648
+main.ts:83730
 
 ***
 
@@ -74,7 +74,7 @@ default value: false
 
 #### Source
 
-main.ts:83622
+main.ts:83704
 
 ***
 
@@ -89,7 +89,7 @@ default value: false
 
 #### Source
 
-main.ts:83612
+main.ts:83694
 
 ***
 
@@ -104,7 +104,7 @@ default value: false
 
 #### Source
 
-main.ts:83617
+main.ts:83699
 
 ***
 
@@ -120,7 +120,7 @@ the keywords will be converted to lowercase format
 
 #### Source
 
-main.ts:83563
+main.ts:83645
 
 ***
 
@@ -138,7 +138,7 @@ en
 
 #### Source
 
-main.ts:83595
+main.ts:83677
 
 ***
 
@@ -156,7 +156,7 @@ English
 
 #### Source
 
-main.ts:83587
+main.ts:83669
 
 ***
 
@@ -171,7 +171,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:83669
+main.ts:83751
 
 ***
 
@@ -189,7 +189,7 @@ example:
 
 #### Source
 
-main.ts:83579
+main.ts:83661
 
 ***
 
@@ -207,7 +207,7 @@ United Kingdom
 
 #### Source
 
-main.ts:83571
+main.ts:83653
 
 ***
 
@@ -222,7 +222,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:83674
+main.ts:83756
 
 ***
 
@@ -248,7 +248,7 @@ example:
 
 #### Source
 
-main.ts:83664
+main.ts:83746
 
 ***
 
@@ -265,7 +265,7 @@ default value: false
 
 #### Source
 
-main.ts:83629
+main.ts:83711
 
 ***
 
@@ -281,4 +281,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:83680
+main.ts:83762

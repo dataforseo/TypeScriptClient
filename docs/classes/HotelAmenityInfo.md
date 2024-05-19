@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:202704
+main.ts:203210
 
 ## Properties
 
@@ -46,7 +46,7 @@ standardised category of the ammenity
 
 #### Source
 
-main.ts:202696
+main.ts:203202
 
 ***
 
@@ -62,7 +62,7 @@ label of the category
 
 #### Source
 
-main.ts:202698
+main.ts:203204
 
 ***
 
@@ -78,7 +78,7 @@ specific amenities and details
 
 #### Source
 
-main.ts:202700
+main.ts:203206
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:202700
 
 #### Source
 
-main.ts:202713
+main.ts:203219
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:202713
 
 #### Source
 
-main.ts:202736
+main.ts:203242
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:202736
 
 #### Source
 
-main.ts:202729
+main.ts:203235

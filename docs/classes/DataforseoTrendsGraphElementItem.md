@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:126070
+main.ts:126164
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:126070
 
 #### Source
 
-main.ts:21198
+main.ts:21278
 
 ***
 
@@ -68,7 +68,7 @@ keyword popularity values averaged over the whole time range
 
 #### Source
 
-main.ts:126066
+main.ts:126160
 
 ***
 
@@ -84,7 +84,7 @@ DataForSEO Trends data for the specified parameters
 
 #### Source
 
-main.ts:126064
+main.ts:126158
 
 ***
 
@@ -101,7 +101,7 @@ the data included in the dataforseo_trends_graph element is based on the keyword
 
 #### Source
 
-main.ts:126062
+main.ts:126156
 
 ***
 
@@ -118,7 +118,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Source
 
-main.ts:126059
+main.ts:126153
 
 ## Methods
 
@@ -140,7 +140,7 @@ main.ts:126059
 
 #### Source
 
-main.ts:126075
+main.ts:126169
 
 ***
 
@@ -162,7 +162,7 @@ main.ts:126075
 
 #### Source
 
-main.ts:126108
+main.ts:126202
 
 ***
 
@@ -184,4 +184,4 @@ main.ts:126108
 
 #### Source
 
-main.ts:126101
+main.ts:126195

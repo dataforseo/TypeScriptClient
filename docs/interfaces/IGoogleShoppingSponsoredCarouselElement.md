@@ -22,7 +22,7 @@ USD
 
 #### Source
 
-main.ts:172469
+main.ts:172959
 
 ***
 
@@ -35,7 +35,7 @@ delivery information including free and fast delivery date ranges
 
 #### Source
 
-main.ts:172481
+main.ts:172971
 
 ***
 
@@ -49,7 +49,7 @@ example:
 
 #### Source
 
-main.ts:172465
+main.ts:172955
 
 ***
 
@@ -62,7 +62,7 @@ the first URL in the array is the featured image of the product
 
 #### Source
 
-main.ts:172475
+main.ts:172965
 
 ***
 
@@ -75,7 +75,7 @@ the product popularity rate based on product reviews
 
 #### Source
 
-main.ts:172472
+main.ts:172962
 
 ***
 
@@ -88,7 +88,7 @@ the name of the company that placed a corresponding product on Google Shopping
 
 #### Source
 
-main.ts:172461
+main.ts:172951
 
 ***
 
@@ -101,7 +101,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 #### Source
 
-main.ts:172478
+main.ts:172968
 
 ***
 
@@ -113,7 +113,7 @@ tags assigned to the product
 
 #### Source
 
-main.ts:172458
+main.ts:172948
 
 ***
 
@@ -125,7 +125,7 @@ product title
 
 #### Source
 
-main.ts:172456
+main.ts:172946
 
 ***
 
@@ -137,7 +137,7 @@ type of element
 
 #### Source
 
-main.ts:172452
+main.ts:172942
 
 ***
 
@@ -149,4 +149,4 @@ XPath of the element
 
 #### Source
 
-main.ts:172454
+main.ts:172944

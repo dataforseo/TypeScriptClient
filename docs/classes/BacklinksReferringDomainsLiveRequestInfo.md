@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:141024
+main.ts:141032
 
 ## Properties
 
@@ -52,7 +52,7 @@ example:
 
 #### Source
 
-main.ts:140998
+main.ts:141006
 
 ***
 
@@ -75,7 +75,7 @@ default value: live
 
 #### Source
 
-main.ts:140959
+main.ts:140967
 
 ***
 
@@ -94,7 +94,7 @@ default value: true
 
 #### Source
 
-main.ts:141014
+main.ts:141022
 
 ***
 
@@ -107,7 +107,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, =, `<>`, in, not_in, like, not_like
+regex, not_regex, =, `<>`, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["referring_pages",">`","1"]
@@ -125,7 +125,7 @@ The full list of possible filters is available here.
 
 #### Source
 
-main.ts:140976
+main.ts:140984
 
 ***
 
@@ -145,7 +145,7 @@ default value: true
 
 #### Source
 
-main.ts:141009
+main.ts:141017
 
 ***
 
@@ -164,7 +164,7 @@ default value: true
 
 #### Source
 
-main.ts:141003
+main.ts:141011
 
 ***
 
@@ -189,7 +189,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:140950
+main.ts:140958
 
 ***
 
@@ -208,7 +208,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:140934
+main.ts:140942
 
 ***
 
@@ -227,7 +227,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 #### Source
 
-main.ts:140939
+main.ts:140947
 
 ***
 
@@ -255,7 +255,7 @@ example:
 
 #### Source
 
-main.ts:140990
+main.ts:140998
 
 ***
 
@@ -275,7 +275,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:141020
+main.ts:141028
 
 ***
 
@@ -294,7 +294,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Source
 
-main.ts:140929
+main.ts:140937
 
 ## Methods
 
@@ -312,7 +312,7 @@ main.ts:140929
 
 #### Source
 
-main.ts:141033
+main.ts:141041
 
 ***
 
@@ -330,7 +330,7 @@ main.ts:141033
 
 #### Source
 
-main.ts:141073
+main.ts:141081
 
 ***
 
@@ -348,4 +348,4 @@ main.ts:141073
 
 #### Source
 
-main.ts:141066
+main.ts:141074

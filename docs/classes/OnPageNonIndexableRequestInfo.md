@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:156676
+main.ts:156672
 
 ## Properties
 
@@ -43,7 +43,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, <>, in, not_in, like, not_like
+regex, not_regex, <, `<=, >`, >=, =, <>, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["reason","=","robots_txt"][["reason","<>","robots_txt"],
@@ -60,7 +60,7 @@ The full list of possible filters is available by this link.
 
 #### Source
 
-main.ts:156672
+main.ts:156668
 
 ***
 
@@ -80,7 +80,7 @@ example:
 
 #### Source
 
-main.ts:156646
+main.ts:156642
 
 ***
 
@@ -99,7 +99,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:156651
+main.ts:156647
 
 ***
 
@@ -118,7 +118,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Source
 
-main.ts:156656
+main.ts:156652
 
 ## Methods
 
@@ -136,7 +136,7 @@ main.ts:156656
 
 #### Source
 
-main.ts:156685
+main.ts:156681
 
 ***
 
@@ -154,7 +154,7 @@ main.ts:156685
 
 #### Source
 
-main.ts:156709
+main.ts:156705
 
 ***
 
@@ -172,4 +172,4 @@ main.ts:156709
 
 #### Source
 
-main.ts:156702
+main.ts:156698

@@ -30,13 +30,13 @@
 
 #### Source
 
-main.ts:206398
+main.ts:206908
 
 ## Properties
 
 ### items?
 
-> **`optional`** **items**: `any`
+> **`optional`** **items**: [`GoogleBusinessAnswerElement`](GoogleBusinessAnswerElement.md)
 
 array of items
 items within google_business_question_item
@@ -47,7 +47,7 @@ items within google_business_question_item
 
 #### Source
 
-main.ts:206394
+main.ts:206904
 
 ***
 
@@ -63,7 +63,7 @@ original text of the question
 
 #### Source
 
-main.ts:206387
+main.ts:206897
 
 ***
 
@@ -79,7 +79,7 @@ URL of the user’s profile image
 
 #### Source
 
-main.ts:206379
+main.ts:206889
 
 ***
 
@@ -95,7 +95,7 @@ displayed name of the user
 
 #### Source
 
-main.ts:206383
+main.ts:206893
 
 ***
 
@@ -111,7 +111,7 @@ URL of the user’s profile
 
 #### Source
 
-main.ts:206381
+main.ts:206891
 
 ***
 
@@ -127,7 +127,7 @@ ID of the question
 
 #### Source
 
-main.ts:206375
+main.ts:206885
 
 ***
 
@@ -143,7 +143,7 @@ current text of the question
 
 #### Source
 
-main.ts:206385
+main.ts:206895
 
 ***
 
@@ -159,7 +159,7 @@ absolute rank among all the elements
 
 #### Source
 
-main.ts:206373
+main.ts:206883
 
 ***
 
@@ -176,7 +176,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:206371
+main.ts:206881
 
 ***
 
@@ -192,7 +192,7 @@ estimated time when the question was posted
 
 #### Source
 
-main.ts:206389
+main.ts:206899
 
 ***
 
@@ -208,7 +208,7 @@ exact time when the question was posted
 
 #### Source
 
-main.ts:206391
+main.ts:206901
 
 ***
 
@@ -224,7 +224,7 @@ type of element
 
 #### Source
 
-main.ts:206368
+main.ts:206878
 
 ***
 
@@ -240,7 +240,7 @@ URL of the question
 
 #### Source
 
-main.ts:206377
+main.ts:206887
 
 ## Methods
 
@@ -258,7 +258,7 @@ main.ts:206377
 
 #### Source
 
-main.ts:206407
+main.ts:206917
 
 ***
 
@@ -276,7 +276,7 @@ main.ts:206407
 
 #### Source
 
-main.ts:206436
+main.ts:206946
 
 ***
 
@@ -294,4 +294,4 @@ main.ts:206436
 
 #### Source
 
-main.ts:206429
+main.ts:206939

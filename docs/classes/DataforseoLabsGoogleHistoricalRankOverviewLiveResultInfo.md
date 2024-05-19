@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:99793
+main.ts:99887
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains historical ranking and traffic data
 
 #### Source
 
-main.ts:99789
+main.ts:99883
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:99787
+main.ts:99881
 
 ***
 
@@ -78,7 +78,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:99783
+main.ts:99877
 
 ***
 
@@ -94,7 +94,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:99781
+main.ts:99875
 
 ***
 
@@ -110,7 +110,7 @@ search engine type
 
 #### Source
 
-main.ts:99777
+main.ts:99871
 
 ***
 
@@ -126,7 +126,7 @@ target domain in a POST array
 
 #### Source
 
-main.ts:99779
+main.ts:99873
 
 ***
 
@@ -142,7 +142,7 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:99785
+main.ts:99879
 
 ## Methods
 
@@ -160,7 +160,7 @@ main.ts:99785
 
 #### Source
 
-main.ts:99802
+main.ts:99896
 
 ***
 
@@ -178,7 +178,7 @@ main.ts:99802
 
 #### Source
 
-main.ts:99829
+main.ts:99923
 
 ***
 
@@ -196,4 +196,4 @@ main.ts:99829
 
 #### Source
 
-main.ts:99822
+main.ts:99916

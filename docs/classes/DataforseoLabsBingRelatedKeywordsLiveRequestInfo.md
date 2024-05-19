@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:109270
+main.ts:109364
 
 ## Properties
 
@@ -56,7 +56,7 @@ estimated number of keywords for each level (maximum):
 
 #### Source
 
-main.ts:109201
+main.ts:109295
 
 ***
 
@@ -69,7 +69,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, `<>`, in, not_in, like,not_like
+regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in, like,not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["keyword_data.keyword_info.search_volume",">`",0]
@@ -81,7 +81,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:109234
+main.ts:109328
 
 ***
 
@@ -100,7 +100,7 @@ default value: false
 
 #### Source
 
-main.ts:109223
+main.ts:109317
 
 ***
 
@@ -119,7 +119,7 @@ default value: false
 
 #### Source
 
-main.ts:109206
+main.ts:109300
 
 ***
 
@@ -138,7 +138,7 @@ default value: false
 
 #### Source
 
-main.ts:109211
+main.ts:109305
 
 ***
 
@@ -158,7 +158,7 @@ the keywords will be converted to lowercase format
 
 #### Source
 
-main.ts:109155
+main.ts:109249
 
 ***
 
@@ -180,7 +180,7 @@ en
 
 #### Source
 
-main.ts:109189
+main.ts:109283
 
 ***
 
@@ -202,7 +202,7 @@ English
 
 #### Source
 
-main.ts:109181
+main.ts:109275
 
 ***
 
@@ -221,7 +221,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:109255
+main.ts:109349
 
 ***
 
@@ -244,7 +244,7 @@ example:
 
 #### Source
 
-main.ts:109173
+main.ts:109267
 
 ***
 
@@ -267,7 +267,7 @@ United States
 
 #### Source
 
-main.ts:109164
+main.ts:109258
 
 ***
 
@@ -286,7 +286,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:109260
+main.ts:109354
 
 ***
 
@@ -316,7 +316,7 @@ example:
 
 #### Source
 
-main.ts:109250
+main.ts:109344
 
 ***
 
@@ -337,7 +337,7 @@ default value: false
 
 #### Source
 
-main.ts:109218
+main.ts:109312
 
 ***
 
@@ -357,7 +357,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:109266
+main.ts:109360
 
 ## Methods
 
@@ -375,7 +375,7 @@ main.ts:109266
 
 #### Source
 
-main.ts:109279
+main.ts:109373
 
 ***
 
@@ -393,7 +393,7 @@ main.ts:109279
 
 #### Source
 
-main.ts:109318
+main.ts:109412
 
 ***
 
@@ -411,4 +411,4 @@ main.ts:109318
 
 #### Source
 
-main.ts:109311
+main.ts:109405

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:106323
+main.ts:106417
 
 ## Properties
 
@@ -66,7 +66,7 @@ slideshare.net
 
 #### Source
 
-main.ts:106307
+main.ts:106401
 
 ***
 
@@ -79,7 +79,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, `<>`, in, not_in
+regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in
 example:
 ["metrics.organic.count",">`",50]
 [["metrics.organic.pos_1","`<>`",0],"and",["metrics.organic.etv",">`=","10"]]
@@ -94,7 +94,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:106253
+main.ts:106347
 
 ***
 
@@ -114,7 +114,7 @@ Note: you can specify up to 20 domains in this array
 
 #### Source
 
-main.ts:106313
+main.ts:106407
 
 ***
 
@@ -137,7 +137,7 @@ default value:
 
 #### Source
 
-main.ts:106239
+main.ts:106333
 
 ***
 
@@ -159,7 +159,7 @@ en
 
 #### Source
 
-main.ts:106230
+main.ts:106324
 
 ***
 
@@ -181,7 +181,7 @@ English
 
 #### Source
 
-main.ts:106222
+main.ts:106316
 
 ***
 
@@ -200,7 +200,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:106275
+main.ts:106369
 
 ***
 
@@ -223,7 +223,7 @@ example:
 
 #### Source
 
-main.ts:106214
+main.ts:106308
 
 ***
 
@@ -246,7 +246,7 @@ United States
 
 #### Source
 
-main.ts:106205
+main.ts:106299
 
 ***
 
@@ -265,7 +265,7 @@ if you specify 10 here, we will extract competitors from the top 10 Bing search 
 
 #### Source
 
-main.ts:106285
+main.ts:106379
 
 ***
 
@@ -284,7 +284,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:106280
+main.ts:106374
 
 ***
 
@@ -315,7 +315,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Source
 
-main.ts:106270
+main.ts:106364
 
 ***
 
@@ -335,7 +335,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:106319
+main.ts:106413
 
 ***
 
@@ -354,7 +354,7 @@ the domain should be specified without https:// and www.
 
 #### Source
 
-main.ts:106196
+main.ts:106290
 
 ## Methods
 
@@ -372,7 +372,7 @@ main.ts:106196
 
 #### Source
 
-main.ts:106332
+main.ts:106426
 
 ***
 
@@ -390,7 +390,7 @@ main.ts:106332
 
 #### Source
 
-main.ts:106378
+main.ts:106472
 
 ***
 
@@ -408,4 +408,4 @@ main.ts:106378
 
 #### Source
 
-main.ts:106371
+main.ts:106465

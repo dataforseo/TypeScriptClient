@@ -21,7 +21,7 @@ if the value is false, the offering is not available
 
 #### Source
 
-main.ts:212823
+main.ts:213349
 
 ***
 
@@ -34,7 +34,7 @@ example: Delivery
 
 #### Source
 
-main.ts:212820
+main.ts:213346
 
 ***
 
@@ -46,4 +46,4 @@ type of element
 
 #### Source
 
-main.ts:212817
+main.ts:213343

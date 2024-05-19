@@ -20,7 +20,7 @@ content text
 
 #### Source
 
-main.ts:159390
+main.ts:159454
 
 ***
 
@@ -33,4 +33,16 @@ displayed in case the text is a link anchor
 
 #### Source
 
-main.ts:159393
+main.ts:159457
+
+***
+
+### urls?
+
+> **`optional`** **urls**: [`ContentUrlInfo`](../classes/ContentUrlInfo.md)[]
+
+contains other URLs and anchors found in the content element
+
+#### Source
+
+main.ts:159459

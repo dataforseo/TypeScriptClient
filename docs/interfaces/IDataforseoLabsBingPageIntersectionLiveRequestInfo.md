@@ -31,7 +31,7 @@ example:
 
 #### Source
 
-main.ts:108050
+main.ts:108144
 
 ***
 
@@ -44,7 +44,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
+regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more charactersnote that if you want to filter by any field in the intersection_result array you need to specify the number of corresponding page
 for instance, if you want to filter results by the ranking of the first specified URL, you should set the following filter:
 [intersection_result.1.rank_absolute,"=",1]
@@ -60,7 +60,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:108144
+main.ts:108238
 
 ***
 
@@ -75,7 +75,7 @@ default value: false
 
 #### Source
 
-main.ts:108097
+main.ts:108191
 
 ***
 
@@ -90,7 +90,7 @@ default value: false
 
 #### Source
 
-main.ts:108125
+main.ts:108219
 
 ***
 
@@ -105,7 +105,7 @@ default value: true
 
 #### Source
 
-main.ts:108112
+main.ts:108206
 
 ***
 
@@ -123,7 +123,7 @@ by default, results are based on the intersect mode if you specify only pages ar
 
 #### Source
 
-main.ts:108120
+main.ts:108214
 
 ***
 
@@ -141,7 +141,7 @@ default value:
 
 #### Source
 
-main.ts:108092
+main.ts:108186
 
 ***
 
@@ -159,7 +159,7 @@ en
 
 #### Source
 
-main.ts:108084
+main.ts:108178
 
 ***
 
@@ -177,7 +177,7 @@ English
 
 #### Source
 
-main.ts:108076
+main.ts:108170
 
 ***
 
@@ -192,7 +192,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:108102
+main.ts:108196
 
 ***
 
@@ -211,7 +211,7 @@ example:
 
 #### Source
 
-main.ts:108068
+main.ts:108162
 
 ***
 
@@ -230,7 +230,7 @@ United States
 
 #### Source
 
-main.ts:108059
+main.ts:108153
 
 ***
 
@@ -245,7 +245,7 @@ if you specify 10 here, the first ten keywords in the results array will be omit
 
 #### Source
 
-main.ts:108107
+main.ts:108201
 
 ***
 
@@ -271,7 +271,7 @@ example:
 
 #### Source
 
-main.ts:108160
+main.ts:108254
 
 ***
 
@@ -306,7 +306,7 @@ Note: this endpoint will not provide results if the number of intersecting keywo
 
 #### Source
 
-main.ts:108037
+main.ts:108131
 
 ***
 
@@ -322,4 +322,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:108166
+main.ts:108260

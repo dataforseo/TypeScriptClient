@@ -26,7 +26,7 @@ example:
 
 #### Source
 
-main.ts:139234
+main.ts:139242
 
 ***
 
@@ -45,7 +45,7 @@ default value: live
 
 #### Source
 
-main.ts:139195
+main.ts:139203
 
 ***
 
@@ -58,7 +58,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, =, `<>`, in, not_in, like, not_like, ilike, not_ilike
+regex, not_regex, =, `<>`, in, not_in, like, not_like, ilike, not_ilike
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["meta.internal_links_count",">`","1"]
@@ -72,7 +72,7 @@ The full list of possible filters is available here.
 
 #### Source
 
-main.ts:139212
+main.ts:139220
 
 ***
 
@@ -87,7 +87,7 @@ default value: true
 
 #### Source
 
-main.ts:139239
+main.ts:139247
 
 ***
 
@@ -108,7 +108,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:139186
+main.ts:139194
 
 ***
 
@@ -123,7 +123,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:139170
+main.ts:139178
 
 ***
 
@@ -138,7 +138,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Source
 
-main.ts:139175
+main.ts:139183
 
 ***
 
@@ -162,7 +162,7 @@ example:
 
 #### Source
 
-main.ts:139226
+main.ts:139234
 
 ***
 
@@ -178,7 +178,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:139245
+main.ts:139253
 
 ***
 
@@ -194,4 +194,4 @@ forbes.com
 
 #### Source
 
-main.ts:139165
+main.ts:139173

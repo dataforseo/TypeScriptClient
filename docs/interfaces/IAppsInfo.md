@@ -20,7 +20,7 @@ ID of the app
 
 #### Source
 
-main.ts:187130
+main.ts:187620
 
 ***
 
@@ -32,7 +32,7 @@ title of the app
 
 #### Source
 
-main.ts:187132
+main.ts:187622
 
 ***
 
@@ -44,4 +44,4 @@ URL to the app page on Google Play
 
 #### Source
 
-main.ts:187134
+main.ts:187624

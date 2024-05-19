@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:91643
+main.ts:91737
 
 ## Properties
 
@@ -66,7 +66,7 @@ slideshare.net
 
 #### Source
 
-main.ts:91627
+main.ts:91721
 
 ***
 
@@ -79,7 +79,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, `<>`, in, not_in
+regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in
 example:
 ["metrics.organic.count",">`",50]
 [["metrics.organic.pos_1","`<>`",0],"and",["metrics.organic.impressions_etv",">`=","10"]]
@@ -94,7 +94,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:91573
+main.ts:91667
 
 ***
 
@@ -114,7 +114,7 @@ Note: you can specify up to 20 domains in this array
 
 #### Source
 
-main.ts:91633
+main.ts:91727
 
 ***
 
@@ -137,7 +137,7 @@ default value:
 
 #### Source
 
-main.ts:91559
+main.ts:91653
 
 ***
 
@@ -159,7 +159,7 @@ en
 
 #### Source
 
-main.ts:91550
+main.ts:91644
 
 ***
 
@@ -181,7 +181,7 @@ English
 
 #### Source
 
-main.ts:91542
+main.ts:91636
 
 ***
 
@@ -200,7 +200,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:91595
+main.ts:91689
 
 ***
 
@@ -222,7 +222,7 @@ example:
 
 #### Source
 
-main.ts:91534
+main.ts:91628
 
 ***
 
@@ -244,7 +244,7 @@ United Kingdom
 
 #### Source
 
-main.ts:91526
+main.ts:91620
 
 ***
 
@@ -263,7 +263,7 @@ if you specify 10 here, we will extract competitors from the top 10 Google searc
 
 #### Source
 
-main.ts:91605
+main.ts:91699
 
 ***
 
@@ -282,7 +282,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:91600
+main.ts:91694
 
 ***
 
@@ -313,7 +313,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Source
 
-main.ts:91590
+main.ts:91684
 
 ***
 
@@ -333,7 +333,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:91639
+main.ts:91733
 
 ***
 
@@ -352,7 +352,7 @@ the domain should be specified without https:// and www.
 
 #### Source
 
-main.ts:91518
+main.ts:91612
 
 ## Methods
 
@@ -370,7 +370,7 @@ main.ts:91518
 
 #### Source
 
-main.ts:91652
+main.ts:91746
 
 ***
 
@@ -388,7 +388,7 @@ main.ts:91652
 
 #### Source
 
-main.ts:91698
+main.ts:91792
 
 ***
 
@@ -406,4 +406,4 @@ main.ts:91698
 
 #### Source
 
-main.ts:91691
+main.ts:91785

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:139080
+main.ts:139088
 
 ## Properties
 
@@ -52,7 +52,7 @@ example:
 
 #### Source
 
-main.ts:139065
+main.ts:139073
 
 ***
 
@@ -75,7 +75,7 @@ default value: live
 
 #### Source
 
-main.ts:139026
+main.ts:139034
 
 ***
 
@@ -88,7 +88,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, =, `<>`, in, not_in, like, not_like, ilike, not_ilike
+regex, not_regex, =, `<>`, in, not_in, like, not_like, ilike, not_ilike
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["meta.internal_links_count",">`","1"]
@@ -106,7 +106,7 @@ The full list of possible filters is available here.
 
 #### Source
 
-main.ts:139043
+main.ts:139051
 
 ***
 
@@ -125,7 +125,7 @@ default value: true
 
 #### Source
 
-main.ts:139070
+main.ts:139078
 
 ***
 
@@ -150,7 +150,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:139017
+main.ts:139025
 
 ***
 
@@ -169,7 +169,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:139001
+main.ts:139009
 
 ***
 
@@ -188,7 +188,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Source
 
-main.ts:139006
+main.ts:139014
 
 ***
 
@@ -216,7 +216,7 @@ example:
 
 #### Source
 
-main.ts:139057
+main.ts:139065
 
 ***
 
@@ -236,7 +236,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:139076
+main.ts:139084
 
 ***
 
@@ -256,7 +256,7 @@ forbes.com
 
 #### Source
 
-main.ts:138996
+main.ts:139004
 
 ## Methods
 
@@ -274,7 +274,7 @@ main.ts:138996
 
 #### Source
 
-main.ts:139089
+main.ts:139097
 
 ***
 
@@ -292,7 +292,7 @@ main.ts:139089
 
 #### Source
 
-main.ts:139127
+main.ts:139135
 
 ***
 
@@ -310,4 +310,4 @@ main.ts:139127
 
 #### Source
 
-main.ts:139120
+main.ts:139128

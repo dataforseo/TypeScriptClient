@@ -27,7 +27,7 @@ example:
 
 #### Source
 
-main.ts:97054
+main.ts:97148
 
 ***
 
@@ -42,7 +42,7 @@ example:
 
 #### Source
 
-main.ts:97059
+main.ts:97153
 
 ***
 
@@ -54,7 +54,7 @@ elements of search results found in SERP
 
 #### Source
 
-main.ts:97061
+main.ts:97155
 
 ***
 
@@ -68,7 +68,7 @@ left, right
 
 #### Source
 
-main.ts:97045
+main.ts:97139
 
 ***
 
@@ -81,7 +81,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:97041
+main.ts:97135
 
 ***
 
@@ -94,7 +94,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:97038
+main.ts:97132
 
 ***
 
@@ -106,7 +106,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:97049
+main.ts:97143
 
 ***
 
@@ -118,4 +118,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:97047
+main.ts:97141

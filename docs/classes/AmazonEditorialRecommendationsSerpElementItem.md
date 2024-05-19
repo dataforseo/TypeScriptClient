@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:178347
+main.ts:178837
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:178347
 
 #### Source
 
-main.ts:21567
+main.ts:21647
 
 ***
 
@@ -68,7 +68,7 @@ Amazon product items
 
 #### Source
 
-main.ts:178343
+main.ts:178833
 
 ***
 
@@ -86,7 +86,7 @@ left, right
 
 #### Source
 
-main.ts:178339
+main.ts:178829
 
 ***
 
@@ -103,7 +103,7 @@ absolute position among all the elements found in Amazon SERP
 
 #### Source
 
-main.ts:178335
+main.ts:178825
 
 ***
 
@@ -120,7 +120,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:178332
+main.ts:178822
 
 ***
 
@@ -136,7 +136,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:178341
+main.ts:178831
 
 ## Methods
 
@@ -158,7 +158,7 @@ main.ts:178341
 
 #### Source
 
-main.ts:178352
+main.ts:178842
 
 ***
 
@@ -180,7 +180,7 @@ main.ts:178352
 
 #### Source
 
-main.ts:178378
+main.ts:178868
 
 ***
 
@@ -202,4 +202,4 @@ main.ts:178378
 
 #### Source
 
-main.ts:178371
+main.ts:178861

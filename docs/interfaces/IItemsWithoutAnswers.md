@@ -14,14 +14,14 @@
 
 ### items?
 
-> **`optional`** **items**: `any`
+> **`optional`** **items**: [`GoogleBusinessAnswerElement`](../classes/GoogleBusinessAnswerElement.md)
 
 array of items
 items within google_business_question_item
 
 #### Source
 
-main.ts:206487
+main.ts:206997
 
 ***
 
@@ -33,7 +33,7 @@ original text of the question
 
 #### Source
 
-main.ts:206480
+main.ts:206990
 
 ***
 
@@ -45,7 +45,7 @@ URL of the user’s profile image
 
 #### Source
 
-main.ts:206472
+main.ts:206982
 
 ***
 
@@ -57,7 +57,7 @@ displayed name of the user
 
 #### Source
 
-main.ts:206476
+main.ts:206986
 
 ***
 
@@ -69,7 +69,7 @@ URL of the user’s profile
 
 #### Source
 
-main.ts:206474
+main.ts:206984
 
 ***
 
@@ -81,7 +81,7 @@ ID of the question
 
 #### Source
 
-main.ts:206468
+main.ts:206978
 
 ***
 
@@ -93,7 +93,7 @@ current text of the question
 
 #### Source
 
-main.ts:206478
+main.ts:206988
 
 ***
 
@@ -105,7 +105,7 @@ absolute rank among all the elements
 
 #### Source
 
-main.ts:206466
+main.ts:206976
 
 ***
 
@@ -118,7 +118,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:206464
+main.ts:206974
 
 ***
 
@@ -130,7 +130,7 @@ estimated time when the question was posted
 
 #### Source
 
-main.ts:206482
+main.ts:206992
 
 ***
 
@@ -142,7 +142,7 @@ exact time when the question was posted
 
 #### Source
 
-main.ts:206484
+main.ts:206994
 
 ***
 
@@ -154,7 +154,7 @@ type of element
 
 #### Source
 
-main.ts:206461
+main.ts:206971
 
 ***
 
@@ -166,4 +166,4 @@ URL of the question
 
 #### Source
 
-main.ts:206470
+main.ts:206980

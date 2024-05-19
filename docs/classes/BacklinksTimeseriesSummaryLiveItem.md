@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:145110
+main.ts:145118
 
 ## Properties
 
@@ -46,7 +46,7 @@ number of backlinks for the given date
 
 #### Source
 
-main.ts:145086
+main.ts:145094
 
 ***
 
@@ -62,7 +62,7 @@ number of nofollow backlinks for the given date
 
 #### Source
 
-main.ts:145088
+main.ts:145096
 
 ***
 
@@ -81,7 +81,7 @@ example:
 
 #### Source
 
-main.ts:145081
+main.ts:145089
 
 ***
 
@@ -98,7 +98,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Source
 
-main.ts:145084
+main.ts:145092
 
 ***
 
@@ -115,7 +115,7 @@ referring domains include subdomains that are counted as separate domains for th
 
 #### Source
 
-main.ts:145095
+main.ts:145103
 
 ***
 
@@ -131,7 +131,7 @@ number of domains pointing at least one nofollow link to the target for the give
 
 #### Source
 
-main.ts:145097
+main.ts:145105
 
 ***
 
@@ -148,7 +148,7 @@ number of IP addresses pointing to this page
 
 #### Source
 
-main.ts:145104
+main.ts:145112
 
 ***
 
@@ -164,7 +164,7 @@ number of referring main domains for the given date
 
 #### Source
 
-main.ts:145099
+main.ts:145107
 
 ***
 
@@ -180,7 +180,7 @@ number of main domains pointing at least one nofollow link to the target for the
 
 #### Source
 
-main.ts:145101
+main.ts:145109
 
 ***
 
@@ -196,7 +196,7 @@ number of pages pointing to target for the given date
 
 #### Source
 
-main.ts:145090
+main.ts:145098
 
 ***
 
@@ -212,7 +212,7 @@ number of referring pages pointing at least one nofollow link to the target for 
 
 #### Source
 
-main.ts:145092
+main.ts:145100
 
 ***
 
@@ -228,7 +228,7 @@ number of referring subnetworks for the given date
 
 #### Source
 
-main.ts:145106
+main.ts:145114
 
 ***
 
@@ -244,7 +244,7 @@ type of element
 
 #### Source
 
-main.ts:145076
+main.ts:145084
 
 ## Methods
 
@@ -262,7 +262,7 @@ main.ts:145076
 
 #### Source
 
-main.ts:145119
+main.ts:145127
 
 ***
 
@@ -280,7 +280,7 @@ main.ts:145119
 
 #### Source
 
-main.ts:145148
+main.ts:145156
 
 ***
 
@@ -298,4 +298,4 @@ main.ts:145148
 
 #### Source
 
-main.ts:145141
+main.ts:145149

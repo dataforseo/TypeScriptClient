@@ -20,7 +20,7 @@ unique topic identifier in Google Trends
 
 #### Source
 
-main.ts:125230
+main.ts:125324
 
 ***
 
@@ -32,7 +32,7 @@ title of the topic
 
 #### Source
 
-main.ts:125232
+main.ts:125326
 
 ***
 
@@ -45,7 +45,7 @@ represents the general type of the topic
 
 #### Source
 
-main.ts:125235
+main.ts:125329
 
 ***
 
@@ -58,4 +58,4 @@ represents the popularity of the topic. Scoring is on a relative scale where a v
 
 #### Source
 
-main.ts:125238
+main.ts:125332

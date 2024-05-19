@@ -26,7 +26,7 @@ ss:/webfacts:net_worth
 
 #### Source
 
-main.ts:95443
+main.ts:95537
 
 ***
 
@@ -39,19 +39,19 @@ if there are none, equals null
 
 #### Source
 
-main.ts:95448
+main.ts:95542
 
 ***
 
 ### link?
 
-> **`optional`** **link**: `any`
+> **`optional`** **link**: [`LinkElement`](../classes/LinkElement.md)
 
 link of the element
 
 #### Source
 
-main.ts:95445
+main.ts:95539
 
 ***
 
@@ -65,7 +65,7 @@ left, right
 
 #### Source
 
-main.ts:95435
+main.ts:95529
 
 ***
 
@@ -78,7 +78,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:95431
+main.ts:95525
 
 ***
 
@@ -92,7 +92,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:95428
+main.ts:95522
 
 ***
 
@@ -104,7 +104,7 @@ title of the link
 
 #### Source
 
-main.ts:95439
+main.ts:95533
 
 ***
 
@@ -116,4 +116,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:95437
+main.ts:95531

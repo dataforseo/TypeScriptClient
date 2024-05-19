@@ -26,7 +26,7 @@ example:
 
 #### Source
 
-main.ts:148301
+main.ts:148297
 
 ***
 
@@ -45,7 +45,7 @@ default value: live
 
 #### Source
 
-main.ts:148262
+main.ts:148258
 
 ***
 
@@ -60,7 +60,7 @@ default value: true
 
 #### Source
 
-main.ts:148317
+main.ts:148313
 
 ***
 
@@ -73,7 +73,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, =, `<>`, in, not_in, like, not_like, ilike, not_ilike
+regex, not_regex, =, `<>`, in, not_in, like, not_like, ilike, not_ilike
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["referring_links_types.anchors",">`","1"]
@@ -87,7 +87,7 @@ The full list of possible filters is available here.
 
 #### Source
 
-main.ts:148279
+main.ts:148275
 
 ***
 
@@ -103,7 +103,7 @@ default value: true
 
 #### Source
 
-main.ts:148312
+main.ts:148308
 
 ***
 
@@ -118,7 +118,7 @@ default value: true
 
 #### Source
 
-main.ts:148306
+main.ts:148302
 
 ***
 
@@ -139,22 +139,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:148253
-
-***
-
-### limit?
-
-> **`optional`** **limit**: `number`
-
-the maximum number of returned pages
-optional field
-default value: 100
-maximum value: 1000
-
-#### Source
-
-main.ts:148237
+main.ts:148249
 
 ***
 
@@ -169,7 +154,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Source
 
-main.ts:148242
+main.ts:148238
 
 ***
 
@@ -193,7 +178,7 @@ example:
 
 #### Source
 
-main.ts:148293
+main.ts:148289
 
 ***
 
@@ -209,7 +194,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:148323
+main.ts:148319
 
 ***
 
@@ -226,4 +211,4 @@ note that the URLs you set in a single request cannot belong to more than 100 di
 
 #### Source
 
-main.ts:148232
+main.ts:148233

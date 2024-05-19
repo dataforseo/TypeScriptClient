@@ -310,7 +310,7 @@ paths:
           required: true
           schema:
             type: string
-          example: f76b90f7-3903-403f-9fca-75298332f47a
+          example: cf35ee49-491e-4242-aca5-020babbc3e3a
       responses:
         '200':
           description: Successful operation
@@ -628,7 +628,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 892259ee-ac31-4f03-8f35-8bc4b42f9fde
+          example: 63c92f26-008d-4a60-bca7-1baee4e42ced
       responses:
         '200':
           description: Successful operation
@@ -800,7 +800,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 52177fab-82e5-441d-92c5-1394784d1f7d
+          example: 48090693-1b8b-490d-91d5-61dae0ada6f8
       responses:
         '200':
           description: Successful operation
@@ -1090,7 +1090,7 @@ paths:
           required: true
           schema:
             type: string
-          example: b6d4947f-e37b-469a-93a4-b3a42d12a2e0
+          example: 70dcd129-e0d8-40c8-978c-602a5b1ed5e5
       responses:
         '200':
           description: Successful operation
@@ -1352,7 +1352,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 879ab19b-59b9-44cf-8278-c6f3f0dd8f45
+          example: 05b6fde0-ddbb-458b-92cd-343a25afbf4b
       responses:
         '200':
           description: Successful operation
@@ -1910,7 +1910,7 @@ paths:
           required: true
           schema:
             type: string
-          example: e24ff66c-671b-4c6d-ab31-9463df09f0f6
+          example: ee60d35f-8f28-4064-bb56-882aec9f6c4e
       responses:
         '200':
           description: Successful operation
@@ -2110,7 +2110,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 1a2c09b1-5a5d-42d3-8fc1-94181c7e27e7
+          example: f761bec9-c1e7-4837-94e0-b26110db14fb
       responses:
         '200':
           description: Successful operation
@@ -2786,7 +2786,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 19dd3cba-74c3-45d7-918e-16da3cf2cfb2
+          example: 122d653f-2051-478c-aba2-5bd14a4ff00c
       responses:
         '200':
           description: Successful operation
@@ -3074,7 +3074,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 2f3bd61c-fe55-4778-a5e9-5d95b6443f76
+          example: eb5b093c-ed78-45fd-8850-638d47c97194
       responses:
         '200':
           description: Successful operation
@@ -3216,7 +3216,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 240fc4a3-8be7-4ea4-b00c-ddde6d923b67
+          example: 2e355900-e352-4902-9efd-180a2a9d8c26
       responses:
         '200':
           description: Successful operation
@@ -3420,7 +3420,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 9a92eb8a-1d94-4bee-8d9d-e660ee39c608
+          example: 583255b6-dc2f-43eb-a82a-fcf63b184d3c
       responses:
         '200':
           description: Successful operation
@@ -5462,7 +5462,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 9a50ea02-74eb-4dca-9c0d-602a50c15cf8
+          example: de2010a8-5829-4223-b440-330e5275084c
       responses:
         '200':
           description: Successful operation
@@ -5562,7 +5562,7 @@ paths:
           required: true
           schema:
             type: string
-          example: b3a31dd1-ad20-4a0d-9209-6ac5839d56d2
+          example: eacfecb4-2dba-4ff3-b891-8ddaabbc7d16
       responses:
         '200':
           description: Successful operation
@@ -5662,7 +5662,7 @@ paths:
           required: true
           schema:
             type: string
-          example: e3360076-6733-4dfb-8e91-dcc03955b268
+          example: 687dfa30-db6d-4dd7-ac32-4775178a8caa
       responses:
         '200':
           description: Successful operation
@@ -5762,7 +5762,7 @@ paths:
           required: true
           schema:
             type: string
-          example: f0793ad2-49a8-4f9b-aafe-5a2a9f5190cd
+          example: 6ea3ffe4-e49c-444f-9be8-5965a9e2017f
       responses:
         '200':
           description: Successful operation
@@ -5942,7 +5942,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 2bb9cd08-0691-41ec-8a2a-0d0b0e56f5dd
+          example: eed3081d-a353-42af-87d2-4c893a62a0f7
       responses:
         '200':
           description: Successful operation
@@ -6234,7 +6234,7 @@ paths:
           required: true
           schema:
             type: string
-          example: d5913a30-ebe9-4856-91bd-23fb040e996e
+          example: 0d124f94-9b62-4279-a2ce-338f016ae73a
       responses:
         '200':
           description: Successful operation
@@ -6334,7 +6334,7 @@ paths:
           required: true
           schema:
             type: string
-          example: d890f478-1197-48f9-9918-929b9f3c5ac8
+          example: 285d8906-a8b2-41ce-818c-710ac4b21bfc
       responses:
         '200':
           description: Successful operation
@@ -6434,7 +6434,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 6d2e0a4e-1144-416d-a863-bfe68d17f025
+          example: a4ad23de-7b4a-443b-856c-d9003d3e3897
       responses:
         '200':
           description: Successful operation
@@ -6552,7 +6552,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 82cef833-9005-4226-a985-d3b38a7053df
+          example: 90cab649-81ad-49bc-a2e8-c3a10b830f74
       responses:
         '200':
           description: Successful operation
@@ -8742,7 +8742,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 347fbf63-a96b-44c1-a3d9-b7af29133ac0
+          example: 035598a9-9aa8-496b-b9ea-f2b8574ad49d
       responses:
         '200':
           description: Successful operation
@@ -8840,7 +8840,7 @@ paths:
           required: true
           schema:
             type: string
-          example: f6adf21f-ecb1-4a19-b6bc-80eafc5c777d
+          example: b83cab9f-38b9-4aab-ac4a-9dd198ecb866
       responses:
         '200':
           description: Successful operation
@@ -8938,7 +8938,7 @@ paths:
           required: true
           schema:
             type: string
-          example: c0826d85-e9d5-4ecd-92a0-58a31b1a2c33
+          example: b37ebddc-ed7d-4129-926c-6e3e934c8575
       responses:
         '200':
           description: Successful operation
@@ -9196,7 +9196,7 @@ paths:
           required: true
           schema:
             type: string
-          example: e13f7b2d-6514-419e-8037-3e7e575f8745
+          example: ec7aca56-fa56-4557-9d08-8cc0e545b466
       responses:
         '200':
           description: Successful operation
@@ -9294,7 +9294,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 4fe2a944-b5d0-4cc2-8c2a-0c974be3e004
+          example: f54efc1c-ca39-43d5-b05e-e287df6af428
       responses:
         '200':
           description: Successful operation
@@ -9392,7 +9392,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 2ef05d4a-9690-4be8-89b2-3d0b097dcecb
+          example: 277866c1-9714-4097-8181-430f36b271d6
       responses:
         '200':
           description: Successful operation
@@ -9490,7 +9490,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 9a451dbd-6353-4129-b8c4-275c391c607b
+          example: 64bab2f6-877e-4946-9ec4-1780d82443a5
       responses:
         '200':
           description: Successful operation
@@ -9672,7 +9672,7 @@ paths:
           required: true
           schema:
             type: string
-          example: e15d3edd-2dcd-4828-a98b-247a70aeadda
+          example: ca45ee63-a0dc-422d-98f5-9c845bde5d74
       responses:
         '200':
           description: Successful operation
@@ -9698,7 +9698,7 @@ paths:
           required: true
           schema:
             type: string
-          example: ed4b9761-8da4-4a7e-8b78-0d40abbfeeaa
+          example: 5211df9e-93a4-4c66-81eb-ba78bbfa3a73
       responses:
         '200':
           description: Successful operation
@@ -9770,7 +9770,7 @@ paths:
           required: true
           schema:
             type: string
-          example: f70ac18b-b2a3-416d-8edd-8fd79460512c
+          example: 08970ef6-a8e7-415d-9085-96c6a0b75f0b
       responses:
         '200':
           description: Successful operation
@@ -9796,7 +9796,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 31eddc15-933b-4247-83ec-2697f7ade32e
+          example: 285f9cf5-6a62-4d38-a193-b3a6b8422068
       responses:
         '200':
           description: Successful operation
@@ -9868,7 +9868,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 7bdfd19e-9f34-4a91-9dc3-c872190f10dc
+          example: e30abdeb-bbad-4154-ac89-3158c1b5d7a2
       responses:
         '200':
           description: Successful operation
@@ -9894,7 +9894,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 6d60cf39-6620-425a-bb2a-c6fd28b747d4
+          example: af6c0ef9-e2de-4b67-b5d7-e33d339dfc28
       responses:
         '200':
           description: Successful operation
@@ -9966,7 +9966,7 @@ paths:
           required: true
           schema:
             type: string
-          example: df4a45a8-7dbb-4183-81cc-a672413e4518
+          example: bfbb86c1-917c-4dd4-95e0-7fc583be3d58
       responses:
         '200':
           description: Successful operation
@@ -9992,7 +9992,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 93a2a40c-dfd4-4ef6-8b15-08ece870454f
+          example: b221bb02-c5a3-495d-9dcb-de3121eb8f6d
       responses:
         '200':
           description: Successful operation
@@ -10164,7 +10164,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 876ba410-c92a-42a3-afcc-949d48c80c15
+          example: e13a549d-9fdf-4f8b-8ecd-db969a640857
       responses:
         '200':
           description: Successful operation
@@ -10236,7 +10236,7 @@ paths:
           required: true
           schema:
             type: string
-          example: e8c50f5c-10cc-4d5c-a90a-40eb866b99e6
+          example: 5afb24c1-fa55-42c4-aea8-0f876d310464
       responses:
         '200':
           description: Successful operation
@@ -10308,7 +10308,7 @@ paths:
           required: true
           schema:
             type: string
-          example: b21b66fa-ae6d-411e-a532-cdf9a03ba494
+          example: 53fed3eb-973e-4444-b261-c1a62f3d6cba
       responses:
         '200':
           description: Successful operation
@@ -10380,7 +10380,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 47867534-8a40-4289-9ec3-e0f3e6e33fad
+          example: 18b24c1d-3bb5-46ac-b01b-71e64f368248
       responses:
         '200':
           description: Successful operation
@@ -10996,7 +10996,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 74a67797-0c33-4801-9bae-0e6d4ffa70d7
+          example: 1dd5c4c4-ab50-4dfe-8f4e-218c525a5c80
       responses:
         '200':
           description: Successful operation
@@ -12111,6 +12111,29 @@ components:
           buy_on_google: '#/components/schemas/BuyOnGoogleMerchantSerpElementItem'
           shopping_specification: '#/components/schemas/ShoppingSpecificationMerchantSerpElementItem'
           product_info_element: '#/components/schemas/ProductInfoElementMerchantSerpElementItem'
+    DemographyComparisonInfo:
+      type: object
+      properties:
+        age:
+          type: object
+          additionalProperties:
+            type: array
+            items:
+              type: integer
+              nullable: true
+            nullable: true
+          description: type of element
+          nullable: true
+        gender:
+          type: object
+          additionalProperties:
+            type: array
+            items:
+              type: integer
+              nullable: true
+            nullable: true
+          description: type of element
+          nullable: true
     RatingElement:
       type: object
       properties:
@@ -21368,7 +21391,7 @@ components:
           nullable: true
         postback_data:
           type: string
-          description: "postback_url datatype\nrequired field if you specify postback_url\ncorresponds to the datatype that will be sent to your server\npossible values:\nadvanced"
+          description: "postback_url datatype\nrequired field if you specify postback_url\ncorresponds to the datatype that will be sent to your server\npossible values:\nadvanced, html"
           nullable: true
         pingback_url:
           type: string
@@ -24282,7 +24305,7 @@ components:
             oneOf:
               - $ref: '#/components/schemas/BaseSerpElementItem'
             nullable: true
-          description: items featured in the faq_box
+          description: "additional items present in the element\nif there are none, equals null"
           nullable: true
     SerpBingOrganicLiveAdvancedTaskInfo:
       type: object
@@ -31319,7 +31342,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nnote that you can not filter the results by relevance\nexample:\n[\"keyword_info.search_volume\",\">\",0]\n[[\"impressions_info.daily_impressions_average\",\"in\",[0,1000]],\n\"and\",\n[\"impressions_info.ad_position_average\",\"<\",3]][[\"impressions_info.ad_position_average\",\">\",0],\n\"and\",\n[[\"impressions_info.cpc_max\",\"<\",0.5],\"or\",[\"impressions_info.daily_clicks_max\",\">=\",10]]]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nnote that you can not filter the results by relevance\nexample:\n[\"keyword_info.search_volume\",\">\",0]\n[[\"impressions_info.daily_impressions_average\",\"in\",[0,1000]],\n\"and\",\n[\"impressions_info.ad_position_average\",\"<\",3]][[\"impressions_info.ad_position_average\",\">\",0],\n\"and\",\n[[\"impressions_info.cpc_max\",\"<\",0.5],\"or\",[\"impressions_info.daily_clicks_max\",\">=\",10]]]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
           nullable: true
         order_by:
           type: array
@@ -31800,7 +31823,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, <, <=, >, >=, =, <>, in, not_in, like,not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"keyword_info.search_volume\",\">\",0]\n[[\"keyword_info.search_volume\",\"in\",[0,1000]],\n\"and\",\n[\"keyword_info.competition_level\",\"=\",\"LOW\"]]\n[[\"keyword_info.search_volume\",\">\",100],\n\"and\",\n[[\"keyword_info.cpc\",\"<\",0.5],\n\"or\",\n[\"keyword_info.high_top_of_page_bid\",\"<=\",0.5]]]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in, like,not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"keyword_info.search_volume\",\">\",0]\n[[\"keyword_info.search_volume\",\"in\",[0,1000]],\n\"and\",\n[\"keyword_info.competition_level\",\"=\",\"LOW\"]]\n[[\"keyword_info.search_volume\",\">\",100],\n\"and\",\n[[\"keyword_info.cpc\",\"<\",0.5],\n\"or\",\n[\"keyword_info.high_top_of_page_bid\",\"<=\",0.5]]]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
           nullable: true
         order_by:
           type: array
@@ -31973,7 +31996,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"keyword_info.search_volume\",\">\",0]\n[[\"keyword_info.search_volume\",\"in\",[0,1000]],\n\"and\",\n[\"keyword_info.competition_level\",\"=\",\"LOW\"]][[\"keyword_info.search_volume\",\">\",100],\n\"and\",\n[[\"keyword_info.cpc\",\"<\",0.5],\n\"or\",\n[\"keyword_info.high_top_of_page_bid\",\"<=\",0.5]]]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"keyword_info.search_volume\",\">\",0]\n[[\"keyword_info.search_volume\",\"in\",[0,1000]],\n\"and\",\n[\"keyword_info.competition_level\",\"=\",\"LOW\"]][[\"keyword_info.search_volume\",\">\",100],\n\"and\",\n[[\"keyword_info.cpc\",\"<\",0.5],\n\"or\",\n[\"keyword_info.high_top_of_page_bid\",\"<=\",0.5]]]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
           nullable: true
         order_by:
           type: array
@@ -32133,7 +32156,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nnote that you can not filter the results by relevance\nexample:\n[\"keyword_info.search_volume\",\">\",0]\n[[\"keyword_info.search_volume\",\"in\",[0,1000]],\n\"and\",\n[\"keyword_info.competition_level\",\"=\",\"LOW\"]]\n[[\"keyword_info.search_volume\",\">\",100],\n\"and\",\n[[\"keyword_info.cpc\",\"<\",0.5],\n\"or\",\n[\"keyword_info.high_top_of_page_bid\",\"<=\",0.5]]]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nnote that you can not filter the results by relevance\nexample:\n[\"keyword_info.search_volume\",\">\",0]\n[[\"keyword_info.search_volume\",\"in\",[0,1000]],\n\"and\",\n[\"keyword_info.competition_level\",\"=\",\"LOW\"]]\n[[\"keyword_info.search_volume\",\">\",100],\n\"and\",\n[[\"keyword_info.cpc\",\"<\",0.5],\n\"or\",\n[\"keyword_info.high_top_of_page_bid\",\"<=\",0.5]]]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
           nullable: true
         order_by:
           type: array
@@ -32611,7 +32634,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, <, <=, >, >=, =, <>, in, not_in\nexample:\n[\"metrics.organic.pos_1,\">\",0]\n[[\"metrics.organic.count\",\">=\",100],\n\"and\",\n[\"metrics.organic.impressions_etv\",\"in\",[10,100]]]\n[[[\"metrics.organic.count\",\">=\",100],\"and\",[\"metrics.organic.pos_1\",\">\",0]],\n\"or\",\n[\"metrics.organic.impressions_etv\",\"in\",[10,100]]]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in\nexample:\n[\"metrics.organic.pos_1,\">\",0]\n[[\"metrics.organic.count\",\">=\",100],\n\"and\",\n[\"metrics.organic.impressions_etv\",\"in\",[10,100]]]\n[[[\"metrics.organic.count\",\">=\",100],\"and\",[\"metrics.organic.pos_1\",\">\",0]],\n\"or\",\n[\"metrics.organic.impressions_etv\",\"in\",[10,100]]]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
           nullable: true
         order_by:
           type: array
@@ -32771,7 +32794,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"keyword_info.search_volume\",\">\",0]\n[[\"keyword_info.search_volume\",\"in\",[0,1000]],\n\"and\",\n[\"keyword_info.competition_level\",\"=\",\"LOW\"]]\n[[\"keyword_info.search_volume\",\">\",100],\n\"and\",\n[[\"keyword_info.cpc\",\"<\",0.5],\n\"or\",\n[\"keyword_info.high_top_of_page_bid\",\"<=\",0.5]]]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"keyword_info.search_volume\",\">\",0]\n[[\"keyword_info.search_volume\",\"in\",[0,1000]],\n\"and\",\n[\"keyword_info.competition_level\",\"=\",\"LOW\"]]\n[[\"keyword_info.search_volume\",\">\",100],\n\"and\",\n[[\"keyword_info.cpc\",\"<\",0.5],\n\"or\",\n[\"keyword_info.high_top_of_page_bid\",\"<=\",0.5]]]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
           nullable: true
         order_by:
           type: array
@@ -32932,7 +32955,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum);\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, <, <=, >, >=, =, <>, in, not_in, like, not_like;\nyou can use the % operator with like and not_like to match any string of zero or more characters;\nexample:\n[\"metrics_history.202110.organic.pos_1\", \">\", 15];\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum);\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in, like, not_like;\nyou can use the % operator with like and not_like to match any string of zero or more characters;\nexample:\n[\"metrics_history.202110.organic.pos_1\", \">\", 15];\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
           nullable: true
         order_by:
           type: array
@@ -33103,7 +33126,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, <, <=, >, >=, =, <>, in, not_in, like,not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"keyword_info.search_volume\",\">\",0]\n[[\"keyword_info.search_volume\",\"in\",[0,1000]],\n\"and\",\n[\"keyword_info.competition_level\",\"=\",\"LOW\"]]\n[[\"keyword_info.search_volume\",\">\",100],\n\"and\",\n[[\"keyword_info.cpc\",\"<\",0.5],\n\"or\",\n[\"keyword_info.high_top_of_page_bid\",\"<=\",0.5]]]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in, like,not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"keyword_info.search_volume\",\">\",0]\n[[\"keyword_info.search_volume\",\"in\",[0,1000]],\n\"and\",\n[\"keyword_info.competition_level\",\"=\",\"LOW\"]]\n[[\"keyword_info.search_volume\",\">\",100],\n\"and\",\n[[\"keyword_info.cpc\",\"<\",0.5],\n\"or\",\n[\"keyword_info.high_top_of_page_bid\",\"<=\",0.5]]]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
           nullable: true
         order_by:
           type: array
@@ -33215,7 +33238,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexamples:\n[\"expiration_datetime\", \"<\", \"2021-02-15 01:00:00 +00:00\"]\n[[\"expiration_datetime\", \"<\", \"2021-02-15 01:00:00 +00:00\"],\n \"and\", \n[\"domain\", \"like\", \"%seo%\"]]\n\nfor more information about filters, please refer to Dataforseo Labs - Filters or this help center guide"
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexamples:\n[\"expiration_datetime\", \"<\", \"2021-02-15 01:00:00 +00:00\"]\n[[\"expiration_datetime\", \"<\", \"2021-02-15 01:00:00 +00:00\"],\n \"and\", \n[\"domain\", \"like\", \"%seo%\"]]\n\nfor more information about filters, please refer to Dataforseo Labs - Filters or this help center guide"
           nullable: true
         order_by:
           type: array
@@ -33398,7 +33421,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"ranked_serp_element.serp_item.rank_group\",\"<=\",10]\n[[\"ranked_serp_element.serp_item.rank_group\",\"<=\",10],\n\"and\",\n[\"ranked_serp_element.serp_item.type\",\"<>\",\"paid\"]]\n[[\"keyword_data.keyword_info.search_volume\",\"<>\",0],\n\"and\",\n[[\"ranked_serp_element.serp_item.type\",\"<>\",\"paid\"],\"or\",[\"ranked_serp_element.serp_item.is_malicious\",\"=\",false]]]\nif you want to get the keywords a particular webpage ranks for, specify the filter by the ranked_serp_element.serp_item.relative_url parameter\nexample:\n[\"ranked_serp_element.serp_item.relative_url\", \"=\", \"/apis/rank-tracker-api\"]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"ranked_serp_element.serp_item.rank_group\",\"<=\",10]\n[[\"ranked_serp_element.serp_item.rank_group\",\"<=\",10],\n\"and\",\n[\"ranked_serp_element.serp_item.type\",\"<>\",\"paid\"]]\n[[\"keyword_data.keyword_info.search_volume\",\"<>\",0],\n\"and\",\n[[\"ranked_serp_element.serp_item.type\",\"<>\",\"paid\"],\"or\",[\"ranked_serp_element.serp_item.is_malicious\",\"=\",false]]]\nif you want to get the keywords a particular webpage ranks for, specify the filter by the ranked_serp_element.serp_item.relative_url parameter\nexample:\n[\"ranked_serp_element.serp_item.relative_url\", \"=\", \"/apis/rank-tracker-api\"]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
           nullable: true
         order_by:
           type: array
@@ -33542,6 +33565,8 @@ components:
               nullable: true
             about_this_result:
               type: object
+              additionalProperties:
+                $ref: '#/components/schemas/AboutThisResultElement'
               description: "contains information from the ‘About this result’ panel\n‘About this result’ panel provides additional context about why Google returned this result for the given query;\nthis feature appears after clicking on the three dots next to most results"
               nullable: true
             main_domain:
@@ -33920,7 +33945,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"median_position\",\"in\",[1,10]]\n[[\"median_position\",\"in\",[1,10]],\"and\",[\"domain\",\"not_like\",\"%wikipedia.org%\"]]\n[[\"domain\",\"not_like\",\"%wikipedia.org%\"],\n\"and\",\n[[\"relevant_serp_items\",\">\",0],\"or\",[\"median_position\",\"in\",[1,10]]]]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"median_position\",\"in\",[1,10]]\n[[\"median_position\",\"in\",[1,10]],\"and\",[\"domain\",\"not_like\",\"%wikipedia.org%\"]]\n[[\"domain\",\"not_like\",\"%wikipedia.org%\"],\n\"and\",\n[[\"relevant_serp_items\",\">\",0],\"or\",[\"median_position\",\"in\",[1,10]]]]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
           nullable: true
         order_by:
           type: array
@@ -34086,7 +34111,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, <, <=, >, >=, =, <>, in, not_in\nexample:\n[\"metrics.organic.count\",\">\",50]\n[[\"metrics.organic.pos_1\",\"<>\",0],\"and\",[\"metrics.organic.impressions_etv\",\">=\",\"10\"]]\n[[[\"metrics.organic.count\",\">=\",50],\"and\",[\"metrics.organic.pos_1\",\"in\",[1,5]]],\n\"or\",\n[\"metrics.organic.etv\",\">=\",\"100\"]]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in\nexample:\n[\"metrics.organic.count\",\">\",50]\n[[\"metrics.organic.pos_1\",\"<>\",0],\"and\",[\"metrics.organic.impressions_etv\",\">=\",\"10\"]]\n[[[\"metrics.organic.count\",\">=\",50],\"and\",[\"metrics.organic.pos_1\",\"in\",[1,5]]],\n\"or\",\n[\"metrics.organic.etv\",\">=\",\"100\"]]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
           nullable: true
         order_by:
           type: array
@@ -34282,7 +34307,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"keyword_data.keyword_info.search_volume\",\"in\",[100,1000]]\n[[\"first_domain_serp_element.etv\",\">\",0],\"and\",[\"first_domain_serp_element.description\",\"like\",\"%goat%\"]]\n[[\"keyword_data.keyword_info.search_volume\",\">\",100],\n\"and\",\n[[\"first_domain_serp_element.description\",\"like\",\"%goat%\"],\n\"or\",\n[\"second_domain_serp_element.type\",\"=\",\"organic\"]]]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"keyword_data.keyword_info.search_volume\",\"in\",[100,1000]]\n[[\"first_domain_serp_element.etv\",\">\",0],\"and\",[\"first_domain_serp_element.description\",\"like\",\"%goat%\"]]\n[[\"keyword_data.keyword_info.search_volume\",\">\",100],\n\"and\",\n[[\"first_domain_serp_element.description\",\"like\",\"%goat%\"],\n\"or\",\n[\"second_domain_serp_element.type\",\"=\",\"organic\"]]]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
           nullable: true
         order_by:
           type: array
@@ -34428,7 +34453,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, <, <=, >, >=, =, <>, in, not_in\nexample:\n[\"metrics.paid.count\",\">\",0]\n[[\"metrics.paid.count\",\">\",0],\"and\",[\"metrics.paid.etv\",\">\",\"50\"]]\n[[\"metrics.organic.count\",\">\",\"10\"],\n\"and\",\n[[\"metrics.organic.pos_1\",\"<>\",0],\"or\",[\"metrics.organic.pos_2_3\",\"<>\",0]]]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in\nexample:\n[\"metrics.paid.count\",\">\",0]\n[[\"metrics.paid.count\",\">\",0],\"and\",[\"metrics.paid.etv\",\">\",\"50\"]]\n[[\"metrics.organic.count\",\">\",\"10\"],\n\"and\",\n[[\"metrics.organic.pos_1\",\"<>\",0],\"or\",[\"metrics.organic.pos_2_3\",\"<>\",0]]]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
           nullable: true
         order_by:
           type: array
@@ -34578,7 +34603,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, <, <=, >, >=, =, <>, in, not_in\nexample:\n[\"metrics.paid.count\",\">\",0]\n[[\"metrics.organic.count\",\">\",50],\"and\",[\"metrics.organic.pos_1\",\"<>\",0]]\n[[\"\"metrics.organic.count\",\">\",50\"],\n\"and\",\n[[\"metrics.organic.pos_1\",\"<>\",0],\"or\",[\"metrics.organic.pos_2_3\",\"<>\",0]]]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in\nexample:\n[\"metrics.paid.count\",\">\",0]\n[[\"metrics.organic.count\",\">\",50],\"and\",[\"metrics.organic.pos_1\",\"<>\",0]]\n[[\"\"metrics.organic.count\",\">\",50\"],\n\"and\",\n[[\"metrics.organic.pos_1\",\"<>\",0],\"or\",[\"metrics.organic.pos_2_3\",\"<>\",0]]]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
           nullable: true
         order_by:
           type: array
@@ -35043,6 +35068,8 @@ components:
               nullable: true
             link:
               type: object
+              oneOf:
+                - $ref: '#/components/schemas/LinkElement'
               description: link of the element
               nullable: true
             items:
@@ -35129,6 +35156,8 @@ components:
               nullable: true
             link:
               type: object
+              oneOf:
+                - $ref: '#/components/schemas/LinkElement'
               description: link of the element
               nullable: true
             items:
@@ -35576,10 +35605,6 @@ components:
         - $ref: '#/components/schemas/BaseDataforseoLabsSerpElementItem'
         - type: object
           properties:
-            se_type:
-              type: string
-              description: search engine type
-              nullable: true
             rank_group:
               type: integer
               description: "position within a group of elements with identical type values\npositions of elements with different type values are omitted from rank_group"
@@ -35598,7 +35623,7 @@ components:
               nullable: true
             domain:
               type: string
-              description: subdomain in SERP
+              description: domain where a link points
               nullable: true
             title:
               type: string
@@ -35606,7 +35631,7 @@ components:
               nullable: true
             featured_title:
               type: string
-              description: the title of the featured snippets source page
+              description: title of a given element
               nullable: true
             description:
               type: string
@@ -35614,11 +35639,17 @@ components:
               nullable: true
             url:
               type: string
-              description: relevant URL in SERP
+              description: relevant URL of the Ad element in SERP
               nullable: true
             table:
               type: object
+              oneOf:
+                - $ref: '#/components/schemas/Table'
               description: "results table\nif there are none, equals null"
+              nullable: true
+            se_type:
+              type: string
+              description: search engine type
               nullable: true
             main_domain:
               type: string
@@ -36929,7 +36960,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nnote that if you want to filter by any field in the intersection_result array you need to specify the number of corresponding page\nfor instance, if you want to filter results by the ranking of the first specified URL, you should set the following filter:\n[intersection_result.1.rank_absolute,\"=\",1]\nif you want to filter results and receive only organic listings for the third specified URL, you should set the following filter:\n[intersection_result.3.type,\"=\",\"organic\"] , etc.example:\n[\"keyword_data.keyword_info.search_volume\",\"in\",[100,1000]]\n[[\"intersection_result.1.etv\",\">\",0],\"and\",[\"intersection_result.1.description\",\"like\",\"%goat%\"]][[\"keyword_data.keyword_info.search_volume\",\">\",100],\n\"and\",\n[[\"intersection_result.2.description\",\"like\",\"%goat%\"],\n\"or\",\n[\"intersection_result.2.type\",\"=\",\"organic\"]]]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nnote that if you want to filter by any field in the intersection_result array you need to specify the number of corresponding page\nfor instance, if you want to filter results by the ranking of the first specified URL, you should set the following filter:\n[intersection_result.1.rank_absolute,\"=\",1]\nif you want to filter results and receive only organic listings for the third specified URL, you should set the following filter:\n[intersection_result.3.type,\"=\",\"organic\"] , etc.example:\n[\"keyword_data.keyword_info.search_volume\",\"in\",[100,1000]]\n[[\"intersection_result.1.etv\",\">\",0],\"and\",[\"intersection_result.1.description\",\"like\",\"%goat%\"]][[\"keyword_data.keyword_info.search_volume\",\">\",100],\n\"and\",\n[[\"intersection_result.2.description\",\"like\",\"%goat%\"],\n\"or\",\n[\"intersection_result.2.type\",\"=\",\"organic\"]]]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
           nullable: true
         order_by:
           type: array
@@ -37686,7 +37717,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"keyword_data.keyword_info.search_volume\",\"in\",[100,1000]];\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"keyword_data.keyword_info.search_volume\",\"in\",[100,1000]];\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
           nullable: true
         order_by:
           type: array
@@ -38115,7 +38146,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"full_metrics.amazon_serp.pos_1\",\">\", 20]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"full_metrics.amazon_serp.pos_1\",\">\", 20]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
           nullable: true
         order_by:
           type: array
@@ -38274,7 +38305,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"avg_position\",\"<\", 10]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"avg_position\",\"<\", 10]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
           nullable: true
         order_by:
           type: array
@@ -38606,7 +38637,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, <, <=, >, >=, =, <>, in, not_in\nexample:\n[\"metrics.organic.count\",\">\",50]\n[[\"metrics.organic.pos_1\",\"<>\",0],\"and\",[\"metrics.organic.etv\",\">=\",\"10\"]]\n[[[\"metrics.organic.count\",\">=\",50],\"and\",[\"metrics.organic.pos_1\",\"in\",[1,5]]],\n\"or\",\n[\"metrics.organic.etv\",\">=\",\"100\"]]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in\nexample:\n[\"metrics.organic.count\",\">\",50]\n[[\"metrics.organic.pos_1\",\"<>\",0],\"and\",[\"metrics.organic.etv\",\">=\",\"10\"]]\n[[[\"metrics.organic.count\",\">=\",50],\"and\",[\"metrics.organic.pos_1\",\"in\",[1,5]]],\n\"or\",\n[\"metrics.organic.etv\",\">=\",\"100\"]]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
           nullable: true
         order_by:
           type: array
@@ -38760,7 +38791,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"keyword_data.keyword_info.search_volume\",\"in\",[100,1000]]\n[[\"first_domain_serp_element.etv\",\">\",0],\"and\",[\"first_domain_serp_element.description\",\"like\",\"%goat%\"]]\n[[\"keyword_data.keyword_info.search_volume\",\">\",100],\n\"and\",\n[[\"first_domain_serp_element.description\",\"like\",\"%goat%\"],\n\"or\",\n[\"second_domain_serp_element.type\",\"=\",\"organic\"]]]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"keyword_data.keyword_info.search_volume\",\"in\",[100,1000]]\n[[\"first_domain_serp_element.etv\",\">\",0],\"and\",[\"first_domain_serp_element.description\",\"like\",\"%goat%\"]]\n[[\"keyword_data.keyword_info.search_volume\",\">\",100],\n\"and\",\n[[\"first_domain_serp_element.description\",\"like\",\"%goat%\"],\n\"or\",\n[\"second_domain_serp_element.type\",\"=\",\"organic\"]]]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
           nullable: true
         order_by:
           type: array
@@ -39038,7 +39069,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more charactersnote that if you want to filter by any field in the intersection_result array you need to specify the number of corresponding page\nfor instance, if you want to filter results by the ranking of the first specified URL, you should set the following filter:\n[intersection_result.1.rank_absolute,\"=\",1]\nif you want to filter results and receive only organic listings for the third specified URL, you should set the following filter:\n[intersection_result.3.type,\"=\",\"organic\"] , etc.example:\n[\"keyword_data.keyword_info.search_volume\",\"in\",[100,1000]]\n[[\"intersection_result.1.etv\",\">\",0],\"and\",[\"intersection_result.1.description\",\"like\",\"%goat%\"]][[\"keyword_data.keyword_info.search_volume\",\">\",100],\n\"and\",\n[[\"intersection_result.2.description\",\"like\",\"%goat%\"],\n\"or\",\n[\"intersection_result.2.type\",\"=\",\"organic\"]]]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more charactersnote that if you want to filter by any field in the intersection_result array you need to specify the number of corresponding page\nfor instance, if you want to filter results by the ranking of the first specified URL, you should set the following filter:\n[intersection_result.1.rank_absolute,\"=\",1]\nif you want to filter results and receive only organic listings for the third specified URL, you should set the following filter:\n[intersection_result.3.type,\"=\",\"organic\"] , etc.example:\n[\"keyword_data.keyword_info.search_volume\",\"in\",[100,1000]]\n[[\"intersection_result.1.etv\",\">\",0],\"and\",[\"intersection_result.1.description\",\"like\",\"%goat%\"]][[\"keyword_data.keyword_info.search_volume\",\">\",100],\n\"and\",\n[[\"intersection_result.2.description\",\"like\",\"%goat%\"],\n\"or\",\n[\"intersection_result.2.type\",\"=\",\"organic\"]]]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
           nullable: true
         order_by:
           type: array
@@ -39204,7 +39235,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"ranked_serp_element.serp_item.rank_group\",\"<=\",10]\n[[\"ranked_serp_element.serp_item.rank_group\",\"<=\",10],\n\"and\",\n[\"ranked_serp_element.serp_item.type\",\"<>\",\"paid\"]]\n[[\"keyword_data.keyword_info.search_volume\",\"<>\",0],\n\"and\",\n[[\"ranked_serp_element.serp_item.type\",\"<>\",\"paid\"],\"or\",[\"ranked_serp_element.serp_item.is_malicious\",\"=\",false]]]\nif you want to get the keywords a particular webpage ranks for, specify the filter by the ranked_serp_element.serp_item.relative_url parameter\nexample:\n[\"ranked_serp_element.serp_item.relative_url\", \"=\", \"/apis/rank-tracker-api\"]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"ranked_serp_element.serp_item.rank_group\",\"<=\",10]\n[[\"ranked_serp_element.serp_item.rank_group\",\"<=\",10],\n\"and\",\n[\"ranked_serp_element.serp_item.type\",\"<>\",\"paid\"]]\n[[\"keyword_data.keyword_info.search_volume\",\"<>\",0],\n\"and\",\n[[\"ranked_serp_element.serp_item.type\",\"<>\",\"paid\"],\"or\",[\"ranked_serp_element.serp_item.is_malicious\",\"=\",false]]]\nif you want to get the keywords a particular webpage ranks for, specify the filter by the ranked_serp_element.serp_item.relative_url parameter\nexample:\n[\"ranked_serp_element.serp_item.relative_url\", \"=\", \"/apis/rank-tracker-api\"]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
           nullable: true
         order_by:
           type: array
@@ -39362,7 +39393,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, <, <=, >, >=, =, <>, in, not_in, like,not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"keyword_data.keyword_info.search_volume\",\">\",0]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in, like,not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"keyword_data.keyword_info.search_volume\",\">\",0]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
           nullable: true
         order_by:
           type: array
@@ -39525,7 +39556,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, <, <=, >, >=, =, <>, in, not_in\nexample:\n[\"metrics.paid.count\",\">\",0]\n[[\"metrics.organic.count\",\">\",50],\"and\",[\"metrics.organic.pos_1\",\"<>\",0]]\n[[\"\"metrics.organic.count\",\">\",50\"],\n\"and\",\n[[\"metrics.organic.pos_1\",\"<>\",0],\"or\",[\"metrics.organic.pos_2_3\",\"<>\",0]]]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in\nexample:\n[\"metrics.paid.count\",\">\",0]\n[[\"metrics.organic.count\",\">\",50],\"and\",[\"metrics.organic.pos_1\",\"<>\",0]]\n[[\"\"metrics.organic.count\",\">\",50\"],\n\"and\",\n[[\"metrics.organic.pos_1\",\"<>\",0],\"or\",[\"metrics.organic.pos_2_3\",\"<>\",0]]]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
           nullable: true
         order_by:
           type: array
@@ -39652,7 +39683,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"median_position\",\"in\",[1,10]]\n[[\"median_position\",\"in\",[1,10]],\"and\",[\"domain\",\"not_like\",\"%wikipedia.org%\"]]\n[[\"domain\",\"not_like\",\"%wikipedia.org%\"],\n\"and\",\n[[\"relevant_serp_items\",\">\",0],\"or\",[\"median_position\",\"in\",[1,10]]]]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"median_position\",\"in\",[1,10]]\n[[\"median_position\",\"in\",[1,10]],\"and\",[\"domain\",\"not_like\",\"%wikipedia.org%\"]]\n[[\"domain\",\"not_like\",\"%wikipedia.org%\"],\n\"and\",\n[[\"relevant_serp_items\",\">\",0],\"or\",[\"median_position\",\"in\",[1,10]]]]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
           nullable: true
         order_by:
           type: array
@@ -44255,31 +44286,6 @@ components:
             nullable: true
           description: distribution of keyword popularity by gender
           nullable: true
-    DemographyComparison:
-      type: object
-      properties:
-        age:
-          type: object
-          additionalProperties:
-            type: array
-            items:
-              type: integer
-              format: int64
-              nullable: true
-            nullable: true
-          description: comparison of keyword popularity data by age
-          nullable: true
-        gender:
-          type: object
-          additionalProperties:
-            type: array
-            items:
-              type: integer
-              format: int64
-              nullable: true
-            nullable: true
-          description: comparison of keyword popularity data by gender
-          nullable: true
     DataforseoTrendsDemographyInfo:
       type: object
       properties:
@@ -44307,7 +44313,7 @@ components:
         demography_comparison:
           type: object
           oneOf:
-            - $ref: '#/components/schemas/DemographyComparison'
+            - $ref: '#/components/schemas/DemographyComparisonInfo'
           description: "comparison of demographic data on keyword popularity for the specified parameters\nconains keyword popularity data by age and gender\nif you specified a single keyword, the value will be null"
           nullable: true
     KeywordsDataDataforseoTrendsDemographyLiveResultInfo:
@@ -44441,7 +44447,8 @@ components:
               nullable: true
             demography_comparison:
               type: object
-              description: "comparison of demographic data on keyword popularity for the specified parameters\nconains keyword popularity data by age and gender\nif you specified a single keyword, the value will be null"
+              oneOf:
+                - $ref: '#/components/schemas/DemographyComparisonInfo'
               nullable: true
     KeywordsDataDataforseoTrendsMergedDataLiveResultInfo:
       type: object
@@ -47000,7 +47007,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, =, <>, in, not_in, like, not_like, ilike, not_ilike\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"rank\",\">\",\"80\"]\n[[\"page_from_rank\",\">\",\"55\"],\n\"and\",\n[\"dofollow\",\"=\",true]]\n[[\"first_seen\",\">\",\"2017-10-23 11:31:45 +00:00\"],\n\"and\",\n[[\"anchor\",\"like\",\"%seo%\"],\"or\",[\"text_pre\",\"like\",\"%seo%\"]]]\nThe full list of possible filters is available here."
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, =, <>, in, not_in, like, not_like, ilike, not_ilike, regex, not_regex\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"rank\",\">\",\"80\"]\n[[\"page_from_rank\",\">\",\"55\"],\n\"and\",\n[\"dofollow\",\"=\",true]]\n[[\"first_seen\",\">\",\"2017-10-23 11:31:45 +00:00\"],\n\"and\",\n[[\"anchor\",\"like\",\"%seo%\"],\"or\",[\"text_pre\",\"like\",\"%seo%\"]]]\nThe full list of possible filters is available here."
           nullable: true
         order_by:
           type: array
@@ -47373,7 +47380,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, =, <>, in, not_in, like, not_like, ilike, not_ilike\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"referring_links_types.anchors\",\">\",\"1\"]\n[[\"broken_pages\",\">\",\"2\"],\n\"and\",\n[\"backlinks\",\">\",\"10\"]]\n[[\"first_seen\",\">\",\"2017-10-23 11:31:45 +00:00\"],\n\"and\",\n[[\"anchor\",\"like\",\"%seo%\"],\"or\",[\"referring_domains\",\">\",\"10\"]]]\nThe full list of possible filters is available here."
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, =, <>, in, not_in, like, not_like, ilike, not_ilike\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"referring_links_types.anchors\",\">\",\"1\"]\n[[\"broken_pages\",\">\",\"2\"],\n\"and\",\n[\"backlinks\",\">\",\"10\"]]\n[[\"first_seen\",\">\",\"2017-10-23 11:31:45 +00:00\"],\n\"and\",\n[[\"anchor\",\"like\",\"%seo%\"],\"or\",[\"referring_domains\",\">\",\"10\"]]]\nThe full list of possible filters is available here."
           nullable: true
         order_by:
           type: array
@@ -47617,7 +47624,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, =, <>, in, not_in, like, not_like, ilike, not_ilike\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"meta.internal_links_count\",\">\",\"1\"]\n[[\"meta.external_links_count\",\">\",\"2\"],\n\"and\",\n[\"backlinks\",\">\",\"10\"]]\n[[\"first_visited\",\">\",\"2017-10-23 11:31:45 +00:00\"],\n\"and\",\n[[\"title\",\"like\",\"%seo%\"],\"or\",[\"referring_domains\",\">\",\"10\"]]]\nThe full list of possible filters is available here."
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, =, <>, in, not_in, like, not_like, ilike, not_ilike\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"meta.internal_links_count\",\">\",\"1\"]\n[[\"meta.external_links_count\",\">\",\"2\"],\n\"and\",\n[\"backlinks\",\">\",\"10\"]]\n[[\"first_visited\",\">\",\"2017-10-23 11:31:45 +00:00\"],\n\"and\",\n[[\"title\",\"like\",\"%seo%\"],\"or\",[\"referring_domains\",\">\",\"10\"]]]\nThe full list of possible filters is available here."
           nullable: true
         order_by:
           type: array
@@ -48078,7 +48085,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, =, <>, in, not_in, like, not_like, ilike, not_ilike\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"referring_links_types.anchors\",\">\",\"1\"]\n[[\"broken_pages\",\">\",\"2\"],\n\"and\",\n[\"backlinks\",\">\",\"10\"]]\n[[\"first_seen\",\">\",\"2017-10-23 11:31:45 +00:00\"],\n\"and\",\n[[\"anchor\",\"like\",\"%seo%\"],\"or\",[\"referring_domains\",\">\",\"10\"]]]\nThe full list of possible filters is available here."
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, =, <>, in, not_in, like, not_like, ilike, not_ilike\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"referring_links_types.anchors\",\">\",\"1\"]\n[[\"broken_pages\",\">\",\"2\"],\n\"and\",\n[\"backlinks\",\">\",\"10\"]]\n[[\"first_seen\",\">\",\"2017-10-23 11:31:45 +00:00\"],\n\"and\",\n[[\"anchor\",\"like\",\"%seo%\"],\"or\",[\"referring_domains\",\">\",\"10\"]]]\nThe full list of possible filters is available here."
           nullable: true
         order_by:
           type: array
@@ -48322,7 +48329,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"referring_pages\",\">\",\"1\"]\n[[\"referring_pages\",\">\",\"2\"],\n\"and\",\n[\"backlinks\",\">\",\"10\"]]\n[[\"first_seen\",\">\",\"2017-10-23 11:31:45 +00:00\"],\n\"and\",\n[[\"domain\",\"like\",\"%dataforseo.com%\"],\"or\",[\"referring_domains\",\">\",\"10\"]]]\nThe full list of possible filters is available here."
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"referring_pages\",\">\",\"1\"]\n[[\"referring_pages\",\">\",\"2\"],\n\"and\",\n[\"backlinks\",\">\",\"10\"]]\n[[\"first_seen\",\">\",\"2017-10-23 11:31:45 +00:00\"],\n\"and\",\n[[\"domain\",\"like\",\"%dataforseo.com%\"],\"or\",[\"referring_domains\",\">\",\"10\"]]]\nThe full list of possible filters is available here."
           nullable: true
         order_by:
           type: array
@@ -48570,7 +48577,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, =, <>, in, not_in, like, not_like, ilike, not_ilike\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"referring_pages\",\">\",\"1\"]\n[[\"referring_pages\",\">\",\"2\"],\n\"and\",\n[\"backlinks\",\">\",\"10\"]]\n[[\"first_seen\",\">\",\"2017-10-23 11:31:45 +00:00\"],\n\"and\",\n[[\"network_address\",\"like\",\"194.1.%\"],\"or\",[\"referring_ips\",\">\",\"10\"]]]\nThe full list of possible filters is available here."
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, =, <>, in, not_in, like, not_like, ilike, not_ilike\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"referring_pages\",\">\",\"1\"]\n[[\"referring_pages\",\">\",\"2\"],\n\"and\",\n[\"backlinks\",\">\",\"10\"]]\n[[\"first_seen\",\">\",\"2017-10-23 11:31:45 +00:00\"],\n\"and\",\n[[\"network_address\",\"like\",\"194.1.%\"],\"or\",[\"referring_ips\",\">\",\"10\"]]]\nThe full list of possible filters is available here."
           nullable: true
         order_by:
           type: array
@@ -48801,7 +48808,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, =, <>, in, not_in, like, not_like, ilike, not_ilike\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"rank\",\">\",\"100\"]\n[[\"target\",\"like\",\"%forbes%\"],\n\"and\",\n[[\"rank\",\">\",\"100\"],\"or\",[\"intersections\",\">\",\"5\"]]]\nThe full list of possible filters is available here."
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, =, <>, in, not_in, like, not_like, ilike, not_ilike\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"rank\",\">\",\"100\"]\n[[\"target\",\"like\",\"%forbes%\"],\n\"and\",\n[[\"rank\",\">\",\"100\"],\"or\",[\"intersections\",\">\",\"5\"]]]\nThe full list of possible filters is available here."
           nullable: true
         order_by:
           type: array
@@ -48913,7 +48920,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, =, <>, in, not_in, like, not_like, ilike, not_ilike\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"1.internal_links_count\",\">\",\"1\"]\n[[\"2.referring_pages\",\">\",\"2\"],\n\"and\",\n[\"1.backlinks\",\">\",\"10\"]]\n[[\"1.first_seen\",\">\",\"2017-10-23 11:31:45 +00:00\"],\n\"and\",\n[[\"2.target\",\"like\",\"%dataforseo.com%\"],\"or\",[\"1.referring_domains\",\">\",\"10\"]]]\nThe full list of possible filters is available here."
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, =, <>, in, not_in, like, not_like, ilike, not_ilike\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"1.internal_links_count\",\">\",\"1\"]\n[[\"2.referring_pages\",\">\",\"2\"],\n\"and\",\n[\"1.backlinks\",\">\",\"10\"]]\n[[\"1.first_seen\",\">\",\"2017-10-23 11:31:45 +00:00\"],\n\"and\",\n[[\"2.target\",\"like\",\"%dataforseo.com%\"],\"or\",[\"1.referring_domains\",\">\",\"10\"]]]\nThe full list of possible filters is available here."
           nullable: true
         order_by:
           type: array
@@ -48958,7 +48965,7 @@ components:
           nullable: true
         intersection_mode:
           type: string
-          description: "indicates whether to intersect backlinks\noptional field\nuse this field to intersect or merge results for the specified domains\npossible values: all, partical\nall – results are based on all backlinks;\npartial – results are based on the intersecting backlinks only;\ndefault value: all"
+          description: "indicates whether to intersect backlinks\noptional field\nuse this field to intersect or merge results for the specified domains\npossible values: all, partial\nall – results are based on all backlinks;\npartial – results are based on the intersecting backlinks only;\ndefault value: all"
           nullable: true
         tag:
           type: string
@@ -49201,7 +49208,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, =, <>, in, not_in, like, not_like, ilike, not_ilike\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"1.rank\",\">\",\"80\"]\n[[\"2.page_from_rank\",\">\",\"55\"],\n\"and\",\n[\"1.original\",\"=\",\"true\"]]\n[[\"1.first_seen\",\">\",\"2017-10-23 11:31:45 +00:00\"],\n\"and\",\n[[\"1.acnhor\",\"like\",\"%seo%\"],\"or\",[\"1.text_pre\",\"not_like\",\"%seo%\"]]]\nThe full list of possible filters is available here."
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, =, <>, in, not_in, like, not_like, ilike, not_ilike\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"1.rank\",\">\",\"80\"]\n[[\"2.page_from_rank\",\">\",\"55\"],\n\"and\",\n[\"1.original\",\"=\",\"true\"]]\n[[\"1.first_seen\",\">\",\"2017-10-23 11:31:45 +00:00\"],\n\"and\",\n[[\"1.acnhor\",\"like\",\"%seo%\"],\"or\",[\"1.text_pre\",\"not_like\",\"%seo%\"]]]\nThe full list of possible filters is available here."
           nullable: true
         order_by:
           type: array
@@ -49231,7 +49238,7 @@ components:
           nullable: true
         intersection_mode:
           type: string
-          description: "indicates whether to intersect backlinks\noptional field\nuse this field to intersect or merge results for the specified URLs\npossible values: all, partical\nall – results are based on all backlinks;\npartial – results are based on the intersecting backlinks only;\ndefault value: all"
+          description: "indicates whether to intersect backlinks\noptional field\nuse this field to intersect or merge results for the specified URLs\npossible values: all, partial\nall – results are based on all backlinks;\npartial – results are based on the intersecting backlinks only;\ndefault value: all"
           nullable: true
         tag:
           type: string
@@ -50275,10 +50282,6 @@ components:
           items:
             type: string
           description: "domains, subdomains or webpages to get summary data for\nrequired field\na domain or a subdomain should be specified without https:// and www.\na page should be specified with absolute URL (including http:// or https://)\nyou can specify up to 1000 pages, domains, or subdomains in each request.\nnote that the URLs you set in a single request cannot belong to more than 100 different domains."
-        limit:
-          type: integer
-          description: "the maximum number of returned pages\noptional field\ndefault value: 100\nmaximum value: 1000"
-          nullable: true
         offset:
           type: integer
           description: "offset in the results array of returned pages\noptional field\ndefault value: 0\nif you specify the 10 value, the first ten pages in the results array will be omitted and the data will be provided for the successive pages"
@@ -50296,7 +50299,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, =, <>, in, not_in, like, not_like, ilike, not_ilike\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"referring_links_types.anchors\",\">\",\"1\"]\n[[\"broken_pages\",\">\",\"2\"],\n\"and\",\n[\"backlinks\",\">\",\"10\"]]\n[[\"first_seen\",\">\",\"2017-10-23 11:31:45 +00:00\"],\n\"and\",\n[[\"anchor\",\"like\",\"%seo%\"],\"or\",[\"referring_domains\",\">\",\"10\"]]]\nThe full list of possible filters is available here."
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, =, <>, in, not_in, like, not_like, ilike, not_ilike\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"referring_links_types.anchors\",\">\",\"1\"]\n[[\"broken_pages\",\">\",\"2\"],\n\"and\",\n[\"backlinks\",\">\",\"10\"]]\n[[\"first_seen\",\">\",\"2017-10-23 11:31:45 +00:00\"],\n\"and\",\n[[\"anchor\",\"like\",\"%seo%\"],\"or\",[\"referring_domains\",\">\",\"10\"]]]\nThe full list of possible filters is available here."
           nullable: true
         order_by:
           type: array
@@ -51190,7 +51193,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"meta.external_links_count\",\"<=\",50][\"url\",\"like\",\"https://dataforseo.com/apis/dataforseo-labs-api\"][[\"checks.high_waiting_time\",\"=\",false],\n\"and\",[\"resource_type\",\"=\",\"html\"]][[\"page_timing.duration_time\",\"<\",100],\"and\",[[\"checks.large_page_size\",\"=\",false],\"or\",[\"checks.high_waiting_time\",\"=\",false]]]The full list of possible filters is available by this link."
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"meta.external_links_count\",\"<=\",50][\"url\",\"like\",\"https://dataforseo.com/apis/dataforseo-labs-api\"][[\"checks.high_waiting_time\",\"=\",false],\n\"and\",[\"resource_type\",\"=\",\"html\"]][[\"page_timing.duration_time\",\"<\",100],\"and\",[[\"checks.large_page_size\",\"=\",false],\"or\",[\"checks.high_waiting_time\",\"=\",false]]]The full list of possible filters is available by this link."
           nullable: true
         order_by:
           type: array
@@ -51763,7 +51766,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"meta.external_links_count\",\"<=\",50][\"url\",\"like\",\"https://dataforseo.com/apis/dataforseo-labs-api\"]\n[[\"checks.high_waiting_time\",\"=\",false],\n\"and\",[\"resource_type\",\"=\",\"html\"]]\n[[\"page_timing.duration_time\",\"<\",100],\"and\",[[\"checks.large_page_size\",\"=\",false],\"or\",[\"checks.high_waiting_time\",\"=\",false]]]\nThe full list of possible filters is available by this link."
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"meta.external_links_count\",\"<=\",50][\"url\",\"like\",\"https://dataforseo.com/apis/dataforseo-labs-api\"]\n[[\"checks.high_waiting_time\",\"=\",false],\n\"and\",[\"resource_type\",\"=\",\"html\"]]\n[[\"page_timing.duration_time\",\"<\",100],\"and\",[[\"checks.large_page_size\",\"=\",false],\"or\",[\"checks.high_waiting_time\",\"=\",false]]]\nThe full list of possible filters is available by this link."
           nullable: true
         order_by:
           type: array
@@ -51860,13 +51863,13 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"resource_type\",\"=\",\"stylesheet\"]\n[[\"resource_type\",\"=\",\"image\"],\n\"and\",[\"checks.is_https\",\"=\",false]]\n[[\"fetch_timing.duration_time\",\">\",1],\"and\",[[\"total_transfer_size\",\">\",100],\"or\",[\"checks.high_loading_time\",\"=\",true]]]\nThe full list of possible filters is available by this link."
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"resource_type\",\"=\",\"stylesheet\"]\n[[\"resource_type\",\"=\",\"image\"],\n\"and\",[\"checks.is_https\",\"=\",false]]\n[[\"fetch_timing.duration_time\",\">\",1],\"and\",[[\"total_transfer_size\",\">\",100],\"or\",[\"checks.high_loading_time\",\"=\",true]]]\nThe full list of possible filters is available by this link."
           nullable: true
         relevant_pages_filters:
           type: array
           items:
             type: string
-          description: "filter the resources by relevant pages\noptional field\nyou can use this field to obtain resources from pages matching to the defined parameters\nyou can apply the same filters here as available for the pages endpoint\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"checks.no_image_title\",\"=\",true]"
+          description: "filter the resources by relevant pages\noptional field\nyou can use this field to obtain resources from pages matching to the defined parameters\nyou can apply the same filters here as available for the pages endpoint\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"checks.no_image_title\",\"=\",true]"
           nullable: true
         order_by:
           type: array
@@ -52609,7 +52612,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"direction\",\"=\",\"external\"]\n[[\"domain_to\",\"<>\",\"example.com\"],\n\"and\",\n[\"link_from\",\"not_like\",\"%example.com/blog%\"]]\n[[\"direction\",\"=\",\"external\"],\n\"and\",\n[[\"link_from\",\"like\",\"%example.com/blog%\"],\"or\",[\"link_from\",\"like\",\"%example.com/help%\"]]]\nThe full list of possible filters is available by this link."
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"direction\",\"=\",\"external\"]\n[[\"domain_to\",\"<>\",\"example.com\"],\n\"and\",\n[\"link_from\",\"not_like\",\"%example.com/blog%\"]]\n[[\"direction\",\"=\",\"external\"],\n\"and\",\n[[\"link_from\",\"like\",\"%example.com/blog%\"],\"or\",[\"link_from\",\"like\",\"%example.com/help%\"]]]\nThe full list of possible filters is available by this link."
           nullable: true
         tag:
           type: string
@@ -52904,7 +52907,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can use only one filtering parameter with this endpoint\nthe following filtering parameter is supported:\nis_redirect_loop\nthe following operators are supported:\nregex, =, <>\nexamples:\n[\"is_redirect_loop\",\"=\",\"true\"]\n[\"is_redirect_loop\",\"<>\",\"false\"]"
+          description: "array of results filtering parameters\noptional field\nyou can use only one filtering parameter with this endpoint\nthe following filtering parameter is supported:\nis_redirect_loop\nthe following operators are supported:\nregex, not_regex, =, <>\nexamples:\n[\"is_redirect_loop\",\"=\",\"true\"]\n[\"is_redirect_loop\",\"<>\",\"false\"]"
           nullable: true
         tag:
           type: string
@@ -53061,7 +53064,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"reason\",\"=\",\"robots_txt\"][[\"reason\",\"<>\",\"robots_txt\"],\n\"and\",\n[\"url\",\"not_like\",\"%/wp-admin/%\"]]\n[[\"url\",\"not_like\",\"%/wp-admin/%\"],\n\"and\",\n[[\"reason\",\"<>\",\"meta_tag\"],\"or\",[\"reason\",\"<>\",\"http_header\"]]]\nThe full list of possible filters is available by this link."
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"reason\",\"=\",\"robots_txt\"][[\"reason\",\"<>\",\"robots_txt\"],\n\"and\",\n[\"url\",\"not_like\",\"%/wp-admin/%\"]]\n[[\"url\",\"not_like\",\"%/wp-admin/%\"],\n\"and\",\n[[\"reason\",\"<>\",\"meta_tag\"],\"or\",[\"reason\",\"<>\",\"http_header\"]]]\nThe full list of possible filters is available by this link."
           nullable: true
     OnPageNonIndexableItem:
       type: object
@@ -53284,7 +53287,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"keyword\",\"=\",\"%seo%\"]\n[[\"keyword\",\"=\",\"%seo%\"],\n\"and\",\n[\"frequency\",\"<\",\"6\"]]\n[[\"keyword\",\"not_like\",\"%seo%\"],\n\"and\",\n[[\"frequency\",\">\",\"6\"],\"or\",[\"density\",\">\",\"0.02\"]]]\nThe full list of possible filters is available by this link."
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"keyword\",\"=\",\"%seo%\"]\n[[\"keyword\",\"=\",\"%seo%\"],\n\"and\",\n[\"frequency\",\"<\",\"6\"]]\n[[\"keyword\",\"not_like\",\"%seo%\"],\n\"and\",\n[[\"frequency\",\">\",\"6\"],\"or\",[\"density\",\">\",\"0.02\"]]]\nThe full list of possible filters is available by this link."
           nullable: true
         order_by:
           type: array
@@ -53726,10 +53729,21 @@ components:
       properties:
         url:
           type: string
-          description: "URL of the content to parse\nrequired field\nURL of the page to parse\nexample:\nhttps://www.fujielectric.com/"
+          description: "URL of the content to parse\nrequired field\nURL of the page to parse\nexample:\nhttps://dataforseo.com/blog/a-versatile-alternative-to-google-trends-exploring-the-power-of-dataforseo-trends-api"
         id:
           type: string
           description: "ID of the task\nrequired field\nyou can get this ID in the response of the Task POST endpoint\nnote: the enable_content_parsing parameter in the POST request must be set to true\nexample:\n\"07131248-1535-0216-1000-17384017ad04\""
+    ContentUrlInfo:
+      type: object
+      properties:
+        url:
+          type: string
+          description: other URL found in the content element
+          nullable: true
+        anchor_text:
+          type: string
+          description: text of the URL’s anchor
+          nullable: true
     ContentItemInfo:
       type: object
       properties:
@@ -53740,6 +53754,15 @@ components:
         url:
           type: string
           description: "page URL\ndisplayed in case the text is a link anchor"
+          nullable: true
+        urls:
+          type: array
+          items:
+            type: object
+            oneOf:
+              - $ref: '#/components/schemas/ContentUrlInfo'
+            nullable: true
+          description: contains other URLs and anchors found in the content element
           nullable: true
     PageSectionContentInfo:
       type: object
@@ -53762,7 +53785,78 @@ components:
             nullable: true
           description: "secondary content on the page\nyou can find more information about content priority calculation in this help center article"
           nullable: true
-    TopicInfo:
+        table_content:
+          type: array
+          items:
+            type: object
+            oneOf:
+              - $ref: '#/components/schemas/TableContent'
+            nullable: true
+          description: content of the table on the page
+          nullable: true
+    RowCellInfo:
+      type: object
+      properties:
+        text:
+          type: string
+          description: content text
+          nullable: true
+        urls:
+          type: array
+          items:
+            type: object
+            oneOf:
+              - $ref: '#/components/schemas/ContentUrlInfo'
+            nullable: true
+          description: contains other URLs and anchors found in the content element
+          nullable: true
+        is_header:
+          type: boolean
+          description: indicates if the text belongs to the header
+          nullable: true
+    TableContentItemInfo:
+      type: object
+      properties:
+        row_cells:
+          type: array
+          items:
+            type: object
+            oneOf:
+              - $ref: '#/components/schemas/RowCellInfo'
+            nullable: true
+          description: content of the row cells of the header
+          nullable: true
+    TableContent:
+      type: object
+      properties:
+        header:
+          type: array
+          items:
+            type: object
+            oneOf:
+              - $ref: '#/components/schemas/TableContentItemInfo'
+            nullable: true
+          description: content of the header of the table
+          nullable: true
+        body:
+          type: array
+          items:
+            type: object
+            oneOf:
+              - $ref: '#/components/schemas/TableContentItemInfo'
+            nullable: true
+          description: content of the body of the table
+          nullable: true
+        footer:
+          type: array
+          items:
+            type: object
+            oneOf:
+              - $ref: '#/components/schemas/TableContentItemInfo'
+            nullable: true
+          description: parsed content of the footer
+          nullable: true
+    MainTopic:
       type: object
       properties:
         h_title:
@@ -53782,7 +53876,7 @@ components:
           description: content language
           nullable: true
         level:
-          type: string
+          type: integer
           description: HTML level
           nullable: true
         primary_content:
@@ -53803,6 +53897,60 @@ components:
             nullable: true
           description: "secondary content on the page\nyou can find more information about content priority calculation in this help center article"
           nullable: true
+        table_content:
+          type: array
+          items:
+            type: object
+            oneOf:
+              - $ref: '#/components/schemas/TableContent'
+            nullable: true
+          description: content of the table on the page
+          nullable: true
+    SecondaryTopic:
+      type: object
+      properties:
+        h_title:
+          type: string
+          description: meta title
+          nullable: true
+        main_title:
+          type: string
+          description: main title of the block
+          nullable: true
+        author:
+          type: string
+          description: content author name
+          nullable: true
+        language:
+          type: string
+          description: content language
+          nullable: true
+        level:
+          type: integer
+          description: HTML level
+          nullable: true
+        primary_content:
+          type: string
+          description: "primary content on the page\nyou can find more information about content priority calculation in this help center article"
+          nullable: true
+        secondary_content:
+          type: array
+          items:
+            type: object
+            oneOf:
+              - $ref: '#/components/schemas/ContentItemInfo'
+            nullable: true
+          description: "secondary content on the page\nyou can find more information about content priority calculation in this help center article"
+          nullable: true
+        table_content:
+          type: array
+          items:
+            type: object
+            oneOf:
+              - $ref: '#/components/schemas/TableContent'
+            nullable: true
+          description: content of the table on the page
+          nullable: true
     PageContentInfo:
       type: object
       properties:
@@ -53816,14 +53964,14 @@ components:
           type: object
           oneOf:
             - $ref: '#/components/schemas/PageSectionContentInfo'
-          description: parsed content of the footer
+          description: content of the footer of the table
           nullable: true
         main_topic:
           type: array
           items:
             type: object
             oneOf:
-              - $ref: '#/components/schemas/TopicInfo'
+              - $ref: '#/components/schemas/MainTopic'
             nullable: true
           description: "main topic on the page\nyou can find more information about topic priority calculation in this help center article"
           nullable: true
@@ -53832,7 +53980,7 @@ components:
           items:
             type: object
             oneOf:
-              - $ref: '#/components/schemas/TopicInfo'
+              - $ref: '#/components/schemas/SecondaryTopic'
             nullable: true
           description: "secondary topic on the page\nyou can find more information about topic priority calculation in this help center article"
           nullable: true
@@ -53965,6 +54113,21 @@ components:
         enable_xhr:
           type: boolean
           description: "enable XMLHttpRequest on a page\noptional field\nset to true if you want our crawler to request data from a web server using the XMLHttpRequest object\ndefault value:\nfalse\nif you use this field, enable_javascript must be set to true;"
+          nullable: true
+    RowCells:
+      type: object
+      properties:
+        text:
+          type: string
+          description: content text
+          nullable: true
+        urls:
+          type: object
+          description: contains other URLs and anchors found in the content element
+          nullable: true
+        is_header:
+          type: boolean
+          description: indicates if the text belongs to the header
           nullable: true
     OnPageContentParsingLiveResultInfo:
       type: object
@@ -54801,7 +54964,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, <, <=, >, >=, =, <>, in, not_in, like,not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"country\",\"=\", \"US\"]\n[[\"domain_rank\",\">\",800],\"and\",[\"content_info.connotation_types.negative\",\">\",0.9]]\n[[\"domain_rank\",\">\",800],\n\"and\",\n[[\"page_types\",\"has\",\"ecommerce\"],\n\"or\",\n[\"content_info.text_category\",\"has\",10994]]]\nfor more information about filters, please refer to Content Analysis API – Filters"
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in, like,not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"country\",\"=\", \"US\"]\n[[\"domain_rank\",\">\",800],\"and\",[\"content_info.connotation_types.negative\",\">\",0.9]]\n[[\"domain_rank\",\">\",800],\n\"and\",\n[[\"page_types\",\"has\",\"ecommerce\"],\n\"or\",\n[\"content_info.text_category\",\"has\",10994]]]\nfor more information about filters, please refer to Content Analysis API – Filters"
           nullable: true
         order_by:
           type: array
@@ -55004,7 +55167,12 @@ components:
           description: page types
           nullable: true
         ratings:
-          type: object
+          type: array
+          items:
+            type: object
+            oneOf:
+              - $ref: '#/components/schemas/RatingInfo'
+            nullable: true
           description: "ratings found on the page\nall ratings found on the page based on microdata"
           nullable: true
         social_metrics:
@@ -55116,7 +55284,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "initial dataset filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, <, <=, >, >=, =, <>, in, not_in, like,not_like, has, has_not\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"domain\",\"<>\", \"logitech.com\"]\n[[\"domain\",\"<>\",\"logitech.com\"],\"and\",[\"content_info.connotation_types.negative\",\">\",1000]]\n[[\"domain\",\"<>\",\"logitech.com\"]],\n\"and\",\n[[\"content_info.connotation_types.negative\",\">\",1000],\n\"or\",\n[\"content_info.text_category\",\"has\",10994]]]\nfor more information about filters, please refer to Content Analysis API – Filters"
+          description: "initial dataset filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in, like,not_like, has, has_not\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"domain\",\"<>\", \"logitech.com\"]\n[[\"domain\",\"<>\",\"logitech.com\"],\"and\",[\"content_info.connotation_types.negative\",\">\",1000]]\n[[\"domain\",\"<>\",\"logitech.com\"]],\n\"and\",\n[[\"content_info.connotation_types.negative\",\">\",1000],\n\"or\",\n[\"content_info.text_category\",\"has\",10994]]]\nfor more information about filters, please refer to Content Analysis API – Filters"
           nullable: true
         tag:
           type: string
@@ -55273,7 +55441,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "initial dataset filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, <, <=, >, >=, =, <>, in, not_in, like,not_like, has, has_not\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"domain\",\"<>\", \"logitech.com\"]\n[[\"domain\",\"<>\",\"logitech.com\"],\"and\",[\"content_info.connotation_types.negative\",\">\",1000]]\n[[\"domain\",\"<>\",\"logitech.com\"]],\n\"and\",\n[[\"content_info.connotation_types.negative\",\">\",1000],\n\"or\",\n[\"content_info.text_category\",\"has\",10994]]]\nfor more information about filters, please refer to Content Analysis API – Filters"
+          description: "initial dataset filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in, like,not_like, has, has_not\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"domain\",\"<>\", \"logitech.com\"]\n[[\"domain\",\"<>\",\"logitech.com\"],\"and\",[\"content_info.connotation_types.negative\",\">\",1000]]\n[[\"domain\",\"<>\",\"logitech.com\"]],\n\"and\",\n[[\"content_info.connotation_types.negative\",\">\",1000],\n\"or\",\n[\"content_info.text_category\",\"has\",10994]]]\nfor more information about filters, please refer to Content Analysis API – Filters"
           nullable: true
         tag:
           type: string
@@ -55421,7 +55589,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "initial dataset filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, <, <=, >, >=, =, <>, in, not_in, like,not_like, has, has_not\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"domain\",\"<>\", \"logitech.com\"]\n[[\"domain\",\"<>\",\"logitech.com\"],\"and\",[\"content_info.connotation_types.negative\",\">\",1000]]\n[[\"domain\",\"<>\",\"logitech.com\"]],\n\"and\",\n[[\"content_info.connotation_types.negative\",\">\",1000],\n\"or\",\n[\"content_info.text_category\",\"has\",10994]]]\nfor more information about filters, please refer to Content Analysis API – Filters"
+          description: "initial dataset filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in, like,not_like, has, has_not\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"domain\",\"<>\", \"logitech.com\"]\n[[\"domain\",\"<>\",\"logitech.com\"],\"and\",[\"content_info.connotation_types.negative\",\">\",1000]]\n[[\"domain\",\"<>\",\"logitech.com\"]],\n\"and\",\n[[\"content_info.connotation_types.negative\",\">\",1000],\n\"or\",\n[\"content_info.text_category\",\"has\",10994]]]\nfor more information about filters, please refer to Content Analysis API – Filters"
           nullable: true
         tag:
           type: string
@@ -55522,7 +55690,7 @@ components:
           type: array
           items:
             type: string
-          description: "initial dataset filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, <, <=, >, >=, =, <>, in, not_in, like,not_like, has, has_not\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"domain\",\"<>\", \"logitech.com\"]\n[[\"domain\",\"<>\",\"logitech.com\"],\"and\",[\"content_info.connotation_types.negative\",\">\",1000]]\n[[\"domain\",\"<>\",\"logitech.com\"]],\n\"and\",\n[[\"content_info.connotation_types.negative\",\">\",1000],\n\"or\",\n[\"content_info.text_category\",\"has\",10994]]]\nfor more information about filters, please refer to Content Analysis API – Filters"
+          description: "initial dataset filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in, like,not_like, has, has_not\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"domain\",\"<>\", \"logitech.com\"]\n[[\"domain\",\"<>\",\"logitech.com\"],\"and\",[\"content_info.connotation_types.negative\",\">\",1000]]\n[[\"domain\",\"<>\",\"logitech.com\"]],\n\"and\",\n[[\"content_info.connotation_types.negative\",\">\",1000],\n\"or\",\n[\"content_info.text_category\",\"has\",10994]]]\nfor more information about filters, please refer to Content Analysis API – Filters"
           nullable: true
         tag:
           type: string
@@ -55681,7 +55849,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "initial dataset filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, <, <=, >, >=, =, <>, in, not_in, like,not_like, has, has_not\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"domain\",\"<>\", \"logitech.com\"]\n[[\"domain\",\"<>\",\"logitech.com\"],\"and\",[\"content_info.connotation_types.negative\",\">\",1000]]\n[[\"domain\",\"<>\",\"logitech.com\"]],\n\"and\",\n[[\"content_info.connotation_types.negative\",\">\",1000],\n\"or\",\n[\"content_info.text_category\",\"has\",10994]]]\nfor more information about filters, please refer to Content Analysis API – Filters"
+          description: "initial dataset filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in, like,not_like, has, has_not\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"domain\",\"<>\", \"logitech.com\"]\n[[\"domain\",\"<>\",\"logitech.com\"],\"and\",[\"content_info.connotation_types.negative\",\">\",1000]]\n[[\"domain\",\"<>\",\"logitech.com\"]],\n\"and\",\n[[\"content_info.connotation_types.negative\",\">\",1000],\n\"or\",\n[\"content_info.text_category\",\"has\",10994]]]\nfor more information about filters, please refer to Content Analysis API – Filters"
           nullable: true
         tag:
           type: string
@@ -62583,7 +62751,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"item.rating.value\",\">\",3]\nyou can receive the list of available filters by making a separate request to https://api.dataforseo.com/v3/app_data/google/app_listings/available_filters"
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"item.rating.value\",\">\",3]\nyou can receive the list of available filters by making a separate request to https://api.dataforseo.com/v3/app_data/google/app_listings/available_filters"
           nullable: true
         order_by:
           type: array
@@ -63922,7 +64090,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"rating.value\",\">\",3]\nyou can receive the list of available filters by making a separate request to https://api.dataforseo.com/v3/app_data/apple/app_listings/available_filters"
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"rating.value\",\">\",3]\nyou can receive the list of available filters by making a separate request to https://api.dataforseo.com/v3/app_data/apple/app_listings/available_filters"
           nullable: true
         order_by:
           type: array
@@ -64354,7 +64522,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"rating.value\",\">\",3]\nyou can receive the list of available filters by making a separate request to https://api.dataforseo.com/v3/business_data/business_listings/available_filters"
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"rating.value\",\">\",3]\nyou can receive the list of available filters by making a separate request to https://api.dataforseo.com/v3/business_data/business_listings/available_filters"
           nullable: true
         order_by:
           type: array
@@ -64785,7 +64953,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"rating.value\",\">\",3]\nyou can receive the list of available filters by making a separate request to https://api.dataforseo.com/v3/business_data/business_listings/available_filters"
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in, like, not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"rating.value\",\">\",3]\nyou can receive the list of available filters by making a separate request to https://api.dataforseo.com/v3/business_data/business_listings/available_filters"
           nullable: true
         internal_list_limit:
           type: integer
@@ -65139,6 +65307,9 @@ components:
         se:
           type: string
           description: "search engine specified when setting the task\ncan take the following values: google"
+          nullable: true
+        se_type:
+          type: string
           nullable: true
         date_posted:
           type: string
@@ -65663,6 +65834,9 @@ components:
           type: string
           description: "search engine specified when setting the task\ncan take the following values: google"
           nullable: true
+        se_type:
+          type: string
+          nullable: true
         date_posted:
           type: string
           description: date when the task was posted (in the UTC format)
@@ -65958,6 +66132,9 @@ components:
         se:
           type: string
           description: "search engine specified when setting the task\ncan take the following values: google"
+          nullable: true
+        se_type:
+          type: string
           nullable: true
         date_posted:
           type: string
@@ -66485,6 +66662,9 @@ components:
         se:
           type: string
           description: "search engine specified when setting the task\ncan take the following values: google"
+          nullable: true
+        se_type:
+          type: string
           nullable: true
         date_posted:
           type: string
@@ -67672,6 +67852,9 @@ components:
           type: string
           description: "search engine specified when setting the task\ncan take the following values: google"
           nullable: true
+        se_type:
+          type: string
+          nullable: true
         date_posted:
           type: string
           description: date when the task was posted (in the UTC format)
@@ -67767,6 +67950,8 @@ components:
           nullable: true
         items:
           type: object
+          oneOf:
+            - $ref: '#/components/schemas/GoogleBusinessAnswerElement'
           description: "array of items\nitems within google_business_question_item"
           nullable: true
     GoogleBusinessAnswerElement:
@@ -68154,6 +68339,9 @@ components:
           type: string
           description: "search engine specified when setting the task\ncan take the following values: trustpilot"
           nullable: true
+        se_type:
+          type: string
+          nullable: true
         date_posted:
           type: string
           description: date when the task was posted (in the UTC format)
@@ -68361,6 +68549,9 @@ components:
         se:
           type: string
           description: "search engine specified when setting the task\ncan take the following values: trustpilot"
+          nullable: true
+        se_type:
+          type: string
           nullable: true
         date_posted:
           type: string
@@ -68800,6 +68991,9 @@ components:
           type: string
           description: "search engine specified when setting the task\ncan take the following values: tripadvisor"
           nullable: true
+        se_type:
+          type: string
+          nullable: true
         date_posted:
           type: string
           description: date when the task was posted (in the UTC format)
@@ -69078,6 +69272,9 @@ components:
         se:
           type: string
           description: "search engine specified when setting the task\ncan take the following values: tripadvisor"
+          nullable: true
+        se_type:
+          type: string
           nullable: true
         date_posted:
           type: string
@@ -70972,6 +71169,10 @@ components:
           oneOf:
             - $ref: '#/components/schemas/AppendixSerpLimitsRatesDataInfo'
           nullable: true
+        tasks_ready:
+          type: number
+          format: double
+          nullable: true
     AppendixOnPageLimitsRatesDataInfo:
       type: object
       properties:
@@ -71186,6 +71387,10 @@ components:
           oneOf:
             - $ref: '#/components/schemas/AppendixBusinessListingsBusinessDataLimitsRatesDataInfo'
           nullable: true
+        tasks_ready:
+          type: number
+          format: double
+          nullable: true
     AppendixBacklinksLimitsRatesDataInfo:
       type: object
       properties:
@@ -71329,6 +71534,10 @@ components:
           format: double
           nullable: true
         categories:
+          type: number
+          format: double
+          nullable: true
+        tasks_ready:
           type: number
           format: double
           nullable: true
@@ -72427,6 +72636,11 @@ components:
           oneOf:
             - $ref: '#/components/schemas/AppendixProductGoogleMerchantPriceDataInfo'
           nullable: true
+        tasks_ready:
+          type: object
+          oneOf:
+            - $ref: '#/components/schemas/AppendixTaskKeywordsDataPriceDataInfo'
+          nullable: true
     AppendixSerpPriceDataInfo:
       type: object
       properties:
@@ -72435,12 +72649,12 @@ components:
           oneOf:
             - $ref: '#/components/schemas/AppendixTaskKeywordsDataPriceDataInfo'
           nullable: true
-        advanced:
+        html:
           type: object
           oneOf:
             - $ref: '#/components/schemas/AppendixTaskKeywordsDataPriceDataInfo'
           nullable: true
-        html:
+        advanced:
           type: object
           oneOf:
             - $ref: '#/components/schemas/AppendixTaskKeywordsDataPriceDataInfo'
@@ -72550,6 +72764,11 @@ components:
             - $ref: '#/components/schemas/AppendixTaskKeywordsDataPriceDataInfo'
           nullable: true
         locations:
+          type: object
+          oneOf:
+            - $ref: '#/components/schemas/AppendixTaskKeywordsDataPriceDataInfo'
+          nullable: true
+        tasks_ready:
           type: object
           oneOf:
             - $ref: '#/components/schemas/AppendixTaskKeywordsDataPriceDataInfo'
@@ -72842,6 +73061,11 @@ components:
           type: object
           oneOf:
             - $ref: '#/components/schemas/AppendixTrBusinessDataPriceDataInfo'
+          nullable: true
+        tasks_ready:
+          type: object
+          oneOf:
+            - $ref: '#/components/schemas/AppendixTaskKeywordsDataPriceDataInfo'
           nullable: true
     AppendixContentAnalysisPriceData:
       type: object

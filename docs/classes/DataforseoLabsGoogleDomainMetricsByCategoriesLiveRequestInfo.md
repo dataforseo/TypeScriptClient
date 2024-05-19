@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:87759
+main.ts:87841
 
 ## Properties
 
@@ -49,7 +49,7 @@ you can download the full list of possible categories
 
 #### Source
 
-main.ts:87622
+main.ts:87704
 
 ***
 
@@ -70,7 +70,7 @@ Note: we do not recommend setting correlate to false
 
 #### Source
 
-main.ts:87713
+main.ts:87795
 
 ***
 
@@ -88,7 +88,7 @@ if specified, the API will return only domains with organic_etv lesser than the 
 
 #### Source
 
-main.ts:87706
+main.ts:87788
 
 ***
 
@@ -106,7 +106,7 @@ if specified, the API will return only domains with organic_etv greater than the
 
 #### Source
 
-main.ts:87702
+main.ts:87784
 
 ***
 
@@ -119,7 +119,7 @@ optional field
 you can add several filters at once (8 filters maximum);
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like;
+regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like;
 you can use the % operator with like and not_like to match any string of zero or more characters;
 example:
 ["metrics_history.202110.organic.pos_1", ">`", 15];
@@ -131,7 +131,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:87734
+main.ts:87816
 
 ***
 
@@ -156,7 +156,7 @@ minimum date: "2020-10-01"
 
 #### Source
 
-main.ts:87633
+main.ts:87715
 
 ***
 
@@ -176,7 +176,7 @@ default value: true
 
 #### Source
 
-main.ts:87698
+main.ts:87780
 
 ***
 
@@ -199,7 +199,7 @@ default value:
 
 #### Source
 
-main.ts:87684
+main.ts:87766
 
 ***
 
@@ -220,7 +220,7 @@ en
 
 #### Source
 
-main.ts:87675
+main.ts:87757
 
 ***
 
@@ -242,7 +242,7 @@ English
 
 #### Source
 
-main.ts:87668
+main.ts:87750
 
 ***
 
@@ -261,7 +261,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:87718
+main.ts:87800
 
 ***
 
@@ -283,7 +283,7 @@ example:
 
 #### Source
 
-main.ts:87660
+main.ts:87742
 
 ***
 
@@ -305,7 +305,7 @@ United Kingdom
 
 #### Source
 
-main.ts:87652
+main.ts:87734
 
 ***
 
@@ -324,7 +324,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 #### Source
 
-main.ts:87723
+main.ts:87805
 
 ***
 
@@ -353,7 +353,7 @@ example:
 
 #### Source
 
-main.ts:87749
+main.ts:87831
 
 ***
 
@@ -378,7 +378,7 @@ minimum date: "2020-10-01"
 
 #### Source
 
-main.ts:87644
+main.ts:87726
 
 ***
 
@@ -398,7 +398,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:87755
+main.ts:87837
 
 ***
 
@@ -420,7 +420,7 @@ maximum value: 5
 
 #### Source
 
-main.ts:87692
+main.ts:87774
 
 ## Methods
 
@@ -438,7 +438,7 @@ main.ts:87692
 
 #### Source
 
-main.ts:87768
+main.ts:87850
 
 ***
 
@@ -456,7 +456,7 @@ main.ts:87768
 
 #### Source
 
-main.ts:87818
+main.ts:87900
 
 ***
 
@@ -474,4 +474,4 @@ main.ts:87818
 
 #### Source
 
-main.ts:87811
+main.ts:87893

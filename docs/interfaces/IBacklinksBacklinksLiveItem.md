@@ -21,7 +21,7 @@ this field will be null if backlink type is not image
 
 #### Source
 
-main.ts:137949
+main.ts:137957
 
 ***
 
@@ -33,7 +33,7 @@ anchor text of the backlink
 
 #### Source
 
-main.ts:137954
+main.ts:137962
 
 ***
 
@@ -47,7 +47,7 @@ nofollow
 
 #### Source
 
-main.ts:137941
+main.ts:137949
 
 ***
 
@@ -60,7 +60,7 @@ learn more about how the metric is calculated on this help center page
 
 #### Source
 
-main.ts:137870
+main.ts:137878
 
 ***
 
@@ -73,7 +73,7 @@ if false, the backlink is nofollow
 
 #### Source
 
-main.ts:137944
+main.ts:137952
 
 ***
 
@@ -85,7 +85,7 @@ domain referring to the target domain or webpage
 
 #### Source
 
-main.ts:137847
+main.ts:137855
 
 ***
 
@@ -97,7 +97,7 @@ ISO country code of the referring domain
 
 #### Source
 
-main.ts:137895
+main.ts:137903
 
 ***
 
@@ -109,7 +109,7 @@ IP address of the referring domain
 
 #### Source
 
-main.ts:137893
+main.ts:137901
 
 ***
 
@@ -122,7 +122,7 @@ if true, the domain functions as an IP address and does not have a domain name
 
 #### Source
 
-main.ts:137891
+main.ts:137899
 
 ***
 
@@ -137,7 +137,7 @@ example:
 
 #### Source
 
-main.ts:137888
+main.ts:137896
 
 ***
 
@@ -151,7 +151,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Source
 
-main.ts:137883
+main.ts:137891
 
 ***
 
@@ -163,7 +163,7 @@ domain the backlink is pointing to
 
 #### Source
 
-main.ts:137854
+main.ts:137862
 
 ***
 
@@ -178,7 +178,7 @@ example:
 
 #### Source
 
-main.ts:137923
+main.ts:137931
 
 ***
 
@@ -191,7 +191,7 @@ for example, if mode is set to one_per_domain, this field will indicate the tota
 
 #### Source
 
-main.ts:137968
+main.ts:137976
 
 ***
 
@@ -204,7 +204,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Source
 
-main.ts:137952
+main.ts:137960
 
 ***
 
@@ -217,7 +217,7 @@ indicates a URL or a sequence of URLs that lead to url_to
 
 #### Source
 
-main.ts:137991
+main.ts:137999
 
 ***
 
@@ -230,7 +230,7 @@ if true, the backlink is pointing to a page responding with a 4xx or 5xx status 
 
 #### Source
 
-main.ts:137971
+main.ts:137979
 
 ***
 
@@ -243,7 +243,7 @@ if true, the backlink is an indirect link pointing to a page that either redirec
 
 #### Source
 
-main.ts:137988
+main.ts:137996
 
 ***
 
@@ -256,7 +256,7 @@ if true, the backlink or the entire page was removed
 
 #### Source
 
-main.ts:137867
+main.ts:137875
 
 ***
 
@@ -269,7 +269,7 @@ if true, the backlink was found on the page last time our crawler visited it
 
 #### Source
 
-main.ts:137864
+main.ts:137872
 
 ***
 
@@ -283,7 +283,7 @@ anchor, image, meta, canonical, alternate, redirect
 
 #### Source
 
-main.ts:137937
+main.ts:137945
 
 ***
 
@@ -298,7 +298,7 @@ example:
 
 #### Source
 
-main.ts:137933
+main.ts:137941
 
 ***
 
@@ -310,7 +310,7 @@ number of identical backlinks found on the referring page
 
 #### Source
 
-main.ts:137965
+main.ts:137973
 
 ***
 
@@ -322,7 +322,7 @@ indicates whether the backlink was present on the referring page when our crawle
 
 #### Source
 
-main.ts:137946
+main.ts:137954
 
 ***
 
@@ -336,7 +336,7 @@ utf-8
 
 #### Source
 
-main.ts:137907
+main.ts:137915
 
 ***
 
@@ -348,7 +348,7 @@ number of external links found on the referring page
 
 #### Source
 
-main.ts:137897
+main.ts:137905
 
 ***
 
@@ -360,7 +360,7 @@ number of internal links found on the referring page
 
 #### Source
 
-main.ts:137899
+main.ts:137907
 
 ***
 
@@ -375,7 +375,7 @@ en
 
 #### Source
 
-main.ts:137912
+main.ts:137920
 
 ***
 
@@ -389,7 +389,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Source
 
-main.ts:137879
+main.ts:137887
 
 ***
 
@@ -403,7 +403,7 @@ example:
 
 #### Source
 
-main.ts:137903
+main.ts:137911
 
 ***
 
@@ -417,7 +417,7 @@ example:
 
 #### Source
 
-main.ts:137918
+main.ts:137926
 
 ***
 
@@ -429,7 +429,7 @@ title of the referring page
 
 #### Source
 
-main.ts:137914
+main.ts:137922
 
 ***
 
@@ -444,7 +444,7 @@ example:
 
 #### Source
 
-main.ts:137928
+main.ts:137936
 
 ***
 
@@ -459,7 +459,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Source
 
-main.ts:137875
+main.ts:137883
 
 ***
 
@@ -471,7 +471,7 @@ number of keywords for which the page is ranked in top search results
 
 #### Source
 
-main.ts:137985
+main.ts:137993
 
 ***
 
@@ -486,7 +486,7 @@ article, section, summary
 
 #### Source
 
-main.ts:137963
+main.ts:137971
 
 ***
 
@@ -498,7 +498,7 @@ snippet after the anchor text
 
 #### Source
 
-main.ts:137958
+main.ts:137966
 
 ***
 
@@ -510,7 +510,7 @@ snippet before the anchor text
 
 #### Source
 
-main.ts:137956
+main.ts:137964
 
 ***
 
@@ -522,7 +522,7 @@ top-level domain of the referring URL
 
 #### Source
 
-main.ts:137861
+main.ts:137869
 
 ***
 
@@ -534,7 +534,7 @@ type of element
 
 #### Source
 
-main.ts:137845
+main.ts:137853
 
 ***
 
@@ -546,7 +546,7 @@ URL of the page where the backlink is found
 
 #### Source
 
-main.ts:137849
+main.ts:137857
 
 ***
 
@@ -559,7 +559,7 @@ if true, the referring URL is secured with HTTPS
 
 #### Source
 
-main.ts:137852
+main.ts:137860
 
 ***
 
@@ -571,7 +571,7 @@ URL the backlink is pointing to
 
 #### Source
 
-main.ts:137856
+main.ts:137864
 
 ***
 
@@ -584,7 +584,7 @@ if true, the URL is secured with HTTPS
 
 #### Source
 
-main.ts:137859
+main.ts:137867
 
 ***
 
@@ -597,7 +597,7 @@ target page the redirect is pointing to
 
 #### Source
 
-main.ts:137983
+main.ts:137991
 
 ***
 
@@ -611,7 +611,7 @@ learn more about how the metric is calculated on this help center page
 
 #### Source
 
-main.ts:137980
+main.ts:137988
 
 ***
 
@@ -626,4 +626,4 @@ example:
 
 #### Source
 
-main.ts:137976
+main.ts:137984

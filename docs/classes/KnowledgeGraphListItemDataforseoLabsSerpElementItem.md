@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:97094
+main.ts:97188
 
 ## Properties
 
@@ -70,7 +70,7 @@ kc:/common/topic:social media presence
 
 #### Source
 
-main.ts:97085
+main.ts:97179
 
 ***
 
@@ -87,7 +87,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:97090
+main.ts:97184
 
 ***
 
@@ -103,7 +103,7 @@ link of the element
 
 #### Source
 
-main.ts:97087
+main.ts:97181
 
 ***
 
@@ -121,7 +121,7 @@ left, right
 
 #### Source
 
-main.ts:97077
+main.ts:97171
 
 ***
 
@@ -138,7 +138,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:97073
+main.ts:97167
 
 ***
 
@@ -156,7 +156,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:97070
+main.ts:97164
 
 ***
 
@@ -172,7 +172,7 @@ title of a given link element
 
 #### Source
 
-main.ts:97081
+main.ts:97175
 
 ***
 
@@ -188,7 +188,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:97079
+main.ts:97173
 
 ## Methods
 
@@ -210,7 +210,7 @@ main.ts:97079
 
 #### Source
 
-main.ts:97099
+main.ts:97193
 
 ***
 
@@ -232,7 +232,7 @@ main.ts:97099
 
 #### Source
 
-main.ts:97128
+main.ts:97222
 
 ***
 
@@ -254,4 +254,4 @@ main.ts:97128
 
 #### Source
 
-main.ts:97121
+main.ts:97215

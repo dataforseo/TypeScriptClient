@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:104425
+main.ts:104519
 
 ## Properties
 
@@ -49,7 +49,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 #### Source
 
-main.ts:104348
+main.ts:104442
 
 ***
 
@@ -62,7 +62,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
+regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["full_metrics.amazon_serp.pos_1",">`", 20]
@@ -74,7 +74,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:104394
+main.ts:104488
 
 ***
 
@@ -95,7 +95,7 @@ en
 
 #### Source
 
-main.ts:104378
+main.ts:104472
 
 ***
 
@@ -116,7 +116,7 @@ English
 
 #### Source
 
-main.ts:104371
+main.ts:104465
 
 ***
 
@@ -135,7 +135,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:104383
+main.ts:104477
 
 ***
 
@@ -157,7 +157,7 @@ example:
 
 #### Source
 
-main.ts:104364
+main.ts:104458
 
 ***
 
@@ -179,7 +179,7 @@ United States
 
 #### Source
 
-main.ts:104356
+main.ts:104450
 
 ***
 
@@ -198,7 +198,7 @@ if you specify the 10 value, the first ten product competitors in the results ar
 
 #### Source
 
-main.ts:104415
+main.ts:104509
 
 ***
 
@@ -228,7 +228,7 @@ default rule:
 
 #### Source
 
-main.ts:104410
+main.ts:104504
 
 ***
 
@@ -248,7 +248,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:104421
+main.ts:104515
 
 ## Methods
 
@@ -266,7 +266,7 @@ main.ts:104421
 
 #### Source
 
-main.ts:104434
+main.ts:104528
 
 ***
 
@@ -284,7 +284,7 @@ main.ts:104434
 
 #### Source
 
-main.ts:104468
+main.ts:104562
 
 ***
 
@@ -302,4 +302,4 @@ main.ts:104468
 
 #### Source
 
-main.ts:104461
+main.ts:104555

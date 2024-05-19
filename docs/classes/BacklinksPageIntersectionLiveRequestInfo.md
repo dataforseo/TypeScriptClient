@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:144008
+main.ts:144016
 
 ## Properties
 
@@ -53,7 +53,7 @@ default value: live
 
 #### Source
 
-main.ts:143930
+main.ts:143938
 
 ***
 
@@ -77,7 +77,7 @@ example:
 
 #### Source
 
-main.ts:143921
+main.ts:143929
 
 ***
 
@@ -90,7 +90,7 @@ optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, =, `<>`, in, not_in, like, not_like, ilike, not_ilike
+regex, not_regex, =, `<>`, in, not_in, like, not_like, ilike, not_ilike
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["1.rank",">`","80"]
@@ -108,7 +108,7 @@ The full list of possible filters is available here.
 
 #### Source
 
-main.ts:143947
+main.ts:143955
 
 ***
 
@@ -128,7 +128,7 @@ default value: true
 
 #### Source
 
-main.ts:143990
+main.ts:143998
 
 ***
 
@@ -147,7 +147,7 @@ default value: true
 
 #### Source
 
-main.ts:143984
+main.ts:143992
 
 ***
 
@@ -169,7 +169,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:143979
+main.ts:143987
 
 ***
 
@@ -180,7 +180,7 @@ main.ts:143979
 indicates whether to intersect backlinks
 optional field
 use this field to intersect or merge results for the specified URLs
-possible values: all, partical
+possible values: all, partial
 all – results are based on all backlinks;
 partial – results are based on the intersecting backlinks only;
 default value: all
@@ -191,7 +191,7 @@ default value: all
 
 #### Source
 
-main.ts:143998
+main.ts:144006
 
 ***
 
@@ -210,7 +210,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:143971
+main.ts:143979
 
 ***
 
@@ -229,7 +229,7 @@ if you specify the 10 value, the first ten backlinks in the results array will b
 
 #### Source
 
-main.ts:143966
+main.ts:143974
 
 ***
 
@@ -257,7 +257,7 @@ example:
 
 #### Source
 
-main.ts:143961
+main.ts:143969
 
 ***
 
@@ -277,7 +277,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:144004
+main.ts:144012
 
 ***
 
@@ -306,7 +306,7 @@ example:
 
 #### Source
 
-main.ts:143911
+main.ts:143919
 
 ## Methods
 
@@ -324,7 +324,7 @@ main.ts:143911
 
 #### Source
 
-main.ts:144017
+main.ts:144025
 
 ***
 
@@ -342,7 +342,7 @@ main.ts:144017
 
 #### Source
 
-main.ts:144063
+main.ts:144071
 
 ***
 
@@ -360,4 +360,4 @@ main.ts:144063
 
 #### Source
 
-main.ts:144056
+main.ts:144064
