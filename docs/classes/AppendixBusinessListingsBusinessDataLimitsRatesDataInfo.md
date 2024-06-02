@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:217398
+main.ts:214557
 
 ## Properties
 
@@ -44,13 +44,13 @@ main.ts:217398
 
 #### Source
 
-main.ts:217393
+main.ts:214552
 
 ***
 
 ### categories\_aggregation?
 
-> **`optional`** **categories\_aggregation**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **categories\_aggregation**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -58,7 +58,7 @@ main.ts:217393
 
 #### Source
 
-main.ts:217392
+main.ts:214551
 
 ***
 
@@ -72,13 +72,13 @@ main.ts:217392
 
 #### Source
 
-main.ts:217394
+main.ts:214553
 
 ***
 
 ### search?
 
-> **`optional`** **search**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **search**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -86,7 +86,7 @@ main.ts:217394
 
 #### Source
 
-main.ts:217391
+main.ts:214550
 
 ## Methods
 
@@ -104,7 +104,7 @@ main.ts:217391
 
 #### Source
 
-main.ts:217407
+main.ts:214566
 
 ***
 
@@ -122,7 +122,7 @@ main.ts:217407
 
 #### Source
 
-main.ts:217427
+main.ts:214586
 
 ***
 
@@ -140,4 +140,4 @@ main.ts:217427
 
 #### Source
 
-main.ts:217420
+main.ts:214579

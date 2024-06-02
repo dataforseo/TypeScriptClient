@@ -23,6 +23,7 @@ possible values:
 chrome — used when google search is opened in google chrome;
 chrome-omni — used in the address bar in chrome;
 gws-wiz — used in google search home page;
+gws-wiz-serp — used in google search engine results page;
 safari — used when google search is opened in safari browser;
 firefox — used when google search is opened in firefox browser;
 psy-ab — may be used when google search is opened in google chrome browser;
@@ -34,7 +35,7 @@ products-cc — used in google shopping search
 
 #### Source
 
-main.ts:51822
+main.ts:51793
 
 ***
 
@@ -55,7 +56,7 @@ which que|ry is s – "cursor_pointer": 9
 
 #### Source
 
-main.ts:51806
+main.ts:51776
 
 ***
 
@@ -72,7 +73,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Source
 
-main.ts:51760
+main.ts:51730
 
 ***
 
@@ -89,7 +90,7 @@ en
 
 #### Source
 
-main.ts:51795
+main.ts:51765
 
 ***
 
@@ -106,7 +107,7 @@ English
 
 #### Source
 
-main.ts:51788
+main.ts:51758
 
 ***
 
@@ -122,7 +123,7 @@ example:
 
 #### Source
 
-main.ts:51781
+main.ts:51751
 
 ***
 
@@ -139,7 +140,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:51775
+main.ts:51745
 
 ***
 
@@ -159,7 +160,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:51854
+main.ts:51825
 
 ***
 
@@ -175,7 +176,7 @@ advanced
 
 #### Source
 
-main.ts:51844
+main.ts:51815
 
 ***
 
@@ -195,7 +196,7 @@ i.e., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:51838
+main.ts:51809
 
 ***
 
@@ -213,7 +214,7 @@ The cost can be calculated on the Pricing page
 
 #### Source
 
-main.ts:51768
+main.ts:51738
 
 ***
 
@@ -229,4 +230,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:51828
+main.ts:51799

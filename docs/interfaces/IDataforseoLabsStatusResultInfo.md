@@ -20,7 +20,7 @@ update information for the Amazon endpoints
 
 #### Source
 
-main.ts:80348
+main.ts:80407
 
 ***
 
@@ -32,7 +32,7 @@ update information for the Bing endpoints
 
 #### Source
 
-main.ts:80346
+main.ts:80405
 
 ***
 
@@ -44,4 +44,4 @@ update information for the Google endpoints
 
 #### Source
 
-main.ts:80344
+main.ts:80403

@@ -21,7 +21,7 @@ the total number of backlinks, including dofollow and nofollow links
 
 #### Source
 
-main.ts:79527
+main.ts:79586
 
 ***
 
@@ -33,7 +33,7 @@ number of dofollow links
 
 #### Source
 
-main.ts:79524
+main.ts:79583
 
 ***
 
@@ -45,7 +45,7 @@ number of referring domains
 
 #### Source
 
-main.ts:79518
+main.ts:79577
 
 ***
 
@@ -57,7 +57,7 @@ number of referring main domains
 
 #### Source
 
-main.ts:79520
+main.ts:79579
 
 ***
 
@@ -69,7 +69,7 @@ number of referring pages
 
 #### Source
 
-main.ts:79522
+main.ts:79581
 
 ***
 
@@ -84,4 +84,4 @@ example:
 
 #### Source
 
-main.ts:79532
+main.ts:79591

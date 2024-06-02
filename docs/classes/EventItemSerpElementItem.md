@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:46539
+main.ts:46508
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:46539
 
 #### Source
 
-main.ts:19994
+main.ts:19668
 
 ***
 
@@ -68,7 +68,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:46522
+main.ts:46491
 
 ***
 
@@ -85,7 +85,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:46529
+main.ts:46498
 
 ***
 
@@ -101,7 +101,7 @@ URL of the image featured in the element
 
 #### Source
 
-main.ts:46526
+main.ts:46495
 
 ***
 
@@ -118,7 +118,7 @@ if there is none, equals null
 
 #### Source
 
-main.ts:46535
+main.ts:46504
 
 ***
 
@@ -135,7 +135,7 @@ if there is none, equals null
 
 #### Source
 
-main.ts:46532
+main.ts:46501
 
 ***
 
@@ -153,7 +153,7 @@ left, right
 
 #### Source
 
-main.ts:46516
+main.ts:46485
 
 ***
 
@@ -170,7 +170,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:46512
+main.ts:46481
 
 ***
 
@@ -188,7 +188,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:46509
+main.ts:46478
 
 ***
 
@@ -204,7 +204,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:46520
+main.ts:46489
 
 ***
 
@@ -220,7 +220,7 @@ relevant URL
 
 #### Source
 
-main.ts:46524
+main.ts:46493
 
 ***
 
@@ -236,7 +236,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:46518
+main.ts:46487
 
 ## Methods
 
@@ -258,7 +258,7 @@ main.ts:46518
 
 #### Source
 
-main.ts:46544
+main.ts:46513
 
 ***
 
@@ -280,7 +280,7 @@ main.ts:46544
 
 #### Source
 
-main.ts:46576
+main.ts:46545
 
 ***
 
@@ -302,4 +302,4 @@ main.ts:46576
 
 #### Source
 
-main.ts:46569
+main.ts:46538

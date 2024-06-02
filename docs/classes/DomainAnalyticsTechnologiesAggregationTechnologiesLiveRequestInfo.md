@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:76000
+main.ts:76060
 
 ## Properties
 
@@ -40,6 +40,7 @@ main.ts:76000
 
 id of the target technology category
 required field if you don’t specify group or technology
+at least one field (group, category, technology) must be set
 you can find the full list of technology category ids on this page
 example:
 "crm"
@@ -50,7 +51,7 @@ example:
 
 #### Source
 
-main.ts:75905
+main.ts:75964
 
 ***
 
@@ -77,7 +78,7 @@ example:
 
 #### Source
 
-main.ts:75938
+main.ts:75998
 
 ***
 
@@ -87,6 +88,7 @@ main.ts:75938
 
 id of the target technology group
 required field if you don’t specify technology or category
+at least one field (group, category, technology) must be set
 you can find the full list of technology group ids on this page
 example:
 "marketing"
@@ -97,7 +99,7 @@ example:
 
 #### Source
 
-main.ts:75899
+main.ts:75957
 
 ***
 
@@ -117,7 +119,7 @@ maximum value: 10000
 
 #### Source
 
-main.ts:75966
+main.ts:76026
 
 ***
 
@@ -137,7 +139,7 @@ maximum value: 10000
 
 #### Source
 
-main.ts:75960
+main.ts:76020
 
 ***
 
@@ -158,7 +160,7 @@ maximum value: 10000
 
 #### Source
 
-main.ts:75979
+main.ts:76039
 
 ***
 
@@ -178,7 +180,7 @@ maximum value: 10000
 
 #### Source
 
-main.ts:75972
+main.ts:76032
 
 ***
 
@@ -199,7 +201,7 @@ example:
 
 #### Source
 
-main.ts:75918
+main.ts:75978
 
 ***
 
@@ -218,7 +220,7 @@ maximum value: 10000
 
 #### Source
 
-main.ts:75984
+main.ts:76044
 
 ***
 
@@ -239,7 +241,7 @@ default value: as_is
 
 #### Source
 
-main.ts:75925
+main.ts:75985
 
 ***
 
@@ -259,7 +261,7 @@ if you specify the 10 value, the first ten technologies in the results array wil
 
 #### Source
 
-main.ts:75990
+main.ts:76050
 
 ***
 
@@ -289,7 +291,7 @@ default value:
 
 #### Source
 
-main.ts:75954
+main.ts:76014
 
 ***
 
@@ -309,7 +311,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:75996
+main.ts:76056
 
 ***
 
@@ -319,6 +321,7 @@ main.ts:75996
 
 target technology
 required field if you don’t specify group or category
+at least one field (group, category, technology) must be set
 you can find the full list of technologies on this page
 example:
 "Salesforce"
@@ -329,7 +332,7 @@ example:
 
 #### Source
 
-main.ts:75911
+main.ts:75971
 
 ## Methods
 
@@ -347,7 +350,7 @@ main.ts:75911
 
 #### Source
 
-main.ts:76009
+main.ts:76069
 
 ***
 
@@ -365,7 +368,7 @@ main.ts:76009
 
 #### Source
 
-main.ts:76047
+main.ts:76107
 
 ***
 
@@ -383,4 +386,4 @@ main.ts:76047
 
 #### Source
 
-main.ts:76040
+main.ts:76100

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:169840
+main.ts:169793
 
 ## Properties
 
@@ -46,7 +46,7 @@ array of rules
 
 #### Source
 
-main.ts:169836
+main.ts:169789
 
 ## Methods
 
@@ -64,7 +64,7 @@ main.ts:169836
 
 #### Source
 
-main.ts:169849
+main.ts:169802
 
 ***
 
@@ -82,7 +82,7 @@ main.ts:169849
 
 #### Source
 
-main.ts:169870
+main.ts:169823
 
 ***
 
@@ -100,4 +100,4 @@ main.ts:169870
 
 #### Source
 
-main.ts:169863
+main.ts:169816

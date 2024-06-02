@@ -37,7 +37,7 @@ the maximum number of app IDs you can specify in this object is 20
 
 #### Source
 
-main.ts:113408
+main.ts:113511
 
 ***
 
@@ -58,7 +58,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:113455
+main.ts:113558
 
 ***
 
@@ -77,7 +77,7 @@ en
 
 #### Source
 
-main.ts:113444
+main.ts:113547
 
 ***
 
@@ -96,7 +96,7 @@ English
 
 #### Source
 
-main.ts:113435
+main.ts:113538
 
 ***
 
@@ -111,7 +111,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:113477
+main.ts:113580
 
 ***
 
@@ -130,7 +130,7 @@ example:
 
 #### Source
 
-main.ts:113426
+main.ts:113529
 
 ***
 
@@ -149,7 +149,7 @@ United States
 
 #### Source
 
-main.ts:113417
+main.ts:113520
 
 ***
 
@@ -164,7 +164,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:113482
+main.ts:113585
 
 ***
 
@@ -191,7 +191,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Source
 
-main.ts:113472
+main.ts:113575
 
 ***
 
@@ -207,4 +207,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:113488
+main.ts:113591

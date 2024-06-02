@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:197451
+main.ts:197432
 
 ## Properties
 
@@ -50,7 +50,7 @@ you can specify up to 10 categories
 
 #### Source
 
-main.ts:197395
+main.ts:197376
 
 ***
 
@@ -69,7 +69,7 @@ can contain up to 200 symbols
 
 #### Source
 
-main.ts:197400
+main.ts:197381
 
 ***
 
@@ -94,7 +94,7 @@ you can receive the list of available filters by making a separate request to h
 
 #### Source
 
-main.ts:197428
+main.ts:197409
 
 ***
 
@@ -113,7 +113,7 @@ default value: 10
 
 #### Source
 
-main.ts:197433
+main.ts:197414
 
 ***
 
@@ -130,7 +130,7 @@ optional field
 
 #### Source
 
-main.ts:197408
+main.ts:197389
 
 ***
 
@@ -149,7 +149,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:197438
+main.ts:197419
 
 ***
 
@@ -172,7 +172,7 @@ example:
 
 #### Source
 
-main.ts:197417
+main.ts:197398
 
 ***
 
@@ -189,7 +189,7 @@ optional field
 
 #### Source
 
-main.ts:197441
+main.ts:197422
 
 ***
 
@@ -209,7 +209,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:197447
+main.ts:197428
 
 ***
 
@@ -228,7 +228,7 @@ can contain up to 200 symbols
 
 #### Source
 
-main.ts:197405
+main.ts:197386
 
 ## Methods
 
@@ -246,7 +246,7 @@ main.ts:197405
 
 #### Source
 
-main.ts:197460
+main.ts:197441
 
 ***
 
@@ -264,7 +264,7 @@ main.ts:197460
 
 #### Source
 
-main.ts:197494
+main.ts:197475
 
 ***
 
@@ -282,4 +282,4 @@ main.ts:197494
 
 #### Source
 
-main.ts:197487
+main.ts:197468

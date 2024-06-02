@@ -23,7 +23,7 @@ example:
 
 #### Source
 
-main.ts:205493
+main.ts:205482
 
 ***
 
@@ -35,7 +35,7 @@ HTML pages
 
 #### Source
 
-main.ts:205497
+main.ts:205486
 
 ***
 
@@ -47,7 +47,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:205495
+main.ts:205484
 
 ***
 
@@ -59,7 +59,7 @@ unique hotel identifier specified as "hotel_id:$"
 
 #### Source
 
-main.ts:205480
+main.ts:205469
 
 ***
 
@@ -71,7 +71,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:205488
+main.ts:205477
 
 ***
 
@@ -83,7 +83,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:205486
+main.ts:205475
 
 ***
 
@@ -95,7 +95,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:205484
+main.ts:205473
 
 ***
 
@@ -107,4 +107,4 @@ type of element
 
 #### Source
 
-main.ts:205482
+main.ts:205471

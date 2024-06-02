@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:99264
+main.ts:99364
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:99264
 
 #### Source
 
-main.ts:20377
+main.ts:20051
 
 ***
 
@@ -60,7 +60,8 @@ main.ts:20377
 
 > **`optional`** **items**: [`CommercialUnitsElement`](CommercialUnitsElement.md)[]
 
-elements of search results found in SERP
+additional items present in the element
+if there are none, equals null
 
 #### Implementation of
 
@@ -68,7 +69,7 @@ elements of search results found in SERP
 
 #### Source
 
-main.ts:99260
+main.ts:99360
 
 ***
 
@@ -86,7 +87,7 @@ left, right
 
 #### Source
 
-main.ts:99254
+main.ts:99353
 
 ***
 
@@ -103,7 +104,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:99250
+main.ts:99349
 
 ***
 
@@ -120,7 +121,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:99247
+main.ts:99346
 
 ***
 
@@ -128,7 +129,7 @@ main.ts:99247
 
 > **`optional`** **title**: `string`
 
-title of the result in SERP
+title of the item
 
 #### Implementation of
 
@@ -136,7 +137,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:99258
+main.ts:99357
 
 ***
 
@@ -152,7 +153,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:99256
+main.ts:99355
 
 ## Methods
 
@@ -174,7 +175,7 @@ main.ts:99256
 
 #### Source
 
-main.ts:99269
+main.ts:99369
 
 ***
 
@@ -196,7 +197,7 @@ main.ts:99269
 
 #### Source
 
-main.ts:99296
+main.ts:99396
 
 ***
 
@@ -218,4 +219,4 @@ main.ts:99296
 
 #### Source
 
-main.ts:99289
+main.ts:99389

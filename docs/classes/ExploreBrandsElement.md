@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:36557
+main.ts:36428
 
 ## Properties
 
@@ -46,7 +46,7 @@ description
 
 #### Source
 
-main.ts:36549
+main.ts:36420
 
 ***
 
@@ -62,7 +62,7 @@ website domain
 
 #### Source
 
-main.ts:36547
+main.ts:36418
 
 ***
 
@@ -78,7 +78,7 @@ URL of the image
 
 #### Source
 
-main.ts:36551
+main.ts:36422
 
 ***
 
@@ -94,7 +94,7 @@ title of a given link element
 
 #### Source
 
-main.ts:36543
+main.ts:36414
 
 ***
 
@@ -110,7 +110,7 @@ type of element
 
 #### Source
 
-main.ts:36541
+main.ts:36412
 
 ***
 
@@ -126,7 +126,7 @@ URL
 
 #### Source
 
-main.ts:36545
+main.ts:36416
 
 ***
 
@@ -142,7 +142,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:36553
+main.ts:36424
 
 ## Methods
 
@@ -160,7 +160,7 @@ main.ts:36553
 
 #### Source
 
-main.ts:36566
+main.ts:36437
 
 ***
 
@@ -178,7 +178,7 @@ main.ts:36566
 
 #### Source
 
-main.ts:36589
+main.ts:36460
 
 ***
 
@@ -196,4 +196,4 @@ main.ts:36589
 
 #### Source
 
-main.ts:36582
+main.ts:36453

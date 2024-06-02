@@ -25,7 +25,7 @@ example:
 
 #### Source
 
-main.ts:159331
+main.ts:159244
 
 ***
 
@@ -41,4 +41,4 @@ https://dataforseo.com/blog/a-versatile-alternative-to-google-trends-exploring-t
 
 #### Source
 
-main.ts:159324
+main.ts:159237

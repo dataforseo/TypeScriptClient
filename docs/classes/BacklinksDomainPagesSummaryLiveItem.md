@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:140517
+main.ts:140620
 
 ## Properties
 
@@ -46,7 +46,7 @@ number of backlinks
 
 #### Source
 
-main.ts:140453
+main.ts:140556
 
 ***
 
@@ -63,7 +63,7 @@ learn more about how the metric is calculated on this help center page
 
 #### Source
 
-main.ts:140467
+main.ts:140570
 
 ***
 
@@ -80,7 +80,7 @@ number of broken backlinks pointing to the page
 
 #### Source
 
-main.ts:140470
+main.ts:140573
 
 ***
 
@@ -97,7 +97,7 @@ number of pages that respond with 4xx or 5xx status codes where backlinks are po
 
 #### Source
 
-main.ts:140473
+main.ts:140576
 
 ***
 
@@ -116,7 +116,7 @@ example:
 
 #### Source
 
-main.ts:140458
+main.ts:140561
 
 ***
 
@@ -136,7 +136,7 @@ example:
 
 #### Source
 
-main.ts:140464
+main.ts:140567
 
 ***
 
@@ -145,7 +145,7 @@ main.ts:140464
 > **`optional`** **rank**: `number`
 
 page rank
-rank of the page on the target website
+rank of the page
 rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm
 learn more about the metric and how it is calculated in this help center article
 
@@ -155,7 +155,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Source
 
-main.ts:140451
+main.ts:140554
 
 ***
 
@@ -171,7 +171,7 @@ indicates the number domains referring to the page
 
 #### Source
 
-main.ts:140475
+main.ts:140578
 
 ***
 
@@ -179,7 +179,7 @@ main.ts:140475
 
 > **`optional`** **referring\_domains\_nofollow**: `number`
 
-number of domains pointing at least one nofollow link to the target
+number of domains pointing at least one nofollow link to the page
 
 #### Implementation of
 
@@ -187,7 +187,7 @@ number of domains pointing at least one nofollow link to the target
 
 #### Source
 
-main.ts:140477
+main.ts:140580
 
 ***
 
@@ -204,7 +204,7 @@ number of IP addresses pointing to this page
 
 #### Source
 
-main.ts:140484
+main.ts:140587
 
 ***
 
@@ -225,7 +225,7 @@ indicates link attributes of the referring links and link count per each attribu
 
 #### Source
 
-main.ts:140499
+main.ts:140602
 
 ***
 
@@ -246,7 +246,7 @@ indicates ISO country codes of the domains where the referring links are located
 
 #### Source
 
-main.ts:140511
+main.ts:140614
 
 ***
 
@@ -267,7 +267,7 @@ indicates referring platform types and and link count per each platform
 
 #### Source
 
-main.ts:140502
+main.ts:140605
 
 ***
 
@@ -291,7 +291,7 @@ article, section, footer
 
 #### Source
 
-main.ts:140508
+main.ts:140611
 
 ***
 
@@ -312,7 +312,7 @@ contains top level domains and referring link count per each
 
 #### Source
 
-main.ts:140491
+main.ts:140594
 
 ***
 
@@ -335,7 +335,7 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 #### Source
 
-main.ts:140496
+main.ts:140599
 
 ***
 
@@ -351,7 +351,7 @@ indicates the number of referring main domains
 
 #### Source
 
-main.ts:140479
+main.ts:140582
 
 ***
 
@@ -359,7 +359,7 @@ main.ts:140479
 
 > **`optional`** **referring\_main\_domains\_nofollow**: `number`
 
-number of main domains pointing at least one nofollow link to the target
+number of main domains pointing at least one nofollow link to the page
 
 #### Implementation of
 
@@ -367,7 +367,7 @@ number of main domains pointing at least one nofollow link to the target
 
 #### Source
 
-main.ts:140481
+main.ts:140584
 
 ***
 
@@ -383,7 +383,7 @@ indicates the number of pages pointing to the relevant url
 
 #### Source
 
-main.ts:140488
+main.ts:140591
 
 ***
 
@@ -391,7 +391,7 @@ main.ts:140488
 
 > **`optional`** **referring\_pages\_nofollow**: `number`
 
-number of referring pages pointing at least one nofollow link to the target
+number of referring pages pointing at least one nofollow link to the page
 
 #### Implementation of
 
@@ -399,7 +399,7 @@ number of referring pages pointing at least one nofollow link to the target
 
 #### Source
 
-main.ts:140513
+main.ts:140616
 
 ***
 
@@ -415,7 +415,7 @@ number of referring subnetworks
 
 #### Source
 
-main.ts:140486
+main.ts:140589
 
 ***
 
@@ -431,7 +431,7 @@ type of element
 
 #### Source
 
-main.ts:140444
+main.ts:140547
 
 ***
 
@@ -447,7 +447,7 @@ page URL
 
 #### Source
 
-main.ts:140446
+main.ts:140549
 
 ## Methods
 
@@ -465,7 +465,7 @@ main.ts:140446
 
 #### Source
 
-main.ts:140526
+main.ts:140629
 
 ***
 
@@ -483,7 +483,7 @@ main.ts:140526
 
 #### Source
 
-main.ts:140601
+main.ts:140704
 
 ***
 
@@ -501,4 +501,4 @@ main.ts:140601
 
 #### Source
 
-main.ts:140594
+main.ts:140697

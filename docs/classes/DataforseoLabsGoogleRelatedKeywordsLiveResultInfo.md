@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:83866
+main.ts:83925
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains keywords and related data
 
 #### Source
 
-main.ts:83862
+main.ts:83921
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:83860
+main.ts:83919
 
 ***
 
@@ -78,7 +78,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:83856
+main.ts:83915
 
 ***
 
@@ -94,7 +94,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:83854
+main.ts:83913
 
 ***
 
@@ -110,7 +110,7 @@ search engine type
 
 #### Source
 
-main.ts:83847
+main.ts:83906
 
 ***
 
@@ -126,7 +126,7 @@ keyword in a POST array
 
 #### Source
 
-main.ts:83849
+main.ts:83908
 
 ***
 
@@ -147,7 +147,7 @@ fields in the array are identical to that of keyword_data
 
 #### Source
 
-main.ts:83852
+main.ts:83911
 
 ***
 
@@ -163,7 +163,7 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:83858
+main.ts:83917
 
 ## Methods
 
@@ -181,7 +181,7 @@ main.ts:83858
 
 #### Source
 
-main.ts:83875
+main.ts:83934
 
 ***
 
@@ -199,7 +199,7 @@ main.ts:83875
 
 #### Source
 
-main.ts:83909
+main.ts:83968
 
 ***
 
@@ -217,4 +217,4 @@ main.ts:83909
 
 #### Source
 
-main.ts:83902
+main.ts:83961

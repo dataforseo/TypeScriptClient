@@ -14,48 +14,48 @@
 
 ### keyword\_performance?
 
-> **`optional`** **keyword\_performance**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **keyword\_performance**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:216129
+main.ts:213288
 
 ***
 
 ### keywords\_for\_keywords?
 
-> **`optional`** **keywords\_for\_keywords**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **keywords\_for\_keywords**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:216133
+main.ts:213292
 
 ***
 
 ### keywords\_for\_site?
 
-> **`optional`** **keywords\_for\_site**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **keywords\_for\_site**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:216132
+main.ts:213291
 
 ***
 
 ### search\_volume?
 
-> **`optional`** **search\_volume**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **search\_volume**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:216131
+main.ts:213290
 
 ***
 
 ### search\_volume\_history?
 
-> **`optional`** **search\_volume\_history**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **search\_volume\_history**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:216130
+main.ts:213289

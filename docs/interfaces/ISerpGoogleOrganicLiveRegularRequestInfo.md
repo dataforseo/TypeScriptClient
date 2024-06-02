@@ -27,7 +27,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:37968
+main.ts:37929
 
 ***
 
@@ -42,7 +42,23 @@ default value: desktop
 
 #### Source
 
-main.ts:37945
+main.ts:37906
+
+***
+
+### group\_organic\_results?
+
+> **`optional`** **group\_organic\_results**: `boolean`
+
+display related results
+optional field
+if set to true, the related_result element in the response will be provided as a snippet of its parent organic result;
+if set to false, the related_result element will be provided as a separate organic result;
+default value: true
+
+#### Source
+
+main.ts:37948
 
 ***
 
@@ -61,7 +77,7 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 
 #### Source
 
-main.ts:37902
+main.ts:37863
 
 ***
 
@@ -78,7 +94,7 @@ en
 
 #### Source
 
-main.ts:37940
+main.ts:37901
 
 ***
 
@@ -95,7 +111,7 @@ English
 
 #### Source
 
-main.ts:37933
+main.ts:37894
 
 ***
 
@@ -112,7 +128,7 @@ example:
 
 #### Source
 
-main.ts:37916
+main.ts:37877
 
 ***
 
@@ -132,7 +148,7 @@ example:
 
 #### Source
 
-main.ts:37926
+main.ts:37887
 
 ***
 
@@ -149,7 +165,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:37909
+main.ts:37870
 
 ***
 
@@ -166,7 +182,7 @@ learn more at our help center
 
 #### Source
 
-main.ts:37988
+main.ts:37955
 
 ***
 
@@ -183,7 +199,7 @@ default value: android
 
 #### Source
 
-main.ts:37952
+main.ts:37913
 
 ***
 
@@ -200,7 +216,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Source
 
-main.ts:37959
+main.ts:37920
 
 ***
 
@@ -214,7 +230,7 @@ get the list of available parameters and additional details here
 
 #### Source
 
-main.ts:37992
+main.ts:37959
 
 ***
 
@@ -230,7 +246,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:37998
+main.ts:37965
 
 ***
 
@@ -253,7 +269,7 @@ example.com/example-page*  – returns results for all domain’s URLs that star
 
 #### Source
 
-main.ts:37981
+main.ts:37942
 
 ***
 
@@ -269,4 +285,4 @@ https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAI
 
 #### Source
 
-main.ts:37893
+main.ts:37854

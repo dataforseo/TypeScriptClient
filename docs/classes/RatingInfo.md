@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:28886
+main.ts:28757
 
 ## Properties
 
@@ -46,7 +46,7 @@ the maximum value for a rating_type
 
 #### Source
 
-main.ts:28882
+main.ts:28753
 
 ***
 
@@ -63,7 +63,7 @@ here you can find the following elements: Max5, Percents, CustomMax
 
 #### Source
 
-main.ts:28876
+main.ts:28747
 
 ***
 
@@ -79,7 +79,7 @@ the value of the rating
 
 #### Source
 
-main.ts:28878
+main.ts:28749
 
 ***
 
@@ -95,7 +95,7 @@ the amount of feedback
 
 #### Source
 
-main.ts:28880
+main.ts:28751
 
 ## Methods
 
@@ -113,7 +113,7 @@ main.ts:28880
 
 #### Source
 
-main.ts:28895
+main.ts:28766
 
 ***
 
@@ -131,7 +131,7 @@ main.ts:28895
 
 #### Source
 
-main.ts:28915
+main.ts:28786
 
 ***
 
@@ -149,4 +149,4 @@ main.ts:28915
 
 #### Source
 
-main.ts:28908
+main.ts:28779

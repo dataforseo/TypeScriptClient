@@ -17,7 +17,7 @@
 > **`optional`** **categories**: `string`[]
 
 ids of the target technology categories
-required field if you don’t specify groups or technologies
+required field if you don’t specify groups, technology_paths or technologies
 you can find the full list of technology category ids on this page
 note: you can specify up to 10 technology categories in this array
 example:
@@ -25,7 +25,7 @@ example:
 
 #### Source
 
-main.ts:76668
+main.ts:76729
 
 ***
 
@@ -49,7 +49,7 @@ for more information about filters, please refer to Domain Analytics Technologie
 
 #### Source
 
-main.ts:76703
+main.ts:76764
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:76703
 > **`optional`** **groups**: `string`[]
 
 ids of the target technology groups
-required field if you don’t specify technologies or categories
+required field if you don’t specify technologies, technology_paths or categories
 you can find the full list of technology group ids on this page
 note: you can specify up to 10 technology groups in this array
 example:
@@ -66,7 +66,7 @@ example:
 
 #### Source
 
-main.ts:76661
+main.ts:76722
 
 ***
 
@@ -83,7 +83,7 @@ maximum value: 10000
 
 #### Source
 
-main.ts:76710
+main.ts:76771
 
 ***
 
@@ -100,7 +100,7 @@ example:
 
 #### Source
 
-main.ts:76682
+main.ts:76743
 
 ***
 
@@ -117,7 +117,7 @@ default value: as_is
 
 #### Source
 
-main.ts:76689
+main.ts:76750
 
 ***
 
@@ -133,7 +133,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:76716
+main.ts:76777
 
 ***
 
@@ -142,7 +142,7 @@ main.ts:76716
 > **`optional`** **technologies**: `string`[]
 
 target technologies
-required field if you don’t specify groups or categories
+required field if you don’t specify groups, technology_paths or categories
 you can find the full list of technologies you can specify here on this page
 note: you can specify up to 10 technologies in this array
 example:
@@ -150,7 +150,7 @@ example:
 
 #### Source
 
-main.ts:76675
+main.ts:76736
 
 ***
 
@@ -160,7 +160,6 @@ main.ts:76675
 
 target technology paths
 required field if you don’t specify groups, technologies and categories
-if you use this field, you don’t need to specify groups, technologies and categories
 each technology path should be specified as a separate object containing “path” and “name”, where “path” is specified as “$group_id.$category_id” and “name” – as the name of the target technology;
 each object with a technology path should be separated with a comma
 you can find the full list of technology group ids, category ids and technology names on this page
@@ -170,4 +169,4 @@ example:
 
 #### Source
 
-main.ts:76654
+main.ts:76715

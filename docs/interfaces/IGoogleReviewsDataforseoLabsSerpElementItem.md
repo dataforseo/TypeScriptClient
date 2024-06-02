@@ -21,10 +21,12 @@
 > **`optional`** **cid**: `string`
 
 google-defined client id
+unique id of a local establishment;
+can be used with Google Reviews API to get a full list of reviews
 
 #### Source
 
-main.ts:97695
+main.ts:97762
 
 ***
 
@@ -36,7 +38,7 @@ the additional feature of the review
 
 #### Source
 
-main.ts:97693
+main.ts:97758
 
 ***
 
@@ -48,7 +50,7 @@ the identifier of a place
 
 #### Source
 
-main.ts:97691
+main.ts:97756
 
 ***
 
@@ -62,7 +64,7 @@ left, right
 
 #### Source
 
-main.ts:97682
+main.ts:97747
 
 ***
 
@@ -75,7 +77,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:97678
+main.ts:97743
 
 ***
 
@@ -88,7 +90,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:97675
+main.ts:97740
 
 ***
 
@@ -101,7 +103,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:97689
+main.ts:97754
 
 ***
 
@@ -113,7 +115,7 @@ the number of reviews
 
 #### Source
 
-main.ts:97686
+main.ts:97751
 
 ***
 
@@ -125,4 +127,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:97684
+main.ts:97749

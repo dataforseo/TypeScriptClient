@@ -30,13 +30,13 @@
 
 #### Source
 
-main.ts:217559
+main.ts:214718
 
 ## Properties
 
 ### anchors?
 
-> **`optional`** **anchors**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **anchors**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -44,13 +44,13 @@ main.ts:217559
 
 #### Source
 
-main.ts:217541
+main.ts:214700
 
 ***
 
 ### backlinks?
 
-> **`optional`** **backlinks**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **backlinks**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -58,13 +58,13 @@ main.ts:217541
 
 #### Source
 
-main.ts:217539
+main.ts:214698
 
 ***
 
 ### bulk\_backlinks?
 
-> **`optional`** **bulk\_backlinks**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **bulk\_backlinks**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -72,13 +72,13 @@ main.ts:217539
 
 #### Source
 
-main.ts:217546
+main.ts:214705
 
 ***
 
 ### bulk\_new\_lost\_backlinks?
 
-> **`optional`** **bulk\_new\_lost\_backlinks**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **bulk\_new\_lost\_backlinks**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -86,13 +86,13 @@ main.ts:217546
 
 #### Source
 
-main.ts:217547
+main.ts:214706
 
 ***
 
 ### bulk\_new\_lost\_referring\_domains?
 
-> **`optional`** **bulk\_new\_lost\_referring\_domains**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **bulk\_new\_lost\_referring\_domains**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -100,13 +100,13 @@ main.ts:217547
 
 #### Source
 
-main.ts:217548
+main.ts:214707
 
 ***
 
 ### bulk\_pages\_summary?
 
-> **`optional`** **bulk\_pages\_summary**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **bulk\_pages\_summary**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -114,13 +114,13 @@ main.ts:217548
 
 #### Source
 
-main.ts:217555
+main.ts:214714
 
 ***
 
 ### bulk\_ranks?
 
-> **`optional`** **bulk\_ranks**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **bulk\_ranks**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -128,13 +128,13 @@ main.ts:217555
 
 #### Source
 
-main.ts:217545
+main.ts:214704
 
 ***
 
 ### bulk\_referring\_domains?
 
-> **`optional`** **bulk\_referring\_domains**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **bulk\_referring\_domains**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -142,13 +142,13 @@ main.ts:217545
 
 #### Source
 
-main.ts:217549
+main.ts:214708
 
 ***
 
 ### competitors?
 
-> **`optional`** **competitors**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **competitors**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -156,13 +156,13 @@ main.ts:217549
 
 #### Source
 
-main.ts:217554
+main.ts:214713
 
 ***
 
 ### content\_duplicates?
 
-> **`optional`** **content\_duplicates**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **content\_duplicates**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -170,13 +170,13 @@ main.ts:217554
 
 #### Source
 
-main.ts:217537
+main.ts:214696
 
 ***
 
 ### domain\_intersection?
 
-> **`optional`** **domain\_intersection**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **domain\_intersection**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -184,13 +184,13 @@ main.ts:217537
 
 #### Source
 
-main.ts:217538
+main.ts:214697
 
 ***
 
 ### domain\_pages?
 
-> **`optional`** **domain\_pages**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **domain\_pages**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -198,13 +198,13 @@ main.ts:217538
 
 #### Source
 
-main.ts:217540
+main.ts:214699
 
 ***
 
 ### domain\_pages\_summary?
 
-> **`optional`** **domain\_pages\_summary**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **domain\_pages\_summary**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -212,7 +212,7 @@ main.ts:217540
 
 #### Source
 
-main.ts:217551
+main.ts:214710
 
 ***
 
@@ -226,13 +226,13 @@ main.ts:217551
 
 #### Source
 
-main.ts:217550
+main.ts:214709
 
 ***
 
 ### history?
 
-> **`optional`** **history**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **history**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -240,13 +240,13 @@ main.ts:217550
 
 #### Source
 
-main.ts:217536
+main.ts:214695
 
 ***
 
 ### page\_intersection?
 
-> **`optional`** **page\_intersection**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **page\_intersection**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -254,13 +254,13 @@ main.ts:217536
 
 #### Source
 
-main.ts:217543
+main.ts:214702
 
 ***
 
 ### referring\_domains?
 
-> **`optional`** **referring\_domains**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **referring\_domains**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -268,13 +268,13 @@ main.ts:217543
 
 #### Source
 
-main.ts:217542
+main.ts:214701
 
 ***
 
 ### referring\_networks?
 
-> **`optional`** **referring\_networks**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **referring\_networks**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -282,13 +282,13 @@ main.ts:217542
 
 #### Source
 
-main.ts:217544
+main.ts:214703
 
 ***
 
 ### summary?
 
-> **`optional`** **summary**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **summary**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -296,13 +296,13 @@ main.ts:217544
 
 #### Source
 
-main.ts:217535
+main.ts:214694
 
 ***
 
 ### timeseries\_new\_lost\_summary?
 
-> **`optional`** **timeseries\_new\_lost\_summary**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **timeseries\_new\_lost\_summary**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -310,13 +310,13 @@ main.ts:217535
 
 #### Source
 
-main.ts:217553
+main.ts:214712
 
 ***
 
 ### timeseries\_summary?
 
-> **`optional`** **timeseries\_summary**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **timeseries\_summary**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -324,7 +324,7 @@ main.ts:217553
 
 #### Source
 
-main.ts:217552
+main.ts:214711
 
 ## Methods
 
@@ -342,7 +342,7 @@ main.ts:217552
 
 #### Source
 
-main.ts:217568
+main.ts:214727
 
 ***
 
@@ -360,7 +360,7 @@ main.ts:217568
 
 #### Source
 
-main.ts:217605
+main.ts:214764
 
 ***
 
@@ -378,4 +378,4 @@ main.ts:217605
 
 #### Source
 
-main.ts:217598
+main.ts:214757

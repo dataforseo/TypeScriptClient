@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:56985
+main.ts:56972
 
 ## Properties
 
@@ -46,7 +46,7 @@ language code according to ISO 639-1
 
 #### Source
 
-main.ts:56981
+main.ts:56968
 
 ***
 
@@ -62,7 +62,7 @@ language name
 
 #### Source
 
-main.ts:56979
+main.ts:56966
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:56979
 
 #### Source
 
-main.ts:56994
+main.ts:56981
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:56994
 
 #### Source
 
-main.ts:57012
+main.ts:56999
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:57012
 
 #### Source
 
-main.ts:57005
+main.ts:56992

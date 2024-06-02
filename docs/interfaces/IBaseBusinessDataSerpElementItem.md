@@ -16,9 +16,6 @@
 - [`ITrustpilotReviewSearchBusinessDataSerpElementItem`](ITrustpilotReviewSearchBusinessDataSerpElementItem.md)
 - [`ITripadvisorSearchOrganicBusinessDataSerpElementItem`](ITripadvisorSearchOrganicBusinessDataSerpElementItem.md)
 - [`ITripadvisorReviewSearchBusinessDataSerpElementItem`](ITripadvisorReviewSearchBusinessDataSerpElementItem.md)
-- [`IYelpSearchOrganicBusinessDataSerpElementItem`](IYelpSearchOrganicBusinessDataSerpElementItem.md)
-- [`IYelpSearchPaidBusinessDataSerpElementItem`](IYelpSearchPaidBusinessDataSerpElementItem.md)
-- [`IYelpReviewsSearchBusinessDataSerpElementItem`](IYelpReviewsSearchBusinessDataSerpElementItem.md)
 
 ## Indexable
 

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:208047
+main.ts:208036
 
 ## Properties
 
@@ -52,7 +52,7 @@ Note: your account will be charged for every 10 search results returned, e.g. if
 
 #### Source
 
-main.ts:208017
+main.ts:208006
 
 ***
 
@@ -73,7 +73,7 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Source
 
-main.ts:208001
+main.ts:207990
 
 ***
 
@@ -97,7 +97,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:208043
+main.ts:208032
 
 ***
 
@@ -121,7 +121,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:208033
+main.ts:208022
 
 ***
 
@@ -143,7 +143,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:208009
+main.ts:207998
 
 ***
 
@@ -163,7 +163,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:208023
+main.ts:208012
 
 ## Methods
 
@@ -181,7 +181,7 @@ main.ts:208023
 
 #### Source
 
-main.ts:208056
+main.ts:208045
 
 ***
 
@@ -199,7 +199,7 @@ main.ts:208056
 
 #### Source
 
-main.ts:208078
+main.ts:208067
 
 ***
 
@@ -217,4 +217,4 @@ main.ts:208078
 
 #### Source
 
-main.ts:208071
+main.ts:208060

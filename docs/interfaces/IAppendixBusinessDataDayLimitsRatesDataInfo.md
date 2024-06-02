@@ -14,18 +14,18 @@
 
 ### reviews?
 
-> **`optional`** **reviews**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **reviews**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:217328
+main.ts:214487
 
 ***
 
 ### search?
 
-> **`optional`** **search**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **search**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:217329
+main.ts:214488

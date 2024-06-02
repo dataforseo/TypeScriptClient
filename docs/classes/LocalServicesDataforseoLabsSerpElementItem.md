@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:99362
+main.ts:99464
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:99362
 
 #### Source
 
-main.ts:20377
+main.ts:20051
 
 ***
 
@@ -68,7 +68,7 @@ domain where a link points
 
 #### Source
 
-main.ts:99356
+main.ts:99457
 
 ***
 
@@ -76,7 +76,8 @@ main.ts:99356
 
 > **`optional`** **items**: [`LocalServicesElement`](LocalServicesElement.md)[]
 
-elements of search results found in SERP
+additional items present in the element
+if there are none, equals null
 
 #### Implementation of
 
@@ -84,7 +85,7 @@ elements of search results found in SERP
 
 #### Source
 
-main.ts:99358
+main.ts:99460
 
 ***
 
@@ -102,7 +103,7 @@ left, right
 
 #### Source
 
-main.ts:99348
+main.ts:99449
 
 ***
 
@@ -119,7 +120,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:99344
+main.ts:99445
 
 ***
 
@@ -136,7 +137,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:99341
+main.ts:99442
 
 ***
 
@@ -144,7 +145,7 @@ main.ts:99341
 
 > **`optional`** **title**: `string`
 
-title of the result in SERP
+title of the item
 
 #### Implementation of
 
@@ -152,7 +153,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:99352
+main.ts:99453
 
 ***
 
@@ -160,7 +161,7 @@ main.ts:99352
 
 > **`optional`** **url**: `string`
 
-relevant URL of the Ad element in SERP
+URL link
 
 #### Implementation of
 
@@ -168,7 +169,7 @@ relevant URL of the Ad element in SERP
 
 #### Source
 
-main.ts:99354
+main.ts:99455
 
 ***
 
@@ -184,7 +185,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:99350
+main.ts:99451
 
 ## Methods
 
@@ -206,7 +207,7 @@ main.ts:99350
 
 #### Source
 
-main.ts:99367
+main.ts:99469
 
 ***
 
@@ -228,7 +229,7 @@ main.ts:99367
 
 #### Source
 
-main.ts:99396
+main.ts:99498
 
 ***
 
@@ -250,4 +251,4 @@ main.ts:99396
 
 #### Source
 
-main.ts:99389
+main.ts:99491

@@ -20,11 +20,12 @@
 
 > **`optional`** **items**: [`ShortVideosElement`](../classes/ShortVideosElement.md)[]
 
-elements of search results found in SERP
+additional items present in the element
+if there are none, equals null
 
 #### Source
 
-main.ts:99025
+main.ts:99122
 
 ***
 
@@ -38,7 +39,7 @@ left, right
 
 #### Source
 
-main.ts:99021
+main.ts:99117
 
 ***
 
@@ -51,7 +52,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:99017
+main.ts:99113
 
 ***
 
@@ -64,7 +65,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:99014
+main.ts:99110
 
 ***
 
@@ -76,4 +77,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:99023
+main.ts:99119

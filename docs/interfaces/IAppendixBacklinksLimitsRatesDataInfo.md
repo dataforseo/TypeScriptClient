@@ -14,131 +14,131 @@
 
 ### anchors?
 
-> **`optional`** **anchors**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **anchors**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:217643
+main.ts:214802
 
 ***
 
 ### backlinks?
 
-> **`optional`** **backlinks**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **backlinks**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:217641
+main.ts:214800
 
 ***
 
 ### bulk\_backlinks?
 
-> **`optional`** **bulk\_backlinks**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **bulk\_backlinks**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:217648
+main.ts:214807
 
 ***
 
 ### bulk\_new\_lost\_backlinks?
 
-> **`optional`** **bulk\_new\_lost\_backlinks**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **bulk\_new\_lost\_backlinks**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:217649
+main.ts:214808
 
 ***
 
 ### bulk\_new\_lost\_referring\_domains?
 
-> **`optional`** **bulk\_new\_lost\_referring\_domains**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **bulk\_new\_lost\_referring\_domains**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:217650
+main.ts:214809
 
 ***
 
 ### bulk\_pages\_summary?
 
-> **`optional`** **bulk\_pages\_summary**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **bulk\_pages\_summary**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:217657
+main.ts:214816
 
 ***
 
 ### bulk\_ranks?
 
-> **`optional`** **bulk\_ranks**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **bulk\_ranks**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:217647
+main.ts:214806
 
 ***
 
 ### bulk\_referring\_domains?
 
-> **`optional`** **bulk\_referring\_domains**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **bulk\_referring\_domains**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:217651
+main.ts:214810
 
 ***
 
 ### competitors?
 
-> **`optional`** **competitors**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **competitors**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:217656
+main.ts:214815
 
 ***
 
 ### content\_duplicates?
 
-> **`optional`** **content\_duplicates**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **content\_duplicates**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:217639
+main.ts:214798
 
 ***
 
 ### domain\_intersection?
 
-> **`optional`** **domain\_intersection**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **domain\_intersection**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:217640
+main.ts:214799
 
 ***
 
 ### domain\_pages?
 
-> **`optional`** **domain\_pages**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **domain\_pages**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:217642
+main.ts:214801
 
 ***
 
 ### domain\_pages\_summary?
 
-> **`optional`** **domain\_pages\_summary**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **domain\_pages\_summary**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:217653
+main.ts:214812
 
 ***
 
@@ -148,74 +148,74 @@ main.ts:217653
 
 #### Source
 
-main.ts:217652
+main.ts:214811
 
 ***
 
 ### history?
 
-> **`optional`** **history**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **history**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:217638
+main.ts:214797
 
 ***
 
 ### page\_intersection?
 
-> **`optional`** **page\_intersection**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **page\_intersection**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:217645
+main.ts:214804
 
 ***
 
 ### referring\_domains?
 
-> **`optional`** **referring\_domains**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **referring\_domains**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:217644
+main.ts:214803
 
 ***
 
 ### referring\_networks?
 
-> **`optional`** **referring\_networks**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **referring\_networks**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:217646
+main.ts:214805
 
 ***
 
 ### summary?
 
-> **`optional`** **summary**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **summary**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:217637
+main.ts:214796
 
 ***
 
 ### timeseries\_new\_lost\_summary?
 
-> **`optional`** **timeseries\_new\_lost\_summary**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **timeseries\_new\_lost\_summary**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:217655
+main.ts:214814
 
 ***
 
 ### timeseries\_summary?
 
-> **`optional`** **timeseries\_summary**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **timeseries\_summary**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:217654
+main.ts:214813

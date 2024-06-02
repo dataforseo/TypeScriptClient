@@ -24,7 +24,7 @@ default value: false
 
 #### Source
 
-main.ts:84895
+main.ts:84954
 
 ***
 
@@ -54,7 +54,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:84943
+main.ts:85002
 
 ***
 
@@ -69,7 +69,7 @@ default value: false
 
 #### Source
 
-main.ts:84900
+main.ts:84959
 
 ***
 
@@ -84,7 +84,7 @@ default value: false
 
 #### Source
 
-main.ts:84905
+main.ts:84964
 
 ***
 
@@ -101,7 +101,7 @@ The keywords will be converted to lowercase format
 
 #### Source
 
-main.ts:84855
+main.ts:84914
 
 ***
 
@@ -120,7 +120,7 @@ en
 
 #### Source
 
-main.ts:84889
+main.ts:84948
 
 ***
 
@@ -139,7 +139,7 @@ English
 
 #### Source
 
-main.ts:84880
+main.ts:84939
 
 ***
 
@@ -154,7 +154,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:84910
+main.ts:84969
 
 ***
 
@@ -172,7 +172,7 @@ example:
 
 #### Source
 
-main.ts:84871
+main.ts:84930
 
 ***
 
@@ -190,7 +190,7 @@ United Kingdom
 
 #### Source
 
-main.ts:84863
+main.ts:84922
 
 ***
 
@@ -205,7 +205,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:84915
+main.ts:84974
 
 ***
 
@@ -223,7 +223,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Source
 
-main.ts:84923
+main.ts:84982
 
 ***
 
@@ -250,7 +250,7 @@ example:
 
 #### Source
 
-main.ts:84960
+main.ts:85019
 
 ***
 
@@ -266,4 +266,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:84966
+main.ts:85025

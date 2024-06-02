@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:131595
+main.ts:131698
 
 ## Properties
 
@@ -52,7 +52,7 @@ example:
 
 #### Source
 
-main.ts:131550
+main.ts:131653
 
 ***
 
@@ -76,7 +76,7 @@ example:
 
 #### Source
 
-main.ts:131560
+main.ts:131663
 
 ***
 
@@ -96,7 +96,7 @@ default value: all
 
 #### Source
 
-main.ts:131542
+main.ts:131645
 
 ***
 
@@ -115,7 +115,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 #### Source
 
-main.ts:131491
+main.ts:131594
 
 ***
 
@@ -135,7 +135,7 @@ the specified keywords will be converted to lowercase format
 
 #### Source
 
-main.ts:131536
+main.ts:131639
 
 ***
 
@@ -155,7 +155,7 @@ en, fr, de
 
 #### Source
 
-main.ts:131525
+main.ts:131628
 
 ***
 
@@ -175,7 +175,7 @@ English, French, German
 
 #### Source
 
-main.ts:131519
+main.ts:131622
 
 ***
 
@@ -196,7 +196,7 @@ example:
 
 #### Source
 
-main.ts:131505
+main.ts:131608
 
 ***
 
@@ -218,7 +218,7 @@ example:
 
 #### Source
 
-main.ts:131513
+main.ts:131616
 
 ***
 
@@ -239,7 +239,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:131498
+main.ts:131601
 
 ***
 
@@ -263,7 +263,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:131585
+main.ts:131688
 
 ***
 
@@ -287,7 +287,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:131575
+main.ts:131678
 
 ***
 
@@ -306,7 +306,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 #### Source
 
-main.ts:131565
+main.ts:131668
 
 ***
 
@@ -325,7 +325,7 @@ default value: relevance
 
 #### Source
 
-main.ts:131530
+main.ts:131633
 
 ***
 
@@ -345,7 +345,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:131591
+main.ts:131694
 
 ## Methods
 
@@ -363,7 +363,7 @@ main.ts:131591
 
 #### Source
 
-main.ts:131604
+main.ts:131707
 
 ***
 
@@ -381,7 +381,7 @@ main.ts:131604
 
 #### Source
 
-main.ts:131643
+main.ts:131746
 
 ***
 
@@ -399,4 +399,4 @@ main.ts:131643
 
 #### Source
 
-main.ts:131636
+main.ts:131739

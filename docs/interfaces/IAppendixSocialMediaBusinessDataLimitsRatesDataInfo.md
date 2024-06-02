@@ -14,28 +14,28 @@
 
 ### facebook?
 
-> **`optional`** **facebook**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **facebook**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:217383
+main.ts:214542
 
 ***
 
 ### pinterest?
 
-> **`optional`** **pinterest**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **pinterest**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:217384
+main.ts:214543
 
 ***
 
 ### reddit?
 
-> **`optional`** **reddit**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **reddit**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:217385
+main.ts:214544

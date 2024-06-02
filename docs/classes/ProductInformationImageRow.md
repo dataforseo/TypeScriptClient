@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:180371
+main.ts:180324
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:180371
 
 #### Source
 
-main.ts:22669
+main.ts:22328
 
 ***
 
@@ -68,7 +68,7 @@ alternative text of the related product image
 
 #### Source
 
-main.ts:180365
+main.ts:180318
 
 ***
 
@@ -84,7 +84,7 @@ URL of the image
 
 #### Source
 
-main.ts:180367
+main.ts:180320
 
 ## Methods
 
@@ -106,7 +106,7 @@ main.ts:180367
 
 #### Source
 
-main.ts:180376
+main.ts:180329
 
 ***
 
@@ -128,7 +128,7 @@ main.ts:180376
 
 #### Source
 
-main.ts:180395
+main.ts:180348
 
 ***
 
@@ -150,4 +150,4 @@ main.ts:180395
 
 #### Source
 
-main.ts:180388
+main.ts:180341

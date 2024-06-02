@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:143596
+main.ts:143699
 
 ## Properties
 
@@ -46,7 +46,7 @@ total number of intersections
 
 #### Source
 
-main.ts:143592
+main.ts:143695
 
 ## Methods
 
@@ -64,7 +64,7 @@ main.ts:143592
 
 #### Source
 
-main.ts:143605
+main.ts:143708
 
 ***
 
@@ -82,7 +82,7 @@ main.ts:143605
 
 #### Source
 
-main.ts:143622
+main.ts:143725
 
 ***
 
@@ -100,4 +100,4 @@ main.ts:143622
 
 #### Source
 
-main.ts:143615
+main.ts:143718

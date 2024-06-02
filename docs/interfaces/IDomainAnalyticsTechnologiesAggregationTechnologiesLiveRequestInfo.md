@@ -18,13 +18,14 @@
 
 id of the target technology category
 required field if you don’t specify group or technology
+at least one field (group, category, technology) must be set
 you can find the full list of technology category ids on this page
 example:
 "crm"
 
 #### Source
 
-main.ts:76091
+main.ts:76153
 
 ***
 
@@ -47,7 +48,7 @@ example:
 
 #### Source
 
-main.ts:76124
+main.ts:76187
 
 ***
 
@@ -57,13 +58,14 @@ main.ts:76124
 
 id of the target technology group
 required field if you don’t specify technology or category
+at least one field (group, category, technology) must be set
 you can find the full list of technology group ids on this page
 example:
 "marketing"
 
 #### Source
 
-main.ts:76085
+main.ts:76146
 
 ***
 
@@ -79,7 +81,7 @@ maximum value: 10000
 
 #### Source
 
-main.ts:76152
+main.ts:76215
 
 ***
 
@@ -95,7 +97,7 @@ maximum value: 10000
 
 #### Source
 
-main.ts:76146
+main.ts:76209
 
 ***
 
@@ -112,7 +114,7 @@ maximum value: 10000
 
 #### Source
 
-main.ts:76165
+main.ts:76228
 
 ***
 
@@ -128,7 +130,7 @@ maximum value: 10000
 
 #### Source
 
-main.ts:76158
+main.ts:76221
 
 ***
 
@@ -145,7 +147,7 @@ example:
 
 #### Source
 
-main.ts:76104
+main.ts:76167
 
 ***
 
@@ -160,7 +162,7 @@ maximum value: 10000
 
 #### Source
 
-main.ts:76170
+main.ts:76233
 
 ***
 
@@ -177,7 +179,7 @@ default value: as_is
 
 #### Source
 
-main.ts:76111
+main.ts:76174
 
 ***
 
@@ -193,7 +195,7 @@ if you specify the 10 value, the first ten technologies in the results array wil
 
 #### Source
 
-main.ts:76176
+main.ts:76239
 
 ***
 
@@ -219,7 +221,7 @@ default value:
 
 #### Source
 
-main.ts:76140
+main.ts:76203
 
 ***
 
@@ -235,7 +237,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:76182
+main.ts:76245
 
 ***
 
@@ -245,10 +247,11 @@ main.ts:76182
 
 target technology
 required field if you don’t specify group or category
+at least one field (group, category, technology) must be set
 you can find the full list of technologies on this page
 example:
 "Salesforce"
 
 #### Source
 
-main.ts:76097
+main.ts:76160

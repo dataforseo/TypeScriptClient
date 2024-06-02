@@ -1,71 +1,51 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
 
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+***
 
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixGoogleBusinessDataPriceDataInfo
+[Documentation](../README.md) / IAppendixGoogleBusinessDataPriceDataInfo
 
 # Interface: IAppendixGoogleBusinessDataPriceDataInfo
 
-## Implemented by
-
-- [`AppendixGoogleBusinessDataPriceDataInfo`](../classes/AppendixGoogleBusinessDataPriceDataInfo.md)
-
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Properties
-
-- [live](IAppendixGoogleBusinessDataPriceDataInfo.md#live)
-- [task\_get](IAppendixGoogleBusinessDataPriceDataInfo.md#task_get)
-- [task\_post](IAppendixGoogleBusinessDataPriceDataInfo.md#task_post)
-- [tasks\_ready](IAppendixGoogleBusinessDataPriceDataInfo.md#tasks_ready)
+ \[`key`: `string`\]: `any`
 
 ## Properties
 
-### live
+### live?
 
-• `Optional` **live**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **live**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
-[main.ts:211166](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211166)
+main.ts:217835
 
-___
+***
 
+### task\_get?
 
-### task\_get
+> **`optional`** **task\_get**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-• `Optional` **task\_get**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
+#### Source
 
-#### Defined in
+main.ts:217836
 
-[main.ts:211167](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211167)
+***
 
-___
+### task\_post?
 
+> **`optional`** **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-### task\_post
+#### Source
 
-• `Optional` **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
+main.ts:217837
 
-#### Defined in
+***
 
-[main.ts:211168](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211168)
+### tasks\_ready?
 
-___
+> **`optional`** **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
+#### Source
 
-### tasks\_ready
-
-• `Optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
-
-#### Defined in
-
-[main.ts:211169](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211169)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:217838

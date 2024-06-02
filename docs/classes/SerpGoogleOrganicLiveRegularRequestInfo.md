@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:37822
+main.ts:37781
 
 ## Properties
 
@@ -53,7 +53,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:37788
+main.ts:37741
 
 ***
 
@@ -72,7 +72,27 @@ default value: desktop
 
 #### Source
 
-main.ts:37765
+main.ts:37718
+
+***
+
+### group\_organic\_results?
+
+> **`optional`** **group\_organic\_results**: `boolean`
+
+display related results
+optional field
+if set to true, the related_result element in the response will be provided as a snippet of its parent organic result;
+if set to false, the related_result element will be provided as a separate organic result;
+default value: true
+
+#### Implementation of
+
+[`ISerpGoogleOrganicLiveRegularRequestInfo`](../interfaces/ISerpGoogleOrganicLiveRegularRequestInfo.md).[`group_organic_results`](../interfaces/ISerpGoogleOrganicLiveRegularRequestInfo.md#group_organic_results)
+
+#### Source
+
+main.ts:37760
 
 ***
 
@@ -95,7 +115,7 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 
 #### Source
 
-main.ts:37722
+main.ts:37675
 
 ***
 
@@ -116,7 +136,7 @@ en
 
 #### Source
 
-main.ts:37760
+main.ts:37713
 
 ***
 
@@ -137,7 +157,7 @@ English
 
 #### Source
 
-main.ts:37753
+main.ts:37706
 
 ***
 
@@ -158,7 +178,7 @@ example:
 
 #### Source
 
-main.ts:37736
+main.ts:37689
 
 ***
 
@@ -182,7 +202,7 @@ example:
 
 #### Source
 
-main.ts:37746
+main.ts:37699
 
 ***
 
@@ -203,7 +223,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:37729
+main.ts:37682
 
 ***
 
@@ -224,7 +244,7 @@ learn more at our help center
 
 #### Source
 
-main.ts:37808
+main.ts:37767
 
 ***
 
@@ -245,7 +265,7 @@ default value: android
 
 #### Source
 
-main.ts:37772
+main.ts:37725
 
 ***
 
@@ -266,7 +286,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Source
 
-main.ts:37779
+main.ts:37732
 
 ***
 
@@ -284,7 +304,7 @@ get the list of available parameters and additional details here
 
 #### Source
 
-main.ts:37812
+main.ts:37771
 
 ***
 
@@ -304,7 +324,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:37818
+main.ts:37777
 
 ***
 
@@ -331,7 +351,7 @@ example.com/example-page*  – returns results for all domain’s URLs that star
 
 #### Source
 
-main.ts:37801
+main.ts:37754
 
 ***
 
@@ -351,7 +371,7 @@ https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAI
 
 #### Source
 
-main.ts:37713
+main.ts:37666
 
 ## Methods
 
@@ -369,7 +389,7 @@ main.ts:37713
 
 #### Source
 
-main.ts:37831
+main.ts:37790
 
 ***
 
@@ -387,7 +407,7 @@ main.ts:37831
 
 #### Source
 
-main.ts:37862
+main.ts:37822
 
 ***
 
@@ -405,4 +425,4 @@ main.ts:37862
 
 #### Source
 
-main.ts:37855
+main.ts:37815

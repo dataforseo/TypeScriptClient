@@ -20,7 +20,7 @@ domain in SERP
 
 #### Source
 
-main.ts:27081
+main.ts:26952
 
 ***
 
@@ -33,7 +33,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Source
 
-main.ts:27084
+main.ts:26955
 
 ***
 
@@ -45,7 +45,7 @@ subtitle of the item
 
 #### Source
 
-main.ts:27077
+main.ts:26948
 
 ***
 
@@ -57,7 +57,7 @@ link anchor text
 
 #### Source
 
-main.ts:27075
+main.ts:26946
 
 ***
 
@@ -69,7 +69,7 @@ type of element
 
 #### Source
 
-main.ts:27073
+main.ts:26944
 
 ***
 
@@ -81,7 +81,7 @@ sitelink URL
 
 #### Source
 
-main.ts:27079
+main.ts:26950
 
 ***
 
@@ -93,4 +93,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:27086
+main.ts:26957

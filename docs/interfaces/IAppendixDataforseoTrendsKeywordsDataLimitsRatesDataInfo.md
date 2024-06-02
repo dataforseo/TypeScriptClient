@@ -14,38 +14,38 @@
 
 ### demography?
 
-> **`optional`** **demography**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **demography**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:216312
+main.ts:213471
 
 ***
 
 ### explore?
 
-> **`optional`** **explore**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **explore**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:216310
+main.ts:213469
 
 ***
 
 ### merged\_data?
 
-> **`optional`** **merged\_data**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **merged\_data**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:216313
+main.ts:213472
 
 ***
 
 ### subregion\_interests?
 
-> **`optional`** **subregion\_interests**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **subregion\_interests**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:216311
+main.ts:213470

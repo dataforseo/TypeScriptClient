@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:52415
+main.ts:52392
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:52415
 
 #### Source
 
-main.ts:19994
+main.ts:19668
 
 ***
 
@@ -66,7 +66,7 @@ main.ts:19994
 
 #### Source
 
-main.ts:52411
+main.ts:52388
 
 ***
 
@@ -83,7 +83,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:52394
+main.ts:52365
 
 ***
 
@@ -101,7 +101,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:52391
+main.ts:52362
 
 ***
 
@@ -122,7 +122,7 @@ chrome/chrome-omni
 
 #### Source
 
-main.ts:52401
+main.ts:52372
 
 ***
 
@@ -139,7 +139,7 @@ url to search results relevant to the google autocomplete suggestion
 
 #### Source
 
-main.ts:52410
+main.ts:52381
 
 ***
 
@@ -155,7 +155,7 @@ google autocomplete keyword suggestion
 
 #### Source
 
-main.ts:52403
+main.ts:52374
 
 ***
 
@@ -173,7 +173,27 @@ chrome/chrome-omni
 
 #### Source
 
-main.ts:52407
+main.ts:52378
+
+***
+
+### thumbnail\_url?
+
+> **`optional`** **thumbnail\_url**: `string`
+
+url of the thumbnail image
+url of the thumbnail image of the google autocomplete suggestion
+Note: only available for the following client:
+gws-wiz
+gws-wiz-serp
+
+#### Implementation of
+
+[`IAutocompleteSerpElementItem`](../interfaces/IAutocompleteSerpElementItem.md).[`thumbnail_url`](../interfaces/IAutocompleteSerpElementItem.md#thumbnail_url)
+
+#### Source
+
+main.ts:52387
 
 ## Methods
 
@@ -195,7 +215,7 @@ main.ts:52407
 
 #### Source
 
-main.ts:52420
+main.ts:52397
 
 ***
 
@@ -217,7 +237,7 @@ main.ts:52420
 
 #### Source
 
-main.ts:52448
+main.ts:52426
 
 ***
 
@@ -239,4 +259,4 @@ main.ts:52448
 
 #### Source
 
-main.ts:52441
+main.ts:52419

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:166294
+main.ts:166247
 
 ## Properties
 
@@ -46,7 +46,7 @@ max rating on a distribution scale
 
 #### Source
 
-main.ts:166288
+main.ts:166241
 
 ***
 
@@ -62,7 +62,7 @@ contains rating distribution metrics
 
 #### Source
 
-main.ts:166290
+main.ts:166243
 
 ***
 
@@ -78,7 +78,7 @@ min rating on a distribution scale
 
 #### Source
 
-main.ts:166286
+main.ts:166239
 
 ***
 
@@ -94,7 +94,7 @@ type of element
 
 #### Source
 
-main.ts:166284
+main.ts:166237
 
 ## Methods
 
@@ -112,7 +112,7 @@ main.ts:166284
 
 #### Source
 
-main.ts:166303
+main.ts:166256
 
 ***
 
@@ -130,7 +130,7 @@ main.ts:166303
 
 #### Source
 
-main.ts:166323
+main.ts:166276
 
 ***
 
@@ -148,4 +148,4 @@ main.ts:166323
 
 #### Source
 
-main.ts:166316
+main.ts:166269

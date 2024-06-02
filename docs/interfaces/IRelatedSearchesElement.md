@@ -20,7 +20,7 @@ the alt tag of the product image featured in the results
 
 #### Source
 
-main.ts:21939
+main.ts:21598
 
 ***
 
@@ -32,7 +32,7 @@ URL of the product image featured in the results
 
 #### Source
 
-main.ts:21941
+main.ts:21600
 
 ***
 
@@ -44,7 +44,7 @@ product title
 
 #### Source
 
-main.ts:21935
+main.ts:21594
 
 ***
 
@@ -56,7 +56,7 @@ type of element
 
 #### Source
 
-main.ts:21933
+main.ts:21592
 
 ***
 
@@ -68,4 +68,4 @@ the URL of the product page
 
 #### Source
 
-main.ts:21937
+main.ts:21596

@@ -17,6 +17,7 @@
 - [`ISerpGoogleLanguagesResponseInfo`](ISerpGoogleLanguagesResponseInfo.md)
 - [`ISerpGoogleOrganicTaskPostResponseInfo`](ISerpGoogleOrganicTaskPostResponseInfo.md)
 - [`ISerpGoogleOrganicTasksReadyResponseInfo`](ISerpGoogleOrganicTasksReadyResponseInfo.md)
+- [`ISerpTasksReadyResponseInfo`](ISerpTasksReadyResponseInfo.md)
 - [`ISerpGoogleOrganicTasksFixedResponseInfo`](ISerpGoogleOrganicTasksFixedResponseInfo.md)
 - [`ISerpGoogleOrganicTaskGetRegularResponseInfo`](ISerpGoogleOrganicTaskGetRegularResponseInfo.md)
 - [`ISerpGoogleOrganicTaskGetAdvancedResponseInfo`](ISerpGoogleOrganicTaskGetAdvancedResponseInfo.md)
@@ -479,15 +480,6 @@
 - [`IBusinessDataTripadvisorReviewsTaskPostResponseInfo`](IBusinessDataTripadvisorReviewsTaskPostResponseInfo.md)
 - [`IBusinessDataTripadvisorReviewsTasksReadyResponseInfo`](IBusinessDataTripadvisorReviewsTasksReadyResponseInfo.md)
 - [`IBusinessDataTripadvisorReviewsTaskGetResponseInfo`](IBusinessDataTripadvisorReviewsTaskGetResponseInfo.md)
-- [`IBusinessDataYelpLocationsResponseInfo`](IBusinessDataYelpLocationsResponseInfo.md)
-- [`IBusinessDataYelpLocationsCountryResponseInfo`](IBusinessDataYelpLocationsCountryResponseInfo.md)
-- [`IBusinessDataYelpLanguagesResponseInfo`](IBusinessDataYelpLanguagesResponseInfo.md)
-- [`IBusinessDataYelpSearchTaskPostResponseInfo`](IBusinessDataYelpSearchTaskPostResponseInfo.md)
-- [`IBusinessDataYelpSearchTasksReadyResponseInfo`](IBusinessDataYelpSearchTasksReadyResponseInfo.md)
-- [`IBusinessDataYelpSearchTaskGetResponseInfo`](IBusinessDataYelpSearchTaskGetResponseInfo.md)
-- [`IBusinessDataYelpReviewsTaskPostResponseInfo`](IBusinessDataYelpReviewsTaskPostResponseInfo.md)
-- [`IBusinessDataYelpReviewsTasksReadyResponseInfo`](IBusinessDataYelpReviewsTasksReadyResponseInfo.md)
-- [`IBusinessDataYelpReviewsTaskGetResponseInfo`](IBusinessDataYelpReviewsTaskGetResponseInfo.md)
 - [`IBusinessDataSocialMediaPinterestLiveResponseInfo`](IBusinessDataSocialMediaPinterestLiveResponseInfo.md)
 - [`IBusinessDataSocialMediaFacebookLiveResponseInfo`](IBusinessDataSocialMediaFacebookLiveResponseInfo.md)
 - [`IBusinessDataSocialMediaRedditLiveResponseInfo`](IBusinessDataSocialMediaRedditLiveResponseInfo.md)
@@ -510,7 +502,7 @@ total tasks cost, USD
 
 #### Source
 
-main.ts:23470
+main.ts:23129
 
 ***
 
@@ -523,7 +515,7 @@ you can find the full list of the response codes here
 
 #### Source
 
-main.ts:23463
+main.ts:23122
 
 ***
 
@@ -536,7 +528,7 @@ you can find the full list of general informational messages here
 
 #### Source
 
-main.ts:23466
+main.ts:23125
 
 ***
 
@@ -548,7 +540,7 @@ the number of tasks in the tasks array
 
 #### Source
 
-main.ts:23472
+main.ts:23131
 
 ***
 
@@ -560,7 +552,7 @@ the number of tasks in the tasks array returned with an error
 
 #### Source
 
-main.ts:23474
+main.ts:23133
 
 ***
 
@@ -572,7 +564,7 @@ total execution time, seconds
 
 #### Source
 
-main.ts:23468
+main.ts:23127
 
 ***
 
@@ -584,4 +576,4 @@ the current version of the API
 
 #### Source
 
-main.ts:23460
+main.ts:23119

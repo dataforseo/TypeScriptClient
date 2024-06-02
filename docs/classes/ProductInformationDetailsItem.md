@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:180251
+main.ts:180204
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:180251
 
 #### Source
 
-main.ts:22606
+main.ts:22265
 
 ***
 
@@ -72,7 +72,7 @@ contains information specified about the product within the section_name
 
 #### Source
 
-main.ts:180247
+main.ts:180200
 
 ***
 
@@ -88,7 +88,7 @@ name of the section related to product information specified in the contents
 
 #### Source
 
-main.ts:180245
+main.ts:180198
 
 ## Methods
 
@@ -110,7 +110,7 @@ main.ts:180245
 
 #### Source
 
-main.ts:180256
+main.ts:180209
 
 ***
 
@@ -132,7 +132,7 @@ main.ts:180256
 
 #### Source
 
-main.ts:180281
+main.ts:180234
 
 ***
 
@@ -154,4 +154,4 @@ main.ts:180281
 
 #### Source
 
-main.ts:180274
+main.ts:180227

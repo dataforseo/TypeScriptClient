@@ -26,7 +26,7 @@ action:listen_artist
 
 #### Source
 
-main.ts:95422
+main.ts:95427
 
 ***
 
@@ -40,7 +40,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:95428
+main.ts:95433
 
 ***
 
@@ -54,7 +54,7 @@ left, right
 
 #### Source
 
-main.ts:95414
+main.ts:95419
 
 ***
 
@@ -67,7 +67,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:95410
+main.ts:95415
 
 ***
 
@@ -81,7 +81,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:95407
+main.ts:95412
 
 ***
 
@@ -93,7 +93,7 @@ row content
 
 #### Source
 
-main.ts:95424
+main.ts:95429
 
 ***
 
@@ -101,11 +101,11 @@ main.ts:95424
 
 > **`optional`** **title**: `string`
 
-title of the item
+title of the link
 
 #### Source
 
-main.ts:95418
+main.ts:95423
 
 ***
 
@@ -117,4 +117,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:95416
+main.ts:95421

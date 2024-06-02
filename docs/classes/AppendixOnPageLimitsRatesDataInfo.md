@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:217114
+main.ts:214273
 
 ## Properties
 
@@ -44,7 +44,7 @@ main.ts:217114
 
 #### Source
 
-main.ts:217109
+main.ts:214268
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:217109
 
 #### Source
 
-main.ts:217110
+main.ts:214269
 
 ***
 
@@ -72,7 +72,7 @@ main.ts:217110
 
 #### Source
 
-main.ts:217102
+main.ts:214261
 
 ***
 
@@ -86,7 +86,7 @@ main.ts:217102
 
 #### Source
 
-main.ts:217097
+main.ts:214256
 
 ***
 
@@ -100,7 +100,7 @@ main.ts:217097
 
 #### Source
 
-main.ts:217100
+main.ts:214259
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:217100
 
 #### Source
 
-main.ts:217104
+main.ts:214263
 
 ***
 
@@ -128,13 +128,13 @@ main.ts:217104
 
 #### Source
 
-main.ts:217107
+main.ts:214266
 
 ***
 
 ### lighthouse?
 
-> **`optional`** **lighthouse**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **lighthouse**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -142,7 +142,7 @@ main.ts:217107
 
 #### Source
 
-main.ts:217106
+main.ts:214265
 
 ***
 
@@ -156,7 +156,7 @@ main.ts:217106
 
 #### Source
 
-main.ts:217098
+main.ts:214257
 
 ***
 
@@ -170,7 +170,7 @@ main.ts:217098
 
 #### Source
 
-main.ts:217096
+main.ts:214255
 
 ***
 
@@ -184,7 +184,7 @@ main.ts:217096
 
 #### Source
 
-main.ts:217108
+main.ts:214267
 
 ***
 
@@ -198,7 +198,7 @@ main.ts:217108
 
 #### Source
 
-main.ts:217095
+main.ts:214254
 
 ***
 
@@ -212,7 +212,7 @@ main.ts:217095
 
 #### Source
 
-main.ts:217101
+main.ts:214260
 
 ***
 
@@ -226,7 +226,7 @@ main.ts:217101
 
 #### Source
 
-main.ts:217103
+main.ts:214262
 
 ***
 
@@ -240,7 +240,7 @@ main.ts:217103
 
 #### Source
 
-main.ts:217105
+main.ts:214264
 
 ***
 
@@ -254,7 +254,7 @@ main.ts:217105
 
 #### Source
 
-main.ts:217094
+main.ts:214253
 
 ***
 
@@ -268,7 +268,7 @@ main.ts:217094
 
 #### Source
 
-main.ts:217093
+main.ts:214252
 
 ***
 
@@ -282,7 +282,7 @@ main.ts:217093
 
 #### Source
 
-main.ts:217091
+main.ts:214250
 
 ***
 
@@ -296,7 +296,7 @@ main.ts:217091
 
 #### Source
 
-main.ts:217092
+main.ts:214251
 
 ***
 
@@ -310,7 +310,7 @@ main.ts:217092
 
 #### Source
 
-main.ts:217099
+main.ts:214258
 
 ## Methods
 
@@ -328,7 +328,7 @@ main.ts:217099
 
 #### Source
 
-main.ts:217123
+main.ts:214282
 
 ***
 
@@ -346,7 +346,7 @@ main.ts:217123
 
 #### Source
 
-main.ts:217159
+main.ts:214318
 
 ***
 
@@ -364,4 +364,4 @@ main.ts:217159
 
 #### Source
 
-main.ts:217152
+main.ts:214311

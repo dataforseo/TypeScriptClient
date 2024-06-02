@@ -28,7 +28,7 @@ example:
 
 #### Source
 
-main.ts:202811
+main.ts:202798
 
 ***
 
@@ -46,7 +46,7 @@ example:
 
 #### Source
 
-main.ts:202791
+main.ts:202778
 
 ***
 
@@ -65,7 +65,7 @@ example:
 
 #### Source
 
-main.ts:202800
+main.ts:202787
 
 ***
 
@@ -83,7 +83,7 @@ set the following value if you want to include one 13-years-old child and one 8-
 
 #### Source
 
-main.ts:202819
+main.ts:202806
 
 ***
 
@@ -98,7 +98,7 @@ example:
 
 #### Source
 
-main.ts:202805
+main.ts:202792
 
 ***
 
@@ -116,7 +116,7 @@ ChYIq6SB--i6p6cpGgovbS8wN2s5ODZfEAE
 
 #### Source
 
-main.ts:202783
+main.ts:202770
 
 ***
 
@@ -146,7 +146,7 @@ learn more about the cid and place_id identifiers in this help center article
 
 #### Source
 
-main.ts:191066
+main.ts:191031
 
 ***
 
@@ -167,7 +167,7 @@ en
 
 #### Source
 
-main.ts:191112
+main.ts:191077
 
 ***
 
@@ -188,7 +188,7 @@ English
 
 #### Source
 
-main.ts:191105
+main.ts:191070
 
 ***
 
@@ -209,7 +209,7 @@ example:
 
 #### Source
 
-main.ts:191088
+main.ts:191053
 
 ***
 
@@ -233,7 +233,7 @@ example:
 
 #### Source
 
-main.ts:191098
+main.ts:191063
 
 ***
 
@@ -254,7 +254,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:191081
+main.ts:191046
 
 ***
 
@@ -278,7 +278,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:191138
+main.ts:191103
 
 ***
 
@@ -294,7 +294,7 @@ advanced, html
 
 #### Source
 
-main.ts:202825
+main.ts:202812
 
 ***
 
@@ -318,7 +318,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:191128
+main.ts:191093
 
 ***
 
@@ -340,7 +340,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:191074
+main.ts:191039
 
 ***
 
@@ -360,4 +360,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:191118
+main.ts:191083

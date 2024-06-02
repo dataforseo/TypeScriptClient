@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:64890
+main.ts:64947
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Source
 
-main.ts:64875
+main.ts:64932
 
 ***
 
@@ -63,7 +63,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Source
 
-main.ts:64883
+main.ts:64940
 
 ***
 
@@ -80,7 +80,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Source
 
-main.ts:64886
+main.ts:64943
 
 ***
 
@@ -97,7 +97,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Source
 
-main.ts:64880
+main.ts:64937
 
 ***
 
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:64868
+main.ts:64925
 
 ***
 
@@ -130,7 +130,7 @@ search engine specified when setting the task
 
 #### Source
 
-main.ts:64870
+main.ts:64927
 
 ***
 
@@ -139,7 +139,7 @@ main.ts:64870
 > **`optional`** **se\_type**: `string`
 
 type of search engine
-can take the following values: video_comments
+example: video_comments
 
 #### Implementation of
 
@@ -147,7 +147,7 @@ can take the following values: video_comments
 
 #### Source
 
-main.ts:64873
+main.ts:64930
 
 ***
 
@@ -163,7 +163,7 @@ user-defined task identifier
 
 #### Source
 
-main.ts:64877
+main.ts:64934
 
 ## Methods
 
@@ -181,7 +181,7 @@ main.ts:64877
 
 #### Source
 
-main.ts:64899
+main.ts:64956
 
 ***
 
@@ -199,7 +199,7 @@ main.ts:64899
 
 #### Source
 
-main.ts:64923
+main.ts:64980
 
 ***
 
@@ -217,4 +217,4 @@ main.ts:64923
 
 #### Source
 
-main.ts:64916
+main.ts:64973

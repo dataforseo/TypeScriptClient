@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:157626
+main.ts:157539
 
 ## Properties
 
@@ -47,7 +47,7 @@ calculated as a ratio of frequency to the total count of keywords with the set k
 
 #### Source
 
-main.ts:157622
+main.ts:157535
 
 ***
 
@@ -64,7 +64,7 @@ number of times the keyword appears on the website (or webpage if you specified 
 
 #### Source
 
-main.ts:157619
+main.ts:157532
 
 ***
 
@@ -80,7 +80,7 @@ returned keyword
 
 #### Source
 
-main.ts:157616
+main.ts:157529
 
 ## Methods
 
@@ -98,7 +98,7 @@ main.ts:157616
 
 #### Source
 
-main.ts:157635
+main.ts:157548
 
 ***
 
@@ -116,7 +116,7 @@ main.ts:157635
 
 #### Source
 
-main.ts:157654
+main.ts:157567
 
 ***
 
@@ -134,4 +134,4 @@ main.ts:157654
 
 #### Source
 
-main.ts:157647
+main.ts:157560

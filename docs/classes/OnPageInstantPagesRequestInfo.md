@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:160975
+main.ts:160920
 
 ## Properties
 
@@ -49,7 +49,7 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 #### Source
 
-main.ts:160913
+main.ts:160852
 
 ***
 
@@ -80,7 +80,7 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 #### Source
 
-main.ts:160885
+main.ts:160824
 
 ***
 
@@ -100,7 +100,7 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:160897
+main.ts:160836
 
 ***
 
@@ -120,7 +120,7 @@ maximum value: 3
 
 #### Source
 
-main.ts:160903
+main.ts:160842
 
 ***
 
@@ -140,7 +140,7 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:160891
+main.ts:160830
 
 ***
 
@@ -159,7 +159,7 @@ default value: false
 
 #### Source
 
-main.ts:160966
+main.ts:160911
 
 ***
 
@@ -182,7 +182,7 @@ Note: only integer threshold values can be modified;
 
 #### Source
 
-main.ts:160971
+main.ts:160916
 
 ***
 
@@ -207,7 +207,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:160956
+main.ts:160901
 
 ***
 
@@ -228,7 +228,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 #### Source
 
-main.ts:160868
+main.ts:160807
 
 ***
 
@@ -248,7 +248,7 @@ false
 
 #### Source
 
-main.ts:160934
+main.ts:160879
 
 ***
 
@@ -262,7 +262,7 @@ by using this parameter you will be able to emulate a browser when loading a web
 enable_browser_rendering loads styles, images, fonts, animations, videos, and other resources on a page;
 default value: false
 set to true to obtain Core Web Vitals (FID, CLS, LCP) metrics in the response;
-if you use this field, enable_javascript, and load_resources parameters must be set to true
+if you use this field, parameters enable_javascript, and load_resources are enabled automatically;
 Note: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page
 
 #### Implementation of
@@ -271,7 +271,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:160928
+main.ts:160873
 
 ***
 
@@ -291,7 +291,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:160919
+main.ts:160864
 
 ***
 
@@ -311,7 +311,27 @@ falseif you use this field, enable_javascript must be set to true;
 
 #### Source
 
-main.ts:160945
+main.ts:160890
+
+***
+
+### load\_resources?
+
+> **`optional`** **load\_resources**: `boolean`
+
+load resources
+optional field
+set to true if you want to load image, stylesheets, scripts, and broken resources
+default value: false
+Note: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page
+
+#### Implementation of
+
+[`IOnPageInstantPagesRequestInfo`](../interfaces/IOnPageInstantPagesRequestInfo.md).[`load_resources`](../interfaces/IOnPageInstantPagesRequestInfo.md#load_resources)
+
+#### Source
+
+main.ts:160858
 
 ***
 
@@ -330,7 +350,7 @@ default value: false
 
 #### Source
 
-main.ts:160939
+main.ts:160884
 
 ***
 
@@ -349,7 +369,7 @@ default value: false
 
 #### Source
 
-main.ts:160908
+main.ts:160847
 
 ***
 
@@ -370,7 +390,7 @@ to prevent this error from occurring, avoid setting tasks with the same domain i
 
 #### Source
 
-main.ts:160861
+main.ts:160800
 
 ***
 
@@ -389,7 +409,7 @@ default value: false
 
 #### Source
 
-main.ts:160961
+main.ts:160906
 
 ## Methods
 
@@ -407,7 +427,7 @@ main.ts:160961
 
 #### Source
 
-main.ts:160984
+main.ts:160929
 
 ***
 
@@ -425,7 +445,7 @@ main.ts:160984
 
 #### Source
 
-main.ts:161023
+main.ts:160969
 
 ***
 
@@ -443,4 +463,4 @@ main.ts:161023
 
 #### Source
 
-main.ts:161016
+main.ts:160962

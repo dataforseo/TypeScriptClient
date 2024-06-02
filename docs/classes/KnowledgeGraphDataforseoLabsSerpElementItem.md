@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:95583
+main.ts:94821
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:95583
 
 #### Source
 
-main.ts:20377
+main.ts:20051
 
 ***
 
@@ -68,7 +68,7 @@ card id
 
 #### Source
 
-main.ts:95569
+main.ts:94807
 
 ***
 
@@ -84,7 +84,7 @@ google-defined client id
 
 #### Source
 
-main.ts:95577
+main.ts:94815
 
 ***
 
@@ -100,7 +100,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:95567
+main.ts:94805
 
 ***
 
@@ -116,13 +116,13 @@ URL of the image from knowledge graph
 
 #### Source
 
-main.ts:95573
+main.ts:94811
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)[]
+> **`optional`** **items**: [`PeopleAlsoAskElement`](PeopleAlsoAskElement.md)[]
 
 elements of search results found in SERP
 
@@ -132,7 +132,7 @@ elements of search results found in SERP
 
 #### Source
 
-main.ts:95579
+main.ts:94817
 
 ***
 
@@ -148,7 +148,7 @@ URL of the logo from knowledge graph
 
 #### Source
 
-main.ts:95575
+main.ts:94813
 
 ***
 
@@ -166,7 +166,7 @@ left, right
 
 #### Source
 
-main.ts:95559
+main.ts:94797
 
 ***
 
@@ -183,7 +183,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:95555
+main.ts:94793
 
 ***
 
@@ -191,6 +191,7 @@ main.ts:95555
 
 > **`optional`** **rank\_group**: `number`
 
+group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
@@ -200,7 +201,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:95552
+main.ts:94790
 
 ***
 
@@ -216,7 +217,7 @@ search engine type
 
 #### Source
 
-main.ts:95549
+main.ts:94786
 
 ***
 
@@ -232,7 +233,7 @@ subtitle of the item
 
 #### Source
 
-main.ts:95565
+main.ts:94803
 
 ***
 
@@ -248,7 +249,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:95563
+main.ts:94801
 
 ***
 
@@ -256,7 +257,7 @@ main.ts:95563
 
 > **`optional`** **url**: `string`
 
-relevant URL of the Ad element in SERP
+relevant URL in SERP
 
 #### Implementation of
 
@@ -264,7 +265,7 @@ relevant URL of the Ad element in SERP
 
 #### Source
 
-main.ts:95571
+main.ts:94809
 
 ***
 
@@ -280,7 +281,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:95561
+main.ts:94799
 
 ## Methods
 
@@ -302,7 +303,7 @@ main.ts:95561
 
 #### Source
 
-main.ts:95588
+main.ts:94826
 
 ***
 
@@ -324,7 +325,7 @@ main.ts:95588
 
 #### Source
 
-main.ts:95623
+main.ts:94861
 
 ***
 
@@ -346,4 +347,4 @@ main.ts:95623
 
 #### Source
 
-main.ts:95616
+main.ts:94854

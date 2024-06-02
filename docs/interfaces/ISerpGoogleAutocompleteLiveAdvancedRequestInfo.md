@@ -23,6 +23,7 @@ possible values:
 chrome — used when google search is opened in google chrome;
 chrome-omni — used in the address bar in chrome;
 gws-wiz — used in google search home page;
+gws-wiz-serp — used in google search engine results page;
 safari — used when google search is opened in safari browser;
 firefox — used when google search is opened in firefox browser;
 psy-ab — may be used when google search is opened in google chrome browser;
@@ -34,7 +35,7 @@ products-cc — used in google shopping search
 
 #### Source
 
-main.ts:52942
+main.ts:52929
 
 ***
 
@@ -55,7 +56,7 @@ which que|ry is s – "cursor_pointer": 9
 
 #### Source
 
-main.ts:52926
+main.ts:52912
 
 ***
 
@@ -72,7 +73,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Source
 
-main.ts:52888
+main.ts:52874
 
 ***
 
@@ -89,7 +90,7 @@ en
 
 #### Source
 
-main.ts:52915
+main.ts:52901
 
 ***
 
@@ -106,7 +107,7 @@ English
 
 #### Source
 
-main.ts:52908
+main.ts:52894
 
 ***
 
@@ -122,7 +123,7 @@ example:
 
 #### Source
 
-main.ts:52901
+main.ts:52887
 
 ***
 
@@ -139,7 +140,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:52895
+main.ts:52881
 
 ***
 
@@ -155,4 +156,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:52948
+main.ts:52935

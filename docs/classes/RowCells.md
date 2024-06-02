@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:160614
+main.ts:160553
 
 ## Properties
 
@@ -46,7 +46,7 @@ indicates if the text belongs to the header
 
 #### Source
 
-main.ts:160610
+main.ts:160549
 
 ***
 
@@ -62,7 +62,7 @@ content text
 
 #### Source
 
-main.ts:160606
+main.ts:160545
 
 ***
 
@@ -78,7 +78,7 @@ contains other URLs and anchors found in the content element
 
 #### Source
 
-main.ts:160608
+main.ts:160547
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:160608
 
 #### Source
 
-main.ts:160623
+main.ts:160562
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:160623
 
 #### Source
 
-main.ts:160642
+main.ts:160581
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:160642
 
 #### Source
 
-main.ts:160635
+main.ts:160574

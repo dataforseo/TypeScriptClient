@@ -20,7 +20,7 @@ total count of organic SERPs that contain the domain
 
 #### Source
 
-main.ts:101610
+main.ts:101713
 
 ***
 
@@ -35,7 +35,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:101608
+main.ts:101711
 
 ***
 
@@ -47,7 +47,7 @@ month for which the data is provided
 
 #### Source
 
-main.ts:101603
+main.ts:101706
 
 ***
 
@@ -59,4 +59,4 @@ year for which the data is provided
 
 #### Source
 
-main.ts:101601
+main.ts:101704

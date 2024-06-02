@@ -30,13 +30,13 @@
 
 #### Source
 
-main.ts:216266
+main.ts:213425
 
 ## Properties
 
 ### demography?
 
-> **`optional`** **demography**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **demography**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -44,13 +44,13 @@ main.ts:216266
 
 #### Source
 
-main.ts:216261
+main.ts:213420
 
 ***
 
 ### explore?
 
-> **`optional`** **explore**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **explore**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -58,13 +58,13 @@ main.ts:216261
 
 #### Source
 
-main.ts:216259
+main.ts:213418
 
 ***
 
 ### merged\_data?
 
-> **`optional`** **merged\_data**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **merged\_data**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -72,13 +72,13 @@ main.ts:216259
 
 #### Source
 
-main.ts:216262
+main.ts:213421
 
 ***
 
 ### subregion\_interests?
 
-> **`optional`** **subregion\_interests**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **subregion\_interests**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -86,7 +86,7 @@ main.ts:216262
 
 #### Source
 
-main.ts:216260
+main.ts:213419
 
 ## Methods
 
@@ -104,7 +104,7 @@ main.ts:216260
 
 #### Source
 
-main.ts:216275
+main.ts:213434
 
 ***
 
@@ -122,7 +122,7 @@ main.ts:216275
 
 #### Source
 
-main.ts:216295
+main.ts:213454
 
 ***
 
@@ -140,4 +140,4 @@ main.ts:216295
 
 #### Source
 
-main.ts:216288
+main.ts:213447

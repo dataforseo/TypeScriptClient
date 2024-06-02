@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:28426
+main.ts:28297
 
 ## Properties
 
@@ -46,7 +46,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:28413
+main.ts:28284
 
 ***
 
@@ -62,7 +62,7 @@ domain where a link points
 
 #### Source
 
-main.ts:28417
+main.ts:28288
 
 ***
 
@@ -78,7 +78,7 @@ indicates whether the element is an ad
 
 #### Source
 
-main.ts:28422
+main.ts:28293
 
 ***
 
@@ -95,7 +95,7 @@ contains the pricing details of the product or service featured in the result
 
 #### Source
 
-main.ts:28420
+main.ts:28291
 
 ***
 
@@ -111,7 +111,7 @@ source of additional information about the result
 
 #### Source
 
-main.ts:28411
+main.ts:28282
 
 ***
 
@@ -127,7 +127,7 @@ type of element
 
 #### Source
 
-main.ts:28409
+main.ts:28280
 
 ***
 
@@ -143,7 +143,7 @@ relevant URL
 
 #### Source
 
-main.ts:28415
+main.ts:28286
 
 ## Methods
 
@@ -161,7 +161,7 @@ main.ts:28415
 
 #### Source
 
-main.ts:28435
+main.ts:28306
 
 ***
 
@@ -179,7 +179,7 @@ main.ts:28435
 
 #### Source
 
-main.ts:28458
+main.ts:28329
 
 ***
 
@@ -197,4 +197,4 @@ main.ts:28458
 
 #### Source
 
-main.ts:28451
+main.ts:28322

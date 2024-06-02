@@ -20,11 +20,12 @@
 
 > **`optional`** **items**: [`CommercialUnitsElement`](../classes/CommercialUnitsElement.md)[]
 
-elements of search results found in SERP
+additional items present in the element
+if there are none, equals null
 
 #### Source
 
-main.ts:99333
+main.ts:99434
 
 ***
 
@@ -38,7 +39,7 @@ left, right
 
 #### Source
 
-main.ts:99327
+main.ts:99427
 
 ***
 
@@ -51,7 +52,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:99323
+main.ts:99423
 
 ***
 
@@ -64,7 +65,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:99320
+main.ts:99420
 
 ***
 
@@ -72,11 +73,11 @@ main.ts:99320
 
 > **`optional`** **title**: `string`
 
-title of the result in SERP
+title of the item
 
 #### Source
 
-main.ts:99331
+main.ts:99431
 
 ***
 
@@ -88,4 +89,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:99329
+main.ts:99429

@@ -20,7 +20,7 @@ count of negative reviews by criterion
 
 #### Source
 
-main.ts:203688
+main.ts:203677
 
 ***
 
@@ -32,7 +32,7 @@ count of positive reviews by criterion
 
 #### Source
 
-main.ts:203686
+main.ts:203675
 
 ***
 
@@ -44,7 +44,7 @@ positive score by criterion
 
 #### Source
 
-main.ts:203684
+main.ts:203673
 
 ***
 
@@ -56,7 +56,7 @@ title of the evaluated criterion
 
 #### Source
 
-main.ts:203682
+main.ts:203671
 
 ***
 
@@ -68,7 +68,7 @@ count of all reviews by criterion
 
 #### Source
 
-main.ts:203690
+main.ts:203679
 
 ***
 
@@ -81,4 +81,4 @@ indicates whether the review element is visible by default
 
 #### Source
 
-main.ts:203693
+main.ts:203682

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:217224
+main.ts:214383
 
 ## Properties
 
@@ -44,13 +44,13 @@ main.ts:217224
 
 #### Source
 
-main.ts:217217
+main.ts:214376
 
 ***
 
 ### hotel\_searches?
 
-> **`optional`** **hotel\_searches**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **hotel\_searches**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -58,13 +58,13 @@ main.ts:217217
 
 #### Source
 
-main.ts:217218
+main.ts:214377
 
 ***
 
 ### my\_business\_info?
 
-> **`optional`** **my\_business\_info**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **my\_business\_info**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -72,13 +72,13 @@ main.ts:217218
 
 #### Source
 
-main.ts:217215
+main.ts:214374
 
 ***
 
 ### my\_business\_updates?
 
-> **`optional`** **my\_business\_updates**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **my\_business\_updates**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -86,13 +86,13 @@ main.ts:217215
 
 #### Source
 
-main.ts:217216
+main.ts:214375
 
 ***
 
 ### questions\_and\_answers?
 
-> **`optional`** **questions\_and\_answers**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **questions\_and\_answers**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -100,13 +100,13 @@ main.ts:217216
 
 #### Source
 
-main.ts:217220
+main.ts:214379
 
 ***
 
 ### reviews?
 
-> **`optional`** **reviews**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **reviews**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -114,7 +114,7 @@ main.ts:217220
 
 #### Source
 
-main.ts:217219
+main.ts:214378
 
 ## Methods
 
@@ -132,7 +132,7 @@ main.ts:217219
 
 #### Source
 
-main.ts:217233
+main.ts:214392
 
 ***
 
@@ -150,7 +150,7 @@ main.ts:217233
 
 #### Source
 
-main.ts:217255
+main.ts:214414
 
 ***
 
@@ -168,4 +168,4 @@ main.ts:217255
 
 #### Source
 
-main.ts:217248
+main.ts:214407

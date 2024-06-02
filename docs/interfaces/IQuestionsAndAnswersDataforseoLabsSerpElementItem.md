@@ -20,11 +20,12 @@
 
 > **`optional`** **items**: [`QuestionsAndAnswersElement`](../classes/QuestionsAndAnswersElement.md)[]
 
-elements of search results found in SERP
+additional items present in the element
+if there are none, equals null
 
 #### Source
 
-main.ts:98937
+main.ts:99032
 
 ***
 
@@ -38,7 +39,7 @@ left, right
 
 #### Source
 
-main.ts:98933
+main.ts:99027
 
 ***
 
@@ -51,7 +52,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:98929
+main.ts:99023
 
 ***
 
@@ -64,7 +65,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:98926
+main.ts:99020
 
 ***
 
@@ -76,4 +77,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:98935
+main.ts:99029

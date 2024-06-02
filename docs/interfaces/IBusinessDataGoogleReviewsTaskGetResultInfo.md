@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:206372
+main.ts:206359
 
 ***
 
@@ -35,7 +35,7 @@ learn more about the identifier in this help center article
 
 #### Source
 
-main.ts:206396
+main.ts:206383
 
 ***
 
@@ -50,7 +50,7 @@ example:
 
 #### Source
 
-main.ts:206377
+main.ts:206364
 
 ***
 
@@ -63,7 +63,7 @@ learn more about the identifier in this help center article
 
 #### Source
 
-main.ts:206389
+main.ts:206376
 
 ***
 
@@ -76,7 +76,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Source
 
-main.ts:206404
+main.ts:206391
 
 ***
 
@@ -89,7 +89,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Source
 
-main.ts:206401
+main.ts:206388
 
 ***
 
@@ -102,7 +102,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Source
 
-main.ts:206361
+main.ts:206348
 
 ***
 
@@ -114,7 +114,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:206369
+main.ts:206356
 
 ***
 
@@ -126,7 +126,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:206367
+main.ts:206354
 
 ***
 
@@ -139,7 +139,7 @@ learn more about the identifier in this help center article
 
 #### Source
 
-main.ts:206392
+main.ts:206379
 
 ***
 
@@ -152,7 +152,7 @@ popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:206386
+main.ts:206373
 
 ***
 
@@ -164,7 +164,7 @@ the total number of reviews
 
 #### Source
 
-main.ts:206398
+main.ts:206385
 
 ***
 
@@ -176,7 +176,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:206365
+main.ts:206352
 
 ***
 
@@ -189,7 +189,7 @@ additional information (e.g., address) on the ‘reviews’ element for which th
 
 #### Source
 
-main.ts:206383
+main.ts:206370
 
 ***
 
@@ -202,7 +202,7 @@ the name of the local establishment for which the reviews are collected
 
 #### Source
 
-main.ts:206380
+main.ts:206367
 
 ***
 
@@ -214,4 +214,4 @@ type of element
 
 #### Source
 
-main.ts:206363
+main.ts:206350

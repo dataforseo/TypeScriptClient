@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:62101
+main.ts:62150
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:62101
 
 #### Source
 
-main.ts:19994
+main.ts:19668
 
 ***
 
@@ -68,7 +68,7 @@ the category the video belongs to
 
 #### Source
 
-main.ts:62087
+main.ts:62136
 
 ***
 
@@ -84,7 +84,7 @@ the ID of the channel where the video is published
 
 #### Source
 
-main.ts:62062
+main.ts:62111
 
 ***
 
@@ -100,7 +100,7 @@ the URL of the page where the logo image of the channel is hosted
 
 #### Source
 
-main.ts:62068
+main.ts:62117
 
 ***
 
@@ -116,7 +116,7 @@ the name of the channel where the video is published
 
 #### Source
 
-main.ts:62064
+main.ts:62113
 
 ***
 
@@ -132,7 +132,7 @@ the URL of the channel where the video is published
 
 #### Source
 
-main.ts:62066
+main.ts:62115
 
 ***
 
@@ -148,7 +148,7 @@ number of comments on the video
 
 #### Source
 
-main.ts:62076
+main.ts:62125
 
 ***
 
@@ -164,7 +164,7 @@ description of the video
 
 #### Source
 
-main.ts:62070
+main.ts:62119
 
 ***
 
@@ -180,7 +180,7 @@ duration of the video
 
 #### Source
 
-main.ts:62091
+main.ts:62140
 
 ***
 
@@ -196,7 +196,7 @@ duration of the video in seconds
 
 #### Source
 
-main.ts:62093
+main.ts:62142
 
 ***
 
@@ -212,7 +212,7 @@ indicates whether the video is on live
 
 #### Source
 
-main.ts:62089
+main.ts:62138
 
 ***
 
@@ -228,7 +228,7 @@ keywords relevant to the video
 
 #### Source
 
-main.ts:62085
+main.ts:62134
 
 ***
 
@@ -244,7 +244,7 @@ number of likes on the video
 
 #### Source
 
-main.ts:62074
+main.ts:62123
 
 ***
 
@@ -260,7 +260,7 @@ the date when the video is published
 
 #### Source
 
-main.ts:62078
+main.ts:62127
 
 ***
 
@@ -277,7 +277,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:62052
+main.ts:62101
 
 ***
 
@@ -295,7 +295,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:62049
+main.ts:62098
 
 ***
 
@@ -311,15 +311,15 @@ array of elements that contain information about all possible streaming qualitie
 
 #### Source
 
-main.ts:62097
+main.ts:62146
 
 ***
 
 ### subtitles?
 
-> **`optional`** **subtitles**: `string`
+> **`optional`** **subtitles**: [`Subtitles`](Subtitles.md)[]
 
-subtitles in the video
+array of elements describing properties of subtitles in the video
 
 #### Implementation of
 
@@ -327,7 +327,7 @@ subtitles in the video
 
 #### Source
 
-main.ts:62095
+main.ts:62144
 
 ***
 
@@ -343,7 +343,7 @@ the URL of the page where the thumbnail is hosted
 
 #### Source
 
-main.ts:62060
+main.ts:62109
 
 ***
 
@@ -362,7 +362,7 @@ example:
 
 #### Source
 
-main.ts:62083
+main.ts:62132
 
 ***
 
@@ -378,7 +378,7 @@ title of the video
 
 #### Source
 
-main.ts:62056
+main.ts:62105
 
 ***
 
@@ -394,7 +394,7 @@ URL of the video
 
 #### Source
 
-main.ts:62058
+main.ts:62107
 
 ***
 
@@ -410,7 +410,7 @@ ID of the video received in a POST array
 
 #### Source
 
-main.ts:62054
+main.ts:62103
 
 ***
 
@@ -426,7 +426,7 @@ number of views of the video
 
 #### Source
 
-main.ts:62072
+main.ts:62121
 
 ## Methods
 
@@ -448,7 +448,7 @@ main.ts:62072
 
 #### Source
 
-main.ts:62106
+main.ts:62155
 
 ***
 
@@ -470,7 +470,7 @@ main.ts:62106
 
 #### Source
 
-main.ts:62154
+main.ts:62207
 
 ***
 
@@ -492,4 +492,4 @@ main.ts:62154
 
 #### Source
 
-main.ts:62147
+main.ts:62200

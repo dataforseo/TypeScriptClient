@@ -2,9 +2,9 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataYelpLanguagesResponseInfo
+[Documentation](../README.md) / SerpTasksReadyResponseInfo
 
-# Class: BusinessDataYelpLanguagesResponseInfo
+# Class: SerpTasksReadyResponseInfo
 
 ## Extends
 
@@ -12,7 +12,7 @@
 
 ## Implements
 
-- [`IBusinessDataYelpLanguagesResponseInfo`](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md)
+- [`ISerpTasksReadyResponseInfo`](../interfaces/ISerpTasksReadyResponseInfo.md)
 
 ## Indexable
 
@@ -20,17 +20,17 @@
 
 ## Constructors
 
-### new BusinessDataYelpLanguagesResponseInfo(data)
+### new SerpTasksReadyResponseInfo(data)
 
-> **new BusinessDataYelpLanguagesResponseInfo**(`data`?): [`BusinessDataYelpLanguagesResponseInfo`](BusinessDataYelpLanguagesResponseInfo.md)
+> **new SerpTasksReadyResponseInfo**(`data`?): [`SerpTasksReadyResponseInfo`](SerpTasksReadyResponseInfo.md)
 
 #### Parameters
 
-• **data?**: [`IBusinessDataYelpLanguagesResponseInfo`](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md)
+• **data?**: [`ISerpTasksReadyResponseInfo`](../interfaces/ISerpTasksReadyResponseInfo.md)
 
 #### Returns
 
-[`BusinessDataYelpLanguagesResponseInfo`](BusinessDataYelpLanguagesResponseInfo.md)
+[`SerpTasksReadyResponseInfo`](SerpTasksReadyResponseInfo.md)
 
 #### Overrides
 
@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:212631
+main.ts:25649
 
 ## Properties
 
@@ -50,7 +50,7 @@ total tasks cost, USD
 
 #### Implementation of
 
-[`IBusinessDataYelpLanguagesResponseInfo`](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md).[`cost`](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md#cost)
+[`ISerpTasksReadyResponseInfo`](../interfaces/ISerpTasksReadyResponseInfo.md).[`cost`](../interfaces/ISerpTasksReadyResponseInfo.md#cost)
 
 #### Inherited from
 
@@ -58,7 +58,7 @@ total tasks cost, USD
 
 #### Source
 
-main.ts:23401
+main.ts:23060
 
 ***
 
@@ -71,7 +71,7 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[`IBusinessDataYelpLanguagesResponseInfo`](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md).[`status_code`](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md#status_code)
+[`ISerpTasksReadyResponseInfo`](../interfaces/ISerpTasksReadyResponseInfo.md).[`status_code`](../interfaces/ISerpTasksReadyResponseInfo.md#status_code)
 
 #### Inherited from
 
@@ -79,7 +79,7 @@ you can find the full list of the response codes here
 
 #### Source
 
-main.ts:23394
+main.ts:23053
 
 ***
 
@@ -92,7 +92,7 @@ you can find the full list of general informational messages here
 
 #### Implementation of
 
-[`IBusinessDataYelpLanguagesResponseInfo`](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md).[`status_message`](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md#status_message)
+[`ISerpTasksReadyResponseInfo`](../interfaces/ISerpTasksReadyResponseInfo.md).[`status_message`](../interfaces/ISerpTasksReadyResponseInfo.md#status_message)
 
 #### Inherited from
 
@@ -100,23 +100,23 @@ you can find the full list of general informational messages here
 
 #### Source
 
-main.ts:23397
+main.ts:23056
 
 ***
 
 ### tasks?
 
-> **`optional`** **tasks**: [`BusinessDataYelpLanguagesTaskInfo`](BusinessDataYelpLanguagesTaskInfo.md)[]
+> **`optional`** **tasks**: [`SerpTasksReadyTaskInfo`](SerpTasksReadyTaskInfo.md)[]
 
 array of tasks
 
 #### Implementation of
 
-[`IBusinessDataYelpLanguagesResponseInfo`](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md).[`tasks`](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md#tasks)
+[`ISerpTasksReadyResponseInfo`](../interfaces/ISerpTasksReadyResponseInfo.md).[`tasks`](../interfaces/ISerpTasksReadyResponseInfo.md#tasks)
 
 #### Source
 
-main.ts:212627
+main.ts:25645
 
 ***
 
@@ -128,7 +128,7 @@ the number of tasks in the tasks array
 
 #### Implementation of
 
-[`IBusinessDataYelpLanguagesResponseInfo`](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md).[`tasks_count`](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md#tasks_count)
+[`ISerpTasksReadyResponseInfo`](../interfaces/ISerpTasksReadyResponseInfo.md).[`tasks_count`](../interfaces/ISerpTasksReadyResponseInfo.md#tasks_count)
 
 #### Inherited from
 
@@ -136,7 +136,7 @@ the number of tasks in the tasks array
 
 #### Source
 
-main.ts:23403
+main.ts:23062
 
 ***
 
@@ -148,7 +148,7 @@ the number of tasks in the tasks array returned with an error
 
 #### Implementation of
 
-[`IBusinessDataYelpLanguagesResponseInfo`](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md).[`tasks_error`](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md#tasks_error)
+[`ISerpTasksReadyResponseInfo`](../interfaces/ISerpTasksReadyResponseInfo.md).[`tasks_error`](../interfaces/ISerpTasksReadyResponseInfo.md#tasks_error)
 
 #### Inherited from
 
@@ -156,7 +156,7 @@ the number of tasks in the tasks array returned with an error
 
 #### Source
 
-main.ts:23405
+main.ts:23064
 
 ***
 
@@ -168,7 +168,7 @@ total execution time, seconds
 
 #### Implementation of
 
-[`IBusinessDataYelpLanguagesResponseInfo`](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md).[`time`](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md#time)
+[`ISerpTasksReadyResponseInfo`](../interfaces/ISerpTasksReadyResponseInfo.md).[`time`](../interfaces/ISerpTasksReadyResponseInfo.md#time)
 
 #### Inherited from
 
@@ -176,7 +176,7 @@ total execution time, seconds
 
 #### Source
 
-main.ts:23399
+main.ts:23058
 
 ***
 
@@ -188,7 +188,7 @@ the current version of the API
 
 #### Implementation of
 
-[`IBusinessDataYelpLanguagesResponseInfo`](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md).[`version`](../interfaces/IBusinessDataYelpLanguagesResponseInfo.md#version)
+[`ISerpTasksReadyResponseInfo`](../interfaces/ISerpTasksReadyResponseInfo.md).[`version`](../interfaces/ISerpTasksReadyResponseInfo.md#version)
 
 #### Inherited from
 
@@ -196,7 +196,7 @@ the current version of the API
 
 #### Source
 
-main.ts:23391
+main.ts:23050
 
 ## Methods
 
@@ -218,7 +218,7 @@ main.ts:23391
 
 #### Source
 
-main.ts:212635
+main.ts:25653
 
 ***
 
@@ -240,13 +240,13 @@ main.ts:212635
 
 #### Source
 
-main.ts:212657
+main.ts:25675
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BusinessDataYelpLanguagesResponseInfo`](BusinessDataYelpLanguagesResponseInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpTasksReadyResponseInfo`](SerpTasksReadyResponseInfo.md)
 
 #### Parameters
 
@@ -254,7 +254,7 @@ main.ts:212657
 
 #### Returns
 
-[`BusinessDataYelpLanguagesResponseInfo`](BusinessDataYelpLanguagesResponseInfo.md)
+[`SerpTasksReadyResponseInfo`](SerpTasksReadyResponseInfo.md)
 
 #### Overrides
 
@@ -262,4 +262,4 @@ main.ts:212657
 
 #### Source
 
-main.ts:212650
+main.ts:25668

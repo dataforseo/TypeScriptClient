@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:32661
+main.ts:32532
 
 ## Properties
 
@@ -46,7 +46,7 @@ description
 
 #### Source
 
-main.ts:32652
+main.ts:32523
 
 ***
 
@@ -62,7 +62,7 @@ website domain
 
 #### Source
 
-main.ts:32647
+main.ts:32518
 
 ***
 
@@ -79,7 +79,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:32657
+main.ts:32528
 
 ***
 
@@ -96,7 +96,7 @@ indicates the source of information included in the top_stories_element
 
 #### Source
 
-main.ts:32650
+main.ts:32521
 
 ***
 
@@ -112,7 +112,7 @@ the total time it takes to prepare the cook the dish
 
 #### Source
 
-main.ts:32654
+main.ts:32525
 
 ***
 
@@ -128,7 +128,7 @@ title of a given link element
 
 #### Source
 
-main.ts:32643
+main.ts:32514
 
 ***
 
@@ -144,7 +144,7 @@ type of element
 
 #### Source
 
-main.ts:32641
+main.ts:32512
 
 ***
 
@@ -160,7 +160,7 @@ URL
 
 #### Source
 
-main.ts:32645
+main.ts:32516
 
 ## Methods
 
@@ -178,7 +178,7 @@ main.ts:32645
 
 #### Source
 
-main.ts:32670
+main.ts:32541
 
 ***
 
@@ -196,7 +196,7 @@ main.ts:32670
 
 #### Source
 
-main.ts:32694
+main.ts:32565
 
 ***
 
@@ -214,4 +214,4 @@ main.ts:32694
 
 #### Source
 
-main.ts:32687
+main.ts:32558

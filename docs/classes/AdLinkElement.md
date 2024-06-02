@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:28809
+main.ts:28680
 
 ## Properties
 
@@ -46,7 +46,7 @@ the identifier of the ad
 
 #### Source
 
-main.ts:28805
+main.ts:28676
 
 ***
 
@@ -62,7 +62,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:28799
+main.ts:28670
 
 ***
 
@@ -78,7 +78,7 @@ domain where a link points
 
 #### Source
 
-main.ts:28803
+main.ts:28674
 
 ***
 
@@ -94,7 +94,7 @@ title of the element
 
 #### Source
 
-main.ts:28797
+main.ts:28668
 
 ***
 
@@ -110,7 +110,7 @@ type of element
 
 #### Source
 
-main.ts:28795
+main.ts:28666
 
 ***
 
@@ -126,7 +126,7 @@ URL
 
 #### Source
 
-main.ts:28801
+main.ts:28672
 
 ## Methods
 
@@ -144,7 +144,7 @@ main.ts:28801
 
 #### Source
 
-main.ts:28818
+main.ts:28689
 
 ***
 
@@ -162,7 +162,7 @@ main.ts:28818
 
 #### Source
 
-main.ts:28840
+main.ts:28711
 
 ***
 
@@ -180,4 +180,4 @@ main.ts:28840
 
 #### Source
 
-main.ts:28833
+main.ts:28704

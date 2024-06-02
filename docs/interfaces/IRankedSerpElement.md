@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:90364
+main.ts:90423
 
 ***
 
@@ -34,7 +34,7 @@ indicates how many ranked elements of this domain were previously presented in S
 
 #### Source
 
-main.ts:90380
+main.ts:90439
 
 ***
 
@@ -49,7 +49,7 @@ learn more about the metric in this help center guide
 
 #### Source
 
-main.ts:90377
+main.ts:90436
 
 ***
 
@@ -64,7 +64,7 @@ example:
 
 #### Source
 
-main.ts:90385
+main.ts:90444
 
 ***
 
@@ -79,7 +79,7 @@ example:
 
 #### Source
 
-main.ts:90390
+main.ts:90449
 
 ***
 
@@ -91,7 +91,7 @@ number of search results for the returned keyword
 
 #### Source
 
-main.ts:90372
+main.ts:90431
 
 ***
 
@@ -103,7 +103,7 @@ search engine type
 
 #### Source
 
-main.ts:90358
+main.ts:90417
 
 ***
 
@@ -116,7 +116,7 @@ the list of supported SERP elements can be found below
 
 #### Source
 
-main.ts:90361
+main.ts:90420
 
 ***
 
@@ -132,4 +132,4 @@ note that the actual results will be returned only for organic, paid, featured_s
 
 #### Source
 
-main.ts:90370
+main.ts:90429

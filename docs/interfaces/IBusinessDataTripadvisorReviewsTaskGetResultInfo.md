@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:211991
+main.ts:211988
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Source
 
-main.ts:211996
+main.ts:211993
 
 ***
 
@@ -49,7 +49,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Source
 
-main.ts:212013
+main.ts:212010
 
 ***
 
@@ -62,7 +62,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Source
 
-main.ts:212010
+main.ts:212007
 
 ***
 
@@ -74,7 +74,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:212015
+main.ts:212012
 
 ***
 
@@ -87,7 +87,7 @@ address of the local establishment for which the reviews are collected
 
 #### Source
 
-main.ts:212002
+main.ts:211999
 
 ***
 
@@ -100,7 +100,7 @@ popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:212007
+main.ts:212004
 
 ***
 
@@ -112,7 +112,7 @@ the total number of reviews
 
 #### Source
 
-main.ts:212004
+main.ts:212001
 
 ***
 
@@ -124,7 +124,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:211988
+main.ts:211985
 
 ***
 
@@ -137,7 +137,7 @@ the name of the local establishment for which the reviews are collected
 
 #### Source
 
-main.ts:211999
+main.ts:211996
 
 ***
 
@@ -149,7 +149,7 @@ type of element
 
 #### Source
 
-main.ts:211986
+main.ts:211983
 
 ***
 
@@ -161,4 +161,4 @@ URL path received in a POST array
 
 #### Source
 
-main.ts:211984
+main.ts:211981

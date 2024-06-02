@@ -21,7 +21,7 @@ this object provides the average number of backlinks, referring pages and domain
 
 #### Source
 
-main.ts:83203
+main.ts:83262
 
 ***
 
@@ -36,7 +36,7 @@ learn more about impressions in this help center article
 
 #### Source
 
-main.ts:83197
+main.ts:83256
 
 ***
 
@@ -48,7 +48,7 @@ returned keyword idea
 
 #### Source
 
-main.ts:83184
+main.ts:83243
 
 ***
 
@@ -60,7 +60,7 @@ keyword data for the returned keyword idea
 
 #### Source
 
-main.ts:83190
+main.ts:83249
 
 ***
 
@@ -72,7 +72,7 @@ additional information about the keyword
 
 #### Source
 
-main.ts:83192
+main.ts:83251
 
 ***
 
@@ -84,7 +84,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:83188
+main.ts:83247
 
 ***
 
@@ -96,7 +96,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:83186
+main.ts:83245
 
 ***
 
@@ -108,7 +108,7 @@ search engine type
 
 #### Source
 
-main.ts:83182
+main.ts:83241
 
 ***
 
@@ -121,7 +121,7 @@ learn about search intent in this help center article
 
 #### Source
 
-main.ts:83206
+main.ts:83265
 
 ***
 
@@ -134,4 +134,4 @@ the value will be null if you didn’t set the field include_serp_info to true i
 
 #### Source
 
-main.ts:83200
+main.ts:83259

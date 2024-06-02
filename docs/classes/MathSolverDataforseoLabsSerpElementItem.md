@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:96421
+main.ts:96483
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:96421
 
 #### Source
 
-main.ts:20377
+main.ts:20051
 
 ***
 
@@ -60,8 +60,7 @@ main.ts:20377
 
 > **`optional`** **items**: [`MathSolverElement`](MathSolverElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+elements of search results found in SERP
 
 #### Implementation of
 
@@ -69,7 +68,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:96413
+main.ts:96475
 
 ***
 
@@ -87,7 +86,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:96417
+main.ts:96479
 
 ***
 
@@ -105,7 +104,7 @@ left, right
 
 #### Source
 
-main.ts:96403
+main.ts:96466
 
 ***
 
@@ -122,7 +121,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:96399
+main.ts:96462
 
 ***
 
@@ -140,7 +139,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:96396
+main.ts:96459
 
 ***
 
@@ -157,7 +156,7 @@ solution to the mathematical equation specified in the keyword field when settin
 
 #### Source
 
-main.ts:96410
+main.ts:96473
 
 ***
 
@@ -173,7 +172,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:96407
+main.ts:96470
 
 ***
 
@@ -189,7 +188,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:96405
+main.ts:96468
 
 ## Methods
 
@@ -211,7 +210,7 @@ main.ts:96405
 
 #### Source
 
-main.ts:96426
+main.ts:96488
 
 ***
 
@@ -233,7 +232,7 @@ main.ts:96426
 
 #### Source
 
-main.ts:96459
+main.ts:96521
 
 ***
 
@@ -255,4 +254,4 @@ main.ts:96459
 
 #### Source
 
-main.ts:96452
+main.ts:96514

@@ -20,7 +20,7 @@ contains the value of duplicated tag
 
 #### Source
 
-main.ts:154599
+main.ts:154512
 
 ***
 
@@ -32,7 +32,7 @@ pages with duplicate tags
 
 #### Source
 
-main.ts:154603
+main.ts:154516
 
 ***
 
@@ -44,4 +44,4 @@ total count of duplicate pages
 
 #### Source
 
-main.ts:154601
+main.ts:154514

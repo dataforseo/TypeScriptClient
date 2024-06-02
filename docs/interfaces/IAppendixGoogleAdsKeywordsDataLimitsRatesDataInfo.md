@@ -14,41 +14,41 @@
 
 ### ad\_traffic\_by\_keywords?
 
-> **`optional`** **ad\_traffic\_by\_keywords**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **ad\_traffic\_by\_keywords**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:216253
+main.ts:213412
 
 ***
 
 ### keywords\_for\_keywords?
 
-> **`optional`** **keywords\_for\_keywords**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **keywords\_for\_keywords**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:216251
+main.ts:213410
 
 ***
 
 ### keywords\_for\_site?
 
-> **`optional`** **keywords\_for\_site**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **keywords\_for\_site**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:216252
+main.ts:213411
 
 ***
 
 ### search\_volume?
 
-> **`optional`** **search\_volume**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **search\_volume**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:216250
+main.ts:213409
 
 ***
 
@@ -58,4 +58,4 @@ main.ts:216250
 
 #### Source
 
-main.ts:216249
+main.ts:213408

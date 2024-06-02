@@ -30,13 +30,13 @@
 
 #### Source
 
-main.ts:217288
+main.ts:214447
 
 ## Properties
 
 ### reviews?
 
-> **`optional`** **reviews**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **reviews**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -44,13 +44,13 @@ main.ts:217288
 
 #### Source
 
-main.ts:217283
+main.ts:214442
 
 ***
 
 ### search?
 
-> **`optional`** **search**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **search**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -58,7 +58,7 @@ main.ts:217283
 
 #### Source
 
-main.ts:217284
+main.ts:214443
 
 ## Methods
 
@@ -76,7 +76,7 @@ main.ts:217284
 
 #### Source
 
-main.ts:217297
+main.ts:214456
 
 ***
 
@@ -94,7 +94,7 @@ main.ts:217297
 
 #### Source
 
-main.ts:217315
+main.ts:214474
 
 ***
 
@@ -112,4 +112,4 @@ main.ts:217315
 
 #### Source
 
-main.ts:217308
+main.ts:214467

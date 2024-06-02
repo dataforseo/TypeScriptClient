@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:217756
+main.ts:214915
 
 ## Properties
 
@@ -44,13 +44,13 @@ main.ts:217756
 
 #### Source
 
-main.ts:217751
+main.ts:214910
 
 ***
 
 ### category\_trends?
 
-> **`optional`** **category\_trends**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **category\_trends**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -58,7 +58,7 @@ main.ts:217751
 
 #### Source
 
-main.ts:217748
+main.ts:214907
 
 ***
 
@@ -72,7 +72,7 @@ main.ts:217748
 
 #### Source
 
-main.ts:217752
+main.ts:214911
 
 ***
 
@@ -86,7 +86,7 @@ main.ts:217752
 
 #### Source
 
-main.ts:217750
+main.ts:214909
 
 ***
 
@@ -100,13 +100,13 @@ main.ts:217750
 
 #### Source
 
-main.ts:217749
+main.ts:214908
 
 ***
 
 ### phrase\_trends?
 
-> **`optional`** **phrase\_trends**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **phrase\_trends**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -114,13 +114,13 @@ main.ts:217749
 
 #### Source
 
-main.ts:217747
+main.ts:214906
 
 ***
 
 ### rating\_distribution?
 
-> **`optional`** **rating\_distribution**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **rating\_distribution**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -128,13 +128,13 @@ main.ts:217747
 
 #### Source
 
-main.ts:217746
+main.ts:214905
 
 ***
 
 ### search?
 
-> **`optional`** **search**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **search**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -142,13 +142,13 @@ main.ts:217746
 
 #### Source
 
-main.ts:217743
+main.ts:214902
 
 ***
 
 ### sentiment\_analysis?
 
-> **`optional`** **sentiment\_analysis**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **sentiment\_analysis**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -156,13 +156,13 @@ main.ts:217743
 
 #### Source
 
-main.ts:217745
+main.ts:214904
 
 ***
 
 ### summary?
 
-> **`optional`** **summary**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **summary**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -170,7 +170,7 @@ main.ts:217745
 
 #### Source
 
-main.ts:217744
+main.ts:214903
 
 ## Methods
 
@@ -188,7 +188,7 @@ main.ts:217744
 
 #### Source
 
-main.ts:217765
+main.ts:214924
 
 ***
 
@@ -206,7 +206,7 @@ main.ts:217765
 
 #### Source
 
-main.ts:217791
+main.ts:214950
 
 ***
 
@@ -224,4 +224,4 @@ main.ts:217791
 
 #### Source
 
-main.ts:217784
+main.ts:214943

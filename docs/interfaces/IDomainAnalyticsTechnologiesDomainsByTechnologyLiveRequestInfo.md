@@ -17,7 +17,7 @@
 > **`optional`** **categories**: `string`[]
 
 ids of the target technology categories
-required field if you don’t specify groups or technologies
+required field if you don’t specify groups, technology_paths or technologies
 you can find the full list of technology category ids on this page
 note: you can specify up to 10 technology categories in this array
 example:
@@ -25,7 +25,7 @@ example:
 
 #### Source
 
-main.ts:77619
+main.ts:77678
 
 ***
 
@@ -52,7 +52,7 @@ for more information about filters, please refer to Domain Analytics Technologie
 
 #### Source
 
-main.ts:77657
+main.ts:77716
 
 ***
 
@@ -61,7 +61,7 @@ main.ts:77657
 > **`optional`** **groups**: `string`[]
 
 ids of the target technology groups
-required field if you don’t specify technologies or categories
+required field if you don’t specify technologies, technology_paths or categories
 you can find the full list of technology group ids on this page
 note: you can specify up to 10 technology groups in this array
 example:
@@ -69,7 +69,7 @@ example:
 
 #### Source
 
-main.ts:77612
+main.ts:77671
 
 ***
 
@@ -86,7 +86,7 @@ example:
 
 #### Source
 
-main.ts:77633
+main.ts:77692
 
 ***
 
@@ -101,7 +101,7 @@ maximum value: 10000
 
 #### Source
 
-main.ts:77679
+main.ts:77738
 
 ***
 
@@ -118,7 +118,7 @@ default value: as_is
 
 #### Source
 
-main.ts:77640
+main.ts:77699
 
 ***
 
@@ -135,7 +135,7 @@ use the offset_token if you would like to offset more results
 
 #### Source
 
-main.ts:77686
+main.ts:77745
 
 ***
 
@@ -153,7 +153,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 #### Source
 
-main.ts:77694
+main.ts:77753
 
 ***
 
@@ -180,7 +180,7 @@ example:
 
 #### Source
 
-main.ts:77674
+main.ts:77733
 
 ***
 
@@ -189,7 +189,7 @@ main.ts:77674
 > **`optional`** **technologies**: `string`[]
 
 target technologies
-required field if you don’t specify groups or categories
+required field if you don’t specify groups, technology_paths or categories
 you can find the full list of technologies you can specify here on this page
 note: you can specify up to 10 technologies in this array
 example:
@@ -197,7 +197,7 @@ example:
 
 #### Source
 
-main.ts:77626
+main.ts:77685
 
 ***
 
@@ -207,7 +207,6 @@ main.ts:77626
 
 target technology paths
 required field if you don’t specify groups, technologies and categories
-if you use this field, you don’t need to specify groups, technologies and categories
 each technology path should be specified as a separate object containing “path” and “name”, where “path” is specified as “$group_id.$category_id” and “name” – as the name of the target technology;
 each object with a technology path should be separated with a comma
 you can find the full list of technology group ids, category ids and technology names on this page
@@ -217,4 +216,4 @@ example:
 
 #### Source
 
-main.ts:77605
+main.ts:77664

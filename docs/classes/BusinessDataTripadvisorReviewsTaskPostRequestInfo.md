@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:211176
+main.ts:211171
 
 ## Properties
 
@@ -50,7 +50,7 @@ default value: 10
 
 #### Source
 
-main.ts:211119
+main.ts:211114
 
 ***
 
@@ -71,7 +71,7 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Source
 
-main.ts:211075
+main.ts:211070
 
 ***
 
@@ -94,7 +94,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:211113
+main.ts:211108
 
 ***
 
@@ -117,7 +117,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:211104
+main.ts:211099
 
 ***
 
@@ -137,7 +137,7 @@ example:
 
 #### Source
 
-main.ts:211087
+main.ts:211082
 
 ***
 
@@ -157,7 +157,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:211081
+main.ts:211076
 
 ***
 
@@ -176,7 +176,7 @@ you can specify several values at once
 
 #### Source
 
-main.ts:211135
+main.ts:211130
 
 ***
 
@@ -200,7 +200,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:211172
+main.ts:211167
 
 ***
 
@@ -224,7 +224,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:211162
+main.ts:211157
 
 ***
 
@@ -246,7 +246,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:211095
+main.ts:211090
 
 ***
 
@@ -266,7 +266,7 @@ you can specify several values at once
 
 #### Source
 
-main.ts:211125
+main.ts:211120
 
 ***
 
@@ -284,7 +284,7 @@ dessert
 
 #### Source
 
-main.ts:211139
+main.ts:211134
 
 ***
 
@@ -305,7 +305,7 @@ detailed_reviews
 
 #### Source
 
-main.ts:211146
+main.ts:211141
 
 ***
 
@@ -325,7 +325,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:211152
+main.ts:211147
 
 ***
 
@@ -347,7 +347,7 @@ https://www.tripadvisor.com/Hotel_Review-g60763-d23462501-Reviews-Margaritaville
 
 #### Source
 
-main.ts:211068
+main.ts:211063
 
 ***
 
@@ -366,7 +366,7 @@ you can specify several values at once
 
 #### Source
 
-main.ts:211130
+main.ts:211125
 
 ## Methods
 
@@ -384,7 +384,7 @@ main.ts:211130
 
 #### Source
 
-main.ts:211185
+main.ts:211180
 
 ***
 
@@ -402,7 +402,7 @@ main.ts:211185
 
 #### Source
 
-main.ts:211229
+main.ts:211224
 
 ***
 
@@ -420,4 +420,4 @@ main.ts:211229
 
 #### Source
 
-main.ts:211222
+main.ts:211217

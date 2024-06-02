@@ -30,13 +30,13 @@
 
 #### Source
 
-main.ts:218114
+main.ts:215273
 
 ## Properties
 
 ### keywords\_for\_category?
 
-> **`optional`** **keywords\_for\_category**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **keywords\_for\_category**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -44,13 +44,13 @@ main.ts:218114
 
 #### Source
 
-main.ts:218109
+main.ts:215268
 
 ***
 
 ### search\_volume?
 
-> **`optional`** **search\_volume**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **search\_volume**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -58,7 +58,7 @@ main.ts:218109
 
 #### Source
 
-main.ts:218110
+main.ts:215269
 
 ## Methods
 
@@ -76,7 +76,7 @@ main.ts:218110
 
 #### Source
 
-main.ts:218123
+main.ts:215282
 
 ***
 
@@ -94,7 +94,7 @@ main.ts:218123
 
 #### Source
 
-main.ts:218141
+main.ts:215300
 
 ***
 
@@ -112,4 +112,4 @@ main.ts:218141
 
 #### Source
 
-main.ts:218134
+main.ts:215293

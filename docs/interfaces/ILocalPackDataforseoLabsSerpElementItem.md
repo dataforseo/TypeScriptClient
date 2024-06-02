@@ -24,7 +24,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:97003
+main.ts:97062
 
 ***
 
@@ -36,7 +36,7 @@ domain where a link points
 
 #### Source
 
-main.ts:97005
+main.ts:97064
 
 ***
 
@@ -51,7 +51,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:97033
+main.ts:97092
 
 ***
 
@@ -66,7 +66,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:97023
+main.ts:97082
 
 ***
 
@@ -81,7 +81,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:97028
+main.ts:97087
 
 ***
 
@@ -93,7 +93,7 @@ indicates whether the element is an ad
 
 #### Source
 
-main.ts:97011
+main.ts:97070
 
 ***
 
@@ -105,7 +105,7 @@ primary domain name in SERP
 
 #### Source
 
-main.ts:97016
+main.ts:97075
 
 ***
 
@@ -117,7 +117,7 @@ phone number
 
 #### Source
 
-main.ts:97007
+main.ts:97066
 
 ***
 
@@ -131,7 +131,7 @@ left, right
 
 #### Source
 
-main.ts:96997
+main.ts:97056
 
 ***
 
@@ -144,7 +144,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:96993
+main.ts:97052
 
 ***
 
@@ -158,7 +158,7 @@ Note: the changes are calculated even if the preceding month is not included in 
 
 #### Source
 
-main.ts:97037
+main.ts:97096
 
 ***
 
@@ -171,7 +171,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:96990
+main.ts:97049
 
 ***
 
@@ -184,7 +184,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:97014
+main.ts:97073
 
 ***
 
@@ -196,7 +196,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Source
 
-main.ts:97018
+main.ts:97077
 
 ***
 
@@ -204,11 +204,11 @@ main.ts:97018
 
 > **`optional`** **title**: `string`
 
-title of the result in SERP
+title of the item
 
 #### Source
 
-main.ts:97001
+main.ts:97060
 
 ***
 
@@ -216,11 +216,11 @@ main.ts:97001
 
 > **`optional`** **url**: `string`
 
-relevant URL of the Ad element in SERP
+URL link
 
 #### Source
 
-main.ts:97009
+main.ts:97068
 
 ***
 
@@ -232,4 +232,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:96999
+main.ts:97058

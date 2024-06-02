@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:75663
+main.ts:75720
 
 ## Properties
 
@@ -46,7 +46,7 @@ technology categories in this group
 
 #### Source
 
-main.ts:75659
+main.ts:75716
 
 ***
 
@@ -64,7 +64,7 @@ marketing, sales
 
 #### Source
 
-main.ts:75655
+main.ts:75712
 
 ***
 
@@ -80,7 +80,7 @@ title of the technology group
 
 #### Source
 
-main.ts:75657
+main.ts:75714
 
 ## Methods
 
@@ -98,7 +98,7 @@ main.ts:75657
 
 #### Source
 
-main.ts:75672
+main.ts:75729
 
 ***
 
@@ -116,7 +116,7 @@ main.ts:75672
 
 #### Source
 
-main.ts:75695
+main.ts:75752
 
 ***
 
@@ -134,4 +134,4 @@ main.ts:75695
 
 #### Source
 
-main.ts:75688
+main.ts:75745

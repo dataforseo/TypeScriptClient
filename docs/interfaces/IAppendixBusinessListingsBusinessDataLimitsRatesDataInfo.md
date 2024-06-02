@@ -18,17 +18,17 @@
 
 #### Source
 
-main.ts:217444
+main.ts:214603
 
 ***
 
 ### categories\_aggregation?
 
-> **`optional`** **categories\_aggregation**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **categories\_aggregation**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:217443
+main.ts:214602
 
 ***
 
@@ -38,14 +38,14 @@ main.ts:217443
 
 #### Source
 
-main.ts:217445
+main.ts:214604
 
 ***
 
 ### search?
 
-> **`optional`** **search**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **search**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:217442
+main.ts:214601

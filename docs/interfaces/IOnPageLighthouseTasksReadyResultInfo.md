@@ -20,7 +20,7 @@ URL for collecting the results of the OnPage Lighthouse JSON task
 
 #### Source
 
-main.ts:162343
+main.ts:162296
 
 ***
 
@@ -33,7 +33,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:162339
+main.ts:162292
 
 ***
 
@@ -45,4 +45,4 @@ user-defined task identifier
 
 #### Source
 
-main.ts:162341
+main.ts:162294

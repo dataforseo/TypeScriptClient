@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:215322
+main.ts:212481
 
 ## Properties
 
@@ -47,7 +47,7 @@ this field shows the number of likes a page received through the Facebook Like B
 
 #### Source
 
-main.ts:215318
+main.ts:212477
 
 ***
 
@@ -64,7 +64,7 @@ corresponding URL you specified in the targets array when setting a task
 
 #### Source
 
-main.ts:215315
+main.ts:212474
 
 ***
 
@@ -80,7 +80,7 @@ type of element
 
 #### Source
 
-main.ts:215312
+main.ts:212471
 
 ## Methods
 
@@ -98,7 +98,7 @@ main.ts:215312
 
 #### Source
 
-main.ts:215331
+main.ts:212490
 
 ***
 
@@ -116,7 +116,7 @@ main.ts:215331
 
 #### Source
 
-main.ts:215350
+main.ts:212509
 
 ***
 
@@ -134,4 +134,4 @@ main.ts:215350
 
 #### Source
 
-main.ts:215343
+main.ts:212502

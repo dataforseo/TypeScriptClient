@@ -20,7 +20,7 @@ indicates the number of backlink intersections with the target specified in the 
 
 #### Source
 
-main.ts:142757
+main.ts:142860
 
 ***
 
@@ -35,7 +35,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Source
 
-main.ts:142755
+main.ts:142858
 
 ***
 
@@ -47,7 +47,7 @@ competitor domain
 
 #### Source
 
-main.ts:142750
+main.ts:142853
 
 ***
 
@@ -59,4 +59,4 @@ type of element
 
 #### Source
 
-main.ts:142748
+main.ts:142851

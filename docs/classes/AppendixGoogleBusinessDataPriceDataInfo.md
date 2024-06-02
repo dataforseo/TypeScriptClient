@@ -1,8 +1,8 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
 
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+***
 
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixGoogleBusinessDataPriceDataInfo
+[Documentation](../README.md) / AppendixGoogleBusinessDataPriceDataInfo
 
 # Class: AppendixGoogleBusinessDataPriceDataInfo
 
@@ -12,168 +12,132 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixGoogleBusinessDataPriceDataInfo.md#constructor)
-
-### Properties
-
-- [live](AppendixGoogleBusinessDataPriceDataInfo.md#live)
-- [task\_get](AppendixGoogleBusinessDataPriceDataInfo.md#task_get)
-- [task\_post](AppendixGoogleBusinessDataPriceDataInfo.md#task_post)
-- [tasks\_ready](AppendixGoogleBusinessDataPriceDataInfo.md#tasks_ready)
-
-### Methods
-
-- [init](AppendixGoogleBusinessDataPriceDataInfo.md#init)
-- [toJSON](AppendixGoogleBusinessDataPriceDataInfo.md#tojson)
-- [fromJS](AppendixGoogleBusinessDataPriceDataInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixGoogleBusinessDataPriceDataInfo(data)
 
-• **new AppendixGoogleBusinessDataPriceDataInfo**(`data?`): [`AppendixGoogleBusinessDataPriceDataInfo`](AppendixGoogleBusinessDataPriceDataInfo.md)
+> **new AppendixGoogleBusinessDataPriceDataInfo**(`data`?): [`AppendixGoogleBusinessDataPriceDataInfo`](AppendixGoogleBusinessDataPriceDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixGoogleBusinessDataPriceDataInfo`](../interfaces/IAppendixGoogleBusinessDataPriceDataInfo.md) |
+• **data?**: [`IAppendixGoogleBusinessDataPriceDataInfo`](../interfaces/IAppendixGoogleBusinessDataPriceDataInfo.md)
 
 #### Returns
 
 [`AppendixGoogleBusinessDataPriceDataInfo`](AppendixGoogleBusinessDataPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
-[main.ts:211122](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211122)
+main.ts:217791
 
 ## Properties
 
-### live
+### live?
 
-• `Optional` **live**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
-
-#### Implementation of
-
-[IAppendixGoogleBusinessDataPriceDataInfo](../interfaces/IAppendixGoogleBusinessDataPriceDataInfo.md).[live](../interfaces/IAppendixGoogleBusinessDataPriceDataInfo.md#live)
-
-#### Defined in
-
-[main.ts:211115](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211115)
-
-___
-
-
-### task\_get
-
-• `Optional` **task\_get**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **live**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixGoogleBusinessDataPriceDataInfo](../interfaces/IAppendixGoogleBusinessDataPriceDataInfo.md).[task_get](../interfaces/IAppendixGoogleBusinessDataPriceDataInfo.md#task_get)
+[`IAppendixGoogleBusinessDataPriceDataInfo`](../interfaces/IAppendixGoogleBusinessDataPriceDataInfo.md).[`live`](../interfaces/IAppendixGoogleBusinessDataPriceDataInfo.md#live)
 
-#### Defined in
+#### Source
 
-[main.ts:211116](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211116)
+main.ts:217784
 
-___
+***
 
+### task\_get?
 
-### task\_post
-
-• `Optional` **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
-
-#### Implementation of
-
-[IAppendixGoogleBusinessDataPriceDataInfo](../interfaces/IAppendixGoogleBusinessDataPriceDataInfo.md).[task_post](../interfaces/IAppendixGoogleBusinessDataPriceDataInfo.md#task_post)
-
-#### Defined in
-
-[main.ts:211117](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211117)
-
-___
-
-
-### tasks\_ready
-
-• `Optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> **`optional`** **task\_get**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
-[IAppendixGoogleBusinessDataPriceDataInfo](../interfaces/IAppendixGoogleBusinessDataPriceDataInfo.md).[tasks_ready](../interfaces/IAppendixGoogleBusinessDataPriceDataInfo.md#tasks_ready)
+[`IAppendixGoogleBusinessDataPriceDataInfo`](../interfaces/IAppendixGoogleBusinessDataPriceDataInfo.md).[`task_get`](../interfaces/IAppendixGoogleBusinessDataPriceDataInfo.md#task_get)
 
-#### Defined in
+#### Source
 
-[main.ts:211118](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211118)
+main.ts:217785
+
+***
+
+### task\_post?
+
+> **`optional`** **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+
+#### Implementation of
+
+[`IAppendixGoogleBusinessDataPriceDataInfo`](../interfaces/IAppendixGoogleBusinessDataPriceDataInfo.md).[`task_post`](../interfaces/IAppendixGoogleBusinessDataPriceDataInfo.md#task_post)
+
+#### Source
+
+main.ts:217786
+
+***
+
+### tasks\_ready?
+
+> **`optional`** **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+
+#### Implementation of
+
+[`IAppendixGoogleBusinessDataPriceDataInfo`](../interfaces/IAppendixGoogleBusinessDataPriceDataInfo.md).[`tasks_ready`](../interfaces/IAppendixGoogleBusinessDataPriceDataInfo.md#tasks_ready)
+
+#### Source
+
+main.ts:217787
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-[main.ts:211131](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211131)
+main.ts:217800
 
-___
+***
 
+### toJSON()
 
-### toJSON
-
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-[main.ts:211151](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211151)
+main.ts:217820
 
-___
+***
 
+### fromJS()
 
-### fromJS
-
-▸ **fromJS**(`data`): [`AppendixGoogleBusinessDataPriceDataInfo`](AppendixGoogleBusinessDataPriceDataInfo.md)
+> **`static`** **fromJS**(`data`): [`AppendixGoogleBusinessDataPriceDataInfo`](AppendixGoogleBusinessDataPriceDataInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppendixGoogleBusinessDataPriceDataInfo`](AppendixGoogleBusinessDataPriceDataInfo.md)
 
-#### Defined in
+#### Source
 
-[main.ts:211144](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211144)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:217813

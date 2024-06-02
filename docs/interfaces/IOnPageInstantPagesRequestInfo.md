@@ -23,7 +23,7 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 #### Source
 
-main.ts:161115
+main.ts:161062
 
 ***
 
@@ -50,7 +50,7 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 #### Source
 
-main.ts:161087
+main.ts:161034
 
 ***
 
@@ -66,7 +66,7 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:161099
+main.ts:161046
 
 ***
 
@@ -82,7 +82,7 @@ maximum value: 3
 
 #### Source
 
-main.ts:161105
+main.ts:161052
 
 ***
 
@@ -98,7 +98,7 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:161093
+main.ts:161040
 
 ***
 
@@ -113,7 +113,7 @@ default value: false
 
 #### Source
 
-main.ts:161168
+main.ts:161121
 
 ***
 
@@ -132,7 +132,7 @@ Note: only integer threshold values can be modified;
 
 #### Source
 
-main.ts:161173
+main.ts:161126
 
 ***
 
@@ -153,7 +153,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:161158
+main.ts:161111
 
 ***
 
@@ -170,7 +170,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 #### Source
 
-main.ts:161070
+main.ts:161017
 
 ***
 
@@ -186,7 +186,7 @@ false
 
 #### Source
 
-main.ts:161136
+main.ts:161089
 
 ***
 
@@ -200,12 +200,12 @@ by using this parameter you will be able to emulate a browser when loading a web
 enable_browser_rendering loads styles, images, fonts, animations, videos, and other resources on a page;
 default value: false
 set to true to obtain Core Web Vitals (FID, CLS, LCP) metrics in the response;
-if you use this field, enable_javascript, and load_resources parameters must be set to true
+if you use this field, parameters enable_javascript, and load_resources are enabled automatically;
 Note: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page
 
 #### Source
 
-main.ts:161130
+main.ts:161083
 
 ***
 
@@ -221,7 +221,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:161121
+main.ts:161074
 
 ***
 
@@ -237,7 +237,23 @@ falseif you use this field, enable_javascript must be set to true;
 
 #### Source
 
-main.ts:161147
+main.ts:161100
+
+***
+
+### load\_resources?
+
+> **`optional`** **load\_resources**: `boolean`
+
+load resources
+optional field
+set to true if you want to load image, stylesheets, scripts, and broken resources
+default value: false
+Note: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page
+
+#### Source
+
+main.ts:161068
 
 ***
 
@@ -252,7 +268,7 @@ default value: false
 
 #### Source
 
-main.ts:161141
+main.ts:161094
 
 ***
 
@@ -267,7 +283,7 @@ default value: false
 
 #### Source
 
-main.ts:161110
+main.ts:161057
 
 ***
 
@@ -284,7 +300,7 @@ to prevent this error from occurring, avoid setting tasks with the same domain i
 
 #### Source
 
-main.ts:161063
+main.ts:161010
 
 ***
 
@@ -299,4 +315,4 @@ default value: false
 
 #### Source
 
-main.ts:161163
+main.ts:161116

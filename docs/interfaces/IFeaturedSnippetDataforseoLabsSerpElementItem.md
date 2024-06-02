@@ -24,7 +24,7 @@ backlinks information for the target website
 
 #### Source
 
-main.ts:96859
+main.ts:96918
 
 ***
 
@@ -36,7 +36,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:96834
+main.ts:96893
 
 ***
 
@@ -48,7 +48,7 @@ domain where a link points
 
 #### Source
 
-main.ts:96828
+main.ts:96887
 
 ***
 
@@ -62,7 +62,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:96854
+main.ts:96913
 
 ***
 
@@ -77,7 +77,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:96850
+main.ts:96909
 
 ***
 
@@ -89,7 +89,7 @@ title of a given element
 
 #### Source
 
-main.ts:96832
+main.ts:96891
 
 ***
 
@@ -101,7 +101,7 @@ primary domain name in SERP
 
 #### Source
 
-main.ts:96843
+main.ts:96902
 
 ***
 
@@ -115,7 +115,7 @@ left, right
 
 #### Source
 
-main.ts:96824
+main.ts:96883
 
 ***
 
@@ -128,7 +128,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:96820
+main.ts:96879
 
 ***
 
@@ -141,7 +141,7 @@ contains information about the ranking changes of the SERP element since the pre
 
 #### Source
 
-main.ts:96857
+main.ts:96916
 
 ***
 
@@ -154,7 +154,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:96817
+main.ts:96876
 
 ***
 
@@ -166,7 +166,7 @@ page and domain rank information
 
 #### Source
 
-main.ts:96861
+main.ts:96920
 
 ***
 
@@ -178,7 +178,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Source
 
-main.ts:96845
+main.ts:96904
 
 ***
 
@@ -190,7 +190,7 @@ search engine type
 
 #### Source
 
-main.ts:96841
+main.ts:96900
 
 ***
 
@@ -203,7 +203,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:96839
+main.ts:96898
 
 ***
 
@@ -211,11 +211,11 @@ main.ts:96839
 
 > **`optional`** **title**: `string`
 
-title of the result in SERP
+title of the item
 
 #### Source
 
-main.ts:96830
+main.ts:96889
 
 ***
 
@@ -223,11 +223,11 @@ main.ts:96830
 
 > **`optional`** **url**: `string`
 
-relevant URL of the Ad element in SERP
+URL link
 
 #### Source
 
-main.ts:96836
+main.ts:96895
 
 ***
 
@@ -239,4 +239,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:96826
+main.ts:96885

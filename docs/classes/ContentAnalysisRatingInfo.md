@@ -32,7 +32,7 @@ content rating rating related to content_info
 
 #### Source
 
-main.ts:164206
+main.ts:164159
 
 ## Properties
 
@@ -48,7 +48,7 @@ maximum value for the rating name
 
 #### Source
 
-main.ts:164200
+main.ts:164153
 
 ***
 
@@ -65,7 +65,7 @@ here you can find the following elements: Max5, Percents, CustomMax
 
 #### Source
 
-main.ts:164194
+main.ts:164147
 
 ***
 
@@ -81,7 +81,7 @@ number of votes
 
 #### Source
 
-main.ts:164198
+main.ts:164151
 
 ***
 
@@ -97,7 +97,7 @@ the value of the rating
 
 #### Source
 
-main.ts:164196
+main.ts:164149
 
 ***
 
@@ -113,7 +113,7 @@ relative rating
 
 #### Source
 
-main.ts:164202
+main.ts:164155
 
 ## Methods
 
@@ -131,7 +131,7 @@ main.ts:164202
 
 #### Source
 
-main.ts:164215
+main.ts:164168
 
 ***
 
@@ -149,7 +149,7 @@ main.ts:164215
 
 #### Source
 
-main.ts:164236
+main.ts:164189
 
 ***
 
@@ -167,4 +167,4 @@ main.ts:164236
 
 #### Source
 
-main.ts:164229
+main.ts:164182

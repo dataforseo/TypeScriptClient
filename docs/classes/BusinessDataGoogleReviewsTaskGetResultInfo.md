@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:206283
+main.ts:206270
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:206247
+main.ts:206234
 
 ***
 
@@ -65,7 +65,7 @@ learn more about the identifier in this help center article
 
 #### Source
 
-main.ts:206271
+main.ts:206258
 
 ***
 
@@ -84,7 +84,7 @@ example:
 
 #### Source
 
-main.ts:206252
+main.ts:206239
 
 ***
 
@@ -101,7 +101,7 @@ learn more about the identifier in this help center article
 
 #### Source
 
-main.ts:206264
+main.ts:206251
 
 ***
 
@@ -118,7 +118,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Source
 
-main.ts:206279
+main.ts:206266
 
 ***
 
@@ -135,7 +135,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Source
 
-main.ts:206276
+main.ts:206263
 
 ***
 
@@ -152,7 +152,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Source
 
-main.ts:206236
+main.ts:206223
 
 ***
 
@@ -168,7 +168,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:206244
+main.ts:206231
 
 ***
 
@@ -184,7 +184,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:206242
+main.ts:206229
 
 ***
 
@@ -201,7 +201,7 @@ learn more about the identifier in this help center article
 
 #### Source
 
-main.ts:206267
+main.ts:206254
 
 ***
 
@@ -218,7 +218,7 @@ popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:206261
+main.ts:206248
 
 ***
 
@@ -234,7 +234,7 @@ the total number of reviews
 
 #### Source
 
-main.ts:206273
+main.ts:206260
 
 ***
 
@@ -250,7 +250,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:206240
+main.ts:206227
 
 ***
 
@@ -267,7 +267,7 @@ additional information (e.g., address) on the ‘reviews’ element for which th
 
 #### Source
 
-main.ts:206258
+main.ts:206245
 
 ***
 
@@ -284,7 +284,7 @@ the name of the local establishment for which the reviews are collected
 
 #### Source
 
-main.ts:206255
+main.ts:206242
 
 ***
 
@@ -300,7 +300,7 @@ type of element
 
 #### Source
 
-main.ts:206238
+main.ts:206225
 
 ## Methods
 
@@ -318,7 +318,7 @@ main.ts:206238
 
 #### Source
 
-main.ts:206292
+main.ts:206279
 
 ***
 
@@ -336,7 +336,7 @@ main.ts:206292
 
 #### Source
 
-main.ts:206328
+main.ts:206315
 
 ***
 
@@ -354,4 +354,4 @@ main.ts:206328
 
 #### Source
 
-main.ts:206321
+main.ts:206308

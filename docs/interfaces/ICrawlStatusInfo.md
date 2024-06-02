@@ -21,7 +21,7 @@ indicates the max_crawl_pages limit you specified when setting a task
 
 #### Source
 
-main.ts:21863
+main.ts:21522
 
 ***
 
@@ -33,7 +33,7 @@ number of crawled pages
 
 #### Source
 
-main.ts:21867
+main.ts:21526
 
 ***
 
@@ -45,4 +45,4 @@ number of pages that are currently in the crawling queue
 
 #### Source
 
-main.ts:21865
+main.ts:21524

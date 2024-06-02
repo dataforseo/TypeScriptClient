@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:141538
+main.ts:141641
 
 ## Properties
 
@@ -46,7 +46,7 @@ items array
 
 #### Source
 
-main.ts:141534
+main.ts:141637
 
 ***
 
@@ -62,7 +62,7 @@ number of items in the items array
 
 #### Source
 
-main.ts:141532
+main.ts:141635
 
 ***
 
@@ -78,7 +78,7 @@ target in a POST array
 
 #### Source
 
-main.ts:141526
+main.ts:141629
 
 ***
 
@@ -96,7 +96,7 @@ example.com and blog.example.com are counted as one referring domain
 
 #### Source
 
-main.ts:141530
+main.ts:141633
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:141530
 
 #### Source
 
-main.ts:141547
+main.ts:141650
 
 ***
 
@@ -132,7 +132,7 @@ main.ts:141547
 
 #### Source
 
-main.ts:141571
+main.ts:141674
 
 ***
 
@@ -150,4 +150,4 @@ main.ts:141571
 
 #### Source
 
-main.ts:141564
+main.ts:141667

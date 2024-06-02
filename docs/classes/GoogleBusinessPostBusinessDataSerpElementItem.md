@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:200230
+main.ts:200215
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:200230
 
 #### Source
 
-main.ts:20904
+main.ts:20578
 
 ***
 
@@ -68,7 +68,7 @@ author of the post
 
 #### Source
 
-main.ts:200207
+main.ts:200192
 
 ***
 
@@ -84,7 +84,7 @@ url of an image included in the post
 
 #### Source
 
-main.ts:200215
+main.ts:200200
 
 ***
 
@@ -100,7 +100,7 @@ links included in the post
 
 #### Source
 
-main.ts:200226
+main.ts:200211
 
 ***
 
@@ -117,7 +117,7 @@ can take the following values: right
 
 #### Source
 
-main.ts:200203
+main.ts:200188
 
 ***
 
@@ -135,7 +135,7 @@ in the following format:
 
 #### Source
 
-main.ts:200219
+main.ts:200204
 
 ***
 
@@ -151,7 +151,7 @@ main content of a post
 
 #### Source
 
-main.ts:200211
+main.ts:200196
 
 ***
 
@@ -168,7 +168,7 @@ absolute position among all present elements
 
 #### Source
 
-main.ts:200200
+main.ts:200185
 
 ***
 
@@ -185,7 +185,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:200197
+main.ts:200182
 
 ***
 
@@ -201,7 +201,7 @@ additional content of a post
 
 #### Source
 
-main.ts:200209
+main.ts:200194
 
 ***
 
@@ -220,7 +220,7 @@ example:
 
 #### Source
 
-main.ts:200224
+main.ts:200209
 
 ***
 
@@ -236,7 +236,7 @@ url of a post
 
 #### Source
 
-main.ts:200213
+main.ts:200198
 
 ***
 
@@ -252,7 +252,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:200205
+main.ts:200190
 
 ## Methods
 
@@ -274,7 +274,7 @@ main.ts:200205
 
 #### Source
 
-main.ts:200235
+main.ts:200220
 
 ***
 
@@ -296,7 +296,7 @@ main.ts:200235
 
 #### Source
 
-main.ts:200268
+main.ts:200253
 
 ***
 
@@ -318,4 +318,4 @@ main.ts:200268
 
 #### Source
 
-main.ts:200261
+main.ts:200246

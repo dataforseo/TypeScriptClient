@@ -20,7 +20,7 @@ description
 
 #### Source
 
-main.ts:31668
+main.ts:31539
 
 ***
 
@@ -35,7 +35,7 @@ by Google
 
 #### Source
 
-main.ts:31673
+main.ts:31544
 
 ***
 
@@ -48,7 +48,7 @@ URL of the page on the marketplace website where the product is hosted
 
 #### Source
 
-main.ts:31676
+main.ts:31547
 
 ***
 
@@ -60,7 +60,7 @@ price indicated in the element
 
 #### Source
 
-main.ts:31663
+main.ts:31534
 
 ***
 
@@ -73,7 +73,7 @@ indicates the source of information included in the top_stories_element
 
 #### Source
 
-main.ts:31666
+main.ts:31537
 
 ***
 
@@ -85,7 +85,7 @@ title of a given link element
 
 #### Source
 
-main.ts:31661
+main.ts:31532
 
 ***
 
@@ -97,7 +97,7 @@ type of element
 
 #### Source
 
-main.ts:31659
+main.ts:31530
 
 ***
 
@@ -109,4 +109,4 @@ URL
 
 #### Source
 
-main.ts:31678
+main.ts:31549

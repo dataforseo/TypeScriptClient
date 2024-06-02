@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:123833
+main.ts:123936
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Source
 
-main.ts:123825
+main.ts:123928
 
 ***
 
@@ -62,7 +62,7 @@ URL for collecting the results of the task
 
 #### Source
 
-main.ts:123829
+main.ts:123932
 
 ***
 
@@ -78,7 +78,7 @@ type of the task
 
 #### Source
 
-main.ts:123823
+main.ts:123926
 
 ***
 
@@ -95,7 +95,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:123819
+main.ts:123922
 
 ***
 
@@ -111,7 +111,7 @@ search engine specified when setting the task
 
 #### Source
 
-main.ts:123821
+main.ts:123924
 
 ***
 
@@ -127,7 +127,7 @@ user-defined task identifier
 
 #### Source
 
-main.ts:123827
+main.ts:123930
 
 ## Methods
 
@@ -145,7 +145,7 @@ main.ts:123827
 
 #### Source
 
-main.ts:123842
+main.ts:123945
 
 ***
 
@@ -163,7 +163,7 @@ main.ts:123842
 
 #### Source
 
-main.ts:123864
+main.ts:123967
 
 ***
 
@@ -181,4 +181,4 @@ main.ts:123864
 
 #### Source
 
-main.ts:123857
+main.ts:123960

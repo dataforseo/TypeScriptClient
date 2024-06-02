@@ -20,7 +20,7 @@ application id received in a POST array
 
 #### Source
 
-main.ts:189340
+main.ts:189305
 
 ***
 
@@ -33,7 +33,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:189351
+main.ts:189316
 
 ***
 
@@ -48,7 +48,7 @@ example:
 
 #### Source
 
-main.ts:189356
+main.ts:189321
 
 ***
 
@@ -61,7 +61,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Source
 
-main.ts:189370
+main.ts:189335
 
 ***
 
@@ -74,7 +74,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Source
 
-main.ts:189367
+main.ts:189332
 
 ***
 
@@ -86,7 +86,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:189348
+main.ts:189313
 
 ***
 
@@ -98,7 +98,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:189346
+main.ts:189311
 
 ***
 
@@ -111,7 +111,7 @@ rating of the application for which the reviews are collected
 
 #### Source
 
-main.ts:189362
+main.ts:189327
 
 ***
 
@@ -123,7 +123,7 @@ the total number of reviews
 
 #### Source
 
-main.ts:189364
+main.ts:189329
 
 ***
 
@@ -135,7 +135,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:189344
+main.ts:189309
 
 ***
 
@@ -148,7 +148,7 @@ title of the application for which the reviews are collected
 
 #### Source
 
-main.ts:189359
+main.ts:189324
 
 ***
 
@@ -160,4 +160,4 @@ type of element
 
 #### Source
 
-main.ts:189342
+main.ts:189307

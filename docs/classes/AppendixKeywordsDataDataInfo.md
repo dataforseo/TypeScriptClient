@@ -30,13 +30,13 @@
 
 #### Source
 
-main.ts:218182
+main.ts:215341
 
 ## Properties
 
 ### ad\_traffic\_by\_keywords?
 
-> **`optional`** **ad\_traffic\_by\_keywords**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **ad\_traffic\_by\_keywords**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -44,7 +44,7 @@ main.ts:218182
 
 #### Source
 
-main.ts:218164
+main.ts:215323
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:218164
 
 #### Source
 
-main.ts:218171
+main.ts:215330
 
 ***
 
@@ -72,7 +72,7 @@ main.ts:218171
 
 #### Source
 
-main.ts:218169
+main.ts:215328
 
 ***
 
@@ -86,7 +86,7 @@ main.ts:218169
 
 #### Source
 
-main.ts:218175
+main.ts:215334
 
 ***
 
@@ -100,13 +100,13 @@ main.ts:218175
 
 #### Source
 
-main.ts:218170
+main.ts:215329
 
 ***
 
 ### explore?
 
-> **`optional`** **explore**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **explore**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -114,7 +114,7 @@ main.ts:218170
 
 #### Source
 
-main.ts:218168
+main.ts:215327
 
 ***
 
@@ -128,7 +128,7 @@ main.ts:218168
 
 #### Source
 
-main.ts:218177
+main.ts:215336
 
 ***
 
@@ -142,7 +142,7 @@ main.ts:218177
 
 #### Source
 
-main.ts:218174
+main.ts:215333
 
 ***
 
@@ -156,7 +156,7 @@ main.ts:218174
 
 #### Source
 
-main.ts:218178
+main.ts:215337
 
 ***
 
@@ -170,13 +170,13 @@ main.ts:218178
 
 #### Source
 
-main.ts:218172
+main.ts:215331
 
 ***
 
 ### keywords\_for\_keywords?
 
-> **`optional`** **keywords\_for\_keywords**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **keywords\_for\_keywords**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -184,13 +184,13 @@ main.ts:218172
 
 #### Source
 
-main.ts:218161
+main.ts:215320
 
 ***
 
 ### keywords\_for\_site?
 
-> **`optional`** **keywords\_for\_site**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **keywords\_for\_site**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -198,7 +198,7 @@ main.ts:218161
 
 #### Source
 
-main.ts:218162
+main.ts:215321
 
 ***
 
@@ -212,7 +212,7 @@ main.ts:218162
 
 #### Source
 
-main.ts:218165
+main.ts:215324
 
 ***
 
@@ -226,7 +226,7 @@ main.ts:218165
 
 #### Source
 
-main.ts:218166
+main.ts:215325
 
 ***
 
@@ -240,13 +240,13 @@ main.ts:218166
 
 #### Source
 
-main.ts:218176
+main.ts:215335
 
 ***
 
 ### search\_volume?
 
-> **`optional`** **search\_volume**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **search\_volume**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -254,13 +254,13 @@ main.ts:218176
 
 #### Source
 
-main.ts:218163
+main.ts:215322
 
 ***
 
 ### search\_volume\_history?
 
-> **`optional`** **search\_volume\_history**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **search\_volume\_history**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -268,7 +268,7 @@ main.ts:218163
 
 #### Source
 
-main.ts:218173
+main.ts:215332
 
 ***
 
@@ -282,7 +282,7 @@ main.ts:218173
 
 #### Source
 
-main.ts:218167
+main.ts:215326
 
 ## Methods
 
@@ -300,7 +300,7 @@ main.ts:218167
 
 #### Source
 
-main.ts:218191
+main.ts:215350
 
 ***
 
@@ -318,7 +318,7 @@ main.ts:218191
 
 #### Source
 
-main.ts:218225
+main.ts:215384
 
 ***
 
@@ -336,4 +336,4 @@ main.ts:218225
 
 #### Source
 
-main.ts:218218
+main.ts:215377

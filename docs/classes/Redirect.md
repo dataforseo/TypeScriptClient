@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:137494
+main.ts:137597
 
 ## Properties
 
@@ -46,7 +46,7 @@ HTTP status code of the URL
 
 #### Source
 
-main.ts:137488
+main.ts:137591
 
 ***
 
@@ -62,7 +62,7 @@ type of element
 
 #### Source
 
-main.ts:137486
+main.ts:137589
 
 ***
 
@@ -78,7 +78,7 @@ indirect link URL
 
 #### Source
 
-main.ts:137490
+main.ts:137593
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:137490
 
 #### Source
 
-main.ts:137503
+main.ts:137606
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:137503
 
 #### Source
 
-main.ts:137522
+main.ts:137625
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:137522
 
 #### Source
 
-main.ts:137515
+main.ts:137618

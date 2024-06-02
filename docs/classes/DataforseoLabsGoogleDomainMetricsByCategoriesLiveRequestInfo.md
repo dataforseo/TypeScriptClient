@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:87841
+main.ts:87900
 
 ## Properties
 
@@ -49,7 +49,7 @@ you can download the full list of possible categories
 
 #### Source
 
-main.ts:87704
+main.ts:87763
 
 ***
 
@@ -70,7 +70,7 @@ Note: we do not recommend setting correlate to false
 
 #### Source
 
-main.ts:87795
+main.ts:87854
 
 ***
 
@@ -88,7 +88,7 @@ if specified, the API will return only domains with organic_etv lesser than the 
 
 #### Source
 
-main.ts:87788
+main.ts:87847
 
 ***
 
@@ -106,7 +106,7 @@ if specified, the API will return only domains with organic_etv greater than the
 
 #### Source
 
-main.ts:87784
+main.ts:87843
 
 ***
 
@@ -131,7 +131,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:87816
+main.ts:87875
 
 ***
 
@@ -156,7 +156,7 @@ minimum date: "2020-10-01"
 
 #### Source
 
-main.ts:87715
+main.ts:87774
 
 ***
 
@@ -176,7 +176,7 @@ default value: true
 
 #### Source
 
-main.ts:87780
+main.ts:87839
 
 ***
 
@@ -199,7 +199,7 @@ default value:
 
 #### Source
 
-main.ts:87766
+main.ts:87825
 
 ***
 
@@ -220,7 +220,7 @@ en
 
 #### Source
 
-main.ts:87757
+main.ts:87816
 
 ***
 
@@ -242,7 +242,7 @@ English
 
 #### Source
 
-main.ts:87750
+main.ts:87809
 
 ***
 
@@ -261,7 +261,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:87800
+main.ts:87859
 
 ***
 
@@ -283,7 +283,7 @@ example:
 
 #### Source
 
-main.ts:87742
+main.ts:87801
 
 ***
 
@@ -305,7 +305,7 @@ United Kingdom
 
 #### Source
 
-main.ts:87734
+main.ts:87793
 
 ***
 
@@ -324,7 +324,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 #### Source
 
-main.ts:87805
+main.ts:87864
 
 ***
 
@@ -353,7 +353,7 @@ example:
 
 #### Source
 
-main.ts:87831
+main.ts:87890
 
 ***
 
@@ -378,7 +378,7 @@ minimum date: "2020-10-01"
 
 #### Source
 
-main.ts:87726
+main.ts:87785
 
 ***
 
@@ -398,7 +398,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:87837
+main.ts:87896
 
 ***
 
@@ -420,7 +420,7 @@ maximum value: 5
 
 #### Source
 
-main.ts:87774
+main.ts:87833
 
 ## Methods
 
@@ -438,7 +438,7 @@ main.ts:87774
 
 #### Source
 
-main.ts:87850
+main.ts:87909
 
 ***
 
@@ -456,7 +456,7 @@ main.ts:87850
 
 #### Source
 
-main.ts:87900
+main.ts:87959
 
 ***
 
@@ -474,4 +474,4 @@ main.ts:87900
 
 #### Source
 
-main.ts:87893
+main.ts:87952

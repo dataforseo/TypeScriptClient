@@ -22,7 +22,7 @@ the value for a given domain may differ when combined with different target webs
 
 #### Source
 
-main.ts:92087
+main.ts:92146
 
 ***
 
@@ -40,7 +40,7 @@ note: in this array ranking and traffic data is provided for the returned compet
 
 #### Source
 
-main.ts:92104
+main.ts:92163
 
 ***
 
@@ -52,7 +52,7 @@ domain name
 
 #### Source
 
-main.ts:92083
+main.ts:92142
 
 ***
 
@@ -69,7 +69,7 @@ full overview of ranking and traffic data relevant to all keywords that the prov
 
 #### Source
 
-main.ts:92096
+main.ts:92155
 
 ***
 
@@ -81,7 +81,7 @@ number of intersecting keywords
 
 #### Source
 
-main.ts:92093
+main.ts:92152
 
 ***
 
@@ -99,7 +99,7 @@ note: in this array ranking and traffic data is provided for the target consider
 
 #### Source
 
-main.ts:92100
+main.ts:92159
 
 ***
 
@@ -111,7 +111,7 @@ search engine type
 
 #### Source
 
-main.ts:92081
+main.ts:92140
 
 ***
 
@@ -125,4 +125,4 @@ the value for a given domain may differ when combined with different target webs
 
 #### Source
 
-main.ts:92091
+main.ts:92150

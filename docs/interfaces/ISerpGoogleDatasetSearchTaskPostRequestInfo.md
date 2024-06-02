@@ -27,7 +27,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:53419
+main.ts:53406
 
 ***
 
@@ -41,7 +41,7 @@ possible value: desktop
 
 #### Source
 
-main.ts:53434
+main.ts:53421
 
 ***
 
@@ -55,7 +55,7 @@ possible values: other, archive, text, image, document, tabular
 
 #### Source
 
-main.ts:53447
+main.ts:53434
 
 ***
 
@@ -69,7 +69,7 @@ possible values: true, false
 
 #### Source
 
-main.ts:53455
+main.ts:53442
 
 ***
 
@@ -86,7 +86,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Source
 
-main.ts:53402
+main.ts:53389
 
 ***
 
@@ -101,7 +101,7 @@ en
 
 #### Source
 
-main.ts:53430
+main.ts:53417
 
 ***
 
@@ -117,7 +117,7 @@ English
 
 #### Source
 
-main.ts:53425
+main.ts:53412
 
 ***
 
@@ -131,7 +131,7 @@ possible values: 1m, 1y, 3y
 
 #### Source
 
-main.ts:53443
+main.ts:53430
 
 ***
 
@@ -146,7 +146,7 @@ default value: windows
 
 #### Source
 
-main.ts:53439
+main.ts:53426
 
 ***
 
@@ -166,7 +166,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:53490
+main.ts:53477
 
 ***
 
@@ -181,7 +181,7 @@ only value: advanced
 
 #### Source
 
-main.ts:53480
+main.ts:53467
 
 ***
 
@@ -201,7 +201,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:53475
+main.ts:53462
 
 ***
 
@@ -219,7 +219,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:53410
+main.ts:53397
 
 ***
 
@@ -235,7 +235,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:53465
+main.ts:53452
 
 ***
 
@@ -249,7 +249,7 @@ possible values: humanities, social_sciences, life_sciences, agriculture, natura
 
 #### Source
 
-main.ts:53459
+main.ts:53446
 
 ***
 
@@ -263,4 +263,4 @@ possible values: commercial, noncommercial
 
 #### Source
 
-main.ts:53451
+main.ts:53438

@@ -30,13 +30,13 @@
 
 #### Source
 
-main.ts:216715
+main.ts:213874
 
 ## Properties
 
 ### aggregation\_technologies?
 
-> **`optional`** **aggregation\_technologies**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **aggregation\_technologies**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -44,13 +44,13 @@ main.ts:216715
 
 #### Source
 
-main.ts:216708
+main.ts:213867
 
 ***
 
 ### domain\_technologies?
 
-> **`optional`** **domain\_technologies**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **domain\_technologies**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -58,13 +58,13 @@ main.ts:216708
 
 #### Source
 
-main.ts:216703
+main.ts:213862
 
 ***
 
 ### domains\_by\_html\_terms?
 
-> **`optional`** **domains\_by\_html\_terms**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **domains\_by\_html\_terms**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -72,13 +72,13 @@ main.ts:216703
 
 #### Source
 
-main.ts:216710
+main.ts:213869
 
 ***
 
 ### domains\_by\_technology?
 
-> **`optional`** **domains\_by\_technology**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **domains\_by\_technology**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -86,7 +86,7 @@ main.ts:216710
 
 #### Source
 
-main.ts:216704
+main.ts:213863
 
 ***
 
@@ -100,7 +100,7 @@ main.ts:216704
 
 #### Source
 
-main.ts:216705
+main.ts:213864
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:216705
 
 #### Source
 
-main.ts:216706
+main.ts:213865
 
 ***
 
@@ -128,13 +128,13 @@ main.ts:216706
 
 #### Source
 
-main.ts:216707
+main.ts:213866
 
 ***
 
 ### technologies\_summary?
 
-> **`optional`** **technologies\_summary**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **technologies\_summary**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -142,13 +142,13 @@ main.ts:216707
 
 #### Source
 
-main.ts:216709
+main.ts:213868
 
 ***
 
 ### technology\_stats?
 
-> **`optional`** **technology\_stats**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **technology\_stats**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -156,7 +156,7 @@ main.ts:216709
 
 #### Source
 
-main.ts:216711
+main.ts:213870
 
 ## Methods
 
@@ -174,7 +174,7 @@ main.ts:216711
 
 #### Source
 
-main.ts:216724
+main.ts:213883
 
 ***
 
@@ -192,7 +192,7 @@ main.ts:216724
 
 #### Source
 
-main.ts:216749
+main.ts:213908
 
 ***
 
@@ -210,4 +210,4 @@ main.ts:216749
 
 #### Source
 
-main.ts:216742
+main.ts:213901

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:103931
+main.ts:104034
 
 ## Properties
 
@@ -50,7 +50,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 #### Source
 
-main.ts:103891
+main.ts:103994
 
 ***
 
@@ -71,7 +71,7 @@ en
 
 #### Source
 
-main.ts:103921
+main.ts:104024
 
 ***
 
@@ -92,7 +92,7 @@ English
 
 #### Source
 
-main.ts:103914
+main.ts:104017
 
 ***
 
@@ -114,7 +114,7 @@ example:
 
 #### Source
 
-main.ts:103907
+main.ts:104010
 
 ***
 
@@ -136,7 +136,7 @@ United States
 
 #### Source
 
-main.ts:103899
+main.ts:104002
 
 ***
 
@@ -156,7 +156,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:103927
+main.ts:104030
 
 ## Methods
 
@@ -174,7 +174,7 @@ main.ts:103927
 
 #### Source
 
-main.ts:103940
+main.ts:104043
 
 ***
 
@@ -192,7 +192,7 @@ main.ts:103940
 
 #### Source
 
-main.ts:103966
+main.ts:104069
 
 ***
 
@@ -210,4 +210,4 @@ main.ts:103966
 
 #### Source
 
-main.ts:103959
+main.ts:104062

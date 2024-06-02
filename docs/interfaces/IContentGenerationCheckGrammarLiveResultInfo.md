@@ -20,7 +20,7 @@ initial text in the POST request
 
 #### Source
 
-main.ts:169547
+main.ts:169500
 
 ***
 
@@ -32,7 +32,7 @@ number of input tokens in the POST request
 
 #### Source
 
-main.ts:169541
+main.ts:169494
 
 ***
 
@@ -44,7 +44,7 @@ contains grammar or spelling errors and related data
 
 #### Source
 
-main.ts:169553
+main.ts:169506
 
 ***
 
@@ -56,7 +56,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:169551
+main.ts:169504
 
 ***
 
@@ -68,7 +68,7 @@ language code in the POST request
 
 #### Source
 
-main.ts:169549
+main.ts:169502
 
 ***
 
@@ -80,7 +80,7 @@ number of new tokens in the response
 
 #### Source
 
-main.ts:169545
+main.ts:169498
 
 ***
 
@@ -92,4 +92,4 @@ number of output tokens in the response
 
 #### Source
 
-main.ts:169543
+main.ts:169496

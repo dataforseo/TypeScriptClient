@@ -17,6 +17,7 @@
 - [`SerpGoogleLanguagesResponseInfo`](SerpGoogleLanguagesResponseInfo.md)
 - [`SerpGoogleOrganicTaskPostResponseInfo`](SerpGoogleOrganicTaskPostResponseInfo.md)
 - [`SerpGoogleOrganicTasksReadyResponseInfo`](SerpGoogleOrganicTasksReadyResponseInfo.md)
+- [`SerpTasksReadyResponseInfo`](SerpTasksReadyResponseInfo.md)
 - [`SerpGoogleOrganicTasksFixedResponseInfo`](SerpGoogleOrganicTasksFixedResponseInfo.md)
 - [`SerpGoogleOrganicTaskGetRegularResponseInfo`](SerpGoogleOrganicTaskGetRegularResponseInfo.md)
 - [`SerpGoogleOrganicTaskGetAdvancedResponseInfo`](SerpGoogleOrganicTaskGetAdvancedResponseInfo.md)
@@ -479,15 +480,6 @@
 - [`BusinessDataTripadvisorReviewsTaskPostResponseInfo`](BusinessDataTripadvisorReviewsTaskPostResponseInfo.md)
 - [`BusinessDataTripadvisorReviewsTasksReadyResponseInfo`](BusinessDataTripadvisorReviewsTasksReadyResponseInfo.md)
 - [`BusinessDataTripadvisorReviewsTaskGetResponseInfo`](BusinessDataTripadvisorReviewsTaskGetResponseInfo.md)
-- [`BusinessDataYelpLocationsResponseInfo`](BusinessDataYelpLocationsResponseInfo.md)
-- [`BusinessDataYelpLocationsCountryResponseInfo`](BusinessDataYelpLocationsCountryResponseInfo.md)
-- [`BusinessDataYelpLanguagesResponseInfo`](BusinessDataYelpLanguagesResponseInfo.md)
-- [`BusinessDataYelpSearchTaskPostResponseInfo`](BusinessDataYelpSearchTaskPostResponseInfo.md)
-- [`BusinessDataYelpSearchTasksReadyResponseInfo`](BusinessDataYelpSearchTasksReadyResponseInfo.md)
-- [`BusinessDataYelpSearchTaskGetResponseInfo`](BusinessDataYelpSearchTaskGetResponseInfo.md)
-- [`BusinessDataYelpReviewsTaskPostResponseInfo`](BusinessDataYelpReviewsTaskPostResponseInfo.md)
-- [`BusinessDataYelpReviewsTasksReadyResponseInfo`](BusinessDataYelpReviewsTasksReadyResponseInfo.md)
-- [`BusinessDataYelpReviewsTaskGetResponseInfo`](BusinessDataYelpReviewsTaskGetResponseInfo.md)
 - [`BusinessDataSocialMediaPinterestLiveResponseInfo`](BusinessDataSocialMediaPinterestLiveResponseInfo.md)
 - [`BusinessDataSocialMediaFacebookLiveResponseInfo`](BusinessDataSocialMediaFacebookLiveResponseInfo.md)
 - [`BusinessDataSocialMediaRedditLiveResponseInfo`](BusinessDataSocialMediaRedditLiveResponseInfo.md)
@@ -520,7 +512,7 @@
 
 #### Source
 
-main.ts:23409
+main.ts:23068
 
 ## Properties
 
@@ -536,7 +528,7 @@ total tasks cost, USD
 
 #### Source
 
-main.ts:23401
+main.ts:23060
 
 ***
 
@@ -553,7 +545,7 @@ you can find the full list of the response codes here
 
 #### Source
 
-main.ts:23394
+main.ts:23053
 
 ***
 
@@ -570,7 +562,7 @@ you can find the full list of general informational messages here
 
 #### Source
 
-main.ts:23397
+main.ts:23056
 
 ***
 
@@ -586,7 +578,7 @@ the number of tasks in the tasks array
 
 #### Source
 
-main.ts:23403
+main.ts:23062
 
 ***
 
@@ -602,7 +594,7 @@ the number of tasks in the tasks array returned with an error
 
 #### Source
 
-main.ts:23405
+main.ts:23064
 
 ***
 
@@ -618,7 +610,7 @@ total execution time, seconds
 
 #### Source
 
-main.ts:23399
+main.ts:23058
 
 ***
 
@@ -634,7 +626,7 @@ the current version of the API
 
 #### Source
 
-main.ts:23391
+main.ts:23050
 
 ## Methods
 
@@ -652,7 +644,7 @@ main.ts:23391
 
 #### Source
 
-main.ts:23418
+main.ts:23077
 
 ***
 
@@ -670,7 +662,7 @@ main.ts:23418
 
 #### Source
 
-main.ts:23441
+main.ts:23100
 
 ***
 
@@ -688,4 +680,4 @@ main.ts:23441
 
 #### Source
 
-main.ts:23434
+main.ts:23093

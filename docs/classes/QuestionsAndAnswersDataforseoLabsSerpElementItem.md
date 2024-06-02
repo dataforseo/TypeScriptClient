@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:98872
+main.ts:98966
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:98872
 
 #### Source
 
-main.ts:20377
+main.ts:20051
 
 ***
 
@@ -60,7 +60,8 @@ main.ts:20377
 
 > **`optional`** **items**: [`QuestionsAndAnswersElement`](QuestionsAndAnswersElement.md)[]
 
-elements of search results found in SERP
+additional items present in the element
+if there are none, equals null
 
 #### Implementation of
 
@@ -68,7 +69,7 @@ elements of search results found in SERP
 
 #### Source
 
-main.ts:98868
+main.ts:98962
 
 ***
 
@@ -86,7 +87,7 @@ left, right
 
 #### Source
 
-main.ts:98864
+main.ts:98957
 
 ***
 
@@ -103,7 +104,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:98860
+main.ts:98953
 
 ***
 
@@ -120,7 +121,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:98857
+main.ts:98950
 
 ***
 
@@ -136,7 +137,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:98866
+main.ts:98959
 
 ## Methods
 
@@ -158,7 +159,7 @@ main.ts:98866
 
 #### Source
 
-main.ts:98877
+main.ts:98971
 
 ***
 
@@ -180,7 +181,7 @@ main.ts:98877
 
 #### Source
 
-main.ts:98903
+main.ts:98997
 
 ***
 
@@ -202,4 +203,4 @@ main.ts:98903
 
 #### Source
 
-main.ts:98896
+main.ts:98990

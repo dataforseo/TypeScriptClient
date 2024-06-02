@@ -20,11 +20,12 @@
 
 > **`optional`** **items**: `string`[]
 
-elements of search results found in SERP
+additional items present in the element
+if there are none, equals null
 
 #### Source
 
-main.ts:95114
+main.ts:95217
 
 ***
 
@@ -38,7 +39,7 @@ left, right
 
 #### Source
 
-main.ts:95110
+main.ts:95212
 
 ***
 
@@ -51,7 +52,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:95106
+main.ts:95208
 
 ***
 
@@ -64,7 +65,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:95103
+main.ts:95205
 
 ***
 
@@ -76,7 +77,7 @@ search engine type
 
 #### Source
 
-main.ts:95100
+main.ts:95202
 
 ***
 
@@ -88,4 +89,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:95112
+main.ts:95214

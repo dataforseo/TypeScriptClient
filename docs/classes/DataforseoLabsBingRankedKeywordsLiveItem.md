@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:108943
+main.ts:109046
 
 ## Properties
 
@@ -46,7 +46,7 @@ keyword data for the returned keyword
 
 #### Source
 
-main.ts:108937
+main.ts:109040
 
 ***
 
@@ -62,7 +62,7 @@ contains data on the domain’s SERP element found for the returned keyword
 
 #### Source
 
-main.ts:108939
+main.ts:109042
 
 ***
 
@@ -78,7 +78,7 @@ search engine type
 
 #### Source
 
-main.ts:108935
+main.ts:109038
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:108935
 
 #### Source
 
-main.ts:108952
+main.ts:109055
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:108952
 
 #### Source
 
-main.ts:108971
+main.ts:109074
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:108971
 
 #### Source
 
-main.ts:108964
+main.ts:109067

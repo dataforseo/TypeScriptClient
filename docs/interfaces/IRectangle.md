@@ -20,7 +20,7 @@ height of the element in pixels
 
 #### Source
 
-main.ts:21803
+main.ts:21462
 
 ***
 
@@ -32,7 +32,7 @@ width of the element in pixels
 
 #### Source
 
-main.ts:21801
+main.ts:21460
 
 ***
 
@@ -45,7 +45,7 @@ x-axis coordinate of the top-left corner of the result’s snippet, where top-le
 
 #### Source
 
-main.ts:21796
+main.ts:21455
 
 ***
 
@@ -58,4 +58,4 @@ y-axis coordinate of the top-left corner of the result’s snippet, where top-le
 
 #### Source
 
-main.ts:21799
+main.ts:21458

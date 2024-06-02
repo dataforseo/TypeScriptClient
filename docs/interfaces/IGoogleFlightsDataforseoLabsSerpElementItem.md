@@ -20,11 +20,12 @@
 
 > **`optional`** **items**: [`GoogleFlightsElement`](../classes/GoogleFlightsElement.md)[]
 
-elements of search results found in SERP
+additional items present in the element
+if there are none, equals null
 
 #### Source
 
-main.ts:97887
+main.ts:97960
 
 ***
 
@@ -38,7 +39,7 @@ left, right
 
 #### Source
 
-main.ts:97879
+main.ts:97951
 
 ***
 
@@ -51,7 +52,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:97875
+main.ts:97947
 
 ***
 
@@ -64,7 +65,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:97872
+main.ts:97944
 
 ***
 
@@ -72,11 +73,11 @@ main.ts:97872
 
 > **`optional`** **title**: `string`
 
-title of the result in SERP
+title of the item
 
 #### Source
 
-main.ts:97883
+main.ts:97955
 
 ***
 
@@ -84,11 +85,11 @@ main.ts:97883
 
 > **`optional`** **url**: `string`
 
-relevant URL of the Ad element in SERP
+URL link
 
 #### Source
 
-main.ts:97885
+main.ts:97957
 
 ***
 
@@ -100,4 +101,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:97881
+main.ts:97953

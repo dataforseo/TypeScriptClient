@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:65439
+main.ts:65496
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:65414
+main.ts:65471
 
 ***
 
@@ -63,7 +63,7 @@ number of comments on the video
 
 #### Source
 
-main.ts:65431
+main.ts:65488
 
 ***
 
@@ -82,7 +82,7 @@ example:
 
 #### Source
 
-main.ts:65419
+main.ts:65476
 
 ***
 
@@ -101,7 +101,7 @@ youtube_comment
 
 #### Source
 
-main.ts:65427
+main.ts:65484
 
 ***
 
@@ -117,7 +117,7 @@ elements of search results found in SERP
 
 #### Source
 
-main.ts:65435
+main.ts:65492
 
 ***
 
@@ -133,7 +133,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:65433
+main.ts:65490
 
 ***
 
@@ -149,7 +149,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:65411
+main.ts:65468
 
 ***
 
@@ -165,7 +165,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:65409
+main.ts:65466
 
 ***
 
@@ -181,7 +181,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:65407
+main.ts:65464
 
 ***
 
@@ -198,7 +198,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Source
 
-main.ts:65422
+main.ts:65479
 
 ***
 
@@ -214,7 +214,7 @@ title of the video
 
 #### Source
 
-main.ts:65429
+main.ts:65486
 
 ***
 
@@ -230,7 +230,7 @@ ID of the video received in a POST array
 
 #### Source
 
-main.ts:65405
+main.ts:65462
 
 ## Methods
 
@@ -248,7 +248,7 @@ main.ts:65405
 
 #### Source
 
-main.ts:65448
+main.ts:65505
 
 ***
 
@@ -266,7 +266,7 @@ main.ts:65448
 
 #### Source
 
-main.ts:65484
+main.ts:65541
 
 ***
 
@@ -284,4 +284,4 @@ main.ts:65484
 
 #### Source
 
-main.ts:65477
+main.ts:65534

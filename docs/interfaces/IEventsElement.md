@@ -20,7 +20,7 @@ text alongside the link title
 
 #### Source
 
-main.ts:32232
+main.ts:32103
 
 ***
 
@@ -32,7 +32,7 @@ title of a given link element
 
 #### Source
 
-main.ts:32230
+main.ts:32101
 
 ***
 
@@ -44,7 +44,7 @@ type of element
 
 #### Source
 
-main.ts:32228
+main.ts:32099
 
 ***
 
@@ -56,4 +56,4 @@ URL
 
 #### Source
 
-main.ts:32234
+main.ts:32105

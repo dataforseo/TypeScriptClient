@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:222681
+main.ts:219840
 
 ## Properties
 
@@ -53,7 +53,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Source
 
-main.ts:222625
+main.ts:219784
 
 ***
 
@@ -76,7 +76,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Source
 
-main.ts:222634
+main.ts:219793
 
 ***
 
@@ -99,7 +99,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Source
 
-main.ts:222616
+main.ts:219775
 
 ***
 
@@ -120,7 +120,7 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 #### Source
 
-main.ts:222607
+main.ts:219766
 
 ***
 
@@ -143,7 +143,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:222530
+main.ts:219689
 
 ***
 
@@ -162,7 +162,7 @@ default value: desktop
 
 #### Source
 
-main.ts:222587
+main.ts:219746
 
 ***
 
@@ -182,7 +182,7 @@ default value: true
 
 #### Source
 
-main.ts:222600
+main.ts:219759
 
 ***
 
@@ -205,7 +205,7 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 
 #### Source
 
-main.ts:222507
+main.ts:219666
 
 ***
 
@@ -226,7 +226,7 @@ en
 
 #### Source
 
-main.ts:222575
+main.ts:219734
 
 ***
 
@@ -247,7 +247,7 @@ English
 
 #### Source
 
-main.ts:222568
+main.ts:219727
 
 ***
 
@@ -268,7 +268,7 @@ example:
 
 #### Source
 
-main.ts:222551
+main.ts:219710
 
 ***
 
@@ -292,7 +292,7 @@ example:
 
 #### Source
 
-main.ts:222561
+main.ts:219720
 
 ***
 
@@ -313,7 +313,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:222544
+main.ts:219703
 
 ***
 
@@ -334,7 +334,7 @@ learn more at our help center
 
 #### Source
 
-main.ts:222537
+main.ts:219696
 
 ***
 
@@ -355,7 +355,7 @@ default value: android
 
 #### Source
 
-main.ts:222594
+main.ts:219753
 
 ***
 
@@ -376,7 +376,7 @@ possible values: from 1 to 4
 
 #### Source
 
-main.ts:222641
+main.ts:219800
 
 ***
 
@@ -400,7 +400,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:222677
+main.ts:219836
 
 ***
 
@@ -420,7 +420,7 @@ regular, advanced, html
 
 #### Source
 
-main.ts:222667
+main.ts:219826
 
 ***
 
@@ -444,7 +444,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:222661
+main.ts:219820
 
 ***
 
@@ -466,7 +466,7 @@ The cost can be calculated on the Pricing page
 
 #### Source
 
-main.ts:222521
+main.ts:219680
 
 ***
 
@@ -487,7 +487,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Source
 
-main.ts:222582
+main.ts:219741
 
 ***
 
@@ -505,7 +505,7 @@ get the list of available parameters and additional details here
 
 #### Source
 
-main.ts:222645
+main.ts:219804
 
 ***
 
@@ -525,7 +525,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:222651
+main.ts:219810
 
 ***
 
@@ -545,7 +545,7 @@ https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAI
 
 #### Source
 
-main.ts:222513
+main.ts:219672
 
 ## Methods
 
@@ -563,7 +563,7 @@ main.ts:222513
 
 #### Source
 
-main.ts:222690
+main.ts:219849
 
 ***
 
@@ -581,7 +581,7 @@ main.ts:222690
 
 #### Source
 
-main.ts:222730
+main.ts:219889
 
 ***
 
@@ -599,4 +599,4 @@ main.ts:222730
 
 #### Source
 
-main.ts:222723
+main.ts:219882

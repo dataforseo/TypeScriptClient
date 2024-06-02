@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:110479
+main.ts:110582
 
 ## Properties
 
@@ -59,7 +59,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:110453
+main.ts:110556
 
 ***
 
@@ -78,7 +78,7 @@ default value: true
 
 #### Source
 
-main.ts:110420
+main.ts:110523
 
 ***
 
@@ -100,7 +100,7 @@ default value:
 
 #### Source
 
-main.ts:110428
+main.ts:110531
 
 ***
 
@@ -122,7 +122,7 @@ you can specify the maximum of 200 keywords
 
 #### Source
 
-main.ts:110381
+main.ts:110484
 
 ***
 
@@ -144,7 +144,7 @@ en
 
 #### Source
 
-main.ts:110415
+main.ts:110518
 
 ***
 
@@ -166,7 +166,7 @@ English
 
 #### Source
 
-main.ts:110407
+main.ts:110510
 
 ***
 
@@ -185,7 +185,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:110433
+main.ts:110536
 
 ***
 
@@ -208,7 +208,7 @@ example:
 
 #### Source
 
-main.ts:110399
+main.ts:110502
 
 ***
 
@@ -231,7 +231,7 @@ United States
 
 #### Source
 
-main.ts:110390
+main.ts:110493
 
 ***
 
@@ -250,7 +250,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 #### Source
 
-main.ts:110438
+main.ts:110541
 
 ***
 
@@ -280,7 +280,7 @@ example:
 
 #### Source
 
-main.ts:110469
+main.ts:110572
 
 ***
 
@@ -300,7 +300,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:110475
+main.ts:110578
 
 ## Methods
 
@@ -318,7 +318,7 @@ main.ts:110475
 
 #### Source
 
-main.ts:110488
+main.ts:110591
 
 ***
 
@@ -336,7 +336,7 @@ main.ts:110488
 
 #### Source
 
-main.ts:110532
+main.ts:110635
 
 ***
 
@@ -354,4 +354,4 @@ main.ts:110532
 
 #### Source
 
-main.ts:110525
+main.ts:110628

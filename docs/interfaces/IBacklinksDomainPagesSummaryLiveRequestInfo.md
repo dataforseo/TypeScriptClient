@@ -26,7 +26,7 @@ example:
 
 #### Source
 
-main.ts:140415
+main.ts:140518
 
 ***
 
@@ -45,7 +45,7 @@ default value: live
 
 #### Source
 
-main.ts:140376
+main.ts:140479
 
 ***
 
@@ -55,12 +55,12 @@ main.ts:140376
 
 indicates whether the backlinks from subdomains of the target are excluded
 optional field
-if set to false, the backlinks from subdomains of the target will be ommited and you won’t receive the same domain in the response;
+if set to false, backlinks from the subdomains of the target domain will be ommited and you won’t receive the same domain in the response;
 default value: true
 
 #### Source
 
-main.ts:140431
+main.ts:140534
 
 ***
 
@@ -87,7 +87,7 @@ The full list of possible filters is available here.
 
 #### Source
 
-main.ts:140393
+main.ts:140496
 
 ***
 
@@ -103,7 +103,7 @@ default value: true
 
 #### Source
 
-main.ts:140426
+main.ts:140529
 
 ***
 
@@ -111,14 +111,14 @@ main.ts:140426
 
 > **`optional`** **include\_subdomains**: `boolean`
 
-indicates if the subdomains of the target will be included in the search
+indicates if the subdomains of the target domain will be included in the search
 optional field
 if set to false, the subdomains will be ignored
 default value: true
 
 #### Source
 
-main.ts:140420
+main.ts:140523
 
 ***
 
@@ -139,7 +139,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:140367
+main.ts:140470
 
 ***
 
@@ -154,7 +154,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:140351
+main.ts:140454
 
 ***
 
@@ -169,7 +169,7 @@ if you specify the 10 value, the first ten anchors in the results array will be 
 
 #### Source
 
-main.ts:140356
+main.ts:140459
 
 ***
 
@@ -193,7 +193,7 @@ example:
 
 #### Source
 
-main.ts:140407
+main.ts:140510
 
 ***
 
@@ -209,7 +209,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:140437
+main.ts:140540
 
 ***
 
@@ -224,4 +224,4 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Source
 
-main.ts:140346
+main.ts:140449

@@ -14,41 +14,41 @@
 
 ### aggregation\_technologies?
 
-> **`optional`** **aggregation\_technologies**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **aggregation\_technologies**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:216774
+main.ts:213933
 
 ***
 
 ### domain\_technologies?
 
-> **`optional`** **domain\_technologies**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **domain\_technologies**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:216769
+main.ts:213928
 
 ***
 
 ### domains\_by\_html\_terms?
 
-> **`optional`** **domains\_by\_html\_terms**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **domains\_by\_html\_terms**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:216776
+main.ts:213935
 
 ***
 
 ### domains\_by\_technology?
 
-> **`optional`** **domains\_by\_technology**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **domains\_by\_technology**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:216770
+main.ts:213929
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:216770
 
 #### Source
 
-main.ts:216771
+main.ts:213930
 
 ***
 
@@ -68,7 +68,7 @@ main.ts:216771
 
 #### Source
 
-main.ts:216772
+main.ts:213931
 
 ***
 
@@ -78,24 +78,24 @@ main.ts:216772
 
 #### Source
 
-main.ts:216773
+main.ts:213932
 
 ***
 
 ### technologies\_summary?
 
-> **`optional`** **technologies\_summary**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **technologies\_summary**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:216775
+main.ts:213934
 
 ***
 
 ### technology\_stats?
 
-> **`optional`** **technology\_stats**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **technology\_stats**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:216777
+main.ts:213936

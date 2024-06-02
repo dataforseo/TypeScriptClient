@@ -21,7 +21,7 @@ the list of supported SERP elements can be found below
 
 #### Source
 
-main.ts:92697
+main.ts:92756
 
 ***
 
@@ -33,7 +33,7 @@ keyword data for the returned keyword
 
 #### Source
 
-main.ts:92694
+main.ts:92753
 
 ***
 
@@ -45,7 +45,7 @@ search engine type
 
 #### Source
 
-main.ts:92692
+main.ts:92751
 
 ***
 
@@ -58,4 +58,4 @@ the list of supported SERP elements can be found below
 
 #### Source
 
-main.ts:92700
+main.ts:92759

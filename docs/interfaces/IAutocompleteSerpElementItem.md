@@ -22,7 +22,7 @@
 
 #### Source
 
-main.ts:52494
+main.ts:52479
 
 ***
 
@@ -35,7 +35,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:52477
+main.ts:52456
 
 ***
 
@@ -49,7 +49,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:52474
+main.ts:52453
 
 ***
 
@@ -66,7 +66,7 @@ chrome/chrome-omni
 
 #### Source
 
-main.ts:52484
+main.ts:52463
 
 ***
 
@@ -79,7 +79,7 @@ url to search results relevant to the google autocomplete suggestion
 
 #### Source
 
-main.ts:52493
+main.ts:52472
 
 ***
 
@@ -91,7 +91,7 @@ google autocomplete keyword suggestion
 
 #### Source
 
-main.ts:52486
+main.ts:52465
 
 ***
 
@@ -105,4 +105,20 @@ chrome/chrome-omni
 
 #### Source
 
-main.ts:52490
+main.ts:52469
+
+***
+
+### thumbnail\_url?
+
+> **`optional`** **thumbnail\_url**: `string`
+
+url of the thumbnail image
+url of the thumbnail image of the google autocomplete suggestion
+Note: only available for the following client:
+gws-wiz
+gws-wiz-serp
+
+#### Source
+
+main.ts:52478

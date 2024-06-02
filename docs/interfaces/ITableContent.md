@@ -20,7 +20,7 @@ content of the body of the table
 
 #### Source
 
-main.ts:159761
+main.ts:159674
 
 ***
 
@@ -32,7 +32,7 @@ parsed content of the footer
 
 #### Source
 
-main.ts:159763
+main.ts:159676
 
 ***
 
@@ -44,4 +44,4 @@ content of the header of the table
 
 #### Source
 
-main.ts:159759
+main.ts:159672

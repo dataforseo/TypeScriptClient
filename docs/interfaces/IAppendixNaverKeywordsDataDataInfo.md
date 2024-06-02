@@ -14,18 +14,18 @@
 
 ### keywords\_for\_category?
 
-> **`optional`** **keywords\_for\_category**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **keywords\_for\_category**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:218154
+main.ts:215313
 
 ***
 
 ### search\_volume?
 
-> **`optional`** **search\_volume**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **search\_volume**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:218155
+main.ts:215314

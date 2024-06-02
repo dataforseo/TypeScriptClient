@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:38431
+main.ts:38399
 
 ## Properties
 
@@ -53,7 +53,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Source
 
-main.ts:38401
+main.ts:38368
 
 ***
 
@@ -64,6 +64,7 @@ main.ts:38401
 browser screen resolution ratio
 optional field
 you can set a custom browser screen resolution ratio to calculate pixel rankings for a particular device;
+possible values: from 1 to 3;
 by default, the parameter is set to:
 1 for desktop;
 3 for mobile on android;
@@ -76,7 +77,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Source
 
-main.ts:38410
+main.ts:38378
 
 ***
 
@@ -99,7 +100,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Source
 
-main.ts:38392
+main.ts:38359
 
 ***
 
@@ -120,7 +121,7 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 #### Source
 
-main.ts:38383
+main.ts:38350
 
 ***
 
@@ -143,7 +144,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:38293
+main.ts:38260
 
 ***
 
@@ -162,7 +163,7 @@ default value: desktop
 
 #### Source
 
-main.ts:38350
+main.ts:38317
 
 ***
 
@@ -182,7 +183,7 @@ default value: true
 
 #### Source
 
-main.ts:38376
+main.ts:38343
 
 ***
 
@@ -205,7 +206,7 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 
 #### Source
 
-main.ts:38278
+main.ts:38245
 
 ***
 
@@ -226,7 +227,7 @@ en
 
 #### Source
 
-main.ts:38338
+main.ts:38305
 
 ***
 
@@ -247,7 +248,7 @@ English
 
 #### Source
 
-main.ts:38331
+main.ts:38298
 
 ***
 
@@ -268,7 +269,7 @@ example:
 
 #### Source
 
-main.ts:38314
+main.ts:38281
 
 ***
 
@@ -292,7 +293,7 @@ example:
 
 #### Source
 
-main.ts:38324
+main.ts:38291
 
 ***
 
@@ -313,7 +314,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:38307
+main.ts:38274
 
 ***
 
@@ -334,7 +335,7 @@ learn more at our help center
 
 #### Source
 
-main.ts:38300
+main.ts:38267
 
 ***
 
@@ -355,7 +356,7 @@ default value: android
 
 #### Source
 
-main.ts:38357
+main.ts:38324
 
 ***
 
@@ -376,7 +377,7 @@ possible values: from 1 to 4
 
 #### Source
 
-main.ts:38417
+main.ts:38385
 
 ***
 
@@ -397,7 +398,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Source
 
-main.ts:38345
+main.ts:38312
 
 ***
 
@@ -415,7 +416,7 @@ get the list of available parameters and additional details here
 
 #### Source
 
-main.ts:38421
+main.ts:38389
 
 ***
 
@@ -435,7 +436,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:38427
+main.ts:38395
 
 ***
 
@@ -462,7 +463,7 @@ example.com/example-page*  – returns results for all domain’s URLs that star
 
 #### Source
 
-main.ts:38370
+main.ts:38337
 
 ***
 
@@ -482,7 +483,7 @@ https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAI
 
 #### Source
 
-main.ts:38284
+main.ts:38251
 
 ## Methods
 
@@ -500,7 +501,7 @@ main.ts:38284
 
 #### Source
 
-main.ts:38440
+main.ts:38408
 
 ***
 
@@ -518,7 +519,7 @@ main.ts:38440
 
 #### Source
 
-main.ts:38477
+main.ts:38445
 
 ***
 
@@ -536,4 +537,4 @@ main.ts:38477
 
 #### Source
 
-main.ts:38470
+main.ts:38438

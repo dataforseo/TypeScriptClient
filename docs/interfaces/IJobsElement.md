@@ -20,7 +20,7 @@ author
 
 #### Source
 
-main.ts:30529
+main.ts:30400
 
 ***
 
@@ -32,7 +32,7 @@ contract type
 
 #### Source
 
-main.ts:30538
+main.ts:30409
 
 ***
 
@@ -44,7 +44,7 @@ description
 
 #### Source
 
-main.ts:30527
+main.ts:30398
 
 ***
 
@@ -56,7 +56,7 @@ the time when the job was posted
 
 #### Source
 
-main.ts:30531
+main.ts:30402
 
 ***
 
@@ -68,7 +68,7 @@ salary
 
 #### Source
 
-main.ts:30540
+main.ts:30411
 
 ***
 
@@ -83,7 +83,7 @@ example:
 
 #### Source
 
-main.ts:30536
+main.ts:30407
 
 ***
 
@@ -95,7 +95,7 @@ title of a given link element
 
 #### Source
 
-main.ts:30525
+main.ts:30396
 
 ***
 
@@ -107,7 +107,7 @@ type of element
 
 #### Source
 
-main.ts:30523
+main.ts:30394
 
 ***
 
@@ -119,4 +119,4 @@ URL
 
 #### Source
 
-main.ts:30542
+main.ts:30413

@@ -16,9 +16,6 @@
 - [`TrustpilotReviewSearchBusinessDataSerpElementItem`](TrustpilotReviewSearchBusinessDataSerpElementItem.md)
 - [`TripadvisorSearchOrganicBusinessDataSerpElementItem`](TripadvisorSearchOrganicBusinessDataSerpElementItem.md)
 - [`TripadvisorReviewSearchBusinessDataSerpElementItem`](TripadvisorReviewSearchBusinessDataSerpElementItem.md)
-- [`YelpSearchOrganicBusinessDataSerpElementItem`](YelpSearchOrganicBusinessDataSerpElementItem.md)
-- [`YelpSearchPaidBusinessDataSerpElementItem`](YelpSearchPaidBusinessDataSerpElementItem.md)
-- [`YelpReviewsSearchBusinessDataSerpElementItem`](YelpReviewsSearchBusinessDataSerpElementItem.md)
 
 ## Implements
 
@@ -44,7 +41,7 @@
 
 #### Source
 
-main.ts:20906
+main.ts:20580
 
 ## Properties
 
@@ -54,7 +51,7 @@ main.ts:20906
 
 #### Source
 
-main.ts:20904
+main.ts:20578
 
 ## Methods
 
@@ -72,7 +69,7 @@ main.ts:20904
 
 #### Source
 
-main.ts:20916
+main.ts:20590
 
 ***
 
@@ -90,7 +87,7 @@ main.ts:20916
 
 #### Source
 
-main.ts:20987
+main.ts:20646
 
 ***
 
@@ -108,4 +105,4 @@ main.ts:20987
 
 #### Source
 
-main.ts:20925
+main.ts:20599

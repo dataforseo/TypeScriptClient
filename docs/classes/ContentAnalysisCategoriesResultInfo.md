@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:163738
+main.ts:163691
 
 ## Properties
 
@@ -46,7 +46,7 @@ category code
 
 #### Source
 
-main.ts:163722
+main.ts:163675
 
 ***
 
@@ -70,7 +70,7 @@ corresponds to:
 
 #### Source
 
-main.ts:163734
+main.ts:163687
 
 ***
 
@@ -86,7 +86,7 @@ full name of the category
 
 #### Source
 
-main.ts:163724
+main.ts:163677
 
 ## Methods
 
@@ -104,7 +104,7 @@ main.ts:163724
 
 #### Source
 
-main.ts:163747
+main.ts:163700
 
 ***
 
@@ -122,7 +122,7 @@ main.ts:163747
 
 #### Source
 
-main.ts:163766
+main.ts:163719
 
 ***
 
@@ -140,4 +140,4 @@ main.ts:163766
 
 #### Source
 
-main.ts:163759
+main.ts:163712

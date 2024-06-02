@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:97814
+main.ts:97886
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:97814
 
 #### Source
 
-main.ts:20377
+main.ts:20051
 
 ***
 
@@ -60,7 +60,8 @@ main.ts:20377
 
 > **`optional`** **items**: [`GoogleFlightsElement`](GoogleFlightsElement.md)[]
 
-elements of search results found in SERP
+additional items present in the element
+if there are none, equals null
 
 #### Implementation of
 
@@ -68,7 +69,7 @@ elements of search results found in SERP
 
 #### Source
 
-main.ts:97810
+main.ts:97882
 
 ***
 
@@ -86,7 +87,7 @@ left, right
 
 #### Source
 
-main.ts:97802
+main.ts:97873
 
 ***
 
@@ -103,7 +104,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:97798
+main.ts:97869
 
 ***
 
@@ -120,7 +121,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:97795
+main.ts:97866
 
 ***
 
@@ -128,7 +129,7 @@ main.ts:97795
 
 > **`optional`** **title**: `string`
 
-title of the result in SERP
+title of the item
 
 #### Implementation of
 
@@ -136,7 +137,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:97806
+main.ts:97877
 
 ***
 
@@ -144,7 +145,7 @@ main.ts:97806
 
 > **`optional`** **url**: `string`
 
-relevant URL of the Ad element in SERP
+URL link
 
 #### Implementation of
 
@@ -152,7 +153,7 @@ relevant URL of the Ad element in SERP
 
 #### Source
 
-main.ts:97808
+main.ts:97879
 
 ***
 
@@ -168,7 +169,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:97804
+main.ts:97875
 
 ## Methods
 
@@ -190,7 +191,7 @@ main.ts:97804
 
 #### Source
 
-main.ts:97819
+main.ts:97891
 
 ***
 
@@ -212,7 +213,7 @@ main.ts:97819
 
 #### Source
 
-main.ts:97847
+main.ts:97919
 
 ***
 
@@ -234,4 +235,4 @@ main.ts:97847
 
 #### Source
 
-main.ts:97840
+main.ts:97912

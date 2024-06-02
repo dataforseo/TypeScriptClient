@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:90052
+main.ts:90111
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:90052
 
 #### Source
 
-main.ts:20377
+main.ts:20051
 
 ***
 
@@ -74,7 +74,7 @@ this feature appears after clicking on the three dots next to most results
 
 #### Source
 
-main.ts:90023
+main.ts:90082
 
 ***
 
@@ -91,7 +91,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 #### Source
 
-main.ts:90010
+main.ts:90069
 
 ***
 
@@ -107,7 +107,7 @@ backlinks information for the target website
 
 #### Source
 
-main.ts:90046
+main.ts:90105
 
 ***
 
@@ -123,7 +123,7 @@ breadcrumb in SERP
 
 #### Source
 
-main.ts:89991
+main.ts:90050
 
 ***
 
@@ -139,7 +139,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:90003
+main.ts:90062
 
 ***
 
@@ -155,7 +155,7 @@ subdomain in SERP
 
 #### Source
 
-main.ts:89985
+main.ts:90044
 
 ***
 
@@ -173,7 +173,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:90041
+main.ts:90100
 
 ***
 
@@ -192,7 +192,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:90032
+main.ts:90091
 
 ***
 
@@ -208,7 +208,7 @@ includes additional information appended after the result description in SERP
 
 #### Source
 
-main.ts:90007
+main.ts:90066
 
 ***
 
@@ -224,7 +224,7 @@ words highlighted in bold within the results description
 
 #### Source
 
-main.ts:90015
+main.ts:90074
 
 ***
 
@@ -243,7 +243,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:90037
+main.ts:90096
 
 ***
 
@@ -259,7 +259,7 @@ indicates whether the element is a featured_snippet
 
 #### Source
 
-main.ts:89999
+main.ts:90058
 
 ***
 
@@ -275,7 +275,7 @@ indicates whether the element contains an image
 
 #### Source
 
-main.ts:89995
+main.ts:90054
 
 ***
 
@@ -291,7 +291,7 @@ indicates whether the element is marked as malicious
 
 #### Source
 
-main.ts:90001
+main.ts:90060
 
 ***
 
@@ -307,7 +307,7 @@ indicates whether the element contains a video
 
 #### Source
 
-main.ts:89997
+main.ts:90056
 
 ***
 
@@ -325,7 +325,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:90019
+main.ts:90078
 
 ***
 
@@ -341,7 +341,7 @@ primary domain name in SERP
 
 #### Source
 
-main.ts:90025
+main.ts:90084
 
 ***
 
@@ -359,7 +359,7 @@ left, right
 
 #### Source
 
-main.ts:89981
+main.ts:90040
 
 ***
 
@@ -375,7 +375,7 @@ includes additional information appended before the result description in SERP
 
 #### Source
 
-main.ts:90005
+main.ts:90064
 
 ***
 
@@ -392,7 +392,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:89977
+main.ts:90036
 
 ***
 
@@ -409,7 +409,7 @@ contains information about the ranking changes of the SERP element since the pre
 
 #### Source
 
-main.ts:90044
+main.ts:90103
 
 ***
 
@@ -426,7 +426,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:89974
+main.ts:90033
 
 ***
 
@@ -442,7 +442,7 @@ page and domain rank information
 
 #### Source
 
-main.ts:90048
+main.ts:90107
 
 ***
 
@@ -459,7 +459,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:90013
+main.ts:90072
 
 ***
 
@@ -475,7 +475,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Source
 
-main.ts:90027
+main.ts:90086
 
 ***
 
@@ -491,7 +491,7 @@ search engine type
 
 #### Source
 
-main.ts:89971
+main.ts:90030
 
 ***
 
@@ -507,7 +507,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:89987
+main.ts:90046
 
 ***
 
@@ -523,7 +523,7 @@ relevant URL in SERP
 
 #### Source
 
-main.ts:89989
+main.ts:90048
 
 ***
 
@@ -539,7 +539,7 @@ relevant website name in SERP
 
 #### Source
 
-main.ts:89993
+main.ts:90052
 
 ***
 
@@ -555,7 +555,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:89983
+main.ts:90042
 
 ## Methods
 
@@ -577,7 +577,7 @@ main.ts:89983
 
 #### Source
 
-main.ts:90057
+main.ts:90116
 
 ***
 
@@ -599,7 +599,7 @@ main.ts:90057
 
 #### Source
 
-main.ts:90118
+main.ts:90177
 
 ***
 
@@ -621,4 +621,4 @@ main.ts:90118
 
 #### Source
 
-main.ts:90111
+main.ts:90170

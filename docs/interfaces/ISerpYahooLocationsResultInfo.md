@@ -20,7 +20,7 @@ ISO country code of the location
 
 #### Source
 
-main.ts:66178
+main.ts:66235
 
 ***
 
@@ -32,7 +32,7 @@ location code
 
 #### Source
 
-main.ts:66165
+main.ts:66222
 
 ***
 
@@ -51,7 +51,7 @@ where location_code_parent corresponds to:
 
 #### Source
 
-main.ts:66176
+main.ts:66233
 
 ***
 
@@ -63,7 +63,7 @@ full name of the location
 
 #### Source
 
-main.ts:66167
+main.ts:66224
 
 ***
 
@@ -75,4 +75,4 @@ location type
 
 #### Source
 
-main.ts:66180
+main.ts:66237

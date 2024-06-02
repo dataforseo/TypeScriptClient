@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:168816
+main.ts:168769
 
 ## Properties
 
@@ -46,7 +46,7 @@ number of input tokens
 
 #### Source
 
-main.ts:168806
+main.ts:168759
 
 ***
 
@@ -62,7 +62,7 @@ number of new tokens
 
 #### Source
 
-main.ts:168810
+main.ts:168763
 
 ***
 
@@ -78,7 +78,7 @@ number of output tokens
 
 #### Source
 
-main.ts:168808
+main.ts:168761
 
 ***
 
@@ -94,7 +94,7 @@ resulting subtopics
 
 #### Source
 
-main.ts:168812
+main.ts:168765
 
 ## Methods
 
@@ -112,7 +112,7 @@ main.ts:168812
 
 #### Source
 
-main.ts:168825
+main.ts:168778
 
 ***
 
@@ -130,7 +130,7 @@ main.ts:168825
 
 #### Source
 
-main.ts:168849
+main.ts:168802
 
 ***
 
@@ -148,4 +148,4 @@ main.ts:168849
 
 #### Source
 
-main.ts:168842
+main.ts:168795

@@ -23,7 +23,7 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 #### Source
 
-main.ts:160577
+main.ts:160516
 
 ***
 
@@ -52,7 +52,7 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 #### Source
 
-main.ts:160537
+main.ts:160476
 
 ***
 
@@ -70,7 +70,7 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:160553
+main.ts:160492
 
 ***
 
@@ -88,7 +88,7 @@ maximum value: 3
 
 #### Source
 
-main.ts:160561
+main.ts:160500
 
 ***
 
@@ -106,7 +106,29 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:160545
+main.ts:160484
+
+***
+
+### custom\_js?
+
+> **`optional`** **custom\_js**: `string`
+
+custom javascript
+optional field
+Note that the execution time for the script you enter here should be 700 ms maximum, for example, you can use the following JS snippet to check if the website contains Google Tag Manager as a scr attribute:
+let meta = \{ haveGoogleAnalytics: false, haveTagManager: false \};\r\nfor (var i = 0; i `< document.scripts.length; i++) \{\r\n let src = document.scripts[i].getAttribute(\"src\");\r\n if (src != undefined) \{\r\n if (src.indexOf(\"analytics.js\") >`= 0)\r\n      meta.haveGoogleAnalytics = true;\r\n\tif (src.indexOf(\"gtm.js\") >= 0)\r\n      meta.haveTagManager = true;\r\n  \}\r\n\}\r\nmeta;the returned value depends on what you specified in this field. For instance, if you specify the following script:
+meta = \{\}; meta.url = document.URL; meta.test = 'test'; meta;
+as a response you will receive the following data:
+"custom_js_response": \{
+"url": "https://dataforseo.com/",
+"test": "test"
+\}
+Note: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page
+
+#### Source
+
+main.ts:160457
 
 ***
 
@@ -123,7 +145,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 #### Source
 
-main.ts:160518
+main.ts:160445
 
 ***
 
@@ -139,7 +161,7 @@ false
 
 #### Source
 
-main.ts:160572
+main.ts:160511
 
 ***
 
@@ -158,7 +180,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:160592
+main.ts:160531
 
 ***
 
@@ -174,7 +196,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:160583
+main.ts:160522
 
 ***
 
@@ -191,7 +213,7 @@ if you use this field, enable_javascript must be set to true;
 
 #### Source
 
-main.ts:160599
+main.ts:160538
 
 ***
 
@@ -206,7 +228,7 @@ default value: false
 
 #### Source
 
-main.ts:160566
+main.ts:160505
 
 ***
 
@@ -222,4 +244,4 @@ https://www.fujielectric.com/
 
 #### Source
 
-main.ts:160511
+main.ts:160438

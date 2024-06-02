@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:98696
+main.ts:98786
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:98696
 
 #### Source
 
-main.ts:20377
+main.ts:20051
 
 ***
 
@@ -60,7 +60,8 @@ main.ts:20377
 
 > **`optional`** **items**: [`PopularProductsElement`](PopularProductsElement.md)[]
 
-elements of search results found in SERP
+additional items present in the element
+if there are none, equals null
 
 #### Implementation of
 
@@ -68,7 +69,7 @@ elements of search results found in SERP
 
 #### Source
 
-main.ts:98692
+main.ts:98782
 
 ***
 
@@ -86,7 +87,7 @@ left, right
 
 #### Source
 
-main.ts:98688
+main.ts:98777
 
 ***
 
@@ -103,7 +104,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:98684
+main.ts:98773
 
 ***
 
@@ -120,7 +121,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:98681
+main.ts:98770
 
 ***
 
@@ -136,7 +137,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:98690
+main.ts:98779
 
 ## Methods
 
@@ -158,7 +159,7 @@ main.ts:98690
 
 #### Source
 
-main.ts:98701
+main.ts:98791
 
 ***
 
@@ -180,7 +181,7 @@ main.ts:98701
 
 #### Source
 
-main.ts:98727
+main.ts:98817
 
 ***
 
@@ -202,4 +203,4 @@ main.ts:98727
 
 #### Source
 
-main.ts:98720
+main.ts:98810

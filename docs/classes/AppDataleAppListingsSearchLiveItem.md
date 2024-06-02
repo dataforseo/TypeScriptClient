@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:190105
+main.ts:190070
 
 ## Properties
 
@@ -46,7 +46,7 @@ ID of the returned app
 
 #### Source
 
-main.ts:190085
+main.ts:190050
 
 ***
 
@@ -63,7 +63,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:190094
+main.ts:190059
 
 ***
 
@@ -79,7 +79,7 @@ detailed information about the app
 
 #### Source
 
-main.ts:190101
+main.ts:190066
 
 ***
 
@@ -95,7 +95,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:190091
+main.ts:190056
 
 ***
 
@@ -111,7 +111,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:190089
+main.ts:190054
 
 ***
 
@@ -127,7 +127,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:190087
+main.ts:190052
 
 ***
 
@@ -146,7 +146,7 @@ example:
 
 #### Source
 
-main.ts:190099
+main.ts:190064
 
 ## Methods
 
@@ -164,7 +164,7 @@ main.ts:190099
 
 #### Source
 
-main.ts:190114
+main.ts:190079
 
 ***
 
@@ -182,7 +182,7 @@ main.ts:190114
 
 #### Source
 
-main.ts:190137
+main.ts:190102
 
 ***
 
@@ -200,4 +200,4 @@ main.ts:190137
 
 #### Source
 
-main.ts:190130
+main.ts:190095

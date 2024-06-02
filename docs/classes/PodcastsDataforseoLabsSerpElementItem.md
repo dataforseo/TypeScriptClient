@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:98784
+main.ts:98876
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:98784
 
 #### Source
 
-main.ts:20377
+main.ts:20051
 
 ***
 
@@ -60,7 +60,8 @@ main.ts:20377
 
 > **`optional`** **items**: [`PodcastsElement`](PodcastsElement.md)[]
 
-elements of search results found in SERP
+additional items present in the element
+if there are none, equals null
 
 #### Implementation of
 
@@ -68,7 +69,7 @@ elements of search results found in SERP
 
 #### Source
 
-main.ts:98780
+main.ts:98872
 
 ***
 
@@ -86,7 +87,7 @@ left, right
 
 #### Source
 
-main.ts:98776
+main.ts:98867
 
 ***
 
@@ -103,7 +104,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:98772
+main.ts:98863
 
 ***
 
@@ -120,7 +121,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:98769
+main.ts:98860
 
 ***
 
@@ -136,7 +137,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:98778
+main.ts:98869
 
 ## Methods
 
@@ -158,7 +159,7 @@ main.ts:98778
 
 #### Source
 
-main.ts:98789
+main.ts:98881
 
 ***
 
@@ -180,7 +181,7 @@ main.ts:98789
 
 #### Source
 
-main.ts:98815
+main.ts:98907
 
 ***
 
@@ -202,4 +203,4 @@ main.ts:98815
 
 #### Source
 
-main.ts:98808
+main.ts:98900

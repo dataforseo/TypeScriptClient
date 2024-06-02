@@ -1,8 +1,8 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
 
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+***
 
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixInfo
+[Documentation](../README.md) / AppendixInfo
 
 # Class: AppendixInfo
 
@@ -12,168 +12,132 @@
 
 ## Indexable
 
-▪ [key: `string`]: `any`
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AppendixInfo.md#constructor)
-
-### Properties
-
-- [live](AppendixInfo.md#live)
-- [task\_get](AppendixInfo.md#task_get)
-- [task\_post](AppendixInfo.md#task_post)
-- [tasks\_ready](AppendixInfo.md#tasks_ready)
-
-### Methods
-
-- [init](AppendixInfo.md#init)
-- [toJSON](AppendixInfo.md#tojson)
-- [fromJS](AppendixInfo.md#fromjs)
+ \[`key`: `string`\]: `any`
 
 ## Constructors
 
-### constructor
+### new AppendixInfo(data)
 
-• **new AppendixInfo**(`data?`): [`AppendixInfo`](AppendixInfo.md)
+> **new AppendixInfo**(`data`?): [`AppendixInfo`](AppendixInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`IAppendixInfo`](../interfaces/IAppendixInfo.md) |
+• **data?**: [`IAppendixInfo`](../interfaces/IAppendixInfo.md)
 
 #### Returns
 
 [`AppendixInfo`](AppendixInfo.md)
 
-#### Defined in
+#### Source
 
-[main.ts:206676](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206676)
+main.ts:213181
 
 ## Properties
 
-### live
+### live?
 
-• `Optional` **live**: `number`
-
-#### Implementation of
-
-[IAppendixInfo](../interfaces/IAppendixInfo.md).[live](../interfaces/IAppendixInfo.md#live)
-
-#### Defined in
-
-[main.ts:206672](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206672)
-
-___
-
-
-### task\_get
-
-• `Optional` **task\_get**: `number`
+> **`optional`** **live**: `number`
 
 #### Implementation of
 
-[IAppendixInfo](../interfaces/IAppendixInfo.md).[task_get](../interfaces/IAppendixInfo.md#task_get)
+[`IAppendixInfo`](../interfaces/IAppendixInfo.md).[`live`](../interfaces/IAppendixInfo.md#live)
 
-#### Defined in
+#### Source
 
-[main.ts:206670](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206670)
+main.ts:213177
 
-___
+***
 
+### task\_get?
 
-### task\_post
-
-• `Optional` **task\_post**: `number`
-
-#### Implementation of
-
-[IAppendixInfo](../interfaces/IAppendixInfo.md).[task_post](../interfaces/IAppendixInfo.md#task_post)
-
-#### Defined in
-
-[main.ts:206669](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206669)
-
-___
-
-
-### tasks\_ready
-
-• `Optional` **tasks\_ready**: `number`
+> **`optional`** **task\_get**: `number`
 
 #### Implementation of
 
-[IAppendixInfo](../interfaces/IAppendixInfo.md).[tasks_ready](../interfaces/IAppendixInfo.md#tasks_ready)
+[`IAppendixInfo`](../interfaces/IAppendixInfo.md).[`task_get`](../interfaces/IAppendixInfo.md#task_get)
 
-#### Defined in
+#### Source
 
-[main.ts:206671](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206671)
+main.ts:213175
+
+***
+
+### task\_post?
+
+> **`optional`** **task\_post**: `number`
+
+#### Implementation of
+
+[`IAppendixInfo`](../interfaces/IAppendixInfo.md).[`task_post`](../interfaces/IAppendixInfo.md#task_post)
+
+#### Source
+
+main.ts:213174
+
+***
+
+### tasks\_ready?
+
+> **`optional`** **tasks\_ready**: `number`
+
+#### Implementation of
+
+[`IAppendixInfo`](../interfaces/IAppendixInfo.md).[`tasks_ready`](../interfaces/IAppendixInfo.md#tasks_ready)
+
+#### Source
+
+main.ts:213176
 
 ## Methods
 
-### init
+### init()
 
-▸ **init**(`_data?`): `void`
+> **init**(`_data`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_data?` | `any` |
+• **\_data?**: `any`
 
 #### Returns
 
 `void`
 
-#### Defined in
+#### Source
 
-[main.ts:206685](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206685)
+main.ts:213190
 
-___
+***
 
+### toJSON()
 
-### toJSON
-
-▸ **toJSON**(`data?`): `any`
+> **toJSON**(`data`?): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data?` | `any` |
+• **data?**: `any`
 
 #### Returns
 
 `any`
 
-#### Defined in
+#### Source
 
-[main.ts:206705](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206705)
+main.ts:213210
 
-___
+***
 
+### fromJS()
 
-### fromJS
-
-▸ **fromJS**(`data`): [`AppendixInfo`](AppendixInfo.md)
+> **`static`** **fromJS**(`data`): [`AppendixInfo`](AppendixInfo.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `any` |
+• **data**: `any`
 
 #### Returns
 
 [`AppendixInfo`](AppendixInfo.md)
 
-#### Defined in
+#### Source
 
-[main.ts:206698](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206698)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:213203

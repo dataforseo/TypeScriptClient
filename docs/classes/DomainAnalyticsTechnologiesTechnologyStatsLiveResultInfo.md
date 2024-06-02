@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:77201
+main.ts:77262
 
 ## Properties
 
@@ -46,7 +46,7 @@ starting date of the time range
 
 #### Source
 
-main.ts:77191
+main.ts:77252
 
 ***
 
@@ -62,7 +62,7 @@ ending date of the time range
 
 #### Source
 
-main.ts:77193
+main.ts:77254
 
 ***
 
@@ -78,7 +78,7 @@ items array
 
 #### Source
 
-main.ts:77197
+main.ts:77258
 
 ***
 
@@ -94,7 +94,7 @@ number of items in the results array
 
 #### Source
 
-main.ts:77195
+main.ts:77256
 
 ***
 
@@ -110,7 +110,7 @@ target technology
 
 #### Source
 
-main.ts:77189
+main.ts:77250
 
 ## Methods
 
@@ -128,7 +128,7 @@ main.ts:77189
 
 #### Source
 
-main.ts:77210
+main.ts:77271
 
 ***
 
@@ -146,7 +146,7 @@ main.ts:77210
 
 #### Source
 
-main.ts:77235
+main.ts:77296
 
 ***
 
@@ -164,4 +164,4 @@ main.ts:77235
 
 #### Source
 
-main.ts:77228
+main.ts:77289

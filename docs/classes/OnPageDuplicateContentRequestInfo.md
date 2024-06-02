@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:154846
+main.ts:154759
 
 ## Properties
 
@@ -50,7 +50,7 @@ example:
 
 #### Source
 
-main.ts:154818
+main.ts:154731
 
 ***
 
@@ -69,7 +69,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:154831
+main.ts:154744
 
 ***
 
@@ -88,7 +88,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Source
 
-main.ts:154836
+main.ts:154749
 
 ***
 
@@ -106,7 +106,7 @@ you can specify any similarity score in the 0-to-10 range
 
 #### Source
 
-main.ts:154826
+main.ts:154739
 
 ***
 
@@ -126,7 +126,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:154842
+main.ts:154755
 
 ***
 
@@ -144,7 +144,7 @@ specify the initial page you want to receive duplicate content for
 
 #### Source
 
-main.ts:154822
+main.ts:154735
 
 ## Methods
 
@@ -162,7 +162,7 @@ main.ts:154822
 
 #### Source
 
-main.ts:154855
+main.ts:154768
 
 ***
 
@@ -180,7 +180,7 @@ main.ts:154855
 
 #### Source
 
-main.ts:154877
+main.ts:154790
 
 ***
 
@@ -198,4 +198,4 @@ main.ts:154877
 
 #### Source
 
-main.ts:154870
+main.ts:154783

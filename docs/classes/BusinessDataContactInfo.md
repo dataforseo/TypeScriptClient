@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:196755
+main.ts:196736
 
 ## Properties
 
@@ -46,7 +46,7 @@ data source
 
 #### Source
 
-main.ts:196751
+main.ts:196732
 
 ***
 
@@ -62,7 +62,7 @@ type of element
 
 #### Source
 
-main.ts:196745
+main.ts:196726
 
 ***
 
@@ -80,7 +80,7 @@ example:
 
 #### Source
 
-main.ts:196749
+main.ts:196730
 
 ## Methods
 
@@ -98,7 +98,7 @@ main.ts:196749
 
 #### Source
 
-main.ts:196764
+main.ts:196745
 
 ***
 
@@ -116,7 +116,7 @@ main.ts:196764
 
 #### Source
 
-main.ts:196783
+main.ts:196764
 
 ***
 
@@ -134,4 +134,4 @@ main.ts:196783
 
 #### Source
 
-main.ts:196776
+main.ts:196757

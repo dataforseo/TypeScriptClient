@@ -2,9 +2,9 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataYelpReviewsTaskGetTaskInfo
+[Documentation](../README.md) / SerpTasksReadyTaskInfo
 
-# Class: BusinessDataYelpReviewsTaskGetTaskInfo
+# Class: SerpTasksReadyTaskInfo
 
 ## Extends
 
@@ -12,7 +12,7 @@
 
 ## Implements
 
-- [`IBusinessDataYelpReviewsTaskGetTaskInfo`](../interfaces/IBusinessDataYelpReviewsTaskGetTaskInfo.md)
+- [`ISerpTasksReadyTaskInfo`](../interfaces/ISerpTasksReadyTaskInfo.md)
 
 ## Indexable
 
@@ -20,17 +20,17 @@
 
 ## Constructors
 
-### new BusinessDataYelpReviewsTaskGetTaskInfo(data)
+### new SerpTasksReadyTaskInfo(data)
 
-> **new BusinessDataYelpReviewsTaskGetTaskInfo**(`data`?): [`BusinessDataYelpReviewsTaskGetTaskInfo`](BusinessDataYelpReviewsTaskGetTaskInfo.md)
+> **new SerpTasksReadyTaskInfo**(`data`?): [`SerpTasksReadyTaskInfo`](SerpTasksReadyTaskInfo.md)
 
 #### Parameters
 
-• **data?**: [`IBusinessDataYelpReviewsTaskGetTaskInfo`](../interfaces/IBusinessDataYelpReviewsTaskGetTaskInfo.md)
+• **data?**: [`ISerpTasksReadyTaskInfo`](../interfaces/ISerpTasksReadyTaskInfo.md)
 
 #### Returns
 
-[`BusinessDataYelpReviewsTaskGetTaskInfo`](BusinessDataYelpReviewsTaskGetTaskInfo.md)
+[`SerpTasksReadyTaskInfo`](SerpTasksReadyTaskInfo.md)
 
 #### Overrides
 
@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:214864
+main.ts:25594
 
 ## Properties
 
@@ -50,7 +50,7 @@ total tasks cost, USD
 
 #### Implementation of
 
-[`IBusinessDataYelpReviewsTaskGetTaskInfo`](../interfaces/IBusinessDataYelpReviewsTaskGetTaskInfo.md).[`cost`](../interfaces/IBusinessDataYelpReviewsTaskGetTaskInfo.md#cost)
+[`ISerpTasksReadyTaskInfo`](../interfaces/ISerpTasksReadyTaskInfo.md).[`cost`](../interfaces/ISerpTasksReadyTaskInfo.md#cost)
 
 #### Inherited from
 
@@ -58,7 +58,7 @@ total tasks cost, USD
 
 #### Source
 
-main.ts:23493
+main.ts:23152
 
 ***
 
@@ -74,7 +74,7 @@ contains the same parameters that you specified in the POST request
 
 #### Implementation of
 
-[`IBusinessDataYelpReviewsTaskGetTaskInfo`](../interfaces/IBusinessDataYelpReviewsTaskGetTaskInfo.md).[`data`](../interfaces/IBusinessDataYelpReviewsTaskGetTaskInfo.md#data)
+[`ISerpTasksReadyTaskInfo`](../interfaces/ISerpTasksReadyTaskInfo.md).[`data`](../interfaces/ISerpTasksReadyTaskInfo.md#data)
 
 #### Inherited from
 
@@ -82,7 +82,7 @@ contains the same parameters that you specified in the POST request
 
 #### Source
 
-main.ts:23499
+main.ts:23158
 
 ***
 
@@ -95,7 +95,7 @@ unique task identifier in our system in the UUID format
 
 #### Implementation of
 
-[`IBusinessDataYelpReviewsTaskGetTaskInfo`](../interfaces/IBusinessDataYelpReviewsTaskGetTaskInfo.md).[`id`](../interfaces/IBusinessDataYelpReviewsTaskGetTaskInfo.md#id)
+[`ISerpTasksReadyTaskInfo`](../interfaces/ISerpTasksReadyTaskInfo.md).[`id`](../interfaces/ISerpTasksReadyTaskInfo.md#id)
 
 #### Inherited from
 
@@ -103,7 +103,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:23482
+main.ts:23141
 
 ***
 
@@ -115,7 +115,7 @@ URL path
 
 #### Implementation of
 
-[`IBusinessDataYelpReviewsTaskGetTaskInfo`](../interfaces/IBusinessDataYelpReviewsTaskGetTaskInfo.md).[`path`](../interfaces/IBusinessDataYelpReviewsTaskGetTaskInfo.md#path)
+[`ISerpTasksReadyTaskInfo`](../interfaces/ISerpTasksReadyTaskInfo.md).[`path`](../interfaces/ISerpTasksReadyTaskInfo.md#path)
 
 #### Inherited from
 
@@ -123,23 +123,23 @@ URL path
 
 #### Source
 
-main.ts:23497
+main.ts:23156
 
 ***
 
 ### result?
 
-> **`optional`** **result**: [`BusinessDataYelpReviewsTaskGetResultInfo`](BusinessDataYelpReviewsTaskGetResultInfo.md)[]
+> **`optional`** **result**: [`SerpTasksReadyResultInfo`](SerpTasksReadyResultInfo.md)[]
 
 array of results
 
 #### Implementation of
 
-[`IBusinessDataYelpReviewsTaskGetTaskInfo`](../interfaces/IBusinessDataYelpReviewsTaskGetTaskInfo.md).[`result`](../interfaces/IBusinessDataYelpReviewsTaskGetTaskInfo.md#result)
+[`ISerpTasksReadyTaskInfo`](../interfaces/ISerpTasksReadyTaskInfo.md).[`result`](../interfaces/ISerpTasksReadyTaskInfo.md#result)
 
 #### Source
 
-main.ts:214860
+main.ts:25590
 
 ***
 
@@ -151,7 +151,7 @@ number of elements in the result array
 
 #### Implementation of
 
-[`IBusinessDataYelpReviewsTaskGetTaskInfo`](../interfaces/IBusinessDataYelpReviewsTaskGetTaskInfo.md).[`result_count`](../interfaces/IBusinessDataYelpReviewsTaskGetTaskInfo.md#result_count)
+[`ISerpTasksReadyTaskInfo`](../interfaces/ISerpTasksReadyTaskInfo.md).[`result_count`](../interfaces/ISerpTasksReadyTaskInfo.md#result_count)
 
 #### Inherited from
 
@@ -159,7 +159,7 @@ number of elements in the result array
 
 #### Source
 
-main.ts:23495
+main.ts:23154
 
 ***
 
@@ -173,7 +173,7 @@ you can find the full list of the response codes here
 
 #### Implementation of
 
-[`IBusinessDataYelpReviewsTaskGetTaskInfo`](../interfaces/IBusinessDataYelpReviewsTaskGetTaskInfo.md).[`status_code`](../interfaces/IBusinessDataYelpReviewsTaskGetTaskInfo.md#status_code)
+[`ISerpTasksReadyTaskInfo`](../interfaces/ISerpTasksReadyTaskInfo.md).[`status_code`](../interfaces/ISerpTasksReadyTaskInfo.md#status_code)
 
 #### Inherited from
 
@@ -181,7 +181,7 @@ you can find the full list of the response codes here
 
 #### Source
 
-main.ts:23486
+main.ts:23145
 
 ***
 
@@ -194,7 +194,7 @@ you can find the full list of general informational messages here
 
 #### Implementation of
 
-[`IBusinessDataYelpReviewsTaskGetTaskInfo`](../interfaces/IBusinessDataYelpReviewsTaskGetTaskInfo.md).[`status_message`](../interfaces/IBusinessDataYelpReviewsTaskGetTaskInfo.md#status_message)
+[`ISerpTasksReadyTaskInfo`](../interfaces/ISerpTasksReadyTaskInfo.md).[`status_message`](../interfaces/ISerpTasksReadyTaskInfo.md#status_message)
 
 #### Inherited from
 
@@ -202,7 +202,7 @@ you can find the full list of general informational messages here
 
 #### Source
 
-main.ts:23489
+main.ts:23148
 
 ***
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 #### Implementation of
 
-[`IBusinessDataYelpReviewsTaskGetTaskInfo`](../interfaces/IBusinessDataYelpReviewsTaskGetTaskInfo.md).[`time`](../interfaces/IBusinessDataYelpReviewsTaskGetTaskInfo.md#time)
+[`ISerpTasksReadyTaskInfo`](../interfaces/ISerpTasksReadyTaskInfo.md).[`time`](../interfaces/ISerpTasksReadyTaskInfo.md#time)
 
 #### Inherited from
 
@@ -222,7 +222,7 @@ execution time, seconds
 
 #### Source
 
-main.ts:23491
+main.ts:23150
 
 ## Methods
 
@@ -244,7 +244,7 @@ main.ts:23491
 
 #### Source
 
-main.ts:214868
+main.ts:25598
 
 ***
 
@@ -266,13 +266,13 @@ main.ts:214868
 
 #### Source
 
-main.ts:214890
+main.ts:25620
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BusinessDataYelpReviewsTaskGetTaskInfo`](BusinessDataYelpReviewsTaskGetTaskInfo.md)
+> **`static`** **fromJS**(`data`): [`SerpTasksReadyTaskInfo`](SerpTasksReadyTaskInfo.md)
 
 #### Parameters
 
@@ -280,7 +280,7 @@ main.ts:214890
 
 #### Returns
 
-[`BusinessDataYelpReviewsTaskGetTaskInfo`](BusinessDataYelpReviewsTaskGetTaskInfo.md)
+[`SerpTasksReadyTaskInfo`](SerpTasksReadyTaskInfo.md)
 
 #### Overrides
 
@@ -288,4 +288,4 @@ main.ts:214890
 
 #### Source
 
-main.ts:214883
+main.ts:25613

@@ -25,7 +25,7 @@ contains content language codes and number of websites per language
 
 #### Source
 
-main.ts:76837
+main.ts:76898
 
 ***
 
@@ -42,7 +42,7 @@ contains country codes and number of websites per country
 
 #### Source
 
-main.ts:76831
+main.ts:76892
 
 ***
 
@@ -59,7 +59,7 @@ contains keywords found in the websites’ titles, descriptions or meta keywords
 
 #### Source
 
-main.ts:76840
+main.ts:76901
 
 ***
 
@@ -76,4 +76,4 @@ contains language codes and number of websites per language
 
 #### Source
 
-main.ts:76834
+main.ts:76895

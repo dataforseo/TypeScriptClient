@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:35126
+main.ts:34997
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:35126
 
 #### Source
 
-main.ts:19994
+main.ts:19668
 
 ***
 
@@ -68,7 +68,7 @@ google-defined client id
 
 #### Source
 
-main.ts:35118
+main.ts:34989
 
 ***
 
@@ -86,7 +86,7 @@ example: "CgoIjaeSlI6CnNpVEAE"
 
 #### Source
 
-main.ts:35114
+main.ts:34985
 
 ***
 
@@ -104,7 +104,7 @@ left, right
 
 #### Source
 
-main.ts:35108
+main.ts:34979
 
 ***
 
@@ -122,7 +122,7 @@ always equals 0 for desktop
 
 #### Source
 
-main.ts:35104
+main.ts:34975
 
 ***
 
@@ -141,7 +141,7 @@ always equals 0 for desktop
 
 #### Source
 
-main.ts:35100
+main.ts:34971
 
 ***
 
@@ -159,7 +159,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Source
 
-main.ts:35122
+main.ts:34993
 
 ***
 
@@ -175,7 +175,7 @@ source URL
 
 #### Source
 
-main.ts:35116
+main.ts:34987
 
 ***
 
@@ -191,7 +191,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:35110
+main.ts:34981
 
 ## Methods
 
@@ -213,7 +213,7 @@ main.ts:35110
 
 #### Source
 
-main.ts:35131
+main.ts:35002
 
 ***
 
@@ -235,7 +235,7 @@ main.ts:35131
 
 #### Source
 
-main.ts:35156
+main.ts:35027
 
 ***
 
@@ -257,4 +257,4 @@ main.ts:35156
 
 #### Source
 
-main.ts:35149
+main.ts:35020

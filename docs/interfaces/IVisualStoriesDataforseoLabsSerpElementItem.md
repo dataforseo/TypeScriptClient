@@ -20,11 +20,12 @@
 
 > **`optional`** **items**: [`LicensesElement`](../classes/LicensesElement.md)[]
 
-elements of search results found in SERP
+additional items present in the element
+if there are none, equals null
 
 #### Source
 
-main.ts:99239
+main.ts:99338
 
 ***
 
@@ -38,7 +39,7 @@ left, right
 
 #### Source
 
-main.ts:99235
+main.ts:99333
 
 ***
 
@@ -51,7 +52,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:99231
+main.ts:99329
 
 ***
 
@@ -64,7 +65,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:99228
+main.ts:99326
 
 ***
 
@@ -76,4 +77,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:99237
+main.ts:99335

@@ -27,7 +27,7 @@ example:
 
 #### Source
 
-main.ts:126126
+main.ts:126229
 
 ***
 
@@ -44,7 +44,7 @@ example:
 
 #### Source
 
-main.ts:126133
+main.ts:126236
 
 ***
 
@@ -58,7 +58,7 @@ the maximum number of keywords you can specify: 5
 
 #### Source
 
-main.ts:126097
+main.ts:126200
 
 ***
 
@@ -77,7 +77,7 @@ example:
 
 #### Source
 
-main.ts:126115
+main.ts:126218
 
 ***
 
@@ -96,7 +96,7 @@ United Kingdom
 
 #### Source
 
-main.ts:126106
+main.ts:126209
 
 ***
 
@@ -112,7 +112,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:126145
+main.ts:126248
 
 ***
 
@@ -128,7 +128,7 @@ past_4_hours, past_day, past_7_days, past_30_days, past_90_days, past_12_months,
 
 #### Source
 
-main.ts:126139
+main.ts:126242
 
 ***
 
@@ -140,4 +140,4 @@ type of element
 
 #### Source
 
-main.ts:126117
+main.ts:126220

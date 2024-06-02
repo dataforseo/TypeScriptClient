@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:21550
+main.ts:21209
 
 ## Properties
 
@@ -46,7 +46,7 @@ the language of the result
 
 #### Source
 
-main.ts:21540
+main.ts:21199
 
 ***
 
@@ -62,7 +62,7 @@ location for which the result is relevant
 
 #### Source
 
-main.ts:21542
+main.ts:21201
 
 ***
 
@@ -78,7 +78,7 @@ related search terms that appear in the result
 
 #### Source
 
-main.ts:21546
+main.ts:21205
 
 ***
 
@@ -94,7 +94,7 @@ matching search terms that appear in the result
 
 #### Source
 
-main.ts:21544
+main.ts:21203
 
 ***
 
@@ -110,7 +110,7 @@ source of additional information about the result
 
 #### Source
 
-main.ts:21533
+main.ts:21192
 
 ***
 
@@ -127,7 +127,7 @@ description of the website from Wikipedia or another additional context
 
 #### Source
 
-main.ts:21536
+main.ts:21195
 
 ***
 
@@ -143,7 +143,7 @@ URL to full information from the 'source'
 
 #### Source
 
-main.ts:21538
+main.ts:21197
 
 ***
 
@@ -159,7 +159,7 @@ type of element
 
 #### Source
 
-main.ts:21529
+main.ts:21188
 
 ***
 
@@ -175,7 +175,7 @@ result’s URL
 
 #### Source
 
-main.ts:21531
+main.ts:21190
 
 ## Methods
 
@@ -193,7 +193,7 @@ main.ts:21531
 
 #### Source
 
-main.ts:21559
+main.ts:21218
 
 ***
 
@@ -211,7 +211,7 @@ main.ts:21559
 
 #### Source
 
-main.ts:21592
+main.ts:21251
 
 ***
 
@@ -229,4 +229,4 @@ main.ts:21592
 
 #### Source
 
-main.ts:21585
+main.ts:21244

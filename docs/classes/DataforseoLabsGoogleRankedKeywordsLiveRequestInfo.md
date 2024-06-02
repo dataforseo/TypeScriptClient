@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:89609
+main.ts:89668
 
 ## Properties
 
@@ -64,7 +64,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:89583
+main.ts:89642
 
 ***
 
@@ -87,7 +87,7 @@ default value: live
 
 #### Source
 
-main.ts:89563
+main.ts:89622
 
 ***
 
@@ -106,7 +106,7 @@ default value: false
 
 #### Source
 
-main.ts:89530
+main.ts:89589
 
 ***
 
@@ -129,7 +129,7 @@ default value:
 
 #### Source
 
-main.ts:89539
+main.ts:89598
 
 ***
 
@@ -152,7 +152,7 @@ en
 
 #### Source
 
-main.ts:89525
+main.ts:89584
 
 ***
 
@@ -175,7 +175,7 @@ English
 
 #### Source
 
-main.ts:89516
+main.ts:89575
 
 ***
 
@@ -194,7 +194,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:89544
+main.ts:89603
 
 ***
 
@@ -213,7 +213,7 @@ if set to true, we will return the field metrics_absolute containing rankings di
 
 #### Source
 
-main.ts:89554
+main.ts:89613
 
 ***
 
@@ -236,7 +236,7 @@ example:
 
 #### Source
 
-main.ts:89507
+main.ts:89566
 
 ***
 
@@ -259,7 +259,7 @@ United Kingdom
 
 #### Source
 
-main.ts:89498
+main.ts:89557
 
 ***
 
@@ -278,7 +278,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:89549
+main.ts:89608
 
 ***
 
@@ -308,7 +308,7 @@ example:
 
 #### Source
 
-main.ts:89599
+main.ts:89658
 
 ***
 
@@ -328,7 +328,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:89605
+main.ts:89664
 
 ***
 
@@ -352,7 +352,7 @@ example:
 
 #### Source
 
-main.ts:89489
+main.ts:89548
 
 ## Methods
 
@@ -370,7 +370,7 @@ main.ts:89489
 
 #### Source
 
-main.ts:89618
+main.ts:89677
 
 ***
 
@@ -388,7 +388,7 @@ main.ts:89618
 
 #### Source
 
-main.ts:89660
+main.ts:89719
 
 ***
 
@@ -406,4 +406,4 @@ main.ts:89660
 
 #### Source
 
-main.ts:89653
+main.ts:89712

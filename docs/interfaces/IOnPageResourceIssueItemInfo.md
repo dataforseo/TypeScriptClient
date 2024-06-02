@@ -20,7 +20,7 @@ column where the error was found
 
 #### Source
 
-main.ts:152027
+main.ts:151940
 
 ***
 
@@ -32,7 +32,7 @@ line where the error was found
 
 #### Source
 
-main.ts:152025
+main.ts:151938
 
 ***
 
@@ -45,7 +45,7 @@ the full list of possible HTML errors can be found here
 
 #### Source
 
-main.ts:152030
+main.ts:151943
 
 ***
 
@@ -66,4 +66,4 @@ possible values:
 
 #### Source
 
-main.ts:152041
+main.ts:151954

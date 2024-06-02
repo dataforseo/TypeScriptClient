@@ -20,7 +20,7 @@ contains relevant categories and related ranking data
 
 #### Source
 
-main.ts:87036
+main.ts:87095
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:87034
+main.ts:87093
 
 ***
 
@@ -44,7 +44,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:87030
+main.ts:87089
 
 ***
 
@@ -56,7 +56,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:87028
+main.ts:87087
 
 ***
 
@@ -68,7 +68,7 @@ search engine type
 
 #### Source
 
-main.ts:87024
+main.ts:87083
 
 ***
 
@@ -80,7 +80,7 @@ target domain or subdomain in a POST array
 
 #### Source
 
-main.ts:87026
+main.ts:87085
 
 ***
 
@@ -92,4 +92,4 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:87032
+main.ts:87091

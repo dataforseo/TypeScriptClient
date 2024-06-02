@@ -24,7 +24,7 @@ alternative text of the related product image
 
 #### Source
 
-main.ts:180410
+main.ts:180363
 
 ***
 
@@ -36,4 +36,4 @@ URL of the image
 
 #### Source
 
-main.ts:180412
+main.ts:180365

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:111665
+main.ts:111768
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains data related to the ranking app metrics of the specified application
 
 #### Source
 
-main.ts:111661
+main.ts:111764
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:111659
+main.ts:111762
 
 ***
 
@@ -78,7 +78,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:111655
+main.ts:111758
 
 ***
 
@@ -94,7 +94,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:111653
+main.ts:111756
 
 ***
 
@@ -110,7 +110,7 @@ search engine type
 
 #### Source
 
-main.ts:111651
+main.ts:111754
 
 ***
 
@@ -126,7 +126,7 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:111657
+main.ts:111760
 
 ## Methods
 
@@ -144,7 +144,7 @@ main.ts:111657
 
 #### Source
 
-main.ts:111674
+main.ts:111777
 
 ***
 
@@ -162,7 +162,7 @@ main.ts:111674
 
 #### Source
 
-main.ts:111700
+main.ts:111803
 
 ***
 
@@ -180,4 +180,4 @@ main.ts:111700
 
 #### Source
 
-main.ts:111693
+main.ts:111796

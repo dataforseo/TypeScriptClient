@@ -18,17 +18,17 @@
 
 #### Source
 
-main.ts:217820
+main.ts:214979
 
 ***
 
 ### category\_trends?
 
-> **`optional`** **category\_trends**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **category\_trends**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:217817
+main.ts:214976
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:217817
 
 #### Source
 
-main.ts:217821
+main.ts:214980
 
 ***
 
@@ -48,7 +48,7 @@ main.ts:217821
 
 #### Source
 
-main.ts:217819
+main.ts:214978
 
 ***
 
@@ -58,54 +58,54 @@ main.ts:217819
 
 #### Source
 
-main.ts:217818
+main.ts:214977
 
 ***
 
 ### phrase\_trends?
 
-> **`optional`** **phrase\_trends**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **phrase\_trends**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:217816
+main.ts:214975
 
 ***
 
 ### rating\_distribution?
 
-> **`optional`** **rating\_distribution**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **rating\_distribution**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:217815
+main.ts:214974
 
 ***
 
 ### search?
 
-> **`optional`** **search**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **search**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:217812
+main.ts:214971
 
 ***
 
 ### sentiment\_analysis?
 
-> **`optional`** **sentiment\_analysis**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **sentiment\_analysis**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:217814
+main.ts:214973
 
 ***
 
 ### summary?
 
-> **`optional`** **summary**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **summary**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:217813
+main.ts:214972

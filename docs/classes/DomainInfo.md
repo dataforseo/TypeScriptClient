@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:150751
+main.ts:150664
 
 ## Properties
 
@@ -48,7 +48,7 @@ in most cases, it is recommended that canonicalized pages respond with a 301 or 
 
 #### Source
 
-main.ts:150737
+main.ts:150650
 
 ***
 
@@ -69,7 +69,7 @@ other on-page check-ups related to the website
 
 #### Source
 
-main.ts:150727
+main.ts:150640
 
 ***
 
@@ -89,7 +89,7 @@ if our crawler was unable to identify the cms, the value would be null
 
 #### Source
 
-main.ts:150690
+main.ts:150603
 
 ***
 
@@ -110,7 +110,7 @@ if "crawl_progress" is in_progress, the value will be null
 
 #### Source
 
-main.ts:150710
+main.ts:150623
 
 ***
 
@@ -130,7 +130,7 @@ example:
 
 #### Source
 
-main.ts:150703
+main.ts:150616
 
 ***
 
@@ -148,7 +148,7 @@ in most cases, it is recommended that directories respond with a 403 or 401 stat
 
 #### Source
 
-main.ts:150741
+main.ts:150654
 
 ***
 
@@ -173,7 +173,7 @@ unknown – the reason is unknown
 
 #### Source
 
-main.ts:150721
+main.ts:150634
 
 ***
 
@@ -189,7 +189,7 @@ domain ip address
 
 #### Source
 
-main.ts:150692
+main.ts:150605
 
 ***
 
@@ -205,7 +205,7 @@ root domain name
 
 #### Source
 
-main.ts:150747
+main.ts:150660
 
 ***
 
@@ -221,7 +221,7 @@ domain name
 
 #### Source
 
-main.ts:150684
+main.ts:150597
 
 ***
 
@@ -238,7 +238,7 @@ in most cases, it is recommended a server returns a 404 response code
 
 #### Source
 
-main.ts:150733
+main.ts:150646
 
 ***
 
@@ -257,7 +257,7 @@ the information is taken from the first page which response code is 200
 
 #### Source
 
-main.ts:150697
+main.ts:150610
 
 ***
 
@@ -274,7 +274,7 @@ information about the Secure Sockets Layer protocol detected on a website
 
 #### Source
 
-main.ts:150724
+main.ts:150637
 
 ***
 
@@ -291,7 +291,7 @@ the total number of crawled pages
 
 #### Source
 
-main.ts:150730
+main.ts:150643
 
 ***
 
@@ -309,7 +309,7 @@ in most cases, it is recommended that redirect returns a 301 status code
 
 #### Source
 
-main.ts:150745
+main.ts:150658
 
 ## Methods
 
@@ -327,7 +327,7 @@ main.ts:150745
 
 #### Source
 
-main.ts:150760
+main.ts:150673
 
 ***
 
@@ -345,7 +345,7 @@ main.ts:150760
 
 #### Source
 
-main.ts:150797
+main.ts:150710
 
 ***
 
@@ -363,4 +363,4 @@ main.ts:150797
 
 #### Source
 
-main.ts:150790
+main.ts:150703

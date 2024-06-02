@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:173197
+main.ts:173150
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:173174
+main.ts:173127
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Source
 
-main.ts:173179
+main.ts:173132
 
 ***
 
@@ -85,7 +85,7 @@ google_shopping_sponsored_carousel, google_shopping_paid, google_shopping_serp
 
 #### Source
 
-main.ts:173187
+main.ts:173140
 
 ***
 
@@ -103,7 +103,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:173193
+main.ts:173146
 
 ***
 
@@ -119,7 +119,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:173189
+main.ts:173142
 
 ***
 
@@ -136,7 +136,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Source
 
-main.ts:173163
+main.ts:173116
 
 ***
 
@@ -152,7 +152,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:173171
+main.ts:173124
 
 ***
 
@@ -168,7 +168,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:173169
+main.ts:173122
 
 ***
 
@@ -184,7 +184,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:173167
+main.ts:173120
 
 ***
 
@@ -201,7 +201,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Source
 
-main.ts:173182
+main.ts:173135
 
 ***
 
@@ -217,7 +217,7 @@ type of element
 
 #### Source
 
-main.ts:173165
+main.ts:173118
 
 ## Methods
 
@@ -235,7 +235,7 @@ main.ts:173165
 
 #### Source
 
-main.ts:173206
+main.ts:173159
 
 ***
 
@@ -253,7 +253,7 @@ main.ts:173206
 
 #### Source
 
-main.ts:173241
+main.ts:173194
 
 ***
 
@@ -271,4 +271,4 @@ main.ts:173241
 
 #### Source
 
-main.ts:173234
+main.ts:173187

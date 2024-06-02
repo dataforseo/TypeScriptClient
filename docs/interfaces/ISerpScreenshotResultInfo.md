@@ -20,7 +20,7 @@ items array
 
 #### Source
 
-main.ts:24502
+main.ts:24161
 
 ***
 
@@ -32,4 +32,4 @@ number of items in the results array
 
 #### Source
 
-main.ts:24500
+main.ts:24159

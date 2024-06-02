@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:156385
+main.ts:156298
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains links that form a chain
 
 #### Source
 
-main.ts:156381
+main.ts:156294
 
 ***
 
@@ -63,7 +63,7 @@ if true, the last URL from the chain redirects back to the original URL
 
 #### Source
 
-main.ts:156379
+main.ts:156292
 
 ## Methods
 
@@ -81,7 +81,7 @@ main.ts:156379
 
 #### Source
 
-main.ts:156394
+main.ts:156307
 
 ***
 
@@ -99,7 +99,7 @@ main.ts:156394
 
 #### Source
 
-main.ts:156416
+main.ts:156329
 
 ***
 
@@ -117,4 +117,4 @@ main.ts:156416
 
 #### Source
 
-main.ts:156409
+main.ts:156322

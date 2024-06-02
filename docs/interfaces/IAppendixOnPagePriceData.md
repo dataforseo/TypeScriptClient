@@ -18,7 +18,7 @@
 
 #### Source
 
-main.ts:221566
+main.ts:218725
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:221566
 
 #### Source
 
-main.ts:221567
+main.ts:218726
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:221567
 
 #### Source
 
-main.ts:221568
+main.ts:218727
 
 ***
 
@@ -48,7 +48,7 @@ main.ts:221568
 
 #### Source
 
-main.ts:221569
+main.ts:218728
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:221569
 
 #### Source
 
-main.ts:221564
+main.ts:218723
 
 ***
 
@@ -68,7 +68,7 @@ main.ts:221564
 
 #### Source
 
-main.ts:221570
+main.ts:218729
 
 ***
 
@@ -78,17 +78,17 @@ main.ts:221570
 
 #### Source
 
-main.ts:221571
+main.ts:218730
 
 ***
 
 ### lighthouse?
 
-> **`optional`** **lighthouse**: [`AppendixsGoogleBusinessDataPriceDataInfo`](../classes/AppendixsGoogleBusinessDataPriceDataInfo.md)
+> **`optional`** **lighthouse**: [`AppendixGoogleBusinessDataPriceDataInfo`](../classes/AppendixGoogleBusinessDataPriceDataInfo.md)
 
 #### Source
 
-main.ts:221565
+main.ts:218724
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:221565
 
 #### Source
 
-main.ts:221572
+main.ts:218731
 
 ***
 
@@ -108,7 +108,7 @@ main.ts:221572
 
 #### Source
 
-main.ts:221573
+main.ts:218732
 
 ***
 
@@ -118,7 +118,7 @@ main.ts:221573
 
 #### Source
 
-main.ts:221576
+main.ts:218735
 
 ***
 
@@ -128,7 +128,7 @@ main.ts:221576
 
 #### Source
 
-main.ts:221574
+main.ts:218733
 
 ***
 
@@ -138,7 +138,7 @@ main.ts:221574
 
 #### Source
 
-main.ts:221575
+main.ts:218734
 
 ***
 
@@ -148,7 +148,7 @@ main.ts:221575
 
 #### Source
 
-main.ts:221577
+main.ts:218736
 
 ***
 
@@ -158,7 +158,7 @@ main.ts:221577
 
 #### Source
 
-main.ts:221578
+main.ts:218737
 
 ***
 
@@ -168,7 +168,7 @@ main.ts:221578
 
 #### Source
 
-main.ts:221579
+main.ts:218738
 
 ***
 
@@ -178,7 +178,7 @@ main.ts:221579
 
 #### Source
 
-main.ts:221580
+main.ts:218739
 
 ***
 
@@ -188,7 +188,7 @@ main.ts:221580
 
 #### Source
 
-main.ts:221581
+main.ts:218740
 
 ***
 
@@ -198,7 +198,7 @@ main.ts:221581
 
 #### Source
 
-main.ts:221582
+main.ts:218741
 
 ***
 
@@ -208,4 +208,4 @@ main.ts:221582
 
 #### Source
 
-main.ts:221583
+main.ts:218742

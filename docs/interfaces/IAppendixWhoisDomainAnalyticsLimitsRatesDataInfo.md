@@ -14,8 +14,8 @@
 
 ### overview?
 
-> **`optional`** **overview**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **overview**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:216697
+main.ts:213856

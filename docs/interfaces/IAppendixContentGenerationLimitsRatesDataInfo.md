@@ -18,57 +18,57 @@
 
 #### Source
 
-main.ts:217943
+main.ts:215102
 
 ***
 
 ### generate?
 
-> **`optional`** **generate**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **generate**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:217939
+main.ts:215098
 
 ***
 
 ### generate\_meta\_tags?
 
-> **`optional`** **generate\_meta\_tags**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **generate\_meta\_tags**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:217940
+main.ts:215099
 
 ***
 
 ### generate\_sub\_topics?
 
-> **`optional`** **generate\_sub\_topics**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **generate\_sub\_topics**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:217945
+main.ts:215104
 
 ***
 
 ### generate\_text?
 
-> **`optional`** **generate\_text**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **generate\_text**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:217941
+main.ts:215100
 
 ***
 
 ### paraphrase?
 
-> **`optional`** **paraphrase**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **paraphrase**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:217942
+main.ts:215101
 
 ***
 
@@ -78,4 +78,4 @@ main.ts:217942
 
 #### Source
 
-main.ts:217944
+main.ts:215103

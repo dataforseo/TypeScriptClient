@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:195653
+main.ts:195634
 
 ## Properties
 
@@ -46,7 +46,7 @@ number of businesses in this location in our database
 
 #### Source
 
-main.ts:195649
+main.ts:195630
 
 ***
 
@@ -62,7 +62,7 @@ ISO country code of the location
 
 #### Source
 
-main.ts:195647
+main.ts:195628
 
 ***
 
@@ -78,7 +78,7 @@ full name of the location
 
 #### Source
 
-main.ts:195645
+main.ts:195626
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:195645
 
 #### Source
 
-main.ts:195662
+main.ts:195643
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:195662
 
 #### Source
 
-main.ts:195681
+main.ts:195662
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:195681
 
 #### Source
 
-main.ts:195674
+main.ts:195655

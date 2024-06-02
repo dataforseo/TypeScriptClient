@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:107189
+main.ts:107292
 
 ## Properties
 
@@ -47,7 +47,7 @@ the list of supported SERP elements can be found below
 
 #### Source
 
-main.ts:107182
+main.ts:107285
 
 ***
 
@@ -63,7 +63,7 @@ keyword data for the returned keyword
 
 #### Source
 
-main.ts:107179
+main.ts:107282
 
 ***
 
@@ -81,7 +81,7 @@ for this endpoint, the field equals bing
 
 #### Source
 
-main.ts:107177
+main.ts:107280
 
 ***
 
@@ -98,7 +98,7 @@ the list of supported SERP elements can be found below
 
 #### Source
 
-main.ts:107185
+main.ts:107288
 
 ## Methods
 
@@ -116,7 +116,7 @@ main.ts:107185
 
 #### Source
 
-main.ts:107198
+main.ts:107301
 
 ***
 
@@ -134,7 +134,7 @@ main.ts:107198
 
 #### Source
 
-main.ts:107218
+main.ts:107321
 
 ***
 
@@ -152,4 +152,4 @@ main.ts:107218
 
 #### Source
 
-main.ts:107211
+main.ts:107314

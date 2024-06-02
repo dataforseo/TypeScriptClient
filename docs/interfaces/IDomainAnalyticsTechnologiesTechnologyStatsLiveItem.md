@@ -27,7 +27,7 @@ contains country codes and number of websites per country
 
 #### Source
 
-main.ts:77175
+main.ts:77236
 
 ***
 
@@ -39,7 +39,7 @@ date for which the data is provided
 
 #### Source
 
-main.ts:77170
+main.ts:77231
 
 ***
 
@@ -51,7 +51,7 @@ number of domains that use the specified technology
 
 #### Source
 
-main.ts:77172
+main.ts:77233
 
 ***
 
@@ -69,7 +69,7 @@ learn more about rank and how it is calculated in this help center article
 
 #### Source
 
-main.ts:77182
+main.ts:77243
 
 ***
 
@@ -86,7 +86,7 @@ contains language codes and number of websites per language
 
 #### Source
 
-main.ts:77178
+main.ts:77239
 
 ***
 
@@ -98,4 +98,4 @@ type of element
 
 #### Source
 
-main.ts:77168
+main.ts:77229

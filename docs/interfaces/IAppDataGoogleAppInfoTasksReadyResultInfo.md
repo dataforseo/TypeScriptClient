@@ -20,7 +20,7 @@ date when the task was posted (in the UTC format)
 
 #### Source
 
-main.ts:187445
+main.ts:187406
 
 ***
 
@@ -32,7 +32,7 @@ URL for collecting the results of the Google App Info task
 
 #### Source
 
-main.ts:187449
+main.ts:187410
 
 ***
 
@@ -45,7 +45,7 @@ if HTML tasks are not supported in the specified endpoint, the value will be nul
 
 #### Source
 
-main.ts:187452
+main.ts:187413
 
 ***
 
@@ -58,7 +58,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:187441
+main.ts:187401
 
 ***
 
@@ -70,7 +70,17 @@ search engine specified when setting the task
 
 #### Source
 
-main.ts:187443
+main.ts:187403
+
+***
+
+### se\_type?
+
+> **`optional`** **se\_type**: `string`
+
+#### Source
+
+main.ts:187404
 
 ***
 
@@ -82,4 +92,4 @@ user-defined task identifier
 
 #### Source
 
-main.ts:187447
+main.ts:187408

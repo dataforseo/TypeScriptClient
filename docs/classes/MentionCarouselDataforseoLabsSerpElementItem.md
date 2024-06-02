@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:98322
+main.ts:98404
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:98322
 
 #### Source
 
-main.ts:20377
+main.ts:20051
 
 ***
 
@@ -60,7 +60,8 @@ main.ts:20377
 
 > **`optional`** **items**: [`MentionCarouselElement`](MentionCarouselElement.md)[]
 
-elements of search results found in SERP
+additional items present in the element
+if there are none, equals null
 
 #### Implementation of
 
@@ -68,7 +69,7 @@ elements of search results found in SERP
 
 #### Source
 
-main.ts:98318
+main.ts:98400
 
 ***
 
@@ -86,7 +87,7 @@ left, right
 
 #### Source
 
-main.ts:98312
+main.ts:98393
 
 ***
 
@@ -103,7 +104,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:98308
+main.ts:98389
 
 ***
 
@@ -120,7 +121,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:98305
+main.ts:98386
 
 ***
 
@@ -128,7 +129,7 @@ main.ts:98305
 
 > **`optional`** **title**: `string`
 
-title of the result in SERP
+title of the item
 
 #### Implementation of
 
@@ -136,7 +137,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:98316
+main.ts:98397
 
 ***
 
@@ -152,7 +153,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:98314
+main.ts:98395
 
 ## Methods
 
@@ -174,7 +175,7 @@ main.ts:98314
 
 #### Source
 
-main.ts:98327
+main.ts:98409
 
 ***
 
@@ -196,7 +197,7 @@ main.ts:98327
 
 #### Source
 
-main.ts:98354
+main.ts:98436
 
 ***
 
@@ -218,4 +219,4 @@ main.ts:98354
 
 #### Source
 
-main.ts:98347
+main.ts:98429

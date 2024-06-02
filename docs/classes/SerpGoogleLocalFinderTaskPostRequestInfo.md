@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:41598
+main.ts:41567
 
 ## Properties
 
@@ -54,7 +54,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:41548
+main.ts:41517
 
 ***
 
@@ -73,7 +73,7 @@ default value: desktop
 
 #### Source
 
-main.ts:41531
+main.ts:41500
 
 ***
 
@@ -94,7 +94,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Source
 
-main.ts:41480
+main.ts:41449
 
 ***
 
@@ -114,7 +114,7 @@ example:en
 
 #### Source
 
-main.ts:41526
+main.ts:41495
 
 ***
 
@@ -135,7 +135,7 @@ English
 
 #### Source
 
-main.ts:41520
+main.ts:41489
 
 ***
 
@@ -156,7 +156,7 @@ example:
 
 #### Source
 
-main.ts:41502
+main.ts:41471
 
 ***
 
@@ -173,7 +173,7 @@ the maximum number of decimal digits for “latitude” and “longitude”: 7
 the minimum value for “zoom”: 4z
 the maximum value for “zoom”: 18z
 example:
-52.6178549,-155.352142,20z
+52.6178549,-155.352142,18z
 
 #### Implementation of
 
@@ -181,7 +181,7 @@ example:
 
 #### Source
 
-main.ts:41513
+main.ts:41482
 
 ***
 
@@ -202,7 +202,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:41495
+main.ts:41464
 
 ***
 
@@ -221,7 +221,7 @@ possible values for mobile: 2, 2.5, 3, 3.5, 4, 4.5
 
 #### Source
 
-main.ts:41553
+main.ts:41522
 
 ***
 
@@ -242,7 +242,7 @@ default value: android
 
 #### Source
 
-main.ts:41538
+main.ts:41507
 
 ***
 
@@ -266,7 +266,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:41594
+main.ts:41563
 
 ***
 
@@ -286,7 +286,7 @@ advanced, html
 
 #### Source
 
-main.ts:41584
+main.ts:41553
 
 ***
 
@@ -310,7 +310,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:41578
+main.ts:41547
 
 ***
 
@@ -332,7 +332,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:41488
+main.ts:41457
 
 ***
 
@@ -352,7 +352,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:41568
+main.ts:41537
 
 ***
 
@@ -375,7 +375,7 @@ example: "tuesday;18"
 
 #### Source
 
-main.ts:41562
+main.ts:41531
 
 ## Methods
 
@@ -393,7 +393,7 @@ main.ts:41562
 
 #### Source
 
-main.ts:41607
+main.ts:41576
 
 ***
 
@@ -411,7 +411,7 @@ main.ts:41607
 
 #### Source
 
-main.ts:41639
+main.ts:41608
 
 ***
 
@@ -429,4 +429,4 @@ main.ts:41639
 
 #### Source
 
-main.ts:41632
+main.ts:41601

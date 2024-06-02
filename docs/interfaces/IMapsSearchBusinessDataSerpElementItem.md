@@ -25,7 +25,7 @@ additional Google My Business categories that describe the services provided by 
 
 #### Source
 
-main.ts:199088
+main.ts:199071
 
 ***
 
@@ -37,7 +37,7 @@ address of the business entity
 
 #### Source
 
-main.ts:199070
+main.ts:199053
 
 ***
 
@@ -49,7 +49,7 @@ object containing address components of the business entity
 
 #### Source
 
-main.ts:199072
+main.ts:199055
 
 ***
 
@@ -62,7 +62,7 @@ Google My Business general category that best describes the services provided by
 
 #### Source
 
-main.ts:199085
+main.ts:199068
 
 ***
 
@@ -75,7 +75,7 @@ universal category IDs that do not change based on the selected country
 
 #### Source
 
-main.ts:199099
+main.ts:199082
 
 ***
 
@@ -90,7 +90,7 @@ learn more about the identifier in this help center article
 
 #### Source
 
-main.ts:199110
+main.ts:199093
 
 ***
 
@@ -102,7 +102,7 @@ domain of the business entity
 
 #### Source
 
-main.ts:199055
+main.ts:199038
 
 ***
 
@@ -115,7 +115,7 @@ learn more about the identifier in this help center article
 
 #### Source
 
-main.ts:199105
+main.ts:199088
 
 ***
 
@@ -129,7 +129,7 @@ if there is no hotel class rating information, the value will be null
 
 #### Source
 
-main.ts:199096
+main.ts:199079
 
 ***
 
@@ -141,7 +141,7 @@ shows whether the entity is verified by its owner on Google Maps
 
 #### Source
 
-main.ts:199120
+main.ts:199103
 
 ***
 
@@ -156,7 +156,7 @@ note: if the business establishment is a parent item in the directory, the value
 
 #### Source
 
-main.ts:199128
+main.ts:199111
 
 ***
 
@@ -170,7 +170,7 @@ example:
 
 #### Source
 
-main.ts:199114
+main.ts:199097
 
 ***
 
@@ -183,7 +183,7 @@ snippets of text that “justify” why the business is showing up for search qu
 
 #### Source
 
-main.ts:199123
+main.ts:199106
 
 ***
 
@@ -197,7 +197,7 @@ example:
 
 #### Source
 
-main.ts:199118
+main.ts:199101
 
 ***
 
@@ -209,7 +209,7 @@ URL of the main image featured in Google My Business profile
 
 #### Source
 
-main.ts:199080
+main.ts:199063
 
 ***
 
@@ -221,7 +221,7 @@ phone number of the business entity
 
 #### Source
 
-main.ts:199078
+main.ts:199061
 
 ***
 
@@ -235,7 +235,7 @@ learn more about the identifier in this help center article
 
 #### Source
 
-main.ts:199076
+main.ts:199059
 
 ***
 
@@ -249,7 +249,7 @@ if there is no price level information, the value will be null
 
 #### Source
 
-main.ts:199092
+main.ts:199075
 
 ***
 
@@ -261,7 +261,7 @@ absolute rank among all the elements
 
 #### Source
 
-main.ts:199053
+main.ts:199036
 
 ***
 
@@ -274,7 +274,7 @@ positions of elements with different type values are omitted from the rank_group
 
 #### Source
 
-main.ts:199051
+main.ts:199034
 
 ***
 
@@ -287,7 +287,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:199063
+main.ts:199046
 
 ***
 
@@ -304,7 +304,7 @@ the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 #### Source
 
-main.ts:199066
+main.ts:199049
 
 ***
 
@@ -316,7 +316,7 @@ additional information about the business entity
 
 #### Source
 
-main.ts:199068
+main.ts:199051
 
 ***
 
@@ -329,7 +329,7 @@ can take the following values: At this place, Directory
 
 #### Source
 
-main.ts:199058
+main.ts:199041
 
 ***
 
@@ -341,7 +341,7 @@ total count of images featured in Google My Business profile
 
 #### Source
 
-main.ts:199082
+main.ts:199065
 
 ***
 
@@ -353,7 +353,7 @@ URL to view the menu
 
 #### Source
 
-main.ts:199060
+main.ts:199043
 
 ***
 
@@ -366,4 +366,4 @@ information about work hours of the local establishment
 
 #### Source
 
-main.ts:199102
+main.ts:199085

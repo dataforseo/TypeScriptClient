@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:156672
+main.ts:156585
 
 ## Properties
 
@@ -60,7 +60,7 @@ The full list of possible filters is available by this link.
 
 #### Source
 
-main.ts:156668
+main.ts:156581
 
 ***
 
@@ -80,7 +80,7 @@ example:
 
 #### Source
 
-main.ts:156642
+main.ts:156555
 
 ***
 
@@ -99,7 +99,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:156647
+main.ts:156560
 
 ***
 
@@ -118,7 +118,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Source
 
-main.ts:156652
+main.ts:156565
 
 ## Methods
 
@@ -136,7 +136,7 @@ main.ts:156652
 
 #### Source
 
-main.ts:156681
+main.ts:156594
 
 ***
 
@@ -154,7 +154,7 @@ main.ts:156681
 
 #### Source
 
-main.ts:156705
+main.ts:156618
 
 ***
 
@@ -172,4 +172,4 @@ main.ts:156705
 
 #### Source
 
-main.ts:156698
+main.ts:156611

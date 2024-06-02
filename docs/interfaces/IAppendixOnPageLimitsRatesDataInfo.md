@@ -18,7 +18,7 @@
 
 #### Source
 
-main.ts:217208
+main.ts:214367
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:217208
 
 #### Source
 
-main.ts:217209
+main.ts:214368
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:217209
 
 #### Source
 
-main.ts:217201
+main.ts:214360
 
 ***
 
@@ -48,7 +48,7 @@ main.ts:217201
 
 #### Source
 
-main.ts:217196
+main.ts:214355
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:217196
 
 #### Source
 
-main.ts:217199
+main.ts:214358
 
 ***
 
@@ -68,7 +68,7 @@ main.ts:217199
 
 #### Source
 
-main.ts:217203
+main.ts:214362
 
 ***
 
@@ -78,17 +78,17 @@ main.ts:217203
 
 #### Source
 
-main.ts:217206
+main.ts:214365
 
 ***
 
 ### lighthouse?
 
-> **`optional`** **lighthouse**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **lighthouse**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:217205
+main.ts:214364
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:217205
 
 #### Source
 
-main.ts:217197
+main.ts:214356
 
 ***
 
@@ -108,7 +108,7 @@ main.ts:217197
 
 #### Source
 
-main.ts:217195
+main.ts:214354
 
 ***
 
@@ -118,7 +118,7 @@ main.ts:217195
 
 #### Source
 
-main.ts:217207
+main.ts:214366
 
 ***
 
@@ -128,7 +128,7 @@ main.ts:217207
 
 #### Source
 
-main.ts:217194
+main.ts:214353
 
 ***
 
@@ -138,7 +138,7 @@ main.ts:217194
 
 #### Source
 
-main.ts:217200
+main.ts:214359
 
 ***
 
@@ -148,7 +148,7 @@ main.ts:217200
 
 #### Source
 
-main.ts:217202
+main.ts:214361
 
 ***
 
@@ -158,7 +158,7 @@ main.ts:217202
 
 #### Source
 
-main.ts:217204
+main.ts:214363
 
 ***
 
@@ -168,7 +168,7 @@ main.ts:217204
 
 #### Source
 
-main.ts:217193
+main.ts:214352
 
 ***
 
@@ -178,7 +178,7 @@ main.ts:217193
 
 #### Source
 
-main.ts:217192
+main.ts:214351
 
 ***
 
@@ -188,7 +188,7 @@ main.ts:217192
 
 #### Source
 
-main.ts:217190
+main.ts:214349
 
 ***
 
@@ -198,7 +198,7 @@ main.ts:217190
 
 #### Source
 
-main.ts:217191
+main.ts:214350
 
 ***
 
@@ -208,4 +208,4 @@ main.ts:217191
 
 #### Source
 
-main.ts:217198
+main.ts:214357

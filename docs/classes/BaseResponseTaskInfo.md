@@ -17,6 +17,7 @@
 - [`SerpGoogleLanguagesTaskInfo`](SerpGoogleLanguagesTaskInfo.md)
 - [`SerpGoogleOrganicTaskPostTaskInfo`](SerpGoogleOrganicTaskPostTaskInfo.md)
 - [`SerpGoogleOrganicTasksReadyTaskInfo`](SerpGoogleOrganicTasksReadyTaskInfo.md)
+- [`SerpTasksReadyTaskInfo`](SerpTasksReadyTaskInfo.md)
 - [`SerpGoogleOrganicTasksFixedTaskInfo`](SerpGoogleOrganicTasksFixedTaskInfo.md)
 - [`SerpGoogleOrganicTaskGetRegularTaskInfo`](SerpGoogleOrganicTaskGetRegularTaskInfo.md)
 - [`SerpGoogleOrganicTaskGetAdvancedTaskInfo`](SerpGoogleOrganicTaskGetAdvancedTaskInfo.md)
@@ -479,15 +480,6 @@
 - [`BusinessDataTripadvisorReviewsTaskPostTaskInfo`](BusinessDataTripadvisorReviewsTaskPostTaskInfo.md)
 - [`BusinessDataTripadvisorReviewsTasksReadyTaskInfo`](BusinessDataTripadvisorReviewsTasksReadyTaskInfo.md)
 - [`BusinessDataTripadvisorReviewsTaskGetTaskInfo`](BusinessDataTripadvisorReviewsTaskGetTaskInfo.md)
-- [`BusinessDataYelpLocationsTaskInfo`](BusinessDataYelpLocationsTaskInfo.md)
-- [`BusinessDataYelpLocationsCountryTaskInfo`](BusinessDataYelpLocationsCountryTaskInfo.md)
-- [`BusinessDataYelpLanguagesTaskInfo`](BusinessDataYelpLanguagesTaskInfo.md)
-- [`BusinessDataYelpSearchTaskPostTaskInfo`](BusinessDataYelpSearchTaskPostTaskInfo.md)
-- [`BusinessDataYelpSearchTasksReadyTaskInfo`](BusinessDataYelpSearchTasksReadyTaskInfo.md)
-- [`BusinessDataYelpSearchTaskGetTaskInfo`](BusinessDataYelpSearchTaskGetTaskInfo.md)
-- [`BusinessDataYelpReviewsTaskPostTaskInfo`](BusinessDataYelpReviewsTaskPostTaskInfo.md)
-- [`BusinessDataYelpReviewsTasksReadyTaskInfo`](BusinessDataYelpReviewsTasksReadyTaskInfo.md)
-- [`BusinessDataYelpReviewsTaskGetTaskInfo`](BusinessDataYelpReviewsTaskGetTaskInfo.md)
 - [`BusinessDataSocialMediaPinterestLiveTaskInfo`](BusinessDataSocialMediaPinterestLiveTaskInfo.md)
 - [`BusinessDataSocialMediaFacebookLiveTaskInfo`](BusinessDataSocialMediaFacebookLiveTaskInfo.md)
 - [`BusinessDataSocialMediaRedditLiveTaskInfo`](BusinessDataSocialMediaRedditLiveTaskInfo.md)
@@ -520,7 +512,7 @@
 
 #### Source
 
-main.ts:23503
+main.ts:23162
 
 ## Properties
 
@@ -536,7 +528,7 @@ total tasks cost, USD
 
 #### Source
 
-main.ts:23493
+main.ts:23152
 
 ***
 
@@ -556,7 +548,7 @@ contains the same parameters that you specified in the POST request
 
 #### Source
 
-main.ts:23499
+main.ts:23158
 
 ***
 
@@ -573,7 +565,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:23482
+main.ts:23141
 
 ***
 
@@ -589,7 +581,7 @@ URL path
 
 #### Source
 
-main.ts:23497
+main.ts:23156
 
 ***
 
@@ -605,7 +597,7 @@ number of elements in the result array
 
 #### Source
 
-main.ts:23495
+main.ts:23154
 
 ***
 
@@ -623,7 +615,7 @@ you can find the full list of the response codes here
 
 #### Source
 
-main.ts:23486
+main.ts:23145
 
 ***
 
@@ -640,7 +632,7 @@ you can find the full list of general informational messages here
 
 #### Source
 
-main.ts:23489
+main.ts:23148
 
 ***
 
@@ -656,7 +648,7 @@ execution time, seconds
 
 #### Source
 
-main.ts:23491
+main.ts:23150
 
 ## Methods
 
@@ -674,7 +666,7 @@ main.ts:23491
 
 #### Source
 
-main.ts:23512
+main.ts:23171
 
 ***
 
@@ -692,7 +684,7 @@ main.ts:23512
 
 #### Source
 
-main.ts:23546
+main.ts:23205
 
 ***
 
@@ -710,4 +702,4 @@ main.ts:23546
 
 #### Source
 
-main.ts:23539
+main.ts:23198

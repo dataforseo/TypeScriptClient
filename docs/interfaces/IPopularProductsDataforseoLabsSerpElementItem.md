@@ -20,11 +20,12 @@
 
 > **`optional`** **items**: [`PopularProductsElement`](../classes/PopularProductsElement.md)[]
 
-elements of search results found in SERP
+additional items present in the element
+if there are none, equals null
 
 #### Source
 
-main.ts:98761
+main.ts:98852
 
 ***
 
@@ -38,7 +39,7 @@ left, right
 
 #### Source
 
-main.ts:98757
+main.ts:98847
 
 ***
 
@@ -51,7 +52,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:98753
+main.ts:98843
 
 ***
 
@@ -64,7 +65,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:98750
+main.ts:98840
 
 ***
 
@@ -76,4 +77,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:98759
+main.ts:98849

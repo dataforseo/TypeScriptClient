@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:200019
+main.ts:200003
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Source
 
-main.ts:200011
+main.ts:199995
 
 ***
 
@@ -62,7 +62,7 @@ URL for collecting the results of the task
 
 #### Source
 
-main.ts:200015
+main.ts:199999
 
 ***
 
@@ -79,7 +79,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:200005
+main.ts:199988
 
 ***
 
@@ -96,7 +96,7 @@ can take the following values: google
 
 #### Source
 
-main.ts:200008
+main.ts:199991
 
 ***
 
@@ -104,13 +104,15 @@ main.ts:200008
 
 > **`optional`** **se\_type**: `string`
 
+search engine type
+
 #### Implementation of
 
 [`IBusinessDataGoogleMyBusinessUpdatesTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTasksReadyResultInfo.md).[`se_type`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTasksReadyResultInfo.md#se_type)
 
 #### Source
 
-main.ts:200009
+main.ts:199993
 
 ***
 
@@ -126,7 +128,7 @@ user-defined task identifier
 
 #### Source
 
-main.ts:200013
+main.ts:199997
 
 ## Methods
 
@@ -144,7 +146,7 @@ main.ts:200013
 
 #### Source
 
-main.ts:200028
+main.ts:200012
 
 ***
 
@@ -162,7 +164,7 @@ main.ts:200028
 
 #### Source
 
-main.ts:200050
+main.ts:200034
 
 ***
 
@@ -180,4 +182,4 @@ main.ts:200050
 
 #### Source
 
-main.ts:200043
+main.ts:200027

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:144671
+main.ts:144774
 
 ## Properties
 
@@ -51,7 +51,7 @@ data is provided in separate objects corresponding to pages specified in the tar
 
 #### Source
 
-main.ts:144665
+main.ts:144768
 
 ***
 
@@ -67,7 +67,7 @@ contains the page intersections summary
 
 #### Source
 
-main.ts:144667
+main.ts:144770
 
 ## Methods
 
@@ -85,7 +85,7 @@ main.ts:144667
 
 #### Source
 
-main.ts:144680
+main.ts:144783
 
 ***
 
@@ -103,7 +103,7 @@ main.ts:144680
 
 #### Source
 
-main.ts:144704
+main.ts:144807
 
 ***
 
@@ -121,4 +121,4 @@ main.ts:144704
 
 #### Source
 
-main.ts:144697
+main.ts:144800

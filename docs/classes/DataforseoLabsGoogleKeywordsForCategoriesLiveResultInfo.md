@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:87495
+main.ts:87554
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains keyword ideas and related data
 
 #### Source
 
-main.ts:87491
+main.ts:87550
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:87483
+main.ts:87542
 
 ***
 
@@ -78,7 +78,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:87479
+main.ts:87538
 
 ***
 
@@ -94,7 +94,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:87477
+main.ts:87536
 
 ***
 
@@ -110,7 +110,7 @@ current offset value
 
 #### Source
 
-main.ts:87485
+main.ts:87544
 
 ***
 
@@ -128,7 +128,7 @@ note: offset_token values are unique for each subsequent task
 
 #### Source
 
-main.ts:87489
+main.ts:87548
 
 ***
 
@@ -144,7 +144,7 @@ search engine type
 
 #### Source
 
-main.ts:87473
+main.ts:87532
 
 ***
 
@@ -160,7 +160,7 @@ categories in a POST array
 
 #### Source
 
-main.ts:87475
+main.ts:87534
 
 ***
 
@@ -176,7 +176,7 @@ the total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:87481
+main.ts:87540
 
 ## Methods
 
@@ -194,7 +194,7 @@ main.ts:87481
 
 #### Source
 
-main.ts:87504
+main.ts:87563
 
 ***
 
@@ -212,7 +212,7 @@ main.ts:87504
 
 #### Source
 
-main.ts:87537
+main.ts:87596
 
 ***
 
@@ -230,4 +230,4 @@ main.ts:87537
 
 #### Source
 
-main.ts:87530
+main.ts:87589

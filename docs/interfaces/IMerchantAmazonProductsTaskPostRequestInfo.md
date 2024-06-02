@@ -27,7 +27,7 @@ specify one of the following amazon departments for extracting product listings:
 
 #### Source
 
-main.ts:178154
+main.ts:178107
 
 ***
 
@@ -50,7 +50,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:150226
+main.ts:150139
 
 ***
 
@@ -71,7 +71,7 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Source
 
-main.ts:150159
+main.ts:150072
 
 ***
 
@@ -92,7 +92,7 @@ en
 
 #### Source
 
-main.ts:150210
+main.ts:150123
 
 ***
 
@@ -113,7 +113,7 @@ English
 
 #### Source
 
-main.ts:150203
+main.ts:150116
 
 ***
 
@@ -134,7 +134,7 @@ example:
 
 #### Source
 
-main.ts:150187
+main.ts:150100
 
 ***
 
@@ -157,7 +157,7 @@ example:
 
 #### Source
 
-main.ts:150196
+main.ts:150109
 
 ***
 
@@ -178,7 +178,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:150180
+main.ts:150093
 
 ***
 
@@ -199,7 +199,7 @@ learn more at our help center
 
 #### Source
 
-main.ts:150233
+main.ts:150146
 
 ***
 
@@ -223,7 +223,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:150295
+main.ts:150208
 
 ***
 
@@ -243,7 +243,7 @@ advanced, html
 
 #### Source
 
-main.ts:150285
+main.ts:150198
 
 ***
 
@@ -267,7 +267,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:150279
+main.ts:150192
 
 ***
 
@@ -287,7 +287,7 @@ example:
 
 #### Source
 
-main.ts:150256
+main.ts:150169
 
 ***
 
@@ -307,7 +307,7 @@ example:
 
 #### Source
 
-main.ts:150250
+main.ts:150163
 
 ***
 
@@ -329,7 +329,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:150173
+main.ts:150086
 
 ***
 
@@ -350,7 +350,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Source
 
-main.ts:150217
+main.ts:150130
 
 ***
 
@@ -375,7 +375,7 @@ example:
 
 #### Source
 
-main.ts:150244
+main.ts:150157
 
 ***
 
@@ -396,7 +396,7 @@ sort_by:"review_score"
 
 #### Source
 
-main.ts:150263
+main.ts:150176
 
 ***
 
@@ -416,7 +416,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:150269
+main.ts:150182
 
 ***
 
@@ -436,4 +436,4 @@ https://www.google.com/search?q=iphone&num=100&tbm=shop&ie=UTF-8&oe=UTF-8&tbs=vw
 
 #### Source
 
-main.ts:150165
+main.ts:150078

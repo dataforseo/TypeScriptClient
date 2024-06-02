@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:27852
+main.ts:27723
 
 ## Properties
 
@@ -46,7 +46,7 @@ domain in SERP
 
 #### Source
 
-main.ts:27835
+main.ts:27706
 
 ***
 
@@ -62,7 +62,7 @@ title of a given element
 
 #### Source
 
-main.ts:27831
+main.ts:27702
 
 ***
 
@@ -78,7 +78,7 @@ images of the element
 
 #### Source
 
-main.ts:27841
+main.ts:27712
 
 ***
 
@@ -94,7 +94,7 @@ text alongside the link title
 
 #### Source
 
-main.ts:27839
+main.ts:27710
 
 ***
 
@@ -110,7 +110,7 @@ table element
 
 #### Source
 
-main.ts:27848
+main.ts:27719
 
 ***
 
@@ -129,7 +129,7 @@ example:
 
 #### Source
 
-main.ts:27846
+main.ts:27717
 
 ***
 
@@ -145,7 +145,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:27837
+main.ts:27708
 
 ***
 
@@ -161,7 +161,7 @@ type of element
 
 #### Source
 
-main.ts:27829
+main.ts:27700
 
 ***
 
@@ -177,7 +177,7 @@ relevant URL
 
 #### Source
 
-main.ts:27833
+main.ts:27704
 
 ## Methods
 
@@ -195,7 +195,7 @@ main.ts:27833
 
 #### Source
 
-main.ts:27861
+main.ts:27732
 
 ***
 
@@ -213,7 +213,7 @@ main.ts:27861
 
 #### Source
 
-main.ts:27890
+main.ts:27761
 
 ***
 
@@ -231,4 +231,4 @@ main.ts:27890
 
 #### Source
 
-main.ts:27883
+main.ts:27754

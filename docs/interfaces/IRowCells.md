@@ -20,7 +20,7 @@ indicates if the text belongs to the header
 
 #### Source
 
-main.ts:160661
+main.ts:160600
 
 ***
 
@@ -32,7 +32,7 @@ content text
 
 #### Source
 
-main.ts:160657
+main.ts:160596
 
 ***
 
@@ -44,4 +44,4 @@ contains other URLs and anchors found in the content element
 
 #### Source
 
-main.ts:160659
+main.ts:160598

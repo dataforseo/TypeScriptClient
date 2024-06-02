@@ -30,13 +30,13 @@
 
 #### Source
 
-main.ts:216512
+main.ts:213671
 
 ## Properties
 
 ### app\_competitors?
 
-> **`optional`** **app\_competitors**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **app\_competitors**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -44,13 +44,13 @@ main.ts:216512
 
 #### Source
 
-main.ts:216504
+main.ts:213663
 
 ***
 
 ### app\_intersection?
 
-> **`optional`** **app\_intersection**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **app\_intersection**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -58,13 +58,13 @@ main.ts:216504
 
 #### Source
 
-main.ts:216506
+main.ts:213665
 
 ***
 
 ### bulk\_app\_metrics?
 
-> **`optional`** **bulk\_app\_metrics**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **bulk\_app\_metrics**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -72,13 +72,13 @@ main.ts:216506
 
 #### Source
 
-main.ts:216507
+main.ts:213666
 
 ***
 
 ### bulk\_keyword\_difficulty?
 
-> **`optional`** **bulk\_keyword\_difficulty**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **bulk\_keyword\_difficulty**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -86,13 +86,13 @@ main.ts:216507
 
 #### Source
 
-main.ts:216491
+main.ts:213650
 
 ***
 
 ### bulk\_search\_volume?
 
-> **`optional`** **bulk\_search\_volume**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **bulk\_search\_volume**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -100,13 +100,13 @@ main.ts:216491
 
 #### Source
 
-main.ts:216492
+main.ts:213651
 
 ***
 
 ### bulk\_traffic\_estimation?
 
-> **`optional`** **bulk\_traffic\_estimation**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **bulk\_traffic\_estimation**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -114,7 +114,7 @@ main.ts:216492
 
 #### Source
 
-main.ts:216490
+main.ts:213649
 
 ***
 
@@ -128,13 +128,13 @@ main.ts:216490
 
 #### Source
 
-main.ts:216476
+main.ts:213635
 
 ***
 
 ### categories\_for\_domain?
 
-> **`optional`** **categories\_for\_domain**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **categories\_for\_domain**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -142,13 +142,13 @@ main.ts:216476
 
 #### Source
 
-main.ts:216497
+main.ts:213656
 
 ***
 
 ### competitors\_domain?
 
-> **`optional`** **competitors\_domain**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **competitors\_domain**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -156,13 +156,13 @@ main.ts:216497
 
 #### Source
 
-main.ts:216485
+main.ts:213644
 
 ***
 
 ### domain\_intersection?
 
-> **`optional`** **domain\_intersection**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **domain\_intersection**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -170,13 +170,13 @@ main.ts:216485
 
 #### Source
 
-main.ts:216488
+main.ts:213647
 
 ***
 
 ### domain\_metrics\_by\_categories?
 
-> **`optional`** **domain\_metrics\_by\_categories**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **domain\_metrics\_by\_categories**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -184,13 +184,13 @@ main.ts:216488
 
 #### Source
 
-main.ts:216498
+main.ts:213657
 
 ***
 
 ### domain\_rank\_overview?
 
-> **`optional`** **domain\_rank\_overview**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **domain\_rank\_overview**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -198,13 +198,13 @@ main.ts:216498
 
 #### Source
 
-main.ts:216487
+main.ts:213646
 
 ***
 
 ### domain\_whois\_overview?
 
-> **`optional`** **domain\_whois\_overview**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **domain\_whois\_overview**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -212,7 +212,7 @@ main.ts:216487
 
 #### Source
 
-main.ts:216500
+main.ts:213659
 
 ***
 
@@ -226,13 +226,13 @@ main.ts:216500
 
 #### Source
 
-main.ts:216477
+main.ts:213636
 
 ***
 
 ### historical\_rank\_overview?
 
-> **`optional`** **historical\_rank\_overview**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **historical\_rank\_overview**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -240,13 +240,13 @@ main.ts:216477
 
 #### Source
 
-main.ts:216501
+main.ts:213660
 
 ***
 
 ### historical\_search\_volume?
 
-> **`optional`** **historical\_search\_volume**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **historical\_search\_volume**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -254,13 +254,13 @@ main.ts:216501
 
 #### Source
 
-main.ts:216496
+main.ts:213655
 
 ***
 
 ### historical\_serps?
 
-> **`optional`** **historical\_serps**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **historical\_serps**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -268,13 +268,13 @@ main.ts:216496
 
 #### Source
 
-main.ts:216503
+main.ts:213662
 
 ***
 
 ### keyword\_ideas?
 
-> **`optional`** **keyword\_ideas**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **keyword\_ideas**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -282,13 +282,13 @@ main.ts:216503
 
 #### Source
 
-main.ts:216495
+main.ts:213654
 
 ***
 
 ### keyword\_suggestions?
 
-> **`optional`** **keyword\_suggestions**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **keyword\_suggestions**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -296,13 +296,13 @@ main.ts:216495
 
 #### Source
 
-main.ts:216494
+main.ts:213653
 
 ***
 
 ### keywords\_for\_app?
 
-> **`optional`** **keywords\_for\_app**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **keywords\_for\_app**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -310,13 +310,13 @@ main.ts:216494
 
 #### Source
 
-main.ts:216505
+main.ts:213664
 
 ***
 
 ### keywords\_for\_categories?
 
-> **`optional`** **keywords\_for\_categories**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **keywords\_for\_categories**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -324,13 +324,13 @@ main.ts:216505
 
 #### Source
 
-main.ts:216502
+main.ts:213661
 
 ***
 
 ### keywords\_for\_site?
 
-> **`optional`** **keywords\_for\_site**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **keywords\_for\_site**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -338,7 +338,7 @@ main.ts:216502
 
 #### Source
 
-main.ts:216493
+main.ts:213652
 
 ***
 
@@ -352,13 +352,13 @@ main.ts:216493
 
 #### Source
 
-main.ts:216475
+main.ts:213634
 
 ***
 
 ### page\_intersection?
 
-> **`optional`** **page\_intersection**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **page\_intersection**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -366,13 +366,13 @@ main.ts:216475
 
 #### Source
 
-main.ts:216489
+main.ts:213648
 
 ***
 
 ### product\_competitors?
 
-> **`optional`** **product\_competitors**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **product\_competitors**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -380,13 +380,13 @@ main.ts:216489
 
 #### Source
 
-main.ts:216478
+main.ts:213637
 
 ***
 
 ### product\_keyword\_intersections?
 
-> **`optional`** **product\_keyword\_intersections**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **product\_keyword\_intersections**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -394,13 +394,13 @@ main.ts:216478
 
 #### Source
 
-main.ts:216479
+main.ts:213638
 
 ***
 
 ### product\_rank\_overview?
 
-> **`optional`** **product\_rank\_overview**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **product\_rank\_overview**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -408,13 +408,13 @@ main.ts:216479
 
 #### Source
 
-main.ts:216480
+main.ts:213639
 
 ***
 
 ### ranked\_keywords?
 
-> **`optional`** **ranked\_keywords**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **ranked\_keywords**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -422,13 +422,13 @@ main.ts:216480
 
 #### Source
 
-main.ts:216481
+main.ts:213640
 
 ***
 
 ### related\_keywords?
 
-> **`optional`** **related\_keywords**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **related\_keywords**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -436,13 +436,13 @@ main.ts:216481
 
 #### Source
 
-main.ts:216486
+main.ts:213645
 
 ***
 
 ### relevant\_pages?
 
-> **`optional`** **relevant\_pages**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **relevant\_pages**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -450,13 +450,13 @@ main.ts:216486
 
 #### Source
 
-main.ts:216484
+main.ts:213643
 
 ***
 
 ### search\_intent?
 
-> **`optional`** **search\_intent**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **search\_intent**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -464,13 +464,13 @@ main.ts:216484
 
 #### Source
 
-main.ts:216508
+main.ts:213667
 
 ***
 
 ### serp\_competitors?
 
-> **`optional`** **serp\_competitors**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **serp\_competitors**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -478,13 +478,13 @@ main.ts:216508
 
 #### Source
 
-main.ts:216482
+main.ts:213641
 
 ***
 
 ### subdomains?
 
-> **`optional`** **subdomains**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **subdomains**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -492,13 +492,13 @@ main.ts:216482
 
 #### Source
 
-main.ts:216483
+main.ts:213642
 
 ***
 
 ### top\_searches?
 
-> **`optional`** **top\_searches**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **top\_searches**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -506,7 +506,7 @@ main.ts:216483
 
 #### Source
 
-main.ts:216499
+main.ts:213658
 
 ## Methods
 
@@ -524,7 +524,7 @@ main.ts:216499
 
 #### Source
 
-main.ts:216521
+main.ts:213680
 
 ***
 
@@ -542,7 +542,7 @@ main.ts:216521
 
 #### Source
 
-main.ts:216571
+main.ts:213730
 
 ***
 
@@ -560,4 +560,4 @@ main.ts:216571
 
 #### Source
 
-main.ts:216564
+main.ts:213723

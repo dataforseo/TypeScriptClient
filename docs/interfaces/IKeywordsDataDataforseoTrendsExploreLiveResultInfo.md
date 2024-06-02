@@ -23,7 +23,7 @@ example:
 
 #### Source
 
-main.ts:126347
+main.ts:126450
 
 ***
 
@@ -35,7 +35,7 @@ contains keyword popularity and related data
 
 #### Source
 
-main.ts:126351
+main.ts:126454
 
 ***
 
@@ -47,7 +47,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:126349
+main.ts:126452
 
 ***
 
@@ -59,7 +59,7 @@ keywords in a POST array
 
 #### Source
 
-main.ts:126334
+main.ts:126437
 
 ***
 
@@ -72,7 +72,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:126342
+main.ts:126445
 
 ***
 
@@ -85,7 +85,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:126339
+main.ts:126442
 
 ***
 
@@ -97,4 +97,4 @@ type of element
 
 #### Source
 
-main.ts:126336
+main.ts:126439

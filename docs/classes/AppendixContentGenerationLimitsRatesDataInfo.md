@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:217889
+main.ts:215048
 
 ## Properties
 
@@ -44,13 +44,13 @@ main.ts:217889
 
 #### Source
 
-main.ts:217883
+main.ts:215042
 
 ***
 
 ### generate?
 
-> **`optional`** **generate**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **generate**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -58,13 +58,13 @@ main.ts:217883
 
 #### Source
 
-main.ts:217879
+main.ts:215038
 
 ***
 
 ### generate\_meta\_tags?
 
-> **`optional`** **generate\_meta\_tags**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **generate\_meta\_tags**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -72,13 +72,13 @@ main.ts:217879
 
 #### Source
 
-main.ts:217880
+main.ts:215039
 
 ***
 
 ### generate\_sub\_topics?
 
-> **`optional`** **generate\_sub\_topics**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **generate\_sub\_topics**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -86,13 +86,13 @@ main.ts:217880
 
 #### Source
 
-main.ts:217885
+main.ts:215044
 
 ***
 
 ### generate\_text?
 
-> **`optional`** **generate\_text**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **generate\_text**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -100,13 +100,13 @@ main.ts:217885
 
 #### Source
 
-main.ts:217881
+main.ts:215040
 
 ***
 
 ### paraphrase?
 
-> **`optional`** **paraphrase**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **paraphrase**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -114,7 +114,7 @@ main.ts:217881
 
 #### Source
 
-main.ts:217882
+main.ts:215041
 
 ***
 
@@ -128,7 +128,7 @@ main.ts:217882
 
 #### Source
 
-main.ts:217884
+main.ts:215043
 
 ## Methods
 
@@ -146,7 +146,7 @@ main.ts:217884
 
 #### Source
 
-main.ts:217898
+main.ts:215057
 
 ***
 
@@ -164,7 +164,7 @@ main.ts:217898
 
 #### Source
 
-main.ts:217921
+main.ts:215080
 
 ***
 
@@ -182,4 +182,4 @@ main.ts:217921
 
 #### Source
 
-main.ts:217914
+main.ts:215073

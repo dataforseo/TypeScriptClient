@@ -30,13 +30,13 @@
 
 #### Source
 
-main.ts:217341
+main.ts:214500
 
 ## Properties
 
 ### facebook?
 
-> **`optional`** **facebook**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **facebook**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -44,13 +44,13 @@ main.ts:217341
 
 #### Source
 
-main.ts:217335
+main.ts:214494
 
 ***
 
 ### pinterest?
 
-> **`optional`** **pinterest**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **pinterest**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -58,13 +58,13 @@ main.ts:217335
 
 #### Source
 
-main.ts:217336
+main.ts:214495
 
 ***
 
 ### reddit?
 
-> **`optional`** **reddit**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **reddit**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -72,7 +72,7 @@ main.ts:217336
 
 #### Source
 
-main.ts:217337
+main.ts:214496
 
 ## Methods
 
@@ -90,7 +90,7 @@ main.ts:217337
 
 #### Source
 
-main.ts:217350
+main.ts:214509
 
 ***
 
@@ -108,7 +108,7 @@ main.ts:217350
 
 #### Source
 
-main.ts:217369
+main.ts:214528
 
 ***
 
@@ -126,4 +126,4 @@ main.ts:217369
 
 #### Source
 
-main.ts:217362
+main.ts:214521

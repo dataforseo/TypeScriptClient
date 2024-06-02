@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:48319
+main.ts:48288
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Source
 
-main.ts:48311
+main.ts:48280
 
 ***
 
@@ -65,7 +65,7 @@ elements of search results found in SERP
 
 #### Source
 
-main.ts:48315
+main.ts:48284
 
 ***
 
@@ -81,7 +81,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:48313
+main.ts:48282
 
 ***
 
@@ -98,7 +98,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Source
 
-main.ts:48298
+main.ts:48267
 
 ***
 
@@ -114,7 +114,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:48306
+main.ts:48275
 
 ***
 
@@ -130,7 +130,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:48304
+main.ts:48273
 
 ***
 
@@ -146,7 +146,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:48302
+main.ts:48271
 
 ***
 
@@ -162,7 +162,7 @@ type of element
 
 #### Source
 
-main.ts:48300
+main.ts:48269
 
 ## Methods
 
@@ -180,7 +180,7 @@ main.ts:48300
 
 #### Source
 
-main.ts:48328
+main.ts:48297
 
 ***
 
@@ -198,7 +198,7 @@ main.ts:48328
 
 #### Source
 
-main.ts:48356
+main.ts:48325
 
 ***
 
@@ -216,4 +216,4 @@ main.ts:48356
 
 #### Source
 
-main.ts:48349
+main.ts:48318

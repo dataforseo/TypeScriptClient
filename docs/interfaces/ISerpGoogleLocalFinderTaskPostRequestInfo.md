@@ -28,7 +28,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:41740
+main.ts:41709
 
 ***
 
@@ -43,7 +43,7 @@ default value: desktop
 
 #### Source
 
-main.ts:41723
+main.ts:41692
 
 ***
 
@@ -60,7 +60,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Source
 
-main.ts:41672
+main.ts:41641
 
 ***
 
@@ -76,7 +76,7 @@ example:en
 
 #### Source
 
-main.ts:41718
+main.ts:41687
 
 ***
 
@@ -93,7 +93,7 @@ English
 
 #### Source
 
-main.ts:41712
+main.ts:41681
 
 ***
 
@@ -110,7 +110,7 @@ example:
 
 #### Source
 
-main.ts:41694
+main.ts:41663
 
 ***
 
@@ -127,11 +127,11 @@ the maximum number of decimal digits for “latitude” and “longitude”: 7
 the minimum value for “zoom”: 4z
 the maximum value for “zoom”: 18z
 example:
-52.6178549,-155.352142,20z
+52.6178549,-155.352142,18z
 
 #### Source
 
-main.ts:41705
+main.ts:41674
 
 ***
 
@@ -148,7 +148,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:41687
+main.ts:41656
 
 ***
 
@@ -163,7 +163,7 @@ possible values for mobile: 2, 2.5, 3, 3.5, 4, 4.5
 
 #### Source
 
-main.ts:41745
+main.ts:41714
 
 ***
 
@@ -180,7 +180,7 @@ default value: android
 
 #### Source
 
-main.ts:41730
+main.ts:41699
 
 ***
 
@@ -200,7 +200,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:41786
+main.ts:41755
 
 ***
 
@@ -216,7 +216,7 @@ advanced, html
 
 #### Source
 
-main.ts:41776
+main.ts:41745
 
 ***
 
@@ -236,7 +236,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:41770
+main.ts:41739
 
 ***
 
@@ -254,7 +254,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:41680
+main.ts:41649
 
 ***
 
@@ -270,7 +270,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:41760
+main.ts:41729
 
 ***
 
@@ -289,4 +289,4 @@ example: "tuesday;18"
 
 #### Source
 
-main.ts:41754
+main.ts:41723

@@ -20,11 +20,12 @@
 
 > **`optional`** **items**: [`EventsElement`](../classes/EventsElement.md)[]
 
-elements of search results found in SERP
+additional items present in the element
+if there are none, equals null
 
 #### Source
 
-main.ts:98297
+main.ts:98378
 
 ***
 
@@ -38,7 +39,7 @@ left, right
 
 #### Source
 
-main.ts:98289
+main.ts:98369
 
 ***
 
@@ -51,7 +52,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:98285
+main.ts:98365
 
 ***
 
@@ -64,7 +65,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:98282
+main.ts:98362
 
 ***
 
@@ -72,11 +73,11 @@ main.ts:98282
 
 > **`optional`** **title**: `string`
 
-title of the result in SERP
+title of the item
 
 #### Source
 
-main.ts:98293
+main.ts:98373
 
 ***
 
@@ -84,11 +85,11 @@ main.ts:98293
 
 > **`optional`** **url**: `string`
 
-relevant URL of the Ad element in SERP
+URL link
 
 #### Source
 
-main.ts:98295
+main.ts:98375
 
 ***
 
@@ -100,4 +101,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:98291
+main.ts:98371

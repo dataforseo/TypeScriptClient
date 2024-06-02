@@ -34,7 +34,7 @@
 
 #### Source
 
-main.ts:150079
+main.ts:149992
 
 ## Properties
 
@@ -57,7 +57,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:150006
+main.ts:149919
 
 ***
 
@@ -78,7 +78,7 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Source
 
-main.ts:149939
+main.ts:149852
 
 ***
 
@@ -99,7 +99,7 @@ en
 
 #### Source
 
-main.ts:149990
+main.ts:149903
 
 ***
 
@@ -120,7 +120,7 @@ English
 
 #### Source
 
-main.ts:149983
+main.ts:149896
 
 ***
 
@@ -141,7 +141,7 @@ example:
 
 #### Source
 
-main.ts:149967
+main.ts:149880
 
 ***
 
@@ -164,7 +164,7 @@ example:
 
 #### Source
 
-main.ts:149976
+main.ts:149889
 
 ***
 
@@ -185,7 +185,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:149960
+main.ts:149873
 
 ***
 
@@ -206,7 +206,7 @@ learn more at our help center
 
 #### Source
 
-main.ts:150013
+main.ts:149926
 
 ***
 
@@ -230,7 +230,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:150075
+main.ts:149988
 
 ***
 
@@ -250,7 +250,7 @@ advanced, html
 
 #### Source
 
-main.ts:150065
+main.ts:149978
 
 ***
 
@@ -274,7 +274,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:150059
+main.ts:149972
 
 ***
 
@@ -294,7 +294,7 @@ example:
 
 #### Source
 
-main.ts:150036
+main.ts:149949
 
 ***
 
@@ -314,7 +314,7 @@ example:
 
 #### Source
 
-main.ts:150030
+main.ts:149943
 
 ***
 
@@ -336,7 +336,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:149953
+main.ts:149866
 
 ***
 
@@ -357,7 +357,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Source
 
-main.ts:149997
+main.ts:149910
 
 ***
 
@@ -382,7 +382,7 @@ example:
 
 #### Source
 
-main.ts:150024
+main.ts:149937
 
 ***
 
@@ -403,7 +403,7 @@ sort_by:"review_score"
 
 #### Source
 
-main.ts:150043
+main.ts:149956
 
 ***
 
@@ -423,7 +423,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:150049
+main.ts:149962
 
 ***
 
@@ -443,7 +443,7 @@ https://www.google.com/search?q=iphone&num=100&tbm=shop&ie=UTF-8&oe=UTF-8&tbs=vw
 
 #### Source
 
-main.ts:149945
+main.ts:149858
 
 ## Methods
 
@@ -461,7 +461,7 @@ main.ts:149945
 
 #### Source
 
-main.ts:150088
+main.ts:150001
 
 ***
 
@@ -479,7 +479,7 @@ main.ts:150088
 
 #### Source
 
-main.ts:150123
+main.ts:150036
 
 ***
 
@@ -497,4 +497,4 @@ main.ts:150123
 
 #### Source
 
-main.ts:150116
+main.ts:150029

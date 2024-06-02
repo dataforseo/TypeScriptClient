@@ -20,11 +20,12 @@
 
 > **`optional`** **items**: [`ShoppingElement`](../classes/ShoppingElement.md)[]
 
-elements of search results found in SERP
+additional items present in the element
+if there are none, equals null
 
 #### Source
 
-main.ts:98097
+main.ts:98174
 
 ***
 
@@ -38,7 +39,7 @@ left, right
 
 #### Source
 
-main.ts:98091
+main.ts:98167
 
 ***
 
@@ -51,7 +52,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:98087
+main.ts:98163
 
 ***
 
@@ -64,7 +65,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:98084
+main.ts:98160
 
 ***
 
@@ -72,11 +73,11 @@ main.ts:98084
 
 > **`optional`** **title**: `string`
 
-title of the result in SERP
+title of the item
 
 #### Source
 
-main.ts:98095
+main.ts:98171
 
 ***
 
@@ -88,4 +89,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:98093
+main.ts:98169

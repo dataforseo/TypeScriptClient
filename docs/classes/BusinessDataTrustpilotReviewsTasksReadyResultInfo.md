@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:209035
+main.ts:209027
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Source
 
-main.ts:209027
+main.ts:209019
 
 ***
 
@@ -62,7 +62,7 @@ URL for collecting the results of the task
 
 #### Source
 
-main.ts:209031
+main.ts:209023
 
 ***
 
@@ -79,7 +79,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:209021
+main.ts:209012
 
 ***
 
@@ -96,7 +96,7 @@ can take the following values: trustpilot
 
 #### Source
 
-main.ts:209024
+main.ts:209015
 
 ***
 
@@ -104,13 +104,15 @@ main.ts:209024
 
 > **`optional`** **se\_type**: `string`
 
+search engine type
+
 #### Implementation of
 
 [`IBusinessDataTrustpilotReviewsTasksReadyResultInfo`](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResultInfo.md).[`se_type`](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResultInfo.md#se_type)
 
 #### Source
 
-main.ts:209025
+main.ts:209017
 
 ***
 
@@ -126,7 +128,7 @@ user-defined task identifier
 
 #### Source
 
-main.ts:209029
+main.ts:209021
 
 ## Methods
 
@@ -144,7 +146,7 @@ main.ts:209029
 
 #### Source
 
-main.ts:209044
+main.ts:209036
 
 ***
 
@@ -162,7 +164,7 @@ main.ts:209044
 
 #### Source
 
-main.ts:209066
+main.ts:209058
 
 ***
 
@@ -180,4 +182,4 @@ main.ts:209066
 
 #### Source
 
-main.ts:209059
+main.ts:209051

@@ -20,7 +20,7 @@ your login
 
 #### Source
 
-main.ts:221742
+main.ts:218901
 
 ***
 
@@ -32,7 +32,7 @@ section of your spending, USD
 
 #### Source
 
-main.ts:221749
+main.ts:218908
 
 ***
 
@@ -44,7 +44,7 @@ pricing
 
 #### Source
 
-main.ts:221751
+main.ts:218910
 
 ***
 
@@ -56,7 +56,7 @@ your API rates
 
 #### Source
 
-main.ts:221747
+main.ts:218906
 
 ***
 
@@ -69,4 +69,4 @@ can be set in your profile settings
 
 #### Source
 
-main.ts:221745
+main.ts:218904

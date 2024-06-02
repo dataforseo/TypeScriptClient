@@ -35,7 +35,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 #### Source
 
-main.ts:164150
+main.ts:164103
 
 ***
 
@@ -54,7 +54,7 @@ example:
 
 #### Source
 
-main.ts:164103
+main.ts:164056
 
 ***
 
@@ -80,7 +80,7 @@ example:
 
 #### Source
 
-main.ts:164115
+main.ts:164068
 
 ***
 
@@ -95,7 +95,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:164133
+main.ts:164086
 
 ***
 
@@ -110,7 +110,7 @@ if you specify the 10 value, the first ten citations in the results array will b
 
 #### Source
 
-main.ts:164171
+main.ts:164124
 
 ***
 
@@ -128,7 +128,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Source
 
-main.ts:164179
+main.ts:164132
 
 ***
 
@@ -154,7 +154,7 @@ example:
 
 #### Source
 
-main.ts:164166
+main.ts:164119
 
 ***
 
@@ -170,7 +170,7 @@ possible values:
 
 #### Source
 
-main.ts:164121
+main.ts:164074
 
 ***
 
@@ -187,7 +187,7 @@ default value: as_is
 
 #### Source
 
-main.ts:164128
+main.ts:164081
 
 ***
 
@@ -203,4 +203,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:164185
+main.ts:164138

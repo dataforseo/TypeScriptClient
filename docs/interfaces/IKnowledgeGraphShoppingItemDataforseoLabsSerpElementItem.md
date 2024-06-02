@@ -26,7 +26,7 @@ kc:/shopping/gpc:organic-offers
 
 #### Source
 
-main.ts:97587
+main.ts:97649
 
 ***
 
@@ -34,11 +34,12 @@ main.ts:97587
 
 > **`optional`** **items**: [`KnowledgeGraphShoppingElement`](../classes/KnowledgeGraphShoppingElement.md)[]
 
-elements of search results found in SERP
+additional items present in the element
+if there are none, equals null
 
 #### Source
 
-main.ts:97589
+main.ts:97652
 
 ***
 
@@ -52,7 +53,7 @@ left, right
 
 #### Source
 
-main.ts:97579
+main.ts:97641
 
 ***
 
@@ -65,7 +66,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:97575
+main.ts:97637
 
 ***
 
@@ -78,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:97572
+main.ts:97634
 
 ***
 
@@ -86,11 +87,11 @@ main.ts:97572
 
 > **`optional`** **title**: `string`
 
-title of the result in SERP
+title of the item
 
 #### Source
 
-main.ts:97583
+main.ts:97645
 
 ***
 
@@ -102,4 +103,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:97581
+main.ts:97643

@@ -20,12 +20,11 @@
 
 > **`optional`** **items**: [`MultiCarouselElement`](../classes/MultiCarouselElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+elements of search results found in SERP
 
 #### Source
 
-main.ts:96185
+main.ts:96250
 
 ***
 
@@ -39,7 +38,7 @@ left, right
 
 #### Source
 
-main.ts:96180
+main.ts:96246
 
 ***
 
@@ -52,7 +51,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:96176
+main.ts:96242
 
 ***
 
@@ -66,7 +65,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:96173
+main.ts:96239
 
 ***
 
@@ -78,4 +77,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:96182
+main.ts:96248

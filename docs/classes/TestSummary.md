@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:157974
+main.ts:157887
 
 ## Properties
 
@@ -46,7 +46,7 @@ number of serious microdata errors
 
 #### Source
 
-main.ts:157966
+main.ts:157879
 
 ***
 
@@ -62,7 +62,7 @@ number of fatal microdata errors
 
 #### Source
 
-main.ts:157964
+main.ts:157877
 
 ***
 
@@ -78,7 +78,7 @@ number of microdata information flags
 
 #### Source
 
-main.ts:157970
+main.ts:157883
 
 ***
 
@@ -94,7 +94,7 @@ number of microdata warnings
 
 #### Source
 
-main.ts:157968
+main.ts:157881
 
 ## Methods
 
@@ -112,7 +112,7 @@ main.ts:157968
 
 #### Source
 
-main.ts:157983
+main.ts:157896
 
 ***
 
@@ -130,7 +130,7 @@ main.ts:157983
 
 #### Source
 
-main.ts:158003
+main.ts:157916
 
 ***
 
@@ -148,4 +148,4 @@ main.ts:158003
 
 #### Source
 
-main.ts:157996
+main.ts:157909

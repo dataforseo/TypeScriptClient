@@ -20,7 +20,7 @@ address of the event’s venue
 
 #### Source
 
-main.ts:46418
+main.ts:46387
 
 ***
 
@@ -34,7 +34,7 @@ can be used with Google Reviews API to get a full list of reviews
 
 #### Source
 
-main.ts:46424
+main.ts:46393
 
 ***
 
@@ -46,7 +46,7 @@ the unique identifier of the element in SERP
 
 #### Source
 
-main.ts:46426
+main.ts:46395
 
 ***
 
@@ -58,7 +58,7 @@ name of the event’s venue
 
 #### Source
 
-main.ts:46416
+main.ts:46385
 
 ***
 
@@ -70,4 +70,4 @@ URL to the event’s venue on google maps
 
 #### Source
 
-main.ts:46420
+main.ts:46389

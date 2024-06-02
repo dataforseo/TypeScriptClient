@@ -14,18 +14,18 @@
 
 ### reviews?
 
-> **`optional`** **reviews**: [`AppendixsGoogleBusinessDataPriceDataInfo`](../classes/AppendixsGoogleBusinessDataPriceDataInfo.md)
+> **`optional`** **reviews**: [`AppendixGoogleBusinessDataPriceDataInfo`](../classes/AppendixGoogleBusinessDataPriceDataInfo.md)
 
 #### Source
 
-main.ts:220798
+main.ts:217957
 
 ***
 
 ### search?
 
-> **`optional`** **search**: [`AppendixsGoogleBusinessDataPriceDataInfo`](../classes/AppendixsGoogleBusinessDataPriceDataInfo.md)
+> **`optional`** **search**: [`AppendixGoogleBusinessDataPriceDataInfo`](../classes/AppendixGoogleBusinessDataPriceDataInfo.md)
 
 #### Source
 
-main.ts:220799
+main.ts:217958

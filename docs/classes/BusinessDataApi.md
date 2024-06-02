@@ -26,7 +26,7 @@
 
 #### Source
 
-main.ts:17383
+main.ts:17420
 
 ## Properties
 
@@ -36,7 +36,7 @@ main.ts:17383
 
 #### Source
 
-main.ts:17380
+main.ts:17417
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:17380
 
 #### Source
 
-main.ts:17379
+main.ts:17416
 
 ***
 
@@ -78,7 +78,7 @@ main.ts:17379
 
 #### Source
 
-main.ts:17381
+main.ts:17418
 
 ## Methods
 
@@ -94,7 +94,7 @@ Successful operation
 
 #### Source
 
-main.ts:17475
+main.ts:17512
 
 ***
 
@@ -116,7 +116,7 @@ Successful operation
 
 #### Source
 
-main.ts:17434
+main.ts:17471
 
 ***
 
@@ -132,7 +132,7 @@ Successful operation
 
 #### Source
 
-main.ts:17752
+main.ts:17789
 
 ***
 
@@ -148,7 +148,7 @@ Successful operation
 
 #### Source
 
-main.ts:17670
+main.ts:17707
 
 ***
 
@@ -174,7 +174,7 @@ Successful operation
 
 #### Source
 
-main.ts:17712
+main.ts:17749
 
 ***
 
@@ -196,7 +196,7 @@ Successful operation
 
 #### Source
 
-main.ts:17392
+main.ts:17429
 
 ***
 
@@ -212,7 +212,7 @@ Successful operation
 
 #### Source
 
-main.ts:19058
+main.ts:19095
 
 ***
 
@@ -228,7 +228,7 @@ Successful operation
 
 #### Source
 
-main.ts:18976
+main.ts:19013
 
 ***
 
@@ -254,65 +254,7 @@ Successful operation
 
 #### Source
 
-main.ts:19018
-
-***
-
-### businessDataYelpLanguages()
-
-> **businessDataYelpLanguages**(): `Promise`\<[`BusinessDataYelpLanguagesResponseInfo`](BusinessDataYelpLanguagesResponseInfo.md)\>
-
-#### Returns
-
-`Promise`\<[`BusinessDataYelpLanguagesResponseInfo`](BusinessDataYelpLanguagesResponseInfo.md)\>
-
-Successful operation
-
-#### Source
-
-main.ts:19421
-
-***
-
-### businessDataYelpLocations()
-
-> **businessDataYelpLocations**(): `Promise`\<[`BusinessDataYelpLocationsResponseInfo`](BusinessDataYelpLocationsResponseInfo.md)\>
-
-#### Returns
-
-`Promise`\<[`BusinessDataYelpLocationsResponseInfo`](BusinessDataYelpLocationsResponseInfo.md)\>
-
-Successful operation
-
-#### Source
-
-main.ts:19339
-
-***
-
-### businessDataYelpLocationsCountry()
-
-> **businessDataYelpLocationsCountry**(`country`): `Promise`\<[`BusinessDataYelpLocationsCountryResponseInfo`](BusinessDataYelpLocationsCountryResponseInfo.md)\>
-
-#### Parameters
-
-• **country**: `string`
-
-country ISO code
-optional field
-specify the ISO code if you want to filter the list of locations by country
-example:
-us
-
-#### Returns
-
-`Promise`\<[`BusinessDataYelpLocationsCountryResponseInfo`](BusinessDataYelpLocationsCountryResponseInfo.md)\>
-
-Successful operation
-
-#### Source
-
-main.ts:19381
+main.ts:19055
 
 ***
 
@@ -328,7 +270,7 @@ Successful operation
 
 #### Source
 
-main.ts:17549
+main.ts:17586
 
 ***
 
@@ -344,7 +286,7 @@ Successful operation
 
 #### Source
 
-main.ts:17512
+main.ts:17549
 
 ***
 
@@ -366,7 +308,7 @@ Successful operation
 
 #### Source
 
-main.ts:17629
+main.ts:17666
 
 ***
 
@@ -388,7 +330,7 @@ Successful operation
 
 #### Source
 
-main.ts:17587
+main.ts:17624
 
 ***
 
@@ -410,7 +352,7 @@ Successful operation
 
 #### Source
 
-main.ts:18363
+main.ts:18400
 
 ***
 
@@ -432,7 +374,7 @@ Successful operation
 
 #### Source
 
-main.ts:18405
+main.ts:18442
 
 ***
 
@@ -456,7 +398,7 @@ Successful operation
 
 #### Source
 
-main.ts:18279
+main.ts:18316
 
 ***
 
@@ -480,7 +422,7 @@ Successful operation
 
 #### Source
 
-main.ts:18322
+main.ts:18359
 
 ***
 
@@ -502,7 +444,7 @@ Successful operation
 
 #### Source
 
-main.ts:18198
+main.ts:18235
 
 ***
 
@@ -518,7 +460,7 @@ Successful operation
 
 #### Source
 
-main.ts:18239
+main.ts:18276
 
 ***
 
@@ -540,7 +482,7 @@ Successful operation
 
 #### Source
 
-main.ts:18156
+main.ts:18193
 
 ***
 
@@ -564,7 +506,7 @@ Successful operation
 
 #### Source
 
-main.ts:18115
+main.ts:18152
 
 ***
 
@@ -586,7 +528,7 @@ Successful operation
 
 #### Source
 
-main.ts:18034
+main.ts:18071
 
 ***
 
@@ -602,7 +544,7 @@ Successful operation
 
 #### Source
 
-main.ts:18075
+main.ts:18112
 
 ***
 
@@ -626,7 +568,7 @@ Successful operation
 
 #### Source
 
-main.ts:17871
+main.ts:17908
 
 ***
 
@@ -648,7 +590,7 @@ Successful operation
 
 #### Source
 
-main.ts:17790
+main.ts:17827
 
 ***
 
@@ -664,7 +606,7 @@ Successful operation
 
 #### Source
 
-main.ts:17831
+main.ts:17868
 
 ***
 
@@ -688,7 +630,7 @@ Successful operation
 
 #### Source
 
-main.ts:17993
+main.ts:18030
 
 ***
 
@@ -710,7 +652,7 @@ Successful operation
 
 #### Source
 
-main.ts:17912
+main.ts:17949
 
 ***
 
@@ -726,7 +668,7 @@ Successful operation
 
 #### Source
 
-main.ts:17953
+main.ts:17990
 
 ***
 
@@ -748,7 +690,7 @@ Successful operation
 
 #### Source
 
-main.ts:18691
+main.ts:18728
 
 ***
 
@@ -772,7 +714,7 @@ Successful operation
 
 #### Source
 
-main.ts:18650
+main.ts:18687
 
 ***
 
@@ -794,7 +736,7 @@ Successful operation
 
 #### Source
 
-main.ts:18569
+main.ts:18606
 
 ***
 
@@ -810,7 +752,7 @@ Successful operation
 
 #### Source
 
-main.ts:18610
+main.ts:18647
 
 ***
 
@@ -834,7 +776,7 @@ Successful operation
 
 #### Source
 
-main.ts:18528
+main.ts:18565
 
 ***
 
@@ -856,7 +798,7 @@ Successful operation
 
 #### Source
 
-main.ts:18447
+main.ts:18484
 
 ***
 
@@ -872,7 +814,7 @@ Successful operation
 
 #### Source
 
-main.ts:18488
+main.ts:18525
 
 ***
 
@@ -890,7 +832,7 @@ main.ts:18488
 
 #### Source
 
-main.ts:17491
+main.ts:17528
 
 ***
 
@@ -908,7 +850,7 @@ main.ts:17491
 
 #### Source
 
-main.ts:17454
+main.ts:17491
 
 ***
 
@@ -926,7 +868,7 @@ main.ts:17454
 
 #### Source
 
-main.ts:17768
+main.ts:17805
 
 ***
 
@@ -944,7 +886,7 @@ main.ts:17768
 
 #### Source
 
-main.ts:17686
+main.ts:17723
 
 ***
 
@@ -962,7 +904,7 @@ main.ts:17686
 
 #### Source
 
-main.ts:17731
+main.ts:17768
 
 ***
 
@@ -980,7 +922,7 @@ main.ts:17731
 
 #### Source
 
-main.ts:17412
+main.ts:17449
 
 ***
 
@@ -998,7 +940,7 @@ main.ts:17412
 
 #### Source
 
-main.ts:19074
+main.ts:19111
 
 ***
 
@@ -1016,7 +958,7 @@ main.ts:19074
 
 #### Source
 
-main.ts:18992
+main.ts:19029
 
 ***
 
@@ -1034,61 +976,7 @@ main.ts:18992
 
 #### Source
 
-main.ts:19037
-
-***
-
-### processBusinessDataYelpLanguages()
-
-> **`protected`** **processBusinessDataYelpLanguages**(`response`): `Promise`\<[`BusinessDataYelpLanguagesResponseInfo`](BusinessDataYelpLanguagesResponseInfo.md)\>
-
-#### Parameters
-
-• **response**: `Response`
-
-#### Returns
-
-`Promise`\<[`BusinessDataYelpLanguagesResponseInfo`](BusinessDataYelpLanguagesResponseInfo.md)\>
-
-#### Source
-
-main.ts:19437
-
-***
-
-### processBusinessDataYelpLocations()
-
-> **`protected`** **processBusinessDataYelpLocations**(`response`): `Promise`\<[`BusinessDataYelpLocationsResponseInfo`](BusinessDataYelpLocationsResponseInfo.md)\>
-
-#### Parameters
-
-• **response**: `Response`
-
-#### Returns
-
-`Promise`\<[`BusinessDataYelpLocationsResponseInfo`](BusinessDataYelpLocationsResponseInfo.md)\>
-
-#### Source
-
-main.ts:19355
-
-***
-
-### processBusinessDataYelpLocationsCountry()
-
-> **`protected`** **processBusinessDataYelpLocationsCountry**(`response`): `Promise`\<[`BusinessDataYelpLocationsCountryResponseInfo`](BusinessDataYelpLocationsCountryResponseInfo.md)\>
-
-#### Parameters
-
-• **response**: `Response`
-
-#### Returns
-
-`Promise`\<[`BusinessDataYelpLocationsCountryResponseInfo`](BusinessDataYelpLocationsCountryResponseInfo.md)\>
-
-#### Source
-
-main.ts:19400
+main.ts:19074
 
 ***
 
@@ -1106,7 +994,7 @@ main.ts:19400
 
 #### Source
 
-main.ts:17565
+main.ts:17602
 
 ***
 
@@ -1124,7 +1012,7 @@ main.ts:17565
 
 #### Source
 
-main.ts:17528
+main.ts:17565
 
 ***
 
@@ -1142,7 +1030,7 @@ main.ts:17528
 
 #### Source
 
-main.ts:17649
+main.ts:17686
 
 ***
 
@@ -1160,7 +1048,7 @@ main.ts:17649
 
 #### Source
 
-main.ts:17607
+main.ts:17644
 
 ***
 
@@ -1178,7 +1066,7 @@ main.ts:17607
 
 #### Source
 
-main.ts:18383
+main.ts:18420
 
 ***
 
@@ -1196,7 +1084,7 @@ main.ts:18383
 
 #### Source
 
-main.ts:18425
+main.ts:18462
 
 ***
 
@@ -1214,7 +1102,7 @@ main.ts:18425
 
 #### Source
 
-main.ts:18298
+main.ts:18335
 
 ***
 
@@ -1232,7 +1120,7 @@ main.ts:18298
 
 #### Source
 
-main.ts:18341
+main.ts:18378
 
 ***
 
@@ -1250,7 +1138,7 @@ main.ts:18341
 
 #### Source
 
-main.ts:18218
+main.ts:18255
 
 ***
 
@@ -1268,7 +1156,7 @@ main.ts:18218
 
 #### Source
 
-main.ts:18255
+main.ts:18292
 
 ***
 
@@ -1286,7 +1174,7 @@ main.ts:18255
 
 #### Source
 
-main.ts:18176
+main.ts:18213
 
 ***
 
@@ -1304,7 +1192,7 @@ main.ts:18176
 
 #### Source
 
-main.ts:18134
+main.ts:18171
 
 ***
 
@@ -1322,7 +1210,7 @@ main.ts:18134
 
 #### Source
 
-main.ts:18054
+main.ts:18091
 
 ***
 
@@ -1340,7 +1228,7 @@ main.ts:18054
 
 #### Source
 
-main.ts:18091
+main.ts:18128
 
 ***
 
@@ -1358,7 +1246,7 @@ main.ts:18091
 
 #### Source
 
-main.ts:17890
+main.ts:17927
 
 ***
 
@@ -1376,7 +1264,7 @@ main.ts:17890
 
 #### Source
 
-main.ts:17810
+main.ts:17847
 
 ***
 
@@ -1394,7 +1282,7 @@ main.ts:17810
 
 #### Source
 
-main.ts:17847
+main.ts:17884
 
 ***
 
@@ -1412,7 +1300,7 @@ main.ts:17847
 
 #### Source
 
-main.ts:18012
+main.ts:18049
 
 ***
 
@@ -1430,7 +1318,7 @@ main.ts:18012
 
 #### Source
 
-main.ts:17932
+main.ts:17969
 
 ***
 
@@ -1448,7 +1336,7 @@ main.ts:17932
 
 #### Source
 
-main.ts:17969
+main.ts:18006
 
 ***
 
@@ -1466,7 +1354,7 @@ main.ts:17969
 
 #### Source
 
-main.ts:18711
+main.ts:18748
 
 ***
 
@@ -1484,7 +1372,7 @@ main.ts:18711
 
 #### Source
 
-main.ts:18669
+main.ts:18706
 
 ***
 
@@ -1502,7 +1390,7 @@ main.ts:18669
 
 #### Source
 
-main.ts:18589
+main.ts:18626
 
 ***
 
@@ -1520,7 +1408,7 @@ main.ts:18589
 
 #### Source
 
-main.ts:18626
+main.ts:18663
 
 ***
 
@@ -1538,7 +1426,7 @@ main.ts:18626
 
 #### Source
 
-main.ts:18547
+main.ts:18584
 
 ***
 
@@ -1556,7 +1444,7 @@ main.ts:18547
 
 #### Source
 
-main.ts:18467
+main.ts:18504
 
 ***
 
@@ -1574,7 +1462,7 @@ main.ts:18467
 
 #### Source
 
-main.ts:18504
+main.ts:18541
 
 ***
 
@@ -1592,7 +1480,7 @@ main.ts:18504
 
 #### Source
 
-main.ts:19765
+main.ts:19439
 
 ***
 
@@ -1610,7 +1498,7 @@ main.ts:19765
 
 #### Source
 
-main.ts:19723
+main.ts:19397
 
 ***
 
@@ -1628,7 +1516,7 @@ main.ts:19723
 
 #### Source
 
-main.ts:19807
+main.ts:19481
 
 ***
 
@@ -1646,7 +1534,7 @@ main.ts:19807
 
 #### Source
 
-main.ts:19318
+main.ts:19355
 
 ***
 
@@ -1664,7 +1552,7 @@ main.ts:19318
 
 #### Source
 
-main.ts:19238
+main.ts:19275
 
 ***
 
@@ -1682,7 +1570,7 @@ main.ts:19238
 
 #### Source
 
-main.ts:19275
+main.ts:19312
 
 ***
 
@@ -1700,7 +1588,7 @@ main.ts:19275
 
 #### Source
 
-main.ts:19196
+main.ts:19233
 
 ***
 
@@ -1718,7 +1606,7 @@ main.ts:19196
 
 #### Source
 
-main.ts:19116
+main.ts:19153
 
 ***
 
@@ -1736,7 +1624,7 @@ main.ts:19116
 
 #### Source
 
-main.ts:19153
+main.ts:19190
 
 ***
 
@@ -1754,7 +1642,7 @@ main.ts:19153
 
 #### Source
 
-main.ts:18955
+main.ts:18992
 
 ***
 
@@ -1772,7 +1660,7 @@ main.ts:18955
 
 #### Source
 
-main.ts:18875
+main.ts:18912
 
 ***
 
@@ -1790,7 +1678,7 @@ main.ts:18875
 
 #### Source
 
-main.ts:18912
+main.ts:18949
 
 ***
 
@@ -1808,7 +1696,7 @@ main.ts:18912
 
 #### Source
 
-main.ts:18833
+main.ts:18870
 
 ***
 
@@ -1826,7 +1714,7 @@ main.ts:18833
 
 #### Source
 
-main.ts:18753
+main.ts:18790
 
 ***
 
@@ -1844,115 +1732,7 @@ main.ts:18753
 
 #### Source
 
-main.ts:18790
-
-***
-
-### processYelpReviewsTaskGet()
-
-> **`protected`** **processYelpReviewsTaskGet**(`response`): `Promise`\<[`BusinessDataYelpReviewsTaskGetResponseInfo`](BusinessDataYelpReviewsTaskGetResponseInfo.md)\>
-
-#### Parameters
-
-• **response**: `Response`
-
-#### Returns
-
-`Promise`\<[`BusinessDataYelpReviewsTaskGetResponseInfo`](BusinessDataYelpReviewsTaskGetResponseInfo.md)\>
-
-#### Source
-
-main.ts:19681
-
-***
-
-### processYelpReviewsTaskPost()
-
-> **`protected`** **processYelpReviewsTaskPost**(`response`): `Promise`\<[`BusinessDataYelpReviewsTaskPostResponseInfo`](BusinessDataYelpReviewsTaskPostResponseInfo.md)\>
-
-#### Parameters
-
-• **response**: `Response`
-
-#### Returns
-
-`Promise`\<[`BusinessDataYelpReviewsTaskPostResponseInfo`](BusinessDataYelpReviewsTaskPostResponseInfo.md)\>
-
-#### Source
-
-main.ts:19601
-
-***
-
-### processYelpReviewsTasksReady()
-
-> **`protected`** **processYelpReviewsTasksReady**(`response`): `Promise`\<[`BusinessDataYelpReviewsTasksReadyResponseInfo`](BusinessDataYelpReviewsTasksReadyResponseInfo.md)\>
-
-#### Parameters
-
-• **response**: `Response`
-
-#### Returns
-
-`Promise`\<[`BusinessDataYelpReviewsTasksReadyResponseInfo`](BusinessDataYelpReviewsTasksReadyResponseInfo.md)\>
-
-#### Source
-
-main.ts:19638
-
-***
-
-### processYelpSearchTaskGet()
-
-> **`protected`** **processYelpSearchTaskGet**(`response`): `Promise`\<[`BusinessDataYelpSearchTaskGetResponseInfo`](BusinessDataYelpSearchTaskGetResponseInfo.md)\>
-
-#### Parameters
-
-• **response**: `Response`
-
-#### Returns
-
-`Promise`\<[`BusinessDataYelpSearchTaskGetResponseInfo`](BusinessDataYelpSearchTaskGetResponseInfo.md)\>
-
-#### Source
-
-main.ts:19559
-
-***
-
-### processYelpSearchTaskPost()
-
-> **`protected`** **processYelpSearchTaskPost**(`response`): `Promise`\<[`BusinessDataYelpSearchTaskPostResponseInfo`](BusinessDataYelpSearchTaskPostResponseInfo.md)\>
-
-#### Parameters
-
-• **response**: `Response`
-
-#### Returns
-
-`Promise`\<[`BusinessDataYelpSearchTaskPostResponseInfo`](BusinessDataYelpSearchTaskPostResponseInfo.md)\>
-
-#### Source
-
-main.ts:19479
-
-***
-
-### processYelpSearchTasksReady()
-
-> **`protected`** **processYelpSearchTasksReady**(`response`): `Promise`\<[`BusinessDataYelpSearchTasksReadyResponseInfo`](BusinessDataYelpSearchTasksReadyResponseInfo.md)\>
-
-#### Parameters
-
-• **response**: `Response`
-
-#### Returns
-
-`Promise`\<[`BusinessDataYelpSearchTasksReadyResponseInfo`](BusinessDataYelpSearchTasksReadyResponseInfo.md)\>
-
-#### Source
-
-main.ts:19516
+main.ts:18827
 
 ***
 
@@ -1974,7 +1754,7 @@ Successful operation
 
 #### Source
 
-main.ts:19745
+main.ts:19419
 
 ***
 
@@ -1996,7 +1776,7 @@ Successful operation
 
 #### Source
 
-main.ts:19703
+main.ts:19377
 
 ***
 
@@ -2018,7 +1798,7 @@ Successful operation
 
 #### Source
 
-main.ts:19787
+main.ts:19461
 
 ***
 
@@ -2042,7 +1822,7 @@ Successful operation
 
 #### Source
 
-main.ts:19299
+main.ts:19336
 
 ***
 
@@ -2064,7 +1844,7 @@ Successful operation
 
 #### Source
 
-main.ts:19218
+main.ts:19255
 
 ***
 
@@ -2080,7 +1860,7 @@ Successful operation
 
 #### Source
 
-main.ts:19259
+main.ts:19296
 
 ***
 
@@ -2104,7 +1884,7 @@ Successful operation
 
 #### Source
 
-main.ts:19177
+main.ts:19214
 
 ***
 
@@ -2126,7 +1906,7 @@ Successful operation
 
 #### Source
 
-main.ts:19096
+main.ts:19133
 
 ***
 
@@ -2142,7 +1922,7 @@ Successful operation
 
 #### Source
 
-main.ts:19137
+main.ts:19174
 
 ***
 
@@ -2166,7 +1946,7 @@ Successful operation
 
 #### Source
 
-main.ts:18936
+main.ts:18973
 
 ***
 
@@ -2188,7 +1968,7 @@ Successful operation
 
 #### Source
 
-main.ts:18855
+main.ts:18892
 
 ***
 
@@ -2204,7 +1984,7 @@ Successful operation
 
 #### Source
 
-main.ts:18896
+main.ts:18933
 
 ***
 
@@ -2228,7 +2008,7 @@ Successful operation
 
 #### Source
 
-main.ts:18814
+main.ts:18851
 
 ***
 
@@ -2250,7 +2030,7 @@ Successful operation
 
 #### Source
 
-main.ts:18733
+main.ts:18770
 
 ***
 
@@ -2266,128 +2046,4 @@ Successful operation
 
 #### Source
 
-main.ts:18774
-
-***
-
-### yelpReviewsTaskGet()
-
-> **yelpReviewsTaskGet**(`id`): `Promise`\<[`BusinessDataYelpReviewsTaskGetResponseInfo`](BusinessDataYelpReviewsTaskGetResponseInfo.md)\>
-
-#### Parameters
-
-• **id**: `string`
-
-task identifier
-unique task identifier in our system in the UUID format
-you will be able to use it within 30 days to request the results of the task at any time
-
-#### Returns
-
-`Promise`\<[`BusinessDataYelpReviewsTaskGetResponseInfo`](BusinessDataYelpReviewsTaskGetResponseInfo.md)\>
-
-Successful operation
-
-#### Source
-
-main.ts:19662
-
-***
-
-### yelpReviewsTaskPost()
-
-> **yelpReviewsTaskPost**(`body`): `Promise`\<[`BusinessDataYelpReviewsTaskPostResponseInfo`](BusinessDataYelpReviewsTaskPostResponseInfo.md)\>
-
-#### Parameters
-
-• **body**: [`BusinessDataYelpReviewsTaskPostRequestInfo`](BusinessDataYelpReviewsTaskPostRequestInfo.md)[]
-
-(optional)
-
-#### Returns
-
-`Promise`\<[`BusinessDataYelpReviewsTaskPostResponseInfo`](BusinessDataYelpReviewsTaskPostResponseInfo.md)\>
-
-Successful operation
-
-#### Source
-
-main.ts:19581
-
-***
-
-### yelpReviewsTasksReady()
-
-> **yelpReviewsTasksReady**(): `Promise`\<[`BusinessDataYelpReviewsTasksReadyResponseInfo`](BusinessDataYelpReviewsTasksReadyResponseInfo.md)\>
-
-#### Returns
-
-`Promise`\<[`BusinessDataYelpReviewsTasksReadyResponseInfo`](BusinessDataYelpReviewsTasksReadyResponseInfo.md)\>
-
-Successful operation
-
-#### Source
-
-main.ts:19622
-
-***
-
-### yelpSearchTaskGet()
-
-> **yelpSearchTaskGet**(`id`): `Promise`\<[`BusinessDataYelpSearchTaskGetResponseInfo`](BusinessDataYelpSearchTaskGetResponseInfo.md)\>
-
-#### Parameters
-
-• **id**: `string`
-
-task identifier
-unique task identifier in our system in the UUID format
-you will be able to use it within 30 days to request the results of the task at any time
-
-#### Returns
-
-`Promise`\<[`BusinessDataYelpSearchTaskGetResponseInfo`](BusinessDataYelpSearchTaskGetResponseInfo.md)\>
-
-Successful operation
-
-#### Source
-
-main.ts:19540
-
-***
-
-### yelpSearchTaskPost()
-
-> **yelpSearchTaskPost**(`body`): `Promise`\<[`BusinessDataYelpSearchTaskPostResponseInfo`](BusinessDataYelpSearchTaskPostResponseInfo.md)\>
-
-#### Parameters
-
-• **body**: [`BusinessDataYelpSearchTaskPostRequestInfo`](BusinessDataYelpSearchTaskPostRequestInfo.md)[]
-
-(optional)
-
-#### Returns
-
-`Promise`\<[`BusinessDataYelpSearchTaskPostResponseInfo`](BusinessDataYelpSearchTaskPostResponseInfo.md)\>
-
-Successful operation
-
-#### Source
-
-main.ts:19459
-
-***
-
-### yelpSearchTasksReady()
-
-> **yelpSearchTasksReady**(): `Promise`\<[`BusinessDataYelpSearchTasksReadyResponseInfo`](BusinessDataYelpSearchTasksReadyResponseInfo.md)\>
-
-#### Returns
-
-`Promise`\<[`BusinessDataYelpSearchTasksReadyResponseInfo`](BusinessDataYelpSearchTasksReadyResponseInfo.md)\>
-
-Successful operation
-
-#### Source
-
-main.ts:19500
+main.ts:18811

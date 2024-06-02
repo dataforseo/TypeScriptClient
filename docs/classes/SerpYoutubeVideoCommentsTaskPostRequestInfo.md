@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:64603
+main.ts:64660
 
 ## Properties
 
@@ -53,7 +53,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:64567
+main.ts:64624
 
 ***
 
@@ -71,7 +71,7 @@ only value: desktop
 
 #### Source
 
-main.ts:64553
+main.ts:64610
 
 ***
 
@@ -92,7 +92,7 @@ en
 
 #### Source
 
-main.ts:64549
+main.ts:64606
 
 ***
 
@@ -113,7 +113,7 @@ English
 
 #### Source
 
-main.ts:64542
+main.ts:64599
 
 ***
 
@@ -134,7 +134,7 @@ example:
 
 #### Source
 
-main.ts:64535
+main.ts:64592
 
 ***
 
@@ -155,7 +155,7 @@ United States
 
 #### Source
 
-main.ts:64528
+main.ts:64585
 
 ***
 
@@ -174,7 +174,7 @@ default value: windows
 
 #### Source
 
-main.ts:64558
+main.ts:64615
 
 ***
 
@@ -198,7 +198,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:64599
+main.ts:64656
 
 ***
 
@@ -218,7 +218,7 @@ advanced
 
 #### Source
 
-main.ts:64589
+main.ts:64646
 
 ***
 
@@ -242,7 +242,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:64583
+main.ts:64640
 
 ***
 
@@ -264,7 +264,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:64521
+main.ts:64578
 
 ***
 
@@ -284,7 +284,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:64573
+main.ts:64630
 
 ***
 
@@ -304,7 +304,7 @@ vQXvyV0zIP4
 
 #### Source
 
-main.ts:64513
+main.ts:64570
 
 ## Methods
 
@@ -322,7 +322,7 @@ main.ts:64513
 
 #### Source
 
-main.ts:64612
+main.ts:64669
 
 ***
 
@@ -340,7 +340,7 @@ main.ts:64612
 
 #### Source
 
-main.ts:64641
+main.ts:64698
 
 ***
 
@@ -358,4 +358,4 @@ main.ts:64641
 
 #### Source
 
-main.ts:64634
+main.ts:64691

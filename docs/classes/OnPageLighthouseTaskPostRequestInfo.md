@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:162020
+main.ts:161973
 
 ## Properties
 
@@ -57,7 +57,7 @@ you can get the full list of possible audits here
 
 #### Source
 
-main.ts:161973
+main.ts:161926
 
 ***
 
@@ -79,7 +79,7 @@ seo, pwa, performance, best_practices, accessibility
 
 #### Source
 
-main.ts:161960
+main.ts:161913
 
 ***
 
@@ -99,7 +99,7 @@ default value: false
 
 #### Source
 
-main.ts:161952
+main.ts:161905
 
 ***
 
@@ -119,7 +119,7 @@ en
 
 #### Source
 
-main.ts:161990
+main.ts:161943
 
 ***
 
@@ -139,7 +139,7 @@ English
 
 #### Source
 
-main.ts:161984
+main.ts:161937
 
 ***
 
@@ -163,7 +163,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:162006
+main.ts:161959
 
 ***
 
@@ -187,7 +187,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:162016
+main.ts:161969
 
 ***
 
@@ -207,7 +207,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:161996
+main.ts:161949
 
 ***
 
@@ -227,7 +227,7 @@ https://dataforseo.com/
 
 #### Source
 
-main.ts:161946
+main.ts:161899
 
 ***
 
@@ -246,7 +246,7 @@ the list of available versions is available through the Lighthouse Versions endp
 
 #### Source
 
-main.ts:161978
+main.ts:161931
 
 ## Methods
 
@@ -264,7 +264,7 @@ main.ts:161978
 
 #### Source
 
-main.ts:162029
+main.ts:161982
 
 ***
 
@@ -282,7 +282,7 @@ main.ts:162029
 
 #### Source
 
-main.ts:162063
+main.ts:162016
 
 ***
 
@@ -300,4 +300,4 @@ main.ts:162063
 
 #### Source
 
-main.ts:162056
+main.ts:162009

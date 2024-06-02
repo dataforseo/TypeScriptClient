@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:160446
+main.ts:160371
 
 ## Properties
 
@@ -49,7 +49,7 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 #### Source
 
-main.ts:160420
+main.ts:160345
 
 ***
 
@@ -82,7 +82,7 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 #### Source
 
-main.ts:160380
+main.ts:160305
 
 ***
 
@@ -104,7 +104,7 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:160396
+main.ts:160321
 
 ***
 
@@ -126,7 +126,7 @@ maximum value: 3
 
 #### Source
 
-main.ts:160404
+main.ts:160329
 
 ***
 
@@ -148,7 +148,33 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:160388
+main.ts:160313
+
+***
+
+### custom\_js?
+
+> **`optional`** **custom\_js**: `string`
+
+custom javascript
+optional field
+Note that the execution time for the script you enter here should be 700 ms maximum, for example, you can use the following JS snippet to check if the website contains Google Tag Manager as a scr attribute:
+let meta = \{ haveGoogleAnalytics: false, haveTagManager: false \};\r\nfor (var i = 0; i `< document.scripts.length; i++) \{\r\n let src = document.scripts[i].getAttribute(\"src\");\r\n if (src != undefined) \{\r\n if (src.indexOf(\"analytics.js\") >`= 0)\r\n      meta.haveGoogleAnalytics = true;\r\n\tif (src.indexOf(\"gtm.js\") >= 0)\r\n      meta.haveTagManager = true;\r\n  \}\r\n\}\r\nmeta;the returned value depends on what you specified in this field. For instance, if you specify the following script:
+meta = \{\}; meta.url = document.URL; meta.test = 'test'; meta;
+as a response you will receive the following data:
+"custom_js_response": \{
+"url": "https://dataforseo.com/",
+"test": "test"
+\}
+Note: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page
+
+#### Implementation of
+
+[`IOnPageContentParsingLiveRequestInfo`](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[`custom_js`](../interfaces/IOnPageContentParsingLiveRequestInfo.md#custom_js)
+
+#### Source
+
+main.ts:160286
 
 ***
 
@@ -169,7 +195,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 #### Source
 
-main.ts:160361
+main.ts:160274
 
 ***
 
@@ -189,7 +215,7 @@ false
 
 #### Source
 
-main.ts:160415
+main.ts:160340
 
 ***
 
@@ -212,7 +238,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:160435
+main.ts:160360
 
 ***
 
@@ -232,7 +258,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:160426
+main.ts:160351
 
 ***
 
@@ -253,7 +279,7 @@ if you use this field, enable_javascript must be set to true;
 
 #### Source
 
-main.ts:160442
+main.ts:160367
 
 ***
 
@@ -272,7 +298,7 @@ default value: false
 
 #### Source
 
-main.ts:160409
+main.ts:160334
 
 ***
 
@@ -292,7 +318,7 @@ https://www.fujielectric.com/
 
 #### Source
 
-main.ts:160354
+main.ts:160267
 
 ## Methods
 
@@ -310,7 +336,7 @@ main.ts:160354
 
 #### Source
 
-main.ts:160455
+main.ts:160380
 
 ***
 
@@ -328,7 +354,7 @@ main.ts:160455
 
 #### Source
 
-main.ts:160483
+main.ts:160409
 
 ***
 
@@ -346,4 +372,4 @@ main.ts:160483
 
 #### Source
 
-main.ts:160476
+main.ts:160402

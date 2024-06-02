@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:176994
+main.ts:176947
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:176994
 
 #### Source
 
-main.ts:20650
+main.ts:20324
 
 ***
 
@@ -68,7 +68,7 @@ description of the product
 
 #### Source
 
-main.ts:176969
+main.ts:176922
 
 ***
 
@@ -85,7 +85,7 @@ contains snippets with the description of product features
 
 #### Source
 
-main.ts:176978
+main.ts:176931
 
 ***
 
@@ -102,7 +102,7 @@ contains urls to product images
 
 #### Source
 
-main.ts:176975
+main.ts:176928
 
 ***
 
@@ -120,7 +120,7 @@ right, left
 
 #### Source
 
-main.ts:176962
+main.ts:176915
 
 ***
 
@@ -137,7 +137,7 @@ ilearn more about the parameter in this help center guide
 
 #### Source
 
-main.ts:176965
+main.ts:176918
 
 ***
 
@@ -154,7 +154,7 @@ absolute position among all the elements found on the product specification page
 
 #### Source
 
-main.ts:176958
+main.ts:176911
 
 ***
 
@@ -171,7 +171,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:176955
+main.ts:176908
 
 ***
 
@@ -188,7 +188,7 @@ the popularity rate based on reviews
 
 #### Source
 
-main.ts:176981
+main.ts:176934
 
 ***
 
@@ -205,7 +205,7 @@ number of reviews on the product seller’s account
 
 #### Source
 
-main.ts:176984
+main.ts:176937
 
 ***
 
@@ -222,7 +222,7 @@ number of reviews on the product seller’s account
 
 #### Source
 
-main.ts:176987
+main.ts:176940
 
 ***
 
@@ -238,7 +238,7 @@ title of the product
 
 #### Source
 
-main.ts:176967
+main.ts:176920
 
 ***
 
@@ -255,7 +255,7 @@ url of the product on Google Shopping
 
 #### Source
 
-main.ts:176972
+main.ts:176925
 
 ***
 
@@ -272,7 +272,7 @@ contains brief information about different product variations
 
 #### Source
 
-main.ts:176990
+main.ts:176943
 
 ## Methods
 
@@ -294,7 +294,7 @@ main.ts:176990
 
 #### Source
 
-main.ts:176999
+main.ts:176952
 
 ***
 
@@ -316,7 +316,7 @@ main.ts:176999
 
 #### Source
 
-main.ts:177045
+main.ts:176998
 
 ***
 
@@ -338,4 +338,4 @@ main.ts:177045
 
 #### Source
 
-main.ts:177038
+main.ts:176991

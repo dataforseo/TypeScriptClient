@@ -30,13 +30,13 @@
 
 #### Source
 
-main.ts:216659
+main.ts:213818
 
 ## Properties
 
 ### overview?
 
-> **`optional`** **overview**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
+> **`optional`** **overview**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -44,7 +44,7 @@ main.ts:216659
 
 #### Source
 
-main.ts:216655
+main.ts:213814
 
 ## Methods
 
@@ -62,7 +62,7 @@ main.ts:216655
 
 #### Source
 
-main.ts:216668
+main.ts:213827
 
 ***
 
@@ -80,7 +80,7 @@ main.ts:216668
 
 #### Source
 
-main.ts:216685
+main.ts:213844
 
 ***
 
@@ -98,4 +98,4 @@ main.ts:216685
 
 #### Source
 
-main.ts:216678
+main.ts:213837

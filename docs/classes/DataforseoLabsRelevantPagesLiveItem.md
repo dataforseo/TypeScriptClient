@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:93811
+main.ts:93870
 
 ## Properties
 
@@ -50,7 +50,7 @@ rankings and traffic metrics for the relevant page
 
 #### Source
 
-main.ts:93807
+main.ts:93866
 
 ***
 
@@ -66,7 +66,7 @@ absolute URL of the relevant page
 
 #### Source
 
-main.ts:93805
+main.ts:93864
 
 ***
 
@@ -82,7 +82,7 @@ search engine type
 
 #### Source
 
-main.ts:93803
+main.ts:93862
 
 ## Methods
 
@@ -100,7 +100,7 @@ main.ts:93803
 
 #### Source
 
-main.ts:93820
+main.ts:93879
 
 ***
 
@@ -118,7 +118,7 @@ main.ts:93820
 
 #### Source
 
-main.ts:93845
+main.ts:93904
 
 ***
 
@@ -136,4 +136,4 @@ main.ts:93845
 
 #### Source
 
-main.ts:93838
+main.ts:93897

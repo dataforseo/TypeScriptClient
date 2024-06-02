@@ -21,7 +21,7 @@ the category is indicated just above the title fo the consideration element
 
 #### Source
 
-main.ts:35922
+main.ts:35793
 
 ***
 
@@ -33,7 +33,7 @@ expanded element
 
 #### Source
 
-main.ts:35924
+main.ts:35795
 
 ***
 
@@ -45,7 +45,7 @@ title of a given link element
 
 #### Source
 
-main.ts:35919
+main.ts:35790
 
 ***
 
@@ -57,4 +57,4 @@ type of element
 
 #### Source
 
-main.ts:35917
+main.ts:35788

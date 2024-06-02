@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:23981
+main.ts:23640
 
 ## Properties
 
@@ -51,7 +51,7 @@ example:
 
 #### Source
 
-main.ts:23970
+main.ts:23629
 
 ***
 
@@ -72,7 +72,7 @@ example:
 
 #### Source
 
-main.ts:23977
+main.ts:23636
 
 ***
 
@@ -92,7 +92,7 @@ example: serp/task_get/advanced, postback_url, pingback_url
 
 #### Source
 
-main.ts:23963
+main.ts:23622
 
 ***
 
@@ -111,7 +111,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:23952
+main.ts:23611
 
 ***
 
@@ -130,7 +130,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Source
 
-main.ts:23957
+main.ts:23616
 
 ## Methods
 
@@ -148,7 +148,7 @@ main.ts:23957
 
 #### Source
 
-main.ts:23990
+main.ts:23649
 
 ***
 
@@ -166,7 +166,7 @@ main.ts:23990
 
 #### Source
 
-main.ts:24011
+main.ts:23670
 
 ***
 
@@ -184,4 +184,4 @@ main.ts:24011
 
 #### Source
 
-main.ts:24004
+main.ts:23663

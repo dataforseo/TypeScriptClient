@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:51694
+main.ts:51664
 
 ## Properties
 
@@ -45,6 +45,7 @@ possible values:
 chrome — used when google search is opened in google chrome;
 chrome-omni — used in the address bar in chrome;
 gws-wiz — used in google search home page;
+gws-wiz-serp — used in google search engine results page;
 safari — used when google search is opened in safari browser;
 firefox — used when google search is opened in firefox browser;
 psy-ab — may be used when google search is opened in google chrome browser;
@@ -60,7 +61,7 @@ products-cc — used in google shopping search
 
 #### Source
 
-main.ts:51658
+main.ts:51628
 
 ***
 
@@ -85,7 +86,7 @@ which que|ry is s – "cursor_pointer": 9
 
 #### Source
 
-main.ts:51642
+main.ts:51611
 
 ***
 
@@ -106,7 +107,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Source
 
-main.ts:51596
+main.ts:51565
 
 ***
 
@@ -127,7 +128,7 @@ en
 
 #### Source
 
-main.ts:51631
+main.ts:51600
 
 ***
 
@@ -148,7 +149,7 @@ English
 
 #### Source
 
-main.ts:51624
+main.ts:51593
 
 ***
 
@@ -168,7 +169,7 @@ example:
 
 #### Source
 
-main.ts:51617
+main.ts:51586
 
 ***
 
@@ -189,7 +190,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:51611
+main.ts:51580
 
 ***
 
@@ -213,7 +214,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:51690
+main.ts:51660
 
 ***
 
@@ -233,7 +234,7 @@ advanced
 
 #### Source
 
-main.ts:51680
+main.ts:51650
 
 ***
 
@@ -257,7 +258,7 @@ i.e., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:51674
+main.ts:51644
 
 ***
 
@@ -279,7 +280,7 @@ The cost can be calculated on the Pricing page
 
 #### Source
 
-main.ts:51604
+main.ts:51573
 
 ***
 
@@ -299,7 +300,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:51664
+main.ts:51634
 
 ## Methods
 
@@ -317,7 +318,7 @@ main.ts:51664
 
 #### Source
 
-main.ts:51703
+main.ts:51673
 
 ***
 
@@ -335,7 +336,7 @@ main.ts:51703
 
 #### Source
 
-main.ts:51731
+main.ts:51701
 
 ***
 
@@ -353,4 +354,4 @@ main.ts:51731
 
 #### Source
 
-main.ts:51724
+main.ts:51694

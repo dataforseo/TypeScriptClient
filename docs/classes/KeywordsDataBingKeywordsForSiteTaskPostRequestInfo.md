@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:130249
+main.ts:130352
 
 ## Properties
 
@@ -51,7 +51,7 @@ example:
 
 #### Source
 
-main.ts:130204
+main.ts:130307
 
 ***
 
@@ -75,7 +75,7 @@ example:
 
 #### Source
 
-main.ts:130214
+main.ts:130317
 
 ***
 
@@ -95,7 +95,7 @@ default value: all
 
 #### Source
 
-main.ts:130192
+main.ts:130295
 
 ***
 
@@ -115,7 +115,7 @@ the specified keywords will be converted to lowercase format
 
 #### Source
 
-main.ts:130186
+main.ts:130289
 
 ***
 
@@ -135,7 +135,7 @@ en, fr, de
 
 #### Source
 
-main.ts:130180
+main.ts:130283
 
 ***
 
@@ -155,7 +155,7 @@ English, French, German
 
 #### Source
 
-main.ts:130174
+main.ts:130277
 
 ***
 
@@ -176,7 +176,7 @@ example:
 
 #### Source
 
-main.ts:130160
+main.ts:130263
 
 ***
 
@@ -198,7 +198,7 @@ example:
 
 #### Source
 
-main.ts:130168
+main.ts:130271
 
 ***
 
@@ -219,7 +219,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:130153
+main.ts:130256
 
 ***
 
@@ -243,7 +243,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:130234
+main.ts:130337
 
 ***
 
@@ -267,7 +267,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:130224
+main.ts:130327
 
 ***
 
@@ -286,7 +286,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 #### Source
 
-main.ts:130239
+main.ts:130342
 
 ***
 
@@ -305,7 +305,7 @@ default value: relevance
 
 #### Source
 
-main.ts:130197
+main.ts:130300
 
 ***
 
@@ -325,7 +325,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:130245
+main.ts:130348
 
 ***
 
@@ -343,7 +343,7 @@ the URL of the webpage or the domain to scan for possible keywords
 
 #### Source
 
-main.ts:130146
+main.ts:130249
 
 ## Methods
 
@@ -361,7 +361,7 @@ main.ts:130146
 
 #### Source
 
-main.ts:130258
+main.ts:130361
 
 ***
 
@@ -379,7 +379,7 @@ main.ts:130258
 
 #### Source
 
-main.ts:130293
+main.ts:130396
 
 ***
 
@@ -397,4 +397,4 @@ main.ts:130293
 
 #### Source
 
-main.ts:130286
+main.ts:130389

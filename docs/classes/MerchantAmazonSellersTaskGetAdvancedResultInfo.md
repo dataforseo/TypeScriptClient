@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:182223
+main.ts:182174
 
 ## Properties
 
@@ -47,7 +47,7 @@ learn more about ASINs in this help center guide
 
 #### Source
 
-main.ts:182188
+main.ts:182139
 
 ***
 
@@ -64,7 +64,7 @@ you can use it to make sure the provided results are accurate
 
 #### Source
 
-main.ts:182199
+main.ts:182150
 
 ***
 
@@ -83,7 +83,7 @@ example:
 
 #### Source
 
-main.ts:182204
+main.ts:182155
 
 ***
 
@@ -100,7 +100,7 @@ image URL of the product relevant to the asin received in a POST array
 
 #### Source
 
-main.ts:182210
+main.ts:182161
 
 ***
 
@@ -119,7 +119,7 @@ amazon_seller_main_item, amazon_seller_item
 
 #### Source
 
-main.ts:182215
+main.ts:182166
 
 ***
 
@@ -135,7 +135,7 @@ items in SERP
 
 #### Source
 
-main.ts:182219
+main.ts:182170
 
 ***
 
@@ -151,7 +151,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:182217
+main.ts:182168
 
 ***
 
@@ -167,7 +167,7 @@ language code received in a POST array
 
 #### Source
 
-main.ts:182196
+main.ts:182147
 
 ***
 
@@ -183,7 +183,7 @@ location code received in a POST array
 
 #### Source
 
-main.ts:182194
+main.ts:182145
 
 ***
 
@@ -199,7 +199,7 @@ search engine domain received in a POST array
 
 #### Source
 
-main.ts:182192
+main.ts:182143
 
 ***
 
@@ -216,7 +216,7 @@ title of the product relevant to the asin received in a POST array
 
 #### Source
 
-main.ts:182207
+main.ts:182158
 
 ***
 
@@ -232,7 +232,7 @@ type of element
 
 #### Source
 
-main.ts:182190
+main.ts:182141
 
 ## Methods
 
@@ -250,7 +250,7 @@ main.ts:182190
 
 #### Source
 
-main.ts:182232
+main.ts:182183
 
 ***
 
@@ -268,7 +268,7 @@ main.ts:182232
 
 #### Source
 
-main.ts:182268
+main.ts:182219
 
 ***
 
@@ -286,4 +286,4 @@ main.ts:182268
 
 #### Source
 
-main.ts:182261
+main.ts:182212

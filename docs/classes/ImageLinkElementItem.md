@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:155777
+main.ts:155690
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:155777
 
 #### Source
 
-main.ts:21142
+main.ts:20801
 
 ***
 
@@ -69,7 +69,7 @@ possible values: internal, external
 
 #### Source
 
-main.ts:155758
+main.ts:155671
 
 ***
 
@@ -86,7 +86,7 @@ if the value is true, the link doesn’t have a rel="nofollow" attribute
 
 #### Source
 
-main.ts:155751
+main.ts:155664
 
 ***
 
@@ -103,7 +103,7 @@ the link was found on this domain
 
 #### Source
 
-main.ts:155728
+main.ts:155641
 
 ***
 
@@ -120,7 +120,7 @@ the link is pointing to this domain
 
 #### Source
 
-main.ts:155731
+main.ts:155644
 
 ***
 
@@ -136,7 +136,7 @@ alternative text for the image
 
 #### Source
 
-main.ts:155765
+main.ts:155678
 
 ***
 
@@ -152,7 +152,7 @@ url of the image
 
 #### Source
 
-main.ts:155767
+main.ts:155680
 
 ***
 
@@ -169,7 +169,7 @@ indicates whether a link is directing to a broken page or resource
 
 #### Source
 
-main.ts:155761
+main.ts:155674
 
 ***
 
@@ -186,7 +186,7 @@ if true, at least one link pointing to link_to has a rel="nofollow" attribute an
 
 #### Source
 
-main.ts:155770
+main.ts:155683
 
 ***
 
@@ -205,7 +205,7 @@ example:
 
 #### Source
 
-main.ts:155748
+main.ts:155661
 
 ***
 
@@ -222,7 +222,7 @@ absolute URL of the page on which the link was found
 
 #### Source
 
-main.ts:155740
+main.ts:155653
 
 ***
 
@@ -239,7 +239,7 @@ absolute URL of the page to which the link is pointing
 
 #### Source
 
-main.ts:155743
+main.ts:155656
 
 ***
 
@@ -256,7 +256,7 @@ relative URL of the page on which the link was found
 
 #### Source
 
-main.ts:155734
+main.ts:155647
 
 ***
 
@@ -272,7 +272,7 @@ url scheme of the referring page
 
 #### Source
 
-main.ts:155753
+main.ts:155666
 
 ***
 
@@ -289,7 +289,7 @@ relative URL of the page to which the link is pointing
 
 #### Source
 
-main.ts:155737
+main.ts:155650
 
 ***
 
@@ -305,7 +305,7 @@ url scheme of the referenced page
 
 #### Source
 
-main.ts:155755
+main.ts:155668
 
 ***
 
@@ -322,7 +322,7 @@ status code of the page to which the link is pointing
 
 #### Source
 
-main.ts:155773
+main.ts:155686
 
 ***
 
@@ -338,7 +338,7 @@ anchor text
 
 #### Source
 
-main.ts:155763
+main.ts:155676
 
 ## Methods
 
@@ -360,7 +360,7 @@ main.ts:155763
 
 #### Source
 
-main.ts:155782
+main.ts:155695
 
 ***
 
@@ -382,7 +382,7 @@ main.ts:155782
 
 #### Source
 
-main.ts:155820
+main.ts:155733
 
 ***
 
@@ -404,4 +404,4 @@ main.ts:155820
 
 #### Source
 
-main.ts:155813
+main.ts:155726

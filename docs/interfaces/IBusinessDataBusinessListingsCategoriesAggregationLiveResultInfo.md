@@ -21,7 +21,7 @@ the number of items in the items array
 
 #### Source
 
-main.ts:197870
+main.ts:197851
 
 ***
 
@@ -35,7 +35,7 @@ possible item types: business_category
 
 #### Source
 
-main.ts:197880
+main.ts:197861
 
 ***
 
@@ -47,7 +47,7 @@ offset in the results array of returned categories
 
 #### Source
 
-main.ts:197872
+main.ts:197853
 
 ***
 
@@ -61,7 +61,7 @@ offset_token values are unique for each subsequent task
 
 #### Source
 
-main.ts:197876
+main.ts:197857
 
 ***
 
@@ -73,4 +73,4 @@ total number of results in our database relevant to your request
 
 #### Source
 
-main.ts:197867
+main.ts:197848

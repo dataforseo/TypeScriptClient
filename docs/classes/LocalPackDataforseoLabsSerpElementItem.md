@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:96920
+main.ts:96979
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:96920
 
 #### Source
 
-main.ts:20377
+main.ts:20051
 
 ***
 
@@ -68,7 +68,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:96882
+main.ts:96941
 
 ***
 
@@ -84,7 +84,7 @@ domain where a link points
 
 #### Source
 
-main.ts:96884
+main.ts:96943
 
 ***
 
@@ -103,7 +103,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:96912
+main.ts:96971
 
 ***
 
@@ -122,7 +122,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:96902
+main.ts:96961
 
 ***
 
@@ -141,7 +141,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:96907
+main.ts:96966
 
 ***
 
@@ -157,7 +157,7 @@ indicates whether the element is an ad
 
 #### Source
 
-main.ts:96890
+main.ts:96949
 
 ***
 
@@ -173,7 +173,7 @@ primary domain name in SERP
 
 #### Source
 
-main.ts:96895
+main.ts:96954
 
 ***
 
@@ -189,7 +189,7 @@ phone number
 
 #### Source
 
-main.ts:96886
+main.ts:96945
 
 ***
 
@@ -207,7 +207,7 @@ left, right
 
 #### Source
 
-main.ts:96876
+main.ts:96935
 
 ***
 
@@ -224,7 +224,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:96872
+main.ts:96931
 
 ***
 
@@ -242,7 +242,7 @@ Note: the changes are calculated even if the preceding month is not included in 
 
 #### Source
 
-main.ts:96916
+main.ts:96975
 
 ***
 
@@ -259,7 +259,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:96869
+main.ts:96928
 
 ***
 
@@ -276,7 +276,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:96893
+main.ts:96952
 
 ***
 
@@ -292,7 +292,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Source
 
-main.ts:96897
+main.ts:96956
 
 ***
 
@@ -300,7 +300,7 @@ main.ts:96897
 
 > **`optional`** **title**: `string`
 
-title of the result in SERP
+title of the item
 
 #### Implementation of
 
@@ -308,7 +308,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:96880
+main.ts:96939
 
 ***
 
@@ -316,7 +316,7 @@ main.ts:96880
 
 > **`optional`** **url**: `string`
 
-relevant URL of the Ad element in SERP
+URL link
 
 #### Implementation of
 
@@ -324,7 +324,7 @@ relevant URL of the Ad element in SERP
 
 #### Source
 
-main.ts:96888
+main.ts:96947
 
 ***
 
@@ -340,7 +340,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:96878
+main.ts:96937
 
 ## Methods
 
@@ -362,7 +362,7 @@ main.ts:96878
 
 #### Source
 
-main.ts:96925
+main.ts:96984
 
 ***
 
@@ -384,7 +384,7 @@ main.ts:96925
 
 #### Source
 
-main.ts:96959
+main.ts:97018
 
 ***
 
@@ -406,4 +406,4 @@ main.ts:96959
 
 #### Source
 
-main.ts:96952
+main.ts:97011

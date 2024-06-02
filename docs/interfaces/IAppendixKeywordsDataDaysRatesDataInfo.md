@@ -14,11 +14,11 @@
 
 ### ad\_traffic\_by\_keywords?
 
-> **`optional`** **ad\_traffic\_by\_keywords**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **ad\_traffic\_by\_keywords**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:216406
+main.ts:213565
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:216406
 
 #### Source
 
-main.ts:216413
+main.ts:213572
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:216413
 
 #### Source
 
-main.ts:216411
+main.ts:213570
 
 ***
 
@@ -48,7 +48,7 @@ main.ts:216411
 
 #### Source
 
-main.ts:216417
+main.ts:213576
 
 ***
 
@@ -58,17 +58,17 @@ main.ts:216417
 
 #### Source
 
-main.ts:216412
+main.ts:213571
 
 ***
 
 ### explore?
 
-> **`optional`** **explore**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **explore**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:216410
+main.ts:213569
 
 ***
 
@@ -78,7 +78,7 @@ main.ts:216410
 
 #### Source
 
-main.ts:216416
+main.ts:213575
 
 ***
 
@@ -88,27 +88,27 @@ main.ts:216416
 
 #### Source
 
-main.ts:216414
+main.ts:213573
 
 ***
 
 ### keywords\_for\_keywords?
 
-> **`optional`** **keywords\_for\_keywords**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **keywords\_for\_keywords**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:216403
+main.ts:213562
 
 ***
 
 ### keywords\_for\_site?
 
-> **`optional`** **keywords\_for\_site**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **keywords\_for\_site**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:216404
+main.ts:213563
 
 ***
 
@@ -118,7 +118,7 @@ main.ts:216404
 
 #### Source
 
-main.ts:216407
+main.ts:213566
 
 ***
 
@@ -128,27 +128,27 @@ main.ts:216407
 
 #### Source
 
-main.ts:216408
+main.ts:213567
 
 ***
 
 ### search\_volume?
 
-> **`optional`** **search\_volume**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **search\_volume**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:216405
+main.ts:213564
 
 ***
 
 ### search\_volume\_history?
 
-> **`optional`** **search\_volume\_history**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
+> **`optional`** **search\_volume\_history**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:216415
+main.ts:213574
 
 ***
 
@@ -158,4 +158,4 @@ main.ts:216415
 
 #### Source
 
-main.ts:216409
+main.ts:213568

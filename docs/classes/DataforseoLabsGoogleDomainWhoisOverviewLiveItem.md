@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:89159
+main.ts:89218
 
 ## Properties
 
@@ -46,7 +46,7 @@ backlink data for the returned domain
 
 #### Source
 
-main.ts:89155
+main.ts:89214
 
 ***
 
@@ -65,7 +65,7 @@ example:
 
 #### Source
 
-main.ts:89121
+main.ts:89180
 
 ***
 
@@ -84,7 +84,7 @@ example:
 
 #### Source
 
-main.ts:89116
+main.ts:89175
 
 ***
 
@@ -100,7 +100,7 @@ domain name
 
 #### Source
 
-main.ts:89111
+main.ts:89170
 
 ***
 
@@ -117,7 +117,7 @@ the status of a domain name registration as defined by ICANN
 
 #### Source
 
-main.ts:89139
+main.ts:89198
 
 ***
 
@@ -136,7 +136,7 @@ example:
 
 #### Source
 
-main.ts:89126
+main.ts:89185
 
 ***
 
@@ -155,7 +155,7 @@ example:
 
 #### Source
 
-main.ts:89136
+main.ts:89195
 
 ***
 
@@ -175,7 +175,7 @@ ranking data relevant to the specified domain
 
 #### Source
 
-main.ts:89153
+main.ts:89212
 
 ***
 
@@ -193,7 +193,7 @@ Note: expired domains will remain in the database for only a short period of tim
 
 #### Source
 
-main.ts:89146
+main.ts:89205
 
 ***
 
@@ -212,7 +212,7 @@ NameCheap, Inc.
 
 #### Source
 
-main.ts:89151
+main.ts:89210
 
 ***
 
@@ -228,7 +228,7 @@ search engine type
 
 #### Source
 
-main.ts:89109
+main.ts:89168
 
 ***
 
@@ -245,7 +245,7 @@ top-level domain in the DNS root zone
 
 #### Source
 
-main.ts:89142
+main.ts:89201
 
 ***
 
@@ -264,7 +264,7 @@ example:
 
 #### Source
 
-main.ts:89131
+main.ts:89190
 
 ## Methods
 
@@ -282,7 +282,7 @@ main.ts:89131
 
 #### Source
 
-main.ts:89168
+main.ts:89227
 
 ***
 
@@ -300,7 +300,7 @@ main.ts:89168
 
 #### Source
 
-main.ts:89207
+main.ts:89266
 
 ***
 
@@ -318,4 +318,4 @@ main.ts:89207
 
 #### Source
 
-main.ts:89200
+main.ts:89259

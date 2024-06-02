@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:99064
+main.ts:99161
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:99064
 
 #### Source
 
-main.ts:20377
+main.ts:20051
 
 ***
 
@@ -68,7 +68,7 @@ domain where a link points
 
 #### Source
 
-main.ts:99055
+main.ts:99152
 
 ***
 
@@ -84,7 +84,7 @@ contains data provided in the graph of the element
 
 #### Source
 
-main.ts:99060
+main.ts:99157
 
 ***
 
@@ -102,7 +102,7 @@ left, right
 
 #### Source
 
-main.ts:99040
+main.ts:99137
 
 ***
 
@@ -118,7 +118,7 @@ price of the shopping element
 
 #### Source
 
-main.ts:99051
+main.ts:99148
 
 ***
 
@@ -135,7 +135,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:99036
+main.ts:99133
 
 ***
 
@@ -152,7 +152,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:99033
+main.ts:99130
 
 ***
 
@@ -168,7 +168,7 @@ text alongside the link title
 
 #### Source
 
-main.ts:99049
+main.ts:99146
 
 ***
 
@@ -185,7 +185,7 @@ indicates the source of information included in the shopping_element
 
 #### Source
 
-main.ts:99047
+main.ts:99144
 
 ***
 
@@ -202,7 +202,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:99058
+main.ts:99155
 
 ***
 
@@ -210,7 +210,7 @@ main.ts:99058
 
 > **`optional`** **title**: `string`
 
-title of the result in SERP
+title of the item
 
 #### Implementation of
 
@@ -218,7 +218,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:99044
+main.ts:99141
 
 ***
 
@@ -226,7 +226,7 @@ main.ts:99044
 
 > **`optional`** **url**: `string`
 
-relevant URL of the Ad element in SERP
+URL link
 
 #### Implementation of
 
@@ -234,7 +234,7 @@ relevant URL of the Ad element in SERP
 
 #### Source
 
-main.ts:99053
+main.ts:99150
 
 ***
 
@@ -250,7 +250,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:99042
+main.ts:99139
 
 ## Methods
 
@@ -272,7 +272,7 @@ main.ts:99042
 
 #### Source
 
-main.ts:99069
+main.ts:99166
 
 ***
 
@@ -294,7 +294,7 @@ main.ts:99069
 
 #### Source
 
-main.ts:99098
+main.ts:99195
 
 ***
 
@@ -316,4 +316,4 @@ main.ts:99098
 
 #### Source
 
-main.ts:99091
+main.ts:99188

@@ -26,7 +26,7 @@
 
 #### Source
 
-main.ts:11992
+main.ts:12029
 
 ## Properties
 
@@ -36,7 +36,7 @@ main.ts:11992
 
 #### Source
 
-main.ts:11989
+main.ts:12026
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:11989
 
 #### Source
 
-main.ts:11988
+main.ts:12025
 
 ***
 
@@ -78,7 +78,7 @@ main.ts:11988
 
 #### Source
 
-main.ts:11990
+main.ts:12027
 
 ## Methods
 
@@ -100,7 +100,7 @@ Successful operation
 
 #### Source
 
-main.ts:12834
+main.ts:12871
 
 ***
 
@@ -122,7 +122,7 @@ Successful operation
 
 #### Source
 
-main.ts:12876
+main.ts:12913
 
 ***
 
@@ -144,7 +144,7 @@ Successful operation
 
 #### Source
 
-main.ts:12456
+main.ts:12493
 
 ***
 
@@ -166,7 +166,7 @@ Successful operation
 
 #### Source
 
-main.ts:12414
+main.ts:12451
 
 ***
 
@@ -188,7 +188,7 @@ Successful operation
 
 #### Source
 
-main.ts:12085
+main.ts:12122
 
 ***
 
@@ -210,7 +210,7 @@ Successful operation
 
 #### Source
 
-main.ts:12918
+main.ts:12955
 
 ***
 
@@ -232,7 +232,7 @@ Successful operation
 
 #### Source
 
-main.ts:12666
+main.ts:12703
 
 ***
 
@@ -248,7 +248,7 @@ Successful operation
 
 #### Source
 
-main.ts:12996
+main.ts:13033
 
 ***
 
@@ -270,7 +270,7 @@ Successful operation
 
 #### Source
 
-main.ts:13195
+main.ts:13232
 
 ***
 
@@ -296,7 +296,7 @@ Successful operation
 
 #### Source
 
-main.ts:13154
+main.ts:13191
 
 ***
 
@@ -318,7 +318,7 @@ Successful operation
 
 #### Source
 
-main.ts:13071
+main.ts:13108
 
 ***
 
@@ -334,7 +334,7 @@ Successful operation
 
 #### Source
 
-main.ts:13112
+main.ts:13149
 
 ***
 
@@ -350,7 +350,7 @@ Successful operation
 
 #### Source
 
-main.ts:13033
+main.ts:13070
 
 ***
 
@@ -372,7 +372,7 @@ Successful operation
 
 #### Source
 
-main.ts:12498
+main.ts:12535
 
 ***
 
@@ -394,7 +394,7 @@ Successful operation
 
 #### Source
 
-main.ts:12708
+main.ts:12745
 
 ***
 
@@ -416,7 +416,7 @@ Successful operation
 
 #### Source
 
-main.ts:12582
+main.ts:12619
 
 ***
 
@@ -432,7 +432,7 @@ Successful operation
 
 #### Source
 
-main.ts:12126
+main.ts:12163
 
 ***
 
@@ -454,7 +454,7 @@ Successful operation
 
 #### Source
 
-main.ts:12043
+main.ts:12080
 
 ***
 
@@ -476,7 +476,7 @@ Successful operation
 
 #### Source
 
-main.ts:12001
+main.ts:12038
 
 ***
 
@@ -492,7 +492,23 @@ Successful operation
 
 #### Source
 
-main.ts:12959
+main.ts:12996
+
+***
+
+### onPageTasksReady()
+
+> **onPageTasksReady**(): `Promise`\<[`OnPageTasksReadyResponseInfo`](OnPageTasksReadyResponseInfo.md)\>
+
+#### Returns
+
+`Promise`\<[`OnPageTasksReadyResponseInfo`](OnPageTasksReadyResponseInfo.md)\>
+
+Successful operation
+
+#### Source
+
+main.ts:12242
 
 ***
 
@@ -514,7 +530,7 @@ Successful operation
 
 #### Source
 
-main.ts:12792
+main.ts:12829
 
 ***
 
@@ -536,7 +552,7 @@ Successful operation
 
 #### Source
 
-main.ts:12288
+main.ts:12325
 
 ***
 
@@ -558,7 +574,7 @@ Successful operation
 
 #### Source
 
-main.ts:12330
+main.ts:12367
 
 ***
 
@@ -576,7 +592,7 @@ main.ts:12330
 
 #### Source
 
-main.ts:12854
+main.ts:12891
 
 ***
 
@@ -594,7 +610,7 @@ main.ts:12854
 
 #### Source
 
-main.ts:12896
+main.ts:12933
 
 ***
 
@@ -612,7 +628,7 @@ main.ts:12896
 
 #### Source
 
-main.ts:12476
+main.ts:12513
 
 ***
 
@@ -630,7 +646,7 @@ main.ts:12476
 
 #### Source
 
-main.ts:12434
+main.ts:12471
 
 ***
 
@@ -648,7 +664,7 @@ main.ts:12434
 
 #### Source
 
-main.ts:12105
+main.ts:12142
 
 ***
 
@@ -666,7 +682,7 @@ main.ts:12105
 
 #### Source
 
-main.ts:12938
+main.ts:12975
 
 ***
 
@@ -684,7 +700,7 @@ main.ts:12938
 
 #### Source
 
-main.ts:12686
+main.ts:12723
 
 ***
 
@@ -702,7 +718,7 @@ main.ts:12686
 
 #### Source
 
-main.ts:13012
+main.ts:13049
 
 ***
 
@@ -720,7 +736,7 @@ main.ts:13012
 
 #### Source
 
-main.ts:13215
+main.ts:13252
 
 ***
 
@@ -738,7 +754,7 @@ main.ts:13215
 
 #### Source
 
-main.ts:13173
+main.ts:13210
 
 ***
 
@@ -756,7 +772,7 @@ main.ts:13173
 
 #### Source
 
-main.ts:13091
+main.ts:13128
 
 ***
 
@@ -774,7 +790,7 @@ main.ts:13091
 
 #### Source
 
-main.ts:13128
+main.ts:13165
 
 ***
 
@@ -792,7 +808,7 @@ main.ts:13128
 
 #### Source
 
-main.ts:13049
+main.ts:13086
 
 ***
 
@@ -810,7 +826,7 @@ main.ts:13049
 
 #### Source
 
-main.ts:12518
+main.ts:12555
 
 ***
 
@@ -828,7 +844,7 @@ main.ts:12518
 
 #### Source
 
-main.ts:12728
+main.ts:12765
 
 ***
 
@@ -846,7 +862,7 @@ main.ts:12728
 
 #### Source
 
-main.ts:12602
+main.ts:12639
 
 ***
 
@@ -864,7 +880,7 @@ main.ts:12602
 
 #### Source
 
-main.ts:12142
+main.ts:12179
 
 ***
 
@@ -882,7 +898,7 @@ main.ts:12142
 
 #### Source
 
-main.ts:12063
+main.ts:12100
 
 ***
 
@@ -900,7 +916,7 @@ main.ts:12063
 
 #### Source
 
-main.ts:12021
+main.ts:12058
 
 ***
 
@@ -918,7 +934,25 @@ main.ts:12021
 
 #### Source
 
-main.ts:12975
+main.ts:13012
+
+***
+
+### processOnPageTasksReady()
+
+> **`protected`** **processOnPageTasksReady**(`response`): `Promise`\<[`OnPageTasksReadyResponseInfo`](OnPageTasksReadyResponseInfo.md)\>
+
+#### Parameters
+
+• **response**: `Response`
+
+#### Returns
+
+`Promise`\<[`OnPageTasksReadyResponseInfo`](OnPageTasksReadyResponseInfo.md)\>
+
+#### Source
+
+main.ts:12258
 
 ***
 
@@ -936,7 +970,7 @@ main.ts:12975
 
 #### Source
 
-main.ts:12812
+main.ts:12849
 
 ***
 
@@ -954,7 +988,7 @@ main.ts:12812
 
 #### Source
 
-main.ts:12308
+main.ts:12345
 
 ***
 
@@ -972,7 +1006,7 @@ main.ts:12308
 
 #### Source
 
-main.ts:12350
+main.ts:12387
 
 ***
 
@@ -990,7 +1024,7 @@ main.ts:12350
 
 #### Source
 
-main.ts:12770
+main.ts:12807
 
 ***
 
@@ -1008,7 +1042,7 @@ main.ts:12770
 
 #### Source
 
-main.ts:12560
+main.ts:12597
 
 ***
 
@@ -1026,7 +1060,7 @@ main.ts:12560
 
 #### Source
 
-main.ts:12392
+main.ts:12429
 
 ***
 
@@ -1044,7 +1078,7 @@ main.ts:12392
 
 #### Source
 
-main.ts:12266
+main.ts:12303
 
 ***
 
@@ -1059,24 +1093,6 @@ main.ts:12266
 #### Returns
 
 `Promise`\<[`OnPageTaskPostResponseInfo`](OnPageTaskPostResponseInfo.md)\>
-
-#### Source
-
-main.ts:12184
-
-***
-
-### processTasksReady()
-
-> **`protected`** **processTasksReady**(`response`): `Promise`\<[`OnPageTasksReadyResponseInfo`](OnPageTasksReadyResponseInfo.md)\>
-
-#### Parameters
-
-• **response**: `Response`
-
-#### Returns
-
-`Promise`\<[`OnPageTasksReadyResponseInfo`](OnPageTasksReadyResponseInfo.md)\>
 
 #### Source
 
@@ -1098,7 +1114,7 @@ main.ts:12221
 
 #### Source
 
-main.ts:12644
+main.ts:12681
 
 ***
 
@@ -1120,7 +1136,7 @@ Successful operation
 
 #### Source
 
-main.ts:12750
+main.ts:12787
 
 ***
 
@@ -1142,7 +1158,7 @@ Successful operation
 
 #### Source
 
-main.ts:12540
+main.ts:12577
 
 ***
 
@@ -1164,7 +1180,7 @@ Successful operation
 
 #### Source
 
-main.ts:12372
+main.ts:12409
 
 ***
 
@@ -1190,7 +1206,7 @@ Successful operation
 
 #### Source
 
-main.ts:12247
+main.ts:12284
 
 ***
 
@@ -1212,23 +1228,7 @@ Successful operation
 
 #### Source
 
-main.ts:12164
-
-***
-
-### tasksReady()
-
-> **tasksReady**(): `Promise`\<[`OnPageTasksReadyResponseInfo`](OnPageTasksReadyResponseInfo.md)\>
-
-#### Returns
-
-`Promise`\<[`OnPageTasksReadyResponseInfo`](OnPageTasksReadyResponseInfo.md)\>
-
-Successful operation
-
-#### Source
-
-main.ts:12205
+main.ts:12201
 
 ***
 
@@ -1250,4 +1250,4 @@ Successful operation
 
 #### Source
 
-main.ts:12624
+main.ts:12661

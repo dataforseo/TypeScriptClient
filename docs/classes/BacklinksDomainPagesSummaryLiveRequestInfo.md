@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:140258
+main.ts:140361
 
 ## Properties
 
@@ -52,7 +52,7 @@ example:
 
 #### Source
 
-main.ts:140232
+main.ts:140335
 
 ***
 
@@ -75,7 +75,7 @@ default value: live
 
 #### Source
 
-main.ts:140193
+main.ts:140296
 
 ***
 
@@ -85,7 +85,7 @@ main.ts:140193
 
 indicates whether the backlinks from subdomains of the target are excluded
 optional field
-if set to false, the backlinks from subdomains of the target will be ommited and you won’t receive the same domain in the response;
+if set to false, backlinks from the subdomains of the target domain will be ommited and you won’t receive the same domain in the response;
 default value: true
 
 #### Implementation of
@@ -94,7 +94,7 @@ default value: true
 
 #### Source
 
-main.ts:140248
+main.ts:140351
 
 ***
 
@@ -125,7 +125,7 @@ The full list of possible filters is available here.
 
 #### Source
 
-main.ts:140210
+main.ts:140313
 
 ***
 
@@ -145,7 +145,7 @@ default value: true
 
 #### Source
 
-main.ts:140243
+main.ts:140346
 
 ***
 
@@ -153,7 +153,7 @@ main.ts:140243
 
 > **`optional`** **include\_subdomains**: `boolean`
 
-indicates if the subdomains of the target will be included in the search
+indicates if the subdomains of the target domain will be included in the search
 optional field
 if set to false, the subdomains will be ignored
 default value: true
@@ -164,7 +164,7 @@ default value: true
 
 #### Source
 
-main.ts:140237
+main.ts:140340
 
 ***
 
@@ -189,7 +189,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:140184
+main.ts:140287
 
 ***
 
@@ -208,7 +208,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:140168
+main.ts:140271
 
 ***
 
@@ -227,7 +227,7 @@ if you specify the 10 value, the first ten anchors in the results array will be 
 
 #### Source
 
-main.ts:140173
+main.ts:140276
 
 ***
 
@@ -255,7 +255,7 @@ example:
 
 #### Source
 
-main.ts:140224
+main.ts:140327
 
 ***
 
@@ -275,7 +275,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:140254
+main.ts:140357
 
 ***
 
@@ -294,7 +294,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Source
 
-main.ts:140163
+main.ts:140266
 
 ## Methods
 
@@ -312,7 +312,7 @@ main.ts:140163
 
 #### Source
 
-main.ts:140267
+main.ts:140370
 
 ***
 
@@ -330,7 +330,7 @@ main.ts:140267
 
 #### Source
 
-main.ts:140307
+main.ts:140410
 
 ***
 
@@ -348,4 +348,4 @@ main.ts:140307
 
 #### Source
 
-main.ts:140300
+main.ts:140403

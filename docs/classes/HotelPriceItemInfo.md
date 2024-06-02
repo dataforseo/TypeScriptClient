@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:201446
+main.ts:201433
 
 ## Properties
 
@@ -47,7 +47,7 @@ USD is applied by default, unless specified in the POST array
 
 #### Source
 
-main.ts:201426
+main.ts:201413
 
 ***
 
@@ -64,7 +64,7 @@ domain of the third-party website page with pricing information
 
 #### Source
 
-main.ts:201432
+main.ts:201419
 
 ***
 
@@ -82,7 +82,7 @@ equals null if free cancellation is not available for the selected dates
 
 #### Source
 
-main.ts:201440
+main.ts:201427
 
 ***
 
@@ -100,7 +100,7 @@ if false, related hotel_search_item is an organic hotel listing
 
 #### Source
 
-main.ts:201436
+main.ts:201423
 
 ***
 
@@ -116,7 +116,7 @@ featured price offers
 
 #### Source
 
-main.ts:201442
+main.ts:201429
 
 ***
 
@@ -132,7 +132,7 @@ price per night
 
 #### Source
 
-main.ts:201423
+main.ts:201410
 
 ***
 
@@ -148,7 +148,7 @@ title of the hotel
 
 #### Source
 
-main.ts:201421
+main.ts:201408
 
 ***
 
@@ -164,7 +164,7 @@ type of element
 
 #### Source
 
-main.ts:201419
+main.ts:201406
 
 ***
 
@@ -181,7 +181,7 @@ URL to the third-party website page with pricing information
 
 #### Source
 
-main.ts:201429
+main.ts:201416
 
 ## Methods
 
@@ -199,7 +199,7 @@ main.ts:201429
 
 #### Source
 
-main.ts:201455
+main.ts:201442
 
 ***
 
@@ -217,7 +217,7 @@ main.ts:201455
 
 #### Source
 
-main.ts:201484
+main.ts:201471
 
 ***
 
@@ -235,4 +235,4 @@ main.ts:201484
 
 #### Source
 
-main.ts:201477
+main.ts:201464

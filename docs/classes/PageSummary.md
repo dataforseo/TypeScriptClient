@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:139567
+main.ts:139670
 
 ## Properties
 
@@ -46,7 +46,7 @@ indicates the number of backlinks
 
 #### Source
 
-main.ts:139514
+main.ts:139617
 
 ***
 
@@ -63,7 +63,7 @@ learn more about how the metric is calculated on this help center page
 
 #### Source
 
-main.ts:139517
+main.ts:139620
 
 ***
 
@@ -72,7 +72,7 @@ main.ts:139517
 > **`optional`** **broken\_backlinks**: `number`
 
 number of broken backlinks
-number of broken backlinks pointing to the target
+number of broken backlinks pointing to the page
 
 #### Implementation of
 
@@ -80,7 +80,7 @@ number of broken backlinks pointing to the target
 
 #### Source
 
-main.ts:139520
+main.ts:139623
 
 ***
 
@@ -97,7 +97,7 @@ number of pages that respond with 4xx or 5xx status codes where backlinks are po
 
 #### Source
 
-main.ts:139523
+main.ts:139626
 
 ***
 
@@ -116,7 +116,7 @@ example:
 
 #### Source
 
-main.ts:139501
+main.ts:139604
 
 ***
 
@@ -136,7 +136,7 @@ example:
 
 #### Source
 
-main.ts:139507
+main.ts:139610
 
 ***
 
@@ -145,7 +145,7 @@ main.ts:139507
 > **`optional`** **rank**: `number`
 
 page rank
-rank of the page on the target website
+rank of the page
 rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm
 learn more about the metric and how it is calculated in this help center article
 
@@ -155,7 +155,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Source
 
-main.ts:139512
+main.ts:139615
 
 ***
 
@@ -171,7 +171,7 @@ indicates the number of referring domains
 
 #### Source
 
-main.ts:139525
+main.ts:139628
 
 ***
 
@@ -179,7 +179,7 @@ main.ts:139525
 
 > **`optional`** **referring\_domains\_nofollow**: `number`
 
-number of domains pointing at least one nofollow link to the target
+number of domains pointing at least one nofollow link to the page
 
 #### Implementation of
 
@@ -187,7 +187,7 @@ number of domains pointing at least one nofollow link to the target
 
 #### Source
 
-main.ts:139527
+main.ts:139630
 
 ***
 
@@ -204,7 +204,7 @@ number of IP addresses pointing to this page
 
 #### Source
 
-main.ts:139534
+main.ts:139637
 
 ***
 
@@ -225,7 +225,7 @@ indicates link attributes of the referring links and link count per each attribu
 
 #### Source
 
-main.ts:139551
+main.ts:139654
 
 ***
 
@@ -246,7 +246,7 @@ indicates ISO country codes of the domains where the referring links are located
 
 #### Source
 
-main.ts:139563
+main.ts:139666
 
 ***
 
@@ -267,7 +267,7 @@ indicates referring platform types and and link count per each platform
 
 #### Source
 
-main.ts:139554
+main.ts:139657
 
 ***
 
@@ -291,7 +291,7 @@ article, section, summary
 
 #### Source
 
-main.ts:139560
+main.ts:139663
 
 ***
 
@@ -312,7 +312,7 @@ contains top level domains and referring link count per each
 
 #### Source
 
-main.ts:139543
+main.ts:139646
 
 ***
 
@@ -335,7 +335,7 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 #### Source
 
-main.ts:139548
+main.ts:139651
 
 ***
 
@@ -351,7 +351,7 @@ indicates the number of referring main domains
 
 #### Source
 
-main.ts:139529
+main.ts:139632
 
 ***
 
@@ -359,7 +359,7 @@ main.ts:139529
 
 > **`optional`** **referring\_main\_domains\_nofollow**: `number`
 
-number of main domains pointing at least one nofollow link to the target
+number of main domains pointing at least one nofollow link to the page
 
 #### Implementation of
 
@@ -367,7 +367,7 @@ number of main domains pointing at least one nofollow link to the target
 
 #### Source
 
-main.ts:139531
+main.ts:139634
 
 ***
 
@@ -375,7 +375,7 @@ main.ts:139531
 
 > **`optional`** **referring\_pages**: `number`
 
-indicates the number of pages pointing to the target
+indicates the number of pages pointing to the page
 
 #### Implementation of
 
@@ -383,7 +383,7 @@ indicates the number of pages pointing to the target
 
 #### Source
 
-main.ts:139538
+main.ts:139641
 
 ***
 
@@ -391,7 +391,7 @@ main.ts:139538
 
 > **`optional`** **referring\_pages\_nofollow**: `number`
 
-number of referring pages pointing at least one nofollow link to the target
+number of referring pages pointing at least one nofollow link to the page
 
 #### Implementation of
 
@@ -399,7 +399,7 @@ number of referring pages pointing at least one nofollow link to the target
 
 #### Source
 
-main.ts:139540
+main.ts:139643
 
 ***
 
@@ -415,7 +415,7 @@ number of referring subnetworks
 
 #### Source
 
-main.ts:139536
+main.ts:139639
 
 ## Methods
 
@@ -433,7 +433,7 @@ main.ts:139536
 
 #### Source
 
-main.ts:139576
+main.ts:139679
 
 ***
 
@@ -451,7 +451,7 @@ main.ts:139576
 
 #### Source
 
-main.ts:139649
+main.ts:139752
 
 ***
 
@@ -469,4 +469,4 @@ main.ts:139649
 
 #### Source
 
-main.ts:139642
+main.ts:139745

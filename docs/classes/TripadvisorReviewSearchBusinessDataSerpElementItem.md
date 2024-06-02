@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:211767
+main.ts:211764
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:211767
 
 #### Source
 
-main.ts:20904
+main.ts:20578
 
 ***
 
@@ -71,7 +71,7 @@ example:
 
 #### Source
 
-main.ts:211748
+main.ts:211745
 
 ***
 
@@ -88,7 +88,7 @@ can take the following values: right
 
 #### Source
 
-main.ts:211739
+main.ts:211736
 
 ***
 
@@ -105,7 +105,7 @@ absolute position among all reviews on the list
 
 #### Source
 
-main.ts:211736
+main.ts:211733
 
 ***
 
@@ -122,7 +122,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:211733
+main.ts:211730
 
 ***
 
@@ -138,7 +138,7 @@ the rating score submitted by the reviewer
 
 #### Source
 
-main.ts:211743
+main.ts:211740
 
 ***
 
@@ -154,7 +154,7 @@ contains information about the owner’s response
 
 #### Source
 
-main.ts:211763
+main.ts:211760
 
 ***
 
@@ -170,7 +170,7 @@ contains URLs of the images used in the review
 
 #### Source
 
-main.ts:211759
+main.ts:211756
 
 ***
 
@@ -186,7 +186,7 @@ content of the review
 
 #### Source
 
-main.ts:211757
+main.ts:211754
 
 ***
 
@@ -205,7 +205,7 @@ example:
 
 #### Source
 
-main.ts:211753
+main.ts:211750
 
 ***
 
@@ -221,7 +221,7 @@ title of the review
 
 #### Source
 
-main.ts:211755
+main.ts:211752
 
 ***
 
@@ -237,7 +237,7 @@ URL of the review
 
 #### Source
 
-main.ts:211741
+main.ts:211738
 
 ***
 
@@ -253,7 +253,7 @@ information from the reviewer’s profile
 
 #### Source
 
-main.ts:211761
+main.ts:211758
 
 ## Methods
 
@@ -275,7 +275,7 @@ main.ts:211761
 
 #### Source
 
-main.ts:211772
+main.ts:211769
 
 ***
 
@@ -297,7 +297,7 @@ main.ts:211772
 
 #### Source
 
-main.ts:211809
+main.ts:211806
 
 ***
 
@@ -319,4 +319,4 @@ main.ts:211809
 
 #### Source
 
-main.ts:211802
+main.ts:211799

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:40136
+main.ts:40105
 
 ## Properties
 
@@ -47,7 +47,7 @@ indicates whether the establishment is opened or closed
 
 #### Source
 
-main.ts:40132
+main.ts:40101
 
 ***
 
@@ -67,7 +67,7 @@ work hours timetable
 
 #### Source
 
-main.ts:40129
+main.ts:40098
 
 ## Methods
 
@@ -85,7 +85,7 @@ main.ts:40129
 
 #### Source
 
-main.ts:40145
+main.ts:40114
 
 ***
 
@@ -103,7 +103,7 @@ main.ts:40145
 
 #### Source
 
-main.ts:40169
+main.ts:40138
 
 ***
 
@@ -121,4 +121,4 @@ main.ts:40169
 
 #### Source
 
-main.ts:40162
+main.ts:40131

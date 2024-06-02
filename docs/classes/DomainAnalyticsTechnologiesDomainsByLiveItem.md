@@ -32,7 +32,7 @@ items array
 
 #### Source
 
-main.ts:77744
+main.ts:77803
 
 ## Properties
 
@@ -49,7 +49,7 @@ code of the language that content on the target domain is written with
 
 #### Source
 
-main.ts:77727
+main.ts:77786
 
 ***
 
@@ -66,7 +66,7 @@ ISO code of the country that target domain is determined to belong to
 
 #### Source
 
-main.ts:77721
+main.ts:77780
 
 ***
 
@@ -82,7 +82,7 @@ domain meta description
 
 #### Source
 
-main.ts:77708
+main.ts:77767
 
 ***
 
@@ -98,7 +98,7 @@ specified domain name
 
 #### Source
 
-main.ts:77704
+main.ts:77763
 
 ***
 
@@ -115,7 +115,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Source
 
-main.ts:77713
+main.ts:77772
 
 ***
 
@@ -132,7 +132,7 @@ emails indicated on the target website
 
 #### Source
 
-main.ts:77733
+main.ts:77792
 
 ***
 
@@ -149,7 +149,7 @@ code of the language that target domain is determined to be associated with
 
 #### Source
 
-main.ts:77724
+main.ts:77783
 
 ***
 
@@ -168,7 +168,7 @@ example:
 
 #### Source
 
-main.ts:77718
+main.ts:77777
 
 ***
 
@@ -184,7 +184,7 @@ domain meta keywords
 
 #### Source
 
-main.ts:77710
+main.ts:77769
 
 ***
 
@@ -201,7 +201,7 @@ contact phone numbers indicated on the target website
 
 #### Source
 
-main.ts:77730
+main.ts:77789
 
 ***
 
@@ -218,7 +218,7 @@ social media URLs detected in the social graphs of the target website
 
 #### Source
 
-main.ts:77736
+main.ts:77795
 
 ***
 
@@ -236,7 +236,7 @@ to get a full list of technologies and their structure, refer to the technologie
 
 #### Source
 
-main.ts:77740
+main.ts:77799
 
 ***
 
@@ -252,7 +252,7 @@ domain meta title
 
 #### Source
 
-main.ts:77706
+main.ts:77765
 
 ***
 
@@ -268,7 +268,7 @@ type of element
 
 #### Source
 
-main.ts:77702
+main.ts:77761
 
 ## Methods
 
@@ -286,7 +286,7 @@ main.ts:77702
 
 #### Source
 
-main.ts:77753
+main.ts:77812
 
 ***
 
@@ -304,7 +304,7 @@ main.ts:77753
 
 #### Source
 
-main.ts:77799
+main.ts:77858
 
 ***
 
@@ -322,4 +322,4 @@ main.ts:77799
 
 #### Source
 
-main.ts:77792
+main.ts:77851

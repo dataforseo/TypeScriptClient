@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:153695
+main.ts:153608
 
 ## Properties
 
@@ -47,7 +47,7 @@ possible values: in_progress, finished
 
 #### Source
 
-main.ts:153683
+main.ts:153596
 
 ***
 
@@ -63,7 +63,7 @@ details of the crawling session
 
 #### Source
 
-main.ts:153685
+main.ts:153598
 
 ***
 
@@ -79,7 +79,7 @@ items array
 
 #### Source
 
-main.ts:153691
+main.ts:153604
 
 ***
 
@@ -95,7 +95,7 @@ number of items in the results array
 
 #### Source
 
-main.ts:153689
+main.ts:153602
 
 ***
 
@@ -111,7 +111,7 @@ total number of relevant items crawled
 
 #### Source
 
-main.ts:153687
+main.ts:153600
 
 ## Methods
 
@@ -129,7 +129,7 @@ main.ts:153687
 
 #### Source
 
-main.ts:153704
+main.ts:153617
 
 ***
 
@@ -147,7 +147,7 @@ main.ts:153704
 
 #### Source
 
-main.ts:153729
+main.ts:153642
 
 ***
 
@@ -165,4 +165,4 @@ main.ts:153729
 
 #### Source
 
-main.ts:153722
+main.ts:153635

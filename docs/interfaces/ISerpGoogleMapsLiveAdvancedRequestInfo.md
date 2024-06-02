@@ -27,7 +27,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:41178
+main.ts:41147
 
 ***
 
@@ -43,7 +43,7 @@ note: for mobile device, only 20 results are returned for every SERP
 
 #### Source
 
-main.ts:41155
+main.ts:41124
 
 ***
 
@@ -62,7 +62,7 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 
 #### Source
 
-main.ts:41110
+main.ts:41079
 
 ***
 
@@ -79,7 +79,7 @@ en
 
 #### Source
 
-main.ts:41149
+main.ts:41118
 
 ***
 
@@ -96,7 +96,7 @@ English
 
 #### Source
 
-main.ts:41142
+main.ts:41111
 
 ***
 
@@ -113,7 +113,7 @@ example:
 
 #### Source
 
-main.ts:41124
+main.ts:41093
 
 ***
 
@@ -134,7 +134,7 @@ example:
 
 #### Source
 
-main.ts:41135
+main.ts:41104
 
 ***
 
@@ -151,7 +151,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:41117
+main.ts:41086
 
 ***
 
@@ -168,7 +168,7 @@ learn more at our help center
 
 #### Source
 
-main.ts:41185
+main.ts:41154
 
 ***
 
@@ -185,7 +185,7 @@ default value: android
 
 #### Source
 
-main.ts:41162
+main.ts:41131
 
 ***
 
@@ -202,7 +202,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Source
 
-main.ts:41169
+main.ts:41138
 
 ***
 
@@ -220,7 +220,7 @@ Note: if the search_places mode is turned off and no results were found in the s
 
 #### Source
 
-main.ts:41200
+main.ts:41169
 
 ***
 
@@ -237,7 +237,7 @@ Note: if the search_this_area mode is turned off, Google Maps listings might con
 
 #### Source
 
-main.ts:41192
+main.ts:41161
 
 ***
 
@@ -253,7 +253,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:41206
+main.ts:41175
 
 ***
 
@@ -269,4 +269,4 @@ https://google.com/maps/search/pizza/@37.09024,-95.712891,4z
 
 #### Source
 
-main.ts:41101
+main.ts:41070

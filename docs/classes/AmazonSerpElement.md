@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:178694
+main.ts:178647
 
 ## Properties
 
@@ -46,7 +46,7 @@ number of product purchases in the past month
 
 #### Source
 
-main.ts:178659
+main.ts:178612
 
 ***
 
@@ -64,7 +64,7 @@ USD
 
 #### Source
 
-main.ts:178671
+main.ts:178624
 
 ***
 
@@ -83,7 +83,7 @@ B07G82D89J
 
 #### Source
 
-main.ts:178679
+main.ts:178632
 
 ***
 
@@ -100,7 +100,7 @@ delivery information including free and fast delivery date ranges
 
 #### Source
 
-main.ts:178690
+main.ts:178643
 
 ***
 
@@ -116,7 +116,7 @@ Amazon domain
 
 #### Source
 
-main.ts:178651
+main.ts:178604
 
 ***
 
@@ -132,7 +132,7 @@ URL of the product image featured in the results
 
 #### Source
 
-main.ts:178657
+main.ts:178610
 
 ***
 
@@ -149,7 +149,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 #### Source
 
-main.ts:178684
+main.ts:178637
 
 ***
 
@@ -166,7 +166,7 @@ if the value is true, the product is marked with the “Best Seller” label
 
 #### Source
 
-main.ts:178687
+main.ts:178640
 
 ***
 
@@ -184,7 +184,7 @@ example:
 
 #### Source
 
-main.ts:178663
+main.ts:178616
 
 ***
 
@@ -202,7 +202,7 @@ example:
 
 #### Source
 
-main.ts:178667
+main.ts:178620
 
 ***
 
@@ -218,7 +218,7 @@ product rating info
 
 #### Source
 
-main.ts:178681
+main.ts:178634
 
 ***
 
@@ -235,7 +235,7 @@ contains special offer details, including coupon and Subscribe & Save discounts
 
 #### Source
 
-main.ts:178674
+main.ts:178627
 
 ***
 
@@ -251,7 +251,7 @@ product title
 
 #### Source
 
-main.ts:178653
+main.ts:178606
 
 ***
 
@@ -267,7 +267,7 @@ type of element
 
 #### Source
 
-main.ts:178647
+main.ts:178600
 
 ***
 
@@ -283,7 +283,7 @@ the URL of the product page
 
 #### Source
 
-main.ts:178655
+main.ts:178608
 
 ***
 
@@ -299,7 +299,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:178649
+main.ts:178602
 
 ## Methods
 
@@ -317,7 +317,7 @@ main.ts:178649
 
 #### Source
 
-main.ts:178703
+main.ts:178656
 
 ***
 
@@ -335,7 +335,7 @@ main.ts:178703
 
 #### Source
 
-main.ts:178739
+main.ts:178692
 
 ***
 
@@ -353,4 +353,4 @@ main.ts:178739
 
 #### Source
 
-main.ts:178732
+main.ts:178685

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:151980
+main.ts:151893
 
 ## Properties
 
@@ -46,7 +46,7 @@ column where the error was found
 
 #### Source
 
-main.ts:151962
+main.ts:151875
 
 ***
 
@@ -62,7 +62,7 @@ line where the error was found
 
 #### Source
 
-main.ts:151960
+main.ts:151873
 
 ***
 
@@ -79,7 +79,7 @@ the full list of possible HTML errors can be found here
 
 #### Source
 
-main.ts:151965
+main.ts:151878
 
 ***
 
@@ -104,7 +104,7 @@ possible values:
 
 #### Source
 
-main.ts:151976
+main.ts:151889
 
 ## Methods
 
@@ -122,7 +122,7 @@ main.ts:151976
 
 #### Source
 
-main.ts:151989
+main.ts:151902
 
 ***
 
@@ -140,7 +140,7 @@ main.ts:151989
 
 #### Source
 
-main.ts:152009
+main.ts:151922
 
 ***
 
@@ -158,4 +158,4 @@ main.ts:152009
 
 #### Source
 
-main.ts:152002
+main.ts:151915

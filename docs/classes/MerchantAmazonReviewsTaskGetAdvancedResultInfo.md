@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:183631
+main.ts:183580
 
 ## Properties
 
@@ -46,7 +46,7 @@ asin received in a POST array
 
 #### Source
 
-main.ts:183587
+main.ts:183536
 
 ***
 
@@ -63,7 +63,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:183598
+main.ts:183547
 
 ***
 
@@ -82,7 +82,7 @@ example:
 
 #### Source
 
-main.ts:183603
+main.ts:183552
 
 ***
 
@@ -98,7 +98,7 @@ product image data
 
 #### Source
 
-main.ts:183611
+main.ts:183560
 
 ***
 
@@ -117,7 +117,7 @@ amazon_review_item
 
 #### Source
 
-main.ts:183621
+main.ts:183570
 
 ***
 
@@ -134,7 +134,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Source
 
-main.ts:183627
+main.ts:183576
 
 ***
 
@@ -151,7 +151,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Source
 
-main.ts:183624
+main.ts:183573
 
 ***
 
@@ -167,7 +167,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:183595
+main.ts:183544
 
 ***
 
@@ -183,7 +183,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:183593
+main.ts:183542
 
 ***
 
@@ -200,7 +200,7 @@ popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:183614
+main.ts:183563
 
 ***
 
@@ -216,7 +216,7 @@ the total number of reviews
 
 #### Source
 
-main.ts:183616
+main.ts:183565
 
 ***
 
@@ -232,7 +232,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:183591
+main.ts:183540
 
 ***
 
@@ -249,7 +249,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Source
 
-main.ts:183606
+main.ts:183555
 
 ***
 
@@ -266,7 +266,7 @@ the title of the product for which the reviews are collected
 
 #### Source
 
-main.ts:183609
+main.ts:183558
 
 ***
 
@@ -282,7 +282,7 @@ type of element
 
 #### Source
 
-main.ts:183589
+main.ts:183538
 
 ## Methods
 
@@ -300,7 +300,7 @@ main.ts:183589
 
 #### Source
 
-main.ts:183640
+main.ts:183589
 
 ***
 
@@ -318,7 +318,7 @@ main.ts:183640
 
 #### Source
 
-main.ts:183679
+main.ts:183628
 
 ***
 
@@ -336,4 +336,4 @@ main.ts:183679
 
 #### Source
 
-main.ts:183672
+main.ts:183621

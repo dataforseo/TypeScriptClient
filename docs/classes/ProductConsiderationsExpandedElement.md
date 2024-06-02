@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:35766
+main.ts:35637
 
 ## Properties
 
@@ -48,7 +48,7 @@ this feature appears after clicking on the three dots next to most results
 
 #### Source
 
-main.ts:35762
+main.ts:35633
 
 ***
 
@@ -64,7 +64,7 @@ breadcrumb of the Ad element in SERP
 
 #### Source
 
-main.ts:35745
+main.ts:35616
 
 ***
 
@@ -80,7 +80,7 @@ domain where a link points
 
 #### Source
 
-main.ts:35749
+main.ts:35620
 
 ***
 
@@ -96,7 +96,7 @@ the title of the featured snippets source page
 
 #### Source
 
-main.ts:35743
+main.ts:35614
 
 ***
 
@@ -112,7 +112,7 @@ search queries related to the elment
 
 #### Source
 
-main.ts:35758
+main.ts:35629
 
 ***
 
@@ -128,7 +128,7 @@ text alongside the link title
 
 #### Source
 
-main.ts:35747
+main.ts:35618
 
 ***
 
@@ -147,7 +147,7 @@ example:
 
 #### Source
 
-main.ts:35756
+main.ts:35627
 
 ***
 
@@ -163,7 +163,7 @@ title of the carousel item
 
 #### Source
 
-main.ts:35741
+main.ts:35612
 
 ***
 
@@ -179,7 +179,7 @@ type of element
 
 #### Source
 
-main.ts:35739
+main.ts:35610
 
 ***
 
@@ -195,7 +195,7 @@ URL of element
 
 #### Source
 
-main.ts:35751
+main.ts:35622
 
 ## Methods
 
@@ -213,7 +213,7 @@ main.ts:35751
 
 #### Source
 
-main.ts:35775
+main.ts:35646
 
 ***
 
@@ -231,7 +231,7 @@ main.ts:35775
 
 #### Source
 
-main.ts:35805
+main.ts:35676
 
 ***
 
@@ -249,4 +249,4 @@ main.ts:35805
 
 #### Source
 
-main.ts:35798
+main.ts:35669

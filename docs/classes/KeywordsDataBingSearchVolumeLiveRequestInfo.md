@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:129729
+main.ts:129832
 
 ## Properties
 
@@ -52,7 +52,7 @@ example:
 
 #### Source
 
-main.ts:129704
+main.ts:129807
 
 ***
 
@@ -76,7 +76,7 @@ example:
 
 #### Source
 
-main.ts:129714
+main.ts:129817
 
 ***
 
@@ -95,7 +95,7 @@ default value: all
 
 #### Source
 
-main.ts:129691
+main.ts:129794
 
 ***
 
@@ -115,7 +115,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 #### Source
 
-main.ts:129652
+main.ts:129755
 
 ***
 
@@ -135,7 +135,7 @@ en, fr, de
 
 #### Source
 
-main.ts:129686
+main.ts:129789
 
 ***
 
@@ -155,7 +155,7 @@ English, French, German
 
 #### Source
 
-main.ts:129680
+main.ts:129783
 
 ***
 
@@ -176,7 +176,7 @@ example:
 
 #### Source
 
-main.ts:129666
+main.ts:129769
 
 ***
 
@@ -198,7 +198,7 @@ example:
 
 #### Source
 
-main.ts:129674
+main.ts:129777
 
 ***
 
@@ -219,7 +219,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:129659
+main.ts:129762
 
 ***
 
@@ -238,7 +238,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 #### Source
 
-main.ts:129719
+main.ts:129822
 
 ***
 
@@ -257,7 +257,7 @@ default value: relevance
 
 #### Source
 
-main.ts:129696
+main.ts:129799
 
 ***
 
@@ -277,7 +277,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:129725
+main.ts:129828
 
 ## Methods
 
@@ -295,7 +295,7 @@ main.ts:129725
 
 #### Source
 
-main.ts:129738
+main.ts:129841
 
 ***
 
@@ -313,7 +313,7 @@ main.ts:129738
 
 #### Source
 
-main.ts:129770
+main.ts:129873
 
 ***
 
@@ -331,4 +331,4 @@ main.ts:129770
 
 #### Source
 
-main.ts:129763
+main.ts:129866

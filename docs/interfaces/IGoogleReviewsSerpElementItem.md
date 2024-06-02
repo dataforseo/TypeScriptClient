@@ -24,7 +24,7 @@ google-defined client id
 
 #### Source
 
-main.ts:30434
+main.ts:30305
 
 ***
 
@@ -36,7 +36,7 @@ the additional feature of the review
 
 #### Source
 
-main.ts:30432
+main.ts:30303
 
 ***
 
@@ -48,7 +48,7 @@ the identifier of a place
 
 #### Source
 
-main.ts:30430
+main.ts:30301
 
 ***
 
@@ -62,7 +62,7 @@ left, right
 
 #### Source
 
-main.ts:30421
+main.ts:30292
 
 ***
 
@@ -76,7 +76,7 @@ always equals 0 for desktop
 
 #### Source
 
-main.ts:30417
+main.ts:30288
 
 ***
 
@@ -91,7 +91,7 @@ always equals 0 for desktop
 
 #### Source
 
-main.ts:30413
+main.ts:30284
 
 ***
 
@@ -104,7 +104,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:30428
+main.ts:30299
 
 ***
 
@@ -118,7 +118,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Source
 
-main.ts:30438
+main.ts:30309
 
 ***
 
@@ -130,7 +130,7 @@ the number of reviews
 
 #### Source
 
-main.ts:30425
+main.ts:30296
 
 ***
 
@@ -142,4 +142,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:30423
+main.ts:30294

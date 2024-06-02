@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:129425
+main.ts:129528
 
 ## Properties
 
@@ -47,7 +47,7 @@ our API doesn’t return categories for this endpoint: the parameter will always
 
 #### Source
 
-main.ts:129417
+main.ts:129520
 
 ***
 
@@ -69,7 +69,7 @@ if there is no data the value is null
 
 #### Source
 
-main.ts:129405
+main.ts:129508
 
 ***
 
@@ -87,7 +87,7 @@ if there is no data then the value is null
 
 #### Source
 
-main.ts:129409
+main.ts:129512
 
 ***
 
@@ -104,7 +104,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:129397
+main.ts:129500
 
 ***
 
@@ -120,7 +120,7 @@ keyword in a POST array
 
 #### Source
 
-main.ts:129388
+main.ts:129491
 
 ***
 
@@ -136,7 +136,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:129392
+main.ts:129495
 
 ***
 
@@ -152,7 +152,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:129390
+main.ts:129493
 
 ***
 
@@ -170,7 +170,7 @@ if there is no data then the value is null
 
 #### Source
 
-main.ts:129421
+main.ts:129524
 
 ***
 
@@ -186,7 +186,7 @@ indicates whether data from partner networks included in the response
 
 #### Source
 
-main.ts:129394
+main.ts:129497
 
 ***
 
@@ -205,7 +205,7 @@ if there is no data then the value is null
 
 #### Source
 
-main.ts:129414
+main.ts:129517
 
 ## Methods
 
@@ -223,7 +223,7 @@ main.ts:129414
 
 #### Source
 
-main.ts:129434
+main.ts:129537
 
 ***
 
@@ -241,7 +241,7 @@ main.ts:129434
 
 #### Source
 
-main.ts:129468
+main.ts:129571
 
 ***
 
@@ -259,4 +259,4 @@ main.ts:129468
 
 #### Source
 
-main.ts:129461
+main.ts:129564

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:29627
+main.ts:29498
 
 ## Properties
 
@@ -46,7 +46,7 @@ expanded element
 
 #### Source
 
-main.ts:29623
+main.ts:29494
 
 ***
 
@@ -62,7 +62,7 @@ question that triggered additional expanded elements
 
 #### Source
 
-main.ts:29619
+main.ts:29490
 
 ***
 
@@ -78,7 +78,7 @@ title of a given link element
 
 #### Source
 
-main.ts:29617
+main.ts:29488
 
 ***
 
@@ -94,7 +94,7 @@ type of element
 
 #### Source
 
-main.ts:29615
+main.ts:29486
 
 ***
 
@@ -110,7 +110,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:29621
+main.ts:29492
 
 ## Methods
 
@@ -128,7 +128,7 @@ main.ts:29621
 
 #### Source
 
-main.ts:29636
+main.ts:29507
 
 ***
 
@@ -146,7 +146,7 @@ main.ts:29636
 
 #### Source
 
-main.ts:29661
+main.ts:29532
 
 ***
 
@@ -164,4 +164,4 @@ main.ts:29661
 
 #### Source
 
-main.ts:29654
+main.ts:29525

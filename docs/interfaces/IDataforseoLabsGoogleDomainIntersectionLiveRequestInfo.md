@@ -35,7 +35,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:92606
+main.ts:92665
 
 ***
 
@@ -50,7 +50,7 @@ default value: false
 
 #### Source
 
-main.ts:92579
+main.ts:92638
 
 ***
 
@@ -68,7 +68,7 @@ default value: true
 
 #### Source
 
-main.ts:92566
+main.ts:92625
 
 ***
 
@@ -86,7 +86,7 @@ default value:
 
 #### Source
 
-main.ts:92574
+main.ts:92633
 
 ***
 
@@ -104,7 +104,7 @@ en
 
 #### Source
 
-main.ts:92558
+main.ts:92617
 
 ***
 
@@ -122,7 +122,7 @@ English
 
 #### Source
 
-main.ts:92550
+main.ts:92609
 
 ***
 
@@ -137,7 +137,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:92584
+main.ts:92643
 
 ***
 
@@ -155,7 +155,7 @@ example:
 
 #### Source
 
-main.ts:92542
+main.ts:92601
 
 ***
 
@@ -173,7 +173,7 @@ United Kingdom
 
 #### Source
 
-main.ts:92534
+main.ts:92593
 
 ***
 
@@ -188,7 +188,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:92589
+main.ts:92648
 
 ***
 
@@ -214,7 +214,7 @@ example:
 
 #### Source
 
-main.ts:92622
+main.ts:92681
 
 ***
 
@@ -230,7 +230,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:92628
+main.ts:92687
 
 ***
 
@@ -245,7 +245,7 @@ the domain should be specified without https:// and www.
 
 #### Source
 
-main.ts:92521
+main.ts:92580
 
 ***
 
@@ -260,4 +260,4 @@ the domain should be specified without https:// and www.
 
 #### Source
 
-main.ts:92526
+main.ts:92585
